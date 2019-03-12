@@ -17,26 +17,26 @@ virtual REQUEST_NOTIFICATION_STATUS OnResolveRequestCache(
   
 ### Parameters  
  `pHttpContext`  
- [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
+ [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
  `pProvider`  
- [IN] A pointer to an [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface.  
+ [IN] A pointer to an [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
- A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) value.  
+ A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
- When a request-level module is registered for the [RQ_RESOLVE_REQUEST_CACHE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnResolveRequestCache` method when IIS resolves a request in the cache.  
+ When a request-level module is registered for the [RQ_RESOLVE_REQUEST_CACHE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnResolveRequestCache` method when IIS resolves a request in the cache.  
   
 > [!NOTE]
->  Request-level modules can register for the `ResolveRequestCache` event notification by registering for `RQ_RESOLVE_REQUEST_CACHE` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+>  Request-level modules can register for the `ResolveRequestCache` event notification by registering for `RQ_RESOLVE_REQUEST_CACHE` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
- The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_RESOLVE_REQUEST_CACHE` event and post-event notifications. When IIS resolves a request from the cache, IIS will call the example module's `OnResolveRequestCache` and [OnPostResolveRequestCache](../../web-development-reference\native-code-api-reference/chttpmodule-onpostresolverequestcache-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
+ The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_RESOLVE_REQUEST_CACHE` event and post-event notifications. When IIS resolves a request from the cache, IIS will call the example module's `OnResolveRequestCache` and [OnPostResolveRequestCache](../../web-development-reference/native-code-api-reference/chttpmodule-onpostresolverequestcache-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
 <!-- TODO: review snippet reference  [!CODE [CHttpModuleResolveRequestCache#1](CHttpModuleResolveRequestCache#1)]  -->  
   
- Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -50,5 +50,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnResolveRequestCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)   
- [CHttpModule::OnPostResolveRequestCache Method](../../web-development-reference\native-code-api-reference/chttpmodule-onpostresolverequestcache-method.md)
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule::OnPostResolveRequestCache Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostresolverequestcache-method.md)

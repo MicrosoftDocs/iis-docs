@@ -27,7 +27,7 @@ struct HTTP_TRACE_CONFIGURATION{
 |`fProviderEnabled`|`true` if `pProviderGuid` is initialized to a valid current value; otherwise, `false`.|  
   
 ## Remarks  
- You can call the [IHttpTraceContext::GetTraceConfiguration](../../web-development-reference\native-code-api-reference/ihttptracecontext-gettraceconfiguration-method.md) method to read or write an `HTTP_TRACE_CONFIGURATION` pointer as an IN/OUT parameter, or you can call the [IHttpTraceContext::SetTraceConfiguration](../../web-development-reference\native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md) method to read an `HTTP_TRACE_CONFIGURATION` pointer as an IN parameter only. When a trace consumer calls `SetTraceConfiguration`, the `HTTP_TRACE_CONFIGURATION` pointer provides the specific areas to trace to an [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) interface.  
+ You can call the [IHttpTraceContext::GetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-gettraceconfiguration-method.md) method to read or write an `HTTP_TRACE_CONFIGURATION` pointer as an IN/OUT parameter, or you can call the [IHttpTraceContext::SetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md) method to read an `HTTP_TRACE_CONFIGURATION` pointer as an IN parameter only. When a trace consumer calls `SetTraceConfiguration`, the `HTTP_TRACE_CONFIGURATION` pointer provides the specific areas to trace to an [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) interface.  
   
 > [!NOTE]
 >  This list of areas is private, but a value of 0xffffe will enable tracing for all areas.  
@@ -36,7 +36,7 @@ struct HTTP_TRACE_CONFIGURATION{
   
  Before you call `SetTraceConfiguration`, verify that the `HTTP_TRACE_CONFIGURATION` pointer and all of its members are initialized. Before you call `GetTraceConfiguration`, verify that the `pProviderGuid` member is initialized to a valid current value; otherwise, the `fProviderEnabled` member will be set to `false`, and `IHttpTraceContext` implementers will immediately return.  
   
- See [IIS Tracing Constants](../../web-development-reference\native-code-api-reference/tracing-constants.md) for defined GUID values that can be assigned to the `pProviderGuid` member.  
+ See [IIS Tracing Constants](../../web-development-reference/native-code-api-reference/tracing-constants.md) for defined GUID values that can be assigned to the `pProviderGuid` member.  
   
 > [!CAUTION]
 >  Because implementers are required to set only the `fProviderEnabled` member during a call to `GetTraceConfiguration`, you should access the remaining members after the method call only if `fProviderEnabled` is `true`; otherwise, these remaining members will be unchanged and invalid.  
@@ -45,7 +45,7 @@ struct HTTP_TRACE_CONFIGURATION{
 > You should initialize all fields to known values before calling either the `SetTraceConfiguration` or `GetTraceConfiguration` methods, because the implementation may change.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the [HTTP_TRACE_CONFIGURATION](../../web-development-reference\native-code-api-reference/http-trace-configuration-structure.md) information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -66,7 +66,7 @@ struct HTTP_TRACE_CONFIGURATION{
 </cacheProvider>  
 ```  
   
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -80,4 +80,4 @@ struct HTTP_TRACE_CONFIGURATION{
 |Header|Httptrace.h|  
   
 ## See Also  
- [Web Server Core Structures](../../web-development-reference\native-code-api-reference/web-server-core-structures.md)
+ [Web Server Core Structures](../../web-development-reference/native-code-api-reference/web-server-core-structures.md)

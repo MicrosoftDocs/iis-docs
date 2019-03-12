@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 873a0b2a-1dc8-482d-9adc-f407645ba6db
 ---
 # IHttpCachePolicy2 Interface
-Provides [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.  
+Provides [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.  
   
 ## Syntax  
   
@@ -17,14 +17,14 @@ class IHttpCachePolicy2
   
 |Name|Description|  
 |----------|-----------------|  
-|[IHttpCachePolicy2::SetForceUpdate Method](../../web-development-reference\native-code-api-reference/ihttpcachepolicy2-setforceupdate-method.md)|Sets a value that indicates that the cache should be updated for a specific request or request variation.|  
-|[IHttpCachePolicy2::IsForceUpdateSet Method](../../web-development-reference\native-code-api-reference/ihttpcachepolicy2-isforceupdateset-method.md)|Gets a value that determines if the force update flag has been set.|  
+|[IHttpCachePolicy2::SetForceUpdate Method](../../web-development-reference/native-code-api-reference/ihttpcachepolicy2-setforceupdate-method.md)|Sets a value that indicates that the cache should be updated for a specific request or request variation.|  
+|[IHttpCachePolicy2::IsForceUpdateSet Method](../../web-development-reference/native-code-api-reference/ihttpcachepolicy2-isforceupdateset-method.md)|Gets a value that determines if the force update flag has been set.|  
   
 ## Derived Classes  
  This class contains no derived classes.  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method.  
+ [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method.  
   
 ## Requirements  
   
@@ -36,4 +36,4 @@ class IHttpCachePolicy2
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

@@ -28,7 +28,7 @@ typedef enum REQUEST_NOTIFICATION_STATUS{
  The members of the `REQUEST_NOTIFICATION_STATUS` enumeration are used as return values from request-level notifications, and the members help to control process flow within the integrated request-processing pipeline. For example, returning `RQ_NOTIFICATION_CONTINUE` from a request-level notification handler instructs IIS to continue processing additional request-level notifications, whereas returning `RQ_NOTIFICATION_FINISH_REQUEST` from a request-level notification handler informs IIS that request-level processing is complete and IIS should not process additional request-level notifications. Modules that implement request handling should return `RQ_NOTIFICATION_FINISH_REQUEST` when an error occurs.  
   
 ## Example  
- The following example implements a `RQ_BEGIN_REQUEST` handler. If the request is not an HTML file, the example returns `RQ_NOTIFICATION_CONTINUE` and normal processing occurs. When the counter value has a zero remainder, the requested file is replaced by a string returned by the [IHttpResponse::WriteEntityChunkByReference](../../web-development-reference\native-code-api-reference/ihttpresponse-writeentitychunkbyreference-method.md) method and the example returns `RQ_NOTIFICATION_FINISH_REQUEST`. If an error occurs, the example logs the error and returns `RQ_NOTIFICATION_FINISH_REQUEST`.  
+ The following example implements a `RQ_BEGIN_REQUEST` handler. If the request is not an HTML file, the example returns `RQ_NOTIFICATION_CONTINUE` and normal processing occurs. When the counter value has a zero remainder, the requested file is replaced by a string returned by the [IHttpResponse::WriteEntityChunkByReference](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunkbyreference-method.md) method and the example returns `RQ_NOTIFICATION_FINISH_REQUEST`. If an error occurs, the example logs the error and returns `RQ_NOTIFICATION_FINISH_REQUEST`.  
   
 <!-- TODO: review snippet reference  [!CODE [_RaiseEvnt#2](_RaiseEvnt#2)]  -->  
 <!-- TODO: review snippet reference [!CODE [_RaiseEvnt#1](_RaiseEvnt#1)]  -->  
@@ -43,5 +43,5 @@ typedef enum REQUEST_NOTIFICATION_STATUS{
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Enumerations](../../web-development-reference\native-code-api-reference/web-server-core-enumerations.md)   
- [GLOBAL_NOTIFICATION_STATUS Enumeration](../../web-development-reference\native-code-api-reference/global-notification-status-enumeration.md)
+ [Web Server Core Enumerations](../../web-development-reference/native-code-api-reference/web-server-core-enumerations.md)   
+ [GLOBAL_NOTIFICATION_STATUS Enumeration](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md)

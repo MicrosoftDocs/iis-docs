@@ -36,4 +36,4 @@ Gets a string that describes how the corresponding property should be formatted 
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

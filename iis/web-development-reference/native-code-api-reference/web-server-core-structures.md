@@ -11,9 +11,9 @@ This section describes the Web Server Core and integrated request-processing pip
   
 |Structure|Description|  
 |---------------|-----------------|  
-|[HTTP_TRACE_CONFIGURATION](../../web-development-reference\native-code-api-reference/http-trace-configuration-structure.md)|Contains tracing information for use with trace providers and consumers.|  
-|[HTTP_TRACE_EVENT](../../web-development-reference\native-code-api-reference/http-trace-event-structure.md)|Contains tracing information returned from trace providers.|  
-|[HTTP_TRACE_EVENT_ITEM](../../web-development-reference\native-code-api-reference/http-trace-event-item-structure.md)|Contains itemized tracing information returned from trace providers.|  
+|[HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md)|Contains tracing information for use with trace providers and consumers.|  
+|[HTTP_TRACE_EVENT](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md)|Contains tracing information returned from trace providers.|  
+|[HTTP_TRACE_EVENT_ITEM](../../web-development-reference/native-code-api-reference/http-trace-event-item-structure.md)|Contains itemized tracing information returned from trace providers.|  
   
 ## See Also  
- [Web Server Core API Reference](../../web-development-reference\native-code-api-reference/web-server-core-api-reference.md)
+ [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)

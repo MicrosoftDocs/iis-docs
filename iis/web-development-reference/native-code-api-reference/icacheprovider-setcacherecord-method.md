@@ -16,26 +16,26 @@ virtual VOID SetCacheRecord(
   
 ### Parameters  
  `pCacheRecord`  
- A pointer to an [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) value.  
+ A pointer to an [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) value.  
   
 ## Remarks  
- The `pCacheRecord` parameter must not be NULL, because later internal calls to the [GetCacheRecord](../../web-development-reference\native-code-api-reference/icacheprovider-getcacherecord-method.md) method may cause an access violation.  
+ The `pCacheRecord` parameter must not be NULL, because later internal calls to the [GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md) method may cause an access violation.  
   
 > [!IMPORTANT]
 >  The `SetCacheRecord` method is part of the IIS infrastructure and is not intended to be used directly from your code.  
   
 ## Notes for Implementers  
- [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) implementers declare a `private``IHttpCacheSpecificData` pointer as member data. When constructors of these implementers are called, this member data is assigned to an `IHttpCacheSpecificData` pointer. Before calling `SetCacheRecord`, the caller is responsible for first calling [IHttpCacheSpecificData::ReferenceCacheData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-referencecachedata-method.md) on the `IHttpCacheSpecificData` pointer; `SetCacheRecord` implementers then assign the `private` variable to this `IHttpCacheSpecificData` pointer.  
+ [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) implementers declare a `private``IHttpCacheSpecificData` pointer as member data. When constructors of these implementers are called, this member data is assigned to an `IHttpCacheSpecificData` pointer. Before calling `SetCacheRecord`, the caller is responsible for first calling [IHttpCacheSpecificData::ReferenceCacheData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-referencecachedata-method.md) on the `IHttpCacheSpecificData` pointer; `SetCacheRecord` implementers then assign the `private` variable to this `IHttpCacheSpecificData` pointer.  
   
- When `SetCacheRecord` is called, implementers should first check if the current `private` member pointer is non-NULL. If the `private` data is non-NULL, call [IHttpCacheSpecificData::DereferenceCacheData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-dereferencecachedata-method.md) first on this current data so that it can be released, but then always assign the `private` variable to the `pCacheRecord` parameter.  
+ When `SetCacheRecord` is called, implementers should first check if the current `private` member pointer is non-NULL. If the `private` data is non-NULL, call [IHttpCacheSpecificData::DereferenceCacheData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-dereferencecachedata-method.md) first on this current data so that it can be released, but then always assign the `private` variable to the `pCacheRecord` parameter.  
   
- The following table is a sample of one-to-one interface mappings that must be returned from the [GetCacheKey](../../web-development-reference\native-code-api-reference/icacheprovider-getcachekey-method.md) and `GetCacheRecord` methods from the same implementer of the `ICacheProvider` interface.  
+ The following table is a sample of one-to-one interface mappings that must be returned from the [GetCacheKey](../../web-development-reference/native-code-api-reference/icacheprovider-getcachekey-method.md) and `GetCacheRecord` methods from the same implementer of the `ICacheProvider` interface.  
   
 |GetCacheKey interface|GetCacheRecord interface|  
 |---------------------------|------------------------------|  
-|[IFileKey](../../web-development-reference\native-code-api-reference/ifilekey-interface.md)|[IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md)|  
-|[IHttpTokenKey](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md)|[IHttpTokenEntry](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md)|  
-|[IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md)|`IHttpCacheSpecificData`|  
+|[IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md)|[IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)|  
+|[IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md)|[IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)|  
+|[IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)|`IHttpCacheSpecificData`|  
   
 ## Notes for Callers  
  `ICacheProvider` implementers take ownership of the `IHttpCacheSpecificData` pointer. Before calling `SetCacheRecord`, first call `IHttpCacheSpecificData::ReferenceCacheData` on the pointer so that this pointer has one owner.  
@@ -50,4 +50,4 @@ virtual VOID SetCacheRecord(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ICacheProvider Interface](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md)
+ [ICacheProvider Interface](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md)

@@ -17,17 +17,17 @@ IGlobalApplicationPreloadProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[CreateContext](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider-createcontext-method.md)|Creates an HTTP context and returns a pointer to the context object.|  
-|[ExecuteRequest](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider-executerequest-method.md)|Runs an HTTP request given its context and user information.|  
+|[CreateContext](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-createcontext-method.md)|Creates an HTTP context and returns a pointer to the context object.|  
+|[ExecuteRequest](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-executerequest-method.md)|Runs an HTTP request given its context and user information.|  
   
 ## Derived Classes  
   
 |Name|Description|  
 |----------|-----------------|  
-|[IGlobalApplicationPreloadProvider2](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider2-interface.md)|Provides information about whether an application’s worker process is recycled.|  
+|[IGlobalApplicationPreloadProvider2](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider2-interface.md)|Provides information about whether an application’s worker process is recycled.|  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalApplicationPreloadProvider`  
   
@@ -41,4 +41,4 @@ IGlobalApplicationPreloadProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

@@ -17,8 +17,8 @@ interface IAppHostConfigManager : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetConfigFile](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-getconfigfile-method.md)|Gets a configuration file that is represented by the requested configuration path.|  
-|[GetUniqueConfigPath](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-getuniqueconfigpath-method.md)|Gets a unique configuration path that represents the deepest path where configuration is defined.|  
+|[GetConfigFile](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-getconfigfile-method.md)|Gets a configuration file that is represented by the requested configuration path.|  
+|[GetUniqueConfigPath](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-getuniqueconfigpath-method.md)|Gets a unique configuration path that represents the deepest path where configuration is defined.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -38,5 +38,5 @@ interface IAppHostConfigManager : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [IAppHostConfigFile Interface](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)

@@ -23,7 +23,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_CREATED)(
   
 ### Parameters  
  `pContext`  
- [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
+ [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
  `AppKey`  
  [IN] A pointer to a string that contains the key for finding the application domain.  
@@ -66,5 +66,5 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_CREATED)(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference\native-code-api-reference/listener-adapter-callback-functions.md)   
- [WebhostRegisterProtocol Function](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md)
+ [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
+ [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

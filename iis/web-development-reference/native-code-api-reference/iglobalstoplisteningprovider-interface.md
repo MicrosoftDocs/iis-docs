@@ -17,17 +17,17 @@ class IGlobalStopListeningProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[DrainRequestsGracefully](../../web-development-reference\native-code-api-reference/iglobalstoplisteningprovider-drainrequestsgracefully-method.md)|Indicates whether IIS will gracefully close any currently pending requests.|  
-|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[DrainRequestsGracefully](../../web-development-reference/native-code-api-reference/iglobalstoplisteningprovider-drainrequestsgracefully-method.md)|Indicates whether IIS will gracefully close any currently pending requests.|  
+|[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- IIS creates and passes an `IGlobalStopListeningProvider` interface to a module's [CGlobalModule::OnGlobalStopListening](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md) method when the module has registered for the [GL_STOP_LISTENING](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+ IIS creates and passes an `IGlobalStopListeningProvider` interface to a module's [CGlobalModule::OnGlobalStopListening](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md) method when the module has registered for the [GL_STOP_LISTENING](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalStopListeningProvider`  
   
@@ -41,5 +41,5 @@ class IGlobalStopListeningProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
- [CGlobalModule::OnGlobalStopListening Method](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [CGlobalModule::OnGlobalStopListening Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md)

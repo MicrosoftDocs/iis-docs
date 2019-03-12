@@ -35,4 +35,4 @@ virtual HRESULT __stdcall IsIdle(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHostIdleAndHealthMonitor Interface](../../web-development-reference\native-code-api-reference/iprocesshostidleandhealthmonitor-interface.md)
+ [IProcessHostIdleAndHealthMonitor Interface](../../web-development-reference/native-code-api-reference/iprocesshostidleandhealthmonitor-interface.md)

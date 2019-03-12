@@ -17,7 +17,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED)(
   
 ### Parameters  
  `pContext`  
- [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
+ [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
  `AppPoolId`  
  [IN] A pointer to a string that contains the application pool that has been deleted from the listener adapter's view.  
@@ -42,4 +42,4 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED)(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference\native-code-api-reference/listener-adapter-callback-functions.md)
+ [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)

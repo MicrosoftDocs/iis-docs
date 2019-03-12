@@ -33,4 +33,4 @@ virtual ULONGLONG GetRequestElapsedTime(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext4 Interface](../../web-development-reference\native-code-api-reference/ihttpcontext4-interface.md)
+ [IHttpContext4 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext4-interface.md)

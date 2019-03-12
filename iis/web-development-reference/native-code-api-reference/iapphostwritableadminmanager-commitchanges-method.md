@@ -38,4 +38,4 @@ HRESULT CommitChanges(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostWritableAdminManager Interface](../../web-development-reference\native-code-api-reference/iapphostwritableadminmanager-interface.md)
+ [IAppHostWritableAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-interface.md)

@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 20414c79-703f-42a8-a482-1b91cbac92c1
 ---
 # IAppHostMethodInstance::Input Property
-Gets an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that may contain input parameters for a specified method instance call.  
+Gets an [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) that may contain input parameters for a specified method instance call.  
   
 ## Syntax  
   
@@ -16,7 +16,7 @@ Gets an [IAppHostElement Interface](../../web-development-reference\native-code-
   
 ### Parameters  
  `ppInputElement`  
- Contains the [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that may contain the input parameters for a specified method instance call.  
+ Contains the [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) that may contain the input parameters for a specified method instance call.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -35,4 +35,4 @@ Gets an [IAppHostElement Interface](../../web-development-reference\native-code-
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md)
+ [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

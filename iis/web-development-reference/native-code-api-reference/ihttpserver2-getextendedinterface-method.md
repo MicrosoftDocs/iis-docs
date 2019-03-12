@@ -38,7 +38,7 @@ virtual HRESULT GetExtendedInterface(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- This method is intended for down casting a base class pointer to a derived class. For example, assuming you have an existing instance pointer to [IHttpRequest](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md). your code would need to down cast to its derived class [IHttpRequest2](../../web-development-reference\native-code-api-reference/ihttprequest2-interface.md) in order to call one of its new methods.  
+ This method is intended for down casting a base class pointer to a derived class. For example, assuming you have an existing instance pointer to [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md). your code would need to down cast to its derived class [IHttpRequest2](../../web-development-reference/native-code-api-reference/ihttprequest2-interface.md) in order to call one of its new methods.  
   
 ```  
 HRESULT SomeFunction(   
@@ -53,7 +53,7 @@ HRESULT SomeFunction(
 }  
 ```  
   
- Instead of using `GetExtendedInterface`, you could use the client [HttpGetExtendedInterface](../../web-development-reference\native-code-api-reference/httpgetextendedinterface-function.md) utility function to down cast the pointer.  
+ Instead of using `GetExtendedInterface`, you could use the client [HttpGetExtendedInterface](../../web-development-reference/native-code-api-reference/httpgetextendedinterface-function.md) utility function to down cast the pointer.  
   
 ## Requirements  
   
@@ -65,4 +65,4 @@ HRESULT SomeFunction(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer2 Interface](../../web-development-reference\native-code-api-reference/ihttpserver2-interface.md)
+ [IHttpServer2 Interface](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)

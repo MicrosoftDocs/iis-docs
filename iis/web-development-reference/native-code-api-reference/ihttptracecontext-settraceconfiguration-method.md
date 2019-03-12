@@ -21,7 +21,7 @@ virtual HRESULT SetTraceConfiguration(
  [IN] An `HTTP_MODULE_ID` pointer that contains the module identifier for the trace configuration.  
   
  `pHttpTraceConfiguration`  
- [IN] An array of [HTTP_TRACE_CONFIGURATION](../../web-development-reference\native-code-api-reference/http-trace-configuration-structure.md) structures of length `cHttpTraceConfiguration`.  
+ [IN] An array of [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) structures of length `cHttpTraceConfiguration`.  
   
  `cHttpTraceConfiguration`  
  [IN] A `DWORD` that contains the number of `HTTP_TRACE_CONFIGURATION` structures pointed to by `pHttpTraceConfiguration`. The default is 1.  
@@ -44,10 +44,10 @@ virtual HRESULT SetTraceConfiguration(
  Neither the `moduleId` nor the `pHttpTraceConfiguration` parameter can be NULL; otherwise, the `SetTraceConfiguration` method will cause an access violation.  
   
 ## Thread Safety  
- Most implementers of the [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) interface are thread safe if only the [GetTraceConfiguration](../../web-development-reference\native-code-api-reference/ihttptracecontext-gettraceconfiguration-method.md) method is called. Calling the `SetTraceConfiguration` method is not guaranteed to be thread safe.  
+ Most implementers of the [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) interface are thread safe if only the [GetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-gettraceconfiguration-method.md) method is called. Calling the `SetTraceConfiguration` method is not guaranteed to be thread safe.  
   
 ### Comments  
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
 ## Requirements  
   
@@ -59,4 +59,4 @@ virtual HRESULT SetTraceConfiguration(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpTraceContext Interface](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md)
+ [IHttpTraceContext Interface](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md)

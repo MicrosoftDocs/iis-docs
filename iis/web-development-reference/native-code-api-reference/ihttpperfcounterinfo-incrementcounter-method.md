@@ -41,5 +41,5 @@ virtual VOID IncrementCounter(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpPerfCounterInfo Interface](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md)   
- [IHttpPerfCounterInfo::DecrementCounter Method](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-decrementcounter-method.md)
+ [IHttpPerfCounterInfo Interface](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md)   
+ [IHttpPerfCounterInfo::DecrementCounter Method](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-decrementcounter-method.md)

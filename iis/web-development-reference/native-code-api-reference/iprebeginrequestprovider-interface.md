@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d4ae5a10-95ec-0e4d-263b-291bc92c548b
 ---
 # IPreBeginRequestProvider Interface
-Provides a global-level interface for [GL_PRE_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  
+Provides a global-level interface for [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
   
 ## Syntax  
   
@@ -17,17 +17,17 @@ class IPreBeginRequestProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetHttpContext](../../web-development-reference\native-code-api-reference/iprebeginrequestprovider-gethttpcontext-method.md)|Retrieves an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.|  
-|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[GetHttpContext](../../web-development-reference/native-code-api-reference/iprebeginrequestprovider-gethttpcontext-method.md)|Retrieves an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.|  
+|[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- An `IPreBeginRequestProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalPreBeginRequest](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) method when the module has registered for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+ An `IPreBeginRequestProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) method when the module has registered for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IPreBeginRequestProvider`  
   
@@ -41,7 +41,7 @@ class IPreBeginRequestProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
- [CGlobalModule::OnGlobalPreBeginRequest Method](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md)   
- [IHttpEventProvider Interface](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)   
- [PFN_REGISTERMODULE Function](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [CGlobalModule::OnGlobalPreBeginRequest Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md)   
+ [IHttpEventProvider Interface](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)   
+ [PFN_REGISTERMODULE Function](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md)

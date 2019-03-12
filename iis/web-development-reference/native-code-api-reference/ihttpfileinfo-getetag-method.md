@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d2d7360d-8d40-f029-02da-36572b1b8a52
 ---
 # IHttpFileInfo::GetETag Method
-Retrieves the entity tag of the corresponding file for an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface.  
+Retrieves the entity tag of the corresponding file for an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface.  
   
 ## Syntax  
   
@@ -30,11 +30,11 @@ virtual PCSTR GetETag(
  After you call the `GetETag` method, the `pcchETag` parameter will contain the size, in bytes, of the entity tag that was returned.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference\native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetETag` method to retrieve the entity tag for the requested file and displays this information to a Web client.  
+ The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetETag` method to retrieve the entity tag for the requested file and displays this information to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpFileInfoGetETag#1](IHttpFileInfoGetETag#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -48,4 +48,4 @@ virtual PCSTR GetETag(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileInfo Interface](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md)
+ [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

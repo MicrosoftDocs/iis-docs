@@ -17,15 +17,15 @@ class IGlobalApplicationPreloadProvider2 : public IGlobalApplicationPreloadProvi
   
 |Name|Description|  
 |----------|-----------------|  
-|[IsProcessRecycled](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider2-isprocessrecycled-method.md)|Indicates whether the application’s worker process has recycled.|  
+|[IsProcessRecycled](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider2-isprocessrecycled-method.md)|Indicates whether the application’s worker process has recycled.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
- [IGlobalApplicationPreloadProvider](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)  
+ [IGlobalApplicationPreloadProvider](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)  
   
  `IGlobalApplicationPreloadProvider2`  
   
@@ -39,4 +39,4 @@ class IGlobalApplicationPreloadProvider2 : public IGlobalApplicationPreloadProvi
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

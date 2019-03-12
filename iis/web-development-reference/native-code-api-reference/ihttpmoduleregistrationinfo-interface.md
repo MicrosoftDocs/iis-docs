@@ -17,18 +17,18 @@ class IHttpModuleRegistrationInfo
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetId](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-getid-method.md)|Returns the unique identifier for the registered module.|  
-|[GetName](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-getname-method.md)|Retrieves the module name.|  
-|[SetGlobalNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)|Registers the global-level notifications for a module.|  
-|[SetPriorityForGlobalNotification](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)|Sets the global-level priority for a module.|  
-|[SetPriorityForRequestNotification](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)|Sets the request-level priority for a module.|  
-|[SetRequestNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md)|Registers the request-level notifications for a module.|  
+|[GetId](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-getid-method.md)|Returns the unique identifier for the registered module.|  
+|[GetName](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-getname-method.md)|Retrieves the module name.|  
+|[SetGlobalNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)|Registers the global-level notifications for a module.|  
+|[SetPriorityForGlobalNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)|Sets the global-level priority for a module.|  
+|[SetPriorityForRequestNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)|Sets the request-level priority for a module.|  
+|[SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md)|Registers the request-level notifications for a module.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- An `IHttpModuleRegistrationInfo` interface is created and passed to a module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function when the module is loaded by [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. This interface primarily defines the global-level and request-level priorities and notifications for a module.  
+ An `IHttpModuleRegistrationInfo` interface is created and passed to a module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function when the module is loaded by [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. This interface primarily defines the global-level and request-level priorities and notifications for a module.  
   
 ## Requirements  
   
@@ -40,5 +40,5 @@ class IHttpModuleRegistrationInfo
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
- [PFN_REGISTERMODULE Function](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [PFN_REGISTERMODULE Function](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md)

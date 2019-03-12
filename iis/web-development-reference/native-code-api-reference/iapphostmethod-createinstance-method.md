@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 37c391ea-9ce6-48e4-8ecb-cbe7e45b03a0
 ---
 # IAppHostMethod::CreateInstance Method
-Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
+Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
   
@@ -38,5 +38,5 @@ HRESULT CreateInstance(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md)   
- [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md)
+ [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)   
+ [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

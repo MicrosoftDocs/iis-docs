@@ -17,9 +17,9 @@ class IHttpConnection
   
 |Name|Description|  
 |----------|-----------------|  
-|[AllocateMemory](../../web-development-reference\native-code-api-reference/ihttpconnection-allocatememory-method.md)|Allocates a specified amount of memory.|  
-|[GetModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)|Returns the module context container for the connection.|  
-|[IsConnected](../../web-development-reference\native-code-api-reference/ihttpconnection-isconnected-method.md)|Determines whether a Web client is still connected to the current request.|  
+|[AllocateMemory](../../web-development-reference/native-code-api-reference/ihttpconnection-allocatememory-method.md)|Allocates a specified amount of memory.|  
+|[GetModuleContextContainer](../../web-development-reference/native-code-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)|Returns the module context container for the connection.|  
+|[IsConnected](../../web-development-reference/native-code-api-reference/ihttpconnection-isconnected-method.md)|Determines whether a Web client is still connected to the current request.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
@@ -27,7 +27,7 @@ class IHttpConnection
 ## Remarks  
  HTTP modules can use the `IHttpConnection` interface to retrieve information related to the connection for the current context. For example, you can use the `IsConnected` method to determine whether a Web client has disconnected its session.  
   
- To retrieve an `IHttpConnection` interface, your module needs to call the [IHttpContext::GetConnection](../../web-development-reference\native-code-api-reference/ihttpcontext-getconnection-method.md) method.  
+ To retrieve an `IHttpConnection` interface, your module needs to call the [IHttpContext::GetConnection](../../web-development-reference/native-code-api-reference/ihttpcontext-getconnection-method.md) method.  
   
 ## Requirements  
   
@@ -39,6 +39,6 @@ class IHttpConnection
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
- [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::GetConnection Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getconnection-method.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::GetConnection Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getconnection-method.md)

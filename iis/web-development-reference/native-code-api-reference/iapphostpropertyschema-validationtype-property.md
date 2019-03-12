@@ -51,5 +51,5 @@ HRESULT get_ValidationType(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)   
- [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationparameter-property.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
+ [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationparameter-property.md)

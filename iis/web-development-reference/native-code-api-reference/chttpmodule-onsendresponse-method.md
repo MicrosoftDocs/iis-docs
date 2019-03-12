@@ -17,26 +17,26 @@ virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(
   
 ### Parameters  
  `pHttpContext`  
- [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
+ [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
  `pProvider`  
- [IN] A pointer to an [ISendResponseProvider](../../web-development-reference\native-code-api-reference/isendresponseprovider-interface.md) interface.  
+ [IN] A pointer to an [ISendResponseProvider](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md) interface.  
   
 ## Return Value  
- A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) value.  
+ A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
- When a request-level module is registered for the [RQ_SEND_RESPONSE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnSendResponse` method when it sends the response buffer.  
+ When a request-level module is registered for the [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnSendResponse` method when it sends the response buffer.  
   
 > [!NOTE]
->  Request-level modules can register for the `SendResponse` event notification by registering for `RQ_SEND_RESPONSE` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+>  Request-level modules can register for the `SendResponse` event notification by registering for `RQ_SEND_RESPONSE` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_SEND_RESPONSE` event notification. When IIS sends the response buffer, it will call the example module's `OnSendResponse` method. The method will write an entry in the Application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
 <!-- TODO: review snippet reference  [!CODE [CHttpModuleSendResponse#1](CHttpModuleSendResponse#1)]  -->  
   
- Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -50,4 +50,4 @@ virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

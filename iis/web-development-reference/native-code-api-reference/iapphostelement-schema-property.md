@@ -17,7 +17,7 @@ HRESULT get_Schema(
   
 ### Parameters  
  `ppSchema`  
- A pointer to a pointer for the [IAppHostElementSchema](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) interface that is assigned to the current element.  
+ A pointer to a pointer for the [IAppHostElementSchema](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) interface that is assigned to the current element.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -36,4 +36,4 @@ HRESULT get_Schema(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)
+ [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

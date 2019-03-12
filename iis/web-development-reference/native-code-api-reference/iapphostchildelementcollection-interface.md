@@ -17,8 +17,8 @@ interface IAppHostChildElementCollection: IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[Count](../../web-development-reference\native-code-api-reference/iapphostelementcollection-count-property.md)|Gets the number of configuration elements in the collection.|  
-|[Item](../../web-development-reference\native-code-api-reference/iapphostelementcollection-item-property.md)|Gets a configuration element from the collection.|  
+|[Count](../../web-development-reference/native-code-api-reference/iapphostelementcollection-count-property.md)|Gets the number of configuration elements in the collection.|  
+|[Item](../../web-development-reference/native-code-api-reference/iapphostelementcollection-item-property.md)|Gets a configuration element from the collection.|  
   
 ## Example  
  The following code example lists all child elements under the `system.webServer/asp` configuration section for the MACHINE/WEBROOT/APPHOST path.  
@@ -40,4 +40,4 @@ interface IAppHostChildElementCollection: IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostChildElementCollection Interface](../../web-development-reference\native-code-api-reference/iapphostchildelementcollection-interface.md)
+ [IAppHostChildElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostchildelementcollection-interface.md)

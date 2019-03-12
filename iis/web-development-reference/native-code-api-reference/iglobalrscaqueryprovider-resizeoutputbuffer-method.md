@@ -36,7 +36,7 @@ virtual HRESULT ResizeOutputBuffer(
 |E_OUTOFMEMORY|Indicates that heap memory is exhausted.|  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [IGlobalRscaQueryProvider](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method. You can then resize a current `BYTE` array by calling the `ResizeOutputBuffer` method on the `IGlobalRSCAQueryProvider` pointer.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [IGlobalRscaQueryProvider](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method. You can then resize a current `BYTE` array by calling the `ResizeOutputBuffer` method on the `IGlobalRSCAQueryProvider` pointer.  
   
  The `ResizeOutputBuffer` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
@@ -60,5 +60,5 @@ virtual HRESULT ResizeOutputBuffer(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalRSCAQueryProvider Interface](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-interface.md)   
- [IGlobalRSCAQueryProvider::GetOutputBuffer Method](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md)
+ [IGlobalRSCAQueryProvider Interface](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md)   
+ [IGlobalRSCAQueryProvider::GetOutputBuffer Method](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md)

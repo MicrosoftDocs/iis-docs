@@ -32,10 +32,10 @@ HRESULT MapPath(
  A pointer to a `BSTR` that contains the physical path.  
   
  `ppVirtualDirectoryElement`  
- A pointer to a pointer for an [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
  `ppApplicationElement`  
- A pointer to a pointer for an [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -54,4 +54,4 @@ HRESULT MapPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMappingExtension Interface](../../web-development-reference\native-code-api-reference/iapphostmappingextension-interface.md)
+ [IAppHostMappingExtension Interface](../../web-development-reference/native-code-api-reference/iapphostmappingextension-interface.md)

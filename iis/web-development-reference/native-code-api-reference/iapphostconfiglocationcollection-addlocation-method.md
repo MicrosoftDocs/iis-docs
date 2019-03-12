@@ -22,7 +22,7 @@ HRESULT AddLocation(
  A `BSTR` that contains the path of the new configuration location.  
   
  `ppNewLocation`  
- A pointer to a pointer for an [IAppHostConfigLocation](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostConfigLocation](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -42,4 +42,4 @@ HRESULT AddLocation(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigLocationCollection Interface](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-interface.md)
+ [IAppHostConfigLocationCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md)

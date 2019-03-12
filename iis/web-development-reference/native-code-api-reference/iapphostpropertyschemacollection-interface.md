@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 30c635ec-6d94-4340-9762-d50b6e6d32c1
 ---
 # IAppHostPropertySchemaCollection Interface
-Represents a collection of [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) objects.  
+Represents a collection of [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md) objects.  
   
 ## Syntax  
   
@@ -13,12 +13,12 @@ interface IAppHostPropertySchemaCollection : IUnknown
 ```  
   
 ## Properties  
- The following table lists the properties exposed by the [IAppHostElementSchemaCollection](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-interface.md) interface.  
+ The following table lists the properties exposed by the [IAppHostElementSchemaCollection](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md) interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\native-code-api-reference/iapphostpropertyschemacollection-count-property.md)|Gets the number of property schema objects in the current collection.|  
-|[Item](../../web-development-reference\native-code-api-reference/iapphostpropertyschemacollection-item-property.md)|Gets the property schema at the requested index in the current collection.|  
+|[Count](../../web-development-reference/native-code-api-reference/iapphostpropertyschemacollection-count-property.md)|Gets the number of property schema objects in the current collection.|  
+|[Item](../../web-development-reference/native-code-api-reference/iapphostpropertyschemacollection-item-property.md)|Gets the property schema at the requested index in the current collection.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -35,5 +35,5 @@ interface IAppHostPropertySchemaCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

@@ -39,4 +39,4 @@ virtual HRESULT SetNamedContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [INamedContextContainer Interface](../../web-development-reference\native-code-api-reference/inamedcontextcontainer-interface.md)
+ [INamedContextContainer Interface](../../web-development-reference/native-code-api-reference/inamedcontextcontainer-interface.md)

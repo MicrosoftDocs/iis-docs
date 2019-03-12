@@ -30,9 +30,9 @@ HRESULT WebhostUnregisterProtocol(
 ## Remarks  
  Before calling this function, the listener adaptor should perform the following tasks:  
   
-1.  Request all listener channels to stop (by calling the [WebhostCloseAllListenerChannelInstances](../../web-development-reference\native-code-api-reference/webhostclosealllistenerchannelinstances-function.md) function).  
+1.  Request all listener channels to stop (by calling the [WebhostCloseAllListenerChannelInstances](../../web-development-reference/native-code-api-reference/webhostclosealllistenerchannelinstances-function.md) function).  
   
-2.  Wait for the Windows Process Activation Service notification from the [PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-application-pool-all-listener-channel-instances-stopped-function.md) callback function. This callback confirms that all the listener channel instances have stopped.  
+2.  Wait for the Windows Process Activation Service notification from the [PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED](../../web-development-reference/native-code-api-reference/pfn-webhost-listener-application-pool-all-listener-channel-instances-stopped-function.md) callback function. This callback confirms that all the listener channel instances have stopped.  
   
 ## Requirements  
   
@@ -44,4 +44,4 @@ HRESULT WebhostUnregisterProtocol(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Exported Functions](../../web-development-reference\native-code-api-reference/listener-adapter-exported-functions.md)
+ [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)

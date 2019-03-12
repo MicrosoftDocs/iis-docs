@@ -24,14 +24,14 @@ virtual PCWSTR GetName(
  The `GetName` method retrieves the `name` attribute for a request handler that is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains the display name for the request handler as it will appear in the list of handlers that are defined in [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)].  
   
 > [!NOTE]
->  Do not confuse `GetName` with the [IScriptMapInfo::GetPath](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getpath-method.md) or [IScriptMapInfo::GetScriptProcessor](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md) methods, which return the `path` and `scriptProcessor` attributes, respectively, for the request handler.  
+>  Do not confuse `GetName` with the [IScriptMapInfo::GetPath](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getpath-method.md) or [IScriptMapInfo::GetScriptProcessor](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md) methods, which return the `path` and `scriptProcessor` attributes, respectively, for the request handler.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference\native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetName` method to retrieve the configured name for the request handler that is processing the current request. The module returns the configured name to a Web client and then exits.  
+ The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetName` method to retrieve the configured name for the request handler that is processing the current request. The module returns the configured name to a Web client and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [IScriptMapInfoGetName#1](IScriptMapInfoGetName#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -45,4 +45,4 @@ virtual PCWSTR GetName(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IScriptMapInfo Interface](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md)
+ [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)
