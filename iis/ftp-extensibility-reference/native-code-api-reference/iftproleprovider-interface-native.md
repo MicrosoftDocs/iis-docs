@@ -19,7 +19,7 @@ interface IFtpRoleProvider : IUknown
 |||  
 |-|-|  
 |Name|Definition|  
-|[IFtpRoleProvider::IsUserInRole Method](../../ftp-extensibility-reference\native-code-api-reference\iftproleprovider-isuserinrole-method.md)|Checks to see whether a user is a member of a specific role.|  
+|[IFtpRoleProvider::IsUserInRole Method](../../ftp-extensibility-reference/native-code-api-reference/iftproleprovider-isuserinrole-method.md)|Checks to see whether a user is a member of a specific role.|  
   
 ## Example  
  The following code example illustrates how to use the `IFtpRoleProvider` interface to create a custom authentication module for the FTP service that implements role checks.  
@@ -64,4 +64,4 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpAuthenticationProvider Interface](../../ftp-extensibility-reference\native-code-api-reference\iftpauthenticationprovider-interface-native.md)
+ [IFtpAuthenticationProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftpauthenticationprovider-interface-native.md)
