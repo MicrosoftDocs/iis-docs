@@ -144,4 +144,4 @@ EXIT:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpLogProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftplogprovider-interface-native.md)
+ [IFtpLogProvider Interface](../../ftp-extensibility-reference\native-code-api-reference\iftplogprovider-interface-native.md)

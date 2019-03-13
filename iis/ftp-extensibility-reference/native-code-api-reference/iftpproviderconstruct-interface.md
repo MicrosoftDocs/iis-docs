@@ -19,7 +19,7 @@ interface IFtpProviderConstruct : IUknown
 |||  
 |-|-|  
 |Name|Definition|  
-|[IFtpProviderConstruct::Construct Method](../../ftp-extenisibility-reference\native-code-api-reference\iftpproviderconstruct-construct-method.md)|Retrieves an array of key/value pairs from an FTP provider's configuration settings in the IIS ApplicationHost.config file.|  
+|[IFtpProviderConstruct::Construct Method](../../ftp-extensibility-reference\native-code-api-reference\iftpproviderconstruct-construct-method.md)|Retrieves an array of key/value pairs from an FTP provider's configuration settings in the IIS ApplicationHost.config file.|  
   
 ## Remarks  
  You can specify parameters for an FTP provider in the IIS ApplicationHost.config file by adding an <`activation`> collection, which may contain a series of <`providerData`> elements that list additional settings for custom FTP providers. Each <`providerData`> element is paired with an entry in the <`providerDefinitions`> collection, and contains a series of key/value pairs that contain information that is specific to each provider.  
