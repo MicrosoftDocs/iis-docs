@@ -19,7 +19,7 @@ interface IFtpHomeDirectoryProvider : IUknown
 |||  
 |-|-|  
 |Name|Definition|  
-|[IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method](../../ftp-extensibility-reference\native-code-api-reference\iftphomedirectoryprovider-getuserhomedirectorydata-method.md)|Returns the physical path of the home directory for a user.|  
+|[IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method](../../ftp-extensibility-reference/native-code-api-reference/iftphomedirectoryprovider-getuserhomedirectorydata-method.md)|Returns the physical path of the home directory for a user.|  
   
 ## Example  
  The following code example illustrates using the `IFtpHomeDirectoryProvider` interface to create a custom home directory module for the FTP service that returns a specific home directory.  
