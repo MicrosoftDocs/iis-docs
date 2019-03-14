@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 175190d6-4f32-4813-8ffd-458c79d708e4
 ---
 # Walkthrough: Creating a Request-Level HTTP Module By Using Native Code
-This walkthrough demonstrates how to use C++ to create a sample request-level HTTP module that implements the new request-processing architecture in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. This new architecture extends the capabilities of native-code programming when you are writing IIS applications over earlier versions of [!INCLUDE[vstecasp](../../wmi-provider/includes/vstecasp-md.md)] HTTP modules and ISAPI filters or extensions. For more information about designing HTTP modules using the new request-processing architecture, see [Designing Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\designing-native-code-http-modules.md).  
+This walkthrough demonstrates how to use C++ to create a sample request-level HTTP module that implements the new request-processing architecture in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. This new architecture extends the capabilities of native-code programming when you are writing IIS applications over earlier versions of [!INCLUDE[vstecasp](../../wmi-provider/includes/vstecasp-md.md)] HTTP modules and ISAPI filters or extensions. For more information about designing HTTP modules using the new request-processing architecture, see [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md).  
   
  In this walkthrough, you will create a C++ project for your HTTP module, add the required code for a "Hello World" project, and then compile and test the module.  
   
@@ -15,7 +15,7 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
 -   [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
--   [!INCLUDE[winsdklong](../../web-development-reference\native-code-development-overview\includes/winsdklong-md.md)].  
+-   [!INCLUDE[winsdklong](../../web-development-reference/native-code-development-overview/includes/winsdklong-md.md)].  
   
  **Note** You can use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
   
@@ -34,7 +34,7 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
     3.  In the **Show directories for** drop-down box, select **Include files**.  
   
-    4.  Verify that the path where you installed the [!INCLUDE[winsdkshort](../../web-development-reference\native-code-development-overview\includes/winsdkshort-md.md)] include files is listed. If the path is not listed, click the **New Line** icon, and then add the path where you installed the SDK include files. The default installation directory is $(VCInstallDir)PlatformSDK\bin.  
+    4.  Verify that the path where you installed the [!INCLUDE[winsdkshort](../../web-development-reference/native-code-development-overview/includes/winsdkshort-md.md)] include files is listed. If the path is not listed, click the **New Line** icon, and then add the path where you installed the SDK include files. The default installation directory is $(VCInstallDir)PlatformSDK\bin.  
   
     5.  Click **OK**.  
   
@@ -69,7 +69,7 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
 #### To add the source files to the project  
   
-1.  Create the module-definition file to export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function:  
+1.  Create the module-definition file to export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function:  
   
     1.  In Solution Explorer, right-click **Source Files**, point to **Add**, and then click **New Item**.  
   
@@ -92,7 +92,7 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
         ```  
   
         > [!NOTE]
-        >  Instead of creating a module-definition file, you can export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function by using the **/EXPORT:RegisterModule** switch.  
+        >  Instead of creating a module-definition file, you can export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function by using the **/EXPORT:RegisterModule** switch.  
   
 2.  Create the C++ file:  
   
@@ -157,5 +157,5 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
     3.  For the **Module Definition File** settings, ensure that your definition file is listed.  
   
 ## See Also  
- [Creating Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\creating-native-code-http-modules.md)   
- [Designing Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\designing-native-code-http-modules.md)
+ [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
+ [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)
