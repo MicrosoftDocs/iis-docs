@@ -15,10 +15,10 @@ This walkthrough demonstrates how to create a configuration file for use with th
 ## Prerequisites  
  The following software is required to complete the steps in the example:  
   
--   [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] on [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)].  
+-   [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)].  
   
 > [!NOTE]
->  While you will have to run your Hosted Web Core application on [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)], you do not have to create your configuration file on [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)]. You can create your configuration file on a different version of Windows and then copy your configuration file to a computer that has [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)] installed.  
+>  While you will have to run your Hosted Web Core application on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)], you do not have to create your configuration file on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)]. You can create your configuration file on a different version of Windows and then copy your configuration file to a computer that has [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)] installed.  
   
 -   [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
