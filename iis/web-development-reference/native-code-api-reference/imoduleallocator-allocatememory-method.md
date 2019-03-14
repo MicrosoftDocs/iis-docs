@@ -29,7 +29,7 @@ virtual VOID* AllocateMemory(
   
 <!-- TODO: review snippet reference  [!CODE [IModuleAllocatorAllocateMemory#1](IModuleAllocatorAllocateMemory#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -43,4 +43,4 @@ virtual VOID* AllocateMemory(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IModuleAllocator Interface](../../web-development-reference\native-code-api-reference/imoduleallocator-interface.md)
+ [IModuleAllocator Interface](../../web-development-reference/native-code-api-reference/imoduleallocator-interface.md)

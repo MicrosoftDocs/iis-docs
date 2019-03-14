@@ -20,8 +20,8 @@ interface IAppHostPropertyCollection : IUnknown
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\native-code-api-reference/iapphostpropertycollection-count-property.md)|Gets the number properties in the collection.|  
-|[Item](../../web-development-reference\native-code-api-reference/iapphostpropertycollection-item-property.md)|Gets the property with the requested index or property name in the collection.|  
+|[Count](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-count-property.md)|Gets the number properties in the collection.|  
+|[Item](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-item-property.md)|Gets the property with the requested index or property name in the collection.|  
   
 ## Example  
  The following code example demonstrates how to use the `IAppHostPropertyCollection` interface to access the `enabled` property of the `defaultDocument` configuration section.  
@@ -43,5 +43,5 @@ interface IAppHostPropertyCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

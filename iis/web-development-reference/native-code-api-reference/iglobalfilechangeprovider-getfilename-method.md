@@ -21,14 +21,14 @@ virtual PCWSTR GetFileName(
  A pointer to a string that contains the file path.  
   
 ## Remarks  
- When a file within the scope of a Web site is changed, [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a [GL_FILE_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification and creates an [IGlobalFileChangeProvider](../../web-development-reference\native-code-api-reference/iglobalfilechangeprovider-interface.md) interface that is passed to a module's [CGlobalModule::OnGlobalFileChange](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalfilechange-method.md) method. When writing a module, you can use the [IGlobalFileChangeProvider::GetFileName](../../web-development-reference\native-code-api-reference/iglobalfilechangeprovider-getfilename-method.md) method to retrieve the full path to the file that was modified.  
+ When a file within the scope of a Web site is changed, [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a [GL_FILE_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification and creates an [IGlobalFileChangeProvider](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-interface.md) interface that is passed to a module's [CGlobalModule::OnGlobalFileChange](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md) method. When writing a module, you can use the [IGlobalFileChangeProvider::GetFileName](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-getfilename-method.md) method to retrieve the full path to the file that was modified.  
   
 ## Example  
  The following code example demonstrates how to create a global-level HTTP module that uses the `GetFileName` method to retrieve the path to a file that has been modified. The module then writes the path of the file to a log entry in the Event Viewer.  
   
 <!-- TODO: review snippet reference  [!CODE [IGlobalFileChangeProviderGetFileName#1](IGlobalFileChangeProviderGetFileName#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -42,4 +42,4 @@ virtual PCWSTR GetFileName(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalFileChangeProvider Interface](../../web-development-reference\native-code-api-reference/iglobalfilechangeprovider-interface.md)
+ [IGlobalFileChangeProvider Interface](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-interface.md)

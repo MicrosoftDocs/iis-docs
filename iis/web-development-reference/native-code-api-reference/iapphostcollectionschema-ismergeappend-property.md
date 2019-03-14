@@ -39,4 +39,4 @@ HRESULT get_IsMergeAppend(
  If this property is `VARIANT_FALSE`, local elements are merged before inherited elements.  
   
 ## See Also  
- [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)
+ [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

@@ -31,4 +31,4 @@ virtual VOID UpdateFrequentlyHitTickCount(
 |Header|Httpcach.h|  
   
 ## See Also  
- [IUriKey Interface](../../web-development-reference\native-code-api-reference/iurikey-interface.md)
+ [IUriKey Interface](../../web-development-reference/native-code-api-reference/iurikey-interface.md)

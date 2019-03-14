@@ -22,7 +22,7 @@ virtual VOID CleanupStoredContext(
   
 -   Some implementations perform an empty operation during the `CleanupStoredContext` method.  
   
--   Some implementations call `delete``this` on the current [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md) pointer.  
+-   Some implementations call `delete``this` on the current [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) pointer.  
   
 -   Some implementations use internal reference counting and decrement an internal reference count during each call to `CleanupStoredContext`. These implementers call `delete``this` on the current `IHttpStoredContext` immediately if that reference count goes to 0.  
   
@@ -78,4 +78,4 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpStoredContext Interface](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md)
+ [IHttpStoredContext Interface](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md)

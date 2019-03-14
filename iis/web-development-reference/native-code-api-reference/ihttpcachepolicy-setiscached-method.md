@@ -18,11 +18,11 @@ virtual VOID SetIsCached(
  This method takes no parameters.  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To enable caching, call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetIsCached` method.  
+ [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To enable caching, call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetIsCached` method.  
   
  `SetIsCached` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that is initialized to `false` at construction. When `SetIsCached` is called, this Boolean value is set to `true`. After `SetIsCached` is called, there is no method to reset this Boolean value to `false`.  
+-   The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that is initialized to `false` at construction. When `SetIsCached` is called, this Boolean value is set to `true`. After `SetIsCached` is called, there is no method to reset this Boolean value to `false`.  
   
 -   `SetIsCached` returns the value of this Boolean.  
   
@@ -36,4 +36,4 @@ virtual VOID SetIsCached(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

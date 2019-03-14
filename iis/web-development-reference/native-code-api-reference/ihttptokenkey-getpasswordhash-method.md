@@ -24,13 +24,13 @@ virtual PCWSTR GetPasswordHash(
  When a user logs on, the password is hashed into a null-terminated Unicode string based on a one-way hashing algorithm. This unique hash value may then be used for very fast lookups on users in the global token cache.  
   
 ## Notes for Implementers  
- [IHttpTokenKey](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpTokenKey` implementers that use dynamic memory allocation must release or call `delete` on the `PCWSTR` pointer when it is no longer needed.  
+ [IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpTokenKey` implementers that use dynamic memory allocation must release or call `delete` on the `PCWSTR` pointer when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpTokenKey` implementers are responsible for memory management with this data; therefore, `IHttpTokenKey` clients must not release or call `delete` on the returned `PCWSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCWSTR`; otherwise, an access violation will be thrown or the data will become invalid.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `GetPasswordHash` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `GetPasswordHash` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -43,7 +43,7 @@ virtual PCWSTR GetPasswordHash(
 IHttpTokenKey::GetPasswordHash: 123456d1536d0b180399107b980bc6f82187d135799f92072b612156a4c14ec2  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -57,4 +57,4 @@ IHttpTokenKey::GetPasswordHash: 123456d1536d0b180399107b980bc6f82187d135799f9207
 |Header|Httpcach.h|  
   
 ## See Also  
- [IHttpTokenKey Interface](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md)
+ [IHttpTokenKey Interface](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md)

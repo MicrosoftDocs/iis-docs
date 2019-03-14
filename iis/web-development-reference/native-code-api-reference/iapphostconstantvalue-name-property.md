@@ -35,4 +35,4 @@ Gets the name of the specified constant.
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConstantValue Interface](../../web-development-reference\native-code-api-reference/iapphostconstantvalue-interface.md)
+ [IAppHostConstantValue Interface](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-interface.md)

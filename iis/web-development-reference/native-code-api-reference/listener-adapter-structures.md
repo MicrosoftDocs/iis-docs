@@ -10,7 +10,7 @@ This section describes the structures that support listener adapter callbacks, w
   
 |Structure|Description|  
 |---------------|-----------------|  
-|[WEBHOST_LISTENER_CALLBACKS](../../web-development-reference\native-code-api-reference/webhost-listener-callbacks-structure.md)|Defines a pointer to the callback structure that is passed to the [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md) function.|  
+|[WEBHOST_LISTENER_CALLBACKS](../../web-development-reference/native-code-api-reference/webhost-listener-callbacks-structure.md)|Defines a pointer to the callback structure that is passed to the [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md) function.|  
   
 ## See Also  
- [Listener Adapter API Reference](../../web-development-reference\native-code-api-reference/listener-adapter-api-reference.md)
+ [Listener Adapter API Reference](../../web-development-reference/native-code-api-reference/listener-adapter-api-reference.md)

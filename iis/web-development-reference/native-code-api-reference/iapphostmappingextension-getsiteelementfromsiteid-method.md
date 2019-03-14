@@ -21,7 +21,7 @@ HRESULT GetSiteElementFromSiteId(
  A `DWORD` that contains the site ID.  
   
  `ppSiteElement`  
- A pointer to a pointer for an [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -40,4 +40,4 @@ HRESULT GetSiteElementFromSiteId(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMappingExtension Interface](../../web-development-reference\native-code-api-reference/iapphostmappingextension-interface.md)
+ [IAppHostMappingExtension Interface](../../web-development-reference/native-code-api-reference/iapphostmappingextension-interface.md)

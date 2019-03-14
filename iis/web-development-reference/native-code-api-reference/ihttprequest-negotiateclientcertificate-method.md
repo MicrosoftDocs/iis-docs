@@ -38,7 +38,7 @@ HRESULT NegotiateClientCertificate(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpRequestGetClientCertificate#1](IHttpRequestGetClientCertificate#1)]  -->  
   
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -52,5 +52,5 @@ HRESULT NegotiateClientCertificate(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md)   
- [IHttpRequest::GetClientCertificate Method](../../web-development-reference\native-code-api-reference/ihttprequest-getclientcertificate-method.md)
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest::GetClientCertificate Method](../../web-development-reference/native-code-api-reference/ihttprequest-getclientcertificate-method.md)

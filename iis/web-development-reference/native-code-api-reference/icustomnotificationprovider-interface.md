@@ -17,27 +17,27 @@ class ICustomNotificationProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[QueryNotificationType](../../web-development-reference\native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md)|Returns the unique identifier for a custom notification provider.|  
-|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[QueryNotificationType](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md)|Returns the unique identifier for a custom notification provider.|  
+|[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] provides the `ICustomNotificationProvider` interface to allow developers to create custom notifications. To implement a custom notification, you will need to create an instance of an `ICustomNotificationProvider` interface that provides [QueryNotificationType](../../web-development-reference\native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md) and [SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md) methods.  
+ [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] provides the `ICustomNotificationProvider` interface to allow developers to create custom notifications. To implement a custom notification, you will need to create an instance of an `ICustomNotificationProvider` interface that provides [QueryNotificationType](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md) and [SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md) methods.  
   
- Your custom notification will use the `QueryNotificationType` method to identify itself to modules that have registered for the [RQ_CUSTOM_NOTIFICATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) or [GL_CUSTOM_NOTIFICATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification.  
+ Your custom notification will use the `QueryNotificationType` method to identify itself to modules that have registered for the [RQ_CUSTOM_NOTIFICATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) or [GL_CUSTOM_NOTIFICATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
- When a custom notification is raised, IIS will call a module's [CHttpModule::OnCustomRequestNotification](../../web-development-reference\native-code-api-reference/chttpmodule-oncustomrequestnotification-method.md) or [CGlobalModule::OnGlobalCustomNotification](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcustomnotification-method.md) method to process the custom notification. IIS will pass a pointer to the `ICustomNotificationProvider` interface for the custom notification that was raised, and the module should call the custom notification's `QueryNotificationType` method to verify that it is processing the correct notification.  
+ When a custom notification is raised, IIS will call a module's [CHttpModule::OnCustomRequestNotification](../../web-development-reference/native-code-api-reference/chttpmodule-oncustomrequestnotification-method.md) or [CGlobalModule::OnGlobalCustomNotification](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcustomnotification-method.md) method to process the custom notification. IIS will pass a pointer to the `ICustomNotificationProvider` interface for the custom notification that was raised, and the module should call the custom notification's `QueryNotificationType` method to verify that it is processing the correct notification.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that does the following:  
   
-1.  Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
+1.  Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
   
-2.  Creates a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) and [OnCustomRequestNotification](../../web-development-reference\native-code-api-reference/chttpmodule-oncustomrequestnotification-method.md) methods.  
+2.  Creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) and [OnCustomRequestNotification](../../web-development-reference/native-code-api-reference/chttpmodule-oncustomrequestnotification-method.md) methods.  
   
-    -   The `OnBeginRequest` method writes an event to the Event Viewer that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the [IHttpContext::NotifyCustomNotification](../../web-development-reference\native-code-api-reference/ihttpcontext-notifycustomnotification-method.md) method.  
+    -   The `OnBeginRequest` method writes an event to the Event Viewer that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the [IHttpContext::NotifyCustomNotification](../../web-development-reference/native-code-api-reference/ihttpcontext-notifycustomnotification-method.md) method.  
   
     -   The `OnCustomRequestNotification` method uses the `QueryNotificationType` method to retrieve the unique identifier for the custom notification. If the unique identifier matches, the `OnCustomRequestNotification` method writes an event to the Event Viewer that specifies that the custom notification was raised.  
   
@@ -45,12 +45,12 @@ class ICustomNotificationProvider : public IHttpEventProvider
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextNotifyCustomNotification#1](IHttpContextNotifyCustomNotification#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `ICustomNotificationProvider`  
   
@@ -64,4 +64,4 @@ class ICustomNotificationProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

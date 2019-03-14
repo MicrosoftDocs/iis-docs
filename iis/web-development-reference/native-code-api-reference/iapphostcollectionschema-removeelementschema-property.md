@@ -17,7 +17,7 @@ HRESULT RemoveElementSchema(
   
 ### Parameters  
  `ppSchema`  
- A pointer to a pointer for an [IAppHostElementSchema](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) object.  
+ A pointer to a pointer for an [IAppHostElementSchema](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) object.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -36,4 +36,4 @@ HRESULT RemoveElementSchema(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)
+ [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

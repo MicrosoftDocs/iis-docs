@@ -17,17 +17,17 @@ interface IAppHostConfigLocation : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[AddConfigSection](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-addconfigsection-method.md)|Adds a configuration section to the current configuration location.|  
-|[DeleteConfigSection](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-deleteconfigsection-method.md)|Removes a configuration section from the current configuration location.|  
+|[AddConfigSection](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-addconfigsection-method.md)|Adds a configuration section to the current configuration location.|  
+|[DeleteConfigSection](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-deleteconfigsection-method.md)|Removes a configuration section from the current configuration location.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostConfigLocation` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-count-property.md)|Gets the number of configuration sections that are configured for the current configuration location.|  
-|[Item](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-item-property.md)|Gets the requested configuration section from the current location.|  
-|[Path](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-path-property.md)|Gets the path of the current configuration location.|  
+|[Count](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-count-property.md)|Gets the number of configuration sections that are configured for the current configuration location.|  
+|[Item](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-item-property.md)|Gets the requested configuration section from the current location.|  
+|[Path](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-path-property.md)|Gets the path of the current configuration location.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -44,4 +44,4 @@ interface IAppHostConfigLocation : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)

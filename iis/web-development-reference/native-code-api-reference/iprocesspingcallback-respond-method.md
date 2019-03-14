@@ -33,4 +33,4 @@ virtual HRESULT __stdcall Respond(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessPingCallback Interface](../../web-development-reference\native-code-api-reference/iprocesspingcallback-interface.md)
+ [IProcessPingCallback Interface](../../web-development-reference/native-code-api-reference/iprocesspingcallback-interface.md)

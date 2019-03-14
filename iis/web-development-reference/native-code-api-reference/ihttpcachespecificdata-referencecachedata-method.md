@@ -18,7 +18,7 @@ virtual VOID ReferenceCacheData(
  This method takes no parameters.  
   
 ## Thread Safety  
- Classes that implement the [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the [DereferenceCacheData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-dereferencecachedata-method.md) and `ReferenceCacheData` methods.  
+ Classes that implement the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the [DereferenceCacheData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-dereferencecachedata-method.md) and `ReferenceCacheData` methods.  
   
 ## Remarks  
  Classes that implement the `IHttpCacheSpecificData` interface use reference counting that is thread safe for memory management. When an `IHttpCacheSpecificData` pointer is constructed, the internal reference count (a `private` member variable) is set to 1. When the `ReferenceCacheData` method is called, this reference count is incremented by 1. When the `DereferenceCacheData` method is called, this same reference count is decremented by 1. Only when the reference count goes to 0 is the `IHttpCacheSpecificData` pointer removed from the heap. This scheme guarantees that the `IHttpCacheSpecificData` pointer will not be deleted until the last client of that pointer calls `DereferenceCacheData`.  
@@ -85,4 +85,4 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCacheSpecificData Interface](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md)
+ [IHttpCacheSpecificData Interface](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md)

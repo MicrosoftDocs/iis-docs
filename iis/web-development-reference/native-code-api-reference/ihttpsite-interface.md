@@ -17,16 +17,16 @@ class IHttpSite
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)|Returns the context container for a site.|  
-|[GetPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpsite-getperfcounterinfo-method.md)|Retrieves an [IHttpPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md) interface.|  
-|[GetSiteId](../../web-development-reference\native-code-api-reference/ihttpsite-getsiteid-method.md)|Retrieves the unique ID for the Web site.|  
-|[GetSiteName](../../web-development-reference\native-code-api-reference/ihttpsite-getsitename-method.md)|Retrieves the name for the Web site.|  
+|[GetModuleContextContainer](../../web-development-reference/native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)|Returns the context container for a site.|  
+|[GetPerfCounterInfo](../../web-development-reference/native-code-api-reference/ihttpsite-getperfcounterinfo-method.md)|Retrieves an [IHttpPerfCounterInfo](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md) interface.|  
+|[GetSiteId](../../web-development-reference/native-code-api-reference/ihttpsite-getsiteid-method.md)|Retrieves the unique ID for the Web site.|  
+|[GetSiteName](../../web-development-reference/native-code-api-reference/ihttpsite-getsitename-method.md)|Retrieves the name for the Web site.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- The `IHttpSite` interface provides information for the Web site within the current context. For example, you can call the [IPreBeginRequestProvider::GetHttpContext](../../web-development-reference\native-code-api-reference/iprebeginrequestprovider-gethttpcontext-method.md) or [IGlobalTraceEventProvider::GetCurrentHttpRequestContext](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-getcurrenthttprequestcontext-method.md) methods to retrieve an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface for the current context, and then call the [IHttpContext::GetSite](../../web-development-reference\native-code-api-reference/ihttpcontext-getsite-method.md) method to retrieve an `IHttpSite` interface in order to retrieve the site-specific information for the current context.  
+ The `IHttpSite` interface provides information for the Web site within the current context. For example, you can call the [IPreBeginRequestProvider::GetHttpContext](../../web-development-reference/native-code-api-reference/iprebeginrequestprovider-gethttpcontext-method.md) or [IGlobalTraceEventProvider::GetCurrentHttpRequestContext](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-getcurrenthttprequestcontext-method.md) methods to retrieve an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface for the current context, and then call the [IHttpContext::GetSite](../../web-development-reference/native-code-api-reference/ihttpcontext-getsite-method.md) method to retrieve an `IHttpSite` interface in order to retrieve the site-specific information for the current context.  
   
 ## Requirements  
   
@@ -38,4 +38,4 @@ class IHttpSite
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

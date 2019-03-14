@@ -18,10 +18,10 @@ virtual IHttpTraceContext* GetTraceContext(
  This method takes no parameters.  
   
 ## Return Value  
- An [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) pointer.  
+ An [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) pointer.  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an `IHttpTraceContext` pointer by calling the `GetTraceContext` method on the `ICacheProvider` pointer.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an `IHttpTraceContext` pointer by calling the `GetTraceContext` method on the `ICacheProvider` pointer.  
   
 ## Notes for Implementers  
  `ICacheProvider` implementers are responsible for memory management with this data; therefore, `ICacheProvider` implementers that use dynamic memory allocation must release or call `delete` on the `IHttpTraceContext` pointer when it is no longer needed.  
@@ -30,14 +30,14 @@ virtual IHttpTraceContext* GetTraceContext(
  `ICacheProvider` implementers are responsible for memory management with this data; therefore, `ICacheProvider` clients must not release or call `delete` on the returned `IHttpTraceContext` pointer when this data is no longer needed.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTraceContext` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTraceContext` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
 <!-- TODO: review snippet reference  [!CODE [ICacheProvider#5](ICacheProvider#5)]  -->  
   
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  The above code writes a new event to the application log of the Event Viewer, where the Data box contains XML similar to the following.  
   
@@ -67,4 +67,4 @@ virtual IHttpTraceContext* GetTraceContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ICacheProvider Interface](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md)
+ [ICacheProvider Interface](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md)

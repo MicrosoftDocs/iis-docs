@@ -42,7 +42,7 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
 ## Remarks  
  The `LoadProtocolManagerAndGetCustomInterface` method allows one protocol manager to take advantage of functionality that is implemented in another protocol manager. You can load only a subset of protocol manager interfaces by using this method, because most interaction with protocol managers is completed through the worker process framework.  
   
- When you no longer need the interface, release it before you call the protocol manger's [IProtocolManager::Shutdown](../../web-development-reference\native-code-api-reference/iprotocolmanager-shutdown-method.md) method.  
+ When you no longer need the interface, release it before you call the protocol manger's [IProtocolManager::Shutdown](../../web-development-reference/native-code-api-reference/iprotocolmanager-shutdown-method.md) method.  
   
 ## Requirements  
   
@@ -54,5 +54,5 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfExposeProtocolManagerCustomInterface Interface](../../web-development-reference\native-code-api-reference/iwpfexposeprotocolmanagercustominterface-interface.md)   
- [Worker Process Framework API Reference](../../web-development-reference\native-code-api-reference/worker-process-framework-api-reference.md)
+ [IWpfExposeProtocolManagerCustomInterface Interface](../../web-development-reference/native-code-api-reference/iwpfexposeprotocolmanagercustominterface-interface.md)   
+ [Worker Process Framework API Reference](../../web-development-reference/native-code-api-reference/worker-process-framework-api-reference.md)

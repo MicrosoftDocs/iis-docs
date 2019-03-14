@@ -16,7 +16,7 @@ virtual HRESULT GetWorkerProcessFramework(
   
 ### Parameters  
  `ppWorkerProcessFramework`  
- [OUT] Points to the [IWorkerProcessFramework](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md) for the server..  
+ [OUT] Points to the [IWorkerProcessFramework](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md) for the server..  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -35,4 +35,4 @@ virtual HRESULT GetWorkerProcessFramework(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer2 Interface](../../web-development-reference\native-code-api-reference/ihttpserver2-interface.md)
+ [IHttpServer2 Interface](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)

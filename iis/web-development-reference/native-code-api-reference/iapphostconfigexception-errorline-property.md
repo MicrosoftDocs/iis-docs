@@ -36,4 +36,4 @@ HRESULT get_ErrorLine(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigException Interface](../../web-development-reference\native-code-api-reference/iapphostconfigexception-interface.md)
+ [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

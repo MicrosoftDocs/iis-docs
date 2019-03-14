@@ -59,5 +59,5 @@ HRESULT WriteEntityChunkByReference(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference\native-code-api-reference/ihttpresponse-interface.md)   
- [IHttpResponse::WriteEntityChunks Method](../../web-development-reference\native-code-api-reference/ihttpresponse-writeentitychunks-method.md)
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse::WriteEntityChunks Method](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunks-method.md)

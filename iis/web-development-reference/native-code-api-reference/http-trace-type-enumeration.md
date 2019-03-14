@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f93c5c26-edf9-4577-5ff1-6a3491e1ff84
 ---
 # HTTP_TRACE_TYPE Enumeration
-Determines what data type the [HTTP_TRACE_EVENT_ITEM](../../web-development-reference\native-code-api-reference/http-trace-event-item-structure.md) structure maintains.  
+Determines what data type the [HTTP_TRACE_EVENT_ITEM](../../web-development-reference/native-code-api-reference/http-trace-event-item-structure.md) structure maintains.  
   
 ## Syntax  
   
@@ -43,12 +43,12 @@ enum HTTP_TRACE_TYPE{
 |`HTTP_TRACE_TYPE_BOOL`|Indicates that the data type is a `BOOL`. Maps to the MOF type `boolean`.|  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an [HTTP_TRACE_EVENT](../../web-development-reference\native-code-api-reference/http-trace-event-structure.md) array by calling the [IGlobalTraceEventProvider::GetTraceEvent](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-gettraceevent-method.md) method, for which you supply a dereferenced pointer to a NULL `HTTP_TRACE_EVENT` structure.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an [HTTP_TRACE_EVENT](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) array by calling the [IGlobalTraceEventProvider::GetTraceEvent](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-gettraceevent-method.md) method, for which you supply a dereferenced pointer to a NULL `HTTP_TRACE_EVENT` structure.  
   
- You access each element in the `HTTP_TRACE_EVENT_ITEM` array by enumerating the [pEventItems](../../web-development-reference\native-code-api-reference/http-trace-event-structure.md) field in the `HTTP_TRACE_EVENT` structure up to, but not including, the number of elements specified by the [cEventItems](../../web-development-reference\native-code-api-reference/http-trace-event-structure.md) field. You then access the `HTTP_TRACE_TYPE` through the [dwDataType](../../web-development-reference\native-code-api-reference/http-trace-event-item-structure.md) data field in the `HTTP_TRACE_EVENT_ITEM` structure.  
+ You access each element in the `HTTP_TRACE_EVENT_ITEM` array by enumerating the [pEventItems](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) field in the `HTTP_TRACE_EVENT` structure up to, but not including, the number of elements specified by the [cEventItems](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) field. You then access the `HTTP_TRACE_TYPE` through the [dwDataType](../../web-development-reference/native-code-api-reference/http-trace-event-item-structure.md) data field in the `HTTP_TRACE_EVENT_ITEM` structure.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the [HTTP_TRACE_TYPE](../../web-development-reference\native-code-api-reference/http-trace-type-enumeration.md) information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the [HTTP_TRACE_TYPE](../../web-development-reference/native-code-api-reference/http-trace-type-enumeration.md) information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -70,7 +70,7 @@ enum HTTP_TRACE_TYPE{
 </eventProvider>  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -84,4 +84,4 @@ enum HTTP_TRACE_TYPE{
 |Header|Httptrace.h|  
   
 ## See Also  
- [Web Server Core Enumerations](../../web-development-reference\native-code-api-reference/web-server-core-enumerations.md)
+ [Web Server Core Enumerations](../../web-development-reference/native-code-api-reference/web-server-core-enumerations.md)

@@ -40,7 +40,7 @@ virtual HRESULT GetProtocolManagerCustomInterface(
 |ERROR_INVALID_PARAMETER|Indicates the interface specified by `dwCustomInterfaceId` is not valid.|  
   
 ## Remarks  
- The `GetProtocolManagerCustomInterface` method exposes the [IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface](../../web-development-reference\native-code-api-reference/load-protocol-manager-and-get-custom-interface.md) method to HTTP modules.  
+ The `GetProtocolManagerCustomInterface` method exposes the [IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface](../../web-development-reference/native-code-api-reference/load-protocol-manager-and-get-custom-interface.md) method to HTTP modules.  
   
 ## Requirements  
   
@@ -52,5 +52,5 @@ virtual HRESULT GetProtocolManagerCustomInterface(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
- [IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method](../../web-development-reference\native-code-api-reference/load-protocol-manager-and-get-custom-interface.md)
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method](../../web-development-reference/native-code-api-reference/load-protocol-manager-and-get-custom-interface.md)

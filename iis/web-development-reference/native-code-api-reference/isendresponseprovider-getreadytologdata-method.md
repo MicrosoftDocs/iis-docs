@@ -21,7 +21,7 @@ virtual BOOL GetReadyToLogData(
  `true` if IIS is ready to log information; otherwise, `false`.  
   
 ## Remarks  
- When writing HTTP modules that retrieve or modify the IIS log values, you should first call the `GetReadyToLogData` method to determine whether IIS is ready to log information. If the `GetReadyToLogData` method returns `false`, your module should not call the [ISendResponseProvider::GetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getlogdata-method.md) method or it will return NULL.  
+ When writing HTTP modules that retrieve or modify the IIS log values, you should first call the `GetReadyToLogData` method to determine whether IIS is ready to log information. If the `GetReadyToLogData` method returns `false`, your module should not call the [ISendResponseProvider::GetLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-getlogdata-method.md) method or it will return NULL.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the `GetReadyToLogData` method to determine whether IIS is ready log information. The module completes the following steps:  
@@ -32,13 +32,13 @@ virtual BOOL GetReadyToLogData(
   
 3.  Modifies the server port in the log entry.  
   
-4.  Uses the [ISendResponseProvider::SetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-setlogdata-method.md) method to submit the modified log information to IIS.  
+4.  Uses the [ISendResponseProvider::SetLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-setlogdata-method.md) method to submit the modified log information to IIS.  
   
 5.  Returns the server name to a Web client and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [ISendResponseProviderGetLogData#1](ISendResponseProviderGetLogData#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -52,5 +52,5 @@ virtual BOOL GetReadyToLogData(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ISendResponseProvider Interface](../../web-development-reference\native-code-api-reference/isendresponseprovider-interface.md)   
- [ISendResponseProvider::GetLogData Method](../../web-development-reference\native-code-api-reference/isendresponseprovider-getlogdata-method.md)
+ [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
+ [ISendResponseProvider::GetLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-getlogdata-method.md)

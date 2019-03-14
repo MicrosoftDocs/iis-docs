@@ -30,7 +30,7 @@ virtual HRESULT GetWpfInterface(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- To select which interface to retrieve, choose the specific interface ID from the [WPF_INTERFACE_ID_ENUM](../../web-development-reference\native-code-api-reference/wpf-interface-id-enum-enumeration.md) enumeration. If the worker process framework exposes an interface that is not defined by `WPF_INTERFACE_ID_ENUM`, use the [IWorkerProcessFramework::GetCustomInterface](../../web-development-reference\native-code-api-reference/iworkerprocessframework-getcustominterface-method.md) method.  
+ To select which interface to retrieve, choose the specific interface ID from the [WPF_INTERFACE_ID_ENUM](../../web-development-reference/native-code-api-reference/wpf-interface-id-enum-enumeration.md) enumeration. If the worker process framework exposes an interface that is not defined by `WPF_INTERFACE_ID_ENUM`, use the [IWorkerProcessFramework::GetCustomInterface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getcustominterface-method.md) method.  
   
 ## Requirements  
   
@@ -42,6 +42,6 @@ virtual HRESULT GetWpfInterface(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWorkerProcessFramework Interface](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md)   
- [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference\native-code-api-reference/iworkerprocessframework-getcustominterface-method.md)   
- [IWorkerProcessFramework::GetInterfaceVersion Method](../../web-development-reference\native-code-api-reference/iworkerprocessframework-getinterfaceversion-method.md)
+ [IWorkerProcessFramework Interface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md)   
+ [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getcustominterface-method.md)   
+ [IWorkerProcessFramework::GetInterfaceVersion Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getinterfaceversion-method.md)

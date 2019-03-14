@@ -29,19 +29,19 @@ typedef enum CACHE_OPERATION {
 |`CACHE_OPERATION_ENUM`|Indicates that the cache is being enumerated.|  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes registering for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can then retrieve a `CACHE_OPERATION` enumeration value by calling the [ICacheProvider::GetCacheOperation](../../web-development-reference\native-code-api-reference/icacheprovider-getcacheoperation-method.md) method on the `ICacheProvider` pointer.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes registering for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can then retrieve a `CACHE_OPERATION` enumeration value by calling the [ICacheProvider::GetCacheOperation](../../web-development-reference/native-code-api-reference/icacheprovider-getcacheoperation-method.md) method on the `ICacheProvider` pointer.  
   
- To determine which cache was affected by the cache operation, see the [IHttpCacheKey::GetCacheName](../../web-development-reference\native-code-api-reference/ihttpcachekey-getcachename-method.md) method.  
+ To determine which cache was affected by the cache operation, see the [IHttpCacheKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md) method.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `CACHE_OPERATION` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `CACHE_OPERATION` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
 <!-- TODO: review snippet reference  [!CODE [Enumerations#1](Enumerations#1)]  -->  
   
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md) .  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md) .  
   
  The above code writes a new event to the Event Viewer, where the Data node holds a string similar to the following.  
   
@@ -61,6 +61,6 @@ GetCacheOperation: CACHE_OPERATION_RETRIEVE
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer::DoCacheOperation Method](../../web-development-reference\native-code-api-reference/ihttpserver-docacheoperation-method.md)   
- [ICacheProvider::GetCacheOperation Method](../../web-development-reference\native-code-api-reference/icacheprovider-getcacheoperation-method.md)   
- [CGlobalModule::OnGlobalCacheOperation Method](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)
+ [IHttpServer::DoCacheOperation Method](../../web-development-reference/native-code-api-reference/ihttpserver-docacheoperation-method.md)   
+ [ICacheProvider::GetCacheOperation Method](../../web-development-reference/native-code-api-reference/icacheprovider-getcacheoperation-method.md)   
+ [CGlobalModule::OnGlobalCacheOperation Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)

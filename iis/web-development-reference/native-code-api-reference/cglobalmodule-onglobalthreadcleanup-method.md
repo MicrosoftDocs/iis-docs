@@ -16,27 +16,27 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(
   
 ### Parameters  
  `pProvider`  
- [IN] A pointer to an [IGlobalThreadCleanupProvider](../../web-development-reference\native-code-api-reference/iglobalthreadcleanupprovider-interface.md) interface.  
+ [IN] A pointer to an [IGlobalThreadCleanupProvider](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-interface.md) interface.  
   
 ## Return Value  
- A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/global-notification-status-enumeration.md) value.  
+ A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
- When a global module has registered for the [GL_THREAD_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification, IIS will call the module's `OnGlobalThreadCleanup` method when a thread is returned to the thread pool after an operation has completed.  
+ When a global module has registered for the [GL_THREAD_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification, IIS will call the module's `OnGlobalThreadCleanup` method when a thread is returned to the thread pool after an operation has completed.  
   
 > [!NOTE]
->  Global modules can register for the `GlobalThreadCleanup` event notification by registering for `GL_THREAD_CLEANUP` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+>  Global modules can register for the `GlobalThreadCleanup` event notification by registering for `GL_THREAD_CLEANUP` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1.  The module registers for the `GL_THREAD_CLEANUP` notification.  
   
-2.  The module creates a [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) class that contains an `OnGlobalThreadCleanup` method. This method performs the following tasks:  
+2.  The module creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains an `OnGlobalThreadCleanup` method. This method performs the following tasks:  
   
-    1.  Retrieves an [IHttpApplication](../../web-development-reference\native-code-api-reference/ihttpapplication-interface.md) interface by using the [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference\native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md) method.  
+    1.  Retrieves an [IHttpApplication](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md) interface by using the [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md) method.  
   
-    2.  Retrieves the application identifier of the current context's application by using the [IHttpApplication::GetApplicationId](../../web-development-reference\native-code-api-reference/ihttpapplication-getapplicationid-method.md) method.  
+    2.  Retrieves the application identifier of the current context's application by using the [IHttpApplication::GetApplicationId](../../web-development-reference/native-code-api-reference/ihttpapplication-getapplicationid-method.md) method.  
   
     3.  Writes the application identifier information as an event to the application log of the Event Viewer.  
   
@@ -44,7 +44,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(
   
 <!-- TODO: review snippet reference  [!CODE [IGlobalThreadCleanupProviderGetApplication#1](IGlobalThreadCleanupProviderGetApplication#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-global-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-global-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -58,4 +58,4 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CGlobalModule Class](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md)
+ [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

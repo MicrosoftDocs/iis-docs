@@ -17,16 +17,16 @@ interface IAppHostConfigLocationCollection : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[AddLocation](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-addlocation-method.md)|Adds a new configuration location to the collection.|  
-|[DeleteLocation](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-deletelocation-method.md)|Removes a configuration location from the collection.|  
+|[AddLocation](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-addlocation-method.md)|Adds a new configuration location to the collection.|  
+|[DeleteLocation](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-deletelocation-method.md)|Removes a configuration location from the collection.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostConfigLocationCollection` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-count-property.md)|Gets the number of configuration locations in the collection.|  
-|[Item](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-item-property.md)|Gets a configuration location at the requested index from the current collection.|  
+|[Count](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-count-property.md)|Gets the number of configuration locations in the collection.|  
+|[Item](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-item-property.md)|Gets a configuration location at the requested index from the current collection.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -43,5 +43,5 @@ interface IAppHostConfigLocationCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

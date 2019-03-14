@@ -16,7 +16,7 @@ typedef VOID(
   
 ### Parameters  
  `pContext`  
- [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
+ [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
 ## Return Value  
  `VOID`.  
@@ -36,4 +36,4 @@ typedef VOID(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference\native-code-api-reference/listener-adapter-callback-functions.md)
+ [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)

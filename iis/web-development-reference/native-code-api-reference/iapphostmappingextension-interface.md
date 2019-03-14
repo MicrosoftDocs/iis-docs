@@ -17,10 +17,10 @@ IAppHostMappingExtension : public IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetSiteElementFromSiteId](../../web-development-reference\native-code-api-reference/iapphostmappingextension-getsiteelementfromsiteid-method.md)|Gets a configuration element that represents a site by using the unique identifier for the site.|  
-|[GetSiteIdFromSiteName](../../web-development-reference\native-code-api-reference/iapphostmappingextension-getsiteidfromsitename-method.md)|Gets a unique identifier for a site by using the name of the site.|  
-|[GetSiteNameFromSiteId](../../web-development-reference\native-code-api-reference/iapphostmappingextension-getsitenamefromsiteid-method.md)|Gets the name of a site by using the unique identifier for the site.|  
-|[MapPath](../../web-development-reference\native-code-api-reference/iapphostmappingextension-mappath-method.md)|Maps a site to a physical path, virtual directory, and application path by using the site name and virtual path.|  
+|[GetSiteElementFromSiteId](../../web-development-reference/native-code-api-reference/iapphostmappingextension-getsiteelementfromsiteid-method.md)|Gets a configuration element that represents a site by using the unique identifier for the site.|  
+|[GetSiteIdFromSiteName](../../web-development-reference/native-code-api-reference/iapphostmappingextension-getsiteidfromsitename-method.md)|Gets a unique identifier for a site by using the name of the site.|  
+|[GetSiteNameFromSiteId](../../web-development-reference/native-code-api-reference/iapphostmappingextension-getsitenamefromsiteid-method.md)|Gets the name of a site by using the unique identifier for the site.|  
+|[MapPath](../../web-development-reference/native-code-api-reference/iapphostmappingextension-mappath-method.md)|Maps a site to a physical path, virtual directory, and application path by using the site name and virtual path.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -43,5 +43,5 @@ IAppHostMappingExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

@@ -39,4 +39,4 @@ HRESULT ProvideGetProperty(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertyExtension Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyextension-interface.md)
+ [IAppHostPropertyExtension Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyextension-interface.md)

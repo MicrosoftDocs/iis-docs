@@ -17,22 +17,22 @@ IAppHostWritableAdminManager : public IAppHostAdminManager
   
 |Method|Description|  
 |------------|-----------------|  
-|[CommitChanges](../../web-development-reference\native-code-api-reference/iapphostwritableadminmanager-commitchanges-method.md)|Commits configuration changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
+|[CommitChanges](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-commitchanges-method.md)|Commits configuration changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostWritableAdminManager` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[CommitPath](../../web-development-reference\native-code-api-reference/iapphostwritableadminmanager-commitpath-property.md)|Gets or sets the configuration path where changes should be committed.|  
+|[CommitPath](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-commitpath-property.md)|Gets or sets the configuration path where changes should be committed.|  
   
 ## Remarks  
  The `IAppHostWritableAdminManager` interface provides read/write access to explicit values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system. The method return values of this interface represent the values of the explicitly requested configuration path.  
   
- To obtain access to the effective values of a merged configuration set in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system, use the [IAppHostAdminManager](../../web-development-reference\native-code-api-reference/iapphostadminmanager-interface.md) interface.  
+ To obtain access to the effective values of a merged configuration set in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system, use the [IAppHostAdminManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md) interface.  
   
 ## Inheritance Hierarchy  
- [IAppHostAdminManager](../../web-development-reference\native-code-api-reference/iapphostadminmanager-interface.md)  
+ [IAppHostAdminManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)  
   
  `IAppHostWritableAdminManager`  
   
@@ -46,5 +46,5 @@ IAppHostWritableAdminManager : public IAppHostAdminManager
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [IAppHostAdminManager Interface](../../web-development-reference\native-code-api-reference/iapphostadminmanager-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)

@@ -22,7 +22,7 @@ virtual VOID GetChangePath(
  `VOID`.  
   
 ## Remarks  
- The `GetChangePath` method retrieves the configuration path that triggered a [GL_CONFIGURATION_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification. For example, the configuration path for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually resemble MACHINE/WEBROOT/APPHOST/Default Web Site.  
+ The `GetChangePath` method retrieves the configuration path that triggered a [GL_CONFIGURATION_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification. For example, the configuration path for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually resemble MACHINE/WEBROOT/APPHOST/Default Web Site.  
   
 ## Example  
  The following code example demonstrates how to create a global-level HTTP module that uses the `GetChangePath` method to retrieve the path for a configuration change and add a log entry to the Event Viewer.  
@@ -31,7 +31,7 @@ virtual VOID GetChangePath(
   
 <!-- TODO: review snippet reference  [!CODE [IGlobalConfigurationChangeProviderGetChangePath#1](IGlobalConfigurationChangeProviderGetChangePath#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -45,4 +45,4 @@ virtual VOID GetChangePath(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalConfigurationChangeProvider Interface](../../web-development-reference\native-code-api-reference/iglobalconfigurationchangeprovider-interface.md)
+ [IGlobalConfigurationChangeProvider Interface](../../web-development-reference/native-code-api-reference/iglobalconfigurationchangeprovider-interface.md)

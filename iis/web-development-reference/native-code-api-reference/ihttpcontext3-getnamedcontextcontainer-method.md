@@ -18,7 +18,7 @@ virtual INamedContextContainer * GetNamedContextContainer(
  This method accepts no parameters.  
   
 ## Return Value  
- A pointer to an [INamedContextContainer](../../web-development-reference\native-code-api-reference/inamedcontextcontainer-interface.md) interface.  
+ A pointer to an [INamedContextContainer](../../web-development-reference/native-code-api-reference/inamedcontextcontainer-interface.md) interface.  
   
 ## Requirements  
   
@@ -30,4 +30,4 @@ virtual INamedContextContainer * GetNamedContextContainer(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext3 Interface](../../web-development-reference\native-code-api-reference/ihttpcontext3-interface.md)
+ [IHttpContext3 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)

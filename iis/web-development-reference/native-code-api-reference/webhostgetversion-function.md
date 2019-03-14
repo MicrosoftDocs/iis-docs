@@ -39,4 +39,4 @@ HRESULT WebhostGetVersion(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Exported Functions](../../web-development-reference\native-code-api-reference/listener-adapter-exported-functions.md)
+ [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)

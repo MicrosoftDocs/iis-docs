@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 731ea11c-d7af-219c-4936-9bb386f71625
 ---
 # IAppHostConfigFile::Locations Property
-Returns a collection of [IAppHostConfigLocation](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-interface.md) interfaces that represent location tags defined for the current configuration file.  
+Returns a collection of [IAppHostConfigLocation](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md) interfaces that represent location tags defined for the current configuration file.  
   
 ## Syntax  
   
@@ -17,7 +17,7 @@ HRESULT get_Locations(
   
 ### Parameters  
  `ppLocations`  
- A pointer to a pointer for an [IAppHostConfigLocationCollection](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostConfigLocationCollection](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -27,7 +27,7 @@ HRESULT get_Locations(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- If the operation is successful, the collection returned in the `ppLocations` parameter will contain a pointer to an [IAppHostConfigLocation](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-interface.md) interface for each location tag in the current configuration file.  
+ If the operation is successful, the collection returned in the `ppLocations` parameter will contain a pointer to an [IAppHostConfigLocation](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md) interface for each location tag in the current configuration file.  
   
 ## Requirements  
   
@@ -39,6 +39,6 @@ HRESULT get_Locations(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigFile Interface](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md)   
- [IAppHostConfigLocation Interface](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-interface.md)   
- [IAppHostConfigLocationCollection Interface](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-interface.md)
+ [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)   
+ [IAppHostConfigLocation Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md)   
+ [IAppHostConfigLocationCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md)
