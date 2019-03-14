@@ -17,8 +17,8 @@ struct IProcessHostIdleAndHealthMonitor : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[IProcessHostIdleAndHealthMonitor::IsIdle](../../web-development-reference\native-code-api-reference/iprocesshostidleandhealthmonitor-isidle-method.md)|Checks whether the process host is idle.|  
-|[IProcessHostIdleAndHealthMonitor::Ping](../../web-development-reference\native-code-api-reference/iprocesshostidleandhealthmonitor-ping-method.md)|Performs an asynchronous ping operation.|  
+|[IProcessHostIdleAndHealthMonitor::IsIdle](../../web-development-reference/native-code-api-reference/iprocesshostidleandhealthmonitor-isidle-method.md)|Checks whether the process host is idle.|  
+|[IProcessHostIdleAndHealthMonitor::Ping](../../web-development-reference/native-code-api-reference/iprocesshostidleandhealthmonitor-ping-method.md)|Performs an asynchronous ping operation.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -41,4 +41,4 @@ struct IProcessHostIdleAndHealthMonitor : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Interfaces](../../web-development-reference\native-code-api-reference/windows-process-activation-service-interfaces.md)
+ [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

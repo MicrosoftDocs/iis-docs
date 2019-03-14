@@ -17,24 +17,24 @@ class IFileKey : public IHttpCacheKey
   
 |Name|Description|  
 |----------|-----------------|  
-|[Enum](../../web-development-reference\native-code-api-reference/ihttpcachekey-enum-method.md)|(Inherited from [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md).)|  
-|[GetCacheName](../../web-development-reference\native-code-api-reference/ifilekey-getcachename-method.md)|Overridden. Returns the name of the global file cache.|  
-|[GetHash](../../web-development-reference\native-code-api-reference/ihttpcachekey-gethash-method.md)|(Inherited from `IHttpCacheKey`.)|  
-|[GetIsEqual](../../web-development-reference\native-code-api-reference/ihttpcachekey-getisequal-method.md)|(Inherited from `IHttpCacheKey`.)|  
-|[GetIsPrefix](../../web-development-reference\native-code-api-reference/ihttpcachekey-getisprefix-method.md)|(Inherited from `IHttpCacheKey`.)|  
-|[GetPath](../../web-development-reference\native-code-api-reference/ifilekey-getpath-method.md)|Returns the absolute physical path of a file.|  
+|[Enum](../../web-development-reference/native-code-api-reference/ihttpcachekey-enum-method.md)|(Inherited from [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md).)|  
+|[GetCacheName](../../web-development-reference/native-code-api-reference/ifilekey-getcachename-method.md)|Overridden. Returns the name of the global file cache.|  
+|[GetHash](../../web-development-reference/native-code-api-reference/ihttpcachekey-gethash-method.md)|(Inherited from `IHttpCacheKey`.)|  
+|[GetIsEqual](../../web-development-reference/native-code-api-reference/ihttpcachekey-getisequal-method.md)|(Inherited from `IHttpCacheKey`.)|  
+|[GetIsPrefix](../../web-development-reference/native-code-api-reference/ihttpcachekey-getisprefix-method.md)|(Inherited from `IHttpCacheKey`.)|  
+|[GetPath](../../web-development-reference/native-code-api-reference/ifilekey-getpath-method.md)|Returns the absolute physical path of a file.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- The `IFileKey` interface extends the [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md) interface by adding support for returning the absolute physical path of a file through the [IFileKey::GetPath](../../web-development-reference\native-code-api-reference/ifilekey-getpath-method.md) method. `IFileKey` also overrides the [IHttpCacheKey::GetCacheName](../../web-development-reference\native-code-api-reference/ihttpcachekey-getcachename-method.md) method by providing the default implementation through the [IFileKey::GetCacheName](../../web-development-reference\native-code-api-reference/ifilekey-getcachename-method.md) method.  
+ The `IFileKey` interface extends the [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) interface by adding support for returning the absolute physical path of a file through the [IFileKey::GetPath](../../web-development-reference/native-code-api-reference/ifilekey-getpath-method.md) method. `IFileKey` also overrides the [IHttpCacheKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md) method by providing the default implementation through the [IFileKey::GetCacheName](../../web-development-reference/native-code-api-reference/ifilekey-getcachename-method.md) method.  
   
 ## Notes for Implementers  
  For each non-abstract class that implements the `IFileKey` interface, you must provide a hash code in the `GetHash` method to map the `IFileKey` pointer data to a unique `DWORD` value for that data.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `IFileKey` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IFileKey` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -54,12 +54,12 @@ class IFileKey : public IHttpCacheKey
 </cacheProvider>  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
- [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md)  
+ [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)  
   
  `IFileKey`  
   
@@ -73,4 +73,4 @@ class IFileKey : public IHttpCacheKey
 |Header|Httpcach.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

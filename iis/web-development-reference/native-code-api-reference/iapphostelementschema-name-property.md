@@ -18,7 +18,7 @@ HRESULT get_Name(
   
 ### Parameters  
  `pbstrName`  
- A pointer to a `BSTR` that contains the name of the current [IAppHostElementSchema](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) interface.  
+ A pointer to a `BSTR` that contains the name of the current [IAppHostElementSchema](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -37,4 +37,4 @@ HRESULT get_Name(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)
+ [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)

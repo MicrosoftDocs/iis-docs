@@ -37,4 +37,4 @@ HRESULT get_Path(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigLocation Interface](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-interface.md)
+ [IAppHostConfigLocation Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md)

@@ -17,21 +17,21 @@ class IHttpApplicationResolveModulesProvider : public IHttpApplicationProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetApplication](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-getapplication-method.md)|(Inherited from [IHttpApplicationProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-interface.md).)|  
-|[RegisterModule](../../web-development-reference\native-code-api-reference/ihttpapplicationresolvemodulesprovider-registermodule-method.md)|Registers an HTTP module.|  
-|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
-|[SetPriorityForRequestNotification](../../web-development-reference\native-code-api-reference/ihttpapplicationresolvemodulesprovider-setpriorityforrequestnotification-method.md)|Sets the request-level priority for a specific module.|  
+|[GetApplication](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-getapplication-method.md)|(Inherited from [IHttpApplicationProvider](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-interface.md).)|  
+|[RegisterModule](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-registermodule-method.md)|Registers an HTTP module.|  
+|[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[SetPriorityForRequestNotification](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-setpriorityforrequestnotification-method.md)|Sets the request-level priority for a specific module.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- An `IHttpApplicationResolveModulesProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalApplicationResolveModules](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalapplicationresolvemodules-method.md) method when the module has registered for the [GL_APPLICATION_RESOLVE_MODULES](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+ An `IHttpApplicationResolveModulesProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalApplicationResolveModules](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationresolvemodules-method.md) method when the module has registered for the [GL_APPLICATION_RESOLVE_MODULES](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
- [IHttpApplicationProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-interface.md)  
+ [IHttpApplicationProvider](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-interface.md)  
   
  `IHttpApplicationResolveModulesProvider`  
   
@@ -45,6 +45,6 @@ class IHttpApplicationResolveModulesProvider : public IHttpApplicationProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
- [IHttpApplicationProvider Interface](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-interface.md)   
- [IHttpEventProvider Interface](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [IHttpApplicationProvider Interface](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-interface.md)   
+ [IHttpEventProvider Interface](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)

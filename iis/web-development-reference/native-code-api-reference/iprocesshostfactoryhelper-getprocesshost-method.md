@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e6b3d1b7-4430-6e51-53b5-27b125ae08bc
 ---
 # IProcessHostFactoryHelper::GetProcessHost Method
-Retrieves an [IProcessHost](../../web-development-reference\native-code-api-reference/iprocesshost-interface.md) interface.  
+Retrieves an [IProcessHost](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md) interface.  
   
 ## Syntax  
   
@@ -17,7 +17,7 @@ virtual HRESULT __stdcall GetProcessHost(
   
 ### Parameters  
  `pFunctions`  
- A pointer to an [IProcessHostSupportFunctions](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
+ A pointer to an [IProcessHostSupportFunctions](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
   
  `ppProcessHost`  
  A pointer to the address of an `IProcessHost` interface.  
@@ -39,4 +39,4 @@ virtual HRESULT __stdcall GetProcessHost(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHostFactoryHelper Interface](../../web-development-reference\native-code-api-reference/iprocesshostfactoryhelper-interface.md)
+ [IProcessHostFactoryHelper Interface](../../web-development-reference/native-code-api-reference/iprocesshostfactoryhelper-interface.md)

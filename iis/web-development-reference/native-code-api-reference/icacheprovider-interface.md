@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ab6b60bf-88e1-51e1-7c34-e28000868c6a
 ---
 # ICacheProvider Interface
-Extends the [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface by adding support for retrieving cache information from a cache provider.  
+Extends the [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface by adding support for retrieving cache information from a cache provider.  
   
 ## Syntax  
   
@@ -17,28 +17,28 @@ class ICacheProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetCacheKey](../../web-development-reference\native-code-api-reference/icacheprovider-getcachekey-method.md)|Returns the cache key for the cache provider.|  
-|[GetCacheOperation](../../web-development-reference\native-code-api-reference/icacheprovider-getcacheoperation-method.md)|Returns the cache operation for the cache provider.|  
-|[GetCacheRecord](../../web-development-reference\native-code-api-reference/icacheprovider-getcacherecord-method.md)|Returns the cache record for the cache provider.|  
-|[GetTraceContext](../../web-development-reference\native-code-api-reference/icacheprovider-gettracecontext-method.md)|Returns the trace context for the cache provider.|  
-|[SetCacheRecord](../../web-development-reference\native-code-api-reference/icacheprovider-setcacherecord-method.md)|Sets the cache-specific data on the cache provider.|  
-|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from `IHttpEventProvider`.)|  
+|[GetCacheKey](../../web-development-reference/native-code-api-reference/icacheprovider-getcachekey-method.md)|Returns the cache key for the cache provider.|  
+|[GetCacheOperation](../../web-development-reference/native-code-api-reference/icacheprovider-getcacheoperation-method.md)|Returns the cache operation for the cache provider.|  
+|[GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md)|Returns the cache record for the cache provider.|  
+|[GetTraceContext](../../web-development-reference/native-code-api-reference/icacheprovider-gettracecontext-method.md)|Returns the trace context for the cache provider.|  
+|[SetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-setcacherecord-method.md)|Sets the cache-specific data on the cache provider.|  
+|[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from `IHttpEventProvider`.)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `ICacheProvider` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `ICacheProvider` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
 <!-- TODO: review snippet reference  [!CODE [ICacheProvider#1](ICacheProvider#1)]  -->  
   
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  The above code writes a new event to the application log of the Event Viewer, where the Data box contains XML similar to the following.  
   
@@ -88,7 +88,7 @@ class ICacheProvider : public IHttpEventProvider
  You can optionally compile the code by using the __`stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `ICacheProvider`  
   
@@ -102,4 +102,4 @@ class ICacheProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

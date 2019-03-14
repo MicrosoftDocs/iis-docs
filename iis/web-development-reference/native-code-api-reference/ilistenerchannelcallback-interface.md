@@ -17,12 +17,12 @@ struct IListenerChannelCallback : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetBlob](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-getblob-method.md)|Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting that listener channel.|  
-|[GetBlobLength](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-getbloblength-method.md)|Returns the size of the buffered data in the listener channel.|  
-|[GetId](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-getid-method.md)|Retrieves the ID of a listener channel that needs to be started.|  
-|[ReportMessageReceived](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-reportmessagereceived-method.md)|Notifies the worker process framework that a new message was received.|  
-|[ReportStarted](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-reportstarted-method.md)|Notifies the worker process framework that a listener channel has started.|  
-|[ReportStopped](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-reportstopped-method.md)|Notifies the worker process framework that a listener channel has shut down.|  
+|[GetBlob](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-getblob-method.md)|Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting that listener channel.|  
+|[GetBlobLength](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-getbloblength-method.md)|Returns the size of the buffered data in the listener channel.|  
+|[GetId](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-getid-method.md)|Retrieves the ID of a listener channel that needs to be started.|  
+|[ReportMessageReceived](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-reportmessagereceived-method.md)|Notifies the worker process framework that a new message was received.|  
+|[ReportStarted](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-reportstarted-method.md)|Notifies the worker process framework that a listener channel has started.|  
+|[ReportStopped](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-reportstopped-method.md)|Notifies the worker process framework that a listener channel has shut down.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -48,4 +48,4 @@ struct IListenerChannelCallback : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service API Reference](../../web-development-reference\native-code-api-reference/windows-process-activation-service-api-reference.md)
+ [Windows Process Activation Service API Reference](../../web-development-reference/native-code-api-reference/windows-process-activation-service-api-reference.md)

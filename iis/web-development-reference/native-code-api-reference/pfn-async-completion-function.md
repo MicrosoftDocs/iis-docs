@@ -18,10 +18,10 @@ typedef REQUEST_NOTIFICATION_STATUS(WINAPI* PFN_ASYNC_COMPLETION)(
   
 ### Parameters  
  `pHttpContext`  
- A pointer to an [IHttpContext3](../../web-development-reference\native-code-api-reference/ihttpcontext3-interface.md) interface.  
+ A pointer to an [IHttpContext3](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md) interface.  
   
  `pCompletionInfo`  
- A pointer to an [IHttpCompletionInfo2](../../web-development-reference\native-code-api-reference/ihttpcompletioninfo2-interface.md) interface.  
+ A pointer to an [IHttpCompletionInfo2](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo2-interface.md) interface.  
   
  `pvCompletionCointext`  
  Points to the completion context information for the operation.  

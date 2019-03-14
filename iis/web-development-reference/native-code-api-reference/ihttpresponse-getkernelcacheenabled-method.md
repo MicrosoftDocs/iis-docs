@@ -30,11 +30,11 @@ virtual BOOL GetKernelCacheEnabled(
  The following code example demonstrates how to use the `GetKernelCacheEnabled` method to create an HTTP module that determines whether kernel caching is enabled for the current response. The module then returns this information to the client.  
   
 > [!NOTE]
-> Combine this example module with the example module that is listed for the [IHttpResponse::DisableKernelCache](../../web-development-reference\native-code-api-reference/ihttpresponse-disablekernelcache-method.md) method if you want to disable caching and return the status to the client.  
+> Combine this example module with the example module that is listed for the [IHttpResponse::DisableKernelCache](../../web-development-reference/native-code-api-reference/ihttpresponse-disablekernelcache-method.md) method if you want to disable caching and return the status to the client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpResponseGetKernelCacheEnabled#1](IHttpResponseGetKernelCacheEnabled#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -48,6 +48,6 @@ virtual BOOL GetKernelCacheEnabled(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference\native-code-api-reference/ihttpresponse-interface.md)   
- [IHttpResponse::DisableKernelCache Method](../../web-development-reference\native-code-api-reference/ihttpresponse-disablekernelcache-method.md)   
- [IHttpResponse::GetCachePolicy Method](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md)
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse::DisableKernelCache Method](../../web-development-reference/native-code-api-reference/ihttpresponse-disablekernelcache-method.md)   
+ [IHttpResponse::GetCachePolicy Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md)

@@ -18,21 +18,21 @@ class IHttpContext3 : public IHttpContext2
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetNamedContextContainer](../../web-development-reference\native-code-api-reference/ihttpcontext3-getnamedcontextcontainer-method.md)|Retrieves a container of named context objects.|  
-|[EnableFullDuplex](../../web-development-reference\native-code-api-reference/ihttpcontext3-enablefullduplex-method.md)|Enables an asynchronous full-duplex connection for this context.|  
-|[InheritServerVariable](../../web-development-reference\native-code-api-reference/ihttpcontext3-inheritservervariable-method.md)|Causes the request to inherit the specified server variable.|  
-|[PostCompletion](../../web-development-reference\native-code-api-reference/ihttpcontext3-postcompletion-method.md)|Posts the completion of the asynchronous operation.|  
+|[GetNamedContextContainer](../../web-development-reference/native-code-api-reference/ihttpcontext3-getnamedcontextcontainer-method.md)|Retrieves a container of named context objects.|  
+|[EnableFullDuplex](../../web-development-reference/native-code-api-reference/ihttpcontext3-enablefullduplex-method.md)|Enables an asynchronous full-duplex connection for this context.|  
+|[InheritServerVariable](../../web-development-reference/native-code-api-reference/ihttpcontext3-inheritservervariable-method.md)|Causes the request to inherit the specified server variable.|  
+|[PostCompletion](../../web-development-reference/native-code-api-reference/ihttpcontext3-postcompletion-method.md)|Posts the completion of the asynchronous operation.|  
   
 ## Derived Classes  
   
 |Name|Description|  
 |----------|-----------------|  
-|[IHttpContext4](../../web-development-reference\native-code-api-reference/ihttpcontext4-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.|  
+|[IHttpContext4](../../web-development-reference/native-code-api-reference/ihttpcontext4-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.|  
   
 ## Inheritance Hierarchy  
- [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)  
+ [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)  
   
- [IHttpContext2](../../web-development-reference\native-code-api-reference/ihttpcontext2-interface.md)  
+ [IHttpContext2](../../web-development-reference/native-code-api-reference/ihttpcontext2-interface.md)  
   
  `IHttpContext3`  
   
@@ -46,4 +46,4 @@ class IHttpContext3 : public IHttpContext2
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

@@ -17,7 +17,7 @@ struct IProcessPingCallback : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[IProcessPingCallback::Respond Method](../../web-development-reference\native-code-api-reference/iprocesspingcallback-respond-method.md)|Provides a callback routine that responds to a ping.|  
+|[IProcessPingCallback::Respond Method](../../web-development-reference/native-code-api-reference/iprocesspingcallback-respond-method.md)|Provides a callback routine that responds to a ping.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -40,4 +40,4 @@ struct IProcessPingCallback : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Interfaces](../../web-development-reference\native-code-api-reference/windows-process-activation-service-interfaces.md)
+ [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

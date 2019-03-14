@@ -25,7 +25,7 @@ virtual PVOID GetUserVariable(
  The default is `HTTP_USER_VARIABLE_SID`, which is defined in the Httpserv.h header file.  
   
 ## Notes for Implementers  
- [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpUser` implementers that use dynamic memory allocation must release or `delete` the `void` pointer when it is no longer needed.  
+ [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpUser` implementers that use dynamic memory allocation must release or `delete` the `void` pointer when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpUser` implementers are responsible for memory management with this data; therefore, `IHttpUser` clients must not release or `delete` the returned `void` pointer when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this `void` pointer, because an access violation will be thrown or the data will become invalid.  
@@ -42,7 +42,7 @@ virtual PVOID GetUserVariable(
 <user userName="DOMAIN\user" />  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -56,4 +56,4 @@ virtual PVOID GetUserVariable(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpUser Interface](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md)
+ [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)

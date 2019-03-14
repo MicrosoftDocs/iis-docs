@@ -27,11 +27,11 @@ virtual DWORD GetSiteId(
 >  This unique identifier is used for managing Web sites and for logging Web requests. For example, the default Web site on a server running IIS will be assigned the number 1, and by default all log files from Web activity for the default Web site will be stored in the %SystemRoot%\System32\Logfiles\W3SVC1 folder. Additional Web sites that are created will be assigned a unique numeric value that is generated algorithmically from the Web site's settings.  
   
 ## Example  
- The following code example demonstrates how to use the `GetSiteId` method to create an HTTP module that retrieves an [IHttpSite](../../web-development-reference\native-code-api-reference/ihttpsite-interface.md) interface. The module uses `GetSiteId` to retrieve the unique identifier for the Web site. The module then returns the identifier for the Web site to a Web client and exits.  
+ The following code example demonstrates how to use the `GetSiteId` method to create an HTTP module that retrieves an [IHttpSite](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md) interface. The module uses `GetSiteId` to retrieve the unique identifier for the Web site. The module then returns the identifier for the Web site to a Web client and exits.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpSiteGetSiteId#1](IHttpSiteGetSiteId#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -45,6 +45,6 @@ virtual DWORD GetSiteId(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext::GetSite Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getsite-method.md)   
- [IHttpSite Interface](../../web-development-reference\native-code-api-reference/ihttpsite-interface.md)   
- [IHttpSite::GetSiteName Method](../../web-development-reference\native-code-api-reference/ihttpsite-getsitename-method.md)
+ [IHttpContext::GetSite Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getsite-method.md)   
+ [IHttpSite Interface](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md)   
+ [IHttpSite::GetSiteName Method](../../web-development-reference/native-code-api-reference/ihttpsite-getsitename-method.md)

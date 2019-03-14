@@ -17,12 +17,12 @@ struct IProcessHostSupportFunctions : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[IProcessHostSupportFunctions::GetAppHostConfigFilename](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-getapphostconfigfilename-method.md)|Retrieves the application host configuration (.config) file path.|  
-|[IProcessHostSupportFunctions::GetApplicationProperties](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-getapplicationproperties-method.md)|Retrieves the properties from the application's metabase.|  
-|[IProcessHostSupportFunctions::GetConfigToken](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-getconfigtoken-method.md)|Retrieves a Windows security token for the specified application’s root directory.|  
-|[IProcessHostSupportFunctions::GetNativeConfigurationSystem](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-getnativeconfigurationsystem-method.md)|Retrieves the [INativeConfigurationSystem](https://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface pointer.|  
-|[IProcessHostSupportFunctions::GetRootWebConfigFilename](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-getrootwebconfigfilename-method.md)|Retrieves the physical path for the ApplicationHost.config file.|  
-|[IProcessHostSupportFunctions::MapPath](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-mappath-method.md)|Retrieves the physical path of a relative URL.|  
+|[IProcessHostSupportFunctions::GetAppHostConfigFilename](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-getapphostconfigfilename-method.md)|Retrieves the application host configuration (.config) file path.|  
+|[IProcessHostSupportFunctions::GetApplicationProperties](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-getapplicationproperties-method.md)|Retrieves the properties from the application's metabase.|  
+|[IProcessHostSupportFunctions::GetConfigToken](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-getconfigtoken-method.md)|Retrieves a Windows security token for the specified application’s root directory.|  
+|[IProcessHostSupportFunctions::GetNativeConfigurationSystem](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-getnativeconfigurationsystem-method.md)|Retrieves the [INativeConfigurationSystem](https://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface pointer.|  
+|[IProcessHostSupportFunctions::GetRootWebConfigFilename](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-getrootwebconfigfilename-method.md)|Retrieves the physical path for the ApplicationHost.config file.|  
+|[IProcessHostSupportFunctions::MapPath](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-mappath-method.md)|Retrieves the physical path of a relative URL.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -45,4 +45,4 @@ struct IProcessHostSupportFunctions : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Interfaces](../../web-development-reference\native-code-api-reference/windows-process-activation-service-interfaces.md)
+ [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

@@ -21,24 +21,24 @@ virtual HTTP_CACHE_POLICY* GetUserCachePolicy(
  A pointer to an [HTTP_CACHE_POLICY](https://go.microsoft.com/fwlink/?LinkId=62468).  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetUserCachePolicy` method to retrieve an `HTTP_CACHE_POLICY` pointer.  
+ [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetUserCachePolicy` method to retrieve an `HTTP_CACHE_POLICY` pointer.  
   
  The `GetUserCachePolicy` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
- The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private``HTTP_CACHE_POLICY` structure. During the construction of this implementer, the [Policy](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to `HttpCachePolicyNocache`, and the [SecondsToLive](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to 0. The `GetUserCachePolicy` method returns the address of this same `HTTP_CACHE_POLICY` structure.  
+ The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private``HTTP_CACHE_POLICY` structure. During the construction of this implementer, the [Policy](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to `HttpCachePolicyNocache`, and the [SecondsToLive](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to 0. The `GetUserCachePolicy` method returns the address of this same `HTTP_CACHE_POLICY` structure.  
   
 ## Notes for Implementers  
- [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` implementers that use dynamic memory allocation must release or call `delete` on the `HTTP_CACHE_POLICY` pointer when it is no longer needed.  
+ [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` implementers that use dynamic memory allocation must release or call `delete` on the `HTTP_CACHE_POLICY` pointer when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` clients must not release or call `delete` on the returned `HTTP_CACHE_POLICY` pointer when this data is no longer needed.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes cache policy information for the user to the response stream.  
+ The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes cache policy information for the user to the response stream.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpCachePolicy#6](IHttpCachePolicy#6)]  -->  
   
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  The above code writes data that is similar to the following to the response stream:  
   
@@ -62,4 +62,4 @@ Seconds-to-Live: 0
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

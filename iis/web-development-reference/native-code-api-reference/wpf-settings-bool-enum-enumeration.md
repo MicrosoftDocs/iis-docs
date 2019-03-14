@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 530cbe9f-cf27-47d0-927a-563b795db69c
 ---
 # WPF_SETTINGS_BOOL_ENUM Enumeration
-Defines the `BOOL` values that the [IWpfSettings::GetBoolProperty](../../web-development-reference\native-code-api-reference/iwpfsettings-getboolproperty-method.md) method returns.  
+Defines the `BOOL` values that the [IWpfSettings::GetBoolProperty](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md) method returns.  
   
 ## Syntax  
   
@@ -20,7 +20,7 @@ enum WPF_SETTINGS_BOOL_ENUM {
 |Name|Description|  
 |----------|-----------------|  
 |`ENABLED_CENTRAL_BINARY_LOGGING`|A value that indicates whether central binary logging is enabled.|  
-|`ENABLED_HOSTABLE_WEB_CORE`|A value that indicates whether the [Hosted Web Core](../../web-development-reference\native-code-api-reference/hosted-web-core-api-reference.md) is enabled.|  
+|`ENABLED_HOSTABLE_WEB_CORE`|A value that indicates whether the [Hosted Web Core](../../web-development-reference/native-code-api-reference/hosted-web-core-api-reference.md) is enabled.|  
   
 ## Requirements  
   
@@ -32,9 +32,9 @@ enum WPF_SETTINGS_BOOL_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
- [Worker Process and Protocol Manager Enumerations](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
- [IWpfSettings::GetBoolProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
- [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md)   
- [WPF_SETTINGS_HANDLE_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-handle-enum-enumeration.md)   
- [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-string-enum-enumeration.md)   
- [WPF_SETTINGS_ULONGLONG_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md)
+ [Worker Process and Protocol Manager Enumerations](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
+ [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
+ [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-dword-enum-enumeration.md)   
+ [WPF_SETTINGS_HANDLE_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-handle-enum-enumeration.md)   
+ [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-string-enum-enumeration.md)   
+ [WPF_SETTINGS_ULONGLONG_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md)

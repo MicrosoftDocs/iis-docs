@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b4d97a23-123d-5c77-b0f1-ccfc388d5517
 ---
 # IGlobalRSCAQueryProvider Interface
-Extends the [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface by adding support for querying IIS Run-Time Status and Control information.  
+Extends the [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface by adding support for querying IIS Run-Time Status and Control information.  
   
 ## Syntax  
   
@@ -17,18 +17,18 @@ class IGlobalRSCAQueryProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetFunctionName](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-getfunctionname-method.md)|Returns the name of the dynamic function call that caused the event.|  
-|[GetFunctionParameters](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-getfunctionparameters-method.md)|Returns the parameters of the dynamic function call that caused the event.|  
-|[GetOutputBuffer](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md)|Creates a new `BYTE` array.|  
-|[ResizeOutputBuffer](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-resizeoutputbuffer-method.md)|Resizes and returns the output `BYTE` array.|  
-|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
-|[SetResult](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-setresult-method.md)|Finalizes the internal buffer.|  
+|[GetFunctionName](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getfunctionname-method.md)|Returns the name of the dynamic function call that caused the event.|  
+|[GetFunctionParameters](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getfunctionparameters-method.md)|Returns the parameters of the dynamic function call that caused the event.|  
+|[GetOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md)|Creates a new `BYTE` array.|  
+|[ResizeOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-resizeoutputbuffer-method.md)|Resizes and returns the output `BYTE` array.|  
+|[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[SetResult](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-setresult-method.md)|Finalizes the internal buffer.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an `IGlobalRscaQueryProvider` pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an `IGlobalRscaQueryProvider` pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method.  
   
 ## Example  
  The following code example demonstrates how to create a global module that listens for `GL_RSCA_QUERY` events. It then writes the `IGlobalRSCAQueryProvider` information to the Event Viewer.  
@@ -38,7 +38,7 @@ class IGlobalRSCAQueryProvider : public IHttpEventProvider
   
 <!-- TODO: review snippet reference  [!CODE [IGlobalRSCAQueryProvider#1](IGlobalRSCAQueryProvider#1)]  -->  
   
- For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  The above code writes two new events to the application log of the Event Viewer, where the Data boxes contain strings similar to the following:  
   
@@ -53,7 +53,7 @@ Parameters:
  You can optionally compile the code by using the __`stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalRSCAQueryProvider`  
   
@@ -67,4 +67,4 @@ Parameters:
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

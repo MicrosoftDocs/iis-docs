@@ -18,11 +18,11 @@ virtual VOID SetKernelCacheInvalidatorSet(
  This method takes no parameters.  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To invalidate the cache, call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetKernelCacheInvalidatorSet` method.  
+ [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To invalidate the cache, call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetKernelCacheInvalidatorSet` method.  
   
  `SetKernelCacheInvalidatorSet` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
- The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that is initialized to `false` at construction. When `SetKernelCacheInvalidatorSet` is called, this Boolean value is set to `true`. After `SetKernelCacheInvalidatorSet` is called, there is no method to reset this Boolean value to `false`.  
+ The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that is initialized to `false` at construction. When `SetKernelCacheInvalidatorSet` is called, this Boolean value is set to `true`. After `SetKernelCacheInvalidatorSet` is called, there is no method to reset this Boolean value to `false`.  
   
 ## Requirements  
   
@@ -34,4 +34,4 @@ virtual VOID SetKernelCacheInvalidatorSet(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

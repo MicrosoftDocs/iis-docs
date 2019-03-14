@@ -9,7 +9,7 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 ## Request Processing Constants  
   
 ### Deterministic Request-Level Notification Constants  
- The following constants are used with the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method to specify which sequential request-level notifications an HTTP module will process.  
+ The following constants are used with the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method to specify which sequential request-level notifications an HTTP module will process.  
   
 |Constant|Bitmask|Description|  
 |--------------|-------------|-----------------|  
@@ -27,7 +27,7 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 |RQ_END_REQUEST|0x00000800|Indicates that IIS ended a request.|  
   
 ### Nondeterministic Request-Level Notification Constants  
- The following constants are used with the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method to specify which nonsequential request-level notifications an HTTP module will process.  
+ The following constants are used with the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method to specify which nonsequential request-level notifications an HTTP module will process.  
   
 |Constant|Bitmask|Description|  
 |--------------|-------------|-----------------|  
@@ -37,7 +37,7 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 |RQ_MAP_PATH|0x80000000|Indicates that IIS mapped a URL to a physical path.|  
   
 ### Global Notification Constants  
- The following constants are used with the [IHttpModuleRegistrationInfo::SetGlobalNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method to specify which global-level notifications an HTTP module will process.  
+ The following constants are used with the [IHttpModuleRegistrationInfo::SetGlobalNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method to specify which global-level notifications an HTTP module will process.  
   
 |Constant|Bitmask|Description|  
 |--------------|-------------|-----------------|  
@@ -57,7 +57,7 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 |GL_THREAD_CLEANUP|0x00008000|Indicates that IIS cleaned up a thread.|  
   
 ### Priority Alias Constants  
- The following constants are used with the [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md) and [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) methods to specify the priority level for notifications.  
+ The following constants are used with the [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md) and [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) methods to specify the priority level for notifications.  
   
 > [!NOTE]
 >  The priority levels are inverted for `RQ_SEND_RESPONSE` notifications.  
@@ -71,7 +71,7 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 |PRIORITY_ALIAS_LAST|L"LAST"|Indicates that the module should be processed after all other modules. For `RQ_SEND_RESPONSE` notifications, indicates that the module should be processed before all other modules.|  
   
 ### Context-Cloning Constants  
- The following constants are used with the [IHttpContext::CloneContext](../../web-development-reference\native-code-api-reference/ihttpcontext-clonecontext-method.md) method to specify which sections of the context should be cloned.  
+ The following constants are used with the [IHttpContext::CloneContext](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md) method to specify which sections of the context should be cloned.  
   
 |Constant|Value|Description|  
 |--------------|-----------|-----------------|  
@@ -82,7 +82,7 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 |CLONE_FLAG_NO_DAV|0x10|Indicates that any WebDAV headers for the request should not be included in the clone operation.|  
   
 ### Request-Execution Constants  
- The following constants are used with the [IHttpContext::ExecuteRequest](../../web-development-reference\native-code-api-reference/ihttpcontext-executerequest-method.md) method to specify the execution behavior for a child context.  
+ The following constants are used with the [IHttpContext::ExecuteRequest](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md) method to specify the execution behavior for a child context.  
   
 |Constant|Value|Description|  
 |--------------|-----------|-----------------|  
@@ -95,11 +95,11 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 |EXECUTE_FLAG_HTTP_CACHE_ELIGIBLE|0x40|Indicates that the child response is still eligible for caching by Http.sys.|  
   
 ## See Also  
- [Web Server Core Constants](../../web-development-reference\native-code-api-reference/web-server-core-constants.md)   
- [Web Server Core API Reference](../../web-development-reference\native-code-api-reference/web-server-core-api-reference.md)   
- [IHttpContext::CloneContext Method](../../web-development-reference\native-code-api-reference/ihttpcontext-clonecontext-method.md)   
- [IHttpContext::ExecuteRequest Method](../../web-development-reference\native-code-api-reference/ihttpcontext-executerequest-method.md)   
- [IHttpModuleRegistrationInfo::SetGlobalNotifications Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)   
- [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)   
- [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)   
- [IHttpModuleRegistrationInfo::SetRequestNotifications Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md)
+ [Web Server Core Constants](../../web-development-reference/native-code-api-reference/web-server-core-constants.md)   
+ [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)   
+ [IHttpContext::CloneContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md)   
+ [IHttpContext::ExecuteRequest Method](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md)   
+ [IHttpModuleRegistrationInfo::SetGlobalNotifications Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)   
+ [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)   
+ [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)   
+ [IHttpModuleRegistrationInfo::SetRequestNotifications Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md)

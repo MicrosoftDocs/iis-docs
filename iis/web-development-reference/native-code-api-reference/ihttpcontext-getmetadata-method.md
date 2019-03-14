@@ -18,17 +18,17 @@ virtual IMetadataInfo* GetMetadata(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IMetadataInfo](../../web-development-reference\native-code-api-reference/imetadatainfo-interface.md) interface.  
+ A pointer to an [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md) interface.  
   
 ## Remarks  
- The `GetMetadata` method retrieves an `IMetadataInfo` interface, which you use to retrieve information from an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration file, for the current context. You can then use the [GetMetaPath](../../web-development-reference\native-code-api-reference/imetadatainfo-getmetapath-method.md) method from the `IMetadataInfo` interface to retrieve the configuration path for the current request context.  
+ The `GetMetadata` method retrieves an `IMetadataInfo` interface, which you use to retrieve information from an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration file, for the current context. You can then use the [GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method from the `IMetadataInfo` interface to retrieve the configuration path for the current request context.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the `GetMetadata` method to retrieve a pointer to an `IMetadataInfo` interface. The module completes the following steps:  
   
-1.  Uses the [IMetadataInfo::GetMetaPath](../../web-development-reference\native-code-api-reference/imetadatainfo-getmetapath-method.md) method to retrieve the configuration path for the current request.  
+1.  Uses the [IMetadataInfo::GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method to retrieve the configuration path for the current request.  
   
-2.  Uses the [IHttpServer::GetConfigObject](../../web-development-reference\native-code-api-reference/ihttpserver-getconfigobject-method.md) method to retrieve a pointer to an [INativeConfigurationSystem](https://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
+2.  Uses the [IHttpServer::GetConfigObject](../../web-development-reference/native-code-api-reference/ihttpserver-getconfigobject-method.md) method to retrieve a pointer to an [INativeConfigurationSystem](https://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
   
 3.  Passes the configuration path for the current request to the [INativeConfigurationSystem::GetConfigSection](https://msdn.microsoft.com/en-us/ad4c47fd-a00e-eb0e-f181-0cb41e98c89d) method.  
   
@@ -40,7 +40,7 @@ virtual IMetadataInfo* GetMetadata(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetMetadata#1](IHttpContextGetMetadata#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -54,4 +54,4 @@ virtual IMetadataInfo* GetMetadata(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

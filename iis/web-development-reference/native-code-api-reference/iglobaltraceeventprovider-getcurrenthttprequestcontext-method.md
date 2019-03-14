@@ -27,7 +27,7 @@ virtual HRESULT GetCurrentHttpRequestContext(
 |ERROR_NOT_SUPPORTED|Indicates that the method is not supported.|  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer by calling the `GetCurrentHttpRequestContext` method on that `IGlobalTraceEventProvider` pointer.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer by calling the `GetCurrentHttpRequestContext` method on that `IGlobalTraceEventProvider` pointer.  
   
  One possible use for `GetCurrentHttpRequestContext` is to provide custom buffering of events.  
   
@@ -44,11 +44,11 @@ virtual HRESULT GetCurrentHttpRequestContext(
  `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` clients must not release or call `delete` on the returned `IHttpContext` pointer when this data is no longer needed.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and declares and initializes an [HTTP_TRACE_CONFIGURATION](../../web-development-reference\native-code-api-reference/http-trace-configuration-structure.md) structure that filters for events. The module then retrieves the `IHttpContext` pointer by calling the `GetCurrentHttpRequestContext` method.  
+ The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and declares and initializes an [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) structure that filters for events. The module then retrieves the `IHttpContext` pointer by calling the `GetCurrentHttpRequestContext` method.  
   
 <!-- TODO: review snippet reference  [!CODE [IGlobalTraceEventProvider#3](IGlobalTraceEventProvider#3)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -62,4 +62,4 @@ virtual HRESULT GetCurrentHttpRequestContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalTraceEventProvider Interface](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-interface.md)
+ [IGlobalTraceEventProvider Interface](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md)

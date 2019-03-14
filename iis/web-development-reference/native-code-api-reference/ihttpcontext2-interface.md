@@ -18,17 +18,17 @@ class IHttpContext2 : public IHttpContext
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetOriginalUser](../../web-development-reference\native-code-api-reference/ihttpcontext2-getoriginaluser-method.md)|Retrieves the user information associated with the original request during asynchronous operation.|  
+|[GetOriginalUser](../../web-development-reference/native-code-api-reference/ihttpcontext2-getoriginaluser-method.md)|Retrieves the user information associated with the original request during asynchronous operation.|  
   
 ## Derived Classes  
   
 |Name|Description|  
 |----------|-----------------|  
-|[IHttpContext3](../../web-development-reference\native-code-api-reference/ihttpcontext3-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for asynchronous operations.|  
-|[IHttpContext4](../../web-development-reference\native-code-api-reference/ihttpcontext4-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.|  
+|[IHttpContext3](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for asynchronous operations.|  
+|[IHttpContext4](../../web-development-reference/native-code-api-reference/ihttpcontext4-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.|  
   
 ## Inheritance Hierarchy  
- [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)  
+ [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)  
   
  `IHttpContext2`  
   
@@ -42,4 +42,4 @@ class IHttpContext2 : public IHttpContext
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

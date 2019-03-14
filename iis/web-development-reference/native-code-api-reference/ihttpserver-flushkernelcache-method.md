@@ -31,14 +31,14 @@ virtual HRESULT FlushKernelCache(
  Developers can use the `FlushKernelCache` method to remove a specific URI from the kernel cache.  
   
 > [!NOTE]
->  The `FlushKernelCache` method differs from the [IHttpResponse::DisableKernelCache](../../web-development-reference\native-code-api-reference/ihttpresponse-disablekernelcache-method.md) method, which disables kernel caching for the URI that is processing the current response.  
+>  The `FlushKernelCache` method differs from the [IHttpResponse::DisableKernelCache](../../web-development-reference/native-code-api-reference/ihttpresponse-disablekernelcache-method.md) method, which disables kernel caching for the URI that is processing the current response.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the `FlushKernelCache` method to flush the kernel cache for the /default.aspx URI.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpServerFlushKernelCache#1](IHttpServerFlushKernelCache#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -52,7 +52,7 @@ virtual HRESULT FlushKernelCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
- [IHttpResponse::DisableKernelCache Method](../../web-development-reference\native-code-api-reference/ihttpresponse-disablekernelcache-method.md)   
- [IHttpResponse::GetCachePolicy Method](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md)   
- [IHttpResponse::GetKernelCacheEnabled Method](../../web-development-reference\native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md)
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpResponse::DisableKernelCache Method](../../web-development-reference/native-code-api-reference/ihttpresponse-disablekernelcache-method.md)   
+ [IHttpResponse::GetCachePolicy Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md)   
+ [IHttpResponse::GetKernelCacheEnabled Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md)

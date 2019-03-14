@@ -17,7 +17,7 @@ HRESULT Schema(
   
 ### Parameters  
  `ppMethodSchema`  
- Contains the schema for the specified [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md).  
+ Contains the schema for the specified [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md).  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -36,5 +36,5 @@ HRESULT Schema(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md)   
- [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md)
+ [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)   
+ [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

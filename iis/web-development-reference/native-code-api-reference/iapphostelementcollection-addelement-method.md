@@ -18,7 +18,7 @@ HRESULT AddElement(
   
 ### Parameters  
  `pElement`  
- A pointer to an [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
+ A pointer to an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
  `cPosition`  
  An `INT` value that represents the position in the collection where `pElement` should be inserted.  
@@ -47,5 +47,5 @@ HRESULT AddElement(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementCollection Interface](../../web-development-reference\native-code-api-reference/iapphostelementcollection-interface.md)   
- [IAppHostElementCollection::CreateNewElement Method](../../web-development-reference\native-code-api-reference/iapphostelementcollection-createnewelement-method.md)
+ [IAppHostElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementcollection-interface.md)   
+ [IAppHostElementCollection::CreateNewElement Method](../../web-development-reference/native-code-api-reference/iapphostelementcollection-createnewelement-method.md)

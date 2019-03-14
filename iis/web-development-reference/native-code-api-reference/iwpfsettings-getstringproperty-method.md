@@ -18,7 +18,7 @@ virtual HRESULT GetStringProperty(
   
 ### Parameters  
  `SettingId`  
- [IN] A [WPF_SETTINGS_STRING_ENUM](../../web-development-reference\native-code-api-reference/wpf-settings-string-enum-enumeration.md) value that specifies which string value to return.  
+ [IN] A [WPF_SETTINGS_STRING_ENUM](../../web-development-reference/native-code-api-reference/wpf-settings-string-enum-enumeration.md) value that specifies which string value to return.  
   
  `pszSetting`  
  [OUT] A pointer to a string buffer that receives the value specified by `SettingId`.  
@@ -48,9 +48,9 @@ virtual HRESULT GetStringProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfSettings Interface](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md)   
- [IWpfSettings::GetBoolProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
- [IWpfSettings::GetDwordProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-getdwordproperty-method.md)   
- [IWpfSettings::GetHandleProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   
- [IWpfSettings::GetUlonglongProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-getulonglongproperty-method.md)   
- [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-string-enum-enumeration.md)
+ [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)   
+ [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
+ [IWpfSettings::GetDwordProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md)   
+ [IWpfSettings::GetHandleProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   
+ [IWpfSettings::GetUlonglongProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getulonglongproperty-method.md)   
+ [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-string-enum-enumeration.md)

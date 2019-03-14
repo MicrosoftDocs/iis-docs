@@ -17,7 +17,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT)(
   
 ### Parameters  
  `pContext`  
- [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
+ [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
  `hr`  
  [IN] An `HRESULT` error value that indicates the reason the WAS disconnected.  
@@ -40,6 +40,6 @@ typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT)(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference\native-code-api-reference/listener-adapter-callback-functions.md)   
- [WebhostRegisterProtocol Function](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md)   
- [Windows Process Activation Service API Reference](../../web-development-reference\native-code-api-reference/windows-process-activation-service-api-reference.md)
+ [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
+ [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)   
+ [Windows Process Activation Service API Reference](../../web-development-reference/native-code-api-reference/windows-process-activation-service-api-reference.md)

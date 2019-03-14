@@ -42,4 +42,4 @@ virtual HRESULT __stdcall GetConfigToken(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHostSupportFunctions Interface](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-interface.md)
+ [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)

@@ -30,7 +30,7 @@ virtual HRESULT GetCustomInterface(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- Use the `GetCustomInterface` method to retrieve any interfaces that are not defined in the [PM_INTERFACE_ID_ENUM](../../web-development-reference\native-code-api-reference/pm-interface-id-enum-enumeration.md) enumeration and that may be exposed by a protocol manager. To retrieve interfaces from a protocol manager that are defined by `PM_INTERFACE_ID_ENUM`, use the [IProtocolManager::GetPmInterface](../../web-development-reference\native-code-api-reference/iprotocolmanager-getpminterface-method.md) method.  
+ Use the `GetCustomInterface` method to retrieve any interfaces that are not defined in the [PM_INTERFACE_ID_ENUM](../../web-development-reference/native-code-api-reference/pm-interface-id-enum-enumeration.md) enumeration and that may be exposed by a protocol manager. To retrieve interfaces from a protocol manager that are defined by `PM_INTERFACE_ID_ENUM`, use the [IProtocolManager::GetPmInterface](../../web-development-reference/native-code-api-reference/iprotocolmanager-getpminterface-method.md) method.  
   
 ## Requirements  
   
@@ -42,6 +42,6 @@ virtual HRESULT GetCustomInterface(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IProtocolManager Interface](../../web-development-reference\native-code-api-reference/iprotocolmanager-interface.md)   
- [IProtocolManager::GetPmInterface Method](../../web-development-reference\native-code-api-reference/iprotocolmanager-getpminterface-method.md)   
- [IProtocolManager::Shutdown Method](../../web-development-reference\native-code-api-reference/iprotocolmanager-shutdown-method.md)
+ [IProtocolManager Interface](../../web-development-reference/native-code-api-reference/iprotocolmanager-interface.md)   
+ [IProtocolManager::GetPmInterface Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-getpminterface-method.md)   
+ [IProtocolManager::Shutdown Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-shutdown-method.md)

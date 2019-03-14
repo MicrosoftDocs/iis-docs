@@ -17,22 +17,22 @@ interface IAppHostElement : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[Clear](../../web-development-reference\native-code-api-reference/iapphostelement-clear-method.md)|Removes all elements from the configuration system.|  
-|[GetElementByName](../../web-development-reference\native-code-api-reference/iapphostelement-getelementbyname-method.md)|Gets a requested child element from the current element.|  
-|[GetMetadata](../../web-development-reference\native-code-api-reference/iapphostelement-getmetadata-method.md)|Gets metadata values from the current element.|  
-|[GetPropertyByName](../../web-development-reference\native-code-api-reference/iapphostelement-getpropertybyname-method.md)|Gets a requested property from the [IAppHostElement::Properties](../../web-development-reference\native-code-api-reference/iapphostelement-properties-property.md) collection.|  
-|[SetMetadata](../../web-development-reference\native-code-api-reference/iapphostelement-setmetadata-method.md)|Sets metadata for the current element.|  
+|[Clear](../../web-development-reference/native-code-api-reference/iapphostelement-clear-method.md)|Removes all elements from the configuration system.|  
+|[GetElementByName](../../web-development-reference/native-code-api-reference/iapphostelement-getelementbyname-method.md)|Gets a requested child element from the current element.|  
+|[GetMetadata](../../web-development-reference/native-code-api-reference/iapphostelement-getmetadata-method.md)|Gets metadata values from the current element.|  
+|[GetPropertyByName](../../web-development-reference/native-code-api-reference/iapphostelement-getpropertybyname-method.md)|Gets a requested property from the [IAppHostElement::Properties](../../web-development-reference/native-code-api-reference/iapphostelement-properties-property.md) collection.|  
+|[SetMetadata](../../web-development-reference/native-code-api-reference/iapphostelement-setmetadata-method.md)|Sets metadata for the current element.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostElement` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[ChildElements](../../web-development-reference\native-code-api-reference/iapphostelement-childelements-property.md)|Represents a collection of child elements that are nested under the current [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.|  
-|[Collection](../../web-development-reference\native-code-api-reference/iapphostelement-collection-property.md)|Represents a collection of elements that belongs to a collection.|  
-|[Name](../../web-development-reference\native-code-api-reference/iapphostelement-name-property.md)|Gets the name of the current element.|  
-|[Properties](../../web-development-reference\native-code-api-reference/iapphostelement-properties-property.md)|Gets the collection of properties that are defined for the current element.|  
-|[Schema](../../web-development-reference\native-code-api-reference/iapphostelement-schema-property.md)|Gets the schema that is assigned to the current element.|  
+|[ChildElements](../../web-development-reference/native-code-api-reference/iapphostelement-childelements-property.md)|Represents a collection of child elements that are nested under the current [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.|  
+|[Collection](../../web-development-reference/native-code-api-reference/iapphostelement-collection-property.md)|Represents a collection of elements that belongs to a collection.|  
+|[Name](../../web-development-reference/native-code-api-reference/iapphostelement-name-property.md)|Gets the name of the current element.|  
+|[Properties](../../web-development-reference/native-code-api-reference/iapphostelement-properties-property.md)|Gets the collection of properties that are defined for the current element.|  
+|[Schema](../../web-development-reference/native-code-api-reference/iapphostelement-schema-property.md)|Gets the schema that is assigned to the current element.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -49,5 +49,5 @@ interface IAppHostElement : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)
