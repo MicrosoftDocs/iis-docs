@@ -36,4 +36,4 @@ HRESULT get_Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigLocationCollection Interface](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-interface.md)
+ [IAppHostConfigLocationCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md)

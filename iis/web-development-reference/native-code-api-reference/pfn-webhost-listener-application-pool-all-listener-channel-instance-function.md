@@ -18,7 +18,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
   
 ### Parameters  
  `pContext`  
- [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
+ [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
  `AppPoolId`  
  [IN] A pointer to a string that contains the application pool to which the listener adapter belongs.  
@@ -30,7 +30,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
  `VOID`.  
   
 ## Remarks  
- The listener adapter should call the [WebhostOpenListenerChannelInstance](../../web-development-reference\native-code-api-reference/webhostopenlistenerchannelinstance-function.md) function to open the initial listener channel when it receives the first request. The listener adapter should not call `WebhostOpenListenerChannelInstance` again until it is notified through this function.  
+ The listener adapter should call the [WebhostOpenListenerChannelInstance](../../web-development-reference/native-code-api-reference/webhostopenlistenerchannelinstance-function.md) function to open the initial listener channel when it receives the first request. The listener adapter should not call `WebhostOpenListenerChannelInstance` again until it is notified through this function.  
   
  This notification can be called whenever a new instance of a listener channel can be connected to a worker process. The following are some of the situations in which this notification may occur:  
   
@@ -58,5 +58,5 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference\native-code-api-reference/listener-adapter-callback-functions.md)   
- [WebhostRegisterProtocol Function](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md)
+ [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
+ [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

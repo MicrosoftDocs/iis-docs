@@ -22,7 +22,7 @@ HRESULT AddSectionGroup(
  A `BSTR` that contains the name of the new section group to add.  
   
  `ppSectionGroup`  
- A pointer to a pointer for the newly created [IAppHostSectionGroup](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md) interface.  
+ A pointer to a pointer for the newly created [IAppHostSectionGroup](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -46,4 +46,4 @@ HRESULT AddSectionGroup(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostSectionGroup Interface](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md)
+ [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

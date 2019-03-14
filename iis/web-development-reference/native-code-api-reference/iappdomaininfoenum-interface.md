@@ -17,10 +17,10 @@ struct IAppDomainInfoEnum : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[Count](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-count-method.md)|Retrieves the number of application domains.|  
-|[GetData](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-getdata-method.md)|Retrieves an [IAppDomainInfo](../../web-development-reference\native-code-api-reference/iappdomaininfo-interface.md) interface.|  
-|[MoveNext](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-movenext-method.md)|Moves to the next [IAppDomainInfo](../../web-development-reference\native-code-api-reference/iappdomaininfo-interface.md) interface.|  
-|[Reset](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-reset-method.md)|Initializes the `IAppDomainInfoEnum` interface.|  
+|[Count](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-count-method.md)|Retrieves the number of application domains.|  
+|[GetData](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-getdata-method.md)|Retrieves an [IAppDomainInfo](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md) interface.|  
+|[MoveNext](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-movenext-method.md)|Moves to the next [IAppDomainInfo](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md) interface.|  
+|[Reset](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-reset-method.md)|Initializes the `IAppDomainInfoEnum` interface.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -54,4 +54,4 @@ struct IAppDomainInfoEnum : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Interfaces](../../web-development-reference\native-code-api-reference/windows-process-activation-service-interfaces.md)
+ [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

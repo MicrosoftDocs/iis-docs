@@ -27,7 +27,7 @@ HRESULT GetAdminSection(
  A `BSTR` that contains the configuration system path.  
   
  `ppAdminSection`  
- A pointer to a pointer for an [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -44,7 +44,7 @@ HRESULT GetAdminSection(
  For a specified configuration path, the return values of this method represent the corresponding values in the hierarchically merged configuration set. To set the configuration path, use the `bstrPath` parameter of this method.  
   
 ## Example  
- The following code example uses the [IAppHostAdminManager](../../web-development-reference\native-code-api-reference/iapphostadminmanager-interface.md) interface to obtain all merged child elements for the `system.webServer/asp` configuration section in the MACHINE/WEBROOT/APPHOST configuration path.  
+ The following code example uses the [IAppHostAdminManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md) interface to obtain all merged child elements for the `system.webServer/asp` configuration section in the MACHINE/WEBROOT/APPHOST configuration path.  
   
 <!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#1](IAppHostAdminLibrary#1)]  -->  
   
@@ -58,5 +58,5 @@ HRESULT GetAdminSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostAdminManager Interface](../../web-development-reference\native-code-api-reference/iapphostadminmanager-interface.md)   
- [IAppHostConfigFile::GetAdminSection Method](../../web-development-reference\native-code-api-reference/iapphostconfigfile-getadminsection-method.md)
+ [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)   
+ [IAppHostConfigFile::GetAdminSection Method](../../web-development-reference/native-code-api-reference/iapphostconfigfile-getadminsection-method.md)

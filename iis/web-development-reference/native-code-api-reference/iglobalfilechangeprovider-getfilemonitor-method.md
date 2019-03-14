@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 899ac7c8-6596-e1a0-b5b2-4ee7abe6863e
 ---
 # IGlobalFileChangeProvider::GetFileMonitor Method
-Returns an [IHttpFileMonitor](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-interface.md) file-change monitor.  
+Returns an [IHttpFileMonitor](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-interface.md) file-change monitor.  
   
 ## Syntax  
   

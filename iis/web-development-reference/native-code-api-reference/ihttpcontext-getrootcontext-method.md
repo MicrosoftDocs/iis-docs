@@ -18,10 +18,10 @@ virtual IHttpContext* GetRootContext(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
+ A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
 ## Remarks  
- The `GetRootContext` method retrieves a pointer to the `IHttpContext` interface for the root context of the current request. For example, if an HTTP module creates a child context by using the [CloneContext](../../web-development-reference\native-code-api-reference/ihttpcontext-clonecontext-method.md) method, the `GetRootContext` method can help determine whether the module is processing on the root context or on the child context.  
+ The `GetRootContext` method retrieves a pointer to the `IHttpContext` interface for the root context of the current request. For example, if an HTTP module creates a child context by using the [CloneContext](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md) method, the `GetRootContext` method can help determine whether the module is processing on the root context or on the child context.  
   
 > [!NOTE]
 >  When the current context is the root context, the `GetRootContext` method will return `NULL`.  
@@ -31,7 +31,7 @@ virtual IHttpContext* GetRootContext(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetRootContext#1](IHttpContextGetRootContext#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -46,6 +46,6 @@ virtual IHttpContext* GetRootContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::CloneContext Method](../../web-development-reference\native-code-api-reference/ihttpcontext-clonecontext-method.md)   
- [IHttpContext::GetParentContext Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getparentcontext-method.md)
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::CloneContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md)   
+ [IHttpContext::GetParentContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getparentcontext-method.md)

@@ -7,13 +7,13 @@ ms.assetid: 8dd0b80e-62df-49fe-9ed7-dde4322ea324
 This topic describes the constants that are defined in the Httpcach.h header file.  
   
 ## Cache Name Constants  
- The following constants are used for returning values from the [IHttpCacheKey::GetCacheName](../../web-development-reference\native-code-api-reference/ihttpcachekey-getcachename-method.md) method for interfaces defined in the Httpcach.h file.  
+ The following constants are used for returning values from the [IHttpCacheKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md) method for interfaces defined in the Httpcach.h file.  
   
 |Constant|Value|Description|  
 |--------------|-----------|-----------------|  
-|FILE_CACHE_NAME|L"FILE"|The [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md) pointer may be safely downcast to an [IFileKey](../../web-development-reference\native-code-api-reference/ifilekey-interface.md) pointer.|  
-|TOKEN_CACHE_NAME|L"TOKEN"|The `IHttpCacheKey` pointer may be safely downcast to an [IHttpTokenKey](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md) pointer.|  
-|URI_CACHE_NAME|L"URI"|The `IHttpCacheKey` pointer may be safely downcast to an [IUriKey](../../web-development-reference\native-code-api-reference/iurikey-interface.md) pointer.|  
+|FILE_CACHE_NAME|L"FILE"|The [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) pointer may be safely downcast to an [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md) pointer.|  
+|TOKEN_CACHE_NAME|L"TOKEN"|The `IHttpCacheKey` pointer may be safely downcast to an [IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md) pointer.|  
+|URI_CACHE_NAME|L"URI"|The `IHttpCacheKey` pointer may be safely downcast to an [IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md) pointer.|  
   
 ## Remarks  
  Before you perform any downcast operation, always verify that the cast is correct to guarantee correct program behavior. Consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
@@ -28,5 +28,5 @@ This topic describes the constants that are defined in the Httpcach.h header fil
 |Header|Httpcach.h|  
   
 ## See Also  
- [Web Server Core Constants](../../web-development-reference\native-code-api-reference/web-server-core-constants.md)   
- [Creating Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\creating-native-code-http-modules.md)
+ [Web Server Core Constants](../../web-development-reference/native-code-api-reference/web-server-core-constants.md)   
+ [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)

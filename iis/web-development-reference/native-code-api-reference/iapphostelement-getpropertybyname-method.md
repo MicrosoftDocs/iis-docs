@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 111eeea6-65ea-8973-50e8-bfcd84ba0394
 ---
 # IAppHostElement::GetPropertyByName Method
-Gets a requested property from the [IAppHostElement::Properties](../../web-development-reference\native-code-api-reference/iapphostelement-properties-property.md) collection.  
+Gets a requested property from the [IAppHostElement::Properties](../../web-development-reference/native-code-api-reference/iapphostelement-properties-property.md) collection.  
   
 ## Syntax  
   
@@ -22,7 +22,7 @@ HRESULT GetPropertyByName(
  A `BSTR` that contains the name of the requested property.  
   
  `ppProperty`  
- A pointer to a pointer for an [IAppHostProperty](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostProperty](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -42,4 +42,4 @@ HRESULT GetPropertyByName(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)
+ [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

@@ -33,7 +33,7 @@ virtual HRESULT MapHandler(
  [IN] A pointer to a string that contains the HTTP verb for mapping.  
   
  `ppScriptMap`  
- [OUT] A pointer to the [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface that contains details for the selected script map.  
+ [OUT] A pointer to the [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface that contains details for the selected script map.  
   
  `fIgnoreWildcardMappings`  
  [IN] `true` to ignore wildcard mapping; otherwise, `false`.  
@@ -47,14 +47,14 @@ virtual HRESULT MapHandler(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
- The `IScriptMapInfo` interface is valid to use for the lifetime of the [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
+ The `IScriptMapInfo` interface is valid to use for the lifetime of the [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
 ## Example  
  The following code example demonstrates how to use the `MapHandler` method to create an HTTP module that returns.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextMapHandler#1](IHttpContextMapHandler#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -68,5 +68,5 @@ virtual HRESULT MapHandler(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
- [IScriptMapInfo Interface](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md)
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

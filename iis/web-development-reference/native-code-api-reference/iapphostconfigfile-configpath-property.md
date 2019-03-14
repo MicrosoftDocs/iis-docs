@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 52b83e61-c465-156a-d6fe-9e480927a45a
 ---
 # IAppHostConfigFile::ConfigPath Property
-Gets the configuration system path of the configuration file that this [IAppHostConfigFile](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md) interface represents.  
+Gets the configuration system path of the configuration file that this [IAppHostConfigFile](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md) interface represents.  
   
 ## Syntax  
   
@@ -37,4 +37,4 @@ HRESULT get_ConfigPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigFile Interface](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md)
+ [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)

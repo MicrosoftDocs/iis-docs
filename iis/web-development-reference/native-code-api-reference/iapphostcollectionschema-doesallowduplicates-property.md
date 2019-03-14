@@ -36,4 +36,4 @@ HRESULT DoesAllowDuplicates(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)
+ [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

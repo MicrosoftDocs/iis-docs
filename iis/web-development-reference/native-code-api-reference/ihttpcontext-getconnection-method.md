@@ -18,20 +18,20 @@ virtual IHttpConnection* GetConnection(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpConnection](../../web-development-reference\native-code-api-reference/ihttpconnection-interface.md) interface.  
+ A pointer to an [IHttpConnection](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md) interface.  
   
 ## Remarks  
- The `GetConnection` method retrieves a pointer to an `IHttpConnection` interface that can be used to retrieve information about the current connection. For example, the [IHttpConnection::IsConnected](../../web-development-reference\native-code-api-reference/ihttpconnection-isconnected-method.md) method returns a Boolean value that indicates whether a Web client is still connected to the current request.  
+ The `GetConnection` method retrieves a pointer to an `IHttpConnection` interface that can be used to retrieve information about the current connection. For example, the [IHttpConnection::IsConnected](../../web-development-reference/native-code-api-reference/ihttpconnection-isconnected-method.md) method returns a Boolean value that indicates whether a Web client is still connected to the current request.  
   
 > [!NOTE]
 >  `IHttpContext` owns the lifetime of this object. Therefore, you do not free this pointer when you write your application.  
   
 ## Example  
- The following code example demonstrates how to use the `GetConnection` method to create an HTTP module that retrieves a pointer to an `IHttpConnection` interface. The example then calls the `IHttpConnection::IsConnected` method to determine whether the Web client that initiated the current request is still connected. If the client is still connected, the HTTP module will return a status message to the Web client. If the client is not connected, the module will return [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) to end additional processing.  
+ The following code example demonstrates how to use the `GetConnection` method to create an HTTP module that retrieves a pointer to an `IHttpConnection` interface. The example then calls the `IHttpConnection::IsConnected` method to determine whether the Web client that initiated the current request is still connected. If the client is still connected, the HTTP module will return a status message to the Web client. If the client is not connected, the module will return [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) to end additional processing.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetConnection#1](IHttpContextGetConnection#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -45,4 +45,4 @@ virtual IHttpConnection* GetConnection(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

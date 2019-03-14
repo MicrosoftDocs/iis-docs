@@ -21,14 +21,14 @@ virtual BOOL IsCommandLineLaunch(
  `true` if [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] was launched from a command line; otherwise, `false`.  
   
 ## Remarks  
- The `IsCommandLineLaunch` method retrieves the startup status for a worker process. For example, if a worker process is started by a normal HTTP request for a Web site that is hosted by [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)], `IsCommandLineLaunch` will return `true`. In contrast, if a worker process is started by the [Hosted Web Core](../../web-development-reference\native-code-api-reference/hosted-web-core-api-reference.md), `IsCommandLineLaunch` will return `false`.  
+ The `IsCommandLineLaunch` method retrieves the startup status for a worker process. For example, if a worker process is started by a normal HTTP request for a Web site that is hosted by [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)], `IsCommandLineLaunch` will return `true`. In contrast, if a worker process is started by the [Hosted Web Core](../../web-development-reference/native-code-api-reference/hosted-web-core-api-reference.md), `IsCommandLineLaunch` will return `false`.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the `IsCommandLineLaunch` method to test whether the worker process was launched from a command line. The module then returns this information to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpServerIsCommandLineLaunch#1](IHttpServerIsCommandLineLaunch#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -42,4 +42,4 @@ virtual BOOL IsCommandLineLaunch(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)

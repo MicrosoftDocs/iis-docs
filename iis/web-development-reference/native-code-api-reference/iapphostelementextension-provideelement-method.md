@@ -16,7 +16,7 @@ HRESULT ProvideElement(
   
 ### Parameters  
  `pNewElement`  
- The [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object to populate.  
+ The [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object to populate.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -35,4 +35,4 @@ HRESULT ProvideElement(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementExtension Interface](../../web-development-reference\native-code-api-reference/iapphostelementextension-interface.md)
+ [IAppHostElementExtension Interface](../../web-development-reference/native-code-api-reference/iapphostelementextension-interface.md)

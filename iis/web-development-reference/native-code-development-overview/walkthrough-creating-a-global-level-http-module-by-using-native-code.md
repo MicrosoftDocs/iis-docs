@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2723c69f-eac6-400a-97b9-9517a7d26393
 ---
 # Walkthrough: Creating a Global-Level HTTP Module By Using Native Code
-This walkthrough demonstrates how to use C++ to create a sample global-level HTTP module that implements the new request-processing architecture in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. This new architecture extends the capabilities of native-code programming when you are writing IIS applications over earlier versions of [!INCLUDE[vstecasp](../../wmi-provider/includes/vstecasp-md.md)] HTTP modules and ISAPI filters or extensions. For more information about designing HTTP modules using the new request-processing architecture, see [Designing Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\designing-native-code-http-modules.md).  
+This walkthrough demonstrates how to use C++ to create a sample global-level HTTP module that implements the new request-processing architecture in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. This new architecture extends the capabilities of native-code programming when you are writing IIS applications over earlier versions of [!INCLUDE[vstecasp](../../wmi-provider/includes/vstecasp-md.md)] HTTP modules and ISAPI filters or extensions. For more information about designing HTTP modules using the new request-processing architecture, see [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md).  
   
  In this walkthrough, you will create a C++ project for your HTTP module, add the required code for a "Hello World" project, and then compile and test the module.  
   
@@ -67,7 +67,7 @@ This walkthrough demonstrates how to use C++ to create a sample global-level HTT
   
 #### To add the source files to the project  
   
-1.  Create the module-definition file to export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function:  
+1.  Create the module-definition file to export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function:  
   
     1.  In Solution Explorer, right-click **Source Files**, point to **Add**, and then click **New Item**.  
   
@@ -90,7 +90,7 @@ This walkthrough demonstrates how to use C++ to create a sample global-level HTT
             RegisterModule  
         ```  
   
-2.  You can optionally export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function by using the **/EXPORT:RegisterModule** switch:  
+2.  You can optionally export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function by using the **/EXPORT:RegisterModule** switch:  
   
     1.  On the **Project** menu, click **HelloWorld Properties**.  
   
@@ -153,7 +153,7 @@ This walkthrough demonstrates how to use C++ to create a sample global-level HTT
   
     3.  Copy the HelloWorld.dll file to your Inetsrv folder, which is located by default at %WinDir%\System32\Inetsrv.  
   
-3.  Add the HelloWorld.dll module to your list of modules (for instructions, see [Designing Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\designing-native-code-http-modules.md)).  
+3.  Add the HelloWorld.dll module to your list of modules (for instructions, see [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)).  
   
 4.  Use Internet Explorer to browse to your Web site; you should see your normal Web site content.  
   
@@ -177,5 +177,5 @@ This walkthrough demonstrates how to use C++ to create a sample global-level HTT
     3.  For the **Module Definition File** settings, ensure that your definition file is listed.  
   
 ## See Also  
- [Creating Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\creating-native-code-http-modules.md)   
- [Designing Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\designing-native-code-http-modules.md)
+ [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
+ [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)

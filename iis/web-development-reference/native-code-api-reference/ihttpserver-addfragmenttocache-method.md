@@ -32,7 +32,7 @@ virtual HRESULT AddFragmentToCache(
 |ERROR_INVALID_PARAMETER|Indicates that one of the parameters is not valid.|  
   
 ## Remarks  
- Developers can use the `AddFragmentToCache`, [ReadFragmentFromCache](../../web-development-reference\native-code-api-reference/ihttpserver-readfragmentfromcache-method.md), and [RemoveFragmentFromCache](../../web-development-reference\native-code-api-reference/ihttpserver-removefragmentfromcache-method.md) methods, respectively, to add `HTTP_DATA_CHUNK` structures to the fragment cache, or to retrieve and remove `HTTP_DATA_CHUNK` structures from the cache. These methods give developers a small degree of custom functionality to use the built-in IIS cache for storing and retrieving data fragments in the cache.  
+ Developers can use the `AddFragmentToCache`, [ReadFragmentFromCache](../../web-development-reference/native-code-api-reference/ihttpserver-readfragmentfromcache-method.md), and [RemoveFragmentFromCache](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md) methods, respectively, to add `HTTP_DATA_CHUNK` structures to the fragment cache, or to retrieve and remove `HTTP_DATA_CHUNK` structures from the cache. These methods give developers a small degree of custom functionality to use the built-in IIS cache for storing and retrieving data fragments in the cache.  
   
 > [!NOTE]
 >  Http.sys manages and owns the fragment cache. At any time, Http.sys may override or delete information that you directed to be stored. There is currently no way to lock information in the fragment cache as nonvolatile information.  
@@ -47,6 +47,6 @@ virtual HRESULT AddFragmentToCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
- [IHttpServer::RemoveFragmentFromCache Method](../../web-development-reference\native-code-api-reference/ihttpserver-removefragmentfromcache-method.md)   
- [IHttpServer::ReadFragmentFromCache Method](../../web-development-reference\native-code-api-reference/ihttpserver-readfragmentfromcache-method.md)
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer::RemoveFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md)   
+ [IHttpServer::ReadFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-readfragmentfromcache-method.md)

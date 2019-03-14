@@ -23,13 +23,13 @@ virtual VOID SetResult(
  An `HRESULT` that indicates whether the internal buffer is valid.  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [IGlobalRscaQueryProvider](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method. You can then validate or invalidate the internal buffer by calling the `SetResult` method on the `IGlobalRSCAQueryProvider` pointer.  
+ [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [IGlobalRscaQueryProvider](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method. You can then validate or invalidate the internal buffer by calling the `SetResult` method on the `IGlobalRSCAQueryProvider` pointer.  
   
  `SetResult` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
 -   The `IGlobalRSCAQueryProvider` implementer declares `private` member variables for the size of an internal buffer, an `HRESULT` that indicates whether the buffer is valid, and a Boolean flag that indicates whether `SetResult` has been called. The default values at construction of the implementer are 0, E_NOTIMPL, and `false`, respectively.  
   
--   After you call the [GetOutputBuffer](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md) or [ResizeOutputBuffer](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-resizeoutputbuffer-method.md) method, call `SetResult` to validate or invalidate the internal buffer by passing the size of the buffer, in bytes, and an `HRESULT` value that indicates whether the buffer is valid.  
+-   After you call the [GetOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md) or [ResizeOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-resizeoutputbuffer-method.md) method, call `SetResult` to validate or invalidate the internal buffer by passing the size of the buffer, in bytes, and an `HRESULT` value that indicates whether the buffer is valid.  
   
  **Important** This method is part of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] infrastructure and is not intended to be used directly from your code.  
   
@@ -43,4 +43,4 @@ virtual VOID SetResult(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalRSCAQueryProvider Interface](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-interface.md)
+ [IGlobalRSCAQueryProvider Interface](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md)

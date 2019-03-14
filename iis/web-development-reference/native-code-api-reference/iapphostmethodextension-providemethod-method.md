@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 393c6056-eaee-4f74-b81a-8a1688e1baff
 ---
 # IAppHostMethodExtension::ProvideMethod Method
-Provides a method for an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that can provide extended functionality to the element.  
+Provides a method for an [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) that can provide extended functionality to the element.  
   
 ## Syntax  
   
@@ -18,13 +18,13 @@ HRESULT ProvideMethod(
   
 ### Parameters  
  `pMethod`  
- The static [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md) object in `pElement`.  
+ The static [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md) object in `pElement`.  
   
  `pMethodInstance`  
- The current [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md) that holds the invocation list.  
+ The current [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md) that holds the invocation list.  
   
  `pElement`  
- The parent [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) of `pMethod`.  
+ The parent [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) of `pMethod`.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -46,4 +46,4 @@ HRESULT ProvideMethod(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethodExtension Interface](../../web-development-reference\native-code-api-reference/iapphostmethodextension-interface.md)
+ [IAppHostMethodExtension Interface](../../web-development-reference/native-code-api-reference/iapphostmethodextension-interface.md)

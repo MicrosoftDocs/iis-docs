@@ -33,5 +33,5 @@ virtual ULONGLONG GetRequestStartTime(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext4 Interface](../../web-development-reference\native-code-api-reference/ihttpcontext4-interface.md)   
+ [IHttpContext4 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext4-interface.md)   
  [GetTickCount64 Method](https://msdn.microsoft.com/en-us/3ebf05b9-cc53-43ae-bbcb-7841793a9d84)

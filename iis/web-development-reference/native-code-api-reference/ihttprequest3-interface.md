@@ -17,15 +17,15 @@ class IHttpRequest3 : public IHttpRequest2
   
 |Name|Description|  
 |----------|-----------------|  
-|[ReadEntityBody](../../web-development-reference\native-code-api-reference/ihttprequest3-readentitybody-method.md)|Reads the request results into a specified buffer.|  
+|[ReadEntityBody](../../web-development-reference/native-code-api-reference/ihttprequest3-readentitybody-method.md)|Reads the request results into a specified buffer.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpRequest](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md)  
+ [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)  
   
- [IHttpRequest2](../../web-development-reference\native-code-api-reference/ihttprequest2-interface.md)  
+ [IHttpRequest2](../../web-development-reference/native-code-api-reference/ihttprequest2-interface.md)  
   
  `IHttpRequest3`  
   
@@ -39,4 +39,4 @@ class IHttpRequest3 : public IHttpRequest2
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

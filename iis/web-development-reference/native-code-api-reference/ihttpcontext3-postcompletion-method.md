@@ -43,4 +43,4 @@ virtual HRESULT PostCompletion(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext3 Interface](../../web-development-reference\native-code-api-reference/ihttpcontext3-interface.md)
+ [IHttpContext3 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)

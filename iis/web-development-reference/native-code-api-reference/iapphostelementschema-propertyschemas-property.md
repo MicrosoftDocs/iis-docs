@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 93560530-ef5b-4412-aad3-34ea563e7f73
 ---
 # IAppHostElementSchema::PropertySchemas Property
-Gets a collection of schemas for the [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md) objects contained in the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
+Gets a collection of schemas for the [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md) objects contained in the corresponding [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
   
@@ -17,7 +17,7 @@ Gets a collection of schemas for the [IAppHostProperty Interface](../../web-deve
   
 ### Parameters  
  `ppPropertySchemas`  
- Contains the collection of [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md) schema.  
+ Contains the collection of [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md) schema.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -36,9 +36,9 @@ Gets a collection of schemas for the [IAppHostProperty Interface](../../web-deve
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)   
- [IAppHostElementSchemaCollection Interface](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-interface.md)   
- [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md)   
- [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)   
- [IAppHostPropertySchemaCollection Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschemacollection-interface.md)
+ [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)   
+ [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)   
+ [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)   
+ [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
+ [IAppHostPropertySchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschemacollection-interface.md)

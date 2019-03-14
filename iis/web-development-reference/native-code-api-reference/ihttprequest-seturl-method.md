@@ -47,10 +47,10 @@ virtual HRESULT SetUrl(
  Subsequent request processing functions and logging operations will process the new URL as if the client had requested the URL. Therefore, any error conditions caused by modifying the URL will be returned to the client. For example, if the new URL does not exist, the Web server will return an HTTP 404 error.  
   
 > [!WARNING]
->  The `SetUrl` method is called after the initial parameters for the request have been gathered, so subsequent request processing may be unaware of the changed URL. For example, retrieving the URL server variable will reflect the original request, not the changed URL. Implementers should call [IHttpContext::ExecuteRequest Method](../../web-development-reference\native-code-api-reference/ihttpcontext-executerequest-method.md) instead of `SetUrl` in order to run the request through the complete pipeline. The `SetUrl` method should not be used for URL rewriting.  
+>  The `SetUrl` method is called after the initial parameters for the request have been gathered, so subsequent request processing may be unaware of the changed URL. For example, retrieving the URL server variable will reflect the original request, not the changed URL. Implementers should call [IHttpContext::ExecuteRequest Method](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md) instead of `SetUrl` in order to run the request through the complete pipeline. The `SetUrl` method should not be used for URL rewriting.  
   
 > [!NOTE]
->  Unlike the [IHttpResponse::Redirect](../../web-development-reference\native-code-api-reference/ihttpresponse-redirect-method.md) method, the `SetUrl` method does not redirect a client to a new URL.  
+>  Unlike the [IHttpResponse::Redirect](../../web-development-reference/native-code-api-reference/ihttpresponse-redirect-method.md) method, the `SetUrl` method does not redirect a client to a new URL.  
   
 > [!NOTE]
 > You must call the `SetUrl` method before the first event in the HTTP integrated request-processing pipeline. Calling the `SetUrl` method from an OnPostBeginRequest handler results in indeterminate behavior.  
@@ -70,5 +70,5 @@ virtual HRESULT SetUrl(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md)   
- [IHttpRequest::GetUrlChanged Method](../../web-development-reference\native-code-api-reference/ihttprequest-geturlchanged-method.md)
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest::GetUrlChanged Method](../../web-development-reference/native-code-api-reference/ihttprequest-geturlchanged-method.md)

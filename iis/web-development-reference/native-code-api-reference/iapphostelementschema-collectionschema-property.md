@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3337bf7b-7f53-4bb6-8de3-45f53cdea894
 ---
 # IAppHostElementSchema::CollectionSchema Property
-Gets the schema of the collection contained in the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object if the element supports child collections.  
+Gets the schema of the collection contained in the corresponding [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object if the element supports child collections.  
   
 ## Syntax  
   
@@ -17,7 +17,7 @@ Gets the schema of the collection contained in the corresponding [IAppHostElemen
   
 ### Parameters  
  `ppCollectionSchema`  
- Contiains an [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)  
+ Contiains an [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -36,6 +36,6 @@ Gets the schema of the collection contained in the corresponding [IAppHostElemen
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)   
- [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)
+ [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)   
+ [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

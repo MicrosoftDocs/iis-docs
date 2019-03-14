@@ -17,10 +17,10 @@ class IModuleAllocator
   
 |Name|Description|  
 |----------|-----------------|  
-|[AllocateMemory](../../web-development-reference\native-code-api-reference/imoduleallocator-allocatememory-method.md)|Allocates a specified amount of memory.|  
+|[AllocateMemory](../../web-development-reference/native-code-api-reference/imoduleallocator-allocatememory-method.md)|Allocates a specified amount of memory.|  
   
 ## Remarks  
- IIS creates and passes an `IModuleAllocator` interface to the [GetHttpModule](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md) method of an HTTP module's [IHttpModuleFactory](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-interface.md) interface. You can use the [AllocateMemory](../../web-development-reference\native-code-api-reference/imoduleallocator-allocatememory-method.md) method to allocate memory in the request's memory pool, instead of allocating memory on the heap.  
+ IIS creates and passes an `IModuleAllocator` interface to the [GetHttpModule](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md) method of an HTTP module's [IHttpModuleFactory](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md) interface. You can use the [AllocateMemory](../../web-development-reference/native-code-api-reference/imoduleallocator-allocatememory-method.md) method to allocate memory in the request's memory pool, instead of allocating memory on the heap.  
   
 ## Requirements  
   
@@ -32,6 +32,6 @@ class IModuleAllocator
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
- [IHttpModuleFactory Interface](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-interface.md)   
- [IHttpModuleFactory::GetHttpModule Method](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [IHttpModuleFactory Interface](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md)   
+ [IHttpModuleFactory::GetHttpModule Method](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md)

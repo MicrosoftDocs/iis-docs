@@ -18,10 +18,10 @@ virtual IHttpUser* GetUser(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) interface.  
+ A pointer to an [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) interface.  
   
 ## Remarks  
- The `GetUser` method returns an `IHttpUser` interface, which contains several methods for retrieving security-related information for the current request. For example, you can use the [IHttpUser::GetUserName](../../web-development-reference\native-code-api-reference/ihttpuser-getusername-method.md) and [IHttpUser::GetPassword](../../web-development-reference\native-code-api-reference/ihttpuser-getpassword-method.md) methods to retrieve the user credentials for an authenticated user.  
+ The `GetUser` method returns an `IHttpUser` interface, which contains several methods for retrieving security-related information for the current request. For example, you can use the [IHttpUser::GetUserName](../../web-development-reference/native-code-api-reference/ihttpuser-getusername-method.md) and [IHttpUser::GetPassword](../../web-development-reference/native-code-api-reference/ihttpuser-getpassword-method.md) methods to retrieve the user credentials for an authenticated user.  
   
 > [!NOTE]
 >  The HTTP context object owns the lifetime of the `IHttpUser` interface that is returned by the `GetUser` method. Therefore, you do not free this pointer when you write HTTP modules.  
@@ -31,7 +31,7 @@ virtual IHttpUser* GetUser(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetUser#1](IHttpContextGetUser#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -45,5 +45,5 @@ virtual IHttpUser* GetUser(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpUser Interface](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md)
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)

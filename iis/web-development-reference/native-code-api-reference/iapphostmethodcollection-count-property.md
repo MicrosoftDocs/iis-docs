@@ -35,5 +35,5 @@ HRESULT Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md)   
- [IAppHostMethodCollection Interface](../../web-development-reference\native-code-api-reference/iapphostmethodcollection-interface.md)
+ [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)   
+ [IAppHostMethodCollection Interface](../../web-development-reference/native-code-api-reference/iapphostmethodcollection-interface.md)

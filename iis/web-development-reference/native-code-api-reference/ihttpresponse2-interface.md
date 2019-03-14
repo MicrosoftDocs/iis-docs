@@ -24,7 +24,7 @@ class IHttpResponse2 : public IHttpResponse
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpResponse](../../web-development-reference\native-code-api-reference/ihttpresponse-interface.md)  
+ [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)  
   
  `IHttpResponse2`  
   
@@ -38,4 +38,4 @@ class IHttpResponse2 : public IHttpResponse
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

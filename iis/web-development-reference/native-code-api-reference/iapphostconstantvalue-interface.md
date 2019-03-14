@@ -20,8 +20,8 @@ interface IAppHostConstantValue : IUnknown
   
 |Property|Description|  
 |--------------|-----------------|  
-|[IAppHostConstantValue::Name Property](../../web-development-reference\native-code-api-reference/iapphostconstantvalue-name-property.md)|Gets the name of the constant.|  
-|[IAppHostConstantValue::Value Property](../../web-development-reference\native-code-api-reference/iapphostconstantvalue-value-property.md)|Gets the integer value of the current constant.|  
+|[IAppHostConstantValue::Name Property](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-name-property.md)|Gets the name of the constant.|  
+|[IAppHostConstantValue::Value Property](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-value-property.md)|Gets the integer value of the current constant.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -38,4 +38,4 @@ interface IAppHostConstantValue : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)

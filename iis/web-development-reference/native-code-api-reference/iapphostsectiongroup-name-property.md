@@ -36,4 +36,4 @@ HRESULT get_Name(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostSectionGroup Interface](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md)
+ [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

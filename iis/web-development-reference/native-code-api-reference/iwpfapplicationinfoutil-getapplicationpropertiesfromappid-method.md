@@ -53,4 +53,4 @@ virtual HRESULT GetApplicationPropertiesFromAppId(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfApplicationInfoUtil Interface](../../web-development-reference\native-code-api-reference/iwpfapplicationinfoutil-interface.md)
+ [IWpfApplicationInfoUtil Interface](../../web-development-reference/native-code-api-reference/iwpfapplicationinfoutil-interface.md)

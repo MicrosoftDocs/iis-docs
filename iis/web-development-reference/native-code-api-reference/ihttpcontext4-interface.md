@@ -18,18 +18,18 @@ class IHttpContext4 : public IHttpContext3
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetRequestElapsedTime](../../web-development-reference\native-code-api-reference/ihttpcontext4-getrequestelapsedtime-method.md)|Retrieves the elapsed time of the request in milliseconds.|  
-|[GetRequestStartTime](../../web-development-reference\native-code-api-reference/ihttpcontext4-getrequeststarttime-method.md)|Retrieves the start time of the request in milliseconds.|  
+|[GetRequestElapsedTime](../../web-development-reference/native-code-api-reference/ihttpcontext4-getrequestelapsedtime-method.md)|Retrieves the elapsed time of the request in milliseconds.|  
+|[GetRequestStartTime](../../web-development-reference/native-code-api-reference/ihttpcontext4-getrequeststarttime-method.md)|Retrieves the start time of the request in milliseconds.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)  
+ [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)  
   
- [IHttpContext2](../../web-development-reference\native-code-api-reference/ihttpcontext2-interface.md)  
+ [IHttpContext2](../../web-development-reference/native-code-api-reference/ihttpcontext2-interface.md)  
   
- [IHttpContext3](../../web-development-reference\native-code-api-reference/ihttpcontext3-interface.md)  
+ [IHttpContext3](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)  
   
  `IHttpContext4`  
   
@@ -41,4 +41,4 @@ class IHttpContext4 : public IHttpContext3
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

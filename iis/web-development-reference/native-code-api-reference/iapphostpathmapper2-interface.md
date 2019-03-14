@@ -17,13 +17,13 @@ interface IAppHostPathMapper2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IAppHostPathMapper2::MapPath Method](../../web-development-reference\native-code-api-reference/iapphostpathmapper2-mappath-method.md)|Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.|  
+|[IAppHostPathMapper2::MapPath Method](../../web-development-reference/native-code-api-reference/iapphostpathmapper2-mappath-method.md)|Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.|  
   
 ## Properties  
  This interface contains no properties.  
   
 ## Remarks  
- To receive incoming remote calls for this interface, the client must implement a UUID(0f80e901-8f4c-449a-bf90-13d5d082f187). The client must then specify an object that implements the interface to the [IAppHostAdminManager::SetMetadata Method](../../web-development-reference\native-code-api-reference/iapphostadminmanager-setmetadata-method.md) method with a `bstrMetadataName` of "pathMapper2".  
+ To receive incoming remote calls for this interface, the client must implement a UUID(0f80e901-8f4c-449a-bf90-13d5d082f187). The client must then specify an object that implements the interface to the [IAppHostAdminManager::SetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostadminmanager-setmetadata-method.md) method with a `bstrMetadataName` of "pathMapper2".  
   
  As an administration system maps hierarchy paths to physical paths on the server, it optionally calls the client-supplied object that implements the IAppHostPathMapper2 interface. The implementer of this interface receives details of all mappings and can change the results of each mapping if required.  
   
@@ -45,5 +45,5 @@ interface IAppHostPathMapper2 : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

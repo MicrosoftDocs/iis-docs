@@ -55,4 +55,4 @@ Virtual HRESULT Flush(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse2 Interface](../../web-development-reference\native-code-api-reference/ihttpresponse2-interface.md)
+ [IHttpResponse2 Interface](../../web-development-reference/native-code-api-reference/ihttpresponse2-interface.md)

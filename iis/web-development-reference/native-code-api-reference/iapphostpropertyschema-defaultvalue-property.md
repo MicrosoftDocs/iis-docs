@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 54736bab-b42a-26d2-ccd0-ca2de1056d4c
 ---
 # IAppHostPropertySchema::DefaultValue Property
-Gets the value that the [IAppHostProperty::Value](../../web-development-reference\native-code-api-reference/iapphostproperty-value-property.md) property returns when a value is not explicitly set.  
+Gets the value that the [IAppHostProperty::Value](../../web-development-reference/native-code-api-reference/iapphostproperty-value-property.md) property returns when a value is not explicitly set.  
   
 ## Syntax  
   
@@ -36,4 +36,4 @@ HRESULT get_DefaultValue(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

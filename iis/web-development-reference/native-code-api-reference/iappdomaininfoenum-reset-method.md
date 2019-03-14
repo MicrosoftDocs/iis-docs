@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9cfb056c-d51e-a932-9892-8d32a26d072c
 ---
 # IAppDomainInfoEnum::Reset Method
-Initializes the [IAppDomainInfoEnum](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md) interface.  
+Initializes the [IAppDomainInfoEnum](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md) interface.  
   
 ## Syntax  
   
@@ -36,6 +36,6 @@ virtual HRESULT __stdcall Reset(
 |Header|Webhost.h|  
   
 ## See Also  
- [IAppDomainInfoEnum Interface](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md)   
- [IAppDomainInfoEnum::GetData Method](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-getdata-method.md)   
- [IAppDomainInfoEnum::GetData Method](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-getdata-method.md)
+ [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)   
+ [IAppDomainInfoEnum::GetData Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-getdata-method.md)   
+ [IAppDomainInfoEnum::GetData Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-getdata-method.md)

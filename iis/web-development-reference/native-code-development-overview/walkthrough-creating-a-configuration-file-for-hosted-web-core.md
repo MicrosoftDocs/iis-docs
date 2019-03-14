@@ -15,10 +15,10 @@ This walkthrough demonstrates how to create a configuration file for use with th
 ## Prerequisites  
  The following software is required to complete the steps in the example:  
   
--   [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] on [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)].  
+-   [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)].  
   
 > [!NOTE]
->  While you will have to run your Hosted Web Core application on [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)], you do not have to create your configuration file on [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)]. You can create your configuration file on a different version of Windows and then copy your configuration file to a computer that has [!INCLUDE[windowsver](../../web-development-reference\native-code-development-overview\includes/windowsver-md.md)] installed.  
+>  While you will have to run your Hosted Web Core application on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)], you do not have to create your configuration file on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)]. You can create your configuration file on a different version of Windows and then copy your configuration file to a computer that has [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)] installed.  
   
 -   [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
@@ -290,8 +290,8 @@ This walkthrough demonstrates how to create a configuration file for use with th
   
  When you have completed all the preceding steps, you need save your configuration file to a path where your Hosted Web Core application will be able to access it.  
   
- Your application may experience an error if a section of your configuration file has not been correctly defined. Depending on the error, you may be able to retrieve additional information about the problem by examining your server's Event Viewer logs and the IIS log files that are created automatically by your application. For more information about troubleshooting problems with a Hosted Web Core application, see the troubleshooting steps that are listed in [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-hosted-web-core-application.md).  
+ Your application may experience an error if a section of your configuration file has not been correctly defined. Depending on the error, you may be able to retrieve additional information about the problem by examining your server's Event Viewer logs and the IIS log files that are created automatically by your application. For more information about troubleshooting problems with a Hosted Web Core application, see the troubleshooting steps that are listed in [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md).  
   
 ## See Also  
- [Creating Hosted Web Core Applications](../../web-development-reference\native-code-development-overview\creating-hosted-web-core-applications.md)   
- [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-hosted-web-core-application.md)
+ [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md)   
+ [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md)

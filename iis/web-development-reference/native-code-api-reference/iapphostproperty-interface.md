@@ -17,20 +17,20 @@ interface IAppHostProperty : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[Clear](../../web-development-reference\native-code-api-reference/iapphostproperty-clear-method.md)|Removes the current property from the XML persisted by the configuration system.|  
-|[GetMetadata](../../web-development-reference\native-code-api-reference/iapphostproperty-getmetadata-method.md)|Gets metadata values for the current property.|  
-|[SetMetadata](../../web-development-reference\native-code-api-reference/iapphostproperty-setmetadata-method.md)|Sets metadata for the current property.|  
+|[Clear](../../web-development-reference/native-code-api-reference/iapphostproperty-clear-method.md)|Removes the current property from the XML persisted by the configuration system.|  
+|[GetMetadata](../../web-development-reference/native-code-api-reference/iapphostproperty-getmetadata-method.md)|Gets metadata values for the current property.|  
+|[SetMetadata](../../web-development-reference/native-code-api-reference/iapphostproperty-setmetadata-method.md)|Sets metadata for the current property.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostProperty` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Name](../../web-development-reference\native-code-api-reference/iapphostproperty-name-property.md)|Gets the name of the property.|  
-|[Exception](../../web-development-reference\native-code-api-reference/iapphostproperty-exception-property.md)|Gets an exception if the current property value does not meet the validation criteria specified in the property schema.|  
-|[Schema](../../web-development-reference\native-code-api-reference/iapphostproperty-schema-property.md)|Gets the schema assigned to the current property.|  
-|[StringValue](../../web-development-reference\native-code-api-reference/iapphostproperty-stringvalue-property.md)|Gets the persisted string value of the property that is stored in XML by the configuration system.|  
-|[Value](../../web-development-reference\native-code-api-reference/iapphostproperty-value-property.md)|Gets or sets the value of the current property.|  
+|[Name](../../web-development-reference/native-code-api-reference/iapphostproperty-name-property.md)|Gets the name of the property.|  
+|[Exception](../../web-development-reference/native-code-api-reference/iapphostproperty-exception-property.md)|Gets an exception if the current property value does not meet the validation criteria specified in the property schema.|  
+|[Schema](../../web-development-reference/native-code-api-reference/iapphostproperty-schema-property.md)|Gets the schema assigned to the current property.|  
+|[StringValue](../../web-development-reference/native-code-api-reference/iapphostproperty-stringvalue-property.md)|Gets the persisted string value of the property that is stored in XML by the configuration system.|  
+|[Value](../../web-development-reference/native-code-api-reference/iapphostproperty-value-property.md)|Gets or sets the value of the current property.|  
   
 ## Example  
  The following code example reads the value of the `enabled` attribute by using the `IAppHostProperty::Value` property.  
@@ -52,5 +52,5 @@ interface IAppHostProperty : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
- [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

@@ -19,7 +19,7 @@ HRESULT HttpGetExtendedInterface(
   
 ### Parameters  
  `pHttpServer`  
- [IN] Points to an instance of the [IHttpServer](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md) interface.  
+ [IN] Points to an instance of the [IHttpServer](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md) interface.  
   
  `pInput`  
  [IN] Points to an instance of the interface to be down cast.  
@@ -47,7 +47,7 @@ if( SUCCEEDED(hr) )
 }  
 ```  
   
- Where `pHttpContext` is an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer and `g_pHttpServer` is an [IHttpServer](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md) pointer.  
+ Where `pHttpContext` is an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer and `g_pHttpServer` is an [IHttpServer](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md) pointer.  
   
 ## Requirements  
   
@@ -59,4 +59,4 @@ if( SUCCEEDED(hr) )
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Functions](../../web-development-reference\native-code-api-reference/web-server-core-functions.md)
+ [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

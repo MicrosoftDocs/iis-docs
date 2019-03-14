@@ -21,7 +21,7 @@ virtual VOID DereferenceFileMonitor(
  VOID.  
   
 ## Remarks  
- [IHttpFileMonitor](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-interface.md)  
+ [IHttpFileMonitor](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-interface.md)  
   
 ## Example  
   
@@ -39,4 +39,4 @@ N/A
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileMonitor Interface](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-interface.md)
+ [IHttpFileMonitor Interface](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-interface.md)

@@ -17,20 +17,20 @@ class IReadEntityProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetEntity](../../web-development-reference\native-code-api-reference/ireadentityprovider-getentity-method.md)|Retrieves the request entity.|  
-|[SetEntity](../../web-development-reference\native-code-api-reference/ireadentityprovider-setentity-method.md)|Specifies the request entity.|  
-|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[GetEntity](../../web-development-reference/native-code-api-reference/ireadentityprovider-getentity-method.md)|Retrieves the request entity.|  
+|[SetEntity](../../web-development-reference/native-code-api-reference/ireadentityprovider-setentity-method.md)|Specifies the request entity.|  
+|[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- IIS creates and passes an `IReadEntityProvider` interface to a module's [CHttpModule::OnReadEntity](../../web-development-reference\native-code-api-reference/chttpmodule-onreadentity-method.md) method when the module has registered for the [RQ_READ_ENTITY](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+ IIS creates and passes an `IReadEntityProvider` interface to a module's [CHttpModule::OnReadEntity](../../web-development-reference/native-code-api-reference/chttpmodule-onreadentity-method.md) method when the module has registered for the [RQ_READ_ENTITY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
- **Note** IIS will trigger `CHttpModule::OnReadEntity()` event for every [IHttpRequest::ReadEntityBody Method](../../web-development-reference\native-code-api-reference/ihttprequest-readentitybody-method.md) even if there is no entity left to read. This behavior addresses scenarios where a module should insert some entity when there is no request entity. You must write some entity-length-verification code so that your `CHttpModule::OnReadEntity()` handler is aware of the possibility of a zero entity length.  
+ **Note** IIS will trigger `CHttpModule::OnReadEntity()` event for every [IHttpRequest::ReadEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md) even if there is no entity left to read. This behavior addresses scenarios where a module should insert some entity when there is no request entity. You must write some entity-length-verification code so that your `CHttpModule::OnReadEntity()` handler is aware of the possibility of a zero entity length.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IReadEntityProvider`  
   
@@ -44,4 +44,4 @@ class IReadEntityProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

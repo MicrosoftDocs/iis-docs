@@ -17,17 +17,17 @@ class IHttpServer2 : public IHttpServer
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetAppPoolConfigFile](../../web-development-reference\native-code-api-reference/ihttpserver2-getapppoolconfigfile-method.md)|Retrieves the path of the application pool’s configuration file.|  
-|[GetExtendedInterface](../../web-development-reference\native-code-api-reference/ihttpserver2-getextendedinterface-method.md)|Retrieves the correct down-casted pointer based on version GUID (globally unique identifier) values.|  
-|[GetMetadata](../../web-development-reference\native-code-api-reference/ihttpserver2-getmetadata-method.md)|Retrieves metadata about a website given its name and URL.|  
-|[GetToken](../../web-development-reference\native-code-api-reference/ihttpserver2-gettoken-method.md)|Retrieves an authentication token given a user name, password, and login method.|  
-|[GetWorkerProcessFramework](../../web-development-reference\native-code-api-reference/ihttpserver2-getworkerprocessframework-method.md)|Retrieves the interface of the worker process framework for the server.|  
+|[GetAppPoolConfigFile](../../web-development-reference/native-code-api-reference/ihttpserver2-getapppoolconfigfile-method.md)|Retrieves the path of the application pool’s configuration file.|  
+|[GetExtendedInterface](../../web-development-reference/native-code-api-reference/ihttpserver2-getextendedinterface-method.md)|Retrieves the correct down-casted pointer based on version GUID (globally unique identifier) values.|  
+|[GetMetadata](../../web-development-reference/native-code-api-reference/ihttpserver2-getmetadata-method.md)|Retrieves metadata about a website given its name and URL.|  
+|[GetToken](../../web-development-reference/native-code-api-reference/ihttpserver2-gettoken-method.md)|Retrieves an authentication token given a user name, password, and login method.|  
+|[GetWorkerProcessFramework](../../web-development-reference/native-code-api-reference/ihttpserver2-getworkerprocessframework-method.md)|Retrieves the interface of the worker process framework for the server.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpServer](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)  
+ [IHttpServer](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)  
   
  `IHttpServer2`  
   
@@ -41,4 +41,4 @@ class IHttpServer2 : public IHttpServer
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
