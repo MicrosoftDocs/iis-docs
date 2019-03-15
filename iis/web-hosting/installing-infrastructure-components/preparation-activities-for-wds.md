@@ -29,7 +29,7 @@ For detailed information on the preparation activities for Microsoft Deployment 
 
 ## Configure the Windows Deployment Services Server
 
-After installing Windows Deployment Services, follow the steps in the [WDS step-by-Step Guide](https://technet2.microsoft.com/WindowsServer2008/en/library/7d837d88-6d8e-420c-b68f-a5b4baeb52481033.mspx#BKMK_ConfiguringDS "Configuring WDS") to configure WDS. Read the section "Configuring The Windows Deployment Services", it provides information on how to configure WDS by using the Windows Deployment Services MMC snap-in or by using WDSUTIL at the command prompt. Configuring WDS does the following to your server:
+After installing Windows Deployment Services (WDS), configure WDS by using the Windows Deployment Services MMC snap-in or by using WDSUTIL at the command prompt. Configuring WDS does the following to your server:
 
 - Create a shared folder that contains the files necessary for PXE boot, the files for booting Windows PE into RAMDISK, Windows PE boot images, and install images.
 - Configure the answer settings of the PXE listener to control whether and how the server services incoming client boot requests.
