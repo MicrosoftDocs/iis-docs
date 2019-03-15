@@ -54,7 +54,6 @@ The Windows Deployment Services components work together to enable you to deploy
 
 - **Server components:** These components include a Pre-Boot Execution Environment (PXE) server and a Trivial File Transfer Protocol (TFTP) server for booting a client from the network. Also included is a shared folder and image repository that contains boot images, install images, and files that you need. There is also a networking layer, a multi-cast component, and a diagnostics component. - **Client components:** These components include a graphical user interface (GUI) that runs within the Windows Pre-Installation Environment (Windows PE). When a user selects an operating system image, the client components communicate with the server components to install the image. - **Management components:** These components are a set of tools that you use to manage the server, the operating system images, and the client computer accounts.
 
-Read the [WDS Guide](https://technet2.microsoft.com/windowsserver2008/en/library/7d837d88-6d8e-420c-b68f-a5b4baeb52481033.mspx?mfr=true "WDS Guide") for in depth coverage on the functionality of the complete installation, or the [Windows Deployment Services Role Step-by-Step Guide](https://technet2.microsoft.com/windowsserver2008/en/library/7d837d88-6d8e-420c-b68f-a5b4baeb52481033.mspx?mfr=true) for a quick set of deployment instructions.
 
 <a id="UsingMD"></a>
 
