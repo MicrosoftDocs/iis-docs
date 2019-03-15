@@ -95,7 +95,7 @@ The `<anonymousAuthentication>` element is included in the default installation 
 <a id="005"></a>
 ## Configuration
 
-The `<anomymousAuthentication>` element is configurable at the site and application level in the Web.config file.
+The `<anonymousAuthentication>` element is configurable at the site and application level in the Web.config file.
 
 ### Attributes
 
