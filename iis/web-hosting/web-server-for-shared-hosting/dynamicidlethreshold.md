@@ -35,7 +35,6 @@ Open a PowerShell prompt and run the following:
 [!code-powershell[Main](dynamicidlethreshold/samples/sample2.ps1)]
 
 
-For more information about this property, see .
 
 ## Event Log Entries
 
