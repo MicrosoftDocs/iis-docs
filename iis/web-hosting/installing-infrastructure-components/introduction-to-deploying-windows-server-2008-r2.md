@@ -78,4 +78,3 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-I
 
 System Center Configuration Manager 2007 provides adaptive, policy-based automation to manage the full deployment, update and extension life cycle for servers, clients and handheld devices, across physical, virtual, distributed, or mobile systems. It packs the most complete feature set for deployment.
 
-- <a id="ctl00_mainContentContainer_ctl01"></a>[Download the 120-day trial software today](https://technet.microsoft.com/en-us/configmgr/bb736730.aspx)- [Listen to audiocasts](https://technet.microsoft.com/en-us/configmgr/bb727202.aspx)
