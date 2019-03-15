@@ -19,7 +19,6 @@ WSRM enables administrators to control how CPU and memory resources are allocate
 
 WSRM integrates resource management with Web pools through a built-in policy called Equal\_Per\_IISAppPool. Policies in WSRM automatically switch to different resource allocations in response hardware to hot-add changes or cluster changes if running in a cluster configuration.
 
-For more information see Overview of Windows System Resource Manager.
 
 ## Turning Off the CPULimit Metabase Property
 
