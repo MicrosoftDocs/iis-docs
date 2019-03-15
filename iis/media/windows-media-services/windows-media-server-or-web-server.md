@@ -114,7 +114,7 @@ A newer and improved form of intelligent streaming for delivery of media from We
 
 ## IIS Media Services
 
-IIS Media Services extensions are designed to add media delivery capabilities to a Web server that is running [Internet Information Services (IIS) 7](https://technet2.microsoft.com/windowsserver2008/en/servermanager/webserver.mspx). The IIS Media Services extensions take advantage of the broader market availability of high-bandwidth networks, which make a Web server an increasingly practical option for digital media content delivery. This section describes the following streaming and bandwidth management extensions that are available in IIS Media Services:
+IIS Media Services extensions are designed to add media delivery capabilities to a Web server that is running Internet Information Services (IIS) 7. The IIS Media Services extensions take advantage of the broader market availability of high-bandwidth networks, which make a Web server an increasingly practical option for digital media content delivery. This section describes the following streaming and bandwidth management extensions that are available in IIS Media Services:
 
 - [Smooth Streaming](windows-media-server-or-web-server.md#ss)
 - [Bit Rate Throttling](windows-media-server-or-web-server.md#brt)
