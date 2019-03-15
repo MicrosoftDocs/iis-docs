@@ -45,7 +45,7 @@ After installing Windows Deployment Services, follow the steps in the [WDS step-
 
 ## Configure Required Permissions
 
-In some cases the users performing the deployment are Domain Administrators and as such have full access to the resources in the domain. This is not necessarily the case in your marginalization, if not, you need to understand the set of permissions needed to execute the deployment process. [This Chapter](https://technet2.microsoft.com/windowsserver2008/en/library/4aca2aae-a9cf-4b5c-afb2-573603cf77b01033.mspx?mfr=true "Required Permissions") provides detailed information on the required permissions in WDS. The chapter discusses the following four sets of permissions and, where appropriate, how to grant them.
+In some cases the users performing the deployment are Domain Administrators and as such have full access to the resources in the domain. This is not necessarily the case in your marginalization, if not, you need to understand the set of permissions needed to execute the deployment process.
 
 | **Section** | **Tasks** |
 | --- | --- |
