@@ -61,7 +61,7 @@ In some cases the users performing the deployment are Domain Administrators and 
 Windows Deployment Services uses two image types. Both use the Windows Image (.wim) format.
 
 - **Boot image**: The image that you boot a client computer into to perform an operating system installation. See [Managing Boot Images](https://technet2.microsoft.com/WindowsServer2008/en/library/b7978b72-3b39-441d-924c-4b7a2fd96c371033.mspx#BKMK_2)
-- **Install image**: The operating system image that you deploy to the client computer. See [Creating and Deploying Custom Install images](https://technet2.microsoft.com/WindowsServer2008/en/library/b7978b72-3b39-441d-924c-4b7a2fd96c371033.mspx#BKMK_6)
+- **Install image**: The operating system image that you deploy to the client computer. 
 
 You can create a custom Install Image to deploy across a set of server in the data center.
 
