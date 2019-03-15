@@ -21,7 +21,7 @@ For detailed information on the preparation activities for Microsoft Deployment 
 
 ## Prepare the Deployment Environment Using WDS
 
-1. The first step is to [install Windows Deployment Services](https://technet2.microsoft.com/WindowsServer2008/en/library/7d837d88-6d8e-420c-b68f-a5b4baeb52481033.mspx#BKMK_InstallingWDS "INstalling WDS") and [Infrastructure Components](index.md).
+1. The first step is to install Windows Deployment Services and [Infrastructure Components](index.md).
 2. Proceed to [Configure the Reference Machines](../configuring-servers-in-the-windows-web-platform/index.md). You can either manually setup the reference computers with operating system, drivers, and applications or utilize the sample configuration PowerShell scripts provided in this guidance to run "as is" or modify them in accordance to your needs. See [Quick Guide for Shared Hosting Deployment](../configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment.md) for information on setting up a Web Server and File Server roles.
 3. Once WDS and the reference machine are ready you can configure WDS, see following section for information. You should also review the "Configure Required Permissions" section below to ensure you have access to the required resources.
 
