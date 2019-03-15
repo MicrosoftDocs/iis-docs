@@ -188,7 +188,3 @@ Once folder quotas have been enabled for a content path for an FTP site and the 
 > Some graphical FTP clients may not show this information unless they support some form of viewing the activity log for the FTP session.
 
 <a id="03"></a>
-
-## More Information
-
-For more information, please see the Step-by-Step Guide for File Server Resource Manager in Windows Server 2008 topic on Microsoft's web site.

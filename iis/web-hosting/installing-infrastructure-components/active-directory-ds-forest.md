@@ -19,10 +19,10 @@ A Windows Deployment Services server must be either a member of an Active Direct
 
 When installing Active Directory Domain Services Forest on a machine that already is running Windows Server® 2008 or Windows Server 2008 R2, use any of the following methods:
 
-- Installing a New Windows Server 2008 Forest by Using the Windows Interface
-- Installing a New Windows Server 2008 Forest by Using the Command Line
-- Installing a New Windows Server 2008 Forest by Using an Answer File
+- [Installing a New Windows Server 2008 Forest by Using the Windows Interface](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755059(v=ws.10))
+- [Installing a New Windows Server 2008 Forest by Using the Command Line](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731449(v%3dws.10))
+- [Installing a New Windows Server 2008 Forest by Using an Answer File](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770303(v%3dws.10))
 
-For detailed Step-by-step guidance on installing Active Directory for all the Directory Services (Forest, Child Domain, and Domain Tree), refer to "Steps for Installing AD DS in all configurations, including instructions for installing it on a full installation or a Server Core installation of Windows Server 2008 R2. It provides the Windows interface, command-line, and answer file methods for performing installations.
+For detailed Step-by-step guidance on installing Active Directory for all the Directory Services (Forest, Child Domain, and Domain Tree), refer to [Steps for Installing AD DS](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc754438(v%3dws.10)) in all configurations, including instructions for installing it on a full installation or a Server Core installation of Windows Server 2008 R2. It provides the Windows interface, command-line, and answer file methods for performing installations.
 
 The process for performing an unattended installation of AD DS is the same for a server that is running a full installation of Windows Server 2008 R2 or a Server Core installation. The unattended method of installation is required for a Server Core installation.

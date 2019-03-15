@@ -34,8 +34,6 @@ Open a PowerShell prompt and run the following:
 
 [!code-powershell[Main](dynamicidlethreshold/samples/sample2.ps1)]
 
-
-
 ## Event Log Entries
 
 The following describes some of the event log entries that WAS can generate.

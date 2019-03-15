@@ -23,8 +23,6 @@ This article is intended to provide links to Quick Guides on deployment, configu
 
 The following links provide valuable information on configuring and deploying.various applications:
 
-- Installing and Configuring DNS Servers.
-- Installing Dynamic Host Configuration Protocol (DHCP).
 - Guide for Installing [Active Directory DS Forest](../installing-infrastructure-components/active-directory-ds-forest.md). Contains guides for installing though the User Windows Interface, Command Line, and Answer File.
 - Preparation Activities for WDS](../installing-infrastructure-components/preparation-activities-for-wds.md). Contains a reference to [Windows Deployment Services Role Step-by-Step Guide.
 - [Quick Guide for Shared Hosting Deployment](../configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment.md). Includes the Web Server Role.

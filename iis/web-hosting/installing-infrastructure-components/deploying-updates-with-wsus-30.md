@@ -23,8 +23,6 @@ WSUS provides a management infrastructure consisting of the following:
 
 1. **Automatic Updates**. This component is built into the Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, and Windows 2000 SP4 operating systems. Automatic Updates enables both server and client computers to receive updates from Microsoft Update or from a WSUS server.
 
-For a Step-by-Step Guide to getting started with WSUS 3.0, deployment scenarios, and processes (including unattended command line), visit .
-
 ## Software Requirements for Installing WSUS 3.0 on Windows Server 2008
 
 To install WSUS 3.0 on Windows Server 2008, you must have the following installed on your computer. If any of these updates require restarting the server when installation is completed, restart your server before installing WSUS 3.0.
@@ -40,19 +38,17 @@ Ensure that the following components are enabled:
 - Microsoft SQL ServerTM 2005 Service Pack 1. To download this software, go to the Download Center ([https://go.microsoft.com/fwlink/?LinkID=66143](https://go.microsoft.com/fwlink/?LinkID=66143)).
 - The .NET Framework 2.0 and BITS 2.0 update are available on Windows Server 2008 as part of the operating system.
 
-For a complete description of WSUS 3.0 Software Requirements (Console, Automatic Updates, and Permissions) visit, .
-
 ## Preparing the WSUS 3.0 Deployment
 
-The first step in deploying WSUS 3.0 is to design the server configuration. For a detailed process guide on how to prepare and deploy WSUS 3.0, refer to: .
+The first step in deploying WSUS 3.0 is to design the server configuration.
 
 The following topics in the guide describe various aspects of deployment design-from a simple configuration with a single server to a configuration with multiple WSUS servers. Some of the considerations to take into account are connection bandwidth (for both Internet connections and LAN or WAN connections), network configuration, and different language requirements.
 
 **To prepare the WSUS 3.0 deployment refer to:** 
 
-- Choose a Type of WSUS Deployment
-- Choose a WSUS Management Style
-- Choose the Database Used for WSUS 3.0
-- Determine Where to Store WSUS Updates
-- Determine Bandwidth Options to Use
-- Determine WSUS Capacity Requirements
+- [Choose a Type of WSUS Deployment](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc720448(v%3dws.10))
+- [Choose a WSUS Management Style](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708500(v%3dws.10))
+- [Choose the Database Used for WSUS 3.0](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708452(v%3dws.10))
+- [Determine Where to Store WSUS Updates](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-update-services/cc708543(v%3dws.10))
+- [Determine Bandwidth Options to Use](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-update-services/cc708603(v%3dws.10))
+- [Determine WSUS Capacity Requirements](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-update-services/cc708483(v%3dws.10))
