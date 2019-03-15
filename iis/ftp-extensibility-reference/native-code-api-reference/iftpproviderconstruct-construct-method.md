@@ -107,4 +107,4 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpProviderConstruct Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftpproviderconstruct-interface.md)
+ [IFtpProviderConstruct Interface](../../ftp-extensibility-reference/native-code-api-reference/iftpproviderconstruct-interface.md)

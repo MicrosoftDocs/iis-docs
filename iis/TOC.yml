@@ -1741,7 +1741,7 @@
 - name: FTP Exensibility Reference
   items: 
     - name: Native API Reference
-      href: ftp-extenisibility-reference\native-code-api-reference\ftp-native-code-extensibility-api-reference.md
+      href: ftp-extensibility-reference/native-code-api-reference/ftp-native-code-extensibility-api-reference.md
 - name: WMI Provider
   href: wmi-provider/wmi-provider.md
   items: 

@@ -2,6 +2,6 @@
   tocHref: /
   topicHref: /
   items:
-  - name: Internet Information Services
-    tocHref: /previous-versions/iis
-    topicHref: /previous-versions/iis
+  - name: IIS
+    tocHref: /iis/
+    topicHref: /iis

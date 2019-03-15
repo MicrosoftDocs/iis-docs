@@ -38,6 +38,7 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/iis/breadcrumb/toc.json",
+	  "extendBreadcrumb": "true",
       "_navPath": "/foo",
       "_navRel": "/foo",
       "searchScope": ["IIS"],
@@ -61,7 +62,7 @@
       "ms.topic": {
         "configuration/**/*.md": "reference",
         "extensions/express-api-reference/**/*.md": "reference",
-        "ftp-extenisibility-reference/native-code-api-reference/**/*.md": "reference",
+        "ftp-extensibility-reference/native-code-api-reference/**/*.md": "reference",
         "web-development-reference/native-code-api-reference/**/*.md": "reference",
         "extensions/database-manager-reference/**/*.md": "managed-reference",
         "wmi-provider/**/*.md": "reference"
