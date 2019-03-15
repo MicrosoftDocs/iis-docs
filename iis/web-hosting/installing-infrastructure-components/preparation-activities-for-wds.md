@@ -73,7 +73,6 @@ To create an install image of your reference computer, create a Capture Image an
 &lt;!--[if !supportLists]--&gt;**Capture images**. Boot images that you boot a client computer into in order to capture the operating system into a .wim file.   
 
 
-Section "[Creating and modifying boot and install images](https://technet2.microsoft.com/WindowsServer2008/en/library/7d837d88-6d8e-420c-b68f-a5b4baeb52481033.mspx#BKMK_CreatingImagesUsingWDS)" in the [WDS Step-by-Step Guide](https://technet2.microsoft.com/windowsserver2008/en/library/7d837d88-6d8e-420c-b68f-a5b4baeb52481033.mspx?mfr=true) provides the steps to create the Install Image from your reference computer.
 
 
 The following is a summary of this process:
