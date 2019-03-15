@@ -8,10 +8,10 @@ ms.author: "robmcm"
 This section describes the native-code APIs that developers use to extend the functionality of the FTP 7.5 service for IIS 7.5.  
   
 ## In This Section  
- [FTP Native-Code Extensibility Interfaces](../../ftp-extenisibility-reference\native-code-api-reference\ftp-native-code-extensibility-interfaces.md)  
+ [FTP Native-Code Extensibility Interfaces](../../ftp-extensibility-reference/native-code-api-reference/ftp-native-code-extensibility-interfaces.md)  
  Describes the native-code interfaces for the FTP service.  
   
- [FTP Native-Code Extensibility Structures](../../ftp-extenisibility-reference\native-code-api-reference\ftp-native-code-extensibility-structures.md)  
+ [FTP Native-Code Extensibility Structures](../../ftp-extensibility-reference/native-code-api-reference/ftp-native-code-extensibility-structures.md)  
  Describes the native-code structures for the FTP service.  
   
 ## See Also  

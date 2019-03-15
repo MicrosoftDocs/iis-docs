@@ -1,61 +1,34 @@
 ---
-title: "LOGGING_PARAMETERS Structure"
+title: "IFtpLogProvider::Log Method"
 ms.date: "09/06/2017"
-ms.assetid: e8a0342f-2636-492f-9fbf-f72dd1133f03
+ms.assetid: 0978c707-4bba-46be-8457-abdcfb930f5b
 ms.author: "robmcm"
 ---
-# LOGGING_PARAMETERS Structure
-Defines the information for FTP activity, such as user name, session ID, IP addresses for the client and server. Developers can select which logging information to use when they implement the IFtpLogProvider interface.  
+# IFtpLogProvider::Log Method
+Performs custom logging of FTP activity for the IFtpLogProvider interface.  
   
 ## Syntax  
   
 ```cpp#  
-struct LOGGING_PARAMETERS  
-{  
-   LPWSTR pszSessionId;  
-   LPWSTR pszSiteName;  
-   LPWSTR pszUserName;  
-   LPWSTR pszHostName;  
-   LPWSTR pszRemoteIpAddress;  
-   unsigned long dwRemoteIpPort;  
-   LPWSTR pszLocalIpAddress;  
-   unsigned long dwLocalIpPort;  
-   unsigned __int64 BytesSent;  
-   unsigned __int64 BytesReceived;  
-   LPWSTR pszCommand;  
-   LPWSTR pszCommandParameters;  
-   LPWSTR pszFullPath;  
-   unsigned long dwElapsedMilliseconds;  
-   unsigned long FtpStatus;  
-   unsigned long FtpSubStatus;  
-   HRESULT hrStatus;  
-   LPWSTR pszInformation;  
-};  
+HRESULT Log(  
+   LOGGING_PARAMETERS * pLoggingParameters  
+)  
 ```  
   
-## Members  
+### Parameters  
   
 |||  
 |-|-|  
-|Member Name|Definition|  
-|BytesReceived|The number of bytes received from the client.|  
-|BytesSent|The number of bytes sent to the client.|  
-|pszCommand|The FTP command.|  
-|pszCommandParameters|The parameters related to the FTP command.|  
-|dwElapsedMilliseconds|The number of milliseconds it took for the operation to complete.|  
-|FtpStatus|The FTP status of the current command.|  
-|FtpSubStatus|The FTP substatus of the current command.|  
-|pszFullPath|The full path of the operation for the FTP command.|  
-|pszHostName|The FTP virtual host name.|  
-|hrStatus|The Windows error code for the operation.|  
-|pszInformation|Additional troubleshooting information for the command.|  
-|pszLocalIpAddress|The local IP address to which the client is connected.|  
-|dwLocalIpPort|The TCP/IP port of the server.|  
-|pszRemoteIpAddress|The IP address of the client.|  
-|dwRemoteIpPort|The TCP/IP port of the client.|  
-|pszSessionId|The session ID.|  
-|pszSiteName|The name of the server instance that is being logged.|  
-|pszUserName|The name of the user.|  
+|Term|Definition|  
+|`pLoggingParameters`|[IN] A pointer to an [LOGGING_PARAMETERS Structure](../../ftp-extensibility-reference/native-code-api-reference/logging-parameters-structure.md) that contains FTP log information.|  
+  
+## Return Value  
+ An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
+  
+|||  
+|-|-|  
+|Value|Description|  
+|S_OK|Indicates that the operation was successful.|  
   
 ## Example  
  The following code example illustrates how to use the `IFtpLogProvider` interface to create a custom logging module for the FTP service.  
@@ -132,7 +105,7 @@ EXIT:
       return hr;  
    }  
 ```  
-  
+    
 ## Requirements  
   
 |||  
@@ -144,4 +117,4 @@ EXIT:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpLogProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftplogprovider-interface-native.md)
+ [IFtpLogProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftplogprovider-interface-native.md)
