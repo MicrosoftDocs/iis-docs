@@ -32,7 +32,7 @@ WSRM integrates resource management with Web pools through a built-in policy cal
 
 ## Using the Built-in IIS Policy
 
-1. After installing the Web Role proceed to install Windows System Resource Manager
+1. After installing the Web Role proceed to install Windows System Resource Manager.
 2. Start WSRM by clicking the Windows Start button, select "Administrative Tool", and select "Windows System Resource Manager" 
 
     [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image6.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image5.jpg)
