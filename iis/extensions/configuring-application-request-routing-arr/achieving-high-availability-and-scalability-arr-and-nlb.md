@@ -327,7 +327,6 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
 - NLB and SSL: 
 
     - 
-    - 
     - [https://support.microsoft.com/?id=313299](https://support.microsoft.com/?id=313299)
 - Other NLB links: 
 
