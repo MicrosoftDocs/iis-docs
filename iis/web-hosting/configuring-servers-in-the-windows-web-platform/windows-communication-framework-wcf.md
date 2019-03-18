@@ -13,7 +13,7 @@ by [Walter Oliver](https://github.com/walterov)
 
 Windows Communication Foundation (WCF) is a feature of Windows Server® 2008.
 
-It can be activated by using the Server Manager's "Add Features Wizard". The Server Manager is a Microsoft Management Console plug-in found in the Control Panel. Use WCF as part of the Application Server Role for deployment of a Web Services application. See the Application Server Role documentation for information.
+It can be activated by using the Server Manager's "Add Features Wizard". The Server Manager is a Microsoft Management Console plug-in found in the Control Panel. Use WCF as part of the Application Server Role for deployment of a Web Services application.
 
 The following dialog shows the "Add Feature Wizard" dialog in Server Manager used to activate WCF. See the highlighted item.
 
