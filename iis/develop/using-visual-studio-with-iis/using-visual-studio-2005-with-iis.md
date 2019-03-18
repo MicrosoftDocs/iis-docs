@@ -66,7 +66,7 @@ You can find the detailed explanation of the two models and their differences in
 **To publish the project to an IIS Web site:** 
 
 1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool.  
- For more information, see [https://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](https://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true) . Alternatively, use an existing IIS Web site.
+Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the "Build \ Publish" option to publish the contents of your Web application to an IIS Web site.  
 
     [![](using-visual-studio-2005-with-iis/_static/image4.png)](using-visual-studio-2005-with-iis/_static/image3.png)
