@@ -182,4 +182,4 @@ End Sub
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HandlersSection Class](../wmi-provider/handlerssection-class.md)   
- [IScriptMapInfo::GetAllowPathInfoForScriptMappings Method](../web-development-reference\native-code-api-reference/iscriptmapinfo-getallowpathinfoforscriptmappings-method.md)
+ [IScriptMapInfo::GetAllowPathInfoForScriptMappings Method](../web-development-reference/native-code-api-reference/iscriptmapinfo-getallowpathinfoforscriptmappings-method.md)
