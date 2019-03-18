@@ -106,7 +106,7 @@ Alternatively, use an existing IIS Web site.
 
 **To create a new project using the Web site project option:** 
 
-1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](https://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true). Alternatively, use an existing IIS Web site.
+1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the "File menu \ New \ Web Site …" option to create a new Web site project using the IIS Web site you created.  
 
     In the "New Web Site" dialog, select one of the Visual Studio Web site templates, such as the ASP.NET Web Site.
