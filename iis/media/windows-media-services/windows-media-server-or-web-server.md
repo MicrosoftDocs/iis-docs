@@ -183,7 +183,7 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 | Delivers content to iOS devices (iPhone, iPad) | ![](windows-media-server-or-web-server/_static/image29.gif) | ![](windows-media-server-or-web-server/_static/image30.gif) |
 | Delivers content referenced by server-controlled playlists | ![](windows-media-server-or-web-server/_static/image31.gif) | **7![](windows-media-server-or-web-server/_static/image32.gif)** |
 | Provides advanced performance boundary limits properties | ![](windows-media-server-or-web-server/_static/image33.gif) | **1![](windows-media-server-or-web-server/_static/image34.gif)** |
-| Supported on [Server Core](https://technet2.microsoft.com/windowsserver2008/en/library/47a23a74-e13c-46de-8d30-ad0afb1eaffc1033.mspx?mfr=true) installations | ![](windows-media-server-or-web-server/_static/image35.gif) | ![](windows-media-server-or-web-server/_static/image36.gif) |
+| Supported on Server Core installations | ![](windows-media-server-or-web-server/_static/image35.gif) | ![](windows-media-server-or-web-server/_static/image36.gif) |
 | Available for [Windows Web Server 2008](https://www.microsoft.com/windowsserver2008/en/us/editions-overview.aspx) | ![](windows-media-server-or-web-server/_static/image37.gif) | ![](windows-media-server-or-web-server/_static/image38.gif) |
 
 
