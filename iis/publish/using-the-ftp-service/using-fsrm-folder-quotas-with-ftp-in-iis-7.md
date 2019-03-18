@@ -187,4 +187,3 @@ Once folder quotas have been enabled for a content path for an FTP site and the 
 > [!NOTE]
 > Some graphical FTP clients may not show this information unless they support some form of viewing the activity log for the FTP session.
 
-<a id="03"></a>
