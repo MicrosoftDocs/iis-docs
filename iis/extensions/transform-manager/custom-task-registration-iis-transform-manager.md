@@ -106,7 +106,7 @@ The following example shows the task-definition XML for a custom type to be load
         <property name="templateName" required="true" value="Standard" helpText="The name of the Microsoft Silverlight player template (for example, Standard) that is included with the transcoded output. The template specifies a particular skin (a stylized design that includes playback elements) that encases the encoded video."/>
         <property name="templatePath" required="true" value="%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard" helpText="The templateName directory path."/>
       </properties>
-      <description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See http://go.microsoft.com/fwlink/?LinkID=186385.</description>
+      <description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See https://go.microsoft.com/fwlink/?LinkID=186385.</description>
       <inputFolder></inputFolder>
       <outputFolder>EE4Output</outputFolder>
       <taskCode>
@@ -179,7 +179,7 @@ The following example shows a SMIL manifest that is created for a job. It contai
                 </iisms:commandLine>
               </iisms:hasCommandLine>
               <iisms:name>Expression Encoder 4</iisms:name>
-              <iisms:description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See http://go.microsoft.com/fwlink/?LinkID=186385.</iisms:description>
+              <iisms:description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See https://go.microsoft.com/fwlink/?LinkID=186385.</iisms:description>
               <iisms:inputFolder></iisms:inputFolder>
               <iisms:configurationMessages>This task requires a licensed version of Microsoft Expression Encoder 4.0.<configurationMessage regKeyNotFound="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Expression\Encoder\4.0" severity="Error" xml:lang="en" xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#">This task requires a licensed version of Microsoft Expression Encoder 4.0.</configurationMessage></iisms:configurationMessages>
             </iisms:task>

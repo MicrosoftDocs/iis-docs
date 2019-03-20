@@ -1716,26 +1716,26 @@
 - name: Web Development Reference
   items: 
     - name: Native Code Development Overview
-      href: web-development-reference\native-code-development-overview\native-code-development-overview.md
+      href: web-development-reference/native-code-development-overview\native-code-development-overview.md
       items: 
         - name: "Walkthrough: Creating a Configuration File for Hosted Web Core"
-          href: web-development-reference\native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md
         - name: "Walkthrough: Creating a Request-Level HTTP Module By Using Native Code"
-          href: web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md
         - name: Creating Hosted Web Core Applications
-          href: web-development-reference\native-code-development-overview\creating-hosted-web-core-applications.md
+          href: web-development-reference/native-code-development-overview\creating-hosted-web-core-applications.md
         - name: Comparing Native-Code and Managed-Code Notifications
-          href: web-development-reference\native-code-development-overview\comparing-native-code-and-managed-code-notifications.md
+          href: web-development-reference/native-code-development-overview\comparing-native-code-and-managed-code-notifications.md
         - name: "Walkthrough: Creating a Hosted Web Core Application"
-          href: web-development-reference\native-code-development-overview\walkthrough-creating-a-hosted-web-core-application.md
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-hosted-web-core-application.md
         - name: Creating Native-Code HTTP Modules
-          href: web-development-reference\native-code-development-overview\creating-native-code-http-modules.md
+          href: web-development-reference/native-code-development-overview\creating-native-code-http-modules.md
         - name: Designing Native-Code HTTP Modules
-          href: web-development-reference\native-code-development-overview\designing-native-code-http-modules.md
+          href: web-development-reference/native-code-development-overview\designing-native-code-http-modules.md
         - name: "Walkthrough: Creating a Global-Level HTTP Module By Using Native Code"
-          href: web-development-reference\native-code-development-overview\walkthrough-creating-a-global-level-http-module-by-using-native-code.md
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-global-level-http-module-by-using-native-code.md
     - name: Native Code Api Reference
-      href: web-development-reference\native-code-api-reference\native-code-api-reference.md
+      href: web-development-reference/native-code-api-reference\native-code-api-reference.md
     - name: Server Variables
       href: web-dev-reference/server-variables.md
 - name: FTP Exensibility Reference
@@ -1845,7 +1845,7 @@
         - name: OneToOneCertificateMappingElement Class
           href: wmi-provider/onetoonecertificatemappingelement-class.md
         - name: OutputCacheProfile Class
-          href: wmi-provider\outputcacheprofile-class.md
+          href: wmi-provider/outputcacheprofile-class.md
         - name: ProfileElement Class
           href: wmi-provider/profileelement-class.md
         - name: ProtocolElement Class

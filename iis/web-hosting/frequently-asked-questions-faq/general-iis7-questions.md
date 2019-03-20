@@ -152,7 +152,7 @@ For the most part, it works out of the box since we use the redirection.config s
 
 See the following link for information about creating sites in IIS 7.0.
 
-[http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true)
+
 
 #### Is CLR loaded automatically for each w3wp/apppool?
 

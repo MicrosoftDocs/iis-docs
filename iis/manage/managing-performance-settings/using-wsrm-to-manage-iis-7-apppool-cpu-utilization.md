@@ -19,7 +19,6 @@ WSRM enables administrators to control how CPU and memory resources are allocate
 
 WSRM integrates resource management with Web pools through a built-in policy called Equal\_Per\_IISAppPool. Policies in WSRM automatically switch to different resource allocations in response hardware to hot-add changes or cluster changes if running in a cluster configuration.
 
-For more information see [Overview of Windows System Resource Manager](http://technet2.microsoft.com/windowsserver2008/en/library/c5b76d56-99b1-4ad7-875c-417b631184541033.mspx?mfr=true).
 
 ## Turning Off the CPULimit Metabase Property
 
@@ -33,7 +32,7 @@ For more information see [Overview of Windows System Resource Manager](http://te
 
 ## Using the Built-in IIS Policy
 
-1. After installing the Web Role proceed to [install Windows System Resource Manager](http://technet2.microsoft.com/windowsserver2008/en/library/497d620a-3c40-4236-ae9a-5c4e565787171033.mspx?mfr=true)
+1. After installing the Web Role proceed to install Windows System Resource Manager.
 2. Start WSRM by clicking the Windows Start button, select "Administrative Tool", and select "Windows System Resource Manager" 
 
     [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image6.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image5.jpg)

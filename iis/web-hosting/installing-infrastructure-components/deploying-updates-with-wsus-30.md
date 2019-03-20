@@ -23,8 +23,6 @@ WSUS provides a management infrastructure consisting of the following:
 
 1. **Automatic Updates**. This component is built into the Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, and Windows 2000 SP4 operating systems. Automatic Updates enables both server and client computers to receive updates from Microsoft Update or from a WSUS server.
 
-For a Step-by-Step Guide to getting started with WSUS 3.0, deployment scenarios, and processes (including unattended command line), visit [http://technet2.microsoft.com/windowsserver/en/library/912b37d7-021e-4c95-b317-49dd15b4611c1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver/en/library/912b37d7-021e-4c95-b317-49dd15b4611c1033.mspx?mfr=true).
-
 ## Software Requirements for Installing WSUS 3.0 on Windows Server 2008
 
 To install WSUS 3.0 on Windows Server 2008, you must have the following installed on your computer. If any of these updates require restarting the server when installation is completed, restart your server before installing WSUS 3.0.
@@ -40,19 +38,17 @@ Ensure that the following components are enabled:
 - Microsoft SQL ServerTM 2005 Service Pack 1. To download this software, go to the Download Center ([https://go.microsoft.com/fwlink/?LinkID=66143](https://go.microsoft.com/fwlink/?LinkID=66143)).
 - The .NET Framework 2.0 and BITS 2.0 update are available on Windows Server 2008 as part of the operating system.
 
-For a complete description of WSUS 3.0 Software Requirements (Console, Automatic Updates, and Permissions) visit, [http://technet2.microsoft.com/windowsserver/en/library/912b37d7-021e-4c95-b317-49dd15b4611c1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver/en/library/912b37d7-021e-4c95-b317-49dd15b4611c1033.mspx?mfr=true).
-
 ## Preparing the WSUS 3.0 Deployment
 
-The first step in deploying WSUS 3.0 is to design the server configuration. For a detailed process guide on how to prepare and deploy WSUS 3.0, refer to: [http://technet2.microsoft.com/windowsserver/en/library/912b37d7-021e-4c95-b317-49dd15b4611c1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver/en/library/912b37d7-021e-4c95-b317-49dd15b4611c1033.mspx?mfr=true).
+The first step in deploying WSUS 3.0 is to design the server configuration.
 
 The following topics in the guide describe various aspects of deployment design-from a simple configuration with a single server to a configuration with multiple WSUS servers. Some of the considerations to take into account are connection bandwidth (for both Internet connections and LAN or WAN connections), network configuration, and different language requirements.
 
 **To prepare the WSUS 3.0 deployment refer to:** 
 
-- [Choose a Type of WSUS Deployment](http://technet2.microsoft.com/WindowsServer/en/library/12b665bc-07fa-4a4e-aed8-f970efe80c4c1033.mspx)
-- [Choose a WSUS Management Style](http://technet2.microsoft.com/WindowsServer/en/library/98d5664a-2f6b-4ccf-b440-b71b7d5dec3e1033.mspx)
-- [Choose the Database Used for WSUS 3.0](http://technet2.microsoft.com/WindowsServer/en/library/6f51cae4-4b1e-4a4b-81ef-cc92dd3644fd1033.mspx)
-- [Determine Where to Store WSUS Updates](http://technet2.microsoft.com/WindowsServer/en/library/aa4d106e-830e-4074-8675-bc52b2ada0941033.mspx)
-- [Determine Bandwidth Options to Use](http://technet2.microsoft.com/WindowsServer/en/library/f47b494b-fbf5-4bf8-a5c9-c31221a3dfdb1033.mspx)
-- [Determine WSUS Capacity Requirements](http://technet2.microsoft.com/WindowsServer/en/library/92170771-83e7-47bb-abbc-7d93ee5d78671033.mspx)
+- [Choose a Type of WSUS Deployment](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc720448(v%3dws.10))
+- [Choose a WSUS Management Style](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708500(v%3dws.10))
+- [Choose the Database Used for WSUS 3.0](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708452(v%3dws.10))
+- [Determine Where to Store WSUS Updates](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-update-services/cc708543(v%3dws.10))
+- [Determine Bandwidth Options to Use](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-update-services/cc708603(v%3dws.10))
+- [Determine WSUS Capacity Requirements](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-update-services/cc708483(v%3dws.10))

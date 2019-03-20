@@ -34,7 +34,7 @@ class HttpErrorsSection : ConfigurationSectionWithCollection
 |----------|-----------------|  
 |`DefaultPath`|An optional `string` value that contains the default path of an HTTP error file or URL. When nonempty, this value is inherited by the `Path` property of newly created [HttpErrorElement](../wmi-provider/httperrorelement-class.md) objects.|  
 |`DefaultResponseMode`|An optional `sint32` value that configures the default response to HTTP errors. When nonempty, this value is inherited by the `ResponseMode` property of newly created `HttpErrorElement` objects. The possible values are listed later in the Remarks section.|  
-|`DetailedMoreInformationLink`|An optional read/write `string` value that specifies the URL for a link, shown at the bottom of the page, to a page with more detailed information about the error that was raised. The `status`, `substatus`, `hresult`, and `messageid` of the error are sent as part of the query string. You can use this property to point end users to a custom location for error information. The default is "http://go.microsoft.com/fwlink/?LinkID=62293".|  
+|`DetailedMoreInformationLink`|An optional read/write `string` value that specifies the URL for a link, shown at the bottom of the page, to a page with more detailed information about the error that was raised. The `status`, `substatus`, `hresult`, and `messageid` of the error are sent as part of the query string. You can use this property to point end users to a custom location for error information. The default is "https://go.microsoft.com/fwlink/?LinkID=62293".|  
 |`ErrorMode`|A read/write `sint32` enumeration that specifies whether the detailed error functionality is enabled, disabled, or shown only to local clients. The possible values are listed later in the Remarks section.|  
 |`ExistingResponse`|A read/write `sint32` enumeration that specifies how IIS handles existing custom errors. The possible values are listed later in the Remarks section.|  
 |`HttpErrors`|An array of `HttpErrorElement` values that configure handling for specific HTTP errors.|  
@@ -72,7 +72,7 @@ class HttpErrorsSection : ConfigurationSectionWithCollection
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
-|0|`Auto`|The response depends on the first successful match of the following set of ordered conditions:<br /><br /> 1.  If the [IHttpResponse::SetStatus](../web-development-reference\native-code-api-reference/ihttpresponse-setstatus-method.md) method was called by using the `fTrySkipCustomErrors` flag, the existing response is passed through, and no detailed or custom error is shown.<br />2.  If the `ErrorMode` property is set to `Custom`, the response is replaced.<br />3.  If `ErrorMode` is set to `Detailed` and there is an existing response, the response is passed through.<br />4.  If `ErrorMode` is set to `Detailed` and there is no existing response, the response is replaced with a detailed error.|  
+|0|`Auto`|The response depends on the first successful match of the following set of ordered conditions:<br /><br /> 1.  If the [IHttpResponse::SetStatus](../web-development-reference/native-code-api-reference/ihttpresponse-setstatus-method.md) method was called by using the `fTrySkipCustomErrors` flag, the existing response is passed through, and no detailed or custom error is shown.<br />2.  If the `ErrorMode` property is set to `Custom`, the response is replaced.<br />3.  If `ErrorMode` is set to `Detailed` and there is an existing response, the response is passed through.<br />4.  If `ErrorMode` is set to `Detailed` and there is no existing response, the response is replaced with a detailed error.|  
 |1|`Replace`|The existing response is always replaced, regardless of how `SetStatus` was called.|  
 |2|`PassThrough`|The existing response is always used.|  
   
@@ -157,4 +157,4 @@ End Function
  [CustomError Class](../wmi-provider/customerror-class.md)   
  [CustomErrorsSection Class](../wmi-provider/customerrorssection-class.md)   
  [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   
- [IHttpResponse::SetStatus Method](../web-development-reference\native-code-api-reference/ihttpresponse-setstatus-method.md)
+ [IHttpResponse::SetStatus Method](../web-development-reference/native-code-api-reference/ihttpresponse-setstatus-method.md)

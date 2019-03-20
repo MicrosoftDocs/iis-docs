@@ -2,5 +2,5 @@
 	id="CheckWebDeployDelegationRules"
 	type="DelegationRuleValidator"
 	description="Check if Web Deploy delegation rules for non-administrators are set up correctly"
-	detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
+	detailsUrlBase="https://go.microsoft.com/fwlink/?LinkId=206559"
 />
