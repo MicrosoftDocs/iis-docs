@@ -133,7 +133,7 @@ The IIS Log Cleaner consists of the following:
 
 To download, configure, and run the IIS Log Cleaner tool, proceed as follows:
 
-1. Download the executable by executing http://www.erezbenari.com/IISLogCleaner.exe and saving the executable in a folder of your choice on the server (there is no installer).
+1. Download the executable by executing http://www.erezbenari.com/apps/IISLogCleaner.exe and saving the executable in a folder of your choice on the server (there is no installer).
 2. Click through the security popups.
 3. Execute IISLogCleaner.exe in the folder. This creates the settings.txt file in the same folder.
 4. To make changes to the settings.txt file, open the file with a text editor, or right-click the **IIS** icon in the notification area, and then click **Settings**.
