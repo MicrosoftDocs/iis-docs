@@ -43,7 +43,7 @@ For specific installation instructions, see **Downloading and Installing** in th
 
 ### Choosing your Edition of Expression Encoder
 
-Expression Encoder 4 is the only integrated encoder available for use with IIS Transform Manager 1.0. Other third-party encoders can be used with Transform Manager, provided that they offer a command-line executable interface or create an integrated task using the [Transform Manager Task API](https://msdn.microsoft.com/en-us/library/ff728121(v=vs.90).aspx).
+Expression Encoder 4 is the only integrated encoder available for use with IIS Transform Manager 1.0. Other third-party encoders can be used with Transform Manager, provided that they offer a command-line executable interface or create an integrated task using the [Transform Manager Task API](https://msdn.microsoft.com/library/ff728121.aspx).
 
 This article describes the use of an integrated Expression Encoder 4.0 SP2 transcoding task in Transform Manager. This task uses encoding presets that require the encoding profiles and Silverlight player templates provided by [Microsoft® Expression Encoder 4 Service Pack 2 (SP2)](https://www.microsoft.com/expression/products/EncoderPro_Overview.aspx). Both Expression Encoder 4 and Expression Encoder 4 Pro include VC-1 IIS Smooth Streaming encoding presets for content that you transcode for Silverlight Clients. Expression Encoder 4 Pro is the only edition of Expression Encoder that includes H.264 IIS Smooth Streaming encoding presets.
 

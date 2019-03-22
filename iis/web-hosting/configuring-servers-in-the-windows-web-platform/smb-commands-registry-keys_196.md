@@ -34,6 +34,6 @@ When using a remote file server for content or configuration files, you must set
 4. If it does not exist, create a DWORD "MaxWorkItems" and set the value to 2000 hexadecimal. This specifies a value of 8,192 decimal, or 4x the MaxMptCt.
 5. Reboot the machine.
 
-For information on the length limitation of the pathname of the share (\\server\share) see [https://msdn.microsoft.com/en-us/library/cc246567.aspx](https://msdn.microsoft.com/en-us/library/cc246567.aspx)
+For information on the length limitation of the pathname of the share (\\server\share) see [https://msdn.microsoft.com/library/cc246567.aspx](https://msdn.microsoft.com/library/cc246567.aspx)
 
 For instructions to configure the Web Server SMB registry keys see: [https://www.iis.net/learn/web-hosting/web-server-for-shared-hosting/smb-commands-registry-keys\_198](../web-server-for-shared-hosting/smb-commands-registry-keys_198.md)

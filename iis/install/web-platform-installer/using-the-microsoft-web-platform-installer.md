@@ -211,4 +211,4 @@ You can also refer to [Windows Web Application Gallery: Known Issues](../../deve
 - [Microsoft Web Platform](https://www.microsoft.com/web/platform/).
 - [Windows Web Application Gallery Principles](../../develop/windows-web-application-gallery/windows-web-application-gallery-principles.md).
 - [Web Platform Installer](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
-- [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx).
+- [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.aspx).

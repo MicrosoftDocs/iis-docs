@@ -112,7 +112,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 ### How to add a managed-code custom authentication provider for an FTP site
 
 > [!NOTE]
-> These steps assume that a custom FTP authentication provider has already been installed and registered on your server's Global Assembly Cache (GAC.) For more information about how to register managed assemblies, see the [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c(VS.80).aspx) topic on Microsoft the MSDN Web site.
+> These steps assume that a custom FTP authentication provider has already been installed and registered on your server's Global Assembly Cache (GAC.) For more information about how to register managed assemblies, see the [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/library/ex0ss12c(VS.80).aspx) topic on Microsoft the MSDN Web site.
 
 1. Determine the assembly information for the extensibility provider: 
 

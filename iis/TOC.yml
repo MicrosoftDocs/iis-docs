@@ -1,0 +1,2424 @@
+- name: Overview
+  items: 
+    - name: Centralized Web Farm Management
+      href: overview/centralized-web-farm-management.md
+    - name: Delegated Remote Management
+      href: overview/delegated-remote-management.md
+    - name: Powerful Admin Tools
+      href: overview/powerful-admin-tools.md
+    - name: Scalable Web Infrastructure
+      href: overview/scalable-web-infrastructure.md
+    - name: Dynamic Caching and Compression
+      href: overview/dynamic-caching-and-compression.md
+    - name: Rich Diagnostic Tools
+      href: overview/rich-diagnostic-tools.md
+    - name: Enhanced Server Protection
+      href: overview/enhanced-server-protection.md
+    - name: Access Protection
+      href: overview/access-protection.md
+- name: Get Started
+  items: 
+    - name: What’s New in IIS 10.0 Version 1709?
+      items: 
+        - name: New Features Introduced in IIS 10.0 Version 1709
+          href: get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709.md
+        - name: IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support
+          href: get-started/whats-new-in-iis-10-version-1709/iis-10-version-1709-hsts.md
+    - name: What’s New in IIS 10.0?
+      items: 
+        - name: New Features Introduced in IIS 10.0
+          href: get-started/whats-new-in-iis-10/new-features-introduced-in-iis-10.md
+        - name: Introducing IIS on Nano Server
+          href: get-started/whats-new-in-iis-10/introducing-iis-on-nano-server.md
+        - name: HTTP/2 on IIS
+          href: get-started/whats-new-in-iis-10/http2-on-iis.md
+        - name: IISAdministration PowerShell Cmdlets
+          href: get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets.md
+        - name: Running Asp.Net Core with IIS on Nano Server
+          href: get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server.md
+        - name: Wildcard Host Header Support
+          href: get-started/whats-new-in-iis-10/wildcard-host-header-support.md
+        - name: IIS Thread Pool Ideal CPU Optimization for NUMA hardware
+          href: get-started/whats-new-in-iis-10/thread-pool-ideal-cpu-numa-optimization.md
+    - name: Introduction to IIS
+      items: 
+        - name: Introduction to IIS Architectures
+          href: get-started/introduction-to-iis/introduction-to-iis-architecture.md
+        - name: IIS Web Server Overview
+          href: get-started/introduction-to-iis/iis-web-server-overview.md
+        - name: IIS Modules Overview
+          href: get-started/introduction-to-iis/iis-modules-overview.md
+        - name: Web Site Deployment Made Easy
+          href: get-started/introduction-to-iis/web-site-deployment-made-easy.md
+        - name: "Hosting-Friendly Web Server Platform (IIS): Scenario Overview"
+          href: get-started/introduction-to-iis/hosting-friendly-web-server-platform-iis-scenario-overview.md
+    - name: Getting Started with IIS
+      items: 
+        - name: Serving New Content
+          href: get-started/getting-started-with-iis/serving-new-content.md
+        - name: Getting Started with the IIS Manager in IIS
+          href: get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md
+        - name: Getting Started with AppCmd.exe
+          href: get-started/getting-started-with-iis/getting-started-with-appcmdexe.md
+        - name: Create a Web Site
+          href: get-started/getting-started-with-iis/create-a-web-site.md
+    - name: Planning Your IIS Architecture
+      items: 
+        - name: Editing Configuration Files
+          href: get-started/planning-your-iis-architecture/editing-configuration-files.md
+        - name: The Configuration System in IIS 7
+          href: get-started/planning-your-iis-architecture/the-configuration-system-in-iis-7.md
+        - name: Getting Started with Configuration in IIS 7 and Above
+          href: get-started/planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above.md
+        - name: Introduction to ApplicationHost.config
+          href: get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig.md
+        - name: Deep Dive into IIS Configuration with IIS 7 and IIS 8
+          href: get-started/planning-your-iis-architecture/deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md
+        - name: IIS 7 and IIS 8 Configuration Reference
+          href: get-started/planning-your-iis-architecture/iis-7-and-iis-8-configuration-reference.md
+        - name: Feature to Configuration Reference
+          href: get-started/planning-your-iis-architecture/feature-to-configuration-reference.md
+        - name: Understanding Sites, Applications, and Virtual Directories on IIS 7
+          href: get-started/planning-your-iis-architecture/understanding-sites-applications-and-virtual-directories-on-iis.md
+        - name: Understanding Multicore Scaling on NUMA Hardware with IIS 8
+          href: get-started/planning-your-iis-architecture/understanding-multicore-scaling-on-numa-hardware-with-iis-8.md
+    - name: Planning for Security
+      items: 
+        - name: Build a Custom IIS 7.0 Server
+          href: get-started/planning-for-security/build-a-custom-iis-server.md
+        - name: Understanding Built-In User and Group Accounts in IIS 7
+          href: get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis.md
+        - name: How to Use Locking in IIS 7.0 Configuration
+          href: get-started/planning-for-security/how-to-use-locking-in-iis-configuration.md
+        - name: Secure Content in IIS Through File System ACLs
+          href: get-started/planning-for-security/secure-content-in-iis-through-file-system-acls.md
+        - name: Set ACLs Through the Manifest.xml File
+          href: get-started/planning-for-security/set-acls-through-the-manifestxml-file.md
+    - name: Localized Content
+      items: 
+        - name: Localized Japanese LEARN articles and more
+          href: get-started/localized-content/iis-localized-japanese-learn-articles-and-more.md
+    - name: Case Studies
+      items: 
+        - name: "Case Study: IIS 8 Scaling On An HP Proliant DL980 G7 8-Processor Socket System"
+          href: get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system.md
+    - name: What's New in IIS 8.5?
+      items: 
+        - name: Enhanced Logging for IIS 8.5
+          href: get-started/whats-new-in-iis-85/enhanced-logging-for-iis85.md
+        - name: Logging to Event Tracing for Windows in IIS 8.5
+          href: get-started/whats-new-in-iis-85/logging-to-etw-in-iis-85.md
+        - name: Dynamic Website Activation in IIS 8.5
+          href: get-started/whats-new-in-iis-85/dynamic-site-activation-in-iis85.md
+        - name: Idle Worker Process Page-Out in IIS 8.5
+          href: get-started/whats-new-in-iis-85/idle-worker-process-page-out-in-iis85.md
+        - name: Certificate Rebind in IIS 8.5
+          href: get-started/whats-new-in-iis-85/certificate-rebind-in-iis85.md
+    - name: What's New in IIS 8?
+      items: 
+        - name: Installing IIS 8 on Windows Server 2012
+          href: get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012.md
+        - name: IIS 8.0 ASP.NET Configuration Management
+          href: get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management.md
+        - name: "IIS 8.0 Centralized SSL Certificate Support: SSL Scalability and Manageability"
+          href: get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability.md
+        - name: "IIS 8.0 CPU Throttling: Sand-boxing Sites and Applications"
+          href: get-started/whats-new-in-iis-8/iis-80-cpu-throttling-sand-boxing-sites-and-applications.md
+        - name: IIS 8.0 FTP Logon Attempt Restrictions
+          href: get-started/whats-new-in-iis-8/iis-80-ftp-logon-attempt-restrictions.md
+        - name: IIS 8.0 Multicore Scaling on NUMA Hardware
+          href: get-started/whats-new-in-iis-8/iis-80-multicore-scaling-on-numa-hardware.md
+        - name: "IIS 8.0 Server Name Indication (SNI): SSL Scalability"
+          href: get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability.md
+        - name: IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5
+          href: get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45.md
+        - name: IIS 8.0 WebSocket Protocol Support
+          href: get-started/whats-new-in-iis-8/iis-80-websocket-protocol-support.md
+        - name: IIS 8.0 Application Initialization
+          href: get-started/whats-new-in-iis-8/iis-80-application-initialization.md
+        - name: IIS 8.0 Dynamic IP Address Restrictions
+          href: get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions.md
+    - name: What's New in IIS 7?
+      items: 
+        - name: Changes in Security Between IIS 6.0 and IIS 7 and Above
+          href: get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above.md
+        - name: IIS7 Security Improvements
+          href: get-started/whats-new-in-iis-7/iis7-and-above-security-improvements.md
+        - name: What's New for Microsoft and FTP in IIS 7?
+          href: get-started/whats-new-in-iis-7/what39s-new-for-microsoft-and-ftp-in-iis-7.md
+        - name: What's New for WebDAV and IIS 7?
+          href: get-started/whats-new-in-iis-7/what39s-new-for-webdav-and-iis-7.md
+- name: Install
+  items: 
+    - name: Installing IIS 7
+      items: 
+        - name: Installing Necessary IIS 7.0 Components on Windows Vista
+          href: install/installing-iis-7/installing-necessary-iis-components-on-windows-vista.md
+        - name: Upgrading to IIS 7.0 on Windows Server 2008
+          href: install/installing-iis-7/upgrading-to-iis-70-on-windows-server-2008.md
+        - name: Installing IIS 7 on Windows Vista and Windows 7
+          href: install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7.md
+        - name: Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2
+          href: install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md
+        - name: Understanding Setup in IIS 7
+          href: install/installing-iis-7/understanding-setup-in-iis.md
+        - name: Compatibility and Feature Requirements for Windows Vista
+          href: install/installing-iis-7/compatibility-and-feature-requirements-for-windows-vista.md
+        - name: Installing IIS 7.0 from the Command Line
+          href: install/installing-iis-7/installing-iis-from-the-command-line.md
+        - name: Using Unattended Setup to Install IIS 7.0
+          href: install/installing-iis-7/using-unattended-setup-to-install-iis.md
+        - name: Discover Installed Components
+          href: install/installing-iis-7/discover-installed-components.md
+        - name: Install Typical IIS Workloads
+          href: install/installing-iis-7/install-typical-iis-workloads.md
+        - name: ApplicationHost Helper Service
+          href: install/installing-iis-7/applicationhost-helper-service.md
+        - name: Install and Configure IIS 7 on Server Core
+          href: install/installing-iis-7/install-and-configure-iis-on-server-core.md
+        - name: How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008
+          href: install/installing-iis-7/how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008.md
+        - name: IIS 7.0 Features and Vista Editions
+          href: install/installing-iis-7/iis-features-and-vista-editions.md
+        - name: Install Windows Server 2008 and Windows Server 2008 R2
+          href: install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2.md
+    - name: Installing Publishing Technologies
+      items: 
+        - name: Installing and Configuring Web Deploy on IIS 7
+          href: install/installing-publishing-technologies/installing-and-configuring-web-deploy.md
+        - name: Installing and Configuring FTP 7 on IIS 7
+          href: install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7.md
+        - name: Installing and Configuring WebDAV on IIS 7 and Later
+          href: install/installing-publishing-technologies/installing-and-configuring-webdav-on-iis.md
+        - name: Installing and Configuring Web Deploy on IIS 8.0 or Later
+          href: install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later.md
+    - name: Web Platform Installer
+      items: 
+        - name: Web Platform Installer 2.0 Walkthrough
+          href: install/web-platform-installer/web-platform-installer-20-walkthrough.md
+        - name: Using the Microsoft Web Platform Installer
+          href: install/web-platform-installer/using-the-microsoft-web-platform-installer.md
+        - name: Web Platform Installer Resources
+          href: install/web-platform-installer/web-platform-installer-resources.md
+        - name: Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
+          href: install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release.md
+        - name: Web Platform Installer Direct Downloads
+          href: install/web-platform-installer/web-platform-installer-direct-downloads.md
+    - name: Installing IIS 8.5
+      items: 
+        - name: Installing IIS 8.5 on Windows Server 2012 R2
+          href: install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2.md
+- name: Manage
+  items: 
+    - name: Creating Websites
+      items: 
+        - name: Provisioning FTP 7.5 Sites
+          href: manage/creating-websites/provisioning-ftp-75-sites.md
+        - name: Select a Provisioning Option
+          href: manage/creating-websites/select-a-provisioning-option.md
+        - name: Provisioning IIS 7 Sites for Shared Hosting
+          href: manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting.md
+        - name: Provisioning IIS 7 Sites
+          href: manage/creating-websites/provisioning-iis-7-sites.md
+        - name: Build a Static Website on IIS
+          href: manage/creating-websites/scenario-build-a-static-website-on-iis.md
+        - name: IIS 8 - New Features Overview
+          href: manage/creating-websites/iis-8-new-features-overview.md
+    - name: Provisioning and Managing IIS
+      items: 
+        - name: Provisioning SQL 2005 Resources
+          href: manage/provisioning-and-managing-iis/provisioining-sql-2005-resources.md
+        - name: IIS Management and Administration
+          href: manage/provisioning-and-managing-iis/iis-management-and-administration.md
+        - name: Installing IIS Modules in Shared Configuration Environments
+          href: manage/provisioning-and-managing-iis/installing-iis-modules-in-shared-configuration-environments.md
+        - name: Hosted Services Control Panels
+          href: manage/provisioning-and-managing-iis/hosted-services-control-panels.md
+        - name: WebsitePanel
+          href: manage/provisioning-and-managing-iis/websitepanel.md
+        - name: Features of the Windows Process Activation Service (WAS)
+          href: manage/provisioning-and-managing-iis/features-of-the-windows-process-activation-service-was.md
+        - name: Services Overview
+          href: manage/provisioning-and-managing-iis/services-overview.md
+        - name: Services Implementation
+          href: manage/provisioning-and-managing-iis/setting-up-components.md
+        - name: Consuming the Services
+          href: manage/provisioning-and-managing-iis/consuming-the-services.md
+        - name: Microsoft.Web.Administration
+          href: manage/provisioning-and-managing-iis/microsoftwebadministration.md
+        - name: IIS 7 WMI Provider
+          href: manage/provisioning-and-managing-iis/iis-7-wmi-provider.md
+        - name: AppCmd.exe
+          href: manage/provisioning-and-managing-iis/appcmdexe.md
+        - name: Other Managed Code Samples
+          href: manage/provisioning-and-managing-iis/other-managed-code-samples.md
+        - name: Shared Configuration and Remote Provisioning
+          href: manage/provisioning-and-managing-iis/shared-configuration-and-remote-provisioning.md
+        - name: Provisioning Options in IIS 7
+          href: manage/provisioning-and-managing-iis/provisioning-options-in-iis-7.md
+        - name: Using Managed APIs in IIS 7
+          href: manage/provisioning-and-managing-iis/using-managed-apis-in-iis-7.md
+        - name: Provisioning Sample in C#
+          href: manage/provisioning-and-managing-iis/provisioning-sample-in-c.md
+        - name: Configure Logging in IIS
+          href: manage/provisioning-and-managing-iis/configure-logging-in-iis.md
+        - name: Managing IIS Log File Storage
+          href: manage/provisioning-and-managing-iis/managing-iis-log-file-storage.md
+    - name: Configuring Security
+      items: 
+        - name: Configuring SSL in IIS Manager
+          href: manage/configuring-security/configuring-ssl-in-iis-manager.md
+        - name: Application Pool Identities and SQL Server Express
+          href: manage/configuring-security/application-pool-identities-and-sql-server-express.md
+        - name: Using Encryption to Protect Passwords
+          href: manage/configuring-security/using-encryption-to-protect-passwords.md
+        - name: Understanding IIS 7.0 URL Authorization
+          href: manage/configuring-security/understanding-iis-url-authorization.md
+        - name: Use Request Filtering
+          href: manage/configuring-security/use-request-filtering.md
+        - name: How to Set Up SSL on IIS 7
+          href: manage/configuring-security/how-to-set-up-ssl-on-iis.md
+        - name: Configuring One-to-One Client Certificate Mappings
+          href: manage/configuring-security/configuring-one-to-one-client-certificate-mappings.md
+        - name: Using Enhanced Request Filtering Features in IIS7
+          href: manage/configuring-security/using-enhanced-request-filtering-features-in-iis.md
+        - name: Using Dynamic IP Restrictions
+          href: manage/configuring-security/using-dynamic-ip-restrictions.md
+        - name: Application Pool Identities
+          href: manage/configuring-security/application-pool-identities.md
+        - name: Ensure Security Isolation for Web Sites
+          href: manage/configuring-security/ensure-security-isolation-for-web-sites.md
+        - name: Analyzing Client Usage Data with IIS User Access Logging
+          href: manage/configuring-security/analyzing-client-usage-data-with-iis-user-access-logging.md
+        - name: Configure Request Filtering in IIS
+          href: manage/configuring-security/configure-request-filtering-in-iis.md
+        - name: IIS 8 - Certificate Management and Deployment
+          href: manage/configuring-security/iis-8-certificate-management-and-deployment.md
+        - name: IIS 8 - Sandboxing and Security
+          href: manage/configuring-security/iis-8-sandboxing-and-security.md
+    - name: Managing Performance Settings
+      items: 
+        - name: Improving Performance with Native Output Caching
+          href: manage/managing-performance-settings/improving-performance-with-native-output-caching.md
+        - name: Using WSRM to manage IIS 7 AppPool CPU Utilization
+          href: manage/managing-performance-settings/using-wsrm-to-manage-iis-7-apppool-cpu-utilization.md
+        - name: "Walkthrough: IIS 7.0 Output Caching"
+          href: manage/managing-performance-settings/walkthrough-iis-output-caching.md
+        - name: Configure IIS 7 Output Caching
+          href: manage/managing-performance-settings/configure-iis-7-output-caching.md
+        - name: Use Bit Rate Throttling
+          href: manage/managing-performance-settings/use-bit-rate-throttling.md
+    - name: Managing your Configuration Settings
+      items: 
+        - name: Delegating Configuration to web.config Files
+          href: manage/managing-your-configuration-settings/delegating-configuration-to-webconfig-files.md
+        - name: Configuring a Web Farm Using IIS Shared Configuration
+          href: manage/managing-your-configuration-settings/configuring-a-web-farm-using-iis-shared-configuration.md
+        - name: Adding IE 9 MIME Types to IIS 7
+          href: manage/managing-your-configuration-settings/adding-ie-9-mime-types-to-iis.md
+        - name: Metabase Compatibility with IIS 7 and Above
+          href: manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above.md
+        - name: How to Use Metabase Compatibility with IIS 7 and Above
+          href: manage/managing-your-configuration-settings/how-to-use-metabase-compatibility-with-iis-7-and-above.md
+        - name: Using Configuration History with IIS 7 and IIS 8
+          href: manage/managing-your-configuration-settings/using-configuration-history-with-iis-7-and-iis-8.md
+        - name: An Overview of Feature Delegation in IIS 7.0
+          href: manage/managing-your-configuration-settings/an-overview-of-feature-delegation-in-iis.md
+        - name: Understanding IIS 7.0 Configuration Delegation
+          href: manage/managing-your-configuration-settings/understanding-iis-configuration-delegation.md
+        - name: How to Use Configuration Delegation in IIS 7.0
+          href: manage/managing-your-configuration-settings/how-to-use-configuration-delegation-in-iis.md
+        - name: Shared Configuration
+          href: manage/managing-your-configuration-settings/shared-configuration_264.md
+        - name: "Using Configuration Editor: Generate Scripts"
+          href: manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts.md
+        - name: Editing Collections with Configuration Editor
+          href: manage/managing-your-configuration-settings/editing-collections-with-configuration-editor.md
+        - name: "Editing Collections using Configuration Editor: Complex Sections"
+          href: manage/managing-your-configuration-settings/editing-collections-using-configuration-editor-complex-sections.md
+    - name: Scripting
+      items: 
+        - name: Managing Sites with IIS 7.0's WMI Provider
+          href: manage/scripting/managing-sites-with-the-iis-wmi-provider.md
+        - name: Managing Applications and Application Pools on IIS 7.0 with WMI
+          href: manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi.md
+        - name: Managing Worker Processes and AppDomains in IIS 7 with WMI
+          href: manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi.md
+        - name: How to Use Microsoft.Web.Administration
+          href: manage/scripting/how-to-use-microsoftwebadministration.md
+        - name: Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)
+          href: manage/scripting/accessing-configuration-sections-using-microsoftwebadministration-mwa.md
+        - name: Get to Know the IIS 7.0 WMI Provider Using CIM Studio
+          href: manage/scripting/get-to-know-the-iis-wmi-provider-using-cim-studio.md
+    - name: PowerShell
+      items: 
+        - name: Writing PowerShell Commandlets for IIS 7.0
+          href: manage/powershell/writing-powershell-commandlets-for-iis.md
+        - name: An Introduction to Windows PowerShell and IIS 7.0
+          href: manage/powershell/an-introduction-to-windows-powershell-and-iis.md
+        - name: Getting Started with the IIS 7.0 PowerShell Snap-in
+          href: manage/powershell/getting-started-with-the-iis-powershell-snap-in.md
+        - name: Installing the IIS 7.0 PowerShell Snap-in
+          href: manage/powershell/installing-the-iis-powershell-snap-in.md
+        - name: "PowerShell Snap-in: Navigating the IIS Snap-in Namespace"
+          href: manage/powershell/powershell-snap-in-navigating-the-iis-snap-in-namespace.md
+        - name: "PowerShell Snap-in: Using the PowerShell Help System"
+          href: manage/powershell/powershell-snap-in-using-the-powershell-help-system.md
+        - name: "PowerShell Snap-in: Creating Websites, Web apps, Virtual Dirs and App Pools"
+          href: manage/powershell/powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools.md
+        - name: "PowerShell Snap-in: Making Configuration Changes to Websites and App Pools"
+          href: manage/powershell/powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools.md
+        - name: "PowerShell Snap-in: Changing Simple Settings in Configuration Sections"
+          href: manage/powershell/powershell-snap-in-changing-simple-settings-in-configuration-sections.md
+        - name: "PowerShell Snap-in: Advanced Configuration Tasks"
+          href: manage/powershell/powershell-snap-in-advanced-configuration-tasks.md
+        - name: "PowerShell Snap-in: Run-time Data"
+          href: manage/powershell/powershell-snap-in-run-time-data.md
+        - name: "PowerShell Snap-in: Configuring SSL with the IIS PowerShell Snap-in"
+          href: manage/powershell/powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in.md
+        - name: "PowerShell Snap-in: Using the Task-based Cmdlets of the IIS PowerShell Snap-in"
+          href: manage/powershell/powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in.md
+    - name: Remote Administration
+      items: 
+        - name: Remote Administration for IIS Manager
+          href: manage/remote-administration/remote-administration-for-iis-manager.md
+        - name: Configuring Remote Administration and Feature Delegation in IIS 7
+          href: manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7.md
+        - name: Remote Administration Behavior Matrix
+          href: manage/remote-administration/remote-administration-behavior-matrix.md
+        - name: Remote Manager for Windows 2003, XP and Vista SP1
+          href: manage/remote-administration/remote-manager-for-windows-2003-xp-and-vista-sp1.md
+    - name: Working with Server Core
+      items: 
+        - name: Using IIS with Windows Server Core
+          href: manage/working-with-server-core/using-iis-with-windows-server-core.md
+        - name: IIS 7.0 on Server Core
+          href: manage/working-with-server-core/iis-70-on-server-core.md
+    - name: Disaster Recovery
+      items: 
+        - name: Disaster Recovery to Azure using Site Recovery
+          href: https://aka.ms/asr-link-from-iis
+- name: Develop
+  items: 
+    - name: Runtime Extensibility
+      items: 
+        - name: Extending Web Server Functionality in .NET
+          href: develop/runtime-extensibility/extending-web-server-functionality-in-net.md
+        - name: An End-to-End Extensibility Example for IIS 7.0 Developers
+          href: develop/runtime-extensibility/an-end-to-end-extensibility-example-for-iis-developers.md
+        - name: Develop a Native C\C++ Module for IIS 7.0
+          href: develop/runtime-extensibility/develop-a-native-cc-module-for-iis.md
+        - name: Developing a Module Using .NET
+          href: develop/runtime-extensibility/developing-a-module-using-net.md
+        - name: How to Add Tracing to IIS 7.0 Managed Modules
+          href: develop/runtime-extensibility/how-to-add-tracing-to-iis-managed-modules.md
+        - name: Developing IIS 7.0 Modules and Handlers with the .NET Framework
+          href: develop/runtime-extensibility/developing-iis-modules-and-handlers-with-the-net-framework.md
+        - name: "Sample: Image Watermark Module"
+          href: develop/runtime-extensibility/sample-image-watermark-module.md
+        - name: "Sample: Web Analytics Tracking Module"
+          href: develop/runtime-extensibility/sample-web-analytics-tracking-module.md
+    - name: Extending IIS Configuration
+      items: 
+        - name: Extending IIS Configuration
+          href: develop/extending-iis-configuration/extending-iis-configuration.md
+        - name: Configuration Extensibility
+          href: develop/extending-iis-configuration/configuration-extensibility.md
+        - name: Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA
+          href: develop/extending-iis-configuration/extending-iis-schema-and-accessing-the-custom-sections-using-mwa.md
+    - name: Extending the Management UI
+      items: 
+        - name: Overview of MWA and MWM for IIS 7.0
+          href: develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis.md
+        - name: How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager
+          href: develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager.md
+        - name: How to Create a Simple IIS Manager Module
+          href: develop/extending-the-management-ui/how-to-create-a-simple-iis-manager-module.md
+        - name: Understanding UI Extension Authoring
+          href: develop/extending-the-management-ui/understanding-ui-extension-authoring.md
+        - name: Create an IIS Manager Provider that uses SQL to Store User Credentials
+          href: develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials.md
+    - name: Using Visual Studio with IIS
+      items: 
+        - name: Using Visual Studio 2008 with IIS 7
+          href: develop/using-visual-studio-with-iis/using-visual-studio-2008-with-iis.md
+        - name: Using Visual Studio 2005 with IIS 7.0
+          href: develop/using-visual-studio-with-iis/using-visual-studio-2005-with-iis.md
+    - name: Windows Web Application Gallery
+      items: 
+        - name: Package an Application for the Windows Web Application Gallery
+          href: develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md
+        - name: Windows Web Application Gallery Link Addition Process Walkthrough
+          href: develop/windows-web-application-gallery/windows-web-application-gallery-link-addition-process-walkthrough.md
+        - name: Windows Web Application Gallery Principles
+          href: develop/windows-web-application-gallery/windows-web-application-gallery-principles.md
+        - name: Introducing the Windows Web Application Gallery
+          href: develop/windows-web-application-gallery/introducing-the-windows-web-application-gallery.md
+        - name: Integrate the Windows Web Application Gallery into a Control Panel
+          href: develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel.md
+        - name: "Windows Web Application Gallery: Known Issues"
+          href: develop/windows-web-application-gallery/windows-web-application-gallery-known-issues.md
+        - name: Using the Microsoft Web Platform Installer Badge
+          href: develop/windows-web-application-gallery/using-the-microsoft-web-platform-installer-badge.md
+        - name: Database Notes for packaging applications for the Web Application Gallery
+          href: develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md
+        - name: Reference for the Web Application Package
+          href: develop/windows-web-application-gallery/reference-for-the-web-application-package.md
+        - name: Testing a Zip Package for Inclusion with the Web Application Gallery
+          href: develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery.md
+        - name: How to Create an App Package Supporting both SQL Server and MySQL
+          href: develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql.md
+        - name: Azure App Gallery FAQ
+          href: develop/windows-web-application-gallery/azure-app-gallery-faq.md
+        - name: Joomla! Sample files
+          href: develop/windows-web-application-gallery/joomla-sample-files.md
+        - name: Blogengine .NET Sample files
+          href: develop/windows-web-application-gallery/blogengine-net-sample-files.md
+        - name: Gallery Server Pro sample files
+          href: develop/windows-web-application-gallery/gallery-server-pro-sample-files.md
+        - name: Windows Web App Gallery FAQ
+          href: develop/windows-web-application-gallery/frequently-asked-questions.md
+        - name: MediaWiki Sample Files
+          href: develop/windows-web-application-gallery/mediawiki-sample-files.md
+        - name: Umbraco CMS Sample files
+          href: develop/windows-web-application-gallery/umbraco-cms-sample-files.md
+        - name: WordPress Sample files
+          href: develop/windows-web-application-gallery/wordpress-sample-files.md
+    - name: Installing/Publishing Apps with WebMatrix
+      items: 
+        - name: Acquia Drupal FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/acquia-drupal-faq.md
+        - name: AtomSite FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/atomsite-faq.md
+        - name: BlogEngine.NET FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq.md
+        - name: dasBlog FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/dasblog-faq.md
+        - name: DotNetNuke ® Community Edition FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/dotnetnuke-community-edition-faq.md
+        - name: Gallery FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/gallery-faq.md
+        - name: Gallery Server Pro FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/gallery-server-pro-faq.md
+        - name: Joomla! FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/joomla-faq.md
+        - name: Kentico CMS FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/kentico-cms-faq.md
+        - name: Kooboo CMS FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/kooboo-cms-faq.md
+        - name: Mayando FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/mayando-faq.md
+        - name: mojoPortal FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/mojoportal-faq.md
+        - name: Moodle FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/moodle-faq.md
+        - name: My Web Pages Starter Kit FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/my-web-pages-starter-kit-faq.md
+        - name: nopCommerce FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/nopcommerce-faq.md
+        - name: nService FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/nservice-faq.md
+        - name: phpBB FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/phpbb-faq.md
+        - name: ResourceBlender.NET FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/resourceblendernet-faq.md
+        - name: ScrewTurn Wiki FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/screwturn-wiki-faq.md
+        - name: SilverStripe CMS FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/silverstripe-cms-faq.md
+        - name: Sitefinity Community Edition FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/sitefinity-community-edition-faq.md
+        - name: Subtext FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/subtext-faq.md
+        - name: SugarCRM FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/sugarcrm-faq.md
+        - name: Umbraco CMS FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq.md
+        - name: WordPress FAQ
+          href: develop/installingpublishing-apps-with-webmatrix/wordpress-faq.md
+    - name: Using WebMatrix
+      items: 
+        - name: Create a Website from a Gallery Application
+          href: develop/using-webmatrix/create-a-website-from-a-gallery-application.md
+        - name: Download and Install an ASP.NET Application
+          href: develop/using-webmatrix/download-and-install-an-aspnet-application.md
+        - name: Download and Install a PHP Application
+          href: develop/using-webmatrix/download-and-install-a-php-application.md
+        - name: Make your Website SEO Friendly
+          href: develop/using-webmatrix/make-your-website-seo-friendly.md
+        - name: Analyze Requests to Your Website
+          href: develop/using-webmatrix/analyze-requests-to-your-website.md
+        - name: Publish Your Website
+          href: develop/using-webmatrix/publish-your-website.md
+        - name: WebMatrix Overview
+          href: develop/using-webmatrix/webmatrix-overview.md
+        - name: WebMatrix Privacy Statement
+          href: develop/using-webmatrix/webmatrix-privacy-statement.md
+        - name: Creating a Content Feed for Learning
+          href: develop/using-webmatrix/creating-a-content-feed-for-learning.md
+    - name: Troubleshooting WebMatrix
+      items: 
+        - name: "Microsoft WebMatrix: Publish Compatibility"
+          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility.md
+        - name: "Microsoft WebMatrix: Certificate errors during publishing"
+          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-certificate-errors-during-publishing.md
+        - name: "Microsoft WebMatrix: Database errors while publishing and downloading sites"
+          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites.md
+        - name: "Microsoft WebMatrix: My Documents on network shares"
+          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-my-documents-on-network-shares.md
+        - name: When publishing a site from WebMatrix, some files are not listed in the dialog
+          href: develop/troubleshooting-webmatrix/when-publishing-a-site-from-webmatrix-using-the-ftp-protocol-some-files-are-not-listed-in-the-publish-preview-dialog.md
+        - name: WebMatrix Publish and Download Troubleshooting
+          href: develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting.md
+        - name: WebMatrix MDF Migration
+          href: develop/troubleshooting-webmatrix/webmatrix-mdf-migration.md
+        - name: Issues with SQL Server Express or MySQL when using WebMatrix or WebPI
+          href: develop/troubleshooting-webmatrix/issues-with-sql-server-express-or-mysql-when-using-webmatrix-or-webpi_1298.md
+    - name: Developing for FTP
+      items: 
+        - name: How to Use Managed Code (C#) to Create a Simple FTP Authentication Provider
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-authentication-provider.md
+        - name: How to Use Native Code (C++) to Create a Simple FTP Authentication Provider
+          href: develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider.md
+        - name: How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider.md
+        - name: How to Use Native Code (C++) to Create a Simple FTP Home Directory Provider
+          href: develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-home-directory-provider.md
+        - name: How to Use Managed Code (C#) to Create a Simple FTP Logging Provider
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-logging-provider.md
+        - name: How to Use Native Code (C++) to Create a Simple FTP Logging Provider
+          href: develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-logging-provider.md
+        - name: Create an FTP Provider that Sends an Email when Files are Uploaded
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-sends-an-email-when-files-are-uploaded.md
+        - name: Create an FTP Authentication Provider using an XML Database
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-using-an-xml-database.md
+        - name: How to Use Managed Code (Visual Basic) to Create a Simple FTP Logging Provider
+          href: develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-logging-provider.md
+        - name: Create an FTP Authentication Provider with Dynamic IP Restrictions
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md
+        - name: Create a Simple FTP Home Directory Provider
+          href: develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-home-directory-provider.md
+        - name: Create an FTP Authentication and Authorization Provider using an XML Database
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md
+        - name: How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching
+          href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md
+- name: Publish
+  items: 
+    - name: Deploying Application Packages
+      items: 
+        - name: Taking an Application Offline before Publishing
+          href: publish/deploying-application-packages/taking-an-application-offline-before-publishing.md
+        - name: "Videocast: Simplified Application Deployment on the Microsoft Web Platform"
+          href: publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform.md
+        - name: Provision an IIS Web Site in a Hosting Environment
+          href: publish/deploying-application-packages/provision-an-iis-web-site-in-a-hosting-environment.md
+        - name: DotNetNuke
+          href: publish/deploying-application-packages/dotnetnuke.md
+        - name: ScrewTurn Wiki
+          href: publish/deploying-application-packages/screwturn-wiki.md
+        - name: BlogEngine.NET
+          href: publish/deploying-application-packages/blogenginenet.md
+        - name: Umbraco
+          href: publish/deploying-application-packages/umbraco.md
+        - name: Deploying WordPress via Packages in a Hosting Environment
+          href: publish/deploying-application-packages/deploying-wordpress-via-packages-in-a-hosting-environment.md
+        - name: Deploying Joomla! via Packages in a Hosting Environment
+          href: publish/deploying-application-packages/deploying-joomla-via-packages-in-a-hosting-environment.md
+        - name: Deploying Drupal via Packages in a Hosting Environment
+          href: publish/deploying-application-packages/deploying-drupal-via-packages-in-a-hosting-environment.md
+    - name: Using Web Deploy
+      items: 
+        - name: Packaging and Restoring a Web site
+          href: publish/using-web-deploy/packaging-and-restoring-a-web-site.md
+        - name: Using Custom Manifests
+          href: publish/using-web-deploy/using-custom-manifests.md
+        - name: Viewing Web Site Dependencies
+          href: publish/using-web-deploy/viewing-web-site-dependencies.md
+        - name: Migrate a Web Site from IIS 6.0 to IIS 7 or above
+          href: publish/using-web-deploy/migrate-a-web-site-from-iis-60-to-iis-7-or-above.md
+        - name: Synchronize IIS 6.0 Web Sites
+          href: publish/using-web-deploy/synchronize-iis-60-web-sites.md
+        - name: Synchronize IIS
+          href: publish/using-web-deploy/synchronize-iis.md
+        - name: Synchronizing Two IIS Servers with PHP
+          href: publish/using-web-deploy/synchronizing-two-iis-servers-with-php.md
+        - name: Export a Package through IIS Manager
+          href: publish/using-web-deploy/export-a-package-through-iis-manager.md
+        - name: Import a Package through IIS Manager
+          href: publish/using-web-deploy/import-a-package-through-iis-manager.md
+        - name: Configure the Web Deployment Handler
+          href: publish/using-web-deploy/configure-the-web-deployment-handler.md
+        - name: Using Web Deploy for Web Farms
+          href: publish/using-web-deploy/using-web-deploy-for-web-farms.md
+        - name: Use the Web Deployment Tool
+          href: publish/using-web-deploy/use-the-web-deployment-tool.md
+        - name: "Microsoft Web Deploy v2: Readme"
+          href: publish/using-web-deploy/microsoft-web-deploy-v2-readme.md
+        - name: Introduction to Web Deploy
+          href: publish/using-web-deploy/introduction-to-web-deploy.md
+        - name: PowerShell scripts for automating Web Deploy setup
+          href: publish/using-web-deploy/powershell-scripts-for-automating-web-deploy-setup.md
+        - name: Testing Web Deploy publishing from Visual Studio 2010 and WebMatrix
+          href: publish/using-web-deploy/testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix.md
+        - name: Building a Web Deploy Package from Visual Studio 2010
+          href: publish/using-web-deploy/building-a-web-deploy-package-from-visual-studio-2010.md
+        - name: Web Deploy Parameterization
+          href: publish/using-web-deploy/web-deploy-parameterization.md
+        - name: Microsoft Web Deploy v3 Readme
+          href: publish/using-web-deploy/microsoft-web-deploy-v3-readme.md
+        - name: Web Deploy Automatic Backups
+          href: publish/using-web-deploy/web-deploy-automatic-backups.md
+        - name: Web Deploy PowerShell Cmdlets
+          href: publish/using-web-deploy/web-deploy-powershell-cmdlets.md
+        - name: Changing authentication mode for a given website
+          href: publish/using-web-deploy/changing-authentication-mode-for-a-given-website.md
+        - name: Parameterization improvements in Web Deploy V3
+          href: publish/using-web-deploy/parameterization-improvements-in-web-deploy-v3.md
+        - name: dbDacFx Provider for Incremental Database publishing
+          href: publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing.md
+    - name: Troubleshooting Web Deploy
+      items: 
+        - name: Troubleshooting Web Deploy
+          href: publish/troubleshooting-web-deploy/troubleshooting-web-deploy.md
+        - name: Web Deploy error codes
+          href: publish/troubleshooting-web-deploy/web-deploy-error-codes.md
+        - name: Troubleshooting Common Problems with Web Deploy
+          href: publish/troubleshooting-web-deploy/troubleshooting-common-problems-with-web-deploy.md
+        - name: Troubleshooting Web Deploy problems with Visual Studio
+          href: publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio.md
+    - name: Using WebDAV
+      items: 
+        - name: WebDAV Extension - Video Walkthrough
+          href: publish/using-webdav/webdav-extension-video-walkthrough.md
+        - name: How to Use Custom Properties With WebDAV
+          href: publish/using-webdav/how-to-use-custom-properties-with-webdav.md
+        - name: How to Configure WebDAV Settings Using AppCmd
+          href: publish/using-webdav/how-to-configure-webdav-settings-using-appcmd.md
+        - name: How to Configure WebDAV with Request Filtering
+          href: publish/using-webdav/how-to-configure-webdav-with-request-filtering.md
+        - name: How to Migrate FPSE Sites to WebDAV
+          href: publish/using-webdav/how-to-migrate-fpse-sites-to-webdav.md
+        - name: Using the WebDAV Redirector
+          href: publish/using-webdav/using-the-webdav-redirector.md
+        - name: How to Use WebDAV Locks
+          href: publish/using-webdav/how-to-use-webdav-locks.md
+    - name: Using the FTP Service
+      items: 
+        - name: FTP Extension - Video Walkthrough
+          href: publish/using-the-ftp-service/ftp-extension-video-walkthrough.md
+        - name: Creating a New FTP Site in IIS 7
+          href: publish/using-the-ftp-service/creating-a-new-ftp-site-in-iis-7.md
+        - name: Adding FTP Publishing to a Web Site in IIS 7
+          href: publish/using-the-ftp-service/adding-ftp-publishing-to-a-web-site-in-iis-7.md
+        - name: Using FTP Over SSL in IIS 7
+          href: publish/using-the-ftp-service/using-ftp-over-ssl-in-iis-7.md
+        - name: Configuring FTP User Isolation in IIS 7
+          href: publish/using-the-ftp-service/configuring-ftp-user-isolation-in-iis-7.md
+        - name: Using FSRM Folder Quotas with FTP in IIS 7
+          href: publish/using-the-ftp-service/using-fsrm-folder-quotas-with-ftp-in-iis-7.md
+        - name: Configuring FTP Firewall Settings in IIS 7
+          href: publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7.md
+        - name: Using FTP Virtual Host Names in IIS 7
+          href: publish/using-the-ftp-service/using-ftp-virtual-host-names-in-iis-7.md
+        - name: Configure FTP with IIS Manager Authentication in IIS 7
+          href: publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7.md
+        - name: Configuring FTP with .NET Membership Authentication in IIS 7
+          href: publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7.md
+        - name: "Scenario: Build an FTP Site on IIS"
+          href: publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md
+        - name: How Do I Configure FTP Security in IIS?
+          href: publish/using-the-ftp-service/cse-curated-view-ftp-security-settings.md
+    - name: FrontPage Server Extensions
+      items: 
+        - name: Upgrade Issues with FrontPage Server Extensions
+          href: publish/frontpage-server-extensions/upgrade-issues-with-frontpage-server-extensions.md
+        - name: Installing the FrontPage Server Extensions on IIS 7
+          href: publish/frontpage-server-extensions/installing-the-frontpage-server-extensions-on-iis.md
+- name: Troubleshoot
+  items: 
+    - name: Installation Issues
+      items: 
+        - name: Troubleshooting IIS 7.x Installation Issues
+          href: troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues.md
+    - name: Security Issues
+      items: 
+        - name: Troubleshooting SSL related issues (Server Certificate)
+          href: troubleshoot/security-issues/troubleshooting-ssl-related-issues-server-certificate.md
+        - name: Troubleshooting Forms Authentication
+          href: troubleshoot/security-issues/troubleshooting-forms-authentication.md
+    - name: ASP.NET Issues
+      items: 
+        - name: Troubleshooting Invalid viewstate issues
+          href: troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues.md
+    - name: Diagnosing HTTP Errors
+      items: 
+        - name: How to Use HTTP Detailed Errors in IIS 7.0
+          href: troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis.md
+        - name: Troubleshooting HTTP 502.2 Bad Gateway error in CGI applications
+          href: troubleshoot/diagnosing-http-errors/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications.md
+        - name: Troubleshooting Unexpected Issues
+          href: troubleshoot/diagnosing-http-errors/troubleshooting-unexpected-issues.md
+        - name: Troubleshooting HTTP 400 Errors in IIS
+          href: troubleshoot/diagnosing-http-errors/troubleshooting-http-400-errors-in-iis.md
+    - name: Using Failed Request Tracing
+      items: 
+        - name: How to Enable Failed Request Tracing for UNC Hosting
+          href: troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting.md
+        - name: Troubleshooting Failed Requests Using Tracing in IIS 7
+          href: troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md
+        - name: Using Failed Request Tracing Rules to Troubleshoot Application Request Routing
+          href: troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md
+        - name: Troubleshoot with Failed Request Tracing
+          href: troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing.md
+        - name: Troubleshooting Failed Requests Using Tracing in IIS 8.5
+          href: troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85.md
+    - name: Performance Issues
+      items: 
+        - name: Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content
+          href: troubleshoot/performance-issues/troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content.md
+        - name: Troubleshooting High CPU in an IIS 7.x Application Pool
+          href: troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool.md
+        - name: Troubleshooting native memory leak in an IIS 7.x Application Pool
+          href: troubleshoot/performance-issues/troubleshooting-native-memory-leak-in-an-iis-7x-application-pool.md
+        - name: Troubleshooting IIS Compression issues in IIS6/IIS7.x
+          href: troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x.md
+        - name: Troubleshooting IIS Performance Issues or Application Errors using LogParser
+          href: troubleshoot/performance-issues/troubleshooting-iis-performance-issues-or-application-errors-using-logparser.md
+    - name: Remote Administration Issues
+      items: 
+        - name: Diagnosing Failures with Remote Administration
+          href: troubleshoot/remote-administration-issues/diagnosing-failures-with-remote-administration.md
+    - name: Web Platform Installer Issues
+      items: 
+        - name: Troubleshooting Problems with Microsoft Web Platform Installer
+          href: troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md
+- name: Extensions
+  href: extensions/database-manager-reference/iis-database-manager.md
+  expanded: true
+  items: 
+    - name: Planning for ARR
+      items: 
+        - name: Application Request Routing Version 2 Overview
+          href: extensions/planning-for-arr/application-request-routing-version-2-overview.md
+        - name: Using the Application Request Routing Module
+          href: extensions/planning-for-arr/using-the-application-request-routing-module.md
+        - name: Overview of Shared Hosting Deployment Using Application Request Routing 2.0
+          href: extensions/planning-for-arr/overview-of-shared-hosting-deployment-using-application-request-routing-20.md
+    - name: Installing Application Request Routing (ARR)
+      items: 
+        - name: Install Application Request Routing Version 2
+          href: extensions/installing-application-request-routing-arr/install-application-request-routing-version-2.md
+        - name: Deploying Application Request Routing in CDN
+          href: extensions/installing-application-request-routing-arr/deploying-application-request-routing-in-cdn.md
+        - name: Deployment Recommendations for Application Request Routing
+          href: extensions/installing-application-request-routing-arr/deployment-recommendations-for-application-request-routing.md
+        - name: Install Application Request Routing
+          href: extensions/installing-application-request-routing-arr/install-application-request-routing.md
+    - name: Configuring Application Request Routing (ARR)
+      items: 
+        - name: Demonstration of Shared Hosting Deployment with ARR
+          href: extensions/configuring-application-request-routing-arr/demonstration-of-shared-hosting-deployment-with-arr.md
+        - name: Configure and Enable Disk Cache in Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/configure-and-enable-disk-cache-in-application-request-routing.md
+        - name: Delete Cached Objects
+          href: extensions/configuring-application-request-routing-arr/delete-cached-objects.md
+        - name: Cache Hierarchy Management Using Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/cache-hierarchy-management-using-application-request-routing.md
+        - name: Browse Cached Contents on Disk on Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/browse-cached-contents-on-disk-on-application-request-routing.md
+        - name: Manually Override Cache-control Directives Using Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/manually-override-cache-control-directives-using-application-request-routing.md
+        - name: Warm Up Cache Nodes on Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/warm-up-cache-nodes-on-application-request-routing.md
+        - name: Configure Byte-range Request Segment Size in Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/configure-byte-range-request-segment-size-in-application-request-routing.md
+        - name: Configure Request Consolidation Feature in Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/configure-request-consolidation-feature-in-application-request-routing.md
+        - name: Using Compression in Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/using-compression-in-application-request-routing.md
+        - name: Using Performance Counters
+          href: extensions/configuring-application-request-routing-arr/using-performance-counters.md
+        - name: Configure Caching with Query String Support in Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/configure-caching-with-query-string-support-in-application-request-routing.md
+        - name: Use Scavenge.exe tool to delete cached content from secondary cache drive
+          href: extensions/configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive.md
+        - name: "ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS"
+          href: extensions/configuring-application-request-routing-arr/arr-support-added-for-winhttpoptionsecurityflags.md
+        - name: ARR as generic proxy in Hotmail and SkyDrive
+          href: extensions/configuring-application-request-routing-arr/arr-as-generic-proxy-in-hotmail-and-skydrive.md
+        - name: Shared Hosting Using Application Request Routing (ARR)
+          href: extensions/configuring-application-request-routing-arr/shared-hosting-using-application-request-routing-arr.md
+        - name: Configure 3-tier deployment architecture using Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/configure-3-tier-deployment-architecture-using-application-request-routing.md
+        - name: Define and Configure an Application Request Routing Server Farm
+          href: extensions/configuring-application-request-routing-arr/define-and-configure-an-application-request-routing-server-farm.md
+        - name: HTTP Load Balancing using Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/http-load-balancing-using-application-request-routing.md
+        - name: Pilot program management using Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/pilot-program-management-using-application-request-routing.md
+        - name: Achieving High Availability and Scalability - ARR and Hardware Load Balancer
+          href: extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-hardware-load-balancer.md
+        - name: Achieving High Availability and Scalability - ARR and NLB
+          href: extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb.md
+        - name: Using Multiple Instances of Application Request Routing (ARR) Servers
+          href: extensions/configuring-application-request-routing-arr/using-multiple-instances-of-application-request-routing-arr-servers.md
+        - name: Configure WMI on application servers for HostNameMemory affinity provider
+          href: extensions/configuring-application-request-routing-arr/how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider.md
+        - name: Creating a Forward Proxy Using Application Request Routing
+          href: extensions/configuring-application-request-routing-arr/creating-a-forward-proxy-using-application-request-routing.md
+    - name: Troubleshooting Application Request Routing
+      items: 
+        - name: Troubleshooting Cache Items ARR V2
+          href: extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2.md
+        - name: Troubleshooting 502 Errors in ARR
+          href: extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr.md
+    - name: URL Rewrite Module
+      items: 
+        - name: URL Rewrite Module - Video Walkthrough
+          href: extensions/url-rewrite-module/url-rewrite-module-video-walkthrough.md
+        - name: Using the URL Rewrite Module
+          href: extensions/url-rewrite-module/using-the-url-rewrite-module.md
+        - name: Creating Rewrite Rules for the URL Rewrite Module
+          href: extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module.md
+        - name: URL Rewrite Module Configuration Reference
+          href: extensions/url-rewrite-module/url-rewrite-module-configuration-reference.md
+        - name: Enabling Pretty Permalinks in WordPress
+          href: extensions/url-rewrite-module/enabling-pretty-permalinks-in-wordpress.md
+        - name: Using Failed Request Tracing to Trace Rewrite Rules
+          href: extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules.md
+        - name: Using Global and Distributed Rewrite Rules
+          href: extensions/url-rewrite-module/using-global-and-distributed-rewrite-rules.md
+        - name: Using Rewrite Maps in URL Rewrite Module
+          href: extensions/url-rewrite-module/using-rewrite-maps-in-url-rewrite-module.md
+        - name: Importing Apache mod_rewrite Rules
+          href: extensions/url-rewrite-module/importing-apache-modrewrite-rules.md
+        - name: IIS URL Rewriting and ASP.NET Routing
+          href: extensions/url-rewrite-module/iis-url-rewriting-and-aspnet-routing.md
+        - name: Testing Rewrite Rule Patterns
+          href: extensions/url-rewrite-module/testing-rewrite-rule-patterns.md
+        - name: IIS 7.0 Request Filtering and URL Rewriting
+          href: extensions/url-rewrite-module/iis-request-filtering-and-url-rewriting.md
+        - name: URL Rewriting for ASP.NET Web Forms
+          href: extensions/url-rewrite-module/url-rewriting-for-aspnet-web-forms.md
+        - name: User Friendly URL - rule template
+          href: extensions/url-rewrite-module/user-friendly-url-rule-template.md
+        - name: Rule with Rewrite Map - rule template
+          href: extensions/url-rewrite-module/rule-with-rewrite-map-rule-template.md
+        - name: Request Blocking - rule template
+          href: extensions/url-rewrite-module/request-blocking-rule-template.md
+        - name: Rule Templates Overview
+          href: extensions/url-rewrite-module/rule-templates-overview.md
+        - name: Developing Rule Template for URL Rewrite Module
+          href: extensions/url-rewrite-module/developing-rule-template-for-url-rewrite-module.md
+        - name: Reverse Proxy - Rule Template
+          href: extensions/url-rewrite-module/reverse-proxy-rule-template.md
+        - name: SEO Rule Templates
+          href: extensions/url-rewrite-module/seo-rule-templates.md
+        - name: Creating Outbound Rules for URL Rewrite Module
+          href: extensions/url-rewrite-module/creating-outbound-rules-for-url-rewrite-module.md
+        - name: Using Outbound Rules to add Web Analytics tracking code
+          href: extensions/url-rewrite-module/using-outbound-rules-to-add-web-analytics-tracking-code.md
+        - name: Reverse Proxy with URL Rewrite v2 and Application Request Routing
+          href: extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing.md
+        - name: Using URL Rewrite Module 2.0
+          href: extensions/url-rewrite-module/using-url-rewrite-module-20.md
+        - name: URL Rewrite Module 2.0 Configuration Reference
+          href: extensions/url-rewrite-module/url-rewrite-module-20-configuration-reference.md
+        - name: Setting HTTP request headers and IIS server variables
+          href: extensions/url-rewrite-module/setting-http-request-headers-and-iis-server-variables.md
+        - name: Modifying HTTP Response Headers
+          href: extensions/url-rewrite-module/modifying-http-response-headers.md
+        - name: Using Custom Rewrite Providers with URL Rewrite Module
+          href: extensions/url-rewrite-module/using-custom-rewrite-providers-with-url-rewrite-module.md
+        - name: Developing a Custom Rewrite Provider for URL Rewrite Module
+          href: extensions/url-rewrite-module/developing-a-custom-rewrite-provider-for-url-rewrite-module.md
+    - name: Introduction to IIS Express
+      items: 
+        - name: IIS Express Overview
+          href: extensions/introduction-to-iis-express/iis-express-overview.md
+        - name: IIS Express FAQ
+          href: extensions/introduction-to-iis-express/iis-express-faq.md
+        - name: IIS 7.5 Express Readme
+          href: extensions/introduction-to-iis-express/iis-75-express-readme.md
+        - name: IIS 8.0 Express Readme
+          href: extensions/introduction-to-iis-express/iis-80-express-readme.md
+        - name: IIS 8 - IIS Express for Developers
+          href: extensions/introduction-to-iis-express/iis-8-iis-express-for-developers.md
+    - name: Using IIS Express
+      items: 
+        - name: Using the Windows System Tray to Manage Websites and Applications
+          href: extensions/using-iis-express/using-the-windows-system-tray-to-manage-websites-and-applications.md
+        - name: Running IIS Express from the Command Line
+          href: extensions/using-iis-express/running-iis-express-from-the-command-line.md
+        - name: Running IIS Express without Administrative Privileges
+          href: extensions/using-iis-express/running-iis-express-without-administrative-privileges.md
+        - name: Handling URL Binding Failures in IIS Express
+          href: extensions/using-iis-express/handling-url-binding-failures-in-iis-express.md
+    - name: IIS Express API Reference
+      items: 
+        - name: GetPropertyValue
+          href: \extensions/express-api-reference/getpropertyvalue.md
+        - name: ApplyManifestContext
+          href: \extensions/express-api-reference/applymanifestcontext.md
+        - name: GetAllVersionObjects
+          href: \extensions/express-api-reference/getallversionobjects.md
+        - name: StopProcess
+          href: \extensions/express-api-reference/stopprocess.md
+        - name: Microsoft.Web.Diagnostics (IIS Express)
+          href: \extensions/express-api-reference/microsoft-web-diagnostics-iis-express.md
+        - name: IISDeveloperExpressDiagnostics
+          href: \extensions/express-api-reference/iisdeveloperexpressdiagnostics.md
+        - name: ClearIISDirectory
+          href: \extensions/express-api-reference/cleariisdirectory.md
+        - name: IISDirectory
+          href: \extensions/express-api-reference/iisdirectory.md
+        - name: IIS_PRODUCT_TYPE
+          href: \extensions/express-api-reference/iis-product-type.md
+        - name: Version Manager API (IIS Express)
+          href: \extensions/express-api-reference/version-manager-api-iis-express.md
+        - name: CreateObjectFromProgId
+          href: \extensions/express-api-reference/createobjectfromprogid.md
+        - name: SetupIISDirectory
+          href: \extensions/express-api-reference/setupiisdirectory.md
+        - name: ClearIISEnvironmentVariables
+          href: \extensions/express-api-reference/cleariisenvironmentvariables.md
+        - name: IIISExpressProcessUtility
+          href: \extensions/express-api-reference/iiisexpressprocessutility.md
+        - name: IIISVersionManager
+          href: \extensions/express-api-reference/iiisversionmanager.md
+        - name: IIS Express API Reference
+          href: \extensions/express-api-reference/iis-extensions/express-api-reference/.md
+        - name: IIISVersion
+          href: \extensions/express-api-reference/iiisversion.md
+        - name: IIISUserData
+          href: \extensions/express-api-reference/iiisuserdata.md
+        - name: ErrorInformation (IISExpress)
+          href: \extensions/express-api-reference/errorinformation-iisexpress.md
+        - name: CreateObjectFromCLSID
+          href: \extensions/express-api-reference/createobjectfromclsid.md
+        - name: GetRunningProcessForSite
+          href: \extensions/express-api-reference/getrunningprocessforsite.md
+        - name: GetVersionObject
+          href: \extensions/express-api-reference/getversionobject.md
+        - name: ConstructCommandLine
+          href: \extensions/express-api-reference/constructcommandline.md
+        - name: ApplyIISEnvironmentVariables
+          href: \extensions/express-api-reference/applyiisenvironmentvariables.md
+        - name: ClearManifestContext
+          href: \extensions/express-api-reference/clearmanifestcontext.md
+    - name: IIS Search Engine Optimization Toolkit
+      items: 
+        - name: IIS Site Analysis - Video Walkthrough
+          href: extensions/iis-search-engine-optimization-toolkit/iis-site-analysis-video-walkthrough.md
+        - name: Managing Robots.txt and Sitemap Files
+          href: extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files.md
+        - name: Using the IIS Search Engine Optimization Toolkit
+          href: extensions/iis-search-engine-optimization-toolkit/using-the-iis-search-engine-optimization-toolkit.md
+        - name: Using Site Analysis to Crawl a Web Site
+          href: extensions/iis-search-engine-optimization-toolkit/using-site-analysis-to-crawl-a-web-site.md
+        - name: Understanding Site Analysis Reports
+          href: extensions/iis-search-engine-optimization-toolkit/understanding-site-analysis-reports.md
+        - name: Getting Started with the SEO Toolkit
+          href: extensions/iis-search-engine-optimization-toolkit/getting-started-with-the-seo-toolkit.md
+    - name: Advanced Logging Module
+      items: 
+        - name: Advanced Logging for IIS - Custom Logging
+          href: extensions/advanced-logging-module/advanced-logging-for-iis-custom-logging.md
+        - name: Advanced Logging for IIS - Real-Time Logging
+          href: extensions/advanced-logging-module/advanced-logging-for-iis-real-time-logging.md
+        - name: Advanced Logging for IIS - Client Logging
+          href: extensions/advanced-logging-module/advanced-logging-for-iis-client-logging.md
+        - name: Advanced Logging for IIS - Log Filtering
+          href: extensions/advanced-logging-module/advanced-logging-for-iis-log-filtering.md
+        - name: Advanced Logging Readme
+          href: extensions/advanced-logging-module/advanced-logging-readme.md
+    - name: Database Manager
+      items: 
+        - name: Use the Database Manager
+          href: extensions/database-manager/use-the-database-manager.md
+        - name: Working with Views
+          href: extensions/database-manager/working-with-views.md
+        - name: Working with Stored Procedures
+          href: extensions/database-manager/working-with-stored-procedures.md
+        - name: Working with Tables
+          href: extensions/database-manager/working-with-tables.md
+    - name: Working with UrlScan
+      items: 
+        - name: UrlScan Setup
+          href: extensions/working-with-urlscan/urlscan-setup.md
+        - name: Common UrlScan Scenarios
+          href: extensions/working-with-urlscan/common-urlscan-scenarios.md
+        - name: UrlScan FAQ
+          href: extensions/working-with-urlscan/urlscan-faq.md
+        - name: Data Mining UrlScan 3 Logs using LogParser 2.2
+          href: extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22.md
+        - name: UrlScan Overview
+          href: extensions/working-with-urlscan/urlscan-overview.md
+        - name: UrlScan 1 Reference
+          href: extensions/working-with-urlscan/urlscan-1-reference.md
+        - name: UrlScan 2 Reference
+          href: extensions/working-with-urlscan/urlscan-2-reference.md
+        - name: UrlScan 3 Reference
+          href: extensions/working-with-urlscan/urlscan-3-reference.md
+        - name: Overview of UrlScan Versions
+          href: extensions/working-with-urlscan/overview-of-urlscan-versions.md
+    - name: HttpPlatformHandler
+      items: 
+        - name: HttpPlatformHandler Configuration Reference
+          href: extensions/httpplatformhandler/httpplatformhandler-configuration-reference.md
+    - name: CORS Module
+      items: 
+        - name: CORS Module Configuration Reference
+          href: extensions/cors-module/cors-module-configuration-reference.md
+    - name: IIS Compression
+      items: 
+        - name: IIS Compression Overview
+          href: extensions/iis-compression/iis-compression-overview.md
+        - name: Using IIS Compression
+          href: extensions/iis-compression/using-iis-compression.md
+    - name: IIS Database Manager
+- name: Media
+  items: 
+    - name: Windows Media Services
+      items: 
+        - name: Adding Windows Media Services 2008 on an IIS 7.0 Server
+          href: media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server.md
+        - name: Windows Media Server or Web Server?
+          href: media/windows-media-services/windows-media-server-or-web-server.md
+        - name: Using HTTP for Streaming and Downloading from the Same Computer
+          href: media/windows-media-services/using-http-for-streaming-and-downloading-from-the-same-computer.md
+        - name: "Microsoft Media Platform: Guidance on Choosing and Migrating"
+          href: media/windows-media-services/microsoft-media-platform-encoding-and-serving-choices-and-migration-considerations.md
+    - name: IIS Media Services
+      items: 
+        - name: Edge Caching for Media Delivery
+          href: media/iis-media-services/edge-caching-for-media-delivery.md
+        - name: Content Protection in Silverlight
+          href: media/iis-media-services/content-protection-in-silverlight.md
+        - name: IIS Media Services 3.0 Overview
+          href: media/iis-media-services/iis-media-services-30-overview.md
+        - name: IIS Media Services Readme
+          href: media/iis-media-services/iis-media-services-readme.md
+    - name: Smooth Streaming
+      items: 
+        - name: Smooth Streaming Deployment Guide
+          href: media/smooth-streaming/smooth-streaming-deployment-guide.md
+        - name: Delivering Live and On-Demand Smooth Streaming (iStreamPlanet)
+          href: media/smooth-streaming/delivering-live-and-on-demand-smooth-streaming-istreamplanet.md
+        - name: Adaptive Streaming Comparison
+          href: media/smooth-streaming/adaptive-streaming-comparison.md
+        - name: Live and On-Demand Video with Silverlight and IIS Smooth Streaming
+          href: media/smooth-streaming/live-and-on-demand-video-with-silverlight-and-iis-smooth-streaming.md
+        - name: Smooth Streaming Primer
+          href: media/smooth-streaming/smooth-streaming-primer.md
+        - name: Microsoft Media Platform Content Map
+          href: media/smooth-streaming/microsoft-media-platform-content-map.md
+        - name: Smooth Streaming Transport Protocol
+          href: media/smooth-streaming/smooth-streaming-transport-protocol.md
+        - name: Protected Interoperable File Format
+          href: media/smooth-streaming/protected-interoperable-file-format.md
+        - name: Smooth Streaming Client Readme
+          href: media/smooth-streaming/smooth-streaming-client-readme.md
+        - name: IIS Smooth Streaming Format SDK Readme
+          href: media/smooth-streaming/iis-smooth-streaming-format-sdk-readme.md
+        - name: Smooth Streaming Client SDK for Windows 8 - Release Notes
+          href: media/smooth-streaming/smooth-streaming-client-sdk-for-windows-8-release-notes.md
+    - name: Live Smooth Streaming
+      items: 
+        - name: Live Smooth Streaming Tutorial - Introduction
+          href: media/live-smooth-streaming/live-smooth-streaming-tutorial-introduction.md
+        - name: Live Smooth Streaming Tutorial - Fundamentals
+          href: media/live-smooth-streaming/live-smooth-streaming-tutorial-fundamentals.md
+        - name: Live Smooth Streaming Tutorial - Encoding
+          href: media/live-smooth-streaming/live-smooth-streaming-tutorial-encoding.md
+        - name: Live Smooth Streaming Tutorial - Distribution
+          href: media/live-smooth-streaming/live-smooth-streaming-tutorial-distribution.md
+        - name: Live Smooth Streaming Tutorial - Playback
+          href: media/live-smooth-streaming/live-smooth-streaming-tutorial-playback.md
+        - name: Getting Started with IIS Live Smooth Streaming
+          href: media/live-smooth-streaming/getting-started-with-iis-live-smooth-streaming.md
+        - name: Creating and Managing Live Smooth Streaming Publishing Points
+          href: media/live-smooth-streaming/creating-and-managing-live-smooth-streaming-publishing-points.md
+        - name: Syndicating Live Smooth Streams between Servers
+          href: media/live-smooth-streaming/syndicating-live-smooth-streams-between-servers.md
+        - name: Apple HTTP Live Streaming with IIS Media Services
+          href: media/live-smooth-streaming/apple-http-live-streaming-with-iis-media-services.md
+        - name: Encoding Live Smooth Streams with the Push Encoder Utility
+          href: media/live-smooth-streaming/encoding-live-smooth-streams-with-the-push-encoder-utility.md
+        - name: Troubleshooting Live Smooth Streaming Events in Event Viewer
+          href: media/live-smooth-streaming/troubleshooting-live-smooth-streaming-events-in-event-viewer.md
+    - name: Live Smooth Streaming Events
+      items: 
+        - name: The World's First IIS Live Smooth Streaming Event - A Video Case Study
+          href: media/live-smooth-streaming-events/the-world39s-first-iis-live-smooth-streaming-event-a-video-case-study.md
+        - name: Behind the Scenes with Silverlight and IIS at the Winter Games - Highlights
+          href: media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-highlights.md
+        - name: Behind the Scenes with Silverlight and IIS at the Winter Games - Editor's Cut
+          href: media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-editor39s-cut.md
+        - name: "Sunday Night Football Extra: Live in HD with IIS Smooth Streaming"
+          href: media/live-smooth-streaming-events/sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming.md
+        - name: NBC Online Video Monetization and Highlights Creation for the Winter Olympics
+          href: media/live-smooth-streaming-events/nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics.md
+    - name: On-Demand Smooth Streaming
+      items: 
+        - name: Getting Started with IIS Smooth Streaming
+          href: media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md
+        - name: Exploring Bit Rate Changes
+          href: media/on-demand-smooth-streaming/exploring-bit-rate-changes.md
+        - name: Managing On-Demand Presentations
+          href: media/on-demand-smooth-streaming/managing-on-demand-presentations.md
+        - name: Smooth Streaming Technical Overview
+          href: media/on-demand-smooth-streaming/smooth-streaming-technical-overview.md
+    - name: Streaming Media Conference Workshops
+      items: 
+        - name: Live Broadcasting with Silverlight and Windows Media
+          href: media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009.md
+        - name: Creating End-to-End Smooth Streaming Video Solutions with IIS Media Services
+          href: media/streaming-media-conference-workshops/creating-end-to-end-smooth-streaming-video-solutions-with-silverlight-and-iis-media-services-streaming-media-east-2010.md
+    - name: Bit Rate Throttling
+      items: 
+        - name: Bit Rate Throttling Configuration Walkthrough
+          href: media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough.md
+        - name: Bit Rate Throttling Extensibility Walkthrough
+          href: media/bit-rate-throttling/bit-rate-throttling-extensibility-walkthrough.md
+    - name: Transform Manager
+      items: 
+        - name: Transform Manager Tasks Gallery
+          href: media/transform-manager/transform-manager-tasks-gallery.md
+        - name: High-Performance Transcoding with IIS Transform Manager and Windows HPC Server
+          href: media/transform-manager/high-performance-transcoding-with-iis-transform-manager-and-windows-hpc-server.md
+        - name: Troubleshooting Transform Manager Events and Errors
+          href: media/transform-manager/troubleshooting-transform-manager-events-and-errors.md
+        - name: Sending Transform Manager Job Status Notifications to a Remote Web Application
+          href: media/transform-manager/sending-transform-manager-job-status-notifications-to-a-remote-web-application.md
+        - name: Delivering Transform Manager Output to Clients
+          href: media/transform-manager/delivering-transform-manager-output-to-clients.md
+        - name: Transforming Media Files to On-Demand Smooth Streams
+          href: media/transform-manager/transforming-media-files-to-on-demand-smooth-streams.md
+        - name: Transforming Media Files to Apple HTTP Live Streams
+          href: media/transform-manager/transforming-media-files-to-apple-http-live-streams.md
+        - name: Transforming On-Demand Smooth Streams to Apple HTTP Live Streams
+          href: media/transform-manager/transforming-on-demand-smooth-streams-to-apple-http-live-streams.md
+        - name: Chaining the Robocopy Task to your Transformed Output
+          href: media/transform-manager/chaining-the-robocopy-task-to-your-transformed-output.md
+        - name: Encrypting On-Demand Smooth Streams
+          href: media/transform-manager/encrypting-on-demand-smooth-streams.md
+        - name: IIS Transform Manager Readme
+          href: media/transform-manager/iis-transform-manager-readme.md
+    - name: Web Playlists
+      items: 
+        - name: Web Playlists for IIS 7 - Creating a Simple Playlist
+          href: media/web-playlists/web-playlists-for-iis-7-creating-a-simple-playlist.md
+        - name: Web Playlists for IIS 7 - Using Playlist With Different Media Players
+          href: media/web-playlists/web-playlists-for-iis-using-playlist-with-different-media-players.md
+        - name: Web Playlists for IIS 7 - Configuration
+          href: media/web-playlists/web-playlists-for-iis-configuration.md
+        - name: Web Playlists for IIS 7.0 - Extending Web Playlists through Custom Providers
+          href: media/web-playlists/web-playlists-for-iis-extending-web-playlists-through-custom-providers.md
+        - name: Web Playlists for IIS 7.0 - Extending Output Formats using XSLT
+          href: media/web-playlists/web-playlists-for-iis-extending-output-formats-using-xslt.md
+        - name: Web Playlists for IIS 7 - Serving Media Content From User Folders
+          href: media/web-playlists/web-playlists-for-iis-serving-media-content-from-user-folders.md
+        - name: Using Windows Media Player Playlist Files in Web Playlists
+          href: media/web-playlists/using-windows-media-player-playlist-files-in-web-playlists.md
+- name: Application Frameworks
+  items: 
+    - name: Building and Running ASP.NET Applications
+      items: 
+        - name: Using ASP.NET Forms Authentication
+          href: application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication.md
+        - name: ASP.NET Integration with IIS 7
+          href: application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis.md
+        - name: How to Take Advantage of the IIS 7.0 Integrated Pipeline
+          href: application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md
+        - name: How to Capture ASP.NET Page Trace Events in IIS 7.0 Tracing
+          href: application-frameworks/building-and-running-aspnet-applications/how-to-capture-aspnet-page-trace-events-in-iis-tracing.md
+        - name: Upgrading ASP.NET 1.1 to IIS 7.0 on Windows Vista and Windows Server 2008
+          href: application-frameworks/building-and-running-aspnet-applications/upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008.md
+        - name: ASP.NET 2.0 Breaking Changes on IIS 7.0
+          href: application-frameworks/building-and-running-aspnet-applications/aspnet-20-breaking-changes-on-iis.md
+        - name: Wildcard script mapping and IIS 7 integrated pipeline
+          href: application-frameworks/building-and-running-aspnet-applications/wildcard-script-mapping-and-iis-integrated-pipeline.md
+        - name: How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0
+          href: application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis.md
+        - name: ASP.NET Technical Resources
+          href: application-frameworks/building-and-running-aspnet-applications/aspnet-technical-resources.md
+    - name: Running Classic ASP Applications on IIS 7 and IIS 8
+      items: 
+        - name: Classic ASP Not Installed by Default on IIS 7.0 and above
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis.md
+        - name: Using Classic ASP with Microsoft Access Databases on IIS
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-classic-asp-with-microsoft-access-databases-on-iis.md
+        - name: Classic ASP Script Error Messages No Longer Shown in Web Browser by Default
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default.md
+        - name: Using Failed Request Tracing to troubleshoot Classic ASP errors
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-failed-request-tracing-to-troubleshoot-classic-asp-errors.md
+        - name: Classic ASP parent paths are disabled by default
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-parent-paths-are-disabled-by-default.md
+        - name: APPL_PHYSICAL_PATH Server Variable on Windows Vista RTM
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/applphysicalpath-server-variable-on-windows-vista-rtm.md
+        - name: Classic ASP Applications on IIS 7.0 and IIS 7.5 Overview
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-applications-on-iis-overview.md
+        - name: "Scenario: Build a Classic ASP Website on IIS"
+          href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/scenario-build-a-classic-asp-website-on-iis.md
+    - name: Install and Configure PHP on IIS
+      items: 
+        - name: Configuring the FastCGI Extension for IIS 6.0
+          href: application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60.md
+        - name: Installing PHP on Windows Vista with FastCGI
+          href: application-frameworks/install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md
+        - name: Setting Up a Database for a PHP Application on IIS
+          href: application-frameworks/install-and-configure-php-on-iis/setting-up-a-database-for-a-php-application-on-iis.md
+        - name: Install PHP and FastCGI Support on Server Core
+          href: application-frameworks/install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md
+        - name: Install and Configure MySQL for PHP Applications on IIS 7
+          href: application-frameworks/install-and-configure-php-on-iis/install-and-configure-mysql-for-php-applications-on-iis-7-and-above.md
+        - name: Walkthrough - Set Up MySQL 5.1 for PHP applications
+          href: application-frameworks/install-and-configure-php-on-iis/walkthrough-set-up-mysql-51-for-php-applications.md
+        - name: Install the SQL Server Driver for PHP
+          href: application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php.md
+        - name: Enable FastCGI Support in IIS 7 on Windows
+          href: application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7.md
+        - name: Install and Configure SQL Server 2008 for PHP Applications on IIS 7
+          href: application-frameworks/install-and-configure-php-on-iis/install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above.md
+        - name: Install and Configure PHP
+          href: application-frameworks/install-and-configure-php-on-iis/install-and-configure-php.md
+        - name: How to Install the Microsoft Web Platform for PHP
+          href: application-frameworks/install-and-configure-php-on-iis/how-to-install-the-microsoft-web-platform-for-php.md
+        - name: Using PHP Manager for IIS to setup and configure PHP
+          href: application-frameworks/install-and-configure-php-on-iis/using-php-manager-for-iis-to-setup-and-configure-php.md
+        - name: Use the Windows Cache Extension for PHP
+          href: application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php.md
+        - name: Enable Per-Site PHP Configuration on IIS 7 and IIS 6.0
+          href: application-frameworks/install-and-configure-php-on-iis/enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above.md
+        - name: Create a Separate Site or Virtual Directory for PHP Content
+          href: application-frameworks/install-and-configure-php-on-iis/create-a-separate-site-or-virtual-directory-for-php-content.md
+        - name: Configure SMTP E-Mail in IIS 7
+          href: application-frameworks/install-and-configure-php-on-iis/configure-smtp-e-mail-in-iis-7-and-above.md
+        - name: How to Configure and Optimize the Microsoft Web Platform for PHP
+          href: application-frameworks/install-and-configure-php-on-iis/how-to-configure-and-optimize-the-microsoft-web-platform-for-php.md
+        - name: Run Multiple Versions of PHP on IIS
+          href: application-frameworks/install-and-configure-php-on-iis/run-multiple-versions-of-php-on-iis.md
+        - name: Improve PHP Error Messages in IIS 7
+          href: application-frameworks/install-and-configure-php-on-iis/improve-php-error-messages-in-iis-7-and-above.md
+        - name: How to Manage and Administer the Microsoft Web Platform
+          href: application-frameworks/install-and-configure-php-on-iis/how-to-manage-and-administer-the-microsoft-web-platform.md
+        - name: Secure Your SQL Server Database
+          href: application-frameworks/install-and-configure-php-on-iis/secure-your-sql-server-database.md
+        - name: Secure Content in IIS Through Impersonation
+          href: application-frameworks/install-and-configure-php-on-iis/secure-content-in-iis-through-impersonation.md
+        - name: Secure PHP with Configuration Settings
+          href: application-frameworks/install-and-configure-php-on-iis/secure-php-with-configuration-settings.md
+        - name: Secure Your Infrastructure and PHP Applications
+          href: application-frameworks/install-and-configure-php-on-iis/secure-your-infrastructure-and-php-applications.md
+        - name: How to Secure the Microsoft Web Platform
+          href: application-frameworks/install-and-configure-php-on-iis/how-to-secure-the-microsoft-web-platform.md
+        - name: Enable PHP Applications to Make Application-Level Access Control Decisions
+          href: application-frameworks/install-and-configure-php-on-iis/enable-php-applications-to-make-application-level-access-control-decisions.md
+    - name: Install and Configure PHP Applications on IIS
+      items: 
+        - name: Advanced Poll on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis.md
+        - name: b2Evolution on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/b2evolution-on-iis.md
+        - name: Coppermine on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/coppermine-on-iis.md
+        - name: Crafty Syntax Live Help on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/crafty-syntax-live-help-on-iis.md
+        - name: Gallery2 on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/gallery2-on-iis.md
+        - name: Geeklog on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/geeklog-on-iis.md
+        - name: Mambo on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/mambo-on-iis.md
+        - name: Install WordPress on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis.md
+        - name: XOOPS on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/xoops-on-iis.md
+        - name: MediaWiki on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/mediawiki-on-iis.md
+        - name: Install osCommerce on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/install-oscommerce-on-iis.md
+        - name: PHPNuke on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/phpnuke-on-iis.md
+        - name: Install Zen Cart on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/install-zen-cart-on-iis.md
+        - name: CubeCart on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/cubecart-on-iis.md
+        - name: ExpressionEngine on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/expressionengine-on-iis.md
+        - name: LimeSurvey on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/limesurvey-on-iis.md
+        - name: OpenAds on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/openads-on-iis.md
+        - name: PHPList on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/phplist-on-iis.md
+        - name: Siteframe on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/siteframe-on-iis.md
+        - name: PHPWCMS on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/phpwcms-on-iis.md
+        - name: pMachinePro on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/pmachinepro-on-iis.md
+        - name: Install Drupal on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/install-drupal-on-iis.md
+        - name: Install Joomla! on IIS
+          href: application-frameworks/install-and-configure-php-applications-on-iis/install-joomla-on-iis.md
+        - name: Using FastCGI to Host PHP Applications on IIS 7
+          href: application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md
+        - name: Using FastCGI to Host PHP Applications on IIS 6.0
+          href: application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis-60.md
+        - name: Translate .htaccess Content to IIS web.config
+          href: application-frameworks/install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig.md
+        - name: Provide URL Rewriting Functionality
+          href: application-frameworks/install-and-configure-php-applications-on-iis/provide-url-rewriting-functionality.md
+        - name: How to Deploy Applications on the Microsoft Web Platform for PHP
+          href: application-frameworks/install-and-configure-php-applications-on-iis/how-to-deploy-applications-on-the-microsoft-web-platform-for-php.md
+    - name: Running PHP Applications on IIS
+      items: 
+        - name: "MIX08: Partying with PHP on Microsoft Internet Information Services 7"
+          href: application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above.md
+        - name: Set Up FastCGI for PHP
+          href: application-frameworks/running-php-applications-on-iis/set-up-fastcgi-for-php.md
+        - name: Build a High-Performance PHP Stack with Windows IIS and Zend Server
+          href: application-frameworks/running-php-applications-on-iis/build-a-high-performance-php-stack-with-windows-iis-and-zend-server.md
+        - name: Configure PHP Process Recycling Behavior
+          href: application-frameworks/running-php-applications-on-iis/configure-php-process-recycling-behavior.md
+        - name: Best Practices for PHP on the Microsoft Web Platform
+          href: application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md
+        - name: Provision Web Sites for PHP Applications Using Managed Code
+          href: application-frameworks/running-php-applications-on-iis/provision-web-sites-for-php-applications-using-managed-code.md
+        - name: Develop on IIS 7
+          href: application-frameworks/running-php-applications-on-iis/develop-on-iis-7-and-above.md
+        - name: Enable PHP Syntax Highlighting on IIS 7
+          href: application-frameworks/running-php-applications-on-iis/enable-php-syntax-highlighting-on-iis-7-and-above.md
+        - name: How to Develop on the Microsoft Web Platform
+          href: application-frameworks/running-php-applications-on-iis/how-to-develop-on-the-microsoft-web-platform.md
+    - name: "Scenario: Build an ASP.NET Website on IIS"
+      items: 
+        - name: "Overview: Build an ASP.NET Website on IIS"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/overview-build-an-asp-net-website-on-iis.md
+        - name: Plan an ASP.NET Website on IIS
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/plan-an-asp-net-website-on-iis.md
+        - name: "Planning Step 1: Plan IIS Web Server and ASP.NET Modules Installation"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-1-plan-iis-web-server-and-asp-net-modules-installation.md
+        - name: "Planning Step 2: Plan ASP.NET Settings"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-2-plan-asp-net-settings.md
+        - name: "Planning Step 3: Plan Data Source Settings"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-3-plan-data-source-settings.md
+        - name: "Planning Step 4: Plan Application Security"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-4-plan-application-security.md
+        - name: Configure an ASP.NET Website on IIS
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/configure-an-asp-net-website-on-iis.md
+        - name: "Configuring Step 1: Install IIS and ASP.NET Modules"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules.md
+        - name: "Configuring Step 2: Configure ASP.NET Settings"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-2-configure-asp-net-settings.md
+        - name: "Configuring Step 3: Configure Data Source Settings"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-3-configure-data-source-settings.md
+        - name: "Configuring Step 4: Configure Application Security"
+          href: application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-4-configure-application-security.md
+    - name: "Scenario: Build a PHP Website on IIS"
+      items: 
+        - name: "Overview: Build a PHP Website on IIS"
+          href: application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md
+        - name: Plan a PHP Website on IIS
+          href: application-frameworks/scenario-build-a-php-website-on-iis/plan-a-php-website-on-iis.md
+        - name: "Planning Step 1: Plan IIS Web Server and PHP Installation"
+          href: application-frameworks/scenario-build-a-php-website-on-iis/planning-step-1-plan-iis-web-server-and-php-installation.md
+        - name: "Planning Step 2: Plan PHP Settings"
+          href: application-frameworks/scenario-build-a-php-website-on-iis/planning-step-2-plan-php-settings.md
+        - name: "Planning Step 3: Plan PHP Application Security"
+          href: application-frameworks/scenario-build-a-php-website-on-iis/planning-step-3-plan-php-application-security.md
+        - name: Configure a PHP Website on IIS
+          href: application-frameworks/scenario-build-a-php-website-on-iis/configure-a-php-website-on-iis.md
+        - name: "Configuring Step 1: Install IIS and PHP"
+          href: application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php.md
+        - name: "Configuring Step 2: Configure PHP Settings"
+          href: application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-2-configure-php-settings.md
+        - name: "Configuring Step 3: Configure PHP Application Security"
+          href: application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-3-configure-php-application-security.md
+- name: Web Hosting
+  items: 
+    - name: Getting Started
+      items: 
+        - name: Getting Started
+          href: web-hosting/getting-started/getting-started_69.md
+        - name: Quick Guides
+          href: web-hosting/getting-started/quick-guides.md
+        - name: Shared Hosting Content Map
+          href: web-hosting/getting-started/shared-hosting-content-map.md
+        - name: Deploying an IIS 7.0 Web Server
+          href: web-hosting/getting-started/deploying-an-iis-web-server.md
+        - name: Deploying a Classic ASP Server
+          href: web-hosting/getting-started/deploying-a-classic-asp-server.md
+        - name: Deploying an ASP.NET Server
+          href: web-hosting/getting-started/deploying-an-aspnet-server.md
+        - name: Deploying a Static Content Server
+          href: web-hosting/getting-started/deploying-a-static-content-server.md
+        - name: Using Windows SharePoint Services 3.0 on IIS 7.0
+          href: web-hosting/getting-started/using-windows-sharepoint-services-30-on-iis.md
+        - name: Microsoft Web Platform Privacy Statements
+          href: web-hosting/getting-started/microsoft-web-platform-privacy-statements.md
+    - name: Frequently Asked Questions (FAQ)
+      items: 
+        - name: Tools and Utilities Questions
+          href: web-hosting/frequently-asked-questions-faq/tools-and-utilities-questions.md
+        - name: SMTP Questions
+          href: web-hosting/frequently-asked-questions-faq/smtp-questions.md
+        - name: Logging and Auditing Questions
+          href: web-hosting/frequently-asked-questions-faq/logging-and-auditing-questions.md
+        - name: Security Questions
+          href: web-hosting/frequently-asked-questions-faq/security-questions.md
+        - name: General IIS 7.0 Questions
+          href: web-hosting/frequently-asked-questions-faq/general-iis7-questions.md
+        - name: .NET Questions
+          href: web-hosting/frequently-asked-questions-faq/net-questions.md
+        - name: PHP Questions
+          href: web-hosting/frequently-asked-questions-faq/php-questions.md
+        - name: Sales and Marketing Questions
+          href: web-hosting/frequently-asked-questions-faq/sales-and-marketing-questions.md
+        - name: Top 10 Changes in IIS 7.0
+          href: web-hosting/frequently-asked-questions-faq/top-10-changes-in-iis7.md
+    - name: Migrate to the Microsoft Web Platform
+      items: 
+        - name: Breaking Changes for ASP.NET 4 Apps Running on IIS 7 Integrated Mode
+          href: web-hosting/migrate-to-the-microsoft-web-platform/breaking-changes-for-aspnet-4-apps-running-on-iis-7-integrated-mode.md
+        - name: IIS 7 for Apache Administrators
+          href: web-hosting/migrate-to-the-microsoft-web-platform/iis-for-apache-administrators.md
+        - name: Migrate to a Windows-Based Platform
+          href: web-hosting/migrate-to-the-microsoft-web-platform/migrate-to-a-windows-based-platform.md
+        - name: Migrate from MySQL to SQL Server 2008
+          href: web-hosting/migrate-to-the-microsoft-web-platform/migrate-from-mysql-to-sql-server-2008.md
+        - name: How to Migrate to the Microsoft Web Platform
+          href: web-hosting/migrate-to-the-microsoft-web-platform/how-to-migrate-to-the-microsoft-web-platform.md
+    - name: Configuring Components
+      items: 
+        - name: Enabling LINQ with ASP.NET
+          href: web-hosting/configuring-components/deploying-linq-with-net-35.md
+        - name: C# and PowerShell Scripts Samples
+          href: web-hosting/configuring-components/powershell-scripts.md
+        - name: Configuring Server Components
+          href: web-hosting/configuring-components/configuring-server-components.md
+    - name: Planning the Web Hosting Architecture
+      items: 
+        - name: Shared Hosting Configuration
+          href: web-hosting/planning-the-web-hosting-architecture/shared-hosting-configuration.md
+        - name: Sustainable Computing
+          href: web-hosting/planning-the-web-hosting-architecture/sustainable-computing.md
+        - name: IIS Extensibility
+          href: web-hosting/planning-the-web-hosting-architecture/iis-extensibility.md
+    - name: Configuring Servers in the Windows Web Platform
+      items: 
+        - name: Separate Partitions for Improved Performance
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/preparing-the-file-serve-deployment.md
+        - name: Share and NTFS Permissions
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md
+        - name: Directory Quotas and FSRM
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/enabling-directory-quotas.md
+        - name: SMB Command Registry Keys
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys_196.md
+        - name: Shared Configuration
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/shared-configuration_211.md
+        - name: Offline Files for Shared Configuration
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/offline-files-for-shared-configuration.md
+        - name: Network Load Balancing
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/network-load-balancing.md
+        - name: Application Request Routing (ARR) 2.0 for Shared Hosting
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/application-request-routing-arr-20-for-shared-hosting.md
+        - name: "Publishing Components: FTP 7.0, WebDAV, and FPSE"
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/publishing-components-ftp-70-webdav-and-fpse.md
+        - name: Quick Guide for Shared Hosting Deployment
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment.md
+        - name: Windows Communication Framework (WCF)
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/windows-communication-framework-wcf.md
+        - name: Windows SharePoint Services for Shared Hosting
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/windows-sharepoint-services-for-shared-hosting.md
+        - name: Guide to Deploy FTP and Publish with VWD
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd.md
+        - name: Microsoft Web Platform Installer 2.0
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md
+        - name: Dynamic Data Center Toolkit for Hosting
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/dynamic-data-center-toolkit-for-hosting.md
+        - name: SQL Server 2005
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/sql-server-2005.md
+        - name: SQL 2008 for Hosters
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md
+        - name: Configure your Servers for the Windows Web Hosting Platform
+          href: web-hosting/configuring-servers-in-the-windows-web-platform/configure-your-servers-for-the-windows-web-hosting-platform.md
+    - name: Installing Infrastructure Components
+      items: 
+        - name: Planning the Deployment
+          href: web-hosting/installing-infrastructure-components/planning-the-deployment.md
+        - name: Testing the Deployment
+          href: web-hosting/installing-infrastructure-components/testing-the-deployment.md
+        - name: Deploying Images with WDS
+          href: web-hosting/installing-infrastructure-components/deploying-images-with-wds.md
+        - name: Preparation Activities for WDS
+          href: web-hosting/installing-infrastructure-components/preparation-activities-for-wds.md
+        - name: Active Directory DS Forest
+          href: web-hosting/installing-infrastructure-components/active-directory-ds-forest.md
+        - name: Deploying Updates with WSUS 3.0
+          href: web-hosting/installing-infrastructure-components/deploying-updates-with-wsus-30.md
+        - name: DHCP Server
+          href: web-hosting/installing-infrastructure-components/dhcp-server.md
+        - name: DNS Server
+          href: web-hosting/installing-infrastructure-components/dns-server.md
+        - name: Introduction to Deploying Windows Server 2008 R2
+          href: web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2.md
+        - name: System Center Solutions (VMM &amp; SCOM)
+          href: web-hosting/installing-infrastructure-components/system-center-solutions-vmm-amp-scom.md
+        - name: Hyper-V Guides
+          href: web-hosting/installing-infrastructure-components/hyper-v-guides.md
+    - name: Verifying the Deployment
+      items: 
+        - name: Verifying Remote Administration
+          href: web-hosting/verifying-the-deployment/verifying-remote-administration.md
+        - name: Verifying the Developer Experience - ASP.NET
+          href: web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet.md
+        - name: Verifying the Developer Experience - PHP
+          href: web-hosting/verifying-the-deployment/verifying-the-developer-experience-php.md
+    - name: Web Server For Shared Hosting
+      items: 
+        - name: ASP.NET 2.0/3.5 Shared Hosting Configuration
+          href: web-hosting/web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration.md
+        - name: IIS 7 Components for Shared Hosting
+          href: web-hosting/web-server-for-shared-hosting/iis-components-for-shared-hosting.md
+        - name: Installing the Web Server Role
+          href: web-hosting/web-server-for-shared-hosting/installing-the-web-server-role.md
+        - name: SMB Commands Registry Keys
+          href: web-hosting/web-server-for-shared-hosting/smb-commands-registry-keys_198.md
+        - name: Create a Backup with appcmd
+          href: web-hosting/web-server-for-shared-hosting/create-a-backup-with-appcmd.md
+        - name: FastCGI with PHP
+          href: web-hosting/web-server-for-shared-hosting/fastcgi-with-php.md
+        - name: ASP
+          href: web-hosting/web-server-for-shared-hosting/asp.md
+        - name: Configuring IIS for Silverlight Applications
+          href: web-hosting/web-server-for-shared-hosting/configuring-iis-for-silverlight-applications.md
+        - name: URL Rewrite for Hosting Providers
+          href: web-hosting/web-server-for-shared-hosting/url-rewrite-for-hosting-providers.md
+        - name: Database Manager for Hosters
+          href: web-hosting/web-server-for-shared-hosting/database-manager-for-hosters.md
+        - name: Administration Pack
+          href: web-hosting/web-server-for-shared-hosting/administration-pack.md
+        - name: 32-bit Mode Worker Processes
+          href: web-hosting/web-server-for-shared-hosting/32-bit-mode-worker-processes.md
+        - name: Application Pool Identity as Anonymous User
+          href: web-hosting/web-server-for-shared-hosting/application-pool-identity-as-anonymous-user.md
+        - name: Default Documents
+          href: web-hosting/web-server-for-shared-hosting/default-documents.md
+        - name: HTTP Response Cache
+          href: web-hosting/web-server-for-shared-hosting/http-response-cache.md
+        - name: dynamicIdleThreshold
+          href: web-hosting/web-server-for-shared-hosting/dynamicidlethreshold.md
+        - name: Dynamic Compression
+          href: web-hosting/web-server-for-shared-hosting/dynamic-compression.md
+        - name: Delegated Administration
+          href: web-hosting/web-server-for-shared-hosting/delegated-administration.md
+        - name: Delegating errorMode in httpErrors
+          href: web-hosting/web-server-for-shared-hosting/delegating-errormode-in-httperrors.md
+    - name: Using Shared Hosting Environments
+      items: 
+        - name: "MIX08: Bringing Hosters and Developers Together with IIS7"
+          href: web-hosting/using-shared-hosting-environments/mix08-bringing-hosters-and-developers-together-with-iis7.md
+        - name: Creating and Publishing Web Applications with Visual Web Developer
+          href: web-hosting/using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md
+        - name: Setting up Delegated Administration, Server and Client Experiences
+          href: web-hosting/using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences.md
+        - name: Using Delegated Administration
+          href: web-hosting/using-shared-hosting-environments/using-delegated-administration.md
+    - name: Microsoft Web Farm Framework 2.0 for IIS 7
+      items: 
+        - name: Overview of the Web Farm Framework 2.0 for IIS 7
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/overview-of-the-web-farm-framework-20-for-iis.md
+        - name: System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/system-and-platform-requirements-for-the-web-farm-framework-20-for-iis.md
+        - name: Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md
+        - name: Provisioning a Server Farm with the Web Farm Framework 2.0 for IIS 7
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis.md
+        - name: Web Farm Framework 2.0 for IIS 7 Code Sample
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/web-farm-framework-20-for-iis-code-sample.md
+        - name: Web Farm Framework 2.0 for IIS 7 cmdlets for Windows PowerShell
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/web-farm-framework-20-for-iis-cmdlets-for-windows-powershell.md
+        - name: Running Server Operations Using the Web Farm Framework 2.0 for IIS 7
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/running-server-operations-using-the-web-farm-framework-20-for-iis.md
+        - name: Skipping Folders while Provisioning with Web Farm Framework 2.0 for IIS 7
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis.md
+        - name: Building Workflows with Web Farm Framework 2.0 for IIS 7
+          href: web-hosting/microsoft-web-farm-framework-20-for-iis-7/building-workflows-with-web-farm-framework-20-for-iis.md
+    - name: Hosting the Microsoft Web Platform on Amazon EC2
+      items: 
+        - name: "Amazon EC2: Microsoft Web Platform Images - Wordpress"
+          href: web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress.md
+        - name: "Amazon EC2: Microsoft Web Platform - DotNetNuke"
+          href: web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-dotnetnuke.md
+        - name: "Amazon EC2: Microsoft Web Platform Images - Media Server"
+          href: web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-media-server.md
+        - name: "Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack"
+          href: web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack.md
+    - name: Hosting the Microsoft Web Platform on Windows Azure
+      items: 
+        - name: Managing IIS on Windows Azure via Remote Desktop
+          href: web-hosting/hosting-the-microsoft-web-platform-on-windows-azure/managing-iis-on-windows-azure-via-remote-desktop.md
+    - name: Joining the Web Hosting Gallery
+      items: 
+        - name: ServerValidator Demo
+          href: web-hosting/joining-the-web-hosting-gallery/servervalidator-demo.md
+        - name: Microsoft Web Platform Hosting Program -Pilot
+          href: web-hosting/joining-the-web-hosting-gallery/microsoft-web-platform-hosting-program-pilot.md
+        - name: Overview
+          href: web-hosting/joining-the-web-hosting-gallery/overview.md
+        - name: Install Server Components
+          href: web-hosting/joining-the-web-hosting-gallery/install-server-components.md
+        - name: Validate Your Server Configuration
+          href: web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration.md
+        - name: Create Welcome E-mails
+          href: web-hosting/joining-the-web-hosting-gallery/create-welcome-e-mails.md
+        - name: Generate a Profile XML File
+          href: web-hosting/joining-the-web-hosting-gallery/generate-a-profile-xml-file.md
+        - name: Configure Site for Web Deploy Publishing
+          href: web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing.md
+        - name: Automating server setup
+          href: web-hosting/joining-the-web-hosting-gallery/automating-server-setup.md
+        - name: Setup MySQL with WebMatrix Support
+          href: web-hosting/joining-the-web-hosting-gallery/setup-mysql-with-webmatrix-support.md
+        - name: How WebMatrix Verification Works
+          href: web-hosting/joining-the-web-hosting-gallery/how-webmatrix-verification-works.md
+    - name: "Scenario: Build a Web Farm with IIS Servers"
+      items: 
+        - name: "Overview: Build a Web Farm with IIS Servers"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/overview-build-a-web-farm-with-iis-servers.md
+        - name: Plan a Web Farm with IIS Servers
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/plan-a-web-farm-with-iis-servers.md
+        - name: "Planning Step 1: Plan IIS Web Farm Infrastructure"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-1-plan-iis-web-farm-infrastructure.md
+        - name: "Planning Step 2: Plan IIS Web Farm Configuration"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-2-plan-iis-web-farm-configuration.md
+        - name: "Planning Step 3: Plan IIS Web Farm Load Balancing"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-3-plan-iis-web-farm-load-balancing.md
+        - name: "Planning Step 4: Plan SSL Central Certificate Store"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-4-plan-ssl-central-certificate-store.md
+        - name: "Planning Step 5: Plan Application Deployment"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-5-plan-application-deployment.md
+        - name: Configure a Web Farm with IIS Servers
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/configure-a-web-farm-with-iis-servers.md
+        - name: "Configuring Step 1: Install IIS Web Farm Infrastructure"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-1-install-iis-web-farm-infrastructure.md
+        - name: "Configuring Step 2: Configure IIS Web Farm Servers"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-2-configure-iis-web-farm-servers.md
+        - name: "Configuring Step 3: Configure IIS Web Farm Load Balancing"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-3-configure-iis-web-farm-load-balancing.md
+        - name: "Configuring Step 4: Configure SSL Central Certificate Store"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-4-configure-ssl-central-certificate-store.md
+        - name: "Configuring Step 5: Configure Application Deployment"
+          href: web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-5-configure-application-deployment.md
+- name: Web Development Reference
+  items: 
+    - name: Native Code Development Overview
+      href: web-development-reference/native-code-development-overview\native-code-development-overview.md
+      items: 
+        - name: "Walkthrough: Creating a Configuration File for Hosted Web Core"
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md
+        - name: "Walkthrough: Creating a Request-Level HTTP Module By Using Native Code"
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md
+        - name: Creating Hosted Web Core Applications
+          href: web-development-reference/native-code-development-overview\creating-hosted-web-core-applications.md
+        - name: Comparing Native-Code and Managed-Code Notifications
+          href: web-development-reference/native-code-development-overview\comparing-native-code-and-managed-code-notifications.md
+        - name: "Walkthrough: Creating a Hosted Web Core Application"
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-hosted-web-core-application.md
+        - name: Creating Native-Code HTTP Modules
+          href: web-development-reference/native-code-development-overview\creating-native-code-http-modules.md
+        - name: Designing Native-Code HTTP Modules
+          href: web-development-reference/native-code-development-overview\designing-native-code-http-modules.md
+        - name: "Walkthrough: Creating a Global-Level HTTP Module By Using Native Code"
+          href: web-development-reference/native-code-development-overview\walkthrough-creating-a-global-level-http-module-by-using-native-code.md
+    - name: Native Code Api Reference
+      href: web-development-reference/native-code-api-reference\native-code-api-reference.md
+    - name: Server Variables
+      href: web-dev-reference/server-variables.md
+- name: FTP Exensibility Reference
+  items: 
+    - name: Native API Reference
+      href: ftp-extensibility-reference/native-code-api-reference/ftp-native-code-extensibility-api-reference.md
+- name: WMI Provider
+  href: wmi-provider/wmi-provider.md
+  items: 
+    - name: Mapping IIS 6.0 WMI Methods to IIS 7 and higher WMI Methods
+      href: wmi-provider/mapping-iis-6-0-wmi-methods-to-iis-7-and-higher-wmi-methods.md
+    - name: CollectionElement Class
+      href: wmi-provider/collectionelement-class.md
+      items: 
+        - name: AdapterElement Class
+          href: wmi-provider/adapterelement-class.md
+        - name: ApplicationDependency Class
+          href: wmi-provider/applicationdependency-class.md
+        - name: AssemblyElement Class
+          href: wmi-provider/assemblyelement-class.md
+        - name: AuthenticationModuleElement Class
+          href: wmi-provider/authenticationmoduleelement-class.md
+        - name: AuthorizationRule Class
+          href: wmi-provider/authorizationrule-class.md
+        - name: BindingElement Class
+          href: wmi-provider/bindingelement-class.md
+        - name: BufferModeElement Class
+          href: wmi-provider/buffermodeelement-class.md
+        - name: BuildProvider Class
+          href: wmi-provider/buildprovider-class.md
+        - name: BypassElement Class
+          href: wmi-provider/bypasselement-class.md
+        - name: CachingProfileElement Class
+          href: wmi-provider/cachingprofileelement-class.md
+        - name: ClientTarget Class
+          href: wmi-provider/clienttarget-class.md
+        - name: CompilerElement Class
+          href: wmi-provider/compilerelement-class.md
+        - name: ConformanceWarning Class
+          href: wmi-provider/conformancewarning-class.md
+        - name: ConnectionManagementElement Class
+          href: wmi-provider/connectionmanagementelement-class.md
+        - name: ConnectionStringSettings Class
+          href: wmi-provider/connectionstringsettings-class.md
+        - name: CustomError Class
+          href: wmi-provider/customerror-class.md
+        - name: DeviceElement Class
+          href: wmi-provider/deviceelement-class.md
+        - name: DeviceFilter Class
+          href: wmi-provider/devicefilter-class.md
+        - name: DirectoryElement Class
+          href: wmi-provider/directoryelement-class.md
+        - name: EventMappingElement Class
+          href: wmi-provider/eventmappingelement-class.md
+        - name: ExpressionBuilder Class
+          href: wmi-provider/expressionbuilder-class.md
+        - name: FastCgiApplicationElement Class
+          href: wmi-provider/fastcgiapplicationelement-class.md
+        - name: FastCgiEnvironmentElement Class
+          href: wmi-provider/fastcgienvironmentelement-class.md
+        - name: FileExtensionElement Class
+          href: wmi-provider/fileextensionelement-class.md
+        - name: FormsAuthenticationUser Class
+          href: wmi-provider/formsauthenticationuser-class.md
+        - name: GlobalModuleElement Class
+          href: wmi-provider/globalmoduleelement-class.md
+        - name: GroupDependency Class
+          href: wmi-provider/groupdependency-class.md
+        - name: HandlerAction Class
+          href: wmi-provider/handleraction-class.md
+        - name: HeaderLimitsElement Class
+          href: wmi-provider/headerlimitselement-class.md
+        - name: HttpCompressionMimeTypeElement Class
+          href: wmi-provider/httpcompressionmimetypeelement-class.md
+        - name: HttpCompressionSchemeElement Class
+          href: wmi-provider/httpcompressionschemeelement-class.md
+        - name: HttpErrorElement Class
+          href: wmi-provider/httperrorelement-class.md
+        - name: HttpHandlerAction Class
+          href: wmi-provider/httphandleraction-class.md
+        - name: HttpModuleAction Class
+          href: wmi-provider/httpmoduleaction-class.md
+        - name: IPAddressFilterElement Class
+          href: wmi-provider/ipaddressfilterelement-class.md
+        - name: IsapiCgiRestrictionElement Class
+          href: wmi-provider/isapicgirestrictionelement-class.md
+        - name: IsapiFilterElement Class
+          href: wmi-provider/isapifilterelement-class.md
+        - name: KeyValueElement Class
+          href: wmi-provider/keyvalueelement-class.md
+        - name: ListenerAdapterElement Class
+          href: wmi-provider/listeneradapterelement-class.md
+        - name: ManyToOneCertificateMappingElement Class
+          href: wmi-provider/manytoonecertificatemappingelement-class.md
+        - name: ManyToOneCertificateMappingRuleElement Class
+          href: wmi-provider/manytoonecertificatemappingruleelement-class.md
+        - name: MimeMapElement Class
+          href: wmi-provider/mimemapelement-class.md
+        - name: ModuleAction Class
+          href: wmi-provider/moduleaction-class.md
+        - name: NamespaceElement Class
+          href: wmi-provider/namespaceelement-class.md
+        - name: NameTypeElement Class
+          href: wmi-provider/nametypeelement-class.md
+        - name: NameValueConfigurationElement Class
+          href: wmi-provider/namevalueconfigurationelement-class.md
+        - name: OneToOneCertificateMappingElement Class
+          href: wmi-provider/onetoonecertificatemappingelement-class.md
+        - name: OutputCacheProfile Class
+          href: wmi-provider/outputcacheprofile-class.md
+        - name: ProfileElement Class
+          href: wmi-provider/profileelement-class.md
+        - name: ProtocolElement Class
+          href: wmi-provider/protocolelement-class.md
+        - name: ProviderElement Class
+          href: wmi-provider/providerelement-class.md
+        - name: ProviderFactoryElement Class
+          href: wmi-provider/providerfactoryelement-class.md
+        - name: RuleElement Class
+          href: wmi-provider/ruleelement-class.md
+        - name: SegmentElement Class
+          href: wmi-provider/segmentelement-class.md
+        - name: SoapExtensionTypeElement Class
+          href: wmi-provider/soapextensiontypeelement-class.md
+        - name: SoapTransportImporterTypeElement Class
+          href: wmi-provider/soaptransportimportertypeelement-class.md
+        - name: SourceElement Class
+          href: wmi-provider/sourceelement-class.md
+        - name: SqlCacheDependencyDatabase Class
+          href: wmi-provider/sqlcachedependencydatabase-class.md
+        - name: StringElement Class
+          href: wmi-provider/stringelement-class.md
+        - name: TagMapElement Class
+          href: wmi-provider/tagmapelement-class.md
+        - name: TagPrefixElement Class
+          href: wmi-provider/tagprefixelement-class.md
+        - name: TraceAreaDefinition Class
+          href: wmi-provider/traceareadefinition-class.md
+        - name: TraceAreaElement Class
+          href: wmi-provider/traceareaelement-class.md
+        - name: TraceProviderDefinition Class
+          href: wmi-provider/traceproviderdefinition-class.md
+        - name: TraceUrl Class
+          href: wmi-provider/traceurl-class.md
+        - name: TrustLevel Class
+          href: wmi-provider/trustlevel-class.md
+        - name: TypeElement Class
+          href: wmi-provider/typeelement-class.md
+        - name: UrlMapping Class
+          href: wmi-provider/urlmapping-class.md
+        - name: UrlSequence Class
+          href: wmi-provider/urlsequence-class.md
+        - name: VerbElement Class
+          href: wmi-provider/verbelement-class.md
+        - name: WebRequestModuleElement Class
+          href: wmi-provider/webrequestmoduleelement-class.md
+        - name: WebServicesProtocolElement Class
+          href: wmi-provider/webservicesprotocolelement-class.md
+        - name: WildcardRedirectElement Class
+          href: wmi-provider/wildcardredirectelement-class.md
+    - name: ConfigurationSection Class
+      href: wmi-provider/configurationsection-class.md
+      items: 
+        - name: ConfigurationSection.GetAllowDefinition Method
+          href: wmi-provider/configurationsection-getallowdefinition-method.md
+        - name: ConfigurationSection.GetAllowLocation Method
+          href: wmi-provider/configurationsection-getallowlocation-method.md
+        - name: ConfigurationSection.RevertToParent Method
+          href: wmi-provider/configurationsection-reverttoparent-method.md
+        - name: ConfigurationSection.SetAllowDefinition Method
+          href: wmi-provider/configurationsection-setallowdefinition-method.md
+        - name: ConfigurationSection.SetAllowLocation Method
+          href: wmi-provider/configurationsection-setallowlocation-method.md
+        - name: AccessSection Class
+          href: wmi-provider/accesssection-class.md
+        - name: AnonymousAuthenticationSection Class
+          href: wmi-provider/anonymousauthenticationsection-class.md
+        - name: AnonymousIdentificationSection Class
+          href: wmi-provider/anonymousidentificationsection-class.md
+        - name: AspSection Class
+          href: wmi-provider/aspsection-class.md
+        - name: BasicAuthenticationSection Class
+          href: wmi-provider/basicauthenticationsection-class.md
+        - name: CacheSection Class
+          href: wmi-provider/cachesection-class.md
+        - name: CgiSection Class
+          href: wmi-provider/cgisection-class.md
+        - name: ClientCertificateMappingAuthenticationSection Class
+          href: wmi-provider/clientcertificatemappingauthenticationsection-class.md
+        - name: ConfigurationHistorySection Class
+          href: wmi-provider/configurationhistorysection-class.md
+        - name: ConfigurationRedirectionSection Class
+          href: wmi-provider/configurationredirectionsection-class.md
+        - name: ConfigurationSectionWithCollection Class
+          href: wmi-provider/configurationsectionwithcollection-class.md
+          items: 
+            - name: ConfigurationSectionWithCollection.Add Method
+              href: wmi-provider/configurationsectionwithcollection-add-method.md
+            - name: ConfigurationSectionWithCollection.Clear Method
+              href: wmi-provider/configurationsectionwithcollection-clear-method.md
+            - name: ConfigurationSectionWithCollection.Get Method
+              href: wmi-provider/configurationsectionwithcollection-get-method.md
+            - name: ConfigurationSectionWithCollection.Remove Method
+              href: wmi-provider/configurationsectionwithcollection-remove-method.md
+            - name: ApplicationDependenciesSection Class
+              href: wmi-provider/applicationdependenciessection-class.md
+            - name: AppSettingsSection Class
+              href: wmi-provider/appsettingssection-class.md
+            - name: AuthenticationModulesSection Class
+              href: wmi-provider/authenticationmodulessection-class.md
+            - name: AuthenticationSection Class
+              href: wmi-provider/authenticationsection-class.md
+            - name: AuthorizationSection Class
+              href: wmi-provider/authorizationsection-class.md
+            - name: CachingSection Class
+              href: wmi-provider/cachingsection-class.md
+            - name: ClientTargetSection Class
+              href: wmi-provider/clienttargetsection-class.md
+            - name: CompilationSection Class
+              href: wmi-provider/compilationsection-class.md
+            - name: ConfigProtectedDataSection Class
+              href: wmi-provider/configprotecteddatasection-class.md
+            - name: ConnectionManagementSection Class
+              href: wmi-provider/connectionmanagementsection-class.md
+            - name: ConnectionStringsSection Class
+              href: wmi-provider/connectionstringssection-class.md
+            - name: CustomErrorsSection Class
+              href: wmi-provider/customerrorssection-class.md
+            - name: DefaultDocumentSection Class
+              href: wmi-provider/defaultdocumentsection-class.md
+            - name: DefaultProxySection Class
+              href: wmi-provider/defaultproxysection-class.md
+            - name: DeviceFiltersSection Class
+              href: wmi-provider/devicefilterssection-class.md
+            - name: FastCgiSection Class
+              href: wmi-provider/fastcgisection-class.md
+            - name: GlobalModulesSection Class
+              href: wmi-provider/globalmodulessection-class.md
+            - name: HandlersSection Class
+              href: wmi-provider/handlerssection-class.md
+            - name: HealthMonitoringSection Class
+              href: wmi-provider/healthmonitoringsection-class.md
+            - name: HttpCompressionSection Class
+              href: wmi-provider/httpcompressionsection-class.md
+            - name: HttpErrorsSection Class
+              href: wmi-provider/httperrorssection-class.md
+            - name: HttpHandlersSection Class
+              href: wmi-provider/httphandlerssection-class.md
+            - name: HttpModulesSection Class
+              href: wmi-provider/httpmodulessection-class.md
+            - name: HttpProtocolSection Class
+              href: wmi-provider/httpprotocolsection-class.md
+            - name: HttpRedirectSection Class
+              href: wmi-provider/httpredirectsection-class.md
+            - name: HttpTracingSection Class
+              href: wmi-provider/httptracingsection-class.md
+            - name: IisClientCertificateMappingAuthenticationSection Class
+              href: wmi-provider/iisclientcertificatemappingauthenticationsection-class.md
+            - name: IPSecuritySection Class
+              href: wmi-provider/ipsecuritysection-class.md
+            - name: IsapiCgiRestrictionSection Class
+              href: wmi-provider/isapicgirestrictionsection-class.md
+            - name: IsapiFiltersSection Class
+              href: wmi-provider/isapifilterssection-class.md
+            - name: ListenerAdaptersSection Class
+              href: wmi-provider/listeneradapterssection-class.md
+            - name: MembershipSection Class
+              href: wmi-provider/membershipsection-class.md
+            - name: MobileControlsSection Class
+              href: wmi-provider/mobilecontrolssection-class.md
+            - name: ModulesSection Class
+              href: wmi-provider/modulessection-class.md
+            - name: OutputCacheSettingsSection Class
+              href: wmi-provider/outputcachesettingssection-class.md
+            - name: PagesSection Class
+              href: wmi-provider/pagessection-class.md
+            - name: ProtocolsSection Class
+              href: wmi-provider/protocolssection-class.md
+            - name: RequestFilteringSection Class
+              href: wmi-provider/requestfilteringsection-class.md
+            - name: RoleManagerSection Class
+              href: wmi-provider/rolemanagersection-class.md
+            - name: SchemaImporterExtensionsSection Class
+              href: wmi-provider/schemaimporterextensionssection-class.md
+            - name: SecurityPolicySection Class
+              href: wmi-provider/securitypolicysection-class.md
+            - name: SessionStateSection Class
+              href: wmi-provider/sessionstatesection-class.md
+            - name: SiteMapSection Class
+              href: wmi-provider/sitemapsection-class.md
+            - name: SqlCacheDependencySection Class
+              href: wmi-provider/sqlcachedependencysection-class.md
+            - name: StaticContentSection Class
+              href: wmi-provider/staticcontentsection-class.md
+            - name: SystemCodeDomSection Class
+              href: wmi-provider/systemcodedomsection-class.md
+            - name: SystemDataSection Class
+              href: wmi-provider/systemdatasection-class.md
+            - name: SystemDiagnosticsSection Class
+              href: wmi-provider/systemdiagnosticssection-class.md
+            - name: TraceFailedRequestsSection Class
+              href: wmi-provider/tracefailedrequestssection-class.md
+            - name: TraceProviderDefinitionsSection Class
+              href: wmi-provider/traceproviderdefinitionssection-class.md
+            - name: UrlMappingsSection Class
+              href: wmi-provider/urlmappingssection-class.md
+            - name: WebRequestModulesSection Class
+              href: wmi-provider/webrequestmodulessection-class.md
+            - name: WebServicesSection Class
+              href: wmi-provider/webservicessection-class.md
+            - name: WindowsAuthenticationSection Class
+              href: wmi-provider/windowsauthenticationsection-class.md
+        - name: DateTimeSerializationSection Class
+          href: wmi-provider/datetimeserializationsection-class.md
+        - name: DigestAuthenticationSection Class
+          href: wmi-provider/digestauthenticationsection-class.md
+        - name: DirectoryBrowseSection Class
+          href: wmi-provider/directorybrowsesection-class.md
+        - name: GlobalizationSection Class
+          href: wmi-provider/globalizationsection-class.md
+        - name: HostingEnvironmentSection Class
+          href: wmi-provider/hostingenvironmentsection-class.md
+        - name: HttpCookiesSection Class
+          href: wmi-provider/httpcookiessection-class.md
+        - name: HttpLoggingSection Class
+          href: wmi-provider/httploggingsection-class.md
+        - name: HttpRuntimeSection Class
+          href: wmi-provider/httpruntimesection-class.md
+        - name: IdentitySection Class
+          href: wmi-provider/identitysection-class.md
+        - name: LogSection Class
+          href: wmi-provider/logsection-class.md
+        - name: MachineKeySection Class
+          href: wmi-provider/machinekeysection-class.md
+        - name: OdbcLoggingSection Class
+          href: wmi-provider/odbcloggingsection-class.md
+        - name: OutputCacheSection Class
+          href: wmi-provider/outputcachesection-class.md
+        - name: ProcessModelSection Class
+          href: wmi-provider/processmodelsection-class.md
+        - name: RequestCachingSection Class
+          href: wmi-provider/requestcachingsection-class.md
+        - name: ServerRuntimeSection Class
+          href: wmi-provider/serverruntimesection-class.md
+        - name: ServerSideIncludeSection Class
+          href: wmi-provider/serversideincludesection-class.md
+        - name: SessionPageStateSection Class
+          href: wmi-provider/sessionpagestatesection-class.md
+        - name: SettingsSection Class
+          href: wmi-provider/settingssection-class.md
+        - name: SmtpMailSettingsSection Class
+          href: wmi-provider/smtpmailsettingssection-class.md
+        - name: SystemWebDeploymentSection Class
+          href: wmi-provider/systemwebdeploymentsection-class.md
+        - name: SystemWindowsFormsSection Class
+          href: wmi-provider/systemwindowsformssection-class.md
+        - name: TraceSection Class
+          href: wmi-provider/tracesection-class.md
+        - name: TransactionsDefaultSettingsSection Class
+          href: wmi-provider/transactionsdefaultsettingssection-class.md
+        - name: TransactionsMachineSettingsSection Class
+          href: wmi-provider/transactionsmachinesettingssection-class.md
+        - name: TrustSection Class
+          href: wmi-provider/trustsection-class.md
+        - name: UrlCompressionSection Class
+          href: wmi-provider/urlcompressionsection-class.md
+        - name: ValidationSection Class
+          href: wmi-provider/validationsection-class.md
+        - name: WebControlsSection Class
+          href: wmi-provider/webcontrolssection-class.md
+        - name: WebLimitsSection Class
+          href: wmi-provider/weblimitssection-class.md
+        - name: XhtmlConformanceSection Class
+          href: wmi-provider/xhtmlconformancesection-class.md
+        - name: XmlSerializerSection Class
+          href: wmi-provider/xmlserializersection-class.md
+    - name: EmbeddedObject Class
+      href: wmi-provider/embeddedobject-class.md
+      items: 
+        - name: ApplicationElementDefaults Class
+          href: wmi-provider/applicationelementdefaults-class.md
+        - name: ApplicationPoolElementDefaults Class
+          href: wmi-provider/applicationpoolelementdefaults-class.md
+        - name: ApplicationPoolFailureSettings Class
+          href: wmi-provider/applicationpoolfailuresettings-class.md
+        - name: ApplicationPoolProcessorSettings Class
+          href: wmi-provider/applicationpoolprocessorsettings-class.md
+        - name: AspCache Class
+          href: wmi-provider/aspcache-class.md
+        - name: AspComPlus Class
+          href: wmi-provider/aspcomplus-class.md
+        - name: AspLimits Class
+          href: wmi-provider/asplimits-class.md
+        - name: AspSession Class
+          href: wmi-provider/aspsession-class.md
+        - name: AssemblySettings Class
+          href: wmi-provider/assemblysettings-class.md
+        - name: AssertSettings Class
+          href: wmi-provider/assertsettings-class.md
+        - name: AuthenticationProviderSettings Class
+          href: wmi-provider/authenticationprovidersettings-class.md
+        - name: BufferModeSettings Class
+          href: wmi-provider/buffermodesettings-class.md
+        - name: BuildProviderSettings Class
+          href: wmi-provider/buildprovidersettings-class.md
+        - name: BypassListSettings Class
+          href: wmi-provider/bypasslistsettings-class.md
+        - name: CachingProfileSettings Class
+          href: wmi-provider/cachingprofilesettings-class.md
+        - name: CentralBinaryLogFile Class
+          href: wmi-provider/centralbinarylogfile-class.md
+        - name: CentralW3CLogFile Class
+          href: wmi-provider/centralw3clogfile-class.md
+        - name: CompilerSettings Class
+          href: wmi-provider/compilersettings-class.md
+        - name: ConformanceWarningSettings Class
+          href: wmi-provider/conformancewarningsettings-class.md
+        - name: CustomHeaderSettings Class
+          href: wmi-provider/customheadersettings-class.md
+        - name: DbProviderFactorySettings Class
+          href: wmi-provider/dbproviderfactorysettings-class.md
+        - name: DiagnosticsSettings Class
+          href: wmi-provider/diagnosticssettings-class.md
+        - name: DirectorySettings Class [IIS 7]
+          href: wmi-provider/directorysettings-class.md
+        - name: DynamicTypeSettings Class
+          href: wmi-provider/dynamictypesettings-class.md
+        - name: EventMappingSettings Class
+          href: wmi-provider/eventmappingsettings-class.md
+        - name: ExpressionBuilderSettings Class
+          href: wmi-provider/expressionbuildersettings-class.md
+        - name: FailureDefinition Class
+          href: wmi-provider/failuredefinition-class.md
+        - name: FastCgiEnvironmentSettings Class
+          href: wmi-provider/fastcgienvironmentsettings-class.md
+        - name: FileExtensionsSettings Class
+          href: wmi-provider/fileextensionssettings-class.md
+        - name: FileSettings Class
+          href: wmi-provider/filesettings-class.md
+        - name: FormsAuthenticationConfiguration Class
+          href: wmi-provider/formsauthenticationconfiguration-class.md
+        - name: FormsAuthenticationCredentials Class
+          href: wmi-provider/formsauthenticationcredentials-class.md
+        - name: FtpCachePolicySettings Class
+          href: wmi-provider/ftpcachepolicysettings-class.md
+        - name: HeaderLimitsSettings Class
+          href: wmi-provider/headerlimitssettings-class.md
+        - name: HiddenSegmentSettings Class
+          href: wmi-provider/hiddensegmentsettings-class.md
+        - name: HttpCachePolicySettings Class
+          href: wmi-provider/httpcachepolicysettings-class.md
+        - name: HttpClientCache Class [IIS 7]
+          href: wmi-provider/httpclientcache-class.md
+        - name: HttpWebRequestSettings Class
+          href: wmi-provider/httpwebrequestsettings-class.md
+        - name: Ipv6Settings Class
+          href: wmi-provider/ipv6settings-class.md
+        - name: ListenerSettings Class
+          href: wmi-provider/listenersettings-class.md
+        - name: ManyToOneCertificateRuleSettings Class
+          href: wmi-provider/manytoonecertificaterulesettings-class.md
+        - name: ManyToOneSettings Class
+          href: wmi-provider/manytoonesettings-class.md
+        - name: ModuleSettings Class
+          href: wmi-provider/modulesettings-class.md
+        - name: NamespaceInfo Class
+          href: wmi-provider/namespaceinfo-class.md
+        - name: OneToOneSettings Class
+          href: wmi-provider/onetoonesettings-class.md
+        - name: OutputCacheProfileSettings Class
+          href: wmi-provider/outputcacheprofilesettings-class.md
+        - name: PassportAuthentication Class
+          href: wmi-provider/passportauthentication-class.md
+        - name: PerformanceCounterSettings Class
+          href: wmi-provider/performancecountersettings-class.md
+        - name: PerformanceCountersSettings Class
+          href: wmi-provider/performancecounterssettings-class.md
+        - name: PeriodicRestartSettings Class
+          href: wmi-provider/periodicrestartsettings-class.md
+        - name: ProcessModelSettings Class
+          href: wmi-provider/processmodelsettings-class.md
+        - name: ProfileSettings Class
+          href: wmi-provider/profilesettings-class.md
+        - name: ProviderSettings Class
+          href: wmi-provider/providersettings-class.md
+        - name: ProvidersSettings Class
+          href: wmi-provider/providerssettings-class.md
+        - name: ProxySettings Class
+          href: wmi-provider/proxysettings-class.md
+        - name: RecyclingSettings Class
+          href: wmi-provider/recyclingsettings-class.md
+        - name: RedirectHeaderSettings Class
+          href: wmi-provider/redirectheadersettings-class.md
+        - name: RequestLimitsElement Class
+          href: wmi-provider/requestlimitselement-class.md
+        - name: RuleSettings Class
+          href: wmi-provider/rulesettings-class.md
+        - name: ScheduleElement Class
+          href: wmi-provider/scheduleelement-class.md
+        - name: SectionInformation Class
+          href: wmi-provider/sectioninformation-class.md
+        - name: ServiceDescriptionFormatSettings Class
+          href: wmi-provider/servicedescriptionformatsettings-class.md
+        - name: ServicePointManagerSettings Class
+          href: wmi-provider/servicepointmanagersettings-class.md
+        - name: SiteElementDefaults Class
+          href: wmi-provider/siteelementdefaults-class.md
+        - name: SiteLimits Class
+          href: wmi-provider/sitelimits-class.md
+        - name: SiteLogFile Class
+          href: wmi-provider/sitelogfile-class.md
+        - name: SmtpNetworkSettings Class
+          href: wmi-provider/smtpnetworksettings-class.md
+        - name: SmtpSpecifiedPickupDirectorySettings Class
+          href: wmi-provider/smtpspecifiedpickupdirectorysettings-class.md
+        - name: SoapEnvelopeProcessingInfo Class
+          href: wmi-provider/soapenvelopeprocessinginfo-class.md
+        - name: SoapExtensionImporterTypesSettings Class
+          href: wmi-provider/soapextensionimportertypessettings-class.md
+        - name: SoapExtensionReflectorTypesSettings Class
+          href: wmi-provider/soapextensionreflectortypessettings-class.md
+        - name: SoapExtensionTypesInfo Class
+          href: wmi-provider/soapextensiontypesinfo-class.md
+        - name: SoapServerProtocolFactory Class
+          href: wmi-provider/soapserverprotocolfactory-class.md
+        - name: SoapTransportImporterTypesInfo Class
+          href: wmi-provider/soaptransportimportertypesinfo-class.md
+        - name: SocketSettings Class
+          href: wmi-provider/socketsettings-class.md
+        - name: SourceListenerSettings Class
+          href: wmi-provider/sourcelistenersettings-class.md
+        - name: SourceSettings Class
+          href: wmi-provider/sourcesettings-class.md
+        - name: SqlCacheDependencyDatabaseSettings Class
+          href: wmi-provider/sqlcachedependencydatabasesettings-class.md
+        - name: StaticTypeSettings Class
+          href: wmi-provider/statictypesettings-class.md
+        - name: SwitchSettings Class
+          href: wmi-provider/switchsettings-class.md
+        - name: TagMapInfo Class
+          href: wmi-provider/tagmapinfo-class.md
+        - name: TagPrefixInfo Class [IIS 7]
+          href: wmi-provider/tagprefixinfo-class.md
+        - name: TraceAreaSettings Class
+          href: wmi-provider/traceareasettings-class.md
+        - name: TraceFailedRequestsLogging Class
+          href: wmi-provider/tracefailedrequestslogging-class.md
+        - name: TraceListenerSettings Class
+          href: wmi-provider/tracelistenersettings-class.md
+        - name: TraceSettings Class
+          href: wmi-provider/tracesettings-class.md
+        - name: TraceUrlAreaSettings Class
+          href: wmi-provider/traceurlareasettings-class.md
+        - name: TraceUrlSettings Class
+          href: wmi-provider/traceurlsettings-class.md
+        - name: TypedElement Class
+          href: wmi-provider/typedelement-class.md
+          items: 
+            - name: ListenerElement Class
+              href: wmi-provider/listenerelement-class.md
+        - name: UrlSequenceSettings Class
+          href: wmi-provider/urlsequencesettings-class.md
+        - name: VerbsSettings Class
+          href: wmi-provider/verbssettings-class.md
+        - name: VirtualDirectoryElementDefaults Class
+          href: wmi-provider/virtualdirectoryelementdefaults-class.md
+        - name: WebProxyScriptSettings Class
+          href: wmi-provider/webproxyscriptsettings-class.md
+        - name: WebServicesProtocolSettings Class
+          href: wmi-provider/webservicesprotocolsettings-class.md
+        - name: WsdlHelpGeneratorInfo Class
+          href: wmi-provider/wsdlhelpgeneratorinfo-class.md
+    - name: Object Class
+      href: wmi-provider/object-class.md
+      items: 
+        - name: AppDomain Class
+          href: wmi-provider/appdomain-class.md
+          items: 
+            - name: AppDomain.Unload Method
+              href: wmi-provider/appdomain-unload-method.md
+        - name: ApplicationPool Class
+          href: wmi-provider/applicationpool-class.md
+          items: 
+            - name: ApplicationPool.Create Method
+              href: wmi-provider/applicationpool-create-method.md
+            - name: ApplicationPool.GetState Method
+              href: wmi-provider/applicationpool-getstate-method.md
+            - name: ApplicationPool.Recycle Method
+              href: wmi-provider/applicationpool-recycle-method.md
+            - name: ApplicationPool.RevertToParent Method
+              href: wmi-provider/applicationpool-reverttoparent-method.md
+            - name: ApplicationPool.Start Method
+              href: wmi-provider/applicationpool-start-method.md
+            - name: ApplicationPool.Stop Method
+              href: wmi-provider/applicationpool-stop-method.md
+        - name: ConfiguredObject Class
+          href: wmi-provider/configuredobject-class.md
+          items: 
+            - name: ConfiguredObject.GetAllSections Method
+              href: wmi-provider/configuredobject-getallsections-method.md
+            - name: ConfiguredObject.GetSection Method
+              href: wmi-provider/configuredobject-getsection-method.md
+            - name: Application Class
+              href: wmi-provider/application-class.md
+              items: 
+                - name: Application.Create Method
+                  href: wmi-provider/application-create-method.md
+                - name: Application.RevertToParent Method
+                  href: wmi-provider/application-reverttoparent-method.md
+            - name: Site Class
+              href: wmi-provider/site-class.md
+              items: 
+                - name: Site.Create Method
+                  href: wmi-provider/site-create-method.md
+                - name: Site.GetState Method
+                  href: wmi-provider/site-getstate-method.md
+                - name: Site.RevertToParent Method
+                  href: wmi-provider/site-reverttoparent-method.md
+                - name: Site.Start Method
+                  href: wmi-provider/site-start-method.md
+                - name: Site.Stop Method
+                  href: wmi-provider/site-stop-method.md
+            - name: VirtualDirectory Class
+              href: wmi-provider/virtualdirectory-class.md
+              items: 
+                - name: VirtualDirectory.Create Method
+                  href: wmi-provider/virtualdirectory-create-method.md
+                - name: VirtualDirectory.RevertToParent Method
+                  href: wmi-provider/virtualdirectory-reverttoparent-method.md
+        - name: HttpRequest Class
+          href: wmi-provider/httprequest-class.md
+        - name: Server Class
+          href: wmi-provider/server-class.md
+          items: 
+            - name: Server.BeginUpdateBatch Method
+              href: wmi-provider/server-beginupdatebatch-method.md
+            - name: Server.EndUpdateBatch Method
+              href: wmi-provider/server-endupdatebatch-method.md
+        - name: SSLBinding Class
+          href: wmi-provider/sslbinding-class.md
+          items: 
+            - name: SSLBinding.Create Method
+              href: wmi-provider/sslbinding-create-method.md
+        - name: WorkerProcess Class
+          href: wmi-provider/workerprocess-class.md
+          items: 
+            - name: WorkerProcess.GetExecutingRequests Method
+              href: wmi-provider/workerprocess-getexecutingrequests-method.md
+            - name: WorkerProcess.GetState Method
+              href: wmi-provider/workerprocess-getstate-method.md
+    - name: ObjectConfigurationAssociation Class
+      href: wmi-provider/objectconfigurationassociation-class.md
+      items: 
+        - name: ApplicationContainsConfigurationSection Class
+          href: wmi-provider/applicationcontainsconfigurationsection-class.md
+        - name: SiteContainsConfigurationSection Class
+          href: wmi-provider/sitecontainsconfigurationsection-class.md
+        - name: VirtualDirectoryContainsConfigurationSection Class
+          href: wmi-provider/virtualdirectorycontainsconfigurationsection-class.md
+    - name: ObjectContainerAssociation Class
+      href: wmi-provider/objectcontainerassociation-class.md
+      items: 
+        - name: ApplicationContainsVirtualDirectory Class
+          href: wmi-provider/applicationcontainsvirtualdirectory-class.md
+        - name: ApplicationPoolContainsApplication Class
+          href: wmi-provider/applicationpoolcontainsapplication-class.md
+        - name: ApplicationPoolContainsProcess Class
+          href: wmi-provider/applicationpoolcontainsprocess-class.md
+        - name: ServerContainsApplicationPool Class
+          href: wmi-provider/servercontainsapplicationpool-class.md
+        - name: ServerContainsSite Class
+          href: wmi-provider/servercontainssite-class.md
+        - name: ServerContainsSSLBinding Class
+          href: wmi-provider/servercontainssslbinding-class.md
+        - name: SiteContainsApplication Class
+          href: wmi-provider/sitecontainsapplication-class.md
+        - name: SiteUsesSSLBinding Class
+          href: wmi-provider/siteusessslbinding-class.md
+        - name: WorkerProcessContainsAppDomain Class
+          href: wmi-provider/workerprocesscontainsappdomain-class.md
+- name: Contribute
+  href: contribute.md
+- name: Configuration Reference
+  href: configuration/index.md
+- name: IIS Administration
+  href: https://docs.microsoft.com/IIS-Administration/

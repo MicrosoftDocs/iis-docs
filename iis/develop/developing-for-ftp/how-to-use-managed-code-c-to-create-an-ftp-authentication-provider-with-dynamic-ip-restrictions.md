@@ -60,10 +60,10 @@ The FTP service contains a feature for restricting connections based on IP addre
 
 A database makes an ideal choice because of the ease of data access and the general availability of tools that are available for manipulating data in a database. The next challenge is to use the existing FTP extensibility interfaces to implement the necessary logic to detect login flooding that an attacker would use. By way of review, the available extensibility interfaces are:
 
-- [IFtpAuthenticationProvider Interface](https://msdn.microsoft.com/en-us/library/dd692892.aspx)
-- [IFtpHomeDirectoryProvider Interface](https://msdn.microsoft.com/en-us/library/dd692893.aspx)
-- [IFtpLogProvider Interface](https://msdn.microsoft.com/en-us/library/dd692885.aspx)
-- [IFtpRoleProvider Interface](https://msdn.microsoft.com/en-us/library/dd692895.aspx)
+- [IFtpAuthenticationProvider Interface](https://msdn.microsoft.com/library/dd692892.aspx)
+- [IFtpHomeDirectoryProvider Interface](https://msdn.microsoft.com/library/dd692893.aspx)
+- [IFtpLogProvider Interface](https://msdn.microsoft.com/library/dd692885.aspx)
+- [IFtpRoleProvider Interface](https://msdn.microsoft.com/library/dd692895.aspx)
 
 You could easily write a provider that takes advantage of all of these interfaces in order to tighten security to a greater degree, but the provider in this walkthrough will use only the following interfaces:
 
@@ -174,7 +174,7 @@ In this step, you will implement the logging extensibility interface for the dem
 > [!NOTE]
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following topic on the Microsoft MSDN Web site:
 
-> [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c(VS.80).aspx)
+> [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/library/ex0ss12c(VS.80).aspx)
 
 
 <a id="03"></a>

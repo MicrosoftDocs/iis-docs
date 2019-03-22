@@ -31,7 +31,7 @@ This article describes some techniques that can be used for debugging and for re
 
 A number of view state issues were fixed with ASP.NET 1.0 hotfixes and service packs, and those fixes are also part of ASP.NET 1.1. Make sure that you have applied the latest fixes before tracking issues that have already been resolved. You can obtain the latest Microsoft .NET Framework updates from the following Microsoft Developer Network (MSDN) Web site:
 
-[https://msdn.microsoft.com/en-us/netframework/aa569276.aspx](https://msdn.microsoft.com/en-us/netframework/aa569276.aspx)
+[https://msdn.microsoft.com/netframework/aa569276.aspx](https://msdn.microsoft.com/netframework/aa569276.aspx)
 
 **Set the validationKey attribute if you are running in a Web farm**
 
@@ -107,5 +107,5 @@ The workaround for this scenario is to use an explicit validationKey attribute i
 ### Other Resources
 
 - [Troubleshooting the "View state is invalid" error with ASP.NET](https://support.microsoft.com/kb/829743)
-- [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](https://msdn.microsoft.com/en-us/library/aa302388.aspx)
+- [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](https://msdn.microsoft.com/library/aa302388.aspx)
 - [How to create keys by using Visual C# .NET for use in Forms authentication](https://support.microsoft.com/kb/312906)

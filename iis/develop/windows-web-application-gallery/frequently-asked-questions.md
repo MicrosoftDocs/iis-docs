@@ -19,7 +19,7 @@ Here is a list of frequently asked questions designed to provide a better unders
  A. You can submit your application at the following URL:
 
 - *Windows Web App Gallery for Developers*  
-    [http://webgallery.microsoft.com](http://webgallery.microsoft.com/)
+    <https://webgallery.microsoft.com>
 
 **Q. Is my web application qualified to be part of Windows Web Application Gallery?**  
  A. Your web application must satisfy the following principles in order to be a part of Web Application Gallery. If you have more questions, please contact [appgal@microsoft.com](mailto:appgal@microsoft.com).

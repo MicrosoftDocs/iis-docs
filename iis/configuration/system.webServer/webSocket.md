@@ -59,7 +59,7 @@ If an incoming request is to be accepted as a WebSocket request and subsequently
 
 Once the response is sent, the handler can get a pointer to the IWebSocketContext through the IHttpContext3's GetNamedContext API.
 
-For more information, see [IWebSocketContext interface](https://msdn.microsoft.com/en-us/library/hh852804(v=vs.90).aspx).
+For more information, see [IWebSocketContext interface](https://msdn.microsoft.com/library/hh852804.aspx).
   
 
 ### How to configure webSocket

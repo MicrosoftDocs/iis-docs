@@ -66,7 +66,7 @@ Each ParameterEntry type has a specific format for defining the scope and the ma
 
 #### TextFile ParameterEntry types
 
-With the TextFile type, the scope is a [regular expression](https://msdn.microsoft.com/en-us/library/az24scfc.aspx) used to identify a file or set of files to target. The match is a regular expression that represents the string to be replaced. The WDT applies the parameter substitution to all strings that are found by the match in all of the files identified by the scope. When defining regular expressions for TextFile ParameterEntry types, it is important to make sure that you limit both your match and your scope to the most precise expressions you can define.
+With the TextFile type, the scope is a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) used to identify a file or set of files to target. The match is a regular expression that represents the string to be replaced. The WDT applies the parameter substitution to all strings that are found by the match in all of the files identified by the scope. When defining regular expressions for TextFile ParameterEntry types, it is important to make sure that you limit both your match and your scope to the most precise expressions you can define.
 
 TextFile gives you the most reliable method for identifying targets within a file when you have complete control over the source and you are able to define the strings to be targeted. If you do not have complete control over the source, you can use the TextFilePosition parameterEntry type to uniquely identify the target. This most commonly happens with configuration files that have other aspects of the application that expect specific data in both modified and unmodified versions of the file.
 
@@ -80,7 +80,7 @@ For example, you could specify that a database user name needs to be placed with
 
 Many applications use XML files for data or configuration. All Microsoft® .NET applications, and many PHP applications, use a Web.config file for storing Web site and application configuration information. When identifying a target within a XML file, the most reliable mechanism to use is an XPath query.
 
-The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](https://msdn.microsoft.com/en-us/library/az24scfc.aspx) to identify the target file(s). The match is specified as an [XPath query](https://msdn.microsoft.com/en-us/library/ms256471.aspx). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
+The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) to identify the target file(s). The match is specified as an [XPath query](https://msdn.microsoft.com/library/ms256471.aspx). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
 
 For example, an application might have a SQL connectionString in a Web.config file. There may be more than one connectionString in the file to allow for different database types:
 
@@ -92,7 +92,7 @@ You could use the generated connection string parameter in the following example
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample3.xml)]
 
 
-For more information, see the article "[XPath Syntax](https://msdn.microsoft.com/en-us/library/ms256471.aspx)."
+For more information, see the article "[XPath Syntax](https://msdn.microsoft.com/library/ms256471.aspx)."
 
 #### ProviderPath
 
@@ -110,7 +110,7 @@ The scope of a ProviderPath entry refers to the type of provider being parameter
 
 There may be times when using a regular expression to replace a text string in a file may not be precise enough. For example, there may be a string that you want to replace in one portion of the file but not in another. Or you may not be able to use a regular expression to uniquely identify the string to be changed. For those situations, you can use the TextFilePosition ParameterEntry type.
 
-The scope for a TextFilePositionEntry type is defined the same way as for TextFile, using a [regular expression](https://msdn.microsoft.com/en-us/library/az24scfc.aspx) to identify the target file(s). The match is specified as a series of three integers separated by semicolons (;). The first integer specifies the line number in the file. The second integer specifies the number of characters from the beginning of the line. The third integer specifies the number of characters to replace. You do need to be careful when specifying your target, as the parameter replacement will extend beyond the end of a line if the match numbers specify a target that would include end-of-line characters within the target length.
+The scope for a TextFilePositionEntry type is defined the same way as for TextFile, using a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) to identify the target file(s). The match is specified as a series of three integers separated by semicolons (;). The first integer specifies the line number in the file. The second integer specifies the number of characters from the beginning of the line. The third integer specifies the number of characters to replace. You do need to be careful when specifying your target, as the parameter replacement will extend beyond the end of a line if the match numbers specify a target that would include end-of-line characters within the target length.
 
 For example, you could specify that the database user name from the TextFile example also needs to be included in a configuration file. The target in this file cannot be uniquely identified with a regular expression. Using TextFilePosition, we can target the specific string in the file based on its location instead of its content.
 
@@ -150,7 +150,7 @@ There are several types of parameter validation that are available. If none of t
     [!code-xml[Main](reference-for-the-web-application-package/samples/sample7.xml)]
 
     Currently, there is no way to escape a comma (,) so that it may be included as part of one of the values of an enumeration.
-- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, please refer to the Microsoft® Developer Network (MSDN®) [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is:
+- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, please refer to the Microsoft® Developer Network (MSDN®) [Regular Expression Language Elements](https://msdn.microsoft.com/library/az24scfc.aspx) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is:
 
     [!code-xml[Main](reference-for-the-web-application-package/samples/sample8.xml)]
 
@@ -211,7 +211,7 @@ In the example, note:
 - iisApp is one of the 10 automatically translated parameters; do not specify translations for this parameter unless the default translations were insufficient for your needs.
 - Specify translations for both the "friendlyName" and the "description". If you do not specify a friendlyName, the UI will use the parameter name in all cases.
 
-For a table of common International Organization for Standardization (ISO) culture codes on MSDN, see the [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/en-us/library/ms866170.aspx).
+For a table of common International Organization for Standardization (ISO) culture codes on MSDN, see the [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/library/ms866170.aspx).
 
 ## xxxx.sql
 
@@ -232,12 +232,12 @@ Samples of Web App Gallery integration are available for reference.
 
 ## Links for Further Information
 
-- [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx).
-- [XPath syntax](https://msdn.microsoft.com/en-us/library/ms256471.aspx).
-- [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/en-us/library/ms866170.aspx).
+- [Regular Expression Language Elements](https://msdn.microsoft.com/library/az24scfc.aspx).
+- [XPath syntax](https://msdn.microsoft.com/library/ms256471.aspx).
+- [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/library/ms866170.aspx).
 
 Web App Gallery Integration Samples.
 
 - [IIS 7.0 Configuration Reference](https://www.iis.net/configreference).
 - [Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md).
-- [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx).
+- [Regular Expression Language Elements](https://msdn.microsoft.com/library/az24scfc.aspx).

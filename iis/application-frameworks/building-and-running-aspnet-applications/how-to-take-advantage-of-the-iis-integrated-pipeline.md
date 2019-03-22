@@ -191,7 +191,7 @@ Feel free to check out the blog, [http://www.mvolo.com/](http://www.mvolo.com/),
 
 ## Appendix
 
-This Membership provider is based on the sample XML membership provider found in this [MSDN article](https://msdn.microsoft.com/en-us/library/aa479031.aspx).
+This Membership provider is based on the sample XML membership provider found in this [MSDN article](https://msdn.microsoft.com/library/aa479031.aspx).
 
 To use this Membership provider, save the code as **XmlMembershipProvider.cs** in your `%systemdrive%\inetpub\wwwroot\App\_Code` directory. If this directory doesn't exist you will have to create it. Note - be sure to set Save As: All Files if using Notepad to prevent the file from being saved as XmlMembershipProvider.cs.txt.
 

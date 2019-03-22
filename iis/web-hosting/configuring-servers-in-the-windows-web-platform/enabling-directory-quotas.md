@@ -15,7 +15,7 @@ by [Walter Oliver](https://github.com/walterov)
 
 Starting with Windows Server® 2003 R2, File Server Resource Manager (FSRM) offers advanced quota and directory management. The quota system can now be based on directories, rather than set by a Windows user. This enables a quick and convenient way to restrict the amount of content uploaded to a Web site's root directory, rather than configuring per user.
 
-But new to Windows Server® 2008 is the ability to programmatically manage the quotas and other features offered by FSRM. For more information, go to [https://msdn.microsoft.com/en-us/library/bb613366.aspx](https://msdn.microsoft.com/en-us/library/bb613366.aspx).
+But new to Windows Server® 2008 is the ability to programmatically manage the quotas and other features offered by FSRM. For more information, go to [https://msdn.microsoft.com/library/bb613366.aspx](https://msdn.microsoft.com/library/bb613366.aspx).
 
 ## Installing, Creating, and Setting Quotas
 
@@ -58,4 +58,4 @@ Quotas can also be created using the command-line tool dirquota.exe (see [C# and
 [!code-console[Main](enabling-directory-quotas/samples/sample1.cmd)]
 
 
-For more information about the File Server Resource Manager, go to [File Server Resource Manager](http://technet2.microsoft.com/WindowsServer2008/en/library/d6d480ca-18ec-4dee-aafc-a9e7971038cf1033.mspx).
+For more information about the File Server Resource Manager, see [File Server Resource Manager overview](https://docs.microsoft.com/windows-server/storage/fsrm/fsrm-overview).

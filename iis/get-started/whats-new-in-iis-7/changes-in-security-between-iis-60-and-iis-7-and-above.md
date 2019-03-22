@@ -127,7 +127,7 @@ To illustrate how each of the IIS 6.0 configuration settings are carried over in
 | **SslUseDsMapper** | The SslUseDsMapper property specifies whether IIS is to use the Windows Directory Service certificate mapper or IIS certificate mapper. If SSLUseDSMapper is set to false, IIS uses the IIS certificate mapper. | This value will now be stored in http.sys in the PHTTP\_SERVICE\_CONFIG\_SSL\_PARAM object. |
 
 
-For more information on the HTTP.SYS PHTTP\_SERVICE\_CONFIG\_SSL\_PARAM object refer to the following [documentation](https://msdn.microsoft.com/en-us/library/aa364647.aspx).
+For more information on the HTTP.SYS PHTTP\_SERVICE\_CONFIG\_SSL\_PARAM object refer to the following [documentation](https://msdn.microsoft.com/library/aa364647.aspx).
 
 All these changes are handled transparently under the covers so as a server Administrator there is nothing special you need to do--IIS will do everything for you. If you have applications that are accessing the old IIS 6.0 properties now located in HTTP.SYS's configuration store, our ABO mapper interface will ensure that correct values are read/written so your applications will not fail, but instead will continue to work.
 

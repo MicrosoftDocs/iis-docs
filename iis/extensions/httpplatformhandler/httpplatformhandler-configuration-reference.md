@@ -41,7 +41,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 | `processesPerApplication` | Optional integer attribute. Specifies the number of instances of the process specified in the **processPath** setting that can be spun up per application. Maximum is 100. The default value is `1`. |
 | `forwardWindowsAuthToken` | True or False. New for v1.2. If this setting is set to true, the token will be forwarded to the child process listening on %HTTP\_PLATFORM\_PORT% as a header 'X-IIS-WindowsAuthToken' per request. It is the responsibility of that process to call CloseHandle on this token per request. The default value is `false`. |
 
-#### Child Elements
+### Child Elements
 
 | **Element** | **Description** |
 | --- | --- |

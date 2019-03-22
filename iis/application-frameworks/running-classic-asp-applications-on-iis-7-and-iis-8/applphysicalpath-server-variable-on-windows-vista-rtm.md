@@ -36,4 +36,4 @@ To resolve this issue for Windows Vista, you can install Windows Vista SP1, or y
 For more information about IIS server variables, see the following page on the Microsoft MSDN Web site:
 
 **IIS Server Variables**  
-[https://msdn.microsoft.com/en-us/library/ms524602.aspx](https://msdn.microsoft.com/en-us/library/ms524602.aspx)
+[https://msdn.microsoft.com/library/ms524602.aspx](https://msdn.microsoft.com/library/ms524602.aspx)

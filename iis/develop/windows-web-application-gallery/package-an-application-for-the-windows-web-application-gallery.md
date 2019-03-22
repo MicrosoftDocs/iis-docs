@@ -153,7 +153,7 @@ Note that it is considered a risky security practice to grant "Write" or "Modify
 | 2 | Write | 6 | Read,Write |
 | 3 | Write,Execute | 7 | Modify |
 
-For a full list of the various user rights and their descriptions, see [FileSystemRights Enumeration](https://msdn.microsoft.com/en-us/library/system.security.accesscontrol.filesystemrights.aspx).
+For a full list of the various user rights and their descriptions, see [FileSystemRights Enumeration](https://msdn.microsoft.com/library/system.security.accesscontrol.filesystemrights.aspx).
 
 For IIS-specific ACL guidance, see the article "[Securing Content in IIS through File System ACLs](../../get-started/planning-for-security/secure-content-in-iis-through-file-system-acls.md)."
 

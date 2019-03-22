@@ -1,13 +1,10 @@
 ---
 title: "Scalable Web Infrastructure"
-author: shirhatti
 description: "Implement a scalable Web infrastructure with built-in HTTP-based load balancing and intelligent request handling and routing."
-ms.author: soshir
-ms.date: 3/6/2018
+ms.date: 03/06/2018
 msc.type: authoredcontent
 ---
-Scalable Web Infrastructure
----------------------------
+# Scalable Web Infrastructure
 
 Implement a scalable Web infrastructure with built-in HTTP-based load balancing and intelligent request handling and routing.
 

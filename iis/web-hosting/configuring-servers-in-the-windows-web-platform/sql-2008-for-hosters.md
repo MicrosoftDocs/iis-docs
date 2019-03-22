@@ -138,10 +138,10 @@ SQL Server 2008 provides new features for monitoring servers and troubleshooting
 
 The SQL Server driver for PHP is designed to enable reliable, scalable integration with SQL Server for PHP applications deployed on the Windows platform. The SQL Server 2005 driver for PHP is a PHP 5 extension that allows for the reading and writing of SQL Server data from within PHP scripts. The extension provides a procedural interface for accessing data in all editions of SQL Server 2005 and SQL Server 2008. It makes use of PHP features, including PHP streams, to read and write large objects. Download the SQL Server 2005 driver for PHP here: &lt;link: [https://www.microsoft.com/sqlserver/2005/en/us/PHP-Driver.aspx](https://www.microsoft.com/sqlserver/2005/en/us/PHP-Driver.aspx)&gt;.   
 Source code is available here: &lt;link: [http://www.codeplex.com/SQL2K5PHP](http://www.codeplex.com/SQL2K5PHP)&gt;.   
-A link to this paper, &lt;link: [https://msdn.microsoft.com/en-us/library/cc793139(SQL.90).aspx](https://msdn.microsoft.com/en-us/library/cc793139(SQL.90).aspx)&gt;, explains how to load and configure the driver, and discusses how to leverage several of the features. Complete information and samples are available on the following sites:
+A link to this paper, &lt;link: [https://msdn.microsoft.com/library/cc793139(SQL.90).aspx](https://msdn.microsoft.com/library/cc793139(SQL.90).aspx)&gt;, explains how to load and configure the driver, and discusses how to leverage several of the features. Complete information and samples are available on the following sites:
 
-- MSDN Library &lt;link: [https://msdn.microsoft.com/en-us/library/cc296221.aspx](https://msdn.microsoft.com/en-us/library/cc296221.aspx)&gt;
-- Forums at MSDN &lt;link: [http://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1](http://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1)&gt;
+- MSDN Library &lt;link: [https://msdn.microsoft.com/library/cc296221.aspx](https://msdn.microsoft.com/library/cc296221.aspx)&gt;
+- Forums at MSDN &lt;link: [http://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1](https://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1)&gt;
 - SQL Server Driver Team Blog &lt;link: [https://blogs.msdn.com/sqlphp/](https://blogs.msdn.com/sqlphp/)&gt;
 
 <a id="tsql"></a>

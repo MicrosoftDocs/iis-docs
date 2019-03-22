@@ -7,8 +7,8 @@ ms.assetid: cdb50902-a5ee-4809-9446-169d325d4937
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-20-breaking-changes-on-iis
 msc.type: authoredcontent
 ---
-ASP.NET 2.0 Breaking Changes on IIS 7.0
-====================
+# ASP.NET 2.0 Breaking Changes on IIS 7.0
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction

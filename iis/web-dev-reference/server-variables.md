@@ -1,13 +1,10 @@
 ---
 title: "IIS Server Variables"
-author: shirhatti
 description: "IIS Server Variables provide information about the server"
-ms.author: soshir
 ms.date: 03/11/2008
 msc.type: authoredcontent
 ---
-IIS Server Variables
-====================
+# IIS Server Variables
 
 IIS Server Variables provide information about the server, the connection with 
 the client, and the current request on the connection. Additionally, inbound
@@ -15,7 +12,6 @@ URL rewrite rules can be used to set custom server variables.
 
 > [!NOTE]
 > Not all server variables listed in this document are available in versions of IIS prior to IIS 8.5.
-
 
 | Server Variable       | Description                                           |
 |-----------------------|-------------------------------------------------------|
@@ -40,10 +36,10 @@ URL rewrite rules can be used to set custom server variables.
 | CERT_SUBJECT          | The subject field of the client certificate. |
 | CONTENT_LENGTH        | The length of the request body.  |
 | CONTENT_TYPE          | The MIME type of the request body. Used with queries that have attached information, such as **GET**, **POST**, and **PUT**. |
-| CRYPT_CIPHER_ALG_ID   | The cryptographic cipher algorithm used to establish the connection. The hex value of the algorithm is established in the [ALG_ID data type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa375549(v=vs.85).aspx).<br/>For example, 256-bit AES(CALG_AES_256) will be `6610`. |
-| CRYPT_HASH_ALG_ID     | The hashing algorithm used for generating Message Authentication Codes (MACs). The hex value of the algorithm is established in the [ALG_ID data type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa375549(v=vs.85).aspx).<br/>For example, MD5(CALG_MD5) will be `8003`.|
-| CRYPT_KEYEXCHANGE_ALG_ID | The key-exchange algorithm used to establish the connection. The hex value of the algorithm is established in the [ALG_ID data type](https://msdn.microsoft.com/en-us/library/windows/desktop/aa375549(v=vs.85).aspx).<br/>For example, Elliptic curve Diffie-Hellman key exchange algorithm(CALG_ECDH) will be `aa05`. |
-| CRYPT_PROTOCOL        | The cryptographic protocol used to establish the connection. The hex value of the protocol is established in the [SecPkgContext_ConnectionInfo structure](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379819(v=vs.85).aspx).<br/>For example, **TLS 1.2** will be `400`. |
+| CRYPT_CIPHER_ALG_ID   | The cryptographic cipher algorithm used to establish the connection. The hex value of the algorithm is established in the [ALG_ID data type](https://msdn.microsoft.com/library/windows/desktop/aa375549(v=vs.85).aspx).<br/>For example, 256-bit AES(CALG_AES_256) will be `6610`. |
+| CRYPT_HASH_ALG_ID     | The hashing algorithm used for generating Message Authentication Codes (MACs). The hex value of the algorithm is established in the [ALG_ID data type](https://msdn.microsoft.com/library/windows/desktop/aa375549(v=vs.85).aspx).<br/>For example, MD5(CALG_MD5) will be `8003`.|
+| CRYPT_KEYEXCHANGE_ALG_ID | The key-exchange algorithm used to establish the connection. The hex value of the algorithm is established in the [ALG_ID data type](https://msdn.microsoft.com/library/windows/desktop/aa375549(v=vs.85).aspx).<br/>For example, Elliptic curve Diffie-Hellman key exchange algorithm(CALG_ECDH) will be `aa05`. |
+| CRYPT_PROTOCOL        | The cryptographic protocol used to establish the connection. The hex value of the protocol is established in the [SecPkgContext_ConnectionInfo structure](https://msdn.microsoft.com/library/windows/desktop/aa379819(v=vs.85).aspx).<br/>For example, **TLS 1.2** will be `400`. |
 | DOCUMENT_ROOT         | The physical path of the directory the IIS Website. |
 | FORWARDED_URL         | The forwarded URL. |
 | GATEWAY_INTERFACE     | The revision of the CGI specification used by the server. The format is CGI/revision. |
@@ -61,8 +57,8 @@ URL rewrite rules can be used to set custom server variables.
 | LOCAL_ADDR            |  The server address on which the request came in. This is important on computers where there can be multiple IP addresses bound to the computer, and you want to find out which address the request used. |
 | LOGON_USER            | The Windows account that the user is impersonating while connected to your Web server. Use **REMOTE_USER**, **UNMAPPED_REMOTE_USER**, or **AUTH_USER** to view the raw user name that is contained in the request header. The only time LOGON_USER holds a different value than these other variables is if you have an authentication filter installed. |
 | MANAGED_PIPELINE_MODE | The managed pipeline mode of the application pool that is running the IIS worker process handling the request. |
-| PATH_INFO             | Path information, as given by the client, for example, `/vdir/myisapi.dll/zip`. If this information comes from a URL, it is decoded by the server before it is passed to the CGI script or ISAPI filter.<br/>If the [AllowPathInfoForScriptMappings](https://msdn.microsoft.com/en-us/library/ms525840(v=vs.90).aspx) metabase property is set to true (to support exclusive CGI functionality), **PATH_INFO** will only contain `/zip` and ISAPI applications such as ASP will break. |
-| PATH_TRANSLATED       | The physical path that maps to the virtual path in **PATH_INFO**, for example, `c:\inetpub\wwwroot\vdir\myisapi.dll`. This variable is used by IIS during the processing of ISAPI applications.<br/>If the [AllowPathInfoForScriptMappings](https://msdn.microsoft.com/en-us/library/ms525840(v=vs.90).aspx) metabase property is set to true (to support exclusive CGI functionality), PATH_INFO will only contain `/zip` and ISAPI applications such as ASP will break. |
+| PATH_INFO             | Path information, as given by the client, for example, `/vdir/myisapi.dll/zip`. If this information comes from a URL, it is decoded by the server before it is passed to the CGI script or ISAPI filter.<br/>If the [AllowPathInfoForScriptMappings](https://msdn.microsoft.com/library/ms525840.aspx) metabase property is set to true (to support exclusive CGI functionality), **PATH_INFO** will only contain `/zip` and ISAPI applications such as ASP will break. |
+| PATH_TRANSLATED       | The physical path that maps to the virtual path in **PATH_INFO**, for example, `c:\inetpub\wwwroot\vdir\myisapi.dll`. This variable is used by IIS during the processing of ISAPI applications.<br/>If the [AllowPathInfoForScriptMappings](https://msdn.microsoft.com/library/ms525840.aspx) metabase property is set to true (to support exclusive CGI functionality), PATH_INFO will only contain `/zip` and ISAPI applications such as ASP will break. |
 | QUERY_STRING          | Query information stored in the string following the question mark (?) in the HTTP request. |
 | REMOTE_ADDR           | The IP address of the remote host that is making the request. |
 | REMOTE_HOST           | The name of the host that is making the request. If the server does not have this information, it will set REMOTE_ADDR and leave this empty. |
@@ -74,7 +70,7 @@ URL rewrite rules can be used to set custom server variables.
 | REQUEST_URI           | The path-absolute part of the URI.<br/>For example `https://contoso.com:8042/over/there?name=ferret` would return `/over/there` |
 | SCRIPT_FILENAME       | The physical path of the current request. |
 | SCRIPT_NAME           | A virtual path to the script being executed. |
-| SCRIPT_TRANSLATED     | The [extended-length path](https://msdn.microsoft.com/en-us/library/aa365247(VS.85).aspx#maxpath) to the requested file (prefixed with `\\?\`). |
+| SCRIPT_TRANSLATED     | The [extended-length path](https://msdn.microsoft.com/library/aa365247(VS.85).aspx#maxpath) to the requested file (prefixed with `\\?\`). |
 | SERVER_ADDR           | The IP address that the site is bound to. |
 | SERVER_NAME           | The server's host name, DNS alias, or IP address as it would appear in self-referencing URLs. |
 | SERVER_PORT           | The server port number to which the request was sent. |

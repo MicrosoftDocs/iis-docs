@@ -46,7 +46,7 @@ This release of the SDK includes support for the following:
 - Trickplay on ARM platforms have some known issues where the playback rate isn't honored and playback still continues on x1.
 - The performance and the count of play backing multiple Smooth Streaming assets at the same time will vary depending on your hardware performance (CPU/GPU) and available bandwidth. For better results it is recommended to restrict/select qualities based on your window size.
 - When you navigate from a Smooth Streaming application, Windows will suspend the application. This might cause unexpected behavior. To overcome this, have the application listen to the Suspend/Resume event and call (Pause)/(Play) accordingly.
-- On Windows 8 apps, screen saver isn't disabled automatically when there is video playback, This might cause issues. To avoid this, disable the screen saver for Smooth Streaming applications by using [DisplayRequest.RequestActive](https://msdn.microsoft.com/en-us/library/windows/apps/windows.system.display.displayrequest.requestactive.aspx).
+- On Windows 8 apps, screen saver isn't disabled automatically when there is video playback, This might cause issues. To avoid this, disable the screen saver for Smooth Streaming applications by using [DisplayRequest.RequestActive](https://msdn.microsoft.com/library/windows/apps/windows.system.display.displayrequest.requestactive.aspx).
 - You must change the build platform from **Any Cpu** to the targeted architecture (x64/x86/ARM) before compiling the project in Visual Studio. Otherwise, you might get compilation errors and warnings such as the following:  
     ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image1.png)  
   

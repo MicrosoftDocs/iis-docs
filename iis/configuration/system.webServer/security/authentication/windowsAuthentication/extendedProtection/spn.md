@@ -59,9 +59,9 @@ Consider the following example scenarios:
 
 More information about Extended Protection is available in the following topic:
 
-> [Integrated Windows Authentication with Extended Protection](https://msdn.microsoft.com/en-us/library/dd639324.aspx)
+> [Integrated Windows Authentication with Extended Protection](https://msdn.microsoft.com/library/dd639324.aspx)
 > 
-> [Service Principal Names](https://msdn.microsoft.com/en-us/library/ms677949(VS.85).aspx)
+> [Service Principal Names](https://msdn.microsoft.com/library/ms677949(VS.85).aspx)
 
 
 <a id="002"></a>

@@ -119,7 +119,7 @@ This command timeout is used to specify the time out on the launched exe in the 
 
 ### Dacpac Options
 
-Dacpac Framework supports a lot of different settings and options that you can apply on the dacpac files. A list and explanation of all the options can be found here [https://msdn.microsoft.com/en-us/library/microsoft.sqlserver.dac.dacdeployoptions.aspx](https://msdn.microsoft.com/en-us/library/microsoft.sqlserver.dac.dacdeployoptions.aspx).   
+Dacpac Framework supports a lot of different settings and options that you can apply on the dacpac files. A list and explanation of all the options can be found here [https://msdn.microsoft.com/library/microsoft.sqlserver.dac.dacdeployoptions.aspx](https://msdn.microsoft.com/library/microsoft.sqlserver.dac.dacdeployoptions.aspx).   
 All these options are exposed through dbDacFx provider and applied as provider settings. They will also show up in the help listing for the provider
 
 [!code-console[Main](dbdacfx-provider-for-incremental-database-publishing/samples/sample10.cmd)]

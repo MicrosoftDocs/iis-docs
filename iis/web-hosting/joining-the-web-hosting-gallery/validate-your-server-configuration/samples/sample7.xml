@@ -4,5 +4,5 @@
   serviceName="wmsvc"
   serviceState="Running"
   description="Check if Web Management Service (wmsvc) is started"
-  detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
+  detailsUrlBase="https://go.microsoft.com/fwlink/?LinkId=206559"
   />

@@ -54,13 +54,13 @@ Web Platform Installer prompts for a SQL Server sa password if SQL Server 2008 E
 
 All Web Applications installed by the Web Platform Installer which have a SQL Server dependency require SQL Server to run in Mixed Mode Authentication also known as "SQL Server and Windows Authentication mode". Here is a link to an article how to change the SQL Server authentication mode:
 
-*[https://msdn.microsoft.com/en-us/library/ms188670.aspx](https://msdn.microsoft.com/en-us/library/ms188670.aspx)*
+*[https://msdn.microsoft.com/library/ms188670.aspx](https://msdn.microsoft.com/library/ms188670.aspx)*
 
 #### SA login disabled
 
 Administrators often want to use the built-in SA account to administer SQL Server. This account is still disabled even if Mixed Mode authentication is enabled. The same article explains how to enable the SA account:
 
-[https://msdn.microsoft.com/en-us/library/ms188670.aspx](https://msdn.microsoft.com/en-us/library/ms188670.aspx)
+[https://msdn.microsoft.com/library/ms188670.aspx](https://msdn.microsoft.com/library/ms188670.aspx)
 
 #### SA account doesn't work when "Existing Database" is selected.
 

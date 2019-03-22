@@ -2,5 +2,5 @@
   type="COMValidator"
   name="OldFont"
   description="Check if a COM component is installed"
-  detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
+  detailsUrlBase="https://go.microsoft.com/fwlink/?LinkId=206559"
 />

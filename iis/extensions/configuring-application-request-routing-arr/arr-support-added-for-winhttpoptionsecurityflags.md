@@ -57,4 +57,4 @@ SECURITY\_FLAG\_IGNORE\_CERT\_WRONG\_USAGE 0x00000200
 
 **WINHTTP\_OPTION\_SECURITY\_FLAGS**
 
-[https://msdn.microsoft.com/en-us/library/windows/desktop/aa384066(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384066(v=vs.85).aspx)
+[https://msdn.microsoft.com/library/windows/desktop/aa384066(v=vs.85).aspx](https://msdn.microsoft.com/library/windows/desktop/aa384066(v=vs.85).aspx)

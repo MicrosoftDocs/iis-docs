@@ -55,7 +55,7 @@ The following encoding and conversion technologies are available from Microsoft:
 - [Expression Encoder 4 with Service Pack 2](https://www.microsoft.com/en-us/download/details.aspx?id=27870) : Expression Encoder is a video-encoding and live-broadcasting application. A free version is available. The [Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) version is necessary for H.264 encoding. Some SP2 features, such as GPU encoding and live template support, are also available only in Expression Encoder 4 Pro.
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](http://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
 
 
 - Windows Azure Media Encoding Services: Incorporates the technologies of Transform Manager and Expression Encoder into the Windows Azure cloud. Going forward, the latest versions of these technologies will continue to be developed in the Windows Azure Media Services cloud.
@@ -162,10 +162,10 @@ When migrating from Windows Media Services to IIS Media Services, a phased, grad
 <a id="Toc343780155"></a>
 ### 1) Change the Encoder
 
-The [mainstream support end date for Windows Media Encoder](https://support.microsoft.com/lifecycle/?LN=en-ie&amp;C2=7761) was 12/01/2010, so if you are currently using Windows Media Encoder, switch to either using the stand-alone [Expression Encoder](http://expression.microsoft.com/en-us/cc136533) tool or a third-party encoder.
+The [mainstream support end date for Windows Media Encoder](https://support.microsoft.com/lifecycle/?LN=en-ie&amp;C2=7761) was 12/01/2010, so if you are currently using Windows Media Encoder, switch to either using the stand-alone [Expression Encoder](https://expression.microsoft.com/en-us/cc136533) tool or a third-party encoder.
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](http://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
 
 
 Replacing the encoder is the first step because the encoder is perhaps the easiest of components to replace. Expression Encoder can create content for both Windows Media Services and IIS Media Services.
@@ -176,7 +176,7 @@ Replacing the encoder is the first step because the encoder is perhaps the easie
 Depending on your requirements, your next step will be to install Silverlight on your clients, or use the OSMF plugin to prepare to Smooth Stream to Flash.
 
 <a id="Toc343780157"></a>
-#### Silverlight
+### Silverlight
 
 If your clients are currently using Windows Media Player, you can install [Silverlight](https://www.microsoft.com/silverlight/) on all your clients. Silverlight is capable of playing content from both IIS Media Services and Windows Media Services.
 
@@ -235,11 +235,11 @@ If your goal is to stream to mobile devices, it is recommended that you choose H
 To do the re-encoding, Microsoft offers three choices:
 
 - The format conversion facilities of [Windows Azure Media Services](https://www.windowsazure.com/en-us/home/features/media-services/)
-- [Transform Manager](https://www.microsoft.com/en-us/download/details.aspx?id=29890) with [Expression Encoder](http://expression.microsoft.com/en-us/cc136533) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
+- [Transform Manager](https://www.microsoft.com/en-us/download/details.aspx?id=29890) with [Expression Encoder](https://expression.microsoft.com/en-us/cc136533) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
 - Expression Encoder, if you have only a few files to convert
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](http://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
 
 
 Windows Azure Media Encoder puts the functionality of Expression Encoder into the Windows Azure Media Services cloud. Going forward, the encoding technology in Windows Azure is the one that Microsoft will continue to develop.
@@ -265,7 +265,7 @@ If your plan is to migrate at some point to Windows Azure Media Services for on-
 
 - Fragmented ISO Base Media (fMP4) offers substantial technical advantages over HLS. For more information, see [Unifying Global Video Strategies: MP4 File Fragmentation For Broadcast, Mobile and Web Delivery](http://184.168.176.117/reports-public/Adobe/20111116-fMP4-Adobe-Microsoft.pdf).
 - The Windows Azure Media Packager can easily repackage between Smooth Streaming and multi-bitrate ISO Base Media formats.
-- The Windows Azure Media Services Origin Service allows you to use a single Smooth Streaming or ISO Base Media 14496-12 multi-bitrate source to dynamically serve both Smooth Streaming and HLS clients. This feature, called dynamic packaging, avoids the need for you (or for Windows Azure) to duplicate storage for every streaming-format type (for example, MP4 for HTML5; Smooth Streaming for Silverlight, XBox, and Flash; and MPEG2-TS (MPEG 2 Transport Stream, also called M2TS) for HLS to iOS devices). As a result, you only need to store and pay for the files in one storage format. For more information, see [Walkthrough: Dynamically Packaging Assets](https://msdn.microsoft.com/en-us/library/windowsazure/jj889436.aspx).
+- The Windows Azure Media Services Origin Service allows you to use a single Smooth Streaming or ISO Base Media 14496-12 multi-bitrate source to dynamically serve both Smooth Streaming and HLS clients. This feature, called dynamic packaging, avoids the need for you (or for Windows Azure) to duplicate storage for every streaming-format type (for example, MP4 for HTML5; Smooth Streaming for Silverlight, XBox, and Flash; and MPEG2-TS (MPEG 2 Transport Stream, also called M2TS) for HLS to iOS devices). As a result, you only need to store and pay for the files in one storage format. For more information, see [Walkthrough: Dynamically Packaging Assets](https://msdn.microsoft.com/library/windowsazure/jj889436.aspx).
 
 <a id="Toc343780166"></a>
 #### A note on MPEG-DASH
@@ -319,7 +319,7 @@ The Windows Azure Media Services Ingest service uploads video via HTTPS into Win
 
 - When uploading high value content such as studio quality mezzanine files, you should pre-encrypt the files with AES 256 prior to upload. The [Media Services .NET SDK](https://nuget.org/packages/windowsazure.mediaservices) and Java SDK  support this pre-encryption, which is a best practice for compliant secure media workflows.
 - For greater efficiency when uploading your videos, you can use a fast upload UDP technology such as the one from [Aspera](http://asperasoft.com/), which can be obtained through the [Azure Store](https://www.windowsazure.com/en-us/store/service/?name=aspera).
-- If your solution requires support for bulk ingest, you can implement this using the [Media Services REST API](https://msdn.microsoft.com/en-us/library/windowsazure/jj853021.aspx), or the [.NET](https://msdn.microsoft.com/en-us/library/windowsazure/jj853021.aspx) or Java SDKs.
+- If your solution requires support for bulk ingest, you can implement this using the [Media Services REST API](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx), or the [.NET](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx) or Java SDKs.
 
 <a id="Toc343780171"></a>
 #### Encoding and Conversion Service
@@ -328,17 +328,17 @@ Windows Azure Media services can encode to and convert a variety of video and au
 
 Windows Azure Media Encoder:
 
-- Encodes video to H.264 or VC-1, with 25+ presets available. For a complete list, see [Task Preset Strings for Windows Azure Media Encoder](https://msdn.microsoft.com/en-us/library/windowsazure/jj129582.aspx).
+- Encodes video to H.264 or VC-1, with 25+ presets available. For a complete list, see [Task Preset Strings for Windows Azure Media Encoder](https://msdn.microsoft.com/library/windowsazure/jj129582.aspx).
 - Encodes audio to AAC-LC, HE-AAC, and WMA (Dolby DD+ is planned).
 - Packages to the MP4, HLS, Smooth Streaming, and WMV formats.
-- Enables you to process assets by using the [Media Services SDK for .NET](https://msdn.microsoft.com/en-us/library/windowsazure/jj129580.aspx) or the Java SDK.
+- Enables you to process assets by using the [Media Services SDK for .NET](https://msdn.microsoft.com/library/windowsazure/jj129580.aspx) or the Java SDK.
 
 <a id="Toc343780172"></a>
 #### Content Protection
 
 Content Protection is a feature of Windows Azure Media Services that provides encryption and digital rights management. Some of the features available or planned are:
 
-- Encryption with [Windows Azure Media Encryptor](https://msdn.microsoft.com/en-us/library/windowsazure/hh973610.aspx)
+- Encryption with [Windows Azure Media Encryptor](https://msdn.microsoft.com/library/windowsazure/hh973610.aspx)
 - Protection for Smooth and DASH Streaming or Apple HLS sources
 - Support for [PlayReady](https://www.microsoft.com/playready/overview/) DRM with MPEG Common Encryption (CENC)
 
@@ -430,7 +430,7 @@ In some scenarios, Windows Azure Media Services might not be the best choice. Fo
 
 You might think that an interim approach to streaming from Windows Azure would be to host IIS Media Services in an Azure Web Role. Although this might make moving an existing IIS Media Services solution to the cloud seem more straightforward, it has the following drawbacks:
 
-- Because Web Role VMs are not persistent, you would have to store state and session data on an Azure Drive via [Windows Azure Storage Services](https://msdn.microsoft.com/en-us/library/windowsazure/ee924681.aspx).
+- Because Web Role VMs are not persistent, you would have to store state and session data on an Azure Drive via [Windows Azure Storage Services](https://msdn.microsoft.com/library/windowsazure/ee924681.aspx).
 - Live streams would not be archived; you would have to implement this functionality yourself. Windows Azure Media Services Live Streaming, when available, will do this for you automatically.
 
 If your existing on-premises infrastructure is sufficient for most cases but is occasionally overwhelmed by 'bursty' traffic or events, you might consider offloading the extra traffic onto a CDN such as those offered by [Akamai](http://www.akamai.com/), [Level3](http://www.level3.com/), or [Limelight](http://www.limelight.com/).
@@ -443,9 +443,9 @@ If your existing on-premises infrastructure is sufficient for most cases but is 
 
 All of Windows Azure Media Services is accessible through REST APIs, which are built on [OData 3.0](http://www.odata.org/documentation/overview). Because it uses HTTP, the APIs will work with any platform and any device. You can program the REST APIs directly or through the .NET or Java SDKs.
 
-The .NET and Java SDKs conveniently wrap the REST APIs to make coding your solutions easier. For more information, see [Building Applications with the Media Services SDK for .NET](https://msdn.microsoft.com/en-us/library/hh973613.aspx). To download the .NET SDK for Windows Azure Media Services, see [Windows Azure Media Services .NET SDK (Preview)](https://nuget.org/packages/windowsazure.mediaservices).
+The .NET and Java SDKs conveniently wrap the REST APIs to make coding your solutions easier. For more information, see [Building Applications with the Media Services SDK for .NET](https://msdn.microsoft.com/library/hh973613.aspx). To download the .NET SDK for Windows Azure Media Services, see [Windows Azure Media Services .NET SDK (Preview)](https://nuget.org/packages/windowsazure.mediaservices).
 
-To make direct REST API calls rather than using an SDK, or to use programming languages outside of the .NET Framework, use the Media Services REST API. For more information, see [Building Applications with the Windows Azure Media Services REST API](https://msdn.microsoft.com/en-us/library/hh973618).
+To make direct REST API calls rather than using an SDK, or to use programming languages outside of the .NET Framework, use the Media Services REST API. For more information, see [Building Applications with the Windows Azure Media Services REST API](https://msdn.microsoft.com/library/hh973618).
 
 <a id="Toc343780184"></a>
 #### Smooth Streaming Client SDKs
@@ -468,9 +468,9 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 Aspera Platform on Demand (Windows Azure Store): [https://www.windowsazure.com/en-us/store/service/?name=aspera](https://www.windowsazure.com/en-us/store/service/?name=aspera)
 
-Building Applications with the Media Services SDK for .NET: [https://msdn.microsoft.com/en-us/library/hh973613.aspx](https://msdn.microsoft.com/en-us/library/hh973613.aspx)
+Building Applications with the Media Services SDK for .NET: [https://msdn.microsoft.com/library/hh973613.aspx](https://msdn.microsoft.com/library/hh973613.aspx)
 
-Building Applications with the Windows Azure Media Services REST API: [https://msdn.microsoft.com/en-us/library/windowsazure/hh973618.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/hh973618.aspx))
+Building Applications with the Windows Azure Media Services REST API: [https://msdn.microsoft.com/library/windowsazure/hh973618.aspx](https://msdn.microsoft.com/library/windowsazure/hh973618.aspx))
 
 Configuring the Transform Manager Service: [https://technet.microsoft.com/en-us/library/ff730170(v=WS.10).aspx](https://technet.microsoft.com/en-us/library/ff730170(v=WS.10).aspx)
 
@@ -480,7 +480,7 @@ Delivering content as a multicast stream: [https://technet.microsoft.com/library
 
 Digital Video Player-Ad Interface Definitions (VPAID) Compliance: [http://www.iab.net/iab\_products\_and\_industry\_services/508676/compliance/679310](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310)
 
-Expression Encoder: [http://expression.microsoft.com/en-us/cc136533](http://expression.microsoft.com/en-us/cc136533)
+Expression Encoder: [http://expression.microsoft.com/en-us/cc136533](https://expression.microsoft.com/en-us/cc136533)
 
 Expression Encoder 4 with Service Pack 2: [https://www.microsoft.com/en-us/download/details.aspx?id=27870](https://www.microsoft.com/en-us/download/details.aspx?id=27870)
 
@@ -490,11 +490,11 @@ IIS Media Services 4.1: [https://www.iis.net/media](https://www.iis.net/media)
 
 IIS Smooth Streaming Technical Overview: [https://download.microsoft.com/download/4/2/4/4247C3AA-7105-4764-A8F9-321CB6C765EB/IIS\_Smooth\_Streaming\_Technical\_Overview.pdf](https://download.microsoft.com/download/4/2/4/4247C3AA-7105-4764-A8F9-321CB6C765EB/IIS_Smooth_Streaming_Technical_Overview.pdf)
 
-Ingest Assets with the Media Services REST API: [https://msdn.microsoft.com/en-us/library/windowsazure/jj129593.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/jj129593.aspx)
+Ingest Assets with the Media Services REST API: [https://msdn.microsoft.com/library/windowsazure/jj129593.aspx](https://msdn.microsoft.com/library/windowsazure/jj129593.aspx)
 
-Ingesting Assets in Bulk (Windows Azure Media Services SDK): [https://msdn.microsoft.com/en-us/library/windowsazure/jj853022.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/jj853022.aspx)
+Ingesting Assets in Bulk (Windows Azure Media Services SDK): [https://msdn.microsoft.com/library/windowsazure/jj853022.aspx](https://msdn.microsoft.com/library/windowsazure/jj853022.aspx)
 
-Ingesting Assets in Bulk with the REST API: [https://msdn.microsoft.com/en-us/library/windowsazure/jj853021.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/jj853021.aspx)
+Ingesting Assets in Bulk with the REST API: [https://msdn.microsoft.com/library/windowsazure/jj853021.aspx](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx)
 
 Media Services Client Development: [https://social.msdn.microsoft.com/Forums/en-US/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a](https://social.msdn.microsoft.com/Forums/en-US/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a)
 
@@ -522,21 +522,20 @@ Overview of MPEG-DASH Standard: [http://dashif.org/mpeg-dash/](http://dashif.org
 
 Player Framework for Windows 8: [http://playerframework.codeplex.com/](http://playerframework.codeplex.com/)
 
-Process Assets with the Media Services SDK for .NET: [https://msdn.microsoft.com/en-us/library/windowsazure/jj129580.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/jj129580.aspx)
+Process Assets with the Media Services SDK for .NET: [https://msdn.microsoft.com/library/windowsazure/jj129580.aspx](https://msdn.microsoft.com/library/windowsazure/jj129580.aspx)
 
 Sourcing from a multicast broadcast using Windows Media Services: [https://blogs.iis.net/chriskno/archive/2008/07/14/sourcing-from-a-multicast-broadcast-using-windows-media-services.aspx](https://blogs.iis.net/chriskno/archive/2008/07/14/sourcing-from-a-multicast-broadcast-using-windows-media-services.aspx)
 
-Task Preset for Windows Azure Media Encryptor: [https://msdn.microsoft.com/en-us/library/windowsazure/hh973610.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/hh973610.aspx)
+Task Preset for Windows Azure Media Encryptor: [https://msdn.microsoft.com/library/windowsazure/hh973610.aspx](https://msdn.microsoft.com/library/windowsazure/hh973610.aspx)
 
-Task Preset Strings for Windows Azure Media Encoder: [https://msdn.microsoft.com/en-us/library/windowsazure/jj129582.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/jj129582.aspx)
+Task Preset Strings for Windows Azure Media Encoder: [https://msdn.microsoft.com/library/windowsazure/jj129582.aspx](https://msdn.microsoft.com/library/windowsazure/jj129582.aspx)
 
-Transform Manager: [https://www.iis.net/downloads/microsoft/transform-manager](https://www.iis.net/downloads/microsoft/transform-manager)
-
+Transform 
 Transform Manager 1.1 download: [https://www.microsoft.com/en-us/download/details.aspx?id=29890](https://www.microsoft.com/en-us/download/details.aspx?id=29890)
 
 Unifying Global Video Strategies: MP4 File Fragmentation for Broadcast, Mobile and Web Delivery (white paper): [http://184.168.176.117/reports-public/Adobe/20111116-fMP4-Adobe-Microsoft.pdf](http://184.168.176.117/reports-public/Adobe/20111116-fMP4-Adobe-Microsoft.pdf)
 
-Using the Windows Azure Storage Services: [https://msdn.microsoft.com/en-us/library/windowsazure/ee924681.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/ee924681.aspx)
+Using the Windows Azure Storage Services: [https://msdn.microsoft.com/library/windowsazure/ee924681.aspx](https://msdn.microsoft.com/library/windowsazure/ee924681.aspx)
 
 Windows Azure Identity: [https://www.windowsazure.com/en-us/home/features/identity/](https://www.windowsazure.com/en-us/home/features/identity/)
 
@@ -546,7 +545,7 @@ Windows Azure Media Services: [https://www.windowsazure.com/en-us/home/scenarios
 
 Windows Azure Media Services .NET SDK: [https://nuget.org/packages/windowsazure.mediaservices](https://nuget.org/packages/windowsazure.mediaservices)
 
-Windows Azure Media Services (MSDN): [https://msdn.microsoft.com/en-us/library/hh973629](https://msdn.microsoft.com/en-us/library/hh973629)
+Windows Azure Media Services (MSDN): [https://msdn.microsoft.com/library/hh973629](https://msdn.microsoft.com/library/hh973629)
 
 Windows Azure Media Services and the London 2012 Olympics: [https://weblogs.asp.net/scottgu/archive/2012/08/21/windows-azure-media-services-and-the-london-2012-olympics.aspx](https://weblogs.asp.net/scottgu/archive/2012/08/21/windows-azure-media-services-and-the-london-2012-olympics.aspx)
 

@@ -326,15 +326,12 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
     - Install NLB feature: [https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt](https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt)
 - NLB and SSL: 
 
-    - [http://technet2.microsoft.com/windowsserver/en/library/b8afa015-543d-4129-ac34-f64d45f52c751033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver/en/library/b8afa015-543d-4129-ac34-f64d45f52c751033.mspx?mfr=true)
-    - [http://technet2.microsoft.com/windowsserver2008/en/library/2f5d0612-75f9-4883-bf52-d11c7cda907f1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/2f5d0612-75f9-4883-bf52-d11c7cda907f1033.mspx?mfr=true)
-    - [http://technet2.microsoft.com/WindowsServer/en/library/1fa923cd-2d0b-4270-8433-07d58b0f5d4b1033.mspx?mfr=true](http://technet2.microsoft.com/WindowsServer/en/library/1fa923cd-2d0b-4270-8433-07d58b0f5d4b1033.mspx?mfr=true)
+    - 
     - [https://support.microsoft.com/?id=313299](https://support.microsoft.com/?id=313299)
 - Other NLB links: 
 
     - [https://technet.microsoft.com/en-us/library/cc782694.aspx](https://technet.microsoft.com/en-us/library/cc782694.aspx)
     - [https://technet.microsoft.com/en-us/library/cc778263.aspx](https://technet.microsoft.com/en-us/library/cc778263.aspx)
     - [https://support.microsoft.com/kb/323437](https://support.microsoft.com/kb/323437)
-    - [http://technet2.microsoft.com/windowsserver2008/en/library/cf7a20f6-fd77-44be-8db1-6590e3b711bb1033.mspx](http://technet2.microsoft.com/windowsserver2008/en/library/cf7a20f6-fd77-44be-8db1-6590e3b711bb1033.mspx)
     - [https://support.microsoft.com/kb/890159/en-us](https://support.microsoft.com/kb/890159/en-us)
     - [https://blogs.msdn.com/clustering](https://blogs.msdn.com/clustering)
