@@ -987,7 +987,7 @@
         - name: IIISVersionManager
           href: extensions/express-api-reference/iiisversionmanager.md
         - name: IIS Express API Reference
-          href: extensions/express-api-reference/iis-extensions/express-api-reference/.md
+          href: extensions/express-api-reference/express-api-reference.md
         - name: IIISVersion
           href: extensions/express-api-reference/iiisversion.md
         - name: IIISUserData
