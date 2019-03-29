@@ -793,7 +793,6 @@
         - name: Troubleshooting Problems with Microsoft Web Platform Installer
           href: troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md
 - name: Extensions
-  href: extensions/database-manager-reference/iis-database-manager.md
   expanded: true
   items: 
     - name: Planning for ARR
