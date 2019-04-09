@@ -64,8 +64,10 @@ To create a script map for the FastCGI handler on IIS 6.0 and IIS 5.1:
 5. Click the **Configuration…** button.
 6. Click the **Add…** button.
 7. Browse to `%WINDIR%\system32\inetsrv\` and select fcgiext.dll as the executable file.  
-    > [!NOTE]
-    >  If you are using a 64-bit platform in WOW mode, you must use the fcgiext.dll file that is located in the `%WINDIR%\SysWOW64\inetsrv` path.
+
+> [!NOTE]
+>  If you are using a 64-bit platform in WOW mode, you must use the fcgiext.dll file that is located in the `%WINDIR%\SysWOW64\inetsrv` path.
+
 8. In the **Extension** text box, enter **.php** (or another extension that is specific to your FastCGI application).
 9. Under **Verbs**, in the **Limit to** text box, enter **GET,HEAD,POST**.
 10. Select the **Script engine** and **Verify that file exists** check boxes.  
