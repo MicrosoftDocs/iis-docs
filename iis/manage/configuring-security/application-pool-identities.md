@@ -31,7 +31,10 @@ To use this virtual account when running IIS 7.0 on Windows Server 2008, you hav
 
 1. Open the IIS Management Console (INETMGR.MSC).
 2. Open the Application Pools node underneath the machine node. Select the application pool you want to change to run under an automatically generated application pool identity.
-3. Right click the application pool and select **Advanced Settings...**[![](application-pool-identities/_static/image6.jpg)](application-pool-identities/_static/image5.jpg)
+3. Right click the application pool and select **Advanced Settings...**
+
+[![](application-pool-identities/_static/image6.jpg)](application-pool-identities/_static/image5.jpg)
+
 4. Select the **Identity** list item and click the ellipsis (the button with the three dots).
 5. The following dialog appears: 
 
