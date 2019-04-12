@@ -1,23 +1,23 @@
 ---
-title: "Service Principle Name &lt;spn&gt;"
+title: "Service Principal Name &lt;spn&gt;"
 author: rick-anderson
-description: "Overview The &lt;spn&gt; element adds a Service Principle Name (SPN) to the collection of SPNs. Each SPN specifies a unique endpoint for client activity usin..."
+description: "Overview The &lt;spn&gt; element adds a Service Principal Name (SPN) to the collection of SPNs. Each SPN specifies a unique endpoint for client activity usin..."
 ms.date: 09/26/2016
 ms.assetid: 055f0622-955d-49c8-989a-897bb9c7e22e
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection/spn
 msc.type: config
 ---
-Service Principle Name &lt;spn&gt;
+Service Principal Name &lt;spn&gt;
 ====================
 <a id="001"></a>
 ## Overview
 
-The `<spn>` element adds a Service Principle Name (SPN) to the collection of SPNs. Each SPN specifies a unique endpoint for client activity using the extended protection features for Windows authentication.
+The `<spn>` element adds a Service Principal Name (SPN) to the collection of SPNs. Each SPN specifies a unique endpoint for client activity using the extended protection features for Windows authentication.
 
 Extended protection enhances the existing Windows authentication functionality in order to mitigate authentication relay or "man in the middle" attacks. This mitigation is accomplished by using security information that is implemented through two security mechanisms:
 
 - Channel-binding information that is specified through a Channel Binding Token (CBT), which is primarily used for SSL connections.
-- Service-binding information that is specified through a Service Principle Name (SPN), which is primarily used for connections that do not use SSL, or when a connection is established through a scenario that provides SSL-offloading, such as a proxy server or load-balancer.
+- Service-binding information that is specified through a Service Principal Name (SPN), which is primarily used for connections that do not use SSL, or when a connection is established through a scenario that provides SSL-offloading, such as a proxy server or load-balancer.
 
 The `<extendedProtection>` element may contain a collection of `<spn>` elements, each of which contains a unique SPN for the service binding information. Each SPN represents a unique endpoint in the connection path, which may be a Fully Qualified Domain Name (FQDN) or NetBIOS name of the destination server or a proxy server. For example, if a client is connecting to a destination server through a proxy server, the SPN collection on the destination server would need to contain the SPN for the proxy server. Each SPN in the collection must be prefixed with "HTTP," so the resulting SPN for "www.contoso.com" would be "HTTP/www.contoso.com."
 
