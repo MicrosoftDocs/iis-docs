@@ -7,8 +7,8 @@ ms.assetid: 7e1bbc1e-badb-481e-93e0-e3b01b0d82f4
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/gallery2-on-iis
 msc.type: authoredcontent
 ---
-Gallery2 on IIS
-====================
+# Gallery2 on IIS
+
 by Eric Woersching
 
 ## Introduction
@@ -70,9 +70,12 @@ Open your web browser and browse to [http://localhost/gallery2/install/index.php
 1. Click "Begin installation" to go to the authenticate page.  
     [![](gallery2-on-iis/_static/image6.png)](gallery2-on-iis/_static/image5.png)
 2. Follow the instructions and save the login.txt file into the Gallery2 directory.
-3. Click "Authenticate Me".   
- 4. Proceed to the next steps to perform a system check and choose the installation type. For this walkthrough, we use "Standard Installation" option.
-4. Specify the path to the data directory that you have created earlier. If you have configured permissions for g2data correctly, you can proceed to the next step after clicking "Save".  
+3. Click "Authenticate Me".
+
+   Proceed to the next steps to perform a system check and choose the installation type. For this walkthrough, we use "Standard Installation" option.
+
+4. Specify the path to the data directory that you have created earlier. If you have configured permissions for g2data correctly, you can proceed to the next step after clicking "Save".
+
     [![](gallery2-on-iis/_static/image8.png)](gallery2-on-iis/_static/image7.png)
 
 In Step 5 in the "Install Steps" pane, enter the required database information. If you have setup the database and user correctly, clicking "Save" takes you to the subsequent installation steps.
@@ -98,4 +101,4 @@ To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastC
 To get more information regarding running various PHP applications on IIS, refer to:
 
 - [PHP on IIS portal](https://php.iis.net/)
-- [PHP community forum](https://forums.iis.net/1102.aspx).
+- [PHP community forum](https://forums.iis.net/1102.aspx)

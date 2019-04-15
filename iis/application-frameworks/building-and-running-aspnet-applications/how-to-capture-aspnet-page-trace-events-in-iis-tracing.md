@@ -7,15 +7,11 @@ ms.assetid: fbc129f2-6935-4c72-a36e-be2a7e3ceff7
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-capture-aspnet-page-trace-events-in-iis-tracing
 msc.type: authoredcontent
 ---
-How to Capture ASP.NET Page Trace Events in IIS 7.0 Tracing
-====================
-by IIS Team
+# How to Capture ASP.NET Page Trace Events in IIS 7.0 Tracing
 
-## Introduction
+In ASP.NET today, developers can add trace events to ASPX pages using *Trace.Write()* and *Trace.Warn()* calls in the script sections of their page. Typically, you use these traces to debug an application that does not work as expected.
 
-In ASP.Net today, developers can add trace events to ASPX pages using *Trace.Write()*&amp; *Trace.Warn()* calls in the script sections of their page. Typically, you use these traces to debug an application that does not work as expected.
-
-These events appear when you enable tracing for the page (set &lt;%@ Page Trace="True" %&gt;). You can only view these events by default when browsing the application from the server (i.e. Localhost), or when you enable Application Tracing to keep the last given number of sessions.
+These events appear when you enable tracing for the page (set `<%@ Page Trace="True" %>`). You can only view these events by default when browsing the application from the server (i.e. Localhost), or when you enable Application Tracing to keep the last given number of sessions.
 
 However, the problems with this process are:
 

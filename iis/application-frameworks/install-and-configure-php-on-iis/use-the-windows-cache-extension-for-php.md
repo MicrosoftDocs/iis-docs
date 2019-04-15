@@ -7,8 +7,8 @@ ms.assetid: 22a3d794-4052-4af9-ac04-43130bac2f35
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php
 msc.type: authoredcontent
 ---
-Use the Windows Cache Extension for PHP
-====================
+# Use the Windows Cache Extension for PHP
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
@@ -76,14 +76,16 @@ PHP:
 - PHP 5.2.X, Non-thread-safe build
 - PHP 5.3 X86, Non-thread-safe VC9 build
 
-![](use-the-windows-cache-extension-for-php/_static/image2.gif)> [!IMPORTANT]
+![](use-the-windows-cache-extension-for-php/_static/image2.gif)
+
+> [!IMPORTANT]
 > The Windows Cache Extension can only be used when IIS is configured to run PHP via FastCGI.
 
 ## Configuration Settings
 
 The following table lists and describes the configuration settings provided by the Windows Cache Extension for PHP:
 
-###### Table 1 : Configuration Settings
+### Table 1 : Configuration Settings
 
 | **Setting** | **Default** | **Minimum** | **Maximum** | **Changeable** | **Description** |
 | --- | --- | --- | --- | --- | --- |
@@ -100,7 +102,7 @@ The following table lists and describes the configuration settings provided by t
 
 ## Configure FastCGI for Optimal Performance
 
-The FastCGI module in IIS has a configuration setting [maxInstances](https://www.iis.net/configreference/system.webserver/fastcgi/application) that controls the number of concurrently running Php-cgi.exe processes that IIS creates to process PHP requests. To achieve optimal performance, it is recommended that you fine tune this setting for your specific environment, starting with 8–10 instances per CPU core (for example, maxInstances=32 for a quad-core CPU).
+The FastCGI module in IIS has a configuration setting [maxInstances](../../configuration/system.webServer/fastCgi/application/index.md) that controls the number of concurrently running Php-cgi.exe processes that IIS creates to process PHP requests. To achieve optimal performance, it is recommended that you fine tune this setting for your specific environment, starting with 8–10 instances per CPU core (for example, maxInstances=32 for a quad-core CPU).
 
 The Windows Cache Extension for PHP caches the compiled PHP opcode in the shared memory, which helps to avoid redoing of such CPU intensive operations as parsing and compiling of the PHP source code. This means that when Windows Cache Extension for PHP is enabled, fewer CPU cycles are required for a Web server to process PHP requests. Because of that, the previously configured value for the FastCGI maxInstances setting may not be adequate to load the server's CPU completely, and it may be necessary to increase the value further.
 
@@ -109,7 +111,7 @@ To increase the maxInstances value on IIS 7, run this command from an elevated c
 [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample5.cmd)]
 
 > [!NOTE]
-> Replace the fullPath with the path to **P****hp-cgi.exe** on your server.
+> Replace the fullPath with the path to **Php-cgi.exe** on your server.
 
 Alternatively, you can edit the `<fastCgi>` section of the **ApplicationHost.config** file located at `C:\Windows\System32\inetsrv\config\` folder:
 
@@ -117,18 +119,14 @@ Alternatively, you can edit the `<fastCgi>` section of the **ApplicationHost.con
 
 To increase the maxInstances value on IIS 5.1 and IIS 6.0 run this command:
 
-
 [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample7.cmd)]
-
 
 > [!NOTE]
 > replace the section name if necessary.
 
 Alternatively, you can edit the **Fcgiext.ini** file located at `C:\Windows\System32\inetsrv\` folder:
 
-
 [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample8.cmd)]
-
 
 When you measure the performance of the Windows Cache Extension for PHP, make sure to monitor the CPU usage. If you see that the CPU is not fully utilized, try increasing the FastCGI maxInstances setting to get better performance.
 
@@ -136,7 +134,7 @@ When you measure the performance of the Windows Cache Extension for PHP, make su
 
 The Windows Cache Extension for PHP provides several functions that can be called from a PHP script to return extension-specific information about the cache internals. These functions are listed below:
 
-###### Table 2: Extension Functions
+### Table 2: Extension Functions
 
 | **Function Name** | **Description** | **Return Values** |
 | --- | --- | --- |
@@ -146,15 +144,13 @@ The Windows Cache Extension for PHP provides several functions that can be calle
 | array wincache\_ocache\_meminfo() | Retrieves information about memory usage by the opcode cache | An array of data about memory usage or FALSE on failure |
 | array wincache\_rplist\_fileinfo() | Retrieves information about cached mappings between relative file paths and corresponding absolute file paths | An array of cached relative file paths or FALSE on failure |
 | array wincache\_rplist\_meminfo() | Retrieves information about memory usage by the relative file path cache | An array of data about memory usage or FALSE on failure |
-| array wincache\_refresh\_if\_changed() | Refreshes the cache entries for the files, whose names were passed in the input argument. If no argument is specified then refreshes all the entries in the cache | Returns TRUE on succes or FALSE on failure |
+| array wincache\_refresh\_if\_changed() | Refreshes the cache entries for the files, whose names were passed in the input argument. If no argument is specified then refreshes all the entries in the cache | Returns TRUE on success or FALSE on failure |
 
 ## Example: Obtain Cache Information
 
 To retrieve information about entries in the file cache, use the following code:
 
-
 [!code-xml[Main](use-the-windows-cache-extension-for-php/samples/sample9.xml)]
-
 
 This will produce output similar to the following:
 
@@ -174,8 +170,6 @@ The installation package for Windows Cache Extension 1.0 for PHP includes a PHP 
 
 [![](use-the-windows-cache-extension-for-php/_static/image2.png)](use-the-windows-cache-extension-for-php/_static/image1.png)
 
-###### 
-
 If the Windows Cache Extension for PHP was installed via Web Platform Installer, then this script is located in `%SystemDrive%\Program Files\IIS\Windows Cache for PHP\`. On a 64-bit version of the Windows Server operating system, the script is located in `%SystemDrive%\Program Files (x86)\IIS\Windows Cache` for PHP. If the extension was installed manually, then the **Wincache.php** will be located in the same folder from which the content of the installation package was extracted.
 
 To use W **incache.php**, copy it into a root folder of your Web site or into any subfolder. To protect the script, open it in any text editor and change the values for the USERNAME and PASSWORD constants. If any other IIS authentication is enabled on the server then follow the instructions in the comments:
@@ -188,13 +182,13 @@ To use W **incache.php**, copy it into a root folder of your Web site or into an
 > Always protect the **wincache.php** script by using either the built-in authentication or the server's authentication mechanism. Leaving this script unprotected may compromise the security of your web application and web server.
 
 > [!NOTE]
-> This article updates: " Using Windows Cache Extension for PHP" by Ruslan Yakushev, published on October, 2009.
+> This article updates: "Using Windows Cache Extension for PHP" by Ruslan Yakushev, published on October, 2009.
 
-## Links for Further Information
+## See also
 
-- [IIS 7.0 Output Caching](../../manage/managing-performance-settings/walkthrough-iis-output-caching.md).
-- [IIS7 Output Caching for Dynamic Content - Speed Up Your ASP and PHP Applications](https://blogs.iis.net/bills/archive/2007/05/02/iis7-output-caching-for-dynamic-content-dramatically-speed-up-your-asp-and-php-applications.aspx).
-- [Windows Cache Extension for PHP](https://www.iis.net/downloads/microsoft/wincache-extension).
+- [IIS 7.0 Output Caching](../../manage/managing-performance-settings/walkthrough-iis-output-caching.md)
+- [IIS7 Output Caching for Dynamic Content - Speed Up Your ASP and PHP Applications](https://blogs.iis.net/bills/archive/2007/05/02/iis7-output-caching-for-dynamic-content-dramatically-speed-up-your-asp-and-php-applications.aspx)
+- [Windows Cache Extension for PHP](https://www.iis.net/downloads/microsoft/wincache-extension)
 - [Windows Cache Extension 1.0 for PHP 5.2 - RC.](https://www.microsoft.com/downloads/details.aspx?FamilyID=6feb7f6a-7dcb-4083-bb7a-d8b22ba2d3d8&amp;displaylang=en)
 - [Windows Cache Extension 1.0 for PHP 5.3 - RC.](https://www.microsoft.com/downloads/details.aspx?FamilyID=ba2e0d7a-02ce-42be-a7a3-2baa5d666bf7&amp;displaylang=en)
-- [Improving Performance with Native Output Caching](../../manage/managing-performance-settings/improving-performance-with-native-output-caching.md).
+- [Improving Performance with Native Output Caching](../../manage/managing-performance-settings/improving-performance-with-native-output-caching.md)
