@@ -7,8 +7,8 @@ ms.assetid: b9853b1f-8937-4e67-ad12-28b56d4f1b4d
 msc.legacyurl: /learn/manage/configuring-security/understanding-iis-url-authorization
 msc.type: authoredcontent
 ---
-Understanding IIS 7.0 URL Authorization
-====================
+# Understanding IIS 7.0 URL Authorization
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
@@ -17,16 +17,12 @@ Authorization was difficult in previous versions of IIS. Because IIS only worked
 
 IIS 7.0 and above uses URL Authorization. It allows you to put authorization rules on the actual URL instead of the underlying file system resource. Additionally, the IIS URL Authorization configuration is stored in web.config files-- you can distribute authorization rules with the application content. The following walkthrough introduces you to the IIS URL Authorization feature in Windows Server® 2008 Beta 3 and Windows Vista Service Pack 1.
 
-<a id="Prerequisites"></a>
-
 ## Prerequisites
 
 This walkthrough requires installing the following IIS above features on top of the default install:
 
 - "ASP.NET" under "Internet Information Services" – "World Wide Web Services" – "Application Development Features"
 - "URL Authorization" under "Internet Information Services" –" World Wide Web Services" – "Security"
-
-<a id="Scenario"></a>
 
 ## Scenario
 
@@ -41,13 +37,15 @@ For this scenario we need three users: Alice, Bob and Fred. We also need a new g
 1. Open Explorer and go into the `%systemdrive%\inetpub\wwwroot` directory.
 2. Create a directory called "secure".
 3. Change into the "secure" directory and create a new file called "default.aspx". You can do this with notepad or any other text editor.
-4. Paste the following code into the default.aspx page: 
+4. Paste the following code into the default.aspx page:
 
-[!code-html[Main](understanding-iis-url-authorization/samples/sample2.html)]
-5. Create another file called bobsSecret.aspx and paste the following code into it: 
+    [!code-html[Main](understanding-iis-url-authorization/samples/sample2.html)]
 
-[!code-html[Main](understanding-iis-url-authorization/samples/sample3.html)]
-6. Now see if the two web pages work by requesting [http://localhost/secure/](http://localhost/secure/) and [http://localhost/secure/bobsSecret.aspx](http://localhost/secure/bobsSecret.aspx).
+5. Create another file called bobsSecret.aspx and paste the following code into it:
+
+    [!code-html[Main](understanding-iis-url-authorization/samples/sample3.html)]
+
+6. Now see if the two web pages work by requesting `http://localhost/secure/` and `http://localhost/secure/bobsSecret.aspx`.
 
 ### Configuring Authentication
 
@@ -57,10 +55,10 @@ Authentication answers the question "who" wants to have access. Authorization an
 2. Open the machine node in the left tree view, then open the "Default Web Site" node and select the "secure" directory.
 3. Double click "Authentication."
 4. Disable "Anonymous Authentication" and enable "Basic Authentication."
-5. Now request [http://localhost/secure](http://localhost/secure) and [http://localhost/secure/bobsSecret.aspx](http://localhost/secure/bobsSecret.aspx) again. You will get prompted for credentials. Enter "Alice" as username and her password. You will be authenticated as "Alice".
+5. Now request `http://localhost/secure` and `http://localhost/secure/bobsSecret.aspx` again. You will get prompted for credentials. Enter "Alice" as username and her password. You will be authenticated as "Alice".
 
     > [!NOTE]
-	> If you use Internet Explorer, you may to hit Ctrl+F5 so that Internet Explorer refreshes the cached version of the ASP.NET page.
+    > If you use Internet Explorer, you may to hit Ctrl+F5 so that Internet Explorer refreshes the cached version of the ASP.NET page.
 
 ### Configuring URL Authorization
 
@@ -68,7 +66,7 @@ Now secure the two pages so that only Alice and Bob have access:
 
 1. Double click the "secure" web directory again and select "Authorization Rules".
 2. Remove the "Allow All Users" rule.
-3. Click "Add Allow Rule…" and select the "Specified roles or user groups:" radio button and add "BobAndFriends" and click the "OK" button.  
+3. Click "Add Allow Rule" and select the "Specified roles or user groups:" radio button and add "BobAndFriends" and click the "OK" button.  
 
     [![](understanding-iis-url-authorization/_static/image2.jpg)](understanding-iis-url-authorization/_static/image1.jpg)
 4. Close all Internet Explorer windows because Internet Explorer caches the credentials that you entered in the previous step.
@@ -91,7 +89,7 @@ Now we still have the problem left that Alice can still access BobsSecret.aspx. 
 8. Click the "Specified users:" radio button, enter "Bob" and click "OK".  
 
     [![](understanding-iis-url-authorization/_static/image6.jpg)](understanding-iis-url-authorization/_static/image5.jpg)
-9. Close all Internet Explorer windows and request [http://localhost/secure/bobsSecret.aspx](http://localhost/secure/bobsSecret.aspx)
+9. Close all Internet Explorer windows and request `http://localhost/secure/bobsSecret.aspx`.
 10. Only by entering Bob's credentials will you get access.
 
 ### URL Authorization Advanced Topics
@@ -103,8 +101,6 @@ The next paragraphs show some advanced URL Authorization topics.
 You do not have to use the User Interface to specify URL Authorization settings. You can specify URL Authorization rules directly in your web.config file. The IIS &lt;authorization&gt; configuration section is delegated by default--you can distribute authorization rules together with web content. Below, see how the `%systemdrive%\inetpub\wwwroot\secure\web.config` file looks after following this walkthrough:
 
 [!code-xml[Main](understanding-iis-url-authorization/samples/sample4.xml)]
-
-<a id="Differences"></a>
 
 ## Differences Between ASP.NET URL Authorization and IIS URL Authorization
 
@@ -125,7 +121,7 @@ It is important to keep in mind that the managedHandler precondition is on the A
 
 There are also differences in the order in which IIS and the two URL authorization modules evaluate authorization rules. ASP.NET URL Authorization is developer-focused and developers have full control over which rules they set. IIS URL Authorization keeps the Administrator in mind and tries to make sure that developers cannot override the rules an Administrator sets.
 
-**An example:** 
+#### An example
 
 Suppose the administrator wants to ensure that all users of a particular site must be authenticated. To do this is, set the following configuration on the site root:
 
@@ -133,7 +129,7 @@ Suppose the administrator wants to ensure that all users of a particular site mu
 
 This configuration denies access to anonymous users (\? = anonymous users, * = all users). With the lockElements="clear", you ensure that no one on a lower level can clear the inheritance of this setting. Your setting would be inherited to all applications and virtual directories of this site. It comes to a lock violation when you try to use the &lt;clear/&gt; statement at a lower level.
 
-For more information on configuration locking, see [https://msdn.microsoft.com/library/ms178693.aspx](https://msdn.microsoft.com/library/ms178693.aspx).
+For more information on configuration locking, see [How to: Lock ASP.NET Configuration Settings](https://docs.microsoft.com/previous-versions/aspnet/ms178693(v=vs.100)).
 
 You can also lock the clear element in ASP.NET Url Authorization. The problem is that ASP.NET URL Authorization evaluates authorization rules from the bottom up, i.e. it first evaluates rules in the current web.config file before it evaluates parent rules. As soon as a match is found, access is granted or denied. In the above example, you can still grant access to anonymous users by specifying &lt;add users="\?"/&gt; as an authorization rule in the secure web.config file. Because it gets evaluated first, anonymous users would be granted access.
 
@@ -149,8 +145,6 @@ The IIS URL Authorization module evaluates deny rules first. Because you deny ac
 | **Module** | System.Web.Security.UrlAuthorization | `%windir%\system32\inetsrv\urlauthz.dll` |
 | **Content** | Applies only to content that is mapped to a managed handler (can be turned off via managedHandler precondition) | Applies to all content |
 
-<a id="UsingDomain"></a>
-
 ## Using Domain Accounts and Groups
 
 You must specify domain accounts and groups using the following:
@@ -161,13 +155,9 @@ This example uses the machinename, assuming our accounts were created on machine
 
 [!code-xml[Main](understanding-iis-url-authorization/samples/sample9.xml)]
 
-<a id="UsingNon-Windows"></a>
-
 ## Using Non-Windows Identities
 
 URL Authorization is not only for Windows identities. It works well for non-Windows, too. Use it together with ASP.NET Membership and Roles and for custom identities, in case you write your own authentication module.
-
-<a id="Summary"></a>
 
 ## Summary
 
