@@ -7,11 +7,9 @@ ms.assetid: f06b1357-350b-4f53-8660-64a283e6b323
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-webdav-on-iis
 msc.type: authoredcontent
 ---
-Installing and Configuring WebDAV on IIS 7 and Later
-====================
-by [Robert McMurray](https://github.com/rmcmurray)
+# Installing and Configuring WebDAV on IIS 7 and Later
 
-<a id="000"></a>
+by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Introduction
 
@@ -25,23 +23,19 @@ This document walks you through adding WebDAV publishing to an existing Web site
 > [!NOTE]
 > This topic discusses using the WebDAV Redirector to connect to your web site. Please see the [Using the WebDAV Redirector](../../publish/using-webdav/using-the-webdav-redirector.md) topic for more information; specifically the &quot;Troubleshooting the WebDAV Redirector&quot; section if you have trouble using the WebDAV redirector.
 
-<a id="006"></a>
-
 ## Prerequisites for Installing and Configuring WebDAV on IIS
 
 The following items are required to complete the procedures in this article:
 
-- IIS 7.0 or later must be installed on your server, and the following must be configured: 
+- IIS 7.0 or later must be installed on your server, and the following must be configured:
 
-    - The Default Web Site that is created by the IIS 7.0 installation must still exist.
-    - The Internet Information Services Manager must be installed.
-    - At least one authentication method must be installed. 
+  - The Default Web Site that is created by the IIS 7.0 installation must still exist.
+  - The Internet Information Services Manager must be installed.
+  - At least one authentication method must be installed.
 
-        > [!NOTE]
-        > If you choose to use Basic Authentication with the WebDAV redirector, you must connect to your server using HTTPS.
+    > [!NOTE]
+    > If you choose to use Basic Authentication with the WebDAV redirector, you must connect to your server using HTTPS.
 - The WebDAV Redirector must be installed for Windows Server 2008, Windows Server 2008 R2, or Windows Server 2012. (The WebDAV Redirector is already installed on Windows Vista, Windows 7, and Windows 8.) To install the WebDAV Redirector, use Server Manager to install the Desktop Experience feature.
-
-<a id="001"></a>
 
 ## Installing WebDAV on IIS 7.0
 
@@ -49,26 +43,27 @@ The following items are required to complete the procedures in this article:
 
 There are two separate downloadable packages for the new WebDAV extension module; you need to download the appropriate package for your version of Windows Server 2008:
 
-- **32-bit Installation Package**: 
+- **32-bit Installation Package**:
 
-    - [WebDAV 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=141805)
-- **64-bit Installation Package**: 
+  - [WebDAV 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=141805)
+- **64-bit Installation Package**:
 
-    - [WebDAV 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=141807)
+  - [WebDAV 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=141807)
 
 ### Launching the Installation Package
 
 You must run the installation package as an administrator. This can be accomplished by one of the following methods:
 
 - Logging in to your server using the actual account named &quot;Administrator&quot;, then browsing to the download pages listed above or double-clicking the download package if you have saved it to your server.
-- Logging on using an account with administrator privileges and opening a command-prompt by right-clicking the **Command Prompt** menu item that is located in the **Accessories** menu for Windows programs and selecting **Run as administrator**, then typing the appropriate command listed below for your version of Windows to run the installation: 
+- Logging on using an account with administrator privileges and opening a command-prompt by right-clicking the **Command Prompt** menu item that is located in the **Accessories** menu for Windows programs and selecting **Run as administrator**, then typing the appropriate command listed below for your version of Windows to run the installation:
 
-    - **32-bit Windows Versions**: 
+  - **32-bit Windows Versions**:
 
-        - msiexec /i webdav\_x86\_75.msi
-    - **64-bit Windows Versions**: 
+    - msiexec /i webdav\_x86\_75.msi
 
-        - msiexec /i webdav\_x64\_75.msi
+  - **64-bit Windows Versions**:
+
+    - msiexec /i webdav\_x64\_75.msi
 
 ### Walking Through the Installation Process
 
@@ -80,8 +75,6 @@ You must run the installation package as an administrator. This can be accomplis
     [![](installing-and-configuring-webdav-on-iis/_static/image11.jpg)](installing-and-configuring-webdav-on-iis/_static/image9.jpg)
 4. The WebDAV extension module is now installed.
 
-<a id="002"></a>
-
 ## Installing WebDAV on IIS 7.5
 
 ### IIS 7.5 for Windows Server 2008 R2
@@ -89,7 +82,7 @@ You must run the installation package as an administrator. This can be accomplis
 1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
-4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**. 
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.
 
     ![](installing-and-configuring-webdav-on-iis/_static/image1.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
@@ -104,8 +97,6 @@ You must run the installation package as an administrator. This can be accomplis
 
     ![](installing-and-configuring-webdav-on-iis/_static/image3.png)
 
-<a id="005"></a>
-
 ## Installing WebDAV on IIS 8.0 and IIS 8.5
 
 ### IIS 8.0 on Windows Server 2012 and IIS 8.5 on Windows Server 2012 R2
@@ -115,7 +106,7 @@ You must run the installation package as an administrator. This can be accomplis
 3. On the **Before You Begin** page, click **Next**.
 4. Select the **Installation Type** and then click **Next**.
 5. Select the **Destination Server**, and then click **Next**.
-6. On the **Select Role Services** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**. 
+6. On the **Select Role Services** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.
 
     ![](installing-and-configuring-webdav-on-iis/_static/image13.jpg)
 7. On the **Select Features** page, click **Next**.
@@ -132,8 +123,6 @@ You must run the installation package as an administrator. This can be accomplis
 4. Select **WebDAV Publishing**, and then click **OK**. 
 
     ![](installing-and-configuring-webdav-on-iis/_static/image15.jpg)
-
-<a id="003"></a>
 
 ## Enabling WebDAV Publishing by Using IIS Manager
 
@@ -153,16 +142,16 @@ In this first step, we add WebDAV publishing to the Default Web site, and add th
     [![](installing-and-configuring-webdav-on-iis/_static/image23.jpg)](installing-and-configuring-webdav-on-iis/_static/image21.jpg)
 4. Once WebDAV has been enabled, click the **Add Authoring Rule** task in the **Actions** pane.  
     [![](installing-and-configuring-webdav-on-iis/_static/image27.jpg)](installing-and-configuring-webdav-on-iis/_static/image25.jpg)
-5. When the **Add Authoring Rule** dialog appears: 
+5. When the **Add Authoring Rule** dialog appears:
 
-    1. Click **All content** to specify that the rule applies to all content types.
-    2. Choose **Specified users** and type &quot;administrator&quot; for the user name.
-    3. Select **Read**, **Source**, and **Write** for the permissions.
-    4. When you have completed these items, click **OK**.
+   1. Click **All content** to specify that the rule applies to all content types.
+   2. Choose **Specified users** and type &quot;administrator&quot; for the user name.
+   3. Select **Read**, **Source**, and **Write** for the permissions.
+   4. When you have completed these items, click **OK**.
 
-    [![](installing-and-configuring-webdav-on-iis/_static/image31.jpg)](installing-and-configuring-webdav-on-iis/_static/image29.jpg)
+     [![](installing-and-configuring-webdav-on-iis/_static/image31.jpg)](installing-and-configuring-webdav-on-iis/_static/image29.jpg)
 
-**Summary for enabling WebDAV authoring and adding an authoring rule**
+#### Summary for enabling WebDAV authoring and adding an authoring rule
 
 Task completed. You have enabled WebDAV authoring on an existing Web site.
 
@@ -178,42 +167,42 @@ To recap the items that you completed in this step, we added WebDAV publishing t
 
 In Step 1 above, you enabled WebDAV publishing for your Default Web Site and added an authoring rule for the local administrator account for Read, Source, and Write access to your Web site's content. In this step, you log in using your administrator account.
 
-**Ensuring that you have authorization and authentication configured**
+### Ensuring that you have authorization and authentication configured
 
 1. In **IIS Manager**, in the **Connections** pane, expand the **Sites** node in the tree, then click the **Default Web Site**.
 2. Double-click the **Authentication** feature.  
     [![](installing-and-configuring-webdav-on-iis/_static/image35.jpg)](installing-and-configuring-webdav-on-iis/_static/image33.jpg)
 3. When the **Authentication** feature opens, make sure that **Windows Authentication** is enabled. If it is not enabled, select **Windows Authentication**, and click **Enable** in the **Action** menu.
+
     > [!NOTE]
     > You can use Basic Authentication with WebDAV, but the WebDAV redirector will only use Basic authentication with SSL connections.
-    [![](installing-and-configuring-webdav-on-iis/_static/image39.jpg)](installing-and-configuring-webdav-on-iis/_static/image37.jpg)
+    > [![](installing-and-configuring-webdav-on-iis/_static/image39.jpg)](installing-and-configuring-webdav-on-iis/_static/image37.jpg)
+
 4. In IIS Manager, click the **Default Web Site** under the **Sites** node in the tree.
 5. Double-click the **Authorization Rules** feature.  
     [![](installing-and-configuring-webdav-on-iis/_static/image43.jpg)](installing-and-configuring-webdav-on-iis/_static/image41.jpg)
 6. When the **Authorization** feature opens, make sure that an **Allow** rule is defined that includes the administrator account. (For example, the default rule for IIS allowing access to All Users will include the administrator account.)  
     [![](installing-and-configuring-webdav-on-iis/_static/image47.jpg)](installing-and-configuring-webdav-on-iis/_static/image45.jpg)
 
-**Logging in to your WebDAV site using your administrator account**
+### Logging in to your WebDAV site using your administrator account
 
 Logging into your WebDAV site requires the WebDAV Redirector. The WebDAV Redirector is used to publish content to an existing Web site that has the WebDAV module installed. You must use Server Manager to install the Desktop Experience feature before you can use the WebDAV redirector. For more information, see Using the WebDAV Redirector.
 
 1. On your WebDAV server, open a command prompt session.
 2. Type the following command to connect to your WebDAV server:  
   
- net use \* http://localhost/
+   `net use \* http://localhost/`
 
 You now have a drive mapped to your WebDAV-enabled web site using the local administrator account, and based on the authorization rule that we added in Step 1, you have Read, Write, and Source access to the content folder.
 
 [![](installing-and-configuring-webdav-on-iis/_static/image51.jpg)](installing-and-configuring-webdav-on-iis/_static/image49.jpg)
 
-**Summary for logging into your WebDAV site**
+### Summary for logging into your WebDAV site
 
 To recap the items that you completed in this step:
 
 - You verified that your Web site had sufficient authentication and authorization settings.
 - You logged in to your WebDAV site as the local administrator.
-
-<a id="004"></a>
 
 ## Enabling WebDAV Publishing by Editing the IIS Configuration Files
 
@@ -226,11 +215,9 @@ You can also add WebDAV publishing to an existing Web site by editing the IIS co
 - If you are logged in using an account with administrative permissions that is not the local &quot;administrator&quot; account, open Notepad using the "Run as Administrator" option.
 
 > [!NOTE]
-> The above steps are required because the User Account Control (UAC) security component in Windows Server 2008 and later will prevent access to your applicationHost.config file. For more information about UAC, please see the following documentation:
+> The above steps are required because the User Account Control (UAC) security component in Windows Server 2008 and later will prevent access to your applicationHost.config file. For more information about UAC, see [User Account Control](https://docs.microsoft.com/windows/desktop/secauthz/user-account-control).
 
-- [https://go.microsoft.com/fwlink/?LinkId=113664](https://go.microsoft.com/fwlink/?LinkId=113664)
-
-The following steps will walk you through all of the required settings to add WebDAV publishing for the Default Web Site.
+The following steps walk you through all of the required settings to add WebDAV publishing for the Default Web Site.
 
 1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
 2. Scroll to the bottom of your applicationHost.config file and locate the `<location>` section for your Default Web Site that contains your authentication settings. If this section does not exist, you must add it. This should resemble the following example:  
@@ -247,7 +234,7 @@ The following steps will walk you through all of the required settings to add We
 
 You should now be able to log in to your WebDAV-enabled site using a WebDAV client using the administrator account, but no other users should be able to access the content using WebDAV.
 
-**Summary for adding WebDAV publishing by editing the IIS configuration file**
+### Summary for adding WebDAV publishing by editing the IIS configuration file
 
 In this task, you added WebDAV publishing to your Default Web Site by editing the IIS configuration files. To recap the items that you completed in this task:
 
