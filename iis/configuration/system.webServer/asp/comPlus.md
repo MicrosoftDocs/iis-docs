@@ -9,11 +9,9 @@ msc.type: config
 ---
 # ASP COM Plus &lt;comPlus&gt;
 
-## Overview
-
 The `<comPlus>` element of the `<asp>` element configures the following COM+ settings for Active Server Pages (ASP) in Internet Information Services (IIS) 7:
 
-- The **appServiceFlags** property contains the flags that must be set to enable COM+ services on your IIS 7 applications. Once you enable the flags, you may also need to set other properties. For more information, see the [Configuration Details](#005) section later in this topic.
+- The **appServiceFlags** property contains the flags that must be set to enable COM+ services on your IIS 7 applications. Once you enable the flags, you may also need to set other properties. For more information, see the [Configuration](#configuration) section later in this article.
 - The **executeInMta** attribute specifies whether ASP can run scripts in a multithreaded apartment. ASP is capable of running all of its threads in a multi-threaded apartment (MTA). If your COM components are primarily free-threaded or both-threaded, running the ASP threads as MTA can improve performance significantly. By default, the **executeInMta** property is set to **false**, which means that ASP does not execute in MTA. Set this property to **true** at the application level to enable ASP to run in MTA.
 - The **partitionId** attribute specifies the Globally Unique Identifier (GUID) of a COM+ partition, which is used to isolate Web applications into their own COM+ partitions. COM+ partitions hold different versions of your own custom COM components.  
   
