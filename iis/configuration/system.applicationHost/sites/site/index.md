@@ -7,16 +7,14 @@ ms.assetid: 8d592f61-9502-47af-bc7a-33df387c75df
 msc.legacyurl: /configreference/system.applicationhost/sites/site
 msc.type: config
 ---
-Site &lt;site&gt;
-====================
-<a id="001"></a>
+# Site &lt;site&gt;
+
 ## Overview
 
 The `<site>` configuration element controls the configuration of a specific Web site that you run on your IIS 7 and later server. For example, the Default Web Site and its settings are defined in a `<site>` element, which is found between the opening and closing tags of the `<sites>` element.
 
 You configure a `<site>` element when you create a new Web site on IIS 7 and later. The `<site>` element contains a **name** attribute that defines the name you have assigned the Web site, and an **id** attribute that defines the numeric identifier for the Web site. The `<site>` element contains child elements that define the applications and virtual directories that run on the site, as well as port, protocol, logging, and tracing configuration settings for the Web site.
 
-<a id="002"></a>
 ## Compatibility
 
 | Version | Notes |
@@ -28,57 +26,53 @@ You configure a `<site>` element when you create a new Web site on IIS 7 and lat
 | IIS 7.0 | The `<site>` element of the `<sites>` collection was introduced in IIS 7.0. |
 | IIS 6.0 | The `<sites>` collection replaces the IIS 6.0 **IIsWebServer** metabase object. |
 
-<a id="003"></a>
 ## Setup
 
 The `<site>` element is included in the default installation of IIS 7 and later.
 
-<a id="004"></a>
 ## How To
 
 When you configure a new Web site on IIS 7, you must assign the Web site a site name and a physical path. There are also a number of optional configuration settings you can set. If you plan to continue to use the Default Web Site on your IIS 7 server, you must alter the binding information for the new site. You can do this by changing either the port or entering a host name for the new Web site.
 
 ### How to create a new Web site
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then click **Sites**.
-3. In the **Actions** pane, click **Add Web Site...**
+3. In the **Actions** pane, click **Add Web Site**
 4. In the **Add Web Site** dialog box, at a minimum, enter information in the **Site name** and **Physical path** text boxes and choose whether you want to enter information in the **Host name** text box or change the number in the **Port** box.  
     [![](index/_static/image2.png)](index/_static/image1.png)
-5. On IIS Manager click the refresh button to verify that the site has started.
-
-* * *
+5. On IIS Manager, click the refresh button to verify that the site has started.
 
 ### How to enable or disable Anonymous authentication for an FTP site
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -88,29 +82,27 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
 5. In the **Actions** pane, click **Enable** to enable Anonymous authentication or click **Disable** to disable Anonymous authentication.  
     [![](index/_static/image4.png)](index/_static/image3.png)
 
-* * *
-
 ### How to use the FTP Site Wizard to Create an FTP Site with Anonymous Read Access
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the **Sites** node in the tree.
 3. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.
-4. When the **Add FTP Site** wizard appears: 
+4. When the **Add FTP Site** wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** box.
     - For the **Physical path** box, you can use one of the following options to specify your content directory: 
@@ -140,7 +132,6 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
     - When you have completed these items, click **Finish**.  
         [![](index/_static/image10.png)](index/_static/image9.png)
 
-<a id="005"></a>
 ## Configuration
 
 You configure the `<site>` element at the server level in the ApplicationHost.config file.
@@ -168,7 +159,7 @@ You configure the `<site>` element at the server level in the ApplicationHost.co
 
 ### Configuration Sample
 
-The following configuration example displays a `<site>` element in the ApplicationHost.config file. The **name** attribute defines the site name as Contoso, and the **id** attribute defines the IIS-specific identifier as **2**. The **physicalPath** attribute in the `<virtualDirectory>` element defines the physical location of the new site's content. The **protocol** attribute of the `<binding>` element defines the protocol the site will use, and the **bindingInformation** attribute defines www.contoso.com as the host header used by the new Web site.
+The following configuration example displays a `<site>` element in the ApplicationHost.config file. The **name** attribute defines the site name as Contoso, and the **id** attribute defines the IIS-specific identifier as **2**. The **physicalPath** attribute in the `<virtualDirectory>` element defines the physical location of the new site's content. The **protocol** attribute of the `<binding>` element defines the protocol the site will use, and the **bindingInformation** attribute defines `www.contoso.com` as the host header used by the new Web site.
 
 [!code-xml[Main](index/samples/sample1.xml)]
 
@@ -184,7 +175,7 @@ The following examples create a new Web site named Contoso with an ID of 2, and 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

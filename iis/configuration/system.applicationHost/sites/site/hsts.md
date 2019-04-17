@@ -5,9 +5,8 @@ description: "Overview The &lt;hsts&gt; element of the &lt;site&gt; element conf
 ms.author: bangbingsyb
 msc.type: config
 ---
-HSTS Settings for a Web Site &lt;hsts&gt;
-====================
-<a id="001"></a>
+# HSTS Settings for a Web Site \<hsts>
+
 ## Overview
 
 The `<hsts>` element of the `<site>` element contains attributes that allow you to configure HTTP Strict Transport Security (HSTS) settings for a site on IIS 10.0 version 1709 and later.
@@ -15,7 +14,6 @@ The `<hsts>` element of the `<site>` element contains attributes that allow you 
 > [!NOTE]
 > If the `<hsts>` element is configured in both the `<siteDefaults>` section and in the `<site>` section for a specific site, the configuration in the `<site>` section is used for that site.
 
-<a id="002"></a>
 ## Compatibility
 
 | Version | Notes |
@@ -28,12 +26,10 @@ The `<hsts>` element of the `<site>` element contains attributes that allow you 
 | IIS 7.0 | N/A |
 | IIS 6.0 | N/A |
 
-<a id="003"></a>
 ## Setup
 
 The `<hsts>` element of the `<site>` element is included in the default installation of IIS 10.0 version 1709 and later.
 
-<a id="004"></a>
 ## How To
 
 There is no user interface that lets you configure the `<hsts>` element of the `<site>` element for IIS 10.0 version 1709. For examples of how to configure the `<hsts>` element of the `<site>` element programmatically, see the [Sample Code](#006) section of this document.
@@ -56,7 +52,7 @@ None.
 
 ### Configuration Sample
 
-The following configuration sample shows a web site named Contoso that has HSTS enabled with both HTTP and HTTPS bindings. The **max-age** attribute is set as 31536000 seconds (a year) so that the user agents will regard the host as a Known HSTS Host within a year after the reception of the **Strict-Transport-Security** header field. The **includeSubDomains** attribute is set as **true** to specify that the HSTS policy applies to this HSTS Host (contoso.com) as well as any subdomain (e.g. www.contoso.com or marketing.contoso.com). Finally, the **redirectHttpToHttps** attribute is set as **true** so that all HTTP requests to the site will be redirected to HTTPS.
+The following configuration sample shows a web site named Contoso that has HSTS enabled with both HTTP and HTTPS bindings. The **max-age** attribute is set as 31536000 seconds (a year) so that the user agents will regard the host as a Known HSTS Host within a year after the reception of the **Strict-Transport-Security** header field. The **includeSubDomains** attribute is set as **true** to specify that the HSTS policy applies to this HSTS Host (contoso.com) as well as any subdomain (for example, `www.contoso.com` or `marketing.contoso.com`). Finally, the **redirectHttpToHttps** attribute is set as **true** so that all HTTP requests to the site will be redirected to HTTPS.
 
 [!code-xml[Main](hsts/samples/sample1.xml)]
 
@@ -72,7 +68,7 @@ The following code samples enable HSTS for a web site named Contoso with both HT
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the applicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](hsts/samples/sample3.cs)]
 
