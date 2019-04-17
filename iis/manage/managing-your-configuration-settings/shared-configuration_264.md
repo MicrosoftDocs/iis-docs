@@ -9,19 +9,21 @@ msc.type: authoredcontent
 ---
 # Shared Configuration
 
+## Introduction
+
 The Internet changes the ways in which companies handle their day-to-day business and how they compete in the marketplace. With the advent of new Web technologies and an increase in the number of customers accessing resources that are available through the Web, there is a pressing need for improved scalability, availability, reliability, and manageability of applications. The applications should rely on systems that provide the capability to deliver high uptime, improved request throughput, increased concurrent user transactions and better return-on-investment value, such as a better quality of service, than competing systems.
 
 Web farms - server clusters - have become a standard in helping to deliver highly scalable, available, and manageable applications by distributing load. More specifically, these application attributes are the main reasons behind Web farms and load balancing. By using a Web farm, an organization can provide a scalable way to increase the capacity of the user base that accesses the application and its resources concurrently.
 
 The server cluster provides improved availability by having multiple servers distribute the load. The cluster also scales better to an increased number of customers at any given point in time. Finally, the cluster provides an improved management experience by handling the provisioning and administration of the Web farm architecture with ease and without straining operational resources.
 
-## Overview
+### Overview
 
 This article focuses on the shared centralized global configuration feature. This feature helps support homogeneous Web farms where servers share the same configuration across a server group. By using a UNC share, any changes to a central master configuration file will propagate across different servers without extra tools or programmatic support.
 
 The first part of this article describes how to use the IIS 7 and above administration UI to enable and use shared configuration. The second part describes how to enable and use shared configuration from the command line.
 
-## Non-Goals: What This Article Does Not Cover
+### Non-Goals: What This Article Does Not Cover
 
 Multiple aspects contribute to a successful Web farm environment, including correct supportability, manageability, accessibility, scalability, etc.
 
@@ -35,7 +37,7 @@ It is important to take into consideration other situations, such as installing 
 
 To avoid this problem in homogeneous farms, you should disable shared configuration on the cluster, update the local applicationHost file so that it mirrors the remote file, deploy and update modules and the configuration on a single server, and then re-enable shared configuration on that server. Then you can deploy and update the binaries and modules on the rest of the servers before enabling shared configuration again.
 
-## Domain and Non-domain Environments
+### Domain and Non-domain Environments
 
 Some administrators deploy Web server clusters in a domain environment, while others deploy in a workgroup (non-domain). This article discusses both scenarios and points out the differences and caveats. It is recommended that you set up IIS in a cluster in a domain, with the help and security that Active Directory provides by using a domain controller.
 
