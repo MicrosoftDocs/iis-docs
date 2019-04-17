@@ -9,6 +9,10 @@ msc.type: config
 ---
 # FastCGI Application &lt;application&gt;
 
+<a id="001"></a>
+
+## Overview
+
 The FastCGI `<application>` element contains the configurations settings for a specific FastCGI process pool definition. When FastCGI is used, IIS will use the value in the **maxInstances** attribute of the `<application>` element to determine the number of FastCGI processes that can run in the process pool.
 
 The simplest FastCGI application pool definition requires that you include the **fullPath** attribute in an `<application>` element to define the binaries to use for the specific application framework. For the PHP framework, set the **fullPath** attribute to the directory and file name of the PHP binaries.
@@ -18,13 +22,15 @@ Other attributes are optional and let you configure a number of other parameters
 > [!NOTE]
 > In order to process requests by using FastCGI, you must first map the path and the specific file name extensions to the FastCGI module and specify the target FastCGI process as the script processor.
 
-## New in IIS 7.5
+### New in IIS 7.5
 
 IIS 7.5 added the following attributes to the `<fastCgi>`/`<application>` element:
 
 - The **monitorChangesTo** attribute lets you specify a file to monitor for changes that might affect the behavior of a FastCGI application. For example, if you use the PHP framework, you can configure IIS to monitor the PHP.INI file for changes by specifying the full path to the file in the **monitorChangesTo** attribute.
 - The **stderrMode** attribute specifies how IIS 7 will handle errors that are returned from a FastCGI application through the STDERR stream.
 - The **signalBeforeTerminateSeconds** attribute lets you configure IIS to wait for a specified period of time after IIS signals a FastCGI application that it needs to shut down. This lets a FastCGI application clean up any settings before IIS terminates the process.
+
+<a id="002"></a>
 
 ## Compatibility
 
@@ -36,6 +42,8 @@ IIS 7.5 added the following attributes to the `<fastCgi>`/`<application>` elemen
 | IIS 7.5 | The `<application>` element of the `<fastCgi>` collection was updated in IIS 7.5 with the **monitorChangesTo**, **stderrMode**, and **signalBeforeTerminateSeconds** attributes. |
 | IIS 7.0 | The `<application>` element of the `<fastCgi>` collection was introduced in IIS 7.0. |
 | IIS 6.0 | N/A |
+
+<a id="003"></a>
 
 ## Setup
 
@@ -78,12 +86,16 @@ To use the FastCGI environment, you must first install the CGI role service. The
 3. Expand **Internet Information Services**, then select **CGI**, and then click **OK**.  
     [![](index/_static/image8.png)](index/_static/image7.png)
 
+<a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for FastCGI settings. To install the Microsoft Administration Pack for IIS 7.0, see the following URL:
 
 - [https://www.iis.net/expand/AdministrationPack](https://www.iis.net/downloads/microsoft/administration-pack)
- 
+
+<a id="003a"></a>
+
 ### How to create a global FastCGI handler mapping for PHP
 
 > [!NOTE]
@@ -133,6 +145,8 @@ To use the FastCGI environment, you must first install the CGI role service. The
 
    > [!NOTE]
    > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose **No**, you can manually create a FastCGI application later.
+
+<a id="003b"></a>
 
 ### How to create a FastCGI application for PHP
 
@@ -191,6 +205,8 @@ To use the FastCGI environment, you must first install the CGI role service. The
 
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
+<a id="003c"></a>
+
 ### How add a FastCGI environment variable for PHP
 
 > [!NOTE]
@@ -237,6 +253,8 @@ To use the FastCGI environment, you must first install the CGI role service. The
     [![](index/_static/image38.png)](index/_static/image37.png)
 
 8. Click **OK** to close the **Add FastCGI Application** dialog box.
+
+<a id="005"></a>
 
 ## Configuration
 
@@ -287,6 +305,8 @@ The following configuration sample adds a global FastCGI handler mapping for PHP
 Additional information and examples about how to configure FastCGI settings for PHP are discussed in the following walkthrough:
 
 > [Using FastCGI to Host PHP Applications on IIS 7](https://docs.microsoft.com/iis/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis)
+
+<a id="006"></a>
 
 ## Sample Code
 

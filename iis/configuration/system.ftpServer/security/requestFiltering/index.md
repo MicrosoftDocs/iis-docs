@@ -32,6 +32,8 @@ On significant difference between FTP request filtering and HTTP request filteri
 
 Notification of the conditions that are indicated by these substatuses allows Web administrators to analyze their IIS logs and identify potential threats.
 
+<a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -49,6 +51,8 @@ Notification of the conditions that are indicated by these substatuses allows We
 > <https://www.iis.net/downloads/microsoft/ftp>
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
+
+<a id="003"></a>
 
 ## Setup
 
@@ -117,6 +121,8 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. Follow the instructions in the following walkthrough to install the FTP service:
 
     [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+
+<a id="004"></a>
 
 ## How To
 
@@ -238,6 +244,8 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](index/_static/image26.png)](index/_static/image25.png)
 7. Click **OK**.
 
+<a id="005"></a>
+
 ## Configuration
 
 The `<requestFiltering>` element is configured at the global, site or URL level.
@@ -268,6 +276,8 @@ The following sample illustrates several security-related configuration settings
 - Specify FTP IP filtering options that allow access from 127.0.0.1 and deny access from the 169.254.0.0/255.255.0.0 range of IP addresses.
 
 [!code-xml[Main](index/samples/sample1.xml)]
+
+<a id="006"></a>
 
 ## Sample Code
 

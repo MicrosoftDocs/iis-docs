@@ -15,6 +15,8 @@ There are several reasons why you might want to redirect clients to a new locati
 
 In the simplest configuration, you need only set the **enabled** and **destination** attributes of the `<httpRedirect>` element in order to redirect clients to a new location. However, additional elements like the **exactDestination** and **httpResponseStatus** attributes allow you to configure the end-user experience of the redirection by respectively specifying whether IIS 7 will return the destination URL exactly as entered and which HTTP response code to return to the Web client.
 
+<a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -25,6 +27,8 @@ In the simplest configuration, you need only set the **enabled** and **destinati
 | IIS 7.5 | The `<httpRedirect>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<httpRedirect>` element was introduced in IIS 7.0. |
 | IIS 6.0 | The `<httpRedirect>` element replaces the IIS 6.0 **HttpRedirect** metabase property. |
+
+<a id="003"></a>
 
 ## Setup
 
@@ -67,6 +71,8 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common Http Features**.
 4. Select **HTTP Redirection**, and then click **OK**.  
     [![](index/_static/image8.png)](index/_static/image7.png)
+
+<a id="004"></a>
 
 ## How To
 
@@ -115,6 +121,8 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
      > - **HTTP 1.1 308 Redirected Permanently**
 6. When you have finished all the above changes, click **Apply** in the **Tasks** pane.
 
+<a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -151,6 +159,8 @@ The following configuration sample adds a wildcard redirection entry that redire
 > This example is useful if you have removed all ASP-based applications from your Web site and you wanted client requests for the old applications to be redirected to the root of your Web site rather than receiving an **HTTP 404 Not Found** response.
 
 [!code-xml[Main](index/samples/sample3.xml)]
+
+<a id="006"></a>
 
 ## Sample Code
 

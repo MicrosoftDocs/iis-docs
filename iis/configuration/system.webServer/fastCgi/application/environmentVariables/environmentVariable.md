@@ -13,6 +13,8 @@ The `<environmentVariable>` element of the `<environmentVariables>` element adds
 
 Each FastCGI application that is installed on IIS 7 may allow or require environment variables to configure how the FastCGI application works. For example, one FastCGI application may require an environment variable that specifies where the application's configuration file is located, whereas another FastCGI application may require an environment variable that specifies the number of requests after which it will need to be recycled.
 
+<a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -23,6 +25,8 @@ Each FastCGI application that is installed on IIS 7 may allow or require environ
 | IIS 7.5 | The `<environmentVariable>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<environmentVariable>` element of the `<environmentVariables>` element was introduced in IIS 7.0. |
 | IIS 6.0 | N/A |
+
+<a id="003"></a>
 
 ## Setup
 
@@ -65,11 +69,15 @@ To use the FastCGI environment, you must first install the CGI role service. The
 3. Expand **Internet Information Services**, then select **CGI**, and then click **OK**.  
     [![](environmentVariable/_static/image8.png)](environmentVariable/_static/image7.png)
 
+<a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for FastCGI settings. To install the Microsoft Administration Pack for IIS 7.0, see the following URL:
 
 - [https://www.iis.net/expand/AdministrationPack](https://www.iis.net/downloads/microsoft/administration-pack)
+
+<a id="003a"></a>
 
 ### How to create a global FastCGI handler mapping for PHP
 
@@ -124,6 +132,8 @@ To use the FastCGI environment, you must first install the CGI role service. The
     > [!NOTE]
     > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose     **No** , you can manually create a FastCGI application later.
 
+<a id="003b"></a>
+
 ### How to create a FastCGI application for PHP
 
 > [!NOTE]
@@ -177,6 +187,8 @@ To use the FastCGI environment, you must first install the CGI role service. The
    [![](environmentVariable/_static/image28.png)](environmentVariable/_static/image27.png)
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
+<a id="003c"></a>
+
 ### How add a FastCGI environment variable for PHP
 
 > [!NOTE]
@@ -219,6 +231,8 @@ To use the FastCGI environment, you must first install the CGI role service. The
     [![](environmentVariable/_static/image38.png)](environmentVariable/_static/image37.png)
 8. Click **OK** to close the **Add FastCGI Application** dialog box.
 
+<a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -253,6 +267,8 @@ The following configuration sample adds a global FastCGI handler mapping for PHP
 Additional information and examples about how to configure FastCGI settings for PHP are discussed in the following walkthrough:
 
 > [Using FastCGI to Host PHP Applications on IIS 7](https://docs.microsoft.com/iis/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis)
+
+<a id="006"></a>
 
 ## Sample Code
 

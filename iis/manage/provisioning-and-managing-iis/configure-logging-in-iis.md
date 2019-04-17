@@ -13,12 +13,16 @@ by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 You can configure logging on your web server or website that records information about HTTP requests and errors. The information in your log can help you troubleshoot or optimize your website.
 
+<a id="00"></a>
+
 ## Prerequisites
 
 To get the most from this tutorial, you must have access to a computer that is running one of the following operating systems:
 
 - Windows Server® 2012
 - Windows® 8
+
+<a id="01"></a>
 
 ## Configure Logging at the Site Level
 
@@ -60,6 +64,8 @@ You can perform this procedure by using the user interface (UI), or by editing c
 
 8. Click **Apply** in the **Actions** pane.
 
+<a id="02"></a>
+
 ## Configure Per-site Logging at the Server Level
 
 You can perform this procedure by using the user interface (UI), or by editing configuration files directly.
@@ -98,6 +104,8 @@ You can perform this procedure by using the user interface (UI), or by editing c
 
 8. Click **Apply** in the **Actions** pane.
 
+<a id="03"></a>
+
 ## Configure Per-server Logging at the Server Level
 
 You can perform this procedure by using the user interface (UI), or by editing configuration files directly.
@@ -135,6 +143,8 @@ You can perform this procedure by using the user interface (UI), or by editing c
 
 8. Click **Apply** in the **Actions** pane.
 
+<a id="04"></a>
+
 ## Select W3C Fields to Log
 
 You can perform this procedure by using the user interface (UI), or by editing configuration files directly.
@@ -169,6 +179,8 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **Referrer (cs(Referrer))**: the site that the user last visited. This site provided a link to the current site.
 
 4. Click **Apply** in the **Actions** pane.
+
+<a id="05"></a>
 
 ## Configure Log File Rollover Options
 

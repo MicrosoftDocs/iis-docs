@@ -41,6 +41,8 @@ To avoid this problem in homogeneous farms, you should disable shared configurat
 
 Some administrators deploy Web server clusters in a domain environment, while others deploy in a workgroup (non-domain). This article discusses both scenarios and points out the differences and caveats. It is recommended that you set up IIS in a cluster in a domain, with the help and security that Active Directory provides by using a domain controller.
 
+<a id="01"></a>
+
 ## Prerequisites
 
 You must complete the following steps in order:
@@ -49,6 +51,8 @@ You must complete the following steps in order:
 2. Ensure access to a second server, which will be referred to as the File Server throughout this article. The File Server will house the share for configuration and basic content, which can be accessed by using UNC.
 3. Each step of this article assumes that the previous step was completed. Perform all steps in order.
 4. For some steps, there is an equivalent step that can be done by using the UI. Perform only one type of step, unless specified otherwise.
+
+<a id="02"></a>
 
 ## Centralized Configuration
 
@@ -92,6 +96,8 @@ Throughout the remainder of this article, you must use a command prompt to run c
 4. Right-click **Command Prompt** and select **Run as administrator**.
 5. Follow the prompts in any dialog boxes that appear.
 
+<a id="04"></a>
+
 ## Backing Up the Current applicationHost.config File
 
 When trying new features or changing multiple configuration settings, it is good practice to back up the current applicationHost.config file.
@@ -116,6 +122,8 @@ When trying new features or changing multiple configuration settings, it is good
 
     [!code-console[Main](shared-configuration_264/samples/sample3.cmd)]
 
+<a id="05"></a>
+
 ## Creating a User to Access the UNC Share for Configuration
 
 In a domain environment, an administrator must provide or create an account in the domain to use with Active Directory. This account must be set up with the correct user rights to access the UNC share.
@@ -132,6 +140,8 @@ In a non-domain environment, an administrator must create on both servers a loca
 3. On the File Server (back-end server where the central configuration will reside), create a user called ConfigUser1 with the password ConfigPass1 by running the following command:
 
 [!code-console[Main](shared-configuration_264/samples/sample5.cmd)]
+
+<a id="06"></a>
 
 ## Creating the UNC Shares for Central Configuration and Content
 
@@ -152,6 +162,8 @@ The UNC share for configuration hosts the applicationHost.config file for any se
 
     > [!NOTE]
     > The user rights on a share are a union between remote and local file system user rights. You must set the appropriate user rights to the directory for a domain account to be able to read the configuration share successfully.
+
+<a id="07"></a>
 
 ## Granting User Rights to the Accounts for the UNC Shares That Host Central Configuration and Content
 
@@ -176,6 +188,8 @@ For domain and non-domain scenarios, the user name must include the logon batch 
 2. Under **Local Policies**, select **User Rights Assignments**.
 3. Double-click **Log on as a batch job** and add the UNC user that you created.
 
+<a id="08"></a>
+
 ## Redirecting the Configuration
 
 ### Introduction
@@ -196,6 +210,8 @@ You can now move the configuration to a central location. This allows you to dec
    [!code-xml[Main](shared-configuration_264/samples/sample8.xml)]
 4. Save your redirection.config file. You can access the sites again, but the configuration is now stored in a UNC share.
 
+<a id="09"></a>
+
 ## Testing the Configuration
 
 With the configuration being referenced from the back-end, there are two key scenarios for which this feature was designed. You can update the configuration in the front-end Web servers in two ways:
@@ -203,11 +219,15 @@ With the configuration being referenced from the back-end, there are two key sce
 1. You can edit the applicationHost.config file directly in the file share. Once this is done, change notifications take place and the Web servers pick up the changes in the file.
 2. You can add a second applicationHost.config file in the back-end file share and change the Web server's redirection.config file to point to the new version of the file. This is useful for rollback purposes or staged deployments.
 
+<a id="10"></a>
+
 ## Summary
 
 This article introduced the new centralized configuration feature. This feature lets administrators that have homogeneous clusters in a Web farm environment set up and deploy a configuration to all servers in a seamless way.
 
 Once the feature is setup, whether a change is made in the file at the UNC share, or a server is redirected to another location, the changes are picked up immediately by the Web server. Only the global changes that affect multiple sites and applications will cause them to recycle, but if changes are made in a localized scope, then the rest of the sites and applications will not be restarted.
+
+<a id="11"></a>
 
 ## Appendix 1: Accessing Redirection.config File Programmatically to Read the Values
 
@@ -220,6 +240,8 @@ This step provides a sample of how to access the redirection.config file program
 [!code-console[Main](shared-configuration_264/samples/sample9.cmd)]
 2. Save your redirection.js file. You can now run this file from a command prompt because of the Windows Script Host (WSH).
 
+<a id="12"></a>
+
 ## Appendix 2: Accessing the redirection.config File Programmatically to Write the Values
 
 This step provides a sample of how to access the redirection.config file programmatically by taking advantage of the new COM AHADMIN API. Use this API from native code or from script and managed code from its COM object.
@@ -231,6 +253,8 @@ This step provides a sample of how to access the redirection.config file program
     [!code-console[Main](shared-configuration_264/samples/sample10.cmd)]
 2. Save your redirection.js file.
 3. You can now run this file from a command prompt because of the Windows Script Host (WSH).
+
+<a id="13"></a>
 
 ## Appendix 3: Dealing With Machine-specific Encrypted Properties
 

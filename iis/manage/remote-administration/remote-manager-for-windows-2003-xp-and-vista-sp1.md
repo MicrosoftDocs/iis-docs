@@ -17,8 +17,12 @@ These requirements must be met in order to continue with the procedures in this 
 - You must have the Microsoft .NET Framework® version 2.0 or greater installed.
 - You must have the Internet Information Services 7.0 or above Management Console® installed (click [here](https://blogs.iis.net/bdela/#InstallingMgtConsole) to see how to install).
 
+<a id="VistaInstall"></a>
+
 > [!NOTE]
 > If at any stage during the install process you receive a User Access Control dialog, you can continue the installation by clicking **Continue** or **Allow**.
+
+<a id="01"></a>
 
 ## Installing on Windows Vista
 
@@ -35,6 +39,8 @@ These requirements must be met in order to continue with the procedures in this 
 6. Select the location where you want to install Remote Manager and click **Next** to continue.  
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image7.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image6.jpg)
 7. On the next screen, click **Install** to start the installation.
+
+<a id="UsingVista"></a>
 
 ### Using Remote Manager on Windows Vista
 
@@ -54,6 +60,8 @@ The following issue is known for Remote Manager:
 
 - The 32 bit version of Internet Information Services (IIS) Manager will not function correctly on 64 bit version of Windows XP®, Windows Server® 2003 and Windows Vista. Ensure that you install the 64 bit version Internet Information Services (IIS) Manager on 64 bit operating systems.
 
+<a id="InstallingMgtConsole"></a><a id="02"></a>
+
 ## Installing the Management Console on Windows Vista (a prerequisite for installing Remote Manager on Vista)
 
 To install the Internet Information Services (IIS) Management Console on Windows Vista, follow the steps below:
@@ -66,6 +74,8 @@ To install the Internet Information Services (IIS) Management Console on Windows
 5. To install the IIS Management Console, check the check box beside "IIS Management Console" and click **OK**. If the check box is already checked, the Management Console is already installed.  
    [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image20.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image19.jpg)
 
+<a id="XP2k3Req"></a><a id="03"></a>
+
 ## Installing on Windows XP and Windows Server 2003
 
 The following prerequisites must be fulfilled in order to install Remote Manager on Windows XP or Windows Server 2003:
@@ -73,6 +83,8 @@ The following prerequisites must be fulfilled in order to install Remote Manager
 - You must have **Windows XP Service Pack 2** installed if you are using **Windows XP**
 - You must have **Windows Server 2003 Service Pack 1** installed if you are using **Windows Server 2003**
 - You must have the Microsoft .NET Framework version 2.0 or greater installed
+
+<a id="XP2k3Install"></a>
 
 ### Install instructions
 
@@ -87,6 +99,8 @@ The following prerequisites must be fulfilled in order to install Remote Manager
 6. Select the location where you want to install Remote Manager and click **Next** to continue.  
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image27.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image26.jpg)
 7. On the next screen, click **Install** to start the installation.
+
+<a id="UsingXP2k3"></a><a id="04"></a>
 
 ## Using Remote Manager on Windows XP and Windows Server 2003
 
