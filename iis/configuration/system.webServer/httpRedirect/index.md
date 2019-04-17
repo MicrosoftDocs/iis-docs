@@ -7,18 +7,14 @@ ms.assetid: f4b994ad-f6dd-4dc3-afcb-bb3fc277d42d
 msc.legacyurl: /configreference/system.webserver/httpredirect
 msc.type: config
 ---
-HTTP Redirects &lt;httpRedirect&gt;
-====================
-<a id="001"></a>
-## Overview
+# HTTP Redirects &lt;httpRedirect&gt;
 
 The `<httpRedirect>` element configures settings for Internet Information Services (IIS) 7 that redirect client requests to a new location.
 
-There are several reasons why you might want to redirect clients to a new location. For example, if your company is migrating to a new Web site, you could redirect all requests from the old Web site to the new Web site. Likewise, if you have deployed a new application on a Web server, you could redirect all requests for the old application's URL namespace (for example, http://www.contoso.com/app\_v1.0/) to the new applications location (for example, http://www.contoso.com/app\_v2.0/).
+There are several reasons why you might want to redirect clients to a new location. For example, if your company is migrating to a new Web site, you could redirect all requests from the old Web site to the new Web site. Likewise, if you have deployed a new application on a Web server, you could redirect all requests for the old application's URL namespace (for example, `http://www.contoso.com/app_v1.0/`) to the new applications location (for example, `http://www.contoso.com/app_v2.0/`).
 
 In the simplest configuration, you need only set the **enabled** and **destination** attributes of the `<httpRedirect>` element in order to redirect clients to a new location. However, additional elements like the **exactDestination** and **httpResponseStatus** attributes allow you to configure the end-user experience of the redirection by respectively specifying whether IIS 7 will return the destination URL exactly as entered and which HTTP response code to return to the Web client.
 
-<a id="002"></a>
 ## Compatibility
 
 | Version | Notes |
@@ -30,7 +26,6 @@ In the simplest configuration, you need only set the **enabled** and **destinati
 | IIS 7.0 | The `<httpRedirect>` element was introduced in IIS 7.0. |
 | IIS 6.0 | The `<httpRedirect>` element replaces the IIS 6.0 **HttpRedirect** metabase property. |
 
-<a id="003"></a>
 ## Setup
 
 HTTP Redirection is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -72,27 +67,26 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common Http Features**.
 4. Select **HTTP Redirection**, and then click **OK**.  
     [![](index/_static/image8.png)](index/_static/image7.png)
- 
-<a id="004"></a>
+
 ## How To
 
 There is no user interface for adding wildcard HTTP redirects for IIS 7. For examples of how to add `<add>` elements to the `<httpRedirect>` element programmatically, see the [Code Samples](#006) section of this document.
 
 ### How to add an HTTP redirect rule to a Web site or application
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -101,34 +95,33 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
     [![](index/_static/image10.png)](index/_static/image9.png)
 4. In the **HTTP Redirect** pane, check the box to redirect requests and enter the destination URL.  
     [![](index/_static/image12.png)](index/_static/image11.png)
-5. You can optionally specify any of the following options: 
+5. You can optionally specify any of the following options:
 
-    - Configure the redirection destination to be the exact destination as entered.
-    - Configure the redirection destination to be limited to the destination URL's root folder, not subfolders.
-    - Configure the HTTP status code, which can be one of these three options: 
+   - Configure the redirection destination to be the exact destination as entered.
+   - Configure the redirection destination to be limited to the destination URL's root folder, not subfolders.
+   - Configure the HTTP status code, which can be one of these three options:
 
-        - **301 Permanent**
-        - **302 Found**
-        - **307 Temporary**
-        - **308 Permanent Redirect**
+     - **301 Permanent**
+     - **302 Found**
+     - **307 Temporary**
+     - **308 Permanent Redirect**
 
-        > [!NOTE]
-        > IIS 7 will respectively return the following actual HTTP response statuses for each of the above options: 
-
-        - **HTTP/1.1 301 Moved Permanently**
-        - **HTTP/1.1 302 Redirect**
-        - **HTTP/1.1 307 Redirect**
-        - **HTTP 1.1 308 Redirected Permanently**
+     > [!NOTE]
+     > IIS 7 will respectively return the following actual HTTP response statuses for each of the above options:
+     >
+     > - **HTTP/1.1 301 Moved Permanently**
+     > - **HTTP/1.1 302 Redirect**
+     > - **HTTP/1.1 307 Redirect**
+     > - **HTTP 1.1 308 Redirected Permanently**
 6. When you have finished all the above changes, click **Apply** in the **Tasks** pane.
 
-<a id="005"></a>
 ## Configuration
 
 ### Attributes
 
 | Attribute | Description |
 | --- | --- |
-| `childOnly` | Optional Boolean attribute. <br><br>Specifies whether the destination value should be added to the beginning of the file name that contains the request to be redirected. For example, if **childOnly** were set to true and the destination value were configured to be http://marking.contoso.com/, a request for http://contoso.com/default.htm would be redirected to http://marketing.contoso.com/default.htm. <br><br>The default value is `false`. |
+| `childOnly` | Optional Boolean attribute. <br><br>Specifies whether the destination value should be added to the beginning of the file name that contains the request to be redirected. For example, if **childOnly** were set to true and the destination value were configured to be `http://marking.contoso.com/`, a request for `http://contoso.com/default.htm` would be redirected to `http://marketing.contoso.com/default.htm`. <br><br>The default value is `false`. |
 | `destination` | Optional string attribute. <br><br>Specifies a URL or virtual path to which to redirect the client. |
 | `enabled` | Optional Boolean attribute. <br><br>Specifies whether redirection is enabled (**true**) or disabled (**false**). <br><br>The default value is `false`. |
 | `exactDestination` | Optional Boolean attribute. <br><br>Specifies that the destination value should be considered an absolute target location, not a relative location. <br><br>The default value is `false`. |
@@ -159,16 +152,15 @@ The following configuration sample adds a wildcard redirection entry that redire
 
 [!code-xml[Main](index/samples/sample3.xml)]
 
-<a id="006"></a>
 ## Sample Code
 
-The following code samples configure the Default Web Site to redirect all requests to "http://www.contoso.com" using an HTTP 302 status code.
+The following code samples configure the Default Web Site to redirect all requests to `http://www.contoso.com` using an HTTP 302 status code.
 
 ### AppCmd.exe
 
 [!code-console[Main](index/samples/sample4.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample5.cs)]
 
@@ -193,7 +185,7 @@ The following code samples adds a wildcard redirection entry that redirects all 
 
 [!code-console[Main](index/samples/sample9.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample10.cs)]
 
