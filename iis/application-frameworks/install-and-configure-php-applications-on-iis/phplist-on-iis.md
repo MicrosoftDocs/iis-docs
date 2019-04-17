@@ -7,8 +7,8 @@ ms.assetid: 6869bc34-44d6-4d2b-ada2-7ff44836eb5f
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phplist-on-iis
 msc.type: authoredcontent
 ---
-PHPList on IIS
-====================
+# PHPList on IIS
+
 by Eric Woersching
 
 ## Introduction
@@ -65,7 +65,7 @@ Some of PHPList source files use only "&lt;?" tag instead of "&lt;?php" script t
     [![](phplist-on-iis/_static/image10.jpg)](phplist-on-iis/_static/image9.jpg)
 6. There several configuration parameters. Edit those parameters according to the application requirements. We use the default setup for testing.  
   
- 7. Click the "main page" link shown on the right side menu to access the admin main page.  
+   a. Click the "main page" link shown on the right side menu to access the admin main page.  
 
     [![](phplist-on-iis/_static/image12.jpg)](phplist-on-iis/_static/image11.jpg)
 7. Access the PHPLists administration page by clicking on the "lists" link shown on the right side menu. Here you can add, delete, or edit the list.  
