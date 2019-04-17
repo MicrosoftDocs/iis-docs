@@ -54,6 +54,8 @@ To help improve the performance for authentication requests, the FTP service cac
 
 3. Close the command prompt.
 
+<a id="01"></a>
+
 ## Step 1: Set up the Project Environment
 
 In this step, you will create a project in Visual Studio for the demo provider.
@@ -97,6 +99,8 @@ In this step, you will create a project in Visual Studio for the demo provider.
 
 7. Save the project.
 
+<a id="02"></a>
+
 ## Step 2: Create the Extensibility Class
 
 In this step, you will implement the logging extensibility interface for the demo provider.
@@ -131,6 +135,8 @@ In this step, you will implement the logging extensibility interface for the dem
 
 > [!NOTE]
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see [Gacutil.exe (Global Assembly Cache Tool)](https://docs.microsoft.com/dotnet/framework/tools/gacutil-exe-gac-tool).
+
+<a id="03"></a>
 
 ## Step 3: Add the Demo Provider to FTP
 
@@ -186,6 +192,8 @@ Create an XML file for the membership users and roles:
    - Click to select **Choose a custom authorization provider**.
    - Select **FtpXmlAuthorization** in the drop-down menu.
    - Click **OK**.
+
+<a id="04"></a>
 
 ## Summary
 

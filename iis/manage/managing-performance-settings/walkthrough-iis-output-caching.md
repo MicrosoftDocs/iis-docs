@@ -19,9 +19,13 @@ There is a big range between these two categories which includes semi-dynamic co
 
 The IIS Output Caching feature targets semi-dynamic content. It allows you to cache static responses for dynamic requests and to gain tremendous scalability.
 
+<a id="01"></a>
+
 ## Prerequisites
 
 For this walkthrough, you need IIS 7.0 or above on Windows® Vista SP1 or on Windows Server® 2008 Beta 3 or later. This walkthrough also uses ASP.NET 2.0 which must be installed as an optional component in the IIS Setup.
+
+<a id="02"></a>
 
 ## Walkthrough Overview
 
@@ -32,6 +36,8 @@ First, we do this by adding a managed handler. Dynamically inserting a copyright
 Next, we install WCAT, an IIS performance analysis tool, to measure the throughput of our JPG copyright handler.
 
 Then we add Output Caching to regain performance degradation incurred by adding our copyright handler.
+
+<a id="03"></a>
 
 ## Part I – Writing and Configuring the Copyright Handler
 
@@ -76,6 +82,8 @@ Then we add Output Caching to regain performance degradation incurred by adding 
    - Move the new language to the top of the list via the "Move Up" button.
    - Browse to `http://localhost/pictures/<your_jpg_file>.jpg`. The Copyright message has changed to the language you configured.
    - Do not forget to go back into the "Languages" dialog box and reset-- otherwise you might wonder later why you get Spanish or German web pages.
+
+<a id="04"></a>
 
 ## Part II - Performance Test of the imageCopyrightHandler
 
@@ -151,6 +159,8 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 
    A word of caution - the bigger your JPG files, the fewer requests you will see. It is likely that your machine is network-bound: IIS will not be able to handle more requests because the network is saturated with the data you are sending. You see the best results with JPG files in the 200-300 KB range.
 
+<a id="05"></a>
+
 ## Adding Output Caching
 
 The code to dynamically insert the copyright message is fairly slow. Fourteen requests per second is not fast for a web server. IIS performs much better. All you must do is create a caching policy that puts URLs with the JPG extension into the kernel Mode cache. Here is how you add the cache policy:
@@ -190,6 +200,8 @@ Repeat the performance run to see what and how the configuration settings change
 ### Sample Output
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample17.cmd)]
+
+<a id="06"></a>
 
 ## Output Caching Advanced Topics
 
@@ -269,6 +281,8 @@ In the example above, we put all files with the extension JPG into the output ca
 8. Add ".aspx" as a file extension.
 9. Select "kernel-mode caching" then we can select "At time intervals" and enable "Monitor cached files" and enter 00:00:30 as the time interval.
 10. Browse to `http://localhost/pictures` with "Internet Explorer". By constantly refreshing the page (press Ctrl+F5 to make sure it does not come from the Browser cache), you see that the time will not change for 30 seconds.
+
+<a id="07"></a>
 
 ## Summary
 

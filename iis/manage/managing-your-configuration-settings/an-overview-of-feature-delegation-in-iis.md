@@ -27,6 +27,8 @@ IIS feature delegation means managing:
 - Configuration section locking to control what configuration can be set in web.config (generally, one IIS configuration section equals one IIS module).
 - The set of site and application users that are permitted to use IIS Manager to view configuration and set configuration for features with unlocked configuration sections.
 
+<a id="01"></a>
+
 ## Configuration Section Locking [appcmd]
 
 > [!NOTE]
@@ -56,6 +58,8 @@ One more aspect on the basics: suppose you want to unlock custom errors configur
 [!code-console[Main](an-overview-of-feature-delegation-in-iis/samples/sample3.cmd)]
 
 This completes locking and unlocking configuration sections using appcmd in Beta3.
+
+<a id="02"></a>
 
 ## Configuration Section Locking [IIS Manager]
 
@@ -87,6 +91,8 @@ Now to do the same thing in IIS Manager.
 
    [![](an-overview-of-feature-delegation-in-iis/_static/image10.jpg)](an-overview-of-feature-delegation-in-iis/_static/image9.jpg) /p>
 
+<a id="03"></a>
+
 ## IIS Manager – Creating Site and Application Administrators
 
 So far, the article has discussed how to control *what* the developers (or content providers, or site owners) can configure in web.config files, but it has not covered *how* they're going to set configuration once it is unlocked. Visual Studio is very good for ASP.NET and other framework configuration – IntelliSense makes it especially easy. Unfortunately, there is no IntelliSense for IIS configuration sections (hopefully, this will be addressed in the near future). Notepadcis an option, but Notepad is only as good as your memory and typing skills.
@@ -112,6 +118,8 @@ Start with creating site and application administrators.
 
    Add a Windows user (not an administrator) as a site administrator for the Default Web Site. Now you have a site administrator – but they still cannot connect to the server yet. This is discussed below.
 
+<a id="04"></a>
+
 ## IIS Manager – Enabling Site and Application Administrators to Connect
 
 The first step is installing the Web Management Service (WMSVC).
@@ -133,6 +141,8 @@ The first step is installing the Web Management Service (WMSVC).
       At this point WMSVC is listening on port 8172, waiting for management requests.
 
       [!code-console[Main](an-overview-of-feature-delegation-in-iis/samples/sample4.cmd)]
+
+<a id="05"></a>
 
 ## Testing
 

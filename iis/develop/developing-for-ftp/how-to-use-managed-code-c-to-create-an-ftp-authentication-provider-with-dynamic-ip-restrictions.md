@@ -55,6 +55,8 @@ To help improve the performance for authentication requests, the FTP service cac
 
 After you have made these changes, the authentication provider in this example will be able to deny all requests from a potential attacker immediately.
 
+<a id="00"></a>
+
 ## Provider Description
 
 This walkthrough contains several points that necessitate some discussion. Internet-based attacks often exploit an FTP server in the attempt to gain the username and password for an account on a system. Detecting this behavior is possible through analysis of the FTP activity logs and examining the IP addresses that are being used to attack your system and blocking those addresses from future access. Unfortunately, this is something of a manual process, and even if that process is automated it will not be real-time.
@@ -93,6 +95,8 @@ The following descriptions summarize the behavior for this authentication provid
 
 - This provider exposes functionality for user and IP address validation, but does not provide an implementation for role lookups. That being said, it would be relatively easy to add an additional table for user-to-role mappings and add the **IFtpRoleProvider.IsUserInRole()** method to the provider, but that is outside the scope of this walkthrough.
 - This provider makes a small number of calls to the SQL database server during the authentication process. Through consolidation of a few of the SQL statements into single compound queries or stored procedures you could further reduce the number of round-trips to the database, but that is outside the scope of this walkthrough.
+
+<a id="01"></a>
 
 ## Step 1: Set up the Project Environment
 
@@ -143,6 +147,8 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
 
 7. Save the project.
 
+<a id="02"></a>
+
 ## Step 2: Create the Extensibility Class
 
 In this step, you will implement the logging extensibility interface for the demo provider.
@@ -183,6 +189,8 @@ In this step, you will implement the logging extensibility interface for the dem
 
 > [!NOTE]
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see [Gacutil.exe (Global Assembly Cache Tool)](https://docs.microsoft.com/dotnet/framework/tools/gacutil-exe-gac-tool).
+
+<a id="03"></a>
 
 ## Step 3: Add the Demo Provider to FTP
 
@@ -227,6 +235,8 @@ In this step, you will add the demo provider to your FTP service and the Default
    - Select **Read** and/or **Write** for the **Permissions** option.
    - Click **OK**.
 
+<a id="04"></a>
+
 ## Step 4: Using the provider with FTP 7.5
 
 When FTP clients connect to your FTP site, the FTP service will attempt to authenticate users with your custom authentication provider using accounts that are stored in the database. If an FTP client fails to authenticate, the provider will track the IP address and date/time of the failure in the database. When an FTP client fails to log in from a specific IP address for the number of failures that is specified in the *logonAttempts* setting, and within the time frame that is specified in the *floodSeconds* setting, the provider will block the IP address from logging in to the FTP service.
@@ -236,6 +246,8 @@ When FTP clients connect to your FTP site, the FTP service will attempt to authe
 >
 > [https://www.iis.net/extensions/DatabaseManager](https://www.iis.net/downloads/microsoft/database-manager)
 
+<a id="05"></a>
+
 ## Additional Information
 
 You can use the following SQL Script for Microsoft SQL Server to create the necessary database and tables. To use this script, you need to update the name of the database and location of the database files. In SQL Server you would run the script in a new query window, and then create a database login that you will use with your connection string.
@@ -244,6 +256,8 @@ You can use the following SQL Script for Microsoft SQL Server to create the nece
 > You might want to alter the SQL script to store the database in a location other than `c:\databases`.
 >
 > [!code-sql[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample8.sql)]
+
+<a id="06"></a>
 
 ## Summary
 
