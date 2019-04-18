@@ -13,7 +13,7 @@ Using Application Request Routing (ARR) in a shared hosting environment introduc
 
 This topic leads you through the steps to configure the host name affinity feature in Application Request Routing, as illustrated below:
 
-[![](shared-hosting-using-application-request-routing-arr/_static/image2.jpg)](shared-hosting-using-application-request-routing-arr/_static/image1.jpg)
+![](shared-hosting-using-application-request-routing-arr/_static/image1.jpg)
 
 ## Goal
 
@@ -39,7 +39,7 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 
 As another prerequisite, you must define and configure a server farm by following the steps outlined in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).
 
-## Step 1 – Enable host name affinity.
+## Step 1 – Enable host name affinity
 
 Before proceeding, ensure that the server farm was created with the application servers that are configured with shared configuration and shared content. The sites on the application servers should also be using host name binding.
 
@@ -59,16 +59,16 @@ Before proceeding, ensure that the server farm was created with the application 
 
    ![](shared-hosting-using-application-request-routing-arr/_static/image5.jpg)
 
-Note that there are two providers for determining which server(s) the host name should be affinitized to. This is different from the load balance algorithm and the provider is only used for the host name affinity feature. The two providers are:
+   Note that there are two providers for determining which server(s) the host name should be affinitized to. This is different from the load balance algorithm and the provider is only used for the host name affinity feature. The two providers are:
 
-- Microsoft.Web.Arr.HostNameRoundRobin
-- Microsoft.Web.Arr.HostNameMemory
+   - Microsoft.Web.Arr.HostNameRoundRobin
+   - Microsoft.Web.Arr.HostNameMemory
 
-Microsoft.Web.Arr.HostNameRoundRobin tries to evenly distribute the number of affinitized host name in round robin. Using this provider has no requirements on the application servers.
+   Microsoft.Web.Arr.HostNameRoundRobin tries to evenly distribute the number of affinitized host name in round robin. Using this provider has no requirements on the application servers.
 
-Microsoft.Web.Arr.HostNameMemory tries to distribute the number of affinitized host names based on the amount of available memory on the application servers where the server with the most amount of available memory would be assigned with the next host name. This provider uses WMI to query the available memory (defined as committed memory / physical memory). Therefore, the application servers must be Windows servers and additional configurations must be made on the application servers to allow remote WMI queries. Refer to [How to configure WMI service on application servers for HostNameMemory affinity provider](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider.md) for more details.
+   Microsoft.Web.Arr.HostNameMemory tries to distribute the number of affinitized host names based on the amount of available memory on the application servers where the server with the most amount of available memory would be assigned with the next host name. This provider uses WMI to query the available memory (defined as committed memory / physical memory). Therefore, the application servers must be Windows servers and additional configurations must be made on the application servers to allow remote WMI queries. Refer to [How to configure WMI service on application servers for HostNameMemory affinity provider](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider.md) for more details.
 
-The time-out value is used to determine how long after the last request with the same host name the affinitization should be reset. This value should be set to the same value as the idle time-out value for the application pools on the application servers. By default, this value is 20 minutes.
+   The time-out value is used to determine how long after the last request with the same host name the affinitization should be reset. This value should be set to the same value as the idle time-out value for the application pools on the application servers. By default, this value is 20 minutes.
 
 6. To verify this functionality, click **Display Routing Table**.
 
