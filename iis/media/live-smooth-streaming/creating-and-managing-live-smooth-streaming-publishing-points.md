@@ -281,7 +281,7 @@ The publishing point is receiving and archiving content, and delivering it to us
 
 > [!NOTE]
 > You can effect a transition to the **DVR-only** or **Shutdown** states by clicking the **Stop Live Source** or **Shut Down Publishing Point** links, respectively, in the **Actions** pane.  
-> ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image16.png)
+> ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image15.png)
 
 <a id="dvr"></a>
 

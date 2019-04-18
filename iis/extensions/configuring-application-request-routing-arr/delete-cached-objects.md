@@ -84,7 +84,7 @@ ARR allows the user to enter an absolute URL to delete one specific cached conte
 
 1. In the **Actions** pane, click **Delete Specific Cached Objects**.
 
-   ![](delete-cached-objects/_static/image3.jpg)
+   ![](delete-cached-objects/_static/image2.jpg)
 2. In the **Delete Cached Objects** dialog box, enter an absolute URL path to the cached content that you want to delete. In the following example, `http://wonyoo-w2k8.arr1-cdn.com/images/2.0/body_bg.jpg` will be removed.
 
    ![](delete-cached-objects/_static/image4.jpg)
