@@ -152,7 +152,7 @@ In either case, the license server generates a license derived from the content 
 
 The Silverlight PlayReady DRM component on the local computer verifies the license, including any content policies such as the license expiration date, before the Silverlight client can play the Smooth Streaming presentation.
 
-| ![Note](encrypting-on-demand-smooth-streams/_static/image3.gif) **Note:** - You can specify **keyID** and **keySeedValue** values in the Smooth Streaming presentation server manifest (.ism) file content header to override the property values in the **PlayReady Protection** task definition. This provides another option to ensure that your Smooth Streaming presentations are uniquely identified for licensing purposes. For more information, see William Zhang's blog, [How to add PlayReady protection in a Transform Manager job template](https://blogs.msdn.com/b/playready4/archive/2011/09/02/how-to-add-playready-protection-in-a-transform-manager-job-template.aspx). |
+| ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) **Note:** - You can specify **keyID** and **keySeedValue** values in the Smooth Streaming presentation server manifest (.ism) file content header to override the property values in the **PlayReady Protection** task definition. This provides another option to ensure that your Smooth Streaming presentations are uniquely identified for licensing purposes. For more information, see William Zhang's blog, [How to add PlayReady protection in a Transform Manager job template](https://blogs.msdn.com/b/playready4/archive/2011/09/02/how-to-add-playready-protection-in-a-transform-manager-job-template.aspx). |
 | --- |
 
 <a id="config_wf"></a>
@@ -201,7 +201,7 @@ To configure the watch folder, do the following:
    | --- | --- |
    | ![](encrypting-on-demand-smooth-streams/_static/image65.png) | ![](encrypting-on-demand-smooth-streams/_static/image66.png) |
 
-    | ![Note](encrypting-on-demand-smooth-streams/_static/image5.gif) **Note:** - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
+    | ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) **Note:** - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
     | --- |
 
 <a id="tm1"></a>
@@ -216,7 +216,7 @@ To begin transforming content, copy-and-paste the ISM file, the Smooth Streaming
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
 ![](encrypting-on-demand-smooth-streams/_static/image71.png)
 
-| ![Note](encrypting-on-demand-smooth-streams/_static/image7.gif) **Note:** - Don't drop multiple ISM manifest files in the watch folder at the same time if they reference the same streams. The job manager will schedule jobs for media files that are referenced in one ISM manifest, and when all of the streams that are referenced in the manifest are present, move the manifest and streams as a group to the watch folder's WorkQueue directory. Another manifest that references the same streams then can't be processed because the streams were removed from the watch folder with the previous manifest. To schedule jobs for this manifest, you must drop the missing streams into the watch folder again. |
+| ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) **Note:** - Don't drop multiple ISM manifest files in the watch folder at the same time if they reference the same streams. The job manager will schedule jobs for media files that are referenced in one ISM manifest, and when all of the streams that are referenced in the manifest are present, move the manifest and streams as a group to the watch folder's WorkQueue directory. Another manifest that references the same streams then can't be processed because the streams were removed from the watch folder with the previous manifest. To schedule jobs for this manifest, you must drop the missing streams into the watch folder again. |
 | --- |
 
 <a id="tm2"></a>
