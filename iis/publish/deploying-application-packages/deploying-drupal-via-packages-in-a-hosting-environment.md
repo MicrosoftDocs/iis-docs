@@ -33,7 +33,7 @@ Application Requirements:
 
 For information about how to install the necessary components see [Step 1. Set Up Your Servers for Hosting](#step-1-set-up-your-servers-for-hosting).
 
-<a id="_Ref281465767"></a>
+<a id="\_Ref281465767"></a>
 
 ## Procedure
 
@@ -45,11 +45,11 @@ Step 1. Set Up Your Servers for Hosting
 Step 2. Create an Application Package for Deployment  
 Step 3. Deploy a Customer Site using IIS with Web Deploy
 
-<a id="_Ref279656383"></a>
+<a id="\_Ref279656383"></a>
 
 ### Step 1. Set Up Your Servers for Hosting
 
-<a id="_Ref279656387"></a>
+<a id="\_Ref279656387"></a>
 
 #### Overview
 
@@ -82,7 +82,7 @@ To install MySQL, go to [Download MySQL Community Server](http://dev.mysql.com/d
 - If the Web Deploy 2.0 component is newly installed, you must configure it to allow delegated deployments. Refer to the link: [*Configure the Web Deploy Component on the Web Server*](../../web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing.md) for more information.
 - After you install and configure the server components, validate your server configuration by following the procedures described at the link: [*Validate Your Server Configuration*](../../web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration.md).
 
-<a id="_Ref279656890"></a>
+<a id="\_Ref279656890"></a>
 
 ### Step 2. Create an Application Package for Deployment
 
@@ -90,7 +90,7 @@ This step describes how to export an application package that can be used to qui
 
 A. Create an IIS Web Site for this Application  
 B. Install the Application to the IIS Application Web Site  
-C. Export the Package from the IIS Application Web Site<a id="_Ref279656388"></a><a id="_Ref280015565"></a><a id="_Ref279736535"></a><a id="_Ref279493249"></a>
+C. Export the Package from the IIS Application Web Site<a id="\_Ref279656388"></a><a id="\_Ref280015565"></a><a id="\_Ref279736535"></a><a id="\_Ref279493249"></a>
 
 #### A. Create an IIS Web Site for this Application
 
@@ -102,7 +102,7 @@ C. Export the Package from the IIS Application Web Site<a id="_Ref279656388"></a
 3. In the Actions area, click the **Add Web Site** link.
 
    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image4.jpg)  
-The Add Web Site dialog box appears.
+   The Add Web Site dialog box appears.
 4. Enter a site name for your Web site.
 5. In the Physical path field, type the physical path to the folder in which the application is installed, or click the browse button (...) to navigate to the folder.
 6. In the Binding area, select the protocol for your Web site from the Type drop-down list.
@@ -112,7 +112,7 @@ The Add Web Site dialog box appears.
 10. If you want the Web site to be immediately available and do not need to make further changes, select the **Start Web site immediately** check box.
 11. Click **OK**.
 
-<a id="_Ref279493250"></a>
+<a id="\_Ref279493250"></a>
 
 #### B. Install the Application to the IIS Application Web Site
 
@@ -159,7 +159,7 @@ The Add Web Site dialog box appears.
 
 For information about setting up your Drupal site, see the [Drupal documentation](https://www.drupal.org/documentation).
 
-<a id="_Ref283901846"></a>
+<a id="\_Ref283901846"></a>
 
 #### C. Enable Permalinks (Optional)
 
@@ -174,7 +174,7 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
 5. Browse to **Administer &gt; Site Configuration &gt; Clean** **URLs**.
 6. Under **Clean URLs**,click the **Enabled** option button, and then click **Save configuration**.
 
-<a id="_Ref279493252"></a>
+<a id="\_Ref279493252"></a>
 
 #### D. Export the Package from the IIS Application Web Site
 
@@ -199,7 +199,7 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
 8. Click outside of the box in which you entered the connection string, and click **OK**.
 
    The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
-![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image33.jpg)
+   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image33.jpg)
 9. Rename the parameters:
 
    - Select **Parameter 1**, and click **Edit**.  
@@ -219,7 +219,7 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
 13. Click **Finish**.Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.
 
-<a id="_Ref279680466"></a><a id="_Ref279656893"></a>
+<a id="\_Ref279680466"></a><a id="\_Ref279656893"></a>
 
 ### Step 3. Deploy a Customer Site using IIS with Web Deploy
 
@@ -229,13 +229,13 @@ When deploying a customer site, most Hosting Service Providers use a control pan
 
 A. Create a Customer Application Web Site  
 B. Create a Customer Application Database  
-C. Import the Application Package using a CLI Command or PowerShell Script <a id="_Ref281465664"></a>
+C. Import the Application Package using a CLI Command or PowerShell Script <a id="\_Ref281465664"></a>
 
 #### A. Create a Customer Application Web Site
 
 To create a customer application Web site, complete the steps described in A. Create an IIS Web Site for this Application.
 
-<a id="_Ref281465665"></a>
+<a id="\_Ref281465665"></a>
 
 **Tips:**
 
@@ -261,7 +261,7 @@ Your command window should appear similar to the following:
 > [!TIP]
 > You can automate this process using a script similar to the one described in the section: MySQL Database Creation Script.
 
-<a id="_Ref280194798"></a>
+<a id="\_Ref280194798"></a>
 
 #### C. Import the Application Package using a CLI Command or PowerShell Script
 
@@ -279,19 +279,19 @@ The examples in this topic show how to import Drupal into an IIS Web site and in
 
 ## Sample Powershell Scripts
 
-<a id="_Ref280016437"></a>
+<a id="\_Ref280016437"></a>
 
 ### Automated Deployment Script
 
 [!code-powershell[Main](deploying-drupal-via-packages-in-a-hosting-environment/samples/sample4.ps1)]
 
-<a id="_Ref280016413"></a><a id="_MySQL_Database_Creation"></a>
+<a id="\_Ref280016413"></a><a id="_MySQL_Database_Creation"></a>
 
 ### MySQL Database Creation Script
 
 [!code-powershell[Main](deploying-drupal-via-packages-in-a-hosting-environment/samples/sample5.ps1)]
 
-<a id="_Ref282166745"></a><a id="_Install_MySQL_on_1"></a>
+<a id="\_Ref282166745"></a><a id="_Install_MySQL_on_1"></a>
 
 #### Install MySQL on your Database Server
 
