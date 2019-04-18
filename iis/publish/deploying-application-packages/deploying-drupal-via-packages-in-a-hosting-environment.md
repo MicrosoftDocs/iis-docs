@@ -71,7 +71,7 @@ To install the required components on your Web server and database server using 
 > [!NOTE]
 > A complete list of components that are installed by default with Web PI 3.0 is included in the Products Installed by Default using Web PI section of this document. You can also review the list of products before installation begins.
 
-<a id="_Install_MySQL_on"></a>
+<a id="\_Install_MySQL_on"></a>
 
 #### Install MySQL on your Database Server
 
@@ -285,13 +285,13 @@ The examples in this topic show how to import Drupal into an IIS Web site and in
 
 [!code-powershell[Main](deploying-drupal-via-packages-in-a-hosting-environment/samples/sample4.ps1)]
 
-<a id="\_Ref280016413"></a><a id="_MySQL_Database_Creation"></a>
+<a id="\_Ref280016413"></a><a id="\_MySQL_Database_Creation"></a>
 
 ### MySQL Database Creation Script
 
 [!code-powershell[Main](deploying-drupal-via-packages-in-a-hosting-environment/samples/sample5.ps1)]
 
-<a id="\_Ref282166745"></a><a id="_Install_MySQL_on_1"></a>
+<a id="\_Ref282166745"></a><a id="\_Install_MySQL_on_1"></a>
 
 #### Install MySQL on your Database Server
 
@@ -321,7 +321,7 @@ The examples in this topic show how to import Drupal into an IIS Web site and in
        > [!NOTE]
        > If you lose the credentials to your MySQL database, refer to the link: [*Resetting the Root Password: Windows Systems*](http://dev.mysql.com/doc/refman/5.1/en/resetting-permissions.html#resetting-permissions-windows) to reset your password.
 
-<a id="_Products_Installed_by"></a>
+<a id="\_Products_Installed_by"></a>
 
 ## Products Installed by Default using Web PI
 
