@@ -183,7 +183,7 @@ To configure the watch folder, do the following:
    | Advanced Settings | Credentials | You must specify a user account for the watch folder to impersonate. The tasks in the job template that's bound to the watch folder will run under the security context of this user account. You must ensure that it has the required permissions for the tasks that are run. For more information about how to create this account, see [Creating Watch Folder Impersonation Accounts](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh147633(v=ws.10)). |
 5. Click **OK** to save your modifications to the watch folder.
 6. On the **Watch Folders** page, select the watch folder, and then, in the **Actions** pane, click **Enable**.  
-   ![](encrypting-on-demand-smooth-streams/_static/image55.png)
+   ![](encrypting-on-demand-smooth-streams/_static/image51.png)
   
    The watch folder is now enabled, but not yet started.
 
