@@ -86,7 +86,7 @@ Before proceeding, ensure that the server farm was created with the application 
 
    [!code-console[Main](shared-hosting-using-application-request-routing-arr/samples/sample1.cmd)]
 
-## Step 2 - Specify the number of servers to use per host name.
+## Step 2 - Specify the number of servers to use per host name
 
 By default, all host names can use one application server. However, if the site owners want additional capacity, the hoster can specify the number of application servers that sites can use per host name.
 
@@ -116,7 +116,7 @@ By default, all host names can use one application server. However, if the site 
 
 2. Navigate to `%windir%\system32\inetsrv`.
 
-3. To specify the number of servers per host name, enter (the below example uses **myServerFarm** as the name of the server farm, and sets the number of servers to 2 for the `www.contoso.com` host name):
+3. To specify the number of servers per host name, enter (the following example uses **myServerFarm** as the name of the server farm, and sets the number of servers to 2 for the `www.contoso.com` host name):
 
    [!code-console[Main](shared-hosting-using-application-request-routing-arr/samples/sample2.cmd)]
 
