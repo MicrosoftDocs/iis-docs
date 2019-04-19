@@ -17,7 +17,8 @@ The following software is required to complete the steps in the example:
   
 - [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
- **Note** You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
+> [!NOTE]
+> You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.
   
 ## Creating the Module
 
@@ -65,10 +66,11 @@ In this part of the walkthrough, you will create an empty C++ DLL project for yo
   
     10. Click **Finish**.  
   
-## Adding the Code and Source Files  
- The next step is to add the required C++ and module definition-files to the project.  
+## Adding the Code and Source Files
+
+The next step is to add the required C++ and module definition-files to the project.  
   
-#### To add the source files to the project  
+### To add the source files to the project
   
 1. Create the module-definition file to export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function:  
   
@@ -135,10 +137,11 @@ In this part of the walkthrough, you will create an empty C++ DLL project for yo
   
     5. Click **OK**.  
   
-## Compiling and Testing the Module  
- Your HTTP module has everything that it needs. All that is required is to compile and test your HTTP module.  
+## Compiling and Testing the Module
+
+Your HTTP module has everything that it needs. All that is required is to compile and test your HTTP module.  
   
-#### To compile and test the project  
+### To compile and test the project
   
 1. Compile the HTTP module:  
   
@@ -164,8 +167,9 @@ In this part of the walkthrough, you will create an empty C++ DLL project for yo
   
 6. Right-click the event, and then click **Properties** to view the event details. You should see a "Hello World!" message displayed in **Description** pane.  
   
-## Troubleshooting Your Settings  
- If your module does not compile or does not work as expected, here are several areas that you can check:  
+## Troubleshooting Your Settings
+
+If your module does not compile or does not work as expected, here are several areas that you can check:  
   
 - Ensure that you have specified `__stdcall` for your exported functions, or that you have configured compilation by using the `__stdcall (/Gz)` calling convention.  
   
@@ -179,6 +183,7 @@ In this part of the walkthrough, you will create an empty C++ DLL project for yo
   
     3. For the **Module Definition File** settings, ensure that your definition file is listed.  
   
-## See Also  
- [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
- [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)
+## See also
+
+- [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)
+- [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)
