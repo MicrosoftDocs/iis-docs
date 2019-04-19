@@ -7,18 +7,16 @@ ms.assetid: a9ae1ca9-bc38-483f-8beb-84e5774ae09a
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/http2-on-iis
 msc.type: authoredcontent
 ---
-HTTP/2 on IIS
-====================
+# HTTP/2 on IIS
+
 by [David So](https://github.com/davidso)
 
-### Compatibility
-
+## Compatibility
 
 | Version | Notes |
 | --- | --- |
 | IIS 10.0 | HTTP/2 Support was introduced in IIS 10.0 |
 | IIS 8.5 and earlier | HTTP/2 was not supported prior to IIS 10.0 |
-
 
 ## What is HTTP/2?
 
@@ -52,7 +50,7 @@ IIS currently supports HTTP/2 only over TLS. When making an HTTPS connection to 
 
 ### What about push?
 
-Since Server Push is a new feature in HTTP/2, there are new APIs that you need to call to take advantage of it. When you call the [PushPromise API](https://msdn.microsoft.com/library/system.web.httpresponse.pushpromise(v=vs.110).aspx) in ASP.NET or the [HttpDeclarePush](https://msdn.microsoft.com/library/windows/desktop/mt219053(v=vs.85).aspx) API from an IIS native module, you provide the URL and optional request headers for the request you anticipate the client making. If push is supported by the underlying connection, two things happen:
+Since Server Push is a new feature in HTTP/2, there are new APIs that you need to call to take advantage of it. When you call the [PushPromise API](https://docs.microsoft.com/dotnet/api/system.web.httpresponse.pushpromise) in ASP.NET or the [HttpDeclarePush](https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeclarepush) API from an IIS native module, you provide the URL and optional request headers for the request you anticipate the client making. If push is supported by the underlying connection, two things happen:
 
 - A PUSH\_PROMISE is sent to the client, so the client can check whether the resource already exists in the cache
 - A new request is added to the request queue for the pushed resource
@@ -84,7 +82,7 @@ Here is sample log file output with Protocol Version field enabled:
 1. If you are running Windows 10, this can be found via **Programs and Features**, then **Turn Windows features on or off**, then enabling **Internet Information Services** checkbox. If you are running Windows Server 2016, then launch **Server Manager**, then **Add roles and features** on the dashboard, and then select **Web Server (IIS)** from the list. 
 
     ![](http2-on-iis/_static/image2.png)
-2. After installation is complete, launch the Internet Services Manager and create a self signed certificate by selecting the **Server Certificates** option under the server's **Features** view. Note that the use of a self signed certificate in this example is only for demo/testing purpose (not recommended for protecting your production sites). 
+2. After installation is complete, launch the Internet Services Manager and create a self signed certificate by selecting the **Server Certificates** option under the server's **Features** view. Note that the use of a self signed certificate in this example is only for demo/testing purpose (not recommended for protecting your production sites).
 
     ![](http2-on-iis/_static/image3.png)
 
@@ -92,7 +90,7 @@ Here is sample log file output with Protocol Version field enabled:
 3. Go to your Default Web Site and under **Bindings**, create a new TLS binding with the self-signed certificate which you just created. 
 
     ![](http2-on-iis/_static/image5.png)
-4. Launch your browser from your Windows 10 or Windows Server 2016 machine and hit F12, (or go to **Settings** and enable **F12 Developer Tools**), and then switch to the **Network** tab. Browse to https://localhost and voila, you are on HTTP/2! 
+4. Launch your browser from your Windows 10 or Windows Server 2016 machine and hit F12, (or go to **Settings** and enable **F12 Developer Tools**), and then switch to the **Network** tab. Browse to `https://localhost` and voila, you are on HTTP/2!
 
     ![](http2-on-iis/_static/image6.png)
 
@@ -104,10 +102,8 @@ In a few cases, HTTP/2 can't be used in combination with other features. In thes
 - Clear text - as mentioned above, IIS currently only supports HTTP/2 over TLS. Again, IIS will fall back to HTTP/1.1.
 - Bandwidth throttling - IIS has a feature to limit bandwidth (in Inetmgr, select the site, 'Limits' under Configure of the Action pane). This applies to HTTP/1.1 but is not enforced for HTTP/2 (will proceed with no errors or bandwidth limiting).
 
-## For More Information....
+## For More Information
 
 See the Build 2015 talk [HTTP/2 in Windows 10: Browser, Apps, and Web Server](https://channel9.msdn.com/Events/Build/2015/3-88) for a more in-depth discussion of HTTP/2 and the client and server implementations in Windows.
 
-### Authors: Mike Bishop, David So
-
-(With contributions from and acknowledgements to Rob Trace, Baris Caglar, Nazim Lala)
+Authors: Mike Bishop, David So (with contributions from and acknowledgements to Rob Trace, Baris Caglar, Nazim Lala)
