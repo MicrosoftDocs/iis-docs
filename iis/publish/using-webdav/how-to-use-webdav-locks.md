@@ -7,8 +7,8 @@ ms.assetid: 1f2dc214-9214-4f68-bde3-8743bc49dfe8
 msc.legacyurl: /learn/publish/using-webdav/how-to-use-webdav-locks
 msc.type: authoredcontent
 ---
-How to Use WebDAV Locks
-====================
+# How to Use WebDAV Locks
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 <a id="00"></a>
@@ -21,17 +21,17 @@ One of the features of WebDAV 7.5 is the ability to create WebDAV locks for cont
 
 This document walks you through how to configure the new WebDAV module to enable WebDAV locks on your Web server, which are used by some WebDAV clients.
 
-### Prerequisites
+## Prerequisites
 
 The following items are required to complete the procedures in this article:
 
-- IIS 7.0 or later must be installed on your server, and the following must be configured: 
+- IIS 7.0 or later must be installed on your server, and the following must be configured:
 
-    - The Default Web Site that is created by the IIS installation must still exist.
-    - The Internet Information Services (IIS) Manager must be installed.
-- The new WebDAV 7.5 module must be installed. For information about the installation of the new WebDAV module, please see the following document: 
+  - The Default Web Site that is created by the IIS installation must still exist.
+  - The Internet Information Services (IIS) Manager must be installed.
+- The new WebDAV 7.5 module must be installed. For information about the installation of the new WebDAV module, please see the following document:
 
-    - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
+  - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 > [!NOTE]
 > You must make sure that you have full administrative user rights before you follow the steps in this document. This is best accomplished by using one of two methods:
@@ -39,9 +39,7 @@ The following items are required to complete the procedures in this article:
 - Log on to your computer using the local administrator account.
 - If you are logged on using an account with administrative user rights that is not the local administrator account, open IIS Manager and all command prompt sessions using the "Run as Administrator" option.
 
-The above condition is required because the User Account Control (UAC) security component in Windows Server 2008 prevents administrative access to the IIS 7.0 configuration settings. For more information about UAC, please see the following documentation:
-
-- [https://go.microsoft.com/fwlink/?LinkId=113664](https://go.microsoft.com/fwlink/?LinkId=113664)
+The above condition is required because the User Account Control (UAC) security component in Windows Server 2008 prevents administrative access to the IIS 7.0 configuration settings. For more information about UAC, please see the [User Account Control](https://go.microsoft.com/fwlink/?LinkId=113664) article.
 
 <a id="#01"></a>
 
@@ -49,16 +47,16 @@ The above condition is required because the User Account Control (UAC) security 
 
 1. In IIS Manager, in the **Connections** pane, expand the **Sites** node in the tree, then click the **Default Web Site**.
 2. As shown in the image below, double-click the **WebDAV Authoring Rules** feature.  
-    [![](how-to-use-webdav-locks/_static/image3.jpg)](how-to-use-webdav-locks/_static/image2.jpg)
+    ![](how-to-use-webdav-locks/_static/image2.jpg)
 3. When the **WebDAV Authoring Rules** page is displayed, click the **WebDAV Settings** task in the **Actions** pane.  
-    [![](how-to-use-webdav-locks/_static/image5.jpg)](how-to-use-webdav-locks/_static/image4.jpg)
-4. When the **WebDAV Settings** page is displayed, specify the following options: 
+    ![](how-to-use-webdav-locks/_static/image4.jpg)
+4. When the **WebDAV Settings** page is displayed, specify the following options:
 
     - Set **Allow Locks** to **True**.
     - For **Lock Store**, choose "**webdav\_simple\_lock**" from the drop-down list.
     - Set **Require Lock for Writing** to your desired setting.  
-        [![](how-to-use-webdav-locks/_static/image7.jpg)](how-to-use-webdav-locks/_static/image6.jpg)
-5. 5. Once you have completed steps 1-4, click **Apply** in the **Actions** pane.
+        ![](how-to-use-webdav-locks/_static/image6.jpg)
+5. Once you have completed steps 1-4, click **Apply** in the **Actions** pane.
 
 <a id="#02"></a>
 
@@ -111,9 +109,7 @@ To remove the lock provider for a Web site, use the following syntax:
 
 [!code-console[Main](how-to-use-webdav-locks/samples/sample6.cmd)]
 
-## Summary
-
-### More Information
+## More Information
 
 For additional information about how to use WebDAV, see the following articles:
 
