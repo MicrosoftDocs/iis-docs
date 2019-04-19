@@ -28,7 +28,6 @@ This document walks you through using the folder-based quotas provided by Window
 
 - [Create a New FTP Site](#01)
 - [Installing and Configuring the File Server Resource Manager Service](#02)
-- [More Information](#03)
 
 > [!NOTE]
 > This walkthrough contains a series of steps in which you log on to your FTP site using the local administrator account. These steps should only be followed on the server itself using the loopback address or over SSL from a remote server. If you prefer to use a separate user account instead of the administrator account, you must create the appropriate folders and set the correct permissions for that user account when necessary.
