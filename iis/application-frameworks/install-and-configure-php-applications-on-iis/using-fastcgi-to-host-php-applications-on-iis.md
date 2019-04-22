@@ -14,7 +14,8 @@ by [Ruslan Yakushev](https://github.com/ruslany)
 This article describes how to configure the FastCGI module and PHP to host PHP applications on IIS 7 and above.
 
 > [!IMPORTANT]
-> ![](using-fastcgi-to-host-php-applications-on-iis/_static/image1.gif) This article provides instructions on how to install and use the FastCGI component on Windows Server 2008 and Windows Vista **SP1**. SP1 is **required** on Windows Vista.
+> ![](using-fastcgi-to-host-php-applications-on-iis/_static/image1.gif)
+> This article provides instructions on how to install and use the FastCGI component on Windows Server 2008 and Windows Vista **SP1**. SP1 is **required** on Windows Vista.
 
 <a id="Overview"></a>
 
@@ -30,7 +31,7 @@ FastCGI addresses the performance issues that are inherent in CGI by providing a
 
 ## Enable FastCGI Support in IIS
 
-<a id="Windows\_Server\_2008:\_"></a>
+<a id="Windows_Server_2008:_"></a>
 
 ### Windows Server 2008
 
@@ -38,7 +39,7 @@ Go to **Server Manager** > **Roles** > **Add Role Services**. On the **Select Ro
 
 ![](using-fastcgi-to-host-php-applications-on-iis/_static/image1.png)
 
-<a id="Windows\_Vista\_SP1"></a>
+<a id="Windows_Vista_SP1"></a>
 
 ### Windows Vista SP1
 
@@ -46,7 +47,7 @@ Go to **Control Panel** > **Programs and Features** > **Turn Windows features on
 
 ![](using-fastcgi-to-host-php-applications-on-iis/_static/image3.png)
 
-<a id="Update\_for\_FastCGI\_module"></a>
+<a id="Update_for_FastCGI_module"></a>
 
 ### ![](using-fastcgi-to-host-php-applications-on-iis/_static/image2.gif)IMPORTANT: Install the Update for the FastCGI Module
 
@@ -58,7 +59,7 @@ The update for the IIS FastCGI module fixes several known compatibility issues w
 - [Update for Windows Vista SP1](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=2&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d19600729-8470-4956-a276-200450d814bd%26DisplayLang%3den "Update for Windows Vista")
 - [Update for Windows Vista SP1 for x64 based Systems](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=4&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3dc7066c3b-dcf7-4441-87bc-f7dcb51067d0%26DisplayLang%3den "Update for Windows Vista for x64 based Systems")
 
-<a id="Install\_Administration\_Pack\_for\_IIS\_7.0"></a>
+<a id="Install_Administration_Pack_for_IIS_7.0"></a>
 
 ### Install the Administration Pack for IIS
 
@@ -97,13 +98,13 @@ It is recommended that you use a non-thread safe build of PHP with IIS FastCGI. 
 
 If PHP installed correctly and all its dependencies are available on the machine, this command will output the current PHP configuration information.
 
-<a id="Configure\_handler\_mapping"></a>
+<a id="Configure_handler_mapping"></a>
 
 ## Configure IIS to Handle PHP Requests
 
 For IIS to host PHP applications, you must add a handler mapping that tells IIS to pass all PHP-specific requests to the PHP application framework by using the FastCGI protocol.
 
-<a id="Using\_IIS\_Manager\_"></a>
+<a id="Using_IIS_Manager_"></a>
 
 ### Configure IIS to handle PHP requests by using IIS Manager
 
@@ -138,7 +139,7 @@ For IIS to host PHP applications, you must add a handler mapping that tells IIS 
 
     [!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample4.xml)]
 
-<a id="Using\_command\_line"></a>
+<a id="Using_command_line"></a>
 
 ### Configure IIS to handle PHP requests by using the command line
 
@@ -160,7 +161,7 @@ Alternatively, you can complete the steps above by using the command line tool A
 
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/hostingPHPonIIS7.zip "Hosting PHP") contains a summary presentation on Best Practices for hosting PHP in a shared hosting environment.
 
-<a id="Security\_Isolation"></a>
+<a id="Security_Isolation"></a>
 
 ### Security Isolation for PHP Web Sites
 
@@ -173,7 +174,7 @@ The recommendation for isolating PHP Web sites in a shared hosting environment i
 
 For more details about security isolation in a shared hosting environment, see [Ensure Security Isolation for Web Sites](../../manage/configuring-security/ensure-security-isolation-for-web-sites.md "Ensure Security Isolation for Web Sites").
 
-<a id="PHP\_Recycling\_Behavior"></a>
+<a id="PHP_Recycling_Behavior"></a>
 
 ### PHP Process Recycling Behavior
 
@@ -183,7 +184,7 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 
 #### Configure FastCGI recycling settings by using IIS Manager
 
-1. Ensure that the [Administration Pack for IIS](using-fastcgi-to-host-php-applications-on-iis.md#Install_Administration_Pack_for_IIS_7.0) is installed on your server. Open IIS Manager. On the server level, double-click **FastCGI Settings**.  
+1. Ensure that the [Administration Pack for IIS](#install-the-administration-pack-for-iis) is installed on your server. Open IIS Manager. On the server level, double-click **FastCGI Settings**.  
 
     ![](using-fastcgi-to-host-php-applications-on-iis/_static/image10.png)
 2. Select the FastCGI application that you want to configure. In the **Actions** pane, click **Edit**.  
@@ -205,7 +206,7 @@ Configure the recycling behavior of FastCGI and PHP by using **AppCmd** by runni
 
 [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample7.cmd)]
 
-<a id="PHP\_Versioning"></a>
+<a id="PHP_Versioning"></a>
 
 ### PHP Versioning
 
@@ -222,7 +223,7 @@ If you have three Web sites (site1, site2, site3) and each site must use a diffe
 
 [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample9.cmd)]
 
-<a id="PHP\_Security\_Recommendations\_"></a>
+<a id="PHP_Security_Recommendations_"></a>
 
 ### PHP Security Recommendations
 
@@ -240,7 +241,7 @@ The following settings can be used to tighten the security of a PHP installation
 | fastcgi.logging=0 | The IIS FastCGI module will fail the request when PHP sends any data on stderr by using the FastCGI protocol. Disable FastCGI logging to prevent PHP from sending error information over stderr and generating 500 response codes for the client. |
 | expose\_php=Off | Hide the presence of PHP. |
 
-<a id="Per-site\_PHP\_configuration"></a>
+<a id="Per-site_PHP_configuration"></a>
 
 ## Enabling per-site PHP configuration
 
@@ -292,7 +293,7 @@ For more information about how to use the URL Rewrite module, see the following 
   - [Mambo](mambo-on-iis.md)
   - [Drupal](install-drupal-on-iis.md)
 
-<a id="Related\_resources\_"></a>
+<a id="Related_resources_"></a>
 
 ## Related resources
 
