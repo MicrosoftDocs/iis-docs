@@ -7,17 +7,15 @@ ms.assetid: 43a39948-73f2-43f7-b777-983befa2fa7f
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/how-to-use-metabase-compatibility-with-iis-7-and-above
 msc.type: authoredcontent
 ---
-How to Use Metabase Compatibility with IIS 7 and Above
-====================
-by [Tobin Titus](https://github.com/tobint)
+# How to Use Metabase Compatibility with IIS 7 and Above
 
-## Introduction
+by [Tobin Titus](https://github.com/tobint)
 
 IIS 7 and IIS 8 allow legacy configuration scripts and applications to continue running. There is an optional setup component that enables the Metabase system with its programmatic interfaces: Admin Base Objects (ABO), and ADSI and WMI providers on top of it. The system intercepts calls to ABO and maps them to the new configuration system. The data is persisted in applicationHost.config but the ABO caller is presented with a legacy view of the configuration structure.
 
 ## Prerequisites
 
-1. Make sure IIS is installed on the machine by selecting http://LocalHost from IE and see that you get the default "Under Construction" page. If IIS is not installed, refer to the Setup How-To for installation instructions.
+1. Make sure IIS is installed on the machine by selecting `http://LocalHost` from IE and see that you get the default "Under Construction" page. If IIS is not installed, refer to the Setup How-To for installation instructions.
 2. Make sure you have administrative privileges on the machine: By default, you do not have them if you're logged on as a user other than the built-in Administrator account, even if this user was added to the local Administrators group on the machine (this is a new security feature in Windows Server® 2008 and above with IIS, called LUA, which is beyond the scope of IIS). Make sure to either log-on as the built-in Administrator account, or explicitly invoke applications as the built-in Administrator as needed, using the "runas" cmd-line tool. For example, to launch notepad.exe you could run this command: "runas /user:administrator notepad.exe". You will be prompted for the password of the Administrator account. It is useful to have a cmd-box shell that is already elevated, by running "runas /user:administrator cmd.exe". Every application you run from that cmd-box will be elevated as well, and you will not need to use the "runas" syntax from that cmd-box.
 3. Make sure the master configuration file is backed up. Simply copy applicationHost.config to a different file, so that you can restore it later. You will find applicationHost.config under the inetsrv\ directory, which in turn is under the system directory. Note that you will need to be an administrator to do this – see previous point above.
 4. Before you start, make sure you are in a "clean state". To do so, revert changes you may have done to the applicationHost.config file in previous exercises. (If you are using a VPC image, the easiest way to do that is to restart the image without saving its state).
@@ -38,7 +36,7 @@ First, verify that the Metabase Compatibility component of IIS is installed on t
 
 Next, you need to download the MBExplorer tool off the web. Use MSN Search to look it up--it will direct you to the download center on Microsoft.com, where you will need to download and install the IIS 6.0 Resource Kit. The MBExplorer tool is included in the resource kit. After installation, you will typically find it under \Program Files\IIS Resources\Metabase Explorer\MBExplorer.exe.
 
-[![](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image3.png)](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image1.png)
+![](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image1.png)
 
 1. Run MBExplorer.exe. This tool works on top of the AdminBaseObjects (ABO) interface, so it presents an ABO view of the configuration hierarchy.
 2. In the left pane, navigate to the LM &gt; W3SVC level. This is the global level of the configuration hierarchy, in an ABO view.
@@ -54,9 +52,8 @@ Next, you need to download the MBExplorer tool off the web. Use MSN Search to lo
 
 In this step, you will learn how to change a value under a virtual directory using ABO, and have the value write through to applicationHost.config. Because you are not changing a global setting, the ABO compatibility layer generates a location tag in the applicationHost.config file, with a path that corresponds to the virtual directory you changed. Note that web.config files are not handled by the Metabase Compatibility component.
 
-[![](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image6.png)](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image5.png)  
+![](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image5.png)
   
-
 1. Run the MBExplorer.exe tool.
 2. In the left pane, navigate to the **LM** &gt; **W3SVC** &gt; 1 &gt;**ROOT** level. This is the root application under the default Web site.
 3. Set a value for the **AuthFlags** property. Click ROOT in the left pane, from the Edit menu select **New DWORD Record**, and then enter 6000 as the record ID.
