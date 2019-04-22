@@ -55,17 +55,17 @@ a. On the host machine, click the "Start" menu, type "Hyper-v Manager" and press
 
    ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image11.png)
 
-b.On the "Actions" bar (right side) click "New" and select "Virtual Machine…". The New virtual Machine Wizard will come up.
+b. On the "Actions" bar (right side) click "New" and select "Virtual Machine". The New virtual Machine Wizard will come up.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image12.png)
+   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image13.png)
 
-c. Enter the name of the virtual machine, I usually use a descriptive name that refers to the OS version used, for example "WS2K8R2Std"
+c. Enter the name of the virtual machine, I usually use a descriptive name that refers to the OS version used, for example "WS2K8R2Std".
 
-d.On the same screen, select the location of where in disk the virtual machine will be stored. Do so by checking the check box and selecting the location you will use for the Web Server VM.
+d. On the same screen, select the location of where in disk the virtual machine will be stored. Do so by checking the check box and selecting the location you will use for the Web Server VM.
 
    ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image15.png)
 
-e.If you already have a prepared virtual hard disk available, this is the moment to specify to use it for your VM; otherwise you could create one from scratch or attach one later.
+e. If you already have a prepared virtual hard disk available, this is the moment to specify to use it for your VM; otherwise you could create one from scratch or attach one later.
 
    ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image17.png)
 
