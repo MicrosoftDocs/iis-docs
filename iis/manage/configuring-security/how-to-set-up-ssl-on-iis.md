@@ -29,11 +29,11 @@ This document provides some basic information on SSL, then shows how to enable S
 
 This article contains the following sections:
 
-- [SSL Configuration](how-to-set-up-ssl-on-iis.md#SSL)
-- [Using AppCmd](how-to-set-up-ssl-on-iis.md#AppCmd)
-- [Using WMI](how-to-set-up-ssl-on-iis.md#WMI)
-- [Using IIS Manager](how-to-set-up-ssl-on-iis.md#IISManager)
-- [Summary](how-to-set-up-ssl-on-iis.md#Summary)
+- [SSL Configuration](#SSL)
+- [Using AppCmd](#AppCmd)
+- [Using WMI](#WMI)
+- [Using IIS Manager](#IISManager)
+- [Summary](#Summary)
 
 <a id="SSL"></a>
 
@@ -119,6 +119,8 @@ Set oSection = oIIS.Get(\_
 oSection.SslFlags = oSection.SslFlags OR SSL  
 oSection.Put\_ <a id="IISManager"></a>
 ```
+
+<a id="IISManager"></a>
 
 ## IIS Manager
 

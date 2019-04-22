@@ -7,11 +7,7 @@ ms.assetid: d4d6dc1f-ff81-44b9-ab0b-cf711da8f1e6
 msc.legacyurl: /learn/develop/extending-iis-configuration/configuration-extensibility
 msc.type: authoredcontent
 ---
-Configuration Extensibility
-====================
-by IIS Team
-
-## Introduction
+# Configuration Extensibility
 
 The configuration system in IIS 7.0 and above is based on distributed xml files that contain the configuration for IIS, ASP.NET and other components; flexibility in the configuration system also allows for configuration to be set at a number of levels including at the server, the site and the application level. Configuration at the site and application level coexists alongside ASP.NET configuration in web.config files.
 
@@ -42,9 +38,7 @@ The first step in adding a new configuration section is defining the section. De
 
 Create an xml file called **simpleLogging\_Schema.xml** and put the following into it:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample1.xml)]
-
 
 The schema above does two things. First, it defines a new configuration section named "simpleLogging" using the &lt;sectionSchema&gt; element. Second, it defines an attribute of that new configuration section called "logfileDirectory".
 
@@ -52,15 +46,11 @@ You can see from the schema file that the attribute is a string and the configur
 
 Next, create the default directory specified for "logfileDirectory", as it probably does not exist on your machine. Run the following command from the command line to create the directory:
 
-
 [!code-console[Main](configuration-extensibility/samples/sample2.cmd)]
-
 
 The Windows group IIS\_IUSRS must have write permissions to the directory so that the SimpleLogging module we create in Step 4 can write log files to it. Run the following command at the command line:
 
-
 [!code-console[Main](configuration-extensibility/samples/sample3.cmd)]
-
 
 ### More About the Schema
 
@@ -68,7 +58,7 @@ Although Step 1 is complete in terms of our example, it is appropriate to discus
 
 | Type | Schema Info and Examples |
 | --- | --- |
-| **attribute** | &lt; [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
+| **attribute** | [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
 | **element** | [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample7.xml)] |
 | **collection** | [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample9.xml)] |
 
@@ -76,23 +66,17 @@ Although Step 1 is complete in terms of our example, it is appropriate to discus
 
 Now that a new section has been defined, tell the configuration system about the section. Register the new section in the `%windir%\system32\inetsrv\config\applicationHost.config` file. Open the file and register the simpleLogging section as below:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample10.xml)]
-
 
 This step is complete. The section is defined and registered.
 
 To check that the section has registered correctly, run the following command from the command line:
 
-
 [!code-console[Main](configuration-extensibility/samples/sample11.cmd)]
-
 
 If everything has gone well up to now, then the configuration section displays and you see something like this:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample12.xml)]
-
 
 ### Step 3 – Setting the Configuration
 
@@ -100,27 +84,19 @@ Now that the section has been registered, set the configuration as you would any
 
 For the time being, set the configuration by adding it to a new **web.config** file for the default IIS website (the one installed at `%systemdrive%\inetpub\wwwroot\` and named "Default Web Site" in the default IIS configuration). Create a file called web.config and add the following:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample13.xml)]
-
 
 You can achieve the same thing from the command line using:
 
-
 [!code-console[Main](configuration-extensibility/samples/sample14.cmd)]
 
-
-Run the following command to list the configuration for the "Default Web Site"
-
+Run the following command to list the configuration for the "Default Web Site":
 
 [!code-console[Main](configuration-extensibility/samples/sample15.cmd)]
 
-
 The output is something like this:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample16.xml)]
-
 
 > [!NOTE]
 > If the directory specified for "logfileDirectory" does not exist, create it now. The Windows group IIS\_IUSRS must have write permissions to the directory so that the SimpleLogging module we create in the next step can write log files to it. Step 1 above showed the command line command used to set the correct permissions on the default directory. Use a similar command if you have created a different directory.
@@ -136,33 +112,39 @@ The required steps include:
 1. Create a directory in which to work and open it.
 2. Create a **SimpleLoggingModule.cs** file and add the following code to it using a text editor:  
 
-    [!code-csharp[Main](configuration-extensibility/samples/sample17.cs)]
+   [!code-csharp[Main](configuration-extensibility/samples/sample17.cs)]
+
 3. We must make this a strongly named module in order for IIS to use it as a global module for all sites. First, create a strong name key file. Open a command prompt and change the directory to the one containing the **SimpleLoggingModule.cs** file. Then, run the following command (make sure that the bin directory of your .NET framework SDK is in your path):  
 
-    [!code-console[Main](configuration-extensibility/samples/sample18.cmd)]
+   [!code-console[Main](configuration-extensibility/samples/sample18.cmd)]
 
-    If this worked correctly, the output of sn.exe says something like "Key pair written to keyFile.snk"
-- Now compile the file and create a DLL. Run the following command from the command prompt:  
+   If this worked correctly, the output of sn.exe says something like "Key pair written to keyFile.snk"
 
-    [!code-console[Main](configuration-extensibility/samples/sample19.cmd)]
-- Next, place the compiled assembly (SimpleLoggingModule.dll) into the Global Assembly Cache. Run the following command from the command prompt:  
+4. Now compile the file and create a DLL. Run the following command from the command prompt:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample20.cmd)]
-- Now we must add our module to the list of modules that IIS can use. Before that, however, we must get the full name of the assembly just created. Run the following at the command line:  
+   [!code-console[Main](configuration-extensibility/samples/sample19.cmd)]
 
-    [!code-console[Main](configuration-extensibility/samples/sample21.cmd)]
+5. Next, place the compiled assembly (SimpleLoggingModule.dll) into the Global Assembly Cache. Run the following command from the command prompt:  
 
-    This outputs something like this:
+   [!code-console[Main](configuration-extensibility/samples/sample20.cmd)]
 
-    [!code-console[Main](configuration-extensibility/samples/sample22.cmd)]
-- Add the module to the list of modules that IIS can use. Run the command below. However, ensure that you replace the variables with the output of the last command.  
+6. Now we must add our module to the list of modules that IIS can use. Before that, however, we must get the full name of the assembly just created. Run the following at the command line:  
+
+   [!code-console[Main](configuration-extensibility/samples/sample21.cmd)]
+
+   This outputs something like this:
+
+   [!code-console[Main](configuration-extensibility/samples/sample22.cmd)]
+
+7. Add the module to the list of modules that IIS can use. Run the command below. However, ensure that you replace the variables with the output of the last command.  
 
     [!code-console[Main](configuration-extensibility/samples/sample23.cmd)]
 
     This adds the necessary configuration entry to the applicationHost.config file - IIS's global configuration file.
-- The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
 
-    [![](configuration-extensibility/_static/image2.jpg)](configuration-extensibility/_static/image1.jpg)
+8. The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
+
+   [![](configuration-extensibility/_static/image2.jpg)](configuration-extensibility/_static/image1.jpg)
 
 If you get an error, make sure that you have given the IIS\_IUSRS group permissions to write to the directory.
 
@@ -204,41 +186,40 @@ Here are the steps to create the .NET COM component:
 
 1. Open a command line prompt and change to the directory you created to store the files. Make sure that the bin directory of the .NET Framework is in your path and then run the following command at the command line:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample24.cmd)]
+   [!code-console[Main](configuration-extensibility/samples/sample24.cmd)]
 
-    The tlbimp.exe tool will have created a file called AppHostAdminLibrary.dll – this is the interop dll that we need.
+   The tlbimp.exe tool will have created a file called AppHostAdminLibrary.dll – this is the interop dll that we need.
+
 2. Create a ConfigurationExtensibility.cs file in the directory you created earlier and copy the following C# code into the file using a text editor:  
 
-    [!code-csharp[Main](configuration-extensibility/samples/sample25.cs)]
+   [!code-csharp[Main](configuration-extensibility/samples/sample25.cs)]
 
-    > [!NOTE]
-    > We have a class which is implementing the **IAppHostPropertyExtension** interface. The code itself only reads the logfileDirectory attribute to get the logfile directory and then counts all the files that match the filename pattern for the log files that SimpleLoggingModule created.
+   > [!NOTE]
+   > We have a class which is implementing the **IAppHostPropertyExtension** interface. The code itself only reads the logfileDirectory attribute to get the logfile directory and then counts all the files that match the filename pattern for the log files that SimpleLoggingModule created.
+
 3. Build the component by running the following command from the commandline:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample26.cmd)]
+   [!code-console[Main](configuration-extensibility/samples/sample26.cmd)]
 
-    You now have your .NET COM component – **ConfigurationExtensibility.dll**.
+   You now have your .NET COM component – **ConfigurationExtensibility.dll**.
+
 4. Register the managed COM component you just created. Run the following command at the command prompt:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample27.cmd)]
+   [!code-console[Main](configuration-extensibility/samples/sample27.cmd)]
 
-    This registers the COM component in the registry. You have created and registered a .NET COM component that the configuration system can use.
+   This registers the COM component in the registry. You have created and registered a .NET COM component that the configuration system can use.
 
 ### Step 2 - Updating the Schema File
 
 Next, modify the **simpleLogging\_Schema.xml** file created earlier. Open the file and change it to look like the following (the new attribute is bolded):
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample28.xml)]
-
 
 ### Step 3 - Testing
 
 Everything should be working properly now-- all that remains is testing. To test the extension, use a simple script. Create a SimpleLoggingTest.vbs file and enter the following text:
 
-
 [!code-vb[Main](configuration-extensibility/samples/sample29.vb)]
-
 
 At this stage, there should be a single log file from testing the SimpleLoggingModule earlier. Run the script from the command line. You see an output of 1.
 
@@ -250,21 +231,20 @@ Finally, this article examines extending configuration with a method. Configurat
 
 1. First,add the necessary code for the method. Open up the ConfigurationExtensibility.cs file created earlier and update it to look as follows (new code bolded):  
 
-    [!code-csharp[Main](configuration-extensibility/samples/sample30.cs)]
+   [!code-csharp[Main](configuration-extensibility/samples/sample30.cs)]
 
-    > [!NOTE]
-    > We have implemented the **IAppHostMethodExtension** interface. This interface has a single method called **ProvideMethod** which logically provides the method. When someone calls the method (see Step 3 for how to do this), the configuration system calls ProvideMethod and passes parameters, one of which has the name of the method being called; in the code above, we only handle a method called "deleteLogs".
+   > [!NOTE]
+   > We have implemented the **IAppHostMethodExtension** interface. This interface has a single method called **ProvideMethod** which logically provides the method. When someone calls the method (see Step 3 for how to do this), the configuration system calls ProvideMethod and passes parameters, one of which has the name of the method being called; in the code above, we only handle a method called "deleteLogs".
+
 2. Build the project again using:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample31.cmd)]
+   [!code-console[Main](configuration-extensibility/samples/sample31.cmd)]
 
 ### Step 2 - Updating the Schema
 
 Next, tell the schema about our new method. At this stage, you should be fairly familiar with your **simpleLogging\_Schema.xml** file, so open it up again and change it to look like the following:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample32.xml)]
-
 
 The change defined a new method called "deleteLogs" and tells the configuration where to look for the method.
 
@@ -272,15 +252,11 @@ The change defined a new method called "deleteLogs" and tells the configuration 
 
 Finally, check to see if the method is working. A quick and easy way to do this is to write a simple VB script. Below is an example script that outputs the logfileCount, then calls our method and outputs the logfileCount. Simply update the SimpleLoggingTest.vbs file you created earlier and enter the following:
 
-
 [!code-vb[Main](configuration-extensibility/samples/sample33.vb)]
-
 
 Run the script from a command line and you get an output of:
 
-
 [!code-console[Main](configuration-extensibility/samples/sample34.cmd)]
-
 
 The above was a quick overview of how to provide new configuration and configuration methods backed by COM components. As you probably found, extending configuration using this method is very powerful.
 
@@ -296,31 +272,23 @@ To better show how to extend an existing configuration section, we extend the **
 
 First, create a new schema file. Create a **siteExtension\_schema.xml** file in the `%windir%\system32\inetsrv\config\schema\` directory and enter the text below:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample35.xml)]
-
 
 When extending the schema of an existing section, simply create a `<sectionSchema>` element and set the **name** attribute to be the same as an existing section. In the schema file above, we have defined a &lt;sectionSchema&gt; with a name of "system.applicationHost/sites" - this is the same as the sectionSchema name in the IIS\_Schema.xml file in the Schema directory.
 
 Test our modifications by adding values for the "owner" and "ownerEmail" attributes and then check the configuration file to see the changes. Simply run the following command from the command line:
 
-
 [!code-console[Main](configuration-extensibility/samples/sample36.cmd)]
-
 
 To see if the configuration was applied, run the following command and check the output:
 
-
 [!code-console[Main](configuration-extensibility/samples/sample37.cmd)]
-
 
 The output should be something like the following:
 
-
 [!code-xml[Main](configuration-extensibility/samples/sample38.xml)]
 
-
 > [!NOTE]
-> If you now browse to [http://localhost/](http://localhost/), you may receive a server 500.19 error message. This is a known issue and will be resolved in a later build of IIS. To get around this issue, run "iisreset" from the command line.
+> If you now browse to `http://localhost/`, you may receive a server 500.19 error message. This is a known issue and will be resolved in a later build of IIS. To get around this issue, run "iisreset" from the command line.
 
-That concludes the look at configuration extensibility. Hopefully, you can use configuration extensibility in an interesting way after reading through the examples above.
+That concludes the look at configuration extensibility. Hopefully, you can use configuration extensibility in an interesting way after reading through the previous examples.

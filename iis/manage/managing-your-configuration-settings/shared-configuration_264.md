@@ -7,9 +7,7 @@ ms.assetid: cd23d12b-4c44-4e80-bdaf-163c3f03632e
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/shared-configuration_264
 msc.type: authoredcontent
 ---
-Shared Configuration
-====================
-by IIS Team
+# Shared Configuration
 
 ## Introduction
 
@@ -24,8 +22,6 @@ The server cluster provides improved availability by having multiple servers dis
 This article focuses on the shared centralized global configuration feature. This feature helps support homogeneous Web farms where servers share the same configuration across a server group. By using a UNC share, any changes to a central master configuration file will propagate across different servers without extra tools or programmatic support.
 
 The first part of this article describes how to use the IIS 7 and above administration UI to enable and use shared configuration. The second part describes how to enable and use shared configuration from the command line.
-
-In this article:
 
 ### Non-Goals: What This Article Does Not Cover
 
@@ -62,7 +58,7 @@ You must complete the following steps in order:
 
 The IIS administration UI includes support for setting up configuration redirection and exporting configuration files and necessary encryption keys to a specified path.
 
-### To export files and set up configuration redirection by using the UI:
+### To export files and set up configuration redirection by using the UI
 
 1. Open IIS Manager.
 2. In the tree view, select the server connection for which you want to set up configuration redirection.
@@ -88,13 +84,11 @@ When setting up configuration redirection, the exported files are expected to ha
 
 For example, if you manually copied the administration.config and applicationHost.config files to a share and then manually exported the encryption keys, you would not be able to use the UI to set up configuration redirection to point to those files. This is because the exported encryption keys would not be in the format that is required by the UI.
 
-<a id="03"></a>
-
 ## Command Prompt
 
 Throughout the remainder of this article, you must use a command prompt to run certain commands. It is recommended that you use a command prompt with elevated user rights, since certain commands will not work if you run a normal command prompt.
 
-**To open a command prompt with elevated user rights:** 
+### To open a command prompt with elevated user rights
 
 1. Click **Start**.
 2. Click **All Programs**.
@@ -108,7 +102,7 @@ Throughout the remainder of this article, you must use a command prompt to run c
 
 When trying new features or changing multiple configuration settings, it is good practice to back up the current applicationHost.config file.
 
-### To back up the applicationHost.config file:
+### To back up the applicationHost.config file
 
 1. Open a command prompt.
 2. Navigate to the IIS directory, which is located in `%WINDIR%\System32\InetSrv` by default. The configuration files are stored in the InetSrv\Config directory. Use the AppCmd tool to create a backup object and back up the applicationHost.config file by running the following command:  
@@ -121,7 +115,7 @@ When trying new features or changing multiple configuration settings, it is good
 
     [!code-console[Main](shared-configuration_264/samples/sample2.cmd)]
 
-**To replace the current configuration file with the backup file:** 
+### To replace the current configuration file with the backup file
 
 1. Open a command prompt.
 2. Navigate to the IIS directory, which is located in the InetSrv directory by default. Restore the AppCmd backup file object by running the following command:  
@@ -136,12 +130,13 @@ In a domain environment, an administrator must provide or create an account in t
 
 In a non-domain environment, an administrator must create on both servers a local user with user rights to access content. The user name and password must be the same across servers to work in this setup. The following steps help in the creation of a user to read the share where the shared configuration resides.
 
-### To create a user that can read the share where the shared configuration resides (non-domain):
+### To create a user that can read the share where the shared configuration resides (non-domain)
 
 1. Open a command prompt.
 2. On the Web Server (front-end server where IIS is installed), create a user called ConfigUser1 with the password ConfigPass1 by running the following command:
 
-[!code-console[Main](shared-configuration_264/samples/sample4.cmd)]
+   [!code-console[Main](shared-configuration_264/samples/sample4.cmd)]
+
 3. On the File Server (back-end server where the central configuration will reside), create a user called ConfigUser1 with the password ConfigPass1 by running the following command:
 
 [!code-console[Main](shared-configuration_264/samples/sample5.cmd)]
@@ -152,15 +147,16 @@ In a non-domain environment, an administrator must create on both servers a loca
 
 The UNC share for configuration hosts the applicationHost.config file for any servers that want to pick up configuration data from this centralized location.
 
-### To create the UNC share:
+### To create the UNC share
 
 1. On the File Server, open a command prompt.
 2. Navigate to the root of the drive. Run the following command to create a directory for configuration and share this directory, making sure to grant users with the user rights to read and write to the directory:
 
-[!code-console[Main](shared-configuration_264/samples/sample6.cmd)]
+    [!code-console[Main](shared-configuration_264/samples/sample6.cmd)]
 
     > [!NOTE]
     > This command automatically grants user rights to the users group to this share. The user created for the non-domain scenario is granted change rights automatically, which can be further restricted if needed. For the domain scenario, the user must either have user rights set explicitly to access the share or be added to the users group in the system.
+
 3. Non-domain scenario: To increase the security of the share, you can substitute the Users,Change portion of the /grant switch with the ConfigUser1,Change parameters. Only the specified user will have access to the share.
 4. Domain scenario: To increase the security of the share, you can substitute the Users,Change portion of the /grant switch with the domain\user,Change parameters. Only the specified user will have remote access to the share.
 
@@ -176,7 +172,7 @@ You must ensure that the account that is used to access the configuration has th
 > [!NOTE]
 > The ConfigUser1 account - or the equivalent domain account that is used to read the configuration - is not the same as the account that is used for writing the configuration. These accounts are not required to have write user rights to the share or configuration file.
 
-### To grant user rights to the accounts for the UNC share (domain):
+### To grant user rights to the accounts for the UNC share (domain)
 
 1. If the domain account is part of the local users group and the users were granted access when the share was created, you can skip the next steps for the domain setup. However, if the domain account to access the local file share is not part of any local user groups, you must execute the command to grant user rights.
 2. On the File Server, open a command prompt.
@@ -184,7 +180,7 @@ You must ensure that the account that is used to access the configuration has th
 
 [!code-console[Main](shared-configuration_264/samples/sample7.cmd)]
 
-### To add the UNC user (non-domain and domain):
+### To add the UNC user (non-domain and domain)
 
 For domain and non-domain scenarios, the user name must include the logon batch job configuration. This is not a default setting in Windows Servers® 2008; you must manually add it to the Web server.
 
@@ -202,16 +198,16 @@ Now that you have completed the preceding steps, the Web server is functional an
 
 You can now move the configuration to a central location. This allows you to declare a file as the master file and save it in a UNC share for the configuration of multiple servers. Changing this file once will provision and update all server configurations at once.
 
-### To store the configuration in a UNC share:
+### To store the configuration in a UNC share
 
 1. Copy the **applicationHost.config** and **administration.config** files from the `%windir%\system32\inetsrv\config` directory on the front-end Web server to share on the back-end file server. If the user account that is currently logged in has write access to the back-end share, you can drop the file in the directory. If not, then you must authenticate the user account to the back-end to complete this step.
 2. Access the existing redirection.config XML file in the front-end server's configuration directory:
 
-    - Use Windows Explorer to navigate to `%windir%\system32\inetsrv\config`.
-    - Open the redirection.config file. This file and its contents are created when the Web server is set up. Tools and APIs can access this file to determine whether or not this feature is enabled.
+   - Use Windows Explorer to navigate to `%windir%\system32\inetsrv\config`.
+   - Open the redirection.config file. This file and its contents are created when the Web server is set up. Tools and APIs can access this file to determine whether or not this feature is enabled.
 3. Open the redirection.config file. Set the following configuration with the correct server name, user name, and password for your environment.
 
-[!code-xml[Main](shared-configuration_264/samples/sample8.xml)]
+   [!code-xml[Main](shared-configuration_264/samples/sample8.xml)]
 4. Save your redirection.config file. You can access the sites again, but the configuration is now stored in a UNC share.
 
 <a id="09"></a>
@@ -237,7 +233,7 @@ Once the feature is setup, whether a change is made in the file at the UNC share
 
 This step provides a sample of how to access the redirection.config file programmatically by taking advantage of the new COM AHADMIN API. Use the AHADMIN COM API to implement this API from native code or from script and managed code.
 
-### To read the values programmatically:
+### To read the values programmatically
 
 1. Create a text file and save it with the .js extension. The following script provides a sample of how to read the enabled attribute, server name, user name, and password for your environment:
 
@@ -250,7 +246,7 @@ This step provides a sample of how to access the redirection.config file program
 
 This step provides a sample of how to access the redirection.config file programmatically by taking advantage of the new COM AHADMIN API. Use this API from native code or from script and managed code from its COM object.
 
-### To write the values programmatically:
+### To write the values programmatically
 
 1. Create a text file and save it with the .js extension. The following script provides a sample of how to write the enabled attribute, server name, user name, and password for your environment:
 
@@ -272,17 +268,19 @@ These keys are in the iisConfigurationKey and iisWasKey key containers and are m
 
 ### Steps
 
-1. Open a command-prompt. Navigate to the Framework directory, which is located in `%windir%\Microsoft.NET\Framework\v2.0.50727\` by default.   
-    > [!NOTE]
-    > For reference, the machine keys for the system are located in **%ALLUSERSPROFILE%\Microsoft\Crypto\RSA\MachineKeys\**
+1. Open a command-prompt. Navigate to the Framework directory, which is located in `%windir%\Microsoft.NET\Framework\v2.0.50727\` by default.
+
+   > [!NOTE]
+   > For reference, the machine keys for the system are located in **%ALLUSERSPROFILE%\Microsoft\Crypto\RSA\MachineKeys\**
+
 2. Use the aspnet\_regiis tool to export the key. The command to transfer the configuration key is stated below. The px switch identifies that you want to export an RSA key pair. The pri switch identifies that you also want to include both the private and public key.
 
-    This switch identification is necessary to do both encryption and decryption; otherwise, you can only encrypt data with the exported key. The parameter after the **-px** is the name of the key container to be exported. In this case, it is the "iisConfigurationKey" key container. The other key container that IIS uses is the "iisWasKey" key container.
+   This switch identification is necessary to do both encryption and decryption; otherwise, you can only encrypt data with the exported key. The parameter after the **-px** is the name of the key container to be exported. In this case, it is the "iisConfigurationKey" key container. The other key container that IIS uses is the "iisWasKey" key container.
 
-    [!code-console[Main](shared-configuration_264/samples/sample11.cmd)]
+   [!code-console[Main](shared-configuration_264/samples/sample11.cmd)]
 3. Once exporting completes successfully, copy the XML file to the other machine in the cluster to prepare to import it there.
 4. Navigate to the Framework directory and use the aspnet\_regiis tool to import the key from the XML file. The command to finalize the transfer for the key is stated below.  
   
- The parameter after the **-pi** is the name of the key container to be imported. In this case, it is the "iisConfigurationKey" key container. The other key container that IIS uses is the "iisWasKey" key container. 
+   The parameter after the **-pi** is the name of the key container to be imported. In this case, it is the "iisConfigurationKey" key container. The other key container that IIS uses is the "iisWasKey" key container.
 
-    [!code-console[Main](shared-configuration_264/samples/sample12.cmd)]
+   [!code-console[Main](shared-configuration_264/samples/sample12.cmd)]
