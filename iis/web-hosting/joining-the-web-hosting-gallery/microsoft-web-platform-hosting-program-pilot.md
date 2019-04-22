@@ -63,7 +63,7 @@ Installs extensions, explaining the server and client experience.
 
 - [Planning the Web Hosting Architecture](#plan)
 - [Deploying the Windows Web Platform in Shared Hosting Environments](#deploying)
-- [Verifying the Deployment](#verify)
+- [Verifying the Deployment](#Verify)
 - [Installing Infrastructure Components](#infra)
 - [Configuring IIS](#configiis)
 - [Migrating](#migrate)
