@@ -7,11 +7,9 @@ ms.assetid: 7fc41638-2270-4bbe-b8e3-a73cd7dd4641
 msc.legacyurl: /learn/manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi
 msc.type: authoredcontent
 ---
-Managing Worker Processes and AppDomains in IIS 7 with WMI
-====================
-by Tim Ammann
+# Managing Worker Processes and AppDomains in IIS 7 with WMI
 
-## Introduction
+by Tim Ammann
 
 WMI scripting lets you manage worker processes and application domains (AppDomains) in IIS with relative ease. IIS worker processes are spawned by the Windows Process Activation Service (WAS) and executed by W3wp.exe. Worker processes can contain AppDomains that are typically created in response to a request for an .aspx page.
 
@@ -24,13 +22,10 @@ This article describes how to accomplish, with just a few lines of VBScript, the
 
 ## First Steps
 
-
 1. Make sure IIS and scripting are enabled.
 
-
-> a. If you are using Windows Vista, open Control Panel, Programs and Features, and then Windows Features. Under "Web Management Tools," select "IIS Management Scripts and Tools" to enable scripting.   
-> b. If you are using Windows Server® 2008, open Server Manager. Use the Add Roles Wizard to install the IIS Web server. On the Select Role Services page, in the Management Tools section, select "IIS Management Scripts and Tools."
-
+    a. If you are using Windows Vista, open Control Panel, Programs and Features, and then Windows Features. Under "Web Management Tools," select "IIS Management Scripts and Tools" to enable scripting.
+    b. If you are using Windows Server® 2008, open Server Manager. Use the Add Roles Wizard to install the IIS Web server. On the Select Role Services page, in the Management Tools section, select "IIS Management Scripts and Tools."
 
 2. Run commands as administrator. To open an elevated Command Prompt window, click Start, point to All Programs, click Accessories, right-click Command Prompt, and then click Run as administrator. If you open a command shell as administrator, all applications that you run from that command shell will run as administrator.
 
@@ -68,7 +63,7 @@ Copy the following script into notepad and save it with the filename GetRequests
 
 Open an elevated command prompt window and navigate to the directory in which you saved the GetRequests.vbs file.
 
-Before you run the script, type [http://localhost/sleep.aspx](http://localhost/sleep.aspx) into the address bar of a Web browser. This will start the request execution and set the browser spinning for 30 seconds while it waits to render the Sleep.aspx page.
+Before you run the script, type `http://localhost/sleep.aspx` into the address bar of a Web browser. This will start the request execution and set the browser spinning for 30 seconds while it waits to render the Sleep.aspx page.
 
 While the browser is still waiting to render the page, run the script by typing the following in the command prompt window you just opened:
 
@@ -78,9 +73,7 @@ While the browser is still waiting to render the page, run the script by typing 
 
 The output you see should resemble the following.
 
-
 [!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample4.cmd)]
-
 
 ### Getting the State of a Worker Process
 
@@ -98,12 +91,9 @@ Open an elevated command prompt window and navigate to the directory in which yo
 
 Your output should resemble this:
 
-
 [!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample7.cmd)]
 
-
 Now that you have learned to use WMI scripting to reveal the secrets of worker processes, do the same for application domains.
-
 
 ## AppDomains
 
@@ -117,9 +107,7 @@ To unload a specific AppDomain, you must be able to uniquely identify it. AppDom
 
 Incidentally, the AppDomain ID property is not a number, but a path that looks like this:
 
-
 [!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample8.cmd)]
-
 
 The "1" in the path listed is the Site ID (by default, 1 corresponds to the default Web site.) If you must generate a list of your server's AppDomains and their properties first, see the "Enumerating AppDomains" section later in this article.
 
@@ -145,21 +133,18 @@ Copy the code into notepad and save the file with the name AppDomainUnloadAll.vb
 
 As an alternative to the WQL query syntax, you can use the WMI InstancesOf method, just as you did earlier with WorkerProcess:
 
-
 [!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample13.cmd)]
-
 
 ### Enumerating AppDomains
 
 You can display all currently running AppDomains and their properties by using an approach similar to that of the previous scripts. Here is a list of AppDomain properties:
 
-> ApplicationPath  
-> Id  
-> IsIdle  
-> PhysicalPath  
-> ProcessId  
-> SiteName
-
+- ApplicationPath  
+- Id  
+- IsIdle  
+- PhysicalPath  
+- ProcessId  
+- SiteName
 
 The following script shows all properties for each AppDomain except the Physical Path property, but you can add this easily enough. For convenience, the script displays the key and run-time properties separately.
 
@@ -173,9 +158,7 @@ Copy the code into notepad and save the file with the name AppDomainProps.vbs. O
 
 Your output should look like the following:
 
-
 [!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample16.cmd)]
-
 
 ## Conclusion
 
