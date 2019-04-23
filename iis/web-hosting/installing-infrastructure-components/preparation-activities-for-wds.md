@@ -7,11 +7,9 @@ ms.assetid: ca577ecb-1d82-4e47-a4f9-3d41e702d3a8
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/preparation-activities-for-wds
 msc.type: authoredcontent
 ---
-Preparation Activities for WDS
-====================
-by [Walter Oliver](https://github.com/walterov)
+# Preparation Activities for WDS
 
-## Introduction
+by [Walter Oliver](https://github.com/walterov)
 
 This article provides an overview of the preparation activities needed when deploying with Windows Deployment Services. The Deployment preparations activities may involve writing and testing the PowerShell scripts used in configuration and backup / restore tasks, preparing the servers used to back up computers, create and store operating system images, install applications, and migrate existing user data if needed. This article concentrates o using WDS and the PowerShell scripts provided in this guide.
 
@@ -35,11 +33,9 @@ After installing Windows Deployment Services (WDS), configure WDS by using the W
 - Configure the answer settings of the PXE listener to control whether and how the server services incoming client boot requests.
 - If Microsoft DHCP is installed on the same physical computer as Windows Deployment Services, the configuration wizard does the following (if you configure Windows Deployment Services by using WDSUTIL, you have to manually make these changes):
 
-    - Adds DHCP option tag 60, with the PXE client setting selected, to all DHCP scopes (as a DHCP global option). This is necessary so that a booting PXE client can be notified that there is a listening PXE server on the network.
-    - Selects the Do not Listen on port 67 option. This is necessary so that booting clients can find the DHCP server on the network
-- The guide also mentions the known issues when configuring WDS. 
-
-    -
+  - Adds DHCP option tag 60, with the PXE client setting selected, to all DHCP scopes (as a DHCP global option). This is necessary so that a booting PXE client can be notified that there is a listening PXE server on the network.
+  - Selects the Do not Listen on port 67 option. This is necessary so that booting clients can find the DHCP server on the network
+- The guide also mentions the known issues when configuring WDS.
 
 <a id="ConfigurePermissions"></a>
 
@@ -60,25 +56,20 @@ In some cases the users performing the deployment are Domain Administrators and 
 
 Windows Deployment Services uses two image types. Both use the Windows Image (.wim) format.
 
-- **Boot image**: The image that you boot a client computer into to perform an operating system installation. 
-- **Install image**: The operating system image that you deploy to the client computer. 
+- **Boot image**: The image that you boot a client computer into to perform an operating system installation.
+- **Install image**: The operating system image that you deploy to the client computer.
 
 You can create a custom Install Image to deploy across a set of server in the data center.
 
 ### Creating Custom Install Images
 
-
 To create an install image of your reference computer, create a Capture Image and use it to create the reference machine Install Image:
 
-&lt;!--[if !supportLists]--&gt;**Capture images**. Boot images that you boot a client computer into in order to capture the operating system into a .wim file.   
-
-
-
+&lt;!--[if !supportLists]--&gt;**Capture images**. Boot images that you boot a client computer into in order to capture the operating system into a .wim file.
 
 The following is a summary of this process:
 
-**To create a capture image using the Windows interface**
-
+#### To create a capture image using the Windows interface
 
 1. In the Windows Deployment Services MMC snap-in, expand the Boot Images node.
 2. Right-click the image to use it as a capture image.
@@ -91,14 +82,13 @@ The following is a summary of this process:
 9. Follow the instructions in the Windows Deployment Services Capture Utility.
 10. Once you have created the capture image, follow the instructions in the "Install Image" section to boot a client computer into the capture image and capture the operating system.
 
-
-**To create a capture image at a command prompt**
+#### To create a capture image at a command prompt
 
 1. Click Start, right-click Command Prompt, and then click Run as administrator.
 2. Type the following where &lt;bootimage&gt; is the name of the boot image you want to use to create the capture image, and &lt;captureimage&gt; is the file path and file name of the new capture image: WDSUTIL /New-CaptureImage /Image:&lt;bootimage&gt; /Architecture:x86 /Filepath:&lt;captureimage&gt;
 3. Type the following where &lt;captureimage&gt; is the file path and file name of the capture image you want to add to the image store:
 
-    1. [!code-console[Main](preparation-activities-for-wds/samples/sample1.cmd)]
+    [!code-console[Main](preparation-activities-for-wds/samples/sample1.cmd)]
 
-[!code-console[Main](preparation-activities-for-wds/samples/sample2.cmd)]
+    [!code-console[Main](preparation-activities-for-wds/samples/sample2.cmd)]
 4. Once you have created the capture image, follow the instructions in the "Install Image" section to boot a client computer into the capture image and capture the operating system.
