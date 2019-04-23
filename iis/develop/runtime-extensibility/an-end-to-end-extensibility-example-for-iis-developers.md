@@ -7,11 +7,9 @@ ms.assetid: dc56d2a3-5097-4c93-977a-6e13f4caec76
 msc.legacyurl: /learn/develop/runtime-extensibility/an-end-to-end-extensibility-example-for-iis-developers
 msc.type: authoredcontent
 ---
-An End-to-End Extensibility Example for IIS 7.0 Developers
-====================
-by [Saad Ladki](https://twitter.com/saadladki)
+# An End-to-End Extensibility Example for IIS 7.0 Developers
 
-## Introduction
+by [Saad Ladki](https://twitter.com/saadladki)
 
 IIS 7 and above are built with a completely modular architecture, on top of rich extensibility APIs. This enables developers to easily add, remove and even replace built-in IIS components with hand-crafted ones, specifically suited for any given Web site. It has never been so easy to plug code deep into the IIS core pipeline and extend IIS in ways that were impossible before.
 
@@ -21,7 +19,7 @@ This white paper is an end-to-end example of how to extend the IIS web server wi
 
 The solution has been tested on Windows Vista and Windows Server® 2008 Beta 3. It will be updated once the final version of Windows Server 2008 is available.
 
-### Feature Set:
+## Feature Set
 
 - Managed handler inserts a copyright message into image files
 - Copyright message feature is configuration driven and uses the new IIS configuration system
@@ -30,7 +28,7 @@ The solution has been tested on Windows Vista and Windows Server® 2008 Beta 3. 
 
 ## Prerequisites
 
-To follow the steps in this document, the following software must be installed.
+To follow the steps in this document, the following software must be installed:
 
 ### ASP.NET
 
@@ -56,7 +54,7 @@ To start an elevated command prompt, go to the "Start" menu, click "All Programs
 
 The following example dynamically decorates images served by our web server with copyright information in the lower left corner as seen in Figure 1.
 
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image2.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.png)   
+![](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.png)  
 **Figure 1: Image Copyright Module in Action**
 
 We use managed code for developing the handler that decorates the images. As part of the sample, we also specify the configuration for this handler and store it in the IIS configuration store. Last, we will develop a User Interface plug-in for IIS Manager.
@@ -147,7 +145,7 @@ Compile imageCopyright.mof by executing the following command
 
 Mofcomp added the imageCopyright schema to the WMI repository. Set IIS configuration settings by scripting the IIS WMI provider. Here is an example:
 
-**Tasks**
+### Tasks
 
 Open an instance of NOTEPAD and copy the following lines into it. Save the file as SetCopyrightConfig.vbs:
 
@@ -158,7 +156,6 @@ This is a standard WMI script that connects to the IIS WMI provider. It gets the
 If you execute the script, it adds the copyright message with the current date into `%systemdrive%\inetpub\wwwroot\web.config`. Have a look.
 
 Next, add the image copyright handler itself.
-
 
 ## Step 2 – Core Extensibility: The Image Copyright Handler
 
@@ -216,15 +213,15 @@ You only have to tell IIS to invoke your new handler if a .JPG file is requested
 
 The appcmd command above configures the new handler in the /mypictures directory only. Because handler entries are in a collection, you have to use the +[] syntax. This syntax is always used when add elements must be added to collections. The elements of the handler configuration are:
 
-**name**
+### name
 
 Can be any unique name. The name is only used to uniquely identify the handler.
 
-**path**
+### path
 
 Tells IIS when to execute this handler. \*.JPG tells IIS to execute this handler for all files ending in .JPG. If you use foo\*.JPG as a path, only JPG files starting with foo are executed by this handler.
 
-**verb**
+### verb
 
 Comma-separates list of http verbs that have to match to execute this handler. In our case, we only want to execute the request when a GET request comes in.
 
@@ -240,16 +237,14 @@ Simply recycling the Application Pool solves this problem:
 
 [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample16.cmd)]
 
-The process is complete. If you now request [http://localhost/mypictures/&lt;imageOfYourChoice.jpg](http://localhost/mypictures/%3CimageOfYourChoice.jpg)&gt;, you see the copyright message.
+The process is complete. If you now request `http://localhost/mypictures/<imageOfYourChoice>.jpg)`, you see the copyright message.
 
-**Options:** 
+Options:
 
 - You can change the copyright message options via appcmd or by directly editing the web.config file
 - You can map the imageCopyright handler to other image types, e.g. BMP or GIF by adding the same handler for a different extension. Example:
 
-
 [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample17.cmd)]
-
 
 ## Step 3 - Creating the Image Copyright UI Module
 
@@ -271,9 +266,8 @@ To create an extensibility module for InetMgr you need to create a DLL project a
 2. In the File Menu select the option New Project.
 3. In the New Project dialog select Class Library as the project type and type imageCopyrightUI as the name of the project and click OK.
 
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image4.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image3.png)
-
-**Figure 2: New Project Dialog**
+    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image3.png)  
+    **Figure 2: New Project Dialog**
 
 4. Remove the file Class1.cs that was added by default since we will not be using that.
 
@@ -289,32 +283,31 @@ To create an extensibility module for InetMgr you need to create a DLL project a
 
 10. In the Create Strong Name Key type imageCopyrightUI as the name for the key and uncheck the Protect my key file with a password check box. Click OK.
 
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image6.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image5.png)   
-**Figure 3: Create Strong Name Dialog**
+    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image5.png)  
+    **Figure 3: Create Strong Name Dialog**
 
-The signing tab displays:
+    The signing tab displays:
 
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image2.jpg)](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.jpg)
-
-**Figure 4: VS Project Signing Tab**
+    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.jpg)  
+    **Figure 4: VS Project Signing Tab**
 
 11. Since we want the assembly to be in the GAC, we will add some Post-build events so that it automatically gets added to the GAC every time we compile. This will make it really straight forward to debug and make changes as we add new functionality. For this, select the **Build Events** tab and add the following Post-build event command line:
 
-[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample18.cmd)]
+    [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample18.cmd)]
 
-[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample19.cmd)]
+    [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample19.cmd)]
 
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image9.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image8.png)   
-**Figure 5: VS Post-Build Events Tab**
+    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image8.png)  
+    **Figure 5: VS Post-Build Events Tab**
 
-**(Optional)** If you are using Microsoft Visual Studio 2005 (this will not work with the Visual C# Express Edition), setup debugging correctly to use F5 to run your code. To do this, go to the project properties, select Debug tab and set it to start an external program choosing \windows\system32\inetsrv\inetmgr.exe
+    **(Optional)** If you are using Microsoft Visual Studio 2005 (this will not work with the Visual C# Express Edition), setup debugging correctly to use F5 to run your code. To do this, go to the project properties, select Debug tab and set it to start an external program choosing \windows\system32\inetsrv\inetmgr.exe
 
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image11.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image10.png)   
-**Figure 6: Debugging Tab**
+    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image10.png)  
+    **Figure 6: Debugging Tab**
 
 12. Finally, close the project properties, select the option Save All in the File Menu and click OK.
 
-Now compile the project using Build Solution under Build menu. This automatically builds the DLL and adds it to the GAC.
+    Now compile the project using Build Solution under Build menu. This automatically builds the DLL and adds it to the GAC.
 
 ## Creating the Module Provider
 
@@ -322,34 +315,34 @@ The IIS user interface is as customizable and modular as the IIS core server and
 
 As a first step, create the imageCopyrightUI module provider.
 
-**Steps**
+### Steps
 
 1. Select the option Add New Item from the Project Menu. In the Add New Item dialog select the Class template and type imageCopyrightUIModuleProvider.cs as the name for the file.
 
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image13.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image12.png)   
-**Figure 7: Add New Item Dialog**
+   ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image12.png)  
+   **Figure 7: Add New Item Dialog**
 
 2. Change the code so that it looks as follows:
 
-[!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample20.cs)]
+   [!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample20.cs)]
 
-This code creates a ModuleProvider that supports all types of scopes (Server, Site and Application) and registers a client-side Module called imageCopyrightUI. To only show your module on the application level, the SupportsScope function looks like this:
+   This code creates a ModuleProvider that supports all types of scopes (Server, Site and Application) and registers a client-side Module called imageCopyrightUI. To only show your module on the application level, the SupportsScope function looks like this:
 
-[!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample21.cs)]
+   [!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample21.cs)]
 
 ## Creating the UI Module
 
 A Module is the main entry point in the client for all extensibility objects. It has one main method called **Initialize**. This is the method where all the action takes place.
 
-**Steps**
+### Steps
 
 1. Select the option Add New Item in the Project Menu.
 
 2. Select the Class template and type imageCopyrightUI.cs as the file name. Change the code so that it looks as follows:
 
-[!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample22.cs)]
+   [!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample22.cs)]
 
-In the above code, we specify the Text of the entry in the list of UI Modules and the type of a single page that should be displayed when a user clicks this text.
+   In the above code, we specify the Text of the entry in the list of UI Modules and the type of a single page that should be displayed when a user clicks this text.
 
 All that is left is to write the page itself.
 
@@ -362,15 +355,15 @@ In this task, you create the most basic Module Page. ModulePage is the base clas
 - **ModulePropertiesPage.** This base class offers a UI similar to the Visual Studio Property Grid where all the properties are displayed in a hierarchical grid-like control. Samples of this include CGI, ASP, .NET Compilation, etc.
 - **ModuleListPage.** This base class is useful whenever you need to display a list of items. It includes a ListView control you can use to display the settings and offers searching, grouping and views automatically. Samples include Application Settings, Modules, Worker Processes, etc.
 
-**Steps**
+### Steps
 
 1. Select the option Add New Item from the Project Menu.
 
 2. In the Add New Item dialog, select the Class template and type imageCopyrightUIPage.cs as the name for the file. Change the code so that it looks as follows:
 
-[!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample23.cs)]
+   [!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample23.cs)]
 
-Although there is a lot, this code does nothing more than put a couple of controls on the ModulePage and reads and writes to the IIS configuration store.
+   Although there is a lot, this code does nothing more than put a couple of controls on the ModulePage and reads and writes to the IIS configuration store.
 
 ## Reading Configuration
 
@@ -396,20 +389,19 @@ The UI Module is built, but we still must tell the IIS Management Console to loa
 - Adding the strong name and type to the IIS Management Console's configuration file. This will cause the IIS Management Console to load the type on startup
 - Enabling the module in the UI modules list
 
-**Steps**
+### Steps
 
 1. Open or use an existing elevated command shell and register the Visual Studio 8.0 environment variables by executing the following command:
 
-
-[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample26.cmd)]
+   [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample26.cmd)]
 
 2. Run GacUtil
 
-[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample27.cmd)]
+   [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample27.cmd)]
 
 3. Open `%windir%\system32\inetsrv\config\administration.config` and add the following right after the `<moduleProviders>` entry:
 
-[!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample28.xml)]
+   [!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample28.xml)]
 
 ## The Result
 
@@ -417,15 +409,12 @@ The task is complete. Look at the results.
 
 Open the IIS Management Console and navigate to the /mypictures application.
 
-Double-click the "Image Copyright" entry. You see the following page:
+Double-click the "Image Copyright" entry.
 
-**Figure 8: IIS Manager**
-
-[![](an-end-to-end-extensibility-example-for-iis-developers/_static/image15.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image14.png)   
-**Figure 9: Image Copyright User Interface**
+![](an-end-to-end-extensibility-example-for-iis-developers/_static/image14.png)  
+**Figure 8: Image Copyright User Interface**
 
 Change the copyright message, click apply and refresh your browser. The copyright message changed. Look into the web.config file in the `%systemdrive%\inetpub\mypictures` directory to see the changed configuration.
-
 
 ## Summary
 

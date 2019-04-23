@@ -7,8 +7,8 @@ ms.assetid: 360f8514-1375-4c83-96bb-52b37bd251a9
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/warm-up-cache-nodes-on-application-request-routing
 msc.type: authoredcontent
 ---
-Warm Up Cache Nodes on Application Request Routing
-====================
+# Warm Up Cache Nodes on Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**
@@ -50,13 +50,13 @@ If Application Request Routing Version 2 has not been installed, you can downloa
 - Microsoft Application Request Routing Version 2 for IIS 7 (x86) [here](https://download.microsoft.com/download/4/D/F/4DFDA851-515F-474E-BA7A-5802B3C95101/ARRv2_setup_x86.EXE).
 - Microsoft Application Request Routing Version 2 for IIS 7 (x64) [here](https://download.microsoft.com/download/3/4/1/3415F3F9-5698-44FE-A072-D4AF09728390/ARRv2_setup_x64.EXE).
 
-Follow the steps outlined in [this](../installing-application-request-routing-arr/install-application-request-routing-version-2.md) document to install ARR Version 2.
+Follow the steps outlined in the [Install Application Request Routing Version 2](../installing-application-request-routing-arr/install-application-request-routing-version-2.md) article to install ARR Version 2.
 
-## Step 1 - Warm up*all*ARR cache nodes (*both*child and parent cache tiers).
+## Step 1 - Warm up*all*ARR cache nodes (*both*child and parent cache tiers)
 
 To pre-cache contents on both child and parent cache nodes, the pre-cache action is taken on a child cache node.
 
-**Warm up the ARR cache node using the UI:** 
+### Warm up the ARR cache node using the UI
 
 1. Launch IIS Manager.
 2. The cache warm-up feature is available at the server level. Select and expand the root of the server.
@@ -68,19 +68,17 @@ To pre-cache contents on both child and parent cache nodes, the pre-cache action
     ![](warm-up-cache-nodes-on-application-request-routing/_static/image2.jpg)
 5. In the **Pre-cache Objects** dialog box, enter the location of the file that contains the URLs and the location to a log file. Both values are required. In the example below, the following values are used:  
   
-	`c:\mydocuments\warmup.txt` 
-	`c:\mydocuments\warmup.log`
+    `c:\mydocuments\warmup.txt`
+    `c:\mydocuments\warmup.log`
 
     ![](warm-up-cache-nodes-on-application-request-routing/_static/image3.jpg)
 
-    Instead of a location to a file on the file system, you can specify a URL. For example, you can use http://mytestserver/warmup.txt.
+    Instead of a location to a file on the file system, you can specify a URL. For example, you can use `http://mytestserver/warmup.txt`.
 
     > [!NOTE]
     > The warmup.txt file must have one URL per line. Also, if you are rewriting the host name as described in the article [Deploying Application Request Routing in CDN](../installing-application-request-routing-arr/deploying-application-request-routing-in-cdn.md), then the domain names for the URLs in this file must match what the cache node expects to receive. The URLs must be pre-rewritten domain names because ARR will be processing the URLs to rewrite the host name and apply CARP to cache the content correctly.
 
-
-
-## Step 2 - Verify functionality.
+## Step 2 - Verify functionality
 
 To see if the warm-up feature worked correctly, review the log file that was specified in Step 1.
 
@@ -90,7 +88,7 @@ To see if the warm-up feature worked correctly, review the log file that was spe
     ![](warm-up-cache-nodes-on-application-request-routing/_static/image4.jpg)
 3. Alternatively, you can use the browse functionality of ARR to look at the cached contents using IIS Manager. See the [Browse cached contents on disk on Application Request Routing](browse-cached-contents-on-disk-on-application-request-routing.md) article for more information about the browse functionality.
 
-## Step 3 - Warm up ARR cache nodes*only*at the parent cache tier.
+## Step 3 - Warm up ARR cache nodes*only*at the parent cache tier
 
 In some instances, it can be beneficial to only pre-cache at the parent cache tier. For example, parent cache nodes may be geographically dispersed to support regional child cache nodes. In such an environment, pre-caching only at the parent cache node may be sufficient and can also prevent child cache nodes from pre-caching contents prematurely.
 
@@ -99,7 +97,7 @@ The steps for pre-caching only at the parent cache tier are similar to the steps
 - The pre-cache action is taken on the parent cache node (as opposed to a child cache node, as is the case in Step 1).
 - Additional information is provided to correctly determine CARP on the parent cache node.
 
-**Warm up the ARR cache node using the UI:** 
+### Warm up the ARR cache node using the UI
 
 1. Launch IIS Manager.
 2. The cache warm-up feature is available at the server level. Select and expand the root of the server.
@@ -122,4 +120,4 @@ The steps for pre-caching only at the parent cache tier are similar to the steps
 
 You have now successfully warmed up the ARR cache node using a file that contains the list of URLs.
 
-For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
+For other ARR Version 2 walkthroughs, see the documents in the [Application Request Routing Version 2 Overview](../planning-for-arr/application-request-routing-version-2-overview.md) article.

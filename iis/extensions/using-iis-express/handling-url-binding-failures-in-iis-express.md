@@ -7,8 +7,8 @@ ms.assetid: d810838e-8656-42dd-bc86-a636a0340561
 msc.legacyurl: /learn/extensions/using-iis-express/handling-url-binding-failures-in-iis-express
 msc.type: authoredcontent
 ---
-Handling URL Binding Failures in IIS Express
-====================
+# Handling URL Binding Failures in IIS Express
+
 by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
 
 ## Overview
@@ -29,7 +29,7 @@ HTTP.sys is an operating system component that handles HTTP and SSL traffic for 
 - Serving external traffic
 - Using SSL
 
-You can configure HTTP.sys to permit these operations for IIS Express. On Windows 7 and Windows Vista, you can configure HTTP.sys using the [netsh.exe](https://msdn.microsoft.com/library/cc307236(VS.85).aspx "Netsh.exe") utility. On Windows XP, HTTP.sys can be configured using the [httpcfg.exe](https://technet.microsoft.com/en-us/library/cc781601(WS.10).aspx) command-line utility, which is included with [Windows XP Service Pack 2 Support Tools](https://www.microsoft.com/downloads/en/details.aspx?familyid=49AE8576-9BB9-4126-9761-BA8011FABF38&amp;displaylang=en).
+You can configure HTTP.sys to permit these operations for IIS Express. On Windows 7 and Windows Vista, you can configure HTTP.sys using the [netsh.exe](https://docs.microsoft.com/windows/desktop/Http/netsh-commands-for-http) utility. On Windows XP, HTTP.sys can be configured using the [httpcfg.exe](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc781601(v=ws.10)) command-line utility, which is included with [Windows XP Service Pack 2 Support Tools](https://www.microsoft.com/downloads/en/details.aspx?familyid=49AE8576-9BB9-4126-9761-BA8011FABF38&amp;displaylang=en).
 
 ## Using a Reserved Port
 
@@ -93,9 +93,9 @@ On Windows XP, run the following command from an elevated prompt:
 
 If you want to test SSL access to your site, you can do this with IIS Express by using an SSL port between 44300 and 44399 and using the IIS Express self-signed certificate. Trying to use SSL with a port outside this range results in a URL binding failure when your website is launched under IIS Express.
 
-For general instructions on how to configure HTTP.sys to support SSL, see [How to: Configure a Port with an SSL Certificate](https://msdn.microsoft.com/library/ms733791.aspx). As an example, imagine that you want to test your website using the URL https://localhost:443.
+For general instructions on how to configure HTTP.sys to support SSL, see [How to: Configure a Port with an SSL Certificate](https://docs.microsoft.com/dotnet/framework/wcf/feature-details/how-to-configure-a-port-with-an-ssl-certificate). As an example, imagine that you want to test your website using the URL `https://localhost:443`.
 
-First, determine the SHA1 thumbprint for the IIS Express self-signed certificate. This thumbprint is different for each computer because the IIS Express setup program generates a new certificate when executed. You can determine the SHA1 thumbprint using the Microsoft Management Console (MMC) Certificate snap-in by looking at the computer's Personal certificate store. Alternatively, you can use the .NET [CertMgr.exe](https://msdn.microsoft.com/library/e78byta0(v=VS.100).aspx) utility as shown below. From a command prompt, run the following command.
+First, determine the SHA1 thumbprint for the IIS Express self-signed certificate. This thumbprint is different for each computer because the IIS Express setup program generates a new certificate when executed. You can determine the SHA1 thumbprint using the Microsoft Management Console (MMC) Certificate snap-in by looking at the computer's Personal certificate store. Alternatively, you can use the .NET [CertMgr.exe](https://docs.microsoft.com/dotnet/framework/tools/certmgr-exe-certificate-manager-tool) utility as shown below. From a command prompt, run the following command.
 
 [!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample11.cmd)]
 
