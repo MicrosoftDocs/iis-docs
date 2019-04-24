@@ -46,7 +46,7 @@ The Application Initialization feature requires IIS 8.0 to be installed. In addi
 
 The following screenshot from the Windows Server 2012 Server Manager UI shows the Application Initialization feature.
 
-![](iis-80-application-initialization/_static/ìmage1.jpg)
+![](iis-80-application-initialization/_static/image1.jpg)
 
 > [!NOTE]
 > This walkthrough also uses an ASP.NET 4.5 application to demonstrate the Application Initialization feature. The Appendix at the end of this document includes the sample application and instructions on setting up the application on your machine.
@@ -145,13 +145,13 @@ Note that the "Startup.htm" splash page with the grey background is showing.
 
 Next, pull up Task Manager and make sure the **Processes** tab is showing. Sort the process list by name until you see one instance of w3wp.exe running. That instance is the worker process that is currently running the "appinit" ASP.NET application.
 
-![](iis-80-application-initialization/_static/ìmage3.jpg)
+![](iis-80-application-initialization/_static/image3.jpg)
 
 Refresh the browser a few times until the content from the real default.aspx page is being returned. You know that the application is running the "real" default.aspx page when the background changes to white. Next, arrange the windows on your screen so that you can see both Task Manager and the browser.
 
 Now switch back to the browser and refresh the page at least 30 times, this causes IIS to recycle the application pool. You can stop refreshing the page when you see a second instance of w3wp.exe show up in the Task Manager process list as shown below:
 
-![](iis-80-application-initialization/_static/ìmage5.jpg)
+![](iis-80-application-initialization/_static/image5.jpg)
 
 The screenshot shows the second instance of w3wp.exe has started due to the process recycling limit set earlier.
 
@@ -320,7 +320,7 @@ Unzip the file to the wwwroot folder on your web server. For example if your web
 
 After unzipping the "appinit" sample onto the file system, you need to configure the folder as an ASP.NET application in IIS 8.0. The screenshot below shows the appinit sample application configured as an application in IIS 8.0. Also notice that the application is assigned to the ".NET v4.5" application pool.
 
-![](iis-80-application-initialization/_static/2.png)
+![](iis-80-application-initialization/_static/image2.png)
 
 <a id="TOC301259913"></a>
 
