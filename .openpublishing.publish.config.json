@@ -31,7 +31,7 @@
       "build_source_folder": "iis",
       "build_output_subfolder": "IIS",
       "locale": "en-us",
-      "xref_query_tags": ["/dotnet/api"],
+      "xref_query_tags": ["/dotnet"],
       "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {

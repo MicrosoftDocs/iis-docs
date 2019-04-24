@@ -7,11 +7,9 @@ ms.assetid: 0ce77d45-ca2c-4071-9385-fcdfcf958712
 msc.legacyurl: /learn/manage/managing-performance-settings/configure-iis-7-output-caching
 msc.type: authoredcontent
 ---
-Configure IIS 7 Output Caching
-====================
-by Tali Smith
+# Configure IIS 7 Output Caching
 
-## Introduction
+by Tali Smith
 
 Internet Information Services (IIS) includes an output cache feature that can cache dynamic PHP content (or output from your Microsoft® ASP.NET or classic ASP, or other dynamic pages) in memory. This can yield enormous performance improvements, since the script used to generate the dynamic output does not need to run for each request. The cache can vary the output that is cached based on query string values as well as HTTP headers sent from the client to the server. The cache is also integrated with the Http.sys kernel-mode driver, improving performance.
 
@@ -50,7 +48,7 @@ IIS supports two ways to invalidate dynamic content:
 
 ## Configure Cache Worthiness
 
-Even if you enable output caching, IIS does not immediately cache a request. It must be requested a few times before IIS considers a request to be "cache worthy." Cache worthiness can be configured via the ServerRuntime section described in this Microsoft® Developer Network (MSDN®) [article](https://msdn.microsoft.com/library/ms690574).
+Even if you enable output caching, IIS does not immediately cache a request. It must be requested a few times before IIS considers a request to be "cache worthy." Cache worthiness can be configured via the ServerRuntime section described in the [ServerRuntimeSection Class](https://docs.microsoft.com/IIS/wmi-provider/serverruntimesection-class) article.
 
 Two properties determine cache worthiness:
 
@@ -104,7 +102,7 @@ The IIS output cache supports two cache policies:
 - User-mode output cache policy, which uses a cache that resides in an IIS worker process.
 - Kernel-mode cache policy, which uses a cache that resides in Http.sys, a kernel-mode driver.
 
-Caching your content in kernel mode lets you speed Web site performance. An example of using kernel-mode caching can be found in the article "[IIS Output Caching](walkthrough-iis-output-caching.md)."
+Caching your content in kernel mode lets you speed Web site performance. An example of using kernel-mode caching can be found in the [IIS Output Caching](walkthrough-iis-output-caching.md) article.
 
 Note that there are two significant differences between user-mode and kernel-mode output cache.
 
@@ -117,9 +115,7 @@ Failed Request Event Buffering (FREB) is the best way to find out whether or not
 
 The following command can be used to find out which content is cached in kernel mode:
 
-
 [!code-console[Main](configure-iis-7-output-caching/samples/sample2.cmd)]
-
 
 ## Cache Your Most Popular Pages
 
@@ -127,21 +123,22 @@ You can set the output cache to cache only your default page (the most frequentl
 
 1. Create a file called **default.aspx** in the **%systemdrive%\inetpub\wwwroot\\&lt;your application&gt;** directory and add the following code:
 
-[!code-aspx[Main](configure-iis-7-output-caching/samples/sample3.aspx)]
+   [!code-aspx[Main](configure-iis-7-output-caching/samples/sample3.aspx)]
+
 2. From the **Start** menu, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
 3. Use the tree view on the left side to navigate to your application.
 4. Click **Content View** at the bottom of the page.
 5. Select your default document (for example, Default.aspx page).
 6. In the **Actions** menu on the right, click **Switch to feature** view. Every setting that you configure is now only applied to the default document.
 7. Open the **Output Caching Rules** setting.
-8. Add **.****aspx** as a file extension.
+8. Add **.aspx** as a file extension.
 9. Select **Kernel-mode caching**, select **At time intervals**, enable **Monitor cached files,** and then type a time interval, such as **00:00:30**.
-10. Browse to **http<i></i>://localhost//&lt;your application&gt;** with Windows® Internet Explorer®. By constantly refreshing the page (press **Ctrl**+**F5** to make sure you are not using the browser cache), you see that the time does not change for 30 seconds.
+10. Browse to `http://localhost//<your application>` with Windows® Internet Explorer®. By constantly refreshing the page (press **Ctrl**+**F5** to make sure you are not using the browser cache), you see that the time does not change for 30 seconds.
 
 > [!NOTE]
 > *This article is based on information from the article "[IIS 7 Output Caching for Dynamic Content - Speed Up Your ASP and PHP Applications](https://blogs.iis.net/bills/archive/2007/05/02/iis7-output-caching-for-dynamic-content-dramatically-speed-up-your-asp-and-php-applications.aspx)" by Bill Staples, published on May 2, 2007.*
 
-## Links for Further Information
+## See also
 
-- [IIS Output Caching](walkthrough-iis-output-caching.md).
-- [PHP on IIS7 w/FastCGI](https://blogs.iis.net/bills/archive/2006/10/31/PHP-on-IIS.aspx).
+- [IIS Output Caching](walkthrough-iis-output-caching.md)
+- [PHP on IIS7 w/FastCGI](https://blogs.iis.net/bills/archive/2006/10/31/PHP-on-IIS.aspx)

@@ -11,6 +11,7 @@ Using FSRM Folder Quotas with FTP in IIS 7
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
+
 ## Compatibility
 
 | Version | Notes |
@@ -26,9 +27,8 @@ Microsoft has created a new FTP service that has been completely rewritten for W
 
 This document walks you through using the folder-based quotas provided by Windows Server 2008's File Server Resource Manager (FSRM) with the new FTP service to create a publicly accessible FTP site with a fixed quota size. It contains:
 
-- [Create a New FTP Site](using-fsrm-folder-quotas-with-ftp-in-iis-7.md#01)
-- [Installing and Configuring the File Server Resource Manager Service](using-fsrm-folder-quotas-with-ftp-in-iis-7.md#02)
-- [More Information](using-fsrm-folder-quotas-with-ftp-in-iis-7.md#03)
+- [Create a New FTP Site](#01)
+- [Installing and Configuring the File Server Resource Manager Service](#02)
 
 > [!NOTE]
 > This walkthrough contains a series of steps in which you log on to your FTP site using the local administrator account. These steps should only be followed on the server itself using the loopback address or over SSL from a remote server. If you prefer to use a separate user account instead of the administrator account, you must create the appropriate folders and set the correct permissions for that user account when necessary.
@@ -38,20 +38,20 @@ This document walks you through using the folder-based quotas provided by Window
 The following items are required to be installed to complete the procedures in this article:
 
 - IIS 7.0 must be installed on your Windows 2008 Server 2008, and the Internet Information Services Manager must be installed.
-- The new FTP service. You can download and install the FTP service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links: 
+- The new FTP service. You can download and install the FTP service from the <https://www.iis.net/> web site using one of the following links: 
 
-    - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
-    - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
+  - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
+  - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
 - You must create a root folder for FTP publishing: 
 
-    - Create a folder at `C:\inetpub\ftproot`
-    - Set the permissions to allow anonymous access: 
+  - Create a folder at `C:\inetpub\ftproot`
+  - Set the permissions to allow anonymous access: 
 
-        - Open a command prompt.
-        - Type the following command:
+    - Open a command prompt.
+    - Type the following command:
 
-            [!code-console[Main](using-fsrm-folder-quotas-with-ftp-in-iis-7/samples/sample1.cmd)]
-        - Close the command prompt.
+       [!code-console[Main](using-fsrm-folder-quotas-with-ftp-in-iis-7/samples/sample1.cmd)]
+    - Close the command prompt.
 
 > [!NOTE]
 > The settings listed in this walkthrough specify `C:\inetpub\ftproot` as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.

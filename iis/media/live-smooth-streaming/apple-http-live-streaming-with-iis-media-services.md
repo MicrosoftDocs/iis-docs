@@ -7,8 +7,8 @@ ms.assetid: ed62768b-14c3-410d-9466-094e806e2348
 msc.legacyurl: /learn/media/live-smooth-streaming/apple-http-live-streaming-with-iis-media-services
 msc.type: authoredcontent
 ---
-Apple HTTP Live Streaming with IIS Media Services
-====================
+# Apple HTTP Live Streaming with IIS Media Services
+
 by [John Deutscher](https://github.com/johndeu)
 
 Applies To: [IIS Media Services 4](https://go.microsoft.com/?linkid=9734739)
@@ -17,7 +17,7 @@ Applies To: [IIS Media Services 4](https://go.microsoft.com/?linkid=9734739)
 
 <a id="intro"></a>
 
-### Introduction
+## Introduction
 
 In IIS Media Services 4, you can configure IIS Live Smooth Streaming to "transmux" the incoming Smooth Streaming fragmented-MP4 fragments into MPEG-2 Transport Stream (MPEG-2 TS) segments and generate an Apple HTTP Live Streaming manifest file (a file with an .m3u8 file name extension) that describes the segments for Apple mobile digital devices.
 
@@ -37,15 +37,14 @@ IIS Live Smooth Streaming in IIS Media Services 4 supports the following feature
 
 <a id="reqs"></a>
 
-### Requirements
+## Requirements
 
 To stream content to an Apple® mobile digital device, you must have access to a Live Smooth Streaming-capable encoder that supports encoding content using the H.264 video with AAC low complexity (AAC-LC) audio codecs. This walkthrough demonstrates the Apple HTTP Live Streaming feature using [Microsoft® Expression® Encoder 4 Pro](https://go.microsoft.com/?linkid=9733031), which supports Live Smooth Streaming, H.264, and AAC-LC.
 
 > [!NOTE]
 > The full version of Expression Encoder 4 Pro must be used to encode to Smooth Streaming format with H.264/AAC-LC codecs. If you purchased Expression Studio 3 from a store, and it's installed on your computer, you can download a trial version of Expression Studio 4 Ultimate or Expression Studio 4 Web Professional, and the full version of Expression Studio 4 (which includes Expression Encoder 4 Pro) will automatically be enabled.
 
-
-**Supported encoding profiles**
+### Supported encoding profiles
 
 The following video and audio formats are supported by the Apple HTTP Live Streaming feature in IIS Live Smooth Streaming:
 
@@ -54,7 +53,7 @@ The following video and audio formats are supported by the Apple HTTP Live Strea
 
 For more information about the supported encoding profiles for Apple mobile digital devices, see [Recommended Encoding Settings for HTTP Live Streaming Media](https://go.microsoft.com/?linkid=9733033) on the Apple Developer website.
 
-**Supported Apple devices**
+### Supported Apple devices
 
 The following Apple mobile digital devices/iOS mobile operating systems are currently supported by the Apple HTTP Live Streaming feature:
 
@@ -62,7 +61,7 @@ The following Apple mobile digital devices/iOS mobile operating systems are curr
 - iPad: iOS 3.2, iOS 4.2.1, iOS 5.0
 
 > [!NOTE]
-> 
+>
 > - The Apple HTTP Live Streaming feature can't transmux a video-only stream. The encoded live stream received by the publishing point must contain both audio and video.
 > - Apple recommends that you not use B-frames when targeting iPhone and iPod devices.
 > - While the iPhone 3GS or later can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch devices.
@@ -70,17 +69,17 @@ The following Apple mobile digital devices/iOS mobile operating systems are curr
 
 <a id="install"></a>
 
-### Installation
+## Installation
 
 To enable the Apple HTTP Live Streaming feature, remove any previous installations of IIS Media Services and then [install IIS Media Services 4](https://go.microsoft.com/?linkid=9733030).
 
 <a id="configurepubpt"></a>
 
-### Configuring the Live Smooth Streaming publishing point
+## Configuring the Live Smooth Streaming publishing point
 
 To configure your first Live Smooth Streaming publishing point, do the following:
 
-1. Start IIS Manager (click **Start** &gt; **Administrative Tools** &gt; **Internet Information Services (IIS) Manager**).
+1. Start IIS Manager (click **Start** > **Administrative Tools** > **Internet Information Services (IIS) Manager**).
 2. In **Default Web Site**, select an existing folder or create a new virtual directory that will host the publishing point.
 3. Double-click the **Live Smooth Streaming Publishing Points** icon to open the feature page.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image1.png)
@@ -111,41 +110,42 @@ See the next section, which describes how to configure Expression Encoder 4 to a
 
 <a id="configureencoder"></a>
 
-### Configuring a Live Smooth Streaming broadcast using Expression Encoder 4
+## Configuring a Live Smooth Streaming broadcast using Expression Encoder 4
 
 This section describes how to use the Live Smooth Streaming feature in Expression Encoder 4 to encode Smooth Streaming content and deliver it to the Live Smooth Streaming publishing point.
 
 To begin broadcasting from Expression Encoder 4, do the following:
 
-1. Start Expression Encoder (click **Start** &gt; **All Programs** &gt; **Microsoft Expression** &gt; **Microsoft Expression Encoder 4**).
+1. Start Expression Encoder (click **Start** > **All Programs** > **Microsoft Expression** > **Microsoft Expression Encoder 4**).
 2. In the **Load a new project** dialog box, select **Live Broadcasting Project**, and then click **OK**.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image7.png)
 3. In this walkthrough, we'll set up a looping video file to simulate a live source. To do this, do the following:  
 
-    1. On the **Preview** tab, click **Add a File Source**...  
-        ![](apple-http-live-streaming-with-iis-media-services/_static/image8.png)  
- ...and then select a video file in the **Add File Source** dialog box.
-    2. On the **File Sources** tab, select the video file that you added in the previous step...  
-        ![](apple-http-live-streaming-with-iis-media-services/_static/image9.png)
-    3. ...and then, in the **Play then** dropdown list, select **Loop** to keep the file looping continuously.  
-        ![](apple-http-live-streaming-with-iis-media-services/_static/image10.png)
+   1. On the **Preview** tab, click **Add a File Source**.  
+      ![](apple-http-live-streaming-with-iis-media-services/_static/image8.png)  
+   2. Select a video file in the **Add File Source** dialog box.
+   3. On the **File Sources** tab, select the video file that you added in the previous step.  
+      ![](apple-http-live-streaming-with-iis-media-services/_static/image9.png)
+   4. In the **Play then** dropdown list, select **Loop** to keep the file looping continuously.  
+      ![](apple-http-live-streaming-with-iis-media-services/_static/image10.png)
 
-    > [!NOTE]
-    > If you attached a camera or capture card to the encoding computer, you can add a live source from the **Preview** tab, and then use the **Live Sources** tab to set up a live capture device, rather than using a file source. For more information, see [Set Live Sources](https://go.microsoft.com/?linkid=9749758).
+   > [!NOTE]
+   > If you attached a camera or capture card to the encoding computer, you can add a live source from the **Preview** tab, and then use the **Live Sources** tab to set up a live capture device, rather than using a file source. For more information, see [Set Live Sources](https://go.microsoft.com/?linkid=9749758).
 4. On the **Presets** tab, choose an encoding preset that supports the bitrates and encoding requirements for the Apple HTTP Live Streaming feature and for our target Apple mobile digital devices. In this example, we're going to broadcast to iPhone/iPod-class devices over a WiFi network, so we select the **H.264 IIS Smooth Streaming iPhone WiFi** preset, and then click **Apply**.  
-    ![](apple-http-live-streaming-with-iis-media-services/_static/image11.png)  
+   ![](apple-http-live-streaming-with-iis-media-services/_static/image11.png)  
 
-    Expression Encoder 4 comes with presets for iPhone and iPad for both cellular and WiFi networks. The **H.264 IIS Smooth Streaming iPhone WiFi** preset uses the Apple-recommended settings for delivering content to an iPhone device over a WiFi network. The profile uses H.264 Baseline, Level 3.0 at 3 different bitrates: 700 Kbps, 400 Kbps, and 200 Kbps. It's a 1-pass CBR encode with no B-frames.  
+   Expression Encoder 4 comes with presets for iPhone and iPad for both cellular and WiFi networks. The **H.264 IIS Smooth Streaming iPhone WiFi** preset uses the Apple-recommended settings for delivering content to an iPhone device over a WiFi network. The profile uses H.264 Baseline, Level 3.0 at 3 different bitrates: 700 Kbps, 400 Kbps, and 200 Kbps. It's a 1-pass CBR encode with no B-frames.  
   
-> [!NOTE]
-> Apple recommends that you not use B-frames when targeting iPhone and iPod devices. While the iPhone 3GS or later can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch® devices. If you use B-frames in your encoding, your streams will load, but then might suddenly stop playing on iPhone or iPod devices. Also note that it's not recommended to use AAC-LC audio at bitrates higher than 64 Kbps when targeting iPhone/iPod devices.  
+   > [!NOTE]
+   > Apple recommends that you not use B-frames when targeting iPhone and iPod devices. While the iPhone 3GS or later can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch® devices. If you use B-frames in your encoding, your streams will load, but then might suddenly stop playing on iPhone or iPod devices. Also note that it's not recommended to use AAC-LC audio at bitrates higher than 64 Kbps when targeting iPhone/iPod devices.  
   
-The following video and audio formats are supported by the Live Smooth Streaming MPEG-2 TS transmux feature:
+   The following video and audio formats are supported by the Live Smooth Streaming MPEG-2 TS transmux feature:
 
-    - Video: H.264 Baseline Profile Level 3.0 (iPhone/iPod touch), Main Profile Level 3.1 (iPad)
-    - Audio: AAC-LC up to 48 kHz, stereo audio.
+      - Video: H.264 Baseline Profile Level 3.0 (iPhone/iPod touch), Main Profile Level 3.1 (iPad)
+      - Audio: AAC-LC up to 48 kHz, stereo audio.
 
-    For more information about the supported encoding profiles for iPhone, iPod, and iPad mobile digital devices, see [Recommended Encoding Settings for HTTP Live Streaming Media](https://go.microsoft.com/?linkid=9733033) on the Apple Developer website.
+   For more information about the supported encoding profiles for iPhone, iPod, and iPad mobile digital devices, see [Recommended Encoding Settings for HTTP Live Streaming Media](https://go.microsoft.com/?linkid=9733033) on the Apple Developer website.
+
 5. On the **Output** tab, select the **Streaming** check box, and then in **Location**, enter the URL of the publishing point that you created in the previous section. Click **Connect** to establish the connection with the publishing point.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image12.png)
 6. Return to the **File Sources** tab and click **Cue** for your asset to enable it for broadcasting.  
@@ -157,10 +157,9 @@ The following video and audio formats are supported by the Live Smooth Streaming
 > The following message is displayed if the publishing point isn't started. Return to the **Live Smooth Streaming Publishing Points** page in IIS Manager and make sure that the publishing point is started.  
 > ![](apple-http-live-streaming-with-iis-media-services/_static/image15.png)
 
-
 <a id="verifypubpt"></a>
 
-### Verifying the Live Smooth Streaming publishing point
+## Verifying the Live Smooth Streaming publishing point
 
 To verify that the Live Smooth Streaming publishing point is up and running properly, return to IIS Manager and do the following:
 
@@ -170,23 +169,24 @@ To verify that the Live Smooth Streaming publishing point is up and running prop
     ![](apple-http-live-streaming-with-iis-media-services/_static/image17.png)
 3. In the **Actions** pane, click **Details**.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image18.png)  
- The **Publishing Point Details** page displays even more information about the individual incoming streams. Here you can inspect the incoming bitrates, stream names, states of the individual streams, and so on. This page updates the information every two seconds.  
-    ![](apple-http-live-streaming-with-iis-media-services/_static/image19.png)
+
+   The **Publishing Point Details** page displays even more information about the individual incoming streams. Here you can inspect the incoming bitrates, stream names, states of the individual streams, and so on. This page updates the information every two seconds.  
+   ![](apple-http-live-streaming-with-iis-media-services/_static/image19.png)
 4. To verify that an archive is being created for the MPEG-2 TS files, in Windows Explorer, navigate to the IIS Media Services archives folder, which is set by default to `%SystemDrive%\inetpub\media\archives`. Or click the **Archive Path** shortcut link on the **Publishing Point Summary** panel for the publishing point.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image20.png)
 5. In the archives folder, you should see a folder for the Default Web Site. This folder contains a folder for the virtual directory that we created earlier (in our example, this is the "Live" folder). Inside this folder is a folder that uses the same name as the publishing point (in our example, the folder is named "SmoothApple-isml"). This folder contains multiple folders if you've started and stopped the encoder several times for the publishing point. Each folder is identified with a date and timestamp. If we open the most recent folder, we find a series of numbered Segment folders (depending on the duration of your archive segment) that contain both the Smooth Streaming format files (.ismv, .isma, .ism, .ismc) and the Apple HTTP Live Streaming format files (.m3u8, and .ts).  
   
- In our example, an MPEG-2 TS file (with a .ts file name extension) is created for each of the streams that are generated by the encoder. If you don't see these files, or if they have 0 KB sizes (some of the manifest files will show as 0 KB until the publishing point is stopped), it's likely that the encoder profile is incorrect or isn't set to use H.264 video and AAC-LC audio. Check the Application Event Log in Event Viewer for errors that might have occurred during the transmux. In addition to the MPEG-2 TS files, you'll find the .m3u8 playlist files for each stream, and a root .m3u8 file that identifies the full adaptive playlist. You'll also notice two other files that might be unfamiliar to you if you're familiar with the Apple Live HTTP specification. The .ismx and the "-m3u8-aapl.ism" files are used by the on-demand Smooth Streaming feature to serve the content in an on-demand mode. The .ismx file is an index of the MPEG-2 TS files, and the .ism file is a standard Smooth Streaming SMIL 2.0-compliant server manifest that is used by the on-demand Smooth Streaming module.  
-    ![](apple-http-live-streaming-with-iis-media-services/_static/image21.png)
+   In our example, an MPEG-2 TS file (with a .ts file name extension) is created for each of the streams that are generated by the encoder. If you don't see these files, or if they have 0 KB sizes (some of the manifest files will show as 0 KB until the publishing point is stopped), it's likely that the encoder profile is incorrect or isn't set to use H.264 video and AAC-LC audio. Check the Application Event Log in Event Viewer for errors that might have occurred during the transmux. In addition to the MPEG-2 TS files, you'll find the .m3u8 playlist files for each stream, and a root .m3u8 file that identifies the full adaptive playlist. You'll also notice two other files that might be unfamiliar to you if you're familiar with the Apple Live HTTP specification. The .ismx and the "-m3u8-aapl.ism" files are used by the on-demand Smooth Streaming feature to serve the content in an on-demand mode. The .ismx file is an index of the MPEG-2 TS files, and the .ism file is a standard Smooth Streaming SMIL 2.0-compliant server manifest that is used by the on-demand Smooth Streaming module.  
+   ![](apple-http-live-streaming-with-iis-media-services/_static/image21.png)
 6. If you're running IIS on the Windows® 7 operating system, or on the Windows Server 2008 operating system with the Desktop Experience role service installed, you can double-click the MPEG-2 TS video files to play them in Windows Media® Player to check that they are valid.  
   
- The MPEG-2 TS files on IIS aren't stored in multiple segments on disk like other solutions for Apple HTTP Live Streaming. IIS Media Services dynamically serves the segments on request and leaves the full MPEG-2 TS files available to make asset management and post-production easier.
+   The MPEG-2 TS files on IIS aren't stored in multiple segments on disk like other solutions for Apple HTTP Live Streaming. IIS Media Services dynamically serves the segments on request and leaves the full MPEG-2 TS files available to make asset management and post-production easier.
 
 We have now validated that the live Smooth Streams encoded by Expression Encoder are being transmuxed to Apple HTTP Live Streaming format successfully.
 
 <a id="html5"></a>
 
-### Creating an HTML 5 page for use in Safari
+## Creating an HTML 5 page for use in Safari
 
 You can create an HTML 5 page that can be used by iPhone and iPad devices to play the Live Smooth Streaming presentation. To create an HTML 5 page, do the following:
 
@@ -195,14 +195,17 @@ You can create an HTML 5 page that can be used by iPhone and iPad devices to pla
     ![](apple-http-live-streaming-with-iis-media-services/_static/image22.png)
 3. Open the **iphone.htm** file in Notepad or your favorite text editor and add the following sample HTML:
 
-[!code-html[Main](apple-http-live-streaming-with-iis-media-services/samples/sample1.html)]
+   [!code-html[Main](apple-http-live-streaming-with-iis-media-services/samples/sample1.html)]
   
     **video**    *publishingPointName*
-The important tag here is the HTML 5tag. A new manifest request URL is also required to get access to the .m3u8 file from the IIS Media server. This new URL is in the format:.isml/Manifest(format=m3u8-aapl).m3u8. The important part is the section in the parenthesis and the final .m3u8 extension, which specifies that the format of the manifest that we want is in m3u8. The extension at the end is required by iOS on certain devices. You can sometimes leave this extension off if you're serving directly from IIS Origin, but if you're serving from a CDN or edge cache, it's required for the Quicktime player in iOS to function properly. You can, optionally, add other HTML 5 video tags that support attributes such as autoplay, controls, and a poster frame. Note that the released version of the iPad device requires a few of these video tag attributes to be set or the video tag doesn't work properly.4. On an Apple device, open the Safari® Web browser and enter the URL of the iphone.htm page in the browser, and then click **GO**. The page will load with the default HTML 5 video tag, which has a simple **Play** button on it.  
+
+   The important tag here is the HTML 5tag. A new manifest request URL is also required to get access to the .m3u8 file from the IIS Media server. This new URL is in the format:.isml/Manifest(format=m3u8-aapl).m3u8. The important part is the section in the parenthesis and the final .m3u8 extension, which specifies that the format of the manifest that we want is in m3u8. The extension at the end is required by iOS on certain devices. You can sometimes leave this extension off if you're serving directly from IIS Origin, but if you're serving from a CDN or edge cache, it's required for the Quicktime player in iOS to function properly. You can, optionally, add other HTML 5 video tags that support attributes such as autoplay, controls, and a poster frame. Note that the released version of the iPad device requires a few of these video tag attributes to be set or the video tag doesn't work properly.
+
+4. On an Apple device, open the Safari® Web browser and enter the URL of the iphone.htm page in the browser, and then click **GO**. The page will load with the default HTML 5 video tag, which has a simple **Play** button on it.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image23.png)
 5. Click the **Play** button on the HTML 5 video element. The device will open the QuickTime® player and begin loading the Live Smooth Stream.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image24.png)
-6. Wait a few seconds for the video to start...  
+6. Wait a few seconds for the video to start.
 
     Playback as seen on the iPhone/iPod:  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image25.png)
@@ -214,7 +217,6 @@ If the video plays smoothly, you've successfully enabled Apple HTTP Live Streami
 
 > [!NOTE]
 > If the device displays a message box that says "Can't open Movie," it's likely that you're using a profile that is of a higher level than is supported by that device. Typically this error message is seen when sending a Baseline Level 3.1 profile or Main Level 3.1 to a device that only supports Baseline Level 3.0 (older iPhone devices and iPod touch devices). You might also see the error message if you try to play the stream when there are fewer than 3 segments available in the playlist. This can happen if you don't wait for 3 times the segment length; for example, 30 seconds when the default segment length is set to 10 seconds.
-
 
 <a id="smf"></a>
 

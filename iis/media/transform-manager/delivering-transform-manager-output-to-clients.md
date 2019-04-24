@@ -7,8 +7,8 @@ ms.assetid: b0f6153a-8900-4664-8cb1-a85e51d6d602
 msc.legacyurl: /learn/media/transform-manager/delivering-transform-manager-output-to-clients
 msc.type: authoredcontent
 ---
-Delivering Transform Manager Output to Clients
-====================
+# Delivering Transform Manager Output to Clients
+
 by Dave Nelson
 
 If you want to serve the transformed on-demand output from [IIS Transform Manager 1.0](https://www.iis.net/downloads/microsoft/transform-manager) to clients, you must move or copy the transformed output files to a server that's running the [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) feature in IIS Media Services 4. The Smooth Streaming feature enables a handler that processes requests for on-demand Smooth Streaming presentation manifest files (files with .ism file name extensions), which are present in the Smooth Streaming and Apple HTTP Live Streaming presentations that are created by Transform Manager.
@@ -35,7 +35,6 @@ If you chained Transform Manager's built-in **Robocopy** task to a job template 
 > [!NOTE]
 > For more information about how to use the **Robocopy** task in Transform Manager, see [Chaining the Robocopy Task to your Transformed Output](chaining-the-robocopy-task-to-your-transformed-output.md).
 
-
 <a id="installss"></a>
 
 ## Installing IIS Smooth Streaming
@@ -56,11 +55,11 @@ After you've installed the IIS Smooth Streaming feature, no additional configura
 To locate the Smooth Streaming presentation files on the Web server, do the following:
 
 1. In IIS Manager, navigate to the Smooth Streaming presentation folder in the **Connections** pane.  
-    [![](delivering-transform-manager-output-to-clients/_static/image2.png)](delivering-transform-manager-output-to-clients/_static/image1.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image2.png)](delivering-transform-manager-output-to-clients/_static/image1.png)
 2. In the **Home** page, double-click the **Smooth Streaming Presentations** icon in the **Media Services** area.  
-    [![](delivering-transform-manager-output-to-clients/_static/image4.png)](delivering-transform-manager-output-to-clients/_static/image3.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image4.png)](delivering-transform-manager-output-to-clients/_static/image3.png)
 3. Click **Content View** to view the Smooth Streaming presentation files.  
-    [![](delivering-transform-manager-output-to-clients/_static/image6.png)](delivering-transform-manager-output-to-clients/_static/image5.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image6.png)](delivering-transform-manager-output-to-clients/_static/image5.png)
 
 Clients can use their web browser to open Default.html and play the Smooth Streaming presentation in a Silverlight player. You must simply provide the URL of Default.html to the client.
 
@@ -80,28 +79,27 @@ The following Apple mobile digital devices/iOS mobile operating systems can be u
 To create the HTML5 page, do the following:
 
 1. In IIS Manager, navigate to the Apple HTTP Live Streaming presentation folder in the **Connections** pane.  
-    [![](delivering-transform-manager-output-to-clients/_static/image8.png)](delivering-transform-manager-output-to-clients/_static/image7.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image8.png)](delivering-transform-manager-output-to-clients/_static/image7.png)
 2. In the **Home** page, double-click the **Smooth Streaming Presentations** icon in the **Media Services** area.  
-    [![](delivering-transform-manager-output-to-clients/_static/image10.png)](delivering-transform-manager-output-to-clients/_static/image9.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image10.png)](delivering-transform-manager-output-to-clients/_static/image9.png)
 3. Click **Content View** to view the Apple HTTP Live Streaming presentation files.  
-    [![](delivering-transform-manager-output-to-clients/_static/image12.png)](delivering-transform-manager-output-to-clients/_static/image11.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image12.png)](delivering-transform-manager-output-to-clients/_static/image11.png)
 4. Right-click the **Content View** window, and then click **Explore**.
 5. In Notepad, create a text file with an HTM file-name extension and save it to this location. In this example, we'll save the text document as **iphone**.htm.  
-    [![](delivering-transform-manager-output-to-clients/_static/image14.png)](delivering-transform-manager-output-to-clients/_static/image13.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image14.png)](delivering-transform-manager-output-to-clients/_static/image13.png)
 6. Open the **iphone.htm** file in Notepad and add the following sample HTML:
 
-    [!code-html[Main](delivering-transform-manager-output-to-clients/samples/sample1.html)]
+   [!code-html[Main](delivering-transform-manager-output-to-clients/samples/sample1.html)]
 
- Update the manifest request `src` URL so that clients can access the .m3u8 file on the server by replacing the file name in `manifest.ism` with the file name of the presentation ISM file. For example: 
+   Update the manifest request `src` URL so that clients can access the .m3u8 file on the server by replacing the file name in `manifest.ism` with the file name of the presentation ISM file. For example:
 
-    [!code-html[Main](delivering-transform-manager-output-to-clients/samples/sample2.html?highlight=10)]
+   [!code-html[Main](delivering-transform-manager-output-to-clients/samples/sample2.html?highlight=10)]
 7. (Optional) As shown in the sample HTML, you can add additional HTML5 video attributes such as `poster`, `autoplay`, and `controls`.  
   
- The `controls` attribute must be set for iPad devices to play the video. For more information about how to configure the HTML5 `video` element, see **4.8.6 The video element** in the [W3C HTML5 Specification](http://www.w3.org/TR/html5/spec.html) .
+   The `controls` attribute must be set for iPad devices to play the video. For more information about how to configure the HTML5 `video` element, see **4.8.6 The video element** in the [W3C HTML5 Specification](http://www.w3.org/TR/html5/spec.html) .
 8. On an Apple device, open the Safari® Web browser and enter the URL of the iphone.htm page in the browser, and then click **GO**. The page will load with the default HTML5 video element, which contains a simple **Play** button.  
-    [![](delivering-transform-manager-output-to-clients/_static/image16.png)](delivering-transform-manager-output-to-clients/_static/image15.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image16.png)](delivering-transform-manager-output-to-clients/_static/image15.png)
 9. Click the **Play** button in the HTML5 video element. The device will open the QuickTime® player and begin loading the stream. You might need to wait a few seconds for the video to start.  
-    [![](delivering-transform-manager-output-to-clients/_static/image18.png)](delivering-transform-manager-output-to-clients/_static/image17.png)
+   [![](delivering-transform-manager-output-to-clients/_static/image18.png)](delivering-transform-manager-output-to-clients/_static/image17.png)
 
-| ![Note](delivering-transform-manager-output-to-clients/_static/image1.gif) **Notes** - If the device displays a message box that says "Can't open Movie," it's likely that you're using a profile that's not supported by the device. This error message is typically seen when sending a Baseline Level 3.1 profile or Main Level 3.1 to a device that only supports Baseline Level 3.0 (older iPhone devices and iPod touch devices). - You might see an error message if you try to play the stream when there are fewer than 3 segments available in the playlist. This can happen if you don't wait for 3 times the segment length; for example, 30 seconds when the default segment length is set to 10 seconds. |
-| --- |
+![Note](delivering-transform-manager-output-to-clients/_static/image1.gif) **Notes** - If the device displays a message box that says "Can't open Movie," it's likely that you're using a profile that's not supported by the device. This error message is typically seen when sending a Baseline Level 3.1 profile or Main Level 3.1 to a device that only supports Baseline Level 3.0 (older iPhone devices and iPod touch devices). - You might see an error message if you try to play the stream when there are fewer than 3 segments available in the playlist. This can happen if you don't wait for 3 times the segment length; for example, 30 seconds when the default segment length is set to 10 seconds.
