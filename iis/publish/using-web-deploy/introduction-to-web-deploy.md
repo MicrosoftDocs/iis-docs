@@ -7,8 +7,8 @@ ms.assetid: 413b2878-30cf-403c-bba9-6a5dc2d2dc83
 msc.legacyurl: /learn/publish/using-web-deploy/introduction-to-web-deploy
 msc.type: authoredcontent
 ---
-Introduction to Web Deploy
-====================
+# Introduction to Web Deploy
+
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
 ## What is Web Deploy?
@@ -18,7 +18,7 @@ Web Deploy is an extensible client-server tool for syncing content and configura
 1. Developers use it to sync (aka ‘publish') a compiled web applications (ASP .Net, PHP etc) from developer tools (Visual Studio, WebMatrix, etc) to IIS
 2. IT professionals use it to migrate websites &amp; applications from an operating system running an older version of IIS such as IIS6 to an operating system running a newer version of IIS such as IIS 7.5.
 
-[![](introduction-to-web-deploy/_static/image2.png)](introduction-to-web-deploy/_static/image1.png)
+[![](introduction-to-web-deploy/_static/image1.png)](introduction-to-web-deploy/_static/image1.png)
 
 ## How does Web Deploy compare to FTP?
 
@@ -36,7 +36,7 @@ Here is a comparison of Web Deploy to FTP:
 
 ## How does it work?
 
-[[[![](introduction-to-web-deploy/_static/image6.png)](introduction-to-web-deploy/_static/image5.png)](introduction-to-web-deploy/_static/image4.png)](introduction-to-web-deploy/_static/image3.png)
+[![](introduction-to-web-deploy/_static/image3.png)](introduction-to-web-deploy/_static/image3.png)
 
 Most of the Web Deploy operations are modeled around sync operation between a source and a destination. Sync operation is orchestrated by Web Deploy framework using one or more Web deploy providers as described below.
 
@@ -58,7 +58,7 @@ The provider model is extensible and lets developers write their own providers f
 
 When a source initiates an action through Web Deploy, the Web Deploy Framework establishes a connection with the destination. Web Deploy supports two connection end-points, and the one you use depends on several factors:
 
-[![](introduction-to-web-deploy/_static/image8.png)](introduction-to-web-deploy/_static/image7.png)
+[![](introduction-to-web-deploy/_static/image7.png)](introduction-to-web-deploy/_static/image7.png)
 
 - If the destination is Windows Server 2003 running IIS6, you can connect to its Web Deployment Agent Service (also known as the Remote Agent Service) endpoint. The Remote Agent Service provides security for this connection, and is only accessible to administrator users.
 - If the destination is Windows Server 2008 running IIS7 or Windows Server 2008 R2 running IIS7.5 AND you are connecting with non-administrator credentials, you must connect to the Web Management Service endpoint. Web Deploy installs a handler in Web Management Service, which allows non-administrators to deploy after authenticating and authorizing with the Web Management Service.
