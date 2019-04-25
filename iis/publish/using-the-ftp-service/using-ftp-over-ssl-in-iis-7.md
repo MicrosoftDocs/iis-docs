@@ -7,8 +7,8 @@ ms.assetid: 437f03a2-abe5-4e33-81ad-5832c8211f62
 msc.legacyurl: /learn/publish/using-the-ftp-service/using-ftp-over-ssl-in-iis-7
 msc.type: authoredcontent
 ---
-Using FTP Over SSL in IIS 7
-====================
+# Using FTP Over SSL in IIS 7
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Compatibility
@@ -26,10 +26,10 @@ Microsoft has created a new FTP service that has been completely rewritten for W
 
 One of the features is FTP over Secure Sockets Layer (SSL), which allows sessions to be encrypted between an FTP client and server. This document walks you through: setting up an FTP site; and, configuring that site to use SSL with the new FTP user interface, which allows you to directly edit the IIS 7.0 configuration files. It contains:
 
-- [Prerequisites](using-ftp-over-ssl-in-iis-7.md#01)
-- [OPTIONAL: Creating a Self-signed SSL Certificate](using-ftp-over-ssl-in-iis-7.md#02)
-- [Creating an SSL-enabled FTP Site Using the IIS 7.0 Manager](using-ftp-over-ssl-in-iis-7.md#03)
-- [Adding SSL-based FTP Publishing by Editing the IIS 7.0 Configuration Files](using-ftp-over-ssl-in-iis-7.md#04)
+- [Prerequisites](#01)
+- [OPTIONAL: Creating a Self-signed SSL Certificate](#02)
+- [Creating an SSL-enabled FTP Site Using the IIS 7.0 Manager](#03)
+- [Adding SSL-based FTP Publishing by Editing the IIS 7.0 Configuration Files](#04)
 
 > [!NOTE]
 > This walk-through contains a series of steps where you log in to your FTP site using the local administrator account. These steps should only be followed on the server itself using the loopback address or over SSL from a remote server. If you prefer to use a separate user account instead of the administrator account, you must create the appropriate folders and set the correct permissions for that user account when necessary.
@@ -41,14 +41,14 @@ One of the features is FTP over Secure Sockets Layer (SSL), which allows session
 The following items are required to be installed to complete the procedures in this article:
 
 1. IIS 7.0 must be installed on your Windows 2008 Server, and the Internet Information Services Manager must be installed.
-2. The new FTP service. You can download and install the FTP service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links: 
+2. The new FTP service. You can download and install the FTP service from the <https://www.iis.net/> web site using one of the following links:
 
     - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=143197)
     - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=143196)
-3. You will need to create a root folder for FTP publishing: 
+3. You will need to create a root folder for FTP publishing:
 
     - Create a folder at `%SystemDrive%\inetpub\ftproot`
-    - Set the permissions to allow access for the administrators group: 
+    - Set the permissions to allow access for the administrators group:
 
         - Open a command prompt.
         - Type the following command: `ICACLS "%SystemDrive%\inetpub\ftproot" /Grant administrators:F /T`
@@ -64,17 +64,15 @@ The following items are required to be installed to complete the procedures in t
 In this optional task you will create a self-signed SSL certificate that you will use for testing your FTP site.
 
 > [!NOTE]
-> If you are setting up an FTP site for Internet-based activity, you would obtain an SSL certificate from one of the many Certification Authorities, such as VeriSign, Thawte, DigiCert, etc. For more information about Certification Authorities, see the following page on the Microsoft Developer Network Web site:
-
-[https://msdn.microsoft.com/library/bb540797(VS.85).aspx](https://msdn.microsoft.com/library/bb540797(VS.85).aspx)
+> If you are setting up an FTP site for Internet-based activity, you would obtain an SSL certificate from one of the many Certification Authorities, such as VeriSign, Thawte, DigiCert, etc. For more information, see [Certification Authorities](https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-certification-authorities).
 
 1. Open the Internet Information Services (IIS 7.0) Manager.
 2. Click your computer at the top node of the **Connections** tree, then double-click the **Server Certificates** feature.  
-    [![](using-ftp-over-ssl-in-iis-7/_static/image3.png)](using-ftp-over-ssl-in-iis-7/_static/image1.png)
+    ![](using-ftp-over-ssl-in-iis-7/_static/image1.png)
 3. Click **Create Self-Signed Certificate** in the **Actions** pane.  
-    [![](using-ftp-over-ssl-in-iis-7/_static/image7.png)](using-ftp-over-ssl-in-iis-7/_static/image5.png)
+    ![](using-ftp-over-ssl-in-iis-7/_static/image5.png)
 4. Enter "My FTP Certificate" as the name for the new certificate, then click **OK**.  
-    [![](using-ftp-over-ssl-in-iis-7/_static/image11.png)](using-ftp-over-ssl-in-iis-7/_static/image9.png)
+    ![](using-ftp-over-ssl-in-iis-7/_static/image9.png)
 
 <a id="03"></a>
 
@@ -86,15 +84,18 @@ In this first step, you create a new FTP site that can only be opened using your
 
 1. Go to IIS 7.0 Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-    [![](using-ftp-over-ssl-in-iis-7/_static/image15.png)](using-ftp-over-ssl-in-iis-7/_static/image13.png)
-3. When the **Add FTP Site** wizard appears: 
+    ![](using-ftp-over-ssl-in-iis-7/_static/image13.png)
+3. When the **Add FTP Site** wizard appears:
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.> [!NOTE]
-> If you choose to type in the path to your content folder, you can use environment variables in your paths.
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
+
+       > [!NOTE]
+       > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+
     - Click **Next**.
 
-    [![](using-ftp-over-ssl-in-iis-7/_static/image3.jpg)](using-ftp-over-ssl-in-iis-7/_static/image1.jpg)
-4. On the next page of the wizard: 
+    ![](using-ftp-over-ssl-in-iis-7/_static/image1.jpg)
+4. On the next page of the wizard:
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will use the administrator account later in this walk-through, make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
     - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
@@ -103,18 +104,18 @@ In this first step, you create a new FTP site that can only be opened using your
     - Make sure that the **Allow SSL** option is selected.
     - Click **Next**.
 
-    [![](using-ftp-over-ssl-in-iis-7/_static/image8.jpg)](using-ftp-over-ssl-in-iis-7/_static/image7.jpg)
-5. On the next page of the wizard: 
+    ![](using-ftp-over-ssl-in-iis-7/_static/image7.jpg)
+5. On the next page of the wizard:
 
     - Select **Basic** for the **Authentication** settings.
-    - For the **Authorization** settings: 
+    - For the **Authorization** settings:
 
         - Choose "Specified users" from the **Allow access to** drop-down.
         - Type "administrator" for the user name.
         - Select **Read** and **Write** for the **Permissions** option.
     - When you have completed these items, click **Finish**.
 
-    [![](using-ftp-over-ssl-in-iis-7/_static/image11.jpg)](using-ftp-over-ssl-in-iis-7/_static/image9.jpg)
+    ![](using-ftp-over-ssl-in-iis-7/_static/image9.jpg)
 
 #### Summary
 
@@ -132,22 +133,27 @@ To recap the items that you completed in this step:
 The SSL policy for FTP is customizable on a site-by-site basis. Different settings can be specified for the control and data channels. In this step, you configure additional SSL settings for your FTP site that ensure that all user credentials are encrypted, even if all other FTP activity is not.
 
 1. Go to the IIS 7.0 Manager. Click the node for the FTP site that you created in Step 1. The icons for all of the FTP features display.  
-    [![](using-ftp-over-ssl-in-iis-7/_static/image19.png)](using-ftp-over-ssl-in-iis-7/_static/image17.png)
+    ![](using-ftp-over-ssl-in-iis-7/_static/image17.png)
 2. In order to configure the SSL options, double-click the **FTP SSL Settings** icon to open the SSL settings feature page.  
-    [![](using-ftp-over-ssl-in-iis-7/_static/image23.png)](using-ftp-over-ssl-in-iis-7/_static/image21.png)
+    ![](using-ftp-over-ssl-in-iis-7/_static/image21.png)
 3. When the **FTP SSL Settings** page displays, select the **Custom** option, and then click the **Advanced** button.  
-     [![](using-ftp-over-ssl-in-iis-7/_static/image27.png)](using-ftp-over-ssl-in-iis-7/_static/image25.png)
-4. When the **Advanced SSL Policy** dialog box is displayed: 
+     ![](using-ftp-over-ssl-in-iis-7/_static/image25.png)
+4. When the **Advanced SSL Policy** dialog box is displayed:
 
     - Select the **Require only for credentials** option for the control channel.
-	    > [!NOTE]
-        > This setting requires that all user names and password are encrypted via SSL, but the client can choose whether to encrypt all other control channel activity.
-    - Select the **Allow** option for the data channel.> [!NOTE]
-> This setting allows the client to choose whether to encrypt any data channel activity.
+
+       > [!NOTE]
+       > This setting requires that all user names and password are encrypted via SSL, but the client can choose whether to encrypt all other control channel activity.
+
+    - Select the **Allow** option for the data channel.
+
+       > [!NOTE]
+       > This setting allows the client to choose whether to encrypt any data channel activity.
+
     - When you have completed these items, click **OK**.  
-        [![](using-ftp-over-ssl-in-iis-7/_static/image31.png)](using-ftp-over-ssl-in-iis-7/_static/image29.png)
+        ![](using-ftp-over-ssl-in-iis-7/_static/image29.png)
 5. On the **FTP SSL Settings** page, click **Apply** in the **Actions** pane to save the SSL settings.  
-    [![](using-ftp-over-ssl-in-iis-7/_static/image35.png)](using-ftp-over-ssl-in-iis-7/_static/image33.png)
+    ![](using-ftp-over-ssl-in-iis-7/_static/image33.png)
 
 #### Summary
 
@@ -183,9 +189,7 @@ Or
 - If you are logged in using an account with administrative permissions that is not the local "administrator" account, open Notepad using the "Run as Administrator" option.
 
 > [!NOTE]
-> One of the above steps is required because the User Account Control (UAC) security component in the Windows Vista and Windows Server 2008 operating systems prevents access to your applicationHost.config file. For more information about UAC, please see the following documentation:
-
-- [https://go.microsoft.com/fwlink/?LinkId=113664](https://go.microsoft.com/fwlink/?LinkId=113664)
+> One of the above steps is required because the User Account Control (UAC) security component in the Windows Vista and Windows Server 2008 operating systems prevents access to your applicationHost.config file. For more information about UAC, see [User Account Control](https://go.microsoft.com/fwlink/?LinkId=113664).
 
 The following steps walk you through all of the required settings to add FTP publishing for the Default Web Site.
 
@@ -211,20 +215,23 @@ The following steps walk you through all of the required settings to add FTP pub
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample2.xml)]
 4. Add an &lt;ftpServer&gt; section beneath the closing &lt;bindings&gt; tag that will contain your authentication and SSL settings.
+
     > [!NOTE]
     > The authentication settings for FTP sites are configured at the site-level, unlike authentication for Web sites, which can be configured per URL. 
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample3.xml)]
 5. Copy and paste the thumbprint data from the SSL certificate into the serverCertHash attribute of the SSL element. Remove all the spaces from the thumbprint data.
+
     > [!NOTE]
     > If you do not convert the hex data to uppercase, it will not show up in IIS Manager later.
-	
-	Your Default Web Site settings should now contain something like the following example: 
+
+    Your Default Web Site settings should now contain something like the following example:
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample4.xml)]
 6. Scroll to the bottom of your applicationHost.config file and add a location section for your Default Web Site that will contain your authorization settings.
+
     > [!NOTE]
-    > As shown in this example, the authorization settings for FTP sites are configured per URL. 
+    > As shown in this example, the authorization settings for FTP sites are configured per URL.
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample5.xml)]
 7. Save your applicationHost.config file.
