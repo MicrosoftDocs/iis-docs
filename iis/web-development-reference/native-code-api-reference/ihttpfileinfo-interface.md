@@ -48,7 +48,7 @@ class IHttpFileInfo : public IHttpCacheSpecificData
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then displays the `IHttpFileInfo` data to a Web client.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpFileInfo#1](IHttpFileInfo#1)]  -->  
+ [!code-cpp[IHttpFileInfo#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/IHttpFileInfo.cpp#1)]  
   
  The following text is a sample of the data output from the preceding code example.  
   

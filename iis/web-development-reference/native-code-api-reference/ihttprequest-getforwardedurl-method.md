@@ -26,7 +26,7 @@ virtual PCWSTR GetForwardedUrl(
 ## Example  
  The following code example demonstrates how to create an HTTP module that calls the `IHttpRequest::SetUrl` method to set the URL for the request to http://www.microsoft.com. The module then calls the `GetForwardedUrl` method to retrieve the forwarded URL. The module tests whether the forwarded URL is NULL. If the forwarded URL is not NULL, the module displays the URL to a Web client.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpRequestGetForwardedUrl#1](IHttpRequestGetForwardedUrl#1)]  -->  
+ [!code-cpp[IHttpRequestGetForwardedUrl#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetForwardedUrl/cpp/IHttpRequestGetForwardedUrl.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

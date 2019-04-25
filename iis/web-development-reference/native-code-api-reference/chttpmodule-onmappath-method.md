@@ -34,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnMapPath(
 ## Example  
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_MAP_PATH` event notifications. When an operation requests the physical path to be mapped for the current request, IIS will call the example module's `OnMapPath` method.  
   
-<!-- TODO: review snippet reference  [!CODE [_MapPath#1](_MapPath#1)]  -->  
+ [!code-cpp[_MapPath#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/_MapPath/cpp/module.cpp#1)]  
   
 ## Requirements  
   

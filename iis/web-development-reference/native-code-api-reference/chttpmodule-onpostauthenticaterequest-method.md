@@ -34,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostAuthenticateRequest(
 ## Example  
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_AUTHENTICATE_REQUEST` event and post-event notifications. When IIS establishes the identity of a user, it will call the example module's [OnAuthenticateRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onauthenticaterequest-method.md) and `OnPostAuthenticateRequest` methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
-<!-- TODO: review snippet reference  [!CODE [CHttpModuleAuthenticateRequest#1](CHttpModuleAuthenticateRequest#1)]  -->  
+ [!code-cpp[CHttpModuleAuthenticateRequest#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleAuthenticateRequest/cpp/CHttpModuleAuthenticateRequest.cpp#1)]  
   
  Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

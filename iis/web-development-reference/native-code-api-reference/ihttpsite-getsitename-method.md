@@ -26,7 +26,7 @@ virtual PCWSTR GetSiteName(
 ## Example  
  The following code example demonstrates how to use the `GetSiteName` method to create an HTTP module that retrieves an [IHttpSite](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md) interface. The module uses `GetSiteName` to retrieve the name of the Web site for the current request. The module then returns the name of the Web site to a Web client and exits.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpSiteGetSiteName#1](IHttpSiteGetSiteName#1)]  -->  
+ [!code-cpp[IHttpSiteGetSiteName#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpSiteGetSiteName/cpp/IHttpSiteGetSiteName.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

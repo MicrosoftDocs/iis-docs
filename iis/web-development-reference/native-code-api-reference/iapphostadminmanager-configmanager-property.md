@@ -31,7 +31,7 @@ HRESULT get_ConfigManager(
 ## Example  
  The following code example demonstrates the role of the `IAppHostConfigManager` interface in accessing the configuration system.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#7](IAppHostAdminLibrary#7)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#7](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostSectionGroupAddSectionGroup.cpp#7)]  
   
 ## Requirements  
   

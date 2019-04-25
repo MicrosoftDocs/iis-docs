@@ -36,7 +36,7 @@ HRESULT NegotiateClientCertificate(
 ## Example  
  The following example demonstrates how to call `NegotiateClientCertificate` method.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpRequestGetClientCertificate#1](IHttpRequestGetClientCertificate#1)]  -->  
+ [!code-cpp[IHttpRequestGetClientCertificate#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetClientCertificate/cpp/mymodule.cpp#1)]  
   
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

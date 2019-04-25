@@ -30,7 +30,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalRSCAQuery(
 ## Example  
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_RSCA_QUERY` notification. If a Run-Time Status and Control query occurs, IIS will call the example module's `OnGlobalRSCAQuery` method. This method will write an entry in the application log of the Windows Event Viewer and then exit.  
   
-<!-- TODO: review snippet reference  [!CODE [CGlobalModuleGlobalRSCAQuery#1](CGlobalModuleGlobalRSCAQuery#1)]  -->  
+ [!code-cpp[CGlobalModuleGlobalRSCAQuery#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleGlobalRSCAQuery/cpp/CGlobalModuleGlobalRSCAQuery.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-global-level-http-module-by-using-native-code.md).  
   

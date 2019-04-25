@@ -36,7 +36,7 @@ HRESULT put_CommitPath(
 ## Example  
  The following code example demonstrates how to set the `CommitPath` property, change the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration, and then use the [IAppHostWritableAdminManager::CommitChanges](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-commitchanges-method.md) method to commit those changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#4](IAppHostAdminLibrary#4)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#4](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementSetMetadata.cpp#4)]  
   
 ## Requirements  
   

@@ -33,7 +33,7 @@ virtual BOOL GetHttpCacheAllowed(
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetHttpCacheAllowed` method to retrieve cache information for the requested file and displays this information to a Web client.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpFileInfo#9](IHttpFileInfo#9)]  -->  
+ [!code-cpp[IHttpFileInfo#9](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetHttpCacheAllowed.cpp#9)]  
   
  The following text is a sample of the data output from the preceding code example.  
   

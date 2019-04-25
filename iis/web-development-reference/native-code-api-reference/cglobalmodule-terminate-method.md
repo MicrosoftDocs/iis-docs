@@ -31,7 +31,7 @@ virtual VOID Terminate(
   
  When a `GL_PRE_BEGIN_REQUEST` notification occurs, IIS calls the module's [CGlobalModule::OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) method to process the notification. The method calls a private method to write an event to the application log of the Event Viewer, and then it returns [GL_NOTIFICATION_CONTINUE](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) to notify IIS to continue processing other notifications. When processing is complete, IIS calls the module's `Terminate` method to remove the class from memory.  
   
-<!-- TODO: review snippet reference  [!CODE [CGlobalModuleHelloWorld#1](CGlobalModuleHelloWorld#1)]  -->  
+ [!code-cpp[CGlobalModuleHelloWorld#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleHelloWorld/cpp/CGlobalModuleHelloWorld.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-global-level-http-module-by-using-native-code.md).  
   

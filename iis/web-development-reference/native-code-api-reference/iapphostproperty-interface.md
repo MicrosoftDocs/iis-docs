@@ -35,7 +35,7 @@ interface IAppHostProperty : IUnknown
 ## Example  
  The following code example reads the value of the `enabled` attribute by using the `IAppHostProperty::Value` property.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#2](IAppHostAdminLibrary#2)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetCollection.cpp#2)]  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  

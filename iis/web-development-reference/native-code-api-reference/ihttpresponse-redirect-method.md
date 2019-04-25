@@ -47,7 +47,7 @@ virtual HRESULT Redirect(
 ## Example  
  The following code example demonstrates how to use the `Redirect` method to create an HTTP module that redirects a client to a relative URL on the Web server.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpResponseRedirect#1](IHttpResponseRedirect#1)]  -->  
+ [!code-cpp[IHttpResponseRedirect#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseRedirect/cpp/IHttpResponseRedirect.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

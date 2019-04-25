@@ -104,7 +104,7 @@ This walkthrough demonstrates how to create a Windows console application that u
   
 2.  Copy the following C++ code into the file:  
   
-<!-- TODO: review snippet reference      [!CODE [CHostedWebCoreHostedWebTest#1](CHostedWebCoreHostedWebTest#1)]  -->  
+     [!code-cpp[CHostedWebCoreHostedWebTest#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHostedWebCoreHostedWebTest/cpp/CHostedWebCoreHostedWebTest.cpp#1)]  
   
 3.  Save the HostedWebTest.cpp file.  
   

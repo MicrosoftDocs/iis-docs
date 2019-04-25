@@ -29,7 +29,7 @@ virtual IScriptMapInfo* GetScriptMap(
 ## Example  
  The following code example demonstrates how to use the `GetScriptMap` method to create an HTTP module that retrieves a pointer to an `IScriptMapInfo` interface. The example then uses the [IScriptMapInfo::GetAllowedVerbs](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getallowedverbs-method.md) method to retrieve the list of HTTP methods that are allowed for the current request path.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpContextGetScriptMap#1](IHttpContextGetScriptMap#1)]  -->  
+ [!code-cpp[IHttpContextGetScriptMap#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetScriptMap/cpp/IHttpContextGetScriptMap.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

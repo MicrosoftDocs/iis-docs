@@ -29,7 +29,7 @@ virtual IHttpResponse* GetResponse(
 ## Example  
  The following code example illustrates how to use the `IHttpContext::GetResponse` and [GetRequest](../../web-development-reference/native-code-api-reference/ihttpcontext-getrequest-method.md) methods to return pointers to `IHttpResponse` and [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md) interfaces. This example also demonstrates how to use the [IHttpRequest::GetHttpMethod](../../web-development-reference/native-code-api-reference/ihttprequest-gethttpmethod-method.md) method to retrieve the HTTP method for the current request, and it displays the method to a Web client by using the [IHttpResponse::WriteEntityChunks](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunks-method.md) method.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpContextGetResponse#1](IHttpContextGetResponse#1)]  -->  
+ [!code-cpp[IHttpContextGetResponse#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetResponse/cpp/IHttpContextGetResponse.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

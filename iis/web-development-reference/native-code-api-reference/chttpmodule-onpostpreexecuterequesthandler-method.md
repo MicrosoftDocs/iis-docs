@@ -34,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostPreExecuteRequestHandler(
 ## Example  
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_PRE_EXECUTE_REQUEST_HANDLER` event and post-event notifications. Before IIS calls an execute handler, IIS will call the example module's [OnPreExecuteRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onpreexecuterequesthandler-method.md) and `OnPostPreExecuteRequestHandler` methods. This method will write an entry in the application log of the Windows Event Viewer and then exit.  
   
-<!-- TODO: review snippet reference  [!CODE [CHttpModulePreExecuteRequestHandler#1](CHttpModulePreExecuteRequestHandler#1)]  -->  
+ [!code-cpp[CHttpModulePreExecuteRequestHandler#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModulePreExecuteRequestHandler/cpp/CHttpModulePreExecuteRequestHandler.cpp#1)]  
   
  Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

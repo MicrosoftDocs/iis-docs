@@ -29,7 +29,7 @@ virtual VOID Clear(
 ## Example  
  The following code example demonstrates how to use the `Clear` method to create an HTTP module that clears the response headers and body and returns a default response to the client.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpResponseClear#1](IHttpResponseClear#1)]  -->  
+ [!code-cpp[IHttpResponseClear#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseClear/cpp/IHttpResponseClear.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

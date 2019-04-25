@@ -37,7 +37,7 @@ virtual DWORD GetSiteId(
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
-<!-- TODO: review snippet reference  [!CODE [IUriKey#3](IUriKey#3)]  -->  
+ [!code-cpp[IUriKey#3](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IUriKey/cpp/GetSiteId.cpp#3)]  
   
  The above code writes a new event to the Event Viewer, where the Data box contains a string that is similar to the following.  
   

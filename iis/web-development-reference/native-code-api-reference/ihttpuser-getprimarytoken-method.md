@@ -32,7 +32,7 @@ virtual HANDLE GetPrimaryToken(
 ## Example  
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpUser#5](IHttpUser#5)]  -->  
+ [!code-cpp[IHttpUser#5](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpUser/cpp/GetPrimaryToken.cpp#5)]  
   
  The above code writes XML that is similar to the following to the response stream.  
   

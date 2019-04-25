@@ -34,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnUpdateRequestCache(
 ## Example  
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_UPDATE_REQUEST_CACHE` event and post-event notifications. When IIS updates the cache, IIS will call the example module's `OnUpdateRequestCache` and [OnPostUpdateRequestCache](../../web-development-reference/native-code-api-reference/chttpmodule-onpostupdaterequestcache-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
-<!-- TODO: review snippet reference  [!CODE [CHttpModuleUpdateRequestCache#1](CHttpModuleUpdateRequestCache#1)]  -->  
+ [!code-cpp[CHttpModuleUpdateRequestCache#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleUpdateRequestCache/cpp/CHttpModuleUpdateRequestCache.cpp#1)]  
   
  Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

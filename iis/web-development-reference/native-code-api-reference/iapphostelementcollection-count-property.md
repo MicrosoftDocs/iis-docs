@@ -29,7 +29,7 @@ HRESULT Count(
 ## Example  
  The following code example loops through all the child elements and properties of the `system.applicationHost/sites` configuration section in the MACHINE/WEBROOT/APPHOST commit path.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#2](IAppHostAdminLibrary#2)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetCollection.cpp#2)]  
   
 ## Requirements  
   

@@ -37,7 +37,7 @@ virtual HTTP_MODULE_ID GetId(
 ## Example  
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and events, and declares and initializes an [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) structure that contains tracing information for all events. The example then calls the `GetId` method to retrieve the `HTTP_MODULE_ID` pointer.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpModuleRegistrationInfo#2](IHttpModuleRegistrationInfo#2)]  -->  
+ [!code-cpp[IHttpModuleRegistrationInfo#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpModuleRegistrationInfo/cpp/GetId.cpp#2)]  
   
 ## Requirements  
   

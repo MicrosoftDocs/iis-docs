@@ -26,7 +26,7 @@ virtual IHttpTokenEntry* GetVrToken(
 ## Example  
  The following code example demonstrates how to use the `GetVrToken` method to create an HTTP module that retrieves an `IHttpTokenEntry` interface for the impersonation account that is configured for a virtual directory. The module converts the user token to a string and returns the string to the Web client.  
   
-<!-- TODO: review snippet reference  [!CODE [IMetadataInfoGetVrToken#1](IMetadataInfoGetVrToken#1)]  -->  
+ [!code-cpp[IMetadataInfoGetVrToken#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMetadataInfoGetVrToken/cpp/IMetadataInfoGetVrToken.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

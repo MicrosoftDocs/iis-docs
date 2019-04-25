@@ -41,7 +41,7 @@ class IHttpCacheSpecificData
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpCacheSpecificData#1](IHttpCacheSpecificData#1)]  -->  
+ [!code-cpp[IHttpCacheSpecificData#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCacheSpecificData/cpp/IHttpCacheSpecificData.cpp#1)]  
   
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

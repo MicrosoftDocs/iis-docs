@@ -37,7 +37,7 @@ virtual DWORD GetResourceType(
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetResourceType` method to retrieve the resource type for the request handler that is processing the current request. The module converts the resource type to a string, returns the string to a Web client, and then exits.  
   
-<!-- TODO: review snippet reference  [!CODE [IScriptMapInfoGetResourceType#1](IScriptMapInfoGetResourceType#1)]  -->  
+ [!code-cpp[IScriptMapInfoGetResourceType#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IScriptMapInfoGetResourceType/cpp/IScriptMapInfoGetResourceType.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

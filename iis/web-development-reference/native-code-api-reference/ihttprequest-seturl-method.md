@@ -58,7 +58,7 @@ virtual HRESULT SetUrl(
 ## Example  
  The following code example demonstrates how to use the `SetUrl` method to change a requested URL to another URL.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpRequestSetUrl#1](IHttpRequestSetUrl#1)]  -->  
+ [!code-cpp[IHttpRequestSetUrl#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestSetUrl/cpp/IHttpRequestSetUrl.cpp#1)]  
   
 ## Requirements  
   

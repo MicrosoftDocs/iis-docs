@@ -118,7 +118,7 @@ This walkthrough demonstrates how to use C++ to create a sample global-level HTT
   
     6.  Add the following code:  
   
-<!-- TODO: review snippet reference          [!CODE [CGlobalModuleHelloWorld#1](CGlobalModuleHelloWorld#1)]  -->  
+         [!code-cpp[CGlobalModuleHelloWorld#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleHelloWorld/cpp/CGlobalModuleHelloWorld.cpp#1)]  
   
 4.  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention:  
   

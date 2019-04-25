@@ -83,7 +83,7 @@ virtual HRESULT GetFileInfo(
   
 3.  Removes the `CHttpModule` class from memory and then exits.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpServerGetFileInfo#1](IHttpServerGetFileInfo#1)]  -->  
+ [!code-cpp[IHttpServerGetFileInfo#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerGetFileInfo/cpp/IHttpServerGetFileInfo.cpp#1)]  
   
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

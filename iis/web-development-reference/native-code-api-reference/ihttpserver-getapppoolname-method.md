@@ -28,7 +28,7 @@ virtual PCWSTR GetAppPoolName(
 ## Example  
  The following code example demonstrates how to use the `GetAppPoolName` method to create an HTTP module that retrieves the name of the application pool that is processing the current request. The module then returns the name to a Web client.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpServerGetAppPoolName#1](IHttpServerGetAppPoolName#1)]  -->  
+ [!code-cpp[IHttpServerGetAppPoolName#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerGetAppPoolName/cpp/IHttpServerGetAppPoolName.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

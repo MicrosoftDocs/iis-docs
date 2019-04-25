@@ -33,7 +33,7 @@ virtual DWORD GetFlags(
 ## Example  
  The following code example demonstrates how to use the [SetFlags](../../web-development-reference/native-code-api-reference/isendresponseprovider-setflags-method.md) and `GetFlags` methods to create an HTTP module that sets the flags for the current response. The example then retrieves the modified flags and returns the response to a Web client.  
   
-<!-- TODO: review snippet reference  [!CODE [ISendResponseProviderGetFlags#1](ISendResponseProviderGetFlags#1)]  -->  
+ [!code-cpp[ISendResponseProviderGetFlags#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/ISendResponseProviderGetFlags/cpp/ISendResponseProviderGetFlags.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
