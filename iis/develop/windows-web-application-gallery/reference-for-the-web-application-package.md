@@ -7,11 +7,9 @@ ms.assetid: d0b0d1dc-ce47-409b-8dec-4153f08f483e
 msc.legacyurl: /learn/develop/windows-web-application-gallery/reference-for-the-web-application-package
 msc.type: authoredcontent
 ---
-Reference for the Web Application Package
-====================
-by Tali Smith
+# Reference for the Web Application Package
 
-## Introduction
+by Tali Smith
 
 Every application in the Web Application Gallery has at least two XML files that enable the Web Platform Installer (Web PI) to use the Web Deployment Tool (WDT) to deploy the application on Windows® operating systems. These files are the Manifest.xml and Parameters.xml files. In addition, many applications add a SQL script to be run by the WDT as part of the pre-setup installation. PHP applications also include a Web.config file.
 
@@ -54,7 +52,7 @@ If your parameter is tagged with one of the ten well-known tags from the table b
 
 In addition, each parameter can have sub elements that perform various functions.
 
-#### ParameterEntry types
+### ParameterEntry types
 
 There are four distinct ParameterEntry types available to specify parameter substitutions, each providing a different way of identifying the target. Three attributes are required for each instance:
 
@@ -64,7 +62,7 @@ There are four distinct ParameterEntry types available to specify parameter subs
 
 Each ParameterEntry type has a specific format for defining the scope and the match attributes. The combination of all three elements should always identify at least one match within the application package. You may have as many ParameterEntrys as you need for your application; for more than one type of substitution or more than one target for the substitutions (for example, if two different files both need the substitution), you will need a distinct ParameterEntry element for each one.
 
-#### TextFile ParameterEntry types
+### TextFile ParameterEntry types
 
 With the TextFile type, the scope is a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) used to identify a file or set of files to target. The match is a regular expression that represents the string to be replaced. The WDT applies the parameter substitution to all strings that are found by the match in all of the files identified by the scope. When defining regular expressions for TextFile ParameterEntry types, it is important to make sure that you limit both your match and your scope to the most precise expressions you can define.
 
@@ -72,11 +70,9 @@ TextFile gives you the most reliable method for identifying targets within a fil
 
 For example, you could specify that a database user name needs to be placed within a SQL script that was written for use with the WDT. The WDT would look for the string "PlaceholderForDbUsername" and substitute the user's parameter input for that string:
 
-
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample1.xml)]
 
-
-#### XmlFile
+### XmlFile
 
 Many applications use XML files for data or configuration. All Microsoft® .NET applications, and many PHP applications, use a Web.config file for storing Web site and application configuration information. When identifying a target within a XML file, the most reliable mechanism to use is an XPath query.
 
@@ -88,13 +84,11 @@ For example, an application might have a SQL connectionString in a Web.config fi
 
 You could use the generated connection string parameter in the following example to replace the value in the configuration file with the values that the user entered. In this case, the XPath query searches from the root of the XML file following the element path in the query for the first "add" element under the "connectionStrings" element under the "configuration" element with an attribute of "name" that equals "SqlServerDbConnection". It then replaces the value of the "connectionString" attribute of that element with the parameterized value.
 
-
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample3.xml)]
-
 
 For more information, see the article "[XPath Syntax](https://msdn.microsoft.com/library/ms256471.aspx)."
 
-#### ProviderPath
+### ProviderPath
 
 The ProviderPath type is used for applying parameters to providers specified in the Manifest.xml file. When you are developing your application package, you cannot know all of the specifics about your users' system environments. So when you specify each of the providers, you associate defaults for each one that matches the expectations of the provider type. There will frequently be one ParameterEntry element in the Parameters.xml file for each directive in the Manifest.xml file.
 
@@ -106,11 +100,11 @@ The scope of a ProviderPath entry refers to the type of provider being parameter
 | setAcl | path | The specified path, which matches the path to the file or folder in the package to which the ACL is applied | The path is replaced with the value for the parameter that identifies the setAcl provider. SetAcl parameters usually have "hidden" as one of their tags. The values are constructed by setting a defaultValue which uses the "Application Path" parameter with the rest of the path to the file or directory appended. |
 | dbFullSql and dbMySql | connectionString - unspecified attribute | The specified path, which matches the path and name of the SQL file to execute as part of the installation | The connectionString is replaced with one constructed in the Parameters.xml file. This parameter is usually hidden and built from other parameters that identify the database and the credentials for connecting to it. The WebPI and the WDT will provide an intelligent UI for building connection strings when all of the relevant parameters are specified. If there is no matching parameter, the connectionString will remain blank, which will mean the database connection will be made to the system's defaults. |
 
-#### TextFilePosition ParameterEntry type
+### TextFilePosition ParameterEntry type
 
 There may be times when using a regular expression to replace a text string in a file may not be precise enough. For example, there may be a string that you want to replace in one portion of the file but not in another. Or you may not be able to use a regular expression to uniquely identify the string to be changed. For those situations, you can use the TextFilePosition ParameterEntry type.
 
-The scope for a TextFilePositionEntry type is defined the same way as for TextFile, using a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) to identify the target file(s). The match is specified as a series of three integers separated by semicolons (;). The first integer specifies the line number in the file. The second integer specifies the number of characters from the beginning of the line. The third integer specifies the number of characters to replace. You do need to be careful when specifying your target, as the parameter replacement will extend beyond the end of a line if the match numbers specify a target that would include end-of-line characters within the target length.
+The scope for a TextFilePositionEntry type is defined the same way as for TextFile, using a [regular expression](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the target file(s). The match is specified as a series of three integers separated by semicolons (;). The first integer specifies the line number in the file. The second integer specifies the number of characters from the beginning of the line. The third integer specifies the number of characters to replace. You do need to be careful when specifying your target, as the parameter replacement will extend beyond the end of a line if the match numbers specify a target that would include end-of-line characters within the target length.
 
 For example, you could specify that the database user name from the TextFile example also needs to be included in a configuration file. The target in this file cannot be uniquely identified with a regular expression. Using TextFilePosition, we can target the specific string in the file based on its location instead of its content.
 
@@ -124,13 +118,16 @@ Parameter Tags are used to tell various UIs how to display and use parameters. S
 
     > [!NOTE]
     > On IIS 5.1, the Web site portion of this will always be "Default Web Site". The user will be able to select a directory under the default for the Web site to keep applications separate.
+
 - **Hidden**- A Hidden parameter is not shown to the user as part of the installation UI. A Hidden parameter must have a defaultValue set. These parameters are used either to set a hard-coded default value or to set a computed default value. Hard-coded defaults are sometimes used when establishing a parameter for future use. Computed values are used to construct a parameter's value from other parameters. When constructing computed values, you can refer to other parameters by putting the other parameter name surrounded by {}s in the place you want the value. Please refer to the "Connection String" parameter in the example for a common usage of this tag.
 - **SQL or MySQL**- These parameters are used in relation to a specific database. If the manifest contains parameters for both SQL and MySQL, the UI can choose which database to use and the user will only be presented with parameters relevant for that database.
 - **Password**- This identifies a field that will be used as a password that is already known. The UI will hide the value of that password.
 - **New**- When used together with the Password tag, this identifies a field that will be used to set a new password. The UI will hide the value of the password and ask the user to confirm it (for example, "New,Password").
 - **dbUsername, dbUserPassword, dbAdminUsername, dbAdminPassword, dbServer, dbName**- Some UIs that install application packages will handle the database creation themselves. In the case where the user already has a database created, the UIs will seamlessly hide and fill in the administrative credentials correctly to avoid requiring the user to enter data two times. These tags identify the parameters that must be modified if the UI will handle database creation.
+
     > [!NOTE]
     > If there is a SQL or MySQL provider in the Manifest.xml, then there must be six parameters in the Parameters.xml file, and each parameter must have one of these tags.
+
 - **SQLConnectionString, MySQLConnectionString**- This identifies that a field (usually a Hidden one) is being used as a connection string to a database. Some UIs will use the connection string in conjunction with the dbXxxx tags above to display a specific dialog box.
 - **Validate**- Validate is only allowed when specified with one of the connection string tags. Validate specifies a connection string that must be valid for the installation to succeed and for any SQL scripts to run as part of the installation. UIs will have a choice on how they want to implement this function. The Web PI will validate the database credentials before allowing the user to proceed through the rest of the installation.
 - **VistaDB, SQLite, FlatFile** - These tags identify a parameter that is used with these flat file data types. There is no corresponding provider in the Manifest.xml file for these. The WebPI and other UIs will recognize these tags in the Parameters.xml file. If there is more than one type of database tag (for example, SQL, MySQL, SQLite, and VistaDB all in the same Parameters.xml file), the UI will present the user with a choice of database engines for the application. When the user selects the database engine, all parameters that are tagged for a different engine and not the selected one will be bypassed.
@@ -139,18 +136,21 @@ Parameter Tags are used to tell various UIs how to display and use parameters. S
 
 There are several types of parameter validation that are available. If none of these are specified, the user is presented with a simple text box to enter the parameter's value:
 
-- **AllowEmpty** - Most UIs will require a value for all parameters that are not hidden. You can specify a validation type of "AllowEmpty" to instruct the UI that a blank or empty value is acceptable. AllowEmpty can be used in conjunction with any of the other parameter validation types, or on its own. The syntax for AllowEmpty is: 
+- **AllowEmpty** - Most UIs will require a value for all parameters that are not hidden. You can specify a validation type of "AllowEmpty" to instruct the UI that a blank or empty value is acceptable. AllowEmpty can be used in conjunction with any of the other parameter validation types, or on its own. The syntax for AllowEmpty is:
 
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample5.xml)]
+
 - **Boolean**- Boolean parameters are simple True / False questions. Depending on the UI, the user might be presented with a check box or two option buttons to select their choice. Booleans replace values in the same way as other parameters. For Booleans, the replacement value is either "True" or "False". If you need to have Boolean values other than "True" or "False", use an enumeration with only two values. The syntax for Booleans is: 
 
 	[!code-xml[Main](reference-for-the-web-application-package/samples/sample6.xml)]
+
 - **Enumeration**- Enumeration allows you to limit the user's input to a list of discrete possible values. Most UIs will implement this as a drop-down list box, where the user will have the ability to choose one value from the list. Any whitespace in the validationString will be included as part of the possible values. Therefore, there should be no whitespace on either side of a comma, unless you want that whitespace to be included in the parameter substitution. The syntax for Enumeration is:
 
     [!code-xml[Main](reference-for-the-web-application-package/samples/sample7.xml)]
 
     Currently, there is no way to escape a comma (,) so that it may be included as part of one of the values of an enumeration.
-- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, please refer to the Microsoft® Developer Network (MSDN®) [Regular Expression Language Elements](https://msdn.microsoft.com/library/az24scfc.aspx) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is:
+
+- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, see [Regular Expression Language - Quick Reference](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is:
 
     [!code-xml[Main](reference-for-the-web-application-package/samples/sample8.xml)]
 
@@ -160,8 +160,8 @@ There are several types of parameter validation that are available. If none of t
 
 The regular expressions in the two previous examples are explained here:
 
-- **".+"** - Specifies that the parameter entry *must* contain at least one of any type of character. Alternatively, use **".\*"** to specify that the parameter entry *may* contain at least one of any type of character, which means that it can be empty.
-- **"^[a-zA-Z0-9.\_%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"** - This is a simple e-mail address validation expression. It does not catch every incorrect address, but it catches most. This regular expression does not allow blank or empty parameters. However, since "allowEmpty" was included in the "type" attribute, empty parameters will be accepted.
+- `.+` - Specifies that the parameter entry *must* contain at least one of any type of character. Alternatively, use **".\*"** to specify that the parameter entry *may* contain at least one of any type of character, which means that it can be empty.
+- `^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$` - This is a simple e-mail address validation expression. It does not catch every incorrect address, but it catches most. This regular expression does not allow blank or empty parameters. However, since "allowEmpty" was included in the "type" attribute, empty parameters will be accepted.
 
 ## Database Credentials Validation
 
@@ -200,9 +200,7 @@ Certain parameters are translated automatically into one of those languages base
 
 For the ten well-known parameters above, best practice is to use the parameter descriptions and friendly names that the WDT automatically generates. This leads to a more consistent experience for users and lets your application take advantage of additional languages as they are added. If necessary, specify your own translations for any of those parameters or for any parameters that do not have a default translation. This is done by providing alternate descriptions and friendlyNames in the parameter elements of the Parameters.xml file. The default description for a parameter is provided as one of the attributes of the parameter element, while the translations are provided as distinct elements. For example:
 
-
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample10.xml)]
-
 
 In the example, note:
 
@@ -219,25 +217,20 @@ An application package can have any number of SQL scripts that will be executed 
 
 ## Web.config
 
-A Web.config file can be placed at any level in an application's directory tree. To learn more about the Web.config file, see the [IIS 7.0 Configuration Reference](https://www.iis.net/configreference).
+A Web.config file can be placed at any level in an application's directory tree. To learn more about the Web.config file, see the [IIS 7.0 Configuration Reference](../../configuration/index.md).
 
 ## Integration Samples
 
 Samples of Web App Gallery integration are available for reference.
 
-
 > [!NOTE]
 > *This article is based on information from "[Application Packaging Guide for the Windows Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md)" by the IIS team, published on September 24, 2009*.
 
+## See also
 
-## Links for Further Information
-
-- [Regular Expression Language Elements](https://msdn.microsoft.com/library/az24scfc.aspx).
-- [XPath syntax](https://msdn.microsoft.com/library/ms256471.aspx).
-- [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/library/ms866170.aspx).
-
-Web App Gallery Integration Samples.
-
-- [IIS 7.0 Configuration Reference](https://www.iis.net/configreference).
-- [Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md).
-- [Regular Expression Language Elements](https://msdn.microsoft.com/library/az24scfc.aspx).
+- [Regular Expression Language - Quick Reference](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference)
+- [XPath syntax](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100))
+- [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://docs.microsoft.com/previous-versions/commerce-server/ee825488(v=cs.20))
+- [Web App Gallery Integration Samples](http://www.iis.net/learn/develop/windows-web-application-gallery)
+- [IIS 7.0 Configuration Reference](../../configuration/index.md)
+- [Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md)
