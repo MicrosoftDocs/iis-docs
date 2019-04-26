@@ -24,7 +24,7 @@ Here is a basic explanation of friendly URLs that are enabled by the URL Rewrite
 
 1. The image above depicts the following events involving URL Rewrite:
    The end user types URL: `http://www.somestore.com/chocolates/dark/organic`.
-2. Then the URL Rewrite module in the Web server for site www.somestore.com alters it from `http://www.somestore.com/chocolates/dark/organic` to `http://www.somestore.com/catalog.php?Department=chocolates&amp;Category=dark&amp;Label=organic`, which is then processed by the application.
+2. Then the URL Rewrite module in the Web server for site `www.somestore.com` alters it from `http://www.somestore.com/chocolates/dark/organic` to `http://www.somestore.com/catalog.php?Department=chocolates&amp;Category=dark&amp;Label=organic`, which is then processed by the application.
 3. If the user wants to see a list of all chocolates, the user can then bypass the navigation features of the Web application and type the following URL: `http://www.somestore.com/chocolates`.
 
 URL rewrite makes URL typing friendlier to users. Benefits include, but are not limited to:

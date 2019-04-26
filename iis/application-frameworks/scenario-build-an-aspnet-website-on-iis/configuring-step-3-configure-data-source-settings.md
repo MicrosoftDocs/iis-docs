@@ -223,7 +223,7 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 4. In the **.NET User Account Details** dialog box, enter the following information:
 
     - User Name (must be unique).
-    - E-mail (must use standard format: name@domain.com).
+    - E-mail (must use standard format: name\@domain.com).
     - Password (must be a strong password).
     - Confirm Password (must match the password).
     - Question (enter a custom question or select from the list).

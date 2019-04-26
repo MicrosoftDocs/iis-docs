@@ -237,7 +237,7 @@ This step provides a sample of how to access the redirection.config file program
 
 1. Create a text file and save it with the .js extension. The following script provides a sample of how to read the enabled attribute, server name, user name, and password for your environment:
 
-[!code-console[Main](shared-configuration_264/samples/sample9.cmd)]
+    [!code-console[Main](shared-configuration_264/samples/sample9.cmd)]
 2. Save your redirection.js file. You can now run this file from a command prompt because of the Windows Script Host (WSH).
 
 <a id="12"></a>

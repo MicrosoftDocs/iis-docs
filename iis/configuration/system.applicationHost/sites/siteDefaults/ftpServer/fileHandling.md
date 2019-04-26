@@ -56,8 +56,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     > [![](fileHandling/_static/image4.png)](fileHandling/_static/image3.png)
+
 4. Click **OK**.
 5. Click **Close**.
 
@@ -72,6 +73,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](fileHandling/_static/image6.png)](fileHandling/_static/image5.png)
+
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -86,6 +88,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](fileHandling/_static/image8.png)](fileHandling/_static/image7.png)
+
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -125,9 +128,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - Specify **True** for **Allow Reading Files While Uploading** if the FTP service should allow read access to files that are currently being uploaded; otherwise, specify **False**.
     - Specify **True** for **Allow Replace on Rename** if the FTP service should allow files that are being renamed to overwrite existing files; otherwise, specify **False**.
     - Specify **True** for **Keep Partial Uploads** if the FTP service should keep files that have been partially uploaded; otherwise, specify **False**.
+
         > [!NOTE]
         > Keeping partially-uploaded files allows FTP clients to reconnect and resume uploading.  
         > [![](fileHandling/_static/image12.png)](fileHandling/_static/image11.png)
+
 5. Click **OK**.
 
 ## Configuration
