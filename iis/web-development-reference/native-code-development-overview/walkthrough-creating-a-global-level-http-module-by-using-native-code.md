@@ -123,7 +123,7 @@ The next step is to add the required C++ and module definition-files to the proj
   
     6. Add the following code:  
   
-<!-- TODO: review snippet reference          [!CODE [CGlobalModuleHelloWorld#1](CGlobalModuleHelloWorld#1)]  -->  
+       <!-- TODO: review snippet reference          [!CODE [CGlobalModuleHelloWorld#1](CGlobalModuleHelloWorld#1)]  -->  
   
 4. You can optionally compile the code by using the `__stdcall (/Gz)` calling convention:  
   

@@ -208,10 +208,10 @@ Select the status.csv file created by the LogParser query and navigate through t
 ![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image15.png)
 **Figure 17: Create a Pie chart using a CSV file**
 
-The end result is a Pie chart, *Figure 18* that is similar to that shown previously in *Figure 10*. There are many options in regards to color, chart type, labels, etc... With a click of a button you can change the chart type from Pie to Bar or to Line. There are a lot of options for creating professional looking charts within Excel.
+The end result is a Pie chart, *Figure 18* that is similar to that shown previously in *Figure 10*. There are many options in regards to color, chart type, labels, etc. With a click of a button you can change the chart type from Pie to Bar or to Line. There are a lot of options for creating professional looking charts within Excel.
 
 ![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image17.png)  
-**Figure 18: A Pie chart using a CSV file similar to *Figure 10***
+**Figure 18: A Pie chart using a CSV file similar to Figure 10**
 
 There are so many options and possibilities for analyzing and presenting the results of that analysis using LogParser. For some additional tips and examples, check out these [articles](https://blogs.msdn.com/b/robert_mcmurray/archive/tags/logparser/) written by Robert McMurray. There is also a very useful help file and many prewritten scripts provided within the installation package of LogParser. The next section will discuss this and other topics in more detail.
 

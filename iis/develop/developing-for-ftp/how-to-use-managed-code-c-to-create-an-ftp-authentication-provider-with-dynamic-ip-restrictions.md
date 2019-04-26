@@ -230,8 +230,10 @@ In this step, you will add the demo provider to your FTP service and the Default
    - Click **Add Allow Rule...** in the **Actions** pane.
    - Select **Specified users** for the access option.
    - Enter a user name.
+
       > [!NOTE]
       > The user name will need to be entered into the database outside of this list of steps.
+
    - Select **Read** and/or **Write** for the **Permissions** option.
    - Click **OK**.
 

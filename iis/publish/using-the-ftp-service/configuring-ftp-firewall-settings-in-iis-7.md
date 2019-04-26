@@ -69,8 +69,10 @@ In this section you, create a new FTP site that can be opened for Read-only acce
 3. When the **Add FTP Site** wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
+
        > [!NOTE]
        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+
     - Click **Next**.
 
     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image1.jpg)
