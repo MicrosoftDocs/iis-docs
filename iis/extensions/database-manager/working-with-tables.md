@@ -181,7 +181,7 @@ Let us start populating our "FabrikamUsers" and "AccessControls" table with some
 8. Right-click on "AccessControls" and select 'Show Table Data'. You should now see the data inside your table. There should also be a row preceded by a '\*' that you can use to enter new data.
 9. In the new row (\*), click in the 'UserId' column and type '1'. Entering this UserId value will point to the first record in your "FabrikamUsers" table (which should be 'John Doe' according to our example.
 10. Next, click on the 'ResourceURL' column and type 'admin.aspx' and type 'True' in the IsUserAllowed column. This implies that user 'John Doe' can access the admin.aspx page of our fictitious site.  
-   ![](working-with-tables/_static/image65.png)
+    ![](working-with-tables/_static/image65.png)
 11. Add a few more rows of sample access rights for other users.
 
 Now that we have some data in the table, let us modify and delete an existing row:

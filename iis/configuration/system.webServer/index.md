@@ -50,36 +50,36 @@ None.
 
 ### Child Elements
 
-| Element | Description |
-| --- | --- |
-| [`applicationInitialization`](applicationinitialization/index.md) | Optional element.<br><br>Configures settings for application initialization that is performed proactively before a request is received. |
-|| [`asp`](asp/index.md) | Optional element.<br><br>Configures settings for Active Server Pages (ASP) applications. |
-| [`caching`](caching/index.md) | Optional element.<br><br>Configures output cache settings. |
-| [`cgi`](cgi.md) | Optional element.<br><br>Configures default settings for Common Gateway Interface (CGI) applications. |
-| [`defaultDocument`](defaultdocument/index.md) | Optional element.<br><br>Configures settings for returning a default document to a client browser when the client does not specify a file name in a request. |
-| [`directoryBrowse`](directorybrowse.md) | Optional element.<br><br>Configures whether directory browsing is enabled or disabled on the Web server, and specifies the information to include in a directory listing. |
-| [`fastCgi`](fastcgi/index.md) | Optional element.<br><br>Contains a collection of fastCgi application pool definitions. |
-| [`globalModules`](globalmodules/index.md) | Optional element.<br><br>Specifies configuration settings for global modules on a Web server. |
-| [`handlers`](handlers/index.md) | Optional element.<br><br>Specifies handlers to process requests made to sites and applications. |
-| [`httpCompression`](httpcompression/index.md) | Optional element.<br><br>Configures HTTP compression settings for a Web server. |
-| [`httpErrors`](httperrors/index.md) | Optional element.<br><br>Configures HTTP error messages for a Web server. |
-| [`httpLogging`](httplogging.md) | Optional element.<br><br>Specifies configuration settings for HTTP.sys logging. |
-| [`httpProtocol`](httpprotocol/index.md) | Optional element.<br><br>Configures custom and redirect response headers to be sent from the server to the client. |
-| [`httpRedirect`](httpredirect/index.md) | Optional element.<br><br>Configures settings for redirecting client requests to a new location. |
-| [`httpTracing`](httptracing/index.md) | Optional element.<br><br>Specifies configuration settings for HTTP.sys tracing. |
-| [`isapiFilters`](isapifilters/index.md) | Optional element.<br><br>Specifies configuration settings for ISAPI filters on a Web server. |
-| [`management`](management/index.md) | Optional element.<br><br>Configures a Web server for remote management by using IIS Manager. |
-| [`modules`](modules/index.md) | Optional element.<br><br>Specifies configuration settings for modules on a Web server. |
-| [`odbcLogging`](odbclogging.md) | Optional element.<br><br>Configures Open Database Connectivity (ODBC) logging. |
-| [`security`](security/index.md) | Optional element.<br><br>Specifies the section group that contains security-related sections. |
-| [`serverRuntime`](serverruntime.md) | Optional element.<br><br>Configures request limits for applications on a Web server. |
-| [`serverSideInclude`](serversideinclude.md) | Optional element.<br><br>Specifies whether server-side includes (SSI) #exec directives are disabled. |
-| [`staticContent`](staticcontent/index.md) | Optional element.<br><br>Configures static file request handler settings. |
-| [`tracing`](tracing/index.md) | Optional element.<br><br>Configures request trace settings. |
-| [`urlCompression`](urlcompression.md) | Optional element.<br><br>Configures compression of static and dynamic content. |
-| [`validation`](validation.md) | Optional element.<br><br>Configures IIS 7 to detect whether an ASP.NET application that is set up to run in ISAPI mode needs any migration in order to function correctly in Integrated mode. |
-| [`webdav`](webdav/index.md) | Optional element.<br><br>Configures WebDAV publishing settings. |
-| [`webSocket`](websocket.md) | Optional element.<br><br>Configures communications over the WebSocket protocol. |
+|                              Element                              |                                                                                          Description                                                                                          |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`applicationInitialization`](applicationinitialization/index.md) |                            Optional element.<br><br>Configures settings for application initialization that is performed proactively before a request is received.                            |
+|                                                                   |                                                                                     [`asp`](asp/index.md)                                                                                     |
+|                   [`caching`](caching/index.md)                   |                                                                  Optional element.<br><br>Configures output cache settings.                                                                   |
+|                          [`cgi`](cgi.md)                          |                                             Optional element.<br><br>Configures default settings for Common Gateway Interface (CGI) applications.                                             |
+|           [`defaultDocument`](defaultdocument/index.md)           |                 Optional element.<br><br>Configures settings for returning a default document to a client browser when the client does not specify a file name in a request.                  |
+|              [`directoryBrowse`](directorybrowse.md)              |           Optional element.<br><br>Configures whether directory browsing is enabled or disabled on the Web server, and specifies the information to include in a directory listing.           |
+|                   [`fastCgi`](fastcgi/index.md)                   |                                                    Optional element.<br><br>Contains a collection of fastCgi application pool definitions.                                                    |
+|             [`globalModules`](globalmodules/index.md)             |                                                 Optional element.<br><br>Specifies configuration settings for global modules on a Web server.                                                 |
+|                  [`handlers`](handlers/index.md)                  |                                                Optional element.<br><br>Specifies handlers to process requests made to sites and applications.                                                |
+|           [`httpCompression`](httpcompression/index.md)           |                                                        Optional element.<br><br>Configures HTTP compression settings for a Web server.                                                        |
+|                [`httpErrors`](httperrors/index.md)                |                                                           Optional element.<br><br>Configures HTTP error messages for a Web server.                                                           |
+|                  [`httpLogging`](httplogging.md)                  |                                                        Optional element.<br><br>Specifies configuration settings for HTTP.sys logging.                                                        |
+|              [`httpProtocol`](httpprotocol/index.md)              |                                      Optional element.<br><br>Configures custom and redirect response headers to be sent from the server to the client.                                       |
+|              [`httpRedirect`](httpredirect/index.md)              |                                                Optional element.<br><br>Configures settings for redirecting client requests to a new location.                                                |
+|               [`httpTracing`](httptracing/index.md)               |                                                        Optional element.<br><br>Specifies configuration settings for HTTP.sys tracing.                                                        |
+|              [`isapiFilters`](isapifilters/index.md)              |                                                 Optional element.<br><br>Specifies configuration settings for ISAPI filters on a Web server.                                                  |
+|                [`management`](management/index.md)                |                                                 Optional element.<br><br>Configures a Web server for remote management by using IIS Manager.                                                  |
+|                   [`modules`](modules/index.md)                   |                                                    Optional element.<br><br>Specifies configuration settings for modules on a Web server.                                                     |
+|                  [`odbcLogging`](odbclogging.md)                  |                                                        Optional element.<br><br>Configures Open Database Connectivity (ODBC) logging.                                                         |
+|                  [`security`](security/index.md)                  |                                                 Optional element.<br><br>Specifies the section group that contains security-related sections.                                                 |
+|                [`serverRuntime`](serverruntime.md)                |                                                     Optional element.<br><br>Configures request limits for applications on a Web server.                                                      |
+|            [`serverSideInclude`](serversideinclude.md)            |                                             Optional element.<br><br>Specifies whether server-side includes (SSI) #exec directives are disabled.                                              |
+|             [`staticContent`](staticcontent/index.md)             |                                                           Optional element.<br><br>Configures static file request handler settings.                                                           |
+|                   [`tracing`](tracing/index.md)                   |                                                                  Optional element.<br><br>Configures request trace settings.                                                                  |
+|               [`urlCompression`](urlcompression.md)               |                                                        Optional element.<br><br>Configures compression of static and dynamic content.                                                         |
+|                   [`validation`](validation.md)                   | Optional element.<br><br>Configures IIS 7 to detect whether an ASP.NET application that is set up to run in ISAPI mode needs any migration in order to function correctly in Integrated mode. |
+|                    [`webdav`](webdav/index.md)                    |                                                                Optional element.<br><br>Configures WebDAV publishing settings.                                                                |
+|                    [`webSocket`](websocket.md)                    |                                                        Optional element.<br><br>Configures communications over the WebSocket protocol.                                                        |
 
 ### Configuration Sample
 

@@ -167,22 +167,22 @@ To use the FastCGI environment, you must first install the CGI role service. The
     [![](index/_static/image22.png)](index/_static/image21.png)
 5. In the **Add FastCGI Application** dialog box, enter the following information:
 
-    - Enter the path to the scripting engine in the **Full Path** box. For example, "C:\PHP\php-cgi.exe".
-    - Enter the maximum number of requests for the FastCGI application.
+   - Enter the path to the scripting engine in the **Full Path** box. For example, "C:\PHP\php-cgi.exe".
+   - Enter the maximum number of requests for the FastCGI application.
 
-        > [!NOTE]
-        > For PHP, this number must be lesser or equal to the maximum number of requests for PHP environment, which is configured by using the `PHP_FCGI_MAX_REQUESTS` environment variable.
+       > [!NOTE]
+       > For PHP, this number must be lesser or equal to the maximum number of requests for PHP environment, which is configured by using the `PHP_FCGI_MAX_REQUESTS` environment variable.
   
-    [![](index/_static/image24.png)](index/_static/image23.png)
+     [![](index/_static/image24.png)](index/_static/image23.png)
 6. Click the ellipsis (**...**) next to **EnvironmentVariables** to open the environment variables collection editor.
 7. In the **EnvironmentVariables Collection Editor** dialog box, click **Add**.  
     [![](index/_static/image26.png)](index/_static/image25.png)
 8. Enter the following information, and then click **OK**.
 
-    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
-    - Enter "10000" for the **Value**.
+   - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
+   - Enter "10000" for the **Value**.
   
-    [![](index/_static/image28.png)](index/_static/image27.png)
+     [![](index/_static/image28.png)](index/_static/image27.png)
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
 ### How add a FastCGI environment variable for PHP
@@ -217,10 +217,10 @@ To use the FastCGI environment, you must first install the CGI role service. The
     [![](index/_static/image36.png)](index/_static/image35.png)
 7. Enter the following information, and then click **OK**.
 
-    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
-    - Enter "10000" for the **Value**.
+   - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
+   - Enter "10000" for the **Value**.
   
-    [![](index/_static/image38.png)](index/_static/image37.png)
+     [![](index/_static/image38.png)](index/_static/image37.png)
 8. Click **OK** to close the **Add FastCGI Application** dialog box.
 
 ## Configuration

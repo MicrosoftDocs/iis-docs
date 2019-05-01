@@ -14,7 +14,8 @@ The **IPlaylistInfo** interface represents a playlist.
 
 ## Members
 
-|Member|Description|
-|--- |--- |
-|[IPlaylistInfo::Entries Property](iplaylistinfo-entries-property.md)|An [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md) instance |to enumerate the entries in a playlist.
-|[IPlaylistInfo::GetProperty Method](iplaylistinfo-getproperty-method.md)|The returned [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md) instance.|
+|                                  Member                                  |                                                Description                                                 |
+|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|   [IPlaylistInfo::Entries Property](iplaylistinfo-entries-property.md)   |      An [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md) instance       |
+| [IPlaylistInfo::GetProperty Method](iplaylistinfo-getproperty-method.md) | The returned [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md) instance. |
+

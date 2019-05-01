@@ -79,8 +79,8 @@ When this configuration is used, the ApplicationPools are *hard affinitized*, me
 
 When it comes to affinitizing a process to a core or NUMA node, two affinity modes are possible:
 
-1. **Hard Affinity****.** A process is affinitized to a core (or cores that make up a NUMA node) and all threads for the process are executed by the affinitized core. The threads cannot be executed by the other cores on the system, regardless of whether the other cores have extra CPU cycles or not. The threads are contained within the affinitized core.
-2. **Soft Affinity****.** A process is affinitized to a core (or cores that make up a NUMA node) as the "preferred core". When a thread is about to be scheduled to be executed, the "preferred core" is considered first, however, depending on the load and the availability of the other cores on the system, the thread maybe scheduled on the other cores on the system. This behavior is often described as a "spill over" effect, in which the threads are "spilling over" to the other non-soft-affinitized cores.
+1. **Hard Affinity**<strong>.</strong> A process is affinitized to a core (or cores that make up a NUMA node) and all threads for the process are executed by the affinitized core. The threads cannot be executed by the other cores on the system, regardless of whether the other cores have extra CPU cycles or not. The threads are contained within the affinitized core.
+2. **Soft Affinity**<strong>.</strong> A process is affinitized to a core (or cores that make up a NUMA node) as the "preferred core". When a thread is about to be scheduled to be executed, the "preferred core" is considered first, however, depending on the load and the availability of the other cores on the system, the thread maybe scheduled on the other cores on the system. This behavior is often described as a "spill over" effect, in which the threads are "spilling over" to the other non-soft-affinitized cores.
 
 The following new schema element has been introduced in IIS 8 for configuring the affinity modes:
 

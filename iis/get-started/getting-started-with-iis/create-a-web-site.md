@@ -52,7 +52,7 @@ The variable **name** *string* is the name, and the variable **id** *uint* is th
 
 The variable **physicalPath** *string* is the path of the site content in the file system.
 
-The variable **bindings** *string* contains information that is used to access the site, and it should be in the form of *protocol***/***IP\_address***:** *port***:** *host\_header*. For example, a Web site binding is the combination of protocol, IP address, port, and host header. A binding of **http/\*:85:** enables a Web site to listen for HTTP requests on port 85 for all IP addresses and domain names (also known as host headers or host names). On the other hand, a binding of **http/\*:85:marketing.contoso.com** enables a Web site to listen for HTTP requests on port 85 for all IP addresses and the domain name **marketing.contoso.com**.
+The variable **bindings** *string* contains information that is used to access the site, and it should be in the form of <em>protocol</em>**/**<em>IP\_address</em>**:** <em>port</em>**:** *host\_header*. For example, a Web site binding is the combination of protocol, IP address, port, and host header. A binding of **http/\*:85:** enables a Web site to listen for HTTP requests on port 85 for all IP addresses and domain names (also known as host headers or host names). On the other hand, a binding of **http/\*:85:marketing.contoso.com** enables a Web site to listen for HTTP requests on port 85 for all IP addresses and the domain name **marketing.contoso.com**.
 
 To add a Web site named Contoso with an ID of 2 that has content in `C:\Contoso`, and that listens for HTTP requests on port 85 for all IP addresses and a domain name of **marketing.contoso.com**, type the following at the command prompt, and then press ENTER:
 

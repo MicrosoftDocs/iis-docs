@@ -84,11 +84,11 @@ Here is the full list of which components are installed by those links, so you c
     - A handful of applications in the App Gallery depend on this installed centrally
 - [Optional]  
   
- Note that you can also optionally install [ASP.NET MVC3](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3) and [ASP.NET Web Pages](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=Plan9), which gives you the ability to host applications written in the new "Razor" syntax of ASP.NET. However, note that the binaries required for these kinds of applications are **automatically published** by WebMatrix. That is, each end user who publishes applications of this type will automatically end up with the required binaries in a */bin/* folder within their site root directory, so it is not really necessary to install them centrally.  
+  Note that you can also optionally install [ASP.NET MVC3](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3) and [ASP.NET Web Pages](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=Plan9), which gives you the ability to host applications written in the new "Razor" syntax of ASP.NET. However, note that the binaries required for these kinds of applications are **automatically published** by WebMatrix. That is, each end user who publishes applications of this type will automatically end up with the required binaries in a */bin/* folder within their site root directory, so it is not really necessary to install them centrally.  
   
- In fact, we actually recommend that you do **not** install anything except **MVC 1**.  
+  In fact, we actually recommend that you do **not** install anything except **MVC 1**.  
   
- Also, note that this ASP.NET Web Pages is not a final release of the product. If you choose to install ASP.NET Web Pages, you will need to re-install it when future versions are released.
+  Also, note that this ASP.NET Web Pages is not a final release of the product. If you choose to install ASP.NET Web Pages, you will need to re-install it when future versions are released.
 
 
 #### IIS Modules
@@ -137,9 +137,9 @@ Here is the full list of which components are installed by those links, so you c
 
 - [Required] Microsoft SQL Server 2008  
   
- WebPI supports installing [Microsoft SQL Server 2008 Express edition](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=SqlExpress), but we do not recommend this product in shared hosting environments. (You should use the full version instead.)
+  WebPI supports installing [Microsoft SQL Server 2008 Express edition](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=SqlExpress), but we do not recommend this product in shared hosting environments. (You should use the full version instead.)
 - [Optional] [PHP Driver for SQL Server](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=SQLDriverPHP)  
- We highly recommended installing this component on your **database server** if you are supporting PHP.
+  We highly recommended installing this component on your **database server** if you are supporting PHP.
 
 ### MySQL
 

@@ -61,8 +61,8 @@ static initonly DependencyProperty^ SmoothStreamingSourceProperty
 
 Use this member to assign a Smooth Streaming source. For other media data that is not in Smooth Streaming format, use the Source class.
 
-> [!NOTE]  
-> <p>Do not set [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) to a URI that contains a query, such as http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.</p>
+> [!NOTE]
+> <p>Do not set <a href="smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md)">SmoothStreamingSource</a> to a URI that contains a query, such as <a href="http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1" data-raw-source="http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1">http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1</a>.</p>
 > <p>If a query is set and the config.xml file includes ResponseCacheEnabled=&quot;true&quot; instead of ResponseCacheEnabled=&quot;false&quot;, the entire URI (including the query) could be persisted in ResponseCache.</p>
 
 ## Version Information

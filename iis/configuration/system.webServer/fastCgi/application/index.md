@@ -201,7 +201,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
    - Enter "10000" for the **Value**.
   
-    [![](index/_static/image28.png)](index/_static/image27.png)
+     [![](index/_static/image28.png)](index/_static/image27.png)
 
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
@@ -250,7 +250,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
    - Enter "10000" for the **Value**.
   
-    [![](index/_static/image38.png)](index/_static/image37.png)
+     [![](index/_static/image38.png)](index/_static/image37.png)
 
 8. Click **OK** to close the **Add FastCGI Application** dialog box.
 

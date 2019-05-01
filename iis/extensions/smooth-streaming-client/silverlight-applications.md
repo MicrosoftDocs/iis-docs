@@ -18,8 +18,8 @@ To get a Smooth Streaming client application running, turn on Internet Informati
 
 For basic information about installing Silverlight and the Microsoft Web Platform, see [Get Started with Silverlight](https://go.microsoft.com/fwlink/?linkid=181839). You can create Smooth Streaming content with [Expression Encoder®](https://go.microsoft.com/fwlink/?linkid=230685) or other tools that are provided by [Smooth Streaming Partners](https://go.microsoft.com/fwlink/?linkid=230686).
 
-> [!NOTE]  
-> <p>Setting up the development environment for a Smooth Streaming client requires attention to the domain requirements of Silverlight applications. A Silverlight application that uses Smooth Streaming media data will not run on the Visual Studio ASP.NET development server without cross-domain configuration. (For information about running cross-domain applications, see [HTTP Communication and Security with Silverlight](https://go.microsoft.com/fwlink/?linkid=181829) and [Test and Debug Applications](test-and-debug-applications.md). The example in the current topic does not require cross-domain configuration unless you have to run the sample with the ASP.NET development server.</p>
+> [!NOTE]
+> <p>Setting up the development environment for a Smooth Streaming client requires attention to the domain requirements of Silverlight applications. A Silverlight application that uses Smooth Streaming media data will not run on the Visual Studio ASP.NET development server without cross-domain configuration. (For information about running cross-domain applications, see <a href="https://go.microsoft.com/fwlink/?linkid=181829" data-raw-source="[HTTP Communication and Security with Silverlight](https://go.microsoft.com/fwlink/?linkid=181829)">HTTP Communication and Security with Silverlight</a> and <a href="test-and-debug-applications.md" data-raw-source="[Test and Debug Applications](test-and-debug-applications.md)">Test and Debug Applications</a>. The example in the current topic does not require cross-domain configuration unless you have to run the sample with the ASP.NET development server.</p>
 
 ## Project Workspace
 

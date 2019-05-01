@@ -78,11 +78,11 @@ State Transition Matrix
 |ClipPlaying. (See note following table.)|ClipPlaying. If the clip was paused, it resumes.|ClipPlaying. If the clip was playing, it is paused.|ClipPlaying. An [InvalidOperationException](https://msdn.microsoft.com/library/2asft85a(v=vs.95)) error is thrown.|Stopped. All actions are stopped.|ClipPlaying. An [InvalidOperationException](https://msdn.microsoft.com/library/2asft85a(v=vs.95)) error is thrown.|Closed.|ClipPlaying. The track should be changed on the main video, but not on the clip.|ClipPlaying. The clip must play as scheduled. The clip starts in Playing state. The most recently started clip takes precedence, and any other clip is stopped and unscheduled.|
 
 
-> [!NOTE]  
-> <p>The ClipPlaying state is used only to determine when a clip is in the active window. There are other states associated with the clip. Applications can use [ClipStateChanged](smoothstreamingmediaelement-clipstatechanged-event-microsoft-web-media-smoothstreaming_1.md) and [CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md) to get these states.</p>
-
-> [!NOTE]  
-> <p>The player state does not change to [Stopped](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) when the manifest/license manager URL is invalid. Instead, the clip remains in [Opening](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) state.</p>
+> [!NOTE]
+> <p>The ClipPlaying state is used only to determine when a clip is in the active window. There are other states associated with the clip. Applications can use <a href="smoothstreamingmediaelement-clipstatechanged-event-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[ClipStateChanged](smoothstreamingmediaelement-clipstatechanged-event-microsoft-web-media-smoothstreaming_1.md)">ClipStateChanged</a> and <a href="clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md)">CurrentClipState</a> to get these states.</p>
+> 
+> [!NOTE]
+> <p>The player state does not change to <a href="smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[Stopped](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)">Stopped</a> when the manifest/license manager URL is invalid. Instead, the clip remains in <a href="smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[Opening](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)">Opening</a> state.</p>
 
 ## See Also
 

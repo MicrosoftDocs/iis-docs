@@ -29,13 +29,13 @@ To use the template follow these steps:
     [![](request-blocking-rule-template/_static/image9.png)](request-blocking-rule-template/_static/image8.png)
 6. In the "Add request blocking rule" dialog choose to: 
 
-    - Block access based on host header;
-    - Block requests that do not match the pattern;
-    - Specify **localhost** as a pattern, meaning that any request with host header not equal to localhost will be blocked;
-    - Use wildcards pattern syntax;
-    - Block request by aborting the request connection.
+   - Block access based on host header;
+   - Block requests that do not match the pattern;
+   - Specify **localhost** as a pattern, meaning that any request with host header not equal to localhost will be blocked;
+   - Use wildcards pattern syntax;
+   - Block request by aborting the request connection.
 
-    [![](request-blocking-rule-template/_static/image12.png)](request-blocking-rule-template/_static/image11.png)
+     [![](request-blocking-rule-template/_static/image12.png)](request-blocking-rule-template/_static/image11.png)
 7. Click "OK" to create the rule.
 
 ### Testing the rule

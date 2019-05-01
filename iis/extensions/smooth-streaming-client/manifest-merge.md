@@ -12,8 +12,8 @@ mtps_version: v=VS.95
 
 The [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event provides an option to add information to the client manifest that is used by a Smooth Streaming application. The data obtained by this process becomes an integral part of the client manifest and is available for use as defined by the application. The [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event occurs before the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event and supports methods that obtain and merge information from other sources. This is useful for situations in which the manifest is inaccessible for editing or if some information depends on locale, style, or other factors that would make the manifest too large or too slow to load if all the options were included.
 
-> [!NOTE]  
-> <p>The examples in this topic extend features demonstrated in other topics in [Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md).</p>
+> [!NOTE]
+> <p>The examples in this topic extend features demonstrated in other topics in <a href="microsoft-smooth-streaming-client-2-0.md" data-raw-source="[Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md)">Microsoft Smooth Streaming Client 2.0</a>.</p>
 
 ## ManifestMerge
 
@@ -301,8 +301,8 @@ After the following code runs, the markers will raise the [MarkerReached](smooth
     }
 ```
 
-> [!NOTE]  
-> <p>Applications should parse the manifest for markers during the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event, but not earlier. Specifically, applications should not parse the manifest during the [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event, because all markers set before [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) are erased in Silverlight during [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md).</p>
+> [!NOTE]
+> <p>Applications should parse the manifest for markers during the <a href="smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md)">MediaOpened</a> event, but not earlier. Specifically, applications should not parse the manifest during the <a href="smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md)">ManifestReady</a> event, because all markers set before <a href="smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md)">MediaOpened</a> are erased in Silverlight during <a href="smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md)">MediaOpened</a>.</p>
 
 For more information, see [Timeline Markers and Events](timeline-markers-and-events.md).
 

@@ -86,8 +86,8 @@ This is a generic event handler that specifies the type [SeekCompletedEventArgs]
   }
 ```
 
-> [!NOTE]  
-> <p>The topic [Timeline Markers and Events](timeline-markers-and-events.md) shows how to define [Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/library/ee532619(v=vs.95)) markers in media streams and how to handle the events they generate.</p>
+> [!NOTE]
+> <p>The topic <a href="timeline-markers-and-events.md" data-raw-source="[Timeline Markers and Events](timeline-markers-and-events.md)">Timeline Markers and Events</a> shows how to define <a href="https://msdn.microsoft.com/library/ee532619(v=vs.95)" data-raw-source="[Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/library/ee532619(v=vs.95))">Microsoft.Web.Media.SmoothStreaming.TimelineEvent</a> markers in media streams and how to handle the events they generate.</p>
 
 You can extend event functionality in many ways. For longer media streams, it may be preferable to use a slider bar instead of the seek button shown in the previous example. For an implementation of the slider bar, see [Position in Stream](position-in-stream.md).
 

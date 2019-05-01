@@ -87,17 +87,17 @@ In the [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-
     *Figure 3. Open the Add Playlist Provider dialog box*
 4. In the **Add Playlist Provider** dialog box, fill in the following details. Click **OK** when you are done. (Ref. Figure 4, 5)  
 
-    - **Provider name**. Enter a friendly name for the provider. It is only used to identify the provider in the Playlist providers page.
-    - **Description**. Enter a description for the provider. You could use this field to briefly describe what the provider does. It is only used by the administrator to help identify the provider.
-    - **Program ID**. Enter the COM ProgID that is used in the provider code. It is used to detect and load the provider at runtime.
-    - **File extension**. Enter the file name extension that will be used for playlists that the provider will work with. The Playlists feature already handles Web playlists (file with .isx file name extensions). This field adds the handler mapping to the IIS config so that the Playlists feature can handle requests for this extension.
-    - **File-based handler** (optional). As explained previously, this is an optional field. If your provider stores the playlist in a file, checking this option allows the IIS pipeline provide the needed file details and a stream to access file contents.
-    - **Bitness** (64-bit systems only). Select whether the provider works as 32-bit through WOW layer, 64-bit, or both. The relevant configuration entries are added to the IIS config to handle the requests.
+   - **Provider name**. Enter a friendly name for the provider. It is only used to identify the provider in the Playlist providers page.
+   - **Description**. Enter a description for the provider. You could use this field to briefly describe what the provider does. It is only used by the administrator to help identify the provider.
+   - **Program ID**. Enter the COM ProgID that is used in the provider code. It is used to detect and load the provider at runtime.
+   - **File extension**. Enter the file name extension that will be used for playlists that the provider will work with. The Playlists feature already handles Web playlists (file with .isx file name extensions). This field adds the handler mapping to the IIS config so that the Playlists feature can handle requests for this extension.
+   - **File-based handler** (optional). As explained previously, this is an optional field. If your provider stores the playlist in a file, checking this option allows the IIS pipeline provide the needed file details and a stream to access file contents.
+   - **Bitness** (64-bit systems only). Select whether the provider works as 32-bit through WOW layer, 64-bit, or both. The relevant configuration entries are added to the IIS config to handle the requests.
 
-    ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image7.jpg)  
-    *Figure 4. Add Playlist Provider dialog box*  
-    ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image9.jpg)  
-    *Figure 5. Bitness options for custom provider configuration*
+     ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image7.jpg)  
+     *Figure 4. Add Playlist Provider dialog box*  
+     ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image9.jpg)  
+     *Figure 5. Bitness options for custom provider configuration*
 
 <a id="Register"></a>
 

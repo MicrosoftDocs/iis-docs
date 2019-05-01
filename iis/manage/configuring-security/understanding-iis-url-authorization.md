@@ -137,13 +137,13 @@ The IIS URL Authorization module evaluates deny rules first. Because you deny ac
 
 ### Differences table
 
-| Difference | ASP.NET URL Authorization Behavior | IIS URL Authorization Behavior |
-| --- | --- | --- |
-| **Rule evaluation** | Order: a) Lower level first going up to the parent b) Order of appearance in rule collection | Order: a) Deny rules get evaluated first starting at the parent b) Allow rules starting at the parent. c) Order of appearance in rule collection |
-| **IIS****User Interface** | No IIS User Interface | "Authorization Rules" User Interface |
-| **Configuration section** | system.web/authorization | system.webServer/security/authorization |
-| **Module** | System.Web.Security.UrlAuthorization | `%windir%\system32\inetsrv\urlauthz.dll` |
-| **Content** | Applies only to content that is mapped to a managed handler (can be turned off via managedHandler precondition) | Applies to all content |
+|               Difference               |                                       ASP.NET URL Authorization Behavior                                        |                                                          IIS URL Authorization Behavior                                                          |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|          **Rule evaluation**           |          Order: a) Lower level first going up to the parent b) Order of appearance in rule collection           | Order: a) Deny rules get evaluated first starting at the parent b) Allow rules starting at the parent. c) Order of appearance in rule collection |
+| **IIS**<strong>User Interface</strong> |                                              No IIS User Interface                                              |                                                       "Authorization Rules" User Interface                                                       |
+|       **Configuration section**        |                                            system.web/authorization                                             |                                                     system.webServer/security/authorization                                                      |
+|               **Module**               |                                      System.Web.Security.UrlAuthorization                                       |                                                     `%windir%\system32\inetsrv\urlauthz.dll`                                                     |
+|              **Content**               | Applies only to content that is mapped to a managed handler (can be turned off via managedHandler precondition) |                                                              Applies to all content                                                              |
 
 ## Using Domain Accounts and Groups
 

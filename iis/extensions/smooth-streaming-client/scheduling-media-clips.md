@@ -79,8 +79,8 @@ The following implementation of ClipClickThrough shows how to open a new browser
 
 The marker-reached event is one method of scheduling clips. Other applications might use sparse tracks or polling for live ad insertions. For more information, see [Manifest Merge](manifest-merge.md).
 
-> [!NOTE]  
-> <p>Smooth Streaming clips scheduled by using [ScheduleClip](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md) methods require manifests that start at the zero time stamp.</p>
+> [!NOTE]
+> <p>Smooth Streaming clips scheduled by using <a href="smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md" data-raw-source="[ScheduleClip](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md)">ScheduleClip</a> methods require manifests that start at the zero time stamp.</p>
 
 ## Scheduling a Pre-Roll Scenario
 

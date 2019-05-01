@@ -47,15 +47,15 @@ This walkthrough assumes that the server farm has already been created. If not, 
 **To configure a query string support to "Ignore query string" using the UI:** 
 
 1. Launch IIS Manager. - The query string support configuration for ARR is done at the server farm level. Select the server farm in the navigation tree view.
-- Select **Server Farms**. - Select the server farm that you created. - The following icons are shown: 
+2. Select **Server Farms**. - Select the server farm that you created. - The following icons are shown: 
 
-    [![](configure-caching-with-query-string-support-in-application-request-routing/_static/image3.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image2.jpg)
-- Double-click **Caching**.
+     [![](configure-caching-with-query-string-support-in-application-request-routing/_static/image3.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image2.jpg)
+3. Double-click **Caching**.
 
-	[![](configure-caching-with-query-string-support-in-application-request-routing/_static/image5.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
+     [![](configure-caching-with-query-string-support-in-application-request-routing/_static/image5.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
 
 
-7. Verify that **Query String Support** drop down is set to **Ignore query string**. This is the default setting.
+4. Verify that **Query String Support** drop down is set to **Ignore query string**. This is the default setting.
 
 **Verify Functionality:** 
 

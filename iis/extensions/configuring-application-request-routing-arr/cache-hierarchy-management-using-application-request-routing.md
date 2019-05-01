@@ -17,7 +17,7 @@ This section of the documentation applies to **Microsoft Application Request Rou
 
 To successfully explain and configure Application Request Routing (ARR) as an edge cache node using the Cache Array Routing Protocol (CARP).
 
-ARR Version 2 extends the concept of **[server group](define-and-configure-an-application-request-routing-server-farm.md)**that was introduced in ARR Version 1 to define the relationship between the cache nodes. A server group is a logical grouping of one or more member servers. In ARR Version 1, the member servers in the server farm are treated as application servers where ARR can forward the incoming requests. In ARR Version 2, the same concept is used to group the next "tier" of cache nodes where the requests should be routed to when there is a cache miss.
+ARR Version 2 extends the concept of <strong>[server group](define-and-configure-an-application-request-routing-server-farm.md)</strong>that was introduced in ARR Version 1 to define the relationship between the cache nodes. A server group is a logical grouping of one or more member servers. In ARR Version 1, the member servers in the server farm are treated as application servers where ARR can forward the incoming requests. In ARR Version 2, the same concept is used to group the next "tier" of cache nodes where the requests should be routed to when there is a cache miss.
 
 The illustration below shows how the server group (farm) is used to specify the parent cache nodes from the child (edge) cache node perspective:
 

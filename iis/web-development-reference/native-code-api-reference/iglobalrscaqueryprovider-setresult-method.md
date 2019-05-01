@@ -10,8 +10,8 @@ Finalizes the internal buffer.
   
 ```cpp  
 virtual VOID SetResult(  
-   DWORD cbData,  
-   HRESULT hr  
+   DWORD cbData,  
+   HRESULT hr  
 ) = 0;  
 ```  
   
@@ -27,11 +27,11 @@ virtual VOID SetResult(
   
  `SetResult` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The `IGlobalRSCAQueryProvider` implementer declares `private` member variables for the size of an internal buffer, an `HRESULT` that indicates whether the buffer is valid, and a Boolean flag that indicates whether `SetResult` has been called. The default values at construction of the implementer are 0, E_NOTIMPL, and `false`, respectively.  
+- The `IGlobalRSCAQueryProvider` implementer declares `private` member variables for the size of an internal buffer, an `HRESULT` that indicates whether the buffer is valid, and a Boolean flag that indicates whether `SetResult` has been called. The default values at construction of the implementer are 0, E_NOTIMPL, and `false`, respectively.  
   
--   After you call the [GetOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md) or [ResizeOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-resizeoutputbuffer-method.md) method, call `SetResult` to validate or invalidate the internal buffer by passing the size of the buffer, in bytes, and an `HRESULT` value that indicates whether the buffer is valid.  
+- After you call the [GetOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md) or [ResizeOutputBuffer](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-resizeoutputbuffer-method.md) method, call `SetResult` to validate or invalidate the internal buffer by passing the size of the buffer, in bytes, and an `HRESULT` value that indicates whether the buffer is valid.  
   
- **Important** This method is part of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] infrastructure and is not intended to be used directly from your code.  
+  **Important** This method is part of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] infrastructure and is not intended to be used directly from your code.  
   
 ## Requirements  
   

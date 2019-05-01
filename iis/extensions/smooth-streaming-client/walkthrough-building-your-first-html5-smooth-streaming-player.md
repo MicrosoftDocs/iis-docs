@@ -94,18 +94,18 @@ Finally, use standard Visual Studio tools to compile and run the application. Yo
 
 ### To compile and run the Application
 
-1.  On the **Build** menu, select **Configuration Manager**.
+1. On the **Build** menu, select **Configuration Manager**.
 
-2.  In the **Configuration Manager** dialog box, in the **Active solution platform** dropdown list, select the specific target platform (ARM, x64, or x86).
+2. In the **Configuration Manager** dialog box, in the **Active solution platform** dropdown list, select the specific target platform (ARM, x64, or x86).
     
-    > [!NOTE]  
-	> <p>Choosing the **Any CPU** option will cause the following the following compilation errors to be displayed in the **Error List** in Visual Studio:</p>
-    > <p>1 The processor architecture of the project being built &quot;Any CPU&quot; is not supported by the referenced SDK &quot;Microsoft.Media.AdaptiveStreamingClient, Version=1.0&quot;. Please consider changing the targeted processor architecture of your project (in visual studio this can be done through the Configuration Manager) to one of the architectures supported by the SDK: &quot;x86, x64, ARM&quot;.</p>
-    > <p>2 The processor architecture of the project being built &quot;Any CPU&quot; is not supported by the referenced SDK &quot;Microsoft.VCLibs, Version=11.0&quot;. Please consider changing the targeted processor architecture of your project (in visual studio this can be done through the Configuration Manager) to one of the architectures supported by the SDK: &quot;x86, x64, ARM&quot;.</p>
+   > [!NOTE]
+   > <p>Choosing the <strong>Any CPU</strong> option will cause the following the following compilation errors to be displayed in the <strong>Error List</strong> in Visual Studio:</p>
+   > <p>1 The processor architecture of the project being built &quot;Any CPU&quot; is not supported by the referenced SDK &quot;Microsoft.Media.AdaptiveStreamingClient, Version=1.0&quot;. Please consider changing the targeted processor architecture of your project (in visual studio this can be done through the Configuration Manager) to one of the architectures supported by the SDK: &quot;x86, x64, ARM&quot;.</p>
+   > <p>2 The processor architecture of the project being built &quot;Any CPU&quot; is not supported by the referenced SDK &quot;Microsoft.VCLibs, Version=11.0&quot;. Please consider changing the targeted processor architecture of your project (in visual studio this can be done through the Configuration Manager) to one of the architectures supported by the SDK: &quot;x86, x64, ARM&quot;.</p>
 
-3.  On the Build menu, select **Build Solution**.
+3. On the Build menu, select **Build Solution**.
 
-4.  Press **F5** to run the application.
+4. Press **F5** to run the application.
 
 ## Summary
 

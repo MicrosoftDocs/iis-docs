@@ -91,10 +91,13 @@ This section describes the known issues for IIS Transform Manager 1.0.
 
 - **Job templates and watch folders from a previous version of Transform Manager might not work or might be missing**. If you used an older version of Transform Manager, and then install the RTW version on the same computer, some job templates and watch folders might not work or might not be displayed in IIS Manager. This issue occurs for certain job templates that use tasks with assembly names that have changed in the RTW version. You can create new job templates that use the same settings as the old ones, or update the task assembly names in the **taskCode** property in the definition files for the affected tasks, which are located in `%SystemDrive%\ProgramData\Microsoft\IIS\Transform Manager\Configuration\Task Definitions`. 
 
-    | Task Name | Old Assembly Name | New Assembly Name |
-    | --- | --- | --- |
-    | Expression Encoder 4 | Microsoft.Web.Media.TransformManager.EETask | Microsoft.Web.Media.TransformManager.EE40SP2Task |
-    | Smooth Streams to Apple HTTP Live Streams | Microsoft.Web.Media.TransformManager.Fmp42tsTask | Microsoft.Web.Media.TransformManager.SmoothToHLS |
+
+  |                 Task Name                 |                Old Assembly Name                 |                New Assembly Name                 |
+  |-------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+  |           Expression Encoder 4            |   Microsoft.Web.Media.TransformManager.EETask    | Microsoft.Web.Media.TransformManager.EE40SP2Task |
+  | Smooth Streams to Apple HTTP Live Streams | Microsoft.Web.Media.TransformManager.Fmp42tsTask | Microsoft.Web.Media.TransformManager.SmoothToHLS |
+
+
 - **Starting the Transform Manager service**. You must configure credentials for the Transform Manager service and start the service in IIS Manager so that permissions to resources for the user account that the Transform Manager service impersonates are configured correctly. Unexpected results can occur if you start the IIS Transform Manager Host service in the Services console, and then try to configure Transform Manager workflows in IIS Manager. For more information about how to create credentials for the Transform Manager service in IIS Manager, see [Configuring the Transform Manager Service](https://go.microsoft.com/?linkid=9770518).
 - **Resetting the password for the Transform Manager service account**. If you reset the password for the user account that the Transform Manager service uses to log on, the user account will be removed from the credential store for the account and you won't be able to start the Transform Manager service after the user logs off. For more information about how to update the password of the user account for the IIS Transform Manager Host service, see [Configuring the Transform Manager Service](https://go.microsoft.com/?linkid=9770518).
 - **Resetting the password for a watch folder impersonation account**. If you reset the password for the user account that the watch folder impersonates, the user account will be removed from the credential store for the account and you won't be able to start the watch folder. For more information about how to update the password of the user account that the watch folder impersonates, see [Creating Watch Folder Impersonation Accounts](https://go.microsoft.com/?linkid=9801075).
@@ -117,7 +120,7 @@ This section describes the known issues for IIS Transform Manager 1.0.
     - Reduce the **Concurrent jobs** value for the watch folder so that fewer jobs run simultaneously.
     - Set **Priority** values for all of your configured watch folders. Low-priority watch folders must wait for all jobs to finish in high-priority watch folders before their jobs can start.
 
- For more information about how to adjust these settings, see [Configuring Watch Folders](https://go.microsoft.com/?linkid=9735221). 
+  For more information about how to adjust these settings, see [Configuring Watch Folders](https://go.microsoft.com/?linkid=9735221). 
 
     > [!NOTE]
     >  
@@ -127,8 +130,8 @@ This section describes the known issues for IIS Transform Manager 1.0.
 - **Running the Command Line task**. If you edit the default **Command Line** task in Transform Manager to run an executable program file, you must wrap the path to the executable program file name and the file-name extension in the command-line string in quotation marks if the path or file name contains spaces. For example, for an executable program file that is named My Program.exe, in the **Command line and arguments** box for the task, enter: `%DirectoryPath%\My Program.exe`.
 - **Running the Maintenance command**. On a watch folder's **Maintenance** tab, you can use a Windows PowerShell cmdlet, an executable program file (.exe), a Windows command file (.cmd), or a batch file (.bat) that performs custom file maintenance actions. The file path that you enter in **Maintenance command** must also be wrapped in quotation marks if the path or file name contains spaces. For more information about how to configure Transform Manager to delete job and logs files from the computer when they're no longer needed, see [Running File Maintenance](https://go.microsoft.com/?linkid=9801074).
 - **Running the Command Line task on a network**. If you use the **Command Line** task to run an executable program file that is stored on a shared network, and you're using the local Task Scheduler to run jobs, the watch folder user account must have full permissions to the network share so that the task will run.  
-  
- If you use the **Command Line** task to run an executable program file that is stored on a shared network, and you're using the HPC Task Scheduler to run jobs, the task might fail. If this occurs, copy the executable program file to the compute nodes in the HPC cluster, and then update the **Command line and arguments** value for the task to run the executable program file locally.
+
+  If you use the **Command Line** task to run an executable program file that is stored on a shared network, and you're using the HPC Task Scheduler to run jobs, the task might fail. If this occurs, copy the executable program file to the compute nodes in the HPC cluster, and then update the **Command line and arguments** value for the task to run the executable program file locally.
 - **Chaining tasks**. When adding multiple tasks to a job template, where the input from one task depends upon the output of another task, make sure that they're displayed in the order that they should be performed in the job template's **Task definition** list. For example, a task that transcodes media files should be listed above a task that copies the transcoded media files to a Web root folder. For more information about adding tasks to job templates, see [Adding Tasks](https://go.microsoft.com/?linkid=9735222).
 - **Chaining the MP4 to Smooth Streams default task**. The **MP4 to Smooth Streams** task in Transform Manager can't be used to get the output of any task that precedes it in a task-chaining workflow.
 - **Adding multiple instances of a task to a job template**. If you want to add multiple instances of the same task to a job template, you must close and then re-open the job template property sheet to add each subsequent task instance. For example, if you want to add two instances of the default **Robocopy** task to a job template, do the following: 
@@ -146,26 +149,26 @@ This section describes the known issues for IIS Transform Manager 1.0.
     3. In the **Watch Folders** page, select the watch folder that you just created, and then in the **Actions** pane, click **Enable**.
     4. In the **Connections** pane, click **Transform Manager**, and then in the **Actions** pane, click **Stop Transform Manager Service**.
     5. In the **Actions** pane, click **Start Transform Manager Service**.
-  
- The watch folder will automatically start after you restart the Transform Manager Service and permissions for the watch folder's user account will be applied to the watch folder directory on the network.
+
+  The watch folder will automatically start after you restart the Transform Manager Service and permissions for the watch folder's user account will be applied to the watch folder directory on the network.
 - **Performance bottleneck for watch folders on a network**. If you specify the UNC path of a network share to use as a watch folder, and encounter performance bottlenecks or timeout errors due to excessive reads from the network-attached storage (NAS), you can add a **workFolder** property to the watch folder XML configuration file (job definition file). This property defines a location on local computers, including the compute nodes in an HPC cluster, to which media assets are copied and processed, before they're returned to the watch folder's Finished folder on the network. To set up a local work folder and update the watch folder's job definition file to work with it, do the following:  
 
-    1. Stop the watch folder if it's started.
-    2. Create a folder on each local Transform Manager computer (or on each HPC compute node if you've integrated Transform Manager with an HPC cluster). This folder will be the local work folder and should be created in the same location on all of the computers. For example: `C:\%WorkFolderPath%`.
-    3. Ensure that the watch folder impersonation account has Full Control permissions on the local work folder.
-    4. Add the **workFolder** property to the configuration XML file for the watch folder's job definition. For example: `<workFolder>C:\%WorkFolderPath%</wFolder>`
-    5. Start the watch folder.
+  1. Stop the watch folder if it's started.
+  2. Create a folder on each local Transform Manager computer (or on each HPC compute node if you've integrated Transform Manager with an HPC cluster). This folder will be the local work folder and should be created in the same location on all of the computers. For example: `C:\%WorkFolderPath%`.
+  3. Ensure that the watch folder impersonation account has Full Control permissions on the local work folder.
+  4. Add the **workFolder** property to the configuration XML file for the watch folder's job definition. For example: `<workFolder>C:\%WorkFolderPath%</wFolder>`
+  5. Start the watch folder.
 
-    > [!NOTE]
-    > 
-    >  The watch folder XML configuration files are located in `%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Job Definitions`. You might need to turn on the **Folder views** option in Windows that shows hidden files, folders, and drives in order to view them.
+     > [!NOTE]
+     > 
+     >  The watch folder XML configuration files are located in `%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Job Definitions`. You might need to turn on the **Folder views** option in Windows that shows hidden files, folders, and drives in order to view them.
 - **Specifying the watch folder root path**. When you configure watch folder settings, you can specify a watch folder location on the local Web server or on a network share in the **Watch folder path** list. Be aware of the following when specifying this value: 
 
     - You must use a unique root path for each watch folder. Different watch folders that have the same physical path won't start.
     - Mapped drives to watch folders on a network aren't supported.
     - If you specify a root path on the local Web server, computation-intensive tasks, such as transcoding, that consume a large amount of memory and CPU resources might affect Web server performance. You shouldn't run Transform Manager on the local Web server if you plan to run computation-intensive tasks and also use the Web server in a production environment to fulfill HTTP requests.
 
- For more information about how to configure watch folder settings, see [Configuring Watch Folders](https://go.microsoft.com/?linkid=9735221).
+  For more information about how to configure watch folder settings, see [Configuring Watch Folders](https://go.microsoft.com/?linkid=9735221).
 - **Dropping playlist and manifest files in watch folders**. If you specified a playlist file name extension in the watch folder's **File filter** setting, you shouldn't simultaneously drop multiple playlist files in the watch folder that reference the same media files. The watch folder's job manager will schedule jobs for media files that are referenced in one playlist, and when all of the media files that are referenced in the playlist are present, move the playlist file and media assets as a group to the watch folder's WorkQueue directory. Another playlist that references the same media files then can't be processed because the media files have been removed from the watch folder with the previous playlist. To schedule jobs for this playlist, you must drop the missing media files into the watch folder again.
 - **Performance degradation for large number of finished jobs**. If computer performance declines, or jobs take longer to finish, when a large number of finished jobs accumulate in a watch folder's Finished folder, you should configure the maintenance options in Transform Manager to retain these files for a shorter period of time so that they don't clutter the disk. For more information about how to configure Transform Manager to delete finished job files after a specified retention period, see [Running File Maintenance.](https://go.microsoft.com/?linkid=9801074)
 - **Event IDs**. In previous releases of Transform Manager, error-level events were logged in Windows Event Viewer using the same event ID (3001). In IIS Transform Manager RTW, error-level events are now logged in Event Viewer with [unique event IDs](https://go.microsoft.com/?linkid=9801582).

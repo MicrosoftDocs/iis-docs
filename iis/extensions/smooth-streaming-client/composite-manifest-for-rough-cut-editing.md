@@ -20,8 +20,8 @@ The composite manifest contains StreamIndex segments from client manifest .ismc 
 
 When the Smooth Streaming Media Element uses a composite manifest as its source, it plays the video/audio content as a single stream. The user can fast forward or rewind across all the segments and seek to any points in the stream. Timeline markers can be added to include other information in the stream.
 
-> [!NOTE]  
-> <p>The examples in this topic extend features that are demonstrated in the topic [Silverlight Applications](silverlight-applications.md). For more information, see all topics under [Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md).</p>
+> [!NOTE]
+> <p>The examples in this topic extend features that are demonstrated in the topic <a href="silverlight-applications.md" data-raw-source="[Silverlight Applications](silverlight-applications.md)">Silverlight Applications</a>. For more information, see all topics under <a href="microsoft-smooth-streaming-client-2-0.md" data-raw-source="[Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md)">Microsoft Smooth Streaming Client 2.0</a>.</p>
 
 ## Composite Manifest Structure
 

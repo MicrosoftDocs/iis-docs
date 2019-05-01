@@ -80,7 +80,7 @@ The secondary disk cache location is an optional configuration. As noted above, 
 2. In the **Add Secondary Drive** dialog box, define the **Drive location**.
 
     [![](configure-and-enable-disk-cache-in-application-request-routing/_static/image14.jpg)](configure-and-enable-disk-cache-in-application-request-routing/_static/image13.jpg)
-3. Enter the appropriate value, and then click **OK** to save the changes. For the purposes of this walkthrough, **\\wonyoo-w2k8-3\SAN\** is used as the secondary cache drive location.
+3. Enter the appropriate value, and then click **OK** to save the changes. For the purposes of this walkthrough, **\\wonyoo-w2k8-3\SAN\\** is used as the secondary cache drive location.
 
     [![](configure-and-enable-disk-cache-in-application-request-routing/_static/image16.jpg)](configure-and-enable-disk-cache-in-application-request-routing/_static/image15.jpg)
 
@@ -119,7 +119,7 @@ Make a few requests that will get cached in ARR.
 ## Step 5 - Verify the cache functionality using IIS Manager.
 
 1. Navigate to Application Request Routing UI at the server level in IIS Manager. - Click on Browse cache content in the actions pane on the right. - Verify that responses are cached on the primary cache drive.
-- Verify that the contents also exist on the secondary cache drive location.
+2. Verify that the contents also exist on the secondary cache drive location.
 
 In addition to verifying the disk cache functionality on the file system, ARR provides a graphical dashboard view of the cache performance.
 

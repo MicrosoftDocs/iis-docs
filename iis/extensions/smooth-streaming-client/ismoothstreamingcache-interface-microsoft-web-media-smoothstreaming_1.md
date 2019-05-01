@@ -92,8 +92,8 @@ The following example assigns the cache plug-in when the media element loads.
     }
 ```
 
-> [!CAUTION]  
-> <p>Do not set SSME.SmoothStreamingSource to a Uri that contains a query, such as http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.If this query is set and config.xml includes ResponseCacheEnabled=&quot;true&quot; instead of ResponseCacheEnabled=&quot;false&quot;, the whole Uri including the query could be persisted in the response cache.</p>
+> [!CAUTION]
+> <p>Do not set SSME.SmoothStreamingSource to a Uri that contains a query, such as <a href="http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.If" data-raw-source="http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.If">http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.If</a> this query is set and config.xml includes ResponseCacheEnabled=&quot;true&quot; instead of ResponseCacheEnabled=&quot;false&quot;, the whole Uri including the query could be persisted in the response cache.</p>
 
 ## Version Information
 

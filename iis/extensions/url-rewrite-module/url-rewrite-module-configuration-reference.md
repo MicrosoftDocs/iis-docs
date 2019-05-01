@@ -89,7 +89,7 @@ For example, if a request was made for this URL: **[http://www.mysite.com/conten
 
 - The rule pattern gets the URL string **content/default.aspx** as an input.
 - The QUERY\_STRING server variable contains **tabid=2&amp;subtabid=3**.
-- The HTTP\_HOST server variable contains **www.mysite.com**.
+- The HTTP\_HOST server variable contains <strong>www.mysite.com</strong>.
 - The SERVER\_PORT server variable contains **80**.
 - The SERVER\_PORT\_SECURE server variable contains **0** and HTTPS contains **OFF**.
 - The REQUEST\_URI server variable contains **/content/default.aspx?tabid=2&amp;subtabid=3**.
@@ -284,7 +284,7 @@ For example, in this pattern:
 [!code-console[Main](url-rewrite-module-configuration-reference/samples/sample3.cmd)]
 
 
-For the string: **www.foo.com** the back-references will be indexed as follows:
+For the string: <strong>www.foo.com</strong> the back-references will be indexed as follows:
 
 
 [!code-json[Main](url-rewrite-module-configuration-reference/samples/sample4.json)]

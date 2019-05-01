@@ -15,7 +15,7 @@ Developers of applications have the ability to provide a link on their sites whi
 
 The link associated with the badge should be in this format mentioned below and will be available to use once the application is available in Web Platform Installer. Note the URL must include the Application ID that you entered when submitting the application to the Gallery
 
-Link : https://www.microsoft.com/web/gallery/install.aspx?appid=&lt;YourApplicationID&gt;
+Link : <https://www.microsoft.com/web/gallery/install.aspx?appid=&lt;YourApplicationID&gt>;
 
 Image URL: [https://www.microsoft.com/web/media/badge/install\_using\_webpi\_btn.png](https://www.microsoft.com/web/media/badge/install_using_webpi_btn.png)
 

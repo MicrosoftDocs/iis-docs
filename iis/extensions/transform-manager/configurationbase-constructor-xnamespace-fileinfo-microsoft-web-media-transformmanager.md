@@ -27,8 +27,8 @@ product_family_name: VS
 
 Initializes a new instance of the [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md) class using the specified namespace and file information.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 
@@ -90,9 +90,10 @@ ConfigurationBase(
 
 ## Exceptions
 
-|Exception|Condition|
-|--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|baseNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .
+|                              Exception                               |                                        Condition                                        |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [ArgumentNullException](https://msdn.microsoft.com/library/27426hcy) | baseNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) . |
+
 -or-
 fileInfo is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 

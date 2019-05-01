@@ -62,11 +62,11 @@ The `<handlers>` element is included in the default installation of IIS 7.
 4. On the **Actions** pane, click **Add Managed Handler...**
 5. In the **Add Managed Handler** dialog box, specify the following:
 
-    - **Request Path**. The file name or file name extension to map.
-    - **Type**. The type (class) name of the managed handler. If the handler is defined in the app\_code or bin folders of the application, its type name will appear in the drop-down list.
-    - **Name**. A descriptive name.
+   - **Request Path**. The file name or file name extension to map.
+   - **Type**. The type (class) name of the managed handler. If the handler is defined in the app\_code or bin folders of the application, its type name will appear in the drop-down list.
+   - **Name**. A descriptive name.
   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+     [![](index/_static/image4.png)](index/_static/image3.png)
 6. Click **OK** to close the **Add Managed Handler** dialog box.
 
 ### How to create a FastCGI handler mapping

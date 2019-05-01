@@ -271,7 +271,7 @@ These keys are in the iisConfigurationKey and iisWasKey key containers and are m
 1. Open a command-prompt. Navigate to the Framework directory, which is located in `%windir%\Microsoft.NET\Framework\v2.0.50727\` by default.
 
    > [!NOTE]
-   > For reference, the machine keys for the system are located in **%ALLUSERSPROFILE%\Microsoft\Crypto\RSA\MachineKeys\**
+   > For reference, the machine keys for the system are located in **%ALLUSERSPROFILE%\Microsoft\Crypto\RSA\MachineKeys\\**
 
 2. Use the aspnet\_regiis tool to export the key. The command to transfer the configuration key is stated below. The px switch identifies that you want to export an RSA key pair. The pri switch identifies that you also want to include both the private and public key.
 
