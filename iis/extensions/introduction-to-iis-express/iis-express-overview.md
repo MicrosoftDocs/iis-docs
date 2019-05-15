@@ -30,7 +30,7 @@ Use one of the following links to install IIS 7.5 Express using Web Platform Ins
 - [Install Microsoft WebMatrix](https://www.microsoft.com/web/gallery/install.aspx?appid=WebMatrix "Install Microsoft WebMatrix"). This will install IIS 7.5 Express as well.
 - [Install IIS 7.5 Express only](https://www.microsoft.com/web/gallery/install.aspx?appid=IISExpress "Install IIS 7.5 Express"). After clicking the link, save the executable to your hard drive and run it. Doing so will install IIS Express using the [Web Platform Installer](../../install/web-platform-installer/using-the-microsoft-web-platform-installer.md "Web Platform Installer").
 
-You an also install the IIS 7.5 Express MSI directly from the [Microsoft Download Center](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=abc59783-89de-4adc-b770-0a720bb21deb). If you choose this route, please make sure .NET 4.0 is installed on your machine, since that is a necessary prerequisite.
+You can also install the IIS 7.5 Express MSI directly from the [Microsoft Download Center](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=abc59783-89de-4adc-b770-0a720bb21deb). If you choose this route, please make sure .NET 4.0 is installed on your machine, since that is a necessary prerequisite.
 
 ## IIS Express and IIS
 
