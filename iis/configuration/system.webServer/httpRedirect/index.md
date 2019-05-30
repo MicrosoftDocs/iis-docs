@@ -129,7 +129,7 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
 
 | Attribute | Description |
 | --- | --- |
-| `childOnly` | Optional Boolean attribute. <br><br>Specifies whether the destination value should be added to the beginning of the file name that contains the request to be redirected. For example, if **childOnly** were set to true and the destination value were configured to be `http://marking.contoso.com/`, a request for `http://contoso.com/default.htm` would be redirected to `http://marketing.contoso.com/default.htm`. <br><br>The default value is `false`. |
+| `childOnly` | Optional Boolean attribute. <br><br>Specifies whether the destination value should be added to the beginning of the file name that contains the request to be redirected. For example, if **childOnly** were set to true and the destination value were configured to be `http://marketing.contoso.com/`, a request for `http://contoso.com/default.htm` would be redirected to `http://marketing.contoso.com/default.htm`. <br><br>The default value is `false`. |
 | `destination` | Optional string attribute. <br><br>Specifies a URL or virtual path to which to redirect the client. |
 | `enabled` | Optional Boolean attribute. <br><br>Specifies whether redirection is enabled (**true**) or disabled (**false**). <br><br>The default value is `false`. |
 | `exactDestination` | Optional Boolean attribute. <br><br>Specifies that the destination value should be considered an absolute target location, not a relative location. <br><br>The default value is `false`. |
