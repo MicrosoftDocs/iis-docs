@@ -19,7 +19,7 @@ The `<headerLimits>` element of the `<requestFiltering>` collection contains a c
 
 | HTTP Substatus | Description |
 | --- | --- |
-| `404.10` | Request Header Too Long |
+| `431` | Request Header Too Long |
 
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
  

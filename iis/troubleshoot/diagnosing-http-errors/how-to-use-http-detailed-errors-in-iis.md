@@ -105,12 +105,12 @@ Many HTTP errors have a sub-status. The IIS default Custom Errors configuration 
 | 404.7 | The Request Filtering module rejected the file extension of the request. |
 | 404.8 | The Request Filtering module rejected a particular URL segment (characters between two slashes). |
 | 404.9 | IIS rejected to serve a hidden file. |
-| 404.10 | The Request Filtering module rejected a header that was too long. |
 | 404.11 | The Request Filtering module rejected a request that was double escaped. |
 | 404.12 | The Request Filtering module rejected a request that contained high bit characters. |
-| 404.13 | The Request Filtering module rejected a request that was too long (request + entity body). |
 | 404.14 | The Request Filtering module rejected a request with a URL that was too long. |
 | 404.15 | The Request Filtering module rejected a request with a too long query string. |
+| 413.1 | The Request Filtering module rejected a request that was too long (request + entity body). |
+| 431 | The Request Filtering module rejected a header that was too long. |
 
 
 You can configure the httpErrors section to show a Custom Error for particular sub-status codes. If you add the following line to the httpErrors configuration section, IIS returns 404\_3.htm if a file with a file extension is requested that is not included in the IIS MimeMap (&lt;staticContent&gt; configuration section).
