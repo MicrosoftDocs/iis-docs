@@ -342,12 +342,12 @@ The following table shows the request filter error codes that you see in the log
 | Request Filtering: Verb denied | 404.6 |
 | Request Filtering: File name extension denied | 404.7 |
 | Request Filtering: Denied by hidden segment | 404.8 |
-| Request Filtering: Denied because request header is too long. | 404.10 |
 | Request Filtering: Denied because URL doubled escaping | 404.11 |
 | Request Filtering: Denied because of high bit characters | 404.12 |
-| Request Filtering: Denied because content length too large | 404.13 |
 | Request Filtering: Denied because URL too long | 404.14 |
 | Request Filtering: Denied because query string too long | 404.15 |
+| Request Filtering: Denied because content length too large | 413.1 |
+| Request Filtering: Denied because request header is too long. | 431 |
 
 ## See Also
 

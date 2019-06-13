@@ -19,9 +19,9 @@ The `<requestLimits>` element specifies limits on HTTP requests that are process
 
 | HTTP Substatus | Description |
 | --- | --- |
-| `404.13` | Content Length Too Large |
 | `404.14` | URL Too Long |
 | `404.15` | Query String Too Long |
+| `413.1` | Content Length Too Large |
 
 These substatuses allow Web administrators to analyze their IIS logs and identify potential threats.
 
@@ -29,7 +29,7 @@ In addition, when an HTTP request exceeds the header limits that are defined in 
 
 | HTTP Substatus | Description |
 | --- | --- |
-| `404.10` | Request Header Too Long |
+| `431` | Request Header Too Long |
 
 <a id="002"></a>
 ## Compatibility

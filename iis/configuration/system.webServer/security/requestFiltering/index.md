@@ -43,14 +43,14 @@ When request filtering blocks an HTTP request, IIS 7 will return an HTTP 404 err
 | `404.6` | Verb Denied |
 | `404.7` | File Extension Denied |
 | `404.8` | Hidden Namespace |
-| `404.10` | Request Header Too Long |
 | `404.11` | URL Double Escaped |
 | `404.12` | URL Has High Bit Chars |
-| `404.13` | Content Length Too Large |
 | `404.14` | URL Too Long |
 | `404.15` | Query String Too Long |
 | `404.18` | Query String Sequence Denied |
 | `404.19` | Denied by Filtering Rule |
+| `413.1` | Content Length Too Large |
+| `431` | Request Header Too Long |
 
 These substatuses allow Web administrators to analyze their IIS logs and identify potential threats.
 
