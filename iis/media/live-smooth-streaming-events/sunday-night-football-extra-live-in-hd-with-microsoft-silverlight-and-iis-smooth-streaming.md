@@ -163,11 +163,10 @@ Silverlight, when combined with Smooth Streaming, delivers great video performan
 
 - **Multiple camera angles**. To support seamless viewing of the five video feeds, Vertigo used an API to filter each stream so that the main screen was at full bitrate (3.5 Mbps) and the smaller screens were played at a low bitrate (50 Kbps, with no buffering).
 - **Live ad insertion**. The video player included the following advertising support features:
-
   - Video preroll ads, when a user first started the player.
   - Video midroll and companion ads, which were dynamically inserted into the player during the course of the game.
   - Sponsorship of game highlights and sideline interviews.
-    - Banner ads during video playback.
+  - Banner ads during video playback.
 - **Analytics**. The video player supported real-time audience measurement and inference services, provided by Conviva, during the streamed sessions. By using Conviva's Pulse management console, NBC gained unprecedented insights into per-viewer video quality and experience, viewer engagement, content popularity trends, distribution resource performance, and operational diagnostics.
 - **Track selection**. The player allowed the viewer to choose which live video stream or highlight clip to view on the main screen.
 - **User interface**. In addition to the APIs provided in the Smooth Streaming Media Element, Vertigo leveraged capabilities found in the Silverlight 3 web browser plug-in and Expression Blend 3. Without writing any code, designers quickly prototyped UI elements, adding interactivity, animation, and transitions through drag-and-drop behaviors in Silverlight. In addition, the team relied on support for XAML editing across Silverlight, Expression Blend, and Visual Studio to efficiently share information while iterating code and design elements of the application simultaneously.
