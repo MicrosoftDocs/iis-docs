@@ -7,8 +7,8 @@ ms.assetid: 44affe19-9a18-4863-b4fc-51f925c99842
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/pilot-program-management-using-application-request-routing
 msc.type: authoredcontent
 ---
-Pilot program management using Application Request Routing
-====================
+# Pilot program management using Application Request Routing
+
 by IIS Team
 
 ## Overview
@@ -62,10 +62,10 @@ In this step, URL rewrite rules are changed so that only the users who have inst
 9. Clients with IE with .NET 3.5 should be specified to go to the **pilotSiteServers** server farm. Do this by adding conditions. Click **Add Conditions**, and thenclick **Add...**.
 
     [![](pilot-program-management-using-application-request-routing/_static/image9.jpg)](pilot-program-management-using-application-request-routing/_static/image8.jpg)
-10. Enter **{HTTP\_USER\_AGENT}** as **Condition input** and **\*MSIE\*** as **Pattern**. This condition checks to see if the client is using IE.
+10. Enter **{HTTP\_USER\_AGENT}** as **Condition input** and __\*MSIE\*__ as **Pattern**. This condition checks to see if the client is using IE.
 
     [![](pilot-program-management-using-application-request-routing/_static/image11.jpg)](pilot-program-management-using-application-request-routing/_static/image10.jpg)
-11. Add another condition to check for the .NET version. Click **Add...**, and then enter **{HTTP\_USER\_AGENT}** as **Condition input** and **\*.NET CLR 3.5\*** as **Pattern**.
+11. Add another condition to check for the .NET version. Click **Add...**, and then enter **{HTTP\_USER\_AGENT}** as **Condition input** and __\*.NET CLR 3.5\*__ as **Pattern**.
 
     [![](pilot-program-management-using-application-request-routing/_static/image13.jpg)](pilot-program-management-using-application-request-routing/_static/image12.jpg)
 12. Finally, uncheck the **Stop processing of subsequent rules** checkbox, and then click **Apply** to save the changes.

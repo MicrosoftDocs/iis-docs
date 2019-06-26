@@ -16,53 +16,53 @@ There are eight possible states for a [SmoothStreamingMediaElement](smoothstream
 
 A [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object can be in any of the following states, which are defined in the [SmoothStreamingMediaElementState](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) enumeration:
 
-  - [Opening](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [Opening](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
-  - [Buffering](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [Buffering](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
-  - [Playing](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [Playing](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
-  - [Paused](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [Paused](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
-  - [Stopped](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [Stopped](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
-  - [Individualizing](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [Individualizing](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
-  - [AcquiringLicense](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [AcquiringLicense](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
-  - [ClipPlaying](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
+- [ClipPlaying](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)
 
 To work with an [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object's state and state transitions, you primarily use the following APIs:
 
-  - The [SmoothStreamingMediaElementState](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) enumeration, which defines the states as listed above.
+- The [SmoothStreamingMediaElementState](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) enumeration, which defines the states as listed above.
 
-  - The [CurrentState](smoothstreamingmediaelement-currentstate-property-microsoft-web-media-smoothstreaming_1.md) property, which can be queried to get the state of a [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object.
+- The [CurrentState](smoothstreamingmediaelement-currentstate-property-microsoft-web-media-smoothstreaming_1.md) property, which can be queried to get the state of a [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object.
 
-  - The [CurrentStateProperty](smoothstreamingmediaelement-currentstateproperty-field-microsoft-web-media-smoothstreaming_1.md) property, which is a dependency property that is used for binding in XAML.
+- The [CurrentStateProperty](smoothstreamingmediaelement-currentstateproperty-field-microsoft-web-media-smoothstreaming_1.md) property, which is a dependency property that is used for binding in XAML.
 
 The following events are available to help you work with [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) state:
 
-  - The [CurrentStateChanged](smoothstreamingmediaelement-currentstatechanged-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs on every state change.
+- The [CurrentStateChanged](smoothstreamingmediaelement-currentstatechanged-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs on every state change.
 
-  - The [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs when seek finishes. Only one seek operation at a time will work. Developers can use this event to determine when a previous seek operation is finished and to block seek operations while a previous seek is in progress. This event is also raised when an application calls [SetPlaybackRate](smoothstreamingmediaelement-setplaybackrate-method-microsoft-web-media-smoothstreaming_1.md).
+- The [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs when seek finishes. Only one seek operation at a time will work. Developers can use this event to determine when a previous seek operation is finished and to block seek operations while a previous seek is in progress. This event is also raised when an application calls [SetPlaybackRate](smoothstreamingmediaelement-setplaybackrate-method-microsoft-web-media-smoothstreaming_1.md).
 
-  - The [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs during the opening state and signals that the manifest has been downloaded and some initial actions can be called, such as [SetPlaybackRate](smoothstreamingmediaelement-setplaybackrate-method-microsoft-web-media-smoothstreaming_1.md).
+- The [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs during the opening state and signals that the manifest has been downloaded and some initial actions can be called, such as [SetPlaybackRate](smoothstreamingmediaelement-setplaybackrate-method-microsoft-web-media-smoothstreaming_1.md).
 
-  - The [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs during the opening state. For more information, see [Manifest Merge](manifest-merge.md)
+- The [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event, which occurs during the opening state. For more information, see [Manifest Merge](manifest-merge.md)
 
-  - The [SmoothStreamingErrorOccurred](smoothstreamingmediaelement-smoothstreamingerroroccurred-event-microsoft-web-media-smoothstreaming_1.md) and [MediaFailed](smoothstreamingmediaelement-mediafailed-event-microsoft-web-media-smoothstreaming_1.md) events, which indicate issues that could set the state to closed.
+- The [SmoothStreamingErrorOccurred](smoothstreamingmediaelement-smoothstreamingerroroccurred-event-microsoft-web-media-smoothstreaming_1.md) and [MediaFailed](smoothstreamingmediaelement-mediafailed-event-microsoft-web-media-smoothstreaming_1.md) events, which indicate issues that could set the state to closed.
 
 ### State Transitions
 
 Several state-affecting conditions might have effects that may not be obvious, including the following:
 
-  - During fast forwarding, when live play is reached, the playback rate is set to 1.0. The [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event is raised to indicate that the playback rate changed.
+- During fast forwarding, when live play is reached, the playback rate is set to 1.0. The [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event is raised to indicate that the playback rate changed.
 
-  - During rewind, if start is reached, the playback rate is set to 1.0. The [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event is raised to indicate that the playback rate changed.
+- During rewind, if start is reached, the playback rate is set to 1.0. The [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event is raised to indicate that the playback rate changed.
 
-  - If the [StartSeekToLive](smoothstreamingmediaelement-startseektolive-method-microsoft-web-media-smoothstreaming_1.md) method is called, playback rate is set to 1.0 and then [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event is raised to indicate that the playback rate changed.
+- If the [StartSeekToLive](smoothstreamingmediaelement-startseektolive-method-microsoft-web-media-smoothstreaming_1.md) method is called, playback rate is set to 1.0 and then [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event is raised to indicate that the playback rate changed.
 
-  - When the end of stream is reached, the state is set to [Paused](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md).
+- When the end of stream is reached, the state is set to [Paused](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md).
 
 The following table shows states (rows) and how actions affect those states (columns). For example, if the current state is [Playing](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) and the action is [SetPlaybackRate](smoothstreamingmediaelement-setplaybackrate-method-microsoft-web-media-smoothstreaming_1.md), the resulting state is [Playing](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md).
 
@@ -77,12 +77,11 @@ State Transition Matrix
 |Opening|Opening. The request is ignored|Opening. The request is ignored|Opening. The request is ignored|Opening. The request is ignored|Opening. The request is ignored|Closed. This is for the clip that is currently playing. There can subsequently be a call for opening, buffering, or other actions, depending on whether the [AutoPlay](smoothstreamingmediaelement-autoplay-property-microsoft-web-media-smoothstreaming_1.md) setting is true or false.|Opening. The request is ignored|Opening. An invalidOperationException error occurs.|
 |ClipPlaying. (See note following table.)|ClipPlaying. If the clip was paused, it resumes.|ClipPlaying. If the clip was playing, it is paused.|ClipPlaying. An [InvalidOperationException](https://msdn.microsoft.com/library/2asft85a(v=vs.95)) error is thrown.|Stopped. All actions are stopped.|ClipPlaying. An [InvalidOperationException](https://msdn.microsoft.com/library/2asft85a(v=vs.95)) error is thrown.|Closed.|ClipPlaying. The track should be changed on the main video, but not on the clip.|ClipPlaying. The clip must play as scheduled. The clip starts in Playing state. The most recently started clip takes precedence, and any other clip is stopped and unscheduled.|
 
+> [!NOTE]  
+> The ClipPlaying state is used only to determine when a clip is in the active window. There are other states associated with the clip. Applications can use [ClipStateChanged](smoothstreamingmediaelement-clipstatechanged-event-microsoft-web-media-smoothstreaming_1.md) and [CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md) to get these states.
 
 > [!NOTE]  
-> <p>The ClipPlaying state is used only to determine when a clip is in the active window. There are other states associated with the clip. Applications can use [ClipStateChanged](smoothstreamingmediaelement-clipstatechanged-event-microsoft-web-media-smoothstreaming_1.md) and [CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md) to get these states.</p>
-
-> [!NOTE]  
-> <p>The player state does not change to [Stopped](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) when the manifest/license manager URL is invalid. Instead, the clip remains in [Opening](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) state.</p>
+> The player state does not change to [Stopped](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) when the manifest/license manager URL is invalid. Instead, the clip remains in [Opening](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) state.
 
 ## See Also
 
@@ -93,4 +92,3 @@ State Transition Matrix
 ### Other Resources
 
 [MediaElement States](https://go.microsoft.com/fwlink/?linkid=230681)
-
