@@ -17,32 +17,25 @@ Hosting multiple Web sites or databases on a single computer is challenging. Hos
 
 ### Contents
 
-[Environment Architecture](shared-hosting-configuration.md#envarch)
+- [Environment Architecture](shared-hosting-configuration.md#envarch)
 
-> [Network Segments](shared-hosting-configuration.md#NetSeg)
+  - [Network Segments](shared-hosting-configuration.md#NetSeg)
 
+  - [Core Architecture](shared-hosting-configuration.md#CoreArc)
 
-> [Core Architecture](shared-hosting-configuration.md#CoreArc)
+    - [Front End Servers](shared-hosting-configuration.md#CoreArcFE)
 
+    - [Back End Servers](shared-hosting-configuration.md#CoreArcBE)
 
-> > [Front End Servers](shared-hosting-configuration.md#CoreArcFE)
-> > 
-> > [Back End Servers](shared-hosting-configuration.md#CoreArcBE)
+  - [Remote Administration](shared-hosting-configuration.md#RetAdmin)
 
+  - [Enhanced Architecture (Optional Components)](shared-hosting-configuration.md#EnhArc)
 
-> [Remote Administration](shared-hosting-configuration.md#RetAdmin)
+    - [Optional Front End Servers](shared-hosting-configuration.md#EnhArcFE)
 
+    - [Optional Back End Servers](shared-hosting-configuration.md#EnhArcBE)
 
-> [Enhanced Architecture (Optional Components)](shared-hosting-configuration.md#EnhArc)
-
-
-> > [Optional Front End Servers](shared-hosting-configuration.md#EnhArcFE)
-
-
-> > [Optional Back End Servers](shared-hosting-configuration.md#EnhArcBE)
-
-
-[Conclusion](shared-hosting-configuration.md#Conclusion)
+- [Conclusion](shared-hosting-configuration.md#Conclusion)
 
 <a id="envarch"></a>
 

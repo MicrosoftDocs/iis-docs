@@ -7,8 +7,8 @@ ms.assetid: 68c5d76f-a0bb-4a3e-a038-14b141e86dbf
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/planning-the-deployment
 msc.type: authoredcontent
 ---
-Planning the Deployment
-====================
+# Planning the Deployment
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -21,14 +21,16 @@ The primary focus in this phase is on selecting the appropriate deployment scena
 
 **Table 1. Planning Checklist**
 
-| **High-level steps in the deployment Planning Phase** |
-| --- |
-| 1 | **Select the appropriate deployment scenarios.** The environment typically requires more than one deployment scenario. You would need to determine which combination of deployment scenarios that apply: - New Computer - Upgrade Computer - Refresh Computer - Replace Computer |
-| 2 | **Select the deployment methods.** Determine which computers in the environment can be migrated to the new operating system using which method WDS, MD, or SCCM. The level of automation is required as well: PowerShell Scripts in this Hosting Guidance, Light Touch Installation (LTI), or Zero Touch Installation (ZTI) are provided by MD and SCCM. The environment can use one or several of these methods. |
-| 3 | **Ensure that the required infrastructure****exists.** Ensure that the appropriate infrastructure exists for the tools you are using before beginning deployment. The requirements for WDS, MD, or SCCM are different. See below for details. |
-| 4 | **Determine the appropriate processing rules. Only needed if you are using MD or SCCM** Before using ZTI or LTI to deploy the operating system, configure the processing rules. The processing rules help determine which operating system images are deployed and their configuration settings. |
-| 5 | **Determine the monitoring plan.** As you are deploying the operating system in the test and production environments, monitor the progress of the deployment. This is particularly important in complex deployments that require SCCM. |
-| 6 | **Train the team members.** Before beginning deployment in the test and production environments, ensure that all team members are properly trained. This helps the team deploy, manage, operate, troubleshoot, and support target computers throughout the entire deployment process. |
+**High-level steps in the deployment Planning Phase**
+
+| | |
+| --- | --- |
+| 1 | **Select the appropriate deployment scenarios.**<br><br> The environment typically requires more than one deployment scenario. You would need to determine which combination of deployment scenarios that apply:<br> - New Computer<br> - Upgrade Computer<br> - Refresh Computer<br> - Replace Computer<br> |
+| 2 | **Select the deployment methods.**<br><br> Determine which computers in the environment can be migrated to the new operating system using which method WDS, MD, or SCCM. The level of automation is required as well: PowerShell Scripts in this Hosting Guidance, Light Touch Installation (LTI), or Zero Touch Installation (ZTI) are provided by MD and SCCM. The environment can use one or several of these methods. |
+| 3 | **Ensure that the required infrastructure exists.**<br><br> Ensure that the appropriate infrastructure exists for the tools you are using before beginning deployment. The requirements for WDS, MD, or SCCM are different. See below for details. |
+| 4 | **Determine the appropriate processing rules. Only needed if you are using MD or SCCM**<br><br> Before using ZTI or LTI to deploy the operating system, configure the processing rules. The processing rules help determine which operating system images are deployed and their configuration settings. |
+| 5 | **Determine the monitoring plan.**<br><br> As you are deploying the operating system in the test and production environments, monitor the progress of the deployment. This is particularly important in complex deployments that require SCCM. |
+| 6 | **Train the team members.**<br><br> Before beginning deployment in the test and production environments, ensure that all team members are properly trained. This helps the team deploy, manage, operate, troubleshoot, and support target computers throughout the entire deployment process. |
 
 <a id="SelectScenarios"></a>
 
@@ -104,9 +106,30 @@ The following are requirements for installing this role, depending on if you ins
 > [!NOTE]
 > The Windows Deployment Services server service is not cluster-aware and should not be run on a Microsoft Windows Cluster Server.
 
-| **Deployment Server** | **Transport Server** |
-| --- | --- |
-| | **Active Directory Domain Services**. A Windows Deployment Services server must be either a member of an Active Directory Domain Services (AD DS) domain or a domain controller for an AD DS domain. The AD DS domain and forest versions are irrelevant; all domain and forest configurations support Windows Deployment Services. | | --- | | **DHCP**. You must have a working Dynamic Host Configuration Protocol (DHCP) server with an active scope on the network because Windows Deployment Services uses Pre-Boot Execution Environment (PXE), which relies on DHCP for IP addressing. | | **DNS**. You must have a working Domain Name System (DNS) server on the network to run Windows Deployment Services. | | **NTFS volume**. The server running Windows Deployment Services requires an NTFS file system volume for the image store. | | **Credentials**. To install the role, you must be a member of the Local Administrators group on the Windows Deployment Services server. To start the Windows Deployment Services client, you must be a member of the Domain Users group. | | There are no requirements for installing Transport Server. |
+:::row:::
+    :::column:::
+        **Deployment Server**
+    :::column-end:::
+    :::column:::
+        **Transport Server**
+    :::column-end:::
+:::row-end:::
+* * *
+:::row:::
+    :::column:::
+        | |
+        | --- |
+        | **Active Directory Domain Services**. A Windows Deployment Services server must be either a member of an Active Directory Domain Services (AD DS) domain or a domain controller for an AD DS domain. The AD DS domain and forest versions are irrelevant; all domain and forest configurations support Windows Deployment Services. |
+        | **DHCP**. You must have a working Dynamic Host Configuration Protocol (DHCP) server with an active scope on the network because Windows Deployment Services uses Pre-Boot Execution Environment (PXE), which relies on DHCP for IP addressing. |
+        | **DNS**. You must have a working Domain Name System (DNS) server on the network to run Windows Deployment Services. |
+        | **NTFS volume**. The server running Windows Deployment Services requires an NTFS file system volume for the image store. |
+        | **Credentials**. To install the role, you must be a member of the Local Administrators group on the Windows Deployment Services server. To start the Windows Deployment Services client, you must be a member of the Domain Users group. |
+    :::column-end:::
+    :::column:::
+        There are no requirements for installing Transport Server.
+    :::column-end:::
+:::row-end:::
+* * *
 
 If you are planning to use Microsoft Deployment, see the detailed listing of required infrastructure:
 

@@ -7,9 +7,9 @@ ms.assetid: ecf70784-d0b8-4c2f-9e4f-c547741cadf8
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-5-configure-application-deployment
 msc.type: authoredcontent
 ---
-Configuring Step 5: Configure Application Deployment
-====================
-by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
+# Configuring Step 5: Configure Application Deployment
+
+by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy for deploying web applications.
 
@@ -40,7 +40,7 @@ The procedures in this section guide you through installing and configuring FTP 
 6. Click **Next** to open the **Binding and SSL Settings** page.
 7. Under **Binding**, in the **IP Address** list, select or type an IP address if you do not want the IP address to remain **All Unassigned**.
 8. In the **Port** box, type the port number.
-9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type **www.contoso.com**.
+9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type `www.contoso.com`.
 10. Clear the **Start FTP site automatically** box if you want to start the site manually.
 11. Under **SSL**, from the **SSL Certificate** list, select a certificate. Optionally, click **View** to open the **Certificates** dialog box and verify information about the selected certificate.
 12. Select one of the following options:

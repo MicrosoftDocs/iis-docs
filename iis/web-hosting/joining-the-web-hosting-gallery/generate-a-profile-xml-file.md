@@ -7,8 +7,8 @@ ms.assetid: e0a83e33-4d4f-448b-a85b-caa7289ced0f
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/generate-a-profile-xml-file
 msc.type: authoredcontent
 ---
-Generate a Profile XML File
-====================
+# Generate a Profile XML File
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Generate a Profile XML File
@@ -24,9 +24,7 @@ When a user signs up for an account, your welcome email should contain an attach
 
 Example profile XML that describes two independent sets of publishing settings, one for Web Deploy and one for FTP **(this is a preliminary schema and is subject to change until WebMatrix v1 is released)**:
 
-
 [!code-xml[Main](generate-a-profile-xml-file/samples/sample1.xml)]
-
 
 [!code-xml[Main](generate-a-profile-xml-file/samples/sample2.xml)]
 
@@ -38,18 +36,18 @@ Example profile XML that describes two independent sets of publishing settings, 
 
 | **Attribute** | **Comments** |
 | --- | --- |
-| profileName | *Optional. Used by Visual Studio only.* *Valid values: String containing only characters valid in Win32 filenames* A name to refer to this profile by; shown in Visual Studio. |
-| publishMethod | *Required for all profiles.* *Valid values: MSDeploy, FTP* WebMatrix does not support the FTPS protocol. |
-| PublishURL | *Required for all profiles.* If publishMethod is "MSDeploy", this is simply the URL of the Web Management Service (wmsvc) endpoint. For example: - server.contoso.com - server.contoso.com:8080 (e.g. if you are using a non-standard port 8080 for wmsvc) If publishMethod is "FTP", this is the URL of the FTP server. If your FTP server is configured to change-directory the user to the appropriate root physical folder for their site upon login, then this can simply be the URL of the FTP server e.g. "ftp://ftp.contoso.com:21" Otherwise, you need to specify the site root path (this shows up as the "Site path" setting in the WebMatrix Publish Settings dialog when the protocol is FTP). This can be done in one of two ways: - Relative: ftp://ftp.contoso.com:21 ***/username/wwwroot*** - Absolute: ftp://ftp.contoso.com:21 ***//hosting\_spaces/username/wwwroot*** |
-| msdeploySite | *Required for Web Deploy profile.* This is the name of the IIS site the user is publishing to. |
-| ftpPassiveMode | *Optional, only applies to a profile where publishMethod is "FTP".* Specifies whether WebMatrix should connect using FTP passive mode or not. If omitted, the default is to connect with passive mode. |
+| profileName | *Optional. Used by Visual Studio only.*<br><br> *Valid values: String containing only characters valid in Win32 filenames*<br><br> A name to refer to this profile by; shown in Visual Studio. |
+| publishMethod | *Required for all profiles.*<br><br> *Valid values: MSDeploy, FTP*<br><br> WebMatrix does not support the FTPS protocol. |
+| PublishURL | *Required for all profiles.*<br><br> If publishMethod is "MSDeploy", this is simply the URL of the Web Management Service (wmsvc) endpoint.<br> For example:<br> - `server.contoso.com`<br> - `server.contoso.com:8080` (for example, if you are using a non-standard port 8080 for wmsvc)<br><br> If publishMethod is "FTP", this is the URL of the FTP server.<br><br> If your FTP server is configured to change-directory the user to the appropriate root physical folder for their site upon login, then this can simply be the URL of the FTP server (for example, `ftp://ftp.contoso.com:21`).<br><br> Otherwise, you need to specify the site root path (this shows up as the "Site path" setting in the WebMatrix Publish Settings dialog when the protocol is FTP). This can be done in one of two ways:<br> - Relative: `ftp://ftp.contoso.com:21/username/wwwroot`<br> - Absolute: `ftp://ftp.contoso.com:21//hosting_spaces/username/wwwroot` |
+| msdeploySite | *Required for Web Deploy profile.*<br><br> This is the name of the IIS site the user is publishing to. |
+| ftpPassiveMode | *Optional, only applies to a profile where publishMethod is "FTP".*<br><br> Specifies whether WebMatrix should connect using FTP passive mode or not. If omitted, the default is to connect with passive mode. |
 | userName | *Required for all profiles.* |
-| userPWD | *Optional. This is a plain text (i.e. not encrypted) string.* |
-| destinationAppUrl | *Required for all profiles.* This is the public-facing URL of the customer's site. This is required for Publish Compatibility tests. Moreover, several applications such as Wordpress require the destinationAppUrl to be inserted into the database for the application to function correctly. WebMatrix does this insertion automatically, hence this field is required. |
-| SQLServerDBConnectionString | *Optional, but highly recommended for ease of publishing.* WebMatrix will use this database connection string to publish Microsoft SQL Server databases. We recommend that you pre-create the database when the user signs up for an account so they do not have to do this themselves from the hosting provider control panel. |
-| mySQLDBConnectionString | *Optional, but highly recommended for ease of publishing.* WebMatrix will use this database connection string to publish MySQL databases. We recommend that you pre-create the database when the user signs up for an account so they do not have to do this themselves from the hosting provider control panel. |
-| hostingProviderForumLink | *Optional, but recommended.* If provided, this URL will show up in the Publish Compatibility wizard. Providing this link can reduce your support cost by guiding users to online help in case they have problems publishing the site. |
-| controlPanelLink | *Optional, but recommended.* If provided, this URL will show up in various places in WebMatrix. It provides users with an easy way to launch the hosting provider's control panel in a browser. |
+| userPWD | *Optional. This is a plain text (that is, not encrypted) string.* |
+| destinationAppUrl | *Required for all profiles.*<br><br> This is the public-facing URL of the customer's site. This is required for Publish Compatibility tests. Moreover, several applications such as Wordpress require the destinationAppUrl to be inserted into the database for the application to function correctly. WebMatrix does this insertion automatically, hence this field is required. |
+| SQLServerDBConnectionString | *Optional, but highly recommended for ease of publishing.*<br><br> WebMatrix will use this database connection string to publish Microsoft SQL Server databases. We recommend that you pre-create the database when the user signs up for an account so they do not have to do this themselves from the hosting provider control panel. |
+| mySQLDBConnectionString | *Optional, but highly recommended for ease of publishing.*<br><br> WebMatrix will use this database connection string to publish MySQL databases. We recommend that you pre-create the database when the user signs up for an account so they do not have to do this themselves from the hosting provider control panel. |
+| hostingProviderForumLink | *Optional, but recommended.*<br><br> If provided, this URL will show up in the Publish Compatibility wizard. Providing this link can reduce your support cost by guiding users to online help in case they have problems publishing the site. |
+| controlPanelLink | *Optional, but recommended.*<br><br> If provided, this URL will show up in various places in WebMatrix. It provides users with an easy way to launch the hosting provider's control panel in a browser. |
 
 ### Extra Information
 
