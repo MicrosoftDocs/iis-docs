@@ -72,7 +72,6 @@ The ISmoothStreamingCache type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[EndRetrieve](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md)|Ends an asynchronous cache response retrieval started by the [BeginRetrieve](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[OpenMedia](ismoothstreamingcache-openmedia-method-microsoft-web-media-smoothstreaming.md)|Opens the specified media for ISmoothStreamingCache operations.|
 
-
 ## Remarks
 
 The ISmoothStreamingCache interface supports offline playback scenarios. When the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) needs a chunk or manifest, it first checks with the registered cache plug-in. If the plug-in has it, the chunk is used. Otherwise, the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) downloads it by HTTP. After the download, [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) provides an option for the plug-in to persist the downloaded chunk.
@@ -85,15 +84,15 @@ You can assign a cache plug-in that implements ISmoothStreamingCache to the [Smo
 
 The following example assigns the cache plug-in when the media element loads.
 
-``` 
-    private void SmoothPlayer_Loaded(object sender, RoutedEventArgs e)
-    {
-        SmoothPlayer.SmoothStreamingCache = new SmoothStreaming.SmoothStreamingOfflineCache();
-    }
+```csharp
+private void SmoothPlayer_Loaded(object sender, RoutedEventArgs e)
+{
+    SmoothPlayer.SmoothStreamingCache = new SmoothStreaming.SmoothStreamingOfflineCache();
+}
 ```
 
 > [!CAUTION]  
-> <p>Do not set SSME.SmoothStreamingSource to a Uri that contains a query, such as http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.If this query is set and config.xml includes ResponseCacheEnabled=&quot;true&quot; instead of ResponseCacheEnabled=&quot;false&quot;, the whole Uri including the query could be persisted in the response cache.</p>
+> Do not set SSME.SmoothStreamingSource to a Uri that contains a query, such as `http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1`. If this query is set and config.xml includes `ResponseCacheEnabled="true"` instead of `ResponseCacheEnabled="false"`, the whole Uri including the query could be persisted in the response cache.
 
 ## Version Information
 
@@ -110,4 +109,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-
