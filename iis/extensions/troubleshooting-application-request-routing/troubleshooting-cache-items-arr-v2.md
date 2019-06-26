@@ -7,11 +7,11 @@ ms.assetid: b0d9230c-a4dd-478b-97d6-dea3f2e6bcdd
 msc.legacyurl: /learn/extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2
 msc.type: authoredcontent
 ---
-Troubleshooting Cache Items ARR V2
-====================
+# Troubleshooting Cache Items ARR V2
+
 by [Apurva Joshi](https://github.com/apurvajo)
 
-#### Tools Used in this Troubleshooter:
+## Tools Used in this Troubleshooter:
 
 - ARR Helper
 - Failed Request Tracing (FREB)
@@ -35,13 +35,13 @@ For the purposes of this walkthrough we are going to use the following configura
 
 ![](troubleshooting-cache-items-arr-v2/_static/troubleshooting-cache-items-arr-v2-1108-image11.jpeg)
 
-**Disk Cache Configuration:** 
+**Disk Cache Configuration:**
 
 One local drive with 100GB maximum size configured.
 
 [!code-xml[Main](troubleshooting-cache-items-arr-v2/samples/sample1.xml)]
 
-**Global Cache Control Rules:** 
+**Global Cache Control Rules:**
 
 This rule is defined as Cache for 60 minutes when no cache control directive exists.
 
@@ -53,21 +53,23 @@ In this section we will step though the flow of cache hits and misses as this pa
 
 - The requested content is not found locally (neither in memory nor on disk on child node).
 
-    - Freb Logs
-    - IIS built in logging
-    - Network Monitor
+  - Freb Logs
+  - IIS built in logging
+  - Network Monitor
+
 - The request is forwarded to the next tier cache node (parent node).
 
-    - Freb Logs
-    - IIS Advanced Logging module
-    - IIS built in logging
-    - Network Monitor
+  - Freb Logs
+  - IIS Advanced Logging module
+  - IIS built in logging
+  - Network Monitor
+
 - The requested content is not found at the next tier cache node (neither in memory nor on disk): Repeat steps 2 as many times as appropriate based on cache hierarchy.
 - The request is forwarded to the origin server.
 
-    - Freb Logs
-    - IIS built in logging
-    - Network Monitor
+  - Freb Logs
+  - IIS built in logging
+  - Network Monitor
 
 ## Gather the Data
 
@@ -87,18 +89,21 @@ Here we can identify a cache hit/miss in either the IIS Logs or Freb logs. The F
 
 **FREB Log:** The cache miss is found by the entry **ARR\_DISK\_CACHE\_GET\_FAILED.**
 
-| r | ARR\_DISK\_CACHE\_GET\_FAILED Warning | FilePath="\\?\C:\ARRCache\localhost\iisstart.htm.full", ErrorCode="The system cannot find the file specified. (0x80070002)", IsRangeEntry="false", RangeOffset="0", RangeSegmentSize="0" |
+| | | |
 | --- | --- | --- |
+| r | ARR\_DISK\_CACHE\_GET\_FAILED Warning | FilePath="\\?\C:\ARRCache\localhost\iisstart.htm.full", ErrorCode="The system cannot find the file specified. (0x80070002)", IsRangeEntry="false", RangeOffset="0", RangeSegmentSize="0" |
 
 Identify the Server that the request is being routed to. Here we can see the request being sent to server W2K8WEBSERVER2 so we know that will be our next level server for data review.
 
-| i | ARR\_SERVER\_ROUTED | RoutingReason="LoadBalancing", Server="W2K8WEBSERVER2", State="Active", TotalRequests="8", FailedRequests="0", CurrentRequests="1", BytesSent="1127", BytesReceived="6441379", ResponseTime="31351" |
+| | | |
 | --- | --- | --- |
+| i | ARR\_SERVER\_ROUTED | RoutingReason="LoadBalancing", Server="W2K8WEBSERVER2", State="Active", TotalRequests="8", FailedRequests="0", CurrentRequests="1", BytesSent="1127", BytesReceived="6441379", ResponseTime="31351" |
 
 The following headers are added to the request for forwarding. If some names are different than the defaults X-Forwarded-For, X-ARR-ClientCert and X-ARR-LOG-ID they may have been customized in Server Farm proxy settings.
 
-| GENERAL\_SET\_REQUEST\_HEADER | HeaderName="Max-Forwards", HeaderValue="10", Replace="true" |
+| | |
 | --- | --- |
+| GENERAL\_SET\_REQUEST\_HEADER | HeaderName="Max-Forwards", HeaderValue="10", Replace="true" |
 | GENERAL\_SET\_REQUEST\_HEADER | HeaderName="X-Forwarded-For", HeaderValue="127.0.0.1:62489", Replace="true" |
 | GENERAL\_SET\_REQUEST\_HEADER | HeaderName="X-ARR-SSL", HeaderValue="", Replace="true" |
 | GENERAL\_SET\_REQUEST\_HEADER | HeaderName="X-ARR-ClientCert", HeaderValue="", Replace="true" |
@@ -110,8 +115,10 @@ In the previous step we identified this server as **W2K8WEBSERVER2** so we will 
 
 **FREB Logs:** The request can be identified by the **X-ARR-LOG-ID** sent from the child node. We identified this as **"fe9d20da-a571-4451-8ef3-0e7faf1a463a"** in the last step.
 
-| i | GENERAL\_REQUEST\_HEADERS | Headers="Connection: Keep-Alive Accept: \*/\* Host: localhost Max-Forwards: 10 X-Original-URL: /iisstart.htm X-Forwarded-For: 127.0.0.1:62489 X-ARR-LOG-ID: fe9d20da-a571-4451-8ef3-0e7faf1a463a |
+| | | |
 | --- | --- | --- |
+| i | GENERAL\_REQUEST\_HEADERS | Headers="Connection: Keep-Alive Accept: \*/\* Host: localhost Max-Forwards: 10 X-Original-URL: /iisstart.htm X-Forwarded-For: 127.0.0.1:62489 X-ARR-LOG-ID: fe9d20da-a571-4451-8ef3-0e7faf1a463a |
+
 
 **IIS Advanced Logging Module:** Using Advanced logging we can add custom logging fields based on the headers X-Forwarded-For and X-ARR-LOG-ID and then used filtering to only log when these headers are present.
 
