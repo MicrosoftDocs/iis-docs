@@ -69,9 +69,8 @@ The [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-me
 
 ```csharp
 // Out parameter for function.
-  Uri uriExtManifest = new 
-  Uri("http://serverName/BigBuckBunnyCaptions.xml");
-    SmoothPlayer.ParseExternalManifest(uriExtManifest, 3000, out parsedExternManifest);
+Uri uriExtManifest = new Uri("http://serverName/BigBuckBunnyCaptions.xml");
+SmoothPlayer.ParseExternalManifest(uriExtManifest, 3000, out parsedExternManifest);
 ```
 
 ### MergeExternalManifest
