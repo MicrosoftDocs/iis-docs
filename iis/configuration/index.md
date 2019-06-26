@@ -7,10 +7,9 @@ ms.assetid: dcbbe2fd-e6d4-46df-817a-d485d3fe0b36
 msc.legacyurl: /configreference
 msc.type: config
 ---
-Configuration Reference &lt;configuration&gt;
-====================
-## IIS Configuration Reference
+# Configuration Reference &lt;configuration&gt;
 
+## IIS Configuration Reference
 
 Internet Information Services (IIS) 7 and later use an XML-based configuration system for storing IIS settings which replaces the metabase that was used in IIS 6.0 and earlier. This new configuration system was introduced with ASP.NET and is based on a hierarchical system of management system that uses \*.config files. The configuration files for IIS 7 and later are located in your %*WinDir*%\System32\Inetsrv\Config folder, and the primary configuration files are:
 
@@ -32,14 +31,14 @@ Each configuration topic in this reference will usually consist of the following
 - **Setup Instructions** - This section describes how to install any required features for each configuration element.
 - **"How To" Examples** - This section contains one or more examples for configuring each configuration element.
 - **Configuration Details** - This section describes the attributes and child elements for each configuration element, and usually contains an XML configuration sample.
-- **Code Samples** - This section lists code samples in several languages that illustrate how to configure each configuration element programmatically. Code samples may be presented in six languages: 
+- **Code Samples** - This section lists code samples in several languages that illustrate how to configure each configuration element programmatically. Code samples may be presented in six languages:
 
-    - AppCmd.exe (command-line application)
-    - C# .NET
-    - Visual Basic .NET
-    - JavaScript
-    - VBScript
-    - PowerShell
+  - AppCmd.exe (command-line application)
+  - C# .NET
+  - Visual Basic .NET
+  - JavaScript
+  - VBScript
+  - PowerShell
 
 ### Configuration Reference downloads
 

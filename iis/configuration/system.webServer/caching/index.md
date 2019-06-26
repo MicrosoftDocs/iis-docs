@@ -62,11 +62,11 @@ The `<caching>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to configure page output caching.
 3. In the **Home** pane, scroll to **Output Caching**, and then double-click **Output Caching**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![](index/_static/image1.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add Cache Rule** dialog box, type the file name extension you want to cache in the **File name extension** box, and then select the **User-mode caching** option, the **Kernel-mode caching** option, or both.
 6. Select the options that you want to use for caching, and then click **OK**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![](index/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration
