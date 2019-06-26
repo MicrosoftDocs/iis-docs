@@ -23,13 +23,13 @@ This article explains how to provision an IIS frontend server with full WebMatri
 
 ## Preparing to Run Scripts
 
-1. Download the scripts from this location:
+1. Download the scripts from the following location:
 
-<https://go.microsoft.com/fwlink/?prd=12062&amp;pver=1.0&amp;sbp=WebMatrix&amp;plcid=0x409&amp;clcid=0x409&amp;ar=HostingKit&amp;sar=Scripts>
+   [https://go.microsoft.com/fwlink/?prd=12062&amp;pver=1.0&amp;sbp=WebMatrix&amp;plcid=0x409&amp;clcid=0x409&amp;ar=Hosting Kit&amp;sar=Scripts](https://go.microsoft.com/fwlink/?prd=12062&amp;pver=1.0&amp;sbp=WebMatrix&amp;plcid=0x409&amp;clcid=0x409&amp;ar=Hosting Kit&amp;sar=Scripts)
 
-1. Extract them to `%systemdrive%\Webmatrix`
-2. Launch a Powershell console in Administrator mode
-3. Run this command: *Set-Executionpolicy Unrestricted - force*. This will allow the unsigned scripts to execute.
+2. Extract them to `%systemdrive%\Webmatrix`
+3. Launch a Powershell console in Administrator mode
+4. Run this command: *Set-Executionpolicy Unrestricted - force*. This will allow the unsigned scripts to execute.
 
 ## Installing Software Requirements
 
