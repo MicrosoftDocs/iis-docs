@@ -61,7 +61,9 @@ void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
 
 The third parameter of the [ScheduleClip(ClipInformation, ClipContext, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-clipcontext-object-microsoft-web-media-smoothstreaming_1.md) method is the userData parameter. The value of the parameter is saved as a member of the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) instance that is created by the [ScheduleClip(ClipInformation, ClipContext, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-clipcontext-object-microsoft-web-media-smoothstreaming_1.md) method. The application can use this parameter to pass anything it requires; typically, the parameter is used to pass something that can identify the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) type. In the following example, SmoothPlayer is passed as the value of userData. Code that appears later in this document shows how to cast the userData value to type [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) in order to retrieve the Smooth Streaming client (player) that generated the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) instance.
 
-    SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer);
+```csharp
+SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer);
+```
 
 If the application must pass more information than is shown in this example, it can create a class to contain all the data and then pass that type as the userData value.
 
@@ -98,17 +100,19 @@ To use the pre-roll scenario, handle the [ManifestReady](smoothstreamingmediaele
 
 The following example shows how to schedule a pre-roll scenario.
 
-    void SmoothPlayer_ManifestReady(object sender, EventArgs e)
+```csharp
+void SmoothPlayer_ManifestReady(object sender, EventArgs e)
+{
+    if (!PremiumAccount)
     {
-        if (!PremiumAccount)
-        {
-            if (InsertClipCheckbox.IsChecked == true)
-            {     
-                SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer );
-                SmoothPlayer.Play();
-            }
+        if (InsertClipCheckbox.IsChecked == true)
+        {     
+            SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer );
+            SmoothPlayer.Play();
         }
     }
+}
+```
 
 ## Chaining Clips
 
@@ -116,13 +120,15 @@ You can schedule clips to run in a series, or chain them. This scenario uses the
 
 The following example uses the [ClipProgressUpdate](smoothstreamingmediaelement-clipprogressupdate-event-microsoft-web-media-smoothstreaming_1.md) event handler to schedule a clip to follow the clip that is reporting its progress in this event. In this case, the event will schedule successive clips up to the count of clips in the clips collection.
 
-    void SmoothPlayer_ClipProgressUpdate(object sender, ClipPlaybackEventArgs e)
+```csharp
+void SmoothPlayer_ClipProgressUpdate(object sender, ClipPlaybackEventArgs e)
+{
+    if (clipIndex < (clips.Count - 1) && e.Progress == ClipProgress.ThirdQuartile)
     {
-        if (clipIndex < (clips.Count - 1) && e.Progress == ClipProgress.ThirdQuartile)
-        {
-            SmoothPlayer.ScheduleClip(clips[++clipIndex], e.Context, SmoothPlayer);
-        }
+        SmoothPlayer.ScheduleClip(clips[++clipIndex], e.Context, SmoothPlayer);
     }
+}
+```
 
 ## See Also
 
@@ -133,4 +139,3 @@ The following example uses the [ClipProgressUpdate](smoothstreamingmediaelement-
 [Timeline Markers and Events](timeline-markers-and-events.md)
 
 [Manifest Merge](manifest-merge.md)
-
