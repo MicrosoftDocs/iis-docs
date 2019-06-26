@@ -11,4 +11,4 @@ msc.type: video
 
 by [Microsoft](https://github.com/Microsoft)
 
-> [!VIDEO https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/Creating-End-to-End-Smooth-Streaming-Video-Solutions-with-Silverlight-and-IIS-Media-Services-Streami]
+> [!VIDEO https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/Creating-End-to-End-Smooth-Streaming-Video-Solutions-with-Silverlight-and-IIS-Media-Services-Streami/player]
