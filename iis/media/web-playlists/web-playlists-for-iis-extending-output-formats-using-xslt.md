@@ -7,8 +7,8 @@ ms.assetid: 3898c37b-ef52-4a73-af40-564c410906d9
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-extending-output-formats-using-xslt
 msc.type: authoredcontent
 ---
-Web Playlists for IIS 7.0 - Extending Output Formats using XSLT
-====================
+# Web Playlists for IIS 7.0 - Extending Output Formats using XSLT
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists for Internet Information Services (IIS) 7.0 and above supports Extensible Stylesheet Language Transformations (XSLT) style sheets that filter or customize the XML data in the Web Playlists HTTP response to clients. For example, you can create an XSLT style sheet that transforms the Web Playlists response so that the data is rendered by players that do not support the ASX format. Another example is where you can create an XSLT style sheet that transforms the Web Playlists response to a Web feed format, such as Atom or RSS. You can create and manage XSL Transformations on the **Output Formats** feature page in Web Playlists.
@@ -40,7 +40,7 @@ Writing an XSLT is similar to writing any XML file. You can easily do this in yo
 
 In **File** &gt; **New File**, chose **XSLT** as shown in the following figure:
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image2.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image1.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image1.bmp)
 
 ### Writing the ATOM XSLT
 
@@ -54,9 +54,7 @@ By default, Web Playlists returns an ASX XML output. Therefore, the atom.xslt fi
 
 **ASX Example**
 
-
 [!code-xml[Main](web-playlists-for-iis-extending-output-formats-using-xslt/samples/sample1.xml)]
-
 
 #### Step 3: Write the XSL transform for ATOM
 
@@ -80,16 +78,15 @@ In IIS Manager, click the **Playlists** icon on your site, and then click **Conf
 > [!IMPORTANT]
 > In **XSLT path**, give the path to your XSLT file, relative to the site root (for example, starting with the "/" character); otherwise, Web Playlists will not accept the path.
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image4.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image3.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image3.bmp)
 
 ### Accessing the new output format on the client
 
 The new output format is accessed by using the following syntax:
 
-> http://*site*/*playlist**name*.isx **?format=&lt;*formatname*&gt;** (for example, http://contoso.com/file.isx **?format=atom**)
+`http://site/playlistname.isx?format=<formatname>` (for example, `http://contoso.com/file.isx?format=atom`)
 
-
-The &lt;*formatname*&gt; is the format name that you specified in IIS Manager while configuring this output format.
+The `<formatname>` is the format name that you specified in IIS Manager while configuring this output format.
 
 ### Testing the ATOM output
 
@@ -99,13 +96,13 @@ ATOM is a well known format so it is easy to test.
 
 Most Web browsers can render ATOM output natively. See the following figure:
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image6.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image5.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image5.bmp)
 
 #### Test 2: Using an ATOM Feed Validator
 
-There are many feed validators available. I use [http://www.feedvalidator.com](http://www.feedvalidator.com/). If your playlist passes the ATOM validation, the validator gives you a pretty icon that you can share on your Web site. See the following figure:
+There are many feed validators available. I use <http://www.feedvalidator.com/>. If your playlist passes the ATOM validation, the validator gives you a pretty icon that you can share on your Web site. See the following figure:
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image8.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image7.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image7.bmp)
 
 ## Summary
 

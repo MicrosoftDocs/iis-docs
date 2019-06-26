@@ -92,7 +92,7 @@ To map a drive from a command prompt, use the following steps:
 - When the command prompt opens, type the following command:  
 
    [!code-console[Main](using-the-webdav-redirector/samples/sample1.cmd)]
-  
+
    Where `www.example.com` is the URL for your server.
 - Once completed, you should have the next available drive letter mapped to your web site.
 
@@ -111,9 +111,9 @@ The following list of error conditions is designed to help troubleshoot situatio
 
 1. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System error 67 has occurred.  
-  
-   The network name cannot be found.**
+   **System error 67 has occurred.**
+
+   **The network name cannot be found.**
 
    This can be caused by one of the following conditions:
 
@@ -126,16 +126,16 @@ The following list of error conditions is designed to help troubleshoot situatio
 
 2. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System error 1920 has occurred.  
-  
-   The file cannot be accessed by the system.**
+   **System error 1920 has occurred.**
+
+   **The file cannot be accessed by the system.**
 
    This error occurs when the account that you are using does not have an authoring rule created for it.
 3. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System error 5 has occurred.  
-  
-   Access is denied.**
+   **System error 5 has occurred.**
+
+   **Access is denied.**
 
    This can be caused by one of the following conditions:
 
@@ -151,9 +151,9 @@ The following list of error conditions is designed to help troubleshoot situatio
     This occurs when the SSL certificate for the site that you are using does not match the name of the address that you used. For example, you are connecting to a site named `www.contoso.com`, but your SSL certificate was issued to `shopping.contoso.com`.
 5. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System Error 1244 has occurred.  
-  
-   The operation being request was not performed because the user has not been authenticated.**
+   **System Error 1244 has occurred.**
+
+   **The operation being request was not performed because the user has not been authenticated.**
 
    This can be caused by one of the following conditions:
 
@@ -162,9 +162,9 @@ The following list of error conditions is designed to help troubleshoot situatio
    - The logon type for content on a UNC share is incorrect; this setting is configured in the **Physical Path Credentials Logon Type** option in the **Advanced Settings** for a website or application, and is defined by the **logonMethod** attribute for the **[virtualDirectory](https://www.iis.net/configreference/system.applicationhost/sites/site/application/virtualdirectory)** settings for a website or virtual directory. For example: if the directory for your website's content is on a network share, you may need to change your settings from **Clear Text** to **Network** depending on your network configuration.
 6. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System error 59 has occurred.  
-  
-   An unexpected network error occurred.**
+   **System error 59 has occurred.**
+
+   **An unexpected network error occurred.**
 
    This can be caused by one of the following conditions:
 
@@ -172,23 +172,23 @@ The following list of error conditions is designed to help troubleshoot situatio
    - The application pool for the web site that you are attempting to connect to has been stopped.
 7. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System error 1397 has occurred.  
+   **System error 1397 has occurred.**
   
-   Mutual Authentication failed. The server's password is out of date at the domain controller.**
+   **Mutual Authentication failed. The server's password is out of date at the domain controller.**
 
    This error occurs when the WebDAV client is running into the problems that are described in [KB941298](https://support.microsoft.com/kb/941298).
 8. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System error 58 has occurred.  
+   **System error 58 has occurred.**
   
-   The specified server cannot perform the requested operation.**
+   **The specified server cannot perform the requested operation.**
 
    This error occurs when the WebDAV server does not have the correct host name in its bindings. For example, if you have DNS entries for `contoso.com` and `www.contoso.com`, but you only have an IIS binding for `contoso.com`, you will see the error when you attempt to map a drive to `www.contoso.com`.
 9. When attempting to map a drive to a WebDAV site, you receive the following error:
 
-   **System error 224 has occurred.  
+   **System error 224 has occurred.**
   
-   Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.**
+   **Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.**
 
    This error occurs when the WebDAV site is not trusted by the WebDAV redirector. To resolve this issue, you need to add the website's URL to the list of trsuted sites. To do so, use the following steps:
 
@@ -217,8 +217,45 @@ The following table details the various settings and values that are available.
 
 **WARNING**: If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk.
 
-| Value &amp; Description | Type | Values | Default |
-| --- | --- | --- | --- |
+:::row:::
+    :::column:::
+        Value &amp; Description
+    :::column-end:::
+    :::column:::
+        Type
+    :::column-end:::
+    :::column:::
+        Values
+    :::column-end:::
+    :::column:::
+        Default
+    :::column-end:::
+:::row-end:::
+* * *
+:::row:::
+    :::column:::
+        **AcceptOfficeAndTahoeServers**
+
+        Specifies whether the WebClient service can connect to web sites that are running SharePoint or Office Web Server.
+    :::column-end:::
+    :::column:::
+        DWORD
+    :::column-end:::
+    :::column:::
+
+        | | | |
+        | --- | --- | --- | 
+        | 0 | = | False | 
+        | 1 | = | True | | 1 |
+
+    :::column-end:::
+    :::column:::
+        1
+    :::column-end:::
+:::row-end:::
+* * *
+
+
 | **AcceptOfficeAndTahoeServers** Specifies whether the WebClient service can connect to web sites that are running SharePoint or Office Web Server. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |
 | **AuthForwardServerList** Specifies a list of local URLs for forwarding credentials that bypasses any proxy settings. (Note: This requires Windows Vista SP1 or later.) | MULTI\_SZ | A carriage-return/line-feed separated list of URLs. | n/a |
 | **BasicAuthLevel** Specifies whether the WebClient service can use basic authentication to talk to a server. **Note:** Using basic authentication can cause *serious security issues* as the username/password are transmitted in clear text, therefore the use of basic authentication over WebDAV is disabled by default unless the connection is using SSL. That being said, this registry key can override the default basic authentication behavior, but it is still *strongly discouraged*. | DWORD | | 0 | = | Basic authentication is disabled | | --- | --- | --- | | 1 | = | Basic authentication is enabled for SSL web sites only | | 2 | = | Basic authentication is enabled for SSL and non-SSL web sites | | 1 |

@@ -7,8 +7,8 @@ ms.assetid: 5379a674-41f0-49d9-b744-cf5abd92749a
 msc.legacyurl: /learn/troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer
 msc.type: authoredcontent
 ---
-Troubleshooting Problems with Microsoft Web Platform Installer
-====================
+# Troubleshooting Problems with Microsoft Web Platform Installer
+
 by IIS Team
 
 ## Introduction
@@ -137,20 +137,21 @@ If IIS is configured for "Shared Configuration," Web PI cannot install most addi
 
 #### Issues with Microsoft SQL Server during application installation:
 
-- **Applications do not work without SQL****"****Mixed mode authentication**."   
- For most Web applications, SQL Server user accounts are required in order to access a database. If only integrated or Windows authentication for SQL Server are selected, you cannot install some of the applications in the gallery.
+- **Applications do not work without SQL "Mixed mode authentication."**   
+  For most Web applications, SQL Server user accounts are required in order to access a database. If only integrated or Windows authentication for SQL Server are selected, you cannot install some of the applications in the gallery.
 - **SQL Server passwords are not accepted if they do not meet strength requirements**.   
- However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/library/ms161959.aspx) according to the SQL Server policy.
+  However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/library/ms161959.aspx) according to the SQL Server policy.
 - **SQL Server user names cannot be longer than 16 characters**.   
- However, Web PI does not validate user fields for length or other criteria. The failure to create an account with a user name that is more than 16-characters long happens during application installation, and the installation fails. Use a user name that is no more than 16-characters long.
+  However, Web PI does not validate user fields for length or other criteria. The failure to create an account with a user name that is more than 16-characters long happens during application installation, and the installation fails. Use a user name that is no more than 16-characters long.
 - **Other Microsoft SQL Server issues.** Check the SQL Server log files in the following directory for more information:  
- %programfiles%\microsoft sql server\100\setup bootstrap\log   
- More details about how to trouble shoot SQL issues can be found at [https://support.microsoft.com/kb/955396](https://support.microsoft.com/kb/955396)
-- **Custom Installation of SQL Server**For customers needing customization for their SQL Server install outside of Web PI, please check this guide [https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx](https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx)
+  %programfiles%\microsoft sql server\100\setup bootstrap\log   
+  More details about how to trouble shoot SQL issues can be found at [https://support.microsoft.com/kb/955396](https://support.microsoft.com/kb/955396)
+- **Custom Installation of SQL Server**  
+  For customers needing customization for their SQL Server install outside of Web PI, please check this guide <https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx>.
 
 **Issues with Visual Web Developer installation:** 
 
-- The following link is a troubleshooting guide for failures during Visual Web Developer Installations [https://blogs.msdn.com/astebner/archive/2007/07/31/4156781.aspx](https://blogs.msdn.com/astebner/archive/2007/07/31/4156781.aspx)
+- The following link is a troubleshooting guide for failures during Visual Web Developer Installations <https://blogs.msdn.com/astebner/archive/2007/07/31/4156781.aspx>.
 
 ## Additional Troubleshooting Tools, Tips, and Tricks
 
@@ -172,17 +173,13 @@ Web PI downloads its product catalog and the product packages through HTTP reque
 
 Windows has a central repository for errors, informational messages, and warnings called the Windows Event Log. Though sometimes overlooked, Event Log often provides the solution to many problems and is worth exploring. To open the Windows Event Log, type the following at the command prompt or in the Run menu:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample6.cmd)]
-
 
 ### Web PI Tracing
 
 Web PI has an additional built-in tracing mechanism. It can be activated by saving the following configuration file as webplatforminstaller.exe.config in the %programfiles%\Microsoft\Web Platform Installer directory.
 
-
 [!code-html[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample7.html)]
-
 
 The trace file called WebPI.log file is also written to the %programfiles%\Microsoft\Web Platform Installer directory.
 
@@ -190,10 +187,8 @@ The trace file called WebPI.log file is also written to the %programfiles%\Micro
 
 Web PI is caching the product catalog and other files to optimize startup time. If the product catalog seems to be outdated or if incorrect data is displayed in Web PI, delete the cache with:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample8.cmd)]
-
 
 ## Additional Help
 
-If you have exhausted the troubleshooting tips and tricks in this article and are still having problems, visit the Web Platform Installer forum at [https://forums.iis.net/1155.aspx](https://forums.iis.net/1155.aspx).
+If you have exhausted the troubleshooting tips and tricks in this article and are still having problems, visit the Web Platform Installer forum at <https://forums.iis.net/1155.aspx>.

@@ -7,8 +7,8 @@ ms.assetid: 375c1a34-4245-46de-a700-13def000bfc4
 msc.legacyurl: /learn/publish/using-webdav/how-to-configure-webdav-settings-using-appcmd
 msc.type: authoredcontent
 ---
-How to Configure WebDAV Settings Using AppCmd
-====================
+# How to Configure WebDAV Settings Using AppCmd
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 <a id="00"></a>
@@ -25,10 +25,10 @@ The following items are required to complete the procedures in this article:
 
 - IIS 7.0 must be installed on your server, and the following must be configured: 
 
-    - The Default Web Site that is created by the IIS 7.0 installation must still exist.
+  - The Default Web Site that is created by the IIS 7.0 installation must still exist.
 - The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document: 
 
-    - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
+  - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 > [!NOTE]
 > You need to make sure that you follow the steps in this document using full administrative permissions. This is best accomplished using one of two methods:
@@ -226,16 +226,15 @@ Authoring rules are kept in a collection, and each rule can contain the followin
 | roles | Specifies a group/role for the rule. |
 | access | Specifies the access type for the rule. (See below) |
 
-
 **Notes**:
 
 - The "path" attribute is used to specify the content type for the authoring rule. This can be for specific content types like "\*.aspx", "\*.htm", etc., or you can use "\*" to indicate that the authoring rule is for all content.
 - The "roles" and "users" attributes should be declared exclusive to each other. That is to say, an authoring rule should be for either "users" or "roles", but not both.
-- The following special values for the "users" attribute are defined: 
+- The following special values for the "users" attribute are defined:
 
     | **Value** | **Description** |
     | --- | --- |
-    | **\*** | All users |
+    | __\*__ | All users |
     | **?** | Anonymous users |
 
     > [!NOTE]
@@ -284,14 +283,14 @@ This document has shown you how to do the following:
 
 - [Work with AppCmd to perform basic WebDAV tasks](how-to-configure-webdav-settings-using-appcmd.md#02): 
 
-    - [Enable or disable WebDAV for a web site](how-to-configure-webdav-settings-using-appcmd.md#02a)
-    - [Require SSL for WebDAV authoring for a web site](how-to-configure-webdav-settings-using-appcmd.md#02b)
-    - [Allow access to hidden files for a web site](how-to-configure-webdav-settings-using-appcmd.md#02c)
-    - [Configure WebDAV compatibility settings for a web site](how-to-configure-webdav-settings-using-appcmd.md#02d)
+  - [Enable or disable WebDAV for a web site](how-to-configure-webdav-settings-using-appcmd.md#02a)
+  - [Require SSL for WebDAV authoring for a web site](how-to-configure-webdav-settings-using-appcmd.md#02b)
+  - [Allow access to hidden files for a web site](how-to-configure-webdav-settings-using-appcmd.md#02c)
+  - [Configure WebDAV compatibility settings for a web site](how-to-configure-webdav-settings-using-appcmd.md#02d)
 - [Work with WebDAV Authoring Rules](how-to-configure-webdav-settings-using-appcmd.md#03): 
 
-    - [Configure Authoring Rule Defaults](how-to-configure-webdav-settings-using-appcmd.md#03a)
-    - [Manage Authoring Rules](how-to-configure-webdav-settings-using-appcmd.md#03b)
+  - [Configure Authoring Rule Defaults](how-to-configure-webdav-settings-using-appcmd.md#03a)
+  - [Manage Authoring Rules](how-to-configure-webdav-settings-using-appcmd.md#03b)
 
 ### More Information
 
