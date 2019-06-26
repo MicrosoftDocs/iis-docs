@@ -7,8 +7,8 @@ ms.assetid: aa95217f-08aa-4af9-a783-0b605ffe590c
 msc.legacyurl: /learn/media/live-smooth-streaming-events/sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming
 msc.type: authoredcontent
 ---
-Sunday Night Football Extra: Live in HD with IIS Smooth Streaming
-====================
+# Sunday Night Football Extra: Live in HD with IIS Smooth Streaming
+
 by Daniel Karuppiah, Jason Suess, Alex Zambelli
 
 Shortly before the 2009 National Football League (NFL) season began, NBC, in partnership with the NFL, announced plans to offer live streaming of Sunday Night Football in the United States on NBCSports.com and NFL.com. This was nothing new—during the first two years of its coverage of Sunday Night Football, NBC offered a simultaneous webcast of each game through a video player built on the Adobe® Flash® Platform. However, the stream-switching capabilities of the HTTP Dynamic Streaming feature in the Platform couldn't dynamically adapt the video stream bitrate, meaning that viewers with lower bandwidth and/or slower processors experienced periods of video buffering, stuttering, and degraded picture quality.
@@ -52,8 +52,10 @@ The basic steps of the live broadcast included the following:
 - **Content delivery**. Streaming video, audio, and related content.
 - **Playback and analytics**. Providing a DVR–like experience for viewers and user statistics to NBC.
 
-| Fast Facts |
-| --- |
+**Fast Facts** 
+
+| | |
+| --- | --- |
 | Total number of football games | 17 |
 | Average viewing time | 29 minutes |
 | Amount of video streamed | Approximately 1 million hours |
@@ -70,8 +72,10 @@ iStreamPlanet delivered the full value of Smooth Streaming to the player through
 
 To keep the video feeds synchronized, four SD video feeds were timed to match with the main HD feed. To accomplish this, iStreamPlanet muxed (multiplexed) the SD feeds into a single ASI feed, uplinked the feed to an AMC-6 satellite, and then downlinked the feed in Las Vegas. The feed was then demuxed (demultiplexed) back into the individual feeds, fed into Smooth Streaming-compatible encoders (in this case, 10 Inlet Spinnaker 7000 encoders), with the encoded output (31 streams) pushed to Microsoft edge-caching network (ECN) facilities in San Antonio and Virginia, which in turn distributed the content to Akamai's CDN in order to scale the webcast to viewers.
 
-| Production Solution Facts |
-| --- |
+**Production Solution Facts**
+
+| | |
+| --- | --- |
 | Time frame | 3 months |
 | Tools and technologies | - IIS 7 - IIS Media Services 3.0 - Microsoft Media Platform: Player Framework - Microsoft Media Platform Video Editor |
 | Encoder | - 10 Inlet Spinnaker 7000 encoders - 2 operators to manage the encoders during production |
@@ -123,8 +127,10 @@ The goals for the video player raised several design and development challenges,
 
 NBC tapped California-based Vertigo, a user experience design and software development consulting firm, to build the Sunday Night Football Extra client application (as seen in Figure 1) based on Silverlight 3, the cross-browser, cross-platform, and cross-device browser plug-in. This section provides an overview of the tools and technologies that the player design and development team used to create the video player.
 
-| Video Player Development Facts |
-| --- |
+**Video Player Development Facts**
+
+| | |
+| --- | -- |
 | Developers | 4 |
 | Designers | 2 |
 | Testers | 2 |
@@ -156,11 +162,11 @@ Microsoft Silverlight 3 introduced major media enhancements that benefited this 
 Silverlight, when combined with Smooth Streaming, delivers great video performance from both a content delivery and user point of view, including support for specific features such as:
 
 - **Multiple camera angles**. To support seamless viewing of the five video feeds, Vertigo used an API to filter each stream so that the main screen was at full bitrate (3.5 Mbps) and the smaller screens were played at a low bitrate (50 Kbps, with no buffering).
-- **Live ad insertion**. The video player included the following advertising support features: 
+- **Live ad insertion**. The video player included the following advertising support features:
 
-    - Video preroll ads, when a user first started the player.
-    - Video midroll and companion ads, which were dynamically inserted into the player during the course of the game.
-    - Sponsorship of game highlights and sideline interviews.
+  - Video preroll ads, when a user first started the player.
+  - Video midroll and companion ads, which were dynamically inserted into the player during the course of the game.
+  - Sponsorship of game highlights and sideline interviews.
     - Banner ads during video playback.
 - **Analytics**. The video player supported real-time audience measurement and inference services, provided by Conviva, during the streamed sessions. By using Conviva's Pulse management console, NBC gained unprecedented insights into per-viewer video quality and experience, viewer engagement, content popularity trends, distribution resource performance, and operational diagnostics.
 - **Track selection**. The player allowed the viewer to choose which live video stream or highlight clip to view on the main screen.

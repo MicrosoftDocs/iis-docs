@@ -69,7 +69,7 @@ To configure job templates, do the following:
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
    | ![](encrypting-on-demand-smooth-streams/_static/image5.png) | ![](encrypting-on-demand-smooth-streams/_static/image6.png) |
-  
+
    Note the name of the watch folder that the job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transformation jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
    ![](encrypting-on-demand-smooth-streams/_static/image7.png)
@@ -81,12 +81,12 @@ To configure job templates, do the following:
 
    The **Task definitions** list shows the tasks that are used by the job template.  
 
-   | ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) > **Note:** - The **Edit Job Template** dialog box will display a task configuration error message on the **Messages** tab if a required property value for the **PlayReady Protection** task isn't specified. You can ignore this message for now as we'll configure the required task properties later in this article. |
-   | --- |
+   > [!NOTE]
+   > The **Edit Job Template** dialog box will display a task configuration error message on the **Messages** tab if a required property value for the **PlayReady Protection** task isn't specified. You can ignore this message for now as we'll configure the required task properties later in this article.
 
 5. If you selected the **Smooth Streams to encrypted Smooth Streams** job template, select the **PlayReady Protection** task in the **Task definitions** list, click **Edit**, and then [configure the **PlayReady Protection** task properties](encrypting-on-demand-smooth-streams.md#config_task).  
    ![](encrypting-on-demand-smooth-streams/_static/image17.png)
-  
+
    If you selected another job template, you must add the **PlayReady Protection** task to the proper location in the **Task definitions** list before configuring its properties. For more information, see [Chaining the PlayReady Protection Task to a Job Template](encrypting-on-demand-smooth-streams.md#chain_task) .
 
 <a id="chain_task"></a>
@@ -111,7 +111,7 @@ To add the **PlayReady Protection** task to the existing workflow, do the follow
    ![](encrypting-on-demand-smooth-streams/_static/image25.png)
 3. In the **Edit Job Template** dialog box, select the **PlayReady Protection** task in the **Task definitions** list, and then click the **Move Up** or **Move Down** buttons until it's displayed below the task that creates the Smooth Streaming output that you want to encrypt.  
    ![](encrypting-on-demand-smooth-streams/_static/image29.png)
-  
+
    In this example, both the **Smooth Streams to Apple HTTP Live Streams** and **PlayReady Protection** tasks will act on the Smooth Streaming output that the **Expression Encoder 4.0 SP2** task creates.
 4. Select the **Expression Encoder 4.0 SP2** task in the **Task definitions** list, and then click **Edit**. Note the value of **Output folder name** for this task, and then click **Cancel** to close the dialog box.  
    ![](encrypting-on-demand-smooth-streams/_static/image33.png)
@@ -131,7 +131,7 @@ This section describes how to configure the **PlayReady Protection** task proper
 
 1. In the **Edit PlayReady Protection Task** dialog box, you can edit task properties in the **Properties** list. Select a property in the list, and then double-click the **Value** field to add or update the value.  
    ![](encrypting-on-demand-smooth-streams/_static/image41.png)
-  
+
    The following guidance applies to properties of particular importance for this workflow:  
 
    | Name | Required | Description |
@@ -152,8 +152,8 @@ In either case, the license server generates a license derived from the content 
 
 The Silverlight PlayReady DRM component on the local computer verifies the license, including any content policies such as the license expiration date, before the Silverlight client can play the Smooth Streaming presentation.
 
-| ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) **Note:** - You can specify **keyID** and **keySeedValue** values in the Smooth Streaming presentation server manifest (.ism) file content header to override the property values in the **PlayReady Protection** task definition. This provides another option to ensure that your Smooth Streaming presentations are uniquely identified for licensing purposes. For more information, see William Zhang's blog, [How to add PlayReady protection in a Transform Manager job template](https://blogs.msdn.com/b/playready4/archive/2011/09/02/how-to-add-playready-protection-in-a-transform-manager-job-template.aspx). |
-| --- |
+> [!NOTE]
+> You can specify **keyID** and **keySeedValue** values in the Smooth Streaming presentation server manifest (.ism) file content header to override the property values in the **PlayReady Protection** task definition. This provides another option to ensure that your Smooth Streaming presentations are uniquely identified for licensing purposes. For more information, see William Zhang's blog, [How to add PlayReady protection in a Transform Manager job template](https://blogs.msdn.com/b/playready4/archive/2011/09/02/how-to-add-playready-protection-in-a-transform-manager-job-template.aspx).
 
 <a id="config_wf"></a>
 
@@ -181,28 +181,29 @@ To configure the watch folder, do the following:
    | Scheduler | Scheduler | In **Scheduler**, select **Local Task Scheduler** to specify that Windows Task Scheduler on the local computer be used to run jobs, monitor and report job status, and allocate CPU resources to tasks. For large computation-intensive jobs (such as encoding and transcoding) where CPU resources might not be sufficient, you can shift the jobs from the local computer to computers in a High Performance Computing (HPC) cluster, and then configure the watch folder to use the HPC Task Scheduler on the head node in the HPC cluster. For more information about how to use Transform Manager with an HPC cluster, see [High-Performance Transcoding with IIS Transform Manager and Windows HPC Server](high-performance-transcoding-with-iis-transform-manager-and-windows-hpc-server.md). |
    | Scheduler | Concurrent jobs and Priority | Use these settings to manage computer resources. **Concurrent jobs** controls how many jobs can run at the same time in the watch folder. The value is **1** by default, which means that if you drop 10 playlist files in the watch folder, only one will begin processing immediately while the rest go into a job queue. You can adjust this setting depending on the physical memory and number of CPUs available. If jobs fail due to low available memory and CPU resources, increase the amount of available RAM and/or CPUs, or reduce the number of concurrent jobs to **1**. Selecting the **Unlimited** check box disables the concurrency setting and immediately schedules all playlist files that are detected in the watch folder for processing. **Priority** controls the priority that jobs are given when scheduled by a watch folder. If multiple watch folders are running on the computer, you can assign a **Priority** value to each one. This setting enables jobs that are in high-priority watch folders to be created and run first. If you drop media assets in a watch folder, but another watch folder that has a higher priority level is actively running jobs, the jobs for the dropped media assets aren't created and queued for processing until the higher-priority watch folder finishes all of its jobs. |
    | Advanced Settings | Credentials | You must specify a user account for the watch folder to impersonate. The tasks in the job template that's bound to the watch folder will run under the security context of this user account. You must ensure that it has the required permissions for the tasks that are run. For more information about how to create this account, see [Creating Watch Folder Impersonation Accounts](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh147633(v=ws.10)). |
+
 5. Click **OK** to save your modifications to the watch folder.
 6. On the **Watch Folders** page, select the watch folder, and then, in the **Actions** pane, click **Enable**.  
    ![](encrypting-on-demand-smooth-streams/_static/image51.png)
-  
+
    The watch folder is now enabled, but not yet started.
 
    | **PlayReady Protection** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
    | ![](encrypting-on-demand-smooth-streams/_static/image59.png) | ![](encrypting-on-demand-smooth-streams/_static/image60.png) |
-  
+
    Watch folders that are enabled will automatically start when the Transform Manager service is restarted. This setting is provided to start watch folders after a service recycle event or after a computer restart.
 7. In the **Actions** pane, click **Start**.  
    ![](encrypting-on-demand-smooth-streams/_static/image61.png)
-  
+
    The watch folder is now active and ready to accept dropped media assets (either Smooth Streaming presentation files or media asset files).
 
    | **PlayReady Protection** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
    | ![](encrypting-on-demand-smooth-streams/_static/image65.png) | ![](encrypting-on-demand-smooth-streams/_static/image66.png) |
 
-    | ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) **Note:** - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
-    | --- |
+    > [!NOTE]
+    > You can't start a watch folder if another active watch folder thread is already using the same watch folder root path.
 
 <a id="tm1"></a>
 
@@ -216,8 +217,8 @@ To begin transforming content, copy-and-paste the ISM file, the Smooth Streaming
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
 ![](encrypting-on-demand-smooth-streams/_static/image71.png)
 
-| ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) **Note:** - Don't drop multiple ISM manifest files in the watch folder at the same time if they reference the same streams. The job manager will schedule jobs for media files that are referenced in one ISM manifest, and when all of the streams that are referenced in the manifest are present, move the manifest and streams as a group to the watch folder's WorkQueue directory. Another manifest that references the same streams then can't be processed because the streams were removed from the watch folder with the previous manifest. To schedule jobs for this manifest, you must drop the missing streams into the watch folder again. |
-| --- |
+> [!NOTE]
+> Don't drop multiple ISM manifest files in the watch folder at the same time if they reference the same streams. The job manager will schedule jobs for media files that are referenced in one ISM manifest, and when all of the streams that are referenced in the manifest are present, move the manifest and streams as a group to the watch folder's WorkQueue directory. Another manifest that references the same streams then can't be processed because the streams were removed from the watch folder with the previous manifest. To schedule jobs for this manifest, you must drop the missing streams into the watch folder again.
 
 <a id="tm2"></a>
 
