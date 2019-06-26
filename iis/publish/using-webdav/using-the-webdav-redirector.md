@@ -217,45 +217,8 @@ The following table details the various settings and values that are available.
 
 **WARNING**: If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk.
 
-:::row:::
-    :::column:::
-        Value &amp; Description
-    :::column-end:::
-    :::column:::
-        Type
-    :::column-end:::
-    :::column:::
-        Values
-    :::column-end:::
-    :::column:::
-        Default
-    :::column-end:::
-:::row-end:::
-* * *
-:::row:::
-    :::column:::
-        **AcceptOfficeAndTahoeServers**
-
-        Specifies whether the WebClient service can connect to web sites that are running SharePoint or Office Web Server.
-    :::column-end:::
-    :::column:::
-        DWORD
-    :::column-end:::
-    :::column:::
-
-        | | | |
-        | --- | --- | --- | 
-        | 0 | = | False | 
-        | 1 | = | True | | 1 |
-
-    :::column-end:::
-    :::column:::
-        1
-    :::column-end:::
-:::row-end:::
-* * *
-
-
+| Value &amp; Description | Type | Values | Default |
+| --- | --- | --- | --- |
 | **AcceptOfficeAndTahoeServers** Specifies whether the WebClient service can connect to web sites that are running SharePoint or Office Web Server. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |
 | **AuthForwardServerList** Specifies a list of local URLs for forwarding credentials that bypasses any proxy settings. (Note: This requires Windows Vista SP1 or later.) | MULTI\_SZ | A carriage-return/line-feed separated list of URLs. | n/a |
 | **BasicAuthLevel** Specifies whether the WebClient service can use basic authentication to talk to a server. **Note:** Using basic authentication can cause *serious security issues* as the username/password are transmitted in clear text, therefore the use of basic authentication over WebDAV is disabled by default unless the connection is using SSL. That being said, this registry key can override the default basic authentication behavior, but it is still *strongly discouraged*. | DWORD | | 0 | = | Basic authentication is disabled | | --- | --- | --- | | 1 | = | Basic authentication is enabled for SSL web sites only | | 2 | = | Basic authentication is enabled for SSL and non-SSL web sites | | 1 |
