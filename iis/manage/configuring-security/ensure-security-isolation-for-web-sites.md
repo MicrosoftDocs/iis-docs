@@ -7,8 +7,8 @@ ms.assetid: cb601eaa-b4a2-40a2-86e9-0210d90666e2
 msc.legacyurl: /learn/manage/configuring-security/ensure-security-isolation-for-web-sites
 msc.type: authoredcontent
 ---
-Ensure Security Isolation for Web Sites
-====================
+# Ensure Security Isolation for Web Sites
+
 by Tali Smith
 
 ## Introduction
@@ -22,7 +22,7 @@ The recommendation for isolating Web sites in a shared hosting environment is co
 
 An architectural view of application pools appears in the figure that follows.
 
-[![](ensure-security-isolation-for-web-sites/_static/image2.jpg)](ensure-security-isolation-for-web-sites/_static/image1.jpg)
+![](ensure-security-isolation-for-web-sites/_static/image1.jpg)
 
 *Figure 1: Application pools*
 
@@ -43,15 +43,13 @@ Once a pool is created, you can change its settings whenever necessary.
 
 You can also use the command line. Use:
 
-
 [!code-console[Main](ensure-security-isolation-for-web-sites/samples/sample1.cmd)]
-
 
 Note that string is the name of the application pool.
 
 The Edit Application Pool dialog box lets you configure how IIS 7 and above handles worker process recycling for the application pool.
 
-[![](ensure-security-isolation-for-web-sites/_static/image4.jpg)](ensure-security-isolation-for-web-sites/_static/image3.jpg)
+![](ensure-security-isolation-for-web-sites/_static/image3.jpg)
 
 *Figure 2: Edit Application Pool*
 
@@ -59,7 +57,7 @@ The Edit Application Pool dialog box lets you configure how IIS 7 and above hand
 
 Application Pool Identities is a new security features that lets you run application pools under a unique account without having to create and manage domain or local accounts. The name of the application pool account corresponds to the name of the application pool. The figure that follows shows an IIS worker process (w3wp.exe) running as the DefaultAppPool identity.
 
-[![](ensure-security-isolation-for-web-sites/_static/image2.gif)](ensure-security-isolation-for-web-sites/_static/image1.gif)
+![](ensure-security-isolation-for-web-sites/_static/image1.gif)
 
 *Figure 3: Application Pool Identity Accounts*
 
@@ -84,15 +82,13 @@ Try selecting a file in Windows Explorer® and adding the "DefaultAppPool" ident
 
 The file or directory you selected now also allows the DefaultAppPool identity access.
 
-[![](ensure-security-isolation-for-web-sites/_static/image6.jpg)](ensure-security-isolation-for-web-sites/_static/image5.jpg)
+![](ensure-security-isolation-for-web-sites/_static/image5.jpg)
 
 *Figure 4: Select Users or Groups*
 
 You can also use the command line with the Icacls.exe tool. The following gives full access to the DefaultAppPool identity:
 
-
 [!code-console[Main](ensure-security-isolation-for-web-sites/samples/sample2.cmd)]
-
 
 On the Windows® 7 and Windows Server® 2008 R2 operating systems, the default is to run Application Pools as this security identifier (as the Application Pool Identity). A new identity type with the name "AppPoolIdentity" is available. If the "AppPoolIdentity" identity type is selected (this is the default on Windows 7 and Windows Server 2008 R2), IIS will run worker processes as the Application Pool identity. With every other identity type, the security identifier is only injected into the access token of the process. If the identifier is injected, content can still be ACLed for the AppPool identity, but the owner of the token is probably not unique. See the section [Isolate Application Pools](#Isolate_Application_Pools) that follows.
 
@@ -100,15 +96,11 @@ On the Windows® 7 and Windows Server® 2008 R2 operating systems, the default i
 
 Using the NETWORKSERVICE account in a domain environment has a great benefit. Worker process running as NETWORKSERVICE can access the network as the machine account. Machine accounts are generated when a machine is joined to a domain:
 
-
 [!code-xml[Main](ensure-security-isolation-for-web-sites/samples/sample3.xml)]
-
 
 For example:
 
-
 [!code-console[Main](ensure-security-isolation-for-web-sites/samples/sample4.cmd)]
-
 
 Network resources such as file shares or Microsoft® SQL Server® databases can be ACLed to allow access for this machine account. Application Pool identities also use the machine account to access network resources. No changes are required.
 
@@ -131,9 +123,7 @@ Each application pool also has a Security Identifier (SID) that is added to the 
 
 You can use the Icacls.exe tool to identify the SID applied to any given application pool's configuration file with:
 
-
 [!code-console[Main](ensure-security-isolation-for-web-sites/samples/sample5.cmd)]
-
 
 A user can use the application pool SID to ACL their contents and secure their Web site. This is useful for Web hosters who need to accept content from various external sources.
 
@@ -145,10 +135,10 @@ A user can use the application pool SID to ACL their contents and secure their W
 After configuring the NTFS permissions, only the SID that has been injected into a particular w3wp.exe process will be able to read the contents of the Web site. All code running in other w3wp.exe processes (even if running with the same identity) will not be able to access this Web site's content.
 
 > [!NOTE]
-> *This article is based on material from "*[Application Pool Identities](application-pool-identities.md)"*written by the IIS Team and published on May 27, 2009**.*
+> *This article is based on material from [Application Pool Identities](application-pool-identities.md) written by the IIS Team and published on May 27, 2009.*
 
 ## Links for Further Information
 
-- [New in IIS 7 - App Pool Isolation](http://www.adopenstatic.com/cs/blogs/ken/archive/2008/01/29/15759.aspx).
-- [Create an Application Pool (IIS 7)](https://technet.microsoft.com/en-us/library/cc731784.aspx).
-- [Managing Application Pools in IIS 7](https://technet.microsoft.com/en-us/library/cc753449(WS.10).aspx).
+- [New in IIS 7 - App Pool Isolation](http://www.adopenstatic.com/cs/blogs/ken/archive/2008/01/29/15759.aspx)
+- [Create an Application Pool (IIS 7)](https://technet.microsoft.com/en-us/library/cc731784.aspx)
+- [Managing Application Pools in IIS 7](https://technet.microsoft.com/en-us/library/cc753449(WS.10).aspx)

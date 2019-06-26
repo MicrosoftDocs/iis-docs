@@ -984,11 +984,11 @@ Basic &amp; Starter</th></TR>
 <td>
 <p>Unlimited</p></td>
 <td>
-<P align=right>10</p></td>
+<p align="right">10</p></td>
 <td>
-<P align=right>3</p></td>
+<p align="right">3</p></td>
 <td>
-<P align=right>3</p></td></TR>
+<p align="right">3</p></td></TR>
 </tbody></table>
 
 ## Summary
