@@ -63,6 +63,7 @@ Use this member to assign a Smooth Streaming source. For other media data that i
 
 > [!NOTE]  
 > Do not set [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) to a URI that contains a query, such as `http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1`.
+>
 > If a query is set and the config.xml file includes `ResponseCacheEnabled="true"` instead of `ResponseCacheEnabled="false"`, the entire URI (including the query) could be persisted in ResponseCache.
 
 ## Version Information
