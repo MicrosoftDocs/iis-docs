@@ -24,10 +24,10 @@ In this article, we enable Web Playlists to output ATOM Web feed format, in addi
 
 As defined by the [W3C specification](http://www.w3.org/Style/XSL/):
 
-*"XSL is a family of recommendations for defining XML document transformation and presentation. It consists of three parts:*
+*"__XSL__ is a family of recommendations for defining XML document transformation and presentation. It consists of three parts:*
   
-- *[XSL Transformations](http://www.w3.org/TR/xslt)(XSLT) - a language for transforming XML.*
-- *[The XML Path Language](http://www.w3.org/TR/xpath) (XPath) - an expression language used by XSLT to access or refer to parts of an XML document. (XPath is also used by the XML Linking specification.)*
+- *[XSL Transformations](http://www.w3.org/TR/xslt) (XSLT) - a language for transforming XML;*
+- *[The XML Path Language](http://www.w3.org/TR/xpath) (XPath) - an expression language used by XSLT (and many other languages) to access or refer to parts of an XML document;*
 - *[XSL Formatting Objects](http://www.w3.org/TR/xsl) (XSL-FO) - an XML vocabulary for specifying formatting semantics.*
 
 *An XSLT stylesheet specifies the presentation of a class of XML documents by describing how an instance of the class is transformed into an XML document that uses a formatting vocabulary, such as (X)HTML or XSL-FO. For a more detailed explanation of how XSL works, see the [What Is XSL](http://www.w3.org/Style/XSL/WhatIsXSL.html) page."*
