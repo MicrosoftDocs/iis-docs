@@ -82,10 +82,10 @@ To stream the video in HTML5, add an HTML5 Video element to the project's defaul
 
 - Open default.html and add the following Video element to the `<body>` section:
 
-````html
+```html
 <body>
-    <video id="Video1" autoplay="autoplay" controls="controls"
-        src="http://mediadl.microsoft.com/mediadl/iisnet/smoothmedia/Experience/BigBuckBunny_720p.ism/Manifest" style="height: 100%; width: 100%; margin: auto"></video>
+    <video id="Video1" autoplay="autoplay" controls="controls"  
+           src="http://mediadl.microsoft.com/mediadl/iisnet/smoothmedia/Experience/BigBuckBunny_720p.ism/Manifest" style="height: 100%; width: 100%; margin: auto"></video>
 </body>
 ```
 
