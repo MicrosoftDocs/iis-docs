@@ -16,11 +16,11 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 In IIS 7.0, IIS 7.5, and above, several security changes were made that may affect how classic ASP applications will function. For example, if you were to copy a classic ASP application that uses an Access database that is within the Web site's content area to a server that uses IIS 7.0 or above, you may receive the following error message:
 
-**Microsoft JET Database Engine error '80004005'  
+**Microsoft JET Database Engine error '80004005'**
   
-Unspecified error.  
+**Unspecified error.**
   
-/example.asp, line 100**
+**/example.asp, line 100**
 
 This is a generic error triggered by the Access driver that may occur for a variety of reasons, but incorrect permissions is a common cause. More specifically, the ability to work with Microsoft Access databases is implemented through the Microsoft JET Database Engine, which creates various temporary and lock files when it connects to an Access database. The following sections will discuss some of the reasons why this may occur and how to resolve those situations.
 
