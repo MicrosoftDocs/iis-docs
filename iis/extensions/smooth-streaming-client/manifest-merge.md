@@ -81,7 +81,7 @@ Applications can call [MergeExternalManifest](smoothstreamingmediaelement-mergee
 The [MergeExternalManifest](smoothstreamingmediaelement-mergeexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md) method integrates data in the client manifest with new XML data identified by the first parameter, which is the parsed data obtained from a previous call to [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md).
 
 ```csharp
-  SmoothPlayer.MergeExternalManifest(parsedExternManifest);
+SmoothPlayer.MergeExternalManifest(parsedExternManifest);
 ```
 
 ## Supplementary Manifest Data
