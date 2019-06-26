@@ -106,30 +106,9 @@ The following are requirements for installing this role, depending on if you ins
 > [!NOTE]
 > The Windows Deployment Services server service is not cluster-aware and should not be run on a Microsoft Windows Cluster Server.
 
-:::row:::
-    :::column:::
-        **Deployment Server**
-    :::column-end:::
-    :::column:::
-        **Transport Server**
-    :::column-end:::
-:::row-end:::
-* * *
-:::row:::
-    :::column:::
-        | |
-        | --- |
-        | **Active Directory Domain Services**. A Windows Deployment Services server must be either a member of an Active Directory Domain Services (AD DS) domain or a domain controller for an AD DS domain. The AD DS domain and forest versions are irrelevant; all domain and forest configurations support Windows Deployment Services. |
-        | **DHCP**. You must have a working Dynamic Host Configuration Protocol (DHCP) server with an active scope on the network because Windows Deployment Services uses Pre-Boot Execution Environment (PXE), which relies on DHCP for IP addressing. |
-        | **DNS**. You must have a working Domain Name System (DNS) server on the network to run Windows Deployment Services. |
-        | **NTFS volume**. The server running Windows Deployment Services requires an NTFS file system volume for the image store. |
-        | **Credentials**. To install the role, you must be a member of the Local Administrators group on the Windows Deployment Services server. To start the Windows Deployment Services client, you must be a member of the Domain Users group. |
-    :::column-end:::
-    :::column:::
-        There are no requirements for installing Transport Server.
-    :::column-end:::
-:::row-end:::
-* * *
+| **Deployment Server** | **Transport Server** |
+| --- | --- |
+| | **Active Directory Domain Services**. A Windows Deployment Services server must be either a member of an Active Directory Domain Services (AD DS) domain or a domain controller for an AD DS domain. The AD DS domain and forest versions are irrelevant; all domain and forest configurations support Windows Deployment Services. | | --- | | **DHCP**. You must have a working Dynamic Host Configuration Protocol (DHCP) server with an active scope on the network because Windows Deployment Services uses Pre-Boot Execution Environment (PXE), which relies on DHCP for IP addressing. | | **DNS**. You must have a working Domain Name System (DNS) server on the network to run Windows Deployment Services. | | **NTFS volume**. The server running Windows Deployment Services requires an NTFS file system volume for the image store. | | **Credentials**. To install the role, you must be a member of the Local Administrators group on the Windows Deployment Services server. To start the Windows Deployment Services client, you must be a member of the Domain Users group. | | There are no requirements for installing Transport Server. |
 
 If you are planning to use Microsoft Deployment, see the detailed listing of required infrastructure:
 
