@@ -7,8 +7,8 @@ ms.assetid: 93bac98d-c0b0-435f-82eb-b38f01d5bef2
 msc.legacyurl: /configreference/system.applicationhost/weblimits
 msc.type: config
 ---
-Web Limits &lt;webLimits&gt;
-====================
+# Web Limits &lt;webLimits&gt;
+
 <a id="001"></a>
 ## Overview
 

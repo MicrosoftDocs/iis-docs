@@ -7,8 +7,8 @@ ms.assetid: 1edd05ef-e45c-4e79-ab3b-e29f668c7483
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-classic-asp-with-microsoft-access-databases-on-iis
 msc.type: authoredcontent
 ---
-Using Classic ASP with Microsoft Access Databases on IIS
-====================
+# Using Classic ASP with Microsoft Access Databases on IIS
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 > [!NOTE]
@@ -24,7 +24,7 @@ Unspecified error.
 
 This is a generic error triggered by the Access driver that may occur for a variety of reasons, but incorrect permissions is a common cause. More specifically, the ability to work with Microsoft Access databases is implemented through the Microsoft JET Database Engine, which creates various temporary and lock files when it connects to an Access database. The following sections will discuss some of the reasons why this may occur and how to resolve those situations.
 
-#### Working with 64-bit Systems
+## Working with 64-bit Systems
 
 Unfortunately there are no 64-bit ODBC drivers, so on 64-bit systems you will have to run your applications in 32-bit mode. To do so, use the following steps:
 
@@ -42,7 +42,7 @@ Note: The 64-bit control panel applet for managing ODBC connections will not dis
     [!code-console[Main](using-classic-asp-with-microsoft-access-databases-on-iis/samples/sample1.cmd)]
 3. Press the enter key.
 
-#### Working with User Access Control
+## Working with User Access Control
 
 You need to make sure that you follow the steps in this document by using an account that has full administrative permissions. This is best accomplished by using one of two methods:
 
@@ -63,7 +63,7 @@ If you have some form of tracing or debugging enabled, the trace or debug inform
 
 If you have the IIS [Failed Request Tracing](using-failed-request-tracing-to-troubleshoot-classic-asp-errors.md) configured to capture trace logs from HTTP 500 errors, you will see something that resembles the following illustration when you examine a trace log from the failure:
 
-[![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image2.jpg)](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image1.jpg)
+![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image1.jpg)
 
 Although this error indicates that the failure occurred when opening the database, it does not give any additional information to assist you with narrowing the problem to a specific area.
 
@@ -71,11 +71,11 @@ Although this error indicates that the failure occurred when opening the databas
 
 The Microsoft Windows Sysinternals [Process Monitor](https://technet.microsoft.com/en-us/sysinternals/bb896645.aspx) utility is a great resource for tracking permissions-related problems. To use Process Monitor to trace the IIS issues in this topic, configure Process Monitor to filter tracing for only those events that are created by W3wp.exe processes, as shown in the following illustration:
 
-[![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image4.jpg)](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image3.jpg)
+![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image3.jpg)
 
 Once you have configured the Process Monitor filter settings, configure Process Monitor to capture events and then reproduce your error. After you have reproduced your error, look through the Process Monitor capture log for any errors in the **Result** column of logs, as shown in the following illustration:
 
-[![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image6.jpg)](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image5.jpg)
+![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image5.jpg)
 
 By analyzing the information in the Process Monitor logs, you can pinpoint any permissions-related issues. This will be illustrated in the following examples.
 
@@ -83,33 +83,45 @@ By analyzing the information in the Process Monitor logs, you can pinpoint any p
 
 If you are using the Process Monitor utility on a computer that has a default installation of IIS on Windows Server 2008 and Windows Vista SP1, you may receive an error that resembles the following when ASP connects to an Access database:
 
+**Process Name:** w3wp.exe  
+**Operation:** CreateFile  
+**Path:** `C:\Windows\Temp\JET5150.tmp`  
+**Result:** ACCESS DENIED  
+**Detail:**
 
-| Process Name: | w3wp.exe |
-| --- | --- |
-| Operation: | CreateFile |
-| Path: | `C:\Windows\Temp\JET5150.tmp` |
-| Result: | ACCESS DENIED |
-| Detail: | | *Desired Access:* | Generic Read/Write, Delete | | --- | --- | | *Disposition:* | Create | | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Delete On Close, Open No Recall | | *Attributes:* | NT | | *ShareMode:* | None | | *AllocationSize:* | 0 | | *Impersonating:* | NT AUTHORITY\IUSR | |
-
+   | *Desired Access:* | Generic Read/Write, Delete |
+   | --- | --- |
+   | *Disposition:* | Create |
+   | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Delete On Close, Open No Recall |
+   | *Attributes:* | NT |
+   | *ShareMode:* | None |
+   | *AllocationSize:* | 0 |
+   | *Impersonating:* | NT AUTHORITY\IUSR |
 
 This error shows that the JET database engine cannot create a temporary file as the impersonated Application Pool identity in the default Windows temporary directory. This occurs when you use default settings for the release version of IIS on Windows Server 2008 and Windows Vista SP1, where IIS does not load the user profile for the Application Pool identity's profile by default. To resolve this issue, you could change the permissions on the %*SystemDrive*%\Windows\Temp directory to allow read/write permission for the impersonated user.
 
 If you are using the original release version of Windows Vista you may see an error that resembles the following when ASP connects to an Access database:
 
+**Process Name:** w3wp.exe  
+**Operation:** CreateFile  
+**Path:** `C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp`
+**Result:** ACCESS DENIED  
+**Detail:**
 
-| Process Name: | w3wp.exe |
-| --- | --- |
-| Operation: | CreateFile |
-| Path: | `C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp` |
-| Result: | ACCESS DENIED |
-| Detail: | | *Desired Access:* | Read Attributes | | --- | --- | | *Disposition:* | Open | | *Options:* | Open Reparse Point | | *Attributes:* | n/a | | *ShareMode:* | Read, Write, Delete | | *AllocationSize:* | n/a | | *Impersonating:* | NT AUTHORITY\IUSR | |
-
+   | *Desired Access:* | Read Attributes |
+   | --- | --- |
+   | *Disposition:* | Open |
+   | *Options:* | Open Reparse Point |
+   | *Attributes:* | n/a |
+   | *ShareMode:* | Read, Write, Delete |
+   | *AllocationSize:* | n/a |
+   | *Impersonating:* | NT AUTHORITY\IUSR |
 
 This error indicates that the JET database engine cannot access the temporary directory for the Network Service user profile that uses the impersonated Application Pool identity. In this particular example, the Application Pool identity is configured to use the Network Service account and IIS is configured to load the user profile for the impersonated Application Pool identity. The error occurs because the impersonated Application Pool identity cannot access the temporary folder for the Network Service account. To resolve this specific issue, you can change the permissions on the %*SystemDrive*%\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp directory to allow read/write permission for the impersonated user, or you can configure IIS to not load the user profile, which will change the temporary folder that the JET database engine will use.
 
 The configuration setting that governs whether the user profile is loaded for the Application Pool identity is **loadUserProfile**, which is set to **false**, by default. You can configure this setting by changing the value of the **Load User Profile** attribute in the **Advanced Settings** dialog box for an application pool.
 
-[![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image8.jpg)](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image7.jpg)
+![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image7.jpg)
 
 You can also configure this setting by using the command-line tool AppCmd.exe with the following syntax:
 
@@ -127,14 +139,20 @@ Operation must use an updateable query.
 
 If you were using the Process Monitor utility when you reproduced the error, the following information would be logged for the failure:
 
+**Process Name:** w3wp.exe  
+**Operation:** CreateFile  
+**Path:** `C:\Inetpub\wwwroot\App\_Data\example.ldb`
+**Result:** ACCESS DENIED  
+**Detail:**
 
-| Process Name: | w3wp.exe |
-| --- | --- |
-| Operation: | CreateFile |
-| Path: | `C:\Inetpub\wwwroot\App\_Data\example.ldb` |
-| Result: | ACCESS DENIED |
-| Detail: | | *Desired Access:* | Generic Read/Write | | --- | --- | | *Disposition:* | OpenIf | | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Open No Recall | | *Attributes:* | N | | *ShareMode:* | Read, Write | | *AllocationSize:* | 0 | | *Impersonating:* | NT AUTHORITY\IUSR | |
-
+   | *Desired Access:* | Generic Read/Write |
+   | --- | --- |
+   | *Disposition:* | OpenIf |
+   | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Open No Recall |
+   | *Attributes:* | N |
+   | *ShareMode:* | Read, Write |
+   | *AllocationSize:* | 0 |
+   | *Impersonating:* | NT AUTHORITY\IUSR |
 
 This error clearly lists the lock file as the cause of the failure. To resolve the issue, you can grant the application pool's impersonated identity read/write permission to the folder where the Access database is located, but that poses a security risk for your Web site. A better solution would be to move the Access database out of your Web site's content area to a folder where the application pool's impersonated identity has read/write permission, then create a System Data Source Name (DSN) that points to the database location. Your ASP code would then reference the System DSN in the connection string instead of the physical path of the database, which is also better for security. If you must store the database in the content area, you should always store the database in a folder that is blocked by default by the IIS request-filtering features, such as the App\_Data folder.
 
