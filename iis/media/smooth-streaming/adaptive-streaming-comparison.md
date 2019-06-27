@@ -7,8 +7,8 @@ ms.assetid: 30b7a23b-7d85-42f3-b1fc-75355de6e090
 msc.legacyurl: /learn/media/smooth-streaming/adaptive-streaming-comparison
 msc.type: authoredcontent
 ---
-Adaptive Streaming Comparison
-====================
+# Adaptive Streaming Comparison
+
 by [Chris Knowlton](https://twitter.com/chris_knowlton)
 
 [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) provides users with a truly compelling way to watch the best-possible-quality streaming video. First proven in production at the Summer 2008 Olympics in Beijing, this live and on-demand adaptive streaming technology from Microsoft represents the latest generation in video streaming technologies.
@@ -19,7 +19,7 @@ IIS Smooth Streaming is based on standard protocols, scales out using existing H
 
 The industry is excited by Microsoft's commitment to standards-based HTTP media delivery, and recent announcements from our partners and competitors are a validation of the Smooth Streaming approach to adaptive streaming. For example, as IIS Smooth Streaming has gained momentum, there have been new announcements from Adobe and Apple about methods each company now supports for varying the quality levels during video streaming. Adobe Flash Dynamic Streaming is a traditional multiple-bit-rate (MBR) streaming technology that is very similar to RealNetworks SureStream (released in 1998) and Windows Media Intelligent Streaming (released in 1999), and requires proprietary streaming servers to scale out to a large audience. Apple HTTP Adaptive Bitrate Streaming provides rudimentary stream-switching capabilities to devices running current Apple operating systems, and requires pre-segmenting your content into hundreds or thousands of small file chunks.
 
-In the table below, we compare the latest adaptive streaming technologies from Microsoft, Adobe, and Apple.   
+In the following table, we compare the latest adaptive streaming technologies from Microsoft, Adobe, and Apple.
 
 |  | Microsoft IIS Smooth Streaming | Adobe Flash Dynamic Streaming | Apple HTTP Adaptive Bitrate Streaming |
 | --- | --- | --- | --- |
@@ -48,10 +48,11 @@ In the table below, we compare the latest adaptive streaming technologies from M
 | File Type on Server | Contiguous | Contiguous | Fragmented |
 | Client Programming Platform | Microsoft .NET Framework | Adobe ActionScript | Objective-C |
   
+**Footnotes**
 
-| Footnotes... |
-| --- |
-| <a id="1"></a>1 | IIS Smooth Streaming is part of the free [IIS Media Services](https://www.iis.net/media) download for Windows Server 2008 and Windows Server 2008 R2 . |
+| | |
+| --- | --- |
+| <a id="1"></a>1 | IIS Smooth Streaming is part of the free [IIS Media Services](https://www.iis.net/media) download for Windows Server 2008 and Windows Server 2008 R2. |
 | <a id="2"></a>2 | Runs on any edition of Windows Server® 2008 or Windows Server 2008 R2 including Windows® Web Server, which has a list price of $469. |
 | <a id="3"></a>3 | Assumes use of Adobe Flash Media Interactive Server to support Pause, Seek, Authentication, and higher scalability |
 | <a id="4"></a>4 | Requires Windows Server 2003 SP2, Windows Server 2008, Red Hat® Enterprise Linux® 4, or Red Hat Enterprise Linux 5.2. |
