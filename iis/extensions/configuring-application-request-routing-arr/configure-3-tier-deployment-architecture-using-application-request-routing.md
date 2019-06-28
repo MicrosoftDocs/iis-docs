@@ -69,12 +69,17 @@ Before proceeding, make sure that the static content is available on the ARR ser
 
 To change the routing rules so that requests for resources with extensions \*.jpg and \*.css and a path that matches \*/images/\* are not forwarded to the application servers, enter:
 
-- [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample2.cmd)]
-- [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample3.cmd)]
-- [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample4.cmd)]
-- [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample5.cmd)]
-- [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample6.cmd)]
-- [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample7.cmd)]
+[!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample2.cmd)]
+
+[!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample3.cmd)]
+
+[!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample4.cmd)]
+
+[!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample5.cmd)]
+
+[!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample6.cmd)]
+
+[!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample7.cmd)]
 
 ## Summary
 
