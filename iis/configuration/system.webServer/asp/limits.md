@@ -135,7 +135,7 @@ To support and configure ASP applications on your Web server, you must install t
 | `queueConnectionTestTime` | Optional timeSpan attribute.<br><br>Specifies the time interval (hh:mm:ss) after which ASP will check to see whether the client is still connected before executing a request. If the client is no longer connected, the request is not processed and is deleted from the queue.<br><br>The default value is `00:00:03`. |
 | `queueTimeout` | Optional timeSpan attribute.<br><br>Specifies the maximum period of time (hh:mm:ss) that an ASP request can wait in the request queue.<br><br>The default value is `00:00:00`. |
 | `requestQueueMax` | Optional uint attribute.<br><br>Specifies the maximum number of concurrent ASP requests that are allowed into the request queue.<br><br>The default value is `3000`. |
-| `scriptTimeout` | Optional timeSpan attribute.<br><br>Specifies the maximum period of time (hh:mm:ss) that ASP pages allow a script to run run before terminating the script and writing an event to the Windows Event Log.<br><br>The default value is `00:01:30`. |
+| `scriptTimeout` | Optional timeSpan attribute.<br><br>Specifies the maximum period of time (hh:mm:ss) that ASP pages allow a script to run before terminating the script and writing an event to the Windows Event Log.<br><br>The default value is `00:01:30`. |
 
 ### Child Elements
 
