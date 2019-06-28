@@ -67,8 +67,9 @@ public static final var SmoothStreamingSourceProperty : DependencyProperty
 Use this member to assign a Smooth Streaming source. For other media data that is not in Smooth Streaming format, use the StreamingMediaElement.Source class.
 
 > [!NOTE]  
-> <p>Do not set [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) to a URI that contains a query, such as http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.</p>
-> <p>If a query is set and the config.xml file includes ResponseCacheEnabled=&quot;true&quot; instead of ResponseCacheEnabled=&quot;false&quot;, the entire URI (including the query) could be persisted in ResponseCache.</p>
+> Do not set [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) to a URI that contains a query, such as `http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1`.
+>
+> If a query is set and the config.xml file includes `ResponseCacheEnabled="true"` instead of `ResponseCacheEnabled="false"`, the entire URI (including the query) could be persisted in ResponseCache.
 
 ## Version Information
 
@@ -87,4 +88,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

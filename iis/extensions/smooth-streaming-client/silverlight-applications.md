@@ -19,7 +19,7 @@ To get a Smooth Streaming client application running, turn on Internet Informati
 For basic information about installing Silverlight and the Microsoft Web Platform, see [Get Started with Silverlight](https://go.microsoft.com/fwlink/?linkid=181839). You can create Smooth Streaming content with [Expression Encoder®](https://go.microsoft.com/fwlink/?linkid=230685) or other tools that are provided by [Smooth Streaming Partners](https://go.microsoft.com/fwlink/?linkid=230686).
 
 > [!NOTE]  
-> <p>Setting up the development environment for a Smooth Streaming client requires attention to the domain requirements of Silverlight applications. A Silverlight application that uses Smooth Streaming media data will not run on the Visual Studio ASP.NET development server without cross-domain configuration. (For information about running cross-domain applications, see [HTTP Communication and Security with Silverlight](https://go.microsoft.com/fwlink/?linkid=181829) and [Test and Debug Applications](test-and-debug-applications.md). The example in the current topic does not require cross-domain configuration unless you have to run the sample with the ASP.NET development server.</p>
+> Setting up the development environment for a Smooth Streaming client requires attention to the domain requirements of Silverlight applications. A Silverlight application that uses Smooth Streaming media data will not run on the Visual Studio ASP.NET development server without cross-domain configuration. (For information about running cross-domain applications, see [HTTP Communication and Security with Silverlight](https://go.microsoft.com/fwlink/?linkid=181829) and [Test and Debug Applications](test-and-debug-applications.md). The example in the current topic does not require cross-domain configuration unless you have to run the sample with the ASP.NET development server.
 
 ## Project Workspace
 
@@ -27,16 +27,18 @@ Create a new Silverlight project In Visual Studio or Visual Studio Web Developer
 
 When the template completes and the project opens, you should see a display that looks like the following MainPage.xaml example.
 
-    <UserControl x:Class="SlvLt_SmoothStreamApp.MainPage"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-        mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
-      <Grid x:Name="LayoutRoot">
-    
-      </Grid>
-    </UserControl>
+```xaml
+<UserControl x:Class="SlvLt_SmoothStreamApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
+    <Grid x:Name="LayoutRoot">
+
+    </Grid>
+</UserControl>
+```
 
 ## Smooth Streaming Media Element
 
@@ -44,45 +46,49 @@ Silverlight supports both the [System.Windows.Controls.MediaElement](https://go.
 
 Add the following line to MainPage.xaml to include the N:Microsoft.Web.Media.SmoothStreaming namespace.
 
-    xmlns:SSME="clr-namespace:Microsoft.Web.Media.SmoothStreaming;assembly=Microsoft.Web.Media.SmoothStreaming"
+```xaml
+xmlns:SSME="clr-namespace:Microsoft.Web.Media.SmoothStreaming;assembly=Microsoft.Web.Media.SmoothStreaming"
+```
 
 With the reference in place, all you need is a line that adds the media element to the page and assignment of the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property to a file with the file name extension .ism. The .ism file is the server manifest that contains a list of multiple-bitrate media files and an identifier that points to the client manifest. The client manifest has the file name extension .ismc. The client manifest contains metadata about audio, video, and text streams. To run the example in this topic, set the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property to the .ism file on your IIS default Web site as shown in the following example.
 
-    <SSME:SmoothStreamingMediaElement AutoPlay="True" x:Name="SmoothPlayer"
-     SmoothStreamingSource="http://<ServerName>/BigBuckBunny.ism/Manifest" Grid.Row="0" />
+```
+<SSME:SmoothStreamingMediaElement AutoPlay="True" x:Name="SmoothPlayer"
+    SmoothStreamingSource="http://<ServerName>/BigBuckBunny.ism/Manifest" Grid.Row="0" />
+```
 
-Build the application, and copy TestPage.html and \<AppName\>.xap to \<drive\>:\\inetpub\\wwwroot (You will need administrator credentials to add files to inetpub\\wwwroot).
+Build the application, and copy TestPage.html and `<AppName>`.xap to `<drive>:\inetpub\wwwroot` (You will need administrator credentials to add files to `inetpub\wwwroot`).
 
 When the [AutoPlay](smoothstreamingmediaelement-autoplay-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) is set to true as in this example, the few lines of XAML shown above are sufficient to run Smooth Streaming media from any Silverlight-enabled Web browser. You don't have to add anything to the code-behind file to start the stream.
 
 > [!NOTE]  
-> <p>It is preferable to not specify height and width dimensions for the media element. Instead, allow the video display to run at the size it was encoded. This avoids reformatting that will unnecessarily consume processor resources.</p>
+> It is preferable to not specify height and width dimensions for the media element. Instead, allow the video display to run at the size it was encoded. This avoids reformatting that will unnecessarily consume processor resources.
 
 ## Silverlight Controls
 
 Silverlight controls can interact with Smooth Streaming media as needed for applications. The following XAML syntax includes buttons that start, stop, and pause the media stream, and a slider bar that is data-bound to the [Volume](smoothstreamingmediaelement-volume-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). A combo box supports a list of options to play media from several Smooth Streaming sources.
 
-``` 
-  <SSME:SmoothStreamingMediaElement AutoPlay="False"
-                           x:Name="SmoothPlayer" Grid.Row="0"/>
-    <StackPanel Orientation="Horizontal" Grid.Row="1">
-        <TextBlock x:Name="Volume" VerticalAlignment="Center"
-                             Text="Volume" Width="50" />
-        <Slider x:Name="VolumeBar" Width="60"
-                   Value="{Binding Path=Volume,
-                   ElementName=SmoothPlayer, Mode=TwoWay}" />
-        <Button x:Name="PlayButton" Width="50" Click="PlayButton_Click"
-                   Loaded="PlayButton_Loaded"/>
-        <Button x:Name="StopButton" Content="Stop" Width="50"
-                   Click="StopButton_Click" /> 
-    </StackPanel>
+```xaml
+<SSME:SmoothStreamingMediaElement AutoPlay="False"
+                        x:Name="SmoothPlayer" Grid.Row="0"/>
+<StackPanel Orientation="Horizontal" Grid.Row="1">
+    <TextBlock x:Name="Volume" VerticalAlignment="Center"
+                            Text="Volume" Width="50" />
+    <Slider x:Name="VolumeBar" Width="60"
+                Value="{Binding Path=Volume,
+                ElementName=SmoothPlayer, Mode=TwoWay}" />
+    <Button x:Name="PlayButton" Width="50" Click="PlayButton_Click"
+                Loaded="PlayButton_Loaded"/>
+    <Button x:Name="StopButton" Content="Stop" Width="50"
+                Click="StopButton_Click" /> 
+</StackPanel>
 ```
 
 ### Code-Behind
 
 The logic for **Play** and **Stop** is shown in the following excerpt from the MainPage.xaml.cs code file. You will need a reference to the Smooth Streaming assembly.
 
-``` 
+```csharp
 using Microsoft.Web.Media.SmoothStreaming;
     private void PlayButton_Loaded(object sender, RoutedEventArgs e)
     {
@@ -142,78 +148,76 @@ using Microsoft.Web.Media.SmoothStreaming;
                 break;
         }
     }
-
-
 ```
 
 ### Multiple Smooth Streaming Source URI Options
 
 The following line in MainPage.xaml specifies a combo box named SourceList that will contain URI options for Smooth Streaming media sources.
 
-``` 
-  <ComboBox x:Name="SourceList" SelectionChanged="SourceList_SelectionChanged" Width="375" />
+```xaml
+<ComboBox x:Name="SourceList" SelectionChanged="SourceList_SelectionChanged" Width="375" />
 ```
 
 The following combined XAML specification includes all previous markup in a layout grid that locates controls on the page.
 
-``` 
-  <Grid x:Name="LayoutRoot">
-      <Grid.RowDefinitions>
-            <RowDefinition Height="0.90*"></RowDefinition>
-            <RowDefinition Height="0.05*"></RowDefinition>
-            <RowDefinition Height="0.05*"></RowDefinition>
-        </Grid.RowDefinitions>
-        <SSME:SmoothStreamingMediaElement AutoPlay="False" x:Name="SmoothPlayer" Grid.Row="0"/>
-        <StackPanel Orientation="Horizontal" Grid.Row="1">
-            <TextBlock x:Name="Volume" VerticalAlignment="Center" Text="Volume" Width="50" />
-            <Slider x:Name="VolumeBar" Width="60" Value="{Binding Path=Volume, ElementName=SmoothPlayer, Mode=TwoWay}" />
-            <Button x:Name="PlayButton" Width="50" Click="PlayButton_Click" Loaded="PlayButton_Loaded"/>
-            <Button x:Name="StopButton" Content="Stop" Width="50" Click="StopButton_Click" />
-            <ComboBox x:Name="SourceList" SelectionChanged="SourceList_SelectionChanged" Width="375" > 
-                <ComboBoxItem Content="Big Buck Bunny" />
-                <ComboBoxItem Content="Media Two" />
-                <ComboBoxItem Content="Media Three" />
-                <ComboBoxItem Content="Media Four" />
-                <ComboBoxItem Content="Media Five"/>
-            </ComboBox>
-        </StackPanel>
-        <TextBlock x:Name="OutputText" VerticalAlignment="Center"
-                             Width="850" Grid.Row="2"/>
-                  <!--OutputText is not used in the current example.-->
-  </Grid>
+```xaml
+<Grid x:Name="LayoutRoot">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="0.90*"></RowDefinition>
+        <RowDefinition Height="0.05*"></RowDefinition>
+        <RowDefinition Height="0.05*"></RowDefinition>
+    </Grid.RowDefinitions>
+    <SSME:SmoothStreamingMediaElement AutoPlay="False" x:Name="SmoothPlayer" Grid.Row="0"/>
+    <StackPanel Orientation="Horizontal" Grid.Row="1">
+        <TextBlock x:Name="Volume" VerticalAlignment="Center" Text="Volume" Width="50" />
+        <Slider x:Name="VolumeBar" Width="60" Value="{Binding Path=Volume, ElementName=SmoothPlayer, Mode=TwoWay}" />
+        <Button x:Name="PlayButton" Width="50" Click="PlayButton_Click" Loaded="PlayButton_Loaded"/>
+        <Button x:Name="StopButton" Content="Stop" Width="50" Click="StopButton_Click" />
+        <ComboBox x:Name="SourceList" SelectionChanged="SourceList_SelectionChanged" Width="375" > 
+            <ComboBoxItem Content="Big Buck Bunny" />
+            <ComboBoxItem Content="Media Two" />
+            <ComboBoxItem Content="Media Three" />
+            <ComboBoxItem Content="Media Four" />
+            <ComboBoxItem Content="Media Five"/>
+        </ComboBox>
+    </StackPanel>
+    <TextBlock x:Name="OutputText" VerticalAlignment="Center"
+                            Width="850" Grid.Row="2"/>
+                <!--OutputText is not used in the current example.-->
+</Grid>
 ```
 
 The logic for the combo box control is shown in the following excerpt from the MainPage.xaml.cs code file.
 
 The selection-changed event occurs when the user clicks an option in the combo box. The URI addresses of the Smooth Streaming media sources contained in these code segments are never displayed to the user.
 
-``` 
-        private void SourceList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            ListBoxItem item = ((sender as ComboBox).SelectedItem as ListBoxItem);
-            string selection = item.Content as string;
+```csharp
+private void SourceList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+{
+    ListBoxItem item = ((sender as ComboBox).SelectedItem as ListBoxItem);
+    string selection = item.Content as string;
 
-            switch (selection)
-            {
-                case "Big Buck Bunny":
-                    SmoothPlayer.SmoothStreamingSource =
-                        new Uri("http://<serverName>/ BigBuckBunny.ism/Manifest");
-                    break;
-                case "Media Two":
-                    SmoothPlayer.SmoothStreamingSource =
-                        new Uri("http://<serverName>/media2.ism/Manifest");
-                    break;
-                case "Media Three":
-                    SmoothPlayer.SmoothStreamingSource =
-                        new Uri("http://<serverName>/media3.ism/Manifest");
-                    break;
-                case "Media Four":
-                    SmoothPlayer.SmoothStreamingSource =
-                        new Uri("http://<serverName>/media4.ism/Manifest");
-                    break;
+    switch (selection)
+    {
+        case "Big Buck Bunny":
+            SmoothPlayer.SmoothStreamingSource =
+                new Uri("http://<serverName>/ BigBuckBunny.ism/Manifest");
+            break;
+        case "Media Two":
+            SmoothPlayer.SmoothStreamingSource =
+                new Uri("http://<serverName>/media2.ism/Manifest");
+            break;
+        case "Media Three":
+            SmoothPlayer.SmoothStreamingSource =
+                new Uri("http://<serverName>/media3.ism/Manifest");
+            break;
+        case "Media Four":
+            SmoothPlayer.SmoothStreamingSource =
+                new Uri("http://<serverName>/media4.ism/Manifest");
+            break;
 
-            }
-        }
+    }
+}
 ```
 
 With these controls on the page, the user can select from four options to play Smooth Streaming media sources and to start, stop, or pause the playback and adjust the volume of the audio playback.
@@ -235,4 +239,3 @@ Media files for use in this example can be created from .wmv files found at the 
 [Getting Started with IIS Live Smooth Streaming](https://go.microsoft.com/fwlink/?linkid=181835)
 
 [Building your first Smooth Streaming Player using SSME](https://go.microsoft.com/fwlink/?linkid=181845)
-
