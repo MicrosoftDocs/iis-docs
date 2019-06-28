@@ -7,8 +7,8 @@ ms.assetid: af41ce80-db79-4d01-9749-368c2ee16f8e
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules
 msc.type: config
 ---
-Request Filtering Rules &lt;filteringRules&gt;
-====================
+# Request Filtering Rules &lt;filteringRules&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -23,10 +23,11 @@ Each `<filteringRule>` element specifies a collection of custom attributes and e
 
 In addition, each request filtering rule may contain the following child elements:
 
-- [`<appliesTo>`](filteringrule/appliesto/index.md) - Specifies the list of file name extensions to which the request filtering rule applies. 
+- [`<appliesTo>`](filteringrule/appliesto/index.md) - Specifies the list of file name extensions to which the request filtering rule applies.
 
     > [!NOTE]
     > If this section is blank, the rule applies to all requests.
+
 - [`<denyStrings>`](filteringrule/denystrings/index.md) - Specifies the list of strings to deny for the request filtering rule.
 - [`<scanHeaders>`](filteringrule/scanheaders/index.md) - Specifies the list of HTTP headers to scan.
 
@@ -47,7 +48,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 10.0 | The `<filteringRules>` element was not modified in IIS 10.0. |
 | IIS 8.5 | The `<filteringRules>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<filteringRules>` element was not modified in IIS 8.0. |
-|| IIS 7.5 | The `<filteringRules>` element of the `<requestFiltering>` element ships as a feature of IIS 7.5. |
+| IIS 7.5 | The `<filteringRules>` element of the `<requestFiltering>` element ships as a feature of IIS 7.5. |
 | IIS 7.0 | The `<filteringRules>` element of the `<requestFiltering>` element was introduced as an update for IIS 7.0 that is available through [Microsoft Knowledge Base Article 957508](https://support.microsoft.com/kb/957508). |
 | IIS 6.0 | The `<filteringRules>` element is roughly analogous to the **RuleList** feature that was added to URLScan 3.0. |
 
