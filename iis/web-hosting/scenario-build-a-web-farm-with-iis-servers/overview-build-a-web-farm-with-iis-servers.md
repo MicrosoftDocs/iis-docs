@@ -7,9 +7,9 @@ ms.assetid: ba013fd2-51b2-44fa-a5b8-9695e182b53b
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/overview-build-a-web-farm-with-iis-servers
 msc.type: authoredcontent
 ---
-Overview: Build a Web Farm with IIS Servers
-====================
-by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
+# Overview: Build a Web Farm with IIS Servers
+
+by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 This document contains an overview of the **Build a web farm with IIS servers** scenario. It also contains links to additional information and community resources related to the scenario.
 
@@ -50,8 +50,8 @@ The following table contains links to resources related to this scenario.
 
 | Content type | References |
 | --- | --- |
-| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) | [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy) |
-| **Operations** | [IIS.NET](https://www.iis.net/) | [IIS Learning Center](https://www.iis.net/learn) |
+| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) &#124; [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy) |
+| **Operations** | [IIS.NET](https://www.iis.net/) &#124; [IIS Learning Center](https://www.iis.net/learn) &#124;
 | **Tools and settings** | Microsoft.IIs.PowerShell.Provider namespace |
-| **Community resources** | [IIS Blogs](https://blogs.iis.net/) | [IIS Forums](https://forums.iis.net/) | [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) | [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) | [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
-| **Related technologies** | [ASP.NET](https://www.asp.net/) | [ASP.NET Web Projects](https://msdn.microsoft.com/library/ywdtth2f.aspx) |
+| **Community resources** | [IIS Blogs](https://blogs.iis.net/) &#124; [IIS Forums](https://forums.iis.net/) &#124; [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) &#124; [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) &#124; [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
+| **Related technologies** | [ASP.NET](https://www.asp.net/) &#124; [ASP.NET Web Projects](https://msdn.microsoft.com/library/ywdtth2f.aspx) |
