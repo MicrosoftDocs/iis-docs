@@ -1,4 +1,579 @@
-{ 
+{
   "redirections": [
-  ] 
+    {
+      "source_path": "iis/index.md",
+      "redirect_url": "/iis/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-dev-reference/index.md",
+      "redirect_url": "/iis/web-dev-reference/server-variables",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/index.md",
+      "redirect_url": "/iis/application-frameworks/building-and-running-aspnet-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/index.md",
+      "redirect_url": "/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/overview-build-an-asp-net-website-on-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/building-and-running-aspnet-applications/index.md",
+      "redirect_url": "/iis/application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/install-and-configure-php-applications-on-iis/index.md",
+      "redirect_url": "/iis/application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/install-and-configure-php-applications-on-iis/phprojekt-on-iis.md",
+      "redirect_url": "/iis/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/install-and-configure-php-on-iis/index.md",
+      "redirect_url": "/iis/application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/index.md",
+      "redirect_url": "/iis/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/scenario-build-a-php-website-on-iis/index.md",
+      "redirect_url": "/iis/application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/running-php-applications-on-iis/index.md",
+      "redirect_url": "/iis/application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/index.md",
+      "redirect_url": "/iis/develop/runtime-extensibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/extending-iis-configuration/index.md",
+      "redirect_url": "/iis/develop/extending-iis-configuration/extending-iis-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/developing-for-ftp/index.md",
+      "redirect_url": "/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-authentication-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/extending-the-management-ui/index.md",
+      "redirect_url": "/iis/develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/installingpublishing-apps-with-webmatrix/index.md",
+      "redirect_url": "/iis/develop/installingpublishing-apps-with-webmatrix/acquia-drupal-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/runtime-extensibility/index.md",
+      "redirect_url": "/iis/develop/runtime-extensibility/extending-web-server-functionality-in-net",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/troubleshooting-webmatrix/index.md",
+      "redirect_url": "/iis/develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/using-visual-studio-with-iis/index.md",
+      "redirect_url": "/iis/develop/using-visual-studio-with-iis/using-visual-studio-2008-with-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/using-webmatrix/index.md",
+      "redirect_url": "/iis/develop/using-webmatrix/create-a-website-from-a-gallery-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/windows-web-application-gallery/index.md",
+      "redirect_url": "/iis/develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/index.md",
+      "redirect_url": "/iis/extensions/iis-compression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/search-engine-optimization-toolkit/index.md",
+      "redirect_url": "/iis/extensions/search-engine-optimization-toolkit/iis-search-engine-optimization-toolkit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/smooth-streaming-manifest-structure/index.md",
+      "redirect_url": "/iis/extensions/smooth-streaming-manifest-structure/iis-smooth-streaming-manifest-structure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/url-rewrite/index.md",
+      "redirect_url": "/iis/extensions/url-rewrite/iis-url-rewrite",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/web-deployment-tool/index.md",
+      "redirect_url": "/is/extensions/web-deployment-tool/iis-web-deployment-tool",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/web-platform-installer/index.md",
+      "redirect_url": "/iis/extensions/web-platform-installer/microsoft-web-platform-installer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/smooth-streaming-management-rest-services/index.md",
+      "redirect_url": "/iis/extensions/smooth-streaming-management-rest-services/iis-smooth-streaming-management-rest-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/database-manager-reference/index.md",
+      "redirect_url": "/iis/extensions/database-manager-reference/iis-database-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/web-playlists/index.md",
+      "redirect_url": "/iis/extensions/web-playlists/iis-web-playlists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/transform-manager/index.md",
+      "redirect_url": "/iis/extensions/transform-manager/iis-transform-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/smooth-streaming-client/index.md",
+      "redirect_url": "/iis/extensions/smooth-streaming-client/smooth-streaming-client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/advanced-logging-module/index.md",
+      "redirect_url": "/iis/extensions/advanced-logging-module/advanced-logging-for-iis-custom-logging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/database-manager/index.md",
+      "redirect_url": "/iis/extensions/database-manager/use-the-database-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/configuring-application-request-routing-arr/index.md",
+      "redirect_url": "/iis/extensions/configuring-application-request-routing-arr/demonstration-of-shared-hosting-deployment-with-arr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/httpplatformhandler/index.md",
+      "redirect_url": "/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/iis-compression/index.md",
+      "redirect_url": "/iis/extensions/iis-compression/iis-compression-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/iis-search-engine-optimization-toolkit/index.md",
+      "redirect_url": "/iis/extensions/iis-search-engine-optimization-toolkit/iis-site-analysis-video-walkthrough",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/installing-application-request-routing-arr/index.md",
+      "redirect_url": "/iis/extensions/installing-application-request-routing-arr/install-application-request-routing-version-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/introduction-to-iis-express/index.md",
+      "redirect_url": "/iis/extensions/introduction-to-iis-express/iis-express-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/planning-for-arr/index.md",
+      "redirect_url": "/iis/extensions/planning-for-arr/application-request-routing-version-2-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/troubleshooting-application-request-routing/index.md",
+      "redirect_url": "/iis/extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/using-iis-express/index.md",
+      "redirect_url": "/iis/extensions/using-iis-express/using-the-windows-system-tray-to-manage-websites-and-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/url-rewrite-module/index.md",
+      "redirect_url": "/iis/extensions/url-rewrite-module/url-rewrite-module-video-walkthrough",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/working-with-urlscan/index.md",
+      "redirect_url": "/iis/extensions/working-with-urlscan/urlscan-setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/index.md",
+      "redirect_url": "/iis/get-started/whats-new-in-iis-10-version-1709",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/case-studies/index.md",
+      "redirect_url": "/iis/get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/getting-started-with-iis/index.md",
+      "redirect_url": "/iis/get-started/getting-started-with-iis/serving-new-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/introduction-to-iis/index.md",
+      "redirect_url": "/iis/get-started/introduction-to-iis/introduction-to-iis-architecture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/localized-content/index.md",
+      "redirect_url": "/iis/get-started/localized-content/iis-localized-japanese-learn-articles-and-more",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/planning-for-security/index.md",
+      "redirect_url": "/iis/get-started/planning-for-security/build-a-custom-iis-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/planning-your-iis-architecture/index.md",
+      "redirect_url": "/iis/get-started/planning-your-iis-architecture/editing-configuration-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/whats-new-in-iis-10-version-1709/index.md",
+      "redirect_url": "/iis/get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/whats-new-in-iis-10/index.md",
+      "redirect_url": "/iis/get-started/whats-new-in-iis-10/new-features-introduced-in-iis-10",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/whats-new-in-iis-7/index.md",
+      "redirect_url": "/iis/get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/whats-new-in-iis-8/index.md",
+      "redirect_url": "/iis/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/whats-new-in-iis-85/index.md",
+      "redirect_url": "/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/install/index.md",
+      "redirect_url": "/iis/install/installing-iis-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/install/installing-iis-7/index.md",
+      "redirect_url": "/iis/install/installing-iis-7/installing-necessary-iis-components-on-windows-vista",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/install/installing-iis-85/index.md",
+      "redirect_url": "/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/install/installing-publishing-technologies/index.md",
+      "redirect_url": "/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/install/web-platform-installer/index.md",
+      "redirect_url": "/iis/install/web-platform-installer/web-platform-installer-20-walkthrough",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/index.md",
+      "redirect_url": "/iis/manage/creating-websites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/configuring-security/index.md",
+      "redirect_url": "/iis/manage/configuring-security/configuring-ssl-in-iis-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/creating-websites/index.md",
+      "redirect_url": "/iis/manage/creating-websites/provisioning-ftp-75-sites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/managing-performance-settings/index.md",
+      "redirect_url": "/iis/manage/managing-performance-settings/improving-performance-with-native-output-caching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/powershell/index.md",
+      "redirect_url": "/iis/manage/powershell/writing-powershell-commandlets-for-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/managing-your-configuration-settings/index.md",
+      "redirect_url": "/iis/manage/managing-your-configuration-settings/delegating-configuration-to-webconfig-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/remote-administration/index.md",
+      "redirect_url": "/iis/manage/remote-administration/remote-administration-for-iis-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/provisioning-and-managing-iis/index.md",
+      "redirect_url": "/iis/manage/provisioning-and-managing-iis/provisioining-sql-2005-resources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/working-with-server-core/index.md",
+      "redirect_url": "/iis/manage/working-with-server-core/using-iis-with-windows-server-core",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/manage/scripting/index.md",
+      "redirect_url": "/iis/manage/scripting/managing-sites-with-the-iis-wmi-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/index.md",
+      "redirect_url": "/iis/media/windows-media-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/streaming-media-conference-workshops/index.md",
+      "redirect_url": "/iis/media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/iis-media-services/index.md",
+      "redirect_url": "/iis/media/iis-media-services/edge-caching-for-media-delivery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/bit-rate-throttling/index.md",
+      "redirect_url": "/iis/media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/live-smooth-streaming-events/index.md",
+      "redirect_url": "/iis/media/live-smooth-streaming-events/the-world39s-first-iis-live-smooth-streaming-event-a-video-case-study",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/on-demand-smooth-streaming/index.md",
+      "redirect_url": "/iis/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/smooth-streaming/index.md",
+      "redirect_url": "/iis/media/smooth-streaming/smooth-streaming-deployment-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/live-smooth-streaming/index.md",
+      "redirect_url": "/iis/media/live-smooth-streaming/live-smooth-streaming-tutorial-introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/transform-manager/index.md",
+      "redirect_url": "/iis/media/transform-manager/transform-manager-tasks-gallery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/windows-media-services/index.md",
+      "redirect_url": "/iis/media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/media/web-playlists/index.md",
+      "redirect_url": "/iis/media/web-playlists/web-playlists-for-iis-7-creating-a-simple-playlist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/index.md",
+      "redirect_url": "/iis/publish/deploying-application-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/frontpage-server-extensions/index.md",
+      "redirect_url": "/iis/publish/frontpage-server-extensions/upgrade-issues-with-frontpage-server-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/deploying-application-packages/index.md",
+      "redirect_url": "/iis/publish/deploying-application-packages/taking-an-application-offline-before-publishing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/troubleshooting-web-deploy/index.md",
+      "redirect_url": "/iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/using-the-ftp-service/index.md",
+      "redirect_url": "/iis/publish/using-the-ftp-service/ftp-extension-video-walkthrough",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/using-webdav/index.md",
+      "redirect_url": "/iis/publish/using-webdav/webdav-extension-video-walkthrough",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/using-web-deploy/index.md",
+      "redirect_url": "/iis/publish/using-web-deploy/packaging-and-restoring-a-web-site",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/index.md",
+      "redirect_url": "/iis/troubleshoot/installation-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/aspnet-issues/index.md",
+      "redirect_url": "/iis/troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/diagnosing-http-errors/index.md",
+      "redirect_url": "/iis/troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/installation-issues/index.md",
+      "redirect_url": "/iis/troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/performance-issues/index.md",
+      "redirect_url": "/iis/troubleshoot/performance-issues/troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/remote-administration-issues/index.md",
+      "redirect_url": "/iis/troubleshoot/remote-administration-issues/diagnosing-failures-with-remote-administration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/using-failed-request-tracing/index.md",
+      "redirect_url": "/iis/troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/web-platform-installer-issues/index.md",
+      "redirect_url": "/iis/troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/security-issues/index.md",
+      "redirect_url": "/iis/troubleshoot/security-issues/troubleshooting-ssl-related-issues-server-certificate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/index.md",
+      "redirect_url": "/iis/web-hosting/getting-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/migrate-to-the-microsoft-web-platform/index.md",
+      "redirect_url": "/iis/web-hosting/migrate-to-the-microsoft-web-platform/breaking-changes-for-aspnet-4-apps-running-on-iis-7-integrated-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/scenario-build-a-web-farm-with-iis-servers/index.md",
+      "redirect_url": "/iis/web-hosting/scenario-build-a-web-farm-with-iis-servers/overview-build-a-web-farm-with-iis-servers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/using-shared-hosting-environments/index.md",
+      "redirect_url": "/iis/web-hosting/using-shared-hosting-environments/mix08-bringing-hosters-and-developers-together-with-iis7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/configuring-components/index.md",
+      "redirect_url": "/iis/web-hosting/configuring-components/deploying-linq-with-net-35",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/frequently-asked-questions-faq/index.md",
+      "redirect_url": "/iis/web-hosting/frequently-asked-questions-faq/tools-and-utilities-questions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/configuring-servers-in-the-windows-web-platform/index.md",
+      "redirect_url": "/iis/web-hosting/configuring-servers-in-the-windows-web-platform/preparing-the-file-serve-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/getting-started/index.md",
+      "redirect_url": "/iis/web-hosting/getting-started/getting-started_69",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/hosting-the-microsoft-web-platform-on-windows-azure/index.md",
+      "redirect_url": "/iis/web-hosting/hosting-the-microsoft-web-platform-on-windows-azure/managing-iis-on-windows-azure-via-remote-desktop",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/index.md",
+      "redirect_url": "/iis/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/installing-infrastructure-components/index.md",
+      "redirect_url": "/iis/web-hosting/installing-infrastructure-components/planning-the-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/joining-the-web-hosting-gallery/index.md",
+      "redirect_url": "/iis/web-hosting/joining-the-web-hosting-gallery/servervalidator-demo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/microsoft-web-farm-framework-20-for-iis-7/index.md",
+      "redirect_url": "/iis/web-hosting/microsoft-web-farm-framework-20-for-iis-7/overview-of-the-web-farm-framework-20-for-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/planning-the-web-hosting-architecture/index.md",
+      "redirect_url": "/iis/web-hosting/planning-the-web-hosting-architecture/shared-hosting-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/verifying-the-deployment/index.md",
+      "redirect_url": "/iis/web-hosting/verifying-the-deployment/verifying-remote-administration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/web-server-for-shared-hosting/index.md",
+      "redirect_url": "/iis/web-hosting/web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration",
+      "redirect_document_id": false
+    }
+  ]
 }
