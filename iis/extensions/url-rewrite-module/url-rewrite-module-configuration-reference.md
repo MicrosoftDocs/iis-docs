@@ -7,8 +7,8 @@ ms.assetid: 472b62e4-c6a4-4380-bef1-2a0360737491
 msc.legacyurl: /learn/extensions/url-rewrite-module/url-rewrite-module-configuration-reference
 msc.type: authoredcontent
 ---
-URL Rewrite Module Configuration Reference
-====================
+# URL Rewrite Module Configuration Reference
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This article provides an overview of the URL Rewrite Module and explains the configuration concepts that are used by the module.
@@ -85,17 +85,17 @@ For an HTTP URL in this form: http(s)://&lt;host&gt;:&lt;port&gt;/&lt;path&gt;?&
 - Server variables SERVER\_PORT\_SECURE and HTTPS can be used to determine if a secure connection was used. These server variables can be accessed by using a condition within a rule.
 - The server variable REQUEST\_URI can be used to access the entire requested URL path, including the query string.
 
-For example, if a request was made for this URL: **[http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3](http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3)**, and a rewrite rule was defined on the site level then:
+For example, if a request was made for this URL: `http://www.mysite.com/content/default.aspx?tabid=2&subtabid=3`, and a rewrite rule was defined on the site level then:
 
-- The rule pattern gets the URL string **content/default.aspx** as an input.
-- The QUERY\_STRING server variable contains **tabid=2&amp;subtabid=3**.
-- The HTTP\_HOST server variable contains **www.mysite.com**.
-- The SERVER\_PORT server variable contains **80**.
-- The SERVER\_PORT\_SECURE server variable contains **0** and HTTPS contains **OFF**.
-- The REQUEST\_URI server variable contains **/content/default.aspx?tabid=2&amp;subtabid=3**.
-- The PATH\_INFO server variable contains **/content/default.aspx**.
+- The rule pattern gets the URL string `content/default.aspx` as an input.
+- The QUERY\_STRING server variable contains `tabid=2&subtabid=3`.
+- The HTTP\_HOST server variable contains `www.mysite.com`.
+- The SERVER\_PORT server variable contains `80`.
+- The SERVER\_PORT\_SECURE server variable contains `0` and HTTPS contains `OFF`.
+- The REQUEST\_URI server variable contains `/content/default.aspx?tabid=2&subtabid=3`.
+- The PATH\_INFO server variable contains `/content/default.aspx`.
 
-Note that the input URL string passed to a distributed rule is always relative to the location of the Web.config file where the rule is defined. For example, if a request is made for **[http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3](http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3)**, and a rewrite rule is defined in the **/content** directory, then the rule gets this URL string **default.aspx** as an input.
+Note that the input URL string passed to a distributed rule is always relative to the location of the Web.config file where the rule is defined. For example, if a request is made for `http://www.mysite.com/content/default.aspx?tabid=2&subtabid=3`, and a rewrite rule is defined in the **/content** directory, then the rule gets this URL string **default.aspx** as an input.
 
 <a id="Rewrite_Rule_Configuration"></a>
 
@@ -153,11 +153,10 @@ The match type can be one of the following three options:
 - **IsDirectory** – This match type is used to determine whether the input string contains a physical path to a directory on a file system. If a condition input string is not specified, the URL Rewrite Module uses the physical path of the requested file as a default value for the condition input. This match type can be used only for distributed rules.
 - **Pattern** – This match type is used to express a condition where an arbitrary input string is matched against a regular expression pattern. A condition pattern can be specified by using either regular expression syntax or by using wildcard syntax. The type of pattern to use in a condition depends on the value of the **patternSyntax** flag defined for the rule to which this condition belongs. This condition type has two related attributes that control pattern matching:
 
-    - **pattern** – Use this attribute to specify the actual pattern.
-    - **ignoreCase** – Use this attribute to control whether pattern matching for the condition should be case sensitive or case insensitive.
+  - **pattern** – Use this attribute to specify the actual pattern.
+  - **ignoreCase** – Use this attribute to control whether pattern matching for the condition should be case sensitive or case insensitive.
 
 In addition, the result of the condition evaluation can be negated by using the **negate** attribute. This can be used to specify a condition that checks if the requested URL is NOT a file, as in the following example:
-
 
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample1.xml)]
 
@@ -177,8 +176,8 @@ A **Rewrite** action has the following configuration options:
 
 - **url** – This is the substitution string to use when rewriting the current URL. The substitution URL is a string value that can include the following:
 
-    - Back-references to the condition and rule patterns. (For more information, see the section about how to use back-references.)
-    - Server variables. (For more information, see the section about how to use server variables.)
+  - Back-references to the condition and rule patterns. (For more information, see the section about how to use back-references.)
+  - Server variables. (For more information, see the section about how to use server variables.)
 - **appendQueryString** – Specifies whether the query string from the current URL is preserved during substitution. By default, if the value of the **appendQueryString** flag is not specified, it is assumed to be TRUE. This means that the query string from the original URL is appended to the substituted URL.
 
 <a id="Redirect_action"></a>
@@ -190,7 +189,7 @@ A **Redirect** action instructs the URL Rewrite Module to send a redirect respon
 The substitution URL for the redirect rule can be specified in one of the following forms:
 
 - Relative URL path – contoso/test/default.aspx
-- Absolute URI – https://example.com/contoso/test/default.aspx
+- Absolute URI – `https://example.com/contoso/test/default.aspx`
 
 Usage of a **Redirect** action implies that no subsequent rules evaluated for the current URL after redirection is performed.
 
@@ -198,15 +197,15 @@ A **Redirect** action has the following configuration options:
 
 - **url** – Uses a substitution string as a redirection URL. A substitution URL is a string that can include the following:
 
-    - Back-references to the condition and rule patterns. (For more information, see the section about how to use back-references.)
-    - Server variables. (For more information, see the section about how to use server variables.)
+  - Back-references to the condition and rule patterns. (For more information, see the section about how to use back-references.)
+  - Server variables. (For more information, see the section about how to use server variables.)
 - **appendQueryString** – Specifies whether the query string from the current URL should be preserved during substitution. By default, if the **AppendQueryString** flag is not specified, it is assumed to be TRUE. This means that the query string from the original URL is appended to the substituted URL.
 - **redirectType** – Specifies the status code to use during redirect:
 
-    - 301 – Permanent
-    - 302 – Found
-    - 303 – See other
-    - 307 – Temporary
+  - 301 – Permanent
+  - 302 – Found
+  - 303 – See other
+  - 307 – Temporary
 
 <a id="CustomResponse_action"></a>
 
@@ -242,8 +241,8 @@ Server variables provide additional information about current HTTP requests. You
 - In the condition input string
 - In rule substitution strings, specifically:
 
-    - **url** attribute of Rewrite and Redirect action
-    - **statusLine** and **responseLine** of a **CustomResponse** action
+  - **url** attribute of Rewrite and Redirect action
+  - **statusLine** and **responseLine** of a **CustomResponse** action
 
 Server variables can be referenced by using the {VARIABLE\_NAME} syntax. For example, the following condition uses the QUERY\_STRING server variable:
 
@@ -272,28 +271,23 @@ Usage of back-references is the same regardless of which pattern syntax was used
 - In condition input strings
 - In rule actions, specifically:
 
-    - **url** attribute of Rewrite and Redirect action
-    - **statusLine** and **responseLine** of a **CustomResponse** action
+  - **url** attribute of Rewrite and Redirect action
+  - **statusLine** and **responseLine** of a **CustomResponse** action
 - In a **key** parameter to the rewrite map
 
 Back-references to condition patterns are identified by {C:N} where N is from 0 to 9. Back-references to rule patterns are identified by {R:N} where N is from 0 to 9. Note that for both types of back-references, {R:0} and {C:0}, will contain the matched string.
 
 For example, in this pattern:
 
-
 [!code-console[Main](url-rewrite-module-configuration-reference/samples/sample3.cmd)]
 
-
-For the string: **www.foo.com** the back-references will be indexed as follows:
-
+For the string: `www.foo.com` the back-references will be indexed as follows:
 
 [!code-json[Main](url-rewrite-module-configuration-reference/samples/sample4.json)]
-
 
 Within a rule action, you can use the back-references to the rule pattern and to the last matched condition of that rule. Within a condition input string, you can use the back-references to the rule pattern and to the previously matched condition.
 
 The following rule example demonstrates how back-references are created and referenced:
-
 
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample5.xml)]
 
@@ -313,27 +307,28 @@ The module controls output caching either by altering certain caching properties
 
     The following server variables, when used in rewrite rules, do not cause any effect on output caching policy:
 
-    "CACHE\_URL",  
-"DOCUMENT\_ROOT",  
-"HTTP\_URL",  
-"HTTP\_HOST",  
-"PATH\_INFO",  
-"PATH\_TRANSLATED",  
-"QUERY\_STRING",  
-"REQUEST\_FILENAME",  
-"REQUEST\_URI",  
-"SCRIPT\_FILENAME",  
-"SCRIPT\_NAME",  
-"SCRIPT\_TRANSLATED",  
-"UNENCODED\_URL",  
-"URL",  
-"URL\_PATH\_INFO",   
-"APP\_POOL\_ID",  
-"APPL\_MD\_PATH",  
-"APPL\_PHYSICAL\_PATH",  
-"GATEWAY\_INTERFACE",  
-"SERVER\_SOFTWARE",  
-"SSI\_EXEC\_DISABLED"
+    - "CACHE\_URL"
+    - "DOCUMENT\_ROOT"
+    - "HTTP\_URL"
+    - "HTTP\_HOST"
+    - "PATH\_INFO"
+    - "PATH\_TRANSLATED"
+    - "QUERY\_STRING"
+    - "REQUEST\_FILENAME"
+    - "REQUEST\_URI"
+    - "SCRIPT\_FILENAME"
+    - "SCRIPT\_NAME"
+    - "SCRIPT\_TRANSLATED"
+    - "UNENCODED\_URL"
+    - "URL"
+    - "URL\_PATH\_INFO"
+    - ""APP\_POOL\_ID"
+    - "APPL\_MD\_PATH"
+    - "APPL\_PHYSICAL\_PATH"
+    - "GATEWAY\_INTERFACE"
+    - "SERVER\_SOFTWARE"
+    - "SSI\_EXEC\_DISABLED"
+
 3. If a rewrite rule set uses any server variable not mentioned in the above list, the rule set is considered unsafe for output caching. This means that the URL Rewrite Module will disable kernel mode caching for all requests whether the request URLs were rewritten or not. In addition, the module will alter the caching policy for user-mode cache by setting the caching property **varyByValue** to contain the concatenated string of all server variables values used in the rule set.
 
 <a id="String_functions"></a>
@@ -348,38 +343,29 @@ There are three string functions available for changing the values within a rewr
 
 The functions can be invoked by using the following syntax:
 
-
 [!code-json[Main](url-rewrite-module-configuration-reference/samples/sample6.json)]
-
 
 Where "function\_name" can be on eof the following: "ToLower", "UrlEncode", "UrlDecode". "Any\_string" can be either a literal string or a string built by using server variables or back-references. For example, the following are valid invocations of string functions:
 
-
 [!code-json[Main](url-rewrite-module-configuration-reference/samples/sample7.json)]
-
 
 The string functions can be used in the following locations within rewrite rules:
 
 - In condition input strings
 - In rule substitution strings, specifically: 
 
-    - **url** attribute of **Rewrite** and **Redirect** actions
-    - **statusLine** and **responseLine** attributes of a **CustomResponse** action
+  - **url** attribute of **Rewrite** and **Redirect** actions
+  - **statusLine** and **responseLine** attributes of a **CustomResponse** action
 
 An example of a rule that uses the **ToLower** function:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample8.xml)]
-
 
 An example of a rule that uses the **UrlEncode** function:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample9.xml)]
 
-
 An example of a rule that uses the **UrlDecode** function:
-
 
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample10.xml)]
 
@@ -391,9 +377,7 @@ A rewrite map is an arbitrary collection of name-value pairs that can be used wi
 
 A rewrite map defines a named collection of name-value pair strings, as in the following example:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample11.xml)]
-
 
 A rewrite map is uniquely identified by its name and can contain zero or more key-value entries. In addition, a rewrite map can specify the default value to use when a key is not found. This is controlled by using the **defaultValue** attribute. By default, an empty string is used as a default value.
 
@@ -401,37 +385,30 @@ There can be any number of rewrite maps on any configuration level, except the f
 
 Rewrite maps are referenced within a rewrite rule by using the following syntax:
 
-
 [!code-json[Main](url-rewrite-module-configuration-reference/samples/sample12.json)]
 
 
 Where the **Key** parameter can be any arbitrary string, and can include back-references to rule or condition patterns. For example, the following are valid uses of a rewrite map:
 
-
 [!code-json[Main](url-rewrite-module-configuration-reference/samples/sample13.json)]
-
 
 A reference to a rewrite map gets substituted with the value that was looked up by using the key passed as a parameter within a rewrite map reference. If a key was not found, the default value for that rewrite map is used.
 
 A Rewrite map can be referenced in the following locations within rewrite rules:
 
 - In condition input string
-- In rule substitution strings, specifically: 
+- In rule substitution strings, specifically:
 
-    - **url** attribute of **Rewrite** and **Redirect** actions
-    - **statusLine** and **responseLine** of **CustomResponse** actions
+  - **url** attribute of **Rewrite** and **Redirect** actions
+  - **statusLine** and **responseLine** of **CustomResponse** actions
 
 **Example 1**: With a rewrite map defined as follows:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample14.xml)]
-
 
 And a rewrite rule defined as follows:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample15.xml)]
-
 
 The requested URL /**diagnostic** will be rewritten as **/default.aspx?tabid=2&amp;subtabid=29**.  
 The requested URL /**webcasts** will be rewritten to **/default.aspx?tabid=2&amp;subtabid=24**.  
@@ -440,15 +417,11 @@ The requested URL /**default.aspx** will not be rewritten because the rewrite ma
 
 **Example 2**: With a rewrite map defined as follows:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample16.xml)]
-
 
 And a rewrite rule defined as follows:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample17.xml)]
-
 
 The requested URL **/default.aspx?tabid=2&amp;subtabid=29** will be redirected to `http://www.contoso.com/diagnostics`.  
 The requested URL **/default.aspx?tabid=2&amp;subtabid=24** will be redirected to `http://www.contoso.com/webcasts`.  
