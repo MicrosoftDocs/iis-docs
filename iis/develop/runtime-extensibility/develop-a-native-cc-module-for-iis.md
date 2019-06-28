@@ -7,8 +7,8 @@ ms.assetid: 2cb45a9a-a111-4055-989f-25a19a668a00
 msc.legacyurl: /learn/develop/runtime-extensibility/develop-a-native-cc-module-for-iis
 msc.type: authoredcontent
 ---
-Develop a Native C\C++ Module for IIS 7.0
-====================
+# Develop a Native C\C++ Module for IIS 7.0
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction

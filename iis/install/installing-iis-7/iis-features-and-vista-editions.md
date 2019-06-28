@@ -7,8 +7,8 @@ ms.assetid: b4fdece1-389e-4093-bf6d-29e3b1ae3d6b
 msc.legacyurl: /learn/install/installing-iis-7/iis-features-and-vista-editions
 msc.type: authoredcontent
 ---
-IIS 7.0 Features and Vista Editions
-====================
+# IIS 7.0 Features and Vista Editions
+
 by Henry Seiler
 
 ## Overview of IIS 7.0 differences Across Windows Vista Editions and Windows Server 2008 Editions

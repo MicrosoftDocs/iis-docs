@@ -7,8 +7,8 @@ ms.assetid: 27de1efe-6137-4505-a6e9-e4dd5a681161
 msc.legacyurl: /learn/get-started/planning-for-security/set-acls-through-the-manifestxml-file
 msc.type: authoredcontent
 ---
-Set ACLs Through the Manifest.xml File
-====================
+# Set ACLs Through the Manifest.xml File
+
 by Tali Smith
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 93fffee2-fccf-4f51-9c3f-50ecf2bee871
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis
 msc.type: authoredcontent
 ---
-How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0
-====================
+# How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Introduction

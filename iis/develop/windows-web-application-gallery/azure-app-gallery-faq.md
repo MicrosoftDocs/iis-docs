@@ -7,8 +7,8 @@ ms.assetid: a4555019-dd6e-41b4-831c-1711760031f5
 msc.legacyurl: /learn/develop/windows-web-application-gallery/azure-app-gallery-faq
 msc.type: authoredcontent
 ---
-Azure App Gallery FAQ
-====================
+# Azure App Gallery FAQ
+
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 0f26ff01-703d-4ff5-a351-7f69747036bc
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/customfeatures/providers
 msc.type: config
 ---
-FTP Custom Feature Providers &lt;providers&gt;
-====================
+# FTP Custom Feature Providers &lt;providers&gt;
+
 <a id="001"></a>
 ## Overview
 

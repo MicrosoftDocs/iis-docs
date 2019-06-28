@@ -7,8 +7,8 @@ ms.assetid: 10afd33c-34c6-4198-8e26-f445838a784a
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/kooboo-cms-faq
 msc.type: authoredcontent
 ---
-Kooboo CMS FAQ
-====================
+# Kooboo CMS FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

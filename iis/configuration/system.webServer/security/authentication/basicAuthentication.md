@@ -7,8 +7,8 @@ ms.assetid: 5ff18e4c-180c-4c1b-8134-cc0b543f4d19
 msc.legacyurl: /configreference/system.webserver/security/authentication/basicauthentication
 msc.type: config
 ---
-Basic Authentication &lt;basicAuthentication&gt;
-====================
+# Basic Authentication &lt;basicAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 

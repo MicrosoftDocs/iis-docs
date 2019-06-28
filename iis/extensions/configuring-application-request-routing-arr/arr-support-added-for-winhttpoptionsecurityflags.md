@@ -7,8 +7,8 @@ ms.assetid: 1262324d-f150-4a2f-9b5a-a439de7b718b
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/arr-support-added-for-winhttpoptionsecurityflags
 msc.type: authoredcontent
 ---
-ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS
-====================
+# ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS
+
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
 The ARR update KB 2693489 adds support for WINHTTP\_OPTION\_SECURITY\_FLAGS.

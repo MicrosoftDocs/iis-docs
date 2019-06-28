@@ -7,8 +7,8 @@ ms.assetid: 687d2f2e-171b-4a06-b450-23093858cfa9
 msc.legacyurl: /configreference/system.webserver/cgi
 msc.type: config
 ---
-CGI &lt;cgi&gt;
-====================
+# CGI &lt;cgi&gt;
+
 <a id="001"></a>
 ## Overview
 

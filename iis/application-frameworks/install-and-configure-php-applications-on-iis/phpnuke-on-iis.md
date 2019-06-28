@@ -7,8 +7,8 @@ ms.assetid: 619cd008-51e4-4465-bea0-bb69b1b5afda
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phpnuke-on-iis
 msc.type: authoredcontent
 ---
-PHPNuke on IIS
-====================
+# PHPNuke on IIS
+
 by Eric Woersching
 
 ## Introduction

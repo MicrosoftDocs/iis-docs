@@ -7,8 +7,8 @@ ms.assetid: 1058f17a-4c99-4cc3-bb51-b9fab157e3d5
 msc.legacyurl: /configreference/administratorsproviders
 msc.type: config
 ---
-Administrator Providers &lt;administratorsProviders&gt; (Deprecated)
-====================
+# Administrator Providers &lt;administratorsProviders&gt; (Deprecated)
+
 <a id="001"></a>
 ## Note
 

@@ -7,8 +7,8 @@ ms.assetid: b8afb8cb-304f-4e13-a40d-10424bea7a94
 msc.legacyurl: /learn/media/live-smooth-streaming/troubleshooting-live-smooth-streaming-events-in-event-viewer
 msc.type: authoredcontent
 ---
-Troubleshooting Live Smooth Streaming Events in Event Viewer
-====================
+# Troubleshooting Live Smooth Streaming Events in Event Viewer
+
 by Dave Nelson
 
 ## Coming Soon!

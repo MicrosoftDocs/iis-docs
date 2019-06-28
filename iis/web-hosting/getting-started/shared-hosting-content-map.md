@@ -7,8 +7,8 @@ ms.assetid: 45ffafee-6469-4be7-a648-da15d8ece438
 msc.legacyurl: /learn/web-hosting/getting-started/shared-hosting-content-map
 msc.type: authoredcontent
 ---
-Shared Hosting Content Map
-====================
+# Shared Hosting Content Map
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

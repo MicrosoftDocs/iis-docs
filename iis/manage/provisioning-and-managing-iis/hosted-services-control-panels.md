@@ -7,8 +7,8 @@ ms.assetid: 8f6956b6-44c4-48bd-96e4-19e7ec626824
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/hosted-services-control-panels
 msc.type: authoredcontent
 ---
-Hosted Services Control Panels
-====================
+# Hosted Services Control Panels
+
 by Brad Joseph
 
 ## Hosted Services Control Panels

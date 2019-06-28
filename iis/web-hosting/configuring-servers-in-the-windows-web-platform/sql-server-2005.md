@@ -7,8 +7,8 @@ ms.assetid: 8e020e8d-3e2f-421e-b343-e28c82287eb9
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/sql-server-2005
 msc.type: authoredcontent
 ---
-SQL Server 2005
-====================
+# SQL Server 2005
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

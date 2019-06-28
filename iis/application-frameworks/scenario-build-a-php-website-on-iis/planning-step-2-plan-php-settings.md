@@ -7,8 +7,8 @@ ms.assetid: 5baccb6d-183b-4b1b-839f-4db5a32acbd9
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/planning-step-2-plan-php-settings
 msc.type: authoredcontent
 ---
-Planning Step 2: Plan PHP Settings
-====================
+# Planning Step 2: Plan PHP Settings
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your PHP website, plan to set up the WinCache PHP extension, determine what configuration settings you require for PHP, and what PHP extensions your application requires.

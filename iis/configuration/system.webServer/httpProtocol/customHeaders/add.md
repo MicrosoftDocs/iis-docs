@@ -7,8 +7,8 @@ ms.assetid: 6d2d4bb9-4185-4c5c-ba3e-4fe8b2d047f7
 msc.legacyurl: /configreference/system.webserver/httpprotocol/customheaders/add
 msc.type: config
 ---
-Adding Custom Headers &lt;add&gt;
-====================
+# Adding Custom Headers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 77bb378a-73ce-4964-8abc-567c483ba946
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/datachannelsecurity
 msc.type: config
 ---
-FTP Data Channel Security &lt;dataChannelSecurity&gt;
-====================
+# FTP Data Channel Security &lt;dataChannelSecurity&gt;
+
 <a id="001"></a>
 ## Overview
 

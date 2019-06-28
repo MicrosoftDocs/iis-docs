@@ -7,8 +7,8 @@ ms.assetid: 3cd8471a-7d99-4902-b812-b30608afa17e
 msc.legacyurl: /learn/manage/configuring-security/application-pool-identities-and-sql-server-express
 msc.type: authoredcontent
 ---
-Application Pool Identities and SQL Server Express
-====================
+# Application Pool Identities and SQL Server Express
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

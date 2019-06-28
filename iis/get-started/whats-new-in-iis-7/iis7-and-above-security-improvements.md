@@ -7,8 +7,8 @@ ms.assetid: 6fd5adaa-0356-4fee-bfb1-c9d73a6b6c2f
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/iis7-and-above-security-improvements
 msc.type: authoredcontent
 ---
-IIS7 Security Improvements
-====================
+# IIS7 Security Improvements
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 <a id="Reduced"></a>

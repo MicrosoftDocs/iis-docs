@@ -7,8 +7,8 @@ ms.assetid: a734a198-37e6-419a-acb6-a601409ebc35
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching
 msc.type: authoredcontent
 ---
-How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching
-====================
+# How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 [This documentation is preliminary and is subject to change.]

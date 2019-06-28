@@ -7,8 +7,8 @@ ms.assetid: 87bbe31c-f415-4c1a-b29d-5f87bf7c8ac6
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/websitepanel
 msc.type: authoredcontent
 ---
-WebsitePanel
-====================
+# WebsitePanel
+
 by Brad Joseph
 
 ## WebsitePanel

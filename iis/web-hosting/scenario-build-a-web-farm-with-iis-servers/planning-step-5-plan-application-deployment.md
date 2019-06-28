@@ -7,8 +7,8 @@ ms.assetid: 636c5de3-1510-41ba-af0a-a5de9a86ba89
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-5-plan-application-deployment
 msc.type: authoredcontent
 ---
-Planning Step 5: Plan Application Deployment
-====================
+# Planning Step 5: Plan Application Deployment
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 When your web farm is up and working, you will want to update your website or add new websites to your server. File Transfer Protocol (FTP) has existed since the early days of the internet for this purpose. Microsoft's Web Deployment Tool (Web Deploy) simplifies deployment of the complex web applications of today.

@@ -7,8 +7,8 @@ ms.assetid: f4b67492-0c6c-42b3-afa5-2963f9b25c98
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis
 msc.type: authoredcontent
 ---
-Advanced Poll on IIS
-====================
+# Advanced Poll on IIS
+
 by Eric Woersching
 
 ## Introduction

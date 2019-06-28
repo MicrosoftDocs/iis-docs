@@ -7,8 +7,8 @@ ms.assetid: 65a11a66-0246-4aa9-b532-a7832ab46401
 msc.legacyurl: /learn/develop/extending-the-management-ui/understanding-ui-extension-authoring
 msc.type: authoredcontent
 ---
-Understanding UI Extension Authoring
-====================
+# Understanding UI Extension Authoring
+
 by Gurpreet Singh
 
 ## Introduction

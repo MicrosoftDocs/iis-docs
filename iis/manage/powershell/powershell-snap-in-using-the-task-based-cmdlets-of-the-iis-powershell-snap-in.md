@@ -7,8 +7,8 @@ ms.assetid: 2339b193-696d-4dc3-877a-610782cdbff0
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Using the Task-based Cmdlets of the IIS PowerShell Snap-in
-====================
+# PowerShell Snap-in: Using the Task-based Cmdlets of the IIS PowerShell Snap-in
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

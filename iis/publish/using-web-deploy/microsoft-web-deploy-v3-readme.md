@@ -7,8 +7,8 @@ ms.assetid: d8f1e2f1-72d7-43b1-bdcb-ce18170a832a
 msc.legacyurl: /learn/publish/using-web-deploy/microsoft-web-deploy-v3-readme
 msc.type: authoredcontent
 ---
-Microsoft Web Deploy v3 Readme
-====================
+# Microsoft Web Deploy v3 Readme
+
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
 ## Overview

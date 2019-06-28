@@ -7,8 +7,8 @@ ms.assetid: 681f566a-7879-4df4-b3ae-6c4b825b82d2
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting
 msc.type: authoredcontent
 ---
-WebMatrix Publish and Download Troubleshooting
-====================
+# WebMatrix Publish and Download Troubleshooting
+
 by Faith A
 
 Use this troubleshooting guide when you are run into problems with publishing or downloading sites in WebMatrix.

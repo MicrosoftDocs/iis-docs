@@ -7,8 +7,8 @@ ms.assetid: 69e33bd4-b543-404c-aeae-254e359e7709
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/creating-a-forward-proxy-using-application-request-routing
 msc.type: authoredcontent
 ---
-Creating a Forward Proxy Using Application Request Routing
-====================
+# Creating a Forward Proxy Using Application Request Routing
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 This article will show you how to use the Application Request Routing (ARR) and URL Rewrite features of Internet Information Services (IIS) to implement a forward proxy server.

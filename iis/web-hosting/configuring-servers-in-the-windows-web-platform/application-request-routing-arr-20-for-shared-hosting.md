@@ -7,8 +7,8 @@ ms.assetid: 4104911c-faa5-440b-aae7-d00b04aea234
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/application-request-routing-arr-20-for-shared-hosting
 msc.type: authoredcontent
 ---
-Application Request Routing (ARR) 2.0 for Shared Hosting
-====================
+# Application Request Routing (ARR) 2.0 for Shared Hosting
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

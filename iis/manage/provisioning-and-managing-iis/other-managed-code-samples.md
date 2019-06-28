@@ -7,8 +7,8 @@ ms.assetid: 5f959792-198f-4b86-b19a-9a1582b1d292
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/other-managed-code-samples
 msc.type: authoredcontent
 ---
-Other Managed Code Samples
-====================
+# Other Managed Code Samples
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

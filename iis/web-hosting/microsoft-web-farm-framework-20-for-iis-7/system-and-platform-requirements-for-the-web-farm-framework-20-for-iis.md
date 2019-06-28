@@ -7,8 +7,8 @@ ms.assetid: 11305912-4c7a-499f-8b0a-ccff66e97a28
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/system-and-platform-requirements-for-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---
-System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7
-====================
+# System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7
+
 by Randall DuBois
 
 This article describes the system and platform requirements for setting up Web Farm Framework 2.0 for IIS 7 and above in order to create and manage a server farm.

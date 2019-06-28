@@ -7,8 +7,8 @@ ms.assetid: a1143e97-99ce-48cc-8003-4a3909f20d3a
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configure-a-web-farm-with-iis-servers
 msc.type: authoredcontent
 ---
-Configure a Web Farm with IIS Servers
-====================
+# Configure a Web Farm with IIS Servers
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview

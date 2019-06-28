@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 # Changing authentication mode for a given website
 
-by [Elliott Hamai](https://github.com/ehamai)
+by [Elliott Hamai](https://github.com/Tuesdaysgreen)
 
 ## ApphostAuthOverride Provider
 

@@ -7,8 +7,8 @@ ms.assetid: a0a6069a-6484-4486-a885-a0133ade560e
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive
 msc.type: authoredcontent
 ---
-Use Scavenge.exe tool to delete cached content from secondary cache drive
-====================
+# Use Scavenge.exe tool to delete cached content from secondary cache drive
+
 by CJ Pattekar
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

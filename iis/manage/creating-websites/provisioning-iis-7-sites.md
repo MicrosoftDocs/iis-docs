@@ -7,8 +7,8 @@ ms.assetid: 7bc63307-87f4-47f0-ae28-f6e7beca5a4e
 msc.legacyurl: /learn/manage/creating-websites/provisioning-iis-7-sites
 msc.type: authoredcontent
 ---
-Provisioning IIS 7 Sites
-====================
+# Provisioning IIS 7 Sites
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

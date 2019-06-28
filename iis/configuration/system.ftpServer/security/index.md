@@ -7,8 +7,8 @@ ms.assetid: 23bbc004-53ef-4898-9197-7af7db0177c6
 msc.legacyurl: /configreference/system.ftpserver/security
 msc.type: config
 ---
-FTP Security &lt;security&gt;
-====================
+# FTP Security &lt;security&gt;
+
 <a id="001"></a>
 ## Overview
 

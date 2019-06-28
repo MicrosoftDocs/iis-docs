@@ -7,8 +7,8 @@ ms.assetid: 68879fd3-9da5-4f4b-b905-09626583a143
 msc.legacyurl: /configreference/configpaths
 msc.type: config
 ---
-Configuration Paths &lt;configPaths&gt;
-====================
+# Configuration Paths &lt;configPaths&gt;
+
 <a id="001"></a>
 ## Overview
 

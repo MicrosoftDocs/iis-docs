@@ -7,8 +7,8 @@ ms.assetid: 5b6e680a-85ff-4738-bdc3-52b422f176c1
 msc.legacyurl: /learn/extensions/url-rewrite-module/iis-request-filtering-and-url-rewriting
 msc.type: authoredcontent
 ---
-IIS 7.0 Request Filtering and URL Rewriting
-====================
+# IIS 7.0 Request Filtering and URL Rewriting
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 IIS 7.0 and above includes a request filtering module that is based on the URLScan ISAPI Filter for IIS 6.0. The module helps you tighten security of your Web servers.

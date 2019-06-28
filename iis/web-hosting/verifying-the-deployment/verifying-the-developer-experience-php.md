@@ -7,8 +7,8 @@ ms.assetid: f1580123-265c-440b-ae5b-0120fe5dd786
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-php
 msc.type: authoredcontent
 ---
-Verifying the Developer Experience - PHP
-====================
+# Verifying the Developer Experience - PHP
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 8f5515fa-1885-46e6-918f-5578d79dcc3f
 msc.legacyurl: /learn/publish/using-web-deploy/testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix
 msc.type: authoredcontent
 ---
-Testing Web Deploy publishing from Visual Studio 2010 and WebMatrix
-====================
+# Testing Web Deploy publishing from Visual Studio 2010 and WebMatrix
+
 by Ben Byrd
 
 ## Summary

@@ -7,8 +7,8 @@ ms.assetid: 3f2893c1-46aa-4a2f-b8e7-e5d76d565daa
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/provisioning-sample-in-c
 msc.type: authoredcontent
 ---
-Provisioning Sample in C#
-====================
+# Provisioning Sample in C\#
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

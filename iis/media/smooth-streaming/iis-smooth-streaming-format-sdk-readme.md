@@ -7,8 +7,8 @@ ms.assetid: 52d02cba-d167-41fe-8a43-b7689d899f11
 msc.legacyurl: /learn/media/smooth-streaming/iis-smooth-streaming-format-sdk-readme
 msc.type: authoredcontent
 ---
-IIS Smooth Streaming Format SDK Readme
-====================
+# IIS Smooth Streaming Format SDK Readme
+
 by Dave Nelson
 
 June 2010

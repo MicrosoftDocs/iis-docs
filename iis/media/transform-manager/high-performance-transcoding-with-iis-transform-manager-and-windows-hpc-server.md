@@ -7,8 +7,8 @@ ms.assetid: c964eaba-99b0-4dca-bf52-3966366c3457
 msc.legacyurl: /learn/media/transform-manager/high-performance-transcoding-with-iis-transform-manager-and-windows-hpc-server
 msc.type: authoredcontent
 ---
-High-Performance Transcoding with IIS Transform Manager and Windows HPC Server
-====================
+# High-Performance Transcoding with IIS Transform Manager and Windows HPC Server
+
 by Dave Nelson
 
 Last Updated: April 27, 2011

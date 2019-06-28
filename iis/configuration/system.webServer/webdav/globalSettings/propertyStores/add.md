@@ -7,8 +7,8 @@ ms.assetid: d84db0e5-7511-4794-bf8a-dd4f6b475ccc
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/propertystores/add
 msc.type: config
 ---
-Adding WebDAV Property Stores &lt;add&gt;
-====================
+# Adding WebDAV Property Stores &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

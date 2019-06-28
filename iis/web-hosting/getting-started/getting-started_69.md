@@ -7,8 +7,8 @@ ms.assetid: 1bfcc610-f237-4fac-a6c8-7d62820a5b6a
 msc.legacyurl: /learn/web-hosting/getting-started/getting-started_69
 msc.type: authoredcontent
 ---
-Getting Started
-====================
+# Getting Started
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

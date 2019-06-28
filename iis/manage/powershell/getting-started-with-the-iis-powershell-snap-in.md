@@ -7,8 +7,8 @@ ms.assetid: 9a702fef-af50-4fb2-b393-93a9c3bba2c1
 msc.legacyurl: /learn/manage/powershell/getting-started-with-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---
-Getting Started with the IIS 7.0 PowerShell Snap-in
-====================
+# Getting Started with the IIS 7.0 PowerShell Snap-in
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

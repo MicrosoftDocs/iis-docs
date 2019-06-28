@@ -7,8 +7,8 @@ ms.assetid: c7e16c40-8078-45a1-9b46-e376ef68eb20
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/servervalidator-demo
 msc.type: video
 ---
-ServerValidator Demo
-====================
+# ServerValidator Demo
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 ServerValidator Demo

@@ -7,8 +7,8 @@ ms.assetid: ef5fdfeb-875d-4989-bcc7-865718894540
 msc.legacyurl: /learn/develop/using-webmatrix/download-and-install-a-php-application
 msc.type: authoredcontent
 ---
-Download and Install a PHP Application
-====================
+# Download and Install a PHP Application
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 [This is preliminary documentation and is subject to change.]

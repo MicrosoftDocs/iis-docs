@@ -7,8 +7,8 @@ ms.assetid: 58dc712c-8707-4c10-a48c-58d4df35ae6f
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-your-sql-server-database
 msc.type: authoredcontent
 ---
-Secure Your SQL Server Database
-====================
+# Secure Your SQL Server Database
+
 by Tali Smith
 
 ## Introduction

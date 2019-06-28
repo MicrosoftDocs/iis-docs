@@ -7,8 +7,8 @@ ms.assetid: 7be21d2d-4a72-49a7-8475-bb31839454bb
 msc.legacyurl: /configreference/system.webserver/tracing/traceproviderdefinitions
 msc.type: config
 ---
-Trace Provider Definitions &lt;traceProviderDefinitions&gt;
-====================
+# Trace Provider Definitions &lt;traceProviderDefinitions&gt;
+
 <a id="001"></a>
 ## Overview
 

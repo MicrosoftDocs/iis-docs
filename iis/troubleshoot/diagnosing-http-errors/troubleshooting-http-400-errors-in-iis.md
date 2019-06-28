@@ -7,8 +7,8 @@ ms.assetid: 767eba96-0849-4f97-bd73-850362048d16
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-http-400-errors-in-iis
 msc.type: authoredcontent
 ---
-Troubleshooting HTTP 400 Errors in IIS
-====================
+# Troubleshooting HTTP 400 Errors in IIS
+
 by Mike Laing
 
 ### Tools Used in this Troubleshooter:

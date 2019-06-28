@@ -7,8 +7,8 @@ ms.assetid: d92ee756-f427-4873-8248-46a174fc9ed0
 msc.legacyurl: /learn/media/windows-media-services/windows-media-server-or-web-server
 msc.type: authoredcontent
 ---
-Windows Media Server or Web Server?
-====================
+# Windows Media Server or Web Server?
+
 by Dave Nelson
 
 You can deliver digital media audio and video files and live streams either from a Windows Media server (a server that is running Windows Media Services) or from a Web server (a server that is running Internet Information Services (IIS)). Clients use different methods to receive digital media content from Windows Media servers and Web servers: they stream digital media from a Windows Media server and download digital media from a Web server.

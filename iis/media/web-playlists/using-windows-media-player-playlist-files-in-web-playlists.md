@@ -7,8 +7,8 @@ ms.assetid: e9f50430-c067-4f19-87a7-28d41b9431a8
 msc.legacyurl: /learn/media/web-playlists/using-windows-media-player-playlist-files-in-web-playlists
 msc.type: authoredcontent
 ---
-Using Windows Media Player Playlist Files in Web Playlists
-====================
+# Using Windows Media Player Playlist Files in Web Playlists
+
 by Dave Nelson
 
 By default, [Windows Media Player 11](https://www.microsoft.com/windows/products/winfamily/mediaplayer/default.mspx) in [Windows Server 2008](https://www.microsoft.com/windowsserver2008/default.aspx) creates playlists in WPL format (files with .wpl file name extensions). This article describes how to create copies of the playlist files in ASX format (files with .asx file name extensions) so that you can import them into the [Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists) extension for Internet Information Services (IIS). When you import the ASX files in Web Playlists, the equivalent Web playlist files (files with .isx file name extension) are created, which you must then edit to enable them in the Web Playlists feature. This article describes how to edit ISX files in two different ways, depending upon whether you want to serve the media files referenced in the playlist media entries either from the original user folder or from a Web site directory.

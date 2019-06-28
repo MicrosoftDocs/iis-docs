@@ -7,8 +7,8 @@ ms.assetid: a2500a90-a71e-4058-956d-0b7105baa43d
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/lockstores
 msc.type: config
 ---
-WebDAV Lock Store Defintions &lt;lockStores&gt;
-====================
+# WebDAV Lock Store Defintions &lt;lockStores&gt;
+
 <a id="001"></a>
 ## Overview
 

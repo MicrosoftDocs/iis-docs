@@ -7,8 +7,8 @@ ms.assetid: e8921ba8-48b1-4529-b383-499c3764b8c3
 msc.legacyurl: /configreference/system.applicationhost/confighistory
 msc.type: config
 ---
-Configuration History &lt;configHistory&gt;
-====================
+# Configuration History &lt;configHistory&gt;
+
 <a id="001"></a>
 ## Overview
 

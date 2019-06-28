@@ -7,8 +7,8 @@ ms.assetid: 286d2079-bda3-4991-a6a0-bad280527dde
 msc.legacyurl: /learn/extensions/url-rewrite-module/rule-with-rewrite-map-rule-template
 msc.type: authoredcontent
 ---
-Rule with Rewrite Map - rule template
-====================
+# Rule with Rewrite Map - rule template
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templates for some common usage scenarios. In addition to that URL rewrite module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use "Rule with Rewrite Map" template that is included with URL rewrite module.

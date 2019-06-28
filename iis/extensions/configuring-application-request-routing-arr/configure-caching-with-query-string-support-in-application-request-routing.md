@@ -7,8 +7,8 @@ ms.assetid: 523dd540-8c29-454a-b189-a799505d9ee0
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-caching-with-query-string-support-in-application-request-routing
 msc.type: authoredcontent
 ---
-Configure Caching with Query String Support in Application Request Routing
-====================
+# Configure Caching with Query String Support in Application Request Routing
+
 by CJ Pattekar
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

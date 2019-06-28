@@ -7,8 +7,8 @@ ms.assetid: 3e29df44-2469-420f-869f-16554215ef62
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/provision-web-sites-for-php-applications-using-managed-code
 msc.type: authoredcontent
 ---
-Provision Web Sites for PHP Applications Using Managed Code
-====================
+# Provision Web Sites for PHP Applications Using Managed Code
+
 by Tali Smith
 
 Initially, a new user account must be established for the customer. Once the account has been set up, the customer decides which features and options the site should incorporate: for example, how much disk space, FTP capability, creation of virtual directories, and whether or not databases are required. You can also build control panels or dashboard applications that let customers create and manage these features.

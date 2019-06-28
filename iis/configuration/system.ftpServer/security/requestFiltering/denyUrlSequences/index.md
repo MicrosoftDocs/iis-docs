@@ -7,8 +7,8 @@ ms.assetid: 22fabbf8-ac3f-4d51-b5e3-d4bf777ff1f1
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/denyurlsequences
 msc.type: config
 ---
-FTP Deny URL Sequences &lt;denyUrlSequences&gt;
-====================
+# FTP Deny URL Sequences &lt;denyUrlSequences&gt;
+
 <a id="001"></a>
 ## Overview
 

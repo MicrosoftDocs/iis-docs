@@ -7,8 +7,8 @@ ms.assetid: 8582b85c-9622-4e92-a08e-ae6d79faa0ac
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts
 msc.type: authoredcontent
 ---
-Using Configuration Editor: Generate Scripts
-====================
+# Using Configuration Editor: Generate Scripts
+
 by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 ## Walkthrough Goal

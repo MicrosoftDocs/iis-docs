@@ -7,8 +7,8 @@ ms.assetid: 361e07d9-1737-4f84-890b-406bd8c51506
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/walkthrough-set-up-mysql-51-for-php-applications
 msc.type: authoredcontent
 ---
-Walkthrough - Set Up MySQL 5.1 for PHP applications
-====================
+# Walkthrough - Set Up MySQL 5.1 for PHP applications
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Overview

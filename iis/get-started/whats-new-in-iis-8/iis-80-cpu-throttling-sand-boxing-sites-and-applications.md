@@ -7,8 +7,8 @@ ms.assetid: 928688f9-9aa4-4f27-a7df-dff02b3210bf
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-cpu-throttling-sand-boxing-sites-and-applications
 msc.type: authoredcontent
 ---
-IIS 8.0 CPU Throttling: Sand-boxing Sites and Applications
-====================
+# IIS 8.0 CPU Throttling: Sand-boxing Sites and Applications
+
 by [Shaun Eagan](https://github.com/shauneagan)
 
 ### Compatibility

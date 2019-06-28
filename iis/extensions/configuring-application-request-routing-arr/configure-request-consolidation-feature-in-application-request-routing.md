@@ -7,8 +7,8 @@ ms.assetid: 0b829117-69e4-4bea-80a4-3cd6787c6a50
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-request-consolidation-feature-in-application-request-routing
 msc.type: authoredcontent
 ---
-Configure Request Consolidation Feature in Application Request Routing
-====================
+# Configure Request Consolidation Feature in Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

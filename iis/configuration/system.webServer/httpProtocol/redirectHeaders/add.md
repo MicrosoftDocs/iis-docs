@@ -7,8 +7,8 @@ ms.assetid: 5f909c62-8c27-4730-9023-570aa62052a0
 msc.legacyurl: /configreference/system.webserver/httpprotocol/redirectheaders/add
 msc.type: config
 ---
-Adding Redirect Headers &lt;add&gt;
-====================
+# Adding Redirect Headers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

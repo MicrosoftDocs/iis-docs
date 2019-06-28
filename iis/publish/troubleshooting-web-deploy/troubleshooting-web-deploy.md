@@ -7,8 +7,8 @@ ms.assetid: 3b569dcc-2860-4f9d-8f91-6b6ce9068248
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/troubleshooting-web-deploy
 msc.type: authoredcontent
 ---
-Troubleshooting Web Deploy
-====================
+# Troubleshooting Web Deploy
+
 by Faith A
 
 This quick guide will help you troubleshoot Web Deploy (Web Deployment Tool).

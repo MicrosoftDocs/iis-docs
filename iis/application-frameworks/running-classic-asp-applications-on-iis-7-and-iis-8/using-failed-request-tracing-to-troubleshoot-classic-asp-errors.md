@@ -7,8 +7,8 @@ ms.assetid: 7c7ceaf8-b6a2-4285-8f7b-7ac58db5c0f3
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-failed-request-tracing-to-troubleshoot-classic-asp-errors
 msc.type: authoredcontent
 ---
-Using Failed Request Tracing to troubleshoot Classic ASP errors
-====================
+# Using Failed Request Tracing to troubleshoot Classic ASP errors
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 One of the great troubleshooting features that is built in to IIS 7.0 and above is Failed Request Tracing, which lets you configure tracing rules on your server that will create detailed troubleshooting log files for custom failure conditions that you define. For example, you can capture the details for authentication failures by creating tracing rules that create log files for HTTP 401 errors.

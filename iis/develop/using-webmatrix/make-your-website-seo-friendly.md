@@ -7,8 +7,8 @@ ms.assetid: 1c4ecbca-dba5-47c2-a3bd-c9f59e5c4f58
 msc.legacyurl: /learn/develop/using-webmatrix/make-your-website-seo-friendly
 msc.type: authoredcontent
 ---
-Make your Website SEO Friendly
-====================
+# Make your Website SEO Friendly
+
 by Tim Ammann
 
 [This is preliminary documentation and is subject to change.]

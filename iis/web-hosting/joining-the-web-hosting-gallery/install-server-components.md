@@ -7,8 +7,8 @@ ms.assetid: cf0a1d31-1926-4e35-8b34-544c414905f8
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/install-server-components
 msc.type: authoredcontent
 ---
-Install Server Components
-====================
+# Install Server Components
+
 by [Simon Tan](https://github.com/simtan)
 
 ## Introduction

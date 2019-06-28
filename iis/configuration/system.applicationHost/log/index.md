@@ -7,8 +7,8 @@ ms.assetid: 0e0cdf39-8046-44fb-980c-cbb81816eaf8
 msc.legacyurl: /configreference/system.applicationhost/log
 msc.type: config
 ---
-Log &lt;log&gt;
-====================
+# Log &lt;log&gt;
+
 <a id="001"></a>
 ## Overview
 

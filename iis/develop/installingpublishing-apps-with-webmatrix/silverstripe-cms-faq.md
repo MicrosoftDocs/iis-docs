@@ -7,8 +7,8 @@ ms.assetid: 376a2ffa-1dde-4527-9f83-1bfcd276d8b6
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/silverstripe-cms-faq
 msc.type: authoredcontent
 ---
-SilverStripe CMS FAQ
-====================
+# SilverStripe CMS FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

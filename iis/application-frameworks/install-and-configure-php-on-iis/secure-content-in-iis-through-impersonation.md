@@ -7,8 +7,8 @@ ms.assetid: fadbe064-4cbf-49ec-9439-ce6633f3a155
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-content-in-iis-through-impersonation
 msc.type: authoredcontent
 ---
-Secure Content in IIS Through Impersonation
-====================
+# Secure Content in IIS Through Impersonation
+
 by Tali Smith
 
 ## Introduction

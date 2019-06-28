@@ -7,8 +7,8 @@ ms.assetid: 02a930f1-b082-40c7-892f-0e0749e94de9
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-changing-simple-settings-in-configuration-sections
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Changing Simple Settings in Configuration Sections
-====================
+# PowerShell Snap-in: Changing Simple Settings in Configuration Sections
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 In the previous walkthrough you learned how to manage IIS namespace containers like Sites, Application Pools, Applications and Virtual Directories.

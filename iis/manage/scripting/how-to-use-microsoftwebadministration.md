@@ -7,8 +7,8 @@ ms.assetid: bc52610c-38d1-425f-83ed-78e2e99ae33a
 msc.legacyurl: /learn/manage/scripting/how-to-use-microsoftwebadministration
 msc.type: authoredcontent
 ---
-How to Use Microsoft.Web.Administration
-====================
+# How to Use Microsoft.Web.Administration
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

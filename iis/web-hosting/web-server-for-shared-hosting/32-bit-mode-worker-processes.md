@@ -7,8 +7,8 @@ ms.assetid: c231f281-e384-4b4f-a1ee-a09841cabae0
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/32-bit-mode-worker-processes
 msc.type: authoredcontent
 ---
-32-bit Mode Worker Processes
-====================
+# 32-bit Mode Worker Processes
+
 by [Walter Oliver](https://github.com/walterov)
 
 One of the performance benefits of the x64 platform is that it increases virtual address space, making more memory available. We recommend that you configure IIS to use a 32-bit worker processes on 64-bit Windows. Not only its compatibility better than the native 64-bit, performance and memory consumption are also better.

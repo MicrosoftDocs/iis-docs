@@ -7,8 +7,8 @@ ms.assetid: 011d5bd7-aa56-4bab-9cb6-16a5b5977a98
 msc.legacyurl: /learn/publish/using-web-deploy/parameterization-improvements-in-web-deploy-v3
 msc.type: authoredcontent
 ---
-Parameterization improvements in Web Deploy V3
-====================
+# Parameterization improvements in Web Deploy V3
+
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
 Earlier versions of Web Deploy only supported replacing attribute values which already existed as part of the package. In Web Deploy V3 we have added support to:

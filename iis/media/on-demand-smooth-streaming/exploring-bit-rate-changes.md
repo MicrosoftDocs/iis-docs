@@ -7,8 +7,8 @@ ms.assetid: 366320bb-f099-4f1d-9842-245c64c4ec58
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/exploring-bit-rate-changes
 msc.type: authoredcontent
 ---
-Exploring Bit Rate Changes
-====================
+# Exploring Bit Rate Changes
+
 by Dave Nelson
 
 Applies To: IIS Media Services 4, IIS Media Services 3.0

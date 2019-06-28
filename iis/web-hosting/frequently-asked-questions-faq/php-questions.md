@@ -7,8 +7,8 @@ ms.assetid: 0539b3e4-7d7b-4e34-9406-28ed9965c500
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/php-questions
 msc.type: authoredcontent
 ---
-PHP Questions
-====================
+# PHP Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### What support is available for PHP running with FastCGI?

@@ -7,8 +7,8 @@ ms.assetid: 2359a956-fe32-40a8-8452-5a65c3898195
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/applphysicalpath-server-variable-on-windows-vista-rtm
 msc.type: authoredcontent
 ---
-APPL_PHYSICAL_PATH Server Variable on Windows Vista RTM
-====================
+# APPL_PHYSICAL_PATH Server Variable on Windows Vista RTM
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 The original release of IIS 7.0 that shipped with Windows Vista returned a different value for the APPL\_PHYSICAL\_PATH server variable than that which was returned by previous or subsequent versions of IIS. In earlier versions of IIS, this server variable had a backslash "\" character appended to the path, but in the original release version of Windows Vista this server variable contained only the path. This was fixed in Windows Vista Service Pack 1 (SP1) and in the original release version of Windows Server 2008.

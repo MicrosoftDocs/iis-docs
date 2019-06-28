@@ -7,8 +7,8 @@ ms.assetid: e74b2c7d-d37c-44df-9121-4bd9adb2a27d
 msc.legacyurl: /learn/publish/deploying-application-packages/provision-an-iis-web-site-in-a-hosting-environment
 msc.type: authoredcontent
 ---
-Provision an IIS Web Site in a Hosting Environment
-====================
+# Provision an IIS Web Site in a Hosting Environment
+
 by [Simon Tan](https://github.com/simtan)
 
 When provisioning a site, most hosters have some sort of control panel that allows them to capture the information required for provisioning. This information can then be passed to simple scripts to create the user, configure it for hosting, create a database, and import the application package.

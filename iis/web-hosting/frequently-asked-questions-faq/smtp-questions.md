@@ -7,8 +7,8 @@ ms.assetid: 90abdb7f-14d9-4026-999a-a70dee034bc0
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/smtp-questions
 msc.type: authoredcontent
 ---
-SMTP Questions
-====================
+# SMTP Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### Can SMTP logging be integrated with IIS logs?

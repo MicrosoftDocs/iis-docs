@@ -7,8 +7,8 @@ ms.assetid: 18e9b55a-025f-4053-a1ca-3a4a9fade24d
 msc.legacyurl: /learn/publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform
 msc.type: authoredcontent
 ---
-Videocast: Simplified Application Deployment on the Microsoft Web Platform
-====================
+# Videocast: Simplified Application Deployment on the Microsoft Web Platform
+
 by IIS Team
 
 Mai-lan Tomsen Bukovec has published a series of videos that target developers and users who want to experience a simplified deployment experience for apps and the Web stack on Windows, focusing particularly on ASP.NET and PHP open source community applications.

@@ -7,8 +7,8 @@ ms.assetid: cbe126c1-2f5b-498a-8795-a8d3b0b56ac1
 msc.legacyurl: /learn/manage/creating-websites/iis-8-new-features-overview
 msc.type: video
 ---
-IIS 8 - New Features Overview
-====================
+# IIS 8 - New Features Overview
+
 by Won Yoo
 
 Won Yoo gives an overview of web server features in Windows Server 2012.

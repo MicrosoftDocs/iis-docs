@@ -7,8 +7,8 @@ ms.assetid: d2283890-d0be-46e2-9c3a-1b7264e71f52
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/processmodel
 msc.type: config
 ---
-Process Model Settings for an Application Pool &lt;processModel&gt;
-====================
+# Process Model Settings for an Application Pool &lt;processModel&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 5da83d1f-b53d-4705-b422-311c423ccea1
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings
 msc.type: config
 ---
-Deny Strings for Filtering Rules &lt;denyStrings&gt;
-====================
+# Deny Strings for Filtering Rules &lt;denyStrings&gt;
+
 <a id="001"></a>
 ## Overview
 

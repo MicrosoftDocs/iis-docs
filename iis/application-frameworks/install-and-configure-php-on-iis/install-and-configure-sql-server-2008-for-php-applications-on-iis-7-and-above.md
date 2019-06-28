@@ -7,8 +7,8 @@ ms.assetid: 322bf487-da24-463a-ac46-d526e179fe2a
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above
 msc.type: authoredcontent
 ---
-Install and Configure SQL Server 2008 for PHP Applications on IIS 7
-====================
+# Install and Configure SQL Server 2008 for PHP Applications on IIS 7
+
 by Tali Smith
 
 ## Introduction

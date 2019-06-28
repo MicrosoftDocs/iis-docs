@@ -7,8 +7,8 @@ ms.assetid: 8ffe0ee7-c74c-4a6b-83aa-3ed6009e03fc
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/pmachinepro-on-iis
 msc.type: authoredcontent
 ---
-pMachinePro on IIS
-====================
+# pMachinePro on IIS
+
 by Eric Woersching
 
 ## Introduction

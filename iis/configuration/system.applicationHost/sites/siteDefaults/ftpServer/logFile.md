@@ -7,8 +7,8 @@ ms.assetid: 9c61b7c7-28bc-4fe7-80c5-4077ee07756a
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/logfile
 msc.type: config
 ---
-Default FTP Log Files Settings &lt;logFile&gt;
-====================
+# Default FTP Log Files Settings &lt;logFile&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 791d8b70-3086-4aff-9c29-bd859078f7e6
 msc.legacyurl: /learn/extensions/database-manager/working-with-views
 msc.type: authoredcontent
 ---
-Working with Views
-====================
+# Working with Views
+
 by IIS Team
 
 ## Prerequisites

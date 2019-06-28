@@ -7,8 +7,8 @@ ms.assetid: d57b12b1-5930-4e83-b799-073e3cb88f3b
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling
 msc.type: config
 ---
-Recycling Settings for an Application Pool &lt;recycling&gt;
-====================
+# Recycling Settings for an Application Pool &lt;recycling&gt;
+
 <a id="001"></a>
 ## Overview
 

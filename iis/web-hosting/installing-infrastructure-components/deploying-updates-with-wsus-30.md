@@ -7,8 +7,8 @@ ms.assetid: 7fe15677-3d20-49ce-a46c-72f20b2b4c78
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/deploying-updates-with-wsus-30
 msc.type: authoredcontent
 ---
-Deploying Updates with WSUS 3.0
-====================
+# Deploying Updates with WSUS 3.0
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

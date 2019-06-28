@@ -7,8 +7,8 @@ ms.assetid: 89aa2e9e-c896-41a6-9260-ad00bf7b23a1
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management
 msc.type: authoredcontent
 ---
-IIS 8.0 ASP.NET Configuration Management
-====================
+# IIS 8.0 ASP.NET Configuration Management
+
 by Won Yoo
 
 ### Compatibility

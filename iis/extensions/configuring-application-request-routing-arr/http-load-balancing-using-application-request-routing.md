@@ -7,8 +7,8 @@ ms.assetid: 4f919ad7-b2e2-48ad-bbe1-275525a4144d
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/http-load-balancing-using-application-request-routing
 msc.type: authoredcontent
 ---
-HTTP Load Balancing using Application Request Routing
-====================
+# HTTP Load Balancing using Application Request Routing
+
 by IIS Team
 
 ## Overview

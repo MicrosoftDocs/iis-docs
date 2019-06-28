@@ -7,8 +7,8 @@ ms.assetid: cfd8e668-0392-44d1-a677-524a6c72cd76
 msc.legacyurl: /configreference/system.applicationhost/log/centralw3clogfile
 msc.type: config
 ---
-Central W3C Log File &lt;centralW3CLogFile&gt;
-====================
+# Central W3C Log File &lt;centralW3CLogFile&gt;
+
 <a id="001"></a>
 ## Overview
 

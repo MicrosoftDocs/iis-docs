@@ -7,8 +7,8 @@ ms.assetid: df929744-8274-406a-b8c7-7073c211369f
 msc.legacyurl: /learn/develop/using-webmatrix/publish-your-website
 msc.type: authoredcontent
 ---
-Publish Your Website
-====================
+# Publish Your Website
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [This is preliminary documentation and is subject to change.]

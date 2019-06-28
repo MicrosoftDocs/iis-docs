@@ -7,8 +7,8 @@ ms.assetid: f8c97dd0-4d70-4990-b407-a4bb7315e1c5
 msc.legacyurl: /configreference/system.applicationhost/sites/site/bindings/binding
 msc.type: config
 ---
-Binding &lt;binding&gt;
-====================
+# Binding &lt;binding&gt;
+
 <a id="001"></a>
 ## Overview
 

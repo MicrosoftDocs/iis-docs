@@ -7,8 +7,8 @@ ms.assetid: d0440577-9e53-4202-9df3-199bc567e1c1
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release
 msc.type: authoredcontent
 ---
-Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
-====================
+# Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 ## WebPI Command line

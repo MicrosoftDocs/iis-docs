@@ -7,8 +7,8 @@ ms.assetid: 84783e48-0072-4974-8a61-2ec1e8f5df3b
 msc.legacyurl: /learn/manage/remote-administration/remote-administration-behavior-matrix
 msc.type: authoredcontent
 ---
-Remote Administration Behavior Matrix
-====================
+# Remote Administration Behavior Matrix
+
 by [Nitasha Verma](https://github.com/NitashaV)
 
 ## Introduction

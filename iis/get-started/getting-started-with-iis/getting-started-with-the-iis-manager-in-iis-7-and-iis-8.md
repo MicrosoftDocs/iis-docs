@@ -7,8 +7,8 @@ ms.assetid: 907f1ac8-e23e-4352-9683-a1a19af327f5
 msc.legacyurl: /learn/get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8
 msc.type: authoredcontent
 ---
-Getting Started with the IIS Manager in IIS
-====================
+# Getting Started with the IIS Manager in IIS
+
 by IIS Team, [Tobin Titus](https://github.com/tobint)
 
 ### Compatibility

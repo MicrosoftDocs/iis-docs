@@ -7,8 +7,8 @@ ms.assetid: 4ce312b5-62c0-4a8a-ae52-68ce81a40141
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-rewrite-maps-in-url-rewrite-module
 msc.type: authoredcontent
 ---
-Using Rewrite Maps in URL Rewrite Module
-====================
+# Using Rewrite Maps in URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will introduce you to the concept of rewrite maps in URL rewrite module and will guide you how to create rewrite rules that use rewrite maps. In this walkthrough you will create two rewrite maps: one rewrite map will be used by rule that performs url rewriting, and another rewrite map will be used by rule that performs redirects to a different domain.

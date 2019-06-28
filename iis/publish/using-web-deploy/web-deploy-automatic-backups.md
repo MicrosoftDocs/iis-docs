@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 # Web Deploy Automatic Backups
 
-by [Elliott Hamai](https://github.com/ehamai)
+by [Elliott Hamai](https://github.com/Tuesdaysgreen)
 
 ## Introduction
 

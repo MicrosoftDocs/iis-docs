@@ -7,8 +7,8 @@ ms.assetid: d8ca581b-fa82-4fca-824f-3456f71799b7
 msc.legacyurl: /learn/publish/using-web-deploy/synchronizing-two-iis-servers-with-php
 msc.type: authoredcontent
 ---
-Synchronizing Two IIS Servers with PHP
-====================
+# Synchronizing Two IIS Servers with PHP
+
 by Tim Ammann
 
 This article will guide you through the process of using Web Deploy to synchronize an entire IIS 7 or above Web server that has PHP installed to another IIS 7 or above server. Article Goal: To synchronize a Web server from IIS that has PHP installed to another IIS server.

@@ -7,8 +7,8 @@ ms.assetid: 3261f849-ca15-4cd3-924f-450c6a779b76
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/how-to-use-configuration-delegation-in-iis
 msc.type: authoredcontent
 ---
-How to Use Configuration Delegation in IIS 7.0
-====================
+# How to Use Configuration Delegation in IIS 7.0
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Abstract

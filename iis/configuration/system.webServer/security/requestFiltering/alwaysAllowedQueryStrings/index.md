@@ -7,8 +7,8 @@ ms.assetid: 6edd56a4-101f-4dc9-b24a-99625ac1ed49
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings
 msc.type: config
 ---
-Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt;
-====================
+# Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt;
+
 <a id="001"></a>
 ## Overview
 

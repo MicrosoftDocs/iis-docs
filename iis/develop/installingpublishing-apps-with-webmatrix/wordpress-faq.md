@@ -7,8 +7,8 @@ ms.assetid: 05415d6c-c1f1-4a0c-9e92-2d14a5b8fbb6
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/wordpress-faq
 msc.type: authoredcontent
 ---
-WordPress FAQ
-====================
+# WordPress FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

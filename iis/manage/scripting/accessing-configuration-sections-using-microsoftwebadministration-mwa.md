@@ -7,8 +7,8 @@ ms.assetid: 4845970c-5a5f-435e-b44c-9bc2637f3262
 msc.legacyurl: /learn/manage/scripting/accessing-configuration-sections-using-microsoftwebadministration-mwa
 msc.type: authoredcontent
 ---
-Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)
-====================
+# Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Abstract

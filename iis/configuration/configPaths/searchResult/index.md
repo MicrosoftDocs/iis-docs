@@ -7,8 +7,8 @@ ms.assetid: 8606b74c-c4ff-4d57-ab47-745079aa1ba7
 msc.legacyurl: /configreference/configpaths/searchresult
 msc.type: config
 ---
-Configuration Path Search Results &lt;searchResult&gt;
-====================
+# Configuration Path Search Results &lt;searchResult&gt;
+
 <a id="001"></a>
 ## Overview
 

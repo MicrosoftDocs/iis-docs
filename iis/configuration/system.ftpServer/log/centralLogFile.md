@@ -7,8 +7,8 @@ ms.assetid: 7e65d196-5826-4cfb-a30f-719bd2e5c8be
 msc.legacyurl: /configreference/system.ftpserver/log/centrallogfile
 msc.type: config
 ---
-FTP Central Logging Options &lt;centralLogFile&gt;
-====================
+# FTP Central Logging Options &lt;centralLogFile&gt;
+
 <a id="001"></a>
 ## Overview
 

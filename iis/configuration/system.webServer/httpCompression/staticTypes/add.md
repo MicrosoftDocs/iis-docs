@@ -7,8 +7,8 @@ ms.assetid: 948fb7a4-0c51-42e9-9cec-5f5a4b685b35
 msc.legacyurl: /configreference/system.webserver/httpcompression/statictypes/add
 msc.type: config
 ---
-Adding Static Types &lt;add&gt;
-====================
+# Adding Static Types &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

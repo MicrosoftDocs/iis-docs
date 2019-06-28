@@ -7,8 +7,8 @@ ms.assetid: 8f0bd47d-adf6-4738-978d-8071b2747048
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity/denybyrequestrate
 msc.type: config
 ---
-Deny by Request Rate <denyByRequestRate> &lt;denyByRequestRate&gt;
-====================
+# Deny by Request Rate <denyByRequestRate> &lt;denyByRequestRate&gt;
+
 <a id="001"></a>
 ## Overview
 

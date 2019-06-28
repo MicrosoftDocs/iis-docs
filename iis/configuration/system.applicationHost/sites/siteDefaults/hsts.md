@@ -5,8 +5,8 @@ description: "Overview The &lt;hsts&gt; element of the &lt;siteDefaults&gt; elem
 ms.author: bangbingsyb
 msc.type: config
 ---
-Default HSTS Settings for a Web Site &lt;hsts&gt;
-====================
+# Default HSTS Settings for a Web Site &lt;hsts&gt;
+
 <a id="001"></a>
 ## Overview
 

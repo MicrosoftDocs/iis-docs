@@ -7,8 +7,8 @@ ms.assetid: 27fd5104-49f1-463f-ad33-effa4b3b4e45
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-advanced-configuration-tasks
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Advanced Configuration Tasks
-====================
+# PowerShell Snap-in: Advanced Configuration Tasks
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 In this walkthrough you will learn how to accomplish some advanced configuration tasks using XPath queries and wildcards.

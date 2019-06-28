@@ -7,8 +7,8 @@ ms.assetid: 24bde747-2167-4ab3-b260-9c0004d36917
 msc.legacyurl: /configreference/system.applicationhost/sites/site/application/virtualdirectory
 msc.type: config
 ---
-Virtual Directory &lt;virtualDirectory&gt;
-====================
+# Virtual Directory &lt;virtualDirectory&gt;
+
 <a id="001"></a>
 ## Overview
 

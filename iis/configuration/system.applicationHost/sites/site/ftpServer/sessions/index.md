@@ -7,8 +7,8 @@ ms.assetid: 6c430474-2393-4e39-bb40-2d07d39fc33a
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/sessions
 msc.type: config
 ---
-FTP Sessions &lt;sessions&gt;
-====================
+# FTP Sessions &lt;sessions&gt;
+
 <a id="001"></a>
 ## Overview
 

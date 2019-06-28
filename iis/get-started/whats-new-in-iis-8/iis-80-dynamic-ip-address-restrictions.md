@@ -7,8 +7,8 @@ ms.assetid: 35da8086-42c3-4dbe-98d6-280254b8a97f
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
 msc.type: authoredcontent
 ---
-IIS 8.0 Dynamic IP Address Restrictions
-====================
+# IIS 8.0 Dynamic IP Address Restrictions
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ### Compatibility

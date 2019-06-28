@@ -7,8 +7,8 @@ ms.assetid: 87825b78-26cc-4b36-8297-a3ac0b4e8c5d
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-overview
 msc.type: authoredcontent
 ---
-UrlScan Overview
-====================
+# UrlScan Overview
+
 by [Nazim Lala](https://github.com/naziml)
 
 ## Introduction

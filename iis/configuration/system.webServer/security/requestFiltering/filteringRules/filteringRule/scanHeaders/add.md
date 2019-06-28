@@ -7,8 +7,8 @@ ms.assetid: dab9918a-5b9a-457b-a517-8d9c5a2dfadf
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/add
 msc.type: config
 ---
-Adding HTTP Headers for Filtering Rules &lt;add&gt;
-====================
+# Adding HTTP Headers for Filtering Rules &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

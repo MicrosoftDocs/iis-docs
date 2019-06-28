@@ -7,8 +7,8 @@ ms.assetid: 038c309a-e1be-4bb1-871a-aa40e370c391
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool
 msc.type: authoredcontent
 ---
-Troubleshooting High CPU in an IIS 7.x Application Pool
-====================
+# Troubleshooting High CPU in an IIS 7.x Application Pool
+
 by Jim Cheshire
 
 #### Tools Used in this Troubleshooter:

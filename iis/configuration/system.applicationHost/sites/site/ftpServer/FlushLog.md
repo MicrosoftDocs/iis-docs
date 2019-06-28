@@ -7,8 +7,8 @@ ms.assetid: a3b9e138-a9fb-4b7b-ba30-1bb1a53615b5
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/flushlog
 msc.type: config
 ---
-FTP Site Flush Log Method &lt;FlushLog&gt;
-====================
+# FTP Site Flush Log Method &lt;FlushLog&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 0ed34615-896b-477e-8d10-2c2e09f464db
 msc.legacyurl: /configreference/system.webserver/caching
 msc.type: config
 ---
-Caching &lt;caching&gt;
-====================
+# Caching &lt;caching&gt;
+
 <a id="001"></a>
 ## Overview
 

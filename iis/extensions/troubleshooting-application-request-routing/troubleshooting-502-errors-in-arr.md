@@ -7,8 +7,8 @@ ms.assetid: f419b76c-aea0-4b3c-b206-2ae31ee2436c
 msc.legacyurl: /learn/extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr
 msc.type: authoredcontent
 ---
-Troubleshooting 502 Errors in ARR
-====================
+# Troubleshooting 502 Errors in ARR
+
 by Richard Marr
 
 #### Tools Used in this Troubleshooter:

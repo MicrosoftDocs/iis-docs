@@ -7,8 +7,8 @@ ms.assetid: 6c1861ac-61f0-4b58-8929-4f36cc4dc975
 msc.legacyurl: /learn/publish/using-web-deploy/web-deploy-parameterization
 msc.type: authoredcontent
 ---
-Web Deploy Parameterization
-====================
+# Web Deploy Parameterization
+
 by Web Deploy Team
 
 ## Introduction to Parameterization

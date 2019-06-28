@@ -7,8 +7,8 @@ ms.assetid: 7f6dd0dd-96ba-4258-994c-ed58a0a73b14
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-remote-administration
 msc.type: authoredcontent
 ---
-Verifying Remote Administration
-====================
+# Verifying Remote Administration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

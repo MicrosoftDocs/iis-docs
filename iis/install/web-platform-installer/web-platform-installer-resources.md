@@ -7,8 +7,8 @@ ms.assetid: 9a2a5b56-7848-4dc1-ad0a-faf1d35132cb
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-resources
 msc.type: authoredcontent
 ---
-Web Platform Installer Resources
-====================
+# Web Platform Installer Resources
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 Welcome to Web Platform Installer Resources! This article provides a list of resources to help you find answers and help when using the Web Platform Installer.

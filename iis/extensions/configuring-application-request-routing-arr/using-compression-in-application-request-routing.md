@@ -7,8 +7,8 @@ ms.assetid: dbc43386-1a41-4514-a4e7-cf5bc0d1dc6b
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-compression-in-application-request-routing
 msc.type: authoredcontent
 ---
-Using Compression in Application Request Routing
-====================
+# Using Compression in Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

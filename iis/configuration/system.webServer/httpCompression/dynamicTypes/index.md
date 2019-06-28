@@ -7,8 +7,8 @@ ms.assetid: 0f91abf7-e943-4e36-bf45-fc38258c405f
 msc.legacyurl: /configreference/system.webserver/httpcompression/dynamictypes
 msc.type: config
 ---
-Dynamic Types &lt;dynamicTypes&gt;
-====================
+# Dynamic Types &lt;dynamicTypes&gt;
+
 <a id="001"></a>
 ## Overview
 

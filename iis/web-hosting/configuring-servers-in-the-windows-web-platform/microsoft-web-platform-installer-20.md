@@ -7,8 +7,8 @@ ms.assetid: f8593a22-c829-4cb3-b471-a6d2823aab5e
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20
 msc.type: authoredcontent
 ---
-Microsoft Web Platform Installer 2.0
-====================
+# Microsoft Web Platform Installer 2.0
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

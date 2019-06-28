@@ -7,8 +7,8 @@ ms.assetid: 85b2fe75-5625-4c16-9b83-cd5cfdcb581e
 msc.legacyurl: /configreference/system.webserver/management/authentication/providers/add
 msc.type: config
 ---
-Adding Management Authentication Providers &lt;add&gt;
-====================
+# Adding Management Authentication Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

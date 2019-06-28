@@ -7,8 +7,8 @@ ms.assetid: d0f95664-c290-4a46-b89f-4fc757b93202
 msc.legacyurl: /configreference/system.applicationhost/sites
 msc.type: config
 ---
-Sites &lt;sites&gt;
-====================
+# Sites &lt;sites&gt;
+
 <a id="001"></a>
 ## Overview
 

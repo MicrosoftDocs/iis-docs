@@ -7,8 +7,8 @@ ms.assetid: 017f14b1-e083-49c5-a1c4-46f3eda076ee
 msc.legacyurl: /learn/media/transform-manager/transform-manager-tasks-gallery
 msc.type: authoredcontent
 ---
-Transform Manager Tasks Gallery
-====================
+# Transform Manager Tasks Gallery
+
 by [John Deutscher](https://github.com/johndeu)
 
 Transform Manager includes two integrated tasks: an Expression Encoder 4 task and a Smooth Streaming to MPEG-2 Transport Stream task. You can also create your own custom tasks using the [Transform Manager Task Application Programming Interface (API)](transform-manager-tasks-gallery.md#taskapi).

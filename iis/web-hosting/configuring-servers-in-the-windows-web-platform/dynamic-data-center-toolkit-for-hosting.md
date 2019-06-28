@@ -7,8 +7,8 @@ ms.assetid: 03955fbb-8a47-404f-8006-390be9d5f07e
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/dynamic-data-center-toolkit-for-hosting
 msc.type: authoredcontent
 ---
-Dynamic Data Center Toolkit for Hosting
-====================
+# Dynamic Data Center Toolkit for Hosting
+
 by Brad Joseph
 
 ## Dynamic Data Center Toolkit for Hosting

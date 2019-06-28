@@ -7,8 +7,8 @@ ms.assetid: 4b3b0288-37bf-44cd-9fc2-47b83ebe8ebc
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/create-welcome-e-mails
 msc.type: authoredcontent
 ---
-Create Welcome E-mails
-====================
+# Create Welcome E-mails
+
 by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 ## Welcome E-mail Structure

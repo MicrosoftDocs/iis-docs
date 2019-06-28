@@ -7,8 +7,8 @@ ms.assetid: bc1dce1f-21a6-4a6c-a518-35fb7fde1f28
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults
 msc.type: config
 ---
-Default Settings for All Sites &lt;siteDefaults&gt;
-====================
+# Default Settings for All Sites &lt;siteDefaults&gt;
+
 <a id="001"></a>
 ## Overview
 

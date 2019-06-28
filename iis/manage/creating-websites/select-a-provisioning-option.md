@@ -7,8 +7,8 @@ ms.assetid: 1f918a2e-868f-497c-941d-7281d7b8f2e1
 msc.legacyurl: /learn/manage/creating-websites/select-a-provisioning-option
 msc.type: authoredcontent
 ---
-Select a Provisioning Option
-====================
+# Select a Provisioning Option
+
 by Tali Smith
 
 ## Introduction

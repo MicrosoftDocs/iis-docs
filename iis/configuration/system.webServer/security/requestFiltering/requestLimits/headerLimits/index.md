@@ -7,8 +7,8 @@ ms.assetid: 3de8bcbd-017a-4424-a523-6c811a5721d2
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits/headerlimits
 msc.type: config
 ---
-Header Limits &lt;headerLimits&gt;
-====================
+# Header Limits &lt;headerLimits&gt;
+
 <a id="001"></a>
 ## Overview
 

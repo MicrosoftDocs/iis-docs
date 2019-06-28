@@ -7,8 +7,8 @@ ms.assetid: cce1bd04-ab3c-44f2-a2e1-6a8403bba008
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/providers/add
 msc.type: config
 ---
-Adding Windows Authentication Providers &lt;add&gt;
-====================
+# Adding Windows Authentication Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

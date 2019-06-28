@@ -7,8 +7,8 @@ ms.assetid: b174c188-7477-4995-a6f1-a5ede62d6915
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/how-to-develop-on-the-microsoft-web-platform
 msc.type: authoredcontent
 ---
-How to Develop on the Microsoft Web Platform
-====================
+# How to Develop on the Microsoft Web Platform
+
 by Tali Smith
 
 The Windows® and Linux operating systems approach Web development in different ways. Linux is easily configured, and it lets enthusiasts get "under the hood" and tweak every aspect of the environment. Scripting languages, with their ability to morph and adapt, can automate the tweaking of the system. In contrast, the Windows-based, Microsoft® Web Platform is not designed to be tweaked by going to bare metal. Instead, the system is monitored, controlled, and modified by using well-defined interfaces, plug-in boards, and so on. Scripting languages are most often used in Windows to drive systems through APIs not through the modification of configuration files. Understanding this difference in philosophy is key to the effective use of scripting languages on the Windows-based platform.

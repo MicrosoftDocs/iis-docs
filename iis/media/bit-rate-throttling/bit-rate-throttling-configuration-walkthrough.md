@@ -7,8 +7,8 @@ ms.assetid: dedfc422-86c4-4122-a1c7-ed7c3b98108d
 msc.legacyurl: /learn/media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough
 msc.type: authoredcontent
 ---
-Bit Rate Throttling Configuration Walkthrough
-====================
+# Bit Rate Throttling Configuration Walkthrough
+
 by [Chris Knowlton](https://twitter.com/chris_knowlton)
 
 The Bit Rate Throttling extension for Internet Information Services (IIS) provides the ability to throttle progressive downloads of media files (in which audio/video playback starts as soon as sufficient data has been buffered on the client) based on the content bit rate. For sites that deliver audio and video files that may not be watched in their entirety, this extension can significantly reduce your media-related bandwidth costs. A secondary feature of Bit Rate Throttling is that it can also be used to throttle non-media ("Data") file types at specified bit rates.

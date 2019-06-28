@@ -7,8 +7,8 @@ ms.assetid: ec979d77-5a26-4b9b-9da2-ab445e6bdf73
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above
 msc.type: authoredcontent
 ---
-Changes in Security Between IIS 6.0 and IIS 7 and Above
-====================
+# Changes in Security Between IIS 6.0 and IIS 7 and Above
+
 by IIS Team
 
 ## Introduction

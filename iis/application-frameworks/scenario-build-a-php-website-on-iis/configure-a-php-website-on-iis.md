@@ -7,8 +7,8 @@ ms.assetid: d4b9179e-834f-44b0-b26f-bb34f2539d16
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/configure-a-php-website-on-iis
 msc.type: authoredcontent
 ---
-Configure a PHP Website on IIS
-====================
+# Configure a PHP Website on IIS
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview

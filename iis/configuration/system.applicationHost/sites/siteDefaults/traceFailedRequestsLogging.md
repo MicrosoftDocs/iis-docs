@@ -7,8 +7,8 @@ ms.assetid: 44a3a0c9-30f1-4050-af94-dbb1e10b0ccb
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/tracefailedrequestslogging
 msc.type: config
 ---
-Default Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;
-====================
+# Default Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;
+
 <a id="001"></a>
 ## Overview
 

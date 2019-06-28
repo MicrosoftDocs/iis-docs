@@ -7,8 +7,8 @@ ms.assetid: 08359c89-a4f4-438e-8935-daea7e6aaff4
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-oscommerce-on-iis
 msc.type: authoredcontent
 ---
-Install osCommerce on IIS
-====================
+# Install osCommerce on IIS
+
 by Eric Woersching
 
 ## Introduction

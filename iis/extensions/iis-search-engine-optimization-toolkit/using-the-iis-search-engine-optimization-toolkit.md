@@ -7,8 +7,8 @@ ms.assetid: 036528c7-7f19-485a-b30d-75941f8dc014
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/using-the-iis-search-engine-optimization-toolkit
 msc.type: authoredcontent
 ---
-Using the IIS Search Engine Optimization Toolkit
-====================
+# Using the IIS Search Engine Optimization Toolkit
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction

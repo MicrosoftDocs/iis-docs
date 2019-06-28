@@ -7,8 +7,8 @@ ms.assetid: 615cec3b-1b28-4282-b0e2-349cd6a95149
 msc.legacyurl: /configreference/system.webserver/security/isapicgirestriction/add
 msc.type: config
 ---
-Adding ISAPI/CGI Restrictions &lt;add&gt;
-====================
+# Adding ISAPI/CGI Restrictions &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

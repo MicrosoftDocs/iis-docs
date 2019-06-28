@@ -7,8 +7,8 @@ ms.assetid: 94b2ff9c-de00-4e0e-add9-de807a33d626
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq
 msc.type: authoredcontent
 ---
-BlogEngine.NET FAQ
-====================
+# BlogEngine.NET FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

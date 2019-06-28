@@ -7,8 +7,8 @@ ms.assetid: 2fc074bf-34cc-4c09-a607-f5d70d4eff4e
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-hardware-load-balancer
 msc.type: authoredcontent
 ---
-Achieving High Availability and Scalability - ARR and Hardware Load Balancer
-====================
+# Achieving High Availability and Scalability - ARR and Hardware Load Balancer
+
 by Won Yoo
 
 **Achieving High Availability and Scalability:**  

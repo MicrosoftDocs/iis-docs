@@ -7,8 +7,8 @@ ms.assetid: 417ee70e-8dfd-4723-828d-ba144c8af739
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-global-and-distributed-rewrite-rules
 msc.type: authoredcontent
 ---
-Using Global and Distributed Rewrite Rules
-====================
+# Using Global and Distributed Rewrite Rules
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will explain the different types of rules supported by URL rewrite module and will guide you through how to configure global and distributed rewrite rules.

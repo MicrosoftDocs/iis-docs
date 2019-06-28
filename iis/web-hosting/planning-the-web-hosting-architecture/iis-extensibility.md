@@ -7,8 +7,8 @@ ms.assetid: a7ab8af9-5213-46db-a98b-f94cc98e495e
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture/iis-extensibility
 msc.type: authoredcontent
 ---
-IIS Extensibility
-====================
+# IIS Extensibility
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

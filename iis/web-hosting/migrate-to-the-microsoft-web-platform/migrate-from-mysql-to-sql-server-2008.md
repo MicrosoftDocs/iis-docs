@@ -7,8 +7,8 @@ ms.assetid: f08aa19d-c2bf-44c4-af8d-6e7d862958cf
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/migrate-from-mysql-to-sql-server-2008
 msc.type: authoredcontent
 ---
-Migrate from MySQL to SQL Server 2008
-====================
+# Migrate from MySQL to SQL Server 2008
+
 by Tali Smith
 
 ## Introduction

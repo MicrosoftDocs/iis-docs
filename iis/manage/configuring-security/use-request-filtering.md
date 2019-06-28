@@ -7,8 +7,8 @@ ms.assetid: 240d711d-011b-4419-8560-6af44b339ba2
 msc.legacyurl: /learn/manage/configuring-security/use-request-filtering
 msc.type: authoredcontent
 ---
-Use Request Filtering
-====================
+# Use Request Filtering
+
 by IIS Team
 
 ## Introduction

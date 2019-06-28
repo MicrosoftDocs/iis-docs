@@ -7,8 +7,8 @@ ms.assetid: 33a52399-07b1-432b-9c4e-4634c8eaf0e5
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/connections
 msc.type: config
 ---
-Default FTP Connection Settings &lt;connections&gt;
-====================
+# Default FTP Connection Settings &lt;connections&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 729e10ac-105a-4d4d-8992-81d8c82bffbf
 msc.legacyurl: /learn/manage/remote-administration/remote-administration-for-iis-manager
 msc.type: authoredcontent
 ---
-Remote Administration for IIS Manager
-====================
+# Remote Administration for IIS Manager
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

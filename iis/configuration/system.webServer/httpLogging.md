@@ -7,8 +7,8 @@ ms.assetid: 9917491b-7298-4b67-9457-1686a1852dac
 msc.legacyurl: /configreference/system.webserver/httplogging
 msc.type: config
 ---
-HTTP Logging &lt;httpLogging&gt;
-====================
+# HTTP Logging &lt;httpLogging&gt;
+
 <a id="001"></a>
 ## Overview
 

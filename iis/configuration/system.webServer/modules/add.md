@@ -7,8 +7,8 @@ ms.assetid: 1d3db48a-771a-43c5-aa86-4e346f527b93
 msc.legacyurl: /configreference/system.webserver/modules/add
 msc.type: config
 ---
-Adding Modules &lt;add&gt;
-====================
+# Adding Modules &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

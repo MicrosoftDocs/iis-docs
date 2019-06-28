@@ -7,8 +7,8 @@ ms.assetid: 6c23bdc8-496b-4b9f-b9cd-65fd1d281132
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/editing-collections-with-configuration-editor
 msc.type: authoredcontent
 ---
-Editing Collections with Configuration Editor
-====================
+# Editing Collections with Configuration Editor
+
 by [Robert Lucero](https://github.com/rlucero)
 
 ## Walkthrough Goal
