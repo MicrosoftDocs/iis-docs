@@ -92,7 +92,7 @@ To support and configure authorization for sites and applications on your Web se
         [![](add/_static/image14.png)](add/_static/image13.png)
 
     > [!NOTE]
-    >  To edit or delete an existing rule, select the rule in the     **Authorization rules** pane, and then click     **Edit...** or     **Remove** in the     **Actions** pane. If you click     **Edit...** , a dialog box appears that allows you to edit the rule; this dialog box is similar to the     **Add Allow Authorization Rule** and     **Add Deny Authorization Rule** dialog boxes.
+    > To edit or delete an existing rule, select the rule in the **Authorization rules** pane, and then click **Edit...** or **Remove** in the **Actions** pane. If you click **Edit...**, a dialog box appears that allows you to edit the rule; this dialog box is similar to the **Add Allow Authorization Rule** and **Add Deny Authorization Rule** dialog boxes.
 
 <a id="005"></a>
 ## Configuration

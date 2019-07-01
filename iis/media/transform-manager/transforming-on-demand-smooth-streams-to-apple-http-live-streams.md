@@ -77,7 +77,7 @@ Job templates are modifiable definitions of the tasks that are run during the tr
 2. In the **Job Templates** page, select the **H.264 Smooth Streams to Apple HTTP Live Streams** job template.  
     ![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image5.png)
   
-    Note the name of the watch folder that this job template is bound to in **Watch folders that use this job template** . We'll configure this watch folder to run the repackaging jobs later in this article.
+    Note the name of the watch folder that this job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the repackaging jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
     ![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image7.png)
 4. In the **Edit Job Template** dialog box, you can edit the job template **Name** and **Description** to give it a more descriptive information for your environment.  
