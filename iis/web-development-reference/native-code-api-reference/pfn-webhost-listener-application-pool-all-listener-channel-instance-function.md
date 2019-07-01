@@ -11,8 +11,8 @@ Notifies the listener adapter that it is possible to launch other instances of t
 ```cpp  
 typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppPoolId,  
-   IN DWORD ListenerChannelId  
+   IN LPCWSTR AppPoolId,  
+   IN DWORD ListenerChannelId  
 );  
 ```  
   
@@ -34,19 +34,19 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
   
  This notification can be called whenever a new instance of a listener channel can be connected to a worker process. The following are some of the situations in which this notification may occur:  
   
--   A Web garden contains processes that can either be launched or that are not currently running the processing code for this listener channel.  
+- A Web garden contains processes that can either be launched or that are not currently running the processing code for this listener channel.  
   
--   A worker process has idled out and a new one can be launched.  
+- A worker process has idled out and a new one can be launched.  
   
--   A non-overlap recycle process has occurred and a new worker process can be launched.  
+- A non-overlap recycle process has occurred and a new worker process can be launched.  
   
--   A worker process has terminated unexpectedly and a new one can be launched.  
+- A worker process has terminated unexpectedly and a new one can be launched.  
   
--   The application domain the listener channel was connected to has idled out.  
+- The application domain the listener channel was connected to has idled out.  
   
--   The application domain was shut down (for any reason); therefore, the listener channel was stopped and can now be restarted.  
+- The application domain was shut down (for any reason); therefore, the listener channel was stopped and can now be restarted.  
   
- The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
+  The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
   
 ## Requirements  
   

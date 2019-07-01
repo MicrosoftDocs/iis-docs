@@ -54,12 +54,12 @@ The following [IIS Smooth Streaming HD Sample Content](https://go.microsoft.com/
 
 1. On your Smooth Streaming Web server, go to the [IIS Smooth Streaming HD Sample Content page](https://go.microsoft.com/?linkid=9652408) and click the **Download** button for the desired sample video.
 2. To extract the Smooth Streaming presentation folder immediately, click **Open**.  
- -or-  
- To copy the zipped folder to your Web server in order to extract the presentation folder at a later time, click **Save**, and then open the zipped folder from the saved location.
+   -or-  
+   To copy the zipped folder to your Web server in order to extract the presentation folder at a later time, click **Save**, and then open the zipped folder from the saved location.
 3. Extract the Smooth Streaming presentation folder to a website or virtual directory on the Web server. This walkthrough describes a Smooth Streaming Web server with the Big Buck Bunny H.264 720p sample content stored in the Default Web site. For example:  
     ![](getting-started-with-iis-smooth-streaming/_static/image2.png)  
   
- If you want to use another website or virtual directory to store the sample content, enter its physical path. Be sure to substitute your chosen website or virtual directory appropriately in the rest of the procedures in this article.
+   If you want to use another website or virtual directory to store the sample content, enter its physical path. Be sure to substitute your chosen website or virtual directory appropriately in the rest of the procedures in this article.
 4. To view the Smooth Streaming sample content files, in IIS Manager, open the Smooth Streaming presentation folder in **Content View**.  
     ![](getting-started-with-iis-smooth-streaming/_static/image3.png)
 
@@ -72,8 +72,8 @@ The Microsoft Silverlight Media Framework 2.0 SmoothStreamingPlayer.XAP is a pre
 1. If you haven't already done so, install the Sample Content on your Smooth Streaming Web server as described above.
 2. On the Web server, click the following link to download the Sample Client executable file: [SmoothStreamingPlayer.exe](https://go.microsoft.com/?linkid=9752687).
 3. To extract the Sample Client files immediately, click **Run**.  
- -or-  
- To copy the Sample Client files to your Web server in order to extract them at a later time, click **Save**, and then open the file from the saved location.
+   -or-  
+   To copy the Sample Client files to your Web server in order to extract them at a later time, click **Save**, and then open the file from the saved location.
 4. When you're prompted for a location to store the extracted Sample Client files, enter the directory path of a temporary folder on your desktop. For example:  
     ![](getting-started-with-iis-smooth-streaming/_static/image4.png)
 5. Open the temporary desktop folder, review the terms in the End User License Agreement (EULA) file, and then right-click the zipped folder and click **Extract All** to extract the Sample Client files.  
@@ -83,7 +83,7 @@ The Microsoft Silverlight Media Framework 2.0 SmoothStreamingPlayer.XAP is a pre
 7. To view the Sample Client files, in IIS Manager, open the Smooth Streaming presentation folder in **Content View**.  
     ![](getting-started-with-iis-smooth-streaming/_static/image7.png)  
   
- The following Sample Client files are included in the download: 
+   The following Sample Client files are included in the download: 
 
     - **Smooth Streaming Player-ReadMe.doc**. Configuration instructions.
     - **SmoothStreamingPlayer.html**. A sample webpage in which you must update the media reference to the on-demand Smooth Streaming presentation, and if necessary, width and height attributes to achieve a presentation size that fits your website design.
@@ -101,10 +101,10 @@ This section describes how to use the Sample Content and Sample Client files to 
 
     [!code-console[Main](getting-started-with-iis-smooth-streaming/samples/sample1.cmd)]
 
- If necessary, also update the **width** and **height** attributes to appropriate values for your website design. For complete instructions, see the Readme file (Smooth Streaming Player-ReadMe.doc).
+   If necessary, also update the **width** and **height** attributes to appropriate values for your website design. For complete instructions, see the Readme file (Smooth Streaming Player-ReadMe.doc).
 2. In a web browser on the client computer, download the sample webpage from the Web server and begin viewing the stream. In our example, in the web browser address bar, type `http://%ServerName%/Big Buck Bunny H.264 720p/`**SmoothStreamingPlayer.html**.  
   
- The on-demand Smooth Stream opens in the web browser, using the Silverlight browser plug-in for Smooth Streaming.  
+   The on-demand Smooth Stream opens in the web browser, using the Silverlight browser plug-in for Smooth Streaming.  
     ![](getting-started-with-iis-smooth-streaming/_static/image8.png)
 
 For more information about how to build rich Silverlight user experiences that take full advantage of on-demand and live IIS Smooth Streaming capabilities, see the [Smooth Streaming Client webpage](https://go.microsoft.com/?linkid=9752845).

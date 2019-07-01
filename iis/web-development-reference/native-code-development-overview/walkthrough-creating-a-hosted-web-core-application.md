@@ -212,7 +212,7 @@ If your application does not load, or it returns an error when it is running, th
 
   - 404.7 "File Extension Denied"—This substatus code indicates that the file name extension has been blocked by request filtering. For example, you will encounter this code if you browse to a file that has a .gif file name extension, and request filtering has been configured to deny access to files that have that extension.
 
-   Each of these errors indicates a problem with the settings in your application's configuration file. For more information, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-configuration-file-for-hosted-web-core.md).
+    Each of these errors indicates a problem with the settings in your application's configuration file. For more information, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-configuration-file-for-hosted-web-core.md).
 
 ## See also
 

@@ -88,12 +88,12 @@ To configure the behavior that IIS will use when denying IP addresses, use the f
     [![](iis-80-dynamic-ip-address-restrictions/_static/image7.png)](iis-80-dynamic-ip-address-restrictions/_static/image6.png)
 5. When the **Edit IP and Domain Restriction Settings** dialog box appears, click the **Deny Action Type** drop-down menu and choose the behavior that IIS uses from the following values: 
 
-    - **Unauthorized**: IIS returns an HTTP 401 response.
-    - **Forbidden**: IIS returns an HTTP 403 response.
-    - **Not Found**: IIS returns an HTTP 404 response.
-    - **Abort**: IIS terminates the HTTP connection.
+   - **Unauthorized**: IIS returns an HTTP 401 response.
+   - **Forbidden**: IIS returns an HTTP 403 response.
+   - **Not Found**: IIS returns an HTTP 404 response.
+   - **Abort**: IIS terminates the HTTP connection.
 
-    ![](iis-80-dynamic-ip-address-restrictions/_static/image8.png)
+     ![](iis-80-dynamic-ip-address-restrictions/_static/image8.png)
 6. Click **OK**.
 
 <a id="TOC301448453"></a>

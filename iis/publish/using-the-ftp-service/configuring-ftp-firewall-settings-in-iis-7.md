@@ -68,30 +68,30 @@ In this section you, create a new FTP site that can be opened for Read-only acce
     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears:
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
+   - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
 
-       > [!NOTE]
-       > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+      > [!NOTE]
+      > If you choose to type in the path to your content folder, you can use environment variables in your paths.
 
-    - Click **Next**.
+   - Click **Next**.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image1.jpg)
+     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard:
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be accessing this FTP site remotely, you want to make sure that you do not restrict access to the local server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
-    - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, you will choose to accept the default port of 21.
-    - For this walkthrough, you do not use a host name, so make sure that the **Virtual Host** box is blank.
-    - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
-    - Click **Next**.
+   - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be accessing this FTP site remotely, you want to make sure that you do not restrict access to the local server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
+   - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, you will choose to accept the default port of 21.
+   - For this walkthrough, you do not use a host name, so make sure that the **Virtual Host** box is blank.
+   - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
+   - Click **Next**.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image7.jpg)
+     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image7.jpg)
 5. On the next page of the wizard:
 
-    - Select **Anonymous** for the **Authentication** settings.
-    - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down. Select **Read** for the **Permissions** option.
-    - Click **Finish**.
+   - Select **Anonymous** for the **Authentication** settings.
+   - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down. Select **Read** for the **Permissions** option.
+   - Click **Finish**.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image9.jpg)
+     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image9.jpg)
 6. Go to IIS 7 Manager. Click the node for the FTP site that you created. The icons for all of the FTP features display.
 
     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image5.png)

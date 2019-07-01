@@ -49,24 +49,24 @@ Follow these steps:
     [![](cubecart-on-iis/_static/image6.jpg)](cubecart-on-iis/_static/image5.jpg)
 3. Provide the database details and click Continue. We used the following details for our application:  
 
-    - Database Type: MySql
-    - Host Name: localhost
-    - Username: cubecartuser
-    - Password: cubecart
-    - Database: cubecart
+   - Database Type: MySql
+   - Host Name: localhost
+   - Username: cubecartuser
+   - Password: cubecart
+   - Database: cubecart
 
-    [![](cubecart-on-iis/_static/image8.jpg)](cubecart-on-iis/_static/image7.jpg)
+     [![](cubecart-on-iis/_static/image8.jpg)](cubecart-on-iis/_static/image7.jpg)
 
-    [![](cubecart-on-iis/_static/image10.jpg)](cubecart-on-iis/_static/image9.jpg)
+     [![](cubecart-on-iis/_static/image10.jpg)](cubecart-on-iis/_static/image9.jpg)
 
-    It generates 2 files:
+     It generates 2 files:
 
-    - global.inc.php - Open includes/global.inc.php and paste in the code created for you.
-    - db.sql - Execute the sql queries generated for you.
+   - global.inc.php - Open includes/global.inc.php and paste in the code created for you.
+   - db.sql - Execute the sql queries generated for you.
 
-    [![](cubecart-on-iis/_static/image12.jpg)](cubecart-on-iis/_static/image11.jpg)
+     [![](cubecart-on-iis/_static/image12.jpg)](cubecart-on-iis/_static/image11.jpg)
 
-    [![](cubecart-on-iis/_static/image14.jpg)](cubecart-on-iis/_static/image13.jpg)
+     [![](cubecart-on-iis/_static/image14.jpg)](cubecart-on-iis/_static/image13.jpg)
 4. Give write access permissions to images/upload folder.  
 
     [![](cubecart-on-iis/_static/image16.jpg)](cubecart-on-iis/_static/image15.jpg)
