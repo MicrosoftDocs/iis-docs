@@ -17,7 +17,6 @@ This section of the document applies to **Microsoft Application Request Routing 
 
 To understand and configure caching with query string support in Application Request Routing (ARR).
 
-
 ## Prerequisites
 
 This article assumes that you are familiar with the overall functionality of ARR and know how to deploy and configure ARR with disk cache. If you have not done so already, it is strongly recommended that you review the following walkthroughs before proceeding:
@@ -44,46 +43,60 @@ This walkthrough assumes that the server farm has already been created. If not, 
 - Do not cache: If the URL contains a query string, it will not be cached.
 - Include query string: Same URL with different query strings will be cached as separate objects. Only exact match of the URL plus query string will result in a cache hit.
 
-**To configure a query string support to "Ignore query string" using the UI:** 
+**To configure a query string support to "Ignore query string" using the UI:**
 
-1. Launch IIS Manager. - The query string support configuration for ARR is done at the server farm level. Select the server farm in the navigation tree view.
-- Select **Server Farms**. - Select the server farm that you created. - The following icons are shown: 
+1. Launch IIS Manager.
+2. The query string support configuration for ARR is done at the server farm level. Select the server farm in the navigation tree view.
+3. Select **Server Farms**.
+4. Select the server farm that you created.
+5. The following icons are shown:
 
-    [![](configure-caching-with-query-string-support-in-application-request-routing/_static/image3.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image2.jpg)
-- Double-click **Caching**.
+     ![](configure-caching-with-query-string-support-in-application-request-routing/_static/image2.jpg)
+6. Double-click **Caching**.
 
-	[![](configure-caching-with-query-string-support-in-application-request-routing/_static/image5.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
-
+     ![](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
 
 7. Verify that **Query String Support** drop down is set to **Ignore query string**. This is the default setting.
 
-**Verify Functionality:** 
+**Verify Functionality:**
 
-1. Make a request to /arr/arr.htm?query=5 and /arr/arr.htm?query=10 - Navigate to Application Request Routing UI at the server level in IIS Manager. - Click on Browse cache content in the actions pane on the right. - Verify that only one file is cached for arr.htm.full - Navigate to Monitoring and Management screen in UI. - Verify that first request is cache miss and the other request is a cache hit.
+1. Make a request to /arr/arr.htm?query=5 and /arr/arr.htm?query=10
+2. Navigate to Application Request Routing UI at the server level in IIS Manager.
+3. Click on Browse cache content in the actions pane on the right.
+4. Verify that only one file is cached for arr.htm.full
+5. Navigate to Monitoring and Management screen in UI.
+6. Verify that first request is cache miss and the other request is a cache hit.
 
 As a cleanup, Delete all cached objects using steps mentioned in [Delete Cached Objects](delete-cached-objects.md) walkthrough and reset runtime statistics for the server farm by navigating to "Monitoring and Management" screen and clicking "Reset runtime statistics" in the actions pane.
 
-**To configure a query string support to "Do not cache" using the UI:** 
+**To configure a query string support to "Do not cache" using the UI:**
 
-1. Navigate to the **Caching** feature of the server farm again. - Set **Query String Support** drop down to **Do not cache**.
+1. Navigate to the **Caching** feature of the server farm again.
+2. Set **Query String Support** drop down to **Do not cache**.
 
-**Verify Functionality:** 
+**Verify Functionality:**
 
-1. Make a request to /arr/arr.htm?query=5 and /arr/arr.htm?query=10 - Navigate to Application Request Routing UI at the server level in IIS Manager. - Click on Browse cache content in the actions pane on the right. - Verify that no file is cached. - Navigate to Monitoring and Management screen in UI. - Verify that both requests are cache miss.
+1. Make a request to /arr/arr.htm?query=5 and /arr/arr.htm?query=10
+2. Navigate to Application Request Routing UI at the server level in IIS Manager.
+3. Click on Browse cache content in the actions pane on the right.
+4. Verify that no file is cached.
+5. Navigate to Monitoring and Management screen in UI.
+6. Verify that both requests are cache miss.
 
 As a cleanup, reset runtime statistics for the server farm by navigating to "Monitoring and Management" screen and clicking "Reset runtime statistics" in the actions pane.
 
-**To configure a query string support to "Include Query String" using the UI:** 
+**To configure a query string support to "Include Query String" using the UI:**
 
-1. Navigate to the **Caching** feature of the server farm again. - Set **Query String Support** drop down to **Include Query String**.
+1. Navigate to the **Caching** feature of the server farm again.
+2. Set **Query String Support** drop down to **Include Query String**.
 
-**Verify Functionality:** 
+**Verify Functionality:**
 
-1. Make the following requests 
+1. Make the following requests
 
-    - /arr/arr.htm?query=5
-    - /arr/arr.htm?query=10
-    - /arr/arr.htm
+   - /arr/arr.htm?query=5
+   - /arr/arr.htm?query=10
+   - /arr/arr.htm
 2. Navigate to Application Request Routing UI at the server level in IIS Manager.
 3. Click on Browse cache content in the actions pane on the right.
 4. Verify that 3 different files are cached.

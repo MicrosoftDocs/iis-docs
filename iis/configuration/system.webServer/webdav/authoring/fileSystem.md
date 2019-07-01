@@ -31,7 +31,6 @@ The `<fileSystem>` element of the `<authoring>` element specifies how the WebDAV
 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
 
-
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
@@ -41,24 +40,41 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 ### Windows Server 2012 or Windows Server 2012 R2
 
-1. On the taskbar, click **Server Manager**. - In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**. - In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**. - On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
-    [![](fileSystem/_static/image2.png)](fileSystem/_static/image1.png) . - On the **Select features** page, click **Next**. - On the **Confirm installation selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Server Manager**.
+2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
+3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
+4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
+    ![](fileSystem/_static/image1.png)
+5. On the **Select features** page, click **Next**.
+6. On the **Confirm installation selections** page, click **Install**.
+7. On the **Results** page, click **Close**.
 
 ### Windows 8 or Windows 8.1
 
-1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
-    [![](fileSystem/_static/image4.png)](fileSystem/_static/image3.png)- Click **OK**.
-- Click **Close**.
+1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
+3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
+    ![](fileSystem/_static/image3.png)
+4. Click **OK**.
+5. Click **Close**.
 
 ### Windows Server 2008 R2
 
-1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**. - In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**. - In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**. - On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
-    [![](fileSystem/_static/image6.png)](fileSystem/_static/image5.png)- On the **Confirm Installation Selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
+2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
+3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
+    ![](fileSystem/_static/image5.png)
+5. On the **Confirm Installation Selections** page, click **Install**.
+6. On the **Results** page, click **Close**.
 
 ### Windows 7
 
-1. On the taskbar, click **Start**, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**. - Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**. - Select **WebDAV Publishing**, and then click **OK**.   
-    [![](fileSystem/_static/image8.png)](fileSystem/_static/image7.png)
+1. On the taskbar, click **Start**, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
+3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**.
+4. Select **WebDAV Publishing**, and then click **OK**.  
+    ![](fileSystem/_static/image7.png)
 
 ### Windows Server 2008 or Windows Vista
 
@@ -92,10 +108,10 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then go to the site, application, or directory where you want to enable WebDAV publishing.
 3. In the **Home** pane, double-click **WebDAV Authoring Rules**.  
-    [![](fileSystem/_static/image10.png)](fileSystem/_static/image9.png)
+    ![](fileSystem/_static/image9.png)
 4. In the **Actions** pane, click **WebDAV Settings...**
 5. In the **WebDAV Settings** pane, choose select **True** for **Allow Hidden Files to be Listed** if you want properties for hidden files to be returned in property responses; otherwise, choose **False**.  
-    [![](fileSystem/_static/image12.png)](fileSystem/_static/image11.png)
+    ![](fileSystem/_static/image11.png)
 6. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
