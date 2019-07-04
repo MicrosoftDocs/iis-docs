@@ -1,1 +1,2 @@
-Extension=php_sqlsrv.dll
+Extension=php_sqlsrv_73_ts_x64.dll
+Extension=php_pdo_sqlsrv_73_ts_x64.dll
