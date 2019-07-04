@@ -1,7 +1,7 @@
 ---
 title: "Install the Microsoft Drivers for PHP for SQL Server"
 author: rick-anderson
-description: "Introduction The Microsoft Drivers for PHP for SQL Server are designed to enable reliable, scalable integration with SQL Server for PHP applications on"
+description: "Introduction The Microsoft Drivers for PHP for SQL Server are designed to enable reliable, scalable integration with SQL Server for PHP applications on..."
 ms.date: "07/04/2019"
 ms.assetid: 2e1b4523-a32f-4390-bf9f-552f21ecc93b
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php
