@@ -17,27 +17,21 @@ The Microsoft Drivers for PHP for SQL Server are designed to enable reliable, sc
 
 The drivers' application programming interface (API) includes support for Active Directory authentication, transactions, parameter binding, streaming, metadata access, Unicode data handling, and error handling. The drivers rely on the Microsoft SQL Server Native Client or the Microsoft ODBC Driver for SQL Server to communicate with SQL Server.
 
-The Microsoft Drivers for PHP for SQL Server download is available to all SQL Server users at no additional charge. The most current version of the drivers, 5.6, supports Microsoft SQL Azure™ Database and PHP version 7.3, enabling developers to build PHP applications with relational capabilities using SQL Azure Database. 
+The Microsoft Drivers for PHP for SQL Server download is available to all SQL Server users at no additional charge. The latest drivers, version 5.6.1, support Microsoft SQL Azure™ Database and PHP version 7.3, enabling developers to build PHP applications with relational capabilities using SQL Azure Database. 
 
 Releases and source code for the drivers are available from the [Github project page](https://github.com/microsoft/msphpsql). Full documentation for the drivers is available on [Microsoft Docs](https://docs.microsoft.com/sql/connect/php/microsoft-php-driver-for-sql-server?view=sql-server-2017); what follows is a brief overview of installation and configuration on Windows and IIS.
 
 ## System Requirements
 
-The following requirements apply to version 5.6 of the Microsoft Drivers for PHP for SQL Server. For more details on requirements for other versions, see the full [system requirements](https://docs.microsoft.com/sql/connect/php/system-requirements-for-the-php-sql-driver?view=sql-server-2017).
+Full details on the system requirements for all supported versions of the driver can be found on the [system requirements page](https://docs.microsoft.com/sql/connect/php/system-requirements-for-the-php-sql-driver?view=sql-server-2017). The following software is required:
 
-- Supported operating systems:
-
-    - Windows Server 2012 or Windows Server 2016
-    - Windows 8.1 or Windows 10
-    - Ubuntu Linux 16.04, 18.04, or 18.10
-    - Red Hat Enterprise Linux 7
-    - Debian Linux 8 or 9
-    - Suse Enterprise Linux 12 or 15
-    - macOS Sierra, High Sierra, or Mojave
-- PHP 7.1, 7.2, or 7.3
-- Microsoft ODBC Driver 11, 13.1, or 17
-- Any edition of SQL Server 2008 R2 or later
-- A Web server configured to run PHP
+- On the client machine:
+  - A supported Windows, Linux, or macOS operating system
+  - A supported version of PHP
+  - A supported version of the Microsoft ODBC Driver for SQL Server
+  - A Web server configured to run PHP
+- On the server:
+  - A supported version of SQL Server
 
 ## Install the Drivers
 
