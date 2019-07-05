@@ -35,10 +35,10 @@ Full details on the system requirements for all supported versions of the driver
 
 Perform the following steps to download and install the Microsoft Drivers for PHP for SQL Server on Windows.
 
-1. Download and run the installation package from the appropriate link on the [download page](https://docs.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-2017).
+1. Download and run the installation package from the appropriate link on the [download page](https://docs.microsoft.com/sql/connect/php/download-drivers-php-sql-server?view=sql-server-2017).
 2. Enter a directory to extract the package into when prompted. 
 3. Open the directory you chose in step 3 and copy the required dll libraries to your PHP extension directory. The filenames indicate which PHP version, threadedness, and architecture each dll file is for. For example, `php_sqlsrv_73_ts_x64.dll` is the 64-bit SQLSRV driver for thread-safe (ts) PHP 7.3.
-4. Download and install the Microsoft ODBC Driver for SQL Server from the appropriate link on the [ODBC download page](https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-2017).
+4. Download and install the Microsoft ODBC Driver for SQL Server from the appropriate link on the [ODBC download page](https://docs.microsoft.com/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-2017).
 5. Edit your `php.ini` file to add the following lines in the `Extensions` section:  
 
     [!code-console[Main](install-the-sql-server-driver-for-php/samples/sample1.cmd)]
@@ -72,7 +72,7 @@ Connections can be made using [Windows authentication](https://docs.microsoft.co
 ## Links for Further Information
 
 - [Microsoft Drivers for PHP for SQL Server](https://github.com/microsoft/msphpsql)
-- [Download the Microsoft Drivers for PHP for SQL Server](https://docs.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-2017)
+- [Download the Microsoft Drivers for PHP for SQL Server](https://docs.microsoft.com/sql/connect/php/download-drivers-php-sql-server?view=sql-server-2017)
 - [Overview of the Microsoft Drivers for PHP for SQL Server](https://docs.microsoft.com/sql/connect/php/overview-of-the-php-sql-driver?view=sql-server-2017)
 - [Programming Guide](https://docs.microsoft.com/sql/connect/php/programming-guide-for-php-sql-driver?view=sql-server-2017)
 - [SQLSRV Example Application](https://docs.microsoft.com/sql/connect/php/example-application-sqlsrv-driver?view=sql-server-2017)
