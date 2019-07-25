@@ -67,7 +67,7 @@ URL rewrite rules can be used to set custom server variables.
 | REQUEST_FILENAME      | The physical path for the current request. |
 | REQUEST_FLAGS         | The Flags of [HTTP_REQUEST](https://docs.microsoft.com/en-us/windows/desktop/api/http/ns-http-_http_request_v1).<br/>For example, the `HTTP_REQUEST_FLAG_HTTP2` flag will be set for HTTP/2 requests. |
 | REQUEST_METHOD        | The method used to make the request. |
-| REQUEST_URI           | The path-absolute part of the URI.<br/>For example `https://contoso.com:8042/over/there?name=ferret` would return `/over/there` |
+| REQUEST_URI           | The path-absolute part of the URI.<br/>For example `https://contoso.com:8042/over/there?name=ferret` would return `contoso.com:8042/over/there?name=ferret` |
 | SCRIPT_FILENAME       | The physical path of the current request. |
 | SCRIPT_NAME           | A virtual path to the script being executed. |
 | SCRIPT_TRANSLATED     | The [extended-length path](https://msdn.microsoft.com/library/aa365247(VS.85).aspx#maxpath) to the requested file (prefixed with `\\?\`). |
