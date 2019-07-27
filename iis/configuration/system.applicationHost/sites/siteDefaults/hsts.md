@@ -2,7 +2,8 @@
 title: "Default HSTS settings for a Web Site &lt;hsts&gt;"
 author: bangbingsyb
 description: "Overview The &lt;hsts&gt; element of the &lt;siteDefaults&gt; element configures HSTS settings for a website"
-ms.author: bangbingsyb
+ms.author: yashi
+ms.date: 04/16/2019
 msc.type: config
 ---
 Default HSTS Settings for a Web Site &lt;hsts&gt;
