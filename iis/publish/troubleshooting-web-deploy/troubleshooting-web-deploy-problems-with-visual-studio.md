@@ -87,7 +87,7 @@ The other common reason you could get a 403 error is if the management service h
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample13.cmd)]
 
-The 404 error indicates that Web Deploy was able to contact the Web Mangement Service on the server, but couldn't find what it needed. The first thing to do is confirm what resource Web Deploy tried to connect to. You should see an entry in the WMSVC log that looks like
+The 404 error indicates that Web Deploy was able to contact the Web Management Service on the server, but couldn't find what it needed. The first thing to do is confirm what resource Web Deploy tried to connect to. You should see an entry in the WMSVC log that looks like
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample14.cmd)]
 
