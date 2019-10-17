@@ -11,16 +11,6 @@ IIS 10.0 Version 1709 is the latest version of Internet Information Services
 Version 1709. This article describes the new functionality of IIS and provides
 links to resources to learn more about these features.
 
-## HTTP Strict Transport Security (HSTS)
-
-HTTP Strict Transport Security (HSTS), specified in
-[RFC 6797](https://tools.ietf.org/html/rfc6797), allows a website to declare
-itself as a secure host and to inform browsers that it should be contacted only
-through HTTPS connections. IIS 10.0 Version 1709 introduces turn-key support for
-enabling HSTS without the need for error-prone URL rewrite rules.
-
-Learn more: [HSTS](iis-10-version-1709-hsts.md)
-
 ## Container Enhancements
 
 IIS 10.0 Version 1709 introduces improvements that allow you to run the IIS
