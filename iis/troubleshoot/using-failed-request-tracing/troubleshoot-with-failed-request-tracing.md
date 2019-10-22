@@ -7,11 +7,9 @@ ms.assetid: c7947671-74a4-41e0-bab7-eb589d7f2c72
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing
 msc.type: authoredcontent
 ---
-Troubleshoot with Failed Request Tracing
-====================
-by Tali Smith
+# Troubleshoot with Failed Request Tracing
 
-## Introduction
+by Tali Smith
 
 When running PHP, it is sometimes not possible to inspect an error page to diagnose an error condition. This can happen if:
 
@@ -47,22 +45,22 @@ To enable Failed Request Tracing for a site (for example, Troubleshooting.PHP), 
 2. Expand the **Server** node, and then expand the **Sites** node.
 3. In the tree view on the left, locate and click the *name of the site*.
 4. Under **IIS**, double-click **Failed Request Tracing Rules**.  
-    [![](troubleshoot-with-failed-request-tracing/_static/image2.jpg)](troubleshoot-with-failed-request-tracing/_static/image1.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image1.jpg)  
     *Figure 1: Failed Request Tracing rules in IIS*
 5. Click **Edit Site Tracing**.
 6. Select the **Enable** check box.
 7. Click **OK**.
 8. Now, create a Failed Request Tracing rule. Click **Add**.
 9. Leave the **All content** option selected.  
-    [![](troubleshoot-with-failed-request-tracing/_static/image4.jpg)](troubleshoot-with-failed-request-tracing/_static/image3.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image3.jpg)  
     *Figure 2: Add a failed request tracing rule*
 10. Click **Next**.
 11. Type **400-999** in the **Status code(s)** text box.  
-    [![](troubleshoot-with-failed-request-tracing/_static/image6.jpg)](troubleshoot-with-failed-request-tracing/_static/image5.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image5.jpg)  
     *Figure 3: Assign a status rule to tracing rule*
 12. Click **Next**.
 13. Leave the default trace providers enabled.  
-    [![](troubleshoot-with-failed-request-tracing/_static/image8.jpg)](troubleshoot-with-failed-request-tracing/_static/image7.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image7.jpg)  
     *Figure 4: Select tracing providers*
 14. Click **Finish**.
 15. Now, you can make requests. Assume for these steps that the requests are made by other users of your site and you are not aware of their requests or responses. For example, make the following requests using Windows® Internet Explorer®:  
@@ -77,28 +75,29 @@ To enable Failed Request Tracing for a site (for example, Troubleshooting.PHP), 
 
         [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample1.cmd)]
 
- This should produce an output similar to:  
+    This should produce an output similar to:  
 
-        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample2.cmd)]
+       [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample2.cmd)]
 
- This output indicates that a trace log was generated for a request to **/products.php?product=5**, which resulted in an HTTP 500 error. This immediately tells you that:  
+    This output indicates that a trace log was generated for a request to **/products.php?product=5**, which resulted in an HTTP 500 error. This immediately tells you that:  
 
-        - The Products.php page caused an error.
-        - The input that caused an error is most likely **product=5**, as you don't see failures for other querystrings (this conclusion would be more accurate if this page is accessed frequently; in that case you will see multiple errors only for this specific querystring).
+       - The Products.php page caused an error.
+       - The input that caused an error is most likely **product=5**, as you don't see failures for other querystrings (this conclusion would be more accurate if this page is accessed frequently; in that case you will see multiple errors only for this specific querystring).
 17. You can now obtain a specific trace log to gather more information about the request and the possible cause for the failure. To do this, run the following from the command prompt (using the quoted ID of the trace log from the previous output):  
 
     [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample3.cmd)]
 
- This should have the following output similar to the following:  
+    This should have the following output similar to the following:  
 
     [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample4.cmd)]
 18. Inspect the trace log. Open the trace log file in the browser, using the path specified in the previous output (that is, `C:\inetpub\logs\FailedReqLogFiles\W3SVC2\fr000001.xml`). The Summary tab gives basic information about the request. You can see that the error status was set by the FastCGIModule, which suggests that the error came from PHP. In other cases, you may see that the error came from other IIS modules, in which case you could use the wealth of tracing information in the log to determine why. In this case, however, you need to actually see the response that was generated by PHP to get more insight into the error.  
-    [![](troubleshoot-with-failed-request-tracing/_static/image10.jpg)](troubleshoot-with-failed-request-tracing/_static/image9.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image9.jpg)  
     *Figure 5: Inspect the trace logs*
 19. Click the **Compact View** tab. This tab shows the detailed list of trace events generated by IIS and IIS modules during the processing of the request.  
-    [![](troubleshoot-with-failed-request-tracing/_static/image12.jpg)](troubleshoot-with-failed-request-tracing/_static/image11.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image11.jpg)  
     *Figure 6: Inspect the Compact View tab*  
- Note the following:  
+
+    Note the following:  
 
     - **GENERAL\_REQUEST\_START** event shows some basic information, including the request URL, verb, runtime information about the site, and application to which the request was dispatched.
     - **GENERAL\_REQUEST\_HEADERS** event gives the complete list of headers, which in some cases may be significant when determining which user input may have lead to the error.
@@ -120,10 +119,10 @@ Suppose you request a page that enters into an endless loop due to a programming
 2. In the tree view on the left, click on the **Server** node.
 3. Under **IIS**, double-click **Worker Processes**.
 4. Under **Application Pool** Name, double-click on your *site name*. (In this example, the site is Troubleshooting.PHP.)  
-    [![](troubleshoot-with-failed-request-tracing/_static/image14.jpg)](troubleshoot-with-failed-request-tracing/_static/image13.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image13.jpg)  
     *Figure 7: View the Application Pool in a worker process*
 5. Switch over to a Web browser, and refresh the page if the page has timed out. This may need to be done throughout these steps. Switch back to **IIS Manager**, and then refresh the **Requests** view.  
-    [![](troubleshoot-with-failed-request-tracing/_static/image16.jpg)](troubleshoot-with-failed-request-tracing/_static/image15.jpg)  
+    ![](troubleshoot-with-failed-request-tracing/_static/image15.jpg)  
     *Figure 8: View the requests*
 6. Observe the list of currently executing requests, showing the request to the problem page, in this case, /loop.php. The request entry shows:  
 
@@ -135,12 +134,12 @@ Suppose you request a page that enters into an endless loop due to a programming
 You can refresh the view several times to observe that the same request continues to execute in the same stage, pointing out the hanging request.
 
 - Determine which request is hanging using the command prompt. With the command prompt, you can filter out the requests of interest, for example requests to a specific application or a specific URL. It can be used to automate scripts that monitor currently executing requests. Open the Command Prompt window by clicking **Start**, and then selecting **Command Prompt**.
-- Switch to a Web browser, and then refresh the http://localhost:84/loop.php page. (Note that loop.php is a sample name; the name of your page should be used.) You may need to continually refresh this page for the following steps. Switch to the **command prompt**.
+- Switch to a Web browser, and then refresh the `http://localhost:84/loop.php` page. (Note that loop.php is a sample name; the name of your page should be used.) You may need to continually refresh this page for the following steps. Switch to the **command prompt**.
 - Run the following command to list the requests that have been executing for more than one second:  
 
     [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample5.cmd)]
 
- This will produce output similar to the following, with your page name instead of loop.php:  
+    This will produce output similar to the following, with your page name instead of loop.php:  
 
     [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample6.cmd)]
 - Filter the requests returned by specifying any number of criteria based on the available request attributes. For example, to show only the requests to a specific URL:  
@@ -150,7 +149,7 @@ You can refresh the view several times to observe that the same request continue
 
     [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample8.cmd)]
 
- This produces the list of applications, similar to the following:  
+    This produces the list of applications, similar to the following:  
 
     [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample9.cmd)]
 - Here is an example of taking an action based on the current request data: Recycling the application pools with requests that have been executing for more than five seconds:  
@@ -161,9 +160,10 @@ You can refresh the view several times to observe that the same request continue
 
     [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample11.cmd)]
 
-*Note: This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009.*
+> [!NOTE]
+> This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009.*
 
 ## Links for Further Information
 
-- [IIS 7.0 Server-Side](http://mvolo.com/do-complex-iis-management-tasks-easily-with-appcmd-command-piping/).
-- [Error Handling and Logging](http://www.php.net/errorfunc).
+- [IIS 7.0 Server-Side](http://mvolo.com/do-complex-iis-management-tasks-easily-with-appcmd-command-piping/)
+- [Error Handling and Logging](http://www.php.net/errorfunc)

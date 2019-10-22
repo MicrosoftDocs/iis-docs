@@ -7,8 +7,8 @@ ms.assetid: 9c96a519-c025-4456-bcfb-2d2930cd884f
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-extending-web-playlists-through-custom-providers
 msc.type: authoredcontent
 ---
-Web Playlists for IIS 7.0 - Extending Web Playlists through Custom Providers
-====================
+# Web Playlists for IIS 7.0 - Extending Web Playlists through Custom Providers
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists allows you to extend its default behavior by writing custom providers. It provides a COM interface that can be implemented in either a .NET-based or native custom provider.
@@ -32,8 +32,7 @@ All but **IPlaylistFileInfo** are mandatory interfaces that must be implemented 
 
 ### Sample code
 
-The code sample in this section shows how to add an advertisment in front of the requested URL. This sample serves as a example tutorial for writing a custom provider (thus, it contains hard-coded strings). It is not supported and confers no rights.
-
+The code sample in this section shows how to add an advertisement in front of the requested URL. This sample serves as a example tutorial for writing a custom provider (thus, it contains hard-coded strings). It is not supported and confers no rights.
 
 [!code-csharp[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample1.cs)]
 
@@ -51,7 +50,7 @@ Building a .NET-based provider is a two step process.
 
     [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample3.cmd)]
 
- where `<Path to Web Playlist Include>` is the location where unzipped the Interface files too.
+   where `<Path to Web Playlist Include>` is the location where unzipped the Interface files too.
 2. **Import Types into as assemblly**
 
     1. **Use the .tlb created in step 1**
@@ -78,13 +77,13 @@ In the [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-
 ### Using the Playlists feature to add configuration entries for custom providers
 
 1. In Internet Information Services (IIS) Manager, at the site level, click **Playlists**. (Ref: Figure 1)  
-    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image2.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image1.jpg)  
+    ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image1.jpg)  
     *Figure 1. IIS 7.0 Manager - Open the Playlists page*
 2. In the **Actions** pane, click **Configure Providers**. You will see the list of providers that are registered for the site. (Ref. Figure 2)  
-    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image4.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image3.jpg)  
+    ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image3.jpg)  
     *Figure 2. IIS 7.0 Manager - Open the Playlist providers page*
 3. In the **Actions** pane, click **Add**. (Ref. Figure 3)  
-    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image6.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image5.jpg)  
+    ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image5.jpg)  
     *Figure 3. Open the Add Playlist Provider dialog box*
 4. In the **Add Playlist Provider** dialog box, fill in the following details. Click **OK** when you are done. (Ref. Figure 4, 5)  
 
@@ -95,9 +94,9 @@ In the [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-
     - **File-based handler** (optional). As explained previously, this is an optional field. If your provider stores the playlist in a file, checking this option allows the IIS pipeline provide the needed file details and a stream to access file contents.
     - **Bitness** (64-bit systems only). Select whether the provider works as 32-bit through WOW layer, 64-bit, or both. The relevant configuration entries are added to the IIS config to handle the requests.
 
-    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image8.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image7.jpg)  
+    ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image7.jpg)  
     *Figure 4. Add Playlist Provider dialog box*  
-    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image10.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image9.jpg)  
+    ![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image9.jpg)  
     *Figure 5. Bitness options for custom provider configuration*
 
 <a id="Register"></a>
@@ -106,7 +105,7 @@ In the [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-
 
 After you have added the relevant configuration entries by following the steps in the previous section, you must register the provider.
 
-#### Registering a native custom provider
+### Registering a native custom provider
 
 For 32-bit systems, do the following to register a native custom provider:
 
@@ -116,12 +115,12 @@ For 32-bit systems, do the following to register a native custom provider:
 For 64-bit systems, do the following to register a native custom provider:
 
 1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. Type the following command: 
+2. Type the following command:
 
-    - For native 64 bit **- `%WINDIR%\system32\regsvr32.exe <*providerdllname*.dll>` where *providerdllname*.dll is the provider dll.
+    - For native 64 bit - `%WINDIR%\system32\regsvr32.exe <*providerdllname*.dll>` where *providerdllname*.dll is the provider dll.
     - For 32 bit supported through WOW layer - `%WINDIR%\syswow64\regsvr32.exe <*providerdllname*.dll>` where *providerdllname*.dll is the provider dll.
 
-#### Registering a .NET-based custom provider
+### Registering a .NET-based custom provider
 
 For 32-bit systems, do the following to register a .NET-based custom provider:
 
@@ -147,7 +146,7 @@ For 64 bit systems, when you run as 32 bit through WOW layer, do the following t
 
 **Web Playlists Interface**. [Download](https://www.iis.net/community/files/media/WebPlaylists-SDK.zip) this file and unzip the contents into a directory on your computer. The directory location will serve as your Web Playlists Include path.
 
-**Web Playlists Extensibility Support**. View the Web Playlists Programming Reference and Programming Guide on the [Microsoft Developer Network (MSDN)](https://msdn.microsoft.com/library/dd146275.aspx).
+**Web Playlists Extensibility Support**. View the [Web Playlists Programming Reference and Programming Guide](../../extensions/web-playlists/iis-web-playlists.md).
 
 ## Summary
 

@@ -76,8 +76,9 @@ The URI of the stream that is not a Smooth Streaming source.
 ## Remarks
 
 > [!NOTE]  
-> <p>Do not set Source to a URI that contains a query, such as http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1.</p>
-> <p>If a query is set and the config.xml file includes ResponseCacheEnabled=&quot;true&quot; instead of ResponseCacheEnabled=&quot;false&quot;, the entire URI (including the query) could be persisted in ResponseCache.</p>
+> Do not set Source to a URI that contains a query, such as `http://domain/MultiAudio.ism/Manifest?foo=axjrjrn1`.
+>
+> If a query is set and the config.xml file includes `ResponseCacheEnabled="true"` instead of `ResponseCacheEnabled="false"`, the entire URI (including the query) could be persisted in ResponseCache.
 
 When you call [SetSource(Stream)](smoothstreamingmediaelement-setsource-method-microsoft-web-media-smoothstreaming_1.md) or assign the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) or Source properties, Source is reset to [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md). However, [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) is not cleared when reset to a progressive-downloading source.
 

@@ -7,8 +7,8 @@ ms.assetid: 6da818a0-c6f2-4a37-a122-0373c4b18f2d
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis
 msc.type: authoredcontent
 ---
-Overview: Build a PHP Website on IIS
-====================
+# Overview: Build a PHP Website on IIS
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 This document contains an overview of the **Build a PHP website on IIS** scenario. It also contains links to additional information and community resources related to the scenario.
@@ -23,14 +23,14 @@ This scenario does not cover how to write a PHP application.
 
 - [Plan a PHP Website on IIS](plan-a-php-website-on-iis.md)
 
-    - [Step 1: Plan IIS Web Server and PHP Installation](planning-step-1-plan-iis-web-server-and-php-installation.md)
-    - [Step 2: Plan PHP Settings](planning-step-2-plan-php-settings.md)
-    - [Step 3: Plan PHP Application Security](planning-step-3-plan-php-application-security.md)
+  - [Step 1: Plan IIS Web Server and PHP Installation](planning-step-1-plan-iis-web-server-and-php-installation.md)
+  - [Step 2: Plan PHP Settings](planning-step-2-plan-php-settings.md)
+  - [Step 3: Plan PHP Application Security](planning-step-3-plan-php-application-security.md)
 - [Configure a PHP Website on IIS](configure-a-php-website-on-iis.md)
 
-    - [Step 1: Install IIS and PHP](configuring-step-1-install-iis-and-php.md)
-    - [Step 2: Configure PHP Settings](configuring-step-2-configure-php-settings.md)
-    - [Step 3: Configure PHP Application Security](configuring-step-3-configure-php-application-security.md)
+  - [Step 1: Install IIS and PHP](configuring-step-1-install-iis-and-php.md)
+  - [Step 2: Configure PHP Settings](configuring-step-2-configure-php-settings.md)
+  - [Step 3: Configure PHP Application Security](configuring-step-3-configure-php-application-security.md)
 
 <a id="BKMK_APP"></a>
 
@@ -51,8 +51,8 @@ The following table contains links to resources related to this scenario.
 
 | Content type | References |
 | --- | --- |
-| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) | [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy) |
-| **Operations** | [IIS.NET](https://www.iis.net/) | [IIS Learning Center](https://www.iis.net/learn) |
+| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) &#124; [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy) |
+| **Operations** | [IIS.NET](https://www.iis.net/) &#124; [IIS Learning Center](https://www.iis.net/learn) |
 | **Tools and Settings** | Microsoft.IIs.PowerShell.Provider namespace |
-| **Community Resources** | [IIS Blogs](https://blogs.iis.net/) | [IIS Forums](https://forums.iis.net/) | [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) | [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) | [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
-| **Related Technologies** | [ASP.NET](https://www.asp.net/) | [ASP.NET Web Projects](https://msdn.microsoft.com/library/ywdtth2f.aspx) |
+| **Community Resources** | [IIS Blogs](https://blogs.iis.net/) &#124; [IIS Forums](https://forums.iis.net/) &#124; [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) &#124; [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) &#124; [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
+| **Related Technologies** | [ASP.NET](https://www.asp.net/) &#124; [ASP.NET Web Projects](https://msdn.microsoft.com/library/ywdtth2f.aspx) |

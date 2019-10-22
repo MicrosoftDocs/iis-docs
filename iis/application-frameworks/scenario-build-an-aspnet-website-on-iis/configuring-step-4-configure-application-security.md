@@ -7,13 +7,14 @@ ms.assetid: 64a69c61-6947-4296-809b-fda4e1460b96
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-4-configure-application-security
 msc.type: authoredcontent
 ---
-Configuring Step 4: Configure Application Security
-====================
-by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
+# Configuring Step 4: Configure Application Security
+
+by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your ASP.NET website, you configure the security settings that are available in IIS. The following sections discuss common security settings for ASP.NET applications:
 
 <a id="41"></a>
+
 ## 4.1. Isolate Web Applications
 
  Implement the following recommendations to isolate websites and web applications on your server.
@@ -52,6 +53,7 @@ If you have more than one application per application pool, consider creating en
 6. Click **OK**, click **OK**, and click **OK** again to close the dialogs.
 
 <a id="42"></a>
+
 ## 4.2. .NET Trust Levels
 
 This section describes how to set application trust level by using either IIS Manager UI or the command line.
@@ -76,11 +78,13 @@ The level attribute uses one of five values that correspond to preconfigured CAS
 > When you use Appcmd.exe to configure the trust element at the global level in IIS 8, specify `/commit:WEBROOT` in the command so that configuration changes are made to the root Web.config file instead of ApplicationHost.config.
 
 <a id="43"></a>
+
 ## 4.3. .NET Authentication
 
 In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made design decisions about what authentication mode was right for your application.
 
 <a id="431"></a>
+
 ### ASP.NET Forms Authentication
 
 This section describes how to configure ASP.NET forms authentication by using either the IIS Manager UI or the command line.
@@ -176,6 +180,7 @@ The default value for `forms.slidingExpiration` is `true`. For example, to cache
 `appcmd set config /commit:WEBROOT /section:system.web/authentication /forms.slidingExpiration:true`
 
 <a id="432"></a>
+
 ### ASP.NET Impersonation Authentication
 
 #### To configure Impersonation Authentication by using the UI
@@ -214,6 +219,7 @@ The variable `userName:string` is the account IIS uses to impersonate and the va
 > When you use Appcmd.exe to configure the identity element at the global level in IIS 8, specify `/commit:WEBROOT` in the command so that configuration changes are made to the root Web.config file instead of ApplicationHost.config.
 
 <a id="44"></a>
+
 ## 4.4. Machine Key Settings
 
 This section describes how to generate machine keys for your ASP.NET application by using the IIS Manager UI.
@@ -228,6 +234,7 @@ This section describes how to generate machine keys for your ASP.NET application
 6. In the **Actions** pane, click **Generate Keys**, and then click **Apply**.
 
 <a id="45"></a>
+
 ## 4.5. TLS/SSL Communication
 
  This section describes how to configure TLS/SSL security for your application.
@@ -239,6 +246,7 @@ After obtaining a server certificate from a certification authority (CA), work t
 3. [Client Certificates](#453)
 
 <a id="451"></a>
+
 ### SSL Binding
 
 This section describes how to add an SSL binding to your site by using either the IIS Manager UI or the command line.
@@ -270,6 +278,7 @@ For example, to configure a site named **contoso** to have an HTTPS binding for 
 `appcmd set site /site.name:contoso /+bindings.[protocol='https', bindingInformation='*:443:']`
 
 <a id="452"></a>
+
 ### Require SSL for Your Site
 
 This section describes how to require SSL for your website by using the IIS Manager UI or the command line.
@@ -277,8 +286,10 @@ This section describes how to require SSL for your website by using the IIS Mana
 #### To require SSL using the UI
 
 1. Open IIS Manager and navigate to the level you want to manage. Make sure that you are at the site, application, or directory level; **SSL Settings** are not available at the server level.
+
     > [!NOTE]
     > If you want to configure SSL at the file level, navigate to the file in **Content View** and then click **Switch to Features View** in the **Actions** pane.
+
 2. In **Features View**, double-click **SSL Settings**.
 3. On the **SSL Settings** page, select **Require SSL**.
 4. In the **Actions** pane, click **Apply**.
@@ -298,13 +309,16 @@ To require SSL for the file iisstart.htm on the Default Web Site, type the follo
 `appcmd set config "http://localhost/iisstart.htm" /section:access /sslFlags:Ssl /commit:APPHOST`
 
 <a id="453"></a>
+
 ### Client Certificates
 
 #### To specify client certificates by using the UI
 
 1. Open IIS Manager and navigate to the level you want to manage. Make sure that you are at the site, application, or directory level; **SSL Settings** are not available at the server level.
+
     > [!NOTE]
     > If you want to configure SSL at the file level, navigate to the file in **Content View** and then click **Switch to Features View** in the **Actions** pane.
+
 2. In **Features View**, double-click **SSL Settings**.
 3. On the **SSL Settings** page, optionally select **Require SSL**. You do not need SSL to **Ignore** or **Accept** client certificates.
 4. On the **SSL Settings** page, in the **Client certificates** area, use one of the following procedures:

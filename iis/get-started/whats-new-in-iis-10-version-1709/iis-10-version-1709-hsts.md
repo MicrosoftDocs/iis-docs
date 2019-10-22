@@ -6,13 +6,13 @@ ms.author: yashi
 ms.date: 10/24/2017
 msc.type: authoredcontent
 ---
-IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support
-====================
+# IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support
+
 by [Yanbing Shi](https://github.com/bangbingsyb)
 
 > In IIS 10.0 version 1709, the administrator has the option of enabling HSTS and HTTP to HTTPS redirection at site level.
 
-### Compatibility
+## Compatibility
 
 | Version | Notes |
 | --- | --- |
@@ -33,7 +33,7 @@ Two solutions for enabling HSTS prior to IIS 10.0 version 1709 are provided for 
 
 ### Solution 1: HTTP Redirect Module + Custom Headers
 
-Redirecting all HTTP traffic to HTTPS can be achieved using the [HTTP Redirect Module](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpredirect/) with two separate websites, one for HTTP and the other for HTTPS, to avoid an infinite redirect loop.
+Redirecting all HTTP traffic to HTTPS can be achieved using the [HTTP Redirect Module](../../configuration/system.webserver/httpredirect/index.md) with two separate websites, one for HTTP and the other for HTTPS, to avoid an infinite redirect loop.
 
 [!code-xml[Main](iis-10-version-1709-hsts/samples/sample-httpredirect-two-sites.xml)]
 
@@ -41,34 +41,35 @@ A redirection rule is configured in the web.config of the HTTP site to route all
 
 [!code-xml[Main](iis-10-version-1709-hsts/samples/sample-httpredirect-http-site.xml)]
 
-The STS header can be added through [Custom Headers](https://docs.microsoft.com/en-us/iis/configuration/system.webServer/httpProtocol/customHeaders/) by configuring the web.config of the HTTPS site.
+The STS header can be added through [Custom Headers](../../configuration/system.webServer/httpProtocol/customHeaders/index.md) by configuring the web.config of the HTTPS site.
 
 [!code-xml[Main](iis-10-version-1709-hsts/samples/sample-httpredirect-https-site.xml)]
 
 ### Solution 2: URL Rewrite Module
 
-An alternative solution is installing the [URL Rewrite Module](https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-the-url-rewrite-module) and configuring rewrite rules for a single website with both HTTP and HTTPS bindings. The HTTP to HTTPS redirection can be specified by an inbound rule while adding the STS header to HTTPS replies can be achieved by an outbound rule.
+An alternative solution is installing the [URL Rewrite Module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md) and configuring rewrite rules for a single website with both HTTP and HTTPS bindings. The HTTP to HTTPS redirection can be specified by an inbound rule while adding the STS header to HTTPS replies can be achieved by an outbound rule.
 
 [!code-xml[Main](iis-10-version-1709-hsts/samples/sample-urlrewrite-single-site.xml)]
 
 ## IIS 10.0 Version 1709 Native HSTS Support
 
-With the release of IIS 10.0 version 1709, HSTS is now supported natively. The configuration for enabling HSTS is significantly simplified - HSTS can be enabled at site-level by configuring the attributes of the `<hsts>` element under each `<site>` element - more details can be found in the configuration reference of HSTS [HSTS Settings for a Web Site <HSTS>](https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/sites/site/hsts).
+With the release of IIS 10.0 version 1709, HSTS is now supported natively. The configuration for enabling HSTS is significantly simplified - HSTS can be enabled at site-level by configuring the attributes of the `<hsts>` element under each `<site>` element - more details can be found in the configuration reference of HSTS [HSTS Settings for a Web Site <HSTS>](../../configuration/system.applicationhost/sites/site/hsts.md).
 
-The example scenario can be simply achieved by configuring the `enabled`, `max-age`, and `redirectHttpToHttps` attributes of the `<hsts>` element of the website using [IISAdministration PowerShell cmdlets](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets) following the [tutorial](https://blogs.iis.net/jeonghwan/how-to-use-iisadministration-powershell-cmdlets-to-configure-iis-configuration-settings).
+The example scenario can be simply achieved by configuring the `enabled`, `max-age`, and `redirectHttpToHttps` attributes of the `<hsts>` element of the website using [IISAdministration PowerShell cmdlets](../whats-new-in-iis-10/iisadministration-powershell-cmdlets.md) following the [tutorial](https://blogs.iis.net/jeonghwan/how-to-use-iisadministration-powershell-cmdlets-to-configure-iis-configuration-settings).
 
 [!code-powershell[Main](iis-10-version-1709-hsts/samples/sample-hsts-single-site.ps1)]
 
 The HSTS configurations for the website are shown below:
+
 [!code-xml[Main](iis-10-version-1709-hsts/samples/sample-hsts-single-site.xml)]
 
-The native support of HSTS can also be used together with [HTTP Redirect Module](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpredirect/) for more complex scenarios.
+The native support of HSTS can also be used together with [HTTP Redirect Module](../../configuration/system.webserver/httpredirect/index.md) for more complex scenarios.
 
-For example, a website contoso.com redirects all traffic to its subdomain www.contoso.com, and both websites accept HTTP and HTTPS connections. This is a typical scenario if the website is preferable to have a single canonical address. HSTS is recommended to be enabled for both the root domain and the subdomain because users may directly visit either one through HTTP or HTTPS. Enabling `includeSubDomains` attribute of the `<hsts>` element of the root domain further enhances the coverage of the HSTS policy to all its subdomains.
+For example, a website contoso.com redirects all traffic to its subdomain `www.contoso.com`, and both websites accept HTTP and HTTPS connections. This is a typical scenario if the website is preferable to have a single canonical address. HSTS is recommended to be enabled for both the root domain and the subdomain because users may directly visit either one through HTTP or HTTPS. Enabling `includeSubDomains` attribute of the `<hsts>` element of the root domain further enhances the coverage of the HSTS policy to all its subdomains.
 
 [!code-xml[Main](iis-10-version-1709-hsts/samples/sample-hsts-subdomain.xml)]
 
-In addition, the redirection from the root domain to the subdomain can be configured through the `<httpRedirect>` element in the web.config of the root domain site. With such configuration, an HTTP request to contoso.com will first be redirected to HTTPS, and then the HTTPS request to the same site will be redirected to www.contoso.com with the STS header added in the response.
+In addition, the redirection from the root domain to the subdomain can be configured through the `<httpRedirect>` element in the web.config of the root domain site. With such configuration, an HTTP request to contoso.com will first be redirected to HTTPS, and then the HTTPS request to the same site will be redirected to `www.contoso.com` with the STS header added in the response.
 
 [!code-xml[Main](iis-10-version-1709-hsts/samples/sample-hsts-subdomain-redirect.xml)]
 

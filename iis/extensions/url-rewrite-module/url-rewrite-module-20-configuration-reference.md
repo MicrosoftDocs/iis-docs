@@ -19,34 +19,27 @@ This article provides an overview of the URL Rewrite Module 2.0 functionality an
 
 - [Functionality Overview](url-rewrite-module-20-configuration-reference.md#Functionality_Overview)
 - [Outbound Rules Overview](url-rewrite-module-20-configuration-reference.md#Outbound_Rules_Overview)
-
-    - [Rules Inheritance](url-rewrite-module-20-configuration-reference.md#Rules_Inheritance)
+  - [Rules Inheritance](url-rewrite-module-20-configuration-reference.md#Rules_Inheritance)
 - [Outbound Rule Configuration](url-rewrite-module-20-configuration-reference.md#Outbound_Rule_Configuration)
-
-    - [Pre-conditions](url-rewrite-module-20-configuration-reference.md#Pre-conditions_collection)
-    - [Tag filters](url-rewrite-module-20-configuration-reference.md#Tag_Filters)
-
-        - [Predefined Tags](url-rewrite-module-20-configuration-reference.md#Pre-defined_tags)
-        - [Custom Tags](url-rewrite-module-20-configuration-reference.md#Custom_tags)
-    - [Rule Pattern](url-rewrite-module-20-configuration-reference.md#Rule_Pattern)
-
-        - [Pattern Syntax](url-rewrite-module-20-configuration-reference.md#Rule_pattern_syntax)
-        - [Pattern Properties](url-rewrite-module-20-configuration-reference.md#Rule_pattern_properties)
-    - [Rule Conditions](url-rewrite-module-20-configuration-reference.md#Rule_conditions)
-    - [Rule Action](url-rewrite-module-20-configuration-reference.md#Rule_action)
-
-        - [Rewrite Action](url-rewrite-module-20-configuration-reference.md#Rewrite_action)
-        - [None Action](url-rewrite-module-20-configuration-reference.md#None_action)
+  - [Pre-conditions](url-rewrite-module-20-configuration-reference.md#Pre-conditions_collection)
+  - [Tag filters](url-rewrite-module-20-configuration-reference.md#Tag_Filters)
+    - [Predefined Tags](url-rewrite-module-20-configuration-reference.md#Pre-defined_tags)
+    - [Custom Tags](url-rewrite-module-20-configuration-reference.md#Custom_tags)
+  - [Rule Pattern](url-rewrite-module-20-configuration-reference.md#Rule_Pattern)
+    - [Pattern Syntax](url-rewrite-module-20-configuration-reference.md#Rule_pattern_syntax)
+    - [Pattern Properties](url-rewrite-module-20-configuration-reference.md#Rule_pattern_properties)
+  - [Rule Conditions](url-rewrite-module-20-configuration-reference.md#Rule_conditions)
+  - [Rule Action](url-rewrite-module-20-configuration-reference.md#Rule_action)
+    - [Rewrite Action](url-rewrite-module-20-configuration-reference.md#Rewrite_action)
+    - [None Action](url-rewrite-module-20-configuration-reference.md#None_action)
 - [Accessing Response Headers in Rewrite Rules](url-rewrite-module-20-configuration-reference.md#Accessing_Response_Headers_from_Rewrite_Rules)
 - [Setting Request Headers and Server Variables](url-rewrite-module-20-configuration-reference.md#Setting_Server_Variables)
-
-    - [Allowed Server Variables List](url-rewrite-module-20-configuration-reference.md#Allowed_Server_Variables_List)
-    - [Using Inbound Rewrite Rules to Set Server Variables](url-rewrite-module-20-configuration-reference.md#Using_Inbound_Rewrite_Rules_to_Set_Request_Headers_and_Server_Variables_)
-    - [Note About Request Headers](url-rewrite-module-20-configuration-reference.md#Note_about_request_headers_)
+  - [Allowed Server Variables List](url-rewrite-module-20-configuration-reference.md#Allowed_Server_Variables_List)
+  - [Using Inbound Rewrite Rules to Set Server Variables](url-rewrite-module-20-configuration-reference.md#Using_Inbound_Rewrite_Rules_to_Set_Request_Headers_and_Server_Variables_)
+  - [Note About Request Headers](url-rewrite-module-20-configuration-reference.md#Note_about_request_headers_)
 - [Setting Response Headers](url-rewrite-module-20-configuration-reference.md#Setting_Response_Headers)
 - [Using Back-references in Rewrite Rules](url-rewrite-module-20-configuration-reference.md#Using_back-references_in_rewrite_rules)
-
-    - [Tracking Capture Groups Across Conditions](url-rewrite-module-20-configuration-reference.md#Tracking_capture_groups_across_conditions_)
+  - [Tracking Capture Groups Across Conditions](url-rewrite-module-20-configuration-reference.md#Tracking_capture_groups_across_conditions_)
 - [Logging of rewritten URLs into IIS logs](url-rewrite-module-20-configuration-reference.md#Logging_Rewritten_URL)
 
 <a id="Functionality_Overview"></a>
@@ -60,11 +53,9 @@ Microsoft URL Rewrite Module 2.0 for IIS is an incremental release that includes
 - Modify the existing and set new response HTTP headers.
 - Fix up the content of any HTTP response, including JavaScript, CSS, RSS, etc.
 
-
-![](url-rewrite-module-20-configuration-reference/_static/image1.gif) **WARNING:** When response headers or the response content is modified by an outbound rewrite rule an extra caution should be taken to ensure that the text which gets inserted into the response does not contain any client side executable code, which can result in cross-site scripting vulnerabilities. This is especially important when rewrite rule uses un-trusted data, such as HTTP headers or the query string, to build the string that will be inserted into the HTTP response. In such cases the replacement string should be HTML encoded by using the **HtmlEncode** function, e.g:
-
-[!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample1.xml)]
-
+> [!WARNING]
+> When response headers or the response content is modified by an outbound rewrite rule an extra caution should be taken to ensure that the text which gets inserted into the response does not contain any client side executable code, which can result in cross-site scripting vulnerabilities. This is especially important when rewrite rule uses un-trusted data, such as HTTP headers or the query string, to build the string that will be inserted into the HTTP response. In such cases the replacement string should be HTML encoded by using the **HtmlEncode** function, for example:
+> [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample1.xml)]
 
 <a id="Outbound_Rules_Overview"></a>
 
@@ -90,9 +81,7 @@ Rule 2: applies to &lt;a&gt; tag
 
 and the HTML response contains this markup:
 
-
 [!code-html[Main](url-rewrite-module-20-configuration-reference/samples/sample2.html)]
-
 
 Then URL Rewrite Module 2.0 will evaluate Rule 1 against "/default.aspx" string. If rule was executed successfully, then the output of Rule 1 will be given to Rule2. If Rule 2 was executed successfully, then the output of Rule 2 will be used to replace the content of the href attribute in the &lt;a&gt; tag in the response.
 
@@ -128,7 +117,6 @@ In addition, the result of the pre-condition evaluation can be negated by using 
 
 An example of a pre-condition that checks if the response content type is text/html:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample3.xml)]
 
 <a id="Tag_Filters"></a>
@@ -137,15 +125,11 @@ An example of a pre-condition that checks if the response content type is text/h
 
 Tag filters are used to narrow down the search within the response content to a set of well known or custom defined HTML tags. When a rewrite rule uses tag filters then, instead of matching the rule pattern against the entire response, URL Rewrite Module 2.0 looks for an HTML tags that are listed in the rule's tag filter and then takes the content of the URL attribute of that tag and evaluates it against the rule's pattern. Tag filters are specified within the **filterByTags** attribute of the &lt;match&gt; element of an outbound rule. For example:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample4.xml)]
-
 
 If an HTTP response contains an anchor tag such as:
 
-
 [!code-html[Main](url-rewrite-module-20-configuration-reference/samples/sample5.html)]
-
 
 Then the rewrite rule pattern will be evaluated against the string: "**/article.aspx?id=1**".
 
@@ -177,12 +161,9 @@ If rewriting needs to be performed within an attribute of a tag that is not incl
 
 The following example shows a definition of a custom tags collection:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample6.xml)]
 
-
 This custom tags collection can be referenced from an outbound rule as shown in the example below:
-
 
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample7.xml)]
 
@@ -205,7 +186,8 @@ When **filterByTags** attribute is not specified in the match element of the rul
 
     [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample8.xml)]
 
- Note that this setting should not be used if the chunked transfer encoding is used for responses.
+    Note that this setting should not be used if the chunked transfer encoding is used for responses.
+
 - Use the **occurrences** attribute of the **match** element of the rule. For example, when you use a rule to insert some HTML fragment into the &lt;head&gt; element and that rule has a pattern that searches for the closing tag - &lt;/head&gt;, then you can set occurrences="1". This will tell the rewrite module to stop searching the remainder of the response after the &lt;/head&gt; tag was found.  
 
     [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample9.xml)]
@@ -280,7 +262,6 @@ The content of any response HTTP header can be obtained from within a rewrite ru
 
 For example the following pre-condition is used to evaluate the content of the **content-type** header:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample10.xml)]
 
 <a id="Setting_Server_Variables"></a>
@@ -304,18 +285,15 @@ A rule element &lt;serverVariables&gt; is used to define a collection of server 
 - **Name** - specifies the name of the server variable to set.
 - **Value** - specifies the value of the server variable. Value is a free form string that can include: 
 
-    - Back-references to the condition and rule patterns. (For more information, see the section about how to use back-references.)
-    - Server variables. (For more information, see the section about how to use server variables.)
+  - Back-references to the condition and rule patterns. (For more information, see the section about how to use back-references.)
+  - Server variables. (For more information, see the section about how to use server variables.)
 - **Replace** flag - specifies whether to overwrite the value of the server variable if it already exists. By default the replace functionality is enabled.
 
 The following example rule rewrites the requested URL and also sets the server variable with name X\_REQUESTED\_URL\_PATH:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample11.xml)]
 
-
 Note: for the above example to work it is required to add X\_REQUESTED\_URL\_PATH to the &lt;allowedServerVariables&gt; collection:
-
 
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample12.xml)]
 
@@ -341,14 +319,11 @@ Outbound rewrite rules in URL Rewrite Module 2.0 can be used to set new or modif
 
 If the **serverVariable** attribute of the &lt;match&gt; element of an outbound rewrite rule has a value then it indicates that this rewrite rule will operate on the content of the corresponding response header. For example, the following rule sets the response header "**x-custom-header**":
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample14.xml)]
-
 
 The pattern of the rewrite rule will be applied on the content of the specified response header and if the rule's pattern and optional conditions evaluates successfully then the value of that response header will be rewritten.
 
 The regular expression patterns and easy access to existing request and response headers within a rewrite rule provides a lot of flexibility when defining a logic for rewriting response HTTP headers. For example the following rewrite rule can be used to modify the content of the Location header in redirection responses:
-
 
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample15.xml)]
 
@@ -365,21 +340,18 @@ Usage of back-references is the same regardless of which pattern syntax was used
 - In condition input string
 - In rule action, specifically: 
 
-    - url attribute of Rewrite and Redirect action in inbound rules
-    - value attribute of Rewrite action in outbound rules
-    - statusLine and responseLine of CustomResponse action
+  - url attribute of Rewrite and Redirect action in inbound rules
+  - value attribute of Rewrite action in outbound rules
+  - statusLine and responseLine of CustomResponse action
 - In key parameter to the rewrite map
 
 Back-references to condition patterns are identified by {C:N} where N is from 0 to 9; back-references to rule pattern are identified by {R:N} where N is from 0 to 9. Note that for both types of back-references, {R:0} and {C:0}, will contain the matched string.
 
 For example in this pattern:
 
-
 [!code-console[Main](url-rewrite-module-20-configuration-reference/samples/sample16.cmd)]
 
-
-For the string: **www.foo.com** the back-references will be indexed as follows:
-
+For the string: `www.foo.com` the back-references will be indexed as follows:
 
 [!code-json[Main](url-rewrite-module-20-configuration-reference/samples/sample17.json)]
 
@@ -389,25 +361,19 @@ For the string: **www.foo.com** the back-references will be indexed as follows:
 
 By default, within a rule action, you can use the back-references to the rule pattern and to the last matched condition of that rule. For example, in this rule:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample18.xml)]
-
 
 The back-reference {C:1} will always contain the value of the capture group from the second condition, which will be the value of query string parameter p2. The value of p1 will not be available as a back-reference.
 
 In URL Rewrite Module 2.0, it is possible to change how capture groups are indexed. Enabling **trackAllCaptures** setting to on the &lt;conditions&gt; collection makes the capture groups form all matched conditions to be available through the back-references. For example, in this rule:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample19.xml)]
-
 
 The back-reference {C:1} will contain the value of the capture group from the first condition, and the back-reference {C:2} will contain the value of the capture group from the second condition.
 
 When trackAllCaptures is set to true, the condition capture back-references are identified by {C:N}, where N is from 0 to the total number of capture groups across all the rule's conditions. {C:0} contains the entire matched string from the first matched condition. For example for these two conditions:
 
-
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample20.xml)]
-
 
 If {REQUEST\_URI} contains "/article/23/" and {QUERY\_STRING} contains "p1=123&amp;p2=abc" then the condition back-references will be indexed as follows:
 
@@ -421,6 +387,5 @@ If {REQUEST\_URI} contains "/article/23/" and {QUERY\_STRING} contains "p1=123&a
 ## Logging of Rewritten URLs into IIS logs
 
 A distributed inbound rewrite rule can be configured to log rewritten URLs into the IIS log files, instead of logging the original URLs requested by HTTP client. To enable logging of rewritten URLs use the logRewrittenUrl attribute of the rule's &lt;action&gt; element, e.g:
-
 
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample21.xml)]

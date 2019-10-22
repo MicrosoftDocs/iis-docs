@@ -1,7 +1,7 @@
 ---
 title: "Adding Verbs &lt;add&gt;"
 author: rick-anderson
-description: "Overview The &lt;add&gt; element of the &lt;verbs&gt; collection specifies a unique HTTP verb to add to the collection of verbs that are are allowed or denie..."
+description: "Overview The &lt;add&gt; element of the &lt;verbs&gt; collection specifies a unique HTTP verb to add to the collection of verbs that are allowed or denie..."
 ms.date: 09/26/2016
 ms.assetid: a6b40fce-a571-459f-a691-527ec712bad8
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/verbs/add
@@ -12,7 +12,7 @@ Adding Verbs &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The `<add>` element of the `<verbs>` collection specifies a unique HTTP verb to add to the collection of verbs that are are allowed or denied for Internet Information Services (IIS) 7.
+The `<add>` element of the `<verbs>` collection specifies a unique HTTP verb to add to the collection of verbs that are allowed or denied for Internet Information Services (IIS) 7.
 
 > [!NOTE]
 > When request filtering blocks an HTTP request because of a denied HTTP verb, IIS 7 will return an HTTP 404 error to the client and log the following HTTP status with a unique substatus that identifies the reason that the request was denied:

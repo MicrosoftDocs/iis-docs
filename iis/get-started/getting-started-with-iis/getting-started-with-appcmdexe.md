@@ -452,7 +452,7 @@ In AppCmd, each configuration section is exposed as an instance of a configurati
 
 The **section** parameter is required; it indicates the section that is being edited.
 
-For example, to set the **appAllowClientDebug** property of the **ASP** section for the http://localhost/app1 url:
+For example, to set the **appAllowClientDebug** property of the **ASP** section for the `http://localhost/app1` url:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample74.cmd)]
 

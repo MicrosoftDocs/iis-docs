@@ -68,7 +68,7 @@ Now secure the two pages so that only Alice and Bob have access:
 2. Remove the "Allow All Users" rule.
 3. Click "Add Allow Rule" and select the "Specified roles or user groups:" radio button and add "BobAndFriends" and click the "OK" button.  
 
-    [![](understanding-iis-url-authorization/_static/image2.jpg)](understanding-iis-url-authorization/_static/image1.jpg)
+    ![](understanding-iis-url-authorization/_static/image1.jpg)
 4. Close all Internet Explorer windows because Internet Explorer caches the credentials that you entered in the previous step.
 5. Open Internet Explorer and try to access the page using Fred's credentials. You do not get access.
 6. Now try Bob's credentials or Alice's credentials. You get access.
@@ -81,14 +81,14 @@ Now we still have the problem left that Alice can still access BobsSecret.aspx. 
 2. You will see a list of files in the secure folder namely "default.aspx" and "bobsSecret.aspx".
 3. Right click on bobsSecret.aspx and select "Feature View"  
 
-    [![](understanding-iis-url-authorization/_static/image4.jpg)](understanding-iis-url-authorization/_static/image3.jpg)
+    ![](understanding-iis-url-authorization/_static/image3.jpg)
 4. Now you are making only changes for the bobsSecret.aspx page as indicated in the statusbar.
 5. Select "Authorization Rules" again. You see the inherited settings, i.e. the BobsAndFriends group is allowed to access bobsSecret.aspx.
 6. Remove the "BobsAndFriends" rule.
 7. Now click "Add Allow Rule…"
 8. Click the "Specified users:" radio button, enter "Bob" and click "OK".  
 
-    [![](understanding-iis-url-authorization/_static/image6.jpg)](understanding-iis-url-authorization/_static/image5.jpg)
+    ![](understanding-iis-url-authorization/_static/image5.jpg)
 9. Close all Internet Explorer windows and request `http://localhost/secure/bobsSecret.aspx`.
 10. Only by entering Bob's credentials will you get access.
 
@@ -105,7 +105,7 @@ You do not have to use the User Interface to specify URL Authorization settings.
 ## Differences Between ASP.NET URL Authorization and IIS URL Authorization
 
 There are small but important differences between ASP.NET UrlAuthorization and IIS URL Authorization. Both modules can be installed via the IIS Setup. IIS URL Authorization installs when you install the "URL Authorization" feature in the IIS Setup User Interface:  
-[![](understanding-iis-url-authorization/_static/image8.jpg)](understanding-iis-url-authorization/_static/image7.jpg)
+![](understanding-iis-url-authorization/_static/image7.jpg)
 
 ASP.NET Url Authorization is installed when you install ASP.NET on top of IIS. If you are an ASP.NET expert, you recall that ASP.NET UrlAuthorization is implemented in the System.Web.Security.UrlAuthorizationModule module. The corresponding configuration section is system.web/authorization. Here is the configuration entry.
 
@@ -115,7 +115,7 @@ The IIS URL Authorization module is implemented in the global module urlauthz.dl
 
 [!code-xml[Main](understanding-iis-url-authorization/samples/sample6.xml)]
 
-It is important to keep in mind that the managedHandler precondition is on the ASP.NET UrlAuthorization module. The precondition tells you that the URL authorization module is invoked only when the code that handles the request is mapped to managed code, typically an .aspx or .asmx page. IIS URL Authorization, on the other hand, applies to all content. You can remove the managedHandler precondition from the ASP.NET Url Authorization module. It is there to prevent a performance penality you have to pay when every request (such as a request to .html or .jpg pages) would have to go through managed code.
+It is important to keep in mind that the managedHandler precondition is on the ASP.NET UrlAuthorization module. The precondition tells you that the URL authorization module is invoked only when the code that handles the request is mapped to managed code, typically an .aspx or .asmx page. IIS URL Authorization, on the other hand, applies to all content. You can remove the managedHandler precondition from the ASP.NET Url Authorization module. It is there to prevent a performance penalty you have to pay when every request (such as a request to .html or .jpg pages) would have to go through managed code.
 
 ### Rules Evaluation
 
@@ -140,7 +140,7 @@ The IIS URL Authorization module evaluates deny rules first. Because you deny ac
 | Difference | ASP.NET URL Authorization Behavior | IIS URL Authorization Behavior |
 | --- | --- | --- |
 | **Rule evaluation** | Order: a) Lower level first going up to the parent b) Order of appearance in rule collection | Order: a) Deny rules get evaluated first starting at the parent b) Allow rules starting at the parent. c) Order of appearance in rule collection |
-| **IIS****User Interface** | No IIS User Interface | "Authorization Rules" User Interface |
+| **IIS User Interface** | No IIS User Interface | "Authorization Rules" User Interface |
 | **Configuration section** | system.web/authorization | system.webServer/security/authorization |
 | **Module** | System.Web.Security.UrlAuthorization | `%windir%\system32\inetsrv\urlauthz.dll` |
 | **Content** | Applies only to content that is mapped to a managed handler (can be turned off via managedHandler precondition) | Applies to all content |

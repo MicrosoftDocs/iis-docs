@@ -18,11 +18,11 @@ The Windows Cache Extension for PHP is a PHP accelerator that is used to signifi
 The Windows Cache Extension includes three different types of caches:
 
 - **PHP Opcode Cache**  
- PHP is a script processing engine that reads an input stream of data that contains text and/or PHP instructions and produces another stream of data, most commonly in the HTML format. This means that on a Web server, the PHP engine reads, parses, compiles, and executes a PHP script each time that it is requested by a Web client. The reading, parsing, and compilation operations put additional load on the Web server's CPU and file system and thus affect the overall performance of a PHP Web application. The PHP bytecode (opcode) cache is used to store the compiled script bytecode in shared memory so that it can be reused by the PHP engine for subsequent executions of the same script.
+   PHP is a script processing engine that reads an input stream of data that contains text and/or PHP instructions and produces another stream of data, most commonly in the HTML format. This means that on a Web server, the PHP engine reads, parses, compiles, and executes a PHP script each time that it is requested by a Web client. The reading, parsing, and compilation operations put additional load on the Web server's CPU and file system and thus affect the overall performance of a PHP Web application. The PHP bytecode (opcode) cache is used to store the compiled script bytecode in shared memory so that it can be reused by the PHP engine for subsequent executions of the same script.
 - **File Cache**  
- Even with the PHP bytecode cache enabled, the PHP engine has to accesses the script files on a file system. When PHP scripts are stored on a remote universal naming convention (UNC) file share, the file operations introduce a significant performance overhead. The Windows Cache Extension for PHP includes a file cache that is used to store the content of the PHP script files in shared memory, which reduces the amount of file system operations performed by PHP engine.
+   Even with the PHP bytecode cache enabled, the PHP engine has to accesses the script files on a file system. When PHP scripts are stored on a remote universal naming convention (UNC) file share, the file operations introduce a significant performance overhead. The Windows Cache Extension for PHP includes a file cache that is used to store the content of the PHP script files in shared memory, which reduces the amount of file system operations performed by PHP engine.
 - **Relative File Path Cache**  
- PHP scripts very often include or operate with files by using relative file paths. Every relative file path has to be converted to an absolute file path by the PHP engine. When a PHP application uses many PHP files and accesses them by relative paths, the operation of resolving relative paths to absolute paths may have a negative impact on the application's performance. The Windows Cache Extension for PHP provides a relative file path cache, which is used to store the mappings between relative and absolute file paths, thereby reducing the number of relative path resolutions that the PHP engine has to perform.
+   PHP scripts very often include or operate with files by using relative file paths. Every relative file path has to be converted to an absolute file path by the PHP engine. When a PHP application uses many PHP files and accesses them by relative paths, the operation of resolving relative paths to absolute paths may have a negative impact on the application's performance. The Windows Cache Extension for PHP provides a relative file path cache, which is used to store the mappings between relative and absolute file paths, thereby reducing the number of relative path resolutions that the PHP engine has to perform.
 
 ## Install the Windows Cache Extension for PHP
 
@@ -53,8 +53,6 @@ The extension packages can be found at:
 9. Open a browser and make a request to `http://yoursitename/phpinfo.php`.
 10. Search within the returned Web page for a section called "wincache". If the extension is enabled, then you should see the configuration settings provided by the Windows Cache Extension for PHP.
 
-	![](use-the-windows-cache-extension-for-php/_static/image1.gif)
-
 > [!IMPORTANT]
 > Do not forget to remove the **Phpinfo.php** file from the Web site's root folder after you have confirmed that extension has been enabled.
 
@@ -76,8 +74,6 @@ PHP:
 - PHP 5.2.X, Non-thread-safe build
 - PHP 5.3 X86, Non-thread-safe VC9 build
 
-![](use-the-windows-cache-extension-for-php/_static/image2.gif)
-
 > [!IMPORTANT]
 > The Windows Cache Extension can only be used when IIS is configured to run PHP via FastCGI.
 
@@ -97,7 +93,7 @@ The following table lists and describes the configuration settings provided by t
 | wincache.filecount | 4096 | 1024 | 16384 | PHP\_INI\_SYSTEM | Defines how many files are expected to be cached by the extension, so that appropriate memory size is allocated at the startup time. If the number of files exceeds the specified value, the Windows Cache Extension for PHP will re-allocate more memory as needed. |
 | wincache.chkinterval | 30 | 2 | 300 | PHP\_INI\_SYSTEM | Defines how often (in seconds) the Windows Cache Extension for PHP checks for file changes in order to refresh the cache. |
 | wincache.ttlmax | 1200 | 60 | 7200 | PHP\_INI\_SYSTEM | Defines the maximum time to live (in seconds) for a cached entry without being used. |
-| wincache.ignorelist | no value | no value | no value | PHP\_INI\_ALL | Defines a list of files that should not be cached by the Windows Cache Extension for PHP. The files list is specified by using file names only, separated by the pipe symbol - "|". For example: **wincache.ignorelist = "index.php|misc.php|admin.php"** |
+| wincache.ignorelist | no value | no value | no value | PHP\_INI\_ALL | Defines a list of files that should not be cached by the Windows Cache Extension for PHP. The files list is specified by using file names only, separated by the pipe symbol - "&#124;". For example: **wincache.ignorelist = "index.php|misc.php|admin.php"** |
 | wincache.namesalt | no value | no value | no value | PHP\_INI\_SYSTEM | Defines a string that will be used when naming the cached objects that are stored in shared memory. This is used to avoid conflicts that may be caused if other applications within an IIS worker process try to access shared memory. |
 
 ## Configure FastCGI for Optimal Performance
@@ -122,7 +118,7 @@ To increase the maxInstances value on IIS 5.1 and IIS 6.0 run this command:
 [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample7.cmd)]
 
 > [!NOTE]
-> replace the section name if necessary.
+> Replace the section name if necessary.
 
 Alternatively, you can edit the **Fcgiext.ini** file located at `C:\Windows\System32\inetsrv\` folder:
 
@@ -168,15 +164,13 @@ The following example shows how you can refresh a cache entry:
 
 The installation package for Windows Cache Extension 1.0 for PHP includes a PHP script, **wincache.php**, that can be used to obtain cache information and statistics.
 
-[![](use-the-windows-cache-extension-for-php/_static/image2.png)](use-the-windows-cache-extension-for-php/_static/image1.png)
+[](use-the-windows-cache-extension-for-php/_static/image1.png)
 
 If the Windows Cache Extension for PHP was installed via Web Platform Installer, then this script is located in `%SystemDrive%\Program Files\IIS\Windows Cache for PHP\`. On a 64-bit version of the Windows Server operating system, the script is located in `%SystemDrive%\Program Files (x86)\IIS\Windows Cache` for PHP. If the extension was installed manually, then the **Wincache.php** will be located in the same folder from which the content of the installation package was extracted.
 
-To use W **incache.php**, copy it into a root folder of your Web site or into any subfolder. To protect the script, open it in any text editor and change the values for the USERNAME and PASSWORD constants. If any other IIS authentication is enabled on the server then follow the instructions in the comments:
+To use **Wincache.php**, copy it into a root folder of your Web site or into any subfolder. To protect the script, open it in any text editor and change the values for the USERNAME and PASSWORD constants. If any other IIS authentication is enabled on the server then follow the instructions in the comments:
 
 [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample12.cmd)]
-
-![](use-the-windows-cache-extension-for-php/_static/image3.gif)
 
 > [!IMPORTANT]
 > Always protect the **wincache.php** script by using either the built-in authentication or the server's authentication mechanism. Leaving this script unprotected may compromise the security of your web application and web server.

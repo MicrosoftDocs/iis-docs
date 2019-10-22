@@ -7,15 +7,15 @@ ms.assetid: e4113e68-c5a0-4cea-b4f2-ecb0397e78fa
 msc.legacyurl: /learn/develop/windows-web-application-gallery/using-the-microsoft-web-platform-installer-badge
 msc.type: authoredcontent
 ---
-Using the Microsoft Web Platform Installer Badge
-====================
+# Using the Microsoft Web Platform Installer Badge
+
 by Steve Jacobson
 
 Developers of applications have the ability to provide a link on their sites which will be able to launch the Web Platform Installer with their application and all prerequisites ready to install. To take advantage of this feature, developers should link to the badge in this document.
 
-The link associated with the badge should be in this format mentioned below and will be available to use once the application is available in Web Platform Installer. Note the URL must include the Application ID that you entered when submitting the application to the Gallery
+The link associated with the badge should be in the following format and will be available to use once the application is available in Web Platform Installer. Note the URL must include the Application ID that you entered when submitting the application to the Gallery
 
-Link : https://www.microsoft.com/web/gallery/install.aspx?appid=&lt;YourApplicationID&gt;
+Link: `https://www.microsoft.com/web/gallery/install.aspx?appid=<YourApplicationID>`
 
 Image URL: [https://www.microsoft.com/web/media/badge/install\_using\_webpi\_btn.png](https://www.microsoft.com/web/media/badge/install_using_webpi_btn.png)
 

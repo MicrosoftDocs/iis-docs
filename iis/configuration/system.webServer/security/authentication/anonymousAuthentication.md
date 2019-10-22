@@ -7,8 +7,8 @@ ms.assetid: e4e575b6-9269-4e4b-b194-ed910b36da2f
 msc.legacyurl: /configreference/system.webserver/security/authentication/anonymousauthentication
 msc.type: config
 ---
-Anonymous Authentication &lt;anonymousAuthentication&gt;
-====================
+# Anonymous Authentication &lt;anonymousAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -40,42 +40,42 @@ The `<anonymousAuthentication>` element is included in the default installation 
 
 ### How to disable anonymous authentication
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and go to the level in the hierarchy pane that you want to configure, and then click the Web site or Web application.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Disable** in the **Actions** pane.  
-    [![](anonymousAuthentication/_static/image2.png)](anonymousAuthentication/_static/image1.png)
+    ![](anonymousAuthentication/_static/image1.png)
 
 ### How to change anonymous authentication credentials from the IUSR account
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -84,10 +84,10 @@ The `<anonymousAuthentication>` element is included in the default installation 
 4. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Edit...** in the **Actions** pane.
 5. In the **Edit Anonymous Authentication Credentials** dialog box, do one of the following:
 
-    - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.   
-        [![](anonymousAuthentication/_static/image4.png)](anonymousAuthentication/_static/image3.png)
+    - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.  
+        ![](anonymousAuthentication/_static/image3.png)
     - Click **Set...**, and then in the **Set Credentials** dialog box, enter the user name for the account in the **User name** box, enter the password for the account in the **Password** and **Confirm password** boxes, click **OK**, and then click **OK** again.  
-        [![](anonymousAuthentication/_static/image6.png)](anonymousAuthentication/_static/image5.png)
+        ![](anonymousAuthentication/_static/image5.png)
 
     > [!NOTE]
     > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.
@@ -119,7 +119,7 @@ The following configuration example configures anonymous authentication for an I
 <a id="006"></a>
 ## Sample Code
 
-The following examples enable anonymous authentication and change the default username and password used for anonymous authentication to an account named **IUSR** and a password of **P@ssw0rd**.
+The following examples enable anonymous authentication and change the default username and password used for anonymous authentication to an account named **IUSR** and a password of **P\@ssw0rd**.
 
 ### AppCmd.exe
 

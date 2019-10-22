@@ -7,8 +7,8 @@ ms.assetid: ff101340-b38e-4127-8978-61838ad18051
 msc.legacyurl: /configreference/system.webserver
 msc.type: config
 ---
- &lt;system.webServer&gt;
-====================
+# &lt;system.webServer&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -53,7 +53,7 @@ None.
 | Element | Description |
 | --- | --- |
 | [`applicationInitialization`](applicationinitialization/index.md) | Optional element.<br><br>Configures settings for application initialization that is performed proactively before a request is received. |
-|| [`asp`](asp/index.md) | Optional element.<br><br>Configures settings for Active Server Pages (ASP) applications. |
+| [`asp`](asp/index.md) | Optional element.<br><br>Configures settings for Active Server Pages (ASP) applications. |
 | [`caching`](caching/index.md) | Optional element.<br><br>Configures output cache settings. |
 | [`cgi`](cgi.md) | Optional element.<br><br>Configures default settings for Common Gateway Interface (CGI) applications. |
 | [`defaultDocument`](defaultdocument/index.md) | Optional element.<br><br>Configures settings for returning a default document to a client browser when the client does not specify a file name in a request. |

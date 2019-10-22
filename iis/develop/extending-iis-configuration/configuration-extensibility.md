@@ -58,9 +58,9 @@ Although Step 1 is complete in terms of our example, it is appropriate to discus
 
 | Type | Schema Info and Examples |
 | --- | --- |
-| **attribute** | [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
-| **element** | [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample7.xml)] |
-| **collection** | [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample9.xml)] |
+| **attribute** | [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] <br> **Example:** <br> [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
+| **element** | [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] <br> **Example:** <br> [!code-xml[Main](configuration-extensibility/samples/sample7.xml)] |
+| **collection** | [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] <br> **Example:** <br> [!code-xml[Main](configuration-extensibility/samples/sample9.xml)] |
 
 ### Step 2 – Registering the New Section
 
@@ -144,13 +144,13 @@ The required steps include:
 
 8. The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
 
-   [![](configuration-extensibility/_static/image2.jpg)](configuration-extensibility/_static/image1.jpg)
+   ![](configuration-extensibility/_static/image1.jpg)
 
 If you get an error, make sure that you have given the IIS\_IUSRS group permissions to write to the directory.
 
 Open `%systemdrive%\inetpub\logs\simpleLogs` (or whatever directory you used in the configuration) and you have a .log file named with today's date. Open the file and you see something like this:
 
-[![](configuration-extensibility/_static/image4.jpg)](configuration-extensibility/_static/image3.jpg)
+![](configuration-extensibility/_static/image3.jpg)
 
 Experiment with the configuration to ensure that it is working. Try removing the **simpleLogging** section from your web.config file and check to see if the logs go to the default location (just ensure that the ASPNET user has the correct permissions).
 

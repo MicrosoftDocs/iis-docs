@@ -4,17 +4,19 @@ ms.date: "10/07/2016"
 ms.assetid: de71149d-7086-8952-f32a-9a233d9991ec
 ---
 # HttpRuntimeSection Class
+
 Configures [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] HTTP run-time settings that determine how a request is processed for a given [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
-  
+
 ## Syntax  
-  
+
 ```vbs  
 class HttpRuntimeSection : ConfigurationSection  
 ```  
-  
+
 ## Methods  
- The following table lists the methods exposed by the `HttpRuntimeSection` class.  
-  
+
+The following table lists the methods exposed by the `HttpRuntimeSection` class.  
+
 |Name|Description|  
 |----------|-----------------|  
 |[GetAllowDefinition](../wmi-provider/configurationsection-getallowdefinition-method.md)|(Inherited from [ConfigurationSection](../wmi-provider/configurationsection-class.md).)|  
@@ -22,10 +24,11 @@ class HttpRuntimeSection : ConfigurationSection
 |[RevertToParent](../wmi-provider/configurationsection-reverttoparent-method.md)|(Inherited from `ConfigurationSection`.)|  
 |[SetAllowDefinition](../wmi-provider/configurationsection-setallowdefinition-method.md)|(Inherited from `ConfigurationSection`.)|  
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
-  
+
 ## Properties  
- The following table lists the properties exposed by the `HttpRuntimeSection` class.  
-  
+
+The following table lists the properties exposed by the `HttpRuntimeSection` class.  
+
 |Name|Description|  
 |----------|-----------------|  
 |`ApartmentThreading`|An optional read/write `boolean` value. `true` if apartment threading is enabled for classic ASP compatibility; otherwise, `false`. The default is `false`. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
@@ -47,27 +50,30 @@ class HttpRuntimeSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
 |`SendCacheControlHeader`|An optional read/write `boolean` value. `true` if a cache control header that is set to Private is sent by default; otherwise, `false`. If `true`, client-side caching is disabled. The default is `true`. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
 |`ShutdownTimeout`|An optional read/write `datetime` value that specifies the time that is allowed for a worker process to shut down. The default is 1 minute, 30 seconds.<br /><br /> When the time-out expires, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] shuts down the worker process. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
-|`UseFullyQualifiedRedirectUrl`|An optional read/write `boolean` value. `true` if client-side redirects are fully qualified; otherwise, `false`. The default is `false`.<br /><br /> To fully qualify client-side redirects, use the format http://*server*/*path*. This format is required for some mobile controls. If `true`, all redirects that are not fully qualified are automatically converted to a fully qualified format. If `false`, relative redirects are sent to the client. **Note:**  If `false`, some browsers might encounter issues when loading pages that are in cookieless sessions.|  
+|`UseFullyQualifiedRedirectUrl`|An optional read/write `boolean` value. `true` if client-side redirects are fully qualified; otherwise, `false`. The default is `false`.<br /><br /> To fully qualify client-side redirects, use the format `http://server/path`. This format is required for some mobile controls. If `true`, all redirects that are not fully qualified are automatically converted to a fully qualified format. If `false`, relative redirects are sent to the client. **Note:**  If `false`, some browsers might encounter issues when loading pages that are in cookieless sessions.|  
 |`WaitChangeNotification`|An optional read/write `sint32` value that specifies the time, in seconds, to wait for another file change notification before the application domain restarts. The default is 0.<br /><br /> Set this attribute to a number that is greater than the time between the updates of two file copy change notifications. File change notifications are combined based on the value of this property and the `MaxWaitChangeNotification` property. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
-  
+
 ## Subclasses  
- This class contains no subclasses.  
-  
-## Inheritance Hierarchy  
+
+This class contains no subclasses.  
+
+## Inheritance Hierarchy
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `HttpRuntimeSection`  
-  
+
 ## Requirements  
-  
+
 |Type|Description|  
 |----------|-----------------|  
 |Client|-   [!INCLUDE[iis70](../wmi-provider/includes/iis70-md.md)] on [!INCLUDE[winvista](../wmi-provider/includes/winvista-md.md)]<br />-   [!INCLUDE[iis75](../wmi-provider/includes/iis75-md.md)] on [!INCLUDE[win7](../wmi-provider/includes/win7-md.md)]<br />-   [!INCLUDE[iis80](../wmi-provider/includes/iis80-md.md)] on [!INCLUDE[win8](../wmi-provider/includes/win8-md.md)]<br />-   [!INCLUDE[iis100](../wmi-provider/includes/iis100-md.md)] on [!INCLUDE[win10](../wmi-provider/includes/win10-md.md)]|  
 |Server|-   [!INCLUDE[iis70](../wmi-provider/includes/iis70-md.md)] on [!INCLUDE[winsrv2008](../wmi-provider/includes/winsrv2008-md.md)]<br />-   [!INCLUDE[iis75](../wmi-provider/includes/iis75-md.md)] on [!INCLUDE[winsrv2008r2](../wmi-provider/includes/winsrv2008r2-md.md)]<br />-   [!INCLUDE[iis80](../wmi-provider/includes/iis80-md.md)] on [!INCLUDE[winsrv2012](../wmi-provider/includes/winsrv2012-md.md)]<br />-   [!INCLUDE[iis85](../wmi-provider/includes/iis85-md.md)] on [!INCLUDE[winsrv2012r2](../wmi-provider/includes/winsrv2012r2-md.md)]<br />-   [!INCLUDE[iis100](../wmi-provider/includes/iis100-md.md)] on [!INCLUDE[winsrv2016](../wmi-provider/includes/winsrv2016-md.md)]|  
 |Product|-   [!INCLUDE[iis70](../wmi-provider/includes/iis70-md.md)], [!INCLUDE[iis75](../wmi-provider/includes/iis75-md.md)], [!INCLUDE[iis80](../wmi-provider/includes/iis80-md.md)], [!INCLUDE[iis85](../wmi-provider/includes/iis85-md.md)], [!INCLUDE[iis100](../wmi-provider/includes/iis100-md.md)]|  
 |MOF file|WebAdministration.mof|  
-  
+
 ## See Also  
+
  [System.Web.Configuration.SystemWebSectionGroup.HttpRuntime](/dotnet/api/system.web.configuration.systemwebsectiongroup.httpruntime)  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   

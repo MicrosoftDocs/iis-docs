@@ -237,7 +237,7 @@ This step provides a sample of how to access the redirection.config file program
 
 1. Create a text file and save it with the .js extension. The following script provides a sample of how to read the enabled attribute, server name, user name, and password for your environment:
 
-[!code-console[Main](shared-configuration_264/samples/sample9.cmd)]
+    [!code-console[Main](shared-configuration_264/samples/sample9.cmd)]
 2. Save your redirection.js file. You can now run this file from a command prompt because of the Windows Script Host (WSH).
 
 <a id="12"></a>
@@ -271,7 +271,7 @@ These keys are in the iisConfigurationKey and iisWasKey key containers and are m
 1. Open a command-prompt. Navigate to the Framework directory, which is located in `%windir%\Microsoft.NET\Framework\v2.0.50727\` by default.
 
    > [!NOTE]
-   > For reference, the machine keys for the system are located in **%ALLUSERSPROFILE%\Microsoft\Crypto\RSA\MachineKeys\**
+   > For reference, the machine keys for the system are located in **%ALLUSERSPROFILE%\\Microsoft\\Crypto\\RSA\\MachineKeys\\**
 
 2. Use the aspnet\_regiis tool to export the key. The command to transfer the configuration key is stated below. The px switch identifies that you want to export an RSA key pair. The pri switch identifies that you also want to include both the private and public key.
 

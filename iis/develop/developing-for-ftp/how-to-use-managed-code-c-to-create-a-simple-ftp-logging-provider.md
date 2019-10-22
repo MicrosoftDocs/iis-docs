@@ -28,8 +28,10 @@ The following items are required to complete the procedures in this article:
    - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
 3. You must create a root folder for FTP publishing.
 4. You must use Visual Studio 2008.
+
     > [!NOTE]
     > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
+
 5. A folder for logging must be created; the code sample uses `C:\logfiles\myftpsite`, but you can change that if necessary.
 
 ## Step 1: Set up the Project Environment

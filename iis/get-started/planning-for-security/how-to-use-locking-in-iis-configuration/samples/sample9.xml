@@ -1,6 +1,6 @@
 <location path="." overrideMode="Allow">   <system.webServer>
     <security>
-      <autghentication>
+      <authentication>
         <windowsAuthentication enabled="true" lockElements="providers">
           <providers>
             <add value="Negotiate" />
