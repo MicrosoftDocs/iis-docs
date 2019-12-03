@@ -1,1 +1,1 @@
-sc config WMSVC start= auto
+sc.exe config WMSVC start= auto
