@@ -75,7 +75,7 @@ Before starting the installation procedure for Joomla, you must create a databas
 - Database user: **joomla**
 - Account password: **joomla**
 
-## Run the Installation Script
+## Run the Installation Script  [site](https://negarmovie.com/).
 
 1. Start the configuration procedure in a Web browser. Go to `http://localhost/joomla/`. (If the Index.php file is not in the browser default document, then add it.)
 2. Select the *language*, and then click **Next**.  
