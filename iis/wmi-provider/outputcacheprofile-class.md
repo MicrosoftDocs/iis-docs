@@ -1,9 +1,9 @@
 ---
-title: "OutputCacheProfile Clas"
+title: "OutputCacheProfile Class"
 ms.date: "10/07/2016"
 ms.assetid: d61ba4fe-4570-e1a3-62ca-db897a24de99
 ---
-# OutputCacheProfile Clas
+# OutputCacheProfile Class
 Configures the output cache profile for the pages of a Web application.  
   
 ## Syntax  
