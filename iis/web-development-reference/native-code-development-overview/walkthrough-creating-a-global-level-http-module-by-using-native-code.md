@@ -123,7 +123,7 @@ The next step is to add the required C++ and module definition-files to the proj
   
     6. Add the following code:  
   
-         [!code-cpp[CGlobalModuleHelloWorld#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleHelloWorld/cpp/CGlobalModuleHelloWorld.cpp#1)]  
+         [!code-cpp[CGlobalModuleHelloWorld#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleHelloWorld/cpp/CGlobalModuleHelloWorld.cpp#1)]  
   
 4. You can optionally compile the code by using the `__stdcall (/Gz)` calling convention:  
   

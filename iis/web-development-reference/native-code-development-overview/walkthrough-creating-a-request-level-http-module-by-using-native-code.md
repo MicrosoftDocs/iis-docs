@@ -110,7 +110,7 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
     6.  Add the following code:  
   
-         [!code-cpp[CHttpModuleHelloWorld#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleHelloWorld/cpp/CHttpModuleHelloWorld.cpp#1)]  
+         [!code-cpp[CHttpModuleHelloWorld#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleHelloWorld/cpp/CHttpModuleHelloWorld.cpp#1)]  
   
 ## Compiling and Testing the Module  
   

@@ -38,7 +38,7 @@ HRESULT put_Value(
 ## Example  
  The following code example disables the default document by setting the `enabled` attribute of the `defaultDocument` element to `false`.  
   
- [!code-cpp[IAppHostAdminLibrary#6](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
+ [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
   
 ## Requirements  
   

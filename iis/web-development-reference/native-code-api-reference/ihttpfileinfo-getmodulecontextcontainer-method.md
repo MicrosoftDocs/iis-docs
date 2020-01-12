@@ -37,7 +37,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ## Example  
  The following code example demonstrates a custom class named `MyContainer` that implements the `IDispensedHttpModuleContextContainer` interface, and a custom class named `MyClass` that implements the `IHttpFileInfo` interface. `MyClass` manages a `MyContainer` pointer during the lifetime of a `MyClass` pointer.  
   
- [!code-cpp[IHttpFileInfo#12](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetModuleContextContainer.cpp#12)]  
+ [!code-cpp[IHttpFileInfo#12](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetModuleContextContainer.cpp#12)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

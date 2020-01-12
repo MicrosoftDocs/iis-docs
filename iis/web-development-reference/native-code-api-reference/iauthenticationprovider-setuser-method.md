@@ -35,7 +35,7 @@ virtual VOID SetUser(
 > [!CAUTION]
 >  The following code example authenticates all users by creating a custom `IHttpUser` pointer with the name `ValidUser`.  
   
- [!code-cpp[IAuthenticationProvider#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAuthenticationProvider/cpp/SetUser.cpp#1)]  
+ [!code-cpp[IAuthenticationProvider#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAuthenticationProvider/cpp/SetUser.cpp#1)]  
   
  The above code writes XML that is similar to the following to the response stream.  
   

@@ -26,7 +26,7 @@ virtual BOOL IsConnected(
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetConnection](../../web-development-reference/native-code-api-reference/ihttpcontext-getconnection-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpConnection](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md) interface. The example then calls the `IHttpConnection::IsConnected` method to determine whether the Web client that initiated the current request is still connected. If the client is still connected, the HTTP module will return a status message to the Web client. If the client is not connected, the module will return `RQ_NOTIFICATION_FINISH_REQUEST` to end additional processing.  
   
- [!code-cpp[IHttpConnectionIsConnected#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpConnectionIsConnected/cpp/IHttpConnectionIsConnected.cpp#1)]  
+ [!code-cpp[IHttpConnectionIsConnected#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpConnectionIsConnected/cpp/IHttpConnectionIsConnected.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

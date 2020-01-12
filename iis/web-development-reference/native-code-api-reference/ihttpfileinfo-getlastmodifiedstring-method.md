@@ -26,7 +26,7 @@ virtual PCSTR GetLastModifiedString(
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then calls the `GetLastModifiedString` method to retrieve a string that contains the last modified date and time. Finally, the example displays this information to a Web client.  
   
- [!code-cpp[IHttpFileInfoGetLastModifiedString#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfoGetLastModifiedString/cpp/IHttpFileInfoGetLastModifiedString.cpp#1)]  
+ [!code-cpp[IHttpFileInfoGetLastModifiedString#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfoGetLastModifiedString/cpp/IHttpFileInfoGetLastModifiedString.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

@@ -42,7 +42,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(
   
 3.  The module removes the `CGlobalModule` class from memory and then exits.  
   
- [!code-cpp[IGlobalThreadCleanupProviderGetApplication#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalThreadCleanupProviderGetApplication/cpp/IGlobalThreadCleanupProviderGetApplication.cpp#1)]  
+ [!code-cpp[IGlobalThreadCleanupProviderGetApplication#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalThreadCleanupProviderGetApplication/cpp/IGlobalThreadCleanupProviderGetApplication.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-global-level-http-module-by-using-native-code.md).  
   

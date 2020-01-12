@@ -39,7 +39,7 @@ virtual PCWSTR GetVrPath(
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `GetVrPath` method to retrieve virtual path information for the requested file and displays this information to a Web client.  
   
- [!code-cpp[IHttpFileInfo#14](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetVrPath.cpp#14)]  
+ [!code-cpp[IHttpFileInfo#14](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetVrPath.cpp#14)]  
   
  The following text is a sample of the data output from the preceding code example.  
   

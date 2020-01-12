@@ -29,7 +29,7 @@ HRESULT Name(
 ## Example  
  The following code example displays all child elements of the `system.webServer/asp` configuration section for the MACHINE/WEBROOT/APPHOST configuration path.  
   
- [!code-cpp[IAppHostAdminLibrary#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
+ [!code-cpp[IAppHostAdminLibrary#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
   
 ## Requirements  
   

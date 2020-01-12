@@ -46,7 +46,7 @@ HRESULT GetAdminSection(
 ## Example  
  The following code example uses the [IAppHostAdminManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md) interface to obtain all merged child elements for the `system.webServer/asp` configuration section in the MACHINE/WEBROOT/APPHOST configuration path.  
   
- [!code-cpp[IAppHostAdminLibrary#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
+ [!code-cpp[IAppHostAdminLibrary#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
   
 ## Requirements  
   

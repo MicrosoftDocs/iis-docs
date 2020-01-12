@@ -34,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(
 ## Example  
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_SEND_RESPONSE` event notification. When IIS sends the response buffer, it will call the example module's `OnSendResponse` method. The method will write an entry in the Application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
- [!code-cpp[CHttpModuleSendResponse#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleSendResponse/cpp/CHttpModuleSendResponse.cpp#1)]  
+ [!code-cpp[CHttpModuleSendResponse#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleSendResponse/cpp/CHttpModuleSendResponse.cpp#1)]  
   
  Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

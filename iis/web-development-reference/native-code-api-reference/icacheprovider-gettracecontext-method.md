@@ -35,7 +35,7 @@ virtual IHttpTraceContext* GetTraceContext(
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
- [!code-cpp[ICacheProvider#5](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/ICacheProvider/cpp/GetTraceContext.cpp#5)]  
+ [!code-cpp[ICacheProvider#5](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/ICacheProvider/cpp/GetTraceContext.cpp#5)]  
   
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

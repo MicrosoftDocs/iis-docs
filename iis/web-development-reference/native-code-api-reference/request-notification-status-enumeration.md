@@ -30,8 +30,8 @@ typedef enum REQUEST_NOTIFICATION_STATUS{
 ## Example  
  The following example implements a `RQ_BEGIN_REQUEST` handler. If the request is not an HTML file, the example returns `RQ_NOTIFICATION_CONTINUE` and normal processing occurs. When the counter value has a zero remainder, the requested file is replaced by a string returned by the [IHttpResponse::WriteEntityChunkByReference](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunkbyreference-method.md) method and the example returns `RQ_NOTIFICATION_FINISH_REQUEST`. If an error occurs, the example logs the error and returns `RQ_NOTIFICATION_FINISH_REQUEST`.  
   
- [!code-cpp[_RaiseEvnt#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/_RaiseEvnt/cpp/IHttpResponseWriteEntityChunkByReference.cpp#2)]  
-[!code-cpp[_RaiseEvnt#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/_RaiseEvnt/cpp/IHttpResponseWriteEntityChunkByReference.cpp#1)]  
+ [!code-cpp[_RaiseEvnt#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_RaiseEvnt/cpp/IHttpResponseWriteEntityChunkByReference.cpp#2)]  
+[!code-cpp[_RaiseEvnt#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_RaiseEvnt/cpp/IHttpResponseWriteEntityChunkByReference.cpp#1)]  
   
 ## Requirements  
   

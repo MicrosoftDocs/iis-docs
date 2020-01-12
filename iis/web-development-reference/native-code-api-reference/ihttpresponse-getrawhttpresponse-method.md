@@ -31,7 +31,7 @@ virtual HTTP_RESPONSE* GetRawHttpResponse(
 ## Example  
  The following code example demonstrates how to use the `GetRawHttpResponse` to create an HTTP module that retrieves a pointer to an `HTTP_RESPONSE` structure that contains the current response. The module uses the structure to retrieve the data chunk count in the response, and then it uses the [IHttpResponse::Clear](../../web-development-reference/native-code-api-reference/ihttpresponse-clear-method.md) method to clear the current response. Finally the module returns the chunk count to the client.  
   
- [!code-cpp[IHttpResponseGetRawHttpResponse#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetRawHttpResponse/cpp/IHttpResponseGetRawHttpResponse.cpp#1)]  
+ [!code-cpp[IHttpResponseGetRawHttpResponse#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetRawHttpResponse/cpp/IHttpResponseGetRawHttpResponse.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

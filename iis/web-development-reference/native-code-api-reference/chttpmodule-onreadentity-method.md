@@ -34,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnReadEntity(
 ## Example  
  The following example demonstrates how to create a request-level HTTP module that registers for the `RQ_READ_ENTITY` event notification. When IIS reads data from the request buffer, it will call the example module's `OnReadEntity` method. A simple HTML or [!INCLUDE[vstecasp](../../wmi-provider/includes/vstecasp-md.md)] page that performs a post will cause the example code to run.  
   
- [!code-cpp[CHttpModuleReadEntity#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleReadEntity/cpp/CHttpModuleReadEntity.cpp#1)]  
+ [!code-cpp[CHttpModuleReadEntity#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleReadEntity/cpp/CHttpModuleReadEntity.cpp#1)]  
   
 ## Requirements  
   

@@ -42,7 +42,7 @@ virtual PCWSTR GetRemoteUserName(
 ## Example  
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
- [!code-cpp[IHttpUser#6](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpUser/cpp/GetRemoteUserName.cpp#6)]  
+ [!code-cpp[IHttpUser#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpUser/cpp/GetRemoteUserName.cpp#6)]  
   
  The above code writes XML that is similar to the following to the response stream.  
   

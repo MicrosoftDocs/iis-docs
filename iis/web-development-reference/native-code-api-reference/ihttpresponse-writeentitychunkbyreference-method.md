@@ -46,8 +46,8 @@ HRESULT WriteEntityChunkByReference(
 ## Example  
  The following example demonstrates how to use the `WriteEntityChunkByReference` method to insert data into the response. It also demonstrates how to use the `lInsertPosition` parameter to insert or append data chunks.  
   
- [!code-cpp[IHttpResponseWriteEntityChunkByReference#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunkByReference/cpp/IHttpResponseWriteEntityChunkByReference.cpp#1)]  
-[!code-cpp[IHttpResponseWriteEntityChunkByReference#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunkByReference/cpp/IHttpResponseWriteEntityChunkByReference.cpp#2)]  
+ [!code-cpp[IHttpResponseWriteEntityChunkByReference#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunkByReference/cpp/IHttpResponseWriteEntityChunkByReference.cpp#1)]  
+[!code-cpp[IHttpResponseWriteEntityChunkByReference#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunkByReference/cpp/IHttpResponseWriteEntityChunkByReference.cpp#2)]  
   
 ## Requirements  
   

@@ -34,7 +34,7 @@ HRESULT SetMetadata(
 ## Example  
  The following code example sets a `configSource` attribute for the `system.applicationHost/sites` section by using the `IAppHostAdminManager::SetMetadata` method.  
   
- [!code-cpp[IAppHostAdminLibrary#4](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementSetMetadata.cpp#4)]  
+ [!code-cpp[IAppHostAdminLibrary#4](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementSetMetadata.cpp#4)]  
   
 ## Requirements  
   

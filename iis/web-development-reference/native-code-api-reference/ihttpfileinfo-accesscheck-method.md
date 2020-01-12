@@ -48,7 +48,7 @@ virtual HRESULT AccessCheck(
 ## Example  
  The following example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `AccessCheck` method to retrieve access information for the requested file and displays this information to a Web client.  
   
- [!code-cpp[IHttpFileInfo#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/AccessCheck.cpp#2)]  
+ [!code-cpp[IHttpFileInfo#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/AccessCheck.cpp#2)]  
   
  The following text is a sample of the data output from the preceding code example.  
   

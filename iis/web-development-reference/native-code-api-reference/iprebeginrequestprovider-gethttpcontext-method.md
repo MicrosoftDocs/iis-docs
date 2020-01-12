@@ -26,7 +26,7 @@ virtual IHttpContext* GetHttpContext(
 ## Example  
  The following code example demonstrates how to create a global-level HTTP module that uses the `GetHttpContext` function to retrieve a pointer to an `IHttpContext` interface. The module calls the context's [IHttpContext::GetSite](../../web-development-reference/native-code-api-reference/ihttpcontext-getsite-method.md) method to retrieve a pointer to an [IHttpSite](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md) interface, and then calls the [IHttpSite::GetSiteName](../../web-development-reference/native-code-api-reference/ihttpsite-getsitename-method.md) method to retrieve the name of the site that is processing the request.  
   
- [!code-cpp[IPreBeginRequestProviderGetHttpContext#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IPreBeginRequestProviderGetHttpContext/cpp/IPreBeginRequestProviderGetHttpContext.cpp#1)]  
+ [!code-cpp[IPreBeginRequestProviderGetHttpContext#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IPreBeginRequestProviderGetHttpContext/cpp/IPreBeginRequestProviderGetHttpContext.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

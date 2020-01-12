@@ -34,7 +34,7 @@ virtual BOOL CheckIfFileHasChanged(
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `CheckIfFileHasChanged` method to retrieve file change information for the requested file and displays this information to a Web client.  
   
- [!code-cpp[IHttpFileInfo#3](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/CheckIfFileHasChanged.cpp#3)]  
+ [!code-cpp[IHttpFileInfo#3](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/CheckIfFileHasChanged.cpp#3)]  
   
  The following text is a sample of the data output from the preceding code example.  
   

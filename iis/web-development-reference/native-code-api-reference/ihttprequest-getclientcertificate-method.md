@@ -43,7 +43,7 @@ HRESULT GetClientCertificate(
 ## Example  
  The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](https://go.microsoft.com/fwlink/?LinkId=63150) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) method.  
   
- [!code-cpp[IHttpRequestGetClientCertificate#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetClientCertificate/cpp/mymodule.cpp#2)]  
+ [!code-cpp[IHttpRequestGetClientCertificate#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetClientCertificate/cpp/mymodule.cpp#2)]  
   
  For more information about how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

@@ -29,7 +29,7 @@ HRESULT get_Properties(
 ## Example  
  The following code example obtains the `enabled` property from the property collection of the `system.webServer/defaultDocument` configuration section, sets the value to `false`, and then commits the changes.  
   
- [!code-cpp[IAppHostAdminLibrary#6](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
+ [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
   
 ## Requirements  
   

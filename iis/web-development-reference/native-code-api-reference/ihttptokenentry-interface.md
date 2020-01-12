@@ -42,7 +42,7 @@ class IHttpTokenEntry : public IHttpCacheSpecificData
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
- [!code-cpp[IHttpTokenEntry#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpTokenEntry/cpp/IHttpTokenEntry.cpp#1)]  
+ [!code-cpp[IHttpTokenEntry#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpTokenEntry/cpp/IHttpTokenEntry.cpp#1)]  
   
  The above code writes a new event to the Event Viewer, where the Data box holds XML similar to the following.  
   

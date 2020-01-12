@@ -34,7 +34,7 @@ virtual BOOL IsFrequentlyHit(
 ## Example  
  The following code example demonstrates how to use the [IHttpContext::GetUrlInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-geturlinfo-method.md) method to create an HTTP module that retrieves an [IHttpUrlInfo](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md) interface for the current request. Then the example calls the `IsFrequentlyHit` method to determine whether the URL is requested frequently. Finally, the example displays this information to a Web client.  
   
- [!code-cpp[IHttpContextGetUrlInfo#1](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetUrlInfo/cpp/IHttpContextGetUrlInfo.cpp#1)]  
+ [!code-cpp[IHttpContextGetUrlInfo#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetUrlInfo/cpp/IHttpContextGetUrlInfo.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

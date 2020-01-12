@@ -53,7 +53,7 @@ enum HTTP_TRACE_TYPE{
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
- [!code-cpp[Enumerations#2](~/samples/snippets/cpp/VS_Snippets_IIS/IIS7/Enumerations/cpp/HTTP_TRACE_TYPE.cpp#2)]  
+ [!code-cpp[Enumerations#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/Enumerations/cpp/HTTP_TRACE_TYPE.cpp#2)]  
   
  The above code writes a new event to the Event Viewer, where the Data box contains XML similar to the following.  
   
