@@ -47,7 +47,7 @@ In order for Joomla to work correctly with IIS 7 and above, it is necessary to i
 
 First, download the latest stable release of [Joomla](http://www.joomla.org/). For this article, Joomla version 1.5.14 was used (future versions are likely to be similar to install). Uncompress the Joomla files and copy them to **C:\Inetpub\wwwroot\joomla** (or another directory of your choosing).
 
-Before running the Joomla installer, create the configuration file **Configuration.php**<strong>,</strong> which Joomla uses to store key configuration settings. Assign write permissions to it with the command (from the installation directory):
+Before running the Joomla installer, create the configuration file **Configuration.php**, which Joomla uses to store key configuration settings. Assign write permissions to it with the command (from the installation directory):
 
 
 [!code-console[Main](install-joomla-on-iis/samples/sample1.cmd)]
