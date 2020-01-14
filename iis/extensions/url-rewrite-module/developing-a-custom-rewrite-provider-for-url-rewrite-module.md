@@ -27,14 +27,14 @@ To create a Visual Studio project for rewrite provider follow these steps:
 7. In the Signing tab check "Sign the assembly" check box.
 8. In the combo box, select the option &lt;New…&gt; to create a new key. In the "Create Strong Name Key" dialog, type DemoKey.snk as the name for the key and uncheck the Protect my key file with a password check box. Click OK.  
     [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image8.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image6.png)  
- The Signing tab should look as below:  
+   The Signing tab should look as below:  
     [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
 9. Select the "Build Events" tab and add the following "Post-build event" command line:  
   
- CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
- gacutil.exe /if "$(TargetPath)"   
+   CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
+   gacutil.exe /if "$(TargetPath)"   
   
- Note: if you use Visual Studio 2010 then replace %VS90COMNTOOLS% with %VS100COMNTOOLS%.
+   Note: if you use Visual Studio 2010 then replace %VS90COMNTOOLS% with %VS100COMNTOOLS%.
 
 ## Implementing the provider interfaces
 

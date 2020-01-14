@@ -211,12 +211,12 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
       The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.  
       ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image37.jpg)
 10. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image39.jpg)
+    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image39.jpg)
 11. Enter the path to the application package, or click Browse to locate the application file.
 12. Click **Next**.  
   
-   The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
+    The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
+    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
 13. Click **Finish**.Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.
 
 <a id="\_Ref279680466"></a><a id="\_Ref279656893"></a>

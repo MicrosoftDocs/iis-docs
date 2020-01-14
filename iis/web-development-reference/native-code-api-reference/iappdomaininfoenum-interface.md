@@ -31,13 +31,13 @@ struct IAppDomainInfoEnum : IUnknown
 ## Remarks  
  To access the first `IAppDomainInfo` interface you must call the methods in the following order:  
   
-1.  `Reset`  
+1. `Reset`  
   
-2.  `MoveNext`  
+2. `MoveNext`  
   
-3.  `GetData`  
+3. `GetData`  
   
- To access subsequent `IAppDomainInfo` interfaces, call `MoveNext`. If the `pfMoreItems` parameter of `MoveNext` is nonzero, call `GetData` and repeat this sequence until `pfMoreItems` is 0.  
+   To access subsequent `IAppDomainInfo` interfaces, call `MoveNext`. If the `pfMoreItems` parameter of `MoveNext` is nonzero, call `GetData` and repeat this sequence until `pfMoreItems` is 0.  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  

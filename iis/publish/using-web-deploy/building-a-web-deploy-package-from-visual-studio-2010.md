@@ -64,22 +64,22 @@ Note that Visual Studio 2010 does NOT support incremental database deployment.
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image16.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image15.png)
 2. Choose the configuration for the package.  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image18.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image17.png)  
- Packages are configuration specific, so you need to choose the configuration setting for the package before you create it.
+   Packages are configuration specific, so you need to choose the configuration setting for the package before you create it.
 3. If your Web.config file has a database connection string, you can click **Import from Web.Config**. A message will appear when the import is complete.  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image20.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image19.png)  
- The following will appear if no connection string was found:  
+   The following will appear if no connection string was found:  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image22.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image21.png)  
- If you see this error, check that the Web.Config file has the desired connection string and that the file has not been modified (an asterisk in the editor tab will indicate that the file has been altered and that the changes have not been saved.)
+   If you see this error, check that the Web.Config file has the desired connection string and that the file has not been modified (an asterisk in the editor tab will indicate that the file has been altered and that the changes have not been saved.)
 4. If a database that you want to add to your deployment package is not listed under **Database Entries**, click the **Add** button to add the connection.
 5. Once all of your connections are added, you can select an entry and adjust its order in the list to specify the order in which it will added to the package, and thus deployed, by using the up and down arrows.  
   
- Clicking a database entry will allow you to remove it.
+   Clicking a database entry will allow you to remove it.
 6. Next, configure the details for each database in the **Database Entry Details** section. 
 
     1. Select a database from the **Database Entries** list.  
         [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image24.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image23.png)
     2. In the **Connection string for destination database** field, enter the connection string to be used when the database is deployed to the server. This is needed for one-click publishing, but for packaging, this value will be used as a default that can be changed at deployment time.)  
- Note: This value will NOT be used to update the connection string information in the Web.config file. You can update your Web.config file for each build configuration using Web.config transforms. For more information on Web.config transforms, see {link to publishing article}, this article on [MSDN](https://msdn.microsoft.com/library/dd465326.aspx), or Vishal Joshi's blog [here](http://vishaljoshi.blogspot.com/2009/09/overview-post-for-web-deployment-in-vs.html) under the Web.Config Transformation section.
+   Note: This value will NOT be used to update the connection string information in the Web.config file. You can update your Web.config file for each build configuration using Web.config transforms. For more information on Web.config transforms, see {link to publishing article}, this article on [MSDN](https://msdn.microsoft.com/library/dd465326.aspx), or Vishal Joshi's blog [here](http://vishaljoshi.blogspot.com/2009/09/overview-post-for-web-deployment-in-vs.html) under the Web.Config Transformation section.
     3. The **Pull data and/or schema from an existing database** option will script out the database pointed to by the **Connection string for the source database** field and will script out schema, data, or both depending on the setting that you select for **Database scripting options**.
     4. The last option, **Database Scripts**, is to add custom SQL scripts and pick the order in which the scripts are executed. If you selected the **Pull data and/or schema from an existing database** checkbox under **Source Database Information**, the **[Auto-generated *&lt;Database scripting option&gt;*]**" checkbox appears. If you want to execute additional scripts, click **Add Script**. Browse to the location of the script and click **Open**. You can then select it in the **Database Scripts** section and use the up and down arrows to adjust its execution order.
     5. The last option, **Database Deployment Notes**, is optional.
@@ -111,11 +111,11 @@ All the settings we configured above are stored in the project file for the WAP.
 
     [!code-console[Main](building-a-web-deploy-package-from-visual-studio-2010/samples/sample1.cmd)]
 
- If you are building the project file, the command will look like this:  
+   If you are building the project file, the command will look like this:  
 
     [!code-console[Main](building-a-web-deploy-package-from-visual-studio-2010/samples/sample2.cmd)]
 
- If you would like to build a configuration other than the default, add the following to the above commands:  
+   If you would like to build a configuration other than the default, add the following to the above commands:  
 
     [!code-console[Main](building-a-web-deploy-package-from-visual-studio-2010/samples/sample3.cmd)]
 

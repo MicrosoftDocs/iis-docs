@@ -80,8 +80,8 @@ There are no known bugs for this feature at this time.
    - **Password/Confirm password**.
    - **Certificate Private Key Password**:
 
-       - This is optional. If the certificates do not have password, leave this empty.
-       - If the certificates have one global password, enter that password here.
+     - This is optional. If the certificates do not have password, leave this empty.
+     - If the certificates have one global password, enter that password here.
 
        ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.jpg)
 6. Centralized SSL Certificate Support feature is now ready to be used. Note that the IIS Manager reads the certificates and populates the most relevant information about the certificates. This information is cached for better performance.
@@ -96,7 +96,7 @@ There are no known bugs for this feature at this time.
    - Expire next month
    - Later
 
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image13.png)
+     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image13.png)
 
 ### Create a Secure Web Site
 

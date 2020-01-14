@@ -47,7 +47,7 @@ For this walkthrough you will need to add a redirection logic to the webmail app
 
     [!code-xml[Main](modifying-http-response-headers/samples/sample2.xml)]
 
- This is a rule that will redirect all requests for index.aspx to default.aspx.
+   This is a rule that will redirect all requests for index.aspx to default.aspx.
 
 Now open a web browser and make a request `http://localhost/webmail/index.aspx`. You will see that the browser got redirected to `http://localhost:8081/default.aspx`, which is basically an internal URL used by the webmail web application. Now you will configure the URL Rewrite rules to modify the HTTP Location header in the HTTP redirection responses so that the browser is redirected to a proper URL: `http://localhost/webmail/default.aspx`.
 

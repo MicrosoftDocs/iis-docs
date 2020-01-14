@@ -21,13 +21,12 @@ Class to contain diagnostic information about media events.
 
 ## Classes
 
-||Class|Description|
-|--- |--- |--- |
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)|Posts advanced logs to a server that by default will upload a log every 30 seconds.|
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CircularList<T>](circularlist-t-class-microsoft-web-media-diagnostics_1.md)|(Deprecated. Do not use) Implements a circular list. The caller defines maximum length when the list is constructed. When the list reaches the maximum, adding additional elements will cause the oldest element to be removed.|
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md)|Class that specifies points at which trace control requests are made.|
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[Tracing](tracing-class-microsoft-web-media-diagnostics_1.md)|Class of utilities that provide tracing and debugging routines.|
-
+|                                                                           |                                           Class                                           |                                                                                                           Description                                                                                                           |
+|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class") | [AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md) |                                                                       Posts advanced logs to a server that by default will upload a log every 30 seconds.                                                                       |
+| ![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class") |       [CircularList<T>](circularlist-t-class-microsoft-web-media-diagnostics_1.md)        | (Deprecated. Do not use) Implements a circular list. The caller defines maximum length when the list is constructed. When the list reaches the maximum, adding additional elements will cause the oldest element to be removed. |
+| ![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class") |            [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md)            |                                                                              Class that specifies points at which trace control requests are made.                                                                              |
+| ![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class") |               [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md)               |                                                                                 Class of utilities that provide tracing and debugging routines.                                                                                 |
 
 ## Enumerations
 

@@ -59,42 +59,42 @@ In this first step you will create a new FTP site that anonymous users can open.
 1. Open IIS Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. As shown in the image below, right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.
 
-    - Create a folder at `%SystemDrive%\inetpub\ftproot`
-    - Set the permissions to allow anonymous access:
+   - Create a folder at `%SystemDrive%\inetpub\ftproot`
+   - Set the permissions to allow anonymous access:
 
-        1. Open a command prompt.
-        2. Type the following command:
+       1. Open a command prompt.
+       2. Type the following command:
 
-            [!code-console[Main](creating-a-new-ftp-site-in-iis-7/samples/sample1.cmd)]
-        3. Close the command prompt.
+           [!code-console[Main](creating-a-new-ftp-site-in-iis-7/samples/sample1.cmd)]
+       3. Close the command prompt.
 
-    ![](creating-a-new-ftp-site-in-iis-7/_static/image1.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site** wizard appears:
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
-    - When you have completed these items, click **Next**.
+   - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
+   - When you have completed these items, click **Next**.
 
-    ![](creating-a-new-ftp-site-in-iis-7/_static/image5.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard:
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you must ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
+   - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you must ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
 
-       > [!NOTE]
-       > If you are using IPv6, you should also add the IPv6 localhost binding of "::1".
+      > [!NOTE]
+      > If you are using IPv6, you should also add the IPv6 localhost binding of "::1".
 
-    - Enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
-    - For this walk- through, do not use a host name, so make sure that the **Virtual Host** box is blank.
-    - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
-    - When you have completed these items, click **Next**.
+   - Enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
+   - For this walk- through, do not use a host name, so make sure that the **Virtual Host** box is blank.
+   - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
+   - When you have completed these items, click **Next**.
 
-    ![](creating-a-new-ftp-site-in-iis-7/_static/image11.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image11.jpg)
 5. On the next page of the wizard:
 
-    - Select **Anonymous** for the **Authentication** settings.
-    - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down, and select **Read** for the **Permissions** option.
-    - When you have completed these items, click **Finish**.
+   - Select **Anonymous** for the **Authentication** settings.
+   - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down, and select **Read** for the **Permissions** option.
+   - When you have completed these items, click **Finish**.
 
-    ![](creating-a-new-ftp-site-in-iis-7/_static/image13.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image13.jpg)
 
 #### Summary
 
