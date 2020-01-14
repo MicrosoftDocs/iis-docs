@@ -81,7 +81,7 @@ NOTE: If you want to perform admin-only synchronization, go to the **Management 
  a. Click **Add Rule…**   
  b. Select the **Mark Folders as Applications** rule template. This template allows all WMSVC authorized users to use the Web Deploy **createApp** provider to create applications within their user scope. The applications will inherit all settings from the parent, including the application pool.   
  c. Click **OK** to open the template.  
- d. In the **RunAs** section, select **SpecificUser** for the **Identity Type** , and the click the **Set…** button to specify a user account that will perform this operation. In order for this rule to work, the rule must run as a user that has access to write to the applicationHost.config file. It is recommended that you create an account (for example, "CreateAppUser") that is not in the Administrators group and only grant it the minimum required permissions. To do this:
+ d. In the **RunAs** section, select **SpecificUser** for the **Identity Type**, and the click the **Set…** button to specify a user account that will perform this operation. In order for this rule to work, the rule must run as a user that has access to write to the applicationHost.config file. It is recommended that you create an account (for example, "CreateAppUser") that is not in the Administrators group and only grant it the minimum required permissions. To do this:
 
     - Create a user account.
     - Grant read permission to `%windir%\system32\inetsrv\config`.

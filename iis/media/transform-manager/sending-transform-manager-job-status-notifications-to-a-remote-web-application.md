@@ -165,7 +165,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Deployment
     - System.Web.WebPages.Razor
   
-   To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties** .  
+   To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image8.png)
 2. In **Properties**, set the **Copy Local** property value to **True**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image9.png)
