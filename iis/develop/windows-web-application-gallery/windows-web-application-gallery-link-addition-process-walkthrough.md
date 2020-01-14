@@ -60,7 +60,7 @@ To submit your application, you will need to fill out the [submission form](http
         - Language - This is a dropdown list for the primary language that the application supports. If the application supports multiple langagues, please select the one that is the default here.
     - Dependencies - The Dependencies section gives you the opportunity to specify software and environmental prerequisites for your application. When the application is installed via the Web Platform Installer, the WebPI will ensure that the environment has these Dependencies. The WebPI will set up all of the specified dependencies so the application can function properly. The IIS components required to support the language will automatically be determined and installed by the WebPI. The IIS Components list allows you to select IIS extensions that your application depends on which go beyond the requirements for the framework. For example, if you specify PHP 5.2, the WebPI knows to install and configure FastCGI. However, if your application requires the URL Rewriter, you will need to select it in the Web Server Extensions column.  
   
- There are three lists for specifying dependencies:
+  There are three lists for specifying dependencies:
 
         - Framework - Specify one framework from the list of ASP.NET and PHP versions. This should be the version that your application depends on to function.
         - Database - Select all of the databases that your application supports.

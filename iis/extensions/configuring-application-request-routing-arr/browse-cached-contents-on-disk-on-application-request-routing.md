@@ -46,7 +46,7 @@ The ability to view the cached contents on ARR is a UI feature that is implement
     ![](browse-cached-contents-on-disk-on-application-request-routing/_static/image3.jpg)
 5. The contents appear similar to Windows Explorer. However, this view has an advantage over Windows Explorer in that given a host name, the contents may be cached on several drive locations based on CARP. Rather than browsing through the physical cache drive locations, the browse functionality in ARR aggregates the cached contents and provides a consolidated view.  
    
- You can further navigate the cached contents by clicking on the bread crumb or double-clicking the folders.
+   You can further navigate the cached contents by clicking on the bread crumb or double-clicking the folders.
 
     [![](browse-cached-contents-on-disk-on-application-request-routing/_static/image5.jpg)](browse-cached-contents-on-disk-on-application-request-routing/_static/image4.jpg)
 

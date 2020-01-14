@@ -60,14 +60,14 @@ In this first section, you add FTP publishing to the Default Web site, and add t
      ![](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site Publishing** wizard appears:
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." For this walkthrough, enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
+   - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." For this walkthrough, enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
 
-       > [!NOTE]
-       > If you are using IPv6, you should also add the IPv6 localhost binding of "::1".
-    - Normally, you would enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
-    - For this walkthrough, we will not use a host name, so make sure that the **Virtual Host** box is blank.
-    - Make sure that the **SSL Certificate** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
-    - When you have completed these items, click **Next**.
+      > [!NOTE]
+      > If you are using IPv6, you should also add the IPv6 localhost binding of "::1".
+   - Normally, you would enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
+   - For this walkthrough, we will not use a host name, so make sure that the **Virtual Host** box is blank.
+   - Make sure that the **SSL Certificate** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
+   - When you have completed these items, click **Next**.
 
      ![](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image7.jpg)
 4. On the next page of the wizard, you will not configure any authentication or authorization settings because these settings will be configured later. Click **Finish** to complete the wizard.  

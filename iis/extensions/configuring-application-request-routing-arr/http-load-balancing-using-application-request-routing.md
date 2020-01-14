@@ -70,11 +70,11 @@ Provided that the server farm has been created using the steps outlined in **[De
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample2.cmd)]
 
- Then, create the URL rewrite rules to forward HTTPS traffic. More specifically, with this rule, ARR forwards requests using SSL if the incoming requests are HTTPS:  
+   Then, create the URL rewrite rules to forward HTTPS traffic. More specifically, with this rule, ARR forwards requests using SSL if the incoming requests are HTTPS:  
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample3.cmd)]
   
- Finally, create the URL rewrite rules to forward HTTP traffic in clear text to the application servers:  
+   Finally, create the URL rewrite rules to forward HTTP traffic in clear text to the application servers:  
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample4.cmd)]
 5. To verify that the URL rewrite rules have been created correctly with SSL offloading disabled, enter **appcmd.exe list config -section:system.webServer/rewrite/globalRules**. It returns the globalRules that looks like the following:  

@@ -72,13 +72,13 @@ In this first step, we create a new FTP site using a unique virtual host name.
     ![](using-ftp-virtual-host-names-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard:
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
-    - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, you will choose to accept the default port of 21.
-    - Enter `www.example.com` in the Virtual Host box.
-    - Make sure that the **SSL** **Certificate** drop-down is set to "Not Selected" and that either the **No SSL** or **Allow SSL** option is selected.
-    - Click **Next**.  
+   - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
+   - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, you will choose to accept the default port of 21.
+   - Enter `www.example.com` in the Virtual Host box.
+   - Make sure that the **SSL** **Certificate** drop-down is set to "Not Selected" and that either the **No SSL** or **Allow SSL** option is selected.
+   - Click **Next**.  
 
-    ![](using-ftp-virtual-host-names-in-iis-7/_static/image11.jpg)
+     ![](using-ftp-virtual-host-names-in-iis-7/_static/image11.jpg)
 5. On the next page of the wizard:
 
     - In **Authentication** settings, select **Basic**.

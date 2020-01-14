@@ -19,7 +19,11 @@ The `<configPaths>` element contains a collection of `<searchResult>` elements t
 - The **path** attribute of each `<searchResult>` element specifies the absolute virtual path of the configuration file for the search result. - The **locationPath** attribute of each `<searchResult>` element specifies the relative path for the `<location>` tag inside the configuration file that is specified by the **path** attribute.  
   
     > [!NOTE]
-    > If the     `<searchResult>` element points to a .config file, the     **locationPath** attribute for the     `<searchResult>` element will contain an empty string. - The **status** attribute of each `<searchResult>` element contains an HRESULT code for the search result. - Each `<searchResult>` element contains a collection of `<section>` elements that contain the name of each element in the search results.
+    > If the `<searchResult>` element points to a .config file, the **locationPath** attribute for the `<searchResult>` element will contain an empty string. 
+
+- The **status** attribute of each `<searchResult>` element contains an HRESULT code for the search result. 
+
+- Each `<searchResult>` element contains a collection of `<section>` elements that contain the name of each element in the search results.
 
 > [!NOTE]
 > The `<configPaths>` element and its child elements are read-only and cannot be configured by an end user.

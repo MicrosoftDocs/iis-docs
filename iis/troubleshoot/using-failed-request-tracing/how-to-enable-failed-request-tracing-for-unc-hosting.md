@@ -77,13 +77,13 @@ These directions should be repeated on both the UNC server as well as the web se
 2. Right-click on the **Users** folder and select **New User...**.
 3. Fill in the **New User** dialog entries as follows:  
 
-    - User name : **PoolId1**
-    - Password (&amp; Confirm Password) : **!p4ssw0rd**
-    - uncheck "User must change password at next logon"
-    - check "user cannot change password"
-    - Click **Create**, then **Close.**
+   - User name : **PoolId1**
+   - Password (&amp; Confirm Password) : **!p4ssw0rd**
+   - uncheck "User must change password at next logon"
+   - check "user cannot change password"
+   - Click **Create**, then **Close.**
 
-    [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image6.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
+     [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image6.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
 
 Make sure to create the **PoolId1** user on both the front-end IIS Web Server &amp; the back end UNC server. You also need to add the *PoolId1* to the IIS\_IUSRS group on the Front End Web Server. To do so:
 

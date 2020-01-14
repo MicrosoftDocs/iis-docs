@@ -48,7 +48,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
     [![](add/_static/image4.png)](add/_static/image3.png)- Click **OK**.
-- Click **Close**.
+2. Click **Close**.
 
 ### Windows Server 2008 R2
 
@@ -97,11 +97,11 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     [![](add/_static/image12.png)](add/_static/image11.png)
 5. When the **WebDAV Settings** page is displayed, specify the following options in the **Property Behavior** section: 
 
-    - Set **Allow anonymous property queries** to **False**.
-    - Set **Allow custom properties** to **True**.
-    - Set **Allow property queries with infinite depth** to **False**.
+   - Set **Allow anonymous property queries** to **False**.
+   - Set **Allow custom properties** to **True**.
+   - Set **Allow property queries with infinite depth** to **False**.
   
-    [![](add/_static/image14.png)](add/_static/image13.png)
+     [![](add/_static/image14.png)](add/_static/image13.png)
 6. Click the ellipsis (**...**) button to launch the Namespace Collection Editor.   
     [![](add/_static/image16.png)](add/_static/image15.png)
 7. Click **Add** and then choose **webdav\_simple\_prop** from the drop-down list

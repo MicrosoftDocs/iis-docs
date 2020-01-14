@@ -38,9 +38,9 @@ In such cases, it is recommended to use the Microsoft Deployment Solutions Accel
 Assuming that WDS is appropriate for your needs, the general approach to manage a deployment project includes:
 
 1. **Planning:** Decide what the deployment scenario is and how you will accomplish the deployment.  
-- **Preparing:** Prepare the environment, setup the WDS machine and required components, build the Server Role machine to make an image of, run the configuration scripts, and create the image to be used by WDS.  
-- **Testing:** It is strongly recommended to test your image in a lab and run the appropriate tests on the deployed machines to ensure that results are as expected.  
-- **Deploying:** Use WDS to execute the network deployment across the target set of servers.
+2. **Preparing:** Prepare the environment, setup the WDS machine and required components, build the Server Role machine to make an image of, run the configuration scripts, and create the image to be used by WDS.  
+3. **Testing:** It is strongly recommended to test your image in a lab and run the appropriate tests on the deployed machines to ensure that results are as expected.  
+4. **Deploying:** Use WDS to execute the network deployment across the target set of servers.
 
 This section of the Hosting Guidance provides details for each of these project phases. Notice that they are consistent with those found within the MD documentation. If you are working on a large deployment (multiple environments and/or large deployment team), review the [MD guide](https://technet.microsoft.com/en-us/library/bb960434.aspx "Microsoft Deployment Guide")
 

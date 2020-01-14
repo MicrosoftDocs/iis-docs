@@ -70,7 +70,7 @@ static property XNamespace^ Smil {
 ### Property Value
 
 Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
-The XML namespace value "http://www.w3.org/2001/SMIL20".  
+The XML namespace value "<http://www.w3.org/2001/SMIL20>".  
 
 ## See Also
 

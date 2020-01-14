@@ -103,7 +103,7 @@ Follow these steps so that Web Platform Installer will point to the local feed w
 - Look for the application you are testing and Click on Add
 - Click on Install
 
- Web Platform Installer will now install the test application package onto IIS or Web Matrix. 
+  Web Platform Installer will now install the test application package onto IIS or Web Matrix. 
 
 ## Test by creating a custom feed
 
