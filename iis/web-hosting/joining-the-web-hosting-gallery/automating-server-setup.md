@@ -100,7 +100,7 @@ This script needs to run on the first logon into the image. If you do this as th
 1. Start regedit.exe
 2. Navigate to HKCU\Software\Microsoft\Windows\CurrentVersion
 3. Create a key called RunOnce if it doesn't already exist
-4. Right-click the RunOnce key add a new String value. Name the value anything (e.g. – "CertInitScript")
+4. Right-click the RunOnce key add a new String value. Name the value anything (for example – "CertInitScript")
 5. Double click the string value and add the following for its data: `%WinDir%\System32\WindowsPowerShell\v1.0\powershell.exe C:\WebMatrix\00\_Certificate.ps1`
 
 Note: You can easily modify this script to assign an existing certificate (such as a trusted root certificate) to the Web Management Service. This is recommended so WebMatrix users do not see a certificate warning when publishing to your server.

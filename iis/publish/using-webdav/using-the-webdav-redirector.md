@@ -173,21 +173,21 @@ The following list of error conditions is designed to help troubleshoot situatio
 7. When attempting to map a drive to a WebDAV site, you receive the following error:
 
    **System error 1397 has occurred.**
-  
+
    **Mutual Authentication failed. The server's password is out of date at the domain controller.**
 
    This error occurs when the WebDAV client is running into the problems that are described in [KB941298](https://support.microsoft.com/kb/941298).
 8. When attempting to map a drive to a WebDAV site, you receive the following error:
 
    **System error 58 has occurred.**
-  
+
    **The specified server cannot perform the requested operation.**
 
    This error occurs when the WebDAV server does not have the correct host name in its bindings. For example, if you have DNS entries for `contoso.com` and `www.contoso.com`, but you only have an IIS binding for `contoso.com`, you will see the error when you attempt to map a drive to `www.contoso.com`.
 9. When attempting to map a drive to a WebDAV site, you receive the following error:
 
    **System error 224 has occurred.**
-  
+
    **Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.**
 
    This error occurs when the WebDAV site is not trusted by the WebDAV redirector. To resolve this issue, you need to add the website's URL to the list of trsuted sites. To do so, use the following steps:

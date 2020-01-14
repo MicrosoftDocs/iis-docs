@@ -18,36 +18,36 @@ This document provides an offline snapshot of the [Shared Hosting Guidance Conte
 1. [Shared Hosting Guidance](https://go.microsoft.com/fwlink/?LinkID=143142&amp;clcid=0x409): is an overview and the best starting point in the document collection. The live and most up to date version of this material can be found in the [Shared Hosting Guidance Content Map](../getting-started/shared-hosting-content-map.md) web page.
 2. [Developing with Shared Hosting](../using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md): is a video that demonstrates how developers and web hosting customers can use, create, and edit web sites hosted on the Microsoft Web Platform. Developers will be able to learn about the development and publishing environment, and Hosters will learn about the experience that their customers go through when interacting with their services. You will find:
 
-  -Steps a developer should follow to host their applications in a Shared Hosting Environment.
-  -Typical activities performed when interacting with a shared hosting provider.
-  -Publishing Content using FTP from Internet Explorer and Windows Explorer.
-  -Using Visual Web Developer (VWD) to connect to a hoster FTP site and deploy the application.
-  -Installing and configuring IIS Manager for Remote Administration of the web site.
-  -Installing IIS Manager new Modules.
-  -Using IIS Manager Remote Administration.
-  -Modifying and publishing an update for the application.
-  -Deploying the application database (ASP.NET Membership database).
+   -Steps a developer should follow to host their applications in a Shared Hosting Environment.
+   -Typical activities performed when interacting with a shared hosting provider.
+   -Publishing Content using FTP from Internet Explorer and Windows Explorer.
+   -Using Visual Web Developer (VWD) to connect to a hoster FTP site and deploy the application.
+   -Installing and configuring IIS Manager for Remote Administration of the web site.
+   -Installing IIS Manager new Modules.
+   -Using IIS Manager Remote Administration.
+   -Modifying and publishing an update for the application.
+   -Deploying the application database (ASP.NET Membership database).
 3. [Setting up Delegated Administration Server and Client Experience](../using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences.md): is a video that demonstrates the Hoster and User experiences of setting up Delegated Administration. Hosters will learn how to setup Delegated Administration and what their users will need to set it up in their client computers. You will find:
 
-  -Introduction to Delegated Administration (also known as Remote Administration), it explains why it is useful in hosting scenarios.
-  -Configuring Delegated Administration at the server through the Management Service UI module
-  -Creating an IIS Manager User and assigning permissions to it. Explaining the difference between an IIS User and a Windows user account.
-  -Uses an Windows XP client machine to remotely administer the site through delegated administration.
-  -Installing IIS in XP.
-  -Connect to the server/site from the client.
-Installs extensions, explaining the server and client experience.
+   -Introduction to Delegated Administration (also known as Remote Administration), it explains why it is useful in hosting scenarios.
+   -Configuring Delegated Administration at the server through the Management Service UI module
+   -Creating an IIS Manager User and assigning permissions to it. Explaining the difference between an IIS User and a Windows user account.
+   -Uses an Windows XP client machine to remotely administer the site through delegated administration.
+   -Installing IIS in XP.
+   -Connect to the server/site from the client.
+   Installs extensions, explaining the server and client experience.
 4. [Using Delegated Administration](../using-shared-hosting-environments/using-delegated-administration.md) is a video that provides a specific example of delegating a particular feature and how the user can take advantage of it. Hosters will learn how a currently blocked feature can be unblocked and their users can learn how to take advantage of the newly unblocked feature. You will find:
 
-  -A detailed explanation of using an actual configuration feature for administration of the site, error pages.
-  -Shows the client experience when the feature is locked for a site.
-  -The server experience when unlocking a feature for a site.
-  -Shows the client experience of configuring the newly unlocked feature, error page setting for the site.
+   -A detailed explanation of using an actual configuration feature for administration of the site, error pages.
+   -Shows the client experience when the feature is locked for a site.
+   -The server experience when unlocking a feature for a site.
+   -Shows the client experience of configuring the newly unlocked feature, error page setting for the site.
 5. Within the content donwload ([download I](https://go.microsoft.com/fwlink/?LinkId=142353) and [download II](https://go.microsoft.com/fwlink/?LinkID=143140&amp;clcid=0x409)) you will find critical technology areas like **IIS**, **SQL Server 2008**, **Hyper-V**, and **System Center** sections subdivided into 4 major subsections:
 
-  -*Learn*: An in-depth technical drill down on the particular technology.
-  -*Engage*: Explains the value of the technology.
-  -*Deploy*: Instructions and pointers from where to download relevant bits.
-  -*Market*: Collateral that Hosters and their Sales force can use to take an offering to market.
+   -*Learn*: An in-depth technical drill down on the particular technology.
+   -*Engage*: Explains the value of the technology.
+   -*Deploy*: Instructions and pointers from where to download relevant bits.
+   -*Market*: Collateral that Hosters and their Sales force can use to take an offering to market.
 6. Content To Share with End Users:
 
 - [Developing with Shared Hosting](../using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md) video.

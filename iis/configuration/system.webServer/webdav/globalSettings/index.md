@@ -31,7 +31,7 @@ The `<globalSettings>` element is the parent element for global WebDAV configura
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
 
 
@@ -147,9 +147,9 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     ![](index/_static/image15.png)
 5. When the **WebDAV Settings** page is displayed, specify the following options in the **Property Behavior** section: 
 
-    - Set **Allow anonymous property queries** to **False**.
-    - Set **Allow custom properties** to **True**.
-    - Set **Allow property queries with infinite depth** to **False**.
+   - Set **Allow anonymous property queries** to **False**.
+   - Set **Allow custom properties** to **True**.
+   - Set **Allow property queries with infinite depth** to **False**.
   
      ![](index/_static/image17.png)
 6. Click the ellipsis (**...**) button to launch the Namespace Collection Editor.   

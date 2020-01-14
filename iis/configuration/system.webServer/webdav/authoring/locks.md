@@ -28,7 +28,7 @@ The `<locks>` element of the `<authoring>` element defines the locking behavior 
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
 
 

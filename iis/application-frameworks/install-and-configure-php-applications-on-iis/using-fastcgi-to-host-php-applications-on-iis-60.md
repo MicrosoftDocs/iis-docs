@@ -137,9 +137,9 @@ To obtain optimal functionality and performance, configure your server as follow
 
 2. Set the FastCGI configuration settings for the PHP section by running fcgiconfig.js as follows:
 
-    - Set the FastCGI process pool property **InstanceMaxRequests** to **10000**. This setting specifies that the FastCGI extension will recycle php-cgi.exe after it has processed 10000 requests successfully.
+   - Set the FastCGI process pool property **InstanceMaxRequests** to **10000**. This setting specifies that the FastCGI extension will recycle php-cgi.exe after it has processed 10000 requests successfully.
 
-    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample4.cmd)]
+     [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample4.cmd)]
 
 3. Configure the FastCGI extension to set the **PHP\_FCGI\_MAX\_REQUESTS** environment variables for the PHP process to **10000**. This setting instructs php-cgi.exe to recycle itself after it has processed 10000 requests successfully.
 

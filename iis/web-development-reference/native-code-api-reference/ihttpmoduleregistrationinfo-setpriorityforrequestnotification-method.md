@@ -10,8 +10,8 @@ Sets the request-level priority for a module.
   
 ```cpp  
 virtual HRESULT SetPriorityForRequestNotification(  
-   IN DWORD dwRequestNotification,  
-   IN PCWSTR pszPriority  
+   IN DWORD dwRequestNotification,  
+   IN PCWSTR pszPriority  
 ) = 0;  
 ```  
   
@@ -41,15 +41,15 @@ virtual HRESULT SetPriorityForRequestNotification(
 ## Example  
  The following example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
   
--   The [SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method registers a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class for a request-level [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
+- The [SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method registers a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class for a request-level [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
   
--   The `SetPriorityForRequestNotification` method sets the module's priority for request-level notifications.  
+- The `SetPriorityForRequestNotification` method sets the module's priority for request-level notifications.  
   
--   The [SetGlobalNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method registers a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class for a global-level [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification.  
+- The [SetGlobalNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method registers a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class for a global-level [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification.  
   
--   The [SetPriorityForGlobalNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) method sets the module's priority for global-level notification.  
+- The [SetPriorityForGlobalNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) method sets the module's priority for global-level notification.  
   
- The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
+  The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
   
 > [!NOTE]
 > The entries in the Event Viewer will display "IISADMIN" as the event source.  

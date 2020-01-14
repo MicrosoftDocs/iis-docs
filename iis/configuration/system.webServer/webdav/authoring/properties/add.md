@@ -114,15 +114,11 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     ![](add/_static/image11.png)
 5. When the **WebDAV Settings** page is displayed, specify the following options in the **Property Behavior** section: 
 
-    - Set **Allow anonymous property queries** to **False**.
-    - Set **Allow custom properties** to **True**.
-    - Set **Allow property queries with infinite depth** to **False**.
+   - Set **Allow anonymous property queries** to **False**.
+   - Set **Allow custom properties** to **True**.
+   - Set **Allow property queries with infinite depth** to **False**.
   
-<<<<<<< HEAD
-    [![](add/_static/image14.png)](add/_static/image13.png)
-=======
      ![](add/_static/image13.png)
->>>>>>> 845db15c... markdig fixes + remove dupe imgs
 6. Click the ellipsis (**...**) button to launch the Namespace Collection Editor.   
     ![](add/_static/image15.png)
 7. Click **Add** and then choose **webdav\_simple\_prop** from the drop-down list

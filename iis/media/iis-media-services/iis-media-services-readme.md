@@ -306,9 +306,9 @@ If you are installing IIS Media Services for the first time, or if you are upgra
 1. Verify that **ASP.NET** for IIS is installed.
 2. If you used Web PI to install IIS Media Services, download and run the Windows Installer file for your edition of Windows. (See **Install Using Windows Installer** for more information.)  
   
- -or-  
+   -or-  
   
- If you used a Windows Installer file to install IIS Media Services, in **Control Panel** &gt; **Programs** &gt; **Programs and Features**, under **Uninstall or change a program**, click **IIS Media Services**, and then click **Change** .
+   If you used a Windows Installer file to install IIS Media Services, in **Control Panel** &gt; **Programs** &gt; **Programs and Features**, under **Uninstall or change a program**, click **IIS Media Services**, and then click **Change** .
 3. In **IIS Media Services Setup**, on the **Change, repair, or remove installation** page, click **Change**.
 4. In **IIS Media Services Setup**, on the **Custom Setup** page, mark the **Session Helper** feature under **Web Playlists** for installation.
 
@@ -316,7 +316,7 @@ If you are installing IIS Media Services for the first time, or if you are upgra
 
 Applies To: IIS Media Services 4, IIS Media Services 3
 
-When you use XSL Transformation (XSLT) style sheets in Web Playlists to specify alternate output formats in the Web Playlists response to clients, you must specify an output format name. The output format name is attached to the query string in the playlist URL returned to clients. For example, http://*ServerName*/*PlaylistName*.isx?format=*FormatName*, where *FormatName* is any name that you use to identify the output format. The query string is the part of the URL after the question mark (?) character (format=*FormatName*).
+When you use XSL Transformation (XSLT) style sheets in Web Playlists to specify alternate output formats in the Web Playlists response to clients, you must specify an output format name. The output format name is attached to the query string in the playlist URL returned to clients. For example, http://<em>ServerName</em>/*PlaylistName*.isx?format=*FormatName*, where *FormatName* is any name that you use to identify the output format. The query string is the part of the URL after the question mark (?) character (format=*FormatName*).
 
 Web Playlists encodes the URLs returned to clients according to Internet standards described in [RFC 1738: Uniform Resource Locators (URL)](https://go.microsoft.com/?linkid=9735243). Special characters (such as a space, brackets (&lt; and &gt;), ampersand (&amp;), and so on) that you include in the output format name in the query strings returned to clients aren't encoded and some clients might not be able to parse the URL by using escape characters and view the transformed output. To ensure that all clients can view the transformed output, we recommend that you don't use special characters in XSLT output format names. If you want to use a space in your output format name, use the hyphen (-) character instead, as most web browsers recognize the hyphen as a space separator.
 

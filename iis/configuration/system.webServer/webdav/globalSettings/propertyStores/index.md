@@ -31,7 +31,7 @@ The WebDAV module is designed to support multiple property store providers, whic
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
 
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
@@ -116,9 +116,9 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     ![](index/_static/image11.png)
 5. When the **WebDAV Settings** page is displayed, specify the following options in the **Property Behavior** section: 
 
-    - Set **Allow anonymous property queries** to **False**.
-    - Set **Allow custom properties** to **True**.
-    - Set **Allow property queries with infinite depth** to **False**.
+   - Set **Allow anonymous property queries** to **False**.
+   - Set **Allow custom properties** to **True**.
+   - Set **Allow property queries with infinite depth** to **False**.
   
      ![](index/_static/image13.png)
 6. Click the ellipsis (**...**) button to launch the Namespace Collection Editor.   

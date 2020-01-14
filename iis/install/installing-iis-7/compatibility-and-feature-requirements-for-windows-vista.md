@@ -148,7 +148,7 @@ You cannot use the IIS 7.0 and above user interface to create a Certificate Trus
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample4.cmd)]
 
-   where *&lt;Name of CTL&gt;* is the friendly name for the CTL used in MakeCTL.exe.
+   where *\<Name of CTL>* is the friendly name for the CTL used in MakeCTL.exe.
 3. Run adsUtil.vbs to set the SslCtlStoreName.  
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample5.cmd)]
