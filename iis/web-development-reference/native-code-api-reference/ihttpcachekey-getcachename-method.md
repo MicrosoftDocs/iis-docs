@@ -40,7 +40,7 @@ virtual PCWSTR GetCacheName(
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpCacheKey#2](IHttpCacheKey#2)]  -->  
+ [!code-cpp[IHttpCacheKey#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCacheKey/cpp/GetCacheName.cpp#2)]  
   
  The above code writes new events to the Event Viewer, where the Data box contains strings similar to the following.  
   

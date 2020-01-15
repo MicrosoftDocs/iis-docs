@@ -56,8 +56,8 @@ struct HTTP_TRACE_EVENT{
 ## Example  
  The following example populates the `HTTP_TRACE_EVENT` structure and calls the [IHttpTraceContext::RaiseTraceEvent](../../web-development-reference/native-code-api-reference/ihttptracecontext-raisetraceevent-method.md) method.  
   
-<!-- TODO: review snippet reference  [!CODE [_RaiseEvnt#2](_RaiseEvnt#2)]  -->  
-<!-- TODO: review snippet reference [!CODE [_RaiseEvnt#3](_RaiseEvnt#3)]  -->  
+ [!code-cpp[_RaiseEvnt#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_RaiseEvnt/cpp/IHttpResponseWriteEntityChunkByReference.cpp#2)]  
+[!code-cpp[_RaiseEvnt#3](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_RaiseEvnt/cpp/MyTrcEvnt.h#3)]  
   
  If failed-request tracing is properly configured, you will see the `NOTIFY_MODULE_START` and `NOTIFY_MODULE_END` events in the trace log. For more information about logging failed requests, see [Configuring Tracing for Failed Requests in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=99788). The XML below is the `NOTIFY_MODULE_START` portion of the Failed Request Tracing log. Most of the data is system dependent and will not match the event below.  
   

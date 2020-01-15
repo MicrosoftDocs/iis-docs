@@ -40,7 +40,7 @@ HRESULT GetAdminSection(
 ## Example  
  The following code example demonstrates how to use the `GetAdminSection` method to obtain a reference to the `system.webServer/defaultDocument` configuration section in the MACHINE/WEBROOT/APPHOST configuration path.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#5](IAppHostAdminLibrary#5)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#5](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertyGetValue.cpp#5)]  
   
 ## Requirements  
   

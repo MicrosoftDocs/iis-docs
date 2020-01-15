@@ -33,7 +33,7 @@ HRESULT get_Item(
 ## Example  
  The following code example creates a new section group and a new section, and then sets the property values of the newly generated section.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#6](IAppHostAdminLibrary#6)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
   
 ## Requirements  
   

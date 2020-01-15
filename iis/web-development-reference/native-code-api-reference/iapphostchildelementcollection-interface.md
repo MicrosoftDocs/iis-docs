@@ -23,7 +23,7 @@ interface IAppHostChildElementCollection: IUnknown
 ## Example  
  The following code example lists all child elements under the `system.webServer/asp` configuration section for the MACHINE/WEBROOT/APPHOST path.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#1](IAppHostAdminLibrary#1)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
   
 ## Inheritance Hierarchy  
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
