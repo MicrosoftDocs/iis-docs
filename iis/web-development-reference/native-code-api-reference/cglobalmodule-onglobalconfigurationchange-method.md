@@ -30,7 +30,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalConfigurationChange(
 ## Example  
  The following code example demonstrates how to create a global-level HTTP module that uses the [IGlobalConfigurationChangeProvider::GetChangePath](../../web-development-reference/native-code-api-reference/iglobalconfigurationchangeprovider-getchangepath-method.md) method to retrieve the path for a configuration change and add a log entry to the Event Viewer.  
   
-<!-- TODO: review snippet reference  [!CODE [IGlobalConfigurationChangeProviderGetChangePath#1](IGlobalConfigurationChangeProviderGetChangePath#1)]  -->  
+ [!code-cpp[IGlobalConfigurationChangeProviderGetChangePath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalConfigurationChangeProviderGetChangePath/cpp/IGlobalConfigurationChangeProviderGetChangePath.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-global-level-http-module-by-using-native-code.md).  
   

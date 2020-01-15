@@ -56,7 +56,7 @@ virtual IHttpCacheKey* GetCacheKey(
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
-<!-- TODO: review snippet reference  [!CODE [ICacheProvider#2](ICacheProvider#2)]  -->  
+ [!code-cpp[ICacheProvider#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/ICacheProvider/cpp/GetCacheKey.cpp#2)]  
   
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

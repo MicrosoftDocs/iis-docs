@@ -29,7 +29,7 @@ virtual VOID GetChangePath(
   
  For example, when the ApplicationHost.config file is changed by using the [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)] application, an event that contains the configuration path will be written to the Event Viewer.  
   
-<!-- TODO: review snippet reference  [!CODE [IGlobalConfigurationChangeProviderGetChangePath#1](IGlobalConfigurationChangeProviderGetChangePath#1)]  -->  
+ [!code-cpp[IGlobalConfigurationChangeProviderGetChangePath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalConfigurationChangeProviderGetChangePath/cpp/IGlobalConfigurationChangeProviderGetChangePath.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

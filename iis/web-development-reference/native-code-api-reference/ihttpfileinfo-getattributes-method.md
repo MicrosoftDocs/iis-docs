@@ -29,7 +29,7 @@ virtual DWORD GetAttributes(
 ## Example  
  The following code example demonstrates how to use the `IHttpContext::GetFileInfo` method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetAttributes` method to retrieve the attributes for the requested file, and it determines the status of the read-only, hidden, and archive attributes. Finally, the example displays this information to a Web client.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpFileInfoGetAttributes#1](IHttpFileInfoGetAttributes#1)]  -->  
+ [!code-cpp[IHttpFileInfoGetAttributes#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfoGetAttributes/cpp/IHttpFileInfoGetAttributes.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
