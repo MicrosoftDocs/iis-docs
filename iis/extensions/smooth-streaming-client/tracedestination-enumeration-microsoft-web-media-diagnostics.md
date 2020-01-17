@@ -2,7 +2,7 @@
 title: TraceDestination Enumeration (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceDestination Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceDestination
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracedestination(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracedestination(v=VS.90)
 ms:contentKeyID: 23961192
 ms.date: 05/02/2012
 mtps_version: v=VS.90

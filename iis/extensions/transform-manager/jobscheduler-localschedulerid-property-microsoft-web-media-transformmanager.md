@@ -2,7 +2,7 @@
 title: JobScheduler.LocalSchedulerId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalSchedulerId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.LocalSchedulerId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobscheduler.localschedulerid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.localschedulerid(v=VS.90)
 ms:contentKeyID: 35521022
 ms.date: 06/14/2012
 mtps_version: v=VS.90

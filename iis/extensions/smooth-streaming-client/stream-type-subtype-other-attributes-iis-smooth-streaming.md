@@ -2,7 +2,7 @@
 title: Stream Type, Subtype, Other Attributes (IIS Smooth Streaming)
 TOCTitle: Stream Type, Subtype, Other Attributes (IIS Smooth Streaming)
 ms:assetid: eada3fe3-b0a0-4605-8b98-9c772c52e304
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728117(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728117(v=VS.90)
 ms:contentKeyID: 31469137
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Timeline Markers and Events
 TOCTitle: Timeline Markers and Events
 ms:assetid: afe85bdd-ff5f-4e07-b8ca-6471ff1f04b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958034(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958034(v=VS.95)
 ms:contentKeyID: 46359328
 ms.date: 05/31/2012
 mtps_version: v=VS.95

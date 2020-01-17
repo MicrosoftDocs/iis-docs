@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_properties(v=VS.90)
 ms:contentKeyID: 23961226
 ms.date: 05/02/2012
 mtps_version: v=VS.90

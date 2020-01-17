@@ -2,7 +2,7 @@
 title: IMonitoringService Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: IMonitoringService Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.IMonitoringService
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imonitoringservice_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice_methods(v=VS.90)
 ms:contentKeyID: 35521010
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: DatabaseProvider Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseProvider Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.DatabaseProvider
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider_methods(v=VS.90)
 ms:contentKeyID: 20476407
 ms.date: 05/02/2012
 mtps_version: v=VS.90

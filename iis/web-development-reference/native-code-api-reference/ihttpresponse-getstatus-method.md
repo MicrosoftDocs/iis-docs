@@ -44,7 +44,7 @@ virtual VOID GetStatus(
  [OUT] A pointer to a `DWORD` that receives the notification during which the error status was set.  
   
  `ppException`  
- [OUT] A pointer to an [INativeSectionException](https://msdn.microsoft.com/en-us/89e76f37-6196-566b-c07a-f756855d097c) interface that is associated with this status.  
+ [OUT] A pointer to an [INativeSectionException](https://msdn.microsoft.com/89e76f37-6196-566b-c07a-f756855d097c) interface that is associated with this status.  
   
 ## Return Value  
  `VOID`.  

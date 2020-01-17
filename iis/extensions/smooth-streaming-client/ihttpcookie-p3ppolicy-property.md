@@ -2,7 +2,7 @@
 title: IHttpCookie.P3PPolicy Property
 TOCTitle: P3PPolicy Property
 ms:assetid: 7eb4f9b2-f1bf-4bc9-9b58-2fb0f4700454
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822764(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822764(v=VS.90)
 ms:contentKeyID: 50079519
 ms.date: 11/19/2012
 mtps_version: v=VS.90

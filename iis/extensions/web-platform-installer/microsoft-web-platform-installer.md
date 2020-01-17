@@ -2,7 +2,7 @@
 title: Microsoft Web Platform Installer
 TOCTitle: Microsoft Web Platform Installer
 ms:assetid: 911e4cdf-e972-4b68-8962-83f042ea229d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh943101(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh943101(v=VS.90)
 ms:contentKeyID: 46305596
 ms.date: 05/02/2012
 mtps_version: v=VS.90

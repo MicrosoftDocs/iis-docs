@@ -2,7 +2,7 @@
 title: DatabaseProvider.VerifyDependencies Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: VerifyDependencies Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.VerifyDependencies
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider.verifydependencies(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.verifydependencies(v=VS.90)
 ms:contentKeyID: 22049478
 ms.date: 05/02/2012
 mtps_version: v=VS.90

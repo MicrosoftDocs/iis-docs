@@ -2,7 +2,7 @@
 title: HpcScheduler.GetRunningJobs Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetRunningJobs Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetRunningJobs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler.getrunningjobs(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.getrunningjobs(v=VS.90)
 ms:contentKeyID: 35520599
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ColumnDataInfo Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnDataInfo Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.columndatainfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo(v=VS.90)
 ms:contentKeyID: 20476418
 ms.date: 05/02/2012
 mtps_version: v=VS.90

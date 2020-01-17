@@ -13,7 +13,7 @@ by [Benjamin Perkins](https://twitter.com/csharpguitar)
 
 ## Tools and knowledge used in this Troubleshooter
 
-- Microsoft LogParser (<https://www.microsoft.com/en-us/download/details.aspx?id=24659)>)
+- Microsoft LogParser (<https://www.microsoft.com/download/details.aspx?id=24659)>)
 - Command Prompt
 - A basic knowledge of IIS HTTP Status Codes is helpful (<https://support.microsoft.com/kb/943891)>)
 - A basic knowledge of SQL queries is helpful
@@ -247,7 +247,7 @@ LogParser can be used as a starting point, because a system administrator who ha
 
 Here are the links which are referred to in this article, plus a few links with additional information.
 
-- **Microsoft LogParser**: <http://www.bing.com/search?q=logparser> or <https://www.microsoft.com/en-us/download/details.aspx?id=24659>
+- **Microsoft LogParser**: <http://www.bing.com/search?q=logparser> or <https://www.microsoft.com/download/details.aspx?id=24659>
 - [The HTTP status codes in IIS 7.0, IIS 7.5, and IIS 8.0](https://support.microsoft.com/kb/943891)
 - [Modifying IIS 7 log data in Windows 2008](https://blogs.msdn.microsoft.com/benjaminperkins/2012/07/31/modifying-iis-7-log-data-in-windows-2008/)
 - [Modifying IIS 6 log data in Windows 2003](https://blogs.msdn.microsoft.com/benjaminperkins/2012/05/02/modifying-iis-6-log-data-in-windows-2003/)

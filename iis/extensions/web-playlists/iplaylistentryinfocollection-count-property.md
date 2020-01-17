@@ -2,7 +2,7 @@
 title: IPlaylistEntryInfoCollection::Count Property
 TOCTitle: IPlaylistEntryInfoCollection::Count Property
 ms:assetid: 440ff882-0925-48f4-a3fb-bffd7c662d29
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146265(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146265(v=VS.90)
 ms:contentKeyID: 19132336
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Utilities.FindElement Method (XContainer, XNamespace, String, Boolean) (Microsoft.Web.Media.TransformManager)
 TOCTitle: FindElement Method (XContainer, XNamespace, String, Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.FindElement(System.Xml.Linq.XContainer,System.Xml.Linq.XNamespace,System.String,System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.utilities.findelement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.findelement(v=VS.90)
 ms:contentKeyID: 35521076
 ms.date: 06/14/2012
 mtps_version: v=VS.90

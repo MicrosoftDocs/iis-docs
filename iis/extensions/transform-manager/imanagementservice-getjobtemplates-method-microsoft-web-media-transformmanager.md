@@ -2,7 +2,7 @@
 title: IManagementService.GetJobTemplates Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobTemplates Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetJobTemplates
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanagementservice.getjobtemplates(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.getjobtemplates(v=VS.90)
 ms:contentKeyID: 35520935
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -106,7 +106,7 @@ You now have a working web farm. It uses ARR for load balancing. It employs shar
 There are many ways to improve your web farm, here are a few suggestions:
 
 - Allow users who are not administrators to deploy web applications with Web Deploy. For more information, see [Allowing non-admin users to deploy web applications](https://blogs.msdn.com/b/amol/archive/2011/02/09/allowing-non-admin-users-to-deploy-web-applications-on-iis-7-using-web-deploy-2-0.aspx).
-- Use failover clustering to mirror your back-end file servers, eliminate signal points of failure on the back-end, and improve throughput. For more information, see [Failover Clustering](https://technet.microsoft.com/en-us/library/hh831579).
+- Use failover clustering to mirror your back-end file servers, eliminate signal points of failure on the back-end, and improve throughput. For more information, see [Failover Clustering](https://technet.microsoft.com/library/hh831579).
 - You should also to eliminate signal points on failure on the front end. You can use Network Load Balancing (NLB) with multiple ARR servers achieve high availability, scalability, and stability on the front end of your farm. To learn more about using ARR and NLB together, see [Achieving High Availability and Scalability-ARR and NLB](../../extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb.md).
 
 ## See Also

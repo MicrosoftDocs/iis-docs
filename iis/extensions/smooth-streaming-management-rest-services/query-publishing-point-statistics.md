@@ -2,7 +2,7 @@
 title: Query Publishing Point Statistics
 TOCTitle: Query Publishing Point Statistics
 ms:assetid: ea6936a4-c399-4bc7-998f-f088fa3fba81
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547070(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547070(v=VS.90)
 ms:contentKeyID: 37836911
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -24,7 +24,7 @@ by [David So](https://github.com/davidso)
 
 Nano Server is an exciting new installation option in Windows Server 2016.
 
-Here's a quote from the [Get Started with Nano Server Guide](https://technet.microsoft.com/en-us/library/mt126167.aspx) that summarizes Nano Server pretty well :
+Here's a quote from the [Get Started with Nano Server Guide](https://technet.microsoft.com/library/mt126167.aspx) that summarizes Nano Server pretty well :
 
 *&quot;Nano Server is a remotely administered server operating system optimized for private clouds and datacenters. It is similar to Windows Server in Server Core mode, but significantly smaller, has no local logon capability, and only supports 64-bit applications, tools, and agents. It takes up far less disk space, sets up significantly faster, and requires far fewer updates and restarts than Windows Server. When it does restart, it restarts much faster.&quot;*
 
@@ -41,8 +41,8 @@ With the release of Windows Server 2016, we are pleased to announce that IIS is 
 
 ### Getting started
 
-- Start with the '[Getting Started with Nano Server](https://technet.microsoft.com/en-us/library/mt126167.aspx)' steps
-- The IIS Nano documentation can be found at [https://technet.microsoft.com/en-us/library/mt627783.aspx](https://technet.microsoft.com/en-us/library/mt627783.aspx)
+- Start with the '[Getting Started with Nano Server](https://technet.microsoft.com/library/mt126167.aspx)' steps
+- The IIS Nano documentation can be found at [https://technet.microsoft.com/library/mt627783.aspx](https://technet.microsoft.com/library/mt627783.aspx)
 
     - You can also get to it via the tree menu on the left hand side of the 'Getting started with Nano Server'
 - The specifics of how to install IIS on Nano can be found in the link above.
@@ -74,7 +74,7 @@ When using New-NanoServerImage to create a vhd(x) with Microsoft-NanoServer-IIS-
 - IIS Services installed (e.g. WAS, W3SVC)
 - A default set of IIS sub-features enabled, such as Default Document, Static content, HTTP logging etc. 
 
-    - Refer to [chart](https://technet.microsoft.com/en-us/library/mt627783.aspx) for which sub-features are enabled by default.
+    - Refer to [chart](https://technet.microsoft.com/library/mt627783.aspx) for which sub-features are enabled by default.
 - Firewall rule enabled for default 80/443 ports
 
 It becomes extremely fast to provision new web server machines when using the generated vhd(x) image that has IIS already baked-in. On my office desktop machine, I was able to create new VMs, do offline specialization, boot up and be serving web requests all in about 25 seconds. Trying to do the same with Server Core would've taken many times that.
@@ -87,7 +87,7 @@ On regular server, IIS sub-features can be enabled/disabled through DISM command
 
 In the Windows Server 2016 Technical Preview, configuring IIS sub-features through DISM was not available and required more work, (hence the Technical Preview....) This is definitely an area where we're looking at improving.
 
-For now, PowerShell commands can be used to enable/disable the appropriate modules, or you can edit applicationHost.config. See [IIS Nano docs](https://technet.microsoft.com/en-us/library/mt627783.aspx) for more information.
+For now, PowerShell commands can be used to enable/disable the appropriate modules, or you can edit applicationHost.config. See [IIS Nano docs](https://technet.microsoft.com/library/mt627783.aspx) for more information.
 
 The chart there also shows the available IIS sub-features in Nano as of the latest Technical Preview. The ones \* just show what's enabled by default (without the \* are still available, but just need to be enabled).
 

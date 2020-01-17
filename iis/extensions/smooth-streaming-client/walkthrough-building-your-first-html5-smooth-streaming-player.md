@@ -2,7 +2,7 @@
 title: 'Walkthrough: Building Your First HTML5 Smooth Streaming Player'
 TOCTitle: 'Walkthrough: Building Your First HTML5 Smooth Streaming Player'
 ms:assetid: 0aadb8fd-c8d1-419d-9462-c13ae7f927d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ573656(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ573656(v=VS.90)
 ms:contentKeyID: 49080898
 ms.date: 11/19/2012
 mtps_version: v=VS.90

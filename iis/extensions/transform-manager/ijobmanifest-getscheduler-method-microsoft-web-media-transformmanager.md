@@ -2,7 +2,7 @@
 title: IJobManifest.GetScheduler Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetScheduler Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IJobManifest.GetScheduler
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmanifest.getscheduler(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmanifest.getscheduler(v=VS.90)
 ms:contentKeyID: 35520741
 ms.date: 06/14/2012
 mtps_version: v=VS.90

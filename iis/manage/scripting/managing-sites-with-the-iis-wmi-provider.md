@@ -101,7 +101,7 @@ Click **File**, **Save As...** to open the Save dialog. Find the **Save as type:
 
 Click **Start**, click the **Start Search** box, type **cmd.exe**, and then press **Enter**. Type **cd %SystemDrive%\Users\Administrator\Desktop**, then press **Enter**. Type **cscript //h:cscript**, and press **Enter**. This sets the default script host to cscript.exe which sends its output to the command window in which it was started. For more information, read [Running Scripts from Windows](https://msdn.microsoft.com/library/xazzc41b.aspx).
 
-Type **GetSite.vbs**, and press **Enter**. If your script runs without error, it means you have successfully connected to the "WebAdministration" namespace. For more information on the "winmgmts:root\WebAdministration" string, read [Constructing a Moniker String](https://msdn.microsoft.com/library/default.asp?url=/library/en-us/wmisdk/wmi/constructing_a_moniker_string.asp). We will add four more lines to our GetSite.vbs script. These four lines of script will get the Default Web Site and then confirm success by printing two of its properties.
+Type **GetSite.vbs**, and press **Enter**. If your script runs without error, it means you have successfully connected to the "WebAdministration" namespace. For more information on the "winmgmts:root\WebAdministration" string, read [Constructing a Moniker String](https://msdn.microsoft.com/library/default.asp?url=/library/wmisdk/wmi/constructing_a_moniker_string.asp). We will add four more lines to our GetSite.vbs script. These four lines of script will get the Default Web Site and then confirm success by printing two of its properties.
 
 [!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample4.cmd)]
 

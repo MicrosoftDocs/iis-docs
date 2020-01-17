@@ -2,7 +2,7 @@
 title: ClipContext.Data Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Data Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.Data
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.data(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.data(v=VS.95)
 ms:contentKeyID: 46307766
 ms.date: 05/31/2012
 mtps_version: v=VS.95

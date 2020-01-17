@@ -2,7 +2,7 @@
 title: JobManifest.Folder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Folder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Folder
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.folder(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.folder(v=VS.90)
 ms:contentKeyID: 35520589
 ms.date: 06/14/2012
 mtps_version: v=VS.90

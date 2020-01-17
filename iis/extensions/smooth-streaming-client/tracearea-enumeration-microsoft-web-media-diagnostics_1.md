@@ -2,7 +2,7 @@
 title: TraceArea Enumeration (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceArea Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceArea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracearea(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracearea(v=VS.95)
 ms:contentKeyID: 46307923
 ms.date: 05/31/2012
 mtps_version: v=VS.95

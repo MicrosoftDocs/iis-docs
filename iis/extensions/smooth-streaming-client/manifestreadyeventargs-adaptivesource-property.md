@@ -2,7 +2,7 @@
 title: ManifestReadyEventArgs.AdaptiveSource Property
 TOCTitle: AdaptiveSource Property
 ms:assetid: 89d49cea-c72f-478f-b9da-a12a23282080
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822769(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822769(v=VS.90)
 ms:contentKeyID: 50079524
 ms.date: 11/19/2012
 mtps_version: v=VS.90

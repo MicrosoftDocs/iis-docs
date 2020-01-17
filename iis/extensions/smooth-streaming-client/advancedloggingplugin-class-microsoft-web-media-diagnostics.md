@@ -2,7 +2,7 @@
 title: AdvancedLoggingPlugin Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: AdvancedLoggingPlugin Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.advancedloggingplugin(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin(v=VS.90)
 ms:contentKeyID: 31469158
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: JobManager.Template Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Template Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Template
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.template(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.template(v=VS.90)
 ms:contentKeyID: 35520949
 ms.date: 06/14/2012
 mtps_version: v=VS.90

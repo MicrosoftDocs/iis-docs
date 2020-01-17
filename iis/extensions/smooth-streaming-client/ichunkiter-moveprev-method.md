@@ -2,7 +2,7 @@
 title: IChunkIter.MovePrev Method
 TOCTitle: MovePrev Method
 ms:assetid: bdf91f1d-c660-4ff3-9be8-789e5d8302a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822821(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822821(v=VS.90)
 ms:contentKeyID: 50079575
 ms.date: 11/19/2012
 mtps_version: v=VS.90

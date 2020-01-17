@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.Master Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Master Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Master
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.master(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.master(v=VS.95)
 ms:contentKeyID: 46307837
 ms.date: 05/31/2012
 mtps_version: v=VS.95

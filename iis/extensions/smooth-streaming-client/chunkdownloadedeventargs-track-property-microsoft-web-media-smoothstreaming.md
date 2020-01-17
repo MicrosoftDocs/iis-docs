@@ -2,7 +2,7 @@
 title: ChunkDownloadedEventArgs.Track Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Track Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Track
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.track(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.track(v=VS.95)
 ms:contentKeyID: 46307758
 ms.date: 05/31/2012
 mtps_version: v=VS.95

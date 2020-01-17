@@ -2,7 +2,7 @@
 title: StreamInfo.UniqueId Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UniqueId Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.UniqueId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.uniqueid(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.uniqueid(v=VS.95)
 ms:contentKeyID: 46307869
 ms.date: 05/31/2012
 mtps_version: v=VS.95

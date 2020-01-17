@@ -2,7 +2,7 @@
 title: PLAYLIST_ENTRY_PROPERTY_TYPE Enumeration
 TOCTitle: PLAYLIST_ENTRY_PROPERTY_TYPE Enumeration
 ms:assetid: 4a6b9b6c-42f9-4eb5-8dbf-0a7cc7bc1bf6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146267(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146267(v=VS.90)
 ms:contentKeyID: 19132338
 ms.date: 05/02/2012
 mtps_version: v=VS.90

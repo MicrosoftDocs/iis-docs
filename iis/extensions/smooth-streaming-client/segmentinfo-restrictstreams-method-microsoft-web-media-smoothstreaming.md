@@ -2,7 +2,7 @@
 title: SegmentInfo.RestrictStreams Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RestrictStreams Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.RestrictStreams(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.StreamInfo})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.segmentinfo.restrictstreams(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.restrictstreams(v=VS.95)
 ms:contentKeyID: 46307674
 ms.date: 05/31/2012
 mtps_version: v=VS.95

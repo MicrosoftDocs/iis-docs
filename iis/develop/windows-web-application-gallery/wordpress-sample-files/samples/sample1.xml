@@ -45,7 +45,7 @@
 
   Modify access includes Read and Write as well.  For a full breakdown
   on user rights, check out this article on MSDN:
-  http://msdn.microsoft.com/en-us/library/system.security.accesscontrol.filesystemrights.aspx
+  http://msdn.microsoft.com/library/system.security.accesscontrol.filesystemrights.aspx
   -->
 
 </msdeploy.iisapp>

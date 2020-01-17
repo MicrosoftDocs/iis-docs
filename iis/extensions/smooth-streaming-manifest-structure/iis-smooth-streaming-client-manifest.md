@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Client Manifest
 TOCTitle: Client Manifest
 ms:assetid: 11480e08-b719-47a5-8990-0eed738b5f3a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee230809(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee230809(v=VS.90)
 ms:contentKeyID: 22049437
 ms.date: 05/02/2012
 mtps_version: v=VS.90

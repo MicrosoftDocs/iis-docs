@@ -2,7 +2,7 @@
 title: IChunkIter Interface
 TOCTitle: IChunkIter Interface
 ms:assetid: bff052ca-5f58-4f2e-8c99-cdabbed9a130
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822824(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822824(v=VS.90)
 ms:contentKeyID: 50079578
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: SeekCompletedEventArgs.Success Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Success Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs.Success
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs.success(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs.success(v=VS.90)
 ms:contentKeyID: 23961130
 ms.date: 05/02/2012
 mtps_version: v=VS.90

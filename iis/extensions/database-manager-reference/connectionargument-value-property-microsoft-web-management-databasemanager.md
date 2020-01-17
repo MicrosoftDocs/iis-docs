@@ -2,7 +2,7 @@
 title: ConnectionArgument.Value Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.Value
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.connectionargument.value(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.value(v=VS.90)
 ms:contentKeyID: 20476446
 ms.date: 05/02/2012
 mtps_version: v=VS.90

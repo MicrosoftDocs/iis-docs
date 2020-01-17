@@ -2,7 +2,7 @@
 title: SmoothStreamingAsyncResult.Complete Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Complete Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Complete(System.Object,System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.complete(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.complete(v=VS.95)
 ms:contentKeyID: 46307683
 ms.date: 05/31/2012
 mtps_version: v=VS.95

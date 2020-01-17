@@ -2,7 +2,7 @@
 title: IndexColumn.NameIndex Field (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: NameIndex Field
 ms:assetid: F:Microsoft.Web.Management.DatabaseManager.IndexColumn.NameIndex
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.indexcolumn.nameindex(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn.nameindex(v=VS.90)
 ms:contentKeyID: 20476475
 ms.date: 05/02/2012
 mtps_version: v=VS.90

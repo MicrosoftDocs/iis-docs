@@ -2,7 +2,7 @@
 title: AdaptiveSourceClosedEventArgs Class
 TOCTitle: AdaptiveSourceClosedEventArgs Class
 ms:assetid: ea6434b1-3542-419d-a956-6580fc456e71
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822863(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822863(v=VS.90)
 ms:contentKeyID: 50079617
 ms.date: 11/19/2012
 mtps_version: v=VS.90

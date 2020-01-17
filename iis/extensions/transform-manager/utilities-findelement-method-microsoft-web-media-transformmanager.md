@@ -2,7 +2,7 @@
 title: Utilities.FindElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: FindElement Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.Utilities.FindElement
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.utilities.findelement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.findelement(v=VS.90)
 ms:contentKeyID: 35520689
 ms.date: 06/14/2012
 mtps_version: v=VS.90

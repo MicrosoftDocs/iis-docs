@@ -2,7 +2,7 @@
 title: AdaptiveSourceStatusUpdatedEventHandler Delegate
 TOCTitle: AdaptiveSourceStatusUpdatedEventHandler Delegate
 ms:assetid: db96706d-4659-464f-8c04-43cc8f1a7277
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822844(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822844(v=VS.90)
 ms:contentKeyID: 50079598
 ms.date: 11/19/2012
 mtps_version: v=VS.90

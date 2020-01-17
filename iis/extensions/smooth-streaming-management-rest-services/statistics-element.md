@@ -2,7 +2,7 @@
 title: Statistics Element
 TOCTitle: Statistics Element
 ms:assetid: f864df2f-3a35-4571-a312-0a716c092aaf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547075(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547075(v=VS.90)
 ms:contentKeyID: 37836916
 ms.date: 05/02/2012
 mtps_version: v=VS.90

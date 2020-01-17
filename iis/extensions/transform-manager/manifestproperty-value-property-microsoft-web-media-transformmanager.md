@@ -2,7 +2,7 @@
 title: ManifestProperty.Value Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Value
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.value(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.value(v=VS.90)
 ms:contentKeyID: 35521030
 ms.date: 06/14/2012
 mtps_version: v=VS.90

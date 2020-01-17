@@ -2,7 +2,7 @@
 title: TaskDefinition.idElementName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: idElementName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.TaskDefinition.idElementName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.idelementname(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.idelementname(v=VS.90)
 ms:contentKeyID: 35521036
 ms.date: 06/14/2012
 mtps_version: v=VS.90

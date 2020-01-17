@@ -2,7 +2,7 @@
 title: Select and Monitor Bit Rate (IIS Smooth Streaming)
 TOCTitle: Select and Monitor Bit Rate (IIS Smooth Streaming)
 ms:assetid: e2d27108-4d9b-4fca-9f10-a638f7232032
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff182017(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff182017(v=VS.90)
 ms:contentKeyID: 28440968
 ms.date: 05/02/2012
 mtps_version: v=VS.90

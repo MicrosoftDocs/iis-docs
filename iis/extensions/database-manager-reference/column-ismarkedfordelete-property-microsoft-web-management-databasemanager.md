@@ -2,7 +2,7 @@
 title: Column.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.IsMarkedForDelete
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.ismarkedfordelete(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.ismarkedfordelete(v=VS.90)
 ms:contentKeyID: 20476632
 ms.date: 05/02/2012
 mtps_version: v=VS.90

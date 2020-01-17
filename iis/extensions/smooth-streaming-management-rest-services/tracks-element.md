@@ -2,7 +2,7 @@
 title: Tracks Element
 TOCTitle: Tracks Element
 ms:assetid: 2ebe6f9d-d0b5-47f5-878f-cbf98cee4deb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547031(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547031(v=VS.90)
 ms:contentKeyID: 37836872
 ms.date: 05/02/2012
 mtps_version: v=VS.90

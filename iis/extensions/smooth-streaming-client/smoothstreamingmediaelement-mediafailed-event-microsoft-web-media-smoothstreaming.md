@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.MediaFailed Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: MediaFailed Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaFailed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mediafailed(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mediafailed(v=VS.90)
 ms:contentKeyID: 23961163
 ms.date: 05/02/2012
 mtps_version: v=VS.90

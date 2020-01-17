@@ -2,7 +2,7 @@
 title: LocalScheduler.GetRunningJobs Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetRunningJobs Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.GetRunningJobs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler.getrunningjobs(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.getrunningjobs(v=VS.90)
 ms:contentKeyID: 35521130
 ms.date: 06/14/2012
 mtps_version: v=VS.90

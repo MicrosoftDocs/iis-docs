@@ -2,7 +2,7 @@
 title: AdaptiveSourceStatusUpdatedEventArgs Class
 TOCTitle: AdaptiveSourceStatusUpdatedEventArgs Class
 ms:assetid: 4751c700-87ee-470c-85e7-9baca8b7dec9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822725(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822725(v=VS.90)
 ms:contentKeyID: 50079480
 ms.date: 11/19/2012
 mtps_version: v=VS.90

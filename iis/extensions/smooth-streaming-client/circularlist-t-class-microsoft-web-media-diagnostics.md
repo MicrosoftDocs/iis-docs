@@ -2,7 +2,7 @@
 title: CircularList(T) Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CircularList(T) Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.CircularList`1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728278(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728278(v=VS.90)
 ms:contentKeyID: 31469297
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ManifestTrack Class
 TOCTitle: ManifestTrack Class
 ms:assetid: 9782a68b-91c3-4a9c-9a78-b2a73c5351cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822790(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822790(v=VS.90)
 ms:contentKeyID: 50079544
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -120,7 +120,7 @@ The error below is another example of an invalid response from the member server
 Figure 3 *(Click image to expand)*
 
 
-In this example, ARR started to receive data from the client but something went wrong while reading the request entity body. This results in the 0x80072f78 error code being returned. To investigate further, use Network Monitor on the member server to get a network trace of the problem. This particular error example was created by calling Response.Close() in the ASP.net page after sending part of the response and then calling Response.Flush(). If the traffic between the ARR server and the member servers is over SSL, then [WinHTTP](https://technet.microsoft.com/en-us/library/cc731131(WS.10).aspx) tracing on Windows Server 2008 or [WebIO](https://blogs.msdn.com/b/jpsanders/archive/2009/08/24/using-netsh-to-analyze-wininet-problems-in-windows-7.aspx) tracing on Windows Server 2008 R2 may provide additional information. WebIO tracing is described later in this troubleshooter.
+In this example, ARR started to receive data from the client but something went wrong while reading the request entity body. This results in the 0x80072f78 error code being returned. To investigate further, use Network Monitor on the member server to get a network trace of the problem. This particular error example was created by calling Response.Close() in the ASP.net page after sending part of the response and then calling Response.Flush(). If the traffic between the ARR server and the member servers is over SSL, then [WinHTTP](https://technet.microsoft.com/library/cc731131(WS.10).aspx) tracing on Windows Server 2008 or [WebIO](https://blogs.msdn.com/b/jpsanders/archive/2009/08/24/using-netsh-to-analyze-wininet-problems-in-windows-7.aspx) tracing on Windows Server 2008 R2 may provide additional information. WebIO tracing is described later in this troubleshooter.
 
 ### 502.4 No appropriate server could be found to route the request
 
@@ -191,5 +191,5 @@ In this next example, the content server was completely offline:
 - [ERR.EXE](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=985)
 - [Winhttp Error Codes](https://msdn.microsoft.com/library/aa383770(VS.85).aspx)
 - [Failed Request Tracing](https://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis)
-- [Winhttp Tracing](https://technet.microsoft.com/en-us/library/cc731131(WS.10).aspx)
+- [Winhttp Tracing](https://technet.microsoft.com/library/cc731131(WS.10).aspx)
 - [Network Monitor](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=4865)

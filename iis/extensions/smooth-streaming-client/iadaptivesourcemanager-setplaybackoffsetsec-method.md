@@ -2,7 +2,7 @@
 title: IAdaptiveSourceManager.SetPlaybackOffsetSec Method
 TOCTitle: SetPlaybackOffsetSec Method
 ms:assetid: 6327a661-71f0-460d-87a1-da3f36189df4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822749(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822749(v=VS.90)
 ms:contentKeyID: 50079504
 ms.date: 11/19/2012
 mtps_version: v=VS.90

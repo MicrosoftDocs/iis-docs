@@ -2,7 +2,7 @@
 title: Installing a Custom Web Playlist Provider
 TOCTitle: Installing a Custom Web Playlist Provider
 ms:assetid: 4c7c8c01-7e55-41af-ac27-fe1bedc8d344
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146269(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146269(v=VS.90)
 ms:contentKeyID: 19132340
 ms.date: 05/02/2012
 mtps_version: v=VS.90

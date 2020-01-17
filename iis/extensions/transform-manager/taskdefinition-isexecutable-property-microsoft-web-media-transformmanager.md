@@ -2,7 +2,7 @@
 title: TaskDefinition.IsExecutable Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: IsExecutable Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.IsExecutable
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.isexecutable(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.isexecutable(v=VS.90)
 ms:contentKeyID: 35520820
 ms.date: 06/14/2012
 mtps_version: v=VS.90

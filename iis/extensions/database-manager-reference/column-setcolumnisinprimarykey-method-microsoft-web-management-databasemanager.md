@@ -2,7 +2,7 @@
 title: Column.SetColumnIsInPrimaryKey Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: SetColumnIsInPrimaryKey Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Column.SetColumnIsInPrimaryKey(System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.setcolumnisinprimarykey(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.setcolumnisinprimarykey(v=VS.90)
 ms:contentKeyID: 20476458
 ms.date: 05/02/2012
 mtps_version: v=VS.90

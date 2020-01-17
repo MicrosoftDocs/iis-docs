@@ -2,7 +2,7 @@
 title: Service Management Status and Error Codes
 TOCTitle: Service Management Status and Error Codes
 ms:assetid: b6cd719c-0af5-416c-a92d-3953670974d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh204601(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh204601(v=VS.90)
 ms:contentKeyID: 35968610
 ms.date: 05/02/2012
 mtps_version: v=VS.90

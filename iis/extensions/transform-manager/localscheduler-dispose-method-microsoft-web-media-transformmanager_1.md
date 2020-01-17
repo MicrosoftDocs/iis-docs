@@ -2,7 +2,7 @@
 title: LocalScheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.Dispose
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler.dispose(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.dispose(v=VS.90)
 ms:contentKeyID: 35520670
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: DownloaderResponse.Headers Property
 TOCTitle: Headers Property
 ms:assetid: 184557ee-7d91-463a-926a-fbf9de688344
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822687(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822687(v=VS.90)
 ms:contentKeyID: 50079442
 ms.date: 11/19/2012
 mtps_version: v=VS.90

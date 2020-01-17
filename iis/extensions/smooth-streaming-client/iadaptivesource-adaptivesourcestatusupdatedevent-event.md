@@ -2,7 +2,7 @@
 title: IAdaptiveSource.AdaptiveSourceStatusUpdatedEvent Event
 TOCTitle: AdaptiveSourceStatusUpdatedEvent Event
 ms:assetid: d35f9a59-663d-491b-b387-65a287d766f0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822839(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822839(v=VS.90)
 ms:contentKeyID: 50079593
 ms.date: 11/19/2012
 mtps_version: v=VS.90

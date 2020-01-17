@@ -2,7 +2,7 @@
 title: Media Element State Transitions
 TOCTitle: Media Element State Transitions
 ms:assetid: 832d004b-fc61-4e1e-918c-0eff386b8173
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728115(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728115(v=VS.95)
 ms:contentKeyID: 46359326
 ms.date: 05/31/2012
 mtps_version: v=VS.95

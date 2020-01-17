@@ -2,7 +2,7 @@
 title: TrackInfo.Index Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Index Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Index
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.index(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.index(v=VS.95)
 ms:contentKeyID: 46307895
 ms.date: 05/31/2012
 mtps_version: v=VS.95

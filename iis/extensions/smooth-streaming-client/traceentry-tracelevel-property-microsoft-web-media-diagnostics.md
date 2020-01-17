@@ -2,7 +2,7 @@
 title: TraceEntry.TraceLevel Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceLevel Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceLevel
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.tracelevel(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.tracelevel(v=VS.90)
 ms:contentKeyID: 23960969
 ms.date: 05/02/2012
 mtps_version: v=VS.90

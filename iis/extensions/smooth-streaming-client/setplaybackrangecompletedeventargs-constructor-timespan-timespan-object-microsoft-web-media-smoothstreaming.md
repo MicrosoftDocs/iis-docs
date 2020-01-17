@@ -2,7 +2,7 @@
 title: SetPlaybackRangeCompletedEventArgs Constructor (TimeSpan, TimeSpan, Object) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetPlaybackRangeCompletedEventArgs Constructor (TimeSpan, TimeSpan, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.#ctor(System.TimeSpan,System.TimeSpan,System.Object)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.setplaybackrangecompletedeventargs(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.setplaybackrangecompletedeventargs(v=VS.95)
 ms:contentKeyID: 46307681
 ms.date: 05/31/2012
 mtps_version: v=VS.95

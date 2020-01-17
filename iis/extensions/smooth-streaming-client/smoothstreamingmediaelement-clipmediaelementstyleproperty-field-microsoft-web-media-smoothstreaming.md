@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.ClipMediaElementStyleProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipMediaElementStyleProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyleProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipmediaelementstyleproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipmediaelementstyleproperty(v=VS.90)
 ms:contentKeyID: 23961201
 ms.date: 05/02/2012
 mtps_version: v=VS.90

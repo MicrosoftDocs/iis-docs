@@ -2,7 +2,7 @@
 title: ISmoothStreamingCache.EndRetrieve Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndRetrieve Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.EndRetrieve(System.IAsyncResult)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.endretrieve(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.endretrieve(v=VS.95)
 ms:contentKeyID: 46307671
 ms.date: 05/31/2012
 mtps_version: v=VS.95

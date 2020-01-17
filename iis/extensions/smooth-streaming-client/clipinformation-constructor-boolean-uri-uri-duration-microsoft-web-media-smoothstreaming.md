@@ -2,7 +2,7 @@
 title: ClipInformation Constructor (Boolean, Uri, Uri, Duration) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Constructor (Boolean, Uri, Uri, Duration)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor(System.Boolean,System.Uri,System.Uri,System.Windows.Duration)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.clipinformation(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.clipinformation(v=VS.90)
 ms:contentKeyID: 31469238
 ms.date: 05/02/2012
 mtps_version: v=VS.90

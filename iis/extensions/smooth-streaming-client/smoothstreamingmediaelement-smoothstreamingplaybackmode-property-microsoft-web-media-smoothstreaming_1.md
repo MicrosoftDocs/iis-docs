@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.SmoothStreamingPlaybackMode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingPlaybackMode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingPlaybackMode
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingplaybackmode(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingplaybackmode(v=VS.95)
 ms:contentKeyID: 46307851
 ms.date: 05/31/2012
 mtps_version: v=VS.95

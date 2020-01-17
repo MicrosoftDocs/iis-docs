@@ -2,7 +2,7 @@
 title: CircularList(T) Methods (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CircularList(T) Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.Diagnostics.CircularList`1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728198(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728198(v=VS.90)
 ms:contentKeyID: 31469218
 ms.date: 05/02/2012
 mtps_version: v=VS.90

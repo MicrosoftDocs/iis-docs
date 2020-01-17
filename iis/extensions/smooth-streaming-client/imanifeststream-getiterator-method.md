@@ -2,7 +2,7 @@
 title: IManifestStream.GetIterator Method
 TOCTitle: GetIterator Method
 ms:assetid: 6f7a05a1-98ca-4aa4-941d-6c4f835ad830
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822757(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822757(v=VS.90)
 ms:contentKeyID: 50079512
 ms.date: 11/19/2012
 mtps_version: v=VS.90

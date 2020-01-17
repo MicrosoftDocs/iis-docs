@@ -2,7 +2,7 @@
 title: ManifestInfo.ParseManifest Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ParseManifest Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ParseManifest(System.IO.Stream,System.Uri)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.parsemanifest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.parsemanifest(v=VS.90)
 ms:contentKeyID: 31469230
 ms.date: 05/02/2012
 mtps_version: v=VS.90

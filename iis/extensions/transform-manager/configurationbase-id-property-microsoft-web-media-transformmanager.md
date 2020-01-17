@@ -2,7 +2,7 @@
 title: ConfigurationBase.Id Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Id
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.id(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.id(v=VS.90)
 ms:contentKeyID: 35520889
 ms.date: 06/14/2012
 mtps_version: v=VS.90

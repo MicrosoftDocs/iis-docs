@@ -2,7 +2,7 @@
 title: ClipContext.PlaybackDuration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PlaybackDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.PlaybackDuration
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.playbackduration(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.playbackduration(v=VS.90)
 ms:contentKeyID: 31469168
 ms.date: 05/02/2012
 mtps_version: v=VS.90

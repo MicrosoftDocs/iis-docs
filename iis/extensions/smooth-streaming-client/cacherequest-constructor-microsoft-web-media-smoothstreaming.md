@@ -2,7 +2,7 @@
 title: CacheRequest Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest Constructor
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.CacheRequest.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest.cacherequest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.cacherequest(v=VS.90)
 ms:contentKeyID: 31469171
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: JobTemplate.Save Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Save Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobTemplate.Save(System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobtemplate.save(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.save(v=VS.90)
 ms:contentKeyID: 35521072
 ms.date: 06/14/2012
 mtps_version: v=VS.90

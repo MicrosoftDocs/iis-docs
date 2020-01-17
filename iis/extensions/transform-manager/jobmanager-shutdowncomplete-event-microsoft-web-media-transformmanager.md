@@ -2,7 +2,7 @@
 title: JobManager.ShutdownComplete Event (Microsoft.Web.Media.TransformManager)
 TOCTitle: ShutdownComplete Event
 ms:assetid: E:Microsoft.Web.Media.TransformManager.JobManager.ShutdownComplete
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.shutdowncomplete(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.shutdowncomplete(v=VS.90)
 ms:contentKeyID: 36868665
 ms.date: 06/14/2012
 mtps_version: v=VS.90

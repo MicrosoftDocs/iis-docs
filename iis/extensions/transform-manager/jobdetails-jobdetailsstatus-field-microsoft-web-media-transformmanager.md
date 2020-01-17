@@ -2,7 +2,7 @@
 title: JobDetails.JobDetailsStatus Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsStatus Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsStatus
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsstatus(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsstatus(v=VS.90)
 ms:contentKeyID: 35520900
 ms.date: 06/14/2012
 mtps_version: v=VS.90

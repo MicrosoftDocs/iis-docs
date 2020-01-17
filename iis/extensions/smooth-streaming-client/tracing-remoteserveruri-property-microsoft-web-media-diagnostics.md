@@ -2,7 +2,7 @@
 title: Tracing.RemoteServerUri Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: RemoteServerUri Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.Tracing.RemoteServerUri
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.remoteserveruri(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.remoteserveruri(v=VS.90)
 ms:contentKeyID: 31469263
 ms.date: 05/02/2012
 mtps_version: v=VS.90

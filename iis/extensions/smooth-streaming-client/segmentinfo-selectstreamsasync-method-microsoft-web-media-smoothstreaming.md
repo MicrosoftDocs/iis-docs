@@ -2,7 +2,7 @@
 title: SegmentInfo.SelectStreamsAsync Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectStreamsAsync Method
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectStreamsAsync
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.segmentinfo.selectstreamsasync(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.selectstreamsasync(v=VS.90)
 ms:contentKeyID: 31469197
 ms.date: 05/02/2012
 mtps_version: v=VS.90

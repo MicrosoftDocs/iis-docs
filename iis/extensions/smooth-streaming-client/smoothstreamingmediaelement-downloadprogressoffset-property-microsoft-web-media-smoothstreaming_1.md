@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.DownloadProgressOffset Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadProgressOffset Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressOffset
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogressoffset(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogressoffset(v=VS.95)
 ms:contentKeyID: 46307818
 ms.date: 05/31/2012
 mtps_version: v=VS.95

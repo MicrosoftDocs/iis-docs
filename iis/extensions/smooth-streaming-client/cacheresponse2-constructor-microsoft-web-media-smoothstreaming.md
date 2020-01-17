@@ -2,7 +2,7 @@
 title: CacheResponse2 Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse2 Constructor
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse2.cacheresponse2(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2.cacheresponse2(v=VS.95)
 ms:contentKeyID: 46307709
 ms.date: 05/31/2012
 mtps_version: v=VS.95

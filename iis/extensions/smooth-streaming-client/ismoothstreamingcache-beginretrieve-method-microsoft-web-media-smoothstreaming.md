@@ -2,7 +2,7 @@
 title: ISmoothStreamingCache.BeginRetrieve Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BeginRetrieve Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.BeginRetrieve(Microsoft.Web.Media.SmoothStreaming.CacheRequest,System.AsyncCallback,System.Object)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.beginretrieve(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.beginretrieve(v=VS.90)
 ms:contentKeyID: 31469254
 ms.date: 05/02/2012
 mtps_version: v=VS.90

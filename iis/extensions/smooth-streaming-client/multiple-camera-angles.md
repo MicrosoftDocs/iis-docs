@@ -2,7 +2,7 @@
 title: Multiple Camera Angles
 TOCTitle: Multiple Camera Angles
 ms:assetid: 2c2a8b91-a760-426f-853a-5806163170d3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg134026(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg134026(v=VS.95)
 ms:contentKeyID: 46359320
 ms.date: 05/31/2012
 mtps_version: v=VS.95

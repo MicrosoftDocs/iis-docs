@@ -2,7 +2,7 @@
 title: Manifest.SelectedStreams Property
 TOCTitle: SelectedStreams Property
 ms:assetid: 5201803e-d8bf-44e8-b34d-95c86d88f305
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822735(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822735(v=VS.90)
 ms:contentKeyID: 50079490
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -13,7 +13,7 @@ by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 
-The PHP programming language has been an important player in the Web Application space for many years. Even though PHP was not developed by Microsoft, supporting this technology is very important to us and so you can install it on any stand-alone IIS Server, and it's also built-in to our cloud-based [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/en-us/documentation/services/web-sites/) platform. This article explains how to use the Microsoft IIS FastCGI extension to set up and run PHP applications on Windows XP and Windows Server® 2003 operating systems.
+The PHP programming language has been an important player in the Web Application space for many years. Even though PHP was not developed by Microsoft, supporting this technology is very important to us and so you can install it on any stand-alone IIS Server, and it's also built-in to our cloud-based [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/documentation/services/web-sites/) platform. This article explains how to use the Microsoft IIS FastCGI extension to set up and run PHP applications on Windows XP and Windows Server® 2003 operating systems.
 
 ## What is FastCGI?
 

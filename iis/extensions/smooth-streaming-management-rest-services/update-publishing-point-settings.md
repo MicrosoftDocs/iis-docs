@@ -2,7 +2,7 @@
 title: Update Publishing Point Settings
 TOCTitle: Update Publishing Point Settings
 ms:assetid: 9b5fd249-e353-4d94-ac83-08757314881b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh206011(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh206011(v=VS.90)
 ms:contentKeyID: 35990945
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: JobManifest.FindJobElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: FindJobElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.FindJobElement
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.findjobelement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.findjobelement(v=VS.90)
 ms:contentKeyID: 35520636
 ms.date: 06/14/2012
 mtps_version: v=VS.90

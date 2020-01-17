@@ -2,7 +2,7 @@
 title: Scheduler.Initialize Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.Initialize(System.String,Microsoft.Web.Media.TransformManager.Credential,System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.scheduler.initialize(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.initialize(v=VS.90)
 ms:contentKeyID: 35521123
 ms.date: 06/14/2012
 mtps_version: v=VS.90

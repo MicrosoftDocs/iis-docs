@@ -2,7 +2,7 @@
 title: Scheduling Media Clips
 TOCTitle: Scheduling Media Clips
 ms:assetid: d56b53f9-6cff-4145-a447-917e0bd55147
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958036(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958036(v=VS.95)
 ms:contentKeyID: 46359334
 ms.date: 05/31/2012
 mtps_version: v=VS.95
@@ -28,7 +28,7 @@ private void InsertClipCheckbox_Checked(object sender, RoutedEventArgs e)
 {
     clips.Add(new ClipInformation(true,
     new Uri("http://serverName/clip.ism/Manifest"),
-    new Uri("http://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.aspx"),
+    new Uri("http://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.aspx"),
     new TimeSpan(1789250001)));
 }
 ```

@@ -2,7 +2,7 @@
 title: Tracing.PostInterval Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: PostInterval Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.PostInterval
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.postinterval(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.postinterval(v=VS.95)
 ms:contentKeyID: 46307530
 ms.date: 05/31/2012
 mtps_version: v=VS.95

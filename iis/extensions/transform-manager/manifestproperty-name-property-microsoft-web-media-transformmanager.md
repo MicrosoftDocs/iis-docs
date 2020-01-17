@@ -2,7 +2,7 @@
 title: ManifestProperty.Name Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Name
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.name(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.name(v=VS.90)
 ms:contentKeyID: 35520908
 ms.date: 06/14/2012
 mtps_version: v=VS.90

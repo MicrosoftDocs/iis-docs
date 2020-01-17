@@ -2,7 +2,7 @@
 title: JobDetails Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetails Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobDetails
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails_properties(v=VS.90)
 ms:contentKeyID: 35520975
 ms.date: 06/14/2012
 mtps_version: v=VS.90

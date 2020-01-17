@@ -2,7 +2,7 @@
 title: ManifestPropertiesDictionary.Prefix Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Prefix Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Prefix
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.prefix(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.prefix(v=VS.90)
 ms:contentKeyID: 35520821
 ms.date: 06/14/2012
 mtps_version: v=VS.90

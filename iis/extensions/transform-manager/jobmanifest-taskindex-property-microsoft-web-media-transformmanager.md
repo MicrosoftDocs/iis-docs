@@ -2,7 +2,7 @@
 title: JobManifest.TaskIndex Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskIndex Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.TaskIndex
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.taskindex(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.taskindex(v=VS.90)
 ms:contentKeyID: 35521060
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: TraceEntry.MethodName Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: MethodName Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.MethodName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.methodname(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.methodname(v=VS.90)
 ms:contentKeyID: 23960955
 ms.date: 05/02/2012
 mtps_version: v=VS.90

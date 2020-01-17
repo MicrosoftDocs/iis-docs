@@ -2,7 +2,7 @@
 title: Silverlight Applications
 TOCTitle: Silverlight Applications
 ms:assetid: 70f30e39-c466-48cc-a81a-356690730bac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958032(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958032(v=VS.95)
 ms:contentKeyID: 46359325
 ms.date: 05/31/2012
 mtps_version: v=VS.95

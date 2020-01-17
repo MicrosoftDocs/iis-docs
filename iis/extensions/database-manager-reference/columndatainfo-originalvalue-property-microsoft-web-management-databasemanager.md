@@ -2,7 +2,7 @@
 title: ColumnDataInfo.OriginalValue Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: OriginalValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.OriginalValue
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.columndatainfo.originalvalue(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.originalvalue(v=VS.90)
 ms:contentKeyID: 20476421
 ms.date: 05/02/2012
 mtps_version: v=VS.90

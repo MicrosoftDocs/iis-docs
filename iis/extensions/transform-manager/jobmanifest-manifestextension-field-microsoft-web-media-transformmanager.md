@@ -2,7 +2,7 @@
 title: JobManifest.ManifestExtension Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestExtension Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobManifest.ManifestExtension
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.manifestextension(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.manifestextension(v=VS.90)
 ms:contentKeyID: 35520766
 ms.date: 06/14/2012
 mtps_version: v=VS.90

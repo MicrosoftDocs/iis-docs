@@ -2,7 +2,7 @@
 title: JobDefinition.SchedulerNodeGroups Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerNodeGroups Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroups
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulernodegroups(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulernodegroups(v=VS.90)
 ms:contentKeyID: 35520737
 ms.date: 06/14/2012
 mtps_version: v=VS.90

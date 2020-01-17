@@ -24,7 +24,7 @@ virtual HRESULT __stdcall StartApplication(
  A string that contains the virtual path to the application.  
   
  `ppRuntimeObject`  
- A pointer to the address of an [IPphManager](https://msdn.microsoft.com/en-us/efe1bc47-3c38-aaf6-51a3-c5c30d4a055c) interface.  
+ A pointer to the address of an [IPphManager](https://msdn.microsoft.com/efe1bc47-3c38-aaf6-51a3-c5c30d4a055c) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  

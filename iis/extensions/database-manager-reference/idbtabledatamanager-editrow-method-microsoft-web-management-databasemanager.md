@@ -2,7 +2,7 @@
 title: IDbTableDataManager.EditRow Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: EditRow Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.EditRow(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Web.Management.DatabaseManager.ColumnDataInfo})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbtabledatamanager.editrow(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager.editrow(v=VS.90)
 ms:contentKeyID: 20476406
 ms.date: 05/02/2012
 mtps_version: v=VS.90

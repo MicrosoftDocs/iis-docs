@@ -2,7 +2,7 @@
 title: PlaybackMode Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PlaybackMode Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.PlaybackMode
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.playbackmode(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.playbackmode(v=VS.90)
 ms:contentKeyID: 31469294
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Getting Started with the IIS Web Playlists SDK
 TOCTitle: Getting Started
 ms:assetid: 69459dc9-4f54-46db-ae7d-83a42be8b627
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146274(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146274(v=VS.90)
 ms:contentKeyID: 19132345
 ms.date: 05/02/2012
 mtps_version: v=VS.90

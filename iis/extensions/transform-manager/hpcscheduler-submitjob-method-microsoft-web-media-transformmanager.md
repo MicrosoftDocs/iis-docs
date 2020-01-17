@@ -2,7 +2,7 @@
 title: HpcScheduler.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.SubmitJob(Microsoft.Web.Media.TransformManager.JobManifest)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler.submitjob(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.submitjob(v=VS.90)
 ms:contentKeyID: 35520983
 ms.date: 06/14/2012
 mtps_version: v=VS.90

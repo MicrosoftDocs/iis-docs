@@ -51,7 +51,7 @@ You will fist need to install these prerequisites:
 
 - Microsoft SQL Server 2012 Transact-SQL ScriptDom (SQLDOM.msi)
 
-They all can be found here: <https://www.microsoft.com/en-us/download/details.aspx?id=29065>
+They all can be found here: <https://www.microsoft.com/download/details.aspx?id=29065>
 
 ### WMSvc Delegation Rule
 

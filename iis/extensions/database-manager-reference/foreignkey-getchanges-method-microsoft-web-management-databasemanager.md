@@ -2,7 +2,7 @@
 title: ForeignKey.GetChanges Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetChanges Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.ForeignKey.GetChanges(Microsoft.Web.Management.DatabaseManager.ForeignKeyChanges)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.foreignkey.getchanges(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.getchanges(v=VS.90)
 ms:contentKeyID: 20476799
 ms.date: 05/02/2012
 mtps_version: v=VS.90

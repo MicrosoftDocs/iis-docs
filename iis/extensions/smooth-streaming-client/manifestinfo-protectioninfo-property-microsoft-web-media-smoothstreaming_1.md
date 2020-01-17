@@ -2,7 +2,7 @@
 title: ManifestInfo.ProtectionInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.protectioninfo(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.protectioninfo(v=VS.95)
 ms:contentKeyID: 46307777
 ms.date: 05/31/2012
 mtps_version: v=VS.95

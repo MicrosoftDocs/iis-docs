@@ -2,7 +2,7 @@
 title: Modules Element
 TOCTitle: Modules Element
 ms:assetid: 8716d579-56d4-4cfc-9e2d-544cdfa314e8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547049(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547049(v=VS.90)
 ms:contentKeyID: 37836890
 ms.date: 05/02/2012
 mtps_version: v=VS.90

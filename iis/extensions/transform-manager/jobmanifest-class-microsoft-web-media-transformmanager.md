@@ -2,7 +2,7 @@
 title: JobManifest Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManifest Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobManifest
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest(v=VS.90)
 ms:contentKeyID: 35521078
 ms.date: 06/14/2012
 mtps_version: v=VS.90

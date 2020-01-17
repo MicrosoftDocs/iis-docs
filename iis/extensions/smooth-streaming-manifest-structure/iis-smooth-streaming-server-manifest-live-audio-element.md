@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Server Manifest (Live) - audio Element
 TOCTitle: <audio>
 ms:assetid: 1fd6433b-5115-4716-88f2-773a98051021
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee673430(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee673430(v=VS.90)
 ms:contentKeyID: 26179473
 ms.date: 05/02/2012
 mtps_version: v=VS.90

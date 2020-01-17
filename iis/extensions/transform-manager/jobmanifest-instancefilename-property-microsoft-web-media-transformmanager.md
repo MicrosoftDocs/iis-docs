@@ -2,7 +2,7 @@
 title: JobManifest.InstanceFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InstanceFileName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.instancefilename(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.instancefilename(v=VS.90)
 ms:contentKeyID: 35520982
 ms.date: 06/14/2012
 mtps_version: v=VS.90

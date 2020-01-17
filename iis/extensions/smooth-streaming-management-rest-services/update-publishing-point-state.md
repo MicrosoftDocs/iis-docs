@@ -2,7 +2,7 @@
 title: Update Publishing Point State
 TOCTitle: Update Publishing Point State
 ms:assetid: eacf7023-807d-461a-82e0-f4b3bde8def6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh206014(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh206014(v=VS.90)
 ms:contentKeyID: 35990948
 ms.date: 05/02/2012
 mtps_version: v=VS.90

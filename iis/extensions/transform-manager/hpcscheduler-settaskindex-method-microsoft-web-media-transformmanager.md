@@ -2,7 +2,7 @@
 title: HpcScheduler.SetTaskIndex Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskIndex Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.SetTaskIndex(System.String,System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler.settaskindex(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.settaskindex(v=VS.90)
 ms:contentKeyID: 35520809
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Writing a Managed Web Playlist Provider
 TOCTitle: Writing a Managed Web Playlist Provider
 ms:assetid: 03598018-92ff-46d2-ab15-e90a21cd0af5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146254(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146254(v=VS.90)
 ms:contentKeyID: 19132325
 ms.date: 05/02/2012
 mtps_version: v=VS.90

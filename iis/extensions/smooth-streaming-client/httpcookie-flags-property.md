@@ -2,7 +2,7 @@
 title: HttpCookie.Flags Property
 TOCTitle: Flags Property
 ms:assetid: 379945b4-79f8-46a0-8931-020a6be57e2c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822716(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822716(v=VS.90)
 ms:contentKeyID: 50079471
 ms.date: 11/19/2012
 mtps_version: v=VS.90

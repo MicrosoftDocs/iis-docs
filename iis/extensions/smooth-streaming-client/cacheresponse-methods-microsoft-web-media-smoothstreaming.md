@@ -2,7 +2,7 @@
 title: CacheResponse Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.CacheResponse
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse_methods(v=VS.90)
 ms:contentKeyID: 31469207
 ms.date: 05/02/2012
 mtps_version: v=VS.90

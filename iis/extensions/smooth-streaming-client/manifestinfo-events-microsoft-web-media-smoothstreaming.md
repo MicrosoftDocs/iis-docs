@@ -2,7 +2,7 @@
 title: ManifestInfo Events (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestInfo Events
 ms:assetid: Events.T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo_events(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo_events(v=VS.90)
 ms:contentKeyID: 31469268
 ms.date: 05/02/2012
 mtps_version: v=VS.90

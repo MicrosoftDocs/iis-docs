@@ -2,7 +2,7 @@
 title: IisNamespaces.SharedData Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SharedData Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.SharedData
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.shareddata(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.shareddata(v=VS.90)
 ms:contentKeyID: 35520561
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ConfigurationMessage.ObjectType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ObjectType Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.ObjectType
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.objecttype(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.objecttype(v=VS.90)
 ms:contentKeyID: 35520825
 ms.date: 06/14/2012
 mtps_version: v=VS.90

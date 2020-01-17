@@ -2,7 +2,7 @@
 title: ClipInformation Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ClipInformation
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation_methods(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation_methods(v=VS.95)
 ms:contentKeyID: 46307585
 ms.date: 05/31/2012
 mtps_version: v=VS.95

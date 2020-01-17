@@ -2,7 +2,7 @@
 title: IPlaylistRequestInfo::GetFileInfo Method
 TOCTitle: IPlaylistRequestInfo::GetFileInfo Method
 ms:assetid: 4ea9459e-0727-454b-9287-06e087b47622
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146270(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146270(v=VS.90)
 ms:contentKeyID: 19132341
 ms.date: 05/02/2012
 mtps_version: v=VS.90

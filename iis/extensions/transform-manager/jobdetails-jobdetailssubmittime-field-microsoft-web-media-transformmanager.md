@@ -2,7 +2,7 @@
 title: JobDetails.JobDetailsSubmitTime Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsSubmitTime Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsSubmitTime
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdetailssubmittime(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailssubmittime(v=VS.90)
 ms:contentKeyID: 35520818
 ms.date: 06/14/2012
 mtps_version: v=VS.90

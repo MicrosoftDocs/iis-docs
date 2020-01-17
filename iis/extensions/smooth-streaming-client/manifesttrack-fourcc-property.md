@@ -2,7 +2,7 @@
 title: ManifestTrack.FourCC Property
 TOCTitle: FourCC Property
 ms:assetid: d3edd4de-df00-4f98-b371-d2f8b9c4ff48
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822840(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822840(v=VS.90)
 ms:contentKeyID: 50079594
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: View Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: View Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.View
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.view_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view_methods(v=VS.90)
 ms:contentKeyID: 20476813
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IndexChanges Enumeration (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IndexChanges Enumeration
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IndexChanges
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.indexchanges(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexchanges(v=VS.90)
 ms:contentKeyID: 20476604
 ms.date: 05/02/2012
 mtps_version: v=VS.90

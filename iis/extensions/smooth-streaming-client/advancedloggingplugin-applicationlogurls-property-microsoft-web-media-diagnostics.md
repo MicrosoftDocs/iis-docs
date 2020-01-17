@@ -2,7 +2,7 @@
 title: AdvancedLoggingPlugin.ApplicationLogUrls Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ApplicationLogUrls Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ApplicationLogUrls
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.advancedloggingplugin.applicationlogurls(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.applicationlogurls(v=VS.90)
 ms:contentKeyID: 31469187
 ms.date: 05/02/2012
 mtps_version: v=VS.90

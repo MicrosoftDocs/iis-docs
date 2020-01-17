@@ -2,7 +2,7 @@
 title: SmoothSchemeHandler Class
 TOCTitle: SmoothSchemeHandler Class
 ms:assetid: b57be6d7-a509-4a89-98c3-32f94912c2d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822814(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822814(v=VS.90)
 ms:contentKeyID: 50079568
 ms.date: 11/19/2012
 mtps_version: v=VS.90

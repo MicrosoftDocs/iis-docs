@@ -2,7 +2,7 @@
 title: JobDefinition Constructor (FileInfo, XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Constructor (FileInfo, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.jobdefinition(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.jobdefinition(v=VS.90)
 ms:contentKeyID: 35520668
 ms.date: 06/14/2012
 mtps_version: v=VS.90

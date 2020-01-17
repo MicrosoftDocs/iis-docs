@@ -2,7 +2,7 @@
 title: CircularList(T).FindLastIndex Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: FindLastIndex Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.FindLastIndex
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728255(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728255(v=VS.90)
 ms:contentKeyID: 31469274
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Utilities.GetAssemblyInfo Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetAssemblyInfo Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.GetAssemblyInfo(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.utilities.getassemblyinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.getassemblyinfo(v=VS.90)
 ms:contentKeyID: 35520777
 ms.date: 06/14/2012
 mtps_version: v=VS.90

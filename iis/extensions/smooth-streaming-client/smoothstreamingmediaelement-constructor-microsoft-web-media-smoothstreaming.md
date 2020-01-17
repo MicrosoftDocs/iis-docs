@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement Constructor
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingmediaelement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingmediaelement(v=VS.90)
 ms:contentKeyID: 23961149
 ms.date: 05/02/2012
 mtps_version: v=VS.90

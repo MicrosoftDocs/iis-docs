@@ -2,7 +2,7 @@
 title: ChunkInfo Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ChunkInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkinfo_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo_properties(v=VS.90)
 ms:contentKeyID: 31469278
 ms.date: 05/02/2012
 mtps_version: v=VS.90

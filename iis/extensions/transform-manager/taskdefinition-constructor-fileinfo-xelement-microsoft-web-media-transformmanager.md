@@ -2,7 +2,7 @@
 title: TaskDefinition Constructor (FileInfo, XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinition Constructor (FileInfo, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskDefinition.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinition(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinition(v=VS.90)
 ms:contentKeyID: 35520583
 ms.date: 06/14/2012
 mtps_version: v=VS.90

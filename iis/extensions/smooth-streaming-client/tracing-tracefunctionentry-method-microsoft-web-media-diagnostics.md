@@ -2,7 +2,7 @@
 title: Tracing.TraceFunctionEntry Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceFunctionEntry Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.tracefunctionentry(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionentry(v=VS.90)
 ms:contentKeyID: 23961190
 ms.date: 05/02/2012
 mtps_version: v=VS.90

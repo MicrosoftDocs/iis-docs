@@ -198,5 +198,5 @@ To access this help, press F1 while using the Web Playlists feature in IIS Manag
 
 ## Related Articles
 
-- [Desktop Experience Overview](https://technet.microsoft.com/en-us/library/cc772567.aspx)
-- [Use Windows Media Player to create the perfect playlist for every occasion](https://windowshelp.microsoft.com/Windows/en-US/Help/5276da52-d480-4c59-a0a0-08f9c80a30321033.mspx)
+- [Desktop Experience Overview](https://technet.microsoft.com/library/cc772567.aspx)
+- [Use Windows Media Player to create the perfect playlist for every occasion](https://windowshelp.microsoft.com/Windows/Help/5276da52-d480-4c59-a0a0-08f9c80a30321033.mspx)

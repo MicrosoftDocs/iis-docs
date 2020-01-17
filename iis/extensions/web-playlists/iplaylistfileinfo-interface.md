@@ -2,7 +2,7 @@
 title: IPlaylistFileInfo Interface
 TOCTitle: IPlaylistFileInfo Interface
 ms:assetid: 7f19692b-8360-4493-84c0-63754d7982ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146277(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146277(v=VS.90)
 ms:contentKeyID: 19132348
 ms.date: 05/02/2012
 mtps_version: v=VS.90

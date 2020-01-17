@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Client 1.5
 TOCTitle: IIS Smooth Streaming Client 1.5
 ms:assetid: cee83024-5235-417c-b28f-952bb15e4342
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958035(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958035(v=VS.90)
 ms:contentKeyID: 28407137
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IisNamespaces.MediaServices Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MediaServices Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.MediaServices
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.mediaservices(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.mediaservices(v=VS.90)
 ms:contentKeyID: 35520700
 ms.date: 06/14/2012
 mtps_version: v=VS.90

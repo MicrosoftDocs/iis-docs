@@ -2,7 +2,7 @@
 title: TypeInfo.Editable Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Editable Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.Editable
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.editable(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.editable(v=VS.90)
 ms:contentKeyID: 22049475
 ms.date: 05/02/2012
 mtps_version: v=VS.90

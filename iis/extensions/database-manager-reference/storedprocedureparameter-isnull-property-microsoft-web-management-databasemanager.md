@@ -2,7 +2,7 @@
 title: StoredProcedureParameter.IsNull Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNull Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsNull
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter.isnull(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.isnull(v=VS.90)
 ms:contentKeyID: 20476670
 ms.date: 05/02/2012
 mtps_version: v=VS.90

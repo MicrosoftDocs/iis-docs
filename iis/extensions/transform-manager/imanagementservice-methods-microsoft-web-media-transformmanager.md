@@ -2,7 +2,7 @@
 title: IManagementService Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: IManagementService Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.IManagementService
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanagementservice_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice_methods(v=VS.90)
 ms:contentKeyID: 35521098
 ms.date: 06/14/2012
 mtps_version: v=VS.90
