@@ -48,7 +48,7 @@ For detailed steps on analyzing the output of getDependencies, see [Viewing Depe
     - Windows Authentication
     - Anonymous Authentication
 
- Based on this analysis of your dependencies, you would install the corresponding components on the destination server before performing the synchronization.
+   Based on this analysis of your dependencies, you would install the corresponding components on the destination server before performing the synchronization.
 
 ### Part 3 – Synchronize your site to the target
 

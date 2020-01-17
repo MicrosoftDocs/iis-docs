@@ -70,7 +70,7 @@ static property XNamespace^ Xmlns {
 ### Property Value
 
 Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
-The XML namespace value "http://www.w3.org/2000/xmlns/".  
+The XML namespace value "<http://www.w3.org/2000/xmlns/>".  
 
 ## See Also
 

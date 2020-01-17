@@ -10,9 +10,9 @@ Registers the request-level notifications for a module.
   
 ```cpp  
 virtual HRESULT SetRequestNotifications(  
-   IN IHttpModuleFactory* pModuleFactory,  
-   IN DWORD dwRequestNotifications,  
-   IN DWORD dwPostRequestNotifications  
+   IN IHttpModuleFactory* pModuleFactory,  
+   IN DWORD dwRequestNotifications,  
+   IN DWORD dwPostRequestNotifications  
 ) = 0;  
 ```  
   
@@ -50,20 +50,20 @@ virtual HRESULT SetRequestNotifications(
 ## Example  
  The following example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
   
--   The `SetRequestNotifications` method registers a `CHttpModule` class for a request-level [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
+- The `SetRequestNotifications` method registers a `CHttpModule` class for a request-level [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
   
--   The [SetPriorityForRequestNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md) method sets the module's priority for request-level notifications.  
+- The [SetPriorityForRequestNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md) method sets the module's priority for request-level notifications.  
   
--   The [SetGlobalNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method registers a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class for a global-level [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification.  
+- The [SetGlobalNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method registers a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class for a global-level [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification.  
   
--   The [SetPriorityForGlobalNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) method sets the module's priority for global-level notification.  
+- The [SetPriorityForGlobalNotification](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) method sets the module's priority for global-level notification.  
   
- The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
+  The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
   
 > [!NOTE]
 > The entries in the Event Viewer will display "IISADMIN" as the event source.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpModuleRegistrationInfoSetRequestNotifications#1](IHttpModuleRegistrationInfoSetRequestNotifications#1)]  -->  
+ [!code-cpp[IHttpModuleRegistrationInfoSetRequestNotifications#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpModuleRegistrationInfoSetRequestNotifications/cpp/IHttpModuleRegistrationInfoSetRequestNotifications.cpp#1)]  
   
  Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

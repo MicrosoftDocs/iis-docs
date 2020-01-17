@@ -35,7 +35,7 @@ You can define the categories of information that IIS logs by editing the **logE
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 
@@ -104,9 +104,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
 ## How To
@@ -132,22 +132,22 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, click the server name where you want to configure logging.
 3. In the **Home** pane, double-click **FTP Logging**.  
     [![](logFile/_static/image10.png)](logFile/_static/image9.png) - In the **Log File Rollover** section, click **Select W3C Fields...**
-- Select the fields for your log files, then click **OK**.  
-    [![](logFile/_static/image12.png)](logFile/_static/image11.png)
-- Under **Directory**, specify the path where the log file should be stored. The default is *%SystemDrive%*\inetpub\logs\LogFiles.
-- In the **Log File Rollover** section, specify the following options: 
+4. Select the fields for your log files, then click **OK**.  
+     [![](logFile/_static/image12.png)](logFile/_static/image11.png)
+5. Under **Directory**, specify the path where the log file should be stored. The default is *%SystemDrive%*\inetpub\logs\LogFiles.
+6. In the **Log File Rollover** section, specify the following options: 
 
-    - **Schedule**: to create new log file that are based on one of the following values: 
+     - **Schedule**: to create new log file that are based on one of the following values: 
 
-        - **Hourly**: a new log file is created each hour.
-        - **Daily**: a new log file is created each day.
-        - **Weekly**: a new log file is created each week.
-        - **Monthly**: a new log file is created each month.
-    - **Maximum file size (in bytes)**: to create a new log file when the file reaches a certain size (in bytes). The minimum file size is 1048576 bytes. If this attribute is set to a value less than 1048576 bytes, the default value is implicitly assumed as 1048576 bytes.
-    - **Do not create a new log file**: there is a single log file that will continue to grow as information is logged.
-    - Select **Use local time for file naming and rollover** to specify that log file naming and time for log file rollover uses the local server time. When this is not selected, Coordinated Universal Time (UTC) is used.  
-        [![](logFile/_static/image14.png)](logFile/_static/image13.png)
-- Click **Apply** in the **Actions** pane.
+         - **Hourly**: a new log file is created each hour.
+         - **Daily**: a new log file is created each day.
+         - **Weekly**: a new log file is created each week.
+         - **Monthly**: a new log file is created each month.
+     - **Maximum file size (in bytes)**: to create a new log file when the file reaches a certain size (in bytes). The minimum file size is 1048576 bytes. If this attribute is set to a value less than 1048576 bytes, the default value is implicitly assumed as 1048576 bytes.
+     - **Do not create a new log file**: there is a single log file that will continue to grow as information is logged.
+     - Select **Use local time for file naming and rollover** to specify that log file naming and time for log file rollover uses the local server time. When this is not selected, Coordinated Universal Time (UTC) is used.  
+         [![](logFile/_static/image14.png)](logFile/_static/image13.png)
+7. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
 ## Configuration

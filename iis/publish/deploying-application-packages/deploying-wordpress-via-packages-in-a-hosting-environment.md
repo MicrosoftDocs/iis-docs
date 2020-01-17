@@ -112,35 +112,35 @@ D. Export the Package from the IIS Application Web Site
 #### B. Install the Application to the IIS Application Web Site
 
 1. Open Web Platform Installer (Web PI) locally from the web server.  
- The Web Platform Installer application opens.  
+   The Web Platform Installer application opens.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image6.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image5.jpg)
 2. Select **WordPress**, and click **Install**.  
   
- The Web Platform Installation window appears.  
+   The Web Platform Installation window appears.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image8.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image7.jpg)
 3. Click **I Accept** to accept the end-user license agreement.   
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image10.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image9.jpg)
 4. From the Web Site drop-down list, select the Web site you created earlier in this procedure.
 5. In the application name field, enter an application name if it is different from the default value.  
- The remaining fields are populated automatically based on your Web site information.
+   The remaining fields are populated automatically based on your Web site information.
 6. Click **Continue**.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image12.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image11.jpg)
 7. From the Create a new or use an existing database drop-down list, select **Create new database**.
 8. Enter the following information in the appropriate fields to create a new database:  
 
-    - Database administrator user name and password—User name and password to allow administrative access to this database.
-    - Database user name and password—User name and password to allow general access to this database.
-    - Database server—Name of the server on which this database resides.
-    - Database name—Name of this database.
-    - Database prefix—Prefix added to database table names used to identify this database.
-    - Load sample data—Indicate whether you want to load sample data into this database.
-    - Web site name—Name of your Web site.
-    - Site administrator—User name for the Web site specified in the Website Name field.
-    - Site administrator password—Password for the Web site administrator.
-    - Site administrator email address—Email address for the Web site administrator.
+   - Database administrator user name and password—User name and password to allow administrative access to this database.
+   - Database user name and password—User name and password to allow general access to this database.
+   - Database server—Name of the server on which this database resides.
+   - Database name—Name of this database.
+   - Database prefix—Prefix added to database table names used to identify this database.
+   - Load sample data—Indicate whether you want to load sample data into this database.
+   - Web site name—Name of your Web site.
+   - Site administrator—User name for the Web site specified in the Website Name field.
+   - Site administrator password—Password for the Web site administrator.
+   - Site administrator email address—Email address for the Web site administrator.
 
-    > [!NOTE]
-    > You must scroll down to view all required fields.
+     > [!NOTE]
+     > You must scroll down to view all required fields.
 9. Click **Continue**.   
   
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image14.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image13.jpg)
@@ -161,15 +161,15 @@ To enable permalinks (search engine friendly URLs) in WordPress, complete these 
 1. Log in to WordPress with Administrator user rights.
 2. In WordPress, click the **Options** tab.
 3. On the Options page, click the **Permalinks** tab.  
- This step takes you to the page from which you can customize how WordPress generates permalinks for blog posts.
+   This step takes you to the page from which you can customize how WordPress generates permalinks for blog posts.
 4. On the Permalinks page, select **Custom, specify below**, and enter the following string in the **Custom structure** text box:  
- "/%year%/%monthnum%/%day%/%postname%/"
+   "/%year%/%monthnum%/%day%/%postname%/"
 5. Click **Update Permalink Structure**. All the blog post links have URLs that follow the format that you have specified; however, if you click any one of those links, the Web server returns a *404 - File Not Found* error. This error occurs because WordPress relies on a URL rewriting capability within the server to rewrite requests that include "pretty permalinks" to an Index.php file. In the next step, you create a rule that provides this capability.
 6. Create a rewrite rule. Open the Web.config file that is located in the WordPress install directory, and paste the following XML section into the system.webServer element:  
 
     [!code-xml[Main](deploying-wordpress-via-packages-in-a-hosting-environment/samples/sample1.xml)]
 
- This rule attempts to match any requested URL. If the URL does not correspond to a file or a folder on the file system, it rewrites the URL to the Index.php file. At that point, WordPress determines which content to serve based on the REQUEST\_URI server variable that contains the original URL before it was modified by this rule.
+   This rule attempts to match any requested URL. If the URL does not correspond to a file or a folder on the file system, it rewrites the URL to the Index.php file. At that point, WordPress determines which content to serve based on the REQUEST\_URI server variable that contains the original URL before it was modified by this rule.
 
 <a id="_Ref279493252"></a>
 

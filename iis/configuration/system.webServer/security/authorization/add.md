@@ -47,7 +47,7 @@ To support and configure authorization for sites and applications on your Web se
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **URL Authorization**.  
     [![](add/_static/image4.png)](add/_static/image3.png)- Click **OK**.
-- Click **Close**.
+2. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
@@ -86,13 +86,13 @@ To support and configure authorization for sites and applications on your Web se
 4. To add a new authorization rule, in the **Actions** pane click **Add Allow Rule...** or **Add Deny Rule...**
 5. Apply the authorization settings needed for your site or application, and then click **OK**. For example:
 
-    - Example #1: Adding an Allow rule for all users for specific HTTP verbs:  
-        [![](add/_static/image12.png)](add/_static/image11.png)
-    - Example #2: Adding a Deny rule for a specific user for all HTTP verbs:  
-        [![](add/_static/image14.png)](add/_static/image13.png)
+   - Example #1: Adding an Allow rule for all users for specific HTTP verbs:  
+       [![](add/_static/image12.png)](add/_static/image11.png)
+   - Example #2: Adding a Deny rule for a specific user for all HTTP verbs:  
+       [![](add/_static/image14.png)](add/_static/image13.png)
 
-    > [!NOTE]
-    >  To edit or delete an existing rule, select the rule in the     **Authorization rules** pane, and then click     **Edit...** or     **Remove** in the     **Actions** pane. If you click     **Edit...** , a dialog box appears that allows you to edit the rule; this dialog box is similar to the     **Add Allow Authorization Rule** and     **Add Deny Authorization Rule** dialog boxes.
+     > [!NOTE]
+     > To edit or delete an existing rule, select the rule in the **Authorization rules** pane, and then click **Edit** or **Remove** in the **Actions** pane. If you click     **Edit...** , a dialog box appears that allows you to edit the rule; this dialog box is similar to the **Add Allow Authorization Rule** and **Add Deny Authorization Rule** dialog boxes.
 
 <a id="005"></a>
 ## Configuration

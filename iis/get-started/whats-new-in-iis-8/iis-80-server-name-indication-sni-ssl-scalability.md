@@ -89,20 +89,20 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image19.png)
 4. Fill in the information, as you would create any site: 
 
-    - **Site name**: Test
-    - **Physical path**: `c:\inetpub\wwwroot`
-    - **Type**: https
-    - **Hostname**: TAPTesting 
+   - **Site name**: Test
+   - **Physical path**: `c:\inetpub\wwwroot`
+   - **Type**: https
+   - **Hostname**: TAPTesting 
 
-        - This is new for Windows Server 8 in that host name can be specified for SSL.
-        - In order to avoid certificate name mismatch error, ensure that the hostname specified here matches the CN name of the certificate.
-        - The actual value of this configuration varies depending on the sample certificate that is being used.
-    - **Use Server Name Indication**: Selected
-    - **SSL certificate**: Chhose the name of your certificate; for example: TAPTesting. 
+       - This is new for Windows Server 8 in that host name can be specified for SSL.
+       - In order to avoid certificate name mismatch error, ensure that the hostname specified here matches the CN name of the certificate.
+       - The actual value of this configuration varies depending on the sample certificate that is being used.
+   - **Use Server Name Indication**: Selected
+   - **SSL certificate**: Chhose the name of your certificate; for example: TAPTesting. 
 
-        - Note that the certificates are presented from both **Personal** and **Web Hosting** stores.
+       - Note that the certificates are presented from both **Personal** and **Web Hosting** stores.
 
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.jpg)
+     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.jpg)
 5. Verify that the site has been created:  
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image21.png)
 6. That's it. The secure site has been created using SNI. The management experience is very similar to the traditional SSL binding. The only differences are: 

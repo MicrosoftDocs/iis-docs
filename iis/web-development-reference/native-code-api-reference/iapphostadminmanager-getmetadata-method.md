@@ -35,7 +35,7 @@ HRESULT GetMetadata(
 ## Example  
  The following code example retrieves the `availableSections` metadata from the configuration schema by using the `IAppHostAdminManager::GetMetadata` method.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#3](IAppHostAdminLibrary#3)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#3](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetMetadata.cpp#3)]  
   
 ## Requirements  
   

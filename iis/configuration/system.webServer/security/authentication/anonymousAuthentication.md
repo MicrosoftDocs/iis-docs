@@ -84,13 +84,13 @@ The `<anonymousAuthentication>` element is included in the default installation 
 4. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Edit...** in the **Actions** pane.
 5. In the **Edit Anonymous Authentication Credentials** dialog box, do one of the following:
 
-    - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.  
-        ![](anonymousAuthentication/_static/image3.png)
-    - Click **Set...**, and then in the **Set Credentials** dialog box, enter the user name for the account in the **User name** box, enter the password for the account in the **Password** and **Confirm password** boxes, click **OK**, and then click **OK** again.  
-        ![](anonymousAuthentication/_static/image5.png)
+   - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.  
+       ![](anonymousAuthentication/_static/image3.png)
+   - Click **Set...**, and then in the **Set Credentials** dialog box, enter the user name for the account in the **User name** box, enter the password for the account in the **Password** and **Confirm password** boxes, click **OK**, and then click **OK** again.  
+       ![](anonymousAuthentication/_static/image5.png)
 
-    > [!NOTE]
-    > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.
+     > [!NOTE]
+     > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.
 
 <a id="005"></a>
 ## Configuration

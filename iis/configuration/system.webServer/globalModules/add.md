@@ -64,7 +64,7 @@ The `<globalModules>` element is included in the default installation of IIS 7.
 8. In the **Configure Native Modules** dialog box, select the option for the native module that you just registered, click **OK**, and then click **OK** again. This enables the native module to run and makes it available to sites and applications on your Web server.  
   
     > [!NOTE]
-    > If you do not want to enable the native module to run, clear the option for the native module, and then click     **OK** .
+    > If you do not want to enable the native module to run, clear the option for the native module, and then click **OK**.
 9. Optionally, you can lock the native module if you do not want it to be overridden at lower levels in the configuration system. On the **Modules** page, select the module, and then click **Lock** in the **Actions** pane.
 
 ### How to enable a native module

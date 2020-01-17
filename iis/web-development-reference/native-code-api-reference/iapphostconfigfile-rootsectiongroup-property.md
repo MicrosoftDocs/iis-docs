@@ -29,7 +29,7 @@ HRESULT get_RootSectionGroup(
 ## Example  
  The following code example demonstrates how to use the root section group to access the configuration system. The sample assumes that you have registered the `mySectionGroup` section group and `myNewSection` section name in the section table and configuration schema.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#8](IAppHostAdminLibrary#8)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#8](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostSectionGroupGetItem.cpp#8)]  
   
 ## Requirements  
   

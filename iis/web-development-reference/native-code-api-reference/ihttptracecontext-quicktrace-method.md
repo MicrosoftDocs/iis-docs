@@ -43,10 +43,11 @@ virtual
   
  You must enable Failed Event Request tracing to see the event.  
   
-<!-- TODO: review snippet reference  [!CODE [_GPR#1](_GPR#1)]  -->  
-<!-- TODO: review snippet reference [!CODE [_GPR#2](_GPR#2)]  -->  
+ [!code-cpp[_GPR#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_GPR/cpp/global_module.cpp#1)]
+ [!code-cpp[_GPR#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_GPR/cpp/_base.cpp#1)]  
+[!code-cpp[_GPR#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_GPR/cpp/_base.cpp#2)]  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpRequestSetHttpMethod#1](IHttpRequestSetHttpMethod#1)]  -->  
+ [!code-cpp[IHttpRequestSetHttpMethod#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestSetHttpMethod/cpp/IHttpRequestSetHttpMethod.cpp#1)]  
   
 ## Requirements  
   

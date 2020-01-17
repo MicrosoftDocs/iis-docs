@@ -130,7 +130,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
     ![](environmentVariable/_static/image17.png)
 
     > [!NOTE]
-    > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose     **No** , you can manually create a FastCGI application later.
+    > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose **No**, you can manually create a FastCGI application later.
 
 <a id="003b"></a>
 

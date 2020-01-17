@@ -39,19 +39,19 @@ class ValidationSection : ConfigurationSection
 ## Remarks  
  IIS generates a migration error message if the `ValidateIntegratedModeConfiguration` property is enabled and one of the following is true:  
   
--   Your application defines an `<httpModules>` section in its Web.config file.  
+- Your application defines an `<httpModules>` section in its Web.config file.  
   
-     In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] Integrated mode, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] modules are specified with native modules in a unified `<modules>` section under `<system.webServer>`.  
+   In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] Integrated mode, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] modules are specified with native modules in a unified `<modules>` section under `<system.webServer>`.  
   
--   Your application defines an `<httpHandlers>` section in its Web.config file.  
+- Your application defines an `<httpHandlers>` section in its Web.config file.  
   
-     In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] Integrated mode, the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] handler mappings are specified in a unified `<handlers>` section inside `<system.webServer>`. The `<handlers>` section replaces both the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] `<httpHandlers>` and IIS script-processor-mapping configurations, which were both required to set up a ASP.NET 1.0 handler mapping.  
+   In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] Integrated mode, the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] handler mappings are specified in a unified `<handlers>` section inside `<system.webServer>`. The `<handlers>` section replaces both the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] `<httpHandlers>` and IIS script-processor-mapping configurations, which were both required to set up a ASP.NET 1.0 handler mapping.  
   
--   Your application's Web.config file specifies `<identity impersonate="true" />`.  
+- Your application's Web.config file specifies `<identity impersonate="true" />`.  
   
-     In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] Integrated mode, client impersonation is not available in some early request processing stages. Therefore, IIS will generate the migration error message. If your [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application impersonates client credentials (most common with intranet scenarios), you may want to set the `ValidateIntegratedModeConfiguration` property to `false`.  
+   In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] Integrated mode, client impersonation is not available in some early request processing stages. Therefore, IIS will generate the migration error message. If your [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application impersonates client credentials (most common with intranet scenarios), you may want to set the `ValidateIntegratedModeConfiguration` property to `false`.  
   
- If you migrate your configuration manually, or you do not migrate your configuration but you want IIS to remain in Integrated mode (which you should avoid), you can disable migration error messages by setting the `ValidateIntegratedModeConfiguration` property to `false`.  
+  If you migrate your configuration manually, or you do not migrate your configuration but you want IIS to remain in Integrated mode (which you should avoid), you can disable migration error messages by setting the `ValidateIntegratedModeConfiguration` property to `false`.  
   
 > [!NOTE]
 >  Because IIS will no longer provide warnings for unsupported configurations when `ValidateIntegratedModeConfiguration` is `false`, ensure that your application works correctly in Integrated mode before you make this setting.  

@@ -11,13 +11,13 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
 ## Prerequisites  
  The following software is required to complete the steps in the example:  
   
--   [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)].  
+- [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)].  
   
--   [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
+- [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
--   [!INCLUDE[winsdklong](../../web-development-reference/native-code-development-overview/includes/winsdklong-md.md)].  
+- [!INCLUDE[winsdklong](../../web-development-reference/native-code-development-overview/includes/winsdklong-md.md)].  
   
- **Note** You can use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
+  **Note** You can use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
   
 ## Creating the Module  
  In this part of the walkthrough, you will create an empty C++ DLL project for your HTTP module.  
@@ -110,7 +110,7 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
     6.  Add the following code:  
   
-<!-- TODO: review snippet reference          [!CODE [CHttpModuleHelloWorld#1](CHttpModuleHelloWorld#1)]  -->  
+         [!code-cpp[CHttpModuleHelloWorld#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleHelloWorld/cpp/CHttpModuleHelloWorld.cpp#1)]  
   
 ## Compiling and Testing the Module  
   

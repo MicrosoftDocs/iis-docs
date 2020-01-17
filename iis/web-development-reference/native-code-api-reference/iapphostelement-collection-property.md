@@ -72,7 +72,7 @@ HRESULT get_Collection(
 ## Example  
  The following code example displays all the sites in the `system.webServer/sites` configuration section for the MACHINE/WEBROOT/APPHOST configuration path.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#2](IAppHostAdminLibrary#2)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetCollection.cpp#2)]  
   
 ## Requirements  
   
