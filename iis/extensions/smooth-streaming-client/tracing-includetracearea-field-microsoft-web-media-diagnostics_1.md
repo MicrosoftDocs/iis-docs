@@ -2,7 +2,7 @@
 title: Tracing.IncludeTraceArea Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeTraceArea Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceArea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.includetracearea(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetracearea(v=VS.95)
 ms:contentKeyID: 46307536
 ms.date: 05/31/2012
 mtps_version: v=VS.95

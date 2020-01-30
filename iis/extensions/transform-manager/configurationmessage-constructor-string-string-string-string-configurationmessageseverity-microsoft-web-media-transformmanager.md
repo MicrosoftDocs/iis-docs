@@ -2,7 +2,7 @@
 title: ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.String,System.String,System.String,System.String,Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
 ms:contentKeyID: 35521143
 ms.date: 06/14/2012
 mtps_version: v=VS.90

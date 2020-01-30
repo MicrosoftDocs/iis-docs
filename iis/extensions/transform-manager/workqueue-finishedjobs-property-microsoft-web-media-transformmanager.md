@@ -2,7 +2,7 @@
 title: WorkQueue.FinishedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FinishedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.FinishedJobs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.workqueue.finishedjobs(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue.finishedjobs(v=VS.90)
 ms:contentKeyID: 35521004
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: INativeConfigurationElement Interface [IIS 7]
 TOCTitle: INativeConfigurationElement Interface
 ms:assetid: 72fe53a1-4c78-4603-811a-b384833e0fd7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee441231(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee441231(v=VS.90)
 ms:contentKeyID: 23160330
 ms.date: 05/24/2010
 mtps_version: v=VS.90

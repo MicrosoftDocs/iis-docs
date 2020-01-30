@@ -2,7 +2,7 @@
 title: Tracing.ReadTraceConfig Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ReadTraceConfig Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.readtraceconfig(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.readtraceconfig(v=VS.95)
 ms:contentKeyID: 46307703
 ms.date: 05/31/2012
 mtps_version: v=VS.95

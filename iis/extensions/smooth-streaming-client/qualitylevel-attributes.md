@@ -2,7 +2,7 @@
 title: QualityLevel, Attributes
 TOCTitle: QualityLevel, Attributes
 ms:assetid: c33074d3-f806-450d-98e9-ef307c532d26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728116(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728116(v=VS.95)
 ms:contentKeyID: 46359331
 ms.date: 05/31/2012
 mtps_version: v=VS.95

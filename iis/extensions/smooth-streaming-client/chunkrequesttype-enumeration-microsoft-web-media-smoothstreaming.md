@@ -2,7 +2,7 @@
 title: ChunkRequestType Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkRequestType Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkRequestType
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkrequesttype(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkrequesttype(v=VS.95)
 ms:contentKeyID: 46307936
 ms.date: 05/31/2012
 mtps_version: v=VS.95

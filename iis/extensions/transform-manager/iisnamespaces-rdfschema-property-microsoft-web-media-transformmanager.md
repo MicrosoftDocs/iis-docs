@@ -2,7 +2,7 @@
 title: IisNamespaces.RdfSchema Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RdfSchema Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.RdfSchema
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.rdfschema(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.rdfschema(v=VS.90)
 ms:contentKeyID: 35520758
 ms.date: 06/14/2012
 mtps_version: v=VS.90

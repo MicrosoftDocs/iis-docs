@@ -2,7 +2,7 @@
 title: CacheResponse Constructor (Stream, Boolean) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Constructor (Stream, Boolean)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor(System.IO.Stream,System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.95)
 ms:contentKeyID: 46307640
 ms.date: 05/31/2012
 mtps_version: v=VS.95

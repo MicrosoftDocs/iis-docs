@@ -2,7 +2,7 @@
 title: Microsoft Smooth Streaming Client 2.0
 TOCTitle: Microsoft Smooth Streaming Client 2.0
 ms:assetid: cee83024-5235-417c-b28f-952bb15e4342
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958035(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958035(v=VS.95)
 ms:contentKeyID: 46359332
 ms.date: 05/31/2012
 mtps_version: v=VS.95

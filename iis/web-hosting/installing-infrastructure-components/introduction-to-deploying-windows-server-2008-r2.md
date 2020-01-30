@@ -29,7 +29,7 @@ However, there will be cases in which this simple approach is not enough. For ex
 
 In such cases, it is recommended to use the Microsoft Deployment Solutions Accelerator (MD) or the more complete System Center Configuration Manager (SCCM). A first step would be to evaluate using MD, since:
 
-- It provides an end-to-end solution to deployment and configuration with minimal user intervention (also referred to as "light touch") which is sufficient for most hosting scenarios. - It is available for download, providing rich documentation and C# source code to aid integration into custom systems. - The user interface, process, and resources are consistent with the more sophisticated SCCM. Moreover, all the deployment data created through MD can be easily upgraded and used within SCCM, constituting an ideal upgrade path. - It provides a [detailed guide](https://technet.microsoft.com/en-us/library/bb960434.aspx) based on the Microsoft Solutions Framework for Planning, Preparing, Testing, and Deploying.
+- It provides an end-to-end solution to deployment and configuration with minimal user intervention (also referred to as "light touch") which is sufficient for most hosting scenarios. - It is available for download, providing rich documentation and C# source code to aid integration into custom systems. - The user interface, process, and resources are consistent with the more sophisticated SCCM. Moreover, all the deployment data created through MD can be easily upgraded and used within SCCM, constituting an ideal upgrade path. - It provides a [detailed guide](https://technet.microsoft.com/library/bb960434.aspx) based on the Microsoft Solutions Framework for Planning, Preparing, Testing, and Deploying.
 
 <a id="DeploymentProject"></a>
 
@@ -42,7 +42,7 @@ Assuming that WDS is appropriate for your needs, the general approach to manage 
 3. **Testing:** It is strongly recommended to test your image in a lab and run the appropriate tests on the deployed machines to ensure that results are as expected.  
 4. **Deploying:** Use WDS to execute the network deployment across the target set of servers.
 
-This section of the Hosting Guidance provides details for each of these project phases. Notice that they are consistent with those found within the MD documentation. If you are working on a large deployment (multiple environments and/or large deployment team), review the [MD guide](https://technet.microsoft.com/en-us/library/bb960434.aspx "Microsoft Deployment Guide")
+This section of the Hosting Guidance provides details for each of these project phases. Notice that they are consistent with those found within the MD documentation. If you are working on a large deployment (multiple environments and/or large deployment team), review the [MD guide](https://technet.microsoft.com/library/bb960434.aspx "Microsoft Deployment Guide")
 
 <a id="UsingWDS"></a>
 

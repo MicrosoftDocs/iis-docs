@@ -2,7 +2,7 @@
 title: ConnectionArgument.IsPassword Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsPassword Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsPassword
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.connectionargument.ispassword(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.ispassword(v=VS.90)
 ms:contentKeyID: 20476643
 ms.date: 05/02/2012
 mtps_version: v=VS.90

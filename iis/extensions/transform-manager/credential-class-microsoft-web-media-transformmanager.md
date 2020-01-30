@@ -2,7 +2,7 @@
 title: Credential Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: Credential Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.Credential
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.credential(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential(v=VS.90)
 ms:contentKeyID: 35520755
 ms.date: 06/14/2012
 mtps_version: v=VS.90

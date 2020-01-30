@@ -2,7 +2,7 @@
 title: Cache Plug-in Implementation of ISmoothStreamingCache
 TOCTitle: Cache Plug-in Implementation of ISmoothStreamingCache
 ms:assetid: 6f24c4c0-5aef-4f24-ba9f-d0ed902e68a7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg296362(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg296362(v=VS.90)
 ms:contentKeyID: 32879083
 ms.date: 05/02/2012
 mtps_version: v=VS.90

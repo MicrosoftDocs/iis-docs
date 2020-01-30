@@ -2,7 +2,7 @@
 title: Fast Forward and Rewind Modes
 TOCTitle: Fast Forward and Rewind Modes
 ms:assetid: c46bc9ab-d3ef-4b4d-8dc6-46ba1bb14233
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff402323(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff402323(v=VS.95)
 ms:contentKeyID: 46359327
 ms.date: 05/31/2012
 mtps_version: v=VS.95

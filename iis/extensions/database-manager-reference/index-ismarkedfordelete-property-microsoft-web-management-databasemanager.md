@@ -2,7 +2,7 @@
 title: Index.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IsMarkedForDelete
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.ismarkedfordelete(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.ismarkedfordelete(v=VS.90)
 ms:contentKeyID: 20476409
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: TypeInfo.IsBinary Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsBinary Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.IsBinary
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.isbinary(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.isbinary(v=VS.90)
 ms:contentKeyID: 20476408
 ms.date: 05/02/2012
 mtps_version: v=VS.90

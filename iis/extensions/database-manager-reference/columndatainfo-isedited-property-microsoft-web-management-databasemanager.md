@@ -2,7 +2,7 @@
 title: ColumnDataInfo.IsEdited Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsEdited Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.IsEdited
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.columndatainfo.isedited(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.isedited(v=VS.90)
 ms:contentKeyID: 20476445
 ms.date: 05/02/2012
 mtps_version: v=VS.90

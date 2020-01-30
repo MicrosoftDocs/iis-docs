@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.CanSeekProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanSeekProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanSeekProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canseekproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canseekproperty(v=VS.90)
 ms:contentKeyID: 23961124
 ms.date: 05/02/2012
 mtps_version: v=VS.90

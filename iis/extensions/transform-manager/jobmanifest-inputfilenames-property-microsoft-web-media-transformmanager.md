@@ -2,7 +2,7 @@
 title: JobManifest.InputFileNames Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFileNames Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InputFileNames
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.inputfilenames(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.inputfilenames(v=VS.90)
 ms:contentKeyID: 35520801
 ms.date: 06/14/2012
 mtps_version: v=VS.90

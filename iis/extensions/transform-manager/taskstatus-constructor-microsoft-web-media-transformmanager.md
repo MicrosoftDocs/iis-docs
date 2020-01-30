@@ -2,7 +2,7 @@
 title: TaskStatus Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskStatus Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.#ctor(Microsoft.Web.Media.TransformManager.JobManifest,Microsoft.Web.Media.TransformManager.ILogger)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.taskstatus(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.taskstatus(v=VS.90)
 ms:contentKeyID: 35520679
 ms.date: 06/14/2012
 mtps_version: v=VS.90

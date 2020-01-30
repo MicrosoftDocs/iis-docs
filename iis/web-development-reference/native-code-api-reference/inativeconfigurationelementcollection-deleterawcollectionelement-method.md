@@ -2,7 +2,7 @@
 title: INativeConfigurationElementCollection::DeleteRawCollectionElement Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::DeleteRawCollectionElement Method
 ms:assetid: 3c48bd7d-ebb1-46c6-8688-7b15c1d14d43
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee424816(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee424816(v=VS.90)
 ms:contentKeyID: 23044163
 ms.date: 05/24/2010
 mtps_version: v=VS.90

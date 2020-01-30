@@ -2,7 +2,7 @@
 title: ConfigurationMessage Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.ConfigurationMessage
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage_properties(v=VS.90)
 ms:contentKeyID: 35520666
 ms.date: 06/14/2012
 mtps_version: v=VS.90

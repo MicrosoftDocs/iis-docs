@@ -2,7 +2,7 @@
 title: TaskDefinition.CommandLineArchitecture Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CommandLineArchitecture Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.CommandLineArchitecture
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.commandlinearchitecture(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.commandlinearchitecture(v=VS.90)
 ms:contentKeyID: 35520588
 ms.date: 06/14/2012
 mtps_version: v=VS.90

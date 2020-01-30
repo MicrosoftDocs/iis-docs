@@ -2,7 +2,7 @@
 title: Manifest.LookAheadCount Property
 TOCTitle: LookAheadCount Property
 ms:assetid: 8e0e38cc-99e6-464c-8860-0bd0aa1141dc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822780(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822780(v=VS.90)
 ms:contentKeyID: 50079534
 ms.date: 11/19/2012
 mtps_version: v=VS.90

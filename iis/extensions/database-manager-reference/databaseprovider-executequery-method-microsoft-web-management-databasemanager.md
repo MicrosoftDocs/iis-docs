@@ -2,7 +2,7 @@
 title: DatabaseProvider.ExecuteQuery Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ExecuteQuery Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ExecuteQuery(System.String,Microsoft.Web.Management.DatabaseManager.Query)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider.executequery(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.executequery(v=VS.90)
 ms:contentKeyID: 22049611
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ILogger.LogFile Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFile Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ILogger.LogFile
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ilogger.logfile(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger.logfile(v=VS.90)
 ms:contentKeyID: 35521081
 ms.date: 06/14/2012
 mtps_version: v=VS.90

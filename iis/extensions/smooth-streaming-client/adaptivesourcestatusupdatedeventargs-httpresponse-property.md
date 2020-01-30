@@ -2,7 +2,7 @@
 title: AdaptiveSourceStatusUpdatedEventArgs.HttpResponse Property
 TOCTitle: HttpResponse Property
 ms:assetid: 85bf1410-b7a9-463d-8caa-dad5025b2deb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822767(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822767(v=VS.90)
 ms:contentKeyID: 50079522
 ms.date: 11/19/2012
 mtps_version: v=VS.90

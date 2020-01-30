@@ -2,7 +2,7 @@
 title: QueryColumnMetadata Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryColumnMetadata Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.querycolumnmetadata.querycolumnmetadata(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata.querycolumnmetadata(v=VS.90)
 ms:contentKeyID: 20476739
 ms.date: 05/02/2012
 mtps_version: v=VS.90

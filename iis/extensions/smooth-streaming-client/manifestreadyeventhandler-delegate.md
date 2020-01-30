@@ -2,7 +2,7 @@
 title: ManifestReadyEventHandler Delegate
 TOCTitle: ManifestReadyEventHandler Delegate
 ms:assetid: 11612fc5-187b-4658-b09e-554a145bbea3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ573658(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ573658(v=VS.90)
 ms:contentKeyID: 49080900
 ms.date: 11/19/2012
 mtps_version: v=VS.90

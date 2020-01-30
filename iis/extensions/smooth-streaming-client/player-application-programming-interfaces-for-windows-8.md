@@ -2,7 +2,7 @@
 title: Player Application Programming Interfaces for Windows 8
 TOCTitle: Player Application Programming Interfaces for Windows 8
 ms:assetid: 9b11d8eb-6663-4507-a53a-faba4ad4d9c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ573695(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ573695(v=VS.90)
 ms:contentKeyID: 49080936
 ms.date: 11/19/2012
 mtps_version: v=VS.90

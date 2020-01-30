@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.CurrentStateChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentStateChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentStateChanged
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentstatechanged(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentstatechanged(v=VS.90)
 ms:contentKeyID: 23960961
 ms.date: 05/02/2012
 mtps_version: v=VS.90

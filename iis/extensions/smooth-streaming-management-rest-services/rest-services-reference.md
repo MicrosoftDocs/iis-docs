@@ -2,7 +2,7 @@
 title: REST Services Reference
 TOCTitle: REST Services Reference
 ms:assetid: 08c9917b-45c3-458a-9909-1b54cbb9f0d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh239761(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh239761(v=VS.90)
 ms:contentKeyID: 35957228
 ms.date: 05/02/2012
 mtps_version: v=VS.90

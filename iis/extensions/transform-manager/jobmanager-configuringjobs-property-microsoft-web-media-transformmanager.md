@@ -2,7 +2,7 @@
 title: JobManager.ConfiguringJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfiguringJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.ConfiguringJobs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.configuringjobs(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.configuringjobs(v=VS.90)
 ms:contentKeyID: 35521189
 ms.date: 06/14/2012
 mtps_version: v=VS.90

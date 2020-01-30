@@ -2,7 +2,7 @@
 title: AdaptiveSource.Manifest Property
 TOCTitle: Manifest Property
 ms:assetid: 1f31c971-57b2-4716-a0d3-e30bb5460c0c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822697(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822697(v=VS.90)
 ms:contentKeyID: 50079452
 ms.date: 11/19/2012
 mtps_version: v=VS.90

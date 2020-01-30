@@ -2,7 +2,7 @@
 title: IDbTableManager Interface (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IDbTableManager Interface
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbTableManager
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbtablemanager(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager(v=VS.90)
 ms:contentKeyID: 20476461
 ms.date: 05/02/2012
 mtps_version: v=VS.90

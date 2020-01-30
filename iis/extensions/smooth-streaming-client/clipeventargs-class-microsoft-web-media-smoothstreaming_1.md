@@ -2,7 +2,7 @@
 title: ClipEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipeventargs(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipeventargs(v=VS.95)
 ms:contentKeyID: 46307937
 ms.date: 05/31/2012
 mtps_version: v=VS.95

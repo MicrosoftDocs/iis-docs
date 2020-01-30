@@ -2,7 +2,7 @@
 title: IAdaptiveSource Interface
 TOCTitle: IAdaptiveSource Interface
 ms:assetid: d0656cbb-c4f9-407d-9566-cf840783d895
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822837(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822837(v=VS.90)
 ms:contentKeyID: 50079591
 ms.date: 11/19/2012
 mtps_version: v=VS.90

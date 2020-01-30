@@ -2,7 +2,7 @@
 title: ManifestInfo.SelectStreamsCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectStreamsCompleted Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.SelectStreamsCompleted
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.selectstreamscompleted(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.selectstreamscompleted(v=VS.95)
 ms:contentKeyID: 46307509
 ms.date: 05/31/2012
 mtps_version: v=VS.95

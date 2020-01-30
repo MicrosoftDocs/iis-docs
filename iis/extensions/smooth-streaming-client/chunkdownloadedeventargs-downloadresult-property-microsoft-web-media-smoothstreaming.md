@@ -2,7 +2,7 @@
 title: ChunkDownloadedEventArgs.DownloadResult Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadResult Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.DownloadResult
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.downloadresult(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.downloadresult(v=VS.95)
 ms:contentKeyID: 46307753
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -2,7 +2,7 @@
 title: ManifestStream.DisplayWidth Property
 TOCTitle: DisplayWidth Property
 ms:assetid: 3848a9f3-d817-4d54-aa02-7265c5b7d76c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822717(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822717(v=VS.90)
 ms:contentKeyID: 50079472
 ms.date: 11/19/2012
 mtps_version: v=VS.90

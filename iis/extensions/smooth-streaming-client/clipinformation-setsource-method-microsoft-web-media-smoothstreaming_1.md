@@ -2,7 +2,7 @@
 title: ClipInformation.SetSource Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetSource Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.SetSource(Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement,System.Windows.Controls.MediaElement,System.String,System.Int64)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.setsource(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.setsource(v=VS.95)
 ms:contentKeyID: 46307468
 ms.date: 05/31/2012
 mtps_version: v=VS.95

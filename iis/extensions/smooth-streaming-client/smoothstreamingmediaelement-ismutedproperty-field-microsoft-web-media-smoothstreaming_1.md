@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.IsMutedProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsMutedProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsMutedProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.ismutedproperty(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.ismutedproperty(v=VS.95)
 ms:contentKeyID: 46307558
 ms.date: 05/31/2012
 mtps_version: v=VS.95

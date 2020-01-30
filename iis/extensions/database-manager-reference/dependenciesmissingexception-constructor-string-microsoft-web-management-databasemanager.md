@@ -2,7 +2,7 @@
 title: DependenciesMissingException Constructor (String) (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DependenciesMissingException Constructor (String)
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)
 ms:contentKeyID: 22049492
 ms.date: 05/02/2012
 mtps_version: v=VS.90

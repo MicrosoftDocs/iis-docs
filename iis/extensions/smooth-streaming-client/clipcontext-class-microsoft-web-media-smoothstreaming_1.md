@@ -2,7 +2,7 @@
 title: ClipContext Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipContext Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipContext
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext(v=VS.95)
 ms:contentKeyID: 46307931
 ms.date: 05/31/2012
 mtps_version: v=VS.95

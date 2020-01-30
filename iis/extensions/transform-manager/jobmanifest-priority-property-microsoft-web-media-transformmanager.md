@@ -2,7 +2,7 @@
 title: JobManifest.Priority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Priority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Priority
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.priority(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.priority(v=VS.90)
 ms:contentKeyID: 35520940
 ms.date: 06/14/2012
 mtps_version: v=VS.90

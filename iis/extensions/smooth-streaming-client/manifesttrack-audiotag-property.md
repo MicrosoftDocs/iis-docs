@@ -2,7 +2,7 @@
 title: ManifestTrack.AudioTag Property
 TOCTitle: AudioTag Property
 ms:assetid: dc68c56c-209a-4ac3-8efc-1a9a63638824
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822845(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822845(v=VS.90)
 ms:contentKeyID: 50079599
 ms.date: 11/19/2012
 mtps_version: v=VS.90

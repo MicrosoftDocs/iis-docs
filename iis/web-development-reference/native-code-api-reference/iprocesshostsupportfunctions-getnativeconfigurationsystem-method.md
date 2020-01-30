@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 62c808d8-fe81-749e-8574-f9800fdf2811
 ---
 # IProcessHostSupportFunctions::GetNativeConfigurationSystem Method
-Retrieves the [INativeConfigurationSystem](https://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface pointer.  
+Retrieves the [INativeConfigurationSystem](https://msdn.microsoft.com/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface pointer.  
   
 ## Syntax  
   

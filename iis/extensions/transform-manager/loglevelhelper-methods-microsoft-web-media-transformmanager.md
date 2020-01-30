@@ -2,7 +2,7 @@
 title: LogLevelHelper Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevelHelper Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.LogLevelHelper
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.loglevelhelper_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.loglevelhelper_methods(v=VS.90)
 ms:contentKeyID: 35520693
 ms.date: 06/14/2012
 mtps_version: v=VS.90

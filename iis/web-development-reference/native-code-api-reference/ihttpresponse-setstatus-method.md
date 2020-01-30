@@ -32,7 +32,7 @@ virtual HRESULT SetStatus(
  [IN] The optional Win32 error associated with the response status code.  
   
  `pException`  
- [IN] A pointer to an optional [INativeSectionException](https://msdn.microsoft.com/en-us/89e76f37-6196-566b-c07a-f756855d097c) interface.  
+ [IN] A pointer to an optional [INativeSectionException](https://msdn.microsoft.com/89e76f37-6196-566b-c07a-f756855d097c) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -44,7 +44,7 @@ virtual HRESULT SetStatus(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
- The `SetStatus` method configures the HTTP response status, which consists of the status code, the substatus code, the status text, a Win32 error (if one exists) associated with the response, and an optional [INativeSectionException](https://msdn.microsoft.com/en-us/89e76f37-6196-566b-c07a-f756855d097c) interface.  
+ The `SetStatus` method configures the HTTP response status, which consists of the status code, the substatus code, the status text, a Win32 error (if one exists) associated with the response, and an optional [INativeSectionException](https://msdn.microsoft.com/89e76f37-6196-566b-c07a-f756855d097c) interface.  
   
 ## Example  
  The following code example demonstrates how to use the `GetStatus` method to create an HTTP module that retrieves the HTTP response status. The example module returns the contents of the HTTP response status to the client and then calls the `SetStatus` method to set the response status to "200 OK" so the client will always receive the result.  

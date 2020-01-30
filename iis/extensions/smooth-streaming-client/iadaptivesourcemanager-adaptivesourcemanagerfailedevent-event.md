@@ -2,7 +2,7 @@
 title: IAdaptiveSourceManager.AdaptiveSourceManagerFailedEvent Event
 TOCTitle: AdaptiveSourceManagerFailedEvent Event
 ms:assetid: 5f97ba70-027c-412c-84be-98bb841d25ed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822747(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822747(v=VS.90)
 ms:contentKeyID: 50079502
 ms.date: 11/19/2012
 mtps_version: v=VS.90

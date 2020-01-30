@@ -2,7 +2,7 @@
 title: Silverlight Applications (IIS Smooth Streaming)
 TOCTitle: Silverlight Applications (IIS Smooth Streaming)
 ms:assetid: 70f30e39-c466-48cc-a81a-356690730bac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958032(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958032(v=VS.90)
 ms:contentKeyID: 28407134
 ms.date: 05/02/2012
 mtps_version: v=VS.90

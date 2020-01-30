@@ -2,7 +2,7 @@
 title: ManifestPropertiesDictionary.Namespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Namespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Namespace
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.namespace(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.namespace(v=VS.90)
 ms:contentKeyID: 35520707
 ms.date: 06/14/2012
 mtps_version: v=VS.90

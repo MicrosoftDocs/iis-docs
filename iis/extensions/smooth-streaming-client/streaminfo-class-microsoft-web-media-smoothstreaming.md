@@ -2,7 +2,7 @@
 title: StreamInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo(v=VS.90)
 ms:contentKeyID: 23961256
 ms.date: 05/02/2012
 mtps_version: v=VS.90

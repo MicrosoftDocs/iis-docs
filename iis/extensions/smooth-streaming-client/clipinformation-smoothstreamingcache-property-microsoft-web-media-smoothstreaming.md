@@ -2,7 +2,7 @@
 title: ClipInformation.SmoothStreamingCache Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingCache Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.SmoothStreamingCache
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.smoothstreamingcache(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.smoothstreamingcache(v=VS.90)
 ms:contentKeyID: 31469261
 ms.date: 05/02/2012
 mtps_version: v=VS.90

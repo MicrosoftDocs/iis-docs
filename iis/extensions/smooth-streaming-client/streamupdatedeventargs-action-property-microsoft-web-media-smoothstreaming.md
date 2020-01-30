@@ -2,7 +2,7 @@
 title: StreamUpdatedEventArgs.Action Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Action Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Action
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.action(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.action(v=VS.90)
 ms:contentKeyID: 31469227
 ms.date: 05/02/2012
 mtps_version: v=VS.90

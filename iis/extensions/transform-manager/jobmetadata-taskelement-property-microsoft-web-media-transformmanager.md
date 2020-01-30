@@ -2,7 +2,7 @@
 title: JobMetadata.TaskElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskElement
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.taskelement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.taskelement(v=VS.90)
 ms:contentKeyID: 35520696
 ms.date: 06/14/2012
 mtps_version: v=VS.90

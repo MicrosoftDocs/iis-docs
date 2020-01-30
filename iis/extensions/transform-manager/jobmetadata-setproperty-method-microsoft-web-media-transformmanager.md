@@ -2,7 +2,7 @@
 title: JobMetadata.SetProperty Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetProperty Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobMetadata.SetProperty(Microsoft.Web.Media.TransformManager.IManifestProperty)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.setproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.setproperty(v=VS.90)
 ms:contentKeyID: 35520783
 ms.date: 06/14/2012
 mtps_version: v=VS.90

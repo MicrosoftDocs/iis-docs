@@ -2,7 +2,7 @@
 title: LogLevelHelper.GetLogLevel Method (LogLevel) (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetLogLevel Method (LogLevel)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LogLevelHelper.GetLogLevel(Microsoft.Web.Media.TransformManager.LogLevel)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.loglevelhelper.getloglevel(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.loglevelhelper.getloglevel(v=VS.90)
 ms:contentKeyID: 35520968
 ms.date: 06/14/2012
 mtps_version: v=VS.90

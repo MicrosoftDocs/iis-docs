@@ -2,7 +2,7 @@
 title: SchedulerInfo.CreateInstance Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateInstance Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.SchedulerInfo.CreateInstance
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo.createinstance(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.createinstance(v=VS.90)
 ms:contentKeyID: 35521114
 ms.date: 06/14/2012
 mtps_version: v=VS.90

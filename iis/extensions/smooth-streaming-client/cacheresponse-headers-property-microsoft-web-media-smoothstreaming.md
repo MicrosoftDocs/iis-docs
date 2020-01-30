@@ -2,7 +2,7 @@
 title: CacheResponse.Headers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Headers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.headers(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.headers(v=VS.90)
 ms:contentKeyID: 31469175
 ms.date: 05/02/2012
 mtps_version: v=VS.90

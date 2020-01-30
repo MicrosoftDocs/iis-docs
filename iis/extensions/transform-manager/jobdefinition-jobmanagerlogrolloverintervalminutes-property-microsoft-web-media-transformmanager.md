@@ -2,7 +2,7 @@
 title: JobDefinition.JobManagerLogRolloverIntervalMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerLogRolloverIntervalMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalMinutes
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.jobmanagerlogrolloverintervalminutes(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.jobmanagerlogrolloverintervalminutes(v=VS.90)
 ms:contentKeyID: 35568109
 ms.date: 06/14/2012
 mtps_version: v=VS.90

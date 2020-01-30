@@ -2,7 +2,7 @@
 title: HpcScheduler.GetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetTaskChildProcessId Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetTaskChildProcessId(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler.gettaskchildprocessid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.gettaskchildprocessid(v=VS.90)
 ms:contentKeyID: 35520917
 ms.date: 06/14/2012
 mtps_version: v=VS.90

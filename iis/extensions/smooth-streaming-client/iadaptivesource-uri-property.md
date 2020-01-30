@@ -2,7 +2,7 @@
 title: IAdaptiveSource.Uri Property
 TOCTitle: Uri Property
 ms:assetid: 5b99723f-66f9-46a6-95b1-e6eb4c9b3b2d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822741(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822741(v=VS.90)
 ms:contentKeyID: 50079496
 ms.date: 11/19/2012
 mtps_version: v=VS.90

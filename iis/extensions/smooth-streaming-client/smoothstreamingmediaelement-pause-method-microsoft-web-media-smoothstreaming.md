@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.Pause Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Pause Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Pause
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pause(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pause(v=VS.90)
 ms:contentKeyID: 23961081
 ms.date: 05/02/2012
 mtps_version: v=VS.90

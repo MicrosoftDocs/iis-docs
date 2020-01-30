@@ -2,7 +2,7 @@
 title: Manifest Class
 TOCTitle: Manifest Class
 ms:assetid: f0a9e6d7-5714-49c0-9470-25fa5be0013f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822869(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822869(v=VS.90)
 ms:contentKeyID: 50079623
 ms.date: 11/19/2012
 mtps_version: v=VS.90

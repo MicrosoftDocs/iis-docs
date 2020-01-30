@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.SetPlaybackRangeAsync Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetPlaybackRangeAsync Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeAsync(System.TimeSpan,System.TimeSpan,System.Object)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.setplaybackrangeasync(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.setplaybackrangeasync(v=VS.95)
 ms:contentKeyID: 46307692
 ms.date: 05/31/2012
 mtps_version: v=VS.95

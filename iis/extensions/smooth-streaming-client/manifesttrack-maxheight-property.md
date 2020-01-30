@@ -2,7 +2,7 @@
 title: ManifestTrack.MaxHeight Property
 TOCTitle: MaxHeight Property
 ms:assetid: 1679c825-111a-42d1-b855-2fde4b58f18f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822682(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822682(v=VS.90)
 ms:contentKeyID: 50079437
 ms.date: 11/19/2012
 mtps_version: v=VS.90

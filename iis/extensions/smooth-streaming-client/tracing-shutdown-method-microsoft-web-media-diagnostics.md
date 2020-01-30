@@ -2,7 +2,7 @@
 title: Tracing.Shutdown Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Shutdown Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Shutdown
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.shutdown(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.shutdown(v=VS.90)
 ms:contentKeyID: 23961258
 ms.date: 05/02/2012
 mtps_version: v=VS.90

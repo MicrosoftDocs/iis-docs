@@ -2,7 +2,7 @@
 title: Enumerate Web Site Publishing Points with Details
 TOCTitle: Enumerate Web Site Publishing Points with Details
 ms:assetid: 369a196a-7a42-49f6-828d-83e6ad8f348f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh239764(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh239764(v=VS.90)
 ms:contentKeyID: 35957231
 ms.date: 05/02/2012
 mtps_version: v=VS.90

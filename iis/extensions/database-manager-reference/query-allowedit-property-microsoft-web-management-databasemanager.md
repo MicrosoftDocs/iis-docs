@@ -2,7 +2,7 @@
 title: Query.AllowEdit Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: AllowEdit Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.AllowEdit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.query.allowedit(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query.allowedit(v=VS.90)
 ms:contentKeyID: 22049614
 ms.date: 05/02/2012
 mtps_version: v=VS.90

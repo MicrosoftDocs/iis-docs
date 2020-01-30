@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.CurrentSegmentIndex Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentSegmentIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndex
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentsegmentindex(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentsegmentindex(v=VS.90)
 ms:contentKeyID: 31469206
 ms.date: 05/02/2012
 mtps_version: v=VS.90

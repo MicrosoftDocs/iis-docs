@@ -2,7 +2,7 @@
 title: CacheResponse.WriteTo Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: WriteTo Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.WriteTo(System.IO.Stream)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.writeto(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.writeto(v=VS.90)
 ms:contentKeyID: 31469285
 ms.date: 05/02/2012
 mtps_version: v=VS.90

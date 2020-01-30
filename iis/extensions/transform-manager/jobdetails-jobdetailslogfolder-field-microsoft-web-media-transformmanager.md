@@ -2,7 +2,7 @@
 title: JobDetails.JobDetailsLogFolder Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsLogFolder Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsLogFolder
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdetailslogfolder(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailslogfolder(v=VS.90)
 ms:contentKeyID: 36868655
 ms.date: 06/14/2012
 mtps_version: v=VS.90

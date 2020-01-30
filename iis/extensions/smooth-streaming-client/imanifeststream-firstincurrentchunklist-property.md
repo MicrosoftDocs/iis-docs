@@ -2,7 +2,7 @@
 title: IManifestStream.FirstInCurrentChunkList Property
 TOCTitle: FirstInCurrentChunkList Property
 ms:assetid: 4b2ce767-a162-47c0-9f38-9817c8179c2f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822729(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822729(v=VS.90)
 ms:contentKeyID: 50079484
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: TaskStatus.Dispose Method (Boolean) (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method (Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.Dispose(System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.dispose(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.dispose(v=VS.90)
 ms:contentKeyID: 35521105
 ms.date: 06/14/2012
 mtps_version: v=VS.90

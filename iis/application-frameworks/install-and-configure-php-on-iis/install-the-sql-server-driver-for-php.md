@@ -86,5 +86,5 @@ For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://
 - [SQL Server Driver for PHP example application](https://msdn.microsoft.com/library/cc296196(SQL.90).aspx).
 - [php.net](http://php.net/).
 - [Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/library/cc793139(SQL.90).aspx)
-- [Programming Tasks](https://technet.microsoft.com/en-us/library/cc644935(SQL.90).aspx).
+- [Programming Tasks](https://technet.microsoft.com/library/cc644935(SQL.90).aspx).
 - [Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/library/cc296172(SQL.90).aspx).

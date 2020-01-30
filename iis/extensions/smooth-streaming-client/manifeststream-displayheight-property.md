@@ -2,7 +2,7 @@
 title: ManifestStream.DisplayHeight Property
 TOCTitle: DisplayHeight Property
 ms:assetid: fa63dd00-0ff4-4ee3-81c0-a48a9c340213
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822874(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822874(v=VS.90)
 ms:contentKeyID: 50079628
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: SchedulerInfo Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.SchedulerInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo_properties(v=VS.90)
 ms:contentKeyID: 35520745
 ms.date: 06/14/2012
 mtps_version: v=VS.90

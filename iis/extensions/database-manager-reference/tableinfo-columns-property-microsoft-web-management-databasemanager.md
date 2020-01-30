@@ -2,7 +2,7 @@
 title: TableInfo.Columns Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Columns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.Columns
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.tableinfo.columns(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.columns(v=VS.90)
 ms:contentKeyID: 20476438
 ms.date: 05/02/2012
 mtps_version: v=VS.90

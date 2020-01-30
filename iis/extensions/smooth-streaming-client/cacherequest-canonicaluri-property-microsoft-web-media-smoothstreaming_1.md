@@ -2,7 +2,7 @@
 title: CacheRequest.CanonicalUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanonicalUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest.CanonicalUri
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest.canonicaluri(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.canonicaluri(v=VS.95)
 ms:contentKeyID: 46307731
 ms.date: 05/31/2012
 mtps_version: v=VS.95

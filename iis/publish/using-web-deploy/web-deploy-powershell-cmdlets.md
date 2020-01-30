@@ -63,7 +63,7 @@ All IIS cmdlets will work against installed IIS version 7 or higher
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample2.ps1)]
 
-Description: This without any arguments backs up the current server where this command is run. It uses the well-known webserver provider for this operation. Hence the package created contains all the artifacts that would be contained in a webserver package. You can read more about this provider [here](https://technet.microsoft.com/en-us/library/dd569021(v=WS.10).aspx).
+Description: This without any arguments backs up the current server where this command is run. It uses the well-known webserver provider for this operation. Hence the package created contains all the artifacts that would be contained in a webserver package. You can read more about this provider [here](https://technet.microsoft.com/library/dd569021(v=WS.10).aspx).
 
 Cmdlet Parameters: ConfigOnly parameter allows you to exclude all content while SkipFileList and SkipFolderList parameters allow you to selectively exclude one or more files or folders from the package.
 
@@ -108,7 +108,7 @@ Examples:
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample7.ps1)]
 
-Description: This will back up a web application using iisApp provider. Read more about this provider [here](https://technet.microsoft.com/en-us/library/dd569054(WS.10).aspx). Here is a good [article](http:/learn.iis.net/page.aspx/150/understanding-sites-applications-and-virtual-directories-on-iis/) that explains what a web application is and what is the difference between a site, an app and a virtual directory in IIS.
+Description: This will back up a web application using iisApp provider. Read more about this provider [here](https://technet.microsoft.com/library/dd569054(WS.10).aspx). Here is a good [article](http:/learn.iis.net/page.aspx/150/understanding-sites-applications-and-virtual-directories-on-iis/) that explains what a web application is and what is the difference between a site, an app and a virtual directory in IIS.
 
 Cmdlet Parameters: The name of the app specified by the application parameter or by the publish settings file is backed up. If none of them is specified it throws an error. Application parameter value overrides publish settings specification for site name. SkipFileList and SkipFolderList parameters allow you to selectively exclude one or more files or folders from the package.
 
@@ -126,7 +126,7 @@ Auto generated Web Deploy parameters: A Parameter for changing the name of the a
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample9.ps1)]
 
-Description: This will back up a Microsoft SQL Server Database using the dbfullsql provider. This provider uses SMO to script out the database and exposes more than 100 provider settings to control the way the database is scripted. This is covered in detail [here](https://technet.microsoft.com/en-us/library/dd569036(v=ws.10).aspx).
+Description: This will back up a Microsoft SQL Server Database using the dbfullsql provider. This provider uses SMO to script out the database and exposes more than 100 provider settings to control the way the database is scripted. This is covered in detail [here](https://technet.microsoft.com/library/dd569036(v=ws.10).aspx).
 
 Cmdlet Parameters: The connection string specified by the Database parameter or SQLServerDBConnectionString in the publish settings file is backed up. Database parameter value overrides publish settings specification for SQLServerDBConnectionString. The provider settings exposed by this dbfullsql provider can be passed using SourceSettings parameter. One very commonly used setting is scriptdropsfirst which scripts if object exists drop object scripts. Another provider setting from the SMO scripting options is to set scriptdata to false to just extract schema.
 
@@ -146,7 +146,7 @@ Examples:
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample13.ps1)]
 
-Description: This will back up a MySql Server Database using the dbmysql provider. This provider uses mysqldump to script out the database. This is covered in detail [here](https://technet.microsoft.com/en-us/library/dd569017(v=ws.10).aspx).
+Description: This will back up a MySql Server Database using the dbmysql provider. This provider uses mysqldump to script out the database. This is covered in detail [here](https://technet.microsoft.com/library/dd569017(v=ws.10).aspx).
 
 Cmdlet Parameters: The connection string specified by the Database parameter or mySQLDBConnectionString in the publish settings file is backed up. Database parameter value overrides publish settings specification for mySQLDBConnectionString. The provider settings can be passed using SourceSettings parameter. The commonly used settings are includeData and includeSchema. By default these are set to true.
 
@@ -246,7 +246,7 @@ Examples:
 
 [!code-console[Main](web-deploy-powershell-cmdlets/samples/sample31.cmd)]
 
-Description: This cmdlet can be used to apply any Web Deploy package. There are several ways to create or obtain a Web Deploy package, such as by downloading an open source Application Gallery package, creating a package in Visual Studio, using the msdeploy.exe command-line tool ([more info](https://technet.microsoft.com/en-us/library/dd568996(WS.10).aspx)), or using the Backup-WD\* cmdlets noted earlier in the document. For e.g. for installing wordpress on an IIS Server Default web site as an app named wordpress download the wordpress package from [the app gallery](https://www.microsoft.com/web/gallery/wordpress.aspx) into a folder called packages. All the default values for the wordpress package parameters will work as is but just need to specify the values for two required parameters: admin and non admin mysql password.
+Description: This cmdlet can be used to apply any Web Deploy package. There are several ways to create or obtain a Web Deploy package, such as by downloading an open source Application Gallery package, creating a package in Visual Studio, using the msdeploy.exe command-line tool ([more info](https://technet.microsoft.com/library/dd568996(WS.10).aspx)), or using the Backup-WD\* cmdlets noted earlier in the document. For e.g. for installing wordpress on an IIS Server Default web site as an app named wordpress download the wordpress package from [the app gallery](https://www.microsoft.com/web/gallery/wordpress.aspx) into a folder called packages. All the default values for the wordpress package parameters will work as is but just need to specify the values for two required parameters: admin and non admin mysql password.
 
 Parameters:
 
@@ -282,7 +282,7 @@ First I check the current permissions.
 
 ## VII. Invoke
 
-You can invoke commands or scripts on a remote system using destinationpublishsettings and the see the results of the remote execution in real time. You have to be an admin on the remote system to be able to execute runcommand provider remotely. You can read more about this provider [here](https://technet.microsoft.com/en-us/library/ee619740(v=WS.10).aspx). The default maximum time MWD Api waits for the given script or command to finish is 5 seconds. If you want to increase this time of execution, you can specify higher values for waitInterval and waitAttempts as shown in the example below.
+You can invoke commands or scripts on a remote system using destinationpublishsettings and the see the results of the remote execution in real time. You have to be an admin on the remote system to be able to execute runcommand provider remotely. You can read more about this provider [here](https://technet.microsoft.com/library/ee619740(v=WS.10).aspx). The default maximum time MWD Api waits for the given script or command to finish is 5 seconds. If you want to increase this time of execution, you can specify higher values for waitInterval and waitAttempts as shown in the example below.
 
 <a id="_Toc322604025"></a>
 
@@ -372,7 +372,7 @@ This will script out the wordpress265 database into wordpress.sql at the path gi
 
 ### C. Everything else
 
-For general purpose sync not covered by other cmdlets given above, you can use Sync-WDManifest cmdlet. This is a general manifest provider sync supported by the MWD API. You can read more about it [here](https://technet.microsoft.com/en-us/library/dd569104(v=WS.10).aspx). Manifest is a collection of providers, provider paths and provider settings in an xml file. The structure is that the root node of the xml file is considered the name of a provider for the purpose of the current sync. Hence it cannot be the name of any of the well-known providers as given in the list [here](https://msdn.microsoft.com/library/microsoft.web.deployment.deploymentwellknownprovider(v=VS.90).aspx). Then it can have child nodes with the element name matching the provider you want to include in the sync. A path attribute represents the path of that provider and it is mandatory. Then add attribute value pairs for each provider setting that you want to leverage for the current sync operation.
+For general purpose sync not covered by other cmdlets given above, you can use Sync-WDManifest cmdlet. This is a general manifest provider sync supported by the MWD API. You can read more about it [here](https://technet.microsoft.com/library/dd569104(v=WS.10).aspx). Manifest is a collection of providers, provider paths and provider settings in an xml file. The structure is that the root node of the xml file is considered the name of a provider for the purpose of the current sync. Hence it cannot be the name of any of the well-known providers as given in the list [here](https://msdn.microsoft.com/library/microsoft.web.deployment.deploymentwellknownprovider(v=VS.90).aspx). Then it can have child nodes with the element name matching the provider you want to include in the sync. A path attribute represents the path of that provider and it is mandatory. Then add attribute value pairs for each provider setting that you want to leverage for the current sync operation.
 
 This cmdlet needs two manifests: One for the source and one for the destination. The manifest is always executed in the order specified. If the provider supports a commit operation such as apphostconfig provider which works with IIS Sites, the commit is not called unless the sync is complete. Hence if you have a provider that expects a site to exist after a provider that creates it, then this will fail since the site has not been committed yet. In the following example I will synchronize an app and include a database that the app uses along with it in the manifest.
 

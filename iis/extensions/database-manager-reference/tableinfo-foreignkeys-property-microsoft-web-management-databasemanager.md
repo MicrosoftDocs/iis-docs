@@ -2,7 +2,7 @@
 title: TableInfo.ForeignKeys Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKeys Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.ForeignKeys
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.tableinfo.foreignkeys(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.foreignkeys(v=VS.90)
 ms:contentKeyID: 20476734
 ms.date: 05/02/2012
 mtps_version: v=VS.90

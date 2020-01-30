@@ -2,7 +2,7 @@
 title: JobScheduler.ConnectionString Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConnectionString Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.ConnectionString
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobscheduler.connectionstring(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.connectionstring(v=VS.90)
 ms:contentKeyID: 35520600
 ms.date: 06/14/2012
 mtps_version: v=VS.90

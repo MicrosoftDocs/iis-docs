@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.LinearClipChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LinearClipChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LinearClipChanged
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.linearclipchanged(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.linearclipchanged(v=VS.95)
 ms:contentKeyID: 46307496
 ms.date: 05/31/2012
 mtps_version: v=VS.95

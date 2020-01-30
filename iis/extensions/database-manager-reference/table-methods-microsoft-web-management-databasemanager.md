@@ -2,7 +2,7 @@
 title: Table Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Table Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.Table
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.table_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table_methods(v=VS.90)
 ms:contentKeyID: 20476423
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IManifestProperty.CultureInfo Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CultureInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IManifestProperty.CultureInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanifestproperty.cultureinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanifestproperty.cultureinfo(v=VS.90)
 ms:contentKeyID: 31477630
 ms.date: 06/14/2012
 mtps_version: v=VS.90

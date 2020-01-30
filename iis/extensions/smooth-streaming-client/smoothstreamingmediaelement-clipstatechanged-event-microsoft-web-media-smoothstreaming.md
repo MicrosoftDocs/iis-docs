@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.ClipStateChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipStateChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipStateChanged
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipstatechanged(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipstatechanged(v=VS.90)
 ms:contentKeyID: 23961063
 ms.date: 05/02/2012
 mtps_version: v=VS.90

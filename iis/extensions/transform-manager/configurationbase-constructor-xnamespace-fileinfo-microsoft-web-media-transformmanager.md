@@ -2,7 +2,7 @@
 title: ConfigurationBase Constructor (XNamespace, FileInfo) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationBase Constructor (XNamespace, FileInfo)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.#ctor(System.Xml.Linq.XNamespace,System.IO.FileInfo)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.configurationbase(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationbase(v=VS.90)
 ms:contentKeyID: 35521005
 ms.date: 06/14/2012
 mtps_version: v=VS.90

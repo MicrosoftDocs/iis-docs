@@ -2,7 +2,7 @@
 title: IJobMetadata Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: IJobMetadata Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.IJobMetadata
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata_properties(v=VS.90)
 ms:contentKeyID: 35520961
 ms.date: 06/14/2012
 mtps_version: v=VS.90

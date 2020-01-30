@@ -2,7 +2,7 @@
 title: IisNamespaces.Smil Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Smil Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Smil
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.smil(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.smil(v=VS.90)
 ms:contentKeyID: 35520631
 ms.date: 06/14/2012
 mtps_version: v=VS.90

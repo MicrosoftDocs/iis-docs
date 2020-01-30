@@ -2,7 +2,7 @@
 title: IisNamespaces.Smil20Language Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Smil20Language Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Smil20Language
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.smil20language(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.smil20language(v=VS.90)
 ms:contentKeyID: 35520937
 ms.date: 06/14/2012
 mtps_version: v=VS.90

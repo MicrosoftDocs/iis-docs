@@ -34,7 +34,7 @@ Web PI tasks can be divided into three phases:
 
 Web PI installs products using one of three technologies:
 
-- To install Windows® operating system components (for example, IIS), Web PI uses Windows operating system [tools and interfaces](https://technet.microsoft.com/en-us/library/cc776554(WS.10).aspx) such as [PKGMGR](https://technet.microsoft.com/en-us/library/cc749302(WS.10).aspx).
+- To install Windows® operating system components (for example, IIS), Web PI uses Windows operating system [tools and interfaces](https://technet.microsoft.com/library/cc776554(WS.10).aspx) such as [PKGMGR](https://technet.microsoft.com/library/cc749302(WS.10).aspx).
 - To install non-operating system platform components, (for example, SQL Server 2008/R2 Express) Web PI uses the Windows® Installer technology (also known as MSI).
 - To install Web applications (for example, WordPress, Silverstripe, or DasBlog), Web PI uses the Microsoft® Web Deployment Tool.
 
@@ -85,7 +85,7 @@ Operating system components on Windows Vista, Windows 7, Windows Server 2008, an
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample1.cmd)]
 
 
-For more information, see [Optional Component Setup Log Diagnoser](https://technet.microsoft.com/en-us/library/cc732334.aspx).
+For more information, see [Optional Component Setup Log Diagnoser](https://technet.microsoft.com/library/cc732334.aspx).
 
 IIS 7.0 (Windows Vista and Windows Server 2008) and IIS 7.5 (Windows 7 and Windows Server 2008 R2) setup generates a separate setup log file, located in the `%windir%` directory. You can open this log file with the command:
 
@@ -167,7 +167,7 @@ Web PI downloads its product catalog and the product packages through HTTP reque
 
 ### Process Monitor
 
-[Process Monitor](https://technet.microsoft.com/en-us/sysinternals/bb896645.aspx) is an advanced monitoring tool for Windows that shows real-time file system, registry, and process/thread activity. In the Web PI case Process Monitor can be used to monitor the activity of install programs.
+[Process Monitor](https://technet.microsoft.com/sysinternals/bb896645.aspx) is an advanced monitoring tool for Windows that shows real-time file system, registry, and process/thread activity. In the Web PI case Process Monitor can be used to monitor the activity of install programs.
 
 ### Windows Event Log
 

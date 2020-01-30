@@ -2,7 +2,7 @@
 title: TransformManagerService.GetJobFiles Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobFiles Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobFiles(Microsoft.Web.Media.TransformManager.JobDetails)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobfiles(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobfiles(v=VS.90)
 ms:contentKeyID: 35520798
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: JobDefinition.LogRetentionPeriodMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogRetentionPeriodMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodMinutes
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.logretentionperiodminutes(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.logretentionperiodminutes(v=VS.90)
 ms:contentKeyID: 35521008
 ms.date: 06/14/2012
 mtps_version: v=VS.90

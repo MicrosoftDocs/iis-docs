@@ -2,7 +2,7 @@
 title: CacheRequest2 Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest2 Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.CacheRequest2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest2_methods(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2_methods(v=VS.95)
 ms:contentKeyID: 46307588
 ms.date: 05/31/2012
 mtps_version: v=VS.95

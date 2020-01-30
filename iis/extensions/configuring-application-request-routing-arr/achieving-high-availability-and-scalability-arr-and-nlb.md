@@ -330,8 +330,8 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
     - [https://support.microsoft.com/?id=313299](https://support.microsoft.com/?id=313299)
 - Other NLB links: 
 
-    - [https://technet.microsoft.com/en-us/library/cc782694.aspx](https://technet.microsoft.com/en-us/library/cc782694.aspx)
-    - [https://technet.microsoft.com/en-us/library/cc778263.aspx](https://technet.microsoft.com/en-us/library/cc778263.aspx)
+    - [https://technet.microsoft.com/library/cc782694.aspx](https://technet.microsoft.com/library/cc782694.aspx)
+    - [https://technet.microsoft.com/library/cc778263.aspx](https://technet.microsoft.com/library/cc778263.aspx)
     - [https://support.microsoft.com/kb/323437](https://support.microsoft.com/kb/323437)
     - [https://support.microsoft.com/kb/890159/en-us](https://support.microsoft.com/kb/890159/en-us)
     - [https://blogs.msdn.com/clustering](https://blogs.msdn.com/clustering)

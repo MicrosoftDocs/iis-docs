@@ -50,7 +50,7 @@ The framework is accessible via a public API as well as via a command-line execu
 
 Web Deploy can synchronize any kind of data between two locations through the use of its built-in providers which plug into the framework. Providers know how to synchronize a particular type of data between two sources, or retrieve useful information about the data source.
 
-For example, Web Deploy has a provider that works with SQL databases (dbFullSql) that can synchronize an entire SQL Server database to another server. Other built-in providers synchronize MySQL databases (dbMySql), IIS 7 configuration (appHostConfig), GAC assemblies (gacAssembly), or COM objects (comObject32/comObject64). [A more complete listing](https://technet.microsoft.com/en-us/library/dd569040(WS.10).aspx) can be found on TechNet.
+For example, Web Deploy has a provider that works with SQL databases (dbFullSql) that can synchronize an entire SQL Server database to another server. Other built-in providers synchronize MySQL databases (dbMySql), IIS 7 configuration (appHostConfig), GAC assemblies (gacAssembly), or COM objects (comObject32/comObject64). [A more complete listing](https://technet.microsoft.com/library/dd569040(WS.10).aspx) can be found on TechNet.
 
 The provider model is extensible and lets developers write their own providers for Web Deploy if they need to synchronize custom data.
 
@@ -66,4 +66,4 @@ When a source initiates an action through Web Deploy, the Web Deploy Framework e
 
 ## To Learn More
 
-Please visit our [walkthrough tutorials on iis.net](../deploying-application-packages/index.md) and our [technet documentation](https://technet.microsoft.com/en-us/library/dd568996(v=ws.10).aspx).
+Please visit our [walkthrough tutorials on iis.net](../deploying-application-packages/index.md) and our [technet documentation](https://technet.microsoft.com/library/dd568996(v=ws.10).aspx).

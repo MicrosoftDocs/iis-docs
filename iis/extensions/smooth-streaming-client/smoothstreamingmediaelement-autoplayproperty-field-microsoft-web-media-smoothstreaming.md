@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.AutoPlayProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AutoPlayProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AutoPlayProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.autoplayproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.autoplayproperty(v=VS.90)
 ms:contentKeyID: 23961276
 ms.date: 05/02/2012
 mtps_version: v=VS.90

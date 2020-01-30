@@ -2,7 +2,7 @@
 title: IManifestStream.GetAttribute Method
 TOCTitle: GetAttribute Method
 ms:assetid: 06636435-83a0-44e8-ad4c-992afdfa58bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822669(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822669(v=VS.90)
 ms:contentKeyID: 50079424
 ms.date: 11/19/2012
 mtps_version: v=VS.90

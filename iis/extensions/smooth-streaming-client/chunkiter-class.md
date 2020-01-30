@@ -2,7 +2,7 @@
 title: ChunkIter Class
 TOCTitle: ChunkIter Class
 ms:assetid: 015c26af-c923-407e-9fae-ca3f848770b7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ851081(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ851081(v=VS.90)
 ms:contentKeyID: 50079420
 ms.date: 11/19/2012
 mtps_version: v=VS.90

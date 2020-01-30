@@ -2,7 +2,7 @@
 title: JobManager.LastModified Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LastModified Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LastModified
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.lastmodified(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.lastmodified(v=VS.90)
 ms:contentKeyID: 35520601
 ms.date: 06/14/2012
 mtps_version: v=VS.90

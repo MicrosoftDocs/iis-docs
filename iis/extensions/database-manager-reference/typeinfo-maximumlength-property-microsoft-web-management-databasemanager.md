@@ -2,7 +2,7 @@
 title: TypeInfo.MaximumLength Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: MaximumLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MaximumLength
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.maximumlength(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.maximumlength(v=VS.90)
 ms:contentKeyID: 20476695
 ms.date: 05/02/2012
 mtps_version: v=VS.90

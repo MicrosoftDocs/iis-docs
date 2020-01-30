@@ -2,7 +2,7 @@
 title: JobDetails.JobDetailsPriority Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsPriority Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsPriority
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdetailspriority(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailspriority(v=VS.90)
 ms:contentKeyID: 35521175
 ms.date: 06/14/2012
 mtps_version: v=VS.90

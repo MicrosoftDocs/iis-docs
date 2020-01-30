@@ -2,7 +2,7 @@
 title: ForeignKey Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKey Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.ForeignKey.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.foreignkey.foreignkey(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.foreignkey(v=VS.90)
 ms:contentKeyID: 20476753
 ms.date: 05/02/2012
 mtps_version: v=VS.90

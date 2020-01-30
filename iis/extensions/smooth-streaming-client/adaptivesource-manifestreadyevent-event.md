@@ -2,7 +2,7 @@
 title: AdaptiveSource.ManifestReadyEvent Event
 TOCTitle: ManifestReadyEvent Event
 ms:assetid: 0de1bf24-1507-4a3d-a275-e8b715fd7026
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822678(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822678(v=VS.90)
 ms:contentKeyID: 50079433
 ms.date: 11/19/2012
 mtps_version: v=VS.90

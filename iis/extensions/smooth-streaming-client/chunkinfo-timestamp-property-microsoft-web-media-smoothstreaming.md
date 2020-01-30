@@ -2,7 +2,7 @@
 title: ChunkInfo.TimeStamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TimeStamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.TimeStamp
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkinfo.timestamp(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.timestamp(v=VS.90)
 ms:contentKeyID: 31469322
 ms.date: 05/02/2012
 mtps_version: v=VS.90

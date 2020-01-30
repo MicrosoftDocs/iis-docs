@@ -2,7 +2,7 @@
 title: TrackInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TrackInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.TrackInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo(v=VS.90)
 ms:contentKeyID: 23961182
 ms.date: 05/02/2012
 mtps_version: v=VS.90

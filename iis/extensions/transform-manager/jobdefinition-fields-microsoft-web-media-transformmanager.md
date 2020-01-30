@@ -2,7 +2,7 @@
 title: JobDefinition Fields (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.JobDefinition
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition_fields(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition_fields(v=VS.90)
 ms:contentKeyID: 35521183
 ms.date: 06/14/2012
 mtps_version: v=VS.90

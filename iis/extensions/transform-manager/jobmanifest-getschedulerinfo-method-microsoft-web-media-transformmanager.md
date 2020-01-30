@@ -2,7 +2,7 @@
 title: JobManifest.GetSchedulerInfo Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetSchedulerInfo Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetSchedulerInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.getschedulerinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.getschedulerinfo(v=VS.90)
 ms:contentKeyID: 35520989
 ms.date: 06/14/2012
 mtps_version: v=VS.90

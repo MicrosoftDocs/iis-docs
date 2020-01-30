@@ -2,7 +2,7 @@
 title: Manifest.MinorVersion Property
 TOCTitle: MinorVersion Property
 ms:assetid: e11e9da6-93cc-4ad3-ac35-15628cf853b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822851(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822851(v=VS.90)
 ms:contentKeyID: 50079605
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Index.GetChanges Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetChanges Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Index.GetChanges(Microsoft.Web.Management.DatabaseManager.IndexChanges)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.getchanges(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.getchanges(v=VS.90)
 ms:contentKeyID: 20476399
 ms.date: 05/02/2012
 mtps_version: v=VS.90

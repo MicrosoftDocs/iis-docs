@@ -67,12 +67,12 @@ The following table contains information about SQL Server and Internet Informati
 
 | **For information about** | **See** |
 | --- | --- |
-| IIS security with SQL Server Compact 3.5 SP1 | [IIS Security in SQL Server Compact 3.5 SP1 Books Online](https://technet.microsoft.com/en-us/library/bb283235.aspx) |
+| IIS security with SQL Server Compact 3.5 SP1 | [IIS Security in SQL Server Compact 3.5 SP1 Books Online](https://technet.microsoft.com/library/bb283235.aspx) |
 | Using Web services in SQL Server and IIS | [Best Practices for Using Native XML Web Services](https://msdn.microsoft.com/library/ms190399.aspx) |
 | Report servers and Internet access | [Planning for Extranet or Internet Deployment](https://msdn.microsoft.com/library/ms159272.aspx) |
 | Setting up forms security on a report server | [Readme\_Security Extension Sample](https://msdn.microsoft.com/library/ms160724.aspx) |
 | Reporting Services Authentication | [Authentication in Reporting Services](https://msdn.microsoft.com/library/ms152899.aspx) |
-| SQL Server Compact 3.5 SP1 and IIS access | [Internet Information Services Security Flowchart in SQL Server Compact 3.5 SP1 Books Online](https://technet.microsoft.com/en-us/library/ms172389.aspx) |
+| SQL Server Compact 3.5 SP1 and IIS access | [Internet Information Services Security Flowchart in SQL Server Compact 3.5 SP1 Books Online](https://technet.microsoft.com/library/ms172389.aspx) |
 
 ### SQL Server Operating System Files Security
 

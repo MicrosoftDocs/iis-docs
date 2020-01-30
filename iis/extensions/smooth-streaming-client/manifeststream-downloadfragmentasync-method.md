@@ -2,7 +2,7 @@
 title: ManifestStream.DownloadFragmentAsync Method
 TOCTitle: DownloadFragmentAsync Method
 ms:assetid: 91f7430b-8fd6-40b4-98ef-8d6caabe5b10
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822783(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822783(v=VS.90)
 ms:contentKeyID: 50079537
 ms.date: 11/19/2012
 mtps_version: v=VS.90

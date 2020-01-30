@@ -2,7 +2,7 @@
 title: Scheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.Dispose
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.scheduler.dispose(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.dispose(v=VS.90)
 ms:contentKeyID: 35520885
 ms.date: 06/14/2012
 mtps_version: v=VS.90

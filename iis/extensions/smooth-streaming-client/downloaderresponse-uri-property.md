@@ -2,7 +2,7 @@
 title: DownloaderResponse.Uri Property
 TOCTitle: Uri Property
 ms:assetid: 96aab3f5-03e6-4479-82c2-56393cd14086
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822788(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822788(v=VS.90)
 ms:contentKeyID: 50079542
 ms.date: 11/19/2012
 mtps_version: v=VS.90

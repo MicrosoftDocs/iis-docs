@@ -2,7 +2,7 @@
 title: JobDefinition.SchedulerMemory Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerMemory Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemory
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulermemory(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulermemory(v=VS.90)
 ms:contentKeyID: 35520997
 ms.date: 06/14/2012
 mtps_version: v=VS.90

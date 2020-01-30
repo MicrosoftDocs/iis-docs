@@ -2,7 +2,7 @@
 title: CircularList(T).Add Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Add Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.Add(`0)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728132(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728132(v=VS.90)
 ms:contentKeyID: 31469152
 ms.date: 05/02/2012
 mtps_version: v=VS.90

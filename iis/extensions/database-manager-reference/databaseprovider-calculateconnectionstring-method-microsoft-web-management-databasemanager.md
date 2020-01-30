@@ -2,7 +2,7 @@
 title: DatabaseProvider.CalculateConnectionString Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: CalculateConnectionString Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.CalculateConnectionString(System.Collections.Generic.ICollection{Microsoft.Web.Management.DatabaseManager.ConnectionArgument})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider.calculateconnectionstring(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.calculateconnectionstring(v=VS.90)
 ms:contentKeyID: 20476444
 ms.date: 05/02/2012
 mtps_version: v=VS.90

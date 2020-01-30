@@ -2,7 +2,7 @@
 title: IPlaylistProvider::GetPlaylistInfo Method
 TOCTitle: IPlaylistProvider::GetPlaylistInfo Method
 ms:assetid: d702aa1e-2df9-489c-903f-f678982bdd53
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146292(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146292(v=VS.90)
 ms:contentKeyID: 19132363
 ms.date: 05/02/2012
 mtps_version: v=VS.90

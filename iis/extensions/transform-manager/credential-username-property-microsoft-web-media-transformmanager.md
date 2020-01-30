@@ -2,7 +2,7 @@
 title: Credential.UserName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: UserName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.UserName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.credential.username(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.username(v=VS.90)
 ms:contentKeyID: 35520664
 ms.date: 06/14/2012
 mtps_version: v=VS.90

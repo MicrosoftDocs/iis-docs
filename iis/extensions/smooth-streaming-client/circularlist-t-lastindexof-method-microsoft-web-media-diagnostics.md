@@ -2,7 +2,7 @@
 title: CircularList(T).LastIndexOf Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: LastIndexOf Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.LastIndexOf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728170(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728170(v=VS.90)
 ms:contentKeyID: 31469190
 ms.date: 05/02/2012
 mtps_version: v=VS.90

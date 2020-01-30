@@ -2,7 +2,7 @@
 title: IPlaylistFileInfo::LastModifiedTime Property
 TOCTitle: IPlaylistFileInfo::LastModifiedTime Property
 ms:assetid: 36887ce1-2e87-4cde-956c-e98464345e7d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146261(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146261(v=VS.90)
 ms:contentKeyID: 19132332
 ms.date: 05/02/2012
 mtps_version: v=VS.90

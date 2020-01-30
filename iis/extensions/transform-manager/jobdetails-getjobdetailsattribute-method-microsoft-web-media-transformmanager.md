@@ -2,7 +2,7 @@
 title: JobDetails.GetJobDetailsAttribute Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobDetailsAttribute Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.GetJobDetailsAttribute(Microsoft.Web.Media.TransformManager.JobDetailsField)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.getjobdetailsattribute(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.getjobdetailsattribute(v=VS.90)
 ms:contentKeyID: 35520757
 ms.date: 06/14/2012
 mtps_version: v=VS.90

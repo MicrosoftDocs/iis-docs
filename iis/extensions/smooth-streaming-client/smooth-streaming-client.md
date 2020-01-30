@@ -2,7 +2,7 @@
 title: Smooth Streaming Client
 TOCTitle: Smooth Streaming Client
 ms:assetid: 7d431a89-c44b-4ffa-82ec-00049ba9fd4c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh943091(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh943091(v=VS.90)
 ms:contentKeyID: 46305586
 ms.date: 06/01/2012
 mtps_version: v=VS.90

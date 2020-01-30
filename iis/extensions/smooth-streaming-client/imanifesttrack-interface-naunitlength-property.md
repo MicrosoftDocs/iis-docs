@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.NAUnitLength Property
 TOCTitle: NAUnitLength Property
 ms:assetid: 767610fd-bd09-4817-902a-8b23f87babc6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822760(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822760(v=VS.90)
 ms:contentKeyID: 50079515
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: StreamUpdatedEventArgs Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedEventArgs Constructor
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.#ctor(Microsoft.Web.Media.SmoothStreaming.StreamInfo,Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction,System.Nullable{System.TimeSpan})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.streamupdatedeventargs(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.streamupdatedeventargs(v=VS.95)
 ms:contentKeyID: 46307365
 ms.date: 05/31/2012
 mtps_version: v=VS.95

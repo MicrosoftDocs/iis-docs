@@ -2,7 +2,7 @@
 title: ClipProgress Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipProgress Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipProgress
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipprogress(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipprogress(v=VS.95)
 ms:contentKeyID: 46307953
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -2,7 +2,7 @@
 title: IPlaylistFileInfo::FileSize Property
 TOCTitle: IPlaylistFileInfo::FileSize Property
 ms:assetid: 68be47e6-6405-4f61-9747-60dfc046a0b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146273(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146273(v=VS.90)
 ms:contentKeyID: 19132344
 ms.date: 05/02/2012
 mtps_version: v=VS.90

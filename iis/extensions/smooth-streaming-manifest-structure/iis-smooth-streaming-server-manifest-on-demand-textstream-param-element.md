@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Server Manifest (On-Demand) - textstream param Element
 TOCTitle: <param>
 ms:assetid: f91007b5-e98d-41e1-ae11-769c5f948203
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee230822(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee230822(v=VS.90)
 ms:contentKeyID: 22049450
 ms.date: 05/02/2012
 mtps_version: v=VS.90

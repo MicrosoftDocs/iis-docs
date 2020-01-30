@@ -112,7 +112,7 @@ The following are requirements for installing this role, depending on if you ins
 
 If you are planning to use Microsoft Deployment, see the detailed listing of required infrastructure:
 
-- Microsoft Deployment and LTI deployment: See "[System Requirements](https://technet.microsoft.com/en-us/library/bb891793.aspx)," in the *Getting Started Guide.*
+- Microsoft Deployment and LTI deployment: See "[System Requirements](https://technet.microsoft.com/library/bb891793.aspx)," in the *Getting Started Guide.*
 - ZTI: See "Ensure that the Required Infrastructure Exists for ZTI," in *Infrastructure Remediation Feature Team Guide.*
 
 <a id="DetermineRules"></a>
@@ -140,4 +140,4 @@ This is particularly important in complex deployments that require SCCM. The ZTI
 
 For complex deployments that require MD Toolkit and/or SCCM, ensure that all team members are properly trained to deploy, manage, operate, troubleshoot, and support the deployment process and the migrated computers. Customize the training for each team.
 
-See details at: [https://technet.microsoft.com/en-us/library/bb960436.aspx#EBAA](https://technet.microsoft.com/en-us/library/bb960436.aspx#EBAA)
+See details at: [https://technet.microsoft.com/library/bb960436.aspx#EBAA](https://technet.microsoft.com/library/bb960436.aspx#EBAA)

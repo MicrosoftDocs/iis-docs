@@ -2,7 +2,7 @@
 title: Microsoft.Web.Media Namespace Reference
 TOCTitle: Microsoft.Web.Media Namespace Reference
 ms:assetid: bf56a9c5-1c38-423c-a132-4a09292400bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ131269(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ131269(v=VS.95)
 ms:contentKeyID: 46691275
 ms.date: 05/31/2012
 mtps_version: v=VS.95

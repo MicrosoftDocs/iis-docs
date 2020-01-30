@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.Volume Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Volume Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Volume
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.volume(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.volume(v=VS.90)
 ms:contentKeyID: 23961250
 ms.date: 05/02/2012
 mtps_version: v=VS.90

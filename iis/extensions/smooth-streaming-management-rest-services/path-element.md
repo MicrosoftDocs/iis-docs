@@ -2,7 +2,7 @@
 title: Path Element
 TOCTitle: Path Element
 ms:assetid: 6614def7-9f48-4b36-a478-7481e436a74f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547044(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547044(v=VS.90)
 ms:contentKeyID: 37836885
 ms.date: 05/02/2012
 mtps_version: v=VS.90

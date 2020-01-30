@@ -2,7 +2,7 @@
 title: StreamUpdatedEventArgs.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timestamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Timestamp
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.timestamp(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.timestamp(v=VS.90)
 ms:contentKeyID: 31469237
 ms.date: 05/02/2012
 mtps_version: v=VS.90

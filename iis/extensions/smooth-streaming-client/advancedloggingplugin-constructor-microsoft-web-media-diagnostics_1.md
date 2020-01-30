@@ -2,7 +2,7 @@
 title: AdvancedLoggingPlugin Constructor  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: AdvancedLoggingPlugin Constructor
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.advancedloggingplugin.advancedloggingplugin(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.advancedloggingplugin(v=VS.95)
 ms:contentKeyID: 46307611
 ms.date: 05/31/2012
 mtps_version: v=VS.95

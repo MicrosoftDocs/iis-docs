@@ -2,7 +2,7 @@
 title: QueryColumnMetadata Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryColumnMetadata Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.querycolumnmetadata_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata_methods(v=VS.90)
 ms:contentKeyID: 20476417
 ms.date: 05/02/2012
 mtps_version: v=VS.90

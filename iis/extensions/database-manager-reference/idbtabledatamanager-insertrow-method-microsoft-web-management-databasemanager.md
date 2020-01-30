@@ -2,7 +2,7 @@
 title: IDbTableDataManager.InsertRow Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: InsertRow Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.InsertRow(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Web.Management.DatabaseManager.ColumnDataInfo})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbtabledatamanager.insertrow(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager.insertrow(v=VS.90)
 ms:contentKeyID: 20476803
 ms.date: 05/02/2012
 mtps_version: v=VS.90

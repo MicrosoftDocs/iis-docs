@@ -2,7 +2,7 @@
 title: Track Element
 TOCTitle: Track Element
 ms:assetid: dfb6118c-e5ab-44ec-8f49-b95cd848e3a8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547067(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547067(v=VS.90)
 ms:contentKeyID: 37836908
 ms.date: 05/02/2012
 mtps_version: v=VS.90

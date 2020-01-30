@@ -2,7 +2,7 @@
 title: AdaptiveSourceStatusUpdatedEventArgs.StartTime Property
 TOCTitle: StartTime Property
 ms:assetid: 77f6c5f3-8b67-488b-84b3-3a8b83dc6f58
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822761(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822761(v=VS.90)
 ms:contentKeyID: 50079516
 ms.date: 11/19/2012
 mtps_version: v=VS.90

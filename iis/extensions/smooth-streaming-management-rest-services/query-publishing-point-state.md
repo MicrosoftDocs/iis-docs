@@ -2,7 +2,7 @@
 title: Query Publishing Point State
 TOCTitle: Query Publishing Point State
 ms:assetid: 60bb6b60-4909-416d-9183-1afede0cb26c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh206010(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh206010(v=VS.90)
 ms:contentKeyID: 35990944
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Tracing.IncludeMediaElementId Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeMediaElementId Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeMediaElementId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.includemediaelementid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includemediaelementid(v=VS.90)
 ms:contentKeyID: 23961103
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.Bitrate Property
 TOCTitle: Bitrate Property
 ms:assetid: f201f570-f172-4655-b12f-eeccbb146346
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822872(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822872(v=VS.90)
 ms:contentKeyID: 50079626
 ms.date: 11/19/2012
 mtps_version: v=VS.90

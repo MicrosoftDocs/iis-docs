@@ -2,7 +2,7 @@
 title: QueryResult.QueryResults Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResults Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryResult.QueryResults
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.queryresult.queryresults(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult.queryresults(v=VS.90)
 ms:contentKeyID: 20476478
 ms.date: 05/02/2012
 mtps_version: v=VS.90

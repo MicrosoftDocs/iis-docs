@@ -2,7 +2,7 @@
 title: Index Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Index Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Index.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.index(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.index(v=VS.90)
 ms:contentKeyID: 20476627
 ms.date: 05/02/2012
 mtps_version: v=VS.90

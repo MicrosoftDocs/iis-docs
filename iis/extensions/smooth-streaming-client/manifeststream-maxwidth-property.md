@@ -2,7 +2,7 @@
 title: ManifestStream.MaxWidth Property
 TOCTitle: MaxWidth Property
 ms:assetid: 99af3308-f641-4351-842b-7491247d67a4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822791(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822791(v=VS.90)
 ms:contentKeyID: 50079545
 ms.date: 11/19/2012
 mtps_version: v=VS.90

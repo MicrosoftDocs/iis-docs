@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.LivePlaybackOffsetProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePlaybackOffsetProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackOffsetProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackoffsetproperty(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackoffsetproperty(v=VS.95)
 ms:contentKeyID: 46307561
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -61,9 +61,9 @@ Change the location of an IIS log file to a remote share as follows:
 2. In the folder's **Properties** page, on the **Sharing** tab, click **Share** so that the directory is shared. On the **Security** tab, assign groups and users with the appropriate permissions. Ensure that the appropriate groups and users are able to read and write to the log files.
     ![Log Folder Properties](managing-iis-log-file-storage/_static/image2.jpg)
 
-    For more information, see [Configuring Permissions for Remote Logging](https://technet.microsoft.com/en-us/library/cc779701(v=ws.10).aspx).
+    For more information, see [Configuring Permissions for Remote Logging](https://technet.microsoft.com/library/cc779701(v=ws.10).aspx).
 
-    Note: If you want to write log files to a remote server in a different domain, see [Setting Up a Null Session for Cross-Domain Logging](https://technet.microsoft.com/en-us/library/cc728059(v=ws.10).aspx).
+    Note: If you want to write log files to a remote server in a different domain, see [Setting Up a Null Session for Cross-Domain Logging](https://technet.microsoft.com/library/cc728059(v=ws.10).aspx).
 3. Open **IIS Manager** on your local Web server.
 4. In **IIS Manager**, in the **Connections** pane, click the server or a Web site.
 5. Double-click **Logging**.
@@ -72,7 +72,7 @@ Change the location of an IIS log file to a remote share as follows:
     ![Logging Page](managing-iis-log-file-storage/_static/image4.jpg)
 7. In the **Actions** pane, click **Apply**, and then click **OK**. All Web sites within the directory should begin logging data to the remote share.
 
-    For more information, see [Remote Logging](https://technet.microsoft.com/en-us/library/cc786172(v=ws.10).aspx).
+    For more information, see [Remote Logging](https://technet.microsoft.com/library/cc786172(v=ws.10).aspx).
 
 <a id="02"></a>
 ## Delete Old Log Files by Script

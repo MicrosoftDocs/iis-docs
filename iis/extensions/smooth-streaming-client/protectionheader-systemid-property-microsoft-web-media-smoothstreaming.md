@@ -2,7 +2,7 @@
 title: ProtectionHeader.SystemID Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SystemID Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.protectionheader.systemid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader.systemid(v=VS.90)
 ms:contentKeyID: 31469272
 ms.date: 05/02/2012
 mtps_version: v=VS.90

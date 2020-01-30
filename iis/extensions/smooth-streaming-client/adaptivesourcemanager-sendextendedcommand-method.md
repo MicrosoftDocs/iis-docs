@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager.SendExtendedCommand Method
 TOCTitle: SendExtendedCommand Method
 ms:assetid: eb8c0537-f09d-4e22-b557-bd4d3dccb1aa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822864(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822864(v=VS.90)
 ms:contentKeyID: 50079618
 ms.date: 11/19/2012
 mtps_version: v=VS.90

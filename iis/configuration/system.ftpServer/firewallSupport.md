@@ -145,7 +145,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 For additional information about how to configure the firewall settings for the FTP service, see the following topic on the Microsoft IIS.net Web site:
 
 > **Configuring FTP Firewall Settings**  
-> [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/en-us/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
+> [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
 
 
 <a id="005"></a>

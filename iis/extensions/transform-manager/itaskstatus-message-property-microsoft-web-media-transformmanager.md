@@ -2,7 +2,7 @@
 title: ITaskStatus.Message Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Message Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ITaskStatus.Message
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.itaskstatus.message(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus.message(v=VS.90)
 ms:contentKeyID: 46408742
 ms.date: 06/14/2012
 mtps_version: v=VS.90

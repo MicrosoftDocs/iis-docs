@@ -2,7 +2,7 @@
 title: Query Publishing Point Settings
 TOCTitle: Query Publishing Point Settings
 ms:assetid: b26b9f05-4350-456f-8aee-33aaec45b193
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh206012(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh206012(v=VS.90)
 ms:contentKeyID: 35990946
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Column.Changes Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Changes Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Changes
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.changes(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.changes(v=VS.90)
 ms:contentKeyID: 20476650
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IDownloaderPlugin Interface
 TOCTitle: IDownloaderPlugin Interface
 ms:assetid: 8ea37240-a2f6-44b4-9670-d39e28db3bcb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822781(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822781(v=VS.90)
 ms:contentKeyID: 50079535
 ms.date: 11/19/2012
 mtps_version: v=VS.90

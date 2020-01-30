@@ -2,7 +2,7 @@
 title: Test and Debug Applications
 TOCTitle: Test and Debug Applications
 ms:assetid: 1810c277-c032-4eac-8f41-74a4623294bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958030(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958030(v=VS.95)
 ms:contentKeyID: 46359317
 ms.date: 05/31/2012
 mtps_version: v=VS.95
