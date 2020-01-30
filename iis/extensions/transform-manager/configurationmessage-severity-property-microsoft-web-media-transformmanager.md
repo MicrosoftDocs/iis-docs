@@ -2,7 +2,7 @@
 title: ConfigurationMessage.Severity Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Severity Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.Severity
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.severity(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.severity(v=VS.90)
 ms:contentKeyID: 35520952
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IAdaptiveSourceManager Interface
 TOCTitle: IAdaptiveSourceManager Interface
 ms:assetid: 1eb62758-d31e-4b24-9251-db31f5ad9015
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822695(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822695(v=VS.90)
 ms:contentKeyID: 50079450
 ms.date: 11/19/2012
 mtps_version: v=VS.90

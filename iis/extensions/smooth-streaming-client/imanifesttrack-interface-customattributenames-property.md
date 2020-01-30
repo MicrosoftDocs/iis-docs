@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.CustomAttributeNames Property
 TOCTitle: CustomAttributeNames Property
 ms:assetid: 08043f81-e8bb-4e50-9614-b05abdee82b7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822672(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822672(v=VS.90)
 ms:contentKeyID: 50079427
 ms.date: 11/19/2012
 mtps_version: v=VS.90

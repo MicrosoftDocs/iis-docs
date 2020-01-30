@@ -2,7 +2,7 @@
 title: InputStream Element
 TOCTitle: InputStream Element
 ms:assetid: 8c8fdfa3-cb65-4c5c-ae53-e86c981ca857
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547050(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547050(v=VS.90)
 ms:contentKeyID: 37836891
 ms.date: 05/02/2012
 mtps_version: v=VS.90

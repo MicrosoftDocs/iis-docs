@@ -2,7 +2,7 @@
 title: IAdaptiveSourceManager.SetBufferDelay Method
 TOCTitle: SetBufferDelay Method
 ms:assetid: b2d1afc0-9653-4bbe-bf18-48700a9bec4c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822812(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822812(v=VS.90)
 ms:contentKeyID: 50079566
 ms.date: 11/19/2012
 mtps_version: v=VS.90

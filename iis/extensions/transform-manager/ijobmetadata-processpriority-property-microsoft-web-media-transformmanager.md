@@ -2,7 +2,7 @@
 title: IJobMetadata.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.ProcessPriority
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata.processpriority(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.processpriority(v=VS.90)
 ms:contentKeyID: 36868652
 ms.date: 06/14/2012
 mtps_version: v=VS.90

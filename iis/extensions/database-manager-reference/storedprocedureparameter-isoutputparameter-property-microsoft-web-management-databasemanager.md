@@ -2,7 +2,7 @@
 title: StoredProcedureParameter.IsOutputParameter Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsOutputParameter Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsOutputParameter
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter.isoutputparameter(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.isoutputparameter(v=VS.90)
 ms:contentKeyID: 20476439
 ms.date: 05/02/2012
 mtps_version: v=VS.90

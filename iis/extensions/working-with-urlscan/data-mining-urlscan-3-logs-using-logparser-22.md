@@ -11,7 +11,7 @@ Data Mining UrlScan 3 Logs using LogParser 2.2
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
-Microsoft has released version 3.1 of [UrlScan](index.md), and one of the great new features in this version is log files that conform to the [W3C Extended Log File Format](http://www.w3.org/TR/WD-logfile). What this means to administrators is that they can now parse their UrlScan activity using almost any common log utilities, including Microsoft's [LogParser 2.2](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility, which is a freeware utility from Microsoft that allows you to write SQL-style queries to extract useful information.
+Microsoft has released version 3.1 of [UrlScan](index.md), and one of the great new features in this version is log files that conform to the [W3C Extended Log File Format](http://www.w3.org/TR/WD-logfile). What this means to administrators is that they can now parse their UrlScan activity using almost any common log utilities, including Microsoft's [LogParser 2.2](https://www.microsoft.com/download/details.aspx?id=24659) utility, which is a freeware utility from Microsoft that allows you to write SQL-style queries to extract useful information.
 
 <a id="001"></a>
 
@@ -33,7 +33,7 @@ The download locations for UrlScan are listed in the "Getting UrlScan" section o
 LogParser is available from the following URL:
 
 
-[https://www.iis.net/go/1287](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
+[https://www.iis.net/go/1287](https://www.microsoft.com/download/details.aspx?id=24659)
 
 > [!NOTE]
 > LogParser is a 32-bit application, but you can use it on a 64-bit Windows system.

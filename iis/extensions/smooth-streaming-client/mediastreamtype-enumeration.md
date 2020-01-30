@@ -2,7 +2,7 @@
 title: MediaStreamType Enumeration
 TOCTitle: MediaStreamType Enumeration
 ms:assetid: 7ed200bf-14e6-494d-a306-79421f71d9e7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ573687(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ573687(v=VS.90)
 ms:contentKeyID: 49080928
 ms.date: 11/19/2012
 mtps_version: v=VS.90

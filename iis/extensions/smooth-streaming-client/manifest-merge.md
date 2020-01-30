@@ -2,7 +2,7 @@
 title: Manifest Merge
 TOCTitle: Manifest Merge
 ms:assetid: 895dbdd8-5069-4214-a18d-1e54b9986288
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff432455(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff432455(v=VS.95)
 ms:contentKeyID: 46359330
 ms.date: 05/31/2012
 mtps_version: v=VS.95

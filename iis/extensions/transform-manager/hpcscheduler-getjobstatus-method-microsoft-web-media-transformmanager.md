@@ -2,7 +2,7 @@
 title: HpcScheduler.GetJobStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetJobStatus(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler.getjobstatus(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.getjobstatus(v=VS.90)
 ms:contentKeyID: 35520702
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -55,7 +55,7 @@ The following diagram illustrates how a user is first connected to and authorize
  e. In the **Allow User** dialog box, select the type of user (Windows or IIS Manager), then click **Select** to choose the user's account.  
  f. Click **OK** to dismiss the **Allow User** dialog box.
 
-For more information about IIS Manager user accounts, see [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/en-us/library/cc770968.aspx "Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)").
+For more information about IIS Manager user accounts, see [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/library/cc770968.aspx "Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)").
 
 ### Part 2 – Create Delegation Rules for Web Deploy Users
 

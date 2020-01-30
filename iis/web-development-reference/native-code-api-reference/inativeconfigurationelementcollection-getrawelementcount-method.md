@@ -2,7 +2,7 @@
 title: INativeConfigurationElementCollection::GetRawElementCount Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::GetRawElementCount Method
 ms:assetid: f3d982ef-fecc-4101-8db2-6812590f9377
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee424825(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee424825(v=VS.90)
 ms:contentKeyID: 23044172
 ms.date: 05/24/2010
 mtps_version: v=VS.90

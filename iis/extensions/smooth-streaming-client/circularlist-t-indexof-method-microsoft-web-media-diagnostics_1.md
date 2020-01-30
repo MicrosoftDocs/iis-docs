@@ -2,7 +2,7 @@
 title: CircularList(T).IndexOf Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IndexOf Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.IndexOf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728271(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728271(v=VS.95)
 ms:contentKeyID: 46500558
 ms.date: 05/31/2012
 mtps_version: v=VS.95

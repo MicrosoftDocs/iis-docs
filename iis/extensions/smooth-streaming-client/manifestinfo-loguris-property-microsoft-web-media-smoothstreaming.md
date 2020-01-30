@@ -2,7 +2,7 @@
 title: ManifestInfo.LogUris Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LogUris Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.loguris(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.loguris(v=VS.90)
 ms:contentKeyID: 31469301
 ms.date: 05/02/2012
 mtps_version: v=VS.90

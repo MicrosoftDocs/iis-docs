@@ -2,7 +2,7 @@
 title: Microsoft Smooth Streaming Client for Windows 8
 TOCTitle: Microsoft Smooth Streaming Client for Windows 8
 ms:assetid: c4430e6a-6e18-41ae-880f-3585378f2769
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ573703(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ573703(v=VS.90)
 ms:contentKeyID: 49080944
 ms.date: 11/19/2012
 mtps_version: v=VS.90

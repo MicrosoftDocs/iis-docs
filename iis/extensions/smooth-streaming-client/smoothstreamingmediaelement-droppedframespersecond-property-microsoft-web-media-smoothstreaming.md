@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.DroppedFramesPerSecond Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DroppedFramesPerSecond Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DroppedFramesPerSecond
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.droppedframespersecond(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.droppedframespersecond(v=VS.90)
 ms:contentKeyID: 23961083
 ms.date: 05/02/2012
 mtps_version: v=VS.90

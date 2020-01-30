@@ -2,7 +2,7 @@
 title: JobDefinition.SetJobTemplates Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetJobTemplates Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.SetJobTemplates(System.Collections.ObjectModel.Collection{Microsoft.Web.Media.TransformManager.JobTemplate})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.setjobtemplates(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.setjobtemplates(v=VS.90)
 ms:contentKeyID: 35520739
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: TransformManagerService.UpdateJobScheduler Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateJobScheduler Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobScheduler(Microsoft.Web.Media.TransformManager.JobScheduler)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.transformmanagerservice.updatejobscheduler(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.updatejobscheduler(v=VS.90)
 ms:contentKeyID: 35520769
 ms.date: 06/14/2012
 mtps_version: v=VS.90

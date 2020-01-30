@@ -2,7 +2,7 @@
 title: CircularList(T).CopyTo Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CopyTo Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.CopyTo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728154(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728154(v=VS.95)
 ms:contentKeyID: 46500553
 ms.date: 05/31/2012
 mtps_version: v=VS.95

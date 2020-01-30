@@ -2,7 +2,7 @@
 title: ConfigurationMessage Constructor (XElement, ConfigurationBase) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Constructor (XElement, ConfigurationBase)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.Xml.Linq.XElement,Microsoft.Web.Media.TransformManager.ConfigurationBase)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
 ms:contentKeyID: 35520604
 ms.date: 06/14/2012
 mtps_version: v=VS.90

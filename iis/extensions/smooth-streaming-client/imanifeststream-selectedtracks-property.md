@@ -2,7 +2,7 @@
 title: IManifestStream.SelectedTracks Property
 TOCTitle: SelectedTracks Property
 ms:assetid: bca9989e-270d-4bf6-90ae-ae587b63855d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822818(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822818(v=VS.90)
 ms:contentKeyID: 50079572
 ms.date: 11/19/2012
 mtps_version: v=VS.90

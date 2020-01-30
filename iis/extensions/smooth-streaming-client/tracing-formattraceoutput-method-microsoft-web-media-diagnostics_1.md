@@ -2,7 +2,7 @@
 title: Tracing.FormatTraceOutput Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: FormatTraceOutput Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.FormatTraceOutput(Microsoft.Web.Media.Diagnostics.TraceEntry)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.formattraceoutput(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.formattraceoutput(v=VS.95)
 ms:contentKeyID: 46307618
 ms.date: 05/31/2012
 mtps_version: v=VS.95

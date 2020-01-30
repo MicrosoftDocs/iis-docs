@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Server Manifest (On-Demand) - switch Element
 TOCTitle: <switch>
 ms:assetid: 52109d46-962d-4421-8a91-256ef637614c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee230812(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee230812(v=VS.90)
 ms:contentKeyID: 22049440
 ms.date: 05/02/2012
 mtps_version: v=VS.90

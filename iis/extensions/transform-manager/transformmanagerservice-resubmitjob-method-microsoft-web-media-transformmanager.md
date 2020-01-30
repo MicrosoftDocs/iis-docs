@@ -2,7 +2,7 @@
 title: TransformManagerService.ResubmitJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: ResubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.ResubmitJob(Microsoft.Web.Media.TransformManager.JobDetails)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.transformmanagerservice.resubmitjob(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.resubmitjob(v=VS.90)
 ms:contentKeyID: 35521168
 ms.date: 06/14/2012
 mtps_version: v=VS.90

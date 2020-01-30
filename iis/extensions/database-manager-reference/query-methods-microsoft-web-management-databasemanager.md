@@ -2,7 +2,7 @@
 title: Query Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Query Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.Query
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.query_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query_methods(v=VS.90)
 ms:contentKeyID: 22049494
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.NaturalDurationProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalDurationProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalDurationProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturaldurationproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturaldurationproperty(v=VS.90)
 ms:contentKeyID: 23960948
 ms.date: 05/02/2012
 mtps_version: v=VS.90

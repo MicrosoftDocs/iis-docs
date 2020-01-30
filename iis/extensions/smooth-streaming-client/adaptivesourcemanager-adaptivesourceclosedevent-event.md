@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager.AdaptiveSourceClosedEvent Event
 TOCTitle: AdaptiveSourceClosedEvent Event
 ms:assetid: 5b610241-bcdf-45ae-8506-5bd604fe425a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822740(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822740(v=VS.90)
 ms:contentKeyID: 50079495
 ms.date: 11/19/2012
 mtps_version: v=VS.90

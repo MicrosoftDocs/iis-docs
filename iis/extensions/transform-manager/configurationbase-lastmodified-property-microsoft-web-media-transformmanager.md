@@ -2,7 +2,7 @@
 title: ConfigurationBase.LastModified Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LastModified Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LastModified
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.lastmodified(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.lastmodified(v=VS.90)
 ms:contentKeyID: 35520753
 ms.date: 06/14/2012
 mtps_version: v=VS.90

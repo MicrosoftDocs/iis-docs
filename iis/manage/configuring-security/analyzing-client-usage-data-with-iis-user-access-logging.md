@@ -19,7 +19,7 @@ by [Robert McMurray](https://github.com/rmcmurray)
 User Access Logging (UAL) is a built-in feature of Windows Server 2012 which allows administrators to collect data about client usage; you can find more information about UAL in the following article:
 
 **User Access Logging Overview**  
-[https://technet.microsoft.com/en-us/library/hh849634.aspx](https://technet.microsoft.com/en-us/library/hh849634.aspx)
+[https://technet.microsoft.com/library/hh849634.aspx](https://technet.microsoft.com/library/hh849634.aspx)
 
 Internet Information Services 8 ships with a command-line tool, IISUAL.EXE, which helps network administrators analyze the W3C log data from their web servers to determine the number of authenticated and anonymous users for their websites. The IISUAL.EXE utility will provide the user access information that it collects to the UAL APIs in Windows Server 2012 so that the data will be available through the UAL methods that are provided through WMI and PowerShell.
 

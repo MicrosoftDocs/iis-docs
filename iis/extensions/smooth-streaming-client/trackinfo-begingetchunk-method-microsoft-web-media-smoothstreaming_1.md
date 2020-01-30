@@ -2,7 +2,7 @@
 title: TrackInfo.BeginGetChunk Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BeginGetChunk Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.BeginGetChunk(System.TimeSpan,System.AsyncCallback,System.Object)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.begingetchunk(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.begingetchunk(v=VS.95)
 ms:contentKeyID: 46307710
 ms.date: 05/31/2012
 mtps_version: v=VS.95

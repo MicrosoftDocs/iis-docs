@@ -2,7 +2,7 @@
 title: JobManager.Dispose Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobManager.Dispose
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.dispose(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.dispose(v=VS.90)
 ms:contentKeyID: 35521187
 ms.date: 06/14/2012
 mtps_version: v=VS.90

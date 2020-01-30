@@ -2,7 +2,7 @@
 title: SSMELogReadyRoutedEventArgs.LogSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LogSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.LogSource
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.logsource(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.logsource(v=VS.95)
 ms:contentKeyID: 46307864
 ms.date: 05/31/2012
 mtps_version: v=VS.95

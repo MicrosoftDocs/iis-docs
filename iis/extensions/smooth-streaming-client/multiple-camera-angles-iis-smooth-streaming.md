@@ -2,7 +2,7 @@
 title: Multiple Camera Angles (IIS Smooth Streaming)
 TOCTitle: Multiple Camera Angles (IIS Smooth Streaming)
 ms:assetid: 2c2a8b91-a760-426f-853a-5806163170d3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg134026(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg134026(v=VS.90)
 ms:contentKeyID: 32316488
 ms.date: 05/02/2012
 mtps_version: v=VS.90

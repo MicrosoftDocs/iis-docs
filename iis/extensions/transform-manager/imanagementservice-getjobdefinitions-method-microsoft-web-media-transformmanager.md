@@ -2,7 +2,7 @@
 title: IManagementService.GetJobDefinitions Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobDefinitions Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetJobDefinitions
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanagementservice.getjobdefinitions(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.getjobdefinitions(v=VS.90)
 ms:contentKeyID: 35520986
 ms.date: 06/14/2012
 mtps_version: v=VS.90

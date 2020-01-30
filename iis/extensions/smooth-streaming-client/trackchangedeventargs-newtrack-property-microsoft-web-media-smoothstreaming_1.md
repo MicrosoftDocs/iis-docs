@@ -2,7 +2,7 @@
 title: TrackChangedEventArgs.NewTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NewTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.NewTrack
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.newtrack(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.newtrack(v=VS.95)
 ms:contentKeyID: 46307892
 ms.date: 05/31/2012
 mtps_version: v=VS.95

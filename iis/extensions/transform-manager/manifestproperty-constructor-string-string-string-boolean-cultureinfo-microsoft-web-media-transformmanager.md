@@ -2,7 +2,7 @@
 title: ManifestProperty Constructor (String, String, String, Boolean, CultureInfo) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Constructor (String, String, String, Boolean, CultureInfo)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.String,System.String,System.String,System.Boolean,System.Globalization.CultureInfo)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)
 ms:contentKeyID: 35520709
 ms.date: 06/14/2012
 mtps_version: v=VS.90

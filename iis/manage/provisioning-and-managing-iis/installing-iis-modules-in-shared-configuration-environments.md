@@ -29,7 +29,7 @@ If you are using an automated system for provisioning and/or managing web sites,
 ## Step 2 - Remove server 1 from the load balance solution
 
 The steps to accomplish this step varied depending on which technology you are using for Load Balancing.  
-For Network Load Balancing review the documentation at: [https://technet.microsoft.com/en-us/library/cc732855(WS.10).aspx](https://technet.microsoft.com/en-us/library/cc732855(WS.10).aspx)   
+For Network Load Balancing review the documentation at: [https://technet.microsoft.com/library/cc732855(WS.10).aspx](https://technet.microsoft.com/library/cc732855(WS.10).aspx)   
 For Application Request Routing see: [https://www.iis.net/learn/extensions/planning-for-arr/using-the-application-request-routing-module](../../extensions/planning-for-arr/using-the-application-request-routing-module.md)   
 For any other solution (including hardware) see the manufacturer's provided documentation.
 

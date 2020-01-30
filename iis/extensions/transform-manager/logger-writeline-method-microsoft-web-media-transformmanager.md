@@ -2,7 +2,7 @@
 title: Logger.WriteLine Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: WriteLine Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.Logger.WriteLine
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.logger.writeline(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.writeline(v=VS.90)
 ms:contentKeyID: 46408311
 ms.date: 06/14/2012
 mtps_version: v=VS.90

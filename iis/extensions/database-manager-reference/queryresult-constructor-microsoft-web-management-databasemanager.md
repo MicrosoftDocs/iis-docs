@@ -2,7 +2,7 @@
 title: QueryResult Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResult Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.QueryResult.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.queryresult.queryresult(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult.queryresult(v=VS.90)
 ms:contentKeyID: 20476621
 ms.date: 05/02/2012
 mtps_version: v=VS.90

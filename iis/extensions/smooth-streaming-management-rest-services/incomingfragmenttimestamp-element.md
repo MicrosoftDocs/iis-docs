@@ -2,7 +2,7 @@
 title: IncomingFragmentTimeStamp Element
 TOCTitle: IncomingFragmentTimeStamp Element
 ms:assetid: d582e33f-a7e8-4f80-80a3-d0113e27164f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547064(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547064(v=VS.90)
 ms:contentKeyID: 37836905
 ms.date: 05/02/2012
 mtps_version: v=VS.90

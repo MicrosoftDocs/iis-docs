@@ -2,7 +2,7 @@
 title: SchedulerInfo Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo.schedulerinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.schedulerinfo(v=VS.90)
 ms:contentKeyID: 35521124
 ms.date: 06/14/2012
 mtps_version: v=VS.90

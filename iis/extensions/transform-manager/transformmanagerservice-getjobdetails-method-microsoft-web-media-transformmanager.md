@@ -2,7 +2,7 @@
 title: TransformManagerService.GetJobDetails Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobDetails Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobDetails(Microsoft.Web.Media.TransformManager.JobStatus,Microsoft.Web.Media.TransformManager.JobDetailsField,System.Boolean,System.Int32,System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobdetails(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobdetails(v=VS.90)
 ms:contentKeyID: 35521029
 ms.date: 06/14/2012
 mtps_version: v=VS.90

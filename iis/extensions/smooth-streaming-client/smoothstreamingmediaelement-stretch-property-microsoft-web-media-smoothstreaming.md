@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.Stretch Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Stretch Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Stretch
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stretch(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stretch(v=VS.90)
 ms:contentKeyID: 23961082
 ms.date: 05/02/2012
 mtps_version: v=VS.90

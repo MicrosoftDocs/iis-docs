@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.Dispose Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Dispose
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.dispose(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.dispose(v=VS.90)
 ms:contentKeyID: 28440972
 ms.date: 05/02/2012
 mtps_version: v=VS.90

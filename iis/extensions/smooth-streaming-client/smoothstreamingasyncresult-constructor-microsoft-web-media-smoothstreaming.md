@@ -2,7 +2,7 @@
 title: SmoothStreamingAsyncResult Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingAsyncResult Constructor
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.#ctor(System.AsyncCallback,System.Object,System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.smoothstreamingasyncresult(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.smoothstreamingasyncresult(v=VS.95)
 ms:contentKeyID: 46307680
 ms.date: 05/31/2012
 mtps_version: v=VS.95

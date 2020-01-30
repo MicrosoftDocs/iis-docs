@@ -2,7 +2,7 @@
 title: Tracing.IncludeThreadId Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeThreadId Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeThreadId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.includethreadid(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includethreadid(v=VS.95)
 ms:contentKeyID: 46307535
 ms.date: 05/31/2012
 mtps_version: v=VS.95

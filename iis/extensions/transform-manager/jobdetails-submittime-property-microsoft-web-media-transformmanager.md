@@ -2,7 +2,7 @@
 title: JobDetails.SubmitTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmitTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.SubmitTime
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.submittime(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.submittime(v=VS.90)
 ms:contentKeyID: 35520778
 ms.date: 06/14/2012
 mtps_version: v=VS.90

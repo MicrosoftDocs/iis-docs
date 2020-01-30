@@ -2,7 +2,7 @@
 title: TaskDefinition Fields (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinition Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.TaskDefinition
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition_fields(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition_fields(v=VS.90)
 ms:contentKeyID: 35520655
 ms.date: 06/14/2012
 mtps_version: v=VS.90

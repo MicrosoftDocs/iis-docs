@@ -2,7 +2,7 @@
 title: TaskDefinition.SuccessCodes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SuccessCodes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.SuccessCodes
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.successcodes(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.successcodes(v=VS.90)
 ms:contentKeyID: 35520786
 ms.date: 06/14/2012
 mtps_version: v=VS.90

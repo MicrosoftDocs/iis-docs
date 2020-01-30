@@ -25,7 +25,7 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Problem
 
-IIS 7 and earlier versions had built-in functionality that allowed administrators to allow or deny access for individual IP addresses or ranges of IP addresses. When an IP address was blocked, any HTTP clients from that IP address would receive an HTTP error "403.6 Forbidden" reply from the server. This functionality allows administrators to customize the access for their server based on activity that they see in their server's logs or website activity. However, this is a manual process. Even though functionality can be scripted to discover malicious users by examining the IIS log files by using a tool like Microsoft's [LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility, this still requires manual intervention.
+IIS 7 and earlier versions had built-in functionality that allowed administrators to allow or deny access for individual IP addresses or ranges of IP addresses. When an IP address was blocked, any HTTP clients from that IP address would receive an HTTP error "403.6 Forbidden" reply from the server. This functionality allows administrators to customize the access for their server based on activity that they see in their server's logs or website activity. However, this is a manual process. Even though functionality can be scripted to discover malicious users by examining the IIS log files by using a tool like Microsoft's [LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility, this still requires manual intervention.
 
 <a id="TOC301258516"></a>
 

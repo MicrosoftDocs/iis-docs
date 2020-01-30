@@ -2,7 +2,7 @@
 title: LocalScheduler Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalScheduler Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.LocalScheduler
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler(v=VS.90)
 ms:contentKeyID: 35520780
 ms.date: 06/14/2012
 mtps_version: v=VS.90

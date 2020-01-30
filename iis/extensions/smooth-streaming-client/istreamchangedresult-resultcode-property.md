@@ -2,7 +2,7 @@
 title: IStreamChangedResult.ResultCode Property
 TOCTitle: ResultCode Property
 ms:assetid: 20b47891-f695-4405-abe0-dffc20f6fd8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822700(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822700(v=VS.90)
 ms:contentKeyID: 50079455
 ms.date: 11/19/2012
 mtps_version: v=VS.90

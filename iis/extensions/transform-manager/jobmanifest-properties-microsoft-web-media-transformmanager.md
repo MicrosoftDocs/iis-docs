@@ -2,7 +2,7 @@
 title: JobManifest Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManifest Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobManifest
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest_properties(v=VS.90)
 ms:contentKeyID: 35520972
 ms.date: 06/14/2012
 mtps_version: v=VS.90

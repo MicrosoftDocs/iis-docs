@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.ChunkDownloadFailed Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkDownloadFailed Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ChunkDownloadFailed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.chunkdownloadfailed(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.chunkdownloadfailed(v=VS.95)
 ms:contentKeyID: 46307510
 ms.date: 05/31/2012
 mtps_version: v=VS.95

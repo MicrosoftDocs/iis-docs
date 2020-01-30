@@ -2,7 +2,7 @@
 title: Fast Forward and Rewind Modes (IIS Smooth Streaming)
 TOCTitle: Fast Forward and Rewind Modes (IIS Smooth Streaming)
 ms:assetid: c46bc9ab-d3ef-4b4d-8dc6-46ba1bb14233
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff402323(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff402323(v=VS.90)
 ms:contentKeyID: 28731579
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IDbViewManager.GetViews Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetViews Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbViewManager.GetViews(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbviewmanager.getviews(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbviewmanager.getviews(v=VS.90)
 ms:contentKeyID: 20476455
 ms.date: 05/02/2012
 mtps_version: v=VS.90

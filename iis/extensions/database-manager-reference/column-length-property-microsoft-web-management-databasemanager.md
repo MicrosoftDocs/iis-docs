@@ -2,7 +2,7 @@
 title: Column.Length Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Length Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Length
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.length(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.length(v=VS.90)
 ms:contentKeyID: 20476797
 ms.date: 05/02/2012
 mtps_version: v=VS.90

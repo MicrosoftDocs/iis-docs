@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.SmoothStreamingErrorOccurred Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingErrorOccurred Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingErrorOccurred
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingerroroccurred(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingerroroccurred(v=VS.95)
 ms:contentKeyID: 46307525
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Live Server Manifest Format
 TOCTitle: Live Server Manifest Format
 ms:assetid: f2c78562-d907-4048-be99-9cd2724cfc51
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee673443(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee673443(v=VS.90)
 ms:contentKeyID: 26179486
 ms.date: 05/02/2012
 mtps_version: v=VS.90

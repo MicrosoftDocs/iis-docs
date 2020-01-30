@@ -2,7 +2,7 @@
 title: StreamInfo.RestrictTracks Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RestrictTracks Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamInfo.RestrictTracks(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.TrackInfo})
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.restricttracks(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.restricttracks(v=VS.90)
 ms:contentKeyID: 32316459
 ms.date: 05/02/2012
 mtps_version: v=VS.90

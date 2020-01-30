@@ -2,7 +2,7 @@
 title: ClipInformation Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ClipInformation
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation_properties(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation_properties(v=VS.95)
 ms:contentKeyID: 46307904
 ms.date: 05/31/2012
 mtps_version: v=VS.95

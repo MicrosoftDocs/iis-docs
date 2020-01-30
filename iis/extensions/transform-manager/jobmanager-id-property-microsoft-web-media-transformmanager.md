@@ -2,7 +2,7 @@
 title: JobManager.Id Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Id
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.id(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.id(v=VS.90)
 ms:contentKeyID: 35521045
 ms.date: 06/14/2012
 mtps_version: v=VS.90

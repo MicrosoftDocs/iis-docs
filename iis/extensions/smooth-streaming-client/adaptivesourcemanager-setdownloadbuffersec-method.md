@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager.SetDownloadBufferSec Method
 TOCTitle: SetDownloadBufferSec Method
 ms:assetid: dfd4f31a-248b-4db9-b556-441f33865582
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822850(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822850(v=VS.90)
 ms:contentKeyID: 50079604
 ms.date: 11/19/2012
 mtps_version: v=VS.90

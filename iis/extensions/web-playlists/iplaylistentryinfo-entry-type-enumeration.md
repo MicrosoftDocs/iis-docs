@@ -2,7 +2,7 @@
 title: IPlaylistEntryInfo::ENTRY_TYPE Enumeration
 TOCTitle: IPlaylistEntryInfo::ENTRY_TYPE Enumeration
 ms:assetid: c0881e6d-daac-4f14-a61a-9c587c347cc9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146290(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146290(v=VS.90)
 ms:contentKeyID: 19132361
 ms.date: 05/02/2012
 mtps_version: v=VS.90

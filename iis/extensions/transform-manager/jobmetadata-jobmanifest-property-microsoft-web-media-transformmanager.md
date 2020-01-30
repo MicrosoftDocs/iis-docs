@@ -2,7 +2,7 @@
 title: JobMetadata.JobManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.JobManifest
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.jobmanifest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.jobmanifest(v=VS.90)
 ms:contentKeyID: 35520747
 ms.date: 06/14/2012
 mtps_version: v=VS.90

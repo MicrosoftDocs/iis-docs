@@ -23,7 +23,7 @@ In the unlikely case that you cannot diagnose the problem using the Event Log, h
 
 1. To diagnose installation problems, Web Deploy MSI logs are placed under %programfiles%\IIS\Microsoft Web Deploy v3.
 2. If Web Management Service or Remote Agent Service fail to start at all, look at the event Event Log &gt; System for Service Control Manager errors.
-3. You can further configure [tracing for Web Management Service](https://technet.microsoft.com/en-us/library/ee461173(WS.10).aspx)
+3. You can further configure [tracing for Web Management Service](https://technet.microsoft.com/library/ee461173(WS.10).aspx)
 
 ## Error Codes
 

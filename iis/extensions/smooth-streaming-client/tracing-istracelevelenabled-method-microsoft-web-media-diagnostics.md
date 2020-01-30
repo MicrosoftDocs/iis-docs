@@ -2,7 +2,7 @@
 title: Tracing.IsTraceLevelEnabled Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IsTraceLevelEnabled Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.IsTraceLevelEnabled(Microsoft.Web.Media.Diagnostics.TraceLevel)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.istracelevelenabled(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.istracelevelenabled(v=VS.90)
 ms:contentKeyID: 23961077
 ms.date: 05/02/2012
 mtps_version: v=VS.90

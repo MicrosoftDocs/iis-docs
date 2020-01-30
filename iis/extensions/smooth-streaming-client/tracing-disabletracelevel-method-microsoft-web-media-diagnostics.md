@@ -2,7 +2,7 @@
 title: Tracing.DisableTraceLevel Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: DisableTraceLevel Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceLevel(Microsoft.Web.Media.Diagnostics.TraceLevel)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.disabletracelevel(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.disabletracelevel(v=VS.90)
 ms:contentKeyID: 23961019
 ms.date: 05/02/2012
 mtps_version: v=VS.90

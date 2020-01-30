@@ -2,7 +2,7 @@
 title: ManifestTrack.Stream Property
 TOCTitle: Stream Property
 ms:assetid: 8dea3d24-b909-40e9-a06c-659a950321b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822778(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822778(v=VS.90)
 ms:contentKeyID: 50079532
 ms.date: 11/19/2012
 mtps_version: v=VS.90

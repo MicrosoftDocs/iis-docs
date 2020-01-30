@@ -2,7 +2,7 @@
 title: TrackInfo Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TrackInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.TrackInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo_properties(v=VS.90)
 ms:contentKeyID: 23961020
 ms.date: 05/02/2012
 mtps_version: v=VS.90

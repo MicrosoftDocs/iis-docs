@@ -2,7 +2,7 @@
 title: TypeInfo.DefaultPrecision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.DefaultPrecision
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.defaultprecision(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.defaultprecision(v=VS.90)
 ms:contentKeyID: 20476678
 ms.date: 05/02/2012
 mtps_version: v=VS.90

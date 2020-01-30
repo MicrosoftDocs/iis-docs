@@ -2,7 +2,7 @@
 title: JobDefinition.InputIsManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.InputIsManifest
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.inputismanifest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.inputismanifest(v=VS.90)
 ms:contentKeyID: 35520903
 ms.date: 06/14/2012
 mtps_version: v=VS.90

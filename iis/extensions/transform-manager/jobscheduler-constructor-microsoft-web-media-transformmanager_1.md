@@ -2,7 +2,7 @@
 title: JobScheduler Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobScheduler Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobScheduler.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobscheduler.jobscheduler(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.jobscheduler(v=VS.90)
 ms:contentKeyID: 35520831
 ms.date: 06/14/2012
 mtps_version: v=VS.90

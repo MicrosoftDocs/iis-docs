@@ -2,7 +2,7 @@
 title: CircularList(T) Properties (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CircularList(T) Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.Diagnostics.CircularList`1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728140(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728140(v=VS.95)
 ms:contentKeyID: 46500560
 ms.date: 05/31/2012
 mtps_version: v=VS.95

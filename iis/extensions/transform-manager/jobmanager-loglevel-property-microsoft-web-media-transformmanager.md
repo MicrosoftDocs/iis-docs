@@ -2,7 +2,7 @@
 title: JobManager.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LogLevel
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.loglevel(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.loglevel(v=VS.90)
 ms:contentKeyID: 35521166
 ms.date: 06/14/2012
 mtps_version: v=VS.90

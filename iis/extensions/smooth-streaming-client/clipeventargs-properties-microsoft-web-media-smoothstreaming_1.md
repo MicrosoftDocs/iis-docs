@@ -2,7 +2,7 @@
 title: ClipEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipeventargs_properties(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipeventargs_properties(v=VS.95)
 ms:contentKeyID: 46307887
 ms.date: 05/31/2012
 mtps_version: v=VS.95

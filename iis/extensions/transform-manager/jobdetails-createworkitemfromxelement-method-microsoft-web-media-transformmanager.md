@@ -2,7 +2,7 @@
 title: JobDetails.CreateWorkItemFromXElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateWorkItemFromXElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.CreateWorkItemFromXElement(System.Xml.Linq.XElement)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.createworkitemfromxelement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.createworkitemfromxelement(v=VS.90)
 ms:contentKeyID: 35520587
 ms.date: 06/14/2012
 mtps_version: v=VS.90

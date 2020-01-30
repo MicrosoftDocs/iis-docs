@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Server Manifest (Live) - audio param Element
 TOCTitle: <param>
 ms:assetid: d0974656-e2d4-487d-a05c-4e9d4b566441
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee673440(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee673440(v=VS.90)
 ms:contentKeyID: 26179483
 ms.date: 05/02/2012
 mtps_version: v=VS.90

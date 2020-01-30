@@ -2,7 +2,7 @@
 title: DownloaderResponse.ContentLength Property
 TOCTitle: ContentLength Property
 ms:assetid: 06ec011f-1769-482d-8997-d92b89a338c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822670(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822670(v=VS.90)
 ms:contentKeyID: 50079425
 ms.date: 11/19/2012
 mtps_version: v=VS.90

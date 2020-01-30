@@ -2,7 +2,7 @@
 title: ColumnDataInfo.Tag Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Tag Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.Tag
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.columndatainfo.tag(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.tag(v=VS.90)
 ms:contentKeyID: 22049491
 ms.date: 05/02/2012
 mtps_version: v=VS.90

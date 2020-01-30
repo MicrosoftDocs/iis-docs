@@ -32,5 +32,5 @@ For information on the Green Grid see [The Green Grid: The Quest for Energy Effi
 ## Resources
 
 - [Microsoft Environment Innovating to Improve our Planet](https://www.microsoft.com/environment/ "Microsoft Environment innovating to Improve our Planet")
-- [TechNet Magazine: Sustainable Computing](https://technet.microsoft.com/en-us/magazine/cc462910.aspx "TechNet Magazine: Sustainable Computing")
+- [TechNet Magazine: Sustainable Computing](https://technet.microsoft.com/magazine/cc462910.aspx "TechNet Magazine: Sustainable Computing")
 - [Environmental Dashboard for Microsoft Dynamics AX](https://www.microsoft.com/environment/business_solutions/articles/dynamics_ax.aspx "Environmental Dashboard for Microsoft Dynamics AX")

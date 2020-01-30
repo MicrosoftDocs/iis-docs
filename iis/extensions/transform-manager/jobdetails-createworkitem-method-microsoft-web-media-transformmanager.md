@@ -2,7 +2,7 @@
 title: JobDetails.CreateWorkItem Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateWorkItem Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.CreateWorkItem(Microsoft.Web.Media.TransformManager.JobManifest)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.createworkitem(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.createworkitem(v=VS.90)
 ms:contentKeyID: 35521182
 ms.date: 06/14/2012
 mtps_version: v=VS.90

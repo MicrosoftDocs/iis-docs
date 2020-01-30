@@ -2,7 +2,7 @@
 title: Tracing Properties (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Tracing Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.Diagnostics.Tracing
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing_properties(v=VS.90)
 ms:contentKeyID: 23961242
 ms.date: 05/02/2012
 mtps_version: v=VS.90

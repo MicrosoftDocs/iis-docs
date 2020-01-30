@@ -30,7 +30,7 @@ You can use IIS Manager, the management user interface that comes with IIS, to c
 - **Disadvantages**  
  Managing large IIS server configurations or multiple servers over the Internet can be slow and cumbersome. Not all configuration properties can be accessed in the user interface.
 
-For instructions on using the UI to provision Web sites, see [Create a Web Site (IIS 7)](https://technet.microsoft.com/en-us/library/cc772350(WS.10).aspx).
+For instructions on using the UI to provision Web sites, see [Create a Web Site (IIS 7)](https://technet.microsoft.com/library/cc772350(WS.10).aspx).
 
 ## Use the Text Editor
 

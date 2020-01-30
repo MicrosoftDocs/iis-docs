@@ -2,7 +2,7 @@
 title: JobDetails.JobSchedulerName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobSchedulerName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobSchedulerName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobschedulername(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobschedulername(v=VS.90)
 ms:contentKeyID: 35521018
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager.SetLiveBeginOffsetSec Method
 TOCTitle: SetLiveBeginOffsetSec Method
 ms:assetid: 5bf63905-3b78-4740-9df8-95cbb6b12661
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822742(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822742(v=VS.90)
 ms:contentKeyID: 50079497
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Manifest Merge (IIS Smooth Streaming)
 TOCTitle: Manifest Merge (IIS Smooth Streaming)
 ms:assetid: 895dbdd8-5069-4214-a18d-1e54b9986288
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff432455(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff432455(v=VS.90)
 ms:contentKeyID: 28868862
 ms.date: 05/02/2012
 mtps_version: v=VS.90

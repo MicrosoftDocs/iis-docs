@@ -20,7 +20,7 @@ class DbProviderFactorySettings : EmbeddedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|`DbProviderFactories`|An array of [ProviderFactoryElement](https://msdn.microsoft.com/en-us/42f523ee-eaab-4a81-917d-5c0f591cfc45) values that contain configuration settings for [!INCLUDE[ado_whidbey_long](../wmi-provider/includes/ado-whidbey-long-md.md)] provider factories.|  
+|`DbProviderFactories`|An array of [ProviderFactoryElement](https://msdn.microsoft.com/42f523ee-eaab-4a81-917d-5c0f591cfc45) values that contain configuration settings for [!INCLUDE[ado_whidbey_long](../wmi-provider/includes/ado-whidbey-long-md.md)] provider factories.|  
   
 ## Subclasses  
  This class contains no subclasses.  

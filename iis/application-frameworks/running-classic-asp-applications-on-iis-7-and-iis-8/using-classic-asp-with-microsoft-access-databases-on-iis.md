@@ -69,7 +69,7 @@ Although this error indicates that the failure occurred when opening the databas
 
 ### Using Process Monitor to gather more information
 
-The Microsoft Windows Sysinternals [Process Monitor](https://technet.microsoft.com/en-us/sysinternals/bb896645.aspx) utility is a great resource for tracking permissions-related problems. To use Process Monitor to trace the IIS issues in this topic, configure Process Monitor to filter tracing for only those events that are created by W3wp.exe processes, as shown in the following illustration:
+The Microsoft Windows Sysinternals [Process Monitor](https://technet.microsoft.com/sysinternals/bb896645.aspx) utility is a great resource for tracking permissions-related problems. To use Process Monitor to trace the IIS issues in this topic, configure Process Monitor to filter tracing for only those events that are created by W3wp.exe processes, as shown in the following illustration:
 
 ![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image3.jpg)
 

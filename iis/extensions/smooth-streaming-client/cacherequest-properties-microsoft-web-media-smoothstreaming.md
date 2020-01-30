@@ -2,7 +2,7 @@
 title: CacheRequest Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest_properties(v=VS.90)
 ms:contentKeyID: 31469286
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Server Manifest (On-Demand)
 TOCTitle: On-Demand Server Manifest
 ms:assetid: 9fafe692-87d3-41d9-a882-76e266f74bf6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee230817(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee230817(v=VS.90)
 ms:contentKeyID: 22049445
 ms.date: 05/02/2012
 mtps_version: v=VS.90

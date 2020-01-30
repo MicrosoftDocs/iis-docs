@@ -2,7 +2,7 @@
 title: ConfigurationBase.Name Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Name
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.name(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.name(v=VS.90)
 ms:contentKeyID: 35520942
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: WorkQueue.SubmittedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmittedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.SubmittedJobs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.workqueue.submittedjobs(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue.submittedjobs(v=VS.90)
 ms:contentKeyID: 35520575
 ms.date: 06/14/2012
 mtps_version: v=VS.90

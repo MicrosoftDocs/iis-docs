@@ -2,7 +2,7 @@
 title: SmoothStreamingErrorEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingErrorEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs_methods(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs_methods(v=VS.95)
 ms:contentKeyID: 46307603
 ms.date: 05/31/2012
 mtps_version: v=VS.95

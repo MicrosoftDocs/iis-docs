@@ -2,7 +2,7 @@
 title: CacheResponse Constructor (Stream) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Constructor (Stream)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor(System.IO.Stream)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.90)
 ms:contentKeyID: 31469181
 ms.date: 05/02/2012
 mtps_version: v=VS.90

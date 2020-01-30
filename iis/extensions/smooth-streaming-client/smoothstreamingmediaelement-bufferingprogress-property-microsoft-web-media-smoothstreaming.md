@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.BufferingProgress Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BufferingProgress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgress
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingprogress(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingprogress(v=VS.90)
 ms:contentKeyID: 23961214
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.AudioStreamIndex Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AudioStreamIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamIndex
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamindex(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamindex(v=VS.90)
 ms:contentKeyID: 23960993
 ms.date: 05/02/2012
 mtps_version: v=VS.90

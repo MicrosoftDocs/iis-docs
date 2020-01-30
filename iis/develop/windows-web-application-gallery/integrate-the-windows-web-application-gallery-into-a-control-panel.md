@@ -154,7 +154,7 @@ Create a Web site for a site owner and authorize the site owner to both connect 
 10. Type **mysiteuser**, and then click **OK**.
 11. Click **OK** to close the **Allow User** dialog box.  
 
-    See [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/en-us/library/cc770968.aspx) for additional information.
+    See [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/library/cc770968.aspx) for additional information.
 
 ## Test the Installation of an Application Package
 

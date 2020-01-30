@@ -2,7 +2,7 @@
 title: CircularList(T).Reverse Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Reverse Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.Reverse
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728300(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728300(v=VS.90)
 ms:contentKeyID: 31469319
 ms.date: 05/02/2012
 mtps_version: v=VS.90

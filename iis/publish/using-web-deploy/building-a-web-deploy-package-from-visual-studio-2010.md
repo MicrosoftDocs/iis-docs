@@ -49,7 +49,7 @@ In Visual Studio 2010, you can create Web Deploy packages through the UI or by u
 7. Configure **Web Deployment Package Settings**  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image14.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image13.png)  
 
-    - The **Create deployment package as a zip file** option will determine whether a zip file or a directory structure ([Archive Directory](https://technet.microsoft.com/en-us/library/dd569042(WS.10).aspx)) is created at package time. Unless you are creating packages that would encounter the ZIP file size limit of 2,147,483,647 bytes (Int.MaxValue), we recommend using the ZIP format.
+    - The **Create deployment package as a zip file** option will determine whether a zip file or a directory structure ([Archive Directory](https://technet.microsoft.com/library/dd569042(WS.10).aspx)) is created at package time. Unless you are creating packages that would encounter the ZIP file size limit of 2,147,483,647 bytes (Int.MaxValue), we recommend using the ZIP format.
     - The **Location where package will be created** option specifies the location were the package file will be created. You will need to ensure you have write permissions to the location that you specify.
     - The **IIS Web Site/application name to use on the destination server** option specifies the default site or application name that will be used on the destination server if the user does not specify a different one.
     - The **Physical path of the web application on destination server (used only when IIS settings are included** and **Password used to encrypt secure IIS settings** options are covered in the article {LINK to Article about IIS Settings}

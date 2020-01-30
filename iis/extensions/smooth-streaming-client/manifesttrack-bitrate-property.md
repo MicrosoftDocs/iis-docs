@@ -2,7 +2,7 @@
 title: ManifestTrack.Bitrate Property
 TOCTitle: Bitrate Property
 ms:assetid: ec767aa8-5dc6-43ae-abef-0dd7b0bf5558
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822866(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822866(v=VS.90)
 ms:contentKeyID: 50079620
 ms.date: 11/19/2012
 mtps_version: v=VS.90

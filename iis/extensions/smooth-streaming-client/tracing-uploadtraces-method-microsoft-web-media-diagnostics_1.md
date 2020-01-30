@@ -2,7 +2,7 @@
 title: Tracing.UploadTraces Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: UploadTraces Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.UploadTraces
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.uploadtraces(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.uploadtraces(v=VS.95)
 ms:contentKeyID: 46307635
 ms.date: 05/31/2012
 mtps_version: v=VS.95

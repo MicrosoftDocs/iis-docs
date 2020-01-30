@@ -2,7 +2,7 @@
 title: JobMetadata.OutputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.OutputFolder
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.outputfolder(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.outputfolder(v=VS.90)
 ms:contentKeyID: 35521200
 ms.date: 06/14/2012
 mtps_version: v=VS.90

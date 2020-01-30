@@ -2,7 +2,7 @@
 title: SchedulerInfo Constructor (String, String, String, String, Int32) (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Constructor (String, String, String, String, Int32)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor(System.String,System.String,System.String,System.String,System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo.schedulerinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.schedulerinfo(v=VS.90)
 ms:contentKeyID: 35521015
 ms.date: 06/14/2012
 mtps_version: v=VS.90

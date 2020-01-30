@@ -2,7 +2,7 @@
 title: IPlaylistEntryInfo::Uri Property
 TOCTitle: IPlaylistEntryInfo::Uri Property
 ms:assetid: b7796e5a-4204-4876-8c4c-11859a0bce55
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146286(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146286(v=VS.90)
 ms:contentKeyID: 19132357
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: CacheRequest Constructor (Uri) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest Constructor (Uri)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.#ctor(System.Uri)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest.cacherequest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.cacherequest(v=VS.90)
 ms:contentKeyID: 31469313
 ms.date: 05/02/2012
 mtps_version: v=VS.90

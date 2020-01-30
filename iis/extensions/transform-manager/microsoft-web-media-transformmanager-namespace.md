@@ -2,7 +2,7 @@
 title: Microsoft.Web.Media.TransformManager Namespace ()
 TOCTitle: Microsoft.Web.Media.TransformManager
 ms:assetid: N:Microsoft.Web.Media.TransformManager
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager(v=VS.90)
 ms:contentKeyID: 31477622
 ms.date: 06/14/2012
 mtps_version: v=VS.90

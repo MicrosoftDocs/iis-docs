@@ -2,7 +2,7 @@
 title: SegmentInfo.SelectedStreams Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectedStreams Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectedStreams
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.segmentinfo.selectedstreams(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.selectedstreams(v=VS.90)
 ms:contentKeyID: 31469144
 ms.date: 05/02/2012
 mtps_version: v=VS.90

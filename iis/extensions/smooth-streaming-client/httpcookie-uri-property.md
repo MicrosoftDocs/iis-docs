@@ -2,7 +2,7 @@
 title: HttpCookie.Uri Property
 TOCTitle: Uri Property
 ms:assetid: de54d836-935a-4a25-a465-0810ab9d3119
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822847(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822847(v=VS.90)
 ms:contentKeyID: 50079601
 ms.date: 11/19/2012
 mtps_version: v=VS.90

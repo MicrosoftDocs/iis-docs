@@ -2,7 +2,7 @@
 title: ConfigurationMessage.HelpLinkId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: HelpLinkId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.HelpLinkId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.helplinkid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.helplinkid(v=VS.90)
 ms:contentKeyID: 35520580
 ms.date: 06/14/2012
 mtps_version: v=VS.90

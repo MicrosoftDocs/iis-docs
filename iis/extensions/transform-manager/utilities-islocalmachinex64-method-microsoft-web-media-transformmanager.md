@@ -2,7 +2,7 @@
 title: Utilities.IsLocalMachineX64 Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: IsLocalMachineX64 Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.IsLocalMachineX64
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.utilities.islocalmachinex64(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.islocalmachinex64(v=VS.90)
 ms:contentKeyID: 35521128
 ms.date: 06/14/2012
 mtps_version: v=VS.90

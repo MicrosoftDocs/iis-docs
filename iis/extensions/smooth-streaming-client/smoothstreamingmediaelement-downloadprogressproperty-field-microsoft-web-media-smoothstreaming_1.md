@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.DownloadProgressProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadProgressProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogressproperty(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogressproperty(v=VS.95)
 ms:contentKeyID: 46307555
 ms.date: 05/31/2012
 mtps_version: v=VS.95

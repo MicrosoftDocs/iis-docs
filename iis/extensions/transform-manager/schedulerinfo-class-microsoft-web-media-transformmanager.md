@@ -2,7 +2,7 @@
 title: SchedulerInfo Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.SchedulerInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo(v=VS.90)
 ms:contentKeyID: 35520987
 ms.date: 06/14/2012
 mtps_version: v=VS.90

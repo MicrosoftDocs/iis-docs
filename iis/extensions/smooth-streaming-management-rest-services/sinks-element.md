@@ -2,7 +2,7 @@
 title: Sinks Element
 TOCTitle: Sinks Element
 ms:assetid: 621a7dc3-3c8d-4efe-9012-9f791bcadd27
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547042(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547042(v=VS.90)
 ms:contentKeyID: 37836883
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: QualityLevel, Attributes (IIS Smooth Streaming)
 TOCTitle: QualityLevel, Attributes (IIS Smooth Streaming)
 ms:assetid: c33074d3-f806-450d-98e9-ef307c532d26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728116(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728116(v=VS.90)
 ms:contentKeyID: 31469136
 ms.date: 05/02/2012
 mtps_version: v=VS.90

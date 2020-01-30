@@ -2,7 +2,7 @@
 title: ITaskStatus Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: ITaskStatus Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.ITaskStatus
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.itaskstatus_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus_methods(v=VS.90)
 ms:contentKeyID: 35520813
 ms.date: 06/14/2012
 mtps_version: v=VS.90

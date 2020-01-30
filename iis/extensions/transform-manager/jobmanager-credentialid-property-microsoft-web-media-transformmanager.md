@@ -2,7 +2,7 @@
 title: JobManager.CredentialId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CredentialId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.CredentialId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.credentialid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.credentialid(v=VS.90)
 ms:contentKeyID: 35520896
 ms.date: 06/14/2012
 mtps_version: v=VS.90

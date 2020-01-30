@@ -2,7 +2,7 @@
 title: Events (IIS Smooth Streaming)
 TOCTitle: Events (IIS Smooth Streaming)
 ms:assetid: 875f74b0-e627-4e0a-8397-1e7fbe2bf8eb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958033(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958033(v=VS.90)
 ms:contentKeyID: 28407135
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IPlaylistRequestInfo Interface
 TOCTitle: IPlaylistRequestInfo Interface
 ms:assetid: fd76c5c9-d76e-424f-b287-8b03e3e4418b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146293(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146293(v=VS.90)
 ms:contentKeyID: 19132364
 ms.date: 05/02/2012
 mtps_version: v=VS.90

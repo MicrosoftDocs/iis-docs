@@ -210,5 +210,5 @@ You can also refer to [Windows Web Application Gallery: Known Issues](../../deve
 - [Real World IIS: Staying Current with the Latest Microsoft Web Platform with Web Platform Installer (videocast)](https://blogs.iis.net/mailant/archive/2009/05/02/real-world-iis-staying-current-with-the-latest-microsoft-web-platform-with-web-platform-installer-videocast.aspx).
 - [Microsoft Web Platform](https://www.microsoft.com/web/platform/).
 - [Windows Web Application Gallery Principles](../../develop/windows-web-application-gallery/windows-web-application-gallery-principles.md).
-- [Web Platform Installer](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
+- [Web Platform Installer](https://technet.microsoft.com/library/ee506569(WS.10).aspx).
 - [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.aspx).

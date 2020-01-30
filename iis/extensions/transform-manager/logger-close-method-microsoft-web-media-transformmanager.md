@@ -2,7 +2,7 @@
 title: Logger.Close Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Close Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.Close
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.logger.close(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.close(v=VS.90)
 ms:contentKeyID: 35521173
 ms.date: 06/14/2012
 mtps_version: v=VS.90

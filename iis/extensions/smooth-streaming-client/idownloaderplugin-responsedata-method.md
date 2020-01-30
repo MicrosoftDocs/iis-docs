@@ -2,7 +2,7 @@
 title: IDownloaderPlugin.ResponseData Method
 TOCTitle: ResponseData Method
 ms:assetid: d74e3408-f57c-49b8-b61f-99f1ca873a1e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822842(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822842(v=VS.90)
 ms:contentKeyID: 50079596
 ms.date: 11/19/2012
 mtps_version: v=VS.90

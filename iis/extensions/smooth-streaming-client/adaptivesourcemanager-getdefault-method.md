@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager.GetDefault Method
 TOCTitle: GetDefault Method
 ms:assetid: f71a679b-01e0-447b-b987-8d64acea64db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822873(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822873(v=VS.90)
 ms:contentKeyID: 50079627
 ms.date: 11/19/2012
 mtps_version: v=VS.90

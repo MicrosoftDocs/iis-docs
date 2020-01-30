@@ -2,7 +2,7 @@
 title: SmoothStreamingErrorEventArgs.ErrorException Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ErrorException Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errorexception(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errorexception(v=VS.90)
 ms:contentKeyID: 23961062
 ms.date: 05/02/2012
 mtps_version: v=VS.90

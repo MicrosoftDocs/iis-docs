@@ -2,7 +2,7 @@
 title: IIS Transform Manager
 TOCTitle: IIS Transform Manager
 ms:assetid: 7b5a31ee-d436-46c3-ad77-86070e434478
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728121(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728121(v=VS.90)
 ms:contentKeyID: 31469141
 ms.date: 06/14/2012
 mtps_version: v=VS.90

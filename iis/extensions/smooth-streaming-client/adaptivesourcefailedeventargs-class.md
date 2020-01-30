@@ -2,7 +2,7 @@
 title: AdaptiveSourceFailedEventArgs Class
 TOCTitle: AdaptiveSourceFailedEventArgs Class
 ms:assetid: 930206be-3d1e-4654-8f9f-30a830aeda9c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822784(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822784(v=VS.90)
 ms:contentKeyID: 50079538
 ms.date: 11/19/2012
 mtps_version: v=VS.90

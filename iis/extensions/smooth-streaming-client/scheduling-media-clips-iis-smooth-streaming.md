@@ -2,7 +2,7 @@
 title: Scheduling Media Clips (IIS Smooth Streaming)
 TOCTitle: Scheduling Media Clips (IIS Smooth Streaming)
 ms:assetid: d56b53f9-6cff-4145-a447-917e0bd55147
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958036(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958036(v=VS.90)
 ms:contentKeyID: 28407138
 ms.date: 05/02/2012
 mtps_version: v=VS.90
@@ -27,7 +27,7 @@ To schedule a clip, initialize a [ClipInformation](clipinformation-class-microso
     {
         clips.Add(new ClipInformation(true,
         new Uri("http://serverName/clip.ism/Manifest"),
-        new Uri("http://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.aspx"),
+        new Uri("http://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.aspx"),
         new TimeSpan(1789250001)));
     }
 

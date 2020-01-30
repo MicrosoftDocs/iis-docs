@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Manifest Structure
 TOCTitle: IIS Smooth Streaming Manifest Structure
 ms:assetid: f0f33006-8bfd-43e0-895e-b2778c0f8451
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff436055(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff436055(v=VS.90)
 ms:contentKeyID: 28877547
 ms.date: 05/02/2012
 mtps_version: v=VS.90

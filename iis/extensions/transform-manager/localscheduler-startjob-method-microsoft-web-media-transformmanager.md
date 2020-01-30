@@ -2,7 +2,7 @@
 title: LocalScheduler.StartJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: StartJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.StartJob(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler.startjob(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.startjob(v=VS.90)
 ms:contentKeyID: 35520955
 ms.date: 06/14/2012
 mtps_version: v=VS.90

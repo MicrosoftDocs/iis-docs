@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.NominalBitrate Property
 TOCTitle: NominalBitrate Property
 ms:assetid: fc5ffd8f-5383-40c6-94ec-af4dd9b2bfc0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822877(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822877(v=VS.90)
 ms:contentKeyID: 50079631
 ms.date: 11/19/2012
 mtps_version: v=VS.90

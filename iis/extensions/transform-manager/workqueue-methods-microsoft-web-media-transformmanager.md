@@ -2,7 +2,7 @@
 title: WorkQueue Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: WorkQueue Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.WorkQueue
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.workqueue_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue_methods(v=VS.90)
 ms:contentKeyID: 35520729
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ManifestTrack.MaxWidth Property
 TOCTitle: MaxWidth Property
 ms:assetid: 75e0385a-bda3-4bc3-acce-33687b867e7e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822759(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822759(v=VS.90)
 ms:contentKeyID: 50079514
 ms.date: 11/19/2012
 mtps_version: v=VS.90

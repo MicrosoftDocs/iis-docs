@@ -2,7 +2,7 @@
 title: Authentication and Authorization
 TOCTitle: Authentication and Authorization
 ms:assetid: 3c577f0b-e21a-4d26-9304-e73292b90ff6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547032(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547032(v=VS.90)
 ms:contentKeyID: 37836873
 ms.date: 05/02/2012
 mtps_version: v=VS.90

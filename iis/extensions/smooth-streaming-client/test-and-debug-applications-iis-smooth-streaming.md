@@ -2,7 +2,7 @@
 title: Test and Debug Applications (IIS Smooth Streaming)
 TOCTitle: Test and Debug Applications (IIS Smooth Streaming)
 ms:assetid: 1810c277-c032-4eac-8f41-74a4623294bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958030(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958030(v=VS.90)
 ms:contentKeyID: 28407132
 ms.date: 05/02/2012
 mtps_version: v=VS.90

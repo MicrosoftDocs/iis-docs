@@ -2,7 +2,7 @@
 title: IPlaylistRequestInfo::SetSessionData Method
 TOCTitle: IPlaylistRequestInfo::SetSessionData Method
 ms:assetid: 7a728484-e952-4d7d-ab4d-ea854bd359e0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146276(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146276(v=VS.90)
 ms:contentKeyID: 19132347
 ms.date: 05/02/2012
 mtps_version: v=VS.90

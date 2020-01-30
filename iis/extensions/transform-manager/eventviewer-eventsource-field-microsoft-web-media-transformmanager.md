@@ -2,7 +2,7 @@
 title: EventViewer.EventSource Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: EventSource Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventSource
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.eventviewer.eventsource(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventsource(v=VS.90)
 ms:contentKeyID: 35520849
 ms.date: 06/14/2012
 mtps_version: v=VS.90

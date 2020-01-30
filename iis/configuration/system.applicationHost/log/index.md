@@ -17,7 +17,7 @@ The `<log>` element specifies several global logging options for Internet Inform
 Site-level logging creates individual log file directories for each site on your server, where each folder contains only the log files for that site. Central logging enables the use of a single log file for all sites for the time period specified by the **period** attribute for the `<centralBinaryLogFile>` or `<centralW3CLogFile>` element. The time period can be daily, weekly, monthly, hourly, or a maximum file size.
 
 > [!NOTE]
-> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility.
+> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility.
 
 <a id="002"></a>
 ## Compatibility

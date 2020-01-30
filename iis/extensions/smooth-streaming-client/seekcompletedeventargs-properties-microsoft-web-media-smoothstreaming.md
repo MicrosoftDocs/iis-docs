@@ -2,7 +2,7 @@
 title: SeekCompletedEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SeekCompletedEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs_properties(v=VS.90)
 ms:contentKeyID: 23961157
 ms.date: 05/02/2012
 mtps_version: v=VS.90

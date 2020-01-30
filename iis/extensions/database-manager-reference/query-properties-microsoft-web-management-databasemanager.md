@@ -2,7 +2,7 @@
 title: Query Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Query Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.Query
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.query_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query_properties(v=VS.90)
 ms:contentKeyID: 22049615
 ms.date: 05/02/2012
 mtps_version: v=VS.90

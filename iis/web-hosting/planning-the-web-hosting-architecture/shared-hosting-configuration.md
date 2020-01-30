@@ -63,7 +63,7 @@ The [ARR server runs the Microsoft Application Request Routing for IIS module](.
 - Facilitate application deployment, including pilot management and A/B testing.
 - Lower management costs and create opportunities for shared hosters.
 
-The ARR server is deployed and managed by the hoster. Since ARR 2.0 is a feature of IIS, you may decide to manage it by using Remote Administration (see the Remote Administration section later in this topic) or Terminal Services. Depending on the scalability and availability requirements, administrators may need a configuration that includes either or both [Network Load Balancing](https://technet.microsoft.com/en-us/library/cc732855.aspx "Network Load Balancing") and [Failover Clusters](https://technet.microsoft.com/en-us/library/cc732855.aspx "Failover Clusters") on the ARR server. Load balance routers for two or more ARR servers can also be examined for such requirements.
+The ARR server is deployed and managed by the hoster. Since ARR 2.0 is a feature of IIS, you may decide to manage it by using Remote Administration (see the Remote Administration section later in this topic) or Terminal Services. Depending on the scalability and availability requirements, administrators may need a configuration that includes either or both [Network Load Balancing](https://technet.microsoft.com/library/cc732855.aspx "Network Load Balancing") and [Failover Clusters](https://technet.microsoft.com/library/cc732855.aspx "Failover Clusters") on the ARR server. Load balance routers for two or more ARR servers can also be examined for such requirements.
 
 See this [section](../../extensions/planning-for-arr/using-the-application-request-routing-module.md) for further guidance about ARR.
 
@@ -79,7 +79,7 @@ This server runs the services that users need to publish and manage their conten
 - [File Transfer Protocol (FTP) Server](../configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd.md) provides the infrastructure that is required to create an FTP site where users can upload and download files by using the FTP protocol and appropriate client software. FTP uses TCP/IP to distribute files similarly to how HTTP works to distribute Web pages. An FTP site is especially useful for offering customers the ability to upload files.
 - [Web Deploy](../../publish/deploying-application-packages/index.md) simplifies the deployment, management, and migration of Web applications. It lets administrators enable developers to publish their Web applications and databases to the hosted environment.
 
-The Web Management Service, MS Deploy, and FTP server is connected to the Internet through the network. Through a separate NIC interface, it also has access to the NAS server that contains the shared configuration of the Web server farm. Depending on the scalability and availability requirements, administrators can decide to use either or both [Network Load Balancing](https://technet.microsoft.com/en-us/library/cc732855.aspx "Network Load Balancing") and [Failover Clusters](https://technet.microsoft.com/en-us/library/cc732855.aspx "Failover Clusters") on this server.
+The Web Management Service, MS Deploy, and FTP server is connected to the Internet through the network. Through a separate NIC interface, it also has access to the NAS server that contains the shared configuration of the Web server farm. Depending on the scalability and availability requirements, administrators can decide to use either or both [Network Load Balancing](https://technet.microsoft.com/library/cc732855.aspx "Network Load Balancing") and [Failover Clusters](https://technet.microsoft.com/library/cc732855.aspx "Failover Clusters") on this server.
 
 ##### DNS Server
 
@@ -111,7 +111,7 @@ The [Web Server Farm](../configuring-servers-in-the-windows-web-platform/index.m
 
 ##### File Server (NAS)
 
-The [file server](../configuring-servers-in-the-windows-web-platform/index.md) provides a central location on the network where you can store and share files with other servers. You can use this server to store the Web server farm shared configuration and static content for Web sites. The file server can act as a network-attached storage (NAS) unit. This server is required to set up the Web farm (shared configuration) environment. All the servers in the Web farm and the Web management server have access to the file server for application content and configuration data. Depending on scalability and availability requirements, administrators can decide to implement either or both [Network Load Balancing](https://technet.microsoft.com/en-us/library/cc732855.aspx "Network Load Balancing") and [Failover Clusters](https://technet.microsoft.com/en-us/library/cc732855.aspx "Failover Clusters") on this server.
+The [file server](../configuring-servers-in-the-windows-web-platform/index.md) provides a central location on the network where you can store and share files with other servers. You can use this server to store the Web server farm shared configuration and static content for Web sites. The file server can act as a network-attached storage (NAS) unit. This server is required to set up the Web farm (shared configuration) environment. All the servers in the Web farm and the Web management server have access to the file server for application content and configuration data. Depending on scalability and availability requirements, administrators can decide to implement either or both [Network Load Balancing](https://technet.microsoft.com/library/cc732855.aspx "Network Load Balancing") and [Failover Clusters](https://technet.microsoft.com/library/cc732855.aspx "Failover Clusters") on this server.
 
 ##### SQL Server 2008
 
@@ -158,7 +158,7 @@ The [Windows SharePoint Services](../configuring-servers-in-the-windows-web-plat
 
 ##### Active Directory (Optional)
 
-[Active Directory Domain Services](https://technet.microsoft.com/en-us/library/cc731053.aspx "Active Directory Domain Services") (ADDS) stores directory data and manages communication between users and domains, including user login processes, authentication, and directory searches. An Active Directory domain controller is a server that is running ADDS. It provides a distributed database that stores and manages information about network resources and application-specific data from directory-enabled applications such as Microsoft Exchange. Administrators can use ADDS to organize elements of a network, such as users, computers, and other devices, into a hierarchical containment structure. AD can also be useful when you [deploy network resources](../installing-infrastructure-components/index.md "deploy network resources") in a Shared Hosting environment.
+[Active Directory Domain Services](https://technet.microsoft.com/library/cc731053.aspx "Active Directory Domain Services") (ADDS) stores directory data and manages communication between users and domains, including user login processes, authentication, and directory searches. An Active Directory domain controller is a server that is running ADDS. It provides a distributed database that stores and manages information about network resources and application-specific data from directory-enabled applications such as Microsoft Exchange. Administrators can use ADDS to organize elements of a network, such as users, computers, and other devices, into a hierarchical containment structure. AD can also be useful when you [deploy network resources](../installing-infrastructure-components/index.md "deploy network resources") in a Shared Hosting environment.
 
 ##### System Center Virtual Machine (VMM) and Operations (SCOM) Manager (Optional)
 
@@ -166,11 +166,11 @@ Hosters may decide to deploy System Center VMM and SCOM when managing large host
 
 ##### Microsoft Windows Server Update Services (WSUS) (Optional)
 
-[Microsoft Windows Server Update Services](https://technet.microsoft.com/en-us/wsus/default.aspx "Microsoft Windows Server Update Services") (WSUS) lets administrators at hosting companies deploy the latest Microsoft product updates to computers that are running the Windows operating system. By using [WSUS](../installing-infrastructure-components/deploying-updates-with-wsus-30.md "WSUS"), administrators can fully manage the distribution of updates that are released through Microsoft Update to computers in their network.
+[Microsoft Windows Server Update Services](https://technet.microsoft.com/wsus/default.aspx "Microsoft Windows Server Update Services") (WSUS) lets administrators at hosting companies deploy the latest Microsoft product updates to computers that are running the Windows operating system. By using [WSUS](../installing-infrastructure-components/deploying-updates-with-wsus-30.md "WSUS"), administrators can fully manage the distribution of updates that are released through Microsoft Update to computers in their network.
 
 ##### System Center Data Protection Manager (DPM) (Optional)
 
-[System Center Data Protection Manager](https://technet.microsoft.com/en-us/dpm/default.aspx "System Center Data Protection Manager") (DPM) is a complete solution for Windows backup and recovery. It provides continuous data protection for Microsoft application and file servers that use seamlessly integrated disk and tape media. DPM enables rapid and reliable recovery.
+[System Center Data Protection Manager](https://technet.microsoft.com/dpm/default.aspx "System Center Data Protection Manager") (DPM) is a complete solution for Windows backup and recovery. It provides continuous data protection for Microsoft application and file servers that use seamlessly integrated disk and tape media. DPM enables rapid and reliable recovery.
 
 ##### Storage Area Network (SAN) (Optional)
 

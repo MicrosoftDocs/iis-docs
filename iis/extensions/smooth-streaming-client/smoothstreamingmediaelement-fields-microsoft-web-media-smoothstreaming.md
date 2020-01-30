@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement Fields (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_fields(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_fields(v=VS.90)
 ms:contentKeyID: 23960990
 ms.date: 05/02/2012
 mtps_version: v=VS.90
