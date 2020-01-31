@@ -65,7 +65,7 @@ To configure the FTP service to deny malicious users from accessing your FTP ser
     [![](iis-80-ftp-logon-attempt-restrictions/_static/image4.png)](iis-80-ftp-logon-attempt-restrictions/_static/image3.png)
 5. Click **Apply**.
 
-"Write to the log only" option does not block logon attempts. Instead, it logs that the condition has been met. The IT administrator can then try different configuration parameters to evaluate how the settings impacts thier users before enforcing them.
+"Write to the log only" option does not block logon attempts. Instead, it logs that the condition has been met. The IT administrator can then try different configuration parameters to evaluate how the settings impacts their users before enforcing them.
 
 <a id="TOC301258518"></a>
 
