@@ -18,7 +18,7 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference/nativ
   
 ### Parameters  
  `cIndex`  
- A `VARIANT` that specifies the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) to retreive from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) to retrieve.  
+ A `VARIANT` that specifies the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) to retrieve from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) to retrieve.  
   
  `ppElementSchema`  
  Contains the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) at the requested `cIndex`.  
