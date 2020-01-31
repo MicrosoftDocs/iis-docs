@@ -967,7 +967,7 @@ And finally, for item 6, we need the IIS-HttpCompressionStatic and IIS-HttpCompr
 
 At this point, we have the information we need in order to use the setup user interface tools and to check the components we need and uncheck the wones we do not require. But since we intend to deploy this Web server configuration to multiple servers, we must create a script that gives us the required package configuration. As discussed in the *IIS Package Updates* section *,* our scripts must explicitly declare any parent and/or feature updates dependencies for feature updates we wish to install.
 
-Taking dependencies one item at a time, the following section describes requred actions for this process.
+Taking dependencies one item at a time, the following section describes required actions for this process.
 
 ### Step 2: Determine Parents and Dependencies
 
