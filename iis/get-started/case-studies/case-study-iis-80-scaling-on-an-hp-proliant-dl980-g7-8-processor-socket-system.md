@@ -288,7 +288,7 @@ More IIS 8.0 characterizations with HyperV Server 2012 deployment on the HP DL98
 <a id="background"></a>
 #### Background
 
-Traditionally, each processor on a multi-socket system access memory and IO thru the same bus. It's becoming more and more common for large scale systems to use NUMA (non-uniform memory access) in order to avoid bus bottlenecks. On this model, different parts of IO and memory are connected to different sockets thus meaning that the performance of IO and memory operations are affected by how close the socket is connected to some parts of memory and IO.
+Traditionally, each processor on a multi-socket system access memory and IO through the same bus. It's becoming more and more common for large scale systems to use NUMA (non-uniform memory access) in order to avoid bus bottlenecks. On this model, different parts of IO and memory are connected to different sockets thus meaning that the performance of IO and memory operations are affected by how close the socket is connected to some parts of memory and IO.
 
 Receive Side Scaling (RSS) enables processing of network receiving by multiple processors.
 
@@ -299,7 +299,7 @@ Starting with Windows Server 2012, it's possible to configure RSS affinity to a 
 
 More specifically, the NUMA affinity can be configured using the following cmdlet: Set-NetAdapterRSS. This cmdlet takes a few parameters related to the Server's hardware topology. The parameters are: BaseProcessorGroup, BaseProcessorNumber, MaxProcessors and NumaNode.
 
-There are two ways to gather the values of such properties: Manual and thru PowerShell.
+There are two ways to gather the values of such properties: Manual and through PowerShell.
 
 In order to correctly configure the NUMA affinity settings, it's imperative to identify the physical connection of a network adapter to a given NUMA node.
 
@@ -310,14 +310,14 @@ Currently, this process that comprises the following steps:
 
 1. Locate the target Network adapter by using the Control Panel\Network and Internet\Network Connections. The property of interest for the next step &quot;Device Name&quot; as pictured in the below screenshot.  
     [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image12.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image11.png)
-2. Locate the NIC thru Device Manager. For that we use the &quot;Device Name&quot; property gathered in the previous step.  
+2. Locate the NIC through Device Manager. For that we use the &quot;Device Name&quot; property gathered in the previous step.  
     [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image14.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image13.png)
 3. Invoke the properties dialog for the specified NIC. The &quot;General&quot; tab will show the slot, device and function numbers for a given NIC.  
     ![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image15.png)
 4. With the bus information on hand, it's possible to identify in which NUMA node the NIC is connected to by correlating this information to the hardware topology diagram as provided in the &quot;[Hardware Section](#hp-platform)&quot; above.
 
-<a id="gathering-hardware-topology-thru-powershell"></a>
-##### Gathering Hardware Topology thru PowerShell
+<a id="gathering-hardware-topology-through-powershell"></a>
+##### Gathering Hardware Topology through PowerShell
 
 The hardware topology information that can be used to set the correct RSS affinity values can be obtained by using the Device Management PowerShell Cmdlets sample that is available on TechNet Gallery ([https://gallery.technet.microsoft.com/Device-Management-7fad2388](https://gallery.technet.microsoft.com/Device-Management-7fad2388)). This sample provides cmdlets to enumerate, control and manage devices.
 
