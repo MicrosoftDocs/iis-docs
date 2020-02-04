@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element
 TOCTitle: <SmoothStreamingMedia>
 ms:assetid: 958229a6-94d5-4fd5-929b-163a7d1e76bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee673438(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee673438(v=VS.90)
 ms:contentKeyID: 26179481
 ms.date: 05/02/2012
 mtps_version: v=VS.90

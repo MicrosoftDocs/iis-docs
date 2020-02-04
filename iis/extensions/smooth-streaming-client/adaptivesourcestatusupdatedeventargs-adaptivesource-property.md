@@ -2,7 +2,7 @@
 title: AdaptiveSourceStatusUpdatedEventArgs.AdaptiveSource Property
 TOCTitle: AdaptiveSource Property
 ms:assetid: e183678b-e19f-48cc-b2c5-fc713a63ec43
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822852(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822852(v=VS.90)
 ms:contentKeyID: 50079606
 ms.date: 11/19/2012
 mtps_version: v=VS.90

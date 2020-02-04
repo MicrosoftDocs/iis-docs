@@ -2,7 +2,7 @@
 title: IisNamespaces.ExpressionEncoder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ExpressionEncoder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.ExpressionEncoder
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.expressionencoder(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.expressionencoder(v=VS.90)
 ms:contentKeyID: 35520851
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -65,7 +65,7 @@ Application Pool Identities is a new security features that lets you run applica
 
 Worker processes in IIS 6, and in IIS 7 and above, run as NETWORKSERVICE by default. NETWORKSERVICE is a built-in Windows® identity. NETWORKSERVICE does not require a password and has only user privileges (it is relatively low privileged). Running as a low-privileged account is a good security practice because this prevents malicious users from using software bugs to take over the system.
 
-Over time, however, more and more Windows system services have been run as NETWORKSERVICE, and these services can tamper with other services running under the same identity. Because IIS worker processes run third-party code by default (PHP, classic ASP, and Microsoft® ASP.NET), it became necessary to isolate IIS worker processes from other Windows system services and to run IIS worker processes under unique identities. The Windows operating system provides a feature called [virtual accounts](https://technet.microsoft.com/en-us/library/dd548356(WS.10).aspx) that lets IIS create unique identities for each of its application pools.
+Over time, however, more and more Windows system services have been run as NETWORKSERVICE, and these services can tamper with other services running under the same identity. Because IIS worker processes run third-party code by default (PHP, classic ASP, and Microsoft® ASP.NET), it became necessary to isolate IIS worker processes from other Windows system services and to run IIS worker processes under unique identities. The Windows operating system provides a feature called [virtual accounts](https://technet.microsoft.com/library/dd548356(WS.10).aspx) that lets IIS create unique identities for each of its application pools.
 
 Whenever a new application pool is created, the IIS management process creates a security identifier (SID) representing the name of the application pool itself. For example, if you create an application pool with the name "MyNewAppPool," a SID with the name "MyNewAppPool" is created in the Windows Security system. Resources can be secured using this identity. Note that the identity is not a real user account, however; it will not show up as a user in the Windows User Management Console.
 
@@ -140,5 +140,5 @@ After configuring the NTFS permissions, only the SID that has been injected into
 ## Links for Further Information
 
 - [New in IIS 7 - App Pool Isolation](http://www.adopenstatic.com/cs/blogs/ken/archive/2008/01/29/15759.aspx)
-- [Create an Application Pool (IIS 7)](https://technet.microsoft.com/en-us/library/cc731784.aspx)
-- [Managing Application Pools in IIS 7](https://technet.microsoft.com/en-us/library/cc753449(WS.10).aspx)
+- [Create an Application Pool (IIS 7)](https://technet.microsoft.com/library/cc731784.aspx)
+- [Managing Application Pools in IIS 7](https://technet.microsoft.com/library/cc753449(WS.10).aspx)

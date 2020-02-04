@@ -2,7 +2,7 @@
 title: JobManifest.Programs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Programs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Programs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.programs(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.programs(v=VS.90)
 ms:contentKeyID: 35520860
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.HardwareProfile Property
 TOCTitle: HardwareProfile Property
 ms:assetid: 5d83abca-f06a-48af-900d-db0493791e33
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822744(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822744(v=VS.90)
 ms:contentKeyID: 50079499
 ms.date: 11/19/2012
 mtps_version: v=VS.90

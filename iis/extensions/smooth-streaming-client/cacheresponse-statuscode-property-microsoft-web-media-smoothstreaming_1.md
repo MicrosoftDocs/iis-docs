@@ -2,7 +2,7 @@
 title: CacheResponse.StatusCode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusCode
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.statuscode(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.statuscode(v=VS.95)
 ms:contentKeyID: 46307747
 ms.date: 05/31/2012
 mtps_version: v=VS.95

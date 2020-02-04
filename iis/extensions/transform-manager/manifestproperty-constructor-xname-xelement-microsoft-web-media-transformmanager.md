@@ -2,7 +2,7 @@
 title: ManifestProperty Constructor (XName, XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Constructor (XName, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.Xml.Linq.XName,System.Xml.Linq.XElement)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)
 ms:contentKeyID: 33674380
 ms.date: 06/14/2012
 mtps_version: v=VS.90

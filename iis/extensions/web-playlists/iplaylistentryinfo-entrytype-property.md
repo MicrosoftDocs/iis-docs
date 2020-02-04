@@ -2,7 +2,7 @@
 title: IPlaylistEntryInfo::EntryType Property
 TOCTitle: IPlaylistEntryInfo::EntryType Property
 ms:assetid: 2dedca8f-8189-45ed-b92b-1caa92122eda
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146260(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146260(v=VS.90)
 ms:contentKeyID: 19132331
 ms.date: 05/02/2012
 mtps_version: v=VS.90

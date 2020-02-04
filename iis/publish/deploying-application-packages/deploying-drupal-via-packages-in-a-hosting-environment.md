@@ -211,12 +211,12 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
       The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.  
       ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image37.jpg)
 10. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image39.jpg)
+    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image39.jpg)
 11. Enter the path to the application package, or click Browse to locate the application file.
 12. Click **Next**.  
   
-   The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
+    The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
+    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
 13. Click **Finish**.Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.
 
 <a id="\_Ref279680466"></a><a id="\_Ref279656893"></a>
@@ -346,7 +346,7 @@ This table provides additional information about the products that are installed
 | MySQL Connector/Net 6.2.3 | Connector/Net is a fully-managed ADO.NET driver for MySQL. For more information, refer to the link: [*MySQL Download Connector/Net*](http://dev.mysql.com/downloads/connector/net/6.2.html). |
 | PHP Driver for SQL Server | The SQL Server Driver for PHP v1.1 is designed to enable reliable, scalable integration with SQL Server for PHP applications deployed on the Windows platform. For more information, refer to the link: [*SQL Server Driver for PHP*](https://www.microsoft.com/sqlserver/2005/en/us/php-driver.aspx). |
 | PHP | PHP is a general-purpose scripting language that can be embedded into HTML and is especially suited for Web development. For more information, refer to the link: [*PHP*](http://www.php.net/). |
-| SQL Server 2008 Management Objects | The SQL Server Management Objects (SMO) is a .NET Framework object model that enables software developers to create client-side applications to manage and administer SQL Server objects and services. For more information, refer to the link: [*Microsoft TechNet SQL Server Management Objects (SMO)*](https://technet.microsoft.com/en-us/library/ms162169.aspx). |
+| SQL Server 2008 Management Objects | The SQL Server Management Objects (SMO) is a .NET Framework object model that enables software developers to create client-side applications to manage and administer SQL Server objects and services. For more information, refer to the link: [*Microsoft TechNet SQL Server Management Objects (SMO)*](https://technet.microsoft.com/library/ms162169.aspx). |
 | URL Rewrite 2.0 | IIS URL Rewrite 2.0 enables Web administrators to create powerful rules to implement URLs that are easier for users to remember and easier for search engines to find. For more information, refer to the link: [*URL Rewrite*](https://www.iis.net/downloads/microsoft/url-rewrite). |
 | Windows Cache 1.1 for PHP | Windows Cache Extension for PHP is a PHP accelerator that is used to increase the speed of PHP applications running on Windows and Windows Server. For more information, refer to the link: [*Windows Cache Extension for PHP*](https://www.iis.net/downloads/microsoft/wincache-extension). |
 

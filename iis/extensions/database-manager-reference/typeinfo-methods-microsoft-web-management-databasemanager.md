@@ -2,7 +2,7 @@
 title: TypeInfo Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.TypeInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo_methods(v=VS.90)
 ms:contentKeyID: 20476656
 ms.date: 05/02/2012
 mtps_version: v=VS.90

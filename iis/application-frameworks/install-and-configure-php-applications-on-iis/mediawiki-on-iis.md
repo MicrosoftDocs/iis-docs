@@ -69,7 +69,7 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
 
     [!code-console[Main](mediawiki-on-iis/samples/sample8.cmd)]
 
- The previous command grants access only to the following identities:  
+   The previous command grants access only to the following identities:  
 
     - SYSTEM
     - BUILTIN\Administrators group

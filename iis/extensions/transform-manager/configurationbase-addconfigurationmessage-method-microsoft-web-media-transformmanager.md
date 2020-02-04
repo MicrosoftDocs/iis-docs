@@ -2,7 +2,7 @@
 title: ConfigurationBase.AddConfigurationMessage Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: AddConfigurationMessage Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.ConfigurationBase.AddConfigurationMessage
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.addconfigurationmessage(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.addconfigurationmessage(v=VS.90)
 ms:contentKeyID: 35520738
 ms.date: 06/14/2012
 mtps_version: v=VS.90

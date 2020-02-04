@@ -2,7 +2,7 @@
 title: Cookies Property
 TOCTitle: Cookies Property
 ms:assetid: 2150049e-946d-4de2-ba4e-f8a92c7d6c54
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822701(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822701(v=VS.90)
 ms:contentKeyID: 50079456
 ms.date: 11/19/2012
 mtps_version: v=VS.90

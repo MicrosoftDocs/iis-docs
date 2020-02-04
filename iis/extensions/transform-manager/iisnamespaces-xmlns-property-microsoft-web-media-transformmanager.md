@@ -2,7 +2,7 @@
 title: IisNamespaces.Xmlns Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Xmlns Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Xmlns
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.xmlns(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.xmlns(v=VS.90)
 ms:contentKeyID: 35520695
 ms.date: 06/14/2012
 mtps_version: v=VS.90
@@ -70,7 +70,7 @@ static property XNamespace^ Xmlns {
 ### Property Value
 
 Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
-The XML namespace value "http://www.w3.org/2000/xmlns/".  
+The XML namespace value "<http://www.w3.org/2000/xmlns/>".  
 
 ## See Also
 

@@ -2,7 +2,7 @@
 title: IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
 TOCTitle: IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
 ms:assetid: 2e151498-c316-680f-71cf-84ab02245717
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/ms690765(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/ms690765(v=VS.90)
 ms:contentKeyID: 6824802
 ms.date: 03/09/2018
 mtps_version: v=VS.90

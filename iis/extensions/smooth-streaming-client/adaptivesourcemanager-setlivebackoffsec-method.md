@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager.SetLiveBackoffSec Method
 TOCTitle: SetLiveBackoffSec Method
 ms:assetid: 19691763-2ca4-471a-8ef1-eebb5b8e8f11
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822689(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822689(v=VS.90)
 ms:contentKeyID: 50079444
 ms.date: 11/19/2012
 mtps_version: v=VS.90

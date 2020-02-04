@@ -2,7 +2,7 @@
 title: IDbViewManager.EditView Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: EditView Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbViewManager.EditView(System.String,System.String,Microsoft.Web.Management.DatabaseManager.View)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbviewmanager.editview(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbviewmanager.editview(v=VS.90)
 ms:contentKeyID: 20476436
 ms.date: 05/02/2012
 mtps_version: v=VS.90

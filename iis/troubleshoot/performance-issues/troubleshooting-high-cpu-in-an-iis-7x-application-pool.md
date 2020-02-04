@@ -213,7 +213,7 @@ By using Perfmon and DebugDiag, you can easily collect data that can be helpful 
 
 ### Other Resources
 
-- [Troubleshooting High CPU Utilization](https://technet.microsoft.com/en-us/library/bb742546.aspx)
+- [Troubleshooting High CPU Utilization](https://technet.microsoft.com/library/bb742546.aspx)
 - [Troubleshooting High CPU Performance Issues](https://blogs.msdn.com/b/mike/archive/2007/12/06/troubleshooting-high-cpu-performance-issues.aspx)
 - [What to Gather to Troubleshoot High CPU or Hang](https://blogs.msdn.com/b/tom/archive/2008/05/02/8450990.aspx)
 - [.NET Debugging Demos](https://blogs.msdn.com/b/tess/archive/2008/02/04/net-debugging-demos-information-and-setup-instructions.aspx)

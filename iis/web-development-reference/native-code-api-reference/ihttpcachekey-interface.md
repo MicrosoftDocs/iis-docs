@@ -39,7 +39,7 @@ class IHttpCacheKey
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpCacheKey#1](IHttpCacheKey#1)]  -->  
+ [!code-cpp[IHttpCacheKey#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCacheKey/cpp/IHttpCacheKey.cpp#1)]  
   
  The above code writes a new event to the Event Viewer, where the Data box contains XML similar to the following.  
   

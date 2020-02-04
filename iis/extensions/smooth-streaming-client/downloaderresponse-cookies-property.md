@@ -2,7 +2,7 @@
 title: DownloaderResponse.Cookies Property
 TOCTitle: Cookies Property
 ms:assetid: 013b7696-7cc9-45db-b736-ce3b5916f7d3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ851080(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ851080(v=VS.90)
 ms:contentKeyID: 50079419
 ms.date: 11/19/2012
 mtps_version: v=VS.90

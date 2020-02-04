@@ -2,7 +2,7 @@
 title: JobDefinition.SchedulerUseNodeProfile Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerUseNodeProfile Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerUseNodeProfile
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulerusenodeprofile(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulerusenodeprofile(v=VS.90)
 ms:contentKeyID: 35521135
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: AlternativeUris Property
 TOCTitle: AlternativeUris Property
 ms:assetid: 4b96af6c-fd67-4005-a87f-89919fc51eba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822730(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822730(v=VS.90)
 ms:contentKeyID: 50079485
 ms.date: 11/19/2012
 mtps_version: v=VS.90

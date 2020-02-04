@@ -2,7 +2,7 @@
 title: Tracing.DisableTraceDestination Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: DisableTraceDestination Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceDestination(Microsoft.Web.Media.Diagnostics.TraceDestination)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.disabletracedestination(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.disabletracedestination(v=VS.90)
 ms:contentKeyID: 23961061
 ms.date: 05/02/2012
 mtps_version: v=VS.90

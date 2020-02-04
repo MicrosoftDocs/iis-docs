@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Client Manifest - StreamIndex Element
 TOCTitle: <StreamIndex>
 ms:assetid: d4c9c38f-5f43-4e9e-aba7-82c13983c594
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee673442(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee673442(v=VS.90)
 ms:contentKeyID: 26179485
 ms.date: 05/02/2012
 mtps_version: v=VS.90

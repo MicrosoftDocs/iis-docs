@@ -2,7 +2,7 @@
 title: Test and Debug an Implementation of ISmoothStreamingCache
 TOCTitle: Test and Debug an Implementation of ISmoothStreamingCache
 ms:assetid: 84c92472-1f5c-4763-ab21-93f264951129
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg296363(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg296363(v=VS.95)
 ms:contentKeyID: 46359321
 ms.date: 05/31/2012
 mtps_version: v=VS.95
@@ -30,7 +30,7 @@ By watching this location as the application runs, you can verify that data is b
 
 If you are using the cache implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) described in [Cache Plug-in Implementation of ISmoothStreamingCache](cache-plug-in-implementation-of-ismoothstreamingcache_1.md), you can use the debugger to watch the isoFileArea variable, which has public members named Quota, UsedSpace, and AvailableFreeSpace.
 
-If the application is running outside the debugger, the path to isolated storage files can be obtained by using the [Process Explorer utility](https://technet.microsoft.com/en-us/sysinternals/bb896653.aspx).
+If the application is running outside the debugger, the path to isolated storage files can be obtained by using the [Process Explorer utility](https://technet.microsoft.com/sysinternals/bb896653.aspx).
 
 The [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method gets the URL of each data chunk from the request parameter. The actual data of the request is obtained from the response parameter. The response is written to a file in isolated storage when the [EndPersist(IAsyncResult)](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md) method runs. If Fiddler is running, you can watch the requests that the application makes to the server and the results of the requests. After data has been persisted in the cache, subsequent requests to the server should not be made because the data is obtained by the [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method from the cache. As noted, the browser might cache the data. Fiddler has a **Clear-Cache** option that can be used to clear the cache, or you can use the browser's commands to delete browsing history.
 

@@ -44,7 +44,7 @@ virtual VOID GetStatus(
  [OUT] A pointer to a `DWORD` that receives the notification during which the error status was set.  
   
  `ppException`  
- [OUT] A pointer to an [INativeSectionException](https://msdn.microsoft.com/en-us/89e76f37-6196-566b-c07a-f756855d097c) interface that is associated with this status.  
+ [OUT] A pointer to an [INativeSectionException](https://msdn.microsoft.com/89e76f37-6196-566b-c07a-f756855d097c) interface that is associated with this status.  
   
 ## Return Value  
  `VOID`.  
@@ -58,7 +58,7 @@ virtual VOID GetStatus(
 ## Example  
  The following code example demonstrates how to use the `GetStatus` method to create an HTTP module that retrieves the HTTP response status. The example module returns the contents of the HTTP response status to the client, and it calls the [IHttpResponse::SetStatus](../../web-development-reference/native-code-api-reference/ihttpresponse-setstatus-method.md) method to set the response status to "200 OK" so the client will always receive the result.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpResponseGetStatus#1](IHttpResponseGetStatus#1)]  -->  
+ [!code-cpp[IHttpResponseGetStatus#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetStatus/cpp/IHttpResponseGetStatus.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

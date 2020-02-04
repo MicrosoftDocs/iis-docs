@@ -47,4 +47,4 @@ Each configuration topic in this reference will usually consist of the following
 
 ### Powershell
 
-For PowerShell support on IIS administration, refer to the [cmdlet reference](https://technet.microsoft.com/en-us/library/ee790599.aspx).
+For PowerShell support on IIS administration, refer to the [cmdlet reference](https://technet.microsoft.com/library/ee790599.aspx).

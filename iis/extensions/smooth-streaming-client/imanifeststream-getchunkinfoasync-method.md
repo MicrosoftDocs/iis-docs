@@ -2,7 +2,7 @@
 title: IManifestStream.GetChunkInfoAsync Method
 TOCTitle: GetChunkInfoAsync Method
 ms:assetid: 00ee0434-0e92-4fa9-a0be-30643081a99f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ851079(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ851079(v=VS.90)
 ms:contentKeyID: 50079418
 ms.date: 11/19/2012
 mtps_version: v=VS.90

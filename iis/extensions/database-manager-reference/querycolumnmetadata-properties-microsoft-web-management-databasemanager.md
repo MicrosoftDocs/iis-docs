@@ -2,7 +2,7 @@
 title: QueryColumnMetadata Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryColumnMetadata Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.querycolumnmetadata_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata_properties(v=VS.90)
 ms:contentKeyID: 20476607
 ms.date: 05/02/2012
 mtps_version: v=VS.90

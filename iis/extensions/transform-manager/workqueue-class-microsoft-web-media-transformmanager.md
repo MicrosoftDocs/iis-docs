@@ -2,7 +2,7 @@
 title: WorkQueue Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: WorkQueue Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.WorkQueue
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.workqueue(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue(v=VS.90)
 ms:contentKeyID: 35521126
 ms.date: 06/14/2012
 mtps_version: v=VS.90

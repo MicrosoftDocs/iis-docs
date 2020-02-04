@@ -2,7 +2,7 @@
 title: ManifestStream.SubType Property
 TOCTitle: SubType Property
 ms:assetid: ef3caaad-1f53-4fea-be2e-4ec939ccd5bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822868(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822868(v=VS.90)
 ms:contentKeyID: 50079622
 ms.date: 11/19/2012
 mtps_version: v=VS.90

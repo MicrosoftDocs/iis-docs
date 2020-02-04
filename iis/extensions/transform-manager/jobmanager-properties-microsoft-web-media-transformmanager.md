@@ -2,7 +2,7 @@
 title: JobManager Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManager Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobManager
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager_properties(v=VS.90)
 ms:contentKeyID: 35520633
 ms.date: 06/14/2012
 mtps_version: v=VS.90

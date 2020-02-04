@@ -2,7 +2,7 @@
 title: IPlaylistFileInfo::GetStream Method
 TOCTitle: IPlaylistFileInfo::GetStream Method
 ms:assetid: 164b2ebd-d2b4-4990-b10e-f9e65db1e9a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146258(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146258(v=VS.90)
 ms:contentKeyID: 19132329
 ms.date: 05/02/2012
 mtps_version: v=VS.90

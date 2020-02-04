@@ -2,7 +2,7 @@
 title: ChunkInfo Structure
 TOCTitle: ChunkInfo Structure
 ms:assetid: 8b252b79-f443-44ed-a426-04005697d5f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822772(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822772(v=VS.90)
 ms:contentKeyID: 50079527
 ms.date: 11/19/2012
 mtps_version: v=VS.90

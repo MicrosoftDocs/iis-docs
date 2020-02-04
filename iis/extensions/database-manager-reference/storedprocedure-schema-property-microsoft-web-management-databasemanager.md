@@ -2,7 +2,7 @@
 title: StoredProcedure.Schema Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Schema Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedure.Schema
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedure.schema(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure.schema(v=VS.90)
 ms:contentKeyID: 20476808
 ms.date: 05/02/2012
 mtps_version: v=VS.90

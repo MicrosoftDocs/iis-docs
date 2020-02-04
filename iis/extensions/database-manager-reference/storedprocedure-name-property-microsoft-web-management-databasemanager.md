@@ -2,7 +2,7 @@
 title: StoredProcedure.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedure.Name
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedure.name(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure.name(v=VS.90)
 ms:contentKeyID: 20476463
 ms.date: 05/02/2012
 mtps_version: v=VS.90

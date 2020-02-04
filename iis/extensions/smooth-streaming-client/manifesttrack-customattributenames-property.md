@@ -2,7 +2,7 @@
 title: ManifestTrack.CustomAttributeNames Property
 TOCTitle: CustomAttributeNames Property
 ms:assetid: 8bbb3af0-0f18-47db-9687-7cd50f3e6012
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822775(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822775(v=VS.90)
 ms:contentKeyID: 50079530
 ms.date: 11/19/2012
 mtps_version: v=VS.90

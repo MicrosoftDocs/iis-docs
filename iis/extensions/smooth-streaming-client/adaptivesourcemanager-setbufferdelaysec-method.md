@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager.SetBufferDelaySec Method
 TOCTitle: SetBufferDelaySec Method
 ms:assetid: 3c7084a2-4270-4f87-bcb0-3bbcac268580
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822720(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822720(v=VS.90)
 ms:contentKeyID: 50079475
 ms.date: 11/19/2012
 mtps_version: v=VS.90

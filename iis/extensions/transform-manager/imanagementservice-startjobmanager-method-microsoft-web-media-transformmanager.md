@@ -2,7 +2,7 @@
 title: IManagementService.StartJobManager Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: StartJobManager Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.StartJobManager(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanagementservice.startjobmanager(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.startjobmanager(v=VS.90)
 ms:contentKeyID: 35520976
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: HpcScheduler Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: HpcScheduler Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.HpcScheduler
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler_properties(v=VS.90)
 ms:contentKeyID: 35520943
 ms.date: 06/14/2012
 mtps_version: v=VS.90

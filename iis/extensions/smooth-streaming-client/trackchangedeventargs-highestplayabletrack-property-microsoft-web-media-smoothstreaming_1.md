@@ -2,7 +2,7 @@
 title: TrackChangedEventArgs.HighestPlayableTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: HighestPlayableTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.HighestPlayableTrack
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.highestplayabletrack(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.highestplayabletrack(v=VS.95)
 ms:contentKeyID: 46307878
 ms.date: 05/31/2012
 mtps_version: v=VS.95

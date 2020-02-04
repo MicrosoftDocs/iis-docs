@@ -62,7 +62,7 @@ The `<error>` element of the `<httpErrors>` collection is included in the defaul
 7. In the **File path** text box, type the path of the custom error page if you chose **Insert content from static file into the error response** or the URL of the custom error page if you use either the **Execute a URL on this site** or **Respond with a 302 redirect**, and then click **OK**.  
   
     > [!NOTE]
-    > If you select **Execute a URL on this site** , the path must be a relative path. If you select **Respond with a 302 redirect** , the URL must be an absolute URL.
+    > If you select **Execute a URL on this site**, the path must be a relative path. If you select **Respond with a 302 redirect**, the URL must be an absolute URL.
 
 ## Configuration
 

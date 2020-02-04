@@ -48,7 +48,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
     [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
-- Click **Close**.
+4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 

@@ -2,7 +2,7 @@
 title: JobDetails.JobDetailsRoot Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsRoot Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsRoot
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsroot(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsroot(v=VS.90)
 ms:contentKeyID: 35520626
 ms.date: 06/14/2012
 mtps_version: v=VS.90

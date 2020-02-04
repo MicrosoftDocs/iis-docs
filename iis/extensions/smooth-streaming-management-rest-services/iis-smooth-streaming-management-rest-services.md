@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Management REST Services
 TOCTitle: IIS Smooth Streaming Management REST Services
 ms:assetid: ae4bff7d-fa46-4052-a8ab-f932bb6ddb02
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh239768(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh239768(v=VS.90)
 ms:contentKeyID: 35957235
 ms.date: 05/02/2012
 mtps_version: v=VS.90

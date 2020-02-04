@@ -2,7 +2,7 @@
 title: ServerConnections Element
 TOCTitle: ServerConnections Element
 ms:assetid: be105438-17e3-4e1d-8af1-fb692c481f76
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547059(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547059(v=VS.90)
 ms:contentKeyID: 37836900
 ms.date: 05/02/2012
 mtps_version: v=VS.90

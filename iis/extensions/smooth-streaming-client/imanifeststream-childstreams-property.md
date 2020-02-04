@@ -2,7 +2,7 @@
 title: IManifestStream.ChildStreams Property
 TOCTitle: ChildStreams Property
 ms:assetid: 8dff8f9d-ca08-4896-8c9d-6b19584ec059
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822779(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822779(v=VS.90)
 ms:contentKeyID: 50079533
 ms.date: 11/19/2012
 mtps_version: v=VS.90

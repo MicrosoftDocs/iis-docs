@@ -2,7 +2,7 @@
 title: TraceEntry.TraceArea Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceArea Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceArea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.tracearea(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.tracearea(v=VS.95)
 ms:contentKeyID: 46307732
 ms.date: 05/31/2012
 mtps_version: v=VS.95

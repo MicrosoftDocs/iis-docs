@@ -2,7 +2,7 @@
 title: JobDefinition.NodeTaskCodePathX86 Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NodeTaskCodePathX86 Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NodeTaskCodePathX86
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.nodetaskcodepathx86(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.nodetaskcodepathx86(v=VS.90)
 ms:contentKeyID: 35520566
 ms.date: 06/14/2012
 mtps_version: v=VS.90

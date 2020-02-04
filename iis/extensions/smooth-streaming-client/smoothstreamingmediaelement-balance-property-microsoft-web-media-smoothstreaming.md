@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.Balance Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Balance Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Balance
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.balance(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.balance(v=VS.90)
 ms:contentKeyID: 23960952
 ms.date: 05/02/2012
 mtps_version: v=VS.90

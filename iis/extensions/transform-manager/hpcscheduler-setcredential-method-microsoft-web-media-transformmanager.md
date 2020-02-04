@@ -2,7 +2,7 @@
 title: HpcScheduler.SetCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetCredential Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.SetCredential(Microsoft.Web.Media.TransformManager.Credential)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler.setcredential(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.setcredential(v=VS.90)
 ms:contentKeyID: 35520628
 ms.date: 06/14/2012
 mtps_version: v=VS.90

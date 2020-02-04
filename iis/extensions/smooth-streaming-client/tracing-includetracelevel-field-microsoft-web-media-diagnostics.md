@@ -2,7 +2,7 @@
 title: Tracing.IncludeTraceLevel Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeTraceLevel Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceLevel
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.includetracelevel(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetracelevel(v=VS.90)
 ms:contentKeyID: 23961222
 ms.date: 05/02/2012
 mtps_version: v=VS.90

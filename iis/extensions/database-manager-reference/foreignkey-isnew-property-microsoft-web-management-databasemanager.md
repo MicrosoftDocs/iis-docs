@@ -2,7 +2,7 @@
 title: ForeignKey.IsNew Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNew Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.IsNew
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.foreignkey.isnew(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.isnew(v=VS.90)
 ms:contentKeyID: 20476454
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: CircularList(T).Sort Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Sort Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.Sort
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728197(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728197(v=VS.90)
 ms:contentKeyID: 31469217
 ms.date: 05/02/2012
 mtps_version: v=VS.90

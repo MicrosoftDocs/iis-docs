@@ -2,7 +2,7 @@
 title: SmoothSchemeHandler.SetProperties Method
 TOCTitle: SetProperties Method
 ms:assetid: a42dacd8-8095-44cc-ba55-df395894f295
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822801(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822801(v=VS.90)
 ms:contentKeyID: 50079555
 ms.date: 11/19/2012
 mtps_version: v=VS.90

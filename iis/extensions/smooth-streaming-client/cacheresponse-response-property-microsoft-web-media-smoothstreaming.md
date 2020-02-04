@@ -2,7 +2,7 @@
 title: CacheResponse.Response Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Response Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Response
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.response(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.response(v=VS.90)
 ms:contentKeyID: 31469265
 ms.date: 05/02/2012
 mtps_version: v=VS.90

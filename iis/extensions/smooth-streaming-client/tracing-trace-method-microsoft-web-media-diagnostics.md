@@ -2,7 +2,7 @@
 title: Tracing.Trace Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Trace Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.Trace
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.trace(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.trace(v=VS.90)
 ms:contentKeyID: 23961195
 ms.date: 05/02/2012
 mtps_version: v=VS.90

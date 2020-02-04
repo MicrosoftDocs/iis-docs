@@ -2,7 +2,7 @@
 title: JobDetails.LogFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.LogFolder
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.logfolder(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.logfolder(v=VS.90)
 ms:contentKeyID: 36868653
 ms.date: 06/14/2012
 mtps_version: v=VS.90

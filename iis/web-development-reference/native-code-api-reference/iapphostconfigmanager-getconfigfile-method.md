@@ -37,7 +37,7 @@ HRESULT GetConfigFile(
 ## Example  
  The following code example obtains a configuration file, adds a new section group and a new section, sets properties on the new section, and then commits the changes to the configuration system.  
   
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#7](IAppHostAdminLibrary#7)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#7](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostSectionGroupAddSectionGroup.cpp#7)]  
   
 ## Requirements  
   

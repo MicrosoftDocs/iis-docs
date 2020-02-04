@@ -2,7 +2,7 @@
 title: View Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: View Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.View
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.view_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view_properties(v=VS.90)
 ms:contentKeyID: 20476484
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: StoredProcedure.Definition Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Definition Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedure.Definition
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedure.definition(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure.definition(v=VS.90)
 ms:contentKeyID: 20476761
 ms.date: 05/02/2012
 mtps_version: v=VS.90

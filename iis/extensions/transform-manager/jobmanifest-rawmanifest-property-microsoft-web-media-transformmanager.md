@@ -2,7 +2,7 @@
 title: JobManifest.RawManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RawManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.RawManifest
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.rawmanifest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.rawmanifest(v=VS.90)
 ms:contentKeyID: 35520727
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -50,7 +50,7 @@ This release of the SDK includes support for the following:
 - You must change the build platform from **Any Cpu** to the targeted architecture (x64/x86/ARM) before compiling the project in Visual Studio. Otherwise, you might get compilation errors and warnings such as the following:  
     ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image1.png)  
   
- Leaving the **Any CPU** option selected will display the following warning in the References section in Visual Studio:  
+  Leaving the **Any CPU** option selected will display the following warning in the References section in Visual Studio:  
     ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image2.png)
 - The SDK depends on the Microsoft Visual C++ Runtime Package. Failing to add this dependency to the project references will cause Visual Studio to generate compilation errors and warnings, such as the following:  
     ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image3.png)

@@ -25,7 +25,7 @@ To use Visual Studio 2008 to work with Web sites and applications on your local 
 2. Install ASP.NET.
 3. Install IIS 6.0 Metabase Compatibility.  
   
- On Windows Vista, open the Control Panel, click Programs and Features, click the Turn Windows features on and off link, check the **Internet Information Services** check box, as well as the **Web Management Tools** \ **IIS 6 Management Compatibility** \ **IIS Metabase** and **IIS 6 configuration compatibility** and the **World Wide Web Services** \ **Application Development Features** \ **ASP.NET** check boxes under it.  
+   On Windows Vista, open the Control Panel, click Programs and Features, click the Turn Windows features on and off link, check the **Internet Information Services** check box, as well as the **Web Management Tools** \ **IIS 6 Management Compatibility** \ **IIS Metabase** and **IIS 6 configuration compatibility** and the **World Wide Web Services** \ **Application Development Features** \ **ASP.NET** check boxes under it.  
 
     [![](using-visual-studio-2008-with-iis/_static/image2.png)](using-visual-studio-2008-with-iis/_static/image1.png)
 
@@ -63,7 +63,7 @@ You can find the detailed explanation of the two models and their differences in
 
 **To publish the project to an IIS Web site:** 
 
-1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/en-us/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/en-us/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
+1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the **Build** \ **Publish** option to publish the contents of your Web application to an IIS Web site.  
     [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)   
 
@@ -95,7 +95,7 @@ For more information on configuring remote debugging, see "Debugging IIS Web App
 
 **To create a new project using the Web site project option:** 
 
-1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/en-us/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/en-us/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
+1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, on the **File** menu, select **New Web Site** to create a new Web site project using the IIS Web site you created.
 3. In the **New Web Site** dialog, select one of the Visual Studio Web site templates, such as **ASP.NET Web Site**.
 4. Next, indicate where this Web site should be located. To do this, click the **Browse** button, which displays a **Choose Location** dialog similar to what you get when you publish a Web application project. Here, click the **Local IIS** button again to select an existing Web site or application on the local machine, or create a new Web application or virtual directory to host your project files.

@@ -2,7 +2,7 @@
 title: Delete a Publishing Point
 TOCTitle: Delete a Publishing Point
 ms:assetid: 00e26775-66b9-49f5-aad9-bf445205cdda
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh206005(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh206005(v=VS.90)
 ms:contentKeyID: 35990939
 ms.date: 05/02/2012
 mtps_version: v=VS.90

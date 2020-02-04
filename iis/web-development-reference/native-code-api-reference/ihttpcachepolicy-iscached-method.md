@@ -32,7 +32,7 @@ virtual BOOL IsCached(
 ## Example  
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes cache information to the response stream.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpCachePolicy#10](IHttpCachePolicy#10)]  -->  
+ [!code-cpp[IHttpCachePolicy#10](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCachePolicy/cpp/IsCached.cpp#10)]  
   
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

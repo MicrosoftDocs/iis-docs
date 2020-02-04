@@ -68,7 +68,7 @@ The FTP for IIS server has several features that make it ideal for shared hostin
 
 1. Select the FTP computer and install the new FTP for IIS service. Follow the instructions found in [Installing and Troubleshooting FTP](../../install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7.md "Installing and Troubleshooting FTP 7.0").
 2. Create a root folder to be used for your FTP site, for example: `%*SystemDrive*%\inetpub\ftproot`.
-3. Optionally, if there are FTP high availability and/or load balancing requirements, Microsoft provides solutions such as [Network Load Balance](https://technet.microsoft.com/en-us/library/cc732855.aspx "Network Load Balance") or [Failover Clusters](https://technet.microsoft.com/en-us/library/cc732488.aspx "Failover Clusters"), DNS round-robin might be sufficient.
+3. Optionally, if there are FTP high availability and/or load balancing requirements, Microsoft provides solutions such as [Network Load Balance](https://technet.microsoft.com/library/cc732855.aspx "Network Load Balance") or [Failover Clusters](https://technet.microsoft.com/library/cc732488.aspx "Failover Clusters"), DNS round-robin might be sufficient.
 4. Create a site that allows SSL connections and Basic authentication. Follow the steps in the [Create SSL Enabled Site](#create-ssl-enabled-site) section.
 5. Enable the User Isolation feature. Follow the steps in the [Configure User Isolation for All Directories](#configure-user-isolation-for-all-directories) section.
 6. Configure the FTP firewall settings as described in the [corresponding](#configure-the-ftp-firewall-settings) section below.

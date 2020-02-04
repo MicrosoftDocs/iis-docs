@@ -10,8 +10,8 @@ Inserts or appends an [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=
   
 ```cpp  
 HRESULT WriteEntityChunkByReference(  
-   IN HTTP_DATA_CHUNK* pDataChunk,  
-   IN LONG lInsertPosition = -1  
+   IN HTTP_DATA_CHUNK* pDataChunk,  
+   IN LONG lInsertPosition = -1  
 )  
 ```  
   
@@ -35,19 +35,19 @@ HRESULT WriteEntityChunkByReference(
 ## Remarks  
  The `WriteEntityChunkByReference` method inserts or appends an `HTTP_DATA_CHUNK` structure into the response buffer depending on the value of the `lInsertPosition` parameter.  
   
--   If `lInsertPosition` is 0, the data will be inserted before the existing response data.  
+- If `lInsertPosition` is 0, the data will be inserted before the existing response data.  
   
--   If `lInsertPosition` is -1, the data will be appended after the last chunk of existing response data.  
+- If `lInsertPosition` is -1, the data will be appended after the last chunk of existing response data.  
   
- The `WriteEntityChunkByReference` method inserts a reference to the original data chunk, instead of a copy, into the response buffer. Therefore, the memory allocated for `pDataChunk->FromMemory.pBuffer` must persist for the duration of your response processing. Using local or stack memory results in undefined behavior.  
+  The `WriteEntityChunkByReference` method inserts a reference to the original data chunk, instead of a copy, into the response buffer. Therefore, the memory allocated for `pDataChunk->FromMemory.pBuffer` must persist for the duration of your response processing. Using local or stack memory results in undefined behavior.  
   
- A maximum of 65535 (64 KB minus 1) chunks can be written to a request.  
+  A maximum of 65535 (64 KB minus 1) chunks can be written to a request.  
   
 ## Example  
  The following example demonstrates how to use the `WriteEntityChunkByReference` method to insert data into the response. It also demonstrates how to use the `lInsertPosition` parameter to insert or append data chunks.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpResponseWriteEntityChunkByReference#1](IHttpResponseWriteEntityChunkByReference#1)]  -->  
-<!-- TODO: review snippet reference [!CODE [IHttpResponseWriteEntityChunkByReference#2](IHttpResponseWriteEntityChunkByReference#2)]  -->  
+ [!code-cpp[IHttpResponseWriteEntityChunkByReference#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunkByReference/cpp/IHttpResponseWriteEntityChunkByReference.cpp#1)]  
+[!code-cpp[IHttpResponseWriteEntityChunkByReference#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunkByReference/cpp/IHttpResponseWriteEntityChunkByReference.cpp#2)]  
   
 ## Requirements  
   

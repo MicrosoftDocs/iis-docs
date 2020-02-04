@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 # Troubleshooting Failed Requests Using Tracing in IIS 7
 
-Request-based tracing is available both in stand-alone IIS Servers and on Azure wep apps and provides a way to determine what exactly is happening with your requests and why, provided that you can reproduce the problem that you are experiencing. Problems like poor performance on some requests, or authentication-related failures on other requests, or the server 500 error from ASP or ASP.NET can often be difficult to troubleshoot--unless you have captured the trace of the problem when it occurs. the following article discusses failed request tracing on IIS Server. For information about doing this with Azure web apps, see [Troubleshoot an app in Azure App Service using Visual Studio](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio).
+Request-based tracing is available both in stand-alone IIS Servers and on Azure wep apps and provides a way to determine what exactly is happening with your requests and why, provided that you can reproduce the problem that you are experiencing. Problems like poor performance on some requests, or authentication-related failures on other requests, or the server 500 error from ASP or ASP.NET can often be difficult to troubleshoot--unless you have captured the trace of the problem when it occurs. the following article discusses failed request tracing on IIS Server. For information about doing this with Azure web apps, see [Troubleshoot an app in Azure App Service using Visual Studio](https://docs.microsoft.com/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio).
 
 Failed-request tracing is designed to buffer the trace events for a request and only flush them to disk if the request "fails," where you provide the definition of "failure". If you want to know why you're getting 404.2 error messages or request start hanging, use failed-request tracing.
 
@@ -90,10 +90,10 @@ After you enable failed-request tracing, you need to configure where the log fil
     ![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image7.jpg)
 
 5. In the **Edit Web Site Failed Request Tracing Settings** dialog box, configure the following:
-    - Select the **Enable** check box.
-    - Keep the defaults for the other settings.
+   - Select the **Enable** check box.
+   - Keep the defaults for the other settings.
 
-    ![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image10.jpg)
+     ![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image10.jpg)
 
 6. Click **OK**.
 

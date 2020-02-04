@@ -2,7 +2,7 @@
 title: RequestUri Property
 TOCTitle: RequestUri Property
 ms:assetid: f0c9b71d-227c-4f80-b438-36581e5bd79f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822870(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822870(v=VS.90)
 ms:contentKeyID: 50079624
 ms.date: 11/19/2012
 mtps_version: v=VS.90

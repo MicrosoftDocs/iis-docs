@@ -2,7 +2,7 @@
 title: ClipInformation.IsSmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsSmoothStreamingSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.IsSmoothStreamingSource
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.issmoothstreamingsource(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.issmoothstreamingsource(v=VS.95)
 ms:contentKeyID: 46307783
 ms.date: 05/31/2012
 mtps_version: v=VS.95

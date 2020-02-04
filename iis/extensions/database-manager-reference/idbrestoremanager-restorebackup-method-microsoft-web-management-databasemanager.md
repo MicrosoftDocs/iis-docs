@@ -2,7 +2,7 @@
 title: IDbRestoreManager.RestoreBackup Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: RestoreBackup Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbRestoreManager.RestoreBackup(System.String,System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbrestoremanager.restorebackup(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbrestoremanager.restorebackup(v=VS.90)
 ms:contentKeyID: 22049498
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -7,8 +7,8 @@ ms.assetid: 75449e45-0fee-4250-99d0-34b10b3aa051
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/automating-server-setup
 msc.type: authoredcontent
 ---
-Automating server setup
-====================
+# Automating server setup
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Introduction
@@ -23,13 +23,13 @@ This article explains how to provision an IIS frontend server with full WebMatri
 
 ## Preparing to Run Scripts
 
-1. Download the scripts from this location:
+1. Download the scripts from the following location:
 
-[https://go.microsoft.com/fwlink/?prd=12062&amp;pver=1.0&amp;sbp=WebMatrix&amp;plcid=0x409&amp;clcid=0x409&amp;ar=Hosting Kit&amp;sar=Scripts](https://go.microsoft.com/fwlink/?prd=12062&amp;pver=1.0&amp;sbp=WebMatrix&amp;plcid=0x409&amp;clcid=0x409&amp;ar=Hosting Kit&amp;sar=Scripts)
+   <https://go.microsoft.com/fwlink/?prd=12062&amp;pver=1.0&amp;sbp=WebMatrix&amp;plcid=0x409&amp;clcid=0x409&amp;ar=Hosting Kit&amp;sar=Scripts>
 
-1. Extract them to `%systemdrive%\Webmatrix`
-2. Launch a Powershell console in Administrator mode
-3. Run this command: *Set-Executionpolicy Unrestricted - force*. This will allow the unsigned scripts to execute.
+2. Extract them to `%systemdrive%\Webmatrix`
+3. Launch a Powershell console in Administrator mode
+4. Run this command: *Set-Executionpolicy Unrestricted - force*. This will allow the unsigned scripts to execute.
 
 ## Installing Software Requirements
 
@@ -38,9 +38,7 @@ The script pack contains a program called webpicmdline.exe in the \webpicmdline 
 1. Open an elevated command prompt (cmd.exe, NOT Powershell)
 2. Run this command to install the software stack:
 
-
 [!code-console[Main](automating-server-setup/samples/sample1.cmd)]
-
 
 ## Configuring the Web Management Service
 
@@ -102,7 +100,7 @@ This script needs to run on the first logon into the image. If you do this as th
 1. Start regedit.exe
 2. Navigate to HKCU\Software\Microsoft\Windows\CurrentVersion
 3. Create a key called RunOnce if it doesn't already exist
-4. Right-click the RunOnce key add a new String value. Name the value anything (e.g. – "CertInitScript")
+4. Right-click the RunOnce key add a new String value. Name the value anything (for example – "CertInitScript")
 5. Double click the string value and add the following for its data: `%WinDir%\System32\WindowsPowerShell\v1.0\powershell.exe C:\WebMatrix\00\_Certificate.ps1`
 
 Note: You can easily modify this script to assign an existing certificate (such as a trusted root certificate) to the Web Management Service. This is recommended so WebMatrix users do not see a certificate warning when publishing to your server.

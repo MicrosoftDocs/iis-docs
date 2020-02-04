@@ -2,7 +2,7 @@
 title: IisNamespaces.JobDefinitionNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinitionNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobDefinitionNamespace
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.jobdefinitionnamespace(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.jobdefinitionnamespace(v=VS.90)
 ms:contentKeyID: 35521194
 ms.date: 06/14/2012
 mtps_version: v=VS.90

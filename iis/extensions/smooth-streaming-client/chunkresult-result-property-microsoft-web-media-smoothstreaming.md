@@ -2,7 +2,7 @@
 title: ChunkResult.Result Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Result Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Result
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkresult.result(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.result(v=VS.90)
 ms:contentKeyID: 31469249
 ms.date: 05/02/2012
 mtps_version: v=VS.90

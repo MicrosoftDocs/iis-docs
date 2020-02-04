@@ -22,4 +22,4 @@ Once the environment is setup with Windows Deployment Services, a reference mach
 
 3. **Multicast Transmission Deployment**. Multicast transmissions allow you to deploy an image to a large number of client computers without overburdening the network. When you create a multicast transmission, the image is sent over the network only once, which can drastically reduce the network bandwidth that is used.
 
-You can also deploy images through [Microsoft Deployment](https://technet.microsoft.com/en-us/solutionaccelerators/bb963909.aspx) or SCCM.
+You can also deploy images through [Microsoft Deployment](https://technet.microsoft.com/solutionaccelerators/bb963909.aspx) or SCCM.

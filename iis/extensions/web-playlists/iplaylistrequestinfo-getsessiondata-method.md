@@ -2,7 +2,7 @@
 title: IPlaylistRequestInfo::GetSessionData Method
 TOCTitle: IPlaylistRequestInfo::GetSessionData Method
 ms:assetid: 806a9f3e-9390-4d67-8b9a-25a24974969e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146278(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146278(v=VS.90)
 ms:contentKeyID: 19132349
 ms.date: 05/02/2012
 mtps_version: v=VS.90

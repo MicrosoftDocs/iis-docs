@@ -2,7 +2,7 @@
 title: DatabaseProvider Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseProvider Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider.databaseprovider(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.databaseprovider(v=VS.90)
 ms:contentKeyID: 20476611
 ms.date: 05/02/2012
 mtps_version: v=VS.90

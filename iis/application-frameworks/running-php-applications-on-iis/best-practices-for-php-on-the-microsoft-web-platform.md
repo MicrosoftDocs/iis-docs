@@ -291,17 +291,17 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 
 ## Links for Further Information
 
-- [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/en-us/library/cc770381(WS.10).aspx).
+- [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/library/cc770381(WS.10).aspx).
 - [Windows Server Performance Team Blog](http://blogs.technet.com/winserverperformance/archive/2008/07/25/tuning-windows-server-2008-for-php.aspx)
-- [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/en-us/magazine/2008.09.iis.aspx).
-- [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/en-us/library/cc754631.aspx).
+- [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/magazine/2008.09.iis.aspx).
+- [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/library/cc754631.aspx).
 - [IIS 7.0 Bit Rate Throttling Module Released](https://weblogs.asp.net/scottgu/archive/2008/03/18/iis-7-0-bit-rate-throttling-module-released.aspx)
 - [Bit Rate Throttling is now released](https://blogs.iis.net/vsood/archive/2008/03/15/bit-rate-throttling-is-now-released.aspx).
-- [Configuring HTTP Compression in IIS 7](https://technet.microsoft.com/en-us/library/cc771003.aspx).
+- [Configuring HTTP Compression in IIS 7](https://technet.microsoft.com/library/cc771003.aspx).
 - [Build Web Server Solutions with End-To-End Extensibility](https://msdn.microsoft.com/magazine/cc164241.aspx)
 - [How to Get Started Extending Module Properties for IIS 7.0 and Above in IIS Manager](../../develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager.md).
 - [How to Take Advantage of the IIS 7.0 and Above Integrated Pipeline](../building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md)
-- [Enable Forms Authentication (IIS 7)](https://technet.microsoft.com/en-us/library/cc771077.aspx).
+- [Enable Forms Authentication (IIS 7)](https://technet.microsoft.com/library/cc771077.aspx).
 - [How to Use Request Filtering](../../manage/configuring-security/use-request-filtering.md).
 - [Importing Apache mod\_rewrite Rules](../../extensions/url-rewrite-module/importing-apache-modrewrite-rules.md).
 - [Translating .htaccess Content to IIS web.config](../install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig.md).

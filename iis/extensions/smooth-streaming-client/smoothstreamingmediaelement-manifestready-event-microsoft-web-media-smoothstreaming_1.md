@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.ManifestReady Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestReady Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestReady
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestready(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestready(v=VS.95)
 ms:contentKeyID: 46307500
 ms.date: 05/31/2012
 mtps_version: v=VS.95

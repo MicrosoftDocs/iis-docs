@@ -2,7 +2,7 @@
 title: ManifestInfo Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo_properties(v=VS.90)
 ms:contentKeyID: 31469241
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ConnectionArgument.IsRequired Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsRequired Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsRequired
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.connectionargument.isrequired(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.isrequired(v=VS.90)
 ms:contentKeyID: 20476614
 ms.date: 05/02/2012
 mtps_version: v=VS.90

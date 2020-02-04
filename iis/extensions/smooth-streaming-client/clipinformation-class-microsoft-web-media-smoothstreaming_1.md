@@ -2,7 +2,7 @@
 title: ClipInformation Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipInformation
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation(v=VS.95)
 ms:contentKeyID: 46307938
 ms.date: 05/31/2012
 mtps_version: v=VS.95
@@ -111,7 +111,7 @@ You can initialize a ClipInformation object that specifies the media clip to pla
     {
         clips.Add(new ClipInformation(true,
             new Uri("http://<serverName>/advertisement-clip.ism/Manifest"),
-            new Uri("http://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.aspx"),
+            new Uri("http://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.aspx"),
             new TimeSpan(1789250001)));
     }
 ```

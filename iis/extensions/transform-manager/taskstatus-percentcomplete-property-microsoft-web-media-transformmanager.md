@@ -2,7 +2,7 @@
 title: TaskStatus.PercentComplete Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: PercentComplete Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.PercentComplete
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.percentcomplete(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.percentcomplete(v=VS.90)
 ms:contentKeyID: 35520698
 ms.date: 06/14/2012
 mtps_version: v=VS.90

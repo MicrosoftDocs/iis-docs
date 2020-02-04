@@ -2,7 +2,7 @@
 title: ProtectionInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.protectioninfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo(v=VS.90)
 ms:contentKeyID: 31469219
 ms.date: 05/02/2012
 mtps_version: v=VS.90

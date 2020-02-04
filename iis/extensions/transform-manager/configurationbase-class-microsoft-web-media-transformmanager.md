@@ -2,7 +2,7 @@
 title: ConfigurationBase Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationBase Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationBase
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase(v=VS.90)
 ms:contentKeyID: 35520658
 ms.date: 06/14/2012
 mtps_version: v=VS.90

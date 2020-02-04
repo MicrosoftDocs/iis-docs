@@ -2,7 +2,7 @@
 title: TaskDefinition.TaskCodeType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskCodeType Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.TaskCodeType
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.taskcodetype(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskcodetype(v=VS.90)
 ms:contentKeyID: 35520579
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Microsoft.Web.Management.DatabaseManager Namespace ()
 TOCTitle: Microsoft.Web.Management.DatabaseManager
 ms:assetid: N:Microsoft.Web.Management.DatabaseManager
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager(v=VS.90)
 ms:contentKeyID: 20476685
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -1714,7 +1714,7 @@
           href: web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-5-configure-application-deployment.md
 - name: Web Development Reference
   items: 
-    - name: Native Code Development Overview
+    - name: Native-Code Development Overview
       href: web-development-reference/native-code-development-overview\native-code-development-overview.md
       items: 
         - name: "Walkthrough: Creating a Configuration File for Hosted Web Core"
@@ -1733,11 +1733,11 @@
           href: web-development-reference/native-code-development-overview\designing-native-code-http-modules.md
         - name: "Walkthrough: Creating a Global-Level HTTP Module By Using Native Code"
           href: web-development-reference/native-code-development-overview\walkthrough-creating-a-global-level-http-module-by-using-native-code.md
-    - name: Native Code Api Reference
+    - name: Native Code API Reference
       href: web-development-reference/native-code-api-reference\native-code-api-reference.md
     - name: Server Variables
       href: web-dev-reference/server-variables.md
-- name: FTP Exensibility Reference
+- name: FTP Extensibility Reference
   items: 
     - name: Native API Reference
       href: ftp-extensibility-reference/native-code-api-reference/ftp-native-code-extensibility-api-reference.md

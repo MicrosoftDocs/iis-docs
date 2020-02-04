@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.AudioTag Property
 TOCTitle: AudioTag Property
 ms:assetid: 1845504d-33fc-4150-a9f3-8df7c644602c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822686(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822686(v=VS.90)
 ms:contentKeyID: 50079441
 ms.date: 11/19/2012
 mtps_version: v=VS.90

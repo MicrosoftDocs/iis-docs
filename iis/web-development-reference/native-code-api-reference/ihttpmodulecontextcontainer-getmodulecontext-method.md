@@ -40,7 +40,7 @@ virtual IHttpStoredContext* GetModuleContext(
 ## Example  
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then calls the `GetModuleContext` method to retrieve the `IHttpStoredContext` pointer.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpModuleContextContainer#2](IHttpModuleContextContainer#2)]  -->  
+ [!code-cpp[IHttpModuleContextContainer#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpModuleContextContainer/cpp/GetModuleContext.cpp#2)]  
   
 ## Requirements  
   

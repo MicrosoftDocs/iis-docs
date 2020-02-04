@@ -2,7 +2,7 @@
 title: SchedulerInfo.Name Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.Name
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo.name(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.name(v=VS.90)
 ms:contentKeyID: 35521150
 ms.date: 06/14/2012
 mtps_version: v=VS.90

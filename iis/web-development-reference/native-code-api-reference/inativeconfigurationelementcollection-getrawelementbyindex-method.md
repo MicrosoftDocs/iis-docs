@@ -2,7 +2,7 @@
 title: INativeConfigurationElementCollection::GetRawElementByIndex Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::GetRawElementByIndex Method
 ms:assetid: a7f37c40-39bf-4b02-8eff-f085a0575f56
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee424821(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee424821(v=VS.90)
 ms:contentKeyID: 23044168
 ms.date: 05/24/2010
 mtps_version: v=VS.90

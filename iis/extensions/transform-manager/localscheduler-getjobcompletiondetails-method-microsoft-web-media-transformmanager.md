@@ -2,7 +2,7 @@
 title: LocalScheduler.GetJobCompletionDetails Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobCompletionDetails Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.GetJobCompletionDetails(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler.getjobcompletiondetails(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.getjobcompletiondetails(v=VS.90)
 ms:contentKeyID: 35520656
 ms.date: 06/14/2012
 mtps_version: v=VS.90

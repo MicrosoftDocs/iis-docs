@@ -2,7 +2,7 @@
 title: AdaptiveSourceManager Class
 TOCTitle: AdaptiveSourceManager Class
 ms:assetid: e8073a26-452b-461a-9a0f-32085dc000ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822860(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822860(v=VS.90)
 ms:contentKeyID: 50079614
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.EndPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.EndPosition
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.endposition(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.endposition(v=VS.90)
 ms:contentKeyID: 23961120
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: SSMELogReadyRoutedEventHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SSMELogReadyRoutedEventHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventHandler
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventhandler(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventhandler(v=VS.90)
 ms:contentKeyID: 31469167
 ms.date: 05/02/2012
 mtps_version: v=VS.90

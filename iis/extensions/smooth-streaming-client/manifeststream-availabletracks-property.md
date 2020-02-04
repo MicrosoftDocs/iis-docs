@@ -2,7 +2,7 @@
 title: ManifestStream.AvailableTracks Property
 TOCTitle: AvailableTracks Property
 ms:assetid: 9cd8b94c-363d-4683-ba41-2c095d577331
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822793(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822793(v=VS.90)
 ms:contentKeyID: 50079547
 ms.date: 11/19/2012
 mtps_version: v=VS.90

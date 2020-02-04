@@ -2,7 +2,7 @@
 title: ITask.Initialize Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ITask.Initialize(Microsoft.Web.Media.TransformManager.ITaskStatus,Microsoft.Web.Media.TransformManager.IJobMetadata,Microsoft.Web.Media.TransformManager.ILogger)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.itask.initialize(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itask.initialize(v=VS.90)
 ms:contentKeyID: 35521024
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: StreamChangedResult Class
 TOCTitle: StreamChangedResult Class
 ms:assetid: 0515e63d-b0e8-4902-a477-e9dea0cdc485
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822668(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822668(v=VS.90)
 ms:contentKeyID: 50079423
 ms.date: 11/19/2012
 mtps_version: v=VS.90

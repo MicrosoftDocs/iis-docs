@@ -13,7 +13,7 @@ by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 
-The PHP programming language has been an important player in the Web Application space for many years. Even though PHP was not developed by Microsoft, supporting this technology is very important to us and so you can install it on any stand-alone IIS Server, and it's also built-in to our cloud-based [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/en-us/documentation/services/web-sites/) platform. This article explains how to use the Microsoft IIS FastCGI extension to set up and run PHP applications on Windows XP and Windows Server® 2003 operating systems.
+The PHP programming language has been an important player in the Web Application space for many years. Even though PHP was not developed by Microsoft, supporting this technology is very important to us and so you can install it on any stand-alone IIS Server, and it's also built-in to our cloud-based [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/documentation/services/web-sites/) platform. This article explains how to use the Microsoft IIS FastCGI extension to set up and run PHP applications on Windows XP and Windows Server® 2003 operating systems.
 
 ## What is FastCGI?
 
@@ -137,9 +137,9 @@ To obtain optimal functionality and performance, configure your server as follow
 
 2. Set the FastCGI configuration settings for the PHP section by running fcgiconfig.js as follows:
 
-    - Set the FastCGI process pool property **InstanceMaxRequests** to **10000**. This setting specifies that the FastCGI extension will recycle php-cgi.exe after it has processed 10000 requests successfully.
+   - Set the FastCGI process pool property **InstanceMaxRequests** to **10000**. This setting specifies that the FastCGI extension will recycle php-cgi.exe after it has processed 10000 requests successfully.
 
-    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample4.cmd)]
+     [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample4.cmd)]
 
 3. Configure the FastCGI extension to set the **PHP\_FCGI\_MAX\_REQUESTS** environment variables for the PHP process to **10000**. This setting instructs php-cgi.exe to recycle itself after it has processed 10000 requests successfully.
 

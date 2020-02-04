@@ -15,7 +15,7 @@ by [Thomas Deml](https://github.com/thomasdeml)
 
 IIS 7.5 on Windows 7 or Windows Server 2008 R2 supports a new feature called "Application Pool Identity". It allows the effective isolation of Application Pools without having to maintain a user account for each and every Application Pool that is supposed to be sandboxed. Application Pool Identities are generated automatically and don't require passwords either - management costs go down.
 
-As with every new feature there are certain drawbacks and this is not different with the Application Pool Identity feature. This article describes an issue that an web application developer might face when he uses IIS 7.5 together with SQL Express.
+As with every new feature there are certain drawbacks and this is no different with the Application Pool Identity feature. This article describes an issue that a web application developer might face when using IIS 7.5 together with SQL Express.
 
 ## The Pieces of the Puzzle
 

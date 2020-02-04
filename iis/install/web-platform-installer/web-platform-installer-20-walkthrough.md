@@ -120,7 +120,7 @@ To learn more about the Microsoft Web Platform, visit the [Microsoft Web Platfor
 
 To learn more about the Microsoft Web Platform Installer, visit the  Web Platform Installer page on IIS.net.
 
-To learn more about the Web PI schema, see the [Web Platform Installer Schema Reference](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
+To learn more about the Web PI schema, see the [Web Platform Installer Schema Reference](https://technet.microsoft.com/library/ee506569(WS.10).aspx).
 
 To view the Web PI API documentation, see the [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.aspx) article on MSDN.
 

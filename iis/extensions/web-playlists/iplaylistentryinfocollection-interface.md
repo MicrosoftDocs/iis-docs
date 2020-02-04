@@ -2,7 +2,7 @@
 title: IPlaylistEntryInfoCollection Interface
 TOCTitle: IPlaylistEntryInfoCollection Interface
 ms:assetid: 3fe6a8e5-a23f-46d8-9663-ae824cea9d1c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146264(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146264(v=VS.90)
 ms:contentKeyID: 19132335
 ms.date: 05/02/2012
 mtps_version: v=VS.90

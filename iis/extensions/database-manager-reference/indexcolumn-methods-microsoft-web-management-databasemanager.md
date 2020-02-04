@@ -2,7 +2,7 @@
 title: IndexColumn Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IndexColumn Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IndexColumn
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.indexcolumn_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn_methods(v=VS.90)
 ms:contentKeyID: 20476647
 ms.date: 05/02/2012
 mtps_version: v=VS.90

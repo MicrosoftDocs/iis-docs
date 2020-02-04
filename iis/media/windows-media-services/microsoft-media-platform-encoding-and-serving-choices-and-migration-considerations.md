@@ -33,12 +33,12 @@ Two Microsoft Media Platform Technologies are on-premises (that is, they run on 
 
 On-premises media technologies:
 
-- [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx) (with versions for [Windows Server 2008](https://www.microsoft.com/en-us/download/details.aspx?id=12442) and [Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services))
+- [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx) (with versions for [Windows Server 2008](https://www.microsoft.com/download/details.aspx?id=12442) and [Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services))
 - [IIS Media Services 4.1](https://www.iis.net/media) (which runs on Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012)
 
 Cloud-based media technologies:
 
-- [Windows Azure Media Services](https://www.windowsazure.com/en-us/home/scenarios/media/)
+- [Windows Azure Media Services](https://www.windowsazure.com/home/scenarios/media/)
 
 The initial components of Windows Azure Media Services, including Ingest, Encoding, Content Protection, and On-Demand, are available or shipping soon. Advertising (Ad Insertion) is currently available through Client SDKs. Additional components, including Live Streaming and Analytics, will be rolled out as they become available. When all of the components are in place, Windows Azure Media Services will offer a complete end-to-end media services solution, including video ingest, encoding and conversion, content protection, on-demand streaming, live streaming, and analytics.
 
@@ -48,11 +48,11 @@ The initial components of Windows Azure Media Services, including Ingest, Encodi
 
 The following encoding and conversion technologies are available from Microsoft:
 
-- [Transform Manager 1.1](https://www.microsoft.com/en-us/download/details.aspx?id=29890) : Converts media files to on-demand smooth streaming format for Silverlight clients and Apple mobile digital devices. This product is available for free download.
-- [Expression Encoder 4 with Service Pack 2](https://www.microsoft.com/en-us/download/details.aspx?id=27870) : Expression Encoder is a video-encoding and live-broadcasting application. A free version is available. The [Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) version is necessary for H.264 encoding. Some SP2 features, such as GPU encoding and live template support, are also available only in Expression Encoder 4 Pro.
+- [Transform Manager 1.1](https://www.microsoft.com/download/details.aspx?id=29890) : Converts media files to on-demand smooth streaming format for Silverlight clients and Apple mobile digital devices. This product is available for free download.
+- [Expression Encoder 4 with Service Pack 2](https://www.microsoft.com/download/details.aspx?id=27870) : Expression Encoder is a video-encoding and live-broadcasting application. A free version is available. The [Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) version is necessary for H.264 encoding. Some SP2 features, such as GPU encoding and live template support, are also available only in Expression Encoder 4 Pro.
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](https://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](https://www.harmonicinc.com/), [Elemental](https://www.elemental.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](https://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](https://www.harmonicinc.com/), [Elemental](https://www.elemental.com/), and [Envivio](http://www.envivio.com/).
 
 - Windows Azure Media Encoding Services: Incorporates the technologies of Transform Manager and Expression Encoder into the Windows Azure cloud. Going forward, the latest versions of these technologies will continue to be developed in the Windows Azure Media Services cloud.
 
@@ -162,10 +162,10 @@ When migrating from Windows Media Services to IIS Media Services, a phased, grad
 
 ### 1) Change the Encoder
 
-The [mainstream support end date for Windows Media Encoder](https://support.microsoft.com/lifecycle/?LN=en-ie&amp;C2=7761) was 12/01/2010, so if you are currently using Windows Media Encoder, switch to either using the stand-alone [Expression Encoder](https://expression.microsoft.com/en-us/cc136533) tool or a third-party encoder.
+The [mainstream support end date for Windows Media Encoder](https://support.microsoft.com/lifecycle/?LN=en-ie&amp;C2=7761) was 12/01/2010, so if you are currently using Windows Media Encoder, switch to either using the stand-alone [Expression Encoder](https://expression.microsoft.com/cc136533) tool or a third-party encoder.
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](https://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](https://www.harmonicinc.com/), [Elemental](https://www.elemental.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](https://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](https://www.harmonicinc.com/), [Elemental](https://www.elemental.com/), and [Envivio](http://www.envivio.com/).
 
 Replacing the encoder is the first step because the encoder is perhaps the easiest of components to replace. Expression Encoder can create content for both Windows Media Services and IIS Media Services.
 
@@ -190,7 +190,7 @@ In this interim step, you will have two different Silverlight Application (xap) 
 
 #### OSMF (Open Source Media Framework) plugin
 
-If you do not need to use DRM such as PlayReady and are restricted from deploying Silverlight in your Enterprise, you can use the [Microsoft Smooth Streaming plugin for Open Source Media Framework](https://www.microsoft.com/en-us/download/details.aspx?id=36057). After your .wmv content has been re-encoded to Smooth Streaming format, the plugin will allow you to deliver that content in Smooth Streaming format to Flash clients.
+If you do not need to use DRM such as PlayReady and are restricted from deploying Silverlight in your Enterprise, you can use the [Microsoft Smooth Streaming plugin for Open Source Media Framework](https://www.microsoft.com/download/details.aspx?id=36057). After your .wmv content has been re-encoded to Smooth Streaming format, the plugin will allow you to deliver that content in Smooth Streaming format to Flash clients.
 
 > [!NOTE]
 > The OSMF plugin cannot deliver content that is in .wmv format.
@@ -212,7 +212,7 @@ The plugin has the following features:
 - Multiple audio language switching with OSMF built-in APIs
 - Maximum playback quality selection with OSMF built-in APIs
 
-This version of the plugin requires OSMF 2.0 and Adobe Flash Player 10.2 or higher. For more information, see the [Microsoft Smooth Streaming Plugin for OSMF (Preview)](https://www.microsoft.com/en-us/download/details.aspx?id=36057) download page.
+This version of the plugin requires OSMF 2.0 and Adobe Flash Player 10.2 or higher. For more information, see the [Microsoft Smooth Streaming Plugin for OSMF (Preview)](https://www.microsoft.com/download/details.aspx?id=36057) download page.
 
 <a id="Toc343780160"></a>
 
@@ -234,12 +234,12 @@ If your goal is to stream to mobile devices, it is recommended that you choose H
 
 To do the re-encoding, Microsoft offers three choices:
 
-- The format conversion facilities of [Windows Azure Media Services](https://www.windowsazure.com/en-us/home/features/media-services/)
-- [Transform Manager](https://www.microsoft.com/en-us/download/details.aspx?id=29890) with [Expression Encoder](https://expression.microsoft.com/en-us/cc136533) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
+- The format conversion facilities of [Windows Azure Media Services](https://www.windowsazure.com/home/features/media-services/)
+- [Transform Manager](https://www.microsoft.com/download/details.aspx?id=29890) with [Expression Encoder](https://expression.microsoft.com/cc136533) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
 - Expression Encoder, if you have only a few files to convert
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](https://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](https://www.harmonicinc.com/), [Elemental](https://www.elemental.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](https://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](https://www.harmonicinc.com/), [Elemental](https://www.elemental.com/), and [Envivio](http://www.envivio.com/).
 
 Windows Azure Media Encoder puts the functionality of Expression Encoder into the Windows Azure Media Services cloud. Going forward, the encoding technology in Windows Azure is the one that Microsoft will continue to develop.
 
@@ -324,7 +324,7 @@ Windows Azure Media Services components, when put together, are designed to crea
 The Windows Azure Media Services Ingest service uploads video via HTTPS into Windows Azure Blobs for processing or delivery. A few key points:
 
 - When uploading high value content such as studio quality mezzanine files, you should pre-encrypt the files with AES 256 prior to upload. The [Media Services .NET SDK](https://nuget.org/packages/windowsazure.mediaservices) and Java SDK  support this pre-encryption, which is a best practice for compliant secure media workflows.
-- For greater efficiency when uploading your videos, you can use a fast upload UDP technology such as the one from [Aspera](http://asperasoft.com/), which can be obtained through the [Azure Store](https://www.windowsazure.com/en-us/store/service/?name=aspera).
+- For greater efficiency when uploading your videos, you can use a fast upload UDP technology such as the one from [Aspera](http://asperasoft.com/), which can be obtained through the [Azure Store](https://www.windowsazure.com/store/service/?name=aspera).
 - If your solution requires support for bulk ingest, you can implement this using the [Media Services REST API](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx), or the [.NET](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx) or Java SDKs.
 
 <a id="Toc343780171"></a>
@@ -405,7 +405,7 @@ On the server side, ad integration features are forthcoming.
 Analyticsand Identity Management are forthcoming features of Windows Azure Media Services.
 
 - Analytics refers to tracking the penetration and usage of video content. Real-time analytics are planned.
-- [Identity Management](https://www.windowsazure.com/en-us/home/features/identity/) already exists in Windows Azure but will be extended to Media Services to provide access control for your applications.
+- [Identity Management](https://www.windowsazure.com/home/features/identity/) already exists in Windows Azure but will be extended to Media Services to provide access control for your applications.
 
 <a id="Toc343780177"></a>
 
@@ -413,7 +413,7 @@ Analyticsand Identity Management are forthcoming features of Windows Azure Media
 
 Windows Azure Media Services charges for storage, compute cycles, and egress of data (that is, to download the content or serve it). There is no charge for uploading content to Azure unless you are using a third-party fast transfer tool such as the one from Aspera. The compute cycles relate mostly to encoding. Regular Windows Azure Storage costs apply to storage.
 
-Preliminary summary information about how Encoding and On-Demand services will be charged is provided below. For up-to-date, detailed pricing information for Windows Azure and Windows Azure Media Services, see [Windows Azure Pricing Details](https://www.windowsazure.com/en-us/pricing/details/).
+Preliminary summary information about how Encoding and On-Demand services will be charged is provided below. For up-to-date, detailed pricing information for Windows Azure and Windows Azure Media Services, see [Windows Azure Pricing Details](https://www.windowsazure.com/pricing/details/).
 
 Depending on your scenario, the total cost of serving your content through Windows Azure Media Services can be significantly less than that of streaming from your own in-house infrastructure.
 
@@ -425,13 +425,13 @@ Encoding is charged by the total number of gigabytes input to and output from th
 
 To ensure that specified number of encoding tasks can run concurrently, you can purchase one or more encoding reserve units (RUs). One reserve unit can run one task at a time. A typical number of encoding reserve units is from 1 to 5. A reserve unit is also the primary unit of SLA (Service Level Agreement). If you do not purchase reserve units, the level of service that you receive cannot be guaranteed.
 
-More details are available on the [pricing page](https://www.windowsazure.com/en-us/pricing/details/).
+More details are available on the [pricing page](https://www.windowsazure.com/pricing/details/).
 
 <a id="Toc343780179"></a>
 
 #### On-Demand Streaming
 
-Once On-Demand Streaming becomes generally available, you will need to purchase reserved units to use the service. On-Demand Streaming will be billed based on the number of reserved units in use calculated on a daily basis using the highest number of reserved units that were active in the account in the corresponding 24-hour period. The allocated bandwidth per On-Demand Reserved Unit is 200 Mbps. More details are available on the [pricing page](https://www.windowsazure.com/en-us/pricing/details/).
+Once On-Demand Streaming becomes generally available, you will need to purchase reserved units to use the service. On-Demand Streaming will be billed based on the number of reserved units in use calculated on a daily basis using the highest number of reserved units that were active in the account in the corresponding 24-hour period. The allocated bandwidth per On-Demand Reserved Unit is 200 Mbps. More details are available on the [pricing page](https://www.windowsazure.com/pricing/details/).
 
 <a id="Toc343780180"></a>
 
@@ -468,7 +468,7 @@ To make direct REST API calls rather than using an SDK, or to use programming la
 
 #### Smooth Streaming Client SDKs
 
-Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/en-us/download/details.aspx?id=29940), [Windows Phone](https://www.iis.net/downloads/microsoft/smooth-streaming), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a).
+Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/download/details.aspx?id=29940), [Windows Phone](https://www.iis.net/downloads/microsoft/smooth-streaming), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a).
 
 <a id="Toc343780185"></a>
 
@@ -480,19 +480,19 @@ The Microsoft Media Platform Player Framework is a fully open source video playe
 
 #### Xbox LIVE Application Development Kit (ADK)
 
-The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](http://www.xbox.com/en-US/live/partners), can be used to create applications that consume media content from Windows Azure Media Services and IIS Media Services. The ADK includes the Smooth Streaming Client for Xbox LIVE ADK, and the Microsoft Media Platform Player Framework for Xbox LIVE ADK.
+The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](http://www.xbox.com/live/partners), can be used to create applications that consume media content from Windows Azure Media Services and IIS Media Services. The ADK includes the Smooth Streaming Client for Xbox LIVE ADK, and the Microsoft Media Platform Player Framework for Xbox LIVE ADK.
 
 <a id="Toc343780187"></a>
 
 ## 8 Resources
 
-- [Aspera Platform on Demand (Windows Azure Store)](https://www.windowsazure.com/en-us/store/service/?name=aspera)
+- [Aspera Platform on Demand (Windows Azure Store)](https://www.windowsazure.com/store/service/?name=aspera)
 
 - [Building Applications with the Media Services SDK for .NET](https://msdn.microsoft.com/library/hh973613.aspx)
 
 - [Building Applications with the Windows Azure Media Services REST API](https://msdn.microsoft.com/library/windowsazure/hh973618.aspx))
 
-- [Configuring the Transform Manager Service](https://technet.microsoft.com/en-us/library/ff730170(v=WS.10).aspx)
+- [Configuring the Transform Manager Service](https://technet.microsoft.com/library/ff730170(v=WS.10).aspx)
 
 - [Content Delivery &amp; Security Association (CDSA)](http://www.cdsaonline.org/)
 
@@ -500,9 +500,9 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Digital Video Player-Ad Interface Definitions (VPAID) Compliance](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310)
 
-- [Expression Encoder](https://expression.microsoft.com/en-us/cc136533)
+- [Expression Encoder](https://expression.microsoft.com/cc136533)
 
-- [Expression Encoder 4 with Service Pack 2](https://www.microsoft.com/en-us/download/details.aspx?id=27870)
+- [Expression Encoder 4 with Service Pack 2](https://www.microsoft.com/download/details.aspx?id=27870)
 
 - [Expression Encoder Pro](https://go.microsoft.com/fwlink/?LinkID=149601)
 
@@ -516,11 +516,11 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Ingesting Assets in Bulk with the REST API](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx)
 
-- [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a)
+- [Media Services Client Development](https://social.msdn.microsoft.com/Forums/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a)
 
 - [Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform](https://blogs.msdn.com/b/msmediaplatform/archive/2012/04/16/microsoft-announces-support-for-mpeg-dash-in-microsoft-media-platform.aspx)
 
-- [Microsoft Media Platform](https://www.microsoft.com/en-us/mediaplatform/)
+- [Microsoft Media Platform](https://www.microsoft.com/mediaplatform/)
 
 - [Microsoft Media Platform Player Framework](http://playerframework.codeplex.com/)
 
@@ -528,11 +528,11 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
 
-- [Microsoft Smooth Streaming Client 2.0 RTW (for Silverlight and Windows Phone)](https://www.microsoft.com/en-us/download/details.aspx?id=29940)
+- [Microsoft Smooth Streaming Client 2.0 RTW (for Silverlight and Windows Phone)](https://www.microsoft.com/download/details.aspx?id=29940)
 
 - [Microsoft Smooth Streaming Client SDK for Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home)
 
-- [Microsoft Smooth Streaming Plugin for OSMF (Preview)](https://www.microsoft.com/en-us/download/details.aspx?id=36057)
+- [Microsoft Smooth Streaming Plugin for OSMF (Preview)](https://www.microsoft.com/download/details.aspx?id=36057)
 
 - [Open Data Protocol (OData)](http://www.odata.org/documentation/overview)
 
@@ -550,17 +550,17 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Task Preset Strings for Windows Azure Media Encoder](https://msdn.microsoft.com/library/windowsazure/jj129582.aspx)
 
-- [Transform Manager 1.1 download](https://www.microsoft.com/en-us/download/details.aspx?id=29890)
+- [Transform Manager 1.1 download](https://www.microsoft.com/download/details.aspx?id=29890)
 
 - [Unifying Global Video Strategies: MP4 File Fragmentation for Broadcast, Mobile and Web Delivery (white paper)](http://184.168.176.117/reports-public/Adobe/20111116-fMP4-Adobe-Microsoft.pdf)
 
 - [Using the Windows Azure Storage Services](https://msdn.microsoft.com/library/windowsazure/ee924681.aspx)
 
-- [Windows Azure Identity](https://www.windowsazure.com/en-us/home/features/identity/)
+- [Windows Azure Identity](https://www.windowsazure.com/home/features/identity/)
 
 - [Windows Azure Media Player Framework for iOS](https://github.com/WindowsAzure/azure-media-player-framework)
 
-- [Windows Azure Media Services](https://www.windowsazure.com/en-us/home/scenarios/media/)
+- [Windows Azure Media Services](https://www.windowsazure.com/home/scenarios/media/)
 
 - [Windows Azure Media Services .NET SDK](https://nuget.org/packages/windowsazure.mediaservices)
 
@@ -570,12 +570,12 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Windows Azure: Microsoft's Cloud Platform](https://www.windowsazure.com)
 
-- [Windows Azure Pricing Details](https://www.windowsazure.com/en-us/pricing/details/)
+- [Windows Azure Pricing Details](https://www.windowsazure.com/pricing/details/)
 
-- [Windows Azure Store](https://www.windowsazure.com/en-us/store/overview/)
+- [Windows Azure Store](https://www.windowsazure.com/store/overview/)
 
 - [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx)
 
-- [Windows Media Services for Windows Server 2008](https://www.microsoft.com/en-us/download/details.aspx?id=12442)
+- [Windows Media Services for Windows Server 2008](https://www.microsoft.com/download/details.aspx?id=12442)
 
 - [Windows Media Services for Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services)

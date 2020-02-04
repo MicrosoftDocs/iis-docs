@@ -2,7 +2,7 @@
 title: AdaptiveSourceOpenedEventHandler Delegate
 TOCTitle: AdaptiveSourceOpenedEventHandler Delegate
 ms:assetid: cc23564e-b381-44ba-bcd3-26f3cbcb5301
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822835(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822835(v=VS.90)
 ms:contentKeyID: 50079589
 ms.date: 11/19/2012
 mtps_version: v=VS.90

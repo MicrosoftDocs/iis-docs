@@ -2,7 +2,7 @@
 title: IisNamespaces.TaskDefinitionNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinitionNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.TaskDefinitionNamespace
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.taskdefinitionnamespace(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.taskdefinitionnamespace(v=VS.90)
 ms:contentKeyID: 35521011
 ms.date: 06/14/2012
 mtps_version: v=VS.90

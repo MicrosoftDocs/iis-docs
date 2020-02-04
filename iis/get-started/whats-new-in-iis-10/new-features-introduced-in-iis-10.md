@@ -20,7 +20,7 @@ Learn more: [HTTP/2 on IIS](http2-on-iis.md)
 
 ## IIS on Nano Server
 
-Nano Server is a new headless, 64-bit-only installation option for Windows 10 and Windows Server 2016 which installs &quot;just enough OS&quot; thereby resulting in a smaller footprint. Nano Server provides higher density, increased uptime, and a smaller attack surface making it suitable for running web workloads. You can currently run [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/nano-server), [Apache Tomcat](https://blogs.iis.net/jeonghwan/running-tomcat-with-iis-on-nano-server), and [PHP](https://blogs.iis.net/jeonghwan/running-wordpress-with-iis-and-wincache-on-nano-server) workloads on IIS on Nano Server, in addition to using it as an reverse proxy to any HTTP listener via the [HttpPlatformHandler module](https://www.iis.net/downloads/microsoft/httpplatformhandler).
+Nano Server is a new headless, 64-bit-only installation option for Windows 10 and Windows Server 2016 which installs &quot;just enough OS&quot; thereby resulting in a smaller footprint. Nano Server provides higher density, increased uptime, and a smaller attack surface making it suitable for running web workloads. You can currently run [ASP.NET Core](https://docs.microsoft.com/aspnet/core/tutorials/nano-server), [Apache Tomcat](https://blogs.iis.net/jeonghwan/running-tomcat-with-iis-on-nano-server), and [PHP](https://blogs.iis.net/jeonghwan/running-wordpress-with-iis-and-wincache-on-nano-server) workloads on IIS on Nano Server, in addition to using it as an reverse proxy to any HTTP listener via the [HttpPlatformHandler module](https://www.iis.net/downloads/microsoft/httpplatformhandler).
 
 Learn more: [Introducing IIS on Nano Server](introducing-iis-on-nano-server.md)
 
@@ -28,7 +28,7 @@ Learn more: [Introducing IIS on Nano Server](introducing-iis-on-nano-server.md)
 
 Windows Server 2016 and Windows 10 with the Anniversary Update add support for containers which are isolated, resource controlled, and portable operating environments. Windows Server 2016 and Windows 10 support two different container runtimes with a different degree of isolation: Windows containers achieve isolation through process and namespace isolation, while Hyper-V containers achieve isolation through lightweight virtual machines. IIS 10.0 runs in both container runtimes as well as on both base OS images, Server Core and Nano Server, allowing you to choose the best Windows container environment for your web workloads.
 
-Get started with [IIS base images available on Docker Hub](https://hub.docker.com/r/microsoft/iis/) or follow this tutorial to [deploy an ASP.NET MVC application to IIS running inside a container](https://docs.microsoft.com/en-us/dotnet/articles/framework/docker/aspnetmvc).
+Get started with [IIS base images available on Docker Hub](https://hub.docker.com/r/microsoft/iis/) or follow this tutorial to [deploy an ASP.NET MVC application to IIS running inside a container](https://docs.microsoft.com/dotnet/articles/framework/docker/aspnetmvc).
 
 ## Managing IIS
 

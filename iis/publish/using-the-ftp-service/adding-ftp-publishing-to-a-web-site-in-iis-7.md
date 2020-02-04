@@ -57,24 +57,24 @@ In this first step, add FTP publishing to the Default Web site, and add the requ
     [![](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image3.png)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because we use the administrator later in this walk-through, you want to ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
-    - Normally, you would enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
-    - For this walk- through, we will not use a host name, so make sure that the **Virtual Host** box is blank.
-    - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
-    - When you have completed these items, click **Next**.
+   - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because we use the administrator later in this walk-through, you want to ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
+   - Normally, you would enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
+   - For this walk- through, we will not use a host name, so make sure that the **Virtual Host** box is blank.
+   - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
+   - When you have completed these items, click **Next**.
 
-    [![](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image4.jpg)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image3.jpg)
+     [![](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image4.jpg)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image3.jpg)
 4. On the next page of the wizard: 
 
-    - Select **Basic** for the **Authentication** settings.
-    - For the **Authorization** settings: 
+   - Select **Basic** for the **Authentication** settings.
+   - For the **Authorization** settings: 
 
-        - Choose "Specified users" from the **Allow access to** drop-down
-        - Type "administrator" for the user name.
-        - Select **Read** and **Write** for the **Permissions** option.
-    - When you have completed these items, click **Finish**.
+       - Choose "Specified users" from the **Allow access to** drop-down
+       - Type "administrator" for the user name.
+       - Select **Read** and **Write** for the **Permissions** option.
+   - When you have completed these items, click **Finish**.
 
-    [![](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image8.jpg)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image6.jpg)
+     [![](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image8.jpg)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image6.jpg)
 
 #### Summary
 
@@ -135,7 +135,7 @@ The following steps walk you through all of the required settings to add FTP pub
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample2.xml)]
 3. Create a new binding element in the bindings collection, and set the value of the protocol attribute on the new binding element to contain "ftp", then change the port value of the bindingInformation attribute to contain "21".   
   
- Your Default Web Site's settings should now resemble the following example: 
+   Your Default Web Site's settings should now resemble the following example: 
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample3.xml)]
 4. Add an ftpServer section beneath the closing bindings tag that will contain your authentication settings.  
@@ -145,7 +145,7 @@ The following steps walk you through all of the required settings to add FTP pub
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample4.xml)]
 
- Your `<sites>` section should now contain something like the following example: 
+   Your `<sites>` section should now contain something like the following example: 
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample5.xml)]
 5. Scroll to the bottom of your applicationHost.config file and add a location section for your Default Web Site that will contain your authorization settings.  

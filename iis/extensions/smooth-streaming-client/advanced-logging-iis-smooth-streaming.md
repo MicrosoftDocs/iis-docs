@@ -2,7 +2,7 @@
 title: Advanced Logging (IIS Smooth Streaming)
 TOCTitle: Advanced Logging (IIS Smooth Streaming)
 ms:assetid: 4f6af850-b519-45b8-b2df-47c34bc2ed70
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728114(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728114(v=VS.90)
 ms:contentKeyID: 31469134
 ms.date: 05/02/2012
 mtps_version: v=VS.90

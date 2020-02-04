@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.GetCustomAttribute Method
 TOCTitle: GetCustomAttribute Method
 ms:assetid: 65e59412-e7f9-4d26-954f-8d803ce347d2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822752(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822752(v=VS.90)
 ms:contentKeyID: 50079507
 ms.date: 11/19/2012
 mtps_version: v=VS.90

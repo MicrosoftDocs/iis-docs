@@ -52,15 +52,39 @@ The Windows group IIS\_IUSRS must have write permissions to the directory so tha
 
 [!code-console[Main](configuration-extensibility/samples/sample3.cmd)]
 
-### More About the Schema
+### More about the schema
 
-Although Step 1 is complete in terms of our example, it is appropriate to discuss the schema files. In the schema above, we simply created a new configuration section **simpleLogging** that exists under **system.webServer** and specified a custom attribute. However, you can easily create more complex custom configuration with collections, elements and attributes. The table below shows some examples, but the best way to learn is to look at the schema file for the IIS configuration. Find it at `%windir%\system32\inetsrv\config\schema\IIS\_schema.xml`.
+Although Step 1 is complete in terms of our example, it is appropriate to discuss the schema files. In the schema above, we simply created a new configuration section **simpleLogging** that exists under **system.webServer** and specified a custom attribute. However, you can easily create more complex custom configuration with collections, elements and attributes. The following list shows some examples, but the best way to learn is to look at the schema file for the IIS configuration. Find it at `%windir%\system32\inetsrv\config\schema\IIS\_schema.xml`.
 
-| Type | Schema Info and Examples |
-| --- | --- |
-| **attribute** | [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] <br> **Example:** <br> [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
-| **element** | [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] <br> **Example:** <br> [!code-xml[Main](configuration-extensibility/samples/sample7.xml)] |
-| **collection** | [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] <br> **Example:** <br> [!code-xml[Main](configuration-extensibility/samples/sample9.xml)] |
+* **attribute**
+
+   **Schema information:**
+
+   [!code-xml[Main](configuration-extensibility/samples/sample4.cmd)]
+
+   **Example:**
+
+   [!code-xml[Main](configuration-extensibility/samples/sample5.xml)]
+
+* **element**
+
+   **Schema information:**
+
+   [!code-xml[Main](configuration-extensibility/samples/sample6.xml)]
+
+   **Example:**
+
+   [!code-xml[Main](configuration-extensibility/samples/sample7.xml)]
+
+* **collection**
+
+   **Schema information:**
+
+   [!code-xml[Main](configuration-extensibility/samples/sample8.xml)]
+
+   **Example:**
+
+   [!code-xml[Main](configuration-extensibility/samples/sample9.xml)]
 
 ### Step 2 – Registering the New Section
 

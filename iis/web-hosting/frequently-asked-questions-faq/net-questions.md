@@ -52,7 +52,7 @@ As a workaround, you can enable LINQ for medium trust by following these steps o
 
     [!code-xml[Main](net-questions/samples/sample3.xml)]
 
- If you are using the default medium trust settings, you must add this entry. Depending upon your trust setting, your CAS policy file may already contain this entry.
+   If you are using the default medium trust settings, you must add this entry. Depending upon your trust setting, your CAS policy file may already contain this entry.
 5. Examine the &lt;NamedPermissionSets&gt; section of your CAS policy file. If the section does not contain an entry named ReflectionPermission, add a new entry as follows:  
 
     [!code-xml[Main](net-questions/samples/sample4.xml)]

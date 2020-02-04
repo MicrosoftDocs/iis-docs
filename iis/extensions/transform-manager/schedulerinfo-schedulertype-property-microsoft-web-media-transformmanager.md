@@ -2,7 +2,7 @@
 title: SchedulerInfo.SchedulerType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerType Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.SchedulerType
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo.schedulertype(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.schedulertype(v=VS.90)
 ms:contentKeyID: 35520705
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IChunkIter.MoveNext Method
 TOCTitle: MoveNext Method
 ms:assetid: 2bb7c370-40dd-4e46-a0a1-1115a3552027
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822706(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822706(v=VS.90)
 ms:contentKeyID: 50079461
 ms.date: 11/19/2012
 mtps_version: v=VS.90

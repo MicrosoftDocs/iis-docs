@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.MaxWidth Property
 TOCTitle: MaxWidth Property
 ms:assetid: a4053a30-4392-4df2-9276-abc94639f6f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822799(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822799(v=VS.90)
 ms:contentKeyID: 50079553
 ms.date: 11/19/2012
 mtps_version: v=VS.90

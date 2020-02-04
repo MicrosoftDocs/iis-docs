@@ -2,7 +2,7 @@
 title: JobManager Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManager Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobManager
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager(v=VS.90)
 ms:contentKeyID: 35520677
 ms.date: 06/14/2012
 mtps_version: v=VS.90

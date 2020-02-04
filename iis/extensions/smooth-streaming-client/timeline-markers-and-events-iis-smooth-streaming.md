@@ -2,7 +2,7 @@
 title: Timeline Markers and Events (IIS Smooth Streaming)
 TOCTitle: Timeline Markers and Events (IIS Smooth Streaming)
 ms:assetid: afe85bdd-ff5f-4e07-b8ca-6471ff1f04b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee958034(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee958034(v=VS.90)
 ms:contentKeyID: 28407136
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ConfigurationMessage Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationMessage
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage(v=VS.90)
 ms:contentKeyID: 35520555
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -93,7 +93,7 @@ The following table lists and describes the configuration settings provided by t
 | wincache.filecount | 4096 | 1024 | 16384 | PHP\_INI\_SYSTEM | Defines how many files are expected to be cached by the extension, so that appropriate memory size is allocated at the startup time. If the number of files exceeds the specified value, the Windows Cache Extension for PHP will re-allocate more memory as needed. |
 | wincache.chkinterval | 30 | 2 | 300 | PHP\_INI\_SYSTEM | Defines how often (in seconds) the Windows Cache Extension for PHP checks for file changes in order to refresh the cache. |
 | wincache.ttlmax | 1200 | 60 | 7200 | PHP\_INI\_SYSTEM | Defines the maximum time to live (in seconds) for a cached entry without being used. |
-| wincache.ignorelist | no value | no value | no value | PHP\_INI\_ALL | Defines a list of files that should not be cached by the Windows Cache Extension for PHP. The files list is specified by using file names only, separated by the pipe symbol - "&#124;". For example: **wincache.ignorelist = "index.php|misc.php|admin.php"** |
+| wincache.ignorelist | no value | no value | no value | PHP\_INI\_ALL | Defines a list of files that should not be cached by the Windows Cache Extension for PHP. The files list is specified by using file names only, separated by the pipe symbol - "&#124;". For example: `wincache.ignorelist = "index.php|misc.php|admin.php"` |
 | wincache.namesalt | no value | no value | no value | PHP\_INI\_SYSTEM | Defines a string that will be used when naming the cached objects that are stored in shared memory. This is used to avoid conflicts that may be caused if other applications within an IIS worker process try to access shared memory. |
 
 ## Configure FastCGI for Optimal Performance

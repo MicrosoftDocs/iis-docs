@@ -2,7 +2,7 @@
 title: TaskDefinition Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinition Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.TaskDefinition.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinition(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinition(v=VS.90)
 ms:contentKeyID: 35521020
 ms.date: 06/14/2012
 mtps_version: v=VS.90

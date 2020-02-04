@@ -72,7 +72,7 @@ This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Hyp
 
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/CapacityPlanning.zip "download") contains the slides for the video above and further documentation about capacity planning.
 
-Review the [Planning and Design Guide](https://technet.microsoft.com/en-us/library/cc196387.aspx "Planning and Design Guide") for a comprehensive guide about Microsoft infrastructure products.
+Review the [Planning and Design Guide](https://technet.microsoft.com/library/cc196387.aspx "Planning and Design Guide") for a comprehensive guide about Microsoft infrastructure products.
 
 ## Deploying Hyper-V
 
@@ -101,8 +101,8 @@ This [whitepaper](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44
 
 Microsoft provides the tools that hosters need to make the most of their Hyper-V deployment:
 
-- [Virtual Machine Management (VMM )2008](https://technet.microsoft.com/en-us/scvmm/default.aspx "Virtual Machine Management (VMM) 2008") is a comprehensive management solution for the virtualized datacenter, enabling increased physical server utilization, centralized management of virtual machine infrastructure, and rapid provisioning of new virtual machines by the administrator and by authorized end users.
-- The [Offline Virtual Machine Servicing Tool](https://technet.microsoft.com/en-us/library/cc501231.aspx "Offline Virtual Machine Servicing Tool") allows hosters to keep their offline (or dormant) virtual machines updated with the latest patches. This video provides an overview of the tool and a guide about how to streamline the process of servicing offline virtual machines.
+- [Virtual Machine Management (VMM )2008](https://technet.microsoft.com/scvmm/default.aspx "Virtual Machine Management (VMM) 2008") is a comprehensive management solution for the virtualized datacenter, enabling increased physical server utilization, centralized management of virtual machine infrastructure, and rapid provisioning of new virtual machines by the administrator and by authorized end users.
+- The [Offline Virtual Machine Servicing Tool](https://technet.microsoft.com/library/cc501231.aspx "Offline Virtual Machine Servicing Tool") allows hosters to keep their offline (or dormant) virtual machines updated with the latest patches. This video provides an overview of the tool and a guide about how to streamline the process of servicing offline virtual machines.
 - The following [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ManagingHyperV.zip "download") provides an overview about the automation facilities for virtualization management.
 
 <a id="_Toc220069380"></a>

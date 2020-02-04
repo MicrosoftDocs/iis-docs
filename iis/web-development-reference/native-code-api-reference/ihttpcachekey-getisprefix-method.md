@@ -40,7 +40,7 @@ virtual bool GetIsPrefix(
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpCacheKey#5](IHttpCacheKey#5)]  -->  
+ [!code-cpp[IHttpCacheKey#5](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCacheKey/cpp/GetIsPrefix.cpp#5)]  
   
  The above code writes new events to the Event Viewer, where the Data box contains strings similar to the following. If the cache name is TOKEN, `false` is returned.  
   

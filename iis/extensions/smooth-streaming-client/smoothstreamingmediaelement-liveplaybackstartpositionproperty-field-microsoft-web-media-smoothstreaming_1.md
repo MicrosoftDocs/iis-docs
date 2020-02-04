@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.LivePlaybackStartPositionProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePlaybackStartPositionProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackStartPositionProperty
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackstartpositionproperty(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackstartpositionproperty(v=VS.95)
 ms:contentKeyID: 46307553
 ms.date: 05/31/2012
 mtps_version: v=VS.95

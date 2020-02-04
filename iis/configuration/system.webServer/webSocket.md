@@ -43,10 +43,10 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 ### Windows 8 or Windows 8.1
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-- Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **WebSocket Protocol**.  
-    [![](webSocket/_static/image4.png)](webSocket/_static/image3.png)
-- Click **OK**.
-- Click **Close**.
+2. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **WebSocket Protocol**.  
+     [![](webSocket/_static/image4.png)](webSocket/_static/image3.png)
+3. Click **OK**.
+4. Click **Close**.
 
 <a id="004"></a>
 ## How To

@@ -2,7 +2,7 @@
 title: ManifestStream.Language Property
 TOCTitle: Language Property
 ms:assetid: 59417067-492c-47c7-9cd7-ece2c5b0de5f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822738(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822738(v=VS.90)
 ms:contentKeyID: 50079493
 ms.date: 11/19/2012
 mtps_version: v=VS.90

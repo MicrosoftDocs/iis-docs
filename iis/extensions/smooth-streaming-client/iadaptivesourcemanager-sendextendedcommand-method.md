@@ -2,7 +2,7 @@
 title: IAdaptiveSourceManager.SendExtendedCommand Method
 TOCTitle: SendExtendedCommand Method
 ms:assetid: 2ce10730-3944-4f32-910e-416cbdba2eab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822708(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822708(v=VS.90)
 ms:contentKeyID: 50079463
 ms.date: 11/19/2012
 mtps_version: v=VS.90

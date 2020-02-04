@@ -2,7 +2,7 @@
 title: ConfigurationBase.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevel
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.loglevel(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.loglevel(v=VS.90)
 ms:contentKeyID: 35520794
 ms.date: 06/14/2012
 mtps_version: v=VS.90

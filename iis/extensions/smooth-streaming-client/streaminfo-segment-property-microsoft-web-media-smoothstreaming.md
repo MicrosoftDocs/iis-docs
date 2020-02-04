@@ -2,7 +2,7 @@
 title: StreamInfo.Segment Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Segment Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.segment(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.segment(v=VS.90)
 ms:contentKeyID: 31469208
 ms.date: 05/02/2012
 mtps_version: v=VS.90

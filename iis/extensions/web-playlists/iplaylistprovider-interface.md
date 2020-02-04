@@ -2,7 +2,7 @@
 title: IPlaylistProvider Interface
 TOCTitle: IPlaylistProvider Interface
 ms:assetid: b4baeec6-a0f6-4a22-9278-0611b29818e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146285(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146285(v=VS.90)
 ms:contentKeyID: 19132356
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: TaskDefinition.OutputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.OutputFolder
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.outputfolder(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.outputfolder(v=VS.90)
 ms:contentKeyID: 35520650
 ms.date: 06/14/2012
 mtps_version: v=VS.90

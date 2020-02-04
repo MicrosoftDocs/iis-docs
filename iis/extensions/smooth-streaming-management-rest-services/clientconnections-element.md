@@ -2,7 +2,7 @@
 title: ClientConnections Element
 TOCTitle: ClientConnections Element
 ms:assetid: d106d15a-9b41-4d62-b52d-5fcec1c54558
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547062(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547062(v=VS.90)
 ms:contentKeyID: 37836903
 ms.date: 05/02/2012
 mtps_version: v=VS.90

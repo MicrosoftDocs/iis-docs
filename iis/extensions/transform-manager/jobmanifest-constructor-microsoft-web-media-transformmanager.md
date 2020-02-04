@@ -2,7 +2,7 @@
 title: JobManifest Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManifest Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.jobmanifest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.jobmanifest(v=VS.90)
 ms:contentKeyID: 35520909
 ms.date: 06/14/2012
 mtps_version: v=VS.90

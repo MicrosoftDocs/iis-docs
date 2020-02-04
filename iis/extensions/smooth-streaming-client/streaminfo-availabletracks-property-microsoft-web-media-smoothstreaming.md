@@ -2,7 +2,7 @@
 title: StreamInfo.AvailableTracks Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AvailableTracks Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.AvailableTracks
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.availabletracks(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.availabletracks(v=VS.90)
 ms:contentKeyID: 23961245
 ms.date: 05/02/2012
 mtps_version: v=VS.90

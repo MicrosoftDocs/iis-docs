@@ -2,7 +2,7 @@
 title: Task Definition Schema (IIS Transform Manager)
 TOCTitle: Task Definition Schema (IIS Transform Manager)
 ms:assetid: 1d1ca5be-c667-4ec2-b475-9470002893cc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728119(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728119(v=VS.90)
 ms:contentKeyID: 31469139
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: EventViewer.EventIdInformation Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: EventIdInformation Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventIdInformation
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.eventviewer.eventidinformation(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventidinformation(v=VS.90)
 ms:contentKeyID: 35520873
 ms.date: 06/14/2012
 mtps_version: v=VS.90

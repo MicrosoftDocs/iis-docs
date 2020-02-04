@@ -2,7 +2,7 @@
 title: TrackInfo.GetChunkUri Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: GetChunkUri Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.GetChunkUri(System.TimeSpan)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.getchunkuri(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.getchunkuri(v=VS.95)
 ms:contentKeyID: 46307701
 ms.date: 05/31/2012
 mtps_version: v=VS.95

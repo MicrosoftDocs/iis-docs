@@ -2,7 +2,7 @@
 title: DatabaseProvider Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseProvider Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.DatabaseProvider
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider(v=VS.90)
 ms:contentKeyID: 20476612
 ms.date: 05/02/2012
 mtps_version: v=VS.90

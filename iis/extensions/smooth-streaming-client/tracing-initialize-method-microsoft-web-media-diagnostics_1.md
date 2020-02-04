@@ -2,7 +2,7 @@
 title: Tracing.Initialize Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Initialize
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.initialize(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.initialize(v=VS.95)
 ms:contentKeyID: 46307627
 ms.date: 05/31/2012
 mtps_version: v=VS.95

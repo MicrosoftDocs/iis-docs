@@ -2,7 +2,7 @@
 title: ClipPlaybackEventArgs.Progress Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Progress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.Progress
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipplaybackeventargs.progress(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipplaybackeventargs.progress(v=VS.95)
 ms:contentKeyID: 46307770
 ms.date: 05/31/2012
 mtps_version: v=VS.95

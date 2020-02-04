@@ -2,7 +2,7 @@
 title: Settings Element
 TOCTitle: Settings Element
 ms:assetid: 584b7887-da08-4964-bed5-e0399719ed89
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh206009(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh206009(v=VS.90)
 ms:contentKeyID: 35990943
 ms.date: 05/02/2012
 mtps_version: v=VS.90

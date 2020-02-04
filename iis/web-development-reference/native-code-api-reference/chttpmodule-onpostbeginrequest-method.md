@@ -34,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostBeginRequest(
 ## Example  
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_BEGIN_REQUEST` event and post-event notifications. When a request enters the pipeline, IIS will call the example module's [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) and `OnPostBeginRequest` methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
-<!-- TODO: review snippet reference  [!CODE [CHttpModuleBeginRequest#1](CHttpModuleBeginRequest#1)]  -->  
+ [!code-cpp[CHttpModuleBeginRequest#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleBeginRequest/cpp/CHttpModuleBeginRequest.cpp#1)]  
   
  Your module must export the `RegisterModule` function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

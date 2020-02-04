@@ -2,7 +2,7 @@
 title: ChunkResult.Error Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Error Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Error
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkresult.error(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.error(v=VS.95)
 ms:contentKeyID: 46307763
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Server Manifest (On-Demand) - smil Element
 TOCTitle: <smil>
 ms:assetid: 1f93add4-d463-4503-8c9f-063beac6bbb2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee230810(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee230810(v=VS.90)
 ms:contentKeyID: 22049438
 ms.date: 05/02/2012
 mtps_version: v=VS.90

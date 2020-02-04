@@ -2,7 +2,7 @@
 title: ClipContext.NaturalDuration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.NaturalDuration
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.naturalduration(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.naturalduration(v=VS.90)
 ms:contentKeyID: 31469229
 ms.date: 05/02/2012
 mtps_version: v=VS.90

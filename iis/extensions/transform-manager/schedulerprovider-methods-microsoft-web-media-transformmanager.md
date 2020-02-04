@@ -2,7 +2,7 @@
 title: SchedulerProvider Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerProvider Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.SchedulerProvider
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerprovider_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerprovider_methods(v=VS.90)
 ms:contentKeyID: 35520616
 ms.date: 06/14/2012
 mtps_version: v=VS.90

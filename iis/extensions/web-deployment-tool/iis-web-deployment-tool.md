@@ -2,7 +2,7 @@
 title: IIS Web Deployment Tool
 TOCTitle: IIS Web Deployment Tool
 ms:assetid: 171b1dfc-4830-4207-b312-27dbc9dfa495
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh943099(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh943099(v=VS.90)
 ms:contentKeyID: 46305594
 ms.date: 05/02/2012
 mtps_version: v=VS.90

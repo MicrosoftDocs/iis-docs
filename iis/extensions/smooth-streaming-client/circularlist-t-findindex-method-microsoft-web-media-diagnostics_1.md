@@ -2,7 +2,7 @@
 title: CircularList(T).FindIndex Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: FindIndex Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.FindIndex
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728160(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728160(v=VS.95)
 ms:contentKeyID: 46500552
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -2,7 +2,7 @@
 title: SmoothStreamingErrorEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingErrorEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs(v=VS.95)
 ms:contentKeyID: 46307948
 ms.date: 05/31/2012
 mtps_version: v=VS.95

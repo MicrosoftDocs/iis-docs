@@ -2,7 +2,7 @@
 title: IStreamChangedResult Interface
 TOCTitle: IStreamChangedResult Interface
 ms:assetid: 9e3acbba-11bd-437a-a96d-4a4382e83fce
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822796(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822796(v=VS.90)
 ms:contentKeyID: 50079550
 ms.date: 11/19/2012
 mtps_version: v=VS.90

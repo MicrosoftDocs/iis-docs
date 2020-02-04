@@ -2,7 +2,7 @@
 title: Table Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Table Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.Table
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.table(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table(v=VS.90)
 ms:contentKeyID: 20476485
 ms.date: 05/02/2012
 mtps_version: v=VS.90

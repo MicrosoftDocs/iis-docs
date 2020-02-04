@@ -2,7 +2,7 @@
 title: ClipInformation.Duration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Duration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.Duration
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.duration(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.duration(v=VS.95)
 ms:contentKeyID: 46307771
 ms.date: 05/31/2012
 mtps_version: v=VS.95

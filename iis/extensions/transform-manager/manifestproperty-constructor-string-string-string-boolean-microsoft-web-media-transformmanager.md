@@ -2,7 +2,7 @@
 title: ManifestProperty Constructor (String, String, String, Boolean) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Constructor (String, String, String, Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.String,System.String,System.String,System.Boolean)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)
 ms:contentKeyID: 35520564
 ms.date: 06/14/2012
 mtps_version: v=VS.90

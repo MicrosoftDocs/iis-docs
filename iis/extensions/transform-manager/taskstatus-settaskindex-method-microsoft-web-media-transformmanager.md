@@ -2,7 +2,7 @@
 title: TaskStatus.SetTaskIndex Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskIndex Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.SetTaskIndex(System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.settaskindex(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.settaskindex(v=VS.90)
 ms:contentKeyID: 35521180
 ms.date: 06/14/2012
 mtps_version: v=VS.90

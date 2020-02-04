@@ -2,7 +2,7 @@
 title: StreamInfo.ParentStream Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ParentStream Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ParentStream
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.parentstream(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.parentstream(v=VS.90)
 ms:contentKeyID: 23961247
 ms.date: 05/02/2012
 mtps_version: v=VS.90

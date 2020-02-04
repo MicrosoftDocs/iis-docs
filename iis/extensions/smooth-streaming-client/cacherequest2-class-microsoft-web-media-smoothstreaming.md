@@ -2,7 +2,7 @@
 title: CacheRequest2 Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest2 Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheRequest2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest2(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2(v=VS.95)
 ms:contentKeyID: 46307926
 ms.date: 05/31/2012
 mtps_version: v=VS.95

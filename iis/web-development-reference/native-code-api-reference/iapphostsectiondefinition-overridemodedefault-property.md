@@ -39,7 +39,7 @@ HRESULT put_OverrideModeDefault(
  The following code example creates a new section group and a new section, and then sets the `OverrideModeDefault` property value of the newly generated section to "Deny".  
   
 ## Code  
-<!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#7](IAppHostAdminLibrary#7)]  -->  
+ [!code-cpp[IAppHostAdminLibrary#7](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostSectionGroupAddSectionGroup.cpp#7)]  
   
 ## Requirements  
   

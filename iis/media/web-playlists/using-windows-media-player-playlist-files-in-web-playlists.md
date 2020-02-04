@@ -43,12 +43,12 @@ Windows Media Player creates its playlists in WPL format by default. This sectio
 1. In the Windows Media Player Library, in the Contents pane, select the playlist that you want to add to the Web Playlists feature. Then, in the Details pane, click **Edit in List Pane**.  
     ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image1.jpg)  
   
- This will add the playlist to the List pane in Windows Media Player. In the following example, we show in the List pane a simple playlist (named **playlist1**) that contains two tracks (named **track1** and **track2**).  
+   This will add the playlist to the List pane in Windows Media Player. In the following example, we show in the List pane a simple playlist (named **playlist1**) that contains two tracks (named **track1** and **track2**).  
     ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image2.jpg)
 2. Click the down arrow next to the playlist name, and then click **Save Playlist As**.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image4.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image3.jpg)  
   
- This action will open the **Save As** dialog box with default values.  
+   This action will open the **Save As** dialog box with default values.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image6.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image5.jpg)
 3. In the **Save As** dialog box, in **Save as type**, select **Any Playlist (\*.wpl, \*.asx, \*.m3u)**.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image8.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image7.jpg)
@@ -70,14 +70,14 @@ This section shows how to import the ASX-formatted Windows Media Player playlist
 2. In the **Actions** pane, click **Open Feature**.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image15.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image14.jpg)  
   
- This action displays the **Web Playlists** feature page. If you have not previously created Web playlists for the site or virtual directory, the page will be empty as shown below.  
+   This action displays the **Web Playlists** feature page. If you have not previously created Web playlists for the site or virtual directory, the page will be empty as shown below.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image17.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image16.jpg)
 3. In the **Actions** pane, click **Import ASX Playlist**.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image19.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image18.jpg)
 4. In the **Open** dialog box, navigate to the location where the playlist file in ASX format is stored, select it, and then click **Open**.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image21.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image20.jpg)  
   
- The Windows Media Player playlist file (playlist1.asx) in imported to the **Web Playlists** feature as a Web playlist file (playlist1.isx), as shown below:  
+   The Windows Media Player playlist file (playlist1.asx) in imported to the **Web Playlists** feature as a Web playlist file (playlist1.isx), as shown below:  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image23.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image22.jpg)
 
 <a id="isx"></a>
@@ -112,26 +112,26 @@ The following sections provide details on both approaches:
 1. In the Web Playlists feature, set impersonation settings so that it can access the files in the user folder. For detailed instructions, see [Web Playlists for IIS - Serving Media Content from User Folders](web-playlists-for-iis-serving-media-content-from-user-folders.md).
 2. In the Web Playlists feature, enable Absolute/UNC paths.  
   
- a. In the **Actions** pane, click **Edit Feature Settings**.  
+   a. In the **Actions** pane, click **Edit Feature Settings**.  
     ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image24.jpg)  
   
- b. In the **Edit Feature Settings** dialog box, select **Allow absolute/UNC paths**.  
+   b. In the **Edit Feature Settings** dialog box, select **Allow absolute/UNC paths**.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image26.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image25.jpg)
 3. In a text editor, such as Notepad, change the relative URI for each media entry in the ISX to a physical path. For example:  
   
- Change: `<ref src="..\track1.wma">`  
- To: `<ref src="C:\Users\Administrator\Music\track1.wma">`
+   Change: `<ref src="..\track1.wma">`  
+   To: `<ref src="C:\Users\Administrator\Music\track1.wma">`
   
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 4. In the text editor, change the **srcType** for each media entry in the ISX to a physical path. For example:  
   
- Change: &lt;param name="srcType" value="relativeURI" /&gt;  
- To: &lt;param name="srcType" value="physicalPath" /&gt;  
+   Change: &lt;param name="srcType" value="relativeURI" /&gt;  
+   To: &lt;param name="srcType" value="physicalPath" /&gt;  
   
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 5. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
- In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
+   In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
   
 &lt;!--&lt;param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;  
   
@@ -159,13 +159,13 @@ Value=&amp;quot;4&amp;quot;" /&gt;--&gt;
 1. Copy the media files referenced in the Windows Media Player playlist (.wpl) file to a folder in the Web site directory or to a virtual directory. For example, if you imported the .asx version of the playlist to the Default Web site, copy the files to: &lt;*systemdrive*&gt;\inetpub\wwwroot\media.
 2. In a text editor, such as Notepad, update the relative URI for each media entry in the ISX. For example:  
   
- Change: &lt;ref src="..\track1.wma"&gt;  
- To: &lt;ref src="media/track1.wma"&gt;  
+   Change: &lt;ref src="..\track1.wma"&gt;  
+   To: &lt;ref src="media/track1.wma"&gt;  
   
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 3. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
- In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
+   In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
   
 &lt;!--&lt;param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;  
   
@@ -198,5 +198,5 @@ To access this help, press F1 while using the Web Playlists feature in IIS Manag
 
 ## Related Articles
 
-- [Desktop Experience Overview](https://technet.microsoft.com/en-us/library/cc772567.aspx)
-- [Use Windows Media Player to create the perfect playlist for every occasion](https://windowshelp.microsoft.com/Windows/en-US/Help/5276da52-d480-4c59-a0a0-08f9c80a30321033.mspx)
+- [Desktop Experience Overview](https://technet.microsoft.com/library/cc772567.aspx)
+- [Use Windows Media Player to create the perfect playlist for every occasion](https://windowshelp.microsoft.com/Windows/Help/5276da52-d480-4c59-a0a0-08f9c80a30321033.mspx)

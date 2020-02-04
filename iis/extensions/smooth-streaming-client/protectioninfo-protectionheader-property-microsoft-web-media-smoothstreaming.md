@@ -2,7 +2,7 @@
 title: ProtectionInfo.ProtectionHeader Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionHeader Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionHeader
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.protectioninfo.protectionheader(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo.protectionheader(v=VS.90)
 ms:contentKeyID: 31469196
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: IHttpCookie.ExpireTime Property
 TOCTitle: ExpireTime Property
 ms:assetid: c2b8ba4d-7fde-4104-994d-6e708b6766ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822827(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822827(v=VS.90)
 ms:contentKeyID: 50079581
 ms.date: 11/19/2012
 mtps_version: v=VS.90

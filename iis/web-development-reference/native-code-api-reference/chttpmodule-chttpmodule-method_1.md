@@ -2,7 +2,7 @@
 title: CHttpModule::CHttpModule Method
 TOCTitle: CHttpModule::CHttpModule Method
 ms:assetid: 8b95c504-0a60-4676-8708-1765f91d7f6d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/ms692938(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/ms692938(v=VS.90)
 ms:contentKeyID: 6826325
 ms.date: 03/09/2018
 mtps_version: v=VS.90

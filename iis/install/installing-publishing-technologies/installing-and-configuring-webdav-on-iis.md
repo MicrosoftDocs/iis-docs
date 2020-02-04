@@ -149,7 +149,7 @@ In this first step, we add WebDAV publishing to the Default Web site, and add th
    3. Select **Read**, **Source**, and **Write** for the permissions.
    4. When you have completed these items, click **OK**.
 
-     [![](installing-and-configuring-webdav-on-iis/_static/image31.jpg)](installing-and-configuring-webdav-on-iis/_static/image29.jpg)
+      [![](installing-and-configuring-webdav-on-iis/_static/image31.jpg)](installing-and-configuring-webdav-on-iis/_static/image29.jpg)
 
 #### Summary for enabling WebDAV authoring and adding an authoring rule
 

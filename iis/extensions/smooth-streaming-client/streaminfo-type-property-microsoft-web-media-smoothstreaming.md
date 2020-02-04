@@ -2,7 +2,7 @@
 title: StreamInfo.Type Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Type Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Type
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.type(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.type(v=VS.90)
 ms:contentKeyID: 23961206
 ms.date: 05/02/2012
 mtps_version: v=VS.90

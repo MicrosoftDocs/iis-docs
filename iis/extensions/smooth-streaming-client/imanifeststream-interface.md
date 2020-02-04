@@ -2,7 +2,7 @@
 title: IManifestStream Interface
 TOCTitle: IManifestStream Interface
 ms:assetid: ddaf345c-e931-40e2-82eb-e819f04876d2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822846(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822846(v=VS.90)
 ms:contentKeyID: 50079600
 ms.date: 11/19/2012
 mtps_version: v=VS.90
