@@ -2,7 +2,7 @@
 title: JobManifest Fields (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManifest Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.JobManifest
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest_fields(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest_fields(v=VS.90)
 ms:contentKeyID: 35520907
 ms.date: 06/14/2012
 mtps_version: v=VS.90

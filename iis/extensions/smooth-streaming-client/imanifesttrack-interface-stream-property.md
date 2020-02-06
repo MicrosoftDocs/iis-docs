@@ -2,7 +2,7 @@
 title: IManifestTrack Interface.Stream Property
 TOCTitle: Stream Property
 ms:assetid: a42aa3f4-56a8-4357-a1f3-7047c68e32d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822800(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822800(v=VS.90)
 ms:contentKeyID: 50079554
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -1,1 +1,0 @@
-PS IIS:\Sites\DemoSite\DemoApp> Set-WebConfigurationProperty -filter /system.webServer/security/authentication/windowsAuthentication -name enabled -value true -PSPath IIS:\ -location DemoSite/DemoApp

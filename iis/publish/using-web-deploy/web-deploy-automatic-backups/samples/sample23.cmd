@@ -1,1 +1,0 @@
-msdeploy.exe -verb:delete -dest:backupManager=<siteName>/<backupFileName>

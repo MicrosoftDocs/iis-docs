@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\AppCmd set config <sitename> -section:-logfile.directory:\\remotefileserver\content$\<sitename>\logs\logfiles

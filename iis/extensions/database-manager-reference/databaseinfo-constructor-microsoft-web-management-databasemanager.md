@@ -2,7 +2,7 @@
 title: DatabaseInfo Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseInfo Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseInfo.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseinfo.databaseinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseinfo.databaseinfo(v=VS.90)
 ms:contentKeyID: 22049501
 ms.date: 05/02/2012
 mtps_version: v=VS.90

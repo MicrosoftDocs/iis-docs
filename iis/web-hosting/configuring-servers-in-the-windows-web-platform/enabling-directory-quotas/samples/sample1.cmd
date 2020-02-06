@@ -1,1 +1,0 @@
-dirquota quota add /path:e:\content\site /limit:500mb

@@ -2,7 +2,7 @@
 title: Index.OriginalName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: OriginalName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.OriginalName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.originalname(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.originalname(v=VS.90)
 ms:contentKeyID: 20476492
 ms.date: 05/02/2012
 mtps_version: v=VS.90

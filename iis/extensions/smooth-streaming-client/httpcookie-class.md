@@ -2,7 +2,7 @@
 title: HttpCookie Class
 TOCTitle: HttpCookie Class
 ms:assetid: e853230c-f7c2-44f5-b87c-0ec826d3fbb8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822861(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822861(v=VS.90)
 ms:contentKeyID: 50079615
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: INativeConfigurationElementCollection::NotUsed0 Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::NotUsed0 Method
 ms:assetid: 49370a61-2252-45cb-98f0-8c9074028c0f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee424817(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee424817(v=VS.90)
 ms:contentKeyID: 23044164
 ms.date: 05/24/2010
 mtps_version: v=VS.90

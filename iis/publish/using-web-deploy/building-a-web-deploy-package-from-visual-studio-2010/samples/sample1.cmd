@@ -1,1 +1,0 @@
-msbuild {solution file} /p:CreatePackageOnPublish=true /p:DeployOnBuild=true

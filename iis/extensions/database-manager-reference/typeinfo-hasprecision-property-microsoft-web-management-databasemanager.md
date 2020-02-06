@@ -2,7 +2,7 @@
 title: TypeInfo.HasPrecision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: HasPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.HasPrecision
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.hasprecision(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.hasprecision(v=VS.90)
 ms:contentKeyID: 20476483
 ms.date: 05/02/2012
 mtps_version: v=VS.90

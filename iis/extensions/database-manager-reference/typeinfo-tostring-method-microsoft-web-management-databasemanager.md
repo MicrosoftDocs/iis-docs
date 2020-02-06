@@ -2,7 +2,7 @@
 title: TypeInfo.ToString Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ToString Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.TypeInfo.ToString
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.tostring(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.tostring(v=VS.90)
 ms:contentKeyID: 20476620
 ms.date: 05/02/2012
 mtps_version: v=VS.90

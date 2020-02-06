@@ -2,7 +2,7 @@
 title: CacheRequest2 Constructor (Stream) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest2 Constructor (Stream)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.#ctor(System.IO.Stream)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest2.cacherequest2(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2.cacherequest2(v=VS.95)
 ms:contentKeyID: 46307639
 ms.date: 05/31/2012
 mtps_version: v=VS.95

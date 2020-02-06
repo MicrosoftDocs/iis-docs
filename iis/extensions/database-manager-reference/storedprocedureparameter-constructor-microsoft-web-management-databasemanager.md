@@ -2,7 +2,7 @@
 title: StoredProcedureParameter Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: StoredProcedureParameter Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter.storedprocedureparameter(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.storedprocedureparameter(v=VS.90)
 ms:contentKeyID: 20476644
 ms.date: 05/02/2012
 mtps_version: v=VS.90

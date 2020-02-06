@@ -2,7 +2,7 @@
 title: IDownloaderPlugin.RequestAsync Method
 TOCTitle: RequestAsync Method
 ms:assetid: 5fc7254f-afe3-4245-acfa-a5ed986e3dc9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822748(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822748(v=VS.90)
 ms:contentKeyID: 50079503
 ms.date: 11/19/2012
 mtps_version: v=VS.90

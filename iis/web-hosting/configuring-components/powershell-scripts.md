@@ -36,7 +36,7 @@ by [Walter Oliver](https://github.com/walterov)
     - Coming soon: Setting [ASP.NET](../web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration.md) medium trust.
 2. [File Server](https://www.iis.net/community/files/hosting/FileServerSetupScripts-v1.zip "File Server Scripts")  
   
- These PowerShell scripts will help deploy and configured the File Server. Notice that these scripts were written and tested using PS 2.0:  
+   These PowerShell scripts will help deploy and configured the File Server. Notice that these scripts were written and tested using PS 2.0:  
 
     - **InstallFileServer.PS1**: runs all the scripts to install and configure the FileServer Role.
 

@@ -108,7 +108,7 @@ This section shows how to replace the code that was automatically added to your 
 
 2. Copy the following C++ code into the file:
 
-   <!-- TODO: review snippet reference      [!CODE [CHostedWebCoreHostedWebTest#1](CHostedWebCoreHostedWebTest#1)]  -->
+   [!code-cpp[CHostedWebCoreHostedWebTest#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHostedWebCoreHostedWebTest/cpp/CHostedWebCoreHostedWebTest.cpp#1)]  
 
 3. Save the HostedWebTest.cpp file.
 
@@ -212,7 +212,7 @@ If your application does not load, or it returns an error when it is running, th
 
   - 404.7 "File Extension Denied"—This substatus code indicates that the file name extension has been blocked by request filtering. For example, you will encounter this code if you browse to a file that has a .gif file name extension, and request filtering has been configured to deny access to files that have that extension.
 
-   Each of these errors indicates a problem with the settings in your application's configuration file. For more information, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-configuration-file-for-hosted-web-core.md).
+    Each of these errors indicates a problem with the settings in your application's configuration file. For more information, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-configuration-file-for-hosted-web-core.md).
 
 ## See also
 

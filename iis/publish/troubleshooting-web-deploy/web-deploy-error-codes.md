@@ -274,7 +274,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 1. Use the netFxVersion provider setting to tell Web Deploy exactly which .Net settings to migrate. Here is a command line example which forces Web Deploy to sync .Net 2.0 settings: 
 
     > msdeploy.exe -verb:sync -source:webserver,machineconfig32.netfxversion=2,machineconfig64.netfxversion=2,rootwebconfig32.netfxversion=2,rootwebconfig64.netfxversion=2 -dest:webserver,machineconfig32.netfxversion=2,machineconfig64.netfxversion=2,rootwebconfig32.netfxversion=2,rootwebconfig64.netfxversion=2,computername=destServername
-2. Run Web Deploy in the same version of .Net between client and server. On the client side, you can change the ordering of the supportedRuntime version element in the `%programfiles%\IIS\Microsoft Web Deploy V3\msdeploy.exe.config` file for the version of .Net that is specified first (see [gacInstall provider](https://technet.microsoft.com/en-us/library/gg607836(v=WS.10).aspx) for an example of this). This will indicate the version of .Net that will be loaded, assuming it is installed on your system. On the server side, you can do the same for `%programfiles%\IIS\microsoft web deploy\msdepsvc.exe.config`. If you modify this file, make sure to restart the Web Deployment Agent Service (net stop msdepsvc &amp; net start msdepsvc).
+2. Run Web Deploy in the same version of .Net between client and server. On the client side, you can change the ordering of the supportedRuntime version element in the `%programfiles%\IIS\Microsoft Web Deploy V3\msdeploy.exe.config` file for the version of .Net that is specified first (see [gacInstall provider](https://technet.microsoft.com/library/gg607836(v=WS.10).aspx) for an example of this). This will indicate the version of .Net that will be loaded, assuming it is installed on your system. On the server side, you can do the same for `%programfiles%\IIS\microsoft web deploy\msdepsvc.exe.config`. If you modify this file, make sure to restart the Web Deployment Agent Service (net stop msdepsvc &amp; net start msdepsvc).
 
 <a id="ERROR_HTTPCERT_BINDING_NOT_FOUND"></a>
 
@@ -298,7 +298,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: The provider path is invalid.
 
-**Resolution**: Depending on the provider you are using, the required path for your provider may be different. Visit https://technet.microsoft.com/en-us/library/dd569040(WS.10).aspx to find out more about the provider you are using.
+**Resolution**: Depending on the provider you are using, the required path for your provider may be different. Visit https://technet.microsoft.com/library/dd569040(WS.10).aspx to find out more about the provider you are using.
 
 <a id="ERROR_INVALID_SETTING_SPECIFIED"></a>
 
@@ -306,7 +306,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: The provider setting specified is invalid.
 
-**Resolution**: Visit [Technet](https://technet.microsoft.com/en-us/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
+**Resolution**: Visit [Technet](https://technet.microsoft.com/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
 
 <a id="ERROR_INVALID_SETTING_VALUE_SPECIFIED"></a>
 
@@ -314,7 +314,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: The provider setting value is invalid.
 
-**Resolution**: Visit [Technet](https://technet.microsoft.com/en-us/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
+**Resolution**: Visit [Technet](https://technet.microsoft.com/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
 
 <a id="ERROR_SNI_BINDINGS_NOT_SUPPORTED"></a>
 

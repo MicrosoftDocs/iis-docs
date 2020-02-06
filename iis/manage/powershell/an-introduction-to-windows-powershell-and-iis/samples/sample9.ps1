@@ -1,1 +1,0 @@
-PS C:\> get-service -include w* | sort-object -property status

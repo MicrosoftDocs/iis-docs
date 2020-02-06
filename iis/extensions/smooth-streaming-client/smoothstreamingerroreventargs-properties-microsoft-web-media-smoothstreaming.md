@@ -2,7 +2,7 @@
 title: SmoothStreamingErrorEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingErrorEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs_properties(v=VS.90)
 ms:contentKeyID: 23961278
 ms.date: 05/02/2012
 mtps_version: v=VS.90

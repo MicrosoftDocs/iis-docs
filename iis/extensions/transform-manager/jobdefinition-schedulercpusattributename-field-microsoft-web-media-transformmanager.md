@@ -2,7 +2,7 @@
 title: JobDefinition.SchedulerCpusAttributeName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerCpusAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpusAttributeName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpusattributename(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpusattributename(v=VS.90)
 ms:contentKeyID: 35521021
 ms.date: 06/14/2012
 mtps_version: v=VS.90

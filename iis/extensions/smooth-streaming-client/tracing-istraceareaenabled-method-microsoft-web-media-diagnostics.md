@@ -2,7 +2,7 @@
 title: Tracing.IsTraceAreaEnabled Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IsTraceAreaEnabled Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.IsTraceAreaEnabled(Microsoft.Web.Media.Diagnostics.TraceArea)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.istraceareaenabled(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.istraceareaenabled(v=VS.90)
 ms:contentKeyID: 23960997
 ms.date: 05/02/2012
 mtps_version: v=VS.90

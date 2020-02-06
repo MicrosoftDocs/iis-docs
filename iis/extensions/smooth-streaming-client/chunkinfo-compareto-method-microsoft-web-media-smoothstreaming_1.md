@@ -2,7 +2,7 @@
 title: ChunkInfo.CompareTo Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CompareTo Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.CompareTo(System.Object)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkinfo.compareto(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.compareto(v=VS.95)
 ms:contentKeyID: 46307641
 ms.date: 05/31/2012
 mtps_version: v=VS.95

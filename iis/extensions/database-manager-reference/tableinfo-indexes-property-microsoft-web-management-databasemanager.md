@@ -2,7 +2,7 @@
 title: TableInfo.Indexes Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Indexes Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.Indexes
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.tableinfo.indexes(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.indexes(v=VS.90)
 ms:contentKeyID: 20476608
 ms.date: 05/02/2012
 mtps_version: v=VS.90

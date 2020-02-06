@@ -2,7 +2,7 @@
 title: StreamChangedResult.Stream Property
 TOCTitle: Steam Property
 ms:assetid: 5d5166cb-6096-4e81-9105-57594353134d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822743(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822743(v=VS.90)
 ms:contentKeyID: 50079498
 ms.date: 11/19/2012
 mtps_version: v=VS.90

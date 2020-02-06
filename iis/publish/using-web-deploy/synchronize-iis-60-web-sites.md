@@ -38,7 +38,7 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 3. If your site is inheriting any script maps, these will not be listed in the dependencies and you should also review the script maps for your site manually.
 4. Compile a list of the components needed on the destination.
 
-For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/en-us/library/dd569091(WS.10).aspx "Viewing Dependencies").
+For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/library/dd569091(WS.10).aspx "Viewing Dependencies").
 
 ### Part 2 - Configure the target (destination)
 
@@ -48,7 +48,7 @@ For detailed steps on analyzing the output of getDependencies, see [Viewing Depe
     - Windows Authentication
     - Anonymous Authentication
 
- Based on this analysis of your dependencies, you would install the corresponding components on the destination server before performing the synchronization.
+   Based on this analysis of your dependencies, you would install the corresponding components on the destination server before performing the synchronization.
 
 ### Part 3 – Synchronize your site to the target
 

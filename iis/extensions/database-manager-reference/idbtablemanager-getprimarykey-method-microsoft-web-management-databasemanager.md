@@ -2,7 +2,7 @@
 title: IDbTableManager.GetPrimaryKey Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetPrimaryKey Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetPrimaryKey(System.String,System.String,System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbtablemanager.getprimarykey(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager.getprimarykey(v=VS.90)
 ms:contentKeyID: 20476398
 ms.date: 05/02/2012
 mtps_version: v=VS.90

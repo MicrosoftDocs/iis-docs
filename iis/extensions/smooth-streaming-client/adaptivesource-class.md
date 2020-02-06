@@ -2,7 +2,7 @@
 title: AdaptiveSource Class
 TOCTitle: AdaptiveSource Class
 ms:assetid: a9628170-8425-4e70-98f9-26f255731f5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822807(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822807(v=VS.90)
 ms:contentKeyID: 50079561
 ms.date: 11/19/2012
 mtps_version: v=VS.90

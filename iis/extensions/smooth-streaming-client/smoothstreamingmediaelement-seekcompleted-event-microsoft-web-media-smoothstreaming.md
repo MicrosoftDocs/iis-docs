@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.SeekCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SeekCompleted Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SeekCompleted
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.seekcompleted(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.seekcompleted(v=VS.90)
 ms:contentKeyID: 23960954
 ms.date: 05/02/2012
 mtps_version: v=VS.90

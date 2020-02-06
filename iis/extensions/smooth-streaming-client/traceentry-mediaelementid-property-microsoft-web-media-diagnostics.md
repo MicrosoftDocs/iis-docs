@@ -2,7 +2,7 @@
 title: TraceEntry.MediaElementId Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: MediaElementId Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.MediaElementId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.mediaelementid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.mediaelementid(v=VS.90)
 ms:contentKeyID: 23961100
 ms.date: 05/02/2012
 mtps_version: v=VS.90

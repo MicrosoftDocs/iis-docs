@@ -2,7 +2,7 @@
 title: ConnectionArgument.DefaultValue Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.DefaultValue
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.connectionargument.defaultvalue(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.defaultvalue(v=VS.90)
 ms:contentKeyID: 20476727
 ms.date: 05/02/2012
 mtps_version: v=VS.90

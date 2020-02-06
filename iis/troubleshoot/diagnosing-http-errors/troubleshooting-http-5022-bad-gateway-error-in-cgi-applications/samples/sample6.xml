@@ -1,8 +1,0 @@
-<ROW>
-<EventNumber>441</EventNumber> 
-<EventName>IISCGI</EventName> 
-<EventTypeName>CGI_PREMATURE_TERMINATION</EventTypeName> 
-<Timestamp>2005-08-23 20:25:47</Timestamp> 
-<UserData>ContextId={00000000-0000-0000-4c06-0060000000ef}|Headers=</UserData> 
-</ROW>
-For some reason, the CGI application is ending prematurely. Notice the value of the headers entry...it's empty. This is why we're sending the error to the client that the CGI is sending a bad set of headers...it is in fact sending an EMPTY list of headers.

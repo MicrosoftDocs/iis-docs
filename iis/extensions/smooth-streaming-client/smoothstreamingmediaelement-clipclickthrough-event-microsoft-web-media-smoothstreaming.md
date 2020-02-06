@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.ClipClickThrough Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipClickThrough Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipClickThrough
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipclickthrough(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipclickthrough(v=VS.90)
 ms:contentKeyID: 23960979
 ms.date: 05/02/2012
 mtps_version: v=VS.90

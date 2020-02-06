@@ -1,1 +1,0 @@
-cd /d "%USERPROFILE%\Desktop"

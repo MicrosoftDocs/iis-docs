@@ -52,7 +52,7 @@ To start writing cmdlets, you need a client computer installed with PowerShell. 
     * Click on "Enum Instances" button and enter "site" for class name.
     * When it works, the resulting dialog shows a list of all sites available on your server.
 
-PowerShell cmdlet is simply a managed code assembly implemented following formal rules, which are documented in PowerShell SDK. Find them [on-line](https://windowssdk.msdn.microsoft.com/en-us/library/ms714598.aspx).
+PowerShell cmdlet is simply a managed code assembly implemented following formal rules, which are documented in PowerShell SDK. Find them [on-line](https://windowssdk.msdn.microsoft.com/library/ms714598.aspx).
 
 Before writing any code, it is useful to have a plan.
 

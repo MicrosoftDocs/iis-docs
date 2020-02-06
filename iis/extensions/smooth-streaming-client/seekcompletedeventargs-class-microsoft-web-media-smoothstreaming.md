@@ -2,7 +2,7 @@
 title: SeekCompletedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SeekCompletedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs(v=VS.90)
 ms:contentKeyID: 23961249
 ms.date: 05/02/2012
 mtps_version: v=VS.90

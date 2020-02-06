@@ -2,7 +2,7 @@
 title: IJobMetadata.GetProperty Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetProperty Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IJobMetadata.GetProperty(System.Xml.Linq.XName)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata.getproperty(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.getproperty(v=VS.90)
 ms:contentKeyID: 35521090
 ms.date: 06/14/2012
 mtps_version: v=VS.90

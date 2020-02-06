@@ -1,3 +1,0 @@
-<bindings>
-	<binding protocol="http" bindingInformation=":80:TestSite" />
-</bindings>

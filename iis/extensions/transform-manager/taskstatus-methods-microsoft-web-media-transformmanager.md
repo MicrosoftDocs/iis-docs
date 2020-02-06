@@ -2,7 +2,7 @@
 title: TaskStatus Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskStatus Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.TaskStatus
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus_methods(v=VS.90)
 ms:contentKeyID: 35520642
 ms.date: 06/14/2012
 mtps_version: v=VS.90

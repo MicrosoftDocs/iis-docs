@@ -2,7 +2,7 @@
 title: JobManifest.WorkQueueRoot Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: WorkQueueRoot Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.WorkQueueRoot
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.workqueueroot(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.workqueueroot(v=VS.90)
 ms:contentKeyID: 35520895
 ms.date: 06/14/2012
 mtps_version: v=VS.90

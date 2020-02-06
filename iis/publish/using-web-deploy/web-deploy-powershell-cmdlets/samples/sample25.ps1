@@ -1,1 +1,0 @@
-Restore-WDApp C:\myappbackup.zip -ApplicationPathParam1 "Default web site\app1"

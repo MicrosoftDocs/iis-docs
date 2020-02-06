@@ -2,7 +2,7 @@
 title: IDbStoredProcedureManager.GetStoredProcedures Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetStoredProcedures Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedures(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.getstoredprocedures(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.getstoredprocedures(v=VS.90)
 ms:contentKeyID: 20476486
 ms.date: 05/02/2012
 mtps_version: v=VS.90

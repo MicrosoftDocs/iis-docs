@@ -1,1 +1,0 @@
-msdeploy -verb:sync -source:package=c:\site1.zip -dest:apphostconfig="Default Web Site" -whatif > msdeploysync.log

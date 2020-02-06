@@ -1,1 +1,0 @@
-PS IIS:\>cd IIS:\sites\MyNewWebsite

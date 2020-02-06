@@ -135,7 +135,7 @@ To configure the publishing point on the downstream server, follow the steps in 
   
     -or-  
   
-    If the downstream publishing point has already been created, in the **Live Smooth Streaming Publishing Points** feature page, click the publishing point name, and then in the **Actions** pane, click **Edit** .  
+    If the downstream publishing point has already been created, in the **Live Smooth Streaming Publishing Points** feature page, click the publishing point name, and then in the **Actions** pane, click **Edit**.  
     ![](syndicating-live-smooth-streams-between-servers/_static/image6.png)
 2. In the **Add Publishing Point** (or **Edit Publishing Point** dialog box), on the **Basic Settings** tab, do the following:  
     ![](syndicating-live-smooth-streams-between-servers/_static/image8.png)

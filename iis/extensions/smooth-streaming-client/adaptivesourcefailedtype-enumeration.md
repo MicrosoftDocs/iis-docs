@@ -2,7 +2,7 @@
 title: AdaptiveSourceFailedType Enumeration
 TOCTitle: AdaptiveSourceFailedType Enumeration
 ms:assetid: 190445d0-5d54-4739-9feb-5a289e29971a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822688(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822688(v=VS.90)
 ms:contentKeyID: 50079443
 ms.date: 11/19/2012
 mtps_version: v=VS.90

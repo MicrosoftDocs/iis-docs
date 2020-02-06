@@ -2,7 +2,7 @@
 title: TaskStatus.TaskIndex Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskIndex Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.TaskIndex
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.taskindex(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.taskindex(v=VS.90)
 ms:contentKeyID: 35520954
 ms.date: 06/14/2012
 mtps_version: v=VS.90

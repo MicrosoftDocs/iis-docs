@@ -2,7 +2,7 @@
 title: ManifestReadyEventArgs Class
 TOCTitle: ManifestReadyEventArgs Class
 ms:assetid: a85e12bb-b93e-4ca0-9bdf-5205956cda7a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822806(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822806(v=VS.90)
 ms:contentKeyID: 50079560
 ms.date: 11/19/2012
 mtps_version: v=VS.90

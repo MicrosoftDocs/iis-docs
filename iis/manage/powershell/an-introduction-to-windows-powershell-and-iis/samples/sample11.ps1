@@ -1,1 +1,0 @@
-PS C:\> stop-service -servicename w3svc

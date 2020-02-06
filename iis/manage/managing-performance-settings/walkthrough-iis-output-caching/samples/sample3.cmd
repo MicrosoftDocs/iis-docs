@@ -1,1 +1,0 @@
-md %systemdrive%\inetpub\wwwroot\pictures\App_Code

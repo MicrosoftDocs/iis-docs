@@ -2,7 +2,7 @@
 title: IPlaylistEntryInfo::GetProperty Method
 TOCTitle: IPlaylistEntryInfo::GetProperty Method
 ms:assetid: a36f33d1-e59d-457e-bb5f-5b1fda770d45
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146284(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146284(v=VS.90)
 ms:contentKeyID: 19132355
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -66,17 +66,17 @@ To install IIS on an installed and configured Server Core installation of Window
 
         [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample10.cmd)]
     - If not connected to the Internet, use phone activation.   
- Type one of the following:  
+    Type one of the following:  
 
         [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample11.cmd)]
   
- (This displays the installation identification to be given to Microsoft.)  
+    (This displays the installation identification to be given to Microsoft.)  
 
         [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample12.cmd)]
   
- (This activates the server using the confirmation ID given by Microsoft.)
+    (This activates the server using the confirmation ID given by Microsoft.)
 
-For more information on the initial setup tasks such as managing the Windows® Firewall and configuring for automatic updates, see [Making Sense of Server Core](https://technet.microsoft.com/en-us/magazine/2009.02.geekofalltrades.aspx?pr=blog). Also see the [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/en-us/library/cc753802(WS.10).aspx).
+For more information on the initial setup tasks such as managing the Windows® Firewall and configuring for automatic updates, see [Making Sense of Server Core](https://technet.microsoft.com/magazine/2009.02.geekofalltrades.aspx?pr=blog). Also see the [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/library/cc753802(WS.10).aspx).
 
 After the Server Core installation is complete and the server is configured, you can install one or more server roles. The Server Core installation of Windows Server 2008 supports the following server roles:
 
@@ -93,7 +93,7 @@ After the Server Core installation is complete and the server is configured, you
 
 ## Install IIS
 
-See [Install IIS 7.5 on Windows Server 2008 R2 using a Server Core installation](https://technet.microsoft.com/en-us/library/cc771209.aspx) for detailed instructions. Note that the full IIS installation, which installs all available feature packages for Server Core. If there are feature packages you do not need, you should edit the script to install only the packages you require. The default IIS installation installs a minimal set of available feature packages.
+See [Install IIS 7.5 on Windows Server 2008 R2 using a Server Core installation](https://technet.microsoft.com/library/cc771209.aspx) for detailed instructions. Note that the full IIS installation, which installs all available feature packages for Server Core. If there are feature packages you do not need, you should edit the script to install only the packages you require. The default IIS installation installs a minimal set of available feature packages.
 
 If you want to install IIS components that rely on the .NET Framework, you must first install the .NET Framework. The components that rely on the .NET Framework will not be installed if the .NET Framework is not already installed.
 
@@ -123,7 +123,7 @@ See [IIS 7.0 on Server Core](../../manage/working-with-server-core/iis-70-on-ser
     [![](install-and-configure-iis-on-server-core/_static/image2.gif)](install-and-configure-iis-on-server-core/_static/image1.gif)  
     *Figure 2: Output of oclist command*  
   
- In the figure above, the oclist output shows that IIS-FTPExtensibility is dependent on IIS-FTPSvc. To install IIS-FTPExtensibility, it is first necessary to install IIS-FTPSvc.
+   In the figure above, the oclist output shows that IIS-FTPExtensibility is dependent on IIS-FTPSvc. To install IIS-FTPExtensibility, it is first necessary to install IIS-FTPSvc.
 2. Use the **ocsetup** command to install and uninstall individual roles and services.
 3. Next,run **oclist | more** to verify which IIS components have been installed.
 
@@ -150,7 +150,7 @@ If you plan to use ASP.NET or IIS Remote Management then it is necessary to inst
 
     [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample19.cmd)]
 
- You should see a PowerShell prompt.
+   You should see a PowerShell prompt.
 3. In order to enable the IIS snap-in, you must change the script execution policy by running this command:  
 
     [!code-powershell[Main](install-and-configure-iis-on-server-core/samples/sample20.ps1)]
@@ -202,5 +202,5 @@ To uninstall the Web Server (IIS) role, use the following command:
 - [IIS 7.0 on Server Core](../../manage/working-with-server-core/iis-70-on-server-core.md).
 - [Setup IIS on Server Core – Windows Server 2008 R2](https://blogs.iis.net/ruslany/archive/2009/02/26/setup-iis-on-server-core-windows-server-2008-r2.aspx).
 - [Server Core Presentation](https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt).
-- [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/en-us/library/cc753802(WS.10).aspx).
+- [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/library/cc753802(WS.10).aspx).
 - [Administering IIS7 on Server Core Installations of Windows Server 2008](https://blogs.iis.net/metegokt/archive/2007/06/26/administering-iis7-on-server-core-installations-of-windows-server-2008.aspx).

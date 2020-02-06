@@ -2,7 +2,7 @@
 title: IManagementService.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.SubmitJob(System.String,System.String,System.Xml.Linq.XElement)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanagementservice.submitjob(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.submitjob(v=VS.90)
 ms:contentKeyID: 36868657
 ms.date: 06/14/2012
 mtps_version: v=VS.90

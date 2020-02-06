@@ -2,7 +2,7 @@
 title: IHttpCookie Interface
 TOCTitle: IHttpCookie Interface
 ms:assetid: b3a990a9-ea5c-4102-8ad0-da7257b3fd38
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822813(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822813(v=VS.90)
 ms:contentKeyID: 50079567
 ms.date: 11/19/2012
 mtps_version: v=VS.90

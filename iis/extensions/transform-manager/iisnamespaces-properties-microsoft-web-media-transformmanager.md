@@ -2,7 +2,7 @@
 title: IisNamespaces Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: IisNamespaces Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.IisNamespaces
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces_properties(v=VS.90)
 ms:contentKeyID: 35520984
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -24,7 +24,7 @@ This article will guide you through the process of using Web Deploy to synchroni
     > In most cases on Windows Server 2008, PHP is installed by using the built-in FastCGI module, so the dependency check will show CGI as a dependency, not PHP.
 3. Compile a list of the components needed on the destination.
 
-For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/en-us/library/dd569091(WS.10).aspx "Viewing Dependencies").
+For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/library/dd569091(WS.10).aspx "Viewing Dependencies").
 
 ### Part 2 - Configure the target or destination computer
 

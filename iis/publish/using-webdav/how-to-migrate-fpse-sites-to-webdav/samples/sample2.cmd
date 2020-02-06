@@ -1,1 +1,0 @@
-owsadm.exe –o uninstall –p lm/w3svc/nnn

@@ -2,7 +2,7 @@
 title: ManifestTrack.TrackIndex Property
 TOCTitle: TrackIndex Property
 ms:assetid: ffa51f4a-fd4b-4881-8d8a-ff23512cf952
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822881(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822881(v=VS.90)
 ms:contentKeyID: 50079635
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -1,1 +1,0 @@
-WebProvisioningServiceClient client = new WebProvisioningServiceClient();

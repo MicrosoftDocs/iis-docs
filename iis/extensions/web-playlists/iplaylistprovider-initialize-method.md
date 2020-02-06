@@ -2,7 +2,7 @@
 title: IPlaylistProvider::Initialize Method
 TOCTitle: IPlaylistProvider::Initialize Method
 ms:assetid: 21faac8a-b6eb-4fd9-a0cd-daf331119e05
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146259(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146259(v=VS.90)
 ms:contentKeyID: 19132330
 ms.date: 05/02/2012
 mtps_version: v=VS.90

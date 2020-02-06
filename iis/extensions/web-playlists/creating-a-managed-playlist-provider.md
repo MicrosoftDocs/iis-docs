@@ -2,7 +2,7 @@
 title: Creating a Managed Playlist Provider
 TOCTitle: Creating a Managed Playlist Provider
 ms:assetid: 5e110f4b-49ff-491f-9b7e-c9254e2c9597
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146272(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146272(v=VS.90)
 ms:contentKeyID: 19132343
 ms.date: 05/02/2012
 mtps_version: v=VS.90

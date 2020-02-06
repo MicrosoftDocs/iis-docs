@@ -21,7 +21,7 @@ The Microsoft URL Rewrite Module 2.0 for IIS 7 and above enables IIS administrat
 - Perform redirects, send custom responses, or stop HTTP requests based on the logic expressed in the rewrite rules.
 - Control access to Web site content based on URL segments or request metadata.
 
-The URL Rewrite module is available both as a download that you can install on your own IIS server, and on Microsoft's [Azure Web Sites](https://www.windowsazure.com/en-us/documentation/services/web-sites/) cloud platform.
+The URL Rewrite module is available both as a download that you can install on your own IIS server, and on Microsoft's [Azure Web Sites](https://www.windowsazure.com/documentation/services/web-sites/) cloud platform.
 
 ## URL Rewrite 2.0 features
 

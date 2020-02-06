@@ -1,1 +1,0 @@
-msiexec /i <path to FPSE package>\<name of FPSE package>.msi

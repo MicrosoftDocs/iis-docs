@@ -19,7 +19,7 @@ During the installation of Internet Information Services (IIS), a default Web si
 
 When you add a Web site in IIS, a site entry is created in the ApplicationHost.config file. The entry specifies the network binding for the site, maps the site to a location in the file system, and optionally specifies user credentials for content access.
 
-For information about the levels at which you can perform this procedure, and the modules, handlers, and permissions that are required to perform this procedure, see [Sites Feature Requirements (IIS 7)](https://technet.microsoft.com/en-us/library/cc754865(WS.10).aspx).
+For information about the levels at which you can perform this procedure, and the modules, handlers, and permissions that are required to perform this procedure, see [Sites Feature Requirements (IIS 7)](https://technet.microsoft.com/library/cc754865(WS.10).aspx).
 
 ## Add a Web Site
 
@@ -27,7 +27,7 @@ You can perform this procedure by using the IIS Manager user interface (UI), by 
 
 ### Use the UI
 
-1. Start **IIS Manager**. For information about starting IIS Manager, see [Open IIS Manager (IIS 7)](https://technet.microsoft.com/en-us/library/cc770472(WS.10).aspx). For information about navigating to locations in the UI, see [Navigation in IIS Manager (IIS 7)](https://technet.microsoft.com/en-us/library/cc732920(WS.10).aspx).
+1. Start **IIS Manager**. For information about starting IIS Manager, see [Open IIS Manager (IIS 7)](https://technet.microsoft.com/library/cc770472(WS.10).aspx). For information about navigating to locations in the UI, see [Navigation in IIS Manager (IIS 7)](https://technet.microsoft.com/library/cc732920(WS.10).aspx).
 2. In the **Connections** pane, right-click the **Sites** node in the tree view, and then click **Add Web Site**.
 3. In the **Add Web Site** dialog box, type a *friendly name* for your Web site in the **Web site name** box.
 4. If you want to select a different application pool than the one listed in the Application Pool box. In the **Select Application Pool** dialog box, select an application pool from the **Application Pool** list, and then click **OK**.
@@ -56,7 +56,7 @@ To add a Web site named Contoso with an ID of 2 that has content in `C:\Contoso`
 
 [!code-console[Main](create-a-web-site/samples/sample2.cmd)]
 
-For more information, see [Appcmd.exe](https://technet.microsoft.com/en-us/library/cc772200(WS.10).aspx).
+For more information, see [Appcmd.exe](https://technet.microsoft.com/library/cc772200(WS.10).aspx).
 
 ## Configuration
 
@@ -66,8 +66,8 @@ You can configure the following elements:
 
 For more information about configuration, see [IIS 7: IIS Settings Schema](https://go.microsoft.com/fwlink/?LinkId=88551) on Microsoft® Developer Network (MSDN®).
 
-For more information about WMI and IIS, see [Windows Management Instrumentation (WMI) in IIS 7](https://technet.microsoft.com/en-us/library/cc771707(WS.10).aspx). For more information about the classes, methods, or properties associated with this procedure, see the [IIS WMI Provider Reference](https://go.microsoft.com/fwlink/?LinkId=79310) on the MSDN site.
+For more information about WMI and IIS, see [Windows Management Instrumentation (WMI) in IIS 7](https://technet.microsoft.com/library/cc771707(WS.10).aspx). For more information about the classes, methods, or properties associated with this procedure, see the [IIS WMI Provider Reference](https://go.microsoft.com/fwlink/?LinkId=79310) on the MSDN site.
 
 ## Links for Further Information
 
-- [Managing Sites in IIS 7](https://technet.microsoft.com/en-us/library/cc771341(WS.10).aspx)
+- [Managing Sites in IIS 7](https://technet.microsoft.com/library/cc771341(WS.10).aspx)

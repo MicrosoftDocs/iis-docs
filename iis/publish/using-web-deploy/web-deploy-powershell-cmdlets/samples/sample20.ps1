@@ -1,1 +1,0 @@
-Restore-WDServer D:\OWAIS-1_WebServer_20120419121214.zip -DestinationPublishSettings c:\destinationServer.publishSettings –SkipFolderList $folderList

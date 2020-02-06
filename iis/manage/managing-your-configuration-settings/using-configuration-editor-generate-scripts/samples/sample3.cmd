@@ -1,2 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/applicationPools /+".[name='applicationPool1']" /commit:apphost
-appcmd.exe set config -section:system.applicationHost/applicationPools /.[name='applicationPool1'].processModel.identityType:"SpecificUser" /.[name='applicationPool1'].processModel.userName:"PoolId1" /.[name='applicationPool1'].processModel.password:"PoolId1Pwd" /commit:apphost

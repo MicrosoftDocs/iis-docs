@@ -2,7 +2,7 @@
 title: ISmoothStreamingCache.OpenMedia Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: OpenMedia Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.OpenMedia(System.Uri)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.openmedia(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.openmedia(v=VS.95)
 ms:contentKeyID: 46307670
 ms.date: 05/31/2012
 mtps_version: v=VS.95

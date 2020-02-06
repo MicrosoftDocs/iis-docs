@@ -134,7 +134,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
     ![](index/_static/image17.png)
 
     > [!NOTE]
-    > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose     **No** , you can manually create a FastCGI application later.
+    > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose **No**, you can manually create a FastCGI application later.
 
 ### How to create a FastCGI application for PHP
 
@@ -257,7 +257,7 @@ The following configuration sample adds a global FastCGI handler mapping for PHP
 
 Additional information and examples about how to configure FastCGI settings for PHP are discussed in the following walkthrough:
 
-> [Using FastCGI to Host PHP Applications on IIS 7](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis)
+> [Using FastCGI to Host PHP Applications on IIS 7](https://docs.microsoft.com/iis/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis)
 
 ## Sample Code
 

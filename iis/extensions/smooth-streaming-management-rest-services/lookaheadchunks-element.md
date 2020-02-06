@@ -2,7 +2,7 @@
 title: LookAheadChunks Element
 TOCTitle: LookAheadChunks Element
 ms:assetid: 4ffacfe2-7758-4555-986e-edcc14fc21ad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547038(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547038(v=VS.90)
 ms:contentKeyID: 37836879
 ms.date: 05/02/2012
 mtps_version: v=VS.90

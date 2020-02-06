@@ -2,7 +2,7 @@
 title: ConfigurationBase.Description Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Description Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Description
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.description(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.description(v=VS.90)
 ms:contentKeyID: 35520764
 ms.date: 06/14/2012
 mtps_version: v=VS.90

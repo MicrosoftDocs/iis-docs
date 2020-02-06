@@ -1,1 +1,0 @@
-NET USE * http://www.example.com

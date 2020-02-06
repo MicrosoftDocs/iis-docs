@@ -2,7 +2,7 @@
 title: LocalScheduler.CancelJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CancelJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.CancelJob(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler.canceljob(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.canceljob(v=VS.90)
 ms:contentKeyID: 35520827
 ms.date: 06/14/2012
 mtps_version: v=VS.90

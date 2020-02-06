@@ -2,7 +2,7 @@
 title: TransformManagerService.InitializeService Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: InitializeService Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.InitializeService(Microsoft.Web.Media.TransformManager.Credential)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.transformmanagerservice.initializeservice(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.initializeservice(v=VS.90)
 ms:contentKeyID: 35520992
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Utilities.CloneElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CloneElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.CloneElement(System.Xml.Linq.XElement,System.Xml.Linq.XNamespace)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.utilities.cloneelement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.cloneelement(v=VS.90)
 ms:contentKeyID: 35521016
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Advanced Logging
 TOCTitle: Advanced Logging
 ms:assetid: 4f6af850-b519-45b8-b2df-47c34bc2ed70
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728114(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728114(v=VS.95)
 ms:contentKeyID: 46359322
 ms.date: 05/31/2012
 mtps_version: v=VS.95

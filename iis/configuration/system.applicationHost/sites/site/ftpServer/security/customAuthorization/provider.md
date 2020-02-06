@@ -78,7 +78,7 @@ To support FTP authorization using a custom provider on your FTP site, you must 
     [![](provider/_static/image2.png)](provider/_static/image1.png)  
   
     > [!NOTE]
-    > When a custom FTP authorization provider has been enabled, the     **FTP Authorization Rules** feature is disabled.
+    > When a custom FTP authorization provider has been enabled, the **FTP Authorization Rules** feature is disabled.
 6. Click **OK**.
  
 <a id="005"></a>

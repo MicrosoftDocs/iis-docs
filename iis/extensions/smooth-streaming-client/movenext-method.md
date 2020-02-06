@@ -2,7 +2,7 @@
 title: MoveNext Method
 TOCTitle: MoveNext Method
 ms:assetid: 913910b8-29e9-461c-b236-4d9f0abbfcff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822782(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822782(v=VS.90)
 ms:contentKeyID: 50079536
 ms.date: 11/19/2012
 mtps_version: v=VS.90

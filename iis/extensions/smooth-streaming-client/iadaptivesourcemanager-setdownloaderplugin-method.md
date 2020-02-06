@@ -2,7 +2,7 @@
 title: IAdaptiveSourceManager.SetDownloaderPlugin Method
 TOCTitle: SetDownloaderPlugin Method
 ms:assetid: 438b7531-f6b0-4ad3-b3f0-09b212f0433e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822724(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822724(v=VS.90)
 ms:contentKeyID: 50079479
 ms.date: 11/19/2012
 mtps_version: v=VS.90

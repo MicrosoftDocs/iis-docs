@@ -2,7 +2,7 @@
 title: Logger Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: Logger Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.Logger
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.logger(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger(v=VS.90)
 ms:contentKeyID: 35520593
 ms.date: 06/14/2012
 mtps_version: v=VS.90

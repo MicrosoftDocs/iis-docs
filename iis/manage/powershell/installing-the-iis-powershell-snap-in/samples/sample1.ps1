@@ -1,1 +1,0 @@
-PS C:\> & "$env:programfiles\IIS\PowerShellSnapin\iisConsole.psc1"

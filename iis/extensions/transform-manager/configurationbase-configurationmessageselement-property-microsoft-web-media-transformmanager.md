@@ -2,7 +2,7 @@
 title: ConfigurationBase.ConfigurationMessagesElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessagesElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationMessagesElement
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.configurationmessageselement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationmessageselement(v=VS.90)
 ms:contentKeyID: 35520977
 ms.date: 06/14/2012
 mtps_version: v=VS.90

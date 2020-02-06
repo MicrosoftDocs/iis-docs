@@ -1,1 +1,0 @@
-AppCmd set config "Default Web Site/" /section:system.webServer/security/requestFiltering /+verbs.[verb='DELETE',allowed='false'] /commit:appHost

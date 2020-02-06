@@ -2,7 +2,7 @@
 title: Writing a Managed Web Playlist Provider
 TOCTitle: Writing a Managed Web Playlist Provider
 ms:assetid: 03598018-92ff-46d2-ab15-e90a21cd0af5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146254(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146254(v=VS.90)
 ms:contentKeyID: 19132325
 ms.date: 05/02/2012
 mtps_version: v=VS.90
@@ -18,14 +18,15 @@ After you have created the interop assembly, you must create the implementation 
 
 The interfaces included in the interop assembly are listed in the following table:
 
-|Interface|Description|
-|--- |--- |
-|[IPlaylistProvider Interface](iplaylistprovider-interface.md)|Serves as the root interface for a custom Playlist provider. This interface provides access to initialization and shutdown routines for a provider.|
-|[IPlaylistRequestInfo Interface](iplaylistrequestinfo-interface.md)|Enables custom providers to access HTTP request attributes. These attributes are exposed as server variables in the IIS 7 pipeline. String data may also be sent to the custom provider by using this interface.|
-|[IPlaylistInfo Interface](iplaylistinfo-interface.md)|Defines an empty Playlist that contains a collection of Playlist entries in the form of an [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md)|.
-|[IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.md)|Represents individual entries in a Playlist.|
-|[IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md)|Allows a custom provider to traverse a list of Playlist entries in the form of [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.md) info objects.|
-|[IPlaylistFileInfo Interface](iplaylistfileinfo-interface.md)|Provides access to the properties of file-based Playlists. Implementing this interface is not required, but it is recommended for file-based providers.|
+
+|                                      Interface                                      |                                                                                                   Description                                                                                                    |
+|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            [IPlaylistProvider Interface](iplaylistprovider-interface.md)            |                               Serves as the root interface for a custom Playlist provider. This interface provides access to initialization and shutdown routines for a provider.                                |
+|         [IPlaylistRequestInfo Interface](iplaylistrequestinfo-interface.md)         | Enables custom providers to access HTTP request attributes. These attributes are exposed as server variables in the IIS 7 pipeline. String data may also be sent to the custom provider by using this interface. |
+|                [IPlaylistInfo Interface](iplaylistinfo-interface.md)                |                  Defines an empty Playlist that contains a collection of Playlist entries in the form of an [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md)                  |
+|           [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.md)           |                                                                                   Represents individual entries in a Playlist.                                                                                   |
+| [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md) |                           Allows a custom provider to traverse a list of Playlist entries in the form of [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.md) info objects.                           |
+|            [IPlaylistFileInfo Interface](iplaylistfileinfo-interface.md)            |                             Provides access to the properties of file-based Playlists. Implementing this interface is not required, but it is recommended for file-based providers.                              |
 
 Each of these interfaces must be implemented before you can create a working provider, with the exception of [IPlaylistFileInfo Interface](iplaylistfileinfo-interface.md). The [IPlaylistFileInfo Interface](iplaylistfileinfo-interface.md) interface is useful for file-based providers. It allows you to access file information from the IIS pipeline and gain access to the file contents without having to implement the logic in your provider to open files and perform file operations.
 

@@ -2,7 +2,7 @@
 title: CacheResponse.ContentLength Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContentLength Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentLength
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.contentlength(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.contentlength(v=VS.90)
 ms:contentKeyID: 31469259
 ms.date: 05/02/2012
 mtps_version: v=VS.90

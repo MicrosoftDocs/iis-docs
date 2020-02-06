@@ -198,99 +198,99 @@ This walkthrough demonstrates how to create a configuration file for use with th
   
 #### To add the \<system.webServer> section  
   
-1.  To add the `<system.webServer>` section to your configuration file, add the following XML code inside the `<configuration>` element:  
+1. To add the `<system.webServer>` section to your configuration file, add the following XML code inside the `<configuration>` element:  
   
-    ```  
-    <system.webServer>  
+   ```  
+   <system.webServer>  
   
-    </system.webServer>  
-    ```  
+   </system.webServer>  
+   ```  
   
-2.  To define the global modules that your application will use, add the following XML code inside the `<system.webServer>` element:  
+2. To define the global modules that your application will use, add the following XML code inside the `<system.webServer>` element:  
   
-    ```  
-    <globalModules>  
-        <add name="DefaultDocumentModule"  
-            image="D:\Windows\system32\inetsrv\defdoc.dll" />  
-        <add name="DirectoryListingModule"  
-            image="D:\Windows\system32\inetsrv\dirlist.dll" />  
-        <add name="StaticFileModule"  
-            image="D:\Windows\system32\inetsrv\static.dll" />  
-        <add name="AnonymousAuthenticationModule"  
-            image="D:\Windows\system32\inetsrv\authanon.dll" />  
-        <add name="HttpLoggingModule"  
-            image="D:\Windows\system32\inetsrv\loghttp.dll" />  
-    </globalModules>  
-    ```  
+   ```  
+   <globalModules>  
+       <add name="DefaultDocumentModule"  
+           image="D:\Windows\system32\inetsrv\defdoc.dll" />  
+       <add name="DirectoryListingModule"  
+           image="D:\Windows\system32\inetsrv\dirlist.dll" />  
+       <add name="StaticFileModule"  
+           image="D:\Windows\system32\inetsrv\static.dll" />  
+       <add name="AnonymousAuthenticationModule"  
+           image="D:\Windows\system32\inetsrv\authanon.dll" />  
+       <add name="HttpLoggingModule"  
+           image="D:\Windows\system32\inetsrv\loghttp.dll" />  
+   </globalModules>  
+   ```  
   
-3.  To define the handlers that your application will use, add the following XML code inside the `<system.webServer>` element:  
+3. To define the handlers that your application will use, add the following XML code inside the `<system.webServer>` element:  
   
-    ```  
-    <handlers>  
-        <add name="StaticFile" path="*" verb="*"  
-            modules="StaticFileModule,DefaultDocumentModule,DirectoryListingModule"  
-            resourceType="Either" requireAccess="Read" />  
-    </handlers>  
-    ```  
+   ```  
+   <handlers>  
+       <add name="StaticFile" path="*" verb="*"  
+           modules="StaticFileModule,DefaultDocumentModule,DirectoryListingModule"  
+           resourceType="Either" requireAccess="Read" />  
+   </handlers>  
+   ```  
   
-4.  To define the modules that your application will use, add the following XML code inside the `<system.webServer>` element:  
+4. To define the modules that your application will use, add the following XML code inside the `<system.webServer>` element:  
   
-    ```  
-    <modules>  
-        <add name="DefaultDocumentModule" />  
-        <add name="DirectoryListingModule" />  
-        <add name="StaticFileModule" />  
-        <add name="AnonymousAuthenticationModule" />  
-        <add name="HttpLoggingModule" />  
-    </modules>  
-    ```  
+   ```  
+   <modules>  
+       <add name="DefaultDocumentModule" />  
+       <add name="DirectoryListingModule" />  
+       <add name="StaticFileModule" />  
+       <add name="AnonymousAuthenticationModule" />  
+       <add name="HttpLoggingModule" />  
+   </modules>  
+   ```  
   
-5.  To define your directory browsing and HTTP logging options, add the following XML code inside the `<system.webServer>` element:  
+5. To define your directory browsing and HTTP logging options, add the following XML code inside the `<system.webServer>` element:  
   
-    ```  
-    <directoryBrowse enabled="true" />  
-    <httpLogging dontLog="false" />  
-    ```  
+   ```  
+   <directoryBrowse enabled="true" />  
+   <httpLogging dontLog="false" />  
+   ```  
   
-6.  To enable a default document, add the following XML code inside the `<system.webServer>` element:  
+6. To enable a default document, add the following XML code inside the `<system.webServer>` element:  
   
-    ```  
-    <defaultDocument enabled="true">  
-        <files>  
-            <add value="default.htm" />  
-        </files>  
-    </defaultDocument>  
-    ```  
+   ```  
+   <defaultDocument enabled="true">  
+       <files>  
+           <add value="default.htm" />  
+       </files>  
+   </defaultDocument>  
+   ```  
   
-7.  To define the MIME types that your application will implement, add the following XML code inside the `<system.webServer>` element:  
+7. To define the MIME types that your application will implement, add the following XML code inside the `<system.webServer>` element:  
   
-    ```  
-    <staticContent>  
-        <mimeMap fileExtension=".gif" mimeType="image/gif" />  
-        <mimeMap fileExtension=".htm" mimeType="text/html" />  
-        <mimeMap fileExtension=".jpg" mimeType="image/jpeg" />  
-        <mimeMap fileExtension=".txt" mimeType="text/plain" />  
-    </staticContent>  
-    ```  
+   ```  
+   <staticContent>  
+       <mimeMap fileExtension=".gif" mimeType="image/gif" />  
+       <mimeMap fileExtension=".htm" mimeType="text/html" />  
+       <mimeMap fileExtension=".jpg" mimeType="image/jpeg" />  
+       <mimeMap fileExtension=".txt" mimeType="text/plain" />  
+   </staticContent>  
+   ```  
   
-    > [!NOTE]
-    >  You can add MIME types as appropriate for your application by adding more `<mimeMap>` elements.  
+   > [!NOTE]
+   >  You can add MIME types as appropriate for your application by adding more `<mimeMap>` elements.  
   
-8.  To define your application's security options, add the following XML code inside the `<system.webServer>` element:  
+8. To define your application's security options, add the following XML code inside the `<system.webServer>` element:  
   
-    ```  
-    <security>  
-        <access flags="Read" sslFlags="None" />  
-        <authentication>  
-            <anonymousAuthentication enabled="true"  
-                userName="IUSR" defaultLogonDomain="" />  
-        </authentication>  
-    </security>  
-    ```  
+   ```  
+   <security>  
+       <access flags="Read" sslFlags="None" />  
+       <authentication>  
+           <anonymousAuthentication enabled="true"  
+               userName="IUSR" defaultLogonDomain="" />  
+       </authentication>  
+   </security>  
+   ```  
   
- When you have completed all the preceding steps, you need save your configuration file to a path where your Hosted Web Core application will be able to access it.  
+   When you have completed all the preceding steps, you need save your configuration file to a path where your Hosted Web Core application will be able to access it.  
   
- Your application may experience an error if a section of your configuration file has not been correctly defined. Depending on the error, you may be able to retrieve additional information about the problem by examining your server's Event Viewer logs and the IIS log files that are created automatically by your application. For more information about troubleshooting problems with a Hosted Web Core application, see the troubleshooting steps that are listed in [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md).  
+   Your application may experience an error if a section of your configuration file has not been correctly defined. Depending on the error, you may be able to retrieve additional information about the problem by examining your server's Event Viewer logs and the IIS log files that are created automatically by your application. For more information about troubleshooting problems with a Hosted Web Core application, see the troubleshooting steps that are listed in [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md).  
   
 ## See Also  
  [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md)   

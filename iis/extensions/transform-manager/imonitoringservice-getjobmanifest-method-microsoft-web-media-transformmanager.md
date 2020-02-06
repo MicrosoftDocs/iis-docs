@@ -2,7 +2,7 @@
 title: IMonitoringService.GetJobManifest Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobManifest Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobManifest(Microsoft.Web.Media.TransformManager.JobDetails)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imonitoringservice.getjobmanifest(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjobmanifest(v=VS.90)
 ms:contentKeyID: 35520881
 ms.date: 06/14/2012
 mtps_version: v=VS.90

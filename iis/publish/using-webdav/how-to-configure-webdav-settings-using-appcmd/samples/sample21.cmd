@@ -1,1 +1,0 @@
-AppCmd set config "Default Web Site/" /section:system.webServer/webdav/authoringRules /allowNonMimeMapFiles:false /commit:apphost

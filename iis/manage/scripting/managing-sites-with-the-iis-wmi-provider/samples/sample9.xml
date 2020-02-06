@@ -1,8 +1,0 @@
-<site name="NewSite" id="2">
-   <application path="/">
-      <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot" />
-   </application>
-   <bindings>
-      <binding protocol="http" bindingInformation="*:80:www.newsite.com" />
-   </bindings>
-</site>

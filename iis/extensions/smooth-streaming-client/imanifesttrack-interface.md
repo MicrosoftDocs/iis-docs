@@ -2,7 +2,7 @@
 title: IManifestTrack Interface
 TOCTitle: IManifestTrack Interface
 ms:assetid: 5f90d2dd-9e42-4bc7-affb-1f44364268d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822746(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822746(v=VS.90)
 ms:contentKeyID: 50079501
 ms.date: 11/19/2012
 mtps_version: v=VS.90

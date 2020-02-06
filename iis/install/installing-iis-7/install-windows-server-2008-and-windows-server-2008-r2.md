@@ -48,7 +48,7 @@ Windows Server 2008 and Windows Server 2008 R2 are available in multiple edition
 - Super VGA (800 x 600) or higher-resolution monitor
 - Keyboard and mouse (or other compatible pointing device)
 
-See [Hardware and Software Requirements for Installing SQL Server 2008](https://technet.microsoft.com/en-us/library/ms143506.aspx) for more information.
+See [Hardware and Software Requirements for Installing SQL Server 2008](https://technet.microsoft.com/library/ms143506.aspx) for more information.
 
 ## Install Windows Server 2008 R2 or Windows Server 2008
 
@@ -58,11 +58,11 @@ Windows Server 2008 or Windows Server 2008 R2 setup works in several stages: fir
 
 ###### Figure 1: Provide basic information
 
-Then, the setup procedure copies files and restarts the computer. The setup procedure concludes by presenting the Initial Configuration Tasks menu, which you can use to adjust the server configuration for your specific needs. Detailed instructions can be found at [Installing Windows Server 2008 R2](https://technet.microsoft.com/en-us/library/dd379511(WS.10).aspx) or [Installing Windows Server 2008](https://technet.microsoft.com/en-us/library/cc755116.aspx).
+Then, the setup procedure copies files and restarts the computer. The setup procedure concludes by presenting the Initial Configuration Tasks menu, which you can use to adjust the server configuration for your specific needs. Detailed instructions can be found at [Installing Windows Server 2008 R2](https://technet.microsoft.com/library/dd379511(WS.10).aspx) or [Installing Windows Server 2008](https://technet.microsoft.com/library/cc755116.aspx).
 
 ### Server Core Option
 
-Note that you can choose to perform a Server Core installation—a minimal server installation of the operating system. With the addition of .NET Framework to Server Core in Windows Server 2008 R2, the Server Core installation option is even more appealing for those who want to use a very low footprint server for hosting their applications. For detailed instructions, see the [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/en-us/library/cc753802(WS.10).aspx).
+Note that you can choose to perform a Server Core installation—a minimal server installation of the operating system. With the addition of .NET Framework to Server Core in Windows Server 2008 R2, the Server Core installation option is even more appealing for those who want to use a very low footprint server for hosting their applications. For detailed instructions, see the [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/library/cc753802(WS.10).aspx).
 
 [![](install-windows-server-2008-and-windows-server-2008-r2/_static/image6.jpg)](install-windows-server-2008-and-windows-server-2008-r2/_static/image5.jpg)
 
@@ -74,7 +74,7 @@ With the Server Core installation option, the traditional Windows interface is n
 
 After the Windows Server 2008 or Windows Server 2008 R2 setup is finished, log on to the server for the first time, and the Initial Configuration Tasks window automatically opens. You can now configure the new server by using commands in the Initial Configuration Tasks window.
 
-The configuration tasks include setting the administrator password (the default is blank), changing the name of the administrator account to improve the security of your server (the default is "Administrator"), joining the server to an existing domain (the default is "WORKGROUP"), changing the name of the computer (the default is a random-generated name), enabling Remote Desktop for the server, and enabling Windows® Update (the default is off) and Windows® Firewall (the default is on). For more information, see [Windows Server Initial Configuration Tasks](https://technet.microsoft.com/en-us/library/cc755215.aspx).
+The configuration tasks include setting the administrator password (the default is blank), changing the name of the administrator account to improve the security of your server (the default is "Administrator"), joining the server to an existing domain (the default is "WORKGROUP"), changing the name of the computer (the default is a random-generated name), enabling Remote Desktop for the server, and enabling Windows® Update (the default is off) and Windows® Firewall (the default is on). For more information, see [Windows Server Initial Configuration Tasks](https://technet.microsoft.com/library/cc755215.aspx).
 
 ## Links for Further Information
 

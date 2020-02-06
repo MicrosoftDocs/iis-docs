@@ -2,7 +2,7 @@
 title: EventViewer.EventIdWarning Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: EventIdWarning Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventIdWarning
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.eventviewer.eventidwarning(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventidwarning(v=VS.90)
 ms:contentKeyID: 35520611
 ms.date: 06/14/2012
 mtps_version: v=VS.90

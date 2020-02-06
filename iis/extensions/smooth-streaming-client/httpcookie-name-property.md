@@ -2,7 +2,7 @@
 title: HttpCookie.Name Property
 TOCTitle: Name Property
 ms:assetid: 4e8fe082-e385-46c8-8870-0f2953c638b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822732(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822732(v=VS.90)
 ms:contentKeyID: 50079487
 ms.date: 11/19/2012
 mtps_version: v=VS.90

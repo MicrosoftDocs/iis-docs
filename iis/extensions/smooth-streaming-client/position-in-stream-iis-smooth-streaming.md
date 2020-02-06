@@ -2,7 +2,7 @@
 title: Position in Stream (IIS Smooth Streaming)
 TOCTitle: Position in Stream (IIS Smooth Streaming)
 ms:assetid: 17d0f9d6-f8c2-4e8e-8db2-1db8b36c3834
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff355190(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff355190(v=VS.90)
 ms:contentKeyID: 28511392
 ms.date: 05/02/2012
 mtps_version: v=VS.90

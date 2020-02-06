@@ -2,7 +2,7 @@
 title: TransformManagerService.GetTaskDefinitions Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetTaskDefinitions Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetTaskDefinitions
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.transformmanagerservice.gettaskdefinitions(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.gettaskdefinitions(v=VS.90)
 ms:contentKeyID: 35521111
 ms.date: 06/14/2012
 mtps_version: v=VS.90

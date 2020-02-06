@@ -2,7 +2,7 @@
 title: JobDefinition.SchedulerNodeGroupsAttributeName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerNodeGroupsAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroupsAttributeName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulernodegroupsattributename(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulernodegroupsattributename(v=VS.90)
 ms:contentKeyID: 35520659
 ms.date: 06/14/2012
 mtps_version: v=VS.90

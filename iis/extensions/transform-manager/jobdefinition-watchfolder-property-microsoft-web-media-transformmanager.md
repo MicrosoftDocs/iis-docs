@@ -2,7 +2,7 @@
 title: JobDefinition.WatchFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: WatchFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.WatchFolder
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.watchfolder(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.watchfolder(v=VS.90)
 ms:contentKeyID: 35520886
 ms.date: 06/14/2012
 mtps_version: v=VS.90

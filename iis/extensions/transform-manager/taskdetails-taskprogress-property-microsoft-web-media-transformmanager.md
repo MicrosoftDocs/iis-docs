@@ -2,7 +2,7 @@
 title: TaskDetails.TaskProgress Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskProgress Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskProgress
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdetails.taskprogress(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails.taskprogress(v=VS.90)
 ms:contentKeyID: 35520585
 ms.date: 06/14/2012
 mtps_version: v=VS.90

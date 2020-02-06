@@ -2,7 +2,7 @@
 title: DatabaseInfo Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseInfo Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.DatabaseInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseinfo(v=VS.90)
 ms:contentKeyID: 22049610
 ms.date: 05/02/2012
 mtps_version: v=VS.90

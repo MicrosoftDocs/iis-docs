@@ -2,7 +2,7 @@
 title: JobDetails.JobDetailsEndTime Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsEndTime Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsEndTime
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsendtime(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsendtime(v=VS.90)
 ms:contentKeyID: 35520865
 ms.date: 06/14/2012
 mtps_version: v=VS.90

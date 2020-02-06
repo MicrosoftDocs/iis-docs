@@ -1,1 +1,0 @@
-$createUserScript = "Grant all privileges on {0}.* to '{1}'@'%' identified by '{2}';"

@@ -2,7 +2,7 @@
 title: ForeignKey Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKey Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.ForeignKey
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.foreignkey_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey_properties(v=VS.90)
 ms:contentKeyID: 20476435
 ms.date: 05/02/2012
 mtps_version: v=VS.90

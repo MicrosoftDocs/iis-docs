@@ -2,7 +2,7 @@
 title: QueryResult Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResult Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.QueryResult
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.queryresult(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult(v=VS.90)
 ms:contentKeyID: 20476472
 ms.date: 05/02/2012
 mtps_version: v=VS.90

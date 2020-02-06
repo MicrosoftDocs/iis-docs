@@ -2,7 +2,7 @@
 title: DownloaderRequest Class
 TOCTitle: DownloaderRequest Class
 ms:assetid: a2c51196-9bad-449b-a563-0f48b81e02cb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822798(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822798(v=VS.90)
 ms:contentKeyID: 50079552
 ms.date: 11/19/2012
 mtps_version: v=VS.90

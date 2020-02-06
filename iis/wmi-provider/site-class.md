@@ -26,7 +26,7 @@ class Site : ConfiguredObject
 |[Stop](../wmi-provider/site-stop-method.md)|Stops a currently running Web site.|  
   
 > [!NOTE]
->  The IIS 6.0 WMI [IIsWebServer](https://msdn.microsoft.com/en-us/af1a277b-e67a-41b3-9947-91c9304f8ec7) class supported the [Continue](https://msdn.microsoft.com/en-us/c782a5b1-d6d3-40ae-bb7b-519867753be8) and [Pause](https://msdn.microsoft.com/en-us/82980194-3146-4252-b458-77538f781ca6) methods for a Web site. This functionality is no longer supported in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)].  
+>  The IIS 6.0 WMI [IIsWebServer](https://msdn.microsoft.com/af1a277b-e67a-41b3-9947-91c9304f8ec7) class supported the [Continue](https://msdn.microsoft.com/c782a5b1-d6d3-40ae-bb7b-519867753be8) and [Pause](https://msdn.microsoft.com/82980194-3146-4252-b458-77538f781ca6) methods for a Web site. This functionality is no longer supported in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)].  
   
 ## Properties  
  The following table lists the properties exposed by the `Site` class.  

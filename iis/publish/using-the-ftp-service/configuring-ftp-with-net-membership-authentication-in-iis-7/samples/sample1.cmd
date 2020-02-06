@@ -1,1 +1,0 @@
-ICACLS "%SystemDrive%\inetpub\ftproot" /Grant "Network Service":M /T

@@ -2,7 +2,7 @@
 title: IPlaylistRequestInfo::GetServerVariable Method
 TOCTitle: IPlaylistRequestInfo::GetServerVariable Method
 ms:assetid: 9e53ad6b-1eae-451a-8ed9-9236a37049f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146282(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146282(v=VS.90)
 ms:contentKeyID: 19132353
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -1,1 +1,0 @@
-PS IIS:\Sites\MyNewWebSite>cd "$env:systemdrive\inetpub\logs\failedReqLogfiles\w3svc2\"

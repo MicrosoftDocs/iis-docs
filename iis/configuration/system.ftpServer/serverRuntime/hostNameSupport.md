@@ -51,7 +51,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility** , in addition to **FTP Service**.  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
     > ![](hostNameSupport/_static/image1.png)
 
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
@@ -145,9 +145,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 > This section contains information about how to modify your IIS settings by using the IIS Configuration Editor. Incorrectly editing your IIS configuration settings can severely damage your IIS installation. Therefore, make sure that you follow these steps carefully. For added security, you should back up your IIS configuration settings before you use the IIS Configuration Editor to make any modifications. For more information about how to back up your IIS configuration settings and how to use the IIS Configuration Editor, see the following topics:
 
 - **How to Back Up an IIS 7 Configuration**  
-    [https://technet.microsoft.com/en-us/library/dd819406.aspx](https://technet.microsoft.com/en-us/library/dd819406.aspx)
+    [https://technet.microsoft.com/library/dd819406.aspx](https://technet.microsoft.com/library/dd819406.aspx)
 - **Configuration Editor Page**  
-    [https://technet.microsoft.com/en-us/library/dd569081.aspx](https://technet.microsoft.com/en-us/library/dd569081.aspx)
+    [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
  
 <a id="005"></a>
 ## Configuration

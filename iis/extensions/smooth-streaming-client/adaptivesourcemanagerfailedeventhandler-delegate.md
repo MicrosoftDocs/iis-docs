@@ -2,7 +2,7 @@
 title: AdaptiveSourceManagerFailedEventHandler Delegate
 TOCTitle: AdaptiveSourceManagerFailedEventHandler Delegate
 ms:assetid: 16ef48ff-cdfc-445d-8f84-cdc52cc5f575
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822683(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822683(v=VS.90)
 ms:contentKeyID: 50079438
 ms.date: 11/19/2012
 mtps_version: v=VS.90

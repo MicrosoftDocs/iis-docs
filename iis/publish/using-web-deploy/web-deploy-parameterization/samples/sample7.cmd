@@ -1,1 +1,0 @@
-<PathToExtractedUtility>\fciv.exe -sha1 <PathToAppliationPackage>\VacationPicsWPIInstaller.zip

@@ -2,7 +2,7 @@
 title: JobDetails.JobDetailsSchedulerId Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsSchedulerId Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsSchedulerId
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsschedulerid(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsschedulerid(v=VS.90)
 ms:contentKeyID: 35520723
 ms.date: 06/14/2012
 mtps_version: v=VS.90

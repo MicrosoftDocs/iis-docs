@@ -2,7 +2,7 @@
 title: ConfigurationMessage Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
 ms:contentKeyID: 35520804
 ms.date: 06/14/2012
 mtps_version: v=VS.90

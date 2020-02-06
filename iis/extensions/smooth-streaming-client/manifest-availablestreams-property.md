@@ -2,7 +2,7 @@
 title: Manifest.AvailableStreams Property
 TOCTitle: AvailableStreams Property
 ms:assetid: cb531c1a-55e3-43d9-851f-3839dd53b3a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822834(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822834(v=VS.90)
 ms:contentKeyID: 50079588
 ms.date: 11/19/2012
 mtps_version: v=VS.90

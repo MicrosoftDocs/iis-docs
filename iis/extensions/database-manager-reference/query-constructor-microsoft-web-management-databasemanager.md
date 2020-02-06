@@ -2,7 +2,7 @@
 title: Query Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Query Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Query.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.query.query(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query.query(v=VS.90)
 ms:contentKeyID: 22049618
 ms.date: 05/02/2012
 mtps_version: v=VS.90

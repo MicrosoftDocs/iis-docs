@@ -1,1 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /+"filteringRules.[name='BlockFooInHeader'].scanHeaders.[requestHeader='Foo-Header']"

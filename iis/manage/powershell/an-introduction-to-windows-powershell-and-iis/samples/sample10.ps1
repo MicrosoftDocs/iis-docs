@@ -1,1 +1,0 @@
-PS C:\> gsv w* | sort status

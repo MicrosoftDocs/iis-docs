@@ -1,8 +1,0 @@
-<location path="Basic Site" overrideMode="Deny"> 
-	<defaultDocument enabled="true"> 
-		<files> 
-	   </clear> 
-			<add value="basic.htm" /> 
-		</files> 
-	</defaultDocument> 
-</location>

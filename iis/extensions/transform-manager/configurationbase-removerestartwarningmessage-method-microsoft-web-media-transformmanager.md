@@ -2,7 +2,7 @@
 title: ConfigurationBase.RemoveRestartWarningMessage Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: RemoveRestartWarningMessage Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.RemoveRestartWarningMessage
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.removerestartwarningmessage(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.removerestartwarningmessage(v=VS.90)
 ms:contentKeyID: 35520810
 ms.date: 06/14/2012
 mtps_version: v=VS.90

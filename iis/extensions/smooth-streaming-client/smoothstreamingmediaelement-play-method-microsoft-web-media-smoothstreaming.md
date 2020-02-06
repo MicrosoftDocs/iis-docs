@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.Play Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Play Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Play
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.play(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.play(v=VS.90)
 ms:contentKeyID: 23961017
 ms.date: 05/02/2012
 mtps_version: v=VS.90

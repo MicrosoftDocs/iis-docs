@@ -2,7 +2,7 @@
 title: IManifestStream.SelectTracks Method
 TOCTitle: SelectTracks Method
 ms:assetid: 173bc76d-1179-4345-8f55-aba78ae7d7df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822684(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822684(v=VS.90)
 ms:contentKeyID: 50079439
 ms.date: 11/19/2012
 mtps_version: v=VS.90

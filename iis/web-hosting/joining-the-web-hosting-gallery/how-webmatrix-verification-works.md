@@ -47,7 +47,7 @@ The following web applications (mostly from the [Web Application Gallery](https:
   
     [![](how-webmatrix-verification-works/_static/image2.png)](how-webmatrix-verification-works/_static/image1.png)  
   
- Choose one of the applications to test with.
+   Choose one of the applications to test with.
 2. Open the **Publish Settings** dialog box.  
   
     [![](how-webmatrix-verification-works/_static/image4.png)](how-webmatrix-verification-works/_static/image3.png)
@@ -62,7 +62,7 @@ The following web applications (mostly from the [Web Application Gallery](https:
   
     [![](how-webmatrix-verification-works/_static/image10.png)](how-webmatrix-verification-works/_static/image9.png)  
   
- If validate fails in any way, record the error and consider the publish test a failure.
+   If validate fails in any way, record the error and consider the publish test a failure.
 5. Save and close (or Apply and Cancel) the Publish Settings dialog. Check for **Publish Compatibility** before you move on. This has the beneficial side-effect of automatically correcting the .NET App Pool version on the server.  
   
     [![](how-webmatrix-verification-works/_static/image12.png)](how-webmatrix-verification-works/_static/image11.png)  
@@ -71,30 +71,30 @@ The following web applications (mostly from the [Web Application Gallery](https:
   
     [![](how-webmatrix-verification-works/_static/image16.png)](how-webmatrix-verification-works/_static/image15.png)  
   
- If any of the checks fail, we still **continue through to publishing**.
+   If any of the checks fail, we still **continue through to publishing**.
 6. Click **Publish** from the Ribbon. On the Publish Preview screen, ensure that **all items are checked** – especially all **databases** whether they are just SDF files or full SQL databases.  
   
     [![](how-webmatrix-verification-works/_static/image18.png)](how-webmatrix-verification-works/_static/image17.png)  
   
- Continue and wait for Publishing to complete.  
+   Continue and wait for Publishing to complete.  
   
     [![](how-webmatrix-verification-works/_static/image20.png)](how-webmatrix-verification-works/_static/image19.png)  
   
- If there are any errors during the generation of the Publish Preview or during the actual Publishing operation, record the error and consider the publish test a failure.
+   If there are any errors during the generation of the Publish Preview or during the actual Publishing operation, record the error and consider the publish test a failure.
 7. At the end of the publish operation, click the destination URL that is provided and check to see if the remote website loads in the browser.  
   
     [![](how-webmatrix-verification-works/_static/image22.png)](how-webmatrix-verification-works/_static/image21.png)  
   
- Perform operations such as logging in and playing with things in the application (e.g. creating a blog entry). If any errors are encountered, record the error and consider the publish test a failure.  
+   Perform operations such as logging in and playing with things in the application (e.g. creating a blog entry). If any errors are encountered, record the error and consider the publish test a failure.  
   
     [![](how-webmatrix-verification-works/_static/image24.png)](how-webmatrix-verification-works/_static/image23.png)  
   
- If the application works fine at this point, you have passed testing for this application.
+   If the application works fine at this point, you have passed testing for this application.
 8. Once you've finished testing an application, regardless of whether the publish test passed or failed, you need to clean up the server before attempting another publish. To do this, the control panel associated with the account must be used. The control panel should provide a way to delete databases, sites, and files. Here is the process for any hosting provider using WebsitePanel:
 
     - ***Resetting Databases***  
   
- The control panel should allow you to navigate to individual SQL Server or MySQL databases to delete them.  
+   The control panel should allow you to navigate to individual SQL Server or MySQL databases to delete them.  
   
         [![](how-webmatrix-verification-works/_static/image26.png)](how-webmatrix-verification-works/_static/image25.png)  
   
@@ -102,14 +102,14 @@ The following web applications (mostly from the [Web Application Gallery](https:
   
         [![](how-webmatrix-verification-works/_static/image30.png)](how-webmatrix-verification-works/_static/image29.png)  
   
- Before deleting the database, note its name. You'll need to recreate a database of the same name immediately afterwards. You'll also need to assign the same database user to it.  
+   Before deleting the database, note its name. You'll need to recreate a database of the same name immediately afterwards. You'll also need to assign the same database user to it.  
   
         [![](how-webmatrix-verification-works/_static/image32.png)](how-webmatrix-verification-works/_static/image31.png)  
   
         [![](how-webmatrix-verification-works/_static/image34.png)](how-webmatrix-verification-works/_static/image33.png)
     - ***Resetting the Site***  
   
- You'll need to remove the website entry off of the control panel and recreate it.  
+   You'll need to remove the website entry off of the control panel and recreate it.  
   
         [![](how-webmatrix-verification-works/_static/image36.png)](how-webmatrix-verification-works/_static/image35.png)  
   
@@ -117,32 +117,32 @@ The following web applications (mostly from the [Web Application Gallery](https:
   
         [![](how-webmatrix-verification-works/_static/image40.png)](how-webmatrix-verification-works/_static/image39.png)  
   
- Note the name of the website for restoring later.  
+   Note the name of the website for restoring later.  
   
         [![](how-webmatrix-verification-works/_static/image42.png)](how-webmatrix-verification-works/_static/image41.png)  
   
- Recreate the site on the same domain as the one that was deleted.  
+   Recreate the site on the same domain as the one that was deleted.  
   
         [![](how-webmatrix-verification-works/_static/image44.png)](how-webmatrix-verification-works/_static/image43.png)  
   
- Note that you'll also have to re-enable Remote Management in order to publish again.  
+   Note that you'll also have to re-enable Remote Management in order to publish again.  
   
         [![](how-webmatrix-verification-works/_static/image46.png)](how-webmatrix-verification-works/_static/image45.png)  
   
- Use the same password as the Web Deploy password in the account settings file.
+   Use the same password as the Web Deploy password in the account settings file.
     - ***Deleting Files***  
   
- The control panel should have a "File Manager" you can use to delete all the files under the site root folder.  
+   The control panel should have a "File Manager" you can use to delete all the files under the site root folder.  
   
         [![](how-webmatrix-verification-works/_static/image48.png)](how-webmatrix-verification-works/_static/image47.png)  
   
- Usually, all the files you published end up under the site folder in "wwwroot" or something similar. Delete all files underneath that node using the file manager interface.  
+   Usually, all the files you published end up under the site folder in "wwwroot" or something similar. Delete all files underneath that node using the file manager interface.  
   
         [![](how-webmatrix-verification-works/_static/image50.png)](how-webmatrix-verification-works/_static/image49.png)  
   
         [![](how-webmatrix-verification-works/_static/image52.png)](how-webmatrix-verification-works/_static/image51.png)  
   
- Alternatively, you can use an FTP client like FileZilla to remotely connect to the FTP server (listing the same files) and delete all files that way. If you have IIS Remote Management access, you can also use IIS Manager to connect to the site and delete the content of the site.
+   Alternatively, you can use an FTP client like FileZilla to remotely connect to the FTP server (listing the same files) and delete all files that way. If you have IIS Remote Management access, you can also use IIS Manager to connect to the site and delete the content of the site.
 
 That's it! That is the testing process for one application; we repeat this process for each of the applications above.
 

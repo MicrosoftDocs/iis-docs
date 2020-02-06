@@ -29,7 +29,7 @@ virtual VOID SuppressHeaders(
 ## Example  
  The following code example demonstrates how to use the [IHttpResponse::GetHeadersSuppressed](../../web-development-reference/native-code-api-reference/ihttpresponse-getheaderssuppressed-method.md) method to create an HTTP module that tests whether the headers are currently suppressed. The module then calls the `SuppressHeaders` method to prevent the default HTTP headers from being sent. Finally, the module uses the [IHttpResponse::WriteEntityChunks](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunks-method.md) method to return a raw HTTP response to the client.  
   
-<!-- TODO: review snippet reference  [!CODE [IHttpResponseGetHeadersSuppressed#1](IHttpResponseGetHeadersSuppressed#1)]  -->  
+ [!code-cpp[IHttpResponseGetHeadersSuppressed#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetHeadersSuppressed/cpp/IHttpResponseGetHeadersSuppressed.cpp#1)]  
   
  Your module must export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   

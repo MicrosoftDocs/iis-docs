@@ -1,1 +1,0 @@
-<asp lockAllAttributesExcept="scriptErrorSentToBrowser" lockElements="limits,cache" />

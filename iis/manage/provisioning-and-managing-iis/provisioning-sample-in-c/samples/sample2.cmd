@@ -1,1 +1,0 @@
-Directory.CreateDirectory(parentPath + "\\" + directoryName);

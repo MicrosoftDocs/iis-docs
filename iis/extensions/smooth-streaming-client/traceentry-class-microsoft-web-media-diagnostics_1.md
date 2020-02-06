@@ -2,7 +2,7 @@
 title: TraceEntry Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceEntry Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceEntry
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry(v=VS.95)
 ms:contentKeyID: 46307922
 ms.date: 05/31/2012
 mtps_version: v=VS.95

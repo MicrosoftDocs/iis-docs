@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Server Manifest (Live) - head Element
 TOCTitle: <head>
 ms:assetid: 6b210ab2-6f70-4c9d-bfa5-c4d413cc71b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee673434(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee673434(v=VS.90)
 ms:contentKeyID: 26179477
 ms.date: 05/02/2012
 mtps_version: v=VS.90

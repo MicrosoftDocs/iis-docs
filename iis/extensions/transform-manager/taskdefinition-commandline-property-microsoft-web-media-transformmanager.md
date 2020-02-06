@@ -2,7 +2,7 @@
 title: TaskDefinition.CommandLine Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CommandLine Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.CommandLine
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.commandline(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.commandline(v=VS.90)
 ms:contentKeyID: 35520653
 ms.date: 06/14/2012
 mtps_version: v=VS.90

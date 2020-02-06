@@ -2,7 +2,7 @@
 title: Tracing.IncludeClassName Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeClassName Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeClassName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.includeclassname(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includeclassname(v=VS.90)
 ms:contentKeyID: 23960973
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -1,1 +1,0 @@
-setProvider.exe RsaProtectedConfigurationProvider

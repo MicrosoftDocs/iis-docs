@@ -1,5 +1,0 @@
-<gcConcurrent enabled="false" />
-<gcTrimCommitOnLowMemory enabled="true" />
-</runtime> 
-</configuration>
-...

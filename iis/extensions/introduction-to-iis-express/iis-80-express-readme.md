@@ -25,9 +25,9 @@ Internet Information Services (IIS) 8.0 Express is a free, simple and self-conta
 
 ## Installation
 
-You can install IIS 8.0 Express through the [Microsoft Download Center](https://www.microsoft.com/en-us/download/) by using the following URL:
+You can install IIS 8.0 Express through the [Microsoft Download Center](https://www.microsoft.com/download/) by using the following URL:
 
-- **IIS 8.0 Express**: [https://www.microsoft.com/en-us/download/details.aspx?id=34679](https://www.microsoft.com/en-us/download/details.aspx?id=34679)
+- **IIS 8.0 Express**: [https://www.microsoft.com/download/details.aspx?id=34679](https://www.microsoft.com/download/details.aspx?id=34679)
 
 #### Upgrading from IIS 7.5 Express
 
@@ -83,11 +83,11 @@ IIS 8.0 Express supports the following new features:
 
     - The AppCmd utility now supports a "/AppHostConfig" parameter, which makes it possible to use AppCmd to edit multiple ApplicationHost.config files and not just the primary configuration file.  
   
- For example, the following commands will create a website in a custom ApplicationHost.config file:  
+  For example, the following commands will create a website in a custom ApplicationHost.config file:  
 
         [!code-console[Main](iis-80-express-readme/samples/sample1.cmd)]
   
- Once you have added the website with the above commands, you can start it with the following command:  
+  Once you have added the website with the above commands, you can start it with the following command:  
         `iisexpress.exe /config:C:\Temp\IISExpress\config\ApplicationHost.config /site:www.fabrikam.com`
 
 <a id="KnownIssues"></a>

@@ -2,7 +2,7 @@
 title: IIS Smooth Streaming Client Manifest - Protection Element
 TOCTitle: <Protection>
 ms:assetid: 4157e025-1b78-4bdd-a24d-04118e72ace5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee673433(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee673433(v=VS.90)
 ms:contentKeyID: 26179476
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: Microsoft.Media.AdaptiveStreaming Namespace
 TOCTitle: Microsoft.Media.AdaptiveStreaming Namespace
 ms:assetid: a6987d7f-5c75-42e3-ae20-886db2fee3ed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822803(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822803(v=VS.90)
 ms:contentKeyID: 50079557
 ms.date: 11/19/2012
 mtps_version: v=VS.90

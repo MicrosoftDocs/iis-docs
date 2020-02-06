@@ -2,7 +2,7 @@
 title: JobManifest.GetMetadataForTask Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetMetadataForTask Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetMetadataForTask(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.getmetadatafortask(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.getmetadatafortask(v=VS.90)
 ms:contentKeyID: 35521103
 ms.date: 06/14/2012
 mtps_version: v=VS.90

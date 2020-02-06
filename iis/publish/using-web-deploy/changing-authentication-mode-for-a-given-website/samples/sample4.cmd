@@ -1,1 +1,0 @@
-msdeploy.exe -source:ApphostAuthOverride -dest:ApphostauthOverride="<siteName>;anonymousAuthentication=Deny"

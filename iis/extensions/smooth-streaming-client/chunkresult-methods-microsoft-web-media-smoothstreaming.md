@@ -2,7 +2,7 @@
 title: ChunkResult Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkResult Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ChunkResult
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkresult_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult_methods(v=VS.90)
 ms:contentKeyID: 31469306
 ms.date: 05/02/2012
 mtps_version: v=VS.90

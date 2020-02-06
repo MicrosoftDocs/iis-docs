@@ -2,7 +2,7 @@
 title: Tracing Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Tracing Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.Tracing
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing(v=VS.95)
 ms:contentKeyID: 46307929
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -2,7 +2,7 @@
 title: JobTemplate.TaskDefinitions Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinitions Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.TaskDefinitions
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobtemplate.taskdefinitions(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.taskdefinitions(v=VS.90)
 ms:contentKeyID: 35520683
 ms.date: 06/14/2012
 mtps_version: v=VS.90

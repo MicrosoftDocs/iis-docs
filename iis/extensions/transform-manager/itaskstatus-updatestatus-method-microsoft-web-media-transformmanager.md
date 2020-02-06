@@ -2,7 +2,7 @@
 title: ITaskStatus.UpdateStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ITaskStatus.UpdateStatus(System.Int32,Microsoft.Web.Media.TransformManager.JobStatus,System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.itaskstatus.updatestatus(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus.updatestatus(v=VS.90)
 ms:contentKeyID: 35521141
 ms.date: 06/14/2012
 mtps_version: v=VS.90

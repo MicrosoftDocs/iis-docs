@@ -2,7 +2,7 @@
 title: Composite Manifest for Rough Cut Editing (IIS Smooth Streaming)
 TOCTitle: Composite Manifest for Rough Cut Editing (IIS Smooth Streaming)
 ms:assetid: 50fe2563-f99a-4393-8a07-6a5437ae47ba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff402314(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff402314(v=VS.90)
 ms:contentKeyID: 28731570
 ms.date: 05/02/2012
 mtps_version: v=VS.90

@@ -1,1 +1,0 @@
-Set-Content "$env:systemdrive\inetpub\wwwroot\long.aspx" "<%@ Page language=`"C#`"%><%System.Threading.Thread.Sleep(30000);Response.Write(`"slept for 30 seconds`");%>"

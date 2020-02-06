@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.LogReady Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LogReady Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LogReady
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.logready(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.logready(v=VS.90)
 ms:contentKeyID: 23961160
 ms.date: 05/02/2012
 mtps_version: v=VS.90

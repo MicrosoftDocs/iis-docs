@@ -2,7 +2,7 @@
 title: ManifestStream.ParentStream Property
 TOCTitle: ParentStream Property
 ms:assetid: 12414628-3a17-4353-9b3b-32b11a4dfd46
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822681(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822681(v=VS.90)
 ms:contentKeyID: 50079436
 ms.date: 11/19/2012
 mtps_version: v=VS.90

@@ -2,7 +2,7 @@
 title: ManifestTrack.NominalBitrate Property
 TOCTitle: NominalBitrate Property
 ms:assetid: 67b8f9cb-77c2-40cc-bd83-27af27a3e8e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822754(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822754(v=VS.90)
 ms:contentKeyID: 50079509
 ms.date: 11/19/2012
 mtps_version: v=VS.90

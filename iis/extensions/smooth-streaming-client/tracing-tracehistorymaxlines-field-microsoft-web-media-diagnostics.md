@@ -2,7 +2,7 @@
 title: Tracing.TraceHistoryMaxLines Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceHistoryMaxLines Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.TraceHistoryMaxLines
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.tracehistorymaxlines(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracehistorymaxlines(v=VS.90)
 ms:contentKeyID: 23961048
 ms.date: 05/02/2012
 mtps_version: v=VS.90

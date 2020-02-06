@@ -2,7 +2,7 @@
 title: IDbRestoreManager Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IDbRestoreManager Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IDbRestoreManager
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.idbrestoremanager_methods(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbrestoremanager_methods(v=VS.90)
 ms:contentKeyID: 22049617
 ms.date: 05/02/2012
 mtps_version: v=VS.90

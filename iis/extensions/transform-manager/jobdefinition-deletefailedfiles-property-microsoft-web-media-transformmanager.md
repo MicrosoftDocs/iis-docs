@@ -2,7 +2,7 @@
 title: JobDefinition.DeleteFailedFiles Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteFailedFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteFailedFiles
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.deletefailedfiles(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.deletefailedfiles(v=VS.90)
 ms:contentKeyID: 35520592
 ms.date: 06/14/2012
 mtps_version: v=VS.90

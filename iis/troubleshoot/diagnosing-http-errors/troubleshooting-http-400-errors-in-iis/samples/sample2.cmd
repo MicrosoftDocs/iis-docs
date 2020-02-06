@@ -1,9 +1,0 @@
-HTTP: Response to Client; HTTP/1.1; Status Code = 400 - Bad Request
-HTTP: Protocol Version =HTTP/1.1
-HTTP: Status Code = Bad Request
-HTTP: Reason =Bad Request
-HTTP: Content-Type =text/html
-HTTP: Date =Wed, 14 Nov 2012 20:36:36 GMT
-HTTP: Connection =close
-HTTP: Content-Length =44
-HTTP: Data: Number of data bytes remaining = 63 (0x003F)

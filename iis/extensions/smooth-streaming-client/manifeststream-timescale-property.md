@@ -2,7 +2,7 @@
 title: ManifestStream.TimeScale Property
 TOCTitle: TimeScale Property
 ms:assetid: e6b219af-b960-4422-881e-c71eacf3fa84
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822858(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822858(v=VS.90)
 ms:contentKeyID: 50079612
 ms.date: 11/19/2012
 mtps_version: v=VS.90

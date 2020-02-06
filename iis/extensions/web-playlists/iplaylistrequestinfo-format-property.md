@@ -2,7 +2,7 @@
 title: IPlaylistRequestInfo::Format Property
 TOCTitle: IPlaylistRequestInfo::Format Property
 ms:assetid: b965b958-102b-4f00-930e-d87fd4f0d5e0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146288(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146288(v=VS.90)
 ms:contentKeyID: 19132359
 ms.date: 05/02/2012
 mtps_version: v=VS.90

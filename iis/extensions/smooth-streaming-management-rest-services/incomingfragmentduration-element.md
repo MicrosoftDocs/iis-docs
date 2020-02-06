@@ -2,7 +2,7 @@
 title: IncomingFragmentDuration Element
 TOCTitle: IncomingFragmentDuration Element
 ms:assetid: 8e504968-f155-484f-b06a-a6b28d7a934e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547051(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547051(v=VS.90)
 ms:contentKeyID: 37836892
 ms.date: 05/02/2012
 mtps_version: v=VS.90

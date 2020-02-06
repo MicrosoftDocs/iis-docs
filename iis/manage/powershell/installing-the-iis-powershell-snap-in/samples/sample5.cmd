@@ -1,1 +1,0 @@
-dir cert:\CurrentUser\TrustedPublisher | fl

@@ -1,1 +1,0 @@
-icacls %SystemDrive%\centralconfig\ /grant domain\user:R

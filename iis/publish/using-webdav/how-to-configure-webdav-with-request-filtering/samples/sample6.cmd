@@ -1,1 +1,0 @@
-AppCmd set config "Default Web Site/" /section:system.webServer/security/requestFiltering /fileExtensions.allowUnlisted:false /commit:apphost

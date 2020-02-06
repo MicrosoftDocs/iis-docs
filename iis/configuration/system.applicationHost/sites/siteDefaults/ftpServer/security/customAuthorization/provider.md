@@ -16,7 +16,7 @@ The `<customAuthorization>` element specifies the default settings for custom au
 
 If you enable a custom authorization provider, the built-in authorization provider will not be used, and you will not be able to manually add an allow rule or a deny rule to the configuration.
 
-For information about how to create a custom provider, see [How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider](https://docs.microsoft.com/en-us/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider).
+For information about how to create a custom provider, see [How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider](https://docs.microsoft.com/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider).
 
 <a id="002"></a>
 ## Compatibility
@@ -80,7 +80,7 @@ To support FTP authorization using a custom provider on your Web server, you mus
     [![](provider/_static/image2.png)](provider/_static/image1.png)  
   
     > [!NOTE]
-    > When a custom FTP authorization provider has been enabled, the     **FTP Authorization Rules** feature is disabled.
+    > When a custom FTP authorization provider has been enabled, the **FTP Authorization Rules** feature is disabled.
 6. Click **OK**.
 
 <a id="005"></a>

@@ -13,7 +13,7 @@ by IIS Team
 
 ## Introduction
 
-Advances in cloud technologies have led many users to use [Windows Azure Web Sites](https://www.windowsazure.com/en-us/solutions/web/) to host both a production site and test site, as it makes it easy to test various configurations without impacting their own personal computers. If you still prefer to do this on your desktop, you can install IIS on it, as well as other applications and extensions easily using the Microsoft® Web Platform Installer (Web PI). To learn more about the Web PI, see [Learn about and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
+Advances in cloud technologies have led many users to use [Windows Azure Web Sites](https://www.windowsazure.com/solutions/web/) to host both a production site and test site, as it makes it easy to test various configurations without impacting their own personal computers. If you still prefer to do this on your desktop, you can install IIS on it, as well as other applications and extensions easily using the Microsoft® Web Platform Installer (Web PI). To learn more about the Web PI, see [Learn about and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
 
 If you choose to install IIS 7.0 or above manually, you can use this article for guidance.
 
@@ -100,7 +100,7 @@ IIS can also be installed unattended on Windows Vista. For detailed instructions
 
 ## Links for More Information
 
-[IIS 7 Installation and Deployment](https://technet.microsoft.com/en-us/library/ee692294(WS.10).aspx)
+[IIS 7 Installation and Deployment](https://technet.microsoft.com/library/ee692294(WS.10).aspx)
 
 [How to install ASP.NET 1.1 with IIS7 and Abobe on Vista and Windows 2008](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008.md).
 

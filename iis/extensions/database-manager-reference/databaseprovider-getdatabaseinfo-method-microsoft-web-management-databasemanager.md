@@ -2,7 +2,7 @@
 title: DatabaseProvider.GetDatabaseInfo Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetDatabaseInfo Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetDatabaseInfo(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider.getdatabaseinfo(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.getdatabaseinfo(v=VS.90)
 ms:contentKeyID: 22049471
 ms.date: 05/02/2012
 mtps_version: v=VS.90

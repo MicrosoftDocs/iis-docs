@@ -2,7 +2,7 @@
 title: INativeConfigurationElementCollection::AddRawCollectionElement Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::AddRawCollectionElement Method
 ms:assetid: 141e2988-fb89-4f1d-81cd-81cff6cd572a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ee424815(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ee424815(v=VS.90)
 ms:contentKeyID: 23044162
 ms.date: 05/24/2010
 mtps_version: v=VS.90

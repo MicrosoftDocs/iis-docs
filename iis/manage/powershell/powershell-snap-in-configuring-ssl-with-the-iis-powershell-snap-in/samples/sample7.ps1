@@ -1,1 +1,0 @@
-PS IIS:\SslBindings> get-item cert:\LocalMachine\MY\7ABF581E134280162AFFFC81E62011787B3B19B5 | new-item 0.0.0.0!443

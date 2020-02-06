@@ -2,7 +2,7 @@
 title: SendEndOfStreamOnStop Element
 TOCTitle: SendEndOfStreamOnStop Element
 ms:assetid: 57f0a58f-ffa6-43a9-896c-1c7ca48c9640
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547040(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547040(v=VS.90)
 ms:contentKeyID: 37836881
 ms.date: 05/02/2012
 mtps_version: v=VS.90

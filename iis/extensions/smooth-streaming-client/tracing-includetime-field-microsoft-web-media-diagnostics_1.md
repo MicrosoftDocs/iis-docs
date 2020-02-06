@@ -2,7 +2,7 @@
 title: Tracing.IncludeTime Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeTime Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTime
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.includetime(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetime(v=VS.95)
 ms:contentKeyID: 46307526
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -2,7 +2,7 @@
 title: DependenciesMissingException Constructor (SerializationInfo, StreamingContext) (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DependenciesMissingException Constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)
 ms:contentKeyID: 22049490
 ms.date: 05/02/2012
 mtps_version: v=VS.90

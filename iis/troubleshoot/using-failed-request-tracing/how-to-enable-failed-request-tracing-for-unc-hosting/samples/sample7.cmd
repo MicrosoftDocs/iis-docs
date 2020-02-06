@@ -1,1 +1,0 @@
-net share content$=g:\content /GRANT:Users,CHANGE

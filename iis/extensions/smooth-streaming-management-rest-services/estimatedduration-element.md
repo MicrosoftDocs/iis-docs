@@ -2,7 +2,7 @@
 title: EstimatedDuration Element
 TOCTitle: EstimatedDuration Element
 ms:assetid: c4281a2c-9d44-413c-9f79-62402a355427
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547060(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh547060(v=VS.90)
 ms:contentKeyID: 37836901
 ms.date: 05/02/2012
 mtps_version: v=VS.90

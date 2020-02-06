@@ -2,7 +2,7 @@
 title: IAdaptiveSourceManager.AdaptiveSources Property
 TOCTitle: AdaptiveSources Property
 ms:assetid: 64b4b8d7-2ec2-45a0-b3d6-5240c270633c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822750(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ822750(v=VS.90)
 ms:contentKeyID: 50079505
 ms.date: 11/19/2012
 mtps_version: v=VS.90

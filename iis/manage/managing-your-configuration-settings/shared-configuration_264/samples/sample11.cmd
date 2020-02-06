@@ -1,1 +1,0 @@
-aspnet_regiis -px "iisConfigurationKey" "D:\iisConfigurationKey.xml" -pri

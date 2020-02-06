@@ -1,1 +1,0 @@
-PS C:\> get-process | sort-object -property handles

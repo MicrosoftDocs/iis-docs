@@ -2,7 +2,7 @@
 title: LocalScheduler.SetTaskCount Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskCount Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SetTaskCount(System.String,System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler.settaskcount(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.settaskcount(v=VS.90)
 ms:contentKeyID: 35521094
 ms.date: 06/14/2012
 mtps_version: v=VS.90

@@ -1,1 +1,0 @@
-\\<UncServerName>\UNCContent\Site1\Logs\FailedReqLogFiles

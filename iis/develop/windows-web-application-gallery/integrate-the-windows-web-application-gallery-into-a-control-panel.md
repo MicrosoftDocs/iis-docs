@@ -154,7 +154,7 @@ Create a Web site for a site owner and authorize the site owner to both connect 
 10. Type **mysiteuser**, and then click **OK**.
 11. Click **OK** to close the **Allow User** dialog box.  
 
-    See [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/en-us/library/cc770968.aspx) for additional information.
+    See [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/library/cc770968.aspx) for additional information.
 
 ## Test the Installation of an Application Package
 
@@ -247,7 +247,7 @@ The product list feed **WebProductList.xml** is the root feed. It not only conta
 
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample20.xml)]
 
- The &lt;dependency&gt; element means the beginning of the dependency list. The &lt;and&gt; element means that all the dependency elements listed inside are required by the application.
+   The &lt;dependency&gt; element means the beginning of the dependency list. The &lt;and&gt; element means that all the dependency elements listed inside are required by the application.
 3. Note the idref="PHPApp" and idref="MySQLApp" properties. They refer to another &lt;dependency&gt; element with corresponding "id" value that defines the actual dependencies. For example, if you examine the WebApplicationList.xml file for the "PHPApp" dependency element, you find the set of PHPApp dependencies:  
 
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample21.xml)]
@@ -256,7 +256,7 @@ The product list feed **WebProductList.xml** is the root feed. It not only conta
     - ID = WDeployNoSMO, corresponds to Web Deploy without SMO
     - ID= PHP, corresponds to the PHP engine (currently: 5.2.11)
 
- Notice that the &lt;or&gt; entry means that the dependency is for one or the other or both.
+   Notice that the &lt;or&gt; entry means that the dependency is for one or the other or both.
 5. The product entries in the WebProductList.xml contain a &lt;discoveryHint&gt; element that shows what to look for to find out if the product already exist in the target machine or not. For example, in the case of product id "MySQLConnector":  
 
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample22.xml)]

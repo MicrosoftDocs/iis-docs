@@ -2,7 +2,7 @@
 title: StoredProcedure Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: StoredProcedure Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.StoredProcedure
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedure(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure(v=VS.90)
 ms:contentKeyID: 20476737
 ms.date: 05/02/2012
 mtps_version: v=VS.90

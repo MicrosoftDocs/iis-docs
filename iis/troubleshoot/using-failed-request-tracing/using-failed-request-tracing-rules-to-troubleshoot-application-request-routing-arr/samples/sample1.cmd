@@ -1,1 +1,0 @@
-appcmd set site "Default Web Site" -traceFailedRequestsLogging.enabled:"true" /commit:apphost

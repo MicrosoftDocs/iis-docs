@@ -156,4 +156,4 @@ As jobs are run, job files (which include the original media source files, job m
 
 ## Managing and Monitoring your Transform Jobs
 
-As jobs are processed through the WorkQueue folders, you can use the **Job Monitor** pages in IIS Manager to view the progress of and manage the currently running and queued jobs. For more information, see [Running and Monitoring Jobs](https://technet.microsoft.com/en-us/library/ff730174(v=ws.10).aspx).
+As jobs are processed through the WorkQueue folders, you can use the **Job Monitor** pages in IIS Manager to view the progress of and manage the currently running and queued jobs. For more information, see [Running and Monitoring Jobs](https://technet.microsoft.com/library/ff730174(v=ws.10).aspx).

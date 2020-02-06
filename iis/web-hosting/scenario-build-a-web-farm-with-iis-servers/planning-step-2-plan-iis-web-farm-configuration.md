@@ -18,7 +18,7 @@ When you are done with these tasks, record your design decisions before going on
 <a id="21"></a>
 ## 2.1. Plan for Shared Content
 
-Network shared content uses a back-end file server to manage website content. All web servers point to a shared folder on the file server over a UNC path. To reduce the risk of failure, the file server is often mirrored to another server with some method of failover provided. For information about failover clusters, see [Failover Clustering](https://technet.microsoft.com/en-us/library/hh831579).
+Network shared content uses a back-end file server to manage website content. All web servers point to a shared folder on the file server over a UNC path. To reduce the risk of failure, the file server is often mirrored to another server with some method of failover provided. For information about failover clusters, see [Failover Clustering](https://technet.microsoft.com/library/hh831579).
 
 To configure shared content, you first set up the shared folder on the file server. Create a custom user for each application pool and assign that user to the shared folder. You can create local users and groups as long as the same username and password is assigned to each web server.
 

@@ -1,1 +1,0 @@
-Sync-WDMySQLDatabase "server=localhost;uid=root;pwd=***************;database=wordpress265" c:\wordpress.sql

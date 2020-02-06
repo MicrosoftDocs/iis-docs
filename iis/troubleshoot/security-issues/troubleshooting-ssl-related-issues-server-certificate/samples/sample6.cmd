@@ -1,1 +1,0 @@
-IIS 6: httpcfg query iplisten

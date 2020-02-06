@@ -2,7 +2,7 @@
 title: SetPlaybackRangeCompletedEventArgs Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetPlaybackRangeCompletedEventArgs Constructor
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.setplaybackrangecompletedeventargs(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.setplaybackrangecompletedeventargs(v=VS.95)
 ms:contentKeyID: 46307711
 ms.date: 05/31/2012
 mtps_version: v=VS.95

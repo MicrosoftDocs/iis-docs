@@ -84,25 +84,25 @@ It is possible to create a separate site with the desired port and domain name t
 6. Enter **85** for **Port**.  
     [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image6.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image5.jpg)  
     *Figure 4: Add Web Site dialog*- Click **OK**.
-- Open **Internet Explorer**, and request `http://localhost:85/hello.php`.  
-    [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image8.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image7.jpg)  
-    *Figure 5: "Hello" page running on a Web Site*
-- Return to **IIS Manager** (Inetmgr.exe).
-- In the tree view on the left, right-click the **PHPSite**.
-- Click **Edit Bindings**.
-- Click **Add**.
-- Enter **phpsite** for the Host name.  
-    [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image10.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image9.jpg)  
-    *Figure 6: Adding a site binding*
-- Click **OK** and close Site Bindings dialog.
-- Edit `C:\Windows\system32\drivers\etc\hosts` file in Notepad as administrator and add the following DNS entry:  
+7. Open **Internet Explorer**, and request `http://localhost:85/hello.php`.  
+     [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image8.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image7.jpg)  
+     *Figure 5: "Hello" page running on a Web Site*
+8. Return to **IIS Manager** (Inetmgr.exe).
+9. In the tree view on the left, right-click the **PHPSite**.
+10. Click **Edit Bindings**.
+11. Click **Add**.
+12. Enter **phpsite** for the Host name.  
+      [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image10.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image9.jpg)  
+      *Figure 6: Adding a site binding*
+13. Click **OK** and close Site Bindings dialog.
+14. Edit `C:\Windows\system32\drivers\etc\hosts` file in Notepad as administrator and add the following DNS entry:  
 
-    [!code-console[Main](create-a-separate-site-or-virtual-directory-for-php-content/samples/sample2.cmd)]
-- Save and close the hosts file.
-- Open **Internet Explorer**, and go to `http://phpsite/hello.php`.  
-    [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image12.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image11.jpg)  
-    *Figure 7: "Hello" page running on a Web Site*
-- Close all open windows.
+      [!code-console[Main](create-a-separate-site-or-virtual-directory-for-php-content/samples/sample2.cmd)]
+15. Save and close the hosts file.
+16. Open **Internet Explorer**, and go to `http://phpsite/hello.php`.  
+      [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image12.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image11.jpg)  
+      *Figure 7: "Hello" page running on a Web Site*
+17. Close all open windows.
 
 Note that you can add any number of bindings to a site, to expose it on any combination of available IP addresses, ports, and domain names.
 

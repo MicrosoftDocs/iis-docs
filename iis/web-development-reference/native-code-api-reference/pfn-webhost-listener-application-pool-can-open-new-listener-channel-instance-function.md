@@ -2,7 +2,7 @@
 title: PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function
 TOCTitle: PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function
 ms:assetid: 33178979-1e15-46c9-f704-c8b44ffc4e51
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/ms690834(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/ms690834(v=VS.90)
 ms:contentKeyID: 6824819
 ms.date: 03/09/2018
 mtps_version: v=VS.90

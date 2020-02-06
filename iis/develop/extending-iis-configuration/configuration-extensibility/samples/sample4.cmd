@@ -1,4 +1,4 @@
-attribute 
+<attribute 
 name="" [String, Required] [XML name of the attribute] 
 type="" [bool|enum|flags|uint|int|int64|string|timeSpan, Required] [Runtime type] 
 required="false" [bool] [Indicates if it must be set] 

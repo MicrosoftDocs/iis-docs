@@ -2,7 +2,7 @@
 title: CircularList(T).IsFull Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IsFull Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.IsFull
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728270(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728270(v=VS.90)
 ms:contentKeyID: 31469289
 ms.date: 05/02/2012
 mtps_version: v=VS.90

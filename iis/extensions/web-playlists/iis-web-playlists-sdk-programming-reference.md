@@ -2,7 +2,7 @@
 title: IIS Web Playlists SDK Programming Reference
 TOCTitle: Programming Reference
 ms:assetid: b90dbdd2-a0e5-4675-8924-6507c1e2b66a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146287(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146287(v=VS.90)
 ms:contentKeyID: 19132358
 ms.date: 05/02/2012
 mtps_version: v=VS.90

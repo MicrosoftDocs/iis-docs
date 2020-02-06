@@ -2,7 +2,7 @@
 title: Scheduler.GetJobStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.GetJobStatus(System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.scheduler.getjobstatus(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.getjobstatus(v=VS.90)
 ms:contentKeyID: 35521000
 ms.date: 06/14/2012
 mtps_version: v=VS.90

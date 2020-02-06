@@ -1,1 +1,0 @@
-HcDoDynamicCompression          : (BOOLEAN) True

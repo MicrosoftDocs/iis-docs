@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.RequestLog Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RequestLog Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.RequestLog
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.requestlog(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.requestlog(v=VS.90)
 ms:contentKeyID: 23960963
 ms.date: 05/02/2012
 mtps_version: v=VS.90

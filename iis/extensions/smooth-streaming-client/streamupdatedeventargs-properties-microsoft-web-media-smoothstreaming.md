@@ -2,7 +2,7 @@
 title: StreamUpdatedEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs_properties(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs_properties(v=VS.90)
 ms:contentKeyID: 31469308
 ms.date: 05/02/2012
 mtps_version: v=VS.90

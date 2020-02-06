@@ -2,7 +2,7 @@
 title: StoredProcedureParameter Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: StoredProcedureParameter Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter(v=VS.90)
 ms:contentKeyID: 20476410
 ms.date: 05/02/2012
 mtps_version: v=VS.90

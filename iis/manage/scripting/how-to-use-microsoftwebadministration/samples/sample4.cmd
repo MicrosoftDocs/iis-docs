@@ -1,1 +1,0 @@
-mySite.ServerAutoStart = true;

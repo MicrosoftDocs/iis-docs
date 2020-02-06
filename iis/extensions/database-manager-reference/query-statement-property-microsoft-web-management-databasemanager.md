@@ -2,7 +2,7 @@
 title: Query.Statement Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Statement Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.Statement
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.query.statement(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query.statement(v=VS.90)
 ms:contentKeyID: 22049486
 ms.date: 05/02/2012
 mtps_version: v=VS.90

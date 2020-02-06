@@ -86,8 +86,8 @@ For more information about how you can extend the IIS 7.0 and above user interfa
 
 Applications that use ASP and a Microsoft Access database will fail when you upgrade to Windows Vista. You will see the following error message:
 
-***Microsoft JET Database Engine error '80004005'  
-Unspecified error***
+**Microsoft JET Database Engine error '80004005'**  
+**Unspecified error**
 
 This failure is often a permission issue caused when the process identity cannot access the temporary directory. In IIS 6.0, all worker processes used `C:\Windows\Temp` as the temporary directory, regardless of the configuration of the process identity. In fact, because none of the worker processes in IIS 6.0 used their user profiles, Windows allowed all users access to this directory.
 
@@ -139,16 +139,16 @@ NNTP is not supported on Windows Vista.
 
 You cannot use the IIS 7.0 and above user interface to create a Certificate Trust List (CTL). Follow these steps to create a CTL with IIS 7.0 or above.
 
-1. Use MakeCTL.exe to create the CTL. For more information on MakeCTL.exe, see the [MakeCTL](https://msdn.microsoft.com/library/aa386969.aspx) page on the MSDN site.   
+1. Use MakeCTL.exe to create the CTL. For more information on MakeCTL.exe, see the [MakeCTL](https://msdn.microsoft.com/library/aa386969.aspx) page on the MSDN site.  
   
- The MakeCTL.exe tool is part of the [.NET Framework SDK Version 1.1](https://go.microsoft.com/fwlink/?LinkId=50870). Once you install the SDK, MakeCTL.exe appears in the following location:   
+   The MakeCTL.exe tool is part of the [.NET Framework SDK Version 1.1](https://go.microsoft.com/fwlink/?LinkId=50870). Once you install the SDK, MakeCTL.exe appears in the following location:  
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample3.cmd)]
 2. After you create the CTL, you must run AdsUtil.vbs to assign the CTL identifier to the name used in MakeCTL.exe.   
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample4.cmd)]
 
- where     *&lt;Name of CTL&gt;* is the friendly name for the CTL used in MakeCTL.exe.
+   where *\<Name of CTL>* is the friendly name for the CTL used in MakeCTL.exe.
 3. Run adsUtil.vbs to set the SslCtlStoreName.  
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample5.cmd)]
@@ -217,7 +217,6 @@ IISrestart no longer supports computer restarts.
 
 In IIS 6.0, these tools appeared in systemroot\system32. In IIS 7.0 and above, however, the following tools are now obsolete:
 
-
 - Iisapp.vbs
 - Iiscnfg.vbs
 - Iisftp.vbs
@@ -226,7 +225,6 @@ In IIS 6.0, these tools appeared in systemroot\system32. In IIS 7.0 and above, h
 - Iisrepl.vbs
 - Iisvdir.vbs
 - Iisweb.vbs
-
 
 Appcmd.exe is the primary command-line tool for IIS 7.0 and above. For more information about Appcmd.exe, see [Overview of Command Line Administration - Appcmd.exe](https://go.microsoft.com/fwlink/?LinkId=78510) on IIS.NET.
 
@@ -270,7 +268,6 @@ Most of the issues listed below involve features have no IIS 7.0 or above user i
 | HTTP Response Headers | Although this feature is not in the IIS 7.0 or above UI, you can still use this feature by directly editing the XML configuration file, using WMI or Appcmd.exe. For more information about HTTP response headers, see [IIS 7.0 Beta: Configuring HTTP Response Headers in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=78497) at the Microsoft TechCenter site. |
 | Ordering ISAPI Filters | There is an IIS 7.0 and above UI for adding and removing ISAPI filters, but you cannot use it to order ISAPI filters. You can order ISAPI filters by directly editing the XML configuration file. For more information about how to configure ISAPI filters, see [IIS 7.0 Beta: Configuring ISAPI Filters in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=78505) at the Microsoft TechCenter site. |
 
-
 <a id="Upgrading"></a>
 
 ## Upgrading Microsoft Windows XP to Windows Vista
@@ -282,7 +279,6 @@ Once the upgrade is complete, investigate the log files to determine whether the
 [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample8.cmd)]
 
 [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample9.cmd)]
- 
 
 ### IIS 7.0 and Above Web Services Disabled on Upgrade
 

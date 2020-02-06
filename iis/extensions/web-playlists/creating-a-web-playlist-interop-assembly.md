@@ -2,7 +2,7 @@
 title: Creating a Web Playlist Interop Assembly
 TOCTitle: Creating a Web Playlist Interop Assembly
 ms:assetid: c3b169e8-b444-4c9f-b6b3-25f568c14c08
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd146291(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd146291(v=VS.90)
 ms:contentKeyID: 19132362
 ms.date: 05/02/2012
 mtps_version: v=VS.90

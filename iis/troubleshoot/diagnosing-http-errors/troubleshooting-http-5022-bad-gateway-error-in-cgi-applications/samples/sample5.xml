@@ -1,7 +1,0 @@
-<ROW>
-<EventNumber>405</EventNumber> 
-<EventName>IISCGI</EventName> 
-<EventTypeName>CGI_LAUNCH</EventTypeName> 
-<Timestamp>2005-08-23 20:19:07</Timestamp> 
-<UserData>ContextId={00000000-0000-0000-4c06-0060000000ef}|CommandLine="D:\Inetpub\cgi-bin\htmlos.exe" |ErrorCode=0x00000000|ProcessId=3136</UserData> 
-</ROW>

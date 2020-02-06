@@ -2,7 +2,7 @@
 title: SmoothStreamingMediaElement.RenderedFramesPerSecond Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RenderedFramesPerSecond Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.RenderedFramesPerSecond
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.renderedframespersecond(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.renderedframespersecond(v=VS.90)
 ms:contentKeyID: 23961261
 ms.date: 05/02/2012
 mtps_version: v=VS.90

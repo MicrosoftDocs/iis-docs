@@ -2,7 +2,7 @@
 title: ManifestInfo.ManifestType Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ManifestType
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.manifesttype(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.manifesttype(v=VS.95)
 ms:contentKeyID: 46688478
 ms.date: 05/31/2012
 mtps_version: v=VS.95

@@ -1,1 +1,0 @@
-status = client.StartSite(sitename);

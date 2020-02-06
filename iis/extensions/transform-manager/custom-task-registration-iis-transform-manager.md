@@ -2,7 +2,7 @@
 title: Custom Task Registration (IIS Transform Manager)
 TOCTitle: Custom Task Registration (IIS Transform Manager)
 ms:assetid: 4b3135a5-d21f-4210-9801-acedcaad7faa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728120(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff728120(v=VS.90)
 ms:contentKeyID: 31469140
 ms.date: 06/14/2012
 mtps_version: v=VS.90

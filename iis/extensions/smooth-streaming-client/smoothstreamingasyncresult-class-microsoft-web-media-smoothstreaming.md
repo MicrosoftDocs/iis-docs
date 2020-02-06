@@ -2,7 +2,7 @@
 title: SmoothStreamingAsyncResult Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingAsyncResult Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult(v=VS.95)
 ms:contentKeyID: 46307960
 ms.date: 05/31/2012
 mtps_version: v=VS.95

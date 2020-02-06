@@ -2,7 +2,7 @@
 title: JobDefinition.AssetRetentionPeriodMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: AssetRetentionPeriodMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.AssetRetentionPeriodMinutes
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.assetretentionperiodminutes(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.assetretentionperiodminutes(v=VS.90)
 ms:contentKeyID: 35520839
 ms.date: 06/14/2012
 mtps_version: v=VS.90

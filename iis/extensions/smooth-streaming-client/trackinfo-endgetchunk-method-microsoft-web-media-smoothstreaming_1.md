@@ -2,7 +2,7 @@
 title: TrackInfo.EndGetChunk Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndGetChunk Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.EndGetChunk(System.IAsyncResult)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.endgetchunk(v=VS.95)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.endgetchunk(v=VS.95)
 ms:contentKeyID: 46307700
 ms.date: 05/31/2012
 mtps_version: v=VS.95

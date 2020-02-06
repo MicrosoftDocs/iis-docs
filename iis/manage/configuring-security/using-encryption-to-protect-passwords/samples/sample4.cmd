@@ -1,1 +1,0 @@
-createProvider.exe iisWasKey RsaKeyForWAS Rsa_WAS

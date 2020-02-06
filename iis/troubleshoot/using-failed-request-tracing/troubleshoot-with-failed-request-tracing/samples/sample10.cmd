@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd.exe list requests /elapsed:1000 /xml | %windir%\system32\inetsrv\appcmd list apppools /in /xml | %windir%\system32\inetsrv\appcmd recycle apppools /in

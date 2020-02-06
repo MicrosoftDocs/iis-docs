@@ -2,7 +2,7 @@
 title: ILogger.WriteLine Method (LogLevel, String, Int32) (Microsoft.Web.Media.TransformManager)
 TOCTitle: WriteLine Method (LogLevel, String, Int32)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ILogger.WriteLine(Microsoft.Web.Media.TransformManager.LogLevel,System.String,System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ilogger.writeline(v=VS.90)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger.writeline(v=VS.90)
 ms:contentKeyID: 46408417
 ms.date: 06/14/2012
 mtps_version: v=VS.90

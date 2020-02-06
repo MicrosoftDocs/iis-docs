@@ -1,1 +1,0 @@
-PS IIS:\Sites\MyNewWebSite>Get-WebURL -url http://localhost:81/URL_DOES_NOT_EXIST

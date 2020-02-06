@@ -1,1 +1,0 @@
-Backup-WDSQLDatabase -Database "Data Source=localhost;Initial Catalog=MyDb;User id=MyDBUser;Password=MyPassword" -SourceSettings @{ copyAllUsers='false'; scriptDropsFirst='true'; }

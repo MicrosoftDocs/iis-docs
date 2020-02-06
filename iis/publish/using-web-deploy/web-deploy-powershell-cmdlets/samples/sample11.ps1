@@ -1,1 +1,0 @@
-Backup-WDSQLDatabase -SourcePublishSettings D:\SQLdb.PublishSettings

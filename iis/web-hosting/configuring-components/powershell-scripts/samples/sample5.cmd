@@ -1,1 +1,0 @@
-CreateIISApplicationOntoSite "C:\Content\DAP1Site1\App1" "/App1" "DAP1Site1" "DemoAppPool1"
