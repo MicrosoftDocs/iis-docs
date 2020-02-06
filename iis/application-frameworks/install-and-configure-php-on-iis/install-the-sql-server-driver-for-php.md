@@ -1,67 +1,63 @@
 ---
-title: "Install the SQL Server Driver for PHP"
-author: rick-anderson
-description: "Introduction The Microsoft® SQL Server® Driver for PHP is designed to enable reliable, scalable integration with SQL Server for PHP applications deployed on..."
-ms.date: 11/15/2009
+title: "Install the Microsoft Drivers for PHP for SQL Server"
+author: david-puglielli
+description: "Introduction The Microsoft Drivers for PHP for SQL Server are designed to enable reliable, scalable integration with SQL Server for PHP applications on..."
+ms.date: "02/06/2020"
 ms.assetid: 2e1b4523-a32f-4390-bf9f-552f21ecc93b
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php
 msc.type: authoredcontent
 ---
-Install the SQL Server Driver for PHP
+Install the Microsoft Drivers for PHP for SQL Server
 ====================
 by Tali Smith
 
 ## Introduction
 
-The Microsoft® SQL Server® Driver for PHP is designed to enable reliable, scalable integration with SQL Server for PHP applications deployed on the Windows® platform. The driver is a PHP extension that allows the reading and writing of SQL Server data from within PHP scripts. It provides a procedural interface for accessing data in all editions of SQL Server(including Express editions) and makes use of PHP features, including PHP streams, to read and write large objects. The SQL Server Driver for PHP relies on the Microsoft SQL Server Native Client to communicate with SQL Server.
+The Microsoft Drivers for PHP for SQL Server are designed to enable reliable, scalable integration with SQL Server for PHP applications on Windows, Linux, and macOS platforms. The drivers are PHP extensions that allow reading from and writing to SQL Server databases in all editions of SQL Server (including Express editions) within PHP scripts. Two drivers are available: The SQLSRV driver provides a procedural interface for interacting with SQL Server. The PDO_SQLSRV driver implements PHP's object-oriented PDO interface for working with databases. 
 
-The SQL Server Driver for PHP download is available to all SQL Server users at no additional charge. The most current version of the driver, Microsoft SQL Server Driver for PHP 1.1, provides new capabilities for building PHP applications, and the driver supports Microsoft® SQL Azure™ Database and PHP version 5.3, enabling developers to build PHP applications with relational capabilities using the SQL Azure Database.SQL Server Driver for PHP 1.1 also includes support for UTF-8 and for scrollable results.
+The drivers' application programming interface (API) includes support for Active Directory authentication, transactions, parameter binding, streaming, metadata access, Unicode data handling, and error handling. The drivers rely on the Microsoft SQL Server Native Client or the Microsoft ODBC Driver for SQL Server to communicate with SQL Server. The drivers also support Microsoft SQL Azure Database, enabling developers to build PHP applications with relational capabilities using SQL Azure Database. 
 
-Microsoft provides support for the SQL Server Driver for PHP under its normal support methods. While the source code for this driver has been made available on the CodePlex Web site, Microsoft supports only the signed version of the driver from the Microsoft® Developer Network (MSDN®) download site.
+The Microsoft Drivers for PHP for SQL Server download is freely available to all SQL Server users. Releases and source code for the drivers are available from the [Github project page](https://github.com/microsoft/msphpsql). Full documentation for the drivers is available on [Microsoft Docs](https://docs.microsoft.com/sql/connect/php/microsoft-php-driver-for-sql-server?view=sql-server-2017); what follows is a brief overview of installation and configuration on Windows and IIS.
 
 ## System Requirements
 
-The SQL Server Driver for PHP application programming interface (API) includes support for Windows authentication, transactions, parameter binding, streaming, metadata access, and error handling. The SQL Server Driver for PHP relies on the Microsoft® SQL Server® 2005 Open Database Connectivity (ODBC) driver to handle the low-level communication with SQL Server and is therefore only supported on the Windows operating system.
+Full details on the system requirements for all supported versions of the driver can be found on the [system requirements page](https://docs.microsoft.com/sql/connect/php/system-requirements-for-the-php-sql-driver?view=sql-server-2017). The following software is required:
 
-You need to ensure that the following are installed:
+- On the client machine:
+  - A supported Windows, Linux, or macOS operating system
+  - A supported version of PHP
+  - A supported version of the Microsoft ODBC Driver for SQL Server
+  - A Web server configured to run PHP
+- On the server:
+  - A supported version of SQL Server or Azure SQL Database
 
-- Supported operating systems:  
+## Install the Drivers
 
-    - Windows Server® 2008 R2 or Windows Server® 2008
-    - Windows® 7, Windows Vista® Service Pack 1 (SP1), Windows® XP SP3
-    - Windows Server® 2003 SP2, Windows® 2000 SP4
-- PHP 5.X.X. Microsoft SQL Server 2008 Native Client. You can download SQL Server Native Client from a Microsoft® SQL Server® 2008 Feature Pack, at: [https://www.microsoft.com/downloads/details.aspx?familyid=B33D2C78-1059-4CE2-B80D-2343C099BCB4&amp;displaylang=en%20](https://www.microsoft.com/downloads/details.aspx?familyid=B33D2C78-1059-4CE2-B80D-2343C099BCB4&amp;displaylang=en%20)
-- Any edition of SQL Server 2005 or SQL Server 2008.
-- A Web server configured to run PHP.
+Perform the following steps to download and install the Microsoft Drivers for PHP for SQL Server on Windows.
 
-## Install the SQL Server Driver for PHP
-
-Perform the following steps to download and install the SQL Server Driver for PHP.
-
-1. Download %SQLServerDriverForPHP.EXE to a temporary directory.
-2. Double-click to run %SQLServerDriverForPHP.EXE.
-3. Enter an installation directory when prompted. It is recommended that you extract the file to `%ProgramFiles%` with the default directory **Microsoft SQL Server Driver for PHP**.
-4. Double-click to open the **SQLServerDriverForPHP.chm** help file.
-5. Install the **Microsoft SQL Server Native Client** from the link provided.
-6. Copy the **php\_sqlsrv.dll** and **php\_sqlsrv\_ts.dll** files to the `C:\PHP\ext\` directory.
-7. Open the `C:\PHP\php.ini` file, and add the following line in the **Extensions** section:  
+1. Download and run the installation package from the appropriate link on the [download page](https://docs.microsoft.com/sql/connect/php/download-drivers-php-sql-server?view=sql-server-2017).
+2. Enter a directory to extract the package into when prompted. 
+3. Open the directory you chose in step 3 and copy the required dll libraries to your PHP extension directory. The filenames indicate which PHP version, threadedness, and architecture each dll file is for. For example, `php_sqlsrv_73_ts_x64.dll` is the 64-bit SQLSRV driver for thread-safe (ts) PHP 7.3.
+4. Download and install the Microsoft ODBC Driver for SQL Server from the appropriate link on the [ODBC download page](https://docs.microsoft.com/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-2017).
+5. Edit your `php.ini` file to add the following lines in the `Extensions` section:  
 
     [!code-console[Main](install-the-sql-server-driver-for-php/samples/sample1.cmd)]
-8. Click **Start**, and select the *search field*.
-9. Type **iisreset**, and then press ENTER.
 
-## Configure the Driver
+    Substitute the names of the files you copied to your PHP extension directory as required. Full instructions for loading the drivers can be found [here](https://docs.microsoft.com/sql/connect/php/loading-the-php-sql-driver?view=sql-server-2017).
+6. Start a command prompt as administrator and run `iisreset` to restart your IIS server.
 
-1. Retrieve the driver's current configuration settings using the sqlsrv\_get\_config function.
-2. Change the configuration settings using the sqlsrv\_configure function, or set values for the configuration settings in the php.ini file.
-3. Ensure that the driver is loaded and verify the configuration settings by running a script that calls the phpinfo() function:  
+## Configure the Drivers
+
+1. Retrieve the current configuration settings for the SQLSRV driver using the [`sqlsrv_get_config` function](https://docs.microsoft.com/sql/connect/php/sqlsrv-get-config?view=sql-server-2017), or for the PDO_SQLSRV driver using the [`PDO::getAttribute` function](https://docs.microsoft.com/sql/connect/php/pdo-getattribute?view=sql-server-2017).
+2. Change the configuration settings for the SQLSRV driver using the [`sqlsrv_configure` function](https://docs.microsoft.com/sql/connect/php/sqlsrv-configure?view=sql-server-2017), or for the PDO_SQLSRV driver using the [`PDO::setAttribute` function](https://docs.microsoft.com/sql/connect/php/pdo-setattribute?view=sql-server-2017).
+3. Ensure that the drivers are loaded and verify the configuration settings by running a script that calls the phpinfo() function:  
 
     1. Open a text file, and copy the following code into it:  
 
         [!code-xml[Main](install-the-sql-server-driver-for-php/samples/sample2.xml)]
-    2. Save the file as **info.php** in your Web server's root directory.
+    2. Save the file as `info.php` in the IIS root directory.
     3. Open a browser, and go to [http://localhost/info.php](http://localhost/info.php).
-    4. Scroll down the resulting page to find the **sqlsrv** section. Confirm that the driver is loaded and the configuration settings are set to the default values (see Figure 1).  
+    4. Scroll down the resulting page to find the `sqlsrv` and `pdo_sqlsrv` sections. Confirm that the drivers are loaded and the configuration settings are set to the default values (see Figure 1).  
 
         [![](install-the-sql-server-driver-for-php/_static/image2.jpg)](install-the-sql-server-driver-for-php/_static/image1.jpg)
 
@@ -69,22 +65,19 @@ Perform the following steps to download and install the SQL Server Driver for PH
 
 ## Create a Connection to the Database
 
-The sqlsrv\_connect function is used to establish a connection to the server.
+When using the SQLSRV driver, the [`sqlsrv_connect()` function](https://docs.microsoft.com/sql/connect/php/sqlsrv-connect?view=sql-server-2017) is used to establish a connection to the server. When using the PDO_SQLSRV driver, the [`PDO::__construct` function](https://docs.microsoft.com/sql/connect/php/pdo-construct?view=sql-server-2017) is used to establish a connection to the server.
 
-By default, the **sqlsrv\_connect** function uses Windows authentication to establish a connection. In most scenarios, this means that the Web server's process identity or thread identity (if the Web server is using impersonation) is used to connect to the server, not a user's identity.
-
-For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://msdn.microsoft.com/library/cc296161(SQL.90).aspx).
+Connections can be made using [Windows authentication](https://docs.microsoft.com/sql/connect/php/how-to-connect-using-windows-authentication?view=sql-server-2017), [SQL Server authentication](https://docs.microsoft.com/sql/connect/php/how-to-connect-using-sql-server-authentication?view=sql-server-2017), or [Azure Active Directory authentication](https://docs.microsoft.com/sql/connect/php/azure-active-directory?view=sql-server-2017). The default is to use Windows authentication. In most scenarios, this means that the Web server's process identity or thread identity (if the Web server is using impersonation) is used to connect to the server, not a user's identity.
 
 ## Links for Further Information
 
-- [PHP on Windows Training Kit (August 2009).](https://www.microsoft.com/downloads/details.aspx?familyid=C8498C9B-A85A-4AFA-90C0-593D0E4850CB&amp;displaylang=en)
-- [Microsoft SQL Server Driver for PHP](http://www.codeplex.com/SQLSRVPHP).
-- [SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
-- [SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
-- [Microsoft SQL Server Driver for PHP team blog](https://blogs.msdn.com/sqlphp/default.aspx).
-- [New SQL Server Driver for PHP Whitepaper](https://blogs.msdn.com/sqlphp/archive/2008/08/29/new-sql-server-driver-for-php-whitepaper-available.aspx).
-- [SQL Server Driver for PHP example application](https://msdn.microsoft.com/library/cc296196(SQL.90).aspx).
-- [php.net](http://php.net/).
-- [Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/library/cc793139(SQL.90).aspx)
-- [Programming Tasks](https://technet.microsoft.com/library/cc644935(SQL.90).aspx).
-- [Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/library/cc296172(SQL.90).aspx).
+- [Microsoft Drivers for PHP for SQL Server](https://github.com/microsoft/msphpsql)
+- [Download the Microsoft Drivers for PHP for SQL Server](https://docs.microsoft.com/sql/connect/php/download-drivers-php-sql-server?view=sql-server-2017)
+- [Overview of the Microsoft Drivers for PHP for SQL Server](https://docs.microsoft.com/sql/connect/php/overview-of-the-php-sql-driver?view=sql-server-2017)
+- [Programming Guide](https://docs.microsoft.com/sql/connect/php/programming-guide-for-php-sql-driver?view=sql-server-2017)
+- [SQLSRV Example Application](https://docs.microsoft.com/sql/connect/php/example-application-sqlsrv-driver?view=sql-server-2017)
+- [PDO_SQLSRV Example Application](https://docs.microsoft.com/sql/connect/php/example-application-pdo-sqlsrv-driver?view=sql-server-2017)
+- [PHP Homepage](http://php.net/)
+- [Whitepaper: Accessing SQL Server Databases with PHP](https://social.technet.microsoft.com/wiki/contents/articles/1258.accessing-sql-server-databases-from-php.aspx)
+- [Drivers for SQL Server Team Blog](https://techcommunity.microsoft.com/t5/SQL-Server/bg-p/SQLServer/label-name/SQLServerDrivers)
+- [SQL Azure Team Blog](https://techcommunity.microsoft.com/t5/Azure-SQL-Database/bg-p/Azure-SQL-Database)
