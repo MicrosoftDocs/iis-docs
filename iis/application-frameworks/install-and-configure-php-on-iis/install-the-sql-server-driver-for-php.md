@@ -15,7 +15,7 @@ by Tali Smith
 
 The Microsoft Drivers for PHP for SQL Server are designed to enable reliable, scalable integration with SQL Server for PHP applications on Windows, Linux, and macOS platforms. The drivers are PHP extensions that allow reading from and writing to SQL Server databases in all editions of SQL Server (including Express editions) within PHP scripts. Two drivers are available: The SQLSRV driver provides a procedural interface for interacting with SQL Server. The PDO_SQLSRV driver implements PHP's object-oriented PDO interface for working with databases. 
 
-The drivers' application programming interface (API) includes support for Active Directory authentication, transactions, parameter binding, streaming, metadata access, Unicode data handling, and error handling. The drivers rely on the Microsoft SQL Server Native Client or the Microsoft ODBC Driver for SQL Server to communicate with SQL Server. The drivers also support Microsoft SQL Azure Database, enabling developers to build PHP applications with relational capabilities using SQL Azure Database. 
+The drivers' application programming interface (API) includes support for Active Directory authentication, transactions, parameter binding, streaming, metadata access, Unicode data handling, and error handling. The drivers rely on the Microsoft ODBC Driver for SQL Server to communicate with SQL Server. The drivers also support Microsoft SQL Azure Database, enabling developers to build PHP applications with relational capabilities using SQL Azure Database. 
 
 The Microsoft Drivers for PHP for SQL Server download is freely available to all SQL Server users. Releases and source code for the drivers are available from the [Github project page](https://github.com/microsoft/msphpsql). Full documentation for the drivers is available on [Microsoft Docs](https://docs.microsoft.com/sql/connect/php/microsoft-php-driver-for-sql-server?view=sql-server-2017); what follows is a brief overview of installation and configuration on Windows and IIS.
 
@@ -33,7 +33,7 @@ Full details on the system requirements for all supported versions of the driver
 
 ## Install the Drivers
 
-Perform the following steps to download and install the Microsoft Drivers for PHP for SQL Server on Windows.
+The Microsoft Drivers for PHP for SQL Server can be installed using the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx). To download and install the drivers manually instead, perform the following steps:
 
 1. Download and run the installation package from the appropriate link on the [download page](https://docs.microsoft.com/sql/connect/php/download-drivers-php-sql-server?view=sql-server-2017).
 2. Enter a directory to extract the package into when prompted. 
