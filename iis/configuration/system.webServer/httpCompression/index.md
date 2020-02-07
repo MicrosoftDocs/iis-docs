@@ -53,8 +53,7 @@ Each of these two compression schemes can be enabled using the `<schemes>` eleme
 | IIS 10.0 | The `<httpCompression>` element was not modified in IIS 10.0. |
 | IIS 8.5 | The `staticCompressionIgnoreHitFrequency` attribute was added in IIS 8.5. |
 | IIS 8.0 | The `<httpCompression>` element was not modified in IIS 8.0. |
-| IIS 7.5 | In IIS 7.5, the default value for the `
-` attribute has been changed, and the `dynamicCompressionBufferLimit` attribute was added. |
+| IIS 7.5 | In IIS 7.5, the default value for the `minFileSizeForComp` attribute has been changed, and the `dynamicCompressionBufferLimit` attribute was added. |
 | IIS 7.0 | The `<httpCompression>` element was introduced in IIS 7.0. |
 | IIS 6.0 | The `<httpCompression>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>HcCacheControlHeader</strong></li> <li><strong>HcCompressionDirectory</strong></li> <li><strong>HcDoDiskSpaceLimiting</strong></li> <li><strong>HcExpiresHeader</strong></li> <li><strong>HcMaxDiskSpaceUsage</strong></li> <li><strong>HcMinFileSizeForComp</strong></li> <li><strong>HcNoCompressionForHttp10</strong></li> <li><strong>HcNoCompressionForProxies</strong></li> <li><strong>HcNoCompressionForRange</strong></li> <li><strong>HcSendCacheHeaders</strong> </li></ul> |
 
