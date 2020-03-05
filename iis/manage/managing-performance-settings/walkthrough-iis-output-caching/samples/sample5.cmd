@@ -1,4 +1,4 @@
-%windir%\system32\inetsrv\appcmd set config /section:system.web.Server/handlers 
+%windir%\system32\inetsrv\appcmd set config /section:system.webServer/handlers 
 
     /+[name='imageCopyrightHandler-Integrated',path='*.jpg',
 
