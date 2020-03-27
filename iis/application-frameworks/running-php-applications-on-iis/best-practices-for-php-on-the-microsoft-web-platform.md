@@ -7,13 +7,13 @@ ms.assetid: 75b33d8e-3c3e-472e-9973-b41ced1a7ebb
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform
 msc.type: authoredcontent
 ---
-Best Practices for PHP on the Microsoft Web Platform
-====================
+# Best Practices for PHP on the Microsoft Web Platform
+
 by Tali Smith
 
 ## Introduction
 
-There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for your Web workloads and PHP applications. These procedures can be generally be performed from the UI by running Appcmd.exe commands in a command-line window and editing configuration files directly or by writing Windows® Management Instrumentation (WMI) scripts.
+There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for your Web workloads and PHP applications. These procedures can be generally be performed from the UI by running Appcmd.exe commands in a command-line window and editing configuration files directly or by writing Windows&reg; Management Instrumentation (WMI) scripts.
 
 ## Configure PHP Process Recycling Behavior
 
@@ -281,9 +281,7 @@ IIS uses the Request Filtering module to limit browser access to files or direct
 
 An example of how to use request filtering to block access to certain types of files, such as include or log files, follows:
 
-
 [!code-xml[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample9.xml)]
-
 
 ## IIS 6.0 and 5.1
 
@@ -292,7 +290,7 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 ## Links for Further Information
 
 - [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/library/cc770381(WS.10).aspx).
-- [Windows Server Performance Team Blog](http://blogs.technet.com/winserverperformance/archive/2008/07/25/tuning-windows-server-2008-for-php.aspx)
+- [Windows Server Performance Team Blog](https://docs.microsoft.com/archive/blogs/winserverperformance/tuning-windows-server-2008-for-php)
 - [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/magazine/2008.09.iis.aspx).
 - [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/library/cc754631.aspx).
 - [IIS 7.0 Bit Rate Throttling Module Released](https://weblogs.asp.net/scottgu/archive/2008/03/18/iis-7-0-bit-rate-throttling-module-released.aspx)

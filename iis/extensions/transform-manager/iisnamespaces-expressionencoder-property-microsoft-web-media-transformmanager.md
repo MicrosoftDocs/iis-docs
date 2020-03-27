@@ -39,7 +39,7 @@ Gets the URI of an expression encoder schema document.
 ```vb
 'Declaration
 
-  Public Shared ReadOnly Property ExpressionEncoder As XNamespace
+Public Shared ReadOnly Property ExpressionEncoder As XNamespace
     Get
 'Usage
 
@@ -49,28 +49,28 @@ value = IisNamespaces.ExpressionEncoder
 ```
 
 ```csharp
-  public static XNamespace ExpressionEncoder { get; }
+public static XNamespace ExpressionEncoder { get; }
 ```
 
 ```cpp
-  public:
+public:
 static property XNamespace^ ExpressionEncoder {
     XNamespace^ get ();
 }
 ```
 
 ``` fsharp
-  static member ExpressionEncoder : XNamespace
+static member ExpressionEncoder : XNamespace
 ```
 
 ```jscript
-  static function get ExpressionEncoder () : XNamespace
+static function get ExpressionEncoder () : XNamespace
 ```
 
 ### Property Value
 
-Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
-The XML namespace value "http://schemas.microsoft.com/Expression/Encoder/V4\#".  
+Type: <xref:System.Xml.Linq.XNamespace?displayProperty=nameWithType>
+The XML namespace value `http://schemas.microsoft.com/Expression/Encoder/V4\#`.  
 
 ## See Also
 
@@ -79,4 +79,3 @@ The XML namespace value "http://schemas.microsoft.com/Expression/Encoder/V4\#".
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

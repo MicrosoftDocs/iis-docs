@@ -1,6 +1,5 @@
 ---
 title: "Creating End-to-End Smooth Streaming Video Solutions with IIS Media Services"
-author: Microsoft
 description: "This video is from the 'Creating End-to-End Smooth Streaming Video Solutions With Silverlight and IIS Media Services' pre-conference workshop conducted by Ch..."
 ms.date: 07/09/2010
 ms.assetid: 5b546f89-c55a-4e69-bddc-b33e1b4f8a15

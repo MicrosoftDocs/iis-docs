@@ -97,101 +97,107 @@ A custom task must provide a task definition XML file that includes the followin
 
 The following example shows the task-definition XML for a custom type to be loaded by the Task Engine. The example includes a type element under the taskCode element.
 
-    <taskDefinition xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#">
-      <name>Expression Encoder 4</name>
-      <id>A72D7A5D-3022-45f2-89B4-1DDC5457CC12</id>
-      <properties namespace="http://schemas.microsoft.com/Expression/Encoder/V4#" prefix="ee">
-        <property name="preset" required="true" value="%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Presets\VC-1 IIS Smooth Streaming - 720p CBR.xml"  helpText="The path to a valid encoding preset file that is exported from Microsoft Expression Encoder 4. A preset is a combination of encoding options and playback options that you can quickly apply to the content to be encoded."/>
-        <property name="createSubdirectory" value="false" helpText="Enables output of the encoded Smooth Streams to a folder that uses the naming convention MACHINENAME DATE TIME."/>
-        <property name="templateName" required="true" value="Standard" helpText="The name of the Microsoft Silverlight player template (for example, Standard) that is included with the transcoded output. The template specifies a particular skin (a stylized design that includes playback elements) that encases the encoded video."/>
-        <property name="templatePath" required="true" value="%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard" helpText="The templateName directory path."/>
-      </properties>
-      <description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See https://go.microsoft.com/fwlink/?LinkID=186385.</description>
-      <inputFolder></inputFolder>
-      <outputFolder>EE4Output</outputFolder>
-      <taskCode>
-        <type architecture="x86" >Microsoft.Web.Media.TransformManager.EETask, Microsoft.Web.Media.TransformManager.EETask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</type>
-      </taskCode>
-      <configurationMessages>
-        <configurationMessage regKeyNotFound="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Expression\Encoder\4.0" severity="Error" xml:lang="en">This task requires a licensed version of Microsoft Expression Encoder 4.0.</configurationMessage>
-      </configurationMessages>
-    </taskDefinition>
+```xml
+<taskDefinition xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#">
+  <name>Expression Encoder 4</name>
+  <id>A72D7A5D-3022-45f2-89B4-1DDC5457CC12</id>
+  <properties namespace="http://schemas.microsoft.com/Expression/Encoder/V4#" prefix="ee">
+    <property name="preset" required="true" value="%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Presets\VC-1 IIS Smooth Streaming - 720p CBR.xml"  helpText="The path to a valid encoding preset file that is exported from Microsoft Expression Encoder 4. A preset is a combination of encoding options and playback options that you can quickly apply to the content to be encoded."/>
+    <property name="createSubdirectory" value="false" helpText="Enables output of the encoded Smooth Streams to a folder that uses the naming convention MACHINENAME DATE TIME."/>
+    <property name="templateName" required="true" value="Standard" helpText="The name of the Microsoft Silverlight player template (for example, Standard) that is included with the transcoded output. The template specifies a particular skin (a stylized design that includes playback elements) that encases the encoded video."/>
+    <property name="templatePath" required="true" value="%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard" helpText="The templateName directory path."/>
+  </properties>
+  <description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See https://go.microsoft.com/fwlink/?LinkID=186385.</description>
+  <inputFolder></inputFolder>
+  <outputFolder>EE4Output</outputFolder>
+  <taskCode>
+    <type architecture="x86" >Microsoft.Web.Media.TransformManager.EETask, Microsoft.Web.Media.TransformManager.EETask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</type>
+  </taskCode>
+  <configurationMessages>
+    <configurationMessage regKeyNotFound="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Expression\Encoder\4.0" severity="Error" xml:lang="en">This task requires a licensed version of Microsoft Expression Encoder 4.0.</configurationMessage>
+  </configurationMessages>
+</taskDefinition>
+```
 
 The following example shows the task-definition XML for a custom program task that uses the executable element.
 
-    <taskDefinition xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#
-           D:\oob\projects\mediapack\XFormFramework\Schemas\TaskDefinition.xsd">
-        <id>A72D7A5D-3322-45f2-89B4-1FEC5457CC13</id>
-        <name>Test Task</name>
-        <description xml:lang="en">Used for validating manifest construction.</description>
-        <inputFolder/>
-        <outputFolder>Custom</outputFolder>
-        <taskCode>
-            <commandLine>"C:\Program Files\IIS\Transform Manager\bin\Task1.exe" {UserManifest} {FileName}.*** -log "c:\logfile"</commandLine>
-        </taskCode>
-    </taskDefinition>
+```xml
+<taskDefinition xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#
+        D:\oob\projects\mediapack\XFormFramework\Schemas\TaskDefinition.xsd">
+    <id>A72D7A5D-3322-45f2-89B4-1FEC5457CC13</id>
+    <name>Test Task</name>
+    <description xml:lang="en">Used for validating manifest construction.</description>
+    <inputFolder/>
+    <outputFolder>Custom</outputFolder>
+    <taskCode>
+        <commandLine>"C:\Program Files\IIS\Transform Manager\bin\Task1.exe" {UserManifest} {FileName}.*** -log "c:\logfile"</commandLine>
+    </taskCode>
+</taskDefinition>
+```
 
 When properties are defined for a task, their default values are put into the iisms:task RDF metadata in the SMIL manifest for the job. Each task in a job will have its own iisms:task object description with a set of custom predicates that use the namespace and prefix defined using the properties element in the task definition. The [IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.md) interface can be used to read and write these custom predicates in the task's manifest metadata.
 
 The following example shows a SMIL manifest that is created for a job. It contains the properties that are defined for a task in the RDF metadata. The property values are defined in the job template and might override properties specified in the task definition XML file. A task that implements the [ITask](itask-interface-microsoft-web-media-transformmanager.md) interface can update these predicates or add additional ones that are not already defined by using the [SetProperty(IManifestProperty)](ijobmetadata-setproperty-method-microsoft-web-media-transformmanager.md) method.
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <smil xmlns="http://www.w3.org/2001/SMIL20/Language">
-      <head>
-        <metadata>
-          <rdf:RDF xmlns:iisms="http://schemas.microsoft.com/iis/media/v4/TM#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-            <iisms:job>
-              <iisms:instanceId>20110419141912_A17929ADEFD84519B6C98A794419DFAE</iisms:instanceId>
-              <iisms:jobDefinitionId>370CA5AF-92AC-4B5A-97BB-8705E9BD535F</iisms:jobDefinitionId>
-              <iisms:jobTemplateId>FA0EC20C-3DC3-4F8A-B224-1EDF16CC2CB5</iisms:jobTemplateId>
-              <iisms:instanceFileName>small.wmv</iisms:instanceFileName>
-              <iisms:instanceFileIsManifest>False</iisms:instanceFileIsManifest>
-              <iisms:priority>3</iisms:priority>
-              <iisms:jobStatus>Finished</iisms:jobStatus>
-              <iisms:taskIndex>1</iisms:taskIndex>
-              <iisms:folder>C:\inetpub\media\Transform Manager\Smooth (VC1)\</iisms:folder>
-              <iisms:hasScheduler>
-                <iisms:scheduler rdf:about="guid:00000000-0000-0000-0000-000000000000">
-                  <iisms:id>00000000-0000-0000-0000-000000000000</iisms:id>
-                  <iisms:name>Local Task Scheduler</iisms:name>
-                  <iisms:schedulerType>Local</iisms:schedulerType>
-                  <iisms:connectionString>localhost</iisms:connectionString>
-                </iisms:scheduler>
-              </iisms:hasScheduler>
-              <iisms:jobName />
-              <iisms:logLevel>Information</iisms:logLevel>
-            </iisms:job>
-            <iisms:task rdf:about="guid:A72D7A5D-3022-45f2-89B4-1DDC5457CC12" xmlns:ee="http://schemas.microsoft.com/Expression/Encoder/V4#">
-              <iisms:id>A72D7A5D-3022-45f2-89B4-1DDC5457CC12</iisms:id>
-              <iisms:logLevel>Information</iisms:logLevel>
-              <iisms:outputFolder>EE4Output</iisms:outputFolder>
-              <ee:preset>%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Presets\VC-1 IIS Smooth Streaming - 720p CBR.xml</ee:preset>
-              <ee:createSubdirectory>false</ee:createSubdirectory>
-              <ee:templateName>Standard</ee:templateName>
-              <ee:templatePath>%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard</ee:templatePath>
-              <iisms:taskCode>Microsoft.Web.Media.TransformManager.EETask, Microsoft.Web.Media.TransformManager.EETask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</iisms:taskCode>
-              <iisms:hasCommandLine>
-                <iisms:commandLine>
-                  <iisms:program>C:\Program Files (x86)\IIS\Transform Manager\TaskEngine.exe</iisms:program>
-                  <iisms:arguments> /taskIndex 1 /manifest 20110419141912_A17929ADEFD84519B6C98A794419DFAE.smil</iisms:arguments>
-                </iisms:commandLine>
-              </iisms:hasCommandLine>
-              <iisms:name>Expression Encoder 4</iisms:name>
-              <iisms:description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See https://go.microsoft.com/fwlink/?LinkID=186385.</iisms:description>
-              <iisms:inputFolder></iisms:inputFolder>
-              <iisms:configurationMessages>This task requires a licensed version of Microsoft Expression Encoder 4.0.<configurationMessage regKeyNotFound="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Expression\Encoder\4.0" severity="Error" xml:lang="en" xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#">This task requires a licensed version of Microsoft Expression Encoder 4.0.</configurationMessage></iisms:configurationMessages>
-            </iisms:task>
-          </rdf:RDF>
-        </metadata>
-      </head>
-      <body>
-        <seq>
-          <ref src="C:\inetpub\media\Transform Manager\Smooth (VC1)\WorkQueue\Running\20110419141912_A17929ADEFD84519B6C98A794419DFAE\small.wmv"  />
-        </seq>
-      </body>
-    </smil>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+  <head>
+    <metadata>
+      <rdf:RDF xmlns:iisms="http://schemas.microsoft.com/iis/media/v4/TM#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+        <iisms:job>
+          <iisms:instanceId>20110419141912_A17929ADEFD84519B6C98A794419DFAE</iisms:instanceId>
+          <iisms:jobDefinitionId>370CA5AF-92AC-4B5A-97BB-8705E9BD535F</iisms:jobDefinitionId>
+          <iisms:jobTemplateId>FA0EC20C-3DC3-4F8A-B224-1EDF16CC2CB5</iisms:jobTemplateId>
+          <iisms:instanceFileName>small.wmv</iisms:instanceFileName>
+          <iisms:instanceFileIsManifest>False</iisms:instanceFileIsManifest>
+          <iisms:priority>3</iisms:priority>
+          <iisms:jobStatus>Finished</iisms:jobStatus>
+          <iisms:taskIndex>1</iisms:taskIndex>
+          <iisms:folder>C:\inetpub\media\Transform Manager\Smooth (VC1)\</iisms:folder>
+          <iisms:hasScheduler>
+            <iisms:scheduler rdf:about="guid:00000000-0000-0000-0000-000000000000">
+              <iisms:id>00000000-0000-0000-0000-000000000000</iisms:id>
+              <iisms:name>Local Task Scheduler</iisms:name>
+              <iisms:schedulerType>Local</iisms:schedulerType>
+              <iisms:connectionString>localhost</iisms:connectionString>
+            </iisms:scheduler>
+          </iisms:hasScheduler>
+          <iisms:jobName />
+          <iisms:logLevel>Information</iisms:logLevel>
+        </iisms:job>
+        <iisms:task rdf:about="guid:A72D7A5D-3022-45f2-89B4-1DDC5457CC12" xmlns:ee="http://schemas.microsoft.com/Expression/Encoder/V4#">
+          <iisms:id>A72D7A5D-3022-45f2-89B4-1DDC5457CC12</iisms:id>
+          <iisms:logLevel>Information</iisms:logLevel>
+          <iisms:outputFolder>EE4Output</iisms:outputFolder>
+          <ee:preset>%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Presets\VC-1 IIS Smooth Streaming - 720p CBR.xml</ee:preset>
+          <ee:createSubdirectory>false</ee:createSubdirectory>
+          <ee:templateName>Standard</ee:templateName>
+          <ee:templatePath>%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard</ee:templatePath>
+          <iisms:taskCode>Microsoft.Web.Media.TransformManager.EETask, Microsoft.Web.Media.TransformManager.EETask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</iisms:taskCode>
+          <iisms:hasCommandLine>
+            <iisms:commandLine>
+              <iisms:program>C:\Program Files (x86)\IIS\Transform Manager\TaskEngine.exe</iisms:program>
+              <iisms:arguments> /taskIndex 1 /manifest 20110419141912_A17929ADEFD84519B6C98A794419DFAE.smil</iisms:arguments>
+            </iisms:commandLine>
+          </iisms:hasCommandLine>
+          <iisms:name>Expression Encoder 4</iisms:name>
+          <iisms:description xml:lang="en">Invokes Expression Encoder 4 to encode media files to Smooth Streams. Microsoft Expression Encoder 4 must be installed to use this task (H.264/AAC-LC encoding requires Expression Encoder 4 Pro). See https://go.microsoft.com/fwlink/?LinkID=186385.</iisms:description>
+          <iisms:inputFolder></iisms:inputFolder>
+          <iisms:configurationMessages>This task requires a licensed version of Microsoft Expression Encoder 4.0.<configurationMessage regKeyNotFound="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Expression\Encoder\4.0" severity="Error" xml:lang="en" xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#">This task requires a licensed version of Microsoft Expression Encoder 4.0.</configurationMessage></iisms:configurationMessages>
+        </iisms:task>
+      </rdf:RDF>
+    </metadata>
+  </head>
+  <body>
+    <seq>
+      <ref src="C:\inetpub\media\Transform Manager\Smooth (VC1)\WorkQueue\Running\20110419141912_A17929ADEFD84519B6C98A794419DFAE\small.wmv"  />
+    </seq>
+  </body>
+</smil>
+```
 
 ## See Also
 
@@ -206,4 +212,3 @@ The following example shows a SMIL manifest that is created for a job. It contai
 [Transform Manager Knowledge Base](https://go.microsoft.com/fwlink/?linkid=191301)
 
 [IIS Transform Manager (IIS.net)](https://go.microsoft.com/fwlink/?linkid=194958)
-
