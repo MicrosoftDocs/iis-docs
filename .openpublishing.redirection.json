@@ -107,7 +107,7 @@
     },
     {
       "source_path": "iis/extensions/database-manager-reference/index.md",
-      "redirect_url": "iis-database-manager",
+      "redirect_url": "/iis/extensions/database-manager-reference/iis-database-manager",
       "redirect_document_id": false
     },
     {
