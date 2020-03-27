@@ -7,18 +7,16 @@ ms.assetid: 85331f22-aa25-4837-a6b7-cecdc5400012
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/introducing-iis-on-nano-server
 msc.type: authoredcontent
 ---
-Introducing IIS on Nano Server
-====================
+# Introducing IIS on Nano Server
+
 by [David So](https://github.com/davidso)
 
-### Compatibility
-
+## Compatibility
 
 | Version | Notes |
 | --- | --- |
 | IIS 10.0 | The features described in this article were introduced in IIS 10.0 |
 | IIS 8.5 and earlier | The features described in this article were not supported prior to IIS 10.0 |
-
 
 ## Nano Server
 
@@ -30,11 +28,6 @@ Here's a quote from the [Get Started with Nano Server Guide](https://technet.mic
 
 So Nano is much smaller on disk. Faster. Less reboots. Uses less memory. What's not to like? :)
 
-Here are some good blogs from the Windows Server team that talk about Nano Server.
-
-- [http://blogs.technet.com/b/windowsserver/archive/2015/11/19/designing-windows-server-in-the-cloud-first-world.aspx](http://blogs.technet.com/b/windowsserver/archive/2015/11/19/designing-windows-server-in-the-cloud-first-world.aspx)
-- [http://blogs.technet.com/b/windowsserver/archive/2015/11/16/moving-to-nano-server-the-new-deployment-option-in-windows-server-2016.aspx](http://blogs.technet.com/b/windowsserver/archive/2015/11/16/moving-to-nano-server-the-new-deployment-option-in-windows-server-2016.aspx)
-
 ## IIS on Nano Server
 
 With the release of Windows Server 2016, we are pleased to announce that IIS is now available as a role in Nano Server, for everyone to try out. With smaller memory and dramatically smaller disk footprint, web workloads are particularly suited to running on Nano Server, especially for high density hosting.
@@ -44,7 +37,7 @@ With the release of Windows Server 2016, we are pleased to announce that IIS is 
 - Start with the '[Getting Started with Nano Server](https://technet.microsoft.com/library/mt126167.aspx)' steps
 - The IIS Nano documentation can be found at [https://technet.microsoft.com/library/mt627783.aspx](https://technet.microsoft.com/library/mt627783.aspx)
 
-    - You can also get to it via the tree menu on the left hand side of the 'Getting started with Nano Server'
+  - You can also get to it via the tree menu on the left hand side of the 'Getting started with Nano Server'
 - The specifics of how to install IIS on Nano can be found in the link above.
 
 But essentially, the most common way of creating a Nano Server vhd(x) is via the New-NanoServerImage cmdlet.
@@ -74,7 +67,7 @@ When using New-NanoServerImage to create a vhd(x) with Microsoft-NanoServer-IIS-
 - IIS Services installed (e.g. WAS, W3SVC)
 - A default set of IIS sub-features enabled, such as Default Document, Static content, HTTP logging etc. 
 
-    - Refer to [chart](https://technet.microsoft.com/library/mt627783.aspx) for which sub-features are enabled by default.
+  - Refer to [chart](https://technet.microsoft.com/library/mt627783.aspx) for which sub-features are enabled by default.
 - Firewall rule enabled for default 80/443 ports
 
 It becomes extremely fast to provision new web server machines when using the generated vhd(x) image that has IIS already baked-in. On my office desktop machine, I was able to create new VMs, do offline specialization, boot up and be serving web requests all in about 25 seconds. Trying to do the same with Server Core would've taken many times that.
@@ -93,25 +86,25 @@ The chart there also shows the available IIS sub-features in Nano as of the late
 
 ### Supported Frameworks
 
-#### Asp.Net Core:
+#### ASP.NET Core
 
 The most notable difference between Nano and regular Server is that Nano targets Asp.Net Core (formerly known as Asp.Net 5). Classic Asp will not run on Nano and neither will full .Net Framework applications such as Asp.Net &lt;=4.
 
 Here's my [blog posting on how to get an Asp.Net Core application running with IIS on Nano](https://blogs.iis.net/davidso/nano/aspnet).
 
-#### Java:
+#### Java
 
 Java applications can be hosted on IIS via [HttpPlatformHandler](https://www.iis.net/downloads/microsoft/httpplatformhandler).
 
 My co-worker Jeong Hwan has a blog post here on [how to get Java working with IIS on Nano](https://blogs.iis.net/jeonghwan/running-tomcat-with-iis-on-nano-server)
 
-#### PHP:
+#### PHP
 
 PHP on IIS runs the same on Nano the same as on regular server (e.g. through FastCgi).
 
 Here's a blog post from Jeong Hwan on [how to get a PHP (WordPress) application running on Nano with WinCache and IIS](https://blogs.iis.net/jeonghwan/running-wordpress-with-iis-and-wincache-on-nano-server).
 
-#### Others:
+#### Others
 
 Supporting Asp.Net Core, Java and PHP on IIS Nano is a great start though we do have plans to get additional platforms supported. The [HttpPlatformHandler](https://www.iis.net/downloads/microsoft/httpplatformhandler) is a general purpose module for managing and sending requests to http listeners, so there could well be more platforms that can run well on Nano that we haven't tested and so haven't listed.
 

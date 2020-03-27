@@ -1,6 +1,6 @@
 ---
 title: "Web Deploy Automatic Backups"
-author: Tuesdaysgreen
+author: ehamai
 description: "Introduction In V3, Web Deploy is introducing an automatic server-side backup feature for IIS 7 and above. When automatic backups are configured on the serve..."
 ms.date: 04/19/2012
 ms.assetid: 6bbe7192-bb26-462a-9935-71a9a7d35682
@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 Web Deploy Automatic Backups
 ====================
-by [Elliott Hamai](https://github.com/Tuesdaysgreen)
+by [Elliott Hamai](https://github.com/ehamai)
 
 ## Introduction
 
