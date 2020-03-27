@@ -1,6 +1,5 @@
 ---
 title: "Running IIS Express without Administrative Privileges"
-author: vaidy4github
 description: "IIS Express was designed to allow the most common web development and testing tasks to be performed without administrative privileges. This is very helpful i..."
 ms.date: 01/11/2011
 ms.assetid: 5de2e3e1-779a-40cf-a346-ae62f3c7d3ef
@@ -9,7 +8,7 @@ msc.type: authoredcontent
 ---
 # Running IIS Express without Administrative Privileges
 
-by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
+by Vaidy Gopalakrishnan
 
 IIS Express was designed to allow the most common web development and testing tasks to be performed without administrative privileges. This is very helpful in scenarios where developers are not running with administrative rights on their computers. Even for administrative users, this feature eliminates the User Account Control (UAC) popup window in Windows Vista and Windows 7 from interrupting workflow.
 

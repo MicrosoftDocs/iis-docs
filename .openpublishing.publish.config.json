@@ -31,7 +31,9 @@
       "build_source_folder": "iis",
       "build_output_subfolder": "IIS",
       "locale": "en-us",
-      "xref_query_tags": ["/dotnet"],
+      "xref_query_tags": [
+        "/dotnet"
+      ],
       "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
@@ -57,5 +59,8 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master"
     }
-  ]
+  ],
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }

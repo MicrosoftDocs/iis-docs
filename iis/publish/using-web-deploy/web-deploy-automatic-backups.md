@@ -1,15 +1,15 @@
 ---
 title: "Web Deploy Automatic Backups"
-author: Tuesdaysgreen
+author: ehamai
 description: "Introduction In V3, Web Deploy is introducing an automatic server-side backup feature for IIS 7 and above. When automatic backups are configured on the serve..."
 ms.date: 04/19/2012
 ms.assetid: 6bbe7192-bb26-462a-9935-71a9a7d35682
 msc.legacyurl: /learn/publish/using-web-deploy/web-deploy-automatic-backups
 msc.type: authoredcontent
 ---
-Web Deploy Automatic Backups
-====================
-by [Elliott Hamai](https://github.com/Tuesdaysgreen)
+# Web Deploy Automatic Backups
+
+by [Elliott Hamai](https://github.com/ehamai)
 
 ## Introduction
 
@@ -51,13 +51,13 @@ This will load the following functions into the session that you can use to conf
 4. **Get-BackupSettings**: Queries server or site-specific backup settings
 5. **Reset-BackupSettings**: Resets server or site-specific backup settings
 
-**TurnOn-Backups Function:** 
+**TurnOn-Backups Function:**
 
 Allows a server administrator to turn backups on or off at a *SERVER* scope, without overwritting site specific settings. By default, backups are turned off. Even after turning backups on, backups must still be "enabled" at the server or site level in order for backups to be taken.
 
 [!code-powershell[Main](web-deploy-automatic-backups/samples/sample3.ps1)]
 
-**Configure-Backups:** 
+**Configure-Backups:**
 
 Allows a server administrator to configure the default backup behavior at the *SERVER* or *SITE* specific scope. If an administrator specifies a setting at the server scope and a site has already specified a site specific setting, Web Deploy will prefer the site specific settings over the server settings. If a server administrator would like for the server settings to take preference, he/she should reset the site backup settings which would cause the site to automatically inherit its settings from the server.
 
@@ -88,15 +88,14 @@ Resets the server or a sites backup settings. If you reset a sites backup settin
 The following global backup settings may be configured directly in the IIS Configuration system under `%windir%\system32\inetsrv\config\applicationhost.config`.
 
 - **enabled** - (Default = "false") Controls whether backups are turned on or not.
-- **backupPath** - (Default = "{sitePathParent}\{siteName}\_snapshots") Where on the server a backups will be stored. It also upports path replacement variables for "{sitePathParent}" and "{siteName}" which are determined at run-time. 
+- **backupPath** - (Default = "{sitePathParent}\{siteName}\_snapshots") Where on the server a backups will be stored. It also upports path replacement variables for "{sitePathParent}" and "{siteName}" which are determined at run-time.
 
-    - sitePathParent - The physical file path of the parent of your sites content. For example, if your site's application lives under `c:\inetpub\wwwroot\siteName`, then sitePathParent would be `c:\inetpub\wwwroot\`.
-    - siteName - The name of your site.
+  - sitePathParent - The physical file path of the parent of your sites content. For example, if your site's application lives under `c:\inetpub\wwwroot\siteName`, then sitePathParent would be `c:\inetpub\wwwroot\`.
+  - siteName - The name of your site.
 
 > **Example**: The default schema sets this path to "{sitePathParent}\{siteName}\_snapshots" so that each backup will be placed under a sibling folder of your site content instead of within it.
-> 
+>
 > **WARNING:** Make sure that your backupPath does not live under your sites content path or your backups will be deleted on each publish.
-
 
 - **numberOfBackups** - (Default = "4") The number of backups per site that will be stored on the server. When the maximum number of backups has been created, the oldest backup will be deleted.
 - **continueSyncOnBackupFailure** - (Default = "true") Allows users to either fail a sync or continue a sync if a backup fails to complete for any reason.
@@ -104,7 +103,7 @@ The following global backup settings may be configured directly in the IIS Confi
 
 > [!NOTE]
 > Although Web Deploy will technically allow you to backup almost every provider, there are some providers which cannot be restored in a meaningful way because of the nature of those providers. Basically any providers which are "set-only" providers and not "synchronization" providers fall into this category. Here is a list of built-in providers that are recommended to be added to the ExcludedProviders setting:
-> 
+>
 > - appHostAuthOverride
 > - appPoolEnable32Bit
 > - appPoolNetFx
@@ -112,7 +111,6 @@ The following global backup settings may be configured directly in the IIS Confi
 > - createApp
 > - setAcl
 > - DBSqlPackage (Not installed by default with Web Deploy but is listed here because it is not currently supported with the backup feature)
-
 
 - **backupSettingsProvider** - (Default: All attribute settings are "false") Gives a system administrator control over which backup settings can be set by a web site administrator. You can allow web site administrators to control any of the above settings "enabled", "numberOfBackups", "continueOnBackupFailure", and "excludedProviders" for their site. This can be done by setting properties "canSetEnabled", "canSetNumberOfBackups" etc to true as specified in following example.
 
@@ -123,7 +121,6 @@ Below is a sample configuration that can be added under `<system.webServer>` (se
 [!code-xml[Main](web-deploy-automatic-backups/samples/sample8.xml)]
 
 > Let us say that we have a site named "foo" that lives under `c:\foo\wwwroot` on the server. The configuration above tells Web Deploy to:
-
 
 1. Turn on the Backup featureKeep a maximum of 2 backups.
 2. Store each backup in a folder under `c:\foo\foo\_siteBackups`.
@@ -147,13 +144,11 @@ If you do not want to use the end users identity to create their backups, you ca
 
 > [!NOTE]
 >  
-> 
 > - Delegation rules only apply for non-administrative users connecting through WMSvc. For administrators (connecting through Web Deploy agent), their own identity is used.
 > - If you want to configure delegation rules manually, [run our AddDelegationRules.ps1 script](powershell-scripts-for-automating-web-deploy-setup.md).
 > - The Backup feature comes with 2 new provider delegation rules (BackupSettings and BackupManager) as shown below.
-> 
+>
 > [![](web-deploy-automatic-backups/_static/image3.png)](web-deploy-automatic-backups/_static/image2.png)
-
 
 ## Configuring Site-Level Backup Settings on the Server (For Site/server Administrators)
 
@@ -193,10 +188,10 @@ When a user publishes to a backup-enabled server using one of the supported prov
 
 A user may manually force a backup to be created by using the BackupManager provider, so long as backups are configured and enabled for the site being published to. There are two methods of creating a manual backup.
 
-1. Specifying a destination site path - This will take a simple iisApp backup of your destination site. 
+1. Specifying a destination site path - This will take a simple iisApp backup of your destination site.
 
     [!code-console[Main](web-deploy-automatic-backups/samples/sample14.cmd)]
-2. Specifying a source manifest file - This will allow you to take a backup of multiple providers (i.e. iisApp, dbFullSql, etc...) 
+2. Specifying a source manifest file - This will allow you to take a backup of multiple providers (i.e. iisApp, dbFullSql, etc.)
 
     [!code-console[Main](web-deploy-automatic-backups/samples/sample15.cmd)]
 
@@ -222,7 +217,7 @@ The BackupManager provider offers clients the ability to list, restore, and dele
 
 [!code-console[Main](web-deploy-automatic-backups/samples/sample19.cmd)]
 
-**Restore the Latest Backup for a Site:** 
+**Restore the Latest Backup for a Site:**
 
 [!code-console[Main](web-deploy-automatic-backups/samples/sample20.cmd)]
 
@@ -230,11 +225,11 @@ The BackupManager provider offers clients the ability to list, restore, and dele
 
 [!code-console[Main](web-deploy-automatic-backups/samples/sample21.cmd)]
 
-**Restore the Latest Backup for a Site without Overwriting App\_Data by using Skips:** 
+**Restore the Latest Backup for a Site without Overwriting App\_Data by using Skips:**
 
 [!code-console[Main](web-deploy-automatic-backups/samples/sample22.cmd)]
 
-**Delete a Backup for a Site:** 
+**Delete a Backup for a Site:**
 
 [!code-console[Main](web-deploy-automatic-backups/samples/sample23.cmd)]
 

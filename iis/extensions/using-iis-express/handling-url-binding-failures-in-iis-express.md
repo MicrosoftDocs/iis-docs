@@ -1,6 +1,5 @@
 ---
 title: "Handling URL Binding Failures in IIS Express"
-author: vaidy4github
 description: "Overview IIS Express was designed to allow the most common web development and testing tasks to be performed without administrative privileges. For example,..."
 ms.date: 01/12/2011
 ms.assetid: d810838e-8656-42dd-bc86-a636a0340561
@@ -9,7 +8,7 @@ msc.type: authoredcontent
 ---
 # Handling URL Binding Failures in IIS Express
 
-by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
+by Vaidy Gopalakrishnan
 
 ## Overview
 

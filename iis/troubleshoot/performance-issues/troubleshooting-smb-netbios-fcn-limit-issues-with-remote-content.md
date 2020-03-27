@@ -7,11 +7,11 @@ ms.assetid: db45d74e-0265-4936-aec6-c71966f7d987
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content
 msc.type: authoredcontent
 ---
-Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content
-====================
+# Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content
+
 by Richard Marr
 
-#### Tools Used in this Troubleshooter:
+## Tools Used in this Troubleshooter
 
 - Network Monitor
 
@@ -95,4 +95,4 @@ ASP.NET Content
 - [Microsoft SMB Protocol and CIFS Protocol Overview](https://msdn.microsoft.com/library/aa365233(v=VS.85).aspx)
 - [UNC-based Caching Considerations](https://technet.microsoft.com/library/cc778350(WS.10).aspx)
 - [IIS and File Server Configuration Scenarios for SMB Scaling (IIS 6.0)](https://technet.microsoft.com/library/dd296655(WS.10).aspx)
-- [Two Minute Drill: Overview of SMB 2.0](http://blogs.technet.com/b/askperf/archive/2008/05/30/two-minute-drill-overview-of-smb-2-0.aspx)
+- [Two Minute Drill: Overview of SMB 2.0](https://techcommunity.microsoft.com/t5/ask-the-performance-team/two-minute-drill-overview-of-smb-2-0/ba-p/373098)
