@@ -34,7 +34,7 @@ public:
 
         // Specify which notifications to disable.
         // (Defined in the Httpserv.h file.)
-        pHttpContext->DisableNotifications(0,RQ_BEGIN_REQUEST);
+        pHttpContext->DisableNotifications(RQ_BEGIN_REQUEST, 0);
 
         // Return processing to the pipeline.
         return RQ_NOTIFICATION_CONTINUE;

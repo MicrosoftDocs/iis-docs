@@ -1,15 +1,15 @@
 ---
 title: "Changing authentication mode for a given website"
-author: Tuesdaysgreen
+author: ehamai
 description: "This is a new Web Deploy provider which will provide support for changing authentication mode for a given website. Many a times in enterprise environments ap..."
 ms.date: 07/26/2012
 ms.assetid: e8edd332-702e-4de9-b839-28ff2ddf0739
 msc.legacyurl: /learn/publish/using-web-deploy/changing-authentication-mode-for-a-given-website
 msc.type: authoredcontent
 ---
-Changing authentication mode for a given website
-====================
-by [Elliott Hamai](https://github.com/Tuesdaysgreen)
+# Changing authentication mode for a given website
+
+by [Elliott Hamai](https://github.com/ehamai)
 
 ## ApphostAuthOverride Provider
 
@@ -19,20 +19,20 @@ This is a new Web Deploy provider which will provide support for changing authen
 
 Here is a few command line examples of how this could be done *(msdeploy.exe is located under `%programfiles%\IIS\Microsoft Web Deploy V3`)*:
 
-· **Allow Windows Authentication on Destination at site = SiteName:** 
+· **Allow Windows Authentication on Destination at site = SiteName:**
 
 [!code-console[Main](changing-authentication-mode-for-a-given-website/samples/sample2.cmd)]
 
-· **Allow ASP.Net Forms Authentication on Destination at site = SiteName:** 
+· **Allow ASP.Net Forms Authentication on Destination at site = SiteName:**
 
 [!code-console[Main](changing-authentication-mode-for-a-given-website/samples/sample3.cmd)]
 
-· **Deny Anonymous Authentication on Destination at site = SiteName:** 
+· **Deny Anonymous Authentication on Destination at site = SiteName:**
 
 [!code-console[Main](changing-authentication-mode-for-a-given-website/samples/sample4.cmd)]
 
-· **Reset Windows Authentication Setting on Destination at site = SiteName:** 
+· **Reset Windows Authentication Setting on Destination at site = SiteName:**
 
 [!code-console[Main](changing-authentication-mode-for-a-given-website/samples/sample5.cmd)]
 
-Please note the sytax carefully, both &lt;sitename" and authentication setting are part of -dest:ApphostAuthOverride value.
+Please note the syntax carefully, both &lt;sitename" and authentication setting are part of -dest:ApphostAuthOverride value.

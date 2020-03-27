@@ -1,25 +1,22 @@
 ---
 title: "IIS 8.0 WebSocket Protocol Support"
-author: Microsoft
 description: ""
 ms.date: 11/28/2012
 ms.assetid: c632ce60-1f34-4666-b455-8c13438688f4
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-websocket-protocol-support
 msc.type: authoredcontent
 ---
-IIS 8.0 WebSocket Protocol Support
-====================
+# IIS 8.0 WebSocket Protocol Support
+
 by [Microsoft](https://github.com/Microsoft)
 
 ## Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | The WebSocket Protocol was introduced in IIS 8.0. |
 | IIS 7.5 | The WebSocket Protocol was not supported in IIS 7.5. |
 | IIS 7.0 | The WebSocket Protocol was not supported in IIS 7.0. |
-
 
 <a id="TOC301258515"></a>
 
@@ -73,7 +70,8 @@ If you are using the WebSocket support in socket.io on node.js in your site, you
 IIS 8.0 has added support for WebSocket Protocol, which enables dynamic, two-way communications over the Internet. Additional information can be found on the following URLs:
 
 - **Getting started with WebSockets in Windows 8**  
-    [http://www.paulbatum.com/2011/09/getting-started-with-websockets-in.html](http://www.paulbatum.com/2011/09/getting-started-with-websockets-in.html)
+    <http://www.paulbatum.com/2011/09/getting-started-with-websockets-in.html>
 - **IIS and Websockets**  
-    [https://blogs.iis.net/jennylaw/archive/2012/09/05/iis-and-websockets.aspx](https://blogs.iis.net/jennylaw/archive/2012/09/05/iis-and-websockets.aspx)
-- **System.Net.WebSockets Namespace**[https://msdn.microsoft.com/library/system.net.websockets.aspx](https://msdn.microsoft.com/library/system.net.websockets.aspx)
+    <https://blogs.iis.net/jennylaw/archive/2012/09/05/iis-and-websockets.aspx>
+- **System.Net.WebSockets Namespace**
+    <https://docs.microsoft.com/dotnet/api/system.net.websockets>

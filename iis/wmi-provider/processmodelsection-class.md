@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 84b9d2ef-bd3c-0271-4786-4eba0c08ef62
 ---
 # ProcessModelSection Class
+
 Configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] process model settings on a Web server that is running IIS.  
   
 ## Syntax  
@@ -12,8 +13,9 @@ Configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] pro
 class ProcessModelSection : ConfigurationSection  
 ```  
   
-## Methods  
- The following table lists the methods exposed by the `ProcessModelSection` class.  
+## Methods
+
+The following table lists the methods exposed by the `ProcessModelSection` class.  
   
 |Name|Description|  
 |----------|-----------------|  
@@ -23,8 +25,9 @@ class ProcessModelSection : ConfigurationSection
 |[SetAllowDefinition](../wmi-provider/configurationsection-setallowdefinition-method.md)|(Inherited from `ConfigurationSection`.)|  
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
-## Properties  
- The following table lists the properties exposed by the `ProcessModelSection` class.  
+## Properties
+
+The following table lists the properties exposed by the `ProcessModelSection` class.  
   
 |Name|Description|  
 |----------|-----------------|  
@@ -59,16 +62,18 @@ class ProcessModelSection : ConfigurationSection
 |`UserName`|A read/write `string` value that specifies that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] will run the worker process with a Windows identity that differs from the default process identity. The default is "Machine". By default, the process runs under a user account and password that are created automatically when [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] is installed. The user account is named ASPNET, and the password is cryptographically generated.<br /><br /> If valid credentials are presented in both the `UserName` and `Password` properties, the process is run with the given account. If the `UserName` value is "System" and the `Password` value is "AutoGenerate", the process runs with full administrative permissions for all [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] code that uses the process. **Note:**  The values of this property and the `Password` property are stored in clear text in the configuration file. Although IIS does not transmit .config files in response to a user agent request, configuration files can be read in other ways. For example, an authenticated user who has the required credentials on the domain for the server can read a configuration file. For security reasons, the `ProcessModelSection` class supports storage of encrypted `UserName` and `Password` properties in the registry. For more information, see [processModel Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=62307).|  
 |`WebGarden`|A read/write `boolean` value. `true` if the `CpuMask` property is used to specify which CPUs are qualified to run [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] processes; `false` if only one worker process is run and CPU usage is scheduled by the Windows operating system. The default is `false`. **Note:**  A multiprocessor Web server is called a Web garden.|  
   
-## Subclasses  
- This class contains no subclasses.  
+## Subclasses
+
+This class contains no subclasses.  
   
 ## Remarks  
- The `<processModel>` section can be set only in the Machine.config file and affects all [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications that are running on the server.  
+
+The `<processModel>` section can be set only in the Machine.config file and affects all [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications that are running on the server.  
   
 > [!NOTE]
->  Changes to the `ProcessModelSection` class take effect only when the worker process is restarted, not immediately after the setting is changed.  
+> Changes to the `ProcessModelSection` class take effect only when the worker process is restarted, not immediately after the setting is changed.  
   
- The following table lists the attributes that are automatically configured when the `AutoConfig` property is `true`. For more information, see article 821268, "Contention, poor performance, and deadlocks when you make Web service requests from ASP.NET applications," in the Microsoft Knowledge Base at http://support.microsoft.com.  
+ The following table lists the attributes that are automatically configured when the `AutoConfig` property is `true`. For more information, see article 821268, "Contention, poor performance, and deadlocks when you make Web service requests from ASP.NET applications," in the Microsoft Knowledge Base at <https://support.microsoft.com>.  
   
 |Attribute|Description|  
 |---------------|-----------------|  
@@ -108,12 +113,13 @@ class ProcessModelSection : ConfigurationSection
 |1|`All`|Specifies that all process events are logged.|  
 |2|`Errors`|Specifies that only unexpected shutdowns, memory limit shutdowns, and deadlock shutdowns are logged.|  
   
-## Inheritance Hierarchy  
- [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
+## Inheritance Hierarchy
+
+[ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `ProcessModelSection`  
   
-## Requirements  
+## Requirements
   
 |Type|Description|  
 |----------|-----------------|  
@@ -122,7 +128,8 @@ class ProcessModelSection : ConfigurationSection
 |Product|-   [!INCLUDE[iis70](../wmi-provider/includes/iis70-md.md)], [!INCLUDE[iis75](../wmi-provider/includes/iis75-md.md)], [!INCLUDE[iis80](../wmi-provider/includes/iis80-md.md)], [!INCLUDE[iis85](../wmi-provider/includes/iis85-md.md)], [!INCLUDE[iis100](../wmi-provider/includes/iis100-md.md)]|  
 |MOF file|WebAdministration.mof|  
   
-## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [processModel Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=62307)   
- [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)
+## See Also
+
+- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+- [processModel Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=62307)
+- [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)
