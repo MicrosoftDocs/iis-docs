@@ -60,7 +60,7 @@ Historically and on regular Server, IIS can only be installed online (machine ru
 4. Wait for IIS role to complete
 5. Configure settings - e.g. authentication settings, modules, Asp.Net
 
-With Nano Server, setup can be provisioned offline, therefore dramatically simplifying and speeding up steps 1 thru 4 above.
+With Nano Server, setup can be provisioned offline, therefore dramatically simplifying and speeding up steps 1 through 4 above.
 
 When using New-NanoServerImage to create a vhd(x) with Microsoft-NanoServer-IIS-Package we configure a default working install of IIS
 

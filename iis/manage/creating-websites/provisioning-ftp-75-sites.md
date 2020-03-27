@@ -33,4 +33,4 @@ This [guide](../../publish/using-the-ftp-service/adding-ftp-publishing-to-a-web-
 
 ## Guide to Configuration Files
 
-This [guide](../../publish/using-the-ftp-service/index.md "Administering useing Configuration Files") walks you through creating FTP sites and implementing some common scenarios by directly editing the IIS configuration files.
+This [guide](../../publish/using-the-ftp-service/index.md "Administering using Configuration Files") walks you through creating FTP sites and implementing some common scenarios by directly editing the IIS configuration files.

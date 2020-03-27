@@ -45,7 +45,7 @@ public enum AdaptiveSourceStatusUpdateType
 |BitrateChanged|4|The bitrate changed.|
 |ChunkConnectHttpInvalid|5|http <200 or >=400 response on connect|
 |NextChunkHttpInvalid|6|http <200 or >=400 response on next chunk|
-|ChunkHdrHttpInvalid|7|http <200 or >=400 reponse on chunk hdr|
+|ChunkHdrHttpInvalid|7|http <200 or >=400 response on chunk hdr|
 |ChunkHdrError|8|Chunk header parser error.|
 |EndOfLive|9|Live presentation is no longer live|
 |OutsideWindowEdge|10|Playable position is outside of DVR window, app should seek and/or change play rate.|

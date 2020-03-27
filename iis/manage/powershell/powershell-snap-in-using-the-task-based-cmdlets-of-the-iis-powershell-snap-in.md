@@ -131,7 +131,7 @@ The above command will make a HTTP request to the newly created web site and ret
 
 **IMPORTANT: For this example to work the IIS Tracing feature needs to be enabled.** On Windows Vista open the Control Panel, click "Programs", select "Turn Windows features on or off". Find and select "Tracing" under "Internet Information Services", "World Wide Web Services", "Health and Diagnostics" and click "OK".
 
-As a last step we are enabling Request Tracing. Web Request Tracing is an IIS feature which allows you to get a detailed log of what happened during a request was executing. This feature is extrememly valuable for a lot of troubleshooting scenarios. To enable Web Request Tracing we just need to run another location-aware cmldet called Enable-WebRequestTracing.
+As a last step we are enabling Request Tracing. Web Request Tracing is an IIS feature which allows you to get a detailed log of what happened during a request was executing. This feature is extremely valuable for a lot of troubleshooting scenarios. To enable Web Request Tracing we just need to run another location-aware cmldet called Enable-WebRequestTracing.
 
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample15.ps1)]
 
