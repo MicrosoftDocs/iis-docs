@@ -152,27 +152,27 @@
     },
     {
       "source_path": "iis/extensions/search-engine-optimization-toolkit/index.md",
-      "redirect_url": "iis-search-engine-optimization-toolkit",
+      "redirect_url": "/iis/extensions/search-engine-optimization-toolkit/iis-search-engine-optimization-toolkit",
       "redirect_document_id": false
     },
     {
       "source_path": "iis/extensions/smooth-streaming-client/index.md",
-      "redirect_url": "smooth-streaming-client",
+      "redirect_url": "/iis/extensions/smooth-streaming-client/smooth-streaming-client",
       "redirect_document_id": false
     },
     {
       "source_path": "iis/extensions/smooth-streaming-management-rest-services/index.md",
-      "redirect_url": "iis-smooth-streaming-management-rest-services",
+      "redirect_url": "/iis/extensions/smooth-streaming-management-rest-services/iis-smooth-streaming-management-rest-services",
       "redirect_document_id": false
     },
     {
       "source_path": "iis/extensions/smooth-streaming-manifest-structure/index.md",
-      "redirect_url": "iis-smooth-streaming-manifest-structure",
+      "redirect_url": "/iis/extensions/smooth-streaming-manifest-structure/iis-smooth-streaming-manifest-structure",
       "redirect_document_id": false
     },
     {
       "source_path": "iis/extensions/transform-manager/index.md",
-      "redirect_url": "iis-transform-manager",
+      "redirect_url": "/iis/extensions/transform-manager/iis-transform-manager",
       "redirect_document_id": false
     },
     {
@@ -187,7 +187,7 @@
     },
     {
       "source_path": "iis/extensions/url-rewrite/index.md",
-      "redirect_url": "iis-url-rewrite",
+      "redirect_url": "/iis/extensions/url-rewrite/iis-url-rewrite",
       "redirect_document_id": false
     },
     {
@@ -197,17 +197,17 @@
     },
     {
       "source_path": "iis/extensions/web-deployment-tool/index.md",
-      "redirect_url": "iis-web-deployment-tool",
+      "redirect_url": "/iis/extensions/web-deployment-tool/iis-web-deployment-tool",
       "redirect_document_id": false
     },
     {
       "source_path": "iis/extensions/web-platform-installer/index.md",
-      "redirect_url": "microsoft-web-platform-installer",
+      "redirect_url": "/iis/extensions/web-platform-installer/microsoft-web-platform-installer",
       "redirect_document_id": false
     },
     {
       "source_path": "iis/extensions/web-playlists/index.md",
-      "redirect_url": "iis-web-playlists",
+      "redirect_url": "/iis/extensions/web-playlists/iis-web-playlists",
       "redirect_document_id": false
     },
     {
