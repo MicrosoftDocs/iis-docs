@@ -53,7 +53,7 @@ Download [Web PI](https://www.microsoft.com/web/Downloads/platform.aspx). WebPI 
 
 ###### Figure 1: "WebPI Spotlight" tab
 
-WebPI seperates the components you can install into two main categories: Products and Applications. In the Products tab, you will find all the components you need to build and maintain your web sites. The Applications tab is home to our wide collection of open-source applications that you can use as a great starting place for developing your sites
+WebPI separates the components you can install into two main categories: Products and Applications. In the Products tab, you will find all the components you need to build and maintain your web sites. The Applications tab is home to our wide collection of open-source applications that you can use as a great starting place for developing your sites
 
 The "Products" tab shows the four main components: Server, Frameworks, Database and Tools.
 

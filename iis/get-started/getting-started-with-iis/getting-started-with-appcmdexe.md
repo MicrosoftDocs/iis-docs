@@ -590,7 +590,7 @@ AppCmd provides an output mode that displays only a specific property of each ob
 
 You can, of course, display any of the valid property of the object-type being listed.
 
-It is sometimes desireable to use the output of AppCmd with existing command line tools and shell commands, such as the FOR command and FINDSTR.EXE. These tools often work best when each data item of interest is located on a separate line.
+It is sometimes desirable to use the output of AppCmd with existing command line tools and shell commands, such as the FOR command and FINDSTR.EXE. These tools often work best when each data item of interest is located on a separate line.
 
 As an example, imagine a command-line that produces a directory listing of each IIS virtual directory. The command-line needs to acquire a list of physical paths from each of the virtual directories of interest, and then execute a DIR command on each of those paths using the FOR command to loop though them:
 

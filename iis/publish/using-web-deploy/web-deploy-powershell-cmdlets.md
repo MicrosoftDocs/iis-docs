@@ -7,8 +7,8 @@ ms.assetid: 6dae383f-e79d-44f8-a63b-4695c28eec03
 msc.legacyurl: /learn/publish/using-web-deploy/web-deploy-powershell-cmdlets
 msc.type: authoredcontent
 ---
-Web Deploy PowerShell Cmdlets
-====================
+# Web Deploy PowerShell Cmdlets
+
 by [Owais Shaikh](https://twitter.com/shmparvez)
 
 Web Deploy V3.0 ships with PowerShell cmdlets for carrying out most of the tasks supported by the Web Deploy API [Microsoft.Web.Deployment]. You can read more about this API [here](https://msdn.microsoft.com/library/microsoft.web.deployment(v=VS.90).aspx). These cmdlets are in the snapin named WDeploySnapin3.0 which is installed and registered as a snapin on a typical or higher install of web deploy. To use these cmdlets either add the snapin every time the PowerShell console is started or add the snapin to the PowerShell profile which will make all consoles automatically load the snapin.
@@ -22,7 +22,7 @@ To add it to the PowerShell profile:
 1. If you already have a PowerShell profile, go to step 4.
 2. Create a WindowsPowerShell folder under &lt;My Documents&gt;.
 3. Create a file called Microsoft.PowerShell\_profile.ps1
-4. Add this line to the PowerShell profile file: ‘Add-PSSnapin WDeploySnapin3.0'
+4. Add this line to the PowerShell profile file: 'Add-PSSnapin WDeploySnapin3.0'
 
 A few points to note:
 
@@ -47,7 +47,7 @@ Example: This example gets a credential object and then passes it to the new pub
 
 ## II. Backup
 
-All backup cmdlets have a positional parameter (it's the second one except for backup-wdserver where it is the first positional parameter) called output. This takes a path to the folder where you want the backup created. Backup is always a Web Deploy zip package. You can read more about Web Deploy Packages at [Package Provider](https://msdn.microsoft.com/library/dd569019(v=WS.10).aspx) and [custom packages](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md). If no path is specified the backups are created in a folder named ‘Web Deploy Backups' under the user's documents folder. The backups are named as machinename\_nameofproviderused\_[Siteorapporfoldername(Optional)]\_timestamp.zip.
+All backup cmdlets have a positional parameter (it's the second one except for backup-wdserver where it is the first positional parameter) called output. This takes a path to the folder where you want the backup created. Backup is always a Web Deploy zip package. You can read more about Web Deploy Packages at [Package Provider](https://msdn.microsoft.com/library/dd569019(v=WS.10).aspx) and [custom packages](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md). If no path is specified the backups are created in a folder named 'Web Deploy Backups' under the user's documents folder. The backups are named as machinename\_nameofproviderused\_[Siteorapporfoldername(Optional)]\_timestamp.zip.
 
 All these cmdlets will work locally by default unless remote server information is provided by passing in a publish settings file for SourcePublishSettings parameter.
 
@@ -77,7 +77,7 @@ Create a list of the files that should be skipped. This is standard regular expr
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample4.ps1)]
 
-You can also change this to skip all files under site2 by changing the list to $list=@(‘\\site2\\')
+You can also change this to skip all files under site2 by changing the list to $list=@('\\site2\\')
 
 <a id="_Toc322604009"></a>
 
@@ -85,7 +85,7 @@ You can also change this to skip all files under site2 by changing the list to $
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample5.ps1)]
 
-Description: This will back up an IIS site along with its settings and content using apphostconfig provider. You can read more about this provider [here](https://technet.microsoft.com/es-ar/library/dd569080.aspx).
+Description: This will back up an IIS site along with its settings and content using apphostconfig provider. You can read more about this provider [here](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd569080(v=ws.10)?redirectedfrom=MSDN).
 
 Cmdlet Parameters: The name of the site specified by the site parameter or by the publish settings file is backed up. Site parameter value overrides publish settings specification for site name.
 

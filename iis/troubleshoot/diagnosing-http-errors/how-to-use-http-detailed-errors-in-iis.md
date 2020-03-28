@@ -52,7 +52,7 @@ Detailed errors are intended for local administrators and developers. They are s
 
 [![](how-to-use-http-detailed-errors-in-iis/_static/image5.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image4.jpg)
 
-This is dangerous, because Detailed Errors contain information about the inner workings of your web-site. Only trusted personel should see a Detailed Error. The only way to ensures this is to only generate a detailed error if the request comes from the local machine. As soon as the request is not local, a custom error is generated. Look at the following flow diagram:
+This is dangerous, because Detailed Errors contain information about the inner workings of your web-site. Only trusted personnel should see a Detailed Error. The only way to ensures this is to only generate a detailed error if the request comes from the local machine. As soon as the request is not local, a custom error is generated. Look at the following flow diagram:
 
 [![](how-to-use-http-detailed-errors-in-iis/_static/image7.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image6.jpg)
 

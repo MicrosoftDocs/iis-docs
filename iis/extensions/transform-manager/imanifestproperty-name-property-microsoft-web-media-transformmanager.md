@@ -76,14 +76,16 @@ The name of the XML manifest element.
 
 The properties are stored as elements in the manifest XML. For example, a manifest for an Expression Encoder job might override the presets file using the following manifest section:
 
-    <rdf:RDF xmlns:iisms="http://schemas.microsoft.com/iis/media/v4/Metroplex#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ee="http://schemas.microsoft.com/Expression/Encoder/V4#">
-      <iisms:Task xmlns:ee="http://schemas.microsoft.com/Expression/Encoder/V4#">
-        <iisms:Id>A72D7A5D-3022-45f2-89B4-1DDC5457CC12</iisms:Id>
-        <ee:Preset>%ProgramData%\Microsoft\IIS\Transformation Manager\Presets\VC1Profile.xml</ee:Preset>
-      </iisms:Task>
-    </rdf:RDF>
+```xml
+<rdf:RDF xmlns:iisms="http://schemas.microsoft.com/iis/media/v4/Metroplex#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ee="http://schemas.microsoft.com/Expression/Encoder/V4#">
+  <iisms:Task xmlns:ee="http://schemas.microsoft.com/Expression/Encoder/V4#">
+    <iisms:Id>A72D7A5D-3022-45f2-89B4-1DDC5457CC12</iisms:Id>
+    <ee:Preset>%ProgramData%\Microsoft\IIS\Transformation Manager\Presets\VC1Profile.xml</ee:Preset>
+  </iisms:Task>
+</rdf:RDF>
+```
 
-When an application calls [IJobMetadata..::..GetProperty(XName)](ijobmetadata-getproperty-method-microsoft-web-media-transformmanager.md) with the XName parameter set to ee:Preset, it is selecting the XML element preset in the http://schemas.microsoft.com/Expression/Encoder/V4 namespace .
+When an application calls [IJobMetadata..::..GetProperty(XName)](ijobmetadata-getproperty-method-microsoft-web-media-transformmanager.md) with the XName parameter set to ee:Preset, it is selecting the XML element preset in the `http://schemas.microsoft.com/Expression/Encoder/V4` namespace.
 
 ## See Also
 
@@ -92,4 +94,3 @@ When an application calls [IJobMetadata..::..GetProperty(XName)](ijobmetadata-ge
 [IManifestProperty Interface](imanifestproperty-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

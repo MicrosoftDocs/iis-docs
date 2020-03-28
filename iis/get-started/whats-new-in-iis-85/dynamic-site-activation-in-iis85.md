@@ -26,7 +26,7 @@ by [Gary Ericson](https://github.com/garyericson)
 <a id="TOC301258515"></a>
 ## Problem
 
-When the Internet Information Services (IIS) on Windows Server 2012 service starts at system boot-up, it automatically activates all configured websites. This means that the first time any site is accessed, it will be available and respond quickly. However, for a system with a large number of sites configured, it not only takes a lot of time and resources to activate all those sites at once, but the sites can use a large amount of memory. If the majority of the sites are accessed infrequently, this can be an unneccesary waste of system resources.
+When the Internet Information Services (IIS) on Windows Server 2012 service starts at system boot-up, it automatically activates all configured websites. This means that the first time any site is accessed, it will be available and respond quickly. However, for a system with a large number of sites configured, it not only takes a lot of time and resources to activate all those sites at once, but the sites can use a large amount of memory. If the majority of the sites are accessed infrequently, this can be an unnecessary waste of system resources.
 
 Note that &quot;activation&quot;, in this context, refers to a process in which IIS registers a site with the HTTP protocol stack (HTTP.SYS), which is part of the Windows Server operating system. This activation is not to be confused with the action of creating a worker-process for a site.
 

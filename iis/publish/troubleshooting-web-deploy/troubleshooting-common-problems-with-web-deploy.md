@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting Common Problems with Web Deploy"
-author: Tuesdaysgreen
+author: ehamai
 description: "This walkthrough shows how to diagnose and fix common problems with Web Deploy, including common errors seen while publishing from Visual Studio 2010. Loggin..."
 ms.date: 04/20/2012
 ms.assetid: 582eff55-c99e-4eeb-8642-d8334a94c3c2
@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 # Troubleshooting Common Problems with Web Deploy
 
-by [Elliott Hamai](https://github.com/Tuesdaysgreen)
+by [Elliott Hamai](https://github.com/ehamai)
 
 This walkthrough shows how to diagnose and fix common problems with Web Deploy, including common errors seen while publishing from Visual Studio 2010.
 
