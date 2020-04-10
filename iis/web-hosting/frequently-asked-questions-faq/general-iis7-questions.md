@@ -152,8 +152,6 @@ For the most part, it works out of the box since we use the redirection.config s
 
 See the following link for information about creating sites in IIS 7.0.
 
-
-
 #### Is CLR loaded automatically for each w3wp/apppool?
 
 An Application Pool that only serves static files with all features installed occupies 3 MB private bytes, 5 MB page file. When ASP.NET requests are made we pre-load a small amount of the CLR during startup (~100kb) . The preload is configurable by a property on the ApplicationPool. It is called managedRuntimeVersion. The rest of the CLR (~8mb) will be loaded on the first ASPX request.

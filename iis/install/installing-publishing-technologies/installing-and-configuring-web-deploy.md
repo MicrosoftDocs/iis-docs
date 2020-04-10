@@ -68,7 +68,6 @@ After installing Web Deploy using method (1) or (2a), described above, all serve
 		- Successfully created settings file `C:\Users\JohnDoe\Desktop\NonAdminUser\_Default Web Site.PublishSettings`
 	8. The non-administrator Windows user (NonAdminUser) may now publish to the site (test).
 
-
 ### Install and Configure Web Deploy for Administrator deployments
 
 #### Requirements:

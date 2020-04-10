@@ -20,7 +20,6 @@ The [ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[PercentComplete](itaskstatus-percentcomplete-property-microsoft-web-media-transformmanager.md)|Gets the percentage of task completion.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Status](itaskstatus-status-property-microsoft-web-media-transformmanager.md)|Gets the status of the task.|
 
-
 ## See Also
 
 ### Reference
@@ -28,4 +27,3 @@ The [ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 [ITaskStatus Interface](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

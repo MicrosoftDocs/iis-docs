@@ -28,7 +28,6 @@ The [IPlaylistEntryInfo::ENTRY\_TYPE Enumeration](iplaylistentryinfo-entry-type-
 |*EntryTypeRelativeURI*|The path of the entry relative to the playlist URL.|
 |*EntryTypeRemoteURL*|The path of the entry as a remote URL.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -40,4 +39,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

@@ -145,4 +145,3 @@ If the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft
 [Position in Stream](position-in-stream.md)
 
 [Timeline Markers and Events](timeline-markers-and-events.md)
-

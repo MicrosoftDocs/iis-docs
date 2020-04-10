@@ -54,13 +54,11 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)|Arguments for an event that occurs when a media track changes.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)|Represents track information that corresponds to the QualityLevel element of the client manifest.|
 
-
 ## Interfaces
 
 ||Interface|Description|
 |--- |--- |--- |
 |![Public interface](images/Ff728140.pubinterface(en-us,VS.90).gif "Public interface")|[ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)|Interface definition for writing a cache plug-in.|
-
 
 ## Delegates
 
@@ -69,7 +67,6 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SmoothStreamingMediaElement.ManifestMergeHandler](smoothstreamingmediaelement-manifestmergehandler-delegate-microsoft-web-media-smoothstreaming_1.md)|Delegate method to merge data from more than one manifest.|
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler](smoothstreamingmediaelement-setplaybackrangecompletedeventhandler-delegate-microsoft-web-media-smoothstreaming.md)|Represents the event handler signature for a SetPlaybackRangeAsync operation.|
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SSMELogReadyRoutedEventHandler](ssmelogreadyroutedeventhandler-delegate-microsoft-web-media-smoothstreaming_1.md)|The event handler for the [LogReady](smoothstreamingmediaelement-logready-event-microsoft-web-media-smoothstreaming_1.md) event.|
-
 
 ## Enumerations
 
@@ -83,4 +80,3 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[PlaybackStartPosition](playbackstartposition-enumeration-microsoft-web-media-smoothstreaming_1.md)|Enumeration that specifies the position from which playback of a media stream begins.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[SmoothStreamingMediaElementState](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)|Enumeration of possible states for the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md).|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[StreamUpdatedEventArgs.StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md)|Action enumeration for the Microsoft.Web.Media.SmoothStreaming.ManifestInfo.StreamSelected, Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ChunkAdded and Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction.TracksSelected in the [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md) class.|
-

@@ -36,7 +36,6 @@ In IIS 6.0, the settings for the FTP service were stored in a separate section o
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
-
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
@@ -313,7 +312,6 @@ The following sample illustrates several configuration settings in the `<ftpServ
 - Specify a customized welcome message and enable local detailed error messages.
 - Specify that users will start in a home directory that is based on their login name, but only if that directory exists.
 
-
 [!code-xml[Main](index/samples/sample1.xml)]
  
 The following sample illustrates several security-related configuration settings in the `<system.ftpServer>` element for an FTP site. More specifically, the `<location>` settings in this example demonstrate how to:
@@ -323,7 +321,6 @@ The following sample illustrates several security-related configuration settings
 - Specify FTP request limits for a maximum content length of 1000000 bytes and a maximum URL length of 1024 bytes.
 - Block FTP access to the \_vti\_bin virtual directory, which is used with the FrontPage Server Extensions.
 - Specify FTP IP filtering options that allow access from 127.0.0.1 and deny access from the 169.254.0.0/255.255.0.0 range of IP addresses.
-
 
 [!code-xml[Main](index/samples/sample2.xml)]
 

@@ -21,7 +21,6 @@ The [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StreamUpdatedEvents](streamupdatedlisteventargs-streamupdatedevents-property-microsoft-web-media-smoothstreaming_1.md)|Gets the list of stream updated events.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UserState](https://msdn.microsoft.com/library/9b3wa0x3(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 
-
 ## See Also
 
 ### Reference
@@ -29,4 +28,3 @@ The [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-
 [StreamUpdatedListEventArgs Class](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -31,14 +31,11 @@ In some cases, the addition of tracking code to the Web pages is a simple task. 
 
 To begin, you will create an outbound rewrite rule that adds a JavaScript code snippet into the HTML response. The code snippet is inserted immediately before the closing &lt;/body&gt; tag, as in the following illustration
 
-
 [!code-html[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample1.html)]
-
 
 ![](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image1.gif) **WARNING:** In this particular example the JavaScript code is assumed to be from a trusted source and it should be inserted into the HTML page as is. In many other cases when response headers or the response content is modified by an outbound rewrite rule an extra caution should be taken to ensure that the text which gets inserted into the response does not contain any client side executable code, which can result in cross-site scripting vulnerabilities. This is especially important when rewrite rule uses un-trusted data, such as HTTP headers or the query string, to build the string that will be inserted into the HTTP response. In such cases the replacement string should be HTML encoded by using the **HtmlEncode** function, e.g:
 
 [!code-xml[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample2.xml)]
-
 
 **To create the outbound rule:** 
 
@@ -93,9 +90,7 @@ In the "Using:" drop down list, choose "**Exact match**" option.
 
 In the "Pattern" text box enter the following string:
 
-
 [!code-xml[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample3.xml)]
-
 
 ### Defining an action
 
@@ -115,9 +110,7 @@ Save the rule by clicking on "Apply" action on the right hand side.
 
 The rewrite rules are stored either in aplicationHost.config file or in web.config files. To check the configuration of the rule that we have just created, open a web.config file located in `%SystemDrive%\inetput\wwwroot\`. In this file you should see the `<rewrite>` section that contains all the rules definitions:
 
-
 [!code-xml[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample5.xml)]
-
 
 ### Testing the rule
 

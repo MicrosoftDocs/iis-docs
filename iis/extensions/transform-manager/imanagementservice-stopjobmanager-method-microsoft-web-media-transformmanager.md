@@ -91,4 +91,3 @@ When the StopJobManager method is called, the [JobManager](jobmanager-class-micr
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

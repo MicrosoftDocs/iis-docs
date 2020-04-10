@@ -20,7 +20,6 @@ The **IsCached** property gets the value indicating whether the file is cached b
 |--- |--- |
 |*fCached*|TRUE, if the file is cached by IIS 7; otherwise, **FALSE**.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -32,4 +31,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

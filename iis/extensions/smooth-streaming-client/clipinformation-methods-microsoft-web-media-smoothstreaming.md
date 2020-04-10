@@ -24,7 +24,6 @@ The [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[SetSource](clipinformation-setsource-method-microsoft-web-media-smoothstreaming_1.md)|Sets the source for the clip. Enables setting the clip information on the clip MediaElement for extensibility purposes.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
-
 ## See Also
 
 ### Reference
@@ -32,4 +31,3 @@ The [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

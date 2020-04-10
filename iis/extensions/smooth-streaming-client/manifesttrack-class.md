@@ -45,7 +45,6 @@ This class exposes the following members.
 |[GetAttribute](manifesttrack-getattribute-method.md)|Gets the track level attributes from the manifest.|
 |[GetCustomAttribute](manifesttrack-getcustomattribute-method.md)|Gets the track level custom attributes from the manifest.|
 
-
 ## Requirements
 
 |||
@@ -53,4 +52,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

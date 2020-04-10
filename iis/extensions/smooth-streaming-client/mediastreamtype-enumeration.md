@@ -43,7 +43,6 @@ public enum MediaStreamType
 |Text|2|The stream type is text.|
 |Binary|3|The stream type is binary.|
 
-
 ## Requirements
 
 |||
@@ -51,4 +50,3 @@ public enum MediaStreamType
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

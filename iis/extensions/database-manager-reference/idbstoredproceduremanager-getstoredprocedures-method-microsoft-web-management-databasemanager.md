@@ -104,4 +104,3 @@ public ICollection\<StoredProcedure\> GetStoredProcedures(string connectionStrin
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

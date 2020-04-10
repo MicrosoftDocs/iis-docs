@@ -66,4 +66,3 @@ public function DatabaseInfo()
 [DatabaseInfo Class](databaseinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

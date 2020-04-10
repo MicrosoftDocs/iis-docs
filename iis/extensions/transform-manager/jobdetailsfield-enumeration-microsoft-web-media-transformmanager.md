@@ -102,4 +102,3 @@ Represents a value that is used to specify how job details are sorted and displa
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

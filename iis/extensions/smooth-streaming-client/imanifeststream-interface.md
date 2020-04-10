@@ -51,7 +51,6 @@ This interface exposes the following members.
 |[RestrictTracks](imanifeststream-restricttracks-method.md)|Restricts the tracks to a subset of all the available tracks.|
 |[SelectTracks](imanifeststream-selecttracks-method.md)|Selects the tracks in a subset of all the available tracks.|
 
-
 ### Properties
 
 |Property|Description|
@@ -73,7 +72,6 @@ This interface exposes the following members.
 |[Type](imanifeststream-type-property.md)|Gets the stream 'Type' field.|
 |[Url](imanifeststream-url-property.md)|Gets the url template.|
 
-
 ## Requirements
 
 |||
@@ -81,4 +79,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

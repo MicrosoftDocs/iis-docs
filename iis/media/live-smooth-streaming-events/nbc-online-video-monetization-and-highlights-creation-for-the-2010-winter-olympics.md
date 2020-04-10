@@ -207,9 +207,7 @@ The following code snippet is an example of the two templates that were used for
 
 ##### *Code snippet – Ad template example*
 
-
 [!code-xml[Main](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/samples/sample1.xml)]
-
 
 #### Ads Delivered in VOD
 

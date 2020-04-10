@@ -327,7 +327,6 @@ The following configuration sample from a Web.config file performs several secur
 - Denies access to unlisted file name extensions and unlisted HTTP verbs.
 - Sets the maximum length for a URL to 2KB and the maximum length for a query string to 1KB.
 
-
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>

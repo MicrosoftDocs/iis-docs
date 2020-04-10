@@ -34,4 +34,3 @@ This is an infrastructure method and it is not intended to be called directly fr
 | Server | IIS 7 |
 | Product | IIS 7 |
 | Header | Nativerd_pub.h |
-

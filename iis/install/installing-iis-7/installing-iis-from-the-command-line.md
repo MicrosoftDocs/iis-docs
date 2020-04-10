@@ -88,15 +88,11 @@ If you want to install all IIS 7.0 features, use these command lines.
 
 If you are installing IIS 7.0 on Windows Vista Professional, Windows Vista Ultimate, or Windows Server 2008 Editions, copy and paste the following text into the command window:
 
-
 [!code-console[Main](installing-iis-from-the-command-line/samples/sample3.cmd)]
-
 
 If you are installing IIS 7.0 on Windows Vista Home Premium, copy and paste the following text into the command window:
 
-
 [!code-console[Main](installing-iis-from-the-command-line/samples/sample4.cmd)]
-
 
 ### Step 5: Check Error Code
 

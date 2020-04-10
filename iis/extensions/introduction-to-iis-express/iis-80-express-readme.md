@@ -114,7 +114,6 @@ IIS 8.0 Express now shares the same set of HTTP status and substatus codes; this
 - HTTP 404.22 - This error code was returned when ASP.NET was not installed; this has been removed from IIS 8.0 Express.
 - HTTP 404.23 - This error code was returned when ASP.NET web pages were not installed; this has been removed from IIS 8.0 Express.
 
-
 #### Errors when using .NET Framework 3.5 and earlier with IIS 8.0 Express Release Candidate on Windows Server 2012 and Windows 8 Client
 
 There is a known application compatibility issue when you are using IIS 8.0 Express Release Candidate on Windows Server 2012 and Windows 8 Client if you are using .NET Framework 3.5 and earlier versions. This issue is resolved for the final release of IIS 8.0 Express, but a workaround is to install the standard version of IIS on the system where you are running the IIS 8.0 Express Release Candidate. (Note: IIS does not have to be running; you just need to install a basic installation of IIS to resolve the compatibility issue.)

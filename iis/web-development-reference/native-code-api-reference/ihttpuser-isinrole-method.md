@@ -44,8 +44,6 @@ virtual HRESULT IsInRole(
 ## Example  
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
-  
-  
  The above code writes XML that is similar to the following to the response stream.  
   
 ```  

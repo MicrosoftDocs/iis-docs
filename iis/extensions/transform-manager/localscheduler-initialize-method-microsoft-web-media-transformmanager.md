@@ -140,7 +140,6 @@ override Initialize :
 |[DirectoryNotFoundException](https://msdn.microsoft.com/library/df5tffh6)|The method was unable to find the root folder.|
 |[FileNotFoundException](https://msdn.microsoft.com/library/dzyy5k3x)|The method was unable to find a file in the root folder.|
 
-
 ## See Also
 
 ### Reference
@@ -148,4 +147,3 @@ override Initialize :
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -86,7 +86,6 @@ abstract DeleteJobTemplate :
 |--- |--- |
 |[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The specified job template is in use.|
 
-
 ## Remarks
 
 A [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) object contains a set of sequential tasks that are run during the transform process.
@@ -98,4 +97,3 @@ A [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) objec
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

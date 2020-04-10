@@ -30,7 +30,6 @@ None.
 
 [Modules Element](modules-element.md)
 
-
 ## Example
 
     <Modules>
@@ -48,4 +47,3 @@ None.
         </HLS>
       </Module>
     </Modules>
-

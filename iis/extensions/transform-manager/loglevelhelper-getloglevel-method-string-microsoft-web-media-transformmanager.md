@@ -90,4 +90,3 @@ The level of detail for a log.
 [GetLogLevel Overload](loglevelhelper-getloglevel-method-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

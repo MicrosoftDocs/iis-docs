@@ -24,7 +24,6 @@ The [SetPlaybackRangeCompletedEventArgs](setplaybackrangecompletedeventargs-clas
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[RaiseExceptionIfNecessary](https://msdn.microsoft.com/library/69w1sf5e(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 
-
 ## See Also
 
 ### Reference
@@ -32,4 +31,3 @@ The [SetPlaybackRangeCompletedEventArgs](setplaybackrangecompletedeventargs-clas
 [SetPlaybackRangeCompletedEventArgs Class](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -63,7 +63,6 @@ The new FTP service is tightly-integrated with IIS, and adopts the new configura
 
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.jpg)
 
-
 What's more, because of the full FTP integration in IIS, the FTP service can be managed from any other IIS management tool or API; for example: AppCmd, Microsoft.Web.Administration, PowerShell, etc.
 
 This version of the FTP service streamlines content publishing by allowing administrators to bind the FTP protocol to an existing Web site, the same as you bind HTTPS to provide SSL. The minimal configuration steps are to add an FTP binding to an existing Web site and then define your FTP settings for authentication and authorization, but a wizard is provided to assist configuring all your FTP settings to enable publishing.
@@ -72,11 +71,9 @@ On the first screen of the publishing wizard (pictured below), you configure you
 
 [![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image4.jpg)](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.jpg)
 
-
 On the second screen of the publishing wizard (pictured below), you configure your authentication and authorization settings. (Additional authentication and authorization settings can be added later.)
 
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image5.jpg)
-
 
 Of course, you do not have to bind the FTP protocol to your Web site. If you want only an FTP site, you can still set up a site that has only FTP bindings.
 
@@ -90,7 +87,6 @@ For more information about adding FTP publishing and FTP sites, see the followin
 The FTP service for IIS supports for emerging Internet standards like IPv6, UTF8, and FTP over SSL. We offer an RFC-based implementation of FTPS (FTP over SSL), and configuration options that allow you to encrypt data on the control channel, on the data channel, or on both channels. Since we have a standards-based implementation of FTPS, we support several third-party FTP clients.
 
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image7.jpg)
-
 
 The industry has addressed how to secure FTP traffic in several different ways. Although there no single standard has emerged, there are two similarly named protocols: FTPS and SFTP. To clarify, Microsoft offers an FTP over SSL (FTPS) solution. Microsoft currently does not provide a solution for securing FTP traffic using FTP over SSH (SFTP).
 
@@ -118,7 +114,6 @@ In this FTP service we have added virtual host name support to FTP. By using hos
 
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image9.jpg)
 
-
 For more information about using FTP virtual host names, see the following walkthrough:
 
 - [Configure FTP virtual host names](https://go.microsoft.com/fwlink/?LinkId=89119)
@@ -133,7 +128,6 @@ We have improved support for FTP user isolation configuration. All of the previo
 
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.png)
 
-
 For more information about configuring FTP user isolation, see the following walkthrough:
 
 - [Configure FTP User Isolation](https://go.microsoft.com/fwlink/?LinkId=89118)
@@ -144,7 +138,6 @@ You can now make virtual directories visible to FTP clients by selecting an opti
 
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.png)
 
-
 You can also configure the directory browsing options to return the available bytes to FTP clients, which is especially useful if you are using Disk Quotas from Windows Server's File System Resource Manager (FSRM). For more information about using this feature with FTP, see the following walkthrough:
 
 - [Using FSRM Folder Quotas with FTP](https://go.microsoft.com/fwlink/?LinkId=100092)
@@ -154,6 +147,5 @@ You can also configure the directory browsing options to return the available by
 We now offer better logging support, including logging of all verbs and additional detail fields in FTP logs. These new fields include real session stamps, allowing you to parse logs to discover exactly what users were doing throughout a session. We also offer administrators the option to log the full path for requests for files or folders. This is helpful because servers typically only log the name of the file or folder, and this can make large log files difficult to read.
 
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image11.jpg)
-
 
 Finally, the new FTP server has provides detailed local error messages and Event Tracing for Windows (ETW). These features simplify troubleshooting and enable hosters to better support their customers.

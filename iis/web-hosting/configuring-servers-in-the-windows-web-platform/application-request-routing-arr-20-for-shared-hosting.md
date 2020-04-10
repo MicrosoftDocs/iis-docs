@@ -71,7 +71,6 @@ The following steps and articles constitute a complete guide for setting up an A
 
 [![](application-request-routing-arr-20-for-shared-hosting/_static/image11.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image10.jpg)
 
-
 ## Conclusion
 
 This article provides a map to the guidance that hosters need to learn about and set up ARR in their shared hosting environments. It includes the recommended shared hosting configuration and the instructions needed to set up ARR.

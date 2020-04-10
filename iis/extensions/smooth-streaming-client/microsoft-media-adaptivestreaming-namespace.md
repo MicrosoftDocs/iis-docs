@@ -36,7 +36,6 @@ The following is a list of classes, delegates, enumerations, interfaces and a st
 |[SmoothSchemeHandler Class](smoothschemehandler-class.md)|Represents the Smooth Scheme Handler.|
 |[StreamChangedResult Class](streamchangedresult-class.md)|Represents the results when the stream is changed.|
 
-
 ## Delegates
 
 |Delegate|Description|
@@ -47,7 +46,6 @@ The following is a list of classes, delegates, enumerations, interfaces and a st
 |[AdaptiveSourceManagerFailedEventHandler Delegate](adaptivesourcemanagerfailedeventhandler-delegate.md)|The actual handler for the adaptive source manager failed event handler.|
 |[AdaptiveSourceStatusUpdatedEventHandler Delegate](adaptivesourcestatusupdatedeventhandler-delegate.md)|The actual handler for the status updated event.|
 |[ManifestReadyEventHandler Delegate](manifestreadyeventhandler-delegate.md)|The actual handler for the manifest ready event.|
-
 
 ## Enumerations
 
@@ -60,7 +58,6 @@ The following is a list of classes, delegates, enumerations, interfaces and a st
 |[ManifestType Enumeration](manifesttype-enumeration.md)|The manifest type enumeration.|
 |[MediaStreamType Enumeration](mediastreamtype-enumeration.md)|The media stream type enumeration.|
 |[StreamChangedAction Enumeration](streamchangedaction-enumeration.md)|Represents the Stream changed action enumeration.|
-
 
 ## Interfaces
 
@@ -76,7 +73,6 @@ The following is a list of classes, delegates, enumerations, interfaces and a st
 |[IManifestStream Interface](imanifeststream-interface.md)|The IManifestStream interface.|
 |[IManifestTrack Interface](imanifesttrack-interface.md)|The IManifestTrack interface.|
 |[IStreamChangedResult Interface](istreamchangedresult-interface.md)|Stream changed result interface.|
-
 
 ## Structures
 

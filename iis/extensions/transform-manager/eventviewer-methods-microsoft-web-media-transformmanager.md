@@ -30,4 +30,3 @@ The [EventViewer](eventviewer-class-microsoft-web-media-transformmanager.md) typ
 [EventViewer Class](eventviewer-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

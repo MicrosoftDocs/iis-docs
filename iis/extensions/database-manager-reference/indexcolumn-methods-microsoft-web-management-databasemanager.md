@@ -30,4 +30,3 @@ The [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md)
 [IndexColumn Class](indexcolumn-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

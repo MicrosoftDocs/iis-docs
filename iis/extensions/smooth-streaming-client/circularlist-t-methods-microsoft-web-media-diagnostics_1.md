@@ -83,7 +83,6 @@ The [CircularList\<T\>](circularlist-t-class-microsoft-web-media-diagnostics_1.m
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation") ![Private method](images/Ff728198.privmethod(en-us,VS.90).gif "Private method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[IList.Insert](https://msdn.microsoft.com/library/bb342775(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation") ![Private method](images/Ff728198.privmethod(en-us,VS.90).gif "Private method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[IList.Remove](https://msdn.microsoft.com/library/bb343997(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 
-
 ## See Also
 
 ### Reference
@@ -91,4 +90,3 @@ The [CircularList\<T\>](circularlist-t-class-microsoft-web-media-diagnostics_1.m
 [CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

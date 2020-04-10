@@ -53,7 +53,6 @@ You must make a backup of the configuration before doing the following tasks.
 
 1. In the command prompt, run the following command:
 
-
 [!code-console[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample1.cmd)]
 
 The above command creates a cleanInstall folder containing backup configuration files in `%windir%\system32\inetsrv\backup`.
@@ -65,7 +64,6 @@ The above command creates a cleanInstall folder containing backup configuration 
 3. Create a blank file and name it test.asp.
 4. In the command prompt, navigate to the test.asp file in \inetpub\wwwroot.
 5. In the test.asp file, paste the following content:
-
 
 [!code-html[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample2.html)]
 
@@ -108,9 +106,7 @@ After you enable failed-request tracing, you need to configure where the log fil
 
 Failed-request tracing logging is now enabled for the Default Web Site. Check the %*windir*%\system32\inetsrv\config\applicationHost.config file to confirm that the configuration looks as follows:
 
-
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample3.xml)]
-
 
 ### Step 2 : Configure Your Failure Definitions
 
@@ -146,9 +142,7 @@ You should see the following definition for the **Default Web Site**:
 
 IIS Manager writes the configuration to the `%systemdrive%\config inetpub\wwwroot\web.config` file by using a `<location>` tag. The configuration should look as follows:
 
-
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample4.xml)]
-
 
 ## Test and View the Failure Request Log File
 

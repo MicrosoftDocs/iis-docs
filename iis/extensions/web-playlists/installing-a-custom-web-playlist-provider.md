@@ -83,4 +83,3 @@ Installation of a managed-code Web Playlist provider is done in two steps. The f
 [Writing a Managed Web Playlist Provider](writing-a-managed-web-playlist-provider.md)
 
 [Creating a Managed Playlist Provider](creating-a-managed-playlist-provider.md)
-

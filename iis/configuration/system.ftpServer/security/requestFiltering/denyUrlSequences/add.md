@@ -40,7 +40,6 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
-
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
 <a id="003"></a>
@@ -168,7 +167,6 @@ The following sample illustrates several security-related configuration settings
 - Specify FTP request limits for a maximum content length of 1000000 bytes and a maximum URL length of 1024 bytes.
 - Block FTP access to the \_vti\_bin virtual directory, which is used with the FrontPage Server Extensions.
 - Specify FTP IP filtering options that allow access from 127.0.0.1 and deny access from the 169.254.0.0/255.255.0.0 range of IP addresses.
-
 
 [!code-xml[Main](add/samples/sample1.xml)]
 

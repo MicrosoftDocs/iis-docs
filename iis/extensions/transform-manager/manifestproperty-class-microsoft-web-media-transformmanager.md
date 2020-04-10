@@ -116,7 +116,6 @@ The ManifestProperty type exposes the following members.
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[PropertyElementName](manifestproperty-propertyelementname-field-microsoft-web-media-transformmanager.md)|The string "property".|
 
-
 ## Thread Safety
 
 Any public static (Shared in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
@@ -126,4 +125,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

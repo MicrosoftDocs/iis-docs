@@ -95,4 +95,3 @@ Your provider may optionally implement the GetService method to return the syste
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

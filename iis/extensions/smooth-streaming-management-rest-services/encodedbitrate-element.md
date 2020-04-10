@@ -24,8 +24,6 @@ None.
 
 [Track Element](track-element.md)
 
-
 ## Remarks
 
 The value might differ slightly from the actual encoded bit rate.
-

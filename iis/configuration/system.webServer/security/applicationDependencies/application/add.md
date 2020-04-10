@@ -56,7 +56,6 @@ The following configuration sample illustrates the application dependencies in t
 - The Active Server Pages application has a dependency on the &quot;ASP&quot; ISAPI/CGI restriction group.
 - The custom application has a dependency on the &quot;MyCustomGroup&quot; ISAPI/CGI restriction group, and an additional dependency on the ASP ISAPI/CGI restriction group.
 
-
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>

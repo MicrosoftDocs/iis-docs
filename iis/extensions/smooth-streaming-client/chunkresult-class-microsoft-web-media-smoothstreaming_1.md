@@ -75,7 +75,6 @@ The ChunkResult type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Result](chunkresult-result-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the result of call to [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) or [GetChunkUri](trackinfo-getchunkuri-method-microsoft-web-media-smoothstreaming_1.md).|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Timestamp](chunkresult-timestamp-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the time stamp of the chunk in ticks.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -86,7 +85,6 @@ The ChunkResult type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
-
 
 ## Examples
 
@@ -128,4 +126,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

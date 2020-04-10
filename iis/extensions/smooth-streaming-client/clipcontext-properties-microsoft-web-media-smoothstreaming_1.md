@@ -23,7 +23,6 @@ The [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) ty
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[NaturalDuration](clipcontext-naturalduration-property-microsoft-web-media-smoothstreaming_1.md)|Gets the natural duration for the clip.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[PlaybackDuration](clipcontext-playbackduration-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the playback duration.|
 
-
 ## See Also
 
 ### Reference
@@ -31,4 +30,3 @@ The [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) ty
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

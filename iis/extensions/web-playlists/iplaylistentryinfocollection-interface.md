@@ -18,5 +18,3 @@ The **IPlaylistEntryInfoCollection** interface represents a collection of playli
 |--- |--- |
 |[IPlaylistEntryInfoCollection::Count Property](https://msdn.microsoft.com/library/dd146265)|Gets the number of playlist entries in this collection.|
 |[IPlaylistEntryInfoCollection::Item Property](https://msdn.microsoft.com/library/dd146256)|Gets an [IPlaylistEntryInfo Interface](https://msdn.microsoft.com/library/dd146268) instance from the current playlist.|
-
-

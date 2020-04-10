@@ -18,7 +18,6 @@ The [ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[PropertiesElementName](manifestpropertiesdictionary-propertieselementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used with task definitions and job templates. The value is "properties".|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-
 [ManifestPropertiesDictionary Class](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

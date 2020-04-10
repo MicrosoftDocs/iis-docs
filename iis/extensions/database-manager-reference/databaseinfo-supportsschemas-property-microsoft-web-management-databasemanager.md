@@ -75,10 +75,8 @@ true if the database supports schemas; otherwise, false.
 
 Your provider must implement the [GetDatabaseInfo](databaseprovider-getdatabaseinfo-method-microsoft-web-management-databasemanager.md) method to return a [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.md) object for your provider. This object should indicate whether your database supports schemas.
 
-
 > [!NOTE]  
 > The schema support for a provider varies greatly between database servers; you must consult the documentation for your database server in order to determine schema support for your provider.
-
 
 ## Examples
 
@@ -121,4 +119,3 @@ The following code sample illustrates a sample [GetDatabaseInfo](databaseprovide
 [DatabaseInfo Class](databaseinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

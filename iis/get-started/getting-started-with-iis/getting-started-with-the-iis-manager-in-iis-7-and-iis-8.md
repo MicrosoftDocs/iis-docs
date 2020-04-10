@@ -13,12 +13,10 @@ by IIS Team, [Tobin Titus](https://github.com/tobint)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 ## Introduction
 
@@ -90,7 +88,6 @@ There are three types of pages in IIS
 ### List Page
 
 List pages contain lists. Most list pages let you group by values in one or more columns. The main list pages, like Sites and Application Pools, let you to filter the list entries by searching in a list column for entries that match a search string.
-
 
 **[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image7.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image6.jpg)**
 

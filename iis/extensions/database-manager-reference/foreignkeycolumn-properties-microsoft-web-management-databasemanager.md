@@ -18,7 +18,6 @@ The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasem
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](foreignkeycolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a foreign key column.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasem
 [ForeignKeyColumn Class](foreignkeycolumn-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

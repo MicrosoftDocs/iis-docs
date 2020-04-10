@@ -174,4 +174,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

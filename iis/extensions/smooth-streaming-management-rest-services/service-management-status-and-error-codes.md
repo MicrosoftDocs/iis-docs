@@ -56,4 +56,3 @@ The following table describes errors returned by the management service. If othe
 |MPE_MGMT_SLUG_HEADER_INVALID|0x8088002DL|Bad Request (400)|The path for the publishing point file in the Slug header is not valid.|
 |MPE_MGMT_PUBLISHING_POINT_NOT_STARTED|0x8088002FL|Bad Request (400)|The publishing point is not started.|
 |MPE_MGMT_PUBLISHING_POINT_NOT_FOUND|0x8088002EL|Not Found (404)|The publishing point was not found.|
-

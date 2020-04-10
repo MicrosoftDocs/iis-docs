@@ -108,19 +108,15 @@ If your provider does not support adding tables, you can use the following code 
        throw new NotImplementedException();
     }
 
-
 > [!NOTE]  
 > See the [CREATE TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms174979.aspx) topic for more information about the CREATE TABLE SQL statement.
-
 
 ## Examples
 
 The following code sample implements the CreateTable method for an OLEDB connection by using the TableInfo object that the database manager provides.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -302,4 +298,3 @@ The following code sample implements the CreateTable method for an OLEDB connect
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -75,10 +75,8 @@ true if the column allows nulla null reference (Nothing in Visual Basic) values;
 
 The following code sample shows how to use the [GetTableInfo](idbtablemanager-gettableinfo-method-microsoft-web-management-databasemanager.md) method to retrieve the table information for the table name that the database manager provides by using an OLEDB connection.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -504,4 +502,3 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -23,5 +23,3 @@ None.
 ## Parent Element
 
 [State Element (SmoothStreaming)](state-element-smoothstreaming.md)
-
-

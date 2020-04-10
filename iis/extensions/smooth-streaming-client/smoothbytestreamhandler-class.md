@@ -46,7 +46,6 @@ This class exposes the following members.
 |--- |--- |
 |[SetProperties](smoothbytestreamhandler-setproperties-method.md)|Sets the Smooth Byte Stream Handler properties.|
 
-
 ## Requirements
 
 |||
@@ -54,4 +53,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

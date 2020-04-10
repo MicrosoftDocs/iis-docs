@@ -127,10 +127,8 @@ A media clip can be scheduled for play when the [SmoothStreamingMediaElement](sm
 
 For more information, see [Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md) and [Scheduling Media Clips](scheduling-media-clips.md).
 
-
 > [!NOTE]  
 > Smooth Streaming clips scheduled by using ScheduleClip methods require manifests that start at timestamp zero and must be scheduled after the manifest is loaded. If you try to schedule a clip when the Smooth Streaming player is in an opening state, an invalidOperationException error occurs. The ScheduleClip should be called only after the ManifestReady event has occurred.
-
 
 ## Examples
 
@@ -166,4 +164,3 @@ Supported in: 5
 [ScheduleClip Overload](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

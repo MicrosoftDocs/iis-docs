@@ -25,7 +25,6 @@ The **GetProperty** method gets the value of the requested property for this ent
 |*propertyName*|A [PLAYLIST_ENTRY_PROPERTY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146267) enumeration describing the location type of the entry.|
 |*pVariantValue*|The returned property value. Implementers should return a value that represents the results of the request in propertyName.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -41,4 +40,3 @@ Implementers of the [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

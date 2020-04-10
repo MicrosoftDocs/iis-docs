@@ -49,23 +49,17 @@ First, download the latest stable release of [Joomla](http://www.joomla.org/). F
 
 Before running the Joomla installer, create the configuration file **Configuration.php**, which Joomla uses to store key configuration settings. Assign write permissions to it with the command (from the installation directory):
 
-
 [!code-console[Main](install-joomla-on-iis/samples/sample1.cmd)]
-
 
 The installer will modify the **Configuration.php** file with information provided during the installation process.
 
 Joomla uses the Administrator\Cache folder Tmp and therefore needs to be able to write and modify files in this folder. Grant "modify" permissions to the folder:
 
-
 [!code-console[Main](install-joomla-on-iis/samples/sample2.cmd)]
-
 
 Joomla uses the temporary folder Tmp to store temporary files and therefore needs to be able to write and modify files in this folder. Grant "modify" permissions to the folder:
 
-
 [!code-console[Main](install-joomla-on-iis/samples/sample3.cmd)]
-
 
 ## Set Up the Database
 

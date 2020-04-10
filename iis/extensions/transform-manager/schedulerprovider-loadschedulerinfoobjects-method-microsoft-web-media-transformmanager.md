@@ -83,7 +83,6 @@ static void LoadSchedulerInfoObjects(
 |--- |--- |
 |[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|schedulers is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
-
 ## See Also
 
 ### Reference
@@ -91,4 +90,3 @@ static void LoadSchedulerInfoObjects(
 [SchedulerProvider Class](schedulerprovider-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

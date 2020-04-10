@@ -13,13 +13,11 @@ by [Shaun Eagan](https://github.com/shauneagan)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | Server Name Indication was introduced in IIS 8.0. |
 | IIS 7.5 | Server Name Indication was not supported in IIS 7.5. |
 | IIS 7.0 | Server Name Indication was not supported in IIS 7.0. |
-
 
 <a id="TOC301258515"></a>
 
@@ -116,9 +114,7 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 
 Open a browser and navigate to [https://TAPTesting/](https://taptesting/). Note that as a part of prerequisite, your hosts file should have been modified to route this request to localhost:
 
-
 [![](iis-80-server-name-indication-sni-ssl-scalability/_static/image25.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image23.png)
-
 
 Furthermore, to see the new SSL binding type, enter the following in an elevated command-line window:
 

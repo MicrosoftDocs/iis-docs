@@ -45,4 +45,3 @@ None
 [IIS Smooth Streaming Server Manifest (Live) - smil Element](iis-smooth-streaming-server-manifest-live-smil-element.md)
 
 [IIS Smooth Streaming Server Manifest (Live) - meta Element](iis-smooth-streaming-server-manifest-live-meta-element.md)
-

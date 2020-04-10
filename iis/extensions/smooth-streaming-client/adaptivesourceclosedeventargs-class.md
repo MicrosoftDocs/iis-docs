@@ -44,7 +44,6 @@ This class exposes the following members.
 |--- |--- |
 |[AdaptiveSource Property](adaptivesourceclosedeventarg-adaptivesource-property.md)|Gets the adaptive source this event belongs to.|
 
-
 ## Requirements
 
 |||
@@ -52,4 +51,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

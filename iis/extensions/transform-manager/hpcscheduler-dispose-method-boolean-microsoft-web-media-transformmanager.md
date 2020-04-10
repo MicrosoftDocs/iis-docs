@@ -92,4 +92,3 @@ Only unmanaged resources can be disposed.
 [Dispose Overload](hpcscheduler-dispose-method-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

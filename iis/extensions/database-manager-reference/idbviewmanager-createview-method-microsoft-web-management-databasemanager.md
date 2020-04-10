@@ -111,10 +111,8 @@ public void CreateView(string connectionString, string schema, View view)
 
 }
 
-
 > [!NOTE]  
 > See the [CREATE VIEW (Transact-SQL)](https://msdn.microsoft.com/library/ms187956.aspx) topic for more information about the CREATE VIEW SQL statement.
-
 
 ## Examples
 
@@ -178,4 +176,3 @@ The following code sample implements the CreateView method to add a view to a da
 [IDbViewManager Interface](idbviewmanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

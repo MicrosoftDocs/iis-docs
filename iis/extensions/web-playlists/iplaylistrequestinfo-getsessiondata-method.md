@@ -23,7 +23,6 @@ The **GetSessionData** method gets the playlist provider specific data saved for
 |--- |--- |
 |*pbstrVarValue*|The returned session data|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -35,4 +34,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

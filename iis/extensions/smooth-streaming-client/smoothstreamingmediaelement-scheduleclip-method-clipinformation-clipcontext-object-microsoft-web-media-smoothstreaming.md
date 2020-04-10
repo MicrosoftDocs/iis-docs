@@ -107,10 +107,8 @@ The object passed in the userData parameter is saved as the [Data](clipcontext-d
 
 A media clip can be scheduled for play when the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object is in a Closed state by using the ScheduleClip method with the [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event.
 
-
 > [!NOTE]  
 > IIS Smooth Streaming Clips scheduled by using ScheduleClip methods require manifests that start at timestamp zero.
-
 
 ## Version Information
 
@@ -131,4 +129,3 @@ Supported in: 4
 [ScheduleClip Overload](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

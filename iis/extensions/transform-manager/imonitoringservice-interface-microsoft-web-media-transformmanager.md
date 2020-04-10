@@ -90,4 +90,3 @@ Local administrative group credentials must be used when using the IMonitoringSe
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -24,7 +24,6 @@ Enables the publishing point to return live streams when they are requested by c
 |--- |--- |
 |enabled|Required. true to enable the publishing point to return live streams; otherwise, false.|
 
-
 ### Child Elements
 
 [WindowLength Element](windowlength-element.md)  
@@ -40,4 +39,3 @@ Enables the publishing point to return live streams when they are requested by c
     <ClientConnections enabled="true">
       <ClientManifestVersion>2.0</ClientManifestVersion>
     </ClientConnections>
-

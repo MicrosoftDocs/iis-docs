@@ -32,7 +32,6 @@ The following sections describe attributes, child elements, and parent elements.
 |**head**|The head element is a container for presentation-level metadata.|
 |**body**|The body element is a container for track information and references to other media.|
 
-
 ### Parent Elements
 
 None
@@ -85,4 +84,3 @@ The following is an example of a Live Server Manifest.
 ### Concepts
 
 [IIS Smooth Streaming Live Server Manifest Format](iis-smooth-streaming-live-server-manifest-format.md)
-

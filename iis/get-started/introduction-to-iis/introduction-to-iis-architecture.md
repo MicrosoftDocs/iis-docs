@@ -13,17 +13,14 @@ by IIS Team, [Reagan Templin](https://github.com/arkaytee)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
 
-
 ## Introduction
 
 Internet Information Services (IIS) 7 and later provide a request-processing architecture which includes:
-
 
 - The Windows Process Activation Service (WAS), which enables sites to use protocols other than HTTP and HTTPS.
 - A Web server engine that can be customized by adding or removing modules.
@@ -55,11 +52,9 @@ In IIS 6.0, HTTP.sys replaced Windows Sockets API (Winsock), which was a user-mo
 
 HTTP.sys provides the following benefits:
 
-
 - Kernel-mode caching. Requests for cached responses are served without switching to user mode.
 - Kernel-mode request queuing. Requests cause less overhead in context switching because the kernel forwards requests directly to the correct worker process. If no worker process is available to accept a request, the kernel-mode request queue holds the request until a worker process picks it up.
 - Request pre-processing and security filtering.
-
 
 <a id="WWW"></a>
 
@@ -153,7 +148,6 @@ The following sections describe the native modules that are available with a ful
 
 Several modules in IIS 7 and later perform tasks specific to Hypertext Transfer Protocol (HTTP) in the request-processing pipeline. HTTP modules include modules to respond to information and inquiries sent in client headers, to return HTTP errors, to redirect requests, and more.
 
-
 | Module Name | Description | Resource |
 | --- | --- | --- |
 | CustomErrorModule | Sends default and configured HTTP error messages when an error status code is set on a response. | Inetsrv\Custerr.dll |
@@ -162,11 +156,9 @@ Several modules in IIS 7 and later perform tasks specific to Hypertext Transfer 
 | RequestFilteringModule | Added in IIS 7.5. Filters requests as configured to control protocol and content behavior. | Inetsrv\modrqflt.dll |
 | WebDAVModule | Added in IIS 7.5. Allows more secure publishing of content by using HTTP over SSL. | Inetsrv\WebDAV.dll |
 
-
 ### Security Modules
 
 Several modules in IIS perform tasks related to security in the request-processing pipeline. In addition, there are separate modules for each of the authentication schemes, which enable you to select modules for the types of authentication you want on your server. There are also modules that perform URL authorization, and a module that filters requests.
-
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
@@ -180,11 +172,9 @@ Several modules in IIS perform tasks related to security in the request-processi
 | WindowsAuthenticationModule | Performs NTLM integrated authentication. | Inetsrv\Authsspi.dll |
 | IpRestrictionModule | Restricts IPv4 addresses listed in the ipSecurity list in configuration. | Inetsrv\iprestr.dll |
 
-
 ### Content Modules
 
 Several modules in IIS perform tasks related to content in the request-processing pipeline. Content modules include modules to process requests for static files, to return a default page when a client doesn't specify a resource in a request, to list the contents of a directory, and more.
-
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
@@ -197,22 +187,18 @@ Several modules in IIS perform tasks related to content in the request-processin
 | StaticFileModule | Serves static files. | Inetsrv\Static.dll |
 | FastCgiModule | Supports FastCGI, which provides a high-performance alternative to CGI. | Inetsrv\iisfcgi.dll |
 
-
 ### Compression Modules
 
 Two modules in IIS perform compression in the request-processing pipeline.
-
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
 | DynamicCompressionModule | Compresses responses and applies Gzip compression transfer coding to responses. | Inetsrv\Compdyn.dll |
 | StaticCompressionModule | Performs pre-compression of static content. | Inetsrv\Compstat.dll |
 
-
 ### Caching Modules
 
 Several modules in IIS perform tasks related to caching in the request-processing pipeline. Caching improves the performance of your Web sites and Web applications by storing processed information, such as Web pages, in memory on the server, and then reusing that information in subsequent requests for the same resource.
-
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
@@ -221,11 +207,9 @@ Several modules in IIS perform tasks related to caching in the request-processin
 | TokenCacheModule | Provides user mode caching of user name and token pairs for modules that produce Windows user principals. | Inetsrv\Cachtokn.dll |
 | UriCacheModule | Provides user mode caching of URL information. | Inetsrv\Cachuri.dll |
 
-
 ### Logging and Diagnostics Modules
 
 Several modules in IIS perform tasks related to logging and diagnostics in the request-processing pipeline. The logging modules support loading of custom modules and passing information to HTTP.sys. The diagnostics modules follow and report events during request processing.
-
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
@@ -235,17 +219,14 @@ Several modules in IIS perform tasks related to logging and diagnostics in the r
 | RequestMonitorModule | Tracks requests currently executing in worker processes and reports information with Runtime Status and Control Application Programming Interface (RSCA). | Inetsrv\Iisreqs.dll |
 | TracingModule | Reports events to Microsoft Event Tracing for Windows (ETW). | Inetsrv\Iisetw.dll |
 
-
 ### Managed Support Modules
 
 A couple of modules in IIS support managed integration in the IIS request-processing pipeline.
-
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
 | ManagedEngine | Provides integration of managed code modules in the IIS request-processing pipeline. | Microsoft.NET\Framework\v2.0.50727\webengine.dll |
 | ConfigurationValidationModule | Validates configuration issues, such as when an application is running in Integrated mode but has handlers or modules declared in the system.web section. | Inetsrv\validcfg.dll |
-
 
 <a id="Managed"></a>
 
@@ -257,7 +238,6 @@ In addition to native modules, IIS enables you to use managed code modules to ex
 > Managed modules depend on the ManagedEngine module.
 
 The following table lists the managed modules that are available with a full installation of IIS 7 and later. For more information about the managed modules, see the [.NET Framework SDK 2.0](https://go.microsoft.com/fwlink/?LinkId=88414) on MSDN.
-
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
@@ -272,7 +252,6 @@ The following table lists the managed modules that are available with a full ins
 | UrlAuthorization | Determines whether the current user is permitted access to the requested URL, based on the user name or the list of roles of which a user is a member. | System.Web.Security.UrlAuthorizationModule |
 | UrlMappingsModule | Supports mapping a real URL to a more user-friendly URL. | System.Web.UrlMappingsModule |
 | WindowsAuthentication | Sets the identity of the user for an ASP.NET application when Windows authentication is enabled. | System.Web.Security.WindowsAuthenticationModule |
-
 
 <a id="Request"></a>
 
@@ -325,7 +304,6 @@ The following list describes the request-processing flow that is shown in Figure
 6. WAS starts a worker process for the application pool to which the request was made.
 7. The worker process processes the request and returns a response to HTTP.sys.
 8. The client receives a response.
-
 
 [![](introduction-to-iis-architecture/_static/image2.png)](introduction-to-iis-architecture/_static/image1.png)
 

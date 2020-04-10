@@ -45,4 +45,3 @@ None
 [IIS Smooth Streaming Server Manifest (On-Demand) - smil Element](iis-smooth-streaming-server-manifest-on-demand-smil-element.md)
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - switch Element](iis-smooth-streaming-server-manifest-on-demand-switch-element.md)
-

@@ -119,7 +119,6 @@ In the previous step we identified this server as **W2K8WEBSERVER2** so we will 
 | --- | --- | --- |
 | i | GENERAL\_REQUEST\_HEADERS | Headers="Connection: Keep-Alive Accept: \*/\* Host: localhost Max-Forwards: 10 X-Original-URL: /iisstart.htm X-Forwarded-For: 127.0.0.1:62489 X-ARR-LOG-ID: fe9d20da-a571-4451-8ef3-0e7faf1a463a |
 
-
 **IIS Advanced Logging Module:** Using Advanced logging we can add custom logging fields based on the headers X-Forwarded-For and X-ARR-LOG-ID and then used filtering to only log when these headers are present.
 
 [!code-console[Main](troubleshooting-cache-items-arr-v2/samples/sample7.cmd)]

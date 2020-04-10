@@ -232,4 +232,3 @@ The following code sample illustrates an example ExecuteQuery method that return
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

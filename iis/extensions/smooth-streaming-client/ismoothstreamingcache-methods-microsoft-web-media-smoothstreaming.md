@@ -21,7 +21,6 @@ The [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[EndPersist](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md)|A [AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5) delegate method to complete the operation started by the [BeginPersist](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[EndRetrieve](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md)|Ends an asynchronous cache response retrieval started by the [BeginRetrieve](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method.|
 
-
 ## See Also
 
 ### Reference
@@ -29,4 +28,3 @@ The [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-
 [ISmoothStreamingCache Interface](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

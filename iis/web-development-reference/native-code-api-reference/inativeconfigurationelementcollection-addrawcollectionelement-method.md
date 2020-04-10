@@ -64,4 +64,3 @@ An HRESULT. Possible values include, but are not limited to, those in the follow
 | Server | IIS 7 |
 | Product | IIS 7 |
 | Header | Nativerd_pub.h |
-

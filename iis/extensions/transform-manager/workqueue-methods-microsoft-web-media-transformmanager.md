@@ -30,4 +30,3 @@ The [WorkQueue](workqueue-class-microsoft-web-media-transformmanager.md) type ex
 [WorkQueue Class](workqueue-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

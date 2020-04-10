@@ -69,7 +69,6 @@ The Tracing type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[RemoteServerUri](tracing-remoteserveruri-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [Uri](https://msdn.microsoft.com/library/txt7706a) of the remote server.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -128,7 +127,6 @@ The Tracing type exposes the following members.
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[PostInterval](tracing-postinterval-field-microsoft-web-media-diagnostics_1.md)|The interval at which to post traces.|
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TraceHistoryMaxLines](tracing-tracehistorymaxlines-field-microsoft-web-media-diagnostics_1.md)|Maximum trace history size in number of lines.|
 
-
 ## Version Information
 
 ### Silverlight
@@ -148,4 +146,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

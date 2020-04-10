@@ -70,4 +70,3 @@ The index number for the index column's descending index.
 [IndexColumn Class](indexcolumn-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -28,7 +28,6 @@ The Enumerate Web Site Publishing Points request may be specified as follows:
 |--- |--- |
 |GET|http(s)://<hostname>/services/smoothstreaming/publishingpoints.isml|
 
-
 ### URI Parameters
 
 The following table lists URL template segments and parameters.
@@ -36,7 +35,6 @@ The following table lists URL template segments and parameters.
 |Parameter|Description|Example|
 |--- |--- |--- |
 |hostname|The host name.|Contoso.com|
-
 
 ### Request Body
 
@@ -105,4 +103,3 @@ Only elements that the authenticated user has read access to for the publishing 
 ### Concepts
 
 [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md)
-

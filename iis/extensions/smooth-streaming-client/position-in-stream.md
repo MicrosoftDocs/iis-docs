@@ -87,4 +87,3 @@ The topic [Timeline Markers and Events](timeline-markers-and-events.md) demonstr
 ### Concepts
 
 [Events](events.md)
-

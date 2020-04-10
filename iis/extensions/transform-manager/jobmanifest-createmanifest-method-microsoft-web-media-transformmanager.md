@@ -165,4 +165,3 @@ An object that contains job instance metadata.
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

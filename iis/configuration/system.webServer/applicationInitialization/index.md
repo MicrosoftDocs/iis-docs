@@ -133,7 +133,6 @@ The following examples configure **&lt;applicationInitialization&gt;** for a sit
 
 [!code-javascript[Main](index/samples/sample5.js)]
   
-
 ### VBScript
 
 [!code-vb[Main](index/samples/sample6.vb)]

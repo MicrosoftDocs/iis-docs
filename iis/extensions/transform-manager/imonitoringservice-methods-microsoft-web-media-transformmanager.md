@@ -36,4 +36,3 @@ The [IMonitoringService](imonitoringservice-interface-microsoft-web-media-transf
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -12,10 +12,8 @@ mtps_version: v=VS.90
 
 The [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event provides an option to add information to the client manifest that is used by a Smooth Streaming application. The data obtained by this process becomes an integral part of the client manifest and is available for use as defined by the application. The [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event occurs before the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event and supports methods that obtain and merge information from other sources. This is useful for situations in which the manifest is inaccessible for editing or if some information depends on locale, style, or other factors that would make the manifest too large or too slow to load if all the options were included.
 
-
 > [!NOTE]  
 > The examples in this topic extend features demonstrated in other topics in [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md). All the code is available for download in the [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167).
-
 
 ## ManifestMerge
 
@@ -303,10 +301,8 @@ After the following code runs, the markers will raise the [MarkerReached](smooth
     }
 ```
 
-
 > [!NOTE]  
 > Applications should parse the manifest for markers during the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event, but not earlier. Specifically, applications should not parse the manifest during the [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event, because all markers set before [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) are erased in Silverlight during [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md).
-
 
 For more information, see [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-and-events.md).
 
@@ -407,4 +403,3 @@ For more information, see [Timeline Markers and Events (IIS Smooth Streaming)](t
 ### Other Resources
 
 [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
-

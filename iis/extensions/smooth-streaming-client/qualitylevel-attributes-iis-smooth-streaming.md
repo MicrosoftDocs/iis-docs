@@ -32,7 +32,6 @@ The QualityLevel element supports the following attributes:
     |2|0|1.0|
     |2|1|1.1|
 
-
 <!-- end list -->
 
   - HardwareProfile: \[Optional\] Deprecated.
@@ -140,4 +139,3 @@ For presentations that use content protection, the following defaults are in eff
 ### Concepts
 
 [Stream Type, Subtype, Other Attributes (IIS Smooth Streaming)](stream-type-subtype-other-attributes.md)
-

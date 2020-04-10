@@ -21,9 +21,7 @@ Since Hosting Services Code Sample is implemented using Windows Communication Fo
 
 Calling the services from a client application involves some configuration. The SampleWebClient project is an example of such an application. Generating the proxy for each of the services can be done either through Visual Studio® 2005, or by using the SvcUtil.exe command-line utility, found in \Program Files\Microsoft SDKs\Windows\v6.0\Bin. The following command generates the proxy for the WebManagementService.svc.
 
-
 [!code-console[Main](consuming-the-services/samples/sample1.cmd)]
-
 
 The Proxy class can then be added to the project's Service References.
 
@@ -49,30 +47,21 @@ When moving the client application from one environment to another, ensure that 
 
 From the client application, add the System.ServiceModel namespace as well as the appropriate subsystem namespace.
 
-
 [!code-csharp[Main](consuming-the-services/samples/sample3.cs)]
-
 
 [!code-csharp[Main](consuming-the-services/samples/sample4.cs)]
 
-
 [!code-csharp[Main](consuming-the-services/samples/sample5.cs)]
-
 
 To call a service, you must first instantiate a proxy. The following line instantiates the proxy object for the Web subsystem's provisioning operation.
 
-
 [!code-console[Main](consuming-the-services/samples/sample6.cmd)]
   
-
 Call the method to be executed, passing the appropriate parameter. In cases where the parameter consists of more complex data types, find the definition in the corresponding Data Contract class.
-
 
 [!code-console[Main](consuming-the-services/samples/sample7.cmd)]
 
-
 Then close the proxy. Closing the proxy terminates the session with the service and closes the connection.
-
 
 [!code-console[Main](consuming-the-services/samples/sample8.cmd)]
 

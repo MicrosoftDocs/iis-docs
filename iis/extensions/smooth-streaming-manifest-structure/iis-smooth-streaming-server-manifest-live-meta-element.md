@@ -27,7 +27,6 @@ The following sections describe attributes, child elements, and parent elements.
 |**name**|The title of the presentation.This attribute is required.|
 |**content**|Specifies the value of the metadata.This attribute is required.|
 
-
 #### name Attribute
 
 |Value|Description|
@@ -53,4 +52,3 @@ In the live manifest scenario, the clientManifestRelativePath value for the name
 ### Reference
 
 [IIS Smooth Streaming Server Manifest (Live) - head Element](iis-smooth-streaming-server-manifest-live-head-element.md)
-

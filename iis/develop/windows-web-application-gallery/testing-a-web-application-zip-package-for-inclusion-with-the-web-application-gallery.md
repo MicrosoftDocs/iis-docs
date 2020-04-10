@@ -50,9 +50,7 @@ In the WebProductList.xml feed, look for the reference to WebApplicationList.xml
 
 ##### Example:
 
-
 [!code-html[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample1.html)]
-
 
 Save the change.
 
@@ -64,17 +62,13 @@ When you find &quot;&lt;productId&gt;SimilarApp&lt;/productId&gt;&quot;, you wil
 
 ##### Example
 
-
 [!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample2.xml)]
-
 
 Change the location within that element to point to your local application zip package.
 
 ##### Example
 
-
 [!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample3.xml)]
-
 
 You will also need to find the &lt;sha1&gt; element and change it to the new hash value or remove it. If you forget this step, your application testing will fail based on mismatched hash values.   
  Save the changes.

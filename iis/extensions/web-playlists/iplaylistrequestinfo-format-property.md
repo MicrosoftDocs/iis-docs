@@ -29,7 +29,6 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 > [!Note]  
 > ASX is the only format supported at this time.
 
-
 ## Requirements
 
 **Header:** playlistprovider.h
@@ -37,4 +36,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

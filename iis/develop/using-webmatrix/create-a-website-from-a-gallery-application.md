@@ -112,7 +112,6 @@ And after you've selected a hosting company, WebMatrix Beta takes care of all th
 
 [![](create-a-website-from-a-gallery-application/_static/image55.png)](create-a-website-from-a-gallery-application/_static/image54.png)
 
-
 To actually publish your site, WebMatrix Beta has built-in support for FTP, FTPS, and Microsoft Web Deploy, which is a one-click publishing solution. Once you've established an account with an Internet hosting company, enter your account settings into the WebMatrix Beta tool. Then all you have to do to publish your site directly from WebMatrix Beta is click **Publish**. It's as easy as that!
 
 Simply select **Publish** from the WebMatrix Beta toolbar, choose **Configure**, enter your account details and your method of publishing (**FTP**, **FTPS** or **Web Deploy**). With Web Deploy you can deploy your site's content, the database and any configuration changes you require, all in one click!

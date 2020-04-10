@@ -31,7 +31,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri, Uri, Duration)](clipinformation-constructor-boolean-uri-uri-duration-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) class.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri, Uri, Duration, ISmoothStreamingCache)](clipinformation-constructor-boolean-uri-uri-duration-ismoothstreamingcache-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) class.|
 
-
 ## See Also
 
 ### Reference
@@ -39,4 +38,3 @@ This member is overloaded. For complete information about this member, including
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

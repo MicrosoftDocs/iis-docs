@@ -18,7 +18,6 @@ The [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.m
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[SupportsSchemas](databaseinfo-supportsschemas-property-microsoft-web-management-databasemanager.md)|Specifies whether the database supports schemas.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.m
 [DatabaseInfo Class](databaseinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

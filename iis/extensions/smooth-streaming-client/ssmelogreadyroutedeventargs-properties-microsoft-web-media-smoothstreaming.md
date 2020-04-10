@@ -20,7 +20,6 @@ The [SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-we
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[LogSource](ssmelogreadyroutedeventargs-logsource-property-microsoft-web-media-smoothstreaming_1.md)|Gets a value that indicates why the log was generated.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[OriginalSource](ssmelogreadyroutedeventargs-originalsource-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the object that raised the event.|
 
-
 ## See Also
 
 ### Reference
@@ -28,4 +27,3 @@ The [SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-we
 [SSMELogReadyRoutedEventArgs Class](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

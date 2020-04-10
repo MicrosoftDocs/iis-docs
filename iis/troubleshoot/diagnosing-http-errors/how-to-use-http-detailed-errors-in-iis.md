@@ -66,7 +66,6 @@ The httpError module receives a notification if a response is about to be sent (
 
 The next check is determined by the request origin (is the request a local or remote request) and the setting of the errorMode property. The errorMode property is set to DetailedLocalOnly, which means that Custom Errors are generated for every remote request. If errorMode is set to "Custom", then all error responses will become Custom Error. If errorMode is set to "Detailed" all error responses will become Detailed Errors. The following table clarifies this behavior:
 
-
 | errorMode | Request origin | Action |
 | --- | --- | --- |
 | DetailedLocalOnly (default) | Local | Detailed Error |
@@ -75,7 +74,6 @@ The next check is determined by the request origin (is the request a local or re
 | Custom | Remote | Custom Error |
 | Detailed | Local | Detailed Error |
 | Detailed | Remote | Detailed Error |
-
 
 If the httpError module determines that a Custom Error must be generated, it looks into its configuration to see if it can find a matching error. If a match is found, it sends the static file, redirects the request or executes the URL specified. If no match can be found, IIS send a basic one-line message containing the status code. The next section explains the Custom Error configuration in detail.
 
@@ -92,7 +90,6 @@ You see that if the status code of a response is 401, IIS will return a file nam
 ### Sub-Status Codes
 
 Many HTTP errors have a sub-status. The IIS default Custom Errors configuration does not differentiate based sub-status codes. It sends the same Custom Error page if you enter the wrong credentials (401.1), or if you get access denied based on invalid rights to access a file (401.3). You can see the different sub-status codes in the log files or via Detailed Errors. Here is a list of the different 404 sub-status codes that IIS produces:
-
 
 | Status | Description |
 | --- | --- |
@@ -111,7 +108,6 @@ Many HTTP errors have a sub-status. The IIS default Custom Errors configuration 
 | 404.15 | The Request Filtering module rejected a request with a too long query string. |
 | 413.1 | The Request Filtering module rejected a request that was too long (request + entity body). |
 | 431 | The Request Filtering module rejected a header that was too long. |
-
 
 You can configure the httpErrors section to show a Custom Error for particular sub-status codes. If you add the following line to the httpErrors configuration section, IIS returns 404\_3.htm if a file with a file extension is requested that is not included in the IIS MimeMap (&lt;staticContent&gt; configuration section).
 
@@ -164,7 +160,6 @@ If you want to do more in your custom error, e.g. sending an e-mail or logging t
 ## Security Considerations
 
 A word of caution: For architectural reasons, IIS can only execute the URL if it is located in the same Application Pool. Use the redirect feature to execute a Custom Error in a different Application Pool.
-
 
 IIS can also return a 302 Redirect to the browser when a particular error occurs. Redirect is good if you have a server farm. For instance, you can redirect all your errors to a central location that you closely monitor.
 

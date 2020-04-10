@@ -24,7 +24,6 @@ Defines a property that is associated with a stream source or destination.
 |--- |--- |
 |name|Required. The name of the property.|
 
-
 ### Child Elements
 
 None.
@@ -32,5 +31,3 @@ None.
 ### Parent Element
 
 [Properties Element](properties-element.md)
-
-

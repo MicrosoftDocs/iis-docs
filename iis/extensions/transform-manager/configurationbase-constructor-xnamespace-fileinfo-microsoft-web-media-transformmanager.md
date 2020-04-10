@@ -106,4 +106,3 @@ fileInfo is null Nothing nullptr unit a null reference (Nothing in Visual Basic)
 [ConfigurationBase Overload](configurationbase-constructor-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

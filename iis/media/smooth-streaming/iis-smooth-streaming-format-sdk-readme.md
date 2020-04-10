@@ -70,7 +70,6 @@ The **Samples\SSFBasicMuxer** subdirectory contains the following files:
 > 
 > See the license terms that accompany this package for more information about redistribution rights.
 
-
 <a id="issues"></a>
 
 ## Known Issues in this Release

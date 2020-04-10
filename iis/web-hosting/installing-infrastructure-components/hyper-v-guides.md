@@ -30,7 +30,6 @@ Hosters can take advantage of Hyper-V to implement a variety of scenarios, for e
 - Desktops as Hyper-V guests
 - End customers running Microsoft products using the customers' own licenses on the guest OS
 
-
 ## Learn Hyper-V
 
 The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Virtualization%20360-Microsoft%20Virtualization%20Strategy.wmv "video") provides an overview of Microsoft virtualization technologies and strategy, and explains why the technology has evolved to what it is now and where it is going in the future. It walks you through the various forms of virtualization: profile, presentation, desktop, application, server, and network.
@@ -40,7 +39,6 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-H
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") includes the slides that are presented in the video above. 
 
 The following [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") describes the value proposition for Hyper-V:
-
 
 [![](hyper-v-guides/_static/image5.jpg)](hyper-v-guides/_static/image4.jpg)
 
@@ -75,7 +73,6 @@ This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6
 Review the [Planning and Design Guide](https://technet.microsoft.com/library/cc196387.aspx "Planning and Design Guide") for a comprehensive guide about Microsoft infrastructure products.
 
 ## Deploying Hyper-V
-
 
 The following [video](https://www.microsoft.com/emea/spotlight/sessionh.aspx?videoid=999&amp;PUID=0003BFFD806C3741 "video") provides a guide to Hyper-V deployment. It includes hardware requirements, storage, networking, high availability, backup, and SVMM deployment best practices.
 

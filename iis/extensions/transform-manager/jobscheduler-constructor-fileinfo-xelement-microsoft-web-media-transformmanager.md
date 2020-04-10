@@ -94,7 +94,6 @@ JobScheduler(
 |--- |--- |
 |[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|jobSchedulerElement is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
-
 ## See Also
 
 ### Reference
@@ -104,4 +103,3 @@ JobScheduler(
 [JobScheduler Overload](jobscheduler-constructor-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

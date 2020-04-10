@@ -34,4 +34,3 @@ This member is overloaded. For complete information about this member, including
 [CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

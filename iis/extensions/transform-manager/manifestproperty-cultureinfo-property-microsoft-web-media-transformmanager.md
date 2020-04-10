@@ -96,4 +96,3 @@ Culture information includes information about a specific culture, including the
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

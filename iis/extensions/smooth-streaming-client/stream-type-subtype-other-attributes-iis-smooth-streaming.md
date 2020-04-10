@@ -44,7 +44,6 @@ Depending on the value of the Type attribute, the following additional attribute
 |Name|Optional|Optional|Optional|
 |Subtype|Optional|Not supported|Required|
 
-
 ### Other Constraints on Attributes
 
 This section describes other constraints that might apply.
@@ -75,10 +74,8 @@ The encoder can use non-square pixels to code the video, subject to the followin
 
   - The following is true: PAR= DAR/SAR=(DisplayWidth\*MaxHeight)/(MaxWidth\*DisplayHeight).
 
-
 > [!NOTE]  
 > The DisplayWidth and DisplayHeight elements are informative, but clients may disregard these values. If DisplayWidth and DisplayHeight indicate a different aspect ratio than MaxWidth and MaxHeight, clients with decoders that are not PAR-aware should treat a difference in the DAR and SAR as a signal that coded pixels are not square and stretch the image by the PAR computed from DisplayWidth, DisplayHeight, MaxWidth, and MaxHeight.
-
 
 When the StreamIndex element's Type attribute has the value "video", the Subtype attribute specifies that the track is binary data. Defined values are:
 
@@ -107,4 +104,3 @@ When the value of the StreamIndex element's Type attribute is "text", the Subtyp
 ### Concepts
 
 [QualityLevel, Attributes (IIS Smooth Streaming)](qualitylevel-attributes.md)
-

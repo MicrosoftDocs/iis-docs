@@ -74,7 +74,6 @@ When migrating an FPSE web site to WebDAV, there are several folders that must b
 | \_vti\_txt | This folder contains the text indices and catalogs for the older FrontPage WAIS search. Since later versions of FrontPage only used Index Server, it is safe to delete this folder, but at the very least it should be secured to prevent browsing. |
 | fpdb | FrontPage keeps databases in this folder, so it should be secured to prevent browsing. |
 
-
 <a id="02a"></a>
 
 ### Step 1: Removing FPSE from Your Web Site
@@ -162,7 +161,6 @@ After completing the above steps the resulting code in the **requestFiltering** 
 
 [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample8.xml)]
 
-
 <a id="02b2"></a>
 
 #### Allowing Access to Blocked HTTP Verbs
@@ -180,7 +178,6 @@ After completing the above steps the resulting code in the **verbs** section of 
 
 [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample11.xml)]
 
-
 <a id="02b3"></a>
 
 #### Allowing Access to Blocked File Extensions
@@ -197,7 +194,6 @@ Request Filtering will block certain file extensions like ".config" and ".asax" 
 After completing the above steps the resulting code in the **fileExtensions** section of your applicationHost.config file should resemble the following example:
 
 [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample14.xml)]
-
 
 <a id="02c"></a>
 
@@ -225,7 +221,6 @@ To run this script, use the following steps:
 6. Close the command prompt.
 
 	[!code-vb[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample17.vb)]
-
 
 <a id="03"></a>
 

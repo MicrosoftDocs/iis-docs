@@ -33,7 +33,6 @@ ARR Version 2 is an incremental release that includes all of the features from V
 > - ARR Version 2 RTW supports upgrading from ARR Version 1 RTW and from ARR Version 2 RC. If any other version of ARR is already installed, uninstall it before proceeding with the ARR Version 2 installation.
 > - The minimum supported resolution for IIS Manager is 1024x768.
 
-
 ## Features
 
 ARR Version 2 includes the following key features:

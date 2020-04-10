@@ -83,4 +83,3 @@ The string for the local scheduler folder name is "IIS Transform Manager\\".
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

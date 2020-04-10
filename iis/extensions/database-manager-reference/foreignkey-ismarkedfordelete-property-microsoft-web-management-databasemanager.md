@@ -82,4 +82,3 @@ true if the foreign key is marked for deletion; otherwise, false.
 [ForeignKey Class](foreignkey-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

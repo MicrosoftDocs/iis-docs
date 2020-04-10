@@ -68,7 +68,6 @@ The CacheResponse type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CacheResponse(Stream)](cacheresponse-constructor-stream-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the CacheResponse class from a [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CacheResponse(Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime)](cacheresponse-constructor-int64-string-webheadercollection-stream-httpstatuscode-string-datetime-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the CacheResponse class from the parameters.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -80,7 +79,6 @@ The CacheResponse type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Response](cacheresponse-response-property-microsoft-web-media-smoothstreaming_1.md)|A [Stream](https://msdn.microsoft.com/library/8f86tw9e) object that contains the response.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StatusCode](cacheresponse-statuscode-property-microsoft-web-media-smoothstreaming_1.md)|An HTTPStatusCode enumeration object.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StatusDescription](cacheresponse-statusdescription-property-microsoft-web-media-smoothstreaming_1.md)|A string that contains the status description.|
-
 
 ## Methods
 
@@ -94,7 +92,6 @@ The CacheResponse type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ReadFrom](cacheresponse-readfrom-method-microsoft-web-media-smoothstreaming_1.md)|Reads the response from a [Stream](https://msdn.microsoft.com/library/8f86tw9e) object. There is no default implementation for this method. Calling the method without implementing an override will result in a [NotSupportedException](https://msdn.microsoft.com/library/8a7a4e64).|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[WriteTo](cacheresponse-writeto-method-microsoft-web-media-smoothstreaming_1.md)|Writes the response to a [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.|
-
 
 ## Remarks
 
@@ -121,4 +118,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

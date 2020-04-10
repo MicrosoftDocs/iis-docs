@@ -47,7 +47,6 @@ The following graphic shows the role control panels play when working with Windo
 
 [![](hosted-services-control-panels/_static/image2.png)](hosted-services-control-panels/_static/image1.png)
 
-
 ### Recommended Control Panels
 
 Microsoft does not currently offer a control panel to shared and dedicated hosting providers, but there are many control panel products on the market to choose from. Below are a few of the control panel offerings on the market today that cater to hosting providers:

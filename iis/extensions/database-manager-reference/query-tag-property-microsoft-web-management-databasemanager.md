@@ -86,4 +86,3 @@ The Tag property provides a simple storage mechanism that lets your database pro
 [Query Class](query-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

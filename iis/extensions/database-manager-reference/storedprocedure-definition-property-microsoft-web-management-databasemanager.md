@@ -86,4 +86,3 @@ The definition for a stored procedure contains the collection of SQL statements 
 [StoredProcedure Class](storedprocedure-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

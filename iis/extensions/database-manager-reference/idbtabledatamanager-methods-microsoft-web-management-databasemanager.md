@@ -28,4 +28,3 @@ The [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

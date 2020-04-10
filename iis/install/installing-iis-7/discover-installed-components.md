@@ -25,7 +25,6 @@ These keys appear in the following registry hive:
 
 [!code-console[Main](discover-installed-components/samples/sample1.cmd)]
 
-
 | Display Name | Registry Key |
 | --- | --- |
 | Web Server | W3SVC |

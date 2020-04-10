@@ -86,4 +86,3 @@ The data in some database columns is computed by the database server; for exampl
 [QueryColumnMetadata Class](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

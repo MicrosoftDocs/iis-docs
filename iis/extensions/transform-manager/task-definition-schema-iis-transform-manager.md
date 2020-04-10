@@ -161,4 +161,3 @@ The defining elements and attributes of the task definition XML are specified in
 ### Concepts
 
 [Custom Task Registration (IIS Transform Manager)](custom-task-registration-iis-transform-manager.md)
-

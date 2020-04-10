@@ -11,4 +11,3 @@ mtps_version: v=VS.90
 # IIS Smooth Streaming Server Manifest (Live)
 
 The Live Server Manifest is provided to the server by the encoder, and it is used to enable the server to interpret the incoming live stream, assign appropriate semantic meaning to the tracks in the stream, and to create a Client Manifest that conveys the parameters necessary to decode the data and make appropriate heuristic decisions.
-

@@ -100,7 +100,6 @@ For most production environments, the majority of services required for deployme
 
 ### Prerequisites for Installing Windows Deployment Services
 
-
 The following are requirements for installing this role, depending on if you install Deployment Server or Transport Server.
 
 > [!NOTE]

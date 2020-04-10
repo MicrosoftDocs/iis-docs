@@ -32,4 +32,3 @@ The [SchedulerProvider](schedulerprovider-class-microsoft-web-media-transformman
 [SchedulerProvider Class](schedulerprovider-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

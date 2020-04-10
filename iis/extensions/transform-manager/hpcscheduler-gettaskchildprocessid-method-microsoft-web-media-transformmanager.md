@@ -93,4 +93,3 @@ The ID of the child process of a task that is an executable program.
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

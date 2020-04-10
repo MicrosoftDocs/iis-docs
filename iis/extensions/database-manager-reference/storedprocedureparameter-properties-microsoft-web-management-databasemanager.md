@@ -30,4 +30,3 @@ The [StoredProcedureParameter](storedprocedureparameter-class-microsoft-web-mana
 [StoredProcedureParameter Class](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

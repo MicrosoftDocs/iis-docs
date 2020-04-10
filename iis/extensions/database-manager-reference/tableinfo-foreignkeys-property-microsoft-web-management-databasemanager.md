@@ -76,4 +76,3 @@ An IList interface that contains a collection of [ForeignKey](foreignkey-class-m
 [TableInfo Class](tableinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

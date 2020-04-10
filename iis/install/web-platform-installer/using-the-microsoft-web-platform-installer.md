@@ -50,7 +50,6 @@ Download [Web PI](https://www.microsoft.com/web/Downloads/platform.aspx). WebPI 
 
 ![WebPI v3 Spotlight](using-the-microsoft-web-platform-installer/_static/image2.png "WebPI v3 Spotlight")
 
-
 ###### Figure 1: "WebPI Spotlight" tab
 
 WebPI separates the components you can install into two main categories: Products and Applications. In the Products tab, you will find all the components you need to build and maintain your web sites. The Applications tab is home to our wide collection of open-source applications that you can use as a great starting place for developing your sites
@@ -58,7 +57,6 @@ WebPI separates the components you can install into two main categories: Product
 The "Products" tab shows the four main components: Server, Frameworks, Database and Tools.
 
 ![](using-the-microsoft-web-platform-installer/_static/image4.png)
-
 
 ###### Figure 2: "Products" tab
 
@@ -86,13 +84,11 @@ To see all the IIS components available for installation, just search for **IIS*
 
 ![](using-the-microsoft-web-platform-installer/_static/image10.png)
 
-
 ###### Figure 3: Searching for IIS components in WebPI
 
 You can learn more about the IIS extension by double-clicking the extension name. For example, on the details page for an IIS component, you can learn more about what the extension does before installing it, and there are links to even more detailed descriptions.
 
 ![](using-the-microsoft-web-platform-installer/_static/image14.png)
-
 
 ###### Figure 4: More information on the IIS: FTP Publishing Service 7.5
 
@@ -198,10 +194,8 @@ Note that because Web PI brings together community applications, Microsoft Web P
 
 You can also refer to [Windows Web Application Gallery: Known Issues](../../develop/windows-web-application-gallery/windows-web-application-gallery-known-issues.md).
 
-
 > [!NOTE]
 > *This article updates:*[Web Platform Installer 2.0 Walkthrough](../../web-hosting/configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md)*by the IIS Team, published on September 28, 2009.*
-
 
 ## Links for Further Information
 

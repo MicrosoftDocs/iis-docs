@@ -77,4 +77,3 @@ Supported in: 4
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

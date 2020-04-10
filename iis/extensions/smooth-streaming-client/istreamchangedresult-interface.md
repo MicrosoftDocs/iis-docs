@@ -48,7 +48,6 @@ This interface exposes the following members.
 |[ResultCode](istreamchangedresult-resultcode-property.md)|Gets the result code.|
 |[Stream](istreamchangedresult-stream-property.md)|Gets the stream that is selected or de-selected.|
 
-
 ## Requirements
 
 |||
@@ -56,4 +55,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

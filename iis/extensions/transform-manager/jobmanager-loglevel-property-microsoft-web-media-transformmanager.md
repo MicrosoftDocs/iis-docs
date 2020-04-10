@@ -80,4 +80,3 @@ A log level value that is contained in the log level element of the IIS Transfor
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

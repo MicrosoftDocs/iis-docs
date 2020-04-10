@@ -108,4 +108,3 @@ This method writes a date/time string, the log level, and the string to the log 
 [WriteLine Overload](logger-writeline-method-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

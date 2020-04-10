@@ -254,7 +254,6 @@ These features are deprecated and are no longer available.
 
 Most of the issues listed below involve features have no IIS 7.0 or above user interface (UI). Even if there is no IIS 7.0 or above UI for a particular feature, you can still configure it; typically this is done by manually editing the XML configuration files.
 
-
 | New or updated feature | New way to work with this feature |
 | --- | --- |
 | Client Certificate Mapping | Although this feature is not in the IIS 7.0 or above UI, you can still use this feature by directly editing the XML configuration file, using WMI or Appcmd.exe. For more information about Client Certificate Mapping, see [IIS 7.0 Beta: Configure Client Certificate Mapping Authentication](https://go.microsoft.com/fwlink/?LinkId=78498) at the Microsoft TechCenter site. |

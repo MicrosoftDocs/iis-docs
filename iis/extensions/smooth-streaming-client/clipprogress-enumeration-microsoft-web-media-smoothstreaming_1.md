@@ -82,7 +82,6 @@ public enum ClipProgress
 ||Complete|The media clip has reached the end.|
 ||Unknown|The progress of the media clip is unknown.|
 
-
 ## Version Information
 
 ### Silverlight
@@ -94,4 +93,3 @@ Supported in: 5
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

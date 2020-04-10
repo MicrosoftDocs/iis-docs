@@ -51,9 +51,7 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 
 To configure the recycling behavior of FastCGI and PHP via **appcmd**, use the following commands:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample1.cmd)]
-
 
 ## Disable Unneeded Services and Processes
 
@@ -90,9 +88,7 @@ To use the UI, open the IIS Manager and navigate to the level you want to manage
 
 To use the command line to disable logging, use the following syntax:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample2.cmd)]
-
 
 ## Enable Bandwidth Throttling
 
@@ -138,9 +134,7 @@ The HTTP keep-alive response header improves Web server performance by keeping a
 
 To enable the HTTP keep-alive header from the command line, use the following syntax:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample3.cmd)]
-
 
 ## Use HTTP Compression
 
@@ -161,9 +155,7 @@ You can configure HTTP compression by using the UI, by running Appcmd.exe comman
 
 For example, to enable dynamic content compression from the command line, type the following and press ENTER:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample4.cmd)]
-
 
 To enable compression on a particular site from the UI, select the site, and then, from the Work pane, select the Compression management tool. Choose whether you want to compress static content, dynamic content, or both.
 
@@ -192,9 +184,7 @@ You can enable Forms Authentication by using the UI, running Appcmd.exe in a com
 
 To enable or disable Forms Authentication from the command line, use the following syntax:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample5.cmd)]
-
 
 ## Manage IIS 7.0 and above with the PowerShell Provider
 
@@ -219,9 +209,7 @@ The IIS PowerShell Provider allows you to:
 
 For example, you can create a new application pool from the PowerShell Provider. This only requires the name to be specified.
 
-
 [!code-powershell[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample6.ps1)]
-
 
 For more information, see the article "[Managing IIS with the IIS 7.0 and Above PowerShell Snap-in](../../manage/powershell/index.md)."
 
@@ -259,9 +247,7 @@ In an attempt to solve these problems, the IIS team developed the FastCGI compon
 
 IIS uses a configuration file named web.config. This file can be placed at any point within an application, and is used to include Web server directives that affect that directory and the ones below it. Many applications currently distribute the file .htaccess, which provides a similar set of capabilities. You can use the web.config file to identify the default document for your application, as follows:
 
-
 [!code-xml[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample7.xml)]
-
 
 The bold **remove** entry in this example is required. If there is a previous definition for Index.php, this will remove it and place the new one at the top of the default document list. If there isn't a previous one, the remove will be ignored.
 
@@ -271,9 +257,7 @@ IIS includes a URL Rewriter module comprising a complete, expression-based engin
 
 A typical simple rewrite rule, which converts all requests that come in to *http.example.com* into `http://www.example.com`, is shown in the following code:
 
-
 [!code-xml[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample8.xml)]
-
 
 ## Use the Request Filtering Module
 

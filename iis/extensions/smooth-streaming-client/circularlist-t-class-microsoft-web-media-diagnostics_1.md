@@ -91,7 +91,6 @@ The CircularList\<T\> type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Count](https://msdn.microsoft.com/library/27b47ht3(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<T>.)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Item](https://msdn.microsoft.com/library/0ebtbkkc(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<T>.)|
 
-
 ## Methods
 
 |                                                                                                                                                                                    |                                                Name                                                 |                                    Description                                    |
@@ -169,7 +168,6 @@ The CircularList\<T\> type exposes the following members.
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Ff728198.privmethod(en-us,VS.90).gif "Private method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[IList.Remove](https://msdn.microsoft.com/library/bb343997(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<T>.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ICollection.SyncRoot](https://msdn.microsoft.com/library/bb356596(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<T>.)|
 
-
 ## Version Information
 
 ### Windows Phone
@@ -185,4 +183,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

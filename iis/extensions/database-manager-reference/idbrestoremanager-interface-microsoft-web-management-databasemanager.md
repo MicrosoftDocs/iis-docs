@@ -60,7 +60,6 @@ The IDbRestoreManager type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[RestoreBackup](idbrestoremanager-restorebackup-method-microsoft-web-management-databasemanager.md)|Restores a database backup.|
 
-
 ## Remarks
 
 In order to implement database restore features in your database provider, you need to implement IDbRestoreManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md).
@@ -78,4 +77,3 @@ If your provider implements the IDbRestoreManager interface, your provider must 
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -107,10 +107,8 @@ All database providers that implement the [IDbTableManager](idbtablemanager-inte
 
 The following code sample shows how to use the GetTableInfo method to retrieve the table information for the table name from a database.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -536,4 +534,3 @@ The following code sample shows how to use the GetTableInfo method to retrieve t
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

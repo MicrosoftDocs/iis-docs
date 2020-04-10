@@ -165,7 +165,6 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 
 ![](windows-media-server-or-web-server/_static/image3.gif)= This feature or function is not supported.
 
-
 | **Windows Server 2008 Feature** | **Windows Media Services 2008** | **Internet Information Services** |
 | --- | --- | --- |
 | Optimized for streaming [Windows Media-based content](https://www.microsoft.com/windows/windowsmedia/forpros/prosolutions.mspx) | [![](windows-media-server-or-web-server/_static/image5.gif)](windows-media-server-or-web-server/_static/image4.gif) | **1![](windows-media-server-or-web-server/_static/image6.gif)** |
@@ -185,7 +184,6 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 | Provides advanced performance boundary limits properties | ![](windows-media-server-or-web-server/_static/image33.gif) | **1![](windows-media-server-or-web-server/_static/image34.gif)** |
 | Supported on Server Core installations | ![](windows-media-server-or-web-server/_static/image35.gif) | ![](windows-media-server-or-web-server/_static/image36.gif) |
 | Available for [Windows Web Server 2008](https://www.microsoft.com/windowsserver2008/en/us/editions-overview.aspx) | ![](windows-media-server-or-web-server/_static/image37.gif) | ![](windows-media-server-or-web-server/_static/image38.gif) |
-
 
 **1**[IIS Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)  
 **2**[IIS Live Smooth Streaming](https://www.iis.net/downloads/microsoft/live-smooth-streaming)  

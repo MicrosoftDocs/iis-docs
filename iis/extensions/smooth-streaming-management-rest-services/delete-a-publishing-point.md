@@ -24,7 +24,6 @@ The Delete a Publishing Point request may be specified as follows:
 |--- |--- |
 |DELETE|http(s)://<hostname>/<filepath>/settings|
 
-
 ### URI Parameters
 
 URL template segments and parameters.
@@ -53,4 +52,3 @@ None.
 ## Authorization
 
 The authenticated user must have write access to the publishing point settings .isml file.
-

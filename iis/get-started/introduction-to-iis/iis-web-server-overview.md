@@ -13,12 +13,10 @@ by IIS Team, [Mike Volodarsky](https://github.com/leanserver)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 The IIS 7 and later web servers have a completely modular architecture which offers three key benefits:
 

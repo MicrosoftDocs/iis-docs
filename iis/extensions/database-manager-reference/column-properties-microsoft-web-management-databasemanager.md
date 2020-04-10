@@ -31,7 +31,6 @@ The [Column](column-class-microsoft-web-management-databasemanager.md) type expo
 ||[Tag](column-tag-property-microsoft-web-management-databasemanager.md)|Returns a generic object that is stored in the [Column](column-class-microsoft-web-management-databasemanager.md) class.|
 ||[TypeInfo](column-typeinfo-property-microsoft-web-management-databasemanager.md)|Retrieves the type information for a column.|
 
-
 ## See Also
 
 ### Reference
@@ -39,4 +38,3 @@ The [Column](column-class-microsoft-web-management-databasemanager.md) type expo
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

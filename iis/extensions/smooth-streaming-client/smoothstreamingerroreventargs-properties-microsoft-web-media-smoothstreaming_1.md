@@ -20,7 +20,6 @@ The [SmoothStreamingErrorEventArgs](smoothstreamingerroreventargs-class-microsof
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ErrorException](smoothstreamingerroreventargs-errorexception-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [ErrorException](smoothstreamingerroreventargs-errorexception-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ErrorMessage](smoothstreamingerroreventargs-errormessage-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [ErrorMessage](smoothstreamingerroreventargs-errormessage-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
-
 ## See Also
 
 ### Reference
@@ -28,4 +27,3 @@ The [SmoothStreamingErrorEventArgs](smoothstreamingerroreventargs-class-microsof
 [SmoothStreamingErrorEventArgs Class](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

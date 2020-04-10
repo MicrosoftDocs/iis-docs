@@ -90,4 +90,3 @@ true if maintenance should be run at a specified interval, or false if maintenan
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

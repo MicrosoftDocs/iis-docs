@@ -58,17 +58,13 @@ More triggers may be added in future versions of WebMatrix, or via WebMatrix ext
 
 Your feed just needs to be in the Atom format with an additional custom namespace that adds a place for trigger definitions and [OPML style](http://www.opml.org/ "OPML") outlining capabilities:
 
-
 [!code-xml[Main](creating-a-content-feed-for-learning/samples/sample1.xml)]
-
 
 The custom namespace allows you to create two new kinds of tags in each Atom `<entry>` block - **ConditionRef** tags that are used to identify which trigger the content should launch on and **Outline** tags that are used to lay out a hierarchy of content (if necessary).
 
 Average entries in the feed will just be single links, so they will not need Outline nodes. They might look something like this:
 
-
 [!code-html[Main](creating-a-content-feed-for-learning/samples/sample2.html)]
-
 
 The `<title>` and `<link>` elements are used to render the link in the sidebar. The `<d:DynamicHelp>` block contains one `<d:ConditionRef>` element that points to a specific trigger ("KnownAppInSiteWorkspace" above) and passes in the required parameter of "appId" so the content will only be shown with that application.
 
@@ -78,9 +74,7 @@ Things can be more complex when you'd like to lay out a detailed hierarchy (e.g.
 
 Here is an example where there are three consecutive parts of a series, represented using the `<d:Outline>` nodes:
 
-
 [!code-html[Main](creating-a-content-feed-for-learning/samples/sample3.html)]
-
 
 Just like in OPML, each &lt;d:Outline&gt; node can have the following attributes in addition to the required ***text*** attribute:
 

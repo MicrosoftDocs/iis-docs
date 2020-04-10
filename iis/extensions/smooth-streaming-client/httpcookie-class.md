@@ -52,7 +52,6 @@ This class exposes the following members.
 |[Uri](httpcookie-uri-property.md)|Gets the URI.|
 |[Value](httpcookie-value-property.md)|Gets the value of the http cookie.|
 
-
 ## Requirements
 
 |||
@@ -60,4 +59,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

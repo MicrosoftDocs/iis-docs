@@ -21,7 +21,6 @@ by [Chris Sfanos](https://github.com/chrissfanos)
   
  x64: [https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller\_amd64\_en-US.msi](https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller_amd64_en-US.msi)  
   
-  
 **WebPI 4.6**  
   
  x86: [https://download.microsoft.com/download/7/0/4/704CEB4C-9F42-4962-A2B0-5C84B0682C7A/WebPlatformInstaller\_x86\_en-US.msi](https://download.microsoft.com/download/7/0/4/704CEB4C-9F42-4962-A2B0-5C84B0682C7A/WebPlatformInstaller_x86_en-US.msi)  

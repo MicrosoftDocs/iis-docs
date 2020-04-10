@@ -117,19 +117,15 @@ public QueryResult GetData(string connectionString, string tableName, string sch
 
 }
 
-
 > [!NOTE]  
 > See the [SELECT Clause (Transact-SQL)](https://msdn.microsoft.com/library/ms176104.aspx) topic for more information about the SELECT SQL statement.
-
 
 ## Examples
 
 The following code sample implements the GetData method to retrieve the data in a database table from an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -346,4 +342,3 @@ The following code sample implements the GetData method to retrieve the data in 
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

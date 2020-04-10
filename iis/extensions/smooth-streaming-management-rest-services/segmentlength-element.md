@@ -24,8 +24,6 @@ None.
 
 [Archive Element](archive-element.md)
 
-
 ## Remarks
 
 The duration is specified in a format like "PT1H15M30.5S". The default value (0) generates a single Smooth Streaming presentation for the entire live broadcast.
-

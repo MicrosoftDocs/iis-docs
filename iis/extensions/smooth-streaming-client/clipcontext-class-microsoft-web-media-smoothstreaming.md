@@ -72,7 +72,6 @@ The ClipContext type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[NaturalDuration](clipcontext-naturalduration-property-microsoft-web-media-smoothstreaming_1.md)|Gets the natural duration for the clip.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[PlaybackDuration](clipcontext-playbackduration-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the playback duration.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -83,7 +82,6 @@ The ClipContext type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
-
 
 ## Remarks
 
@@ -115,4 +113,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

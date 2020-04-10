@@ -42,12 +42,9 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 
 To configure the recycling behavior of FastCGI and PHP via **appcmd**, use the following commands:
 
-
 [!code-console[Main](configure-php-process-recycling-behavior/samples/sample1.cmd)]
 
-
 [!code-console[Main](configure-php-process-recycling-behavior/samples/sample2.cmd)]
-
 
 ## Links for Further Information
 

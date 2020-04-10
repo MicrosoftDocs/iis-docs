@@ -90,4 +90,3 @@ The Dispose(Boolean) method executes in two scenarios. If the disposing paramete
 [Dispose Overload](logger-dispose-method-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

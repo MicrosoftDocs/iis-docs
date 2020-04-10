@@ -41,7 +41,6 @@ public enum ManifestType
 |Standard|0|The manifest type standard.|
 |Segmented|1|The manifest type segmented.|
 
-
 ## Requirements
 
 |||
@@ -49,4 +48,3 @@ public enum ManifestType
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

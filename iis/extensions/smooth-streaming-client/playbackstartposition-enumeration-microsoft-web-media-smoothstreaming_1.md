@@ -73,7 +73,6 @@ public enum PlaybackStartPosition
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|End|Starts at the end of the timeline that is provided by the manifest.|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|PausedPosition|Starts at the paused position.|
 
-
 ## Version Information
 
 ### Silverlight
@@ -89,4 +88,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

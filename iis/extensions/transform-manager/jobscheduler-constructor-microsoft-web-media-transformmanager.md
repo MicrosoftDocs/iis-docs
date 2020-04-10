@@ -29,7 +29,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobScheduler() () () ()](jobscheduler-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md) class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobScheduler(FileInfo, XElement)](jobscheduler-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md) class using the specified file information and job scheduler XML element.|
 
-
 ## See Also
 
 ### Reference
@@ -37,4 +36,3 @@ This member is overloaded. For complete information about this member, including
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -24,7 +24,6 @@ The [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[RaiseExceptionIfNecessary](https://msdn.microsoft.com/library/69w1sf5e)|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
-
 ## See Also
 
 ### Reference
@@ -32,4 +31,3 @@ The [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-
 [StreamUpdatedListEventArgs Class](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

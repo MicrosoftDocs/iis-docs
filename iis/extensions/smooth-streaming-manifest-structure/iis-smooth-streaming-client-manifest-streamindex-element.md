@@ -44,14 +44,12 @@ The following sections describe attributes, child elements, and parent elements.
 |**DisplayHeight**|The recorded width of video display.|
 |**Url*|Specifies the format of **QualityLevel** (track) identifiers.|
 
-
 ### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**QualityLevel**|A track for one of several bit-rates needed for IIS Smooth Streaming media.|
 |**c**|Chunk identifier for segment of data.|
-
 
 ### Parent Elements
 
@@ -64,4 +62,3 @@ The following sections describe attributes, child elements, and parent elements.
 ### Reference
 
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)
-

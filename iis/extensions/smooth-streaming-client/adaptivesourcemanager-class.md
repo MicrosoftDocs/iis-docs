@@ -53,13 +53,11 @@ This class exposes the following members.
 |[SetLiveBeginOffsetSec](adaptivesourcemanager-setlivebeginoffsetsec-method.md)|Sets the seconds after first chunk to start playing at when tuning to left edge, when tuning to live.|
 |[SetPlaybackOffsetSec](adaptivesourcemanager-setplaybackoffsetsec-method.md)|Sets the seconds playback is backed off from when tuning to live.|
 
-
 ### Properties
 
 |Property|Description|
 |--- |--- |
 |[AdaptiveSources](adaptivesourcemanager-adaptivesources-property.md)|Gets the list of opened adaptive sources.|
-
 
 ### Events
 
@@ -72,7 +70,6 @@ This class exposes the following members.
 |[AdaptiveSourceStatusUpdatedEvent](adaptivesourcemanager-adaptivesourcestatusupdatedevent-event.md)|Occurs when the adaptive source status is updated.|
 |[ManifestReadyEvent](adaptivesourcemanager-manifestreadyevent-event.md)|Occurs when the manifest is ready.|
 
-
 ## Requirements
 
 |||
@@ -80,4 +77,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

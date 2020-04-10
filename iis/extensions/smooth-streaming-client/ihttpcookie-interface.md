@@ -51,7 +51,6 @@ This interface exposes the following members.
 |[Uri](ihttpcookie-uri-property.md)|Gets or sets the URI.|
 |[Value](ihttpcookie-value-property.md)|Gets or sets the HTTP Cookie value.|
 
-
 ## Requirements
 
 |||
@@ -59,4 +58,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

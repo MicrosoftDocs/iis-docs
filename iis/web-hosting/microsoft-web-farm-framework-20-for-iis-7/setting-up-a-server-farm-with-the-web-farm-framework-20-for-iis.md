@@ -85,7 +85,6 @@ These steps should be performed on all secondary servers that will be part of th
 
 > When you create a server farm, you will use this account as the server farm administrator account.
 
-
 - Ensure the appropriate firewall exceptions are configured as described in the [Web Farm Framework System and Platform Requirements](system-and-platform-requirements-for-the-web-farm-framework-20-for-iis.md) article.
 
 <a id="Create"></a>
@@ -106,12 +105,10 @@ These steps should be performed on the controller server after WFF is installed.
 > [!NOTE]
 > You can enable or disable provisioning after the server farm is created. For more information, see [Provisioning a Server Farm with the Web Farm Framework for IIS 7 and Above](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis.md).
 
-
 1. Enter a user name and password for the administrator account and then click **Next**.
 
 > [!NOTE]
 > The account specified must have administrator user rights to all the computers that will participate in the server farm.
-
 
 1. In the **Add Servers** step, enter the server name or IP address of a server you want to add and then click **Add**.
 
@@ -144,7 +141,6 @@ You can add or remove servers in a server farm at any time. If you remove the pr
 
 > [!NOTE]
 > You can also right-click the **Servers** node and then click **Add Servers**.
-
 
 1. Follow the steps for adding a server in [Create a Server Farm](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md#Create).
 
@@ -198,7 +194,6 @@ You can set the value of the **EnabledTraceLevel** key to correspond to the verb
 > 2 - Warning and error messages  
 > 3 - Information, warning, and error messages  
 > 4 - Verbose (all messages)
-
 
 [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image19.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image18.png)
 

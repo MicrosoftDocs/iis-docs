@@ -80,4 +80,3 @@ A collection of job details that specify jobs that have failed.
 [WorkQueue Class](workqueue-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

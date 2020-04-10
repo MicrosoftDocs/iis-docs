@@ -118,7 +118,6 @@ After completing the above steps the resulting code in the **fileExtensions** se
 
 [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample5.xml)]
 
-
 #### Notes:
 
 - You can use the above steps to block access to additional file extensions by adding them to the **fileExtensions** collection, or you can modify the syntax to allow specific files by specifying **true** for the **allowed** attribute.
@@ -150,7 +149,6 @@ After completing the above steps the resulting code in the **hiddenSegments** se
 
 [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample10.xml)]
 
-
 #### Notes:
 
 - You can use the above steps to hide additional file segments by adding them to the **hiddenSegments** collection.
@@ -178,7 +176,6 @@ The default request filtering **verbs** collection allows all unlisted HTTP verb
 After completing the above steps the resulting code in the **verbs** section of your applicationHost.config file should resemble the following example:
 
 [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample15.xml)]
-
 
 #### Notes:
 

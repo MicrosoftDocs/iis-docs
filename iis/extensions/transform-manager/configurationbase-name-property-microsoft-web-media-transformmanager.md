@@ -94,4 +94,3 @@ This property is a string value that is the name of the configuration object tha
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

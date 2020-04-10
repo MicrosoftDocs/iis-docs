@@ -17,5 +17,3 @@ This section describes the IIS Transformation Manager Task APIs, which provide a
 |Namespace|Description|
 |--- |--- |
 |[Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)|IIS Transformation Manager Task API.|
-
-

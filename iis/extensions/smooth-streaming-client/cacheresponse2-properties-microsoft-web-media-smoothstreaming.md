@@ -27,7 +27,6 @@ The [CacheResponse2](cacheresponse2-class-microsoft-web-media-smoothstreaming.md
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[StatusDescription](cacheresponse-statusdescription-property-microsoft-web-media-smoothstreaming_1.md)|A string that contains the status description. (Inherited from [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UsedTrack](cacheresponse2-usedtrack-property-microsoft-web-media-smoothstreaming.md)|Gets or sets the track the cache plug-in uses for downloading a media chunk.|
 
-
 ## See Also
 
 ### Reference
@@ -35,4 +34,3 @@ The [CacheResponse2](cacheresponse2-class-microsoft-web-media-smoothstreaming.md
 [CacheResponse2 Class](cacheresponse2-class-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

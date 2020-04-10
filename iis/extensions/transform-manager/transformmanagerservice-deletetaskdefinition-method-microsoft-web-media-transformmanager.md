@@ -94,7 +94,6 @@ override DeleteTaskDefinition :
 |--- |--- |
 |[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The task definition is in use and cannot be deleted.|
 
-
 ## See Also
 
 ### Reference
@@ -102,4 +101,3 @@ override DeleteTaskDefinition :
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

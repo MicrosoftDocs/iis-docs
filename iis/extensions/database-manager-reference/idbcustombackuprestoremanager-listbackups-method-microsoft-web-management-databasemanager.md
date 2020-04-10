@@ -90,4 +90,3 @@ All database providers that implement the [IDbCustomBackupRestoreManager](idbcus
 [IDbCustomBackupRestoreManager Interface](idbcustombackuprestoremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

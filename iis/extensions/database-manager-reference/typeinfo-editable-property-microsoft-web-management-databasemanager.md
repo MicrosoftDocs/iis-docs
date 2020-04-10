@@ -82,4 +82,3 @@ true if the data type can be edited; otherwise, false.
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

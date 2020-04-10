@@ -151,4 +151,3 @@ You can [download a Visual Studio solution](https://go.microsoft.com/fwlink/?lin
 ### Other Resources
 
 [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
-

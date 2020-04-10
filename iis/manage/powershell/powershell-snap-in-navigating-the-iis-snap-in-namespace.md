@@ -45,17 +45,13 @@ Click on the Start Menu - select "All Programs" - "IIS 7.0 Extensions" - "IIS Po
 
 Type "dir" and notice that Sites and AppPools are the only two directories underneath the root.
 
-
 [!code-powershell[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample1.ps1)]
-
 
 [!code-console[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample2.cmd)]
 
 As the next step we want to change into the Sites directory. You can do that with the following commands:
 
-
 [!code-powershell[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample3.ps1)]
-
 
 If you are adventurous you will notice that typing cd Si&lt;tab&gt; will give you command-line completion.
 
@@ -65,9 +61,7 @@ Now try this:
 
 Now try the following:
 
-
 [!code-powershell[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample4.ps1)]
-
 
 The first time we are trying a PowerShell cmdlet instead of using good old DOS commands like CD or DIR. If you want to effectively work with the IIS PowerShell Snap-in it is a good idea to get familiar with these commands.
 

@@ -31,4 +31,3 @@ The [Index](index-class-microsoft-web-management-databasemanager.md) type expose
 [Index Class](index-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

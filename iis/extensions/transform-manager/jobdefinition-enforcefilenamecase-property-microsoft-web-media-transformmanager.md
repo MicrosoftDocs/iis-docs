@@ -94,4 +94,3 @@ If the input file that triggers job creation is a SMIL-compliant manifest, it co
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

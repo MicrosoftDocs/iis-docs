@@ -93,4 +93,3 @@ Supported in: 5
 [CacheRequest2 Class](cacherequest2-class-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -54,8 +54,6 @@ But new to Windows Server® 2008 is the ability to programmatically manage the q
 
 Quotas can also be created using the command-line tool dirquota.exe (see [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md)). The following command-line sets the directory quota limit to 500 MB for a site directory:
 
-
 [!code-console[Main](enabling-directory-quotas/samples/sample1.cmd)]
-
 
 For more information about the File Server Resource Manager, see [File Server Resource Manager overview](https://docs.microsoft.com/windows-server/storage/fsrm/fsrm-overview).

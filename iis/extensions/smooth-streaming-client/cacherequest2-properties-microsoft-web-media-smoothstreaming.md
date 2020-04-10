@@ -20,7 +20,6 @@ The [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) 
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[SelectableTracks](cacherequest2-selectabletracks-property-microsoft-web-media-smoothstreaming.md)|Gets a list of suggested tracks for the cache plug-in to choose for downloading.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[WebRequest](cacherequest2-webrequest-property-microsoft-web-media-smoothstreaming.md)|Gets or sets a web request that the media element downloader uses for downloading.|
 
-
 ## See Also
 
 ### Reference
@@ -28,4 +27,3 @@ The [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) 
 [CacheRequest2 Class](cacherequest2-class-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -87,4 +87,3 @@ The string that represents the scheduler type.
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

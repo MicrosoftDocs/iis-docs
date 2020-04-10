@@ -94,4 +94,3 @@ Possible CPU units in HPC are "cores", "nodes", and "sockets".
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

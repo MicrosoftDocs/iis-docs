@@ -79,9 +79,7 @@ When hosting b2evolution on IIS you can change this structure to the one that do
 
 In order for this permalink structure to work you need to instal [Microsoft URL rewrite module for IIS 7.0](https://www.iis.net/downloads/microsoft/url-rewrite "URL rewrite module"). Once it is installed, create a web.config file in the same folder where b2evolution php scripts are and then paste the following into it:
 
-
 [!code-xml[Main](b2evolution-on-iis/samples/sample1.xml)]
-
 
 ## Getting More Information
 

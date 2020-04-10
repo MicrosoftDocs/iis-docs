@@ -48,9 +48,6 @@ Represents the running statistics for an active Live Smooth Streaming publishing
 [InputStreams Element](inputstreams-element.md)  
 [OutputStreams Element](outputstreams-element.md)
 
-
 ### Parent Element
 
 [SmoothStreaming Element](smoothstreaming-element.md)
-
-

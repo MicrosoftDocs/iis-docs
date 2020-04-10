@@ -118,10 +118,8 @@ A media clip can be scheduled for play when the [SmoothStreamingMediaElement](sm
 
 For more information, see [Scheduling Media Clips (IIS Smooth Streaming)](scheduling-media-clips.md).
 
-
 > [!NOTE]  
 > IIS Smooth Streaming Clips scheduled by using ScheduleClip methods require manifests that start at timestamp zero.
-
 
 ## Version Information
 
@@ -142,4 +140,3 @@ Supported in: 4
 [ScheduleClip Overload](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

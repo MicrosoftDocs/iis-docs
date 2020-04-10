@@ -24,8 +24,6 @@ None.
 
 [ServerConnections Element](serverconnections-element.md)
 
-
 ## Remarks
 
 Sending an EOS signal causes downstream publishing points to go into a Stopped state. Setting SendEndOfStreamOnStop to false is useful during server maintenance on upstream servers when stopping downstream publishing points is not desirable. Downstream publishing points can be configured to automatically roll over to a backup server to continue streaming.
-

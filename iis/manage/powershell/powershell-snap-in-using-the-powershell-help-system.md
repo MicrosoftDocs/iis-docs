@@ -24,9 +24,7 @@ The IIS PowerShell Snap-in uses two types of cmdlets.
 
 Getting help for these two types of cmdlets is different. To get help on how the built-in cmdlets can be used in the IIS:\ namespace you have to use the following command:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-powershell-help-system/samples/sample1.ps1)]
-
 
 The output of this command will give you a detailed overview on how built-in cmdlets can be used in the IIS namespace. It shows you the syntax and what additional parameters need to be specified. And finally it will display a large set of examples that will help you to get familiar with these cmdlets.
 
@@ -34,19 +32,15 @@ The output of this command will give you a detailed overview on how built-in cmd
 
 If you want to get help for IIS-specific cmdlets you have to use the following command:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-powershell-help-system/samples/sample2.ps1)]
 
-
 Examples:
-
 
 [!code-powershell[Main](powershell-snap-in-using-the-powershell-help-system/samples/sample3.ps1)]
 
 You can execute the following command to retrieve a list of the cmdlets IIS provides:
 
 [!code-powershell[Main](powershell-snap-in-using-the-powershell-help-system/samples/sample4.ps1)]
-
 
 ## Summary
 

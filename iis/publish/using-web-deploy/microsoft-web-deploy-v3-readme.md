@@ -55,20 +55,15 @@ There are two separate downloadable packages for the tool; you will need to down
 
 **Change:** In previous versions of Web Deploy the tempAgent service would always run on port 80. In Web Deploy v3 RC this port can by changed by specifying the new port in the computername argument using the format computername=serverName:####, tempagent=true (where #### is the port number to use)
 
-
 **Change:** Fixed an issue with Web Deploy where the change counts were not accurate for -whatif operations when using the -useCheckSum option.
-
 
 **Change**: Web Deploy V3 Automatically disables proxy settings. This was previously an issue for some clients, who were required to open Internet Explorer and disable proxy settings there prior to starting a sync.
 
-
 **Change**: Added support for IPv6-style bindings in certificate sync logic. Previous versions could not sync IPv6 bindings properly.
-
 
 **Change**: When syncing a child registry key to a server where the parent registry key does not exist, the parent registry keys up to the child key will now be created (without values) rather than the sync failing. For example, if syncing the registry key HKEY\_LOCAL\_MACHINE\SOFTWARE\MySoft\TestWeb1 where the MySoft key does not exist on the destination machine, the MySoft key will be created on the destination machine allowing the sync will succeed.
 
 **Change:** In some cases Web Deploy publishing removed inherited permissions on root folder of site. Web Deploy V3 fixes this issue.
-
 
 ## Known Issues
 
@@ -80,7 +75,6 @@ The Web Deploy v3 executable default configuration files (msdeploy.exe.config an
 
 - SQLite has a .Net 4 compatible version. Copying sqlite3.exe from this release in "*%ProgramFiles%*\IIS\Microsoft Web Deploy V3" directory will resolve the issue.
 - Change default .Net version for WebDeploy V3 msdeploy.exe.config to .Net 2.0 as shown below
-
 
 [!code-xml[Main](microsoft-web-deploy-v3-readme/samples/sample1.xml)]
 

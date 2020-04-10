@@ -60,7 +60,6 @@ The IDbBackupManager type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[CreateBackup](idbbackupmanager-createbackup-method-microsoft-web-management-databasemanager.md)|Creates a database backup.|
 
-
 ## Remarks
 
 In order to implement database backup features in your database provider, you need to implement IDbBackupManager on the class that you derived from the [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md) method.
@@ -78,4 +77,3 @@ If your provider implements the IDbBackupManager interface, your provider must a
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

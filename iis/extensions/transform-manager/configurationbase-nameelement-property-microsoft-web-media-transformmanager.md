@@ -87,4 +87,3 @@ The XML element that contains name details.
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

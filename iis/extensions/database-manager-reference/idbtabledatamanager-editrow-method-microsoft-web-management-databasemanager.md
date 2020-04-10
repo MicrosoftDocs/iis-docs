@@ -120,19 +120,15 @@ public void EditRow(string connectionString, string tableName, string schema, IL
 
 }
 
-
 > [!NOTE]  
 > See the [UPDATE (Transact-SQL)](https://msdn.microsoft.com/library/ms177523.aspx) topic for more information about the UPDATE SQL statement.
-
 
 ## Examples
 
 The following code sample implements the EditRow method to modify the data in a database table in an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -483,4 +479,3 @@ public void EditRow(string connectionString, string tableName, string schema, IL
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

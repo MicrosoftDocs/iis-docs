@@ -149,7 +149,6 @@ To configure the publishing point on the downstream server, follow the steps in 
 4. In the **Add Publishing Point URL** dialog box, enter the URL of the publishing point on the upstream server in the **URL** text box, and select the friendly name of the corresponding credential in the **Credential** drop down list. Click **OK** to accept.  
     ![](syndicating-live-smooth-streams-between-servers/_static/image5.jpg)
 
-
 ### Advanced Settings
 
 On the **Advanced Settings** tab, clearing the **Allow server connections** check box is recommended unless the publishing point will be used for further syndication.  

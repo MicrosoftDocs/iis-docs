@@ -49,7 +49,6 @@ A: If you are publishing to a server where the web site is configured to run in 
 > 
 > ![](gallery-server-pro-faq/_static/image1.png)
 
-
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.
 
 #### Q: Why do I get a JavaScript error when trying to browse my website?
@@ -59,6 +58,5 @@ A: If your web site's application pool is configured to run in Classic mode, you
 > **Error**: JavaScript error 'dgLogin' is undefined.
 > 
 > ![](gallery-server-pro-faq/_static/image3.png)
-
 
 To resolve this issue, use your hosting control panel to set your application pool to Integrated mode.

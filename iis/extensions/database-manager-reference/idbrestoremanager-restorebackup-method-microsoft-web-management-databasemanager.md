@@ -168,4 +168,3 @@ The following code sample implements the RestoreBackup method for an OLEDB conne
 [IDbRestoreManager Interface](idbrestoremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

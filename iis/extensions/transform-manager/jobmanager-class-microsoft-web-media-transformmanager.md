@@ -117,7 +117,6 @@ The JobManager type exposes the following members.
 |--- |--- |--- |
 |![Public event](images/Hh125579.pubevent(en-us,VS.90).gif "Public event")|[ShutdownComplete](jobmanager-shutdowncomplete-event-microsoft-web-media-transformmanager.md)|Occurs when all transform jobs have been processed.|
 
-
 ## Thread Safety
 
 Any public static (Shared in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
@@ -127,4 +126,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

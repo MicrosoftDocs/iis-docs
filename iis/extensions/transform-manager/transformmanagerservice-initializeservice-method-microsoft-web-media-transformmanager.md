@@ -100,4 +100,3 @@ Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

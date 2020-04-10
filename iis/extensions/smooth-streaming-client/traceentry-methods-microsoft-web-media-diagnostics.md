@@ -23,7 +23,6 @@ The [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) type exp
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
-
 ## See Also
 
 ### Reference
@@ -31,4 +30,3 @@ The [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) type exp
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

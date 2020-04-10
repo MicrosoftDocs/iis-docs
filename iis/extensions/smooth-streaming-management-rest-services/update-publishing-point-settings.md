@@ -16,10 +16,8 @@ When site global configurations (such as the archiving path) are specified, they
 
 ## Restrictions
 
-
 > [!NOTE]  
 > Publishing point state must be Idle before you can update publishing point settings.
-
 
 ## Publishing point state after successful operation
 
@@ -32,7 +30,6 @@ The Update Publishing Point Settings request may be specified as follows:
 |Method|URI|
 |--- |--- |
 |PUT|http(s)://<hostname>/<filepath>/settings|
-
 
 ### URI Parameters
 
@@ -159,4 +156,3 @@ None.
 ## Authorization
 
 The authenticated user must have write access to the .isml file.
-

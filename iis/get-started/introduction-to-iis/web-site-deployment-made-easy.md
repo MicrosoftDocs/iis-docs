@@ -13,12 +13,10 @@ by IIS Team, [Saad Ladki](https://twitter.com/saadladki)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 ## Introduction
 

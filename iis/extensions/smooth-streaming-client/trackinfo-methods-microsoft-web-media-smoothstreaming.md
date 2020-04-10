@@ -27,7 +27,6 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](trackinfo-tostring-method-microsoft-web-media-smoothstreaming_1.md)|Writes a [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) object to string. (Overrides [Object.ToString() () () ()](https://msdn.microsoft.com/library/7bxwbwt2).)|
 
-
 ## See Also
 
 ### Reference
@@ -35,4 +34,3 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

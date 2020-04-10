@@ -115,10 +115,8 @@ public Query GetStoredProcedureCreateFromExistingStatement(string connectionStri
 
 }
 
-
 > [!NOTE]  
 > See the [CREATE PROCEDURE (Transact-SQL)](https://msdn.microsoft.com/library/ms187926.aspx) topic for more information about the CREATE PROCEDURE SQL statement.
-
 
 ## Permissions
 
@@ -131,4 +129,3 @@ public Query GetStoredProcedureCreateFromExistingStatement(string connectionStri
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

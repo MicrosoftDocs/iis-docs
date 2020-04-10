@@ -90,4 +90,3 @@ A credential password.
 [Credential Class](credential-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

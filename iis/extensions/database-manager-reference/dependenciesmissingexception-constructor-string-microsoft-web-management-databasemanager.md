@@ -146,4 +146,3 @@ The following code sample illustrates an example VerifyDependencies method that 
 [DependenciesMissingException Overload](dependenciesmissingexception-constructor-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

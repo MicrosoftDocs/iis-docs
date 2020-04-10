@@ -29,4 +29,3 @@ The [SmoothStreamingAsyncResult](smoothstreamingasyncresult-class-microsoft-web-
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

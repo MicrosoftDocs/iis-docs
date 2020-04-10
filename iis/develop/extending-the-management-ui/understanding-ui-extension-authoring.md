@@ -55,7 +55,6 @@ One of the requirements for libraries to be used inside the InetMgr is that they
 
 [![](understanding-ui-extension-authoring/_static/image2.gif)](understanding-ui-extension-authoring/_static/image1.gif)
 
-
 [![](understanding-ui-extension-authoring/_static/image5.png)](understanding-ui-extension-authoring/_static/image4.png)
 
 Hit OK to sign the assembly. Also, since we want the assembly to be in the GAC, we will add some Post-build events so that it automatically gets added to the GAC every time we compile. This will make it really straight forward to debug and make changes as we add new functionality. For this, select the **Build Events** tab and add the following **Post-build event** command line:

@@ -58,7 +58,6 @@ The following prerequisites must be fulfilled to install IIS Media Services:
 > [!IMPORTANT]
 > Microsoft Silverlight includes support for cross-domain connectivity, which allows an application to access resources from locations other than the site of origin. This is an important feature for enabling Silverlight applications to consume existing services on the web. The security policy system in the Silverlight runtime requires that a Silverlight policy file named ClientAccessPolicy.xml be downloaded from a target domain before a network connection is allowed access to a network resource under that target domain. If you expect to deliver Smooth Streams across domain boundaries to Silverlight-based clients, you must host the ClientAccessPolicy.xml file in your Smooth Streaming web server root to allow Silverlight applications to access the Smooth Streams. For more information about how to create a ClientAccessPolicy.xml file, see [Network Security Access Restrictions in Silverlight](https://go.microsoft.com/?linkid=9749724).
 
-
 <a id="install"></a>
 
 ### Downloading and Installing
@@ -153,7 +152,6 @@ The following Apple mobile digital devices/iOS mobile operating systems are supp
 > - Although the iPhone 3GS can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch devices.
 > - You shouldn't use AAC-LC audio at bitrates higher than 64 Kbps when targeting iPhone/iPod devices.
 
-
 **About Expression Encoder 4**
 
 [Microsoft Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) must be used to encode to Smooth Streaming format with H.264/AAC-LC codecs. If you purchased Expression Studio 3 from a store, and it's installed on your computer, you can download a trial version of Expression Studio 4 Ultimate or Expression Studio 4 Web Professional, and the full version of Expression Studio 4 (which includes Expression Encoder 4 Pro) will automatically be enabled.
@@ -210,7 +208,6 @@ If you use [Application Request Routing (ARR)](https://go.microsoft.com/?linkid=
 > 
 > Turning off ASP.NET session state disables it for all local website or directory features and applications that are using it. If you are also the Web Playlists feature in IIS Media Services on the local website or directory and you configured Web Playlists to use ASP.NET session state persistence to store user session variables, be sure to change the **Session persistence type** in Web Playlists to **InMemory** to store user session data in the web server worker process memory. For more information about how to change the session-persistence type, see [Edit Feature Settings Dialog Box](https://go.microsoft.com/?linkid=9749726).
 
-
 #### Archiving segmented presentations
 
 Applies To: IIS Media Services 4, IIS Media Services 3
@@ -253,7 +250,6 @@ These issues occur because the string that specifies the HTTP verbs contains a s
 >  
 > 
 > If you perform the procedure in this section by using IIS Manager, you must be a server administrator or an IIS Manager user who has been granted permission to the web server in IIS Manager. If you perform the procedure in this section by using Appcmd.exe, you must have Write permissions to applicationHost.config.
-
 
 ##### To configure request restrictions for the SmoothHandler handler mapping in IIS Manager
 

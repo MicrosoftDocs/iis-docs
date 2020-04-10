@@ -18,7 +18,6 @@ The [IDbRestoreManager](idbrestoremanager-interface-microsoft-web-management-dat
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[RestoreBackup](idbrestoremanager-restorebackup-method-microsoft-web-management-databasemanager.md)|Restores a database backup.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [IDbRestoreManager](idbrestoremanager-interface-microsoft-web-management-dat
 [IDbRestoreManager Interface](idbrestoremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

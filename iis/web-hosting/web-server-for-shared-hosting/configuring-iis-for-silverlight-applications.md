@@ -49,9 +49,7 @@ If you copy and paste the code above into a VBS file and save it as ADDMIMETYPE.
 
 [!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample3.cmd)]
 
-
 [!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample4.cmd)]
-
 
 [!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample5.cmd)]
 

@@ -80,4 +80,3 @@ Supported in: Windows Phone OS 7.0
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

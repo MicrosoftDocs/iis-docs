@@ -56,7 +56,6 @@ The IIS Transformation Manager Task API provides a set of interface and class de
 |--- |--- |--- |
 |![Public structure](images/Ff729529.pubstructure(en-us,VS.90).gif "Public structure")|[TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)|Encapsulates task-related details.|
 
-
 ## Interfaces
 
 ||Interface|Description|
@@ -76,7 +75,6 @@ The IIS Transformation Manager Task API provides a set of interface and class de
 |--- |--- |--- |
 |![Public delegate](images/Ff729529.pubdelegate(en-us,VS.90).gif "Public delegate")|[JobManagerShutDownEventHandler](jobmanagershutdowneventhandler-delegate-microsoft-web-media-transformmanager.md)|Represents the method that handles the shutdown event for the job manager. This type supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 
-
 ## Enumerations
 
 ||Enumeration|Description|
@@ -85,4 +83,3 @@ The IIS Transformation Manager Task API provides a set of interface and class de
 |![Public enumeration](images/Ff729529.pubenumeration(en-us,VS.90).gif "Public enumeration")|[JobDetailsField](jobdetailsfield-enumeration-microsoft-web-media-transformmanager.md)|Represents a value that is used to specify how job details are sorted and displayed.|
 |![Public enumeration](images/Ff729529.pubenumeration(en-us,VS.90).gif "Public enumeration")|[JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)|Specifies status information about a job.|
 |![Public enumeration](images/Ff729529.pubenumeration(en-us,VS.90).gif "Public enumeration")|[LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)|Specifies the type of logging message to write to the log file.|
-

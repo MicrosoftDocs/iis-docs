@@ -119,7 +119,6 @@ The ManifestPropertiesDictionary type exposes the following members.
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[PropertiesElementName](manifestpropertiesdictionary-propertieselementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used with task definitions and job templates. The value is "properties".|
 
-
 ## Explicit Interface Implementations
 
 ||Name|Description|
@@ -155,4 +154,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

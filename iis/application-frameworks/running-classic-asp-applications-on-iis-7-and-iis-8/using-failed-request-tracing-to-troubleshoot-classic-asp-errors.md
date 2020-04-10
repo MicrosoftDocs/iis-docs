@@ -69,7 +69,6 @@ You can also enable failed request tracing from a command prompt by using the Ap
 
 [!code-console[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample1.cmd)]
 
-
 ## Troubleshooting classic ASP errors
 
 In this section, we will generate a few errors using classic ASP in order to examine how failed request tracing will help identify potential problems. Even though these examples will target specific circumstances where you know the cause of the failure, you can use the techniques that will be presented to troubleshoot situations where the cause of the failure is unknown.
@@ -96,7 +95,6 @@ In this error condition, you will examine an ASP page that attempts to create an
 
 [!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample2.html)]
 
-
 When you use a Web browser to browse to this file, IIS should return an HTTP 500 error message, and IIS will create a failed request trace log that is created in your %*SystemDrive*%\Inetpub\FailedRequestLogFiles\W3SVCnnn folder by default, where W3SVCnnn contains the unique identified for your Web site that is listed in IIS Manager. Failed request trace logs are XML files, and IIS creates an XSL file that transforms the XML into a presentation format that you can open in Internet Explorer.
 
 #### Reading the trace log in Internet Explorer
@@ -107,13 +105,11 @@ In the **Errors and Warning** section of summary, you will see a **view trace** 
 
 [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image2.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image1.jpg)
 
-
 When you click the **view trace** link, Internet Explorer will jump to the section of the trace where the ASP script failure occurred. If you expand the individual trace events, you can view the specific details for the event, such as the physical file path, the line number, the ASP error code and description, and the ASP code excerpt that caused the failure, which in this case was the attempt to instantiate an invalid COM class.
 
 An example is shown in the following illustration:
 
 [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image4.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image3.jpg)
-
 
 ### Troubleshooting slow pages
 
@@ -143,7 +139,6 @@ In this error condition, you will examine a page that loops endlessly. This prob
 
 [!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample3.html)]
 
-
 When you use a Web browser to browse to this file, you should see no error in your Web browser, but your browser may never return a page and will eventually time out. 
 
 > [!NOTE]
@@ -162,13 +157,11 @@ In the **Errors and Warning** section of summary, you will see a **view trace** 
 
 [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image6.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image5.jpg)
 
-
 When you click the view **trace link**, Internet Explorer will go to the section of the trace where the ASP script failure occurred. If you expand the individual trace events, you can view the specific details for the event, such as the physical file path, the line number, the ASP error code and description, and the ASP code excerpt that was executing when the log file was creating. By using this information, you could examine your ASP page and locate the line of code that was executing inside a never-ending loop.
 
 An example is shown in the following illustration:
 
 [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image8.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image7.jpg)
-
 
 ## More Information
 

@@ -26,13 +26,10 @@ We will be using a simple test asp.net page to verify that the rules created by 
 
 Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot\` folder in a file called article.aspx:
 
-
 [!code-aspx[Main](user-friendly-url-rule-template/samples/sample1.aspx)]
-
 
 After copying this file, browse to `http://localhost/article.aspx` and check that the page was rendered correctly in a browser.  
 [![](user-friendly-url-rule-template/_static/image10.png)](user-friendly-url-rule-template/_static/image9.png)
-
 
 ## Using rule template to generate rewrite rules
 

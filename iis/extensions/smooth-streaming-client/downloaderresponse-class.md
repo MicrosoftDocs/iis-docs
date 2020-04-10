@@ -50,7 +50,6 @@ This class exposes the following members.
 |[ResponseStream](downloaderresponse-responsestream-property.md)|Gets the response stream.|
 |[Uri](downloaderresponse-uri-property.md)|Gets the URI for the response.|
 
-
 ## Requirements
 
 |||
@@ -58,4 +57,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

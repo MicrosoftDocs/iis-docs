@@ -119,27 +119,22 @@ The following code samples configure a custom authorization provider.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
   
-
 ### C#
 
 [!code-csharp[Main](provider/samples/sample4.cs)]
   
-
 ### VB.NET
 
 [!code-vb[Main](provider/samples/sample5.vb)]
   
-
 ### JavaScript
 
 [!code-javascript[Main](provider/samples/sample6.js)]
   
-
 ### VBScript
 
 [!code-vb[Main](provider/samples/sample7.vb)]
   
-
 ### PowerShell
 
 [!code-powershell[Main](provider/samples/sample8.ps1)]

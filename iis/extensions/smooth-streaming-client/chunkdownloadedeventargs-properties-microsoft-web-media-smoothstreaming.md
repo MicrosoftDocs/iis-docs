@@ -23,7 +23,6 @@ The [ChunkDownloadedEventArgs](chunkdownloadedeventargs-class-microsoft-web-medi
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[StatusCode](chunkdownloadedeventargs-statuscode-property-microsoft-web-media-smoothstreaming.md)|Gets the HTTP status code.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Track](chunkdownloadedeventargs-track-property-microsoft-web-media-smoothstreaming.md)|Gets the selected track for downloading the current chunk.|
 
-
 ## See Also
 
 ### Reference
@@ -31,4 +30,3 @@ The [ChunkDownloadedEventArgs](chunkdownloadedeventargs-class-microsoft-web-medi
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

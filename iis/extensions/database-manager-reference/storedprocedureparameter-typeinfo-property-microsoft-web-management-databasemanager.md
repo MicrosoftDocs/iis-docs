@@ -82,4 +82,3 @@ A [TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md) object 
 [StoredProcedureParameter Class](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

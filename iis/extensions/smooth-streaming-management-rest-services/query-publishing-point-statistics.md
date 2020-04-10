@@ -28,7 +28,6 @@ The Query Publishing Point Statistics request may be specified as follows:
 |--- |--- |
 |GET|http(s)://<hostname>/<filepath>/statistics|
 
-
 ### URI Parameters
 
 The following table lists URL template segments and parameters.
@@ -371,4 +370,3 @@ The following example shows a response body.
 ## Authorization
 
 The authenticated user must have read access to the .isml file.
-

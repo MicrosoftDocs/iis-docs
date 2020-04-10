@@ -86,4 +86,3 @@ The numeric scale for a data type refers to the number of digits that are allowe
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

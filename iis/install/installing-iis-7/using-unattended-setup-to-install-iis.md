@@ -80,9 +80,7 @@ If you want to install all IIS 7.0 features for evaluation purposes, use one of 
 
 For Windows Vista Professional, Windows Vista Ultimate, or Windows Server 2008 Editions, copy and paste the following text into notepad.
 
-
 [!code-xml[Main](using-unattended-setup-to-install-iis/samples/sample6.xml)]
-
 
 If you are installing IIS 7.0 on Windows Vista Home Premium, copy and paste the following text into notepad:
 
@@ -116,9 +114,7 @@ Save the notepad file with name "unattend.xml"
 
 In the command window, enter the following command line:
 
-
 [!code-console[Main](using-unattended-setup-to-install-iis/samples/sample8.cmd)]
-
 
 Note: If you saved unattend.xml to a drive folder other then the current drive and folder of your command window, you must specify the full path of the unattend.xml file in your pkgmgr /n: parameter.
 
@@ -130,9 +126,7 @@ IIS 7.0 setup via pkgmgr.exe should take 1 to 5 minutes. When the command prompt
 
 At the command prompt type:
 
-
 [!code-console[Main](using-unattended-setup-to-install-iis/samples/sample9.cmd)]
-
 
 A result of 0 indicates success.
 
