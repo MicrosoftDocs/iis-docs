@@ -63,6 +63,9 @@ The `<error>` element of the `<httpErrors>` collection is included in the defaul
   
     > [!NOTE]
     > If you select **Execute a URL on this site**, the path must be a relative path. If you select **Respond with a 302 redirect**, the URL must be an absolute URL.
+    
+    > [!NOTE]
+    > You cannot customize the following HTTP errors: 400, 403.9, 411, 414, 500, 500.11, 500.14, 500.15, 501, 503, and 505. 
 
 ## Configuration
 
