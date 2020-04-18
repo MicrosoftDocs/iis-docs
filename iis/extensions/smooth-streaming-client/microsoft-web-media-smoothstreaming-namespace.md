@@ -47,13 +47,11 @@ Smooth Streaming is an IIS Media Services extension that enables adaptive stream
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)|Arguments for an event that occurs when a media track changes.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)|Represents track information that corresponds to the QualityLevel element of the client manifest.|
 
-
 ## Interfaces
 
 ||Interface|Description|
 |--- |--- |--- |
 |![Public interface](images/Ff728140.pubinterface(en-us,VS.90).gif "Public interface")|[ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)|Interface definition for writing a cache plug-in.|
-
 
 ## Delegates
 

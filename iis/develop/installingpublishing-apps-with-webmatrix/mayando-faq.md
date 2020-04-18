@@ -46,5 +46,4 @@ A: If you are publishing to a server where the web site is configured to run in 
 > 
 > ![](mayando-faq/_static/image1.png)
 
-
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.

@@ -55,7 +55,6 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UpdateIsolatedStorageAvailableFreeSpace](tracing-updateisolatedstorageavailablefreespace-method-microsoft-web-media-diagnostics_1.md)|Updates the free space available for trace operations.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UploadTraces](tracing-uploadtraces-method-microsoft-web-media-diagnostics_1.md)|Uploads traces to the URL, if any, found in the tracing configuration.|
 
-
 ## See Also
 
 ### Reference
@@ -63,4 +62,3 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

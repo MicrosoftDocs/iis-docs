@@ -28,7 +28,6 @@ The Query Publishing Point State request may be specified as follows:
 |--- |--- |
 |GET|http(s)://<hostname>/<filepath>/state|
 
-
 ### URI Parameters
 
 The following table lists URL template segments and parameters.
@@ -98,4 +97,3 @@ The following example shows a response body.
 ## Authorization
 
 The authenticated user must have read access to the publishing point .isml file.
-

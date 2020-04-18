@@ -55,10 +55,8 @@ To the play the playlist in a Silverlight MediaElement, simply point the Source 
 
 Any of these PARAM tags can easily be accessed from a Silverlight app by using **Attributes**. Here is a simple piece of code that tells how to read an attribute:
 
-
 [!code-javascript[Main](web-playlists-for-iis-using-playlist-with-different-media-players/samples/sample2.js)]
  
-
 After you have read the attributes CANSKIPFORWARD, CANSKIPBACKWARD and CANSEEK, you can easily control the UI experience by appropriately enabling / disabling the controls.By default, Silverlight does not have implemented the concept of skipping to the next entry in the playlist. One way to overcome this limitation is to seek to the end of the current entry and let the next entry play automatically.
 
 ### Silverlight Reference
@@ -74,13 +72,10 @@ The Web Playlist .isx file, when accessed on the client side, generates an ASX f
 
 Below are a few classes that help in parsing the ASX response sent by the Web Playlists module when a get request is made for an .ISX Playlist file. This is just a sample and suggests one way of doing the same.
 
-
 [!code-console[Main](web-playlists-for-iis-using-playlist-with-different-media-players/samples/sample3.cmd)]
-
 
 The **Playlist** class above helps parse an ASX file to get the playlist entries and the **PlaylistEntry** class helps parse each entry to get appropriate PARAM tags to be used to set the player controls in the UI accordingly. The code above makes use of XML parsing abilities provided by the Flash SDK. The Playlist class parses the ASX to store all entries in an array and then PlaylistEntry goes through the array to parse the appropriate data for each entry.
 
 The classes above should be used together with NetConnection, NetStream and Video classes provided by Flash. Below is a sample piece of code that shows how these could be used. The actual implementation is left to the reader.
-
 
 [!code-console[Main](web-playlists-for-iis-using-playlist-with-different-media-players/samples/sample4.cmd)]

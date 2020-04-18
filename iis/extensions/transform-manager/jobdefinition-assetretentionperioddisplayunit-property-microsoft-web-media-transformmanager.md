@@ -94,4 +94,3 @@ The unit of time is used with the [AssetRetentionPeriodMinutes](jobdefinition-as
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -40,9 +40,6 @@ Provides summary information about the Smooth Streams that are received from all
 
 [InputStream Element](inputstream-element.md)
 
-
 ### Parent Element
 
 [Statistics Element](statistics-element.md)
-
-

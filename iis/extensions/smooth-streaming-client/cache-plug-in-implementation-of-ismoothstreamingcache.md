@@ -322,4 +322,3 @@ For the complete application that demonstrates how to use this implementation of
 ### Other Resources
 
 [System.IO.IsolatedStorage Namespace](https://go.microsoft.com/fwlink/?linkid=204798)
-

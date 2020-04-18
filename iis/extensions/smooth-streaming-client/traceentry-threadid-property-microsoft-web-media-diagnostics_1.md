@@ -97,4 +97,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

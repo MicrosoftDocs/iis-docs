@@ -18,7 +18,6 @@ Beginning with FTP 7.5, the FTP service supports extensibility for custom authen
 
 > [Developing for FTP 7.5](https://www.iis.net/learn/develop/developing-for-ftp)
 
- 
 <a id="002"></a>
 ## Compatibility
 
@@ -35,7 +34,6 @@ Beginning with FTP 7.5, the FTP service supports extensibility for custom authen
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
@@ -183,7 +181,6 @@ The following sample illustrates several configuration settings in the global `<
     - Specify 100MB as the maximum file size.
 - Add a global authorization rule that allows access for the administrators group.
 - Specify that domain name syntax can be used for FTP virtual host names.
-
 
 [!code-xml[Main](index/samples/sample1.xml)]
 

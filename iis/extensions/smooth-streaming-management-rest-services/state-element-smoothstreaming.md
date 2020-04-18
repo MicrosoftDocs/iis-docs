@@ -22,15 +22,12 @@ Represents the state of a Live Smooth Streaming publishing point instance.
 [Value Element](value-element.md)  
 [LastError Element](lasterror-element.md)
 
-
 ### Parent Element
 
 [SmoothStreaming Element](smoothstreaming-element.md)
-
 
 ### Example
 
     <State>
       <Value>Idle</Value>
     </State>
-

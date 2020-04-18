@@ -84,4 +84,3 @@ Task status is reported through the [Scheduler](scheduler-class-microsoft-web-me
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

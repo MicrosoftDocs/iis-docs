@@ -40,4 +40,3 @@ Implementers should return an instance of an [IPlaylistInfo Interface](iplaylist
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

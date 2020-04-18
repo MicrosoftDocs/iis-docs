@@ -138,4 +138,3 @@ The HPDC scheduler supports properties such as minimum CPUs (cores, nodes, or so
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

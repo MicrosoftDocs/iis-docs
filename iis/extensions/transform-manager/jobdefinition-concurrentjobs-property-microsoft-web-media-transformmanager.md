@@ -94,4 +94,3 @@ A job scheduler can have a global limit on the number of concurrent jobs that it
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

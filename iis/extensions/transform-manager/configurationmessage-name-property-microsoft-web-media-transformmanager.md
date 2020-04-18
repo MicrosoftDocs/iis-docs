@@ -90,4 +90,3 @@ The name of the configuration object.
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

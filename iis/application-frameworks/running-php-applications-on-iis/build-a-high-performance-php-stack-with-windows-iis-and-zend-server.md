@@ -83,9 +83,7 @@ Zend Server is fully configurable via its Web-based administration panel, which 
 
 Now that you know your way around Zend Server, let's put together a simple PHP script to check that everything's working as it should. Using a text editor, create a file containing the following PHP code:
 
-
 [!code-xml[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample1.xml)]
-
 
 Save this file as whoami.php in the site root folder (typically, `C:\inetpub\wwwroot\`), and then browse to [http://localhost/whoami.php](http://localhost/whoami.php). You should see something like this:  
 [![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image29.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image28.jpg)
@@ -133,15 +131,11 @@ Confirm the settings, and proceed to import the data.
 
 You can verify that the data has been correctly imported through the sqlcmd command-line tool, as below:
 
-
 [!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample3.cmd)]
-
 
 Now, try reading and displaying these records using PHP (mssql.php):
 
-
 [!code-html[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample4.html)]
-
 
 This script begins by opening a connection to the database server using the mssql\_connect() function with the server name and administrator credentials. It then selects the newly-minted library database with mssql\_select\_db(), and executes a query on the database with the mssql\_query() function.
 
@@ -156,45 +150,31 @@ Built-in MySQL support (as well as the option to download and install MySQL duri
 
 The first step is to create a database, and a table to hold the data. Do this by opening a command prompt window and connecting to the MySQL server using the MySQL command-line client.
 
-
 [!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample5.cmd)]
 
-
 Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
-
 
 [!code-sql[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample6.sql)]
 
-
 Import the raw data into this table from the CSV file using the LOAD DATA INFILE command.
-
 
 [!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample7.cmd)]
 
-
 Create a MySQL user with privileges to access this database.
-
 
 [!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample8.cmd)]
 
-
 Log in as the new user and check that the data has been imported with a quick SELECT.
-
 
 [!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample9.cmd)]
 
-
 Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
-
 
 [!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample10.cmd)]
 
-
 Now, all that's left is to do the same thing using PHP. Here's the code (mysql.php):
 
-
 [!code-html[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample11.html)]
-
 
 This script begins by opening a connection to the database server using the mysqli\_connect() function with the user account credentials created in the previous step. It then executes a query on the database with the mysqli\_query() function. The number of records returned by the query are obtained via a call to mysqli\_num\_rows(), and a loop is used to iterate over the result set, returning individual records as objects via mysqli\_fetch\_object(). Individual fields of each record can now be accessed as object properties.
 

@@ -90,4 +90,3 @@ The message that is posted when the registration key is found.
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

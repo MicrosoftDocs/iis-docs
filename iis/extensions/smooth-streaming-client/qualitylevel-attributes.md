@@ -32,7 +32,6 @@ The QualityLevel element supports the following attributes:
     |2|0|1.0|
     |2|1|1.1|
 
-
 <!-- end list -->
 
   - HardwareProfile: \[Optional\] Deprecated.
@@ -58,7 +57,6 @@ Depending on the value of the Type attribute of the parent StreamIndex element, 
 |AudioTag|Ignored|Required|
 |FourCC|Required|Optional|
 |NALUnitLengthField|Optional|Ignored|
-
 
 ### Additional Attributes
 
@@ -141,4 +139,3 @@ For presentations that use content protection, the following defaults are in eff
 ### Concepts
 
 [Stream Type, Subtype, Other Attributes](stream-type-subtype-other-attributes.md)
-

@@ -52,9 +52,7 @@ To use DbProvider you will need access to [Microsoft SQL Server](https://www.mic
 
 Open a SQL Server Management Studio, open a new query window and execute the following SQL script:
 
-
 [!code-sql[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample1.sql)]
-
 
 The above script creates a new database called RewriteDB, which has a table RewriteTable and a stored procedure GetRewrittenURL. It also grants permissions to IIS APPPOOL\DefaultAppPool account to execute that stored procedure. Also it fills up the database table with two URL mappings.
 
@@ -83,15 +81,11 @@ In the root directory of a web site open **web.config** file. If you use IIS Def
 
 Paste the following redirect rule into the web.config file inside of the `/<configuration>/<system.webServer>/<rewrite>/<rules>` element:
 
-
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample2.xml)]
-
 
 The complete content of the web.config file should look similar to below:
 
-
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample3.xml)]
-
 
 This rule performs HTTP redirect to a URL that is obtained from a SQL Server database via DbProvider. The DbProvider instance named "DB" is invoked from the rule's condition and if the result returned from the provider is not empty then the HTTP redirection is performed.
 
@@ -105,9 +99,7 @@ FileMapProvider reads the URL mappings from a text file. It can be used instead 
 
 Create a new directory called **App\_Data** in the root directory of your web site. In that directory create a text file called **redirectmappings.txt**. Add the following lines to the file:
 
-
 [!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample4.cmd)]
-
 
 ![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image1.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
 
@@ -125,15 +117,11 @@ In the root directory of a web site open **web.config** file. If you use IIS Def
 
 Paste the following redirect rule into the web.config file inside of the `/<configuration>/<system.webServer>/<rewrite>/<rules>` element:
 
-
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample5.xml)]
-
 
 The complete content of the web.config file should look similar to below:
 
-
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample6.xml)]
-
 
 This rule performs HTTP redirect to a URL that is obtained from a text file via FileMapProvider. The FileMapProvider instance named "FileMap" is invoked from the rule's condition and if the result returned from the provider is not empty then the HTTP redirection is performed.
 
@@ -147,9 +135,7 @@ FileContainsProvider reads the set of strings from a text file and then checks i
 
 Create a new directory called **App\_Data** in the root directory of your web site. In that directory create a text file called disalloweduseragents.txt. Add the following lines to the file:
 
-
 [!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample7.cmd)]
-
 
 ![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image3.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
 
@@ -166,23 +152,17 @@ In the root directory of a web site open **web.config** file. If you use IIS Def
 
 Paste the following redirect rule into the web.config file inside of the `/<configuration>/<system.webServer>/<rewrite>/<rules>` element:
 
-
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample8.xml)]
-
 
 The complete content of the web.config file should look similar to below:
 
-
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample9.xml)]
-
 
 This rule aborts the HTTP connection if the user agent of the HTTP request matches any of the strings listed in disalloweduseragents.txt file. The FileContainsProvider instance named "FileContains" is invoked from the rule's condition and if the result returned from the provider is not empty then the HTTP connection is aborted.
 
 To test the rule open [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en) and add a user-agent header to the request as below:
 
-
 [!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample10.cmd)]
-
 
 From WFetch make a request to `http://localhost/test/`. You should see that the connection gets aborted because the user agent string has matched one of the strings in disalloweduseragents.txt file.
 

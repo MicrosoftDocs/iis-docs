@@ -47,7 +47,6 @@ This interface exposes the following members.
 |[GetAttribute](imanifesttrack-interface-getattribute-method.md)|Gets the track level attributes from the manifest.|
 |[GetCustomAttribute](imanifesttrack-interface-getcustomattribute-method.md)|Gets the track level custom attributes from the manifest.|
 
-
 ### Properties
 
 |Property|Description|
@@ -65,7 +64,6 @@ This interface exposes the following members.
 |[Stream](imanifesttrack-interface-stream-property.md)|Gets the stream object that owns this track.|
 |[TrackIndex](imanifesttrack-interface-trackindex-property.md)|Gets the index of the track in the manifest.|
 
-
 ## Requirements
 
 |||
@@ -73,4 +71,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

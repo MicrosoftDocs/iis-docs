@@ -46,4 +46,3 @@ Type: Uri. The URI, which may be original or modified.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

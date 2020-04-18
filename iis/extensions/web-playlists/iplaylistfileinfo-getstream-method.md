@@ -20,7 +20,6 @@ The **GetStream** method gets the **IsSequentialStream** instance that provides 
 |--- |--- |
 |*ppStream*|An **IsSequentialStream** instance.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -32,4 +31,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

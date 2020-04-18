@@ -62,21 +62,15 @@ AppCmd.exe can be used to provision Web sites and run many commands to edit conf
 
 The following code sample is an example of code that can be used to create a site and an application pool (with failed request tracing and W3svc log file locations).
 
-
 [!code-console[Main](select-a-provisioning-option/samples/sample2.cmd)]
-
 
 You can use the following code to configure the Failed Request Tracing log file location:
 
-
 [!code-console[Main](select-a-provisioning-option/samples/sample3.cmd)]
-
 
 You can use the following code to configure the W3SVC log file location:
 
-
 [!code-console[Main](select-a-provisioning-option/samples/sample4.cmd)]
-
 
 ## Use a Managed API (Microsoft.Web.Administration)
 
@@ -89,15 +83,11 @@ You can use managed application programming interfaces (APIs) in Microsoft.Web.A
 
 The following code can be used to create a site and an application pool and to set temporary compilation directories.
 
-
 [!code-csharp[Main](select-a-provisioning-option/samples/sample5.cs)]
-
 
 To set a unique temporary compilation directory for each site, use the following code:
 
-
 [!code-csharp[Main](select-a-provisioning-option/samples/sample6.cs)]
-
 
 ## Use Active Directory Service Interfaces (ADSI)
 
@@ -128,10 +118,8 @@ Use ABO to programmatically configure IIS in a compiled program written in C, C+
  ABO is not scriptable. ABO applications can only be written in C++ or Visual Basic 6.0.  
  Since ABO accesses IIS at the lowest level, it is more difficult to use than ADSI or WMI because there are no methods that compress multiple lines of ABO code into one method call. Also, there are no safeguards to prevent you from configuring invalid settings.
 
-
 > [!NOTE]
 > *This article updates the articles in: "[Code Samples and Scripts](../provisioning-and-managing-iis/index.md)" by Walter Oliver, published on December 2, 2007.*
-
 
 ## Links for Further Information
 

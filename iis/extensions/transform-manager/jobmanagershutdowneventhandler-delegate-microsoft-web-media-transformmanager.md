@@ -90,4 +90,3 @@ Represents the method that handles the shutdown event for the job manager. This 
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

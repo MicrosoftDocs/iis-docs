@@ -93,10 +93,8 @@ public Query GetStoredProcedureCreateStatement(string connectionString)
 
 }
 
-
 > [!NOTE]  
 > See the [CREATE PROCEDURE (Transact-SQL)](https://msdn.microsoft.com/library/ms187926.aspx) topic for more information about the CREATE PROCEDURE SQL statement.
-
 
 ## Examples
 
@@ -151,4 +149,3 @@ GO";
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

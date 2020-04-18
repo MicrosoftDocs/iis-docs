@@ -99,21 +99,15 @@ If you want to install IIS components that rely on the .NET Framework, you must 
 
 To use a script to install the .NET Framework and the full IIS 7.5 installation on Server Core, type the following command into a script:
 
-
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample13.cmd)]
  
-
 To use a script for the full IIS 7.5 installation on Server Core, type the following command into a script:
-
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample14.cmd)]
 
-
 To use a script for the default installation on Server Core, type the following command into a script:
 
-
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample15.cmd)]
-
 
 See [IIS 7.0 on Server Core](../../manage/working-with-server-core/iis-70-on-server-core.md) and  Installing IIS 7.0 on Server Core for more information about installing IIS 7.0.
 
@@ -131,9 +125,7 @@ See [IIS 7.0 on Server Core](../../manage/working-with-server-core/iis-70-on-ser
 
 If you plan to use ASP.NET or IIS Remote Management then it is necessary to install .NET Framework first. To install it use the following commands:
 
-
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample16.cmd)]
-
 
 ### Install ASP.NET
 

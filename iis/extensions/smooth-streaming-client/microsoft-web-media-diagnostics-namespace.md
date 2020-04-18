@@ -27,7 +27,6 @@ Class to contain diagnostic information about media events.
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md)|Class that specifies points at which trace control requests are made.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[Tracing](tracing-class-microsoft-web-media-diagnostics_1.md)|Class of utilities that provide tracing and debugging routines.|
 
-
 ## Enumerations
 
 ||Enumeration|Description|

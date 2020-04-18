@@ -143,7 +143,6 @@ In this second step you will create the classes for the XML-based membership and
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following topic on Microsoft the MSDN Web site:
 > - [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/library/ex0ss12c(VS.80).aspx)
 
-
 ## Step 3: Add the providers to IIS
 
 In this third step you will determine the assembly information for the membership and role providers, and then add that information to the list of trusted providers for IIS.

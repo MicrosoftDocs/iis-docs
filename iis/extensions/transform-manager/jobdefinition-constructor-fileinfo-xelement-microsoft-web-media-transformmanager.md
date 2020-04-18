@@ -94,7 +94,6 @@ JobDefinition(
 |--- |--- |
 |[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|jobDefinitionElement is equivalent to null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
-
 ## See Also
 
 ### Reference
@@ -104,4 +103,3 @@ JobDefinition(
 [JobDefinition Overload](jobdefinition-constructor-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

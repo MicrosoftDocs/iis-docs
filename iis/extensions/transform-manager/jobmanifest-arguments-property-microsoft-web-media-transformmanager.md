@@ -84,4 +84,3 @@ Tasks can either be implementations of the [ITask](itask-interface-microsoft-web
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

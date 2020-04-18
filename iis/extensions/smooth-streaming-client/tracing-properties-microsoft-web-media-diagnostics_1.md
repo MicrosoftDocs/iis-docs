@@ -20,7 +20,6 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[RemoteServerUri](tracing-remoteserveruri-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [Uri](https://msdn.microsoft.com/library/txt7706a(v=vs.95)) of the remote server.|
 
-
 ## See Also
 
 ### Reference
@@ -28,4 +27,3 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

@@ -23,7 +23,6 @@ The **Uri** property gets the URI for the location of the current [IPlaylistEntr
 |--- |--- |
 |*pbstrUri*|The returned URI for the playlist location. Implementers are required to return a valid value.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -39,4 +38,3 @@ Implementers of the [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

@@ -34,7 +34,6 @@ You can use the Web Platform Installer (Web PI) to install the Dynamic IP Restri
 
 [Dynamic IP Restrictions download page](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions)   
   
-
 ### Prerequisites
 
 You must have one of the following operating systems.
@@ -90,9 +89,7 @@ When using this option the server will deny requests from any HTTP client's IP a
 
 To test this feature set the "Maximum number of requests" to 5 and "Time period" to 5000 by using either IIS Manager or by executing appcmd command:
 
-
 [!code-console[Main](using-dynamic-ip-restrictions/samples/sample3.cmd)]
-
 
 Open web browser, request `http://localhost/welcome.png` and then hit F5 to continuously refresh the page. This will generate more than 5 requests over 5 seconds so as a result you will see server responding with 403 - Forbidden status code:
 

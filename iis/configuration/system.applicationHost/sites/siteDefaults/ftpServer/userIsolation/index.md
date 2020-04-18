@@ -25,7 +25,6 @@ FTP user isolation was introduced in IIS 6.0, but has been significantly updated
 > | ActiveDirectory | When specifying this mode in FTP 7.0 and FTP 7.5, the FTP service will retrieve the user isolation settings from each user's account in their Active Directory settings; this mode works the same as IIS 6.0. |
 > | Custom | With FTP 7.5, you can now specify **Custom** for the user isolation mode. This mode allows you to use FTP extensibility to provide custom user isolation by creating a custom FTP provider. |
 
-
 When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** modes for user isolation, the physical or virtual directory paths must use the following hierarchy:
 
 > | User Account Types | Home Directory Syntax |
@@ -34,7 +33,6 @@ When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** 
 > | Local Windows user accounts (Requires Basic authentication) | %*FtpRoot*%\LocalUser\%*UserName*% |
 > | Windows domain accounts (Requires Basic authentication) | %*FtpRoot*%\%UserDomain%\%*UserName*% |
 > | IIS Manager or ASP.NET custom authentication user accounts | %*FtpRoot*%\LocalUser\%*UserName*% |
-
 
 <a id="002"></a>
 ## Compatibility
@@ -52,7 +50,6 @@ When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** 
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 

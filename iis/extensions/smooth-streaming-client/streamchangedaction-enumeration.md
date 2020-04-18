@@ -41,7 +41,6 @@ public enum StreamChangedAction
 |Selected|0|The stream is selected.|
 |Deselected|1|The stream is not selected.|
 
-
 ## Requirements
 
 |||
@@ -49,4 +48,3 @@ public enum StreamChangedAction
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

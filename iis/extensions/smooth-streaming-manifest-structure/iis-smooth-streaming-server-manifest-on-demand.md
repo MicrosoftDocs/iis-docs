@@ -33,4 +33,3 @@ In addition to enabling consumption of media as a single cohesive presentation, 
 ## Conceptual Organization
 
 Each stream comprises one or more associated media files and a client manifest, which are tied together using a metadata file called the disk manifest. The disk manifest specifies the different quality levels (aggregate bit rates) available to stream content and the tracks that each quality level comprises.
-

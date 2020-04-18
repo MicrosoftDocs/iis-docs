@@ -24,8 +24,6 @@ None.
 
 [Track Element](track-element.md)
 
-
 ## Remarks
 
 The timestamp value is a fragment-level metadata value and is measured in timescale units of the encoder, typically 100-nanosecond (ns) increments. The encoder creates the timestamp in each fragment header.
-

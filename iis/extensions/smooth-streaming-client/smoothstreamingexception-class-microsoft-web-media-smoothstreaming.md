@@ -76,7 +76,6 @@ The SmoothStreamingException type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StackTrace](https://msdn.microsoft.com/library/dxzhy005)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TargetSite](https://msdn.microsoft.com/library/2wchw354)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 
-
 ## Methods
 
 ||Name|Description|
@@ -132,4 +131,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

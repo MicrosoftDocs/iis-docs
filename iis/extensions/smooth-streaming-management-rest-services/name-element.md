@@ -24,8 +24,6 @@ None.
 
 [Track Element](track-element.md)
 
-
 ### Remarks
 
 The track name often indicates the track type, such as audio or video, or a custom track type such as a textstream type.
-

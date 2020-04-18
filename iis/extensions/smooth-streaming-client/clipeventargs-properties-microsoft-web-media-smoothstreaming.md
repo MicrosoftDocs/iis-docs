@@ -18,7 +18,6 @@ The [ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md
 [ClipEventArgs Class](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

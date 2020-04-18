@@ -108,10 +108,8 @@ If your provider does not support deleting tables, you can use the following cod
        throw new NotImplementedException();
     }
 
-
 > [!NOTE]  
 > See the [DROP TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms173790.aspx) topic for more information about the DROP TABLE SQL statements.
-
 
 ## Examples
 
@@ -204,4 +202,3 @@ The following code sample shows how to use the DropTable method for an OLEDB con
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

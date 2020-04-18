@@ -46,7 +46,6 @@ This class exposes the following members.
 |--- |--- |
 |[SetProperties](smoothschemehandler-setproperties-method.md)|Sets the properties of the Smooth Scheme Handler.|
 
-
 ## Requirements
 
 |||
@@ -54,4 +53,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

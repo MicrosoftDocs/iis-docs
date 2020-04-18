@@ -42,8 +42,6 @@ virtual PCWSTR GetUserName(
 ## Example  
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
-  
-  
  The above code writes XML to the response stream similar to the following.  
   
 ```  

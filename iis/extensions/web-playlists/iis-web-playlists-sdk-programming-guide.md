@@ -16,7 +16,6 @@ You can use the information in the following sections to build providers that ex
 |--- |--- |
 |[Getting Started with the IIS Web Playlists SDK](https://msdn.microsoft.com/library/dd146274)|Discusses the steps needed to get started building custom Web Playlist providers.|
 
-
 ## See Also
 
 ### Concepts
@@ -24,4 +23,3 @@ You can use the information in the following sections to build providers that ex
 [IIS Web Playlists SDK Programming Guide](iis-web-playlists-sdk-programming-guide.md)
 
 [IIS Web Playlists SDK Programming Reference](iis-web-playlists-sdk-programming-reference.md)
-

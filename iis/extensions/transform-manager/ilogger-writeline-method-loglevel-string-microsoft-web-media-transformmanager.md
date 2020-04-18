@@ -100,4 +100,3 @@ The level parameter must be set to one of the values in the [LogLevel](loglevel-
 [WriteLine Overload](ilogger-writeline-method-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

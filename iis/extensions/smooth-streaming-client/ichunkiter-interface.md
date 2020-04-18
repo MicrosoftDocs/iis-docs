@@ -51,7 +51,6 @@ This interface exposes the following members.
 |[MoveNext](ichunkiter-movenext-method.md)|Move to the next chunk.|
 |[MovePrev](ichunkiter-moveprev-method.md)|Move to the previous chunk.|
 
-
 ## Requirements
 
 |||
@@ -59,4 +58,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

@@ -95,4 +95,3 @@ The CancelJob(String) method can return "Canceled", "Finished", "Failed", or "Un
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

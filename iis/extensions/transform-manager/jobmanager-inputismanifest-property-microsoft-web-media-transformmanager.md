@@ -80,4 +80,3 @@ A value that indicates whether the file that initiates job creation is a SMIL 2.
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

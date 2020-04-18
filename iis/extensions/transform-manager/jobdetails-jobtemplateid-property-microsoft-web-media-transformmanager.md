@@ -90,4 +90,3 @@ The ID of the job template that defines the tasks for this job.
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

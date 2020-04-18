@@ -79,7 +79,6 @@ The SetPlaybackRangeCompletedEventArgs type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[SetPlaybackRangeCompletedEventArgs(Exception, Object)](setplaybackrangecompletedeventargs-constructor-exception-object-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the SetPlaybackRangeCompletedEventArgs class for a failed completion of a SetPlaybackRangeAysnc operation.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[SetPlaybackRangeCompletedEventArgs(TimeSpan, TimeSpan, Object)](setplaybackrangecompletedeventargs-constructor-timespan-timespan-object-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the SetPlaybackRangeCompletedEventArgs class for a successful completion of a SetPlaybackRangeAysnc operation.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -102,7 +101,6 @@ The SetPlaybackRangeCompletedEventArgs type exposes the following members.
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[RaiseExceptionIfNecessary](https://msdn.microsoft.com/library/69w1sf5e(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 
-
 ## Version Information
 
 ### Silverlight
@@ -118,4 +116,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

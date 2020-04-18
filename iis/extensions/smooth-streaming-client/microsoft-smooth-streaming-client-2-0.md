@@ -67,4 +67,3 @@ The following topics contain examples that will help you set up a development en
 ### Other Resources
 
 [Smooth Streaming Deployment Guide](https://go.microsoft.com/fwlink/?linkid=181836)
-

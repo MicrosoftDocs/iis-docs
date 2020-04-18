@@ -82,11 +82,8 @@ On the next page click "Execute" to apply all the configuration settings and to 
 
 Now you can logon to MySQL by opening a command line window and typing:
 
-
 [!code-console[Main](walkthrough-set-up-mysql-51-for-php-applications/samples/sample1.cmd)]
 
-
 If MySQL was configured correctly then the MySQL prompt will be shown:
-
 
 [!code-console[Main](walkthrough-set-up-mysql-51-for-php-applications/samples/sample2.cmd)]

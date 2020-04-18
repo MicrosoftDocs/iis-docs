@@ -82,4 +82,3 @@ true if the index is clustered; otherwise, false.
 [Index Class](index-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

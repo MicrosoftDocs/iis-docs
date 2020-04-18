@@ -22,4 +22,3 @@ The **IPlaylistFileInfo** interface represents a playlist in a physical file.
 |[IPlaylistFileInfo::Attributes Property](iplaylistfileinfo-attributes-property.md)|Gets the file attributes that are returned by the GetFileAttributes Win32 API system call.|
 |[IPlaylistFileInfo::LastModifiedTime Property](iplaylistfileinfo-lastmodifiedtime-property.md)|Gets the last modified time stamp of the file that contains the playlist.|
 |[IPlaylistFileInfo::GetStream Method](iplaylistfileinfo-getstream-method.md)|Gets an **IsSequentialStream** instance that provides sequential access of the file contents.|
-

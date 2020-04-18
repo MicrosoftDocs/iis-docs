@@ -12,8 +12,6 @@ dev_langs:
 
 # CHttpModule::CHttpModule Method
 
- 
-
 Initializes a new instance of the [CHttpModule](chttpmodule-class.md) class.
 
 ## Syntax
@@ -189,9 +187,7 @@ You can optionally compile the code by using the `__stdcall (/Gz)` calling conve
 - IIS Express 7.5, IIS Express 8.0, IIS Express 10.0 |
 | Header | Httpserv.h |
 
-
 ## See Also
 
 [CHttpModule Class](chttpmodule-class.md)  
 [REQUEST\_NOTIFICATION\_STATUS Enumeration](request-notification-status-enumeration.md)
-

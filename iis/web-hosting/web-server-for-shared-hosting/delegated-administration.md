@@ -27,7 +27,6 @@ The following table lists a sample set of features, their delegated settings, an
 >     1. [Delegating errorMode in httpErrors](delegating-errormode-in-httperrors.md)
 >     2. [Delegating scriptErrorSentToBrowser in ASP](asp.md)
 
-
 | **Feature** | **Delegated Setting** | **Reason** |
 | --- | --- | --- |
 | .NET Compilation | Read Only (changed from Read/Write) | Specifies settings for ASP.NET compilation processing directives such as the temporary compilation directory. Prevents users from setting the temporary compilation directory manually. |
@@ -68,7 +67,6 @@ The following table lists a sample set of features, their delegated settings, an
 | Session State | Read/Write | Specifies session state and forms authentication cookie settings. |
 | SMTP E-mail | Read/Write | Specifies email address and delivery options for email sent from the site. |
 | SSL Settings | Read Only | Specifies settings for SSL. |
-
 
 **To enable the Remote Delegation Service using IIS Manager**
 

@@ -85,4 +85,3 @@ A connection message that contains exception details.
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

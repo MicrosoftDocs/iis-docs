@@ -38,14 +38,12 @@ The following sections describe attributes, child elements, and parent elements.
 |**LookaheadCount**|(Optional) Specifies the number of fragments in a lookahead.|
 |**DVRWindowLength**|(Optional) Specifies the length of the trailing window for a 24/7 broadcast.|
 
-
 ### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**StreamIndex**|Specifies the metadata for one type of track (audio, video, or text).|
 |**Protection**|Container for content protection playback info.|
-
 
 ### Parent Elements
 
@@ -249,4 +247,3 @@ The following is an example of a Live Server Manifest.
 ### Concepts
 
 [IIS Smooth Streaming Client Manifest Format](iis-smooth-streaming-client-manifest-format.md)
-

@@ -12,8 +12,6 @@ dev_langs:
 
 # IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
 
- 
-
 Loads a specified protocol manager and retrieves an interface for that protocol manager.
 
 ## Syntax
@@ -86,4 +84,3 @@ When you no longer need the interface, release it before you call the protocol m
 
 [IWpfExposeProtocolManagerCustomInterface Interface](iwpfexposeprotocolmanagercustominterface-interface.md)  
 [Worker Process Framework API Reference](worker-process-framework-api-reference.md)
-

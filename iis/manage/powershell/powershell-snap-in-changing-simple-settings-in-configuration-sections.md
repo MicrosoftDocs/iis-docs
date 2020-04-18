@@ -27,13 +27,11 @@ Get-WebConfiguration and Get-WebConfigurationProperty allow you to get IIS confi
 
 Let's have a look what settings for the directoryBrowse section are enabled on the DemoApp application we created previously. First we navigate to the DemoApp folder and then we query the authentication settings in this folder. Here is how you do it:
 
-
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample1.ps1)]
 
  In the next example we are using the -filter parameter to specify the configuration section we are interested in and the -name parameter to specify which property we want to look at. If you want to see the settings of a section that is not the current location you can use the -PSPath property on top of that. Here is an example how you would query for the directory browsing settings on the Default Web Site: 
 
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample2.ps1)]
-
 
 ### Using Set-WebConfigurationProperty
 
@@ -47,21 +45,15 @@ Changing the setting is as simple as:
 
 Here is a problem. Authentication sections are usually locked, i.e. they can't be written to a web.config file but have to be written to the central applicationhost.config file instead. Using the above command to enable WindowsAuthentication would fail with a locking violation:
 
-
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample3.ps1)]
-
 
 What you have to do here is to use the -PSPath and -location parameter. The following command will enable Windows Authentication for application DemoApp. The configuration is written to applicationhost.config however using a location tag. Click [here](../managing-your-configuration-settings/understanding-iis-configuration-delegation.md "Configuration Delegation and Locking") to find more information on locking and location tags.
 
-
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample4.ps1)]
-
 
 You don't have to specify locations when querying the configuration however. The regular Get-WebConfigurationProperty command will show you that the setting is enabled.
 
-
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample5.ps1)]
-
 
 ### Get-WebConfiguration vs. Get-WebConfigurationProperty
 
@@ -69,9 +61,7 @@ The same applies as Get-Item vs. Get-ItemProperty in the previous example. Get-W
 
 Here is an example. Don't just copy and paste. Explore the properties of the windowsAuthentication section. Type $winAuth. and hit the &lt;TAB&gt; key to iterate through the available properties and functions.
 
-
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample6.ps1)]
-
 
 ### Add-WebConfiguration
 
@@ -79,9 +69,7 @@ Add-WebConfiguration is a cmdlet that you want to use if you have to add somethi
 
 Here is an example on how to add a new default document to the DemoApp default document collection:
 
-
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample7.ps1)]
-
 
 The example uses the additional parameter -at. This allows you to specify where in the collection you want to add the new value. 0 is at the beginning; -1 specifies the end.
 

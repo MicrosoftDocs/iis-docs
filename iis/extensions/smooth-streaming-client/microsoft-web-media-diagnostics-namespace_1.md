@@ -35,4 +35,3 @@ Class to contain diagnostic information about media events.
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)|Enumeration that specifies the feature area from which a trace message originates, as shown in the following member table.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[TraceDestination](tracedestination-enumeration-microsoft-web-media-diagnostics_1.md)|Enumeration that specifies destinations for trace data.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)|Enumeration that specifies the severity of a trace event.|
-

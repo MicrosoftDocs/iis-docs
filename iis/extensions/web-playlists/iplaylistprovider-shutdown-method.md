@@ -31,4 +31,3 @@ This method may be implemented to customize the shutdown behavior of a custom pl
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

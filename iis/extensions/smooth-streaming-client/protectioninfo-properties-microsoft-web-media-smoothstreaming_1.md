@@ -18,7 +18,6 @@ The [ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ProtectionHeader](protectioninfo-protectionheader-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the headers for the [ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md) class.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.
 [ProtectionInfo Class](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

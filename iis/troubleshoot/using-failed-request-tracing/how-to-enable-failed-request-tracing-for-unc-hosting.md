@@ -57,7 +57,6 @@ To verify that &lt;traceFailedRequests&gt; has been setup for delegation via App
 2. Change directories to `%windir%\system32\inetsrv\config`, and run `notepad applicationHost.config`.
 3. In applicationHost.config, search for the string *&lt;section name="traceFailedRequests"* - this section is delegated if it is *overrideModeDefault="Allow"*.
 
-
 [!code-xml[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample1.xml)]
 
 ## Configuring the UNC Share and Application Pool IDs

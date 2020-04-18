@@ -127,4 +127,3 @@ By default, IIS Transform Manager uses the task scheduler on the local server, b
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

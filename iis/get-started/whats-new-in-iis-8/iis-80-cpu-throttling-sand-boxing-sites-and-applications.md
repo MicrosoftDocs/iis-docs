@@ -13,13 +13,11 @@ by [Shaun Eagan](https://github.com/shauneagan)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | CPU throttling was updated in IIS 8.0 to include additional throttling options. |
 | IIS 7.5 | CPU throttling was not modified in IIS 7.5. |
 | IIS 7.0 | CPU throttling was introduced in IIS 7.0. |
-
 
 <a id="TOC301258515"></a>
 

@@ -31,4 +31,3 @@ The [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-we
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -135,7 +135,6 @@ Open the site.master file once you have created the project and change the text 
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image30.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image29.png)
 
-
 ### Configure Publishing
 
 All we need to do is to configure publishing. For this we need
@@ -170,7 +169,6 @@ Let's check it out! If you still have the DNS name in the clipboard you simply h
 Voila!
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image40.png)
-
 
 ### Connecting to your EC2 Instance via Remote Desktop
 

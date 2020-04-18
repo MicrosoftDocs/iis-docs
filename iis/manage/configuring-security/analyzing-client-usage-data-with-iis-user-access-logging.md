@@ -13,7 +13,6 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 > User Access Logging (UAL) is a built-in feature of Windows Server 2012 which allows administrators to collect data about client usage.
 
-
 ### Overview
 
 User Access Logging (UAL) is a built-in feature of Windows Server 2012 which allows administrators to collect data about client usage; you can find more information about UAL in the following article:
@@ -26,14 +25,12 @@ Internet Information Services 8 ships with a command-line tool, IISUAL.EXE, whic
 > [!NOTE]
 > The IISUAL.EXE utility is designed for use only with log files that are in W3C format; it will not work with log files in NCSA, IIS, or ODBC formats.
 
-
 That being said, because log file analysis can be CPU-intensive, it is recommended that you do not analyze your log data on a production server; the article listed above contains the following note:
 
 > [!NOTE]
 >  
 > 
 > UAL is not recommended for use on servers that are connected directly to the Internet, such as web servers on an Internet-accessible address space, or in scenarios where extremely high performance is the primary function of the server (such as in HPC workload environments). UAL is primarily intended for small, medium, and enterprise intranet scenarios where high volume is expected, but not as high as many deployments of Windows Server 2012 that serve Internet-facing traffic volume on a regular basis.
-
 
 ### Using the IISUAL.EXE Utility
 
@@ -66,7 +63,6 @@ IISUAL.EXE will analyze the W3C log file named &quot;u\_ex130319.log&quot; for c
 > If you need to process more than one log file, you can use the following batch file to loop through all of the log files in a directory:
 > 
 > [!code-console[Main](analyzing-client-usage-data-with-iis-user-access-logging/samples/sample2.cmd)]
-
 
 ### Examining the IISUAL.EXE Results
 

@@ -47,7 +47,6 @@ This class exposes the following members.
 |[Headers](headers-property.md)|Gets the headers.|
 |[RequestUri](requesturi-property.md)|Gets the original request URI.|
 
-
 ## Requirements
 
 |||
@@ -55,5 +54,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|SSMFSourceplugin.idl|
-
-

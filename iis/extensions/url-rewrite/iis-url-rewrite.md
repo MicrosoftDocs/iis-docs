@@ -20,10 +20,8 @@ The classes in the following namespace enable developers to create custom rewrit
 |--- |--- |
 |[Microsoft.Web.Management.Iis.Rewrite](https://msdn.microsoft.com/library/microsoft.web.management.iis.rewrite)|IIS URL Rewrite APIs.|
 
-
 ## See Also
 
 ### Other Resources
 
 [IIS URL Rewrite](https://go.microsoft.com/fwlink/?linkid=247908)
-

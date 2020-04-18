@@ -91,4 +91,3 @@ The InstanceFileName is the name of the file that was added into the watch folde
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

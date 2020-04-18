@@ -78,7 +78,6 @@ The CacheRequest2 type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheRequest2(Stream)](cacherequest2-constructor-stream-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the CacheRequest2 class based on the specified stream.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheRequest2(HttpWebRequest, IList<TrackInfo>)](cacherequest2-constructor-httpwebrequest-ilist-trackinfo-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the CacheRequest2 class based on the specified web request and list of selectable tracks.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -100,7 +99,6 @@ The CacheRequest2 type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[WriteTo](cacherequest-writeto-method-microsoft-web-media-smoothstreaming_1.md)|Writes the request to a [Stream](https://msdn.microsoft.com/library/8f86tw9e(v=vs.95)) object. (Inherited from [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md).)|
 
-
 ## Version Information
 
 ### Silverlight
@@ -116,4 +114,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

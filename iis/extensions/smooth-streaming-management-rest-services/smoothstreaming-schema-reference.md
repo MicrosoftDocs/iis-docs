@@ -121,4 +121,3 @@ The XML elements that form the request body and response body of Smooth Streamin
         [ErrorMessage Element](errormessage-element.md)
 
         [InternalError Element](internalerror-element.md)
-

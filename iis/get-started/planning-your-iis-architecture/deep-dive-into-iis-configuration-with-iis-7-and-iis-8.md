@@ -22,7 +22,6 @@ There are very few "moving parts" at runtime that implement the configuration sy
 
 Out of the box, after installing IIS, there are several consumers of configuration:
 
-
 - WAS (Windows Activation Service): Reads global defaults for application pools, sites, and other settings.
 - Web server core and modules in the worker processes: When activated to process a request, read configuration settings that control their behavior.
 - WMI provider: The IIS scripting interface provider is using the configuration system internally to get and set settings.
@@ -30,9 +29,7 @@ Out of the box, after installing IIS, there are several consumers of configurati
 - UI: The IIS administration framework is using the configuration system internally to get and set settings.
 - Legacy: Applications and scripts that use interfaces such as ABO, ADSI and the IIS 6.0 WMI provider, use the configuration system indirectly, via a component that maps the legacy ABO APIs and model to the new configuration model. The state always persists into the new configuration system.
 
-
 There are several interfaces that provide access to the configuration settings:
-
 
 | Interface | Access To |
 | --- | --- |
@@ -42,13 +39,11 @@ There are several interfaces that provide access to the configuration settings:
 | Legacy IIS interfaces such as ABO, ADSI, IIS 6.0 WMI provider. | Only the root IIS configuration file, and only the legacy (IIS 6.0) settings. .NET framework settings and IIS 7.0 and above settings are not exposed to these interfaces. |
 | Legacy .NET framework interfaces such as System.Configuration. | Only the .NET framework 2.0 configuration settings in machine.config and web.config files. |
 
-
 <a id="ConfigLevels"></a>
 
 ## Configuration Levels
 
 Every level of the URL namespace may have associated configuration. Configuration for a given level inherits down to child levels, unless specifically overridden by a child level. A simple way to achieve per-URL configuration is by using web.config files, in the physical file-system folders that are mapped to the virtual paths. At the root level (the computer level), separate files should be used, depending on the configuration section group (which will be defined later in the document; for now think about it as the name of the XML element containing the configuration):
-
 
 | Section Group | Description | Root File |
 | --- | --- | --- |
@@ -58,7 +53,6 @@ Every level of the URL namespace may have associated configuration. Configuratio
 | system.\* | Other .NET framework | Windows\microsoft.net\framework\v2.0.50727\config\machine.config |
 | [Microsoft other] | Microsoft other | Windows\microsoft.net\framework\v2.0.50727\config\machine.config |
 | [custom] | 3rd party | Either machine.config or root web.config or applicationHost.config, up to 3rd-party / customer |
-
 
 Sometimes web.config files are not desired, or cannot be used. Examples:
 
@@ -113,13 +107,11 @@ Every section has a name. The short name is the name of the section itself, and 
 
 The persistence format of configuration is XML; therefore, it is useful to describe the mappings between configuration organizational units and XML terminology. Sections groups and sections are XML elements. Within a section, the settings are organized into smaller units that closely follow the XML terminology:
 
-
 | Configuration unit | XML Terminology | Description |
 | --- | --- | --- |
 | Configuration element | XML element | contains other child units; does not have a value. |
 | Configuration collection | XML element | private case of element: contains a group of elements in the form of add/remove/clear. |
 | Configuration property | XML attribute | Contains only a value; does not contain child units. |
-
 
 Heres an example from applicationHost.config:
 
@@ -199,13 +191,11 @@ The locking in the example above was done using the overrideMode attribute. The 
 
 The system also supports a legacy attribute for locking sections in location tags: allowOverride. This attribute was used in the .NET framework configuration system, prior to overrideMode. It is mapped to overrideMode semantics as follows:
 
-
 | allowOverride value | overrideMode equivalent value | Description |
 | --- | --- | --- |
 | true | Allow | Unlock specified sections |
 | false | Deny | Lock specified sections |
 | [not set] | Inherit | Resolve by walking the inheritance hierarchy |
-
 
 The allowOverride model had some limitation and complexities, which we will not describe here. Therefore the new, and recommended, model, is overrideMode.
 

@@ -81,39 +81,29 @@ Operating system components, such as IIS, are installed with Windows setup techn
 
 Operating system components on Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2 use component-based setup. The log file for operating system components is stored in the `%windir%\logs\cbs` directory. You can open it with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample1.cmd)]
-
 
 For more information, see [Optional Component Setup Log Diagnoser](https://technet.microsoft.com/library/cc732334.aspx).
 
 IIS 7.0 (Windows Vista and Windows Server 2008) and IIS 7.5 (Windows 7 and Windows Server 2008 R2) setup generates a separate setup log file, located in the `%windir%` directory. You can open this log file with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample2.cmd)]
-
 
 **Windows XP and Windows Server 2003**
 
 Windows XP and Windows Server 2003 setup log files are stored in the `%systemroot%` directory. You can open the Windows setup log file with the name setuperr.log with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample3.cmd)]
-
 
 The IIS setup log file is called iis6.log or iis51.log. You can open it with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample4.cmd)]
-
 
 ### Products installed using Windows Installer (MSI) technology
 
 You can use the [Windows Installer technology](https://msdn.microsoft.com/library/aa371366(VS.85).aspx) for Web platform components such as Microsoft® SQL Server® and Visual Web Developer 2008 Express Edition. To look at the logs, open Internet Explorer and type the following into the address bar:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample5.cmd)]
-
 
 Web PI also displays a link to the log file that failed in the summary screen; see the [detailed description of Windows Installer error codes](https://msdn.microsoft.com/library/aa372835(VS.85).aspx).
 

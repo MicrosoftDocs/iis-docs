@@ -56,7 +56,6 @@ The Static content web server is the most basic and commonly used installation p
 
 To install IIS features for Static Content Web Server from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name:
 
-
 | UI Name | Update Name |
 | --- | --- |
 | Static Content | IIS-StaticContent |
@@ -70,15 +69,11 @@ To install IIS features for Static Content Web Server from the Vista/Windows Ser
 | Static Content Compression | IIS-HttpCompressionStatic |
 | IIS Management Console | IIS-ManagementConsole |
 
-
 To install IIS features for Static Content Web Server via pkgmgr.exe use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample1.cmd)]
 
-
 To install IIS features for Static Content Web Server via ServerManagerCmd.exe use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample2.cmd)]
 
@@ -92,7 +87,6 @@ The ASP.NET workload extends the static content workload by adding modules for A
 
 To install IIS features for ASP.NET from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | ASP.NET | IIS-ASPNET |
@@ -101,37 +95,27 @@ To install IIS features for ASP.NET from the Vista/Windows Server 2008 setup use
 | ISAPI | IIS-ISAPIFilter |
 | ISAPI Extensions | IIS-ISAPIExtensions |
 
-
 To install IIS features for ASP.NET along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample3.cmd)]
 
-
 To install IIS features for ASP.NET via ServerManagerCmd.exe, use the following command line:
 
-
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample4.ps1)]
-
 
 It is possible to install support for .NET Extensibility and managed modules without installing support for ASP.NET. Using the IIS .NET Extensibility feature, developers can build solutions that add value for all application components, such as custom authentication schemes, monitoring and logging, security filtering, load balancing, content redirection, and state management. Learn more in article [Developing a Module using .NET.](../../develop/runtime-extensibility/developing-a-module-using-net.md)
 
 To install IIS features for Managed Modules from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | .NET Extensibility | IIS-NetFxExtensibility |
 
-
 To install IIS features for Managed Modules along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample5.cmd)]
 
-
 To install IIS features for Managed Modules via ServerManagerCmd.exe, use the following command line:
-
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample6.ps1)]
 
@@ -143,22 +127,17 @@ The widely used classic ASP workload for serving server side scripted .asp pages
 
 To install IIS features for Classic ASP from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | ASP | IIS-ASP |
 | Request Filtering | IIS-RequestFiltering |
 | ISAPI Extensions | IIS-ISAPIExtensions |
 
-
 To install IIS features for Classic ASP along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample7.cmd)]
 
-
 To install IIS features for Classic ASP via ServerManagerCmd.exe, use the following command line:
-
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample8.ps1)]
 
@@ -172,20 +151,15 @@ FastCGI overcomes the performance penalty of traditional CGI by re-using CGI pro
 
 To install IIS features for CGI and Fast CGI from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | CGI | IIS-CGI |
 
-
 To install IIS features for CGI and FastCGI along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample9.cmd)]
 
-
 To install IIS features for CGI and FastCGI via ServerManagerCmd.exe, use the following command line:
-
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample10.ps1)]
 
@@ -197,12 +171,9 @@ As a developer or one who is just evaluating IIS you may simply just want to ins
 
 To install all IIS features from the Vista/Windows Server 2008 setup user interface, select the all IIS features displayed in the setup UI. To install all IIS features via pkgmgr.exe, use the following command line:
 
-
 [!code-console[Main](install-typical-iis-workloads/samples/sample11.cmd)]
 
-
 To install all IIS features via ServerManagerCmd.exe, use the following command line:
-
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample12.ps1)]
 
@@ -220,20 +191,15 @@ Of these features, Tracing provides a powerful way new to debug and diagnose IIS
 
 To install the IIS Tracing feature from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | Tracing | IIS-HttpTracing |
 
-
 To install IIS features for Tracing along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample13.cmd)]
 
-
 To install IIS features for Tracing via ServerManagerCmd.exe, use the following command line:
-
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample14.ps1)]
 
@@ -247,7 +213,6 @@ IIS always includes support for anonymous authentication, no special setup actio
 
 To install IIS features for authentication from the Vista/Windows Server 2008 setup user interface, select among following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | Basic Authentication | IIS-BasicAuthentication |
@@ -256,23 +221,17 @@ To install IIS features for authentication from the Vista/Windows Server 2008 se
 | Client Certificate Mapping Authentication | IIS-ClientCertificateMappingAuthentication |
 | IIS Client Certificate Mapping Authentication | IIS-IISCertificateMappingAuthentication |
 
-
 To install IIS features for authentication along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample15.cmd)]
 
-
 To install IIS features for authentication via ServerManagerCmd.exe, use the following command line:
 
-
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample16.ps1)]
-
 
 ### IIS 7.0 and Above Authorization Features
 
 To install IIS features for authorization from the Vista/Windows Server 2008 setup user interface, select among following IIS features by UI name (in addition to features for static content):
-
 
 | UI Name | Update Name |
 | --- | --- |
@@ -280,18 +239,14 @@ To install IIS features for authorization from the Vista/Windows Server 2008 set
 | Request Filtering | IIS-RequestFiltering |
 | IP Security | IIS-IPSecurity |
 
-
 > [!NOTE]
 > The Request Filtering feature is part of the default install, and should only be excluded from your installations after you consider all security issues related to this feature.
 
 To install IIS features for authorization along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
 
-
 [!code-console[Main](install-typical-iis-workloads/samples/sample17.cmd)]
 
-
 To install IIS features for authorization via ServerManagerCmd.exe, use the following command line:
-
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample18.ps1)]
 
@@ -307,23 +262,17 @@ Installing only the IIS Management Console will give you the ability to manage I
 
 To install the Management Client only without any IIS web Server or FTP Server features from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | IIS Management Console | IIS- ManagementConsole |
 
-
 To install IIS features for Management Console along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample19.cmd)]
 
-
 To install IIS features for Management Console via ServerManagerCmd.exe, use the following command line:
 
-
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample20.ps1)]
-
 
 ### Remote Management Service
 
@@ -331,23 +280,17 @@ Installing the IIS Remote Management Service will allow an IIS server to be mana
 
 To install the IIS Management Service from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | Management Service | IIS-ManagementService |
 
-
 To install IIS Management Service along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample21.cmd)]
 
-
 To install IIS Management Service via ServerManagerCmd.exe, use the following command line:
 
-
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample22.ps1)]
-
 
 ### IIS 6.0 Metabase Compatibility
 
@@ -355,25 +298,19 @@ IIS provides a configuration store called ApplicationHost.config with a set of m
 
 To install the Metabase Compatibility from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | IIS 6 Metabase Compatibility | IIS-Metabase |
 | IIS 6 WMI Compatibility | IIS-WMICompatibility |
 | IIS 6 Scripting Tools | IIS-LegacyScripts |
 
-
 To install IIS Metabase Compatibility along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample23.cmd)]
 
-
 To install IIS features for Metabase via ServerManagerCmd.exe, use the following command line:
 
-
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample24.ps1)]
-
 
 ### Managing IIS 6.0 and FTP Server
 
@@ -381,20 +318,15 @@ IIS 7.0 and above provides the IIS 6.0 MMC snap-in to allow you to use your Vist
 
 To install the IIS 6.0 Management Console from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 
-
 | UI Name | Update Name |
 | --- | --- |
 | IIS 6 Management Console | IIS-LegacySnapIn |
 
-
 To install IIS 7.0 and above features for IIS 6.0 Management Console along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
 
 [!code-console[Main](install-typical-iis-workloads/samples/sample25.cmd)]
 
-
 To install IIS 7.0 and above features for IIS 6.0 management via ServerManagerCmd.exe, use the following command line:
-
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample26.ps1)]
 

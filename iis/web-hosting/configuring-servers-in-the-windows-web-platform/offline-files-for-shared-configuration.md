@@ -42,9 +42,7 @@ Step 2: In the Offline Files dialog box, click Enable Offline Files. Do not rebo
 
 Step 3: Ensure that the cache is set to read only by running the following command:
 
-
 [!code-console[Main](offline-files-for-shared-configuration/samples/sample1.cmd)]
-
 
 Step 4: Reboot the Web server.
 

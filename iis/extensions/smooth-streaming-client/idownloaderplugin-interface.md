@@ -47,7 +47,6 @@ This interface exposes the following members.
 |[RequestAsync](idownloaderplugin-requestasync-method.md)|Async operation for request on the DownloaderPlugin.|
 |[ResponseData](idownloaderplugin-responsedata-method.md)|Response after download data are ready for caching.|
 
-
 ## Requirements
 
 |||
@@ -55,4 +54,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

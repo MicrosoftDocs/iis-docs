@@ -32,7 +32,6 @@ The following sections describe attributes, child elements, and parent elements.
 |**head**|The head element is a container for presentation-level metadata.|
 |**body**|The body element is a container for track information and references to other media.|
 
-
 ### Parent Elements
 
 None
@@ -111,4 +110,3 @@ The following is an example of an On-Demand Server Manifest.
 ### Concepts
 
 [IIS Smooth Streaming Server Manifest (On-Demand)](iis-smooth-streaming-server-manifest-on-demand.md)
-

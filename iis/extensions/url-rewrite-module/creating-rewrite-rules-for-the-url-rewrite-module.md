@@ -66,9 +66,7 @@ In the **Name** text box, enter a name that will uniquely identify the rule, for
 
 In the **Pattern** text box, enter the following string:
 
-
 [!code-console[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample2.cmd)]
-
 
 This string is a regular expression that specifies that the pattern will match any URL string that meets the following conditions:
 
@@ -82,9 +80,7 @@ Notice that certain parts of the regular expression are within parentheses. Thes
 
 Since the rule that we are creating is supposed to rewrite the URL, choose the **Rewrite** action type that is listed in the **Action** group box. In the **Rewrite URL:** text box, enter the following string:
 
-
 [!code-console[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample3.cmd)]
-
 
 This string specifies the new value to which the input URL should be rewritten. Notice that for the values of the query string parameters we used {R:1} and {R:2}, which are back-references to the capture groups that were defined in the rule pattern by using parentheses.
 
@@ -98,9 +94,7 @@ Save the rule by clicking **Apply** on the right-hand side.
 
 The rewrite rules are stored either in the ApplicationHost.config file or in Web.config files. To check the configuration of the rule that we have just created, open a Web.config file located in %*SystemDrive*%\inetpub\wwwroot\. In this file you should see the `<rewrite>` section that contains this rule definition:
 
-
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample4.xml)]
-
 
 The syntax above also applies to configuring URL Rewrite in Web.config in [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/documentation/services/web-sites/).
 
@@ -159,15 +153,11 @@ The third rule that we will create is used to block all requests made to a Web s
 
 We will create this rule without using IIS Manager. Open the Web.config file in the `%SystemDrive%\inetpub\wwwroot\` folder that you used for the article.aspx test file early in this article. Locate the `<rewrite>` section. Insert the following rule into the &lt;rules&gt; collection, so that it is the first rule in the collection:
 
-
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample5.xml)]
-
 
 The `<rewrite>` section should look like the following code:
 
-
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample6.xml)]
-
 
 Let's analyze the rule to understand what it does.
 

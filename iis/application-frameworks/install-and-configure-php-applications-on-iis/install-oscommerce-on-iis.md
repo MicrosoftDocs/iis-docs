@@ -27,9 +27,7 @@ Set the permissions on the **osCommerce/include/Configure.php** file to read, wr
 
 Before running the osCommerce installer, grant "Write" permissions to the **Configure.php** file.
 
-
 [!code-console[Main](install-oscommerce-on-iis/samples/sample1.cmd)]
-
 
 ## Set Up the Database
 
@@ -43,9 +41,7 @@ Before starting the installation procedure for osCommerce, you must create a dat
 
 Update the **Php.ini** file to add the **Php\_mysql.dll** module under the **Dynamic Extensions** section in the file, and ensure that the extension directory points to the correct location:
 
-
 [!code-console[Main](install-oscommerce-on-iis/samples/sample2.cmd)]
-
 
 1. Start the configuration procedure in a Web browser. Go to `http://www.my-server.com/osCommerce/catalog`. (If the Index.php file is not in the browser default document, then add it.)
 2. Click on the installation link on the top of the page to redirect to the Install Wizard. The welcome page appears on the Web browser, and the configuration procedure can be started by clicking **Continue**.  

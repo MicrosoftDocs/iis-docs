@@ -73,7 +73,6 @@ public enum PlaybackMode
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|AudioOnly|Audio only.The [SmoothStreamingPlaybackMode](smoothstreamingmediaelement-smoothstreamingplaybackmode-property-microsoft-web-media-smoothstreaming_1.md) property currently does not support VideoOnly.|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|VideoOnly|Video only.The [SmoothStreamingPlaybackMode](smoothstreamingmediaelement-smoothstreamingplaybackmode-property-microsoft-web-media-smoothstreaming_1.md) property currently does not support VideoOnly|
 
-
 ## Remarks
 
 This property can be set at any time, but it will not take effect until [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) is set or changed. SmoothStreamingPlaybackMode always shows the currently selected mode for the current [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md). If you were to read PlaybackMode after setting it, it will still read the old value until you set [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md).
@@ -97,4 +96,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

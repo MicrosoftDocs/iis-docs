@@ -94,4 +94,3 @@ If the command line includes a path that contains spaces, the string must have d
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -46,7 +46,6 @@ This class exposes the following members.
 |[ResultCode](streamchangedresult-resultcode-property.md)|Gets the result code.|
 |[Stream](streamchangedresult-stream-property.md)|Gets a stream that is selected or de-selected.|
 
-
 ## Requirements
 
 |||
@@ -54,4 +53,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

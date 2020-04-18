@@ -36,4 +36,3 @@ The [JobMetadata](jobmetadata-class-microsoft-web-media-transformmanager.md) typ
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

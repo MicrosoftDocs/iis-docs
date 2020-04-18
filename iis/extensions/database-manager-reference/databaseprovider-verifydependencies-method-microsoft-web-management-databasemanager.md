@@ -134,4 +134,3 @@ The following code sample illustrates an example VerifyDependencies method that 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

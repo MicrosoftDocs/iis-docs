@@ -25,7 +25,6 @@ The **Item** property gets an [IPlaylistEntryInfo Interface](iplaylistentryinfo-
 |*dwEntryIndex*|A **DWORD** that contains the index of the requested item in the collection.|
 |*ppPlaylistEntry*|The returned [IPlaylistEntryInfo Interface](https://msdn.microsoft.com/library/dd146268) instance.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -41,4 +40,3 @@ Implementers should return an instance of an [IPlaylistEntryInfo Interface](ipla
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

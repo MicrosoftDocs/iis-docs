@@ -80,4 +80,3 @@ A file system folder that will be watched for files that instantiate jobs.
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -45,7 +45,6 @@ This class exposes the following members.
 |[GetAttribute](manifest-getattribute-method.md)|Gets the stream level attributes from the manifest.|
 |[SelectStreamsAsync](manifest-selectstreamsasync-method.md)|Select the streams in the current manifest.|
 
-
 ### Properties
 
 |Property|Description|
@@ -62,7 +61,6 @@ This class exposes the following members.
 |[TimeScale](manifest-timescale-property.md)|Gets the manifest 'TimeScale' field.|
 |[Type](manifest-type-property.md)||
 
-
 ## Requirements
 
 |||
@@ -70,4 +68,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

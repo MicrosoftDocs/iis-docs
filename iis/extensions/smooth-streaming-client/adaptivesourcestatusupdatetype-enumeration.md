@@ -52,7 +52,6 @@ public enum AdaptiveSourceStatusUpdateType
 |SegmentManifestError|11|Error while getting a segment manifest.|
 |ChunkDownloaded|12|Additional info on every chunk downloaded.|
 
-
 ## Requirements
 
 |||
@@ -60,4 +59,3 @@ public enum AdaptiveSourceStatusUpdateType
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

@@ -45,4 +45,3 @@ Type: [String](https://msdn.microsoft.com/library/s1wwdcbf).
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

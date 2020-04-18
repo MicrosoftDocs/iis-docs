@@ -63,7 +63,6 @@ Make a backup of the configuration before executing the tasks in this article. R
 1. Delete everything in the `c:\inetpub\wwwroot` folder.
 2. From the Administrator command prompt started above, paste the attached code into a file in inetpub\wwwroot called *test.htm*:
 
-
 [!code-html[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample2.html)]
 
 [!code-console[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample3.cmd)]

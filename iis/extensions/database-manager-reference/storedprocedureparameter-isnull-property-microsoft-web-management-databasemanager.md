@@ -82,4 +82,3 @@ true if the parameter is nulla null reference (Nothing in Visual Basic); otherwi
 [StoredProcedureParameter Class](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

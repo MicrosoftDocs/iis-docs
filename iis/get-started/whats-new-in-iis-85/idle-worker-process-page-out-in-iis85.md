@@ -13,15 +13,12 @@ by [Gary Ericson](https://github.com/garyericson)
 
 > In IIS 8.5, the administrator has the option of suspending an idle worker process rather than terminating it.
 
-
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.5 and later | Idle Worker Process Page-Out was introduced in IIS 8.5. |
 | IIS 8.0 and earlier | Idle Worker Process Page-Out was not supported prior to IIS 8.5. |
-
 
 <a id="TOC301258515"></a>
 ## Problem

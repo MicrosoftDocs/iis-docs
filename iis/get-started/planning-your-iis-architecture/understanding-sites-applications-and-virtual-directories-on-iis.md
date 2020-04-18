@@ -82,7 +82,6 @@ By default, IIS uses configuration from Web.config files in the physical directo
 
 Optionally, when you need to specify credentials and a method to access the virtual directory, you can specify values for the **username**, **password**, and **logonMethod** attributes.
 
-
 <a id="Configuration"></a>
 
 ## IIS Configuration: `<sites>` Section
@@ -105,22 +104,18 @@ When an attribute is configured at more than one level, the value at the lowest 
 
 The following table specifies under which parent elements an `<applicationDefaults>` element can be configured, and describes the effect that the values have on applications.
 
-
 | Parent element | Description |
 | --- | --- |
 | `<sites>` section | Specifies the default settings for all applications on the server. |
 | `<site>` collection | Specifies the default settings for all applications in the parent site. |
 
-
 The following table specifies under which parent elements a `<virtualDirectoryDefaults>` element can be configured, and describes the effect that the values have on virtual directories.
-
 
 | Parent element | Description |
 | --- | --- |
 | `<sites>` section | Specifies the default settings for all virtual directories on the server. |
 | `<site>` collection | Specifies the default settings for all virtual directories in the parent site. |
 | `<application>` collection | Specifies the default settings for all virtual directories in the parent application. |
-
 
 <a id="Summary"></a>
 

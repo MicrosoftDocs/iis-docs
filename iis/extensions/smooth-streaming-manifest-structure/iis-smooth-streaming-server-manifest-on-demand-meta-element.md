@@ -27,14 +27,12 @@ The following sections describe attributes, child elements, and parent elements.
 |**name**|The title of the presentation.This attribute is required.|
 |**content**|Specifies the value of the metadata.This attribute is required.|
 
-
 #### name Attribute
 
 |Value|Description|
 |--- |--- |
 |**title**|The content attribute specifies a title.|
 |**clientManfiestPath**|The content attribute specifies the physical path of the client manifest relative to the server manifest.|
-
 
 ### Child Elements
 
@@ -51,4 +49,3 @@ None
 ### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - head Element](iis-smooth-streaming-server-manifest-on-demand-head-element.md)
-

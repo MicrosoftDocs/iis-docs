@@ -320,4 +320,3 @@ The following code shows an implementation of [IAsyncResult](https://msdn.micros
 ### Other Resources
 
 [System.IO.IsolatedStorage Namespace](https://go.microsoft.com/fwlink/?linkid=204798)
-

@@ -25,7 +25,6 @@ The **GetServerVariable** method returns a single server variable from a collect
 |*bstrVarName*|The name of the server variable requested.|
 |*pbstrVarValue*|The requested server variable.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -37,4 +36,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

@@ -90,4 +90,3 @@ An XML element that defines a work item based on a [JobDetails](jobdetails-class
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

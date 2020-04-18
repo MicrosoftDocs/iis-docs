@@ -73,7 +73,6 @@ public enum ManifestType
 ||Segmented|The manifest is a segmented (Live-to-VOD) manifest.|
 ||Composite|The manifest is a composite manifest. A composite manifest combines clips from one or more client manifests.|
 
-
 ## Version Information
 
 ### Silverlight
@@ -85,4 +84,3 @@ Supported in: 5
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

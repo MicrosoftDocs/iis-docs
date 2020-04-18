@@ -90,4 +90,3 @@ A value that specifies the severity of a configuration message.
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

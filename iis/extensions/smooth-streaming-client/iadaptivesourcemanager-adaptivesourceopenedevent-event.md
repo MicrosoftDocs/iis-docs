@@ -36,7 +36,6 @@ void remove (AdaptiveSourceOpenedEventHandler^ value);
 |--- |--- |
 |Delegate|[AdaptiveSourceOpenedEventHandler Delegate](adaptivesourceopenedeventhandler-delegate.md)|
 
-
 ## Requirements
 
 |||
@@ -44,4 +43,3 @@ void remove (AdaptiveSourceOpenedEventHandler^ value);
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

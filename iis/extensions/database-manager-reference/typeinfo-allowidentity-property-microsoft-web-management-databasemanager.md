@@ -365,4 +365,3 @@ The following code sample illustrates an example GetServerTypes method that retu
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

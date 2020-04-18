@@ -29,7 +29,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CacheRequest(Stream)](cacherequest-constructor-stream-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/library/8f86tw9e(v=vs.95)) object.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CacheRequest(Uri)](cacherequest-constructor-uri-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class from a [Uri](https://msdn.microsoft.com/library/txt7706a(v=vs.95)) object.|
 
-
 ## See Also
 
 ### Reference
@@ -37,4 +36,3 @@ This member is overloaded. For complete information about this member, including
 [CacheRequest Class](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

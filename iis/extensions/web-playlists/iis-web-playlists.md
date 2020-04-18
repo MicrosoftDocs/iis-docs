@@ -21,10 +21,8 @@ The IIS Web Playlists SDK allows developers to extend the default behavior throu
 |[IIS Web Playlists SDK Programming Reference](https://msdn.microsoft.com/library/dd146287)|Describes the interfaces used to develop custom playlist programming references.|
 |[IIS Web Playlists SDK Programming Guide](https://msdn.microsoft.com/library/dd146262)|Describes how to get started building custom Web Playlist providers.|
 
-
 ## See Also
 
 ### Other Resources
 
 [IIS Web Playlists](https://go.microsoft.com/fwlink/?linkid=247913)
-

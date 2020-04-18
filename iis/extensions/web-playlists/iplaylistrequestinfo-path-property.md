@@ -20,7 +20,6 @@ The **Path** property gets the physical path of the requested playlist file.
 |--- |--- |
 |*pbstrName*|The physical path of the [IPlaylistRequestInfo Interface](https://msdn.microsoft.com/library/dd146293) instance.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -37,4 +36,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

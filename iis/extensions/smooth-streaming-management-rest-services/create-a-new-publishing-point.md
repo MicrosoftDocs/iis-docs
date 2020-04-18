@@ -28,7 +28,6 @@ The Create a New Publishing Point request may be specified as follows:
 |--- |--- |
 |POST|http(s)://<hostname>/services/smoothstreaming/publishingpoints.isml/settings|
 
-
 ### URI Parameters
 
 The following table lists URL template segments and parameters.
@@ -36,7 +35,6 @@ The following table lists URL template segments and parameters.
 |Parameter|Description|Example|
 |--- |--- |--- |
 |hostname|The host name.|Contoso.com|
-
 
 ### Request Headers
 
@@ -191,4 +189,3 @@ None.
 ### Concepts
 
 [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md)
-

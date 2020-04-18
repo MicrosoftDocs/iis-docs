@@ -43,7 +43,6 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 > [!NOTE]
 > You must be an administrator to do this – see previous bullet point above.
 
-
 - Before you start, make sure you're in a "clean state". To do so, revert changes you may have done to the applicationHost.config file in previous exercises. (If you are using a VPC image, the easiest way to do that is to restart the image without saving its state).
 - It is recommended that you turn off friendly HTTP error messages in IE (**Tools** &gt; **Options** &gt; **Advanced**) for quicker troubleshooting.
 

@@ -128,19 +128,15 @@ public object\[\] InsertRow(string connectionString, string tableName, string sc
 
 }
 
-
 > [!NOTE]  
 > See the [INSERT (Transact-SQL)](https://msdn.microsoft.com/library/ms174335.aspx) topic for more information about the INSERT SQL statement.
-
 
 ## Examples
 
 The following code sample implements the InsertRow method to insert data into a database table in an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -452,4 +448,3 @@ The following code sample implements the InsertRow method to insert data into a 
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

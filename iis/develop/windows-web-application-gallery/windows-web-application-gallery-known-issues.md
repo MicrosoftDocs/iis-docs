@@ -33,7 +33,6 @@ If you want to create a new web site for your web application you need to create
 
 [![](windows-web-application-gallery-known-issues/_static/image33.png)](windows-web-application-gallery-known-issues/_static/image31.png)
 
-
 ### Other Web Platform Installer Issues
 
 For other Web Platform Installer issues, for example if Web Platform Installer can't connect to the list of applications due to connectivity issues, read the following article for more details:
@@ -78,7 +77,6 @@ Umbraco can't be hosted in an application directory. It has to be hosted in the 
 
 [![](windows-web-application-gallery-known-issues/_static/image40.png)](windows-web-application-gallery-known-issues/_static/image39.png)
 
-
 When Web Platform Installer shows the following dialog during the Umbraco installatioin the 'Umbraco' application name has to stay empty or Umbraco will not work correctly.
 
 ### SubText
@@ -94,7 +92,6 @@ If you install SubText The SubText admin menu is not shown in Internet Explorer 
 Gallery is a web application that works with Microsoft SQL Server as well as MySQL. For this reason the database field doesn't suggest the name of the database server. If you have SQL Server Express installed locally (which is the default if SQL Express is installed via Web Platform Installer) the database name has to look like this: **.\SQLExpress**
 
 [![](windows-web-application-gallery-known-issues/_static/image47.png)](windows-web-application-gallery-known-issues/_static/image46.png)
-
 
 If MySQL is used locally the database server name can be **'localhost'**.
 

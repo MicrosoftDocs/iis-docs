@@ -287,4 +287,3 @@ To let users change camera angles while the application is displaying video, you
 ### Concepts
 
 [Select and Monitor Bitrate](select-and-monitor-bitrate.md)
-

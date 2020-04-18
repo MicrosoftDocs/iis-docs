@@ -86,4 +86,3 @@ The AllowEdit property specifies whether your provider should allow editing a qu
 [Query Class](query-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

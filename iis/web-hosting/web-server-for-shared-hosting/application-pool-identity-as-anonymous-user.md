@@ -19,9 +19,7 @@ To achieve isolation in IIS 7 and above, you can run the application pools as se
 
 - Open a command prompt and run the following:
 
-
 [!code-console[Main](application-pool-identity-as-anonymous-user/samples/sample1.cmd)]
-
 
 > [!NOTE]
 > Enable this feature by setting the anonymous user attribute to a blank string, for example, username="". Removing the element from the applicationHost.config file will result in a different behavior than having a blank string.
@@ -32,6 +30,5 @@ To achieve isolation in IIS 7 and above, you can run the application pools as se
 **To configure the Web server to use the application pool identity as the anonymous identity using the [IIS PowerShell Provider](../../manage/powershell/installing-the-iis-powershell-snap-in.md)**
 
 - Open a PowerShell prompt and run the following:
-
 
 [!code-powershell[Main](application-pool-identity-as-anonymous-user/samples/sample2.ps1)]

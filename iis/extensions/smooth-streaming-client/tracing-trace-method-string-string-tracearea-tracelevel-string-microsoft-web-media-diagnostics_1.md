@@ -143,4 +143,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 [Trace Overload](tracing-trace-method-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

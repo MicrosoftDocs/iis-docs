@@ -19,7 +19,6 @@ Web Deploy takes an application offline by using the "AppOffline" rule, which is
 
 [!code-console[Main](taking-an-application-offline-before-publishing/samples/sample1.cmd)]
 
-
 ### 
 
 ## What happens when a publish fails

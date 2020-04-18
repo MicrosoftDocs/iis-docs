@@ -24,8 +24,6 @@ None.
 
 [ClientConnections Element](clientconnections-element.md)
 
-
 ## Remarks
 
 Use this setting to guarantee memory caching for a publishing point and to optimize performance for clients following the live stream of the publishing point.
-

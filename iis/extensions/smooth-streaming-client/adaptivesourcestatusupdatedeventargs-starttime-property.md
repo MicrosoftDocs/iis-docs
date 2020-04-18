@@ -46,4 +46,3 @@ Type: [Int64](https://msdn.microsoft.com/library/6yy583ek)
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

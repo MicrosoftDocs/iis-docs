@@ -22,11 +22,9 @@ Enables the publishing point to return live streams when they are requested by p
 |--- |--- |
 |enabled|Required. true to enable server connections; otherwise, false.|
 
-
 ### Child Elements
 
 [SendEndOfStreamOnStop Element](sendendofstreamonstop-element.md)
-
 
 ### Parent Element
 
@@ -37,4 +35,3 @@ Enables the publishing point to return live streams when they are requested by p
     <ServerConnections enabled="true">
       <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
     </ServerConnections>
-

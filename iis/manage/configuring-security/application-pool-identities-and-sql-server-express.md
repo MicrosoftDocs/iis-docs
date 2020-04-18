@@ -23,9 +23,7 @@ SQL Express supports a feature called ["User Instances" or RANU (Run As Normal U
 
 When you are developing with Visual Studio 2008 or Visual Studio 2010 a default connection string is stored in the machine.config file. Here it is:
 
-
 [!code-xml[Main](application-pool-identities-and-sql-server-express/samples/sample1.xml)]
-
 
 The default connection string is using RANU (User Instance=true) as you can see. The default connection string is used, for example, when a feature requires a database to store some data but no database is configured yet. ASP.NET Membership is a good example for this. If a developer adds Membership functionality to his web application ASP.NET will automatically create a database and the necessary tables by using the default connection string in machine.config.
 
@@ -54,9 +52,7 @@ This can be done via the User Interface:
 
 If you want to do this via command-line execute the following command in an elevated command prompt:
 
-
 [!code-console[Main](application-pool-identities-and-sql-server-express/samples/sample2.cmd)]
-
 
 ## Side Effects of Loading the User Profile
 

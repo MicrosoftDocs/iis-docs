@@ -111,10 +111,8 @@ public void EditView(string connectionString, string schema, View view)
 
 }
 
-
 > [!NOTE]  
 > See the [ALTER VIEW (Transact-SQL)](https://msdn.microsoft.com/library/ms173846.aspx) topic for more information about the ALTER VIEW SQL statement.
-
 
 ## Examples
 
@@ -242,4 +240,3 @@ The following code sample implements the EditView method to modify a view in a d
 [IDbViewManager Interface](idbviewmanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

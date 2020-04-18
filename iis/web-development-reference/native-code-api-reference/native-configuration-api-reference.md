@@ -20,5 +20,3 @@ The following table lists the public interfaces that are exposed by the IIS Nati
 | --- | --- |
 | INativeConfigurationElement Interface [IIS 7] | Provides an interface for a native configuration element. |
 | INativeConfigurationElementCollection Interface [IIS 7] | Provides an interface for a collection of native configuration elements. |
-
-

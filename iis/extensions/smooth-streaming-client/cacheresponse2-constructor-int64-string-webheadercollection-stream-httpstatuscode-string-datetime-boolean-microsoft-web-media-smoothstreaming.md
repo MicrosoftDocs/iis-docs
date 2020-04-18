@@ -177,4 +177,3 @@ Supported in: 5
 [CacheResponse2 Overload](cacheresponse2-constructor-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

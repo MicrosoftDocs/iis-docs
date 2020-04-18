@@ -31,4 +31,3 @@ The manifest reference is organized into the following technical sections.
 ### Other Resources
 
 [IIS Media Services](https://go.microsoft.com/fwlink/?linkid=251015)
-

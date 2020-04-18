@@ -69,4 +69,3 @@ literal String^ TaskDefinitionsDirectory
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

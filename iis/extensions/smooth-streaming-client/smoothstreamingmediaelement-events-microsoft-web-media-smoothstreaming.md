@@ -66,7 +66,6 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Unloaded](https://msdn.microsoft.com/library/ms596565)|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714).)|
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[VideoHighestPlayableTrackChanged](smoothstreamingmediaelement-videohighestplayabletrackchanged-event-microsoft-web-media-smoothstreaming_1.md)|Occurs when the playback rate changes to the highest available rate.|
 
-
 ## See Also
 
 ### Reference
@@ -74,4 +73,3 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

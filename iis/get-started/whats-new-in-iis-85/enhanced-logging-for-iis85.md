@@ -13,15 +13,12 @@ by [Gary Ericson](https://github.com/garyericson)
 
 > In IIS 8.5, the administrator has the option of logging additional custom fields from request or response headers, or from server variables.
 
-
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.5 and later | Enhanced Logging was introduced in IIS 8.5. |
 | IIS 8.0 and earlier | Enhanced Logging was not supported prior to IIS 8.5. |
-
 
 <a id="TOC301258515"></a>
 ## Problem

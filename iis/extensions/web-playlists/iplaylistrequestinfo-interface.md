@@ -23,4 +23,3 @@ The **IPlaylistRequestInfo** interface represents a playlist request.
 |[IPlaylistRequestInfo::GetSessionData Method](iplaylistrequestinfo-getsessiondata-method.md)|Gets the playlist provider specific data saved for this session.|
 |[IPlaylistRequestInfo::SetSessionData Method](iplaylistrequestinfo-setsessiondata-method.md)|Sets the playlist provider specific data for this session.|
 |[IPlaylistRequestInfo::GetFileInfo Method](iplaylistrequestinfo-getfileinfo-method.md)|Returns information about the playlist file.|
-

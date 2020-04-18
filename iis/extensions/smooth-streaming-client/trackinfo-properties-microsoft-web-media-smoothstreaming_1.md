@@ -22,7 +22,6 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Index](trackinfo-index-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Index](trackinfo-index-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Stream](trackinfo-stream-property-microsoft-web-media-smoothstreaming_1.md)|Gets the stream for this track.|
 
-
 ## See Also
 
 ### Reference
@@ -30,4 +29,3 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

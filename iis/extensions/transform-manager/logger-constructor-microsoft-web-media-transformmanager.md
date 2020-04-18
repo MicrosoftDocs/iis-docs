@@ -102,4 +102,3 @@ Each line written to a log has a [LogLevel](loglevel-enumeration-microsoft-web-m
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

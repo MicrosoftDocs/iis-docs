@@ -78,4 +78,3 @@ Specifies the type of logging message to write to the log file.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

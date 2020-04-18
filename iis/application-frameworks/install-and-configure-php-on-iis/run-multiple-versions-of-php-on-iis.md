@@ -35,15 +35,11 @@ To run multiple versions of PHP on IIS, start by configuring the environment var
 
 Next, you create FastCGI application process pools. For example, suppose you want to support PHP 4.4.8, PHP 5.2.1, and PHP 5.2.5 non-thread-safe. Place the corresponding PHP binaries in separate folders on the file system (for example, `C:\php448\`, `C:\php521\` and `C:\php525nts`), and then create FastCGI application process pools for each PHP version:
 
-
 [!code-console[Main](run-multiple-versions-of-php-on-iis/samples/sample1.cmd)]
-
 
 If you have three Web sites (site1, site2, and site3) and each site must use a different PHP version, you can define handler mappings on each site to reference a corresponding FastCGI application process pool. Note that each FastCGI process pool is uniquely identified by a combination of fullPath and arguments properties.
 
-
 [!code-console[Main](run-multiple-versions-of-php-on-iis/samples/sample2.cmd)]
-
 
 > [!NOTE]
 > *This article uses material from "[Using FastCGI to Host PHP Applications on IIS 7.0](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md)" published on June 26, 2009.*

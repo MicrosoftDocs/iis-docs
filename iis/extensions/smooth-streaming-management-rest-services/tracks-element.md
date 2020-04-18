@@ -28,9 +28,6 @@ Provides information about the tracks within the live streams that are received 
 
 [Track Element](track-element.md)
 
-
 ### Parent Element
 
 [InputStream Element](inputstream-element.md)
-
-

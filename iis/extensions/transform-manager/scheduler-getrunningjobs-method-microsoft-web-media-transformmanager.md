@@ -75,4 +75,3 @@ A list of job instance IDs.
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

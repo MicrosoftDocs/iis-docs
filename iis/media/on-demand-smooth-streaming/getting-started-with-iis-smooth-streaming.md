@@ -96,7 +96,6 @@ This section describes how to use the Sample Content and Sample Client files to 
 > [!NOTE]
 > The latest version of [Microsoft Silverlight](https://go.microsoft.com/?linkid=9652120) must be installed on the client computer that you want to use to observe the on-demand Smooth Stream.
 
-
 1. In a text editor, such as Notepad, open SmoothStreamingPlayer.html and update the **mediaurl** attribute value with the fully qualified URL of the on-demand Smooth Streaming presentation server manifest (.ism) file. In our example, this value is:  
 
     [!code-console[Main](getting-started-with-iis-smooth-streaming/samples/sample1.cmd)]
@@ -108,7 +107,6 @@ This section describes how to use the Sample Content and Sample Client files to 
     ![](getting-started-with-iis-smooth-streaming/_static/image8.png)
 
 For more information about how to build rich Silverlight user experiences that take full advantage of on-demand and live IIS Smooth Streaming capabilities, see the [Smooth Streaming Client webpage](https://go.microsoft.com/?linkid=9752845).
-
 
 > [!NOTE]
 > To view a demonstration of how IIS Smooth Streaming works under varying bandwidth conditions, see the [Experience Smooth Streaming webpage](https://go.microsoft.com/?linkid=9752846). On this webpage, you can use a demonstration player to simulate drops and recoveries in bandwidth and see Smooth Streaming in action.

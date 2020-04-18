@@ -38,7 +38,6 @@ When passive connections are negotiated using the FTP PASV command, the FTP serv
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
-
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
@@ -142,7 +141,6 @@ For additional information about how to configure the firewall settings for the 
 
 > **Configuring FTP Firewall Settings**  
 > [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
-
 
 <a id="005"></a>
 ## Configuration

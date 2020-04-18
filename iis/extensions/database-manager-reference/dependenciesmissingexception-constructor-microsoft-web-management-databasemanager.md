@@ -35,4 +35,3 @@ This member is overloaded. For complete information about this member, including
 [DependenciesMissingException Class](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

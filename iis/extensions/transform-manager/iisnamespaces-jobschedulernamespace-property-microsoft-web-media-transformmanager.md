@@ -79,4 +79,3 @@ The XML namespace value "http://schemas.microsoft.com/iis/media/v4/TM/JobSchedul
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

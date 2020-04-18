@@ -87,7 +87,6 @@ override CleanupJob :
 |[FileLoadException](https://msdn.microsoft.com/library/99akez90)|The method was unable to load a file that was created by the task scheduler when a job was submitted.|
 |[COMException](https://msdn.microsoft.com/library/02hkayhc)|The method was unable to complete the transaction that was originated by the task scheduler.|
 
-
 ## See Also
 
 ### Reference
@@ -95,4 +94,3 @@ override CleanupJob :
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

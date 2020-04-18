@@ -91,4 +91,3 @@ The CleanupJob(String) method is used by the [Scheduler](scheduler-class-microso
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

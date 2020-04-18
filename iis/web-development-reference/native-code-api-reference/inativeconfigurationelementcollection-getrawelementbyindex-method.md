@@ -42,4 +42,3 @@ The GetRawElementCount method returns the number of configuration elements in a 
 | Server | IIS 7 |
 | Product | IIS 7 |
 | Header | Nativerd_pub.h |
-

@@ -71,7 +71,6 @@ The ClipInformation type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri, Uri, Duration)](clipinformation-constructor-boolean-uri-uri-duration-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the ClipInformation class.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri, Uri, Duration, ISmoothStreamingCache)](clipinformation-constructor-boolean-uri-uri-duration-ismoothstreamingcache-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the ClipInformation class.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -82,7 +81,6 @@ The ClipInformation type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[IsSmoothStreamingSource](clipinformation-issmoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a Boolean value that indicates whether the media clip is in Smooth Streaming format.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[SmoothStreamingCache](clipinformation-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the Smooth Streaming cache.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UseSmoothStreamingCache](clipinformation-usesmoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a Boolean value that indicates whether to use the Smooth Streaming cache.|
-
 
 ## Methods
 
@@ -95,7 +93,6 @@ The ClipInformation type exposes the following members.
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[SetSource](clipinformation-setsource-method-microsoft-web-media-smoothstreaming_1.md)|Sets the source for the clip. Enables setting the clip information on the clip MediaElement for extensibility purposes.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
-
 
 ## Examples
 
@@ -128,4 +125,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

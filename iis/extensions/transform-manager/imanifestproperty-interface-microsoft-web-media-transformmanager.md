@@ -69,10 +69,8 @@ The IManifestProperty type exposes the following members.
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Name](imanifestproperty-name-property-microsoft-web-media-transformmanager.md)|Gets the name of the manifest property.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Value](imanifestproperty-value-property-microsoft-web-media-transformmanager.md)|Gets the manifest property value.|
 
-
 ## See Also
 
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

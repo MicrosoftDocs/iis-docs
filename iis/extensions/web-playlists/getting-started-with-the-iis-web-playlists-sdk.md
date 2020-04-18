@@ -16,10 +16,8 @@ The IIS Web Playlists SDK allows developers to write custom Playlist providers i
 |--- |--- |
 |[Creating a Managed Playlist Provider](https://msdn.microsoft.com/library/dd146272)|Describes how to develop and install a custom Web Playlist provider in managed code.|
 
-
 ## See Also
 
 ### Concepts
 
 [IIS Web Playlists SDK Programming Guide](iis-web-playlists-sdk-programming-guide.md)
-

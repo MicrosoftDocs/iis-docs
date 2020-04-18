@@ -85,4 +85,3 @@ true if the instance file is a manifest file; otherwise, false.
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

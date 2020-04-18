@@ -47,7 +47,6 @@ To enable remote connections using IIS Manager, click the server node in the tre
 
 This configuration is stored in the dword registry value "EnableRemoteManagement" under the registry key HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\WebManagement\Server. The easiest way to enable remote management from the command line is to save this text in a file called EnableRemoteMgmt.reg and run it:
 
-
 [!code-console[Main](remote-administration-for-iis-manager/samples/sample1.cmd)]
 
 <a id="02"></a>
@@ -70,12 +69,9 @@ To configure these settings using IIS Manager, click the server node in the tree
 
 To start WMSVC using IIS Manager, click the server node in the tree view, open the **Management Service** feature, and click **Start** in the task pane. To start WMSVC from the command line, type:
 
-
 [!code-console[Main](remote-administration-for-iis-manager/samples/sample2.cmd)]
 
-
 WMSVC installs with Startup Type set to Manual, which means that the service has to be manually restarted each time the server reboots or if HTTP.sys is stopped (WMSVC depends on HTTP.sys). Set the Startup Type to Automatic if you want WMSVC to start on system boot. Do this in the Services MMC console, or using this command line:
-
 
 [!code-console[Main](remote-administration-for-iis-manager/samples/sample3.cmd)]
 

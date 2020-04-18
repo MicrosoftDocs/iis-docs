@@ -19,7 +19,6 @@ The [IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.m
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetProperty](ijobmetadata-getproperty-method-microsoft-web-media-transformmanager.md)|Returns the value of the specified property from the task resource description framework (RDF) metadata section in the manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SetProperty](ijobmetadata-setproperty-method-microsoft-web-media-transformmanager.md)|Sets a property value in the task resource description framework (RDF) metadata section in the manifest.|
 
-
 ## See Also
 
 ### Reference
@@ -27,4 +26,3 @@ The [IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.m
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

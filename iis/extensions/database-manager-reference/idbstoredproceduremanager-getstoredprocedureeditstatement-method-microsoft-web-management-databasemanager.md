@@ -117,10 +117,8 @@ public Query GetStoredProcedureEditStatement(string connectionString, string sch
 
 }
 
-
 > [!NOTE]  
 > See the [ALTER PROCEDURE (Transact-SQL)](https://msdn.microsoft.com/library/ms189762.aspx) topic for more information about the ALTER PROCEDURE SQL statement.
-
 
 ## Permissions
 
@@ -133,4 +131,3 @@ public Query GetStoredProcedureEditStatement(string connectionString, string sch
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

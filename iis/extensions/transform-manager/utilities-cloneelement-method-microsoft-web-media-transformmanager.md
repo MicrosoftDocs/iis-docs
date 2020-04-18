@@ -109,4 +109,3 @@ Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

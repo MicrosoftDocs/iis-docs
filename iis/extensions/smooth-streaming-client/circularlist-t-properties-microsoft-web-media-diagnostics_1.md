@@ -20,7 +20,6 @@ The [CircularList\<T\>](circularlist-t-class-microsoft-web-media-diagnostics_1.m
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Count](https://msdn.microsoft.com/library/27b47ht3(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Item](https://msdn.microsoft.com/library/0ebtbkkc(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 
-
 ## Explicit Interface Implementations
 
 ||Name|Description|
@@ -32,7 +31,6 @@ The [CircularList\<T\>](circularlist-t-class-microsoft-web-media-diagnostics_1.m
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation") ![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[IList.Item](https://msdn.microsoft.com/library/bb346281(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation") ![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ICollection.SyncRoot](https://msdn.microsoft.com/library/bb356596(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 
-
 ## See Also
 
 ### Reference
@@ -40,4 +38,3 @@ The [CircularList\<T\>](circularlist-t-class-microsoft-web-media-diagnostics_1.m
 [CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

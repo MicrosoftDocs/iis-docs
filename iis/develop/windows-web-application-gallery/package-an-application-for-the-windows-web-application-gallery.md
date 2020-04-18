@@ -42,9 +42,7 @@ To create your application package, start with a simple Manifest.xml file that d
 
 ***Tip: A manifest is an XML file that says what your package contains and how to install it. [https://www.iis.net/learn/develop/windows-web-application-gallery/reference-for-the-web-application-package](reference-for-the-web-application-package.md) has more information about format of manifest.xml file.***
 
-
 [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample1.xml)]
-
 
 This manifest will copy the contents of "application" and make it an application in IIS. Include this file in the root directory of your distribution package and your application can be installed by Web PI. In this example, the value of the *path* is used both as the name of the directory in the package where the application files are stored and as the name of the Web site where the application is installed.
 
@@ -54,9 +52,7 @@ The next step would be to ask the user where they would like to install the appl
 
 By default, the application is installed in a Web site that has the same name as the path element of the iisapp directive in the Manifest.xml file. You must add a parameter similar to this one into your Parameters.xml file. The parameterEntry must have a type of "ProviderPath" and a scope of "iisapp." This parameter is used to ask the user to specify a Web site and application name.
 
-
 [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample2.xml)]
-
 
 The **scope** here identifies the type of directive in the Manifest.xml file being parameterized (for example, iisApp), and the **match** contains a regular expression to specify which directive is being modified. The regular expression is evaluated based on the "path" attribute of the "iisApp" provider.
 
@@ -96,9 +92,7 @@ Here are some tips for creating parameters.xml:
 
 Most Web applications use a database to store information. Application packages installed through Web PI can support MS SQL or MySQL data stores and run a database script or create a database. To add a SQL database check to your Manifest.xml, add the dbfullsql directive. For MySQL, use dbmysql.
 
-
 [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample8.xml)]
-
 
 The Install.sql script would be in the root of the package, and it can contain any SQL script or be empty if all that you want to do is verify that the database is there. You may use as many scripts as your application needs for setup. If you use more than one SQL script, you must specify a database provider in the Manifest.xml file for each one. We require that you use a single set of database credentials for executing all of the scripts.
 
@@ -112,9 +106,7 @@ The following example shows how to connect to a database that has commonly used 
 
 For more information, see the [Reference for the Web Application Guide](reference-for-the-web-application-package.md).
 
-
 [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample9.xml)]
-
 
 For additional information about adding the database, see the article "[Database Notes for packaging applications for use with the Windows Web App Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md)."
 
@@ -122,23 +114,17 @@ For additional information about adding the database, see the article "[Database
 
 If your application includes a configuration file that has to be copied to a new name or location before it is set up, you can do that with the **alias** directive in the Manifest.xml file. The paths are both relative to the locations of the files in the package. The destination file is specified as the location where the file would have come from if it was in the original package.
 
-
 [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample10.xml)]
-
 
 **Set File and Directory Permissions**
 
 By default, the WDT installs all files and directories without changing any of the existing permissions. In most cases, this means that the application only has read access to the installed files and directories. If your application needs to be able to write to any file or directory, you can specify which ones with a **setAcl** directive in the Manifest.xml file. The setAclResourceType element defines whether the path represents a file or a directory.
 
-
 [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample11.xml)]
-
 
 To ensure that the ACL gets applied to the proper directory, you should also provide a hidden parameter so that the ACL gets applied to the named directory relative to the AppPath where it is installed.
 
-
 [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample12.xml)]
-
 
 If no ACL is set on a file or directory, the ACL is most likely to be "Read." The ACLs are specific, so granting write access does not necessarily grant read access. If you must write to a file or directory, you should add "Read, Write". If you need to be able to enumerate the files in a directory, you should add "ListDirectory". Note that write access does not grant modify access. If you must change files once they are written to disk, you must explicitly set "Modify" access. There are some permissions that are combinations of other permissions. For example, "Modify" includes "Read," "Write," "Execute," and "Delete."
 
@@ -165,9 +151,7 @@ PHP applications are typically run as the anonymous user because the FastCGI set
 
 Create a compressed file (Zip) package of the application if you don't already have one. You can create the Zip file with Windows® Explorer, WinZip, or the Linux zip command. The Manifest.xml, Parameters.xml, and Install.sql files all go in the root directory of the package. The rest of your application goes in a sub folder of the root as in the diagram below.
 
-
 [!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample13.cmd)]
-
 
 Note that the layout of the subdirectory tree is up to you. This example illustrates where the WDT XML files go for an application, and it is not prescriptive for how your sub tree should look.
 
@@ -207,9 +191,7 @@ You can also test your package by using the Web Deployment Tool at the command p
 
 *NEW* Following is the shorthand syntax.
 
-
 [!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample15.cmd)]
-
 
 **Batch File Usage Notes**
 
@@ -232,9 +214,7 @@ When your package is ready, submit a form to the Windows Web Application Gallery
 
 If your application is being hosted on CodePlex, you must have a special URL for your package. This URL looks similar to:
 
-
 [!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample16.cmd)]
-
 
 You must substitute the name of your application at the beginning of the URL and the DownloadID for your package in place of the "nnnnn."
 

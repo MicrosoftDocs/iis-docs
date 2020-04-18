@@ -186,9 +186,7 @@ Also in **Reload**, you find calls to the [Microsoft.Web.PlatformInstaller.Produ
 
 The following code initatiates and intializes a ProductManager object:
 
-
 [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample13.cmd)]
-
 
 ### Extract the Installer Information for Each Application
 
@@ -224,9 +222,7 @@ Before this method is called, you must create an instance of ProductManager and 
 
 Note that the call to GetMissingDependencies only works correctly if it is made within the context of a user with administrative rights to the computer because it needs access to the registry and directories only available to administrators.
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample18.cs)]
-
 
 Control panel applications should ensure that the corresponding dependencies for a particular package are available in the target server before proceeding with the installation process. If this functionality is not available, there is a risk of failure once the user tries to execute the application after a successful installation. In the absence of this dependency check, hosters would have to monitor the feed applications and their dependencies to ensure that target servers are properly set up.
 
@@ -268,31 +264,23 @@ You can provide your users with a UI that lets them sort the applications based 
 
 In the Application Entry example above, you can see:
 
-
 [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample23.xml)]
-
 
 The following code snippet illustrates how you can filter applications by their keywords:
 
-
 [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample24.cmd)]
-
 
 This example uses the Web.PlatformInstaller API to load the Application List feed and then list each application ordered by keyword. The [ProductManager.Keywords](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.productmanager.keywords.aspx) collection lists all the available keywords from the loaded feed.
 
 The following example lists all applications that have the "PHP" keyword followed by the applications that have the "ASPNET" keyword.
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample25.cs)]
-
 
 ## Download a Web Deploy Package
 
 When the user selects an application, you need to download the Web Deploy package to a location on the server where the application will be installed. The package is available via HTTP. Its location is in the feed as the data within the &lt;installer&gt; element. For example:
 
-
 [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample26.xml)]
-
 
 The sample applications use the WebClient.DownloadFile method to download the package file; after downloading the sample applications, verify the hash and display the parameters required by the package.
 
@@ -302,9 +290,7 @@ The `<sha1>` element in the example contains the SHA1 hash of the package to dow
 
 The following code snippet from the sample application illustrates this verification:
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample27.cs)]
-
 
 ## Handle Package Parameters
 
@@ -316,15 +302,11 @@ The Web Deployment API allows you to retrieve the parameters from a package by a
 
 The code snippet below is taken from the sample applications and shows one method of generating the parameters as a collection called "\_parameters" to be used later.
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample28.cs)]
-
 
 The sample applications use a "ReadOnlyCollection" called "Parameters" to bind the "\_parameters" data list from the example above to the UI fields in a ListView control inside the Install.aspx file:
 
-
 [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample29.cmd)]
-
 
 ## Using the Parameter Names and Tags
 
@@ -368,9 +350,7 @@ There is validation data you can use to help you build the appropriate UI. Each 
 
 The sample application uses this data to setup the UI input controls appropriately. For example, locate the following code snippet within either sample application and note the definitions of IsBooleam(), SplitValidationValues(), AllowEmpty(), and HasReg():
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample30.cs)]
-
 
 ## Deploy an Application
 
@@ -380,9 +360,7 @@ Once you have gathered all of the data for the parameters, it is time to install
 
 You must tell the DeploymentObject how to install the application. For example:
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample31.cs)]
-
 
 In the example, the ComputerName is the Universal Resource Identifier (URI) for the MS Deploy agent. The UserName and Password are the credentials for the ID that has the authority to use the agent.
 
@@ -390,9 +368,7 @@ In the example, the ComputerName is the Universal Resource Identifier (URI) for 
 
 Each of the parameters in the original application package must have a value. If a parameter has a DefaultValue, you do not need to specify a new value at this point. All other parameters require values.
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample32.cs)]
-
 
 The Web site and application that MS Deploy uses to install the application is specified with the Application Path parameter.
 
@@ -400,9 +376,7 @@ The Web site and application that MS Deploy uses to install the application is s
 
 The application is installed using the DeploymentObject.SyncTo() method. The sample application call to SyncTo follows:
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample33.cs)]
-
 
 In the code snippet:
 
@@ -413,9 +387,7 @@ In the code snippet:
 
 The sample application assumes that the target server is the "localhost." Note that inside the Package.cs file, in the installation method, the code specifies localhost, the SiteName that you enter in the corresponding UI field:
 
-
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample34.cs)]
-
 
 If you created a site called "MySite" (as in the example above), you must type **mysite** in the **Site Name** UI field.
 

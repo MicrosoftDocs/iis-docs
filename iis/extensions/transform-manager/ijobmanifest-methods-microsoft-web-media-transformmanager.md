@@ -20,7 +20,6 @@ The [IJobManifest](ijobmanifest-interface-microsoft-web-media-transformmanager.m
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetSchedulerInfo](ijobmanifest-getschedulerinfo-method-microsoft-web-media-transformmanager.md)|Returns scheduler information by searching the job manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Initialize](ijobmanifest-initialize-method-microsoft-web-media-transformmanager.md)|Initializes member variables for a job manifest that is loaded from disk instead of created as part of a job submission.|
 
-
 ## See Also
 
 ### Reference
@@ -28,4 +27,3 @@ The [IJobManifest](ijobmanifest-interface-microsoft-web-media-transformmanager.m
 [IJobManifest Interface](ijobmanifest-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

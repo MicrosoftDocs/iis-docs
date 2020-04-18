@@ -20,7 +20,6 @@ The valid range for TCP/IP ports is 1025 through 65535. (Ports from 1 through 10
 
 > [929851: The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008](https://support.microsoft.com/kb/929851/)
 
-
 > [!NOTE]
 > You can use the [`<ftpServer/firewallSupport>`](../system.applicationhost/sites/site/ftpserver/firewallsupport.md) to configure the per-site external IP address for your firewall; this allows you to route the firewall traffic for each site through a different firewall.
 
@@ -40,7 +39,6 @@ The valid range for TCP/IP ports is 1025 through 65535. (Ports from 1 through 10
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
@@ -147,7 +145,6 @@ For additional information about how to configure the firewall settings for the 
 > **Configuring FTP Firewall Settings**  
 > [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
 
-
 <a id="005"></a>
 ## Configuration
 
@@ -180,7 +177,6 @@ The following sample illustrates several configuration settings in the global `<
     - Specify 100MB as the maximum file size.
 - Add a global authorization rule that allows access for the administrators group.
 - Specify that domain name syntax can be used for FTP virtual host names.
-
 
 [!code-xml[Main](firewallSupport/samples/sample1.xml)]
 

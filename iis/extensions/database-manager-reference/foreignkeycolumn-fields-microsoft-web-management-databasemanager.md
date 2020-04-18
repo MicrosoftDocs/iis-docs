@@ -18,7 +18,6 @@ The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasem
 |--- |--- |--- |
 |![Public field](images/Dd565979.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Dd565979.static(en-us,VS.90).gif "Static member")|[NameIndex](foreignkeycolumn-nameindex-field-microsoft-web-management-databasemanager.md)|Returns the name index for a foreign key column.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasem
 [ForeignKeyColumn Class](foreignkeycolumn-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

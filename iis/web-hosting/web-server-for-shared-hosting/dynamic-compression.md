@@ -22,5 +22,4 @@ The amount of CPU used by dynamic compression can be controlled by a setting on 
 
 - Open a command prompt and run the following:
 
-
 [!code-console[Main](dynamic-compression/samples/sample1.cmd)]

@@ -43,4 +43,3 @@ The structure of the server manifest file is as follows:
 ### Concepts
 
 [IIS Smooth Streaming Server Manifest (On-Demand)](iis-smooth-streaming-server-manifest-on-demand.md)
-

@@ -80,4 +80,3 @@ The XML element that contains the scheduler definition.
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -36,7 +36,6 @@ None
 |**audio**|The audio element specifies a single track of audio data.|
 |**textstream**|The textstream element specifies a single track of textstream data. Text tracks are commonly used for closed captioning, script streaming and chapter markers.|
 
-
 ### Parent Elements
 
 |Element|Description|
@@ -58,4 +57,3 @@ A Smooth Streaming presentation must contain one or more tracks (specified by [I
 [IIS Smooth Streaming Server Manifest (On-Demand) - audio Element](iis-smooth-streaming-server-manifest-on-demand-audio-element.md)
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - textstream Element](iis-smooth-streaming-server-manifest-on-demand-textstream-element.md)
-

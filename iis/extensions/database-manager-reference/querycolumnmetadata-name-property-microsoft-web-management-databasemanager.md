@@ -75,10 +75,8 @@ The column name for the column metadata.
 
 The following code sample implements the [GetData](idbtabledatamanager-getdata-method-microsoft-web-management-databasemanager.md) method that is used to retrieve the data in a database table from an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -295,4 +293,3 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 [QueryColumnMetadata Class](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

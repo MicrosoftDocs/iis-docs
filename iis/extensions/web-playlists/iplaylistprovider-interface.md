@@ -23,4 +23,3 @@ The **IPlaylistProvider** interface is the root interface of a playlist provider
 ## Notes for Implementers
 
 Implementers may use this interface to control initialization and shut down of a custom playlist provider.
-

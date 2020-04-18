@@ -32,7 +32,6 @@ The ARR proxy runs in the same request processing pipeline as the application it
 
 Fig: IIS request pipeline with integration of new HTTP modules and ARR proxy
 
-
 The affinitized version for a user is determined by a custom http module during the BeginRequest phase of the request lifecycle. If the version of the service running on the current frontend does not match the user's affinitized version, the request is setup for proxying via ARR. The HttpRequest-&gt;SetUrl API which enables changing the request URL and thus set the request up for proxying is available only in the native context. Hence, we added the custom native module. During the MapRequestHandler phase, the ARR module sees that the request URL has been changed and sets the ARR handler as the request handler. The request processing details can be summarized as follows:
 
 | **Request processing event** | **Action if request is proxied** |
@@ -42,7 +41,6 @@ The affinitized version for a user is determined by a custom http module during 
 | MapRequestHandler | ARR modules sets ARR handler as the request handler |
 | ExecuteRequestHandler | ARR handler proxies the request to the proxy URL |
 | EndRequest | Response code is inspected to determine proxy errors |
-
 
 ## ARR configuration
 
@@ -57,7 +55,6 @@ In the responses back to the client, ARR must return the location headers as set
 
 Listed below are a few of the issues Hotmail and SkyDrive encountered while onboarding ARR and their resolutions:
 
-  
  ·**Conflicts between ARR and MVC modules while proxying MVC requests**- The Hotmail and SkyDrive applications use ASP.NET MVC. We found that the MVC module (UrlRoutingModule 4.0) sets the MVC handler as the request handler in the PostResolveRequestCache event, which is raised after the ARR module sets the handler for the request as the ARR Handler (during MapRequestHandler). So, we had to control when UrlRoutingModule gets called by overriding the UrlRoutingModule and calling it only when our request was to be handled locally.  
 ·**Duplicate response headers** - Some response headers are duplicated by ARR when it copies the headers over from the target machine's response before returning the original machine's response to the client. We manually clear these duplicate headers before sending the response back.  
 ·**Error handling and logging-** The default application error handler, Application\_Error in the Global module, is not called when ARR fails to proxy the request. So, custom error checks need to be done during the EndRequest phase if logging is needed for proxy errors.  

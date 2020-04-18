@@ -36,9 +36,7 @@ After copying this file, browse to `http://localhost/article.aspx` and check tha
 
 Locate a web.config file in `%SystemDrive%\inetpub\wwwroot\` folder or create one if it does not exist. Open web.config file and add the following section inside of the `<system.webServer>` element:
 
-
 [!code-xml[Main](using-failed-request-tracing-to-trace-rewrite-rules/samples/sample2.xml)]
-
 
 - The "Fail bad requests" rule aborts HTTP connection if the host header of HTTP request does not match "localhost"
 - The "Rewrite to article.aspx" rule rewrite urls from this format `http://localhost/article/234/some-title` to this format `http://localhost/article.aspx?id=234&title=some-title`.

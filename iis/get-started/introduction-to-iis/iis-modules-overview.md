@@ -13,12 +13,10 @@ by IIS Team, [Mike Volodarsky](https://github.com/leanserver)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 ## Introduction
 
@@ -165,7 +163,6 @@ The IIS Manager provides an easy way to query, add or remove modules.
 
 [![IIS Manager](iis-modules-overview/_static/image2.jpg)](iis-modules-overview/_static/image1.jpg)
 
-
 **Figure 1: IIS Manager**
 
 ### To manage the enabled modules for a particular application
@@ -267,11 +264,9 @@ To display the commands supported on the Module object type the following comman
 
 [!code-console[Main](iis-modules-overview/samples/sample18.cmd)]
 
-
 To display the usage of each command, type the following command:
 
 [!code-console[Main](iis-modules-overview/samples/sample19.cmd)]
-
 
 ## Module Reference
 
@@ -280,7 +275,6 @@ The IIS server is ready for customizing. Read the following list carefully to av
 ### Utility Modules
 
 These modules do not provide request services, but instead assist the server engine with its internal operation.
-
 
 | **Module Name:** | **UriCacheModule** |
 | --- | --- |
@@ -443,11 +437,9 @@ These modules do not provide request services, but instead assist the server eng
 | Dependencies: | None. |
 | Potential issues when removing this module | Applications that specify legacy ASP.NET configuration for modules and handlers will not generate migration errors; a new application that has not been migrated will function incorrectly. |
 
-
 ### 
 
 ### Managed Modules:
-
 
 | **Module Name:** | **OutputCache** |
 | --- | --- |

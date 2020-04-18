@@ -80,4 +80,3 @@ A collection of input file names for a job.
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

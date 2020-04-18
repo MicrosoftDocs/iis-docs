@@ -45,7 +45,6 @@ public enum AdaptiveSourceManagerFailedType
 |SetPlaybackOffsetFailed|203|The playback off set failed.|
 |SetLiveBeginOffsetFailed|204|The live begin off set failed.|
 
-
 ## Requirements
 
 |||
@@ -53,4 +52,3 @@ public enum AdaptiveSourceManagerFailedType
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

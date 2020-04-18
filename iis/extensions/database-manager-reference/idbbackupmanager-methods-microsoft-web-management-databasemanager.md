@@ -18,7 +18,6 @@ The [IDbBackupManager](idbbackupmanager-interface-microsoft-web-management-datab
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[CreateBackup](idbbackupmanager-createbackup-method-microsoft-web-management-databasemanager.md)|Creates a database backup.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [IDbBackupManager](idbbackupmanager-interface-microsoft-web-management-datab
 [IDbBackupManager Interface](idbbackupmanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

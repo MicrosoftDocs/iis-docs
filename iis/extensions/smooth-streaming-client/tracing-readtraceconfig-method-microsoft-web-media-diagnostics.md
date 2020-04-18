@@ -28,7 +28,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ReadTraceConfig(Uri)](tracing-readtraceconfig-method-uri-microsoft-web-media-diagnostics_1.md)|Reads trace configuration settings from XML data returned by the uri that is specified by the parameter.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ReadTraceConfig(XmlReader)](tracing-readtraceconfig-method-xmlreader-microsoft-web-media-diagnostics_1.md)|Reads trace configuration settings from XML data returned by the xmlReader that is specified by the parameter.|
 
-
 ## See Also
 
 ### Reference
@@ -36,4 +35,3 @@ This member is overloaded. For complete information about this member, including
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

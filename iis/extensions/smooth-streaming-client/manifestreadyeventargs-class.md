@@ -44,7 +44,6 @@ This class contains the following members.
 |--- |--- |
 |[AdaptiveSource](manifestreadyeventargs-adaptivesource-property.md)|Gets the actual handler for the manifest ready event.|
 
-
 ## Requirements
 
 |||
@@ -52,4 +51,3 @@ This class contains the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

@@ -85,7 +85,6 @@ The JobScheduler type exposes the following members.
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobScheduler() () () ()](jobscheduler-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the JobScheduler class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobScheduler(FileInfo, XElement)](jobscheduler-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the JobScheduler class using the specified file information and job scheduler XML element.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -136,4 +135,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

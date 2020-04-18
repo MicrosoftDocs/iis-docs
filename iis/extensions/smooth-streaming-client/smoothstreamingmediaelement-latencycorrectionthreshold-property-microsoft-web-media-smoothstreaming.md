@@ -79,7 +79,6 @@ The latency correction threshold.
 |--- |--- |
 |[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The value is smaller than the sum of the [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md) value and the maximum between the [BufferingTime](smoothstreamingmediaelement-bufferingtime-property-microsoft-web-media-smoothstreaming_1.md) and the [LivePlaybackOffset](smoothstreamingmediaelement-liveplaybackoffset-property-microsoft-web-media-smoothstreaming_1.md) values.|
 
-
 ## Remarks
 
 This property indicates the threshold at which content is deemed late and will be discarded. A default value of -1 indicates that no content is discarded. Changes that are made to this value after the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property has been set are disregarded.
@@ -105,4 +104,3 @@ Supported in: 4
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 
 [BufferingTime](https://msdn.microsoft.com/library/cc190360)
-

@@ -45,7 +45,6 @@ This class exposes the following members.
 |[MoveNext](movenext-method.md)|Move to the next chunk.|
 |[MovePrev](moveprev-method.md)|Move to the previous chunk.|
 
-
 ## Requirements
 
 |||
@@ -53,4 +52,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

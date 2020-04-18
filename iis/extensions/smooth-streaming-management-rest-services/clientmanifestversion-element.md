@@ -24,8 +24,6 @@ None.
 
 [ClientConnections Element](clientconnections-element.md)
 
-
 ## Remarks
 
 The client manifest version can be either "2.0" or "2.2". No other versions are currently supported.
-

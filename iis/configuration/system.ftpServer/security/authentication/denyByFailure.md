@@ -115,27 +115,22 @@ The following code samples configure denying access to the FTP server based upon
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
   
-
 ### C#
 
 [!code-csharp[Main](denyByFailure/samples/sample3.cs)]
   
-
 ### VB.NET
 
 [!code-vb[Main](denyByFailure/samples/sample4.vb)]
   
-
 ### JavaScript
 
 [!code-javascript[Main](denyByFailure/samples/sample5.js)]
   
-
 ### VBScript
 
 [!code-vb[Main](denyByFailure/samples/sample6.vb)]
   
-
 ### PowerShell
 
 [!code-powershell[Main](denyByFailure/samples/sample7.ps1)]

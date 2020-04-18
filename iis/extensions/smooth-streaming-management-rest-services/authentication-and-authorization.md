@@ -23,4 +23,3 @@ Non-domain and non-Windows clients can call the services if they use standard HT
 IIS Smooth Streaming Management REST Services authorization is performed by checking user access rights to the publishing point (.isml) file. GET operations require read access to the publishing point file. PUT or DELETE operations require write access for the files. Creating a new publishing point using the POST operation requires write access to the directory where the publishing point is being created.
 
 Management access to a publishing point can be controlled by adding or removing read or write access to the publishing point file using Windows Explorer or other tools for setting Access Control List (ACL) permissions, or by setting permissions for web server virtual directories.
-

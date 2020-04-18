@@ -128,10 +128,8 @@ public Query GetStoredProcedureExecStatement(string connectionString, string sch
 
 }
 
-
 > [!NOTE]  
 > See the [EXECUTE (Transact-SQL)](https://msdn.microsoft.com/library/ms188332.aspx) topic for more information about the EXECUTE SQL statement.
-
 
 ## Permissions
 
@@ -144,4 +142,3 @@ public Query GetStoredProcedureExecStatement(string connectionString, string sch
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

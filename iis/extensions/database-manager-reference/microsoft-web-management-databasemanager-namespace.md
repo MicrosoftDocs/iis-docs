@@ -115,4 +115,3 @@ These variables are useful in an environment where multiple servers are storing 
 |![Public enumeration](images/Dd566080.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ForeignKeyChanges](foreignkeychanges-enumeration-microsoft-web-management-databasemanager.md)|Specifies the changes for foreign keys in a database.|
 |![Public enumeration](images/Dd566080.pubenumeration(en-us,VS.90).gif "Public enumeration")|[IndexChanges](indexchanges-enumeration-microsoft-web-management-databasemanager.md)|Specifies the types of index changes for a database.|
 |![Public enumeration](images/Dd566080.pubenumeration(en-us,VS.90).gif "Public enumeration")|[IndexType](indextype-enumeration-microsoft-web-management-databasemanager.md)|Specifies the index types for databases.|
-

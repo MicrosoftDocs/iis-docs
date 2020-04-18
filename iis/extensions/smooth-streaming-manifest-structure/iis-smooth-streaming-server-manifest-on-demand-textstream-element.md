@@ -29,7 +29,6 @@ The following sections describe attributes, child elements, and parent elements.
 |systemBitrate|Specifies the bit rate of the track. This value is matched to the argument of the **QualityLevels()** noun on the URL. This attribute is required.|
 |**systemLanguage**|Specifies the language of the track using an RFC-1766 identifier. This is an informative tagging scheme and distinct track names are still required in order to discriminate between tracks at the same bit rate in different languages. This attribute is optional.|
 
-
 ### Child Elements
 
 |Element|Description|
@@ -53,4 +52,3 @@ Text tracks are commonly used for closed captioning, script streaming, and chapt
 [IIS Smooth Streaming Server Manifest (On-Demand) - switch Element](iis-smooth-streaming-server-manifest-on-demand-switch-element.md)
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - textstream param Element](iis-smooth-streaming-server-manifest-on-demand-textstream-param-element.md)
-

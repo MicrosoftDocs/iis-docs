@@ -76,7 +76,6 @@ The ManifestInfo type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ProtectionInfo](manifestinfo-protectioninfo-property-microsoft-web-media-smoothstreaming_1.md)|Contains information specified in the protection element inside the manifest.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Segments](manifestinfo-segments-property-microsoft-web-media-smoothstreaming_1.md)|List of [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) objects. There is a SegmentInfo for each <Clip> element in the manifest.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -89,14 +88,12 @@ The ManifestInfo type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ParseManifest](manifestinfo-parsemanifest-method-microsoft-web-media-smoothstreaming_1.md)|Parses the Smooth Streaming manifest.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 
-
 ## Events
 
 ||Name|Description|
 |--- |--- |--- |
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")|[ChunkListChanged](manifestinfo-chunklistchanged-event-microsoft-web-media-smoothstreaming_1.md)|Event activated when the fragment info of a new text/binary chunk in a live scenario is added to the manifest. This event will fire on the UI thread.|
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[SelectStreamsCompleted](manifestinfo-selectstreamscompleted-event-microsoft-web-media-smoothstreaming_1.md)|Event activated when a [SelectStreamsAsync](segmentinfo-selectstreamsasync-method-microsoft-web-media-smoothstreaming_1.md) call has completed in any of the segments contained in [Segments](manifestinfo-segments-property-microsoft-web-media-smoothstreaming_1.md).|
-
 
 ## Remarks
 
@@ -155,4 +152,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

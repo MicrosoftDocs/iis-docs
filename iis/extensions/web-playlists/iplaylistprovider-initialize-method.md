@@ -31,4 +31,3 @@ This method may be implemented to customize the initialization behavior of a cus
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

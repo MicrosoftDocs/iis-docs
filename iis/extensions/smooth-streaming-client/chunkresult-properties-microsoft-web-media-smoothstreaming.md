@@ -21,7 +21,6 @@ The [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) ty
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Result](chunkresult-result-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the result of call to [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) or [GetChunkUri](trackinfo-getchunkuri-method-microsoft-web-media-smoothstreaming_1.md).|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Timestamp](chunkresult-timestamp-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the time stamp of the chunk in ticks.|
 
-
 ## See Also
 
 ### Reference
@@ -29,4 +28,3 @@ The [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) ty
 [ChunkResult Class](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

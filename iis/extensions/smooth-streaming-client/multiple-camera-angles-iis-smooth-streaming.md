@@ -290,4 +290,3 @@ To let users change camera angles while the application is displaying video, you
 ### Concepts
 
 [Select and Monitor Bit Rate (IIS Smooth Streaming)](select-and-monitor-bitrate.md)
-

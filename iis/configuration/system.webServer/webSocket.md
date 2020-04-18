@@ -61,7 +61,6 @@ Once the response is sent, the handler can get a pointer to the IWebSocketContex
 
 For more information, see [IWebSocketContext interface](https://msdn.microsoft.com/library/hh852804.aspx).
   
-
 ### How to configure webSocket
 
 1. Open **Internet Information Services (IIS) Manager**: 

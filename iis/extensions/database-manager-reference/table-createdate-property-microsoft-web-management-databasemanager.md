@@ -182,4 +182,3 @@ The following code sample implements the GetTables method to retrieve the list o
 [Table Class](table-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

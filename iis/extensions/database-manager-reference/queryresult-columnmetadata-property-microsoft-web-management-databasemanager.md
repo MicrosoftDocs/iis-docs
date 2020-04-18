@@ -73,10 +73,8 @@ The column metadata for a query contains information about the columns within th
 
 The following code sample implements the GetData method to retrieve the data in a database table from an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -293,4 +291,3 @@ The following code sample implements the GetData method to retrieve the data in 
 [QueryResult Class](queryresult-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

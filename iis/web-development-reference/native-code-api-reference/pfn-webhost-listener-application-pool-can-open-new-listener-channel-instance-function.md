@@ -12,8 +12,6 @@ dev_langs:
 
 # PFN\_WEBHOST\_LISTENER\_APPLICATION\_POOL\_CAN\_OPEN\_NEW\_LISTENER\_CHANNEL\_INSTANCE Function
 
- 
-
 Notifies the listener adapter that it is possible to launch other instances of this listener channel.
 
 ## Syntax
@@ -90,4 +88,3 @@ The Windows Process Activation Service (WAS) calls this function asynchronously 
 
 [Listener Adapter Callback Functions](listener-adapter-callback-functions.md)  
 [WebhostRegisterProtocol Function](webhostregisterprotocol-function.md)
-

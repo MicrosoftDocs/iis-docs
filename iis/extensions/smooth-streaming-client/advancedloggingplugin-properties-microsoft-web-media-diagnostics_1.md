@@ -21,7 +21,6 @@ The [AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diag
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[SmoothStreamingMediaElement](advancedloggingplugin-smoothstreamingmediaelement-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the that this plug-in will service.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[TimerInterval](advancedloggingplugin-timerinterval-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the timer interval for periodic advanced logging posts.|
 
-
 ## See Also
 
 ### Reference
@@ -29,4 +28,3 @@ The [AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diag
 [AdvancedLoggingPlugin Class](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

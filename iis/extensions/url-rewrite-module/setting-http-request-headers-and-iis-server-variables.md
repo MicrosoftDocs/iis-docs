@@ -103,7 +103,6 @@ Bring up the "Edit Rule" dialog by clicking on the "Add Rules..." action in the 
 
 ![](setting-http-request-headers-and-iis-server-variables/_static/image28.png)
 
-
 - Rule name: "**set server variables**"
 - Requested URL: "**Matches the Pattern**"
 - Using: "**Regular Expressions**"

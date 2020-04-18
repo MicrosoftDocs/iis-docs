@@ -68,4 +68,3 @@ The lambda expression re-initializes a list of type [TrackInfo](trackinfo-class-
 [Events](events.md)
 
 [Silverlight Applications](silverlight-applications.md)
-

@@ -14,12 +14,9 @@ The **IPlaylistEntryInfo** interface represents individual entries in a playlist
 
 ## Members
 
-
 |Member|Description|
 |--- |--- |
 | [IPlaylistEntryInfo::GetProperty Method](https://msdn.microsoft.com/library/dd146284)|Gets the value of the requested property for this entry.|
 | [IPlaylistEntryInfo::EntryType Property](https://msdn.microsoft.com/library/dd146260) | Gets an enumeration describing the location type of the current [IPlaylistEntryInfo Interface](https://msdn.microsoft.com/library/dd146268)instance. |
 | [IPlaylistEntryInfo::ENTRY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146290) | Lists the enumeration that describes the location of the playlist entry information. |
 | [IPlaylistEntryInfo::Uri Property](https://msdn.microsoft.com/library/dd146286) | Gets the URI for the location of the current [IPlaylistEntryInfo Interface](https://msdn.microsoft.com/library/dd146268)instance. |
-
-

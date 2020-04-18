@@ -52,13 +52,11 @@ This interface exposes the following members.
 |[SetLiveBeginOffsetSec](iadaptivesourcemanager-setlivebeginoffsetsec-method.md)|Sets the seconds after first chunk to start playing at when tuning to left edge, when tuning to live.|
 |[SetPlaybackOffsetSec](iadaptivesourcemanager-setplaybackoffsetsec-method.md)|Sets the seconds playback is backed off from when tuning to live.|
 
-
 ### Properties
 
 |Property|Description|
 |--- |--- |
 |[AdaptiveSources](iadaptivesourcemanager-adaptivesources-property.md)|Gets the list of opened adaptive sources.|
-
 
 ### Events
 
@@ -78,4 +76,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

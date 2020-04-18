@@ -66,4 +66,3 @@ public function QueryResult()
 [QueryResult Class](queryresult-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

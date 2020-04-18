@@ -27,20 +27,15 @@ For example, in its default configuration, IIS has anonymous authentication enab
 
 To determine which user account is used as an anonymous identity in IIS, use the following command (replace the "Default Web Site" with the name of your IIS Web site). In the output XML configuration element, look for the userName attribute.
 
-
 [!code-xml[Main](secure-content-in-iis-through-impersonation/samples/sample1.xml)]
-
 
 Note that if the userName attribute is not present in the &lt;anonymousAuthentication&gt; element or is set to an empty string, then the application pool identity is used as an anonymous identity for that Web site.
 
 To modify the permissions settings on files and folders, use the Windows Explorer user interface or the **icacls** command.
 
-
 [!code-console[Main](secure-content-in-iis-through-impersonation/samples/sample2.cmd)]
 
-
 *Note: This article uses material from "[Securing Content in IIS through File System ACLs](../../get-started/planning-for-security/secure-content-in-iis-through-file-system-acls.md)" by Nazim Lala*, *published on March 17, 2009.*
-
 
 ## Links for Further Information
 

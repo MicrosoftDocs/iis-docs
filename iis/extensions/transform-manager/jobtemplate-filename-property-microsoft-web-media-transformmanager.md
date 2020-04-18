@@ -90,4 +90,3 @@ The name of this configuration file.
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

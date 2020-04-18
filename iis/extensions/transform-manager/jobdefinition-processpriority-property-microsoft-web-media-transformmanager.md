@@ -87,4 +87,3 @@ Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

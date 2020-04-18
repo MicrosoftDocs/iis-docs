@@ -23,8 +23,6 @@ Provides the root element for Smooth Streaming management services.
 [Statistics Element](statistics-element.md)  
 [Error Element](error-element.md)
 
-
 ### Parent Element
 
 None
-

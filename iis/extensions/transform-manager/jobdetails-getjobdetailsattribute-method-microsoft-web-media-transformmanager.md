@@ -90,4 +90,3 @@ The attribute name of a [JobDetails](jobdetails-class-microsoft-web-media-transf
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

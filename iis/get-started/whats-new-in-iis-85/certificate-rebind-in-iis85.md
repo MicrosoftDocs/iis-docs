@@ -13,15 +13,12 @@ by [Jim van de Erve](https://twitter.com/jimvde)
 
 > Automatically rebind a renewed certificate by using Certificate Rebind, new in IIS 8.5.
 
-
 ## Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.5 and later | Certificate Rebind was introduced in IIS 8.5. |
 | IIS 8.0 and earlier | Certificate Rebind was not supported prior to IIS 8.5. |
-
 
 <a id="TOC301258515"></a>
 ## Problem

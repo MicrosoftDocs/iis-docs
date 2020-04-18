@@ -23,14 +23,11 @@ The IIS **dynamicIdleThreshold** property allows the administrator to dynamicall
 
 - To set this property to a particular value, for example 130%, open a command prompt and run the following:
 
-
 [!code-console[Main](dynamicidlethreshold/samples/sample1.cmd)]
-
 
 **To configure dynamicIdleThreshold using the [IIS PowerShell Provider](../../manage/powershell/installing-the-iis-powershell-snap-in.md)**
 
 Open a PowerShell prompt and run the following:
-
 
 [!code-powershell[Main](dynamicidlethreshold/samples/sample2.ps1)]
 
@@ -44,20 +41,17 @@ The following describes some of the event log entries that WAS can generate.
 | --- | --- | --- |
 | 5192 | Informational | The amount of committed memory is approaching the demand start limit. The Windows Process Activation Service (WAS) will start to decrement the idle timeout value for all worker processes. Worker processes may start idling out before the configured time. Current physical memory usage: '%2' MB, current physical memory free: '%3' MB. |
 
-
 ### 90% of configured memory threshold is reached
 
 | **Event Log ID** | **Level** | **Message** |
 | --- | --- | --- |
 | 5193 | Warning | The amount of committed memory is near or at the configured limit. The Windows Process Activation Service (WAS) will aggressively decrement the idle timeout value for the worker processes. Worker processes may start idling out before the configured time. Current physical memory usage: '%2' MB, current physical memory free: '%3' MB. |
 
-
 ### 75% of configured memory threshold regained
 
 | **Event Log ID** | **Level** | **Message** |
 | --- | --- | --- |
 | 5194 | Informational | The amount of committed memory has dropped below the high load level, so the Windows Process Activation Service (WAS) will reset the idle timeout value for the worker processes to their original settings. Current physical memory usage: '%2' MB, current physical memory free: '%3' MB. |
-
 
 ### New Worker Process Idle Timeout Event Log Message
 

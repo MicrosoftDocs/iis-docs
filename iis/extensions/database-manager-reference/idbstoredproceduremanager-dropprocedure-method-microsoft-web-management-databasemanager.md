@@ -111,10 +111,8 @@ public void DropProcedure(string connectionString, string schema, string procedu
 
 }
 
-
 > [!NOTE]  
 > See the [DROP PROCEDURE (Transact-SQL)](https://msdn.microsoft.com/library/ms174969.aspx) topic for more information about the DROP PROCEDURE SQL statement.
-
 
 ## Permissions
 
@@ -127,4 +125,3 @@ public void DropProcedure(string connectionString, string schema, string procedu
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

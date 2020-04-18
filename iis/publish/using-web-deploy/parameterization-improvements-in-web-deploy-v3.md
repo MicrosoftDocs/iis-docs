@@ -18,13 +18,11 @@ Earlier versions of Web Deploy only supported replacing attribute values which a
 
 	[!code-xml[Main](parameterization-improvements-in-web-deploy-v3/samples/sample1.xml)]
 
-
 Below are some examples which demonstrate how to get the values from other places.
 
 Get values from the remote server: 
 
 [!code-xml[Main](parameterization-improvements-in-web-deploy-v3/samples/sample2.xml)]
-
 
 Get values from a file in the package that is being synced:
 

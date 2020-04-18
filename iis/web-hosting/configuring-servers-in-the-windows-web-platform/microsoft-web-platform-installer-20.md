@@ -19,7 +19,6 @@ The following image shows the Web PI introductory screen:
 
 ![](microsoft-web-platform-installer-20/_static/image3.png)
 
-
 ## For Hosters
 
 Web PI can help in the following scenarios:
@@ -32,7 +31,6 @@ Web PI can help in the following scenarios:
 The following image shows an example of the **Web Platform** tab and a subset of the available components:
 
 [![](microsoft-web-platform-installer-20/_static/image5.png)](microsoft-web-platform-installer-20/_static/image4.png)
-
 
 ## For Web Hosting Customers
 

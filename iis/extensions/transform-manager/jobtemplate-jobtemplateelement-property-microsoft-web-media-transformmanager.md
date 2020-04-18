@@ -87,4 +87,3 @@ The [XElement](https://msdn.microsoft.com/library/bb340098) container of the tem
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

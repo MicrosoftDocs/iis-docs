@@ -91,4 +91,3 @@ The topic [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-
 ### Other Resources
 
 [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
-

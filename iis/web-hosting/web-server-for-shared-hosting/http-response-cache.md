@@ -35,11 +35,8 @@ netsh http show cache
 
 - get specific entry:
 
-
 [!code-powershell[Main](http-response-cache/samples/sample3.ps1)]
 
-
 - change attribute
-
 
 [!code-powershell[Main](http-response-cache/samples/sample4.ps1)]

@@ -103,4 +103,3 @@ The IManagementService type exposes the following members.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

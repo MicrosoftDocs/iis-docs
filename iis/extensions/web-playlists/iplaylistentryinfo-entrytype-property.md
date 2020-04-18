@@ -20,7 +20,6 @@ The **EntryType**property gets an enumeration describing the location type of th
 |--- |--- |
 |*pType*|An [IPlaylistEntryInfo::ENTRY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146290) enumeration describing the location type of the entry.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -36,4 +35,3 @@ Implementers of the [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

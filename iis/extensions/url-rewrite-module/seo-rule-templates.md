@@ -26,15 +26,11 @@ You will be using a simple test asp.net page to verify that the rules created by
 
 Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot\` folder in a file called article.aspx:
 
-
 [!code-aspx[Main](seo-rule-templates/samples/sample1.aspx)]
-
 
 Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end:
 
-
 [!code-console[Main](seo-rule-templates/samples/sample2.cmd)]
-
 
 Note: you are using "\_" instead of "." for domain separators. This is to prevent a Web browser from trying to resolve the domain name by using a Domain Name System (DNS) server.
 
@@ -76,7 +72,6 @@ What you want to do is to ensure that if somebody comes to your web site by usin
 [![](seo-rule-templates/_static/image15.png)](seo-rule-templates/_static/image14.png)
 
 Click OK to generate a redirect rule:
-
 
 After the rule has been generated open a Web browser and make a request to `http://contoso_com/Article/123/Some-Title`. The Web browser will be redirected to `http://contoso_com/article/123/some-title/`.
 

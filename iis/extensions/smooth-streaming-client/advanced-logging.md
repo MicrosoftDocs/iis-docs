@@ -183,4 +183,3 @@ The content of the fields.xml file is as follows. Change the value of the applic
 ### Other Resources
 
 [Advanced Logging for IIS 7 - Client Logging](https://go.microsoft.com/fwlink/?linkid=230676)
-

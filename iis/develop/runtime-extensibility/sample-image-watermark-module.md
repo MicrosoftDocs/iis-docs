@@ -49,27 +49,19 @@ Now, there are a few caveats in this sample and should be considered, especially
 
 The configuration of the watermark module is done via a new section in the "system.webServer" namespace. The schema file is as follow:
 
-
 [!code-xml[Main](sample-image-watermark-module/samples/sample1.xml)]
-
 
 The file "watermark.xml" should be dropped in the `%windir%\system32\inetsrv\config\schema` directory for it to take effect, as well as adding the section definition in the "applicationhost.config" file, under the "system.webServer" namespace:
 
-
 [!code-xml[Main](sample-image-watermark-module/samples/sample2.xml)]
-
 
 To use the module, one must then install the module in the global module list, "system.webServer\globalModules":
 
-
 [!code-xml[Main](sample-image-watermark-module/samples/sample3.xml)]
-
 
 And to the module list for the application, "system.webServer\modules":
 
-
 [!code-xml[Main](sample-image-watermark-module/samples/sample4.xml)]
-
 
 ## Inetmgr
 
@@ -77,14 +69,10 @@ Along with the module sample, is a set of managed classes that are management pl
 
 In the &lt;moduleProviders&gt; collection, add the following entry:
 
-
 [!code-xml[Main](sample-image-watermark-module/samples/sample5.xml)]
-
 
 And add the following line to the `<modules>` collection:
 
-
 [!code-xml[Main](sample-image-watermark-module/samples/sample6.xml)]
-
 
 Restart the tool and a new icon should be available in your site.
