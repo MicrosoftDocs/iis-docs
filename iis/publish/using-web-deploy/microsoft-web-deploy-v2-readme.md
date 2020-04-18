@@ -68,7 +68,6 @@ You will need to run the installation package as an administrator. This can be a
 - Logging in to your server using the actual account named "Administrator".
 - Logging on using an account with administrator privileges and opening a command-prompt by right-clicking the **Command Prompt** menu item that is located in the **Accessories** menu for Windows programs and selecting "Run as administrator", then typing the appropriate command listed below for your version of Windows to run the installation:
 
-
 [!code-console[Main](microsoft-web-deploy-v2-readme/samples/sample1.cmd)]
 
 **Important Note!** By default, setup will offer you the choice of installing the remote service and will use a default remote service URL, http://+:80/MSDEPLOY.

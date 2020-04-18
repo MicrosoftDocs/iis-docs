@@ -64,7 +64,6 @@ If your hosting account includes a SQL Server database, you'll also get informat
 
 > **Your database connection string is**: Password=*password*;User ID=*username*;Initial Catalog=username.hostingcompany;Data Source=sql1.hostingcompany.com
 
-
 At the hosting company, your site will be associated with an *application pool* (often just called an *app pool*). The application pool specifies which version of the .NET Framework your site will run under: version 2.0 or 4. Typically, the hosting provider tells you what the default value is and how to change it. (Some providers may provide separate sites for each .NET Framework version instead.) Most of the applications that you can download from the Web Gallery require that you publish to a .NET Framework 2.0 application pool. If you create a new ASP.NET Web pages application such as those built from the Site from Template option, you must publish to a .NET Framework 4 application pool. If you publish using Web Deploy to a site at the hosting provider that has an application pool setting inappropriate for the site you are publishing, the publishing process will fail. If so, correct the application pool setting and republish. If you publish using FTP and the application pool setting is inappropriate, publishing will succeed, but your site will not work correctly. In that case, correct the application pool setting; you do not have to republish.
 
 Configuring WebMatrix Beta for Publishing

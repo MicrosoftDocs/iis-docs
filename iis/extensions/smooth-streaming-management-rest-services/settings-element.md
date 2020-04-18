@@ -58,7 +58,6 @@ Represents all available settings for a Live Smooth Streaming publishing point i
 
 [SmoothStreaming Element](smoothstreaming-element.md)
 
-
 ### Example
 
     <?xml version="1.0" encoding="UTF-8" ?>
@@ -92,4 +91,3 @@ Represents all available settings for a Live Smooth Streaming publishing point i
         </SmoothStreaming>
       </content>
     </entry>
-

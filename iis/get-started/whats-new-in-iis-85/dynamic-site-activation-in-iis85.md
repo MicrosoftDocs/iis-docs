@@ -13,15 +13,12 @@ by [Gary Ericson](https://github.com/garyericson)
 
 > In IIS 8.5, when there are a large number of configured sites (100 or greater, by default), the service will not activate any of the sites when the service is started.
 
-
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.5 and later | Dynamic website activation was introduced in IIS 8.5. |
 | IIS 8.0 and earlier | Dynamic website activation was not supported prior to IIS 8.5. |
-
 
 <a id="TOC301258515"></a>
 ## Problem

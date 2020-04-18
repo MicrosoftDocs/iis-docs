@@ -22,9 +22,6 @@ Provides summary information about Smooth Streaming output streams.
 
 [OuputStream Element](ouputstream-element.md)
 
-
 ### Parent Element
 
 [Statistics Element](statistics-element.md)
-
-

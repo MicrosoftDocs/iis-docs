@@ -37,7 +37,6 @@ Managing application and application pools on IIS 7.0 and above can be performed
 > 
 > c. Type appcmd add backup *backupName* to back up the ApplicationHost.config file, where *backupName* is the name that you specify for the backup. A directory with the backup name that you specify will be created under the `%Windir%\system32\inetsrv\backup` directory. If you do not specify a name, appcmd will generate a directory name automatically using the current date and time.
 
-
 ## Creating and Enumerating Applications
 
 Applications can be easily created and enumerated by using WMI scripting in IIS.
@@ -123,7 +122,6 @@ If you want to make your application pool the default application pool for all a
 The following script sets the default application pool for the default Web site to the "NewAppPool" that you created earlier. Copy and paste the script into notepad, save it with the filename SetAppPoolDefault.vbs, then run it with cscript.exe.
 
 [!code-vb[Main](managing-applications-and-application-pools-on-iis-with-wmi/samples/sample10.vb)]
-
 
 ## Administering Application Pools
 

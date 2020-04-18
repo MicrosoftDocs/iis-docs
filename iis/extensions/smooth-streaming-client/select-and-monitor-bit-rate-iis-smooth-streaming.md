@@ -72,4 +72,3 @@ The lambda expression re-initializes a list of type [TrackInfo](trackinfo-class-
 ### Other Resources
 
 [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
-

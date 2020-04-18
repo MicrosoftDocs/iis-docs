@@ -90,4 +90,3 @@ The index of the current task within the sequence of tasks that are associated w
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

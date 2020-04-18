@@ -30,4 +30,3 @@ The [Table](table-class-microsoft-web-management-databasemanager.md) type expose
 [Table Class](table-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

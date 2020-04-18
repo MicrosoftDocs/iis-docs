@@ -44,4 +44,3 @@ The parent stream of this stream. This stream is typically a sparse stream.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

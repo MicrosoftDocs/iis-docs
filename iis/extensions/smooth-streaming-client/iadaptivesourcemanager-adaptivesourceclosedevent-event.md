@@ -36,7 +36,6 @@ void remove (AdaptiveSourceClosedEventHandler^ value);
 |--- |--- |
 |Delegate|[AdaptiveSourceClosedEventHandler Delegate](adaptivesourceclosedeventhandler-delegate.md)|
 
-
 ## Requirements
 
 |||
@@ -44,5 +43,3 @@ void remove (AdaptiveSourceClosedEventHandler^ value);
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**IDL**|Microsoft.Media.AdaptiveStreaming.winmd|
-
-

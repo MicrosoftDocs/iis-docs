@@ -30,4 +30,3 @@ The following table lists the references that describe and demonstrate Smooth St
 [IIS Smooth Streaming Manifest Structure](https://go.microsoft.com/fwlink/?linkid=247633)
 
 [IIS Smooth Streaming Deployment Guide](https://go.microsoft.com/fwlink/?linkid=181836)
-

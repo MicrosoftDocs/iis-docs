@@ -13,13 +13,11 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | Multicore Scaling on NUMA was introduced in IIS 8.0. |
 | IIS 7.5 | Multicore Scaling on NUMA was not supported in IIS 7.5. |
 | IIS 7.0 | Multicore Scaling on NUMA was not supported in IIS 7.0. |
-
 
 <a id="TOC301258515"></a>
 

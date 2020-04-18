@@ -25,5 +25,3 @@ Represents a media stream destination and type of output.
 ### Parent Element
 
 [Sinks Element](sinks-element.md)
-
-

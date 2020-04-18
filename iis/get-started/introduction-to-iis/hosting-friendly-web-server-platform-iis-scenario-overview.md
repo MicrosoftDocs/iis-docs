@@ -43,7 +43,6 @@ Whether you are an IT professional, a web developer, or you want to set up your 
 
 The following table contains links to resources related to IIS 8.
 
-
 |       Content Type       |                                                                                                                                                        References                                                                                                                                                        |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      **Deployment**      |                                      [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) &#124; [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy)                                      |
@@ -53,4 +52,3 @@ The following table contains links to resources related to IIS 8.
 |  **Tools and Settings**  |                                                                                                [Web Server (IIS) Administration Cmdlets in Windows PowerShell](https://technet.microsoft.com/library/hh867899.aspx)                                                                                                |
 | **Community Resources**  | [IIS Blogs](https://blogs.iis.net/) &#124; [IIS Forums](https://forums.iis.net/) &#124; [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) &#124; [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) &#124; [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
 | **Related Technologies** |                                                                                                     [ASP.NET](https://www.asp.net/) &#124; [ASP.NET Web Projects](https://msdn.microsoft.com/library/ywdtth2f.aspx)                                                                                                      |
-

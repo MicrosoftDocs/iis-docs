@@ -34,4 +34,3 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -34,7 +34,6 @@ The `<system.ftpServer>` element specifies the global-level and URL-level config
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
-
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
@@ -171,7 +170,6 @@ The following sample illustrates several configuration settings in the global `<
     - Specify 100MB as the maximum file size.
 - Add a global authorization rule that allows access for the administrators group.
 - Specify that domain name syntax can be used for FTP virtual host names.
-
 
 [!code-xml[Main](index/samples/sample1.xml)]
 

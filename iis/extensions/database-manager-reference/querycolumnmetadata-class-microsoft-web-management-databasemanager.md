@@ -95,10 +95,8 @@ When your database provider retrieves table data using the [GetData](idbtabledat
 
 The following code sample implements the [GetData](idbtabledatamanager-getdata-method-microsoft-web-management-databasemanager.md) method that is used to retrieve the data in a database table from an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -313,4 +311,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -76,4 +76,3 @@ Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)
 [ITaskStatus Interface](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

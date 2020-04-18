@@ -73,9 +73,7 @@ A managed module is a .NET class that implements the **System.Web.IHttpModule** 
 
 Lets create a new source file named "BasicAuthenticationModule.cs", and create the module class (the complete source code is provided in Appendix A):
 
-
 [!code-csharp[Main](developing-a-module-using-net/samples/sample1.cs)]
-
 
 The primary function of the **Init** method is wiring the module's event handler methods to the appropriate request pipeline events. The module's class provides the event handle methods, and they implement the desired functionality provided by the module. This is discussed further in detail.
 
@@ -85,9 +83,7 @@ The **Dispose** method is used to clean up any module state when the module inst
 
 After creating the class, the next step is to implement the **Init** method. The only requirement is to register the module for one or more request pipeline events. Wire up module methods, which follow the System.EventHandler delegate signature, to the desired pipeline events exposed on the provided System.Web.HttpApplication instance:
 
-
 [!code-csharp[Main](developing-a-module-using-net/samples/sample2.cs)]
-
 
 The **AuthenticateUser** method is invoked on every request during the **AuthenticateRequest** event. We utilize it to authenticate the user based on the credential information present in the request.
 
@@ -138,25 +134,19 @@ First, deploy the module to the application. Here, you have several options:
 
 Before making configuration changes in the application's web.config file, we must unlock some of the configuration sections that are locked at the server level by default. Run the following from an Elevated command prompt (Start &gt; Right click on Cmd.exe and choose "Run as Administrator"):
 
-
 [!code-console[Main](developing-a-module-using-net/samples/sample3.cmd)]
-
 
 After running these commands, you will be able to define these configuration sections in your application's web.config file.
 
 Configure your module to run in the application. Start by creating a new web.config file, which will contain the configuration necessary to enable and use the new module. Start by adding the text below and saving it to the root of your application (`%systemdrive%\inetpub\wwwroot\web.config` if using the root application in the Default Web Site).
 
-
 [!code-xml[Main](developing-a-module-using-net/samples/sample4.xml)]
-
 
 Before enabling the new basic authentication module, disable all the other IIS authentication modules. By default, only Windows authentication and anonymous authentication are enabled. Because we do not want the browser to attempt authenticating with your Windows credentials or allow anonymous users, we disable both the Windows Authentication module and the Anonymous authentication module.
 
 Now enable the module by adding it to the list of modules loaded by our application. Open web.config once again and add the entry inside to the `<modules>` tag
 
-
 [!code-xml[Main](developing-a-module-using-net/samples/sample5.xml)]
-
 
 You can also deploy the module by using either the IIS Administration Tool, or the APPCMD.EXE command line tool.
 
@@ -187,17 +177,13 @@ Save this source code as BasicAuthenticationModule.cs inside the /App\_Code dire
 > [!NOTE]
 > If you are using Notepad, make sure to set Save As: All Files to avoid saving the file as BasicAuthenticationModule.cs.txt.
 
-
 [!code-csharp[Main](developing-a-module-using-net/samples/sample6.cs)]
-
 
 ## Appendix B: Web.config for Basic Auth Module
 
 Save this configuration as web.config file in the root of your application:
 
-
 [!code-xml[Main](developing-a-module-using-net/samples/sample7.xml)]
-
 
 ## Appendix C: Configuring Membership
 

@@ -23,11 +23,9 @@ by IIS Team
 | --- | --- | --- | --- |
 | - IIS 構築の近道 | - [PHP 環境の設定](https://technet.microsoft.com/ja-jp/iis/ee794964.aspx#lerning "PHP 環境の設定") - [セミナー資料](https://technet.microsoft.com/ja-jp/iis/ee794964.aspx#doc "PHP セミナー資料") | - [バーチャル ラボ](https://technet.microsoft.com/ja-jp/iis/dd936209.aspx#touch "バーチャル ラボ") - [Web キャスト (デモ)](https://technet.microsoft.com/ja-jp/iis/dd936209.aspx#watch "Web キャスト") | - 拡張機能の日本語解説 - ダウンロード |
 
-
 | [![](iis-localized-japanese-learn-articles-and-more/_static/image5.png)](https://technet.microsoft.com/ja-jp/iis/dd627539.aspx "サポート (日本語版)") | [![](iis-localized-japanese-learn-articles-and-more/_static/image6.png)](https://technet.microsoft.com/ja-jp/iis/dd936208.aspx "勉強会、ブログ、セミナー (日本語版)") | [![](iis-localized-japanese-learn-articles-and-more/_static/image7.png)](https://social.technet.microsoft.com/Forums/ja-JP/category/iis "IIS フォーラム (日本語版)") |
 | --- | --- | --- |
 | - サポート技術情報検索 - トピック別 KB | - [エバンジェリスト ブログ](https://technet.microsoft.com/ja-jp/iis/dd936208.aspx#blog "エバンジェリストのブログ") - [IIS で XOOPS を動かそう!、ほか](https://technet.microsoft.com/ja-jp/iis/dd936208.aspx#community "IIS でオープンソースを動かそう!") | - [IIS 7.x - 全般](https://social.technet.microsoft.com/Forums/ja-JP/iis7ja/threads "IIS 7.x (全般) フォーラム") - [PHP on Windows Training kit](https://social.technet.microsoft.com/Forums/ja-JP/iisphpkitja/threads "PHP on Windows Training kit (全般) フォーラム") |
-
 
 ### LEARN (learn.iis.net) 日本語版コンテンツ一覧：
 

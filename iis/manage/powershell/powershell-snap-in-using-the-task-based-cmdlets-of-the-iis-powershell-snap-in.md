@@ -35,9 +35,7 @@ Technical Preview 1 of the IIS PowerShell Snap-in included only low-level cmdlet
 
 Here is the list of low-level cmdlets we ship since Tech Preview 1 back in April 2008:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample1.ps1)]
-
 
 ## Task-based Cmdlets
 
@@ -49,33 +47,23 @@ Here comes the exciting news. For day-to-day IIS tasks like creating web-sites, 
 
 'Using the built-in help system is the easiest way to find out what cmdlets are available and how to use them. The following command lists all IIS cmdlets.
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample3.ps1)]
-
 
 Another way is to look for -Web prefix we use for all IIS cmdlets. Try this command:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample4.ps1)]
-
 
 The built-in help system gives you a quick description about an individual cmdlet, about the parameters and arguments it takes and it has examples how to use the cmdlet. Try the following:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample5.ps1)]
-
 
 To receive the full help about a particular cmdlet you can enter the following:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample6.ps1)]
-
 
 If you only want to see an example how to use it try the following command:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample7.ps1)]
-
 
 ## End-to-end Example
 
@@ -85,15 +73,11 @@ The power of the task-based cmdlets shows when you use it for an end-to-end scen
 
 Enter the following commands:
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample8.ps1)]
-
 
 This creates a new physical directory for our new site.
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample9.ps1)]
-
 
 The line above creates a new web site pointing to the newly created directory and listening on port 81.
 
@@ -101,21 +85,15 @@ The line above creates a new web site pointing to the newly created directory an
 
 The following commands will navigate the IIS namespace and create a new content file.
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample10.ps1)]
-
 
 The command above navigates to the MyNewWebSite node in the IIS namespace.
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample11.ps1)]
-
 
 The above command lists all the contents of the new web site. It won't show anything because there is no content.
 
-
 [!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample12.ps1)]
-
 
 The above command opens notepad and allows you to edit test.htm. Instead of having to remember where the physical path of your web site. Enter some text, e.g. "Hello World" and save the file in notepad.
 
@@ -143,9 +121,7 @@ The configuration looks like this:
 
 **Contents of web.config file**
 
-
 [!code-xml[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample17.xml)]
-
 
 The important configuration is the failureDefinitions rule. By default a trace file is generated when the error code is between 200 and 500 or when the request takes longer than 30 seconds. Let's issue a request that generates a response in the 200-500 error range by executing the following command:
 

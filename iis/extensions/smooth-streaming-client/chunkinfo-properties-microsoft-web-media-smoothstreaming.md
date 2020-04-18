@@ -21,7 +21,6 @@ The [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Stream](chunkinfo-stream-property-microsoft-web-media-smoothstreaming_1.md)|Gets the [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) object.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TimeStamp](chunkinfo-timestamp-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the start time for the data chunk.|
 
-
 ## See Also
 
 ### Reference
@@ -29,4 +28,3 @@ The [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 [ChunkInfo Class](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

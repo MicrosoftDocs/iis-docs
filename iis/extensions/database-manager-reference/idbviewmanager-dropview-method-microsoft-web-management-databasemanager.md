@@ -111,10 +111,8 @@ public void DropView(string connectionString, string schema, string viewName)
 
 }
 
-
 > [!NOTE]  
 > See the [DROP VIEW (Transact-SQL)](https://msdn.microsoft.com/library/ms173492.aspx) topic for more information about the DROP VIEW SQL statement.
-
 
 ## Examples
 
@@ -178,4 +176,3 @@ The following code sample implements the DropView method to remove a view from a
 [IDbViewManager Interface](idbviewmanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

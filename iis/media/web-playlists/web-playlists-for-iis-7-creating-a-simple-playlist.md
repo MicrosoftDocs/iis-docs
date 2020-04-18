@@ -144,17 +144,13 @@ In the Web Playlists feature in IIS Manager, simply add a media entry that uses 
 
 For illustration, consider the following sample playlist:
 
-
 [!code-html[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample1.html)]
-
 
 For this playlist, when the client requests the first entry during playback, Web Playlists downloads the response from the **pre.aspx** page. The request uses two server variables (**SERVER\_NAME** and **SERVER\_PORT**) which are replaced by appropriate values while requesting the ASPX page.
 
 Here is a very simplified example of what the pre.aspx page could look like.
 
-
 [!code-aspx[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample2.aspx)]
-
 
 The ASPX page returns a path to advertisement.wmv. However, you can include any logic to compute the correct path/URL to be returned. For example, you can get values from a database based on the request parameters. You can also pass other server variables in the request such as IP address to get location-specific data from any database in your existing architecture.
 
@@ -201,7 +197,6 @@ Web Playlists has limited support for following SMIL elements:
 - seq: this tag is used to specify an order in the playlist.
 
 ### Sample SMIL-based Web Playlist
-
 
 [!code-html[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample3.html)]
 
@@ -254,9 +249,7 @@ The smil playlist referred above is read by the server and send the client in th
 
 The playlist in the example above results in the following ASX when accessed by the client:
 
-
 [!code-xml[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample4.xml)]
-
 
 When the player tries to play the playlist, The param tags above act as hints to player / developer writing the player. If there is an attempt to ignore the hints, then the server-side logic ensures the sanctity of the media controls: **Disable Skip Forward**, **Disable Skip Backward**, and **Disable Seek**.
 

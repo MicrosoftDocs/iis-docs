@@ -109,4 +109,3 @@ If your provider implements the IDbCustomBackupRestoreManager interface, your pr
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

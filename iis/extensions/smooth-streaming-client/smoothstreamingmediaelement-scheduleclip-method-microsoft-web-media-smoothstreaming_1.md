@@ -30,7 +30,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ScheduleClip(ClipInformation, Boolean, TimeSpan, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-boolean-timespan-object-microsoft-web-media-smoothstreaming_1.md)|Schedules playing of a media clip.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ScheduleClip(ClipInformation, TimeSpan, Boolean, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-timespan-boolean-object-microsoft-web-media-smoothstreaming_1.md)|Schedules playing of a media clip.|
 
-
 ## Remarks
 
 The method inserts a clip that will play for its duration, after which the stream that was interrupted resumes.
@@ -41,10 +40,8 @@ A media clip can be scheduled for play when the [SmoothStreamingMediaElement](sm
 
 For more information and for examples, see [Scheduling Media Clips](scheduling-media-clips.md) and [Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md).
 
-
 > [!NOTE]  
 > Smooth Streaming clips that are scheduled by using ScheduleClip methods require manifests that start at timestamp zero and must be scheduled after the manifest is loaded. If you try to schedule a clip when the Smooth Streaming player is in an opening state, an invalidOperationException error occurs. The ScheduleClip should be called only after the ManifestReady event has occurred.
-
 
 ## See Also
 
@@ -53,4 +50,3 @@ For more information and for examples, see [Scheduling Media Clips](scheduling-m
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

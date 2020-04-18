@@ -77,10 +77,8 @@ A list of numbers that represent the playback rates.
 
 For more information and for examples, see [Fast Forward and Rewind Modes (IIS Smooth Streaming)](fast-forward-and-rewind-modes.md).
 
-
 > [!NOTE]  
 > This property currently is not supported for audio-only playback.
-
 
 ## Examples
 
@@ -122,4 +120,3 @@ Supported in: Windows Phone OS 7.0
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

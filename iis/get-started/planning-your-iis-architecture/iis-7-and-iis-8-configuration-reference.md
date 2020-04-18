@@ -30,9 +30,7 @@ As noted earlier, this document contains snippets of schema information for each
 
 The schema for each configuration section is defined in an XML element. There is no schema definition for section groups. The following format is used here to explain how to read the schema:
 
-
 [!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample1.xml)]
-
 
 `<attribute-name>` is the name of the configuration attribute, as it appears in XML. Every attribute must have a name.
 

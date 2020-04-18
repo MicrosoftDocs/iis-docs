@@ -27,7 +27,6 @@ The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) type
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Type](streaminfo-type-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Type](streaminfo-type-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[UniqueId](streaminfo-uniqueid-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the Id that identifies this stream.|
 
-
 ## See Also
 
 ### Reference
@@ -35,4 +34,3 @@ The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) type
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

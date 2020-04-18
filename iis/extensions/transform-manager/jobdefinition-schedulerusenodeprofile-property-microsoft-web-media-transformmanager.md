@@ -96,4 +96,3 @@ HPC also enables compute nodes to be collected into node groups. If a node group
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

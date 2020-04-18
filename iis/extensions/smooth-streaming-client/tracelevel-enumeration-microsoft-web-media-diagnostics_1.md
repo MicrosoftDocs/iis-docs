@@ -97,7 +97,6 @@ public enum TraceLevel
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|Warning|0x80|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|All|-1|
 
-
 ## Version Information
 
 ### Silverlight
@@ -113,4 +112,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 ### Reference
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

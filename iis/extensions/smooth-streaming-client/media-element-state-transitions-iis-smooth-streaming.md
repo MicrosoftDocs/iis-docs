@@ -77,16 +77,11 @@ State Transition Matrix
 |Opening|Opening. The request is ignored|Opening. The request is ignored|Opening. The request is ignored|Opening. The request is ignored|Opening. The request is ignored|Closed. This is for the clip that is currently playing. There can subsequently be a call for opening, buffering, or other actions, depending on whether the [AutoPlay](smoothstreamingmediaelement-autoplay-property-microsoft-web-media-smoothstreaming_1.md) setting is true or false.|Opening. The request is ignored|Opening. The request is ignored|
 |ClipPlaying. (See note following table.)|ClipPlaying. If the clip was paused, it resumes.|ClipPlaying. If the clip was playing, it is paused.|ClipPlaying. An [InvalidOperationException](https://msdn.microsoft.com/library/2asft85a) error is thrown.|Stopped. All actions are stopped.|ClipPlaying. An [InvalidOperationException](https://msdn.microsoft.com/library/2asft85a) error is thrown.|Closed.|ClipPlaying. The track should be changed on the main video, but not on the clip.|ClipPlaying. The clip must play as scheduled. The clip starts in Playing state. The most recently started clip takes precedence, and any other clip is stopped and unscheduled.|
 
-
-
 > [!NOTE]  
 > The ClipPlaying state is used only to determine when a clip is in the active window. There are other states associated with the clip. Applications can use [ClipStateChanged](smoothstreamingmediaelement-clipstatechanged-event-microsoft-web-media-smoothstreaming_1.md) and [CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md) to get these states.
 
-
-
 > [!NOTE]  
 > The player state does not change to [Stopped](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) when the manifest/license manager URL is invalid. Instead, the clip remains in [Opening](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md) state.
-
 
 ## See Also
 
@@ -97,4 +92,3 @@ State Transition Matrix
 ### Other Resources
 
 [MediaElement States](https://go.microsoft.com/fwlink/?linkid=230681)
-

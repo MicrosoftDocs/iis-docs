@@ -37,4 +37,3 @@ The [IisNamespaces](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

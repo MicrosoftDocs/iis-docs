@@ -37,7 +37,6 @@ void remove (AdaptiveSourceStatusUpdatedEventHandler^ value);
 |--- |--- |
 |Delegate|AdaptiveSourceStatusUpdatedEventHandler|
 
-
 ## Requirements
 
 |||
@@ -45,5 +44,3 @@ void remove (AdaptiveSourceStatusUpdatedEventHandler^ value);
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-
-

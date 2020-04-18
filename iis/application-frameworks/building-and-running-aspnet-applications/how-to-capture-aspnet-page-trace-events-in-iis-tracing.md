@@ -99,7 +99,6 @@ Failure Request Tracing first must be enabled for the site. Steps to enable are 
 
 	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image12.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image11.jpg)	
 
-
 4. Click **Next**. The **Select Trace Providers** page appears. Select the **ASPNET** check box and the **Page** check box under "Areas" (uncheck all other areas that are checked except **Page**) Under Verbosity, select **Verbose**.
 
 	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image14.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image13.jpg)

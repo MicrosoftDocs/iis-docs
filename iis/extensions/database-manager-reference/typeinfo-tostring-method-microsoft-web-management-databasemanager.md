@@ -72,4 +72,3 @@ A string that contains the name of the data type.
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -76,14 +76,11 @@ Backup key IIS configuration files before beginning so that you can restore the 
 
 Expected output:
 
-
 [!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample1.cmd)]
-
 
 - After you have finished, restore IIS to its original state by opening the command prompt as administrator and typing `%windir%\system32\inetsrv\appcmd restore backup IIS7\_WMI\_CIMStudioLab`.
 
 Expected output:
-
 
 [!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample2.cmd)]
 

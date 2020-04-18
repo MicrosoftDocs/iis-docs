@@ -24,8 +24,6 @@ None.
 
 [Track Element](track-element.md)
 
-
 ## Remarks
 
 This is the rate at which the live source sends the track data to the publishing point. The value varies slightly from the actual encoded bit rate due to network conditions.
-

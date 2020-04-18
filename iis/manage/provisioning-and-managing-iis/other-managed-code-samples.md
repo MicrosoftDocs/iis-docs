@@ -24,13 +24,10 @@ Use the following to set permissions on a folder using managed code **.**
 > [!NOTE]
 > A reference to System.DirectoryServices.dll is required.
 
-
 [!code-csharp[Main](other-managed-code-samples/samples/sample1.cs)]
-
 
 ### Create a User Account
 
 Use the following to create a user account using managed code.
-
 
 [!code-csharp[Main](other-managed-code-samples/samples/sample2.cs)]

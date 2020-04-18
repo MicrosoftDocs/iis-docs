@@ -18,7 +18,6 @@ After you have created the interop assembly, you must create the implementation 
 
 The interfaces included in the interop assembly are listed in the following table:
 
-
 |                                      Interface                                      |                                                                                                   Description                                                                                                    |
 |-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |            [IPlaylistProvider Interface](iplaylistprovider-interface.md)            |                               Serves as the root interface for a custom Playlist provider. This interface provides access to initialization and shutdown routines for a provider.                                |
@@ -241,4 +240,3 @@ This command assumes that the interop assembly, playlistprovider.dll, is in the 
 [Installing a Custom Web Playlist Provider](installing-a-custom-web-playlist-provider.md)
 
 [Creating a Managed Playlist Provider](creating-a-managed-playlist-provider.md)
-

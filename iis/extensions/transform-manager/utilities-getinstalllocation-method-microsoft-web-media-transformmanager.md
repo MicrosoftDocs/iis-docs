@@ -74,4 +74,3 @@ The installation location of IIS Transform Manager from the local computer.
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

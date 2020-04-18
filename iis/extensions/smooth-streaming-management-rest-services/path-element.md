@@ -22,7 +22,6 @@ Specifies a path that overwrites the default archive path that is set in the ser
 |--- |--- |
 |useEventIdOnPath|Optional. true to use the event ID on the path instead of the auto-generated timestamp value; otherwise, false. The default value is false.|
 
-
 ## Child Elements
 
 None.
@@ -31,10 +30,8 @@ None.
 
 [Archive Element](archive-element.md)
 
-
 ## Example
 
     <Archive enabled="true">
       <Path useEventIdOnPath="false">%systemdrive%\inetpub\media\archives</Path>
     </Archive>
-

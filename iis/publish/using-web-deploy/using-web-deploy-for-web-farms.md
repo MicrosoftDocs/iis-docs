@@ -17,7 +17,6 @@ The tool can be used to synchronize a web farm, including deploying new applicat
 
 For specific features available in Application Center and whether they are supported in the Web Deployment Tool (or within IIS itself), please see the comparison table. While there are a limited set of Application Center features that do not have a direct replacement, many of these will be added to future versions of Microsoft products.
 
-
 ## Application Center Comparison Table
 
 | **Application Center Feature** | **Corresponding Web Deployment Tool Feature** |

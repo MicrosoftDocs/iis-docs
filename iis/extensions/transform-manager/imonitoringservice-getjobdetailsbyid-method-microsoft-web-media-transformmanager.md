@@ -93,4 +93,3 @@ The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) objec
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

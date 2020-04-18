@@ -76,7 +76,6 @@ The list of commands depends on the object, and the following objects are suppor
 | BACKUP | Administration of server configuration backups |
 | TRACE | Working with failed request trace logs |
 
-
 For example, you can list which web sites are configured on your server using the SITE object with the following syntax:
 
 [!code-console[Main](how-to-configure-webdav-settings-using-appcmd/samples/sample5.cmd)]
@@ -175,7 +174,6 @@ In order to be compatible with previous versions of WebDAV for IIS, some optiona
 | CompactXml | Defines whether the XML returned by the WebDAV module will terminate each line with a CRLF sequence. |
 | IsHidden | Specifies that the IsHidden pseudo-live property should be supported. |
 | IsCollection | Specifies that the IsCollection pseudo-live property should be supported. |
-
 
 To set any of these features, you will need to set the value of "compatFlags" attribute on the "authoring" section using syntax like the following:
 

@@ -108,19 +108,15 @@ If your provider does not support editing tables, you can use the following code
        throw new NotImplementedException();
     }
 
-
 > [!NOTE]  
 > See the [ALTER TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms190273.aspx) topic for more information about the ALTER TABLE SQL statement.
-
 
 ## Examples
 
 The following code sample implements the EditTable method for an OLEDB connection by using the TableInfo object that the database manager provides.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -1384,4 +1380,3 @@ private void AddForeignKeys(
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

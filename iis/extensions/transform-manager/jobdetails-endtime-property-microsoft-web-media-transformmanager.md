@@ -90,4 +90,3 @@ The time when the job ended.
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

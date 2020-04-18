@@ -42,15 +42,11 @@ To demonstrate how the URL rewrite module 2 works, you will use a simple ASP.NET
 
 The next step is to add a rule that rewrites URLs that have the following format:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample4.cmd)]
-
 
 These URLs will be rewritten to have a format like the following:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample5.cmd)]
-
 
 **To add the inbound rewrite rule:** 
 
@@ -71,9 +67,7 @@ You can now test that the inbound rewrite rule is working as designed.
 
 Open a Web browser and request the following URL:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample8.cmd)]
-
 
 If the rewrite rule is working correctly, you will get a response form the server that looks like the following:
 
@@ -92,15 +86,11 @@ This is when outbound URL rewriting can help. Outbound URL rewriting can fix the
 
 You will now create an outbound rewrite rule that changes the URLs in the HTML responses. The rule will change the URLs that have the following format:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample9.cmd)]
-
 
 These URLs will be rewritten as the following:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample10.cmd)]
-
 
 You will create an outbound rule by using the URL Rewrite user interface in IIS Manager.
 
@@ -159,17 +149,13 @@ To define a tag filter, expand the drop down list "**Match the content within:**
 
 This sets the rule to apply the pattern only to the value of the **href** attribute of the hyperlink, as in the following example:
 
-
 [!code-html[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample11.html)]
-
 
 ### Defining a pattern
 
 In the "Pattern" text box enter the following string:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample12.cmd)]
-
 
 This string is a regular expression that specifies that the pattern will match any URL string that meets the following conditions:
 
@@ -183,9 +169,7 @@ Notice that certain parts of the regular expression are within parentheses. Thes
 
 Choose the "Rewrite" action type in the "Action" group box. In the "Value" text box, enter the following string:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample13.cmd)]
-
 
 This string specifies the new value to which the link address should be rewritten. Notice that for the values of the query string parameters the expression uses {R:1} and {R:2}, which are the back-references to the capture groups that were defined in the rule pattern by using parentheses.
 
@@ -199,23 +183,17 @@ Save the rule by clicking on "Apply" action on the right hand side.
 
 The rewrite rules are stored either in **aplicationHost.config** file or in **web.config** files. To check the configuration of the rule that you have just created, open a web.config file located in
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample14.cmd)]
-
 
 In this file you see the `<rewrite>` section that contains all the rules definitions, as in the following example:
 
-
 [!code-xml[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample15.xml)]
-
 
 ### Testing the rule
 
 You can now test that the rule correctly rewrites URLs. Open a Web browser and request the following URL:
 
-
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample16.cmd)]
-
 
 You should see that the outbound rewrite rule has changed the link within the HTML response:
 

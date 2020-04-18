@@ -15,12 +15,10 @@ This article outlines the steps required to get an ASP.Net Core application runn
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 10.0 | The features described in this article were introduced in IIS 10.0 |
 | IIS 8.5 and earlier | The features described in this article were not supported prior to IIS 10.0 |
-
 
 ## Installing IIS
 

@@ -23,7 +23,6 @@ The **Count** property gets the number of playlist entries in this collection.
 |--- |--- |
 |*pdwEntryCount*|A **DWORD** representing the number of playlist entries in this collection.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -39,4 +38,3 @@ Implementers are responsible for returning the correct number of entries.
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

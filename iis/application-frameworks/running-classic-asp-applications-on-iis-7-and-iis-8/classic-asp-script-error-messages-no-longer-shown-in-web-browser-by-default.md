@@ -42,11 +42,9 @@ You can configure these settings by using IIS Manager. To do so, open IIS Manage
 
 [![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image2.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image1.jpg)
 
-
 In the list of ASP features, configure the **Script Error Message** and **Send Errors To Browser** options.
 
 [![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image4.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image3.jpg)
-
 
 You can also configure these settings by using the command-line tool AppCmd.exe with the following syntax:
 
@@ -57,6 +55,5 @@ You can also configure these settings by using the command-line tool AppCmd.exe 
 For additional information about the options that are available for classic ASP debugging, see the following page in the IIS configuration reference on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
 > [https://www.iis.net/ConfigReference/system.webServer/asp](https://www.iis.net/configreference/system.webserver/asp)
-
 
 As an alternative to returning ASP script error messages to a Web browser, you can enable [Failed Request Tracing](using-failed-request-tracing-to-troubleshoot-classic-asp-errors.md) on your server. For example, you could add a rule to trace HTTP 500 errors automatically, which the ASP engine generates when an error occurs. By analyzing the output in the Failed Request Tracing logs on your server, you can pinpoint the source of classic ASP errors. As an additional security note, Failed Request Tracing logs are not available to Web browsers, so the troubleshooting information is only available on your server. If you use Failed Request Tracing, it will also let you troubleshoot unmonitored classic ASP errors in detail without having to reproduce the errors.

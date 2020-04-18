@@ -55,7 +55,6 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[VideoPlaybackTrackProperty](smoothstreamingmediaelement-videoplaybacktrackproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property.|
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[VolumeProperty](smoothstreamingmediaelement-volumeproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property that specifies the [Volume](smoothstreamingmediaelement-volume-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
-
 ## See Also
 
 ### Reference
@@ -63,4 +62,3 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

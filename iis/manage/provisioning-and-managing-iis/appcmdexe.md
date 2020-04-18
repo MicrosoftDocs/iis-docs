@@ -25,17 +25,12 @@ Use the following code samples for implementing AppCmd.exe.
 
 [!code-console[Main](appcmdexe/samples/sample2.cmd)]
 
-
 [!code-console[Main](appcmdexe/samples/sample3.cmd)]
-
 
 **To configure the Failed Request Tracing log file location**
 
-
 [!code-console[Main](appcmdexe/samples/sample4.cmd)]
 
-
 **To configure the W3SVC log file location**
-
 
 [!code-console[Main](appcmdexe/samples/sample5.cmd)]

@@ -45,7 +45,6 @@ This class exposes the following members.
 |[FailType](failtype-property.md)|Gets the failure type.|
 |[Result](result-property.md)|Gets the result.|
 
-
 ## Requirements
 
 |||
@@ -53,4 +52,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

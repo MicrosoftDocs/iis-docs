@@ -86,10 +86,8 @@ This is a generic event handler that specifies the type [SeekCompletedEventArgs]
   }
 ```
 
-
 > [!NOTE]  
 > The topic [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-and-events.md) shows how to define TimelineEvent markers in media streams and how to handle the events they generate.
-
 
 You can extend event functionality in many ways. For longer media streams, it may be preferable to use a slider bar instead of the seek button shown in the previous example. For an implementation of the slider bar, see [Position in Stream (IIS Smooth Streaming)](position-in-stream.md).
 
@@ -129,4 +127,3 @@ This handler displays the error code and message to a text block. A full applica
 ### Other Resources
 
 [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
-

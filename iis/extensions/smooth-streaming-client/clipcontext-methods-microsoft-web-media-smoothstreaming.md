@@ -23,7 +23,6 @@ The [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) ty
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
-
 ## See Also
 
 ### Reference
@@ -31,4 +30,3 @@ The [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) ty
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

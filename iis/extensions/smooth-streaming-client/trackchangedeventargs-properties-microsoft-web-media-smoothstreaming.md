@@ -21,7 +21,6 @@ The [TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoo
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StreamType](trackchangedeventargs-streamtype-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [StreamType](trackchangedeventargs-streamtype-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Timestamp](trackchangedeventargs-timestamp-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Timestamp](trackchangedeventargs-timestamp-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
-
 ## See Also
 
 ### Reference
@@ -29,4 +28,3 @@ The [TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoo
 [TrackChangedEventArgs Class](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

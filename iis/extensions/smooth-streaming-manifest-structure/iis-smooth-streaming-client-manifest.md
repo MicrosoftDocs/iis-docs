@@ -13,4 +13,3 @@ mtps_version: v=VS.90
 The Client Manifest provides several key types of metadata necessary for the client to decode and render the media.
 
 You can find out more about the format of this data by reading [IIS Smooth Streaming Client Manifest Format](iis-smooth-streaming-client-manifest-format.md).
-

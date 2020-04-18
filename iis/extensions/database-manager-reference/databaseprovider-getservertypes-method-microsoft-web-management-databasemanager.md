@@ -80,10 +80,8 @@ A read-only ICollection object that contains a collection of [TypeInfo](typeinfo
 
 Your provider must implement the GetServerTypes method in order to return the database types for your provider.
 
-
 > [!NOTE]  
 > The types for a provider vary greatly between database servers; you must consult the documentation for your database server in order to construct the list of server types for your provider.
-
 
 ## Examples
 
@@ -379,4 +377,3 @@ The following code sample illustrates an example GetServerTypes method that retu
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

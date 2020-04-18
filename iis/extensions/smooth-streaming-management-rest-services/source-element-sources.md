@@ -25,4 +25,3 @@ Represents a live stream source.
 ### Parent Element
 
 [Sources Element (Sources)](sources-element-sources.md)
-

@@ -47,7 +47,6 @@ This interface exposes the following members.
 |[Manifest](iadaptivesource-manifest-property.md)|Gets the manifest.|
 |[Uri](iadaptivesource-uri-property.md)|Gets the URI.|
 
-
 ### Events
 
 |Method|Description|
@@ -56,7 +55,6 @@ This interface exposes the following members.
 |[AdaptiveSourceStatusUpdatedEvent](iadaptivesource-adaptivesourcestatusupdatedevent-event.md)|Adds the status updated event handler.|
 |[ManifestReadyEvent](iadaptivesource-manifestreadyevent-event.md)|Adds the manifest ready event handler.|
 
-
 ## Requirements
 
 |||
@@ -64,4 +62,3 @@ This interface exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

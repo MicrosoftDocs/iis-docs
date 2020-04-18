@@ -27,5 +27,3 @@ Provides information about how the publishing point delivers live streams to cli
 ### Parent Element
 
 [InputStream Element](inputstream-element.md)
-
-

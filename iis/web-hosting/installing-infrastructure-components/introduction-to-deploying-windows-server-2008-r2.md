@@ -77,4 +77,3 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-I
 ## Using SCCM
 
 System Center Configuration Manager 2007 provides adaptive, policy-based automation to manage the full deployment, update and extension life cycle for servers, clients and handheld devices, across physical, virtual, distributed, or mobile systems. It packs the most complete feature set for deployment.
-

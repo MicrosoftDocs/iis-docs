@@ -32,7 +32,6 @@ An enumeration provides a list of properties of a playlist.
 |*PlaylistProperty_TimeToLive*|The absolute time, in minutes, before the playlist is live.|
 |*PlaylistProperty_LastModifiedTime*|The last modified **FILETIME** for the playlist.|
 
-
 ## Requirements
 
 **Header:** playlistprovider.h
@@ -40,4 +39,3 @@ An enumeration provides a list of properties of a playlist.
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

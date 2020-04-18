@@ -97,7 +97,6 @@ All service implementations are contained in the service implementation project,
 
 [![](setting-up-components/_static/image27.jpg)](setting-up-components/_static/image25.jpg)
 
-
 Due to the fact that certain operations overlap among these three services, all actual implementations are handled by the WebManager class as static methods, which leverages the managed APIs that come with IIS.
 
 Beside Web related operations, there is CertificateManager class handling of all certificate-related operations. Windows Server® 2008 introduced new APIs for managing certificates, and those platform APIs are not exposed as managed code. CertificateManager uses p/invoke to wrap those APIs as managed APIs.

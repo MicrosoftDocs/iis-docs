@@ -37,7 +37,6 @@ Credential caching is enabled by default for FTP 7.0, FTP 7.5, and FTP 8.0. Cred
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
-
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>

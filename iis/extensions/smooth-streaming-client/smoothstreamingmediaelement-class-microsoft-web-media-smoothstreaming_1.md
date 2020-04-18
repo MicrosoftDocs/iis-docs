@@ -100,7 +100,6 @@ The SmoothStreamingMediaElement type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[SmoothStreamingMediaElement](smoothstreamingmediaelement-constructor-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the SmoothStreamingMediaElement class.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -214,7 +213,6 @@ The SmoothStreamingMediaElement type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Volume](smoothstreamingmediaelement-volume-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the audio volume.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Width](https://msdn.microsoft.com/library/ms600906(v=vs.95))|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714(v=vs.95)).)|
 
-
 ## Methods
 
 ||Name|Description|
@@ -294,7 +292,6 @@ The SmoothStreamingMediaElement type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[TransformToVisual](https://msdn.microsoft.com/library/cc189872(v=vs.95))|(Inherited from [UIElement](https://msdn.microsoft.com/library/ms590078(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UpdateLayout](https://msdn.microsoft.com/library/ms599327(v=vs.95))|(Inherited from [UIElement](https://msdn.microsoft.com/library/ms590078(v=vs.95)).)|
-
 
 ## Events
 
@@ -430,4 +427,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

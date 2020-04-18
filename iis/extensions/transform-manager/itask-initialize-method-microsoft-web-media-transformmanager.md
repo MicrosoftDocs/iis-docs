@@ -109,4 +109,3 @@ instance.Initialize(status, metadata, _
 [ITask Interface](itask-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

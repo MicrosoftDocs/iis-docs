@@ -73,10 +73,8 @@ A [TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md) class t
 
 The following code sample implements the InsertRow method to insert data into a database table in an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -388,4 +386,3 @@ The following code sample implements the InsertRow method to insert data into a 
 [ColumnDataInfo Class](columndatainfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

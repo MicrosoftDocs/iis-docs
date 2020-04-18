@@ -25,4 +25,3 @@ This section contains reference documentation for the IIS Smooth Streaming Manag
 |[Update Publishing Point Settings](update-publishing-point-settings.md)|Updates the settings for an existing publishing point.|
 |[Update Publishing Point State](update-publishing-point-state.md)|Updates the state of an existing publishing point.|
 |[Service Management Status and Error Codes](service-management-status-and-error-codes.md)|Provides information about IIS Smooth Streaming Management REST Services status and error codes.|
-

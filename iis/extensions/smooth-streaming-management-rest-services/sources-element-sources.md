@@ -27,5 +27,3 @@ Provides information about sources that are sending live streams to the publishi
 ### Parent Element
 
 [InputStream Element](inputstream-element.md)
-
-

@@ -23,7 +23,6 @@ The [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[SmoothStreamingCache](clipinformation-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the Smooth Streaming cache.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UseSmoothStreamingCache](clipinformation-usesmoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a Boolean value that indicates whether to use the Smooth Streaming cache.|
 
-
 ## See Also
 
 ### Reference
@@ -31,4 +30,3 @@ The [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

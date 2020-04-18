@@ -90,9 +90,7 @@ SQL Server service packs and upgrades provide enhanced security. To determine th
 
 You can use the following script to determine the service pack installed on the system.
 
-
 [!code-sql[Main](secure-your-sql-server-database/samples/sample1.sql)]
-
 
 ## Principals and Database Object Security
 

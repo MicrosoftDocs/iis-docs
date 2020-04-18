@@ -116,7 +116,6 @@ The following configuration sample performs the following actions for the Defaul
 - Creates a many-to-one certificate mapping rule for a user account based on the organization field in the subject of the client certificate matching Contoso.
 - Configures the site to require SSL and to negotiate client certificates.
 
-
 [!code-xml[Main](index/samples/sample1.xml)]
 
 The following configuration sample enables IIS Client Certificate Mapping authentication using one-to-one certificate mapping for the Default Web Site, creates a singe one-to-one certificate mapping for a user account, and configures the site to require SSL and to negotiate client certificates.

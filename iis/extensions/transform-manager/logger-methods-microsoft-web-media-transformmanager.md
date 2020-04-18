@@ -35,4 +35,3 @@ The [Logger](logger-class-microsoft-web-media-transformmanager.md) type exposes 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

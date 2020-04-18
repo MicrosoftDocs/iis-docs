@@ -66,7 +66,6 @@ The DatabaseProvider type exposes the following members.
 |--- |--- |--- |
 |![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[DatabaseProvider](databaseprovider-constructor-microsoft-web-management-databasemanager.md)|Creates a new instance of the DatabaseProvider class.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -110,10 +109,8 @@ When writing a database provider, your provider must implement the base Database
 
   - [GetDatabaseHostName](databaseprovider-getdatabasehostname-method-microsoft-web-management-databasemanager.md)
 
-
 > [!NOTE]  
 > See the <strong>Notes for Implementers</strong> section in the [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md) topic for instructions about how to register your database provider for use with IIS Manager.
-
 
 ## Thread Safety
 
@@ -124,4 +121,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

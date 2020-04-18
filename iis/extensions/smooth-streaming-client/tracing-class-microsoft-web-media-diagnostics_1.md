@@ -75,7 +75,6 @@ The Tracing type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[RemoteServerUri](tracing-remoteserveruri-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [Uri](https://msdn.microsoft.com/library/txt7706a(v=vs.95)) of the remote server.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -119,7 +118,6 @@ The Tracing type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UpdateIsolatedStorageAvailableFreeSpace](tracing-updateisolatedstorageavailablefreespace-method-microsoft-web-media-diagnostics_1.md)|Updates the free space available for trace operations.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UploadTraces](tracing-uploadtraces-method-microsoft-web-media-diagnostics_1.md)|Uploads traces to the URL, if any, found in the tracing configuration.|
 
-
 ## Fields
 
 ||Name|Description|
@@ -154,4 +152,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

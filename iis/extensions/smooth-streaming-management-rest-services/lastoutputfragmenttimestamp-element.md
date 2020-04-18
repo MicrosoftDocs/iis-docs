@@ -23,5 +23,3 @@ None.
 ### Parent Element
 
 [OuputStream Element](ouputstream-element.md)
-
-

@@ -77,10 +77,8 @@ A PlaybackMode()()()() object.
 
 This property can be set at any time, but it will not take effect until [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) is set or changed. Shows the currently selected mode for the current object represented by the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property. If you read SmoothStreamingPlaybackMode after setting it, it will still read the old value until you set the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property. Note that a null Nothing nullptr unit a null reference (Nothing in Visual Basic) value for the SmoothStreamingPlaybackMode property is equivalent to [AudioVideo](playbackmode-enumeration-microsoft-web-media-smoothstreaming_1.md).
 
-
 > [!NOTE]  
 > The SmoothStreamingPlaybackMode property does not support [VideoOnly](playbackmode-enumeration-microsoft-web-media-smoothstreaming_1.md) mode.
-
 
 ## Version Information
 
@@ -103,4 +101,3 @@ Supported in: Windows Phone OS 7.0
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -81,7 +81,6 @@ The JobTemplate type exposes the following members.
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobTemplate() () () ()](jobtemplate-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the JobTemplate class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobTemplate(FileInfo, XElement)](jobtemplate-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the JobTemplate class using the specified file information and job template.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -130,4 +129,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -43,9 +43,7 @@ To implement a rewrite provider follow the steps below:
 1. From the Project menu select "Add Class..." and then name the class as **ReplaceProvider**. This will add a new file **ReplaceProvider.cs** to the project.
 2. Change the code so that it looks like below:
 
-
 [!code-csharp[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample1.cs)]
-
 
 The code above implements two interfaces:
 
@@ -70,9 +68,7 @@ Once the provider has been successfully built and placed into the GAC, it needs 
 
 This completes the registration and configuration of a rewrite provider. As a result the web.config file for the default web site will contain the following XML code inside of the `<rewrite>` section:
 
-
 [!code-xml[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample2.xml)]
-
 
 ## Using the rewrite provider
 
@@ -80,8 +76,6 @@ Now that the rewrite provider has been registered it can be used in the inbound 
 
 To create a rule that uses this rewrite provider add the following XML code inside of the `<rewrite>` element in the web.config file:
 
-
 [!code-xml[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample3.xml)]
-
 
 Open a web browser and make a request to `http://localhost/some_blog_post/.` Notice that the browser got redirected to `http://localhost/some-blog-post/` because of the rule that you have added. The web server will return HTTP 404 error for the redirected URL because there is no such file or directory on the server, but that is not relevant for the purposes of this walkthrough. The important part is that the web server issued a redirect response based on the rule that used the custom rewrite provider.

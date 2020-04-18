@@ -89,4 +89,3 @@ The percentage can be used to report progress to the UI.
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

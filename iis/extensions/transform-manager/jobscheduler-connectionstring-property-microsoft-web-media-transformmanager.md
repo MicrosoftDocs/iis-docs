@@ -90,4 +90,3 @@ The connection string that is used by this scheduler.
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

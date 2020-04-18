@@ -27,20 +27,16 @@ Enable TCP/IP networking, add the firewall exception and disable the strict mode
 
 [![](setup-mysql-with-webmatrix-support/_static/image9.png)](setup-mysql-with-webmatrix-support/_static/image8.png)
 
-
 Enable UTF-8 character set – ***this is very important***, because several applications in the Web Application Gallery require UTF-8 support in the database:
-
 
 [![](setup-mysql-with-webmatrix-support/_static/image11.png)](setup-mysql-with-webmatrix-support/_static/image10.png)
 
 [![](setup-mysql-with-webmatrix-support/_static/image13.png)](setup-mysql-with-webmatrix-support/_static/image12.png)
 
-
 Since MySQL is installed on the database server, which is different than the web server which runs the Web Deploy web server component, you'll need to take a few extra steps to make sure Web Deploy can access the database server:
 
 1. Copy mysqldump.exe (typically from `C:\Program Files\MySQL\MySQL Server 5.1\bin`) to your **web server** in `c:\mysqldump\mysqldump.exe`
 2. On the **web server**, set a registry key (`HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\2\mysqldumppath`) to string value == "c:\mysqldump\mysqldump.exe")
-
 
 ## Resetting Permissions
 

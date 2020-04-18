@@ -57,7 +57,6 @@ public enum AdaptiveSourceFailedType
 |ChunkHdrParseFailed|402|The chunk hdr parsing failed.|
 |ChunkInvalidData|403|The chunk contains invalid data.|
 
-
 ## Requirements
 
 |||
@@ -65,4 +64,3 @@ public enum AdaptiveSourceFailedType
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

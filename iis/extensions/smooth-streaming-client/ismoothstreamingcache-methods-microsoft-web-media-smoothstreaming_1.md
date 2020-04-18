@@ -23,7 +23,6 @@ The [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[EndRetrieve](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md)|Ends an asynchronous cache response retrieval started by the [BeginRetrieve](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[OpenMedia](ismoothstreamingcache-openmedia-method-microsoft-web-media-smoothstreaming.md)|Opens the specified media for [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) operations.|
 
-
 ## See Also
 
 ### Reference
@@ -31,4 +30,3 @@ The [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-
 [ISmoothStreamingCache Interface](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -65,7 +65,6 @@ The ForeignKey type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ForeignKey](foreignkey-constructor-microsoft-web-management-databasemanager.md)|Creates a new instance of the ForeignKey class.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -102,4 +101,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

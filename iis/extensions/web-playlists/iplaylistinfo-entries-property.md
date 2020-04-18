@@ -23,7 +23,6 @@ The **Entries** property gets an [IPlaylistEntryInfoCollection Interface](iplayl
 |--- |--- |
 |*ppPlaylistEntries*|The returned [IPlaylistEntryInfoCollection Interface](https://msdn.microsoft.com/library/dd146264) instance.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -39,4 +38,3 @@ Implementers should return an instance of an [IPlaylistEntryInfoCollection Inter
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

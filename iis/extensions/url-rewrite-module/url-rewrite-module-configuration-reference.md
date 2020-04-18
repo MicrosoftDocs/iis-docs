@@ -246,9 +246,7 @@ Server variables provide additional information about current HTTP requests. You
 
 Server variables can be referenced by using the {VARIABLE\_NAME} syntax. For example, the following condition uses the QUERY\_STRING server variable:
 
-
 [!code-xml[Main](url-rewrite-module-configuration-reference/samples/sample2.xml)]
-
 
 Server variables can also be used to access HTTP headers from the current request. Any HTTP header supplied by the current request is represented as a server variable that has a name generated in accordance to this naming convention:
 
@@ -386,7 +384,6 @@ There can be any number of rewrite maps on any configuration level, except the f
 Rewrite maps are referenced within a rewrite rule by using the following syntax:
 
 [!code-json[Main](url-rewrite-module-configuration-reference/samples/sample12.json)]
-
 
 Where the **Key** parameter can be any arbitrary string, and can include back-references to rule or condition patterns. For example, the following are valid uses of a rewrite map:
 

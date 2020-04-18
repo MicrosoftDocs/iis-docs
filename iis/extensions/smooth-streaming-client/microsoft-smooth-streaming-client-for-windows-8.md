@@ -23,4 +23,3 @@ In addition to the following content, the tutorial in [How to Build a Smooth Str
   - [Player Application Programming Interfaces for Windows 8](player-application-programming-interfaces-for-windows-8.md)
     
     This reference section describes the APIs that you can use when building a Smooth Streaming Windows Store application.
-

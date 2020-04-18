@@ -47,7 +47,6 @@ This class exposes the following members.
 |[HttpResponse Property](adaptivesourcefailedeventargs-httpresponse-property.md)|Gets the HTTP response.|
 |[Result Property](adaptivesourcefailedeventargs-result-property.md)|Gets the result.|
 
-
 ## Requirements
 
 |||
@@ -55,4 +54,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

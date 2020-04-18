@@ -26,7 +26,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String)](logger-writeline-method-loglevel-string-microsoft-web-media-transformmanager.md)|Writes a line to the log file.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String, Int32)](logger-writeline-method-loglevel-string-int32-microsoft-web-media-transformmanager.md)||
 
-
 ## See Also
 
 ### Reference
@@ -34,4 +33,3 @@ This member is overloaded. For complete information about this member, including
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

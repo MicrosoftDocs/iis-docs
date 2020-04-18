@@ -81,7 +81,6 @@ The LocalScheduler type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[LocalScheduler](localscheduler-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the LocalScheduler class.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -125,4 +124,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

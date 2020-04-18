@@ -75,10 +75,8 @@ The string that contains the SQL statement for a query.
 
 The Statement property contains the SQL syntax for the [Query](query-class-microsoft-web-management-databasemanager.md) class.
 
-
 > [!NOTE]  
 > For information about the SQL syntax that is available for the Statement property, see the [Transact-SQL Reference](https://msdn.microsoft.com/library/bb510741.aspx) topic on the Microsoft MSDN Web site.
-
 
 ## Examples
 
@@ -220,4 +218,3 @@ The following code sample illustrates an example [ExecuteQuery](databaseprovider
 [Query Class](query-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

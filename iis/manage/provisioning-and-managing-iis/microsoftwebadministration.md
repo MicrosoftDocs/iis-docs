@@ -21,9 +21,7 @@ Use the following to create a site and an application  pool, and to set temporar
 
 ### Creating a Site and Application Pool
 
-
 [!code-csharp[Main](microsoftwebadministration/samples/sample1.cs)]
-
 
 ### Set a Unique Temporary Compilation Directory for Each Site
 

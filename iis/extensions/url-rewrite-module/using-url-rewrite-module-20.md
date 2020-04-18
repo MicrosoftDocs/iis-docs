@@ -51,7 +51,6 @@ Download the URL Rewrite 2.0 by using the links at the module's home page at [ht
 > - If a previous version of URL Rewrite, such as v1.0 and v1.1, is already installed then it will be upgraded to the v2.0
 > - If an RC version of the URL Rewrite 2.0 is already installed, then it will be upgraded to RTW version.
 
-
 ### Known Issues
 
 1. Response rewriting does not work with static compression. You will have to disable IIS static compression in order to use response rewriting.

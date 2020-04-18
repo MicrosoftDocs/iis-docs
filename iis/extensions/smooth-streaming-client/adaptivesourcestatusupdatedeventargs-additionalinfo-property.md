@@ -50,4 +50,3 @@ When the update type is 4 (BitrateChanged), additional info field will include b
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

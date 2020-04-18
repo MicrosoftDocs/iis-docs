@@ -22,10 +22,8 @@ The IIS Search Engine Optimization (SEO) Toolkit contains the following extensib
 |[Microsoft.Web.Management.SEO.SiteAnalyzer](https://msdn.microsoft.com/library/microsoft.web.management.seo.siteanalyzer)|Allows you to provide custom tasks to be exposed in the **Site Analysis** tool.|
 |[Microsoft.Web.Management.SEO.Sitemaps](https://msdn.microsoft.com/library/microsoft.web.management.seo.sitemaps)|Allows you to provide custom tasks to be exposed in the **Sitemaps and Sitemap Indexes** tool.|
 
-
 ## See Also
 
 ### Other Resources
 
 [IIS Search Engine Optimization Toolkit](https://go.microsoft.com/fwlink/?linkid=247901)
-

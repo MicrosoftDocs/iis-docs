@@ -50,7 +50,6 @@ We have created an HTML e-mail template you can customize for your customers. Gi
 
 There are several places in the template where you can add branding and other messages.
 
-
 ## Next Steps
 
 That's it! You're ready to [apply to the Web Hosting Gallery](https://www.microsoft.com/web/hosting/hostingprovider/register "Apply to join the Web Hosting Gallery") and go for the Spotlight status!

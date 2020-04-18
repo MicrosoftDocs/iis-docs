@@ -17,7 +17,6 @@ mtps_version: v=VS.90
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String)](ilogger-writeline-method-loglevel-string-microsoft-web-media-transformmanager.md)|Writes a line to the log.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String, Int32)](ilogger-writeline-method-loglevel-string-int32-microsoft-web-media-transformmanager.md)||
 
-
 ## See Also
 
 ### Reference
@@ -25,4 +24,3 @@ mtps_version: v=VS.90
 [ILogger Interface](ilogger-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

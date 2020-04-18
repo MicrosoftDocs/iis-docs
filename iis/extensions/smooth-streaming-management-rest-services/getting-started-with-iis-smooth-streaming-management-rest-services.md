@@ -31,4 +31,3 @@ The following table lists operations that can be performed using the IIS Smooth 
 |[Query Publishing Point Statistics](query-publishing-point-statistics.md)|Retrieves statistics for a specific publishing point.|
 |[Update Publishing Point Settings](update-publishing-point-settings.md)|Updates the settings for an existing publishing point.|
 |[Update Publishing Point State](update-publishing-point-state.md)|Updates the state of an existing publishing point.|
-

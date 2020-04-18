@@ -91,4 +91,3 @@ A [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object th
 [CreateInstance Overload](schedulerinfo-createinstance-method-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

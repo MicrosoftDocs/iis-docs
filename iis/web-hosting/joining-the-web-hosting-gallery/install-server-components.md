@@ -39,13 +39,11 @@ If you have **WebPI 3.0** installed, the following link will **automatically lau
 
 > [Install Spotlight Components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=WHP_Recommended "Install Components using Web PI") (you will be able to review the list of products before installation begins)
 
-
 (This list of components completely fulfills the **Spotlight requirements** from the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/home).)
 
 Note that many of the web applications that can be published by WebMatrix have **PHP/MySQL** components as requirements. To ensure you are able to support those applications, you can use this alternative link to install **everything above plus PHP/MySQL** related components:
 
 > [Install Spotlight Components plus PHP/MySQL related components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=IIS7;Tracing;NETFramework35;NETFramework4;ASPNET;MVC;WDeploy;FTPServer;ManagementService;CGI;URLRewrite2;SMO;PHP52;WinCache52;MySQLConnector;SQLDriverPHP52IIS "Install Components including PHP/MySQL components using WebPI")
-
 
 After WebPI launches from the links above, you'll just need to click the "Install" button to review the list of components and proceed with installation.
 
@@ -89,7 +87,6 @@ Here is the full list of which components are installed by those links, so you c
   In fact, we actually recommend that you do **not** install anything except **MVC 1**.  
   
   Also, note that this ASP.NET Web Pages is not a final release of the product. If you choose to install ASP.NET Web Pages, you will need to re-install it when future versions are released.
-
 
 #### IIS Modules
 

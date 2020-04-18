@@ -31,7 +31,6 @@ To install the Web Playlists extension for IIS 7.0 and above, see the **Installa
 > [!NOTE]
 > This article assumes that you have created playlists in Windows Media Player on the local server computer using default Player settings. For more information about installing Windows Media Player 11 and creating Windows Media Player playlists, see the [Related Articles](using-windows-media-player-playlist-files-in-web-playlists.md#related) section.
 
-
 <a id="wpl"></a>
 
 ## Saving WPL Playlist Files as ASX Playlist Files in Windows Media Player
@@ -151,7 +150,6 @@ Value=&amp;quot;4&amp;quot;" /&gt;--&gt;
 
 > This will comment-out the **param** container with the **extraParam** attributes, as shown in the above example.
 
-
 <a id="web"></a>
 
 ### Serve the media files from the Web site
@@ -184,7 +182,6 @@ Value=&amp;quot;4&amp;quot;" /&gt;--&gt;
  To: --&gt;&lt;param name="title"
 
 > This will comment-out the **param** container with the **extraParam** attributes, as shown in the above example.
-
 
 <a id="playback"></a>
 

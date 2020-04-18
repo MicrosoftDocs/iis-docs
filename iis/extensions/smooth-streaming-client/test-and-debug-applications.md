@@ -59,4 +59,3 @@ For more information, see [How to: Attach to a Running Process](https://go.micro
 ### Concepts
 
 [Silverlight Applications](silverlight-applications.md)
-

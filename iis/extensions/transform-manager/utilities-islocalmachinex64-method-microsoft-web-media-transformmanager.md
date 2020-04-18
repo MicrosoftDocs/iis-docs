@@ -74,4 +74,3 @@ true if the local computer is a 64-bit computer; otherwise, false.
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

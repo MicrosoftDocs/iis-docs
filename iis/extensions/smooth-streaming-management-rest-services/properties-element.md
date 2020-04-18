@@ -24,5 +24,3 @@ Specifies properties that are associated with a specific stream source or destin
 
 [Source Element (Sources)](source-element-sources.md)  
 [Sink Element](sink-element.md)
-
-

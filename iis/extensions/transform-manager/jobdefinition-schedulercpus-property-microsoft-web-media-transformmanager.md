@@ -94,4 +94,3 @@ If the scheduler is an HPC scheduler, the SchedulerCpus property informs the hea
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

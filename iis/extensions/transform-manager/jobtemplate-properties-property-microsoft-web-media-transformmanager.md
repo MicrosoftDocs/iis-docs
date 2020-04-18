@@ -90,4 +90,3 @@ A collection of properties that are defined for the tasks.
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -20,7 +20,6 @@ Lists the currently processing modules.
 
 [Module Element](module-element.md)
 
-
 ### Parent Element
 
 [Settings Element](settings-element.md)
@@ -42,4 +41,3 @@ Lists the currently processing modules.
         </HLS>
       </Module>
     </Modules>
-

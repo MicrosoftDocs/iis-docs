@@ -105,10 +105,8 @@ The object passed in the userData parameter is saved as the [Data](clipcontext-d
 
 For more information, see [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md) and [Scheduling Media Clips (IIS Smooth Streaming)](scheduling-media-clips.md).
 
-
 > [!NOTE]  
 > IIS Smooth Streaming clips scheduled by using ScheduleClip methods require manifests that start at timestamp zero.
-
 
 ## Version Information
 
@@ -129,4 +127,3 @@ Supported in: 4
 [ScheduleClip Overload](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

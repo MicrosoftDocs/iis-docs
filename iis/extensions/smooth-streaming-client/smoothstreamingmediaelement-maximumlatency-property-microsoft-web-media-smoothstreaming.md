@@ -79,7 +79,6 @@ The maximum time interval beyond which frames are dropped and the media element 
 |--- |--- |
 |[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The property is set to zero or set to a value smaller than the [LatencyCorrectionThreshold](smoothstreamingmediaelement-latencycorrectionthreshold-property-microsoft-web-media-smoothstreaming.md) value.|
 
-
 ## Remarks
 
 The value has effect only when the [LatencyCorrectionThreshold](smoothstreamingmediaelement-latencycorrectionthreshold-property-microsoft-web-media-smoothstreaming.md) property has been set. The default value of -1 indicates that there is no upper limit to the latency threshold. Changes that are made to this value after the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property has been set are disregarded.
@@ -101,4 +100,3 @@ Supported in: 4
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

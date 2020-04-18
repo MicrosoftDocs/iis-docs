@@ -185,4 +185,3 @@ The following code sample shows how to use the GetPrimaryKey method to retrieve 
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -29,7 +29,6 @@ This article provides a list of common usage scenarios for enhanced Request Filt
 
 [!code-console[Main](using-enhanced-request-filtering-features-in-iis/samples/sample4.cmd)]
  
-
 ### Config
 
 [!code-xml[Main](using-enhanced-request-filtering-features-in-iis/samples/sample5.xml)]

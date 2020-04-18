@@ -37,7 +37,6 @@ void remove (AdaptiveSourceFailedEventHandler^ value);
 |--- |--- |
 |Delegate|[AdaptiveSourceFailedEventHandler Delegate](adaptivesourcefailedeventhandler-delegate.md)|
 
-
 ## Remarks
 
 Subscribing to events at the AdaptiveSourceManager level means that all AdaptiveSourceFailedEvent events from all AdaptiveSource objects will be handled by this event handler. If you want to differentiate the AdaptiveSources, you need to get the AdaptiveSource.Uri or listen to individual events under each AdaptiveSources object.
@@ -49,4 +48,3 @@ Subscribing to events at the AdaptiveSourceManager level means that all Adaptive
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

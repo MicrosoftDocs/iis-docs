@@ -22,7 +22,6 @@ The [SSMEDrmSetupDecryptorCompletedEventArgs](ssmedrmsetupdecryptorcompletedeven
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[KeyId](ssmedrmsetupdecryptorcompletedeventargs-keyid-property-microsoft-web-media-smoothstreaming.md)|Gets the KeyID of the decryptor being set up.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UserState](https://msdn.microsoft.com/library/9b3wa0x3(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 
-
 ## See Also
 
 ### Reference
@@ -30,4 +29,3 @@ The [SSMEDrmSetupDecryptorCompletedEventArgs](ssmedrmsetupdecryptorcompletedeven
 [SSMEDrmSetupDecryptorCompletedEventArgs Class](ssmedrmsetupdecryptorcompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

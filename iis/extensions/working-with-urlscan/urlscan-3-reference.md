@@ -221,7 +221,6 @@ You can specify the maximum length of the value for a specific request header by
 
 > Max-Content-Type=100
 
-
 To list a header and not specify a maximum value, use 0. For example, "Max-User-Agent=0". Note: Any HTTP request headers that are not listed in this section will not be checked for length limits.
 
 The [RequestLimits] section can contain the following three special-case limits:

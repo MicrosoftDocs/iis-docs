@@ -49,4 +49,3 @@ The [IManagementService](imanagementservice-interface-microsoft-web-media-transf
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

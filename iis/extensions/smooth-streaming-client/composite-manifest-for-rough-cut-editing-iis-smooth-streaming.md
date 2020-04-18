@@ -20,10 +20,8 @@ The composite manifest contains StreamIndex segments from client manifest .ismc 
 
 When the Smooth Streaming Media Element uses a composite manifest as its source, it plays the video/audio content as a single stream. The user can fast forward or rewind across all the segments and seek to any points in the stream. Timeline markers can be added to include other information in the stream.
 
-
 > [!NOTE]  
 > The examples in this topic extend features that are demonstrated in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). You can download all the code with the [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167). For more information, see all topics under [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md).
-
 
 ## Composite Manifest Structure
 
@@ -334,10 +332,8 @@ After you calculate the start times, t, from the .ismc manifest, combine the Cli
       </Clip>
     </SmoothStreamingMedia>
 
-
 > [!NOTE]  
 > Chunks must be specified in two-second intervals that correspond to IFrame start times or the critical first segment of an IFrame could be missed. A chunk that does not pass the first segment will be skipped.
-
 
 ## IIS Configuration to Support Composite Manifest
 
@@ -394,4 +390,3 @@ For more information about client access policy, see [Test and Debug Application
 [Smooth Streaming Readme](http://www.iis.net/downloads/files/media/smoothstream_readme.htm)
 
 [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
-

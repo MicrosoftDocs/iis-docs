@@ -28,7 +28,6 @@ Provides information about a track within the live streams that are received by 
 |--- |--- |
 |id|Required. Specifies an identifier for the track.|
 
-
 ### Child Elements
 
 [Name Element](name-element.md)  
@@ -42,5 +41,3 @@ Provides information about a track within the live streams that are received by 
 ### Parent Element
 
 [Tracks Element](tracks-element.md)
-
-

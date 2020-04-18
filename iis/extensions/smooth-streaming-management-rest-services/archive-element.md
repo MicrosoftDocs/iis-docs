@@ -23,21 +23,17 @@ Enables archiving of live streams to on-demand Smooth Streaming presentations.
 |--- |--- |
 |enabled|Required. true to enable archiving of live streams to on-demand Smooth Streaming presentations; otherwise, false.|
 
-
 ## Child Elements
 
 [SegmentLength Element](segmentlength-element.md)  
 [Path Element](path-element.md)
 
-
 ## Parent Element
 
 [Settings Element](settings-element.md)
-
 
 ## Example
 
     <Archive enabled="true">
       <Path useEventIdOnPath="false" />
     </Archive>
-

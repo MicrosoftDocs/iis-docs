@@ -139,7 +139,6 @@ In some cases, service providers want to achieve the maximum degree of manageabi
 
 [![](shared-hosting-configuration/_static/image7.jpg)](shared-hosting-configuration/_static/image6.jpg)
 
-
 <a id="EnhArcFE"></a>
 
 #### Optional Front End Servers

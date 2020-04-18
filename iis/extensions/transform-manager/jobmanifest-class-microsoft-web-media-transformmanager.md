@@ -76,7 +76,6 @@ The JobManifest type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobManifest](jobmanifest-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the JobManifest class.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -132,7 +131,6 @@ The JobManifest type exposes the following members.
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ManifestExtension](jobmanifest-manifestextension-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used as the job manifest file extension (".smil").|
 
-
 ## Remarks
 
 The job manifest holds the information about a job instance. The job manifest is a .smil file that conforms to the Synchronized Multimedia Integration Language (SMIL). It contains a body section that lists all of the files that triggered the job. The job manifest also contains Resource Description Framework (RDF) metadata in a head section that describes the job definition, job scheduler, and job template. This metadata is combined with the input files to create the manifest for a job. The manifest constitutes the instructions that a scheduler requires in order to create, run, and report on the job.
@@ -146,4 +144,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

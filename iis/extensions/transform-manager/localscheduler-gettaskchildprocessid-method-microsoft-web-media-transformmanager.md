@@ -97,4 +97,3 @@ If the current task is a command-line executable, the task engine creates a proc
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

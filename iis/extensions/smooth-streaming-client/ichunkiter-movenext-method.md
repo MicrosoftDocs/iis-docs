@@ -43,4 +43,3 @@ If the method succeeds, it returns S\_OK. Otherwise, it returns an HRESULT error
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

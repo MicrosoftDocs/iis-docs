@@ -91,4 +91,3 @@ This property is an XElement object whose value is the ID of this configuration 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

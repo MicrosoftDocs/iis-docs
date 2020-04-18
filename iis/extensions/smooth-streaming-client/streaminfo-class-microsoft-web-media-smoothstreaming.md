@@ -76,7 +76,6 @@ The StreamInfo type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Type](streaminfo-type-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Type](streaminfo-type-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[UniqueId](streaminfo-uniqueid-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the Id that identifies this stream.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -89,7 +88,6 @@ The StreamInfo type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[RestrictTracks](streaminfo-restricttracks-method-microsoft-web-media-smoothstreaming_1.md)|Replaces [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-media-smoothstreaming_1.md) with the list of available tracks supplied by the parameter. Also restricts decoder initialization to the given list of available tracks to avoid initializing the decoder with unsupported modes.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[SelectTracks](streaminfo-selecttracks-method-microsoft-web-media-smoothstreaming_1.md)|Selects [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) objects for this stream. For more information see [Select and Monitor Bit Rate (IIS Smooth Streaming)](select-and-monitor-bitrate.md).|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](streaminfo-tostring-method-microsoft-web-media-smoothstreaming_1.md)|Writes the StreamInfo item to a string. (Overrides [Object.ToString() () () ()](https://msdn.microsoft.com/library/7bxwbwt2).)|
-
 
 ## Remarks
 
@@ -148,4 +146,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

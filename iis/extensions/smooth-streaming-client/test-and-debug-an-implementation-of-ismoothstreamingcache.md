@@ -42,10 +42,8 @@ The quantities to watch are the values of System.IO.IsolatedStorage.IsolatedStor
 
 You can also remove isolated-storage capacity from the Silverlight UI. The Silverlight configuration dialog box provides the option to delete the isolated storage. In the **Application Storage** tab of the dialog box, delete the quota for the appropriate Web site.
 
-
 > [!NOTE]  
 > On playback, the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) instance can ignore cache requests that take too long to process. Data will be retrieved from the server but persisted in the cache for future requests.
-
 
 ## See Also
 
@@ -56,4 +54,3 @@ You can also remove isolated-storage capacity from the Silverlight UI. The Silve
 ### Other Resources
 
 [System.IO.IsolatedStorage Namespace](https://go.microsoft.com/fwlink/?linkid=204798)
-

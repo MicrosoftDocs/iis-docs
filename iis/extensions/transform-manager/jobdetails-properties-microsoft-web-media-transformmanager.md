@@ -45,4 +45,3 @@ The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) type 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

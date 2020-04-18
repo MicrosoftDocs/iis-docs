@@ -18,7 +18,6 @@ The [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) 
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CanonicalUri](cacherequest-canonicaluri-property-microsoft-web-media-smoothstreaming_1.md)|The Uri of the request.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) 
 [CacheRequest Class](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -28,7 +28,6 @@ The Query Publishing Point Settings request may be specified as follows:
 |--- |--- |
 |GET|http(s)://<hostname>/<filepath>/settings|
 
-
 ### URI Parameters
 
 The following table lists URL template segments and parameters.
@@ -37,7 +36,6 @@ The following table lists URL template segments and parameters.
 |--- |--- |--- |
 |hostname|The host name.|Contoso.com|
 |filepath|The path of the publishing point file.|media/bunny.isml|
-
 
 ### Request Body
 
@@ -124,4 +122,3 @@ The following example shows a response body.
 ## Authorization
 
 The authenticated user must have read access to the .isml file.
-

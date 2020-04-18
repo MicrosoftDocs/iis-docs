@@ -77,4 +77,3 @@ true if the Transform Manager service is initialized; otherwise, false.
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

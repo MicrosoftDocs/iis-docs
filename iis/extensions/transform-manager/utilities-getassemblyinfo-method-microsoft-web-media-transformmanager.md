@@ -90,4 +90,3 @@ Assembly information that is contained in the type element of the taskCode node 
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

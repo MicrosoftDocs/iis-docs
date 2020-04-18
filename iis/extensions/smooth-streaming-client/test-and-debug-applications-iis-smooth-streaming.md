@@ -63,4 +63,3 @@ For more information, see [How to: Attach to a Running Process](https://go.micro
 ### Other Resources
 
 [IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828)
-

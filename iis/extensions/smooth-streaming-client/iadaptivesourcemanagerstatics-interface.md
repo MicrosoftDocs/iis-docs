@@ -47,7 +47,6 @@ This class exposes the following members.
 |--- |--- |
 |[GetDefault](iadaptivesourcemanagerstatics-getdefault-method.md)|Gets the source manager singleton.|
 
-
 ## Requirements
 
 |||
@@ -55,4 +54,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

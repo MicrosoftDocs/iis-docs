@@ -13,7 +13,6 @@ by Baris Caglar
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 10.0 | IISAdministration PowerShell Cmdlets were introduced in IIS 10.0. The latest version of IISAdministration is supported via Powershell gallery. |

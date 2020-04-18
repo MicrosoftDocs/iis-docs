@@ -29,7 +29,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ScheduleClip(ClipInformation, Boolean, TimeSpan, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-boolean-timespan-object-microsoft-web-media-smoothstreaming_1.md)|Schedules playing of a media clip.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ScheduleClip(ClipInformation, TimeSpan, Boolean, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-timespan-boolean-object-microsoft-web-media-smoothstreaming_1.md)|Schedules playing of a media clip.|
 
-
 ## Remarks
 
 The method inserts a clip that will play for its duration, after which the stream that was interrupted resumes.
@@ -38,10 +37,8 @@ There are several ways to schedule clips to play before and during a media prese
 
 For more information and for examples, see [Scheduling Media Clips (IIS Smooth Streaming)](scheduling-media-clips.md) and [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md).
 
-
 > [!NOTE]  
 > IIS Smooth Streaming clips that are scheduled by using ScheduleClip methods require manifests that start at timestamp zero.
-
 
 ## See Also
 
@@ -50,4 +47,3 @@ For more information and for examples, see [Scheduling Media Clips (IIS Smooth S
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

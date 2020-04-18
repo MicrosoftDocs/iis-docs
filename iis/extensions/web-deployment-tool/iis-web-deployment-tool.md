@@ -20,10 +20,8 @@ The classes in the following namespace enable developers to streamline the deplo
 |--- |--- |
 |[Microsoft.Web.Deployment](https://msdn.microsoft.com/library/microsoft.web.deployment)|Web Deploy APIs.|
 
-
 ## See Also
 
 ### Other Resources
 
 [Web Deploy](https://go.microsoft.com/fwlink/?linkid=247911)
-

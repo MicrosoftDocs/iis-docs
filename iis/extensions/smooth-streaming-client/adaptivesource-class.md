@@ -47,7 +47,6 @@ This class exposes the following members.
 |[Manifest Property](adaptivesource-manifest-property.md)|Gets the manifest.|
 |[Uri Property](adaptivesource-uri-property.md)|Gets the URI.|
 
-
 ### Events
 
 |Event|Description|
@@ -56,7 +55,6 @@ This class exposes the following members.
 |[AdaptiveSourceStatusUpdatedEvent Event](adaptivesource-adaptivesourcestatusupdatedevent-event.md)|Occurs when the status of the adaptive source is updated.|
 |[ManifestReadyEvent Event](adaptivesource-manifestreadyevent-event.md)|Occurs when the manifest is ready.|
 
-
 ## Requirements
 
 |||
@@ -64,5 +62,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-
-

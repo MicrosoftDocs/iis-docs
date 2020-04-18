@@ -34,7 +34,6 @@ The `<basicAuthentication>` element specifies the settings for Basic authenticat
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
-
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
@@ -212,7 +211,6 @@ The following sample illustrates several configuration settings in the `<ftpServ
 - Configure the logging options.
 - Specify a customized welcome message and enable local detailed error messages.
 - Specify that users will start in a home directory that is based on their login name, but only if that directory exists.
-
 
 [!code-xml[Main](basicAuthentication/samples/sample1.xml)]
 

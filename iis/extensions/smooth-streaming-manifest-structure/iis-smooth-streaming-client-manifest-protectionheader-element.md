@@ -49,4 +49,3 @@ The information in each ProtectionHeader element is targeted only to the Content
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)
 
 [IIS Smooth Streaming Client Manifest - Protection Element](iis-smooth-streaming-client-manifest-protection-element.md)
-

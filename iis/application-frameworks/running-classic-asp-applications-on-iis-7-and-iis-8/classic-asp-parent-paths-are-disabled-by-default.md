@@ -62,11 +62,9 @@ You can enable or disable parent paths by using IIS Manager. To do so, open IIS 
 
 [![](classic-asp-parent-paths-are-disabled-by-default/_static/image2.jpg)](classic-asp-parent-paths-are-disabled-by-default/_static/image1.jpg)
 
-
 In the list of ASP features, configure the **Enable Parent Paths** option.
 
 [![](classic-asp-parent-paths-are-disabled-by-default/_static/image4.jpg)](classic-asp-parent-paths-are-disabled-by-default/_static/image3.jpg)
-
 
 You can also configure this setting by using the command-line tool AppCmd.exe with the following syntax:
 
@@ -77,7 +75,6 @@ You can also configure this setting by using the command-line tool AppCmd.exe wi
 For additional information about the options that are available for classic ASP, see the following page in the IIS configuration reference on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
 > [https://www.iis.net/ConfigReference/system.webServer/asp](https://www.iis.net/configreference/system.webserver/asp)
-
 
 For additional detail on parent paths in IIS, see the following page in the Microsoft Knowledge Base:
 

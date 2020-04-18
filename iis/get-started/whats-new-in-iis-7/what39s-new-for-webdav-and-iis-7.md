@@ -21,7 +21,6 @@ Some of Microsoft's new web authoring tools like Expression Web Designer have bu
 
 [![](what39s-new-for-webdav-and-iis-7/_static/image2.jpg)](what39s-new-for-webdav-and-iis-7/_static/image1.jpg)
 
-
 ### What's New in the IIS WebDAV Module?
 
 Microsoft has released a brand-new WebDAV implementation for IIS that was written from the ground-up to be more compatible with the WebDAV protocol, more configurable than the WebDAV module for IIS 6.0, and faster than Microsoft's previous versions of WebDAV. This new WebDAV extension module supports a wide range of features and improvements, and the following lists contain several of the improvements in this version.
@@ -45,7 +44,6 @@ Microsoft has released a brand-new WebDAV implementation for IIS that was writte
 > - **Support for shared and exclusive locks**: The new WebDAV extension supports both shared and exclusive locks to prevent lost updates due to overwrites.
 > 
 > [![](what39s-new-for-webdav-and-iis-7/_static/image12.jpg)](what39s-new-for-webdav-and-iis-7/_static/image11.jpg)
-
 
 ## Getting Started with WebDAV
 

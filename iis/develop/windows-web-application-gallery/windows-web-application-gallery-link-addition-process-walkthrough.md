@@ -17,7 +17,6 @@ This walkthrough will guide you through the process of submitting an application
 
 The steps from developing an application to seeing it live in the Web Application Gallery are shown below. This document concentrates on the step in Green, which can be exploded out into the process below it:
 
-
 [![](windows-web-application-gallery-link-addition-process-walkthrough/_static/image8.jpg)](windows-web-application-gallery-link-addition-process-walkthrough/_static/image7.jpg)
 
 ## Starting the Submission Process

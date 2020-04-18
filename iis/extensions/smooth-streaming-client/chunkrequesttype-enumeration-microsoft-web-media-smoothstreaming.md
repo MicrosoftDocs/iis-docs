@@ -73,7 +73,6 @@ public enum ChunkRequestType
 ||FragmentInfo|The requested chunk is a FragmentInfo chunk.|
 ||KeyFrame|The requested chunk is a KeyFrame chunk.|
 
-
 ## Version Information
 
 ### Silverlight
@@ -85,4 +84,3 @@ Supported in: 5
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

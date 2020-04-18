@@ -13,13 +13,11 @@ by Won Yoo
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | IIS management tools have been updated for ASP.net 4.5 in IIS 8.0. |
 | IIS 7.5 | IIS management tools have not been updated for ASP.net 4.5 in IIS 7.5. |
 | IIS 7.0 | IIS management tools have not been updated for ASP.net 4.0 in IIS 7.0 |
-
 
 <a id="TOC301270280"></a>
 
@@ -55,17 +53,13 @@ There are no known bugs for this feature at this time.
 
 Start the IIS Manager UI and expand the treeview on the left-hand side of the window so that the "Default Web Site" and its children are both showing:
 
-
 [![](iis-80-aspnet-configuration-management/_static/image3.png)](iis-80-aspnet-configuration-management/_static/image1.png)
-
 
 The right-hand portion of the IIS Manager UI shows the administrative modules available for managing the ASP.NET application highlighted in the treeview. In this case since **Default Web Site** is selected, and by default this website supports ASP.NET 4.5, the IIS Manager displays 15 different ASP.NET-specific administration modules. The icons shown above in red outlining are the three administration modules that are only available for use with ASP.NET 4.5 applications.
 
 You can see the high-level differences between managing ASP.NET 3.5 and ASP.NET 4.5 application in the IIS Manager below. Since the "example35" application is configured for ASP.NET 3.5, only 12 ASP.NET-specific administration modules are available:
 
-
 [![](iis-80-aspnet-configuration-management/_static/image7.png)](iis-80-aspnet-configuration-management/_static/image5.png)
-
 
 As noted above, the IIS Manager in IIS 8.0 supports three additional administration modules when managing ASP.NET 4.5:
 
@@ -81,15 +75,11 @@ Many of the administration modules that exist for both ASP.NET 3.5 and ASP.NET 4
 
 Below is a screenshot of .NET Compilation for ASP.NET 3.5:
 
-
 [![](iis-80-aspnet-configuration-management/_static/image11.png)](iis-80-aspnet-configuration-management/_static/image9.png)
-
 
 And below is the corresponding configuration for ASP.NET 4.5. You will see the configuration options have expanded to include new ASP.NET 4.5 capabilities:
 
-
 [![](iis-80-aspnet-configuration-management/_static/image15.png)](iis-80-aspnet-configuration-management/_static/image13.png)
-
 
 The two new options available in ASP.NET 4.5 applications are:
 
@@ -102,15 +92,11 @@ The two new options available in ASP.NET 4.5 applications are:
 
 Below is a screenshot of Machine Key for ASP.NET 3.5. The "Validation method" or "Encryption method" dropdowns display the supported hashing and encryption algorithms used by various security features in ASP.NET 3.5: (Note: in the picture below the dropdowns are arranged horizontally so both sets of options can be shown.)
 
-
 [![](iis-80-aspnet-configuration-management/_static/image19.png)](iis-80-aspnet-configuration-management/_static/image17.png)
-
 
 And below is the corresponding configuration for ASP.NET 4.5.
 
-
 [![](iis-80-aspnet-configuration-management/_static/image23.png)](iis-80-aspnet-configuration-management/_static/image21.png)
-
 
 In ASP.NET 4.5 the same set of encryption algorithms are available (AES was available as far back as .NET 2.0). However, in ASP.NET 4.5, the built-in support for hashing algorithms has been expanded to include the SHA-2 family of keyed hash algorithms (HMACSHA256, HMACSHA384, and HMACSHA512).
 
@@ -120,15 +106,11 @@ In ASP.NET 4.5 the same set of encryption algorithms are available (AES was avai
 
 Below is a screenshot of Pages and Controls for ASP.NET 3.5. The administration module will display a subset of commonly used configuration options for ASP.NET 3.5 applications:
 
-
 [![](iis-80-aspnet-configuration-management/_static/image27.png)](iis-80-aspnet-configuration-management/_static/image25.png)
-
 
 And below is the corresponding configuration for ASP.NET 4.5. The options available in the "Behavior" portion have expanded to include new settings for ASP.NET 4.5:
 
-
 [![](iis-80-aspnet-configuration-management/_static/image31.png)](iis-80-aspnet-configuration-management/_static/image29.png)
-
 
 As ASP.NET progresses through different versions, there are continual modifications to the HTML, Javascript and CSS emitted by various features and controls. However existing applications may expect specific formats for rendered output. ASP.NET 4.5 can be configured to support older rendering formats using the new settings exposed in the "Pages and Controls" administration module:
 

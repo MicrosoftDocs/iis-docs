@@ -82,4 +82,3 @@ true if the table information is marked for deletion; otherwise, false.
 [TableInfo Class](tableinfo-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

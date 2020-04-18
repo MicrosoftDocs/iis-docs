@@ -36,7 +36,6 @@ void remove (ManifestReadyEventHandler^ value);
 |--- |--- |
 |Delegate|[ManifestReadyEventHandler Delegate](manifestreadyeventhandler-delegate.md)|
 
-
 ## Requirements
 
 |||
@@ -44,4 +43,3 @@ void remove (ManifestReadyEventHandler^ value);
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

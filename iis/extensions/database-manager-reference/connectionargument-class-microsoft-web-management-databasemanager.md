@@ -65,7 +65,6 @@ The ConnectionArgument type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ConnectionArgument](connectionargument-constructor-microsoft-web-management-databasemanager.md)|Creates a new instance of the ConnectionArgument class.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -75,7 +74,6 @@ The ConnectionArgument type exposes the following members.
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[IsRequired](connectionargument-isrequired-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the connection argument is required.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](connectionargument-name-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies the name of the connection argument.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Value](connectionargument-value-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies the value of the connection argument.|
-
 
 ## Methods
 
@@ -163,4 +161,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

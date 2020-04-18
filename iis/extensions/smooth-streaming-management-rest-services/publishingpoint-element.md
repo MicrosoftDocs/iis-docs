@@ -22,7 +22,6 @@ The URL of a Live Smooth Streaming publishing point.
 |--- |--- |
 |credentialName|Optional. The name of a credential on the server to use for connections to the publishing point.|
 
-
 ### Child Elements
 
 None.
@@ -31,8 +30,6 @@ None.
 
 [PublishingPoints Element](publishingpoints-element.md)
 
-
 ## Remarks
 
 The publishing point can be either a Pull or Push publishing point, depending on the parent element.
-

@@ -20,14 +20,11 @@ The URL of a Live Smooth Streaming publishing point.
 
 [PublishingPoint Element](publishingpoint-element.md)
 
-
 ### Parent Elements
 
 [PullFrom Element](pullfrom-element.md)  
 [PushTo Element](pushto-element.md)
 
-
 ## Remarks
 
 The publishing point can be either a Pull or Push publishing point, depending on the parent element.
-

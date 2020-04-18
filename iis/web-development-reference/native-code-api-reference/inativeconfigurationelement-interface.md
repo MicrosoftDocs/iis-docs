@@ -46,4 +46,3 @@ This interface is only useful when your application is using the raw configurati
 ### Reference
 
 [INativeConfigurationElementCollection Interface \[IIS 7\]](inativeconfigurationelementcollection-interface.md)
-

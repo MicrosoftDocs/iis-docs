@@ -63,7 +63,6 @@ More information about Extended Protection is available in the following topic:
 > 
 > [Service Principal Names](https://msdn.microsoft.com/library/ms677949(VS.85).aspx)
 
-
 <a id="002"></a>
 ## Compatibility
 

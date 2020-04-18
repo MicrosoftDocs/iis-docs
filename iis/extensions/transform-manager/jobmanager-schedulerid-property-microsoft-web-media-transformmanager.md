@@ -80,4 +80,3 @@ The ID of the scheduler that is associated with this job definition.
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

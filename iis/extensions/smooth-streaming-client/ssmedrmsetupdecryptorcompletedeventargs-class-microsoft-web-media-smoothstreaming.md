@@ -82,7 +82,6 @@ The SSMEDrmSetupDecryptorCompletedEventArgs type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[KeyId](ssmedrmsetupdecryptorcompletedeventargs-keyid-property-microsoft-web-media-smoothstreaming.md)|Gets the KeyID of the decryptor being set up.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UserState](https://msdn.microsoft.com/library/9b3wa0x3(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 
-
 ## Methods
 
 ||Name|Description|
@@ -94,7 +93,6 @@ The SSMEDrmSetupDecryptorCompletedEventArgs type exposes the following members.
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[RaiseExceptionIfNecessary](https://msdn.microsoft.com/library/69w1sf5e(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
-
 
 ## Version Information
 
@@ -111,4 +109,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

@@ -79,4 +79,3 @@ The XML namespace value "http://www.w3.org/2000/01/rdf-schema\#".
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

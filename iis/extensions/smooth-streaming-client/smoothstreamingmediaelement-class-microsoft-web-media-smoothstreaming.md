@@ -86,7 +86,6 @@ The SmoothStreamingMediaElement type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[SmoothStreamingMediaElement](smoothstreamingmediaelement-constructor-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the SmoothStreamingMediaElement class.|
 
-
 ## Properties
 
 ||Name|Description|
@@ -199,7 +198,6 @@ The SmoothStreamingMediaElement type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Volume](smoothstreamingmediaelement-volume-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the audio volume.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Width](https://msdn.microsoft.com/library/ms600906)|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714).)|
 
-
 ## Methods
 
 ||Name|Description|
@@ -275,7 +273,6 @@ The SmoothStreamingMediaElement type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TransformToVisual](https://msdn.microsoft.com/library/cc189872)|(Inherited from [UIElement](https://msdn.microsoft.com/library/ms590078).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[UpdateLayout](https://msdn.microsoft.com/library/ms599327)|(Inherited from [UIElement](https://msdn.microsoft.com/library/ms590078).)|
 
-
 ## Events
 
 ||Name|Description|
@@ -329,7 +326,6 @@ The SmoothStreamingMediaElement type exposes the following members.
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TextInputUpdate](https://msdn.microsoft.com/library/ee652690)|(Inherited from [UIElement](https://msdn.microsoft.com/library/ms590078).)|
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Unloaded](https://msdn.microsoft.com/library/ms596565)|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714).)|
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[VideoHighestPlayableTrackChanged](smoothstreamingmediaelement-videohighestplayabletrackchanged-event-microsoft-web-media-smoothstreaming_1.md)|Occurs when the playback rate changes to the highest available rate.|
-
 
 ## Fields
 
@@ -403,4 +399,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

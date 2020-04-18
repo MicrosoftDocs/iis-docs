@@ -86,4 +86,3 @@ If your provider implements the IDbViewManager interface, your provider must als
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -13,13 +13,11 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 ### Compatibility
 
-
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | FTP Logon Attempt Restrictions were introduced in IIS 8.0. |
 | IIS 7.5 | FTP Logon Attempt Restrictions were not supported in IIS 7.0 or IIS 7.5. |
 | IIS 7.0 |
-
 
 <a id="TOC301258515"></a>
 

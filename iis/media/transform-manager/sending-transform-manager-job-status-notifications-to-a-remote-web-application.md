@@ -21,7 +21,6 @@ You can configure a new notifications feature in [IIS Transform Manager 1.0](htt
 
 This article describes a sample ASP.NET MVC 3 web application on the Windows Azure platform that receives Transform Manager job status.
 
-
 <a id="license"></a>
 
 ## Licensing
@@ -34,9 +33,7 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 
 IIS Transform Manager sends job status information in the HTTP POST request body in a notification. The following is an example of the XML syntax in the POST message body:
 
-
 [!code-xml[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample1.xml)]
-
 
 Let's take a closer look at each of the XML elements:
 
@@ -238,28 +235,20 @@ These model classes are used to insert and retrieve the POSTed XML data.
 
 This class is the object model representation of the XML data in the POST message body. It inherits from the *TableServiceEntity* so that we can use it to talk to Azure Table Storage.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample6.cs)]
-
 
 We will need to include the following empty constructor that feeds unique default values to the base constructor.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample7.cs)]
-
 
 We will also need the following list of public properties that make up the entire POSTed XML data.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample8.cs)]
-
 
 Finally, a few static classes are needed to parse the XML into an instance object.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample9.cs)]
    
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample10.cs)]
 
 <a id="notificationdataservicecontext"></a>
@@ -268,12 +257,9 @@ Finally, a few static classes are needed to parse the XML into an instance objec
 
 This class defines the table name and provides a handle to query the data. It inherits *TableServiceContext*, which is where most of the logic takes place.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample11.cs)]
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample12.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample13.cs)]
 
@@ -283,9 +269,7 @@ This class defines the table name and provides a handle to query the data. It in
 
 This class provides an abstraction from the *NotificationDataServiceContext* class above. We are only going to implement a *Select* method to fetch all of the data, and add a means to add new notifications to the database. A full implementation of this model could include much more functionality, such as *Delete* and *Update*.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample14.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample15.cs)]
 
@@ -295,21 +279,15 @@ This class provides an abstraction from the *NotificationDataServiceContext* cla
 
 This class is used to ensure that the data is displayed in the right order. We want the latest POST to be at the top of the list. We will also use this to apply a Distinct() filter to avoid multiple rows per job instance.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample16.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample17.cs)]
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample18.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample19.cs)]
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample20.cs)]
-
 
 We now have a model that can be leveraged to parse new notifications, insert them into a database, and select distinct jobNames in a sorted order. We can now start configuring a Controller.
 

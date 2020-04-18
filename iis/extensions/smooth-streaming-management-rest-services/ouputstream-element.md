@@ -22,14 +22,10 @@ Provides summary information about a Smooth Streaming output stream.
 |--- |--- |
 |name|Specifies an identifier for the output stream.|
 
-
 ### Child Elements
 
 [LastOutputFragmentTimestamp Element](lastoutputfragmenttimestamp-element.md)
 
-
 ### Parent Element
 
 [OutputStreams Element](outputstreams-element.md)
-
-

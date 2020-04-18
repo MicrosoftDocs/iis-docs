@@ -26,7 +26,6 @@ The `expandVariables` attribute specifies whether to display a specific set of u
 > | `%SiteName%` | The name of the FTP site that is hosting the current session. |
 > | `%UserName%` | The account name of the currently logged-on user. |
 
-
 The `allowLocalDetailedErrors` attribute specifies whether to display detailed error messages when the FTP client is connecting to the FTP server on the server itself. These error messages contain detailed information that server administrators can use to troubleshoot issues. If this attribute is set to true, the FTP service will display detailed error messages only to the local host; otherwise, detailed error messages are not displayed.
 
 <a id="002"></a>
@@ -45,7 +44,6 @@ The `allowLocalDetailedErrors` attribute specifies whether to display detailed e
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
 > 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 

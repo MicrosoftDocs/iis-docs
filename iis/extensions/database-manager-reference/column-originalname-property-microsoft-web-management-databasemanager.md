@@ -79,10 +79,8 @@ The value of the database column's OriginalName property may be different than t
 
 The following code sample implements the [EditTable](idbtablemanager-edittable-method-microsoft-web-management-databasemanager.md) method for an OLEDB connection by using the [TableInfo](tableinfo-class-microsoft-web-management-databasemanager.md) object that the database manager provides.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -1266,4 +1264,3 @@ private void AddForeignKeys(
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

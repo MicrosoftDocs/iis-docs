@@ -25,7 +25,6 @@ The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) type
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[SelectTracks](streaminfo-selecttracks-method-microsoft-web-media-smoothstreaming_1.md)|Selects [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) objects for this stream. For more information see [Select and Monitor Bit Rate (IIS Smooth Streaming)](select-and-monitor-bitrate.md).|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](streaminfo-tostring-method-microsoft-web-media-smoothstreaming_1.md)|Writes the [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) item to a string. (Overrides [Object.ToString() () () ()](https://msdn.microsoft.com/library/7bxwbwt2).)|
 
-
 ## See Also
 
 ### Reference
@@ -33,4 +32,3 @@ The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) type
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

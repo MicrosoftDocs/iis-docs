@@ -91,7 +91,6 @@ public enum SmoothStreamingMediaElementState
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|AcquiringLicense|The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) is acquiring a license to play DRM protected content. Once [OnAcquireLicense(Stream, Uri)](https://msdn.microsoft.com/library/cc838724(v=vs.95)) has been called, the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) will remain in this state until [SetLicenseResponse(Stream)](https://msdn.microsoft.com/library/cc838403(v=vs.95)) is called.|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|ClipPlaying|The media resource has been interrupted and the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) is playing a clip scheduled by using [ScheduleClip(ClipInformation, ClipContext, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-clipcontext-object-microsoft-web-media-smoothstreaming_1.md) or one of its overloads.|
 
-
 ## Remarks
 
 For more information and code scenarios, see [Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md).
@@ -160,4 +159,3 @@ Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

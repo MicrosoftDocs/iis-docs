@@ -22,16 +22,13 @@ When upgrading a computer that is running a previous version of IIS to Windows V
 
 When discussing potential security risks, this document makes use of the following threat levels:
 
-
 | Threat Level | Description |
 | --- | --- |
 | High | When the threat to security is set to high, any failure in securing or deleting the folders/files listed may result in unauthorized access to sensitive information. Administrations should always follow the actions recommended in this document. |
 | Medium | When the threat level is set to medium, the folders/files listed may contain information that administrators may not want to expose. Administrations should analyze their environment and usually follow the actions recommended in this document. |
 | Low | When the threat is set to low, the folders/files listed should normally contain information that is safe for public access. Because of this, no additional actions will usually need to be accomplished. Administrations should still analyze their content to determine if any threats exist that are outside the scope of this document. |
 
-
 When recommending actions for administrators, this document makes use of the following recommended definitions:
-
 
 | Recommended Action | Description |
 | --- | --- |
@@ -39,13 +36,11 @@ When recommending actions for administrators, this document makes use of the fol
 | Secure | The folders/files listed should be secured. Usually this can be accomplished at the folder level by removing read access on the path through the IIS administration tool, or by copying the content to a safe location outside of your web site's content folders and then removing the content from web site. |
 | N/A | No additional actions will usually need to be accomplished. |
 
-
 ## Securing FrontPage Folders and Files
 
 ### Folders Found Within a FrontPage Web Site
 
 The following table lists the folders that are used by the FrontPage Server Extensions and recommended actions. If the folders listed in this table were used for additional functionality, you should always secure those folders as appropriate.
-
 
 | Folder | Threat | Action | Notes |
 | --- | --- | --- | --- |
@@ -65,11 +60,9 @@ The following table lists the folders that are used by the FrontPage Server Exte
 | fpdb | High | Secure | FrontPage keeps databases in this folder, so it should be configured to prevent browsing. The potential threat is the unauthorized access to databases in your web site. |
 | images | Low | N/A | FrontPage keeps image files in this folder. |
 
-
 ### Files Found Within the \_vti\_pvt Folder
 
 The following table lists the files that are located within the \_vti\_pvt folder of a FrontPage Web site. These files are used by the FrontPage Server Extensions to store various metadata for a web site, and should usually be secured or deleted at the folder-level.
-
 
 | File | Threat | Action | Notes |
 | --- | --- | --- | --- |
@@ -95,17 +88,14 @@ The following table lists the files that are located within the \_vti\_pvt folde
 | usage.lck | Low | Delete | Lock file - safe to delete. |
 | writeto.cnf | High | Delete | Contains a list of files that can be written to. (e.g. Form handler result files.) |
 
-
 ### Files Found Within the Root Folder of a FrontPage Web Site
 
 The following table lists the files that are located within the root folder of a FrontPage Web site.
-
 
 | File | Threat | Action | Description |
 | --- | --- | --- | --- |
 | \_vti\_inf.html | Low | Delete | This file contains the virtual paths to the FrontPage Server Extensions executables, and is used by any client that communicates with the FrontPage Server Extensions. |
 | postinfo.html | Low | Delete | This file contains information for the Windows Web Publishing Wizard. |
-
 
 ## Summary
 

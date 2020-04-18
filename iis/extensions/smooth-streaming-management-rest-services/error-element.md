@@ -24,9 +24,6 @@ Provides information about errors that occur in the management module.
 [ErrorMessage Element](errormessage-element.md)  
 [InternalError Element](internalerror-element.md)
 
-
 ### Parent Element
 
 [SmoothStreaming Element](smoothstreaming-element.md)
-
-

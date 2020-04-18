@@ -95,4 +95,3 @@ If your provider implements the IDbStoredProcedureManager interface, your provid
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

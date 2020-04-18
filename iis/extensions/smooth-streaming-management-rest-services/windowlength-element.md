@@ -24,8 +24,6 @@ None.
 
 [ClientConnections Element](clientconnections-element.md)
 
-
 ## Remarks
 
 The default value (PT0S) specifies that the entire live broadcast is available for DVR.
-

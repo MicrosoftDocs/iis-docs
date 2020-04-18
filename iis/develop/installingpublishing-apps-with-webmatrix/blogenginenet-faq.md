@@ -45,5 +45,4 @@ A: If you are publishing to a server where the web site is configured to run in 
 > 
 > The error will also contain the message: "A potentially dangerous Request.Form value was detected from the client (ctl00$cphAdmin$txtContent$TinyMCE1$txtContent="
 
-
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.

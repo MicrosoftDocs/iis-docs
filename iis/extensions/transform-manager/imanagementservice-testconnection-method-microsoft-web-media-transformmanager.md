@@ -107,7 +107,6 @@ true if the IIS Transform Manager service is able to connect to the [Scheduler](
 |[FileNotFoundException](https://msdn.microsoft.com/library/dzyy5k3x)|HPC client utilities are not installed.|
 |InvalidDataException|The scheduler is not responding.|
 
-
 ## Remarks
 
 By default, IIS Transform Manager uses the task scheduler on the local server, but it also supports using an HPC scheduler. A credential is required in order to run jobs and access resources on the HPC cluster. That credential can be different from the credential that the IIS Transform Manager service is running under on the local server.
@@ -119,4 +118,3 @@ By default, IIS Transform Manager uses the task scheduler on the local server, b
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

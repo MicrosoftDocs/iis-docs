@@ -23,7 +23,6 @@ The **GetFileInfo** method returns information about the playlist file in file-b
 |--- |--- |
 |*ppPlaylistFileInfo*|The returned [IPlaylistFileInfo Interface](https://msdn.microsoft.com/library/dd146277) instance.|
 
-
 ## Return Value
 
 If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT error code.
@@ -40,4 +39,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an HRESULT err
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

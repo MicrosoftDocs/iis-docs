@@ -83,7 +83,6 @@ The CircularList\<(Of \<(\<'T\>)\>)\> type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Count](https://msdn.microsoft.com/library/27b47ht3)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Item](https://msdn.microsoft.com/library/0ebtbkkc)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 
-
 ## Methods
 
 ||Name|Description|
@@ -142,7 +141,6 @@ The CircularList\<(Of \<(\<'T\>)\>)\> type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TrimExcess](https://msdn.microsoft.com/library/ms132207)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TrueForAll](https://msdn.microsoft.com/library/kdxe4x4w)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 
-
 ## Explicit Interface Implementations
 
 ||Name|Description|
@@ -161,7 +159,6 @@ The CircularList\<(Of \<(\<'T\>)\>)\> type exposes the following members.
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|IList.Item|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Ff728198.privmethod(en-us,VS.90).gif "Private method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|IList.Remove|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|ICollection.SyncRoot|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
-
 
 ## Version Information
 
@@ -182,4 +179,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
-

@@ -18,7 +18,6 @@ You must complete a few steps before you begin writing code to create a custom W
 |[Writing a Managed Web Playlist Provider](https://msdn.microsoft.com/library/dd146254)|Provides sample code and describes the steps you must complete to build the sample Web Playlist provider.|
 |[Installing a Custom Web Playlist Provider](https://msdn.microsoft.com/library/dd146269)|Describes how to install a custom Web Playlist provider once it has been built.|
 
-
 ## See Also
 
 ### Concepts
@@ -26,4 +25,3 @@ You must complete a few steps before you begin writing code to create a custom W
 [Getting Started with the IIS Web Playlists SDK](getting-started-with-the-iis-web-playlists-sdk.md)
 
 [IIS Web Playlists SDK Programming Guide](iis-web-playlists-sdk-programming-guide.md)
-

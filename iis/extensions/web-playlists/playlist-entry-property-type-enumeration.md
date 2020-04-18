@@ -32,7 +32,6 @@ An enumeration that describes the various properties of playlist entries.
 |*PlaylistEntryProperty_CanSkipForward*|Property to control if clients can skip this entry to go to the next entry in the playlist.|
 |*PlaylistEntryProperty_CanSkipBackward*|Property to control if clients can skip this entry to go to the previous entry in the playlist.|
 
-
 ## Requirements
 
 **Header:** playlistprovider.h
@@ -40,4 +39,3 @@ An enumeration that describes the various properties of playlist entries.
 **Library:** playlistprovider.dll
 
 **Platform:** Windows Server 2008 family
-

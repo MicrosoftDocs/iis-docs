@@ -45,4 +45,3 @@ The structure of the client manifest file is as follows:
 [IIS Smooth Streaming Server Manifest (On-Demand)](iis-smooth-streaming-server-manifest-on-demand.md)
 
 [IIS Smooth Streaming Client](https://msdn.microsoft.com/library/hh943091)
-

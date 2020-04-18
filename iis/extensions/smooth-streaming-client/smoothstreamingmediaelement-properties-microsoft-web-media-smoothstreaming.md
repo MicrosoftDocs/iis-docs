@@ -124,7 +124,6 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Volume](smoothstreamingmediaelement-volume-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the audio volume.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Width](https://msdn.microsoft.com/library/ms600906)|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714).)|
 
-
 ## See Also
 
 ### Reference
@@ -132,4 +131,3 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

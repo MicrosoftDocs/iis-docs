@@ -75,7 +75,6 @@ A list of job instance IDs.
 |--- |--- |
 |[COMException](https://msdn.microsoft.com/library/02hkayhc)|The method was unable to complete the transaction that was originated by the task scheduler.|
 
-
 ## See Also
 
 ### Reference
@@ -83,4 +82,3 @@ A list of job instance IDs.
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

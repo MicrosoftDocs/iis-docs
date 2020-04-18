@@ -69,10 +69,8 @@ The IDbTableManager type exposes the following members.
 
 In order to manage tables, you must implement IDbTableManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md). This interface allows to create, modify, and delete tables.
 
-
 > [!NOTE]  
 > Use the IDbTableManager interface to manage the actual tables, and use the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface to manage data within a table.
-
 
 ### 
 
@@ -97,4 +95,3 @@ If your provider implements the IDbTableManager interface, your provider must al
 ### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

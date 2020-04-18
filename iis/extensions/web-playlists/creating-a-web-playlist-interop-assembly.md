@@ -59,4 +59,3 @@ tlbimp /out:c:\\asm\\playlist\\sampleprovider.dll /namespace:Microsoft.Web.Media
 [Creating a Managed Playlist Provider](creating-a-managed-playlist-provider.md)
 
 [IIS Web Playlists SDK Programming Guide](iis-web-playlists-sdk-programming-guide.md)
-

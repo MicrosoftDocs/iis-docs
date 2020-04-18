@@ -24,7 +24,6 @@ The Update Publishing Point State request may be specified as follows:
 |--- |--- |
 |PUT|http(s)://<hostname>/<filepath>/state|
 
-
 ### URI Parameters
 
 URL template segments and parameters.
@@ -103,4 +102,3 @@ None when the operation is successful; otherwise, error information.
 ## Authorization
 
 The authenticated user must have write access to the publishing point .isml file.
-

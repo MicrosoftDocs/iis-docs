@@ -119,4 +119,3 @@ This method returns an XML representation of the job manifest metadata. For exam
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

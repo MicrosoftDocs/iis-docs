@@ -19,9 +19,7 @@ Set the Web server to enable this globally so that you do not need to set it for
 
 - Open a command prompt and run the following:
 
-
 [!code-console[Main](32-bit-mode-worker-processes/samples/sample1.cmd)]
-
 
 > [!NOTE]
 > This setting applies only to 64-bit servers.
@@ -29,6 +27,5 @@ Set the Web server to enable this globally so that you do not need to set it for
 **To configure 32-bit mode for the server using the [IIS PowerShell Provider](../../manage/powershell/installing-the-iis-powershell-snap-in.md)**
 
 - Open a PowerShell prompt and run the following:
-
 
 [!code-powershell[Main](32-bit-mode-worker-processes/samples/sample2.ps1)]

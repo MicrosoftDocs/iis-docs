@@ -27,7 +27,6 @@ The following sections describe attributes, child elements, and parent elements.
 |**name**|Specifies the name of the parameter. This attribute is required.|
 |**value**|Specifies the value of the parameter. The valid range and semantic meaning of the value is dependent upon the name of the attribute. See remarks for details. This attribute is required.|
 
-
 ### Child Elements
 
 |Element|Description|
@@ -67,4 +66,3 @@ The following list describes the details of the relationship between the name an
 ### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - textstream Element](iis-smooth-streaming-server-manifest-on-demand-textstream-element.md)
-

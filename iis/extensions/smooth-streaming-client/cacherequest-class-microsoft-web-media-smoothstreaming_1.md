@@ -74,13 +74,11 @@ The CacheRequest type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CacheRequest(Stream)](cacherequest-constructor-stream-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the CacheRequest class from a [Stream](https://msdn.microsoft.com/library/8f86tw9e(v=vs.95)) object.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CacheRequest(Uri)](cacherequest-constructor-uri-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the CacheRequest class from a [Uri](https://msdn.microsoft.com/library/txt7706a(v=vs.95)) object.|
 
-
 ## Properties
 
 ||Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CanonicalUri](cacherequest-canonicaluri-property-microsoft-web-media-smoothstreaming_1.md)|The Uri of the request.|
-
 
 ## Methods
 
@@ -94,7 +92,6 @@ The CacheRequest type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ReadFrom](cacherequest-readfrom-method-microsoft-web-media-smoothstreaming_1.md)|Reads the request from a [Stream](https://msdn.microsoft.com/library/8f86tw9e(v=vs.95)) object. There is no default implementation for this method. Calling the method without implementing an override will result in a [NotSupportedException](https://msdn.microsoft.com/library/8a7a4e64(v=vs.95)).|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[WriteTo](cacherequest-writeto-method-microsoft-web-media-smoothstreaming_1.md)|Writes the request to a [Stream](https://msdn.microsoft.com/library/8f86tw9e(v=vs.95)) object.|
-
 
 ## Remarks
 
@@ -121,4 +118,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

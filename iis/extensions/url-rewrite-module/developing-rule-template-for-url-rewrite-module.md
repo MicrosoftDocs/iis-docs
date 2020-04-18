@@ -59,7 +59,6 @@ First, you will need to create a module, is the main entry point in the client f
 5. Select the option **Add New Item** from the Project menu. In the **Add New Item** dialog box, select the **Class** template and type CanonicalDomainModule.cs as the name for the file.
 6. Change the code so that it looks as below:
 
-
 [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample1.cs)]
 
 This code initializes a new instance of a class **CanonicalDomainFeature**, which will implement the rule template functionality. The instance of this class is used to register an extension of type **RewriteTemplateFeature**, which is a type from which all rule templates are derived.
@@ -70,7 +69,6 @@ When defining a class that implements rule template you will need to derive this
 
 1. Select the option Add New Item in the Project Menu. Select the Class template and type CanonicalDomainFeature.cs as the file name.
 2. Change the code so that it looks as below:
-
 
 [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample2.cs)]
 
@@ -122,7 +120,6 @@ To implement a service you will need to create a module provider, which is an en
 3. Select the option **Add New Item** from the Project menu. In the **Add New Item** dialog box, select the **Class** template and type CanonicalDomainModuleProvider.cs as the name for the file.
 4. Change the code so that it looks as below (do not forget to replace the PublicKeyToken with the public key token of the CanonicalDomainTemplate.Client.dll assembly)
 
-
 [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample8.cs)]
 
 This code creates a ModuleProvider that supports all types of connections (Server, Site and Application) and registers a client-side module called **CanonicalDomainModule**. Also it registers the type of the module service **CanonicalDomainModuleService** that is used on a server-side to generate rewrite rules.
@@ -132,14 +129,12 @@ To create a service for the rule template follow these steps:
 1. Select the option Add New Item in the Project Menu. Select the Class template and type CanonicalDomainModuleService.cs as the file name.
 2. Change the code so that it looks as below:
 
-
 [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample9.cs)]
 
 This code creates a rule for redirection to canonical domain.
 
 > [!TIP]
 > to quickly get the code for generating rewrite rules use the Configuration Editor for IIS 7.0 and above, which is included in [Administration Pack for IIS](https://www.iis.net/downloads?tabid=34&i=1682&g=6). Refer to [this article](http://ruslany.net/2008/07/scripting-url-rewrite-module-configuration/) for more information on how to generate code for creation of rewrite rules.
-
 
 ## Registering the rule template with IIS Manager
 
@@ -152,8 +147,6 @@ Open administration.config file located at \Windows\System32\inetsrv\config and 
 > [!NOTE]
 > By adding it only to the list of moduleProviders you are registering the module only for Server connections. If you want this module to be enabled for Site connections as well as application connections, add it to the following list:
 
-
 [!code-xml[Main](developing-rule-template-for-url-rewrite-module/samples/sample11.xml)]
-
 
 After these steps are done, you should be able to see the "Canonical Domain Name" rule template in the Add Rule(s) dialog of URL Rewrite module.

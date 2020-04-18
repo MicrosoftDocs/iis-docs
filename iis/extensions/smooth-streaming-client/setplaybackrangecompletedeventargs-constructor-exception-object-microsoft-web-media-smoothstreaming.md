@@ -102,4 +102,3 @@ Supported in: 5
 [SetPlaybackRangeCompletedEventArgs Overload](setplaybackrangecompletedeventargs-constructor-microsoft-web-media-smoothstreaming.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

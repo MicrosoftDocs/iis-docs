@@ -48,7 +48,6 @@ Provides summary information about a Smooth Stream input stream.
 |--- |--- |
 |id|Required. Specifies an identifier for the input stream.|
 
-
 ### Child Elements
 
 [State Element (InputStream)](state-element-inputstream.md)  
@@ -60,5 +59,3 @@ Provides summary information about a Smooth Stream input stream.
 ### Parent Element
 
 [InputStreams Element](inputstreams-element.md)
-
-

@@ -73,4 +73,3 @@ The Close()()()() method calls the [Dispose](logger-dispose-method-microsoft-web
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

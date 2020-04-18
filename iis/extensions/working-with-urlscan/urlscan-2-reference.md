@@ -50,7 +50,6 @@ For more information about installing the IIS Lockdown Tool, see the IIS Lockdow
 
 > [https://www.microsoft.com/downloads/details.aspx?FamilyID=dde9efc0-bb30-47eb-9a61-fd755d23cdec](https://www.microsoft.com/downloads/details.aspx?FamilyID=dde9efc0-bb30-47eb-9a61-fd755d23cdec)
 
-
 <a id="Installing_UrlScan_2.5"></a>
 
 ### Installing UrlScan 2.5
@@ -249,7 +248,6 @@ The [RequestLimits] section impose limits on the length of user-defined parts of
 You can specify the maximum length of the value for a specific request header by adding "Max-" to the name of the header. For example, the following entry would impose a limit of 100 bytes to the value of the 'Content-Type' header:
 
 > Max-Content-Type=100
-
 
 To list a header and not specify a maximum value, use 0. For example, "Max-User-Agent=0". Note: Any HTTP request headers that are not listed in this section will not be checked for length limits.
 

@@ -36,15 +36,11 @@ When a request is made to `http://contoso.com/webmail/default.aspx`, ARR forward
 
 In addition, if internal application inserts links into its response HTML that link to elsewhere in those applications, those links should be modified before the response is returned to the client. For example, a page from `http://webmail/default.aspx` might contain a link like this:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample1.html)]
-
 
 Then ARR server should change this link to the following:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample2.html)]
-
 
 ## Creating the Example Web Sites
 
@@ -123,9 +119,7 @@ This section of the documentation applies to the **URL Rewrite Module Version 2.
 
 You will define an outbound rule that replaces all the links within the response HTML as follows:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample13.html)]
-
 
 will be replaced with:
 
@@ -143,7 +137,6 @@ and
 > When response headers or the response content is modified by an outbound rewrite rule an extra caution should be taken to ensure that the text which gets inserted into the response does not contain any client side executable code, which can result in cross-site scripting vulnerabilities. This is especially important when rewrite rule uses un-trusted data, such as HTTP headers or the query string, to build the string that will be inserted into the HTTP response. In such cases the replacement string should be HTML encoded by using the **HtmlEncode** function, e.g:
 > 
 > [!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample16.xml)]
-
 
 To create the rule, follow these steps:
 
@@ -200,17 +193,13 @@ To define a tag filter, expand the drop down list "**Match the content within:**
 
 This sets the rule to apply the pattern only to the value of the **href** attribute of the hyperlink, as in the following example:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample17.html)]
-
 
 ### Defining a pattern
 
 In the "Pattern" text box enter the following string:
 
-
 [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample18.cmd)]
-
 
 This string is a regular expression that specifies that the pattern will match any URL path string that starts with "/" symbol.
 
@@ -231,9 +220,7 @@ You need to change the links in the response HTML only if response is from the w
 
 Choose the "Rewrite" action type that is listed in the "Action" group box. In the "Value" text box, enter the following string:
 
-
 [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample19.cmd)]
-
 
 This string specifies the new value to which the link address should be rewritten. The {C:1} is a back-reference to the condition pattern capture group and it will be substituted with either "webmail" or "payroll" strings. The {R:1} is a back-reference to the rule pattern capture group and in this particular case it will be substituted with the original URL path that was used in the hyperlink.
 
@@ -245,9 +232,7 @@ Save the rule by clicking on "Apply" action on the right hand side.
 
 To check the configuration of the rules that we have just created, open a web.config file located in `%SystemDrive%\inetput\wwwroot\`. In this file you should see the `<rewrite>` section that contains this rule definition:
 
-
 [!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample20.xml)]
-
 
 ### Testing the rule
 

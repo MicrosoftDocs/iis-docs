@@ -75,7 +75,6 @@ The Scheduler type exposes the following members.
 |--- |--- |--- |
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Scheduler](scheduler-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the Scheduler class.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -114,4 +113,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

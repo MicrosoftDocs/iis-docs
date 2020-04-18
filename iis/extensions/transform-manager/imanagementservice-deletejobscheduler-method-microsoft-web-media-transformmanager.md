@@ -86,7 +86,6 @@ abstract DeleteJobScheduler :
 |--- |--- |
 |[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The specified job scheduler is in use.|
 
-
 ## See Also
 
 ### Reference
@@ -94,4 +93,3 @@ abstract DeleteJobScheduler :
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

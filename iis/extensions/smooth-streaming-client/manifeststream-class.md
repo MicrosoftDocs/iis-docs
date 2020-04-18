@@ -47,7 +47,6 @@ public final class ManifestStream implements IManifestStream
 |[RestrictTracks](manifeststream-restricttracks-method.md)|Restricts the tracks to a subset of all the available tracks.|
 |[SelectTracks](manifeststream-selecttracks-method.md)|Selects the tracks in a subset of all the available tracks.|
 
-
 ### Properties
 
 |Property|Description|
@@ -69,7 +68,6 @@ public final class ManifestStream implements IManifestStream
 |[Type](manifeststream-type-property.md)|Gets the manifest type.|
 |[Url](manifeststream-url-property.md)|Gets the URL template.|
 
-
 ## Requirements
 
 |||
@@ -77,4 +75,3 @@ public final class ManifestStream implements IManifestStream
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

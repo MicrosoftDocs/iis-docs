@@ -18,7 +18,6 @@ The [HpcScheduler](hpcscheduler-class-microsoft-web-media-transformmanager.md) t
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TestConnectionMessage](hpcscheduler-testconnectionmessage-property-microsoft-web-media-transformmanager.md)|Gets the connection message.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [HpcScheduler](hpcscheduler-class-microsoft-web-media-transformmanager.md) t
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

@@ -164,10 +164,8 @@ The previous code example calls the [BeginGetChunk](trackinfo-begingetchunk-meth
     }
 ```
 
-
 > [!NOTE]  
 > Applications should parse the manifest for markers during the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event, but not earlier. Specifically, applications should not parse the manifest during the [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event, because all markers set before the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event is raised are erased in Silverlight during the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event.
-
 
 ## Creating a Timeline Event Handler
 
@@ -385,4 +383,3 @@ The next code segment is the delegate method that gets the user's selection, if 
 [Manifest Merge](manifest-merge.md)
 
 [Select and Monitor Bitrate](select-and-monitor-bitrate.md)
-

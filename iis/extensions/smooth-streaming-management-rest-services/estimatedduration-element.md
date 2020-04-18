@@ -27,4 +27,3 @@ None.
 ## Remarks
 
 The duration is specified using a format like "PT1H15M30.5S". A client's seek bars are scaled according to this value.
-

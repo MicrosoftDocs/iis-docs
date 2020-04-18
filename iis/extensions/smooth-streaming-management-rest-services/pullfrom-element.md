@@ -20,8 +20,6 @@ Defines Pull publishing points on a distributed network.
 
 [PublishingPoints Element](publishingpoints-element.md)
 
-
 ### Parent Element
 
 [Settings Element](settings-element.md)
-

@@ -62,7 +62,6 @@ Clients read the **LogUrl** element in a client-side manifest to determine the U
 
 The syntax for adding LogUrls to the manifest is:
 
-
 [!code-xml[Main](advanced-logging-for-iis-client-logging/samples/sample1.xml)]
 
 <a id="parameters"></a>
@@ -74,9 +73,7 @@ The Log URL can also be set using the PARAM tag **initparams** while instantiati
 > [!NOTE]
 > The values for the LogUrls in the initparams must be complete HTTP URLs. Use of relative URLs isn't permitted.
 
-
 [!code-html[Main](advanced-logging-for-iis-client-logging/samples/sample2.html)]
-
 
 ### Configuring the Log Definition
 
@@ -84,9 +81,7 @@ For IIS Advanced Logging to take advantage of client logging capabilities, relat
 
 The script syntax is:
 
-
 [!code-console[Main](advanced-logging-for-iis-client-logging/samples/sample3.cmd)]
-
 
 where fields.xml is the XML file included in the zipped folder and baseFileName is the name you want to give to your log definition. If you don't specify a baseFileName, IIS Advanced Logging will use the default log definition name: %COMPUTERNAME%-Client.
 

@@ -1,7 +1,7 @@
 ---
 title: "Upgrading ASP.NET 1.1 to IIS 7.0 on Windows Vista and Windows Server 2008"
 author: rick-anderson
-description: "For ASP.NET application developers who move to the Windows Vista™ or later Windows operating system, IIS 7.0 and above represent a significant advance over e..."
+description: "For ASP.NET application developers who move to the Windows Vista&trade; or later Windows operating system, IIS 7.0 and above represent a significant advance over e..."
 ms.date: 12/18/2007
 ms.assetid: 04425a1c-0be3-45bd-8184-815c7801176e
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008
@@ -13,9 +13,9 @@ by IIS Team
 
 ## Introduction
 
-For ASP.NET application developers who move to the Windows Vista™ or later Windows operating system, IIS 7.0 and above represent a significant advance over earlier IIS versions. IIS Integrated mode offers increased security and new application possibilities, among other improvements.
+For ASP.NET application developers who move to the Windows Vista&trade; or later Windows operating system, IIS 7.0 and above represent a significant advance over earlier IIS versions. IIS Integrated mode offers increased security and new application possibilities, among other improvements.
 
-Most developers who move to Windows Vista upgrade from the Microsoft Windows® XP operating system to Windows Vista and upgrade their ASP.NET applications in the process. Or they install on Windows Vista the ASP.NET applications developed on other Windows operating systems.
+Most developers who move to Windows Vista upgrade from the Microsoft Windows&reg; XP operating system to Windows Vista and upgrade their ASP.NET applications in the process. Or they install on Windows Vista the ASP.NET applications developed on other Windows operating systems.
 
 This paper details important post-installation and post-upgrade configuration steps that must be performed for applications to work on the new operating system. It describes changes between Classic mode and IIS Integrated mode that affect ASP.NET applications, and how to work around these known problems.
 
@@ -25,12 +25,10 @@ For example, in previous releases, IIS and ASP.NET implemented separate request 
 
 Other benefits of this integration include:
 
-
 - ASP.NET services such as Forms Authentication and Roles working with IIS content types–for example, static and classic ASP pages.
 - IIS functionality extending with managed code and with ASP.NET pipeline modules, instead of only with ISAPI extensions or CGI.
 - Simplified troubleshooting resulting from the integration of event tracing and error logging.
 - Sharing application configuration between ASP.NET and IIS.
-
 
 This article examines compatibility issues for ASP.NET applications migrating from earlier versions of IIS to IIS 7.0 and above and specifically focuses on differences that relate to transitioning from Classic mode to using the integrated pipeline in Integrated mode.
 
@@ -53,7 +51,6 @@ The following table provides a brief outline of the supported upgrade paths for 
 
 The table also shows that upgrades from server OS versions to client OS versions are not available. Instead, you must perform a clean installation of Vista on a computer with a server OS currently installed.
 
-
 | Operating System | IIS Version | .NET Framework Version | Considerations when Upgrading to Windows Vista / IIS 7.0 |
 | --- | --- | --- | --- |
 | Windows 2000 Server | IIS 5.0 | 1.0, 1.1, 2.0 | Upgrade to Windows Vista not available. |
@@ -67,7 +64,6 @@ The table also shows that upgrades from server OS versions to client OS versions
 | 1.1 | Manual configuration is required after upgrade (see later in this article). |
 | 2.0 | ASP.NET must be selected in the IIS setup options following an upgrade in order for ASP.NET 2.0 to be configured in Integrated Mode. |
 | Windows XP Professional x64 | IIS 5.1 | 1.1, 2.0 | Clean Install of OS is required. |
-
 
 ### Post-Installation Application Configuration
 
@@ -128,13 +124,11 @@ In IIS Manager, open Application Pools, then right-click an Application Pool and
 
 When upgrading ASP.NET applications on earlier versions of Windows operating systems to Windows Vista, applications are configured in application pools based on IIS application isolation settings as follows:
 
-
 | IIS Isolation Configuration Before Upgrade | IIS Application Pool | IIS Application Pool Identity |
 | --- | --- | --- |
 | Low | AppPool Low | NT AUTHORITY\NETWORK SERVICE |
 | Medium | AppPool Medium | IWAM\_&lt;machine name&gt; |
 | High | Applications are configured in an Application Pool matching the application name | IWAM\_&lt;machine name&gt; |
-
 
 ### ASP.NET v1.0 is Not Supported on Windows Vista
 
@@ -208,10 +202,8 @@ In Integrated mode, ASP.NET handlers generate Content Type headers when explicit
 
 When Forms Authentication is used by an application and anonymous access is allowed, the Integrated mode identity differs from the Classic mode identity in the following ways:
 
-
 - ServerVariables["LOGON\_USER"] is filled.
 - Request.LogognUserIdentity uses the credentials of the [NT AUTHORITY\NETWORK SERVICE] account instead of the [NT AUTHORITY\INTERNET USER] account.
-
 
 This behavior occurs because authentication is performed in a single stage in Integrated mode. Conversely, in Classic mode, authentication occurs first with IIS using anonymous access, and then with ASP.NET using Forms authentication. Thus, the result of the authentication is always a single user-- the Forms authentication user. AUTH\_USER/LOGON\_USER returns this same user because the Forms authentication user credentials are synchronized between IIS and ASP.NET.
 
@@ -231,7 +223,7 @@ To work around this change, rewrite your application so that it does not depend 
 
 #### Passport Network credentials authentication is not supported in Windows Vista
 
-Passport Network credentials functionality is removed from Windows Vista and the Microsoft Windows Server® 2008 operating system, so Passport Network credentials authentication applications do not work by default in ISAPI or Integrated mode.
+Passport Network credentials functionality is removed from Windows Vista and the Microsoft Windows Server&reg; 2008 operating system, so Passport Network credentials authentication applications do not work by default in ISAPI or Integrated mode.
 
 #### PassportAuthentication module is not part of the Integrated pipeline
 
@@ -329,9 +321,7 @@ Because IIS and ASP.NET write errors in different formats, the format of the err
 
 ASP.NET applications using the ASP.NET HTTP pipeline could subscribe to application events outside the pipeline. However, ASP.NET applications using the IIS Integrated mode pipeline must now always subscribe to events during the module's Init() method. The example that follows shows how an event subscription is implemented in Init:
 
-
 [!code-vb[Main](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/samples/sample1.vb)]
-
 
 For more information about how to create IIS modules, see the article, [Developing a Module using .NET](https://go.microsoft.com/fwlink/?LinkId=78387).
 

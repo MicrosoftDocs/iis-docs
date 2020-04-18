@@ -71,7 +71,6 @@ The ClipPlaybackEventArgs type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md) property. (Inherited from [ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Progress](clipplaybackeventargs-progress-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Progress](clipplaybackeventargs-progress-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
-
 ## Methods
 
 ||Name|Description|
@@ -82,7 +81,6 @@ The ClipPlaybackEventArgs type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
-
 
 ## Version Information
 
@@ -99,4 +97,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

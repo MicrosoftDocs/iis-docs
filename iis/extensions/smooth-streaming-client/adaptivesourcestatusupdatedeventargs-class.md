@@ -50,7 +50,6 @@ This class exposes the following members.
 |[StartTime](adaptivesourcestatusupdatedeventargs-starttime-property.md)|Gets the start time.|
 |[UpdateType](adaptivesourcestatusupdatedeventargs-updatetype-property.md)|Gets the update type.|
 
-
 ## Requirements
 
 |||
@@ -58,4 +57,3 @@ This class exposes the following members.
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
 |**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
-

@@ -25,7 +25,6 @@ IIS 7 and above is the product name used to refer to the versions of Internet In
 > 
 > IIS 7.5 is the Web Server (IIS) role in Windows Server 2008 R2, and the Web server in Windows 7.
 
-
 <a id="overview"></a>
 
 ## Overview of IIS Setup
@@ -88,7 +87,6 @@ With IIS 7.0 and above, the IIS team has addressed this situation by making IIS 
 ## IIS 7.0 and Above Components Overview
 
 The following table summarizes all the installable component features of IIS 7.0 and above. The table also groups features into functional areas. These functional areas are used by the setup user interfaces such as Server Manager, as well as by the new command line and scripting tools. Each of the functional areas and feature components are explored in detail in the next section.
-
 
 <table class="data-table" border="0" cellspacing="0" cellpadding="0">
 <tbody valign="top">
@@ -556,17 +554,14 @@ The following table summarizes all the installable component features of IIS 7.0
 <td valign="bottom">
 <p>Feature is selected by default - all, if any, sub-features are also selected.</p></td></tr></tbody></table>
 
-
 <a id="FeaturePack"></a>
 
 ## IIS 7.0 and Above Feature Packages
 
 Installing IIS 7.0 and above via the Server Manager or Windows Features wizards only requires that you check the boxes for each feature that you require. When and if you need to install by using command-line scripts or unattended files, you must know the actual names of the IIS components in the IIS package that represent these features.
 
-
 - Each IIS selectable feature in the Server Manager user interface corresponds to a specific update name in the IIS Package.
 - To install IIS features by using the Pkgmgr.exe command-line tool or by using an OS unattend XML file, you will need to use the IIS feature update names.
-
 
 ### Package Updates
 
@@ -719,7 +714,6 @@ These three WAS updates are prerequisites for installing features in the IIS-Web
 
 Some IIS 7.0 and above features have dependencies on other versions of IIS. When installing IIS via user interfaces such as Server Manager, required dependencies are installed automatically. When installing package updates via command line or Unattend.xml, you must explicitly specify these dependencies. The IIS update intra-dependencies are summarized below:
 
-
 | Update | Depends On |
 | --- | --- |
 | IIS-WebServer | WAS-ProcessModel– All leaf nodes under IIS-WebServer require this. |
@@ -730,7 +724,6 @@ Some IIS 7.0 and above features have dependencies on other versions of IIS. When
 | IIS-ManagementConsole | WAS-ConfigurationAPI |
 | IIS-ManagementScriptingTools | WAS-ConfigurationAPI |
 | IIS-LegacyScripts | IIS-Metabase IIS-WMICompatibility |
-
 
 ### IIS 7.0 and Above Parent Group Update Dependencies
 
@@ -813,14 +806,12 @@ After the OS installation and optional feature installations such as IIS have co
 
 During the detect and gather phase, IIS upgrade checks for the presence of key IIS services and files and installs IIS updates per the following table:
 
-
 | Down-level detection logic | IIS 7 and above Updates installed |
 | --- | --- |
 | W3SVC installed as a service | IIS-ASP IIS-BasicAuthentication IIS-CGI IIS-ClientCertificateMappingAuthentication IIS-CustomLogging IIS-DefaultDocument IIS-DigestAuthentication IIS-DirectoryBrowsing IIS-HttpCompressionDynamic IIS-HttpCompressionStatic IIS-HttpErrors IIS-HTTPLogging IIS-HttpRedirect IIS-HttpTracing IIS-IISCertificateMappingAuthentication IIS-IPSecurity IIS-ISAPIExtensions IIS-ISAPIFilter IIS-LegacyScripts IIS-LoggingLibraries IIS-ManagementScriptingTools IIS-ManagementService IIS-ODBCLogging IIS-RequestFiltering IIS-RequestMonitor IIS-ServerSideIncludes IIS-StaticContent IIS-URLAuthorization IIS-WindowsAuthentication IIS-WMICompatibility WAS-ConfigurationAPI WAS-NetFxEnvironment WAS-ProcessModel |
 | MSFTPSVC installed as a service | IIS-FTPServer |
 | INETMGR.EXE present | IIS-FTPManagement IIS-LegacySnapIn IIS-ManagementConsole |
 | IISAdmin installed as a service | IIS-Metabase |
-
 
 The installation of updates during an upgrade is not as granular as is possible in clean IIS installation scenarios, because previous versions of IIS had very limited component granularity. Consequently, almost all Web Server features are installed during an upgrade. You should, therefore, revisit your application dependencies on IIS functionality and uninstall IIS updates which are not needed after an upgrade.
 

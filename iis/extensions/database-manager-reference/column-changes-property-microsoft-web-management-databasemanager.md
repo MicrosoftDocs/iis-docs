@@ -82,4 +82,3 @@ The [ColumnChanges](columnchanges-enumeration-microsoft-web-management-databasem
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

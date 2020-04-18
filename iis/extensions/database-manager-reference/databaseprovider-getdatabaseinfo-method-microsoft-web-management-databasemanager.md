@@ -121,4 +121,3 @@ The following code sample illustrates an example GetDatabaseInfo method that ret
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

@@ -73,7 +73,6 @@ public enum ChunkResultState
 ||Failed|[BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) failed.|
 ||TimedOut|[BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) timed out.|
 
-
 ## Examples
 
 The following example shows the call to the [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) method and return of a [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) object that contains the ChunkResult.ChunkResultState that indicates success or failure. For more information on this asynchronous scenario, see [Timeline Markers and Events](timeline-markers-and-events.md).
@@ -110,4 +109,3 @@ Supported in: 5
 ### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

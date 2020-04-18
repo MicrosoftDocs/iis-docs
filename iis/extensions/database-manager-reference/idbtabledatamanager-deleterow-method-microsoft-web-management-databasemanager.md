@@ -122,19 +122,15 @@ public void DeleteRow(string connectionString, string tableName, string schema, 
 
 }
 
-
 > [!NOTE]  
 > See the [DELETE (Transact-SQL)](https://msdn.microsoft.com/library/ms189835.aspx) topic for more information about the DELETE SQL statement.
-
 
 ## Examples
 
 The following code sample implements the DeleteRow method to remove a row from an OLEDB data source.
 
-
 > [!NOTE]  
 > This example also provides helper methods that perform additional database tasks.
-
 
 ```vb
 
@@ -462,4 +458,3 @@ public void DeleteRow(string connectionString, string tableName, string schema, 
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
-

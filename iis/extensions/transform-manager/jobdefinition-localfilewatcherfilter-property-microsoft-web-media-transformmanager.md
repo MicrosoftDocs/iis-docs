@@ -94,4 +94,3 @@ Filters can be for simple file types or for SMIL 2.0-compliant manifests. If the
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

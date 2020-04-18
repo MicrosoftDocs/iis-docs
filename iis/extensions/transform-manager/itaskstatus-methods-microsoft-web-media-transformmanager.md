@@ -18,7 +18,6 @@ The [ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateStatus](itaskstatus-updatestatus-method-microsoft-web-media-transformmanager.md)|Updates the status of an ongoing task.|
 
-
 ## See Also
 
 ### Reference
@@ -26,4 +25,3 @@ The [ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 [ITaskStatus Interface](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
-

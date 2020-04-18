@@ -181,12 +181,10 @@ To extend a website using HTML Administration pages on Windows, use the followin
 
 You can extend a website by using the command-line tools, owsadm or owsrmadm. These tools are located in the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\50\bin` folder. To extend a website, use the install operation, which takes the following parameters.
 
-
 | Parameter | Short Form | Description |
 | --- | --- | --- |
 | Port | -p | The port number. If missing, this parameter defaults to port 80. This value can be a site instance number, such as LM/W3SVC/1. To determine the site instance number to use, see the note below. |
 | Username | -u | If your server is part of a domain, the domain name and your user name. For example, MyDomain\MyUserName. |
-
 
 > [!NOTE]
 > To determine which site instance number to use, open the IIS manager and select the "Sites" node in the tree. The ID column in the site list contains the unique identifier for each site, which you would use in the site instance number. For example, if a site has an ID of 3, the site instance number would be LM/W3SVC/3.
@@ -194,7 +192,6 @@ You can extend a website by using the command-line tools, owsadm or owsrmadm. Th
 The following example shows the syntax for the install operation on Windows:
 
 [!code-console[Main](installing-the-frontpage-server-extensions-on-iis/samples/sample2.cmd)]
-
 
 > [!NOTE]
 > For a complete list of the parameters required for the install operation and their descriptions, see [Command-line Operations](https://www.microsoft.com/technet/prodtechnol/sppt/sharepnt/proddocs/admindoc/owsl01.mspx).

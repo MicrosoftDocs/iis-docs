@@ -19,7 +19,6 @@ The [ProtectionHeader](protectionheader-class-microsoft-web-media-smoothstreamin
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ProtectionData](protectionheader-protectiondata-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the protection data relevant to the [SystemID](protectionheader-systemid-property-microsoft-web-media-smoothstreaming_1.md) Property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[SystemID](protectionheader-systemid-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the GUID that identifies the protection system.|
 
-
 ## See Also
 
 ### Reference
@@ -27,4 +26,3 @@ The [ProtectionHeader](protectionheader-class-microsoft-web-media-smoothstreamin
 [ProtectionHeader Class](protectionheader-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
-

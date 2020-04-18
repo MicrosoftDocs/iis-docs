@@ -25,10 +25,8 @@ The following table represents the interfaces used to develop custom playlist pr
 |[IPlaylistEntryInfoCollection Interface](https://msdn.microsoft.com/library/dd146264)|Allows a custom provider to traverse a list of playlist entries in the form of IPlaylistEntryInfo Interface info objects.|
 |[IPlaylistFileInfo Interface](https://msdn.microsoft.com/library/dd146277)|Provides access to properties of file-based playlists.|
 
-
 ## See Also
 
 ### Concepts
 
 [IIS Web Playlists](iis-web-playlists.md)
-
