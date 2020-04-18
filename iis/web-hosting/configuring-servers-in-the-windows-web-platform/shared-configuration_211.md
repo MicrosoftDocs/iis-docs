@@ -44,8 +44,11 @@ In IIS 7.0 and above, the shared configuration feature enables administrators to
     > If the machine is not joined to the domain, the account will need to be created on the Web server(s) and the file server.
 2. Create a share for storing the configuration files and set permissions. This can be done using the following commands:  
   
-		md %SystemDrive%\centralconfig  
-		net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
+    ```
+    md %SystemDrive%\centralconfig
+    net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
+    ```
+
 3. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.
 4. Click the server name node.
 5. Double-click the **Shared Configuration** icon.
