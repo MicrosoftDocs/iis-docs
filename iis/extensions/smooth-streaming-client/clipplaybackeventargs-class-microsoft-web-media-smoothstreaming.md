@@ -31,12 +31,12 @@ Class that contains event data for a media clip event.
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3)  
-    [Microsoft.Web.Media.SmoothStreaming.ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md)  
-      Microsoft.Web.Media.SmoothStreaming..::..ClipPlaybackEventArgs  
+  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3)  
+    [Microsoft.Web.Media.SmoothStreaming.ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md)  
+      Microsoft.Web.Media.SmoothStreaming..::..ClipPlaybackEventArgs  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

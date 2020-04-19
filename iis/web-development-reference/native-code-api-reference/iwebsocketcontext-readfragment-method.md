@@ -10,14 +10,14 @@ Reads a data fragment from an asynchronous connection.
   
 ```cpp  
 virtual HRESULT ReadFragment(  
-   _Out_ VOID* pData,  
-   _Inout_ DWORD* pcbData,  
-   _In_ BOOL fAsync,  
-   _Out_ BOOL* pfUTF8Encoded,  
-   _Out_ BOOL* pfFinalFragment,  
-   _Out_ BOOL* pfConnectionClose,  
-   _In_ PFN_WEBSOCKET_COMPLETION pfnCompletion = NULL,   _In_ VOID* pvCompletionContext = NULL,  
-   _Out_ BOOL* pfCompletionExpected = NULL  
+   _Out_ VOID* pData,  
+   _Inout_ DWORD* pcbData,  
+   _In_ BOOL fAsync,  
+   _Out_ BOOL* pfUTF8Encoded,  
+   _Out_ BOOL* pfFinalFragment,  
+   _Out_ BOOL* pfConnectionClose,  
+   _In_ PFN_WEBSOCKET_COMPLETION pfnCompletion = NULL,   _In_ VOID* pvCompletionContext = NULL,  
+   _Out_ BOOL* pfCompletionExpected = NULL  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Removes a configuration location from the collection.
   
 ```cpp  
 HRESULT DeleteLocation(  
-   [in] VARIANT cIndex  
+   [in] VARIANT cIndex  
 );  
 ```  
   

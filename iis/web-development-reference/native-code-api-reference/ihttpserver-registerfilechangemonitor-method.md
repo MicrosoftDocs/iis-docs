@@ -10,9 +10,9 @@ Registers file-change notification for a particular directory.
   
 ```cpp  
 virtual HRESULT RegisterFileChangeMonitor(  
-   PCWSTR pszPath,  
-   HANDLE hToken,  
-   IHttpFileMonitor** ppFileMonitor  
+   PCWSTR pszPath,  
+   HANDLE hToken,  
+   IHttpFileMonitor** ppFileMonitor  
 ) = 0;  
 ```  
   

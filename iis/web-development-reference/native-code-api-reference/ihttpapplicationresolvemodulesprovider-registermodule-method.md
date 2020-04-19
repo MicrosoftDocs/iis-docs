@@ -10,13 +10,13 @@ Registers an HTTP module.
   
 ```cpp  
 virtual HRESULT RegisterModule(  
-   IN HTTP_MODULE_ID parentModuleId,  
-   IN IHttpModuleFactory* pModuleFactory,  
-   IN PCWSTR pszModuleName,  
-   IN PCWSTR pszModuleType,  
-   IN PCWSTR pszModulePreCondition,  
-   IN DWORD dwRequestNotifications,  
-   IN DWORD dwPostRequestNotifications  
+   IN HTTP_MODULE_ID parentModuleId,  
+   IN IHttpModuleFactory* pModuleFactory,  
+   IN PCWSTR pszModuleName,  
+   IN PCWSTR pszModuleType,  
+   IN PCWSTR pszModulePreCondition,  
+   IN DWORD dwRequestNotifications,  
+   IN DWORD dwPostRequestNotifications  
 ) = 0;  
 ```  
   

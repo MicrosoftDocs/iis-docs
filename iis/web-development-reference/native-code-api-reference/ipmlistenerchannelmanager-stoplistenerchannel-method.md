@@ -10,9 +10,9 @@ Enables the worker process framework to request that a protocol manager stop a l
   
 ```cpp  
 virtual HRESULT StopListenerChannel(  
-   IN PCWSTR protocolId,  
-   IN IWpfListenerChannelCallback* pListenerChannelCallback,  
-   IN BOOL fImmediate  
+   IN PCWSTR protocolId,  
+   IN IWpfListenerChannelCallback* pListenerChannelCallback,  
+   IN BOOL fImmediate  
 ) = 0;  
 ```  
   

@@ -10,9 +10,9 @@ Reports an application preload failure given the path to the configuration file,
   
 ```cpp  
 virtual HRESULT ReportApplicationPreloadFailure(  
-   IN PCWSTR pszConfigPath,  
-   IN HRESULT hrFailureCode,  
-   IN PCWSTR pszErrorString  
+   IN PCWSTR pszConfigPath,  
+   IN HRESULT hrFailureCode,  
+   IN PCWSTR pszErrorString  
 ) = 0;  
 ```  
   

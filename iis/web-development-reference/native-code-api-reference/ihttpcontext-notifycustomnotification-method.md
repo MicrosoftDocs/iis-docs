@@ -10,8 +10,8 @@ Raises a custom request-level notification.
   
 ```cpp  
 virtual HRESULT NotifyCustomNotification(  
-   ICustomNotificationProvider* pCustomOutput,  
-   BOOL* pfCompletionExpected  
+   ICustomNotificationProvider* pCustomOutput,  
+   BOOL* pfCompletionExpected  
 ) = 0;  
 ```  
   

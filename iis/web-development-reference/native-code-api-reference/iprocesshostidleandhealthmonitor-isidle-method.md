@@ -10,7 +10,7 @@ Checks whether the process host is idle.
   
 ```cpp  
 virtual HRESULT __stdcall IsIdle(  
-   BOOL* pfIdle  
+   BOOL* pfIdle  
 ) = 0;  
 ```  
   

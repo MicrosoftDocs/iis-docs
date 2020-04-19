@@ -10,7 +10,7 @@ Returns the status of an asynchronous operation.
   
 ```cpp  
 virtual HRESULT GetCompletionStatus(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

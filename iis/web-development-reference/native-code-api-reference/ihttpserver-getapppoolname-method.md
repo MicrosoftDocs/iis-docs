@@ -10,7 +10,7 @@ Retrieves the name of the application pool for the current request.
   
 ```cpp  
 virtual PCWSTR GetAppPoolName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

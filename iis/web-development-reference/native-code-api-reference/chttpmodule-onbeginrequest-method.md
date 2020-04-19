@@ -10,8 +10,8 @@ Represents the method that will handle a `BeginRequest` event, which occurs as t
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(  
-   IN IHttpContext* pHttpContext,  
-   IN IHttpEventProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IHttpEventProvider* pProvider  
 );  
 ```  
   

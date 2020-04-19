@@ -32,12 +32,12 @@ Schedules IIS Transform Manager jobs.
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  Microsoft.Web.Media.TransformManager..::..Scheduler  
-    [Microsoft.Web.Media.TransformManager.HpcScheduler](hpcscheduler-class-microsoft-web-media-transformmanager.md)  
-    [Microsoft.Web.Media.TransformManager.LocalScheduler](localscheduler-class-microsoft-web-media-transformmanager.md)  
+  Microsoft.Web.Media.TransformManager..::..Scheduler  
+    [Microsoft.Web.Media.TransformManager.HpcScheduler](hpcscheduler-class-microsoft-web-media-transformmanager.md)  
+    [Microsoft.Web.Media.TransformManager.LocalScheduler](localscheduler-class-microsoft-web-media-transformmanager.md)  
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

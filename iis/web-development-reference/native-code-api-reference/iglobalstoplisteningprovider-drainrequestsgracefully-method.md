@@ -10,7 +10,7 @@ Indicates whether IIS will gracefully close any currently pending requests.
   
 ```cpp  
 virtual BOOL DrainRequestsGracefully(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Gets the name of the current element.
   
 ```cpp  
 HRESULT Name(  
-   [out,  
-   retval] BSTR* pbstrName  
+   [out,  
+   retval] BSTR* pbstrName  
 );  
 ```  
   

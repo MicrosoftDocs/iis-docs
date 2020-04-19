@@ -10,7 +10,7 @@ Returns the name of the dynamic function call that caused the event.
   
 ```cpp  
 virtual PCWSTR GetFunctionName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Removes the requested element from the collection.
   
 ```cpp  
 HRESULT DeleteElement(  
-   [in] VARIANT cIndex  
+   [in] VARIANT cIndex  
 );  
 ```  
   

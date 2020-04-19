@@ -10,8 +10,8 @@ Gets the schema used for child elements that are contained in the corresponding 
   
 ```cpp  
 [propget] HRESULT ChildElementSchemas(  
-   [out,  
-   retval] IAppHostElementSchemaCollection * ppChildSchemas  
+   [out,  
+   retval] IAppHostElementSchemaCollection * ppChildSchemas  
 );  
 ```  
   

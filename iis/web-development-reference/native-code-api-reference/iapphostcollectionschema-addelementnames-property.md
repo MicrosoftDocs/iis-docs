@@ -10,9 +10,9 @@ Gets a comma-delimited list of `add` element names that are valid for the collec
   
 ```cpp  
 HRESULT get_AddElementNames(  
-   [out,  
-   string,  
-   retval] BSTR* pbstrElementName  
+   [out,  
+   string,  
+   retval] BSTR* pbstrElementName  
 );  
 ```  
   

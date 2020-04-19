@@ -10,8 +10,8 @@ Gets a value that indicates whether the property should be encrypted when it is 
   
 ```cpp  
 [propget] HRESULT IsEncrypted(  
-   [out,  
-   retval] VARIANT_BOOL * pfIsEncrypted  
+   [out,  
+   retval] VARIANT_BOOL * pfIsEncrypted  
 );  
 ```  
   

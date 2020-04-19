@@ -10,8 +10,8 @@ Gets the number of configuration elements in the collection.
   
 ```cpp  
 HRESULT Count(  
-   [out,  
-   retval] DWORD* pcCount  
+   [out,  
+   retval] DWORD* pcCount  
 );  
 ```  
   

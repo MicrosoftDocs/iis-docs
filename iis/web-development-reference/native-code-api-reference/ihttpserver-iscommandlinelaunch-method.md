@@ -10,7 +10,7 @@ Tests whether the worker process was launched from the command line.
   
 ```cpp  
 virtual BOOL IsCommandLineLaunch(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

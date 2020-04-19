@@ -10,7 +10,7 @@ Indicates whether more notifications are pending for this request within the cur
   
 ```cpp  
 virtual BOOL GetIsLastNotification(  
-   IN REQUEST_NOTIFICATION_STATUS status  
+   IN REQUEST_NOTIFICATION_STATUS status  
 ) = 0;  
 ```  
   

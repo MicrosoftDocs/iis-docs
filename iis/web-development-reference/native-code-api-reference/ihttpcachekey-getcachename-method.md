@@ -10,7 +10,7 @@ Returns the unique name of the cache where a [GL_CACHE_OPERATION](../../web-deve
   
 ```cpp  
 virtual PCWSTR GetCacheName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

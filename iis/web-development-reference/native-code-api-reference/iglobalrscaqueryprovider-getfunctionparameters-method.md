@@ -10,7 +10,7 @@ Returns the parameters of the dynamic function call that caused the event.
   
 ```cpp  
 virtual PCWSTR GetFunctionParameters(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

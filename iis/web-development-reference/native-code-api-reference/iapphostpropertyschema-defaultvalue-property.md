@@ -10,8 +10,8 @@ Gets the value that the [IAppHostProperty::Value](../../web-development-referenc
   
 ```cpp  
 HRESULT get_DefaultValue(  
-   [out,  
-   retval] VARIANT* pDefaultValue  
+   [out,  
+   retval] VARIANT* pDefaultValue  
 );  
 ```  
   

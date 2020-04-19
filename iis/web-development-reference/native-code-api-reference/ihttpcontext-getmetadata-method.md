@@ -10,7 +10,7 @@ Retrieves the metadata container for the current request context.
   
 ```cpp  
 virtual IMetadataInfo* GetMetadata(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

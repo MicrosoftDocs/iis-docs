@@ -10,7 +10,7 @@ Returns a Boolean value that indicates whether the URL is requested frequently.
   
 ```cpp  
 virtual BOOL IsFrequentlyHit(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

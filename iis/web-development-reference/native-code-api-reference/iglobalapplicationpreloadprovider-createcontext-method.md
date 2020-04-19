@@ -10,7 +10,7 @@ Creates an HTTP context and returns a pointer to the context object.
   
 ```cpp  
 Virtual HRESULT CreateContext(  
-   _Outptr_ IHttpContext ** ppHttpContext  
+   _Outptr_ IHttpContext ** ppHttpContext  
 ) = 0;  
 ```  
   

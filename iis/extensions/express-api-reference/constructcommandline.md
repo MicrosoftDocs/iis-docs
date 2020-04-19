@@ -9,14 +9,14 @@ Returns the command line that starts an IIS Express instance using the specified
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    ConstructCommandLine(   
-        [in] BSTR bstrSite,  
-        [in] BSTR bstrApplication,  
-        [in] BSTR bstrApplicationPool,   
-        [in] BSTR bstrConfigPath,   
-        [out, retval] BSTR * pbstrCommandLine  
-    );  
+    HRESULT  
+    ConstructCommandLine(   
+        [in] BSTR bstrSite,  
+        [in] BSTR bstrApplication,  
+        [in] BSTR bstrApplicationPool,   
+        [in] BSTR bstrConfigPath,   
+        [out, retval] BSTR * pbstrCommandLine  
+    );  
   
 ```  
   

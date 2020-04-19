@@ -32,11 +32,11 @@ The object describing the request being made.
 ## Inheritance Hierarchy
 
  [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
-  Microsoft.Web.Media.SmoothStreaming.CacheRequest  
-    [Microsoft.Web.Media.SmoothStreaming.CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md)  
+  Microsoft.Web.Media.SmoothStreaming.CacheRequest  
+    [Microsoft.Web.Media.SmoothStreaming.CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md)  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

@@ -10,8 +10,8 @@ Represents the method that will handle a `SendResponse` event, which occurs when
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(  
-   IN IHttpContext* pHttpContext,  
-   IN ISendResponseProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN ISendResponseProvider* pProvider  
 );  
 ```  
   

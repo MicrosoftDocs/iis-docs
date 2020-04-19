@@ -10,8 +10,8 @@ Notifies the listener adapter that the application is no longer active for a pro
   
 ```cpp  
 typedef VOID(  
-   * PFN_WEBHOST_LISTENER_APPLICATION_DELETED)(IN VOID* pContext,  
-   IN LPCWSTR AppKey  
+   * PFN_WEBHOST_LISTENER_APPLICATION_DELETED)(IN VOID* pContext,  
+   IN LPCWSTR AppKey  
 );  
 ```  
   

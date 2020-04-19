@@ -10,7 +10,7 @@ Returns the absolute physical path of a file.
   
 ```cpp  
 virtual PCWSTR GetPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

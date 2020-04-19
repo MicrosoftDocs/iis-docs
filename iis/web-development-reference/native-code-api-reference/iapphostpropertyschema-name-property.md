@@ -10,9 +10,9 @@ Gets the name of the current schema.
   
 ```cpp  
 HRESULT get_Name(  
-   [out,  
-   string,  
-   retval] BSTR* pbstrName  
+   [out,  
+   string,  
+   retval] BSTR* pbstrName  
 );  
 ```  
   

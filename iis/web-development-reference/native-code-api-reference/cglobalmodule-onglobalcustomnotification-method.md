@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalCustomNotification` event, which
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCustomNotification(  
-   IN ICustomNotificationProvider* pProvider  
+   IN ICustomNotificationProvider* pProvider  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the flags for the current HTTP response.
   
 ```cpp  
 virtual DWORD GetFlags(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

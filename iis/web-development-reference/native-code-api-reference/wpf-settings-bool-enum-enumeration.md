@@ -10,8 +10,8 @@ Defines the `BOOL` values that the [IWpfSettings::GetBoolProperty](../../web-dev
   
 ```cpp  
 enum WPF_SETTINGS_BOOL_ENUM {  
-   ENABLED_CENTRAL_BINARY_LOGGING,  
-   ENABLED_HOSTABLE_WEB_CORE  
+   ENABLED_CENTRAL_BINARY_LOGGING,  
+   ENABLED_HOSTABLE_WEB_CORE  
 };  
 ```  
   

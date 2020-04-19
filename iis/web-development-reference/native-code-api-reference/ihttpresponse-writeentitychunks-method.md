@@ -10,12 +10,12 @@ Appends one or more [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56
   
 ```cpp  
 virtual HRESULT WriteEntityChunks(  
-   IN HTTP_DATA_CHUNK* pDataChunks,  
-   IN DWORD nChunks,  
-   IN BOOL fAsync,  
-   IN BOOL fMoreData,  
-   OUT DWORD* pcbSent,  
-   OUT BOOL* pfCompletionExpected = NULL  
+   IN HTTP_DATA_CHUNK* pDataChunks,  
+   IN DWORD nChunks,  
+   IN BOOL fAsync,  
+   IN BOOL fMoreData,  
+   OUT DWORD* pcbSent,  
+   OUT BOOL* pfCompletionExpected = NULL  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Returns the context container for the URL-specific information.
   
 ```cpp  
 virtual IHttpModuleContextContainer* GetModuleContextContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

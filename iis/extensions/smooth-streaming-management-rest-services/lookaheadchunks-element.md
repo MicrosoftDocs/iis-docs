@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the number of lookahead fragments that the server buffers so that requests for the subsequent buffered fragments in a stream can be optimized.
 
     <LookAheadChunks>
-      "look-ahead-chunks"
+      "look-ahead-chunks"
     </LookAheadChunks>
 
 ## Child Elements

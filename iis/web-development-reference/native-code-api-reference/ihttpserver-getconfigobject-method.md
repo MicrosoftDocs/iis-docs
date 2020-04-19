@@ -10,7 +10,7 @@ Retrieves the configuration object for the current context.
   
 ```cpp  
 virtual INativeConfigurationSystem* GetConfigObject(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

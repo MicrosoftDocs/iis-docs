@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalApplicationResolveModules` event
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationResolveModules(  
-   IN IHttpApplicationResolveModulesProvider* pProvider  
+   IN IHttpApplicationResolveModulesProvider* pProvider  
 );  
 ```  
   

@@ -10,9 +10,9 @@ Adds a configuration section to the current configuration location.
   
 ```cpp  
 HRESULT AddConfigSection(  
-   [in] BSTR bstrSectionName,  
-   [out,  
-   retval] IAppHostElement** ppAdminElement  
+   [in] BSTR bstrSectionName,  
+   [out,  
+   retval] IAppHostElement** ppAdminElement  
 );  
 ```  
   

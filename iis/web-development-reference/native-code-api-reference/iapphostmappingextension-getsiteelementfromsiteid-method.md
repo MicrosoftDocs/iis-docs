@@ -10,9 +10,9 @@ Gets a configuration element that represents a site by using the unique identifi
   
 ```cpp  
 HRESULT GetSiteElementFromSiteId(  
-   [in] DWORD dwSiteId,  
-   [out,  
-   retval] IAppHostElement** ppSiteElement  
+   [in] DWORD dwSiteId,  
+   [out,  
+   retval] IAppHostElement** ppSiteElement  
 );  
 ```  
   

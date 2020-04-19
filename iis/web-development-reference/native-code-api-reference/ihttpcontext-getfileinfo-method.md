@@ -10,7 +10,7 @@ Retrieves the file information container for the current context.
   
 ```cpp  
 virtual IHttpFileInfo* GetFileInfo(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the trace context container for the current context.
   
 ```cpp  
 virtual IHttpTraceContext* GetTraceContext(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

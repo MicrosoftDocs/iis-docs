@@ -10,8 +10,8 @@ Adds an [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structu
   
 ```cpp  
 virtual HRESULT AddFragmentToCache(  
-   HTTP_DATA_CHUNK* pDataChunk,  
-   __in WCHAR* pszFragmentName  
+   HTTP_DATA_CHUNK* pDataChunk,  
+   __in WCHAR* pszFragmentName  
 ) = 0;  
 ```  
   

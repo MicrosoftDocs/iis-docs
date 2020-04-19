@@ -10,7 +10,7 @@ Resets the Time-to-Live (TTL) setting of the cached data.
   
 ```cpp  
 virtual VOID ResetTTL(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,14 +10,14 @@ Compresses data given the compression context, input buffer, output buffer, and 
   
 ```cpp  
 HRESULT WINAPI Compress(  
-   IN OUT PVOID context,  
-   IN CONST BYTE* input_buffer,  
-   IN LONG input_buffer_size,  
-   IN PBYTE output_buffer,  
-   IN LONG output_buffer_size,  
-   OUT PLONG input_used,  
-   OUT PLONG output_used,  
-   IN INT compression_level  
+   IN OUT PVOID context,  
+   IN CONST BYTE* input_buffer,  
+   IN LONG input_buffer_size,  
+   IN PBYTE output_buffer,  
+   IN LONG output_buffer_size,  
+   OUT PLONG input_used,  
+   OUT PLONG output_used,  
+   IN INT compression_level  
 );  
 ```  
   

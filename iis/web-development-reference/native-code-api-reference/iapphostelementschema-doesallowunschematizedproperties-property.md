@@ -10,8 +10,8 @@ Determines whether properties that are not defined in the schema can be added to
   
 ```cpp  
 HRESULT get_DoesAllowUnschematizedProperties(  
-   [out,  
-   retval] VARIANT_BOOL* pfAllowUnschematized  
+   [out,  
+   retval] VARIANT_BOOL* pfAllowUnschematized  
 );  
 ```  
   

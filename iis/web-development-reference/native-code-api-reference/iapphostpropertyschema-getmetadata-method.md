@@ -10,10 +10,10 @@ Gets metadata values from the schema.
   
 ```cpp  
 HRESULT GetMetadata(  
-   [in,  
-   string] BSTR bstrMetadataType,  
-   [out,  
-   retval] VARIANT* pValue  
+   [in,  
+   string] BSTR bstrMetadataType,  
+   [out,  
+   retval] VARIANT* pValue  
 );  
 ```  
   

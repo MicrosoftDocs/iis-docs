@@ -10,7 +10,7 @@ Retrieves the HTTP context for trace events that are request specific.
   
 ```cpp  
 virtual HRESULT GetCurrentHttpRequestContext(  
-   IHttpContext** ppHttpContext  
+   IHttpContext** ppHttpContext  
 ) = 0;  
 ```  
   

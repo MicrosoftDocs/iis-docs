@@ -10,15 +10,15 @@ Retrieves the changes to the server headers for the current request.
   
 ```cpp  
 virtual HRESULT GetHeaderChanges(  
-   IN DWORD dwOldChangeNumber,  
-   OUT DWORD* pdwNewChangeNumber,  
-   IN OUT PCSTR knownHeaderSnapshot [HttpHeaderRequestMaximum],  
-   IN OUT DWORD* pdwUnknownHeaderSnapShot,  
-   IN OUT PCSTR** ppUnknownHeaderNameSnapShot,  
-   IN OUT PCSTR** ppUnknownHeaderValueSnapShot,  
-   __out_ecount(HttpHeaderRequestMaximum+1) DWORD diffedKnownHeaderIndices [HttpHeaderRequestMaximum+1],  
-   OUT DWORD* pdwDiffedUnknownHeaders,  
-   OUT DWORD** ppDiffedUnknownHeaderIndices  
+   IN DWORD dwOldChangeNumber,  
+   OUT DWORD* pdwNewChangeNumber,  
+   IN OUT PCSTR knownHeaderSnapshot [HttpHeaderRequestMaximum],  
+   IN OUT DWORD* pdwUnknownHeaderSnapShot,  
+   IN OUT PCSTR** ppUnknownHeaderNameSnapShot,  
+   IN OUT PCSTR** ppUnknownHeaderValueSnapShot,  
+   __out_ecount(HttpHeaderRequestMaximum+1) DWORD diffedKnownHeaderIndices [HttpHeaderRequestMaximum+1],  
+   OUT DWORD* pdwDiffedUnknownHeaders,  
+   OUT DWORD** ppDiffedUnknownHeaderIndices  
 ) = 0;  
 ```  
   

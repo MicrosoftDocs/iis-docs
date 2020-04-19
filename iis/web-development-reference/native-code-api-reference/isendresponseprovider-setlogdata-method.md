@@ -10,7 +10,7 @@ Configures logging information for the current response.
   
 ```cpp  
 virtual HRESULT SetLogData(  
-   IN VOID* pLogData  
+   IN VOID* pLogData  
 ) = 0;  
 ```  
   

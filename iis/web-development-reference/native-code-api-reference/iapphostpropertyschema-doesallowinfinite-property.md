@@ -10,8 +10,8 @@ Gets a value that indicates whether the property supports having an infinite val
   
 ```cpp  
 [propget] HRESULT DoesAllowInifinite(  
-   [out,  
-   retval] VARIANT_BOOL * pfAllowInfinite  
+   [out,  
+   retval] VARIANT_BOOL * pfAllowInfinite  
 );  
 ```  
   

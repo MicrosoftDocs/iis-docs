@@ -10,7 +10,7 @@ Retrieves an [IAppDomainInfo](../../web-development-reference/native-code-api-re
   
 ```cpp  
 virtual HRESULT __stdcall GetData(  
-   IAppDomainInfo** ppAppDomainInfo  
+   IAppDomainInfo** ppAppDomainInfo  
 ) = 0;  
 ```  
   

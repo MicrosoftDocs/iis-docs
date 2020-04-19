@@ -10,7 +10,7 @@ Sets the variable value for the cache policy.
   
 ```cpp  
 virtual HRESULT SetVaryByValue(  
-   PCSTR pszValue  
+   PCSTR pszValue  
 ) = 0;  
 ```  
   

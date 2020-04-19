@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalConfigurationChange` event, whic
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalConfigurationChange(  
-   IN IGlobalConfigurationChangeProvider* pProvider  
+   IN IGlobalConfigurationChangeProvider* pProvider  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves an [IWpfSettings](../../web-development-reference/native-code-api-refe
   
 ```cpp  
 virtual HRESULT GetWorkerProcessSettings(  
-   IWpfSettings** ppWorkerProcessSettings  
+   IWpfSettings** ppWorkerProcessSettings  
 ) = 0;  
 ```  
   

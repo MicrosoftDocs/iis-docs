@@ -11,8 +11,8 @@ Notifies the listener adapter that the application pool for a particular applica
 ```cpp  
 typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppKey,  
-   IN LPCWSTR AppPoolId  
+   IN LPCWSTR AppKey,  
+   IN LPCWSTR AppPoolId  
 );  
 ```  
   

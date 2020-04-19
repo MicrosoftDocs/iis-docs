@@ -10,7 +10,7 @@ Returns the number of remaining bytes to be read from the client.
   
 ```cpp  
 virtual DWORD GetRemainingEntityBytes(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

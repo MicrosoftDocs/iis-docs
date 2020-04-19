@@ -10,9 +10,9 @@ Defines the return values for request-level notifications.
   
 ```cpp  
 typedef enum REQUEST_NOTIFICATION_STATUS{  
-   RQ_NOTIFICATION_CONTINUE,  
-   RQ_NOTIFICATION_PENDING,  
-   RQ_NOTIFICATION_FINISH_REQUEST  
+   RQ_NOTIFICATION_CONTINUE,  
+   RQ_NOTIFICATION_PENDING,  
+   RQ_NOTIFICATION_FINISH_REQUEST  
 };  
 ```  
   

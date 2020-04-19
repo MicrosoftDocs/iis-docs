@@ -10,10 +10,10 @@ Retrieves the virtual path and site ID for an application.
   
 ```cpp  
 virtual HRESULT GetApplicationPropertiesFromAppId(  
-   IN PCWSTR pszAppId,  
-   __out_ecount_opt(*pcchVirtualPath) PWSTR pszVirtualPath,  
-   OUT DWORD* pcchVirtualPath,  
-   OUT DWORD* pdwSiteId  
+   IN PCWSTR pszAppId,  
+   __out_ecount_opt(*pcchVirtualPath) PWSTR pszVirtualPath,  
+   OUT DWORD* pcchVirtualPath,  
+   OUT DWORD* pdwSiteId  
 ) = 0;  
 ```  
   

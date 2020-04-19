@@ -10,7 +10,7 @@ Retrieves the root virtual path of the application domain.
   
 ```cpp  
 virtual HRESULT __stdcall GetVirtualPath(  
-   BSTR* pbstrVirtualPath  
+   BSTR* pbstrVirtualPath  
 ) = 0;  
 ```  
   

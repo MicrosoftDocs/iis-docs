@@ -9,11 +9,11 @@ Queries the specified property of the IIS version.
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    GetPropertyValue(  
-        [in, string]  BSTR bstrName,  
-        [out, retval] VARIANT * pvarValue  
-    );  
+    HRESULT  
+    GetPropertyValue(  
+        [in, string]  BSTR bstrName,  
+        [out, retval] VARIANT * pvarValue  
+    );  
   
 ```  
   

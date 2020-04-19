@@ -10,9 +10,9 @@ Gets the file system path of the configuration file that this [IAppHostConfigFil
   
 ```cpp  
 HRESULT get_FilePath(  
-   [out,  
-   string,  
-   retval] BSTR* pbstrFilePath  
+   [out,  
+   string,  
+   retval] BSTR* pbstrFilePath  
 );  
 ```  
   

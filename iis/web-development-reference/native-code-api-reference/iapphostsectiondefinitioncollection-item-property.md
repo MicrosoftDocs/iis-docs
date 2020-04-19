@@ -10,9 +10,9 @@ Gets the configuration section definition at the requested index from the curren
   
 ```cpp  
 HRESULT get_Item(  
-   [in] VARIANT varIndex,  
-   [out,  
-   retval] IAppHostSectionDefinition** ppConfigSection  
+   [in] VARIANT varIndex,  
+   [out,  
+   retval] IAppHostSectionDefinition** ppConfigSection  
 );  
 ```  
   

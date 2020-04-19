@@ -10,9 +10,9 @@ Adds an element to the current collection.
   
 ```cpp  
 HRESULT AddElement(  
-   [in] IAppHostElement* pElement,  
-   [in,  
-   defaultvalue(-1  
+   [in] IAppHostElement* pElement,  
+   [in,  
+   defaultvalue(-1  
 )] INT cPosition);  
 ```  
   

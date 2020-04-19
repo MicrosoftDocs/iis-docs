@@ -10,7 +10,7 @@ Retrieves an [IHttpTraceContext](../../web-development-reference/native-code-api
   
 ```cpp  
 virtual IHttpTraceContext* GetTraceContext(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

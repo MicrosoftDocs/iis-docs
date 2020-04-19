@@ -10,9 +10,9 @@ Redirects the client to a specified URL.
   
 ```cpp  
 virtual HRESULT Redirect(  
-   IN PCSTR pszUrl,  
-   IN BOOL fResetStatusCode = TRUE,  
-   IN BOOL fIncludeParameters = FALSE  
+   IN PCSTR pszUrl,  
+   IN BOOL fResetStatusCode = TRUE,  
+   IN BOOL fIncludeParameters = FALSE  
 ) = 0;  
 ```  
   

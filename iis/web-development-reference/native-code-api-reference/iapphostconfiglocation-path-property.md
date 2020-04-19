@@ -10,9 +10,9 @@ Gets the path of the current configuration location.
   
 ```cpp  
 HRESULT get_Path(  
-   [out,  
-   string,  
-   retval] BSTR* pbstrLocationPath  
+   [out,  
+   string,  
+   retval] BSTR* pbstrLocationPath  
 );  
 ```  
   

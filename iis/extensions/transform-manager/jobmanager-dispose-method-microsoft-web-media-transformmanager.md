@@ -21,7 +21,7 @@ Releases all resources that are used by the current instance of the [JobManager]
 
 This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
 
-## Overload List
+## Overload List
 
 ||Name|Description|
 |--- |--- |--- |

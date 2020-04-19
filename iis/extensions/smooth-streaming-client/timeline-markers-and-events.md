@@ -64,7 +64,7 @@ The ParentStreamIndex="video" attribute indicates that the timing of this Stream
 
 The c elements are chunks of data that designate each packet using number (n) and time (t) attributes, such as the following:
 
-\<c n="5" t="3578500002"\>
+\<c n="5" t="3578500002"\>
 
 The data itself is contained in the f element. In the previous example, the f elements are chapter headings that are specified as base64 encoded strings, such as the following:
 

@@ -10,10 +10,10 @@ Contains tracing information for use with trace providers and consumers.
   
 ```cpp  
 struct HTTP_TRACE_CONFIGURATION{  
-   LPCGUID pProviderGuid;  
-   DWORD dwAreas;  
-   DWORD dwVerbosity;  
-   BOOL fProviderEnabled;  
+   LPCGUID pProviderGuid;  
+   DWORD dwAreas;  
+   DWORD dwVerbosity;  
+   BOOL fProviderEnabled;  
 };  
 ```  
   

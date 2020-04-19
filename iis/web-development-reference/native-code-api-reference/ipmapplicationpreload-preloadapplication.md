@@ -10,9 +10,9 @@ Preloads an application into server memory given its site ID and configuration f
   
 ```cpp  
 virtual HRESULT PreloadApplication(  
-   IN DWORD dwSiteId,  
-   IN PCWSTR pszAppConfigPath,  
-   IN BOOL fRecycledWorkerProcess = FALSE  
+   IN DWORD dwSiteId,  
+   IN PCWSTR pszAppConfigPath,  
+   IN BOOL fRecycledWorkerProcess = FALSE  
 ) = 0;  
 ```  
   

@@ -11,13 +11,13 @@ Notifies the listener adapter that an application configured for the listener as
 ```cpp  
 typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_CREATED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppKey,  
-   IN LPCWSTR Path,  
-   IN DWORD SiteId,  
-   IN LPCWSTR AppPoolId,  
-   IN PBYTE Bindings,  
-   IN DWORD NumberOfBindings,  
-   IN BOOL RequestsBlocked  
+   IN LPCWSTR AppKey,  
+   IN LPCWSTR Path,  
+   IN DWORD SiteId,  
+   IN LPCWSTR AppPoolId,  
+   IN PBYTE Bindings,  
+   IN DWORD NumberOfBindings,  
+   IN BOOL RequestsBlocked  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Returns the script map container for the current context.
   
 ```cpp  
 virtual IScriptMapInfo* GetScriptMap(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

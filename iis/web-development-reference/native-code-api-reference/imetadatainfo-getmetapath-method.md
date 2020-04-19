@@ -10,7 +10,7 @@ Retrieves the configuration path for the current context.
   
 ```cpp  
 virtual PCWSTR GetMetaPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

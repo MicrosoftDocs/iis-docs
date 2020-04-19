@@ -10,7 +10,7 @@ Removes a specific fragment from the cache.
   
 ```cpp  
 virtual HRESULT RemoveFragmentFromCache(  
-   __in WCHAR* pszFragmentName  
+   __in WCHAR* pszFragmentName  
 ) = 0;  
 ```  
   

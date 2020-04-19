@@ -10,7 +10,7 @@ Notifies the listener adapter that the Windows Process Activation Service (WAS) 
   
 ```cpp  
 typedef VOID(  
-   * PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED  
+   * PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED  
 )(IN VOID* pContext);  
 ```  
   

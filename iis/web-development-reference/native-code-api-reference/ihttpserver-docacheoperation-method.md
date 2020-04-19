@@ -10,10 +10,10 @@ Performs a specific cache operation.
   
 ```cpp  
 virtual HRESULT DoCacheOperation(  
-   IN CACHE_OPERATION cacheOperation,  
-   IN IHttpCacheKey* pCacheKey,  
-   OUT IHttpCacheSpecificData** ppCacheSpecificData,  
-   IN IHttpTraceContext* pHttpTraceContext = NULL  
+   IN CACHE_OPERATION cacheOperation,  
+   IN IHttpCacheKey* pCacheKey,  
+   OUT IHttpCacheSpecificData** ppCacheSpecificData,  
+   IN IHttpTraceContext* pHttpTraceContext = NULL  
 ) = 0;  
 ```  
   

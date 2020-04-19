@@ -10,10 +10,10 @@ Gets a configuration file that is represented by the requested configuration pat
   
 ```cpp  
 HRESULT GetConfigFile(  
-   [in,  
-   string] BSTR bstrConfigPath,  
-   [out,  
-   retval] IAppHostConfigFile** ppConfigFile  
+   [in,  
+   string] BSTR bstrConfigPath,  
+   [out,  
+   retval] IAppHostConfigFile** ppConfigFile  
 );  
 ```  
   

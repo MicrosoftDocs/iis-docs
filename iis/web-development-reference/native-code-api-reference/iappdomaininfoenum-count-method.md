@@ -10,7 +10,7 @@ Retrieves the number of application domains.
   
 ```cpp  
 virtual HRESULT __stdcall Count(  
-   DWORD* pdwCount  
+   DWORD* pdwCount  
 ) = 0;  
 ```  
   

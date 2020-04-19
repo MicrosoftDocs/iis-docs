@@ -10,8 +10,8 @@ Gets the collection of properties that are defined for the current element.
   
 ```cpp  
 HRESULT get_Properties(  
-   [out,  
-   retval] IAppHostPropertyCollection** ppProperties  
+   [out,  
+   retval] IAppHostPropertyCollection** ppProperties  
 );  
 ```  
   

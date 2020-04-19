@@ -10,7 +10,7 @@ Triggers a notification that a file has changed.
   
 ```cpp  
 virtual VOID NotifyFileChange(  
-   IN PCWSTR pszFileName  
+   IN PCWSTR pszFileName  
 ) = 0;  
 ```  
   

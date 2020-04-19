@@ -10,8 +10,8 @@ Represents the method that will handle a `MapRequestHandler` event, which occurs
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnMapRequestHandler(  
-   IN IHttpContext* pHttpContext,  
-   IN IMapHandlerProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IMapHandlerProvider* pProvider  
 );  
 ```  
   

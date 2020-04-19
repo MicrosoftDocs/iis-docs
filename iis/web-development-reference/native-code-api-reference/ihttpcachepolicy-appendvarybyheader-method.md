@@ -10,7 +10,7 @@ Appends the header value to the cache policy.
   
 ```cpp  
 virtual HRESULT AppendVaryByHeader(  
-   PCSTR pszHeader  
+   PCSTR pszHeader  
 ) = 0;  
 ```  
   

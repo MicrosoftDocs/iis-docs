@@ -10,7 +10,7 @@ Moves to the next [IAppDomainInfo](../../web-development-reference/native-code-a
   
 ```cpp  
 virtual HRESULT __stdcall MoveNext(  
-   DWORD* pfMoreItems  
+   DWORD* pfMoreItems  
 ) = 0;  
 ```  
   

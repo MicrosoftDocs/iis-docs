@@ -10,7 +10,7 @@ Returns the cache policy for the kernel.
   
 ```cpp  
 virtual HTTP_CACHE_POLICY* GetKernelCachePolicy(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

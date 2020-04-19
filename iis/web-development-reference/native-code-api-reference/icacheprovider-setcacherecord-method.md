@@ -10,7 +10,7 @@ Sets the cache-specific data on the cache provider.
   
 ```cpp  
 virtual VOID SetCacheRecord(  
-   IHttpCacheSpecificData* pCacheRecord  
+   IHttpCacheSpecificData* pCacheRecord  
 ) = 0;  
 ```  
   

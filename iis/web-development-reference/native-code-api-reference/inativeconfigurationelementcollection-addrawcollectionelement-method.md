@@ -13,9 +13,9 @@ mtps_version: v=VS.90
 Adds a configuration element to a collection of native configuration elements.
 
     virtual HRESULT STDMETHODCALLTYPE AddRawCollectionElement(
-       INativeConfigurationElement * pConfigElement,
-       ULONG ulPosition,
-       VOID ** ppElementException = NULL
+       INativeConfigurationElement * pConfigElement,
+       ULONG ulPosition,
+       VOID ** ppElementException = NULL
     ) = 0;
 
 ## Parameters

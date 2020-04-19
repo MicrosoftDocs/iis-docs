@@ -9,10 +9,10 @@ Enumerates all IIS product versions that are installed on the computer.
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    GetAllVersionObjects(  
-        [out, retval] SAFEARRAY(VARIANT) * pVersionsArray  
-    );  
+    HRESULT  
+    GetAllVersionObjects(  
+        [out, retval] SAFEARRAY(VARIANT) * pVersionsArray  
+    );  
   
 ```  
   

@@ -10,9 +10,9 @@ Defines the asynchronous completion function prototype.
   
 ```cpp  
 typedef REQUEST_NOTIFICATION_STATUS(WINAPI* PFN_ASYNC_COMPLETION)(  
-   IHttpContext3* pHttpContext,  
-   IHttpCompletionInfo2* pCompletionInfo,  
-   VOID* pvCompletionContext  
+   IHttpContext3* pHttpContext,  
+   IHttpCompletionInfo2* pCompletionInfo,  
+   VOID* pvCompletionContext  
 );  
 ```  
   

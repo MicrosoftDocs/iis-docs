@@ -10,7 +10,7 @@ Retrieves the user information container for the current context.
   
 ```cpp  
 virtual IHttpUser* GetUser(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

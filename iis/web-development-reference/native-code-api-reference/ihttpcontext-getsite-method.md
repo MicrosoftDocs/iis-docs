@@ -10,7 +10,7 @@ Retrieves the site information container for the current context.
   
 ```cpp  
 virtual IHttpSite* GetSite(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

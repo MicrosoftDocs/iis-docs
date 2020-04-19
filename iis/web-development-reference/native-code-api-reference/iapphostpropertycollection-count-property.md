@@ -10,8 +10,8 @@ Gets the number of properties in the collection.
   
 ```cpp  
 HRESULT get_Count(  
-   [out,  
-   retval] DWORD* pcCount  
+   [out,  
+   retval] DWORD* pcCount  
 );  
 ```  
   

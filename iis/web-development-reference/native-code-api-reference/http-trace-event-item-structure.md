@@ -10,11 +10,11 @@ Contains itemized tracing information returned from trace providers.
   
 ```cpp  
 struct HTTP_TRACE_EVENT_ITEM{  
-   LPCWSTR pszName;  
-   HTTP_TRACE_TYPE dwDataType;  
-   PBYTE pbData;  
-   DWORD cbData;  
-   LPCWSTR pszDataDescription;  
+   LPCWSTR pszName;  
+   HTTP_TRACE_TYPE dwDataType;  
+   PBYTE pbData;  
+   DWORD cbData;  
+   LPCWSTR pszDataDescription;  
 };  
 ```  
   

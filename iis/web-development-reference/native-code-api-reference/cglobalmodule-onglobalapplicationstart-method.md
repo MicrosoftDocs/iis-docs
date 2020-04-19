@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalApplicationStart` event, which o
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationStart(  
-   IN IHttpApplicationStartProvider* pProvider  
+   IN IHttpApplicationStartProvider* pProvider  
 );  
 ```  
   

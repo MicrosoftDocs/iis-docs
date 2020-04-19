@@ -10,7 +10,7 @@ Returns the unique hash code of an item in the global cache.
   
 ```cpp  
 virtual DWORD GetHash(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

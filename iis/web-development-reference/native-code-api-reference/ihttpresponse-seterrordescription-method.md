@@ -10,9 +10,9 @@ Specifies the custom error description.
   
 ```cpp  
 virtual HRESULT SetErrorDescription(  
-   IN PCWSTR pszDescription,  
-   IN DWORD cchDescription,  
-   IN BOOL fHtmlEncode = TRUE  
+   IN PCWSTR pszDescription,  
+   IN DWORD cchDescription,  
+   IN BOOL fHtmlEncode = TRUE  
 ) = 0;  
 ```  
   

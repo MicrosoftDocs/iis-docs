@@ -10,8 +10,8 @@ Returns the schema assigned to the current collection.
   
 ```cpp  
 HRESULT get_Schema(  
-   [out,  
-   retval] IAppHostCollectionSchema** ppSchema  
+   [out,  
+   retval] IAppHostCollectionSchema** ppSchema  
 );  
 ```  
   

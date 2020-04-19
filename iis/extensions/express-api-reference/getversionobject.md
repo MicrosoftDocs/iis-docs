@@ -9,12 +9,12 @@ Returns the installed IIS version based on version and product type.
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    GetVersionObject(  
-        [in, string] BSTR  bstrVersion,  
-        [in] IIS_PRODUCT_TYPE dwProductType,  
-        [out, retval] IIISVersion ** ppElement  
-    );  
+    HRESULT  
+    GetVersionObject(  
+        [in, string] BSTR  bstrVersion,  
+        [in] IIS_PRODUCT_TYPE dwProductType,  
+        [out, retval] IIISVersion ** ppElement  
+    );  
   
 ```  
   

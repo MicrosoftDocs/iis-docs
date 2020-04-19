@@ -10,7 +10,7 @@ Returns the user name.
   
 ```cpp  
 virtual PCWSTR GetUserName(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

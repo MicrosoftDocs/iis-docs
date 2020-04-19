@@ -10,7 +10,7 @@ This method is not supported.
   
 ```cpp  
 virtual VOID SetFileInfo(  
-   IHttpFileInfo* pFileInfo  
+   IHttpFileInfo* pFileInfo  
 ) = 0;  
 ```  
   

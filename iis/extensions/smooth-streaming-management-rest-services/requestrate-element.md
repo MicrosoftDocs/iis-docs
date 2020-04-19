@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the number of client requests per second for fragments from the track.
 
     <RequestRate>
-      "requestCount"
+      "requestCount"
     </RequestRate>
 
 ### Child Elements

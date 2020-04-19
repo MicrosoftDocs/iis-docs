@@ -10,9 +10,9 @@ Defines the interfaces that the [IProtocolManager::GetPmInterface](../../web-dev
   
 ```cpp  
 enum PM_INTERFACE_ID_ENUM {  
-   PM_LISTENER_CHANNEL_MANAGER_ID = 1,  
-   PM_HEALTH_AND_IDLE_MONITOR_ID,  
-   PM_CUSTOM_ACTIONS_ID  
+   PM_LISTENER_CHANNEL_MANAGER_ID = 1,  
+   PM_HEALTH_AND_IDLE_MONITOR_ID,  
+   PM_CUSTOM_ACTIONS_ID  
 };  
 ```  
   

@@ -10,7 +10,7 @@ Returns a value that indicates whether the corresponding file has been changed s
   
 ```cpp  
 virtual BOOL CheckIfFileHasChanged(  
-   IN HANDLE hUserToken  
+   IN HANDLE hUserToken  
 ) = 0;  
 ```  
   

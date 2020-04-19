@@ -10,7 +10,7 @@ Indicates the completion of asynchronous work and requests that IIS resume execu
   
 ```cpp  
 virtual VOID IndicateCompletion(  
-   IN REQUEST_NOTIFICATION_STATUS notificationStatus  
+   IN REQUEST_NOTIFICATION_STATUS notificationStatus  
 ) = 0;  
 ```  
   

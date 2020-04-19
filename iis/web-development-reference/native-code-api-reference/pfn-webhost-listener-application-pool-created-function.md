@@ -11,8 +11,8 @@ Notifies the listener adapter that the application pool configured to receive me
 ```cpp  
 typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CREATED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppPoolId,  
-   IN PSID pSID  
+   IN LPCWSTR AppPoolId,  
+   IN PSID pSID  
 );  
 ```  
   

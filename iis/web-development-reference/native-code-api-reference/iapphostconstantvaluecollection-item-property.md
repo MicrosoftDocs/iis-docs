@@ -10,8 +10,8 @@ Gets the constant value at the specified index.
   
 ```cpp  
 [propget, id(DISPID_VALUE)] HRESULT Item(  
-   [in] VARIANT cIndex,  
-   [out, retval] IAppHostConstantValue ** ppConstantValue  
+   [in] VARIANT cIndex,  
+   [out, retval] IAppHostConstantValue ** ppConstantValue  
 );  
 ```  
   

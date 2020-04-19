@@ -44,37 +44,37 @@ Set colAppPools = oWebAdmin.ExecQuery("SELECT * FROM ApplicationPool")
   
 ' Return each application pool name.  
 For Each oAppPool In colAppPools  
-    WScript.Echo oAppPool.Name  
-    WScript.Echo String(Len(oAppPool.Name), "-")  
+    WScript.Echo oAppPool.Name  
+    WScript.Echo String(Len(oAppPool.Name), "-")  
   
-    ' Get all worker processes in the application pool.  
-    Set oWorkerProcesses = _  
-        oAppPool.Associators_("ApplicationPoolContainsProcess")  
+    ' Get all worker processes in the application pool.  
+    Set oWorkerProcesses = _  
+        oAppPool.Associators_("ApplicationPoolContainsProcess")  
   
-    ' Return each worker process ID and report its state by using  
-    ' the GetStateDescription helper function.  
-    For Each oWorkerProcess In oWorkerProcesses  
-        WScript.Echo "Process ID " & oWorkerProcess.ID & _  
-            " is " & GetStateDescription(oWorkerProcess.GetState) & "."  
-    Next  
-    WScript.Echo  
+    ' Return each worker process ID and report its state by using  
+    ' the GetStateDescription helper function.  
+    For Each oWorkerProcess In oWorkerProcesses  
+        WScript.Echo "Process ID " & oWorkerProcess.ID & _  
+            " is " & GetStateDescription(oWorkerProcess.GetState) & "."  
+    Next  
+    WScript.Echo  
 Next  
   
 ' Return the text string that corresponds to the state code.  
 Function GetStateDescription(StateCode)  
-    Select Case StateCode  
-        Case 0  
-            GetStateDescription = "starting"  
-        Case 1  
-            GetStateDescription = "running"  
-        Case 2  
-            GetStateDescription = "stopping"  
-        Case 3  
-            GetStateDescription = "unknown"  
-        Case Else  
-            GetStateDescription = _  
-                "Attempt to retrieve worker process state failed."  
-    End Select  
+    Select Case StateCode  
+        Case 0  
+            GetStateDescription = "starting"  
+        Case 1  
+            GetStateDescription = "running"  
+        Case 2  
+            GetStateDescription = "stopping"  
+        Case 3  
+            GetStateDescription = "unknown"  
+        Case Else  
+            GetStateDescription = _  
+                "Attempt to retrieve worker process state failed."  
+    End Select  
 End Function  
 ```  
   

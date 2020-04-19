@@ -10,7 +10,7 @@ Increments a counter each time the URI is requested.
   
 ```cpp  
 virtual VOID UpdateFrequentlyHitTickCount(  
-   DWORD   dwTicks  
+   DWORD   dwTicks  
 ) = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Fills a dynamic property in the specified element with a value.
   
 ```cpp  
 HRESULT ProvideGetProperty(  
-   [in] IAppHostElement * pElement,  
-   [in] IAppHostProperty* pProperty  
+   [in] IAppHostElement * pElement,  
+   [in] IAppHostProperty* pProperty  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Clears the response entity.
   
 ```cpp  
 virtual VOID Clear(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

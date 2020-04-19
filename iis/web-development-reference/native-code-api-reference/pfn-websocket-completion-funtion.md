@@ -10,12 +10,12 @@ Defines the WebSocket completion function prototype.
   
 ```cpp  
 typedef VOID(WINAPI* PFN_WEBSOCKET_COMPLETION)(  
-   HRESULT hrError,  
-   VOID* pvCompletionContext,  
-   DWORD cbIO,  
-   BOOL fUTF8Encoded,  
-   BOOL fFinalFragment,  
-   BOOL fClose  
+   HRESULT hrError,  
+   VOID* pvCompletionContext,  
+   DWORD cbIO,  
+   BOOL fUTF8Encoded,  
+   BOOL fFinalFragment,  
+   BOOL fClose  
 );  
 ```  
   

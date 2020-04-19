@@ -10,8 +10,8 @@ Retrieves a `BOOL` value from the worker process or application pool settings.
   
 ```cpp  
 virtual HRESULT GetBoolProperty(  
-   IN WPF_SETTINGS_BOOL_ENUM SettingId,  
-   OUT BOOL* pfSetting  
+   IN WPF_SETTINGS_BOOL_ENUM SettingId,  
+   OUT BOOL* pfSetting  
 ) = 0;  
 ```  
   

@@ -10,11 +10,11 @@ Gets or sets the value of the current property.
   
 ```cpp  
 HRESULT get_Value(  
-   [out,  
-   retval] VARIANT* pVariant  
+   [out,  
+   retval] VARIANT* pVariant  
 );  
 HRESULT put_Value(  
-   VARIANT value  
+   VARIANT value  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Resets the socket after the response is complete.
   
 ```cpp  
 virtual VOID SetNeedDisconnect(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

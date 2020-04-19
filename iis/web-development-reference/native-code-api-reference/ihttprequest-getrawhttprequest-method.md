@@ -10,7 +10,7 @@ Returns a structure that contains the raw HTTP request.
   
 ```cpp  
 virtual HTTP_REQUEST* GetRawHttpRequest(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

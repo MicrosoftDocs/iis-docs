@@ -10,10 +10,10 @@ Retrieves a specific fragment from the cache.
   
 ```cpp  
 virtual HRESULT ReadFragmentFromCache(  
-   __in WCHAR* pszFragmentName,  
-   BYTE* pvBuffer,  
-   DWORD cbSize,  
-   DWORD* pcbCopied  
+   __in WCHAR* pszFragmentName,  
+   BYTE* pvBuffer,  
+   DWORD cbSize,  
+   DWORD* pcbCopied  
 ) = 0;  
 ```  
   

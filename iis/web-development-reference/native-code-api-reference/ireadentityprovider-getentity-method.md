@@ -10,9 +10,9 @@ Retrieves the request entity.
   
 ```cpp  
 virtual VOID GetEntity(  
-   PVOID* ppBuffer,  
-   DWORD* pcbData,  
-   DWORD* pcbBuffer  
+   PVOID* ppBuffer,  
+   DWORD* pcbData,  
+   DWORD* pcbBuffer  
 ) = 0;  
 ```  
   

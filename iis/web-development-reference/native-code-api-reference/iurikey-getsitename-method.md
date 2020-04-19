@@ -10,7 +10,7 @@ Returns the site name associated with the Uniform Resource Identifier (URI) data
   
 ```cpp  
 virtual PCWSTR GetSiteName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

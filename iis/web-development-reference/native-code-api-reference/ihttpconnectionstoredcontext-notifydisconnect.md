@@ -10,7 +10,7 @@ Notifies the caller that an established connection was disconnected.
   
 ```cpp  
 virtual VOID NotifyDisconnect(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,9 +10,9 @@ Retrieves a string value from the worker process or application pool settings.
   
 ```cpp  
 virtual HRESULT GetStringProperty(  
-   IN WPF_SETTINGS_STRING_ENUM SettingId,  
-   __out_ecount_opt(*pcchSetting) PWSTR pszSetting,  
-   IN OUT DWORD* pcchSetting  
+   IN WPF_SETTINGS_STRING_ENUM SettingId,  
+   __out_ecount_opt(*pcchSetting) PWSTR pszSetting,  
+   IN OUT DWORD* pcchSetting  
 ) = 0;  
 ```  
   

@@ -9,8 +9,8 @@ Injects dynamic environment variables into the current process that would otherw
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    ApplyIISEnvironmentVariables();  
+    HRESULT  
+    ApplyIISEnvironmentVariables();  
   
 ```  
   

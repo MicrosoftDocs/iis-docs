@@ -10,10 +10,10 @@ Notifies listeners when a section has changed in a physical file of the [!INCLUD
   
 ```cpp  
 HRESULT OnSectionChanges(  
-   [in,  
-   string] BSTR bstrSectionName,  
-   [in,  
-   string] BSTR bstrConfigPath  
+   [in,  
+   string] BSTR bstrSectionName,  
+   [in,  
+   string] BSTR bstrConfigPath  
 );  
 ```  
   

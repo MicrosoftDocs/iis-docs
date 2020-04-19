@@ -10,7 +10,7 @@ Retrieves the execution flags for the current context.
   
 ```cpp  
 virtual DWORD GetExecuteFlags(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

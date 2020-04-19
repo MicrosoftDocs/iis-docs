@@ -57,7 +57,7 @@ Add a variable to the MainPage class to specify the time interval that will be a
 TimeSpan spanAdd = new TimeSpan(0,0,5); // Five second interval.
 ```
 
-Each time the user clicks SeekButton, the following event handler adds a five-second interval to the position property until the current position plus 5 seconds is greater than the length of the media stream as specified by the [EndPosition](smoothstreamingmediaelement-endposition-property-microsoft-web-media-smoothstreaming_1.md) property.
+Each time the user clicks SeekButton, the following event handler adds a five-second interval to the position property until the current position plus 5 seconds is greater than the length of the media stream as specified by the [EndPosition](smoothstreamingmediaelement-endposition-property-microsoft-web-media-smoothstreaming_1.md) property.
 
 ```csharp
 private void SeekButton_Click(object sender, RoutedEventArgs e)

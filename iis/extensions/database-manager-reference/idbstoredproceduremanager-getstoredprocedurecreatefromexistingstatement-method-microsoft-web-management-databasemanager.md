@@ -28,8 +28,8 @@ product_family_name: VS
 
 Returns the CREATE PROCEDURE definition for a new stored procedure that is based on an existing stored procedure.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -111,7 +111,7 @@ public Query GetStoredProcedureCreateFromExistingStatement(string connectionStri
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

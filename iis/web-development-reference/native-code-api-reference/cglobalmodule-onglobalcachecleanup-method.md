@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalCacheCleanup` event.
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCacheCleanup(  
-   VOID  
+   VOID  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves an [IHttpTokenEntry](../../web-development-reference/native-code-api-r
   
 ```cpp  
 virtual IHttpTokenEntry* GetVrToken(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

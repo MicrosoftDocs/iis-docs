@@ -10,17 +10,17 @@ Creates a Web application.
   
 ```vbs  
 oWebAdmin.Get("Application").Create(  
-   ApplicationPath,  
-   SiteName,  
-   PhysicalPath  
+   ApplicationPath,  
+   SiteName,  
+   PhysicalPath  
 )  
 ```  
   
 ```jscript#  
 var app = webAdmin.Get("Application").Create(  
-   ApplicationPath,  
-   SiteName,  
-   PhysicalPath  
+   ApplicationPath,  
+   SiteName,  
+   PhysicalPath  
 );  
 ```  
   

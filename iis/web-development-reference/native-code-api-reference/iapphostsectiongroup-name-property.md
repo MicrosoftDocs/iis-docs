@@ -10,8 +10,8 @@ Gets the name of the configuration section group.
   
 ```cpp  
 HRESULT get_Name(  
-   [out,  
-   retval] BSTR* pbstrName  
+   [out,  
+   retval] BSTR* pbstrName  
 );  
 ```  
   

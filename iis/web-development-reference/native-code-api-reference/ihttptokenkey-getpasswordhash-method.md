@@ -10,7 +10,7 @@ Returns the user password as a hash value.
   
 ```cpp  
 virtual PCWSTR GetPasswordHash(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

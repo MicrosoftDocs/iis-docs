@@ -10,7 +10,7 @@ Retrieves a container of named context objects.
   
 ```cpp  
 virtual INamedContextContainer * GetNamedContextContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

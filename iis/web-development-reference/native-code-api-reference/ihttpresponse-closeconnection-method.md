@@ -10,7 +10,7 @@ Closes he connection and sends a reset packet to the client.
   
 ```cpp  
 virtual VOID CloseConnection(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

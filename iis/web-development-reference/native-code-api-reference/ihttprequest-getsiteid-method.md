@@ -10,7 +10,7 @@ Retrieves the site ID for the current HTTP request.
   
 ```cpp  
 virtual DWORD GetSiteId(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

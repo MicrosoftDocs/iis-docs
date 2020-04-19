@@ -10,11 +10,11 @@ Deletes an HTTP header from the request.
   
 ```cpp  
 virtual HRESULT DeleteHeader(  
-   IN PCSTR pszHeaderName  
+   IN PCSTR pszHeaderName  
 ) = 0;  
   
 virtual HRESULT DeleteHeader(  
-   IN HTTP_HEADER_ID ulHeaderIndex  
+   IN HTTP_HEADER_ID ulHeaderIndex  
 ) = 0;  
 ```  
   

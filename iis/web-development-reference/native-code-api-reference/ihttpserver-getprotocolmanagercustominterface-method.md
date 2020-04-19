@@ -10,10 +10,10 @@ Retrieves a custom interface for a protocol manager.
   
 ```cpp  
 virtual HRESULT GetProtocolManagerCustomInterface(  
-   IN PCWSTR pProtocolManagerDll,  
-   IN PCWSTR pProtocolManagerDllInitFunction,  
-   IN DWORD dwCustomInterfaceId,  
-   OUT PVOID* ppCustomInterface  
+   IN PCWSTR pProtocolManagerDll,  
+   IN PCWSTR pProtocolManagerDllInitFunction,  
+   IN DWORD dwCustomInterfaceId,  
+   OUT PVOID* ppCustomInterface  
 ) = 0;  
 ```  
   

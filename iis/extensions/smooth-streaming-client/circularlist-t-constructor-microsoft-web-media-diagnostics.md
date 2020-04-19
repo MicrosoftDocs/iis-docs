@@ -29,8 +29,8 @@ product_family_name: VS
 
 (Deprecated. Do not use) Initializes a new instance of the [CircularList\<(Of \<(\<'T\>)\>)\>](circularlist-t-class-microsoft-web-media-diagnostics_1.md) class.
 
-**Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

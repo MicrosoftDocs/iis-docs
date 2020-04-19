@@ -11,9 +11,9 @@ Retrieves an extended HTTP interface given the HTTP server instance and the poin
 ```cpp  
 template <class HttpType1, class HttpType2>  
 HRESULT HttpGetExtendedInterface(  
-   __in IHttpServer* pHttpServer,  
-   __in HttpType1* pInput,  
-   __deref_out HttpType2** ppOutput  
+   __in IHttpServer* pHttpServer,  
+   __in HttpType1* pInput,  
+   __deref_out HttpType2** ppOutput  
 );  
 ```  
   
@@ -43,7 +43,7 @@ IHttpRequest2 * pHttpRequest2;
 HRESULT hr = HttpGetExtendedInterface(g_pHttpServer, pHttpRequest, &pHttpRequest2);  
 if( SUCCEEDED(hr) )  
 {  
-    // Use pHttpRequest2.  
+    // Use pHttpRequest2.  
 }  
 ```  
   

@@ -10,7 +10,7 @@ Returns a context container that may be dispensed.
   
 ```cpp  
 virtual IDispensedHttpModuleContextContainer* DispenseContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

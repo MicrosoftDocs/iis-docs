@@ -10,8 +10,8 @@ Retrieves a reference to the process model host.
   
 ```cpp  
 HRESULT __stdcall GetIsapiProcessHost(  
-   IProcessHostSupportFunctions* pFunctions,  
-   IProcessHost** ppProcessHost  
+   IProcessHostSupportFunctions* pFunctions,  
+   IProcessHost** ppProcessHost  
 );  
 ```  
   

@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the incoming bit rate setting of the track, in bits per second (bps).
 
     <IncomingBitRate>
-      "rate"
+      "rate"
     </IncomingBitRate>
 
 ### Child Elements

@@ -10,8 +10,8 @@ Represents a collection of child elements that are nested under the current [IAp
   
 ```cpp  
 HRESULT get_ChildElements(  
-   [out,  
-   retval] IAppHostChildElementCollection** ppElements  
+   [out,  
+   retval] IAppHostChildElementCollection** ppElements  
 );  
 ```  
   

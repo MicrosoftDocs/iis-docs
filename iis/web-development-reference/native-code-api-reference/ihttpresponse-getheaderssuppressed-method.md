@@ -10,7 +10,7 @@ Determines whether the response status and headers are suppressed.
   
 ```cpp  
 virtual BOOL GetHeadersSuppressed(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

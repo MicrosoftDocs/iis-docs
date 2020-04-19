@@ -10,8 +10,8 @@ Enables the worker process framework to request that a protocol manager start a 
   
 ```cpp  
 virtual HRESULT StartListenerChannel(  
-   IN PCWSTR protocolId,  
-   IN IWpfListenerChannelCallback* pListenerChannelCallback  
+   IN PCWSTR protocolId,  
+   IN IWpfListenerChannelCallback* pListenerChannelCallback  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the physical path for the ApplicationHost.config file.
   
 ```cpp  
 virtual HRESULT __stdcall GetRootWebConfigFilename(  
-   BSTR* pbstrPhysicalPath  
+   BSTR* pbstrPhysicalPath  
 ) = 0;  
 ```  
   

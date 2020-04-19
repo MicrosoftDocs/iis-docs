@@ -10,14 +10,14 @@ Writes a data fragment to an asynchronous connection.
   
 ```cpp  
 virtual HRESULT WriteFragment(  
-   _In_ VOID* pData,  
-   _Inout_ DWORD* pcbSent,  
-   _In_ BOOL fAsync,  
-   _In_ BOOL fUTF8Encoded,  
-   _In_ BOOL fFinalFragment,  
-   _In_ PFN_WEBSOCKET_COMPLETION pfnCompletion = NULL,  
-   _In_ VOID* pvCompletionContext = NULL,  
-   _Out_ BOOL* pfCompletionExpected = NULL  
+   _In_ VOID* pData,  
+   _Inout_ DWORD* pcbSent,  
+   _In_ BOOL fAsync,  
+   _In_ BOOL fUTF8Encoded,  
+   _In_ BOOL fFinalFragment,  
+   _In_ PFN_WEBSOCKET_COMPLETION pfnCompletion = NULL,  
+   _In_ VOID* pvCompletionContext = NULL,  
+   _Out_ BOOL* pfCompletionExpected = NULL  
 ) = 0;  
 ```  
   

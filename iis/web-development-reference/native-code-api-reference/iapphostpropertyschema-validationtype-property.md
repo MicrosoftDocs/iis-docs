@@ -10,9 +10,9 @@ Describes the type of validation that will be performed for the current property
   
 ```cpp  
 HRESULT get_ValidationType(  
-   [out,  
-   retval,  
-   string] BSTR* pbstrValidationType  
+   [out,  
+   retval,  
+   string] BSTR* pbstrValidationType  
 );  
 ```  
   

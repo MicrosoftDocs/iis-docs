@@ -10,8 +10,8 @@ Determines whether a value must be defined for a property.
   
 ```cpp  
 HRESULT get_IsRequired(  
-   [out,  
-   retval] VARIANT_BOOL* pfIsRequired  
+   [out,  
+   retval] VARIANT_BOOL* pfIsRequired  
 );  
 ```  
   

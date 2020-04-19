@@ -10,7 +10,7 @@ Specifies an error to return.
   
 ```cpp  
 virtual VOID SetErrorStatus(  
-   IN HRESULT hrError  
+   IN HRESULT hrError  
 ) = 0;  
 ```  
   

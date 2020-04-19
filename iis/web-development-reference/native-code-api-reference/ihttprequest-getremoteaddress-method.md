@@ -10,7 +10,7 @@ Returns the remote address of the client's interface for the current request.
   
 ```cpp  
 virtual PSOCKADDR GetRemoteAddress(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Gets a value that indicates whether the property value is case-sensitive.
   
 ```cpp  
 HRESULT get_IsCaseSensitive(  
-   [out,  
-   retval] VARIANT_BOOL* pfIsCaseSensitive  
+   [out,  
+   retval] VARIANT_BOOL* pfIsCaseSensitive  
 );  
 ```  
   

@@ -10,17 +10,17 @@ Sets or appends the value of a specified HTTP request header.
   
 ```cpp  
 virtual HRESULT SetHeader(  
-   IN PCSTR pszHeaderName,  
-   IN PCSTR pszHeaderValue,  
-   IN USHORT cchHeaderValue,  
-   IN BOOL fReplace  
+   IN PCSTR pszHeaderName,  
+   IN PCSTR pszHeaderValue,  
+   IN USHORT cchHeaderValue,  
+   IN BOOL fReplace  
 ) = 0;  
   
 virtual HRESULT SetHeader(  
-   IN HTTP_HEADER_ID ulHeaderIndex,  
-   IN PCSTR pszHeaderValue,  
-   IN USHORT cchHeaderValue,  
-   IN BOOL fReplace  
+   IN HTTP_HEADER_ID ulHeaderIndex,  
+   IN PCSTR pszHeaderValue,  
+   IN USHORT cchHeaderValue,  
+   IN BOOL fReplace  
 ) = 0;  
 ```  
   

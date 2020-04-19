@@ -10,8 +10,8 @@ Gets the validation parameters that are defined in the property schema.
   
 ```cpp  
 HRESULT get_ValidationFailureParameters(  
-   [out,  
-   retval] SAFEARRAY(VARIANT  
+   [out,  
+   retval] SAFEARRAY(VARIANT  
 )* pParameterArray);  
 ```  
   

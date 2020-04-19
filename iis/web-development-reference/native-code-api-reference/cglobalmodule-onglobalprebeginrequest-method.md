@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalPreBeginRequest` event, which oc
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalPreBeginRequest(  
-   IN IPreBeginRequestProvider* pProvider  
+   IN IPreBeginRequestProvider* pProvider  
 );  
 ```  
   

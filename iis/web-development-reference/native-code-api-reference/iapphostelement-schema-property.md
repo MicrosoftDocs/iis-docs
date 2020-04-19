@@ -10,8 +10,8 @@ Gets the schema that is assigned to the current element.
   
 ```cpp  
 HRESULT get_Schema(  
-   [out,  
-   retval] IAppHostElementSchema** ppSchema  
+   [out,  
+   retval] IAppHostElementSchema** ppSchema  
 );  
 ```  
   

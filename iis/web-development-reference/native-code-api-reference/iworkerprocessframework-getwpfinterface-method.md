@@ -10,8 +10,8 @@ Retrieves a defined interface from the worker process framework.
   
 ```cpp  
 virtual HRESULT GetWpfInterface(  
-   IN WPF_INTERFACE_ID_ENUM WpfInterfaceId,  
-   OUT PVOID* ppInterface  
+   IN WPF_INTERFACE_ID_ENUM WpfInterfaceId,  
+   OUT PVOID* ppInterface  
 ) = 0;  
 ```  
   

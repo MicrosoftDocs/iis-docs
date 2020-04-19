@@ -10,7 +10,7 @@ Gets a value that indicates that the kernel cache is invalidated.
   
 ```cpp  
 virtual BOOL GetKernelCacheInvalidatorSet(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

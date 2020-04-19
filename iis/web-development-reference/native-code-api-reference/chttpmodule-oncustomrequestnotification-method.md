@@ -10,8 +10,8 @@ Represents the method that will handle a custom event, which occurs when a modul
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnCustomRequestNotification(  
-   IN IHttpContext* pHttpContext,  
-   IN ICustomNotificationProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN ICustomNotificationProvider* pProvider  
 );  
 ```  
   

@@ -10,10 +10,10 @@ Gets metadata values for the current property.
   
 ```cpp  
 HRESULT GetMetadata(  
-   [in,  
-   string] BSTR bstrMetadataType,  
-   [out,  
-   retval] VARIANT* pValue  
+   [in,  
+   string] BSTR bstrMetadataType,  
+   [out,  
+   retval] VARIANT* pValue  
 );  
 ```  
   

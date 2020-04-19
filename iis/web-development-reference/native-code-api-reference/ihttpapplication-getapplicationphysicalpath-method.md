@@ -10,7 +10,7 @@ Retrieves the physical path of the application for the current request.
   
 ```cpp  
 virtual PCWSTR GetApplicationPhysicalPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

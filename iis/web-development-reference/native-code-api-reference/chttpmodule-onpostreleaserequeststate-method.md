@@ -10,8 +10,8 @@ Represents the method that will handle a `ReleaseRequestState` post-event, which
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnPostReleaseRequestState(  
-   IN IHttpContext* pHttpContext,  
-   IN IHttpEventProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IHttpEventProvider* pProvider  
 );  
 ```  
   

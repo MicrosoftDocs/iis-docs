@@ -10,7 +10,7 @@ Retrieves a stored context given its name.
   
 ```cpp  
 Virtual IHttpStoredContext * GetNamedContext(  
-   _In_ LPCWSTR szName  
+   _In_ LPCWSTR szName  
 ) = 0;  
 ```  
   

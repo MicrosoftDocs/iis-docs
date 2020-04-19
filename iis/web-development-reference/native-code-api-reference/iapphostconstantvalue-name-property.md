@@ -10,7 +10,7 @@ Gets the name of the specified constant.
   
 ```cpp  
 [propget] HRESULT Name(  
-   [out, retval] BSTR * pbstrName  
+   [out, retval] BSTR * pbstrName  
 );  
 ```  
   

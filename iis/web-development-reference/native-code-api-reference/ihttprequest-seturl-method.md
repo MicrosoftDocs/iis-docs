@@ -10,15 +10,15 @@ Modifies the request URL.
   
 ```cpp  
 virtual HRESULT SetUrl(  
-   IN PCWSTR pszUrl,  
-   IN DWORD cchUrl,  
-   IN BOOL fResetQueryString  
+   IN PCWSTR pszUrl,  
+   IN DWORD cchUrl,  
+   IN BOOL fResetQueryString  
 ) = 0;  
   
 virtual HRESULT SetUrl(  
-   IN PCSTR pszUrl,  
-   IN DWORD cchUrl,  
-   IN BOOL fResetQueryString  
+   IN PCSTR pszUrl,  
+   IN DWORD cchUrl,  
+   IN BOOL fResetQueryString  
 ) = 0;  
 ```  
   

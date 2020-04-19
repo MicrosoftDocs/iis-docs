@@ -10,11 +10,11 @@ Gets a unique configuration path that represents the deepest path where configur
   
 ```cpp  
 HRESULT GetUniqueConfigPath(  
-   [in,  
-   string] BSTR bstrConfigPath,  
-   [out,  
-   retval,  
-   string] BSTR* pbstrUniquePath  
+   [in,  
+   string] BSTR bstrConfigPath,  
+   [out,  
+   retval,  
+   string] BSTR* pbstrUniquePath  
 );  
 ```  
   

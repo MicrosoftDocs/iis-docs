@@ -10,7 +10,7 @@ Retrieves a pointer to an [IAppDomainInfoEnum](../../web-development-reference/n
   
 ```cpp  
 virtual HRESULT __stdcall EnumerateAppDomains(  
-   IAppDomainInfoEnum** pAppDomainsInfo  
+   IAppDomainInfoEnum** pAppDomainsInfo  
 ) = 0;  
 ```  
   

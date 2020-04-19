@@ -10,7 +10,7 @@ Appends the query value to the cache policy.
   
 ```cpp  
 virtual HRESULT AppendVaryByQueryString(  
-   PCSTR pszParam  
+   PCSTR pszParam  
 ) = 0;  
 ```  
   

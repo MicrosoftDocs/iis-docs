@@ -10,7 +10,7 @@ Requests that a protocol be unregistered when a listener adapter is shutting dow
   
 ```cpp  
 HRESULT WebhostUnregisterProtocol(  
-   IN DWORD ProtocolHandle  
+   IN DWORD ProtocolHandle  
 );  
 ```  
   

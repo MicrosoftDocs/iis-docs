@@ -10,8 +10,8 @@ Determines whether a property is part of a multiple-attribute key for a collecti
   
 ```cpp  
 HRESULT get_IsCombinedKey(  
-   [out,  
-   retval] VARIANT_BOOL* pfIsCombinedKey  
+   [out,  
+   retval] VARIANT_BOOL* pfIsCombinedKey  
 );  
 ```  
   

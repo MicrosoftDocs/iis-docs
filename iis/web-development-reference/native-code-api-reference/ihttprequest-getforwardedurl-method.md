@@ -11,7 +11,7 @@ Returns the forwarded URL.
   
 ```cpp  
 virtual PCWSTR GetForwardedUrl(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

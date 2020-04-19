@@ -10,7 +10,7 @@ Returns the module context container for the application.
   
 ```cpp  
 virtual IHttpModuleContextContainer* GetModuleContextContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,13 +10,13 @@ Returns the value of a specified HTTP header.
   
 ```cpp  
 virtual PCSTR GetHeader(  
-   IN PCSTR pszHeaderName,  
-   OUT USHORT* pcchHeaderValue = NULL  
+   IN PCSTR pszHeaderName,  
+   OUT USHORT* pcchHeaderValue = NULL  
 ) const = 0;  
   
 virtual PCSTR GetHeader(  
-   IN HTTP_HEADER_ID ulHeaderIndex,  
-   OUT USHORT* pcchHeaderValue = NULL  
+   IN HTTP_HEADER_ID ulHeaderIndex,  
+   OUT USHORT* pcchHeaderValue = NULL  
 ) const = 0;  
 ```  
   

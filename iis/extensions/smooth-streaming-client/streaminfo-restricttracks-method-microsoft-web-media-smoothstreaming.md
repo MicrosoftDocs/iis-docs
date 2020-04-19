@@ -28,8 +28,8 @@ product_family_name: VS
 
 Replaces [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-media-smoothstreaming_1.md) with the list of available tracks supplied by the parameter. Also restricts decoder initialization to the given list of available tracks to avoid initializing the decoder with unsupported modes.
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

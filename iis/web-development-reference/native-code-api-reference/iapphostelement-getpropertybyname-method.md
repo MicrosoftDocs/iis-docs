@@ -10,10 +10,10 @@ Gets a requested property from the [IAppHostElement::Properties](../../web-devel
   
 ```cpp  
 HRESULT GetPropertyByName(  
-   [in,  
-   string] BSTR bstrSubName,  
-   [out,  
-   retval] IAppHostProperty** ppProperty  
+   [in,  
+   string] BSTR bstrSubName,  
+   [out,  
+   retval] IAppHostProperty** ppProperty  
 );  
 ```  
   

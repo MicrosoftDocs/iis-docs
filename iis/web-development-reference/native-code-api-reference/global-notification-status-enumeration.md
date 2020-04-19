@@ -10,8 +10,8 @@ Defines the return values for global-level notifications.
   
 ```cpp  
 typedef enum GLOBAL_NOTIFICATION_STATUS{  
-   GL_NOTIFICATION_CONTINUE,  
-   GL_NOTIFICATION_HANDLED  
+   GL_NOTIFICATION_CONTINUE,  
+   GL_NOTIFICATION_HANDLED  
 };  
 ```  
   

@@ -10,7 +10,7 @@ Shuts down a protocol manager.
   
 ```cpp  
 virtual HRESULT Shutdown(  
-   IN BOOL fImmediate  
+   IN BOOL fImmediate  
 ) = 0;  
 ```  
   

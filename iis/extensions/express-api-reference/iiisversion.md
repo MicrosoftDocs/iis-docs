@@ -11,35 +11,35 @@ Returns details about an IIS product version that is installed on the current co
 ```cpp  
 interface IIISVersion : IUnknown  
 {  
-    HRESULT  
-    GetPropertyValue(  
-        [in, string]  BSTR bstrName,  
-        [out, retval] VARIANT * pvarValue  
-    );  
+    HRESULT  
+    GetPropertyValue(  
+        [in, string]  BSTR bstrName,  
+        [out, retval] VARIANT * pvarValue  
+    );  
   
-    HRESULT  
-    CreateObjectFromProgId(  
-        [in, string] BSTR bstrObjectName,  
-        [out, retval] VARIANT * pObject  
-    );  
+    HRESULT  
+    CreateObjectFromProgId(  
+        [in, string] BSTR bstrObjectName,  
+        [out, retval] VARIANT * pObject  
+    );  
   
-    HRESULT  
-    CreateObjectFromCLSID(  
-        [in] CLSID clsidObject,  
-        [out, retval] VARIANT * pObject  
-    );  
+    HRESULT  
+    CreateObjectFromCLSID(  
+        [in] CLSID clsidObject,  
+        [out, retval] VARIANT * pObject  
+    );  
   
-    HRESULT  
-    ApplyIISEnvironmentVariables();  
+    HRESULT  
+    ApplyIISEnvironmentVariables();  
   
-    HRESULT  
-    ClearIISEnvironmentVariables();  
+    HRESULT  
+    ClearIISEnvironmentVariables();  
   
-    HRESULT  
-    ApplyManifestContext();  
+    HRESULT  
+    ApplyManifestContext();  
   
-    HRESULT  
-    ClearManifestContext();  
+    HRESULT  
+    ClearManifestContext();  
 };  
   
 ```  

@@ -11,17 +11,17 @@ Represents a COM object that enables IIS versions to be queried and manipulated.
 ```cpp  
 interface IIISVersionManager : IUnknown  
 {  
-    HRESULT  
-    GetVersionObject(  
-        [in, string] BSTR  bstrVersion,  
-        [in] IIS_PRODUCT_TYPE dwProductType,  
-        [out, retval] IIISVersion ** ppElement  
-    );  
+    HRESULT  
+    GetVersionObject(  
+        [in, string] BSTR  bstrVersion,  
+        [in] IIS_PRODUCT_TYPE dwProductType,  
+        [out, retval] IIISVersion ** ppElement  
+    );  
   
-    HRESULT  
-    GetAllVersionObjects(  
-        [out, retval] SAFEARRAY(VARIANT) * pVersionsArray  
-    );  
+    HRESULT  
+    GetAllVersionObjects(  
+        [out, retval] SAFEARRAY(VARIANT) * pVersionsArray  
+    );  
 };  
   
 ```  

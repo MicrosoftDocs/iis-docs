@@ -10,7 +10,7 @@ Clears the response headers and sets headers to default values.
   
 ```cpp  
 virtual VOID ClearHeaders(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

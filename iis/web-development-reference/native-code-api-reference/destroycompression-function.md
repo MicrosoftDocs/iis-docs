@@ -10,7 +10,7 @@ Destroys the specified compression context.
   
 ```cpp  
 VOID WINAPI DestroyCompression(  
-   IN PVOID context  
+   IN PVOID context  
 );  
 ```  
   

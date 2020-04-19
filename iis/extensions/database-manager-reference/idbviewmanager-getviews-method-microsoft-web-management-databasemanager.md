@@ -28,8 +28,8 @@ product_family_name: VS
 
 Retrieves a list of views in a database.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -89,7 +89,7 @@ public ICollection\<View\> GetViews(string connectionString)
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

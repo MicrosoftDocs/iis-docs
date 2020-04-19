@@ -10,7 +10,7 @@ Enables an asynchronous full-duplex connection for this context.
   
 ```cpp  
 virtual VOID EnableFullDuplex(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

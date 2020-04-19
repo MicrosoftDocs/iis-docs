@@ -10,10 +10,10 @@ Adds a new nested configuration section group under the current configuration se
   
 ```cpp  
 HRESULT AddSectionGroup(  
-   [in,  
-   string] BSTR bstrSectionGroupName,  
-   [out,  
-   retval] IAppHostSectionGroup** ppSectionGroup  
+   [in,  
+   string] BSTR bstrSectionGroupName,  
+   [out,  
+   retval] IAppHostSectionGroup** ppSectionGroup  
 );  
 ```  
   

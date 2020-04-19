@@ -10,8 +10,8 @@ Causes the request to inherit the specified server variable.
   
 ```cpp  
 virtual HRESULT InheritServerVariable(  
-   _In_ PCSTR szName,  
-   _In_ BOOL  fFailIfNotExist = FALSE  
+   _In_ PCSTR szName,  
+   _In_ BOOL  fFailIfNotExist = FALSE  
 ) = 0;  
 ```  
   

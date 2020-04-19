@@ -10,8 +10,8 @@ Represents a collection of elements that belongs to a collection.
   
 ```cpp  
 HRESULT get_Collection(  
-   [out,  
-   retval] IAppHostElementCollection** ppCollection  
+   [out,  
+   retval] IAppHostElementCollection** ppCollection  
 );  
 ```  
   

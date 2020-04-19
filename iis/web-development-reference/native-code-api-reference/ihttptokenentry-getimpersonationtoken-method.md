@@ -10,7 +10,7 @@ Returns the impersonation token for a user.
   
 ```cpp  
 virtual HANDLE GetImpersonationToken(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

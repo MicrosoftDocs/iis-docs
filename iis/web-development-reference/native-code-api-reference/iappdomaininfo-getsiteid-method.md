@@ -10,7 +10,7 @@ Retrieves the site ID of the application domain.
   
 ```cpp  
 virtual HRESULT __stdcall GetSiteId(  
-   DWORD* pdwSiteId  
+   DWORD* pdwSiteId  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Specifies which [IScriptMapInfo](../../web-development-reference/native-code-api
   
 ```cpp  
 virtual VOID SetScriptMap(  
-   IScriptMapInfo* pScriptMap  
+   IScriptMapInfo* pScriptMap  
 ) = 0;  
 ```  
   

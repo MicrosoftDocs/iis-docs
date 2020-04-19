@@ -10,9 +10,9 @@ Gets the requested configuration section from the current location.
   
 ```cpp  
 HRESULT Item(  
-   [in] VARIANT cIndex,  
-   [out,  
-   retval] IAppHostElement** ppSection  
+   [in] VARIANT cIndex,  
+   [out,  
+   retval] IAppHostElement** ppSection  
 );  
 ```  
   

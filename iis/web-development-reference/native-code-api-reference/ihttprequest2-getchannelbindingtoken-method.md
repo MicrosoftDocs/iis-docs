@@ -10,9 +10,9 @@ Gets the channel binding token (CBT) being used for request validation.
   
 ```cpp  
 virtual HRESULT GetChannelBindingToken(  
-   _Outptr_result_bytebuffer_to_(*pTokenSize, *pTokenSize)  
-   PBYTE *             ppToken,  
-   _Out_ DWORD *       pTokenSize  
+   _Outptr_result_bytebuffer_to_(*pTokenSize, *pTokenSize)  
+   PBYTE *             ppToken,  
+   _Out_ DWORD *       pTokenSize  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Performs an asynchronous ping operation.
   
 ```cpp  
 virtual HRESULT __stdcall Ping(  
-   IProcessPingCallback* pCallback  
+   IProcessPingCallback* pCallback  
 ) = 0;  
 ```  
   

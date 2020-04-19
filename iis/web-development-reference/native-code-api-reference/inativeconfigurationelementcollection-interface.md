@@ -83,7 +83,7 @@ Note: The INativeConfigurationElementCollection interface contains several infra
 
 **IUnknown**
 
-   **INativeConfigurationElementCollection**
+   **INativeConfigurationElementCollection**
 
 ## Requirements
 

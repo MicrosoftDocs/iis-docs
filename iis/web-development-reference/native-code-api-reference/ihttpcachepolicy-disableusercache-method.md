@@ -10,7 +10,7 @@ Disables user caching for the cache policy.
   
 ```cpp  
 virtual VOID DisableUserCache(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

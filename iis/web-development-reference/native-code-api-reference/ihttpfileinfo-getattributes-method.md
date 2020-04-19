@@ -10,7 +10,7 @@ Retrieves the attributes of the corresponding file for an [IHttpFileInfo](../../
   
 ```cpp  
 virtual DWORD GetAttributes(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

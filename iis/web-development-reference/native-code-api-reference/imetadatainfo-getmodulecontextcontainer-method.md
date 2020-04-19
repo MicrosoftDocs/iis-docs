@@ -10,7 +10,7 @@ Returns the context container for the metadata.
   
 ```cpp  
 virtual IHttpModuleContextContainer* GetModuleContextContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

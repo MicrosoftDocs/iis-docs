@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the archive file name that is associated with the input stream.
 
     <ArchiveFileName>
-      file-name
+      file-name
     </ArchiveFileName>
 
 ### Child Elements

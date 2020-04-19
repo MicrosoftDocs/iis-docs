@@ -10,7 +10,7 @@ Decrements the Time-to-Live (TTL) setting of the cached data.
   
 ```cpp  
 virtual VOID DecrementTTL(  
-   OUT BOOL* pfTTLExpired  
+   OUT BOOL* pfTTLExpired  
 ) = 0;  
 ```  
   

@@ -10,9 +10,9 @@ Gets the property with the requested index or property name in the collection.
   
 ```cpp  
 HRESULT get_Item(  
-   [in] VARIANT cIndex,  
-   [out,  
-   retval] IAppHostProperty** ppProperty  
+   [in] VARIANT cIndex,  
+   [out,  
+   retval] IAppHostProperty** ppProperty  
 );  
 ```  
   

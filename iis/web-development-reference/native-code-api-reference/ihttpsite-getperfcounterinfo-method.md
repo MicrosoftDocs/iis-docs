@@ -10,7 +10,7 @@ Retrieves an [IHttpPerfCounterInfo](../../web-development-reference/native-code-
   
 ```cpp  
 virtual IHttpPerfCounterInfo* GetPerfCounterInfo(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

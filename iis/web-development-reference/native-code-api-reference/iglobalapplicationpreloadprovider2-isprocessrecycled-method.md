@@ -10,7 +10,7 @@ Indicates whether the application’s worker process has recycled.
   
 ```cpp  
 Virtual BOOL IsProcessRecycled(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

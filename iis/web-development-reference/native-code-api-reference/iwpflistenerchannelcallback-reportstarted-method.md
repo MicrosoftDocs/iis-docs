@@ -10,7 +10,7 @@ Notifies the worker process framework that a listener channel has started.
   
 ```cpp  
 virtual HRESULT ReportStarted(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

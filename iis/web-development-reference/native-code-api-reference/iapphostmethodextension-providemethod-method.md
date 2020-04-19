@@ -10,9 +10,9 @@ Provides a method for an [IAppHostElement Interface](../../web-development-refer
   
 ```cpp  
 HRESULT ProvideMethod(  
-   [in] IAppHostMethod * pMethod,  
-   [in] IAppHostMethodInstance * pMethodInstance,  
-   [in] IAppHostElement * pElement  
+   [in] IAppHostMethod * pMethod,  
+   [in] IAppHostMethodInstance * pMethodInstance,  
+   [in] IAppHostElement * pElement  
 );  
 ```  
   

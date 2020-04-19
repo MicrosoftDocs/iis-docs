@@ -10,7 +10,7 @@ Returns the cache key associated with the cached data.
   
 ```cpp  
 virtual IHttpCacheKey* GetCacheKey(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

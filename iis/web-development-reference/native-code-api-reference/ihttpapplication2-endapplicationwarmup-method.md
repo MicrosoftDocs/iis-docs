@@ -10,7 +10,7 @@ Ends the application warm up process.
   
 ```cpp  
 virtual VOID EndApplicationWarmup(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

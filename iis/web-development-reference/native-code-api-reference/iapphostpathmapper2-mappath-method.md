@@ -10,10 +10,10 @@ Gets the details of the specific mapping decision and, optionally, can change th
   
 ```cpp  
 HRESULT MapPath(  
-   [in, string] BSTR bstrConfigPath,  
-   [in, string] BSTR bstrMappedPhysicalPath,  
-   [out, string, retval] BSTR * pbstrNewPhysicalPath,  
-   [out] HANDLE * phImpersonationToken  
+   [in, string] BSTR bstrConfigPath,  
+   [in, string] BSTR bstrMappedPhysicalPath,  
+   [out, string, retval] BSTR * pbstrNewPhysicalPath,  
+   [out] HANDLE * phImpersonationToken  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the URL for the current request.
   
 ```cpp  
 virtual PCWSTR GetScriptName(  
-   DWORD* pcchScriptName = NULL  
+   DWORD* pcchScriptName = NULL  
 ) const = 0;  
 ```  
   

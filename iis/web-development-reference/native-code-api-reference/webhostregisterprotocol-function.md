@@ -10,10 +10,10 @@ Declares the protocol that the listener adapter supports.
   
 ```cpp  
 HRESULT WebhostRegisterProtocol(  
-   IN LPCWSTR ProtocolId,  
-   IN VOID* pListenerCallbacks,  
-   IN VOID* pContext,  
-   OUT DWORD* pProtocolHandle  
+   IN LPCWSTR ProtocolId,  
+   IN VOID* pListenerCallbacks,  
+   IN VOID* pContext,  
+   OUT DWORD* pProtocolHandle  
 );  
 ```  
   

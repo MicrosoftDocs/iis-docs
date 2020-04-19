@@ -10,9 +10,9 @@ Gets a configuration element from the collection.
   
 ```cpp  
 HRESULT Item(  
-   [in] VARIANT cIndex,  
-   [out,  
-   retval] IAppHostElement** ppElement  
+   [in] VARIANT cIndex,  
+   [out,  
+   retval] IAppHostElement** ppElement  
 );  
 ```  
   

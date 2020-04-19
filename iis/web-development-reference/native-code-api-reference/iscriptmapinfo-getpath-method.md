@@ -10,7 +10,7 @@ Retrieves the `path` attribute for a request handler.
   
 ```cpp  
 virtual PCWSTR GetPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

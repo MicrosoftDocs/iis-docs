@@ -10,7 +10,7 @@ Retrieves the trace event for the provider.
   
 ```cpp  
 virtual HRESULT GetTraceEvent(  
-   OUT HTTP_TRACE_EVENT** ppTraceEvent  
+   OUT HTTP_TRACE_EVENT** ppTraceEvent  
 ) = 0;  
 ```  
   

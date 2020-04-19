@@ -10,7 +10,7 @@ Recycles an application.
   
 ```cpp  
 virtual VOID RecycleApplication(  
-   PCWSTR pszAppConfigPath  
+   PCWSTR pszAppConfigPath  
 ) = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Gets a value that determines whether local collection elements are merged after 
   
 ```cpp  
 HRESULT get_IsMergeAppend(  
-   [out,  
-   retval] VARIANT_BOOL* pfIsMergeAppend  
+   [out,  
+   retval] VARIANT_BOOL* pfIsMergeAppend  
 );  
 ```  
   

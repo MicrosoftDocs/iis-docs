@@ -10,8 +10,8 @@ Creates an instance of a [CHttpModule](../../web-development-reference/native-co
   
 ```cpp  
 virtual HRESULT GetHttpModule(  
-   OUT CHttpModule** ppModule,  
-   IN IModuleAllocator* pAllocator  
+   OUT CHttpModule** ppModule,  
+   IN IModuleAllocator* pAllocator  
 ) = 0;  
 ```  
   

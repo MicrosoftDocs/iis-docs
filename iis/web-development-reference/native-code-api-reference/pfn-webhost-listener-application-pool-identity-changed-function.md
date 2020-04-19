@@ -11,8 +11,8 @@ Notifies the listener adapter that an application pool identity has changed.
 ```cpp  
 typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppPoolId,  
-   IN PSID pSID  
+   IN LPCWSTR AppPoolId,  
+   IN PSID pSID  
 );  
 ```  
   

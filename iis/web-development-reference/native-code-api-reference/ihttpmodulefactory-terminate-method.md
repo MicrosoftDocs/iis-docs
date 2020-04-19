@@ -10,7 +10,7 @@ Terminates an [IHttpModuleFactory](../../web-development-reference/native-code-a
   
 ```cpp  
 virtual VOID Terminate(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

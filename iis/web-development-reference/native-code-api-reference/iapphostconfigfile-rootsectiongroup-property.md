@@ -10,8 +10,8 @@ Returns the root configuration section group for the current configuration file.
   
 ```cpp  
 HRESULT get_RootSectionGroup(  
-   [out,  
-   retval] IAppHostSectionGroup** ppSectionGroups  
+   [out,  
+   retval] IAppHostSectionGroup** ppSectionGroups  
 );  
 ```  
   

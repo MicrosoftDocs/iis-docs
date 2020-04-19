@@ -10,7 +10,7 @@ Retrieves the response buffer limit for the script processor.
   
 ```cpp  
 virtual DWORD GetResponseBufferLimit(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

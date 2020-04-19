@@ -10,7 +10,7 @@ Returns the site identifier associated with Uniform Resource Identifier (URI) da
   
 ```cpp  
 virtual DWORD GetSiteId(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

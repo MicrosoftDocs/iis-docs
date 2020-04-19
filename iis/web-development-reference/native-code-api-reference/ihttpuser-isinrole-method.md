@@ -10,8 +10,8 @@ Returns a value that indicates whether the user is authorized for a named role.
   
 ```cpp  
 virtual HRESULT IsInRole(  
-   IN PCWSTR pszRoleName,  
-   OUT BOOL* pfInRole  
+   IN PCWSTR pszRoleName,  
+   OUT BOOL* pfInRole  
 ) = 0;  
 ```  
   

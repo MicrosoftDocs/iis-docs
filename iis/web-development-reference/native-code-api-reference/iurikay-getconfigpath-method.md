@@ -10,7 +10,7 @@ Retrieves the path to the configuration file.
   
 ```cpp  
 virtual PCWSTR GetConfigPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

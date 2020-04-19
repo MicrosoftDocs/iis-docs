@@ -30,7 +30,7 @@ This interface is only useful when your application is using the raw configurati
 
 **IUnknown**
 
-   **INativeConfigurationElement**
+   **INativeConfigurationElement**
 
 ## Requirements
 

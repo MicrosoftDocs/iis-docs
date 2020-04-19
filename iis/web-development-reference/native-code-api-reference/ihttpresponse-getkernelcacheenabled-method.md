@@ -10,7 +10,7 @@ Determines whether the kernel cache is enabled for the current response.
   
 ```cpp  
 virtual BOOL GetKernelCacheEnabled(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

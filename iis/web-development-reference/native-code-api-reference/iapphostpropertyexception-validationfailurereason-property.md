@@ -10,9 +10,9 @@ Gets the reason that the value of the [IAppHostPropertyException::InvalidValue](
   
 ```cpp  
 HRESULT get_ValidationFailureReason(  
-   [out,  
-   string,  
-   retval] BSTR* pbstrValidationReason  
+   [out,  
+   string,  
+   retval] BSTR* pbstrValidationReason  
 );  
 ```  
   

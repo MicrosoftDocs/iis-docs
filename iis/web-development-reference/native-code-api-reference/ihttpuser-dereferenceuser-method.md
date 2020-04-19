@@ -10,7 +10,7 @@ Decrements the user internal reference count.
   
 ```cpp  
 virtual VOID DereferenceUser(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

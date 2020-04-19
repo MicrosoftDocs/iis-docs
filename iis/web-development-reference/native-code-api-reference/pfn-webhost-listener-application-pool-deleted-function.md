@@ -11,7 +11,7 @@ Notifies the listener adapter that the application pool has been deleted from it
 ```cpp  
 typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppPoolId  
+   IN LPCWSTR AppPoolId  
 );  
 ```  
   

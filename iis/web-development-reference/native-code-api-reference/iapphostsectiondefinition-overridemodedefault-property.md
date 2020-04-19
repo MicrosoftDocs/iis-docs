@@ -10,11 +10,11 @@ Gets or sets the default override behavior for the current configuration section
   
 ```cpp  
 HRESULT get_OverrideModeDefault(  
-   [out,  
-   retval] BSTR* pbstrOverrideModeDefault  
+   [out,  
+   retval] BSTR* pbstrOverrideModeDefault  
 );  
 HRESULT put_OverrideModeDefault(  
-   BSTR bstrOverrideModeDefault  
+   BSTR bstrOverrideModeDefault  
 );   
 ```  
   

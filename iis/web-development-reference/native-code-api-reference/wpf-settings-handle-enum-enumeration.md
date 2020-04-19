@@ -10,7 +10,7 @@ Defines the `HANDLE` values that the [IWpfSettings::GetHandleProperty](../../web
   
 ```cpp  
 enum WPF_SETTINGS_HANDLE_ENUM {  
-   ANONYMOUS_USER_TOKEN  
+   ANONYMOUS_USER_TOKEN  
 };  
 ```  
   

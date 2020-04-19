@@ -10,8 +10,8 @@ Gets the current number of configuration section groups that are nested in the c
   
 ```cpp  
 HRESULT get_Count(  
-   [out,  
-   retval] ULONG* pcSectionGroup  
+   [out,  
+   retval] ULONG* pcSectionGroup  
 );  
 ```  
   

@@ -10,8 +10,8 @@ Disables specific notifications that are pending for this request in the current
   
 ```cpp  
 virtual VOID DisableNotifications(  
-   IN DWORD dwNotifications,  
-   IN DWORD dwPostNotifications  
+   IN DWORD dwNotifications,  
+   IN DWORD dwPostNotifications  
 ) = 0;  
 ```  
   

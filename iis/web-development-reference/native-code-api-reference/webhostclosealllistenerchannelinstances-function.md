@@ -10,9 +10,9 @@ Requests all instances of this listener channel to stop.
   
 ```cpp  
 HRESULT WebhostCloseAllListenerChannelInstances(  
-   IN DWORD ProtocolHandle,  
-   IN LPCWSTR AppPoolId,  
-   IN DWORD ListenerChannelId  
+   IN DWORD ProtocolHandle,  
+   IN LPCWSTR AppPoolId,  
+   IN DWORD ListenerChannelId  
 );  
 ```  
   

@@ -10,8 +10,8 @@ Returns the worker process framework version.
   
 ```cpp  
 virtual HRESULT GetInterfaceVersion(  
-   OUT PDWORD pdwMajorVersion,  
-   OUT PDWORD pdwMinorVersion  
+   OUT PDWORD pdwMajorVersion,  
+   OUT PDWORD pdwMinorVersion  
 ) = 0;  
 ```  
   

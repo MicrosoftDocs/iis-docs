@@ -10,7 +10,7 @@ Retrieves an [IHttpContext](../../web-development-reference/native-code-api-refe
   
 ```cpp  
 virtual IHttpContext* GetHttpContext(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

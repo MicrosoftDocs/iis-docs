@@ -10,7 +10,7 @@ Returns a value that indicates whether two [IHttpCacheKey](../../web-development
   
 ```cpp  
 virtual bool GetIsEqual(  
-   IHttpCacheKey* pCacheCompareKey  
+   IHttpCacheKey* pCacheCompareKey  
 ) const = 0;  
 ```  
   

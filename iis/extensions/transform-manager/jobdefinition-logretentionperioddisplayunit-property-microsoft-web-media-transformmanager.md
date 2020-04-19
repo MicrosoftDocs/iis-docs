@@ -33,8 +33,8 @@ product_family_name: VS
 
 Gets or sets the unit of time that is used with the [LogRetentionPeriodMinutes](jobdefinition-logretentionperiodminutes-property-microsoft-web-media-transformmanager.md) property to indicate how long the log file that is associated with a job is retained.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

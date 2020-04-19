@@ -10,7 +10,7 @@ Enumerates an [IHttpCacheSpecificData](../../web-development-reference/native-co
   
 ```cpp  
 virtual VOID Enum(  
-   IHttpCacheSpecificData* cacheData  
+   IHttpCacheSpecificData* cacheData  
 ) = 0;  
 ```  
   

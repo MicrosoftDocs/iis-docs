@@ -10,9 +10,9 @@ Registers a custom callback method for actions that will result in multiple resp
   
 ```cpp  
 virtual HRESULT RegisterCustomActionCallback(  
-   IN PCWSTR pszFunctionName,  
-   IN PCWSTR pszFunctionArgs,  
-   IN ICustomAction2ResultCallback* pCompletionCallbackClass  
+   IN PCWSTR pszFunctionName,  
+   IN PCWSTR pszFunctionArgs,  
+   IN ICustomAction2ResultCallback* pCompletionCallbackClass  
 ) = 0;  
 ```  
   

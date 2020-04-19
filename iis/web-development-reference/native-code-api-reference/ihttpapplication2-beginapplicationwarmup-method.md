@@ -10,7 +10,7 @@ Starts loading the application into server memory and initializing it before the
   
 ```cpp  
 virtual VOID BeginApplicationWarmup(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Defines the `ULONGLONG` values that the [IWpfSettings::GetUlonglongProperty](../
   
 ```cpp  
 enum WPF_SETTINGS_ULONGLONG_ENUM {  
-   PERIODIC_RESTART_VIRTUAL_MEMORY,  
-   PERIODIC_RESTART_PRIVATE_MEMORY  
+   PERIODIC_RESTART_VIRTUAL_MEMORY,  
+   PERIODIC_RESTART_PRIVATE_MEMORY  
 };  
 ```  
   

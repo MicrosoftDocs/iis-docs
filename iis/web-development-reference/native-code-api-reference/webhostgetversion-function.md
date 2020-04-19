@@ -10,8 +10,8 @@ Returns the version of the Web host.
   
 ```cpp  
 HRESULT WebhostGetVersion(  
-   OUT DWORD* pMajorVersion,  
-   OUT DWORD* pMinorVersion  
+   OUT DWORD* pMajorVersion,  
+   OUT DWORD* pMinorVersion  
 );  
 ```  
   

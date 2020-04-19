@@ -10,7 +10,7 @@ Populates the provided configuration element.
   
 ```cpp  
 HRESULT ProvideElement(  
-   [in] IAppHostElement * pNewElement  
+   [in] IAppHostElement * pNewElement  
 );  
 ```  
   

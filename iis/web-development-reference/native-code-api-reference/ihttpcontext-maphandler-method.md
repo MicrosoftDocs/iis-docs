@@ -10,7 +10,7 @@ Maps a handler for the specified URL and HTTP verb on a site.
   
 ```cpp  
 virtual HRESULT MapHandler(  
-    DWORD               dwSiteId,  
+    DWORD               dwSiteId,  
     PCWSTR              pszSiteName,  
     PCWSTR              pszUrl,  
     PCSTR               pszVerb,  

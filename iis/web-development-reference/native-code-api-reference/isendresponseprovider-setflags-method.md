@@ -10,7 +10,7 @@ Configures the flags for the current HTTP response.
   
 ```cpp  
 virtual VOID SetFlags(  
-   DWORD dwFlags  
+   DWORD dwFlags  
 ) = 0;  
 ```  
   

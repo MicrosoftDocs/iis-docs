@@ -10,7 +10,7 @@ Returns the virtual token for the corresponding file.
   
 ```cpp  
 virtual HANDLE GetVrToken(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

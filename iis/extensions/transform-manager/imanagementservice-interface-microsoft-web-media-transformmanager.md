@@ -33,8 +33,8 @@ Several IIS Transform Manager classes are used to define jobs, such as task defi
 
 Local administrator group credentials must be used when using the IManagementService type. In addition, the calling application must use an elevated privilege. The IManagementService and [IMonitoringService](imonitoringservice-interface-microsoft-web-media-transformmanager.md) interfaces are exposed through Windows Communication Foundation (WCF), which can require that the caller be a member of the administrators group. The interface uses this capability to secure calls to the service.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.ServiceLibrary (in Microsoft.Web.Media.TransformManager.ServiceLibrary.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.ServiceLibrary (in Microsoft.Web.Media.TransformManager.ServiceLibrary.dll)
 
 ## Syntax
 

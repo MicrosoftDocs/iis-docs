@@ -33,8 +33,8 @@ product_family_name: VS
 
 Gets or sets the unit of time that is used with the [MaintenanceIntervalMinutes](jobdefinition-maintenanceintervalminutes-property-microsoft-web-media-transformmanager.md) property to indicate how often maintenance is run.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

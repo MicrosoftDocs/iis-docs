@@ -10,20 +10,20 @@ Creates a virtual directory.
   
 ```jscript#  
 objAppSrv.Get("VirtualDirectory").Create(  
-   VirtualDirectoryPath,  
-   ApplicationPath,  
-   PhysicalPath,  
-   SiteName  
+   VirtualDirectoryPath,  
+   ApplicationPath,  
+   PhysicalPath,  
+   SiteName  
 );  
   
 ```  
   
 ```vbs  
 objAppSrv.Get("VirtualDirectory").Create(  
-   VirtualDirectoryPath,  
-   ApplicationPath,  
-   PhysicalPath,  
-   SiteName  
+   VirtualDirectoryPath,  
+   ApplicationPath,  
+   PhysicalPath,  
+   SiteName  
 )  
 ```  
   

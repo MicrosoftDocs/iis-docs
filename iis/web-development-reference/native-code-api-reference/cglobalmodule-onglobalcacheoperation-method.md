@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalCacheOperation` event, which occ
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCacheOperation(  
-   IN ICacheProvider* pProvider  
+   IN ICacheProvider* pProvider  
 );  
 ```  
   

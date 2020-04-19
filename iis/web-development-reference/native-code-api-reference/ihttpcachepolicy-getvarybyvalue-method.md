@@ -10,7 +10,7 @@ Returns the variable value for the cache policy.
   
 ```cpp  
 virtual PCSTR GetVaryByValue(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

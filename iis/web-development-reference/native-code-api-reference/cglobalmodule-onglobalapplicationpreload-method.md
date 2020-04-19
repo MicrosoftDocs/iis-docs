@@ -9,7 +9,7 @@ Represents a method that will handle a `GlobalApplicationPreload` event.
 ## Syntax  
   
 ```cpp  
-virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalApplicationPreloadProvider* pProvider);  
+virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalApplicationPreloadProvider* pProvider);  
 ```  
   
 ### Parameters  

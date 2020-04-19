@@ -10,8 +10,8 @@ Gets the schema for the element that will be used to remove an item from the col
   
 ```cpp  
 HRESULT RemoveElementSchema(  
-   [out,  
-   retval] IAppHostElementSchema** ppSchema  
+   [out,  
+   retval] IAppHostElementSchema** ppSchema  
 );  
 ```  
   

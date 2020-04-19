@@ -10,8 +10,8 @@ Retrieves data that the protocol manager will pass to a listener channel when th
   
 ```cpp  
 virtual HRESULT GetBlob(  
-   IN OUT PBYTE pBlob,  
-   IN OUT DWORD* pcbBlob  
+   IN OUT PBYTE pBlob,  
+   IN OUT DWORD* pcbBlob  
 ) = 0;  
 ```  
   

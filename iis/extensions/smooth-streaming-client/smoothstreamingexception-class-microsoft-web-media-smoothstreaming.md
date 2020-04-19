@@ -31,11 +31,11 @@ Class to contain Smooth Streaming exception information.
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
-    Microsoft.Web.Media.SmoothStreaming..::..SmoothStreamingException  
+  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
+    Microsoft.Web.Media.SmoothStreaming..::..SmoothStreamingException  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

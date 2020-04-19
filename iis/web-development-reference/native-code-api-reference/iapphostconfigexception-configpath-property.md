@@ -10,8 +10,8 @@ Gets the configuration path of the file that contains the configuration that cau
   
 ```cpp  
 HRESULT get_ConfigPath(  
-   [out,  
-   retval] BSTR* pbstrConfigPath  
+   [out,  
+   retval] BSTR* pbstrConfigPath  
 );  
 ```  
   

@@ -44,9 +44,9 @@ Set oVDirs = oApp.Associators_("ApplicationContainsVirtualDirectory")
   
 ' Print out the virtual directories and their physical paths.  
 For Each oVDir In oVDirs  
-    WScript.Echo "Virtual Path: " & oVDir.Path  
-    WScript.Echo "PhysicalPath: " & oVDir.PhysicalPath  
-    WScript.Echo  
+    WScript.Echo "Virtual Path: " & oVDir.Path  
+    WScript.Echo "PhysicalPath: " & oVDir.PhysicalPath  
+    WScript.Echo  
 Next  
 ```  
   

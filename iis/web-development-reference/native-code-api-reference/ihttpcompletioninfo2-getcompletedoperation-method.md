@@ -10,7 +10,7 @@ Gets the number of bytes completed by an asynchronous operation.
   
 ```cpp  
 virtual DWORD GetCompletedOperation(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

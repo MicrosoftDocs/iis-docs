@@ -10,7 +10,7 @@ Retrieves the [INativeConfigurationSystem](https://msdn.microsoft.com/ef29f2da-9
   
 ```cpp  
 virtual HRESULT __stdcall GetNativeConfigurationSystem(  
-   VOID **ppConfigSystem  
+   VOID **ppConfigSystem  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Allows a protocol manager to report its current health status in response to a q
   
 ```cpp  
 virtual HRESULT ReportHealth(  
-   BOOL fHealthy  
+   BOOL fHealthy  
 ) = 0;  
 ```  
   

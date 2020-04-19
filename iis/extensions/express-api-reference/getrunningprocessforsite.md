@@ -9,14 +9,14 @@ Returns the process ID of the worker process when the parameters of this functio
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    GetRunningProcessForSite(   
-        [in] BSTR    bstrSite,   
-        [in] BSTR    bstrApplication,   
-        [in] BSTR    bstrApplicationPool,   
-        [in] BSTR    bstrConfigPath,   
-        [out, retval] DWORD * pdwPid  
-    );  
+    HRESULT  
+    GetRunningProcessForSite(   
+        [in] BSTR    bstrSite,   
+        [in] BSTR    bstrApplication,   
+        [in] BSTR    bstrApplicationPool,   
+        [in] BSTR    bstrConfigPath,   
+        [out, retval] DWORD * pdwPid  
+    );  
   
 ```  
   

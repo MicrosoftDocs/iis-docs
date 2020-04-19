@@ -10,8 +10,8 @@ Inserts a new entity body into the existing HTTP request body.
   
 ```cpp  
 virtual HRESULT InsertEntityBody(  
-   IN VOID* pvBuffer,  
-   IN DWORD cbBuffer  
+   IN VOID* pvBuffer,  
+   IN DWORD cbBuffer  
 ) = 0;  
 ```  
   

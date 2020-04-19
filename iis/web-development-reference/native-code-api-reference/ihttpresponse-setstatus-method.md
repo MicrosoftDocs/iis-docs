@@ -10,11 +10,11 @@ Sets the HTTP status for the response.
   
 ```cpp  
 virtual HRESULT SetStatus(  
-   IN USHORT statusCode,  
-   IN PCSTR pszReason,  
-   IN USHORT uSubStatus = 0,  
-   IN HRESULT hrErrorToReport = S_OK,  
-   IN INativeSectionException* pException = NULL  
+   IN USHORT statusCode,  
+   IN PCSTR pszReason,  
+   IN USHORT uSubStatus = 0,  
+   IN HRESULT hrErrorToReport = S_OK,  
+   IN INativeSectionException* pException = NULL  
 ) = 0;  
 ```  
   

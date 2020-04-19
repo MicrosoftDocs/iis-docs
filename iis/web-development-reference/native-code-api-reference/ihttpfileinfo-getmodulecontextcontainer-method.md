@@ -10,7 +10,7 @@ Returns an [IHttpModuleContextContainer](../../web-development-reference/native-
   
 ```cpp  
 virtual IHttpModuleContextContainer* GetModuleContextContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

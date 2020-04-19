@@ -10,11 +10,11 @@ Gets or sets a value that indicates whether the configuration section allows the
   
 ```cpp  
 HRESULT get_AllowLocation(  
-   [out,  
-   retval] BSTR* pbstrAllowLocation  
+   [out,  
+   retval] BSTR* pbstrAllowLocation  
 );  
 HRESULT put_AllowLocation(  
-   BSTR bstrAllowLocation  
+   BSTR bstrAllowLocation  
 );  
 ```  
   

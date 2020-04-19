@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the state of the input stream (Idle, Started, or Stopped).
 
     <State>
-      "Idle|Started|Stopped"
+      "Idle|Started|Stopped"
     </State>
 
 ### Child Elements

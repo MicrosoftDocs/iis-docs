@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Lists the currently processing modules.
 
     <Modules>
-      <Module />
+      <Module />
     </Modules>
 
 ### Child Elements

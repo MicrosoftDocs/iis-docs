@@ -10,7 +10,7 @@ Removes a configuration section from the current configuration location.
   
 ```cpp  
 HRESULT DeleteConfigSection(  
-   [in] VARIANT cIndex  
+   [in] VARIANT cIndex  
 );  
 ```  
   

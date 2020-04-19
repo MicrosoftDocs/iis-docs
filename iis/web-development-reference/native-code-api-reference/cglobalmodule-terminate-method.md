@@ -10,7 +10,7 @@ Represents the method that IIS calls when a global module has completed processi
   
 ```cpp  
 virtual VOID Terminate(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

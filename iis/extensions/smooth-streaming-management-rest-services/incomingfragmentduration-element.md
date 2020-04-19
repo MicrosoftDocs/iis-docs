@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the duration of the last fragment that was received for the track, measured in timescale units of the encoder.
 
     <IncomingFragmentDuration>
-      "duration"
+      "duration"
     </IncomingFragmentDuration>
 
 ### Child Elements

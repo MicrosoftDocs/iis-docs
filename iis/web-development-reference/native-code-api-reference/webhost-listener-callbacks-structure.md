@@ -10,21 +10,21 @@ Defines a pointer to the callback structure that is passed to the [WebhostRegist
   
 ```cpp  
 struct WEBHOST_LISTENER_CALLBACKS{  
-   DWORD dwBytesInCallbackStructure;  
-   PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED pfnWebhostListenerConfigManagerConnected;  
-   PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT pfnWebhostListenerConfigManagerDisconnected;  
-   PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED pfnWebhostListenerConfigManagerInitializationCompleted;  
-   PFN_WEBHOST_LISTENER_APPLICATION_POOL_CREATED pfnWebhostListenerApplicationPoolCreated;  
-   PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED pfnWebhostListenerApplicationPoolDeleted;  
-   PFN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED pfnWebhostListenerApplicationPoolIdentityChanged;  
-   PFN_WEBHOST_LISTENER_APPLICATION_POOL_STATE_CHANGED pfnWebhostListenerApplicationPoolStateChanged;  
-   PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE pfnWebhostListenerApplicationPoolCanOpenNewListenerChannelInstance;  
-   PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED pfnWebhostListenerApplicationPoolAllListenerChannelInstancesStopped;  
-   PFN_WEBHOST_LISTENER_APPLICATION_CREATED pfnWebhostListenerApplicationCreated;  
-   PFN_WEBHOST_LISTENER_APPLICATION_DELETED pfnWebhostListenerApplicationDeleted;  
-   PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED pfnWebhostListenerApplicationBindingsChanged;  
-   PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED pfnWebhostListenerApplicationAppPoolChanged;  
-   PFN_WEBHOST_LISTENER_APPLICATION_REQUESTS_BLOCKED_CHANGED pfnWebhostListenerApplicationRequestsBlockedChanged;  
+   DWORD dwBytesInCallbackStructure;  
+   PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED pfnWebhostListenerConfigManagerConnected;  
+   PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT pfnWebhostListenerConfigManagerDisconnected;  
+   PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED pfnWebhostListenerConfigManagerInitializationCompleted;  
+   PFN_WEBHOST_LISTENER_APPLICATION_POOL_CREATED pfnWebhostListenerApplicationPoolCreated;  
+   PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED pfnWebhostListenerApplicationPoolDeleted;  
+   PFN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED pfnWebhostListenerApplicationPoolIdentityChanged;  
+   PFN_WEBHOST_LISTENER_APPLICATION_POOL_STATE_CHANGED pfnWebhostListenerApplicationPoolStateChanged;  
+   PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE pfnWebhostListenerApplicationPoolCanOpenNewListenerChannelInstance;  
+   PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED pfnWebhostListenerApplicationPoolAllListenerChannelInstancesStopped;  
+   PFN_WEBHOST_LISTENER_APPLICATION_CREATED pfnWebhostListenerApplicationCreated;  
+   PFN_WEBHOST_LISTENER_APPLICATION_DELETED pfnWebhostListenerApplicationDeleted;  
+   PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED pfnWebhostListenerApplicationBindingsChanged;  
+   PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED pfnWebhostListenerApplicationAppPoolChanged;  
+   PFN_WEBHOST_LISTENER_APPLICATION_REQUESTS_BLOCKED_CHANGED pfnWebhostListenerApplicationRequestsBlockedChanged;  
 };  
 ```  
   

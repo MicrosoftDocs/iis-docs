@@ -10,7 +10,7 @@ Decrements the reference count for the [IWpfReferencedObject](../../web-developm
   
 ```cpp  
 virtual ULONG Release (  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

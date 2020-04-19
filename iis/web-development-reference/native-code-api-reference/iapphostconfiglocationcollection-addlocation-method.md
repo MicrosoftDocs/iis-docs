@@ -10,10 +10,10 @@ Adds a new configuration location to the collection.
   
 ```cpp  
 HRESULT AddLocation(  
-   [in,  
-   string] BSTR bstrLocationPath,  
-   [out,  
-   retval] IAppHostConfigLocation** ppNewLocation  
+   [in,  
+   string] BSTR bstrLocationPath,  
+   [out,  
+   retval] IAppHostConfigLocation** ppNewLocation  
 );  
 ```  
   

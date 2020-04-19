@@ -10,7 +10,7 @@ Returns the HTTP method for the current request.
   
 ```cpp  
 virtual PCSTR GetHttpMethod(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

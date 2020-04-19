@@ -10,7 +10,7 @@ mtps_version: v=VS.90
 
 # Microsoft Web Platform Installer
 
-The Microsoft Web Platform Installer (Web PI) is a free tool that makes it simple to download, install and keep up-to-date with the latest components of the Microsoft Web Platform, including Internet Information Services (IIS), IIS Media Platform technologies, SQL Server Express, .NET Framework, and Visual Web Developer.
+The Microsoft Web Platform Installer (Web PI) is a free tool that makes it simple to download, install and keep up-to-date with the latest components of the Microsoft Web Platform, including Internet Information Services (IIS), IIS Media Platform technologies, SQL Server Express, .NET Framework, and Visual Web Developer.
 
 ## In This Section
 

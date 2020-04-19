@@ -10,8 +10,8 @@ Runs an HTTP request given its context and user information.
   
 ```cpp  
 Virtual HRESULT ExecuteRequest(  
-   _In_ IHttpContext *         pHttpContext,  
-   _In_ IHttpUser *            pHttpUser  
+   _In_ IHttpContext *         pHttpContext,  
+   _In_ IHttpUser *            pHttpUser  
 ) = 0;  
 ```  
   

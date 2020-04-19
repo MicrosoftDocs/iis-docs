@@ -10,9 +10,9 @@ Gets the [IAppHostPropertySchema Interface](../../web-development-reference/nati
   
 ```cpp  
 [propget, id(DISPID_VALUE)] HRESULT Item(  
-   [in] VARIANT cIndex,  
-   [out,  
-   retval] IAppHostPropertySchema** ppPropertySchema  
+   [in] VARIANT cIndex,  
+   [out,  
+   retval] IAppHostPropertySchema** ppPropertySchema  
 );  
 ```  
   

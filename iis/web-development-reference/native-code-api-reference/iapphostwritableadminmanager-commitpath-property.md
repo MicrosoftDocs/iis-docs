@@ -10,12 +10,12 @@ Gets or sets the configuration path where changes should be committed.
   
 ```cpp  
 HRESULT get_CommitPath(  
-   [out,  
-   retval,  
-   string] BSTR* pbstrCommitPath  
+   [out,  
+   retval,  
+   string] BSTR* pbstrCommitPath  
 );  
 HRESULT put_CommitPath(  
-   BSTR bstrCommitPath  
+   BSTR bstrCommitPath  
 );  
 ```  
   

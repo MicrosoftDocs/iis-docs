@@ -10,7 +10,7 @@ Sets the HTTP method for the request.
   
 ```cpp  
 virtual HRESULT SetHttpMethod(  
-   IN PCSTR pszHttpMethod  
+   IN PCSTR pszHttpMethod  
 ) = 0;  
 ```  
   

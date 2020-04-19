@@ -10,8 +10,8 @@ Represents the method that will handle a `LogRequest` post-event, which occurs a
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnPostLogRequest(  
-   IN IHttpContext* pHttpContext,  
-   IN IHttpEventProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IHttpEventProvider* pProvider  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the managed type for a request handler.
   
 ```cpp  
 virtual PCWSTR GetManagedType(  
-   DWORD* pcchManagedType = NULL  
+   DWORD* pcchManagedType = NULL  
 ) const = 0;  
 ```  
   

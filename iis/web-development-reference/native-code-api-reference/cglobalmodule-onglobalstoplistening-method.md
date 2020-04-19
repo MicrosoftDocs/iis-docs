@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalStopListening` event, which occu
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalStopListening(  
-   IN IGlobalStopListeningProvider* pProvider  
+   IN IGlobalStopListeningProvider* pProvider  
 );  
 ```  
   

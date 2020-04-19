@@ -10,7 +10,7 @@ Retrieves the resource type for a request handler.
   
 ```cpp  
 virtual DWORD GetResourceType(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   
@@ -25,10 +25,10 @@ virtual DWORD GetResourceType(
   
 ```  
 <attribute name="resourceType" type="enum" defaultValue="Unspecified">  
-   <enum name="File" value="0" />  
-   <enum name="Directory" value="1" />  
-   <enum name="Either" value="2" />  
-   <enum name="Unspecified" value="3" />  
+   <enum name="File" value="0" />  
+   <enum name="Directory" value="1" />  
+   <enum name="Either" value="2" />  
+   <enum name="Unspecified" value="3" />  
 </attribute>  
 ```  
   

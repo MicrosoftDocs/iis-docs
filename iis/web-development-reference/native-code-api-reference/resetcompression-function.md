@@ -10,7 +10,7 @@ Resets the compression context.
   
 ```cpp  
 HRESULT WINAPI ResetCompression(  
-   IN OUT PVOID context  
+   IN OUT PVOID context  
 );  
 ```  
   

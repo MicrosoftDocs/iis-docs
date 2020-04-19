@@ -10,9 +10,9 @@ Enables the worker process framework to request support functions for Run-Time S
   
 ```cpp  
 virtual HRESULT RunCustomAction(  
-   IN PCWSTR pszFunctionName,  
-   IN PCWSTR pszFunctionArgs,  
-   IN ICustomActionResultCallback* pCompletionCallbackClass  
+   IN PCWSTR pszFunctionName,  
+   IN PCWSTR pszFunctionArgs,  
+   IN ICustomActionResultCallback* pCompletionCallbackClass  
 ) = 0 ;  
 ```  
   

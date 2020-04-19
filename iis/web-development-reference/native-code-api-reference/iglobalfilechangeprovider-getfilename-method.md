@@ -10,7 +10,7 @@ Retrieves the full path to a file that has been changed.
   
 ```cpp  
 virtual PCWSTR GetFileName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

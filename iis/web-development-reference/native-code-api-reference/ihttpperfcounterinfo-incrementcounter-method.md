@@ -10,8 +10,8 @@ Increments a performance counter by a specified amount.
   
 ```cpp  
 virtual VOID IncrementCounter(  
-   DWORD dwCounterIndex,  
-   DWORD dwValue = 1  
+   DWORD dwCounterIndex,  
+   DWORD dwValue = 1  
 ) = 0;  
 ```  
   

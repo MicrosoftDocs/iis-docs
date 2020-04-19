@@ -10,7 +10,7 @@ Retrieves the required-access setting for the script processor.
   
 ```cpp  
 virtual DWORD GetRequiredAccess(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   
@@ -25,11 +25,11 @@ virtual DWORD GetRequiredAccess(
   
 ```  
 <attribute name="requireAccess" type="enum" defaultValue="Script">  
-   <enum name="None" value="0" />  
-   <enum name="Read" value="1" />  
-   <enum name="Write" value="2" />  
-   <enum name="Script" value="3" />  
-   <enum name="Execute" value="4" />  
+   <enum name="None" value="0" />  
+   <enum name="Read" value="1" />  
+   <enum name="Write" value="2" />  
+   <enum name="Script" value="3" />  
+   <enum name="Execute" value="4" />  
 </attribute>  
 ```  
   

@@ -10,8 +10,8 @@ Gets the contents of the line after the line in the configuration file that caus
   
 ```cpp  
 HRESULT get_PostErrorLine(  
-   [out,  
-   retval] BSTR* pbstrPostErrorLine  
+   [out,  
+   retval] BSTR* pbstrPostErrorLine  
 );  
 ```  
   

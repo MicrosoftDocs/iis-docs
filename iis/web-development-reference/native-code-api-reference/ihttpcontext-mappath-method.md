@@ -10,9 +10,9 @@ Returns the physical path of a relative URL.
   
 ```cpp  
 virtual HRESULT MapPath(  
-   PCWSTR pszUrl,  
-   __out_bcount(* pcbPhysicalPath) PWSTR pszPhysicalPath,  
-   DWORD* pcbPhysicalPath  
+   PCWSTR pszUrl,  
+   __out_bcount(* pcbPhysicalPath) PWSTR pszPhysicalPath,  
+   DWORD* pcbPhysicalPath  
 ) = 0;  
 ```  
   

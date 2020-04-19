@@ -10,8 +10,8 @@ Gets the persisted string value of the property that is stored in XML by the con
   
 ```cpp  
 HRESULT get_StringValue(  
-   [out,  
-   retval] BSTR* pbstrValue  
+   [out,  
+   retval] BSTR* pbstrValue  
 );  
 ```  
   

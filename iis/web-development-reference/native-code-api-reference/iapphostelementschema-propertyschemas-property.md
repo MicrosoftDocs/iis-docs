@@ -10,8 +10,8 @@ Gets a collection of schemas for the [IAppHostProperty Interface](../../web-deve
   
 ```cpp  
 [propget] HRESULT PropertySchemas(  
-   [out,  
-   retval] IAppHostPropertySchemaCollection * ppPropertySChemas  
+   [out,  
+   retval] IAppHostPropertySchemaCollection * ppPropertySChemas  
 );  
 ```  
   

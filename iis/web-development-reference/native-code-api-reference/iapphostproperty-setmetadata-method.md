@@ -10,9 +10,9 @@ Sets metadata for the current property.
   
 ```cpp  
 HRESULT SetMetadata(  
-   [in,  
-   string] BSTR bstrMetadataType,  
-   [in] VARIANT value  
+   [in,  
+   string] BSTR bstrMetadataType,  
+   [in] VARIANT value  
 );  
 ```  
   

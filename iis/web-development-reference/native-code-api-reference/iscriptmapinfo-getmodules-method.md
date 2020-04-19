@@ -10,7 +10,7 @@ Retrieves the list of modules for a request handler.
   
 ```cpp  
 virtual PCWSTR GetModules(  
-   DWORD* pcchModules = NULL  
+   DWORD* pcchModules = NULL  
 ) const = 0;  
 ```  
   

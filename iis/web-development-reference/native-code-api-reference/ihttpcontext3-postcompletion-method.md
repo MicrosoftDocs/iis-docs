@@ -10,9 +10,9 @@ Posts the completion of the asynchronous operation.
   
 ```cpp  
 virtual HRESULT PostCompletion(  
-   DWORD                             cbBytes,  
-   LPOVERLAPPED_COMPLETION_ROUTINE   pfnCompletionRoutine,  
-   VOID *                            pvCompletionContext  
+   DWORD                             cbBytes,  
+   LPOVERLAPPED_COMPLETION_ROUTINE   pfnCompletionRoutine,  
+   VOID *                            pvCompletionContext  
 ) = 0;  
 ```  
   

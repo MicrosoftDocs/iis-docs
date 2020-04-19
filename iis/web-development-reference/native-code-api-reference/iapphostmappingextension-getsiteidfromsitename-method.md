@@ -10,10 +10,10 @@ Gets a unique identifier for a site by using the name of the site.
   
 ```cpp  
 HRESULT GetSiteIdFromSiteName(  
-   [in,  
-   string] BSTR bstrSiteName,  
-   [out,  
-   retval] DWORD* pdwSiteId  
+   [in,  
+   string] BSTR bstrSiteName,  
+   [out,  
+   retval] DWORD* pdwSiteId  
 );  
 ```  
   

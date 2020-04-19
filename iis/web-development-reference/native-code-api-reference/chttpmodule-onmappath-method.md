@@ -10,8 +10,8 @@ Represents the method that will handle a `MapPath` event, which occurs when an o
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnMapPath(  
-   IN IHttpContext* pHttpContext,  
-   IN IMapPathProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IMapPathProvider* pProvider  
 );  
 ```  
   

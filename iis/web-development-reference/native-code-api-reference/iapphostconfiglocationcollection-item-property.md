@@ -10,9 +10,9 @@ Gets a configuration location at the requested index from the current collection
   
 ```cpp  
 HRESULT get_Item(  
-   [in] VARIANT varIndex,  
-   [out,  
-   retval] IAppHostConfigLocation** ppLocation  
+   [in] VARIANT varIndex,  
+   [out,  
+   retval] IAppHostConfigLocation** ppLocation  
 );  
 ```  
   

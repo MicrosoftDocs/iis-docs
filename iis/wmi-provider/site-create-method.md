@@ -10,19 +10,19 @@ Creates a new Web site.
   
 ```vbs  
 objAppSrv.Get("Site").Create(  
-   SiteName,  
-   Bindings[],  
-   PhysicalPath,  
-   ServerAutoStart  
+   SiteName,  
+   Bindings[],  
+   PhysicalPath,  
+   ServerAutoStart  
 )  
 ```  
   
 ```jscript#  
 var newsite = appsrv.Get("Site").Create(  
-   SiteName,  
-   Bindings[],  
-   PhysicalPath,  
-   ServerAutoStart  
+   SiteName,  
+   Bindings[],  
+   PhysicalPath,  
+   ServerAutoStart  
 );  
 ```  
   

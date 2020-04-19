@@ -10,8 +10,8 @@ Gets the schema assigned to the current property.
   
 ```cpp  
 HRESULT get_Schema(  
-   [out,  
-   retval] IAppHostPropertySchema** ppSchema  
+   [out,  
+   retval] IAppHostPropertySchema** ppSchema  
 );  
 ```  
   

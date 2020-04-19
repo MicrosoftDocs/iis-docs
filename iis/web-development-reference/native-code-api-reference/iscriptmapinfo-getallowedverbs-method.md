@@ -10,7 +10,7 @@ Retrieves the list of allowed verbs for a script map.
   
 ```cpp  
 virtual PCSTR GetAllowedVerbs(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

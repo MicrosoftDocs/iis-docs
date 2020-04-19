@@ -10,7 +10,7 @@ Returns the cache record for the cache provider.
   
 ```cpp  
 virtual IHttpCacheSpecificData* GetCacheRecord(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Creates a new `BYTE` array.
   
 ```cpp  
 virtual HRESULT GetOutputBuffer(  
-   DWORD cbBuffer,  
-   OUT BYTE** ppbBuffer  
+   DWORD cbBuffer,  
+   OUT BYTE** ppbBuffer  
 ) = 0;  
 ```  
   

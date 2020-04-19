@@ -10,11 +10,11 @@ Requests that a listener channel be started in a worker process for this applica
   
 ```cpp  
 HRESULT WebhostOpenListenerChannelInstance(  
-   IN DWORD ProtocolHandle,  
-   IN LPCWSTR AppPoolId,  
-   IN DWORD ListenerChannelId,  
-   IN PBYTE ListenerChannelBlob,  
-   IN DWORD ListenerChannelBlobByteCount  
+   IN DWORD ProtocolHandle,  
+   IN LPCWSTR AppPoolId,  
+   IN DWORD ListenerChannelId,  
+   IN PBYTE ListenerChannelBlob,  
+   IN DWORD ListenerChannelBlobByteCount  
 );  
 ```  
   
