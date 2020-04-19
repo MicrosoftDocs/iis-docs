@@ -26,17 +26,17 @@ virtual BOOL DrainRequestsGracefully(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Registers for the [GL_STOP_LISTENING](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
+1. Registers for the [GL_STOP_LISTENING](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains an [OnGlobalStopListening](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md) method. This method performs the following tasks:  
+2. Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains an [OnGlobalStopListening](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md) method. This method performs the following tasks:  
   
-    1.  Retrieves the status that IIS will use to close current requests by using the `DrainRequestsGracefully` method.  
+    1. Retrieves the status that IIS will use to close current requests by using the `DrainRequestsGracefully` method.  
   
-    2.  Formats a string that contains the status information.  
+    2. Formats a string that contains the status information.  
   
-    3.  Writes the string as an event to the application log of the Event Viewer.  
+    3. Writes the string as an event to the application log of the Event Viewer.  
   
-3.  Removes the `CGlobalModule` class from memory and then exits.  
+3. Removes the `CGlobalModule` class from memory and then exits.  
   
  [!code-cpp[IGlobalStopListeningProviderDrainRequestsGracefully#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalStopListeningProviderDrainRequestsGracefully/cpp/IGlobalStopListeningProviderDrainRequestsGracefully.cpp#1)]  
   

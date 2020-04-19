@@ -36,19 +36,19 @@ virtual DWORD GetExecuteFlags(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  The module registers for the [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
+1. The module registers for the [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains an [OnSendResponse](../../web-development-reference/native-code-api-reference/chttpmodule-onsendresponse-method.md) method.  
+2. The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains an [OnSendResponse](../../web-development-reference/native-code-api-reference/chttpmodule-onsendresponse-method.md) method.  
   
-3.  When a Web client requests a URL, IIS calls the module's `OnSendResponse` method. This method performs the following tasks:  
+3. When a Web client requests a URL, IIS calls the module's `OnSendResponse` method. This method performs the following tasks:  
   
-    1.  Clears the existing response buffer and sets the MIME type for the response.  
+    1. Clears the existing response buffer and sets the MIME type for the response.  
   
-    2.  Retrieves the execution flags for the current context by using the `GetExecuteFlags` method.  
+    2. Retrieves the execution flags for the current context by using the `GetExecuteFlags` method.  
   
-    3.  Tests for individual execution flags and returns the status to the Web client.  
+    3. Tests for individual execution flags and returns the status to the Web client.  
   
-4.  The module removes the `CHttpModule` class from memory and then exits.  
+4. The module removes the `CHttpModule` class from memory and then exits.  
   
  [!code-cpp[IHttpContextGetExecuteFlags#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetExecuteFlags/cpp/IHttpContextGetExecuteFlags.cpp#1)]  
   

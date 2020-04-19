@@ -19,11 +19,11 @@ Creates a COM object using the specified class ID (CLSID).
   
 ### Parameters  
   
--   [in] `clsidObject`  
+- [in] `clsidObject`  
   
      The class ID (CLSID) of the COM object to create.  
   
--   [out, retval] `* pObject`  
+- [out, retval] `* pObject`  
   
      The COM object that is created.  
   

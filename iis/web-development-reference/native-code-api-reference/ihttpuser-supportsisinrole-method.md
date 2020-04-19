@@ -23,9 +23,9 @@ virtual BOOL SupportsIsInRole(
 ## Remarks  
  The `SupportsIsInRole` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   If the [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) implementer handles managed or anonymous authentication, `SupportsIsInRole` returns `true`.  
+- If the [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) implementer handles managed or anonymous authentication, `SupportsIsInRole` returns `true`.  
   
--   If the `IHttpUser` implementer implements Custom, Basic, Certification Mapping, or SSPI authentication, `SupportsIsInRole` returns `false`.  
+- If the `IHttpUser` implementer implements Custom, Basic, Certification Mapping, or SSPI authentication, `SupportsIsInRole` returns `false`.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  

@@ -34,15 +34,15 @@ virtual VOID* GetLogData(
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the `GetReadyToLogData` method to determine whether IIS is ready to log information. The module completes the following steps:  
   
-1.  Uses the `GetLogData` method to retrieve an `HTTP_LOG_FIELDS_DATA` structure.  
+1. Uses the `GetLogData` method to retrieve an `HTTP_LOG_FIELDS_DATA` structure.  
   
-2.  Uses this structure to retrieve the server name from the log information.  
+2. Uses this structure to retrieve the server name from the log information.  
   
-3.  Modifies the server port in the log entry.  
+3. Modifies the server port in the log entry.  
   
-4.  Uses the [SetLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-setlogdata-method.md) method to submit the modified log information to IIS.  
+4. Uses the [SetLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-setlogdata-method.md) method to submit the modified log information to IIS.  
   
-5.  Returns the server name to a Web client and then exits.  
+5. Returns the server name to a Web client and then exits.  
   
  [!code-cpp[ISendResponseProviderGetLogData#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/ISendResponseProviderGetLogData/cpp/ISendResponseProviderGetLogData.cpp#1)]  
   

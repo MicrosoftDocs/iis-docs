@@ -27,13 +27,13 @@ virtual PCWSTR GetErrorDescription(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Retrieves a pointer to an [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md) interface by using the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method.  
+1. Retrieves a pointer to an [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md) interface by using the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method.  
   
-2.  Retrieves the current HTTP status code by using the [IHttpResponse::GetStatus](../../web-development-reference/native-code-api-reference/ihttpresponse-getstatus-method.md) method.  
+2. Retrieves the current HTTP status code by using the [IHttpResponse::GetStatus](../../web-development-reference/native-code-api-reference/ihttpresponse-getstatus-method.md) method.  
   
-3.  If the current HTTP status code is a 404.0 error, retrieves the current custom error description by using the `GetErrorDescription` method.  
+3. If the current HTTP status code is a 404.0 error, retrieves the current custom error description by using the `GetErrorDescription` method.  
   
-4.  If no custom error description is currently defined, sets the custom error description by using the [IHttpResponse::SetErrorDescription](../../web-development-reference/native-code-api-reference/ihttpresponse-seterrordescription-method.md) method.  
+4. If no custom error description is currently defined, sets the custom error description by using the [IHttpResponse::SetErrorDescription](../../web-development-reference/native-code-api-reference/ihttpresponse-seterrordescription-method.md) method.  
   
  [!code-cpp[IHttpResponseSetErrorDescription#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseSetErrorDescription/cpp/IHttpResponseSetErrorDescription.cpp#1)]  
   

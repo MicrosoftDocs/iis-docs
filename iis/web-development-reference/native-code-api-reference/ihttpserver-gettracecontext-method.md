@@ -26,11 +26,11 @@ virtual IHttpTraceContext* GetTraceContext(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Retrieves a pointer to an `IHttpTraceContext` interface by using the `IHttpServer::GetTraceContext` method.  
+1. Retrieves a pointer to an `IHttpTraceContext` interface by using the `IHttpServer::GetTraceContext` method.  
   
-2.  Retrieves the trace activity GUID by using the [IHttpTraceContext::GetTraceActivityId](../../web-development-reference/native-code-api-reference/ihttptracecontext-gettraceactivityid-method.md) method.  
+2. Retrieves the trace activity GUID by using the [IHttpTraceContext::GetTraceActivityId](../../web-development-reference/native-code-api-reference/ihttptracecontext-gettraceactivityid-method.md) method.  
   
-3.  Creates a string that contains the trace activity GUID and writes the string to the Event Viewer.  
+3. Creates a string that contains the trace activity GUID and writes the string to the Event Viewer.  
   
  [!code-cpp[IHttpServerGetTraceContext#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerGetTraceContext/cpp/IHttpServerGetTraceContext.cpp#1)]  
   

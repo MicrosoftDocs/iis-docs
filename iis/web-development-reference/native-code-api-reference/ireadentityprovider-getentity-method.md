@@ -38,11 +38,11 @@ virtual VOID GetEntity(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Retrieves the request entity by using the `GetEntity` method.  
+1. Retrieves the request entity by using the `GetEntity` method.  
   
-2.  Creates an array of strings that contain the size of the request entity data and the buffer size.  
+2. Creates an array of strings that contain the size of the request entity data and the buffer size.  
   
-3.  Writes an Event Viewer log entry that contains the request entity information, and then exits.  
+3. Writes an Event Viewer log entry that contains the request entity information, and then exits.  
   
  [!code-cpp[IReadEntityProviderGetEntity#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IReadEntityProviderGetEntity/cpp/IReadEntityProviderGetEntity.cpp#1)]  
   

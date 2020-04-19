@@ -25,9 +25,9 @@ virtual VOID ResetTTL(
   
  The behavior of the `ResetTTL` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Classes that implement the `IHttpCacheSpecificData` or [IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md) interfaces initialize the internal count to 2 at construction, and decrement that count by 1 on each call to `DecrementTTL`.  
+- Classes that implement the `IHttpCacheSpecificData` or [IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md) interfaces initialize the internal count to 2 at construction, and decrement that count by 1 on each call to `DecrementTTL`.  
   
--   Classes that implement the [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface are varied. Some classes implement the scheme defined above, while others perform empty operations on both `ResetTTL` and `DecrementTTL`.  
+- Classes that implement the [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface are varied. Some classes implement the scheme defined above, while others perform empty operations on both `ResetTTL` and `DecrementTTL`.  
   
 ## Notes for Implementers  
  The `DecrementTTL` and `ResetTTL` method implementations must be thread safe for an `IHttpCacheSpecificData` pointer.  

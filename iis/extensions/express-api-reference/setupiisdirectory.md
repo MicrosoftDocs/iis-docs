@@ -18,7 +18,7 @@ SetupIISDirectory(
   
 ### Parameters  
   
--   [in] `fOverride`.  
+- [in] `fOverride`.  
   
      True to specify that the method can override existing files; otherwise, false.  
   

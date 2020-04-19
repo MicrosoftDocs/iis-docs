@@ -25,9 +25,9 @@ virtual const BYTE* GetFileBuffer(
   
  The behavior of the `GetFileBuffer` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Implementers that reference an Internet file return NULL.  
+- Implementers that reference an Internet file return NULL.  
   
--   Implementers that reference a non-Internet file return a `BYTE` pointer in memory that contains data from the file, if that file can be opened. Otherwise, these implementers return NULL.  
+- Implementers that reference a non-Internet file return a `BYTE` pointer in memory that contains data from the file, if that file can be opened. Otherwise, these implementers return NULL.  
   
 ## Notes for Implementers  
  [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpFileInfo` implementers that use dynamic memory allocation must release or call `delete`[] on the `BYTE` pointer when it is no longer needed.  

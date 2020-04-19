@@ -23,9 +23,9 @@ virtual PCWSTR GetVrPath(
 ## Remarks  
  The behavior of the `GetVrPath` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Implementers that reference an Internet file return a constant null-terminated string.  
+- Implementers that reference an Internet file return a constant null-terminated string.  
   
--   Implementers that reference a non-Internet file return NULL.  
+- Implementers that reference a non-Internet file return NULL.  
   
 > [!CAUTION]
 >  Because some implementers return NULL on the `GetVrPath` method, always test for this condition before dereferencing the returned pointer.  

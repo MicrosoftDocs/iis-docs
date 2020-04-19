@@ -19,11 +19,11 @@ Creates a COM object using the specified ProgID.
   
 ### Parameters  
   
--   [in, string] `bstrObjectName`  
+- [in, string] `bstrObjectName`  
   
      The ProgID of the COM object to create.  
   
--   [out, retval] `* pObject`  
+- [out, retval] `* pObject`  
   
      The COM object that is created.  
   

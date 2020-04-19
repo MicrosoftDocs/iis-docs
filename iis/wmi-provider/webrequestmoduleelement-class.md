@@ -31,13 +31,13 @@ class WebRequestModuleElement : CollectionElement
   
  The [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)] provides Web request modules that create requests for resources with the following prefixes:  
   
--   HTTP  
+- HTTP  
   
--   HTTPS  
+- HTTPS  
   
--   FTP  
+- FTP  
   
--   FILE  
+- FILE  
   
 ## Inheritance Hierarchy  
  [CollectionElement](../wmi-provider/collectionelement-class.md)  

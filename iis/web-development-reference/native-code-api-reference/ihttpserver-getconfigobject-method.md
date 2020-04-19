@@ -26,17 +26,17 @@ virtual INativeConfigurationSystem* GetConfigObject(
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the [IHttpContext::GetMetadata](../../web-development-reference/native-code-api-reference/ihttpcontext-getmetadata-method.md) method to retrieve a pointer to an [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md) interface. The module completes the following steps:  
   
-1.  Uses the [IMetadataInfo::GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method to retrieve the configuration path for the current request.  
+1. Uses the [IMetadataInfo::GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method to retrieve the configuration path for the current request.  
   
-2.  Uses the `GetConfigObject` method to retrieve a pointer to an `INativeConfigurationSystem` interface.  
+2. Uses the `GetConfigObject` method to retrieve a pointer to an `INativeConfigurationSystem` interface.  
   
-3.  Passes the configuration path for the current request to the `INativeConfigurationSystem::GetConfigSection` method.  
+3. Passes the configuration path for the current request to the `INativeConfigurationSystem::GetConfigSection` method.  
   
-4.  Retrieves an `INativeConfigurationElement` interface for the log settings for IIS.  
+4. Retrieves an `INativeConfigurationElement` interface for the log settings for IIS.  
   
-5.  Uses the [INativeConfigurationElement::GetBooleanProperty](https://msdn.microsoft.com/6f2c8f06-b85d-1e93-ab1b-771a6e1e3ca7) method to retrieve a value that indicates whether logging is enabled for the current request context.  
+5. Uses the [INativeConfigurationElement::GetBooleanProperty](https://msdn.microsoft.com/6f2c8f06-b85d-1e93-ab1b-771a6e1e3ca7) method to retrieve a value that indicates whether logging is enabled for the current request context.  
   
-6.  Returns this information to a Web client and then exits.  
+6. Returns this information to a Web client and then exits.  
   
  [!code-cpp[IMetadataInfoGetMetaPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMetadataInfoGetMetaPath/cpp/IMetadataInfoGetMetaPath.cpp#1)]  
   

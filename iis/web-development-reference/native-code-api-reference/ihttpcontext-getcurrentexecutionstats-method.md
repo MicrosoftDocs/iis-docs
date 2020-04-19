@@ -57,23 +57,23 @@ virtual HRESULT GetCurrentExecutionStats(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md), [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md), and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
+1. The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md), [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md), and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
   
-2.  The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md), [OnMapRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onmaprequesthandler-method.md), and [OnSendResponse](../../web-development-reference/native-code-api-reference/chttpmodule-onsendresponse-method.md) methods.  
+2. The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md), [OnMapRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onmaprequesthandler-method.md), and [OnSendResponse](../../web-development-reference/native-code-api-reference/chttpmodule-onsendresponse-method.md) methods.  
   
-3.  When a Web client requests a URL, IIS calls the module's `OnBeginRequest`, `OnMapRequestHandler`, and `OnSendResponse` methods. Each of these methods calls a private method named `RetrieveExecutionStats` that performs the following tasks:  
+3. When a Web client requests a URL, IIS calls the module's `OnBeginRequest`, `OnMapRequestHandler`, and `OnSendResponse` methods. Each of these methods calls a private method named `RetrieveExecutionStats` that performs the following tasks:  
   
-    1.  Retrieves the execution statistics by using the `GetCurrentExecutionStats` method and tests for an error.  
+    1. Retrieves the execution statistics by using the `GetCurrentExecutionStats` method and tests for an error.  
   
-    2.  Creates a string that contains the tick count for the start of the current notification.  
+    2. Creates a string that contains the tick count for the start of the current notification.  
   
-    3.  Pauses for one second.  
+    3. Pauses for one second.  
   
-    4.  Creates a string that contains the elapsed tick count from the start of the current notification.  
+    4. Creates a string that contains the elapsed tick count from the start of the current notification.  
   
-    5.  Writes the execution statistics as an event to the application log of the Event Viewer.  
+    5. Writes the execution statistics as an event to the application log of the Event Viewer.  
   
-4.  The module removes the `CHttpModule` class from memory and then exits.  
+4. The module removes the `CHttpModule` class from memory and then exits.  
   
  [!code-cpp[IHttpContextGetCurrentExecutionStats#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetCurrentExecutionStats/cpp/IHttpContextGetCurrentExecutionStats.cpp#1)]  
   

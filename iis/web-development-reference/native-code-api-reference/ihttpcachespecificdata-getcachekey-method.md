@@ -23,11 +23,11 @@ virtual IHttpCacheKey* GetCacheKey(
 ## Remarks  
  The behavior of the `GetCacheKey` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Classes that implement the [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface usually return a downcasted [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md) pointer.  
+- Classes that implement the [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface usually return a downcasted [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md) pointer.  
   
--   Classes that implement the [IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md) interface usually return a downcasted [IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md) pointer.  
+- Classes that implement the [IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md) interface usually return a downcasted [IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md) pointer.  
   
--   Classes that implement both the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) and [IHttpUrlInfo](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md) interfaces usually return a downcasted [IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md) pointer.  
+- Classes that implement both the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) and [IHttpUrlInfo](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md) interfaces usually return a downcasted [IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md) pointer.  
   
 > [!CAUTION]
 >  Before you perform any downcast operation, always verify that the cast is valid to guarantee correct program behavior.  

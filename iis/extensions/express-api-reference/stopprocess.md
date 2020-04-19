@@ -18,7 +18,7 @@ Stops the IIS Express process for the specified process ID.
   
 ### Parameters  
   
--   [in] `dwPid`  
+- [in] `dwPid`  
   
      The ID of the process to stop.  
   

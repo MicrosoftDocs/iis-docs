@@ -28,31 +28,31 @@ virtual DWORD GetCompletionBytes(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
+1. The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
   
-2.  The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md), [OnMapRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onmaprequesthandler-method.md), and `OnAsyncCompletion` methods.  
+2. The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md), [OnMapRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onmaprequesthandler-method.md), and `OnAsyncCompletion` methods.  
   
-3.  When a Web client requests a URL, IIS calls the module's `OnBeginRequest` method. This method performs the following tasks:  
+3. When a Web client requests a URL, IIS calls the module's `OnBeginRequest` method. This method performs the following tasks:  
   
-    1.  Clears the existing response buffer and sets the MIME type for the response.  
+    1. Clears the existing response buffer and sets the MIME type for the response.  
   
-    2.  Creates an example string and returns that to the Web client asynchronously.  
+    2. Creates an example string and returns that to the Web client asynchronously.  
   
-    3.  Tests for an error or asynchronous completion. If asynchronous completion is pending, the module returns a pending notification status to the integrated request-processing pipeline.  
+    3. Tests for an error or asynchronous completion. If asynchronous completion is pending, the module returns a pending notification status to the integrated request-processing pipeline.  
   
-4.  IIS then calls the module's `OnMapRequestHandler` method. This method performs the following tasks:  
+4. IIS then calls the module's `OnMapRequestHandler` method. This method performs the following tasks:  
   
-    1.  Flushes the current response buffer to the Web client.  
+    1. Flushes the current response buffer to the Web client.  
   
-    2.  Tests for an error or asynchronous completion. If asynchronous completion is pending, the module returns a pending notification status to the pipeline.  
+    2. Tests for an error or asynchronous completion. If asynchronous completion is pending, the module returns a pending notification status to the pipeline.  
   
-5.  If asynchronous completion is required, IIS calls the module's `OnAsyncCompletion` method. This method performs the following tasks:  
+5. If asynchronous completion is required, IIS calls the module's `OnAsyncCompletion` method. This method performs the following tasks:  
   
-    1.  Tests for a valid `IHttpCompletionInfo` interface. If a valid `IHttpCompletionInfo` interface was passed, the method calls the `GetCompletionBytes` and [GetCompletionStatus](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-getcompletionstatus-method.md) methods, respectively, to retrieve the completed bytes and return the status for the asynchronous operation.  
+    1. Tests for a valid `IHttpCompletionInfo` interface. If a valid `IHttpCompletionInfo` interface was passed, the method calls the `GetCompletionBytes` and [GetCompletionStatus](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-getcompletionstatus-method.md) methods, respectively, to retrieve the completed bytes and return the status for the asynchronous operation.  
   
-    2.  Creates strings that contain the completion information and writes the information as an event to the application log of the Event Viewer.  
+    2. Creates strings that contain the completion information and writes the information as an event to the application log of the Event Viewer.  
   
-6.  The module removes the `CHttpModule` class from memory and then exits.  
+6. The module removes the `CHttpModule` class from memory and then exits.  
   
  [!code-cpp[IHttpCompletionInfoIHttpCompletionInfo#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCompletionInfoIHttpCompletionInfo/cpp/IHttpCompletionInfoIHttpCompletionInfo.cpp#1)]  
   

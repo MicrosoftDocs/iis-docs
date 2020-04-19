@@ -33,9 +33,9 @@ virtual HRESULT GetCurrentHttpRequestContext(
   
  `GetCurrentHttpRequestContext` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Classes that provide HTTP trace events declare a `private``IHttpContext` pointer member variable. This variable is initialized during construction to a valid `IHttpContext` pointer. When you call `GetCurrentHttpRequestContext`, the dereferenced `ppHttpContext` parameter is set to this variable, and S_OK is returned.  
+- Classes that provide HTTP trace events declare a `private``IHttpContext` pointer member variable. This variable is initialized during construction to a valid `IHttpContext` pointer. When you call `GetCurrentHttpRequestContext`, the dereferenced `ppHttpContext` parameter is set to this variable, and S_OK is returned.  
   
--   Classes that provide global trace events do not modify the `ppHttpContext` parameter and return ERROR_NOT_SUPPORTED immediately.  
+- Classes that provide global trace events do not modify the `ppHttpContext` parameter and return ERROR_NOT_SUPPORTED immediately.  
   
 ## Notes for Implementers  
  `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` implementers that use dynamic memory allocation must release or call `delete` on the `IHttpContext` pointer when it is no longer needed.  

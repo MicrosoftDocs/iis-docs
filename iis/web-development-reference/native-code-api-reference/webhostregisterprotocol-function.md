@@ -51,11 +51,11 @@ HRESULT WebhostRegisterProtocol(
   
  For the client library to connect to the Windows Process Activation Service, the following conditions must be met:  
   
--   The `<listenerAdapters>` configuration section in the Was.config file must declare the protocol and the identity under which the listener adapters will be running.  
+- The `<listenerAdapters>` configuration section in the Was.config file must declare the protocol and the identity under which the listener adapters will be running.  
   
--   The Windows Process Activation Service must be running.  
+- The Windows Process Activation Service must be running.  
   
--   Listener adapter services should register as dependent on the Windows Process Activation Service.  
+- Listener adapter services should register as dependent on the Windows Process Activation Service.  
   
 ## Requirements  
   

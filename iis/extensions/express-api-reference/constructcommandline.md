@@ -26,23 +26,23 @@ Returns the command line that starts an IIS Express instance using the specified
   
 ### Parameters  
   
--   [in] `bstrSite`  
+- [in] `bstrSite`  
   
      The name of the site.  
   
--   [in] `bstrApplication`  
+- [in] `bstrApplication`  
   
      The name of the application.  
   
--   [in] `bstrApplicationPool`  
+- [in] `bstrApplicationPool`  
   
      The name of the application pool.  
   
--   [in] `bstrConfigPath`  
+- [in] `bstrConfigPath`  
   
      The path to the configuration files.  
   
--   [out, retval] `* pbstrCommandLine`  
+- [out, retval] `* pbstrCommandLine`  
   
      The command line that starts an IIS Express instance.  
   

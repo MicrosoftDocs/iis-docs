@@ -61,23 +61,23 @@ class HttpCompressionSection : ConfigurationSectionWithCollection
   
  The following compression properties from IIS 6.0 are no longer present in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)]:  
   
--   [HcCompressionBufferSize](<!-- TODO: review code entity reference <xref:assetId:///HcCompressionBufferSize?qualifyHint=False&amp;autoUpgrade=True>  -->)  
+- [HcCompressionBufferSize](<!-- TODO: review code entity reference <xref:assetId:///HcCompressionBufferSize?qualifyHint=False&amp;autoUpgrade=True>  -->)  
   
--   `HcCreateFlags`  
+- `HcCreateFlags`  
   
--   `HcDoOnDemandCompression`  
+- `HcDoOnDemandCompression`  
   
--   `HcFileExtensions`  
+- `HcFileExtensions`  
   
--   `HcFilesDeletedPerDiskFree`  
+- `HcFilesDeletedPerDiskFree`  
   
--   `HcIoBufferSize`  
+- `HcIoBufferSize`  
   
--   `HcMaxQueueLength`  
+- `HcMaxQueueLength`  
   
--   `HcPriority`  
+- `HcPriority`  
   
--   `HcScriptFileExtensions`  
+- `HcScriptFileExtensions`  
   
 ## Example  
  The following example displays the non-array properties in the `HttpCompressionSection` class and lists the static and dynamic compression array properties.  

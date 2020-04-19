@@ -56,15 +56,15 @@ virtual HRESULT GetManagedType(
   
  The module completes the following steps:  
   
-1.  Retrieves the site identifier for the current request.  
+1. Retrieves the site identifier for the current request.  
   
-2.  Retrieves the length needed to retrieve the managed type for the request.  
+2. Retrieves the length needed to retrieve the managed type for the request.  
   
-3.  Allocates a buffer for the managed type.  
+3. Allocates a buffer for the managed type.  
   
-4.  Retrieves the managed type.  
+4. Retrieves the managed type.  
   
-5.  Returns the result to a Web client and then exits.  
+5. Returns the result to a Web client and then exits.  
   
  [!code-cpp[IHttpServerGetManagedType#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerGetManagedType/cpp/IHttpServerGetManagedType.cpp#1)]  
   

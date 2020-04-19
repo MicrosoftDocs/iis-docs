@@ -24,9 +24,9 @@ virtual BOOL CheckIfFileHasChanged(
 ## Remarks  
  The behavior of the `CheckIfFileHasChanged` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Implementers that reference an Internet file return `false`.  
+- Implementers that reference an Internet file return `false`.  
   
--   Implementers that reference a non-Internet file return `true` if the actual file has changed or if the attributes on the file cannot be accessed.  
+- Implementers that reference a non-Internet file return `true` if the actual file has changed or if the attributes on the file cannot be accessed.  
   
 > [!CAUTION]
 >  While most implementers allow the `hUserToken` parameter to be NULL, you should provide a non-NULL value whenever possible because the implementation may change.  

@@ -28,11 +28,11 @@ class ProvidersSettings : EmbeddedObject
 ## Remarks  
  Instances of this class are contained in the `Providers` array property on the following classes:  
   
--   [ConfigProtectedDataSection](../wmi-provider/configprotecteddatasection-class.md)  
+- [ConfigProtectedDataSection](../wmi-provider/configprotecteddatasection-class.md)  
   
--   [MembershipSection](../wmi-provider/membershipsection-class.md)  
+- [MembershipSection](../wmi-provider/membershipsection-class.md)  
   
--   [RoleManagerSection](../wmi-provider/rolemanagersection-class.md)  
+- [RoleManagerSection](../wmi-provider/rolemanagersection-class.md)  
   
 > [!NOTE]
 >  Do not confuse this class with the ASP.NET-related [ProviderSettings](../wmi-provider/providersettings-class.md) class.  

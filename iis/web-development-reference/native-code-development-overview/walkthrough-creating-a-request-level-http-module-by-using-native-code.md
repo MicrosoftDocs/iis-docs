@@ -24,41 +24,41 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
 #### To create a new C++ DLL project  
   
-1.  Open [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
+1. Open [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
-2.  Verify that the global options have all the right paths to the SDK include files:  
+2. Verify that the global options have all the right paths to the SDK include files:  
   
-    1.  On the **Tools** menu, click **Options**.  
+    1. On the **Tools** menu, click **Options**.  
   
-    2.  Expand the **Projects and Solutions** node in the tree view, and then click **VC++ Directories**.  
+    2. Expand the **Projects and Solutions** node in the tree view, and then click **VC++ Directories**.  
   
-    3.  In the **Show directories for** drop-down box, select **Include files**.  
+    3. In the **Show directories for** drop-down box, select **Include files**.  
   
-    4.  Verify that the path where you installed the [!INCLUDE[winsdkshort](../../web-development-reference/native-code-development-overview/includes/winsdkshort-md.md)] include files is listed. If the path is not listed, click the **New Line** icon, and then add the path where you installed the SDK include files. The default installation directory is $(VCInstallDir)PlatformSDK\bin.  
+    4. Verify that the path where you installed the [!INCLUDE[winsdkshort](../../web-development-reference/native-code-development-overview/includes/winsdkshort-md.md)] include files is listed. If the path is not listed, click the **New Line** icon, and then add the path where you installed the SDK include files. The default installation directory is $(VCInstallDir)PlatformSDK\bin.  
   
-    5.  Click **OK**.  
+    5. Click **OK**.  
   
-3.  Create a new C++ project:  
+3. Create a new C++ project:  
   
-    1.  On the **File** menu, point to **New**, and then click **Project**.  
+    1. On the **File** menu, point to **New**, and then click **Project**.  
   
          The **New Project** dialog box opens.  
   
-    2.  In the **Project Types** pane, expand the **Visual C++** node, and then click **Win32**.  
+    2. In the **Project Types** pane, expand the **Visual C++** node, and then click **Win32**.  
   
-    3.  In the **Templates** pane, select **Win32 Project**.  
+    3. In the **Templates** pane, select **Win32 Project**.  
   
-    4.  In the **Name** box, type **HelloWorld**.  
+    4. In the **Name** box, type **HelloWorld**.  
   
-    5.  In the **Location** box, type the path for the sample.  
+    5. In the **Location** box, type the path for the sample.  
   
-    6.  Click **OK**.  
+    6. Click **OK**.  
   
          The **Win32 Application Wizard** opens.  
   
-    7.  Click **Application Settings**.  
+    7. Click **Application Settings**.  
   
-    8.  Under **Application type**, click **DLL**.  
+    8. Under **Application type**, click **DLL**.  
   
     9. Under **Additional options**, click **Empty project**.  
   
@@ -69,21 +69,21 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
 #### To add the source files to the project  
   
-1.  Create the module-definition file to export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function:  
+1. Create the module-definition file to export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function:  
   
-    1.  In Solution Explorer, right-click **Source Files**, point to **Add**, and then click **New Item**.  
+    1. In Solution Explorer, right-click **Source Files**, point to **Add**, and then click **New Item**.  
   
          The **Add New Item** dialog box opens.  
   
-    2.  Expand the **Visual C++** node in the **Categories** pane, and then click **Code**.  
+    2. Expand the **Visual C++** node in the **Categories** pane, and then click **Code**.  
   
-    3.  In the **Templates** pane, select the **Module-Definition File** template.  
+    3. In the **Templates** pane, select the **Module-Definition File** template.  
   
-    4.  In the **Name** box, type **HelloWorld**, and leave the default path for the file in the **Location** box.  
+    4. In the **Name** box, type **HelloWorld**, and leave the default path for the file in the **Location** box.  
   
-    5.  Click **Add**.  
+    5. Click **Add**.  
   
-    6.  Add a line with `EXPORTS` and `RegisterModule`. Your file should look like the code below:  
+    6. Add a line with `EXPORTS` and `RegisterModule`. Your file should look like the code below:  
   
         ```  
         LIBRARY"HelloWorld"  
@@ -94,21 +94,21 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
         > [!NOTE]
         >  Instead of creating a module-definition file, you can export the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function by using the **/EXPORT:RegisterModule** switch.  
   
-2.  Create the C++ file:  
+2. Create the C++ file:  
   
-    1.  In Solution Explorer, right-click **Source Files**, point to **Add**, and then click **New Item**.  
+    1. In Solution Explorer, right-click **Source Files**, point to **Add**, and then click **New Item**.  
   
          The **Add New Item** dialog box opens.  
   
-    2.  Expand the **Visual C++** node in the **Categories** pane, and then click **Code**.  
+    2. Expand the **Visual C++** node in the **Categories** pane, and then click **Code**.  
   
-    3.  In the **Templates** pane, select the **C++ File** template.  
+    3. In the **Templates** pane, select the **C++ File** template.  
   
-    4.  In the **Name** box, type **HelloWorld**, and leave the default path for the file in the **Location** box.  
+    4. In the **Name** box, type **HelloWorld**, and leave the default path for the file in the **Location** box.  
   
-    5.  Click **Add**.  
+    5. Click **Add**.  
   
-    6.  Add the following code:  
+    6. Add the following code:  
   
          [!code-cpp[CHttpModuleHelloWorld#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleHelloWorld/cpp/CHttpModuleHelloWorld.cpp#1)]  
   
@@ -116,15 +116,15 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
   
 #### To compile and test the project  
   
-1.  Compile the HTTP module:  
+1. Compile the HTTP module:  
   
-    1.  On the **Build** menu, click **Build Solution**.  
+    1. On the **Build** menu, click **Build Solution**.  
   
-    2.  Verify that Visual Studio did not return any errors or warnings.  
+    2. Verify that Visual Studio did not return any errors or warnings.  
   
-    3.  Add the HelloWorld.dll module (with the complete path) to the `globalModules` section of %windir%\system32\inetsrv\config\applicationHost.config file.  
+    3. Add the HelloWorld.dll module (with the complete path) to the `globalModules` section of %windir%\system32\inetsrv\config\applicationHost.config file.  
   
-2.  Use Internet Explorer to browse to your Web site; you should see "Begin Request sample " with the request count displayed.  
+2. Use Internet Explorer to browse to your Web site; you should see "Begin Request sample " with the request count displayed.  
   
 > [!NOTE]
 >  You will need to stop IIS before you link your project on subsequent builds.  
@@ -132,29 +132,29 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
 ## Troubleshooting Your Settings  
  If your module does not compile or does not work as expected, here are several areas that you can check:  
   
--   Ensure that you have specified `__stdcall` for your exported functions, or that you have configured compilation by using the `__stdcall (/Gz)` calling convention.  
+- Ensure that you have specified `__stdcall` for your exported functions, or that you have configured compilation by using the `__stdcall (/Gz)` calling convention.  
   
--   Ensure that IIS has loaded HelloWorld.dll:  
+- Ensure that IIS has loaded HelloWorld.dll:  
   
-    1.  In [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)], click **Default Web Site** in the **Connections** pane.  
+    1. In [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)], click **Default Web Site** in the **Connections** pane.  
   
-    2.  In the workspace (the center pane), select **Features View**.  
+    2. In the workspace (the center pane), select **Features View**.  
   
-    3.  In the **Group by** box, select **Category**.  
+    3. In the **Group by** box, select **Category**.  
   
-    4.  In the **Server Components** category, double-click **Modules**.  
+    4. In the **Server Components** category, double-click **Modules**.  
   
-    5.  Verify that HelloWorld module is listed.  
+    5. Verify that HelloWorld module is listed.  
   
--   Ensure that you have added the correct `RegisterModule` export to your definition file.  
+- Ensure that you have added the correct `RegisterModule` export to your definition file.  
   
--   Ensure that you have added the definition file to the project settings. To add the file to the project settings, complete the following steps:  
+- Ensure that you have added the definition file to the project settings. To add the file to the project settings, complete the following steps:  
   
-    1.  On the **Project** menu, click **Properties**.  
+    1. On the **Project** menu, click **Properties**.  
   
-    2.  Expand the **Configuration Properties** node in the tree view, expand the **Linker** node, and then click **Input**.  
+    2. Expand the **Configuration Properties** node in the tree view, expand the **Linker** node, and then click **Input**.  
   
-    3.  For the **Module Definition File** settings, ensure that your definition file is listed.  
+    3. For the **Module Definition File** settings, ensure that your definition file is listed.  
   
 ## See Also  
  [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   

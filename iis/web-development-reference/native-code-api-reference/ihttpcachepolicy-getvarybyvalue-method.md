@@ -25,11 +25,11 @@ virtual PCSTR GetVaryByValue(
   
  `GetVaryByValue` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
+- The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
   
--   The [SetVaryByValue](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-setvarybyvalue-method.md) method returns E_INVALIDARG immediately if the supplied parameter is NULL. Otherwise, the internal buffer is expanded, if necessary, to hold the contents of the parameter, including the null-termination character. The parameter, followed by the null-termination character, is then copied into this buffer. Any data in the buffer before the call to `SetVaryByValue` is overwritten during the call to `SetVaryByValue`.  
+- The [SetVaryByValue](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-setvarybyvalue-method.md) method returns E_INVALIDARG immediately if the supplied parameter is NULL. Otherwise, the internal buffer is expanded, if necessary, to hold the contents of the parameter, including the null-termination character. The parameter, followed by the null-termination character, is then copied into this buffer. Any data in the buffer before the call to `SetVaryByValue` is overwritten during the call to `SetVaryByValue`.  
   
--   `GetVaryByValue` returns the current value of this buffer.  
+- `GetVaryByValue` returns the current value of this buffer.  
   
 ## Notes for Implementers  
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` implementers that use dynamic memory allocation must release or call `delete` on the `PCSTR` pointer when it is no longer needed.  

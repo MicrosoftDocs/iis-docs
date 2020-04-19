@@ -23,9 +23,9 @@ virtual HANDLE GetVrToken(
 ## Remarks  
  The behavior of the `GetVrToken` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Implementers that reference an Internet file return a valid `HANDLE`.  
+- Implementers that reference an Internet file return a valid `HANDLE`.  
   
--   Implementers that reference a non-Internet file return NULL.  
+- Implementers that reference a non-Internet file return NULL.  
   
 > [!CAUTION]
 >  Because some implementers return NULL on the `GetVrToken` method, always test for this condition before using the returned `HANDLE`.  
