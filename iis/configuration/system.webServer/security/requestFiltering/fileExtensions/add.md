@@ -147,7 +147,7 @@ The following code samples will add an entry to the list of file name extensions
 
 [!code-powershell[Main](add/samples/sample7.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

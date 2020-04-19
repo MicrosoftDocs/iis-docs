@@ -185,7 +185,7 @@ The following code samples illustrate how to enable logging by default with dail
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](logFile/samples/sample3.cs)]
 

@@ -132,7 +132,7 @@ The following examples enable directory browsing for a site named Contoso and us
 
 [!code-console[Main](directoryBrowse/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](directoryBrowse/samples/sample3.cs)]
 

@@ -138,7 +138,7 @@ The following examples add a FastCGI mapping for a PHP module, then add a handle
 
 [!code-console[Main](add/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample4.cs)]
 

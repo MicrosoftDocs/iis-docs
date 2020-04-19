@@ -80,7 +80,7 @@ The following code samples enable validation for the Default Web Site.
 
 [!code-console[Main](validation/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](validation/samples/sample3.cs)]
 

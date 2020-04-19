@@ -131,7 +131,7 @@ The following examples demonstrate how to add a query string that will always be
 
 [!code-powershell[Main](index/samples/sample7.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

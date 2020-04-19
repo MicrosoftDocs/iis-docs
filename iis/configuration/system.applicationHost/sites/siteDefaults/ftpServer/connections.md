@@ -166,7 +166,7 @@ The following code samples illustrate how to set the default control channel tim
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](connections/samples/sample3.cs)]
 

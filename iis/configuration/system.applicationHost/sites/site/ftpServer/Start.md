@@ -135,7 +135,7 @@ Not applicable.
 
 The following examples enable you to start an FTP site programmatically.
 
-### C#
+### C\#
 
 [!code-csharp[Main](Start/samples/sample1.cs)]
 

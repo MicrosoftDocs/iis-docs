@@ -64,7 +64,7 @@ The following examples demonstrate how to add a name/value pair to the collectio
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

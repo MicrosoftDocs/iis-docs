@@ -121,7 +121,7 @@ If there is only * origin host rule, IIS CORS module does the following:
 <a id="_Sample_Code"></a>
 ## Sample Code
 
-### C#
+### C\#
 
 [!code-csharp[Main](cors-module-configuration-reference/samples/sample1.cs)]
 

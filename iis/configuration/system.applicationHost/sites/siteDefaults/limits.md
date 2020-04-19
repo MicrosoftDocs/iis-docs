@@ -94,7 +94,7 @@ The following code samples configure the default `limits` options for IIS 7 and 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](limits/samples/sample3.cs)]
 

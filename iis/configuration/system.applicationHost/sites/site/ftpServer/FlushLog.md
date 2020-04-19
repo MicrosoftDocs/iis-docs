@@ -118,7 +118,7 @@ Not applicable.
 
 The following examples enable you to flush the log buffers for an FTP site programmatically.
 
-### C#
+### C\#
 
 [!code-csharp[Main](FlushLog/samples/sample1.cs)]
 

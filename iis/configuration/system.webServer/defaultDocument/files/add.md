@@ -91,7 +91,7 @@ The following examples enable default documents on a Web site named Contoso then
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

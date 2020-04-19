@@ -143,7 +143,7 @@ The following examples demonstrate how to add a query string sequence that will 
 
 [!code-powershell[Main](index/samples/sample7.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

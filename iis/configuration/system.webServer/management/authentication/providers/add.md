@@ -118,7 +118,7 @@ The following code examples add an authentication provider named ContosoAuthenti
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

@@ -98,7 +98,7 @@ The following code samples set a custom HTTP header and value.
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

@@ -177,7 +177,7 @@ The following code samples enable static compression and disable dynamic compres
 
 [!code-console[Main](urlCompression/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](urlCompression/samples/sample3.cs)]
 

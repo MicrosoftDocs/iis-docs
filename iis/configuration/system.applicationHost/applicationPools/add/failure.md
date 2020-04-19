@@ -97,7 +97,7 @@ The following code examples enable rapid fail protection for the DefaultAppPool 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](failure/samples/sample3.cs)]
 

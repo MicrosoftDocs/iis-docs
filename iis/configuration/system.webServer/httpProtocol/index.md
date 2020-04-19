@@ -98,7 +98,7 @@ The following code samples enable HTTP keep-alives for the Default Web Site.
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

@@ -72,7 +72,7 @@ The following code samples configure the default `<hsts>` options for IIS 10.0 v
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the applicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](hsts/samples/sample3.cs)]
 

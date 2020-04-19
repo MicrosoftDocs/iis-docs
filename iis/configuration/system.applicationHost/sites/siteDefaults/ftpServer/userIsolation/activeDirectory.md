@@ -170,7 +170,7 @@ The following code samples illustrate setting several of the FTP site defaults.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](activeDirectory/samples/sample3.cs)]
 

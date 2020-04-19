@@ -107,7 +107,7 @@ The following examples configure **&lt;dynamicIpSecurity&gt;** for a site.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](denyByRequestRate/samples/sample3.cs)]
 

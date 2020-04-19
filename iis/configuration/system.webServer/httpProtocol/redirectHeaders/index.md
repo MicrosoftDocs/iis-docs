@@ -74,7 +74,7 @@ The following code samples specify a custom HTTP header and value that will only
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

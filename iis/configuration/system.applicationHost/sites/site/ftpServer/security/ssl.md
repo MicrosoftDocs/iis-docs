@@ -205,7 +205,7 @@ The following examples configure an FTP site so that it requires SSL for both th
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](ssl/samples/sample3.cs)]
 

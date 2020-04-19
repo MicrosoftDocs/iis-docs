@@ -119,7 +119,7 @@ The following code samples disable the #exec command for SSI files in the Defaul
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](serverSideInclude/samples/sample5.cs)]
 
