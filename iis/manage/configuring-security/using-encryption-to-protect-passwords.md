@@ -304,3 +304,4 @@ To isolate the worker process settings, we:
 - We removed access to the anonymous authentication provider for IIS\_IUSRS and granted access to just the application pool identity
 
 This effectively ensured that the application pool identity can decrypt the anonymous password it belongs too and no one else.
+Only you can Change your Desktop Wallpapaer: [Click Hear](https://itfact101.blogspot.com/2020/04/only-you-can-change-your-desktop.html)
