@@ -10,8 +10,8 @@ This section describes the functions that developers can use to host Web pages w
   
 |Function|Description|  
 |--------------|-----------------|  
-|[PFN_WEB_CORE_ SET_METADATA_DLL_ENTRY](../../web-development-reference/native-code-api-reference/pfn-web-core-activate-function.md)|Starts an instance of the Hosted Web Core.|  
-|PFN_WEB_CORE_SET_METADATA_DLL_ENTRY|Sets metadata options for a web core activation.|  
+|[PFN_WEB_CORE_ACTIVATE](../../web-development-reference/native-code-api-reference/pfn-web-core-activate-function.md)|Starts an instance of the Hosted Web Core.|  
+|[PFN_WEB_CORE_SET_METADATA_DLL_ENTRY](../../web-development-reference/native-code-api-reference/pfn-web-core-set-metadata-dll-entry-function.md)|Sets metadata options for a web core activation.|  
 |[PFN_WEB_CORE_SHUTDOWN](../../web-development-reference/native-code-api-reference/pfn-web-core-shutdown-function.md)|Shuts down an instance of the Hosted Web Core.|  
   
 ## Remarks  
