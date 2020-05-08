@@ -1,0 +1,755 @@
+- name: <configuration>
+  href: index.md
+  items:
+  - name: <administrators>
+    href: administrators/index.md
+    items:
+    - name: <managementScope>
+      href: administrators/managementscope/index.md
+      items:
+      - name: <add>
+        href: administrators/managementscope/add.md
+  - name: <administratorsProviders>
+    href: administratorsproviders/index.md
+    items:
+    - name: <add>
+      href: administratorsproviders/add.md
+  - name: <configPaths>
+    href: configpaths/index.md
+    items:
+    - name: <searchResult>
+      href: configpaths/searchresult/index.md
+      items:
+      - name: <section>
+        href: configpaths/searchresult/section.md
+  - name: <configurationRedirection>
+    href: configurationredirection.md
+  - name: <moduleProviders>
+    href: moduleproviders/index.md
+    items:
+    - name: <add>
+      href: moduleproviders/add.md
+  - name: <modules>
+    href: modules/index.md
+    items:
+    - name: <add>
+      href: modules/add.md
+  - name: <system.applicationHost>
+    href: system.applicationhost/index.md
+    items:
+    - name: <applicationPools>
+      href: system.applicationhost/applicationpools/index.md
+      items:
+      - name: <add>
+        href: system.applicationhost/applicationpools/add/index.md
+        items:
+        - name: <cpu>
+          href: system.applicationhost/applicationpools/add/cpu.md
+        - name: <failure>
+          href: system.applicationhost/applicationpools/add/failure.md
+        - name: <processModel>
+          href: system.applicationhost/applicationpools/add/processmodel.md
+        - name: <recycling>
+          href: system.applicationhost/applicationpools/add/recycling/index.md
+          items:
+          - name: <periodicRestart>
+            href: system.applicationhost/applicationpools/add/recycling/periodicrestart/index.md
+            items:
+            - name: <schedule>
+              href: system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule/index.md
+              items:
+              - name: <add>
+                href: system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule/add.md
+        - name: <environmentVariables>
+          href: system.applicationhost/applicationpools/add/environmentvariables/index.md
+          items:
+          - name: <add>
+            href: system.applicationhost/applicationpools/add/environmentvariables/add.md
+      - name: <applicationPoolDefaults>
+        href: system.applicationhost/applicationpools/applicationpooldefaults/index.md
+        items:
+        - name: <environmentVariables>
+          href: system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables/index.md
+          items:
+          - name: <add>
+            href: system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables/add.md
+    - name: <configHistory>
+      href: system.applicationhost/confighistory.md
+    - name: <customMetadata>
+      href: system.applicationhost/custommetadata/index.md
+      items:
+      - name: <key>
+        href: system.applicationhost/custommetadata/key/index.md
+        items:
+        - name: <property>
+          href: system.applicationhost/custommetadata/key/property.md
+    - name: <listenerAdapters>
+      href: system.applicationhost/listeneradapters/index.md
+      items:
+      - name: <add>
+        href: system.applicationhost/listeneradapters/add.md
+    - name: <log>
+      href: system.applicationhost/log/index.md
+      items:
+      - name: <centralBinaryLogFile>
+        href: system.applicationhost/log/centralbinarylogfile.md
+      - name: <centralW3CLogFile>
+        href: system.applicationhost/log/centralw3clogfile.md
+    - name: <sites>
+      href: system.applicationhost/sites/index.md
+      items:
+      - name: <applicationDefaults>
+        href: system.applicationhost/sites/applicationdefaults.md
+      - name: <site>
+        href: system.applicationhost/sites/site/index.md
+        items:
+        - name: <application>
+          href: system.applicationhost/sites/site/application/index.md
+          items:
+          - name: <virtualDirectory>
+            href: system.applicationhost/sites/site/application/virtualdirectory.md
+          - name: <virtualDirectoryDefaults>
+            href: system.applicationhost/sites/site/application/virtualdirectorydefaults.md
+        - name: <applicationDefaults>
+          href: system.applicationhost/sites/site/applicationdefaults.md
+        - name: <bindings>
+          href: system.applicationhost/sites/site/bindings/index.md
+          items:
+          - name: <binding>
+            href: system.applicationhost/sites/site/bindings/binding.md
+        - name: <limits>
+          href: system.applicationhost/sites/site/limits.md
+        - name: <logFile>
+          href: system.applicationhost/sites/site/logfile/index.md
+          items:
+          - name: <customFields>
+            href: system.applicationhost/sites/site/logfile/customfields/index.md
+            items:
+            - name: <add>
+              href: system.applicationhost/sites/site/logfile/customfields/add.md
+        - name: <traceFailedRequestsLogging>
+          href: system.applicationhost/sites/site/tracefailedrequestslogging.md
+        - name: <hsts>
+          href: system.applicationhost/sites/site/hsts.md
+        - name: <virtualDirectoryDefaults>
+          href: system.applicationhost/sites/site/virtualdirectorydefaults.md
+        - name: <ftpServer>
+          href: system.applicationhost/sites/site/ftpserver/index.md
+          items:
+          - name: <connections>
+            href: system.applicationhost/sites/site/ftpserver/connections.md
+          - name: <security>
+            href: system.applicationhost/sites/site/ftpserver/security/index.md
+            items:
+            - name: <dataChannelSecurity>
+              href: system.applicationhost/sites/site/ftpserver/security/datachannelsecurity.md
+            - name: <commandFiltering>
+              href: system.applicationhost/sites/site/ftpserver/security/commandfiltering/index.md
+              items:
+              - name: <add>
+                href: system.applicationhost/sites/site/ftpserver/security/commandfiltering/add.md
+            - name: <ssl>
+              href: system.applicationhost/sites/site/ftpserver/security/ssl.md
+            - name: <sslClientCertificates>
+              href: system.applicationhost/sites/site/ftpserver/security/sslclientcertificates.md
+            - name: <authentication>
+              href: system.applicationhost/sites/site/ftpserver/security/authentication/index.md
+              items:
+              - name: <anonymousAuthentication>
+                href: system.applicationhost/sites/site/ftpserver/security/authentication/anonymousauthentication.md
+              - name: <basicAuthentication>
+                href: system.applicationhost/sites/site/ftpserver/security/authentication/basicauthentication.md
+              - name: <clientCertAuthentication>
+                href: system.applicationhost/sites/site/ftpserver/security/authentication/clientcertauthentication.md
+              - name: <customAuthentication>
+                href: system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/index.md
+                items:
+                - name: <providers>
+                  href: system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers/index.md
+                  items:
+                  - name: <add>
+                    href: system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers/add.md
+            - name: <customAuthorization>
+              href: system.applicationhost/sites/site/ftpserver/security/customauthorization/index.md
+              items:
+              - name: <provider>
+                href: system.applicationhost/sites/site/ftpserver/security/customauthorization/provider.md
+          - name: <customFeatures>
+            href: system.applicationhost/sites/site/ftpserver/customfeatures/index.md
+            items:
+            - name: <providers>
+              href: system.applicationhost/sites/site/ftpserver/customfeatures/providers/index.md
+              items:
+              - name: <add>
+                href: system.applicationhost/sites/site/ftpserver/customfeatures/providers/add.md
+          - name: <messages>
+            href: system.applicationhost/sites/site/ftpserver/messages.md
+          - name: <fileHandling>
+            href: system.applicationhost/sites/site/ftpserver/filehandling.md
+          - name: <firewallSupport>
+            href: system.applicationhost/sites/site/ftpserver/firewallsupport.md
+          - name: <userIsolation>
+            href: system.applicationhost/sites/site/ftpserver/userisolation/index.md
+            items:
+            - name: <activeDirectory>
+              href: system.applicationhost/sites/site/ftpserver/userisolation/activedirectory.md
+          - name: <directoryBrowse>
+            href: system.applicationhost/sites/site/ftpserver/directorybrowse.md
+          - name: <logFile>
+            href: system.applicationhost/sites/site/ftpserver/logfile.md
+          - name: <sessions>
+            href: system.applicationhost/sites/site/ftpserver/sessions/index.md
+            items:
+            - name: <session>
+              href: system.applicationhost/sites/site/ftpserver/sessions/session.md
+          - name: <Stop>
+            href: system.applicationhost/sites/site/ftpserver/stop.md
+          - name: <Start>
+            href: system.applicationhost/sites/site/ftpserver/start.md
+          - name: <FlushLog>
+            href: system.applicationhost/sites/site/ftpserver/flushlog.md
+      - name: <siteDefaults>
+        href: system.applicationhost/sites/sitedefaults/index.md
+        items:
+        - name: <limits>
+          href: system.applicationhost/sites/sitedefaults/limits.md
+        - name: <logFile>
+          href: system.applicationhost/sites/sitedefaults/logfile/index.md
+          items:
+          - name: <customFields>
+            href: system.applicationhost/sites/sitedefaults/logfile/customfields/index.md
+            items:
+            - name: <add>
+              href: system.applicationhost/sites/sitedefaults/logfile/customfields/add.md
+        - name: <traceFailedRequestsLogging>
+          href: system.applicationhost/sites/sitedefaults/tracefailedrequestslogging.md
+        - name: <hsts>
+          href: system.applicationhost/sites/sitedefaults/hsts.md
+        - name: <bindings>
+          href: system.applicationhost/sites/sitedefaults/bindings/index.md
+          items:
+          - name: <binding>
+            href: system.applicationhost/sites/sitedefaults/bindings/binding.md
+        - name: <ftpServer>
+          href: system.applicationhost/sites/sitedefaults/ftpserver/index.md
+          items:
+          - name: <connections>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/connections.md
+          - name: <security>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/security/index.md
+            items:
+            - name: <dataChannelSecurity>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/security/datachannelsecurity.md
+            - name: <commandFiltering>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering/index.md
+              items:
+              - name: <add>
+                href: system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering/add.md
+            - name: <ssl>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/security/ssl.md
+            - name: <sslClientCertificates>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/security/sslclientcertificates.md
+            - name: <authentication>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/index.md
+              items:
+              - name: <anonymousAuthentication>
+                href: system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/anonymousauthentication.md
+              - name: <basicAuthentication>
+                href: system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/basicauthentication.md
+              - name: <clientCertAuthentication>
+                href: system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/clientcertauthentication.md
+              - name: <customAuthentication>
+                href: system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/index.md
+                items:
+                - name: <providers>
+                  href: system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/providers/index.md
+                  items:
+                  - name: <add>
+                    href: system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/providers/add.md
+            - name: <customAuthorization>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/security/customauthorization/index.md
+              items:
+              - name: <provider>
+                href: system.applicationhost/sites/sitedefaults/ftpserver/security/customauthorization/provider.md
+          - name: <customFeatures>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/index.md
+            items:
+            - name: <providers>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers/index.md
+              items:
+              - name: <add>
+                href: system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers/add.md
+          - name: <messages>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/messages.md
+          - name: <fileHandling>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/filehandling.md
+          - name: <firewallSupport>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/firewallsupport.md
+          - name: <userIsolation>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/userisolation/index.md
+            items:
+            - name: <activeDirectory>
+              href: system.applicationhost/sites/sitedefaults/ftpserver/userisolation/activedirectory.md
+          - name: <directoryBrowse>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/directorybrowse.md
+          - name: <logFile>
+            href: system.applicationhost/sites/sitedefaults/ftpserver/logfile.md
+      - name: <virtualDirectoryDefaults>
+        href: system.applicationhost/sites/virtualdirectorydefaults.md
+    - name: <webLimits>
+      href: system.applicationhost/weblimits.md
+    - name: <serviceAutoStartProviders>
+      href: system.applicationhost/serviceautostartproviders/index.md
+      items:
+      - name: <add>
+        href: system.applicationhost/serviceautostartproviders/add.md
+  - name: <system.ftpServer>
+    href: system.ftpserver/index.md
+    items:
+    - name: <log>
+      href: system.ftpserver/log/index.md
+      items:
+      - name: <centralLogFile>
+        href: system.ftpserver/log/centrallogfile.md
+    - name: <firewallSupport>
+      href: system.ftpserver/firewallsupport.md
+    - name: <providerDefinitions>
+      href: system.ftpserver/providerdefinitions/index.md
+      items:
+      - name: <add>
+        href: system.ftpserver/providerdefinitions/add.md
+      - name: <activation>
+        href: system.ftpserver/providerdefinitions/activation/index.md
+        items:
+        - name: <providerData>
+          href: system.ftpserver/providerdefinitions/activation/providerdata/index.md
+          items:
+          - name: <add>
+            href: system.ftpserver/providerdefinitions/activation/providerdata/add.md
+    - name: <security>
+      href: system.ftpserver/security/index.md
+      items:
+      - name: <authorization>
+        href: system.ftpserver/security/authorization/index.md
+        items:
+        - name: <add>
+          href: system.ftpserver/security/authorization/add.md
+      - name: <ipSecurity>
+        href: system.ftpserver/security/ipsecurity/index.md
+        items:
+        - name: <add>
+          href: system.ftpserver/security/ipsecurity/add.md
+      - name: <requestFiltering>
+        href: system.ftpserver/security/requestfiltering/index.md
+        items:
+        - name: <fileExtensions>
+          href: system.ftpserver/security/requestfiltering/fileextensions/index.md
+          items:
+          - name: <add>
+            href: system.ftpserver/security/requestfiltering/fileextensions/add.md
+        - name: <requestLimits>
+          href: system.ftpserver/security/requestfiltering/requestlimits.md
+        - name: <hiddenSegments>
+          href: system.ftpserver/security/requestfiltering/hiddensegments/index.md
+          items:
+          - name: <add>
+            href: system.ftpserver/security/requestfiltering/hiddensegments/add.md
+        - name: <denyUrlSequences>
+          href: system.ftpserver/security/requestfiltering/denyurlsequences/index.md
+          items:
+          - name: <add>
+            href: system.ftpserver/security/requestfiltering/denyurlsequences/add.md
+      - name: <authentication>
+        href: system.ftpserver/security/authentication/index.md
+        items:
+        - name: <denyByFailure>
+          href: system.ftpserver/security/authentication/denybyfailure.md
+    - name: <caching>
+      href: system.ftpserver/caching/index.md
+      items:
+      - name: <credentialsCache>
+        href: system.ftpserver/caching/credentialscache.md
+    - name: <serverRuntime>
+      href: system.ftpserver/serverruntime/index.md
+      items:
+      - name: <hostNameSupport>
+        href: system.ftpserver/serverruntime/hostnamesupport.md
+  - name: <system.webServer>
+    href: system.webserver/index.md
+    items:
+    - name: <asp>
+      href: system.webserver/asp/index.md
+      items:
+      - name: <cache>
+        href: system.webserver/asp/cache.md
+      - name: <comPlus>
+        href: system.webserver/asp/complus.md
+      - name: <limits>
+        href: system.webserver/asp/limits.md
+      - name: <session>
+        href: system.webserver/asp/session.md
+    - name: <caching>
+      href: system.webserver/caching/index.md
+      items:
+      - name: <profiles>
+        href: system.webserver/caching/profiles/index.md
+        items:
+        - name: <add>
+          href: system.webserver/caching/profiles/add.md
+    - name: <cgi>
+      href: system.webserver/cgi.md
+    - name: <defaultDocument>
+      href: system.webserver/defaultdocument/index.md
+      items:
+      - name: <files>
+        href: system.webserver/defaultdocument/files/index.md
+        items:
+        - name: <add>
+          href: system.webserver/defaultdocument/files/add.md
+    - name: <directoryBrowse>
+      href: system.webserver/directorybrowse.md
+    - name: <fastCgi>
+      href: system.webserver/fastcgi/index.md
+      items:
+      - name: <application>
+        href: system.webserver/fastcgi/application/index.md
+        items:
+        - name: <environmentVariables>
+          href: system.webserver/fastcgi/application/environmentvariables/index.md
+          items:
+          - name: <environmentVariable>
+            href: system.webserver/fastcgi/application/environmentvariables/environmentvariable.md
+    - name: <globalModules>
+      href: system.webserver/globalmodules/index.md
+      items:
+      - name: <add>
+        href: system.webserver/globalmodules/add.md
+    - name: <handlers>
+      href: system.webserver/handlers/index.md
+      items:
+      - name: <add>
+        href: system.webserver/handlers/add.md
+    - name: <httpCompression>
+      href: system.webserver/httpcompression/index.md
+      items:
+      - name: <dynamicTypes>
+        href: system.webserver/httpcompression/dynamictypes/index.md
+        items:
+        - name: <add>
+          href: system.webserver/httpcompression/dynamictypes/add.md
+      - name: <scheme>
+        href: system.webserver/httpcompression/scheme.md
+      - name: <staticTypes>
+        href: system.webserver/httpcompression/statictypes/index.md
+        items:
+        - name: <add>
+          href: system.webserver/httpcompression/statictypes/add.md
+    - name: <httpErrors>
+      href: system.webserver/httperrors/index.md
+      items:
+      - name: <error>
+        href: system.webserver/httperrors/error.md
+    - name: <httpLogging>
+      href: system.webserver/httplogging.md
+    - name: <httpProtocol>
+      href: system.webserver/httpprotocol/index.md
+      items:
+      - name: <customHeaders>
+        href: system.webserver/httpprotocol/customheaders/index.md
+        items:
+        - name: <add>
+          href: system.webserver/httpprotocol/customheaders/add.md
+      - name: <redirectHeaders>
+        href: system.webserver/httpprotocol/redirectheaders/index.md
+        items:
+        - name: <add>
+          href: system.webserver/httpprotocol/redirectheaders/add.md
+    - name: <httpRedirect>
+      href: system.webserver/httpredirect/index.md
+      items:
+      - name: <add>
+        href: system.webserver/httpredirect/add.md
+    - name: <httpTracing>
+      href: system.webserver/httptracing/index.md
+      items:
+      - name: <traceUrls>
+        href: system.webserver/httptracing/traceurls/index.md
+        items:
+        - name: <add>
+          href: system.webserver/httptracing/traceurls/add.md
+    - name: <isapiFilters>
+      href: system.webserver/isapifilters/index.md
+      items:
+      - name: <filter>
+        href: system.webserver/isapifilters/filter.md
+    - name: <management>
+      href: system.webserver/management/index.md
+      items:
+      - name: <authentication>
+        href: system.webserver/management/authentication/index.md
+        items:
+        - name: <credentials>
+          href: system.webserver/management/authentication/credentials/index.md
+          items:
+          - name: <add>
+            href: system.webserver/management/authentication/credentials/add.md
+        - name: <providers>
+          href: system.webserver/management/authentication/providers/index.md
+          items:
+          - name: <add>
+            href: system.webserver/management/authentication/providers/add.md
+      - name: <authorization>
+        href: system.webserver/management/authorization/index.md
+        items:
+        - name: <authorizationRules>
+          href: system.webserver/management/authorization/authorizationrules/index.md
+          items:
+          - name: <scope>
+            href: system.webserver/management/authorization/authorizationrules/scope/index.md
+            items:
+            - name: <add>
+              href: system.webserver/management/authorization/authorizationrules/scope/add.md
+        - name: <providers>
+          href: system.webserver/management/authorization/providers/index.md
+          items:
+          - name: <add>
+            href: system.webserver/management/authorization/providers/add.md
+      - name: <trustedProviders>
+        href: system.webserver/management/trustedproviders/index.md
+        items:
+        - name: <add>
+          href: system.webserver/management/trustedproviders/add.md
+    - name: <modules>
+      href: system.webserver/modules/index.md
+      items:
+      - name: <add>
+        href: system.webserver/modules/add.md
+    - name: <odbcLogging>
+      href: system.webserver/odbclogging.md
+    - name: <security>
+      href: system.webserver/security/index.md
+      items:
+      - name: <access>
+        href: system.webserver/security/access.md
+      - name: <applicationDependencies>
+        href: system.webserver/security/applicationdependencies/index.md
+        items:
+        - name: <application>
+          href: system.webserver/security/applicationdependencies/application/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/applicationdependencies/application/add.md
+      - name: <authentication>
+        href: system.webserver/security/authentication/index.md
+        items:
+        - name: <anonymousAuthentication>
+          href: system.webserver/security/authentication/anonymousauthentication.md
+        - name: <basicAuthentication>
+          href: system.webserver/security/authentication/basicauthentication.md
+        - name: <clientCertificateMappingAuthentication>
+          href: system.webserver/security/authentication/clientcertificatemappingauthentication.md
+        - name: <digestAuthentication>
+          href: system.webserver/security/authentication/digestauthentication.md
+        - name: <iisClientCertificateMappingAuthentication>
+          href: system.webserver/security/authentication/iisclientcertificatemappingauthentication/index.md
+          items:
+          - name: <manyToOneMappings>
+            href: system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/index.md
+            items:
+            - name: <add>
+              href: system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/index.md
+              items:
+              - name: <rules>
+                href: system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/rules/index.md
+                items:
+                - name: <add>
+                  href: system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/rules/add.md
+          - name: <oneToOneMappings>
+            href: system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings/index.md
+            items:
+            - name: <add>
+              href: system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings/add.md
+        - name: <windowsAuthentication>
+          href: system.webserver/security/authentication/windowsauthentication/index.md
+          items:
+          - name: <providers>
+            href: system.webserver/security/authentication/windowsauthentication/providers/index.md
+            items:
+            - name: <add>
+              href: system.webserver/security/authentication/windowsauthentication/providers/add.md
+          - name: <extendedProtection>
+            href: system.webserver/security/authentication/windowsauthentication/extendedprotection/index.md
+            items:
+            - name: <spn>
+              href: system.webserver/security/authentication/windowsauthentication/extendedprotection/spn.md
+      - name: <authorization>
+        href: system.webserver/security/authorization/index.md
+        items:
+        - name: <add>
+          href: system.webserver/security/authorization/add.md
+      - name: <ipSecurity>
+        href: system.webserver/security/ipsecurity/index.md
+        items:
+        - name: <add>
+          href: system.webserver/security/ipsecurity/add.md
+      - name: <isapiCgiRestriction>
+        href: system.webserver/security/isapicgirestriction/index.md
+        items:
+        - name: <add>
+          href: system.webserver/security/isapicgirestriction/add.md
+      - name: <requestFiltering>
+        href: system.webserver/security/requestfiltering/index.md
+        items:
+        - name: <denyUrlSequences>
+          href: system.webserver/security/requestfiltering/denyurlsequences/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/requestfiltering/denyurlsequences/add.md
+        - name: <fileExtensions>
+          href: system.webserver/security/requestfiltering/fileextensions/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/requestfiltering/fileextensions/add.md
+        - name: <hiddenSegments>
+          href: system.webserver/security/requestfiltering/hiddensegments/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/requestfiltering/hiddensegments/add.md
+        - name: <requestLimits>
+          href: system.webserver/security/requestfiltering/requestlimits/index.md
+          items:
+          - name: <headerLimits>
+            href: system.webserver/security/requestfiltering/requestlimits/headerlimits/index.md
+            items:
+            - name: <add>
+              href: system.webserver/security/requestfiltering/requestlimits/headerlimits/add.md
+        - name: <verbs>
+          href: system.webserver/security/requestfiltering/verbs/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/requestfiltering/verbs/add.md
+        - name: <alwaysAllowedUrls>
+          href: system.webserver/security/requestfiltering/alwaysallowedurls/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/requestfiltering/alwaysallowedurls/add.md
+        - name: <alwaysAllowedQueryStrings>
+          href: system.webserver/security/requestfiltering/alwaysallowedquerystrings/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/requestfiltering/alwaysallowedquerystrings/add.md
+        - name: <denyQueryStringSequences>
+          href: system.webserver/security/requestfiltering/denyquerystringsequences/index.md
+          items:
+          - name: <add>
+            href: system.webserver/security/requestfiltering/denyquerystringsequences/add.md
+        - name: <filteringRules>
+          href: system.webserver/security/requestfiltering/filteringrules/index.md
+          items:
+          - name: <filteringRule>
+            href: system.webserver/security/requestfiltering/filteringrules/filteringrule/index.md
+            items:
+            - name: <scanHeaders>
+              href: system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/index.md
+              items:
+              - name: <add>
+                href: system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/add.md
+            - name: <appliesTo>
+              href: system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto/index.md
+              items:
+              - name: <add>
+                href: system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto/add.md
+            - name: <denyStrings>
+              href: system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings/index.md
+              items:
+              - name: <add>
+                href: system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings/add.md
+      - name: <dynamicIpSecurity>
+        href: system.webserver/security/dynamicipsecurity/index.md
+        items:
+        - name: <denyByConcurrentRequests>
+          href: system.webserver/security/dynamicipsecurity/denybyconcurrentrequests.md
+        - name: <denyByRequestRate>
+          href: system.webserver/security/dynamicipsecurity/denybyrequestrate.md
+    - name: <serverRuntime>
+      href: system.webserver/serverruntime.md
+    - name: <serverSideInclude>
+      href: system.webserver/serversideinclude.md
+    - name: <staticContent>
+      href: system.webserver/staticcontent/index.md
+      items:
+      - name: <clientCache>
+        href: system.webserver/staticcontent/clientcache.md
+      - name: <mimeMap>
+        href: system.webserver/staticcontent/mimemap.md
+    - name: <tracing>
+      href: system.webserver/tracing/index.md
+      items:
+      - name: <traceFailedRequests>
+        href: system.webserver/tracing/tracefailedrequests/index.md
+        items:
+        - name: <add>
+          href: system.webserver/tracing/tracefailedrequests/add/index.md
+          items:
+          - name: <failureDefinitions>
+            href: system.webserver/tracing/tracefailedrequests/add/failuredefinitions.md
+          - name: <traceAreas>
+            href: system.webserver/tracing/tracefailedrequests/add/traceareas/index.md
+            items:
+            - name: <add>
+              href: system.webserver/tracing/tracefailedrequests/add/traceareas/add.md
+      - name: <traceProviderDefinitions>
+        href: system.webserver/tracing/traceproviderdefinitions/index.md
+        items:
+        - name: <add>
+          href: system.webserver/tracing/traceproviderdefinitions/add/index.md
+          items:
+          - name: <areas>
+            href: system.webserver/tracing/traceproviderdefinitions/add/areas/index.md
+            items:
+            - name: <add>
+              href: system.webserver/tracing/traceproviderdefinitions/add/areas/add.md
+    - name: <urlCompression>
+      href: system.webserver/urlcompression.md
+    - name: <validation>
+      href: system.webserver/validation.md
+    - name: <webdav>
+      href: system.webserver/webdav/index.md
+      items:
+      - name: <globalSettings>
+        href: system.webserver/webdav/globalsettings/index.md
+        items:
+        - name: <propertyStores>
+          href: system.webserver/webdav/globalsettings/propertystores/index.md
+          items:
+          - name: <add>
+            href: system.webserver/webdav/globalsettings/propertystores/add.md
+        - name: <lockStores>
+          href: system.webserver/webdav/globalsettings/lockstores/index.md
+          items:
+          - name: <add>
+            href: system.webserver/webdav/globalsettings/lockstores/add.md
+      - name: <authoring>
+        href: system.webserver/webdav/authoring/index.md
+        items:
+        - name: <fileSystem>
+          href: system.webserver/webdav/authoring/filesystem.md
+        - name: <locks>
+          href: system.webserver/webdav/authoring/locks.md
+        - name: <properties>
+          href: system.webserver/webdav/authoring/properties/index.md
+          items:
+          - name: <add>
+            href: system.webserver/webdav/authoring/properties/add.md
+      - name: <authoringRules>
+        href: system.webserver/webdav/authoringrules/index.md
+        items:
+        - name: <add>
+          href: system.webserver/webdav/authoringrules/add.md
+    - name: <webSocket>
+      href: system.webserver/websocket.md
+    - name: <applicationInitialization>
+      href: system.webserver/applicationinitialization/index.md
+      items:
+      - name: <add>
+        href: system.webserver/applicationinitialization/add.md
