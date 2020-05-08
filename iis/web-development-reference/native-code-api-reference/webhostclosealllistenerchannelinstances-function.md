@@ -41,13 +41,13 @@ HRESULT WebhostCloseAllListenerChannelInstances(
   
  This function is called under the following conditions:  
   
--   The listener adapter service is stopping.  
+- The listener adapter service is stopping.  
   
--   The listener adapter is routing by application, and the application is being deleted.  
+- The listener adapter is routing by application, and the application is being deleted.  
   
--   The application pool is being deleted.  
+- The application pool is being deleted.  
   
--   The listener adapter is routing by application, and the application is moving to another application pool.  
+- The listener adapter is routing by application, and the application is moving to another application pool.  
   
 ## Requirements  
   

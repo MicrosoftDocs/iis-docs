@@ -18,7 +18,7 @@ Enumerates all IIS product versions that are installed on the computer.
   
 ### Parameters  
   
--   [out, retval] `* pVersionsArray`  
+- [out, retval] `* pVersionsArray`  
   
      Contains all [IIISVersion](../../extensions/express-api-reference/iiisversion.md) objects that are found on the computer.  
   

@@ -48,11 +48,11 @@ virtual BOOL GetNextNotification(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Registers for several notifications.  
+1. Registers for several notifications.  
   
-2.  Creates a helper method that calls the `GetNextNotification` method, which attempts to skip to the next notification.  
+2. Creates a helper method that calls the `GetNextNotification` method, which attempts to skip to the next notification.  
   
-3.  For each registered notification, defines notification handlers that call the helper method, and then displays the return status to the client.  
+3. For each registered notification, defines notification handlers that call the helper method, and then displays the return status to the client.  
   
  [!code-cpp[IHttpContextGetNextNotification#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetNextNotification/cpp/IHttpContextGetNextNotification.cpp#1)]
   

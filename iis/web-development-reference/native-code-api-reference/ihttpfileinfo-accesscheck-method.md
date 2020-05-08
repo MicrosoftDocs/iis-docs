@@ -35,9 +35,9 @@ virtual HRESULT AccessCheck(
   
  The behavior of the `AccessCheck` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Most implementers return S_OK immediately if the `hUserToken` parameter is NULL.  
+- Most implementers return S_OK immediately if the `hUserToken` parameter is NULL.  
   
--   Most implementers return the value from calling the [HRESULT_FROM_WIN32](https://go.microsoft.com/fwlink/?LinkId=58220) function by supplying the value from the [GetLastError](https://go.microsoft.com/fwlink/?LinkId=86917) function as a parameter if there are any internal errors or if the corresponding file cannot be opened.  
+- Most implementers return the value from calling the [HRESULT_FROM_WIN32](https://go.microsoft.com/fwlink/?LinkId=58220) function by supplying the value from the [GetLastError](https://go.microsoft.com/fwlink/?LinkId=86917) function as a parameter if there are any internal errors or if the corresponding file cannot be opened.  
   
 > [!CAUTION]
 >  Because most implementers return S_OK immediately if `hUserToken` is NULL, you should provide the user token whenever possible because the implementation may change.  

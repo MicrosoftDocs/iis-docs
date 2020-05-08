@@ -33,7 +33,7 @@ ConfigurationSection.RevertToParent(PropertyName)
 ## Example  
  The following example shows two ways of using the `RevertToParent` method:  
   
-1.  The first part reverts a specified property to the default value. The following line from the example reverts the `Enabled` property of `DefaultDocumentSection` of the default Web site by specifying the property name as a `RevertToParent` parameter.  
+1. The first part reverts a specified property to the default value. The following line from the example reverts the `Enabled` property of `DefaultDocumentSection` of the default Web site by specifying the property name as a `RevertToParent` parameter.  
   
     ```  
     oDefaultDocumentSection.RevertToParent("Enabled")  
@@ -41,7 +41,7 @@ ConfigurationSection.RevertToParent(PropertyName)
   
      This removes the value of `false`, which was specified in the Web.config file of the default Web site, and replaces it with the default value of `true`.  
   
-2.  The second part reverts an entire section to the default values. The following line from the example reverts the entire `DefaultDocumentSection` contents of the default Web site by specifying no parameters for `RevertToParent`.  
+2. The second part reverts an entire section to the default values. The following line from the example reverts the entire `DefaultDocumentSection` contents of the default Web site by specifying no parameters for `RevertToParent`.  
   
     ```  
     oDefaultDocumentSection.RevertToParent  

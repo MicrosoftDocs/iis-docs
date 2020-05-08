@@ -75,9 +75,9 @@ A Boolean value, true if Smooth Streaming cache is to be used, otherwise false.
 
 If this property is false (default), ignore [SmoothStreamingCache](clipinformation-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md) and inherit the [SmoothStreamingCache](smoothstreamingmediaelement-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md) from the main [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). If this property is true, use [SmoothStreamingCache](clipinformation-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md). This property can be set to true in two ways:
 
-1.  Implicitly. It is set to true when [SmoothStreamingCache](clipinformation-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md) is set, or
+1. Implicitly. It is set to true when [SmoothStreamingCache](clipinformation-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md) is set, or
 
-2.  Explicitly. It can be explicitly set to false at any time.
+2. Explicitly. It can be explicitly set to false at any time.
 
 ## Version Information
 

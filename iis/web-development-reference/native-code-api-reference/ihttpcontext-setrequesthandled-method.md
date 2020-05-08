@@ -26,19 +26,19 @@ virtual VOID SetRequestHandled(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  The module registers for the [RQ_PRE_EXECUTE_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
+1. The module registers for the [RQ_PRE_EXECUTE_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains an [OnPreExecuteRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onpreexecuterequesthandler-method.md) method.  
+2. The module creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains an [OnPreExecuteRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onpreexecuterequesthandler-method.md) method.  
   
-3.  When a Web client requests a URL, IIS calls the module's `OnPreExecuteRequestHandler` method. This method performs the following tasks  
+3. When a Web client requests a URL, IIS calls the module's `OnPreExecuteRequestHandler` method. This method performs the following tasks  
   
-    1.  Retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface.  
+    1. Retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   
-    2.  Retrieves the script handler for the request by using the [IScriptMapInfo::GetScriptProcessor](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md) method.  
+    2. Retrieves the script handler for the request by using the [IScriptMapInfo::GetScriptProcessor](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md) method.  
   
-    3.  If the request is for an ASP page, returns a message to the Web client that the request has been handled, and then calls the `SetRequestHandled` method to set the request as handled.  
+    3. If the request is for an ASP page, returns a message to the Web client that the request has been handled, and then calls the `SetRequestHandled` method to set the request as handled.  
   
-4.  The module removes the `CHttpModule` class from memory and then exits.  
+4. The module removes the `CHttpModule` class from memory and then exits.  
   
  [!code-cpp[IHttpContextSetRequestHandled#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextSetRequestHandled/cpp/IHttpContextSetRequestHandled.cpp#1)]  
   
