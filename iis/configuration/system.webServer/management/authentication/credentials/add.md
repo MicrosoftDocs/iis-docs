@@ -156,7 +156,7 @@ The following code samples add an IIS Manager user account named ContosoUser to 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authentication>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

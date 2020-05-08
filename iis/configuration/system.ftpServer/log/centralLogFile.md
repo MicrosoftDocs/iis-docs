@@ -168,7 +168,7 @@ The following examples enable central file logging for the FTP service.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](centralLogFile/samples/sample3.cs)]
 

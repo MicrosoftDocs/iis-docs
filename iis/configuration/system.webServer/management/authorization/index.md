@@ -141,7 +141,7 @@ The following code samples check to see if a `<scope>` element has already been 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authorization>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 
@@ -175,7 +175,7 @@ The following code examples add an authorization provider named ContosoAuthoriza
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample7.cs)]
 

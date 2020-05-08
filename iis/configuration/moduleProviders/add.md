@@ -83,7 +83,7 @@ The following code examples add a managed module provider named ContosoProvider 
 > [!NOTE]
 > You cannot configure `<moduleProviders>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

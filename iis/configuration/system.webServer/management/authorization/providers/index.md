@@ -117,7 +117,7 @@ The following code examples add an authorization provider named ContosoAuthoriza
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample2.cs)]
 

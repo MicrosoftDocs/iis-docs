@@ -185,7 +185,7 @@ The following examples add two FTP authorization rules for the Default Web Site.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 
@@ -212,7 +212,7 @@ The following examples configure the `<serverRuntime>` element for an FTP server
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample8.cs)]
 

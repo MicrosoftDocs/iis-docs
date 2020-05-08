@@ -135,7 +135,7 @@ Not applicable.
 
 The following examples enable you to stop an FTP site programmatically.
 
-### C#
+### C\#
 
 [!code-csharp[Main](Stop/samples/sample1.cs)]
 

@@ -128,7 +128,7 @@ The following examples add an allow authorization rule that allows users in the 
 > [!NOTE]
 > You can optionally set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file instead of a Web.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

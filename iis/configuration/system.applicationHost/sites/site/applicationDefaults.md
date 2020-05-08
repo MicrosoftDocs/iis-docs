@@ -99,7 +99,7 @@ The following code samples set the default application pool for the Default Web 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](applicationDefaults/samples/sample3.cs)]
 
