@@ -37,11 +37,7 @@ Let's have a look what settings for the directoryBrowse section are enabled on t
 
 Changing the setting is as simple as:
 
-### 
-
 ### Dealing with Locked Sections
-
-### 
 
 Here is a problem. Authentication sections are usually locked, i.e. they can't be written to a web.config file but have to be written to the central applicationhost.config file instead. Using the above command to enable WindowsAuthentication would fail with a locking violation:
 

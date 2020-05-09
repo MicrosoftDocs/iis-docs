@@ -70,8 +70,6 @@ In order to manage table data, you need to implement IDbTableDataManager on the 
 > [!NOTE]  
 > The IDbTableDataManager interface is used to manage data within a table, whereas the [IDbTableManager](idbtablemanager-interface-microsoft-web-management-databasemanager.md) interface is used to manage the actual tables.
 
-### 
-
 ### Notes for Implementers
 
 If your provider implements the IDbTableDataManager interface, your provider must also implement all the following members:

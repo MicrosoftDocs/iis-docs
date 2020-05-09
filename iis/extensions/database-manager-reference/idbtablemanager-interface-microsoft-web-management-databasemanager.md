@@ -72,8 +72,6 @@ In order to manage tables, you must implement IDbTableManager on the class that 
 > [!NOTE]  
 > Use the IDbTableManager interface to manage the actual tables, and use the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface to manage data within a table.
 
-### 
-
 ### Notes for Implementers
 
 If your provider implements the IDbTableManager interface, your provider must also implement all of the following members:

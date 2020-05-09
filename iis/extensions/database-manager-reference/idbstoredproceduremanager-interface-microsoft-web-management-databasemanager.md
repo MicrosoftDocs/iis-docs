@@ -70,8 +70,6 @@ The IDbStoredProcedureManager type exposes the following members.
 
 In order to manage stored procedures, you need to implement IDbStoredProcedureManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md). Stored procedures are collections of SQL code that execute on the server, and are often used instead of queries. For example, you could create a stored procedure that performs a query that is based on values that are calculated from parameters that you pass to the stored procedure.
 
-### 
-
 ### Notes for Implementers
 
 If your provider implements the IDbStoredProcedureManager interface, your provider must also implement all of the following members:

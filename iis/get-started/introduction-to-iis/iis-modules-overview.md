@@ -437,8 +437,6 @@ These modules do not provide request services, but instead assist the server eng
 | Dependencies: | None. |
 | Potential issues when removing this module | Applications that specify legacy ASP.NET configuration for modules and handlers will not generate migration errors; a new application that has not been migrated will function incorrectly. |
 
-### 
-
 ### Managed Modules:
 
 | **Module Name:** | **OutputCache** |

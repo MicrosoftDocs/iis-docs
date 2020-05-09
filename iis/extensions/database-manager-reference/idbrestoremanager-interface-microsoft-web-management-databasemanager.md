@@ -64,8 +64,6 @@ The IDbRestoreManager type exposes the following members.
 
 In order to implement database restore features in your database provider, you need to implement IDbRestoreManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md).
 
-### 
-
 ### Notes for Implementers
 
 If your provider implements the IDbRestoreManager interface, your provider must also implement all of the following members:

@@ -97,8 +97,6 @@ function CreateView(
 
 All database providers that implement the [IDbViewManager](idbviewmanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the CreateView method, which the database manager will use to create a view in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support creating views, you can use the following code sample to raise a not-implemented exception:

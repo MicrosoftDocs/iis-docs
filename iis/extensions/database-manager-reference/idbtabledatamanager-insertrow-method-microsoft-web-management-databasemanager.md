@@ -114,8 +114,6 @@ An object array that contains the data that was inserted and any computed values
 
 All database providers that implement the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the InsertRow method. The database manager will use this method to insert data into a table of a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support inserting rows, you can use the following code sample to raise a not-implemented exception:

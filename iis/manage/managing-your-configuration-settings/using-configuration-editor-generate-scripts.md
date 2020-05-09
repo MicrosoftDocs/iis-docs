@@ -48,8 +48,6 @@ After closing the properties dialog, click on the *Generate Script* link on the 
 
 ### Scripting: Jscript code to create ‘applicationPool1'
 
-### 
-
 [!code-csharp[Main](using-configuration-editor-generate-scripts/samples/sample2.cs)]
 
 ### Command Line: Appcmd commands to create ‘applicationPool1' and specify an identiy.

@@ -108,8 +108,6 @@ function EditRow(
 
 All database providers that implement the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the EditRow method The database manager will use this method to modify rows in a table in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support modifying table data, you can use the following code sample to raise a not-implemented exception:

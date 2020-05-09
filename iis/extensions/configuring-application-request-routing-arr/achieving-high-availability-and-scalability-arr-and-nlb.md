@@ -51,8 +51,6 @@ Because NLB makes the routing decisions at layer 3, application specific informa
 
 [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image5.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image4.jpg)
 
-## 
-
 ## Scenario 1: HTTP-based routing and load balancing
 
 The HTTP-based routing and load balancing scenario enables a 3-tier deployment architecture that involves: 
