@@ -19,7 +19,7 @@ IISDirectory(
   
 ### Parameters  
   
--   [out, retval] `* pbstrDirectory`  
+- [out, retval] `* pbstrDirectory`  
   
      The IIS Express home directory for the current user.  
   

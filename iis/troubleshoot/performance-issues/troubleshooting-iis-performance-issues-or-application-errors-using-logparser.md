@@ -13,9 +13,9 @@ by [Benjamin Perkins](https://twitter.com/csharpguitar)
 
 ## Tools and knowledge used in this Troubleshooter
 
-- Microsoft LogParser (<https://www.microsoft.com/download/details.aspx?id=24659)>)
+- Microsoft LogParser (<https://www.microsoft.com/download/details.aspx?id=24659>)
 - Command Prompt
-- A basic knowledge of IIS HTTP Status Codes is helpful (<https://support.microsoft.com/kb/943891)>)
+- A basic knowledge of IIS HTTP Status Codes is helpful (<https://support.microsoft.com/kb/943891>)
 - A basic knowledge of SQL queries is helpful
 
 ## Overview

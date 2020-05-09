@@ -136,7 +136,7 @@ The following code samples check to see if a `<scope>` element has already been 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authorization>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample2.cs)]
 

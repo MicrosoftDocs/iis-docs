@@ -26,6 +26,7 @@ When you deploy Dynamic Host Configuration Protocol (DHCP) servers on your netwo
 3. On the Select Server Roles page, select the DHCP Server check box, and then click Next.
 
 > [!IMPORTANT]
+>
 > - If Microsoft DHCP is installed on the same physical computer as Windows Deployment Services, the WDS configuration wizard does the following (if you configure Windows Deployment Services by using WDSUTIL, you have to manually make these changes):
 >
 >    - Adds DHCP option tag 60, with the PXE client setting selected, to all DHCP scopes (as a DHCP global option). This is necessary so that a booting PXE client can be notified that there is a listening PXE server on the network.

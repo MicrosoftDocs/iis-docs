@@ -342,7 +342,7 @@ The following code samples demonstrate how to deny access to three URL sequences
 
 [!code-powershell[Main](index/samples/sample7.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

@@ -112,7 +112,7 @@ The following code samples adds a wildcard redirection entry that redirects all 
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

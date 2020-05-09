@@ -147,7 +147,7 @@ The following code samples add an HTTP "Cache-Control: no-cache" header to the r
 
 [!code-console[Main](clientCache/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](clientCache/samples/sample4.cs)]
 
@@ -169,7 +169,7 @@ The following code samples add an HTTP "Expires: Tue, 19 Jan 2038 03:14:07 GMT" 
 
 [!code-console[Main](clientCache/samples/sample8.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](clientCache/samples/sample9.cs)]
 

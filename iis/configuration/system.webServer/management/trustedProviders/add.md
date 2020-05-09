@@ -116,7 +116,7 @@ The following code examples add a provider named Contoso.Provider to the collect
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

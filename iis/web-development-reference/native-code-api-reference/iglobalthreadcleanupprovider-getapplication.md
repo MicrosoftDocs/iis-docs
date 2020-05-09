@@ -26,17 +26,17 @@ virtual IHttpApplication* GetApplication(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Registers for the [GL_THREAD_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
+1. Registers for the [GL_THREAD_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains an [OnGlobalThreadCleanup](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalthreadcleanup-method.md) method. This method performs the following tasks:  
+2. Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains an [OnGlobalThreadCleanup](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalthreadcleanup-method.md) method. This method performs the following tasks:  
   
-    1.  Retrieves an `IHttpApplication` interface by using the `GetApplication` method.  
+    1. Retrieves an `IHttpApplication` interface by using the `GetApplication` method.  
   
-    2.  Retrieves the application identifier of the current context's application by using the [IHttpApplication::GetApplicationId](../../web-development-reference/native-code-api-reference/ihttpapplication-getapplicationid-method.md) method.  
+    2. Retrieves the application identifier of the current context's application by using the [IHttpApplication::GetApplicationId](../../web-development-reference/native-code-api-reference/ihttpapplication-getapplicationid-method.md) method.  
   
-    3.  Writes the application identifier information as an event to the application log of the Event Viewer.  
+    3. Writes the application identifier information as an event to the application log of the Event Viewer.  
   
-3.  Removes the `CGlobalModule` class from memory and then exits.  
+3. Removes the `CGlobalModule` class from memory and then exits.  
   
  [!code-cpp[IGlobalThreadCleanupProviderGetApplication#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalThreadCleanupProviderGetApplication/cpp/IGlobalThreadCleanupProviderGetApplication.cpp#1)]  
   

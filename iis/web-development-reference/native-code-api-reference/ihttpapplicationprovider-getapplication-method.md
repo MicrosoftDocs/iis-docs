@@ -26,17 +26,17 @@ virtual IHttpApplication* GetApplication(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Registers for the [GL_APPLICATION_START](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
+1. Registers for the [GL_APPLICATION_START](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains an [OnGlobalApplicationStart](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationstart-method.md) method. This method performs the following tasks:  
+2. Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains an [OnGlobalApplicationStart](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationstart-method.md) method. This method performs the following tasks:  
   
-    1.  Retrieves an `IHttpApplication` interface by using the `GetApplication` method.  
+    1. Retrieves an `IHttpApplication` interface by using the `GetApplication` method.  
   
-    2.  Retrieves the physical path of the current context's application by using the [IHttpApplication::GetApplicationPhysicalPath](../../web-development-reference/native-code-api-reference/ihttpapplication-getapplicationphysicalpath-method.md) method.  
+    2. Retrieves the physical path of the current context's application by using the [IHttpApplication::GetApplicationPhysicalPath](../../web-development-reference/native-code-api-reference/ihttpapplication-getapplicationphysicalpath-method.md) method.  
   
-    3.  Writes the physical path information as an event to the application log of the Event Viewer.  
+    3. Writes the physical path information as an event to the application log of the Event Viewer.  
   
-3.  Removes the `CGlobalModule` class from memory and then exits.  
+3. Removes the `CGlobalModule` class from memory and then exits.  
   
  [!code-cpp[IHttpApplicationProviderGetApplication#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpApplicationProviderGetApplication/cpp/IHttpApplicationProviderGetApplication.cpp#1)]  
   

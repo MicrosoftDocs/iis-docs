@@ -149,7 +149,7 @@ The following code samples will configure two options: they will configure IIS t
 
 [!code-powershell[Main](index/samples/sample7.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

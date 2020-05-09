@@ -35,11 +35,11 @@ virtual HRESULT IsInRole(
   
  The `IsInRole` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   If the `IHttpUser` implementer handles Anonymous authentication, the dereferenced `pfInRole` parameter is set to `true` only if the `pszRoleName` parameter is either NULL or empty. `IsInRole` then always returns S_OK.  
+- If the `IHttpUser` implementer handles Anonymous authentication, the dereferenced `pfInRole` parameter is set to `true` only if the `pszRoleName` parameter is either NULL or empty. `IsInRole` then always returns S_OK.  
   
--   If the `IHttpUser` implementer handles Basic, Certification Mapping, SSPI, or Custom authentication, the `pfInRole` parameter is unmodified, and `IsInRole` returns E_NOTIMPL immediately.  
+- If the `IHttpUser` implementer handles Basic, Certification Mapping, SSPI, or Custom authentication, the `pfInRole` parameter is unmodified, and `IsInRole` returns E_NOTIMPL immediately.  
   
--   If the `IHttpUser` implementer handles Managed authentication, the `pfInRole` parameter is unmodified, and `IsInRole` returns E_INVALIDARG immediately if either parameter is NULL. Otherwise, `pfInRole` is set to `true`, and `IsInRole` returns S_OK only if the user is in the role.  
+- If the `IHttpUser` implementer handles Managed authentication, the `pfInRole` parameter is unmodified, and `IsInRole` returns E_INVALIDARG immediately if either parameter is NULL. Otherwise, `pfInRole` is set to `true`, and `IsInRole` returns S_OK only if the user is in the role.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  

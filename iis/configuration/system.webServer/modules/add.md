@@ -102,7 +102,7 @@ The following code examples enable a managed module for a Web site named Contoso
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

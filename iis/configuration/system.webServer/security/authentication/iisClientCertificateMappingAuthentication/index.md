@@ -169,7 +169,7 @@ The following code samples perform the following actions for the Default Web Sit
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 
@@ -195,7 +195,7 @@ The following code samples enable IIS Client Certificate Mapping authentication 
 > [!NOTE]
 > Because of characters in certificate strings that cannot be parsed by AppCmd.exe, you should not use AppCmd.exe to configure IIS one-to-one certificate mappings.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample8.cs)]
 

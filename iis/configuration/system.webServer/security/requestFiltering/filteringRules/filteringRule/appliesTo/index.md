@@ -149,7 +149,7 @@ The following examples demonstrate how to use the `<denyStrings>`, `<appliesTo>`
 
 [!code-powershell[Main](index/samples/sample8.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

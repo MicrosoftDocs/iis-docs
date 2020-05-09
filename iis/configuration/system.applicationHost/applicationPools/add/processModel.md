@@ -152,7 +152,7 @@ You can also use the following syntax:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](processModel/samples/sample4.cs)]
 

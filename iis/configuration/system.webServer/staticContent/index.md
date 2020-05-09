@@ -81,7 +81,7 @@ The following code samples enable a document footer for static content, and add 
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

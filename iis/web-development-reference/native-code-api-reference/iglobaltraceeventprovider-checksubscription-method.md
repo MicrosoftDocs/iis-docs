@@ -31,9 +31,9 @@ virtual BOOL CheckSubscription(
   
  `CheckSubscription` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Classes that provide HTTP trace events return `true` if the trace module should be notified of the event. Otherwise, these classes return the value from the global trace settings.  
+- Classes that provide HTTP trace events return `true` if the trace module should be notified of the event. Otherwise, these classes return the value from the global trace settings.  
   
--   Classes that provide global trace events return the value from the global trace settings.  
+- Classes that provide global trace events return the value from the global trace settings.  
   
 ## Example  
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and declares and initializes an [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) structure. The module then writes the `CheckSubscription` information to the Event Viewer.  

@@ -20,11 +20,11 @@ virtual VOID CleanupStoredContext(
 ## Remarks  
  The behavior of this method depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Some implementations perform an empty operation during the `CleanupStoredContext` method.  
+- Some implementations perform an empty operation during the `CleanupStoredContext` method.  
   
--   Some implementations call `delete``this` on the current [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) pointer.  
+- Some implementations call `delete``this` on the current [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) pointer.  
   
--   Some implementations use internal reference counting and decrement an internal reference count during each call to `CleanupStoredContext`. These implementers call `delete``this` on the current `IHttpStoredContext` immediately if that reference count goes to 0.  
+- Some implementations use internal reference counting and decrement an internal reference count during each call to `CleanupStoredContext`. These implementers call `delete``this` on the current `IHttpStoredContext` immediately if that reference count goes to 0.  
   
 ## Notes for Implementers  
  `IHttpStoredContext` implementers should create either `protected` or `private``virtual` destructors, because an `IHttpStoredContext` pointer should not be downcast to its most specific class for deletion. Rather, deletion of these implementers should be controlled by each pointer internally and handled during a call to `CleanupStoredContext`.  

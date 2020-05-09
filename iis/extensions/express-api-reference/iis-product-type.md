@@ -20,11 +20,11 @@ typedef enum
   
 ## Member Descriptions  
   
--   `IIS_PRODUCT_OS_SERVICE`. Full IIS product.  
+- `IIS_PRODUCT_OS_SERVICE`. Full IIS product.  
   
--   `IIS_PRODUCT_DEPRECATED`. Deprecated.  
+- `IIS_PRODUCT_DEPRECATED`. Deprecated.  
   
--   `IIS_PRODUCT_EXPRESS`. IIS Express.  
+- `IIS_PRODUCT_EXPRESS`. IIS Express.  
   
 ## See Also  
  [GetVersionObject](../../extensions/express-api-reference/getversionobject.md)

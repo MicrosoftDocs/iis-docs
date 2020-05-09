@@ -25,9 +25,9 @@ virtual BOOL IsCached(
   
  `IsCached` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean that is initialized to `false` at construction. When the [SetIsCached](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-setiscached-method.md) method is called, this Boolean is set to `true`. After `SetIsCached` is called, there is no method to reset this Boolean to `false`.  
+- The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean that is initialized to `false` at construction. When the [SetIsCached](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-setiscached-method.md) method is called, this Boolean is set to `true`. After `SetIsCached` is called, there is no method to reset this Boolean to `false`.  
   
--   `IsCached` returns the value of this Boolean.  
+- `IsCached` returns the value of this Boolean.  
   
 ## Example  
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes cache information to the response stream.  

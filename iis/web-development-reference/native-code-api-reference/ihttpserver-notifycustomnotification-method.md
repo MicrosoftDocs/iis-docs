@@ -29,15 +29,15 @@ virtual GLOBAL_NOTIFICATION_STATUS NotifyCustomNotification(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Registers for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `GL_CUSTOM_NOTIFICATION` notifications.  
+1. Registers for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `GL_CUSTOM_NOTIFICATION` notifications.  
   
-2.  Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) and [OnGlobalCustomNotification](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcustomnotification-method.md) methods.  
+2. Creates a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class that contains [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) and [OnGlobalCustomNotification](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcustomnotification-method.md) methods.  
   
-    1.  The `OnGlobalPreBeginRequest` method writes an event to the Event Viewer that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the `NotifyCustomNotification` method.  
+    1. The `OnGlobalPreBeginRequest` method writes an event to the Event Viewer that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the `NotifyCustomNotification` method.  
   
-    2.  The `OnGlobalCustomNotification` method uses the [ICustomNotificationProvider::QueryNotificationType](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md) method to retrieve the unique identifier for the custom notification. If the unique identifier matches, the `OnGlobalCustomNotification` method writes an event to the Event Viewer that specifies that the custom notification was raised.  
+    2. The `OnGlobalCustomNotification` method uses the [ICustomNotificationProvider::QueryNotificationType](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md) method to retrieve the unique identifier for the custom notification. If the unique identifier matches, the `OnGlobalCustomNotification` method writes an event to the Event Viewer that specifies that the custom notification was raised.  
   
-3.  Removes the `CGlobalModule` class from memory and exits.  
+3. Removes the `CGlobalModule` class from memory and exits.  
   
  [!code-cpp[IHttpServerNotifyCustomNotification#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerNotifyCustomNotification/cpp/IHttpServerNotifyCustomNotification.cpp#1)]  
   

@@ -162,7 +162,7 @@ The following examples enable verbose failed request tracing for HTTP 500 errors
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

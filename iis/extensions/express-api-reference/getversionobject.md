@@ -20,15 +20,15 @@ Returns the installed IIS version based on version and product type.
   
 ### Parameters  
   
--   [in, string] BSTR  `bstrVersion`  
+- [in, string] BSTR  `bstrVersion`  
   
      The version of the product to get, in *major.minor* format. This can be an empty string (""); in that case, the method returns the highest version of the product specified in the `dwProductType` parameter.  
   
--   [in] IIS_PRODUCT_TYPE `dwProductType`  
+- [in] IIS_PRODUCT_TYPE `dwProductType`  
   
      The product type of the version object, specified as a value in the [IIS_PRODUCT_TYPE](../../extensions/express-api-reference/iis-product-type.md) enumeration.  
   
--   [out, retval] IIISVersion `** ppElement`  
+- [out, retval] IIISVersion `** ppElement`  
   
      If the specified product type and version is found on the computer, returns the appropriate [IIISVersion](../../extensions/express-api-reference/iiisversion.md) object.  
   

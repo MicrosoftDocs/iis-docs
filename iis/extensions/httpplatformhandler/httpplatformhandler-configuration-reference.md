@@ -64,7 +64,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 <a id="_Sample_Code"></a>
 ## Sample Code
 
-### C#
+### C\#
 
 [!code-csharp[Main](httpplatformhandler-configuration-reference/samples/sample3.cs)]
 

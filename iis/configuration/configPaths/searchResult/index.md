@@ -68,7 +68,7 @@ The following code examples use the `<configPaths>` element to search the Defaul
 > [!NOTE]
 > You cannot query `<configPaths>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample1.cs)]
 

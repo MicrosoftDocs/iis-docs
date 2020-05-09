@@ -134,7 +134,7 @@ The following code samples configure two sets of options for the Default Web Sit
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](odbcLogging/samples/sample4.cs)]
 

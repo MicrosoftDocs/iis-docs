@@ -22,9 +22,9 @@ virtual VOID SetIsCached(
   
  `SetIsCached` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that is initialized to `false` at construction. When `SetIsCached` is called, this Boolean value is set to `true`. After `SetIsCached` is called, there is no method to reset this Boolean value to `false`.  
+- The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that is initialized to `false` at construction. When `SetIsCached` is called, this Boolean value is set to `true`. After `SetIsCached` is called, there is no method to reset this Boolean value to `false`.  
   
--   `SetIsCached` returns the value of this Boolean.  
+- `SetIsCached` returns the value of this Boolean.  
   
 ## Requirements  
   

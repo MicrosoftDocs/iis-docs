@@ -129,7 +129,7 @@ The following examples demonstrate how to add a URL that will always be allowed 
 
 [!code-powershell[Main](add/samples/sample7.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

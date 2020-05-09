@@ -36,9 +36,9 @@ virtual HRESULT SetVaryByValue(
   
  `SetVaryByValue` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
+- The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
   
--   `SetVaryByValue` returns E_INVALIDARG immediately if the `pszValue` parameter is NULL. Otherwise, the internal buffer is expanded, if necessary, to hold the contents of `pszValue` and the null-termination character. Then `pszValue`, followed by the null-termination character, is copied into this buffer. Any data in the buffer before the call to `SetVaryByValue` is overwritten, if necessary, during the call to `SetVaryByValue`.  
+- `SetVaryByValue` returns E_INVALIDARG immediately if the `pszValue` parameter is NULL. Otherwise, the internal buffer is expanded, if necessary, to hold the contents of `pszValue` and the null-termination character. Then `pszValue`, followed by the null-termination character, is copied into this buffer. Any data in the buffer before the call to `SetVaryByValue` is overwritten, if necessary, during the call to `SetVaryByValue`.  
   
 ## Notes for Implementers  
  [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for copying the `pszValue` parameter into a buffer, because the data associated with the `pszValue` parameter is not guaranteed to be valid after the call to `SetVaryByValue`.  

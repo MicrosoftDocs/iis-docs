@@ -155,7 +155,7 @@ The following code samples illustrate looping through the list of sessions for a
 
 You cannot query FTP session information by using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample1.cs)]
 

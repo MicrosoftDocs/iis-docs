@@ -95,7 +95,7 @@ The following code samples add the file types for MIDI System Exclusive (Sysex) 
 
 [!code-console[Main](mimeMap/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](mimeMap/samples/sample3.cs)]
 

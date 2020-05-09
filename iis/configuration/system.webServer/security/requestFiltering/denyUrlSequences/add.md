@@ -152,7 +152,7 @@ The following code samples demonstrate how to deny access to three URL sequences
 ### PowerShell
 [!code-powershell[Main](add/samples/sample8.ps1)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample4.cs)]
 

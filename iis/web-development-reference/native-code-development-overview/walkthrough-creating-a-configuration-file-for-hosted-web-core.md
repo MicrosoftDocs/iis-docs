@@ -15,12 +15,12 @@ This walkthrough demonstrates how to create a configuration file for use with th
 ## Prerequisites  
  The following software is required to complete the steps in the example:  
   
--   [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)].  
+- [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)].  
   
 > [!NOTE]
 >  While you will have to run your Hosted Web Core application on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)], you do not have to create your configuration file on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)]. You can create your configuration file on a different version of Windows and then copy your configuration file to a computer that has [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)] installed.  
   
--   [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
+- [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
 > [!NOTE]
 > You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
@@ -30,19 +30,19 @@ This walkthrough demonstrates how to create a configuration file for use with th
   
 #### To create a configuration file  
   
-1.  Start [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
+1. Start [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
-2.  Create a new configuration file:  
+2. Create a new configuration file:  
   
-    1.  On the **File** menu, point to **New**, and then click **File**.  
+    1. On the **File** menu, point to **New**, and then click **File**.  
   
          The **New File** dialog box opens.  
   
-    2.  In the **Categories** pane, click **General**.  
+    2. In the **Categories** pane, click **General**.  
   
-    3.  In the **Templates** pane, select **XML File**.  
+    3. In the **Templates** pane, select **XML File**.  
   
-    4.  Click **Open**.  
+    4. Click **Open**.  
   
          A new XML file will open with the following XML code:  
   
@@ -50,7 +50,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
         <?xml version="1.0" encoding="UTF-8"?>  
         ```  
   
-3.  To identify this XML file as a configuration file for your application, add the following XML code under the `<?xml?>` element:  
+3. To identify this XML file as a configuration file for your application, add the following XML code under the `<?xml?>` element:  
   
     ```  
     <configuration>  
@@ -63,7 +63,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
   
 #### To add the \<configSections> section  
   
-1.  To create the section that defines which sections your configuration file will contain, add the following XML code inside the `<configuration>` element:  
+1. To create the section that defines which sections your configuration file will contain, add the following XML code inside the `<configuration>` element:  
   
     ```  
     <configSections>  
@@ -71,7 +71,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     </configSections>  
     ```  
   
-2.  To define what information will be included in your `<system.applicationHost>` section, add the following XML code inside the `<configSections>` element:  
+2. To define what information will be included in your `<system.applicationHost>` section, add the following XML code inside the `<configSections>` element:  
   
     ```  
     <sectionGroup name="system.applicationHost"  
@@ -95,7 +95,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     </sectionGroup>  
     ```  
   
-3.  To define what information will be included in your `<system.applicationHost>` section, add the following code inside the `<configSections>` element:  
+3. To define what information will be included in your `<system.applicationHost>` section, add the following code inside the `<configSections>` element:  
   
     ```  
     <sectionGroup name="system.webServer"  
@@ -143,7 +143,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
   
 #### To add the \<system.applicationHost> section  
   
-1.  To add the `<system.applicationHost>` section to your configuration file, add the following XML code inside the `<configuration>` element:  
+1. To add the `<system.applicationHost>` section to your configuration file, add the following XML code inside the `<configuration>` element:  
   
     ```  
     <system.applicationHost>  
@@ -151,7 +151,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     </system.applicationHost>  
     ```  
   
-2.  To create an application pool, add the following XML code inside the `<system.applicationHost>` element:  
+2. To create an application pool, add the following XML code inside the `<system.applicationHost>` element:  
   
     ```  
     <applicationPools>  
@@ -162,7 +162,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     </applicationPools>  
     ```  
   
-3.  To define a listener adapter for HTTP, add the following XML code inside the `<system.applicationHost>` element:  
+3. To define a listener adapter for HTTP, add the following XML code inside the `<system.applicationHost>` element:  
   
     ```  
     <listenerAdapters>  
@@ -170,7 +170,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     </listenerAdapters>  
     ```  
   
-4.  To create a Web site, add the following XML code inside the `<system.applicationHost>` element:  
+4. To create a Web site, add the following XML code inside the `<system.applicationHost>` element:  
   
     ```  
     <sites>  

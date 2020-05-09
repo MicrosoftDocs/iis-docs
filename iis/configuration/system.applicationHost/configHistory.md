@@ -79,7 +79,7 @@ The following code samples enable configuration history for IIS 7, and configure
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](configHistory/samples/sample3.cs)]
 

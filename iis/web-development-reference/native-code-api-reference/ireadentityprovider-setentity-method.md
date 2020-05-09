@@ -38,11 +38,11 @@ virtual VOID SetEntity(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Allocates a 1-KB buffer. If the buffer cannot be allocated, the module returns an error and exits.  
+1. Allocates a 1-KB buffer. If the buffer cannot be allocated, the module returns an error and exits.  
   
-2.  Creates a string that contains a response value.  
+2. Creates a string that contains a response value.  
   
-3.  Specifies the request entity by using the `SetEntity` method, and then exits.  
+3. Specifies the request entity by using the `SetEntity` method, and then exits.  
   
  [!code-cpp[IReadEntityProviderSetEntity#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IReadEntityProviderSetEntity/cpp/IReadEntityProviderSetEntity.cpp#1)]  
   

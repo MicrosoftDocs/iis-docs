@@ -38,15 +38,15 @@ virtual HRESULT NotifyCustomNotification(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
+1. Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
   
-2.  Creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) and [OnCustomRequestNotification](../../web-development-reference/native-code-api-reference/chttpmodule-oncustomrequestnotification-method.md) methods.  
+2. Creates a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) and [OnCustomRequestNotification](../../web-development-reference/native-code-api-reference/chttpmodule-oncustomrequestnotification-method.md) methods.  
   
-    1.  The `OnBeginRequest` method writes to the Event Viewer an event that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the `NotifyCustomNotification` method.  
+    1. The `OnBeginRequest` method writes to the Event Viewer an event that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the `NotifyCustomNotification` method.  
   
-    2.  The `OnCustomRequestNotification` method uses the [ICustomNotificationProvider::QueryNotificationType](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md) method to retrieve the unique identifier for the custom notification. If the unique identifier matches, the `OnCustomRequestNotification` method writes to the Event Viewer an event that specifies that the custom notification was raised.  
+    2. The `OnCustomRequestNotification` method uses the [ICustomNotificationProvider::QueryNotificationType](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md) method to retrieve the unique identifier for the custom notification. If the unique identifier matches, the `OnCustomRequestNotification` method writes to the Event Viewer an event that specifies that the custom notification was raised.  
   
-3.  Removes the `CHttpModule` class from memory and then exits.  
+3. Removes the `CHttpModule` class from memory and then exits.  
   
  [!code-cpp[IHttpContextNotifyCustomNotification#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextNotifyCustomNotification/cpp/IHttpContextNotifyCustomNotification.cpp#1)]  
   

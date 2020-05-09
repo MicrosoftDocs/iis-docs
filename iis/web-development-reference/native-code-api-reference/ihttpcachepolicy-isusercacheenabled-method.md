@@ -25,9 +25,9 @@ virtual BOOL IsUserCacheEnabled(
   
  `IsUserCacheEnabled` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean that determines whether caching is enabled for a user. During the construction of an implementer, this Boolean is initialized to `true`. When the [DisableUserCache](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-disableusercache-method.md) method is called, this Boolean is set to `false`. Once caching is disabled for a user, there is no method to reset this Boolean to `true`.  
+- The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean that determines whether caching is enabled for a user. During the construction of an implementer, this Boolean is initialized to `true`. When the [DisableUserCache](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-disableusercache-method.md) method is called, this Boolean is set to `false`. Once caching is disabled for a user, there is no method to reset this Boolean to `true`.  
   
--   `IsUserCacheEnabled` returns the value of this Boolean.  
+- `IsUserCacheEnabled` returns the value of this Boolean.  
   
 ## Example  
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes user cache information to the response stream.  
