@@ -119,6 +119,7 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
      > - **HTTP/1.1 302 Redirect**
      > - **HTTP/1.1 307 Redirect**
      > - **HTTP 1.1 308 Redirected Permanently**
+
 6. When you have finished all the above changes, click **Apply** in the **Tasks** pane.
 
 <a id="005"></a>

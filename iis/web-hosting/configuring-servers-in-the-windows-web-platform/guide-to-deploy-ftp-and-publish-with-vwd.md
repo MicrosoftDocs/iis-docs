@@ -172,6 +172,7 @@ In this section, you will configure the server-level port range for passive conn
 4. Once you have entered the port range for your FTP service, click **Apply** in the Actions pane to save your configuration settings.
 
     > [!NOTE]
+    >
     > - The valid range for ports is 1025-65535. (Ports 1-1024 are reserved for use by system services.)
     > - You can enter a special port range of "0-0" to configure the FTP server to use the Windows TCP/IP dynamic port range.
     > - For additional information, see the following Microsoft Knowledge Base articles:
