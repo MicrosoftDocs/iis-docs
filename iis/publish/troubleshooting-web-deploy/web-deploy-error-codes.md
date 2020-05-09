@@ -373,7 +373,8 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 **Resolution**: Make sure that the destination file is not in use before performing a sync. If you are syncing content to a web site hosted on IIS 7 or later (using the appHostConfig, iisApp, or contentPath providers), consider taking the application offline during the sync by enabling the appOffline rule.
 
 You can configure the appOffline rule in the publishing profile (.pubxml). Add the `EnableMSDeployAppOffline` element to the PropertyGroup like this:
-```
+
+```xml
 <PropertyGroup>
   <EnableMSDeployAppOffline>true</EnableMSDeployAppOffline>
 </PropertyGroup>
@@ -388,7 +389,8 @@ You can configure the appOffline rule in the publishing profile (.pubxml). Add t
 **Resolution**: You may either rerun the sync with the appOffline rule enabled, or manually delete the app\_offline.htm file from the root of your site on the destination server. For details on the reason for the failure, check the server event logs.
 
 You can configure the appOffline rule in the publishing profile (.pubxml). Add the `EnableMSDeployAppOffline` element to the PropertyGroup like this:
-```
+
+```xml
 <PropertyGroup>
   <EnableMSDeployAppOffline>true</EnableMSDeployAppOffline>
 </PropertyGroup>
