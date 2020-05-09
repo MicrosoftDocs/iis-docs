@@ -10,9 +10,9 @@ Provides a `typedef` to retrieve a reference to the process model host.
   
 ```cpp  
 typedef HRESULT(  
-   __stdcall* PFNGetIsapiProcessHost)(  
+   __stdcall* PFNGetIsapiProcessHost)(  
    IProcessHostSupportFunctions* pFunctions,  
-   IProcessHost** ppProcessHost  
+   IProcessHost** ppProcessHost  
 );  
 ```  
   

@@ -10,8 +10,8 @@ Represents the method that will handle an `ExecuteRequestHandler` post-event, wh
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnPostExecuteRequestHandler(  
-   IN IHttpContext* pHttpContext,  
-   IN IHttpEventProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IHttpEventProvider* pProvider  
 );  
 ```  
   

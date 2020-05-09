@@ -10,7 +10,7 @@ Sets a value that indicates that the cache should be updated for a specific requ
   
 ```cpp  
 virtual VOID SetForceUpdate(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

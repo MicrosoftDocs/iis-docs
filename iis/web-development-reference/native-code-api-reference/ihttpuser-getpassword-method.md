@@ -10,7 +10,7 @@ Returns the user password.
   
 ```cpp  
 virtual PCWSTR GetPassword(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

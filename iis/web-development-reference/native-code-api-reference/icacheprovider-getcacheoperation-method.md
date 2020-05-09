@@ -10,7 +10,7 @@ Returns the cache operation for the cache provider.
   
 ```cpp  
 virtual CACHE_OPERATION GetCacheOperation(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

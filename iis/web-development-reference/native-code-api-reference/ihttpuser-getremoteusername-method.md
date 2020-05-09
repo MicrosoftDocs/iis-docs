@@ -10,7 +10,7 @@ Returns the remote user name.
   
 ```cpp  
 virtual PCWSTR GetRemoteUserName(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

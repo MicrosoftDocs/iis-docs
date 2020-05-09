@@ -10,8 +10,8 @@ Gets a description of the reason for the exception.
   
 ```cpp  
 HRESULT get_ErrorString(  
-   [out,  
-   retval] BSTR* pbstrErrorString  
+   [out,  
+   retval] BSTR* pbstrErrorString  
 );  
 ```  
   

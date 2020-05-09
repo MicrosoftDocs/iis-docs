@@ -10,7 +10,7 @@ Sets a value indicating that the specific data is to be flushed from the cache.
   
 ```cpp  
 virtual VOID SetFlushed(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

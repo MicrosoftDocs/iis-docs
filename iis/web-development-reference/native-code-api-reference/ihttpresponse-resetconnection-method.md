@@ -10,7 +10,7 @@ Resets the socket connection immediately.
   
 ```cpp  
 virtual VOID ResetConnection(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

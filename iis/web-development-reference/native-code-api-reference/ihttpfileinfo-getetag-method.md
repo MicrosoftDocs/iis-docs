@@ -10,7 +10,7 @@ Retrieves the entity tag of the corresponding file for an [IHttpFileInfo](../../
   
 ```cpp  
 virtual PCSTR GetETag(  
-   OUT USHORT* pcchETag = NULL  
+   OUT USHORT* pcchETag = NULL  
 ) const = 0;  
 ```  
   

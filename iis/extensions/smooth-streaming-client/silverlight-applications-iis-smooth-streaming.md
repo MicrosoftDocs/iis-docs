@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 You can build a Silverlight application that displays and interacts with IIS Smooth Streaming media content by using the [Microsoft® Silverlight™ 4 SDK](https://go.microsoft.com/fwlink/?linkid=230684) and Microsoft Visual Studio® or Visual Studio Web Developer Edition®. The media client for this type of application is an instance of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) class. Interaction with the data stream uses other classes from the [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md) namespace. The DLL that contains the libraries is installed with the [IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828). [Internet Information Services® (IIS)](https://go.microsoft.com/fwlink/?linkid=230682) and [IIS Media Services](https://go.microsoft.com/fwlink/?linkid=230683) must be installed on the Web server computer.
 
 > [!NOTE]  
-> Most Silverlight 4 applications will work with Silverlight 5 without any changes. For more information, see [Ensuring That Your Silverlight Applications Work with Silverlight 5](https://go.microsoft.com/fwlink/?linkid=251018).
+> Most Silverlight 4 applications will work with Silverlight 5 without any changes. For more information, see [Ensuring That Your Silverlight Applications Work with Silverlight 5](https://go.microsoft.com/fwlink/?linkid=251018).
 
 ## Development Environment
 

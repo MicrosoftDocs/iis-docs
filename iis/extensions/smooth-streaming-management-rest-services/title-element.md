@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 The title of the publishing point.
 
     <Title>
-      "title"
+      "title"
     </Title>
 
 ## Child Elements

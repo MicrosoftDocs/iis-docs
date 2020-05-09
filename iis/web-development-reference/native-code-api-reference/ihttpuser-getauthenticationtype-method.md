@@ -10,7 +10,7 @@ Returns the request authentication type.
   
 ```cpp  
 virtual PCWSTR GetAuthenticationType(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

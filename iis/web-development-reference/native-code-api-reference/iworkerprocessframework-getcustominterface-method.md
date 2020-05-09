@@ -10,8 +10,8 @@ Retrieves a custom interface from the worker process framework.
   
 ```cpp  
 virtual HRESULT GetCustomInterface(  
-   IN DWORD InterfaceId,  
-   OUT PVOID* ppInterface  
+   IN DWORD InterfaceId,  
+   OUT PVOID* ppInterface  
 ) = 0;  
 ```  
   

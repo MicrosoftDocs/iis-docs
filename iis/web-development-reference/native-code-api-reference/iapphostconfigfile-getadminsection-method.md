@@ -10,12 +10,12 @@ Gets a configuration section for a given configuration section and configuration
   
 ```cpp  
 HRESULT GetAdminSection(  
-   [in,  
-   string] BSTR bstrSectionName,  
-   [in,  
-   string] BSTR bstrPath,  
-   [out,  
-   retval] IAppHostElement** ppAdminSection  
+   [in,  
+   string] BSTR bstrSectionName,  
+   [in,  
+   string] BSTR bstrPath,  
+   [out,  
+   retval] IAppHostElement** ppAdminSection  
 );  
 ```  
   

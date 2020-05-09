@@ -33,8 +33,8 @@ product_family_name: VS
 
 Gets or sets a value that determines whether the HPC scheduler should use the [SchedulerCpus](jobdefinition-schedulercpus-property-microsoft-web-media-transformmanager.md), [SchedulerMemory](jobdefinition-schedulermemory-property-microsoft-web-media-transformmanager.md), and [SchedulerNodeGroups](jobdefinition-schedulernodegroups-property-microsoft-web-media-transformmanager.md) properties when a job is transformed.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

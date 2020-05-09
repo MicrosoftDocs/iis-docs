@@ -10,8 +10,8 @@ Retrieves a `DWORD` value from the worker process or application pool settings.
   
 ```cpp  
 virtual HRESULT GetDwordProperty(  
-   IN WPF_SETTINGS_DWORD_ENUM SettingId,  
-   OUT DWORD* pdwSetting  
+   IN WPF_SETTINGS_DWORD_ENUM SettingId,  
+   OUT DWORD* pdwSetting  
 ) = 0;  
 ```  
   

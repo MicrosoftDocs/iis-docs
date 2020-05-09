@@ -10,8 +10,8 @@ Gets the physical path of the configuration file that caused the current excepti
   
 ```cpp  
 HRESULT get_FileName(  
-   [out,  
-   retval] BSTR* pbstrFileName  
+   [out,  
+   retval] BSTR* pbstrFileName  
 );  
 ```  
   

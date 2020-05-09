@@ -10,8 +10,8 @@ Defines the default entry point of the dynamic-link library (DLL) that allows wo
   
 ```cpp  
 typedef HRESULT (*PFN_GET_PROTOCOL_MANAGER)(  
-   IN IWorkerProcessFramework* pWpFramework,  
-   OUT IProtocolManager** ppProtocolManager  
+   IN IWorkerProcessFramework* pWpFramework,  
+   OUT IProtocolManager** ppProtocolManager  
 );  
 ```  
   

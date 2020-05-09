@@ -29,8 +29,8 @@ product_family_name: VS
 
 Represents a constant that is used when assigning the ID of the element that contains the input folder of the task. The value is "ID". This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

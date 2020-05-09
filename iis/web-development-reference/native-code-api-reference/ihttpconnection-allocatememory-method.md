@@ -10,7 +10,7 @@ Allocates a specified amount of memory.
   
 ```cpp  
 virtual VOID* AllocateMemory(  
-   DWORD cbAllocation  
+   DWORD cbAllocation  
 ) = 0;  
 ```  
   

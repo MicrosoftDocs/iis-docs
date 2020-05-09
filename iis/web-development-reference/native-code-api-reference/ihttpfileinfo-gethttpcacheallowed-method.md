@@ -10,7 +10,7 @@ Returns a value that indicates whether the corresponding file can be cached.
   
 ```cpp  
 virtual BOOL GetHttpCacheAllowed(  
-   OUT DWORD* pSecondsToLive  
+   OUT DWORD* pSecondsToLive  
 ) const = 0;  
 ```  
   

@@ -10,15 +10,15 @@ Creates an application pool.
   
 ```vbs  
 oWebAdmin.Get("ApplicationPool").Create(  
-   AppPoolName,  
-   AutoStart  
+   AppPoolName,  
+   AutoStart  
 )  
 ```  
   
 ```jscript#  
 var apppool = oWebAdmin.Get("Application").Create(  
-   AppPoolName,  
-   AutoStart  
+   AppPoolName,  
+   AutoStart  
 );  
 ```  
   

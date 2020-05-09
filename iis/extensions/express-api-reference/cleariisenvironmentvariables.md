@@ -9,9 +9,9 @@ Removes any dynamic environment variables previously injected using a call to [A
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    ClearIISEnvironmentVariables(  
-    );  
+    HRESULT  
+    ClearIISEnvironmentVariables(  
+    );  
   
 ```  
   

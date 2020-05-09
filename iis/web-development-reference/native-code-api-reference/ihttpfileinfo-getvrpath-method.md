@@ -10,7 +10,7 @@ Returns the virtual path for the corresponding file.
   
 ```cpp  
 virtual PCWSTR GetVrPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

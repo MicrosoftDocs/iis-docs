@@ -10,8 +10,8 @@ Retrieves a `HANDLE` property from the worker process or application pool settin
   
 ```cpp  
 virtual HRESULT GetHandleProperty(  
-   IN WPF_SETTINGS_HANDLE_ENUM SettingId,  
-   OUT HANDLE* phSetting  
+   IN WPF_SETTINGS_HANDLE_ENUM SettingId,  
+   OUT HANDLE* phSetting  
 ) = 0;  
 ```  
   

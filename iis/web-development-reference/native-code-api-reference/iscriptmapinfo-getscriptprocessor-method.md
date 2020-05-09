@@ -10,7 +10,7 @@ Retrieves the script processor for a request handler.
   
 ```cpp  
 virtual PCWSTR GetScriptProcessor(  
-   DWORD* pcchScriptProcessor = NULL  
+   DWORD* pcchScriptProcessor = NULL  
 ) const = 0;  
 ```  
   

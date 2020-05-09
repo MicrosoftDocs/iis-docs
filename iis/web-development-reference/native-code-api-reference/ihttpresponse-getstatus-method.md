@@ -10,14 +10,14 @@ Retrieves the HTTP status for the response.
   
 ```cpp  
 virtual VOID GetStatus(  
-   OUT USHORT * pStatusCode,  
-   OUT USHORT * pSubStatus = NULL,  
-   OUT PCSTR * ppszReason = NULL,  
-   OUT USHORT * pcchReason = NULL,  
-   OUT HRESULT * phrErrorToReport = NULL,  
-   OUT PCWSTR * ppszModule = NULL,  
-   OUT DWORD * pdwNotification = NULL,  
-   OUT INativeSectionException ** ppException = NULL  
+   OUT USHORT * pStatusCode,  
+   OUT USHORT * pSubStatus = NULL,  
+   OUT PCSTR * ppszReason = NULL,  
+   OUT USHORT * pcchReason = NULL,  
+   OUT HRESULT * phrErrorToReport = NULL,  
+   OUT PCWSTR * ppszModule = NULL,  
+   OUT DWORD * pdwNotification = NULL,  
+   OUT INativeSectionException ** ppException = NULL  
 ) = 0;  
 ```  
   

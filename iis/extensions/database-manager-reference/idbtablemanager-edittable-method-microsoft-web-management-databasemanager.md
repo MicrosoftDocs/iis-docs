@@ -28,8 +28,8 @@ product_family_name: VS
 
 Modifies a table in a database.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -85,7 +85,7 @@ function EditTable(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
@@ -105,7 +105,7 @@ If your provider does not support editing tables, you can use the following code
 
     public void EditTable(string connectionString, string schema, TableInfo tableInfo)
     {
-       throw new NotImplementedException();
+       throw new NotImplementedException();
     }
 
 > [!NOTE]  

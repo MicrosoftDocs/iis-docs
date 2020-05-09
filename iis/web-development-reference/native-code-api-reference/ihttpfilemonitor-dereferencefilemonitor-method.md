@@ -10,7 +10,7 @@ Releases a file monitor interface.
   
 ```cpp  
 virtual VOID DereferenceFileMonitor(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

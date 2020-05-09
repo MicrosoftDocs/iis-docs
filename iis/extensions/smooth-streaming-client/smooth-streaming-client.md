@@ -18,8 +18,8 @@ The following table lists the references that describe and demonstrate Smooth St
 
 |Section|Description|
 |--- |--- |
-|[IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md)|Describes and demonstrates the basic programmable features of the Smooth Streaming Player that is available for Silverlight 4 applications.|
-|[Microsoft Smooth Streaming Client 2.0](https://go.microsoft.com/fwlink/?linkid=247635)|Describes and demonstrates the basic programmable features of the Smooth Streaming Player that is available for Silverlight 5 applications.|
+|[IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md)|Describes and demonstrates the basic programmable features of the Smooth Streaming Player that is available for Silverlight 4 applications.|
+|[Microsoft Smooth Streaming Client 2.0](https://go.microsoft.com/fwlink/?linkid=247635)|Describes and demonstrates the basic programmable features of the Smooth Streaming Player that is available for Silverlight 5 applications.|
 
 ## See Also
 

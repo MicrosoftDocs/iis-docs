@@ -10,7 +10,7 @@ Retrieves the application container for the current context.
   
 ```cpp  
 virtual IHttpApplication* GetApplication(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

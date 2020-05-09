@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the timestamp of the last output fragment.
 
     <LastOutputFragmentTimestamp>
-      "timestamp"
+      "timestamp"
     </LastOutputFragmentTimestamp>
 
 ### Child Elements

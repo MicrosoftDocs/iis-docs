@@ -10,8 +10,8 @@ Reports the worker process as unhealthy.
   
 ```cpp  
 virtual VOID ReportUnhealthy(  
-   IN PCWSTR pszReasonString,  
-   IN HRESULT hrReason  
+   IN PCWSTR pszReasonString,  
+   IN HRESULT hrReason  
 ) = 0;  
 ```  
   

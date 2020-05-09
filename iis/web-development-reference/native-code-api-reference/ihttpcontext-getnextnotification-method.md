@@ -10,11 +10,11 @@ Retrieves the next notification for the current module host.
   
 ```cpp  
 virtual BOOL GetNextNotification(  
-   IN REQUEST_NOTIFICATION_STATUS status,  
-   OUT DWORD* pdwNotification,  
-   OUT BOOL* pfIsPostNotification,  
-   OUT CHttpModule** ppModuleInfo,  
-   OUT IHttpEventProvider** ppRequestOutput  
+   IN REQUEST_NOTIFICATION_STATUS status,  
+   OUT DWORD* pdwNotification,  
+   OUT BOOL* pfIsPostNotification,  
+   OUT CHttpModule** ppModuleInfo,  
+   OUT IHttpEventProvider** ppRequestOutput  
 ) = 0;  
 ```  
   

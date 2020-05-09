@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the client manifest version.
 
     <ClientManifestVersion>
-      "2.0|2.2"
+      "2.0|2.2"
     </ClientManifestVersion>
 
 ## Child Elements

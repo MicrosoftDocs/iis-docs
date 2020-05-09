@@ -10,7 +10,7 @@ Retrieves the path of a configuration change.
   
 ```cpp  
 virtual VOID GetChangePath(  
-   PCWSTR* ppszPath  
+   PCWSTR* ppszPath  
 ) const = 0;  
 ```  
   

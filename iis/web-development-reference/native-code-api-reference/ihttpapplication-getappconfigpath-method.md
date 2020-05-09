@@ -10,7 +10,7 @@ Retrieves the application configuration path.
   
 ```cpp  
 virtual PCWSTR GetAppConfigPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

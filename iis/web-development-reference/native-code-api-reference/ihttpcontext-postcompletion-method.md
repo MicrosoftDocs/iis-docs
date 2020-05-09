@@ -10,7 +10,7 @@ Indicates the completion of asynchronous work and requests that IIS queue execut
   
 ```cpp  
 virtual HRESULT PostCompletion(  
-   IN DWORD cbBytes  
+   IN DWORD cbBytes  
 ) = 0;  
 ```  
   

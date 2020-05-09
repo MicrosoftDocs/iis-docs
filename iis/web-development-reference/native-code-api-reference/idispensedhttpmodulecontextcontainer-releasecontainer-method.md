@@ -10,7 +10,7 @@ Deletes the context container if it is dispensed.
   
 ```cpp  
 virtual VOID ReleaseContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

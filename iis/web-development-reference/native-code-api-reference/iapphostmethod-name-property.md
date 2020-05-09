@@ -10,7 +10,7 @@ Gets the name of the method.
   
 ```cpp  
 HRESULT Name(  
-   [out, string, retval] BSTR * pbstrName  
+   [out, string, retval] BSTR * pbstrName  
 );  
 ```  
   

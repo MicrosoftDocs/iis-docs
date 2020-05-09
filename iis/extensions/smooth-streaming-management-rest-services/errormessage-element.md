@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the message that is associated with the primary error code, if available.
 
     <ErrorMessage>
-      "error-message"
+      "error-message"
     </ErrorMessage>
 
 ### Child Elements

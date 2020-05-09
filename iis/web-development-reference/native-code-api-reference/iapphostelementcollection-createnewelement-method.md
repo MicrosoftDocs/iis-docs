@@ -10,11 +10,11 @@ Creates a new element.
   
 ```cpp  
 HRESULT CreateNewElement(  
-   [in,  
-   string,  
-   defaultvalue("")] BSTR bstrElementName,  
-   [out,  
-   retval] IAppHostElement** ppElement  
+   [in,  
+   string,  
+   defaultvalue("")] BSTR bstrElementName,  
+   [out,  
+   retval] IAppHostElement** ppElement  
 );  
 ```  
   

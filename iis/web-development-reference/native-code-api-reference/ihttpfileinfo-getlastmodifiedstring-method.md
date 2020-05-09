@@ -10,7 +10,7 @@ Retrieves the last modified string of the corresponding file for an [IHttpFileIn
   
 ```cpp  
 virtual PCSTR GetLastModifiedString(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -11,9 +11,9 @@ Notifies the listener adapter that the bindings for a particular application hav
 ```cpp  
 typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppKey,  
-   IN PBYTE Bindings,  
-   IN DWORD NumberOfBindings  
+   IN LPCWSTR AppKey,  
+   IN PBYTE Bindings,  
+   IN DWORD NumberOfBindings  
 );  
 ```  
   

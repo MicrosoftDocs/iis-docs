@@ -13,8 +13,8 @@ mtps_version: v=VS.90
 Enables archiving of live streams to on-demand Smooth Streaming presentations.
 
     <Archive enabled="true|false">
-      <SegmentLength />
-      <Path />
+      <SegmentLength />
+      <Path />
     </Archive>
 
 ## Attributes

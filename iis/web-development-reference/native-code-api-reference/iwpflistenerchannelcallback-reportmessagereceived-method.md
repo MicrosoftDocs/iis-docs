@@ -10,7 +10,7 @@ Notifies the worker process framework that a listener channel has received a mes
   
 ```cpp  
 virtual HRESULT ReportMessageReceived(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

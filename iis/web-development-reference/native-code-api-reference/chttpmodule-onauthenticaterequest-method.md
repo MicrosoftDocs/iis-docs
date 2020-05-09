@@ -10,8 +10,8 @@ Represents the method that will handle an `AuthenticateRequest` event, which occ
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnAuthenticateRequest(  
-   IN IHttpContext* pHttpContext,  
-   IN IAuthenticationProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IAuthenticationProvider* pProvider  
 );  
 ```  
   

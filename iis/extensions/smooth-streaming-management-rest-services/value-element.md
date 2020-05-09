@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies a publishing point state (Idle, Starting, Started, Stopping, Stopped, ShuttingDown, or Error).
 
     <Value>
-      "Idle|Starting|Started|Stopping|Stopped|ShuttingDown|Error"
+      "Idle|Starting|Started|Stopping|Stopped|ShuttingDown|Error"
     </Value>
 
 ## Child Elements

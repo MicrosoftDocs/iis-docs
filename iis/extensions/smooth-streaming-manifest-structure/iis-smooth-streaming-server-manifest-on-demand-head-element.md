@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 The head element is a container for presentation-level metadata.
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - smil Element](iis-smooth-streaming-server-manifest-on-demand-smil-element.md)  
-  [IIS Smooth Streaming Server Manifest (On-Demand) - meta Element](iis-smooth-streaming-server-manifest-on-demand-meta-element.md)  
+  [IIS Smooth Streaming Server Manifest (On-Demand) - meta Element](iis-smooth-streaming-server-manifest-on-demand-meta-element.md)  
 
     <head>
     </head>

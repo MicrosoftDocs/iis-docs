@@ -10,7 +10,7 @@ Releases a cloned [IHttpContext](../../web-development-reference/native-code-api
   
 ```cpp  
 virtual HRESULT ReleaseClonedContext(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

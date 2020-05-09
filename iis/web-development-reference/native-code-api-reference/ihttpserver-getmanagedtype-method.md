@@ -10,10 +10,10 @@ Retrieves the managed type for a specific site and Uniform Resource Identifier (
   
 ```cpp  
 virtual HRESULT GetManagedType(  
-   IN DWORD dwSiteId,  
-   IN PCWSTR pszVirtualPath,  
-   __out PWSTR pszManagedType,  
-   IN OUT DWORD* pcchManagedType  
+   IN DWORD dwSiteId,  
+   IN PCWSTR pszVirtualPath,  
+   __out PWSTR pszManagedType,  
+   IN OUT DWORD* pcchManagedType  
 ) = 0;  
 ```  
   

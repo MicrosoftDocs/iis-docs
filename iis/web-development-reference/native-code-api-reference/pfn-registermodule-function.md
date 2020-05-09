@@ -10,9 +10,9 @@ Defines the `RegisterModule` function prototype for native-code HTTP modules.
   
 ```cpp  
 typedef HRESULT(WINAPI* PFN_REGISTERMODULE)(  
-   DWORD dwServerVersion,  
-   IHttpModuleRegistrationInfo* pModuleInfo,  
-   IHttpServer* pGlobalInfo  
+   DWORD dwServerVersion,  
+   IHttpModuleRegistrationInfo* pModuleInfo,  
+   IHttpServer* pGlobalInfo  
 );  
 ```  
   

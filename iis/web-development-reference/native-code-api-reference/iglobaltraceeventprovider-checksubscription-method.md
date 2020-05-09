@@ -10,7 +10,7 @@ Returns a value that indicates whether the trace event is intended for the modul
   
 ```cpp  
 virtual BOOL CheckSubscription(  
-   IN HTTP_MODULE_ID ModuleId  
+   IN HTTP_MODULE_ID ModuleId  
 ) = 0;  
 ```  
   

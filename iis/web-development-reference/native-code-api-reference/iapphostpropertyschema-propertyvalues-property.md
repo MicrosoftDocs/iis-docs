@@ -10,8 +10,8 @@ Gets a collection of possible and applicable constant values for the specified p
   
 ```cpp  
 [propget] HRESULT PossibleValues(  
-   [out,  
-   retval] IAppHostConstantValueCollection ** ppValues  
+   [out,  
+   retval] IAppHostConstantValueCollection ** ppValues  
 );  
 ```  
   

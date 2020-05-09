@@ -10,8 +10,8 @@ Represents the method that will handle an `UpdateRequestCache` post-event, which
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnPostUpdateRequestCache(  
-   IN IHttpContext* pHttpContext,  
-   IN IHttpEventProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IHttpEventProvider* pProvider  
 );  
 ```  
   

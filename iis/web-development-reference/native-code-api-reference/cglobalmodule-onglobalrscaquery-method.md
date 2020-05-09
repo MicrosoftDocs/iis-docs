@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalRSCAQuery` event, which occurs w
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalRSCAQuery(  
-   IN IGlobalRSCAQueryProvider* pProvider  
+   IN IGlobalRSCAQueryProvider* pProvider  
 );  
 ```  
   

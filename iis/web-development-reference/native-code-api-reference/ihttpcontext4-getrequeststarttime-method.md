@@ -11,7 +11,7 @@ Retrieves the start time of the request in milliseconds.
   
 ```  
 virtual ULONGLONG GetRequestStartTime(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

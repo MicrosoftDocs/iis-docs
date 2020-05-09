@@ -10,8 +10,8 @@ Gets a Boolean value that determines whether a collection that implements the cu
   
 ```cpp  
 HRESULT DoesAllowDuplicates(  
-   [out,  
-   retval] VARIANT_BOOL* pfAllowDuplicates  
+   [out,  
+   retval] VARIANT_BOOL* pfAllowDuplicates  
 );  
 ```  
   

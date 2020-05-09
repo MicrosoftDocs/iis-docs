@@ -10,7 +10,7 @@ Increments the thread count for the thread pool.
   
 ```cpp  
 virtual VOID IncrementThreadCount(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

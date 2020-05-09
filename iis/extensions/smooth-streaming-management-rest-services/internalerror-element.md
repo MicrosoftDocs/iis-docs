@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 If present, specifies the HResult code of the internal error that prompted the error represented by the parent Error element.
 
     <ErrorCode>
-      "error-code"
+      "error-code"
     </ErrorCode>
 
 ### Child Elements

@@ -10,7 +10,7 @@ Signals the close of the TCP connection. The connection will not shut down until
   
 ```cpp  
 virtual VOID CloseTcpConnection(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

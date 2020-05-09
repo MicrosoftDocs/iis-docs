@@ -41,8 +41,8 @@ Specifies how to display IIS Transform Manager configuration messages.
 
 This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

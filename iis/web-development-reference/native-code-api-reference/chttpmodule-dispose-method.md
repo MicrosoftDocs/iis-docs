@@ -10,7 +10,7 @@ Releases all resources used by the current instance of the [CHttpModule](../../w
   
 ```cpp  
 virtual VOID Dispose(  
-   VOID  
+   VOID  
 );  
 ```  
   

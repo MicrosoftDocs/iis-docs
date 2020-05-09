@@ -10,10 +10,10 @@ Retrieves the correct down-casted pointer based on version GUID (globally unique
   
 ```cpp  
 virtual HRESULT GetExtendedInterface(  
-   _In_ const GUID &       Version1,  
-   _In_ PVOID              pInput,  
-   _In_ const GUID &       Version2,  
-   _Outptr_ PVOID *        ppOutput  
+   _In_ const GUID &       Version1,  
+   _In_ PVOID              pInput,  
+   _In_ const GUID &       Version2,  
+   _Outptr_ PVOID *        ppOutput  
 ) = 0;  
 ```  
   
@@ -42,14 +42,14 @@ virtual HRESULT GetExtendedInterface(
   
 ```  
 HRESULT SomeFunction(   
-    IHttpServer2* pHttpServer,  
-    IHttpRequest pHttpRequest   
+    IHttpServer2* pHttpServer,  
+    IHttpRequest pHttpRequest   
 )  
 {  
-    IHttpRequest2 pHttpRequest2 = NULL;  
-    // Grab a new interface!  
-    pHttpServer-> GetExtendedInterface(__uuidof(pHttpRequest), pHttpRequest, __uuidof(pHttpRequest2), &pHttpRequest2 );  
-    …  
+    IHttpRequest2 pHttpRequest2 = NULL;  
+    // Grab a new interface!  
+    pHttpServer-> GetExtendedInterface(__uuidof(pHttpRequest), pHttpRequest, __uuidof(pHttpRequest2), &pHttpRequest2 );  
+    …  
 }  
 ```  
   

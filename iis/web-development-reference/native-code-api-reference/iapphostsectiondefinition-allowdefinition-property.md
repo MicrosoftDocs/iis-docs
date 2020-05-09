@@ -10,8 +10,8 @@ Gets or sets a value that indicates valid configuration path locations for the c
   
 ```cpp  
 HRESULT get_AllowDefinition(  
-   [out,  
-   retval] BSTR* pbstrAllowDefinition  
+   [out,  
+   retval] BSTR* pbstrAllowDefinition  
 );  
 HRESULT put_AllowDefintion(  
    BSTR bstrAllowDefinition  

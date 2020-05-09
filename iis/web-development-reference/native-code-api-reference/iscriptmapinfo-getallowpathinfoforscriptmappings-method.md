@@ -11,7 +11,7 @@ Retrieves a value that indicates whether a script map handler has the `allowPath
 
 ```cpp
 virtual BOOL GetAllowPathInfoForScriptMappings(
-   VOID
+   VOID
 ) const = 0;
 ```
 

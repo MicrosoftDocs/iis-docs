@@ -10,8 +10,8 @@ Associates an asynchronous completion operation with the thread pool.
   
 ```cpp  
 virtual HRESULT AssociateWithThreadPool(  
-   IN HANDLE hHandle,  
-   IN LPOVERLAPPED_COMPLETION_ROUTINE completionRoutine  
+   IN HANDLE hHandle,  
+   IN LPOVERLAPPED_COMPLETION_ROUTINE completionRoutine  
 ) = 0;  
 ```  
   

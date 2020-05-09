@@ -10,8 +10,8 @@ Gets the number of [IAppHostElementSchema Interface](../../web-development-refer
   
 ```cpp  
 [propget] HRESULT Count(  
-   [out,  
-   retval] DWORD * pcCount  
+   [out,  
+   retval] DWORD * pcCount  
 );  
 ```  
   

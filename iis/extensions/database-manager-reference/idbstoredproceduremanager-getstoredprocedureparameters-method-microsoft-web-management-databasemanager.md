@@ -28,8 +28,8 @@ product_family_name: VS
 
 Returns a collection of parameters for a stored procedure.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -86,7 +86,7 @@ function GetStoredProcedureParameters(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the stored procedure.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
@@ -113,7 +113,7 @@ public ICollection\<StoredProcedureParameter\> GetStoredProcedureParameters(stri
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

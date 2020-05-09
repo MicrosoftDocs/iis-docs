@@ -10,7 +10,7 @@ Returns the URL associated with the Uniform Resource Identifier (URI) data.
   
 ```cpp  
 virtual PCWSTR GetUrl(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Returns the trace context for the cache provider.
   
 ```cpp  
 virtual IHttpTraceContext* GetTraceContext(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

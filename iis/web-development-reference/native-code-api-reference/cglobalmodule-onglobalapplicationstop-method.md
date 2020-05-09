@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalApplicationStop` event, which oc
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationStop(  
-   IN IHttpApplicationStopProvider* pProvider  
+   IN IHttpApplicationStopProvider* pProvider  
 );  
 ```  
   

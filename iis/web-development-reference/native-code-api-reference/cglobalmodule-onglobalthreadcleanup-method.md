@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalThreadCleanup` event, which occu
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(  
-   IN IGlobalThreadCleanupProvider* pProvider  
+   IN IGlobalThreadCleanupProvider* pProvider  
 );  
 ```  
   

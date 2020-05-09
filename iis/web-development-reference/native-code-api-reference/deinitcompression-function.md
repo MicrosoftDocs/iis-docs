@@ -10,7 +10,7 @@ De-initializes the compression scheme.
   
 ```cpp  
 VOID WINAPI DeInitCompression(  
-   VOID  
+   VOID  
 );  
 ```  
   

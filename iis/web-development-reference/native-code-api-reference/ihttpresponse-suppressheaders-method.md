@@ -10,7 +10,7 @@ Suppresses the response status and headers.
   
 ```cpp  
 virtual VOID SuppressHeaders(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,11 +10,11 @@ Represents the method that will handle an asynchronous completion event, which o
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnAsyncCompletion(  
-   IN IHttpContext* pHttpContext,  
-   IN DWORD dwNotification,  
-   IN BOOL fPostNotification,  
-   IN OUT IHttpEventProvider* pProvider,  
-   IN IHttpCompletionInfo* pCompletionInfo  
+   IN IHttpContext* pHttpContext,  
+   IN DWORD dwNotification,  
+   IN BOOL fPostNotification,  
+   IN OUT IHttpEventProvider* pProvider,  
+   IN IHttpCompletionInfo* pCompletionInfo  
 );  
 ```  
   

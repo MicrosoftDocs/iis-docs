@@ -10,7 +10,7 @@ Returns an [IHttpFileMonitor](../../web-development-reference/native-code-api-re
   
 ```cpp  
 virtual IHttpFileMonitor* GetFileMonitor(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

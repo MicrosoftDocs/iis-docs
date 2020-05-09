@@ -10,7 +10,7 @@ Returns the name of the global file cache.
   
 ```cpp  
 PCWSTR GetCacheName(  
-   VOID  
+   VOID  
 ) const;  
 ```  
   

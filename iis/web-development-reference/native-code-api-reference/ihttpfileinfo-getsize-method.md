@@ -10,7 +10,7 @@ Retrieves the size of the corresponding file for an [IHttpFileInfo](../../web-de
   
 ```cpp  
 virtual VOID GetSize(  
-   OUT ULARGE_INTEGER* pliSize  
+   OUT ULARGE_INTEGER* pliSize  
 ) const = 0;  
 ```  
   

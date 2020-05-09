@@ -10,8 +10,8 @@ Gets the number of configuration section definitions in the current collection.
   
 ```cpp  
 HRESULT get_Count(  
-   [out,  
-   retval] ULONG* pcCount  
+   [out,  
+   retval] ULONG* pcCount  
 );  
 ```  
   

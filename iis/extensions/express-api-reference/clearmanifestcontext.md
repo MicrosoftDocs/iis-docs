@@ -9,8 +9,8 @@ Clears the manifest context created using an earlier call to [ApplyManifestConte
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    ClearManifestContext();  
+    HRESULT  
+    ClearManifestContext();  
 ```  
   
 ## Return Value  

@@ -10,7 +10,7 @@ Removes a configuration section definition from the collection.
   
 ```cpp  
 HRESULT DeleteSection(  
-   [in] VARIANT varIndex  
+   [in] VARIANT varIndex  
 );  
 ```  
   

@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 An xs:duration value that specifies the archive segment length.
 
     <SegmentLength>
-      "length"
+      "length"
     </SegmentLength>
 
 ## Child Elements

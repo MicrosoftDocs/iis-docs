@@ -10,7 +10,7 @@ Cancels all remaining input or output operations.
   
 ```cpp  
 virtual VOID CancelOutstandingIO(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

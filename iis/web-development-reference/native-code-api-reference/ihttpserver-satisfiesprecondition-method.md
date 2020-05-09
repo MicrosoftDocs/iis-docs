@@ -10,7 +10,7 @@ Determines whether a specific precondition has been met for the current request.
   
 ```cpp  
 virtual BOOL SatisfiesPrecondition(  
-   IN PCWSTR pszPrecondition  
+   IN PCWSTR pszPrecondition  
 ) const = 0;  
 ```  
   

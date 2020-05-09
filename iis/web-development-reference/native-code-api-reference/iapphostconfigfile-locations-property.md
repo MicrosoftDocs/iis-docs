@@ -10,8 +10,8 @@ Returns a collection of [IAppHostConfigLocation](../../web-development-reference
   
 ```cpp  
 HRESULT get_Locations(  
-   [out,  
-   retval] IAppHostConfigLocationCollection** ppLocations  
+   [out,  
+   retval] IAppHostConfigLocationCollection** ppLocations  
 );  
 ```  
   

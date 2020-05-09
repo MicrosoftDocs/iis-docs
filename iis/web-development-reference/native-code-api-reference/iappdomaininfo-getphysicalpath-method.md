@@ -10,7 +10,7 @@ Retrieves the physical path of the application domain.
   
 ```cpp  
 virtual HRESULT __stdcall GetPhysicalPath(  
-   BSTR* pbstrPhysicalPath  
+   BSTR* pbstrPhysicalPath  
 ) = 0;  
 ```  
   

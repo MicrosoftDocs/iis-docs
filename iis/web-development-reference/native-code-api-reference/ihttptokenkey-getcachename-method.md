@@ -10,7 +10,7 @@ Returns the name of the global token cache.
   
 ```cpp  
 PCWSTR GetCacheName(  
-   VOID  
+   VOID  
 ) const;  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the module name.
   
 ```cpp  
 virtual PCWSTR GetName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

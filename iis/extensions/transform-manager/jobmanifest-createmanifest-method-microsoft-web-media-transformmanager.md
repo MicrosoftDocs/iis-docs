@@ -29,8 +29,8 @@ product_family_name: VS
 
 Creates a [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md) object by using the job definition, the root work folder name, scheduling information about a job, tasks that define a job, shared properties, the name of the file that is used to create the manifest, and the ID of the manifest instance.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

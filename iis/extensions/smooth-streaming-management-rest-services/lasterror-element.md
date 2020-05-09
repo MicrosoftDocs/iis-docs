@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 For an Error publishing point state, specifies the HResult value for the last publishing point error.
 
     <LastError>
-      "error-code"
+      "error-code"
     </LastError>
 
 ## Child Elements

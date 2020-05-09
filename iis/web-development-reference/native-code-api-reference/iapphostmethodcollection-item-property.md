@@ -10,8 +10,8 @@ Gets the [IAppHostMethod Interface](../../web-development-reference/native-code-
   
 ```cpp  
 [propget, id(DISPID_VALUE)] HRESULT Item(  
-   [in] VARIANT cIndex,  
-   [out, retval] IAppHostMethod** ppMethod  
+   [in] VARIANT cIndex,  
+   [out, retval] IAppHostMethod** ppMethod  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Returns the primary token for the process that is servicing a request.
   
 ```cpp  
 virtual HANDLE GetPrimaryToken(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

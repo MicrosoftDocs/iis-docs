@@ -10,7 +10,7 @@ Returns the user primary token.
   
 ```cpp  
 virtual HANDLE GetPrimaryToken(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

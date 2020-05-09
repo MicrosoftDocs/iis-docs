@@ -10,8 +10,8 @@ Gets a corresponding [IAppHostElement Interface](../../web-development-reference
   
 ```cpp  
 [propget] HRESULT IsCollectionDefault(  
-   [out,  
-   retval] VARIANT_BOOL * pfIsCollectionDefault  
+   [out,  
+   retval] VARIANT_BOOL * pfIsCollectionDefault  
 );  
 ```  
   

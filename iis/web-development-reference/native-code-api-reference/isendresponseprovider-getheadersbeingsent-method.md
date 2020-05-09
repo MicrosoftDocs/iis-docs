@@ -10,7 +10,7 @@ Retrieves a value that indicates whether the HTTP headers are being returned.
   
 ```cpp  
 virtual BOOL GetHeadersBeingSent(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

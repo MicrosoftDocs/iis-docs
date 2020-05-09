@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the amount of time that has passed since the last fragment was received.
 
     <IncomingFragmentWaitTime>
-      "wait-time"
+      "wait-time"
     </IncomingFragmentWaitTime>
 
 ### Child Elements

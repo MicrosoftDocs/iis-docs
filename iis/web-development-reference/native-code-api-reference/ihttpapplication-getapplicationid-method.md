@@ -10,7 +10,7 @@ Retrieves the identifying application path for the current request.
   
 ```cpp  
 virtual PCWSTR GetApplicationId(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

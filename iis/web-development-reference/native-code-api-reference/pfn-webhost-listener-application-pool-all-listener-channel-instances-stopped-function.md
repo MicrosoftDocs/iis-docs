@@ -10,10 +10,10 @@ Notifies the listener adapter that all instances of a specific listener channel 
   
 ```cpp  
 typedef VOID(  
-   * PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED)(  
+   * PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppPoolId,  
-   IN DWORD ListenerChannelId  
+   IN LPCWSTR AppPoolId,  
+   IN DWORD ListenerChannelId  
 );  
 ```  
   

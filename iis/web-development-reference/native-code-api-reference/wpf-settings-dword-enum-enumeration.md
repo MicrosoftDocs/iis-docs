@@ -10,10 +10,10 @@ Defines the `DWORD` values that the [IWpfSettings::GetDwordProperty](../../web-d
   
 ```cpp  
 enum WPF_SETTINGS_DWORD_ENUM {  
-   PERIODIC_RESTART_REQUESTS = 1,  
-   PERIODIC_RESTART_TIME,  
-   IDLE_TIMEOUT,  
-   MANAGED_PIPELINE_MODE  
+   PERIODIC_RESTART_REQUESTS = 1,  
+   PERIODIC_RESTART_TIME,  
+   IDLE_TIMEOUT,  
+   MANAGED_PIPELINE_MODE  
 };  
 ```  
   

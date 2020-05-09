@@ -10,7 +10,7 @@ Indicates that the handlers for the current request have completed.
   
 ```cpp  
 virtual VOID SetRequestHandled(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

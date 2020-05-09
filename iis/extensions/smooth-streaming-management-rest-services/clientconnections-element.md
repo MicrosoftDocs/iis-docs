@@ -13,9 +13,9 @@ mtps_version: v=VS.90
 Enables the publishing point to return live streams when they are requested by clients.
 
     <ClientConnections enabled="true|false">
-      <WindowLength />
-      <LiveCacheLength />
-      <ClientManifestVersion />
+      <WindowLength />
+      <LiveCacheLength />
+      <ClientManifestVersion />
     </ClientConnections>
 
 ### Attributes

@@ -10,7 +10,7 @@ Returns the size of the buffered data in the listener channel.
   
 ```cpp  
 virtual HRESULT __stdcall GetBlobLength(  
-   DWORD* pcbLength  
+   DWORD* pcbLength  
 ) = 0;  
 ```  
   

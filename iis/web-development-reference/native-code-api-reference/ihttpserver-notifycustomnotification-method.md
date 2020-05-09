@@ -10,7 +10,7 @@ Raises a custom global-level notification.
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS NotifyCustomNotification(  
-   ICustomNotificationProvider* pCustomOutput  
+   ICustomNotificationProvider* pCustomOutput  
 ) = 0;  
 ```  
   

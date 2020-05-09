@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 The URL of a Live Smooth Streaming publishing point.
 
     <PublishingPoint credentialName="name">
-      "publishingpointurl"
+      "publishingpointurl"
     </PublishingPoint>
 
 ### Attributes

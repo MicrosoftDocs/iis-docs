@@ -10,7 +10,7 @@ Determines whether the request URL has been modified.
   
 ```cpp  
 virtual BOOL GetUrlChanged(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Retrieves a `ULONGLONG` value from the worker process or application pool settin
   
 ```cpp  
 virtual HRESULT GetUlonglongProperty(  
-   IN WPF_SETTINGS_ULONGLONG_ENUM SettingId,  
-   OUT ULONGLONG* pSetting  
+   IN WPF_SETTINGS_ULONGLONG_ENUM SettingId,  
+   OUT ULONGLONG* pSetting  
 ) = 0;  
 ```  
   

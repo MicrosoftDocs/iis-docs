@@ -10,8 +10,8 @@ Returns a value that indicates whether the user can access the corresponding fil
   
 ```cpp  
 virtual HRESULT AccessCheck(  
-   IN HANDLE hUserToken,  
-   IN PSID pUserSid  
+   IN HANDLE hUserToken,  
+   IN PSID pUserSid  
 ) = 0;  
 ```  
   

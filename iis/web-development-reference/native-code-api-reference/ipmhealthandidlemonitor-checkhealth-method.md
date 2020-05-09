@@ -10,7 +10,7 @@ Enables the worker process framework to request the health status of a protocol 
   
 ```cpp  
 virtual HRESULT CheckHealth(  
-   IHealthStatusCallback* pIHealthStatusCallback  
+   IHealthStatusCallback* pIHealthStatusCallback  
 ) = 0;  
 ```  
   

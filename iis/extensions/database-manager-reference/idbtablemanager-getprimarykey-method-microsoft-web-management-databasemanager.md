@@ -28,8 +28,8 @@ product_family_name: VS
 
 Returns a list of primary keys for the specified table.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -92,7 +92,7 @@ function GetPrimaryKey(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 ### Return Value
 
@@ -111,7 +111,7 @@ If your provider does not support retrieving the list of primary keys, you can u
 
     public string[] GetPrimaryKey(string connectionString, string tableName, string schema)
     {
-       throw new NotImplementedException();
+       throw new NotImplementedException();
     }
 
 ## Examples

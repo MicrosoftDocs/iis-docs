@@ -10,7 +10,7 @@ Retrieves the ID of a listener channel that needs to be started.
   
 ```cpp  
 virtual HRESULT __stdcall GetId(  
-   DWORD* pdwListenerChannelId  
+   DWORD* pdwListenerChannelId  
 ) = 0;  
 ```  
   

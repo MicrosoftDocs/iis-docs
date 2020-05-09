@@ -10,7 +10,7 @@ Returns a value that indicates whether role support is enabled for the user.
   
 ```cpp  
 virtual BOOL SupportsIsInRole(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

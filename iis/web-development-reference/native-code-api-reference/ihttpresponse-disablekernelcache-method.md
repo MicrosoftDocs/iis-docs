@@ -10,7 +10,7 @@ Disables the kernel cache for this response.
   
 ```cpp  
 virtual VOID DisableKernelCache(  
-   ULONG reason = 9  
+   ULONG reason = 9  
 ) = 0;  
 ```  
   

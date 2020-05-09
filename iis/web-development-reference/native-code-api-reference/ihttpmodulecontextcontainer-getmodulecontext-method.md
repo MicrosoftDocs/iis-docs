@@ -10,7 +10,7 @@ Returns the stored context from the context container.
   
 ```cpp  
 virtual IHttpStoredContext* GetModuleContext(  
-   IN HTTP_MODULE_ID moduleId  
+   IN HTTP_MODULE_ID moduleId  
 ) = 0;  
 ```  
   

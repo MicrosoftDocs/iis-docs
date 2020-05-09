@@ -10,7 +10,7 @@ Enables a protocol manager to request a recycle of the worker process and to log
   
 ```cpp  
 virtual VOID RecycleWorkerProcess(  
-   IN PCWSTR pszReason  
+   IN PCWSTR pszReason  
 ) = 0;  
 ```  
   

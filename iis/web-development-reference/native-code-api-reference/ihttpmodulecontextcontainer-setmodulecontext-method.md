@@ -10,8 +10,8 @@ Sets the stored context on the context container.
   
 ```cpp  
 virtual HRESULT SetModuleContext(  
-   IN IHttpStoredContext* ppStoredContext,  
-   IN HTTP_MODULE_ID moduleId  
+   IN IHttpStoredContext* ppStoredContext,  
+   IN HTTP_MODULE_ID moduleId  
 ) = 0;  
 ```  
   

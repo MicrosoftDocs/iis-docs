@@ -10,9 +10,9 @@ Returns the results of a `RegisterCustomAction` or `UnregisterCustomAction` oper
   
 ```cpp  
 virtual HRESULT ReportResult(  
-   IN HRESULT hrStatus,  
-   IN PBYTE pbResponse,  
-   IN DWORD cbResponse  
+   IN HRESULT hrStatus,  
+   IN PBYTE pbResponse,  
+   IN DWORD cbResponse  
 ) = 0;  
 ```  
   

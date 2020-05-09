@@ -10,7 +10,7 @@ Retrieves the physical path for the current request.
   
 ```cpp  
 virtual PCWSTR GetPhysicalPath(  
-   DWORD* pcchPhysicalPath = NULL  
+   DWORD* pcchPhysicalPath = NULL  
 ) = 0;  
 ```  
   

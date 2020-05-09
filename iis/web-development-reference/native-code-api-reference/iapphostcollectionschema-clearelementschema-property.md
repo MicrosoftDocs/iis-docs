@@ -10,8 +10,8 @@ Gets the schema for the element that will be used to clear all items from the co
   
 ```cpp  
 HRESULT get_ClearElementSchema(  
-   [out,  
-   retval] IAppHostElementSchema** ppSchema  
+   [out,  
+   retval] IAppHostElementSchema** ppSchema  
 );  
 ```  
   

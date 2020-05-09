@@ -31,10 +31,10 @@ product_family_name: VS
 
 # SmoothStreamingMediaElement.LivePlaybackOffset Property
 
-Gets or sets how far back from the live position, excluding [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md), to start playback when joining a live presentation.  Increasing this value allows the pre-roll buffer to fill faster than real time and creates a buffer against network jitter, but increases the end-to-end latency of the presentation. The default value is 7 seconds. Changes that are made to this value after the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property has been set are disregarded.
+Gets or sets how far back from the live position, excluding [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md), to start playback when joining a live presentation.  Increasing this value allows the pre-roll buffer to fill faster than real time and creates a buffer against network jitter, but increases the end-to-end latency of the presentation. The default value is 7 seconds. Changes that are made to this value after the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property has been set are disregarded.
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

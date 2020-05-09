@@ -10,7 +10,7 @@ Retrieves the configured name for a request handler.
   
 ```cpp  
 virtual PCWSTR GetName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

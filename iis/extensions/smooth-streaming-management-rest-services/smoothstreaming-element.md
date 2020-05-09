@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Provides the root element for Smooth Streaming management services.
 
     <SmoothStreaming>
-      <Settings /> | <State /> | <Statistics /> | <Error />
+      <Settings /> | <State /> | <Statistics /> | <Error />
     </SmoothStreaming>
 
 ### Child Elements

@@ -10,7 +10,7 @@ Retrieves a pointer to the parent context for the current context.
   
 ```cpp  
 virtual IHttpContext* GetParentContext(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the custom error description.
   
 ```cpp  
 virtual PCWSTR GetErrorDescription(  
-   OUT DWORD* pcchDescription = NULL  
+   OUT DWORD* pcchDescription = NULL  
 ) = 0;  
 ```  
   

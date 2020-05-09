@@ -10,7 +10,7 @@ Retrieves the path of the application pool’s configuration file.
   
 ```cpp  
 virtual _Ret_writes_(*pcchConfigFilePath) PCWSTR GetAppPoolConfigFile(  
-   _Out_ DWORD * pcchConfigFilePath = NULL  
+   _Out_ DWORD * pcchConfigFilePath = NULL  
 ) const = 0;  
 ```  
   

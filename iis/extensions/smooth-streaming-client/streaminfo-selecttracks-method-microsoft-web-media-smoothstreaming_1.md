@@ -29,8 +29,8 @@ product_family_name: VS
 
 Selects [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) objects for this stream. For more information see [Select and Monitor Bitrate](select-and-monitor-bitrate.md).
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

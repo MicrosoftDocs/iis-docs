@@ -10,9 +10,9 @@ Enables a protocol manager to request a shutdown of the worker process and to lo
   
 ```cpp  
 virtual VOID FailWorkerProcess(  
-   IN PCWSTR pszReason,  
-   IN HRESULT hrFailureToReport,  
-   IN BOOL fFailOnNextPing = FALSE  
+   IN PCWSTR pszReason,  
+   IN HRESULT hrFailureToReport,  
+   IN BOOL fFailOnNextPing = FALSE  
 ) = 0;  
 ```  
   

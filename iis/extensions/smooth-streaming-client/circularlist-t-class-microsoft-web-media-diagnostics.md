@@ -31,11 +31,11 @@ product_family_name: VS
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  [System.Collections.Generic.List](https://msdn.microsoft.com/library/6sh2ey19)\< (Of \< ( \<'T\> ) \> ) \>  
-    Microsoft.Web.Media.Diagnostics..::..CircularList\<(Of \<(\<'T\>)\>)\>  
+  [System.Collections.Generic.List](https://msdn.microsoft.com/library/6sh2ey19)\< (Of \< ( \<'T\> ) \> ) \>  
+    Microsoft.Web.Media.Diagnostics..::..CircularList\<(Of \<(\<'T\>)\>)\>  
 
-**Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
@@ -141,7 +141,7 @@ The CircularList\<(Of \<(\<'T\>)\>)\> type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TrimExcess](https://msdn.microsoft.com/library/ms132207)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TrueForAll](https://msdn.microsoft.com/library/kdxe4x4w)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 
-## Explicit Interface Implementations
+## Explicit Interface Implementations
 
 ||Name|Description|
 |--- |--- |--- |

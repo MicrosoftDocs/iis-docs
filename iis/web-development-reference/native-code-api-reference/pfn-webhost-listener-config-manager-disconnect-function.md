@@ -11,7 +11,7 @@ Notifies the listener adapter that the Windows Process Activation Service (WAS) 
 ```cpp  
 typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT)(  
    IN VOID* pContext,  
-   IN HRESULT hr  
+   IN HRESULT hr  
 );  
 ```  
   

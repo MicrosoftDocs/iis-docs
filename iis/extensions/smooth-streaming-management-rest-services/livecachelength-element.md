@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the broadcast duration that is cached in the publishing point’s internal memory.
 
     <LiveCacheLength>
-      "duration"
+      "duration"
     </LiveCacheLength>
 
 ## Child Elements

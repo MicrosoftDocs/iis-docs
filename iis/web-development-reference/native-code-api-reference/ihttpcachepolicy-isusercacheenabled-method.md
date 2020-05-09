@@ -10,7 +10,7 @@ Returns a value that indicates whether user caching is enabled for the cache pol
   
 ```cpp  
 virtual BOOL IsUserCacheEnabled(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

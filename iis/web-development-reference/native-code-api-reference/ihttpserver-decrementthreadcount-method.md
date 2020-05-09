@@ -10,7 +10,7 @@ Decrements the thread count for the thread pool.
   
 ```cpp  
 virtual VOID DecrementThreadCount(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Determines whether the HTTP response headers have been sent to the client.
   
 ```cpp  
 virtual BOOL GetResponseHeadersSent(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

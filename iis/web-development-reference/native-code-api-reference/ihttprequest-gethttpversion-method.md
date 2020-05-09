@@ -10,8 +10,8 @@ Returns the HTTP version for the request.
   
 ```cpp  
 virtual VOID GetHttpVersion(  
-   OUT USHORT* pMajorVersion,  
-   OUT USHORT* pMinorVersion  
+   OUT USHORT* pMajorVersion,  
+   OUT USHORT* pMinorVersion  
 ) const = 0;  
 ```  
   

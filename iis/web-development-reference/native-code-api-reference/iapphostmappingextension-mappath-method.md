@@ -10,14 +10,14 @@ Maps a site to a physical path, virtual directory, and application path by using
   
 ```cpp  
 HRESULT MapPath(  
-   [in,  
-   string] BSTR bstrSiteName,  
-   [in,  
-   string] BSTR bstrVirtualPath,  
-   [out,  
-   string] BSTR* pbstrPhysicalPath,  
-   [out] IAppHostElement** ppVirtualDirectoryElement,  
-   [out] IAppHostElement** ppApplicationElement  
+   [in,  
+   string] BSTR bstrSiteName,  
+   [in,  
+   string] BSTR bstrVirtualPath,  
+   [out,  
+   string] BSTR* pbstrPhysicalPath,  
+   [out] IAppHostElement** ppVirtualDirectoryElement,  
+   [out] IAppHostElement** ppApplicationElement  
 );  
 ```  
   

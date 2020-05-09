@@ -31,14 +31,14 @@ Represents a media player that provides [MediaElement](https://msdn.microsoft.co
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  [System.Windows.DependencyObject](https://msdn.microsoft.com/library/ms589309)  
-    [System.Windows.UIElement](https://msdn.microsoft.com/library/ms590078)  
-      [System.Windows.FrameworkElement](https://msdn.microsoft.com/library/ms602714)  
-        [System.Windows.Controls.Control](https://msdn.microsoft.com/library/ms609826)  
-          Microsoft.Web.Media.SmoothStreaming..::..SmoothStreamingMediaElement  
+  [System.Windows.DependencyObject](https://msdn.microsoft.com/library/ms589309)  
+    [System.Windows.UIElement](https://msdn.microsoft.com/library/ms590078)  
+      [System.Windows.FrameworkElement](https://msdn.microsoft.com/library/ms602714)  
+        [System.Windows.Controls.Control](https://msdn.microsoft.com/library/ms609826)  
+          Microsoft.Web.Media.SmoothStreaming..::..SmoothStreamingMediaElement  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
@@ -144,7 +144,7 @@ The SmoothStreamingMediaElement type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[LatencyCorrectionThreshold](smoothstreamingmediaelement-latencycorrectionthreshold-property-microsoft-web-media-smoothstreaming.md)|Gets or sets the latency correction threshold for live playback.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[LicenseAcquirer](smoothstreamingmediaelement-licenseacquirer-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the license acquirer.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the duration of content closest to live that cannot yet be downloaded.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[LivePlaybackOffset](smoothstreamingmediaelement-liveplaybackoffset-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets how far back from the live position, excluding [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md), to start playback when joining a live presentation.  Increasing this value allows the pre-roll buffer to fill faster than real time and creates a buffer against network jitter, but increases the end-to-end latency of the presentation. The default value is 7 seconds. Changes that are made to this value after the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property has been set are disregarded.|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[LivePlaybackOffset](smoothstreamingmediaelement-liveplaybackoffset-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets how far back from the live position, excluding [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md), to start playback when joining a live presentation.  Increasing this value allows the pre-roll buffer to fill faster than real time and creates a buffer against network jitter, but increases the end-to-end latency of the presentation. The default value is 7 seconds. Changes that are made to this value after the [SmoothStreamingSource](smoothstreamingmediaelement-smoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md) property has been set are disregarded.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[LivePlaybackStartPosition](smoothstreamingmediaelement-liveplaybackstartposition-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the starting position to use during live playback.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[LivePosition](smoothstreamingmediaelement-liveposition-property-microsoft-web-media-smoothstreaming_1.md)|Gets the position that is nearest to the live stream that a client can seek to.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ManifestInfo](smoothstreamingmediaelement-manifestinfo-property-microsoft-web-media-smoothstreaming_1.md)|Gets the manifest info object.|

@@ -10,10 +10,10 @@ Gets the schema for the `add` element that has the requested name.
   
 ```cpp  
 HRESULT GetAddElementSchema(  
-   [in,  
-   string] BSTR bstrElementName,  
-   [out,  
-   retval] IAppHostElementSchema** ppSchema  
+   [in,  
+   string] BSTR bstrElementName,  
+   [out,  
+   retval] IAppHostElementSchema** ppSchema  
 );  
 ```  
   

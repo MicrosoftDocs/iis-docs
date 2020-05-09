@@ -10,10 +10,10 @@ Adds a new configuration section definition to the collection.
   
 ```cpp  
 HRESULT AddSection(  
-   [in,  
-   string] BSTR bstrSectionName,  
-   [out,  
-   retval] IAppHostSectionDefinition** ppConfigSection  
+   [in,  
+   string] BSTR bstrSectionName,  
+   [out,  
+   retval] IAppHostSectionDefinition** ppConfigSection  
 );  
 ```  
   

@@ -33,8 +33,8 @@ product_family_name: VS
 
 Gets or sets the unit of time that is used with the [JobDefinition..::..JobManagerLogRolloverIntervalMinutes](jobdefinition-jobmanagerlogrolloverintervalminutes-property-microsoft-web-media-transformmanager.md) property to indicate when to create a new log.
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

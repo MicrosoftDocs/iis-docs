@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 Specifies the track name created by the encoder.
 
     <Name>
-      "name"
+      "name"
     </Name>
 
 ### Child Elements

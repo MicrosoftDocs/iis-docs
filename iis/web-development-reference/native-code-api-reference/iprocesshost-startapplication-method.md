@@ -10,9 +10,9 @@ Starts the specified application.
   
 ```cpp  
 virtual HRESULT __stdcall StartApplication(  
-   PCWSTR appId,  
-   PCWSTR appPath,  
-   IUnknown** ppRuntimeObject  
+   PCWSTR appId,  
+   PCWSTR appPath,  
+   IUnknown** ppRuntimeObject  
 ) = 0;  
 ```  
   

@@ -10,12 +10,12 @@ Gets an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configurati
   
 ```cpp  
 HRESULT GetAdminSection(  
-   [in,  
-   string] BSTR bstrSectionName,  
-   [in,  
-   string] BSTR bstrPath,  
-   [out,  
-   retval] IAppHostElement** ppAdminSection  
+   [in,  
+   string] BSTR bstrSectionName,  
+   [in,  
+   string] BSTR bstrPath,  
+   [out,  
+   retval] IAppHostElement** ppAdminSection  
 );  
 ```  
   

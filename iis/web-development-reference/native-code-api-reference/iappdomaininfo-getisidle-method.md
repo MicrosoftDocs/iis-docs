@@ -10,7 +10,7 @@ Retrieves the idle state of the application domain.
   
 ```cpp  
 virtual HRESULT __stdcall GetIsIdle(  
-   DWORD* pfIsIdle  
+   DWORD* pfIsIdle  
 ) = 0;  
 ```  
   

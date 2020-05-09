@@ -10,7 +10,7 @@ Flushes the kernel cache for a specific Uniform Resource Identifier (URI).
   
 ```cpp  
 virtual HRESULT FlushKernelCache(  
-   IN PCWSTR pszUrl  
+   IN PCWSTR pszUrl  
 ) = 0;  
 ```  
   

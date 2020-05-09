@@ -10,13 +10,13 @@ Retrieves the changes to the server variables for the current context.
   
 ```cpp  
 virtual HRESULT GetServerVarChanges(  
-   IN DWORD dwOldChangeNumber,  
-   OUT DWORD* pdwNewChangeNumber,  
-   IN OUT DWORD* pdwVariableSnapShot,  
-   IN OUT PCSTR** ppVariableNameSnapShot,  
-   IN OUT PCWSTR** ppVariableValueSnapShot,  
-   OUT DWORD* pdwDiffedVariables,  
-   OUT DWORD** ppDiffedVariableIndices  
+   IN DWORD dwOldChangeNumber,  
+   OUT DWORD* pdwNewChangeNumber,  
+   IN OUT DWORD* pdwVariableSnapShot,  
+   IN OUT PCSTR** ppVariableNameSnapShot,  
+   IN OUT PCWSTR** ppVariableValueSnapShot,  
+   OUT DWORD* pdwDiffedVariables,  
+   OUT DWORD** ppDiffedVariableIndices  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ mtps_version: v=VS.90
 
 # Microsoft.Web.Media Namespace Reference
 
-This section contains reference information related to IIS Smooth Streaming Client 1.5.
+This section contains reference information related to IIS Smooth Streaming Client 1.5.
 
 ## In This Section
 

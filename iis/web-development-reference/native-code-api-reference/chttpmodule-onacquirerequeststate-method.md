@@ -10,8 +10,8 @@ Represents the method that will handle an `AcquireRequestState` event, which occ
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnAcquireRequestState(  
-   IN IHttpContext* pHttpContext,  
-   IN IHttpEventProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IHttpEventProvider* pProvider  
 );  
 ```  
   

@@ -10,7 +10,7 @@ Cleans up the stored context.
   
 ```cpp  
 virtual VOID CleanupStoredContext(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

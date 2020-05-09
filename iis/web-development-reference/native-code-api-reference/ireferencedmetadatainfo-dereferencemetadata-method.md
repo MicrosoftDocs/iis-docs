@@ -10,7 +10,7 @@ Releases the referenced context metadata.
   
 ```cpp  
 virtual VOID DereferenceMetadata(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

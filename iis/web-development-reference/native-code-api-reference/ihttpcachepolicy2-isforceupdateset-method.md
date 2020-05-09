@@ -10,7 +10,7 @@ Gets a value that determines if the force update flag has been set.
   
 ```cpp  
 virtual BOOL IsForceUpdateSet(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   
