@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Specifies properties that are associated with a specific stream source or destination.
 
-    <Properties>
-      <Property name="propertyname" />
-    </Properties>
+```xml
+<Properties>
+  <Property name="propertyname" />
+</Properties>
+```
 
 ### Child Elements
 

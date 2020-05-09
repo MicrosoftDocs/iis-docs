@@ -97,16 +97,16 @@ function CreateTable(
 
 All database providers that implement the [IDbTableManager](idbtablemanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the CreateTable method, which the database manager will use to create tables in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support adding tables, you can use the following code sample to raise a not-implemented exception:
 
-    public void CreateTable(string connectionString, string schema, TableInfo tableInfo)
-    {
-       throw new NotImplementedException();
-    }
+```csharp
+public void CreateTable(string connectionString, string schema, TableInfo tableInfo)
+{
+    throw new NotImplementedException();
+}
+```
 
 > [!NOTE]  
 > See the [CREATE TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms174979.aspx) topic for more information about the CREATE TABLE SQL statement.

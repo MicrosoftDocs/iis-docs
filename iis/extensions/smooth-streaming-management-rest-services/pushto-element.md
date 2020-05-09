@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Defines Push publishing points on a distributed network.
 
-    <PushTo>
-      <PublishingPoints />
-    </PushTo>
+```xml
+<PushTo>
+  <PublishingPoints />
+</PushTo>
+```
 
 ### Child Element
 

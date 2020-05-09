@@ -49,43 +49,47 @@ The following table describes required and optional request headers.
 
 The following example shows the format of the request body. For information of element values and attribute values, see [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md).
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>unique-ID</id>
-      <title>title</title>
-      <author>
-        <name />
-      </author>
-      <updated>time-stamp</updated>
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <State>
-            <Value>Idle|Started|Stopped</Value>
-          </State>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>unique-ID</id>
+  <title>title</title>
+  <author>
+    <name />
+  </author>
+  <updated>time-stamp</updated>
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <State>
+        <Value>Idle|Started|Stopped</Value>
+      </State>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 The following example shows a request body.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>http://contoso.com/bunny.isml/state</id>
-      <title>Bunny</title>
-      <author>
-        <name />
-      </author>
-      <updated>2011-06-01T17:45:21.963Z</updated>
-      <link href="http://contoso.com/bunny.isml/state" rel="self" type="application/atom+xml" title="State" />
-      <link href="http://contoso.com/bunny.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <State>
-            <Value>Idle</Value>
-          </State>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>http://contoso.com/bunny.isml/state</id>
+  <title>Bunny</title>
+  <author>
+    <name />
+  </author>
+  <updated>2011-06-01T17:45:21.963Z</updated>
+  <link href="http://contoso.com/bunny.isml/state" rel="self" type="application/atom+xml" title="State" />
+  <link href="http://contoso.com/bunny.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <State>
+        <Value>Idle</Value>
+      </State>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 ## Response
 

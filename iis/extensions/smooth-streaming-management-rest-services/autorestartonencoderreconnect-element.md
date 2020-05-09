@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 For Push publishing points, determines whether the publishing point automatically restarts when new encoder streams are available.
 
-    <AutoRestartOnEncoderReconnect>
-      "true|false"
-    </AutoRestartOnEncoderReconnect>
+```xml
+<AutoRestartOnEncoderReconnect>
+  "true|false"
+</AutoRestartOnEncoderReconnect>
+```
 
 ## Child Elements
 

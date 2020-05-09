@@ -12,15 +12,17 @@ mtps_version: v=VS.90
 
 Provides information about a track within the live streams that are received by the publishing point.
 
-    <Track id="identifier">
-      <Name />
-      <EncodedBitRate />
-      <IncomingBitRate />
-      <IncomingFragmentWaitTime />
-      <IncomingFragmentTimeStamp />
-      <IncomingFragmentDuration />
-      <RequestRate />
-    </Track>
+```xml
+<Track id="identifier">
+  <Name />
+  <EncodedBitRate />
+  <IncomingBitRate />
+  <IncomingFragmentWaitTime />
+  <IncomingFragmentTimeStamp />
+  <IncomingFragmentDuration />
+  <RequestRate />
+</Track>
+```
 
 ### Attributes
 

@@ -14,7 +14,9 @@ The meta element specifies a single piece of presentation-level metadata.
 
 [IIS Smooth Streaming Server Manifest (Live) - head Element](iis-smooth-streaming-server-manifest-live-head-element.md)  
 
-    <meta name="title" content="{content title}"/>
+```xml
+<meta name="title" content="{content title}"/>
+```
 
 ## Attributes and Elements
 

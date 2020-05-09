@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 The **Uri** property gets the URI for the location of the current [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.md) instance.
 
-    HRESULT
-    Uri( 
-        [out, retval] BSTR *pbstrUri 
-    );
+```cpp
+HRESULT
+Uri(
+    [out, retval] BSTR *pbstrUri
+);
+```
 
 ## Arguments
 

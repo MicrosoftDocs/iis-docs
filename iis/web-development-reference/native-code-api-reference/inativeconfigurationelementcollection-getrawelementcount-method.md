@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 Retrieves an element from a collection of native configuration elements based on the element's index in the collection.
 
-    virtual HRESULT STDMETHODCALLTYPE GetRawElementByIndex(
-       ULONG ulIndex,
-       INativeConfigurationElement ** ppRawConfigElement
-    ) = 0;
+```cpp
+virtual HRESULT STDMETHODCALLTYPE GetRawElementByIndex(
+    ULONG ulIndex,
+    INativeConfigurationElement ** ppRawConfigElement
+) = 0;
+```
 
 ## Parameters
 

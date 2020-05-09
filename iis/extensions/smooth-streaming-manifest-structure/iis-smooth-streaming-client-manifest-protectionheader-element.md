@@ -15,8 +15,10 @@ The ProtectionHeader element provides a content Protection System-specific heade
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)  
   [IIS Smooth Streaming Client Manifest - Protection Element](iis-smooth-streaming-client-manifest-protection-element.md)  
 
-    <Protection>
-    </Protection>
+```xml
+<Protection>
+</Protection>
+```
 
 ## Attributes and Elements
 

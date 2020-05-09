@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 Represents a media stream destination and type of output.
 
-    <Sink>
-      <Properties>
-        <Property />
-      </Properties>
-    </Sink>
+```xml
+<Sink>
+  <Properties>
+    <Property />
+  </Properties>
+</Sink>
+```
 
 ### Child Elements
 

@@ -17,8 +17,10 @@ The switch element is a container for track information.
     [IIS Smooth Streaming Server Manifest (Live) - audio Element](iis-smooth-streaming-server-manifest-live-audio-element.md)  
       [IIS Smooth Streaming Server Manifest (Live) - textstream Element](iis-smooth-streaming-server-manifest-live-textstream-element.md)  
 
-    <switch>
-    </switch>
+```xml
+<switch>
+</switch>
+```
 
 ## Attributes and Elements
 

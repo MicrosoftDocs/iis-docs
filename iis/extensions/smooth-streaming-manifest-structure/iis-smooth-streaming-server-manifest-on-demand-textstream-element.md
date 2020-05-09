@@ -14,8 +14,10 @@ The textstream element specifies a single track of textstream data.
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - switch Element](iis-smooth-streaming-server-manifest-on-demand-switch-element.md)  
 
-    <textstream src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
-    </ textstream >
+```xml
+<textstream src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
+</textstream >
+```
 
 ## Attributes and Elements
 

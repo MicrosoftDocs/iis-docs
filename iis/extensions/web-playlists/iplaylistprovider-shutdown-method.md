@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 The **Shutdown** method is called before playlist provider is released.
 
-    HRESULT
-    Shutdown(
-    );
+```cpp
+HRESULT
+Shutdown(
+);
+```
 
 ## Return Value
 

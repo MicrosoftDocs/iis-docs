@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 The **GetPlaylistInfo** method retrieves an [IPlaylistInfo Interface](iplaylistinfo-interface.md) object for the given request.
 
-    HRESULT
-    GetPlaylistInfo(
-        [in] IPlaylistRequestInfo         *pRequestInfo,
-        [out, retval] IPlaylistInfo      **ppPlaylistInfo
-    );
+```cpp
+HRESULT
+GetPlaylistInfo(
+    [in] IPlaylistRequestInfo         *pRequestInfo,
+    [out, retval] IPlaylistInfo      **ppPlaylistInfo
+);
+```
 
 ## Arguments
 

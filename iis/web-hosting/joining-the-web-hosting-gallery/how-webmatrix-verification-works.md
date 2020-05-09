@@ -94,55 +94,55 @@ The following web applications (mostly from the [Web Application Gallery](https:
 
     - ***Resetting Databases***  
   
-   The control panel should allow you to navigate to individual SQL Server or MySQL databases to delete them.  
+     The control panel should allow you to navigate to individual SQL Server or MySQL databases to delete them.  
+
+     [![](how-webmatrix-verification-works/_static/image26.png)](how-webmatrix-verification-works/_static/image25.png)  
+
+     [![](how-webmatrix-verification-works/_static/image28.png)](how-webmatrix-verification-works/_static/image27.png)  
+
+     [![](how-webmatrix-verification-works/_static/image30.png)](how-webmatrix-verification-works/_static/image29.png)  
   
-        [![](how-webmatrix-verification-works/_static/image26.png)](how-webmatrix-verification-works/_static/image25.png)  
+     Before deleting the database, note its name. You'll need to recreate a database of the same name immediately afterwards. You'll also need to assign the same database user to it.  
   
-        [![](how-webmatrix-verification-works/_static/image28.png)](how-webmatrix-verification-works/_static/image27.png)  
-  
-        [![](how-webmatrix-verification-works/_static/image30.png)](how-webmatrix-verification-works/_static/image29.png)  
-  
-   Before deleting the database, note its name. You'll need to recreate a database of the same name immediately afterwards. You'll also need to assign the same database user to it.  
-  
-        [![](how-webmatrix-verification-works/_static/image32.png)](how-webmatrix-verification-works/_static/image31.png)  
-  
-        [![](how-webmatrix-verification-works/_static/image34.png)](how-webmatrix-verification-works/_static/image33.png)
+     [![](how-webmatrix-verification-works/_static/image32.png)](how-webmatrix-verification-works/_static/image31.png)  
+
+     [![](how-webmatrix-verification-works/_static/image34.png)](how-webmatrix-verification-works/_static/image33.png)
     - ***Resetting the Site***  
   
-   You'll need to remove the website entry off of the control panel and recreate it.  
+     You'll need to remove the website entry off of the control panel and recreate it.  
   
-        [![](how-webmatrix-verification-works/_static/image36.png)](how-webmatrix-verification-works/_static/image35.png)  
+     [![](how-webmatrix-verification-works/_static/image36.png)](how-webmatrix-verification-works/_static/image35.png)  
+
+     [![](how-webmatrix-verification-works/_static/image38.png)](how-webmatrix-verification-works/_static/image37.png)  
+
+     [![](how-webmatrix-verification-works/_static/image40.png)](how-webmatrix-verification-works/_static/image39.png)  
   
-        [![](how-webmatrix-verification-works/_static/image38.png)](how-webmatrix-verification-works/_static/image37.png)  
+     Note the name of the website for restoring later.  
   
-        [![](how-webmatrix-verification-works/_static/image40.png)](how-webmatrix-verification-works/_static/image39.png)  
+     [![](how-webmatrix-verification-works/_static/image42.png)](how-webmatrix-verification-works/_static/image41.png)  
   
-   Note the name of the website for restoring later.  
+     Recreate the site on the same domain as the one that was deleted.  
   
-        [![](how-webmatrix-verification-works/_static/image42.png)](how-webmatrix-verification-works/_static/image41.png)  
+     [![](how-webmatrix-verification-works/_static/image44.png)](how-webmatrix-verification-works/_static/image43.png)  
   
-   Recreate the site on the same domain as the one that was deleted.  
+     Note that you'll also have to re-enable Remote Management in order to publish again.  
   
-        [![](how-webmatrix-verification-works/_static/image44.png)](how-webmatrix-verification-works/_static/image43.png)  
+     [![](how-webmatrix-verification-works/_static/image46.png)](how-webmatrix-verification-works/_static/image45.png)  
   
-   Note that you'll also have to re-enable Remote Management in order to publish again.  
-  
-        [![](how-webmatrix-verification-works/_static/image46.png)](how-webmatrix-verification-works/_static/image45.png)  
-  
-   Use the same password as the Web Deploy password in the account settings file.
+     Use the same password as the Web Deploy password in the account settings file.
     - ***Deleting Files***  
   
-   The control panel should have a "File Manager" you can use to delete all the files under the site root folder.  
+      The control panel should have a "File Manager" you can use to delete all the files under the site root folder.  
   
-        [![](how-webmatrix-verification-works/_static/image48.png)](how-webmatrix-verification-works/_static/image47.png)  
+     [![](how-webmatrix-verification-works/_static/image48.png)](how-webmatrix-verification-works/_static/image47.png)  
   
-   Usually, all the files you published end up under the site folder in "wwwroot" or something similar. Delete all files underneath that node using the file manager interface.  
+     Usually, all the files you published end up under the site folder in "wwwroot" or something similar. Delete all files underneath that node using the file manager interface.  
   
-        [![](how-webmatrix-verification-works/_static/image50.png)](how-webmatrix-verification-works/_static/image49.png)  
-  
-        [![](how-webmatrix-verification-works/_static/image52.png)](how-webmatrix-verification-works/_static/image51.png)  
-  
-   Alternatively, you can use an FTP client like FileZilla to remotely connect to the FTP server (listing the same files) and delete all files that way. If you have IIS Remote Management access, you can also use IIS Manager to connect to the site and delete the content of the site.
+     [![](how-webmatrix-verification-works/_static/image50.png)](how-webmatrix-verification-works/_static/image49.png)  
+
+     [![](how-webmatrix-verification-works/_static/image52.png)](how-webmatrix-verification-works/_static/image51.png)  
+
+     Alternatively, you can use an FTP client like FileZilla to remotely connect to the FTP server (listing the same files) and delete all files that way. If you have IIS Remote Management access, you can also use IIS Manager to connect to the site and delete the content of the site.
 
 That's it! That is the testing process for one application; we repeat this process for each of the applications above.
 

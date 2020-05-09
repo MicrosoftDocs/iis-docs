@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Defines Pull publishing points on a distributed network.
 
-    <PullFrom>
-      <PublishingPoints />
-    </PullFrom>
+```xml
+<PullFrom>
+  <PublishingPoints />
+</PullFrom>
+```
 
 ### Child Element
 

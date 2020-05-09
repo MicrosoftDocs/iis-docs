@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **LastModifiedTime** property gets the last modified time stamp of the file that contains the playlist.
 
-    RESULT LastModifiedTime( [out, retval] FILETIME* pFileTime);
+```cpp
+RESULT LastModifiedTime( [out, retval] FILETIME* pFileTime);
+```
 
 ## Arguments
 

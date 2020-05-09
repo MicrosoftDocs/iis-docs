@@ -20,29 +20,29 @@ The Microsoft.Web.Management.DatabaseManager namespace contains classes that a d
 
 The classes in the Microsoft.Web.Management.DatabaseManager namespace contain a series of top-level objects that let developers create providers that enable remote database administration tasks by using IIS Manager. The different logical objects represent the various database objects, including tables, views, stored procedures, columns, keys, and indexes. You can use the API to obtain and work with these objects to perform such actions as creating, deleting, or modifying tables, views, stored procedures, columns, keys, and indexes.
 
-### 
-
 ### Notes for Implementers
 
 After you have created a database provider, you must register it in the Global Assembly Cache for your server, and then register it in your Administration.config file before IIS Manager will recognize the provider. The following XML example illustrates a database provider registration from an Administration.config file.
 
-    <system.webServer>
-       <management>
-          <dbManager>
-             <DBProviders>
-                <provider
-                      name="SQL Server 2005/2008"
-                      providerName="System.Data.SqlClient"
-                      type="Microsoft.Web.Management.DatabaseManager.SqlDatabase.SqlDatabaseProvider, Microsoft.Web.Management.DatabaseManager.SqlDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" >
-                   <databaseBackup
-                      backupEnabled="true"
-                      restoreEnabled="true"
-                      backupPath="C:\backups" />
-                </provider>
-             </DBProviders>
-          </dbManager>
-          </management>
-    </system.webServer>
+```xml
+<system.webServer>
+   <management>
+      <dbManager>
+         <DBProviders>
+            <provider
+                  name="SQL Server 2005/2008"
+                  providerName="System.Data.SqlClient"
+                  type="Microsoft.Web.Management.DatabaseManager.SqlDatabase.SqlDatabaseProvider, Microsoft.Web.Management.DatabaseManager.SqlDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" >
+               <databaseBackup
+                  backupEnabled="true"
+                  restoreEnabled="true"
+                  backupPath="C:\backups" />
+            </provider>
+         </DBProviders>
+      </dbManager>
+      </management>
+</system.webServer>
+```
 
 There are three attributes that your database provider must specify in the \<provider\> element before the database manager will recognize your database provider and display databases in IIS Manager. These attributes are listed in the following table:
 

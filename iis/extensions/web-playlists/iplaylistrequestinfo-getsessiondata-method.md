@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 The **GetSessionData** method gets the playlist provider specific data saved for this session.
 
-    HRESULT
-    GetSessionData (
-            [out,reval] BSTR                       *pbstrVarValue
-    );
+```cpp
+HRESULT
+GetSessionData (
+        [out,reval] BSTR                       *pbstrVarValue
+);
+```
 
 ## Arguments
 

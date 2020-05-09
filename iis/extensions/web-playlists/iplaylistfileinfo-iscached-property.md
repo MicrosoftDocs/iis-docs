@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **IsCached** property gets the value indicating whether the file is cached by IIS 7.
 
-    RESULT IsCached( [out, retval] VARIANT_BOOL *fCached);
+```cpp
+RESULT IsCached( [out, retval] VARIANT_BOOL *fCached);
+```
 
 ## Arguments
 

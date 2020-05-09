@@ -14,8 +14,10 @@ The Protection element specifies that presentation uses tracks with a content pr
 
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)  
 
-    <Protection>
-    </Protection>
+```xml
+<Protection>
+</Protection>
+```
 
 ## Attributes and Elements
 

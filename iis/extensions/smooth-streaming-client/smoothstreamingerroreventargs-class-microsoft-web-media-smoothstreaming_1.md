@@ -100,16 +100,20 @@ The [SmoothStreamingErrorOccurred](smoothstreamingmediaelement-smoothstreaminger
 
 Assign the delegate.
 
-    SmoothPlayer.SmoothStreamingErrorOccurred += 
-      new EventHandler<SmoothStreamingErrorEventArgs>(SmoothPlayer_SmoothStreamingErrorOccurred);
+```csharp
+SmoothPlayer.SmoothStreamingErrorOccurred +=
+    new EventHandler<SmoothStreamingErrorEventArgs>(SmoothPlayer_SmoothStreamingErrorOccurred);
+```
 
 Define the handler.
 
-    void SmoothPlayer_SmoothStreamingErrorOccurred(object sender, 
-                                      SmoothStreamingErrorEventArgs e)
-       {
-            MessageBox.Show("Error: " + e.ErrorCode + "; " + e.ErrorMessage);
-        }
+```csharp
+void SmoothPlayer_SmoothStreamingErrorOccurred(object sender, 
+                                SmoothStreamingErrorEventArgs e)
+{
+    MessageBox.Show("Error: " + e.ErrorCode + "; " + e.ErrorMessage);
+}
+```
 
 This handler displays the error code and message to a text block. You can implement error-handling logic so that the application does not stop responding if an exception occurs.
 

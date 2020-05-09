@@ -20,16 +20,18 @@ One way to insert a clip into Smooth Streaming programming is to call the [Sched
 
 To schedule a clip, initialize a [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) object that specifies the media clip to play by setting its [ClipUri](clipinformation-clipuri-property-microsoft-web-media-smoothstreaming_1.md) and [Duration](clipinformation-duration-property-microsoft-web-media-smoothstreaming_1.md) property values, as shown in the following example:
 
-    // List for advertising clips.
-    List<ClipInformation> clips = new List<ClipInformation>(5);
-    
-    private void InsertClipCheckbox_Checked(object sender, RoutedEventArgs e)
-    {
-        clips.Add(new ClipInformation(true,
-        new Uri("http://serverName/clip.ism/Manifest"),
-        new Uri("http://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.aspx"),
-        new TimeSpan(1789250001)));
-    }
+```csharp
+// List for advertising clips.
+List<ClipInformation> clips = new List<ClipInformation>(5);
+
+private void InsertClipCheckbox_Checked(object sender, RoutedEventArgs e)
+{
+    clips.Add(new ClipInformation(true,
+    new Uri("http://serverName/clip.ism/Manifest"),
+    new Uri("http://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.aspx"),
+    new TimeSpan(1789250001)));
+}
+```
 
 In this example from the downloadable sample, when the media stream hits the marker that is 1,789,250,000 ticks from the beginning of the stream, the clip identified by the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) object at clips\[0\] will interrupt the currently playing stream, play the clip to the end of its duration, and then resume the media stream that was interrupted.
 
@@ -37,25 +39,31 @@ In this example from the downloadable sample, when the media stream hits the mar
 
 To handle the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) event, assign a delegate for it as shown in the following code:
 
-    SmoothPlayer.MarkerReached += 
-          new TimelineMarkerRoutedEventHandler(SmoothPlayer_MarkerReached);
+```csharp
+SmoothPlayer.MarkerReached +=
+        new TimelineMarkerRoutedEventHandler(SmoothPlayer_MarkerReached);
+```
 
 In the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) handler, identify the marker that will trigger the insertion of the media clip. The following example is from the downloadable sample. It selects a marker if the [System.Windows.Media.TimelineMarker.Text](https://go.microsoft.com/fwlink/?linkid=204790) member of the [System.Windows.Media.TimelineMarkerRoutedEventArgs](https://go.microsoft.com/fwlink/?linkid=204791) object that is passed to the event handler equals "Chapter 3" and if a UI element named InsertClipCheckbox is selected. The code uses the [ScheduleClip(ClipInformation, Boolean, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-boolean-object-microsoft-web-media-smoothstreaming_1.md) method to insert the clip. The method takes parameters that specify a [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) instance, a Boolean value that indicates whether to pause when the clip is finished playing, and the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object that will play the clip.
 
-    void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
+```csharp
+void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
+{
+
+    if (e.Marker.Text.Contains("Chapter 3") && InsertClipCheckbox.IsChecked.Value == true)
     {
-    
-        if (e.Marker.Text.Contains("Chapter 3") && InsertClipCheckbox.IsChecked.Value == true)
-        {
-            SmoothPlayer.ScheduleClip(clips[0], true, SmoothPlayer);
-        }
+        SmoothPlayer.ScheduleClip(clips[0], true, SmoothPlayer);
     }
+}
+```
 
 ### Passing Information Using the userData Parameter
 
 The third parameter of the [ScheduleClip(ClipInformation, ClipContext, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-clipcontext-object-microsoft-web-media-smoothstreaming_1.md) method is the userData parameter. The value of the parameter is saved as a member of the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) instance that is created by the [ScheduleClip(ClipInformation, ClipContext, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-clipcontext-object-microsoft-web-media-smoothstreaming_1.md) method. The application can use this parameter to pass anything it requires; typically, the parameter is used to pass something that can identify the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) type. In the following example, SmoothPlayer is passed as the value of userData. Code that appears later in this document shows how to cast the userData value to type [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) in order to retrieve the Smooth Streaming client (player) that generated the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) instance.
 
-    SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer);
+```csharp
+SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer);
+```
 
 If the application must pass more information than is shown in this example, it can create a class to contain all the data and then pass that type as the userData value.
 
@@ -65,17 +73,19 @@ If the user clicks the [SmoothStreamingMediaElement](smoothstreamingmediaelement
 
 To handle the [ClipClickThrough](smoothstreamingmediaelement-clipclickthrough-event-microsoft-web-media-smoothstreaming_1.md) event, assign a delegate as shown in the following example:
 
-``` 
-  SmoothPlayer.ClipClickThrough +=
-       new EventHandler<ClipEventArgs>(SmoothPlayer_ClipClickThrough);
+```csharp
+SmoothPlayer.ClipClickThrough +=
+    new EventHandler<ClipEventArgs>(SmoothPlayer_ClipClickThrough);
 ```
 
 The following implementation of ClipClickThrough shows how to open a new browser window in order to navigate to the target specified in the [ClickThroughUri](clipinformation-clickthroughuri-property-microsoft-web-media-smoothstreaming_1.md) property.
 
-    void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
-    {
-        System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUri, "_newWindow");
-    }
+```csharp
+void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
+{
+    System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUri, "_newWindow");
+}
+```
 
 The marker-reached event is one method of scheduling clips. Other applications might use sparse tracks or polling for live ad insertions. For more information, see [Manifest Merge (IIS Smooth Streaming)](manifest-merge.md) and [IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828).
 
@@ -90,17 +100,19 @@ To use the pre-roll scenario, handle the [ManifestReady](smoothstreamingmediaele
 
 The following example shows how to schedule a pre-roll scenario.
 
-    void SmoothPlayer_ManifestReady(object sender, EventArgs e)
+```csharp
+void SmoothPlayer_ManifestReady(object sender, EventArgs e)
+{
+    if (!PremiumAccount)
     {
-        if (!PremiumAccount)
+        if (InsertClipCheckbox.IsChecked == true)
         {
-            if (InsertClipCheckbox.IsChecked == true)
-            {     
-                SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer );
-                SmoothPlayer.Play();
-            }
+            SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer );
+            SmoothPlayer.Play();
         }
     }
+}
+```
 
 ## Chaining Clips
 
@@ -108,13 +120,15 @@ You can schedule clips to run in a series, or chain them. This scenario uses the
 
 The following example uses the [ClipProgressUpdate](smoothstreamingmediaelement-clipprogressupdate-event-microsoft-web-media-smoothstreaming_1.md) event handler to schedule a clip to follow the clip that is reporting its progress in this event. In this case, the event will schedule successive clips up to the count of clips in the clips collection.
 
-    void SmoothPlayer_ClipProgressUpdate(object sender, ClipPlaybackEventArgs e)
+```csharp
+void SmoothPlayer_ClipProgressUpdate(object sender, ClipPlaybackEventArgs e)
+{
+    if (clipIndex < (clips.Count - 1) && e.Progress == ClipProgress.ThirdQuartile)
     {
-        if (clipIndex < (clips.Count - 1) && e.Progress == ClipProgress.ThirdQuartile)
-        {
-            SmoothPlayer.ScheduleClip(clips[++clipIndex], e.Context, SmoothPlayer);
-        }
+        SmoothPlayer.ScheduleClip(clips[++clipIndex], e.Context, SmoothPlayer);
     }
+}
+```
 
 ## See Also
 

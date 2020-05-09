@@ -15,8 +15,10 @@ The body element is a container for track information and references to other me
 [IIS Smooth Streaming Server Manifest (Live) - smil Element](iis-smooth-streaming-server-manifest-live-smil-element.md)  
   [IIS Smooth Streaming Server Manifest (Live) - switch Element](iis-smooth-streaming-server-manifest-live-switch-element.md)  
 
-    <body>
-    </body>
+```xml
+<body>
+</body>
+```
 
 ## Attributes and Elements
 

@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Enables the publishing point to return live streams when they are requested by publishing points on other Live Smooth Streaming servers in a distributed network.
 
-    <ServerConnections enabled="true|false">
-       <SendEndOfStreamOnStop />
-    </ServerConnections>
+```xml
+<ServerConnections enabled="true|false">
+    <SendEndOfStreamOnStop />
+</ServerConnections>
+```
 
 ### Attributes
 
@@ -32,6 +34,8 @@ Enables the publishing point to return live streams when they are requested by p
 
 ### Example
 
-    <ServerConnections enabled="true">
-      <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
-    </ServerConnections>
+```xml
+<ServerConnections enabled="true">
+  <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
+</ServerConnections>
+```
