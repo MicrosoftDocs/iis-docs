@@ -10,8 +10,8 @@ Determines whether a property value is a unique key for a collection.
   
 ```cpp  
 HRESULT get_IsUniqueKey(  
-   [out,  
-   retval] VARIANT_BOOL* pfIsUniqueKey  
+   [out,  
+   retval] VARIANT_BOOL* pfIsUniqueKey  
 );  
 ```  
   

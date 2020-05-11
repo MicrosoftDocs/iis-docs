@@ -28,8 +28,8 @@ product_family_name: VS
 
 Removes a table from the database.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -85,7 +85,7 @@ function DropTable(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
@@ -97,16 +97,16 @@ function DropTable(
 
 All database providers that implement the [IDbTableManager](idbtablemanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the DropTable method, which the database manager will use to remove a table from a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support deleting tables, you can use the following code sample to raise a not-implemented exception:
 
-    public void void DropTable(string connectionString, string schema, TableInfo tableInfo)
-    {
-       throw new NotImplementedException();
-    }
+```csharp
+public void void DropTable(string connectionString, string schema, TableInfo tableInfo)
+{
+    throw new NotImplementedException();
+}
+```
 
 > [!NOTE]  
 > See the [DROP TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms173790.aspx) topic for more information about the DROP TABLE SQL statements.

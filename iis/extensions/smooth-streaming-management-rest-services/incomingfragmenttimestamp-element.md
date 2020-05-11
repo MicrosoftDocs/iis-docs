@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Specifies the timestamp of the last fragment that was received for the track.
 
-    <IncomingFragmentTimeStamp>
-      "timestamp"
-    </IncomingFragmentTimeStamp>
+```xml
+<IncomingFragmentTimeStamp>
+  "timestamp"
+</IncomingFragmentTimeStamp>
+```
 
 ### Child Elements
 

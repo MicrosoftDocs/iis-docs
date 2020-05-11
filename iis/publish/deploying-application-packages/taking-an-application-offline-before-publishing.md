@@ -19,8 +19,6 @@ Web Deploy takes an application offline by using the "AppOffline" rule, which is
 
 [!code-console[Main](taking-an-application-offline-before-publishing/samples/sample1.cmd)]
 
-### 
-
 ## What happens when a publish fails
 
 If an error occurred during publishing, the htm file will remain in the site root to keep it offline because it is now in an unknown state. After fixing your publishing issue, you will need to bring the application back online. To do this, you can either manually delete the App\_Offline.htm file from your application root on the server, or republish your site. Here is an example of how to delete the App\_Offline.htm file from the command line:

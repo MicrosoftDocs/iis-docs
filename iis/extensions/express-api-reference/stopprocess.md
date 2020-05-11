@@ -9,10 +9,10 @@ Stops the IIS Express process for the specified process ID.
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    StopProcess(   
-        [in] DWORD dwPid  
-    );  
+    HRESULT  
+    StopProcess(   
+        [in] DWORD dwPid  
+    );  
   
 ```  
   

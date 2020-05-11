@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 The **Entries** property gets an [IPlaylistEntryInfoCollection Interface](iplaylistentryinfocollection-interface.md) instance to enumerate the entries in a playlist.
 
-    HRESULT 
-    Entries(
-        [out, retval] IPlaylistEntryInfoCollection  **ppPlaylistEntries
-    );
+```cpp
+HRESULT
+Entries(
+    [out, retval] IPlaylistEntryInfoCollection  **ppPlaylistEntries
+);
+```
 
 ## Arguments
 

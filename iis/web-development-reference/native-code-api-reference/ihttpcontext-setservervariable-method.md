@@ -10,8 +10,8 @@ Sets a server variable to a specified value.
   
 ```cpp  
 virtual HRESULT SetServerVariable(  
-   PCSTR pszVariableName,  
-   PCWSTR pszVariableValue  
+   PCSTR pszVariableName,  
+   PCWSTR pszVariableValue  
 ) = 0;  
 ```  
   

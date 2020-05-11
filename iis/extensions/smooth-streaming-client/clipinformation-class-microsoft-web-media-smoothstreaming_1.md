@@ -32,10 +32,10 @@ Metadata class for scheduling and viewing a segment of audio or video media data
 ## Inheritance Hierarchy
 
  [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
-  Microsoft.Web.Media.SmoothStreaming.ClipInformation  
+  Microsoft.Web.Media.SmoothStreaming.ClipInformation  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

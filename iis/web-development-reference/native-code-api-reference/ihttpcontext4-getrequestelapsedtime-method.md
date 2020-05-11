@@ -11,7 +11,7 @@ Retrieves the elapsed time of the request in milliseconds.
   
 ```  
 virtual ULONGLONG GetRequestElapsedTime(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,8 +10,8 @@ Returns the number of elements in the current collection.
   
 ```cpp  
 HRESULT Count(  
-   [out,  
-   retval] DWORD* pcElementCount  
+   [out,  
+   retval] DWORD* pcElementCount  
 );  
 ```  
   

@@ -48,61 +48,65 @@ The following table describes required and optional request headers.
 
 The following example shows the format of the request body. For information of element values and attribute values, see [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md).
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>unique-ID</id>
-      <title>title</title>
-      <updated>time-stamp</updated>  
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <Settings>
-            <Title>title</Title>
-            <SourceType>Push|Pull</SourceType>
-            <AutoStart>true|false</AutoStart>
-            <AutoRestartOnEncoderReconnect>true|false</AutoRestartOnEncoderReconnect>
-            <LookAheadChunks>look-ahead-chunks</LookAheadChunks>
-            <Archive enabled="true|false">
-              <Path useEventIdOnPath="true|false" />
-            </Archive>
-            <ClientConnections enabled="true|false">
-              <ClientManifestVersion>client-manifest-version</ClientManifestVersion>
-            </ClientConnections>
-            <ServerConnections enabled="true|false">
-              <SendEndOfStreamOnStop>true|false</SendEndOfStreamOnStop>
-            </ServerConnections>
-          </Settings>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>unique-ID</id>
+  <title>title</title>
+  <updated>time-stamp</updated>
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <Settings>
+        <Title>title</Title>
+        <SourceType>Push|Pull</SourceType>
+        <AutoStart>true|false</AutoStart>
+        <AutoRestartOnEncoderReconnect>true|false</AutoRestartOnEncoderReconnect>
+        <LookAheadChunks>look-ahead-chunks</LookAheadChunks>
+        <Archive enabled="true|false">
+          <Path useEventIdOnPath="true|false" />
+        </Archive>
+        <ClientConnections enabled="true|false">
+          <ClientManifestVersion>client-manifest-version</ClientManifestVersion>
+        </ClientConnections>
+        <ServerConnections enabled="true|false">
+          <SendEndOfStreamOnStop>true|false</SendEndOfStreamOnStop>
+        </ServerConnections>
+      </Settings>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 The following example shows a request body.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>http://contoso.com/media/bunny.isml/settings</id>
-      <title>Bunny</title>
-      <updated>2011-05-31T21:32:26Z</updated>
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <Settings>
-            <Title>Bunny</Title>
-            <SourceType>Push</SourceType>
-            <AutoStart>false</AutoStart>
-            <AutoRestartOnEncoderReconnect>false</AutoRestartOnEncoderReconnect>
-            <LookAheadChunks>2</LookAheadChunks>
-            <Archive enabled="true">
-              <Path useEventIdOnPath="false" />
-            </Archive>
-            <ClientConnections enabled="true">
-              <ClientManifestVersion>2.0</ClientManifestVersion>
-            </ClientConnections>
-            <ServerConnections enabled="true">
-              <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
-            </ServerConnections>
-          </Settings>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>http://contoso.com/media/bunny.isml/settings</id>
+  <title>Bunny</title>
+  <updated>2011-05-31T21:32:26Z</updated>
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <Settings>
+        <Title>Bunny</Title>
+        <SourceType>Push</SourceType>
+        <AutoStart>false</AutoStart>
+        <AutoRestartOnEncoderReconnect>false</AutoRestartOnEncoderReconnect>
+        <LookAheadChunks>2</LookAheadChunks>
+        <Archive enabled="true">
+          <Path useEventIdOnPath="false" />
+        </Archive>
+        <ClientConnections enabled="true">
+          <ClientManifestVersion>2.0</ClientManifestVersion>
+        </ClientConnections>
+        <ServerConnections enabled="true">
+          <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
+        </ServerConnections>
+      </Settings>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 ## Response
 
@@ -116,65 +120,69 @@ A successful operation returns status code 201 (Created). For information about 
 
 The response body is the same as the request body unless an invalid input element value or attribute value is changed by the service. The format of the response body is the publishing point settings after the operation is completed. The following example shows the format of a response body.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>unique-ID</id>
-      <title>title</title>
-      <updated>time-stamp</updated>
-      <link href="http(s)://host-name/.isml-file-path/settings" rel="self" type="application/atom+xml" title="Settings" />
-      <link href="http(s)://host-name/.isml-file-path/state" rel="related" type="application/atom+xml" title="State" />
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <Settings>
-            <Title>title</Title>
-            <SourceType>Push|Pull</SourceType>
-            <AutoStart>true|false</AutoStart>
-            <AutoRestartOnEncoderReconnect>true|false</AutoRestartOnEncoderReconnect>
-            <LookAheadChunks>look-ahead-chunks</LookAheadChunks>
-            <Archive enabled="true|false">
-              <Path useEventIdOnPath="true|false" />
-            </Archive>
-            <ClientConnections enabled="true|false">
-              <ClientManifestVersion>client-manifest-version</ClientManifestVersion>
-            </ClientConnections>
-            <ServerConnections enabled="true|false">
-              <SendEndOfStreamOnStop>true|false</SendEndOfStreamOnStop>
-            </ServerConnections>
-          </Settings>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>unique-ID</id>
+  <title>title</title>
+  <updated>time-stamp</updated>
+  <link href="http(s)://host-name/.isml-file-path/settings" rel="self" type="application/atom+xml" title="Settings" />
+  <link href="http(s)://host-name/.isml-file-path/state" rel="related" type="application/atom+xml" title="State" />
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <Settings>
+        <Title>title</Title>
+        <SourceType>Push|Pull</SourceType>
+        <AutoStart>true|false</AutoStart>
+        <AutoRestartOnEncoderReconnect>true|false</AutoRestartOnEncoderReconnect>
+        <LookAheadChunks>look-ahead-chunks</LookAheadChunks>
+        <Archive enabled="true|false">
+          <Path useEventIdOnPath="true|false" />
+        </Archive>
+        <ClientConnections enabled="true|false">
+          <ClientManifestVersion>client-manifest-version</ClientManifestVersion>
+        </ClientConnections>
+        <ServerConnections enabled="true|false">
+          <SendEndOfStreamOnStop>true|false</SendEndOfStreamOnStop>
+        </ServerConnections>
+      </Settings>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 The following example shows a response body.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>http://contoso.com/media/bunny.isml/settings</id>
-      <title>Bunny</title>
-      <updated>2011-05-31T21:32:26Z</updated>
-      <link href="http://contoso.com/media/bunny.isml/settings" rel="self" type="application/atom+xml" title="Settings" />
-      <link href="http://contoso.com/media/bunny.isml/state" rel="related" type="application/atom+xml" title="State" />
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <Settings>
-            <Title>Bunny</Title>
-            <SourceType>Push</SourceType>
-            <AutoStart>false</AutoStart>
-            <AutoRestartOnEncoderReconnect>false</AutoRestartOnEncoderReconnect>
-            <LookAheadChunks>2</LookAheadChunks>
-            <Archive enabled="true">
-              <Path useEventIdOnPath="false" />
-            </Archive>
-            <ClientConnections enabled="true">
-              <ClientManifestVersion>2.0</ClientManifestVersion>
-            </ClientConnections>
-            <ServerConnections enabled="true">
-              <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
-            </ServerConnections>
-          </Settings>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>http://contoso.com/media/bunny.isml/settings</id>
+  <title>Bunny</title>
+  <updated>2011-05-31T21:32:26Z</updated>
+  <link href="http://contoso.com/media/bunny.isml/settings" rel="self" type="application/atom+xml" title="Settings" />
+  <link href="http://contoso.com/media/bunny.isml/state" rel="related" type="application/atom+xml" title="State" />
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <Settings>
+        <Title>Bunny</Title>
+        <SourceType>Push</SourceType>
+        <AutoStart>false</AutoStart>
+        <AutoRestartOnEncoderReconnect>false</AutoRestartOnEncoderReconnect>
+        <LookAheadChunks>2</LookAheadChunks>
+        <Archive enabled="true">
+          <Path useEventIdOnPath="false" />
+        </Archive>
+        <ClientConnections enabled="true">
+          <ClientManifestVersion>2.0</ClientManifestVersion>
+        </ClientConnections>
+        <ServerConnections enabled="true">
+          <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
+        </ServerConnections>
+      </Settings>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 ## Authorization
 

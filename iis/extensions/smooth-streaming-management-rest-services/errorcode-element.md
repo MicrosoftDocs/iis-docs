@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Specifies the primary HResult error code for the error condition.
 
-    <ErrorCode>
-      "error-code"
-    </ErrorCode>
+```xml
+<ErrorCode>
+  "error-code"
+</ErrorCode>
+```
 
 ### Child Elements
 

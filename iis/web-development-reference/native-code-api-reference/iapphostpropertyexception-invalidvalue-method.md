@@ -10,9 +10,9 @@ Gets the property value that did not meet the validation criteria.
   
 ```cpp  
 HRESULT get_InvalidValue(  
-   [out,  
-   string,  
-   retval] BSTR* pbstrValue  
+   [out,  
+   string,  
+   retval] BSTR* pbstrValue  
 );  
 ```  
   

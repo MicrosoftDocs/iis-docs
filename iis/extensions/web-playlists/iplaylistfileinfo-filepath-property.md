@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **FilePath** property gets the canonical physical file path.
 
-    RESULT FilePath( [out, retval] BSTR* pbstrPath);
+```cpp
+RESULT FilePath( [out, retval] BSTR* pbstrPath);
+```
 
 ## Arguments
 

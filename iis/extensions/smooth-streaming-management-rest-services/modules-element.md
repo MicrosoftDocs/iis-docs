@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Lists the currently processing modules.
 
-    <Modules>
-      <Module />
-    </Modules>
+```xml
+<Modules>
+  <Module />
+</Modules>
+```
 
 ### Child Elements
 
@@ -26,18 +28,20 @@ Lists the currently processing modules.
 
 ### Example
 
-    <Modules>
-      <Module id="hls" type="sink" name="HTTP Live Streaming">
-         // Apple HLS module configuration. 
-        <HLS>
-          <SegmentLength>PT10S</SegmentLength>
-          <MaxBitRate>3000000</MaxBitRate>
-          <AllowCaching>false</AllowCaching>
-          <BackwardCompatible>true</BackwardCompatible>
-          <IncludeCodecs>false</IncludeCodecs>
-          <Encryption enabled="true">
-            <Key>8C339AD2F44E4B2B72C95888385221BE</Key>
-          </Encryption>
-        </HLS>
-      </Module>
-    </Modules>
+```xml
+<Modules>
+  <Module id="hls" type="sink" name="HTTP Live Streaming">
+    <!-- Apple HLS module configuration. -->
+    <HLS>
+      <SegmentLength>PT10S</SegmentLength>
+      <MaxBitRate>3000000</MaxBitRate>
+      <AllowCaching>false</AllowCaching>
+      <BackwardCompatible>true</BackwardCompatible>
+      <IncludeCodecs>false</IncludeCodecs>
+      <Encryption enabled="true">
+        <Key>8C339AD2F44E4B2B72C95888385221BE</Key>
+      </Encryption>
+    </HLS>
+  </Module>
+</Modules>
+```

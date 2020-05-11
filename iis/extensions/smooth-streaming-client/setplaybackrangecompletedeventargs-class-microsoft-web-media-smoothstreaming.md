@@ -32,12 +32,12 @@ Represents event arguments for the completion of a SetPlaybackRangeAysnc operati
 ## Inheritance Hierarchy
 
  [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
-  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
-    [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9\(v=vs.95\))  
-      Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs  
+  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
+    [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9\(v=vs.95\))  
+      Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

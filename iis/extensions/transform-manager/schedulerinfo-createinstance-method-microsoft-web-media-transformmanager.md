@@ -21,7 +21,7 @@ Creates a new instance of a [Scheduler](scheduler-class-microsoft-web-media-tran
 
 This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
 
-## Overload List
+## Overload List
 
 ||Name|Description|
 |--- |--- |--- |

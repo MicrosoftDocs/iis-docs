@@ -10,7 +10,7 @@ Returns the unique identifier for the registered module.
   
 ```cpp  
 virtual HTTP_MODULE_ID GetId(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves a value that indicates whether IIS is ready to write information to th
   
 ```cpp  
 virtual BOOL GetReadyToLogData(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

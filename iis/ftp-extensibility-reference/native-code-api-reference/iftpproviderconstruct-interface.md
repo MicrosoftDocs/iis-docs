@@ -28,16 +28,16 @@ interface IFtpProviderConstruct : IUknown
   
 ```  
 <system.ftpServer>  
-   <providerDefinitions>  
-      <add name="FtpDemo"  
-         clsid="FtpDemo.DemoProvider" />  
-      <activation>  
-         <providerData name="FtpDemo">  
-            <add key="one" value="1" />  
-            <add key="two" value="2" />  
-         </providerData>  
-      </activation>  
-   </providerDefinitions>  
+   <providerDefinitions>  
+      <add name="FtpDemo"  
+         clsid="FtpDemo.DemoProvider" />  
+      <activation>  
+         <providerData name="FtpDemo">  
+            <add key="one" value="1" />  
+            <add key="two" value="2" />  
+         </providerData>  
+      </activation>  
+   </providerDefinitions>  
 </system.ftpServer>  
 ```  
   
@@ -46,45 +46,45 @@ interface IFtpProviderConstruct : IUknown
   
 ```  
 public:  
-   STDMETHOD(Construct)(SAFEARRAY * configurationEntries)  
-   {  
-      CONFIGURATION_ENTRY * pArray;  
-      HRESULT hr = S_OK;  
-      LONG lLbound = 0;  
-      LONG lUbound = 0;  
+   STDMETHOD(Construct)(SAFEARRAY * configurationEntries)  
+   {  
+      CONFIGURATION_ENTRY * pArray;  
+      HRESULT hr = S_OK;  
+      LONG lLbound = 0;  
+      LONG lUbound = 0;  
   
-      OutputDebugString(L"IFtpProviderConstruct::Construct\n");  
+      OutputDebugString(L"IFtpProviderConstruct::Construct\n");  
   
-      // Retrieve the upper and lower bounds for the configuration array.  
-      SafeArrayGetLBound( configurationEntries, 1, &lLbound );  
-      SafeArrayGetUBound( configurationEntries, 1, &lUbound );  
+      // Retrieve the upper and lower bounds for the configuration array.  
+      SafeArrayGetLBound( configurationEntries, 1, &lLbound );  
+      SafeArrayGetUBound( configurationEntries, 1, &lUbound );  
   
-      // Retrieve a pointer to the array of configuration settings.  
-      hr = SafeArrayAccessData(configurationEntries, (void**)&pArray);  
-      // Return an error if a failure occurs.  
-      if (FAILED(hr))  
-      {  
-         return hr;  
-      }  
+      // Retrieve a pointer to the array of configuration settings.  
+      hr = SafeArrayAccessData(configurationEntries, (void**)&pArray);  
+      // Return an error if a failure occurs.  
+      if (FAILED(hr))  
+      {  
+         return hr;  
+      }  
   
-      // Loop through the array of configuration setttings and  
-      // output the key/value pairs to the debug channel.  
-      for(LONG Index = lLbound; Index <= lUbound; Index ++)  
-      {  
-         OutputDebugString(pArray[Index].bstrKey);  
-         OutputDebugString(pArray[Index].bstrValue);  
-      }  
+      // Loop through the array of configuration setttings and  
+      // output the key/value pairs to the debug channel.  
+      for(LONG Index = lLbound; Index <= lUbound; Index ++)  
+      {  
+         OutputDebugString(pArray[Index].bstrKey);  
+         OutputDebugString(pArray[Index].bstrValue);  
+      }  
   
-      // Release the pointer to the array of configuration settings.  
-      hr = SafeArrayUnaccessData(configurationEntries);  
-      // Return an error if a failure occurs.  
-      if (FAILED(hr))  
-      {  
-         return hr;  
-      }  
+      // Release the pointer to the array of configuration settings.  
+      hr = SafeArrayUnaccessData(configurationEntries);  
+      // Return an error if a failure occurs.  
+      if (FAILED(hr))  
+      {  
+         return hr;  
+      }  
   
-      return S_OK;  
-   }  
+      return S_OK;  
+   }  
 ```  
   
 ## Requirements  

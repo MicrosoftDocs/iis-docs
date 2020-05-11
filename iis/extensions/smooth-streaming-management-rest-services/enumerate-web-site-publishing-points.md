@@ -52,47 +52,51 @@ A successful operation returns status code 200 (OK). For information about error
 
 The following example shows the format of the response body after the operation is completed.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <feed xmlns="http://www.w3.org/2005/Atom">
-      <author>
-        <name>name</name>
-      </author>
-      <title>Publishing Point Collection</title>
-      <updated>time-stamp</updated>
-      <entry>
-        <id>unique-ID</id>
-        <title>title</title>
-        <updated>2011-06-15T18:42:13Z</updated>
-        <link href="http://host-name/.isml-file-path/settings" rel="related" type="application/atom+xml" title="Settings" />
-        <link href="http://host-name/.isml-file-path/state" rel="related" type="application/atom+xml" title="State" />
-      </entry>
-      <!-- Addition Entries -->
-    </feed>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>name</name>
+  </author>
+  <title>Publishing Point Collection</title>
+  <updated>time-stamp</updated>
+  <entry>
+    <id>unique-ID</id>
+    <title>title</title>
+    <updated>2011-06-15T18:42:13Z</updated>
+    <link href="http://host-name/.isml-file-path/settings" rel="related" type="application/atom+xml" title="Settings" />
+    <link href="http://host-name/.isml-file-path/state" rel="related" type="application/atom+xml" title="State" />
+  </entry>
+  <!-- Addition Entries -->
+</feed>
+```
 
 The following example shows a response body.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <feed xmlns="http://www.w3.org/2005/Atom">
-      <author>
-        <name></name>
-      </author>
-      <title>Publishing Point Collection</title>
-      <updated>2011-06-15T18:42:17.993Z</updated>
-      <entry>
-        <id>http://contoso.com/myvideos/bunny.isml/settings</id>
-        <title>Big Buck Bunny</title>
-        <updated>2011-06-15T18:42:13Z</updated>
-        <link href="http://contoso.com/myvideos/bunny.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
-        <link href="http://contoso.com/myvideos/bunny.isml/state" rel="related" type="application/atom+xml" title="State" />
-      </entry>
-      <entry>
-        <id>http://contoso.com/myvideos/elephant.isml/settings</id>
-        <title>Elephant's Dream</title>
-        <updated>2011-06-15T18:42:06Z</updated>
-        <link href="http://contoso.com/myvideos/elephant.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
-        <link href="http://contoso.com/myvideos/elephant.isml/state" rel="related" type="application/atom+xml" title="State" />
-      </entry>
-    </feed>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name></name>
+  </author>
+  <title>Publishing Point Collection</title>
+  <updated>2011-06-15T18:42:17.993Z</updated>
+  <entry>
+    <id>http://contoso.com/myvideos/bunny.isml/settings</id>
+    <title>Big Buck Bunny</title>
+    <updated>2011-06-15T18:42:13Z</updated>
+    <link href="http://contoso.com/myvideos/bunny.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
+    <link href="http://contoso.com/myvideos/bunny.isml/state" rel="related" type="application/atom+xml" title="State" />
+  </entry>
+  <entry>
+    <id>http://contoso.com/myvideos/elephant.isml/settings</id>
+    <title>Elephant's Dream</title>
+    <updated>2011-06-15T18:42:06Z</updated>
+    <link href="http://contoso.com/myvideos/elephant.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
+    <link href="http://contoso.com/myvideos/elephant.isml/state" rel="related" type="application/atom+xml" title="State" />
+  </entry>
+</feed>
+```
 
 ## Authorization
 

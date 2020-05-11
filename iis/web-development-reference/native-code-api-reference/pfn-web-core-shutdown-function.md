@@ -10,7 +10,7 @@ Shuts down an instance of the Hosted Web Core.
   
 ```cpp  
 typedef HRESULT (*PFN_WEB_CORE_SHUTDOWN)(  
-   IN DWORD fImmediate  
+   IN DWORD fImmediate  
 );  
 ```  
   

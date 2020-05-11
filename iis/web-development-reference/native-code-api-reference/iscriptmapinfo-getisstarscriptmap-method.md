@@ -10,7 +10,7 @@ Retrieves a value that indicates whether a request handler is a wildcard mapping
   
 ```cpp  
 virtual BOOL GetIsStarScriptMap(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

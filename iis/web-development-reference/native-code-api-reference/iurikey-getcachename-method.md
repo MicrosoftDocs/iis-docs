@@ -10,7 +10,7 @@ Returns the name of the Uniform Resource Identifier (URI) cache.
   
 ```cpp  
 PCWSTR GetCacheName(  
-   VOID  
+   VOID  
 ) const;  
 ```  
   

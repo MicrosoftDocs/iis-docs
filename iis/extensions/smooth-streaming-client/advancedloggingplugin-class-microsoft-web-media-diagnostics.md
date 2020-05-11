@@ -31,10 +31,10 @@ Posts advanced logs to a server that by default will upload a log every 30 secon
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  Microsoft.Web.Media.Diagnostics..::..AdvancedLoggingPlugin  
+  Microsoft.Web.Media.Diagnostics..::..AdvancedLoggingPlugin  
 
-**Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

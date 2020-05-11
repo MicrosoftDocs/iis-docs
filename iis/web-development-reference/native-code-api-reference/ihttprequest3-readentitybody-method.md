@@ -10,14 +10,14 @@ Reads the request results into a specified buffer.
   
 ```cpp  
 virtual HRESULT ReadEntityBody(  
-   _Out_writes_bytes_all_(cbBuffer)  
-   VOID *                          pvBuffer,  
-   _In_     DWORD                  cbBuffer,  
-   _In_     BOOL                   fAsync,  
-   _In_     PFN_ASYNC_COMPLETION   pfnCompletionCallback,  
-   _In_     VOID *                 pvCompletionContext,  
-   _Out_    DWORD *                pcbBytesReceived,  
-   _Out_    BOOL *                 pfCompletionPending = NULL  
+   _Out_writes_bytes_all_(cbBuffer)  
+   VOID *                          pvBuffer,  
+   _In_     DWORD                  cbBuffer,  
+   _In_     BOOL                   fAsync,  
+   _In_     PFN_ASYNC_COMPLETION   pfnCompletionCallback,  
+   _In_     VOID *                 pvCompletionContext,  
+   _Out_    DWORD *                pcbBytesReceived,  
+   _Out_    BOOL *                 pfCompletionPending = NULL  
 ) = 0;  
 ```  
   

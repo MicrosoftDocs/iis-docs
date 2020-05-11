@@ -10,7 +10,7 @@ Retrieves the last modified time structure of the corresponding file for an [IHt
   
 ```cpp  
 virtual VOID GetLastModifiedTime(  
-   OUT FILETIME* pFileTime  
+   OUT FILETIME* pFileTime  
 ) const = 0;  
 ```  
   

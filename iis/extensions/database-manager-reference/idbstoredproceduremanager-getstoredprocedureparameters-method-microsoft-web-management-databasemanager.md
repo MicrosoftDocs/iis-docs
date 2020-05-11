@@ -28,8 +28,8 @@ product_family_name: VS
 
 Returns a collection of parameters for a stored procedure.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -86,7 +86,7 @@ function GetStoredProcedureParameters(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the stored procedure.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
@@ -103,8 +103,6 @@ An ICollection object that contains the list of [StoredProcedureParameter](store
 
 All database providers that implement the [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetStoredProcedureParameters method. This method returns a collection of StoredProcedureParameter objects for a specific stored procedure that the database manager will use to provide the list of parameters for the various stored procedure methods in your provider.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support retrieving stored procedures, you can use the following code sample to raise a not-implemented exception:
@@ -113,7 +111,7 @@ public ICollection\<StoredProcedureParameter\> GetStoredProcedureParameters(stri
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

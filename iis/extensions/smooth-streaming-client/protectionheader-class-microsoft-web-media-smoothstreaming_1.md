@@ -32,10 +32,10 @@ Headers for [ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstre
 ## Inheritance Hierarchy
 
  [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
-  Microsoft.Web.Media.SmoothStreaming.ProtectionHeader  
+  Microsoft.Web.Media.SmoothStreaming.ProtectionHeader  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

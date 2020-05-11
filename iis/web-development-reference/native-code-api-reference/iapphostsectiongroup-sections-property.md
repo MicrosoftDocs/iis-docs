@@ -10,8 +10,8 @@ Gets a configuration section definition collection that contains all the section
   
 ```cpp  
 HRESULT get_Sections(  
-   [out,  
-   retval] IAppHostSectionDefinitionCollection** ppSections  
+   [out,  
+   retval] IAppHostSectionDefinitionCollection** ppSections  
 );  
 ```  
   

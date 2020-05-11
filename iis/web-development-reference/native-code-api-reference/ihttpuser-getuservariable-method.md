@@ -10,7 +10,7 @@ Returns the custom user data by name.
   
 ```cpp  
 virtual PVOID GetUserVariable(  
-   IN PCSTR pszVariableName  
+   IN PCSTR pszVariableName  
 ) = 0;  
 ```  
   

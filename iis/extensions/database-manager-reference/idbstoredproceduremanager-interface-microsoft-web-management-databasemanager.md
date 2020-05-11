@@ -28,8 +28,8 @@ product_family_name: VS
 
 Represents a stored procedure manager interface for a database provider.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -69,8 +69,6 @@ The IDbStoredProcedureManager type exposes the following members.
 ## Remarks
 
 In order to manage stored procedures, you need to implement IDbStoredProcedureManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md). Stored procedures are collections of SQL code that execute on the server, and are often used instead of queries. For example, you could create a stored procedure that performs a query that is based on values that are calculated from parameters that you pass to the stored procedure.
-
-### 
 
 ### Notes for Implementers
 

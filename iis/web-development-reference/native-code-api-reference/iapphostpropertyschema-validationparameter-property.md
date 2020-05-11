@@ -10,9 +10,9 @@ Provides attribute-validation parameter information for the current property.
   
 ```cpp  
 HRESULT get_ValidationParameter(  
-   [out,  
-   retval,  
-   string] BSTR* pbstrValidationParameter  
+   [out,  
+   retval,  
+   string] BSTR* pbstrValidationParameter  
 );  
 ```  
   

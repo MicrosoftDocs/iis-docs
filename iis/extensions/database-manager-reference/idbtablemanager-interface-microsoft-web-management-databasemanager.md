@@ -28,8 +28,8 @@ product_family_name: VS
 
 Represents a table manager interface for the database provider.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -71,8 +71,6 @@ In order to manage tables, you must implement IDbTableManager on the class that 
 
 > [!NOTE]  
 > Use the IDbTableManager interface to manage the actual tables, and use the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface to manage data within a table.
-
-### 
 
 ### Notes for Implementers
 

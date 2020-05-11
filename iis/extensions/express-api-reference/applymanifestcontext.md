@@ -9,9 +9,9 @@ Applies the Fusion manifest context on the calling thread, enabling the creation
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    ApplyManifestContext(  
-    );  
+    HRESULT  
+    ApplyManifestContext(  
+    );  
 ```  
   
 ## Return Value  

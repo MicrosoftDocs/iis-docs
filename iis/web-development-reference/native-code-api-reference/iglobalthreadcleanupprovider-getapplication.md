@@ -10,7 +10,7 @@ Retrieves an [IHttpApplication](../../web-development-reference/native-code-api-
   
 ```cpp  
 virtual IHttpApplication* GetApplication(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the response output cache policy.
   
 ```cpp  
 virtual IHttpCachePolicy* GetCachePolicy(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

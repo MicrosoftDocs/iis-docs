@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 Provides an interface for a collection of native configuration elements.
 
-    class INativeConfigurationElementCollection : public IUnknown
+```cpp
+class INativeConfigurationElementCollection : public IUnknown
+```
 
 ## Methods
 
@@ -83,7 +85,7 @@ Note: The INativeConfigurationElementCollection interface contains several infra
 
 **IUnknown**
 
-   **INativeConfigurationElementCollection**
+   **INativeConfigurationElementCollection**
 
 ## Requirements
 

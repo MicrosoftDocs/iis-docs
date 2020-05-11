@@ -28,8 +28,8 @@ product_family_name: VS
 
 Represents a custom database backup and restore manager interface.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -69,30 +69,30 @@ The IDbCustomBackupRestoreManager type exposes the following members.
 
 Developers can use the IDbCustomBackupRestoreManager interface to override the existing backup and restore functionality of a database provider. For example, if you have already written a database backup and restore feature for your database type using .NET, you can add an instance of IDbCustomBackupRestoreManager to your assembly to allow the IIS database manager to list your database backups and call your existing backup and restore features.
 
-After you have created a custom backup and restore database manager for a databse provider, you must register it in the Global Assembly Cache for your server, then you must register it in your Administration.config file before IIS Manager will override the existing backup and restore functionality of a database provider.
+After you have created a custom backup and restore database manager for a databse provider, you must register it in the Global Assembly Cache for your server, then you must register it in your Administration.config file before IIS Manager will override the existing backup and restore functionality of a database provider.
 
 The following example shows a sample registration for a custom backup and restore manager that is added to the SQL server database provider, and will override the backup and restore functionality that was implemented in the SQL server database provider.
 
-    <system.webServer>
-       <management>
-          <dbManager>
-             <DBProviders>
-                <provider
-                      name="SQL Server 2005/2008"
-                      providerName="System.Data.SqlClient"
-                      type="Microsoft.Web.Management.DatabaseManager.SqlDatabase.SqlDatabaseProvider, Microsoft.Web.Management.DatabaseManager.SqlDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" >
-                   <databaseBackup
-                      backupEnabled="true"
-                      restoreEnabled="true"
-                      customBackupType="MyDatabase.MyManager, MyDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0e1d2c3b4a59687"
-                      backupPath="C:\backups" />
-                </provider>
-             </DBProviders>
-          </dbManager>
-          </management>
-    </system.webServer>
-
-### 
+```xml
+<system.webServer>
+    <management>
+      <dbManager>
+          <DBProviders>
+            <provider
+                  name="SQL Server 2005/2008"
+                  providerName="System.Data.SqlClient"
+                  type="Microsoft.Web.Management.DatabaseManager.SqlDatabase.SqlDatabaseProvider, Microsoft.Web.Management.DatabaseManager.SqlDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" >
+                <databaseBackup
+                  backupEnabled="true"
+                  restoreEnabled="true"
+                  customBackupType="MyDatabase.MyManager, MyDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0e1d2c3b4a59687"
+                  backupPath="C:\backups" />
+            </provider>
+          </DBProviders>
+      </dbManager>
+      </management>
+</system.webServer>
+```
 
 ### Notes for Implementers
 

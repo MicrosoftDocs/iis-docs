@@ -114,8 +114,6 @@ Web Pl 3.0 currently installs the latest community PHP 5.2.and 5.3 from the comm
 
 Web PI also installs ASP.NET MVC 3.0. ASP.NET is a powerful framework for building dynamic Web applications. As a programming framework, ASP.NET is adaptable to a wide variety of projects and development styles. ASP.NET is part of the .NET Framework, and when coding ASP.NET applications developers have access to the entire .NET Framework. The Model View Controller (MVC) extension enables users to build MVC applications by using the ASP.NET framework.
 
-### 
-
 ### Database
 
 The Database section includes the SQL Server tools for application development and management.

@@ -31,10 +31,10 @@ Specifies a connection argument for a database connection.
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  Microsoft.Web.Management.DatabaseManager.ConnectionArgument  
+  Microsoft.Web.Management.DatabaseManager.ConnectionArgument  
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 

@@ -10,7 +10,7 @@ Removes a configuration section group that is nested under the current configura
   
 ```cpp  
 HRESULT DeleteSectionGroup(  
-   [in] VARIANT varIndex  
+   [in] VARIANT varIndex  
 );  
 ```  
   

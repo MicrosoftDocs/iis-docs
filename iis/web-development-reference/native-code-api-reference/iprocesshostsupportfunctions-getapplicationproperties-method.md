@@ -10,11 +10,11 @@ Retrieves the properties from the application's metabase.
   
 ```cpp  
 virtual HRESULT __stdcall GetApplicationProperties(  
-   LPCWSTR appId,  
-   BSTR* pbstrVirtualPath,  
-   BSTR* pbstrPhysicalPath,  
-   BSTR* pbstrSiteName,  
-   BSTR* pbstrSiteId  
+   LPCWSTR appId,  
+   BSTR* pbstrVirtualPath,  
+   BSTR* pbstrPhysicalPath,  
+   BSTR* pbstrSiteName,  
+   BSTR* pbstrSiteId  
 ) = 0;  
 ```  
   

@@ -10,13 +10,13 @@ Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration 
   
 ```cpp  
 HRESULT MapPath(  
-   [in,  
-   string] BSTR bstrConfigPath,  
-   [in,  
-   string] BSTR bstrMappedPhysicalPath,  
-   [out,  
-   string,  
-   retval] BSTR* pbstrNewPhysicalPath  
+   [in,  
+   string] BSTR bstrConfigPath,  
+   [in,  
+   string] BSTR bstrMappedPhysicalPath,  
+   [out,  
+   string,  
+   retval] BSTR* pbstrNewPhysicalPath  
 );  
 ```  
   

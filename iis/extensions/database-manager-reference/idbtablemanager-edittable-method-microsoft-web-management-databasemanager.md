@@ -28,8 +28,8 @@ product_family_name: VS
 
 Modifies a table in a database.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -85,7 +85,7 @@ function EditTable(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
@@ -97,16 +97,16 @@ function EditTable(
 
 All database providers that implement the [IDbTableManager](idbtablemanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the EditTable method, which the database manager will use to modify the columns, indexes, and relationships for a table.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support editing tables, you can use the following code sample to raise a not-implemented exception:
 
-    public void EditTable(string connectionString, string schema, TableInfo tableInfo)
-    {
-       throw new NotImplementedException();
-    }
+```csharp
+public void EditTable(string connectionString, string schema, TableInfo tableInfo)
+{
+    throw new NotImplementedException();
+}
+```
 
 > [!NOTE]  
 > See the [ALTER TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms190273.aspx) topic for more information about the ALTER TABLE SQL statement.

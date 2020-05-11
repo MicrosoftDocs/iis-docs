@@ -10,7 +10,7 @@ Initializes the compression scheme.
   
 ```cpp  
 HRESULT WINAPI InitCompression(  
-   VOID  
+   VOID  
 );  
 ```  
   

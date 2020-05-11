@@ -10,9 +10,9 @@ Gets the nested configuration section group at the requested index.
   
 ```cpp  
 HRESULT get_Item(  
-   [in] VARIANT varIndex,  
-   [out,  
-   retval] IAppHostSectionGroup** ppSectionGroup  
+   [in] VARIANT varIndex,  
+   [out,  
+   retval] IAppHostSectionGroup** ppSectionGroup  
 );  
 ```  
   

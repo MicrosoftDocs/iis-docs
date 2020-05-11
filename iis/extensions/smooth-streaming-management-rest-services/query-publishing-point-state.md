@@ -53,46 +53,50 @@ A successful operation returns status code 200 (OK). For more information about 
 
 The following example shows the format of the response body after the operation has finished. For information of element values and attribute values, see [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md).
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>unique ID</id>
-      <title>Title</title>
-      <author>
-        <name />
-      </author>
-      <updated>time-stamp</updated>
-      <link href="http://host-name/.isml-file-path/state" rel="self" type="application/atom+xml" title="State" />
-      <link href="http://host-name/.isml-file-path/settings" rel="related" type="application/atom+xml" title="Settings" />
-    
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <State>
-            <Value>state-value</Value>
-          </State>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>unique ID</id>
+  <title>Title</title>
+  <author>
+    <name />
+  </author>
+  <updated>time-stamp</updated>
+  <link href="http://host-name/.isml-file-path/state" rel="self" type="application/atom+xml" title="State" />
+  <link href="http://host-name/.isml-file-path/settings" rel="related" type="application/atom+xml" title="Settings" />
+
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <State>
+        <Value>state-value</Value>
+      </State>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 The following example shows a response body.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>http://contoso.com/test1.isml/state</id>
-      <title>Bunny</title>
-      <author>
-        <name />
-      </author>
-      <updated>2011-06-13T22:08:57.044Z</updated>
-      <link href="http://contoso.com/test1.isml/state" rel="self" type="application/atom+xml" title="State" />
-      <link href="http://contoso.com/test1.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
-      <content type="application/xml">
-        <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-          <State>
-            <Value>Idle</Value>
-          </State>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>http://contoso.com/test1.isml/state</id>
+  <title>Bunny</title>
+  <author>
+    <name />
+  </author>
+  <updated>2011-06-13T22:08:57.044Z</updated>
+  <link href="http://contoso.com/test1.isml/state" rel="self" type="application/atom+xml" title="State" />
+  <link href="http://contoso.com/test1.isml/settings" rel="related" type="application/atom+xml" title="Settings" />
+  <content type="application/xml">
+    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+      <State>
+        <Value>Idle</Value>
+      </State>
+    </SmoothStreaming>
+  </content>
+</entry>
+```
 
 ## Authorization
 

@@ -10,7 +10,7 @@ Returns the physical path of the file referenced by an `IHttpFileInfo` interface
   
 ```cpp  
 virtual PCWSTR GetFilePath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

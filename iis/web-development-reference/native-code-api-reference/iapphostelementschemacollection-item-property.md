@@ -10,9 +10,9 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference/nativ
   
 ```cpp  
 [propget, id(DISPID_VALUE)] HRESULT Item(  
-   [in] VARIANT cIndex,  
-   [out,  
-   retval] IAppHostElementSchema** ppElementSchema  
+   [in] VARIANT cIndex,  
+   [out,  
+   retval] IAppHostElementSchema** ppElementSchema  
 );  
 ```  
   

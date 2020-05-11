@@ -10,7 +10,7 @@ Gets an [IAppHostElement Interface](../../web-development-reference/native-code-
   
 ```cpp  
 [propget] HRESULT Input(  
-   [out,retval] IAppHostElement ** ppInputElement  
+   [out,retval] IAppHostElement ** ppInputElement  
 );  
 ```  
   

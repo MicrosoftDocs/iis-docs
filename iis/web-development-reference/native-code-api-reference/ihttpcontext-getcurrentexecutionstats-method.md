@@ -10,12 +10,12 @@ Retrieves the execution statistics for the current context.
   
 ```cpp  
 virtual HRESULT GetCurrentExecutionStats(  
-   DWORD* pdwNotification,  
-   DWORD* pdwNotificationStartTickCount = NULL,  
-   PCWSTR* ppszModule = NULL,  
-   DWORD* pdwModuleStartTickCount = NULL,  
-   DWORD* pdwAsyncNotification = NULL,  
-   DWORD* pdwAsyncNotificationStartTickCount = NULL  
+   DWORD* pdwNotification,  
+   DWORD* pdwNotificationStartTickCount = NULL,  
+   PCWSTR* ppszModule = NULL,  
+   DWORD* pdwModuleStartTickCount = NULL,  
+   DWORD* pdwAsyncNotification = NULL,  
+   DWORD* pdwAsyncNotificationStartTickCount = NULL  
 ) const = 0;  
 ```  
   

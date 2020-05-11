@@ -10,7 +10,7 @@ Retrieves the interface of the worker process framework for the server.
   
 ```cpp  
 virtual HRESULT GetWorkerProcessFramework(  
-   _Outptr_ IWorkerProcessFramework **  ppWorkerProcessFramework  
+   _Outptr_ IWorkerProcessFramework **  ppWorkerProcessFramework  
 ) = 0;  
 ```  
   

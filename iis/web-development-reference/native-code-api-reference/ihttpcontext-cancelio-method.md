@@ -10,7 +10,7 @@ Cancels any pending send or receive operations.
   
 ```cpp  
 virtual HRESULT CancelIo(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

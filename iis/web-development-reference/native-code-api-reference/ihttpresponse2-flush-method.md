@@ -10,12 +10,12 @@ Sends all currently buffered output of an asynchronous operation to the client.
   
 ```cpp  
 Virtual HRESULT Flush(  
-   _In_ BOOL                       fAsync,  
-   _In_ BOOL                       fMoreData,  
-   _In_  PFN_ASYNC_COMPLETION      pfnCompletionCallback,  
-   _In_  VOID *                    pvCompletionContext,  
-   _Out_ DWORD *                   pcbSent,  
-   _Out_ BOOL *                    pfCompletionExpected = NULL  
+   _In_ BOOL                       fAsync,  
+   _In_ BOOL                       fMoreData,  
+   _In_  PFN_ASYNC_COMPLETION      pfnCompletionCallback,  
+   _In_  VOID *                    pvCompletionContext,  
+   _Out_ DWORD *                   pcbSent,  
+   _Out_ BOOL *                    pfCompletionExpected = NULL  
 ) = 0;  
 ```  
   

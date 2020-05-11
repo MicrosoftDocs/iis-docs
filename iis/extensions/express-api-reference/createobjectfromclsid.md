@@ -9,11 +9,11 @@ Creates a COM object using the specified class ID (CLSID).
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    CreateObjectFromCLSID(  
-        [in] CLSID clsidObject,  
-        [out, retval] VARIANT * pObject  
-    );  
+    HRESULT  
+    CreateObjectFromCLSID(  
+        [in] CLSID clsidObject,  
+        [out, retval] VARIANT * pObject  
+    );  
   
 ```  
   

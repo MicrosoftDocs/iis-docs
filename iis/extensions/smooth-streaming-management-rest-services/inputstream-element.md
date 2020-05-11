@@ -12,35 +12,37 @@ mtps_version: v=VS.90
 
 Provides summary information about a Smooth Stream input stream.
 
-    <InputStream id=identifier>
-      <State />
-      <ArchiveFileName />
-      <Sources>
-        <Source>
-          <Properties>
-            <Property />
-          </Properties>
-        </Source>
-      </Sources>
-      <Sinks>
-        <Sink>
-          <Properties>
-            <Property />
-          </Properties>
-        </Sink>
-      </Sinks>
-      <Tracks>
-        <Track>
-          <Name />
-          <EncodedBitRate />
-          <IncomingBitRate />
-          <IncomingFragmentWaitTime />
-          <IncomingFragmentTimeStamp />
-          <IncomingFragmentDuration />
-          <RequestRate />
-        </Track>
-      </Tracks>
-    </InputStream>
+```xml
+<InputStream id=identifier>
+  <State />
+  <ArchiveFileName />
+  <Sources>
+    <Source>
+      <Properties>
+        <Property />
+      </Properties>
+    </Source>
+  </Sources>
+  <Sinks>
+    <Sink>
+      <Properties>
+        <Property />
+      </Properties>
+    </Sink>
+  </Sinks>
+  <Tracks>
+    <Track>
+      <Name />
+      <EncodedBitRate />
+      <IncomingBitRate />
+      <IncomingFragmentWaitTime />
+      <IncomingFragmentTimeStamp />
+      <IncomingFragmentDuration />
+      <RequestRate />
+    </Track>
+  </Tracks>
+</InputStream>
+```
 
 ### Attributes
 

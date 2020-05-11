@@ -12,32 +12,34 @@ mtps_version: v=VS.90
 
 Represents all available settings for a Live Smooth Streaming publishing point instance.
 
-    <Settings>
-      <Title />
-      <SourceType />
-      <EstimatedDuration />
-      <AutoStart />
-      <AutoRestartOnEncoderReconnect />
-      <LookAheadChunks />
-      <Archive>
-        <SegmentLength />
-        <Path />
-      </Archive>
-      <ClientConnections>
-        <WindowLength />
-        <LiveCacheLength />
-        <ClientManifestVersion />
-      </ClientConnections>
-      <ServerConnections
-        <SendEndOfStreamOnStop />
-      </ServerConnections>
-      <PullFrom> | <PushTo>
-        <PublishingPoints />
-      </PullFrom> | </PushTo>
-      <Modules>
-        <Module />
-      </Modules>
-    </Settings>
+```xml
+<Settings>
+  <Title />
+  <SourceType />
+  <EstimatedDuration />
+  <AutoStart />
+  <AutoRestartOnEncoderReconnect />
+  <LookAheadChunks />
+  <Archive>
+    <SegmentLength />
+    <Path />
+  </Archive>
+  <ClientConnections>
+    <WindowLength />
+    <LiveCacheLength />
+    <ClientManifestVersion />
+  </ClientConnections>
+  <ServerConnections>
+    <SendEndOfStreamOnStop />
+  </ServerConnections>
+  <PullFrom> | <PushTo>
+    <PublishingPoints />
+  </PullFrom> | </PushTo>
+  <Modules>
+    <Module />
+  </Modules>
+</Settings>
+```
 
 ### Child Elements
 
@@ -60,34 +62,36 @@ Represents all available settings for a Live Smooth Streaming publishing point i
 
 ### Example
 
-    <?xml version="1.0" encoding="UTF-8" ?>
-     <entry xmlns="http://www.w3.org/2005/Atom">
-      <id>http://shl-s08r2:443/bunny.isml/settings</id>
-      <title>bunny</title>
-       <author>
-        <name />
-      </author>
-      <updated>2011-05-26T17:05:24Z</updated>
-      <link href="https://shl-s08r2:443/bunny.isml/settings" rel="self" type="application/atom+xml" title="Publishing Point Settings" />
-      <link href="https://shl-s08r2:443/bunny.isml/state" rel="related" type="application/atom+xml" title="Publishing Point State" />
-        <content type="application/xml">
-          <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-            <Settings>
-            <Title>bunny</Title>
-            <SourceType>Push</SourceType>
-            <AutoStart>true</AutoStart>
-            <AutoRestartOnEncoderReconnect>false</AutoRestartOnEncoderReconnect>
-            <LookAheadChunks>2</LookAheadChunks>
-              <Archive enabled="true">
-              <Path useEventIdOnPath="false" />
-            </Archive>
-              <ClientConnections enabled="true">
-              <ClientManifestVersion>2.0</ClientManifestVersion>
-            </ClientConnections>
-              <ServerConnections enabled="true">
-              <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
-            </ServerConnections>
-          </Settings>
-        </SmoothStreaming>
-      </content>
-    </entry>
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+  <entry xmlns="http://www.w3.org/2005/Atom">
+  <id>http://shl-s08r2:443/bunny.isml/settings</id>
+  <title>bunny</title>
+    <author>
+    <name />
+  </author>
+  <updated>2011-05-26T17:05:24Z</updated>
+  <link href="https://shl-s08r2:443/bunny.isml/settings" rel="self" type="application/atom+xml" title="Publishing Point Settings" />
+  <link href="https://shl-s08r2:443/bunny.isml/state" rel="related" type="application/atom+xml" title="Publishing Point State" />
+    <content type="application/xml">
+      <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+        <Settings>
+        <Title>bunny</Title>
+        <SourceType>Push</SourceType>
+        <AutoStart>true</AutoStart>
+        <AutoRestartOnEncoderReconnect>false</AutoRestartOnEncoderReconnect>
+        <LookAheadChunks>2</LookAheadChunks>
+          <Archive enabled="true">
+          <Path useEventIdOnPath="false" />
+        </Archive>
+          <ClientConnections enabled="true">
+          <ClientManifestVersion>2.0</ClientManifestVersion>
+        </ClientConnections>
+          <ServerConnections enabled="true">
+          <SendEndOfStreamOnStop>true</SendEndOfStreamOnStop>
+        </ServerConnections>
+      </Settings>
+    </SmoothStreaming>
+  </content>
+</entry>
+```

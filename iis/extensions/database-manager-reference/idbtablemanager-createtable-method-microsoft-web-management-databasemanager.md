@@ -28,8 +28,8 @@ product_family_name: VS
 
 Creates a table in a database.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -85,7 +85,7 @@ function CreateTable(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
@@ -97,16 +97,16 @@ function CreateTable(
 
 All database providers that implement the [IDbTableManager](idbtablemanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the CreateTable method, which the database manager will use to create tables in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support adding tables, you can use the following code sample to raise a not-implemented exception:
 
-    public void CreateTable(string connectionString, string schema, TableInfo tableInfo)
-    {
-       throw new NotImplementedException();
-    }
+```csharp
+public void CreateTable(string connectionString, string schema, TableInfo tableInfo)
+{
+    throw new NotImplementedException();
+}
+```
 
 > [!NOTE]  
 > See the [CREATE TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms174979.aspx) topic for more information about the CREATE TABLE SQL statement.

@@ -21,7 +21,7 @@ Returns the level of detail for a log.
 
 This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
 
-## Overload List
+## Overload List
 
 ||Name|Description|
 |--- |--- |--- |

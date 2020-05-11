@@ -32,11 +32,11 @@ Class used to pass event argument information when a seek event completes.
 ## Inheritance Hierarchy
 
  [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
-  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
-    Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs  
+  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
+    Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

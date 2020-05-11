@@ -14,7 +14,9 @@ The textstream param element specifies a single parameter for the textstream.
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - textstream Element](iis-smooth-streaming-server-manifest-on-demand-textstream-element.md)  
 
-    <param name="parameter name" value="value" valuetype="data type" />
+```xml
+<param name="parameter name" value="value" valuetype="data type" />
+```
 
 ## Attributes and Elements
 

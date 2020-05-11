@@ -31,10 +31,10 @@ Represents the base class that needs to be implemented in order to manage a data
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  Microsoft.Web.Management.DatabaseManager.DatabaseProvider  
+  Microsoft.Web.Management.DatabaseManager.DatabaseProvider  
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 

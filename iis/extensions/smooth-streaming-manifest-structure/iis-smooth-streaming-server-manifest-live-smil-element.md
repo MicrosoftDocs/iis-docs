@@ -12,8 +12,10 @@ mtps_version: v=VS.90
 
 The smil element is the root container used by SMIL 2.0.
 
-    <smil xmlns="http://www.w3.org/2001/SMIL20/Language">
-    </head>
+```xml
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+</head>
+```
 
 ## Attributes and Elements
 
@@ -40,38 +42,40 @@ None
 
 The following is an example of a Live Server Manifest.
 
-    <?xml version="1.0" encoding="utf-16"?>
-    <smil xmlns="http://www.w3.org/2001/SMIL20/Language">
-       <head>
-         <meta name="Meta Data" content="Common meta data" />
-       </head>
-       <body>
-          <switch>
-             <video src = "Stream" systemBitrate="1450000">
-                <param name="trackID" value="2" valuetype="data" />
-                <param name="FourCC" value="WVC1" valuetype="data" />
-                <param name="MaxWidth" value="640" valuetype="data" />
-                <param name="MaxHeight" value="480" valuetype="data" />
-                <param name="CodecPrivateData" value="250000010FD37E27F1678A27F859E80490824C4ADF5DC00000010E5A67F840" valuetype="data" />
-             </video>
-             <video src = "Stream" systemBitrate="1050000">
-                <param name="FourCC" value="WVC1" valuetype="data" />
-                <param name="trackID" value="2" valuetype="data" />
-                <param name="MaxWidth" value="640" valuetype="data" />
-                <param name="MaxHeight" value="480" valuetype="data" />
-                <param name="CodecPrivateData" value="250000010FD37E27F1678A27F859E80490824C4ADF5DC00000010E5A67F840" valuetype="data" />
-             </video>
-             <audio src = "Stream" systemBitrate="94208">
-                <param name="trackID" value="1" valuetype="data" />
-                <param name="Subtype" value="WMAPRO" valuetype="data" />
-                <param name="CodecPrivateData" value="6101020044AC0000853E00009D0B10000A00008800000F0000000000" valuetype="data" />
-                <param name="SamplingRate" value = "48000" valuetype="data"/>
-                <param name="BitsPerSample" value = "16" valuetype="data" />
-                <param name="PacketSize" value = "1115" valuetype="data" />
-             </audio>
-          </switch>
-       </body>
-    </smil>
+```xml
+<?xml version="1.0" encoding="utf-16"?>
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+   <head>
+   <meta name="Meta Data" content="Common meta data" />
+   </head>
+   <body>
+      <switch>
+         <video src = "Stream" systemBitrate="1450000">
+            <param name="trackID" value="2" valuetype="data" />
+            <param name="FourCC" value="WVC1" valuetype="data" />
+            <param name="MaxWidth" value="640" valuetype="data" />
+            <param name="MaxHeight" value="480" valuetype="data" />
+            <param name="CodecPrivateData" value="250000010FD37E27F1678A27F859E80490824C4ADF5DC00000010E5A67F840" valuetype="data" />
+         </video>
+         <video src = "Stream" systemBitrate="1050000">
+            <param name="FourCC" value="WVC1" valuetype="data" />
+            <param name="trackID" value="2" valuetype="data" />
+            <param name="MaxWidth" value="640" valuetype="data" />
+            <param name="MaxHeight" value="480" valuetype="data" />
+            <param name="CodecPrivateData" value="250000010FD37E27F1678A27F859E80490824C4ADF5DC00000010E5A67F840" valuetype="data" />
+         </video>
+         <audio src = "Stream" systemBitrate="94208">
+            <param name="trackID" value="1" valuetype="data" />
+            <param name="Subtype" value="WMAPRO" valuetype="data" />
+            <param name="CodecPrivateData" value="6101020044AC0000853E00009D0B10000A00008800000F0000000000" valuetype="data" />
+            <param name="SamplingRate" value = "48000" valuetype="data"/>
+            <param name="BitsPerSample" value = "16" valuetype="data" />
+            <param name="PacketSize" value = "1115" valuetype="data" />
+         </audio>
+      </switch>
+   </body>
+</smil>
+```
 
 ## See Also
 

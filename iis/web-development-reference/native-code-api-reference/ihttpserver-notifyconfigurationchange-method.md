@@ -10,7 +10,7 @@ Triggers a notification that a configuration path has changed.
   
 ```cpp  
 virtual VOID NotifyConfigurationChange(  
-   PCWSTR pszPath  
+   PCWSTR pszPath  
 ) = 0;  
 ```  
   

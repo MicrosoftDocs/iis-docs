@@ -10,7 +10,7 @@ Indicates whether the application is in the process of warming up.
   
 ```cpp  
 virtual BOOL QueryIsWarmingUp(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

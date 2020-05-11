@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 Represents the state of a Live Smooth Streaming publishing point instance.
 
-    <State>
-      <Value />
-      <LastError />
-    </State>
+```xml
+<State>
+  <Value />
+  <LastError />
+</State>
+```
 
 ### Child Elements
 
@@ -28,6 +30,8 @@ Represents the state of a Live Smooth Streaming publishing point instance.
 
 ### Example
 
-    <State>
-      <Value>Idle</Value>
-    </State>
+```xml
+<State>
+  <Value>Idle</Value>
+</State>
+```

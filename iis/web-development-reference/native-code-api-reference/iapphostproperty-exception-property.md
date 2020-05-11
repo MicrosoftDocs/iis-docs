@@ -10,7 +10,7 @@ Gets administration system exception information that is related to the processi
   
 ```cpp  
 HRESULT Exception(  
-   [out, retval] IAppHostPropertyException ** ppException  
+   [out, retval] IAppHostPropertyException ** ppException  
 );  
 ```  
   

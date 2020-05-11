@@ -10,12 +10,12 @@ Signals the close of a WebSocket connection.
   
 ```cpp  
 virtual HRESULT SendConnectionClose(  
-   _In_ BOOL fAsync,  
-   _In_ USHORT* pStatusCode = NULL,  
-   _In_ LPCWSTR pszReason = NULL,  
-   _In_ PFN_WEBSOCKET_COMPLETION pfnCompletion = NULL,  
-   _In_ VOID* pvCompletionContext = NULL,  
-   _Out_ BOOL* pfCompletionExpected = NULL  
+   _In_ BOOL fAsync,  
+   _In_ USHORT* pStatusCode = NULL,  
+   _In_ LPCWSTR pszReason = NULL,  
+   _In_ PFN_WEBSOCKET_COMPLETION pfnCompletion = NULL,  
+   _In_ VOID* pvCompletionContext = NULL,  
+   _Out_ BOOL* pfCompletionExpected = NULL  
 ) = 0;  
 ```  
   

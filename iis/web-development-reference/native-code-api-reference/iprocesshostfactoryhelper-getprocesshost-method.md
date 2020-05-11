@@ -10,8 +10,8 @@ Retrieves an [IProcessHost](../../web-development-reference/native-code-api-refe
   
 ```cpp  
 virtual HRESULT __stdcall GetProcessHost(  
-   IProcessHostSupportFunctions* pFunctions,  
-   IUnknown** ppProcessHost  
+   IProcessHostSupportFunctions* pFunctions,  
+   IUnknown** ppProcessHost  
 ) = 0;  
 ```  
   

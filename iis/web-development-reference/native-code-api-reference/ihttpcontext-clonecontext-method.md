@@ -10,8 +10,8 @@ Creates a clone of the current request context.
   
 ```cpp  
 virtual HRESULT CloneContext(  
-   IN DWORD dwCloneFlags,  
-   OUT IHttpContext** ppHttpContext  
+   IN DWORD dwCloneFlags,  
+   OUT IHttpContext** ppHttpContext  
 ) = 0;  
 ```  
   

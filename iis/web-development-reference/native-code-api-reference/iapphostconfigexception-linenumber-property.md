@@ -10,8 +10,8 @@ Gets the number of the line in the configuration file that caused the exception 
   
 ```cpp  
 HRESULT get_LineNumber(  
-   [out,  
-   retval] ULONG* pcLineNumber  
+   [out,  
+   retval] ULONG* pcLineNumber  
 );  
 ```  
   

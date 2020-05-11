@@ -10,7 +10,7 @@ Retrieves the physical path of the current request.
   
 ```cpp  
 virtual PCWSTR GetScriptTranslated(  
-   DWORD* pcchScriptName = NULL  
+   DWORD* pcchScriptName = NULL  
 ) = 0;  
 ```  
   

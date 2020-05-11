@@ -32,10 +32,10 @@ Provides scheduling information about an IIS Transform Manager job.
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  Microsoft.Web.Media.TransformManager..::..SchedulerInfo  
+  Microsoft.Web.Media.TransformManager..::..SchedulerInfo  
 
-**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 

@@ -10,12 +10,12 @@ Retrieves an authentication token given a user name, password, and login method.
   
 ```cpp  
 virtual HRESULT GetToken(  
-   _In_ PCWSTR                     pszUserName,  
-   _In_ PCWSTR                     pszPassword,  
-   _In_ DWORD                      dwLogonMethod,   _Outptr_ IHttpTokenEntry **      ppTokenEntry,  
-   _In_opt_ PCWSTR                 pszDefaultDomain = NULL,  
-   _In_opt_ PSOCKADDR              pSockAddr = NULL,  
-   _In_opt_ IHttpTraceContext *    pHttpTraceContext = NULL  
+   _In_ PCWSTR                     pszUserName,  
+   _In_ PCWSTR                     pszPassword,  
+   _In_ DWORD                      dwLogonMethod,   _Outptr_ IHttpTokenEntry **      ppTokenEntry,  
+   _In_opt_ PCWSTR                 pszDefaultDomain = NULL,  
+   _In_opt_ PSOCKADDR              pSockAddr = NULL,  
+   _In_opt_ IHttpTraceContext *    pHttpTraceContext = NULL  
 ) = 0;  
 ```  
   

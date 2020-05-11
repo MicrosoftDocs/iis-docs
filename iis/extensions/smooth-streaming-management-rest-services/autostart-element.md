@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Determines whether the publishing point automatically starts on first request.
 
-    <AutoStart>
-      "true|false"
-    </AutoStart>
+```xml
+<AutoStart>
+  "true|false"
+</AutoStart>
+```
 
 ## Child Elements
 

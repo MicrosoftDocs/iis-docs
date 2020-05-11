@@ -10,8 +10,8 @@ Represents the method that will handle an `EndRequest` event, which occurs as th
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnEndRequest(  
-   IN IHttpContext* pHttpContext,  
-   IN IHttpEventProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IHttpEventProvider* pProvider  
 );  
 ```  
   

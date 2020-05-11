@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalFileChange` event, which occurs 
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalFileChange(  
-   IN IGlobalFileChangeProvider* pProvider  
+   IN IGlobalFileChangeProvider* pProvider  
 );  
 ```  
   

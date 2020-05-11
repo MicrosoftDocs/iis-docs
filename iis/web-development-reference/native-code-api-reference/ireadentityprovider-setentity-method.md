@@ -10,9 +10,9 @@ Specifies the request entity.
   
 ```cpp  
 virtual VOID SetEntity(  
-   PVOID pBuffer,  
-   DWORD cbData,  
-   DWORD cbBuffer  
+   PVOID pBuffer,  
+   DWORD cbData,  
+   DWORD cbBuffer  
 ) = 0;  
 ```  
   

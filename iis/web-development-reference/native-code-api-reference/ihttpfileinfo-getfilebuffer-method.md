@@ -10,7 +10,7 @@ Returns a buffer in memory loaded from the corresponding file.
   
 ```cpp  
 virtual const BYTE* GetFileBuffer(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

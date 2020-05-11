@@ -10,7 +10,7 @@ Returns a value indicating whether the specific data has been flushed from the c
   
 ```cpp  
 virtual BOOL GetFlushed(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Retrieves the URL information container for the current context.
   
 ```cpp  
 virtual IHttpUrlInfo* GetUrlInfo(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

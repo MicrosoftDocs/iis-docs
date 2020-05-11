@@ -10,8 +10,8 @@ Binds stored context with a specified name.
   
 ```cpp  
 virtual HRESULT SetNamedContext(  
-   _In_ IHttpStoredContext * ppStoredContext,  
-   _In_ LPCWSTR              szName  
+   _In_ IHttpStoredContext * ppStoredContext,  
+   _In_ LPCWSTR              szName  
 ) = 0;  
 ```  
   

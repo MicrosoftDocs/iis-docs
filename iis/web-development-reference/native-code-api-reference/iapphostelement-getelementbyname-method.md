@@ -10,10 +10,10 @@ Gets a requested child element from the current element.
   
 ```cpp  
 HRESULT GetElementByName(  
-   [in,  
-   string] BSTR bstrSubName,  
-   [out,  
-   retval] IAppHostElement** ppElement  
+   [in,  
+   string] BSTR bstrSubName,  
+   [out,  
+   retval] IAppHostElement** ppElement  
 );  
 ```  
   

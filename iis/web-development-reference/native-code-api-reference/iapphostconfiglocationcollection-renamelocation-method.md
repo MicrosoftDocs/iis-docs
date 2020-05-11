@@ -10,8 +10,8 @@ Changes the location at the specified index in the collection.
   
 ```cpp  
 HRESULT RenameLocation(  
-   [in] VARIANT varIndex,  
-   [in] BSTR bstrLocationPath  
+   [in] VARIANT varIndex,  
+   [in] BSTR bstrLocationPath  
 );  
 ```  
   

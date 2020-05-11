@@ -10,7 +10,7 @@ Retrieves the name for the Web site.
   
 ```cpp  
 virtual PCWSTR GetSiteName(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

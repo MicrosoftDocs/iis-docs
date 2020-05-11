@@ -19,7 +19,7 @@ Developers who have worked with Silverlight will find the code scenarios in this
 For more information about encoding Smooth Streaming media files, see [IIS Media Services](https://go.microsoft.com/fwlink/?linkid=181830). You can download the [Smooth Streaming video sample](https://www.microsoft.com/downloads/details.aspx?familyid=8f0d5fc6-25c4-46b8-b1a1-b706f468eb12&displaylang=en) files provided with [Getting Started with IIS Live Smooth Streaming](http://learn.iis.net/page.aspx/620/getting-started-with-iis-live-smooth-streaming/) in order to run the examples in this documentation.
 
 > [!NOTE]  
-> Most Silverlight 4 applications will work with Silverlight 5 without any changes. For more information, see [Ensuring That Your Silverlight Applications Work with Silverlight 5](https://go.microsoft.com/fwlink/?linkid=251018).
+> Most Silverlight 4 applications will work with Silverlight 5 without any changes. For more information, see [Ensuring That Your Silverlight Applications Work with Silverlight 5](https://go.microsoft.com/fwlink/?linkid=251018).
 
 The following topics contain examples that will help you set up a development environment and experiment with basic code scenarios used by [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) and supported by the [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md) namespace. You can download a Visual Studio solution that contains the sample code: [Download](https://go.microsoft.com/fwlink/?linkid=182167).
 

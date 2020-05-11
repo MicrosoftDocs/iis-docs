@@ -10,9 +10,9 @@ Sets metadata in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)
   
 ```cpp  
 HRESULT SetMetadata(  
-   [in,  
-   string] BSTR bstrMetadataType,  
-   [in] VARIANT value  
+   [in,  
+   string] BSTR bstrMetadataType,  
+   [in] VARIANT value  
 );  
 ```  
   

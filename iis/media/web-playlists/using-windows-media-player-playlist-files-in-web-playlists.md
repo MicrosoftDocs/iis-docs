@@ -124,29 +124,31 @@ The following sections provide details on both approaches:
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 4. In the text editor, change the **srcType** for each media entry in the ISX to a physical path. For example:  
   
-   Change: &lt;param name="srcType" value="relativeURI" /&gt;  
-   To: &lt;param name="srcType" value="physicalPath" /&gt;  
+   Change: `<param name="srcType" value="relativeURI" />`  
+   To: `<param name="srcType" value="physicalPath" />`  
   
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 5. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
    In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
-  
-&lt;!--&lt;param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;  
-  
-...  
-  
-Value=&amp;quot;4&amp;quot;" /&gt;--&gt;  
-  
+
+    ```xml
+    <!--<param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;
+
+    ...
+
+    Value=&amp;quot;4&amp;quot;" />-->
+    ```
+
     **Tip** Because **extraParam** values vary for each track, do the following when using the **Replace** feature in Notepad:  
   
- Change: &lt;param name="extraParam"  
- To: &lt;!--&lt;param name="extraParam"  
+ Change: <param name="extraParam"  
+ To: <!--<param name="extraParam"  
   
  -and-  
   
- Change: &lt;param name="title"  
- To: --&gt;&lt;param name="title"
+ Change: <param name="title"  
+ To: --><param name="title"
 
 > This will comment-out the **param** container with the **extraParam** attributes, as shown in the above example.
 
@@ -154,32 +156,34 @@ Value=&amp;quot;4&amp;quot;" /&gt;--&gt;
 
 ### Serve the media files from the Web site
 
-1. Copy the media files referenced in the Windows Media Player playlist (.wpl) file to a folder in the Web site directory or to a virtual directory. For example, if you imported the .asx version of the playlist to the Default Web site, copy the files to: &lt;*systemdrive*&gt;\inetpub\wwwroot\media.
+1. Copy the media files referenced in the Windows Media Player playlist (.wpl) file to a folder in the Web site directory or to a virtual directory. For example, if you imported the .asx version of the playlist to the Default Web site, copy the files to: <*systemdrive*>\inetpub\wwwroot\media.
 2. In a text editor, such as Notepad, update the relative URI for each media entry in the ISX. For example:  
   
-   Change: &lt;ref src="..\track1.wma"&gt;  
-   To: &lt;ref src="media/track1.wma"&gt;  
+   Change: `<ref src="..\track1.wma">`  
+   To: `<ref src="media/track1.wma">`  
   
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 3. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
    In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
-  
-&lt;!--&lt;param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;  
-  
-...  
-  
-Value=&amp;quot;4&amp;quot;" /&gt;--&gt;  
+
+    ```xml
+    <!--<param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;
+
+    ...
+
+    Value=&amp;quot;4&amp;quot;" />-->
+    ```
   
     **Tip** Because **extraParam** values vary for each track, do the following when using the **Replace** feature in Notepad:  
   
- Change: &lt;param name="extraParam"  
- To: &lt;!--&lt;param name="extraParam"  
+ Change: `<param name="extraParam"`  
+ To: `<!--<param name="extraParam`  
   
  -and-  
   
- Change: &lt;param name="title"  
- To: --&gt;&lt;param name="title"
+ Change: `<param name="title"`  
+ To: `--><param name="title"`
 
 > This will comment-out the **param** container with the **extraParam** attributes, as shown in the above example.
 

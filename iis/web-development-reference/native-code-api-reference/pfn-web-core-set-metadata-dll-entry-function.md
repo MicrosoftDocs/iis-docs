@@ -9,9 +9,9 @@ Sets metadata options for a web core activation.
 ## Syntax  
   
 ```cpp  
-typedef HRESULT(   * PFN_WEB_CORE_SET_METADATA_DLL_ENTRY)(  
-   IN PCWSTR pszMetadataType,  
-   IN PCWSTR pszValue  
+typedef HRESULT(   * PFN_WEB_CORE_SET_METADATA_DLL_ENTRY)(  
+   IN PCWSTR pszMetadataType,  
+   IN PCWSTR pszValue  
 );  
 ```  
   

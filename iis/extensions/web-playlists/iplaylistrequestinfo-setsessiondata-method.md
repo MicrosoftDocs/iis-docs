@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 The **SetSessionData** method sets the playlist provider specific data for this session.
 
-    HRESULT
-    SetSessionData (
-            [in] BSTR                       bstrVarValue
-    );
+```cpp
+HRESULT
+SetSessionData (
+        [in] BSTR                       bstrVarValue
+);
+```
 
 ## Arguments
 

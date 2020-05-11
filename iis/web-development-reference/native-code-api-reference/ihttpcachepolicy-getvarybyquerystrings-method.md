@@ -10,7 +10,7 @@ Returns the custom query values for the cache policy.
   
 ```cpp  
 virtual PCSTR GetVaryByQueryStrings(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

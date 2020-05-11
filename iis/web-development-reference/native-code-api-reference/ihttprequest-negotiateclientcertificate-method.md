@@ -10,8 +10,8 @@ Initiates client certificate negotiation with a Web client.
   
 ```cpp  
 HRESULT NegotiateClientCertificate(  
-   IN BOOL fAsync,  
-   OUT BOOL* pfCompletionPending = NULL  
+   IN BOOL fAsync,  
+   OUT BOOL* pfCompletionPending = NULL  
 )   
 ```  
   

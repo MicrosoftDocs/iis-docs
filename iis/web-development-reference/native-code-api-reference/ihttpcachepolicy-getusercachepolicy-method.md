@@ -10,7 +10,7 @@ Returns the cache policy for the user.
   
 ```cpp  
 virtual HTTP_CACHE_POLICY* GetUserCachePolicy(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

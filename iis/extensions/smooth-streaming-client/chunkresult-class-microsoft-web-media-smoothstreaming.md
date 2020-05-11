@@ -31,10 +31,10 @@ Contains all the result information for the [BeginGetChunk](trackinfo-begingetch
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  Microsoft.Web.Media.SmoothStreaming..::..ChunkResult  
+  Microsoft.Web.Media.SmoothStreaming..::..ChunkResult  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

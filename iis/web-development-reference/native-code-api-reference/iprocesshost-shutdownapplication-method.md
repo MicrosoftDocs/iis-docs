@@ -10,7 +10,7 @@ Terminates the specified application.
   
 ```cpp  
 virtual HRESULT __stdcall ShutdownApplication(  
-   LPCWSTR appId  
+   LPCWSTR appId  
 ) = 0;  
 ```  
   

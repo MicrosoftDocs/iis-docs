@@ -13,10 +13,12 @@ mtps_version: v=VS.90
 The head element is a container for presentation-level metadata.
 
 [IIS Smooth Streaming Server Manifest (Live) - smil Element](iis-smooth-streaming-server-manifest-live-smil-element.md)  
-  [IIS Smooth Streaming Server Manifest (Live) - head Element](iis-smooth-streaming-server-manifest-live-head-element.md)  
+  [IIS Smooth Streaming Server Manifest (Live) - head Element](iis-smooth-streaming-server-manifest-live-head-element.md)  
 
-    <head>
-    </head>
+```xml
+<head>
+</head>
+```
 
 ## Attributes and Elements
 

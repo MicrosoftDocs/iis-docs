@@ -10,8 +10,8 @@ Creates a new compression context.
   
 ```cpp  
 HRESULT WINAPI CreateCompression(  
-   OUT PVOID* context,  
-   IN ULONG reserved  
+   OUT PVOID* context,  
+   IN ULONG reserved  
 );  
 ```  
   

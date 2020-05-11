@@ -10,10 +10,10 @@ Returns preload information (such as site ID and virtual path) for an applicatio
   
 ```cpp  
 virtual HRESULT GetApplicationPreloadInfo(  
-   IN PCWSTR pszConfigPath,  
-   OUT BOOL* pfEnabled,  
-   OUT BSTR* pbstrType,  
-   OUT SAFEARRAY** psaPreloadValues  
+   IN PCWSTR pszConfigPath,  
+   OUT BOOL* pfEnabled,  
+   OUT BSTR* pbstrType,  
+   OUT SAFEARRAY** psaPreloadValues  
 ) = 0;  
 ```  
   

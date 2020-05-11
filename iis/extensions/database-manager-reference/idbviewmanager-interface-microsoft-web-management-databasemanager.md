@@ -28,8 +28,8 @@ product_family_name: VS
 
 Represents a view manager interface within a database provider.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -66,8 +66,6 @@ The IDbViewManager type exposes the following members.
 ## Remarks
 
 In order to manage views, you need to implement IDbViewManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md). This interface allows to create, modify, and delete views.
-
-### 
 
 ### Notes for Implementers
 

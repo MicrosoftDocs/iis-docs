@@ -10,9 +10,9 @@ Retrieves metadata about a website given its name and URL.
   
 ```cpp  
 virtual HRESULT GetMetadata(  
-   _In_ PCWSTR                 pszSiteName,  
-   _In_ PCWSTR                 pszUrl,  
-   _Outptr_ IReferencedMetadataInfo  ** ppMetadataInfo  
+   _In_ PCWSTR                 pszSiteName,  
+   _In_ PCWSTR                 pszUrl,  
+   _Outptr_ IReferencedMetadataInfo  ** ppMetadataInfo  
     ) = 0;  
 ```  
   

@@ -10,11 +10,11 @@ Gets the type name of a class that represents the current configuration section.
   
 ```cpp  
 HRESULT get_Type(  
-   [out,  
-   retval] BSTR* pbstrType  
+   [out,  
+   retval] BSTR* pbstrType  
 );  
 HRESULT put_Type(  
-   BSTR bstrType  
+   BSTR bstrType  
 );  
 ```  
   

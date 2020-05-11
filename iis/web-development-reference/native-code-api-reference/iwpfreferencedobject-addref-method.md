@@ -10,7 +10,7 @@ Increments the reference count for the [IWpfReferencedObject](../../web-developm
   
 ```cpp  
 virtual ULONG AddRef(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

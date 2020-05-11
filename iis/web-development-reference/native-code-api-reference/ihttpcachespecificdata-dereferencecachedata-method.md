@@ -10,7 +10,7 @@ Decrements the internal reference count for the cached data.
   
 ```cpp  
 virtual VOID DereferenceCacheData(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

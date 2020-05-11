@@ -10,7 +10,7 @@ Raises a trace event for the trace context.
   
 ```cpp  
 virtual HRESULT RaiseTraceEvent(  
-   IN HTTP_TRACE_EVENT* pTraceEvent   
+   IN HTTP_TRACE_EVENT* pTraceEvent   
 ) = 0;  
 ```  
   

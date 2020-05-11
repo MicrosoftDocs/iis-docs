@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **Attributes** property gets the attributes of the physical playlist file.
 
-    RESULT Attributes( [out, retval] DWORD *pdwAttributes);
+```cpp
+RESULT Attributes( [out, retval] DWORD *pdwAttributes);
+```
 
 ## Arguments
 

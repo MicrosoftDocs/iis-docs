@@ -26,17 +26,19 @@ The examples in this topic extend the sample created in the topic [Silverlight A
 
 The [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event occurs when a media stream that has been playing ends. To catch and respond to the [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event, define a delegate as shown in the following code segment and add it to the MainPage() constructor of the sample in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). The += assignment creates a new [RoutedEventHandler](https://msdn.microsoft.com/library/system.windows.routedeventhandler.aspx) and names it SmoothPlayer\_MediaEnded.
 
-    SmoothPlayer.MediaEnded += new RoutedEventHandler(SmoothPlayer_MediaEnded);
+```csharp
+SmoothPlayer.MediaEnded += new RoutedEventHandler(SmoothPlayer_MediaEnded);
+```
 
 The following code shows the SmoothPlayer\_MediaEnded delegate method that handles the [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event. In this case, when the event occurs, the handler simply displays text in an output block beneath the player display. The current state of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) is obtained and appended to the text by casting the sender parameter to [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) and by reading the CurrentState()()()() property. The caption of **Play** is reset.
 
-``` 
-  void SmoothPlayer_MediaEnded(object sender, RoutedEventArgs e)
-  {
-      OutputText.Text = "Media Ended. SmoothPlayer CurrentState: " +
-                      ((SmoothStreamingMediaElement)sender).CurrentState;
-      PlayButton.Content = "Play";
-  }
+```csharp
+void SmoothPlayer_MediaEnded(object sender, RoutedEventArgs e)
+{
+    OutputText.Text = "Media Ended. SmoothPlayer CurrentState: " +
+                    ((SmoothStreamingMediaElement)sender).CurrentState;
+    PlayButton.Content = "Play";
+}
 ```
 
 ## Position Property and Seek Completed Event
@@ -45,45 +47,45 @@ You can assign the [Position](smoothstreamingmediaelement-position-property-micr
 
 To implement a button that will seek to a new position, add the following line to MainPage.xaml of the sample application implemented in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). Add the SeekButton specification after the StopButton and before the ComboBox.
 
-``` 
-  <Button x:Name="SeekButton" Width="50" Content="+5 Secs" Click="SeekButton_Click" />
+```xaml
+<Button x:Name="SeekButton" Width="50" Content="+5 Secs" Click="SeekButton_Click" />
 ```
 
 Add a variable to the MainPage class to specify the time interval that will be added to the position on each seek operation.
 
-``` 
-  TimeSpan spanAdd = new TimeSpan(0,0,5); // Five second inteval.
+```csharp
+TimeSpan spanAdd = new TimeSpan(0,0,5); // Five second inteval.
 ```
 
 Each time the user clicks SeekButton, the following event handler adds a five-second interval to the position property until the current position plus 5 seconds is greater than the length of the media stream as specified by the [EndPosition](smoothstreamingmediaelement-endposition-property-microsoft-web-media-smoothstreaming_1.md) property.
 
-``` 
-  private void SeekButton_Click(object sender, RoutedEventArgs e)
-  {
-      if ((SmoothPlayer.Position + spanAdd) < SmoothPlayer.EndPosition)
-      {
-          SmoothPlayer.Position += spanAdd;
-      }
-  }
+```csharp
+private void SeekButton_Click(object sender, RoutedEventArgs e)
+{
+    if ((SmoothPlayer.Position + spanAdd) < SmoothPlayer.EndPosition)
+    {
+        SmoothPlayer.Position += spanAdd;
+    }
+}
 ```
 
 ### Seek Completed Event
 
 The [SeekCompleted](smoothstreamingmediaelement-seekcompleted-event-microsoft-web-media-smoothstreaming_1.md) event occurs when the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) set operation started by the previous code completes. Create a delegate to catch this event by adding the following code to the MainPage() constructor.
 
-``` 
-  SmoothPlayer.SeekCompleted += 
-       new EventHandler<SeekCompletedEventArgs>(SmoothPlayer_SeekCompleted);
+```csharp
+SmoothPlayer.SeekCompleted +=
+      new EventHandler<SeekCompletedEventArgs>(SmoothPlayer_SeekCompleted);
 ```
 
 This is a generic event handler that specifies the type [SeekCompletedEventArgs](seekcompletedeventargs-class-microsoft-web-media-smoothstreaming_1.md). The handler method is named SmoothPlayer\_SeekCompleted. The method simply displays the new position to an output text block.
 
-``` 
-  void SmoothPlayer_SeekCompleted(object sender, SeekCompletedEventArgs e)
-  {
-      OutputText.Text = "  Seek complete at: " +
-                 ((SmoothStreamingMediaElement)sender).Position;
-  }
+```csharp
+void SmoothPlayer_SeekCompleted(object sender, SeekCompletedEventArgs e)
+{
+    OutputText.Text = "  Seek complete at: " +
+                ((SmoothStreamingMediaElement)sender).Position;
+}
 ```
 
 > [!NOTE]  
@@ -97,17 +99,19 @@ The [SmoothStreamingErrorOccurred](smoothstreamingmediaelement-smoothstreaminger
 
 Assign a delegate to handle the event.
 
-    SmoothPlayer.SmoothStreamingErrorOccurred += 
-      new EventHandler<SmoothStreamingErrorEventArgs>(SmoothPlayer_SmoothStreamingErrorOccurred);
+```csharp
+SmoothPlayer.SmoothStreamingErrorOccurred +=
+  new EventHandler<SmoothStreamingErrorEventArgs>(SmoothPlayer_SmoothStreamingErrorOccurred);
+```
 
 Implement the delegate.
 
-``` 
-  void SmoothPlayer_SmoothStreamingErrorOccurred(object sender, 
-                                  SmoothStreamingErrorEventArgs e)
-  {
-        OutputText.Text = "Error: " + e.ErrorCode + "; " + e.ErrorMessage;
-  }
+```csharp
+void SmoothPlayer_SmoothStreamingErrorOccurred(object sender,
+                                SmoothStreamingErrorEventArgs e)
+{
+      OutputText.Text = "Error: " + e.ErrorCode + "; " + e.ErrorMessage;
+}
 ```
 
 This handler displays the error code and message to a text block. A full application should implement error-handling logic so that processing does not hang if an exception occurs.

@@ -70,7 +70,7 @@ The [CircularList\< (Of \< ( \<'T\> ) \> ) \>](circularlist-t-class-microsoft-we
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TrimExcess](https://msdn.microsoft.com/library/ms132207)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TrueForAll](https://msdn.microsoft.com/library/kdxe4x4w)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
 
-## Explicit Interface Implementations
+## Explicit Interface Implementations
 
 ||Name|Description|
 |--- |--- |--- |

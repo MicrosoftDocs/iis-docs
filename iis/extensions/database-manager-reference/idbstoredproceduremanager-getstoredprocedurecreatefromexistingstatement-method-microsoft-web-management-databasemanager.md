@@ -28,8 +28,8 @@ product_family_name: VS
 
 Returns the CREATE PROCEDURE definition for a new stored procedure that is based on an existing stored procedure.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -101,8 +101,6 @@ A [Query](query-class-microsoft-web-management-databasemanager.md) object that c
 
 All database providers that implement the [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetStoredProcedureCreateFromExistingStatement method, which returns a [Query](query-class-microsoft-web-management-databasemanager.md) object that contains the CREATE PROCEDURE statement for your database provider, and uses an existing stored procedure as a template.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support creating stored procedures, you can use the following code sample to raise a not-implemented exception:
@@ -111,7 +109,7 @@ public Query GetStoredProcedureCreateFromExistingStatement(string connectionStri
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

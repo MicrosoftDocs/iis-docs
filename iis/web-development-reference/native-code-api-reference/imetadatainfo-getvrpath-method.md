@@ -10,7 +10,7 @@ Retrieves the physical path for a virtual directory within the current context.
   
 ```cpp  
 virtual PCWSTR GetVrPath(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

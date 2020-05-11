@@ -10,7 +10,7 @@ Returns the custom header values for the cache policy.
   
 ```cpp  
 virtual PCSTR GetVaryByHeaders(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

@@ -10,7 +10,7 @@ Provides access to a custom method that is optionally supported on an [IAppHostE
   
 ```cpp  
 HRESULT CreateInstance(  
-   [out, retval] IAppHostMethodInstance ** ppMethodInstance  
+   [out, retval] IAppHostMethodInstance ** ppMethodInstance  
 );  
 ```  
   

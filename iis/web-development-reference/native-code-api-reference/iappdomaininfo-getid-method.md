@@ -10,7 +10,7 @@ Retrieves the application domain ID.
   
 ```cpp  
 virtual HRESULT __stdcall GetId(  
-   BSTR* pbstrAppDomainId  
+   BSTR* pbstrAppDomainId  
 ) = 0;  
 ```  
   

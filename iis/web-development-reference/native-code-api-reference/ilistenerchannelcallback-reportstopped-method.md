@@ -10,7 +10,7 @@ Notifies the worker process framework that a listener channel has shut down.
   
 ```cpp  
 virtual HRESULT __stdcall ReportStopped(  
-   HRESULT hr  
+   HRESULT hr  
 ) = 0;  
 ```  
   

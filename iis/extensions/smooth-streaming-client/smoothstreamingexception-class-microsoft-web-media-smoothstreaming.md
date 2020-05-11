@@ -31,11 +31,11 @@ Class to contain Smooth Streaming exception information.
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
-    Microsoft.Web.Media.SmoothStreaming..::..SmoothStreamingException  
+  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
+    Microsoft.Web.Media.SmoothStreaming..::..SmoothStreamingException  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
@@ -99,16 +99,20 @@ The [SmoothStreamingErrorOccurred](smoothstreamingmediaelement-smoothstreaminger
 
 Assign the delegate.
 
-    SmoothPlayer.SmoothStreamingErrorOccurred += 
-      new EventHandler<SmoothStreamingErrorEventArgs>(SmoothPlayer_SmoothStreamingErrorOccurred);
+```csharp
+SmoothPlayer.SmoothStreamingErrorOccurred +=
+  new EventHandler<SmoothStreamingErrorEventArgs>(SmoothPlayer_SmoothStreamingErrorOccurred);
+```
 
 Define the handler.
 
-    void SmoothPlayer_SmoothStreamingErrorOccurred(object sender, 
-                                      SmoothStreamingErrorEventArgs e)
-       {
-            MessageBox.Show("Error: " + e.ErrorCode + "; " + e.ErrorMessage);
-        }
+```csharp
+void SmoothPlayer_SmoothStreamingErrorOccurred(object sender,
+                                              SmoothStreamingErrorEventArgs e)
+{
+    MessageBox.Show("Error: " + e.ErrorCode + "; " + e.ErrorMessage);
+}
+```
 
 This handler displays the error code and message to a text block. You can implement error-handling logic so that the application does not hang if an exception occurs.
 

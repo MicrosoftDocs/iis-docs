@@ -28,8 +28,8 @@ product_family_name: VS
 
 Returns the ALTER PROCEDURE statement for a stored procedure.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -86,7 +86,7 @@ function GetStoredProcedureEditStatement(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the stored procedure.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
@@ -103,8 +103,6 @@ A [Query](query-class-microsoft-web-management-databasemanager.md) object that c
 
 All database providers that implement the [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetStoredProcedureEditStatement method, which returns an ALTER PROCEDURE statement for your database provider.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support editing stored procedures, you can use the following code sample to raise a not-implemented exception:
@@ -113,7 +111,7 @@ public Query GetStoredProcedureEditStatement(string connectionString, string sch
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

@@ -10,8 +10,8 @@ Retrieves the client certificate associated with the request.
   
 ```cpp  
 HRESULT GetClientCertificate(  
-   OUT HTTP_SSL_CLIENT_CERT_INFO** ppClientCertInfo,  
-   OUT BOOL* pfClientCertNegotiated  
+   OUT HTTP_SSL_CLIENT_CERT_INFO** ppClientCertInfo,  
+   OUT BOOL* pfClientCertNegotiated  
 );  
 ```  
   

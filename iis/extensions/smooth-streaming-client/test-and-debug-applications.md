@@ -28,19 +28,21 @@ For security reasons, Silverlight restricts data access to sources that run on t
 
 Applications can implement cross-domain access to Smooth Streaming media data. For example, you can debug a Silverlight application, running on the ASP.NET Development Server, that gets Smooth Streaming media data from another domain or port. To debug this way, the following specification must be in a file named ClientAccessPolicy.xml in the root folder of the IIS Web site that hosts Smooth Streaming data.
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <access-policy>
-        <cross-domain-access>
-            <policy>
-                <allow-from http-request-headers="*">
-                    <domain uri="*"/>
-                </allow-from>
-                <grant-to>
-                    <resource path="/" include-subpaths="true"/>
-                </grant-to>
-            </policy>
-        </cross-domain-access>
-    </access-policy>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<access-policy>
+    <cross-domain-access>
+        <policy>
+            <allow-from http-request-headers="*">
+                <domain uri="*"/>
+            </allow-from>
+            <grant-to>
+                <resource path="/" include-subpaths="true"/>
+            </grant-to>
+        </policy>
+    </cross-domain-access>
+</access-policy>
+```
 
 ## Attach to Process and Debug
 

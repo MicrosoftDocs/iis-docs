@@ -10,9 +10,9 @@ Gets the element at the requested index in the current collection.
   
 ```cpp  
 HRESULT Item(  
-   [in] VARIANT cIndex,  
-   [out,  
-   retval] IAppHostElement** ppElement  
+   [in] VARIANT cIndex,  
+   [out,  
+   retval] IAppHostElement** ppElement  
 );  
 ```  
   

@@ -10,8 +10,8 @@ This method is not supported.
   
 ```cpp  
 virtual HRESULT SetScriptName(  
-   PCWSTR pszScriptName,  
-   DWORD cchScriptName  
+   PCWSTR pszScriptName,  
+   DWORD cchScriptName  
 ) = 0;  
 ```  
   

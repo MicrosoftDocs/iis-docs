@@ -10,7 +10,7 @@ Returns the security identifier for a user.
   
 ```cpp  
 virtual PSID GetSid(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

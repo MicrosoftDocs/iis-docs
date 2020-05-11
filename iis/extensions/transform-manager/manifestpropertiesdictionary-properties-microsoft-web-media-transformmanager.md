@@ -24,7 +24,7 @@ The [ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Prefix](manifestpropertiesdictionary-prefix-property-microsoft-web-media-transformmanager.md)|Gets or sets the value from the prefix attribute of the XML element.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Values](https://msdn.microsoft.com/library/ekcfxy3x)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 
-## Explicit Interface Implementations
+## Explicit Interface Implementations
 
 ||Name|Description|
 |--- |--- |--- |

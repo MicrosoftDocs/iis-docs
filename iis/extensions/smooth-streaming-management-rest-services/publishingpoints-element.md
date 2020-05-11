@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 The URL of a Live Smooth Streaming publishing point.
 
-    <PublishingPoints>
-      <PublishingPoint />
-    </PublishingPoints>
+```xml
+<PublishingPoints>
+  <PublishingPoint />
+</PublishingPoints>
+```
 
 ### Child Elements
 

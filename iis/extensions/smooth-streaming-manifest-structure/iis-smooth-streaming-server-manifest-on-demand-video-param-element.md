@@ -14,7 +14,9 @@ The video param element specifies a single parameter for the video.
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - video param Element](iis-smooth-streaming-server-manifest-on-demand-video-param-element.md)  
 
-    <param name="parameter name" value="value" valuetype="data type" />
+```xml
+<param name="parameter name" value="value" valuetype="data type" />
+```
 
 ## Attributes and Elements
 

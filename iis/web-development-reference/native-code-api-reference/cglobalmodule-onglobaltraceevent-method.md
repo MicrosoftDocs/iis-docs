@@ -10,7 +10,7 @@ Represents the method that will handle a `GlobalTraceEvent` event, which occurs 
   
 ```cpp  
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalTraceEvent(  
-   IN IGlobalTraceEventProvider* pProvider  
+   IN IGlobalTraceEventProvider* pProvider  
 );  
 ```  
   

@@ -10,8 +10,8 @@ Gets the contents of the line before the line in the configuration file that cau
   
 ```cpp  
 HRESULT get_PreErrorLine(  
-   [out,  
-   retval] BSTR* pbstrPreErrorLine  
+   [out,  
+   retval] BSTR* pbstrPreErrorLine  
 );  
 ```  
   

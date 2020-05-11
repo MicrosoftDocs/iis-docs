@@ -10,8 +10,8 @@ Gets the number of [IAppHostPropertySchema Interface](../../web-development-refe
   
 ```cpp  
 [propget] HRESULT Count(  
-   [out,  
-   retval] DWORD * pcCount  
+   [out,  
+   retval] DWORD * pcCount  
 );  
 ```  
   

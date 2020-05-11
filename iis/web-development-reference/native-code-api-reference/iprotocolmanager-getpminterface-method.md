@@ -10,8 +10,8 @@ Retrieves a defined interface from a protocol manager.
   
 ```cpp  
 virtual HRESULT GetPmInterface(  
-   IN PM_INTERFACE_ID_ENUM PmInterfaceId,  
-   OUT PVOID* ppInterface  
+   IN PM_INTERFACE_ID_ENUM PmInterfaceId,  
+   OUT PVOID* ppInterface  
 ) = 0;  
 ```  
   

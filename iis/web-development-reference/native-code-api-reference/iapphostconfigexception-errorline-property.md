@@ -10,8 +10,8 @@ Gets the contents of line in the configuration file that caused the current exce
   
 ```cpp  
 HRESULT get_ErrorLine(  
-   [out,  
-   retval] BSTR* pbstrErrorLine  
+   [out,  
+   retval] BSTR* pbstrErrorLine  
 );  
 ```  
   

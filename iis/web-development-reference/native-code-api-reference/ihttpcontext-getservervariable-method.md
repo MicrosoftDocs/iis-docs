@@ -10,14 +10,14 @@ Retrieves a specific server variable.
   
 ```cpp  
 virtual HRESULT GetServerVariable(  
-   PCSTR pszVariableName,  
-   PCWSTR * ppszValue,  
-   DWORD * pcchValueLength  
+   PCSTR pszVariableName,  
+   PCWSTR * ppszValue,  
+   DWORD * pcchValueLength  
 ) = 0;  
 virtual HRESULT GetServerVariable(  
-   PCSTR   pszVariableName,  
-   PCSTR * ppszValue,  
-   DWORD * pcchValueLength  
+   PCSTR   pszVariableName,  
+   PCSTR * ppszValue,  
+   DWORD * pcchValueLength  
 ) = 0;  
 ```  
   

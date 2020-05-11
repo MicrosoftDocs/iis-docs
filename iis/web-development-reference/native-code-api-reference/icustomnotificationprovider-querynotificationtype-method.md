@@ -10,7 +10,7 @@ Returns the unique identifier for a custom notification provider.
   
 ```cpp  
 virtual PCWSTR QueryNotificationType(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -10,9 +10,9 @@ Retrieves the close status code for the connection.
   
 ```cpp  
 virtual HRESULT GetCloseStatus(  
-   _Out_ USHORT* pStatusCode,  
-   _Out_ BYTE** ppbReason = NULL,  
-   _Out_ USHORT* pcbReason = NULL  
+   _Out_ USHORT* pStatusCode,  
+   _Out_ BYTE** ppbReason = NULL,  
+   _Out_ USHORT* pcbReason = NULL  
 ) = 0;  
 ```  
   

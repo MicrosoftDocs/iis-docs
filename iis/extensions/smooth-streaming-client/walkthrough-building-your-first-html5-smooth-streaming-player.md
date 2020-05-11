@@ -32,7 +32,7 @@ The walkthrough illustrates the following tasks:
 
 - Either Visual Studio 2012 or Visual Studio Express 2012 for Windows 8.
 
-- The [Microsoft Smooth Streaming Client SDK for Windows 8](https://go.microsoft.com/fwlink/?linkid=246146&clcid=0x409).
+- The [Microsoft Smooth Streaming Client SDK for Windows 8](https://go.microsoft.com/fwlink/?linkid=246146&clcid=0x409).
 
 ## Creating a JavaScript Windows 8 Project
 

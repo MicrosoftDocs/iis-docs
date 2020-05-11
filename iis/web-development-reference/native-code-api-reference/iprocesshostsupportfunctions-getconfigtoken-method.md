@@ -10,8 +10,8 @@ Retrieves a Windows security token for the specified application’s root direct
   
 ```cpp  
 virtual HRESULT __stdcall GetConfigToken(  
-   LPCWSTR appId,  
-   HANDLE* pToken  
+   LPCWSTR appId,  
+   HANDLE* pToken  
 ) = 0;  
 ```  
   

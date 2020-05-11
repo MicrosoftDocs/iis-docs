@@ -10,7 +10,7 @@ Retrieves the module context container for a file monitor interface.
   
 ```cpp  
 virtual IHttpModuleContextContainer* GetModuleContextContainer(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

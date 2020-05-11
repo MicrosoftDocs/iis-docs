@@ -10,7 +10,7 @@ Determines whether a Web client is still connected to the current request.
   
 ```cpp  
 virtual BOOL IsConnected(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

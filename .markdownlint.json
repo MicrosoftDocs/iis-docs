@@ -17,7 +17,6 @@
     "MD027": false,
     "MD028": false,
     "MD029": false,
-    "MD031": false,
     "MD033": {
         "allowed_elements": [
             "a",
@@ -83,5 +82,7 @@
     "MD040": false,
     "MD041": false,
     "MD045": false,
-    "MD046": false
+    "MD046": {
+        "style": "fenced"
+    }
 }

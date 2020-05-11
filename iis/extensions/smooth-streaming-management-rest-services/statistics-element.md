@@ -12,36 +12,38 @@ mtps_version: v=VS.90
 
 Represents the running statistics for an active Live Smooth Streaming publishing point instance.
 
-    <Statistics>
-      <InputStreams>
-        <InputStream>
-          <State />
-          <ArchiveFileName />
-          <Sources>
-            <Source />
-          </Sources>
-          <Sinks>
-            <Sink />
-          </Sinks>
-          <Tracks>
-            <Track>
-              <Name />
-              <EncodedBitRate />
-              <IncomingBitRate />
-              <IncomingFragmentWaitTime />
-              <IncomingFragmentTimeStamp />
-              <IncomingFragmentDuration />
-              <RequestRate />
-            </Track>
-          </Tracks>
-        </InputStream>
-      </InputStreams>
-      <OutputStreams>
-        <OutputStream>
-          <LastOutputFragmentTimestamp />
-        </OutputStream>
-      </OutputStreams>
-    </ Statistics>
+```xml
+<Statistics>
+  <InputStreams>
+    <InputStream>
+      <State />
+      <ArchiveFileName />
+      <Sources>
+        <Source />
+      </Sources>
+      <Sinks>
+        <Sink />
+      </Sinks>
+      <Tracks>
+        <Track>
+          <Name />
+          <EncodedBitRate />
+          <IncomingBitRate />
+          <IncomingFragmentWaitTime />
+          <IncomingFragmentTimeStamp />
+          <IncomingFragmentDuration />
+          <RequestRate />
+        </Track>
+      </Tracks>
+    </InputStream>
+  </InputStreams>
+  <OutputStreams>
+    <OutputStream>
+      <LastOutputFragmentTimestamp />
+    </OutputStream>
+  </OutputStreams>
+</Statistics>
+```
 
 ### Child Elements
 

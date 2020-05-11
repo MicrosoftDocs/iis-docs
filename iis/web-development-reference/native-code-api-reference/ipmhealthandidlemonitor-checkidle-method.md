@@ -10,7 +10,7 @@ Enables the worker process framework to request whether all the listener channel
   
 ```cpp  
 virtual HRESULT CheckIdle(  
-   OUT BOOL* pfIdle  
+   OUT BOOL* pfIdle  
 ) = 0;  
 ```  
   

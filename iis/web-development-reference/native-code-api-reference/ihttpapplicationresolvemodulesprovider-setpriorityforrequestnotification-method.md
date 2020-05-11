@@ -10,9 +10,9 @@ Sets the request-level priority for a specific module.
   
 ```cpp  
 virtual HRESULT SetPriorityForRequestNotification(  
-   IN PCWSTR pszModuleName,  
-   IN DWORD dwRequestNotification,  
-   IN PCWSTR pszPriorityAlias  
+   IN PCWSTR pszModuleName,  
+   IN DWORD dwRequestNotification,  
+   IN PCWSTR pszPriorityAlias  
 ) = 0;  
 ```  
   

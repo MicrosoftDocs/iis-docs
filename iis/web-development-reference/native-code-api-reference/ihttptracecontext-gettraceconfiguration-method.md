@@ -10,7 +10,7 @@ Returns the trace configuration for the trace context.
   
 ```cpp  
 virtual HRESULT GetTraceConfiguration(  
-   IN OUT HTTP_TRACE_CONFIGURATION* pHttpTraceConfiguration  
+   IN OUT HTTP_TRACE_CONFIGURATION* pHttpTraceConfiguration  
 ) = 0;  
 ```  
   

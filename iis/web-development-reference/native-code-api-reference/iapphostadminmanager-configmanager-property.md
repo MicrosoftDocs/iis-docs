@@ -10,8 +10,8 @@ Gets an [IAppHostConfigManager](../../web-development-reference/native-code-api-
   
 ```cpp  
 HRESULT get_ConfigManager(  
-   [out,  
-   retval] IAppHostConfigManager** ppConfigManager  
+   [out,  
+   retval] IAppHostConfigManager** ppConfigManager  
 );  
 ```  
   

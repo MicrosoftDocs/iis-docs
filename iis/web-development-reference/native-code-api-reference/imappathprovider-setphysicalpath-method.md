@@ -10,8 +10,8 @@ Sets the physical path mapping for the current request.
   
 ```cpp  
 virtual HRESULT SetPhysicalPath(  
-   PCWSTR pszPhysicalPath,  
-   DWORD cchPhysicalPath  
+   PCWSTR pszPhysicalPath,  
+   DWORD cchPhysicalPath  
 ) = 0;  
 ```  
   

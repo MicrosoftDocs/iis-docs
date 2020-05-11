@@ -13,10 +13,12 @@ mtps_version: v=VS.90
 The video element specifies a single track of video data.
 
 [IIS Smooth Streaming Server Manifest (Live) - switch Element](iis-smooth-streaming-server-manifest-live-switch-element.md)  
-  [IIS Smooth Streaming Server Manifest (Live) - video param Element](iis-smooth-streaming-server-manifest-live-video-param-element.md)  
+  [IIS Smooth Streaming Server Manifest (Live) - video param Element](iis-smooth-streaming-server-manifest-live-video-param-element.md)  
 
-    <video src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
-    </video>
+```xml
+<video src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
+</video>
+```
 
 ## Attributes and Elements
 

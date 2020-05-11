@@ -10,7 +10,7 @@ Retrieves the user information associated with the original request during async
   
 ```cpp  
 virtual IHttpUser * GetOriginalUser(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

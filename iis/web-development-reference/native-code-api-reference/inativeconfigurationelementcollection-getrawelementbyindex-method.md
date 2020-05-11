@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Returns the number of elements within a collection of native configuration elements.
 
-    virtual HRESULT STDMETHODCALLTYPE GetRawElementCount(
-       ULONG * pcRawElementCount
-    ) = 0;
+```cpp
+virtual HRESULT STDMETHODCALLTYPE GetRawElementCount(
+    ULONG * pcRawElementCount
+) = 0;
+```
 
 ## Parameters
 

@@ -10,7 +10,7 @@ Unregisters the specified custom action callback method.
   
 ```cpp  
 virtual HRESULT UnregisterCustomActionCallback(  
-   IN PCWSTR pszFunctionName  
+   IN PCWSTR pszFunctionName  
 ) = 0;  
 ```  
   

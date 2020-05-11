@@ -10,7 +10,7 @@ Returns the file handle for the corresponding file.
   
 ```cpp  
 virtual HANDLE GetFileHandle(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

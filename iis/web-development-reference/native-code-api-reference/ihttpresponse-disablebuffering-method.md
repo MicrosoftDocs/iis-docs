@@ -10,7 +10,7 @@ Disables response buffering for the current request.
   
 ```cpp  
 virtual VOID DisableBuffering(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **Format** property gets the format in which playlist is requested.
 
-    HRESULT Format( [out,retval] BSTR *pbstrPlaylistFormat );
+```cpp
+HRESULT Format( [out,retval] BSTR *pbstrPlaylistFormat );
+```
 
 ## Arguments
 

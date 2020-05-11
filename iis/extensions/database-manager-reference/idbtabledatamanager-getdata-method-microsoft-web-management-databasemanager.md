@@ -28,8 +28,8 @@ product_family_name: VS
 
 Returns table data as a query result.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -92,7 +92,7 @@ function GetData(
   - schema  
     Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
-    **Note**    If schema is empty, the default schema name will be used.  
+    **Note**    If schema is empty, the default schema name will be used.  
 
 ### Return Value
 
@@ -103,8 +103,6 @@ A [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md) o
 
 All database providers that implement the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetData method. The database manager will use this method to retrieve the data for a table in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support retrieving data, you can use the following code sample to raise a not-implemented exception:
@@ -113,7 +111,7 @@ public QueryResult GetData(string connectionString, string tableName, string sch
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

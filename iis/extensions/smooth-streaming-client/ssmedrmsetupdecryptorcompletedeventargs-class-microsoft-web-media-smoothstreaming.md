@@ -32,12 +32,12 @@ Represents event arguments for a [DrmSetupDecryptorCompleted](smoothstreamingmed
 ## Inheritance Hierarchy
 
  [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
-  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
-    [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9\(v=vs.95\))  
-      Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs  
+  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
+    [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9\(v=vs.95\))  
+      Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 

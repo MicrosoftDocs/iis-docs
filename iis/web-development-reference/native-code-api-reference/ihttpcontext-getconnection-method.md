@@ -10,7 +10,7 @@ Retrieves the connection container for the current context.
   
 ```cpp  
 virtual IHttpConnection* GetConnection(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

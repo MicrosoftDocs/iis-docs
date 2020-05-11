@@ -10,7 +10,7 @@ Sets a value that indicates that the data is cached.
   
 ```cpp  
 virtual VOID SetIsCached(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

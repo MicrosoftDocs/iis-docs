@@ -41,15 +41,15 @@ Set colAppPools = oWebAdmin.ExecQuery("SELECT * FROM ApplicationPool")
   
 ' Return the name of each application pool.  
 For Each oAppPool In colAppPools  
-        WScript.Echo "Application Pool Name: " & oAppPool.Name  
+        WScript.Echo "Application Pool Name: " & oAppPool.Name  
   
-        ' Get all worker processes in the application pool.  
-        Set oProcesses = oAppPool.Associators_("ApplicationPoolContainsProcess")  
+        ' Get all worker processes in the application pool.  
+        Set oProcesses = oAppPool.Associators_("ApplicationPoolContainsProcess")  
   
-        ' Return the ID of each worker process in the application pool.  
-        For Each oProcess In oProcesses  
-                WScript.Echo "Worker Process ID: " & oProcess.ID  
-        Next  
+        ' Return the ID of each worker process in the application pool.  
+        For Each oProcess In oProcesses  
+                WScript.Echo "Worker Process ID: " & oProcess.ID  
+        Next  
 Next  
 ```  
   

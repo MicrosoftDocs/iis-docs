@@ -10,9 +10,9 @@ Resizes and returns the output `BYTE` array.
   
 ```cpp  
 virtual HRESULT ResizeOutputBuffer(  
-   DWORD cbNewBuffer,  
-   DWORD cbBytesToCopy,  
-   IN OUT BYTE** ppbBuffer  
+   DWORD cbNewBuffer,  
+   DWORD cbBytesToCopy,  
+   IN OUT BYTE** ppbBuffer  
 ) = 0;  
 ```  
   

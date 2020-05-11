@@ -10,8 +10,8 @@ Gets the number of configuration sections that are configured for the current co
   
 ```cpp  
 HRESULT Count(  
-   [out,  
-   retval] DWORD* pcCount  
+   [out,  
+   retval] DWORD* pcCount  
 );  
 ```  
   

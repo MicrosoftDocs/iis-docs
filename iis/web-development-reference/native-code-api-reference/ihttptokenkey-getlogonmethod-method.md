@@ -10,7 +10,7 @@ Returns the `LOGON32_*` value used when the user logs on.
   
 ```cpp  
 virtual DWORD GetLogonMethod(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

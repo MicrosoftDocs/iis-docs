@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 The **Item** property gets an [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.md) instance from the current playlist.
 
-    HRESULT
-    Item(
-        [in] DWORD                        dwEntryIndex,
-        [out, retval] IPlaylistEntryInfo  **ppPlaylistEntry
-    );
+```cpp
+HRESULT
+Item(
+    [in] DWORD                        dwEntryIndex,
+    [out, retval] IPlaylistEntryInfo  **ppPlaylistEntry
+);
+```
 
 ## Arguments
 

@@ -10,9 +10,9 @@ Starts an instance of the Hosted Web Core.
   
 ```cpp  
 typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(  
-   IN PCWSTR pszAppHostConfigFile,  
-   IN PCWSTR pszRootWebConfigFile,  
-   IN PCWSTR pszInstanceName  
+   IN PCWSTR pszAppHostConfigFile,  
+   IN PCWSTR pszRootWebConfigFile,  
+   IN PCWSTR pszInstanceName  
 );  
 ```  
   

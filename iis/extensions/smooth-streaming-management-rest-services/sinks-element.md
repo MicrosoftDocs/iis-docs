@@ -12,13 +12,15 @@ mtps_version: v=VS.90
 
 Provides information about how the publishing point delivers live streams to clients and about the type of output.
 
-    <Sinks>
-      <Sink>
-        <Properties>
-          <Property />
-        </Properties>
-      </Sink>
-    </Sinks>
+```xml
+<Sinks>
+  <Sink>
+    <Properties>
+      <Property />
+    </Properties>
+  </Sink>
+</Sinks>
+```
 
 ### Child Elements
 

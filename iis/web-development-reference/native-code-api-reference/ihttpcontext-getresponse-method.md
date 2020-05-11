@@ -10,7 +10,7 @@ Returns the HTTP response container for the current context.
   
 ```cpp  
 virtual IHttpResponse* GetResponse(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

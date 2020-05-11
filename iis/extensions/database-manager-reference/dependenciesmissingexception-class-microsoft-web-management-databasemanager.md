@@ -29,11 +29,11 @@ product_family_name: VS
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
-    Microsoft.Web.Management.DatabaseManager.DependenciesMissingException  
+  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
+    Microsoft.Web.Management.DatabaseManager.DependenciesMissingException  
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 

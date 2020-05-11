@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 Defines a property that is associated with a stream source or destination.
 
-    <Properties>
-      <Property name="propertyname">
-        "propertyvalue"
-      </Property>
-    </Properties>
+```xml
+<Properties>
+  <Property name="propertyname">
+    "propertyvalue"
+  </Property>
+</Properties>
+```
 
 ### Attribute
 

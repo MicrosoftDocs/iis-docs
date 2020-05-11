@@ -10,7 +10,7 @@ Retrieves the application host configuration (.config) file path.
   
 ```cpp  
 virtual HRESULT __stdcall GetAppHostConfigFilename(  
-   BSTR* pbstrPhysicalPath  
+   BSTR* pbstrPhysicalPath  
 ) = 0;  
 ```  
   

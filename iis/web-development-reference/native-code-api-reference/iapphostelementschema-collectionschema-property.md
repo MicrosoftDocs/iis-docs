@@ -10,8 +10,8 @@ Gets the schema of the collection contained in the corresponding [IAppHostElemen
   
 ```cpp  
 [propget] HRESULT CollectionSchema(  
-   [out,  
-   retval] IAppHostCollectionSchema * ppCollectionSchema  
+   [out,  
+   retval] IAppHostCollectionSchema * ppCollectionSchema  
 );  
 ```  
   

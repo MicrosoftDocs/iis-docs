@@ -10,8 +10,8 @@ Represents the method that will handle a `ReadEntity` event, which occurs when a
   
 ```cpp  
 virtual REQUEST_NOTIFICATION_STATUS OnReadEntity(  
-   IN IHttpContext* pHttpContext,  
-   IN IReadEntityProvider* pProvider  
+   IN IHttpContext* pHttpContext,  
+   IN IReadEntityProvider* pProvider  
 );  
 ```  
   

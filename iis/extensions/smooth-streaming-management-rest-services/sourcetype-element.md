@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Indicates how the publishing point consumes the encoder stream (Push or Pull).
 
-    <SourceType>
-      "Push|Pull"
-    </SourceType>
+```xml
+<SourceType>
+  "Push|Pull"
+</SourceType>
+```
 
 ## Child Elements
 

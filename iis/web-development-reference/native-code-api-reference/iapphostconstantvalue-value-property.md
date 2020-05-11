@@ -10,7 +10,7 @@ Gets the integer value of the constant.
   
 ```cpp  
 HRESULT Value(  
-   [out, retval] DWORD * pdwValue  
+   [out, retval] DWORD * pdwValue  
 );  
 ```  
   

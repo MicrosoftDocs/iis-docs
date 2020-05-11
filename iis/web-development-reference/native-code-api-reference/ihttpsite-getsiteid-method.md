@@ -10,7 +10,7 @@ Retrieves the unique ID for the Web site.
   
 ```cpp  
 virtual DWORD GetSiteId(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

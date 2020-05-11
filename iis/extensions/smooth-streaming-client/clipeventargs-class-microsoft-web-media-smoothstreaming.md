@@ -31,12 +31,12 @@ Class used by media clips to pass event argument information that contains an as
 ## Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
-  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3)  
-    Microsoft.Web.Media.SmoothStreaming..::..ClipEventArgs  
-      [Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs](clipplaybackeventargs-class-microsoft-web-media-smoothstreaming_1.md)  
+  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3)  
+    Microsoft.Web.Media.SmoothStreaming..::..ClipEventArgs  
+      [Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs](clipplaybackeventargs-class-microsoft-web-media-smoothstreaming_1.md)  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
@@ -91,10 +91,12 @@ If the user clicks on the [SmoothStreamingMediaElement](smoothstreamingmediaelem
 
 The following delegate opens a new browser window for the ClickThroughUrl()()()().
 
-    void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
-        {
-            System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUrl, "_newWindow");
-        }
+```csharp
+void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
+{
+    System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUrl, "_newWindow");
+}
+```
 
 ## Version Information
 

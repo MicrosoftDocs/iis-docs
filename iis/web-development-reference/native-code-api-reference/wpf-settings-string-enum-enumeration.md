@@ -10,10 +10,10 @@ Defines the `string` values that the [IWpfSettings::GetStringProperty](../../web
   
 ```cpp  
 enum WPF_SETTINGS_STRING_ENUM {  
-   CLR_VERSION,  
-   APP_POOL_NAME,  
-   APP_HOST_FILE_NAME,  
-   ROOT_WEB_CONFIG_FILE_NAME  
+   CLR_VERSION,  
+   APP_POOL_NAME,  
+   APP_HOST_FILE_NAME,  
+   ROOT_WEB_CONFIG_FILE_NAME  
 };  
 ```  
   

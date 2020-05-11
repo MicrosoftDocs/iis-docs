@@ -28,8 +28,8 @@ product_family_name: VS
 
 Represents a database restore manager interface.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -63,8 +63,6 @@ The IDbRestoreManager type exposes the following members.
 ## Remarks
 
 In order to implement database restore features in your database provider, you need to implement IDbRestoreManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md).
-
-### 
 
 ### Notes for Implementers
 

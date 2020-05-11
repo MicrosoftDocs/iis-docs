@@ -10,10 +10,10 @@ Gets metadata values from the [!INCLUDE[iisver](../../wmi-provider/includes/iisv
   
 ```cpp  
 HRESULT GetMetadata(  
-   [in,  
-   string] BSTR bstrMetadataType,  
-   [out,  
-   retval] VARIANT* pValue  
+   [in,  
+   string] BSTR bstrMetadataType,  
+   [out,  
+   retval] VARIANT* pValue  
 );  
 ```  
   

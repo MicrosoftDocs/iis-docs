@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 Deletes a configuration element from a collection of native configuration elements.
 
-    virtual HRESULT STDMETHODCALLTYPE DeleteRawCollectionElement(
-       ULONG ulPosition,
-       VOID ** ppElementException = NULL
-    ) = 0;
+```cpp
+virtual HRESULT STDMETHODCALLTYPE DeleteRawCollectionElement(
+    ULONG ulPosition,
+    VOID ** ppElementException = NULL
+) = 0;
+```
 
 ## Parameters
 

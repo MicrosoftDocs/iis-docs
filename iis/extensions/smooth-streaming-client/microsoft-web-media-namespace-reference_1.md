@@ -10,7 +10,7 @@ mtps_version: v=VS.95
 
 # Microsoft.Web.Media Namespace Reference
 
-This section contains reference information related to Microsoft Smooth Streaming Client 2.0.
+This section contains reference information related to Microsoft Smooth Streaming Client 2.0.
 
 ## In This Section
 

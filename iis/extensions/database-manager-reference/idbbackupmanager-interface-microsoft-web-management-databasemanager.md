@@ -28,8 +28,8 @@ product_family_name: VS
 
 Represents a database backup manager interface.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -63,8 +63,6 @@ The IDbBackupManager type exposes the following members.
 ## Remarks
 
 In order to implement database backup features in your database provider, you need to implement IDbBackupManager on the class that you derived from the [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md) method.
-
-### 
 
 ### Notes for Implementers
 

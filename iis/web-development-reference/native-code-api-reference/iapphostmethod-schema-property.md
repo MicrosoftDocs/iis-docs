@@ -10,8 +10,8 @@ Gets the schema assigned to the current method.
   
 ```cpp  
 HRESULT Schema(  
-   [out,  
-   retval] IAppHostMethodSchema ** ppMethodSchema  
+   [out,  
+   retval] IAppHostMethodSchema ** ppMethodSchema  
 );  
 ```  
   

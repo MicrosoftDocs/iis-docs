@@ -10,8 +10,8 @@ Gets a string that describes how the corresponding property should be formatted 
   
 ```cpp  
 [propget] HRESULT TimeSpanFormat(  
-   [out,  
-   retval] BSTR * pbstrTimeSpanFormat  
+   [out,  
+   retval] BSTR * pbstrTimeSpanFormat  
 );  
 ```  
   

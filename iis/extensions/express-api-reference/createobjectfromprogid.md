@@ -9,11 +9,11 @@ Creates a COM object using the specified ProgID.
 ## Syntax  
   
 ```cpp  
-    HRESULT  
-    CreateObjectFromProgId(  
-        [in, string] BSTR bstrObjectName,  
-        [out, retval] VARIANT * pObject  
-    );  
+    HRESULT  
+    CreateObjectFromProgId(  
+        [in, string] BSTR bstrObjectName,  
+        [out, retval] VARIANT * pObject  
+    );  
   
 ```  
   

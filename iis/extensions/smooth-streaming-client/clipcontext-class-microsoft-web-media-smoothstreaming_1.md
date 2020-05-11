@@ -32,10 +32,10 @@ Context information for a Smooth Streaming media clip. This information is Read-
 ## Inheritance Hierarchy
 
  [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
-  Microsoft.Web.Media.SmoothStreaming.ClipContext  
+  Microsoft.Web.Media.SmoothStreaming.ClipContext  
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
@@ -98,10 +98,12 @@ If the user clicks on the [SmoothStreamingMediaElement](smoothstreamingmediaelem
 
 The following delegate opens a new browser window for the [Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClickThroughUrl](https://msdn.microsoft.com/library/ee532602\(v=vs.95\)).
 
-    void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
-        {
-            System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUrl, "_newWindow");
-        }
+```csharp
+void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
+{
+    System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUrl, "_newWindow");
+}
+```
 
 ## Version Information
 

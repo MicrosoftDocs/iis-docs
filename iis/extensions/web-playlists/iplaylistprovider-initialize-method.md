@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 The **Initialize** method is called once after a playlist provider is instantiated.
 
-    HRESULT
-    Initialize(
-    );
+```cpp
+HRESULT
+Initialize(
+);
+```
 
 ## Return Value
 

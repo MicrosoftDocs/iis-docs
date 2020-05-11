@@ -10,10 +10,10 @@ Gets metadata values from the current element.
   
 ```cpp  
 HRESULT GetMetadata(  
-   [in,  
-   string] BSTR bstrMetadataType,  
-   [out,  
-   retval] VARIANT* pValue  
+   [in,  
+   string] BSTR bstrMetadataType,  
+   [out,  
+   retval] VARIANT* pValue  
 );  
 ```  
   

@@ -10,8 +10,8 @@ Gets or sets the type name of the configuration section group.
   
 ```cpp  
 HRESULT get_Type(  
-   [out,  
-   retval] BSTR* pbstrType  
+   [out,  
+   retval] BSTR* pbstrType  
 );   
 HRESULT put_Type(  
    BSTR bstrType  

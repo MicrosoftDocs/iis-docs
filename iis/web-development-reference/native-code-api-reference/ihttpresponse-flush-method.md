@@ -10,10 +10,10 @@ Sends the existing content in the response buffer to the client.
   
 ```cpp  
 virtual HRESULT Flush(  
-   IN BOOL fAsync,  
-   IN BOOL fMoreData,  
-   OUT DWORD* pcbSent,  
-   OUT BOOL* pfCompletionExpected = NULL  
+   IN BOOL fAsync,  
+   IN BOOL fMoreData,  
+   OUT DWORD* pcbSent,  
+   OUT BOOL* pfCompletionExpected = NULL  
 ) = 0;  
 ```  
   

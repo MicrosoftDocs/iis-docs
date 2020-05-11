@@ -10,9 +10,9 @@ Sets the trace configuration for the trace context.
   
 ```cpp  
 virtual HRESULT SetTraceConfiguration(  
-   IN HTTP_MODULE_ID moduleId,  
-   IN HTTP_TRACE_CONFIGURATION* pHttpTraceConfiguration,  
-   IN DWORD cHttpTraceConfiguration = 1  
+   IN HTTP_MODULE_ID moduleId,  
+   IN HTTP_TRACE_CONFIGURATION* pHttpTraceConfiguration,  
+   IN DWORD cHttpTraceConfiguration = 1  
 ) = 0;)  
 ```  
   

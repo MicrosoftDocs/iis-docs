@@ -10,8 +10,8 @@ Sets the metadata specified.
   
 ```cpp  
 [propget] HRESULT SetMetadata(  
-   [in,string] BSTR bstrMetadataType,  
-   [in] VARIANT value  
+   [in,string] BSTR bstrMetadataType,  
+   [in] VARIANT value  
 );  
 ```  
   

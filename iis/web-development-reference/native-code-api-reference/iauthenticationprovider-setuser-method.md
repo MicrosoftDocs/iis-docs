@@ -10,7 +10,7 @@ Sets the authenticated user on the authentication provider.
   
 ```cpp  
 virtual VOID SetUser(  
-   IHttpUser* pUser  
+   IHttpUser* pUser  
 ) = 0;  
 ```  
   

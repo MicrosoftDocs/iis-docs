@@ -12,8 +12,8 @@ Notifies the listener adapter that the requests-blocked state has changed.
 typedef VOID  
 (*PFN_WEBHOST_LISTENER_APPLICATION_REQUESTS_BLOCKED_CHANGED)(  
    IN VOID* pContext,  
-   IN LPCWSTR AppKey,  
-   IN BOOL RequestsBlocked  
+   IN LPCWSTR AppKey,  
+   IN BOOL RequestsBlocked  
 );  
 ```  
   

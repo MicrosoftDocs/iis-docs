@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Specifies the broadcast duration in the DVR window.
 
-    <WindowLength>
-      "duration"
-    </WindowLength>
+```xml
+<WindowLength>
+  "duration"
+</WindowLength>
+```
 
 ## Child Elements
 

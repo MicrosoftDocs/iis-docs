@@ -12,15 +12,17 @@ mtps_version: v=VS.90
 
 An enumeration provides a list of properties of a playlist.
 
-    typedef [public, uuid(04D0A43E-6B8B-4e4e-9005-C5B00DBF388A) ]
-    enum PLAYLIST_PROPERTY_TYPE
-    {
-    PlaylistProperty_Title = 1,
-    PlaylistProperty_ExtraParam = 2,
-    PlaylistProperty_InactivityTimeout = 3,
-    PlaylistProperty_TimeToLive = 4,
-    PlaylistProperty_LastModifiedTime = 5
-    } PLAYLIST_PROPERTY_TYPE;
+```cpp
+typedef [public, uuid(04D0A43E-6B8B-4e4e-9005-C5B00DBF388A) ]
+enum PLAYLIST_PROPERTY_TYPE
+{
+PlaylistProperty_Title = 1,
+PlaylistProperty_ExtraParam = 2,
+PlaylistProperty_InactivityTimeout = 3,
+PlaylistProperty_TimeToLive = 4,
+PlaylistProperty_LastModifiedTime = 5
+} PLAYLIST_PROPERTY_TYPE;
+```
 
 ## Arguments
 

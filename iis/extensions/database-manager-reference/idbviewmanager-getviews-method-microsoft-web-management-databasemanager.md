@@ -28,8 +28,8 @@ product_family_name: VS
 
 Retrieves a list of views in a database.
 
-**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
-**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
+**Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
@@ -79,8 +79,6 @@ An ICollection object that contains the list of [View](view-class-microsoft-web-
 
 All database providers that implement the [IDbViewManager](idbviewmanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetViews method, which the database manager will use to retrieve a list of views from a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support retrieving the list of views, you can use the following code sample to raise a not-implemented exception:
@@ -89,7 +87,7 @@ public ICollection\<View\> GetViews(string connectionString)
 
 {
 
-   throw new NotImplementedException();
+   throw new NotImplementedException();
 
 }
 

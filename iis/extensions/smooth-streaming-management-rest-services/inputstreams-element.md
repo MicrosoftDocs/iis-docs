@@ -12,29 +12,31 @@ mtps_version: v=VS.90
 
 Provides summary information about the Smooth Streams that are received from all live sources, such as encoders or other Live Smooth Streaming publishing points.
 
-    <InputStreams>
-      <InputStream>
-        <State />
-        <ArchiveFileName />
-        <Sources>
-          <Source />
-        </Sources>
-        <Sinks>
-          <Sink />
-        </Sinks>
-        <Tracks>
-          <Track>
-            <Name />
-            <EncodedBitRate />
-            <IncomingBitRate />
-            <IncomingFragmentWaitTime />
-            <IncomingFragmentTimeStamp />
-            <IncomingFragmentDuration />
-            <RequestRate />
-          </Track>
-        </Tracks>
-      </InputStream>
-    </InputStreams>
+```xml
+<InputStreams>
+  <InputStream>
+    <State />
+    <ArchiveFileName />
+    <Sources>
+      <Source />
+    </Sources>
+    <Sinks>
+      <Sink />
+    </Sinks>
+    <Tracks>
+      <Track>
+        <Name />
+        <EncodedBitRate />
+        <IncomingBitRate />
+        <IncomingFragmentWaitTime />
+        <IncomingFragmentTimeStamp />
+        <IncomingFragmentDuration />
+        <RequestRate />
+      </Track>
+    </Tracks>
+  </InputStream>
+</InputStreams>
+```
 
 ### Child Elements
 

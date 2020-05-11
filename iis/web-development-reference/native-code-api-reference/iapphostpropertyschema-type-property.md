@@ -10,9 +10,9 @@ Gets the data type of the current schema.
   
 ```cpp  
 HRESULT get_Type(  
-   [out,  
-   string,  
-   retval] BSTR* pbstrType  
+   [out,  
+   string,  
+   retval] BSTR* pbstrType  
 );  
 ```  
   

@@ -10,8 +10,8 @@ Determines whether environment variables in a property value should be expanded.
   
 ```cpp  
 HRESULT get_IsExpanded(  
-   [out,  
-   retval] VARIANT_BOOL* pfIsExpanded  
+   [out,  
+   retval] VARIANT_BOOL* pfIsExpanded  
 );  
 ```  
   

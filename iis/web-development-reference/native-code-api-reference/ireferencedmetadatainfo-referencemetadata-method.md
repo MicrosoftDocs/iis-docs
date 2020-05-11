@@ -10,7 +10,7 @@ References the metadata of the current context for later retrieval.
   
 ```cpp  
 virtual VOID ReferenceMetadata(  
-   VOID  
+   VOID  
 ) = 0;  
 ```  
   

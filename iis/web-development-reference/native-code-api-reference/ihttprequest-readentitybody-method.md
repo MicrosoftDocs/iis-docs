@@ -10,11 +10,11 @@ Returns the HTTP request entity body.
   
 ```cpp  
 virtual HRESULT ReadEntityBody(  
-   OUT VOID* pvBuffer,  
-   IN DWORD cbBuffer,  
-   IN BOOL fAsync,  
-   OUT DWORD* pcbBytesReceived,  
-   OUT BOOL* pfCompletionPending = NULL  
+   OUT VOID* pvBuffer,  
+   IN DWORD cbBuffer,  
+   IN BOOL fAsync,  
+   OUT DWORD* pcbBytesReceived,  
+   OUT BOOL* pfCompletionPending = NULL  
 ) = 0;  
 ```  
   

@@ -28,8 +28,8 @@ product_family_name: VS
 
 Downloads, parses, and returns an object that represents the specified external manifest.
 
-**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
-**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
@@ -105,10 +105,11 @@ Applications can call ParseExternalManifest only from the [ManifestMerge](smooth
 
 The ParseExternalManifest method reads XML data from a source identified by the externalManifestUri parameter. To avoid blocking, the millisecondsTimeout parameter sets a timeout interval in milliseconds. The last parameter returns the new parsed data.
 
-    // Out parameter for function.
-      Uri uriExtManifest = new 
-      Uri("http://serverName/BigBuckBunnyCaptions.xml");
-        SmoothPlayer.ParseExternalManifest(uriExtManifest, 3000, out parsedExternManifest);
+```csharp
+// Out parameter for function.
+Uri uriExtManifest = new Uri("http://serverName/BigBuckBunnyCaptions.xml");
+SmoothPlayer.ParseExternalManifest(uriExtManifest, 3000, out parsedExternManifest);
+```
 
 ## Version Information
 

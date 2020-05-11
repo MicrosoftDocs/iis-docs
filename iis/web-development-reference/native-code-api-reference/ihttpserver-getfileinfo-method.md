@@ -10,14 +10,14 @@ Returns an [IHttpFileInfo](../../web-development-reference/native-code-api-refer
   
 ```cpp  
 virtual HRESULT GetFileInfo(  
-   IN PCWSTR pszPhysicalPath,  
-   IN HANDLE hUserToken,  
-   IN PSID pSid,  
-   IN PCWSTR pszVrPath,  
-   IN HANDLE hVrToken,  
-   IN BOOL fCache,  
-   OUT IHttpFileInfo** ppFileInfo,  
-   IN IHttpTraceContext* pHttpTraceContext = NULL  
+   IN PCWSTR pszPhysicalPath,  
+   IN HANDLE hUserToken,  
+   IN PSID pSid,  
+   IN PCWSTR pszVrPath,  
+   IN HANDLE hVrToken,  
+   IN BOOL fCache,  
+   OUT IHttpFileInfo** ppFileInfo,  
+   IN IHttpTraceContext* pHttpTraceContext = NULL  
 ) = 0;  
 ```  
   

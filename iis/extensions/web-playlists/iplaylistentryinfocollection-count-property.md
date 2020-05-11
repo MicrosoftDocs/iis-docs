@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 The **Count** property gets the number of playlist entries in this collection.
 
-    HRESULT
-    Count (
-       [out, retval] DWORD   *pdwEntryCount
-    );
+```cpp
+HRESULT
+Count (
+    [out, retval] DWORD   *pdwEntryCount
+);
+```
 
 ## Arguments
 

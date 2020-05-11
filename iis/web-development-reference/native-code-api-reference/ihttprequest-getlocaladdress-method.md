@@ -10,7 +10,7 @@ Returns the address of the local interface for the current request.
   
 ```cpp  
 virtual PSOCKADDR GetLocalAddress(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   

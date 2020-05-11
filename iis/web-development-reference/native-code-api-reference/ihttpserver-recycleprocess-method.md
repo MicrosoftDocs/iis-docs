@@ -10,7 +10,7 @@ Recycles the worker process that is handling the current request.
   
 ```cpp  
 virtual VOID RecycleProcess(  
-   PCWSTR pszReason  
+   PCWSTR pszReason  
 ) = 0;  
 ```  
   

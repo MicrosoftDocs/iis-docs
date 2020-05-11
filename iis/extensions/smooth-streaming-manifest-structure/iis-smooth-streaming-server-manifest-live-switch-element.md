@@ -13,12 +13,14 @@ mtps_version: v=VS.90
 The switch element is a container for track information.
 
 [IIS Smooth Streaming Server Manifest (Live) - body Element](iis-smooth-streaming-server-manifest-live-body-element.md)  
-  [IIS Smooth Streaming Server Manifest (Live) - video Element](iis-smooth-streaming-server-manifest-live-video-element.md)  
-    [IIS Smooth Streaming Server Manifest (Live) - audio Element](iis-smooth-streaming-server-manifest-live-audio-element.md)  
-      [IIS Smooth Streaming Server Manifest (Live) - textstream Element](iis-smooth-streaming-server-manifest-live-textstream-element.md)  
+  [IIS Smooth Streaming Server Manifest (Live) - video Element](iis-smooth-streaming-server-manifest-live-video-element.md)  
+    [IIS Smooth Streaming Server Manifest (Live) - audio Element](iis-smooth-streaming-server-manifest-live-audio-element.md)  
+      [IIS Smooth Streaming Server Manifest (Live) - textstream Element](iis-smooth-streaming-server-manifest-live-textstream-element.md)  
 
-    <switch>
-    </switch>
+```xml
+<switch>
+</switch>
+```
 
 ## Attributes and Elements
 

@@ -10,7 +10,7 @@ Retrieves the logging information for the current response.
   
 ```cpp  
 virtual VOID* GetLogData(  
-   VOID  
+   VOID  
 ) const = 0;  
 ```  
   
