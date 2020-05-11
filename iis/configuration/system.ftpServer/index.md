@@ -1,5 +1,5 @@
 ---
-title: " &lt;system.ftpServer&gt;"
+title: "&lt;system.ftpServer&gt;"
 author: rick-anderson
 description: "Overview The &lt;system.ftpServer&gt; element specifies the global-level and URL-level configuration settings for FTP 7 in the ApplicationHost.config file, a..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: e6d08507-d023-47f5-9359-53bfb1183953
 msc.legacyurl: /configreference/system.ftpserver
 msc.type: config
 ---
- &lt;system.ftpServer&gt;
+&lt;system.ftpServer&gt;
 ====================
 <a id="001"></a>
 ## Overview

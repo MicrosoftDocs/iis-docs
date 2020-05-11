@@ -1,5 +1,5 @@
 ---
-title: " &lt;system.applicationHost&gt;"
+title: "&lt;system.applicationHost&gt;"
 author: rick-anderson
 description: "Overview The &lt;system.applicationHost&gt; element contains global configuration settings that are used by the Windows Process Activation Service (WAS) in I..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: e809012e-b83b-41c3-bc1d-7c479e29f622
 msc.legacyurl: /configreference/system.applicationhost
 msc.type: config
 ---
- &lt;system.applicationHost&gt;
+&lt;system.applicationHost&gt;
 ====================
 <a id="001"></a>
 ## Overview
