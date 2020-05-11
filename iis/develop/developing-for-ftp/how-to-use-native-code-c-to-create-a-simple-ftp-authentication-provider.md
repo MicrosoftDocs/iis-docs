@@ -31,7 +31,6 @@ The following items are required to complete the procedures in this article:
 
     > [!NOTE]
     > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
- 
     > [!NOTE]
     > If you plan to develop custom FTP providers for computers that use a 64-bit version of Windows, you will have to install the 64-bit tools and compilers for Visual Studio. You can find additional information about 64-bit development in the [Installing Visual Studio 64-bit Components](https://msdn.microsoft.com/library/ms246588.aspx) topic on the Microsoft MSDN Web site.
 

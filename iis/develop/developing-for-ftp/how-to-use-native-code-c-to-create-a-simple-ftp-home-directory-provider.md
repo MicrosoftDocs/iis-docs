@@ -96,7 +96,6 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
 
     > [!NOTE]
     > These steps will not work on a 64-bit version of Windows.)
- 
     To add the custom build event, follow these steps:
 
     - Click **Project**, and then click **FtpHomeDirectoryDemo Properties**.
