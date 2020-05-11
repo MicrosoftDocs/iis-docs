@@ -102,7 +102,7 @@ You then must check the version number of Windows you have installed. To find th
     - If you have installed on a 64 Bit CPU you must edit the processorArchitecture XML attribute:  
 
         processorArchitecture="amd64"  
-		
+
 > [!NOTE]
 > Possible values are: x86, amd64, and ia64.
 

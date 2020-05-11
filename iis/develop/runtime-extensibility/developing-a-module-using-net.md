@@ -127,9 +127,9 @@ First, deploy the module to the application. Here, you have several options:
 - Copy the source file containing the module into the **/App\_Code** directory of the application. This does not require compiling the module - ASP.NET automatically compiles and loads the module type when the application starts up. Simply save this source code as BasicAuthenticationModule.cs inside the /App\_Code directory of your application. Do this if you do not feel comfortable with the other steps.
 - Compile the module into an assembly, and drop this assembly in the **/BIN** directory of the application. This is the most typical option if you only want this module to be available to this application, and you do not want to ship the source of the module with your application. Compile the module source file by running the following from a command line prompt:  
   
-	`<PATH\_TO\_FX\_SDK>csc.exe /out:BasicAuthenticationModule.dll /target:library BasicAuthenticationModule.cs`
+    `<PATH_TO_FX_SDK>csc.exe /out:BasicAuthenticationModule.dll /target:library BasicAuthenticationModule.cs`
 
-    Where &lt;PATH\_TO\_FX\_SDK&gt; is the path to the .NET Framework SDK that contains the CSC.EXE compiler.
+    Where `<PATH_TO_FX_SDK>` is the path to the .NET Framework SDK that contains the CSC.EXE compiler.
 - Compile the module into a strongly named assembly, and register this assembly in the GAC. This is a good option if you want multiple applications on your machine to use this module. To learn more about building strongly named assemblies, see this [MSDN article](https://msdn.microsoft.com/library/xwb8f617%28VS.80%29.aspx) .
 
 Before making configuration changes in the application's web.config file, we must unlock some of the configuration sections that are locked at the server level by default. Run the following from an Elevated command prompt (Start &gt; Right click on Cmd.exe and choose "Run as Administrator"):

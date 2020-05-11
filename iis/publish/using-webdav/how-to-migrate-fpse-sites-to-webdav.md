@@ -220,7 +220,7 @@ To run this script, use the following steps:
     [!code-console[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample16.cmd)]
 6. Close the command prompt.
 
-	[!code-vb[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample17.vb)]
+    [!code-vb[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample17.vb)]
 
 <a id="03"></a>
 

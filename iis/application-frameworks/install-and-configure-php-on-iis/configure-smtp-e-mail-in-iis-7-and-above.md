@@ -90,7 +90,7 @@ Note that when you use Appcmd.exe to configure the `<mailSettings>` element at t
 
     [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample4.cmd)]
   
-	Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
+    Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
 
     - Save and close the **Php.ini** file.
 3. Enable Relay for localhost:  

@@ -91,7 +91,7 @@ DocFX requires the .NET Framework on Windows, or Mono for Linux or macOS.
    ```
    docfx -t default --serve
    ```
-	
+
 * In a browser, navigate to `http://localhost:8080`.
 
 ### Mono instructions
