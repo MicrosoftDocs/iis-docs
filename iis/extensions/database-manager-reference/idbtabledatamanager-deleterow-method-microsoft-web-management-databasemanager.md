@@ -108,8 +108,6 @@ function DeleteRow(
 
 All database providers that implement the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the DeleteRow method. The database manager will use this method to remove rows from a table in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support deleting rows, you can use the following code sample to raise a not-implemented exception:

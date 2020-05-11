@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 Provides an interface for a native configuration element.
 
-    class INativeConfigurationElement : public IUnknown
+```cpp
+class INativeConfigurationElement : public IUnknown
+```
 
 ## Methods
 

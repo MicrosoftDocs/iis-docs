@@ -80,97 +80,99 @@ The RestrictTracks(IList\<(Of \<\<'(TrackInfo\>)\>\>)) method is used to work ar
 
 The following example restricts tracks to tracks of the same resolution.
 
-    void OnManifestReady(object sender, EventArgs e)
+```csharp
+void OnManifestReady(object sender, EventArgs e)
+{
+    SmoothStreamingMediaElement ssme = sender as SmoothStreamingMediaElement;
+
+    if (ssme == null)
     {
-        SmoothStreamingMediaElement ssme = sender as SmoothStreamingMediaElement;
-    
-        if (ssme == null)
+        return;
+    }
+
+    // Select the highest band of tracks which all have the same resolution.
+    // maxMobileBitrate depends on the encoding settings
+    const ulong maxMobileBitrate = 1000000;
+    foreach (SegmentInfo segment in ssme.ManifestInfo.Segments)
+    {
+        foreach (StreamInfo streamInfo in segment.AvailableStreams)
         {
-            return;
-        }
-    
-        // Select the highest band of tracks which all have the same resolution.
-        // maxMobileBitrate depends on the encoding settings
-        const ulong maxMobileBitrate = 1000000; 
-        foreach (SegmentInfo segment in ssme.ManifestInfo.Segments)
-        {
-            foreach (StreamInfo streamInfo in segment.AvailableStreams)
+            if (MediaStreamType.Video == streamInfo.Type)
             {
-                if (MediaStreamType.Video == streamInfo.Type)
+                List<TrackInfo> widestBand = new List<TrackInfo>();
+                List<TrackInfo> currentBand = new List<TrackInfo>();
+                ulong lastHeight = 0;
+                ulong lastWidth = 0;
+                ulong index = 0;
+
+                foreach (TrackInfo track in streamInfo.AvailableTracks)
                 {
-                    List<TrackInfo> widestBand = new List<TrackInfo>();
-                    List<TrackInfo> currentBand = new List<TrackInfo>();
-                    ulong lastHeight = 0;
-                    ulong lastWidth = 0;
-                    ulong index = 0;
-    
-                    foreach (TrackInfo track in streamInfo.AvailableTracks)
+                    index += 1;
+
+                    string strMaxWidth;
+                    string strMaxHeight;
+                    // If can't find width/height, choose only the top bitrate.
+                    ulong ulMaxWidth = index;
+                    // If can't find width/height, choose only the top bitrate.
+                    ulong ulMaxHeight = index;
+                    // V2 manifests require "MaxWidth", while v1 manifests used "Width".
+                    if (track.Attributes.TryGetValue("MaxWidth", out strMaxWidth) ||
+                        track.Attributes.TryGetValue("Width", out strMaxWidth))
                     {
-                        index += 1;
-    
-                        string strMaxWidth;
-                        string strMaxHeight;
-                        // If can't find width/height, choose only the top bitrate.
-                        ulong ulMaxWidth = index; 
-                        // If can't find width/height, choose only the top bitrate.
-                        ulong ulMaxHeight = index; 
-                        // V2 manifests require "MaxWidth", while v1 manifests used "Width".
-                        if (track.Attributes.TryGetValue("MaxWidth", out strMaxWidth) ||
-                            track.Attributes.TryGetValue("Width", out strMaxWidth))
-                        {
-                            ulong.TryParse(strMaxWidth, out ulMaxWidth);
-                        }
-    
-                        if (track.Attributes.TryGetValue("MaxHeight", out strMaxHeight) ||
-                            track.Attributes.TryGetValue("Height", out strMaxHeight))
-                        {
-                            ulong.TryParse(strMaxHeight, out ulMaxHeight);
-                        }
-    
-                        if (ulMaxWidth != lastWidth ||
-                            ulMaxHeight != lastHeight)
-                        {
-                            // Current band is now finished, check if it is the widest.
-                            // If same size, current band preferred over previous
-                            // widest, because it will be of higher bitrate.
-                            if (currentBand.Count >= widestBand.Count)
-                            {
-                                //  A new widest band:
-                                widestBand = currentBand;
-                                currentBand = new List<TrackInfo>();
-                            }
-                        }
-    
-                        if (track.Bitrate > maxMobileBitrate)
-                        {
-                            break;
-                        }
-    
-                        // Current track always gets added to current band.
-                        currentBand.Add(track);
-                        lastWidth = ulMaxWidth;
-                        lastHeight = ulMaxHeight;
+                        ulong.TryParse(strMaxWidth, out ulMaxWidth);
                     }
-    
-                    if (0 == widestBand.Count &&
-                        0 == currentBand.Count)
+
+                    if (track.Attributes.TryGetValue("MaxHeight", out strMaxHeight) ||
+                        track.Attributes.TryGetValue("Height", out strMaxHeight))
                     {
-                        // Lowest bitrate band is > maxMobileBitrate.
-                        widestBand.Add(streamInfo.AvailableTracks[0]);
+                        ulong.TryParse(strMaxHeight, out ulMaxHeight);
                     }
-                    else if (currentBand.Count >= widestBand.Count)
+
+                    if (ulMaxWidth != lastWidth ||
+                        ulMaxHeight != lastHeight)
                     {
-                        // Need to check the last band which was constructed.
-                        Debug.Assert(currentBand.Count > 0);
-                        widestBand = currentBand; // Winner by default.
+                        // Current band is now finished, check if it is the widest.
+                        // If same size, current band preferred over previous
+                        // widest, because it will be of higher bitrate.
+                        if (currentBand.Count >= widestBand.Count)
+                        {
+                            //  A new widest band:
+                            widestBand = currentBand;
+                            currentBand = new List<TrackInfo>();
+                        }
                     }
-    
-                    Debug.Assert(widestBand.Count >= 1);
-                    streamInfo.RestrictTracks(widestBand);
+
+                    if (track.Bitrate > maxMobileBitrate)
+                    {
+                        break;
+                    }
+
+                    // Current track always gets added to current band.
+                    currentBand.Add(track);
+                    lastWidth = ulMaxWidth;
+                    lastHeight = ulMaxHeight;
                 }
+
+                if (0 == widestBand.Count &&
+                    0 == currentBand.Count)
+                {
+                    // Lowest bitrate band is > maxMobileBitrate.
+                    widestBand.Add(streamInfo.AvailableTracks[0]);
+                }
+                else if (currentBand.Count >= widestBand.Count)
+                {
+                    // Need to check the last band which was constructed.
+                    Debug.Assert(currentBand.Count > 0);
+                    widestBand = currentBand; // Winner by default.
+                }
+
+                Debug.Assert(widestBand.Count >= 1);
+                streamInfo.RestrictTracks(widestBand);
             }
         }
     }
+}
+```
 
 ## Version Information
 

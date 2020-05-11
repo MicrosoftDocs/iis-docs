@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Specifies whether the publishing point sends an end-of-stream (EOS) signal to downstream publishing points when a publishing point stops.
 
-    <SendEndOfStreamOnStop>
-      "true|false"
-    </SendEndOfStreamOnStop>
+```xml
+<SendEndOfStreamOnStop>
+  "true|false"
+</SendEndOfStreamOnStop>
+```
 
 ## Child Elements
 

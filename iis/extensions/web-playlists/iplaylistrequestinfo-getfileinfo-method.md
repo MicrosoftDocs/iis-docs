@@ -12,10 +12,12 @@ mtps_version: v=VS.90
 
 The **GetFileInfo** method returns information about the playlist file in file-based implementations of the interface.
 
-    HRESULT
-    GetFileInfo (
-        [out,retval] IPlaylistFileInfo           **ppPlaylistFileInfo
-    );
+```cpp
+HRESULT
+GetFileInfo (
+    [out,retval] IPlaylistFileInfo           **ppPlaylistFileInfo
+);
+```
 
 ## Arguments
 

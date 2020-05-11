@@ -79,8 +79,6 @@ A [Query](query-class-microsoft-web-management-databasemanager.md) object that c
 
 All database providers that implement the [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetStoredProcedureCreateStatement method, which returns a CREATE PROCEDURE statement for your database provider.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support creating stored procedures, you can use the following code sample to raise a not-implemented exception:

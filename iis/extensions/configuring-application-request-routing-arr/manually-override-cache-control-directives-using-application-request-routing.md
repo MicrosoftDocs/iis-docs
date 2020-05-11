@@ -52,15 +52,15 @@ This walkthrough assumes that ARR is already configured with disk cache. Review 
 6. A dialog box launches that will help you to write the cache control rules. Similar to the routing rules in ARR at the server farm level, ARR relies on URL rewrite to write the cache control rules. This UI in ARR makes it more relevant for the disk caching features without forcing the user to use the URL rewrite UI for writing the cache control rules. 
 
     For this walkthrough, you will write a rule to always cache .jpg images for 30 minutes, irrespective of what the cache control directives may have stated in the response header. To do so, enter the following values:  
-  
-**Apply rule:** Always  
-**Cache:** Selected  
-**Cache duration (minutes):** 30  
-**Host name:** blank  
-**URL:** \*.jpg   
-  
-> [!NOTE]
-> Both the Host name and the URL are optional fields.
+
+    **Apply rule:** Always  
+    **Cache:** Selected  
+    **Cache duration (minutes):** 30  
+    **Host name:** blank  
+    **URL:** \*.jpg   
+
+    > [!NOTE]
+    > Both the Host name and the URL are optional fields.
 
     ![](manually-override-cache-control-directives-using-application-request-routing/_static/image3.jpg)
 

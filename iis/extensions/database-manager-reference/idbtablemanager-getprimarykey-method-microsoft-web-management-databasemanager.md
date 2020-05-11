@@ -103,16 +103,16 @@ The array of primary keys.
 
 All database providers that implement the [IDbTableManager](idbtablemanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetPrimaryKey method, which the database manager will use to retrieve an array of primary keys from a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support retrieving the list of primary keys, you can use the following code sample to raise a not-implemented exception:
 
-    public string[] GetPrimaryKey(string connectionString, string tableName, string schema)
-    {
-       throw new NotImplementedException();
-    }
+```csharp
+public string[] GetPrimaryKey(string connectionString, string tableName, string schema)
+{
+    throw new NotImplementedException();
+}
+```
 
 ## Examples
 

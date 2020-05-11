@@ -15,8 +15,10 @@ The audio element specifies a single track of audio data.
 [IIS Smooth Streaming Server Manifest (Live) - switch Element](iis-smooth-streaming-server-manifest-live-switch-element.md)  
   [IIS Smooth Streaming Server Manifest (Live) - audio param Element](iis-smooth-streaming-server-manifest-live-audio-param-element.md)  
 
-    <audio src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
-    </audio>
+```xml
+<audio src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
+</audio>
+```
 
 ## Attributes and Elements
 

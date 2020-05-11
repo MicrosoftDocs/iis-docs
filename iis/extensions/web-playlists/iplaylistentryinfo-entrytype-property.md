@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **EntryType**property gets an enumeration describing the location type of the current [IPlaylistEntryInfo Interface](iplaylistentryinfo-interface.md) instance.
 
-    HRESULT EntryType( [out,retval] ENTRY_TYPE* pType);
+```cpp
+HRESULT EntryType( [out,retval] ENTRY_TYPE* pType);
+```
 
 ## Arguments
 

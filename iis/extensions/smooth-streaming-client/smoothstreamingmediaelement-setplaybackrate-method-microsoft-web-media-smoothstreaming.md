@@ -82,19 +82,23 @@ To set the playback rate, use the SetPlaybackRate method using a value from the 
 
 The following example shows how to get the available playback rates.
 
-    // Usable playback rates
-        IList<double> playbackRates = SmoothPlayer.SupportedPlaybackRates;
+```csharp
+// Usable playback rates
+IList<double> playbackRates = SmoothPlayer.SupportedPlaybackRates;
+```
 
 After the previous line of code runs the list will contain the following values:
 
-    -8.0, -4.0, 0.5, 1, 4.0, 8.0.
+```
+-8.0, -4.0, 0.5, 1, 4.0, 8.0.
+```
 
 Positive values set the playback rate to half the normal speed, 4.0 times the normal speed, or 8.0 times the normal speed. Negative values rewind the media stream at rates that are multiples of the normal speed by factors of -4.0 or -8.0.
 
 The following example shows how to call the SetPlaybackRate method using a value from the [SupportedPlaybackRates](smoothstreamingmediaelement-supportedplaybackrates-property-microsoft-web-media-smoothstreaming_1.md) collection.
 
-``` 
-    SmoothPlayer.SetPlaybackRate(playbackRates[2]);
+```csharp
+SmoothPlayer.SetPlaybackRate(playbackRates[2]);
 ```
 
 ## Version Information

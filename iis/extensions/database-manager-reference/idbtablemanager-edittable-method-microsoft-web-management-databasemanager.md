@@ -97,16 +97,16 @@ function EditTable(
 
 All database providers that implement the [IDbTableManager](idbtablemanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the EditTable method, which the database manager will use to modify the columns, indexes, and relationships for a table.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support editing tables, you can use the following code sample to raise a not-implemented exception:
 
-    public void EditTable(string connectionString, string schema, TableInfo tableInfo)
-    {
-       throw new NotImplementedException();
-    }
+```csharp
+public void EditTable(string connectionString, string schema, TableInfo tableInfo)
+{
+    throw new NotImplementedException();
+}
+```
 
 > [!NOTE]  
 > See the [ALTER TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms190273.aspx) topic for more information about the ALTER TABLE SQL statement.

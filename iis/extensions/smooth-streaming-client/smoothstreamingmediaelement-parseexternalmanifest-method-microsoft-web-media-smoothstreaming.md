@@ -105,10 +105,11 @@ Applications can call ParseExternalManifest only from the [ManifestMerge](smooth
 
 The ParseExternalManifest method reads XML data from a source identified by the externalManifestUri parameter. To avoid blocking, the millisecondsTimeout parameter sets a timeout interval in milliseconds. The last parameter returns the new parsed data.
 
-    // Out parameter for function.
-      Uri uriExtManifest = new 
-      Uri("http://serverName/BigBuckBunnyCaptions.xml");
-        SmoothPlayer.ParseExternalManifest(uriExtManifest, 3000, out parsedExternManifest);
+```csharp
+// Out parameter for function.
+Uri uriExtManifest = new Uri("http://serverName/BigBuckBunnyCaptions.xml");
+SmoothPlayer.ParseExternalManifest(uriExtManifest, 3000, out parsedExternManifest);
+```
 
 ## Version Information
 

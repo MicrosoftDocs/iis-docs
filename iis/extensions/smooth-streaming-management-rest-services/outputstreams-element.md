@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 Provides summary information about Smooth Streaming output streams.
 
-    <OutputStreams>
-      <OutputStream>
-        <LastOutputFragmentTimestamp />
-      </OutputStream>
-    </OutputStreams>
+```xml
+<OutputStreams>
+  <OutputStream>
+    <LastOutputFragmentTimestamp />
+  </OutputStream>
+</OutputStreams>
+```
 
 ### Child Elements
 

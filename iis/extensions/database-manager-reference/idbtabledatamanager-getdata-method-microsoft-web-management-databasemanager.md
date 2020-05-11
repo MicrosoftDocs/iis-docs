@@ -103,8 +103,6 @@ A [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md) o
 
 All database providers that implement the [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetData method. The database manager will use this method to retrieve the data for a table in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support retrieving data, you can use the following code sample to raise a not-implemented exception:

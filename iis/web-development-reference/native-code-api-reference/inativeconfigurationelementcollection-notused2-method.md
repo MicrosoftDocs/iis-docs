@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 This is an infrastructure method that is not intended to be called directly.
 
-    virtual HRESULT STDMETHODCALLTYPE NotUsed2()= 0;
+```cpp
+virtual HRESULT STDMETHODCALLTYPE NotUsed2()= 0;
+```
 
 ## Parameters
 

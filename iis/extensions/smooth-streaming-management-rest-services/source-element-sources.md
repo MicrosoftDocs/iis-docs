@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 Represents a live stream source.
 
-    <Source>
-      <Properties>
-        <Property />
-      </Properties>
-    </Source>
+```xml
+<Source>
+  <Properties>
+    <Property />
+  </Properties>
+</Source>
+```
 
 ### Child Elements
 

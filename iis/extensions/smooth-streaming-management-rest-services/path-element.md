@@ -12,9 +12,10 @@ mtps_version: v=VS.90
 
 Specifies a path that overwrites the default archive path that is set in the server configuration.
 
-    <Path useEventIdOnPath="true|false"> 
-      "path"
-    </Path>
+```xml
+<Path useEventIdOnPath="true|false">
+  "path"
+</Path>
 
 ## Attributes
 
@@ -32,6 +33,8 @@ None.
 
 ## Example
 
-    <Archive enabled="true">
-      <Path useEventIdOnPath="false">%systemdrive%\inetpub\media\archives</Path>
-    </Archive>
+```xml
+<Archive enabled="true">
+  <Path useEventIdOnPath="false">%systemdrive%\inetpub\media\archives</Path>
+</Archive>
+```

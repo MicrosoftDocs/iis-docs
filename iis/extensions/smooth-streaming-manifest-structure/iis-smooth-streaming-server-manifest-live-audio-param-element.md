@@ -14,7 +14,9 @@ The audio param element specifies a single parameter for the audio.
 
 [IIS Smooth Streaming Server Manifest (Live) - audio param Element](iis-smooth-streaming-server-manifest-live-audio-param-element.md)  
 
-    <param name="parameter name" value="value" valuetype="data type" />
+```xml
+<param name="parameter name" value="value" valuetype="data type" />
+```
 
 ## Attributes and Elements
 

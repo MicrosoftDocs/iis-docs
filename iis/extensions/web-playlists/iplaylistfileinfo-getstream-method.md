@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **GetStream** method gets the **IsSequentialStream** instance that provides sequential access to the file contents.
 
-    RESULT GetStream( [out, retval] IsSequentialStream *ppStream);
+```cpp
+RESULT GetStream( [out, retval] IsSequentialStream *ppStream);
+```
 
 ## Arguments
 

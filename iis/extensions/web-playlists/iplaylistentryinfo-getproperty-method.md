@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 The **GetProperty** method gets the value of the requested property for this entry.
 
-    HRESULT
-    GetProperty(
-        [in]            PLAYLIST_ENTRY_PROPERTY_TYPE   propertyName,
-        [out, retval]   VARIANT *pVariantValue
-    );
+```cpp
+HRESULT
+GetProperty(
+    [in]            PLAYLIST_ENTRY_PROPERTY_TYPE   propertyName,
+    [out, retval]   VARIANT *pVariantValue
+);
+```
 
 ## Arguments
 

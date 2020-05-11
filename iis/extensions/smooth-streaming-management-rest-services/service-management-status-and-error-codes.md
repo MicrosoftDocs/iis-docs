@@ -14,27 +14,31 @@ REST API operations for the Service Management API return standard HTTP status c
 
 The body of the error response uses the following basic format:
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-      <Error>
-        <ErrorCode>error-code</ErrorCode>
-        <ErrorMessage>error-message</ErrorMessage>
-        <InternalError>optional-internal-error-code</InternalError>
-      </Error>
-    </SmoothStreaming>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+  <Error>
+    <ErrorCode>error-code</ErrorCode>
+    <ErrorMessage>error-message</ErrorMessage>
+    <InternalError>optional-internal-error-code</InternalError>
+  </Error>
+</SmoothStreaming>
+```
 
 The internal error element is optional and is sometimes empty.
 
 The following example shows an error response.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
-      <Error>
-        <ErrorCode>0x8088002E</ErrorCode>
-        <ErrorMessage>The publishing point was not found.</ErrorMessage>
-        <InternalError>0x80070002</InternalError>
-      </Error>
-    </SmoothStreaming>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<SmoothStreaming xmlns="http://schemas.microsoft.com/iis/media/2011/03/streaming/management">
+  <Error>
+    <ErrorCode>0x8088002E</ErrorCode>
+    <ErrorMessage>The publishing point was not found.</ErrorMessage>
+    <InternalError>0x80070002</InternalError>
+  </Error>
+</SmoothStreaming>
+```
 
 The following table describes errors returned by the management service. If other errors occur, they are returned with the HTTP "Internal Server Error (500)" status code.
 

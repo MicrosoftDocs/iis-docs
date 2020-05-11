@@ -97,8 +97,6 @@ function DropProcedure(
 
 All database providers that implement the [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the DropProcedure method, which the database manager will use to remove stored procedures from a table in a database.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support deleting stored procedures, you can use the following code sample to raise a not-implemented exception:

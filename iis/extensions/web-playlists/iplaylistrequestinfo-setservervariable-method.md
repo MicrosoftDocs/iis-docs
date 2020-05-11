@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 The **SetServerVariable** method sets a single server variable in a collection of server variables associated with the request.
 
-    HRESULT
-    SetServerVariable(
-            [in] BSTR                       bstrVarName,
-            [in] BSTR                       bstrVarValue
-    );
+```cpp
+HRESULT
+SetServerVariable(
+        [in] BSTR                       bstrVarName,
+        [in] BSTR                       bstrVarValue
+);
+```
 
 ## Arguments
 

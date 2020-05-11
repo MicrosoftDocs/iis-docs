@@ -93,10 +93,12 @@ If the user clicks on the [SmoothStreamingMediaElement](smoothstreamingmediaelem
 
 The following delegate opens a new browser window for the ClickThroughUrl()()()().
 
-    void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
-        {
-            System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUrl, "_newWindow");
-        }
+```csharp
+void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
+{
+    System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUrl, "_newWindow");
+}
+```
 
 ## Version Information
 

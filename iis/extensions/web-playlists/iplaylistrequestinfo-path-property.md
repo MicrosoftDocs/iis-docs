@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **Path** property gets the physical path of the requested playlist file.
 
-    RESULT Path( [out, retval] BSTR* pbstrPath);
+```cpp
+RESULT Path( [out, retval] BSTR* pbstrPath);
+```
 
 ## Arguments
 

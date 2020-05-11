@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 Provides information about errors that occur in the management module.
 
-    <Error>
-       <ErrorCode />
-       <ErrorMessage />
-       <InternalError />
-    </Error>
+```xml
+<Error>
+    <ErrorCode />
+    <ErrorMessage />
+    <InternalError />
+</Error>
+```
 
 ### Child Elements
 

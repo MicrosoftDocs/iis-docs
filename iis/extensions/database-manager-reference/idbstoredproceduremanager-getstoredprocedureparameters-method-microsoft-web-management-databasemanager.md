@@ -103,8 +103,6 @@ An ICollection object that contains the list of [StoredProcedureParameter](store
 
 All database providers that implement the [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md) interface must also implement the GetStoredProcedureParameters method. This method returns a collection of StoredProcedureParameter objects for a specific stored procedure that the database manager will use to provide the list of parameters for the various stored procedure methods in your provider.
 
-### 
-
 ### Notes for Implementers
 
 If your provider does not support retrieving stored procedures, you can use the following code sample to raise a not-implemented exception:

@@ -12,11 +12,13 @@ mtps_version: v=VS.90
 
 The **GetServerVariable** method returns a single server variable from a collection of server variables associated with the request.
 
-    HRESULT
-    GetServerVariable(
-            [in] BSTR                       bstrVarName,
-            [out, retval] BSTR              *pbstrVarValue
-    );
+```cpp
+HRESULT
+GetServerVariable(
+        [in] BSTR                       bstrVarName,
+        [out, retval] BSTR              *pbstrVarValue
+);
+```
 
 ## Arguments
 

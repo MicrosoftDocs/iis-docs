@@ -12,13 +12,15 @@ mtps_version: v=VS.90
 
 The [IPlaylistEntryInfo::ENTRY\_TYPE Enumeration](iplaylistentryinfo-entry-type-enumeration.md) enumeration describes the location of the playlist entry information.
 
-    typedef [public, uuid(85D43118-02EF-4093-98DD-5A15E3BE3F88)] 
-    enum ENTRY_TYPE
-    {
-        EntryTypePhysicalFile,
-        EntryTypeRelativeURI, 
-        EntryTypeRemoteURL,
-    } ENTRY_TYPE;);
+```cpp
+typedef [public, uuid(85D43118-02EF-4093-98DD-5A15E3BE3F88)]
+enum ENTRY_TYPE
+{
+    EntryTypePhysicalFile,
+    EntryTypeRelativeURI,
+    EntryTypeRemoteURL,
+} ENTRY_TYPE;);
+```
 
 ## Arguments
 

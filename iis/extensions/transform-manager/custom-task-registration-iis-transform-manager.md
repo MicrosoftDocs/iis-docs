@@ -59,13 +59,14 @@ A custom task must provide a task definition XML file that includes the followin
       - type. An element that specifies the full .NET Framework assembly type name of the implementation of the [ITask](itask-interface-microsoft-web-media-transformmanager.md) interface that will be loaded into the task engine process. This assembly must be signed with a strong name key. An additional architecture attribute is available for this element to specify which version of the task engine executable to use to run this task. Possible values are x86, x64, or AnyCPU. (These values refer to the compilation architecture used for the .NET Framework assembly.)
     
       - commandLine. Used by tasks that are implemented as a simple program that is not loaded into the task engine. This can be used to integrate existing executable tasks, to run shell commands or PowerShell scripts, or to run custom programs. The program to run and the command-line parameters are set in the commandLine element as shown in the following example.
-        
-            <commandLine>%ProgramFiles%\IIS\Transform Manager\MyTasks\Task1.exe parameter1 parameter2</commandLine>
-        
+
+        ```xml
+        <commandLine>%ProgramFiles%\IIS\Transform Manager\MyTasks\Task1.exe parameter1 parameter2</commandLine>
+        ```
+
         A command-line task can include an optional element for success codes, which consists of a comma-separated list of integer values that indicate successful execution of the command. For example, Robocopy uses many return codes other than 0 to indicate the status of a copy operation. The following example shows how to use success codes.
         
-        ``` 
-        
+        ```xml
         <successCodes>0,1,2,3,4,5,6,7</successCodes>
         ```
         

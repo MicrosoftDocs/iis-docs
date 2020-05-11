@@ -12,7 +12,9 @@ mtps_version: v=VS.90
 
 The **FileSize** property gets the size of the physical file that contains the playlist.
 
-    RESULT FileSize( [out, retval] ULONGLONG *pllFileSize);
+```cpp
+RESULT FileSize( [out, retval] ULONGLONG *pllFileSize);
+```
 
 ## Arguments
 

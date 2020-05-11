@@ -89,7 +89,9 @@ For IIS Advanced Logging to use client logging, you have to configure fields in 
 
 The download file contains the fields.xml file, which is an XML file that defines logging fields. Run the script a shown in the following command. The baseFileName parameter specifies the name of your log definition file. If you do not specify a baseFileName value, IIS Advanced Logging uses the default log definition name of %COMPUTERNAME%-Client.
 
-    AddClientConfig.js [/f:<fields.xml>] [/b:<baseFileName>]
+```
+AddClientConfig.js [/f:<fields.xml>] [/b:<baseFileName>]
+```
 
 The content of the fields.xml file is as follows. Change the value of the applicationUri element to your domain and application's XAP file. After you define the log, be sure to enable the definition in IIS Manager.
 

@@ -12,13 +12,15 @@ mtps_version: v=VS.90
 
 Provides information about sources that are sending live streams to the publishing point and about how the live stream data is sent.
 
-    <Sources>
-      <Source>
-        <Properties>
-          <Property />
-        </Properties>
-      </Source>
-    </Sources>
+```xml
+<Sources>
+  <Source>
+    <Properties>
+      <Property />
+    </Properties>
+  </Source>
+</Sources>
+```
 
 ### Child Elements
 

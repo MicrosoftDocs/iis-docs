@@ -73,26 +73,26 @@ After you have created a custom backup and restore database manager for a databs
 
 The following example shows a sample registration for a custom backup and restore manager that is added to the SQL server database provider, and will override the backup and restore functionality that was implemented in the SQL server database provider.
 
-    <system.webServer>
-       <management>
-          <dbManager>
-             <DBProviders>
-                <provider
-                      name="SQL Server 2005/2008"
-                      providerName="System.Data.SqlClient"
-                      type="Microsoft.Web.Management.DatabaseManager.SqlDatabase.SqlDatabaseProvider, Microsoft.Web.Management.DatabaseManager.SqlDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" >
-                   <databaseBackup
-                      backupEnabled="true"
-                      restoreEnabled="true"
-                      customBackupType="MyDatabase.MyManager, MyDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0e1d2c3b4a59687"
-                      backupPath="C:\backups" />
-                </provider>
-             </DBProviders>
-          </dbManager>
-          </management>
-    </system.webServer>
-
-### 
+```xml
+<system.webServer>
+    <management>
+      <dbManager>
+          <DBProviders>
+            <provider
+                  name="SQL Server 2005/2008"
+                  providerName="System.Data.SqlClient"
+                  type="Microsoft.Web.Management.DatabaseManager.SqlDatabase.SqlDatabaseProvider, Microsoft.Web.Management.DatabaseManager.SqlDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" >
+                <databaseBackup
+                  backupEnabled="true"
+                  restoreEnabled="true"
+                  customBackupType="MyDatabase.MyManager, MyDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0e1d2c3b4a59687"
+                  backupPath="C:\backups" />
+            </provider>
+          </DBProviders>
+      </dbManager>
+      </management>
+</system.webServer>
+```
 
 ### Notes for Implementers
 

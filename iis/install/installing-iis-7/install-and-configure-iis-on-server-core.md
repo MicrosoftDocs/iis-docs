@@ -70,11 +70,11 @@ To install IIS on an installed and configured Server Core installation of Window
 
         [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample11.cmd)]
   
-    (This displays the installation identification to be given to Microsoft.)  
+      (This displays the installation identification to be given to Microsoft.)  
 
         [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample12.cmd)]
   
-    (This activates the server using the confirmation ID given by Microsoft.)
+      (This activates the server using the confirmation ID given by Microsoft.)
 
 For more information on the initial setup tasks such as managing the Windows® Firewall and configuring for automatic updates, see [Making Sense of Server Core](https://technet.microsoft.com/magazine/2009.02.geekofalltrades.aspx?pr=blog). Also see the [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/library/cc753802(WS.10).aspx).
 

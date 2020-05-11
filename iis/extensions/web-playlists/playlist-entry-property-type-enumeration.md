@@ -12,15 +12,17 @@ mtps_version: v=VS.90
 
 An enumeration that describes the various properties of playlist entries.
 
-    typedef [public, uuid(7EF2664D-05F9-4070-A13D-7FBDC0A0EA28) ]
-    enum PLAYLIST_ENTRY_PROPERTY_TYPE
-    {
-    PlaylistEntryProperty_Title = 1,
-    PlaylistEntryProperty_ExtraParam = 2,
-    PlaylistEntryProperty_CanSeek = 3,
-    PlaylistEntryProperty_CanSkipForward = 4,
-    PlaylistEntryProperty_CanSkipBackward = 5
-    } PLAYLIST_ ENTRY_PROPERTY_TYPE;
+```cpp
+typedef [public, uuid(7EF2664D-05F9-4070-A13D-7FBDC0A0EA28) ]
+enum PLAYLIST_ENTRY_PROPERTY_TYPE
+{
+PlaylistEntryProperty_Title = 1,
+PlaylistEntryProperty_ExtraParam = 2,
+PlaylistEntryProperty_CanSeek = 3,
+PlaylistEntryProperty_CanSkipForward = 4,
+PlaylistEntryProperty_CanSkipBackward = 5
+} PLAYLIST_ ENTRY_PROPERTY_TYPE;
+```
 
 ## Arguments
 

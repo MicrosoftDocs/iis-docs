@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 Specifies the encoded bit-rate setting of the track, as configured on the encoder, in bits per second (bps).
 
-    <EncodedBitRate>
-      "rate"
-    </EncodedBitRate>
+```xml
+<EncodedBitRate>
+  "rate"
+</EncodedBitRate>
+```
 
 ### Child Elements
 

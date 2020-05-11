@@ -44,8 +44,6 @@ The diagram below further shows how this feature is designed to work:
 
 [![](using-compression-in-application-request-routing/_static/image2.jpg)](using-compression-in-application-request-routing/_static/image1.jpg)
 
-## 
-
 ## Step 2 - Enable/disable compression on ARR.
 
 This feature is enabled by default and can be found on the Cache Configuration page.

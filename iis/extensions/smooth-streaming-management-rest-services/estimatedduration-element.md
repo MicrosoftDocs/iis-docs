@@ -12,9 +12,11 @@ mtps_version: v=VS.90
 
 An xs:duration value that specifies the estimated duration of the live stream.
 
-    <EstimatedDuration>
-      "duration"
-    </EstimatedDuration>
+```xml
+<EstimatedDuration>
+  "duration"
+</EstimatedDuration>
+```
 
 ## Child Elements
 

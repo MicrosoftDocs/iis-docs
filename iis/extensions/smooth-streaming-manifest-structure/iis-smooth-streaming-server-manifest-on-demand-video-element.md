@@ -14,8 +14,10 @@ The video element specifies a single track of video data.
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - switch Element](iis-smooth-streaming-server-manifest-on-demand-switch-element.md)  
 
-    <video src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
-    </video>
+```xml
+<video src="path" systemBitrate="bitrate number" >   <param name="parameter name" value="value" valuetype="data type" />
+</video>
+```
 
 ## Attributes and Elements
 
