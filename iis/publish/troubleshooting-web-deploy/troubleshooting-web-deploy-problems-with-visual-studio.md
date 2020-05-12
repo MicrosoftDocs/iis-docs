@@ -47,6 +47,13 @@ If they are not there, you need to install the Management Service through the Ad
 
 Has the web management service been allowed through Windows Firewall? When you install the Web Management Service on the server, an inbound firewall rule named Web Management Service (HTTP Traffic-In). Verify this rule is enabled by going to Start-&gt;AdministrativeTools-&gt; Windows Firewall with Advanced Security. Click Inbound Rules and find the Web Management rule in the list. It should be enabled for all profiles. If you are using a 3rd party firewall, you need to ensure inbound connections on port 8172 are allowed.
 
+**Have you added a inbound rule at NSG/Firewall level for the resource?**
+
+Make sure one has added inbout rule at NSG/Firewall level to allow request for port 8172 as shown below at all the levels i.e VNET/Subnets/NIC
+
+Priority    Name        Port    Protocol    Source    Destination   Action
+100         Port_8172   Any     Any         Any       Any           Allow
+
 **Is the service URL correct?**
 
 By default, the Web Management Service listens on port 8172, but this can be changed. The easiest way to check what port is being used is to open the Management Service pane as described above, and look at the IP and port information in the Connections section. If the port has been changed to something other than 8172, you will need to ensure the new port is allowed through the firewall, and update the service URL in Visual Studio's publishing settings to use the new port.
