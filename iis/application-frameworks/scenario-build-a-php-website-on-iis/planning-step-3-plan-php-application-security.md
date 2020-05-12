@@ -112,7 +112,8 @@ Web application isolation entails the following:
 - Temp isolation: Set up a separate PHP temp folder per site and only give access to appropriate process identity.
 - Content isolation: Make sure to set an ACL (access control list) on each site root to allow only access to the appropriate process identity
 
-**Tip**: It is a good idea to host your website and web application content on a drive other than your system drive (C:).
+> [!TIP]
+> It is a good idea to host your website and web application content on a drive other than your system drive (C:).
 
 ### Enable Per-site PHP Configuration
 

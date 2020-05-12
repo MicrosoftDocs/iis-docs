@@ -40,7 +40,9 @@ Next, you need to download the MBExplorer tool off the web. Use MSN Search to lo
 
 1. Run MBExplorer.exe. This tool works on top of the AdminBaseObjects (ABO) interface, so it presents an ABO view of the configuration hierarchy.
 2. In the left pane, navigate to the LM &gt; W3SVC level. This is the global level of the configuration hierarchy, in an ABO view.
-3. Locate the **AuthFlags** property. **Tip**: It is easier to locate the property if you sort the properties by clicking the Name column header. The default value is 1.
+3. Locate the **AuthFlags** property.
+    > [!TIP]
+    > It is easier to locate the property if you sort the properties by clicking the Name column header. The default value is 1.
 4. Change the value to an integer between 1 and 7, inclusive.
 5. Using a text editor such as Notepad, open the ApplicationHost.config file in the following location: `%windir%\system32\inetsrv\config\ApplicationHost.config`
 6. Locate the &lt;authentication&gt; section group. The &lt;authentication&gt; sections are enabled per the value you set. For example, if you set **AuthFlags**=2, then only **BasicAuthentication** will have enabled="true", and other authentication sections will have enabled="false". This is because "2" maps to "**AUTH\_BASIC**" in the IIS 6.0 schema.
