@@ -123,6 +123,7 @@ The following sections provide details on both approaches:
   
    > [!TIP]
    > You can use the **Replace** feature in Notepad to make this change to all media entries at once.
+
 4. In the text editor, change the **srcType** for each media entry in the ISX to a physical path. For example:  
   
    Change: `<param name="srcType" value="relativeURI" />`  
