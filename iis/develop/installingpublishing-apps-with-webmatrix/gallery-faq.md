@@ -7,8 +7,8 @@ ms.assetid: 7f484192-47a7-456b-ae81-592b8787241b
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/gallery-faq
 msc.type: authoredcontent
 ---
-Gallery FAQ
-====================
+# Gallery FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

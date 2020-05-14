@@ -7,8 +7,8 @@ ms.assetid: 659e54a8-ffe8-4889-9554-a7fc752a9725
 msc.legacyurl: /learn/media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server
 msc.type: authoredcontent
 ---
-Adding Windows Media Services 2008 on an IIS 7.0 Server
-====================
+# Adding Windows Media Services 2008 on an IIS 7.0 Server
+
 by IIS Team
 
 To learn the general steps required to add Windows Media Services® 2008 to an existing Windows Server® 2008 server, click [here](https://go.microsoft.com/fwlink/?LinkId=111600) to see the article on Microsoft TechNet.

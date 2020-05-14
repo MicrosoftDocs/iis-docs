@@ -7,8 +7,8 @@ ms.assetid: ad50cddc-9c90-4044-b7b4-65fc7d548d69
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above
 msc.type: authoredcontent
 ---
-Metabase Compatibility with IIS 7 and Above
-====================
+# Metabase Compatibility with IIS 7 and Above
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

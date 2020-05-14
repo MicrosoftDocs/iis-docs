@@ -7,8 +7,8 @@ ms.assetid: 7f84ef60-d07c-4253-835d-75c6cfe6aaca
 msc.legacyurl: /configreference/system.ftpserver/security/authentication/denybyfailure
 msc.type: config
 ---
-Deny by Failure &lt;denyByFailure&gt;
-====================
+# Deny by Failure &lt;denyByFailure&gt;
+
 <a id="001"></a>
 ## Overview
 

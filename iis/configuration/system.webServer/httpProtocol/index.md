@@ -7,8 +7,8 @@ ms.assetid: e013b49e-213d-4c06-8cc2-0248c6a75f21
 msc.legacyurl: /configreference/system.webserver/httpprotocol
 msc.type: config
 ---
-HTTP Protocol Settings &lt;httpProtocol&gt;
-====================
+# HTTP Protocol Settings &lt;httpProtocol&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 2b0fcced-6148-424e-8b22-37c4e08eacc8
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/directorybrowse
 msc.type: config
 ---
-FTP Directory Browse &lt;directoryBrowse&gt;
-====================
+# FTP Directory Browse &lt;directoryBrowse&gt;
+
 <a id="001"></a>
 ## Overview
 

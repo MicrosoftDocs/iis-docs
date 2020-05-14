@@ -7,8 +7,8 @@ ms.assetid: b1f83ca8-7395-4f55-96e0-c589dba20f89
 msc.legacyurl: /configreference/system.webserver/security/authentication
 msc.type: config
 ---
-Security Authentication &lt;authentication&gt;
-====================
+# Security Authentication &lt;authentication&gt;
+
 <a id="001"></a>
 ## Overview
 

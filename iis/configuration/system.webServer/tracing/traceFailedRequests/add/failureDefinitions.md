@@ -7,8 +7,8 @@ ms.assetid: ca56cf8d-2a45-4341-a2a4-27df8d6b97bc
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add/failuredefinitions
 msc.type: config
 ---
-Failure Definitions &lt;failureDefinitions&gt;
-====================
+# Failure Definitions &lt;failureDefinitions&gt;
+
 <a id="001"></a>
 ## Overview
 

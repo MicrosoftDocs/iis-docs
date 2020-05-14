@@ -7,8 +7,8 @@ ms.assetid: 4b9a4a93-a436-457a-9025-ae08a7e3befc
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/general-iis7-questions
 msc.type: authoredcontent
 ---
-General IIS 7.0 Questions
-====================
+# General IIS 7.0 Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### If a module keeps crashing, does IIS 7.0 have ability to remove the "erring" module and recycle the app-pool without that module?

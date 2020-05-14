@@ -7,8 +7,8 @@ ms.assetid: c1fcf431-49b4-4ef8-b939-3984544355d4
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/sitefinity-community-edition-faq
 msc.type: authoredcontent
 ---
-Sitefinity Community Edition FAQ
-====================
+# Sitefinity Community Edition FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

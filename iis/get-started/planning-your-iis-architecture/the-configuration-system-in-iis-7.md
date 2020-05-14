@@ -7,8 +7,8 @@ ms.assetid: 4a1c6d48-33f7-43f6-8ee0-a0c62e8068aa
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/the-configuration-system-in-iis-7
 msc.type: authoredcontent
 ---
-The Configuration System in IIS 7
-====================
+# The Configuration System in IIS 7
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

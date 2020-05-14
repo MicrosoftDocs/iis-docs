@@ -7,8 +7,8 @@ ms.assetid: 618ec076-9347-4dc0-b7b7-4f73cc069ac5
 msc.legacyurl: /learn/media/iis-media-services/iis-media-services-readme
 msc.type: authoredcontent
 ---
-IIS Media Services Readme
-====================
+# IIS Media Services Readme
+
 by Dave Nelson
 
 Applies To: IIS Media Services 4 (IIS Media Services 4.1 and IIS Media Services 4.0), IIS Media Services 3

@@ -7,8 +7,8 @@ ms.assetid: fe44b363-6fef-4a09-b3b2-dbb0bc5c4b64
 msc.legacyurl: /learn/get-started/planning-for-security/build-a-custom-iis-server
 msc.type: authoredcontent
 ---
-Build a Custom IIS 7.0 Server
-====================
+# Build a Custom IIS 7.0 Server
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction

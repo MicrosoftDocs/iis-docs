@@ -7,8 +7,8 @@ ms.assetid: 6990bc31-c315-4e89-acaa-e9ee7a9a39b2
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity
 msc.type: config
 ---
-Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;
-====================
+# Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;
+
 <a id="001"></a>
 ## Overview
 

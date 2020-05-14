@@ -7,8 +7,8 @@ ms.assetid: d36d6d4f-c099-46a0-a869-18b01ed0e008
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-using-the-powershell-help-system
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Using the PowerShell Help System
-====================
+# PowerShell Snap-in: Using the PowerShell Help System
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 In this walkthrough you will learn how you can get help on how to use the IIS PowerShell Snap-in.

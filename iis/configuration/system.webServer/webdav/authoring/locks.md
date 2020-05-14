@@ -7,8 +7,8 @@ ms.assetid: 68a9c796-5d02-4c7e-aed1-539f8ab35c91
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/locks
 msc.type: config
 ---
-WebDAV Locks &lt;locks&gt;
-====================
+# WebDAV Locks &lt;locks&gt;
+
 <a id="001"></a>
 ## Overview
 

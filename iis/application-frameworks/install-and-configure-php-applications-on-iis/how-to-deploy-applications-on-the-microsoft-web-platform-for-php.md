@@ -7,8 +7,8 @@ ms.assetid: a0f87507-9376-4359-815e-12386286abd4
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/how-to-deploy-applications-on-the-microsoft-web-platform-for-php
 msc.type: authoredcontent
 ---
-How to Deploy Applications on the Microsoft Web Platform for PHP
-====================
+# How to Deploy Applications on the Microsoft Web Platform for PHP
+
 by Tali Smith
 
 There are a couple of steps you can take to optimize deployment of your applications on the Microsoft Web Platform, including:

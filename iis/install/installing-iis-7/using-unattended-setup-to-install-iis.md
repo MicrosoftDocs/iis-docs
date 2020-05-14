@@ -7,8 +7,8 @@ ms.assetid: 78cd9a4b-3d90-4aa7-8bb8-326d11cb14d9
 msc.legacyurl: /learn/install/installing-iis-7/using-unattended-setup-to-install-iis
 msc.type: authoredcontent
 ---
-Using Unattended Setup to Install IIS 7.0
-====================
+# Using Unattended Setup to Install IIS 7.0
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction

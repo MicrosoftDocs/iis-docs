@@ -7,8 +7,8 @@ ms.assetid: b3ce3bbf-56aa-41e9-bbf7-6ea2b7032d77
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-custom-rewrite-providers-with-url-rewrite-module
 msc.type: authoredcontent
 ---
-Using Custom Rewrite Providers with URL Rewrite Module
-====================
+# Using Custom Rewrite Providers with URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will guide you through how to use custom rewrite providers with URL Rewrite Module 2.0. The walkthrough uses the URL Rewrite 2.0 Extensibility Samples, which can be downloaded from URL Rewrite Extensibility Samples at MSDN Code Gallery.

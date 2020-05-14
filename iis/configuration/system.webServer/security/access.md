@@ -7,8 +7,8 @@ ms.assetid: f327a3e1-9f08-466b-8d7d-0d8884db7292
 msc.legacyurl: /configreference/system.webserver/security/access
 msc.type: config
 ---
-Access Security &lt;access&gt;
-====================
+# Access Security &lt;access&gt;
+
 <a id="001"></a>
 ## Overview
 

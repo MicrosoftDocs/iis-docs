@@ -7,8 +7,8 @@ ms.assetid: 4db62921-61fe-4dde-927c-e9c1a47d0321
 msc.legacyurl: /learn/manage/creating-websites/provisioning-ftp-75-sites
 msc.type: authoredcontent
 ---
-Provisioning FTP 7.5 Sites
-====================
+# Provisioning FTP 7.5 Sites
+
 by [Walter Oliver](https://github.com/walterov)
 
 The following articles point to recommended guides for Provisioning FTP 7.0 Sites:

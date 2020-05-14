@@ -7,8 +7,8 @@ ms.assetid: 68c0a088-a45f-4ea6-8e3d-a5876f949f29
 msc.legacyurl: /learn/publish/using-web-deploy/using-custom-manifests
 msc.type: authoredcontent
 ---
-Using Custom Manifests
-====================
+# Using Custom Manifests
+
 by Faith A
 
 This quick guide will help you create a custom manifest and synchronize it. We will synchronize a Web site and include the application pool, an external directory, and an assembly and COM object that are not automatically gathered for a Web site.

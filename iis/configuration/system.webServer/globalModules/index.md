@@ -7,8 +7,8 @@ ms.assetid: 4d8d9e66-bdfc-46df-9a11-53ad4c19b3be
 msc.legacyurl: /configreference/system.webserver/globalmodules
 msc.type: config
 ---
-Global Modules &lt;globalModules&gt;
-====================
+# Global Modules &lt;globalModules&gt;
+
 <a id="001"></a>
 ## Overview
 

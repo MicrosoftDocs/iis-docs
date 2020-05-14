@@ -7,8 +7,8 @@ ms.assetid: 6b0e9ceb-a1b5-4d31-ae0b-2ddda487161a
 msc.legacyurl: /learn/install/installing-iis-7/how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008
 msc.type: authoredcontent
 ---
-How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008
-====================
+# How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

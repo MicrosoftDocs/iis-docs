@@ -7,8 +7,8 @@ ms.assetid: 8dfb5763-f82a-4d05-9b9e-99b9fa4cdb13
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/dotnetnuke-community-edition-faq
 msc.type: authoredcontent
 ---
-DotNetNuke ® Community Edition FAQ
-====================
+# DotNetNuke ® Community Edition FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

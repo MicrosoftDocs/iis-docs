@@ -7,8 +7,8 @@ ms.assetid: 58e4be73-af7c-4c18-be73-959b33ecef7f
 msc.legacyurl: /learn/develop/runtime-extensibility/how-to-add-tracing-to-iis-managed-modules
 msc.type: authoredcontent
 ---
-How to Add Tracing to IIS 7.0 Managed Modules
-====================
+# How to Add Tracing to IIS 7.0 Managed Modules
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

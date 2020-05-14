@@ -7,8 +7,8 @@ ms.assetid: 5f16a2b2-62cd-45fa-b119-2cae3cc52735
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-serving-media-content-from-user-folders
 msc.type: authoredcontent
 ---
-Web Playlists for IIS 7 - Serving Media Content From User Folders
-====================
+# Web Playlists for IIS 7 - Serving Media Content From User Folders
+
 by Dave Nelson
 
 You can serve media assets referenced in Web playlist files (files with .isx file name extensions), provided that the files are stored in folders on the Web server computer that can be accessed by the Web Playlists feature. By default, these folders include the Web site root (&lt;*systemdrive*&gt;\inetpub\wwwroot). If you want to serve media assets stored in your user account folders (for example, music files stored in &lt;*systemdrive*&gt;\Users\&lt;*username*&gt;\Music&gt;, you can create impersonation credentials in the Web Playlists feature to enable Web Playlists to connect to the media assets under the context of an authenticated Windows client. This allows you to maintain one set of media files that you can serve to customers, rather than creating copies of the files in the Web site root.

@@ -7,8 +7,8 @@ ms.assetid: cc076e7c-81b6-4952-a487-9e3f0f5f6386
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/bindings
 msc.type: config
 ---
-Default Bindings &lt;bindings&gt;
-====================
+# Default Bindings &lt;bindings&gt;
+
 <a id="001"></a>
 ## Overview
 

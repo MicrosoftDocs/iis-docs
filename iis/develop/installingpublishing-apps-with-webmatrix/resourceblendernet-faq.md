@@ -7,8 +7,8 @@ ms.assetid: 32d1cc8e-a907-4e15-8224-515f99884ece
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/resourceblendernet-faq
 msc.type: authoredcontent
 ---
-ResourceBlender.NET FAQ
-====================
+# ResourceBlender.NET FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

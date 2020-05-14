@@ -7,8 +7,8 @@ ms.assetid: 36ca05ca-3041-4421-956e-00a8e92e0ff2
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-3-configure-iis-web-farm-load-balancing
 msc.type: authoredcontent
 ---
-Configuring Step 3: Configure IIS Web Farm Load Balancing
-====================
+# Configuring Step 3: Configure IIS Web Farm Load Balancing
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 Now that IIS is installed all web servers. All web servers share both contend and configuration. And IIS and ARR are installed on your load balancing server. It is time to configure ARR and turn your servers into a functioning web farm.

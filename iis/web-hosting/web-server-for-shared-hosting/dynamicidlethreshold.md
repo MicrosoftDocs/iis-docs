@@ -7,8 +7,8 @@ ms.assetid: 74643093-38b3-4a46-a557-0076ab10d183
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/dynamicidlethreshold
 msc.type: authoredcontent
 ---
-dynamicIdleThreshold
-====================
+# dynamicIdleThreshold
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

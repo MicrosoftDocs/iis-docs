@@ -7,8 +7,8 @@ ms.assetid: ae120a50-83ad-4ac7-9011-1dd0c2352300
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-logging-provider
 msc.type: authoredcontent
 ---
-How to Use Native Code (C++) to Create a Simple FTP Logging Provider
-====================
+# How to Use Native Code (C++) to Create a Simple FTP Logging Provider
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features that enable Web authors to publish content more easily than before, and offers Web administrators more security and deployment options.

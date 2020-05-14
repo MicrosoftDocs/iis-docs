@@ -7,8 +7,8 @@ ms.assetid: 85e4ce42-5661-4f6e-ad3a-4d09a6aef0ae
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/plan-a-php-website-on-iis
 msc.type: authoredcontent
 ---
-Plan a PHP Website on IIS
-====================
+# Plan a PHP Website on IIS
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview

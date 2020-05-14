@@ -7,8 +7,8 @@ ms.assetid: 7ba83499-9c35-4d3c-9d24-0b330e7d5e8c
 msc.legacyurl: /configreference/system.webserver/webdav/authoringrules
 msc.type: config
 ---
-WebDAV Authoring Rules &lt;authoringRules&gt;
-====================
+# WebDAV Authoring Rules &lt;authoringRules&gt;
+
 <a id="001"></a>
 ## Overview
 

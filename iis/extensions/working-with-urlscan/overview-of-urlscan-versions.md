@@ -7,8 +7,8 @@ ms.assetid: 09301b0d-9312-4ee2-b07b-1e01fa5dd8b5
 msc.legacyurl: /learn/extensions/working-with-urlscan/overview-of-urlscan-versions
 msc.type: authoredcontent
 ---
-Overview of UrlScan Versions
-====================
+# Overview of UrlScan Versions
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 UrlScan primarily consists of two parts: the UrlScan ISAPI filter named UrlScan.dll, and a configuration file named UrlScan.ini.

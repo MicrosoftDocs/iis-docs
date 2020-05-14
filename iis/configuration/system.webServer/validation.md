@@ -7,8 +7,8 @@ ms.assetid: a24b0af7-c584-43b8-b1b9-786be64efd76
 msc.legacyurl: /configreference/system.webserver/validation
 msc.type: config
 ---
-Validation &lt;validation&gt;
-====================
+# Validation &lt;validation&gt;
+
 <a id="001"></a>
 ## Overview
 

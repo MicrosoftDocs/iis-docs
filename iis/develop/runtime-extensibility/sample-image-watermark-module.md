@@ -7,8 +7,8 @@ ms.assetid: ec5755cd-8a66-44c1-b94e-dbde807c3072
 msc.legacyurl: /learn/develop/runtime-extensibility/sample-image-watermark-module
 msc.type: authoredcontent
 ---
-Sample: Image Watermark Module
-====================
+# Sample: Image Watermark Module
+
 by [Fabio Yeon](https://github.com/fabioy)
 
 This is a sample of how to write a native (C++) module that will dynamically insert an user-configured watermark into an image being served, as well as how to extend the configuration and the inetmgr UI tool to provide easy administration of the new module.

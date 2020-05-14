@@ -7,8 +7,8 @@ ms.assetid: 5500e35b-b189-46dd-aa51-a222ef773b82
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-zen-cart-on-iis
 msc.type: authoredcontent
 ---
-Install Zen Cart on IIS
-====================
+# Install Zen Cart on IIS
+
 by Eric Woersching
 
 ## Introduction

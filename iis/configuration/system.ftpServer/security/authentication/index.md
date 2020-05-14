@@ -7,8 +7,8 @@ ms.assetid: 31cebadd-b459-402a-90d7-3762df465b63
 msc.legacyurl: /configreference/system.ftpserver/security/authentication
 msc.type: config
 ---
-System FTP Authentication &lt;authentication&gt;
-====================
+# System FTP Authentication &lt;authentication&gt;
+
 <a id="001"></a>
 ## Overview
 

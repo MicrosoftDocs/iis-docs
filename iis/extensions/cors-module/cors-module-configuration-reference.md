@@ -7,8 +7,8 @@ ms.assetid:
 msc.legacyurl:
 msc.type: authoredcontent
 ---
-IIS CORS module Configuration Reference
-====================
+# IIS CORS module Configuration Reference
+
 by the IIS Team
 
 > This article provides an overview of the IIS CORS module and explains the configuration of the module.

@@ -7,8 +7,8 @@ ms.assetid: 12408f8c-7458-408a-9bd2-fdd2c459911d
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering
 msc.type: config
 ---
-Default FTP Command Filtering Settings &lt;commandFiltering&gt;
-====================
+# Default FTP Command Filtering Settings &lt;commandFiltering&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: fefc3a42-2b99-4f14-a5e9-d38eccd08641
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/crafty-syntax-live-help-on-iis
 msc.type: authoredcontent
 ---
-Crafty Syntax Live Help on IIS
-====================
+# Crafty Syntax Live Help on IIS
+
 by Eric Woersching
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: abceda1a-91b8-4d9d-820d-0dfc0128771a
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-drupal-on-iis
 msc.type: authoredcontent
 ---
-Install Drupal on IIS
-====================
+# Install Drupal on IIS
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction

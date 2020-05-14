@@ -7,8 +7,8 @@ ms.assetid: 2128f157-5a8f-407a-9fd7-6b1ea714fc60
 msc.legacyurl: /learn/install/installing-iis-7/install-and-configure-iis-on-server-core
 msc.type: authoredcontent
 ---
-Install and Configure IIS 7 on Server Core
-====================
+# Install and Configure IIS 7 on Server Core
+
 by IIS Team
 
 ## Introduction

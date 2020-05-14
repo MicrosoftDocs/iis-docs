@@ -7,8 +7,8 @@ ms.assetid: 8f557c9a-ab59-4d1e-b9f1-fa62293b882b
 msc.legacyurl: /learn/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7
 msc.type: authoredcontent
 ---
-Configuring Remote Administration and Feature Delegation in IIS 7
-====================
+# Configuring Remote Administration and Feature Delegation in IIS 7
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

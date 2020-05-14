@@ -7,8 +7,8 @@ ms.assetid: af287d62-e8f0-4ff7-8cbc-3d61e840d3f7
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-from-the-command-line
 msc.type: authoredcontent
 ---
-Installing IIS 7.0 from the Command Line
-====================
+# Installing IIS 7.0 from the Command Line
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

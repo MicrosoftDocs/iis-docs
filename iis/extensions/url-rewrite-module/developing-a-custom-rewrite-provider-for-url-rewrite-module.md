@@ -7,8 +7,8 @@ ms.assetid: c492a011-0841-4d3a-8641-2b7f26a749b0
 msc.legacyurl: /learn/extensions/url-rewrite-module/developing-a-custom-rewrite-provider-for-url-rewrite-module
 msc.type: authoredcontent
 ---
-Developing a Custom Rewrite Provider for URL Rewrite Module
-====================
+# Developing a Custom Rewrite Provider for URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will guide you through how to develop a rewrite provider for URL Rewrite Module 2.0. You will create a ReplaceProvider that replaces all occurrences of a particular character in the URL with another character. This kind of logic is really hard and sometime impossible to express in terms of regular expressions, hence the need to create a custom rewrite provider.

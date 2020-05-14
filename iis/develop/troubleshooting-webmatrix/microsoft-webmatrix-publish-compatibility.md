@@ -7,8 +7,8 @@ ms.assetid: a0133dfc-265b-42b7-adc4-4f92421e2a8a
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility
 msc.type: authoredcontent
 ---
-Microsoft WebMatrix: Publish Compatibility
-====================
+# Microsoft WebMatrix: Publish Compatibility
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 Microsoft WebMatrix includes a feature called Publish Compatibility, which can help determine if your site is compatible with a web hosting provider. To check your site's compatibility with a web hosting provider:

@@ -7,8 +7,8 @@ ms.assetid: dbd06536-dbca-4367-ae1d-600547c13503
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add
 msc.type: config
 ---
-Adding Application Pools &lt;add&gt;
-====================
+# Adding Application Pools &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

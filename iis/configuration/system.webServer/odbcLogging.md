@@ -7,8 +7,8 @@ ms.assetid: 2005a63e-07bd-4bab-b6f1-876724cd0744
 msc.legacyurl: /configreference/system.webserver/odbclogging
 msc.type: config
 ---
-ODBC Logging &lt;odbcLogging&gt;
-====================
+# ODBC Logging &lt;odbcLogging&gt;
+
 <a id="001"></a>
 ## Overview
 

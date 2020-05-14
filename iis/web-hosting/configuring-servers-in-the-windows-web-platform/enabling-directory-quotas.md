@@ -7,8 +7,8 @@ ms.assetid: b08212c6-af36-4506-9cb0-0502dfa81af5
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/enabling-directory-quotas
 msc.type: authoredcontent
 ---
-Directory Quotas and FSRM
-====================
+# Directory Quotas and FSRM
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

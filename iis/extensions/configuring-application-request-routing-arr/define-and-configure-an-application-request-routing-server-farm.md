@@ -7,8 +7,8 @@ ms.assetid: a83c6706-9210-41a2-94fc-53afdecbc9b6
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/define-and-configure-an-application-request-routing-server-farm
 msc.type: authoredcontent
 ---
-Define and Configure an Application Request Routing Server Farm
-====================
+# Define and Configure an Application Request Routing Server Farm
+
 by IIS Team
 
 ## Overview

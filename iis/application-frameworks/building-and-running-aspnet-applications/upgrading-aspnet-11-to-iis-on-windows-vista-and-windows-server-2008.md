@@ -7,8 +7,8 @@ ms.assetid: 04425a1c-0be3-45bd-8184-815c7801176e
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008
 msc.type: authoredcontent
 ---
-Upgrading ASP.NET 1.1 to IIS 7.0 on Windows Vista and Windows Server 2008
-====================
+# Upgrading ASP.NET 1.1 to IIS 7.0 on Windows Vista and Windows Server 2008
+
 by IIS Team
 
 ## Introduction

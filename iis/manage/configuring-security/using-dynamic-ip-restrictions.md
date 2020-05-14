@@ -7,8 +7,8 @@ ms.assetid: a6881b7d-4080-440c-ab71-cb274ac6f128
 msc.legacyurl: /learn/manage/configuring-security/using-dynamic-ip-restrictions
 msc.type: authoredcontent
 ---
-Using Dynamic IP Restrictions
-====================
+# Using Dynamic IP Restrictions
+
 by [Nazim Lala](https://github.com/naziml)
 
 ## Introduction

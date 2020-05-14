@@ -7,8 +7,8 @@ ms.assetid: c85152ef-d9ea-47b1-a705-46a9ce1c2edc
 msc.legacyurl: /learn/install/installing-iis-7/upgrading-to-iis-70-on-windows-server-2008
 msc.type: authoredcontent
 ---
-Upgrading to IIS 7.0 on Windows Server 2008
-====================
+# Upgrading to IIS 7.0 on Windows Server 2008
+
 by IIS Team
 
 You can move Web sites and applications to Internet Information Services (IIS) 7.0 and above in two ways: upgrading and installing. Upgrading is installing the Microsoft Windows Server 2008 or above operating system and IIS 7.0 or above on an existing server that is running the Windows Server 2003 operating system and IIS 6.0. Migrating, on the other hand, is installing Microsoft Windows Server 2008 or above and IIS 7.0 or above on a new server and then moving, or reinstalling, existing Web sites and applications on that server. This document outlines the steps to take in planning an upgrade to Microsoft Windows Server 2008 and IIS 7.0.

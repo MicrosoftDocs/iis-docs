@@ -7,8 +7,8 @@ ms.assetid: 1f41da75-1fde-433e-af1e-d29f8b187478
 msc.legacyurl: /learn/develop/windows-web-application-gallery/blogengine-net-sample-files
 msc.type: authoredcontent
 ---
-Blogengine .NET Sample files
-====================
+# Blogengine .NET Sample files
+
 by Steve Jacobson
 
 This is a set of sample files you could use with Blogengine .NET and the Web Deployment tool for deploying it on IIS. The `manifest.xml` and `parameters.xml` here are used to set the appropriate permissions and deploy the files to a web server . This application uses a file data store within App\_Data directory and hence requires that this directory have ReadAndExecute,Write,Delete permissions .

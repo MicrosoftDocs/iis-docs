@@ -7,8 +7,8 @@ ms.assetid: 8594fdd0-28c7-47c0-bcc4-1a4aa52cb1b9
 msc.legacyurl: /learn/develop/extending-iis-configuration/extending-iis-schema-and-accessing-the-custom-sections-using-mwa
 msc.type: authoredcontent
 ---
-Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA
-====================
+# Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA
+
 by IIS Team
 
 ## Abstract

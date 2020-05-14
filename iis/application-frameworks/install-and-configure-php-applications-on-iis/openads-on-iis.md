@@ -7,8 +7,8 @@ ms.assetid: 641d5740-dcfb-463d-96d7-3ac1d85b2352
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/openads-on-iis
 msc.type: authoredcontent
 ---
-OpenAds on IIS
-====================
+# OpenAds on IIS
+
 by Eric Woersching
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 41f2cd18-5a47-45d6-8f95-054dc24e1f2b
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-3-plan-iis-web-farm-load-balancing
 msc.type: authoredcontent
 ---
-Planning Step 3: Plan IIS Web Farm Load Balancing
-====================
+# Planning Step 3: Plan IIS Web Farm Load Balancing
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of planning a web farm with IIS servers, you learn about load balancing. You also learn how to configure load balancing by using Application Request Routing (ARR). ARR is a proxy-based request routing and load balancing module for IIS.

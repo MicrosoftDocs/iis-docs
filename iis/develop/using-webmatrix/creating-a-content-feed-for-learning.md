@@ -7,8 +7,8 @@ ms.assetid: e464de27-0e44-46f7-b928-6e07e0cf7a6c
 msc.legacyurl: /learn/develop/using-webmatrix/creating-a-content-feed-for-learning
 msc.type: authoredcontent
 ---
-Creating a Content Feed for Learning
-====================
+# Creating a Content Feed for Learning
+
 by [Simon Tan](https://github.com/simtan)
 
 ## Creating a Content Feed for Learning

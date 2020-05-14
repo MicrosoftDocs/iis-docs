@@ -7,8 +7,8 @@ ms.assetid: 4ed60479-9fb5-4abe-8f3f-649d8a8cdf06
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/how-webmatrix-verification-works
 msc.type: authoredcontent
 ---
-How WebMatrix Verification Works
-====================
+# How WebMatrix Verification Works
+
 by [Simon Tan](https://github.com/simtan)
 
 ## Introduction

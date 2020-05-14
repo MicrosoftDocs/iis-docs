@@ -7,8 +7,8 @@ ms.assetid: a3919320-bad9-42f0-a380-699734105449
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/certificate-rebind-in-iis85
 msc.type: authoredcontent
 ---
-Certificate Rebind in IIS 8.5
-====================
+# Certificate Rebind in IIS 8.5
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 > Automatically rebind a renewed certificate by using Certificate Rebind, new in IIS 8.5.

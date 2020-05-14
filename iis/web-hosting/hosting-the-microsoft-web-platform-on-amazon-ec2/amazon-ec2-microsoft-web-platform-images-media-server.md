@@ -7,8 +7,8 @@ ms.assetid: 9abe09f8-9e47-4f46-a054-f234676f3c1e
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-media-server
 msc.type: authoredcontent
 ---
-Amazon EC2: Microsoft Web Platform Images - Media Server
-====================
+# Amazon EC2: Microsoft Web Platform Images - Media Server
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

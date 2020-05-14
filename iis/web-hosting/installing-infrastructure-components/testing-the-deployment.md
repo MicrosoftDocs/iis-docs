@@ -7,8 +7,8 @@ ms.assetid: c9d5ff75-6ff0-44a1-877d-f5c1954a7fd4
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/testing-the-deployment
 msc.type: authoredcontent
 ---
-Testing the Deployment
-====================
+# Testing the Deployment
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Prerequisites

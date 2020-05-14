@@ -7,8 +7,8 @@ ms.assetid: 7432a535-a72e-4792-8c8a-51fde740dcf8
 msc.legacyurl: /learn/install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2
 msc.type: authoredcontent
 ---
-Install Windows Server 2008 and Windows Server 2008 R2
-====================
+# Install Windows Server 2008 and Windows Server 2008 R2
+
 by Tali Smith
 
 ## Introduction

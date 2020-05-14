@@ -7,8 +7,8 @@ ms.assetid: 6bb2a86b-d812-413a-8802-91c36e398883
 msc.legacyurl: /learn/publish/deploying-application-packages/deploying-wordpress-via-packages-in-a-hosting-environment
 msc.type: authoredcontent
 ---
-Deploying WordPress via Packages in a Hosting Environment
-====================
+# Deploying WordPress via Packages in a Hosting Environment
+
 by [Simon Tan](https://github.com/simtan)
 
 ## Introduction

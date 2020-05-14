@@ -7,8 +7,8 @@ ms.assetid: efdf12f5-51e2-42c0-bf1e-647c8fa19ff0
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/active-directory-ds-forest
 msc.type: authoredcontent
 ---
-Active Directory DS Forest
-====================
+# Active Directory DS Forest
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

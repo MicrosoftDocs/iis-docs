@@ -7,8 +7,8 @@ ms.assetid: 3498e1fb-f467-46f4-bf44-60e8e7615905
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites
 msc.type: authoredcontent
 ---
-Microsoft WebMatrix: Database errors while publishing and downloading sites
-====================
+# Microsoft WebMatrix: Database errors while publishing and downloading sites
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Introduction

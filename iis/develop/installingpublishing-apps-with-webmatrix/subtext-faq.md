@@ -7,8 +7,8 @@ ms.assetid: d1ea5645-fdf1-41a1-b445-23fe909d516c
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/subtext-faq
 msc.type: authoredcontent
 ---
-Subtext FAQ
-====================
+# Subtext FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

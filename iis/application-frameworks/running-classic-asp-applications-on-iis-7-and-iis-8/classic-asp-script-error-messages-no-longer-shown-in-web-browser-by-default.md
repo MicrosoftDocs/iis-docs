@@ -7,8 +7,8 @@ ms.assetid: e02b4b2b-8062-437c-9a70-bea108d9ca36
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default
 msc.type: authoredcontent
 ---
-Classic ASP Script Error Messages No Longer Shown in Web Browser by Default
-====================
+# Classic ASP Script Error Messages No Longer Shown in Web Browser by Default
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 In earlier versions of IIS, error messages from classic ASP scripts were sent to a Web browser, by default. Because these error messages might reveal sensitive information to malicious users, IIS 7 and above disables this feature by default. When your classic ASP scripts encounter an error in IIS, you receive the following error message by default:

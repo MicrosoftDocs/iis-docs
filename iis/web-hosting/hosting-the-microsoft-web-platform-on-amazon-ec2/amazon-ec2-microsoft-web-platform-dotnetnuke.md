@@ -7,8 +7,8 @@ ms.assetid: 2e582d50-672d-4cbd-b360-4a0417279042
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-dotnetnuke
 msc.type: authoredcontent
 ---
-Amazon EC2: Microsoft Web Platform - DotNetNuke
-====================
+# Amazon EC2: Microsoft Web Platform - DotNetNuke
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

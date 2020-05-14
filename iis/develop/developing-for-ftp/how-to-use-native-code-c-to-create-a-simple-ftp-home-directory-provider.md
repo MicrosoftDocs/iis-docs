@@ -7,8 +7,8 @@ ms.assetid: 6b1688f9-8478-49d1-8535-c3a032b94bd7
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-home-directory-provider
 msc.type: authoredcontent
 ---
-How to Use Native Code (C++) to Create a Simple FTP Home Directory Provider
-====================
+# How to Use Native Code (C++) to Create a Simple FTP Home Directory Provider
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features that enable Web authors to publish content more easily than before, and offers Web administrators more security and deployment options.

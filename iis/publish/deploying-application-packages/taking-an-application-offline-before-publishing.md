@@ -7,8 +7,8 @@ ms.assetid: 116712ee-4e7c-4042-8c7d-12dccbff8254
 msc.legacyurl: /learn/publish/deploying-application-packages/taking-an-application-offline-before-publishing
 msc.type: authoredcontent
 ---
-Taking an Application Offline before Publishing
-====================
+# Taking an Application Offline before Publishing
+
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
 In Web Deploy V3, we added support to automatically take an ASP.Net application offline before publishing to it. This is useful if a user wants to ensure that their application does not have a lock on a file (e.g. SQL CE sdf files which only allow one connection to the file at a time) being overwritten, or if they want to ensure that visitors to their site cannot affect the publish process. The way it works is if Web Deploy detects that a change needs to be made on the destination server, it will automatically drop a blank App\_Offline.htm file into the root of the application folder. When ASP.Net detects that a file by the name of "App\_Offline.htm" exists, it will automatically bring down the app domain hosting the application. When the publish process is completed, the App\_Offline.htm file will be removed and the site will be online again.

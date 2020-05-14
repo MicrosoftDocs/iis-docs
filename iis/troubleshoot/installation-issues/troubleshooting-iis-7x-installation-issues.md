@@ -7,8 +7,8 @@ ms.assetid: 4daa9338-786e-47ac-9674-fe355e8dcee9
 msc.legacyurl: /learn/troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues
 msc.type: authoredcontent
 ---
-Troubleshooting IIS 7.x Installation Issues
-====================
+# Troubleshooting IIS 7.x Installation Issues
+
 by [Puneet Gupta](https://github.com/puneet-gupta)
 
 #### Tools Used in this Troubleshooter:

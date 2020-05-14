@@ -7,8 +7,8 @@ ms.assetid: 6dc63ae4-06dc-44b9-9504-580130a44c46
 msc.legacyurl: /learn/extensions/database-manager/working-with-stored-procedures
 msc.type: authoredcontent
 ---
-Working with Stored Procedures
-====================
+# Working with Stored Procedures
+
 by IIS Team
 
 ## Prerequisites

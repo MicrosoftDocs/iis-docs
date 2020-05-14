@@ -7,8 +7,8 @@ ms.assetid: a3856239-50c7-449f-b536-67d1cadc4b80
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-configuration
 msc.type: authoredcontent
 ---
-Web Playlists for IIS 7 - Configuration
-====================
+# Web Playlists for IIS 7 - Configuration
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists for Internet Information Services (IIS) provides the ability to control media delivery to clients and limit a client's ability to seek or skip individual entries in the playlist. This article provides information about the settings possible through the Web Playlists configuration files.

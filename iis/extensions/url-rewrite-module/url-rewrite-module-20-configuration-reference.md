@@ -7,8 +7,8 @@ ms.assetid: 1d859e0a-f889-4053-b9ac-144cbd56c486
 msc.legacyurl: /learn/extensions/url-rewrite-module/url-rewrite-module-20-configuration-reference
 msc.type: authoredcontent
 ---
-URL Rewrite Module 2.0 Configuration Reference
-====================
+# URL Rewrite Module 2.0 Configuration Reference
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This section of the documentation applies to the **URL Rewrite Module Version 2.0 for IIS 7**

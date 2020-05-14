@@ -7,8 +7,8 @@ ms.assetid: ba093ba6-a090-4850-bb90-86cc859cfc24
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x
 msc.type: authoredcontent
 ---
-Troubleshooting IIS Compression issues in IIS6/IIS7.x
-====================
+# Troubleshooting IIS Compression issues in IIS6/IIS7.x
+
 by Shoeb Ilyas Bhaldar and Mike Laing
 
 #### Tools Used in this Troubleshooter:

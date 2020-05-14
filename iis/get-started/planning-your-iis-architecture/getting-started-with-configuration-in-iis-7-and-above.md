@@ -7,8 +7,8 @@ ms.assetid: b0c1dfad-6256-4c38-969d-88e5e4d2855a
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above
 msc.type: authoredcontent
 ---
-Getting Started with Configuration in IIS 7 and Above
-====================
+# Getting Started with Configuration in IIS 7 and Above
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Abstract

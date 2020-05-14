@@ -6,8 +6,7 @@ ms.author: yashi
 ms.date: 10/24/2017
 msc.type: authoredcontent
 ---
-IIS Thread Pool Ideal CPU Optimization for NUMA hardware
-====================
+# IIS Thread Pool Ideal CPU Optimization for NUMA hardware
 
 ### Compatibility
 

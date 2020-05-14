@@ -7,8 +7,8 @@ ms.assetid: 0327dacb-9010-4179-b0ae-4dd33d07d370
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/database-manager-for-hosters
 msc.type: authoredcontent
 ---
-Database Manager for Hosters
-====================
+# Database Manager for Hosters
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

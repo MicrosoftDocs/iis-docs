@@ -7,8 +7,8 @@ ms.assetid: 44acbe17-7840-4685-8aef-28906c32777d
 msc.legacyurl: /learn/get-started/localized-content/iis-localized-japanese-learn-articles-and-more
 msc.type: authoredcontent
 ---
-Localized Japanese LEARN articles and more
-====================
+# Localized Japanese LEARN articles and more
+
 by IIS Team
 
 ## 本サイトと IIS TechCenter (日本語版ポータル) について

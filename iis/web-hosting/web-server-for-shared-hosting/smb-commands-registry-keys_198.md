@@ -7,8 +7,8 @@ ms.assetid: 952b8892-957e-4ad6-be68-6bc1c0f6702f
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/smb-commands-registry-keys_198
 msc.type: authoredcontent
 ---
-SMB Commands Registry Keys
-====================
+# SMB Commands Registry Keys
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 41182993-2366-42b0-94b5-ebb940b873f8
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/environmentvariables/add
 msc.type: config
 ---
-Adding Environment Variables &lt;add&gt;
-====================
+# Adding Environment Variables &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

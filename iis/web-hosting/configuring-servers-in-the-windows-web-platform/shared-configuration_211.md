@@ -7,8 +7,8 @@ ms.assetid: 4c423bc4-1dac-4d0d-9be3-5c9b87b06e86
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/shared-configuration_211
 msc.type: authoredcontent
 ---
-Shared Configuration
-====================
+# Shared Configuration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

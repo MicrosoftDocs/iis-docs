@@ -7,8 +7,8 @@ ms.assetid: 65bddbf5-8b9e-423b-bcdf-d3d4e76336f3
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/dynamic-site-activation-in-iis85
 msc.type: authoredcontent
 ---
-Dynamic Website Activation in IIS 8.5
-====================
+# Dynamic Website Activation in IIS 8.5
+
 by [Gary Ericson](https://github.com/garyericson)
 
 > In IIS 8.5, when there are a large number of configured sites (100 or greater, by default), the service will not activate any of the sites when the service is started.

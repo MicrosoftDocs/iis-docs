@@ -7,8 +7,8 @@ ms.assetid: 74bd3170-cd2d-4490-bfa6-c9fd7328a5fc
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/administration-pack
 msc.type: authoredcontent
 ---
-Administration Pack
-====================
+# Administration Pack
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

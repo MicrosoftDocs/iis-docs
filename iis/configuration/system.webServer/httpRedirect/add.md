@@ -7,8 +7,8 @@ ms.assetid: aff43891-7336-4f40-910b-fd6eedbb4906
 msc.legacyurl: /configreference/system.webserver/httpredirect/add
 msc.type: config
 ---
-Adding HTTP Wildcard Redirects &lt;add&gt;
-====================
+# Adding HTTP Wildcard Redirects &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

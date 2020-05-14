@@ -7,8 +7,8 @@ ms.assetid: 3c27cc93-a917-4764-a631-c541df21f852
 msc.legacyurl: /learn/web-hosting/configuring-components/deploying-linq-with-net-35
 msc.type: authoredcontent
 ---
-Enabling LINQ with ASP.NET
-====================
+# Enabling LINQ with ASP.NET
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

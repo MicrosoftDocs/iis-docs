@@ -7,8 +7,8 @@ ms.assetid: efcc228a-b43c-4730-bdaa-9824bbd6f956
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/atomsite-faq
 msc.type: authoredcontent
 ---
-AtomSite FAQ
-====================
+# AtomSite FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

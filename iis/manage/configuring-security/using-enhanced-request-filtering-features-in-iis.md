@@ -7,8 +7,8 @@ ms.assetid: ed011e8b-e721-41b3-8e50-56cde29cfafa
 msc.legacyurl: /learn/manage/configuring-security/using-enhanced-request-filtering-features-in-iis
 msc.type: authoredcontent
 ---
-Using Enhanced Request Filtering Features in IIS7
-====================
+# Using Enhanced Request Filtering Features in IIS7
+
 by Suditi Lahiri
 
 This article provides a list of common usage scenarios for enhanced Request Filtering features, which is shipped with Windows Server 2008 SP2 or can be downloaded from [https://www.microsoft.com/downloads/](https://www.microsoft.com/downloads/) for Windows Server 2008 RTM. In the absence of a corresponding UI to configure these features, appcmd.exe is used to enable and configure the scenarios in this article.

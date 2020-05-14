@@ -7,8 +7,8 @@ ms.assetid: 79091683-bda2-412e-9bd4-e2a148b0f343
 msc.legacyurl: /learn/publish/using-the-ftp-service/adding-ftp-publishing-to-a-web-site-in-iis-7
 msc.type: authoredcontent
 ---
-Adding FTP Publishing to a Web Site in IIS 7
-====================
+# Adding FTP Publishing to a Web Site in IIS 7
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Compatibility

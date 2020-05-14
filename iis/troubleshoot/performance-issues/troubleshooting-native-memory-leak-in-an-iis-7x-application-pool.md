@@ -7,8 +7,8 @@ ms.assetid: 75e1c311-9d19-4f77-83a6-4a013d76d0b0
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-native-memory-leak-in-an-iis-7x-application-pool
 msc.type: authoredcontent
 ---
-Troubleshooting native memory leak in an IIS 7.x Application Pool
-====================
+# Troubleshooting native memory leak in an IIS 7.x Application Pool
+
 by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:

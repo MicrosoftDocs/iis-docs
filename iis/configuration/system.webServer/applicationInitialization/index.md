@@ -7,8 +7,8 @@ ms.assetid: 55aee3d6-ae2b-49b7-8004-8e1bc266e2a9
 msc.legacyurl: /configreference/system.webserver/applicationinitialization
 msc.type: config
 ---
-Application Initialization <applicationInitialization> &lt;applicationInitialization&gt;
-====================
+# Application Initialization <applicationInitialization> &lt;applicationInitialization&gt;
+
 <a id="001"></a>
 ## Overview
 

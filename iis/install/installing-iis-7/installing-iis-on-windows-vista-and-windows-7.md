@@ -7,8 +7,8 @@ ms.assetid: 0e9d9685-6391-48cd-8a57-d47f6592d16b
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7
 msc.type: authoredcontent
 ---
-Installing IIS 7 on Windows Vista and Windows 7
-====================
+# Installing IIS 7 on Windows Vista and Windows 7
+
 by IIS Team
 
 ## Introduction

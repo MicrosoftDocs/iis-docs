@@ -7,8 +7,8 @@ ms.assetid: b47e1bcf-47f1-4710-b686-db85030fb71d
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/create-a-separate-site-or-virtual-directory-for-php-content
 msc.type: authoredcontent
 ---
-Create a Separate Site or Virtual Directory for PHP Content
-====================
+# Create a Separate Site or Virtual Directory for PHP Content
+
 by Tali Smith
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 70f095ff-6766-4535-885a-0aca7f2a7fbb
 msc.legacyurl: /learn/develop/using-webmatrix/webmatrix-privacy-statement
 msc.type: authoredcontent
 ---
-WebMatrix Privacy Statement
-====================
+# WebMatrix Privacy Statement
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Microsoft WebMatrix 2.0 Privacy Statement

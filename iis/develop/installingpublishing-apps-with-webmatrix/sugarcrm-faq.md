@@ -7,8 +7,8 @@ ms.assetid: 920dcfb3-f125-4273-aa3d-2c260347f9cf
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/sugarcrm-faq
 msc.type: authoredcontent
 ---
-SugarCRM FAQ
-====================
+# SugarCRM FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

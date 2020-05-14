@@ -7,8 +7,8 @@ ms.assetid: d4f4d32f-efb9-40f4-a5cc-b1940d8045d6
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/customauthorization/provider
 msc.type: config
 ---
-Default FTP Custom Authorization Provider &lt;provider&gt;
-====================
+# Default FTP Custom Authorization Provider &lt;provider&gt;
+
 <a id="001"></a>
 ## Overview
 

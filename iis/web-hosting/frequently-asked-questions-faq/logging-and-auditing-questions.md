@@ -7,8 +7,8 @@ ms.assetid: fc398eec-07ee-4699-aa33-ea628195ab1c
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/logging-and-auditing-questions
 msc.type: authoredcontent
 ---
-Logging and Auditing Questions
-====================
+# Logging and Auditing Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### Can you delegate "logging" to remote administrators?

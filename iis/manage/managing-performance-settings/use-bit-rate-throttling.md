@@ -7,8 +7,8 @@ ms.assetid: 0ff9896a-d51a-4020-92fa-d3c77aa74bb9
 msc.legacyurl: /learn/manage/managing-performance-settings/use-bit-rate-throttling
 msc.type: authoredcontent
 ---
-Use Bit Rate Throttling
-====================
+# Use Bit Rate Throttling
+
 by Tali Smith
 
 ## Introduction

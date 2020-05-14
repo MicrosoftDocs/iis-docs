@@ -7,8 +7,8 @@ ms.assetid: fa53abca-5bda-4b1c-a35c-25610e76e78b
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-4-plan-application-security
 msc.type: authoredcontent
 ---
-Planning Step 4: Plan Application Security
-====================
+# Planning Step 4: Plan Application Security
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the security needs of your ASP.NET application. The following sections describe application security settings available in IIS 8:

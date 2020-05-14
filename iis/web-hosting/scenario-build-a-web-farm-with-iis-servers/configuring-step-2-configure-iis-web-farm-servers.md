@@ -7,8 +7,8 @@ ms.assetid: 15299639-f499-4b4f-9e5f-811dda98b618
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-2-configure-iis-web-farm-servers
 msc.type: authoredcontent
 ---
-Configuring Step 2: Configure IIS Web Farm Servers
-====================
+# Configuring Step 2: Configure IIS Web Farm Servers
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In the second phase of building your web farm, you configure shared content and shared configuration on your first web server. Then you add more web servers to your farm.

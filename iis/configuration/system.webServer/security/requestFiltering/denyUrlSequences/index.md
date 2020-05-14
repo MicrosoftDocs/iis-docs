@@ -7,8 +7,8 @@ ms.assetid: 2da3c74f-ccfb-4b54-91c2-d3ce9d2cee58
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyurlsequences
 msc.type: config
 ---
-Deny URL Sequences &lt;denyUrlSequences&gt;
-====================
+# Deny URL Sequences &lt;denyUrlSequences&gt;
+
 <a id="001"></a>
 ## Overview
 

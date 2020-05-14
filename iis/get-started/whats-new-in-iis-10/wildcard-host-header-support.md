@@ -7,8 +7,8 @@ ms.assetid: a4abd2b0-45b6-4dba-91c1-8c4c168ff24f
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/wildcard-host-header-support
 msc.type: authoredcontent
 ---
-Wildcard Host Header Support
-====================
+# Wildcard Host Header Support
+
 by [Andrew Westgarth](https://github.com/apwestgarth)
 
 ### Compatibility

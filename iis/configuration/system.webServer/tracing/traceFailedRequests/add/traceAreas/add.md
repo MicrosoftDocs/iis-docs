@@ -7,8 +7,8 @@ ms.assetid: 7bff3b20-d7fa-4c97-af27-54ddb21de4f9
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add/traceareas/add
 msc.type: config
 ---
-Adding Trace Areas &lt;add&gt;
-====================
+# Adding Trace Areas &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

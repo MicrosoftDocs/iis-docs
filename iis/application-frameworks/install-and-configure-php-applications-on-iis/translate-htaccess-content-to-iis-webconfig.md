@@ -7,8 +7,8 @@ ms.assetid: ce4e6cf1-dec5-4a42-9ca6-be447dc7fa0d
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig
 msc.type: authoredcontent
 ---
-Translate .htaccess Content to IIS web.config
-====================
+# Translate .htaccess Content to IIS web.config
+
 by Steve Jacobson
 
 ## Introduction

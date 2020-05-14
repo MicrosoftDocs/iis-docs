@@ -7,8 +7,8 @@ ms.assetid: 1adff8d1-0312-47d0-8d6a-9779d16bf78a
 msc.legacyurl: /configreference/system.applicationhost/sites/applicationdefaults
 msc.type: config
 ---
-Application Defaults &lt;applicationDefaults&gt;
-====================
+# Application Defaults &lt;applicationDefaults&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: d3c8271b-f860-43ca-b01a-85bfc35667f5
 msc.legacyurl: /learn/develop/runtime-extensibility/developing-a-module-using-net
 msc.type: authoredcontent
 ---
-Developing a Module Using .NET
-====================
+# Developing a Module Using .NET
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction

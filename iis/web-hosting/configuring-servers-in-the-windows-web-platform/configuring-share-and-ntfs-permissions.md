@@ -7,8 +7,8 @@ ms.assetid: 141816d0-0345-476e-be88-58deff95c9b2
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions
 msc.type: authoredcontent
 ---
-Share and NTFS Permissions
-====================
+# Share and NTFS Permissions
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

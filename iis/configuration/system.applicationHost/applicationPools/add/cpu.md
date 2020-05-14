@@ -7,8 +7,8 @@ ms.assetid: be45aa52-fe32-4fc1-9a04-ea0ca8d911d4
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/cpu
 msc.type: config
 ---
-CPU Settings for an Application Pool &lt;cpu&gt;
-====================
+# CPU Settings for an Application Pool &lt;cpu&gt;
+
 <a id="001"></a>
 ## Overview
 

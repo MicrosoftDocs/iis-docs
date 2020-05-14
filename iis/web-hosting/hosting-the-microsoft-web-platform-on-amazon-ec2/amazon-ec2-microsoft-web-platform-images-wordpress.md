@@ -7,8 +7,8 @@ ms.assetid: f36bee17-6301-46e9-9f6f-c23a57041664
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress
 msc.type: authoredcontent
 ---
-Amazon EC2: Microsoft Web Platform Images - Wordpress
-====================
+# Amazon EC2: Microsoft Web Platform Images - Wordpress
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

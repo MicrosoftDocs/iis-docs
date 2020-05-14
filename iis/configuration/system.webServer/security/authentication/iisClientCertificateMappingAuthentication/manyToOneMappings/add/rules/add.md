@@ -7,8 +7,8 @@ ms.assetid: a2b0156b-7d6b-4e31-9014-a170547b1d2b
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/rules/add
 msc.type: config
 ---
-Adding Many-To-One Mappings Rules &lt;add&gt;
-====================
+# Adding Many-To-One Mappings Rules &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

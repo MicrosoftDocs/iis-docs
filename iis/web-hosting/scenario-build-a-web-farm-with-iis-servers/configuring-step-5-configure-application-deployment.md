@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 # Configuring Step 5: Configure Application Deployment
 
-by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy for deploying web applications.
 

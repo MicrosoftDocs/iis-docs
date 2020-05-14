@@ -7,8 +7,8 @@ ms.assetid: b945d983-c2cc-4827-a408-fca9ec9b1bd6
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-client-readme
 msc.type: authoredcontent
 ---
-Smooth Streaming Client Readme
-====================
+# Smooth Streaming Client Readme
+
 by Dave Nelson
 
 Last Updated: May 31, 2012

@@ -7,8 +7,8 @@ ms.assetid: 63fcc706-7f61-40c0-bc17-8b57118ffd4f
 msc.legacyurl: /learn/publish/deploying-application-packages/blogenginenet
 msc.type: authoredcontent
 ---
-BlogEngine.NET
-====================
+# BlogEngine.NET
+
 by [Simon Tan](https://github.com/simtan)
 
 ## Introduction

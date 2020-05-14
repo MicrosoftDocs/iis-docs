@@ -7,8 +7,8 @@ ms.assetid: 00175a11-b9d6-4173-8a17-9be6178d208a
 msc.legacyurl: /learn/install/web-platform-installer/using-the-microsoft-web-platform-installer
 msc.type: authoredcontent
 ---
-Using the Microsoft Web Platform Installer
-====================
+# Using the Microsoft Web Platform Installer
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 ## Introduction

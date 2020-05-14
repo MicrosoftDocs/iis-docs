@@ -7,8 +7,8 @@ ms.assetid: a41dfdbd-d0c5-498c-bea1-e35801834170
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/deep-dive-into-iis-configuration-with-iis-7-and-iis-8
 msc.type: authoredcontent
 ---
-Deep Dive into IIS Configuration with IIS 7 and IIS 8
-====================
+# Deep Dive into IIS Configuration with IIS 7 and IIS 8
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 95fe9975-d6f3-4cfd-8a40-39ff01b19553
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/overview
 msc.type: authoredcontent
 ---
-Overview
-====================
+# Overview
+
 by [Simon Tan](https://github.com/simtan)
 
 ## Overview

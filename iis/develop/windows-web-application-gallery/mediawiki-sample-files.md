@@ -7,8 +7,8 @@ ms.assetid: 052e4fa7-82d5-41f8-8c22-a37428f6de27
 msc.legacyurl: /learn/develop/windows-web-application-gallery/mediawiki-sample-files
 msc.type: authoredcontent
 ---
-MediaWiki Sample Files
-====================
+# MediaWiki Sample Files
+
 by Steve Jacobson
 
 This is a set of sample files you could use with MediaWiki and the Web Deployment tool for deploying MediaWiki on IIS. The files are annotated with comments that explain specific lines in the files you'll need to customize for your configuration.

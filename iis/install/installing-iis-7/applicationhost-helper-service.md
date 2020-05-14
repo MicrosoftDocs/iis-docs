@@ -7,8 +7,8 @@ ms.assetid: f348c96a-4b83-4111-af85-7d9697b824a5
 msc.legacyurl: /learn/install/installing-iis-7/applicationhost-helper-service
 msc.type: authoredcontent
 ---
-ApplicationHost Helper Service
-====================
+# ApplicationHost Helper Service
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

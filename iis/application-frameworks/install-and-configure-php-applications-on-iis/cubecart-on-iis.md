@@ -7,8 +7,8 @@ ms.assetid: 8f3e0858-60eb-44ca-a09d-2179b395d359
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/cubecart-on-iis
 msc.type: authoredcontent
 ---
-CubeCart on IIS
-====================
+# CubeCart on IIS
+
 by Eric Woersching
 
 ## Introduction

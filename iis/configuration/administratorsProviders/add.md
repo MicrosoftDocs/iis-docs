@@ -7,8 +7,8 @@ ms.assetid: 3191c33a-4767-4ccf-b74f-4634d0eb7588
 msc.legacyurl: /configreference/administratorsproviders/add
 msc.type: config
 ---
-Adding Administrator Providers &lt;add&gt; (Deprecated)
-====================
+# Adding Administrator Providers &lt;add&gt; (Deprecated)
+
 <a id="001"></a>
 ## Note
 

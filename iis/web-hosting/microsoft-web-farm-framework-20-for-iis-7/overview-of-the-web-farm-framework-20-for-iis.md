@@ -7,8 +7,8 @@ ms.assetid: b87030cf-5086-476c-9320-454459d036af
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/overview-of-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---
-Overview of the Web Farm Framework 2.0 for IIS 7
-====================
+# Overview of the Web Farm Framework 2.0 for IIS 7
+
 by Randall DuBois
 
 In the past, setting up web farm servers, deploying content to them, and then managing them has been a tedious and error-prone process. It has required many manual and repetitive steps and ongoing tracking of the platform components, along with writing and using a combination of scripts and code.

@@ -7,8 +7,8 @@ ms.assetid: 8a9cf401-464f-4f0c-a4a2-22346a2faa23
 msc.legacyurl: /learn/publish/frontpage-server-extensions/installing-the-frontpage-server-extensions-on-iis
 msc.type: authoredcontent
 ---
-Installing the FrontPage Server Extensions on IIS 7
-====================
+# Installing the FrontPage Server Extensions on IIS 7
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 <a id="00"></a>As of December 18, 2010, Microsoft FrontPage Server Extensions (FPSE) 2002 for Windows Vista and Windows Server 2008 RTM is supported by Ready-to-Run Software. For support and servicing, contact [Ready-to-Run Software, Inc](https://go.microsoft.com/fwlink/?LinkId=207112). 

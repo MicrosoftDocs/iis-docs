@@ -7,8 +7,8 @@ ms.assetid: a21925ef-db5a-47fd-a931-16c3bb223128
 msc.legacyurl: /configreference/system.webserver/webdav
 msc.type: config
 ---
-WebDAV &lt;webdav&gt;
-====================
+# WebDAV &lt;webdav&gt;
+
 <a id="001"></a>
 ## Overview
 

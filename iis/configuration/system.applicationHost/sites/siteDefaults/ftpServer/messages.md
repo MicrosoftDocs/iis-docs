@@ -7,8 +7,8 @@ ms.assetid: 204ffa94-6637-4435-939c-363099441bfe
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/messages
 msc.type: config
 ---
-Default FTP Messages &lt;messages&gt;
-====================
+# Default FTP Messages &lt;messages&gt;
+
 <a id="001"></a>
 ## Overview
 

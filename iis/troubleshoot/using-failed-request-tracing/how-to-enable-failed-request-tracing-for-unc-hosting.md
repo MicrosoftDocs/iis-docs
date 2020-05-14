@@ -7,8 +7,8 @@ ms.assetid: 747b3570-6016-4a81-8b07-45e6bad0ff39
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting
 msc.type: authoredcontent
 ---
-How to Enable Failed Request Tracing for UNC Hosting
-====================
+# How to Enable Failed Request Tracing for UNC Hosting
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Configuring Failed Request Tracing and Logging for a Hosting Scenario

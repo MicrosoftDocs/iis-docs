@@ -7,8 +7,8 @@ ms.assetid: d209e10d-400a-4c2c-b4d6-0826554a8c62
 msc.legacyurl: /learn/extensions/url-rewrite-module/request-blocking-rule-template
 msc.type: authoredcontent
 ---
-Request Blocking - rule template
-====================
+# Request Blocking - rule template
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templates for some common usage scenarios. In addition to that URL rewrite module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use "Request Blocking" rule template that is included with URL rewrite module.

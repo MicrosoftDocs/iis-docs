@@ -7,8 +7,8 @@ ms.assetid: 8876b0e7-7cb1-4536-8607-ab8650ec3bdf
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-the-url-rewrite-module
 msc.type: authoredcontent
 ---
-Using the URL Rewrite Module
-====================
+# Using the URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## About the URL Rewrite module

@@ -7,8 +7,8 @@ ms.assetid: a1ee8630-bcaa-4b41-a17f-d5d7921f35d7
 msc.legacyurl: /configreference/system.webserver/management/trustedproviders
 msc.type: config
 ---
-Management Trusted Providers &lt;trustedProviders&gt;
-====================
+# Management Trusted Providers &lt;trustedProviders&gt;
+
 <a id="001"></a>
 ## Overview
 

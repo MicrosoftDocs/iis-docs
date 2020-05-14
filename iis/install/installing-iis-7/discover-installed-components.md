@@ -7,8 +7,8 @@ ms.assetid: 834203a5-cbeb-49af-a536-7d5ab91e5bfa
 msc.legacyurl: /learn/install/installing-iis-7/discover-installed-components
 msc.type: authoredcontent
 ---
-Discover Installed Components
-====================
+# Discover Installed Components
+
 by IIS Team
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 973bda81-4e3c-41ba-a1f2-1d594dd45309
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-deployment-guide
 msc.type: authoredcontent
 ---
-Smooth Streaming Deployment Guide
-====================
+# Smooth Streaming Deployment Guide
+
 by Dave Nelson
 
 Last Updated: August 16, 2010

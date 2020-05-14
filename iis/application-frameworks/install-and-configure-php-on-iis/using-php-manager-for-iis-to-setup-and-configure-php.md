@@ -7,8 +7,8 @@ ms.assetid: 9e07564f-3c41-4d22-ba76-3daaf0847db9
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/using-php-manager-for-iis-to-setup-and-configure-php
 msc.type: authoredcontent
 ---
-Using PHP Manager for IIS to setup and configure PHP
-====================
+# Using PHP Manager for IIS to setup and configure PHP
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ### Installation

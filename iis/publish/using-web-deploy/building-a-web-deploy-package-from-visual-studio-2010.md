@@ -7,8 +7,8 @@ ms.assetid: a674fbd0-9cb1-4e0e-8d51-cea7cfde5f9b
 msc.legacyurl: /learn/publish/using-web-deploy/building-a-web-deploy-package-from-visual-studio-2010
 msc.type: authoredcontent
 ---
-Building a Web Deploy Package from Visual Studio 2010
-====================
+# Building a Web Deploy Package from Visual Studio 2010
+
 by Ben Byrd
 
 ## Summary

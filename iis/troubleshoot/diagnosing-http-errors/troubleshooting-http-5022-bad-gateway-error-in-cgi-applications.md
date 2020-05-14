@@ -7,8 +7,8 @@ ms.assetid: 863de5df-e94e-458e-bc47-693426917508
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications
 msc.type: authoredcontent
 ---
-Troubleshooting HTTP 502.2 Bad Gateway error in CGI applications
-====================
+# Troubleshooting HTTP 502.2 Bad Gateway error in CGI applications
+
 by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:

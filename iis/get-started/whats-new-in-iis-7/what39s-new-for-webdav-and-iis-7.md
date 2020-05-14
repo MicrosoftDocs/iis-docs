@@ -7,8 +7,8 @@ ms.assetid: 4c5edfe7-1be1-4c57-93e0-b019141962e0
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/what39s-new-for-webdav-and-iis-7
 msc.type: authoredcontent
 ---
-What's New for WebDAV and IIS 7?
-====================
+# What's New for WebDAV and IIS 7?
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 4e53bfb5-2e62-4e7e-a2a9-b342f9b35594
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/webmatrix-mdf-migration
 msc.type: authoredcontent
 ---
-WebMatrix MDF Migration
-====================
+# WebMatrix MDF Migration
+
 by Faith A
 
 **Symptom:** You see a Database Migration Required message when you are trying to download a database from SQL Azure into a local MDF database.

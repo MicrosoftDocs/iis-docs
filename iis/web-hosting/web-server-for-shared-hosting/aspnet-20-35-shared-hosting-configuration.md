@@ -8,8 +8,8 @@ ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration
 msc.type: authoredcontent
 ---
-ASP.NET 2.0/3.5 Shared Hosting Configuration
-====================
+# ASP.NET 2.0/3.5 Shared Hosting Configuration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

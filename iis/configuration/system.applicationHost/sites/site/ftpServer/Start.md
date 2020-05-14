@@ -7,8 +7,8 @@ ms.assetid: ac56f66c-e8a7-48b3-b4f1-ff89158924a9
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/start
 msc.type: config
 ---
-FTP Site Start Method &lt;Start&gt;
-====================
+# FTP Site Start Method &lt;Start&gt;
+
 <a id="001"></a>
 ## Overview
 

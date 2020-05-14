@@ -7,8 +7,8 @@ ms.assetid: c37a0bcf-3870-4c29-a544-890dc473633f
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/gallery-server-pro-faq
 msc.type: authoredcontent
 ---
-Gallery Server Pro FAQ
-====================
+# Gallery Server Pro FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

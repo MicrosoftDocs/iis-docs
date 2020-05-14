@@ -7,8 +7,8 @@ ms.assetid: 369c1f7c-5a4e-42f0-b569-0f8677a86cd6
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Making Configuration Changes to Websites and App Pools
-====================
+# PowerShell Snap-in: Making Configuration Changes to Websites and App Pools
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 In this walkthrough you will learn how to change simple properties of IIS namespace containers like Web-Sites, Web Applications, Virtual Directories and Application Pools by using built-in PowerShell cmdlets. The next walkthrough will cover how to change configuration properties on system.webServer sections and custom sections.

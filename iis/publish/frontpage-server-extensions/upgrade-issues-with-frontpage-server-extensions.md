@@ -7,8 +7,8 @@ ms.assetid: 3c63718d-6635-4846-9656-ea561ef01e63
 msc.legacyurl: /learn/publish/frontpage-server-extensions/upgrade-issues-with-frontpage-server-extensions
 msc.type: authoredcontent
 ---
-Upgrade Issues with FrontPage Server Extensions
-====================
+# Upgrade Issues with FrontPage Server Extensions
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Introduction

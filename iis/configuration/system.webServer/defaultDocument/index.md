@@ -7,8 +7,8 @@ ms.assetid: 49fde6c2-4b6b-499d-8eb0-fd2cba88cf24
 msc.legacyurl: /configreference/system.webserver/defaultdocument
 msc.type: config
 ---
-Default Document &lt;defaultDocument&gt;
-====================
+# Default Document &lt;defaultDocument&gt;
+
 <a id="001"></a>
 ## Overview
 

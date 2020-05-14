@@ -7,8 +7,8 @@ ms.assetid: 044c461d-2c2d-4b10-9dab-573ac30d6802
 msc.legacyurl: /learn/publish/using-the-ftp-service/ftp-extension-video-walkthrough
 msc.type: video
 ---
-FTP Extension - Video Walkthrough
-====================
+# FTP Extension - Video Walkthrough
+
 by Vijay Sen
 
 This video demonstrates how to configure and use Microsoft FTP Module for IIS 7.0 to perform the following tasks: Enabling FTP for existing sites Creating a new FTP site Configuring FTP over SSL Using custom authentication providers for IIS manager authentication Configuring FTP virtual Host names 

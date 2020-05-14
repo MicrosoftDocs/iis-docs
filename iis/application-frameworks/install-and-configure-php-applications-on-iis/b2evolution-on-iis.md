@@ -7,8 +7,8 @@ ms.assetid: 7e42e33c-94c3-4781-9fee-9526622c176b
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/b2evolution-on-iis
 msc.type: authoredcontent
 ---
-b2Evolution on IIS
-====================
+# b2Evolution on IIS
+
 by Eric Woersching
 
 ## Introduction

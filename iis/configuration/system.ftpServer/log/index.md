@@ -7,8 +7,8 @@ ms.assetid: 81502b50-6eb0-4cf5-ae1e-18823df35eab
 msc.legacyurl: /configreference/system.ftpserver/log
 msc.type: config
 ---
-FTP Logging Options &lt;log&gt;
-====================
+# FTP Logging Options &lt;log&gt;
+
 <a id="001"></a>
 ## Overview
 

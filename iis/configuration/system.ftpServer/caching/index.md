@@ -7,8 +7,8 @@ ms.assetid: 46de19ae-6674-4144-9a39-cb23b6bc0617
 msc.legacyurl: /configreference/system.ftpserver/caching
 msc.type: config
 ---
-FTP Caching &lt;caching&gt;
-====================
+# FTP Caching &lt;caching&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 92e66c6b-c614-4db7-a46e-800da9f4047c
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-navigating-the-iis-snap-in-namespace
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Navigating the IIS Snap-in Namespace
-====================
+# PowerShell Snap-in: Navigating the IIS Snap-in Namespace
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 Everybody is familiar on how the file system is organized. File systems are hierarchical namespaces, comprised of directories that contain files and other directories. PowerShell Snap-in leverage this familarity with the file system and allow other data stores to be exposed as an hierarchical namespace. Like the root of a file system drive is usually `C:\` the root of the IIS configuration system is "IIS:\".

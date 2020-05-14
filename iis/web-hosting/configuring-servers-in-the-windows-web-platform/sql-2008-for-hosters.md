@@ -7,8 +7,8 @@ ms.assetid: f7e61547-5ac5-417b-979e-daf6e954f4f0
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters
 msc.type: authoredcontent
 ---
-SQL 2008 for Hosters
-====================
+# SQL 2008 for Hosters
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

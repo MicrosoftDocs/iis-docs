@@ -7,8 +7,8 @@ ms.assetid: 343c00ae-05a6-4e0c-9c3c-b4b66c948846
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/properties/add
 msc.type: config
 ---
-Adding XML Namespace to Property Provider Mappings &lt;add&gt;
-====================
+# Adding XML Namespace to Property Provider Mappings &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

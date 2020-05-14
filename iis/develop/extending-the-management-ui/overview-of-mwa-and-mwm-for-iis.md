@@ -7,8 +7,8 @@ ms.assetid: 89085f26-d6cd-48d1-b455-29bff045e9f8
 msc.legacyurl: /learn/develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis
 msc.type: authoredcontent
 ---
-Overview of MWA and MWM for IIS 7.0
-====================
+# Overview of MWA and MWM for IIS 7.0
+
 by [Janani Ravi](https://twitter.com/LoonyJanani)
 
 ## Abstract

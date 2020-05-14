@@ -7,8 +7,8 @@ ms.assetid: fdaced08-8321-4167-9640-7093d6bf2d54
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/clientcertauthentication
 msc.type: config
 ---
-FTP Client Certificate Authentication &lt;clientCertAuthentication&gt;
-====================
+# FTP Client Certificate Authentication &lt;clientCertAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 

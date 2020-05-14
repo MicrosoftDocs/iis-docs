@@ -7,8 +7,8 @@ ms.assetid: 599f2304-e4d7-4185-a972-15c5eabf915b
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-2-configure-php-settings
 msc.type: authoredcontent
 ---
-Configuring Step 2: Configure PHP Settings
-====================
+# Configuring Step 2: Configure PHP Settings
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a PHP website on IIS, you configure the WinCache PHP extension, configure PHP settings, and download and configure any other PHP extensions that your application requires.

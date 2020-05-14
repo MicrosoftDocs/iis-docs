@@ -8,7 +8,7 @@ msc.type: authoredcontent
 ---
 # IIS Express FAQ
 
-by Vaidy Gopalakrishnan
+by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
 
 This FAQ contains information about IIS Express support and other common questions.
 

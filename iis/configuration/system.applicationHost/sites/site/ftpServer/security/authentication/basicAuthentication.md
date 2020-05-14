@@ -7,8 +7,8 @@ ms.assetid: f55fe97a-c571-4c4e-a3f9-2a6113b1cbfc
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/basicauthentication
 msc.type: config
 ---
-FTP Basic Authentication &lt;basicAuthentication&gt;
-====================
+# FTP Basic Authentication &lt;basicAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 

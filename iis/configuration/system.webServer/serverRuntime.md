@@ -7,8 +7,8 @@ ms.assetid: e645cbbb-33a4-4b5e-8d5a-052e604c8b83
 msc.legacyurl: /configreference/system.webserver/serverruntime
 msc.type: config
 ---
-Server Runtime &lt;serverRuntime&gt;
-====================
+# Server Runtime &lt;serverRuntime&gt;
+
 <a id="001"></a>
 ## Overview
 

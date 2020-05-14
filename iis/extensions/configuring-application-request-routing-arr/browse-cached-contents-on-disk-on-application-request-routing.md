@@ -7,8 +7,8 @@ ms.assetid: f76a72cb-c3eb-474b-8c45-9505e0d5aacf
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/browse-cached-contents-on-disk-on-application-request-routing
 msc.type: authoredcontent
 ---
-Browse Cached Contents on Disk on Application Request Routing
-====================
+# Browse Cached Contents on Disk on Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

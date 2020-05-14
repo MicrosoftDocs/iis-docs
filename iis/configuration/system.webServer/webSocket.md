@@ -7,8 +7,8 @@ ms.assetid: bf50c5d6-476e-4c47-8067-830bbb27c334
 msc.legacyurl: /configreference/system.webserver/websocket
 msc.type: config
 ---
-WebSocket <webSocket> &lt;webSocket&gt;
-====================
+# WebSocket <webSocket> &lt;webSocket&gt;
+
 <a id="001"></a>
 ## Overview
 

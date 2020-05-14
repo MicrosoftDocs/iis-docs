@@ -7,8 +7,8 @@ ms.assetid: eba182f0-0428-474e-a87c-d478a631ce95
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-faq
 msc.type: authoredcontent
 ---
-UrlScan FAQ
-====================
+# UrlScan FAQ
+
 by [Nazim Lala](https://github.com/naziml)
 
 The following section provides answers to frequently asked questions about UrlScan.

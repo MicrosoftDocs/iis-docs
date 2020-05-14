@@ -7,8 +7,8 @@ ms.assetid: 06807a69-b5eb-47ac-9815-c3957e5706ef
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart
 msc.type: config
 ---
-Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;
-====================
+# Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;
+
 <a id="001"></a>
 ## Overview
 

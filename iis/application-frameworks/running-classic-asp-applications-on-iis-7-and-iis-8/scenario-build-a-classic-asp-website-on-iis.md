@@ -7,8 +7,8 @@ ms.assetid: 5ef6d45a-afa5-4da0-9b26-ea71d9e5bd07
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/scenario-build-a-classic-asp-website-on-iis
 msc.type: authoredcontent
 ---
-Scenario: Build a Classic ASP Website on IIS
-====================
+# Scenario: Build a Classic ASP Website on IIS
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 This document guides you through installing IIS and configuring a classic ASP website. Classic ASP is a server-side scripting environment that you can use to create and run dynamic web applications. With ASP, you can combine HTML pages, script commands, and COM components to create interactive web pages that are easy to develop and modify. Classic ASP is the predecessor to ASP.NET, but it is still in wide use today.

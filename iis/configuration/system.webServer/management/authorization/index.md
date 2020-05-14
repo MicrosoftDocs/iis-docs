@@ -7,8 +7,8 @@ ms.assetid: 71e9abac-672c-433d-8230-691ded87f336
 msc.legacyurl: /configreference/system.webserver/management/authorization
 msc.type: config
 ---
-Management Authorization &lt;authorization&gt;
-====================
+# Management Authorization &lt;authorization&gt;
+
 <a id="001"></a>
 ## Overview
 

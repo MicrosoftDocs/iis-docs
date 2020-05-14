@@ -7,8 +7,8 @@ ms.assetid: ce4cb80f-ec43-47a9-8296-c71e0256b41a
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/stop
 msc.type: config
 ---
-FTP Site Stop Method &lt;Stop&gt;
-====================
+# FTP Site Stop Method &lt;Stop&gt;
+
 <a id="001"></a>
 ## Overview
 

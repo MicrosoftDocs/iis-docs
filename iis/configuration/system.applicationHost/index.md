@@ -8,6 +8,7 @@ msc.legacyurl: /configreference/system.applicationhost
 msc.type: config
 ---
 # &lt;system.applicationHost&gt;
+
 <a id="001"></a>
 ## Overview
 

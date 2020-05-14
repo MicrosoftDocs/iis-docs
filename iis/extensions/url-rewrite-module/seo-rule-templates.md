@@ -7,8 +7,8 @@ ms.assetid: b1442d95-ba74-4810-87e6-359d94ab3787
 msc.legacyurl: /learn/extensions/url-rewrite-module/seo-rule-templates
 msc.type: authoredcontent
 ---
-SEO Rule Templates
-====================
+# SEO Rule Templates
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL Rewrite Module 2 includes several rule templates for some common usage scenarios. In addition to that URL Rewrite Module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use the "Search Engine Optimization" rule templates to make sure that the URLs used by pages on your web application are the most optimal for search engine ranking.

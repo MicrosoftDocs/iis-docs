@@ -7,8 +7,8 @@ ms.assetid: 355972b6-e9b0-494c-bc33-2cb9cdc82ad8
 msc.legacyurl: /configreference/system.ftpserver/caching/credentialscache
 msc.type: config
 ---
-FTP Credentials Cache &lt;credentialsCache&gt;
-====================
+# FTP Credentials Cache &lt;credentialsCache&gt;
+
 <a id="001"></a>
 ## Overview
 

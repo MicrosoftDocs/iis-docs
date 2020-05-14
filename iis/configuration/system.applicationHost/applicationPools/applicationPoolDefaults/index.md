@@ -7,8 +7,8 @@ ms.assetid: e99c3706-b442-473d-88cf-c272065872e6
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/applicationpooldefaults
 msc.type: config
 ---
-Application Pool Defaults &lt;applicationPoolDefaults&gt;
-====================
+# Application Pool Defaults &lt;applicationPoolDefaults&gt;
+
 <a id="001"></a>
 ## Overview
 

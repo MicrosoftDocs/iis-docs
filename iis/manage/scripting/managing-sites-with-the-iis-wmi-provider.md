@@ -7,8 +7,8 @@ ms.assetid: b5e21e97-c157-447a-b1d9-96e6e7799392
 msc.legacyurl: /learn/manage/scripting/managing-sites-with-the-iis-wmi-provider
 msc.type: authoredcontent
 ---
-Managing Sites with IIS 7.0's WMI Provider
-====================
+# Managing Sites with IIS 7.0's WMI Provider
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

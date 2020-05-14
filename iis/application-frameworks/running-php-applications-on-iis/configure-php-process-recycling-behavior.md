@@ -7,8 +7,8 @@ ms.assetid: 2caf4f65-32b2-454e-8613-c9e90b178363
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/configure-php-process-recycling-behavior
 msc.type: authoredcontent
 ---
-Configure PHP Process Recycling Behavior
-====================
+# Configure PHP Process Recycling Behavior
+
 by Tali Smith
 
 ## Introduction

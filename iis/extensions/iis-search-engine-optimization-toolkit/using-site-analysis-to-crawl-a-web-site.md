@@ -7,8 +7,8 @@ ms.assetid: 23f3d6f3-8c7d-4aaf-bcb4-fa71b158992a
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/using-site-analysis-to-crawl-a-web-site
 msc.type: authoredcontent
 ---
-Using Site Analysis to Crawl a Web Site
-====================
+# Using Site Analysis to Crawl a Web Site
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 IIS Site Analysis is a tool within the IIS Search Engine Optimization Toolkit that can be used to analyze Web sites with the purpose of optimizing the site's content, structure, and URLs for search engine crawlers. In addition, you can use the tool to discover and fix common problems in site content that negatively affect the site user experience. The IIS Site Analysis tool includes a Web crawler that crawls all publicly available site links and resources and downloads the content that will be used for site analysis.

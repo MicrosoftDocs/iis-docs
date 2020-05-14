@@ -7,8 +7,8 @@ ms.assetid: e158f1be-c9d6-4712-96b5-6ac949d542a9
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/fileextensions
 msc.type: config
 ---
-FTP File Name Extensions &lt;fileExtensions&gt;
-====================
+# FTP File Name Extensions &lt;fileExtensions&gt;
+
 <a id="001"></a>
 ## Overview
 

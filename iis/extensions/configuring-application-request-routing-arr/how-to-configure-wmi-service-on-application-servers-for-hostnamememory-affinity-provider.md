@@ -7,8 +7,8 @@ ms.assetid: 952093f4-ca8f-43db-9b59-32c0552120ea
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider
 msc.type: authoredcontent
 ---
-Configure WMI on application servers for HostNameMemory affinity provider
-====================
+# Configure WMI on application servers for HostNameMemory affinity provider
+
 by Won Yoo
 
 ## Overview

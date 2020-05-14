@@ -7,8 +7,8 @@ ms.assetid: e3c34cfb-604c-4ef2-bf05-0ac975f9eeab
 msc.legacyurl: /learn/extensions/planning-for-arr/application-request-routing-version-2-overview
 msc.type: authoredcontent
 ---
-Application Request Routing Version 2 Overview
-====================
+# Application Request Routing Version 2 Overview
+
 by IIS Team
 
 ## Introduction

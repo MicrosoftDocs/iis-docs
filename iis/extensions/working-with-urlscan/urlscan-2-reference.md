@@ -7,8 +7,8 @@ ms.assetid: c3019760-a9f1-45a4-88d4-4a9d4459d033
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-2-reference
 msc.type: authoredcontent
 ---
-UrlScan 2 Reference
-====================
+# UrlScan 2 Reference
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 > [!NOTE]

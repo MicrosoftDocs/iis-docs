@@ -7,8 +7,8 @@ ms.assetid: 9cedd308-783d-4a43-92c7-606c2f51bb6d
 msc.legacyurl: /learn/publish/using-webdav/how-to-use-custom-properties-with-webdav
 msc.type: authoredcontent
 ---
-How to Use Custom Properties With WebDAV
-====================
+# How to Use Custom Properties With WebDAV
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 <a id="00"></a>

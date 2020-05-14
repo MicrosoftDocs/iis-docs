@@ -7,8 +7,8 @@ ms.assetid: b16dca49-5d35-491e-b033-1bfda2e1cbad
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phpwcms-on-iis
 msc.type: authoredcontent
 ---
-PHPWCMS on IIS
-====================
+# PHPWCMS on IIS
+
 by Eric Woersching
 
 ## Introduction

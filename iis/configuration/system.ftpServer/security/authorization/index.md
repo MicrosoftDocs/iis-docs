@@ -7,8 +7,8 @@ ms.assetid: b4ce5d7f-6c7d-4cda-aebd-1a6dc04ca935
 msc.legacyurl: /configreference/system.ftpserver/security/authorization
 msc.type: config
 ---
-FTP Authorization &lt;authorization&gt;
-====================
+# FTP Authorization &lt;authorization&gt;
+
 <a id="001"></a>
 ## Overview
 

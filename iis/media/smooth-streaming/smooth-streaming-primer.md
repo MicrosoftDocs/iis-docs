@@ -7,8 +7,8 @@ ms.assetid: a284773e-8001-4788-8c3f-c09f34ab133c
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-primer
 msc.type: authoredcontent
 ---
-Smooth Streaming Primer
-====================
+# Smooth Streaming Primer
+
 by [John Deutscher](https://github.com/johndeu)
 
 Last Updated: August 2010

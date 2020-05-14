@@ -7,8 +7,8 @@ ms.assetid: a4a66430-9c15-4795-a4c4-6a09f7bc9be3
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/running-server-operations-using-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---
-Running Server Operations Using the Web Farm Framework 2.0 for IIS 7
-====================
+# Running Server Operations Using the Web Farm Framework 2.0 for IIS 7
+
 by Randall DuBois
 
 You can run an operation on all of the servers in the farm, or you can perform an operation on a single server.The types of operations you can perform on a server fit into the following categories:

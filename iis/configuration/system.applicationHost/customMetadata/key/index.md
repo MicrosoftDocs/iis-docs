@@ -7,8 +7,8 @@ ms.assetid: 002414f1-c399-4fb7-b9fb-04956a16b863
 msc.legacyurl: /configreference/system.applicationhost/custommetadata/key
 msc.type: config
 ---
-Custom Metadata Keys &lt;key&gt;
-====================
+# Custom Metadata Keys &lt;key&gt;
+
 <a id="001"></a>
 ## Overview
 

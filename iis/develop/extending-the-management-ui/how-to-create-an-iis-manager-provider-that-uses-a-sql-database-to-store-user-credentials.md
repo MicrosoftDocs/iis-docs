@@ -7,8 +7,8 @@ ms.assetid: 80179bb5-19f6-4088-a17e-1d221efb7bd9
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials
 msc.type: authoredcontent
 ---
-Create an IIS Manager Provider that uses SQL to Store User Credentials
-====================
+# Create an IIS Manager Provider that uses SQL to Store User Credentials
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview

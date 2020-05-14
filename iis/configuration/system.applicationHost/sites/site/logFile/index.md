@@ -7,8 +7,8 @@ ms.assetid: 9f05f757-f387-4871-84e4-0da8e899370f
 msc.legacyurl: /configreference/system.applicationhost/sites/site/logfile
 msc.type: config
 ---
-Log Files for a Web Site &lt;logFile&gt;
-====================
+# Log Files for a Web Site &lt;logFile&gt;
+
 <a id="001"></a>
 ## Overview
 

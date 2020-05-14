@@ -7,8 +7,8 @@ ms.assetid: 7c433163-13d9-4b55-a644-6003588fb05c
 msc.legacyurl: /learn/publish/using-web-deploy/using-web-deploy-for-web-farms
 msc.type: authoredcontent
 ---
-Using Web Deploy for Web Farms
-====================
+# Using Web Deploy for Web Farms
+
 by Faith A
 
 Web Deploy (Web Deployment Tool) is an IIS Extension that simplifies the migration, management and deployment of IIS Web servers, Web applications and Web sites. Administrators can use the Web Deployment Tool to synchronize both IIS 6.0 and IIS 7.0 and above servers, or to migrate an IIS 6.0 server to IIS 7.0 or above. It also enables administrators and delegated users to use IIS Manager to deploy ASP.NET and PHP applications to an IIS 7.0 or above server.

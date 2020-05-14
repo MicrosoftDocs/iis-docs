@@ -7,8 +7,8 @@ ms.assetid: 3faeeec3-76c2-4123-8758-93a9a1e8b30c
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/managing-on-demand-presentations
 msc.type: authoredcontent
 ---
-Managing On-Demand Presentations
-====================
+# Managing On-Demand Presentations
+
 by Dave Nelson
 
 Applies To: IIS Media Services 4.0

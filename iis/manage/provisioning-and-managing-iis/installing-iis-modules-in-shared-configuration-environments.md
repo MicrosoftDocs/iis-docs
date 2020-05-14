@@ -7,8 +7,8 @@ ms.assetid: a739d72a-8437-47ef-9914-bc2d6ea9461f
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/installing-iis-modules-in-shared-configuration-environments
 msc.type: authoredcontent
 ---
-Installing IIS Modules in Shared Configuration Environments
-====================
+# Installing IIS Modules in Shared Configuration Environments
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
