@@ -29,7 +29,7 @@ The Update Publishing Point Settings request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|PUT|http(s)://<hostname>/<filepath>/settings|
+|PUT|http(s)://\<hostname>/\<filepath>/settings|
 
 ### URI Parameters
 

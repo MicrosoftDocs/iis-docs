@@ -26,7 +26,7 @@ The Create a New Publishing Point request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|POST|http(s)://<hostname>/services/smoothstreaming/publishingpoints.isml/settings|
+|POST|http(s)://\<hostname>/services/smoothstreaming/publishingpoints.isml/settings|
 
 ### URI Parameters
 
@@ -42,7 +42,7 @@ The following table describes required and optional request headers.
 
 |Request Header|Description|Format|
 |--- |--- |--- |
-|Slug|Required. Specifies the path for the file to be created. For more information about the Slug header, see the Slug header section in the IETF’s [The Atom Syndication Format](http://bitworking.org/projects/atom/rfc5023.html).|Slug: /<path>/<filename.isml>|
+|Slug|Required. Specifies the path for the file to be created. For more information about the Slug header, see the Slug header section in the IETF’s [The Atom Syndication Format](http://bitworking.org/projects/atom/rfc5023.html).|Slug: /\<path>/<filename.isml>|
 
 ### Request Body
 

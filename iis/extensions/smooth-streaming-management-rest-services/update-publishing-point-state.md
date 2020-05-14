@@ -22,7 +22,7 @@ The Update Publishing Point State request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|PUT|http(s)://<hostname>/<filepath>/state|
+|PUT|http(s)://\<hostname>/\<filepath>/state|
 
 ### URI Parameters
 

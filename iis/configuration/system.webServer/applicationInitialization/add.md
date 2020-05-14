@@ -1,5 +1,5 @@
 ---
-title: "Adding Initialization Page <add> &lt;add&gt;"
+title: "Adding Initialization Page &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element under the &lt;applicationInitialization&gt; element specifies the application to be initialized upon application restart. To..."
 ms.date: 09/26/2016
@@ -7,12 +7,12 @@ ms.assetid: 3260fd7d-7dd2-466b-bd30-b18c0b6c5cde
 msc.legacyurl: /configreference/system.webserver/applicationinitialization/add
 msc.type: config
 ---
-# Adding Initialization Page <add> &lt;add&gt;
+# Adding Initialization Page &lt;add&gt;
 
 <a id="001"></a>
 ## Overview
 
-The `<add>` element under the `<applicationInitialization>` element specifies the application to be initialized upon application restart. To perform the application initialization process, IIS sends a fake request to the application to prompt the initialization. Multiple application URLs can be specified by using multiple &lt;add&gt; tags. These applications are not served to a requester. The page specified by the remapManagedRequestsTo attribute in the `<applicationInitialization>` element will be served to the customer.
+The `<add>` element under the `<applicationInitialization>` element specifies the application to be initialized upon application restart. To perform the application initialization process, IIS sends a fake request to the application to prompt the initialization. Multiple application URLs can be specified by using multiple `<add>` tags. These applications are not served to a requester. The page specified by the remapManagedRequestsTo attribute in the `<applicationInitialization>` element will be served to the customer.
 
 <a id="002"></a>
 ## Compatibility

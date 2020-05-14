@@ -22,7 +22,7 @@ The Delete a Publishing Point request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|DELETE|http(s)://<hostname>/<filepath>/settings|
+|DELETE|http(s)://\<hostname>/\<filepath>/settings|
 
 ### URI Parameters
 

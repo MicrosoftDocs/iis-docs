@@ -1,5 +1,5 @@
 ---
-title: "Application Initialization <applicationInitialization> &lt;applicationInitialization&gt;"
+title: "Application Initialization &lt;applicationInitialization&gt;"
 author: rick-anderson
 description: "Overview The &lt;applicationInitialization&gt; element specifies that web application initialization is performed proactively before a request is received. A..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: 55aee3d6-ae2b-49b7-8004-8e1bc266e2a9
 msc.legacyurl: /configreference/system.webserver/applicationinitialization
 msc.type: config
 ---
-# Application Initialization <applicationInitialization> &lt;applicationInitialization&gt;
+# Application Initialization &lt;applicationInitialization&gt;
 
 <a id="001"></a>
 ## Overview
