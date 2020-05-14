@@ -7,8 +7,8 @@ ms.assetid: 69aaabf6-ff92-4833-8996-6850e3a9a50b
 msc.legacyurl: /configreference/system.webserver/urlcompression
 msc.type: config
 ---
-URL Compression &lt;urlCompression&gt;
-====================
+# URL Compression &lt;urlCompression&gt;
+
 <a id="001"></a>
 ## Overview
 

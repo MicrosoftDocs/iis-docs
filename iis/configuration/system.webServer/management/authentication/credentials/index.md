@@ -7,8 +7,8 @@ ms.assetid: 89e76258-0814-4d50-8da1-60db5f92f1c2
 msc.legacyurl: /configreference/system.webserver/management/authentication/credentials
 msc.type: config
 ---
-Management Authentication Credentials &lt;credentials&gt;
-====================
+# Management Authentication Credentials &lt;credentials&gt;
+
 <a id="001"></a>
 ## Overview
 

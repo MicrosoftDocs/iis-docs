@@ -7,8 +7,8 @@ ms.assetid: c3955f19-2e00-41a6-90d8-d9c5414525d6
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/arr-as-generic-proxy-in-hotmail-and-skydrive
 msc.type: authoredcontent
 ---
-ARR as generic proxy in Hotmail and SkyDrive
-====================
+# ARR as generic proxy in Hotmail and SkyDrive
+
 by Amar Shroff
 
 This article describes integration and use of the Application Request Routing module as a generic proxy for the Hotmail and SkyDrive web sites allowing both services to roll out updates to users without any disruption in service across different deployed versions.

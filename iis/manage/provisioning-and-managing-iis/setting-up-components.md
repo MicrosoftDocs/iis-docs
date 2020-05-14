@@ -7,8 +7,8 @@ ms.assetid: 48825ae9-58ea-48ce-b408-fe8df6a82fbb
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/setting-up-components
 msc.type: authoredcontent
 ---
-Services Implementation
-====================
+# Services Implementation
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

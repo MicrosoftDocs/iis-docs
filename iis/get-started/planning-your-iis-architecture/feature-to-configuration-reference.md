@@ -7,8 +7,8 @@ ms.assetid: 10755442-bb08-461e-b3c6-95cbdd0565d8
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/feature-to-configuration-reference
 msc.type: authoredcontent
 ---
-Feature to Configuration Reference
-====================
+# Feature to Configuration Reference
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## IIS Manager Feature to Configuration Mapping

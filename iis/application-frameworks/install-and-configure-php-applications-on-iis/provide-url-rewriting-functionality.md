@@ -7,8 +7,8 @@ ms.assetid: 06fa0273-c583-4020-8743-1afadce4e625
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/provide-url-rewriting-functionality
 msc.type: authoredcontent
 ---
-Provide URL Rewriting Functionality
-====================
+# Provide URL Rewriting Functionality
+
 by Tali Smith
 
 ## Introduction

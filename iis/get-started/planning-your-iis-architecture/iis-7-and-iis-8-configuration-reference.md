@@ -7,8 +7,8 @@ ms.assetid: 6f9104ab-b5e3-4797-ab1e-514db1710fd2
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/iis-7-and-iis-8-configuration-reference
 msc.type: authoredcontent
 ---
-IIS 7 and IIS 8 Configuration Reference
-====================
+# IIS 7 and IIS 8 Configuration Reference
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction to ApplicationHost.config

@@ -7,8 +7,8 @@ ms.assetid: 8f238493-675a-4808-b92f-f25bc0426d75
 msc.legacyurl: /configreference/system.webserver/caching/profiles
 msc.type: config
 ---
-Caching Profiles &lt;profiles&gt;
-====================
+# Caching Profiles &lt;profiles&gt;
+
 <a id="001"></a>
 ## Overview
 

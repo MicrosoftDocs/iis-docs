@@ -7,8 +7,8 @@ ms.assetid: be06e91f-60cd-4271-9810-dfe0a44af1a3
 msc.legacyurl: /configreference/system.webserver/staticcontent/clientcache
 msc.type: config
 ---
-Client Cache &lt;clientCache&gt;
-====================
+# Client Cache &lt;clientCache&gt;
+
 <a id="001"></a>
 ## Overview
 

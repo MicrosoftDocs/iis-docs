@@ -7,8 +7,8 @@ ms.assetid: 9da8a3e4-1539-4a97-a020-9683d8b9ad2b
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-client-sdk-for-windows-8-release-notes
 msc.type: authoredcontent
 ---
-Smooth Streaming Client SDK for Windows 8 - Release Notes
-====================
+# Smooth Streaming Client SDK for Windows 8 - Release Notes
+
 by [Cenk Dingiloglu](https://github.com/cenkdin)
 
 The Smooth Streaming Client SDK for Windows 8 Apps enables developers to build Windows 8 applications that can play on-demand and live Smooth Streaming content with or without Microsoft PlayReady protection. This document describes the important known issues that occur in this release of the SDK.

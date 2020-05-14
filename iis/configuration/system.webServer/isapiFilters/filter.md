@@ -7,8 +7,8 @@ ms.assetid: ebfc1f61-5ad4-4881-87b4-aa2f9f7bdd26
 msc.legacyurl: /configreference/system.webserver/isapifilters/filter
 msc.type: config
 ---
-Filter &lt;filter&gt;
-====================
+# Filter &lt;filter&gt;
+
 <a id="001"></a>
 ## Overview
 

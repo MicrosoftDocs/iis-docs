@@ -7,8 +7,8 @@ ms.assetid: e4b39b93-5af3-49d2-a5f1-e8a6bc104b47
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/iis-7-wmi-provider
 msc.type: authoredcontent
 ---
-IIS 7 WMI Provider
-====================
+# IIS 7 WMI Provider
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

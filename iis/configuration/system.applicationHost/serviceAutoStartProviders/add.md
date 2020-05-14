@@ -7,8 +7,8 @@ ms.assetid: 21093bf7-41ef-4096-b727-e2c0a786bc35
 msc.legacyurl: /configreference/system.applicationhost/serviceautostartproviders/add
 msc.type: config
 ---
-Adding Service Autostart Providers &lt;add&gt;
-====================
+# Adding Service Autostart Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

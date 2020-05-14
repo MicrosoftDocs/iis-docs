@@ -7,8 +7,8 @@ ms.assetid: 1c579158-5b2a-4f47-9b75-b16da57d2806
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/hiddensegments/add
 msc.type: config
 ---
-Adding FTP Hidden Segments &lt;add&gt;
-====================
+# Adding FTP Hidden Segments &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

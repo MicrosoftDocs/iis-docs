@@ -7,8 +7,8 @@ ms.assetid: 0127d833-3d44-4e38-a2b3-f8ba6628e972
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule
 msc.type: config
 ---
-Request Filtering Rule &lt;filteringRule&gt;
-====================
+# Request Filtering Rule &lt;filteringRule&gt;
+
 <a id="001"></a>
 ## Overview
 

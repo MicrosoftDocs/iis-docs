@@ -7,8 +7,8 @@ ms.assetid: c42b79be-4623-4844-a15e-0156688c9d93
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/fileextensions
 msc.type: config
 ---
-File Name Extensions &lt;fileExtensions&gt;
-====================
+# File Name Extensions &lt;fileExtensions&gt;
+
 <a id="001"></a>
 ## Overview
 

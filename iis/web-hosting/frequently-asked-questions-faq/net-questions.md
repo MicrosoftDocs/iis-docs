@@ -7,8 +7,8 @@ ms.assetid: 962ccf05-344c-4435-9518-a9bd1e57f4bb
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/net-questions
 msc.type: authoredcontent
 ---
-.NET Questions
-====================
+# .NET Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Can ASP.NET websites built with Visual Studio 2008 Beta 2 be used in partial trust configurations?

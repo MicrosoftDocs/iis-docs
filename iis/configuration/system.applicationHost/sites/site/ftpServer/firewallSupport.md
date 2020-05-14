@@ -7,8 +7,8 @@ ms.assetid: 5c618cd7-8c67-49d5-b79d-540d3692b2e0
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/firewallsupport
 msc.type: config
 ---
-FTP Firewall Support &lt;firewallSupport&gt;
-====================
+# FTP Firewall Support &lt;firewallSupport&gt;
+
 <a id="001"></a>
 ## Overview
 

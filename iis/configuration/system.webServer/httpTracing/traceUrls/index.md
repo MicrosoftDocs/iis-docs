@@ -7,8 +7,8 @@ ms.assetid: 557cdc56-b4c4-4c70-971d-d87adc571a6c
 msc.legacyurl: /configreference/system.webserver/httptracing/traceurls
 msc.type: config
 ---
-Trace URLs &lt;traceUrls&gt;
-====================
+# Trace URLs &lt;traceUrls&gt;
+
 <a id="001"></a>
 ## Overview
 

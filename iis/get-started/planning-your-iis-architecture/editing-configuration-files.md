@@ -7,8 +7,8 @@ ms.assetid: a5f66443-ef14-4209-b427-54e156937ed9
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/editing-configuration-files
 msc.type: video
 ---
-Editing Configuration Files
-====================
+# Editing Configuration Files
+
 by IIS Team
 
 Strongly typed schema written in clear-text XML makes IIS configuration files simple to read and edit. This tutorial covers reading and setting configuration in ApplicationHost.config at the server level and Web.config files at the site and application level.

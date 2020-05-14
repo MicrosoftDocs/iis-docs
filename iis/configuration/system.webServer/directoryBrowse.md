@@ -7,8 +7,8 @@ ms.assetid: 7c3f66e6-e093-463a-8b8b-2d45c24bff8a
 msc.legacyurl: /configreference/system.webserver/directorybrowse
 msc.type: config
 ---
-Directory Browse &lt;directoryBrowse&gt;
-====================
+# Directory Browse &lt;directoryBrowse&gt;
+
 <a id="001"></a>
 ## Overview
 

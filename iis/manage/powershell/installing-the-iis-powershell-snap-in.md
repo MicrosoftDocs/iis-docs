@@ -7,8 +7,8 @@ ms.assetid: 46ae3bb1-3a75-4747-a646-6185b80a99e4
 msc.legacyurl: /learn/manage/powershell/installing-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---
-Installing the IIS 7.0 PowerShell Snap-in
-====================
+# Installing the IIS 7.0 PowerShell Snap-in
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: f1580123-265c-440b-ae5b-0120fe5dd786
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-php
 msc.type: authoredcontent
 ---
-Verifying the Developer Experience - PHP
-====================
+# Verifying the Developer Experience - PHP
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -49,13 +49,13 @@ Now you are ready to publish the application.
 1. Open your WordPress Site with VWD. The following dialog will display, press Yes.  
    
      [![](verifying-the-developer-experience-php/_static/image5.jpg)](verifying-the-developer-experience-php/_static/image4.jpg)
-	 [![](verifying-the-developer-experience-php/_static/image7.jpg)](verifying-the-developer-experience-php/_static/image6.jpg)
+     [![](verifying-the-developer-experience-php/_static/image7.jpg)](verifying-the-developer-experience-php/_static/image6.jpg)
 2. Modify the server name for the database and any other values provided by the hoster.  
      [![](verifying-the-developer-experience-php/_static/image9.jpg)](verifying-the-developer-experience-php/_static/image8.jpg)
 3. Open the menu Website and select "Copy Web Site":  
    
      [![](verifying-the-developer-experience-php/_static/image11.jpg)](verifying-the-developer-experience-php/_static/image10.jpg)
-	 [![](verifying-the-developer-experience-php/_static/image13.jpg)](verifying-the-developer-experience-php/_static/image12.jpg)
+     [![](verifying-the-developer-experience-php/_static/image13.jpg)](verifying-the-developer-experience-php/_static/image12.jpg)
 4. Click Connect. Select FTP Site and enter the Server name, Port and user account credentials. Ensure that "Passive Mode" is checked and press Open:  
    
     [![](verifying-the-developer-experience-php/_static/image15.jpg)](verifying-the-developer-experience-php/_static/image14.jpg)

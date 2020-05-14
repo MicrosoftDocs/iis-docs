@@ -7,8 +7,8 @@ ms.assetid: 4408306d-79cf-4666-87fe-a6bef6d05b68
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/shared-configuration-and-remote-provisioning
 msc.type: authoredcontent
 ---
-Shared Configuration and Remote Provisioning
-====================
+# Shared Configuration and Remote Provisioning
+
 by [Walter Oliver](https://github.com/walterov)
 
 When using the IIS 7 Shared Configuration featured in an environment where site provisioning tasks are driven from a remote machine, you can encounter what is know as the "double-hop authentication issue". This issue will prevent you from executing provisioning tasks. This article describes the problem and provides workarounds for it.

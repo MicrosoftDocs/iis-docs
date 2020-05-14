@@ -7,8 +7,8 @@ ms.assetid: f5310c01-2939-4b93-a9dc-1f0532eae2f9
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing
 msc.type: authoredcontent
 ---
-Configure Site for Web Deploy Publishing
-====================
+# Configure Site for Web Deploy Publishing
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Configure Sites for Web Deploy Publishing

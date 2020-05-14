@@ -7,8 +7,8 @@ ms.assetid: 2caf4f65-32b2-454e-8613-c9e90b178363
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/configure-php-process-recycling-behavior
 msc.type: authoredcontent
 ---
-Configure PHP Process Recycling Behavior
-====================
+# Configure PHP Process Recycling Behavior
+
 by Tali Smith
 
 ## Introduction
@@ -22,21 +22,21 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 1. To configure FastCGI recycling settings by using IIS Manager, you must install Administration Pack for IIS 7.0 and above, and then select FastCGI Settings at the server level.  
 
     [![](configure-php-process-recycling-behavior/_static/image2.jpg)](configure-php-process-recycling-behavior/_static/image1.jpg)  
-	*Figure 1: IIS Manager, FastCGI Settings*
+    *Figure 1: IIS Manager, FastCGI Settings*
 2. Next, select the FastCGI application that you want to configure, and then click **Edit** in the **Actions** pane on the right side.  
 
     [![](configure-php-process-recycling-behavior/_static/image4.jpg)](configure-php-process-recycling-behavior/_static/image3.jpg)  
-	*Figure 2: FastCGI Settings page*
+    *Figure 2: FastCGI Settings page*
 3. In the **Edit FastCGI Application** dialog box, set **InstanceMaxRequest** to **10000,** and then click on the **browse** button next to the **EnvironmentVariables** setting.  
 
     [![](configure-php-process-recycling-behavior/_static/image6.jpg)](configure-php-process-recycling-behavior/_static/image5.jpg)  
-	*Figure 3: Edit FastCGI Application dialog box*
+    *Figure 3: Edit FastCGI Application dialog box*
 4. Add the **PHP\_FCGI\_MAX\_REQUESTS** environment variable, and set its value to **10000**.  
     > [!NOTE]
     > If you do not configure these settings, then the following default settings are used: **InstanceMaxRequests** of 200, **PHP\_FCGI\_MAX\_REQUESTS** of 500 (on most PHP builds).  
 
     [![](configure-php-process-recycling-behavior/_static/image8.jpg)](configure-php-process-recycling-behavior/_static/image7.jpg)  
-	*Figure 4: Environment Variables Collection Editor dialog box*
+    *Figure 4: Environment Variables Collection Editor dialog box*
 
 ## Use the Command Line
 

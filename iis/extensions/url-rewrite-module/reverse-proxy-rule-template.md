@@ -7,8 +7,8 @@ ms.assetid: 5c2ea207-8d14-47cf-bc81-6266e5b081e9
 msc.legacyurl: /learn/extensions/url-rewrite-module/reverse-proxy-rule-template
 msc.type: authoredcontent
 ---
-Reverse Proxy - Rule Template
-====================
+# Reverse Proxy - Rule Template
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL Rewrite Module 2 includes several rule templates for some common usage scenarios. In addition to that URL Rewrite Module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use "Reverse Proxy" rule template that is included with URL rewrite module. To learn more about configuring reverse proxy with IIS URL Rewrite Module and IIS Application Request Routing refer to Reverse Proxy with URL Rewrite v2 and Application Request Routing.

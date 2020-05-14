@@ -7,8 +7,8 @@ ms.assetid: b15f8892-77c2-4711-be34-3f8e099aa8e5
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture/shared-hosting-configuration
 msc.type: authoredcontent
 ---
-Shared Hosting Configuration
-====================
+# Shared Hosting Configuration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

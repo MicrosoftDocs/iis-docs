@@ -7,8 +7,8 @@ ms.assetid: 24fba3da-5474-4f1c-b8da-113d93316757
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity/denybyconcurrentrequests
 msc.type: config
 ---
-Deny by Concurrent Requests <denyByConcurrentRequests> &lt;denyByConcurrentRequests&gt;
-====================
+# Deny by Concurrent Requests <denyByConcurrentRequests> &lt;denyByConcurrentRequests&gt;
+
 <a id="001"></a>
 ## Overview
 

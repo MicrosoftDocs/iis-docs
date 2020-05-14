@@ -7,8 +7,8 @@ ms.assetid: 7835c60f-7655-48d0-8a79-3fc9fa8e22b3
 msc.legacyurl: /configreference/system.webserver/httperrors
 msc.type: config
 ---
-HTTP Errors &lt;httpErrors&gt;
-====================
+# HTTP Errors &lt;httpErrors&gt;
+
 <a id="001"></a>
 ## Overview
 

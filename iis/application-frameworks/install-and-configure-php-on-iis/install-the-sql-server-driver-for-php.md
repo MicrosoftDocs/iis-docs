@@ -7,8 +7,8 @@ ms.assetid: 2e1b4523-a32f-4390-bf9f-552f21ecc93b
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php
 msc.type: authoredcontent
 ---
-Install the Microsoft Drivers for PHP for SQL Server
-====================
+# Install the SQL Server Driver for PHP
+
 by Tali Smith
 
 ## Introduction

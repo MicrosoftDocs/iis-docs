@@ -7,8 +7,8 @@ ms.assetid: cc346e62-1616-4fe5-a727-cb79308d3081
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys_196
 msc.type: authoredcontent
 ---
-SMB Command Registry Keys
-====================
+# SMB Command Registry Keys
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

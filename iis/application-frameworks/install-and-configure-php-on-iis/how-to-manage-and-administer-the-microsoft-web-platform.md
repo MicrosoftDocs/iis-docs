@@ -7,8 +7,8 @@ ms.assetid: 0de263a3-9995-4937-aeaa-141b0692c914
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-manage-and-administer-the-microsoft-web-platform
 msc.type: authoredcontent
 ---
-How to Manage and Administer the Microsoft Web Platform
-====================
+# How to Manage and Administer the Microsoft Web Platform
+
 by Tali Smith
 
 The following articles provide guidance in managing and administering the Microsoft® Web Platform.

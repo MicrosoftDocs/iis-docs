@@ -7,8 +7,8 @@ ms.assetid: 2e7bdef4-8df9-4e9b-94dc-bf3e7a7fbed2
 msc.legacyurl: /configreference/system.webserver/security/applicationdependencies/application/add
 msc.type: config
 ---
-Adding Applications for Application Dependencies &lt;add&gt;
-====================
+# Adding Applications for Application Dependencies &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

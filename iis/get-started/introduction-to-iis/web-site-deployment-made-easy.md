@@ -7,8 +7,8 @@ ms.assetid: 2258ad69-e31f-4b0f-a1bc-58680b562ccb
 msc.legacyurl: /learn/get-started/introduction-to-iis/web-site-deployment-made-easy
 msc.type: authoredcontent
 ---
-Web Site Deployment Made Easy
-====================
+# Web Site Deployment Made Easy
+
 by IIS Team, [Saad Ladki](https://twitter.com/saadladki)
 
 ### Compatibility

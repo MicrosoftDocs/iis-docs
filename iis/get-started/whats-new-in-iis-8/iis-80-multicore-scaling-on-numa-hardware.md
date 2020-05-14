@@ -7,8 +7,8 @@ ms.assetid: df9d0267-fe2f-4d5c-a549-c3e7942f7296
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-multicore-scaling-on-numa-hardware
 msc.type: authoredcontent
 ---
-IIS 8.0 Multicore Scaling on NUMA Hardware
-====================
+# IIS 8.0 Multicore Scaling on NUMA Hardware
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ### Compatibility

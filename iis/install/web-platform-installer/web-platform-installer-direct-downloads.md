@@ -7,8 +7,8 @@ ms.assetid: 4003c4b8-ccd1-43d7-a5d5-45ab60e7ed91
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-direct-downloads
 msc.type: authoredcontent
 ---
-Web Platform Installer Direct Downloads
-====================
+# Web Platform Installer Direct Downloads
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 **WebPI Direct Download Links**  

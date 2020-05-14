@@ -7,8 +7,8 @@ ms.assetid: d5347aec-b4aa-4223-97df-f31eb698453d
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule
 msc.type: config
 ---
-Periodic Restart Schedules &lt;schedule&gt;
-====================
+# Periodic Restart Schedules &lt;schedule&gt;
+
 <a id="001"></a>
 ## Overview
 

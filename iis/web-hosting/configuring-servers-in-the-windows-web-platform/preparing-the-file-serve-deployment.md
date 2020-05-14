@@ -7,8 +7,8 @@ ms.assetid: e1de6e2a-3c68-4bdf-a78d-19f4020c23a8
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/preparing-the-file-serve-deployment
 msc.type: authoredcontent
 ---
-Separate Partitions for Improved Performance
-====================
+# Separate Partitions for Improved Performance
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

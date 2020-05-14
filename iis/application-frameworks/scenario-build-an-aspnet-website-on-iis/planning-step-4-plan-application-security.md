@@ -7,8 +7,8 @@ ms.assetid: fa53abca-5bda-4b1c-a35c-25610e76e78b
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-4-plan-application-security
 msc.type: authoredcontent
 ---
-Planning Step 4: Plan Application Security
-====================
+# Planning Step 4: Plan Application Security
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the security needs of your ASP.NET application. The following sections describe application security settings available in IIS 8:
@@ -25,7 +25,8 @@ Web application isolation entails the following:
 - Temp isolation: Set up a separate ASP.NET temp folder per site and only give access to appropriate process identity.
 - Content isolation: Make sure to set an ACL (access control list) on each site root to allow only access to the appropriate process identity.
 
-**Tip**: It is a good idea to host your website and web application content on a drive other than your system drive (C:).
+> [!TIP]
+> It is a good idea to host your website and web application content on a drive other than your system drive (C:).
 
 <a id="42"></a>
 ## 4.2. .NET Trust Levels

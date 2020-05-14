@@ -7,8 +7,8 @@ ms.assetid: fc81cac6-60f9-4699-808b-8082fad4fe1c
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits
 msc.type: config
 ---
-Request Limits &lt;requestLimits&gt;
-====================
+# Request Limits &lt;requestLimits&gt;
+
 <a id="001"></a>
 ## Overview
 

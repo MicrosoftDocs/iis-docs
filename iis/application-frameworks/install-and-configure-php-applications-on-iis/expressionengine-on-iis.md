@@ -7,8 +7,8 @@ ms.assetid: 80b02fea-6773-499c-a470-733b02c34f79
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/expressionengine-on-iis
 msc.type: authoredcontent
 ---
-ExpressionEngine on IIS
-====================
+# ExpressionEngine on IIS
+
 by Eric Woersching
 
 ## Introduction

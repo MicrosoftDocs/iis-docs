@@ -7,8 +7,8 @@ ms.assetid: 350666dd-59df-4988-9b6c-8fcf6c508e2c
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/provisioning-options-in-iis-7
 msc.type: authoredcontent
 ---
-Provisioning Options in IIS 7
-====================
+# Provisioning Options in IIS 7
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Options Table

@@ -7,8 +7,8 @@ ms.assetid: e24404ce-8309-4c5f-ba54-d5aef30f7ce2
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/plan-a-web-farm-with-iis-servers
 msc.type: authoredcontent
 ---
-Plan a Web Farm with IIS Servers
-====================
+# Plan a Web Farm with IIS Servers
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview

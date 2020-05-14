@@ -7,8 +7,8 @@ ms.assetid: 58cade70-6cd2-48e2-9550-98b053e4fcae
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/adding-ie-9-mime-types-to-iis
 msc.type: authoredcontent
 ---
-Adding IE 9 MIME Types to IIS 7
-====================
+# Adding IE 9 MIME Types to IIS 7
+
 by Randall DuBois
 
 The preview release of Microsoft Internet Explorer (IE) version 9 includes support for additional MIME Types for rich media applications. To support the additional MIME Types, the MIME types must be added to your IIS server.

@@ -7,8 +7,8 @@ ms.assetid: 08c4f998-bb43-4500-90f8-03e3d495683e
 msc.legacyurl: /learn/get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis
 msc.type: authoredcontent
 ---
-Understanding Built-In User and Group Accounts in IIS 7
-====================
+# Understanding Built-In User and Group Accounts in IIS 7
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

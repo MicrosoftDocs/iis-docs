@@ -7,8 +7,8 @@ ms.assetid: 29f4c760-525f-4c61-9e06-ab37014a7dc8
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/setup-mysql-with-webmatrix-support
 msc.type: authoredcontent
 ---
-Setup MySQL with WebMatrix Support
-====================
+# Setup MySQL with WebMatrix Support
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## MySQL Installation

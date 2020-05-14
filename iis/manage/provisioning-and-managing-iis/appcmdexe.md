@@ -7,8 +7,8 @@ ms.assetid: d8dee124-270e-4785-b476-eada2e6df862
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/appcmdexe
 msc.type: authoredcontent
 ---
-AppCmd.exe
-====================
+# AppCmd.exe
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

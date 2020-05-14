@@ -7,8 +7,8 @@ ms.assetid: d149191a-b70e-4d1a-a3fc-7d37c025d8e5
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-ftp-logon-attempt-restrictions
 msc.type: authoredcontent
 ---
-IIS 8.0 FTP Logon Attempt Restrictions
-====================
+# IIS 8.0 FTP Logon Attempt Restrictions
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ### Compatibility

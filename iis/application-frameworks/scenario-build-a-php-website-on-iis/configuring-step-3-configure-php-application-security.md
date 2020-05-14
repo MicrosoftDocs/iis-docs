@@ -7,8 +7,8 @@ ms.assetid: bfe133a7-7b27-48b0-acb1-30a1bf883426
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-3-configure-php-application-security
 msc.type: authoredcontent
 ---
-Configuring Step 3: Configure PHP Application Security
-====================
+# Configuring Step 3: Configure PHP Application Security
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this last step in building a PHP website on IIS, you configure PHP settings, web server settings, and PHP application settings that improve your website security.

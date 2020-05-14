@@ -7,8 +7,8 @@ ms.assetid: ed6fd81d-0cf6-4ac9-9769-d44c671b0c0f
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/logfile/customfields/add
 msc.type: config
 ---
-Adding Default Custom Fields to a Log File &lt;add&gt;
-====================
+# Adding Default Custom Fields to a Log File &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

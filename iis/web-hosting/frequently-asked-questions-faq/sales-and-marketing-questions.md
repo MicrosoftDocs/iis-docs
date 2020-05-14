@@ -7,8 +7,8 @@ ms.assetid: 8c068e9a-8ae6-4abf-be03-0b70f2dde5ab
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/sales-and-marketing-questions
 msc.type: authoredcontent
 ---
-Sales and Marketing Questions
-====================
+# Sales and Marketing Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### Why should customers migrate from IIS 6.0 to IIS 7.0?

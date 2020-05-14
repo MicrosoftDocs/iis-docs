@@ -7,8 +7,8 @@ ms.assetid: 68b31d24-2e79-44ca-9a24-8e0dcb554b22
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb
 msc.type: authoredcontent
 ---
-Achieving High Availability and Scalability - ARR and NLB
-====================
+# Achieving High Availability and Scalability - ARR and NLB
+
 by Won Yoo
 
 **Achieving High Availability and Scalability:**  

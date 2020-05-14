@@ -7,8 +7,8 @@ ms.assetid: 3deeba26-60a8-4277-a489-4acd5ae6486c
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-install-the-microsoft-web-platform-for-php
 msc.type: authoredcontent
 ---
-How to Install the Microsoft Web Platform for PHP
-====================
+# How to Install the Microsoft Web Platform for PHP
+
 by Tali Smith
 
 ## Introduction

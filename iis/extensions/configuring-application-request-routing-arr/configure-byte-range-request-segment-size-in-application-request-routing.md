@@ -7,8 +7,8 @@ ms.assetid: cb1641e4-53b0-491b-8a54-245997e25d18
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-byte-range-request-segment-size-in-application-request-routing
 msc.type: authoredcontent
 ---
-Configure Byte-range Request Segment Size in Application Request Routing
-====================
+# Configure Byte-range Request Segment Size in Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

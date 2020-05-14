@@ -7,8 +7,8 @@ ms.assetid: b4e289bd-faa9-4bd1-91d1-0fbab5a721ff
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/configuring-iis-for-silverlight-applications
 msc.type: authoredcontent
 ---
-Configuring IIS for Silverlight Applications
-====================
+# Configuring IIS for Silverlight Applications
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

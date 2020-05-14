@@ -7,8 +7,8 @@ ms.assetid: 055f0622-955d-49c8-989a-897bb9c7e22e
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection/spn
 msc.type: config
 ---
-Service Principal Name &lt;spn&gt;
-====================
+# Service Principal Name &lt;spn&gt;
+
 <a id="001"></a>
 ## Overview
 

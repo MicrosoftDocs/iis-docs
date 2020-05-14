@@ -7,8 +7,8 @@ ms.assetid: 6c81b442-b873-4b8b-93a8-ee1cbd1b9c46
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/xoops-on-iis
 msc.type: authoredcontent
 ---
-XOOPS on IIS
-====================
+# XOOPS on IIS
+
 by Eric Woersching
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: b96eb6d7-f06c-4e1a-b2e4-4c37448e90e2
 msc.legacyurl: /learn/manage/configuring-security/configuring-one-to-one-client-certificate-mappings
 msc.type: authoredcontent
 ---
-Configuring One-to-One Client Certificate Mappings
-====================
+# Configuring One-to-One Client Certificate Mappings
+
 by [Robert Lucero](https://github.com/rlucero)
 
 ## Background

@@ -7,8 +7,8 @@ ms.assetid: 21292a77-9f61-4f31-ae6b-8396b4010336
 msc.legacyurl: /learn/manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting
 msc.type: authoredcontent
 ---
-Provisioning IIS 7 Sites for Shared Hosting
-====================
+# Provisioning IIS 7 Sites for Shared Hosting
+
 by [Walter Oliver](https://github.com/walterov)
 
 The following articles contain recommendations for provisioning sites in shared hosting environments.

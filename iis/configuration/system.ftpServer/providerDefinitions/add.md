@@ -7,8 +7,8 @@ ms.assetid: 44ffb5f8-6694-4cc8-baee-cc2de736f4a7
 msc.legacyurl: /configreference/system.ftpserver/providerdefinitions/add
 msc.type: config
 ---
-Adding FTP Provider Definitions &lt;add&gt;
-====================
+# Adding FTP Provider Definitions &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

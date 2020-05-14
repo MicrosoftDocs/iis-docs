@@ -7,8 +7,8 @@ ms.assetid: d1dc9de0-b74e-4f1d-bb22-b259574d9387
 msc.legacyurl: /learn/publish/using-web-deploy/migrate-a-web-site-from-iis-60-to-iis-7-or-above
 msc.type: authoredcontent
 ---
-Migrate a Web Site from IIS 6.0 to IIS 7 or above
-====================
+# Migrate a Web Site from IIS 6.0 to IIS 7 or above
+
 by Faith A
 
 This quick guide will help you migrate a Web site from IIS 6.0 to IIS 7 or above by using the Web Deployment Tool.

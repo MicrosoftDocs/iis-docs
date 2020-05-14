@@ -7,8 +7,8 @@ ms.assetid: d8b90f33-0d56-49a6-99d8-df8d4e34f2b0
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85
 msc.type: authoredcontent
 ---
-Troubleshooting Failed Requests Using Tracing in IIS 8.5
-====================
+# Troubleshooting Failed Requests Using Tracing in IIS 8.5
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 ## Introduction

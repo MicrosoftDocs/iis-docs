@@ -7,8 +7,8 @@ ms.assetid: a553c218-5c5f-47ce-b72e-7e6a8ac53394
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Configuring SSL with the IIS PowerShell Snap-in
-====================
+# PowerShell Snap-in: Configuring SSL with the IIS PowerShell Snap-in
+
 by IIS Team
 
 To enable SSL three steps are involved:

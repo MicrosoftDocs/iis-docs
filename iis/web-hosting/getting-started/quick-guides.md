@@ -7,8 +7,8 @@ ms.assetid: 4ee1e438-9762-48a2-8e52-1caf61ff6b88
 msc.legacyurl: /learn/web-hosting/getting-started/quick-guides
 msc.type: authoredcontent
 ---
-Quick Guides
-====================
+# Quick Guides
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

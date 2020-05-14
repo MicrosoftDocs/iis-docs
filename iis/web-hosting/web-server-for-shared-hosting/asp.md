@@ -7,8 +7,8 @@ ms.assetid: bee41ab6-2d77-4e8e-bfd1-ec7c28cb9b43
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/asp
 msc.type: authoredcontent
 ---
-ASP
-====================
+# ASP
+
 by [Walter Oliver](https://github.com/walterov)
 
 Classic ASP is included in IIS 7.0 and above, and can be used in Shared Hosting scenarios. However, hosters planning to do so should consider the following recommendations:

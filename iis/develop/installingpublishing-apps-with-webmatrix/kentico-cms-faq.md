@@ -7,8 +7,8 @@ ms.assetid: 3131eb91-0922-4349-a88e-67bec389f74a
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/kentico-cms-faq
 msc.type: authoredcontent
 ---
-Kentico CMS FAQ
-====================
+# Kentico CMS FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

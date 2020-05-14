@@ -7,8 +7,8 @@ ms.assetid: be1ace43-25a7-431b-8354-40ea6a2770f5
 msc.legacyurl: /configreference/system.webserver/security/authorization/add
 msc.type: config
 ---
-Adding Security Authorization &lt;add&gt;
-====================
+# Adding Security Authorization &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 7a5ef0c8-02c5-4595-8c82-3f284f4d6416
 msc.legacyurl: /learn/extensions/planning-for-arr/using-the-application-request-routing-module
 msc.type: authoredcontent
 ---
-Using the Application Request Routing Module
-====================
+# Using the Application Request Routing Module
+
 by IIS Team
 
 ## Introduction

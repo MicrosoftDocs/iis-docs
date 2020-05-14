@@ -7,8 +7,8 @@ ms.assetid: 33897393-97b8-4ee1-836f-25b1348dc3a3
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis
 msc.type: authoredcontent
 ---
-How to Use HTTP Detailed Errors in IIS 7.0
-====================
+# How to Use HTTP Detailed Errors in IIS 7.0
+
 by IIS Team
 
 ## Introduction

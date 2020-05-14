@@ -7,8 +7,8 @@ ms.assetid: 396f3ac6-fc21-4fa9-b607-1767b0929336
 msc.legacyurl: /learn/troubleshoot/security-issues/troubleshooting-forms-authentication
 msc.type: authoredcontent
 ---
-Troubleshooting Forms Authentication
-====================
+# Troubleshooting Forms Authentication
+
 by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:

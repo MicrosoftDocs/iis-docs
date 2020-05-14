@@ -7,8 +7,8 @@ ms.assetid: d9e0150b-0bca-4920-a2b6-5109b8454a94
 msc.legacyurl: /learn/publish/using-web-deploy/synchronize-iis-60-web-sites
 msc.type: authoredcontent
 ---
-Synchronize IIS 6.0 Web Sites
-====================
+# Synchronize IIS 6.0 Web Sites
+
 by Faith A
 
 This quick guide will guide you through the process of using the Web Deployment Tool to synchronize a Web site fon an IIS 6.0 source computer to an IIS 6.0 destination computer. You can do this by "pushing" data to a remote destination, or by "pulling" data from a remote source. This guide will show both methods, as well as an option to use a package file so that you do not have to install the Web Deployment Agent Service (MsDepSvc, or "remote agent service".)

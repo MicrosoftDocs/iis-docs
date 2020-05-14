@@ -7,8 +7,8 @@ ms.assetid: a4c07bfc-71cf-4dc5-8d32-65af94d0a766
 msc.legacyurl: /configreference/system.webserver/staticcontent
 msc.type: config
 ---
-Static Content &lt;staticContent&gt;
-====================
+# Static Content &lt;staticContent&gt;
+
 <a id="001"></a>
 ## Overview
 

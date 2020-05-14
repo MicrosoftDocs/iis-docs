@@ -7,8 +7,8 @@ ms.assetid: 8b533829-55ae-4319-b164-f5a930542567
 msc.legacyurl: /configreference/system.webserver/serversideinclude
 msc.type: config
 ---
-Server Side Include &lt;serverSideInclude&gt;
-====================
+# Server Side Include &lt;serverSideInclude&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: c6b51f76-282c-43d5-9bef-682de7e2f4e5
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/offline-files-for-shared-configuration
 msc.type: authoredcontent
 ---
-Offline Files for Shared Configuration
-====================
+# Offline Files for Shared Configuration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

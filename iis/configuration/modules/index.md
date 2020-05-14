@@ -7,8 +7,8 @@ ms.assetid: 66270b50-8b2b-4346-8d0b-835d979eb2b5
 msc.legacyurl: /configreference/modules
 msc.type: config
 ---
-Modules &lt;modules&gt;
-====================
+# Modules &lt;modules&gt;
+
 <a id="001"></a>
 ## Overview
 

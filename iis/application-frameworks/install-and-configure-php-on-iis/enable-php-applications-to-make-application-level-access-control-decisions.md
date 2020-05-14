@@ -7,8 +7,8 @@ ms.assetid: 56ad831c-305b-46fb-aa92-71784fa1bd3a
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/enable-php-applications-to-make-application-level-access-control-decisions
 msc.type: authoredcontent
 ---
-Enable PHP Applications to Make Application-Level Access Control Decisions
-====================
+# Enable PHP Applications to Make Application-Level Access Control Decisions
+
 by Tali Smith
 
 ## Introduction

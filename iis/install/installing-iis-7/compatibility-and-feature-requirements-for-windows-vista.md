@@ -7,8 +7,8 @@ ms.assetid: 5b18facf-650f-43ef-b78a-df8a9bebed75
 msc.legacyurl: /learn/install/installing-iis-7/compatibility-and-feature-requirements-for-windows-vista
 msc.type: authoredcontent
 ---
-Compatibility and Feature Requirements for Windows Vista
-====================
+# Compatibility and Feature Requirements for Windows Vista
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction

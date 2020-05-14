@@ -7,8 +7,8 @@ ms.assetid: 5ef68c30-c8cf-4988-9a6e-f05948bf1db6
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/develop-on-iis-7-and-above
 msc.type: authoredcontent
 ---
-Develop on IIS 7
-====================
+# Develop on IIS 7
+
 by Tali Smith
 
 The following articles provide information about developing on Internet Information Services 7 (IIS 7) and above.

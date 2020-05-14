@@ -7,8 +7,8 @@ ms.assetid: 1585f0f4-af98-42f5-9e51-433aa1456be8
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/mediawiki-on-iis
 msc.type: authoredcontent
 ---
-MediaWiki on IIS
-====================
+# MediaWiki on IIS
+
 by Eric Woersching
 
 ## Introduction

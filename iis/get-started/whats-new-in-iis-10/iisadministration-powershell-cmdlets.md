@@ -7,8 +7,8 @@ ms.assetid: adb61044-9074-4961-9186-cf5e340cee5b
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets
 msc.type: authoredcontent
 ---
-IISAdministration PowerShell Cmdlets
-====================
+# IISAdministration PowerShell Cmdlets
+
 by Baris Caglar
 
 ### Compatibility

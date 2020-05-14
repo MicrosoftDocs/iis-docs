@@ -7,8 +7,8 @@ ms.assetid: 0944b8eb-4004-47a6-a86a-38205b2c6263
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configure-an-asp-net-website-on-iis
 msc.type: authoredcontent
 ---
-Configure an ASP.NET Website on IIS
-====================
+# Configure an ASP.NET Website on IIS
+
 ## Overview
 
 To install an IIS web server and configure it for ASP.NET web applications, follow the steps listed.

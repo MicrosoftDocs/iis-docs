@@ -7,8 +7,8 @@ ms.assetid: a44c08c3-ed2e-49f9-8462-ba01420a844a
 msc.legacyurl: /configreference/moduleproviders
 msc.type: config
 ---
-Module Providers &lt;moduleProviders&gt;
-====================
+# Module Providers &lt;moduleProviders&gt;
+
 <a id="001"></a>
 ## Overview
 

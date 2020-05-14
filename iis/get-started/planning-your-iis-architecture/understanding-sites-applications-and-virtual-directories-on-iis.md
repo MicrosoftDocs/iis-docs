@@ -7,8 +7,8 @@ ms.assetid: 02003c66-968f-4d86-aae7-b827b84bd03f
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/understanding-sites-applications-and-virtual-directories-on-iis
 msc.type: authoredcontent
 ---
-Understanding Sites, Applications, and Virtual Directories on IIS 7
-====================
+# Understanding Sites, Applications, and Virtual Directories on IIS 7
+
 by [Reagan Templin](https://github.com/arkaytee)
 
 ## Introduction

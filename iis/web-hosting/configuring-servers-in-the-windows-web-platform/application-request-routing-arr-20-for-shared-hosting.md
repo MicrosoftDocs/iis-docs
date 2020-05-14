@@ -7,8 +7,8 @@ ms.assetid: 4104911c-faa5-440b-aae7-d00b04aea234
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/application-request-routing-arr-20-for-shared-hosting
 msc.type: authoredcontent
 ---
-Application Request Routing (ARR) 2.0 for Shared Hosting
-====================
+# Application Request Routing (ARR) 2.0 for Shared Hosting
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -66,7 +66,7 @@ The following steps and articles constitute a complete guide for setting up an A
 
     1. Using IIS Manager to manage the ARR server, select the Error Pages module.[![](application-request-routing-arr-20-for-shared-hosting/_static/image8.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image7.jpg)
     2. In the Actions pane (on the right side), click Edit Feature Settings.
-	    ![](application-request-routing-arr-20-for-shared-hosting/_static/image9.jpg)
+        ![](application-request-routing-arr-20-for-shared-hosting/_static/image9.jpg)
     3. In the Edit Error Pages Settings dialog box, select Detailed errors, and then click OK
 
 [![](application-request-routing-arr-20-for-shared-hosting/_static/image11.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image10.jpg)

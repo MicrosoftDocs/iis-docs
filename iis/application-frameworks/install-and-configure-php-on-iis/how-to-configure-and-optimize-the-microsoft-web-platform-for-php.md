@@ -7,8 +7,8 @@ ms.assetid: d9fd6965-0705-4b33-98cb-49e8b691a9f0
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-configure-and-optimize-the-microsoft-web-platform-for-php
 msc.type: authoredcontent
 ---
-How to Configure and Optimize the Microsoft Web Platform for PHP
-====================
+# How to Configure and Optimize the Microsoft Web Platform for PHP
+
 by Tali Smith
 
 There are various steps you can take to optimize Windows Server® 2008 R2 or Windows Server® 2008, Internet Information Services 7 (IIS 7) and above, and FastCGI performance for your Web workloads and PHP applications. These include:

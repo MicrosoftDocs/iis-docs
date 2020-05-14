@@ -7,8 +7,8 @@ ms.assetid: 59cfeb03-dd3b-4933-bd69-e4363226dc24
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later
 msc.type: authoredcontent
 ---
-Installing and Configuring Web Deploy on IIS 8.0 or Later
-====================
+# Installing and Configuring Web Deploy on IIS 8.0 or Later
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 ## Summary

@@ -7,8 +7,8 @@ ms.assetid: bba8d886-fa09-48db-a617-d462ab4f6f14
 msc.legacyurl: /configreference/system.ftpserver/providerdefinitions/activation
 msc.type: config
 ---
-FTP Provider Activation &lt;activation&gt;
-====================
+# FTP Provider Activation &lt;activation&gt;
+
 <a id="001"></a>
 ## Overview
 

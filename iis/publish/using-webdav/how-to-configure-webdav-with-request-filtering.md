@@ -7,8 +7,8 @@ ms.assetid: 7cca593d-4d66-4d8b-a764-37ca1a67201c
 msc.legacyurl: /learn/publish/using-webdav/how-to-configure-webdav-with-request-filtering
 msc.type: authoredcontent
 ---
-How to Configure WebDAV with Request Filtering
-====================
+# How to Configure WebDAV with Request Filtering
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 <a id="00"></a>

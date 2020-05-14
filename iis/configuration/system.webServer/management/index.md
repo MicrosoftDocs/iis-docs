@@ -7,8 +7,8 @@ ms.assetid: 160f5b83-b911-4434-aa0e-904b9ea565fe
 msc.legacyurl: /configreference/system.webserver/management
 msc.type: config
 ---
-Management &lt;management&gt;
-====================
+# Management &lt;management&gt;
+
 <a id="001"></a>
 ## Overview
 

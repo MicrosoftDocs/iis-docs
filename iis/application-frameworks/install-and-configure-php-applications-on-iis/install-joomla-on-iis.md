@@ -7,8 +7,8 @@ ms.assetid: fce8b5fe-9ba3-4ca1-aab1-51d877bb0b17
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-joomla-on-iis
 msc.type: authoredcontent
 ---
-Install Joomla! on IIS
-====================
+# Install Joomla! on IIS
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction

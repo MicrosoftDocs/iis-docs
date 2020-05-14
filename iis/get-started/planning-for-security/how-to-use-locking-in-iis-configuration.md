@@ -7,8 +7,8 @@ ms.assetid: e4e4adc6-2b26-431a-aead-f7632ccc8f07
 msc.legacyurl: /learn/get-started/planning-for-security/how-to-use-locking-in-iis-configuration
 msc.type: authoredcontent
 ---
-How to Use Locking in IIS 7.0 Configuration
-====================
+# How to Use Locking in IIS 7.0 Configuration
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Abstract

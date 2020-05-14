@@ -7,8 +7,8 @@ ms.assetid: 1114e4dc-e2ea-4932-a616-745230baa1a8
 msc.legacyurl: /learn/develop/windows-web-application-gallery/umbraco-cms-sample-files
 msc.type: authoredcontent
 ---
-Umbraco CMS Sample files
-====================
+# Umbraco CMS Sample files
+
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 This is a set of sample files you could use with Umbraco CMS 5 and the Web Deployment tool for deploying Umbraco against a SQL Express/SQL Azure database or SQL CE database.

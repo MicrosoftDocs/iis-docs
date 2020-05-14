@@ -7,8 +7,8 @@ ms.assetid: 082f8653-8f71-4f73-b740-d93b13bcc946
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto
 msc.type: config
 ---
-File Name Extensions for Filtering Rules &lt;appliesTo&gt;
-====================
+# File Name Extensions for Filtering Rules &lt;appliesTo&gt;
+
 <a id="001"></a>
 ## Overview
 

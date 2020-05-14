@@ -7,8 +7,8 @@ ms.assetid: 0dbb2e22-2e2d-487b-a9d5-bff5d0c0b8a6
 msc.legacyurl: /learn/get-started/introduction-to-iis/introduction-to-iis-architecture
 msc.type: authoredcontent
 ---
-Introduction to IIS Architectures
-====================
+# Introduction to IIS Architectures
+
 by IIS Team, [Reagan Templin](https://github.com/arkaytee)
 
 ### Compatibility

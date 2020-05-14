@@ -7,8 +7,8 @@ ms.assetid: 5c844139-1366-4177-af23-d998aa0f9024
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/filesystem
 msc.type: config
 ---
-WebDAV File System &lt;fileSystem&gt;
-====================
+# WebDAV File System &lt;fileSystem&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: fa7151f0-cebd-4925-a504-29ec6a3b38e7
 msc.legacyurl: /configreference/system.ftpserver/security/ipsecurity
 msc.type: config
 ---
-FTP IP Security &lt;ipSecurity&gt;
-====================
+# FTP IP Security &lt;ipSecurity&gt;
+
 <a id="001"></a>
 ## Overview
 

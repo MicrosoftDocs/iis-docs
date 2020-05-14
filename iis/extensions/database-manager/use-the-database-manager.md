@@ -7,8 +7,8 @@ ms.assetid: 0f1cf53c-5496-4b44-a80e-c7e513f23aaf
 msc.legacyurl: /learn/extensions/database-manager/use-the-database-manager
 msc.type: authoredcontent
 ---
-Use the Database Manager
-====================
+# Use the Database Manager
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

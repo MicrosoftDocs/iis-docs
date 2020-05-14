@@ -7,8 +7,8 @@ ms.assetid: a0767509-ddbb-442f-a5fa-3be040c32148
 msc.legacyurl: /learn/install/installing-iis-7/understanding-setup-in-iis
 msc.type: authoredcontent
 ---
-Understanding Setup in IIS 7
-====================
+# Understanding Setup in IIS 7
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## About This Article

@@ -7,8 +7,8 @@ ms.assetid: 92f717d4-cf5a-4ba9-9e49-6d0062849958
 msc.legacyurl: /learn/extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22
 msc.type: authoredcontent
 ---
-Data Mining UrlScan 3 Logs using LogParser 2.2
-====================
+# Data Mining UrlScan 3 Logs using LogParser 2.2
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Microsoft has released version 3.1 of [UrlScan](index.md), and one of the great new features in this version is log files that conform to the [W3C Extended Log File Format](http://www.w3.org/TR/WD-logfile). What this means to administrators is that they can now parse their UrlScan activity using almost any common log utilities, including Microsoft's [LogParser 2.2](https://www.microsoft.com/download/details.aspx?id=24659) utility, which is a freeware utility from Microsoft that allows you to write SQL-style queries to extract useful information.

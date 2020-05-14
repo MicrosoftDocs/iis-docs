@@ -7,8 +7,8 @@ ms.assetid: e9f50430-c067-4f19-87a7-28d41b9431a8
 msc.legacyurl: /learn/media/web-playlists/using-windows-media-player-playlist-files-in-web-playlists
 msc.type: authoredcontent
 ---
-Using Windows Media Player Playlist Files in Web Playlists
-====================
+# Using Windows Media Player Playlist Files in Web Playlists
+
 by Dave Nelson
 
 By default, [Windows Media Player 11](https://www.microsoft.com/windows/products/winfamily/mediaplayer/default.mspx) in [Windows Server 2008](https://www.microsoft.com/windowsserver2008/default.aspx) creates playlists in WPL format (files with .wpl file name extensions). This article describes how to create copies of the playlist files in ASX format (files with .asx file name extensions) so that you can import them into the [Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists) extension for Internet Information Services (IIS). When you import the ASX files in Web Playlists, the equivalent Web playlist files (files with .isx file name extension) are created, which you must then edit to enable them in the Web Playlists feature. This article describes how to edit ISX files in two different ways, depending upon whether you want to serve the media files referenced in the playlist media entries either from the original user folder or from a Web site directory.
@@ -121,13 +121,16 @@ The following sections provide details on both approaches:
    Change: `<ref src="..\track1.wma">`  
    To: `<ref src="C:\Users\Administrator\Music\track1.wma">`
   
-    **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
+   > [!TIP]
+   > You can use the **Replace** feature in Notepad to make this change to all media entries at once.
+
 4. In the text editor, change the **srcType** for each media entry in the ISX to a physical path. For example:  
   
    Change: `<param name="srcType" value="relativeURI" />`  
    To: `<param name="srcType" value="physicalPath" />`  
   
-    **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
+   > [!TIP]
+   > You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 5. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
    In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
@@ -140,7 +143,8 @@ The following sections provide details on both approaches:
     Value=&amp;quot;4&amp;quot;" />-->
     ```
 
-    **Tip** Because **extraParam** values vary for each track, do the following when using the **Replace** feature in Notepad:  
+    > [!TIP]
+    > Because **extraParam** values vary for each track, do the following when using the **Replace** feature in Notepad:  
   
  Change: <param name="extraParam"  
  To: <!--<param name="extraParam"  
@@ -162,7 +166,8 @@ The following sections provide details on both approaches:
    Change: `<ref src="..\track1.wma">`  
    To: `<ref src="media/track1.wma">`  
   
-    **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
+   > [!TIP]
+   > You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 3. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
    In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
@@ -175,7 +180,8 @@ The following sections provide details on both approaches:
     Value=&amp;quot;4&amp;quot;" />-->
     ```
   
-    **Tip** Because **extraParam** values vary for each track, do the following when using the **Replace** feature in Notepad:  
+    > [!TIP]
+    > Because **extraParam** values vary for each track, do the following when using the **Replace** feature in Notepad:  
   
  Change: `<param name="extraParam"`  
  To: `<!--<param name="extraParam`  

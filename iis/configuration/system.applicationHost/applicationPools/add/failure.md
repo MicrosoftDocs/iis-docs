@@ -7,8 +7,8 @@ ms.assetid: 94a6aef1-9abd-4d1a-a482-87d185732d38
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/failure
 msc.type: config
 ---
-Failure Settings for an Application Pool &lt;failure&gt;
-====================
+# Failure Settings for an Application Pool &lt;failure&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 4d472865-8cb2-469d-903f-b246992706c9
 msc.legacyurl: /learn/manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi
 msc.type: authoredcontent
 ---
-Managing Applications and Application Pools on IIS 7.0 with WMI
-====================
+# Managing Applications and Application Pools on IIS 7.0 with WMI
+
 by Tim Ammann
 
 ## Introduction

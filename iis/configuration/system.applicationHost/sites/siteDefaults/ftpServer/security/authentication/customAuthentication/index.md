@@ -7,8 +7,8 @@ ms.assetid: f8854fa3-d982-46de-99d9-03c0b20b2cdd
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication
 msc.type: config
 ---
-Default FTP Custom Authentication Settings &lt;customAuthentication&gt;
-====================
+# Default FTP Custom Authentication Settings &lt;customAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: a50a36b9-89c3-4a7d-be6f-e88cf886ea05
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-performance-counters
 msc.type: authoredcontent
 ---
-Using Performance Counters
-====================
+# Using Performance Counters
+
 by CJ Pattekar
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

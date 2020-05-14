@@ -7,8 +7,8 @@ ms.assetid: 75e1c311-9d19-4f77-83a6-4a013d76d0b0
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-native-memory-leak-in-an-iis-7x-application-pool
 msc.type: authoredcontent
 ---
-Troubleshooting native memory leak in an IIS 7.x Application Pool
-====================
+# Troubleshooting native memory leak in an IIS 7.x Application Pool
+
 by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:
@@ -44,9 +44,8 @@ To recover, the application pool must be restarted, but after doing so, the memo
 
 The first thing you should do when you encounter the high memory usage is to determine whether the memory of a worker process on an application pool in IIS is leaked or not. You can use Performance Monitor. For more information on using Performance Monitor, see **Analyzing Performance Data** later in this troubleshooter.
 
-**TIP**
-
-If you need to identify which application pool is associated with a particular w3wp.exe process, open an Administrative Command Prompt, switch into the `%windir%\System32\inetsrv` folder (`cd %windir%\System32\inetsrv`) and run appcmd list wp. This will show the process identifier (PID) of the w3wp.exe process in quotes. You can match that PID with the PID available in Task Manager.
+> [!TIP]
+> If you need to identify which application pool is associated with a particular w3wp.exe process, open an Administrative Command Prompt, switch into the `%windir%\System32\inetsrv` folder (`cd %windir%\System32\inetsrv`) and run appcmd list wp. This will show the process identifier (PID) of the w3wp.exe process in quotes. You can match that PID with the PID available in Task Manager.
 
 Once you have confirmed that a w3wp.exe process is experiencing high memory usage, you will need to two pieces of information in order to determine what is causing the problem.
 
@@ -176,11 +175,10 @@ The next step is to review the code of CFoo::crtheap method. When I do that, I f
 
 Kind of the above code will definitely cause memory leak because allocated memory is not released.
 
-**TIP**
-
-If you enable stack tracing (gflags -i w3wp.exe +ust), you can see the following call stack by analyzing dumps with WinDBG. You will never see the following call stack if you disable stack tracing by default.
-
-[!code-console[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample4.cmd)]
+> [!TIP]
+> If you enable stack tracing (gflags -i w3wp.exe +ust), you can see the following call stack by analyzing dumps with WinDBG. You will never see the following call stack if you disable stack tracing by default.
+>
+> [!code-console[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample4.cmd)]
 
 ## Conclusion
 

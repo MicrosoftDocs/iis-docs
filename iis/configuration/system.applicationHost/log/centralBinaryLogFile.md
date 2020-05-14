@@ -7,8 +7,8 @@ ms.assetid: 3ae84ea6-a327-4dc5-bc90-41c459c9f9fd
 msc.legacyurl: /configreference/system.applicationhost/log/centralbinarylogfile
 msc.type: config
 ---
-Central Binary Log File &lt;centralBinaryLogFile&gt;
-====================
+# Central Binary Log File &lt;centralBinaryLogFile&gt;
+
 <a id="001"></a>
 ## Overview
 

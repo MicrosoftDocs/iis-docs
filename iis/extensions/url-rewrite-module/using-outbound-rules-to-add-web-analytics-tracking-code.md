@@ -7,8 +7,8 @@ ms.assetid: 6b107283-291a-472f-8880-845d34cf5dab
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-outbound-rules-to-add-web-analytics-tracking-code
 msc.type: authoredcontent
 ---
-Using Outbound Rules to add Web Analytics tracking code
-====================
+# Using Outbound Rules to add Web Analytics tracking code
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This section of the documentation applies to the **URL Rewrite Module Version 2.0 for IIS 7**.

@@ -7,8 +7,8 @@ ms.assetid: 038c309a-e1be-4bb1-871a-aa40e370c391
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool
 msc.type: authoredcontent
 ---
-Troubleshooting High CPU in an IIS 7.x Application Pool
-====================
+# Troubleshooting High CPU in an IIS 7.x Application Pool
+
 by Jim Cheshire
 
 #### Tools Used in this Troubleshooter:
@@ -36,9 +36,8 @@ Figure 1 - Task Manager showing high CPU.
 
 You can also use Performance Monitor to determine what process is using CPU. For more information on using Performance Monitor, see Analyzing Performance Data later in this troubleshooter.
 
-**TIP**
-
-If you need to identify which application pool is associated with a particular w3wp.exe process, open an Administrative Command Prompt, switch into the `%windir%\System32\inetsrv` folder `cd %windir%\System32\inetsrv` and run appcmd list wp. This will show the process identifier (PID) of the w3wp.exe process in quotes. You can match that PID with the PID available in Task Manager.
+> [!TIP]
+> If you need to identify which application pool is associated with a particular w3wp.exe process, open an Administrative Command Prompt, switch into the `%windir%\System32\inetsrv` folder `cd %windir%\System32\inetsrv` and run appcmd list wp. This will show the process identifier (PID) of the w3wp.exe process in quotes. You can match that PID with the PID available in Task Manager.
 
 Once you have confirmed that a w3wp.exe process is experiencing high CPU, you will need to collect two pieces of information in order to determine what is causing the problem.
 
@@ -124,9 +123,8 @@ Install DebugDiag 1.2 on your server and run it. (You'll find it on the Start me
 20. Click Next.
 21. Select Activate the Rule Now and click Finish.
 
-**TIP**
-
-You can create dumps of multiple application pools by adding multiple dump targets using the same technique used in steps 13-15.
+> [!TIP]
+> You can create dumps of multiple application pools by adding multiple dump targets using the same technique used in steps 13-15.
 
 ![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image5.png)
 
@@ -169,9 +167,8 @@ Use the down arrow on your keyboard to move down through the list of processes u
 
 Figure 5 - Perfmon showing CPU usage of w3wp.exe.
 
-**TIP**
-
-Perfmon can be very useful in determining performance problems in your application. The data collected in the Perfmon log can show you how many requests are executing (using the ASP.NET and ASP.NET Applications objects) and can also show you other important performance data about how your application is performing.
+> [!TIP]
+> Perfmon can be very useful in determining performance problems in your application. The data collected in the Perfmon log can show you how many requests are executing (using the ASP.NET and ASP.NET Applications objects) and can also show you other important performance data about how your application is performing.
 
 To get to the root of what is causing the high CPU problem, let's review the dumps that were created using DebugDiag.
 

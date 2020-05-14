@@ -7,8 +7,8 @@ ms.assetid: 0fda743d-d99e-4172-8e4e-ec1d448281b8
 msc.legacyurl: /learn/develop/windows-web-application-gallery/frequently-asked-questions
 msc.type: authoredcontent
 ---
-Windows Web App Gallery FAQ
-====================
+# Windows Web App Gallery FAQ
+
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 ## Frequently Asked Questions

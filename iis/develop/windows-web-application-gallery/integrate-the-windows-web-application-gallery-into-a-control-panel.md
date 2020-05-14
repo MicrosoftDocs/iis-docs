@@ -7,8 +7,8 @@ ms.assetid: 18743857-2074-4bed-84d6-2ffab07a5ab7
 msc.legacyurl: /learn/develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel
 msc.type: authoredcontent
 ---
-Integrate the Windows Web Application Gallery into a Control Panel
-====================
+# Integrate the Windows Web Application Gallery into a Control Panel
+
 by IIS Team
 
 ## Introduction

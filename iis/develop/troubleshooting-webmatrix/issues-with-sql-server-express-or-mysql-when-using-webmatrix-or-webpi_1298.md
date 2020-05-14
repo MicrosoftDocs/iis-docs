@@ -7,8 +7,8 @@ ms.assetid: 24dcd427-0585-4afd-aa79-298f63a0d7f9
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/issues-with-sql-server-express-or-mysql-when-using-webmatrix-or-webpi_1298
 msc.type: authoredcontent
 ---
-Issues with SQL Server Express or MySQL when using WebMatrix or WebPI
-====================
+# Issues with SQL Server Express or MySQL when using WebMatrix or WebPI
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 The following article will grow to cover issues when using SQL Server Express or MySQL and WebMatrix or WebPI (Web Platform Installer)

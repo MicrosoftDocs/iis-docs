@@ -7,8 +7,8 @@ ms.assetid: e3447704-ce26-4b64-af17-7a217b8f980d
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add
 msc.type: config
 ---
-Adding URLs That Will Always Be Allowed &lt;add&gt;
-====================
+# Adding URLs That Will Always Be Allowed &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

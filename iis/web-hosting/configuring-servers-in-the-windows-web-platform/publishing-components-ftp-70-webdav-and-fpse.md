@@ -7,8 +7,8 @@ ms.assetid: f072b071-96e7-4628-966c-0c923efba170
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/publishing-components-ftp-70-webdav-and-fpse
 msc.type: authoredcontent
 ---
-Publishing Components: FTP 7.0, WebDAV, and FPSE
-====================
+# Publishing Components: FTP 7.0, WebDAV, and FPSE
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

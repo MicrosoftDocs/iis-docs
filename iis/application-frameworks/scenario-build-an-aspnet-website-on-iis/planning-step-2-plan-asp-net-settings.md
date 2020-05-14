@@ -7,8 +7,8 @@ ms.assetid: 16ae7749-4974-4ae0-af6b-e0445aed0387
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-2-plan-asp-net-settings
 msc.type: authoredcontent
 ---
-Planning Step 2: Plan ASP.NET Settings
-====================
+# Planning Step 2: Plan ASP.NET Settings
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 <a id="21"></a>

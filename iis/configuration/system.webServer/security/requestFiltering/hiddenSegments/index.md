@@ -7,8 +7,8 @@ ms.assetid: f86aac33-fed5-4ed5-bb1e-6d368e8f0b63
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/hiddensegments
 msc.type: config
 ---
-Hidden Segments &lt;hiddenSegments&gt;
-====================
+# Hidden Segments &lt;hiddenSegments&gt;
+
 <a id="001"></a>
 ## Overview
 

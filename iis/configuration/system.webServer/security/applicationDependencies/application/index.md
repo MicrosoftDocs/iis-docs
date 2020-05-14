@@ -7,8 +7,8 @@ ms.assetid: fbcaefcb-48c2-4da4-b9da-d0e168e65b26
 msc.legacyurl: /configreference/system.webserver/security/applicationdependencies/application
 msc.type: config
 ---
-Applications for Application Dependencies &lt;application&gt;
-====================
+# Applications for Application Dependencies &lt;application&gt;
+
 <a id="001"></a>
 ## Overview
 

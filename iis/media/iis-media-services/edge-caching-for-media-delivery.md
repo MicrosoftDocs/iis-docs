@@ -7,8 +7,8 @@ ms.assetid: 81855ddc-e120-43e0-b2f4-8ac265261fec
 msc.legacyurl: /learn/media/iis-media-services/edge-caching-for-media-delivery
 msc.type: authoredcontent
 ---
-Edge Caching for Media Delivery
-====================
+# Edge Caching for Media Delivery
+
 by [Chris Knowlton](https://twitter.com/chris_knowlton)
 
 One of the advantages to using [IIS Media Services](https://www.iis.net/media "IIS Media Services") is how well it integrates with the rest of the IIS Web platform. Edge caching using [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing "Application Request Routing") is a great example of how the robust capabilities of IIS allow you to increase scalability, save money, and improve end user experiences when delivering audio and video.

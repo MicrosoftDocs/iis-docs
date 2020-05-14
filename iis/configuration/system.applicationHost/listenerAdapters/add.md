@@ -7,8 +7,8 @@ ms.assetid: f4e10fa9-5489-4b45-b9ff-9bcdf0848352
 msc.legacyurl: /configreference/system.applicationhost/listeneradapters/add
 msc.type: config
 ---
-Adding Listener Adapters &lt;add&gt;
-====================
+# Adding Listener Adapters &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 # Overview: Build a Web Farm with IIS Servers
 
-by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 This document contains an overview of the **Build a web farm with IIS servers** scenario. It also contains links to additional information and community resources related to the scenario.
 

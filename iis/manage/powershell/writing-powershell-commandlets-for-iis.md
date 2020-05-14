@@ -7,8 +7,8 @@ ms.assetid: 1191ee63-76d6-4a73-9b56-1f103890cd49
 msc.legacyurl: /learn/manage/powershell/writing-powershell-commandlets-for-iis
 msc.type: authoredcontent
 ---
-Writing PowerShell Commandlets for IIS 7.0
-====================
+# Writing PowerShell Commandlets for IIS 7.0
+
 by Sergei Antonov
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: d7c82bfe-0754-4a3f-8518-1215b4fd6dfd
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig
 msc.type: authoredcontent
 ---
-Introduction to ApplicationHost.config
-====================
+# Introduction to ApplicationHost.config
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction

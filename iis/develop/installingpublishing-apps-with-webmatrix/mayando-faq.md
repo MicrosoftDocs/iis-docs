@@ -7,8 +7,8 @@ ms.assetid: 3c94f680-9725-4f82-a1ae-514e8fd662ba
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/mayando-faq
 msc.type: authoredcontent
 ---
-Mayando FAQ
-====================
+# Mayando FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

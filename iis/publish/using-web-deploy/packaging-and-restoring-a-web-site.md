@@ -7,8 +7,8 @@ ms.assetid: 7ba4c586-84ea-4cf6-91bd-f6ff2e73757e
 msc.legacyurl: /learn/publish/using-web-deploy/packaging-and-restoring-a-web-site
 msc.type: authoredcontent
 ---
-Packaging and Restoring a Web site
-====================
+# Packaging and Restoring a Web site
+
 by Faith A
 
 This quick guide will show you how to create an package (compressed file) of a Web site, and then restore the site from the package.

@@ -7,8 +7,8 @@ ms.assetid: 37eb072c-a5f1-473a-b699-b8776b53f803
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/using-managed-apis-in-iis-7
 msc.type: authoredcontent
 ---
-Using Managed APIs in IIS 7
-====================
+# Using Managed APIs in IIS 7
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: fd402a22-694b-4982-a82d-189ce7be938a
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/verbs
 msc.type: config
 ---
-Verbs &lt;verbs&gt;
-====================
+# Verbs &lt;verbs&gt;
+
 <a id="001"></a>
 ## Overview
 

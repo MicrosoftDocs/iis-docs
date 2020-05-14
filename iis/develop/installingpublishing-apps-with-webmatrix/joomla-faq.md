@@ -7,8 +7,8 @@ ms.assetid: d06d5158-13c1-44f0-a0b6-6c8e45e60f75
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/joomla-faq
 msc.type: authoredcontent
 ---
-Joomla! FAQ
-====================
+# Joomla! FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

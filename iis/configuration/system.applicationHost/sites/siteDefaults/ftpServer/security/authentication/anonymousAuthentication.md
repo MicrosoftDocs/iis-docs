@@ -7,8 +7,8 @@ ms.assetid: 7183fc79-028f-4bea-a392-7db43ff07efe
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/anonymousauthentication
 msc.type: config
 ---
-Default FTP Anonymous Authentication Settings &lt;anonymousAuthentication&gt;
-====================
+# Default FTP Anonymous Authentication Settings &lt;anonymousAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 

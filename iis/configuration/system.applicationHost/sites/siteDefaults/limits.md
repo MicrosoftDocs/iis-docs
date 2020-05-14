@@ -7,8 +7,8 @@ ms.assetid: a6f70bd7-6299-4f36-a971-d67121b30cd0
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/limits
 msc.type: config
 ---
-Default Limits for Web Sites &lt;limits&gt;
-====================
+# Default Limits for Web Sites &lt;limits&gt;
+
 <a id="001"></a>
 ## Overview
 

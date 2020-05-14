@@ -7,8 +7,8 @@ ms.assetid: 153f2926-e078-4aa4-96a7-cb6f70bdb156
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2
 msc.type: authoredcontent
 ---
-Introduction to Deploying Windows Server 2008 R2
-====================
+# Introduction to Deploying Windows Server 2008 R2
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

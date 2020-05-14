@@ -7,8 +7,8 @@ ms.assetid: db3a140b-57d4-42f3-b061-8327f0df701e
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/windows-sharepoint-services-for-shared-hosting
 msc.type: authoredcontent
 ---
-Windows SharePoint Services for Shared Hosting
-====================
+# Windows SharePoint Services for Shared Hosting
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

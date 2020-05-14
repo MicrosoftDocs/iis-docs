@@ -7,8 +7,8 @@ ms.assetid: 051c37db-5232-465d-8345-7231116974ea
 msc.legacyurl: /learn/extensions/url-rewrite-module/creating-outbound-rules-for-url-rewrite-module
 msc.type: authoredcontent
 ---
-Creating Outbound Rules for URL Rewrite Module
-====================
+# Creating Outbound Rules for URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This section of the documentation applies to the **URL Rewrite Module Version 2.0 for IIS 7**.

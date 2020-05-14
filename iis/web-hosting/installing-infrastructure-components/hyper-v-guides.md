@@ -7,8 +7,8 @@ ms.assetid: f44f9a33-1e49-4b41-a6e4-36822b742c8e
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/hyper-v-guides
 msc.type: authoredcontent
 ---
-Hyper-V Guides
-====================
+# Hyper-V Guides
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

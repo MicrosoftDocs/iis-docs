@@ -7,8 +7,8 @@ ms.assetid: 4b7f6ecf-7f19-4c78-81ac-7574fabc11e3
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---
-Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7
-====================
+# Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7
+
 by Randall DuBois
 
 This article describes how to install and configure the Microsoft Web Farm Framework (WFF) 2.0 for IIS 7 and above. It covers the following:

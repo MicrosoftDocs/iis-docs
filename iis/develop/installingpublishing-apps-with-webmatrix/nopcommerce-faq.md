@@ -7,8 +7,8 @@ ms.assetid: a2224aa1-721e-4fff-9e71-da93e790b502
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/nopcommerce-faq
 msc.type: authoredcontent
 ---
-nopCommerce FAQ
-====================
+# nopCommerce FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

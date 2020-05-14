@@ -7,8 +7,8 @@ ms.assetid: 0c3f8020-24fd-4eca-9313-e656fb872cc4
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider
 msc.type: authoredcontent
 ---
-How to Use Native Code (C++) to Create a Simple FTP Authentication Provider
-====================
+# How to Use Native Code (C++) to Create a Simple FTP Authentication Provider
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features that enable Web authors to publish content more easily than before, and offers Web administrators more security and deployment options.
@@ -31,7 +31,6 @@ The following items are required to complete the procedures in this article:
 
     > [!NOTE]
     > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
-	
     > [!NOTE]
     > If you plan to develop custom FTP providers for computers that use a 64-bit version of Windows, you will have to install the 64-bit tools and compilers for Visual Studio. You can find additional information about 64-bit development in the [Installing Visual Studio 64-bit Components](https://msdn.microsoft.com/library/ms246588.aspx) topic on the Microsoft MSDN Web site.
 
@@ -96,7 +95,7 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
     > [!NOTE]
     > These steps will not work on a 64-bit version of Windows.
 
-	To add the custom build event, follow these steps: 
+    To add the custom build event, follow these steps:
 
     - Click **Project**, and then click **FtpAuthenticationDemo Properties**.
     - Expand **Configuration Properties**, then expand **Build Events**, then click **Post-build Event**.

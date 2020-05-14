@@ -7,8 +7,8 @@ ms.assetid: 4585a7a6-92be-4d76-901b-43231aeab8fb
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/userisolation/activedirectory
 msc.type: config
 ---
-FTP Active Directory User Isolation &lt;activeDirectory&gt;
-====================
+# FTP Active Directory User Isolation &lt;activeDirectory&gt;
+
 <a id="001"></a>
 ## Overview
 

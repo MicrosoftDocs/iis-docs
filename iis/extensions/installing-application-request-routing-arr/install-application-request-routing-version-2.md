@@ -7,8 +7,8 @@ ms.assetid: aaed5a3c-0fcf-4589-9ae0-f33e2adf592f
 msc.legacyurl: /learn/extensions/installing-application-request-routing-arr/install-application-request-routing-version-2
 msc.type: authoredcontent
 ---
-Install Application Request Routing Version 2
-====================
+# Install Application Request Routing Version 2
+
 by IIS Team
 
 This topic leads the reader through the steps to install Microsoft Application Request Routing (ARR) **Version 2 for IIS 7 and above**.

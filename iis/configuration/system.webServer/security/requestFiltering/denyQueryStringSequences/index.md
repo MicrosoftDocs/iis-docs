@@ -7,8 +7,8 @@ ms.assetid: a3dacc6a-885d-4d0a-a798-92d3b7fa1977
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyquerystringsequences
 msc.type: config
 ---
-Deny Query String Sequences &lt;denyQueryStringSequences&gt;
-====================
+# Deny Query String Sequences &lt;denyQueryStringSequences&gt;
+
 <a id="001"></a>
 ## Overview
 

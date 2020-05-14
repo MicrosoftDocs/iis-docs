@@ -7,8 +7,8 @@ ms.assetid: 6cffa94b-2a3e-479d-9488-449d52ea79fa
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming
 msc.type: authoredcontent
 ---
-Getting Started with IIS Smooth Streaming
-====================
+# Getting Started with IIS Smooth Streaming
+
 by Dave Nelson
 
 Applies To: IIS Media Services 4

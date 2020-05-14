@@ -7,8 +7,8 @@ ms.assetid: e0ca89f0-33b5-4266-ae35-cb2f9a0f83df
 msc.legacyurl: /learn/publish/using-web-deploy/use-the-web-deployment-tool
 msc.type: authoredcontent
 ---
-Use the Web Deployment Tool
-====================
+# Use the Web Deployment Tool
+
 by Tali Smith
 
 ## Introduction

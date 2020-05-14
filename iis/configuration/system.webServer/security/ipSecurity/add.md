@@ -7,8 +7,8 @@ ms.assetid: 3927dd7a-73a8-4348-a3d2-1a359f5d5fc1
 msc.legacyurl: /configreference/system.webserver/security/ipsecurity/add
 msc.type: config
 ---
-Adding IP Security &lt;add&gt;
-====================
+# Adding IP Security &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 181c9548-33dd-4af4-88b8-0dab0fd05811
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/configure-smtp-e-mail-in-iis-7-and-above
 msc.type: authoredcontent
 ---
-Configure SMTP E-Mail in IIS 7
-====================
+# Configure SMTP E-Mail in IIS 7
+
 by Tali Smith
 
 ## Introduction
@@ -90,7 +90,7 @@ Note that when you use Appcmd.exe to configure the `<mailSettings>` element at t
 
     [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample4.cmd)]
   
-	Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
+    Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
 
     - Save and close the **Php.ini** file.
 3. Enable Relay for localhost:  

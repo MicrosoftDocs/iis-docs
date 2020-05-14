@@ -7,8 +7,8 @@ ms.assetid: 47e92ace-e368-4af1-b1ed-0a474172a160
 msc.legacyurl: /learn/troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues
 msc.type: authoredcontent
 ---
-Troubleshooting Invalid viewstate issues
-====================
+# Troubleshooting Invalid viewstate issues
+
 by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:

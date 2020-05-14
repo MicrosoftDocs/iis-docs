@@ -7,8 +7,8 @@ ms.assetid: 01733732-e15e-4ae1-b412-9ec79f21e7e4
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/create-a-backup-with-appcmd
 msc.type: authoredcontent
 ---
-Create a Backup with appcmd
-====================
+# Create a Backup with appcmd
+
 by [Walter Oliver](https://github.com/walterov)
 
 After you install IIS 7.0, you can backup your configuration by using the built-in command-line tool, AppCmd.exe. You can run AppCmd.exe to create a backup of your Web server before you have changed any configuration.

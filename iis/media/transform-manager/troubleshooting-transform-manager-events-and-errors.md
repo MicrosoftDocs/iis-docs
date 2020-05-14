@@ -7,8 +7,8 @@ ms.assetid: 43d73528-51dc-4b40-b4d3-7fad417abdc3
 msc.legacyurl: /learn/media/transform-manager/troubleshooting-transform-manager-events-and-errors
 msc.type: authoredcontent
 ---
-Troubleshooting Transform Manager Events and Errors
-====================
+# Troubleshooting Transform Manager Events and Errors
+
 by Dave Nelson
 
 The Beta release of [IIS Transform Manager 1.0](https://go.microsoft.com/?linkid=9771037) doesn't contain robust event and error reporting. This article provides troubleshooting guidance for the following types of issues that you might encounter while using the software:

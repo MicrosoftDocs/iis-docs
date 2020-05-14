@@ -8,8 +8,8 @@ msc.legacyurl: /learn/develop/using-webmatrix/create-a-website-from-a-gallery-ap
 msc.type: authoredcontent
 ROBOTS: NOINDEX,NOFOLLOW
 ---
-Create a Website from a Gallery Application
-====================
+# Create a Website from a Gallery Application
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 [!include[outdatedContent](../../includes/outdatedContentWarning.md)]

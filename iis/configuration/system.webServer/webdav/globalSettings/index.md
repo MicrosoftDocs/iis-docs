@@ -7,8 +7,8 @@ ms.assetid: 55c0386d-e5a6-48ed-a00d-b1a99c7ff3bf
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings
 msc.type: config
 ---
-WebDAV Global Settings &lt;globalSettings&gt;
-====================
+# WebDAV Global Settings &lt;globalSettings&gt;
+
 <a id="001"></a>
 ## Overview
 

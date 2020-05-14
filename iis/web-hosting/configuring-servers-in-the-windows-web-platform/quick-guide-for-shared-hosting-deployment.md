@@ -7,8 +7,8 @@ ms.assetid: e64bd116-efe3-41c2-9602-6427ad7c0361
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment
 msc.type: authoredcontent
 ---
-Quick Guide for Shared Hosting Deployment
-====================
+# Quick Guide for Shared Hosting Deployment
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

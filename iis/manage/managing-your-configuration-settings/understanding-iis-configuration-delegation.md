@@ -7,8 +7,8 @@ ms.assetid: 30473846-d74b-42b7-ab51-40b7849eb9cb
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/understanding-iis-configuration-delegation
 msc.type: authoredcontent
 ---
-Understanding IIS 7.0 Configuration Delegation
-====================
+# Understanding IIS 7.0 Configuration Delegation
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

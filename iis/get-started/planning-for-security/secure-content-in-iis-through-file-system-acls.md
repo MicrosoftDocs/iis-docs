@@ -7,8 +7,8 @@ ms.assetid: 1adc180c-a714-41c1-b4ca-9a3f75e106d0
 msc.legacyurl: /learn/get-started/planning-for-security/secure-content-in-iis-through-file-system-acls
 msc.type: authoredcontent
 ---
-Secure Content in IIS Through File System ACLs
-====================
+# Secure Content in IIS Through File System ACLs
+
 by [Nazim Lala](https://github.com/naziml)
 
 ## Introduction

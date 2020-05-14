@@ -7,8 +7,8 @@ ms.assetid: c0a9bae9-ebc6-431c-b56f-4ac41819df2f
 msc.legacyurl: /learn/install/installing-iis-7/install-typical-iis-workloads
 msc.type: authoredcontent
 ---
-Install Typical IIS Workloads
-====================
+# Install Typical IIS Workloads
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction

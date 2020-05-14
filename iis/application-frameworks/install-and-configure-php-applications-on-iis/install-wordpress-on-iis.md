@@ -7,8 +7,8 @@ ms.assetid: 788066e2-c44d-4cea-b1fc-6ae6cab25454
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis
 msc.type: authoredcontent
 ---
-Install WordPress on IIS
-====================
+# Install WordPress on IIS
+
 by Eric Woersching
 
 ## Introduction

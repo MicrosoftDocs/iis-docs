@@ -7,8 +7,8 @@ ms.assetid: a4fa174e-fedb-425f-9b18-ff8a92160576
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager
 msc.type: authoredcontent
 ---
-How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager
-====================
+# How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager
+
 by [Janani Ravi](https://twitter.com/LoonyJanani)
 
 ## Abstract

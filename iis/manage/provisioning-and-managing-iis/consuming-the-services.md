@@ -7,8 +7,8 @@ ms.assetid: 389e9686-66fe-4839-b0c2-996388126023
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/consuming-the-services
 msc.type: authoredcontent
 ---
-Consuming the Services
-====================
+# Consuming the Services
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

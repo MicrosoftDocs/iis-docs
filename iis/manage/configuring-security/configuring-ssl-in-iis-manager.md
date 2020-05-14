@@ -7,8 +7,8 @@ ms.assetid: 4a396225-7ae5-4de4-b322-4d17f69e1677
 msc.legacyurl: /learn/manage/configuring-security/configuring-ssl-in-iis-manager
 msc.type: video
 ---
-Configuring SSL in IIS Manager
-====================
+# Configuring SSL in IIS Manager
+
 by IIS Team
 
 Enabling powerful SSL security to protect your Web applications is simpler to setup with IIS Manager and easier to deploy with self-signed certificates in IIS 7.0 and above. This tutorial covers adding self-signed certificates, creating certificates with a Certificate Authority and setting up HTTPS bindings.

@@ -7,8 +7,8 @@ ms.assetid: 7b927031-68af-4229-8e9e-0b8bec4e346f
 msc.legacyurl: /learn/manage/configuring-security/configure-request-filtering-in-iis
 msc.type: authoredcontent
 ---
-Configure Request Filtering in IIS
-====================
+# Configure Request Filtering in IIS
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 This document shows you how to use common request-filter settings to improve the security of your IIS 8 web server.

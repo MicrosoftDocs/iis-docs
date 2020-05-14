@@ -7,8 +7,8 @@ ms.assetid: 6fdc9c0e-df32-48f6-8ff1-2ed189a5065b
 msc.legacyurl: /configreference/system.webserver/security/authentication/digestauthentication
 msc.type: config
 ---
-Digest Authentication &lt;digestAuthentication&gt;
-====================
+# Digest Authentication &lt;digestAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 

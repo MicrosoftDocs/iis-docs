@@ -7,8 +7,8 @@ ms.assetid: 2ebb8560-f7c0-45c5-a752-76dd2975fe94
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-readme
 msc.type: authoredcontent
 ---
-Advanced Logging Readme
-====================
+# Advanced Logging Readme
+
 by Dave Nelson
 
 IIS Advanced Logging is an extension for Internet Information Services (IIS) 7 that provides enhanced data collection and real-time server and client-side logging capabilities. It supports complex Web and media delivery scenarios that demand flexibility and control. These scenarios may require custom logging fields, real-time access to data, greater control over what gets logged and when, extensibility for new sources of data, the ability to consolidate log data posted by clients and correlate it to server data, the option of sharing data from various sources and storing it in multiple logs, capturing system-state information, inclusion of canceled requests in logs, and even logging multiple times per request.

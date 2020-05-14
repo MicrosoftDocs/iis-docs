@@ -7,8 +7,8 @@ ms.assetid: 3cf58555-7663-4859-adfe-5f4d85ef4012
 msc.legacyurl: /configreference/configpaths/searchresult/section
 msc.type: config
 ---
-Configuration Path Search Result Sections &lt;section&gt;
-====================
+# Configuration Path Search Result Sections &lt;section&gt;
+
 <a id="001"></a>
 ## Overview
 

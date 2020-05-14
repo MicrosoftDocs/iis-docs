@@ -7,8 +7,8 @@ ms.assetid: 404796e3-f7ee-4441-b44b-4b148831ffc0
 msc.legacyurl: /learn/media/live-smooth-streaming-events/nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics
 msc.type: authoredcontent
 ---
-NBC Online Video Monetization and Highlights Creation for the Winter Olympics
-====================
+# NBC Online Video Monetization and Highlights Creation for the Winter Olympics
+
 by Daniel Karuppiah, Jason Suess, Alex Zambelli
 
 ### Introduction

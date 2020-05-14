@@ -7,8 +7,8 @@ ms.assetid: 3da050b2-3cde-4bda-bcc5-088acdf0682a
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-2-plan-iis-web-farm-configuration
 msc.type: authoredcontent
 ---
-Planning Step 2: Plan IIS Web Farm Configuration
-====================
+# Planning Step 2: Plan IIS Web Farm Configuration
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In the second phase of planning a web farm, determine what is needed to configure shared content and shared configuration. In addition, learn how to add web servers to your farm.

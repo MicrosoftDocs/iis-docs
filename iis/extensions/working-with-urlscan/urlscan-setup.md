@@ -7,8 +7,8 @@ ms.assetid: a1093a4e-de67-4206-b7c0-34d8c6373966
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-setup
 msc.type: authoredcontent
 ---
-UrlScan Setup
-====================
+# UrlScan Setup
+
 by [Nazim Lala](https://github.com/naziml)
 
 ## Prerequisites

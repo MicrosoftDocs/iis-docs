@@ -7,8 +7,8 @@ ms.assetid: 8d23daa6-77e6-4338-9406-84d280660766
 msc.legacyurl: /configreference/system.webserver/staticcontent/mimemap
 msc.type: config
 ---
-Adding Static Content MIME Mappings &lt;mimeMap&gt;
-====================
+# Adding Static Content MIME Mappings &lt;mimeMap&gt;
+
 <a id="001"></a>
 ## Overview
 

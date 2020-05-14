@@ -7,8 +7,8 @@ ms.assetid: 9a259178-7fde-4bda-bd7a-17caf6a0df80
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/planning-step-3-plan-php-application-security
 msc.type: authoredcontent
 ---
-Planning Step 3: Plan PHP Application Security
-====================
+# Planning Step 3: Plan PHP Application Security
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of Building a PHP website on IIS, consider what PHP configuration settings, web server settings, and PHP application settings you need to strengthen security.
@@ -112,7 +112,8 @@ Web application isolation entails the following:
 - Temp isolation: Set up a separate PHP temp folder per site and only give access to appropriate process identity.
 - Content isolation: Make sure to set an ACL (access control list) on each site root to allow only access to the appropriate process identity
 
-**Tip**: It is a good idea to host your website and web application content on a drive other than your system drive (C:).
+> [!TIP]
+> It is a good idea to host your website and web application content on a drive other than your system drive (C:).
 
 ### Enable Per-site PHP Configuration
 

@@ -7,8 +7,8 @@ ms.assetid: d644c2cd-8fac-42be-b063-b96b6081029b
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings/add
 msc.type: config
 ---
-Adding Query Strings That Will Always Be Allowed &lt;add&gt;
-====================
+# Adding Query Strings That Will Always Be Allowed &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

@@ -7,8 +7,8 @@ ms.assetid: 1ab1535f-bb97-4008-b657-efd429723624
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/security-questions
 msc.type: authoredcontent
 ---
-Security Questions
-====================
+# Security Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### Should Full Trust be allowed?

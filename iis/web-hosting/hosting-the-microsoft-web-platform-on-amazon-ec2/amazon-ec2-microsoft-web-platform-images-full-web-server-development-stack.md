@@ -7,8 +7,8 @@ ms.assetid: e06a1f8c-8744-4867-a7b1-ab5ca505e360
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack
 msc.type: authoredcontent
 ---
-Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack
-====================
+# Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

@@ -7,8 +7,8 @@ ms.assetid: 2d6832c1-140b-4011-ac4e-234cea55ed9a
 msc.legacyurl: /configreference/system.webserver/management/trustedproviders/add
 msc.type: config
 ---
-Adding Management Trusted Providers &lt;add&gt;
-====================
+# Adding Management Trusted Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 

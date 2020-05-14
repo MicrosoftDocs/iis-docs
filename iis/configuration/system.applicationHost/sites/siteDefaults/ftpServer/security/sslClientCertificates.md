@@ -7,8 +7,8 @@ ms.assetid: 45ff664f-8857-40bc-b3ee-f6dcd7ab99bc
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/sslclientcertificates
 msc.type: config
 ---
-Default FTP SSL Client Certificate Settings &lt;sslClientCertificates&gt;
-====================
+# Default FTP SSL Client Certificate Settings &lt;sslClientCertificates&gt;
+
 <a id="001"></a>
 ## Overview
 
