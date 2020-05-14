@@ -57,7 +57,8 @@ Just like IIS7.log file, CBS.log file is a It is a text file and can be opened i
 
 As with the IIS7.log, you can start using your web searching skills on BING.COM and look for next clue.
 
-**TIP**: Try other ROLES and see if they fail. If they do IIS is just a victim and you can engage Platforms setup for assistance if you do not wish to follow the next steps.
+> [!TIP]
+> Try other ROLES and see if they fail. If they do IIS is just a victim and you can engage Platforms setup for assistance if you do not wish to follow the next steps.
 
 Run the [System Update Readiness Tool](https://support.microsoft.com/kb/947821) (short name CHECKSUR) – This tool is available for Windows Vista, for Windows Server 2008, for Windows 7, and for Windows Server 2008 R2. The download for this tool is a little big but it is worth running it. If installation of this tool fails, then you have some other issues with the machine in question and need an expert assistance. Contact Microsoft support for the same.
 

@@ -212,7 +212,8 @@ Now sample.wmv appears in the Connections pane (see below).
 
 Double-click on the Bit Rate Throttling icon, and then adjust the throttle settings for the .wmv File Type.
 
-**Tip**: One way to ensure that you are applying settings to the correct configuration level is to check the path shown at the top of the Internet Information Services (IIS) Manager window; another is to check the status bar at the bottom of the window (see below).
+> [!TIP]
+> One way to ensure that you are applying settings to the correct configuration level is to check the path shown at the top of the Internet Information Services (IIS) Manager window; another is to check the status bar at the bottom of the window (see below).
 
 [![](bit-rate-throttling-configuration-walkthrough/_static/image54.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image53.bmp)
 
