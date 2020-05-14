@@ -16,7 +16,7 @@ Earlier versions of Web Deploy only supported replacing attribute values which a
 1. Extend the current xml parameterization beyond attribute value replacements to a more complete xml modification story by allowing addition/deletion/replacement of new elements.
 2. Accept the replacement data for parameters to come from the server, from the package itself or from the source. Here is one example of a parameters.xml file which will add newNode to all nodes including the root in the target xml file:
 
-	[!code-xml[Main](parameterization-improvements-in-web-deploy-v3/samples/sample1.xml)]
+    [!code-xml[Main](parameterization-improvements-in-web-deploy-v3/samples/sample1.xml)]
 
 Below are some examples which demonstrate how to get the values from other places.
 
