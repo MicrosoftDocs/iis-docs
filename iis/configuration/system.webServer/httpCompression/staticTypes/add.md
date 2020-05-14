@@ -69,10 +69,10 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Performance Features**.
-4. Select **Http Compression Dynamic** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression.   
+4. Select **Http Compression Dynamic** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression.
     [![](add/_static/image8.png)](add/_static/image7.png)
 5. Click **OK**.
- 
+
 <a id="004"></a>
 ## How To
 

@@ -63,6 +63,6 @@ virtual PCWSTR GetUserName(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)   
- [IHttpUser::GetPassword Method](../../web-development-reference/native-code-api-reference/ihttpuser-getpassword-method.md)   
+ [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)
+ [IHttpUser::GetPassword Method](../../web-development-reference/native-code-api-reference/ihttpuser-getpassword-method.md)
  [IHttpUser::GetRemoteUserName Method](../../web-development-reference/native-code-api-reference/ihttpuser-getremoteusername-method.md)

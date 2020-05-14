@@ -64,7 +64,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
-4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Windows Authentication**, and then click **Next**.   
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Windows Authentication**, and then click **Next**.
     [![](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
@@ -74,9 +74,9 @@ The default installation of IIS 7 and later does not include the Windows authent
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Security**.
-4. Select **Windows Authentication**, and then click **OK**.   
+4. Select **Windows Authentication**, and then click **OK**.
     [![](index/_static/image8.png)](index/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 
@@ -106,7 +106,7 @@ The following default `<windowsAuthentication>` element is configured at the roo
 The following example enables Windows authentication and disables Anonymous authentication for a Web site named Contoso.
 
 [!code-xml[Main](index/samples/sample3.xml)]
- 
+
 <a id="006"></a>
 ## Sample Code
 

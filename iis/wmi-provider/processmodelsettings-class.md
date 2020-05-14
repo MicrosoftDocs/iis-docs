@@ -65,7 +65,7 @@ class ProcessModelSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
- [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
+ [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [WorkerProcess Class](../wmi-provider/workerprocess-class.md)

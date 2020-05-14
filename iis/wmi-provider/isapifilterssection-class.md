@@ -60,5 +60,5 @@ class IsapiFiltersSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [IsapiFilterElement Class](../wmi-provider/isapifilterelement-class.md)

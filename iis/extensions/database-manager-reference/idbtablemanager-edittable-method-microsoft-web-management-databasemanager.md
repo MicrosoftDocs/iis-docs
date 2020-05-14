@@ -60,16 +60,16 @@ void EditTable(
 
 ```cpp
 void EditTable(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     TableInfo^ tableInfo
 )
 ```
 
 ```jscript
 function EditTable(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     tableInfo : TableInfo
 )
 ```

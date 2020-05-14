@@ -65,5 +65,5 @@ IFileKey::GetPath: C:\INETPUB\WWWROOT\DEFAULT.HTM
 |Header|Httpcach.h|  
   
 ## See Also  
- [IFileKey Interface](../../web-development-reference/native-code-api-reference/ifilekey-interface.md)   
+ [IFileKey Interface](../../web-development-reference/native-code-api-reference/ifilekey-interface.md)
  [IHttpCacheKey Interface](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)

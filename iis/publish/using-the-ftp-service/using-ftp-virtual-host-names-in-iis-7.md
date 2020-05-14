@@ -115,7 +115,7 @@ In this second step, we create another new FTP site using a unique virtual host 
 
     - Click **Next**.  
         ![](using-ftp-virtual-host-names-in-iis-7/_static/image23.jpg)
-4. On the next page of the wizard: 
+4. On the next page of the wizard:
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
     - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.

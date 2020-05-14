@@ -65,18 +65,18 @@ returnValue = instance.ScheduleClip(clipInfo, _
 ```cpp
   public:
 ClipContext^ ScheduleClip(
-    ClipInformation^ clipInfo, 
-    TimeSpan startTime, 
-    bool pauseTimeline, 
+    ClipInformation^ clipInfo,
+    TimeSpan startTime,
+    bool pauseTimeline,
     Object^ userData
 )
 ```
 
 ```jscript
   public function ScheduleClip(
-    clipInfo : ClipInformation, 
-    startTime : TimeSpan, 
-    pauseTimeline : boolean, 
+    clipInfo : ClipInformation,
+    startTime : TimeSpan,
+    pauseTimeline : boolean,
     userData : Object
 ) : ClipContext
 ```
@@ -123,14 +123,14 @@ For more information, see [IIS Smooth Streaming Client 1.5](microsoft-smooth-str
 
 Clips can be scheduled to run before or during playback of the media identified by the [SmoothStreamingSourceProperty](smoothstreamingmediaelement-smoothstreamingsourceproperty-field-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object. The following example shows how to schedule a media clip to run at the beginning of the playback. This scenario is known as pre-roll scheduling. The startTime parameter is a [TimeSpan](https://msdn.microsoft.com/library/269ew577) object set to zero.
 
-``` 
+```
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     {
         if (!PremiumAccount)
         {
             if (InsertClipCheckbox.IsChecked == true)
             {
-                    
+
                 SmoothPlayer.ScheduleClip(clips[1], new TimeSpan(0), false, SmoothPlayer );
                 SmoothPlayer.Play();
             }

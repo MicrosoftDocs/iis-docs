@@ -42,8 +42,8 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)   
- [IAppHostElement::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostelement-getmetadata-method.md)   
- [IAppHostPropertySchema::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-getmetadata-method.md)   
- [IAppHostProperty::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostproperty-getmetadata-method.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)
+ [IAppHostElement::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostelement-getmetadata-method.md)
+ [IAppHostPropertySchema::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-getmetadata-method.md)
+ [IAppHostProperty::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostproperty-getmetadata-method.md)
  [IAppHostAdminManager::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostadminmanager-getmetadata-method.md)

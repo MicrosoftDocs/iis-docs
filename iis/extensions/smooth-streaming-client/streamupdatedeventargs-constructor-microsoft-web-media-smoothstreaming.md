@@ -63,16 +63,16 @@ Dim instance As New StreamUpdatedEventArgs(stream, _
 ```cpp
   public:
 StreamUpdatedEventArgs(
-    StreamInfo^ stream, 
-    StreamUpdatedEventArgs..::..StreamUpdatedAction action, 
+    StreamInfo^ stream,
+    StreamUpdatedEventArgs..::..StreamUpdatedAction action,
     Nullable<TimeSpan> timestamp
 )
 ```
 
 ```jscript
   public function StreamUpdatedEventArgs(
-    stream : StreamInfo, 
-    action : StreamUpdatedEventArgs..::..StreamUpdatedAction, 
+    stream : StreamInfo,
+    action : StreamUpdatedEventArgs..::..StreamUpdatedAction,
     timestamp : Nullable<TimeSpan>
 )
 ```

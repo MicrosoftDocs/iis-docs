@@ -45,7 +45,7 @@ class SiteLimits : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
- [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [Site Class](../wmi-provider/site-class.md)
+ [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

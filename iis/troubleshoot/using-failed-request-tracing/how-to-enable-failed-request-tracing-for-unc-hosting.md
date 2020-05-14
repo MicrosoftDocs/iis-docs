@@ -146,11 +146,11 @@ On the UNC server do the following:
 1. Create a filesystem path (call it **content**) where we will dump the content.
 2. Underneath that, create a new directory called **Site1**, and under that another directory called **Logs**, and the final directory called **failedReqLogFiles**. What you should see is:  
 
-    - g:\content 
+    - g:\content
 
-        - Site1 
+        - Site1
 
-            - Logs 
+            - Logs
 
                 - failedReqLogFIles
 3. On g:\content\Site1\Logs\failedReqLogFiles, set the permissions on the filesystem path to give the **PoolId1** full control over the Logs directory. This is required, as the worker process identity must be able to list contents, write new files, create new directories, and delete old files. To do this from an administrator elevated command prompt, run the following command:  
@@ -176,7 +176,7 @@ To configure Failed Request Tracing to log to our UNC path, follow these directi
 1. Open INETMGR by running *Start-&gt;Inetmgr*.
 2. Click on *Default Web Site*, then under *Configure* click on **Failed Request Tracing...**
 3. Check the **Enabled** check box.
-4. Under *Directory*, type in the path to the UNC share -&gt; 
+4. Under *Directory*, type in the path to the UNC share -&gt;
 
     [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample8.cmd)]
 

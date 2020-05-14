@@ -103,7 +103,7 @@ Here is the modified page.
 When hosting MediaWiki on IIS 7.0, it is possible to configure MediaWiki to use URLs without query string by following these steps:
 
 1. Install [Microsoft URL Rewrite Module for IIS 7.0](https://www.iis.net/downloads?tabid=34&g=6&i=1691 "URL rewrite module")
-2. Create a web.config file in the same folder where MediaWiki files were installed and paste into it the following   
+2. Create a web.config file in the same folder where MediaWiki files were installed and paste into it the following
 
     [!code-xml[Main](mediawiki-on-iis/samples/sample9.xml)]
 3. Update the LocalSettings.php file as follows:  

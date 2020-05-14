@@ -160,7 +160,7 @@ This task hooks the Module's TraceSource up to IIS tracing so that its events ar
 The module is updated to include trace events. Configure System.Diagnostics and IIS to capture these trace events and route them into IIS's Failed Request Tracing module. Do this by configuring the &lt;system.diagnostics&gt; section in the web.config file to setup the TraceSource &amp; route its events accordingly.
 
 1. Using your Administrator command prompt, navigate to `c:\inetpub\wwwroot`, and use notepad to edit your web.config file.
-2. There are 3 parts of the configuration that must be completed to get the events emitted by the module to be routed to IIS's tracing infrastructure: 
+2. There are 3 parts of the configuration that must be completed to get the events emitted by the module to be routed to IIS's tracing infrastructure:
 
     - Defining the IIS event traceListener as a shared Listener
     - Defining a switch to enable all the events

@@ -46,9 +46,9 @@ class HeaderLimitsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   
- [HeaderLimitsElement Class](../wmi-provider/headerlimitselement-class.md)   
- [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
- [RequestLimitsElement Class](../wmi-provider/requestlimitselement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)
+ [HeaderLimitsElement Class](../wmi-provider/headerlimitselement-class.md)
+ [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)
+ [RequestLimitsElement Class](../wmi-provider/requestlimitselement-class.md)
  [VerbsSettings Class](../wmi-provider/verbssettings-class.md)

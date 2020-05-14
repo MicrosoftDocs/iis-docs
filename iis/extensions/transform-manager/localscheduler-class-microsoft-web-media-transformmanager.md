@@ -52,12 +52,12 @@ Schedules a new IIS Transform Manager job that runs on the local computer.
 ```
 
 ```csharp
-  public class LocalScheduler : Scheduler, 
+  public class LocalScheduler : Scheduler,
     IDisposable
 ```
 
 ```cpp
-  public ref class LocalScheduler : public Scheduler, 
+  public ref class LocalScheduler : public Scheduler,
     IDisposable
 ```
 

@@ -53,12 +53,12 @@ Set oRequestLimitsElement = oRequestFilteringSection.RequestLimits
   
 ' Display the path and list the non-array RequestLimitsElement properties.  
 WScript.Echo "[Request Limits]"  
-WScript.Echo "Path: " & oRequestFilteringSection.Path   
+WScript.Echo "Path: " & oRequestFilteringSection.Path
 WScript.Echo "maxAllowedContentLength: " & _  
     oRequestLimitsElement.maxAllowedContentLength  
 WScript.Echo "maxUrl: " & oRequestLimitsElement.maxUrl  
 WScript.Echo "maxQueryString: " & oRequestLimitsElement.maxQueryString  
-WScript.Echo   
+WScript.Echo
   
 ' List the contents of the RequestLimitsElement.HeaderLimits.HeaderLimits  
 ' property, which contains an array of HeaderLimitsElement instances.  
@@ -66,7 +66,7 @@ WScript.Echo vbtab & "[Header Limits]"
 For Each oHeaderLimit In oRequestLimitsElement.HeaderLimits.HeaderLimits  
     WScript.Echo vbtab & "Header: " & oHeaderLimit.Header  
     WScript.Echo vbtab & "Header size limit: " & oHeaderLimit.sizeLimit  
-    WScript.Echo   
+    WScript.Echo
 Next  
 ```  
   
@@ -85,10 +85,10 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   
- [HeaderLimitsElement Class](../wmi-provider/headerlimitselement-class.md)   
- [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)   
- [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
- [\<requestLimits>](https://msdn.microsoft.com/library/2464898f-f4aa-4955-919e-ed7492ad2b78)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)
+ [HeaderLimitsElement Class](../wmi-provider/headerlimitselement-class.md)
+ [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)
+ [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)
+ [\<requestLimits>](https://msdn.microsoft.com/library/2464898f-f4aa-4955-919e-ed7492ad2b78)
  [VerbsSettings Class](../wmi-provider/verbssettings-class.md)

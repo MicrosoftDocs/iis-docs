@@ -9,16 +9,16 @@ Retrieves the specified member of a collection from a configuration section.
 ## Syntax  
   
 ```jscript#  
-ConfigurationSectionWithCollection.Get   
-   CollectionName,   
-   ElementIdentifier,   
+ConfigurationSectionWithCollection.Get
+   CollectionName,
+   ElementIdentifier,
    CollectionElement;  
 ```  
   
 ```vbs  
-ConfigurationSectionWithCollection.Get   
-CollectionName,   
-ElementIdentifier,   
+ConfigurationSectionWithCollection.Get
+CollectionName,
+ElementIdentifier,
 CollectionElement  
 ```  
   
@@ -69,14 +69,14 @@ CollectionElement
 ' Connect to the WMI WebAdministration namespace.  
 Set oWebAdmin = GetObject("winmgmts:root\WebAdministration")  
   
-' First, get the <modules> section by using the inherited   
+' First, get the <modules> section by using the inherited
 ' WMI Get method on the WMI class name of the section  
 ' (that is, "ModulesSection").  
 Set oSection = oWebAdmin.Get( _  
     "ModulesSection.Path='MACHINE/WEBROOT/APPHOST/'," & _  
     "Location=''")  
   
-' Display the path.   
+' Display the path.
 WScript.Echo "Path: " & oSection.Path_.RelPath  
   
 ' Retrieve the RoleManager member of the collection.  
@@ -106,11 +106,11 @@ WScript.Echo "Module Type: " & oModule.Type
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [ModuleAction Class](../wmi-provider/moduleaction-class.md)   
- [ModulesSection Class](../wmi-provider/modulessection-class.md)   
- [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   
- [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)   
- [TraceUrl Class](../wmi-provider/traceurl-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [ModuleAction Class](../wmi-provider/moduleaction-class.md)
+ [ModulesSection Class](../wmi-provider/modulessection-class.md)
+ [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)
+ [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)
+ [TraceUrl Class](../wmi-provider/traceurl-class.md)
  [TraceUrlAreaSettings Class](../wmi-provider/traceurlareasettings-class.md)

@@ -22,12 +22,12 @@ This walkthrough will lead you through the steps to use native code to create a 
 The following items are required to complete the procedures in this article:
 
 1. IIS 7.0 or above must be installed on your Windows Server 2008 server, and the Internet Information Services (IIS) Manager must also be installed.
-2. The new FTP 7.5 service must be installed. You can download and install the FTP 7.5 service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links: 
+2. The new FTP 7.5 service must be installed. You can download and install the FTP 7.5 service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links:
 
     - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
     - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
 3. You must create a root folder for FTP publishing.
-4. You must use Visual Studio 2008. 
+4. You must use Visual Studio 2008.
 
     > [!NOTE]
     > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
@@ -40,52 +40,52 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
 
 1. Open Microsoft Visual Studio 2008.
 2. Click the **File** menu, then **New**, then **Project**.
-3. In the **New Project** dialog box: 
+3. In the **New Project** dialog box:
 
     - Choose **Visual C++** as the project type.
     - Choose **ATL Project** as the template.
     - Type **FtpAuthenticationDemo** as the name of the project.
     - Click **OK**.
-4. When the **ATL Project Wizard** dialog appears: 
+4. When the **ATL Project Wizard** dialog appears:
 
     - Click **Next**.
     - Ensure that only **Dynamic-link library (DLL)** is checked.
     - Click **Finish**.
-5. When the project opens, add an ATL Class to the project: 
+5. When the project opens, add an ATL Class to the project:
 
     - Click **Project**, and then click **Add Class**.
     - Choose **ATL Simple Object** as the template.
     - Click **Add**.
-6. When the **ATL Simple Object Wizard** appears: 
+6. When the **ATL Simple Object Wizard** appears:
 
     - Enter "**FtpAuthDemo**" for the short name and accept the defaults for the other values.
     - Click **Next**.
-    - Choose the following options: 
+    - Choose the following options:
 
         - Choose **Apartment** for the **Threading model**. *(Note: This can be customized depending on your application's needs.)*
         - Choose **No** for **Aggregation**. *(Note: This can be customized depending on your application's needs.)*
         - Choose **Custom** for the **Interface**.
     - Click **Finish**.
-7. Add the extensibility interfaces: 
+7. Add the extensibility interfaces:
 
     - Click **View**, and then click **Class View**.
     - In the **Class View** window, expand **FtpAuthenticationDemo**.
     - Right-click **CFtpAuthDemo**, then click **Add**, then click **Implement Interface**.
     - Choose **File** for the interface implementation.
-    - For the **Location**, enter the full path of the FTP extensibility type library. For example: 
+    - For the **Location**, enter the full path of the FTP extensibility type library. For example:
 
         [!code-console[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample1.cmd)]
 
         > [!NOTE]
-        > If you are developing on a 64-bit computer, you should copy the FTP extensibility type library to the following 32-bit path and use that location. For example: 
+        > If you are developing on a 64-bit computer, you should copy the FTP extensibility type library to the following 32-bit path and use that location. For example:
 
         [!code-console[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample2.cmd)]
-    - Choose the following interfaces to implement: 
+    - Choose the following interfaces to implement:
 
         - **IFtpAuthenticationProvider**
         - **IFtpRoleProvider**
     - Click **Finish**.
-8. Configure the project so that the DLL will not be registered automatically: 
+8. Configure the project so that the DLL will not be registered automatically:
 
     - Click **Project**, and then click **FtpAuthenticationDemo Properties**.
     - Expand **Configuration Properties**, and then click **Linker**.
@@ -100,12 +100,12 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
     - Click **Project**, and then click **FtpAuthenticationDemo Properties**.
     - Expand **Configuration Properties**, then expand **Build Events**, then click **Post-build Event**.
     - Click the ellipsis **(...)** on the right side of the **Command line** text box.
-    - Enter the following in the **Command line** dialog box: 
+    - Enter the following in the **Command line** dialog box:
 
         [!code-console[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample3.cmd)]
     - Click **OK** to close the **Command line** dialog box.
     - Click **OK** to close the **FtpAuthenticationDemo Property Pages** dialog box.
-10. If you are developing a provider for a 64-bit version of Windows, you will need to add a build configuration for 64-bit complilation: 
+10. If you are developing a provider for a 64-bit version of Windows, you will need to add a build configuration for 64-bit complilation:
 
     - Click **Build**, and then click **Configuration Manger...**
     - Select **&lt;New...&gt;** in the **Active Solution Platform** drop-down menu.
@@ -118,16 +118,16 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
 
 In this step, you will implement the extensibility interfaces for the demo provider.
 
-1. Implement **IFtpAuthenticationProvider**: 
+1. Implement **IFtpAuthenticationProvider**:
 
     - In the **Class View** window, double-click the **AuthenticateUser** method.
-    - Replace the existing implementation with the following code: 
+    - Replace the existing implementation with the following code:
 
         [!code-csharp[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample4.cs)]
-2. Implement **IFtpRoleProvider**: 
+2. Implement **IFtpRoleProvider**:
 
     - In the **Class View** window, double-click the **IsUserInRole** method.
-    - Replace the existing implementation with the following code: 
+    - Replace the existing implementation with the following code:
 
         [!code-csharp[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample5.cs)]
 3. Add an include file reference for **atlstr.h** to the start of the **FtpAuthDemo.h** file:
@@ -139,7 +139,7 @@ In this step, you will implement the extensibility interfaces for the demo provi
 
 In this step, you will add the demo provider to your FTP service and the default Web site.
 
-1. Add the extensibility provider to the global list of FTP authentication providers: 
+1. Add the extensibility provider to the global list of FTP authentication providers:
 
     - Open the **Internet Information Services (IIS) Manager**.
     - Click your computer name in the **Connections** pane.
@@ -152,24 +152,24 @@ In this step, you will add the demo provider to your FTP service and the default
     - Click **OK**.
     - Clear the **FtpAuthenticationDemo** check box in the providers list.
     - Click **OK**.
-2. Add the custom authentication provider for an FTP site: 
+2. Add the custom authentication provider for an FTP site:
 
     - Open an FTP site in the **Internet Information Services (IIS) Manager**.
     - Double-click **FTP Authentication** in the main window.
     - Click **Custom Providers...** in the **Actions** pane.
     - Check **FtpAuthenticationDemo** in the providers list.
     - Click **OK**.
-3. Add an authorization rule for the authentication provider: 
+3. Add an authorization rule for the authentication provider:
 
     - Double-click **FTP Authorization Rules** in the main window.
     - Click **Add Allow Rule...** in the **Actions** pane.
-    - You can add either of the following authorization rules: 
+    - You can add either of the following authorization rules:
 
-        - For a specific user:bye 
+        - For a specific user:bye
 
             - Select **Specified users** for the access option.
             - Type "MyUser" for the user name.
-        - For a role or group: 
+        - For a role or group:
 
             - Select **Specified roles or user groups** for the access option.
             - Type "MyRole" for the role name.

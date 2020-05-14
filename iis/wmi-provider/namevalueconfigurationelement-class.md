@@ -44,7 +44,7 @@ class NameValueConfigurationElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [CustomHeaderSettings Class](../wmi-provider/customheadersettings-class.md)   
- [HttpProtocolSection Class](../wmi-provider/httpprotocolsection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [CustomHeaderSettings Class](../wmi-provider/customheadersettings-class.md)
+ [HttpProtocolSection Class](../wmi-provider/httpprotocolsection-class.md)
  [RedirectHeaderSettings Class](../wmi-provider/redirectheadersettings-class.md)

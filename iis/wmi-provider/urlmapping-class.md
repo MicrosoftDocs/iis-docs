@@ -49,5 +49,5 @@ class UrlMapping : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [UrlMappingsSection Class](../wmi-provider/urlmappingssection-class.md)

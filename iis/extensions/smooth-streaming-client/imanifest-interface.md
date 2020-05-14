@@ -22,13 +22,13 @@ Represents the manifest interface.
 
 ```csharp
 [VersionAttribute()]
-[GuidAttribute(, , , , , , , , , , )] 
+[GuidAttribute(, , , , , , , , , , )]
 public interface IManifest
 ```
 
 ```cpp
 [VersionAttribute()]
- [GuidAttribute(, , , , , , , , , , )] 
+ [GuidAttribute(, , , , , , , , , , )]
 public interface class IManifest
 ```
 

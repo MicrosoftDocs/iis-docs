@@ -64,25 +64,25 @@ public Collection<JobDetails> GetJobDetailsByInstanceFileName(
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<JobDetails^>^ GetJobDetailsByInstanceFileName(
-    String^ jobDefinitionId, 
+    String^ jobDefinitionId,
     String^ instanceFileName
 ) sealed
 ```
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobDetailsByInstanceFileName : 
-        jobDefinitionId:string * 
-        instanceFileName:string -> Collection<JobDetails> 
+abstract GetJobDetailsByInstanceFileName :
+        jobDefinitionId:string *
+        instanceFileName:string -> Collection<JobDetails>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobDetailsByInstanceFileName : 
-        jobDefinitionId:string * 
-        instanceFileName:string -> Collection<JobDetails> 
+override GetJobDetailsByInstanceFileName :
+        jobDefinitionId:string *
+        instanceFileName:string -> Collection<JobDetails>
 ```
 
 ```jscript
   public final function GetJobDetailsByInstanceFileName(
-    jobDefinitionId : String, 
+    jobDefinitionId : String,
     instanceFileName : String
 ) : Collection<JobDetails>
 ```

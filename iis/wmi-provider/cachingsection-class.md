@@ -58,18 +58,18 @@ oSite.GetSection "CachingSection", oSection
 ' Display the path and location.  
 Wscript.Echo "Path: " & oSection.Path  
 Wscript.Echo "Location: " & oSection.Location  
-Wscript.Echo   
+Wscript.Echo
   
 ' Display other non-array CachingSection properties.  
 WScript.Echo "Enabled: " & oSection.Enabled  
 Wscript.Echo "EnableKernelCache: " & oSection.EnableKernelCache  
 Wscript.Echo "MaxCacheSize: " & oSection.MaxCacheSize  
 Wscript.Echo "MaxResponseSize: " & oSection.MaxResponseSize  
-Wscript.Echo   
+Wscript.Echo
   
 ' Display the caching profiles from the Profiles property.  
 For Each oCachingProfileElement In oSection.Profiles.Profiles  
-    Wscript.Echo   
+    Wscript.Echo
     WScript.Echo "[ " & oCachingProfileElement.Extension & _  
         " ] Caching Profile"  
     WScript.Echo "-----------------------------------"  
@@ -84,7 +84,7 @@ For Each oCachingProfileElement In oSection.Profiles.Profiles
         oCachingProfileElement.VaryByHeaders  
     WScript.Echo "VaryByQueryString: " & _  
         oCachingProfileElement.VaryByQueryString  
-    WScript.Echo               
+    WScript.Echo
 Next  
   
 ' Provide text for KernelCachePolicy and Policy enumeration values.  
@@ -140,9 +140,9 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AspCache Class](../wmi-provider/aspcache-class.md)   
- [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
- [CachingProfileSettings Class](../wmi-provider/cachingprofilesettings-class.md)   
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [AspCache Class](../wmi-provider/aspcache-class.md)
+ [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)
+ [CachingProfileSettings Class](../wmi-provider/cachingprofilesettings-class.md)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [HttpClientCache Class](../wmi-provider/httpclientcache-class.md)

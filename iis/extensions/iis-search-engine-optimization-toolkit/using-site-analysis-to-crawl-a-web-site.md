@@ -40,7 +40,7 @@ After the Web site has been crawled and analyzed, the Site Analysis Report Summa
 
 ## Web Crawler Settings
 
-Other parameters that can be specified when starting a new analysis are: 
+Other parameters that can be specified when starting a new analysis are:
 
 - **Maximum Number of Links** - this setting controls how many unique links will be processed and downloaded from a Web site during a crawl. A link is any URL that is used within a page's markup, including hyperlinks, references to image files, css files, and javascript files. Increasing this number will increase the size of the reports file and will make the crawling process run longer.
 - **Maximum Download Size per Link** - this setting controls how many kilobytes of content will be downloaded per link. Increasing this number will increase the size of the cached content stored by Site Analysis on the local file system.
@@ -48,7 +48,7 @@ Other parameters that can be specified when starting a new analysis are:
 - **Ignore 'noindex' meta tag** - The '[noindex](http://www.robotstxt.org/meta.html)' tag is used to tell search engine crawlers not to index the content of the page. If pages on your site use this meta tag, then the content of those pages will not be searched for any violations. If it is necessary to analyze even the pages that use this attribute, use this setting to ignore the 'noindex' meta tag.
 - **External Links** - You can use this drop-down list when your Web site has sub-domains or when you want to run an analysis on a particular directory within a site. This setting controls whether sub-domains and/or subdirectories should be treated as external or internal links.
 
-In addition, the following generic settings can be configured for the Web crawler by selecting **Edit FeatureSettings in the Actions pane:** 
+In addition, the following generic settings can be configured for the Web crawler by selecting **Edit FeatureSettings in the Actions pane:**
 
 - **Maximum Number of Concurrent Requests** - this setting controls how many concurrent requests the Web crawler will make.
 - **Reports Directory** - specifies the directory on the local file system where all crawled data and cached Web site content is stored.

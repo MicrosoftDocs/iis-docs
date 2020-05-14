@@ -56,5 +56,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCustomNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)   
+ [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)
  [IHttpServer::NotifyCustomNotification Method](../../web-development-reference/native-code-api-reference/ihttpserver-notifycustomnotification-method.md)

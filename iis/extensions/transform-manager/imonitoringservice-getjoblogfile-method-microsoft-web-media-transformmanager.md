@@ -65,8 +65,8 @@ String^ GetJobLogFile(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobLogFile : 
-        jobDetails:JobDetails -> string 
+abstract GetJobLogFile :
+        jobDetails:JobDetails -> string
 ```
 
 ```jscript

@@ -61,20 +61,20 @@ instance.SetTaskCount(jobInstanceId, _
 ```cpp
   public:
 virtual void SetTaskCount(
-    String^ jobInstanceId, 
+    String^ jobInstanceId,
     int taskCount
 ) abstract
 ```
 
 ``` fsharp
-  abstract SetTaskCount : 
-        jobInstanceId:string * 
-        taskCount:int -> unit 
+  abstract SetTaskCount :
+        jobInstanceId:string *
+        taskCount:int -> unit
 ```
 
 ```jscript
   public abstract function SetTaskCount(
-    jobInstanceId : String, 
+    jobInstanceId : String,
     taskCount : int
 )
 ```

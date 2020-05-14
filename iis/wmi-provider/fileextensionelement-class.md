@@ -46,6 +46,6 @@ class FileExtensionElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)

@@ -63,18 +63,18 @@ void DeleteRow(
 
 ```cpp
 void DeleteRow(
-    String^ connectionString, 
-    String^ tableName, 
-    String^ schema, 
+    String^ connectionString,
+    String^ tableName,
+    String^ schema,
     IList<ColumnDataInfo^>^ columnDataInfoList
 )
 ```
 
 ```jscript
 function DeleteRow(
-    connectionString : String, 
-    tableName : String, 
-    schema : String, 
+    connectionString : String,
+    tableName : String,
+    schema : String,
     columnDataInfoList : IList<ColumnDataInfo>
 )
 ```

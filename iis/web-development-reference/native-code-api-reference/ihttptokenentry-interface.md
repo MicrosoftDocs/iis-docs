@@ -48,9 +48,9 @@ class IHttpTokenEntry : public IHttpCacheSpecificData
   
 ```  
 <cacheProvider>  
-    <tokenEntry   
-        impersonationToken="valid"   
-        primaryToken="valid"   
+    <tokenEntry
+        impersonationToken="valid"
+        primaryToken="valid"
         sid="true"/>  
 </cacheProvider>  
 ```  

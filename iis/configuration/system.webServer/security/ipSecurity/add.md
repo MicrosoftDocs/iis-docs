@@ -67,28 +67,28 @@ The default installation of IIS does not include the role service or Windows fea
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Security**.
-4. Select **IP Security**, and then click **OK**.   
+4. Select **IP Security**, and then click **OK**.
   
     [![](add/_static/image8.png)](add/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 
 ### How to add IP restrictions to deny access for a Web site
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -104,19 +104,19 @@ The default installation of IIS does not include the role service or Windows fea
 
 ### How to edit the IP restrictions feature settings for a Web site
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -127,7 +127,7 @@ The default installation of IIS does not include the role service or Windows fea
     [![](add/_static/image18.png)](add/_static/image17.png)
 5. Choose the default access behavior for unspecified clients, specify whether to enable restrictions by domain name, specify whether to enable **Proxy Mode**, select the **Deny Action Type**, and then click **OK**.  
     [![](add/_static/image20.png)](add/_static/image19.png)
- 
+
 <a id="005"></a>
 ## Configuration
 

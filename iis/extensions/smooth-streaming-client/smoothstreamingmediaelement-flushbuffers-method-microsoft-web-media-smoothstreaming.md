@@ -63,16 +63,16 @@ instance.FlushBuffers(bufferToKeep, flushAudio, _
 ```cpp
   public:
 void FlushBuffers(
-    TimeSpan bufferToKeep, 
-    bool flushAudio, 
+    TimeSpan bufferToKeep,
+    bool flushAudio,
     bool flushVideo
 )
 ```
 
 ```jscript
   public function FlushBuffers(
-    bufferToKeep : TimeSpan, 
-    flushAudio : boolean, 
+    bufferToKeep : TimeSpan,
+    flushAudio : boolean,
     flushVideo : boolean
 )
 ```

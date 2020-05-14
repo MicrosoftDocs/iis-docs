@@ -68,7 +68,7 @@ Now we are ready to launch an EC2 Web Server Development Stack instance.
 
 ### Launching your Web Server Development Stack Image
 
-Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.   
+Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image10.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image9.png)
 
 Now select "Community Images" in the resulting dialog.
@@ -80,14 +80,14 @@ By typing "microsoft/" in the "Community AMIs" dialog you will reduce the select
 
 Click "Select" in the "Microsoft Web Platform – Full Web Server Development Stack" ... row.
 
-In the next dialog page (Instance Details) you can select how much computing power you want to have for your Web Server Development Stack instance. It's probably prudent to start with the preselected option which is the smallest. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.   
+In the next dialog page (Instance Details) you can select how much computing power you want to have for your Web Server Development Stack instance. It's probably prudent to start with the preselected option which is the smallest. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image15.png)
 
 If you already have a key, simply use it. If not you have to create one by entering a name for your key pair and clicking the "Create &amp; Download Key Pair" button. As soon as you click the button a key pair will be created by Amazon an you are asked by your browser to download it. Save the file in a location where you will find it later. The key pair you created will allow you to decrypt the Administrator password that Amazon creates for your Media Server instance. Click the "Continue" button.
 
 Note: Internet Explorer might not show the download dialog that asks you where to save the key pair file. If that happens to you, please look for the file (&lt;key pair name&gt;.pem) in Internet Explorers Temporary Files folder. On Windows 7 search for \*.pem in `%userprofile%\ AppData\Local\Microsoft\Windows\Temporary Internet Files`. Make sure you copy the .pem file to a more permanent directory .
 
-Once you created your key pair you can configure firewall rules. You could for example only allow HTTP requests to the machine. Amazon calls firewall rules "Security Groups" which is a bit confusing if you ask me. For this demo we are picking the "default" Security Group which doesn't put any firewall restrictions on the instance. You might want to configure these settings to be a bit more restrictive later on.   
+Once you created your key pair you can configure firewall rules. You could for example only allow HTTP requests to the machine. Amazon calls firewall rules "Security Groups" which is a bit confusing if you ask me. For this demo we are picking the "default" Security Group which doesn't put any firewall restrictions on the instance. You might want to configure these settings to be a bit more restrictive later on.
 Click "Continue" to move to the "Launch" page. The only thing left to do on the summary page is to press the big "Launch" button. Once you do that Amazon EC2 will spin up your personal virtual instance of our Full Web Server Development Stack image. Good job. It's time to get some coffee. Spinning up your instance will take some time, usually around 3 to 5 minutes.
 
 ## 3. Retrieving the Administrator Password
@@ -111,7 +111,7 @@ Now it's time to use the key pair file (&lt;your key pair name&gt;.PEM) that you
 Open the .PEM file in notepad and copy it to the clipboard (Ctrl+A selects all, Ctrl+C copies it into the clipboard). Now paste the contents into the textbox of the dialog (Ctrl+V). Click the "Decrypt" button.
 
 Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
-If you are interested in a more permanent fix you can execute the following command on command-line: 
+If you are interested in a more permanent fix you can execute the following command on command-line:
 
 [!code-console[Main](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/samples/sample1.cmd)]
   
@@ -165,7 +165,7 @@ All that's left is to hit the "Publish" button and the Status bar will indicate 
 
 ### Browsing your Web Application
 
-Let's check it out! If you still have the DNS name in the clipboard you simply have to paste it to the address bar of Internet Explorer.   
+Let's check it out! If you still have the DNS name in the clipboard you simply have to paste it to the address bar of Internet Explorer.
 Voila!
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image40.png)
@@ -174,7 +174,7 @@ Voila!
 
 In case you need to configure something on the server itself you can easily use Remote Desktop to connect to it. Even Visual Web Developer 2010 is installed so you can debug on the remote machine should you run into issues that you can't reproduce locally.
 
-Here is how you connect via RDP to your EC2 instance:   
+Here is how you connect via RDP to your EC2 instance:
 Right click the instance and select "Connect".
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image44.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image43.png)
@@ -183,7 +183,7 @@ Click "Download shortcut file" in the dialog that follows:
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image46.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image45.png)
 
-The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
+The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.
 Once connected you will get logged on to the remote machine.
 
 ## Summary

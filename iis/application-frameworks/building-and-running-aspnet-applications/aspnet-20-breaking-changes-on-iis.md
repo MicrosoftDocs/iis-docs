@@ -51,7 +51,7 @@ You will receive a 500 - Internal Server Error. This is HTTP Error 500.24: *An A
 
 ##### Workaround
 
-A. If your application does not rely on impersonating the requesting user in the BeginRequest and AuthenticateRequest stages (the only stages where impersonation is not possible in Integrated mode), ignore this error by adding the following to your application's web.config: 
+A. If your application does not rely on impersonating the requesting user in the BeginRequest and AuthenticateRequest stages (the only stages where impersonation is not possible in Integrated mode), ignore this error by adding the following to your application's web.config:
 
 [!code-xml[Main](aspnet-20-breaking-changes-on-iis/samples/sample3.xml)]
 

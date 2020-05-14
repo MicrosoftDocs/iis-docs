@@ -61,8 +61,8 @@ static void SetJobTemplates(
 ```
 
 ``` fsharp
-  static member SetJobTemplates : 
-        jobTemplates:Collection<JobTemplate> -> unit 
+  static member SetJobTemplates :
+        jobTemplates:Collection<JobTemplate> -> unit
 ```
 
 ```jscript

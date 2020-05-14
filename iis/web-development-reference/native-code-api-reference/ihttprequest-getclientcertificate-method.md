@@ -59,5 +59,5 @@ HRESULT GetClientCertificate(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)
  [IHttpRequest::NegotiateClientCertificate Method](../../web-development-reference/native-code-api-reference/ihttprequest-negotiateclientcertificate-method.md)

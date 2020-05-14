@@ -87,5 +87,5 @@ WScript.Echo _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
+ [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

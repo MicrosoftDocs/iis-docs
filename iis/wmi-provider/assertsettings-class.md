@@ -44,6 +44,6 @@ class AssertSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)
  [System.Diagnostics.Debug.Assert Method](https://go.microsoft.com/fwlink/?LinkId=70960)

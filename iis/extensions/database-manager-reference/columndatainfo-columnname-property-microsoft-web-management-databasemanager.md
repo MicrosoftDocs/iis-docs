@@ -114,7 +114,7 @@ The following code sample implements the InsertRow method to insert data into a 
                 whereText.Append(" AND ")
                 ' Determine the OLEDB type for the column.
                 Dim dbType As OleDbType = StringToOleDbType(info.TypeInfo.ToString)
-                ' 
+                '
                 Dim parameter As OleDbParameter = command.CreateParameter
                 parameter.ParameterName = ("@" + info.ColumnName)
                 parameter.OleDbType = dbType
@@ -255,7 +255,7 @@ The following code sample implements the InsertRow method to insert data into a 
                             // Determine the OLEDB type for the column.
                             OleDbType dbType = StringToOleDbType(info.TypeInfo.ToString());
 
-                            // 
+                            //
                             OleDbParameter parameter = command.CreateParameter();
                             parameter.ParameterName = "@" + info.ColumnName;
                             parameter.OleDbType = dbType;

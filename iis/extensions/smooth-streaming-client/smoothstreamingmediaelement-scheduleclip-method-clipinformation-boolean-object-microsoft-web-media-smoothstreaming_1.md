@@ -63,23 +63,23 @@ public ClipContext ScheduleClip(
 ```cpp
 public:
 ClipContext^ ScheduleClip(
-    ClipInformation^ clipInfo, 
-    bool pauseTimeline, 
+    ClipInformation^ clipInfo,
+    bool pauseTimeline,
     Object^ userData
 )
 ```
 
 ``` fsharp
-member ScheduleClip : 
-        clipInfo:ClipInformation * 
-        pauseTimeline:bool * 
-        userData:Object -> ClipContext 
+member ScheduleClip :
+        clipInfo:ClipInformation *
+        pauseTimeline:bool *
+        userData:Object -> ClipContext
 ```
 
 ```jscript
 public function ScheduleClip(
-    clipInfo : ClipInformation, 
-    pauseTimeline : boolean, 
+    clipInfo : ClipInformation,
+    pauseTimeline : boolean,
     userData : Object
 ) : ClipContext
 ```

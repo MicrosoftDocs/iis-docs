@@ -47,7 +47,7 @@ class SourceElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [SourceListenerSettings Class](../wmi-provider/sourcelistenersettings-class.md)   
- [SourceSettings Class](../wmi-provider/sourcesettings-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [SourceListenerSettings Class](../wmi-provider/sourcelistenersettings-class.md)
+ [SourceSettings Class](../wmi-provider/sourcesettings-class.md)
  [\<source> Element](https://go.microsoft.com/fwlink/?LinkId=70916)

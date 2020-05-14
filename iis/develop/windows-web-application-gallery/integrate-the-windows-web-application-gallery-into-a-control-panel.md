@@ -76,7 +76,7 @@ Install and configure the deployment handler.
     - Create a custom user to mark folders as applications.  
 
         [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample1.cmd)]
-    - Grant the user read permission to   
+    - Grant the user read permission to
 
         [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample2.cmd)]
     - Grant the user modify permission to  
@@ -397,17 +397,17 @@ When the installation is complete, your control panel should provide a link to t
 
 ## Links for Further Information
 
-**Microsoft® Developer Network (MSDN®):** 
+**Microsoft® Developer Network (MSDN®):**
 
 - [Microsoft Web Deployment namespace](https://msdn.microsoft.com/library/microsoft.web.deployment.aspx)
 
-**Forums:** 
+**Forums:**
 
 - [Web Application Gallery: Users](https://forums.iis.net/1159.aspx)
 - [Web Application Gallery: Developers &amp; Integrators](https://forums.iis.net/1158.aspx)
 - [Web Platform Installer](https://forums.iis.net/1155.aspx)
 
-**Articles:** 
+**Articles:**
 
 - [Application Packaging Guide for the Windows Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md)
 - [Web Application Gallery Overview](introducing-the-windows-web-application-gallery.md)

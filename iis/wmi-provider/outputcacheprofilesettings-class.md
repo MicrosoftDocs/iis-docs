@@ -43,6 +43,6 @@ class OutputCacheProfileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [OutputCacheProfile Class](../wmi-provider/outputcacheprofile-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [OutputCacheProfile Class](../wmi-provider/outputcacheprofile-class.md)
  [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)

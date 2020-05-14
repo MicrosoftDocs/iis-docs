@@ -51,5 +51,5 @@ class XmlSerializerSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [System.Xml.Serialization.XmlSerializer Class](https://go.microsoft.com/fwlink/?LinkId=70923)

@@ -19,7 +19,7 @@ The `<httpCompression>` element specifies the HTTP compression settings for Inte
 
 There are two different types of compression that IIS 7 uses:
 
-- **Static Compression**: 
+- **Static Compression**:
 
     IIS 7 caches compressed static content in the path that is specified by the **directory** attribute, which increases compression performance by eliminating the need to recompress content that has already been compressed. After IIS 7 has compressed a file, subsequent requests are given the compressed copy of the file from the cache directory.
 
@@ -29,7 +29,7 @@ There are two different types of compression that IIS 7 uses:
 
     > [!NOTE]
     > Image files such as \*.jpg and \*.png files are also static files, but typically they do not benefit from HTTP compression because these image files are already compressed.
-- **Dynamic Compression**: 
+- **Dynamic Compression**:
 
     Unlike static compression, IIS 7 performs dynamic compression each time a client requests the content, but the compressed version is not cached to disk. This change is made because of the primary difference between static and dynamic content. Static content does not change. However, dynamic content is typically content that is created by an application and therefore changes often, such as Active Server Pages (ASP) or ASP.NET content. Since dynamic content should change often, IIS 7 does not cache it.
 
@@ -97,28 +97,28 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Performance Features**.
-4. Select **Http Compression Dynamic** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression.   
+4. Select **Http Compression Dynamic** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression.
     [![](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
- 
+
 <a id="004"></a>
 ## How To
 
 ### How to enable or disable static and dynamic compression for a site or application
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -131,19 +131,19 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 
 ### How to enable or disable static and dynamic compression for a server
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -156,12 +156,12 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 
 ### How to configure staticCompressionIgnoreHitFrequency
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8.1: 
+    - If you are using Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -170,7 +170,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 4. For **staticCompressionIgnoreHitFrequency**, enter `True` to disable the behavior that a static file is compressed only if it is hit a certain number of times within a time period, or enter `False` to enable the behavior.  
     [![](index/_static/image18.png)](index/_static/image17.png)
 5. In the **Actions** pane, click **Apply**.
- 
+
 <a id="005"></a>
 ## Configuration
 

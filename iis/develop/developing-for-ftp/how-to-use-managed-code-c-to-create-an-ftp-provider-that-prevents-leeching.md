@@ -47,13 +47,13 @@ In this step, you will create a project in Visual Studio 2010 for the demo provi
 
 1. Open Microsoft Visual Studio 2010.
 2. Click the **File** menu, then **New**, then **Project**.
-3. In the **New Project** dialog box: 
+3. In the **New Project** dialog box:
 
     - Choose **Visual C#** as the project type.
     - Choose **Class Library** as the template.
     - Type **FtpLeechPrevention** as the name of the project.
     - Click **OK**.
-4. Add a strong name key to the project: 
+4. Add a strong name key to the project:
 
     - Click **Project**, and then click **FtpLeechPrevention Properties**.
     - Click the **Signing** tab.
@@ -62,11 +62,11 @@ In this step, you will create a project in Visual Studio 2010 for the demo provi
     - Enter **FtpLeechPreventionKey** for the key file name.
     - If desired, enter a password for the key file; otherwise, clear the **Protect my key file with a password** check box.
     - Click **OK**.
-5. Add a custom build event to add the DLL automatically to the Global Assembly Cache (GAC) on your development computer: 
+5. Add a custom build event to add the DLL automatically to the Global Assembly Cache (GAC) on your development computer:
 
     - Click **Project**, and then click **FtpLeechPrevention Properties**.
     - Click the **Build Events** tab.
-    - Enter the following in the **Post-build event command line** dialog box: 
+    - Enter the following in the **Post-build event command line** dialog box:
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample1.cmd)]
 6. Save the project.
@@ -77,17 +77,17 @@ In this step, you will create a project in Visual Studio 2010 for the demo provi
 
 In this step, you will implement the extensibility interface for the demo provider.
 
-1. Add a reference to the FTP extensibility library for the project: 
+1. Add a reference to the FTP extensibility library for the project:
 
     - Click **Project**, and then click **Add Reference...**
     - Click the **Browse** tab.
     - Navigate to your `%ProgramFiles(x86)%\Reference Assemblies\Microsoft\IIS` folder.
     - Click **Microsoft.Web.FtpServer** and then click **OK**.
-2. Add the code for the authentication class: 
+2. Add the code for the authentication class:
 
     - In **Solution Explorer**, double-click the **Class1.cs** file.
     - Remove the existing code.
-    - Paste the following code into the editor: 
+    - Paste the following code into the editor:
 
         [!code-csharp[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample2.cs)]
 3. Save and compile the project.
@@ -103,26 +103,26 @@ In this step, you will implement the extensibility interface for the demo provid
 
 In this step, you will add the demo provider to your FTP service and an FTP site.
 
-1. Determine the assembly information for the extensibility provider: 
+1. Determine the assembly information for the extensibility provider:
 
-    - Open a command prompt and enter the following commands: 
+    - Open a command prompt and enter the following commands:
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample3.cmd)]
-    - Copy the information for the **FtpLeechPrevention** assembly; for example: 
+    - Copy the information for the **FtpLeechPrevention** assembly; for example:
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample4.cmd)]
     - Close the .
-2. Add the extensibility provider to the global list of FTP providers: 
+2. Add the extensibility provider to the global list of FTP providers:
 
-    - At the moment there is no UI that enables you to add a custom provider with its related configuration settings to IIS, so you will have to use command line syntax like the following example: 
+    - At the moment there is no UI that enables you to add a custom provider with its related configuration settings to IIS, so you will have to use command line syntax like the following example:
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample5.cmd)]
 
         > [!NOTE]
         > You need to update the above syntax using the managed type information for your provider and your desired number of downloads.
-3. Add the custom provider to a site: 
+3. Add the custom provider to a site:
 
-    - At the moment there is no UI that enables you to add custom features to a site, so you will have to use command line syntax like the following example that configures the Default Web Site: 
+    - At the moment there is no UI that enables you to add custom features to a site, so you will have to use command line syntax like the following example that configures the Default Web Site:
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample6.cmd)]
 

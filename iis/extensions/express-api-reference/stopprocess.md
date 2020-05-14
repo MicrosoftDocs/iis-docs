@@ -10,7 +10,7 @@ Stops the IIS Express process for the specified process ID.
   
 ```cpp  
     HRESULT  
-    StopProcess(   
+    StopProcess(
         [in] DWORD dwPid  
     );  
   
@@ -26,5 +26,5 @@ Stops the IIS Express process for the specified process ID.
  `HRESULT`  
   
 ## See Also  
- [GetRunningProcessForSite](../../extensions/express-api-reference/getrunningprocessforsite.md)   
+ [GetRunningProcessForSite](../../extensions/express-api-reference/getrunningprocessforsite.md)
  [ConstructCommandLine](../../extensions/express-api-reference/constructcommandline.md)

@@ -77,7 +77,7 @@ For more information, see [Events](events.md).
 
 The following example shows a delegate that handles the media failed event.
 
-``` 
+```
     void SmoothPlayer_MediaFailed(object sender, ExceptionRoutedEventArgs e)
     {
         MessageBox.Show(e.ErrorException.Message + " Inner Exception: "

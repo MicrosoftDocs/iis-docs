@@ -46,9 +46,9 @@ class AspSession : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AspCache Class](../wmi-provider/aspcache-class.md)   
- [AspComPlus Class](../wmi-provider/aspcomplus-class.md)   
- [AspLimits Class](../wmi-provider/asplimits-class.md)   
- [AspSection Class](../wmi-provider/aspsection-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [AspCache Class](../wmi-provider/aspcache-class.md)
+ [AspComPlus Class](../wmi-provider/aspcomplus-class.md)
+ [AspLimits Class](../wmi-provider/asplimits-class.md)
+ [AspSection Class](../wmi-provider/aspsection-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

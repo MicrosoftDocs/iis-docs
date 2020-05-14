@@ -45,16 +45,16 @@ Set objWMIService = GetObject("winmgmts:root\WebAdministration")
 Set oRequestFilteringSection = objWMIService.Get( _  
 "RequestFilteringSection.Path='MACHINE/WEBROOT/APPHOST',Location=''")  
   
-' Display the path and the contents of the   
-' RequestFilteringSection.RequestLimits.HeaderLimits.HeaderLimits   
+' Display the path and the contents of the
+' RequestFilteringSection.RequestLimits.HeaderLimits.HeaderLimits
 ' property, which contains an array of HeaderLimitsElement instances.  
 WScript.Echo "[Header Limits]"  
 WScript.Echo "Path: " & oRequestFilteringSection.Path  
-WScript.Echo   
+WScript.Echo
 For Each oHeaderLimit In oRequestFilteringSection.RequestLimits.HeaderLimits.HeaderLimits  
     WScript.Echo "Header: " & oHeaderLimit.Header  
     WScript.Echo "Header size limit: " & oHeaderLimit.sizeLimit  
-    WScript.Echo   
+    WScript.Echo
 Next  
   
 ```  
@@ -74,7 +74,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)   
- [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)
+ [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)
  [RequestLimitsElement Class](../wmi-provider/requestlimitselement-class.md)

@@ -157,5 +157,5 @@ This walkthrough demonstrates how to use C++ to create a sample request-level HT
     3. For the **Module Definition File** settings, ensure that your definition file is listed.  
   
 ## See Also  
- [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
+ [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)
  [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)

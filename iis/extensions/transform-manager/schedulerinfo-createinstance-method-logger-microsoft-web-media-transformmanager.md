@@ -61,8 +61,8 @@ Scheduler^ CreateInstance(
 ```
 
 ``` fsharp
-  member CreateInstance : 
-        logger:Logger -> Scheduler 
+  member CreateInstance :
+        logger:Logger -> Scheduler
 ```
 
 ```jscript

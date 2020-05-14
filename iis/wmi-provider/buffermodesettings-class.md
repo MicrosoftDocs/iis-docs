@@ -43,8 +43,8 @@ class BufferModeSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode)   
- [BufferModeElement Class](../wmi-provider/buffermodeelement-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
+ [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode)
+ [BufferModeElement Class](../wmi-provider/buffermodeelement-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

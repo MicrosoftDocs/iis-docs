@@ -14,5 +14,5 @@ This section provides functions to retrieve a reference to the process model hos
 |[PFNGetIsapiProcessHost](../../web-development-reference/native-code-api-reference/pfngetisapiprocesshost-function.md)|Provides a `typdef` to retrieve a reference to the process model host.|  
   
 ## See Also  
- [Windows Process Activation Service API Reference](../../web-development-reference/native-code-api-reference/windows-process-activation-service-api-reference.md)   
+ [Windows Process Activation Service API Reference](../../web-development-reference/native-code-api-reference/windows-process-activation-service-api-reference.md)
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

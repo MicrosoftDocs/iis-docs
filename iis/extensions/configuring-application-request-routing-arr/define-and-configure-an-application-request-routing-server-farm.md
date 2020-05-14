@@ -38,7 +38,7 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 
 ## Step 1 – Create a server farm in Application Request Routing
 
-**To create and define a server farm using the UI:** 
+**To create and define a server farm using the UI:**
 
 1. Launch IIS Manager.
 2. Application Request Routing is a server level feature. Select and expand the root of the server.
@@ -57,11 +57,11 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
     [![](define-and-configure-an-application-request-routing-server-farm/_static/image13.jpg)](define-and-configure-an-application-request-routing-server-farm/_static/image12.jpg)
 6. You have successfully created a server group with application servers as its members.
 
-**To create and define a server farm using the command-line:** 
+**To create and define a server farm using the command-line:**
 
 1. Open a command prompt with **administrator** privileges.
 2. Navigate to `%windir%\system32\inetsrv`.
-3. To create the server farm named myServerFarm, enter: 
+3. To create the server farm named myServerFarm, enter:
 
     [!code-console[Main](define-and-configure-an-application-request-routing-server-farm/samples/sample1.cmd)]
 4. To add an application server named wonyoo-w2k8 to the server farm named myServerFarm, enter:
@@ -81,7 +81,7 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 
 After the server farm has been created and defined, additional properties can be set to manage the behavior of Application Request Routing. Only the subset of the settings is covered in this walkthrough.
 
-**To configure server farm properties using the UI:** 
+**To configure server farm properties using the UI:**
 
 1. Select the server farm, **myServerFarm**. The following icons are shown:
 

@@ -61,16 +61,16 @@ ICollection<StoredProcedureParameter> GetStoredProcedureParameters(
 
 ```cpp
 ICollection<StoredProcedureParameter^>^ GetStoredProcedureParameters(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     String^ storedProcedureName
 )
 ```
 
 ```jscript
 function GetStoredProcedureParameters(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     storedProcedureName : String
 ) : ICollection<StoredProcedureParameter>
 ```

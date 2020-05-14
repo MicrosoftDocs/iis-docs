@@ -43,7 +43,7 @@ With dynamic content, data can change frequently and you must flush the cache, l
 
 IIS supports two ways to invalidate dynamic content:
 
-- Use a simple timeout period - the configuration property is CacheForTimePeriod. 
+- Use a simple timeout period - the configuration property is CacheForTimePeriod.
 - Detect a change to the underlying resource - the configuration property is CacheUntilChange. Use this type of invalidation scheme only when you want the cache flushed when the underlying resource changes.
 
 ## Configure Cache Worthiness

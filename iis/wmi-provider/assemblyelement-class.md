@@ -43,5 +43,5 @@ class AssemblyElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AssemblySettings Class](../wmi-provider/assemblysettings-class.md)   
+ [AssemblySettings Class](../wmi-provider/assemblysettings-class.md)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

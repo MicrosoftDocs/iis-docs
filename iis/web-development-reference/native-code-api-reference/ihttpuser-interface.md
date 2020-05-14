@@ -42,15 +42,15 @@ class IHttpUser
   
 ```  
 <?xml version="1.0" ?>  
-<user   
-    userName="DOMAIN\user"   
-    remoteName=" DOMAIN\user"   
-    passWord="[hidden]"   
-    authType="Negotiate"   
-    impersonationToken="valid"   
-    primaryToken="valid"   
-    supportsRoles="true"   
-    isInRole="false"   
+<user
+    userName="DOMAIN\user"
+    remoteName=" DOMAIN\user"
+    passWord="[hidden]"
+    authType="Negotiate"
+    impersonationToken="valid"
+    primaryToken="valid"
+    supportsRoles="true"
+    isInRole="false"
     userVariable="NULL" />  
 ```  
   

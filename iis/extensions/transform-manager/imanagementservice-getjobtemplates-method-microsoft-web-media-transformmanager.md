@@ -58,7 +58,7 @@ Collection<JobTemplate^>^ GetJobTemplates()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobTemplates : unit -> Collection<JobTemplate> 
+abstract GetJobTemplates : unit -> Collection<JobTemplate>
 ```
 
 ```jscript

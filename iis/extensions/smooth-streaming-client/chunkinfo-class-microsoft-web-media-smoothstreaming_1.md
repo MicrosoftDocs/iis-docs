@@ -95,7 +95,7 @@ The ChunkInfo type exposes the following members.
 
 The following example shows how to get the ChunkInfo objects in a [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) object and how to call the asynchronous method [BeginGetChunk(TimeSpan, AsyncCallback, Object)](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md). For more information, see [Timeline Markers and Events](timeline-markers-and-events.md).
 
-``` 
+```
     foreach (TrackInfo trackInfo in streamInfo.SelectedTracks)
     {
         foreach (ChunkInfo chunk in streamInfo.ChunkList.ToList<ChunkInfo>())
@@ -109,7 +109,7 @@ The following example shows how to get the ChunkInfo objects in a [StreamInfo](s
 
 The following example shows the call to the [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) method. For more information on this asynchronous scenario, see [Timeline Markers and Events](timeline-markers-and-events.md).
 
-``` 
+```
     foreach (TrackInfo trackInfo in streamInfo.SelectedTracks)
     {
         ChunkResult chunkResult = trackInfo.EndGetChunk(argAR);

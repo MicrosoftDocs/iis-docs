@@ -45,5 +45,5 @@ virtual IHttpRequest* GetRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
  [IHttpContext::GetResponse Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md)

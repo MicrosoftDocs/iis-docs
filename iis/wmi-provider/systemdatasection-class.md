@@ -57,6 +57,6 @@ class SystemDataSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [DbProviderFactorySettings Class](../wmi-provider/dbproviderfactorysettings-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [DbProviderFactorySettings Class](../wmi-provider/dbproviderfactorysettings-class.md)
  [IIS 7.0: ProviderFactoryElement Class](https://msdn.microsoft.com/42f523ee-eaab-4a81-917d-5c0f591cfc45)

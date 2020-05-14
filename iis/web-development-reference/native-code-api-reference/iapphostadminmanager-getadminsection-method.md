@@ -58,5 +58,5 @@ HRESULT GetAdminSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)   
+ [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)
  [IAppHostConfigFile::GetAdminSection Method](../../web-development-reference/native-code-api-reference/iapphostconfigfile-getadminsection-method.md)

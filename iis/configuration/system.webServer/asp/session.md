@@ -40,7 +40,7 @@ To support and configure ASP applications on your Web server, you must install t
 
 ### Windows Server 2012 or Windows Server 2012 R2
 
-1. On the taskbar, click **Server Manager**. 
+1. On the taskbar, click **Server Manager**.
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **ASP**.  

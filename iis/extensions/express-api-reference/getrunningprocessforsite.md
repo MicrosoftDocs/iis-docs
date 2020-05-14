@@ -10,11 +10,11 @@ Returns the process ID of the worker process when the parameters of this functio
   
 ```cpp  
     HRESULT  
-    GetRunningProcessForSite(   
-        [in] BSTR    bstrSite,   
-        [in] BSTR    bstrApplication,   
-        [in] BSTR    bstrApplicationPool,   
-        [in] BSTR    bstrConfigPath,   
+    GetRunningProcessForSite(
+        [in] BSTR    bstrSite,
+        [in] BSTR    bstrApplication,
+        [in] BSTR    bstrApplicationPool,
+        [in] BSTR    bstrConfigPath,
         [out, retval] DWORD * pdwPid  
     );  
   
@@ -46,5 +46,5 @@ Returns the process ID of the worker process when the parameters of this functio
  `HRESULT`  
   
 ## See Also  
- [ConstructCommandLine](../../extensions/express-api-reference/constructcommandline.md)   
+ [ConstructCommandLine](../../extensions/express-api-reference/constructcommandline.md)
  [StopProcess](../../extensions/express-api-reference/stopprocess.md)

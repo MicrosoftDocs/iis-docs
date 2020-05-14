@@ -42,5 +42,5 @@ virtual BOOL GetResponseHeadersSent(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
  [IHttpResponse::Flush Method](../../web-development-reference/native-code-api-reference/ihttpresponse-flush-method.md)

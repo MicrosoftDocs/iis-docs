@@ -58,20 +58,20 @@ Dim instance As New TaskDefinition(fileInfo, _
 ```cpp
   public:
 TaskDefinition(
-    FileInfo^ fileInfo, 
+    FileInfo^ fileInfo,
     XElement^ taskDefinitionElement
 )
 ```
 
 ``` fsharp
-  new : 
-        fileInfo:FileInfo * 
+  new :
+        fileInfo:FileInfo *
         taskDefinitionElement:XElement -> TaskDefinition
 ```
 
 ```jscript
   public function TaskDefinition(
-    fileInfo : FileInfo, 
+    fileInfo : FileInfo,
     taskDefinitionElement : XElement
 )
 ```

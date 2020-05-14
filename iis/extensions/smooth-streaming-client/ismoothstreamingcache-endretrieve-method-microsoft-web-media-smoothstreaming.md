@@ -89,7 +89,7 @@ For documentation of the sample, see [Cache Plug-in Implementation of ISmoothStr
 
 The following code shows an implementation of the EndRetrieve(IAsyncResult) method.
 
-``` 
+```
     public CacheResponse EndRetrieve(IAsyncResult ar)
     {
         ar.AsyncWaitHandle.WaitOne();
@@ -103,9 +103,9 @@ The following code shows an implementation of the EndRetrieve(IAsyncResult) meth
 
             if (!string.IsNullOrEmpty(filename) && isoFileArea.FileExists(filename))
             {
-                IsolatedStorageFileStream stream = 
+                IsolatedStorageFileStream stream =
                     isoFileArea.OpenFile(filename, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-                response = new CacheResponse(stream);                    
+                response = new CacheResponse(stream);
             }
         }
 

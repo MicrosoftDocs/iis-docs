@@ -64,8 +64,8 @@ void StopJobManager(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract StopJobManager : 
-        jobDefinitionId:string -> unit 
+abstract StopJobManager :
+        jobDefinitionId:string -> unit
 ```
 
 ```jscript

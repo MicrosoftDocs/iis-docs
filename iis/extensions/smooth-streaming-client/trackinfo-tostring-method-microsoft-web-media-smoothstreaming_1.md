@@ -56,8 +56,8 @@ virtual String^ ToString() override
 ```
 
 ``` fsharp
-abstract ToString : unit -> string 
-override ToString : unit -> string 
+abstract ToString : unit -> string
+override ToString : unit -> string
 ```
 
 ```jscript

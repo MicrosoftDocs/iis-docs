@@ -58,7 +58,7 @@ Collection<TaskDefinition^>^ GetTaskDefinitions()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetTaskDefinitions : unit -> Collection<TaskDefinition> 
+abstract GetTaskDefinitions : unit -> Collection<TaskDefinition>
 ```
 
 ```jscript

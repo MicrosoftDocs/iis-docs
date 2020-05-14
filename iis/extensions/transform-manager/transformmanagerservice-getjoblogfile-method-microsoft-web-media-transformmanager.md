@@ -66,11 +66,11 @@ virtual String^ GetJobLogFile(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobLogFile : 
-        jobDetails:JobDetails -> string 
+abstract GetJobLogFile :
+        jobDetails:JobDetails -> string
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobLogFile : 
-        jobDetails:JobDetails -> string 
+override GetJobLogFile :
+        jobDetails:JobDetails -> string
 ```
 
 ```jscript

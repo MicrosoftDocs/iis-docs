@@ -43,7 +43,7 @@ class TraceListenerSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [ListenerElement Class](../wmi-provider/listenerelement-class.md)   
- [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [ListenerElement Class](../wmi-provider/listenerelement-class.md)
+ [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)
  [TraceSettings Class](../wmi-provider/tracesettings-class.md)

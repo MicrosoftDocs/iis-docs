@@ -63,18 +63,18 @@ Tracing.TraceFunctionEntry(mediaElementId, _
 ```cpp
   public:
 static void TraceFunctionEntry(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
     TraceArea traceArea
 )
 ```
 
 ```jscript
   public static function TraceFunctionEntry(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
     traceArea : TraceArea
 )
 ```

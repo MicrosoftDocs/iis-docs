@@ -46,5 +46,5 @@ class IPAddressFilterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [IPSecuritySection Class](../wmi-provider/ipsecuritysection-class.md)

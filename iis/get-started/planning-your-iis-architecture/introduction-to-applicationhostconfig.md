@@ -105,7 +105,7 @@ However, if it prepends, it will be:
 
 Some collections may allow duplicate entries by specifying allowDuplicates="true" in their schema. This is mostly done to support legacy collections in the .NET framework (in machine.config).
 
-Some collections may allow additional attributes in them, beyond those specified in the schema. This is done by specifying allowUnrecognizedAttributes="true" in their schema. It is mostly done to support provider-based collections in the .NET framework. 
+Some collections may allow additional attributes in them, beyond those specified in the schema. This is done by specifying allowUnrecognizedAttributes="true" in their schema. It is mostly done to support provider-based collections in the .NET framework.
 
 [!code-xml[Main](introduction-to-applicationhostconfig/samples/sample8.xml)]
 
@@ -137,37 +137,37 @@ The system supports these validators:
 
 ### ApplicationPoolName validator
 
-This validator fails on these characters: |&lt;&gt;&amp;\" 
+This validator fails on these characters: |&lt;&gt;&amp;\"
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample11.cmd)]
 
 ### IntegerRange validator
 
-This validator fails if value is outside [inside] range, in integers. 
+This validator fails if value is outside [inside] range, in integers.
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample12.cmd)]
 
 ### NonEmptyString validator
 
-This validator fails if string value is set. 
+This validator fails if string value is set.
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample13.cmd)]
 
 ### SiteName validator
 
-This validator fails on these characters: /\.? 
+This validator fails on these characters: /\.?
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample14.cmd)]
 
 ### TimeSpanRange validator
 
-This validator fails if value is outside [inside] range, in seconds. 
+This validator fails if value is outside [inside] range, in seconds.
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample15.cmd)]
 
 ### TrimWhiteSpace validator
 
-This validator fails if white space is set at start or end of value. 
+This validator fails if white space is set at start or end of value.
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample16.cmd)]
 

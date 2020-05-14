@@ -41,12 +41,12 @@ Wildcards are only allowed in the left-most subdomain of the hostname. For examp
 
 To add a new site with a Wildcard Host Header in IIS you need to follow these simple steps:
 
-1. Open Internet Information Services Manager on the server your site is hosted on: 
+1. Open Internet Information Services Manager on the server your site is hosted on:
 
-    - If you are using Windows Server Technical Preview: 
+    - If you are using Windows Server Technical Preview:
 
         1. On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Technical Preview 
+    - If you are using Windows Technical Preview
 
         1. Hold down the **Windows** Key, press the letter **X** and then click **Control Panel**.
         2. Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -61,12 +61,12 @@ To add a new site with a Wildcard Host Header in IIS you need to follow these si
 
 To configure and existing site to make use of a Wildcard Host Header in IIS you need to follow these simple steps:
 
-1. Open Internet Information Services Manager on the server your site is hosted on: 
+1. Open Internet Information Services Manager on the server your site is hosted on:
 
-    - If you are using Windows Server Technical Preview: 
+    - If you are using Windows Server Technical Preview:
 
         1. On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Technical Preview 
+    - If you are using Windows Technical Preview
 
         1. Hold down the **Windows** Key, press the letter **X** and then click **Control Panel**.
         2. Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

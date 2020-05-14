@@ -62,8 +62,8 @@ static SchedulerInfo^ FindJobSchedulerInfo(
 ```
 
 ``` fsharp
-  static member FindJobSchedulerInfo : 
-        id:string -> SchedulerInfo 
+  static member FindJobSchedulerInfo :
+        id:string -> SchedulerInfo
 ```
 
 ```jscript

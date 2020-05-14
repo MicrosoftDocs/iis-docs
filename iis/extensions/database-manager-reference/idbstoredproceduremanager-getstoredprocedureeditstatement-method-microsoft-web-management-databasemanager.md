@@ -61,16 +61,16 @@ Query GetStoredProcedureEditStatement(
 
 ```cpp
 Query^ GetStoredProcedureEditStatement(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     String^ storedProcedureName
 )
 ```
 
 ```jscript
 function GetStoredProcedureEditStatement(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     storedProcedureName : String
 ) : Query
 ```

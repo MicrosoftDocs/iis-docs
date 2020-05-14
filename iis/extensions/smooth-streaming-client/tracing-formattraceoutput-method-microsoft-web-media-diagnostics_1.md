@@ -62,8 +62,8 @@ static String^ FormatTraceOutput(
 ```
 
 ``` fsharp
-static member FormatTraceOutput : 
-        entry:TraceEntry -> string 
+static member FormatTraceOutput :
+        entry:TraceEntry -> string
 ```
 
 ```jscript

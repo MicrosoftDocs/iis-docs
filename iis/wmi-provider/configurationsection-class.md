@@ -96,7 +96,7 @@ class ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [WMI Provider](../wmi-provider/wmi-provider.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)   
+ [WMI Provider](../wmi-provider/wmi-provider.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)
  [SectionInformation Class](../wmi-provider/sectioninformation-class.md)

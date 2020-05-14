@@ -49,10 +49,10 @@ class StringElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AuthenticationProviderSettings Class](../wmi-provider/authenticationprovidersettings-class.md)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)   
- [FileSettings Class](../wmi-provider/filesettings-class.md)   
- [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
- [TraceUrlSettings Class](../wmi-provider/traceurlsettings-class.md)   
+ [AuthenticationProviderSettings Class](../wmi-provider/authenticationprovidersettings-class.md)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)
+ [FileSettings Class](../wmi-provider/filesettings-class.md)
+ [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)
+ [TraceUrlSettings Class](../wmi-provider/traceurlsettings-class.md)
  [WindowsAuthenticationSection Class](../wmi-provider/windowsauthenticationsection-class.md)

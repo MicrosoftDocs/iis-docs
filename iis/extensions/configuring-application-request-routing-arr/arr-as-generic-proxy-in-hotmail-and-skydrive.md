@@ -15,7 +15,7 @@ This article describes integration and use of the Application Request Routing mo
 
 ## Solution summary
 
-The Application Request Routing proxy (ARR) is one of the core pieces of the gradual deployment system (GD) of Hotmail and SkyDrive, used to roll out new versions of our frontend services. GD incrementally moves blocks of users to the new version of the service as servers get upgraded. Each user experiences the transition from the old to the new version at most once, while many users with shorter sessions will see no impact. To achieve this, users are affinitized to a version of the service and requests may be proxied via ARR to a version-affinitized pool of servers. The system has been built to support both SSL and non-SSL user requests. 
+The Application Request Routing proxy (ARR) is one of the core pieces of the gradual deployment system (GD) of Hotmail and SkyDrive, used to roll out new versions of our frontend services. GD incrementally moves blocks of users to the new version of the service as servers get upgraded. Each user experiences the transition from the old to the new version at most once, while many users with shorter sessions will see no impact. To achieve this, users are affinitized to a version of the service and requests may be proxied via ARR to a version-affinitized pool of servers. The system has been built to support both SSL and non-SSL user requests.
 
 ## Versions of relevant components
 
@@ -26,7 +26,7 @@ The Application Request Routing proxy (ARR) is one of the core pieces of the gra
 
 ## ARR integration details
 
-The ARR proxy runs in the same request processing pipeline as the application itself. This was needed to reduce the complexity of migrating from our older deployment system. However, this required careful resolution of conflicts between the new and existing HTTP modules in the IIS request lifecycle. Some of these resolutions are discussed in detail later. The following picture shows updates to the IIS request processing pipeline needed to integrate ARR based on the above requirements. 
+The ARR proxy runs in the same request processing pipeline as the application itself. This was needed to reduce the complexity of migrating from our older deployment system. However, this required careful resolution of conflicts between the new and existing HTTP modules in the IIS request lifecycle. Some of these resolutions are discussed in detail later. The following picture shows updates to the IIS request processing pipeline needed to integrate ARR based on the above requirements.
 
 [![](arr-as-generic-proxy-in-hotmail-and-skydrive/_static/image3.png)](arr-as-generic-proxy-in-hotmail-and-skydrive/_static/image2.png)
 
@@ -44,11 +44,11 @@ The affinitized version for a user is determined by a custom http module during 
 
 ## ARR configuration
 
-Hotmail and SkyDrive use the following configuration settings to meet our requirements: 
+Hotmail and SkyDrive use the following configuration settings to meet our requirements:
 
-- preserveHostHeader = true.   
+- preserveHostHeader = true.
 The application needs to see the original host header on the proxied request instead of the host header modified for the purpose of ARR routing.
-- reverseRewriteHostInResponseHeaders = false.   
+- reverseRewriteHostInResponseHeaders = false.
 In the responses back to the client, ARR must return the location headers as set by the application in case of redirects.
 
 ## IIS request pipeline issues and resolution

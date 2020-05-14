@@ -45,7 +45,7 @@ class SqlCacheDependencyDatabase : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency) 
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)   
+ [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)
  [SqlCacheDependencyDatabaseSettings Class](../wmi-provider/sqlcachedependencydatabasesettings-class.md)

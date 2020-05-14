@@ -68,25 +68,25 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 3. In the **Windows Features** dialog box, expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.  
     [![](filter/_static/image8.png)](filter/_static/image7.png)
 4. Select **ISAPI Filters**, and then click **OK**.
- 
+
 <a id="004"></a>
 ## How To
 
 ### How to add an ISAPI filter
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -97,7 +97,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 5. In the **Filter name** text box of the **Add ISAPI Filter** dialog box, type a friendly name for the ISAPI filter.
 6. In the **Executable** box, type the file system path of the location of ISAPI filter file or click the ellipsis (**...**) to navigate to the folder that contains the ISAPI filter file, and then click **OK**.  
     [![](filter/_static/image12.png)](filter/_static/image11.png)
- 
+
 <a id="005"></a>
 ## Configuration
 
@@ -120,7 +120,7 @@ None.
 The following configuration example adds an ISAPI filter named SalesQueryIsapi to a Web site or application. The sample names and enables the ISAPI filter with the **name** and **enabled** attributes. It also uses the **enableCache** attribute to disable HTTP.sys caching and the **path** attribute to specify the location of the ISAPI DLL.
 
 [!code-xml[Main](filter/samples/sample1.xml)]
- 
+
 <a id="006"></a>
 ## Sample Code
 

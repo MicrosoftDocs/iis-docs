@@ -48,6 +48,6 @@ class ServicePointManagerSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [SettingsSection Class](../wmi-provider/settingssection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [SettingsSection Class](../wmi-provider/settingssection-class.md)
  [WebRequest Class](https://go.microsoft.com/fwlink/?LinkId=69332)

@@ -43,6 +43,6 @@ class TagPrefixInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [PagesSection Class](../wmi-provider/pagessection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [PagesSection Class](../wmi-provider/pagessection-class.md)
  [TagPrefixElement Class](../wmi-provider/tagprefixelement-class.md)

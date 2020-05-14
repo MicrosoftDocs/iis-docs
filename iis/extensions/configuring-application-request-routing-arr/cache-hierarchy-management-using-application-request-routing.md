@@ -54,7 +54,7 @@ If you have not done so already, configure disk cache by following [this](config
 
 ## Step 2 - Define cache hierarchy.
 
-**To create and define a server farm using the UI:** 
+**To create and define a server farm using the UI:**
 
 1. Launch IIS Manager.
 2. Select and expand the root of the server. This is your child (edge) cache node.  
@@ -77,7 +77,7 @@ If you have not done so already, configure disk cache by following [this](config
 
 ARR Version 2 includes support for CARP. CARP is used to determine which parent cache node to forward a request to when there is a cache miss at the child cache node.
 
-**To enable CARP using the UI:** 
+**To enable CARP using the UI:**
 
 1. Launch IIS Manager.
 2. Select the server farm **myParentCacheNodes**, which you created in Step 2 above.

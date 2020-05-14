@@ -25,11 +25,11 @@ This document walks you through migrating web sites on IIS 7.0 from the FrontPag
 
 The following items are required to complete the procedures in this article:
 
-- IIS 7.0 must be installed on your server, and the following must be configured: 
+- IIS 7.0 must be installed on your server, and the following must be configured:
 
     - The Default Web Site that is created by the IIS 7.0 installation must still exist.
     - The Request Filtering role service must be installed.
-- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document: 
+- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document:
 
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
@@ -111,7 +111,7 @@ To uninstall the FrontPage 2002 Server Extensions using a command line, follow t
 2. Type the following command:  
 
     [!code-console[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample1.cmd)]
-3. Type one of the following commands: 
+3. Type one of the following commands:
 
     - To remove FPSE and preserve metadata:  
 
@@ -212,10 +212,10 @@ To run this script, use the following steps:
     > If you are using a site other than the Default Web Site, you must update the     *strSiteName* variable.
 2. Save the file as "CleanFpseSettings.vbs" to your desktop and close your text editor.
 3. Open a command prompt as an administrator by right-clicking the Command Prompt menu item that is located in the Windows Accessories menu and selecting "Run as administrator".
-4. Change directory to your desktop by entering the following command: 
+4. Change directory to your desktop by entering the following command:
 
     [!code-console[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample15.cmd)]
-5. Run the code using the following command: 
+5. Run the code using the following command:
 
     [!code-console[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample16.cmd)]
 6. Close the command prompt.

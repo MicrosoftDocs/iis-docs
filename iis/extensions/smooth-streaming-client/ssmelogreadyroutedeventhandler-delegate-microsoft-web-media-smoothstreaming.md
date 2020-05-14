@@ -58,7 +58,7 @@ The event handler for the [LogReady](smoothstreamingmediaelement-logready-event-
 
 ```cpp
   public delegate void SSMELogReadyRoutedEventHandler(
-    Object^ sender, 
+    Object^ sender,
     SSMELogReadyRoutedEventArgs^ e
 )
 ```

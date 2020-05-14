@@ -44,7 +44,7 @@ HRESULT get_Collection(
     <sites>  
         <site name="Default Web Site" id="1">  
             <application path="/">  
-                <virtualDirectory path="/"   
+                <virtualDirectory path="/"
                                   physicalPath="%SystemDrive%\inetpub\wwwroot" />  
             </application>  
             <bindings>  
@@ -53,14 +53,14 @@ HRESULT get_Collection(
         </site>  
         <site name="Microsoft.com" id="35">  
             <bindings>  
-                <binding protocol="http"   
+                <binding protocol="http"
                          bindingInformation="*:80:microsoft.com" />  
             </bindings>  
         </site>  
         <siteDefaults>  
-            <logFile customLogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"   
+            <logFile customLogPluginClsid="{FF160663-DE82-11CF-BC0A-00AA006111E0}"
                      directory="%SystemDrive%\inetpub\logs\LogFiles" />  
-            <traceFailedRequestsLogging   
+            <traceFailedRequestsLogging
                      directory="%SystemDrive%\inetpub\logs\FailedReqLogFiles" />  
         </siteDefaults>  
         <applicationDefaults applicationPool="DefaultAppPool" />  

@@ -78,6 +78,6 @@ WScript.Echo _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [ConfigurationSection.GetAllowDefinition Method](../wmi-provider/configurationsection-getallowdefinition-method.md)

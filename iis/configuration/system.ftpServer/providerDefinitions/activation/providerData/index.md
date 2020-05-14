@@ -32,11 +32,11 @@ Beginning with FTP 7.5, the FTP service supports extensibility for custom authen
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-> 
+>
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
- 
+
 <a id="003"></a>
 ## Setup
 
@@ -60,10 +60,10 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-3. Expand **Internet Information Services**, and then select **FTP Server**.   
+3. Expand **Internet Information Services**, and then select **FTP Server**.
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -91,19 +91,19 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
 
-1. Download the installation package from the following URL: 
+1. Download the installation package from the following URL:
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-2. Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service:
 
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
- 
+
 <a id="004"></a>
 ## How To
 
@@ -112,7 +112,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 > [!NOTE]
 > These steps assume that a custom FTP authentication provider has already been installed and registered on your server's Global Assembly Cache (GAC.) For more information about how to register managed assemblies, see the [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/library/ex0ss12c(VS.80).aspx) topic on Microsoft the MSDN Web site.
 
-1. Determine the assembly information for the extensibility provider: 
+1. Determine the assembly information for the extensibility provider:
 
     - In Windows Explorer, open your "C:\Windows\assembly" path, where C: is your operating system drive.
     - Locate the assembly. For example, **FtpAuthenticationDemo**.
@@ -121,7 +121,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - Copy the **Version** number. For example, **1.0.0.0**.
     - Copy the **Public Key Token** value. For example, **426f62526f636b73**.
     - Click **Cancel**.
-2. Add the extensibility provider to the global list of FTP authentication providers: 
+2. Add the extensibility provider to the global list of FTP authentication providers:
 
     - Open **Internet Information Services (IIS) Manager**.
     - Click your computer name in the **Connections** pane.
@@ -138,7 +138,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - Click **OK**.
     - Clear the check box for the custom authentication provider in the providers list.
     - Click **OK**.
-3. Add the custom authentication provider for an FTP site: 
+3. Add the custom authentication provider for an FTP site:
 
     - Open an FTP site in **Internet Information Services (IIS) Manager**.
     - Double-click **FTP Authentication** in the main window.
@@ -174,7 +174,7 @@ The following sample illustrates several configuration settings in the global `<
 - Enable logging and specify that log files will be kept per-site, and that log files will be rotated daily by UTC time.
 - Specify a custom FTP provider and specify a custom parameter for that provider.
 - Specify global IP restrictions that allow FTP access from local host and deny access to the 169.254.0.0 to 169.254.255.255 block of IP addresses.
-- Configure request filtering with the following options: 
+- Configure request filtering with the following options:
 
     - Block FTP access to the \_vti\_bin virtual directory, which is used with the FrontPage Server Extensions.
     - Block several file types that are associated with executables.

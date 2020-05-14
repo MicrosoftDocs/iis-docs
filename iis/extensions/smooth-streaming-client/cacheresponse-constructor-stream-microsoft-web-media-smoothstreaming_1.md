@@ -59,7 +59,7 @@ CacheResponse(
 ```
 
 ``` fsharp
-new : 
+new :
         stream:Stream -> CacheResponse
 ```
 

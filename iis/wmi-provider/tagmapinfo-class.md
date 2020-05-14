@@ -44,6 +44,6 @@ class TagMapInfo : EmbeddedObject
   
 ## See Also  
  [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo)  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [PagesSection Class](../wmi-provider/pagessection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [PagesSection Class](../wmi-provider/pagessection-class.md)
  [TagMapElement Class](../wmi-provider/tagmapelement-class.md)

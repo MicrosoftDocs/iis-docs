@@ -52,8 +52,8 @@ class ProvidersSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigProtectedDataSection Class](../wmi-provider/configprotecteddatasection-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [MembershipSection Class](../wmi-provider/membershipsection-class.md)   
- [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)   
+ [ConfigProtectedDataSection Class](../wmi-provider/configprotecteddatasection-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [MembershipSection Class](../wmi-provider/membershipsection-class.md)
+ [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)
  [RoleManagerSection Class](../wmi-provider/rolemanagersection-class.md)

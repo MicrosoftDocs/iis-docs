@@ -43,10 +43,10 @@ A: To publish a Gallery Server Pro website, use the following steps:
 A: If you are publishing to a server where the web site is configured to run in a .NET 4 application pool, you will receive this error because the application requires .NET 2.0. You will also see the following error message displayed:
 
 > **Error**: The requested page cannot be accessed because the related configuration data for the page is invalid.
-> 
+>
 > [!NOTE]
 > For security reasons, this error will contain less information when you browse to your web site on a remote machine.
-> 
+>
 > ![](gallery-server-pro-faq/_static/image1.png)
 
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.
@@ -56,7 +56,7 @@ To resolve this issue, use your hosting control panel to set your .NET framework
 A: If your web site's application pool is configured to run in Classic mode, you will receive this error because Gallery Server Pro requires Integrated mode. You will also see the following error message displayed:
 
 > **Error**: JavaScript error 'dgLogin' is undefined.
-> 
+>
 > ![](gallery-server-pro-faq/_static/image3.png)
 
 To resolve this issue, use your hosting control panel to set your application pool to Integrated mode.

@@ -56,7 +56,7 @@ To the play the playlist in a Silverlight MediaElement, simply point the Source 
 Any of these PARAM tags can easily be accessed from a Silverlight app by using **Attributes**. Here is a simple piece of code that tells how to read an attribute:
 
 [!code-javascript[Main](web-playlists-for-iis-using-playlist-with-different-media-players/samples/sample2.js)]
- 
+
 After you have read the attributes CANSKIPFORWARD, CANSKIPBACKWARD and CANSEEK, you can easily control the UI experience by appropriately enabling / disabling the controls.By default, Silverlight does not have implemented the concept of skipping to the next entry in the playlist. One way to overcome this limitation is to seek to the end of the current entry and let the next entry play automatically.
 
 ### Silverlight Reference

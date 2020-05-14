@@ -68,7 +68,7 @@ To install the Basic authentication role service, use the following steps.
 
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
-3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, select **Basic Authentication**, and then click **OK**.   
+3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, select **Basic Authentication**, and then click **OK**.
     [![](basicAuthentication/_static/image8.png)](basicAuthentication/_static/image7.png)
 
 <a id="004"></a>
@@ -76,19 +76,19 @@ To install the Basic authentication role service, use the following steps.
 
 ### How to enable basic authentication and disable anonymous authentication
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

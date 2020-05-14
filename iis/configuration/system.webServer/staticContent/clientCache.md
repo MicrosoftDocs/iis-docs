@@ -23,7 +23,7 @@ For example, the **httpExpires** attribute specifies a date and time that the co
 
 The HTTP 1.1 specification in Request For Comments (RFC) 2616 specifies several possible values for the HTTP "Cache-Control" header, such as "no-cache," "private," "public," etc. Each of these header values lets Web clients and proxy servers know whether they should cache the content:
 
-- Content that contains a "no-cache" header should not be cached by any entity. - Content that contains a "private" header should not be cached by a proxy server, but may be cached by a Web client. - Content that contains a "public" header may be cached by any entity. 
+- Content that contains a "no-cache" header should not be cached by any entity. - Content that contains a "private" header should not be cached by a proxy server, but may be cached by a Web client. - Content that contains a "public" header may be cached by any entity.
 
     > [!NOTE]
     > The above list is not comprehensive - there are many additional values that can be specified by the "Cache-Control" header.
@@ -60,19 +60,19 @@ The `<clientCache>` element of the `<staticContent>` element is included in the 
 
 ### How to configure a cache expiration date for a Web site or application
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -82,24 +82,24 @@ The `<clientCache>` element of the `<staticContent>` element is included in the 
 4. In the **HTTP Response Headers** pane, click **Set Common Headers...** in the **Actions** pane.  
     [![](clientCache/_static/image4.png)](clientCache/_static/image3.png)
 5. In the **Set Common HTTP Response Headers** dialog box, check the box to expire Web content, select the option to expire after a specific interval or at a specific time, and then click **OK**.  
-    [![](clientCache/_static/image6.png)](clientCache/_static/image5.png)   
+    [![](clientCache/_static/image6.png)](clientCache/_static/image5.png)
     [![](clientCache/_static/image8.png)](clientCache/_static/image7.png)
 
 ### How to disable caching for a Web site or application
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

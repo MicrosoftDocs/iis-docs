@@ -44,7 +44,7 @@ class ServerContainsSSLBinding : ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
- [Server Class](../wmi-provider/server-class.md)   
- [SiteUsesSSLBinding Class](../wmi-provider/siteusessslbinding-class.md)   
+ [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)
+ [Server Class](../wmi-provider/server-class.md)
+ [SiteUsesSSLBinding Class](../wmi-provider/siteusessslbinding-class.md)
  [SSLBinding Class](../wmi-provider/sslbinding-class.md)

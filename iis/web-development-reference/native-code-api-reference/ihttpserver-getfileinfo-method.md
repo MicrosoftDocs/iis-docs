@@ -99,5 +99,5 @@ virtual HRESULT GetFileInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IHttpContext::GetFileInfo Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md)

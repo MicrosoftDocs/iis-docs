@@ -47,6 +47,6 @@ class TagMapElement : CollectionElement
   
 ## See Also  
  [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo)  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [PagesSection Class](../wmi-provider/pagessection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [PagesSection Class](../wmi-provider/pagessection-class.md)
  [TagMapInfo Class](../wmi-provider/tagmapinfo-class.md)

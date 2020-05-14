@@ -64,26 +64,26 @@ public static void Trace(
 ```cpp
 public:
 static void Trace(
-    String^ className, 
-    String^ methodName, 
-    TraceArea traceArea, 
+    String^ className,
+    String^ methodName,
+    TraceArea traceArea,
     TraceLevel traceLevel
 )
 ```
 
 ``` fsharp
-static member Trace : 
-        className:string * 
-        methodName:string * 
-        traceArea:TraceArea * 
-        traceLevel:TraceLevel -> unit 
+static member Trace :
+        className:string *
+        methodName:string *
+        traceArea:TraceArea *
+        traceLevel:TraceLevel -> unit
 ```
 
 ```jscript
 public static function Trace(
-    className : String, 
-    methodName : String, 
-    traceArea : TraceArea, 
+    className : String,
+    methodName : String,
+    traceArea : TraceArea,
     traceLevel : TraceLevel
 )
 ```

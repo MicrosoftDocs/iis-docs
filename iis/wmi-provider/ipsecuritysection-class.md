@@ -65,7 +65,7 @@ WScript.Echo "Path: " & oSection.Path
 WScript.Echo "Location: " & oSection.Location  
 WScript.Echo  
   
-' Display the AllowUnlisted and   
+' Display the AllowUnlisted and
 ' EnableReverseDns properties.  
 WScript.Echo "AllowUnlisted: " & oSection.AllowUnlisted  
 WScript.Echo "EnableReverseDns: " & _  
@@ -77,7 +77,7 @@ WScript.Echo "--------------------------"
 WScript.Echo "IP and domain restrictions"  
 WScript.Echo "--------------------------"  
 For Each oIPAddressFilter In oSection.IpSecurity  
-    WScript.Echo "IpAddress: " & oIPAddressFilter.IpAddress      
+    WScript.Echo "IpAddress: " & oIPAddressFilter.IpAddress
     WScript.Echo "DomainName: " & _  
         oIPAddressFilter.DomainName  
     WScript.Echo "SubnetMask: " & _  
@@ -105,5 +105,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [IPAddressFilterElement Class](../wmi-provider/ipaddressfilterelement-class.md)

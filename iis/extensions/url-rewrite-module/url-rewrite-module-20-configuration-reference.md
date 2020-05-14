@@ -182,7 +182,7 @@ Pattern is specified within a &lt;match&gt; element of a rewrite rule.
 
 When **filterByTags** attribute is not specified in the match element of the rule then the pattern will be applied on the entire response content. Evaluation of regular expression patterns on the entire response content is a CPU intensive operation and may affect the performance of the web application. There are several options to reduce the performance overhead introduced by the full response pattern matching:
 
-- Use the IIS user mode caching and set the **rewriteBeforeCache** attribute of &lt;outboundRules&gt; element to true: 
+- Use the IIS user mode caching and set the **rewriteBeforeCache** attribute of &lt;outboundRules&gt; element to true:
 
     [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample8.xml)]
 
@@ -283,7 +283,7 @@ Global rewrite rules can be used to set any request headers and server variables
 A rule element &lt;serverVariables&gt; is used to define a collection of server variables and http headers to set. Those will be set only if the rule pattern has matched and the condition evaluation has succeeded (depending on rule configuration, either all conditions matched or any one or more of the conditions matched). Each item in the &lt;serverVariables&gt; collection consists of the following:
 
 - **Name** - specifies the name of the server variable to set.
-- **Value** - specifies the value of the server variable. Value is a free form string that can include: 
+- **Value** - specifies the value of the server variable. Value is a free form string that can include:
 
   - Back-references to the condition and rule patterns. (For more information, see the section about how to use back-references.)
   - Server variables. (For more information, see the section about how to use server variables.)
@@ -338,7 +338,7 @@ Back-references are generated in different ways, depending on which kind of patt
 Usage of back-references is the same regardless of which pattern syntax was used to capture them. Back-references can be used in the following locations within rewrite rules:
 
 - In condition input string
-- In rule action, specifically: 
+- In rule action, specifically:
 
   - url attribute of Rewrite and Redirect action in inbound rules
   - value attribute of Rewrite action in outbound rules

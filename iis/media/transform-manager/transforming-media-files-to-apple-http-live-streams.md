@@ -95,7 +95,7 @@ Job templates are modifiable definitions of the tasks that are run during the tr
   
     You can choose from any of the H.264 IIS Smooth Streaming preset files that are installed with Transform Manager, or from any custom H.264-encoding presets that you designed in Expression Encoder.  
     ![](transforming-media-files-to-apple-http-live-streams/_static/image13.png)
-7. (Optional) Edit the following additional task default values in the **Properties** list. 
+7. (Optional) Edit the following additional task default values in the **Properties** list.
 
     - The **templateName** and **templatePath** properties are used to specify the Expression Encoder 4.0 SP2 Silverlight player template that's used. By default, the task is configured to use the Standard player template that's stored in the default installation path for Expression Encoder: `%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard`. Modify these values, if desired, to point to other Expression Encoder 4 Silverlight player templates that are included in the Transform Manager installation, or to custom Silverlight player templates that you designed in Expression Encoder.
     - Enable the **createSubDirectory** property if you want the **Expression Encoder 4.0 SP2** task to output to a uniquely named subdirectory for each job. This is disabled by default to give you better control of the naming of the output location when you use Transform Manager.

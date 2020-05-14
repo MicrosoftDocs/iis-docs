@@ -78,38 +78,38 @@ public CacheResponse2(
 ```cpp
 public:
 CacheResponse2(
-    long long contentLength, 
-    String^ contentType, 
-    WebHeaderCollection^ headers, 
-    Stream^ response, 
-    HttpStatusCode statusCode, 
-    String^ statusDescription, 
-    DateTime downloadTime, 
+    long long contentLength,
+    String^ contentType,
+    WebHeaderCollection^ headers,
+    Stream^ response,
+    HttpStatusCode statusCode,
+    String^ statusDescription,
+    DateTime downloadTime,
     bool continueProcessing
 )
 ```
 
 ``` fsharp
-new : 
-        contentLength:int64 * 
-        contentType:string * 
-        headers:WebHeaderCollection * 
-        response:Stream * 
-        statusCode:HttpStatusCode * 
-        statusDescription:string * 
-        downloadTime:DateTime * 
+new :
+        contentLength:int64 *
+        contentType:string *
+        headers:WebHeaderCollection *
+        response:Stream *
+        statusCode:HttpStatusCode *
+        statusDescription:string *
+        downloadTime:DateTime *
         continueProcessing:bool -> CacheResponse2
 ```
 
 ```jscript
 public function CacheResponse2(
-    contentLength : long, 
-    contentType : String, 
-    headers : WebHeaderCollection, 
-    response : Stream, 
-    statusCode : HttpStatusCode, 
-    statusDescription : String, 
-    downloadTime : DateTime, 
+    contentLength : long,
+    contentType : String,
+    headers : WebHeaderCollection,
+    response : Stream,
+    statusCode : HttpStatusCode,
+    statusDescription : String,
+    downloadTime : DateTime,
     continueProcessing : boolean
 )
 ```

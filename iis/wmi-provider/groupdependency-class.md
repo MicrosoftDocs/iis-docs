@@ -43,8 +43,8 @@ class GroupDependency : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ApplicationDependenciesSection Class](../wmi-provider/applicationdependenciessection-class.md)   
- [ApplicationDependency Class](../wmi-provider/applicationdependency-class.md)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [IsapiCgiRestrictionElement Class](../wmi-provider/isapicgirestrictionelement-class.md)   
+ [ApplicationDependenciesSection Class](../wmi-provider/applicationdependenciessection-class.md)
+ [ApplicationDependency Class](../wmi-provider/applicationdependency-class.md)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [IsapiCgiRestrictionElement Class](../wmi-provider/isapicgirestrictionelement-class.md)
  [IsapiCgiRestrictionSection Class](../wmi-provider/isapicgirestrictionsection-class.md)

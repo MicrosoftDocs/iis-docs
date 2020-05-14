@@ -60,16 +60,16 @@ void CreateTable(
 
 ```cpp
 void CreateTable(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     TableInfo^ tableInfo
 )
 ```
 
 ```jscript
 function CreateTable(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     tableInfo : TableInfo
 )
 ```

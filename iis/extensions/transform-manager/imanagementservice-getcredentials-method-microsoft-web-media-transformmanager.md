@@ -58,7 +58,7 @@ Collection<Credential^>^ GetCredentials()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetCredentials : unit -> Collection<Credential> 
+abstract GetCredentials : unit -> Collection<Credential>
 ```
 
 ```jscript

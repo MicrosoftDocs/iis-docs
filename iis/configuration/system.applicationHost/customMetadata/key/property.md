@@ -72,7 +72,7 @@ The `<customMetadata>` element is not available on the default installation of I
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **IIS Metabase and IIS 6 configuration compatibility**, and then click **OK**.  
     [![](property/_static/image8.png)](property/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 

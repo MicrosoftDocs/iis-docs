@@ -52,5 +52,5 @@ virtual HRESULT GetTraceConfiguration(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpTraceContext Interface](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md)   
+ [IHttpTraceContext Interface](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md)
  [IHttpTraceContext::SetTraceConfiguration Method](../../web-development-reference/native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md)

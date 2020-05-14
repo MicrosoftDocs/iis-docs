@@ -56,14 +56,14 @@ Dim instance As New StreamUpdatedListEventArgs(error, userState)
 ```cpp
   public:
 StreamUpdatedListEventArgs(
-    Exception^ error, 
+    Exception^ error,
     Object^ userState
 )
 ```
 
 ```jscript
   public function StreamUpdatedListEventArgs(
-    error : Exception, 
+    error : Exception,
     userState : Object
 )
 ```

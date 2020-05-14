@@ -39,7 +39,7 @@ In IIS 8.5 and later, the administrator has the option of logging additional cus
 2. Select the site or server in the **Connections** pane, and then double-click **Logging**. Note that enhanced logging is available only for site-level logging - if you select the server in the **Connections** pane, then the **Custom Fields** section of the **W3C Logging Fields** dialog is disabled.
 3. In the **Format** field under **Log File**, select **W3C** and then click **Select Fields...**.  
     ![Select fields](enhanced-logging-for-iis85/_static/image1.jpg)
-4. In the **W3C Logging Fields** dialog, click **Add Field...**. Note that enhanced logging is available only for site-level logging - if you selected the server in the **Connections** pane, then **Add Field...** is disabled.   
+4. In the **W3C Logging Fields** dialog, click **Add Field...**. Note that enhanced logging is available only for site-level logging - if you selected the server in the **Connections** pane, then **Add Field...** is disabled.
     ![Add custom fields](enhanced-logging-for-iis85/_static/image2.jpg)
 5. In the **Add Custom Field** dialog, enter a **Field Name** to identify the custom field within the log file. Please note that the field name cannot contain spaces.
 6. Select the **Source Type**. You can select **Request Header**, **Response Header**, or **Server Variable** (note that enhanced logging cannot log a server variable with a name that contains lower-case characters - to include a server variable in the event log just make sure that its name consists of all upper-case characters).

@@ -41,9 +41,9 @@ virtual HRESULT GetExtendedInterface(
  This method is intended for down casting a base class pointer to a derived class. For example, assuming you have an existing instance pointer to [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md). your code would need to down cast to its derived class [IHttpRequest2](../../web-development-reference/native-code-api-reference/ihttprequest2-interface.md) in order to call one of its new methods.  
   
 ```  
-HRESULT SomeFunction(   
+HRESULT SomeFunction(
     IHttpServer2* pHttpServer,  
-    IHttpRequest pHttpRequest   
+    IHttpRequest pHttpRequest
 )  
 {  
     IHttpRequest2 pHttpRequest2 = NULL;  

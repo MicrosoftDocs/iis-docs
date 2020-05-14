@@ -59,7 +59,7 @@ oSite.GetSection "HttpHandlersSection", oSection
 ' Display the Path and Location properties.  
 WScript.Echo "Path: " & oSection.Path  
 WScript.Echo "Location: " & oSection.Location  
-WScript.Echo   
+WScript.Echo
   
 ' Display the HttpHandlerAction instances that are contained  
 ' in the HttpHandlers property.  
@@ -93,7 +93,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [HandlerAction Class](../wmi-provider/handleraction-class.md)   
- [HandlersSection Class](../wmi-provider/handlerssection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [HandlerAction Class](../wmi-provider/handleraction-class.md)
+ [HandlersSection Class](../wmi-provider/handlerssection-class.md)
  [HttpHandlerAction Class](../wmi-provider/httphandleraction-class.md)

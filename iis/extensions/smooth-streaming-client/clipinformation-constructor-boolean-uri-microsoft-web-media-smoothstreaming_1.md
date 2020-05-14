@@ -58,20 +58,20 @@ public ClipInformation(
 ```cpp
 public:
 ClipInformation(
-    bool isSmoothStreamingSource, 
+    bool isSmoothStreamingSource,
     Uri^ clipUri
 )
 ```
 
 ``` fsharp
-new : 
-        isSmoothStreamingSource:bool * 
+new :
+        isSmoothStreamingSource:bool *
         clipUri:Uri -> ClipInformation
 ```
 
 ```jscript
 public function ClipInformation(
-    isSmoothStreamingSource : boolean, 
+    isSmoothStreamingSource : boolean,
     clipUri : Uri
 )
 ```

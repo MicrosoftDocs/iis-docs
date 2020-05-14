@@ -77,7 +77,7 @@ For more information, see [Select and Monitor Bitrate](select-and-monitor-bitrat
 
 Bit-rate changes invoke the PlaybackTrackChanged event. Applications can monitor the bitrate in the delegate that handles the event. The following example shows how to read the new bitrate from the [TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md) parameter and display it using a text block.
 
-``` 
+```
     void SmoothPlayer_PlaybackTrackChanged(object sender, TrackChangedEventArgs e)
     {
         OutputText.Text = "Current bitrate: " + e.Track.Bitrate.ToString();

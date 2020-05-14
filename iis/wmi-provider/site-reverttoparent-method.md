@@ -44,7 +44,7 @@ Set oSite = oWebAdmin.Get("Site.Name='Default Web Site'")
   
 ' Display the Web site name, ID, and log file directory.  
 WScript.Echo "Web site name: " & oSite.Name  
-WScript.Echo "Site ID: " & oSite.ID      
+WScript.Echo "Site ID: " & oSite.ID
 WScript.Echo "Log file directory before revert: " & _  
     oSite.LogFile.Directory  
   
@@ -77,6 +77,6 @@ WScript.Echo _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Site Class](../wmi-provider/site-class.md)   
- [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)   
+ [Site Class](../wmi-provider/site-class.md)
+ [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)
  [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)

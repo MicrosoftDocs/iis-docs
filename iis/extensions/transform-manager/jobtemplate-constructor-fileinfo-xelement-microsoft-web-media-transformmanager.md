@@ -58,20 +58,20 @@ Dim instance As New JobTemplate(fileInfo, _
 ```cpp
   public:
 JobTemplate(
-    FileInfo^ fileInfo, 
+    FileInfo^ fileInfo,
     XElement^ jobTemplateElement
 )
 ```
 
 ``` fsharp
-  new : 
-        fileInfo:FileInfo * 
+  new :
+        fileInfo:FileInfo *
         jobTemplateElement:XElement -> JobTemplate
 ```
 
 ```jscript
   public function JobTemplate(
-    fileInfo : FileInfo, 
+    fileInfo : FileInfo,
     jobTemplateElement : XElement
 )
 ```

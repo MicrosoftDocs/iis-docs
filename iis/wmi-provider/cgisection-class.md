@@ -53,7 +53,7 @@ class CgiSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [IsapiCgiRestrictionElement Class](../wmi-provider/isapicgirestrictionelement-class.md)   
- [IsapiCgiRestrictionSection Class](../wmi-provider/isapicgirestrictionsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [IsapiCgiRestrictionElement Class](../wmi-provider/isapicgirestrictionelement-class.md)
+ [IsapiCgiRestrictionSection Class](../wmi-provider/isapicgirestrictionsection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

@@ -42,5 +42,5 @@ virtual BOOL GetHeadersSuppressed(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
  [IHttpResponse::SuppressHeaders Method](../../web-development-reference/native-code-api-reference/ihttpresponse-suppressheaders-method.md)

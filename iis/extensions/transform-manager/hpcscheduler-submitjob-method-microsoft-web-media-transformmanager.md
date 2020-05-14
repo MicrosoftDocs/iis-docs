@@ -63,10 +63,10 @@ virtual JobStatus SubmitJob(
 ```
 
 ``` fsharp
-  abstract SubmitJob : 
-        manifest:JobManifest -> JobStatus 
-override SubmitJob : 
-        manifest:JobManifest -> JobStatus 
+  abstract SubmitJob :
+        manifest:JobManifest -> JobStatus
+override SubmitJob :
+        manifest:JobManifest -> JobStatus
 ```
 
 ```jscript

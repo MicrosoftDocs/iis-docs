@@ -61,6 +61,6 @@ class CGlobalModule
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Classes](../../web-development-reference/native-code-api-reference/web-server-core-classes.md)   
- [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
+ [Web Server Core Classes](../../web-development-reference/native-code-api-reference/web-server-core-classes.md)
+ [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

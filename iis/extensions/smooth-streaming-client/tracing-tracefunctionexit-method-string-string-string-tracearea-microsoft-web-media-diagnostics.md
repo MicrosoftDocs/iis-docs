@@ -63,18 +63,18 @@ Tracing.TraceFunctionExit(mediaElementId, _
 ```cpp
   public:
 static void TraceFunctionExit(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
     TraceArea traceArea
 )
 ```
 
 ```jscript
   public static function TraceFunctionExit(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
     traceArea : TraceArea
 )
 ```

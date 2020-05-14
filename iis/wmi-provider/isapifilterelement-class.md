@@ -54,5 +54,5 @@ class IsapiFilterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [IsapiFiltersSection Class](../wmi-provider/isapifilterssection-class.md)

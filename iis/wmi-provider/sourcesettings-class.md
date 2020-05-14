@@ -43,6 +43,6 @@ class SourceSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [SourceElement Class](../wmi-provider/sourceelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [SourceElement Class](../wmi-provider/sourceelement-class.md)
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)

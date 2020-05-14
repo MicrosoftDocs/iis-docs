@@ -52,5 +52,5 @@ virtual HRESULT GetProtocolManagerCustomInterface(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method](../../web-development-reference/native-code-api-reference/load-protocol-manager-and-get-custom-interface.md)

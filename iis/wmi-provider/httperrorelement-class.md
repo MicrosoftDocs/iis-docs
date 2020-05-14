@@ -57,7 +57,7 @@ class HttpErrorElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HttpErrorsSection Class](../wmi-provider/httperrorssection-class.md)   
- [Configuring Custom Error Messages](https://go.microsoft.com/fwlink/?LinkId=61892)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HttpErrorsSection Class](../wmi-provider/httperrorssection-class.md)
+ [Configuring Custom Error Messages](https://go.microsoft.com/fwlink/?LinkId=61892)
  [IIS Status Codes](https://go.microsoft.com/fwlink/?LinkId=61888)

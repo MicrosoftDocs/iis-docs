@@ -29,7 +29,7 @@ That being said, because log file analysis can be CPU-intensive, it is recommend
 
 > [!NOTE]
 >  
-> 
+>
 > UAL is not recommended for use on servers that are connected directly to the Internet, such as web servers on an Internet-accessible address space, or in scenarios where extremely high performance is the primary function of the server (such as in HPC workload environments). UAL is primarily intended for small, medium, and enterprise intranet scenarios where high volume is expected, but not as high as many deployments of Windows Server 2012 that serve Internet-facing traffic volume on a regular basis.
 
 ### Using the IISUAL.EXE Utility
@@ -55,13 +55,13 @@ IISUAL.EXE will analyze the W3C log file named &quot;u\_ex130319.log&quot; for c
 
 > [!NOTE]
 >  
-> 
+>
 > For performance reasons, IISUAL.EXE is designed to be used with a single W3C log file; IISUAL.EXE will not work with wildcard characters. For example, the following command will return an error:
-> 
+>
 > `IISUAL.EXE -logfile *.log -outputpostfix UAL`
-> 
+>
 > If you need to process more than one log file, you can use the following batch file to loop through all of the log files in a directory:
-> 
+>
 > [!code-console[Main](analyzing-client-usage-data-with-iis-user-access-logging/samples/sample2.cmd)]
 
 ### Examining the IISUAL.EXE Results

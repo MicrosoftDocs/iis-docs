@@ -65,11 +65,11 @@ virtual void ResubmitJob(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract ResubmitJob : 
-        jobDetails:JobDetails -> unit 
+abstract ResubmitJob :
+        jobDetails:JobDetails -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override ResubmitJob : 
-        jobDetails:JobDetails -> unit 
+override ResubmitJob :
+        jobDetails:JobDetails -> unit
 ```
 
 ```jscript

@@ -41,7 +41,7 @@ To use Web PI to install this application, complete these steps:
 3. Select the **Umbraco CMS** check box, and click **I Accept**.  
   
     [![](umbraco/_static/image6.jpg)](umbraco/_static/image5.jpg)
-4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**. 
+4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**.
 
     Once the preinstallation steps complete, the site information window appears.  
    [![](umbraco/_static/image8.jpg)](umbraco/_static/image7.jpg)
@@ -89,7 +89,7 @@ To use WebMatrix to install this application, complete these steps:
   
    The Application Parameters page appears.  
     [![](umbraco/_static/image22.jpg)](umbraco/_static/image21.jpg)
-5. Enter information appropriate to your environment, and click **Next**.   
+5. Enter information appropriate to your environment, and click **Next**.
   
    WebMatrix installs the Umbraco software on your local computer. This page appears once installation is complete.  
     [![](umbraco/_static/image24.jpg)](umbraco/_static/image23.jpg)
@@ -102,7 +102,7 @@ To use WebMatrix to install this application, complete these steps:
   
    The Publish Preview page appears.  
     [![](umbraco/_static/image28.jpg)](umbraco/_static/image27.jpg)
-9. Click **Continue**. 
+9. Click **Continue**.
 
     Once publishing is complete, the Deployment Details dialog box appears.  
    [![](umbraco/_static/image30.jpg)](umbraco/_static/image29.jpg)

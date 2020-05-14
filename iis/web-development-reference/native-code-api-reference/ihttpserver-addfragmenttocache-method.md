@@ -47,6 +47,6 @@ virtual HRESULT AddFragmentToCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
- [IHttpServer::RemoveFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
+ [IHttpServer::RemoveFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md)
  [IHttpServer::ReadFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-readfragmentfromcache-method.md)

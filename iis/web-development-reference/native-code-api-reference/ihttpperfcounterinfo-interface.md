@@ -36,6 +36,6 @@ class IHttpPerfCounterInfo
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
- [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference/native-code-api-reference/ihttpserver-getperfcounterinfo-method.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
+ [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference/native-code-api-reference/ihttpserver-getperfcounterinfo-method.md)
  [IHttpSite::GetPerfCounterInfo Method](../../web-development-reference/native-code-api-reference/ihttpsite-getperfcounterinfo-method.md)

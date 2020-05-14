@@ -51,7 +51,7 @@ The following articles cover the functionality of the URL Rewrite Module, and ex
 - [Using rewrite maps](../../extensions/url-rewrite-module/using-rewrite-maps-in-url-rewrite-module.md "Using rewrite maps")
 - [Importing rewrite rules](../../extensions/url-rewrite-module/importing-apache-modrewrite-rules.md "Importing rewrite rules")
 - [Enabling "pretty permalinks" in WordPress](../../extensions/url-rewrite-module/enabling-pretty-permalinks-in-wordpress.md "Enabling Pretty Permalinks")
-- [Rule templates](../../extensions/url-rewrite-module/rule-templates-overview.md) 
+- [Rule templates](../../extensions/url-rewrite-module/rule-templates-overview.md)
 
     - [User-friendly URL](../../extensions/url-rewrite-module/user-friendly-url-rule-template.md)
     - [Rule with Rewrite Map](../../extensions/url-rewrite-module/rule-with-rewrite-map-rule-template.md)

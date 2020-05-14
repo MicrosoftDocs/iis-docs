@@ -63,6 +63,6 @@ class SmtpMailSettingsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [SmtpNetworkSettings Class](../wmi-provider/smtpnetworksettings-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [SmtpNetworkSettings Class](../wmi-provider/smtpnetworksettings-class.md)
  [SmtpSpecifiedPickupDirectorySettings Class](../wmi-provider/smtpspecifiedpickupdirectorysettings-class.md)

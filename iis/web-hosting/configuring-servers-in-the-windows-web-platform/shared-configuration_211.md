@@ -38,7 +38,7 @@ In IIS 7.0 and above, the shared configuration feature enables administrators to
 
 **To set up shared configuration**
 
-1. Create a user that will access the share containing the configuration. This can be a domain user or a local user, if the machine is not joined to a domain.   
+1. Create a user that will access the share containing the configuration. This can be a domain user or a local user, if the machine is not joined to a domain.
   
     > [!NOTE]
     > If the machine is not joined to the domain, the account will need to be created on the Web server(s) and the file server.

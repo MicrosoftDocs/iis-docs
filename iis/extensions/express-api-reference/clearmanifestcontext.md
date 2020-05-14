@@ -17,9 +17,9 @@ Clears the manifest context created using an earlier call to [ApplyManifestConte
  `HRESULT`  
   
 ## See Also  
- [GetPropertyValue](../../extensions/express-api-reference/getpropertyvalue.md)   
- [CreateObjectFromProgId](../../extensions/express-api-reference/createobjectfromprogid.md)   
- [CreateObjectFromCLSID](../../extensions/express-api-reference/createobjectfromclsid.md)   
- [ApplyIISEnvironmentVariables](../../extensions/express-api-reference/applyiisenvironmentvariables.md)   
- [ClearIISEnvironmentVariables](../../extensions/express-api-reference/cleariisenvironmentvariables.md)   
+ [GetPropertyValue](../../extensions/express-api-reference/getpropertyvalue.md)
+ [CreateObjectFromProgId](../../extensions/express-api-reference/createobjectfromprogid.md)
+ [CreateObjectFromCLSID](../../extensions/express-api-reference/createobjectfromclsid.md)
+ [ApplyIISEnvironmentVariables](../../extensions/express-api-reference/applyiisenvironmentvariables.md)
+ [ClearIISEnvironmentVariables](../../extensions/express-api-reference/cleariisenvironmentvariables.md)
  [ApplyManifestContext](../../extensions/express-api-reference/applymanifestcontext.md)

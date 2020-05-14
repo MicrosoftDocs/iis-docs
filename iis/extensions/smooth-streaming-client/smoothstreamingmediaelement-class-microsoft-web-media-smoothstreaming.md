@@ -61,7 +61,7 @@ Public Class SmoothStreamingMediaElement _
 [TemplateVisualStateAttribute(Name = "ClipPlayback", GroupName = "PlaybackModes")]
 [TemplatePartAttribute(Name = "MediaElement", Type = typeof(MediaElement))]
 [TemplatePartAttribute(Name = "RootElement", Type = typeof(Panel))]
-public class SmoothStreamingMediaElement : Control, 
+public class SmoothStreamingMediaElement : Control,
     IDisposable
 ```
 
@@ -70,7 +70,7 @@ public class SmoothStreamingMediaElement : Control,
 [TemplateVisualStateAttribute(Name = L"ClipPlayback", GroupName = L"PlaybackModes")]
 [TemplatePartAttribute(Name = L"MediaElement", Type = typeof(MediaElement))]
 [TemplatePartAttribute(Name = L"RootElement", Type = typeof(Panel))]
-public ref class SmoothStreamingMediaElement : public Control, 
+public ref class SmoothStreamingMediaElement : public Control,
     IDisposable
 ```
 

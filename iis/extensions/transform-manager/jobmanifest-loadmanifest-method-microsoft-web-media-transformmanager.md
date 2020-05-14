@@ -62,8 +62,8 @@ static JobManifest^ LoadManifest(
 ```
 
 ``` fsharp
-  static member LoadManifest : 
-        fileName:string -> JobManifest 
+  static member LoadManifest :
+        fileName:string -> JobManifest
 ```
 
 ```jscript

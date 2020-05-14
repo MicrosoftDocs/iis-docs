@@ -178,8 +178,8 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)   
- [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)   
- [HttpCompressionSchemeElement Class](../wmi-provider/httpcompressionschemeelement-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)
+ [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)
+ [HttpCompressionSchemeElement Class](../wmi-provider/httpcompressionschemeelement-class.md)
  [StaticTypeSettings Class](../wmi-provider/statictypesettings-class.md)

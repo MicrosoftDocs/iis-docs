@@ -82,7 +82,7 @@ An IDictionary object of name/value attribute pairs.
 
 The following example shows the use of attributes to identify streams for selection. For more information, see the examples in [Timeline Markers and Events](timeline-markers-and-events.md).
 
-``` 
+```
     if (streamInfo.Type == System.Windows.Media.MediaStreamType.Script)
     {
         if (streamInfo.Attributes["Name"] == "ClosedCaptions" ||

@@ -68,9 +68,9 @@ The default installation of IIS 7 and later does not include the **Management Se
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **Web Management Tool**.
-4. Select **IIS Management Service**, and then click **OK**.   
+4. Select **IIS Management Service**, and then click **OK**.
     [![](index/_static/image8.png)](index/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 

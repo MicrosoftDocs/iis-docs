@@ -26,7 +26,7 @@ Features of Bit Rate Throttling include:
 
 - Seamless integration into IIS Manager
 - Out-of-the box compatibility for the following media types: .asf, .avi, .flv, .m4v, .mov, .mp3, .mp4, .rm, .rmvb, .wma, and .wmv
-- Dynamic throttling adjustment based on: 
+- Dynamic throttling adjustment based on:
 
     - The file types and their encoded bit rate
     - The available bandwidth of the connection

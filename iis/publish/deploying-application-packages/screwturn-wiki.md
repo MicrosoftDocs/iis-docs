@@ -41,7 +41,7 @@ To use Web PI to install this application, complete these steps:
 3. Select the **ScrewTurn Wiki 3.0** check box, and click **I Accept**.  
   
     [![](screwturn-wiki/_static/image6.jpg)](screwturn-wiki/_static/image5.jpg)
-4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**. 
+4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**.
 
     Once the preinstallation steps complete, the site information window appears.  
    [![](screwturn-wiki/_static/image8.jpg)](screwturn-wiki/_static/image7.jpg)
@@ -85,7 +85,7 @@ To use WebMatrix to install this application, complete these steps:
   
     [![](screwturn-wiki/_static/image20.jpg)](screwturn-wiki/_static/image19.jpg)
 4. Click **SQL Server**, and choose the location in which you want to install the database from the drop-down list.
-5. Click **Next**.   
+5. Click **Next**.
   
     [![](screwturn-wiki/_static/image23.jpg)](screwturn-wiki/_static/image22.jpg)
 6. Click **Mixed Mode Authentication**, and enter a password for your administrator.
@@ -101,7 +101,7 @@ To use WebMatrix to install this application, complete these steps:
   
    Once installation is complete, this page appears.  
     [![](screwturn-wiki/_static/image30.jpg)](screwturn-wiki/_static/image29.jpg)
-10. Click **OK**.   
+10. Click **OK**.
   
     The ScrewTurn Wiki application starts as indicated in bottom-left corner of the page.  
     [![](screwturn-wiki/_static/image32.jpg)](screwturn-wiki/_static/image31.jpg)

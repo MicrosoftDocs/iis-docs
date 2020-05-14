@@ -89,7 +89,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 
 1. Using a text editor such as Notepad, create a new text file in the application folder (e.g. `c:\tmp`) named **web.config**.
 2. In the web.config file, create a `<configuration>` element and a `<system.webServer>` element as its child. Within the `<system.webServer>` element, create a `<security>` element that contains an `<authentication>` element.
-3. Enter the settings to disable the Windows authentication and anonymous authentication schemes, which are turned on by default at the global level. 
+3. Enter the settings to disable the Windows authentication and anonymous authentication schemes, which are turned on by default at the global level.
 
     When you are finished, the web.config file looks like the following:
 
@@ -107,7 +107,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 7. Request [http://localhost/app](http://localhost/app) again. You see an error page saying that some configuration is locked at the global level and the web.config files is trying to override it--therefore it is a configuration error. To resolve this, allow the &lt;basicAuthentication&gt; section at the global level (applicationHost.config) to be overridden, as you did for the two other sections. Then refresh the browser .
 
     You will now be prompted for a user name and password, which indicates the basic authentication is taking place.
-8. Enter the user name and password of the logged-on user, and note that the page displays. 
+8. Enter the user name and password of the logged-on user, and note that the page displays.
 
     If you request [http://localhost/](http://localhost/), you will not be asked to enter user name and password, because the changes to configuration you made apply at the application level only.
 

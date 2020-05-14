@@ -43,6 +43,6 @@ class BypassListSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [BypassElement Class](../wmi-provider/bypasselement-class.md)   
- [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)   
+ [BypassElement Class](../wmi-provider/bypasselement-class.md)
+ [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

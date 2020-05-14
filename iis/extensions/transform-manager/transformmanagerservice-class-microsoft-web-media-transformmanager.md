@@ -51,13 +51,13 @@ Public Class TransformManagerService _
 
 ```csharp
 [ServiceBehaviorAttribute(InstanceContextMode = InstanceContextMode.Single, Namespace = "http://schemas.microsoft.com/iis/media/v4/TM")]
-public class TransformManagerService : IManagementService, 
+public class TransformManagerService : IManagementService,
     IMonitoringService
 ```
 
 ```cpp
 [ServiceBehaviorAttribute(InstanceContextMode = InstanceContextMode::Single, Namespace = L"http://schemas.microsoft.com/iis/media/v4/TM")]
-public ref class TransformManagerService : IManagementService, 
+public ref class TransformManagerService : IManagementService,
     IMonitoringService
 ```
 

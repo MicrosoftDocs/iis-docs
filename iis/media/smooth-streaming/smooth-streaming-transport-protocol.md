@@ -19,7 +19,7 @@ Microsoft has ensured that the related [Protected Interoperable File Format (PIF
 
 The IIS Smooth Streaming Transport Protocol Specification includes the following topics:
 
-- 1 Introduction 
+- 1 Introduction
 
     - 1.1 Glossary
     - 1.2 References
@@ -30,16 +30,16 @@ The IIS Smooth Streaming Transport Protocol Specification includes the following
     - 1.7 Versioning and Capability Negotiation
     - 1.8 Vendor-Extensible Fields
     - 1.9 Standards Assignments
-- 2 Messages 
+- 2 Messages
 
     - 2.1 Transport
     - 2.2 Message Syntax
-- 3 Protocol Details 
+- 3 Protocol Details
 
     - 3.1 Client Details
     - 3.2 Server Details
 - 4 Protocol Examples
-- 5 Security 
+- 5 Security
 
     - 5.1 Security Considerations for Implementers
     - 5.2 Index of Security Parameters

@@ -21,7 +21,7 @@ This walkthrough shows the steps to download and install a PHP application using
 
 The following items are required to complete the procedures in this walkthrough:
 
-- You must be using a computer with one of the following operating systems installed: 
+- You must be using a computer with one of the following operating systems installed:
 
     - Windows 7, Windows Vista, or Windows XP SP2 or a later version of Windows XP.
     - Windows Server 2008 or Windows Server 2008 R2.

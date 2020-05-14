@@ -144,7 +144,7 @@ You cannot use the IIS 7.0 and above user interface to create a Certificate Trus
    The MakeCTL.exe tool is part of the [.NET Framework SDK Version 1.1](https://go.microsoft.com/fwlink/?LinkId=50870). Once you install the SDK, MakeCTL.exe appears in the following location:  
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample3.cmd)]
-2. After you create the CTL, you must run AdsUtil.vbs to assign the CTL identifier to the name used in MakeCTL.exe.   
+2. After you create the CTL, you must run AdsUtil.vbs to assign the CTL identifier to the name used in MakeCTL.exe.
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample4.cmd)]
 
@@ -273,7 +273,7 @@ Most of the issues listed below involve features have no IIS 7.0 or above user i
 
 When upgrading from Microsoft Windows XP to Windows Vista or from one Windows Vista SKU to another SKU, it is possible that data from the previous installation of IIS can be lost or copied incorrectly. If this happens, no error message appears, but certain IIS features may not function correctly. For this reason, we recommend backing up IIS configurations before upgrading your operating system.
 
-Once the upgrade is complete, investigate the log files to determine whether there were any errors during setup. You can find the logs here: 
+Once the upgrade is complete, investigate the log files to determine whether there were any errors during setup. You can find the logs here:
 
 [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample8.cmd)]
 

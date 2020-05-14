@@ -64,26 +64,26 @@ public static void TraceFunctionEntry(
 ```cpp
 public:
 static void TraceFunctionEntry(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
     TraceArea traceArea
 )
 ```
 
 ``` fsharp
-static member TraceFunctionEntry : 
-        mediaElementId:string * 
-        className:string * 
-        methodName:string * 
-        traceArea:TraceArea -> unit 
+static member TraceFunctionEntry :
+        mediaElementId:string *
+        className:string *
+        methodName:string *
+        traceArea:TraceArea -> unit
 ```
 
 ```jscript
 public static function TraceFunctionEntry(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
     traceArea : TraceArea
 )
 ```

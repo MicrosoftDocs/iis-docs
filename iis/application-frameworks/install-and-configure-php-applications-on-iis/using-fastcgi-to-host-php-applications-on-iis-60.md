@@ -121,7 +121,7 @@ Most PHP applications use a file named index.php as the default application docu
 6. In the **Add Content Page** dialog box, in the **Default content page** text box, enter **index.php**.
 7. Click **OK**.
 
-    [![](using-fastcgi-to-host-php-applications-on-iis-60/_static/image4.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image3.png) 
+    [![](using-fastcgi-to-host-php-applications-on-iis-60/_static/image4.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image3.png)
 
 ## Set the FastCGI Configuration for Optimal Functionality, Security, and Performance with PHP
 

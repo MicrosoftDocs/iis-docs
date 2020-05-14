@@ -47,6 +47,6 @@ HTTP modules in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] ena
  When a module has finished processing, IIS will call the module's [CGlobalModule::Terminate](../../web-development-reference/native-code-api-reference/cglobalmodule-terminate-method.md) method. Your module should use this method to remove your `CGlobalModule` class from memory.  
   
 ## See Also  
- [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md)   
- [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-global-level-http-module-by-using-native-code.md)   
+ [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md)
+ [Walkthrough: Creating a Global-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-global-level-http-module-by-using-native-code.md)
  [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)

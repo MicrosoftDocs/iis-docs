@@ -105,7 +105,7 @@ The **iisApp** entry points to the folder where the application content is locat
 
 [!code-xml[Main](web-deploy-parameterization/samples/sample2.xml)]
 
-The **path** value would be different if the application had a different name. 
+The **path** value would be different if the application had a different name.
 
 ##### SetAcl Provider
 
@@ -113,7 +113,7 @@ The **setAcl** entry tells Web Deploy to grant read, write, and execute permissi
 
 [!code-xml[Main](web-deploy-parameterization/samples/sample3.xml)]
 
-Different applications might require special permissions on other folders. In that case, you would create a different **setAcl** entry for each permission setting that was required. 
+Different applications might require special permissions on other folders. In that case, you would create a different **setAcl** entry for each permission setting that was required.
 
 ##### DbFullSQL Provider
 

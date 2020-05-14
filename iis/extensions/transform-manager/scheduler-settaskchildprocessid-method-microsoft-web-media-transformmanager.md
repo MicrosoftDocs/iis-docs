@@ -61,20 +61,20 @@ instance.SetTaskChildProcessId(jobInstanceId, _
 ```cpp
   public:
 virtual void SetTaskChildProcessId(
-    String^ jobInstanceId, 
+    String^ jobInstanceId,
     int childProcessId
 ) abstract
 ```
 
 ``` fsharp
-  abstract SetTaskChildProcessId : 
-        jobInstanceId:string * 
-        childProcessId:int -> unit 
+  abstract SetTaskChildProcessId :
+        jobInstanceId:string *
+        childProcessId:int -> unit
 ```
 
 ```jscript
   public abstract function SetTaskChildProcessId(
-    jobInstanceId : String, 
+    jobInstanceId : String,
     childProcessId : int
 )
 ```

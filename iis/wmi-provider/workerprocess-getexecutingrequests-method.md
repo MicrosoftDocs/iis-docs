@@ -74,6 +74,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [HttpRequest Class](../wmi-provider/httprequest-class.md)   
- [View Currently Executing Requests in a Worker Process](https://go.microsoft.com/fwlink/?LinkId=60429)   
+ [HttpRequest Class](../wmi-provider/httprequest-class.md)
+ [View Currently Executing Requests in a Worker Process](https://go.microsoft.com/fwlink/?LinkId=60429)
  [WorkerProcess Class](../wmi-provider/workerprocess-class.md)

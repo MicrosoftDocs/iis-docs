@@ -59,10 +59,10 @@ virtual void Dispose(
 ```
 
 ``` fsharp
-  abstract Dispose : 
-        disposing:bool -> unit 
-override Dispose : 
-        disposing:bool -> unit 
+  abstract Dispose :
+        disposing:bool -> unit
+override Dispose :
+        disposing:bool -> unit
 ```
 
 ```jscript

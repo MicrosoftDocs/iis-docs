@@ -56,17 +56,17 @@ class IHttpCachePolicy
 ```  
 <?xml version="1.0"?>  
 <response>  
-    <httpCachePolicy   
-        varyByHeaders="header1,header2"   
-        varyByQuery="query1,query2"   
-        varyByValue="vary"   
-        isCached="true"   
+    <httpCachePolicy
+        varyByHeaders="header1,header2"
+        varyByQuery="query1,query2"
+        varyByValue="vary"
+        isCached="true"
         isUserCacheEnabled="false">  
-            <cachePolicy   
-                kernelPolicy="HttpCachePolicyUserInvalidates"   
+            <cachePolicy
+                kernelPolicy="HttpCachePolicyUserInvalidates"
                 secondsToLive="2"/>  
-            <cachePolicy   
-                userPolicy="HttpCachePolicyMaximum"   
+            <cachePolicy
+                userPolicy="HttpCachePolicyMaximum"
                 secondsToLive="5"/>  
     </httpCachePolicy>  
 </response>  

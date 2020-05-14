@@ -43,6 +43,6 @@ class UrlSequence : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)
  [UrlSequenceSettings Class](../wmi-provider/urlsequencesettings-class.md)

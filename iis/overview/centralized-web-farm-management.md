@@ -21,7 +21,7 @@ Web content can also be shared on a network volume across multiple servers. This
 
 ## Package, Archive, Migrate, and Synchronize
 
- [![](centralized-web-farm-management/_static/ms-deploy-small.png)](centralized-web-farm-management/_static/ms-deploy-big.png) 
+ [![](centralized-web-farm-management/_static/ms-deploy-small.png)](centralized-web-farm-management/_static/ms-deploy-big.png)
 
 IIS supports the [Microsoft Web Deployment Tool](/iis/publish/using-web-deploy.md), which provides support for synchronizing:
 
@@ -32,7 +32,7 @@ The Microsoft web Deployment Tool simplifies the deployment, management, and mig
 
 * Web applications
 * Web sites
-* Entire Web servers. 
+* Entire Web servers.
 
 Developers can package a web site: content, configuration, certificates, and databases. These packages can be directly deployed to a server or packaged and shared with others. IT Professionals can enable developers to deploy these packages to a server and delegate access to non-admins. IT Professionals can use the tool in their infrastructure to:
 

@@ -88,7 +88,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)
  [ModulesSection Class](../wmi-provider/modulessection-class.md)

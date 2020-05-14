@@ -51,9 +51,9 @@ class Server : Object
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
- [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)   
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
- [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   
+ [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
+ [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
+ [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)
  [VirtualDirectoryElementDefaults Class](../wmi-provider/virtualdirectoryelementdefaults-class.md)

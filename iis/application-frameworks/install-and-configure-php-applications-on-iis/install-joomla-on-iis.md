@@ -87,7 +87,7 @@ Before starting the installation procedure for Joomla, you must create a databas
     [![](install-joomla-on-iis/_static/image6.jpg)](install-joomla-on-iis/_static/image5.jpg)
 
     *Figure 3: License page*
-5. On this page enter the following information, and then click **Next**. 
+5. On this page enter the following information, and then click **Next**.
 
    - Host Name: **localhost**
    - Username: **joomla**

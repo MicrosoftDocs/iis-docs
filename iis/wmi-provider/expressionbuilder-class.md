@@ -70,6 +70,6 @@ class ExpressionBuilder : CollectionElement
 ## See Also  
  [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute)  
  [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders)
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [CompilationSection Class](../wmi-provider/compilationsection-class.md)
  [ExpressionBuilderSettings Class](../wmi-provider/expressionbuildersettings-class.md)

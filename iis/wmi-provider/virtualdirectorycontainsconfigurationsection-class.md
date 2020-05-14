@@ -41,6 +41,6 @@ class VirtualDirectoryContainsConfigurationSection : ObjectConfigurationAssociat
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)
  [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)

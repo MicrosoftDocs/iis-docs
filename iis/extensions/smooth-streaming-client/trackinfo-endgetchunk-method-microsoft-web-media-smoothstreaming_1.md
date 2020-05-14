@@ -63,10 +63,10 @@ virtual ChunkResult^ EndGetChunk(
 ```
 
 ``` fsharp
-abstract EndGetChunk : 
-        ar:IAsyncResult -> ChunkResult 
-override EndGetChunk : 
-        ar:IAsyncResult -> ChunkResult 
+abstract EndGetChunk :
+        ar:IAsyncResult -> ChunkResult
+override EndGetChunk :
+        ar:IAsyncResult -> ChunkResult
 ```
 
 ```jscript
@@ -90,7 +90,7 @@ A [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) obje
 
 The following example loops through tracks and calls the EndGetChunk(IAsyncResult) method on each track. This method completes an asynchronous process started by [BeginGetChunk(TimeSpan, AsyncCallback, Object)](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md). The [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) indicates success or failure. If the method succeeds, the [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) contains the Base64-encoded data. For the complete example and more information, see [Timeline Markers and Events](timeline-markers-and-events.md).
 
-``` 
+```
     foreach (TrackInfo trackInfo in streamInfo.SelectedTracks)
     {
         ChunkResult chunkResult = trackInfo.EndGetChunk(argAR);

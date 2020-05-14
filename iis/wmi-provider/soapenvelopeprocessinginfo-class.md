@@ -49,11 +49,11 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
- [InvalidOperationException](https://go.microsoft.com/fwlink/?LinkId=66612)   
- [System.Web.Services.Configuration.SoapEnvelopeProcessingElement Properties](https://go.microsoft.com/fwlink/?LinkId=70967)   
- [System.Xml.XmlReader.MoveToContent Method](https://go.microsoft.com/fwlink/?LinkId=70966)   
- [System.Xml.XmlReader.Read Method](https://go.microsoft.com/fwlink/?LinkId=70965)   
- [System.Xml.Serialization.XmlSerializer Class](https://go.microsoft.com/fwlink/?LinkId=70923)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [WebServicesSection Class](../wmi-provider/webservicessection-class.md)
+ [InvalidOperationException](https://go.microsoft.com/fwlink/?LinkId=66612)
+ [System.Web.Services.Configuration.SoapEnvelopeProcessingElement Properties](https://go.microsoft.com/fwlink/?LinkId=70967)
+ [System.Xml.XmlReader.MoveToContent Method](https://go.microsoft.com/fwlink/?LinkId=70966)
+ [System.Xml.XmlReader.Read Method](https://go.microsoft.com/fwlink/?LinkId=70965)
+ [System.Xml.Serialization.XmlSerializer Class](https://go.microsoft.com/fwlink/?LinkId=70923)
  [System.Xml.Serialization.XmlSerializer.UnknownNode Event](https://go.microsoft.com/fwlink/?LinkId=70964)

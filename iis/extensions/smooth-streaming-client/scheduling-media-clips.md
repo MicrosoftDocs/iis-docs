@@ -40,7 +40,7 @@ In this example, when the media stream hits the marker that is 1,789,250,000 tic
 To handle the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) event, assign a delegate for it as shown in the following code:
 
 ```csharp
-SmoothPlayer.MarkerReached += 
+SmoothPlayer.MarkerReached +=
         new TimelineMarkerRoutedEventHandler(SmoothPlayer_MarkerReached);
 ```
 
@@ -106,7 +106,7 @@ void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     if (!PremiumAccount)
     {
         if (InsertClipCheckbox.IsChecked == true)
-        {     
+        {
             SmoothPlayer.ScheduleClip(clips[0], new TimeSpan(0), true, SmoothPlayer );
             SmoothPlayer.Play();
         }

@@ -41,5 +41,5 @@ class IGlobalThreadCleanupProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
  [CGlobalModule::OnGlobalThreadCleanup Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalthreadcleanup-method.md)

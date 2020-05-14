@@ -54,7 +54,7 @@ static void Initialize()
 ```
 
 ``` fsharp
-static member Initialize : unit -> unit 
+static member Initialize : unit -> unit
 ```
 
 ```jscript

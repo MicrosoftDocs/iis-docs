@@ -74,7 +74,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HandlerAction Class](../wmi-provider/handleraction-class.md)   
- [HandlersSection Class](../wmi-provider/handlerssection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HandlerAction Class](../wmi-provider/handleraction-class.md)
+ [HandlersSection Class](../wmi-provider/handlerssection-class.md)
  [HttpHandlersSection Class](../wmi-provider/httphandlerssection-class.md)

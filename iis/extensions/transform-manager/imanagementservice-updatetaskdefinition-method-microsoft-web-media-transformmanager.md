@@ -64,8 +64,8 @@ void UpdateTaskDefinition(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract UpdateTaskDefinition : 
-        taskDefinition:TaskDefinition -> unit 
+abstract UpdateTaskDefinition :
+        taskDefinition:TaskDefinition -> unit
 ```
 
 ```jscript

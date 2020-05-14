@@ -62,8 +62,8 @@ void SetPlaybackRate(
 ```
 
 ``` fsharp
-member SetPlaybackRate : 
-        playbackRate:float -> unit 
+member SetPlaybackRate :
+        playbackRate:float -> unit
 ```
 
 ```jscript

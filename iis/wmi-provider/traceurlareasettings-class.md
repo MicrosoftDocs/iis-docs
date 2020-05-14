@@ -43,7 +43,7 @@ class TraceUrlAreaSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   
- [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)
+ [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)
  [TraceUrl Class](../wmi-provider/traceurl-class.md)

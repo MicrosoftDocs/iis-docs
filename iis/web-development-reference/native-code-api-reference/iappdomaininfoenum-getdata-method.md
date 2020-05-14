@@ -38,6 +38,6 @@ virtual HRESULT __stdcall GetData(
 |Header|Webhost.h|  
   
 ## See Also  
- [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)   
- [IAppDomainInfoEnum::MoveNext Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-movenext-method.md)   
+ [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)
+ [IAppDomainInfoEnum::MoveNext Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-movenext-method.md)
  [IAppDomainInfoEnum::Reset Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-reset-method.md)

@@ -66,11 +66,11 @@ virtual Credential^ GetCredential(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetCredential : 
-        credentialId:string -> Credential 
+abstract GetCredential :
+        credentialId:string -> Credential
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetCredential : 
-        credentialId:string -> Credential 
+override GetCredential :
+        credentialId:string -> Credential
 ```
 
 ```jscript

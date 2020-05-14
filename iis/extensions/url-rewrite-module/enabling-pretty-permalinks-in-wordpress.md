@@ -27,7 +27,7 @@ Note that for the purposes of this walkthrough it is assumed that WordPress is i
 
 Use the following instructions to create pretty permalinks for your blog posts.
 
-**To enable pretty permalinks in Word Press:** 
+**To enable pretty permalinks in Word Press:**
 
 1. Log on to WordPress with Administrator user rights.
 2. In WordPress, click the **Options** tab.

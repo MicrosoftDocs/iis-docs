@@ -34,7 +34,7 @@ For more information about how to configure application pools to start automatic
 <a id="003"></a>
 ## Setup
 
-The `<serviceAutoStartProviders>` element is included in the default installation of IIS 7.5. 
+The `<serviceAutoStartProviders>` element is included in the default installation of IIS 7.5.
 
 <a id="004"></a>
 ## How To
@@ -44,19 +44,19 @@ The `<serviceAutoStartProviders>` element is included in the default installatio
 > [!NOTE]
 > There is no direct user interface that lets you configure the `<serviceAutoStartProviders>` element, therefore the following steps will use the IIS Configuration Editor feature.
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -67,7 +67,7 @@ The `<serviceAutoStartProviders>` element is included in the default installatio
     [![](index/_static/image4.png)](index/_static/image3.png)
 5. Click the ellipsis (**...**) on the right-side of the **(Collection)** field.
 6. In the **Actions** pane, click **Add**.
-7. When the Collection Editor dialog box appears: 
+7. When the Collection Editor dialog box appears:
 
     - Enter the name of your autostart provider in the **name** field. For example:  
  "MyAutostartProvider"
@@ -84,7 +84,7 @@ The `<serviceAutoStartProviders>` element is included in the default installatio
     [https://technet.microsoft.com/library/dd819406.aspx](https://technet.microsoft.com/library/dd819406.aspx)
 - **Configuration Editor Page**  
     [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
- 
+
 <a id="005"></a>
 ## Configuration
 

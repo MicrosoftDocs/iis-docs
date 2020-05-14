@@ -55,7 +55,7 @@ void RemoveRestartWarningMessage()
 ```
 
 ``` fsharp
-  member RemoveRestartWarningMessage : unit -> unit 
+  member RemoveRestartWarningMessage : unit -> unit
 ```
 
 ```jscript

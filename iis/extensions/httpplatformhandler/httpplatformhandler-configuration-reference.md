@@ -24,7 +24,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 <a id="_HttpPlatformHandler_Configuration"></a>
 ## HttpPlatformHandler Configuration
 
- The HttpPlatformHandler is configured via a site or applications web.config file and has its own configuration section within system.webServer - httpPlatform. 
+ The HttpPlatformHandler is configured via a site or applications web.config file and has its own configuration section within system.webServer - httpPlatform.
 
 ### Configuration Attributes
 
@@ -51,7 +51,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 <a id="_HttpPlatformHandler_Configuration_E"></a>
 ## HttpPlatformHandler Configuration Examples
 
- Below are configuration examples for running a number of applications with different processes. 
+ Below are configuration examples for running a number of applications with different processes.
 
 ### Tomcat
 

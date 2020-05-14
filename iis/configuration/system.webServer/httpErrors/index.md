@@ -24,7 +24,7 @@ The **detailedMoreInformationLink** attribute specifies a link to more informati
 
 The `<httpErrors>` element also can contain an **errorMode** attribute that you can use to control the level of detail that IIS returns to a browser when an HTTP error occurs. You can set the **errorMode** attribute to **DetailedLocalOnly**, which is the default setting, or you can set it to **Custom** or **Detailed**. If you specify **DetailedLocalOnly**, or if you do not specify an **errorMode** value, IIS returns detailed error information only to the browser on the local server and a custom error message to a browser on an external computer. If you set the **errorMode** value to **Custom**, IIS returns only custom error messages to all requesting browsers. If you set the **errorMode** value to **Detailed**, IIS returns detailed error information to all requesting browsers. The default **DetailedLocalOnly** value allows you to troubleshoot HTTP errors on the local server while not exposing sensitive information to external browsers.
 
-By default, IIS serves error messages defined in files stored in the %*SystemRoot*%\Help\IisHelp\Common folder. You can create a custom error message for users and configure IIS to return this page whenever it encounters a specific HTTP error on your site. 
+By default, IIS serves error messages defined in files stored in the %*SystemRoot*%\Help\IisHelp\Common folder. You can create a custom error message for users and configure IIS to return this page whenever it encounters a specific HTTP error on your site.
 
 <a id="002"></a>
 ## Compatibility
@@ -48,19 +48,19 @@ The `<httpErrors>` element is included in the default installation of IIS 7.
 
 ### How to add a custom error page
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

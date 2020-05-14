@@ -41,7 +41,7 @@ Another prerequisite is that the reader has defined and configured two server fa
 
 In this step, URL rewrite rules are changed so that only the users who have installed .NET 3.5 and are using Microsoft Internet Explorer (IE) are routed to the pilot site, defined as **pilotSiteServers**. All others are routed to the production site, defined as **productionSiteServers**.
 
-**To change the URL rewrite rules using the UI:** 
+**To change the URL rewrite rules using the UI:**
 
 1. Launch IIS Manager.
 2. Select the server farm, **pilotSiteServers**.
@@ -74,7 +74,7 @@ In this step, URL rewrite rules are changed so that only the users who have inst
 
 As noted above, the order of the rules matters. This is because URL rewrite processes the rules in order when **Stop processing of subsequent rules** is unselected. So in this case, the first rule, **ARR\_pilotSiteServers\_loadbalance**, will be considered first. This rule tries to match whether the client is using IE and has .NET 3.5 installed. If so, the requests are forwarded to the **pilotSiteServers** server farm. Since the **Stop processing of subsequent rules** checkbox is unchecked, it will process the second rule, **ARR\_productionSiteServers\_loadbalance**, which will route all remaining requests to the **productionSiteServers** server farm.
 
-**To change the URL rewrite rules using the command-line:** 
+**To change the URL rewrite rules using the command-line:**
 
 1. Open a command prompt with **administrator** privileges.
 2. Navigate to `%windir%\system32\inetsrv`.

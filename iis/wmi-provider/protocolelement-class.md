@@ -46,6 +46,6 @@ class ProtocolElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [ProtocolsSection Class](../wmi-provider/protocolssection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [ProtocolsSection Class](../wmi-provider/protocolssection-class.md)
  [WebServicesProtocolElement Class](../wmi-provider/webservicesprotocolelement-class.md)

@@ -26,7 +26,7 @@ UrlScan 3.1 installs as a clean install on a computer running IIS 5.1 or later. 
 
 **To Install UrlScan 3.1**
 
-1. Download the setup MSI file for UrlScan 3.1 from one of the following URLs to your computer: 
+1. Download the setup MSI file for UrlScan 3.1 from one of the following URLs to your computer:
 
     - x86: [https://www.microsoft.com/downloads/details.aspx?FamilyID=ee41818f-3363-4e24-9940-321603531989](https://www.microsoft.com/downloads/details.aspx?FamilyID=ee41818f-3363-4e24-9940-321603531989)
     - x64: [https://www.microsoft.com/downloads/details.aspx?FamilyID=361e5598-c1bd-46b8-b3e7-3980e8bdf0de](https://www.microsoft.com/downloads/details.aspx?FamilyID=361e5598-c1bd-46b8-b3e7-3980e8bdf0de)

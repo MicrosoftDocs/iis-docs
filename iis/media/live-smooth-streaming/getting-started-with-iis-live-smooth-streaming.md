@@ -162,7 +162,7 @@ This section describes how to use the Microsoft Silverlight Media Framework 2.0 
 6. To view the sample player files, in IIS Manager, open the website or virtual directory in **Content View**.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image20.png)  
   
-    The following files are included in the download: 
+    The following files are included in the download:
 
     - **Smooth Streaming Player-ReadMe.doc**. Configuration instructions.
     - **SmoothStreamingPlayer.html**. A sample webpage in which you must update the media reference to your live broadcast, and if necessary, width and height attributes to achieve a presentation size that fits your website design.

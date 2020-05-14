@@ -61,7 +61,7 @@ If Application Request Routing Version 3 has not been installed, it is available
 
 ### Install URL Rewrite
 
-Install the URL Rewrite module for IIS through the Server Manager. For more information, see [Installing IIS 8.5 on Windows Server 2012 R2](../../install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2.md). 
+Install the URL Rewrite module for IIS through the Server Manager. For more information, see [Installing IIS 8.5 on Windows Server 2012 R2](../../install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2.md).
 
 ### Configure ARR as a Forward Proxy
 
@@ -84,7 +84,7 @@ To enable ARR as a proxy, and to create a URL Rewrite rule to enable ARR as a fo
     ![Add Rule](creating-a-forward-proxy-using-application-request-routing/_static/image8.jpg)
 10. In the **Add Rule** dialog box, double-click **Blank Rule**.
     ![Blank Rule](creating-a-forward-proxy-using-application-request-routing/_static/image9.jpg)
-11. In the **Edit Inbound Rule** dialog box, enter "Forward Proxy" for **Name**. In the **Match URL** area, enter the following: 
+11. In the **Edit Inbound Rule** dialog box, enter "Forward Proxy" for **Name**. In the **Match URL** area, enter the following:
 
     - Using: Wildcards
     - Pattern: \*
@@ -92,20 +92,20 @@ To enable ARR as a proxy, and to create a URL Rewrite rule to enable ARR as a fo
     ![Edit Inbound Rule](creating-a-forward-proxy-using-application-request-routing/_static/image10.jpg)
 12. Scroll down to the **Conditions** area of the **Edit Inbound Rule** dialog box, and then click **Add…**.
     ![Add Condition](creating-a-forward-proxy-using-application-request-routing/_static/image11.jpg)
-13. In the **Add Condition** dialog box, select or enter the following: 
+13. In the **Add Condition** dialog box, select or enter the following:
 
     - Condition Input: {HTTP\_HOST}
     - Type: Matches the Pattern
     - Pattern: \*
 
     ![Edit Inbound Rule](creating-a-forward-proxy-using-application-request-routing/_static/image12.jpg)
-14. Scroll down to the **Action** area of the **Edit Inbound Rule** dialog box, and then enter the following: 
+14. Scroll down to the **Action** area of the **Edit Inbound Rule** dialog box, and then enter the following:
 
     - Action Type: Rewrite
     - Rewrite URL: http://{C:1}/{R:0}
 
     ![Edit Inbound Rule](creating-a-forward-proxy-using-application-request-routing/_static/image13.jpg)
-15. In the **Actions** pane, click **Apply**. 
+15. In the **Actions** pane, click **Apply**.
 
     > [!NOTE]
     > This rule enables HTTP messages to pass through the forward proxy. HTTPS (443) messages are not supported on this forward proxy because ARR does not support HTTP CONNECT.

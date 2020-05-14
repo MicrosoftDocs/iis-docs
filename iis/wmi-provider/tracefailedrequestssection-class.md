@@ -72,7 +72,7 @@ For Each oTFR In oTFRSection.TraceFailedRequests
     WScript.Echo "Failure Definition TimeTaken: " & oFD.TimeTaken  
     WScript.Echo "Failure Definition Verbosity Level: " & _  
             GetVerbosityText(oFD.Verbosity)  
-    WScript.Echo   
+    WScript.Echo
   
     For Each oTA In oTFR.TraceAreas.TraceAreas  
         WScript.Echo "Trace Provider: " & oTA.Provider  
@@ -82,7 +82,7 @@ For Each oTFR In oTFRSection.TraceFailedRequests
                 oTA.Provider = "ISAPI Extension") Then  
             WScript.Echo "Trace Areas: " & oTA.Areas  
         End If  
-        WScript.Echo   
+        WScript.Echo
     Next  
     WScript.Echo  
 Next  
@@ -126,12 +126,12 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
- [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   
- [TraceAreaDefinition Class](../wmi-provider/traceareadefinition-class.md)   
- [TraceProviderDefinition Class](../wmi-provider/traceproviderdefinition-class.md)   
- [TraceProviderDefinitionsSection Class](../wmi-provider/traceproviderdefinitionssection-class.md)   
- [TraceUrl Class](../wmi-provider/traceurl-class.md)   
- [TraceUrlAreaSettings Class](../wmi-provider/traceurlareasettings-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)
+ [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)
+ [TraceAreaDefinition Class](../wmi-provider/traceareadefinition-class.md)
+ [TraceProviderDefinition Class](../wmi-provider/traceproviderdefinition-class.md)
+ [TraceProviderDefinitionsSection Class](../wmi-provider/traceproviderdefinitionssection-class.md)
+ [TraceUrl Class](../wmi-provider/traceurl-class.md)
+ [TraceUrlAreaSettings Class](../wmi-provider/traceurlareasettings-class.md)
  [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)

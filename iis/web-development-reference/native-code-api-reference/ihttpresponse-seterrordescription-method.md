@@ -64,5 +64,5 @@ virtual HRESULT SetErrorDescription(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
  [IHttpResponse::GetErrorDescription Method](../../web-development-reference/native-code-api-reference/ihttpresponse-geterrordescription-method.md)

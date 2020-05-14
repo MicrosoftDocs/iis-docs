@@ -56,7 +56,7 @@ class Site : ConfiguredObject
 ' Connect to the WMI WebAdministration namespace.  
 Set oWebAdmin = GetObject("winmgmts:root\WebAdministration")  
 ' Get the root virtual directory for the default Web site.  
-Set oVDir = oWebAdmin.Get(_   
+Set oVDir = oWebAdmin.Get(_
 "VirtualDirectory.SiteName='Default Web Site',ApplicationPath='/',Path='/'")  
   
 ' Set the physical path for the default Web site.  
@@ -83,17 +83,17 @@ oVDir.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Application Class](../wmi-provider/application-class.md)   
- [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
- [BindingElement Class](../wmi-provider/bindingelement-class.md)   
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
- [ServerContainsSite Class](../wmi-provider/servercontainssite-class.md)   
- [SiteContainsApplication Class](../wmi-provider/sitecontainsapplication-class.md)   
- [SiteContainsConfigurationSection Class](../wmi-provider/sitecontainsconfigurationsection-class.md)   
- [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   
- [SiteLimits Class](../wmi-provider/sitelimits-class.md)   
- [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)   
- [TraceFailedRequestsLogging Class](../wmi-provider/tracefailedrequestslogging-class.md)   
- [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)   
+ [Application Class](../wmi-provider/application-class.md)
+ [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
+ [BindingElement Class](../wmi-provider/bindingelement-class.md)
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
+ [ServerContainsSite Class](../wmi-provider/servercontainssite-class.md)
+ [SiteContainsApplication Class](../wmi-provider/sitecontainsapplication-class.md)
+ [SiteContainsConfigurationSection Class](../wmi-provider/sitecontainsconfigurationsection-class.md)
+ [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)
+ [SiteLimits Class](../wmi-provider/sitelimits-class.md)
+ [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)
+ [TraceFailedRequestsLogging Class](../wmi-provider/tracefailedrequestslogging-class.md)
+ [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)
  [VirtualDirectoryElementDefaults Class](../wmi-provider/virtualdirectoryelementdefaults-class.md)

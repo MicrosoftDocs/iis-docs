@@ -61,8 +61,8 @@ class DefaultProxySection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [BypassElement Class](../wmi-provider/bypasselement-class.md)   
- [BypassListSettings Class](../wmi-provider/bypasslistsettings-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [ModuleSettings Class](../wmi-provider/modulesettings-class.md)   
+ [BypassElement Class](../wmi-provider/bypasselement-class.md)
+ [BypassListSettings Class](../wmi-provider/bypasslistsettings-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [ModuleSettings Class](../wmi-provider/modulesettings-class.md)
  [ProxySettings Class](../wmi-provider/proxysettings-class.md)

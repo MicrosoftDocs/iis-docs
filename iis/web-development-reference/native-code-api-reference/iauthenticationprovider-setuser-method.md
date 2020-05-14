@@ -41,14 +41,14 @@ virtual VOID SetUser(
   
 ```  
 <?xml version="1.0" ?>  
-<user   
-    userName="ValidUser"   
-    remoteName=" ValidUser"   
-    passWord="[hidden]"   
-    authType="Anonymous"   
-    impersonationToken="NULL"   
-    primaryToken="NULL"   
-    supportsRoles="false"   
+<user
+    userName="ValidUser"
+    remoteName=" ValidUser"
+    passWord="[hidden]"
+    authType="Anonymous"
+    impersonationToken="NULL"
+    primaryToken="NULL"
+    supportsRoles="false"
     userVariable="NULL" />  
 ```  
   
@@ -66,6 +66,6 @@ virtual VOID SetUser(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IAuthenticationProvider Interface](../../web-development-reference/native-code-api-reference/iauthenticationprovider-interface.md)   
- [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
+ [IAuthenticationProvider Interface](../../web-development-reference/native-code-api-reference/iauthenticationprovider-interface.md)
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)
  [CHttpModule::OnAuthenticateRequest Method](../../web-development-reference/native-code-api-reference/chttpmodule-onauthenticaterequest-method.md)

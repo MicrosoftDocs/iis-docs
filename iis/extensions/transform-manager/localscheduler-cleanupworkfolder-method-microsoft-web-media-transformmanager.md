@@ -62,10 +62,10 @@ virtual void CleanupWorkFolder(
 ```
 
 ``` fsharp
-  abstract CleanupWorkFolder : 
-        workfolder:string -> unit 
-override CleanupWorkFolder : 
-        workfolder:string -> unit 
+  abstract CleanupWorkFolder :
+        workfolder:string -> unit
+override CleanupWorkFolder :
+        workfolder:string -> unit
 ```
 
 ```jscript

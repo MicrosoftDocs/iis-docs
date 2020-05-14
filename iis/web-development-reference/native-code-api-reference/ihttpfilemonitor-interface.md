@@ -35,5 +35,5 @@ class IHttpFileMonitor
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer::RegisterFileChangeMonitor Method](../../web-development-reference/native-code-api-reference/ihttpserver-registerfilechangemonitor-method.md)   
+ [IHttpServer::RegisterFileChangeMonitor Method](../../web-development-reference/native-code-api-reference/ihttpserver-registerfilechangemonitor-method.md)
  [IGlobalFileChangeProvider::GetFileMonitor Method](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-getfilemonitor-method.md)

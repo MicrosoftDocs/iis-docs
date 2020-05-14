@@ -17,7 +17,7 @@ Both the Web Application Gallery and the Web Platform Installer consume the same
 
 You can take two different approaches to test your application package in your computer:
 
-1. Modify a local copy of the live xml feeds. You may want to use this approach if: 
+1. Modify a local copy of the live xml feeds. You may want to use this approach if:
 
     - You have already published your application in the Web Application Gallery, and
     - You only need to modify a few fields in the feed xml (installer url, version, and sha-1 hash), and
@@ -70,7 +70,7 @@ Change the location within that element to point to your local application zip p
 
 [!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample3.xml)]
 
-You will also need to find the &lt;sha1&gt; element and change it to the new hash value or remove it. If you forget this step, your application testing will fail based on mismatched hash values.   
+You will also need to find the &lt;sha1&gt; element and change it to the new hash value or remove it. If you forget this step, your application testing will fail based on mismatched hash values.
  Save the changes.
 
 #### Step 5. Set Up the Test Environment with Dependencies
@@ -97,7 +97,7 @@ Follow these steps so that Web Platform Installer will point to the local feed w
 - Look for the application you are testing and Click on Add
 - Click on Install
 
-  Web Platform Installer will now install the test application package onto IIS or Web Matrix. 
+  Web Platform Installer will now install the test application package onto IIS or Web Matrix.
 
 ## Test by creating a custom feed
 

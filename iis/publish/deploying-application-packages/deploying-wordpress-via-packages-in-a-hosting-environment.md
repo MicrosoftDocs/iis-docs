@@ -64,14 +64,14 @@ To simplify installation of the Web server components, installing Web Platform I
 
 #### Install Web Server Components on Your Web Server and Database Server
 
-To install the required components on your Web server and database server using Web PI 3.0, visit the link: [Install Spotlight Components plus PHP/MySQL related components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=IIS7;NETFramework35;NETFramework4;ASPNET;MVC;WDeploy;FTPServer;MediaServices3;ManagementService;CGI;URLRewrite2;SMO;PHP52;WinCache52_11;MySQLConnector;SQLDriverPHPForIIS "Install Components") and click **Install**, following the onscreen instructions. 
+To install the required components on your Web server and database server using Web PI 3.0, visit the link: [Install Spotlight Components plus PHP/MySQL related components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=IIS7;NETFramework35;NETFramework4;ASPNET;MVC;WDeploy;FTPServer;MediaServices3;ManagementService;CGI;URLRewrite2;SMO;PHP52;WinCache52_11;MySQLConnector;SQLDriverPHPForIIS "Install Components") and click **Install**, following the onscreen instructions.
 
 > [!NOTE]
 > A complete list of components that are installed by default with Web PI 3.0 is included in the Products Installed by Default using Web PI section of this document. You can also review the list of products before installation begins.
 
 #### Install MySQL on your Database Server
 
-To install MySQL, [click here on this link](http://dev.mysql.com/downloads/mysql/5.1.html) to download MySQL 5.1 and complete the steps described in the **Install MySQL on Your Database Server** in this document. **Next Steps:** 
+To install MySQL, [click here on this link](http://dev.mysql.com/downloads/mysql/5.1.html) to download MySQL 5.1 and complete the steps described in the **Install MySQL on Your Database Server** in this document. **Next Steps:**
 
 - If the Web Deploy 2.0 component is newly installed, you must configure it to allow delegated deployments. Refer to the link: *[Configure the Web Deploy Component on the Web Server](../../web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing.md)* for more information.
 - After you install and configure the server components, validate your server configuration by following the procedures described at the link: *[Validate Your Server Configuration](../../web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration.md)*.
@@ -91,7 +91,7 @@ D. Export the Package from the IIS Application Web Site
 
 #### A. Create an IIS Web Site for this Application
 
-1. Open Internet Information Services (IIS) Manager.   
+1. Open Internet Information Services (IIS) Manager.
  The Internet Information Services (IIS) Manager application opens.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image2.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image1.jpg)
 2. Expand your server connection, and click **Sites**.
@@ -118,7 +118,7 @@ D. Export the Package from the IIS Application Web Site
   
    The Web Platform Installation window appears.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image8.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image7.jpg)
-3. Click **I Accept** to accept the end-user license agreement.   
+3. Click **I Accept** to accept the end-user license agreement.
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image10.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image9.jpg)
 4. From the Web Site drop-down list, select the Web site you created earlier in this procedure.
 5. In the application name field, enter an application name if it is different from the default value.  
@@ -141,7 +141,7 @@ D. Export the Package from the IIS Application Web Site
 
      > [!NOTE]
      > You must scroll down to view all required fields.
-9. Click **Continue**.   
+9. Click **Continue**.
   
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image14.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image13.jpg)
 10. Once the Web PI process is complete, you can do one of the following:  
@@ -197,7 +197,7 @@ To enable permalinks (search engine friendly URLs) in WordPress, complete these 
     - Select **Parameter 1**, and click **Edit**. The Edit Parameter dialog box appears.  
         [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image34.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image33.jpg)
     - Enter **SiteName** in the Name field, and click **OK**.
-    - Repeat these steps to rename Parameter 2 to "ConnectionString". The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.   
+    - Repeat these steps to rename Parameter 2 to "ConnectionString". The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.
         [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image36.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image35.jpg)
 10. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image38.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image37.jpg)
@@ -224,7 +224,7 @@ When deploying a customer site, most Hosting Service Providers use a control pan
 
 To create a customer application Web site, complete the steps described in A. Create an IIS Web Site for this Application.<a id="_Ref281465621"></a>
 
-**Tips:** 
+**Tips:**
 
 - When you create the Web site in IIS, give your application a user-friendly name by creating a fully qualified domain name (FQDN) for the host header and adding that FQDN to your Domain Name Service.
 - You can automate this process using a script similar to the one described in the section Automated Deployment Script.

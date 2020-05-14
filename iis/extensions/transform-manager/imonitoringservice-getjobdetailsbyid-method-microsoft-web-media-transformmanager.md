@@ -65,8 +65,8 @@ JobDetails^ GetJobDetailsById(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobDetailsById : 
-        jobId:string -> JobDetails 
+abstract GetJobDetailsById :
+        jobId:string -> JobDetails
 ```
 
 ```jscript

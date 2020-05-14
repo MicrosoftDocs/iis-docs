@@ -99,7 +99,7 @@ For more information and code scenarios, see [Microsoft Smooth Streaming Client 
 
 The logic for the **Play** and **Stop** buttons is shown in the following excerpt from the example in the topic [Silverlight Applications](silverlight-applications.md). The Playbutton\_Click delegate uses SmoothStreamingMediaElementState to set the button text and action.
 
-``` 
+```
     private void PlayButton_Loaded(object sender, RoutedEventArgs e)
     {
         switch (SmoothPlayer.AutoPlay)
@@ -111,7 +111,7 @@ The logic for the **Play** and **Stop** buttons is shown in the following excerp
                 PlayButton.Content = "Pause";
                 break;
         }
-        
+
     }
 
     private void PlayButton_Click(object sender, RoutedEventArgs e)

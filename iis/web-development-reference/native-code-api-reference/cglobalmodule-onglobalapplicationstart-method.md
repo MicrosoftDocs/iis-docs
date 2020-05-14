@@ -49,5 +49,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationStart(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)   
+ [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)
  [CGlobalModule::OnGlobalApplicationStop Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationstop-method.md)

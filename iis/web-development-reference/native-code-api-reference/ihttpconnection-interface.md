@@ -39,6 +39,6 @@ class IHttpConnection
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
  [IHttpContext::GetConnection Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getconnection-method.md)

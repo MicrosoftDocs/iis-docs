@@ -83,7 +83,7 @@ You can set the remote service URL to a custom URL by running setup from the com
 ### Issue: Some Management Service delegation rules do not work after Web Deploy is upgraded to Web Deploy 2.0
 
 If an IIS 7+ server is using shared configuration, certain delegation rules with runAs identity set to SpecificUser will stop working. This is because the Web Deploy installer and the .\AddDelegationRules.ps1 script creates local machine user accounts and sets them as the runAs identity on certain delegation rules. These user accounts will not be recognized on other machines and thus the rules will not work in shared configuration.  
-**Workarounds:** 
+**Workarounds:**
 
 - Do not install Web Deploy 2.0 using the Web Platform Installer. Instead, install it [directly](https://www.iis.net/downloads/microsoft/web-deploy) from the MSI and de-select the Configure for Non-administrator Deployments component
 - If your delegation rules have already been overwritten, re-create them manually.
@@ -98,7 +98,7 @@ When this script creates a site, it tries to assign it a port number between 800
 
 The site creation script as well as the UI to configure Web Deploy for an existing site sets the publishing URL to [https://myserver:8172/msdeploy.axd](https://myserver:8172/msdeploy.axd). This computername is generally reachable within a network. However, it is often not reachable from outside the network, so it should be replaced with a public DNS name.
 
-**Workarounds:** 
+**Workarounds:**
 
 - From the script: The script does not warn about this error. Replace the URL with the correct one (as below) in the generated settings file.
 - From the UI: enter the public DNS name in the "Specify the URL for the publishing server connection" field e.g. instead of [https://myserver:8172/msdeploy.axd](https://myserver:8172/msdeploy.axd), enter [https://some.publicDnsName.com:8172/msdeploy.axd](https://some.publicdnsname.com:8172/msdeploy.axd)
@@ -117,14 +117,14 @@ If the logging level is set too high, Web Deploy will consume 100% CPU when a sy
 
 If the destination computer has Web Deploy v1.1 installed and the source computer has v2 installed, you may see this error. This is a cross-version incompatibility.
 
-**Workarounds:** 
+**Workarounds:**
 
 - Upgrade source computer to Web Deploy v2
 - Uninstall all versions of Web Deploy on source computer
 
 ### Issue: Web Deploy is unable to retrieve the USN number from remote server
 
-The "-incremental" switch, when used with the dirPath provider, returns a USN number to be used with future syncs to allow for incremental sync.   
+The "-incremental" switch, when used with the dirPath provider, returns a USN number to be used with future syncs to allow for incremental sync.
 For example: `msdeploy -verb:dump -source:dirpath=c:\Temp –incremental`  
 Returns: `c:\Temp`  
 Info: The USN number for syncing source path 'c:\Temp' is '2140379512'.  
@@ -167,19 +167,19 @@ However, if the source is remote, the USN number doesn't get returned by the ope
 
 **Workaround:** Workaround: Manually include any script maps or files that do not require installation in a manifest file. See the Help for more information about creating manifest files.
 
-**Issue:** Custom trust files referenced in the root level Web.config and Code Access Security (CAS) policy settings will not be moved.   
+**Issue:** Custom trust files referenced in the root level Web.config and Code Access Security (CAS) policy settings will not be moved.
 **Workaround:** Manually specify the custom trust file and the CAS policy file, security.config, in a manifest file. See the Help file for more information about creating manifest files.
 
-**Issue:** If you move a site to a server that has a different trust level, you will not receive a warning.   
+**Issue:** If you move a site to a server that has a different trust level, you will not receive a warning.
 **Workaround:** Please ensure that the trust level is set correctly on the destination machine when doing a site level sync or migrate.
 
-**Issue:** If you have a custom manifest file that is pointing to an invalid source, you may not receive an error.   
+**Issue:** If you have a custom manifest file that is pointing to an invalid source, you may not receive an error.
 **Workaround:** If you are not seeing expected output when using a manifest file, try each item individually to see if they are mistyped or invalid.
 
-**Issue:** FTP and SMTP are not included in the default definitions for webserver60.   
+**Issue:** FTP and SMTP are not included in the default definitions for webserver60.
 **Workaround:** If you need to sync these locations, manually sync them using the metakey provider - i.e., metakey=lm/msftpsvc.
 
-**Issue:** Inherited properties are not migrated with an IIS 6.0 site migration. A common example is authentication set at the server level with all sites inheriting this property. When you migrate a single site, it will now inherit the settings of the new destination server. If the destination server settings are not the same, your site could break. This applies to every inherited property, including mime maps, script maps, etc.   
+**Issue:** Inherited properties are not migrated with an IIS 6.0 site migration. A common example is authentication set at the server level with all sites inheriting this property. When you migrate a single site, it will now inherit the settings of the new destination server. If the destination server settings are not the same, your site could break. This applies to every inherited property, including mime maps, script maps, etc.
 **Workaround:** Use the metadataGetInherited flag to copy inherited settings to the site level when you sync or migrate a web site on IIS 6.0. Or ensure the server settings are the same on source and destination servers or manually set the site to use correct settings.
 
 <a id="Troubleshooting"></a>

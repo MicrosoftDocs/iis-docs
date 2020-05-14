@@ -43,5 +43,5 @@ virtual HRESULT RunCustomAction(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   
+ [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)
  [ICustomActionResultCallback::ReportResult Method](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-reportresult-method.md)

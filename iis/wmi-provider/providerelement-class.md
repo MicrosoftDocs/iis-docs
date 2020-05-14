@@ -44,8 +44,8 @@ class ProviderElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [IIS 7.0: CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
- [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
- [SessionStateSection Class](../wmi-provider/sessionstatesection-class.md)   
+ [IIS 7.0: CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)
+ [ProviderSettings Class](../wmi-provider/providersettings-class.md)
+ [SessionStateSection Class](../wmi-provider/sessionstatesection-class.md)
  [SiteMapSection Class](../wmi-provider/sitemapsection-class.md)

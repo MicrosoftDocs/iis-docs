@@ -41,6 +41,6 @@ class ServerContainsSite : ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
- [Server Class](../wmi-provider/server-class.md)   
+ [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)
+ [Server Class](../wmi-provider/server-class.md)
  [Site Class](../wmi-provider/site-class.md)

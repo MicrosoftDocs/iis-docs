@@ -23,14 +23,14 @@ The `<extendedProtection>` element may contain a collection of `<spn>` elements,
 
 There are two attributes of the `<extendedProtection>` element that configure the channel-binding and additional behavior for IIS extended protection:
 
-- The **tokenChecking** attribute configures the behavior for checking for channel-binding tokens. The possible values for this attribute are: 
+- The **tokenChecking** attribute configures the behavior for checking for channel-binding tokens. The possible values for this attribute are:
 
     | Name | Description |
     | --- | --- |
     | `None` | This value specifies that IIS will not perform channel-binding token checking. This setting emulates the behavior that existed before extended protection. <br><br> The numerical value is `0`. |
     | `Allow` | This value specifies that channel-binding token checking is enabled, but not required. This setting allows secure communication with clients that support extended protection, but still supports clients that are not capable of using extended protection. <br><br> The numerical value is `1`. |
     | `Require` | This value specifies that channel-binding token checking is required. This setting does not provide support for clients that do not support extended protection. <br><br> The numerical value is `2`. |
-- The **flags** attribute configures additional behavior for extended protection. The possible flags are: 
+- The **flags** attribute configures additional behavior for extended protection. The possible flags are:
 
     | Name | Description |
     | --- | --- |
@@ -60,7 +60,7 @@ Consider the following example scenarios:
 More information about Extended Protection is available in the following topic:
 
 > [Integrated Windows Authentication with Extended Protection](https://msdn.microsoft.com/library/dd639324.aspx)
-> 
+>
 > [Service Principal Names](https://msdn.microsoft.com/library/ms677949(VS.85).aspx)
 
 <a id="002"></a>
@@ -110,7 +110,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
-4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Windows Authentication**, and then click **Next**.   
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Windows Authentication**, and then click **Next**.
     [![](spn/_static/image6.png)](spn/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
@@ -120,27 +120,27 @@ The default installation of IIS 7 and later does not include the Windows authent
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Security**.
-4. Select **Windows Authentication**, and then click **OK**.   
+4. Select **Windows Authentication**, and then click **OK**.
     [![](spn/_static/image8.png)](spn/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 
 ### How to enable Extended Protection for Windows authentication
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -150,7 +150,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 5. Click **Enable** in the **Actions** pane.  
     [![](spn/_static/image10.png)](spn/_static/image9.png)
 6. Click **Advanced Settings** in the **Actions** pane.
-7. When the **Advanced Settings** dialog box appears, select one of the following options in the **Extended Protection** drop-down menu: 
+7. When the **Advanced Settings** dialog box appears, select one of the following options in the **Extended Protection** drop-down menu:
 
     - Select **Accept** if you want to enable extended protection while providing down-level support for clients that do not support extended protection.
     - Select **Required** if you want to enable extended protection without providing down-level support.  

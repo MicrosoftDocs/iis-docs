@@ -59,20 +59,20 @@ public void SelectStreamsAsync(
 ```cpp
 public:
 void SelectStreamsAsync(
-    IList<StreamInfo^>^ selectedStreams, 
+    IList<StreamInfo^>^ selectedStreams,
     Object^ userState
 )
 ```
 
 ``` fsharp
-member SelectStreamsAsync : 
-        selectedStreams:IList<StreamInfo> * 
-        userState:Object -> unit 
+member SelectStreamsAsync :
+        selectedStreams:IList<StreamInfo> *
+        userState:Object -> unit
 ```
 
 ```jscript
 public function SelectStreamsAsync(
-    selectedStreams : IList<StreamInfo>, 
+    selectedStreams : IList<StreamInfo>,
     userState : Object
 )
 ```

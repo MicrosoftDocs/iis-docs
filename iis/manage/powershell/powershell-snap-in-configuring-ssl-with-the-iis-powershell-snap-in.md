@@ -42,7 +42,7 @@ We are adding the SSL binding to the Default Web Site using one of the task-base
 
 [!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample3.ps1)]
 
-You can look at the binding collection using the following command: 
+You can look at the binding collection using the following command:
 
 [!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample4.ps1)]
 

@@ -64,23 +64,23 @@ public void ParseExternalManifest(
 ```cpp
 public:
 void ParseExternalManifest(
-    Uri^ externalManifestUri, 
-    int millisecondsTimeout, 
+    Uri^ externalManifestUri,
+    int millisecondsTimeout,
     [OutAttribute] Object^% externalManifest
 )
 ```
 
 ``` fsharp
-member ParseExternalManifest : 
-        externalManifestUri:Uri * 
-        millisecondsTimeout:int * 
-        externalManifest:Object byref -> unit 
+member ParseExternalManifest :
+        externalManifestUri:Uri *
+        millisecondsTimeout:int *
+        externalManifest:Object byref -> unit
 ```
 
 ```jscript
 public function ParseExternalManifest(
-    externalManifestUri : Uri, 
-    millisecondsTimeout : int, 
+    externalManifestUri : Uri,
+    millisecondsTimeout : int,
     externalManifest : Object
 )
 ```

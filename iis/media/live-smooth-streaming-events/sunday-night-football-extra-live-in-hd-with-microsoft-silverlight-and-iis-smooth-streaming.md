@@ -52,7 +52,7 @@ The basic steps of the live broadcast included the following:
 - **Content delivery**. Streaming video, audio, and related content.
 - **Playback and analytics**. Providing a DVR–like experience for viewers and user statistics to NBC.
 
-**Fast Facts** 
+**Fast Facts**
 
 | | |
 | --- | --- |

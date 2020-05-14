@@ -60,14 +60,14 @@ returnValue = ManifestInfo.ParseManifest(manifestStream, _
 ```cpp
   public:
 static ManifestInfo^ ParseManifest(
-    Stream^ manifestStream, 
+    Stream^ manifestStream,
     Uri^ manifestUri
 )
 ```
 
 ```jscript
   public static function ParseManifest(
-    manifestStream : Stream, 
+    manifestStream : Stream,
     manifestUri : Uri
 ) : ManifestInfo
 ```

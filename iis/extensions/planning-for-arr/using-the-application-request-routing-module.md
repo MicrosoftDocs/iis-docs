@@ -48,7 +48,7 @@ These articles explain how to configure and achieve the core scenarios by using 
 
 - [Install Application Request Routing](../installing-application-request-routing-arr/install-application-request-routing.md)
 - [Define and Configure an Application Request Routing Server Group](../configuring-application-request-routing-arr/define-and-configure-an-application-request-routing-server-farm.md)
-- [HTTP Load Balancing using Application Request Routing](../configuring-application-request-routing-arr/http-load-balancing-using-application-request-routing.md) 
+- [HTTP Load Balancing using Application Request Routing](../configuring-application-request-routing-arr/http-load-balancing-using-application-request-routing.md)
 
     - Includes using health monitoring and client affinity
 - [Configure 3-tier deployment architecture using Application Request Routing](../configuring-application-request-routing-arr/configure-3-tier-deployment-architecture-using-application-request-routing.md)

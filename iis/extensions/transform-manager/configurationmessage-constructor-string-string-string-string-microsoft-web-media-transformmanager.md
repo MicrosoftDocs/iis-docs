@@ -64,26 +64,26 @@ Dim instance As New ConfigurationMessage(fileName, _
 ```cpp
   public:
 ConfigurationMessage(
-    String^ fileName, 
-    String^ name, 
-    String^ message, 
+    String^ fileName,
+    String^ name,
+    String^ message,
     String^ helpLinkId
 )
 ```
 
 ``` fsharp
-  new : 
-        fileName:string * 
-        name:string * 
-        message:string * 
+  new :
+        fileName:string *
+        name:string *
+        message:string *
         helpLinkId:string -> ConfigurationMessage
 ```
 
 ```jscript
   public function ConfigurationMessage(
-    fileName : String, 
-    name : String, 
-    message : String, 
+    fileName : String,
+    name : String,
+    message : String,
     helpLinkId : String
 )
 ```

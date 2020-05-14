@@ -62,8 +62,8 @@ void SetTaskIndex(
 ```
 
 ``` fsharp
-  member SetTaskIndex : 
-        taskIndex:int -> unit 
+  member SetTaskIndex :
+        taskIndex:int -> unit
 ```
 
 ```jscript

@@ -38,25 +38,25 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
  The following code example demonstrates a custom class named `MyContainer` that implements the `IDispensedHttpModuleContextContainer` interface, and a custom class named `MyClass` that implements the `IHttpConnection` interface. `MyClass` manages a `MyContainer` pointer during the lifetime of a `MyClass` pointer.  
   
 ```  
-// The MyContainer class implements the   
+// The MyContainer class implements the
 // IDispensedHttpModuleContextContainer interface.  
 class MyContainer : public IDispensedHttpModuleContextContainer  
 {  
 public:  
     // The MyContainer method is the public  
     // constructor for the MyContainer class.  
-    // Make this method protected if the   
+    // Make this method protected if the
     // MyContainer class is abstract.  
     // dispensed: true if the container should  
     // call delete this when the ReleaseContainer  
     // method is called.  
-    MyContainer(bool dispensed = false)   
+    MyContainer(bool dispensed = false)
         : m_dispensed(dispensed)  
     {  
   
     }  
   
-    // The ReleaseContainer method   
+    // The ReleaseContainer method
     // calls delete this if this container  
     // is dispensed.  
     virtual VOID ReleaseContainer(VOID)  
@@ -67,7 +67,7 @@ public:
         }  
     }  
   
-    // Implement additional   
+    // Implement additional
     // IDispensedHttpModuleContextContainer  
     // pure virtual methods if this class  
     // is not abstract.  
@@ -75,12 +75,12 @@ public:
 private:  
     // The MyContainer method is the private  
     // destructor for the MyContainer class.  
-    // Make this method protected and virtual   
-    // if the MyContainer class expects   
-    // to be a class of derivation. This method   
-    // should not be public because   
+    // Make this method protected and virtual
+    // if the MyContainer class expects
+    // to be a class of derivation. This method
+    // should not be public because
     // IDispensedHttpModuleContextContainer pointers  
-    // should be disposed externally only by   
+    // should be disposed externally only by
     // calling the ReleaseContainer method.  
     ~MyContainer()  
     {  
@@ -103,8 +103,8 @@ public:
         m_container = new MyContainer;  
     }  
   
-    // The MyClass method is the   
-    // public virtual destructor   
+    // The MyClass method is the
+    // public virtual destructor
     // for the MyClass class. This destructor  
     // calls ReleaseContainer on the internal  
     // IDispensedHttpModuleContextContainer  
@@ -118,10 +118,10 @@ public:
     // The GetModuleContextContainer method  
     // returns an IHttpModuleContextContainer  
     // pointer.  
-    // return: an explicit upcast   
+    // return: an explicit upcast
     // IDispensedHttpModuleContextContainer  
     // pointer for readability.  
-    virtual IHttpModuleContextContainer*   
+    virtual IHttpModuleContextContainer*
         GetModuleContextContainer(VOID)  
     {  
         return (IHttpModuleContextContainer*)m_container;  
@@ -149,11 +149,11 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpConnection Interface](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md)   
- [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
- [IHttpContext::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getmodulecontextcontainer-method.md)   
- [IHttpFileInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)   
- [IHttpFileMonitor::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)   
- [IHttpSite::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)   
- [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)   
+ [IHttpConnection Interface](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md)
+ [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)
+ [IHttpContext::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getmodulecontextcontainer-method.md)
+ [IHttpFileInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)
+ [IHttpFileMonitor::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)
+ [IHttpSite::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)
+ [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)
  [IMetadataInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)

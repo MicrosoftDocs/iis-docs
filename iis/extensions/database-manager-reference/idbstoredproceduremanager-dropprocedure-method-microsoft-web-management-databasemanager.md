@@ -60,16 +60,16 @@ void DropProcedure(
 
 ```cpp
 void DropProcedure(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     String^ procedureName
 )
 ```
 
 ```jscript
 function DropProcedure(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     procedureName : String
 )
 ```

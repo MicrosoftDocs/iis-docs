@@ -61,23 +61,23 @@ public SetPlaybackRangeCompletedEventArgs(
 ```cpp
 public:
 SetPlaybackRangeCompletedEventArgs(
-    TimeSpan leftEdge, 
-    TimeSpan rightEdge, 
+    TimeSpan leftEdge,
+    TimeSpan rightEdge,
     Object^ userState
 )
 ```
 
 ``` fsharp
-new : 
-        leftEdge:TimeSpan * 
-        rightEdge:TimeSpan * 
+new :
+        leftEdge:TimeSpan *
+        rightEdge:TimeSpan *
         userState:Object -> SetPlaybackRangeCompletedEventArgs
 ```
 
 ```jscript
 public function SetPlaybackRangeCompletedEventArgs(
-    leftEdge : TimeSpan, 
-    rightEdge : TimeSpan, 
+    leftEdge : TimeSpan,
+    rightEdge : TimeSpan,
     userState : Object
 )
 ```

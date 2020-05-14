@@ -64,8 +64,8 @@ void DeleteCredential(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract DeleteCredential : 
-        credentialId:string -> unit 
+abstract DeleteCredential :
+        credentialId:string -> unit
 ```
 
 ```jscript

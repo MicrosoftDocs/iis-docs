@@ -73,6 +73,6 @@ oAnonAuth.GetAllowLocation "false"
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [ConfigurationSection.GetAllowLocation Method](../wmi-provider/configurationsection-getallowlocation-method.md)

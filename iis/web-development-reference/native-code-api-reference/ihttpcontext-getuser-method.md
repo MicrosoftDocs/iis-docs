@@ -45,5 +45,5 @@ virtual IHttpUser* GetUser(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
  [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)

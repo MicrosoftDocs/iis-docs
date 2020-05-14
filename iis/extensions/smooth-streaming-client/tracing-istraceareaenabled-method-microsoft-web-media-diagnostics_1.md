@@ -62,8 +62,8 @@ static bool IsTraceAreaEnabled(
 ```
 
 ``` fsharp
-static member IsTraceAreaEnabled : 
-        traceArea:TraceArea -> bool 
+static member IsTraceAreaEnabled :
+        traceArea:TraceArea -> bool
 ```
 
 ```jscript

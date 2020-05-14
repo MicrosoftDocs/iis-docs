@@ -58,23 +58,23 @@ instance.WriteLine(level, value, eventId)
 
 ```cpp
   void WriteLine(
-    LogLevel level, 
-    String^ value, 
+    LogLevel level,
+    String^ value,
     int eventId
 )
 ```
 
 ``` fsharp
-  abstract WriteLine : 
-        level:LogLevel * 
-        value:string * 
-        eventId:int -> unit 
+  abstract WriteLine :
+        level:LogLevel *
+        value:string *
+        eventId:int -> unit
 ```
 
 ```jscript
   function WriteLine(
-    level : LogLevel, 
-    value : String, 
+    level : LogLevel,
+    value : String,
     eventId : int
 )
 ```

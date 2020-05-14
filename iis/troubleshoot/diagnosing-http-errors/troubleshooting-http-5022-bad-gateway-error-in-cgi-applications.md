@@ -45,7 +45,7 @@ This problem occurs when the CGI application does exactly what the error suggest
 
 **Capturing a Trace file using ETW Tracing**
 
-1. Copy the ETWSetup.zip file attached to this email to the IIS6 Server. 
+1. Copy the ETWSetup.zip file attached to this email to the IIS6 Server.
 
     [ETWSetup](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/_static/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications-1116-etwsetup1.zip)
 2. Extract it on the server.

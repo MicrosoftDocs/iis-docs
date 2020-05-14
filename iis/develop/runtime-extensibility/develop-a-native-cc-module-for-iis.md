@@ -48,13 +48,13 @@ Your native module has the following life cycle:
 
 1. When the server worker process starts, it will load the DLL containing your module, and invoke its exported **RegisterModule** function. In this function, you:
 
-    a. Create the module factory.   
+    a. Create the module factory.
     b. Register the module factory for the request pipeline events your module implements.
 
 2. When a request arrives, the server:
 
-    a. Creates an instance of your module class using the factory you provided.   
-    b. Calls the appropriate event handler method on the module instance for each of the request events you registered for.   
+    a. Creates an instance of your module class using the factory you provided.
+    b. Calls the appropriate event handler method on the module instance for each of the request events you registered for.
     c. Disposes the instance of the module at the end of request processing.
 
 Now, to build it.
@@ -69,7 +69,7 @@ Implement the **RegisterModule** function that the server invokes when the modul
 
 ### The RegisterModule
 
-There are three basic tasks we need to accomplish inside **RegisterModule:** 
+There are three basic tasks we need to accomplish inside **RegisterModule:**
 
 #### Save the Global State
 
@@ -95,7 +95,7 @@ In order for our **RegisterModule** implementation to be accessible to the serve
 
 Next, implement the module factory class:
 
-**mymodulefactory.h:** 
+**mymodulefactory.h:**
 
 [!code-csharp[Main](develop-a-native-cc-module-for-iis/samples/sample4.cs)]
 
@@ -111,7 +111,7 @@ The **Terminate** method is called by the server when the worker process shuts d
 
 This class is responsible for providing the main functionality of the module during one or more server events:
 
-**myhttpmodule.h:** 
+**myhttpmodule.h:**
 
 [!code-csharp[Main](develop-a-native-cc-module-for-iis/samples/sample5.cs)]
 

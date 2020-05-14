@@ -43,5 +43,5 @@ typedef HRESULT(
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Functions](../../web-development-reference/native-code-api-reference/windows-process-activation-service-functions.md)   
+ [Windows Process Activation Service Functions](../../web-development-reference/native-code-api-reference/windows-process-activation-service-functions.md)
  [GetIsapiProcessHost Function](../../web-development-reference/native-code-api-reference/getisapiprocesshost-function.md)

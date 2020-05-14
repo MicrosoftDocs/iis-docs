@@ -66,11 +66,11 @@ virtual bool InitializeService(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract InitializeService : 
-        serviceCredential:Credential -> bool 
+abstract InitializeService :
+        serviceCredential:Credential -> bool
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override InitializeService : 
-        serviceCredential:Credential -> bool 
+override InitializeService :
+        serviceCredential:Credential -> bool
 ```
 
 ```jscript

@@ -62,8 +62,8 @@ void Save(
 ```
 
 ``` fsharp
-  member Save : 
-        fileName:string -> unit 
+  member Save :
+        fileName:string -> unit
 ```
 
 ```jscript

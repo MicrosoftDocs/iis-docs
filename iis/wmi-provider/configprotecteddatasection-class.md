@@ -58,5 +58,5 @@ class ConfigProtectedDataSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)

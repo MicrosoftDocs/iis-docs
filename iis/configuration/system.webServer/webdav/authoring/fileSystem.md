@@ -28,7 +28,7 @@ The `<fileSystem>` element of the `<authoring>` element specifies how the WebDAV
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-> 
+>
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
 
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
@@ -63,7 +63,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
-4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.
     ![](fileSystem/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
@@ -78,10 +78,10 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 ### Windows Server 2008 or Windows Vista
 
-- Download the installation package from the following URL: 
+- Download the installation package from the following URL:
 
     - [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
-- Follow the instructions in the following walkthrough to install the WebDAV module: 
+- Follow the instructions in the following walkthrough to install the WebDAV module:
 
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
@@ -90,19 +90,19 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 ### How to allow hidden files to be listed in WebDAV responses
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

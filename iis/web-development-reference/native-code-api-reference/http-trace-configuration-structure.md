@@ -57,10 +57,10 @@ struct HTTP_TRACE_CONFIGURATION{
 ```  
 <cacheProvider>  
     <traceContext>  
-        <traceConfiguration   
-            providerGuid="{00000000-0000-0000-1B00-0080000000FF}"   
-            areas="0"   
-            verbosity="0"   
+        <traceConfiguration
+            providerGuid="{00000000-0000-0000-1B00-0080000000FF}"
+            areas="0"
+            verbosity="0"
             providerEnabled="true"/>  
     </traceContext>  
 </cacheProvider>  

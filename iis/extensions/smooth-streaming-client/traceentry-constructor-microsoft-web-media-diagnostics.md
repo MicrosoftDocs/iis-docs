@@ -73,22 +73,22 @@ Dim instance As New TraceEntry(mediaElementId, _
 ```cpp
   public:
 TraceEntry(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
+    TraceArea traceArea,
+    TraceLevel traceLevel,
     String^ text
 )
 ```
 
 ```jscript
   public function TraceEntry(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
     text : String
 )
 ```

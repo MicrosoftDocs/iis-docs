@@ -62,8 +62,8 @@ static String^ GetTypeName(
 ```
 
 ``` fsharp
-  static member GetTypeName : 
-        type:string -> string 
+  static member GetTypeName :
+        type:string -> string
 ```
 
 ```jscript

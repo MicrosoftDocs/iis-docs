@@ -21,7 +21,7 @@ Database Manager provides support for Microsoft® SQL Server® and MySQL. In add
 
 With the Database Manager, you can:
 
-- Manage Microsoft SQL Server or MySQL databases. 
+- Manage Microsoft SQL Server or MySQL databases.
 
     - Add, rename, drop, and edit tables.
     - View and manage primary keys, indexes, and foreign keys.
@@ -73,14 +73,14 @@ You can add new connections without using connection strings. This allows you to
 
 To add a new connection using the Database Manager:
 
-1. Click the **Add Connection** button on the **Database Manager** toolbar. 
+1. Click the **Add Connection** button on the **Database Manager** toolbar.
 
     [![](use-the-database-manager/_static/image2.jpg)](use-the-database-manager/_static/image1.jpg)
 
     *Figure 3: Database Manager*
 2. In the **Connection name** text box, type a *connection* *name*.
 3. In the **Database provider** list, select the *provider* that you would like to use to connect to the database. (For example, to connect to a SQL Server database, select the **System.Data.SqlClient** that ships with the Database Manager.)
-4. You will now be presented with a set of new fields that you must fill out. In the case of the SQL Server Provider, you must provide: 
+4. You will now be presented with a set of new fields that you must fill out. In the case of the SQL Server Provider, you must provide:
 
     - The server on which your database resides.
     - The name of your database.
@@ -99,17 +99,17 @@ To add a new connection using the Database Manager:
 The Database Manager is hosted within the IIS Manager.
 
 1. In **IIS Manager**, select the site, application, or virtual directory where your connection string is stored (for more information about creating a connection string, see [Add a Connection String to Your Web Application](#ConnString)). You can alternatively create a new connection in the **Database Manager** using the **Add Connection** button on the **Database Manager** toolbar (for more information, see [Add Connection Button](#AddConnButton)).
-2. In the **Features View**, double-click on the IIS **Database Manager** icon. 
+2. In the **Features View**, double-click on the IIS **Database Manager** icon.
 
     [![](use-the-database-manager/_static/image4.jpg)](use-the-database-manager/_static/image3.jpg)
 
     *Figure 5: Database Manager*
-3. If you have existing connection strings in your site, application, or virtual directory, you can see a node in the Database Manager representing each of these connection strings. 
+3. If you have existing connection strings in your site, application, or virtual directory, you can see a node in the Database Manager representing each of these connection strings.
 
     [![](use-the-database-manager/_static/image6.jpg)](use-the-database-manager/_static/image5.jpg)
 
     *Figure 6: Database Connections*
-4. In the **Database Manager** view, expand a connection node, and you are presented with more information: 
+4. In the **Database Manager** view, expand a connection node, and you are presented with more information:
 
     - Tables ([Working with Tables](https://go.microsoft.com/fwlink/?LinkId=145669))
     - Views ([Working with Views](https://go.microsoft.com/fwlink/?LinkId=145670))
@@ -132,7 +132,7 @@ The connection string includes the database server, database name, and user cred
     [![](use-the-database-manager/_static/image10.jpg)](use-the-database-manager/_static/image9.jpg)
 
     *###### Figure 8: Database Manager icon*
-3. Manage the database(s) by selecting the appropriate connection. 
+3. Manage the database(s) by selecting the appropriate connection.
 
     [![](use-the-database-manager/_static/image12.jpg)](use-the-database-manager/_static/image11.jpg)
 

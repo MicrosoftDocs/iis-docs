@@ -30,14 +30,14 @@ IManifestTrack pTrack
 ```cpp
 public:
 virtual IAsyncOperation<IBuffer^>^ DownloadFragmentAsync(
-[InAttribute] IChunkIter^ pChunkIter, 
+[InAttribute] IChunkIter^ pChunkIter,
 [InAttribute] IManifestTrack^ pTrack
 ) sealed
 ```
 
 ```jscript
 public final function DownloadFragmentAsync(
-pChunkIter : IChunkIter, 
+pChunkIter : IChunkIter,
 pTrack : IManifestTrack
 ) : IAsyncOperation<IBuffer>
 ```

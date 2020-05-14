@@ -60,5 +60,5 @@ virtual HRESULT ResizeOutputBuffer(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalRSCAQueryProvider Interface](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md)   
+ [IGlobalRSCAQueryProvider Interface](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md)
  [IGlobalRSCAQueryProvider::GetOutputBuffer Method](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md)

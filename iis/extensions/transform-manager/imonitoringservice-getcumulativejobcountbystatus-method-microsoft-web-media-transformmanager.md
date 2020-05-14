@@ -63,8 +63,8 @@ int GetCumulativeJobCountByStatus(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetCumulativeJobCountByStatus : 
-        status:JobStatus -> int 
+abstract GetCumulativeJobCountByStatus :
+        status:JobStatus -> int
 ```
 
 ```jscript

@@ -62,8 +62,8 @@ void TestConnection(
 ```
 
 ``` fsharp
-  member TestConnection : 
-        connectionObject:Object -> unit 
+  member TestConnection :
+        connectionObject:Object -> unit
 ```
 
 ```jscript

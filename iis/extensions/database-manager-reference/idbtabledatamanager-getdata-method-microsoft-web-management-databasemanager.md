@@ -61,16 +61,16 @@ QueryResult GetData(
 
 ```cpp
 QueryResult^ GetData(
-    String^ connectionString, 
-    String^ tableName, 
+    String^ connectionString,
+    String^ tableName,
     String^ schema
 )
 ```
 
 ```jscript
 function GetData(
-    connectionString : String, 
-    tableName : String, 
+    connectionString : String,
+    tableName : String,
     schema : String
 ) : QueryResult
 ```

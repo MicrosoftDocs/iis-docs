@@ -55,7 +55,7 @@ For additional information about installing Failed Request Tracing for IIS, see 
 1. Click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, select the server connection, site, application, or directory for which you want to configure failed request tracing.
 3. In the **Actions** pane, click **Failed Request Tracing...**
-4. Configure the following options In the **Edit Web Site Failed Request Tracing Settings** dialog box: 
+4. Configure the following options In the **Edit Web Site Failed Request Tracing Settings** dialog box:
 
     - Select the **Enable** check box to enable tracing.
     - Leave the default value or type a new directory where you want to store failed request log files in the **Directory** box.
@@ -125,7 +125,7 @@ The following steps will configure a failed request tracing rule for requests th
 4. Highlight the rule that you created in the previous example, and then click **Remove** in the **Actions** pane.
 5. In the **Actions** pane, click **Add...**
 6. On the **Specify Content to Trace** page of the **Add Failed Request Tracing Rule** Wizard, you would ordinarily select the content type you want to trace. In this case, accept the default for all content, and then click **Next**.
-7. On the **Define Trace Conditions** page: 
+7. On the **Define Trace Conditions** page:
 
     - Clear the box for **Status code(s)**.
     - Check the box for **Time taken (in seconds)**.
@@ -139,7 +139,7 @@ In this error condition, you will examine a page that loops endlessly. This prob
 
 [!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample3.html)]
 
-When you use a Web browser to browse to this file, you should see no error in your Web browser, but your browser may never return a page and will eventually time out. 
+When you use a Web browser to browse to this file, you should see no error in your Web browser, but your browser may never return a page and will eventually time out.
 
 > [!NOTE]
 > This page is written to exit the loop after you close your Web browser. If you want to exit the loop before the script timeout is reached, you should manually close your browser after ten seconds.

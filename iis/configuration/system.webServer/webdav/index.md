@@ -28,7 +28,7 @@ The `<webdav>` element contains the settings that configure Web Distributed Auth
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-> 
+>
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
 
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
@@ -170,7 +170,7 @@ None.
 The following example lists a sample `<webdav>` element for the Default Web Site. This example clears any existing authoring rules, adds a single rule for the administrators group, enables WebDAV authoring, specifies that hidden files are allowed, enables WebDAV locks and specifies the lock provider, and enables WebDAV properties and specifies the default XML namespace for property mapping.
 
 [!code-xml[Main](index/samples/sample1.xml)]
- 
+
 The following example lists a sample `<globalSettings>` element for a WebDAV server. This example defines the built-in simple providers for locks and properties, and enables WebDAV locks for the server.
 
 [!code-xml[Main](index/samples/sample2.xml)]

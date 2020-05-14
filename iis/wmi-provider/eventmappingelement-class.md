@@ -51,7 +51,7 @@ class EventMappingElement: CollectionElement
   
 ## See Also  
  [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes)
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
- [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)
+ [ProviderSettings Class](../wmi-provider/providersettings-class.md)
  [RuleSettings Class](../wmi-provider/rulesettings-class.md)

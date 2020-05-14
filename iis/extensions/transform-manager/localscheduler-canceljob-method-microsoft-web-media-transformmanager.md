@@ -63,10 +63,10 @@ virtual JobStatus CancelJob(
 ```
 
 ``` fsharp
-  abstract CancelJob : 
-        jobInstanceId:string -> JobStatus 
-override CancelJob : 
-        jobInstanceId:string -> JobStatus 
+  abstract CancelJob :
+        jobInstanceId:string -> JobStatus
+override CancelJob :
+        jobInstanceId:string -> JobStatus
 ```
 
 ```jscript

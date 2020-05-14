@@ -61,23 +61,23 @@ instance.SetTaskChildProcessId(jobInstanceId, _
 ```cpp
   public:
 virtual void SetTaskChildProcessId(
-    String^ jobInstanceId, 
+    String^ jobInstanceId,
     int childProcessId
 ) override
 ```
 
 ``` fsharp
-  abstract SetTaskChildProcessId : 
-        jobInstanceId:string * 
-        childProcessId:int -> unit 
-override SetTaskChildProcessId : 
-        jobInstanceId:string * 
-        childProcessId:int -> unit 
+  abstract SetTaskChildProcessId :
+        jobInstanceId:string *
+        childProcessId:int -> unit
+override SetTaskChildProcessId :
+        jobInstanceId:string *
+        childProcessId:int -> unit
 ```
 
 ```jscript
   public override function SetTaskChildProcessId(
-    jobInstanceId : String, 
+    jobInstanceId : String,
     childProcessId : int
 )
 ```

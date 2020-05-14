@@ -51,6 +51,6 @@ class WebControlsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.WebControls](/dotnet/api/system.web.configuration.systemwebsectiongroup.webcontrols) 
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [System.Web.Configuration.SystemWebSectionGroup.WebControls](/dotnet/api/system.web.configuration.systemwebsectiongroup.webcontrols)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [webControls Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67193)

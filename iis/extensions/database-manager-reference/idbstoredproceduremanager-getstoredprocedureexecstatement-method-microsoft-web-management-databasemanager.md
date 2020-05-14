@@ -64,18 +64,18 @@ Query GetStoredProcedureExecStatement(
 
 ```cpp
 Query^ GetStoredProcedureExecStatement(
-    String^ connectionString, 
-    String^ schema, 
-    String^ storedProcedureName, 
+    String^ connectionString,
+    String^ schema,
+    String^ storedProcedureName,
     IList<StoredProcedureParameter^>^ parameters
 )
 ```
 
 ```jscript
 function GetStoredProcedureExecStatement(
-    connectionString : String, 
-    schema : String, 
-    storedProcedureName : String, 
+    connectionString : String,
+    schema : String,
+    storedProcedureName : String,
     parameters : IList<StoredProcedureParameter>
 ) : Query
 ```

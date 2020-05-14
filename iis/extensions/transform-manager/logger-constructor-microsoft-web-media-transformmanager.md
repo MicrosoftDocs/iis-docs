@@ -61,20 +61,20 @@ Dim instance As New Logger(logFileName, _
 ```cpp
   public:
 Logger(
-    String^ logFileName, 
+    String^ logFileName,
     LogLevel level
 )
 ```
 
 ``` fsharp
-  new : 
-        logFileName:string * 
+  new :
+        logFileName:string *
         level:LogLevel -> Logger
 ```
 
 ```jscript
   public function Logger(
-    logFileName : String, 
+    logFileName : String,
     level : LogLevel
 )
 ```

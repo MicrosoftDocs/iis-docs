@@ -63,23 +63,23 @@ instance.UpdateStatus(percentComplete, _
 
 ```cpp
   void UpdateStatus(
-    int percentComplete, 
-    JobStatus status, 
+    int percentComplete,
+    JobStatus status,
     String^ message
 )
 ```
 
 ``` fsharp
-  abstract UpdateStatus : 
-        percentComplete:int * 
-        status:JobStatus * 
-        message:string -> unit 
+  abstract UpdateStatus :
+        percentComplete:int *
+        status:JobStatus *
+        message:string -> unit
 ```
 
 ```jscript
   function UpdateStatus(
-    percentComplete : int, 
-    status : JobStatus, 
+    percentComplete : int,
+    status : JobStatus,
     message : String
 )
 ```

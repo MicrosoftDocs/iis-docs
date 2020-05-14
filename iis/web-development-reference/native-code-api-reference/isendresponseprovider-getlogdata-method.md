@@ -60,6 +60,6 @@ virtual VOID* GetLogData(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
- [ISendResponseProvider::GetReadyToLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-getreadytologdata-method.md)   
+ [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)
+ [ISendResponseProvider::GetReadyToLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-getreadytologdata-method.md)
  [ISendResponseProvider::SetLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-setlogdata-method.md)

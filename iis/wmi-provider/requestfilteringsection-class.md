@@ -66,17 +66,17 @@ Set oRequestFilteringSection = objWMIService.Get( _
 ' Show the path.  
 WScript.Echo "[Request Filtering Path]"  
 WScript.Echo oRequestFilteringSection.Path_  
-WScript.Echo   
+WScript.Echo
   
 ' Show the AllowDoubleEscaping property as "True" or "False."  
 WScript.Echo "[AllowDoubleEscaping]"  
 WScript.Echo CStr(oRequestFilteringSection.AllowDoubleEscaping)  
-WScript.Echo   
+WScript.Echo
   
 ' Show the AllowHighBitCharacters property as "True" or "False."  
 WScript.Echo "[AllowHighBitCharacters]"  
 WScript.Echo CStr(oRequestFilteringSection.AllowHighBitCharacters)  
-WScript.Echo   
+WScript.Echo
   
 ' List the denied URL sequences.  
 WScript.Echo "[Denied Url Sequences]"  
@@ -84,7 +84,7 @@ For Each oSequence In _
     oRequestFilteringSection.DenyUrlSequences.DenyUrlSequences  
     WScript.Echo oSequence.Sequence  
 Next  
-WScript.Echo   
+WScript.Echo
   
 ' List the file extensions settings.  
 WScript.Echo "[File Extensions]"  
@@ -101,7 +101,7 @@ For Each oFileExtension In _
     WScript.Echo "File extension allowed: " & oFileExtension.Allowed  
     WScript.Echo  
 Next  
-WScript.Echo   
+WScript.Echo
   
 ' List the hidden segments.  
 WScript.Echo "[Hidden Segments]"  
@@ -109,7 +109,7 @@ For Each oHiddenSegment In _
     oRequestFilteringSection.HiddenSegments.HiddenSegments  
     WScript.Echo oHiddenSegment.Segment  
 Next  
-WScript.Echo   
+WScript.Echo
   
 ' Show the request limits settings.  
 WScript.Echo "[Request Limits]"  
@@ -117,7 +117,7 @@ WScript.Echo "maxAllowedContentLength: " & _
 oRequestFilteringSection.RequestLimits.maxAllowedContentLength  
 WScript.Echo "maxUrl: " & oRequestFilteringSection.RequestLimits.maxUrl  
 WScript.Echo "maxQueryString: " & oRequestFilteringSection.RequestLimits.maxQueryString  
-WScript.Echo   
+WScript.Echo
   
 ' Show the header limits settings.  
 WScript.Echo vbtab & "[Header Limits]"  
@@ -125,13 +125,13 @@ For Each oHeaderLimit In _
     oRequestFilteringSection.RequestLimits.HeaderLimits.HeaderLimits  
     WScript.Echo vbtab & "Header: " & oHeaderLimit.Header  
     WScript.Echo vbtab & "Header size limit: " & oHeaderLimit.SizeLimit  
-    WScript.Echo   
+    WScript.Echo
 Next  
   
 ' List the verbs settings.  
 WScript.Echo "[Verbs]"  
 WScript.Echo "Allow unlisted verbs: " & oRequestFilteringSection.Verbs.AllowUnlisted  
-WScript.Echo   
+WScript.Echo
   
 ' List each verb and show whether it is allowed.  
 For Each oVerb In oRequestFilteringSection.Verbs.Verbs  
@@ -159,14 +159,14 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [FileExtensionElement Class](../wmi-provider/fileextensionelement-class.md)   
- [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   
- [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)   
- [HiddenSegmentSettings Class](../wmi-provider/hiddensegmentsettings-class.md)   
- [\<requestFiltering>](https://msdn.microsoft.com/library/23af9c9d-50d3-4db8-918c-6214259aa59c)   
- [RequestLimitsElement Class](../wmi-provider/requestlimitselement-class.md)   
- [UrlSequence Class](../wmi-provider/urlsequence-class.md)   
- [UrlSequenceSettings Class](../wmi-provider/urlsequencesettings-class.md)   
- [VerbElement Class](../wmi-provider/verbelement-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [FileExtensionElement Class](../wmi-provider/fileextensionelement-class.md)
+ [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)
+ [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)
+ [HiddenSegmentSettings Class](../wmi-provider/hiddensegmentsettings-class.md)
+ [\<requestFiltering>](https://msdn.microsoft.com/library/23af9c9d-50d3-4db8-918c-6214259aa59c)
+ [RequestLimitsElement Class](../wmi-provider/requestlimitselement-class.md)
+ [UrlSequence Class](../wmi-provider/urlsequence-class.md)
+ [UrlSequenceSettings Class](../wmi-provider/urlsequencesettings-class.md)
+ [VerbElement Class](../wmi-provider/verbelement-class.md)
  [VerbsSettings Class](../wmi-provider/verbssettings-class.md)

@@ -62,8 +62,8 @@ public delegate void ManifestMergeHandler(
 ```
 
 ``` fsharp
-type ManifestMergeHandler = 
-    delegate of 
+type ManifestMergeHandler =
+    delegate of
         ssme:SmoothStreamingMediaElement -> unit
 ```
 

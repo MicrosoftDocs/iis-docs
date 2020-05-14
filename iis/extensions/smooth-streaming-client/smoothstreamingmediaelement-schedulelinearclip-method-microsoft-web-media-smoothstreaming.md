@@ -65,23 +65,23 @@ public ClipContext ScheduleLinearClip(
 ```cpp
 public:
 ClipContext^ ScheduleLinearClip(
-    ClipInformation^ clipInfo, 
-    TimeSpan manifestTimestamp, 
+    ClipInformation^ clipInfo,
+    TimeSpan manifestTimestamp,
     Object^ userData
 )
 ```
 
 ``` fsharp
-member ScheduleLinearClip : 
-        clipInfo:ClipInformation * 
-        manifestTimestamp:TimeSpan * 
-        userData:Object -> ClipContext 
+member ScheduleLinearClip :
+        clipInfo:ClipInformation *
+        manifestTimestamp:TimeSpan *
+        userData:Object -> ClipContext
 ```
 
 ```jscript
 public function ScheduleLinearClip(
-    clipInfo : ClipInformation, 
-    manifestTimestamp : TimeSpan, 
+    clipInfo : ClipInformation,
+    manifestTimestamp : TimeSpan,
     userData : Object
 ) : ClipContext
 ```

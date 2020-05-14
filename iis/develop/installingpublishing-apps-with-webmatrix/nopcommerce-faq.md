@@ -42,6 +42,6 @@ A: To publish a nopCommerce website, use the following steps:
 **Workaround:** 1) In WebMatrix, click Run to start nopCommerce locally.  
 2) Log into the administration page  
 3) Click the "System" menu  
-4) Click the "Log" option.   
+4) Click the "Log" option.
 5) Click the "Clear Log" button.  
 6) Publish nopCommerce again.

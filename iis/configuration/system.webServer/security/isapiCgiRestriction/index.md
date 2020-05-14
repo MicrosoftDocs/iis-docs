@@ -20,7 +20,7 @@ The `<isapiCgiRestriction>` element contains a collection of `<add>` elements. E
 
 For example, if you created an ASP.NET 2.0 application and configured the application to use an application pool that runs in Classic mode, any requests for the ASP.NET application must go through the aspnet\_isapi.dll to be processed. To make sure that IIS processes the ASP.NET requests, IIS populates the `<isapiCgiRestriction>` element with an `<add>` element that contains an allowed attribute with its value set to **true**.
 
-If you changed the allowed attribute to **false** and left the application pool in Classic mode, ASP.NET requests would fail. However, if you changed the application pool to Integrated mode, IIS processes the ASP.NET requests using the integrated request pipeline, which bypasses the ISAPI and CGI restriction you configured. 
+If you changed the allowed attribute to **false** and left the application pool in Classic mode, ASP.NET requests would fail. However, if you changed the application pool to Integrated mode, IIS processes the ASP.NET requests using the integrated request pipeline, which bypasses the ISAPI and CGI restriction you configured.
 
 The `<isapiCgiRestriction>` element works in tandem with the [&lt;applicationDependencies&gt;](../applicationdependencies/index.md) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions.
 
@@ -80,25 +80,25 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
 3. In the Windows Features dialog box, expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.
 4. Select **CGI** or **ISAPI Extensions**, and then click **OK**.  
     [![](index/_static/image8.png)](index/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 
 ### How to add an ISAPI or CGI restriction
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

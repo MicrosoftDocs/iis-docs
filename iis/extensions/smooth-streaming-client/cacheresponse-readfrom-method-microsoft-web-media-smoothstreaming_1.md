@@ -62,10 +62,10 @@ virtual void ReadFrom(
 ```
 
 ``` fsharp
-abstract ReadFrom : 
-        stream:Stream -> unit 
-override ReadFrom : 
-        stream:Stream -> unit 
+abstract ReadFrom :
+        stream:Stream -> unit
+override ReadFrom :
+        stream:Stream -> unit
 ```
 
 ```jscript

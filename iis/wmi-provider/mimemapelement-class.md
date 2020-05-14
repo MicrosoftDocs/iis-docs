@@ -66,5 +66,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [StaticContentSection Class](../wmi-provider/staticcontentsection-class.md)

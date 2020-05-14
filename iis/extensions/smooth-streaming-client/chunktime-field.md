@@ -22,7 +22,7 @@ Gets the chunk time info.
 
 ```csharp
 public long ChunkTime
- 
+
 ```
 
 ```cpp
@@ -32,7 +32,7 @@ long long ChunkTime
 
 ```jscript
 public var ChunkTime : long
- 
+
 ```
 
 ## Requirements

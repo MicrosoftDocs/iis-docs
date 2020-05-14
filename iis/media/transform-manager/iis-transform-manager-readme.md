@@ -25,7 +25,7 @@ This section describes the installation requirements for IIS Transform Manager 1
 
 The following prerequisites must be fulfilled to install IIS Transform Manager:
 
-- You must use IIS 7 running on one of the following operating systems: 
+- You must use IIS 7 running on one of the following operating systems:
 
   - Windows Server 2008 R2
   - Windows 7
@@ -109,7 +109,7 @@ This section describes the known issues for IIS Transform Manager 1.0.
      - `<endpoint address="net.tcp://localhost:59999/TransformManager/Management/mex"`
      - `<endpoint address="net.tcp://localhost:59999/TransformManager/Management/Monitoring"`
 
-- **Running encoding tasks**. Encoding tasks can consume large amounts of memory and CPU resources. If not enough memory and/or CPU processing power is available, Expression Encoder might display a generic message with error code 813A0002. Aside from adding additional memory and/or CPU, you can adjust the following watch folder settings to reduce resource consumption: 
+- **Running encoding tasks**. Encoding tasks can consume large amounts of memory and CPU resources. If not enough memory and/or CPU processing power is available, Expression Encoder might display a generic message with error code 813A0002. Aside from adding additional memory and/or CPU, you can adjust the following watch folder settings to reduce resource consumption:
 
   - Reduce the **Concurrent jobs** value for the watch folder so that fewer jobs run simultaneously.
   - Set **Priority** values for all of your configured watch folders. Low-priority watch folders must wait for all jobs to finish in high-priority watch folders before their jobs can start.

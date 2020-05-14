@@ -64,7 +64,7 @@ To configure job templates, do the following:
 
 1. In IIS Manager, in the **Connections** pane, click **Job Templates**.  
    ![](encrypting-on-demand-smooth-streams/_static/image1.png)
-2. In the **Job Templates** page, select the **Smooth Streams to encrypted Smooth Streams** job template or one of the other job templates that produces unencrypted Smooth Streaming output (for example, the **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template). 
+2. In the **Job Templates** page, select the **Smooth Streams to encrypted Smooth Streams** job template or one of the other job templates that produces unencrypted Smooth Streaming output (for example, the **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template).
 
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |

@@ -46,7 +46,7 @@ The following code shows a complete implementation of the class that implements 
 
         public ISO_StorageCache()
         {
-            IsolatedStorageFile isoFileArea = IsolatedStorageFile.GetUserStoreForApplication(); 
+            IsolatedStorageFile isoFileArea = IsolatedStorageFile.GetUserStoreForApplication();
 
             foreach (System.Collections.Generic.KeyValuePair<string, object> pair in IsolatedStorageSettings.ApplicationSettings)
             {
@@ -61,8 +61,8 @@ The following code shows a complete implementation of the class that implements 
             CacheAsyncResult ar = new CacheAsyncResult();
             ar.strUrl = request.CanonicalUri.ToString();
             ar.Complete(response, true);
-            return ar; 
-        }        
+            return ar;
+        }
 
         public CacheResponse EndRetrieve(IAsyncResult ar)
         {
@@ -77,9 +77,9 @@ The following code shows a complete implementation of the class that implements 
 
                 if (!string.IsNullOrEmpty(filename) && isoFileArea.FileExists(filename))
                 {
-                    IsolatedStorageFileStream stream = 
+                    IsolatedStorageFileStream stream =
                         isoFileArea.OpenFile(filename, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-                    response = new CacheResponse(stream); 
+                    response = new CacheResponse(stream);
                 }
             }
 
@@ -118,14 +118,14 @@ The following code shows a complete implementation of the class that implements 
                 if (((CacheResponse)(((CacheAsyncResult)ar).Result)).Response.Length < isoFileArea.AvailableFreeSpace)
                 {
                     string fileGuid = Guid.NewGuid().ToString();
- 
+
                     if (!keyUrls.ContainsValue(fileGuid) && !keyUrls.ContainsKey(((CacheAsyncResult)ar).strUrl))
                     {
-                        
+
                         IsolatedStorageFileStream isoFile = isoFileArea.CreateFile(fileGuid);
 
                         ((CacheResponse)(((CacheAsyncResult)ar).Result)).WriteTo(isoFile);
-                        isoFile.Close(); 
+                        isoFile.Close();
 
                         keyUrls.Add(((CacheAsyncResult)ar).strUrl, fileGuid);
                         // Save key/value pairs for playback after application restarts.
@@ -152,7 +152,7 @@ public IAsyncResult BeginRetrieve(CacheRequest request, AsyncCallback callback, 
     CacheAsyncResult ar = new CacheAsyncResult();
     ar.strUrl = request.CanonicalUri.ToString();
     ar.Complete(response, true);
-    return ar; 
+    return ar;
 }
 ```
 
@@ -176,7 +176,7 @@ The [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microso
 
             if (!string.IsNullOrEmpty(filename) && isoFileArea.FileExists(filename))
             {
-                IsolatedStorageFileStream stream = 
+                IsolatedStorageFileStream stream =
                     isoFileArea.OpenFile(filename, System.IO.FileMode.Open, System.IO.FileAccess.Read);
                 response = new CacheResponse(stream);
             }
@@ -245,14 +245,14 @@ The first if condition determines whether the CacheAsyncResult contains data. If
             if (((CacheResponse)(((CacheAsyncResult)ar).Result)).Response.Length < isoFileArea.AvailableFreeSpace)
             {
                 string fileGuid = Guid.NewGuid().ToString();
- 
+
                 if (!keyUrls.ContainsValue(fileGuid) && !keyUrls.ContainsKey(((CacheAsyncResult)ar).strUrl))
                 {
-                        
+
                     IsolatedStorageFileStream isoFile = isoFileArea.CreateFile(fileGuid);
 
                     ((CacheResponse)(((CacheAsyncResult)ar).Result)).WriteTo(isoFile);
-                    isoFile.Close(); 
+                    isoFile.Close();
 
                     keyUrls.Add(((CacheAsyncResult)ar).strUrl, fileGuid);
                     // Save key/value pairs for playback after application restarts.
@@ -273,7 +273,7 @@ The values in the second if block require casting to get the length of the respo
 
 The following code shows an implementation of [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\)). An instance of this class is passed from the [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method to [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md) and from the [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method to [EndPersist(IAsyncResult)](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md).
 
-``` 
+```
     public class CacheAsyncResult : IAsyncResult
     {
         public string strUrl { get; set; }

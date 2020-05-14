@@ -77,7 +77,7 @@ The installer automatically supplies information during installation, but you mu
     [![](install-zen-cart-on-iis/_static/image4.jpg)](install-zen-cart-on-iis/_static/image3.jpg)
 
     *Figure 2: Database setup*
-9. Next, you are prompted for *phpBB path* information. If you have the phpBB forum software already installed on your site, enable it for connectivity and synchronization from Zen Cart by specifying the path where the phpBB files are located. (For example, if the files are located in ...public\_html/forums, enter /forums in the Zen Cart installer for the path to the phpBB files.)   
+9. Next, you are prompted for *phpBB path* information. If you have the phpBB forum software already installed on your site, enable it for connectivity and synchronization from Zen Cart by specifying the path where the phpBB files are located. (For example, if the files are located in ...public\_html/forums, enter /forums in the Zen Cart installer for the path to the phpBB files.)
    If you do not have the phpBB forum software already installed on your site, select **No**.
 10. Complete the Store information about your e-commerce shop. Except for demonstration data, all of the information can also be (re)configured later in the administrator area of your shop.
 11. To install the demonstration data, select **Yes**, and then click **Save Store Settings**.

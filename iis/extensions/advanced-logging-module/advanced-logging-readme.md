@@ -28,7 +28,7 @@ This section describes the installation requirements for IIS Advanced Logging.
 
 The following prerequisites must be fulfilled to install IIS Advanced Logging:
 
-- You must use IIS 7 running on one of the following operating systems: 
+- You must use IIS 7 running on one of the following operating systems:
 
     - Windows Server 2008
     - Windows Server 2008 R2
@@ -38,7 +38,7 @@ The following prerequisites must be fulfilled to install IIS Advanced Logging:
 - You must be an administrator on the computer. This can be accomplished by logging on to the computer using either the Administrator account or an account with administrative privileges.
 
 > [!NOTE]
-> 
+>
 >  Advanced Logging cannot be installed if the previous version of the software (**IIS Advanced Logging 1.0 – Beta**) is installed on your computer. When you uninstall the Beta Advanced Logging software, your log definitions and any log files that have been created will be retained; however, other program settings may not be retained.
 
 To uninstall the software, in **Control Panel** &gt; **Programs** &gt; **Programs and Features**, under **Uninstall or change a program**, click **IIS Advanced Logging**, and then click **Uninstall**.
@@ -79,7 +79,7 @@ This section describes the known issues for IIS Advanced Logging.
     2. In the **Actions** pane, click **Restart**.
 
   This issue may occur if you change Advanced Logging settings while the feature is actively logging requests.
-- **Enabling and disabling logging for Web sites**. The Advanced Logging feature can be enabled or disabled at the server level in IIS Manager, which also enables or disables logging at lower levels (matching the server-level setting). If you want to disable logging for certain Web sites or directories, while enabling logging for others, enable the Advanced Logging feature at the server level, and then disable the log definition files for the Web sites/directories for which you want to disable logging. To disable a log definition, do the following: 
+- **Enabling and disabling logging for Web sites**. The Advanced Logging feature can be enabled or disabled at the server level in IIS Manager, which also enables or disables logging at lower levels (matching the server-level setting). If you want to disable logging for certain Web sites or directories, while enabling logging for others, enable the Advanced Logging feature at the server level, and then disable the log definition files for the Web sites/directories for which you want to disable logging. To disable a log definition, do the following:
 
     1. In the **Connections** pane, click the Web site or directory for which you want to disable logging.
     2. In the Web site or directory **Home** page, double-click the **Advanced Logging** icon.

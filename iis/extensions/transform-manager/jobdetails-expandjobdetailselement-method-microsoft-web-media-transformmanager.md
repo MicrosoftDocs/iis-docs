@@ -56,7 +56,7 @@ XElement^ ExpandJobDetailsElement()
 ```
 
 ``` fsharp
-  member ExpandJobDetailsElement : unit -> XElement 
+  member ExpandJobDetailsElement : unit -> XElement
 ```
 
 ```jscript

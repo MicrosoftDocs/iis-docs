@@ -50,6 +50,6 @@ class VerbsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)
  [VerbElement Class](../wmi-provider/verbelement-class.md)

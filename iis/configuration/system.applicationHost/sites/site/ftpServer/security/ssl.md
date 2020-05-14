@@ -42,7 +42,7 @@ Depending on the security options that you configure in the `controlChannelPolic
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-> 
+>
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
@@ -70,10 +70,10 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-3. Expand **Internet Information Services**, and then select **FTP Server**.   
+3. Expand **Internet Information Services**, and then select **FTP Server**.
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](ssl/_static/image4.png)](ssl/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -101,16 +101,16 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](ssl/_static/image8.png)](ssl/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
 
-1. Download the installation package from the following URL: 
+1. Download the installation package from the following URL:
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-2. Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service:
 
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
@@ -119,19 +119,19 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 ### How to configure SSL options for an FTP site
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -140,18 +140,18 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](ssl/_static/image10.png)](ssl/_static/image9.png)
 4. From the **SSL Certificate** list, select the certificate that you want to use for connections to the FTP server.  
     [![](ssl/_static/image12.png)](ssl/_static/image11.png)
-5. Under **SSL Policy**, select one of the following options: 
+5. Under **SSL Policy**, select one of the following options:
 
     - **Allow SSL connections**: Allows the FTP server to support both non-SSL and SSL connections with a client.
     - **Require SSL connections**: Requires SSL encryption for communication between the FTP server and a client.
-    - **Custom**: Enables you to configure a different SSL encryption policy for the control channel and the data channel. If you choose this option, click the **Advanced...** button. When the **Advanced SSL Policy** dialog box opens, select the following options: 
+    - **Custom**: Enables you to configure a different SSL encryption policy for the control channel and the data channel. If you choose this option, click the **Advanced...** button. When the **Advanced SSL Policy** dialog box opens, select the following options:
 
-        - Under **Control Channel** select one of the following options for SSL encryption over the control channel: 
+        - Under **Control Channel** select one of the following options for SSL encryption over the control channel:
 
             - **Allow**: Specifies that SSL is allowed for the control channel; an FTP client may use SSL for the control channel, but it is not required.
             - **Require**: Specifies that SSL is required for the control channel; an FTP client may not switch to a non-secure mode of communication for the control channel.
             - **Require only for credentials**: Specifies that only the user credentials have to be sent over SSL session; an FTP client must use SSL for their user name and password, but the client is not required to use SSL for the control channel after they have logged in.
-        - Under **Data Channel**, select one of the following options for SSL encryption over the data channel: 
+        - Under **Data Channel**, select one of the following options for SSL encryption over the data channel:
 
             - **Allow**: SSL is allowed for the data channel; an FTP client may use SSL for the data channel, but it is not required.
             - **Require**: SSL is required for the data channel; an FTP client may not switch to a non-secure mode of communication for the data channel.

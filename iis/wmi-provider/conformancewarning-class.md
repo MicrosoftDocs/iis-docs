@@ -50,7 +50,7 @@ class ConformanceWarning : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [ConformanceWarningSettings Class](../wmi-provider/conformancewarningsettings-class.md)   
- [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [ConformanceWarningSettings Class](../wmi-provider/conformancewarningsettings-class.md)
+ [WebServicesSection Class](../wmi-provider/webservicessection-class.md)
  [Basic Profile Version 1.1 (WS-I)](https://go.microsoft.com/fwlink/?LinkId=69313)

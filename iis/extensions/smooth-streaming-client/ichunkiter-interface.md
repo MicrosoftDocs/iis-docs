@@ -21,7 +21,7 @@ ChunkIter interface.
 ## Syntax
 
 ```csharp
-[GuidAttribute(, , , , , , , , , , )] 
+[GuidAttribute(, , , , , , , , , , )]
 
 [VersionAttribute()]
 
@@ -29,7 +29,7 @@ public interface IChunkIter
 ```
 
 ```cpp
-[GuidAttribute(, , , , , , , , , , )] 
+[GuidAttribute(, , , , , , , , , , )]
 
 [VersionAttribute()]
 

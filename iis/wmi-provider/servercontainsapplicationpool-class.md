@@ -41,6 +41,6 @@ class ServerContainsApplicationPool : ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
+ [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
  [Server Class](../wmi-provider/server-class.md)

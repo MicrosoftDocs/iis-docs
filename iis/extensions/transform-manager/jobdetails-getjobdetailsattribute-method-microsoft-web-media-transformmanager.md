@@ -62,8 +62,8 @@ static String^ GetJobDetailsAttribute(
 ```
 
 ``` fsharp
-  static member GetJobDetailsAttribute : 
-        field:JobDetailsField -> string 
+  static member GetJobDetailsAttribute :
+        field:JobDetailsField -> string
 ```
 
 ```jscript

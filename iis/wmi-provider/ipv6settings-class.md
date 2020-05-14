@@ -43,5 +43,5 @@ class Ipv6Settings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [SettingsSection Class](../wmi-provider/settingssection-class.md)

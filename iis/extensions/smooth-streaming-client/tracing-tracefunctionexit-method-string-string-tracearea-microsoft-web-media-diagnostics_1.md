@@ -61,23 +61,23 @@ public static void TraceFunctionExit(
 ```cpp
 public:
 static void TraceFunctionExit(
-    String^ className, 
-    String^ methodName, 
+    String^ className,
+    String^ methodName,
     TraceArea traceArea
 )
 ```
 
 ``` fsharp
-static member TraceFunctionExit : 
-        className:string * 
-        methodName:string * 
-        traceArea:TraceArea -> unit 
+static member TraceFunctionExit :
+        className:string *
+        methodName:string *
+        traceArea:TraceArea -> unit
 ```
 
 ```jscript
 public static function TraceFunctionExit(
-    className : String, 
-    methodName : String, 
+    className : String,
+    methodName : String,
     traceArea : TraceArea
 )
 ```

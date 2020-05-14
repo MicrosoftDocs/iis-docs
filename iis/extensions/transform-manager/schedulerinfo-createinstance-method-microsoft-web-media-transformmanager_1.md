@@ -54,7 +54,7 @@ Scheduler^ CreateInstance()
 ```
 
 ``` fsharp
-  member CreateInstance : unit -> Scheduler 
+  member CreateInstance : unit -> Scheduler
 ```
 
 ```jscript

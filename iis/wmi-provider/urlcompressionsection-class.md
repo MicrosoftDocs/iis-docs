@@ -85,5 +85,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)

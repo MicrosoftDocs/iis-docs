@@ -46,6 +46,6 @@ virtual VOID NotifyFileChange(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
- [CGlobalModule::OnGlobalFileChange Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
+ [CGlobalModule::OnGlobalFileChange Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md)
  [Request-Processing Constants](../../web-development-reference/native-code-api-reference/request-processing-constants.md)

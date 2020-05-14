@@ -58,7 +58,7 @@ bool IsServiceInitialized()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract IsServiceInitialized : unit -> bool 
+abstract IsServiceInitialized : unit -> bool
 ```
 
 ```jscript

@@ -66,11 +66,11 @@ virtual JobDetails^ GetJobDetailsById(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobDetailsById : 
-        jobId:string -> JobDetails 
+abstract GetJobDetailsById :
+        jobId:string -> JobDetails
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobDetailsById : 
-        jobId:string -> JobDetails 
+override GetJobDetailsById :
+        jobId:string -> JobDetails
 ```
 
 ```jscript

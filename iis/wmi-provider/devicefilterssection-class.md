@@ -57,6 +57,6 @@ class DeviceFiltersSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [DeviceFilter Class](../wmi-provider/devicefilter-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [DeviceFilter Class](../wmi-provider/devicefilter-class.md)
  [System.Web.Mobile.MobileCapabilities Class](https://go.microsoft.com/fwlink/?LinkId=69325)

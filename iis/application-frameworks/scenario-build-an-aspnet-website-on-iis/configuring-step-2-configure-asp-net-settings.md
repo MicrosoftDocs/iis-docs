@@ -39,7 +39,7 @@ The following sections describe how to configure session state based on the plan
 1. Open IIS Manager and navigate to the level you want to manage.
 2. In **Features View**, double-click **Session State**.
 3. On the **Session State** page, in the **Session State Mode Settings** area, click **In process**.
-4. (Optional) Configure cookie settings in the **Cookie Settings** area on the **Session State** page. 
+4. (Optional) Configure cookie settings in the **Cookie Settings** area on the **Session State** page.
 
     For more information about cookie settings, see [Cookie Mode for Session State](#214).
 5. In the **Time-out** field, enter a time-out value in the format hh:mm:ss. For example, enter 00:15:00 for 15 minutes.

@@ -61,8 +61,8 @@ static void DisableTraceArea(
 ```
 
 ``` fsharp
-static member DisableTraceArea : 
-        traceArea:TraceArea -> unit 
+static member DisableTraceArea :
+        traceArea:TraceArea -> unit
 ```
 
 ```jscript

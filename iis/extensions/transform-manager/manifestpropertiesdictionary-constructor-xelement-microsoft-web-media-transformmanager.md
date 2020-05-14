@@ -59,7 +59,7 @@ ManifestPropertiesDictionary(
 ```
 
 ``` fsharp
-  new : 
+  new :
         properties:XElement -> ManifestPropertiesDictionary
 ```
 

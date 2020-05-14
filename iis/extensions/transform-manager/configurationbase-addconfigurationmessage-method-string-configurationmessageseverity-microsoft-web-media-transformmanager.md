@@ -59,20 +59,20 @@ instance.AddConfigurationMessage(message, _
 ```cpp
   public:
 void AddConfigurationMessage(
-    String^ message, 
+    String^ message,
     ConfigurationMessageSeverity severity
 )
 ```
 
 ``` fsharp
-  member AddConfigurationMessage : 
-        message:string * 
-        severity:ConfigurationMessageSeverity -> unit 
+  member AddConfigurationMessage :
+        message:string *
+        severity:ConfigurationMessageSeverity -> unit
 ```
 
 ```jscript
   public function AddConfigurationMessage(
-    message : String, 
+    message : String,
     severity : ConfigurationMessageSeverity
 )
 ```

@@ -64,25 +64,25 @@ public bool TestConnection(
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual bool TestConnection(
-    JobScheduler^ scheduler, 
+    JobScheduler^ scheduler,
     Credential^ credential
 ) sealed
 ```
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract TestConnection : 
-        scheduler:JobScheduler * 
-        credential:Credential -> bool 
+abstract TestConnection :
+        scheduler:JobScheduler *
+        credential:Credential -> bool
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override TestConnection : 
-        scheduler:JobScheduler * 
-        credential:Credential -> bool 
+override TestConnection :
+        scheduler:JobScheduler *
+        credential:Credential -> bool
 ```
 
 ```jscript
   public final function TestConnection(
-    scheduler : JobScheduler, 
+    scheduler : JobScheduler,
     credential : Credential
 ) : boolean
 ```

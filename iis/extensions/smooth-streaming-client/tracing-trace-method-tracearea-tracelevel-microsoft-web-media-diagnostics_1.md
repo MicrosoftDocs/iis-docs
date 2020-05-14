@@ -57,20 +57,20 @@ public static void Trace(
 ```cpp
 public:
 static void Trace(
-    TraceArea traceArea, 
+    TraceArea traceArea,
     TraceLevel traceLevel
 )
 ```
 
 ``` fsharp
-static member Trace : 
-        traceArea:TraceArea * 
-        traceLevel:TraceLevel -> unit 
+static member Trace :
+        traceArea:TraceArea *
+        traceLevel:TraceLevel -> unit
 ```
 
 ```jscript
 public static function Trace(
-    traceArea : TraceArea, 
+    traceArea : TraceArea,
     traceLevel : TraceLevel
 )
 ```

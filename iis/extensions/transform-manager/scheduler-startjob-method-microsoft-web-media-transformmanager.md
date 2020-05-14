@@ -63,8 +63,8 @@ virtual JobStatus StartJob(
 ```
 
 ``` fsharp
-  abstract StartJob : 
-        jobInstanceId:string -> JobStatus 
+  abstract StartJob :
+        jobInstanceId:string -> JobStatus
 ```
 
 ```jscript

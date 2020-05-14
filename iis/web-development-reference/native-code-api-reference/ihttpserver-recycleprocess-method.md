@@ -48,5 +48,5 @@ virtual VOID RecycleProcess(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IHttpServer::RecycleApplication Method](../../web-development-reference/native-code-api-reference/ihttpserver-recycleapplication-method.md)

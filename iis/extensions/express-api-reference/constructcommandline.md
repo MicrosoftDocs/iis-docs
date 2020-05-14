@@ -10,11 +10,11 @@ Returns the command line that starts an IIS Express instance using the specified
   
 ```cpp  
     HRESULT  
-    ConstructCommandLine(   
+    ConstructCommandLine(
         [in] BSTR bstrSite,  
         [in] BSTR bstrApplication,  
-        [in] BSTR bstrApplicationPool,   
-        [in] BSTR bstrConfigPath,   
+        [in] BSTR bstrApplicationPool,
+        [in] BSTR bstrConfigPath,
         [out, retval] BSTR * pbstrCommandLine  
     );  
   
@@ -50,5 +50,5 @@ Returns the command line that starts an IIS Express instance using the specified
  `HRESULT`  
   
 ## See Also  
- [GetRunningProcessForSite](../../extensions/express-api-reference/getrunningprocessforsite.md)   
+ [GetRunningProcessForSite](../../extensions/express-api-reference/getrunningprocessforsite.md)
  [StopProcess](../../extensions/express-api-reference/stopprocess.md)

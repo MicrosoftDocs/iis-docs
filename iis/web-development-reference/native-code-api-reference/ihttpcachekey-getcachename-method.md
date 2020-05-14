@@ -70,5 +70,5 @@ IHttpCacheKey::GetCacheName: URI
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCacheKey Interface](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)   
+ [IHttpCacheKey Interface](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

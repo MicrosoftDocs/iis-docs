@@ -44,6 +44,6 @@ class HiddenSegmentSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)
  [SegmentElement Class](../wmi-provider/segmentelement-class.md)

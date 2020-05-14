@@ -62,8 +62,8 @@ bool EndPersist(
 ```
 
 ``` fsharp
-abstract EndPersist : 
-        ar:IAsyncResult -> bool 
+abstract EndPersist :
+        ar:IAsyncResult -> bool
 ```
 
 ```jscript
@@ -87,7 +87,7 @@ Returns true if successful, otherwise false.
 
 The following code shows an implementation of the EndPersist(IAsyncResult) method.
 
-``` 
+```
     public bool EndPersist(IAsyncResult ar)
     {
         ar.AsyncWaitHandle.WaitOne();
@@ -99,14 +99,14 @@ The following code shows an implementation of the EndPersist(IAsyncResult) metho
             if (((CacheResponse)(((CacheAsyncResult)ar).Result)).Response.Length < isoFileArea.AvailableFreeSpace)
             {
                 string fileGuid = Guid.NewGuid().ToString();
- 
+
                 if (!keyUrls.ContainsValue(fileGuid) && !keyUrls.ContainsKey(((CacheAsyncResult)ar).strUrl))
                 {
-                        
+
                     IsolatedStorageFileStream isoFile = isoFileArea.CreateFile(fileGuid);
 
                     ((CacheResponse)(((CacheAsyncResult)ar).Result)).WriteTo(isoFile);
-                    isoFile.Close(); 
+                    isoFile.Close();
 
                     keyUrls.Add(((CacheAsyncResult)ar).strUrl, fileGuid);
                     // Save key/value pairs for playback after application restarts.

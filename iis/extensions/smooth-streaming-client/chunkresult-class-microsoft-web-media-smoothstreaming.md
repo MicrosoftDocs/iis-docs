@@ -85,7 +85,7 @@ The ChunkResult type exposes the following members.
 
 The following example shows the call to the [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) method and return of a ChunkResult object that contains the results data and indicates success or failure. For more information on this asynchronous scenario, see [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-and-events.md).
 
-``` 
+```
     foreach (TrackInfo trackInfo in streamInfo.SelectedTracks)
     {
         ChunkResult chunkResult = trackInfo.EndGetChunk(argAR);

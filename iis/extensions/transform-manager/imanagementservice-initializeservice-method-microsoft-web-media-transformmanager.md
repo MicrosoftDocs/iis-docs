@@ -65,8 +65,8 @@ bool InitializeService(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract InitializeService : 
-        serviceCredential:Credential -> bool 
+abstract InitializeService :
+        serviceCredential:Credential -> bool
 ```
 
 ```jscript

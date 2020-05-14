@@ -61,20 +61,20 @@ public static ManifestInfo ParseManifest(
 ```cpp
 public:
 static ManifestInfo^ ParseManifest(
-    Stream^ manifestStream, 
+    Stream^ manifestStream,
     Uri^ manifestUri
 )
 ```
 
 ``` fsharp
-static member ParseManifest : 
-        manifestStream:Stream * 
-        manifestUri:Uri -> ManifestInfo 
+static member ParseManifest :
+        manifestStream:Stream *
+        manifestUri:Uri -> ManifestInfo
 ```
 
 ```jscript
 public static function ParseManifest(
-    manifestStream : Stream, 
+    manifestStream : Stream,
     manifestUri : Uri
 ) : ManifestInfo
 ```

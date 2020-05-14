@@ -64,23 +64,23 @@ public void SetPlaybackRangeAsync(
 ```cpp
 public:
 void SetPlaybackRangeAsync(
-    TimeSpan leftEdge, 
-    TimeSpan rightEdge, 
+    TimeSpan leftEdge,
+    TimeSpan rightEdge,
     Object^ userState
 )
 ```
 
 ``` fsharp
-member SetPlaybackRangeAsync : 
-        leftEdge:TimeSpan * 
-        rightEdge:TimeSpan * 
-        userState:Object -> unit 
+member SetPlaybackRangeAsync :
+        leftEdge:TimeSpan *
+        rightEdge:TimeSpan *
+        userState:Object -> unit
 ```
 
 ```jscript
 public function SetPlaybackRangeAsync(
-    leftEdge : TimeSpan, 
-    rightEdge : TimeSpan, 
+    leftEdge : TimeSpan,
+    rightEdge : TimeSpan,
     userState : Object
 )
 ```

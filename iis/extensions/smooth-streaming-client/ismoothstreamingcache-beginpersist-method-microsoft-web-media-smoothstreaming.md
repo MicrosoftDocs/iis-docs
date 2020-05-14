@@ -66,18 +66,18 @@ returnValue = instance.BeginPersist(request, _
 
 ```cpp
   IAsyncResult^ BeginPersist(
-    CacheRequest^ request, 
-    CacheResponse^ response, 
-    AsyncCallback^ callback, 
+    CacheRequest^ request,
+    CacheResponse^ response,
+    AsyncCallback^ callback,
     Object^ state
 )
 ```
 
 ```jscript
   function BeginPersist(
-    request : CacheRequest, 
-    response : CacheResponse, 
-    callback : AsyncCallback, 
+    request : CacheRequest,
+    response : CacheResponse,
+    callback : AsyncCallback,
     state : Object
 ) : IAsyncResult
 ```
@@ -121,7 +121,7 @@ For documentation of the sample, see [Cache Plug-in Implementation of ISmoothStr
 
 The following code shows an implementation of the BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object) method.
 
-``` 
+```
     public IAsyncResult BeginPersist(CacheRequest request, CacheResponse response, AsyncCallback callback, object state)
     {
         state = false;

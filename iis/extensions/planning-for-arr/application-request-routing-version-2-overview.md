@@ -27,7 +27,7 @@ ARR Version 2 is an incremental release that includes all of the features from V
 
 > [!NOTE]
 >  
-> 
+>
 > - ARR Version 1 and ARR Version 2 cannot be installed side-by-side.
 > - Previous releases of ARR Version 2 (Beta1, Beta2 and RC) and the ARR Version 2 RTW cannot be installed side-by-side.
 > - ARR Version 2 RTW supports upgrading from ARR Version 1 RTW and from ARR Version 2 RC. If any other version of ARR is already installed, uninstall it before proceeding with the ARR Version 2 installation.

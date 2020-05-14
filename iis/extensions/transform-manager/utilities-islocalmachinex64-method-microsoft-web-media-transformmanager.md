@@ -55,7 +55,7 @@ static bool IsLocalMachineX64()
 ```
 
 ``` fsharp
-  static member IsLocalMachineX64 : unit -> bool 
+  static member IsLocalMachineX64 : unit -> bool
 ```
 
 ```jscript

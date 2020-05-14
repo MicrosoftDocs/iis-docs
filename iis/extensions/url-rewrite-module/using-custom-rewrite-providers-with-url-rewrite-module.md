@@ -36,11 +36,11 @@ There are 3 rewrite providers included in the installation package:
 In order to use the sample providers in the rewrite rules the providers must be registered with IIS. To register a provider you can use the IIS Manager user interface:
 
 1. Open URL Rewrite feature in IIS Manager;
-2. Select the "View Providers..." action in the "Actions" pane on right hand side;   
+2. Select the "View Providers..." action in the "Actions" pane on right hand side;
     [![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image4.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image3.png)
 3. Select the "Add Provider..." action in the "Actions" pane;
 4. In the "Add Provider" dialog, enter the name that you want to use for this provider when referring to it from a rewrite rule.
-5. After that choose the corresponding .NET type for the provider in the "Managed Type" drop down list. Note that it may take some time for the provider types to appear there.   
+5. After that choose the corresponding .NET type for the provider in the "Managed Type" drop down list. Note that it may take some time for the provider types to appear there.
     [![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image6.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image5.png)
 6. Repeat the above steps to register all three providers.
 
@@ -70,7 +70,7 @@ Configure the DbProvider instance to call the stored procedure:
 
 Use the following values for the provider settings:
 
-- **SQL Server connection string**: provide a SQL Server connection string, for example:   
+- **SQL Server connection string**: provide a SQL Server connection string, for example:
  "Data Source=servername\sqlexpress;Initial Catalog=RewriteDB;Integrated Security=True"
 - **Stored procedure name**: GetRewrittenUrl
 - **Cache minutes interval**: set to 0 if values in the SQL table do not change, or set to a positive integer so that provider periodically refreshes the module's internal rewrite cache. If not specified the value of 0 is assumed.

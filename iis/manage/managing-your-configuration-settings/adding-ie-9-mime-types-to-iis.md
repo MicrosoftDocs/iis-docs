@@ -33,13 +33,13 @@ To add these MIME types to your IIS server, you can:
 
 You can also use the script included in this article to add the MIME Types on versions of Windows including Windows 2000 and later. The script uses WMI, and will add the MIME types on either a local or remote server.
 
-**To add MIME types for IE 9 to your IIS server using the AddMimeTypes script:** 
+**To add MIME types for IE 9 to your IIS server using the AddMimeTypes script:**
 
 1. Create a new script file using your authoring tool or a text editor.
 2. Copy the contents of the script file from the following section.
 3. Paste the contents of the script into your new script file.
 4. Save the script file as AddMimeTypes.vbs.
-5. At a Command Prompt, type the following command: 
+5. At a Command Prompt, type the following command:
 
     [!code-console[Main](adding-ie-9-mime-types-to-iis/samples/sample1.cmd)]
 

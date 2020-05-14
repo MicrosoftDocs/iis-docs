@@ -57,20 +57,20 @@ Dim instance As New ManifestProperty(name, value)
 ```cpp
   public:
 ManifestProperty(
-    XName^ name, 
+    XName^ name,
     XElement^ value
 )
 ```
 
 ``` fsharp
-  new : 
-        name:XName * 
+  new :
+        name:XName *
         value:XElement -> ManifestProperty
 ```
 
 ```jscript
   public function ManifestProperty(
-    name : XName, 
+    name : XName,
     value : XElement
 )
 ```

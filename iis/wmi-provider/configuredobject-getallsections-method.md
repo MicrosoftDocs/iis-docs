@@ -95,5 +95,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
  [ConfiguredObject.GetSection Method](../wmi-provider/configuredobject-getsection-method.md)

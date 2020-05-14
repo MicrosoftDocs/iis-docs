@@ -21,15 +21,15 @@ So far, we have configured Web Deploy on a server so non-administrators can depl
 2. Click the ContsoUniversity Web Application Project (WAP)
 3. Click the Publish dropdown in the toolbar and click "New…"  
      [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image2.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image1.png)
-4. Fill in the dialog as below: 
+4. Fill in the dialog as below:
 
    1. Service URL. This is perhaps the most important component of this whole screen. Since we are deploying as Administrator, we can simply deploy using the Remote Agent Service. Entering a URL of the form http://{serverName} causes Visual Studio 2010 to deploy using the Remote Agent Service. Not the HTTP prefix.
    2. Site/application. This is the name of the IIS site and application we are deploying to. For now, we will just deploy to Default Web Site.
-   3. Enter Administrator in User name and the password for the Administrator user on the server.   
+   3. Enter Administrator in User name and the password for the Administrator user on the server.
        [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image4.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image3.png)
 5. Click Publish. The Output window will show the deployment as it proceeds. Notice that Visual Studio 2010 is indeed deploying your application over the Remote Agent Service:  
     [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image6.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image5.png)
-6. If your application does not render in a browser, you may be running into one of two common problems: 
+6. If your application does not render in a browser, you may be running into one of two common problems:
 
     1. Check that the remote application pool is set to the correct .NET version (4.0 in this case)
     2. Check if you have all of the application's dependencies installed on the remote. In this case, we need ASP.NET MVC and SQL Server Compact on the remote. Since they can be bin-deployed by Visual Studio 2010, we right-click the WAP and click "Add Deployable Dependencies". Check the two dependencies and re-publish:  
@@ -59,12 +59,12 @@ Visual Studio 2010 SP1 does not consume this settings file, but WebMatrix can us
 
 1. Copy the settings file to a computer where WebMatrix is installed
 2. Start WebMatrix
-3. Click **Site from Template** and click **Bakery** to create a very simple ASP.NET site.   
+3. Click **Site from Template** and click **Bakery** to create a very simple ASP.NET site.
     [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image16.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image15.png)  
     [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix-1080-image82.jpeg)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix-1080-image81.jpeg)
-4. Click **Publish   
+4. Click **Publish
 [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image18.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image17.png)**
-5. Click **Import publish settings** and import the settings file   
+5. Click **Import publish settings** and import the settings file
     [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image20.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image19.png)
 6. Click **Save** to publish the application.
 

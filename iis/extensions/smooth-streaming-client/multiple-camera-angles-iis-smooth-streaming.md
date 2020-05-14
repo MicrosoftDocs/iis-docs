@@ -22,114 +22,114 @@ In the client manifest, QualityLevel elements represent video, audio, and text t
 The following example shows a manifest segment that applies the CameraAngle custom attribute to QualityLevel elements in conjunction with the Bitrate attribute in order to specify various bitrates of the tracks that represent Camera1 and Camera2.
 
 ``` xml
-<?xml version="1.0" encoding="utf-16" ?> 
+<?xml version="1.0" encoding="utf-16" ?>
 <SmoothStreamingMedia MajorVersion="2" MinorVersion="0" Duration="2997995000">
-  <StreamIndex Type="video" 
-      Chunks="150" 
-      QualityLevels="35" 
-      MaxWidth="1280" 
-      MaxHeight="720" 
-      DisplayWidth="1280" 
+  <StreamIndex Type="video"
+      Chunks="150"
+      QualityLevels="35"
+      MaxWidth="1280"
+      MaxHeight="720"
+      DisplayWidth="1280"
       DisplayHeight="720"
       Url="QualityLevels({bitrate},{CustomAttributes})/Fragments(video={start time})">
-    <QualityLevel Index="0" Bitrate="3450000" FourCC="WVC1" 
+    <QualityLevel Index="0" Bitrate="3450000" FourCC="WVC1"
         MaxWidth="1280" MaxHeight="720"
         CodecPrivateData="250000010FD3FE27F1678A27F859E80C9082E948C1CD400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera1" /> 
+        <Attribute Name="CameraAngle" Value="Camera1" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="1" Bitrate="2250000" FourCC="WVC1" 
+    <QualityLevel Index="1" Bitrate="2250000" FourCC="WVC1"
         MaxWidth="960" MaxHeight="540"
         CodecPrivateData="250000010FD3FE1DF10D8A1DF843680C908244A9D5D4400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera1" /> 
+        <Attribute Name="CameraAngle" Value="Camera1" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="2" Bitrate="1500000" FourCC="WVC1" 
+    <QualityLevel Index="2" Bitrate="1500000" FourCC="WVC1"
         MaxWidth="720" MaxHeight="404"
         CodecPrivateData="250000010FCBEE1670C98A167832680C9081ADC67270400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera1" /> 
+        <Attribute Name="CameraAngle" Value="Camera1" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="3" Bitrate="950000" FourCC="WVC1" 
+    <QualityLevel Index="3" Bitrate="950000" FourCC="WVC1"
         MaxWidth="544" MaxHeight="304"
         CodecPrivateData="250000010FCBDC10F0978A10F825E80C90819CFD487A400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera1" /> 
+        <Attribute Name="CameraAngle" Value="Camera1" />
       </CustomAttributes>
     </QualityLevel>
-      <QualityLevel Index="4" Bitrate="600000" FourCC="WVC1" 
+      <QualityLevel Index="4" Bitrate="600000" FourCC="WVC1"
         MaxWidth="400" MaxHeight="224"
         CodecPrivateData="250000010FC3D20C706F8A0C781BE80C9081124F5B8D400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera1" /> 
+        <Attribute Name="CameraAngle" Value="Camera1" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="5" Bitrate="350000" FourCC="WVC1" 
+    <QualityLevel Index="5" Bitrate="350000" FourCC="WVC1"
         MaxWidth="288" MaxHeight="160"
         CodecPrivateData="250000010FC3CA08F04F8A08F813E80C90808AADEACF400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera1" /> 
+        <Attribute Name="CameraAngle" Value="Camera1" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="6" Bitrate="50000" FourCC="WVC1" 
+    <QualityLevel Index="6" Bitrate="50000" FourCC="WVC1"
         MaxWidth="112" MaxHeight="64"
         CodecPrivateData="250000010FC2C003701F8A037807EC077D08001861E8440000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera1" /> 
+        <Attribute Name="CameraAngle" Value="Camera1" />
       </CustomAttributes>
       </QualityLevel>
-    <QualityLevel Index="7" Bitrate="3450000" FourCC="WVC1" 
+    <QualityLevel Index="7" Bitrate="3450000" FourCC="WVC1"
         MaxWidth="1280" MaxHeight="720"
         CodecPrivateData="250000010FD3FE27F1678A27F859E80C9082E948C1CD400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera2" /> 
+        <Attribute Name="CameraAngle" Value="Camera2" />
         </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="8" Bitrate="2250000" FourCC="WVC1" 
+    <QualityLevel Index="8" Bitrate="2250000" FourCC="WVC1"
         MaxWidth="960" MaxHeight="540"
         CodecPrivateData="250000010FD3FE1DF10D8A1DF843680C908244A9D5D4400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera2" /> 
+        <Attribute Name="CameraAngle" Value="Camera2" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="9" Bitrate="1500000" FourCC="WVC1" 
+    <QualityLevel Index="9" Bitrate="1500000" FourCC="WVC1"
         MaxWidth="720" MaxHeight="404"
         CodecPrivateData="250000010FCBEE1670C98A167832680C9081ADC67270400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera2" /> 
+        <Attribute Name="CameraAngle" Value="Camera2" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="10" Bitrate="950000" FourCC="WVC1" 
+    <QualityLevel Index="10" Bitrate="950000" FourCC="WVC1"
         MaxWidth="544" MaxHeight="304"
         CodecPrivateData="250000010FCBDC10F0978A10F825E80C90819CFD487A400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera2" /> 
+        <Attribute Name="CameraAngle" Value="Camera2" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="11" Bitrate="600000" FourCC="WVC1" 
+    <QualityLevel Index="11" Bitrate="600000" FourCC="WVC1"
         MaxWidth="400" MaxHeight="224"
         CodecPrivateData="250000010FC3D20C706F8A0C781BE80C9081124F5B8D400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera2" /> 
+        <Attribute Name="CameraAngle" Value="Camera2" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="12" Bitrate="350000" FourCC="WVC1" 
+    <QualityLevel Index="12" Bitrate="350000" FourCC="WVC1"
         MaxWidth="288" MaxHeight="160"
         CodecPrivateData="250000010FC3CA08F04F8A08F813E80C90808AADEACF400000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera2" /> 
+        <Attribute Name="CameraAngle" Value="Camera2" />
       </CustomAttributes>
     </QualityLevel>
-    <QualityLevel Index="13" Bitrate="50000" FourCC="WVC1" 
+    <QualityLevel Index="13" Bitrate="50000" FourCC="WVC1"
         MaxWidth="112" MaxHeight="64"
         CodecPrivateData="250000010FC2C003701F8A037807EC077D08001861E8440000010E5A67F840">
       <CustomAttributes>
-        <Attribute Name="CameraAngle" Value="Camera2" /> 
+        <Attribute Name="CameraAngle" Value="Camera2" />
       </CustomAttributes>
-    </QualityLevel> 
+    </QualityLevel>
 
     <!-- Additional settings here.  -->
 
@@ -256,7 +256,7 @@ To let users change camera angles while the application is displaying video, you
                                 break;
 
                             case "camera3":
-                                if (newCameraAngle == 3) 
+                                if (newCameraAngle == 3)
                                     cameraTracks.Add(track);
                                 break;
 
@@ -272,7 +272,7 @@ To let users change camera angles while the application is displaying video, you
 
                             default:
                                 break;
-                        }                            
+                        }
                     }
                 }
                 bool fResult = stream.SelectTracks(cameraTracks, false);

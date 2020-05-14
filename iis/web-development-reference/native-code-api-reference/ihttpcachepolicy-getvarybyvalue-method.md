@@ -47,7 +47,7 @@ virtual PCSTR GetVaryByValue(
  The above code writes data that is similar to the following to the response stream:  
   
 ```  
-Vary-by-Value:   
+Vary-by-Value:
 ```  
   
  You can optionally compile the code by using the __`stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  

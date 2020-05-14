@@ -36,7 +36,7 @@ When deploying the Administration Pack in shared hosting environments &lt;link: 
 The Configuration Editor module will help you manage your configuration files. This tool is available for server administrators only. It allows you to edit any section, attribute, element, or collection in your configuration file, including IIS configuration settings such as the system.webServer, or ASP.NET settings such as system.web. In addition to editing these values, you can lock and unlock them. The Configuration Editor also allows you to generate scripts based on the actions you take, as well as search the file to see where values are being used.
 
 [![](administration-pack/_static/image4.jpg)](administration-pack/_static/image3.jpg)  
-   
+
 When you enter values for a setting, Configuration Editor validates the data type to ensure that it is compatible. In the case of specific value options such as Boolean (True/False) or enumerations, a combo box is used to present only the available options. The Configuration Editor also allows you to generate scripts based on the actions you take, as well as search the file to see where values are being used. The following video &lt;link: [https://blogs.msdn.com/carlosag/archive/2008/03/31/IISAdminPackConfigurationEditor.aspx](https://blogs.msdn.com/carlosag/archive/2008/03/31/IISAdminPackConfigurationEditor.aspx) &gt; provides demonstrations of the various features of Configuration Editor:
 
 - Schema-driven — Configuration Editor is driven entirely by the configuration schema that is found in \windows\system32\inetsrv\config\schema\. This means that if you extend the configuration system that creates your sections, they will be available for managing inside the Configuration Editor. There is no need to build an additional UI for these sections.
@@ -60,7 +60,7 @@ Some IIS configuration settings come in the form of a collection. This article &
 The FastCGI module lets you configure FastCGI settings that are used by Web sites on the server. It lets the user add and remove FastCGI applications and change these settings. The following image depicts the Add FastCGI Application dialog box.
 
 [![](administration-pack/_static/image6.jpg)](administration-pack/_static/image5.jpg)  
-   
+
 For a complete guide about hosting PHP applications with FastCGI, see this article &lt;link: [https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-70/#Install\_Administration\_Pack\_for\_IIS\_7.0](https://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#Install_Administration_Pack_for_IIS_7.0) &gt;.
 
 ### .NET Authorization Rules Module
@@ -68,7 +68,7 @@ For a complete guide about hosting PHP applications with FastCGI, see this artic
 The .NET Authorization Rules module is one of two ASP.NET modules in the Administration Pack. By using this module, the site administrator can specify rules for authorizing users to access Web sites and applications. Specifically, the .NET Authorization Rules module provides a graphical user interface for the creation of Allow and Deny rules to manage user access to Web content. The following image depicts the Add Allow Authorization Rule dialog box.
 
 [![](administration-pack/_static/image8.jpg)](administration-pack/_static/image7.jpg)  
-   
+
 For instructions about how to lock ASP.NET Authorization Rules, see this guide &lt;link: [https://msdn.microsoft.com/library/ms178693.aspx](https://msdn.microsoft.com/library/ms178693.aspx) &gt;.
 
 This article &lt;link: [https://learn.iis.net/page.aspx/142/understanding-iis-7-url-authorization/#Differences](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization#Differences)&gt; explains the differences between ASP.NET URL Authorization and IIS URL Authorization.
@@ -116,7 +116,7 @@ This new feature enables you to scan for both escaped query strings and unescape
 The following image depicts the list of blocked file name extensions:
 
 [![](administration-pack/_static/image12.jpg)](administration-pack/_static/image11.jpg)  
-   
+
 Notice that HTTP Request Filtering is designed and optimized for security scenarios only, while URL Rewrite &lt;link: [https://learn.iis.net/page.aspx/531/url-rewrite-for-hosters/](https://www.iis.net/learn/web-hosting/web-server-for-shared-hosting/url-rewrite-for-hosting-providers)&gt; can be applied for a broader set of scenarios; security scenarios are a subset of these. For more details about the differences between these two modules, see this article &lt;link: [https://learn.iis.net/page.aspx/501/iis-70-request-filtering-and-url-rewriting/](https://www.iis.net/learn/extensions/url-rewrite-module/iis-request-filtering-and-url-rewriting) &gt;.
 
 ## Conclusion

@@ -33,7 +33,7 @@ In Visual Studio 2010, you can create Web Deploy packages through the UI or by u
  Packages are configuration specific and settings are per configuration, so you need to choose the configuration and configure the setting before creating a package.
 5. Configure **Items to deploy (applies to all deployment methods)**  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image8.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image7.png)  
- These options will be used regardless of whether you publish with Web Deploy or a different publishing method. 
+ These options will be used regardless of whether you publish with Web Deploy or a different publishing method.
 
     - **Items to deploy** has three options:  
         [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image10.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image9.png)  
@@ -42,7 +42,7 @@ In Visual Studio 2010, you can create Web Deploy packages through the UI or by u
     - The **Exclude files from the App\_Data** folder option will exclude files from the App\_Data folder.
 6. Configure **Items to deploy (applies to Web Deploy only)**  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image12.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image11.png)  
- These options only apply when you create a Web Deploy package, or use the Web Deploy protocol for publishing. 
+ These options only apply when you create a Web Deploy package, or use the Web Deploy protocol for publishing.
 
     - **Include all databases** option tells Web Deploy whether or not to deploy databases configured in the **Package/Publish SQL** tab.
     - **Include all IIS settings as configured in IIS/IIS Express** and **Include application pool settings used by this Web project** options are covered in the article {LINK to Article about IIS Settings} and are only available when you have selected **Use Local Web server** on the **Web** property tab instead of the Cassini development server.
@@ -74,7 +74,7 @@ Note that Visual Studio 2010 does NOT support incremental database deployment.
 5. Once all of your connections are added, you can select an entry and adjust its order in the list to specify the order in which it will added to the package, and thus deployed, by using the up and down arrows.  
   
    Clicking a database entry will allow you to remove it.
-6. Next, configure the details for each database in the **Database Entry Details** section. 
+6. Next, configure the details for each database in the **Database Entry Details** section.
 
     1. Select a database from the **Database Entries** list.  
         [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image24.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image23.png)
@@ -93,7 +93,7 @@ Now that we have configured the packaging settings, we can create a package.
 2. Right-click the WAP.
 3. Select **Build Deployment Package**.  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image26.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image25.png)
-4. Note that if you have never logged on to Contoso University, the aspnetdb.mdf file does not exist. Package creation will fail with an error similar to this one: "Cannot connect to the database'C:\code\ContosoUniversity\ContosoUniversity\ContosoUniversity\App\_Data\aspnetdb.mdf'. A connection was successfully established with the server, but then an error occurred during the login process." 
+4. Note that if you have never logged on to Contoso University, the aspnetdb.mdf file does not exist. Package creation will fail with an error similar to this one: "Cannot connect to the database'C:\code\ContosoUniversity\ContosoUniversity\ContosoUniversity\App\_Data\aspnetdb.mdf'. A connection was successfully established with the server, but then an error occurred during the login process."
 
     - To fix this error, simply start the application with F5 and register a user. This will create an aspnetdb.mdf file.
 5. The output window will give updates as packaging progresses. When it finishes, the output will contain a link to the package location.  

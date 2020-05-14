@@ -42,5 +42,5 @@ virtual PCSTR GetLastModifiedString(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)   
+ [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)
  [IHttpFileInfo::GetLastModifiedTime Method](../../web-development-reference/native-code-api-reference/ihttpfileinfo-getlastmodifiedtime-method.md)

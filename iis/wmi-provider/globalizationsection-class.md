@@ -59,7 +59,7 @@ class GlobalizationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Globalization.CultureInfo Class](https://go.microsoft.com/fwlink/?LinkId=67222)   
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [globalization Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=69316)   
+ [System.Globalization.CultureInfo Class](https://go.microsoft.com/fwlink/?LinkId=67222)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [globalization Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=69316)
  [System.Web.Configuration.GlobalizationSection Properties](https://go.microsoft.com/fwlink/?LinkId=69317)

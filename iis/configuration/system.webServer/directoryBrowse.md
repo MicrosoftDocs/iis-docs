@@ -14,7 +14,7 @@ Directory Browse &lt;directoryBrowse&gt;
 
 The `<directoryBrowse>` element controls the information that is displayed in a directory listing when you enable directory browsing for your Web site or application.
 
-The `<directoryBrowse>` element can contain two attributes. The **enabled** attribute determines whether directory browsing is enabled for the site, application, or directory. The **showFlags** attribute defines the information about each file in the directory that Internet Information Services (IIS) will display. IIS can display the last modified date and time, the long date for the last modified date, the file size, and the file name extension. You can choose which of these, if any, IIS will display. 
+The `<directoryBrowse>` element can contain two attributes. The **enabled** attribute determines whether directory browsing is enabled for the site, application, or directory. The **showFlags** attribute defines the information about each file in the directory that Internet Information Services (IIS) will display. IIS can display the last modified date and time, the long date for the last modified date, the file size, and the file name extension. You can choose which of these, if any, IIS will display.
 
 <a id="002"></a>
 ## Compatibility
@@ -78,26 +78,26 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
 
 ### How to enable directory browsing
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then go to the site, application, or directory where you want to enable directory browsing.
 3. In the **Home** pane, double-click **Directory Browsing**.  
     [![](directoryBrowse/_static/image10.png)](directoryBrowse/_static/image9.png)
-4. In the **Actions** pane, click **Enable**.   
+4. In the **Actions** pane, click **Enable**.
     [![](directoryBrowse/_static/image12.png)](directoryBrowse/_static/image11.png)
 5. In the **Directory Browsing** pane, select the options that correspond to the information you want to display for each item in the directory, and then click **Apply**.
 

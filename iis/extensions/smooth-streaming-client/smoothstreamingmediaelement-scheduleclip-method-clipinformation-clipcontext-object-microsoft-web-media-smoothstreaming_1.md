@@ -63,23 +63,23 @@ public ClipContext ScheduleClip(
 ```cpp
 public:
 ClipContext^ ScheduleClip(
-    ClipInformation^ clipInfo, 
-    ClipContext^ clipToAppendTo, 
+    ClipInformation^ clipInfo,
+    ClipContext^ clipToAppendTo,
     Object^ userData
 )
 ```
 
 ``` fsharp
-member ScheduleClip : 
-        clipInfo:ClipInformation * 
-        clipToAppendTo:ClipContext * 
-        userData:Object -> ClipContext 
+member ScheduleClip :
+        clipInfo:ClipInformation *
+        clipToAppendTo:ClipContext *
+        userData:Object -> ClipContext
 ```
 
 ```jscript
 public function ScheduleClip(
-    clipInfo : ClipInformation, 
-    clipToAppendTo : ClipContext, 
+    clipInfo : ClipInformation,
+    clipToAppendTo : ClipContext,
     userData : Object
 ) : ClipContext
 ```

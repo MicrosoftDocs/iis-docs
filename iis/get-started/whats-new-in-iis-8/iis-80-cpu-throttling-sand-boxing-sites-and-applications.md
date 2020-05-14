@@ -41,10 +41,10 @@ It is important to clarify that IIS CPU Throttling is not a ***reservation*** of
 
 #### Prerequisites:
 
-- IIS is installed on Windows Server 2012. 
+- IIS is installed on Windows Server 2012.
 
     - IIS CPU Throttling is part of IIS application pool configuration. Therefore, a default install of IIS will have this feature installed. There is no specific IIS feature that needs to be installed from Server Manager.
-- There is at least one site with a corresponding IIS application pool. 
+- There is at least one site with a corresponding IIS application pool.
 
     - Default Web Site and DefaultAppPool can be used for this exercise.
 
@@ -65,14 +65,14 @@ There are no known bugs for this feature at this time.
     ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image7.png)
 
     - **Limit**: Indicates the maximum CPU usage (in 1000th of a percent) for this application pool. If there are multiple processes associated to this application pool, the limit is applied to the total ***sum*** of all processes under this application pool.
-    - **LimitAction**: Indicates what action to take when the limit value is met above. 
+    - **LimitAction**: Indicates what action to take when the limit value is met above.
 
         - For Windows Server 8, new actions, **Throttle** and **ThrottleUnderLoad** have been added:  
             ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image9.png)
         - **Throttle**: The feature will throttle the CPU consumption to the value set for **Limit**.
         - **ThrottleUnderLoad**: The feature will throttle the CPU consumption to the value set for **Limit**, but only if there is a contention on the CPU. This means that the application pool may consume more CPU activity when the CPU is idle.
     - **LimitInterval**: Not used for both **Throttle** and **ThrottleUnderLoad**. This configuration attribute is carried over from previous versions of Windows for backward compatibility.
-6. To set the maximum limit of 30%, enter: 
+6. To set the maximum limit of 30%, enter:
 
     1. **Limit**: 30000 (30% in 1000th of a percent)
     2. **LimitAction**: Throttle  

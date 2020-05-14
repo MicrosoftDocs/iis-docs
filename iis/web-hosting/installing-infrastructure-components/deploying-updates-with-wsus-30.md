@@ -44,7 +44,7 @@ The first step in deploying WSUS 3.0 is to design the server configuration.
 
 The following topics in the guide describe various aspects of deployment design-from a simple configuration with a single server to a configuration with multiple WSUS servers. Some of the considerations to take into account are connection bandwidth (for both Internet connections and LAN or WAN connections), network configuration, and different language requirements.
 
-**To prepare the WSUS 3.0 deployment refer to:** 
+**To prepare the WSUS 3.0 deployment refer to:**
 
 - [Choose a Type of WSUS Deployment](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc720448(v%3dws.10))
 - [Choose a WSUS Management Style](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708500(v%3dws.10))

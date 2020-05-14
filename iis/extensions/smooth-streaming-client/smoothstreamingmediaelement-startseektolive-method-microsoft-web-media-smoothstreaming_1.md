@@ -56,7 +56,7 @@ bool StartSeekToLive()
 ```
 
 ``` fsharp
-member StartSeekToLive : unit -> bool 
+member StartSeekToLive : unit -> bool
 ```
 
 ```jscript

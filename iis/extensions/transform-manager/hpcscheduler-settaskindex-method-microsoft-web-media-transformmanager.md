@@ -61,23 +61,23 @@ instance.SetTaskIndex(jobInstanceId, _
 ```cpp
   public:
 virtual void SetTaskIndex(
-    String^ jobInstanceId, 
+    String^ jobInstanceId,
     int taskIndex
 ) override
 ```
 
 ``` fsharp
-  abstract SetTaskIndex : 
-        jobInstanceId:string * 
-        taskIndex:int -> unit 
-override SetTaskIndex : 
-        jobInstanceId:string * 
-        taskIndex:int -> unit 
+  abstract SetTaskIndex :
+        jobInstanceId:string *
+        taskIndex:int -> unit
+override SetTaskIndex :
+        jobInstanceId:string *
+        taskIndex:int -> unit
 ```
 
 ```jscript
   public override function SetTaskIndex(
-    jobInstanceId : String, 
+    jobInstanceId : String,
     taskIndex : int
 )
 ```

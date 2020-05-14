@@ -45,6 +45,6 @@ class FileExtensionsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [FileExtensionElement Class](../wmi-provider/fileextensionelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [FileExtensionElement Class](../wmi-provider/fileextensionelement-class.md)
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)

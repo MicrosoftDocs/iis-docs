@@ -42,7 +42,7 @@ Set oApp = oWebAdmin.Get( _
   
 ' Display the site name, path, and application pool.  
 WScript.Echo "Web site name: " & oApp.SiteName  
-WScript.Echo "Application path: " & oApp.Path      
+WScript.Echo "Application path: " & oApp.Path
 Wscript.Echo "ApplicationPool: " & oApp.ApplicationPool  
   
 ' Revert the MyApp application pool to the application pool  
@@ -74,6 +74,6 @@ Wscript.Echo "ApplicationPool after revert: " & _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Application Class](../wmi-provider/application-class.md)   
- [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
+ [Application Class](../wmi-provider/application-class.md)
+ [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)
  [Site Class](../wmi-provider/site-class.md)

@@ -49,5 +49,5 @@ class VerbElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [VerbsSettings Class](../wmi-provider/verbssettings-class.md)

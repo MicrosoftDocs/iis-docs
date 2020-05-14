@@ -113,10 +113,10 @@ This string specifies what the input URL should be rewritten to. The back-refere
 Leave default values for all other settings. The "Edit Rule" UI should look as the following page:
 
 [![](using-global-and-distributed-rewrite-rules/_static/image24.png)](using-global-and-distributed-rewrite-rules/_static/image22.png)  
-   
+
 Save the rule by clicking "Apply" action on the right hand side.
 
-To understand how this rule will be applied let's walk through the steps that are performed by URL rewrite module when HTTP client requests this URL:   
+To understand how this rule will be applied let's walk through the steps that are performed by URL rewrite module when HTTP client requests this URL:
 `http://blog_localhost/article.aspx?id=323`:
 
 1. URL rewrite module passes "article.aspx?id=323" as an input URL to the rule, successfully matches it against the rule pattern and captures it in a rule back-reference {R:1}
@@ -131,7 +131,7 @@ To test that the rule correctly rewrites URL's, open internet browser and reques
 [![](using-global-and-distributed-rewrite-rules/_static/image28.png)](using-global-and-distributed-rewrite-rules/_static/image26.png)
 
 You should see that the URL rewrite module has changed the URL and opened an Article.aspx page in the "blog" directory. The changes made by the URL rewrite module were based on the information extracted from the host header.  
-   
+
 Similarly when you request `http://forum_localhost/forum.aspx?id=345` the URL will be rewritten to **/forum/forum.aspx?id=345**.
 
 ## Creating distributed rules

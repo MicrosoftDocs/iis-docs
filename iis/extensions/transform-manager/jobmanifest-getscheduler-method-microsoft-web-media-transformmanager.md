@@ -56,8 +56,8 @@ virtual Scheduler^ GetScheduler() sealed
 ```
 
 ``` fsharp
-  abstract GetScheduler : unit -> Scheduler 
-override GetScheduler : unit -> Scheduler 
+  abstract GetScheduler : unit -> Scheduler
+override GetScheduler : unit -> Scheduler
 ```
 
 ```jscript

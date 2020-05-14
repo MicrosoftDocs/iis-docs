@@ -107,12 +107,12 @@ Bring up the "Edit Rule" dialog by clicking on the "Add Rules..." action in the 
 - Requested URL: "**Matches the Pattern**"
 - Using: "**Regular Expressions**"
 - Pattern: "**^([a-z]{2}-[a-z]{2})/(.\*)**"
-- Conditions: 
+- Conditions:
 
     - Input: "{Languages:{R:1}"
     - Type: "Matches the Patterns"
     - Pattern: "(.+)"
-- Action: 
+- Action:
 
     - Type: "Rewrite"
     - Rewrite URL: "{R:2}"

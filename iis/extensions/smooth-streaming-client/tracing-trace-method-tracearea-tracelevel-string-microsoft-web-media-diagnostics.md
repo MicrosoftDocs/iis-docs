@@ -60,16 +60,16 @@ Tracing.Trace(traceArea, traceLevel, _
 ```cpp
   public:
 static void Trace(
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
+    TraceArea traceArea,
+    TraceLevel traceLevel,
     String^ line
 )
 ```
 
 ```jscript
   public static function Trace(
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
     line : String
 )
 ```

@@ -45,7 +45,7 @@ Below are the configuration examples to enable CORS for a site named contentSite
              <add origin="*" />
              <add origin="https://*.microsoft.com"
                   allowCredentials="true"
-                  maxAge="120"> 
+                  maxAge="120">
                  <allowHeaders allowAllRequestedHeaders="true">
                      <add header="header1" />
                      <add header="header2" />

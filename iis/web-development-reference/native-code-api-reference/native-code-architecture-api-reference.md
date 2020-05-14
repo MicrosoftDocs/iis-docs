@@ -20,6 +20,6 @@ This section discusses the APIs that define the core architecture for IIS.
  Describes the API that enables worker processes and protocol managers to exchange data with other protocol managers.  
   
 ## See Also  
- [Native-Code API Reference](../../web-development-reference/native-code-api-reference/native-code-api-reference.md)   
- [Native-Code Administration API Reference](../../web-development-reference/native-code-api-reference/native-code-administration-api-reference.md)   
+ [Native-Code API Reference](../../web-development-reference/native-code-api-reference/native-code-api-reference.md)
+ [Native-Code Administration API Reference](../../web-development-reference/native-code-api-reference/native-code-administration-api-reference.md)
  [Native-Code Extensibility API Reference](../../web-development-reference/native-code-api-reference/native-code-extensibility-api-reference.md)

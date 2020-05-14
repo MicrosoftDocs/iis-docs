@@ -64,26 +64,26 @@ public static void TraceFunctionExit(
 ```cpp
 public:
 static void TraceFunctionExit(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
     TraceArea traceArea
 )
 ```
 
 ``` fsharp
-static member TraceFunctionExit : 
-        mediaElementId:string * 
-        className:string * 
-        methodName:string * 
-        traceArea:TraceArea -> unit 
+static member TraceFunctionExit :
+        mediaElementId:string *
+        className:string *
+        methodName:string *
+        traceArea:TraceArea -> unit
 ```
 
 ```jscript
 public static function TraceFunctionExit(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
     traceArea : TraceArea
 )
 ```

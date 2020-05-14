@@ -53,7 +53,7 @@ F5 Big-IP's layer 3 and layer 4 functionality compliments ARR's strength in maki
 
 ## Scenario 1: HTTP-based routing and load balancing
 
-The HTTP-based routing and load balancing scenario enables a 3-tier deployment architecture that involves: 
+The HTTP-based routing and load balancing scenario enables a 3-tier deployment architecture that involves:
 
 - Tier 1 (Web): Provides dual purposes of processing static content and routing and load balancing the remaining dynamic requests to tier 2 servers.
 - Tier 2 (Application): Processes dynamic content that relies on business logic.
@@ -63,7 +63,7 @@ The following diagram illustrates the 3-tier deployment:
 
 [![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image6.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image5.jpg)
 
-Although the above example shows a routing rule that differentiates the static content from the dynamic content, another common scenario is to differentiate presentation requests from Web service requests. 
+Although the above example shows a routing rule that differentiates the static content from the dynamic content, another common scenario is to differentiate presentation requests from Web service requests.
 
 ### Option 1: Active/Passive
 
@@ -86,7 +86,7 @@ This scenario is fully supported in the ARR Version 1 release.
 **Step 2: Configure 3-tier deployment architecture using ARR.**
 
 - Follow the steps in [this](configure-3-tier-deployment-architecture-using-application-request-routing.md) document to configure ARR in 3-tier deployment architecture.
-- At a high level, the above document describes: 
+- At a high level, the above document describes:
 
     - How to make static content available on the ARR server.
     - How to write URL rewrite rules for static content so that they are served directly from the ARR server.
@@ -94,7 +94,7 @@ This scenario is fully supported in the ARR Version 1 release.
 
 #### F5 BIG-IP configuration
 
-In this scenario, you will create a virtual server that load balances to a pool of two (or more) ARR servers. The load balancing method you select should send all traffic to the primary ARR server until it becomes unavailable. At that point, the BIG-IP LTM should send all traffic to the secondary ARR server.   
+In this scenario, you will create a virtual server that load balances to a pool of two (or more) ARR servers. The load balancing method you select should send all traffic to the primary ARR server until it becomes unavailable. At that point, the BIG-IP LTM should send all traffic to the secondary ARR server.
   
 **Step 1: Configure the pool of ARR servers.**  
 
@@ -121,7 +121,7 @@ In this scenario, you will create a virtual server that load balances to a pool 
 
 ### Option 2: Active/Active
 
-In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Pass mode, which achieves only high availability. As noted previously, since multiple ARR servers are configured the same way, a shared configuration is used. The F5 BIG-IP is configured to load balance incoming requests to all available and healthy ARR servers, which in turn forwards requests to the content servers. Regardless of whether the server affinity feature is used on the F5 BIG-IP or not, no special configuration is needed on the ARR servers. For one, the ARR servers use one shared configuration so that they are configured the same way. Secondly, since ARR uses a client cookie to store the server affinity information for its own use, this information is available per request and therefore available across the ARR servers. This scenario is fully supported in the ARR Version 1 release. 
+In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Pass mode, which achieves only high availability. As noted previously, since multiple ARR servers are configured the same way, a shared configuration is used. The F5 BIG-IP is configured to load balance incoming requests to all available and healthy ARR servers, which in turn forwards requests to the content servers. Regardless of whether the server affinity feature is used on the F5 BIG-IP or not, no special configuration is needed on the ARR servers. For one, the ARR servers use one shared configuration so that they are configured the same way. Secondly, since ARR uses a client cookie to store the server affinity information for its own use, this information is available per request and therefore available across the ARR servers. This scenario is fully supported in the ARR Version 1 release.
 
 #### ARR configuration
 
@@ -134,7 +134,7 @@ The ARR configuration for Active/Active is identical to that of Active/Passive. 
 **Step 2: Configure 3-tier deployment architecture using ARR.**
 
 - Follow the steps in [this](configure-3-tier-deployment-architecture-using-application-request-routing.md) document to configure ARR in 3-tier deployment architecture.
-- At a high level, the above document describes: 
+- At a high level, the above document describes:
 
     - How to make static content available on the ARR server.
     - How to write URL rewrite rules for static content so that they are served directly from the ARR server.
@@ -179,7 +179,7 @@ In this setup, since two ARR servers are configured the same way, a shared confi
 
 The host name affinity feature in ARR affinitizes the requests to a particular server (or a group of servers in RC) based on the host name. The runtime state information of affinitized mapping between the host names and the content servers is stored in memory within an instance of an ARR server. In the ARR Version 1 release, ARR leverages Microsoft External Cache for IIS to share and maintain this runtime state between multiple ARR servers. More information about this scenario is available in [this](using-multiple-instances-of-application-request-routing-arr-servers.md) document.
 
-This scenario is fully supported in the ARR Version 1 release. 
+This scenario is fully supported in the ARR Version 1 release.
 
 #### ARR configuration
 
@@ -190,7 +190,7 @@ This scenario is fully supported in the ARR Version 1 release.
 **Step 2: Configure 3-tier deployment architecture using ARR.**
 
 - Follow the steps in [this](configure-3-tier-deployment-architecture-using-application-request-routing.md) document to configure ARR in 3-tier deployment architecture.
-- At a high level, the above document describes: 
+- At a high level, the above document describes:
 
     - How to make static content available on the ARR server.
     - How to write URL rewrite rules for static content so that they are served directly from the ARR server.
@@ -222,13 +222,13 @@ In this scenario, you will create a virtual server that load balances to a pool 
 
 ### Option 2: Active/Active in ARR
 
-In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Pass mode, which achieves only high availability. Since multiple ARR servers are configured the same way, a shared configuration is used. The F5 BIG-IP is configured to load balance incoming requests to all available and healthy ARR servers, which in turn forwards requests to the content servers. 
+In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Pass mode, which achieves only high availability. Since multiple ARR servers are configured the same way, a shared configuration is used. The F5 BIG-IP is configured to load balance incoming requests to all available and healthy ARR servers, which in turn forwards requests to the content servers.
 
 As noted previously, the runtime state information of affinitized mapping between the host names and the content servers is stored in memory within an instance of an ARR server. In order to share this information among multiple ARR servers, Microsoft External Cache for IIS is used. For more information about External Cache, refer to [this](using-multiple-instances-of-application-request-routing-arr-servers.md) document.
 
 #### ARR configuration
 
-The ARR configuration for Active/Active is identical to that of Active/Passive. The main difference is how F5 is configured. 
+The ARR configuration for Active/Active is identical to that of Active/Passive. The main difference is how F5 is configured.
 
 **Step 1: Enable shared configuration on two ARR servers.**
 
@@ -237,7 +237,7 @@ The ARR configuration for Active/Active is identical to that of Active/Passive. 
 **Step 2: Configure 3-tier deployment architecture using ARR.**
 
 - Follow the steps in [this](configure-3-tier-deployment-architecture-using-application-request-routing.md) document to configure ARR in 3-tier deployment architecture.
-- At a high level, the above document describes: 
+- At a high level, the above document describes:
 
     - How to make static content available on the ARR server.
     - How to write URL rewrite rules for static content so that they are served directly from the ARR server.

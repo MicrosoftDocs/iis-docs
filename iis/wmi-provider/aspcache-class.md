@@ -47,8 +47,8 @@ class AspCache : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AspComPlus Class](../wmi-provider/aspcomplus-class.md)   
- [AspLimits Class](../wmi-provider/asplimits-class.md)   
- [AspSection Class](../wmi-provider/aspsection-class.md)   
- [AspSession Class](../wmi-provider/aspsession-class.md)   
+ [AspComPlus Class](../wmi-provider/aspcomplus-class.md)
+ [AspLimits Class](../wmi-provider/asplimits-class.md)
+ [AspSection Class](../wmi-provider/aspsection-class.md)
+ [AspSession Class](../wmi-provider/aspsession-class.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

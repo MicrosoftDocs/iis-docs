@@ -43,5 +43,5 @@ virtual HRESULT RegisterCustomActionCallback(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IPmCustomActions2 Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md)   
+ [IPmCustomActions2 Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md)
  [IPmCustomActions2::UnregisterCustomActionCallback Method](../../web-development-reference/native-code-api-reference/ipmcustomactions2-unregistercustomactioncallback-method.md)

@@ -41,5 +41,5 @@ oServer.EndUpdateBatch();
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Server Class](../wmi-provider/server-class.md)   
+ [Server Class](../wmi-provider/server-class.md)
  [Server.BeginUpdateBatch Method](../wmi-provider/server-beginupdatebatch-method.md)

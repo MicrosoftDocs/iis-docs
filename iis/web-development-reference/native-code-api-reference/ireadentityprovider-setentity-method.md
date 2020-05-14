@@ -60,7 +60,7 @@ virtual VOID SetEntity(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IReadEntityProvider Interface](../../web-development-reference/native-code-api-reference/ireadentityprovider-interface.md)   
- [IReadEntityProvider::GetEntity Method](../../web-development-reference/native-code-api-reference/ireadentityprovider-getentity-method.md)   
- [IHttpRequest::ReadEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md)   
+ [IReadEntityProvider Interface](../../web-development-reference/native-code-api-reference/ireadentityprovider-interface.md)
+ [IReadEntityProvider::GetEntity Method](../../web-development-reference/native-code-api-reference/ireadentityprovider-getentity-method.md)
+ [IHttpRequest::ReadEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md)
  [IHttpRequest::InsertEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-insertentitybody-method.md)

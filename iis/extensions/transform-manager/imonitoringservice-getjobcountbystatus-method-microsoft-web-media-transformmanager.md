@@ -65,8 +65,8 @@ int GetJobCountByStatus(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobCountByStatus : 
-        status:JobStatus -> int 
+abstract GetJobCountByStatus :
+        status:JobStatus -> int
 ```
 
 ```jscript

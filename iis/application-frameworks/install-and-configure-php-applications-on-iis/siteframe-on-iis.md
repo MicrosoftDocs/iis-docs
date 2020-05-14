@@ -73,8 +73,8 @@ allow\_url\_fopen=on
 
      [![](siteframe-on-iis/_static/image2.jpg)](siteframe-on-iis/_static/image1.jpg)
 3. Copy \_htaccess file to .htaccess. Windows may not allow naming the file with only the extension (.htaccess). Open the file in the editor (notepad) and save as ".htaccess".
-4. Siteframe requires the Smarty templates. Download and install Smarty templates from   
-    [http://smarty.php.net/](http://smarty.php.net/) and copy to the local folder.   
+4. Siteframe requires the Smarty templates. Download and install Smarty templates from
+    [http://smarty.php.net/](http://smarty.php.net/) and copy to the local folder.
 
     > [!NOTE]
     > Smarty templates are available only in the .tar format and these .tar files must be extracted using gzip or other tools. We use the "izarc" tool downloaded from [http://www.izarc.org/download.html](http://www.izarc.org/download.html).

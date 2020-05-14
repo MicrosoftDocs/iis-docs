@@ -53,5 +53,5 @@ class ClientTarget : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget) 
+ [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

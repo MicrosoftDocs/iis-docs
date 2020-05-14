@@ -62,7 +62,7 @@ For Each oModule In oSection.Modules
         WScript.Echo "   " & oModule.Name  
     End If  
 Next  
-WScript.Echo   
+WScript.Echo
   
 ' Display the managed modules.  
 WScript.Echo "---------- Managed ----------"  
@@ -74,7 +74,7 @@ For Each oModule In oSection.Modules
         ElseIf Len(oModule.Name) < 20 Then  
             WScript.Echo "   " & oModule.Name & _  
                 vbTab & vbTab & "[" & oModule.Type & "]"  
-        Else   
+        Else
             WScript.Echo "   " & oModule.Name & _  
                 vbTab & "[" & oModule.Type & "]"  
         End If  
@@ -99,7 +99,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)   
- [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)
+ [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)
  [ModuleAction Class](../wmi-provider/moduleaction-class.md)

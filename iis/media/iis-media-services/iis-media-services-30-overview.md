@@ -16,18 +16,18 @@ The [IIS Media Services 3.0 Overview](https://download.microsoft.com/download/3/
 Table of Contents:
 
 - Introduction
-- IIS Media Services 3.0 
+- IIS Media Services 3.0
 
     - Media Delivery Approaches Supported by Windows Server 2008 R2
     - Goals for IIS Media Services 3.0
-- Scenarios for IIS Media Services 3.0 
+- Scenarios for IIS Media Services 3.0
 
-    - On-demand Scenarios 
+    - On-demand Scenarios
 
         - IIS Bit Rate Throttling
         - IIS Web Playlists
         - IIS Smooth Streaming
-    - Live Scenarios 
+    - Live Scenarios
 
         - IIS Live Smooth Streaming
         - IIS Extensions that Provide Support for Live and On-Demand Scenarios
@@ -39,11 +39,11 @@ Table of Contents:
     - IIS Manager
     - Command-line and Scripting Tools
 - Monitoring the IIS Media Server
-- Server Performance and Scalability 
+- Server Performance and Scalability
 
     - Deploying Server Clusters
     - Deploying Edge Cache Servers
-- Developing IIS Media Services Applications 
+- Developing IIS Media Services Applications
 
     - Player Development with the Silverlight Media Framework
 - Summary

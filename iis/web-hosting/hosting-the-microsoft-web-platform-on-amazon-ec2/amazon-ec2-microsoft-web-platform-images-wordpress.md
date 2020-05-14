@@ -68,7 +68,7 @@ Now we are ready to launch an EC2 DotNetNuke instance.
 
 ### Launching an DotNetNuke Instance
 
-Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.   
+Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image10.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image9.png)
 
 Now select "Community Images" in the resulting dialog.
@@ -78,14 +78,14 @@ Now select "Community Images" in the resulting dialog.
 By typing "microsoft/" in the "Community AMIs" dialog you will reduce the selection to the four Microsoft images:  
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image14.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image13.png) Press "Select" in the "Microsoft Web Platform – Wordpress …" row.
 
-In the next dialog page (Instance Details) you can select how much computing power you want to have for your Wordpress instance. It's probably prudent to start with type small. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.   
+In the next dialog page (Instance Details) you can select how much computing power you want to have for your Wordpress instance. It's probably prudent to start with type small. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image15.png)
 
 If you already have a key, simply use it. If not you have to create one by entering a name for your key pair and clicking the "Create &amp; Download Key Pair" button. As soon as you click the button a key pair will be created by Amazon an you are asked by your browser to download it. Save the file in a location where you will find it later. The key pair you created will allow you to decrypt the Administrator password that Amazon creates for your Wordpress instance. Click the "Continue" button.
 
 Note: Internet Explorer might not show the download dialog that asks you where to save the key pair file. If that happens to you, please look for the file (&lt;key pair name&gt;.pem) in Internet Explorers Temporary Files folder. On Windows 7 search for \*.pem in `%userprofile%\ AppData\Local\Microsoft\Windows\Temporary Internet Files`. Make sure you copy the .pem file to a more permanent directory .
 
-Once you created your key pair you can configure firewall rules. You could for example only allow HTTP requests to the machine. Amazon calls firewall rules "Security Groups" which is a bit confusing if you ask me. For this demo we are picking the "default" Security Group which doesn't put any firewall restrictions on the instance. You might want to configure these settings to be a bit more restrictive later on.   
+Once you created your key pair you can configure firewall rules. You could for example only allow HTTP requests to the machine. Amazon calls firewall rules "Security Groups" which is a bit confusing if you ask me. For this demo we are picking the "default" Security Group which doesn't put any firewall restrictions on the instance. You might want to configure these settings to be a bit more restrictive later on.
 Click "Continue" to move to the "Launch" page. The only thing left to do on the summary page is to press the big "Launch" button. Once you do that Amazon EC2 will spin up your personal virtual instance of our Wordpress image. Good job. It's time to get some coffee. Spinning up your instance will take some time, usually around 3 to 5 minutes.
 
 ## 3. Retrieving the Administrator Password
@@ -123,7 +123,7 @@ Click "Download shortcut file" in the dialog that follows:
 
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image30.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image29.png)
 
-The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
+The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.
 Once connected you will get logged on to the remote machine. Don't get to impatient because after the logon it will take a few moments until the Wordpress install kicks in.
 
 ## 4. Finalization of the Wordpress Installation
@@ -142,7 +142,7 @@ After the MySQL install Web Platform Installer asks you some additional question
 
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image35.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image34.png)
 
-You can leave everything as it is. Only one change you might want to consider:   
+You can leave everything as it is. Only one change you might want to consider:
 If you want to install wordpress as the root of your site you might want to remove the string "wordpress" in the "Application name" textbox. If you don't do that you have to always enter `http://%3cname-of-your-site/wordpress`. Leaving the field empty will put the wordpress files into the root of the Default Web Site, i.e. you can enter `http://%3cname-of-your-website/` to get to your Wordpress blog. If you install Wordpress in the root you will get a popup that warns you about overwriting content. That's ok though. It only overwrites IIS's default home page.
 
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image36.png)  
@@ -158,7 +158,7 @@ Then pick some new credentials for the user account that Wordpress itself uses t
 
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image40.png)
 
-Everything else can be left in place without impacting the installation.   
+Everything else can be left in place without impacting the installation.
 Once the install finishes you can get started with Wordpress. Click the "Launch Wordpress" link on the final Web Platform Installer page:
 
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image43.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image42.png)

@@ -62,8 +62,8 @@ void SetTaskCount(
 ```
 
 ``` fsharp
-  member SetTaskCount : 
-        taskCount:int -> unit 
+  member SetTaskCount :
+        taskCount:int -> unit
 ```
 
 ```jscript

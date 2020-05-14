@@ -45,37 +45,37 @@ class IHttpCacheKey
   
 ```  
 <cacheProvider>  
-    <fileKey   
-        path="C:\INETPUB\WWWROOT\IISSTART.HTM"   
-        cacheName="FILE"   
-        hash="59594512"   
-        isEqual="true"   
+    <fileKey
+        path="C:\INETPUB\WWWROOT\IISSTART.HTM"
+        cacheName="FILE"
+        hash="59594512"
+        isEqual="true"
         isPrefix="true"/>  
 </cacheProvider>  
 ```  
   
 ```  
 <cacheProvider>  
-    <uriKey   
-        siteId="1"   
-        siteName=""   
-        url="/IISSTART.HTM"   
-        cacheName="URI"   
-        hash="-1945651104"   
-        isEqual="true"   
+    <uriKey
+        siteId="1"
+        siteName=""
+        url="/IISSTART.HTM"
+        cacheName="URI"
+        hash="-1945651104"
+        isEqual="true"
         isPrefix="true"/>  
 </cacheProvider>  
 ```  
   
 ```  
 <cacheProvider>  
-    <tokenKey   
-        userName="IUSR"   
-        hashedPassword="abcdefg"   
-        logon="3"   
-        cacheName="TOKEN"   
-        hash="0"   
-        isEqual="true"   
+    <tokenKey
+        userName="IUSR"
+        hashedPassword="abcdefg"
+        logon="3"
+        cacheName="TOKEN"
+        hash="0"
+        isEqual="true"
         isPrefix="false"/>  
 </cacheProvider>  
 ```  

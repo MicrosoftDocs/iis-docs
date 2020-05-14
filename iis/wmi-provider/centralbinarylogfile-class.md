@@ -123,7 +123,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [LogSection Class](../wmi-provider/logsection-class.md)   
+ [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [LogSection Class](../wmi-provider/logsection-class.md)
  [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)

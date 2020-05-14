@@ -47,10 +47,10 @@ class NameTypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [ConfigProtectedDataSection Class](../wmi-provider/configprotecteddatasection-class.md)   
- [MembershipSection Class](../wmi-provider/membershipsection-class.md)   
- [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   
- [RoleManagerSection Class](../wmi-provider/rolemanagersection-class.md)   
- [SchemaImporterExtensionsSection Class](../wmi-provider/schemaimporterextensionssection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [ConfigProtectedDataSection Class](../wmi-provider/configprotecteddatasection-class.md)
+ [MembershipSection Class](../wmi-provider/membershipsection-class.md)
+ [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)
+ [RoleManagerSection Class](../wmi-provider/rolemanagersection-class.md)
+ [SchemaImporterExtensionsSection Class](../wmi-provider/schemaimporterextensionssection-class.md)
  [SwitchSettings Class](../wmi-provider/switchsettings-class.md)

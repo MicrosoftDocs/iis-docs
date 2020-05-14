@@ -35,5 +35,5 @@ class IHttpModuleFactory
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

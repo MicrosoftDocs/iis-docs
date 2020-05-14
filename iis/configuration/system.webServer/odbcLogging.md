@@ -16,13 +16,13 @@ The `<odbcLogging>` element configures Open Database Connectivity (ODBC) logging
 
 ODBC logging is implemented as a custom logging module in IIS 7, therefore enabling and configuring ODBC logging in IIS 7 consists of two separate actions:
 
-- Setting the ODBC logging attributes in the `<odbcLogging>` element. Specifically, the following attributes must be configured: 
+- Setting the ODBC logging attributes in the `<odbcLogging>` element. Specifically, the following attributes must be configured:
 
     - The **dataSource** attribute must specify the System Data Source Name (DSN) for the database where the table specified by the **tableName** attribute is located.
     - The **password** attribute must specify the database password that IIS 7 will use when writing log information to the database.
     - The **tableName** attribute must specify the name of the database table in the database that is specified by the **dataSource** attribute.
     - The **userName** attribute must specify the database user name that IIS 7 will use when writing log information to the database.
-- Setting the correct custom logging attributes in the [&lt;logFile&gt;](../system.applicationhost/sites/site/logfile/index.md) element. Specifically, the following attributes must be configured: 
+- Setting the correct custom logging attributes in the [&lt;logFile&gt;](../system.applicationhost/sites/site/logfile/index.md) element. Specifically, the following attributes must be configured:
 
     - The **logFormat** attribute must be set to "**Custom**."
     - The **customLogPluginClsid** attribute must be set to "**{FF16065B-DE82-11CF-BC0A-00AA006111E0}**"

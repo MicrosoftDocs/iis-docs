@@ -48,7 +48,7 @@ class HttpCompressionSchemeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)   
- [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)
+ [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)
  [UrlCompressionSection Class](../wmi-provider/urlcompressionsection-class.md)

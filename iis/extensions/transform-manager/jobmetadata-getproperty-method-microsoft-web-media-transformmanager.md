@@ -63,10 +63,10 @@ virtual IManifestProperty^ GetProperty(
 ```
 
 ``` fsharp
-  abstract GetProperty : 
-        predicate:XName -> IManifestProperty 
-override GetProperty : 
-        predicate:XName -> IManifestProperty 
+  abstract GetProperty :
+        predicate:XName -> IManifestProperty
+override GetProperty :
+        predicate:XName -> IManifestProperty
 ```
 
 ```jscript

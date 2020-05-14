@@ -39,7 +39,7 @@ An important characteristic of [Shared Hosting](../planning-the-web-hosting-arch
     [![](verifying-remote-administration/_static/image8.jpg)](verifying-remote-administration/_static/image7.jpg)
 6. A dialog listing the new available IIS Manager Modules should be displayed, press OK to install the new modules:  
     [![](verifying-remote-administration/_static/image10.jpg)](verifying-remote-administration/_static/image9.jpg)
-7. After installation of the new modules IIS Manager will display the modules available, the example below has the Database Manager highlighted.   
+7. After installation of the new modules IIS Manager will display the modules available, the example below has the Database Manager highlighted.
     [![](verifying-remote-administration/_static/image12.jpg)](verifying-remote-administration/_static/image11.jpg)
 
 ## Conclusion

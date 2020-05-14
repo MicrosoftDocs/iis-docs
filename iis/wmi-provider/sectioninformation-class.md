@@ -73,8 +73,8 @@ For Each oConfigSection In oConfigSections
     WScript.Echo "Effective Override Mode: " & _  
         oConfigSectionInfo.EffectiveOverrideMode  
     WScript.Echo "Is Locked: " & oConfigSectionInfo.IsLocked  
-    WScript.Echo "Is Present: " & oConfigSectionInfo.IsPresent          
-    WScript.Echo "Lock Item: " & oConfigSectionInfo.LockItem              
+    WScript.Echo "Is Present: " & oConfigSectionInfo.IsPresent
+    WScript.Echo "Lock Item: " & oConfigSectionInfo.LockItem
     WScript.Echo "Override Mode: " & oConfigSectionInfo.OverrideMode  
     WScript.Echo "------------------------------------------"  
 Next  
@@ -96,5 +96,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

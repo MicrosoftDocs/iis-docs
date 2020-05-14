@@ -25,7 +25,7 @@ The server must have an operating system that comes with IIS7— this means eith
 
 #### Use WebPI to install Web Deploy along with its dependencies like the Web Management Service (WMSvc)
 
-1. Install Web Deploy by using either method **i** or **ii** below: 
+1. Install Web Deploy by using either method **i** or **ii** below:
 
     1. Install Web Deploy and dependent products using the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)
 
@@ -38,7 +38,7 @@ The server must have an operating system that comes with IIS7— this means eith
 
         1. In the Setup wizard choose the "Complete" setup option.  
             [![](installing-and-configuring-web-deploy/_static/image7.png)](installing-and-configuring-web-deploy/_static/image6.png)
-        2. Note: *Using the MSI directly is generally not recommended for the novice user, as recommended or required dependent products must then be installed separately*. The following limitations may create issues when using the MSI instead of WebPI to install Web Deploy on servers: 
+        2. Note: *Using the MSI directly is generally not recommended for the novice user, as recommended or required dependent products must then be installed separately*. The following limitations may create issues when using the MSI instead of WebPI to install Web Deploy on servers:
 
             1. The MSI will not install SQL Shared Management Objects (SMO), which is required for the SQL Server database deployments. This component may be installed using WebPI to enable SQL Server database deployments.
             2. The MSI will not install the Web Management Service handler component if the Web Management Service is not installed; the handler component is necessary for non-administrator deployments. Windows component IIS, including Management Service, should be installed first to enable the handler component to install.
@@ -49,20 +49,20 @@ The server must have an operating system that comes with IIS7— this means eith
 After installing Web Deploy using method (1) or (2a), described above, all server-level configuration is complete for non-administrator publishing, however additional configuration is required at a site level. This site configuration can be accomplished using methods (1) or (2) described below.
 
 1. Create a new site or set permissions on an existing Web site for a new or existing non-administrator user using Web Deploy PowerShell scripts as explained in the PowerShell scripts walkthrough [**link to be added**] OR
-2. Configure publishing on an existing site for an existing user using the IIS Manager UI 
+2. Configure publishing on an existing site for an existing user using the IIS Manager UI
 
     1. Start IIS Manager (type "inetmgr.exe" in the Start Menu)
     2. Expand the **Sites** node and right click a site, such as "test"
     3. Click **Deploy** &gt; **Configure for Web Deploy Publishing...**
-    4. The following UI will appear. Click **...**   
+    4. The following UI will appear. Click **...**
         [![](installing-and-configuring-web-deploy/_static/image9.png)](installing-and-configuring-web-deploy/_static/image8.png)
-    5. Click **Select :**   
+    5. Click **Select :**
         [![](installing-and-configuring-web-deploy/_static/image11.png)](installing-and-configuring-web-deploy/_static/image10.png)
 
-    6. Type the name of a non-administrator Windows user and click **Ok**   
+    6. Type the name of a non-administrator Windows user and click **Ok**
         [![](installing-and-configuring-web-deploy/_static/image13.png)](installing-and-configuring-web-deploy/_static/image12.png)
     7. When you click **Setup**, the following log will lines will appear:
- 
+
         - Publish enabled for 'NonAdminUser'
         - Granted 'NonAdminUser' full control on `C:\inetpub\wwwroot\test`
         - Successfully created settings file `C:\Users\JohnDoe\Desktop\NonAdminUser\_Default Web Site.PublishSettings`
@@ -81,7 +81,7 @@ Install Web Deploy using method (1) or (2a) described above. If you are using a 
 - net stop wmsvc &amp; net start wmsvc
 - Make sure your firewall allows connections to the service you are using. By default, the Web Deployment Agent Service (MsDepSvc) listens on port 80, and the Web Management Service (WmSvc, also called the "handler") listens on port 8172 by default.
 - You must run MsDepSvc by using the built-in Administrator account, or from a domain account that has been added to the Administrators group. A local administrator which is not the built-in account will not work with MsDepSvc.
-- Check to see if .NET 4.0 has not been registered with IIS: 
+- Check to see if .NET 4.0 has not been registered with IIS:
 
     - **Symptoms:** .NET 4.0 is installed, but there are no .NET 4.0 application pools or handler mappings in IIS. You cannot browse to applications that use .NET 4.0 (for example, applications based on WebMatrix's site template applications) after you publish them.
     - **Cause:** Your machine had .NET 4.0 installed on it before IIS was installed.

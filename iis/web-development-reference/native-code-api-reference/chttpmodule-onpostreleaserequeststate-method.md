@@ -50,5 +50,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostReleaseRequestState(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)
  [CHttpModule::OnReleaseRequestState Method](../../web-development-reference/native-code-api-reference/chttpmodule-onreleaserequeststate-method.md)

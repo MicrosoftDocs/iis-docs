@@ -350,7 +350,7 @@ Where "function\_name" can be on eof the following: "ToLower", "UrlEncode", "Url
 The string functions can be used in the following locations within rewrite rules:
 
 - In condition input strings
-- In rule substitution strings, specifically: 
+- In rule substitution strings, specifically:
 
   - **url** attribute of **Rewrite** and **Redirect** actions
   - **statusLine** and **responseLine** attributes of a **CustomResponse** action

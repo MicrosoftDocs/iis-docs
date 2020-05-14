@@ -61,20 +61,20 @@ returnValue = Utilities.CloneElement(element, _
 ```cpp
   public:
 static XElement^ CloneElement(
-    XElement^ element, 
+    XElement^ element,
     XNamespace^ targetNamespace
 )
 ```
 
 ``` fsharp
-  static member CloneElement : 
-        element:XElement * 
-        targetNamespace:XNamespace -> XElement 
+  static member CloneElement :
+        element:XElement *
+        targetNamespace:XNamespace -> XElement
 ```
 
 ```jscript
   public static function CloneElement(
-    element : XElement, 
+    element : XElement,
     targetNamespace : XNamespace
 ) : XElement
 ```

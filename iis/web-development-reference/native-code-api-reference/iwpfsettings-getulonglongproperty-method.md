@@ -40,9 +40,9 @@ virtual HRESULT GetUlonglongProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)   
- [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
- [IWpfSettings::GetDwordProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md)   
- [IWpfSettings::GetHandleProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   
- [IWpfSettings::GetStringProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getstringproperty-method.md)   
+ [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)
+ [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)
+ [IWpfSettings::GetDwordProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md)
+ [IWpfSettings::GetHandleProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-gethandleproperty-method.md)
+ [IWpfSettings::GetStringProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getstringproperty-method.md)
  [WPF_SETTINGS_ULONGLONG_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md)

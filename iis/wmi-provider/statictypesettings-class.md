@@ -43,9 +43,9 @@ class StaticTypeSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)   
- [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)   
- [HttpCompressionSchemeElement Class](../wmi-provider/httpcompressionschemeelement-class.md)   
+ [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)
+ [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)
+ [HttpCompressionSchemeElement Class](../wmi-provider/httpcompressionschemeelement-class.md)
  [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)

@@ -61,6 +61,6 @@ GetCacheOperation: CACHE_OPERATION_RETRIEVE
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer::DoCacheOperation Method](../../web-development-reference/native-code-api-reference/ihttpserver-docacheoperation-method.md)   
- [ICacheProvider::GetCacheOperation Method](../../web-development-reference/native-code-api-reference/icacheprovider-getcacheoperation-method.md)   
+ [IHttpServer::DoCacheOperation Method](../../web-development-reference/native-code-api-reference/ihttpserver-docacheoperation-method.md)
+ [ICacheProvider::GetCacheOperation Method](../../web-development-reference/native-code-api-reference/icacheprovider-getcacheoperation-method.md)
  [CGlobalModule::OnGlobalCacheOperation Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)

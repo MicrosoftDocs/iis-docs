@@ -63,23 +63,23 @@ instance.Initialize(status, metadata, _
 
 ```cpp
   void Initialize(
-    ITaskStatus^ status, 
-    IJobMetadata^ metadata, 
+    ITaskStatus^ status,
+    IJobMetadata^ metadata,
     ILogger^ logger
 )
 ```
 
 ``` fsharp
-  abstract Initialize : 
-        status:ITaskStatus * 
-        metadata:IJobMetadata * 
-        logger:ILogger -> unit 
+  abstract Initialize :
+        status:ITaskStatus *
+        metadata:IJobMetadata *
+        logger:ILogger -> unit
 ```
 
 ```jscript
   function Initialize(
-    status : ITaskStatus, 
-    metadata : IJobMetadata, 
+    status : ITaskStatus,
+    metadata : IJobMetadata,
     logger : ILogger
 )
 ```

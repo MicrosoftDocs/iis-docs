@@ -55,8 +55,8 @@ class CacheSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
- [CachingSection Class](../wmi-provider/cachingsection-class.md)   
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [OutputCacheSection Class](../wmi-provider/outputcachesection-class.md)   
+ [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)
+ [CachingSection Class](../wmi-provider/cachingsection-class.md)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [OutputCacheSection Class](../wmi-provider/outputcachesection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

@@ -53,7 +53,7 @@ virtual VOID DisableNotifications(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::GetIsLastNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getislastnotification-method.md)   
- [IHttpContext::GetNextNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getnextnotification-method.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
+ [IHttpContext::GetIsLastNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getislastnotification-method.md)
+ [IHttpContext::GetNextNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getnextnotification-method.md)
  [PFN_REGISTERMODULE Function](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md)

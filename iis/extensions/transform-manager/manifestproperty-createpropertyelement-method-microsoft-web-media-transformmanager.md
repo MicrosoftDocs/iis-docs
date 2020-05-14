@@ -56,7 +56,7 @@ XElement^ CreatePropertyElement()
 ```
 
 ``` fsharp
-  member CreatePropertyElement : unit -> XElement 
+  member CreatePropertyElement : unit -> XElement
 ```
 
 ```jscript

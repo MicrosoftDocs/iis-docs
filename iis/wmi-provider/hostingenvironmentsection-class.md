@@ -53,6 +53,6 @@ class HostingEnvironmentSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [hostingEnvironment Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67199)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [hostingEnvironment Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67199)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

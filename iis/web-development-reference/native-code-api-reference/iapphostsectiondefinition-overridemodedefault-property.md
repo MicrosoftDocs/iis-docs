@@ -15,7 +15,7 @@ HRESULT get_OverrideModeDefault(
 );  
 HRESULT put_OverrideModeDefault(  
    BSTR bstrOverrideModeDefault  
-);   
+);
 ```  
   
 ### Parameters  

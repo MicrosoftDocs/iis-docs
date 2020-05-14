@@ -59,15 +59,15 @@ Represents the method that handles the shutdown event for the job manager. This 
 
 ```cpp
   public delegate void JobManagerShutDownEventHandler(
-    Object^ sender, 
+    Object^ sender,
     EventArgs^ e
 )
 ```
 
 ``` fsharp
-  type JobManagerShutDownEventHandler = 
-    delegate of 
-        sender:Object * 
+  type JobManagerShutDownEventHandler =
+    delegate of
+        sender:Object *
         e:EventArgs -> unit
 ```
 

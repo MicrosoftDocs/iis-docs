@@ -62,8 +62,8 @@ static bool IsTraceLevelEnabled(
 ```
 
 ``` fsharp
-static member IsTraceLevelEnabled : 
-        traceLevel:TraceLevel -> bool 
+static member IsTraceLevelEnabled :
+        traceLevel:TraceLevel -> bool
 ```
 
 ```jscript

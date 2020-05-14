@@ -90,6 +90,6 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
- [ApplicationPoolContainsProcess Class](../wmi-provider/applicationpoolcontainsprocess-class.md)   
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
+ [ApplicationPoolContainsProcess Class](../wmi-provider/applicationpoolcontainsprocess-class.md)
  [WorkerProcess Class](../wmi-provider/workerprocess-class.md)

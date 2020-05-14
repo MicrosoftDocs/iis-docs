@@ -67,28 +67,28 @@ If your Web application is built by using anything except ASP.NET, use the IIS U
 
 In practice, however, the choice does not have to be either/or. The technologies can be used together and can complement each other. In the following sections, we outline some scenarios where you can use ASP.NET routing and IIS URL rewriting together.
 
-Enforcing canonical URLs for your application.   
+Enforcing canonical URLs for your application.
 You should force the use of http://www.mysite.com/home/about instead of http://mysite.com/Home/About. When a Web client requests a URL that does not conform to the format that you want, the client is redirected to a canonical URL. In this scenario, you can use the URL Rewrite module to enforce canonical URLs and perform redirection, and use ASP.NET routing to select a handler that would process the requested URL path.
 
 The following example shows a URL rewrite rule that you can use for this scenario:
 
 [!code-xml[Main](iis-url-rewriting-and-aspnet-routing/samples/sample1.xml)]
 
-Serving static content from a different site or server.   
+Serving static content from a different site or server.
 Your Web application is deployed on multiple servers in such a way that dynamic Web content is located on one site or server and all static content is on a different site or server. You can use the URL Rewrite module together with the [IIS Application Request Routing module](../planning-for-arr/using-the-application-request-routing-module.md) to forward all requests for static files to a different server, while serving all requests for dynamic Web pages from the current server. This way, ASP.NET routing is used only for dynamic Web content and does not evaluate any URLs for static content.
 
 The following example shows a URL rewrite rule that you can use for this scenario:
 
 [!code-xml[Main](iis-url-rewriting-and-aspnet-routing/samples/sample2.xml)]
 
-**Static content management**.   
+**Static content management**.
 When your static files or folders are moved to a new location, you can still support old URLs for backward compatibility reasons. In fact, you might not want Web site visitors to know that the files or folders have been moved. In that case you can use URL Rewrite module to rewrite paths for static files, while all the URLs to your dynamic ASP.NET Web pages are handled by the routing module.
 
 The following example shows a URL rewrite rule that you can use for this scenario:
 
 [!code-xml[Main](iis-url-rewriting-and-aspnet-routing/samples/sample3.xml)]
 
-**Request blocking**.   
+**Request blocking**.
 The URL Rewrite module can be used to block certain requests based on various criteria. For example, you can prevent certain site crawlers from accessing specific URL paths on your Web site. That way, forbidden requests will not even get to the ASP.NET router, thus reducing the load on your Web server.
 
 The following example shows a URL rewrite rule that you can use to block unwanted site crawlers. Note that the requests are blocked for a particular URL path based on either the user-agent HTTP header or based on the client's IP address:

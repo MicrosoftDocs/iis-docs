@@ -59,15 +59,15 @@ public delegate void SetPlaybackRangeCompletedEventHandler(
 
 ```cpp
 public delegate void SetPlaybackRangeCompletedEventHandler(
-    Object^ sender, 
+    Object^ sender,
     AsyncCompletedEventArgs^ args
 )
 ```
 
 ``` fsharp
-type SetPlaybackRangeCompletedEventHandler = 
-    delegate of 
-        sender:Object * 
+type SetPlaybackRangeCompletedEventHandler =
+    delegate of
+        sender:Object *
         args:AsyncCompletedEventArgs -> unit
 ```
 

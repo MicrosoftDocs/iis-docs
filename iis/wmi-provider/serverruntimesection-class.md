@@ -61,8 +61,8 @@ class ServerRuntimeSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)   
- [HttpRequest Class](../wmi-provider/httprequest-class.md)   
- [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)
+ [HttpRequest Class](../wmi-provider/httprequest-class.md)
+ [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

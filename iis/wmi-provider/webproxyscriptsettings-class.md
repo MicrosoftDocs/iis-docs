@@ -43,6 +43,6 @@ class WebProxyScriptSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [SettingsSection Class](../wmi-provider/settingssection-class.md)

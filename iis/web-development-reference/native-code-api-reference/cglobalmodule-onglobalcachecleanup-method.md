@@ -45,5 +45,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCacheCleanup(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)   
+ [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)
  [CGlobalModule::OnGlobalCacheOperation Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)

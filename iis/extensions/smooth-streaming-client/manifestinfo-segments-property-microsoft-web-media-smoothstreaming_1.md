@@ -88,7 +88,7 @@ You will get notifications for de-selection of current streams followed by selec
 
 The following example shows how to get [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) and [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects from the [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) object.
 
-``` 
+```
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     {
         if (!PremiumAccount)

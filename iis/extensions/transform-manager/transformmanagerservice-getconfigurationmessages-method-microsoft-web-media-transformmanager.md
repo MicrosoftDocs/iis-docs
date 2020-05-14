@@ -59,9 +59,9 @@ virtual Collection<ConfigurationMessage^>^ GetConfigurationMessages() sealed
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetConfigurationMessages : unit -> Collection<ConfigurationMessage> 
+abstract GetConfigurationMessages : unit -> Collection<ConfigurationMessage>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetConfigurationMessages : unit -> Collection<ConfigurationMessage> 
+override GetConfigurationMessages : unit -> Collection<ConfigurationMessage>
 ```
 
 ```jscript

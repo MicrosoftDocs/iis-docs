@@ -54,7 +54,7 @@ static void UploadTraces()
 ```
 
 ``` fsharp
-static member UploadTraces : unit -> unit 
+static member UploadTraces : unit -> unit
 ```
 
 ```jscript

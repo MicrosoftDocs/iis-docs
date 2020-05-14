@@ -63,7 +63,7 @@ CircularList(
 ```
 
 ``` fsharp
-new : 
+new :
         maxLength:int -> CircularList
 ```
 

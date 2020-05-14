@@ -43,5 +43,5 @@ class AssemblySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AssemblyElement Class](../wmi-provider/assemblyelement-class.md)   
+ [AssemblyElement Class](../wmi-provider/assemblyelement-class.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

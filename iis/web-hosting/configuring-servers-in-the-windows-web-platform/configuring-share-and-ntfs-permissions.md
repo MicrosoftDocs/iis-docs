@@ -37,7 +37,7 @@ The following table lists permissions that were used for the file server share a
 2. On the **Sharing** tab, click **Advanced Sharing**.
 3. In User Account Control, click **Continue** to accept the prompt that Windows needs your permission to perform the action.
 4. In the **Advanced Sharing** dialog box, check **Share this folder**.
-5. Set the **Share name** and **Comments** as appropriate. To make the share hidden, add a $ to the end of the share name.   
+5. Set the **Share name** and **Comments** as appropriate. To make the share hidden, add a $ to the end of the share name.
   
     > [!NOTE]
     > Hiding a share means that when you connect to [\\server](file://server/) you will not see the share unless you specifically enter the path [\\server\share$](file://server/share$).

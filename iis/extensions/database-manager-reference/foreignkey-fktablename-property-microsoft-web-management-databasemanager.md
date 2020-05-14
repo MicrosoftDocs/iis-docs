@@ -402,7 +402,7 @@ The following code sample implements the [GetTableInfo](idbtablemanager-gettable
                 dbIndex.OriginalName = row["INDEX_NAME"].ToString();
                 // Append the index's uniqueness.
                 dbIndex.Unique = (bool)row["UNIQUE"];
-                // Specify the index type. 
+                // Specify the index type.
                 dbIndex.IndexType = (bool)row["PRIMARY_KEY"] == true ? IndexType.PrimaryKey : IndexType.Index;
                 // Create an index column object.
                 IndexColumn column = new IndexColumn();

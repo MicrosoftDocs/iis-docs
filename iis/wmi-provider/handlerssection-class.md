@@ -82,10 +82,10 @@ Call DisplayHandlers
   
 ' Create a new handler.  
 Set oHandler = oWebAdmin.Get("HandlerAction").SpawnInstance_  
-oHandler.Name = "NewHandler"   
-oHandler.Path="*.stm"   
-oHandler.Verb="GET,POST"   
-oHandler.Modules="ServerSideIncludeModule"   
+oHandler.Name = "NewHandler"
+oHandler.Path="*.stm"
+oHandler.Verb="GET,POST"
+oHandler.Modules="ServerSideIncludeModule"
   
 ' Add the handler to the <handlers> section.  
 oHandlersSection.Add "Handlers", oHandler  
@@ -93,7 +93,7 @@ oHandlersSection.Add "Handlers", oHandler
 ' Call the WMI Refresh_ method to update the oHandlersSection object.  
 oHandlersSection.Refresh_  
   
-' Display the new handler names.   
+' Display the new handler names.
 WScript.Echo "---[New Handler List]---"  
 Call DisplayHandlers  
   
@@ -115,19 +115,19 @@ Call DisplayHandlers
 For Each oHandler In oHandlersSection.Handlers  
      If oHandler.Name = "CGI-exe" Then  
         oHandlersSection.Remove "Handlers", oHandler  
-    End If   
+    End If
 Next  
   
 ' Call the WMI Refresh_ method to update the oHandlersSection object.  
 oHandlersSection.Refresh_  
   
-' Display the new list of handler names.   
+' Display the new list of handler names.
 WScript.Echo "---[New Handler List]---"  
 Call DisplayHandlers  
   
 ' This is the sub that displays the handler names.  
 Sub DisplayHandlers  
-    WScript.Echo   
+    WScript.Echo
     For Each oHandler In oHandlersSection.Handlers  
         WScript.Echo "Handler Name: " & oHandler.Name  
     Next  
@@ -152,5 +152,5 @@ End Sub
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [HandlerAction Class](../wmi-provider/handleraction-class.md)

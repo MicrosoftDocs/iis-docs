@@ -65,24 +65,24 @@ void SubmitJob(
 ```cpp
 [OperationContractAttribute]
 void SubmitJob(
-    String^ jobDefinitionId, 
-    String^ instanceFileName, 
+    String^ jobDefinitionId,
+    String^ instanceFileName,
     XElement^ smilManifest
 )
 ```
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract SubmitJob : 
-        jobDefinitionId:string * 
-        instanceFileName:string * 
-        smilManifest:XElement -> unit 
+abstract SubmitJob :
+        jobDefinitionId:string *
+        instanceFileName:string *
+        smilManifest:XElement -> unit
 ```
 
 ```jscript
   function SubmitJob(
-    jobDefinitionId : String, 
-    instanceFileName : String, 
+    jobDefinitionId : String,
+    instanceFileName : String,
     smilManifest : XElement
 )
 ```

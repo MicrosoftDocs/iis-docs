@@ -64,7 +64,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfiguredObject.GetAllSections Method](../wmi-provider/configuredobject-getallsections-method.md)   
- [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
+ [ConfiguredObject.GetAllSections Method](../wmi-provider/configuredobject-getallsections-method.md)
+ [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)
+ [Site Class](../wmi-provider/site-class.md)
  [VirtualDirectoryContainsConfigurationSection Class](../wmi-provider/virtualdirectorycontainsconfigurationsection-class.md)

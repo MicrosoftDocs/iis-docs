@@ -41,7 +41,7 @@ To use Web PI to install this application, complete these steps:
 3. Select the **BlogEngine.NET** check box, and click **I Accept**.  
   
     [![](blogenginenet/_static/image7.jpg)](blogenginenet/_static/image6.jpg)
-4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**. 
+4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**.
 
     Once the preinstallation steps complete, the site information window appears.  
    [![](blogenginenet/_static/image9.jpg)](blogenginenet/_static/image8.jpg)
@@ -77,7 +77,7 @@ To use WebMatrix to install this application, complete these steps:
   
    The WebMatrix home page appears.  
     [![](blogenginenet/_static/image17.jpg)](blogenginenet/_static/image16.jpg)
-2. Click **Site From Web Gallery**.   
+2. Click **Site From Web Gallery**.
   
    The Site from Web Gallery page appears.  
     [![](blogenginenet/_static/image19.jpg)](blogenginenet/_static/image18.jpg)
@@ -88,7 +88,7 @@ To use WebMatrix to install this application, complete these steps:
 4. Click **I Accept** to agree to the end-user license agreement.  
   
    WebMatrix installs the BlogEngine.NET software on your local computer. This page appears once installation is complete.    [![](blogenginenet/_static/image23.jpg)](blogenginenet/_static/image22.jpg)
-5. Click **OK**.   
+5. Click **OK**.
   
    The BlogEngine.NET application starts as indicated in bottom-left corner of the page.  
     [![](blogenginenet/_static/image25.jpg)](blogenginenet/_static/image24.jpg)

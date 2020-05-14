@@ -71,8 +71,8 @@ class AspSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AspCache Class](../wmi-provider/aspcache-class.md)   
- [AspComPlus Class](../wmi-provider/aspcomplus-class.md)   
- [AspLimits Class](../wmi-provider/asplimits-class.md)   
- [AspSession Class](../wmi-provider/aspsession-class.md)   
+ [AspCache Class](../wmi-provider/aspcache-class.md)
+ [AspComPlus Class](../wmi-provider/aspcomplus-class.md)
+ [AspLimits Class](../wmi-provider/asplimits-class.md)
+ [AspSession Class](../wmi-provider/aspsession-class.md)
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

@@ -37,7 +37,7 @@ To begin, you will create an outbound rewrite rule that adds a JavaScript code s
 
 [!code-xml[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample2.xml)]
 
-**To create the outbound rule:** 
+**To create the outbound rule:**
 
 1. Open IIS Manager
 2. Select "Default Web Site"
@@ -64,14 +64,14 @@ A precondition is used to evaluate whether the outbound rules evaluation should 
 
 Because the rule that you are creating should be applied only on HTML responses, you will define a precondition that checks whether the HTTP response header **content-type** is equial to "text/html".
 
-**To define a precondition:** 
+**To define a precondition:**
 
 1. In the Pre-conditions list, select "&lt;Create New Pre-condition...&gt;".
-2. This will bring you to the Pre-condition editor dialog, where you will need to define the precondition. Specify the precondition settings as follows: 
+2. This will bring you to the Pre-condition editor dialog, where you will need to define the precondition. Specify the precondition settings as follows:
 
    - Name: "**IsHTML**"
    - Using: "**Regular Expressions**"
-   - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
+   - Click "Add" to bring up the "Add condition" dialog. In this dialog specify:
 
      - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
      - Check if input string: "**Matches the pattern**"

@@ -60,16 +60,16 @@ void DropTable(
 
 ```cpp
 void DropTable(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     TableInfo^ tableInfo
 )
 ```
 
 ```jscript
 function DropTable(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     tableInfo : TableInfo
 )
 ```

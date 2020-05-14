@@ -165,12 +165,12 @@ In this section, we create two new sites and add each site to an application poo
 4. In the command window, navigate to your **wwwroot** directory using the following command:  
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample9.cmd)]
-5. Create a new directory named "**one**" and a directory "**two**" using the following commands: 
+5. Create a new directory named "**one**" and a directory "**two**" using the following commands:
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample10.cmd)]
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample11.cmd)]
-6. Create a basic **Default.htm** file in both the "**one**" and "**two**" directories that contain following HTML code: 
+6. Create a basic **Default.htm** file in both the "**one**" and "**two**" directories that contain following HTML code:
 
     [!code-html[Main](using-encryption-to-protect-passwords/samples/sample12.html)]
 
@@ -184,20 +184,20 @@ Now use the IIS manager to create two sites:
 3. Right click **Site** in the tree view under **Connections** and then select **Add Web Site**.
 4. Use the following information to create your site:
   
-    ***Web Site Name: One   
-Application Pool: AppPool1   
-Physical Path: {location of your inetpub directory}\wwwroot\one   
+    ***Web Site Name: One
+Application Pool: AppPool1
+Physical Path: {location of your inetpub directory}\wwwroot\one
 Port: 81***  
 
     This should look like the following when completed:
   
     [![](using-encryption-to-protect-passwords/_static/image12.jpg)](using-encryption-to-protect-passwords/_static/image11.jpg)
 5. Click **OK** to save the changes.
-6. Repeat the previous two steps but this time use the following information for the second site:   
+6. Repeat the previous two steps but this time use the following information for the second site:
   
-    ***Web Site Name: Two   
-Application Pool: AppPool2   
-Physical Path: {location of your inetpub directory}\wwwroot\two   
+    ***Web Site Name: Two
+Application Pool: AppPool2
+Physical Path: {location of your inetpub directory}\wwwroot\two
 Port: 82***
 
 You have now created two new sites named **One** and **Two**, and added them to the **AppPool1** and **AppPool2** applications pools.

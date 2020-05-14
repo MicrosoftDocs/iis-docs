@@ -56,8 +56,8 @@ virtual ICollection<String^>^ GetRunningJobs() override
 ```
 
 ``` fsharp
-  abstract GetRunningJobs : unit -> ICollection<string> 
-override GetRunningJobs : unit -> ICollection<string> 
+  abstract GetRunningJobs : unit -> ICollection<string>
+override GetRunningJobs : unit -> ICollection<string>
 ```
 
 ```jscript

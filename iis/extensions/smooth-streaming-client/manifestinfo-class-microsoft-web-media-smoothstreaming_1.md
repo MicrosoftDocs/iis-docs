@@ -107,7 +107,7 @@ The following example shows how to get [SegmentInfo](segmentinfo-class-microsoft
 
 For more information, see [Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md)
 
-``` 
+```
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     {
         if (!PremiumAccount)

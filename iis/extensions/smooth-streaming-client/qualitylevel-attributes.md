@@ -25,7 +25,7 @@ The QualityLevel element supports the following attributes:
   - Scheme. \[Optional\] Specifies a four-character code for the protection scheme used. If omitted, the default value is "piff".
 
   - SchemeVersion. \[Optional\] Specifies a major and minor version for the protection scheme used. If omitted, the default value is determined by the MajorVersion and MinorVersion values of the client manifest, as shown in the following table:
-    
+
     |MajorVersion|MinorVersion|SchemeVersion|
     |--- |--- |--- |
     |1|Any|1.0|
@@ -63,17 +63,17 @@ Depending on the value of the Type attribute of the parent StreamIndex element, 
 If the Type of the track is video, the following additional attributes are supported:
 
   - BufferTime. \[Optional\] Specifies the number of milliseconds that the client should buffer data before playback. Depending on the codec, this value will correspond to different values in the reference decoder buffer model:
-    
+
       - VC-1. BufferTime corresponds to BUFFER\_SIZE divided by the bitrate of the stream.
-    
+
       - H.264. BufferTime corresponds to the value, in kilohertz, of the result of calculating (initial\_cpb\_removal\_delay + initial\_cpb\_removal\_delay\_offset) / 90.
 
   - NominalBitrate. \[Optional\] Specifies the maximum bitrate for this quality level in bits-per-second (bps) over any window of one second.
 
   - CodecPrivateData. \[Required\] Specifies the codec private data property of this video stream:
-    
+
       - For VC-1, the CodecPrivateData field is the data appended to the BITMAPINFOHEADER value, encoded in base16.
-    
+
       - For H.264 MPEG4 Part15, the CodecPrivateData field must contain SPS and PPS, in the following form, base16-encoded: \[start code\]\[SPS\]\[start code\]\[PPS\], where \[start code\] is the following four bytes: 0x00, 0x00, 0x00, 0x01.
 
   - MaxHeight. \[Optional\] Specifies the maximum coded height in pixels for this quality level. Defaults to the corresponding value in the parent StreamIndex element.

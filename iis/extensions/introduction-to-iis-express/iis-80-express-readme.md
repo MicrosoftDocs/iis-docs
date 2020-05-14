@@ -41,11 +41,11 @@ When you install IIS 8.0 Express on a 64-bit system, both the 32-bit and 64-bit 
 
 IIS 8.0 Express is supported on the following operating systems:
 
-- Supported Native Platforms 
+- Supported Native Platforms
 
     - Windows 8 Client (Intel/AMD) 32-bit/64-bit
     - Windows Server 2012 (Intel/AMD) 64-bit
-- Supported Down-level Platforms 
+- Supported Down-level Platforms
 
     - Windows 7 (x86 and x64)
     - Windows Server 2008 R2 (x86 and x64)
@@ -106,7 +106,7 @@ There are a few features which require architecture that is specific to Windows 
 
 IIS 8.0 Express now shares the same set of HTTP status and substatus codes; this change was made so that developers would find it easier to troubleshoot problems by using IIS 8.0 Express or the full version of IIS on their web server. The following list contains the HTTP substatus codes that were included with IIS 7.5 Express that have been modified or deprecated:
 
-- HTTP 404.20 - This was the error that was returned when no default document was defined: 
+- HTTP 404.20 - This was the error that was returned when no default document was defined:
 
     - IIS 8.0 Express returns an HTTP 403 *Access Forbidden* error when no default document is defined.
     - IIS 8.0 Express returns an HTTP 404.20 error for *Too Many URL Segments*.

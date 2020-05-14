@@ -62,8 +62,8 @@ static String^ GetAssemblyInfo(
 ```
 
 ``` fsharp
-  static member GetAssemblyInfo : 
-        type:string -> string 
+  static member GetAssemblyInfo :
+        type:string -> string
 ```
 
 ```jscript

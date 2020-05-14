@@ -45,7 +45,7 @@ Ensure that the account that you use to log in is the administrator account or i
 
 You must make a backup of the configuration before doing the following tasks.
 
-**To make a backup of the configuration:** 
+**To make a backup of the configuration:**
 
 1. Click the Windows logo key and the **X** key simultaneously, click **Command Prompt (Admin)**, and then click **Yes**.
 
@@ -71,7 +71,7 @@ The above command creates a cleanInstall folder containing backup configuration 
 
 ASP must be disabled for this task. ASP is disabled only as an example and for the purposes of the tasks in this article.
 
-**To disable ASP:** 
+**To disable ASP:**
 
 1. Open IIS Manager and select the server.
 2. Double-click **ISAPI and CGI Restrictions**.

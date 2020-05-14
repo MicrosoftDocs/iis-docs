@@ -115,7 +115,7 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
 
    - Click **Project**, and then click **FtpAddressRestrictionAuthentication Properties**.
    - Click the **Reference Paths** tab.
-   - Enter the path to the FTP extensibility assembly for your version of Windows, where C: is your operating system drive. 
+   - Enter the path to the FTP extensibility assembly for your version of Windows, where C: is your operating system drive.
 
      - For Windows Server 2008 and Windows Vista:
 

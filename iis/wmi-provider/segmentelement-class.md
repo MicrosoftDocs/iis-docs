@@ -43,6 +43,6 @@ class SegmentElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HiddenSegmentSettings Class](../wmi-provider/hiddensegmentsettings-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HiddenSegmentSettings Class](../wmi-provider/hiddensegmentsettings-class.md)
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)

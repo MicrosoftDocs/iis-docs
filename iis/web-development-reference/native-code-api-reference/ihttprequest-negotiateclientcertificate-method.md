@@ -12,7 +12,7 @@ Initiates client certificate negotiation with a Web client.
 HRESULT NegotiateClientCertificate(  
    IN BOOL fAsync,  
    OUT BOOL* pfCompletionPending = NULL  
-)   
+)
 ```  
   
 ### Parameters  
@@ -52,5 +52,5 @@ HRESULT NegotiateClientCertificate(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)
  [IHttpRequest::GetClientCertificate Method](../../web-development-reference/native-code-api-reference/ihttprequest-getclientcertificate-method.md)

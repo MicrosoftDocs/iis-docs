@@ -17,7 +17,7 @@ The `<staticContent>` element configures several settings related to processing 
 The `<staticContent>` element contains the following three attributes that specify whether IIS 7 should apply a document footer to static files:
 
 - The **enableDocFooter** attribute specifies whether document footers are enabled.
-- The defaultDocFooter attribute contains either: 
+- The defaultDocFooter attribute contains either:
 
     - A text string that IIS 7 will use for the document footer if the **isDocFooterFileName** attribute is set to **false**
     - The fully-qualified path to a file that contains the text that IIS 7 will use for the document footer if the **isDocFooterFileName** attribute is set to **true**.

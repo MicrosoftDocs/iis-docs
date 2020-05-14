@@ -66,11 +66,11 @@ virtual JobStatus CancelJob(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract CancelJob : 
-        jobDetails:JobDetails -> JobStatus 
+abstract CancelJob :
+        jobDetails:JobDetails -> JobStatus
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override CancelJob : 
-        jobDetails:JobDetails -> JobStatus 
+override CancelJob :
+        jobDetails:JobDetails -> JobStatus
 ```
 
 ```jscript

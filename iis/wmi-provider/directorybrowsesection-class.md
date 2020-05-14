@@ -78,7 +78,7 @@ WScript.Echo "Path: " & oSection.Path
 WScript.Echo "Location: " & oSection.Location  
 WScript.Echo "Enabled: " & oSection.Enabled  
 WScript.Echo "ShowFlags: " & oSection.ShowFlags  
-WScript.Echo   
+WScript.Echo
 WScript.Echo "DirectoryBrowseSection.SectionInformation"  
 WScript.Echo "-----------------------------------------"  
 WScript.Echo "OverrideMode: " & oSection.SectionInformation.OverrideMode  
@@ -105,5 +105,5 @@ WScript.Echo "LockItem: " & _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [Configure Directory Browsing](https://go.microsoft.com/fwlink/?LinkId=64345)

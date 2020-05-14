@@ -56,7 +56,7 @@ For Each vProp In oSection.Properties_
         WScript.Echo vProp.Name & ": " & vProp.Value  
     End If  
 Next  
-WScript.Echo   
+WScript.Echo
   
 ' Display the HttpErrorsSection SectionInformation properties.  
 WScript.Echo "HttpErrorsSection.SectionInformation"  
@@ -88,7 +88,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
- [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
+ [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)
  [HttpErrorsSection Class](../wmi-provider/httperrorssection-class.md)

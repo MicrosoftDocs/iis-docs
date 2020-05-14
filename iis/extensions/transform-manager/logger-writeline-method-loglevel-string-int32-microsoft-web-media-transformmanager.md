@@ -59,27 +59,27 @@ instance.WriteLine(level, value, eventId)
 ```cpp
   public:
 virtual void WriteLine(
-    LogLevel level, 
-    String^ value, 
+    LogLevel level,
+    String^ value,
     int eventId
 ) sealed
 ```
 
 ``` fsharp
-  abstract WriteLine : 
-        level:LogLevel * 
-        value:string * 
-        eventId:int -> unit 
-override WriteLine : 
-        level:LogLevel * 
-        value:string * 
-        eventId:int -> unit 
+  abstract WriteLine :
+        level:LogLevel *
+        value:string *
+        eventId:int -> unit
+override WriteLine :
+        level:LogLevel *
+        value:string *
+        eventId:int -> unit
 ```
 
 ```jscript
   public final function WriteLine(
-    level : LogLevel, 
-    value : String, 
+    level : LogLevel,
+    value : String,
     eventId : int
 )
 ```

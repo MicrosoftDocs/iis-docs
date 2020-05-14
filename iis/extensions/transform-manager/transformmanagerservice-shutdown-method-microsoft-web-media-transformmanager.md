@@ -53,7 +53,7 @@ static void Shutdown()
 ```
 
 ``` fsharp
-  static member Shutdown : unit -> unit 
+  static member Shutdown : unit -> unit
 ```
 
 ```jscript

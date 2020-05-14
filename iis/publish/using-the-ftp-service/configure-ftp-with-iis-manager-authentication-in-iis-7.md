@@ -41,10 +41,10 @@ This document walks you through configuring FTP authentication for IIS 7 Manager
 You must install the following items to complete the procedures in this article:
 
 1. IIS 7 must be installed on your that is running Windows Server 2008 or Windows Server 2008 R2, and the Internet Information Services Manager must be installed.
-2. The new FTP service. 
+2. The new FTP service.
 
     - If you are using Windows Server 2008 R2, the new FTP service is installed as feature of the IIS role in Server Manager.
-    - If you are using Windows Server 2008 you can download and install the FTP service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links: 
+    - If you are using Windows Server 2008 you can download and install the FTP service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links:
 
         - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
         - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
@@ -52,7 +52,7 @@ You must install the following items to complete the procedures in this article:
 The "Network Service" account is used by the COM process that handles authentication extensibility; therefore, you must grant the account specific permissions to certain folders to enable this form of authentication. To grant the "Network Service" account "read" permissions to the IIS "config" folder:
 
 1. Open a command prompt.
-2. Type the following command: 
+2. Type the following command:
 
     [!code-console[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample1.cmd)]
 3. Close the command prompt.
@@ -60,10 +60,10 @@ The "Network Service" account is used by the COM process that handles authentica
 Create a root folder for FTP publishing:
 
 1. Create a folder at `%SystemDrive%\inetpub\ftproot`.
-2. Set the permissions to allow access for the COM process that handles authentication extensibility: 
+2. Set the permissions to allow access for the COM process that handles authentication extensibility:
 
     - Open a command prompt.
-    - Type the following command: 
+    - Type the following command:
 
         [!code-console[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample2.cmd)]
     - Close the command prompt.
@@ -131,7 +131,7 @@ In this first step, you create a new FTP site that can only be opened by the loc
 1. Go to the IIS 7 Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
     ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image1.jpg)
-3. When the **Add FTP Site** wizard appears: 
+3. When the **Add FTP Site** wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
 
@@ -140,7 +140,7 @@ In this first step, you create a new FTP site that can only be opened by the loc
     - Click **Next**.
 
       ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.jpg)
-4. On the next page of the wizard: 
+4. On the next page of the wizard:
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using an IIS 7 manager account later in this walk-through, make sure that you restrict access to the server -- enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
    - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
@@ -149,7 +149,7 @@ In this first step, you create a new FTP site that can only be opened by the loc
    - Click **Next**.
 
    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image11.jpg)
-5. On the next page of the wizard: 
+5. On the next page of the wizard:
 
    - In **Authentication** settings, select **Basic**.
    - In **Authorization** settings, choose "Specified users" from the **Allow access to** drop-down. Type "administrator" in the box, and select both **Read** and **Write** in **Permissions** options.
@@ -183,7 +183,7 @@ This section walks you through the steps required to enable IIS 7 Manager Authen
     ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image77.png)
 11. When the **FTP Authorization Rules** page displays, click **Add Allow Rule** in the **Actions** pane.  
     ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image81.png)
-12. When the **Add Allow Authorization Rule** dialog box opens: 
+12. When the **Add Allow Authorization Rule** dialog box opens:
 
     - Select **Specified users**, then type "ftpmanager" in the text box.
     - For **Permissions**, select both **Read** and **Write**.
@@ -195,12 +195,12 @@ This section walks you through the steps required to enable IIS 7 Manager Authen
 
 To recap the items that you completed in this section:
 
-1. You created a new FTP site named "My New FTP Site": 
+1. You created a new FTP site named "My New FTP Site":
 
     - You specified the site's content root at `%SystemDrive%\inetpub\ftproot`.
     - You bound the FTP site to the local loopback address for your computer on port 21, choosing not to use Secure Sockets Layer (SSL) for the FTP site.
     - You configured Basic Authentication to the FTP site, and created an authorization rule that allows the administrator account both "Read" and "Write" permissions for the FTP site.
-2. You configured the FTP site to use an IIS 7 Manager account: 
+2. You configured the FTP site to use an IIS 7 Manager account:
 
     - You enabled IIS 7 Manager Authentication.
     - You granted access to the site for an IIS 7 manager account.
@@ -213,10 +213,10 @@ To recap the items that you completed in this section:
 After completing all of the steps in the **Configuring the IIS 7 Management Service** and **Creating a New FTP Site and Configuring an IIS Manager account** sections of this walkthrough, you are now able to log in using the "ftpmanager" account that you created. To use the command-line FTP.EXE client on your IIS server:
 
 1. Open a command prompt.
-2. Type the following command: 
+2. Type the following command:
 
     FTP localhost
-3. When prompted for your USER name, enter your user name and password. For example: 
+3. When prompted for your USER name, enter your user name and password. For example:
 
     [!code-console[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample3.cmd)]
 4. The FTP service should log you into the FTP site using the IIS 7 Manager account.

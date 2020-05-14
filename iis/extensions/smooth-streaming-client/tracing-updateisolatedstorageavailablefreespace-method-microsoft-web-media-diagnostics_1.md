@@ -54,7 +54,7 @@ static void UpdateIsolatedStorageAvailableFreeSpace()
 ```
 
 ``` fsharp
-static member UpdateIsolatedStorageAvailableFreeSpace : unit -> unit 
+static member UpdateIsolatedStorageAvailableFreeSpace : unit -> unit
 ```
 
 ```jscript

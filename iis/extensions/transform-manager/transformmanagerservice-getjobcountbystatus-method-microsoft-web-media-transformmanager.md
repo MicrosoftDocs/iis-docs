@@ -66,11 +66,11 @@ virtual int GetJobCountByStatus(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobCountByStatus : 
-        status:JobStatus -> int 
+abstract GetJobCountByStatus :
+        status:JobStatus -> int
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobCountByStatus : 
-        status:JobStatus -> int 
+override GetJobCountByStatus :
+        status:JobStatus -> int
 ```
 
 ```jscript

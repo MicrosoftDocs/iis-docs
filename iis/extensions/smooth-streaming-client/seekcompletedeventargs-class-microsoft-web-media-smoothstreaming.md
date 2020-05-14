@@ -89,7 +89,7 @@ For more information, see the example in the topic [Events (IIS Smooth Streaming
 
 The following code uses the SeekCompletedEventArgs parameter to find the position of the player after a seek operation.
 
-``` 
+```
     void SmoothPlayer_SeekCompleted(object sender, SeekCompletedEventArgs e)
     {
         OutputText.Text = "  Seek complete at: " + ((SmoothStreamingMediaElement)sender).Position;

@@ -45,7 +45,7 @@ The ability to view the cached contents on ARR is a UI feature that is implement
 
     ![](browse-cached-contents-on-disk-on-application-request-routing/_static/image3.jpg)
 5. The contents appear similar to Windows Explorer. However, this view has an advantage over Windows Explorer in that given a host name, the contents may be cached on several drive locations based on CARP. Rather than browsing through the physical cache drive locations, the browse functionality in ARR aggregates the cached contents and provides a consolidated view.  
-   
+
    You can further navigate the cached contents by clicking on the bread crumb or double-clicking the folders.
 
     [![](browse-cached-contents-on-disk-on-application-request-routing/_static/image5.jpg)](browse-cached-contents-on-disk-on-application-request-routing/_static/image4.jpg)
@@ -68,7 +68,7 @@ In the above example, selecting ***any*** one of the files will remove ***all***
 > The selected cached content(s) will be removed from both the primary cache drive location(s) and the secondary cache drive location, if configured.
 
 1. While browsing, select a folder or a file that you want to delete.
-2. In the **Actions** pane, click **Delete Selected Cached Object**. 
+2. In the **Actions** pane, click **Delete Selected Cached Object**.
 
     ![](browse-cached-contents-on-disk-on-application-request-routing/_static/image6.jpg)
 3. In the confirmation dialog box, click **Yes**.

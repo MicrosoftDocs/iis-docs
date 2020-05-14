@@ -58,20 +58,20 @@ public CacheResponse2(
 ```cpp
 public:
 CacheResponse2(
-    Stream^ stream, 
+    Stream^ stream,
     bool continueProcessing
 )
 ```
 
 ``` fsharp
-new : 
-        stream:Stream * 
+new :
+        stream:Stream *
         continueProcessing:bool -> CacheResponse2
 ```
 
 ```jscript
 public function CacheResponse2(
-    stream : Stream, 
+    stream : Stream,
     continueProcessing : boolean
 )
 ```

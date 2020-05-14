@@ -56,7 +56,7 @@ bool IsFull()
 ```
 
 ``` fsharp
-member IsFull : unit -> bool 
+member IsFull : unit -> bool
 ```
 
 ```jscript

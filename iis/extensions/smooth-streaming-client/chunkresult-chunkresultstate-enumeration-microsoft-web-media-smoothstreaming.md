@@ -64,7 +64,7 @@ An enumeration that contains the possible result states during processing by the
 
 The following example shows the call to the [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) method and return of a [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) object that contains the ChunkResult..::..ChunkResultState that indicates success or failure. For more information on this asynchronous scenario, see [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-and-events.md).
 
-``` 
+```
     foreach (TrackInfo trackInfo in streamInfo.SelectedTracks)
     {
         ChunkResult chunkResult = trackInfo.EndGetChunk(argAR);

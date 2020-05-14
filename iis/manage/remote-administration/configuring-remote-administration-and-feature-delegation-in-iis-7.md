@@ -42,7 +42,7 @@ Configuring remote administration involves enabling remote connections in IIS Ma
 
 The default IIS installation options do not include the Management Service (also referred to as the Web Management Service (WMSVC)), which is required for remote administration. If you have not installed the Management Service, follow the steps in this procedure to install it.
 
-**To install the Management Service:** 
+**To install the Management Service:**
 
 1. Click **Start**, type **Server Manager** in the **Search** box, and press ENTER to open Server Manager.
 2. In the tree, under **Roles**, select **Web Server (IIS)**.
@@ -56,7 +56,7 @@ Enable remote connections so that Windows users and IIS Manager users (configure
 > [!NOTE]
 > The next section in this article explains IIS Manager credentials.
 
-**To enable remote connections and allow connections from Windows users and IIS Manager users:** 
+**To enable remote connections and allow connections from Windows users and IIS Manager users:**
 
 1. In IIS Manager, in the Connections pane, click the server node in the tree.
 2. Double-click Management Service to open the Management Service feature page.
@@ -94,7 +94,7 @@ When you configured the Management Service in the above section, you selected th
 
 The following procedures explain how to open the IIS Manager Users feature and add a user. When the **IIS Manager Users** feature page opens, the list displays each IIS Manager user name and whether the account is enabled or disabled. Only enabled accounts are allowed to connect to sites or applications for which they have been granted permission.
 
-**To add an IIS Manager user:** 
+**To add an IIS Manager user:**
 
 1. In IIS Manager, in the **Connections** pane, click the server node in the tree.
 2. On the server home page, double-click **IIS Manager Users**.  
@@ -109,7 +109,7 @@ The following procedures explain how to open the IIS Manager Users feature and a
 
 In order for a user to remotely connect to a site or application on the server, they must be granted permission to a site or application by the server administrator. After they are granted permission, they can use IIS Manager to connect to the site or application using either their Windows credentials (if they are a Windows user) or their IIS Manager user credentials (if they are an IIS Manager user).
 
-**To permit an IIS Manager user to connect to a site or an application:** 
+**To permit an IIS Manager user to connect to a site or an application:**
 
 1. In IIS Manager, in the **Connections** pane, select the site or application for which you want to configure permissions.
 2. On the home page for the site or application, double-click **IIS Manager Permissions**.  
@@ -121,7 +121,7 @@ In order for a user to remotely connect to a site or application on the server, 
     [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image18.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image17.jpg)
 6. Click **OK** to dismiss the **Allow User** dialog box.
 
-**To permit a Windows user to connect to a site or an application:** 
+**To permit a Windows user to connect to a site or an application:**
 
 1. On the **IIS Manager Permissions** page, in the **Actions** pane, click **Allow User**.
 2. On the **Allow User** dialog box, select **Windows** and then click **Select**.

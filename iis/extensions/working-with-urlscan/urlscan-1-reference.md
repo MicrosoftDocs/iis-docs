@@ -41,22 +41,22 @@ UrlScan 1.0 required manual installation for IIS. The following steps will lead 
 
 1. Copy UrlScan.dll and UrlScan.ini into a local directory on the server. While it is not required, the suggested directory is:  
  `%SystemRoot%\System32\Inetsrv\UrlScan`
-2. Open the Internet Information Services (IIS) 
+2. Open the Internet Information Services (IIS)
     - Open the Windows Control Panel.
     - Double-click **Administrative Tools**.
     - Double-click **Internet Information Services**.
-3. Open the global-level properties for your version of IIS: 
+3. Open the global-level properties for your version of IIS:
 
-    - For IIS 4.0 or IIS 5.0: 
+    - For IIS 4.0 or IIS 5.0:
 
         - Right-click the server name and select **Properties**.
         - Ensure that **WWW Service** is displayed in the **Master Properties** drop down list, and click **Edit**.
-    - For IIS 5.1 or IIS 6.0: 
+    - For IIS 5.1 or IIS 6.0:
 
         - Right-click the **Web Sites** node and select **Properties**.
 4. Choose the **ISAPI Filters** tab.
 5. Click **Add**.
-6. When the ISAPI filter properties dialog is displayed, enter the following information: 
+6. When the ISAPI filter properties dialog is displayed, enter the following information:
 
     - Enter "UrlScan" in the **Filter Name** box.
     - Enter the full path to the UrlScan.dll file in the **Executable** box.

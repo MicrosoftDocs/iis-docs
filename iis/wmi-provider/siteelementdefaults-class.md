@@ -77,7 +77,7 @@ oSvr.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [Server Class](../wmi-provider/server-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [Server Class](../wmi-provider/server-class.md)
+ [Site Class](../wmi-provider/site-class.md)
  [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)

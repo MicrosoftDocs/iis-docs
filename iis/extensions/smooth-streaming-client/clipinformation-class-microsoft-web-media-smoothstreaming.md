@@ -98,7 +98,7 @@ The ClipInformation type exposes the following members.
 
 You can initialize a ClipInformation object that specifies the media clip to play by its [ClipUri](clipinformation-clipuri-property-microsoft-web-media-smoothstreaming_1.md) and [Duration](clipinformation-duration-property-microsoft-web-media-smoothstreaming_1.md). You can also supply the [ClickThroughUri](clipinformation-clickthroughuri-property-microsoft-web-media-smoothstreaming_1.md) to provide follow-up information to the user when he clicks on the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) surface while it is playing the clip.
 
-``` 
+```
     private void InsertClipCheckbox_Checked(object sender, RoutedEventArgs e)
     {
         clips.Add(new ClipInformation(true,

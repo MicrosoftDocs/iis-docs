@@ -72,5 +72,5 @@ class WebLimitsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

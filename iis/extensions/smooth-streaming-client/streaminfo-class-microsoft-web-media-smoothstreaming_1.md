@@ -107,7 +107,7 @@ For an implementation example that parses StreamInfo objects, see [Timeline Mark
 
 The following example shows how to get [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) and StreamInfo objects from the [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) object.
 
-``` 
+```
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     {
         if (!PremiumAccount)

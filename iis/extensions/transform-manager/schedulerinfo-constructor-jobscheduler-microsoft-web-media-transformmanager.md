@@ -59,7 +59,7 @@ SchedulerInfo(
 ```
 
 ``` fsharp
-  new : 
+  new :
         scheduler:JobScheduler -> SchedulerInfo
 ```
 

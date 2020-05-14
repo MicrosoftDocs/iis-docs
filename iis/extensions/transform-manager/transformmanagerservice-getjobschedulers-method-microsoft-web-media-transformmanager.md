@@ -59,9 +59,9 @@ virtual Collection<JobScheduler^>^ GetJobSchedulers() sealed
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobSchedulers : unit -> Collection<JobScheduler> 
+abstract GetJobSchedulers : unit -> Collection<JobScheduler>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobSchedulers : unit -> Collection<JobScheduler> 
+override GetJobSchedulers : unit -> Collection<JobScheduler>
 ```
 
 ```jscript

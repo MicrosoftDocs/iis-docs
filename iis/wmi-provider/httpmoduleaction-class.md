@@ -44,7 +44,7 @@ Set oWebAdmin = GetObject("winmgmts:root\WebAdministration")
 Set oSite = oWebAdmin.Get("Site.Name='Default Web Site'")  
 oSite.GetSection "HttpModulesSection", oSection  
   
-' Display the HttpModuleAction instances.   
+' Display the HttpModuleAction instances.
 WScript.Echo "------[ Http Modules ]------"  
 For Each oHttpModule In oSection.HttpModules  
      WScript.Echo "Name: " & oHttpModule.Name  
@@ -69,7 +69,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HttpModulesSection Class](../wmi-provider/httpmodulessection-class.md)   
- [ModulesSection Class](../wmi-provider/modulessection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HttpModulesSection Class](../wmi-provider/httpmodulessection-class.md)
+ [ModulesSection Class](../wmi-provider/modulessection-class.md)
  [ModuleAction Class](../wmi-provider/moduleaction-class.md)

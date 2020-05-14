@@ -71,32 +71,32 @@ public static void Trace(
 ```cpp
 public:
 static void Trace(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
+    TraceArea traceArea,
+    TraceLevel traceLevel,
     String^ line
 )
 ```
 
 ``` fsharp
-static member Trace : 
-        mediaElementId:string * 
-        className:string * 
-        methodName:string * 
-        traceArea:TraceArea * 
-        traceLevel:TraceLevel * 
-        line:string -> unit 
+static member Trace :
+        mediaElementId:string *
+        className:string *
+        methodName:string *
+        traceArea:TraceArea *
+        traceLevel:TraceLevel *
+        line:string -> unit
 ```
 
 ```jscript
 public static function Trace(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
     line : String
 )
 ```

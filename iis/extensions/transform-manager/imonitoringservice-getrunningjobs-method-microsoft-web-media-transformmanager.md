@@ -58,7 +58,7 @@ Collection<JobDetails^>^ GetRunningJobs()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetRunningJobs : unit -> Collection<JobDetails> 
+abstract GetRunningJobs : unit -> Collection<JobDetails>
 ```
 
 ```jscript

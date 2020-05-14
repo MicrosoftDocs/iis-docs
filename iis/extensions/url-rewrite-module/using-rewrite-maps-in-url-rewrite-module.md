@@ -52,7 +52,7 @@ First, we will create a rewrite map and rewrite rule that will be used to perfor
     [![](using-rewrite-maps-in-url-rewrite-module/_static/image10.png)](using-rewrite-maps-in-url-rewrite-module/_static/image9.png)
 6. On the page for newly created rewrite map, in the "Actions" pane on right hand side, click on "Add mapping entry..." and then enter "**/article**" and "**/article.aspx?id=1&amp;title=some-title**" for "Original value:" and "New value:" text boxes respectively. The original value specifies what URL path we want to rewrite from; the new value specifies what URL path we want to rewrite to.  
      [![](using-rewrite-maps-in-url-rewrite-module/_static/image12.png)](using-rewrite-maps-in-url-rewrite-module/_static/image11.png)
-7. Repeat step 6 to add the following mappings to the rewrite map: 
+7. Repeat step 6 to add the following mappings to the rewrite map:
 
     | Original Value: | New Value: |
     | --- | --- |

@@ -31,8 +31,8 @@ To create a Visual Studio project for rewrite provider follow these steps:
     [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
 9. Select the "Build Events" tab and add the following "Post-build event" command line:  
   
-   CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
-   gacutil.exe /if "$(TargetPath)"   
+   CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL
+   gacutil.exe /if "$(TargetPath)"
   
    Note: if you use Visual Studio 2010 then replace %VS90COMNTOOLS% with %VS100COMNTOOLS%.
 

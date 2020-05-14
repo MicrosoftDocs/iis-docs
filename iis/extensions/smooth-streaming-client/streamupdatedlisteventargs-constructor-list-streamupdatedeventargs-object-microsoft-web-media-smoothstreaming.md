@@ -57,14 +57,14 @@ Dim instance As New StreamUpdatedListEventArgs(streamUpdatedEvents, _
 ```cpp
   public:
 StreamUpdatedListEventArgs(
-    List<StreamUpdatedEventArgs^>^ streamUpdatedEvents, 
+    List<StreamUpdatedEventArgs^>^ streamUpdatedEvents,
     Object^ userState
 )
 ```
 
 ```jscript
   public function StreamUpdatedListEventArgs(
-    streamUpdatedEvents : List<StreamUpdatedEventArgs>, 
+    streamUpdatedEvents : List<StreamUpdatedEventArgs>,
     userState : Object
 )
 ```

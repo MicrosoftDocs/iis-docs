@@ -56,5 +56,5 @@ class IdentitySection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [identity Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67195)

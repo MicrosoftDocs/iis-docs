@@ -66,9 +66,9 @@ WScript.Echo "Basic Authentication Settings"
 WScript.Echo "-----------------------------"  
 WScript.Echo "Path: " & oBasicAuth.Path  
 WScript.Echo "Location: " & oBasicAuth.Location  
-WScript.Echo   
+WScript.Echo
   
-' Display the Enabled, DefaultLogonDomain, Realm, and   
+' Display the Enabled, DefaultLogonDomain, Realm, and
 ' LogonMethod properties.  
 WScript.Echo "Enabled: " & _  
     "[" & oBasicAuth.Enabled & "]"  
@@ -114,14 +114,14 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
- [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
- [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
- [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)   
- [FormsAuthenticationConfiguration Class](../wmi-provider/formsauthenticationconfiguration-class.md)   
- [FormsAuthenticationCredentials Class](../wmi-provider/formsauthenticationcredentials-class.md)   
- [FormsAuthenticationUser Class](../wmi-provider/formsauthenticationuser-class.md)   
- [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
- [PassportAuthentication Class](../wmi-provider/passportauthentication-class.md)   
- [WindowsAuthenticationSection Class](../wmi-provider/windowsauthenticationsection-class.md)   
+ [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)
+ [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)
+ [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)
+ [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)
+ [FormsAuthenticationConfiguration Class](../wmi-provider/formsauthenticationconfiguration-class.md)
+ [FormsAuthenticationCredentials Class](../wmi-provider/formsauthenticationcredentials-class.md)
+ [FormsAuthenticationUser Class](../wmi-provider/formsauthenticationuser-class.md)
+ [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)
+ [PassportAuthentication Class](../wmi-provider/passportauthentication-class.md)
+ [WindowsAuthenticationSection Class](../wmi-provider/windowsauthenticationsection-class.md)
  [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074)

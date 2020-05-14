@@ -49,8 +49,8 @@ class TypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [ServiceDescriptionFormatSettings Class](../wmi-provider/servicedescriptionformatsettings-class.md)   
- [SoapExtensionImporterTypesSettings Class](../wmi-provider/soapextensionimportertypessettings-class.md)   
- [IIS 7.0: SoapExtensionReflectorTypesSettings Class](../wmi-provider/soapextensionreflectortypessettings-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [ServiceDescriptionFormatSettings Class](../wmi-provider/servicedescriptionformatsettings-class.md)
+ [SoapExtensionImporterTypesSettings Class](../wmi-provider/soapextensionimportertypessettings-class.md)
+ [IIS 7.0: SoapExtensionReflectorTypesSettings Class](../wmi-provider/soapextensionreflectortypessettings-class.md)
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

@@ -57,5 +57,5 @@ class AuthenticationModulesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [AuthenticationModuleElement Class](../wmi-provider/authenticationmoduleelement-class.md)

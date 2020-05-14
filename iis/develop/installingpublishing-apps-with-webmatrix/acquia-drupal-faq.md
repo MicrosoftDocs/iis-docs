@@ -55,7 +55,7 @@ If this is not possible, you can workaround the issue by creating a copy of the 
 2. Navigate to the /sites/default folder.
 3. Copy and paste the *settings.php* file to create a copy.
 4. Rename the *settings - Copy.php* file to *settings.php.local*.
-5. Open *settings.php* and find the line that begins with. 
+5. Open *settings.php* and find the line that begins with.
 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample2.ps1)]
 6. Change the line to escape special characters, you will find the hex replacements listed in *settings.php*.  
@@ -68,7 +68,7 @@ If this is not possible, you can workaround the issue by creating a copy of the 
 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample4.ps1)]
 7. Click **Save** on the **Quick Access Toolbar** or press Ctrl + S.
-8. Using a text editor, modify the WebMatrix Beta parameters file so that the Publish will not incorrectly replace this value: 
+8. Using a text editor, modify the WebMatrix Beta parameters file so that the Publish will not incorrectly replace this value:
 
     1. In Windows Explorer, navigate to %userprofile%\appdata\
     2. First, make a copy of the *parameters.xml* file as a backup.
@@ -82,7 +82,7 @@ If this is not possible, you can workaround the issue by creating a copy of the 
     6. Save the changes to the file.
     7. Publish again.
     8. After publishing, browse to your remote web site to verify that the application works.
-9. To switch to the local *settings.php* so that the application works on your client machine: 
+9. To switch to the local *settings.php* so that the application works on your client machine:
 
     1. Rename *settings.php* to *settings.php.remote*.
     2. Rename *settings.php.local* to *settings.php*.

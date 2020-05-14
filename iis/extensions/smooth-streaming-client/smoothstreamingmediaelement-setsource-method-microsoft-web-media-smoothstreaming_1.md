@@ -62,8 +62,8 @@ void SetSource(
 ```
 
 ``` fsharp
-member SetSource : 
-        stream:Stream -> unit 
+member SetSource :
+        stream:Stream -> unit
 ```
 
 ```jscript

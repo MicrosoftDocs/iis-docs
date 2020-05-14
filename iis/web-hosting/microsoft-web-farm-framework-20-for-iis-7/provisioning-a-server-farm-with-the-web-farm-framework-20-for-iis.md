@@ -69,7 +69,7 @@ You can also install web platform products on a selected server or all servers i
 
 ### To install products using the Install Products dialog
 
-1. Open **IIS Manager**, expand the nodes in the **Connections** pane to display your server farm, and then do one of the following: 
+1. Open **IIS Manager**, expand the nodes in the **Connections** pane to display your server farm, and then do one of the following:
 
     - If you want to install products on all the servers in your server farm, select your server farm in the **Connections** pane, and then in the **Actions** pane click **Install Products**.  
   

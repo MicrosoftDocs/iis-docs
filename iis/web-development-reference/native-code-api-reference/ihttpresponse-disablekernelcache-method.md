@@ -51,7 +51,7 @@ virtual VOID DisableKernelCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
- [IHttpResponse::GetCachePolicy Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md)   
- [IHttpResponse::GetKernelCacheEnabled Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
+ [IHttpResponse::GetCachePolicy Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md)
+ [IHttpResponse::GetKernelCacheEnabled Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md)
  [IHttpServer::FlushKernelCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-flushkernelcache-method.md)

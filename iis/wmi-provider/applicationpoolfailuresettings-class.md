@@ -58,7 +58,7 @@ class ApplicationPoolFailureSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)   
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
- [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)   
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
+ [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

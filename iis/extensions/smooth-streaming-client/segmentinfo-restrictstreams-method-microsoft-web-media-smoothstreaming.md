@@ -62,8 +62,8 @@ void RestrictStreams(
 ```
 
 ``` fsharp
-member RestrictStreams : 
-        availableStreams:IList<StreamInfo> -> unit 
+member RestrictStreams :
+        availableStreams:IList<StreamInfo> -> unit
 ```
 
 ```jscript

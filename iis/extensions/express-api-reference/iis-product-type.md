@@ -11,7 +11,7 @@ Enumerates the IIS types (IIS or IIS Express) that are installed on a computer.
 ```cpp  
 typedef enum  
 {  
-    IIS_PRODUCT_OS_SERVICE=0,   
+    IIS_PRODUCT_OS_SERVICE=0,
     IIS_PRODUCT_DEPRECATED=1,  
     IIS_PRODUCT_EXPRESS=2  
 } IIS_PRODUCT_TYPE;  

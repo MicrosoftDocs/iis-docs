@@ -43,9 +43,9 @@ class SoapServerProtocolFactory : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [SoapEnvelopeProcessingInfo Class](../wmi-provider/soapenvelopeprocessinginfo-class.md)   
- [SoapExtensionTypesInfo Class](../wmi-provider/soapextensiontypesinfo-class.md)   
- [SoapTransportImporterTypesInfo Class](../wmi-provider/soaptransportimportertypesinfo-class.md)   
- [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [SoapEnvelopeProcessingInfo Class](../wmi-provider/soapenvelopeprocessinginfo-class.md)
+ [SoapExtensionTypesInfo Class](../wmi-provider/soapextensiontypesinfo-class.md)
+ [SoapTransportImporterTypesInfo Class](../wmi-provider/soaptransportimportertypesinfo-class.md)
+ [WebServicesSection Class](../wmi-provider/webservicessection-class.md)
  [System.Web.Services.Protocols.SoapServerProtocolFactory Class](https://go.microsoft.com/fwlink/?LinkId=69321)

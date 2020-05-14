@@ -165,7 +165,7 @@ Use search to find the "Site" class again. Click the **Instances Of** button, sh
 
 All instances of the Site object are displayed in blue text in the right hand panel of CIM Studio, as shown below. Double-click on the **Default Web Site** instance for detailed information about that Site object.
 
-[![](get-to-know-the-iis-wmi-provider-using-cim-studio/_static/image37.jpg)](get-to-know-the-iis-wmi-provider-using-cim-studio/_static/image36.jpg)   
+[![](get-to-know-the-iis-wmi-provider-using-cim-studio/_static/image37.jpg)](get-to-know-the-iis-wmi-provider-using-cim-studio/_static/image36.jpg)
   
 Now CIM Studio displays information about the Default Web Site. The Site name is displayed at the top of the right hand pane, and the properties on the Property tab have real values instead of "&lt;empty&gt;". The "LogFile" property has a button labeled **Object** in its Value column instead of a real value. Click this **Object** button.
 

@@ -47,5 +47,5 @@ virtual VOID DecrementThreadCount(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IHttpServer::IncrementThreadCount Method](../../web-development-reference/native-code-api-reference/ihttpserver-incrementthreadcount-method.md)

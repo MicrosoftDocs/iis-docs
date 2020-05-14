@@ -66,11 +66,11 @@ virtual JobDefinition^ GetJobDefinition(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobDefinition : 
-        jobDefinitionId:string -> JobDefinition 
+abstract GetJobDefinition :
+        jobDefinitionId:string -> JobDefinition
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobDefinition : 
-        jobDefinitionId:string -> JobDefinition 
+override GetJobDefinition :
+        jobDefinitionId:string -> JobDefinition
 ```
 
 ```jscript

@@ -65,8 +65,8 @@ Credential^ GetCredential(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetCredential : 
-        credentialId:string -> Credential 
+abstract GetCredential :
+        credentialId:string -> Credential
 ```
 
 ```jscript

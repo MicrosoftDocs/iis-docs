@@ -59,9 +59,9 @@ virtual Collection<Credential^>^ GetCredentials() sealed
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetCredentials : unit -> Collection<Credential> 
+abstract GetCredentials : unit -> Collection<Credential>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetCredentials : unit -> Collection<Credential> 
+override GetCredentials : unit -> Collection<Credential>
 ```
 
 ```jscript

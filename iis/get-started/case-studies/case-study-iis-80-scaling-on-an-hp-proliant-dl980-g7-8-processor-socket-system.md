@@ -76,7 +76,7 @@ The following figure illustrates the DL980 G7 block diagram, and it is provided 
 
 [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image2.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image1.png)
 
-**Configuration options:** 
+**Configuration options:**
 
 The DL980 G7 ships in a variety of configurations: 4 and 8 processor socket models are available. Additionally, there are several different configurations for PCI expansion slots. These are documented in the [HP Technical Reference Guide for the DL980](http://h18004.www1.hp.com/products/quickspecs/13708_na/13708_na.pdf)
 
@@ -135,7 +135,7 @@ Please note the following memory configuration facts:
 - Brocade - Queue Depth is documented in the [Brocade Admin Guide](http://www.brocade.com/downloads/documents/support_plans/HBA/Docs_v1/53_1000881_01_HCMAdmin.pdf)
 - HBA Cards should be placed cards should be distributed across all 3 IO Hubs according to their PCIe interface characteristics. We will always tend to put a x8 capable card in a x8 slot to benefit from its full features and balance the load across the system.
 
-**Special Note on FusionIO Devices (generally applicable to other SSD cards):** 
+**Special Note on FusionIO Devices (generally applicable to other SSD cards):**
 
 FusionIO (HP IO accelerator boards) and OCZ provide ultra-fast access (up to 10,000 times faster than mechanical disks). So far extensive testing has only been conducted with FusionIO cards. The results have been exceptional provided the following:
 

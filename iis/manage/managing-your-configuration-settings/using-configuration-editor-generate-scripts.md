@@ -28,7 +28,7 @@ This walkthrough requires the following prerequisites:
 3. In the property grid displayed below, click on the ellipse "…" on the first row, which corresponds to the *(Collection)* item.
 4. In the *Collection Editor*, you will see a list of the application pools that already exists.
 5. On the action pane, click *"Add"*
-6. Fill in the property grid displayed in the *Properties* section. 
+6. Fill in the property grid displayed in the *Properties* section.
 
     1. Notice the *"name"* property has a key in symbol. This indicates a required field. Enter "applicationPool1" as your name to create a new application pool.
     2. Select processModel to expand.

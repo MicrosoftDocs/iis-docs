@@ -62,8 +62,8 @@ enum HTTP_TRACE_TYPE{
     <traceEvent>  
         <traceEventItems>  
             <traceEventItem>  
-                traceType="HTTP_TRACE_TYPE_LPCGUID"   
-                pbData="NULL"   
+                traceType="HTTP_TRACE_TYPE_LPCGUID"
+                pbData="NULL"
             </traceEventItem>  
         </traceEventItems>  
     </traceEvent>  

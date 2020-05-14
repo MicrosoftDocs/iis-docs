@@ -64,6 +64,6 @@ virtual HRESULT DeleteHeader(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
- [IHttpRequest::GetHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-getheader-method.md)   
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)
+ [IHttpRequest::GetHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-getheader-method.md)
  [IHttpRequest::SetHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-setheader-method.md)

@@ -61,17 +61,17 @@ Installation of a managed-code Web Playlist provider is done in two steps. The f
 3. In the **Actions** pane, click **Add**.
 
 4. In the **Add Playlist Provider** dialog box, fill in the following details. Click **OK** when you are done.
-    
+
     1. **Provider name**. Enter a friendly name for the provider. It is only used to identify the provider in the **Playlist providers** page.
-    
+
     2. **Description**. Enter a description for the provider. You can use this field to briefly describe what the provider does. It is only used by the administrator to help identify the provider.
-    
+
     3. **Program ID**. Enter the COM ProgID that is used in the provider code. It is used to detect and load the provider at run time. If you used the sample code created in [Writing a Managed Web Playlist Provider](writing-a-managed-web-playlist-provider.md), the ProgId attribute found in the sample code is "SamplePlaylistProvider.ProviderSample".
-    
+
     4. **File name extension**. Enter the file name extension that will be used for Playlists that the provider will work with. The Playlist feature already handles Web Playlists with the .ISX file name extension. This field adds the handler mapping configuration that allows the Playlist feature to handle requests for the file name extension that you choose.
-    
+
     5. **File-based handler**. This is an optional field. If your provider stores the Playlist in a file, checking this option allows the IIS 7 pipeline to provide the needed file details and a stream to access file contents.
-    
+
     6. **Bitness**. (64–bit systems only) Select whether the provider works as a 32–bit system through the WOW layer, as a 64–bit system, or both. The relevant configuration entries are added to the IIS 7 configuration to handle the requests.
 
 ## See Also

@@ -43,11 +43,11 @@ class OneToOneSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AccessSection Class](../wmi-provider/accesssection-class.md)   
- [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
- [ManyToOneCertificateMappingElement Class](../wmi-provider/manytoonecertificatemappingelement-class.md)   
- [ManyToOneCertificateMappingRuleElement Class](../wmi-provider/manytoonecertificatemappingruleelement-class.md)   
- [ManyToOneSettings Class](../wmi-provider/manytoonesettings-class.md)   
+ [AccessSection Class](../wmi-provider/accesssection-class.md)
+ [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)
+ [ManyToOneCertificateMappingElement Class](../wmi-provider/manytoonecertificatemappingelement-class.md)
+ [ManyToOneCertificateMappingRuleElement Class](../wmi-provider/manytoonecertificatemappingruleelement-class.md)
+ [ManyToOneSettings Class](../wmi-provider/manytoonesettings-class.md)
  [OneToOneCertificateMappingElement Class](../wmi-provider/onetoonecertificatemappingelement-class.md)

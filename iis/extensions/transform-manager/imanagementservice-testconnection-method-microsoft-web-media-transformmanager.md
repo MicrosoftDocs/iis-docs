@@ -63,21 +63,21 @@ bool TestConnection(
 ```cpp
 [OperationContractAttribute]
 bool TestConnection(
-    JobScheduler^ scheduler, 
+    JobScheduler^ scheduler,
     Credential^ credential
 )
 ```
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract TestConnection : 
-        scheduler:JobScheduler * 
-        credential:Credential -> bool 
+abstract TestConnection :
+        scheduler:JobScheduler *
+        credential:Credential -> bool
 ```
 
 ```jscript
   function TestConnection(
-    scheduler : JobScheduler, 
+    scheduler : JobScheduler,
     credential : Credential
 ) : boolean
 ```

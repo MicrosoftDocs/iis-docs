@@ -60,16 +60,16 @@ void DropView(
 
 ```cpp
 void DropView(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     String^ viewName
 )
 ```
 
 ```jscript
 function DropView(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     viewName : String
 )
 ```

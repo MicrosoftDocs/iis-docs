@@ -61,20 +61,20 @@ Dim instance As New JobMetadata(manifest, _
 ```cpp
   public:
 JobMetadata(
-    JobManifest^ manifest, 
+    JobManifest^ manifest,
     int taskIndex
 )
 ```
 
 ``` fsharp
-  new : 
-        manifest:JobManifest * 
+  new :
+        manifest:JobManifest *
         taskIndex:int -> JobMetadata
 ```
 
 ```jscript
   public function JobMetadata(
-    manifest : JobManifest, 
+    manifest : JobManifest,
     taskIndex : int
 )
 ```

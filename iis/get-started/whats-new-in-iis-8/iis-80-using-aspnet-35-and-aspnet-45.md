@@ -82,7 +82,7 @@ With both IIS 8.0 and ASP.NET integration installed we can take a look at the ba
     [![](iis-80-using-aspnet-35-and-aspnet-45/_static/image27.png)](iis-80-using-aspnet-35-and-aspnet-45/_static/image25.png)
 3. Click the **Application Pools** node to display the application pools that have now been installed for use by IIS 8.0:  
     [![](iis-80-using-aspnet-35-and-aspnet-45/_static/image31.png)](iis-80-using-aspnet-35-and-aspnet-45/_static/image29.png)
-4. You can see that six different application pools are created by default when both ASP.NET 3.5 and ASP.NET 4.5 are enabled for IIS 8.0. Four of the applications are new for IIS 8.0, while two other application pools have been carried forward from previous Windows releases. 
+4. You can see that six different application pools are created by default when both ASP.NET 3.5 and ASP.NET 4.5 are enabled for IIS 8.0. Four of the applications are new for IIS 8.0, while two other application pools have been carried forward from previous Windows releases.
 
     - Note that although the **.NET Framework Version** column shows "v2.0" and "v4.0" for .NET Framework versions, these equate to ASP.NET 3.5 and ASP.NET 4.5. Due to the internals of how application pools bind to .NET Framework versions, the actual version name written to configuration (and thus displayed in the tool) corresponds to the original .NET Framework file version.
     - **Classic .NET AppPool** and **DefaultAppPool** existed in previous versions of Windows, and thus continue to be created for IIS 8.0. Note however that since .NET Framework 4.5 is the default .NET Framework for use by Windows Server 2012, the "DefaultAppPool" on IIS 8.0 also defaults to using the newer version of the .NET Framework.

@@ -67,6 +67,6 @@ oStaticContentSection.Add "StaticContent", oNewMimeMap
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [MimeMapElement Class](../wmi-provider/mimemapelement-class.md)

@@ -16,13 +16,13 @@ The `<validation>` element configures Internet Information Services (IIS) 7 to d
 
 IIS generates a migration error message if the **validateIntegratedModeConfiguration** attribute is set to **true** and one of the following is also true:
 
-- Your application defines an `<httpModules>` section in its Web.config file. 
+- Your application defines an `<httpModules>` section in its Web.config file.
 
     In IIS 7 Integrated mode, ASP.NET modules are specified with native modules in a unified [&lt;modules&gt;](modules/index.md) section under [&lt;system.webServer&gt;](index.md).
-- Your application defines an `<httpHandlers>` section in its Web.config file. 
+- Your application defines an `<httpHandlers>` section in its Web.config file.
 
     In IIS 7 Integrated mode, the ASP.NET handler mappings are specified in a unified [&lt;handlers&gt;](handlers/index.md) section inside [&lt;system.webServer&gt;](index.md). The [&lt;handlers&gt;](handlers/index.md) section replaces both the ASP.NET `<httpHandlers>` and IIS script-processor-mapping configurations, which were both required to set up an ASP.NET 1.0 handler mapping.
-- Your application's Web.config file specifies `<identity impersonate="true" />`. 
+- Your application's Web.config file specifies `<identity impersonate="true" />`.
 
     In IIS 7 Integrated mode, client impersonation is not available in some early request processing stages. Therefore, IIS will generate the migration error message. If your ASP.NET Web application impersonates client credentials (most common with intranet scenarios), you may want to set the **validateIntegratedModeConfiguration** attribute to **false**.
 

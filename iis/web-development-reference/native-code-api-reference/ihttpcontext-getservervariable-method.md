@@ -55,5 +55,5 @@ virtual HRESULT GetServerVariable(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
  [IHttpContext::SetServerVariable Method](../../web-development-reference/native-code-api-reference/ihttpcontext-setservervariable-method.md)

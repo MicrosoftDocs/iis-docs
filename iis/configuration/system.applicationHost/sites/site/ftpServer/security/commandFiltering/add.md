@@ -33,7 +33,7 @@ The collection in the `<commandFiltering>` element is related to the [`<requestF
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-> 
+>
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
@@ -61,10 +61,10 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-3. Expand **Internet Information Services**, and then select **FTP Server**.   
+3. Expand **Internet Information Services**, and then select **FTP Server**.
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -92,19 +92,19 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](add/_static/image8.png)](add/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
 
-1. Download the installation package from the following URL: 
+1. Download the installation package from the following URL:
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-2. Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service:
 
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
- 
+
 <a id="004"></a>
 ## How To
 
@@ -113,19 +113,19 @@ To support FTP publishing for your Web server, you must install the FTP service.
 > [!NOTE]
 > The following steps use the FTP Request Filtering user interface, which was introduced in FTP 7.5; these steps will not work if you are using FTP 7.0.
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -134,7 +134,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Click the **Commands** tab.  
     [![](add/_static/image10.png)](add/_static/image9.png)
 5. Click **Deny Command...** in the **Actions** pane.
-6. Enter an FTP command to deny. For example: 
+6. Enter an FTP command to deny. For example:
 
     - Many FTP clients do not send or need the **SYST** command, which may reveal information about your operating system.
     - FTP 7.0 and FTP 7.5 do not implement the **ACCT** command, so it may be blocked safely.

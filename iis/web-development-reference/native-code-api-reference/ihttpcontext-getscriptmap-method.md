@@ -45,7 +45,7 @@ virtual IScriptMapInfo* GetScriptMap(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
- [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)   
- [IHttpContext::GetScriptName Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptname-method.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
+ [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)
+ [IHttpContext::GetScriptName Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptname-method.md)
  [IHttpContext::GetScriptTranslated Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscripttranslated-method.md)

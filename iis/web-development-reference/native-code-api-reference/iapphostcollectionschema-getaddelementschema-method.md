@@ -45,5 +45,5 @@ HRESULT GetAddElementSchema(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostCollectionSchema::IsMergeAppend Property](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-ismergeappend-property.md)   
+ [IAppHostCollectionSchema::IsMergeAppend Property](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-ismergeappend-property.md)
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

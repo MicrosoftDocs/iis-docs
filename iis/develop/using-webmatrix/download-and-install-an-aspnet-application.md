@@ -21,7 +21,7 @@ This walkthrough shows the steps to download and install an ASP.NET application 
 
 The following items are required to complete the procedures in this walkthrough:
 
-- You must be using a computer with one of the following operating systems installed: 
+- You must be using a computer with one of the following operating systems installed:
 
     - Windows 7, Windows Vista, or Windows XP SP2 or a later version of Windows XP.
     - Windows Server 2008 or Windows Server 2008 R2.
@@ -63,7 +63,7 @@ When you are prompted, enter the following information:
 - Enter a database name for your ScrewTurn Wiki application. You can choose any name for your database, such as "ScrewTurnWiki" if you are creating your first ScrewTurn Wiki site on your local computer.
 - Enter the database administrator name and password – the SQL Server administrator account and password for your instance of SQL  
  Server.
-- Scroll down to enter a user name and password for the Wiki database that you are creating. This is not the administrator password   
+- Scroll down to enter a user name and password for the Wiki database that you are creating. This is not the administrator password
  for SQL Server; it's the account for the database that WebMatrix will create for the ScrewTurn Wiki application.
 
 Once you have entered all of the required information, click **Next**.

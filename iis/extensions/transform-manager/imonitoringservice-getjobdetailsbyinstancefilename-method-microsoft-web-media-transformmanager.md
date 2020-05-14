@@ -63,21 +63,21 @@ Collection<JobDetails> GetJobDetailsByInstanceFileName(
 ```cpp
 [OperationContractAttribute]
 Collection<JobDetails^>^ GetJobDetailsByInstanceFileName(
-    String^ jobDefinitionId, 
+    String^ jobDefinitionId,
     String^ instanceFileName
 )
 ```
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobDetailsByInstanceFileName : 
-        jobDefinitionId:string * 
-        instanceFileName:string -> Collection<JobDetails> 
+abstract GetJobDetailsByInstanceFileName :
+        jobDefinitionId:string *
+        instanceFileName:string -> Collection<JobDetails>
 ```
 
 ```jscript
   function GetJobDetailsByInstanceFileName(
-    jobDefinitionId : String, 
+    jobDefinitionId : String,
     instanceFileName : String
 ) : Collection<JobDetails>
 ```

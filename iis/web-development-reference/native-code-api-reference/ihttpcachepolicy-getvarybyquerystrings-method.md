@@ -45,7 +45,7 @@ virtual PCSTR GetVaryByQueryStrings(
  The above code writes data that is similar to the following to the response stream:  
   
 ```  
-Vary-by-Query:   
+Vary-by-Query:
 ```  
   
  You can optionally compile the code by using the __`stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  

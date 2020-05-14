@@ -61,23 +61,23 @@ public ClipInformation(
 ```cpp
 public:
 ClipInformation(
-    bool isSmoothStreamingSource, 
-    Uri^ clipUri, 
+    bool isSmoothStreamingSource,
+    Uri^ clipUri,
     Uri^ clickThroughUri
 )
 ```
 
 ``` fsharp
-new : 
-        isSmoothStreamingSource:bool * 
-        clipUri:Uri * 
+new :
+        isSmoothStreamingSource:bool *
+        clipUri:Uri *
         clickThroughUri:Uri -> ClipInformation
 ```
 
 ```jscript
 public function ClipInformation(
-    isSmoothStreamingSource : boolean, 
-    clipUri : Uri, 
+    isSmoothStreamingSource : boolean,
+    clipUri : Uri,
     clickThroughUri : Uri
 )
 ```

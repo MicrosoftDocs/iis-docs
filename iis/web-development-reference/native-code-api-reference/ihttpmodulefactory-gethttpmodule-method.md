@@ -56,7 +56,7 @@ virtual HRESULT GetHttpModule(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
- [IHttpModuleFactory Interface](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md)   
- [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)   
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)
+ [IHttpModuleFactory Interface](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md)
+ [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)
  [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md)

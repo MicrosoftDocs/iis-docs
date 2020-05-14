@@ -67,29 +67,29 @@ Dim instance As New ManifestProperty(ns, name, _
 ```cpp
   public:
 ManifestProperty(
-    String^ ns, 
-    String^ name, 
-    String^ value, 
-    bool required, 
+    String^ ns,
+    String^ name,
+    String^ value,
+    bool required,
     CultureInfo^ cultureInfo
 )
 ```
 
 ``` fsharp
-  new : 
-        ns:string * 
-        name:string * 
-        value:string * 
-        required:bool * 
+  new :
+        ns:string *
+        name:string *
+        value:string *
+        required:bool *
         cultureInfo:CultureInfo -> ManifestProperty
 ```
 
 ```jscript
   public function ManifestProperty(
-    ns : String, 
-    name : String, 
-    value : String, 
-    required : boolean, 
+    ns : String,
+    name : String,
+    value : String,
+    required : boolean,
     cultureInfo : CultureInfo
 )
 ```

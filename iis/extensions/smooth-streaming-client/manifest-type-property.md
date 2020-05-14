@@ -25,9 +25,9 @@ public ManifestType Type { get; }
 ```
 
 ```cpp
-public: 
+public:
 virtual property ManifestType Type {
-ManifestType get () sealed; 
+ManifestType get () sealed;
 }
 ```
 

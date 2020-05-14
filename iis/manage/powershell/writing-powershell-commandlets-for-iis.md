@@ -40,8 +40,8 @@ Therefore, we explore the other option:
 
 To start writing cmdlets, you need a client computer installed with PowerShell. You must also install PowerShell SDK, or simply copy reference DLLs to the working folder using the trick [posted](https://blogs.msdn.com/powershell/archive/2006/09/30/Linking-against-RC2.aspx) by Jeffrey Snover in the PowerShell team blog. Be sure that you have the DCOM connection on your server. The easiest way to confirm this is to start the utility wbemtest, which is available on each Windows platform, and try the connection.
 
-1. Start wbemtest.   
-2. Click Connect.   
+1. Start wbemtest.
+2. Click Connect.
 3. Enter connection parameters:
     * Replace "root\default" by \\&lt;computer&gt;\root\webadministration, where "&lt;computer&gt;" has to be name of your server.
     * Enter the credentials of the account that has administrator rights on the server.

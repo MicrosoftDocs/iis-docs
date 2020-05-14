@@ -55,7 +55,7 @@ virtual void Dispose() abstract
 ```
 
 ``` fsharp
-  abstract Dispose : unit -> unit 
+  abstract Dispose : unit -> unit
 ```
 
 ```jscript

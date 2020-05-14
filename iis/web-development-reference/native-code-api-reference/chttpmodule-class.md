@@ -121,5 +121,5 @@ class CHttpModule
 |Header|Httpserv.h|  
   
 ## See Also  
- [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
+ [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

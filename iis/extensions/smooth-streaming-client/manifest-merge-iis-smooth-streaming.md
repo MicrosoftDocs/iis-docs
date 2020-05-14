@@ -97,7 +97,7 @@ Duration="1093950000">
 
 <StreamIndex Type="text" Name="ClosedCaptions" Subtype="CAPT" TimeScale="10000000"
               ParentStreamIndex="video" ManifestOutput="TRUE" QualityLevels="1"
-              Chunks="18" Url="QualityLevels({bitrate}, 
+              Chunks="18" Url="QualityLevels({bitrate},
               {CustomAttributes})/Fragments (ClosedCaptions={start time})">
 
   <QualityLevel Index="0" Bitrate="1000" CodecPrivateData="" FourCC="" />
@@ -190,7 +190,7 @@ The merged manifest data is shown in the following XML example. This data must b
 
   <StreamIndex Type="text" Name="MARKERS"
     Subtype="CHAPTER" TimeScale="10000000" ParentStreamIndex="video" ManifestOutput="TRUE" QualityLevels="1"
-    Chunks="9" 
+    Chunks="9"
     Url="QualityLevels({bitrate},   {CustomAttributes})/Fragments(MARKERS={start time})">
     <QualityLevel Index="0" Bitrate="1000" CodecPrivateData="" FourCC=""/>
 

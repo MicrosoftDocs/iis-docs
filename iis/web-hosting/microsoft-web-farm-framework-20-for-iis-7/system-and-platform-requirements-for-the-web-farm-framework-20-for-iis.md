@@ -57,7 +57,7 @@ The following programs and features must be allowed to communicate through your 
 
 If you are using Windows Firewall, follow these steps to allow these programs.
 
-1. In the Windows Control Panel, do one of the following: 
+1. In the Windows Control Panel, do one of the following:
 
     - On Windows Server 2008 R2, if **View by Category** is selected, click **System and Security**, and then on the **System and Security** page click **Allow a program through Windows Firewall**.
     - On Windows Server 2008, if Control Panel home is selected, click **Security**, and then on the **Security** page click **Allow a program through Windows Firewall**.

@@ -21,5 +21,5 @@ This section describes how to design a Hosted Web Core. The topics in this secti
  For most situations where customized functionality is required, developers should consider creating HTTP modules and hosting their applications inside IIS. For more information about how to create an HTTP module, see [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md).  
   
 ## See Also  
- [Native-Code Development Overview](../../web-development-reference/native-code-development-overview/native-code-development-overview.md)   
+ [Native-Code Development Overview](../../web-development-reference/native-code-development-overview/native-code-development-overview.md)
  [Hosted Web Core API Reference](../../web-development-reference/native-code-api-reference/hosted-web-core-api-reference.md)

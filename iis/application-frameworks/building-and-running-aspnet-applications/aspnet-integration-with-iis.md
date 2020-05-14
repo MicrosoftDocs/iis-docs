@@ -82,11 +82,11 @@ Because of the configuration unification, some applications may require migratio
 The following configuration causes the migration error:
 
 1. **The application Web.config file defines &lt;httpModules&gt; configuration.**  
- The application loads new ASP.NET modules or removes existing ones.   
+ The application loads new ASP.NET modules or removes existing ones.
  In Integrated mode, ASP.NET modules are specified with native modules in the unified &lt;system.webServer&gt;/&lt;modules&gt; configuration section.  
  The ASP.NET modules that are specified in the &lt;system.web&gt;/&lt;httpModules&gt; configuration section must be moved to the new configuration section to take effect. Subsequently, new ASP.NET modules must be added directly to the unified `<modules>` section.
 2. **The application Web.config file defines `<httpHandlers>` configuration.**  
- The application uses custom handler mappings for some content types.   
+ The application uses custom handler mappings for some content types.
  In Integrated mode, ASP.NET handler mappings must be specified in the unified &lt;system.webServer&gt;/&lt;handlers&gt; configuration section to take effect. Subsequently, new ASP.NET handler mappings must be added directly to the unified `<handlers>` section.  
  This section replaces both the ASP.NET `<httpHandlers>` configuration and the IIS scriptmaps configuration, both of which previously had to be configured to set up an ASP.NET handler mapping.
 3. **The application Web.config file defines &lt;identity impersonate="true" /&gt; configuration.**  
@@ -132,13 +132,13 @@ If you manually disable the migration error message, you must make sure that you
 
 If your application does not work properly in Integrated ASP.NET mode, you can move it to the Classic ASP.NET mode by moving it to another application pool. Each application pool is individually configured to use the desired ASP.NET integration mode. This lets you run groups of applications that use different ASP.NET integration modes side-by-side on the same server.
 
-**To change the ASP.NET integration mode for an application:** 
+**To change the ASP.NET integration mode for an application:**
 
-1. **Find or create an application pool that is configured to use the desired mode.**   
+1. **Find or create an application pool that is configured to use the desired mode.**
  By default, all new application pools run in Integrated mode.  
  The ASP.NET set up provides an application pool named "**Classic .NET AppPool**" that runs in the classic ASP.NET integration mode. You can use this application pool for applications that should not run in Integrated mode.  
  You can also change the ASP.NET mode of the existing application pool by using the IIS Administration Tool or the AppCmd.exe command line tool, or by manually editing the application pool configuration.
-2. **Set the application to use that application pool.**   
+2. **Set the application to use that application pool.**
  Each application is configured to use a particular application pool. By default, all applications use the default application pool named "**DefaultAppPool**", which runs in Integrated mode.  
  You can change the application pool of an application by using the IIS Administration Tool or the AppCmd.exe command line tool, or by manually editing the application configuration.
 
@@ -166,9 +166,9 @@ IIS recognizes that the application pool is the ASP.NET version that you select 
 
 Because application pools are the .NET Framework versioning boundary, you can change the version of an ASP.NET application by doing the following:
 
-1. **Move the application to an application pool that uses the desired ASP.NET version.**   
+1. **Move the application to an application pool that uses the desired ASP.NET version.**
  By default, applications use the default application pool named "DefaultAppPool," which runs ASP.NET v2.1 in Integrated mode. Move the application to the "Classic .NET AppPool" to run in ASP.NET v2.1 Classic mode, or another application pool of your choice.
-2. **Configure the application pool within which the application is running to use the desired ASP.NET version.**   
+2. **Configure the application pool within which the application is running to use the desired ASP.NET version.**
  By default, all new application pools are configured to run ASP.NET v2.1 in Integrated mode.
 
 > [!NOTE]
@@ -236,7 +236,7 @@ In Integrated mode, the ASP.NET request-processing stages that are exposed to mo
 20. **PostLogRequest**.
 21. **EndRequest**. This stage performs any final request cleanup, and is guaranteed to execute even if errors occur.
 
-By using the familiar ASP.NET APIs, the ability to execute in the same stages as IIS modules makes tasks that were only previously accessible in native ISAPI filters and extensions now possible in managed code. 
+By using the familiar ASP.NET APIs, the ability to execute in the same stages as IIS modules makes tasks that were only previously accessible in native ISAPI filters and extensions now possible in managed code.
 
 For example, you can now write modules that do the following:
 

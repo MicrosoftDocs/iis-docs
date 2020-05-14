@@ -65,11 +65,11 @@ virtual void DeleteJobScheduler(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract DeleteJobScheduler : 
-        jobSchedulerId:string -> unit 
+abstract DeleteJobScheduler :
+        jobSchedulerId:string -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override DeleteJobScheduler : 
-        jobSchedulerId:string -> unit 
+override DeleteJobScheduler :
+        jobSchedulerId:string -> unit
 ```
 
 ```jscript

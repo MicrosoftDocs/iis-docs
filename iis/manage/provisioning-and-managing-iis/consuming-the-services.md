@@ -91,4 +91,4 @@ The fault contracts apply to all subsystems and can be implemented as shown in t
 
 [!code-console[Main](consuming-the-services/samples/sample10.cmd)]
 
-For more examples, refer to the sample web client application included with the Visual Studio Solution. 
+For more examples, refer to the sample web client application included with the Visual Studio Solution.

@@ -96,10 +96,10 @@ class SiteLogFile : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
- [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [LogSection Class](../wmi-provider/logsection-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
- [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   
+ [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)
+ [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [LogSection Class](../wmi-provider/logsection-class.md)
+ [Site Class](../wmi-provider/site-class.md)
+ [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)
  [Log File Formats in IIS](https://go.microsoft.com/fwlink/?LinkId=62471)

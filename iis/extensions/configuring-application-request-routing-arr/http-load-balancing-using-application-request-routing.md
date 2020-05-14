@@ -42,7 +42,7 @@ Another prerequisite is that the reader has defined and configured a server farm
 
 Provided that the server farm has been created using the steps outlined in **[Define and Configure an Application Request Routing (ARR) Server Group](define-and-configure-an-application-request-routing-server-farm.md)**, the URL rewrite rules have already been created for a simple load balancing scenario.
 
-**To verify URL rewrite rules using the UI:** 
+**To verify URL rewrite rules using the UI:**
 
 1. Launch IIS Manager.
 2. Select the server farm, **myServerFarm**, which was created in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).
@@ -59,7 +59,7 @@ Provided that the server farm has been created using the steps outlined in **[De
 9. In the dashboard view, verify that the requests are being evenly distributed.  
     [![](http-load-balancing-using-application-request-routing/_static/image8.jpg)](http-load-balancing-using-application-request-routing/_static/image7.jpg)
 
-**To verify URL rewrite rules using the command-line:** 
+**To verify URL rewrite rules using the command-line:**
 
 1. Open a command prompt with **administrator** privileges.
 2. Navigate to `%windir%\system32\inetsrv`.
@@ -90,7 +90,7 @@ Application Request Routing monitors the health of the content servers in two wa
 
 The live traffic testing is performed automatically by default when the requests are made to Application Request Routing. The explicit URL testing is an additional test that can be used with the live traffic testing. In this section, the walkthrough guides you through configuring the explicit URL testing.
 
-**To configure health check monitoring using the UI:** 
+**To configure health check monitoring using the UI:**
 
 1. The URL testing requires a specific URL to test. To satisfy this requirement, use Notepad to create a text file named **healthCheck.txt** that contains the sentence "**I am healthy.**"
 2. Place the **healthCheck.txt** file on the application servers.
@@ -110,7 +110,7 @@ The live traffic testing is performed automatically by default when the requests
 13. After waiting for 30 seconds, send several requests to the ARR server.
 14. To verify that the requests are distributed evenly between servers, refresh the dashboard in IIS Manager. Note that the runtime statistics have been reset. This is by design. You may want to send additional requests and refresh the dashboard, as needed.
 
-**To configure health check monitoring using the command-line:** 
+**To configure health check monitoring using the command-line:**
 
 1. Open a command prompt with **administrator** privileges.
 2. Navigate to `%windir%\system32\inetsrv`.
@@ -122,7 +122,7 @@ The live traffic testing is performed automatically by default when the requests
 
 Application Request Routing provides a client affinity feature that maps a client to a content server behind Application Request Routing for the duration of a client session. When this feature is enabled, the load balancing algorithm is applied only for the very first request from the client. From that point on, all subsequent requests from the same client would be routed to the same content server for the duration of the client session. This feature is useful if the application on the content server is stateful and the client's requests must be routed to the same content server because the session management is not centralized.
 
-**To configure client affinity using the UI:** 
+**To configure client affinity using the UI:**
 
 1. Launch IIS Manager.
 2. Select the server farm, **myServerFarm**, which was created in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).
@@ -134,7 +134,7 @@ Application Request Routing provides a client affinity feature that maps a clien
  Application Request Routing uses a cookie to enable client affinity. The **Cookie name** will be used to set the cookie on the client. That said, the client must accept cookies for client affinity to work properly.
 6. To verify the functionality of client affinity, send several requests to the ARR server. Refresh the dashboard in IIS Manager (**Monitoring and Management**). Verify that the runtime statistics are changing for only one of the application servers to where the client is affinitized. You may want to send additional requests and refresh the dashboard, as needed.
 
-**To configure client affinity using the command-line:** 
+**To configure client affinity using the command-line:**
 
 1. Open a command prompt with **administrator** privileges.
 2. Navigate to `%windir%\system32\inetsrv`.
@@ -146,7 +146,7 @@ Application Request Routing provides a client affinity feature that maps a clien
 
 Disallowing new connections on a server is a graceful way of taking the server out of the server farm environment. It is more meaningful when the client affinity feature is in use, because Application Request Routing will honor the existing sessions when disallowing new connections. That is, when a client is affinitized to the server that is disallowing new connections, the client will continue to be routed to the same server and, therefore, there is no impact on the client. However, no new clients will be routed to the server that is disallowing new connections.
 
-**To disallow new connections using the UI:** 
+**To disallow new connections using the UI:**
 
 1. Using the setup from Step 3 above, identify the server to which your client is affinitized.
 2. Select the server farm, **myServerFarm**, which was created in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).

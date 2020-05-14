@@ -47,5 +47,5 @@ class SmtpNetworkSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [SmtpMailSettingsSection Class](../wmi-provider/smtpmailsettingssection-class.md)

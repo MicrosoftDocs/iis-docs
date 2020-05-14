@@ -53,7 +53,7 @@ Because NLB makes the routing decisions at layer 3, application specific informa
 
 ## Scenario 1: HTTP-based routing and load balancing
 
-The HTTP-based routing and load balancing scenario enables a 3-tier deployment architecture that involves: 
+The HTTP-based routing and load balancing scenario enables a 3-tier deployment architecture that involves:
 
 - Tier 1 (Web): Provides dual purposes of processing static content and routing and load balancing the remaining dynamic requests to tier 2 servers.
 - Tier 2 (Application): Processes dynamic content that relies on business logic.
@@ -63,7 +63,7 @@ The following diagram illustrates the 3-tier deployment:
 
 [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image7.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image6.jpg)
 
-Although the above example shows a routing rule that differentiates the static content from the dynamic content, another common scenario is to differentiate presentation requests from Web service requests. 
+Although the above example shows a routing rule that differentiates the static content from the dynamic content, another common scenario is to differentiate presentation requests from Web service requests.
 
 ### Option1: Active/Passive
 
@@ -86,7 +86,7 @@ This scenario is fully supported in the ARR Version 1 release.
 **Step 2: Configure 3-tier deployment architecture using ARR.**
 
 - Follow the steps in [this](configure-3-tier-deployment-architecture-using-application-request-routing.md) document to configure ARR in 3-tier deployment architecture.
-- At a high level, the above document describes: 
+- At a high level, the above document describes:
 
     - How to make static content available on the ARR server.
     - How to write URL rewrite rules for static content so that they are served directly from the ARR server.
@@ -159,7 +159,7 @@ NLB is configured successfully to work in active/passive mode with ARR.
 
 ### Option2: Active/Active
 
-In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Pass mode, which achieves only high availability. 
+In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Pass mode, which achieves only high availability.
 
 As noted previously, since multiple ARR servers are configured the same way, a shared configuration is used. The major difference is how NLB is configured. In order to utilize all ARR servers at the same time, the NLB cluster port rule is configured in multiple host mode.
 
@@ -178,7 +178,7 @@ The ARR configuration for Active/Active is identical to that of Active/Passive. 
 **Step 2: Configure 3-tier deployment architecture using ARR.**
 
 - Follow the steps in [this](configure-3-tier-deployment-architecture-using-application-request-routing.md) document to configure ARR in 3-tier deployment architecture.
-- At a high level, the above document describes: 
+- At a high level, the above document describes:
 
     - How to make static content available on the ARR server.
     - How to write URL rewrite rules for static content so that they are served directly from the ARR server.
@@ -216,7 +216,7 @@ This scenario utilizes the host name affinity feature in ARR to enable a shared 
 
 For more information about shared hosting and ARR, refer to [this](../planning-for-arr/overview-of-shared-hosting-deployment-using-application-request-routing-20.md) document.
 
-The following diagram illustrates the shared hosting environment using ARR: 
+The following diagram illustrates the shared hosting environment using ARR:
 
 [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image56.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image55.jpg)
 
@@ -258,11 +258,11 @@ The NLB configuration is divided into the following steps:
 
 ### Option2: Active/Active in ARR
 
-In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Passive mode, which achieves only high availability. Since multiple ARR servers are configured the same way, a shared configuration is used. In order to utilize all ARR servers at the same time, NLB is configured in multiple host mode. As noted previously, the runtime state information of affinitized mapping between the host names and the content servers is stored in memory within an instance of an ARR server. In order to share this information among multiple ARR servers, Microsoft External Cache for IIS is used. For more information about External Cache, refer to this document. 
+In Active/Active mode, you can have two or more ARR servers. This configuration achieves both high availability and scalability, unlike the Active/Passive mode, which achieves only high availability. Since multiple ARR servers are configured the same way, a shared configuration is used. In order to utilize all ARR servers at the same time, NLB is configured in multiple host mode. As noted previously, the runtime state information of affinitized mapping between the host names and the content servers is stored in memory within an instance of an ARR server. In order to share this information among multiple ARR servers, Microsoft External Cache for IIS is used. For more information about External Cache, refer to this document.
 
 #### ARR configuration
 
-The ARR configuration for Active/Active is identical to that of Active/Passive. The main difference is how NLB is configured. 
+The ARR configuration for Active/Active is identical to that of Active/Passive. The main difference is how NLB is configured.
 
 **Step 1: Configure ARR for shared hosting with host name affinity.**
 
@@ -319,14 +319,14 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
 
 **<a id="appendix_b"></a>Appendix B: Additional NLB documentation**
 
-- NLB Server Core instructions: 
+- NLB Server Core instructions:
 
     - Install NLB feature: [https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt](https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt)
-- NLB and SSL: 
+- NLB and SSL:
 
-    - 
+    -
     - [https://support.microsoft.com/?id=313299](https://support.microsoft.com/?id=313299)
-- Other NLB links: 
+- Other NLB links:
 
     - [https://technet.microsoft.com/library/cc782694.aspx](https://technet.microsoft.com/library/cc782694.aspx)
     - [https://technet.microsoft.com/library/cc778263.aspx](https://technet.microsoft.com/library/cc778263.aspx)

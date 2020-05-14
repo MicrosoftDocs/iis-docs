@@ -21,7 +21,7 @@ With the addition of the Microsoft® .NET Framework to Server Core in Windows Se
 
 - **Microsoft®** **ASP.NET support.**  
  With Windows Server 2008 R2, Server Core can be used to host ASP.NET applications.
-- **IIS Remote Management.**   
+- **IIS Remote Management.**
  Server Core does not provide any user interface other than the command-line interface. With the Windows Server 2008 R2 Server Core option, it is possible use IIS Manager for Remote Administration to connect to IIS and perform all management tasks from within the familiar user interface (UI) of IIS Manager.
 - **Windows PowerShell™.**  
  The Windows Server 2008 R2 Server Core option includes the IIS Windows PowerShell snap-in (also available with other installation options of Windows Server 2008 R2).
@@ -65,7 +65,7 @@ To install IIS on an installed and configured Server Core installation of Window
     - Use the following command if connected to the Internet:  
 
         [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample10.cmd)]
-    - If not connected to the Internet, use phone activation.   
+    - If not connected to the Internet, use phone activation.
     Type one of the following:  
 
         [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample11.cmd)]
@@ -100,7 +100,7 @@ If you want to install IIS components that rely on the .NET Framework, you must 
 To use a script to install the .NET Framework and the full IIS 7.5 installation on Server Core, type the following command into a script:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample13.cmd)]
- 
+
 To use a script for the full IIS 7.5 installation on Server Core, type the following command into a script:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample14.cmd)]

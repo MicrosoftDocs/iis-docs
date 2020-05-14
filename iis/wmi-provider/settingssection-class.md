@@ -56,11 +56,11 @@ class SettingsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [HttpWebRequestSettings Class](../wmi-provider/httpwebrequestsettings-class.md)   
- [Ipv6Settings Class](../wmi-provider/ipv6settings-class.md)   
- [PerformanceCountersSettings Class](../wmi-provider/performancecounterssettings-class.md)   
- [ServicePointManagerSettings Class](../wmi-provider/servicepointmanagersettings-class.md)   
- [SocketSettings Class](../wmi-provider/socketsettings-class.md)   
- [WebProxyScriptSettings Class](../wmi-provider/webproxyscriptsettings-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [HttpWebRequestSettings Class](../wmi-provider/httpwebrequestsettings-class.md)
+ [Ipv6Settings Class](../wmi-provider/ipv6settings-class.md)
+ [PerformanceCountersSettings Class](../wmi-provider/performancecounterssettings-class.md)
+ [ServicePointManagerSettings Class](../wmi-provider/servicepointmanagersettings-class.md)
+ [SocketSettings Class](../wmi-provider/socketsettings-class.md)
+ [WebProxyScriptSettings Class](../wmi-provider/webproxyscriptsettings-class.md)
  [System.Net.Dns Class](https://go.microsoft.com/fwlink/?LinkId=70922)

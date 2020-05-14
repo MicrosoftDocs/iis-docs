@@ -45,6 +45,6 @@ class BuildProvider : CollectionElement
   
 ## See Also  
  [System.Web.Configuration.CompilationSection.BuildProviders](/dotnet/api/system.web.configuration.compilationsection.buildproviders)  
- [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)

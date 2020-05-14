@@ -65,11 +65,11 @@ virtual void UpdateJobTemplate(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract UpdateJobTemplate : 
-        jobTemplate:JobTemplate -> unit 
+abstract UpdateJobTemplate :
+        jobTemplate:JobTemplate -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override UpdateJobTemplate : 
-        jobTemplate:JobTemplate -> unit 
+override UpdateJobTemplate :
+        jobTemplate:JobTemplate -> unit
 ```
 
 ```jscript

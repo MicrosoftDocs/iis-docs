@@ -63,18 +63,18 @@ void EditRow(
 
 ```cpp
 void EditRow(
-    String^ connectionString, 
-    String^ tableName, 
-    String^ schema, 
+    String^ connectionString,
+    String^ tableName,
+    String^ schema,
     IList<ColumnDataInfo^>^ columnDataInfoList
 )
 ```
 
 ```jscript
 function EditRow(
-    connectionString : String, 
-    tableName : String, 
-    schema : String, 
+    connectionString : String,
+    tableName : String,
+    schema : String,
     columnDataInfoList : IList<ColumnDataInfo>
 )
 ```

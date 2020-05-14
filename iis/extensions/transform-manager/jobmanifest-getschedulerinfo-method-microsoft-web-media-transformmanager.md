@@ -56,8 +56,8 @@ virtual SchedulerInfo^ GetSchedulerInfo() sealed
 ```
 
 ``` fsharp
-  abstract GetSchedulerInfo : unit -> SchedulerInfo 
-override GetSchedulerInfo : unit -> SchedulerInfo 
+  abstract GetSchedulerInfo : unit -> SchedulerInfo
+override GetSchedulerInfo : unit -> SchedulerInfo
 ```
 
 ```jscript

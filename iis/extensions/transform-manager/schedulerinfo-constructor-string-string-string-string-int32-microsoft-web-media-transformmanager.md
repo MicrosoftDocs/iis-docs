@@ -67,29 +67,29 @@ Dim instance As New SchedulerInfo(id, name, _
 ```cpp
   public:
 SchedulerInfo(
-    String^ id, 
-    String^ name, 
-    String^ type, 
-    String^ connectionString, 
+    String^ id,
+    String^ name,
+    String^ type,
+    String^ connectionString,
     int concurrentJobs
 )
 ```
 
 ``` fsharp
-  new : 
-        id:string * 
-        name:string * 
-        type:string * 
-        connectionString:string * 
+  new :
+        id:string *
+        name:string *
+        type:string *
+        connectionString:string *
         concurrentJobs:int -> SchedulerInfo
 ```
 
 ```jscript
   public function SchedulerInfo(
-    id : String, 
-    name : String, 
-    type : String, 
-    connectionString : String, 
+    id : String,
+    name : String,
+    type : String,
+    connectionString : String,
     concurrentJobs : int
 )
 ```

@@ -73,24 +73,24 @@ Tracing.Trace(mediaElementId, className, _
 ```cpp
   public:
 static void Trace(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
-    String^ format, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
+    TraceArea traceArea,
+    TraceLevel traceLevel,
+    String^ format,
     ... array<Object^>^ list
 )
 ```
 
 ```jscript
   public static function Trace(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
-    format : String, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
+    format : String,
     ... list : Object[]
 )
 ```

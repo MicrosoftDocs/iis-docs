@@ -63,16 +63,16 @@ returnValue = instance.BeginRetrieve(request, _
 
 ```cpp
   IAsyncResult^ BeginRetrieve(
-    CacheRequest^ request, 
-    AsyncCallback^ callback, 
+    CacheRequest^ request,
+    AsyncCallback^ callback,
     Object^ state
 )
 ```
 
 ```jscript
   function BeginRetrieve(
-    request : CacheRequest, 
-    callback : AsyncCallback, 
+    request : CacheRequest,
+    callback : AsyncCallback,
     state : Object
 ) : IAsyncResult
 ```
@@ -110,15 +110,15 @@ For documentation of the sample, see [Cache Plug-in Implementation of ISmoothStr
 
 The following code shows an implementation of the BeginRetrieve(CacheRequest, AsyncCallback, Object) method.
 
-``` 
+```
     public IAsyncResult BeginRetrieve(CacheRequest request, AsyncCallback callback, object state)
     {
         CacheResponse response = null;
         CacheAsyncResult ar = new CacheAsyncResult();
         ar.strUrl = request.CanonicalUri.ToString();
         ar.Complete(response, true);
-        return ar; 
-    }        
+        return ar;
+    }
 ```
 
 ## Version Information

@@ -46,7 +46,7 @@ Set oSite = oWebAdmin.Get("Site.Name='Default Web Site'")
 For Each vProp In oSite.TraceFailedRequestsLogging.Properties_  
     WScript.Echo vProp.Name & ": " & vProp.Value  
 Next  
-WScript.Echo   
+WScript.Echo
   
 ' Switch the current value of the Enabled property.  
 oSite.TraceFailedRequestsLogging.Enabled = _  
@@ -77,7 +77,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
- [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [Site Class](../wmi-provider/site-class.md)
+ [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)
  [TraceUrl Class](../wmi-provider/traceurl-class.md)

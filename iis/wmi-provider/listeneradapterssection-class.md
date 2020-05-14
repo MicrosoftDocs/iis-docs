@@ -57,5 +57,5 @@ class ListenerAdaptersSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [ListenerAdapterElement Class](../wmi-provider/listeneradapterelement-class.md)

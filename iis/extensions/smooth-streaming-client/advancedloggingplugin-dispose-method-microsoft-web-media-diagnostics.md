@@ -55,8 +55,8 @@ virtual void Dispose() sealed
 ```
 
 ``` fsharp
-abstract Dispose : unit -> unit 
-override Dispose : unit -> unit 
+abstract Dispose : unit -> unit
+override Dispose : unit -> unit
 ```
 
 ```jscript

@@ -62,8 +62,8 @@ virtual void Connect(
 ```
 
 ``` fsharp
-  abstract Connect : 
-        connectionString:string -> unit 
+  abstract Connect :
+        connectionString:string -> unit
 ```
 
 ```jscript

@@ -30,14 +30,14 @@ long time
 ```cpp
 public:
 virtual IChunkIter^ GetIterator(
-[InAttribute] long long minTime, 
+[InAttribute] long long minTime,
 [InAttribute] long long time
 ) sealed
 ```
 
 ```jscript
 public final function GetIterator(
-minTime : long, 
+minTime : long,
 time : long
 ) : IChunkIter
 ```

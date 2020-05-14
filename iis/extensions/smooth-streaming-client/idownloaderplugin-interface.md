@@ -23,7 +23,7 @@ The DownloaderPlugin interface.
 ```csharp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
-public interface IDownloaderPlugin 
+public interface IDownloaderPlugin
 ```
 
 ```cpp

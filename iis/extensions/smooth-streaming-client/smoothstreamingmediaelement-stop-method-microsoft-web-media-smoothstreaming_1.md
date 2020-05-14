@@ -55,8 +55,8 @@ virtual void Stop()
 ```
 
 ``` fsharp
-abstract Stop : unit -> unit 
-override Stop : unit -> unit 
+abstract Stop : unit -> unit
+override Stop : unit -> unit
 ```
 
 ```jscript

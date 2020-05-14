@@ -55,7 +55,7 @@ void Close()
 ```
 
 ``` fsharp
-  member Close : unit -> unit 
+  member Close : unit -> unit
 ```
 
 ```jscript

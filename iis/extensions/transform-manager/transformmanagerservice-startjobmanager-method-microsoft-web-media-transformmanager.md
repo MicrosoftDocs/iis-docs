@@ -65,11 +65,11 @@ virtual void StartJobManager(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract StartJobManager : 
-        jobDefinitionId:string -> unit 
+abstract StartJobManager :
+        jobDefinitionId:string -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override StartJobManager : 
-        jobDefinitionId:string -> unit 
+override StartJobManager :
+        jobDefinitionId:string -> unit
 ```
 
 ```jscript

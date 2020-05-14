@@ -64,8 +64,8 @@ void UpdateJobDefinition(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract UpdateJobDefinition : 
-        jobDefinition:JobDefinition -> unit 
+abstract UpdateJobDefinition :
+        jobDefinition:JobDefinition -> unit
 ```
 
 ```jscript

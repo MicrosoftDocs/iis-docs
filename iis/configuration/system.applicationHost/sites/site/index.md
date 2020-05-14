@@ -105,18 +105,18 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
 4. When the **Add FTP Site** wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** box.
-    - For the **Physical path** box, you can use one of the following options to specify your content directory: 
+    - For the **Physical path** box, you can use one of the following options to specify your content directory:
 
         - Click the ellipsis (**...**) button, and then navigate to the folder that contains the content for your FTP site.
         - Type in the path to your content folder in the box. Note that if you choose to type the path, you can use environment variables in your paths. For example, you can use "%*SystemDrive*%\inetpub\ftproot" for your content directory.
     - When you have completed these items, click **Next**.  
         [![](index/_static/image6.png)](index/_static/image5.png)
-5. On the second page of the **Add FTP Site** wizard: 
+5. On the second page of the **Add FTP Site** wizard:
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
     - Enter the TCP/IP port for the FTP site in the **Port** box. By default, FTP sites and clients use port 21. (Note: To specify Implicit FTPS, you need to use port 990.)
     - To use an FTP virtual host name, select the box for **Enable Virtual Host Names**, then enter the virtual host name in the **Virtual Host** box.
-    - For the SSL options, choose one of the following options: 
+    - For the SSL options, choose one of the following options:
 
         - Select **No SSL** to disable the SSL options.
         - Select **Allow SSL** to allow FTP clients to optionally use FTP over SSL when they connect with the FTP server.
@@ -124,7 +124,7 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
         - If you choose **Allow SSL** or **Require SSL**, choose a certificate from the **SSL Certificate** drop-down menu.
     - When you have completed these items, click **Next**.  
         [![](index/_static/image8.png)](index/_static/image7.png)
-6. On the next page of the wizard: 
+6. On the next page of the wizard:
 
     - Select **Anonymous** for the **Authentication** settings.
     - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down.

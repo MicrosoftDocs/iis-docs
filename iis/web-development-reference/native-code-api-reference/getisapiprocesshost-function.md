@@ -40,5 +40,5 @@ HRESULT __stdcall GetIsapiProcessHost(
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Functions](../../web-development-reference/native-code-api-reference/windows-process-activation-service-functions.md)   
+ [Windows Process Activation Service Functions](../../web-development-reference/native-code-api-reference/windows-process-activation-service-functions.md)
  [PFNGetIsapiProcessHost Function](../../web-development-reference/native-code-api-reference/pfngetisapiprocesshost-function.md)

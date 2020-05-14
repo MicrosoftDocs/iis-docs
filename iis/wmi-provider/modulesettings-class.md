@@ -45,8 +45,8 @@ class ModuleSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [System.Net.IWebProxy Interface](https://go.microsoft.com/fwlink/?LinkId=70961)   
- [System.Net.WebRequest Class](https://go.microsoft.com/fwlink/?LinkId=70962)   
+ [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [System.Net.IWebProxy Interface](https://go.microsoft.com/fwlink/?LinkId=70961)
+ [System.Net.WebRequest Class](https://go.microsoft.com/fwlink/?LinkId=70962)
  [System.Net.WebClient Class](https://go.microsoft.com/fwlink/?LinkId=70963)

@@ -64,23 +64,23 @@ public void FlushBuffers(
 ```cpp
 public:
 void FlushBuffers(
-    TimeSpan bufferToKeep, 
-    bool flushAudio, 
+    TimeSpan bufferToKeep,
+    bool flushAudio,
     bool flushVideo
 )
 ```
 
 ``` fsharp
-member FlushBuffers : 
-        bufferToKeep:TimeSpan * 
-        flushAudio:bool * 
-        flushVideo:bool -> unit 
+member FlushBuffers :
+        bufferToKeep:TimeSpan *
+        flushAudio:bool *
+        flushVideo:bool -> unit
 ```
 
 ```jscript
 public function FlushBuffers(
-    bufferToKeep : TimeSpan, 
-    flushAudio : boolean, 
+    bufferToKeep : TimeSpan,
+    flushAudio : boolean,
     flushVideo : boolean
 )
 ```

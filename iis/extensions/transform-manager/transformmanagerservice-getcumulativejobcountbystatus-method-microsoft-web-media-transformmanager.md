@@ -64,11 +64,11 @@ virtual int GetCumulativeJobCountByStatus(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetCumulativeJobCountByStatus : 
-        status:JobStatus -> int 
+abstract GetCumulativeJobCountByStatus :
+        status:JobStatus -> int
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetCumulativeJobCountByStatus : 
-        status:JobStatus -> int 
+override GetCumulativeJobCountByStatus :
+        status:JobStatus -> int
 ```
 
 ```jscript

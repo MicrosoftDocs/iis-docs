@@ -66,11 +66,11 @@ virtual Collection<String^>^ GetJobFiles(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobFiles : 
-        jobDetails:JobDetails -> Collection<string> 
+abstract GetJobFiles :
+        jobDetails:JobDetails -> Collection<string>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobFiles : 
-        jobDetails:JobDetails -> Collection<string> 
+override GetJobFiles :
+        jobDetails:JobDetails -> Collection<string>
 ```
 
 ```jscript

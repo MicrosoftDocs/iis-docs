@@ -104,7 +104,7 @@ Now, that all the IIS Manager client-side plumbing code is done, the remaining p
 5. In the same class add the helper function that will call the service proxy to generate the rewrite rule with the parameters specified by a user:  
 
     [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample6.cs)]
-6. Add an event handler for when OK button is clicked. In the event handler code invoke the helper function GenerateRule, passing the content of the TextBox control as a parameter. 
+6. Add an event handler for when OK button is clicked. In the event handler code invoke the helper function GenerateRule, passing the content of the TextBox control as a parameter.
 
     [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample7.cs)]
 
@@ -113,7 +113,7 @@ Now, that all the IIS Manager client-side plumbing code is done, the remaining p
 To implement a service you will need to create a module provider, which is an entry point for registration of modules in IIS Manager. To do that:
 
 1. Create and configure another Visual Studio project by following steps described in tasks 1 and 2 from the article "[How to create a simple IIS Manager module](../../develop/extending-the-management-ui/how-to-create-a-simple-iis-manager-module.md)". Name the project as "CanonicalDomainTemplate".
-2. Select **Add References** from the **Project** menu and add references to the following assemblies located in \Windows\System32\inetsrv: 
+2. Select **Add References** from the **Project** menu and add references to the following assemblies located in \Windows\System32\inetsrv:
 
     1. Microsoft.Web.Administration.dll
     2. Microsoft.Web.Management.dll

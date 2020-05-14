@@ -64,8 +64,8 @@ void DeleteJobDefinition(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract DeleteJobDefinition : 
-        jobDefinitionId:string -> unit 
+abstract DeleteJobDefinition :
+        jobDefinitionId:string -> unit
 ```
 
 ```jscript

@@ -63,8 +63,8 @@ Uri^ GetChunkUri(
 ```
 
 ``` fsharp
-member GetChunkUri : 
-        timestamp:TimeSpan -> Uri 
+member GetChunkUri :
+        timestamp:TimeSpan -> Uri
 ```
 
 ```jscript

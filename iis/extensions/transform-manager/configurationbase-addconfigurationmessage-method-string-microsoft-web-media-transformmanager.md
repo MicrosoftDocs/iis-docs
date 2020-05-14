@@ -60,8 +60,8 @@ void AddConfigurationMessage(
 ```
 
 ``` fsharp
-  member AddConfigurationMessage : 
-        message:string -> unit 
+  member AddConfigurationMessage :
+        message:string -> unit
 ```
 
 ```jscript

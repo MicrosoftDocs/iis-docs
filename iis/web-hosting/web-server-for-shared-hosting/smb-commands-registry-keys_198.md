@@ -35,7 +35,7 @@ To configure the registry key on the Web server, use the following:
 > [!NOTE]
 > The server must be rebooted before this setting will take effect.
 
-For more information, go to "IIS runs out of work items and causes RPC failures when connection to a remote UNC path" at [https://support.microsoft.com/kb/221790/](https://support.microsoft.com/kb/221790/). 
+For more information, go to "IIS runs out of work items and causes RPC failures when connection to a remote UNC path" at [https://support.microsoft.com/kb/221790/](https://support.microsoft.com/kb/221790/).
 
 For information on the length limitation of the pathname of the share (\\server\share) see [https://msdn.microsoft.com/library/cc246567.aspx](https://msdn.microsoft.com/library/cc246567.aspx)
 

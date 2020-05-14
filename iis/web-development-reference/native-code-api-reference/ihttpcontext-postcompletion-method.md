@@ -38,5 +38,5 @@ virtual HRESULT PostCompletion(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
  [IHttpContext::IndicateCompletion Method](../../web-development-reference/native-code-api-reference/ihttpcontext-indicatecompletion-method.md)

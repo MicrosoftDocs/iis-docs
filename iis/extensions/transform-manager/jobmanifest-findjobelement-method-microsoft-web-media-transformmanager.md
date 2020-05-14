@@ -56,7 +56,7 @@ XElement^ FindJobElement()
 ```
 
 ``` fsharp
-  member FindJobElement : unit -> XElement 
+  member FindJobElement : unit -> XElement
 ```
 
 ```jscript

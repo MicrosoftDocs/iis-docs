@@ -48,12 +48,12 @@ Step 4: Reboot the Web server.
 
 Step 5: Browse to the file share folder from web server. Right click and select "Always Available Offline". [![](offline-files-for-shared-configuration/_static/image2.jpg)](offline-files-for-shared-configuration/_static/image1.jpg)
 
-Step 6: Go to control panel -- &gt; Offline Files. Select Schedule option.   
+Step 6: Go to control panel -- &gt; Offline Files. Select Schedule option.
 [![](offline-files-for-shared-configuration/_static/image4.jpg)](offline-files-for-shared-configuration/_static/image3.jpg)
 
 Step 7: Schedule offline file sync after every 1 day or as per the requirement. This could be in minutes too. Even without setting up any scheduler, the moment I change anything in applicationhost.config file, it is reflected on the web server.
 
 [![](offline-files-for-shared-configuration/_static/image6.jpg)](offline-files-for-shared-configuration/_static/image5.jpg)
 
-Now the web server works fine even if the file share is offline and there is no need of IISReset now.   
+Now the web server works fine even if the file share is offline and there is no need of IISReset now.
 Many thanks to Won Yoo and Amol Mehrotra for helping with the content.

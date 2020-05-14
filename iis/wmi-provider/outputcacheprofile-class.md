@@ -63,13 +63,13 @@ class OutputCacheProfile : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.HttpCachePolicy.SetNoStore](/dotnet/api/system.web.httpcachepolicy.setnostore) 
+ [System.Web.HttpCachePolicy.SetNoStore](/dotnet/api/system.web.httpcachepolicy.setnostore)
  [System.Web.HttpCacheability](/dotnet/api/system.web.httpcacheability)
- [System.Web.UI.OutputCacheLocation](/dotnet/api/system.web.configuration.outputcacheprofile.location)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [OutputCacheSection Class](../wmi-provider/outputcachesection-class.md)   
- [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)   
- [OutputCacheProfileSettings Class](../wmi-provider/outputcacheprofilesettings-class.md)   
- [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)   
- [@ OutputCache](https://go.microsoft.com/fwlink/?LinkId=69307)   
+ [System.Web.UI.OutputCacheLocation](/dotnet/api/system.web.configuration.outputcacheprofile.location)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [OutputCacheSection Class](../wmi-provider/outputcachesection-class.md)
+ [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)
+ [OutputCacheProfileSettings Class](../wmi-provider/outputcacheprofilesettings-class.md)
+ [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)
+ [@ OutputCache](https://go.microsoft.com/fwlink/?LinkId=69307)
  [Caching Multiple Versions of User Control Output](https://go.microsoft.com/fwlink/?LinkId=69308)

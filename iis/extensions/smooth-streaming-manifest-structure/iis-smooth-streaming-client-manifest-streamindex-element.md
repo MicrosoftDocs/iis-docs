@@ -14,7 +14,7 @@ The StreamIndex element specifies the metadata for one type of track (audio, vid
 
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)  
 
-``` 
+```
   <StreamIndex
     Type="video"
     Chunks="88"

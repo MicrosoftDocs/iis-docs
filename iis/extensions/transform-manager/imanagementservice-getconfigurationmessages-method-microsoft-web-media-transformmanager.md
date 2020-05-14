@@ -58,7 +58,7 @@ Collection<ConfigurationMessage^>^ GetConfigurationMessages()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetConfigurationMessages : unit -> Collection<ConfigurationMessage> 
+abstract GetConfigurationMessages : unit -> Collection<ConfigurationMessage>
 ```
 
 ```jscript

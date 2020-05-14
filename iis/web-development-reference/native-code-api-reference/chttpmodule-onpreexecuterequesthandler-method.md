@@ -50,5 +50,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnPreExecuteRequestHandler(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)
  [CHttpModule::OnPostPreExecuteRequestHandler Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostpreexecuterequesthandler-method.md)

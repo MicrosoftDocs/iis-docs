@@ -59,7 +59,7 @@ ConfigurationBase(
 ```
 
 ``` fsharp
-  new : 
+  new :
         baseNamespace:XNamespace -> ConfigurationBase
 ```
 

@@ -16,11 +16,11 @@ The `<clientCertAuthentication>` element specifies the settings for Client Certi
 
 Client Certificate authentication has the following dependencies:
 
-- For the `<ssl>` element: 
+- For the `<ssl>` element:
 
     - The `serverCertHash` attribute must be set to a valid certificate hash.
     - The `controlChannelPolicy` and `dataChannelPolicy` attributes must be configured to allow SSL.
-- For the `<sslClientCertificates>` element: 
+- For the `<sslClientCertificates>` element:
 
     - The `clientCertificatePolicy` attribute must be configured to allow SSL certificates.
     - The `useActiveDirectoryMapping` attribute must be set to **true**.
@@ -42,7 +42,7 @@ Client Certificate authentication has the following dependencies:
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-> 
+>
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
@@ -70,10 +70,10 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-3. Expand **Internet Information Services**, and then select **FTP Server**.   
+3. Expand **Internet Information Services**, and then select **FTP Server**.
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](clientCertAuthentication/_static/image4.png)](clientCertAuthentication/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -101,16 +101,16 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](clientCertAuthentication/_static/image8.png)](clientCertAuthentication/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
 
-1. Download the installation package from the following URL: 
+1. Download the installation package from the following URL:
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-2. Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service:
 
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 

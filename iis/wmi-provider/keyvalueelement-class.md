@@ -44,5 +44,5 @@ class KeyValueElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [AppSettingsSection Class](../wmi-provider/appsettingssection-class.md)

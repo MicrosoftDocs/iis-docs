@@ -54,7 +54,7 @@ Provides a status callback mechanism for the task.
 ```
 
 ```cpp
-  public ref class TaskStatus : ITaskStatus, 
+  public ref class TaskStatus : ITaskStatus,
     IDisposable
 ```
 

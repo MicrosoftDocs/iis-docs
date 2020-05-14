@@ -46,7 +46,7 @@ class ProviderFactoryElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [DbProviderFactorySettings Class](../wmi-provider/dbproviderfactorysettings-class.md)   
- [SystemDataSection Class](../wmi-provider/systemdatasection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [DbProviderFactorySettings Class](../wmi-provider/dbproviderfactorysettings-class.md)
+ [SystemDataSection Class](../wmi-provider/systemdatasection-class.md)
  [ADO.NET 2.0 Feature Matrix](https://go.microsoft.com/fwlink/?LinkId=70915)

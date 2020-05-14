@@ -43,6 +43,6 @@ class SqlCacheDependencyDatabaseSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [SqlCacheDependencyDatabase Class](../wmi-provider/sqlcachedependencydatabase-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [SqlCacheDependencyDatabase Class](../wmi-provider/sqlcachedependencydatabase-class.md)
  [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)

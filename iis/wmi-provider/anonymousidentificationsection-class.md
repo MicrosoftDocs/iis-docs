@@ -78,10 +78,10 @@ class AnonymousIdentificationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.AnonymousIdentification](/dotnet/api/system.web.configuration.systemwebsectiongroup.anonymousidentification) 
+ [System.Web.Configuration.SystemWebSectionGroup.AnonymousIdentification](/dotnet/api/system.web.configuration.systemwebsectiongroup.anonymousidentification)
  System.Web.HttpCookie.Expires  
  System.Web.HttpCookie.Secure  
  System.Web.HttpCookie
- System.Web.HttpCookieMode 
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ System.Web.HttpCookieMode
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

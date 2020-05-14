@@ -12,25 +12,25 @@ Obtains information that describes how to locate, start, and stop IIS Express wo
 interface IIISExpressProcessUtility : IUnknown  
 {  
     HRESULT  
-    GetRunningProcessForSite(   
-        [in] BSTR    bstrSite,   
-        [in] BSTR    bstrApplication,   
-        [in] BSTR    bstrApplicationPool,   
-        [in] BSTR    bstrConfigPath,   
+    GetRunningProcessForSite(
+        [in] BSTR    bstrSite,
+        [in] BSTR    bstrApplication,
+        [in] BSTR    bstrApplicationPool,
+        [in] BSTR    bstrConfigPath,
         [out, retval] DWORD * pdwPid  
     );  
   
     HRESULT  
-    ConstructCommandLine(   
+    ConstructCommandLine(
         [in] BSTR bstrSite,  
         [in] BSTR bstrApplication,  
-        [in] BSTR bstrApplicationPool,   
-        [in] BSTR bstrConfigPath,   
+        [in] BSTR bstrApplicationPool,
+        [in] BSTR bstrConfigPath,
         [out, retval] BSTR * pbstrCommandLine  
     );  
   
     HRESULT  
-    StopProcess(   
+    StopProcess(
         [in] DWORD dwPid  
     );  
 };  
@@ -38,6 +38,6 @@ interface IIISExpressProcessUtility : IUnknown
 ```  
   
 ## See Also  
- [GetRunningProcessForSite](../../extensions/express-api-reference/getrunningprocessforsite.md)   
- [ConstructCommandLine](../../extensions/express-api-reference/constructcommandline.md)   
+ [GetRunningProcessForSite](../../extensions/express-api-reference/getrunningprocessforsite.md)
+ [ConstructCommandLine](../../extensions/express-api-reference/constructcommandline.md)
  [StopProcess](../../extensions/express-api-reference/stopprocess.md)

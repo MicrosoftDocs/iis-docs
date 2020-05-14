@@ -64,8 +64,8 @@ void UpdateJobScheduler(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract UpdateJobScheduler : 
-        scheduler:JobScheduler -> unit 
+abstract UpdateJobScheduler :
+        scheduler:JobScheduler -> unit
 ```
 
 ```jscript

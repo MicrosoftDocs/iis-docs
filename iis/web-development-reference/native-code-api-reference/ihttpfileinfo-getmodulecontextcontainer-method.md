@@ -53,11 +53,11 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)   
- [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
- [IHttpConnection::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)   
- [IHttpContext::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getmodulecontextcontainer-method.md)   
- [IHttpFileMonitor::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)   
- [IHttpSite::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)   
- [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)   
+ [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)
+ [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)
+ [IHttpConnection::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)
+ [IHttpContext::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getmodulecontextcontainer-method.md)
+ [IHttpFileMonitor::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)
+ [IHttpSite::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)
+ [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)
  [IMetadataInfo::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)

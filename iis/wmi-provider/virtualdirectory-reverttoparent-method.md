@@ -48,7 +48,7 @@ For Each oVDir In oVDirs
   
         ' Display the current value.  
         WScript.Echo "AllowSubDirConfig before revert: " & _  
-                oVDir.AllowSubDirConfig      
+                oVDir.AllowSubDirConfig
   
         ' Revert the AllowSubDirConfig property.  
         oVdir.RevertToParent("AllowSubDirConfig")  
@@ -58,10 +58,10 @@ For Each oVDir In oVDirs
   
         ' Display the changed value.  
         WScript.Echo "AllowSubDirConfig after revert: " & _  
-                oVDir.AllowSubDirConfig   
+                oVDir.AllowSubDirConfig
   
         ' Exit the loop.  
-        Exit For   
+        Exit For
     End If  
 Next  
   
@@ -82,6 +82,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Application Class](../wmi-provider/application-class.md)   
- [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)   
+ [Application Class](../wmi-provider/application-class.md)
+ [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)
  [VirtualDirectoryElementDefaults Class](../wmi-provider/virtualdirectoryelementdefaults-class.md)

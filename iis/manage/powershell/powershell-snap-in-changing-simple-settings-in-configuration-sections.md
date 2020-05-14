@@ -29,7 +29,7 @@ Let's have a look what settings for the directoryBrowse section are enabled on t
 
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample1.ps1)]
 
- In the next example we are using the -filter parameter to specify the configuration section we are interested in and the -name parameter to specify which property we want to look at. If you want to see the settings of a section that is not the current location you can use the -PSPath property on top of that. Here is an example how you would query for the directory browsing settings on the Default Web Site: 
+ In the next example we are using the -filter parameter to specify the configuration section we are interested in and the -name parameter to specify which property we want to look at. If you want to see the settings of a section that is not the current location you can use the -PSPath property on top of that. Here is an example how you would query for the directory browsing settings on the Default Web Site:
 
 [!code-powershell[Main](powershell-snap-in-changing-simple-settings-in-configuration-sections/samples/sample2.ps1)]
 

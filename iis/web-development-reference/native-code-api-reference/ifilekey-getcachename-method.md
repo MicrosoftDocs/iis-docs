@@ -62,5 +62,5 @@ IFileKey::GetCacheName: FILE
 |Header|Httpcach.h|  
   
 ## See Also  
- [IFileKey Interface](../../web-development-reference/native-code-api-reference/ifilekey-interface.md)   
+ [IFileKey Interface](../../web-development-reference/native-code-api-reference/ifilekey-interface.md)
  [IHttpCacheKey::GetCacheName Method](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md)

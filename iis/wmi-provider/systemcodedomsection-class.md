@@ -57,5 +57,5 @@ class SystemCodeDomSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CompilerSettings Class](../wmi-provider/compilersettings-class.md)   
+ [CompilerSettings Class](../wmi-provider/compilersettings-class.md)
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)

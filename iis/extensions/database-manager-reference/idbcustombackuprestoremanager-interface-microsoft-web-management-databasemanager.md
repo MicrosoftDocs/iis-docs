@@ -42,12 +42,12 @@ Dim instance As IDbCustomBackupRestoreManager
 ```
 
 ```csharp
-public interface IDbCustomBackupRestoreManager : IDbBackupManager, 
+public interface IDbCustomBackupRestoreManager : IDbBackupManager,
     IDbRestoreManager
 ```
 
 ```cpp
-public interface class IDbCustomBackupRestoreManager : IDbBackupManager, 
+public interface class IDbCustomBackupRestoreManager : IDbBackupManager,
     IDbRestoreManager
 ```
 

@@ -49,7 +49,7 @@ The following prerequisites must be fulfilled in order to install the tool:
 
 ### Downloading and Installing
 
-There are two separate downloadable packages for the tool; you will need to download the appropriate package. You can download the [x86](https://go.microsoft.com/fwlink/?LinkId=249138) or [x64](https://go.microsoft.com/fwlink/?LinkId=249137) versions. 
+There are two separate downloadable packages for the tool; you will need to download the appropriate package. You can download the [x86](https://go.microsoft.com/fwlink/?LinkId=249138) or [x64](https://go.microsoft.com/fwlink/?LinkId=249137) versions.
 
 ## Important Issues Fixed in this release:
 
@@ -71,7 +71,7 @@ There are two separate downloadable packages for the tool; you will need to down
 
 The Web Deploy v3 executable default configuration files (msdeploy.exe.config and msdepsvc.exe.config) have been updated from .Net 2.0 to .Net 4.0, which results in this break.
 
-**Workaround:** 
+**Workaround:**
 
 - SQLite has a .Net 4 compatible version. Copying sqlite3.exe from this release in "*%ProgramFiles%*\IIS\Microsoft Web Deploy V3" directory will resolve the issue.
 - Change default .Net version for WebDeploy V3 msdeploy.exe.config to .Net 2.0 as shown below
@@ -82,7 +82,7 @@ The Web Deploy v3 executable default configuration files (msdeploy.exe.config an
 
 The Remote Agent Service accepts either built-in Administrator or Domain Administrator credentials **,** any other administrator credentials will not work and will cause this error.
 
-**Workaround:** 
+**Workaround:**
 
 Use built in administrator account or domain user account (part of admin group on the local machine).The Remote Agent Service accepts either built-in Administrator or Domain Administrator credentials. If you have a non-domain setup and want to use account other that built-in administrator, please do following:
 
@@ -94,7 +94,7 @@ Use built in administrator account or domain user account (part of admin group o
 **Issue:** Some Management Service delegation rules do not work after Web Deploy is upgraded to Web Deploy 3.0
 
 If an IIS 7+ server is using shared configuration, certain delegation rules with runAs identity set to SpecificUser will stop working. This is because the Web Deploy installer and the .\AddDelegationRules.ps1 script creates local machine user accounts and sets them as the runAs identity on certain delegation rules. These user accounts will not be recognized on other machines and thus the rules will not work in shared configuration.  
-**Workarounds:** 
+**Workarounds:**
 
 · If your delegation rules have already been overwritten, re-create the affected rules manually.
 
@@ -102,14 +102,14 @@ If an IIS 7+ server is using shared configuration, certain delegation rules with
 
 The site creation script as well as the UI to configure Web Deploy for an existing site sets the publishing URL to [https://myserver:8172/msdeploy.axd](https://myserver:8172/msdeploy.axd). This computername is generally reachable within a network. However, it is often not reachable from outside the network, so it should be replaced with a public DNS name.
 
-**Workarounds:** 
+**Workarounds:**
 
 - From the script: The script does not warn about this error. Replace the URL with the correct one (as below) in the generated settings file.
 - From the UI: enter the public DNS name in the "Specify the URL for the publishing server connection" field e.g. instead of [https://myserver:8172/msdeploy.axd](https://myserver:8172/msdeploy.axd), enter [https://some.publicDnsName.com:8172/msdeploy.axd](https://some.publicdnsname.com:8172/msdeploy.axd)
 
 **Issue**: Package created with Web Deploy V3 Does not work with WebDeploy V2. It results in System.NullReferenceException.
 
-**Workarounds:** 
+**Workarounds:**
 
 - Upgrade target computer to Web Deploy v3
 - Use Web Deploy V2 to create package.
@@ -118,33 +118,33 @@ The site creation script as well as the UI to configure Web Deploy for an existi
 
 If the destination computer has Web Deploy v1.1 installed and the source computer has v2 installed, you may see this error. This is a cross-version incompatibility.
 
-**Workarounds:** 
+**Workarounds:**
 
 - Upgrade source computer to Web Deploy v2
 - Uninstall all versions of Web Deploy on source computer
 
 **Issue:** If you are syncing an IIS 6.0 machine with lots of sites (causing the metabase to be over 500MB), then the tool may hang and stop responding.  
-**Workaround:** 
+**Workaround:**
 
 Create a list of the sites and sync each site individually.
 
 **Issue:** If you are syncing from a machine to a remote machine where the content or shared config is on a third, separate machine (i.e., UNC), then the remote agent will be unable to authenticate properly.  
-**Workaround:** 
+**Workaround:**
 
 Either sync manually or use the Web Deployment Handler instead.
 
 **Issue:** If you change shared configuration settings (such as enable or disable shared config), you will need to restart the remote agent afterwards.  
-**Workaround:** 
+**Workaround:**
 
 Restart the agent after making a change to shared config.
 
 **Issue:** If you are syncing a Web site where the path is `%systemdrive%\wwwroot` to a destination Web site where the system drive is different (C: instead of D:), then your Web site's path will be expanded at the destination. This means if you have shared config means with different system drives and you rely on the `%systemdrive%` to ensure content works, you may break the site on a machine.  
-**Workaround:** 
+**Workaround:**
 
 Add a replace rule to change the path during the sync.
 
 **Issue:** If you try to package to an existing package file, this may not work correctly.  
-**Workaround:** 
+**Workaround:**
 
 Use a new name or delete the old package file before creating a new package.
 
@@ -154,32 +154,32 @@ Use a new name or delete the old package file before creating a new package.
 - WebDAV (which is not included in Windows Server 2008 by default and requires additional installation).
 - FrontPage Server Extensions (which is not included in Windows Server 2008 by default and requires additional installation).
 
-**Workaround:** 
+**Workaround:**
 
 Manually include any script maps or files that do not require installation in a manifest file. See the Help for more information about creating manifest files.
 
-**Issue:** Custom trust files referenced in the root level Web.config and Code Access Security (CAS) policy settings will not be moved.   
-**Workaround:** 
+**Issue:** Custom trust files referenced in the root level Web.config and Code Access Security (CAS) policy settings will not be moved.
+**Workaround:**
 
 Manually specify the custom trust file and the CAS policy file, security.config, in a manifest file. See the Help file for more information about creating manifest files.
 
-**Issue:** If you move a site to a server that has a different trust level, you will not receive a warning.   
-**Workaround:** 
+**Issue:** If you move a site to a server that has a different trust level, you will not receive a warning.
+**Workaround:**
 
 Please ensure that the trust level is set correctly on the destination machine when doing a site level sync or migrate.
 
-**Issue:** If you have a custom manifest file that is pointing to an invalid source, you may not receive an error.   
-**Workaround:** 
+**Issue:** If you have a custom manifest file that is pointing to an invalid source, you may not receive an error.
+**Workaround:**
 
 If you are not seeing expected output when using a manifest file, try each item individually to see if they are mistyped or invalid.
 
-**Issue:** FTP and SMTP are not included in the default definitions for webserver60.   
-**Workaround:** 
+**Issue:** FTP and SMTP are not included in the default definitions for webserver60.
+**Workaround:**
 
 If you need to sync these locations, manually sync them using the metakey provider - i.e., metakey=lm/msftpsvc.
 
-**Issue:** Inherited properties are not migrated with an IIS 6.0 site migration. A common example is authentication set at the server level with all sites inheriting this property. When you migrate a single site, it will now inherit the settings of the new destination server. If the destination server settings are not the same, your site could break. This applies to every inherited property, including mime maps, script maps, etc.   
-**Workaround:** 
+**Issue:** Inherited properties are not migrated with an IIS 6.0 site migration. A common example is authentication set at the server level with all sites inheriting this property. When you migrate a single site, it will now inherit the settings of the new destination server. If the destination server settings are not the same, your site could break. This applies to every inherited property, including mime maps, script maps, etc.
+**Workaround:**
 
 Use the metadataGetInherited flag to copy inherited settings to the site level when you sync or migrate a web site on IIS 6.0. Or ensure the server settings are the same on source and destination servers or manually set the site to use correct settings.
 

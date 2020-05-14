@@ -57,20 +57,20 @@ public SetPlaybackRangeCompletedEventArgs(
 ```cpp
 public:
 SetPlaybackRangeCompletedEventArgs(
-    Exception^ error, 
+    Exception^ error,
     Object^ userState
 )
 ```
 
 ``` fsharp
-new : 
-        error:Exception * 
+new :
+        error:Exception *
         userState:Object -> SetPlaybackRangeCompletedEventArgs
 ```
 
 ```jscript
 public function SetPlaybackRangeCompletedEventArgs(
-    error : Exception, 
+    error : Exception,
     userState : Object
 )
 ```

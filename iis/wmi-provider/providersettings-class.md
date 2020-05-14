@@ -46,9 +46,9 @@ class ProviderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
- [ProviderElement Class](../wmi-provider/providerelement-class.md)   
- [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   
- [SessionStateSection Class](../wmi-provider/sessionstatesection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)
+ [ProviderElement Class](../wmi-provider/providerelement-class.md)
+ [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)
+ [SessionStateSection Class](../wmi-provider/sessionstatesection-class.md)
  [SiteMapSection Class](../wmi-provider/sitemapsection-class.md)

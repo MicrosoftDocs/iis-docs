@@ -64,23 +64,23 @@ public StreamUpdatedEventArgs(
 ```cpp
 public:
 StreamUpdatedEventArgs(
-    StreamInfo^ stream, 
-    StreamUpdatedEventArgs.StreamUpdatedAction action, 
+    StreamInfo^ stream,
+    StreamUpdatedEventArgs.StreamUpdatedAction action,
     Nullable<TimeSpan> timestamp
 )
 ```
 
 ``` fsharp
-new : 
-        stream:StreamInfo * 
-        action:StreamUpdatedEventArgs.StreamUpdatedAction * 
+new :
+        stream:StreamInfo *
+        action:StreamUpdatedEventArgs.StreamUpdatedAction *
         timestamp:Nullable<TimeSpan> -> StreamUpdatedEventArgs
 ```
 
 ```jscript
 public function StreamUpdatedEventArgs(
-    stream : StreamInfo, 
-    action : StreamUpdatedEventArgs.StreamUpdatedAction, 
+    stream : StreamInfo,
+    action : StreamUpdatedEventArgs.StreamUpdatedAction,
     timestamp : Nullable<TimeSpan>
 )
 ```

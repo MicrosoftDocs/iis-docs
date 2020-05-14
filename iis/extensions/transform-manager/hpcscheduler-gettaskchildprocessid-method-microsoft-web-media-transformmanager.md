@@ -63,10 +63,10 @@ virtual int GetTaskChildProcessId(
 ```
 
 ``` fsharp
-  abstract GetTaskChildProcessId : 
-        jobInstanceId:string -> int 
-override GetTaskChildProcessId : 
-        jobInstanceId:string -> int 
+  abstract GetTaskChildProcessId :
+        jobInstanceId:string -> int
+override GetTaskChildProcessId :
+        jobInstanceId:string -> int
 ```
 
 ```jscript

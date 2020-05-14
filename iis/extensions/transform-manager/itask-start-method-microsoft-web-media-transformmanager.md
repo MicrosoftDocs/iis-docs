@@ -54,7 +54,7 @@ instance.Start()
 ```
 
 ``` fsharp
-  abstract Start : unit -> unit 
+  abstract Start : unit -> unit
 ```
 
 ```jscript

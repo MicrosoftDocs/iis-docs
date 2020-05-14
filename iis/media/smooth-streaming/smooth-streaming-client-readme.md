@@ -41,21 +41,21 @@ Smooth Streaming Client SDKs support the following high-level features:
 
 **Available in Microsoft Smooth Streaming Client 2.0**
 
-- Persistent advertisement ("linear ads") 
+- Persistent advertisement ("linear ads")
 
     - Ad-insertion ([ScheduleLinearClip](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.schedulelinearclip(v=vs.95)))
     - Ad playback
-- Live-to-VOD 
+- Live-to-VOD
 
     - Client-controlled unlimited DVR window
-- Failed chunk download details (non-text chunks) 
+- Failed chunk download details (non-text chunks)
 
     - New [ChunkDownloadFailed](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.chunkdownloadfailed(v=vs.95)) event arguments for getting information about failed chunk downloads
-- Key rotation 
+- Key rotation
 
     - Prefetch root licenses for authorized channels to enable instant channel changes
     - Distribute license requests to avoid flooding the license server
-- Updated cache plug-in properties 
+- Updated cache plug-in properties
 
     - Get or Set a web request that the media element downloader uses for downloading ([CacheRequest2](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2(VS.95).aspx))
     - Get or Set the perceived bandwidth while downloading individual media chunks ([CacheResponse2](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2(VS.95).aspx))
@@ -63,12 +63,12 @@ Smooth Streaming Client SDKs support the following high-level features:
 
 **Available in all versions**
 
-- Basic playback controls 
+- Basic playback controls
 
     - APIs such as Play, Pause, Stop
     - Events for playback and diagnostics
     - Properties to track position, and so on
-- Advanced playback support 
+- Advanced playback support
 
     - DVR support for Live Smooth Streaming
     - Support for tracking live events while in DVR
@@ -77,7 +77,7 @@ Smooth Streaming Client SDKs support the following high-level features:
     - Textstream support for captions/subtitles (desktop Silverlight only, not available on Windows Phone)
 - Support for offline playback scenarios
 - H.264/AAC support
-- Monetization 
+- Monetization
 
     - Ad playback integration: scheduling capabilities, tracking ad progress (desktop Silverlight only, not available on Windows Phone)
     - Live ad insertion with [IIS Live Smooth Streaming](https://go.microsoft.com/?linkid=9745650) (desktop Silverlight only, not available on Windows Phone)

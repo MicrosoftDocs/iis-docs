@@ -61,8 +61,8 @@ instance.Initialize(fileName)
 ```
 
 ``` fsharp
-  abstract Initialize : 
-        fileName:string -> unit 
+  abstract Initialize :
+        fileName:string -> unit
 ```
 
 ```jscript

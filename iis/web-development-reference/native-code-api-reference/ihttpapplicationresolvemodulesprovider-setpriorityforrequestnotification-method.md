@@ -47,5 +47,5 @@ virtual HRESULT SetPriorityForRequestNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)   
+ [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)
  [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)

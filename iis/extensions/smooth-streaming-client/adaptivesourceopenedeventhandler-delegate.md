@@ -32,7 +32,7 @@ AdaptiveSourceOpenedEventArgs args
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public delegate void AdaptiveSourceOpenedEventHandler(
-[InAttribute] AdaptiveSource^ sender, 
+[InAttribute] AdaptiveSource^ sender,
 [InAttribute] AdaptiveSourceOpenedEventArgs^ args
 )
 ```

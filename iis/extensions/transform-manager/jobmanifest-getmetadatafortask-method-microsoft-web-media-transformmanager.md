@@ -63,8 +63,8 @@ XElement^ GetMetadataForTask(
 ```
 
 ``` fsharp
-  member GetMetadataForTask : 
-        taskId:string -> XElement 
+  member GetMetadataForTask :
+        taskId:string -> XElement
 ```
 
 ```jscript

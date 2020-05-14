@@ -74,37 +74,37 @@ public Collection<JobDetails> GetJobDetails(
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<JobDetails^>^ GetJobDetails(
-    JobStatus status, 
-    JobDetailsField sortField, 
-    bool ascending, 
-    int startIndex, 
+    JobStatus status,
+    JobDetailsField sortField,
+    bool ascending,
+    int startIndex,
     int count
 ) sealed
 ```
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobDetails : 
-        status:JobStatus * 
-        sortField:JobDetailsField * 
-        ascending:bool * 
-        startIndex:int * 
-        count:int -> Collection<JobDetails> 
+abstract GetJobDetails :
+        status:JobStatus *
+        sortField:JobDetailsField *
+        ascending:bool *
+        startIndex:int *
+        count:int -> Collection<JobDetails>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobDetails : 
-        status:JobStatus * 
-        sortField:JobDetailsField * 
-        ascending:bool * 
-        startIndex:int * 
-        count:int -> Collection<JobDetails> 
+override GetJobDetails :
+        status:JobStatus *
+        sortField:JobDetailsField *
+        ascending:bool *
+        startIndex:int *
+        count:int -> Collection<JobDetails>
 ```
 
 ```jscript
   public final function GetJobDetails(
-    status : JobStatus, 
-    sortField : JobDetailsField, 
-    ascending : boolean, 
-    startIndex : int, 
+    status : JobStatus,
+    sortField : JobDetailsField,
+    ascending : boolean,
+    startIndex : int,
     count : int
 ) : Collection<JobDetails>
 ```

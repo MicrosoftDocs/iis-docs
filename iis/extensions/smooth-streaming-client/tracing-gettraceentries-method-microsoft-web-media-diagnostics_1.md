@@ -62,8 +62,8 @@ static array<TraceEntry^>^ GetTraceEntries(
 ```
 
 ``` fsharp
-static member GetTraceEntries : 
-        flushList:bool -> TraceEntry[] 
+static member GetTraceEntries :
+        flushList:bool -> TraceEntry[]
 ```
 
 ```jscript

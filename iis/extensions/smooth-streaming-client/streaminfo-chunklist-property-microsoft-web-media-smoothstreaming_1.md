@@ -77,7 +77,7 @@ An IList of [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md
 
 The following example uses the ChunkList property to get data chunks and call the [BeginGetChunk(TimeSpan, AsyncCallback, Object)](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) method. For more information, see [Timeline Markers and Events](timeline-markers-and-events.md).
 
-``` 
+```
     foreach (TrackInfo trackInfo in streamInfo.SelectedTracks)
     {
         foreach (ChunkInfo chunk in streamInfo.ChunkList.ToList<ChunkInfo>())

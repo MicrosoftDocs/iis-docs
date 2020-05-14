@@ -94,9 +94,9 @@ You will create two rewrite rules:
 - A rewrite rule that will proxy any request to webmail application at `http://localhost:8081/` as long as requested URL path starts with "webmail".
 - A rewrite rule that will proxy any request to payroll application at `http://localhost:8082/` as long as requested URL path starts with "payroll".
 
-**To add the reverse proxy rewrite rules:** 
+**To add the reverse proxy rewrite rules:**
 
-1. Open the **web.config** file located in the following location:   
+1. Open the **web.config** file located in the following location:
 
     [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample11.cmd)]
 2. Under the **/configuration/system.webServer** element, add the following and then save the file:  
@@ -135,7 +135,7 @@ and
 
 > [!WARNING]
 > When response headers or the response content is modified by an outbound rewrite rule an extra caution should be taken to ensure that the text which gets inserted into the response does not contain any client side executable code, which can result in cross-site scripting vulnerabilities. This is especially important when rewrite rule uses un-trusted data, such as HTTP headers or the query string, to build the string that will be inserted into the HTTP response. In such cases the replacement string should be HTML encoded by using the **HtmlEncode** function, e.g:
-> 
+>
 > [!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample16.xml)]
 
 To create the rule, follow these steps:
@@ -165,14 +165,14 @@ A precondition is used to evaluate whether the outbound rules evaluation should 
 
 Because the rule that you are creating should be applied only on HTML responses, you will define a precondition that checks whether the HTTP response header **content-type** is equial to "text/html".
 
-**To define a precondition:** 
+**To define a precondition:**
 
 1. In the Pre-conditions list, select "&lt;Create New Pre-condition...&gt;".
-2. This will bring you to the Pre-condition editor dialog, where you will need to define the precondition. Specify the precondition settings as follows: 
+2. This will bring you to the Pre-condition editor dialog, where you will need to define the precondition. Specify the precondition settings as follows:
 
    - Name: "IsHTML"
    - Using: "**Regular Expressions**"
-   - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
+   - Click "Add" to bring up the "Add condition" dialog. In this dialog specify:
 
      - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
      - Check if input string: "**Matches the pattern**"

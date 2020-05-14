@@ -30,7 +30,7 @@ A playlist is a list of media entries. Each entry has a list of possible client 
 The first step is to create a list of media entries and optionally apply properties to media entries that limit a clients ability to seek, skip forward or skip backward. The steps involved are:
 
 1. Create an empty playlist.
-2. Add media entries to the playlist. 
+2. Add media entries to the playlist.
 
     - Select media entries (either one at a time or in bulk) for the playlist.
     - Set the properties for the element(s) and add them to the playlist.
@@ -65,7 +65,7 @@ The following properties are available to be set:
 1. In the **Add/Edit Playlist** page, in the **Media entries** area, click **Add** to open the **Add Media Entry** dialog box. The details in this dialog box apply to all the media entries that you select.
 2. In the **Add Media Entry** dialog box, add the following details to add media entries:
 
-   - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
+   - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote.
 
        - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
        - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
@@ -185,13 +185,13 @@ Web Playlists has limited support for following SMIL elements:
 - audio: This could be used to add an audio reference
 - video: This could be used to add a video reference
 - ref: This is the generic entry for both audio and video. Note: UI will add all entries with the ref tag only.
-- param: This tag is used within a ref tag to add any custom properties. We will use this tag to specify the following: 
+- param: This tag is used within a ref tag to add any custom properties. We will use this tag to specify the following:
 
     - canSeek flag (Note: lowercase is important)
     - canSkipForward flag (Note: lowercase is important)
     - canSkipBack flag (Note: lowercase is important)
     - srcType flag which tells what is the kind of entry in the playlist context: physical path, relative path or a remote entry
-- meta: this tag is used inside the head tag to specify description and session attributes like inactivity timeout and idle timeout. This is an optional attribute. 
+- meta: this tag is used inside the head tag to specify description and session attributes like inactivity timeout and idle timeout. This is an optional attribute.
 
     - description field for server-side text description for admin use
 - seq: this tag is used to specify an order in the playlist.

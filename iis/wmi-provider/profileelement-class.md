@@ -49,7 +49,7 @@ class ProfileElement : CollectionElement
 ## See Also  
  [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings)
  [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator)
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [ProfileSettings Class](../wmi-provider/profilesettings-class.md)   
- [System.Int32.MaxValue Field](https://go.microsoft.com/fwlink/?LinkId=69329)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [ProfileSettings Class](../wmi-provider/profilesettings-class.md)
+ [System.Int32.MaxValue Field](https://go.microsoft.com/fwlink/?LinkId=69329)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

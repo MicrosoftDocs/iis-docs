@@ -54,14 +54,14 @@ protected DependenciesMissingException(
 ```cpp
 protected:
 DependenciesMissingException(
-    SerializationInfo^ info, 
+    SerializationInfo^ info,
     StreamingContext context
 )
 ```
 
 ```jscript
 protected function DependenciesMissingException(
-    info : SerializationInfo, 
+    info : SerializationInfo,
     context : StreamingContext
 )
 ```

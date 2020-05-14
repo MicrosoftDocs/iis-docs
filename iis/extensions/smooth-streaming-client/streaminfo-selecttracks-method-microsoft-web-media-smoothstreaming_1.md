@@ -62,20 +62,20 @@ public bool SelectTracks(
 ```cpp
 public:
 bool SelectTracks(
-    IList<TrackInfo^>^ selectedTracks, 
+    IList<TrackInfo^>^ selectedTracks,
     bool flushBuffer
 )
 ```
 
 ``` fsharp
-member SelectTracks : 
-        selectedTracks:IList<TrackInfo> * 
-        flushBuffer:bool -> bool 
+member SelectTracks :
+        selectedTracks:IList<TrackInfo> *
+        flushBuffer:bool -> bool
 ```
 
 ```jscript
 public function SelectTracks(
-    selectedTracks : IList<TrackInfo>, 
+    selectedTracks : IList<TrackInfo>,
     flushBuffer : boolean
 ) : boolean
 ```
@@ -105,7 +105,7 @@ When SelectTracks(IList\<TrackInfo\>, Boolean) is called during the [ManifestRea
 
 The following example shows how to select tracks from [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) and [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects.
 
-``` 
+```
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     {
         if (!PremiumAccount)

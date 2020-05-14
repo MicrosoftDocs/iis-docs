@@ -47,7 +47,7 @@ You can assign the [Position](smoothstreamingmediaelement-position-property-micr
 
 To implement a button that will seek to a new position, add the following line to MainPage.xaml of the sample application implemented in the topic [Silverlight Applications](silverlight-applications.md). Add the SeekButton specification after the StopButton and before the ComboBox.
 
-```xaml 
+```xaml
 <Button x:Name="SeekButton" Width="50" Content="+5 Secs" Click="SeekButton_Click" />
 ```
 
@@ -107,7 +107,7 @@ SmoothPlayer.SmoothStreamingErrorOccurred +=
 Implement the delegate.
 
 ```csharp
-void SmoothPlayer_SmoothStreamingErrorOccurred(object sender, 
+void SmoothPlayer_SmoothStreamingErrorOccurred(object sender,
                                 SmoothStreamingErrorEventArgs e)
 {
       OutputText.Text = "Error: " + e.ErrorCode + "; " + e.ErrorMessage;

@@ -71,14 +71,14 @@ For more information, see [Events (IIS Smooth Streaming)](events.md).
 
 The following example shows a delegate that handles the DownloadTrackChanged event.
 
-``` 
-  SmoothPlayer.DownloadTrackChanged += 
+```
+  SmoothPlayer.DownloadTrackChanged +=
     new EventHandler<TrackChangedEventArgs>(SmoothPlayer_DownloadTrackChanged);
 ```
 
 The following example shows how to display the information that can be obtained from the [TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md) object.
 
-``` 
+```
   void SmoothPlayer_DownloadTrackChanged(object sender, TrackChangedEventArgs e)
   {
       MessageBox.Show("StreamType: " + e.StreamType + " Timestamp: " +

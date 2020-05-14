@@ -32,6 +32,6 @@ class IModuleAllocator
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
- [IHttpModuleFactory Interface](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
+ [IHttpModuleFactory Interface](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md)
  [IHttpModuleFactory::GetHttpModule Method](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md)

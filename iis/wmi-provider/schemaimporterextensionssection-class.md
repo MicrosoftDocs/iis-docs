@@ -57,5 +57,5 @@ class SchemaImporterExtensionsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [\<system.xml.serialization> Element](https://go.microsoft.com/fwlink/?LinkId=71870)

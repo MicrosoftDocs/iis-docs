@@ -48,7 +48,7 @@ Set oWebAdmin = GetObject("winmgmts:root\WebAdministration")
 Set oAppDomains = oWebAdmin.ExecQuery("SELECT * FROM AppDomain")  
   
 ' Loop through each application domain and display its properties.  
-For Each oAppDomain In oAppDomains   
+For Each oAppDomain In oAppDomains
     WScript.Echo "--------------------------------------"  
     WScript.Echo "AppDomain Application Path:   " & oAppDomain.ApplicationPath  
     WScript.Echo "AppDomain ID:   " & oAppDomain.ID  
@@ -94,5 +94,5 @@ AppDomain SiteName:           Default Web Site
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [HTTP Request Processing in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64722)   
+ [HTTP Request Processing in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64722)
  [Object Class](../wmi-provider/object-class.md)

@@ -43,5 +43,5 @@ class DiagnosticsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

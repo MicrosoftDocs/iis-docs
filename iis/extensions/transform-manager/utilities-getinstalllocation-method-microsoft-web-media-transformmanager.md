@@ -55,7 +55,7 @@ static String^ GetInstallLocation()
 ```
 
 ``` fsharp
-  static member GetInstallLocation : unit -> string 
+  static member GetInstallLocation : unit -> string
 ```
 
 ```jscript

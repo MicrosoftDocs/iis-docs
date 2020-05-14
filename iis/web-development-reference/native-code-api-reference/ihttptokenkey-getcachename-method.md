@@ -62,5 +62,5 @@ IHttpTokenKey::GetCacheName: TOKEN
 |Header|Httpcach.h|  
   
 ## See Also  
- [IHttpTokenKey Interface](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md)   
+ [IHttpTokenKey Interface](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md)
  [IHttpCacheKey::GetCacheName Method](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md)

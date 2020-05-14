@@ -54,7 +54,7 @@ None.
 The following example adds an environment variable to an application pool.
 
 [!code-xml[Main](index/samples/sample1.xml)]
- 
+
 <a id="006"></a>
 ## Sample Code
 

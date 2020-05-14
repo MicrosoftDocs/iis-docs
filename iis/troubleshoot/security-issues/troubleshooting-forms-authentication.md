@@ -53,15 +53,15 @@ A convenient way to work with forms authentication is to use ASP.NET membership 
 
 The forms authentication cookie is lost
 
-**Scenario 1:** 
+**Scenario 1:**
 
 A user logs on to the Web site. At some point, the client sends a request to the server, and the FormsAuthenticationModule class does not receive the cookie.
 
-**Scenario 2:** 
+**Scenario 2:**
 
 The forms authentication cookie can also be lost when the client's cookie limit is exceeded. In Microsoft Internet Explorer, there is a limit of 20 cookies. After the 20th cookie is created on the client, previous cookies are removed from the client's collection. If the .ASPXAUTH cookie is removed, the user will be redirected to the login page when the next request is processed.
 
-**Scenario 3:** 
+**Scenario 3:**
 
 After the request leaves the client, there are various layers that can affect the packets that are being sent. To determine if a network device is removing the cookie, you have to capture a network trace on the client and the server, and then look in the body of the request for the cookie. You want to look at the client request to make sure that the cookie was sent, and check the server trace to make sure that the server received the cookie.
 
@@ -73,7 +73,7 @@ If you want to change the timeout value to be longer, you can easily change the 
 
 [!code-xml[Main](troubleshooting-forms-authentication/samples/sample4.xml)]
 
-**Scenario 4:** 
+**Scenario 4:**
 
 The forms authentication may time out before the timeout attribute value that is set in the configuration file.
 
@@ -81,7 +81,7 @@ If the forms authentication ticket is manually generated, the time-out property 
 
 [!code-console[Main](troubleshooting-forms-authentication/samples/sample5.cmd)]
 
-**Scenario 5:** 
+**Scenario 5:**
 
 In ASP.NET 4 web application using forms authentication, the event log message says:
 
@@ -89,7 +89,7 @@ In ASP.NET 4 web application using forms authentication, the event log message s
 
 ## Data Collection and Troubleshooting
 
-**Troubleshooting Scenario 1:** 
+**Troubleshooting Scenario 1:**
 
 You can determine if a request does not contain the cookie by enabling cookie logging in Microsoft Internet Information Services (IIS). To do so, follow these steps:
 
@@ -113,7 +113,7 @@ After you have the list of requests from that specific user, search for the requ
 > [!NOTE]
 > The first request from that user is not likely to have a forms authentication cookie unless you are creating a persistent cookie. The IIS Log will only show you the cookies that were received in the request. The first request to have the forms authentication cookie will be on the request after a successful login attempt.
 
-**Troubleshooting Scenario 2:** 
+**Troubleshooting Scenario 2:**
 
 Microsoft Internet Explorer complies with the following RFC 2109 recommended minimum limitations:
 
@@ -135,7 +135,7 @@ Each cookie consists of a single name-value pair. This pair may be followed by a
 
 [https://support.microsoft.com/kb/941495](https://support.microsoft.com/kb/941495)
 
-**Troubleshooting Scenario 3:** 
+**Troubleshooting Scenario 3:**
 
 After the request leaves the client, there are various layers that can affect the packets that are being sent (firewalls, proxies and load balancers etc.). To determine if a network device is removing the cookie, you have to capture a network trace on the client and the server, and then look in the body of the request for the cookie. You want to look at the client request to make sure that the cookie was sent, and then check the server trace to make sure that the server received that cookie.
 
@@ -152,9 +152,9 @@ When you look at the request that reached the server, you want make sure that th
 > [!NOTE]
 > There have also been instances of ISAPI filters removing cookies. If you confirm that the Web server received the cookie, but the cookie is not listed in the IIS logs, check the ISAPI filters. You may have to remove the filters to see if the problem is resolved.
 
-**Troubleshooting Scenario 5:** 
+**Troubleshooting Scenario 5:**
 
-- If the scenario involves a web farm, then the Machinekeys should be same across everywhere. Use below machinekey to maintain the consistency on all the servers on the farm: 
+- If the scenario involves a web farm, then the Machinekeys should be same across everywhere. Use below machinekey to maintain the consistency on all the servers on the farm:
 
     [!code-xml[Main](troubleshooting-forms-authentication/samples/sample9.xml)]
 - Compare the timeout values for both forms authentication module and the session module on all of the web servers.

@@ -68,5 +68,5 @@ virtual HRESULT GetCompletionStatus(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCompletionInfo Interface](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-interface.md)   
+ [IHttpCompletionInfo Interface](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-interface.md)
  [IHttpCompletionInfo::GetCompletionBytes Method](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-getcompletionbytes-method.md)

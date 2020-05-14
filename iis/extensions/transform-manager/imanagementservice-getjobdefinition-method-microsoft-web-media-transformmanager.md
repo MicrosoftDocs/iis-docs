@@ -65,8 +65,8 @@ JobDefinition^ GetJobDefinition(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobDefinition : 
-        jobDefinitionId:string -> JobDefinition 
+abstract GetJobDefinition :
+        jobDefinitionId:string -> JobDefinition
 ```
 
 ```jscript

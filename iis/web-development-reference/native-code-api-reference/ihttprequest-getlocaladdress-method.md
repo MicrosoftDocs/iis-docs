@@ -42,5 +42,5 @@ virtual PSOCKADDR GetLocalAddress(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)
  [IHttpRequest::GetRemoteAddress Method](../../web-development-reference/native-code-api-reference/ihttprequest-getremoteaddress-method.md)

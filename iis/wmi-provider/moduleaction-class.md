@@ -88,7 +88,7 @@ WScript.Echo "Done!"
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)   
- [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)
+ [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)
  [ModulesSection Class](../wmi-provider/modulessection-class.md)

@@ -52,6 +52,6 @@ class SoapExtensionTypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [SoapExtensionTypesInfo Class](../wmi-provider/soapextensiontypesinfo-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [SoapExtensionTypesInfo Class](../wmi-provider/soapextensiontypesinfo-class.md)
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

@@ -47,13 +47,13 @@ class TraceProviderDefinition : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
- [FailureDefinition Class](../wmi-provider/failuredefinition-class.md)   
- [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
- [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   
- [TraceAreaSettings Class](../wmi-provider/traceareasettings-class.md)   
- [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)   
- [TraceProviderDefinitionsSection Class](../wmi-provider/traceproviderdefinitionssection-class.md)   
- [TraceUrl Class](../wmi-provider/traceurl-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)
+ [FailureDefinition Class](../wmi-provider/failuredefinition-class.md)
+ [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)
+ [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)
+ [TraceAreaSettings Class](../wmi-provider/traceareasettings-class.md)
+ [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)
+ [TraceProviderDefinitionsSection Class](../wmi-provider/traceproviderdefinitionssection-class.md)
+ [TraceUrl Class](../wmi-provider/traceurl-class.md)
  [Logman](https://go.microsoft.com/fwlink/?LinkId=64802)

@@ -42,11 +42,11 @@ It should be noted that in order for this feature to be used, your client browse
 
 #### Prerequisites:
 
-- IIS 8.0 is installed on Windows Server 2012. 
+- IIS 8.0 is installed on Windows Server 2012.
 
     - Both WebHosting certificate store and SNI are part of default IIS installation. There is no specific IIS feature that needs to be installed from Server Manager.
 - Sample certificates.
-- \windows\system32\drivers\etc\hosts has been modified to be used for sample site and certificate. For example, if CN name of the certificate is TAPTesting, then the hosts file must contain: 
+- \windows\system32\drivers\etc\hosts has been modified to be used for sample site and certificate. For example, if CN name of the certificate is TAPTesting, then the hosts file must contain:
 
     [!code-console[Main](iis-80-server-name-indication-sni-ssl-scalability/samples/sample1.cmd)]
 
@@ -85,25 +85,25 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image17.png)
 3. Right-click **Sites** and select **Add Website**:  
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image19.png)
-4. Fill in the information, as you would create any site: 
+4. Fill in the information, as you would create any site:
 
    - **Site name**: Test
    - **Physical path**: `c:\inetpub\wwwroot`
    - **Type**: https
-   - **Hostname**: TAPTesting 
+   - **Hostname**: TAPTesting
 
        - This is new for Windows Server 8 in that host name can be specified for SSL.
        - In order to avoid certificate name mismatch error, ensure that the hostname specified here matches the CN name of the certificate.
        - The actual value of this configuration varies depending on the sample certificate that is being used.
    - **Use Server Name Indication**: Selected
-   - **SSL certificate**: Chhose the name of your certificate; for example: TAPTesting. 
+   - **SSL certificate**: Chhose the name of your certificate; for example: TAPTesting.
 
        - Note that the certificates are presented from both **Personal** and **Web Hosting** stores.
 
      ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.jpg)
 5. Verify that the site has been created:  
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image21.png)
-6. That's it. The secure site has been created using SNI. The management experience is very similar to the traditional SSL binding. The only differences are: 
+6. That's it. The secure site has been created using SNI. The management experience is very similar to the traditional SSL binding. The only differences are:
 
     - Host name can be specified for SSL site.
     - Certificate is stored in Web Hosting store for scalability.

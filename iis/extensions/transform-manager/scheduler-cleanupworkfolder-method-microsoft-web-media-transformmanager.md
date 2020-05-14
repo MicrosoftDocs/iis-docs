@@ -60,8 +60,8 @@ virtual void CleanupWorkFolder(
 ```
 
 ``` fsharp
-  abstract CleanupWorkFolder : 
-        workFolder:string -> unit 
+  abstract CleanupWorkFolder :
+        workFolder:string -> unit
 ```
 
 ```jscript

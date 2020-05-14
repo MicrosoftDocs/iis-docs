@@ -61,8 +61,8 @@ static void EnableTraceDestination(
 ```
 
 ``` fsharp
-static member EnableTraceDestination : 
-        destination:TraceDestination -> unit 
+static member EnableTraceDestination :
+        destination:TraceDestination -> unit
 ```
 
 ```jscript

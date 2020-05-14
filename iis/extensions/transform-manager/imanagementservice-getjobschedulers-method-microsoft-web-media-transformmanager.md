@@ -58,7 +58,7 @@ Collection<JobScheduler^>^ GetJobSchedulers()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobSchedulers : unit -> Collection<JobScheduler> 
+abstract GetJobSchedulers : unit -> Collection<JobScheduler>
 ```
 
 ```jscript

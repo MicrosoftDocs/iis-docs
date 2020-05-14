@@ -37,7 +37,7 @@ virtual HRESULT InsertEntityBody(
   
 > [!IMPORTANT]
 >  IIS does not make a copy of the entity body buffer. Your module's entity buffer must be preserved until the end of the request.  
->   
+>
 >  This method does not update the Content-Length header value. A module that uses this method must update the Content-Length separately.  
   
 ## Example  

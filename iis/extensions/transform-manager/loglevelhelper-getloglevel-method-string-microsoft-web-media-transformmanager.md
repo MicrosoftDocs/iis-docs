@@ -60,8 +60,8 @@ static LogLevel GetLogLevel(
 ```
 
 ``` fsharp
-  static member GetLogLevel : 
-        level:string -> LogLevel 
+  static member GetLogLevel :
+        level:string -> LogLevel
 ```
 
 ```jscript

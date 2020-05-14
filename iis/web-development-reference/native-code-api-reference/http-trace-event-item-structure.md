@@ -53,47 +53,47 @@ struct HTTP_TRACE_EVENT_ITEM{
 <eventProvider>  
     <traceEvent>  
         <traceEventItems>  
-            <traceEventItem   
-                data="16"   
-                traceType="HTTP_TRACE_TYPE_LPCGUID"   
-                pbData="NULL"   
-                description="NULL"   
+            <traceEventItem
+                data="16"
+                traceType="HTTP_TRACE_TYPE_LPCGUID"
+                pbData="NULL"
+                description="NULL"
                 name="ContextId"/>  
-            <traceEventItem   
-                data="4"   
-                traceType="HTTP_TRACE_TYPE_ULONG"   
-                pbData="1"   
-                description="NULL"   
+            <traceEventItem
+                data="4"
+                traceType="HTTP_TRACE_TYPE_ULONG"
+                pbData="1"
+                description="NULL"
                 name="SiteId"/>  
-            <traceEventItem   
-                data="30"   
-                traceType="HTTP_TRACE_TYPE_LPCWSTR"   
-                pbData="DefaultAppPool"   
-                description="NULL"   
+            <traceEventItem
+                data="30"
+                traceType="HTTP_TRACE_TYPE_LPCWSTR"
+                pbData="DefaultAppPool"
+                description="NULL"
                 name="AppPoolId"/>  
-            <traceEventItem   
-                data="8"   
-                traceType="HTTP_TRACE_TYPE_ULONGLONG"   
-                pbData="92"   
-                description="NULL"   
+            <traceEventItem
+                data="8"
+                traceType="HTTP_TRACE_TYPE_ULONGLONG"
+                pbData="92"
+                description="NULL"
                 name="ConnId"/>  
-            <traceEventItem   
-                data="8"   
-                traceType="HTTP_TRACE_TYPE_ULONGLONG"   
-                pbData="0"   
-                description="NULL"   
+            <traceEventItem
+                data="8"
+                traceType="HTTP_TRACE_TYPE_ULONGLONG"
+                pbData="0"
+                description="NULL"
                 name="RawConnId"/>  
-            <traceEventItem   
-                data="48"   
-                traceType="HTTP_TRACE_TYPE_LPCWSTR"   
-                pbData="http://server:80/"   
-                description="NULL"   
+            <traceEventItem
+                data="48"
+                traceType="HTTP_TRACE_TYPE_LPCWSTR"
+                pbData="http://server:80/"
+                description="NULL"
                 name="RequestURL"/>  
-            <traceEventItem   
-                data="4"   
-                    traceType="HTTP_TRACE_TYPE_LPCSTR"   
-                    pbData="GET"   
-                    description="NULL"   
+            <traceEventItem
+                data="4"
+                    traceType="HTTP_TRACE_TYPE_LPCSTR"
+                    pbData="GET"
+                    description="NULL"
                     name="RequestVerb"/>  
         </traceEventItems>  
     </traceEvent>  

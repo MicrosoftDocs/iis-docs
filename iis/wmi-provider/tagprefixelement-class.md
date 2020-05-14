@@ -49,6 +49,6 @@ class TagPrefixElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [PagesSection Class](../wmi-provider/pagessection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [PagesSection Class](../wmi-provider/pagessection-class.md)
  [TagPrefixInfo Class](../wmi-provider/tagprefixinfo-class.md)

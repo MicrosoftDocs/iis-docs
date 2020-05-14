@@ -64,8 +64,8 @@ void DeleteJobTemplate(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract DeleteJobTemplate : 
-        jobTemplateId:string -> unit 
+abstract DeleteJobTemplate :
+        jobTemplateId:string -> unit
 ```
 
 ```jscript

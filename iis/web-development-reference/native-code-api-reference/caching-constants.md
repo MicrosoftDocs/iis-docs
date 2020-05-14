@@ -28,5 +28,5 @@ This topic describes the constants that are defined in the Httpcach.h header fil
 |Header|Httpcach.h|  
   
 ## See Also  
- [Web Server Core Constants](../../web-development-reference/native-code-api-reference/web-server-core-constants.md)   
+ [Web Server Core Constants](../../web-development-reference/native-code-api-reference/web-server-core-constants.md)
  [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)

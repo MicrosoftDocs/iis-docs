@@ -48,6 +48,6 @@ virtual IHttpTraceContext* GetTraceContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpServer::GetTraceContext Method](../../web-development-reference/native-code-api-reference/ihttpserver-gettracecontext-method.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
+ [IHttpServer::GetTraceContext Method](../../web-development-reference/native-code-api-reference/ihttpserver-gettracecontext-method.md)
  [IHttpTraceContext Interface](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md)

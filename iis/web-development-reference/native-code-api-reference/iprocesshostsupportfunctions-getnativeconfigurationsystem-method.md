@@ -38,5 +38,5 @@ virtual HRESULT __stdcall GetNativeConfigurationSystem(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)   
+ [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)
  [IHttpServer::GetConfigObject Method](../../web-development-reference/native-code-api-reference/ihttpserver-getconfigobject-method.md)

@@ -36,6 +36,6 @@ Gets the schema of the collection contained in the corresponding [IAppHostElemen
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)   
+ [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)
+ [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

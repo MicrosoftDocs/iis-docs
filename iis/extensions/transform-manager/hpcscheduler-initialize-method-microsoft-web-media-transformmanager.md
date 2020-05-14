@@ -70,35 +70,35 @@ instance.Initialize(connectionString, _
 ```cpp
   public:
 virtual void Initialize(
-    String^ connectionString, 
-    Credential^ credential, 
-    String^ jobName, 
-    int priority, 
+    String^ connectionString,
+    Credential^ credential,
+    String^ jobName,
+    int priority,
     Dictionary<String^, String^>^ properties
 ) override
 ```
 
 ``` fsharp
-  abstract Initialize : 
-        connectionString:string * 
-        credential:Credential * 
-        jobName:string * 
-        priority:int * 
-        properties:Dictionary<string, string> -> unit 
-override Initialize : 
-        connectionString:string * 
-        credential:Credential * 
-        jobName:string * 
-        priority:int * 
-        properties:Dictionary<string, string> -> unit 
+  abstract Initialize :
+        connectionString:string *
+        credential:Credential *
+        jobName:string *
+        priority:int *
+        properties:Dictionary<string, string> -> unit
+override Initialize :
+        connectionString:string *
+        credential:Credential *
+        jobName:string *
+        priority:int *
+        properties:Dictionary<string, string> -> unit
 ```
 
 ```jscript
   public override function Initialize(
-    connectionString : String, 
-    credential : Credential, 
-    jobName : String, 
-    priority : int, 
+    connectionString : String,
+    credential : Credential,
+    jobName : String,
+    priority : int,
     properties : Dictionary<String, String>
 )
 ```

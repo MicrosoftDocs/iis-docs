@@ -18,13 +18,13 @@ The current topic extends the functionality of previous examples in [Silverlight
 
 To implement a slider that seeks back and forth in a media stream, add a slider to MainPage.xaml after the combo box.
 
-``` 
+```
   <Slider x:Name="SliderBar" Width="200" ValueChanged="SliderBar_ValueChanged"/>
 ```
 
 The ValueChanged event of the slider shown above specifies the handler for slider movements. The Value property of the slider will require some calculation to convert the slider Value to a [TimeSpan](https://go.microsoft.com/fwlink/?linkid=181852) object that can be assigned to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). Add the following variables to the MainPage class.
 
-``` 
+```
     // Slider seek variables.
     double sliderProportion;
     double sliderLengthSeconds;
@@ -36,7 +36,7 @@ The ValueChanged event of the slider shown above specifies the handler for slide
 
 The following event handler uses the seek variables shown above to calculate a new position value and to reassign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property so that the media stream will resume playing at a new position.
 
-``` 
+```
     private void SliderBar_ValueChanged(object sender,
                              RoutedPropertyChangedEventArgs<double> e)
     {
@@ -57,7 +57,7 @@ The following event handler uses the seek variables shown above to calculate a n
 
 When the media stream ends or the user clicks **Stop**, the slider should return to the zero value. The [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event can be used to reset the slider value when the stream ends. This code also resets the caption of **Play**.
 
-``` 
+```
     void SmoothPlayer_MediaEnded(object sender, RoutedEventArgs e)
     {
         OutputText.Text = "Media Ended. SmoothPlayer CurrentState: " +
@@ -69,7 +69,7 @@ When the media stream ends or the user clicks **Stop**, the slider should return
 
 Add SliderBar.Value = 0 to the click event to correctly position the slider when the user stops the playback.
 
-``` 
+```
     private void StopButton_Click(object sender, RoutedEventArgs e)
     {
         SmoothPlayer.Stop();

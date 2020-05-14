@@ -64,23 +64,23 @@ public SmoothStreamingAsyncResult(
 ```cpp
 public:
 SmoothStreamingAsyncResult(
-    AsyncCallback^ callback, 
-    Object^ state, 
+    AsyncCallback^ callback,
+    Object^ state,
     bool callbackOnUIThread
 )
 ```
 
 ``` fsharp
-new : 
-        callback:AsyncCallback * 
-        state:Object * 
+new :
+        callback:AsyncCallback *
+        state:Object *
         callbackOnUIThread:bool -> SmoothStreamingAsyncResult
 ```
 
 ```jscript
 public function SmoothStreamingAsyncResult(
-    callback : AsyncCallback, 
-    state : Object, 
+    callback : AsyncCallback,
+    state : Object,
     callbackOnUIThread : boolean
 )
 ```

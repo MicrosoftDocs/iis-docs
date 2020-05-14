@@ -61,10 +61,10 @@ virtual void OnShutdownComplete(
 ```
 
 ``` fsharp
-  abstract OnShutdownComplete : 
-        e:EventArgs -> unit 
-override OnShutdownComplete : 
-        e:EventArgs -> unit 
+  abstract OnShutdownComplete :
+        e:EventArgs -> unit
+override OnShutdownComplete :
+        e:EventArgs -> unit
 ```
 
 ```jscript

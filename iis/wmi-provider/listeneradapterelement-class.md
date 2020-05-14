@@ -51,5 +51,5 @@ class ListenerAdapterElement : CollectionElement
   
 ## See Also  
  [System.ApplicationHost.Configuration.ListenerAdapterElement](../wmi-provider/listeneradapterelement-class.md)
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [ListenerAdaptersSection Class](../wmi-provider/listeneradapterssection-class.md)

@@ -69,7 +69,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Health and Diagnostics**.
 4. Select **Tracing**, and then click **OK**.  
     [![](index/_static/image8.png)](index/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 

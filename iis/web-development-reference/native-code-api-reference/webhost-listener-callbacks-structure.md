@@ -58,5 +58,5 @@ struct WEBHOST_LISTENER_CALLBACKS{
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Structures](../../web-development-reference/native-code-api-reference/listener-adapter-structures.md)   
+ [Listener Adapter Structures](../../web-development-reference/native-code-api-reference/listener-adapter-structures.md)
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

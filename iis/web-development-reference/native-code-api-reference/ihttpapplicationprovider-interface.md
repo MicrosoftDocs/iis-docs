@@ -45,5 +45,5 @@ class IHttpApplicationProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
  [CGlobalModule::OnGlobalApplicationStart Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationstart-method.md)

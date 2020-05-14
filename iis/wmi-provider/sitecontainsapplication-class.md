@@ -43,7 +43,7 @@ Set oSite = oWebAdmin.Get("Site.Name='Default Web Site'")
 ' application instances in the 'Default Web Site' Web site.  
 Set oApps = oSite.Associators_("SiteContainsApplication")  
 For Each oApp In oApps  
-    WScript.Echo oApp.Path   
+    WScript.Echo oApp.Path
 Next  
 ```  
   
@@ -62,6 +62,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Application Class](../wmi-provider/application-class.md)   
- [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
+ [Application Class](../wmi-provider/application-class.md)
+ [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)
  [Site Class](../wmi-provider/site-class.md)

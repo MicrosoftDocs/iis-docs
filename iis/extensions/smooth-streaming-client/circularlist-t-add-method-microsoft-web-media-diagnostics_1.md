@@ -62,8 +62,8 @@ void Add(
 ```
 
 ``` fsharp
-member Add : 
-        item:'T -> unit 
+member Add :
+        item:'T -> unit
 ```
 
 ```jscript

@@ -36,9 +36,9 @@ Gets a collection of schemas for the [IAppHostProperty Interface](../../web-deve
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)   
- [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)   
- [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)   
- [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
+ [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)
+ [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)
+ [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)
+ [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)
  [IAppHostPropertySchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschemacollection-interface.md)

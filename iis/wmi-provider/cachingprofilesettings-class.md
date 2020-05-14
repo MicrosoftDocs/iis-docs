@@ -43,8 +43,8 @@ class CachingProfileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AspCache Class](../wmi-provider/aspcache-class.md)   
- [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
- [CachingSection Class](../wmi-provider/cachingsection-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [AspCache Class](../wmi-provider/aspcache-class.md)
+ [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)
+ [CachingSection Class](../wmi-provider/cachingsection-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [HttpClientCache Class](../wmi-provider/httpclientcache-class.md)

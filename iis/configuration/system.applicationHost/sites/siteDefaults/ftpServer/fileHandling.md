@@ -86,7 +86,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
     [![](fileHandling/_static/image8.png)](fileHandling/_static/image7.png)
 
 5. Click **OK**.

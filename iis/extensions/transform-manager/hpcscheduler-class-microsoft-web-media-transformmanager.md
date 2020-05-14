@@ -52,12 +52,12 @@ Manages IIS Transform Manager jobs that are run on a High Performance Computing 
 ```
 
 ```csharp
-  public class HpcScheduler : Scheduler, 
+  public class HpcScheduler : Scheduler,
     IDisposable
 ```
 
 ```cpp
-  public ref class HpcScheduler : public Scheduler, 
+  public ref class HpcScheduler : public Scheduler,
     IDisposable
 ```
 

@@ -75,7 +75,7 @@ oDefaultDocumentSection.RevertToParent
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
  [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)

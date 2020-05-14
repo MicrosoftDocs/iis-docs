@@ -61,20 +61,20 @@ instance.UpdateJobProgress(jobInstanceId, _
 ```cpp
   public:
 virtual void UpdateJobProgress(
-    String^ jobInstanceId, 
+    String^ jobInstanceId,
     int percentComplete
 ) abstract
 ```
 
 ``` fsharp
-  abstract UpdateJobProgress : 
-        jobInstanceId:string * 
-        percentComplete:int -> unit 
+  abstract UpdateJobProgress :
+        jobInstanceId:string *
+        percentComplete:int -> unit
 ```
 
 ```jscript
   public abstract function UpdateJobProgress(
-    jobInstanceId : String, 
+    jobInstanceId : String,
     percentComplete : int
 )
 ```

@@ -81,7 +81,7 @@ For more information and for examples, see [Position in Stream (IIS Smooth Strea
 
 The following example shows a delegate that assigns the Position property. Each time the user clicks the SeekButton element, the event handler adds a five-second interval to the position property until the current position plus five seconds is greater than the length of the media stream as specified by the [EndPosition](smoothstreamingmediaelement-endposition-property-microsoft-web-media-smoothstreaming_1.md) property.
 
-``` 
+```
         // Button seek interval.
         TimeSpan spanAdd = new TimeSpan(0, 0, 5);
         private void SeekButton_Click(object sender, RoutedEventArgs e)

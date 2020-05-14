@@ -59,8 +59,8 @@ static void ReadTraceConfig(
 ```
 
 ``` fsharp
-static member ReadTraceConfig : 
-        uri:Uri -> unit 
+static member ReadTraceConfig :
+        uri:Uri -> unit
 ```
 
 ```jscript

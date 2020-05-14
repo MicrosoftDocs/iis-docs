@@ -33,7 +33,7 @@ AdaptiveSourceStatusUpdatedEventArgs args
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public delegate void AdaptiveSourceStatusUpdatedEventHandler(
-[InAttribute] AdaptiveSource^ sender, 
+[InAttribute] AdaptiveSource^ sender,
 [InAttribute] AdaptiveSourceStatusUpdatedEventArgs^ args
 )
 ```

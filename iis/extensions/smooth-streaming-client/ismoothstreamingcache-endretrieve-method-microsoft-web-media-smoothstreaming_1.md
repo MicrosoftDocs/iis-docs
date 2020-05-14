@@ -62,8 +62,8 @@ CacheResponse^ EndRetrieve(
 ```
 
 ``` fsharp
-abstract EndRetrieve : 
-        ar:IAsyncResult -> CacheResponse 
+abstract EndRetrieve :
+        ar:IAsyncResult -> CacheResponse
 ```
 
 ```jscript
@@ -91,7 +91,7 @@ The method will block until done if necessary and may be called on any thread. S
 
 The following code shows an implementation of the EndRetrieve(IAsyncResult) method.
 
-``` 
+```
     public CacheResponse EndRetrieve(IAsyncResult ar)
     {
         ar.AsyncWaitHandle.WaitOne();
@@ -105,9 +105,9 @@ The following code shows an implementation of the EndRetrieve(IAsyncResult) meth
 
             if (!string.IsNullOrEmpty(filename) && isoFileArea.FileExists(filename))
             {
-                IsolatedStorageFileStream stream = 
+                IsolatedStorageFileStream stream =
                     isoFileArea.OpenFile(filename, System.IO.FileMode.Open, System.IO.FileAccess.Read);
-                response = new CacheResponse(stream);                    
+                response = new CacheResponse(stream);
             }
         }
 

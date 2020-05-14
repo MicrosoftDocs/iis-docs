@@ -88,7 +88,7 @@ public:
   
       // Write the log entry to the log file.  
       if(!WriteFile(hFile, szLogEntry,  
-         strlen(szLogEntry), &dwResult, &Overlapped))        
+         strlen(szLogEntry), &dwResult, &Overlapped))
       {  
          // Return an error if a failure occurs.  
          hr = HRESULT_FROM_WIN32(GetLastError());  
@@ -105,7 +105,7 @@ EXIT:
       return hr;  
    }  
 ```  
-    
+
 ## Requirements  
   
 |||  

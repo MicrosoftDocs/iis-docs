@@ -39,7 +39,7 @@ To support FTP authorization using a custom provider on your Web server, you mus
 
 1. Press the **Windows logo key**, and then click **Server Manager**.
 2. In **Server Manager**, click **Manage** and then click **Add Roles and Features**.
-3. In the **Add Roles and Features** wizard: 
+3. In the **Add Roles and Features** wizard:
 
     - On the **Before You Begin** page, click **Next**.
     - On the **Installation Type** page, select the installation type, and then click **Next**.
@@ -63,19 +63,19 @@ To support FTP authorization using a custom provider on your Web server, you mus
 
 ### How to configure default FTP authorization based upon a custom provider
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or later: 
+    - If you are using Windows Server 2012 or later:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or later: 
+    - If you are using Windows 8 or later:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, select the server name.
 3. In the **Home** pane, double-click the **FTP Authorization Rules** feature.
 4. In the **Actions** pane, click **Edit Feature settings**.
-5. In the **Authorization Feature Settings** dialog box, select **Choose a custom authorization provider** to enable FTP authorization by a custom provider. In the associated drop-down list, select a custom provider from the list.   
+5. In the **Authorization Feature Settings** dialog box, select **Choose a custom authorization provider** to enable FTP authorization by a custom provider. In the associated drop-down list, select a custom provider from the list.
   
     [![](index/_static/image2.png)](index/_static/image1.png)  
   
@@ -101,7 +101,7 @@ None.
 The following sample displays a `<customAuthorization>` element with a `<provider>` child element:
 
 [!code-xml[Main](index/samples/sample1.xml)]
- 
+
 <a id="006"></a>
 ## Sample Code
 

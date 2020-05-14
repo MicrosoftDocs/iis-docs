@@ -67,6 +67,6 @@ virtual PCSTR GetHeader(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
- [IHttpResponse::SetHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-setheader-method.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
+ [IHttpResponse::SetHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-setheader-method.md)
  [IHttpResponse::DeleteHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-deleteheader-method.md)

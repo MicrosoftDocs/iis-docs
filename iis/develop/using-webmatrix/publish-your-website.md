@@ -77,7 +77,7 @@ Configuring WebMatrix Beta for Publishing
 
     [![](publish-your-website/_static/image6.jpg)](publish-your-website/_static/image5.jpg)
 3. If you selected a hosting provider through WebMatrix Beta, you can leave **Protocol** set to **Web Deploy**. If you're using a hosting provider that doesn't support Web Deploy, or if you want to publish using FTP instead of Web Deploy, change the **Protocol** to **FTP**.
-4. If you are using Web Deploy, enter the information you received from the hosting provider in the text boxes: 
+4. If you are using Web Deploy, enter the information you received from the hosting provider in the text boxes:
 
     | Option | What to enter |
     | --- | --- |
@@ -87,7 +87,7 @@ Configuring WebMatrix Beta for Publishing
     | Destination URL | Enter the URL that people will use to browse your site over the internet, like this: contoso.com -or- contoso.com/blog |
 5. If you want to use FTP instead of Web Deploy, select **FTP**. Some of the fields you have to enter are different:  
     [![](publish-your-website/_static/image8.jpg)](publish-your-website/_static/image7.jpg)
-6. If you are using FTP: 
+6. If you are using FTP:
 
     1. Enter the **Server**, **User name**, **Password**, and **Destination URL** as described above for Web Deploy.
     2. In the **Site path** box, enter the value identified by the hosting company as the "Site Root," such as /wwwroot. This field is optional.
@@ -106,7 +106,7 @@ You can now start the publishing process. Before WebMatrix Beta makes any change
 
 1. In the **Publishing Settings** dialog box, click **Publish**. The **Publish Preview** dialog box appears.  
     [![](publish-your-website/_static/image12.jpg)](publish-your-website/_static/image11.jpg)
-2. Review the list of files and databases and make changes if necessary. For example, you might want to clear check boxes under **Changed Files** to exclude some files. Or, if this is the first time you're publishing the site, you might want to select check boxes under **Databases** to publish databases. (Check boxes are selected by default in the **Files** section and cleared by default in the **Databases** section.) 
+2. Review the list of files and databases and make changes if necessary. For example, you might want to clear check boxes under **Changed Files** to exclude some files. Or, if this is the first time you're publishing the site, you might want to select check boxes under **Databases** to publish databases. (Check boxes are selected by default in the **Files** section and cleared by default in the **Databases** section.)
 
     > [!IMPORTANT]
     > If you're publishing a database and the database already exists in at the hosting provider's site, whatever is in that database will be overwritten.

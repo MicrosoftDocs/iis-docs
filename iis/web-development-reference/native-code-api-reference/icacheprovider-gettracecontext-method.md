@@ -43,13 +43,13 @@ virtual IHttpTraceContext* GetTraceContext(
   
 ```  
 <cacheProvider>  
-    <traceContext   
+    <traceContext
         activityId=  
            "{00000000-0000-0000-2400-0080000000FB}">  
-        <traceConfiguration   
-            providerGuid="NULL"   
-            areas="0"   
-            verbosity="0"   
+        <traceConfiguration
+            providerGuid="NULL"
+            areas="0"
+            verbosity="0"
             providerEnabled="false"/>  
     </traceContext>  
 </cacheProvider>  

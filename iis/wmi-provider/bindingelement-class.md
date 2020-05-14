@@ -67,6 +67,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [SSLBinding Class](../wmi-provider/sslbinding-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [SSLBinding Class](../wmi-provider/sslbinding-class.md)
  [Site Class](../wmi-provider/site-class.md)

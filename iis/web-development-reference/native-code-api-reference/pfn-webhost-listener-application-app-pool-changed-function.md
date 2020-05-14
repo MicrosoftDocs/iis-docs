@@ -42,5 +42,5 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED)(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
+ [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

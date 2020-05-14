@@ -95,11 +95,11 @@ This topic describes the constants that are defined in the Httpserv.h header fil
 |EXECUTE_FLAG_HTTP_CACHE_ELIGIBLE|0x40|Indicates that the child response is still eligible for caching by Http.sys.|  
   
 ## See Also  
- [Web Server Core Constants](../../web-development-reference/native-code-api-reference/web-server-core-constants.md)   
- [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)   
- [IHttpContext::CloneContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md)   
- [IHttpContext::ExecuteRequest Method](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md)   
- [IHttpModuleRegistrationInfo::SetGlobalNotifications Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)   
- [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)   
- [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)   
+ [Web Server Core Constants](../../web-development-reference/native-code-api-reference/web-server-core-constants.md)
+ [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)
+ [IHttpContext::CloneContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md)
+ [IHttpContext::ExecuteRequest Method](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md)
+ [IHttpModuleRegistrationInfo::SetGlobalNotifications Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)
+ [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)
+ [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)
  [IHttpModuleRegistrationInfo::SetRequestNotifications Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md)

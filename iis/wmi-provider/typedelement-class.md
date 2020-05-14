@@ -48,5 +48,5 @@ class TypedElement : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [ListenerElement Class](../wmi-provider/listenerelement-class.md)

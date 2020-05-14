@@ -17,5 +17,5 @@ Listener adapters allow listeners to connect to the Windows Process Activation S
  Describes the structures that support listener adapter callbacks, which enable the Windows Process Activation Service (WAS) to communicate information to a listener adapter.  
   
 ## See Also  
- [Native-Code Architecture API Reference](../../web-development-reference/native-code-api-reference/native-code-architecture-api-reference.md)   
+ [Native-Code Architecture API Reference](../../web-development-reference/native-code-api-reference/native-code-architecture-api-reference.md)
  [IIS Development](https://msdn.microsoft.com/library/6c07a4d0-1bf0-45d3-8178-25df76e6740c)

@@ -11,11 +11,11 @@ Returns diagnostics information for web server startup failures.
 ```csharp  
 public static class IisDeveloperExpressDiagnostics  
 {  
-    /// <summary>   
+    /// <summary>
     /// DiagnoseStartupError returns diagnostics information for web site startup failures.  
-    /// </summary>   
-    /// <param name="errorCode">A Win32 HRESULT that describes the failure.</param>   
-    /// <param name="url">A string that describes the URL for the site that failed to launch.</param>   
+    /// </summary>
+    /// <param name="errorCode">A Win32 HRESULT that describes the failure.</param>
+    /// <param name="url">A string that describes the URL for the site that failed to launch.</param>
     /// <returns>An ErrorInformation instance that provides diagnostic information for the startup  
     /// failure.</returns>  
   

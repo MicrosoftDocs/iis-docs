@@ -70,5 +70,5 @@ virtual HRESULT SetUrl(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)
  [IHttpRequest::GetUrlChanged Method](../../web-development-reference/native-code-api-reference/ihttprequest-geturlchanged-method.md)

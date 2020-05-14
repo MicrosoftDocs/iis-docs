@@ -43,7 +43,7 @@ class ConformanceWarningSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConformanceWarning Class](../wmi-provider/conformancewarning-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
+ [ConformanceWarning Class](../wmi-provider/conformancewarning-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [WebServicesSection Class](../wmi-provider/webservicessection-class.md)
  [Basic Profile Version 1.1 (WS-I)](https://go.microsoft.com/fwlink/?LinkId=69313)

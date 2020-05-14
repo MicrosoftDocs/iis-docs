@@ -59,7 +59,7 @@ CacheRequest(
 ```
 
 ``` fsharp
-new : 
+new :
         canonicalUri:Uri -> CacheRequest
 ```
 

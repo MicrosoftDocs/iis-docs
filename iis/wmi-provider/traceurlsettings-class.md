@@ -45,6 +45,6 @@ class TraceUrlSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)
  [StringElement Class](../wmi-provider/stringelement-class.md)

@@ -62,10 +62,10 @@ virtual void SetProperty(
 ```
 
 ``` fsharp
-  abstract SetProperty : 
-        manifestProperty:IManifestProperty -> unit 
-override SetProperty : 
-        manifestProperty:IManifestProperty -> unit 
+  abstract SetProperty :
+        manifestProperty:IManifestProperty -> unit
+override SetProperty :
+        manifestProperty:IManifestProperty -> unit
 ```
 
 ```jscript

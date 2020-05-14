@@ -61,8 +61,8 @@ void OpenMedia(
 ```
 
 ``` fsharp
-abstract OpenMedia : 
-        manifestUri:Uri -> unit 
+abstract OpenMedia :
+        manifestUri:Uri -> unit
 ```
 
 ```jscript

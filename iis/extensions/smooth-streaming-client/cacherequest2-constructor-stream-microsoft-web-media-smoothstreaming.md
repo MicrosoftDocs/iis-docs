@@ -59,7 +59,7 @@ CacheRequest2(
 ```
 
 ``` fsharp
-new : 
+new :
         stream:Stream -> CacheRequest2
 ```
 

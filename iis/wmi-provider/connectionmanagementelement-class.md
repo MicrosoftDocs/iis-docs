@@ -44,6 +44,6 @@ class ConnectionManagementElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [\<connectionManagement> Element (Network Settings)](https://go.microsoft.com/fwlink/?LinkId=70910)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [\<connectionManagement> Element (Network Settings)](https://go.microsoft.com/fwlink/?LinkId=70910)
  [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/?LinkId=70911)

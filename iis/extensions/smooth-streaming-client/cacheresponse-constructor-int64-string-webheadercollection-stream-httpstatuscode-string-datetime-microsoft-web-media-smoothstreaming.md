@@ -73,24 +73,24 @@ Dim instance As New CacheResponse(contentLength, _
 ```cpp
   public:
 CacheResponse(
-    long long contentLength, 
-    String^ contentType, 
-    WebHeaderCollection^ headers, 
-    Stream^ response, 
-    HttpStatusCode statusCode, 
-    String^ statusDescription, 
+    long long contentLength,
+    String^ contentType,
+    WebHeaderCollection^ headers,
+    Stream^ response,
+    HttpStatusCode statusCode,
+    String^ statusDescription,
     DateTime downloadTime
 )
 ```
 
 ```jscript
   public function CacheResponse(
-    contentLength : long, 
-    contentType : String, 
-    headers : WebHeaderCollection, 
-    response : Stream, 
-    statusCode : HttpStatusCode, 
-    statusDescription : String, 
+    contentLength : long,
+    contentType : String,
+    headers : WebHeaderCollection,
+    response : Stream,
+    statusCode : HttpStatusCode,
+    statusDescription : String,
     downloadTime : DateTime
 )
 ```

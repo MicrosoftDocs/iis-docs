@@ -87,7 +87,7 @@ You can use the Sitemaps and Sitemap Indexes feature of the IIS SEO Toolkit to a
     [![](managing-robotstxt-and-sitemap-files/_static/image17.png)](managing-robotstxt-and-sitemap-files/_static/image16.png)
 4. On the SEO main page, click on the "**Create a new sitemap**" task link within the **Sitemaps and Sitemap Indexes** section.  
     [![](managing-robotstxt-and-sitemap-files/_static/image20.png)](managing-robotstxt-and-sitemap-files/_static/image19.png)
-5. The **Add Sitemap** dialog will open automatically.   
+5. The **Add Sitemap** dialog will open automatically.
     [![](managing-robotstxt-and-sitemap-files/_static/image22.png)](managing-robotstxt-and-sitemap-files/_static/image21.png)
 6. Type a name for your sitemap file and click **OK**. The **Add URLs** dialog appears.
 

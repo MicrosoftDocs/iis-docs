@@ -15,7 +15,7 @@ When provisioning a site, most hosters have some sort of control panel that allo
 
 Here are the basic steps for provisioning a site:
 
-1. Gather information from user. 
+1. Gather information from user.
 
     - What package do they want?
     - What is the FQDN?

@@ -402,7 +402,7 @@ To specify the name of the COM+ application, use the following syntax:
 
 `appcmd set config /section:asp /sxsName:string`
 
-The variable `string` represents name of the COM+ application. 
+The variable `string` represents name of the COM+ application.
 
 > [!NOTE]
 > You must also set the `appServiceFlags` flag to `true`.
@@ -413,7 +413,7 @@ To enable or disable COM+ partitioning, use the following syntax:
 
 `appcmd set config /section:asp /appServiceFlags:true|false`
 
-A value of `true` enables COM+ partitioning, which can be used to isolate applications in their own COM+ partition. The default value is *false*. 
+A value of `true` enables COM+ partitioning, which can be used to isolate applications in their own COM+ partition. The default value is *false*.
 
 > [!NOTE]
 > If set to `true`, you must also set a value for the `partitionID` property.

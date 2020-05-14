@@ -45,7 +45,7 @@ oWebAdmin.Get("SSLBinding").Create
 ' This is the standard format for a specific IP address.  
 oWebAdmin.Get("SSLBinding").Create "172.30.190.122", 443, "fbbca460988a482227ec71122177045e47f9f2ff", "MyStoreName"  
   
-' Each of the following formats is an acceptable way to create a secure binding   
+' Each of the following formats is an acceptable way to create a secure binding
 ' to port 443 on all IP addresses.  
 oWebAdmin.Get("SSLBinding").Create "*", 443, "fbbca460988a482227ec71122177045e47f9f2ff", "MyStoreName"  
 oWebAdmin.Get("SSLBinding").Create "0.0.0.0", 443, "fbbca460988a482227ec71122177045e47f9f2ff", "MyStoreName"  
@@ -74,11 +74,11 @@ Set oSite = oWebAdmin.Get("Site.Name='Default Web Site'")
 arrBindings = oSite.Bindings  
 ReDim Preserve arrBindings(UBound(arrBindings) + 1)  
   
-' Add the new binding to the array.   
+' Add the new binding to the array.
 Set arrBindings(UBound(arrBindings)) = oBinding  
   
 ' Assign the array to the Site.Bindings property.  
-oSite.Bindings = arrBindings   
+oSite.Bindings = arrBindings
 Set oPath = oSite.Put_  
   
 ```  
@@ -93,6 +93,6 @@ Set oPath = oSite.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [BindingElement Class](../wmi-provider/bindingelement-class.md)   
- [SSLBinding Class](../wmi-provider/sslbinding-class.md)   
+ [BindingElement Class](../wmi-provider/bindingelement-class.md)
+ [SSLBinding Class](../wmi-provider/sslbinding-class.md)
  [Site Class](../wmi-provider/site-class.md)

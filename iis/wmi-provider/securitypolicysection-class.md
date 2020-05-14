@@ -62,8 +62,8 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [TrustLevel Class](../wmi-provider/trustlevel-class.md)   
- [TrustSection Class](../wmi-provider/trustsection-class.md)   
- [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [TrustLevel Class](../wmi-provider/trustlevel-class.md)
+ [TrustSection Class](../wmi-provider/trustsection-class.md)
+ [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)
  [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326)

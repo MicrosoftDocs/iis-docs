@@ -38,5 +38,5 @@ virtual HRESULT ReportHealth(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
+ [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)
  [IPmHealthAndIdleMonitor::CheckHealth Method](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-checkhealth-method.md)

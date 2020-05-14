@@ -58,6 +58,6 @@ class AppSettingsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [KeyValueElement Class](../wmi-provider/keyvalueelement-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [KeyValueElement Class](../wmi-provider/keyvalueelement-class.md)
  [add Element for appSettings (General Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=70918)

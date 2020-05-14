@@ -62,8 +62,8 @@ static JobDetails^ CreateWorkItemFromXElement(
 ```
 
 ``` fsharp
-  static member CreateWorkItemFromXElement : 
-        element:XElement -> JobDetails 
+  static member CreateWorkItemFromXElement :
+        element:XElement -> JobDetails
 ```
 
 ```jscript

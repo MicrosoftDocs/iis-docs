@@ -57,5 +57,5 @@ class ConnectionManagementSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [ConnectionManagementElement Class](../wmi-provider/connectionmanagementelement-class.md)

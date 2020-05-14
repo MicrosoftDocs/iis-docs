@@ -43,5 +43,5 @@ virtual HRESULT ReportResult(
 |Header|Wpframework.h|  
   
 ## See Also  
- [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
+ [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)
  [IPmCustomActions::RunCustomAction Method](../../web-development-reference/native-code-api-reference/ipmcustomactions-runcustomaction-method.md)

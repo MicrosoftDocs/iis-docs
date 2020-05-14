@@ -70,32 +70,32 @@ public static void Trace(
 ```cpp
 public:
 static void Trace(
-    String^ className, 
-    String^ methodName, 
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
-    String^ format, 
+    String^ className,
+    String^ methodName,
+    TraceArea traceArea,
+    TraceLevel traceLevel,
+    String^ format,
     ... array<Object^>^ list
 )
 ```
 
 ``` fsharp
-static member Trace : 
-        className:string * 
-        methodName:string * 
-        traceArea:TraceArea * 
-        traceLevel:TraceLevel * 
-        format:string * 
-        list:Object[] -> unit 
+static member Trace :
+        className:string *
+        methodName:string *
+        traceArea:TraceArea *
+        traceLevel:TraceLevel *
+        format:string *
+        list:Object[] -> unit
 ```
 
 ```jscript
 public static function Trace(
-    className : String, 
-    methodName : String, 
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
-    format : String, 
+    className : String,
+    methodName : String,
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
+    format : String,
     ... list : Object[]
 )
 ```

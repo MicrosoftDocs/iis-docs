@@ -39,6 +39,6 @@ virtual HRESULT GetInterfaceVersion(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWorkerProcessFramework Interface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md)   
- [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getcustominterface-method.md)   
+ [IWorkerProcessFramework Interface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md)
+ [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getcustominterface-method.md)
  [IWorkerProcessFramework::GetWpfInterface Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getwpfinterface-method.md)

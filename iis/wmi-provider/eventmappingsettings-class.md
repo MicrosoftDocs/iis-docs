@@ -46,8 +46,8 @@ class EventMappingSettings : EmbeddedObject
   
 ## See Also  
  [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes)
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [EventMappingElement Class](../wmi-provider/eventmappingelement-class.md)   
- [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
- [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [EventMappingElement Class](../wmi-provider/eventmappingelement-class.md)
+ [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)
+ [ProviderSettings Class](../wmi-provider/providersettings-class.md)
  [RuleSettings Class](../wmi-provider/rulesettings-class.md)

@@ -43,6 +43,6 @@ class WebServicesProtocolSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [WebServicesProtocolElement Class](../wmi-provider/webservicesprotocolelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [WebServicesProtocolElement Class](../wmi-provider/webservicesprotocolelement-class.md)
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

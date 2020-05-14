@@ -52,6 +52,6 @@ class TransactionsDefaultSettingsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [TransactionsMachineSettingsSection Class](../wmi-provider/transactionsmachinesettingssection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [TransactionsMachineSettingsSection Class](../wmi-provider/transactionsmachinesettingssection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

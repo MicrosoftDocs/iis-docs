@@ -43,6 +43,6 @@ class TraceAreaSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [TraceAreaDefinition Class](../wmi-provider/traceareadefinition-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [TraceAreaDefinition Class](../wmi-provider/traceareadefinition-class.md)
  [TraceUrl Class](../wmi-provider/traceurl-class.md)

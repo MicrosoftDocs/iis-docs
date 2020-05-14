@@ -60,16 +60,16 @@ void CreateView(
 
 ```cpp
 void CreateView(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     View^ view
 )
 ```
 
 ```jscript
 function CreateView(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     view : View
 )
 ```

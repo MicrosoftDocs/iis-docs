@@ -62,8 +62,8 @@ static JobDetails^ CreateWorkItem(
 ```
 
 ``` fsharp
-  static member CreateWorkItem : 
-        manifest:JobManifest -> JobDetails 
+  static member CreateWorkItem :
+        manifest:JobManifest -> JobDetails
 ```
 
 ```jscript

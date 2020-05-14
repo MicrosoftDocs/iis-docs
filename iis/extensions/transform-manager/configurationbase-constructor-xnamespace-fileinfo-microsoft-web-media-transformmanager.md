@@ -58,20 +58,20 @@ Dim instance As New ConfigurationBase(baseNamespace, _
 ```cpp
   public:
 ConfigurationBase(
-    XNamespace^ baseNamespace, 
+    XNamespace^ baseNamespace,
     FileInfo^ fileInfo
 )
 ```
 
 ``` fsharp
-  new : 
-        baseNamespace:XNamespace * 
+  new :
+        baseNamespace:XNamespace *
         fileInfo:FileInfo -> ConfigurationBase
 ```
 
 ```jscript
   public function ConfigurationBase(
-    baseNamespace : XNamespace, 
+    baseNamespace : XNamespace,
     fileInfo : FileInfo
 )
 ```

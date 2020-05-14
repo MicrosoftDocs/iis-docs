@@ -42,7 +42,7 @@ virtual VOID CleanupStoredContext(
 class MyStoredContext : public IHttpStoredContext  
 {  
 public:  
-    // The MyStoredContext method is the public   
+    // The MyStoredContext method is the public
     // constructor for the MyStoredContext class.  
     MyStoredContext()  
     {  
@@ -50,8 +50,8 @@ public:
     }  
   
     // The CleanupStoredContext method must be implemented  
-    // by non-abstract classes that implement the   
-    // IHttpStoredContext interface. This method   
+    // by non-abstract classes that implement the
+    // IHttpStoredContext interface. This method
     // calls delete this.  
     virtual void CleanupStoredContext(VOID)  
     {  

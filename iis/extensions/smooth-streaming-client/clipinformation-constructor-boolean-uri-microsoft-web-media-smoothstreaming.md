@@ -57,14 +57,14 @@ Dim instance As New ClipInformation(isSmoothStreamingSource, _
 ```cpp
   public:
 ClipInformation(
-    bool isSmoothStreamingSource, 
+    bool isSmoothStreamingSource,
     Uri^ clipUri
 )
 ```
 
 ```jscript
   public function ClipInformation(
-    isSmoothStreamingSource : boolean, 
+    isSmoothStreamingSource : boolean,
     clipUri : Uri
 )
 ```

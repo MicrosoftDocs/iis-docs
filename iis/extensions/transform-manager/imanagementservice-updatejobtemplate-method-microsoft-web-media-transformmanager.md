@@ -64,8 +64,8 @@ void UpdateJobTemplate(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract UpdateJobTemplate : 
-        jobTemplate:JobTemplate -> unit 
+abstract UpdateJobTemplate :
+        jobTemplate:JobTemplate -> unit
 ```
 
 ```jscript

@@ -61,12 +61,12 @@ If you are logged on to an account other than the built-in local administrator a
     [![](installing-iis-on-windows-vista-and-windows-7/_static/image12.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image11.jpg)
 
     *Figure 6: Windows Features dialog box - IIS*
-6. Expand the additional categories displayed, and select any additional features you want to install, such as **Web Management Tools.** 
+6. Expand the additional categories displayed, and select any additional features you want to install, such as **Web Management Tools.**
 
     [![](installing-iis-on-windows-vista-and-windows-7/_static/image14.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image13.jpg)
 
     *Figure 7: Windows Features dialog box - IIS feature selection*
-7. If you are installing IIS for evaluation purposes, you may want to select additional features to install. Select the check boxes for all IIS features you want to install, and then click **OK** to start installation. 
+7. If you are installing IIS for evaluation purposes, you may want to select additional features to install. Select the check boxes for all IIS features you want to install, and then click **OK** to start installation.
 
     [![](installing-iis-on-windows-vista-and-windows-7/_static/image16.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image15.jpg)
 

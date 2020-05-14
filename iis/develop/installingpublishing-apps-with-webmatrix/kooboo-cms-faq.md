@@ -44,7 +44,7 @@ The application has 4 connection strings, but only 1 will be updated when publis
 
 **Workaround:** To resolve this issue, use the following steps:
 
-1. Using WebMatrix, create a copy of the web.config that will be used for the remote web site: 
+1. Using WebMatrix, create a copy of the web.config that will be used for the remote web site:
 
     1. Go to the **Files** workspace.
     2. Copy and paste the *web.config* to create a copy.
@@ -53,7 +53,7 @@ The application has 4 connection strings, but only 1 will be updated when publis
     5. Click **Save** on the **Quick Access Toolbar** or press Ctrl + S.
     6. Publish again.
     7. After publishing, browse to your remote web site to verify that the application works.
-2. To switch to the local web.config so that the application works on your client machine: 
+2. To switch to the local web.config so that the application works on your client machine:
 
     1. Rename *web.config* to *web.config.remote*.
     2. Rename *web.config.local* to *web.config*.

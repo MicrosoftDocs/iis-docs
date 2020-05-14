@@ -46,6 +46,6 @@ virtual PCWSTR GetScriptName(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::GetScriptMap Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
+ [IHttpContext::GetScriptMap Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md)
  [IHttpContext::GetScriptTranslated Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscripttranslated-method.md)

@@ -41,5 +41,5 @@ Gets the [IAppHostPropertySchema Interface](../../web-development-reference/nati
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschemacollection-interface.md)   
+ [IAppHostPropertySchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschemacollection-interface.md)
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

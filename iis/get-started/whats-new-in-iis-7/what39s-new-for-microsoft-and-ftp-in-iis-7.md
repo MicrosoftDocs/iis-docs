@@ -29,10 +29,10 @@ Microsoft released an updated FTP service that is available as a separate downlo
 
 There are two separate downloadable packages for the new FTP server; you will need to download the appropriate package for your version of Windows Server 2008:
 
-- **32-bit Installation Package**: 
+- **32-bit Installation Package**:
 
     - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=143196)
-- **64-bit Installation Package**: 
+- **64-bit Installation Package**:
 
     - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=143197)
 

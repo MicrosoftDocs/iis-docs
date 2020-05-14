@@ -46,11 +46,11 @@ class TraceSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   
- [TraceListenerSettings Class](../wmi-provider/tracelistenersettings-class.md)   
- [System.Diagnostics.Trace.Indent Method](https://go.microsoft.com/fwlink/?LinkId=71871)   
- [System.Diagnostics.Trace.Flush Method](https://go.microsoft.com/fwlink/?LinkId=71872)   
- [System.Diagnostics.TextWriterTraceListener Class](https://go.microsoft.com/fwlink/?LinkId=26061)   
- [System.Diagnostics.EventLogTraceListener Class](https://go.microsoft.com/fwlink/?LinkId=71873)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)
+ [TraceListenerSettings Class](../wmi-provider/tracelistenersettings-class.md)
+ [System.Diagnostics.Trace.Indent Method](https://go.microsoft.com/fwlink/?LinkId=71871)
+ [System.Diagnostics.Trace.Flush Method](https://go.microsoft.com/fwlink/?LinkId=71872)
+ [System.Diagnostics.TextWriterTraceListener Class](https://go.microsoft.com/fwlink/?LinkId=26061)
+ [System.Diagnostics.EventLogTraceListener Class](https://go.microsoft.com/fwlink/?LinkId=71873)
  [System.Diagnostics.TraceListener.IsThreadSafe Property](https://go.microsoft.com/fwlink/?LinkId=74329)

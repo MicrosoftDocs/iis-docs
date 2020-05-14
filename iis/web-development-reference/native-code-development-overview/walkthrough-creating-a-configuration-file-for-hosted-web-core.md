@@ -293,5 +293,5 @@ This walkthrough demonstrates how to create a configuration file for use with th
    Your application may experience an error if a section of your configuration file has not been correctly defined. Depending on the error, you may be able to retrieve additional information about the problem by examining your server's Event Viewer logs and the IIS log files that are created automatically by your application. For more information about troubleshooting problems with a Hosted Web Core application, see the troubleshooting steps that are listed in [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md).  
   
 ## See Also  
- [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md)   
+ [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md)
  [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md)

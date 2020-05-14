@@ -15,7 +15,7 @@ This article provides a list of common usage scenarios for enhanced Request Filt
 
 ## Creating Rules to Disallow String Patterns in Parts of Requests
 
- A new feature, added to IIS Request Filtering feature, is the ability to create a rule list that will let you specify rules to disallow requests based on patterns matched against certain portions of an HTTP request. The main configuration for this is the **filteringRules** section under the **system.webServer/security/requestFiltering** section. In the event of a denied condition **HTTP Error 404.19** is raised. 
+ A new feature, added to IIS Request Filtering feature, is the ability to create a rule list that will let you specify rules to disallow requests based on patterns matched against certain portions of an HTTP request. The main configuration for this is the **filteringRules** section under the **system.webServer/security/requestFiltering** section. In the event of a denied condition **HTTP Error 404.19** is raised.
 
 ### Example
 
@@ -28,7 +28,7 @@ This article provides a list of common usage scenarios for enhanced Request Filt
 [!code-console[Main](using-enhanced-request-filtering-features-in-iis/samples/sample3.cmd)]
 
 [!code-console[Main](using-enhanced-request-filtering-features-in-iis/samples/sample4.cmd)]
- 
+
 ### Config
 
 [!code-xml[Main](using-enhanced-request-filtering-features-in-iis/samples/sample5.xml)]
@@ -99,7 +99,7 @@ The request below would fail this rule since it has a &quot;..&quot; in its Quer
 
 ## Checking for both Escaped and unEscaped Query String
 
- It is possible that you want to scan for both escaped and un-escaped versions of this pattern using **unescapeQueryString** attribute in the &quot;**system.webServer/security/requestFiltering**&quot; section. 
+ It is possible that you want to scan for both escaped and un-escaped versions of this pattern using **unescapeQueryString** attribute in the &quot;**system.webServer/security/requestFiltering**&quot; section.
 
 ### Example
 

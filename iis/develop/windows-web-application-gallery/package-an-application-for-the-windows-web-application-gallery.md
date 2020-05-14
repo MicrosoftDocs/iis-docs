@@ -58,7 +58,7 @@ The **scope** here identifies the type of directive in the Manifest.xml file bei
 
 (Note that users installing applications on IIS 5.1 do not have a choice for the Web site portion of this path. IIS 5.1 only supports a single Web site, which is always "Default Web Site.")
 
-Here are some tips for creating parameters.xml: 
+Here are some tips for creating parameters.xml:
 
 1. Use regular expressions for TextFile matches:  
 

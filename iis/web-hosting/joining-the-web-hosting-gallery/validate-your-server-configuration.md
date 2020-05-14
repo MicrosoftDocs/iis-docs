@@ -141,7 +141,7 @@ This Validator serves two purposes. First, it can be used to check if a product 
 
 [!code-xml[Main](validate-your-server-configuration/samples/sample8.xml)]
 
- Second, it can be used to check if dependencies for all applications that can be installed using the Web Application Gallery are installed. This is valuable if you want to see if your server supports being a publishing target for Wordpress, Joomla! etc. It will highlight any missing components so you can install them: 
+ Second, it can be used to check if dependencies for all applications that can be installed using the Web Application Gallery are installed. This is valuable if you want to see if your server supports being a publishing target for Wordpress, Joomla! etc. It will highlight any missing components so you can install them:
 
 [!code-xml[Main](validate-your-server-configuration/samples/sample9.xml)]
 

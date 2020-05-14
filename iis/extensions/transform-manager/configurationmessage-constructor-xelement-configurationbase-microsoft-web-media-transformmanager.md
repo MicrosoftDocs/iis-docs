@@ -58,20 +58,20 @@ Dim instance As New ConfigurationMessage(messageElement, _
 ```cpp
   public:
 ConfigurationMessage(
-    XElement^ messageElement, 
+    XElement^ messageElement,
     ConfigurationBase^ configurationObject
 )
 ```
 
 ``` fsharp
-  new : 
-        messageElement:XElement * 
+  new :
+        messageElement:XElement *
         configurationObject:ConfigurationBase -> ConfigurationMessage
 ```
 
 ```jscript
   public function ConfigurationMessage(
-    messageElement : XElement, 
+    messageElement : XElement,
     configurationObject : ConfigurationBase
 )
 ```

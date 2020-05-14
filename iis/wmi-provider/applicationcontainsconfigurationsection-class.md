@@ -41,5 +41,5 @@ class ApplicationContainsConfigurationSection : ObjectConfigurationAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Application Class](../wmi-provider/application-class.md)   
+ [Application Class](../wmi-provider/application-class.md)
  [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)

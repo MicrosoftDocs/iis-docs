@@ -75,6 +75,6 @@ This class contains no subclasses.
 ## See Also  
 
  [System.Web.Configuration.SystemWebSectionGroup.HttpRuntime](/dotnet/api/system.web.configuration.systemwebsectiongroup.httpruntime)  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [CompilationSection Class](../wmi-provider/compilationsection-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

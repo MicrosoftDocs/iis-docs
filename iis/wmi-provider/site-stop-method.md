@@ -51,6 +51,6 @@ oSite.Stop
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Site Class](../wmi-provider/site-class.md)   
- [Site.GetState Method](../wmi-provider/site-getstate-method.md)   
+ [Site Class](../wmi-provider/site-class.md)
+ [Site.GetState Method](../wmi-provider/site-getstate-method.md)
  [Site.Start Method](../wmi-provider/site-start-method.md)

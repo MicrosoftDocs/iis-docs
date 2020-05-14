@@ -29,7 +29,7 @@ A: To publish a BlogEngine.NET website, use the following steps:
 
 1. In any workspace, on the **Home** tab, in the **Site** group, click **Publish**.
 2. On the **Publishing Settings** dialog, enter the server info you received from your web host.
-3. Because BlogEngine.NET has a default connection string that is not used, you will need to enter a fake connection string.   
+3. Because BlogEngine.NET has a default connection string that is not used, you will need to enter a fake connection string.
  For example: `"Data Source=empty;database=empty;uid=empty;pwd=empty"`
 4. Click **Validate Connection** to ensure that the settings are correct.
 5. Click **Publish**.
@@ -42,7 +42,7 @@ A: To publish a BlogEngine.NET website, use the following steps:
 A: If you are publishing to a server where the web site is configured to run in a .NET 4 application pool or you changed your local site to run in .NET 4, you will receive this error because the application requires .NET 2.0.
 
 > **Error**: Ooops! An unexpected error has occurred.
-> 
+>
 > The error will also contain the message: "A potentially dangerous Request.Form value was detected from the client (ctl00$cphAdmin$txtContent$TinyMCE1$txtContent="
 
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.

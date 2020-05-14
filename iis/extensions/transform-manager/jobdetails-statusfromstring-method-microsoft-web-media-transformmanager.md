@@ -62,8 +62,8 @@ static JobStatus StatusFromString(
 ```
 
 ``` fsharp
-  static member StatusFromString : 
-        status:string -> JobStatus 
+  static member StatusFromString :
+        status:string -> JobStatus
 ```
 
 ```jscript

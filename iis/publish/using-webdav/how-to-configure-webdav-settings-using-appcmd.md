@@ -23,10 +23,10 @@ This document will walk you through using the new AppCmd.exe utility in IIS 7.0 
 
 The following items are required to complete the procedures in this article:
 
-- IIS 7.0 must be installed on your server, and the following must be configured: 
+- IIS 7.0 must be installed on your server, and the following must be configured:
 
   - The Default Web Site that is created by the IIS 7.0 installation must still exist.
-- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document: 
+- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document:
 
   - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
@@ -279,13 +279,13 @@ Or you can specify both the user or role name and the content type like the foll
 
 This document has shown you how to do the following:
 
-- [Work with AppCmd to perform basic WebDAV tasks](how-to-configure-webdav-settings-using-appcmd.md#02): 
+- [Work with AppCmd to perform basic WebDAV tasks](how-to-configure-webdav-settings-using-appcmd.md#02):
 
   - [Enable or disable WebDAV for a web site](how-to-configure-webdav-settings-using-appcmd.md#02a)
   - [Require SSL for WebDAV authoring for a web site](how-to-configure-webdav-settings-using-appcmd.md#02b)
   - [Allow access to hidden files for a web site](how-to-configure-webdav-settings-using-appcmd.md#02c)
   - [Configure WebDAV compatibility settings for a web site](how-to-configure-webdav-settings-using-appcmd.md#02d)
-- [Work with WebDAV Authoring Rules](how-to-configure-webdav-settings-using-appcmd.md#03): 
+- [Work with WebDAV Authoring Rules](how-to-configure-webdav-settings-using-appcmd.md#03):
 
   - [Configure Authoring Rule Defaults](how-to-configure-webdav-settings-using-appcmd.md#03a)
   - [Manage Authoring Rules](how-to-configure-webdav-settings-using-appcmd.md#03b)

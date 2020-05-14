@@ -22,7 +22,7 @@ This article provides an overview of Microsoft Windows Vista® and Microsoft Ser
 IIS 7 and above is the product name used to refer to the versions of Internet Information Services (IIS) that are included in some editions of Windows Server® 2008, Windows Server® 2008 R2, Windows Vista®, and Windows® 7.
 
 > IIS 7.0 is the Web Server (IIS) role in Windows Server 2008, and the Web server in Windows Vista.
-> 
+>
 > IIS 7.5 is the Web Server (IIS) role in Windows Server 2008 R2, and the Web server in Windows 7.
 
 <a id="overview"></a>
@@ -49,12 +49,12 @@ Windows Vista and Windows Server 2008 benefit from this new installation infrast
 
     - OS versions are assembled declaratively.
     - Client &amp; Server versions share the same code base.
-- Servicing 
+- Servicing
 
     - Dependencies known for all features.
     - Impact of servicing a component is now completely understood.
     - Smaller service packs.
-- Security 
+- Security
 
     - Reduced attack surface.
     - All binaries are not installed for each OS version.
@@ -589,7 +589,7 @@ Each of these groups contains one or more updates which have installable feature
 
 The IIS features grouped under Common HTTP Features provide support for static Web server content such as HTML and image files, custom errors, and redirection. These features are normally always installed with IIS, although you may choose to omit some or all of these features for special purpose configurations.
 
-- IIS-CommonHttpFeatures 
+- IIS-CommonHttpFeatures
 
     - IIS-StaticContent
     - IIS-DefaultDocument
@@ -601,7 +601,7 @@ The IIS features grouped under Common HTTP Features provide support for static W
 
 The Application Development update groups together features that support deployment of Web applications and dynamic content such as ASP.NET applications, Classic ASP applications, and ISAPI extensions and filters. Choose which, if any, of these features to install based on the types of applications you intend to deploy on your Web server.
 
-- IIS-ApplicationDevelopment 
+- IIS-ApplicationDevelopment
 
     - IIS-ASPNET
     - IIS-NetFxExtensibility
@@ -615,7 +615,7 @@ The Application Development update groups together features that support deploym
 
 The Health and Diagnostics updates groups together those features that enable logging, request monitoring, and diagnostics.
 
-- IIS-HealthAndDiagnostics 
+- IIS-HealthAndDiagnostics
 
     - IIS-HttpLogging
     - IIS-LoggingLibraries
@@ -628,7 +628,7 @@ The Health and Diagnostics updates groups together those features that enable lo
 
 The Security update groups together all of the authentication, authorization, and filtering features.
 
-- IIS-Security 
+- IIS-Security
 
     - IIS-BasicAuthentication
     - IIS-WindowsAuthentication
@@ -645,7 +645,7 @@ Anonymous authentication is not optionally installable; it is always installed w
 
 The Performance update grouping includes the two compression updates for static and dynamic content.
 
-- IIS-Performance 
+- IIS-Performance
 
     - IIS-HttpCompressionStatic
     - IIS-HttpCompressionDynamic
@@ -654,12 +654,12 @@ The Performance update grouping includes the two compression updates for static 
 
 The Web management tools groups together the IIS 7.0 and above management tools as well as the IIS 6.0 compatibility tools.
 
-- IIS-WebServerManagementTools 
+- IIS-WebServerManagementTools
 
     - IIS-ManagementConsole
     - IIS-ManagementScriptingTools
     - IIS-ManagementService
-    - IIS-IIS6ManagementCompatibility 
+    - IIS-IIS6ManagementCompatibility
 
         - IIS-Metabase
         - IIS-WMICompatibility
@@ -673,7 +673,7 @@ The Web management tools groups together the IIS 7.0 and above management tools 
 
 This update groups together the FTP server and FTP management console.
 
-- IIS-FTPPublishingService 
+- IIS-FTPPublishingService
 
     - IIS-FTPServer
     - IIS-FTPManagement
@@ -682,7 +682,7 @@ This update groups together the FTP server and FTP management console.
 
 Windows Process Activation Service (WAS) includes all of the necessary infrastructure needed to provide a base level of process activation and management as well as HTTP processing infrastructure.
 
-- WAS-WindowsActivationService 
+- WAS-WindowsActivationService
 
     - WAS-ProcessModel
     - WAS-NetFxEnvironment
@@ -702,7 +702,7 @@ The Server Manager notifies you and installs required dependencies automatically
 
 All features under the update group IIS-WebServer have dependencies on the WAS features:
 
-- WAS-WindowsActivationService 
+- WAS-WindowsActivationService
 
     - WAS-ProcessModel
     - WAS-NetFxEnvironment
@@ -775,7 +775,7 @@ Thus, the IIS default install provides a basic static content server with local 
 
 Upgrade of previous versions of IIS to IIS 7.0 and above issupported for both the Windows Vista and Windows Server 2008 as detailed below:
 
-- Supported IIS / OS versions for Upgrade to Windows Server 2008 
+- Supported IIS / OS versions for Upgrade to Windows Server 2008
 
     - IIS 6.0 on Windows Server 2003 (Not supported in Vista Beta 2)
 - Supported IIS / OS versions for Upgrade to Windows Vista

@@ -6,7 +6,7 @@ msc.type: authoredcontent
 ---
 # IIS Server Variables
 
-IIS Server Variables provide information about the server, the connection with 
+IIS Server Variables provide information about the server, the connection with
 the client, and the current request on the connection. Additionally, inbound
 URL rewrite rules can be used to set custom server variables.
 

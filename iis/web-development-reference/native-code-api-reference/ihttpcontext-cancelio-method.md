@@ -49,6 +49,6 @@ virtual HRESULT CancelIo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpResponse::ResetConnection Method](../../web-development-reference/native-code-api-reference/ihttpresponse-resetconnection-method.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
+ [IHttpResponse::ResetConnection Method](../../web-development-reference/native-code-api-reference/ihttpresponse-resetconnection-method.md)
  [IHttpResponse::SetNeedDisconnect Method](../../web-development-reference/native-code-api-reference/ihttpresponse-setneeddisconnect-method.md)

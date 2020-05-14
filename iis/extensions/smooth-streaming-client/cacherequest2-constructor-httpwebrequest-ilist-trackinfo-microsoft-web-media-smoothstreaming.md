@@ -58,20 +58,20 @@ public CacheRequest2(
 ```cpp
 public:
 CacheRequest2(
-    HttpWebRequest^ request, 
+    HttpWebRequest^ request,
     IList<TrackInfo^>^ tracks
 )
 ```
 
 ``` fsharp
-new : 
-        request:HttpWebRequest * 
+new :
+        request:HttpWebRequest *
         tracks:IList<TrackInfo> -> CacheRequest2
 ```
 
 ```jscript
 public function CacheRequest2(
-    request : HttpWebRequest, 
+    request : HttpWebRequest,
     tracks : IList<TrackInfo>
 )
 ```

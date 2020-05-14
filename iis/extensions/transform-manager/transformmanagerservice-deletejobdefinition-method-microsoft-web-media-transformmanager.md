@@ -65,11 +65,11 @@ virtual void DeleteJobDefinition(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract DeleteJobDefinition : 
-        jobDefinitionId:string -> unit 
+abstract DeleteJobDefinition :
+        jobDefinitionId:string -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override DeleteJobDefinition : 
-        jobDefinitionId:string -> unit 
+override DeleteJobDefinition :
+        jobDefinitionId:string -> unit
 ```
 
 ```jscript

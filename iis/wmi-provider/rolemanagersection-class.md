@@ -79,7 +79,7 @@ class RoleManagerSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)   
- [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)
+ [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

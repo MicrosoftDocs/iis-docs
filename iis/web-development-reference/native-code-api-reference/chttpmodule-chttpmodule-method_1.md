@@ -57,7 +57,7 @@ public:
         return RQ_NOTIFICATION_CONTINUE;
     }
 
-    // 
+    //
     MyHttpModule()
     {
         // Open a handle to the Event Viewer.
@@ -102,7 +102,7 @@ class MyHttpModuleFactory : public IHttpModuleFactory
 public:
     HRESULT
     GetHttpModule(
-        OUT CHttpModule ** ppModule, 
+        OUT CHttpModule ** ppModule,
         IN IModuleAllocator * pAllocator
     )
     {
@@ -124,7 +124,7 @@ public:
             pModule = NULL;
             // Return a success status.
             return S_OK;
-        }            
+        }
     }
 
     void Terminate()

@@ -67,7 +67,7 @@ WScript.Echo "Anonymous Authentication Settings"
 WScript.Echo "---------------------------------"  
 WScript.Echo "Path: " & oAnonAuth.Path  
 WScript.Echo "Location: " & oAnonAuth.Location  
-WScript.Echo   
+WScript.Echo
   
 ' Display the Enabled, LogonMethod, UserName, and Password  
 ' properties.  
@@ -112,14 +112,14 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
- [BasicAuthenticationSection Class](../wmi-provider/basicauthenticationsection-class.md)   
- [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)   
- [FormsAuthenticationConfiguration Class](../wmi-provider/formsauthenticationconfiguration-class.md)   
- [FormsAuthenticationCredentials Class](../wmi-provider/formsauthenticationcredentials-class.md)   
- [FormsAuthenticationUser Class](../wmi-provider/formsauthenticationuser-class.md)   
- [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
- [PassportAuthentication Class](../wmi-provider/passportauthentication-class.md)   
+ [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)
+ [BasicAuthenticationSection Class](../wmi-provider/basicauthenticationsection-class.md)
+ [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)
+ [FormsAuthenticationConfiguration Class](../wmi-provider/formsauthenticationconfiguration-class.md)
+ [FormsAuthenticationCredentials Class](../wmi-provider/formsauthenticationcredentials-class.md)
+ [FormsAuthenticationUser Class](../wmi-provider/formsauthenticationuser-class.md)
+ [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)
+ [PassportAuthentication Class](../wmi-provider/passportauthentication-class.md)
  [WindowsAuthenticationSection Class](../wmi-provider/windowsauthenticationsection-class.md)

@@ -55,8 +55,8 @@ virtual void Play()
 ```
 
 ``` fsharp
-abstract Play : unit -> unit 
-override Play : unit -> unit 
+abstract Play : unit -> unit
+override Play : unit -> unit
 ```
 
 ```jscript

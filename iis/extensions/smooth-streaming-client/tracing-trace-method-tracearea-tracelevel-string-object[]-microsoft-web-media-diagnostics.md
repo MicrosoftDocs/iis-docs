@@ -63,18 +63,18 @@ Tracing.Trace(traceArea, traceLevel, _
 ```cpp
   public:
 static void Trace(
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
-    String^ format, 
+    TraceArea traceArea,
+    TraceLevel traceLevel,
+    String^ format,
     ... array<Object^>^ list
 )
 ```
 
 ```jscript
   public static function Trace(
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
-    format : String, 
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
+    format : String,
     ... list : Object[]
 )
 ```

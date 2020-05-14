@@ -43,6 +43,6 @@ class WsdlHelpGeneratorInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [WebServicesSection Class](../wmi-provider/webservicessection-class.md)
  [\<wsdlHelpGenerator> Element](https://go.microsoft.com/fwlink/?LinkId=69320)

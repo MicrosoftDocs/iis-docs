@@ -53,7 +53,7 @@ You can find the detailed explanation of the two models and their differences in
 > [!NOTE]
 > Visual Studio 2008 provides the options to create a New project and Open an existing project. This does not necessarily mean that you must create a new IIS Web application project or open an existing application project – you can use either of the options with an existing IIS Web application.
 
-**To create a new project using the Web application project option:** 
+**To create a new project using the Web application project option:**
 
 1. In Visual Studio, on the **File** menu, select **New Project**, and then select the **ASP.NET Web Application** template.
 2. Click **OK**. Visual Studio opens to the **Source** view of the Default.aspx page so that you can edit it.
@@ -61,16 +61,16 @@ You can find the detailed explanation of the two models and their differences in
 > [!NOTE]
 > Unlike the Web site project option, you must place the application files on the local file system or a network share, and later use the **Publish** option to publish the contents of your application to an IIS Web site.
 
-**To publish the project to an IIS Web site:** 
+**To publish the project to an IIS Web site:**
 
 1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the **Build** \ **Publish** option to publish the contents of your Web application to an IIS Web site.  
-    [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)   
+    [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)
 
     > [!NOTE]
     > The **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.  
   
-    By clicking the "…" button, you can chose one of the four options for publishing your Web site: 
+    By clicking the "…" button, you can chose one of the four options for publishing your Web site:
 
     - **File System**. When using this option, Visual Studio opens / creates the Web application as a folder, and uses the built-in ASP.NET Development Server to host the Web site. This option may be sufficient for basic testing of ASP.NET applications – however, this mode does not support running ASP.NET applications in Integrated mode, and it does not support application technologies other than ASP.NET (such as PHP, ASP, CGI, etc).
     - **Local IIS**. When using this option, Visual Studio allows you to publish your application files to a local IIS Web site or application. You can also use the dialog to create new IIS applications or virtual directories to publish your files to.
@@ -93,7 +93,7 @@ In those cases, you can configure Visual Studio to debug your application in the
 
 For more information on configuring remote debugging, see "Debugging IIS Web Applications" later in this article.
 
-**To create a new project using the Web site project option:** 
+**To create a new project using the Web site project option:**
 
 1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, on the **File** menu, select **New Web Site** to create a new Web site project using the IIS Web site you created.

@@ -58,20 +58,20 @@ public StreamUpdatedListEventArgs(
 ```cpp
 public:
 StreamUpdatedListEventArgs(
-    List<StreamUpdatedEventArgs^>^ streamUpdatedEvents, 
+    List<StreamUpdatedEventArgs^>^ streamUpdatedEvents,
     Object^ userState
 )
 ```
 
 ``` fsharp
-new : 
-        streamUpdatedEvents:List<StreamUpdatedEventArgs> * 
+new :
+        streamUpdatedEvents:List<StreamUpdatedEventArgs> *
         userState:Object -> StreamUpdatedListEventArgs
 ```
 
 ```jscript
 public function StreamUpdatedListEventArgs(
-    streamUpdatedEvents : List<StreamUpdatedEventArgs>, 
+    streamUpdatedEvents : List<StreamUpdatedEventArgs>,
     userState : Object
 )
 ```

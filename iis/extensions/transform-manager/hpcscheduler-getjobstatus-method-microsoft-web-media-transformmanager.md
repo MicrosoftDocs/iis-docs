@@ -63,10 +63,10 @@ virtual JobStatus GetJobStatus(
 ```
 
 ``` fsharp
-  abstract GetJobStatus : 
-        jobInstanceId:string -> JobStatus 
-override GetJobStatus : 
-        jobInstanceId:string -> JobStatus 
+  abstract GetJobStatus :
+        jobInstanceId:string -> JobStatus
+override GetJobStatus :
+        jobInstanceId:string -> JobStatus
 ```
 
 ```jscript

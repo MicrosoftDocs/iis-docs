@@ -63,16 +63,16 @@ instance.ParseExternalManifest(externalManifestUri, _
 ```cpp
   public:
 void ParseExternalManifest(
-    Uri^ externalManifestUri, 
-    int millisecondsTimeout, 
+    Uri^ externalManifestUri,
+    int millisecondsTimeout,
     [OutAttribute] Object^% externalManifest
 )
 ```
 
 ```jscript
   public function ParseExternalManifest(
-    externalManifestUri : Uri, 
-    millisecondsTimeout : int, 
+    externalManifestUri : Uri,
+    millisecondsTimeout : int,
     externalManifest : Object
 )
 ```

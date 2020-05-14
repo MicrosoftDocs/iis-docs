@@ -123,7 +123,7 @@ To run transform jobs on media files, you must configure the default watch folde
     ![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image19.png)
 3. In the **Actions** pane, click **Edit**.  
     ![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image21.png)
-4. Configure required settings in the selected watch folder's property sheet using the instructions in [Configuring Watch Folders](https://technet.microsoft.com/library/ff730178.aspx). The following guidance applies to settings of particular importance for this workflow: 
+4. Configure required settings in the selected watch folder's property sheet using the instructions in [Configuring Watch Folders](https://technet.microsoft.com/library/ff730178.aspx). The following guidance applies to settings of particular importance for this workflow:
 
     | Tab | Settings | Description |
     | --- | --- | --- |

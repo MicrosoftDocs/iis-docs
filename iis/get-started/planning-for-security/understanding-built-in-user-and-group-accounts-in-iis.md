@@ -47,7 +47,7 @@ This tells IIS to use the new built-in account for all anonymous authentication 
 > [!NOTE]
 > The IUSR account is similar to LOCALSERVICE in the manner in which it acts anonymously on the network. The NETWORKSERVICE and LOCALSYSTEM accounts can act as the machine identity, but the IUSR account cannot because it would require an elevation of user rights. If you need the anonymous account to have rights on the network, you must create a new user account and set the user name and password manually, as you did in the past for anonymous authentication.
 
-**To grant an anonymous account rights on the network by using IIS Manager:** 
+**To grant an anonymous account rights on the network by using IIS Manager:**
 
 1. Click **Start**, type **INetMgr.exe**, and then click **Enter**. If prompted, click **Continue** to elevate your permissions.
 2. In the **Connections** section, click the **+** button next to the name of your computer.

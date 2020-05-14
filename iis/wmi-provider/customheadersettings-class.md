@@ -43,7 +43,7 @@ class CustomHeaderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [HttpProtocolSection Class](../wmi-provider/httpprotocolsection-class.md)   
- [NameValueConfigurationElement Class](../wmi-provider/namevalueconfigurationelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [HttpProtocolSection Class](../wmi-provider/httpprotocolsection-class.md)
+ [NameValueConfigurationElement Class](../wmi-provider/namevalueconfigurationelement-class.md)
  [RedirectHeaderSettings Class](../wmi-provider/redirectheadersettings-class.md)

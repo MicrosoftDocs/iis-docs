@@ -60,6 +60,6 @@ class ApplicationPoolElementDefaults : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [Server Class](../wmi-provider/server-class.md)

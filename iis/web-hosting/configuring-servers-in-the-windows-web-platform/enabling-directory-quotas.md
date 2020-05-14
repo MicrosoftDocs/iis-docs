@@ -37,7 +37,7 @@ But new to Windows Server® 2008 is the ability to programmatically manage the q
 5. In the **Template Name** text box, type a name for the new template, such as Hosting Default Quota.
 6. In the **Label** text box, type an optional description that will appear next to any quotas derived from the template.
 7. In the **Limit** text box, type a number and choose a unit (KB, MB, GB, or TB).
-8. Click **Hard quota** or **Soft quota**.   
+8. Click **Hard quota** or **Soft quota**.
   
    (A hard quota prevents users from saving files after the space limit is reached and generates notifications when the volume of data reaches each configured threshold. A soft quota does not enforce the quota limit, but it generates all configured notifications.)
 9. You can configure one or more optional threshold notifications for your quota template, as described in the procedure that follows. After you have selected all the quota template properties that you want to use, click **OK** to save the template.

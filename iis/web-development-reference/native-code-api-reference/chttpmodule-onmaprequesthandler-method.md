@@ -50,5 +50,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnMapRequestHandler(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)
  [CHttpModule::OnPostMapRequestHandler Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostmaprequesthandler-method.md)

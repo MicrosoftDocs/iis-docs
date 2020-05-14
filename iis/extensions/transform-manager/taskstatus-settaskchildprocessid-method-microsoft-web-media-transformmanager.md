@@ -62,8 +62,8 @@ void SetTaskChildProcessId(
 ```
 
 ``` fsharp
-  member SetTaskChildProcessId : 
-        childProcessId:int -> unit 
+  member SetTaskChildProcessId :
+        childProcessId:int -> unit
 ```
 
 ```jscript

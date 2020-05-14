@@ -64,26 +64,26 @@ public static void Trace(
 ```cpp
 public:
 static void Trace(
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
-    String^ format, 
+    TraceArea traceArea,
+    TraceLevel traceLevel,
+    String^ format,
     ... array<Object^>^ list
 )
 ```
 
 ``` fsharp
-static member Trace : 
-        traceArea:TraceArea * 
-        traceLevel:TraceLevel * 
-        format:string * 
-        list:Object[] -> unit 
+static member Trace :
+        traceArea:TraceArea *
+        traceLevel:TraceLevel *
+        format:string *
+        list:Object[] -> unit
 ```
 
 ```jscript
 public static function Trace(
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
-    format : String, 
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
+    format : String,
     ... list : Object[]
 )
 ```

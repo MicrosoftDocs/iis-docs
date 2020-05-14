@@ -66,26 +66,26 @@ returnValue = Utilities.FindElement(container, _
 ```cpp
   public:
 static XElement^ FindElement(
-    XContainer^ container, 
-    XNamespace^ containerNamespace, 
-    String^ elementName, 
+    XContainer^ container,
+    XNamespace^ containerNamespace,
+    String^ elementName,
     bool searchChildren
 )
 ```
 
 ``` fsharp
-  static member FindElement : 
-        container:XContainer * 
-        containerNamespace:XNamespace * 
-        elementName:string * 
-        searchChildren:bool -> XElement 
+  static member FindElement :
+        container:XContainer *
+        containerNamespace:XNamespace *
+        elementName:string *
+        searchChildren:bool -> XElement
 ```
 
 ```jscript
   public static function FindElement(
-    container : XContainer, 
-    containerNamespace : XNamespace, 
-    elementName : String, 
+    container : XContainer,
+    containerNamespace : XNamespace,
+    elementName : String,
     searchChildren : boolean
 ) : XElement
 ```

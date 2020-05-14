@@ -112,7 +112,7 @@ You should see that the rewrite rule on your Web server has changed the original
 
 Now we will create a redirect rule that will redirect all URLs in the following format:
 
-`http://localhost/blog/some-other-title/543`   
+`http://localhost/blog/some-other-title/543`
 to the following format:  
 `http://localhost/article/543/some-other-title`
 

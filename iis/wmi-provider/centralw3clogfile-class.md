@@ -151,7 +151,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [LogSection Class](../wmi-provider/logsection-class.md)   
+ [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [LogSection Class](../wmi-provider/logsection-class.md)
  [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)

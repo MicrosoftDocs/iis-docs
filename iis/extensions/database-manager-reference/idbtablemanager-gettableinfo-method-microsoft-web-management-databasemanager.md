@@ -61,16 +61,16 @@ TableInfo GetTableInfo(
 
 ```cpp
 TableInfo^ GetTableInfo(
-    String^ connectionString, 
-    String^ tableName, 
+    String^ connectionString,
+    String^ tableName,
     String^ schema
 )
 ```
 
 ```jscript
 function GetTableInfo(
-    connectionString : String, 
-    tableName : String, 
+    connectionString : String,
+    tableName : String,
     schema : String
 ) : TableInfo
 ```
@@ -434,7 +434,7 @@ The following code sample shows how to use the GetTableInfo method to retrieve t
                 dbIndex.OriginalName = row["INDEX_NAME"].ToString();
                 // Append the index's uniqueness.
                 dbIndex.Unique = (bool)row["UNIQUE"];
-                // Specify the index type. 
+                // Specify the index type.
                 dbIndex.IndexType = (bool)row["PRIMARY_KEY"] == true ? IndexType.PrimaryKey : IndexType.Index;
                 // Create an index column object.
                 IndexColumn column = new IndexColumn();

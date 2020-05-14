@@ -49,5 +49,5 @@ virtual DWORD GetFlags(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
+ [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)
  [ISendResponseProvider::SetFlags Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-setflags-method.md)

@@ -59,14 +59,14 @@ public abstract QueryResult[] ExecuteQuery(
 ```cpp
 public:
 virtual array<QueryResult^>^ ExecuteQuery(
-    String^ connectionString, 
+    String^ connectionString,
     Query^ query
 ) abstract
 ```
 
 ```jscript
 public abstract function ExecuteQuery(
-    connectionString : String, 
+    connectionString : String,
     query : Query
 ) : QueryResult[]
 ```

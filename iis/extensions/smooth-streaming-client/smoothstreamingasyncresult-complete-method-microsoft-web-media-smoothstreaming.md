@@ -60,20 +60,20 @@ public void Complete(
 ```cpp
 public:
 void Complete(
-    Object^ result, 
+    Object^ result,
     bool completedSynchronously
 )
 ```
 
 ``` fsharp
-member Complete : 
-        result:Object * 
-        completedSynchronously:bool -> unit 
+member Complete :
+        result:Object *
+        completedSynchronously:bool -> unit
 ```
 
 ```jscript
 public function Complete(
-    result : Object, 
+    result : Object,
     completedSynchronously : boolean
 )
 ```

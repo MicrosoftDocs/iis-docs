@@ -50,5 +50,5 @@ virtual BOOL IsFrequentlyHit(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext::GetUrlInfo Method](../../web-development-reference/native-code-api-reference/ihttpcontext-geturlinfo-method.md)   
+ [IHttpContext::GetUrlInfo Method](../../web-development-reference/native-code-api-reference/ihttpcontext-geturlinfo-method.md)
  [IHttpUrlInfo Interface](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md)

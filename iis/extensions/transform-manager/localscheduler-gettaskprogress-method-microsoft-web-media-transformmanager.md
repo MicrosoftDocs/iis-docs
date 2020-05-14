@@ -63,10 +63,10 @@ virtual TaskDetails GetTaskProgress(
 ```
 
 ``` fsharp
-  abstract GetTaskProgress : 
-        jobInstanceId:string -> TaskDetails 
-override GetTaskProgress : 
-        jobInstanceId:string -> TaskDetails 
+  abstract GetTaskProgress :
+        jobInstanceId:string -> TaskDetails
+override GetTaskProgress :
+        jobInstanceId:string -> TaskDetails
 ```
 
 ```jscript

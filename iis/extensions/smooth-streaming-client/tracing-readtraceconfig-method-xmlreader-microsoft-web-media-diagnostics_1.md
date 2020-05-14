@@ -59,8 +59,8 @@ static void ReadTraceConfig(
 ```
 
 ``` fsharp
-static member ReadTraceConfig : 
-        xmlReader:XmlReader -> unit 
+static member ReadTraceConfig :
+        xmlReader:XmlReader -> unit
 ```
 
 ```jscript

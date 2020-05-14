@@ -30,14 +30,14 @@ string parameter
 ```cpp
 public:
 virtual void SendExtendedCommand(
-[InAttribute] String^ cmd, 
+[InAttribute] String^ cmd,
 [InAttribute] String^ parameter
 ) sealed
 ```
 
 ```jscript
 public final function SendExtendedCommand(
-cmd : String, 
+cmd : String,
 parameter : String
 )
 ```

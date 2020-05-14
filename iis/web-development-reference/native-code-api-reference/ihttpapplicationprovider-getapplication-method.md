@@ -54,5 +54,5 @@ virtual IHttpApplication* GetApplication(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpApplication Interface](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)   
+ [IHttpApplication Interface](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)
  [IHttpApplicationProvider Interface](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-interface.md)

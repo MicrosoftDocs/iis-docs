@@ -61,23 +61,23 @@ instance.UpdateJobProgress(jobInstanceId, _
 ```cpp
   public:
 virtual void UpdateJobProgress(
-    String^ jobInstanceId, 
+    String^ jobInstanceId,
     int percentComplete
 ) override
 ```
 
 ``` fsharp
-  abstract UpdateJobProgress : 
-        jobInstanceId:string * 
-        percentComplete:int -> unit 
-override UpdateJobProgress : 
-        jobInstanceId:string * 
-        percentComplete:int -> unit 
+  abstract UpdateJobProgress :
+        jobInstanceId:string *
+        percentComplete:int -> unit
+override UpdateJobProgress :
+        jobInstanceId:string *
+        percentComplete:int -> unit
 ```
 
 ```jscript
   public override function UpdateJobProgress(
-    jobInstanceId : String, 
+    jobInstanceId : String,
     percentComplete : int
 )
 ```

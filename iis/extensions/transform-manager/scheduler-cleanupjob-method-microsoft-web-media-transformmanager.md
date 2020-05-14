@@ -62,8 +62,8 @@ virtual void CleanupJob(
 ```
 
 ``` fsharp
-  abstract CleanupJob : 
-        jobInstanceId:string -> unit 
+  abstract CleanupJob :
+        jobInstanceId:string -> unit
 ```
 
 ```jscript

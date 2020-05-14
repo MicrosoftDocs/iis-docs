@@ -122,7 +122,7 @@ The IIS Log Cleaner consists of the following:
 
 - The **IISLogCleaner.exe** application that executes the log cleaning process. The application is stored in a local folder that you select when you download the tool.
 - The **settings.txt** file that specifies the log file folder to be cleaned and the maximum age at which a log file is deleted. The default settings are the default IIS log folder (ex: `c:\inetpub\logs\LogFiles`), and a maximum age (in days) of 30. These settings are configurable by either opening settings.txt in a text editor or by using a command in the notification area (see below). The settings.txt file is created automatically when IISLogCleaner.exe is first run. The settings.txt file is stored in the same folder as IISLogCleaner.exe.
-- The **IIS Log Cleaner** icon in the notification area (labeled IIS). Right-clicking the IIS notification icon displays a list of action commands and status settings: 
+- The **IIS Log Cleaner** icon in the notification area (labeled IIS). Right-clicking the IIS notification icon displays a list of action commands and status settings:
 
     - **Clean Now** executes the cleaning process immediately instead of on a timed basis.
     - **Paused** stops the automated cleaning process. If **Paused** is selected, you can click it to re-start the automated cleaning process.

@@ -111,7 +111,7 @@ The following steps configure publishing on an existing site for an existing use
 
     [![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image22.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image21.jpg)
 10. Click the down arrow for **Select a user to give publishing permissions**, and select the user that you entered for IIS Manager Permissions.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image24.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image23.jpg)
-11. Click **Setup**. 
+11. Click **Setup**.
 
     The following log lines will appear:
 
@@ -136,7 +136,7 @@ Install Web Deploy using one of the procedures described above.
 - net stop wmsvc &amp; net start wmsvc
 - Make sure your firewall allows connections to the service you are using. By default, the Web Deployment Agent Service (MsDepSvc) listens on port 80, and the Web Management Service (WmSvc, also called the "handler") listens on port 8172 by default.
 - You must run MsDepSvc by using the built-in Administrator account, or from a domain account that has been added to the Administrators group. A local administrator which is not the built-in account will not work with MsDepSvc.
-- Check to see if .NET 4.0 has not been registered with IIS: 
+- Check to see if .NET 4.0 has not been registered with IIS:
 
     **Symptoms**: .NET 4.0 is installed, but there are no .NET 4.0 application pools or handler mappings in IIS. You cannot browse to applications that use .NET 4.0 (for example, applications based on WebMatrix's site template applications) after you publish them.
 

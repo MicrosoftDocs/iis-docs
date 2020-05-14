@@ -49,6 +49,6 @@ class PeriodicRestartSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [RecyclingSettings Class](../wmi-provider/recyclingsettings-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [RecyclingSettings Class](../wmi-provider/recyclingsettings-class.md)
  [ScheduleElement Class](../wmi-provider/scheduleelement-class.md)

@@ -45,7 +45,7 @@ This section describes the installation requirements for IIS Media Services.
 
 The following prerequisites must be fulfilled to install IIS Media Services:
 
-- You must use IIS 7 running on one of the following operating systems: 
+- You must use IIS 7 running on one of the following operating systems:
 
     - Windows Server 2008 R2
     - Windows Server 2008
@@ -205,7 +205,7 @@ If you use [Application Request Routing (ARR)](https://go.microsoft.com/?linkid=
 
 > [!NOTE]
 >  
-> 
+>
 > Turning off ASP.NET session state disables it for all local website or directory features and applications that are using it. If you are also the Web Playlists feature in IIS Media Services on the local website or directory and you configured Web Playlists to use ASP.NET session state persistence to store user session variables, be sure to change the **Session persistence type** in Web Playlists to **InMemory** to store user session data in the web server worker process memory. For more information about how to change the session-persistence type, see [Edit Feature Settings Dialog Box](https://go.microsoft.com/?linkid=9749726).
 
 #### Archiving segmented presentations
@@ -248,7 +248,7 @@ These issues occur because the string that specifies the HTTP verbs contains a s
 
 > [!NOTE]
 >  
-> 
+>
 > If you perform the procedure in this section by using IIS Manager, you must be a server administrator or an IIS Manager user who has been granted permission to the web server in IIS Manager. If you perform the procedure in this section by using Appcmd.exe, you must have Write permissions to applicationHost.config.
 
 ##### To configure request restrictions for the SmoothHandler handler mapping in IIS Manager
@@ -265,7 +265,7 @@ These issues occur because the string that specifies the HTTP verbs contains a s
 
 ##### To configure request restrictions for the SmoothHandler handler mapping in the Command Prompt window
 
-- To specify that the **SmoothHandler** handler respond only to requests for HTTP verbs GET and HEAD, type the following at the command prompt, and then press ENTER: 
+- To specify that the **SmoothHandler** handler respond only to requests for HTTP verbs GET and HEAD, type the following at the command prompt, and then press ENTER:
 
     **appcmd set config /section:handlers /[name=' SmoothHandler '].verb:GET,HEAD**
 

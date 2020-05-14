@@ -62,8 +62,8 @@ void SetCredential(
 ```
 
 ``` fsharp
-  member SetCredential : 
-        credential:Credential -> unit 
+  member SetCredential :
+        credential:Credential -> unit
 ```
 
 ```jscript

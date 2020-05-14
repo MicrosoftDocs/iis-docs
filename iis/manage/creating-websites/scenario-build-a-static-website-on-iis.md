@@ -132,7 +132,7 @@ Anonymous authentication gives users access to the public areas of your website 
 
     - If you want to configure a specific user account that IIS uses to access your site or application, select **Specific user**. Then click **Set** to open the **Set Credentials** dialog box, and enter a user name and password for the identity. Then click **OK**.
     - If you want IIS processes to run by using the account that is currently specified on the property page for the application pool, select **Application pool identity**. By default, this identity is the IUSR account.
-    
+
        > [!IMPORTANT]
        > If you use the IUSR account, you grant anonymous users all the internal network access associated with that account.
 

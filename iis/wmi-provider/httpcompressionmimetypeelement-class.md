@@ -44,9 +44,9 @@ class HttpCompressionMimeTypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)   
- [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)   
- [HttpCompressionSchemeElement Class](../wmi-provider/httpcompressionschemeelement-class.md)   
- [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)
+ [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)
+ [HttpCompressionSchemeElement Class](../wmi-provider/httpcompressionschemeelement-class.md)
+ [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)
  [StaticTypeSettings Class](../wmi-provider/statictypesettings-class.md)

@@ -32,7 +32,7 @@ AdaptiveSourceManagerFailedEventArgs args
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public delegate void AdaptiveSourceManagerFailedEventHandler(
-[InAttribute] AdaptiveSourceManager^ sender, 
+[InAttribute] AdaptiveSourceManager^ sender,
 [InAttribute] AdaptiveSourceManagerFailedEventArgs^ args
 )
 ```

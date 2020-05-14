@@ -43,6 +43,6 @@ class DirectorySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
- [DirectoryElement Class](../wmi-provider/directoryelement-class.md)   
+ [CompilationSection Class](../wmi-provider/compilationsection-class.md)
+ [DirectoryElement Class](../wmi-provider/directoryelement-class.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

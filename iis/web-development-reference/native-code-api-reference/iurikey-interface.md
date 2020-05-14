@@ -46,13 +46,13 @@ class IUriKey : public IHttpCacheKey
   
 ```  
 <cacheProvider>  
-   <uriKey   
-        siteId="1"   
-        siteName=""   
-        url="/DEFAULT.HTM"   
-        cacheName="URI"   
-        hash="12345678"   
-        isEqual="true"   
+   <uriKey
+        siteId="1"
+        siteName=""
+        url="/DEFAULT.HTM"
+        cacheName="URI"
+        hash="12345678"
+        isEqual="true"
         isPrefix="true" />  
 </cacheProvider>  
 ```  

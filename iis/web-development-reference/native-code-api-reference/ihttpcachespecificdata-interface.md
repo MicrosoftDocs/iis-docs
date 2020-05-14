@@ -49,15 +49,15 @@ class IHttpCacheSpecificData
   
 ```  
 <cacheProvider>  
-    <cacheSpecificData   
+    <cacheSpecificData
         flushed="false">  
-        <uriKey   
-            siteId="1"   
-            siteName="Default Web Site"   
-            url="/DEFAULT.HTM"   
-            cacheName="URI"   
-            hash="59390334"   
-            isEqual="true"   
+        <uriKey
+            siteId="1"
+            siteName="Default Web Site"
+            url="/DEFAULT.HTM"
+            cacheName="URI"
+            hash="59390334"
+            isEqual="true"
             isPrefix="true"/>  
     </cacheSpecificData>  
 </cacheProvider>  
@@ -65,29 +65,29 @@ class IHttpCacheSpecificData
   
 ```  
 <cacheProvider>  
-    <fileInfo   
-        changed="false"   
-        attributes="32"   
-        eTag=""5e5e714ef4dc61:0""   
-        buffer="false"   
-        handle="valid"   
-        path="C:\INETPUB\WWWROOT\DEFAULT.HTM"   
-        cacheAllowed="true"   
-        secondsToLive="-1"   
-        lastModifiedString="Tue, 21 Mar 2006 17:45:56 GMT"   
-        lastModifiedTime="valid"   
-        size="92"   
-        vrPath="C:\inetpub\wwwroot"   
-        vrToken="NULL"   
+    <fileInfo
+        changed="false"
+        attributes="32"
+        eTag=""5e5e714ef4dc61:0""
+        buffer="false"
+        handle="valid"
+        path="C:\INETPUB\WWWROOT\DEFAULT.HTM"
+        cacheAllowed="true"
+        secondsToLive="-1"
+        lastModifiedString="Tue, 21 Mar 2006 17:45:56 GMT"
+        lastModifiedTime="valid"
+        size="92"
+        vrPath="C:\inetpub\wwwroot"
+        vrToken="NULL"
         flushed="false">  
         <contextContainer>  
             <storedContext/>  
         </contextContainer>  
-        <fileKey   
-            path="D:\INETPUB\WWWROOT\DEFAULT.HTM"   
-            cacheName="FILE"   
-            hash="206817538"   
-            isEqual="true"   
+        <fileKey
+            path="D:\INETPUB\WWWROOT\DEFAULT.HTM"
+            cacheName="FILE"
+            hash="206817538"
+            isEqual="true"
             isPrefix="true"/>  
     </fileInfo>  
 </cacheProvider>  
@@ -95,18 +95,18 @@ class IHttpCacheSpecificData
   
 ```  
 <cacheProvider>  
-    <tokenEntry   
-        impersonationToken="valid"   
-        primaryToken="valid"   
-        sid="valid"   
+    <tokenEntry
+        impersonationToken="valid"
+        primaryToken="valid"
+        sid="valid"
         flushed="false">  
-    <tokenKey   
-        userName="IUSR"   
-        passwordHash="1234567890"   
-        logon="3"   
-        cacheName="TOKEN"   
-        hash="0"   
-        isEqual="true"   
+    <tokenKey
+        userName="IUSR"
+        passwordHash="1234567890"
+        logon="3"
+        cacheName="TOKEN"
+        hash="0"
+        isEqual="true"
         isPrefix="false"/>  
     </tokenEntry>  
 </cacheProvider>  
@@ -131,6 +131,6 @@ class IHttpCacheSpecificData
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
- [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
+ [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)
  [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)

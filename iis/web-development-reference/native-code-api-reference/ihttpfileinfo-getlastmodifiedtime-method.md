@@ -44,5 +44,5 @@ virtual VOID GetLastModifiedTime(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)   
+ [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)
  [IHttpFileInfo::GetLastModifiedString Method](../../web-development-reference/native-code-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md)

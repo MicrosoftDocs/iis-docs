@@ -56,7 +56,7 @@ Set oSite = oWebAdmin.Get("Site.Name='Default Web Site'")
 oSite.GetSection "SecurityPolicySection", oSection  
   
 ' Display the path and location.  
-WScript.Echo "Path: " & oSection.Path   
+WScript.Echo "Path: " & oSection.Path
 WScript.Echo "Location: " & oSection.Location  
 WScript.Echo  
   
@@ -64,7 +64,7 @@ WScript.Echo
 For Each oTrustLevel In oSection.SecurityPolicy  
     WScript.Echo "Security level: " & oTrustLevel.Name  
     WScript.Echo "   Policy file: " & oTrustLevel.PolicyFile  
-    WScript.Echo   
+    WScript.Echo
 Next  
   
 ```  
@@ -85,8 +85,8 @@ Next
   
 ## See Also  
  [System.Web.Configuration.TrustLevel](/dotnet/api/system.web.configuration.trustlevel)
- [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326)   
- [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [SecurityPolicySection Class](../wmi-provider/securitypolicysection-class.md)   
+ [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326)
+ [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [SecurityPolicySection Class](../wmi-provider/securitypolicysection-class.md)
  [trustLevel Element for securityPolicy (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=69327)

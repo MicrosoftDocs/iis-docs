@@ -40,11 +40,11 @@ After completing the above steps, you will then need to formally [submit an appl
 1. Customer finds your offer in the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/ "Microsoft Web Hosting Gallery"), and signs up for an account
 2. You provision required resources (including a SQL Server and/or MySQL database) for the customer
 
-    - IIS site provisions: 
+    - IIS site provisions:
 
         - Creates a IIS Management username and password
         - Applies deployment and management permission to the IIS Site
-    - SQL Database provisions: 
+    - SQL Database provisions:
 
         - Creates SQL account and password
         - Applies permissions to the database for the SQL account

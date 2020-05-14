@@ -64,6 +64,6 @@ class SqlCacheDependencySection : ConfigurationSectionWithCollection
 ## See Also  
  [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency)
  [System.Web.Caching.Cache](/dotnet/api/system.web.caching.cache)
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [SqlCacheDependencyDatabase Class](../wmi-provider/sqlcachedependencydatabase-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [SqlCacheDependencyDatabase Class](../wmi-provider/sqlcachedependencydatabase-class.md)
  [SqlCacheDependencyDatabaseSettings Class](../wmi-provider/sqlcachedependencydatabasesettings-class.md)

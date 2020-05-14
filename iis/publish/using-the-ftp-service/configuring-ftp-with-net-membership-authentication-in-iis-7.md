@@ -116,7 +116,7 @@ Because the COM process for FTP extensibility runs as "NT AUTHORITY\Network Serv
 
 The following steps describe the process for configuring ASP.NET to allow membership authentication for FTP access.
 
-1. Using a text editor such as Windows Notepad, open your root web.config file, which should be located at the appropriate path for the version of the framework that you are using: 
+1. Using a text editor such as Windows Notepad, open your root web.config file, which should be located at the appropriate path for the version of the framework that you are using:
 
     - 32-bit Framework:
 
@@ -124,7 +124,7 @@ The following steps describe the process for configuring ASP.NET to allow member
     - 64-bit Framework:
 
         [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample5.cmd)]
-2. Scroll to the bottom and paste the following code before the closing &lt;/configuration&gt; tag: 
+2. Scroll to the bottom and paste the following code before the closing &lt;/configuration&gt; tag:
 
     [!code-xml[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample6.xml)]
 3. Save and close your root web.config file.
@@ -194,7 +194,7 @@ Highlight the **Default Web Site** in the tree and double-click **Providers**, t
 
 Highlight the **Default Web Site** in the tree and double-click **.NET Roles**, then follow these steps:
 
-1. You may see an error dialog about connecting. If so, click **OK** to close the error dialog, then configure the default provider using the following steps: 
+1. You may see an error dialog about connecting. If so, click **OK** to close the error dialog, then configure the default provider using the following steps:
 
     - Click **Set Default Provider...** in the **Actions** pane.
     - Choose **FtpSqlRoleProvider** from the drop-down.
@@ -209,7 +209,7 @@ Highlight the **Default Web Site** in the tree and double-click **.NET Roles**, 
 
 Highlight the **Default Web Site** in the tree and double-click **.NET Users**, then follow these steps:
 
-1. You may see an error dialog about connecting. If so, click **OK** to close the error dialog, then configure the default provider using the following steps: 
+1. You may see an error dialog about connecting. If so, click **OK** to close the error dialog, then configure the default provider using the following steps:
 
     - Click **Set Default Provider...** in the **Actions** pane.
     - Choose **FtpSqlMembershipProvider** from the drop-down.

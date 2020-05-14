@@ -49,7 +49,7 @@ The collected statistics are sent in XML format as the body of standard HTTP POS
 The following additional configuration options are available for logging:
 
   - **Client manifest configuration**. Clients can read the LogUrl element in a client-side manifest to determine the URL where the log information should be sent. The URLs specified in initialization parameters are added to the list obtained from the manifest. The following example shows the pertinent syntax of the LogUrl element in the client manifest.
-    
+
     ``` xml
     <SmoothStreamingMedia
       MajorVersion="1"
@@ -64,20 +64,20 @@ The following additional configuration options are available for logging:
     ```
 
   - **Initialization parameters**. The log URL can also be set using a param element named initparams. You can specify multiple LogUrl servers, separated by semicolons, in the object element of the Web page that calls the Silverlight XAP file. The following example shows the syntax:
-    
+
     ``` xml
-    <object data="data:application/x-silverlight-2," type="application/x-silverlight-2" 
+    <object data="data:application/x-silverlight-2," type="application/x-silverlight-2"
             width="100%" height="100%">
         <param name="source" value="SampleClient.xap"/>
         <param name="onerror" value="onSilverlightError" />
-        <param name="initparams" 
+        <param name="initparams"
             value='autoplay=true,autoload=true,enablecaptions=true,muted=false,
             displaytimecode=true,playlist=<playList><playListItems><playListItem title="test"
             description="test" mediaSource="http://server/contentdir/content.ism/manifest"
             adaptiveStreaming="True" thumbSource="" frameRate="24.0" width="512" height="384>
         </playListItem></playListItems></playList>,logUrls=http://server/contentdir/newLog.log' />
         <a href="http://go2.microsoft.com/fwlink/?LinkID=124807" style="text-decoration: none;">
-        <img src="http://go2.microsoft.com/fwlink/?LinkId=108181" 
+        <img src="http://go2.microsoft.com/fwlink/?LinkId=108181"
             alt="Get Microsoft Silverlight" style="border-style: none"/>
         </a>
     </object>

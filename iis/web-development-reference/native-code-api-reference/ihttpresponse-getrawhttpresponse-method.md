@@ -47,5 +47,5 @@ virtual HTTP_RESPONSE* GetRawHttpResponse(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
  [IHttpRequest::GetRawHttpRequest Method](../../web-development-reference/native-code-api-reference/ihttprequest-getrawhttprequest-method.md)

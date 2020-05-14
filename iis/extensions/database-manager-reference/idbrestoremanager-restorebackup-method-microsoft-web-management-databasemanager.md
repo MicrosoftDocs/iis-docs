@@ -57,14 +57,14 @@ void RestoreBackup(
 
 ```cpp
 void RestoreBackup(
-    String^ connectionString, 
+    String^ connectionString,
     String^ backupPath
 )
 ```
 
 ```jscript
 function RestoreBackup(
-    connectionString : String, 
+    connectionString : String,
     backupPath : String
 )
 ```

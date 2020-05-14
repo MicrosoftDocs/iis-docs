@@ -71,7 +71,7 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common Http Features**.
 4. Select **HTTP Redirection**, and then click **OK**.  
     [![](add/_static/image8.png)](add/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 

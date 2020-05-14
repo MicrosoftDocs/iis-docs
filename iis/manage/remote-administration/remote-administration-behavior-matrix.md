@@ -24,7 +24,7 @@ General rules of thumb which are valid for every item in the matrix:
 - If configurationRedirection is enabled in Redirection.config, then:
 
     - Server Config files (applicationHost.config, administration.config) are always read using the username and password specified in redirection.config
-- If configurationRedirection is disabled, then: 
+- If configurationRedirection is disabled, then:
 
     - Server Config files (applicationHost.config, administration.config) are always read using the identity in which WMSVC runs (NT Service\WMSVC by default)
 - UI does nothing special when trying to read Root web.config, the ASP.NET counterpart of applicationHost.config

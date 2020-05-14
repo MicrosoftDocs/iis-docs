@@ -38,6 +38,6 @@ virtual HRESULT CheckHealth(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IPmHealthAndIdleMonitor Interface](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-interface.md)   
- [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
+ [IPmHealthAndIdleMonitor Interface](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-interface.md)
+ [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)
  [IPmHealthAndIdleMonitor::CheckIdle Method](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-checkidle-method.md)

@@ -83,7 +83,7 @@ The Microsoft Silverlight Media Framework 2.0 SmoothStreamingPlayer.XAP is a pre
 7. To view the Sample Client files, in IIS Manager, open the Smooth Streaming presentation folder in **Content View**.  
     ![](getting-started-with-iis-smooth-streaming/_static/image7.png)  
   
-   The following Sample Client files are included in the download: 
+   The following Sample Client files are included in the download:
 
     - **Smooth Streaming Player-ReadMe.doc**. Configuration instructions.
     - **SmoothStreamingPlayer.html**. A sample webpage in which you must update the media reference to the on-demand Smooth Streaming presentation, and if necessary, width and height attributes to achieve a presentation size that fits your website design.

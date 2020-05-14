@@ -82,5 +82,5 @@ SiteDefinition.Create SiteName, BindingsArray, PhysicalPath
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [BindingElement Class](../wmi-provider/bindingelement-class.md)   
+ [BindingElement Class](../wmi-provider/bindingelement-class.md)
  [Site Class](../wmi-provider/site-class.md)

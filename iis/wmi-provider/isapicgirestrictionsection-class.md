@@ -69,7 +69,7 @@ WScript.Echo "NotListedCgisAllowed: " & _
     oSection.NotListedCgisAllowed  
 WScript.Echo "NotListedIsapisAllowed: " & _  
     oSection.NotListedIsapisAllowed  
-WScript.Echo   
+WScript.Echo
   
 ' Display the contents of the IsapiCgiRestriction array property.  
 WScript.Echo vbTab & "ISAPI CGI Restriction Elements"  
@@ -105,5 +105,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
  [IsapiCgiRestrictionElement Class](../wmi-provider/isapicgirestrictionelement-class.md)

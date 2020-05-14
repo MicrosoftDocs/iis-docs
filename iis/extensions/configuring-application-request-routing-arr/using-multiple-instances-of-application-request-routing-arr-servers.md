@@ -50,7 +50,7 @@ As another prerequisite, you must have defined and configured a server farm usin
 
 ## Step 1 - Enable External Cache.
 
-**To enable External Cache using the UI:** 
+**To enable External Cache using the UI:**
 
 1. Launch IIS Manager.
 2. Select the server farm that has been created for this walkthrough.
@@ -65,7 +65,7 @@ As another prerequisite, you must have defined and configured a server farm usin
 8. To verify that the feature works, send a request with a specific host name to one of the ARR servers. Make a note of which application server this host name is affinitized to. Send the same request to the remaining ARR servers. Regardless of which ARR server is handling the requests with this host name, they all should be routed to the same application server.
 9. You may also want to verify the file share where the data is being written.
 
-**To enable External Cache using the command-line:** 
+**To enable External Cache using the command-line:**
 
 1. Open a command prompt with administrator privileges.
 2. Navigate to `%windir%\system32\inetsrv`.

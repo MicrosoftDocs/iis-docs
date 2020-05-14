@@ -25,14 +25,14 @@ The new WebDAV module and Request Filtering were designed to work together, and 
 
 The following items are required to complete the procedures in this article:
 
-- IIS 7.0 must be installed on your server, and the following must be configured: 
+- IIS 7.0 must be installed on your server, and the following must be configured:
 
     - The Default Web Site that is created by the IIS 7.0 installation must still exist.
     - The Request Filtering feature must be installed.
-- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document: 
+- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document:
 
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
-- Knowledge of how to use AppCmd is helpful. For more information about using request filtering, please see the following document: 
+- Knowledge of how to use AppCmd is helpful. For more information about using request filtering, please see the following document:
 
     - [How to Use Request Filtering](../../manage/configuring-security/use-request-filtering.md)
 
@@ -62,11 +62,11 @@ All of these request filtering features can impact content that is uploaded or d
 
 The following list describes which features can be configured to work with WebDAV:
 
-- The following features always affect WebDAV requests: 
+- The following features always affect WebDAV requests:
 
     - Request Limits
     - URL Sequences
-- The following features affect WebDAV requests by default, but they can be configured to bypass WebDAV requests: 
+- The following features affect WebDAV requests by default, but they can be configured to bypass WebDAV requests:
 
     - File Extensions
     - Hidden Segments

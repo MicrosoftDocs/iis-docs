@@ -35,15 +35,15 @@ SQL Server 2008 can meet these needs by providing enterprise-class availability 
 
 - **Increase scalability.** Scale out with unlimited memory and database size, which helps hosting companies offer support for multi-tenancy and customers with growing data needs. Scale out with support for up to four CPUs to maximize the utilization of hardware resources.
 - **Ensure availability**. Help ensure availability by using log shipping to automatically back up data on separate server s or keep multiple read servers online to better handle large amounts of Web traffic. One-way merge and transactional replication provides enterprise-class data availability. **Lower TCO.** Help increase overall profit margins through low monthly licensing costs, enhanced publishing tools for fast customer deployment, and manageability tools for reduced administration. Businesses can take advantage of the low cost of Microsoft® SQL Server® 2008 Web for their core enterprise installations.
-- **Automate tasks and policies.**   
- Use     *Policy-Based Management* to define configuration policies and apply them to servers, databases, tables, and other targets.   
- Use the     *performance data collector* to identify problematic customer applications and pinpoint causes for performance degradation.   
+- **Automate tasks and policies.**
+ Use     *Policy-Based Management* to define configuration policies and apply them to servers, databases, tables, and other targets.
+ Use the     *performance data collector* to identify problematic customer applications and pinpoint causes for performance degradation.
  Use     *SQL Agent* to reduce the amount of time spent on administrative tasks by scheduling and executing events like server backups.
-- **Streamline administration.**   
- Use the     *service broker* to distribute applications across your servers to help balance the load while the applications seamlessly functions as a whole for easier scale out.   
+- **Streamline administration.**
+ Use the     *service broker* to distribute applications across your servers to help balance the load while the applications seamlessly functions as a whole for easier scale out.
  Use     *Windows PowerShell™* to automate server administration and application development more easily, giving administrators a common scripting language across Windows®, IIS, and SQL Server to save time.
 - **Use built-in business intelligence**. Use basic SQL Server 2008 Reporting Services features to create unique report layouts. The new visualization enhancements in Reporting Services further enrich the reports and provide greater insight.
-- **Take advantage of platform flexibility.**   
+- **Take advantage of platform flexibility.**
  Use     *ADO.NET Data Services* support to expose data through Web services using existing tools and processes. This helps hosters support customers with mixed applications like ASP and PHP.  
  Use     *FTS (full text search)* for fast and flexible indexing for keyword-based query of text stored in SQL Server for enterprise search functionality.
 

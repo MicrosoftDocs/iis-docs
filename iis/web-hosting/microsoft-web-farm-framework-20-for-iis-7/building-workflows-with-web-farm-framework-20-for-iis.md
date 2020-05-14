@@ -17,7 +17,7 @@ This article assumes you have a functioning web farm to work with. For informati
 
 **To create a workflow provider using Workflow Builder**
 
-1. In IIS Manager under **Connections**, click your web farm, and then click **Workflow Builder**. 
+1. In IIS Manager under **Connections**, click your web farm, and then click **Workflow Builder**.
 
     [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image4.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image2.png)
 
@@ -25,7 +25,7 @@ This article assumes you have a functioning web farm to work with. For informati
 
     [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image7.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image6.png)
 
-2. Click **Add Provider. T** he **Specify workflow details** dialog is displayed.   
+2. Click **Add Provider. T** he **Specify workflow details** dialog is displayed.
   
     [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image9.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image8.png)  
   
@@ -36,7 +36,7 @@ This article assumes you have a functioning web farm to work with. For informati
     3. Leave the **Run Remote** check box selected.
     4. Leave the **Retry Attempts** and **Retry Interval** values at their default values. These values control how many attempts will be made to run the workflow and how long to wait after an unsuccessful attempt before trying again.
     5. Enter the following description: `Attempt to run a DIR command on the server.`
-3. Click **Next**. The **Specify action details** dialog will appear.   
+3. Click **Next**. The **Specify action details** dialog will appear.
   
     [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image11.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image10.png)  
   

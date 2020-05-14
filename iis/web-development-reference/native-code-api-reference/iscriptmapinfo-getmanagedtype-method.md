@@ -45,5 +45,5 @@ virtual PCWSTR GetManagedType(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)   
+ [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)
  [IHttpServer::GetManagedType Method](../../web-development-reference/native-code-api-reference/ihttpserver-getmanagedtype-method.md)

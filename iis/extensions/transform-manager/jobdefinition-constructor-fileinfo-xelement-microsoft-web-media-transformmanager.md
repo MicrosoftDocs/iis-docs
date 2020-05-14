@@ -58,20 +58,20 @@ Dim instance As New JobDefinition(fileInfo, _
 ```cpp
   public:
 JobDefinition(
-    FileInfo^ fileInfo, 
+    FileInfo^ fileInfo,
     XElement^ jobDefinitionElement
 )
 ```
 
 ``` fsharp
-  new : 
-        fileInfo:FileInfo * 
+  new :
+        fileInfo:FileInfo *
         jobDefinitionElement:XElement -> JobDefinition
 ```
 
 ```jscript
   public function JobDefinition(
-    fileInfo : FileInfo, 
+    fileInfo : FileInfo,
     jobDefinitionElement : XElement
 )
 ```

@@ -43,6 +43,6 @@ class SoapTransportImporterTypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [IIS 7.0: CollectionElement Class](../wmi-provider/soapextensionreflectortypessettings-class.md)   
- [SoapTransportImporterTypesInfo Class](../wmi-provider/soaptransportimportertypesinfo-class.md)   
+ [IIS 7.0: CollectionElement Class](../wmi-provider/soapextensionreflectortypessettings-class.md)
+ [SoapTransportImporterTypesInfo Class](../wmi-provider/soaptransportimportertypesinfo-class.md)
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

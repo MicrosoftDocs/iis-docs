@@ -64,8 +64,8 @@ void ResubmitJob(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract ResubmitJob : 
-        jobDetails:JobDetails -> unit 
+abstract ResubmitJob :
+        jobDetails:JobDetails -> unit
 ```
 
 ```jscript

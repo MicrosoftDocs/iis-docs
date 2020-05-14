@@ -61,16 +61,16 @@ Query GetStoredProcedureCreateFromExistingStatement(
 
 ```cpp
 Query^ GetStoredProcedureCreateFromExistingStatement(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     String^ storedProcedureName
 )
 ```
 
 ```jscript
 function GetStoredProcedureCreateFromExistingStatement(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     storedProcedureName : String
 ) : Query
 ```

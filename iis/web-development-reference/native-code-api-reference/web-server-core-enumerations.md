@@ -24,6 +24,6 @@ This section describes the Web Server Core and integrated request-processing pip
  When you call the [ICacheProvider::GetCacheOperation](../../web-development-reference/native-code-api-reference/icacheprovider-getcacheoperation-method.md) method, values from the `CACHE_OPERATION` enumeration indicate the resulting cache event.  
   
 ## See Also  
- [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)   
- [HTTP_TRACE_EVENT Structure](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md)   
+ [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)
+ [HTTP_TRACE_EVENT Structure](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md)
  [HTTP_TRACE_EVENT_ITEM Structure](../../web-development-reference/native-code-api-reference/http-trace-event-item-structure.md)

@@ -23,7 +23,7 @@ Managing application and application pools on IIS 7.0 and above can be performed
 
 ## First Steps
 
-1. Make sure IIS and scripting are enabled. 
+1. Make sure IIS and scripting are enabled.
 
     - If you are using Windows Vista, open Control Panel, Programs and Features, and then Windows Features. Under "Web Management Tools," select "IIS Management Scripts and Tools" to enable scripting.
     - If you are using Windows Server® 2008, open Server Manager. Use the Add Roles Wizard to install the IIS 7.0 Web server. On the Select Role Services page, in the Management Tools section, select "IIS Management Scripts and Tools."
@@ -32,9 +32,9 @@ Managing application and application pools on IIS 7.0 and above can be performed
 4. Before you start, make a backup of the System32\inetsrv\config\applicationhost.config file with the AppCmd tool. The backup copy will enable you to restore IIS to its original state by just copying the original version over the later one. To make a backup, follow these steps:
 
 > a. Open an elevated Command Prompt window.
-> 
+>
 > b. Type cd `%Windir%\system32\inetsrv\`
-> 
+>
 > c. Type appcmd add backup *backupName* to back up the ApplicationHost.config file, where *backupName* is the name that you specify for the backup. A directory with the backup name that you specify will be created under the `%Windir%\system32\inetsrv\backup` directory. If you do not specify a name, appcmd will generate a directory name automatically using the current date and time.
 
 ## Creating and Enumerating Applications

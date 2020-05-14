@@ -65,11 +65,11 @@ virtual void StopJobManager(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract StopJobManager : 
-        jobDefinitionId:string -> unit 
+abstract StopJobManager :
+        jobDefinitionId:string -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override StopJobManager : 
-        jobDefinitionId:string -> unit 
+override StopJobManager :
+        jobDefinitionId:string -> unit
 ```
 
 ```jscript

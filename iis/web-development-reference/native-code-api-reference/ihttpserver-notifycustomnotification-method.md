@@ -55,6 +55,6 @@ virtual GLOBAL_NOTIFICATION_STATUS NotifyCustomNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ICustomNotificationProvider Interface](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md)   
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [ICustomNotificationProvider Interface](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md)
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IHttpContext::NotifyCustomNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-notifycustomnotification-method.md)

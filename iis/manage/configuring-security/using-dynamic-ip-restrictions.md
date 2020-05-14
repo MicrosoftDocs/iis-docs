@@ -32,7 +32,7 @@ You can use the Web Platform Installer (Web PI) to install the Dynamic IP Restri
 
 ### Getting Dynamic IP Restrictions
 
-[Dynamic IP Restrictions download page](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions)   
+[Dynamic IP Restrictions download page](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions)
   
 ### Prerequisites
 
@@ -47,7 +47,7 @@ You must have one of the following operating systems.
 
 If you are using the **first** **Beta** release of the DIPR module, you must uninstall it before you install the Release Candidate, or an error will occur and the installation will fail. Make sure you back up your configuration before uninstalling the Beta version.  
   
-If you are using the **Beta 2** release of the DIPR module you can upgrade directly to the final release. Your configuration settings will be preserved. 
+If you are using the **Beta 2** release of the DIPR module you can upgrade directly to the final release. Your configuration settings will be preserved.
 
 ## Configuring Dynamic IP Restrictions
 

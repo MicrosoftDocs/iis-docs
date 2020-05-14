@@ -23,17 +23,17 @@ Timeline events are specified in a StreamIndex element as shown in the following
 The following XML creates a table of contents that lists chapter headings located at time intervals in the stream.
 
 ```xml
-<StreamIndex Type="text" 
-    Name="MARKERS" 
-    Subtype="CHAPTER" 
-    TimeScale="10000000" 
-    ParentStreamIndex="video" 
-    ManifestOutput="TRUE" 
-    QualityLevels="1" Chunks="9" 
+<StreamIndex Type="text"
+    Name="MARKERS"
+    Subtype="CHAPTER"
+    TimeScale="10000000"
+    ParentStreamIndex="video"
+    ManifestOutput="TRUE"
+    QualityLevels="1" Chunks="9"
     Url="QualityLevels({bitrate},{CustomAttributes})/Fragments(MARKERS={start time})">
-    <QualityLevel Index="0" Bitrate="1000" CodecPrivateData="" FourCC=""/> 
+    <QualityLevel Index="0" Bitrate="1000" CodecPrivateData="" FourCC=""/>
     <c n="0" t="596416667">
-    <f>Q2hhcHRlciAx</f> 
+    <f>Q2hhcHRlciAx</f>
     </c>
     <c n="1" t="1192833334">
     <f>Q2hhcHRlciAy</f>

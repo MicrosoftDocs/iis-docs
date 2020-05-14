@@ -62,10 +62,10 @@ virtual void WriteTo(
 ```
 
 ``` fsharp
-abstract WriteTo : 
-        stream:Stream -> unit 
-override WriteTo : 
-        stream:Stream -> unit 
+abstract WriteTo :
+        stream:Stream -> unit
+override WriteTo :
+        stream:Stream -> unit
 ```
 
 ```jscript

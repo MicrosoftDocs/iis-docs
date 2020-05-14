@@ -60,8 +60,8 @@ void SelectStreamsAsync(
 ```
 
 ``` fsharp
-member SelectStreamsAsync : 
-        selectedStreams:IList<StreamInfo> -> unit 
+member SelectStreamsAsync :
+        selectedStreams:IList<StreamInfo> -> unit
 ```
 
 ```jscript

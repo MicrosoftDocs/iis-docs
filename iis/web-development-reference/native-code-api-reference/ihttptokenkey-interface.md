@@ -49,13 +49,13 @@ class IHttpTokenKey : public IHttpCacheKey
   
 ```  
 <cacheProvider>  
-    <tokenKey   
-        userName="IUSR"   
-        hashedPassword="123456"   
-        logon="3"   
-        cacheName="TOKEN"   
-        hash="0"   
-        isEqual="true"   
+    <tokenKey
+        userName="IUSR"
+        hashedPassword="123456"
+        logon="3"
+        cacheName="TOKEN"
+        hash="0"
+        isEqual="true"
         isPrefix="false" />  
 </cacheProvider>  
 ```  

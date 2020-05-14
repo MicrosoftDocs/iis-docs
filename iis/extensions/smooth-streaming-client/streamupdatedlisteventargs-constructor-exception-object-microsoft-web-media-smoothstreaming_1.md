@@ -57,20 +57,20 @@ public StreamUpdatedListEventArgs(
 ```cpp
 public:
 StreamUpdatedListEventArgs(
-    Exception^ error, 
+    Exception^ error,
     Object^ userState
 )
 ```
 
 ``` fsharp
-new : 
-        error:Exception * 
+new :
+        error:Exception *
         userState:Object -> StreamUpdatedListEventArgs
 ```
 
 ```jscript
 public function StreamUpdatedListEventArgs(
-    error : Exception, 
+    error : Exception,
     userState : Object
 )
 ```

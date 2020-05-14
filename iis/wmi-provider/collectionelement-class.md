@@ -106,5 +106,5 @@ class CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [WMI Provider](../wmi-provider/wmi-provider.md)   
+ [WMI Provider](../wmi-provider/wmi-provider.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

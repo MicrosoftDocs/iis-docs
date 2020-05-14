@@ -65,11 +65,11 @@ virtual void UpdateCredential(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract UpdateCredential : 
-        credential:Credential -> unit 
+abstract UpdateCredential :
+        credential:Credential -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override UpdateCredential : 
-        credential:Credential -> unit 
+override UpdateCredential :
+        credential:Credential -> unit
 ```
 
 ```jscript

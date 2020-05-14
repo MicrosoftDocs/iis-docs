@@ -59,7 +59,7 @@ ConfigurationMessage(
 ```
 
 ``` fsharp
-  new : 
+  new :
         message:string -> ConfigurationMessage
 ```
 

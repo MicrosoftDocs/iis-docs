@@ -66,31 +66,31 @@ protected internal virtual void SetSource(
 ```cpp
 protected public:
 virtual void SetSource(
-    SmoothStreamingMediaElement^ ssme, 
-    MediaElement^ mediaElement, 
-    String^ markerStringId, 
+    SmoothStreamingMediaElement^ ssme,
+    MediaElement^ mediaElement,
+    String^ markerStringId,
     long long clipLength
 )
 ```
 
 ``` fsharp
-abstract SetSource : 
-        ssme:SmoothStreamingMediaElement * 
-        mediaElement:MediaElement * 
-        markerStringId:string * 
-        clipLength:int64 -> unit 
-override SetSource : 
-        ssme:SmoothStreamingMediaElement * 
-        mediaElement:MediaElement * 
-        markerStringId:string * 
-        clipLength:int64 -> unit 
+abstract SetSource :
+        ssme:SmoothStreamingMediaElement *
+        mediaElement:MediaElement *
+        markerStringId:string *
+        clipLength:int64 -> unit
+override SetSource :
+        ssme:SmoothStreamingMediaElement *
+        mediaElement:MediaElement *
+        markerStringId:string *
+        clipLength:int64 -> unit
 ```
 
 ```jscript
  function SetSource(
-    ssme : SmoothStreamingMediaElement, 
-    mediaElement : MediaElement, 
-    markerStringId : String, 
+    ssme : SmoothStreamingMediaElement,
+    mediaElement : MediaElement,
+    markerStringId : String,
     clipLength : long
 )
 ```

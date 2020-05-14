@@ -65,7 +65,7 @@ class ApplicationPool : Object
 ' Connect to the WMI WebAdministration namespace.  
 Set oWebAdmin = GetObject("winmgmts:root\WebAdministration")  
   
-' Retrieve the application pools on the server.   
+' Retrieve the application pools on the server.
 Set oAppPools = oWebAdmin.ExecQuery("SELECT * FROM ApplicationPool")  
   
 For Each oAppPool In oAppPools  
@@ -97,5 +97,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Object Class](../wmi-provider/object-class.md)   
+ [Object Class](../wmi-provider/object-class.md)
  [Configuring Application Pools in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64323)

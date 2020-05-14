@@ -65,8 +65,8 @@ Collection<String^>^ GetJobFiles(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobFiles : 
-        jobDetails:JobDetails -> Collection<string> 
+abstract GetJobFiles :
+        jobDetails:JobDetails -> Collection<string>
 ```
 
 ```jscript

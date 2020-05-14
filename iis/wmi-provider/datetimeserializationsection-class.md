@@ -60,6 +60,6 @@ class DateTimeSerializationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [System.Xml.Serialization.Configuration.DateTimeSerializationSection.DateTimeSerializationMode Enumeration](https://go.microsoft.com/fwlink/?LinkId=70920)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [System.Xml.Serialization.Configuration.DateTimeSerializationSection.DateTimeSerializationMode Enumeration](https://go.microsoft.com/fwlink/?LinkId=70920)
  [System.DateTime Structure](https://go.microsoft.com/fwlink/?LinkId=70919)

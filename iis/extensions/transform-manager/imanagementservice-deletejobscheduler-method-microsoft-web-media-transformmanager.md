@@ -64,8 +64,8 @@ void DeleteJobScheduler(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract DeleteJobScheduler : 
-        jobSchedulerId:string -> unit 
+abstract DeleteJobScheduler :
+        jobSchedulerId:string -> unit
 ```
 
 ```jscript

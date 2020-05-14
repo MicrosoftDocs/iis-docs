@@ -29,10 +29,10 @@ When the template completes and the project opens, you should see a display that
 
 ```xaml
 <UserControl x:Class="SlvLt_SmoothStreamApp.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
     <Grid x:Name="LayoutRoot">
 
@@ -80,7 +80,7 @@ Silverlight controls can interact with Smooth Streaming media as needed for appl
     <Button x:Name="PlayButton" Width="50" Click="PlayButton_Click"
                 Loaded="PlayButton_Loaded"/>
     <Button x:Name="StopButton" Content="Stop" Width="50"
-                Click="StopButton_Click" /> 
+                Click="StopButton_Click" />
 </StackPanel>
 ```
 
@@ -173,7 +173,7 @@ The following combined XAML specification includes all previous markup in a layo
         <Slider x:Name="VolumeBar" Width="60" Value="{Binding Path=Volume, ElementName=SmoothPlayer, Mode=TwoWay}" />
         <Button x:Name="PlayButton" Width="50" Click="PlayButton_Click" Loaded="PlayButton_Loaded"/>
         <Button x:Name="StopButton" Content="Stop" Width="50" Click="StopButton_Click" />
-        <ComboBox x:Name="SourceList" SelectionChanged="SourceList_SelectionChanged" Width="375" > 
+        <ComboBox x:Name="SourceList" SelectionChanged="SourceList_SelectionChanged" Width="375" >
             <ComboBoxItem Content="Big Buck Bunny" />
             <ComboBoxItem Content="Media Two" />
             <ComboBoxItem Content="Media Three" />

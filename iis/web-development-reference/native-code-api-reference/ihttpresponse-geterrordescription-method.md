@@ -51,5 +51,5 @@ virtual PCWSTR GetErrorDescription(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
  [IHttpResponse::SetErrorDescription Method](../../web-development-reference/native-code-api-reference/ihttpresponse-seterrordescription-method.md)

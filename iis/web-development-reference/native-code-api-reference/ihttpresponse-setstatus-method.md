@@ -65,5 +65,5 @@ virtual HRESULT SetStatus(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
  [IHttpResponse::GetStatus Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getstatus-method.md)

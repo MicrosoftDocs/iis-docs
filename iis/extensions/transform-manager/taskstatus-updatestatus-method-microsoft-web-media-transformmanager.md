@@ -64,27 +64,27 @@ instance.UpdateStatus(percentComplete, _
 ```cpp
   public:
 virtual void UpdateStatus(
-    int percentComplete, 
-    JobStatus status, 
+    int percentComplete,
+    JobStatus status,
     String^ message
 ) sealed
 ```
 
 ``` fsharp
-  abstract UpdateStatus : 
-        percentComplete:int * 
-        status:JobStatus * 
-        message:string -> unit 
-override UpdateStatus : 
-        percentComplete:int * 
-        status:JobStatus * 
-        message:string -> unit 
+  abstract UpdateStatus :
+        percentComplete:int *
+        status:JobStatus *
+        message:string -> unit
+override UpdateStatus :
+        percentComplete:int *
+        status:JobStatus *
+        message:string -> unit
 ```
 
 ```jscript
   public final function UpdateStatus(
-    percentComplete : int, 
-    status : JobStatus, 
+    percentComplete : int,
+    status : JobStatus,
     message : String
 )
 ```

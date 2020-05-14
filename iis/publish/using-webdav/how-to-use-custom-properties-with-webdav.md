@@ -25,11 +25,11 @@ This document walks you through configuring the new WebDAV module to store custo
 
 The following items are required to complete the procedures in this article:
 
-- IIS 7.0 must be installed on your server, and the following must be configured: 
+- IIS 7.0 must be installed on your server, and the following must be configured:
 
     - The Default Web Site that is created by the IIS 7.0 installation must still exist.
     - The Internet Information Services Manager must be installed.
-- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document: 
+- The new WebDAV extension module must be installed. For information regarding the installation of the new WebDAV module, please see the following document:
 
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
@@ -46,7 +46,7 @@ The above condition is required because the User Account Control (UAC) security 
 ### Additional Information
 
 - The simple property store saves properties in a hidden system file named "properties.dav" in each folder. You should add this file to the list of list of denied file types in your request filtering settings. For more information, please see the [How to configure WebDAV and Request Filtering](https://go.microsoft.com/fwlink/?LinkId=108321) walkthrough.
-- Properties are limited in the following fashion: 
+- Properties are limited in the following fashion:
 
     - Individual property values are limited to 32,000 characters.
     - The total size of properties per file is limited to 500,000 characters.
@@ -60,7 +60,7 @@ The above condition is required because the User Account Control (UAC) security 
     [![](how-to-use-custom-properties-with-webdav/_static/image2.png)](how-to-use-custom-properties-with-webdav/_static/image1.png)
 3. When the **WebDAV Authoring Rules** page is displayed, click the **WebDAV Settings** task in the **Actions** pane.  
     [![](how-to-use-custom-properties-with-webdav/_static/image4.png)](how-to-use-custom-properties-with-webdav/_static/image3.png)
-4. When the **WebDAV Settings** page is displayed, specify the following options: 
+4. When the **WebDAV Settings** page is displayed, specify the following options:
 
     - Set **Allow anonymous property queries** to **False**
     - Set **Allow custom properties** to **True**

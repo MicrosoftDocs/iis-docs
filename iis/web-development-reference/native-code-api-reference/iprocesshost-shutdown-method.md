@@ -33,6 +33,6 @@ virtual HRESULT __stdcall Shutdown(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)   
- [IIS 7.0 Beta: IProcessHost::Shutdown Method](../../web-development-reference/native-code-api-reference/iprocesshost-shutdown-method.md)   
+ [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)
+ [IIS 7.0 Beta: IProcessHost::Shutdown Method](../../web-development-reference/native-code-api-reference/iprocesshost-shutdown-method.md)
  [IProcessHost::StartApplication Method](../../web-development-reference/native-code-api-reference/iprocesshost-startapplication-method.md)

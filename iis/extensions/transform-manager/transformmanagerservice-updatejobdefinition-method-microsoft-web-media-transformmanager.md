@@ -65,11 +65,11 @@ virtual void UpdateJobDefinition(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract UpdateJobDefinition : 
-        jobDefinition:JobDefinition -> unit 
+abstract UpdateJobDefinition :
+        jobDefinition:JobDefinition -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override UpdateJobDefinition : 
-        jobDefinition:JobDefinition -> unit 
+override UpdateJobDefinition :
+        jobDefinition:JobDefinition -> unit
 ```
 
 ```jscript

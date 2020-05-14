@@ -76,5 +76,5 @@ virtual HRESULT WriteEntityChunks(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
  [IHttpResponse::WriteEntityChunkByReference Method](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunkbyreference-method.md)

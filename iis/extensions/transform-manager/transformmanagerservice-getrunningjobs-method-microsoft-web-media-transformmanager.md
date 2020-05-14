@@ -59,9 +59,9 @@ virtual Collection<JobDetails^>^ GetRunningJobs() sealed
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetRunningJobs : unit -> Collection<JobDetails> 
+abstract GetRunningJobs : unit -> Collection<JobDetails>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetRunningJobs : unit -> Collection<JobDetails> 
+override GetRunningJobs : unit -> Collection<JobDetails>
 ```
 
 ```jscript

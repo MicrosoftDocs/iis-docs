@@ -39,7 +39,7 @@ You can use a text editor such as Notepad to directly edit the ApplicationHost.c
 - **Advantages**  
  You can change multiple properties or create new nodes in one instance without having to open and close multiple property sheets.
 - **Disadvantages**  
- It is easy to corrupt an IIS server by using edit-while-running. If your edits include XML that is not formatted correctly, IIS cannot read the ApplicationHost.config and the last history file must be restored. If your edits include an invalid configuration that does not comply with the rules in the schema, an error is logged in the event viewer, but the rest of IIS can run.   
+ It is easy to corrupt an IIS server by using edit-while-running. If your edits include XML that is not formatted correctly, IIS cannot read the ApplicationHost.config and the last history file must be restored. If your edits include an invalid configuration that does not comply with the rules in the schema, an error is logged in the event viewer, but the rest of IIS can run.
  Property inheritance must be taken into consideration when cutting and pasting portions of the ApplicationHost.config. The section you paste might inherit properties from parent nodes and impart properties to child nodes.  
  If you are using edit-while-running over the network and the connection fails, you might end up with an invalid ApplicationHost.config. Note that using edit-while-running on multiple servers in a Web farm takes as much time as using the user interface.
 
@@ -114,7 +114,7 @@ Use ABO to programmatically configure IIS in a compiled program written in C, C+
 - **Advantages**  
  It is faster than using ADSI or WMI because the ADSI and WMI providers are wrappers for ABO.
 - **Disadvantages**  
- If you create a site or virtual directory, or use a property that depends on others, you also must ensure that you know which supporting properties need to be created and set.   
+ If you create a site or virtual directory, or use a property that depends on others, you also must ensure that you know which supporting properties need to be created and set.
  ABO is not scriptable. ABO applications can only be written in C++ or Visual Basic 6.0.  
  Since ABO accesses IIS at the lowest level, it is more difficult to use than ADSI or WMI because there are no methods that compress multiple lines of ABO code into one method call. Also, there are no safeguards to prevent you from configuring invalid settings.
 
@@ -123,7 +123,7 @@ Use ABO to programmatically configure IIS in a compiled program written in C, C+
 
 ## Links for Further Information
 
-- [IIS Configuration Reference](https://www.iis.net/configreference). 
+- [IIS Configuration Reference](https://www.iis.net/configreference).
 - [Managing IIS with the IIS PowerShell Snap-in](../powershell/index.md).
 - [C# and PowerShell Scripts Samples](../../web-hosting/configuring-components/powershell-scripts.md).
 - [Provisioning Sample in C#.](../provisioning-and-managing-iis/provisioning-sample-in-c.md)

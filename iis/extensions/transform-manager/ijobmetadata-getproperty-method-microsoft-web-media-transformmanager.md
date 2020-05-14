@@ -62,8 +62,8 @@ returnValue = instance.GetProperty(predicate)
 ```
 
 ``` fsharp
-  abstract GetProperty : 
-        predicate:XName -> IManifestProperty 
+  abstract GetProperty :
+        predicate:XName -> IManifestProperty
 ```
 
 ```jscript

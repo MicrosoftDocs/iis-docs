@@ -40,6 +40,6 @@ HRESULT get_ValidationFailureReason(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertyException Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyexception-interface.md)   
- [IAppHostPropertySchema::ValidationType Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationtype-property.md)   
+ [IAppHostPropertyException Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyexception-interface.md)
+ [IAppHostPropertySchema::ValidationType Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationtype-property.md)
  [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationparameter-property.md)

@@ -57,14 +57,14 @@ void CreateBackup(
 
 ```cpp
 void CreateBackup(
-    String^ connectionString, 
+    String^ connectionString,
     String^ backupPath
 )
 ```
 
 ```jscript
 function CreateBackup(
-    connectionString : String, 
+    connectionString : String,
     backupPath : String
 )
 ```

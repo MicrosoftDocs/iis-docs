@@ -62,8 +62,8 @@ static bool IsTraceDestinationEnabled(
 ```
 
 ``` fsharp
-static member IsTraceDestinationEnabled : 
-        traceDestination:TraceDestination -> bool 
+static member IsTraceDestinationEnabled :
+        traceDestination:TraceDestination -> bool
 ```
 
 ```jscript

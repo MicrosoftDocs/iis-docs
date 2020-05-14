@@ -27,22 +27,22 @@ Microsoft has released a brand-new WebDAV implementation for IIS that was writte
 
 > [!NOTE]
 > This new WebDAV extension module is only for Windows Server 2008 and Internet Information Services 7.0 or above; it will not work on Windows Server 2003 and Internet Information Services 6.0.
-> 
+>
 > #### Integration with IIS
-> 
+>
 > - **Integrated Pipeline**: The IIS 6.0 WebDAV implementation was through ISAPI, but the core server required knowledge of the WebDAV ISAPI in order to function correctly. The new IIS native module interface is sufficiently rich that these considerations are unnecessary.
 > - **Administration**: IIS has a brand-new administration interface and configuration store, and the new WebDAV extension module is tightly integrated with this new design. The old IIS 6.0 metabase is gone, and a new configuration store that is based on the .NET XML-based \*.config format has taken its place. In addition, IIS has a new administration tool, and the new WebDAV extension module plugs seamlessly into that paradigm.
-> 
+>
 > [![](what39s-new-for-webdav-and-iis-7/_static/image5.jpg)](what39s-new-for-webdav-and-iis-7/_static/image3.jpg)
-> 
-> 
+>
+>
 > #### WebDAV Configuration
-> 
+>
 > - **WebDAV-Specific Configuration**: The old WebDAV "overloaded" a number of IIS configuration settings. For example, the standard IIS "directory browsing" setting also controlled directory access via the WebDAV PROPFIND verb. This is a problem for some site administrators who would like to enable PROPFIND access without enabling directory browsing. The new WebDAV implementation leverages the IIS extensible configuration schema and extensible administration tool to decouple these settings and provide more fine-grained control over WebDAV behavior.
 > - **Per-Site WebDAV Settings**: WebDAV in IIS 7.0 and above can be enabled at the site-level, unlike IIS 6.0 which enabled WebDAV at the server-level through a Web Service Extension.
 > - **Per-URL Security Settings**: The new WebDAV extension module supports per-URL authoring rules, allowing administrators to specify custom WebDAV security settings on a per-URL basis. These authoring rules are separate from the IIS per-URL authorization rules, thereby allowing one set of security settings for normal HTTP requests and a separate set of security settings for WebDAV authoring.
 > - **Support for shared and exclusive locks**: The new WebDAV extension supports both shared and exclusive locks to prevent lost updates due to overwrites.
-> 
+>
 > [![](what39s-new-for-webdav-and-iis-7/_static/image12.jpg)](what39s-new-for-webdav-and-iis-7/_static/image11.jpg)
 
 ## Getting Started with WebDAV

@@ -74,32 +74,32 @@ public TraceEntry(
 ```cpp
 public:
 TraceEntry(
-    String^ mediaElementId, 
-    String^ className, 
-    String^ methodName, 
-    TraceArea traceArea, 
-    TraceLevel traceLevel, 
+    String^ mediaElementId,
+    String^ className,
+    String^ methodName,
+    TraceArea traceArea,
+    TraceLevel traceLevel,
     String^ text
 )
 ```
 
 ``` fsharp
-new : 
-        mediaElementId:string * 
-        className:string * 
-        methodName:string * 
-        traceArea:TraceArea * 
-        traceLevel:TraceLevel * 
+new :
+        mediaElementId:string *
+        className:string *
+        methodName:string *
+        traceArea:TraceArea *
+        traceLevel:TraceLevel *
         text:string -> TraceEntry
 ```
 
 ```jscript
 public function TraceEntry(
-    mediaElementId : String, 
-    className : String, 
-    methodName : String, 
-    traceArea : TraceArea, 
-    traceLevel : TraceLevel, 
+    mediaElementId : String,
+    className : String,
+    methodName : String,
+    traceArea : TraceArea,
+    traceLevel : TraceLevel,
     text : String
 )
 ```

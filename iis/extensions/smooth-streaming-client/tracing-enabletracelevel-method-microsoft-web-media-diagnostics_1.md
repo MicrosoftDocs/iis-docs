@@ -61,8 +61,8 @@ static void EnableTraceLevel(
 ```
 
 ``` fsharp
-static member EnableTraceLevel : 
-        traceLevel:TraceLevel -> unit 
+static member EnableTraceLevel :
+        traceLevel:TraceLevel -> unit
 ```
 
 ```jscript

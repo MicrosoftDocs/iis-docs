@@ -59,7 +59,7 @@ SchedulerInfo(
 ```
 
 ``` fsharp
-  new : 
+  new :
         hasScheduler:XElement -> SchedulerInfo
 ```
 

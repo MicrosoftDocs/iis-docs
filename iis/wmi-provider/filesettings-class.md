@@ -43,7 +43,7 @@ class FileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
+ [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [Site Class](../wmi-provider/site-class.md)
  [StringElement Class](../wmi-provider/stringelement-class.md)

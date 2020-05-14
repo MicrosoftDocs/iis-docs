@@ -55,8 +55,8 @@ virtual void Pause()
 ```
 
 ``` fsharp
-abstract Pause : unit -> unit 
-override Pause : unit -> unit 
+abstract Pause : unit -> unit
+override Pause : unit -> unit
 ```
 
 ```jscript

@@ -194,7 +194,7 @@ To perform this task, it is assumed that we have performed the previous tasks, s
     At this point, we have enabled the directory listing feature on the server. However, the feature exposes additional configuration for security reasons that controls whether or not directory listing is allowed. This configuration is specified in the &lt;system.webServer&gt;/&lt;directoryBrowse&gt; section.
 3. Change the entry to &lt;directoryBrowse enabled="true" /&gt;
 4. Save the applicationHost.config file.
-5. Open Internet Explorer, and repeat the request to the directory by requesting the following URL: 
+5. Open Internet Explorer, and repeat the request to the directory by requesting the following URL:
 
 [!code-console[Main](build-a-custom-iis-server/samples/sample19.cmd)]
 

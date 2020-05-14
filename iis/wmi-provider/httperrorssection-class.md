@@ -62,7 +62,7 @@ The following table lists the possible values for the `DefaultResponseMode` prop
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
 |0|`File`|The Web server returns the Web page from the static file specified in the `Path` property of the `HttpErrorElement` class. **Note:**  Custom errors are language-specific and typically return the custom error in the language of the client. This requires that the client's language pack is installed. The file path is constructed as follows: *PrefixLanguageFilePath*\\*ClientLanguageID*\\*ErrorCodeFile* For example, if *PrefixLanguageFilePath* is "d:\inetpub\custerr", the client browser sends "en-us" in the `Accept-Language` header, and the error code is 404, the resulting path when the en-US language pack is installed is d:\inetpub\custerr\en-us\404.htm. If ja-JP is the system language, and the en-US language pack is not installed, the resulting path is d:\inetpub\custerr\ja-jp\404.htm.|  
-|1|`ExecuteURL`|The Web server returns the internal ASP page specified in the `Path` property of the `HttpErrorElement` class. The URL should be in the scope of the same application pool. **Note:**  In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], the redirection creates a URL with the following format (the items in the brackets are optional): /*\<CustomErrorPage>*[?*\<QueryString>*]&resourcePath=*\<OriginalURL>*[?*\<OriginalQueryString>*]&statusCode=*\<StatusCode>*| 
+|1|`ExecuteURL`|The Web server returns the internal ASP page specified in the `Path` property of the `HttpErrorElement` class. The URL should be in the scope of the same application pool. **Note:**  In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], the redirection creates a URL with the following format (the items in the brackets are optional): /*\<CustomErrorPage>*[?*\<QueryString>*]&resourcePath=*\<OriginalURL>*[?*\<OriginalQueryString>*]&statusCode=*\<StatusCode>*|
 |2|`Redirect`|The Web server provides an `HTTP 302 Found` response and includes the URL specified in the `Path` property of the `HttpErrorElement` class in the `Location` field of the response. If the response is a `GET` method instead of a `HEAD` method, it should also include an entity that has a short hyperlink to the new URL. **Note:**  In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], the redirection creates a URL with the following format (the items in the brackets are optional): /*\<CustomErrorPage>*[?*\<QueryString>*]&resourcePath=*\<OriginalURL>*[?*\<OriginalQueryString>*]&statusCode=*\<StatusCode>*|  
 
 The following table lists the possible values for the `ErrorMode` property. The default is 0 (`DetailedLocalOnly`).  
@@ -159,9 +159,9 @@ End Function
 
 ## See Also  
 
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [CustomError Class](../wmi-provider/customerror-class.md)   
- [CustomErrorsSection Class](../wmi-provider/customerrorssection-class.md)   
- [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [CustomError Class](../wmi-provider/customerror-class.md)
+ [CustomErrorsSection Class](../wmi-provider/customerrorssection-class.md)
+ [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)
  [IHttpResponse::SetStatus Method](../web-development-reference/native-code-api-reference/ihttpresponse-setstatus-method.md)

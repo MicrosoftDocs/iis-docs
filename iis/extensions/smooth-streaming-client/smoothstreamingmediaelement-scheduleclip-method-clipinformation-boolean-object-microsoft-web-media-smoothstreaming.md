@@ -62,16 +62,16 @@ returnValue = instance.ScheduleClip(clipInfo, _
 ```cpp
   public:
 ClipContext^ ScheduleClip(
-    ClipInformation^ clipInfo, 
-    bool pauseTimeline, 
+    ClipInformation^ clipInfo,
+    bool pauseTimeline,
     Object^ userData
 )
 ```
 
 ```jscript
   public function ScheduleClip(
-    clipInfo : ClipInformation, 
-    pauseTimeline : boolean, 
+    clipInfo : ClipInformation,
+    pauseTimeline : boolean,
     userData : Object
 ) : ClipContext
 ```

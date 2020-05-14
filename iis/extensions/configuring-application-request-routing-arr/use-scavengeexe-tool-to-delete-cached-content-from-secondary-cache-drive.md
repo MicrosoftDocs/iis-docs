@@ -30,18 +30,18 @@ If Application Request Routing Version 2 has not been installed, you can downloa
 
 Follow the steps outlined in [this](../installing-application-request-routing-arr/install-application-request-routing-version-2.md) document to install ARR Version 2.
 
-This walkthrough also assumes that secondary cache drive has been added to ARR for caching. If not, please follow the <a id="breadcrumblink_575"></a>[Configure and Enable Disk Cache in Application Request Routing](configure-and-enable-disk-cache-in-application-request-routing.md) walkthrough. 
+This walkthrough also assumes that secondary cache drive has been added to ARR for caching. If not, please follow the <a id="breadcrumblink_575"></a>[Configure and Enable Disk Cache in Application Request Routing](configure-and-enable-disk-cache-in-application-request-routing.md) walkthrough.
 
 ## Scavenge.exe tool in ARR
 
 Scavenge.exe is a command line tool that can be used for managing the secondary drive by the administrators. The exe is installed with ARR and can be found in `%ProgramFiles%\IIS\Application Request Routing` folder.
 
-**Usage:** scavenge.exe &lt;share&gt; dd:[hh[:mm[:ss]]] 
+**Usage:** scavenge.exe &lt;share&gt; dd:[hh[:mm[:ss]]]
 
 - &lt;share&gt; is the path to the share that ARR is using as secondary cache drive.
 - dd:[hh[:mm[:ss]]] - Duration - cached files older than this duration will be deleted by the tool. Note that hh, mm, ss are optional.
 
-**Example:** scavenge.exe [\\ARR\SecondaryCache](file://arr/SecondaryCache) 04:11:30:15 
+**Example:** scavenge.exe [\\ARR\SecondaryCache](file://arr/SecondaryCache) 04:11:30:15
 
 This will delete all files located in [\\ARR\SecondaryCache](file://arr/SecondaryCache) that are older than 4 days, 11 hours, 30 minutes and 15 seconds. Note that the tool must be run as a user with permissions to delete content on the specified share.
 

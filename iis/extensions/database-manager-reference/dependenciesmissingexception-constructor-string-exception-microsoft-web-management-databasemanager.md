@@ -55,14 +55,14 @@ public DependenciesMissingException(
 ```cpp
 public:
 DependenciesMissingException(
-    String^ message, 
+    String^ message,
     Exception^ innerException
 )
 ```
 
 ```jscript
 public function DependenciesMissingException(
-    message : String, 
+    message : String,
     innerException : Exception
 )
 ```

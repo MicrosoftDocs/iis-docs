@@ -59,9 +59,9 @@ virtual bool IsServiceInitialized() sealed
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract IsServiceInitialized : unit -> bool 
+abstract IsServiceInitialized : unit -> bool
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override IsServiceInitialized : unit -> bool 
+override IsServiceInitialized : unit -> bool
 ```
 
 ```jscript

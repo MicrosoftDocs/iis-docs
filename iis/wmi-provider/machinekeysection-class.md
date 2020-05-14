@@ -83,7 +83,7 @@ WScript.Echo "Location: " & oMKeySection.Location
 WScript.Echo "Decryption: " & oMKeySection.Decryption  
   
 WScript.Echo "Decryption Key: " & _  
-    oMKeySection.DecryptionKey      
+    oMKeySection.DecryptionKey
   
 WScript.Echo "Validation: " & _  
     ValidationText(oMKeySection.Validation)  
@@ -124,5 +124,5 @@ End Function
   
 ## See Also  
  [System.Web.Configuration.MachineKeyValidation](/dotnet/api/system.web.configuration.machinekeysection.validation)
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
  [PagesSection Class](../wmi-provider/pagessection-class.md)

@@ -65,11 +65,11 @@ virtual void DeleteTaskDefinition(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract DeleteTaskDefinition : 
-        taskDefinitionId:string -> unit 
+abstract DeleteTaskDefinition :
+        taskDefinitionId:string -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override DeleteTaskDefinition : 
-        taskDefinitionId:string -> unit 
+override DeleteTaskDefinition :
+        taskDefinitionId:string -> unit
 ```
 
 ```jscript

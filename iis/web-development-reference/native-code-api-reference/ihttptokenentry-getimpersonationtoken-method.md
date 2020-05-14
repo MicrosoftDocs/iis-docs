@@ -63,6 +63,6 @@ IHttpTokenEntry::GetImpersonationToken: valid
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)   
- [IHttpTokenEntry::GetPrimaryToken Method](../../web-development-reference/native-code-api-reference/ihttptokenentry-getprimarytoken-method.md)   
+ [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)
+ [IHttpTokenEntry::GetPrimaryToken Method](../../web-development-reference/native-code-api-reference/ihttptokenentry-getprimarytoken-method.md)
  [IHttpTokenEntry::GetSid Method](../../web-development-reference/native-code-api-reference/ihttptokenentry-getsid-method.md)

@@ -36,6 +36,6 @@ virtual IHttpPerfCounterInfo* GetPerfCounterInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
- [IHttpPerfCounterInfo Interface](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
+ [IHttpPerfCounterInfo Interface](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md)
  [IHttpSite::GetPerfCounterInfo Method](../../web-development-reference/native-code-api-reference/ihttpsite-getperfcounterinfo-method.md)

@@ -47,5 +47,5 @@ class CompilerElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [CompilerSettings Class](../wmi-provider/compilersettings-class.md)

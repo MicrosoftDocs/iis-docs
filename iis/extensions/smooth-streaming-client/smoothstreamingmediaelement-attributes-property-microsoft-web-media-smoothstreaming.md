@@ -77,7 +77,7 @@ A dictionary object that contains name/value pairs for the attributes.
 
 The following example shows how to get attributes.
 
-``` 
+```
     if (streamInfo.Attributes["Name"] == "ClosedCaptions" ||
                             streamInfo.Attributes["Name"] == "MARKERS")
     {

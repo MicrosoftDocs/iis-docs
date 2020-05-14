@@ -186,7 +186,7 @@ In order for the MVC Web Role to launch correctly, we must include a new class i
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image11.png)
 2. In **Name**, enter the project name as the class file name, and then click **Add**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image12.png)
-3. Replace the new class syntax with the following code:   
+3. Replace the new class syntax with the following code:
 
     [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample2.cs)]
 
@@ -198,7 +198,7 @@ In order for the MVC Web Role to launch correctly, we must include a new class i
 
 1. In **Solution Explorer**, in the ASP.NET MVC 3 Web Application Project, right-click **Global.asax**, and then select **View Code**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image13.png)
-2. Locate the *RegisterRoutes* static function and update the Default MapRoute. In our sample application, we replace 'Home' with our own 'JobMon' controller:   
+2. Locate the *RegisterRoutes* static function and update the Default MapRoute. In our sample application, we replace 'Home' with our own 'JobMon' controller:
 
     [!code-console[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample4.cmd)]
 3. In the *Application\_Start* function, add a call to *SetConfigurationSettingPublisher* by pasting in the following code:  
@@ -248,7 +248,7 @@ We will also need the following list of public properties that make up the entir
 Finally, a few static classes are needed to parse the XML into an instance object.
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample9.cs)]
-   
+
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample10.cs)]
 
 <a id="notificationdataservicecontext"></a>
@@ -299,7 +299,7 @@ We now have a model that can be leveraged to parse new notifications, insert the
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image16.png)
 2. In the **Add Controller** dialog box, add an empty controller named **JobMonController**, and then click **Add**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image17.png)
-3. Update the new *JobMonController* class syntax with the code below. This code adds two public functions, one to handle Job Monitor pageview requests from users and another one to handle Transform Manager POST requests. 
+3. Update the new *JobMonController* class syntax with the code below. This code adds two public functions, one to handle Job Monitor pageview requests from users and another one to handle Transform Manager POST requests.
 
     > [!NOTE]
     > The POST function must accept un-authenticated requests because IIS Transform Manager doesn't use authentication to POST the updates.
@@ -322,7 +322,7 @@ We now have a model that can be leveraged to parse new notifications, insert the
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image19.png)
 3. Right-click the **JobMon** folder, and then click **Add** &gt; **View**. The **Add View** dialog box is displayed.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image20.png)
-4. Configure the following settings in the dialog box, and then click **Add**: 
+4. Configure the following settings in the dialog box, and then click **Add**:
 
    - **View name**. Enter the name of the existing public function of our controller class: **Index**.
    - **Create a strongly-typed view**. Select this check box.

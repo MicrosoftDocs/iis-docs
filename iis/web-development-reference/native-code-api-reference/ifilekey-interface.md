@@ -45,11 +45,11 @@ class IFileKey : public IHttpCacheKey
   
 ```  
 <cacheProvider>  
-    <fileKey   
-        path="C:\INETPUB\WWWROOT\DEFAULT.HTM"   
-        cacheName="FILE"   
-        hash="123456789"   
-        isEqual="true"   
+    <fileKey
+        path="C:\INETPUB\WWWROOT\DEFAULT.HTM"
+        cacheName="FILE"
+        hash="123456789"
+        isEqual="true"
         isPrefix="true"/>  
 </cacheProvider>  
 ```  

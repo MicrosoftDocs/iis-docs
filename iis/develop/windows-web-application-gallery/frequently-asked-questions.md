@@ -15,7 +15,7 @@ by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 Here is a list of frequently asked questions designed to provide a better understanding of the Windows Web App Gallery Submission and validation processes.
 
-**Q. How do I submit my Web Application to Windows Web Application Gallery?**   
+**Q. How do I submit my Web Application to Windows Web Application Gallery?**
  A. You can submit your application at the following URL:
 
 - *Windows Web App Gallery for Developers*  

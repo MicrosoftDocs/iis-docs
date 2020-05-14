@@ -18,7 +18,7 @@ This example uses the events [PlaybackTrackChanged](smoothstreamingmediaelement-
 
 Bitrate changes while a stream is playing raise the [PlaybackTrackChanged](smoothstreamingmediaelement-playbacktrackchanged-event-microsoft-web-media-smoothstreaming_1.md) event. Applications can monitor the bitrate in the delegate that handles the event. The following implementation reads the new bitrate from the [TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md) and prints it to a text block.
 
-``` 
+```
     void SmoothPlayer_PlaybackTrackChanged(object sender, TrackChangedEventArgs e)
     {
         OutputText.Text = "Current bitrate: " + e.NewTrack.Bitrate.ToString();
@@ -33,7 +33,7 @@ The following example limits the bitrate for customers who do not have premium a
 
 The lambda expression re-initializes a list of type [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) that contains only the bitrates that are less than highRate. The method [SelectTracks](streaminfo-selecttracks-method-microsoft-web-media-smoothstreaming_1.md) assigns usable tracks to the lower bitrates.
 
-``` 
+```
     // Switch for track selection.
     Boolean PremiumAccount = false;
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
@@ -50,7 +50,7 @@ The lambda expression re-initializes a list of type [TrackInfo](trackinfo-class-
                         // Limit bitrate to 866000.
                         ulong highRate = 866000 + 1;
                         List<TrackInfo> tracks = new List<TrackInfo>();
-   
+
                         tracks = stream.AvailableTracks.ToList<TrackInfo>();
                         IList<TrackInfo> allowedTracks = tracks.Where((ti) => ti.Bitrate < highRate).ToList();
                         stream.SelectTracks(allowedTracks, false);

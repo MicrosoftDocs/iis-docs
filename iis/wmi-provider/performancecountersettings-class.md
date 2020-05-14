@@ -43,6 +43,6 @@ class PerformanceCounterSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [PerformanceCountersSettings Class](../wmi-provider/performancecounterssettings-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [PerformanceCountersSettings Class](../wmi-provider/performancecounterssettings-class.md)
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)

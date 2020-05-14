@@ -82,5 +82,5 @@ virtual HRESULT GetManagedType(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IScriptMapInfo::GetManagedType Method](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getmanagedtype-method.md)

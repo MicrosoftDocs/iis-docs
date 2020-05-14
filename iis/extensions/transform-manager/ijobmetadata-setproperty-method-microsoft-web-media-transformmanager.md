@@ -61,8 +61,8 @@ instance.SetProperty(manifestProperty)
 ```
 
 ``` fsharp
-  abstract SetProperty : 
-        manifestProperty:IManifestProperty -> unit 
+  abstract SetProperty :
+        manifestProperty:IManifestProperty -> unit
 ```
 
 ```jscript

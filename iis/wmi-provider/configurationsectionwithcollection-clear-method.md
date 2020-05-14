@@ -64,6 +64,6 @@ oDefaultDocumentSection.Clear("Files.Files")
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)
  [FileSettings Class](../wmi-provider/filesettings-class.md)

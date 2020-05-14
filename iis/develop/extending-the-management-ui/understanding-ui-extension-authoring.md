@@ -103,7 +103,7 @@ Change the code so that it looks like this.
 
 [!code-csharp[Main](understanding-ui-extension-authoring/samples/sample5.cs)]
 
-DemoModule overrides the Initialize method. It first calls the Initialize on the base class. It then accesses Control Panel service through GetService. It then registers itself through RegisterPage of ControlPanel. 
+DemoModule overrides the Initialize method. It first calls the Initialize on the base class. It then accesses Control Panel service through GetService. It then registers itself through RegisterPage of ControlPanel.
 
 ## Creating the Server Assembly
 

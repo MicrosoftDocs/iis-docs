@@ -63,10 +63,10 @@ virtual int CompareTo(
 ```
 
 ``` fsharp
-abstract CompareTo : 
-        obj:Object -> int 
-override CompareTo : 
-        obj:Object -> int 
+abstract CompareTo :
+        obj:Object -> int
+override CompareTo :
+        obj:Object -> int
 ```
 
 ```jscript

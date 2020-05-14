@@ -33,5 +33,5 @@ class IMapPathProvider : public IHttpEventProvider
  `IMapPathProvider`  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
  [CHttpModule::OnMapPath Method](../../web-development-reference/native-code-api-reference/chttpmodule-onmappath-method.md)

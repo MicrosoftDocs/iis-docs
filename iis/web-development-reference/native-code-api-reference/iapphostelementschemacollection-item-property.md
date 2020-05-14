@@ -41,5 +41,5 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference/nativ
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)   
+ [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)
  [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)

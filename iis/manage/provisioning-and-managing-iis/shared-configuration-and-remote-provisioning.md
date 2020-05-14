@@ -99,6 +99,6 @@ The service should be secured to only allow authorized and authenticated users t
 ### Option 3: Using WMI
 
 Another option to avoid the double-hop issue is to use WMI service as illustrated in the following diagram.  
-   
+
 WMI service has the option for you to specify the credential to connect to remote web server, the WMI service on the remote server will impersonate the identity while performing the provisioning option as shown in the following code snippet. To enable the operations working with shared configuration, you must specify the impersonate option while connecting to WMI on the remote server. WMI also requires certain ports open in the firewall for remote invocation.  
 [![](shared-configuration-and-remote-provisioning/_static/image36.jpg)](shared-configuration-and-remote-provisioning/_static/image35.jpg)

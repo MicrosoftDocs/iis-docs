@@ -42,6 +42,6 @@ virtual HRESULT GetCustomInterface(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IProtocolManager Interface](../../web-development-reference/native-code-api-reference/iprotocolmanager-interface.md)   
- [IProtocolManager::GetPmInterface Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-getpminterface-method.md)   
+ [IProtocolManager Interface](../../web-development-reference/native-code-api-reference/iprotocolmanager-interface.md)
+ [IProtocolManager::GetPmInterface Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-getpminterface-method.md)
  [IProtocolManager::Shutdown Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-shutdown-method.md)

@@ -70,5 +70,5 @@ oWebAdmin.Get("VirtualDirectory").Create _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)   
+ [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)
  [VirtualDirectoryContainsConfigurationSection Class](../wmi-provider/virtualdirectorycontainsconfigurationsection-class.md)

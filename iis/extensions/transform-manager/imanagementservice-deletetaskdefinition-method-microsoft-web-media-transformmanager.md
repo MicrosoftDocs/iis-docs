@@ -64,8 +64,8 @@ void DeleteTaskDefinition(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract DeleteTaskDefinition : 
-        taskDefinitionId:string -> unit 
+abstract DeleteTaskDefinition :
+        taskDefinitionId:string -> unit
 ```
 
 ```jscript

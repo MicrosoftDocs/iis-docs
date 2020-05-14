@@ -16,7 +16,7 @@ Articles are stored in the repository as Markdown files. Simple changes to the c
 
 You'll need a basic understanding of [Git and GitHub.com](https://guides.github.com/activities/hello-world/).
 
-* Open an [issue](https://github.com/MicrosoftDocs/iis-docs/issues/new) describing what you want to do, such as change an existing article or create a new one. Wait for approval from the team before you invest much time. 
+* Open an [issue](https://github.com/MicrosoftDocs/iis-docs/issues/new) describing what you want to do, such as change an existing article or create a new one. Wait for approval from the team before you invest much time.
 * Fork the [iis-docs](https://github.com/MicrosoftDocs/iis-docs/) repo and create a branch for your changes.
 * Submit a pull request (PR) to master with your changes.
 * If your PR has the label 'cla-required' assigned, [complete the Contribution License Agreement (CLA)](https://cla2.dotnetfoundation.org/)
@@ -26,7 +26,7 @@ For an example where this process led to publication of a new article, see [issu
 
 ## Markdown syntax
 
-Articles are written in [DocFx-flavored Markdown](http://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html), which is a superset of [GitHub-flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/). For examples of DFM syntax for UI features commonly used in the documentation, see [Metadata and Markdown Template](https://github.com/dotnet/docs/blob/master/styleguide/template.md) in the .NET repo style guide. 
+Articles are written in [DocFx-flavored Markdown](http://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html), which is a superset of [GitHub-flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/). For examples of DFM syntax for UI features commonly used in the documentation, see [Metadata and Markdown Template](https://github.com/dotnet/docs/blob/master/styleguide/template.md) in the .NET repo style guide.
 
 ## Folder structure conventions
 
@@ -42,7 +42,7 @@ Markdown file names and image file names should be all lower case.
 
 ## Code snippets
 
-Articles frequently contain code snippets to illustrate points. DFM lets you copy code into the Markdown file or refer to a separate code file. We prefer to use separate code files whenever possible, to minimize the chance of errors in the code. The code files should be stored in the repo using the folder structure described above for sample projects. 
+Articles frequently contain code snippets to illustrate points. DFM lets you copy code into the Markdown file or refer to a separate code file. We prefer to use separate code files whenever possible, to minimize the chance of errors in the code. The code files should be stored in the repo using the folder structure described above for sample projects.
 
 Here are some examples of [DFM code snippet syntax](http://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#code-snippet) that would be used in a *configuration.md* file.
 
@@ -59,7 +59,7 @@ To render a portion of a file as a snippet by using line numbers:
 [!code-html[Main](configuration/sample/Views/Home/Index.cshtml?range=1-10,20,30,40-50]
 ```
 
-For C# snippets, you can reference a [C# region](https://msdn.microsoft.com/library/9a1ybwek.aspx). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet. 
+For C# snippets, you can reference a [C# region](https://msdn.microsoft.com/library/9a1ybwek.aspx). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet.
 
 To render a C# region named "snippet_Example":
 
@@ -80,7 +80,7 @@ To highlight selected lines in a rendered snippet (usually renders as yellow bac
 
 Test your changes with the [DocFX command-line tool](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html#2-use-docfx-as-a-command-line-tool), which creates a locally hosted version of the site. DocFX doesn't render style and site extensions created for docs.microsoft.com.
 
-DocFX requires the .NET Framework on Windows, or Mono for Linux or macOS. 
+DocFX requires the .NET Framework on Windows, or Mono for Linux or macOS.
 
 ### Windows instructions
 
@@ -105,7 +105,7 @@ DocFX requires the .NET Framework on Windows, or Mono for Linux or macOS.
   function docfx {
     mono $HOME/bin/docfx/docfx.exe
   }
-    
+
   function docfx-serve {
     mono $HOME/bin/docfx/docfx.exe serve _site
   }
@@ -120,4 +120,3 @@ Our goal is to write documentation that is easily understandable by the widest p
 ## Redirects
 
 If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [master redirect file](https://github.com/MicrosoftDocs/iis-docs/blob/master/.openpublishing.publish.config.json).
- 

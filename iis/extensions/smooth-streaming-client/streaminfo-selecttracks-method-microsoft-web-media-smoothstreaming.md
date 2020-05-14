@@ -61,14 +61,14 @@ returnValue = instance.SelectTracks(selectedTracks, _
 ```cpp
   public:
 bool SelectTracks(
-    IList<TrackInfo^>^ selectedTracks, 
+    IList<TrackInfo^>^ selectedTracks,
     bool flushBuffer
 )
 ```
 
 ```jscript
   public function SelectTracks(
-    selectedTracks : IList<TrackInfo>, 
+    selectedTracks : IList<TrackInfo>,
     flushBuffer : boolean
 ) : boolean
 ```
@@ -98,7 +98,7 @@ When SelectTracks(IList\<(Of \<\<'(TrackInfo\>)\>\>), Boolean) is called during 
 
 The following example shows how to select tracks from [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) and [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects.
 
-``` 
+```
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     {
         if (!PremiumAccount)

@@ -67,5 +67,5 @@ HRESULT WebhostRegisterProtocol(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED Function](../../web-development-reference/native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md)   
+ [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED Function](../../web-development-reference/native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md)
  [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)

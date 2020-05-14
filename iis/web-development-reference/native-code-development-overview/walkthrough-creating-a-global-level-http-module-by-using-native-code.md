@@ -26,7 +26,7 @@ In this part of the walkthrough, you will create an empty C++ DLL project for yo
   
 ### To create a new C++ DLL project  
   
-1. Start [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)]. 
+1. Start [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].
   
 2. Verify that the global options have all the right paths to the SDK include files:  
   

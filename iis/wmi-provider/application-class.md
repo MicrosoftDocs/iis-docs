@@ -47,7 +47,7 @@ class Application : ConfiguredObject
 Set oWebAdmin = GetObject("winmgmts:root\WebAdministration")  
   
 ' Retrieve the application and display its Web site name and path.  
-Set oApp = oWebAdmin.Get(_   
+Set oApp = oWebAdmin.Get(_
 "Application.SiteName='Default Web Site',Path='/Northwind'")  
 WScript.Echo "Web site and path: '" & oApp.SiteName & oApp.Path & "'"  
 WScript.Echo "Old application pool: " & oApp. ApplicationPool  
@@ -83,7 +83,7 @@ WScript.Echo "New application pool: " & oApp.ApplicationPool
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
+ [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
+ [Site Class](../wmi-provider/site-class.md)
  [VirtualDirectoryElementDefaults Class](../wmi-provider/virtualdirectoryelementdefaults-class.md)

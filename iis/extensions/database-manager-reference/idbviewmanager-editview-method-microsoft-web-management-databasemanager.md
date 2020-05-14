@@ -60,16 +60,16 @@ void EditView(
 
 ```cpp
 void EditView(
-    String^ connectionString, 
-    String^ schema, 
+    String^ connectionString,
+    String^ schema,
     View^ view
 )
 ```
 
 ```jscript
 function EditView(
-    connectionString : String, 
-    schema : String, 
+    connectionString : String,
+    schema : String,
     view : View
 )
 ```

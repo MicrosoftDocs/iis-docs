@@ -64,23 +64,23 @@ returnValue = JobManifest.GetManifestElement(manifest, _
 ```cpp
   public:
 static XElement^ GetManifestElement(
-    XElement^ manifest, 
-    String^ localName, 
+    XElement^ manifest,
+    String^ localName,
     [OutAttribute] XNamespace^% elementNamespace
 )
 ```
 
 ``` fsharp
-  static member GetManifestElement : 
-        manifest:XElement * 
-        localName:string * 
-        elementNamespace:XNamespace byref -> XElement 
+  static member GetManifestElement :
+        manifest:XElement *
+        localName:string *
+        elementNamespace:XNamespace byref -> XElement
 ```
 
 ```jscript
   public static function GetManifestElement(
-    manifest : XElement, 
-    localName : String, 
+    manifest : XElement,
+    localName : String,
     elementNamespace : XNamespace
 ) : XElement
 ```

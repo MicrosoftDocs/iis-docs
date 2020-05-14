@@ -66,11 +66,11 @@ virtual String^ GetJobManifest(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetJobManifest : 
-        jobDetails:JobDetails -> string 
+abstract GetJobManifest :
+        jobDetails:JobDetails -> string
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetJobManifest : 
-        jobDetails:JobDetails -> string 
+override GetJobManifest :
+        jobDetails:JobDetails -> string
 ```
 
 ```jscript

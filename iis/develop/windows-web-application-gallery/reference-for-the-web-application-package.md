@@ -140,7 +140,7 @@ There are several types of parameter validation that are available. If none of t
 
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample5.xml)]
 
-- **Boolean**- Boolean parameters are simple True / False questions. Depending on the UI, the user might be presented with a check box or two option buttons to select their choice. Booleans replace values in the same way as other parameters. For Booleans, the replacement value is either "True" or "False". If you need to have Boolean values other than "True" or "False", use an enumeration with only two values. The syntax for Booleans is: 
+- **Boolean**- Boolean parameters are simple True / False questions. Depending on the UI, the user might be presented with a check box or two option buttons to select their choice. Booleans replace values in the same way as other parameters. For Booleans, the replacement value is either "True" or "False". If you need to have Boolean values other than "True" or "False", use an enumeration with only two values. The syntax for Booleans is:
 
     [!code-xml[Main](reference-for-the-web-application-package/samples/sample6.xml)]
 

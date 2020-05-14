@@ -41,7 +41,7 @@ For more information about failed request tracing, see the [Failed Request Traci
 
 #### Log File Location
 
-To configure the W3SVC log file location by using the command line, use the following **:** 
+To configure the W3SVC log file location by using the command line, use the following **:**
 
 - Open a command prompt and run the following:
 
@@ -57,7 +57,7 @@ IIS Manager allows those who host or administer websites to delegate administrat
 
 ### Procedure
 
-To enable a delegated user for a website using IIS  Manager, use the following steps **:** 
+To enable a delegated user for a website using IIS  Manager, use the following steps **:**
 
 1. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.
 2. Expand the server name node.

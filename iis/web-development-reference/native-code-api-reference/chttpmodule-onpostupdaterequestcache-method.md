@@ -50,5 +50,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostUpdateRequestCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)
  [CHttpModule::OnUpdateRequestCache Method](../../web-development-reference/native-code-api-reference/chttpmodule-onupdaterequestcache-method.md)

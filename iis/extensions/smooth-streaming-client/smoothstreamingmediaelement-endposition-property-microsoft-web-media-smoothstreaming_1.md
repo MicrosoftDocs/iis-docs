@@ -88,7 +88,7 @@ For more information, see [Events](events.md).
 
 The following example shows a delegate that calculates a new position value from the slider input and the EndPosition property. It reassigns the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property so that the media stream will resume playing at a new position.
 
-``` 
+```
     private void SeekBar_ValueChanged(object sender,
                              RoutedPropertyChangedEventArgs<double> e)
     {

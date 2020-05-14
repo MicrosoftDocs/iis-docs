@@ -61,16 +61,16 @@ string[] GetPrimaryKey(
 
 ```cpp
 array<String^>^ GetPrimaryKey(
-    String^ connectionString, 
-    String^ tableName, 
+    String^ connectionString,
+    String^ tableName,
     String^ schema
 )
 ```
 
 ```jscript
 function GetPrimaryKey(
-    connectionString : String, 
-    tableName : String, 
+    connectionString : String,
+    tableName : String,
     schema : String
 ) : String[]
 ```

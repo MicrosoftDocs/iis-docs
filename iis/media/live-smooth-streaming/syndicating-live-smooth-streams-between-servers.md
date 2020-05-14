@@ -67,7 +67,7 @@ To help secure the publishing point on the upstream server, do the following:
 
 ### Create a user account for syndication
 
-Create a user account for use by authorized servers by doing the following (skip to [Disable anonymous access](syndicating-live-smooth-streams-between-servers.md#disable) if using an existing account): 
+Create a user account for use by authorized servers by doing the following (skip to [Disable anonymous access](syndicating-live-smooth-streams-between-servers.md#disable) if using an existing account):
 
 1. Open **Server Manager** (click **Start** &gt; **Administrative Tools** &gt; **Server Manager**).
 2. In the contents pane, navigate to the **Users** folder (**Configuration** &gt; **Local Users and Groups** &gt; **Users**).

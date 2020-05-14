@@ -60,16 +60,16 @@ Tracing.TraceFunctionExit(className, _
 ```cpp
   public:
 static void TraceFunctionExit(
-    String^ className, 
-    String^ methodName, 
+    String^ className,
+    String^ methodName,
     TraceArea traceArea
 )
 ```
 
 ```jscript
   public static function TraceFunctionExit(
-    className : String, 
-    methodName : String, 
+    className : String,
+    methodName : String,
     traceArea : TraceArea
 )
 ```

@@ -27,7 +27,7 @@ To use the template follow these steps:
     [![](request-blocking-rule-template/_static/image6.png)](request-blocking-rule-template/_static/image5.png)
 5. In the "Add Rules" dialog select "Request Blocking" and click "OK":  
     [![](request-blocking-rule-template/_static/image9.png)](request-blocking-rule-template/_static/image8.png)
-6. In the "Add request blocking rule" dialog choose to: 
+6. In the "Add request blocking rule" dialog choose to:
 
    - Block access based on host header;
    - Block requests that do not match the pattern;

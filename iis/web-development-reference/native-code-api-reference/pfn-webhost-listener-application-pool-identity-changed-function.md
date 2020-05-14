@@ -46,5 +46,5 @@ typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(
 |Header|Listeneradapter.h, Windows.h for `PSID`|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
+ [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

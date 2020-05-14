@@ -20,7 +20,7 @@ Earlier versions of Web Deploy only supported replacing attribute values which a
 
 Below are some examples which demonstrate how to get the values from other places.
 
-Get values from the remote server: 
+Get values from the remote server:
 
 [!code-xml[Main](parameterization-improvements-in-web-deploy-v3/samples/sample2.xml)]
 

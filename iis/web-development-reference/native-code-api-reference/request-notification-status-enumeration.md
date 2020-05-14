@@ -43,5 +43,5 @@ typedef enum REQUEST_NOTIFICATION_STATUS{
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Enumerations](../../web-development-reference/native-code-api-reference/web-server-core-enumerations.md)   
+ [Web Server Core Enumerations](../../web-development-reference/native-code-api-reference/web-server-core-enumerations.md)
  [GLOBAL_NOTIFICATION_STATUS Enumeration](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md)

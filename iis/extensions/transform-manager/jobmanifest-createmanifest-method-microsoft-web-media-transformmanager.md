@@ -78,35 +78,35 @@ returnValue = JobManifest.CreateManifest(jobDefinition, _
 ```cpp
   public:
 static JobManifest^ CreateManifest(
-    JobDefinition^ jobDefinition, 
-    String^ workQueueRoot, 
-    SchedulerInfo^ schedulerInfo, 
-    XElement^ template, 
-    ICollection<XElement^>^ sharedProperties, 
-    String^ inputFileName, 
+    JobDefinition^ jobDefinition,
+    String^ workQueueRoot,
+    SchedulerInfo^ schedulerInfo,
+    XElement^ template,
+    ICollection<XElement^>^ sharedProperties,
+    String^ inputFileName,
     String^ instanceId
 )
 ```
 
 ``` fsharp
-  static member CreateManifest : 
-        jobDefinition:JobDefinition * 
-        workQueueRoot:string * 
-        schedulerInfo:SchedulerInfo * 
-        template:XElement * 
-        sharedProperties:ICollection<XElement> * 
-        inputFileName:string * 
-        instanceId:string -> JobManifest 
+  static member CreateManifest :
+        jobDefinition:JobDefinition *
+        workQueueRoot:string *
+        schedulerInfo:SchedulerInfo *
+        template:XElement *
+        sharedProperties:ICollection<XElement> *
+        inputFileName:string *
+        instanceId:string -> JobManifest
 ```
 
 ```jscript
   public static function CreateManifest(
-    jobDefinition : JobDefinition, 
-    workQueueRoot : String, 
-    schedulerInfo : SchedulerInfo, 
-    template : XElement, 
-    sharedProperties : ICollection<XElement>, 
-    inputFileName : String, 
+    jobDefinition : JobDefinition,
+    workQueueRoot : String,
+    schedulerInfo : SchedulerInfo,
+    template : XElement,
+    sharedProperties : ICollection<XElement>,
+    inputFileName : String,
     instanceId : String
 ) : JobManifest
 ```

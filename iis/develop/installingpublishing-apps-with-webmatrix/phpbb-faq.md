@@ -29,7 +29,7 @@ A: To install phpBB, use the following steps:
 
 A: To publish a phpBB website, use the following steps:
 
-1. Prior to publishing the application, you should remove the install directory or only the application's administrative console will be available: 
+1. Prior to publishing the application, you should remove the install directory or only the application's administrative console will be available:
 
     1. Go to the **Files** workspace.
     2. In the navigation pane, select the directory called *install* and press the delete key.

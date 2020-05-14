@@ -55,7 +55,7 @@ returnValue = instance.GetScheduler()
 ```
 
 ``` fsharp
-  abstract GetScheduler : unit -> Scheduler 
+  abstract GetScheduler : unit -> Scheduler
 ```
 
 ```jscript

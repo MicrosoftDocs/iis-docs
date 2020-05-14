@@ -65,7 +65,7 @@ With Nano Server, setup can be provisioned offline, therefore dramatically simpl
 When using New-NanoServerImage to create a vhd(x) with Microsoft-NanoServer-IIS-Package we configure a default working install of IIS
 
 - IIS Services installed (e.g. WAS, W3SVC)
-- A default set of IIS sub-features enabled, such as Default Document, Static content, HTTP logging etc. 
+- A default set of IIS sub-features enabled, such as Default Document, Static content, HTTP logging etc.
 
   - Refer to [chart](https://technet.microsoft.com/library/mt627783.aspx) for which sub-features are enabled by default.
 - Firewall rule enabled for default 80/443 ports

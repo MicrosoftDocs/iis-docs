@@ -35,5 +35,5 @@ virtual HRESULT __stdcall EnumerateAppDomains(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)   
+ [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)
  [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)

@@ -73,30 +73,30 @@ Collection<JobDetails> GetJobDetails(
 ```cpp
 [OperationContractAttribute]
 Collection<JobDetails^>^ GetJobDetails(
-    JobStatus status, 
-    JobDetailsField sortField, 
-    bool ascending, 
-    int startIndex, 
+    JobStatus status,
+    JobDetailsField sortField,
+    bool ascending,
+    int startIndex,
     int count
 )
 ```
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobDetails : 
-        status:JobStatus * 
-        sortField:JobDetailsField * 
-        ascending:bool * 
-        startIndex:int * 
-        count:int -> Collection<JobDetails> 
+abstract GetJobDetails :
+        status:JobStatus *
+        sortField:JobDetailsField *
+        ascending:bool *
+        startIndex:int *
+        count:int -> Collection<JobDetails>
 ```
 
 ```jscript
   function GetJobDetails(
-    status : JobStatus, 
-    sortField : JobDetailsField, 
-    ascending : boolean, 
-    startIndex : int, 
+    status : JobStatus,
+    sortField : JobDetailsField,
+    ascending : boolean,
+    startIndex : int,
     count : int
 ) : Collection<JobDetails>
 ```

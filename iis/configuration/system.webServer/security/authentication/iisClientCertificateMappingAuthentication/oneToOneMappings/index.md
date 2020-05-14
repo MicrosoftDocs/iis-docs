@@ -70,7 +70,7 @@ The `<iisClientCertificateMappingAuthentication>` element is not available on th
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **IIS Client Certificate Mapping Authentication**, and then click **OK**.  
     [![](index/_static/image8.png)](index/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 
@@ -104,16 +104,16 @@ The following configuration sample enables IIS Client Certificate Mapping authen
 1. Click **Start**, then **Run**.
 2. Enter MMC, and then click **OK**.
 3. When the Microsoft Management Console opens, click **File**, then **Add/Remove Snap-ins**.
-4. In the **Add or Remove Snap-ins** dialog box: 
+4. In the **Add or Remove Snap-ins** dialog box:
 
     - Highlight **Certificates** in the list of available snap-ins, then click **Add**.
     - Choose to manage certificates for **My user account**, then click **Finish**.
     - Click **OK** to close the dialog box.
-5. In the Microsoft Management Console: 
+5. In the Microsoft Management Console:
 
     - Expand **Certificates - Current User**, then **Personal**, then **Certificates**.
     - In the list of certificates, right-click the certificate that you want to export, then click **All Tasks**, and then click **Export**.
-6. When the **Certificate Export Wizard** opens: 
+6. When the **Certificate Export Wizard** opens:
 
     - Click **Next**.
     - Choose **No, do not export the private key**, then click **Next**.
@@ -121,12 +121,12 @@ The following configuration sample enables IIS Client Certificate Mapping authen
     - Choose to save the certificate to your desktop as **MyCertificate.cer**, then click **Next**.
     - Click **Finish**; you should see a dialog box that says the export was successful.
 7. Close the Microsoft Management Console.
-8. Open the **MyCertificate.cer** file that you exported using Windows Notepad: 
+8. Open the **MyCertificate.cer** file that you exported using Windows Notepad:
 
     - Remove "-----BEGIN CERTIFICATE-----" from the start of the text.
     - Remove "-----END CERTIFICATE-----" from the end of the text.
     - Concatenate all the lines into a single line of text - this is the Base-64 encoded certificate data that you will use for all of the samples in this topic.
- 
+
 <a id="006"></a>
 ## Sample Code
 

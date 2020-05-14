@@ -22,10 +22,10 @@ You can run an operation on all of the servers in the farm, or you can perform a
 
 1. In **IIS Manager**, do one of the following:
 
-    - To perform operations on all servers in the farm, select the name of the server farm in the **Connections** pane, and then in the **Actions** pane, click **Server Farm Operations**.   
+    - To perform operations on all servers in the farm, select the name of the server farm in the **Connections** pane, and then in the **Actions** pane, click **Server Farm Operations**.
   
         [![](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image3.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image1.png)
-    - To perform server operations on a specific server, select the server in the **Server** pane, and then in the **Actions** pane, click **Server Operations**.   
+    - To perform server operations on a specific server, select the server in the **Server** pane, and then in the **Actions** pane, click **Server Operations**.
   
         [![](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image7.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image5.png)
 2. In the **Server Operations** dialog box, select the category of operation you want, and then select the operation to execute.

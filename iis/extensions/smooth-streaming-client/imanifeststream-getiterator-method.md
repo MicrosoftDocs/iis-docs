@@ -29,14 +29,14 @@ long time
 
 ```cpp
 IChunkIter^ GetIterator(
-[InAttribute] long long minTime, 
+[InAttribute] long long minTime,
 [InAttribute] long long time
 )
 ```
 
 ```jscript
 function GetIterator(
-minTime : long, 
+minTime : long,
 time : long
 ) : IChunkIter
 ```

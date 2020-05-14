@@ -97,7 +97,7 @@ The data to be merged during the [ManifestMerge](smoothstreamingmediaelement-man
 
   <StreamIndex Type="text" Name="ClosedCaptions" Subtype="CAPT" TimeScale="10000000"
                 ParentStreamIndex="video" ManifestOutput="TRUE" QualityLevels="1"
-                Chunks="18" Url="QualityLevels({bitrate}, 
+                Chunks="18" Url="QualityLevels({bitrate},
                 {CustomAttributes})/Fragments (ClosedCaptions={start time})">
 
     <QualityLevel Index="0" Bitrate="1000" CodecPrivateData="" FourCC="" />
@@ -195,7 +195,7 @@ The merged manifest data is shown in the following XML example. This data must b
     <QualityLevel Index="0" Bitrate="1000" CodecPrivateData="" FourCC=""/>
   
     <c n="0" t="40870000">
-      <f>Q2hhcHRlciAx</f> 
+      <f>Q2hhcHRlciAx</f>
     </c>
     <c n="1" t="192690000">
       <f>Q2hhcHRlciAy</f>
@@ -351,7 +351,7 @@ void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
                       (uie as FrameworkElement).Tag == "Caption").
                       FirstOrDefault() as UIElement);
 
-                // Add a TextBlock 
+                // Add a TextBlock
                 LayoutRoot.Children.Add(new TextBlock()
                 {
                     Name = xElem.Attribute("Id").Value,

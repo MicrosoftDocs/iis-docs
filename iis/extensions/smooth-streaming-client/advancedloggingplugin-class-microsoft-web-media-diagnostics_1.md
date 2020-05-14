@@ -105,7 +105,7 @@ For more information about advanced logging, see [Advanced Logging](advanced-log
 
 The following example shows initialization of the advanced logging plugin.
 
-``` 
+```
     void MainPage_Loaded(object sender, RoutedEventArgs e)
     {
         // Initialize IIS Advanced Logging.

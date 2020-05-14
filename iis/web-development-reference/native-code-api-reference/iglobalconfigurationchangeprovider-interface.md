@@ -41,7 +41,7 @@ class IGlobalConfigurationChangeProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
- [CGlobalModule::OnGlobalConfigurationChange Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md)   
- [IHttpEventProvider Interface](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
+ [CGlobalModule::OnGlobalConfigurationChange Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md)
+ [IHttpEventProvider Interface](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)
  [PFN_REGISTERMODULE Function](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md)

@@ -62,11 +62,11 @@ class SystemDiagnosticsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AssertSettings Class](../wmi-provider/assertsettings-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [ListenerSettings Class](../wmi-provider/listenersettings-class.md)   
- [PerformanceCounterSettings Class](../wmi-provider/performancecountersettings-class.md)   
- [SourceSettings Class](../wmi-provider/sourcesettings-class.md)   
- [SwitchSettings Class](../wmi-provider/switchsettings-class.md)   
- [TraceSettings Class](../wmi-provider/tracesettings-class.md)   
+ [AssertSettings Class](../wmi-provider/assertsettings-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [ListenerSettings Class](../wmi-provider/listenersettings-class.md)
+ [PerformanceCounterSettings Class](../wmi-provider/performancecountersettings-class.md)
+ [SourceSettings Class](../wmi-provider/sourcesettings-class.md)
+ [SwitchSettings Class](../wmi-provider/switchsettings-class.md)
+ [TraceSettings Class](../wmi-provider/tracesettings-class.md)
  [System.Diagnostics.Debug.Assert Method](https://go.microsoft.com/fwlink/?LinkId=70960)

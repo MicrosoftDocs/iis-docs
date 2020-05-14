@@ -43,7 +43,7 @@ class FastCgiEnvironmentSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [FastCgiApplicationElement Class](../wmi-provider/fastcgiapplicationelement-class.md)   
- [FastCgiEnvironmentElement Class](../wmi-provider/fastcgienvironmentelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [FastCgiApplicationElement Class](../wmi-provider/fastcgiapplicationelement-class.md)
+ [FastCgiEnvironmentElement Class](../wmi-provider/fastcgienvironmentelement-class.md)
  [FastCgiSection Class](../wmi-provider/fastcgisection-class.md)

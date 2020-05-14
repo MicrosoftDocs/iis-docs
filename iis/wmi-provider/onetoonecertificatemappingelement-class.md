@@ -46,11 +46,11 @@ class OneToOneCertificateMappingElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AccessSection Class](../wmi-provider/accesssection-class.md)   
- [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
- [ManyToOneCertificateMappingElement Class](../wmi-provider/manytoonecertificatemappingelement-class.md)   
- [ManyToOneCertificateMappingRuleElement Class](../wmi-provider/manytoonecertificatemappingruleelement-class.md)   
- [OneToOneSettings Class](../wmi-provider/onetoonesettings-class.md)   
+ [AccessSection Class](../wmi-provider/accesssection-class.md)
+ [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)
+ [ManyToOneCertificateMappingElement Class](../wmi-provider/manytoonecertificatemappingelement-class.md)
+ [ManyToOneCertificateMappingRuleElement Class](../wmi-provider/manytoonecertificatemappingruleelement-class.md)
+ [OneToOneSettings Class](../wmi-provider/onetoonesettings-class.md)
  [SSLBinding Class](../wmi-provider/sslbinding-class.md)

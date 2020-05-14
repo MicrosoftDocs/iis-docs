@@ -17,9 +17,9 @@ In addition to the following content, the tutorial in [How to Build a Smooth Str
 ## In This Section
 
   - [Walkthrough: Building Your First HTML5 Smooth Streaming Player](walkthrough-building-your-first-html5-smooth-streaming-player.md)
-    
+
     This walkthrough shows how to use the Microsoft Smooth Streaming Client SDK to build a basic HTML5 Smooth Streaming player application. The application uses an HTML5 \<Video\> tag to handle media streaming.
 
   - [Player Application Programming Interfaces for Windows 8](player-application-programming-interfaces-for-windows-8.md)
-    
+
     This reference section describes the APIs that you can use when building a Smooth Streaming Windows Store application.

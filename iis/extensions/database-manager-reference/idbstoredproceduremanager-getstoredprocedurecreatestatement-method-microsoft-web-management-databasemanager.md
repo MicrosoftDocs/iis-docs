@@ -122,8 +122,8 @@ The following code sample shows how to use the GetStoredProcedureCreateStatement
         {
             Query query = new Query();
             query.Statement =
-@"CREATE PROCEDURE ProcedureName 
-    <@p1 int> = 0, 
+@"CREATE PROCEDURE ProcedureName
+    <@p1 int> = 0,
     <@p2 int> = 0
 AS
 BEGIN

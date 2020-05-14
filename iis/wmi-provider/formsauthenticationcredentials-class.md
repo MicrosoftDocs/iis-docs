@@ -53,9 +53,9 @@ class FormsAuthenticationCredentials : EmbeddedObject
   
 ## See Also  
  [System.Web.Configuration.FormsAuthPasswordFormat](/dotnet/api/system.web.configuration.formsauthpasswordformat)
- [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
- [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [FormsAuthenticationConfiguration Class](../wmi-provider/formsauthenticationconfiguration-class.md)   
- [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
+ [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)
+ [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [FormsAuthenticationConfiguration Class](../wmi-provider/formsauthenticationconfiguration-class.md)
+ [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)
  [PassportAuthentication Class](../wmi-provider/passportauthentication-class.md)

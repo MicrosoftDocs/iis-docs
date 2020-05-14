@@ -82,14 +82,14 @@ For Each vProp In oSection.Properties_
 Next  
   
 ' Display the contents of the SectionInformation property.  
-WScript.Echo   
+WScript.Echo
 WScript.Echo "--------------------------------------"  
 WScript.Echo "HttpRedirectSection.SectionInformation"  
 WScript.Echo "--------------------------------------"  
 For Each vProp In oSection.SectionInformation.Properties_  
     WScript.Echo vProp.Name & ": " & vProp.Value  
 Next  
-WScript.Echo   
+WScript.Echo
   
 ' Display the WildcardRedirectElement instances in the  
 ' HttpRedirect array property.  
@@ -131,7 +131,7 @@ For Counter = 1 To 4
     ' Prepare to catch duplicate entries.  
     On Error Resume Next  
   
-    ' Attempt to add the wildcard entry to the collection.   
+    ' Attempt to add the wildcard entry to the collection.
     ' (You do not need to use Put_ to save the change.)  
     oSection.Add "HttpRedirect", oWildcardRedirect  
   
@@ -152,7 +152,7 @@ WScript.Echo "HttpRedirectSection.HttpRedirect"
 WScript.Echo "--------------------------------"  
 WScript.Echo "The number of redirect entries is now " & _  
     UBound(oSection.HttpRedirect) + 1 & "."  
-WScript.Echo   
+WScript.Echo
   
 ' Display the new set of wildcard redirect elements.  
 For Each oWildcardRedirectElement In oSection.HttpRedirect  
@@ -182,6 +182,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [SectionInformation Class](../wmi-provider/sectioninformation-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [SectionInformation Class](../wmi-provider/sectioninformation-class.md)
  [WildcardRedirectElement Class](../wmi-provider/wildcardredirectelement-class.md)

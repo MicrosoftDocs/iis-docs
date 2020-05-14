@@ -200,7 +200,7 @@ The following code snippet is an example of the two templates that were used for
 
 - TemplateType is just a string identifier.
 - Each TemplateType can be separated into live and VOD variants.
-- Each Item identifies an ad. 
+- Each Item identifies an ad.
 
     - Duration is the estimated duration (in ticks).
     - KeyValuePairs can be used to add any number of additional tags that are added to the DART call (trafficking).

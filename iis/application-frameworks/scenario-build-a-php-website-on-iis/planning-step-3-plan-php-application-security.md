@@ -26,7 +26,7 @@ This section describes the configuration settings that help to protect your PHP 
 
 ### Disable File Handling for Remote URLs
 
-`allow_url_fopen = Off`   
+`allow_url_fopen = Off`
 `allow_url_include = Off`
 
 This setting is very important because it prevents URLs from being used in statements such as include(). Setting **allow\_url\_fopen** to &quot;Off&quot; means that only files that reside within your website can be included. You can't include a file from a different server, but neither can other people through Remote File Inclusion (RFI) attacks. In an RFI attack, someone embeds a URL in an HTTP request hoping that your script is tricked into running theirs. A command such as `include("http://website.com/page.php")`, for example, is not allowed to execute.
@@ -51,31 +51,31 @@ This setting restricts PHP scripts from accessing files outside the specified ba
 
 ### Disable Safe Mode
 
-`safe_mode = Off`   
+`safe_mode = Off`
 `safe_mode_gid = Off`
 
 This setting restricts the permissions with which PHP scripts run. Some third-party scripts do not run properly when safe\_mode is set to &quot;On.&quot; Note that beginning with PHP 6 safe\_mode does not exist.
 
 ### Limit Script Execution Time
 
-`max_execution_time = 30`   
+`max_execution_time = 30`
 `max_input_time = 60`
 
 These settings control the number of seconds a script is allowed to run and parse user input. These settings help prevent poorly written scripts from typing up the server.
 
 ### Limit Memory Usage and File Size
 
-`memory_limit = 16M`   
-`upload_max_filesize = 2M`   
-`post_max_size = 8M`   
+`memory_limit = 16M`
+`upload_max_filesize = 2M`
+`post_max_size = 8M`
 `max_input_nesting_levels = 64`
 
 These settings help manage memory and input/output efficiently. In addition, they prevent poorly written scripts from hogging memory and handling huge files.
 
 ### Configure Error Logging
 
-`display_errors = Off`   
-`display_startup_errors = Off` `log_errors = On`   
+`display_errors = Off`
+`display_startup_errors = Off` `log_errors = On`
 `error_log = "C:\path\of\your\choice"`
 
 These settings specify that all errors and warnings get logged to your error log text file and specify that none of the errors or warnings get displayed on any web page that is sent out from your server. Errors should not be displayed publicly because they can help someone figure out how to attack your server. Always check your error log when you are testing new code.

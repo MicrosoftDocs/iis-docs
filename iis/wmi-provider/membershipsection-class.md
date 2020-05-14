@@ -60,7 +60,7 @@ class MembershipSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Security.Membership](/dotnet/api/system.web.security.membership) 
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   
+ [System.Web.Security.Membership](/dotnet/api/system.web.security.membership)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)
  [Mapping Algorithm Names to Cryptography Classes](https://go.microsoft.com/fwlink/?LinkId=70954)

@@ -23,7 +23,7 @@ We recommend having two separate machines both running Windows Server 2008 R2:
 
 While it is possible to run both the web server and database server on the same machine, it is not recommended for performance and security reasons.
 
-You will need both machines connected to the Internet to download required server components. 
+You will need both machines connected to the Internet to download required server components.
 
 To simplify the installation of the **web server** components, we highly recommend installing **Web Platform Installer**, also known as **WebPI**, on both machines. WebPI is a tool that automates the installation of a vast majority of server components and other products for Microsoft's Web Platform.
 
@@ -68,7 +68,7 @@ Here is the full list of which components are installed by those links, so you c
 - [Required] [.NET Framework 4.0](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=NETFramework40)
 
     - [Some applications](https://www.microsoft.com/web/gallery/) depend on this framework
-- [Optional] [PHP](http://windows.php.net/download/ "PHP for Windows") (5.3.2 or higher) 
+- [Optional] [PHP](http://windows.php.net/download/ "PHP for Windows") (5.3.2 or higher)
 
     - This is not required for Spotlight, but many applications that can be published by WebMatrix depend on this framework
 

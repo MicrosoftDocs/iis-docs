@@ -60,7 +60,7 @@ class FastCgiApplicationElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [FastCgiSection Class](../wmi-provider/fastcgisection-class.md)   
- [FastCgiEnvironmentSettings Class](../wmi-provider/fastcgienvironmentsettings-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [FastCgiSection Class](../wmi-provider/fastcgisection-class.md)
+ [FastCgiEnvironmentSettings Class](../wmi-provider/fastcgienvironmentsettings-class.md)
  [FastCgiEnvironmentElement Class](../wmi-provider/fastcgienvironmentelement-class.md)

@@ -64,23 +64,23 @@ IAsyncResult BeginRetrieve(
 
 ```cpp
 IAsyncResult^ BeginRetrieve(
-    CacheRequest^ request, 
-    AsyncCallback^ callback, 
+    CacheRequest^ request,
+    AsyncCallback^ callback,
     Object^ state
 )
 ```
 
 ``` fsharp
-abstract BeginRetrieve : 
-        request:CacheRequest * 
-        callback:AsyncCallback * 
-        state:Object -> IAsyncResult 
+abstract BeginRetrieve :
+        request:CacheRequest *
+        callback:AsyncCallback *
+        state:Object -> IAsyncResult
 ```
 
 ```jscript
 function BeginRetrieve(
-    request : CacheRequest, 
-    callback : AsyncCallback, 
+    request : CacheRequest,
+    callback : AsyncCallback,
     state : Object
 ) : IAsyncResult
 ```
@@ -112,15 +112,15 @@ An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\)) object
 
 The following code shows an implementation of the BeginRetrieve(CacheRequest, AsyncCallback, Object) method.
 
-``` 
+```
     public IAsyncResult BeginRetrieve(CacheRequest request, AsyncCallback callback, object state)
     {
         CacheResponse response = null;
         CacheAsyncResult ar = new CacheAsyncResult();
         ar.strUrl = request.CanonicalUri.ToString();
         ar.Complete(response, true);
-        return ar; 
-    }        
+        return ar;
+    }
 ```
 
 ## Version Information

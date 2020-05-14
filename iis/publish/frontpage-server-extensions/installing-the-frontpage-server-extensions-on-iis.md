@@ -11,7 +11,7 @@ Installing the FrontPage Server Extensions on IIS 7
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
-<a id="00"></a>As of December 18, 2010, Microsoft FrontPage Server Extensions (FPSE) 2002 for Windows Vista and Windows Server 2008 RTM is supported by Ready-to-Run Software. For support and servicing, contact [Ready-to-Run Software, Inc](https://go.microsoft.com/fwlink/?LinkId=207112). 
+<a id="00"></a>As of December 18, 2010, Microsoft FrontPage Server Extensions (FPSE) 2002 for Windows Vista and Windows Server 2008 RTM is supported by Ready-to-Run Software. For support and servicing, contact [Ready-to-Run Software, Inc](https://go.microsoft.com/fwlink/?LinkId=207112).
 
 ## Introduction
 
@@ -22,11 +22,11 @@ Windows Vista, Windows 7, Windows Server 2008 RTM, and Windows Server 2008 R2 do
 
 ### Notes:
 
-- There are two versions of FPSE available for IIS: 
+- There are two versions of FPSE available for IIS:
 
     - Microsoft FrontPage 2002 Server Extensions for IIS 7.0
     - RTR FrontPage 2002 Server Extensions for IIS 7.5
-- The IIS versions of the FrontPage 2002 Server Extensions (FPSE 2002) are supported Ready-to-Run Software, Inc. (RTR) More information about RTR is available at the following URL: 
+- The IIS versions of the FrontPage 2002 Server Extensions (FPSE 2002) are supported Ready-to-Run Software, Inc. (RTR) More information about RTR is available at the following URL:
 
     - [http://www.rtr.com/fpse/](http://www.rtr.com/fpse/)
 - The IIS versions of FPSE 2002 introduce no new functionality; they are essentially the same versions of FPSE 2002 that were created for Windows Server 2003, but they have been updated to work on Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2. By way of additional explanation, FPSE 2002 is part of the Office XP system of products. The Office XP system, including FPSE 2002, left mainstream support on July 11th, 2006, according to the [Office lifecycle policy](https://support.microsoft.com/?pr=lifecycle). Because Microsoft's support policy is to remove software from the Download Center that is no longer supported, FPSE 2002 was removed from the Microsoft Download Center at that time as a separate product. FPSE 2002 continues to be available and supported on Windows Server 2003 through the *Add Windows Components* section of *Add/Remove Programs* in the Windows Control Panel.
@@ -39,10 +39,10 @@ Windows Vista, Windows 7, Windows Server 2008 RTM, and Windows Server 2008 R2 do
 
 Microsoft FrontPage 2002 Server Extensions for IIS 7.0 is only supported on the following platforms:
 
-- **Windows Server 2008**: 
+- **Windows Server 2008**:
 
     - All SKUs
-- **Windows Vista**: 
+- **Windows Vista**:
 
     - Business
     - Enterprise
@@ -51,10 +51,10 @@ Microsoft FrontPage 2002 Server Extensions for IIS 7.0 is only supported on the 
 
 RTR FrontPage 2002 Server Extensions for IIS 7.5 is only supported on the following platforms:
 
-- **Windows Server 2008 R2**: 
+- **Windows Server 2008 R2**:
 
     - All SKUs
-- **Windows 7**: 
+- **Windows 7**:
 
     - Professional
     - Enterprise
@@ -65,47 +65,47 @@ RTR FrontPage 2002 Server Extensions for IIS 7.5 is only supported on the follow
 
 The following role services and features are required to install the FrontPage 2002 Server Extensions (FPSE 2002) on Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2. If they are not already installed on your computer when you install FPSE 2002, they will be installed for you automatically. If you do not want these role services and features installed on your computer, you cannot install FPSE 2002.
 
-- **Web Server (IIS) Role Services**: 
+- **Web Server (IIS) Role Services**:
 
-    - Web Server 
+    - Web Server
 
-        - Common HTTP Features 
+        - Common HTTP Features
 
             - Static Content
             - Default Document
             - Directory Browsing *(See note 1)*
             - HTTP Errors *(See note 1)*
-        - Application Development 
+        - Application Development
 
             - ISAPI Extensions
             - ISAPI Filters
-        - Health and Diagnostics 
+        - Health and Diagnostics
 
             - HTTP Logging *(See note 1)*
             - Request Monitor *(See note 1)*
-        - Security 
+        - Security
 
             - Windows Authentication or Basic Authentication *(See note 2)*
             - Request Filtering
-        - Performance 
+        - Performance
 
             - Static Content Compression *(See note 1)*
-    - Management Tools 
+    - Management Tools
 
         - IIS Management Console *(See note 1)*
-        - IIS 6 Management Compatibility 
+        - IIS 6 Management Compatibility
 
             - IIS 6 Metabase Compatibility
-- **Features**: 
+- **Features**:
 
-    - Windows Process Activation Service 
+    - Windows Process Activation Service
 
         - Process Model
 
 **Notes for the above features**:
 
 1. These role services are required to install the FrontPage Server Extensions, but they are optional once installation has completed. After installation is complete, you can use Server Manager to remove one or more of the optional role services if you do not require the functionality that they provide. However, most of these optional role services are useful for configuring and monitoring your Web server.
-2. The following authentication method is required by the FrontPage Server Extensions depending on your version of Windows: 
+2. The following authentication method is required by the FrontPage Server Extensions depending on your version of Windows:
 
     - Windows Authentication is required for all versions of Windows Server 2008 RTM/R2 and all versions of Windows Vista and Windows 7 *except* Windows Vista Home Premium and Windows 7 Home Premium.
     - Basic Authentication is required for Windows Vista Home Premium and Windows 7 Home Premium.

@@ -45,6 +45,6 @@ virtual DWORD GetSiteId(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext::GetSite Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getsite-method.md)   
- [IHttpSite Interface](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md)   
+ [IHttpContext::GetSite Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getsite-method.md)
+ [IHttpSite Interface](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md)
  [IHttpSite::GetSiteName Method](../../web-development-reference/native-code-api-reference/ihttpsite-getsitename-method.md)

@@ -27,13 +27,13 @@ uint Flags { get; set; }
 ```cpp
 property unsigned int Flags {
 unsigned int get ();
-void set (unsigned int value); 
+void set (unsigned int value);
 }
 ```
 
 ```jscript
 function get Flags () : uint
-function set Flags (value : uint) 
+function set Flags (value : uint)
 ```
 
 ## Property Value

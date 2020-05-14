@@ -56,7 +56,7 @@ class VirtualDirectory : ConfiguredObject
 ' Connect to the WMI WebAdministration namespace.  
 Set oWebAdmin = GetObject("winmgmts:root\WebAdministration")  
 ' Get the root virtual directory for the default Web site.  
-Set oVDir = oWebAdmin.Get(_   
+Set oVDir = oWebAdmin.Get(_
 "VirtualDirectory.SiteName='Default Web Site',ApplicationPath='/',Path='/'")  
   
 ' Set the physical path for the default Web site.  
@@ -80,6 +80,6 @@ oVDir.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
- [Object Class](../wmi-provider/object-class.md)   
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
+ [Object Class](../wmi-provider/object-class.md)
  [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074)

@@ -93,6 +93,6 @@ These are the Code Snippets to perform walkthrough steps 2 and 3. All of this wa
 
 [!code-console[Main](configuring-one-to-one-client-certificate-mappings/samples/sample3.cmd)]
 
-**C# Code:** 
+**C# Code:**
 
 [!code-csharp[Main](configuring-one-to-one-client-certificate-mappings/samples/sample4.cs)]

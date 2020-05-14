@@ -61,20 +61,20 @@ Dim instance As New TaskStatus(manifest, _
 ```cpp
   public:
 TaskStatus(
-    JobManifest^ manifest, 
+    JobManifest^ manifest,
     ILogger^ logger
 )
 ```
 
 ``` fsharp
-  new : 
-        manifest:JobManifest * 
+  new :
+        manifest:JobManifest *
         logger:ILogger -> TaskStatus
 ```
 
 ```jscript
   public function TaskStatus(
-    manifest : JobManifest, 
+    manifest : JobManifest,
     logger : ILogger
 )
 ```

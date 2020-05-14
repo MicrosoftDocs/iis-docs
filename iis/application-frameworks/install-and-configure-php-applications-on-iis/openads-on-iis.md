@@ -37,7 +37,7 @@ Before starting the installation procedure for osCommerce, create a database on 
 
 ## PHP Configuration for OpenAds
 
-OpenAds requires the following PHP configuration settings in the php.ini file. Refer to the PHP configuration settings document for more information. 
+OpenAds requires the following PHP configuration settings in the php.ini file. Refer to the PHP configuration settings document for more information.
 
 - file\_uploads must be turned on
 - register\_long\_arrays must be turned on
@@ -76,7 +76,7 @@ OpenAds 2.0 contains an automatic installer which does most of the work for you.
 
 ## Getting More Information
 
-To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums: 
+To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:
 
 - [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
 

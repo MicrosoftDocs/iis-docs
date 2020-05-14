@@ -47,7 +47,7 @@ For Each AppDomain In AppDomains
     WScript.Echo "AppDomain ID: " + AppDomain.Id  
     WScript.Echo "AppDomain application path: " & _  
         AppDomain.ApplicationPath  
-    WScript.Echo       
+    WScript.Echo
 Next  
   
 WScript.Echo  
@@ -73,7 +73,7 @@ For Each oWorkerProcess In oWorkerProcesses
         WScript.Echo " Application domain physical path: " & _  
             oAppDomain.PhysicalPath  
         WScript.Echo  
-    Next   
+    Next
 Next  
 ```  
   
@@ -102,6 +102,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AppDomain Class](../wmi-provider/appdomain-class.md)   
- [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
+ [AppDomain Class](../wmi-provider/appdomain-class.md)
+ [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)
  [WorkerProcess Class](../wmi-provider/workerprocess-class.md)

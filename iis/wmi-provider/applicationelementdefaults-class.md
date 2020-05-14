@@ -45,6 +45,6 @@ class ApplicationElementDefaults : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Application Class](../wmi-provider/application-class.md)   
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
+ [Application Class](../wmi-provider/application-class.md)
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

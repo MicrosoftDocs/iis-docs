@@ -48,7 +48,7 @@ Set oNewCustomError = oCustomError.SpawnInstance_
 oNewCustomError.StatusCode = 404  
 oNewCustomError.Redirect ="CustomPageNotFoundError.htm"  
   
-' Get the custom errors section for the default Web site.   
+' Get the custom errors section for the default Web site.
 Set oSite = oWebAdmin.Get("Site.Name='Default Web Site'")  
 oSite.GetSection "CustomErrorsSection", oCustomErrorsSection  
   
@@ -72,7 +72,7 @@ oCustomErrorsSection.Add "CustomErrors", oNewCustomError
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [CustomErrorsSection Class](../wmi-provider/customerrorssection-class.md)   
- [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [CustomErrorsSection Class](../wmi-provider/customerrorssection-class.md)
+ [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)
  [HttpErrorsSection Class](../wmi-provider/httperrorssection-class.md)

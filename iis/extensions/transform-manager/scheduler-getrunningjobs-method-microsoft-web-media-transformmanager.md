@@ -56,7 +56,7 @@ virtual ICollection<String^>^ GetRunningJobs() abstract
 ```
 
 ``` fsharp
-  abstract GetRunningJobs : unit -> ICollection<string> 
+  abstract GetRunningJobs : unit -> ICollection<string>
 ```
 
 ```jscript

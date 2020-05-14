@@ -25,9 +25,9 @@ You can migrate from the MySQL database to SQL Server 2008 using the following s
 
 1. Decide how you will map MySQL databases to SQL Server 2008. You have two main options:  
 
-    - Map each MySQL database to a separate SQL Server database.   
+    - Map each MySQL database to a separate SQL Server database.
  For example, you could map the MyDB MySQL database to MyDB SQL Server database.
-    - Map each MySQL database to a single SQL Server database but a separate schema.   
+    - Map each MySQL database to a single SQL Server database but a separate schema.
  For example, you could map the MyDB MySQL database to MySQLDatabases SQL Server database, schema MyDB.
 2. In SQL Server, schemas are not necessarily linked to a specific user or a login, and one server contains multiple databases.
 3. Convert database objects; these are tables, tables constraints, indexes, view, procedures, functions, and triggers.
@@ -44,7 +44,7 @@ You will then need to convert database objects.
 ### Schema Object Names
 
 - In SQL Server 2008, an object name can be up to 128 characters long.
-- Nonquoted identifier names must follow these rules: 
+- Nonquoted identifier names must follow these rules:
 
     - The first character must be alphanumeric, an underscore (\_), an at sign (@), or a number sign (#).
     - Subsequent characters can include alphanumeric characters, an underscore, an at (@) sign, a number sign, or a dollar sign.

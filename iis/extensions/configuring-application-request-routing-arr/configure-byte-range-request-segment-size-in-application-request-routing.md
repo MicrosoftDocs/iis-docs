@@ -61,7 +61,7 @@ By default, the byte-range segment size is 256KB. The administrator may want to 
 5. On the **Cache Configuration** page, locate the **Byte range segment size (KB)**: input field.
 
     ![](configure-byte-range-request-segment-size-in-application-request-routing/_static/image4.jpg)
-6. Change the value, and then click **Apply**. For this walkthrough, you will set the value to 1KB. 
+6. Change the value, and then click **Apply**. For this walkthrough, you will set the value to 1KB.
 
     > [!NOTE]
     > This setting is for walkthrough purposes only. 1KB is too small of a segment size and can lead to fragmentation.

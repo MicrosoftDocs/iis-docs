@@ -53,6 +53,6 @@ class HttpCookiesSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [httpCookies Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67197)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [httpCookies Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67197)
  [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies Property](https://go.microsoft.com/fwlink/?LinkId=67198)

@@ -113,10 +113,10 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
- [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [OdbcLoggingSection Class](../wmi-provider/odbcloggingsection-class.md)   
- [LogSection Class](../wmi-provider/logsection-class.md)   
- [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)   
+ [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)
+ [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [OdbcLoggingSection Class](../wmi-provider/odbcloggingsection-class.md)
+ [LogSection Class](../wmi-provider/logsection-class.md)
+ [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)
  [DontLog Metabase Property (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=73544)

@@ -36,7 +36,7 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-H
 
 [![](hyper-v-guides/_static/image2.jpg)](hyper-v-guides/_static/image1.jpg)
 
-This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") includes the slides that are presented in the video above. 
+This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") includes the slides that are presented in the video above.
 
 The following [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") describes the value proposition for Hyper-V:
 

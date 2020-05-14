@@ -43,5 +43,5 @@ class ScheduleElement : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
  [PeriodicRestartSettings Class](../wmi-provider/periodicrestartsettings-class.md)

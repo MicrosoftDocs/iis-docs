@@ -44,9 +44,9 @@ class ProfileSettings : EmbeddedObject
   
 ## See Also  
  [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings)
- [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator)   
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
- [ProfileElement Class](../wmi-provider/profileelement-class.md)   
- [System.Int32.MaxValue Field](https://go.microsoft.com/fwlink/?LinkId=69329)   
+ [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator)
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)
+ [ProfileElement Class](../wmi-provider/profileelement-class.md)
+ [System.Int32.MaxValue Field](https://go.microsoft.com/fwlink/?LinkId=69329)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

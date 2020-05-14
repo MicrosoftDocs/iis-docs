@@ -64,11 +64,11 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
   
 ## See Also  
  [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent)
- [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)   
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [EventMappingSettings Class](../wmi-provider/eventmappingsettings-class.md)   
- [ProfileSettings Class](../wmi-provider/profilesettings-class.md)   
- [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
- [RuleSettings Class](../wmi-provider/rulesettings-class.md)   
- [ASP.NET Health Monitoring Overview](https://go.microsoft.com/fwlink/?LinkId=69306)   
+ [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [EventMappingSettings Class](../wmi-provider/eventmappingsettings-class.md)
+ [ProfileSettings Class](../wmi-provider/profilesettings-class.md)
+ [ProviderSettings Class](../wmi-provider/providersettings-class.md)
+ [RuleSettings Class](../wmi-provider/rulesettings-class.md)
+ [ASP.NET Health Monitoring Overview](https://go.microsoft.com/fwlink/?LinkId=69306)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

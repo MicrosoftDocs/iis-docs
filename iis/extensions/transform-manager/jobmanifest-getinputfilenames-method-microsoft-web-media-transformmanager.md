@@ -62,8 +62,8 @@ static ICollection<String^>^ GetInputFileNames(
 ```
 
 ``` fsharp
-  static member GetInputFileNames : 
-        smilManifest:XContainer -> ICollection<string> 
+  static member GetInputFileNames :
+        smilManifest:XContainer -> ICollection<string>
 ```
 
 ```jscript

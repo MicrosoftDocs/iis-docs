@@ -13,7 +13,7 @@ by [Chris Sfanos](https://github.com/chrissfanos)
 
 **WebPI Direct Download Links**  
   
- In some cases, it may be helpful to be able to download the Web Platform Installer directly vs using the launcher to get started. Below are the links for the current version (WebPI 5.0) and the previous version (WebPI 4.6)   
+ In some cases, it may be helpful to be able to download the Web Platform Installer directly vs using the launcher to get started. Below are the links for the current version (WebPI 5.0) and the previous version (WebPI 4.6)
   
 **WebPI 5.0**  
   

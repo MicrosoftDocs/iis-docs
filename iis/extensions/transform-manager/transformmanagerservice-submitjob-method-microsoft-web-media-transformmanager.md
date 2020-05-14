@@ -66,29 +66,29 @@ public void SubmitJob(
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void SubmitJob(
-    String^ jobDefinitionId, 
-    String^ instanceFileName, 
+    String^ jobDefinitionId,
+    String^ instanceFileName,
     XElement^ smilManifest
 ) sealed
 ```
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract SubmitJob : 
-        jobDefinitionId:string * 
-        instanceFileName:string * 
-        smilManifest:XElement -> unit 
+abstract SubmitJob :
+        jobDefinitionId:string *
+        instanceFileName:string *
+        smilManifest:XElement -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override SubmitJob : 
-        jobDefinitionId:string * 
-        instanceFileName:string * 
-        smilManifest:XElement -> unit 
+override SubmitJob :
+        jobDefinitionId:string *
+        instanceFileName:string *
+        smilManifest:XElement -> unit
 ```
 
 ```jscript
   public final function SubmitJob(
-    jobDefinitionId : String, 
-    instanceFileName : String, 
+    jobDefinitionId : String,
+    instanceFileName : String,
     smilManifest : XElement
 )
 ```

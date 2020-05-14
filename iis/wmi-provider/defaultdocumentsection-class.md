@@ -59,9 +59,9 @@ oSite.GetSection "DefaultDocumentSection", oDefaultDocumentSection
   
 ' List the path and show whether the default document section is enabled.  
 WScript.Echo "Path: " & oDefaultDocumentSection.Path  
-WScript.Echo   
+WScript.Echo
 WScript.Echo "Default Document Section Enabled: " & oDefaultDocumentSection.Enabled  
-WScript.Echo   
+WScript.Echo
   
 ' List the default document file names.  
 WScript.Echo "[Default Document File List]"  
@@ -88,6 +88,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [FileSettings Class](../wmi-provider/filesettings-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [FileSettings Class](../wmi-provider/filesettings-class.md)
  [Site Class](../wmi-provider/site-class.md)

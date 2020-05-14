@@ -21,7 +21,7 @@ When a custom field has been added to the standard set, "\_x" will be appended t
 To configure a custom field, specify the field name, the source name, and the source type. You can put custom information into a server variable, and log the server variable. Once you have selected the source type, you can either select an existing source name or enter a new source name.
 
 Custom fields enable you to collect useful data about the process and aggregate it to the IIS logs. In a system containing a load balancer, you might see the load balancer's IP address in the log, but you could log the X-Forwarded-For header in a custom field, so you can know the original requester. You could log process uptime to see how many times the process restarted during the day. If memory starts being used excessively, you can determine at which time it started to consume memory, which page was requested, and what was the ID of the client (which would be especially useful if they were doing something malicious).
- 
+
 <a id="002"></a>
 ## Compatibility
 
@@ -44,12 +44,12 @@ The `<add>` element is included in the default installation of IIS 8.5 and later
 
 ### How to add custom fields
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8.1: 
+    - If you are using Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -67,12 +67,12 @@ The `<add>` element is included in the default installation of IIS 8.5 and later
 
 ### How to configure the maximum custom field length
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8.1: 
+    - If you are using Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

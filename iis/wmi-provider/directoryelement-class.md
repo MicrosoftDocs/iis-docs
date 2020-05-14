@@ -43,5 +43,5 @@ class DirectoryElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [DirectorySettings Class](../wmi-provider/directorysettings-class.md)

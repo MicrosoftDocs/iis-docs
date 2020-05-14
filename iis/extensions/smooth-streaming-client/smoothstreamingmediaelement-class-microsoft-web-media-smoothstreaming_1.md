@@ -63,7 +63,7 @@ Dim instance As SmoothStreamingMediaElement
 [TemplatePartAttribute(Name = "RootElement", Type = typeof(Panel))]
 [TemplateVisualStateAttribute(Name = "Normal", GroupName = "PlaybackModes")]
 [TemplateVisualStateAttribute(Name = "ClipPlayback", GroupName = "PlaybackModes")]
-public class SmoothStreamingMediaElement : Control, 
+public class SmoothStreamingMediaElement : Control,
     IDisposable
 ```
 
@@ -72,7 +72,7 @@ public class SmoothStreamingMediaElement : Control,
 [TemplatePartAttribute(Name = L"RootElement", Type = typeof(Panel))]
 [TemplateVisualStateAttribute(Name = L"Normal", GroupName = L"PlaybackModes")]
 [TemplateVisualStateAttribute(Name = L"ClipPlayback", GroupName = L"PlaybackModes")]
-public ref class SmoothStreamingMediaElement : public Control, 
+public ref class SmoothStreamingMediaElement : public Control,
     IDisposable
 ```
 

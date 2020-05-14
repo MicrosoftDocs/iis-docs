@@ -38,7 +38,7 @@ To support denying access through authentication on your FTP server, you must in
 
 1. Press the **Windows logo key**, and then click **Server Manager**.
 2. In **Server Manager**, click **Manage** and then click **Add Roles and Features**.
-3. In the **Add Roles and Features** wizard: 
+3. In the **Add Roles and Features** wizard:
 
     - On the **Before You Begin** page, click **Next**.
     - On the **Installation Type** page, select the installation type, and then click **Next**.
@@ -62,12 +62,12 @@ To support denying access through authentication on your FTP server, you must in
 
 ### How to deny access to the FTP server based upon the logon failure rate
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or later: 
+    - If you are using Windows Server 2012 or later:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or later: 
+    - If you are using Windows 8 or later:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.

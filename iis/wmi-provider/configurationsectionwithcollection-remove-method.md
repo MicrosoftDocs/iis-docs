@@ -53,12 +53,12 @@ Call DisplayHandlerNames
 For Each oHandler In oHandlersSection.Handlers  
      If oHandler.Name = "CGI-exe" Then  
         oHandlersSection.Remove "Handlers", oHandler  
-    End If   
+    End If
 Next  
   
 ' Refresh the oHandlersSection object so that its contents will  
 ' reflect the updated configuration.  
-oHandlersSection.Refresh_      
+oHandlersSection.Refresh_
   
 ' List the handler names again to show the change.  
 Wscript.Echo "---[New Handler List]---"  
@@ -86,6 +86,6 @@ End Sub
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [HandlerAction Class](../wmi-provider/handleraction-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [HandlerAction Class](../wmi-provider/handleraction-class.md)
  [HandlersSection Class](../wmi-provider/handlerssection-class.md)

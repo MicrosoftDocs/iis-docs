@@ -59,7 +59,7 @@ class HttpProtocolSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [CustomHeaderSettings Class](../wmi-provider/customheadersettings-class.md)   
- [NameValueConfigurationElement Class](../wmi-provider/namevalueconfigurationelement-class.md)   
+ [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)
+ [CustomHeaderSettings Class](../wmi-provider/customheadersettings-class.md)
+ [NameValueConfigurationElement Class](../wmi-provider/namevalueconfigurationelement-class.md)
  [RedirectHeaderSettings Class](../wmi-provider/redirectheadersettings-class.md)

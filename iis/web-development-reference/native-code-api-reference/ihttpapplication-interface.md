@@ -43,7 +43,7 @@ class IHttpApplication
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
- [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md)   
- [IHttpApplicationProvider::GetApplication Method](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-getapplication-method.md)   
+ [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)
+ [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md)
+ [IHttpApplicationProvider::GetApplication Method](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-getapplication-method.md)
  [IHttpContext::GetApplication Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getapplication-method.md)

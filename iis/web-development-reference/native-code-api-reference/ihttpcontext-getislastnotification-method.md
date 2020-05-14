@@ -45,6 +45,6 @@ virtual BOOL GetIsLastNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::DisableNotifications Method](../../web-development-reference/native-code-api-reference/ihttpcontext-disablenotifications-method.md)   
+ [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)
+ [IHttpContext::DisableNotifications Method](../../web-development-reference/native-code-api-reference/ihttpcontext-disablenotifications-method.md)
  [IHttpContext::GetNextNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getnextnotification-method.md)

@@ -69,9 +69,9 @@ class RequestCachingSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [FtpCachePolicySettings Class](../wmi-provider/ftpcachepolicysettings-class.md)   
- [HttpCachePolicySettings Class](../wmi-provider/httpcachepolicysettings-class.md)   
- [System.Net.Cache.RequestCacheLevel Enumeration](https://go.microsoft.com/fwlink/?LinkId=70921)   
- [System.Net.WebException Class](https://go.microsoft.com/fwlink/?LinkId=67062)   
+ [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)
+ [FtpCachePolicySettings Class](../wmi-provider/ftpcachepolicysettings-class.md)
+ [HttpCachePolicySettings Class](../wmi-provider/httpcachepolicysettings-class.md)
+ [System.Net.Cache.RequestCacheLevel Enumeration](https://go.microsoft.com/fwlink/?LinkId=70921)
+ [System.Net.WebException Class](https://go.microsoft.com/fwlink/?LinkId=67062)
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

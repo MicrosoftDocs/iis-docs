@@ -61,8 +61,8 @@ static void SetTaskDefinitions(
 ```
 
 ``` fsharp
-  static member SetTaskDefinitions : 
-        taskDefinitions:Collection<TaskDefinition> -> unit 
+  static member SetTaskDefinitions :
+        taskDefinitions:Collection<TaskDefinition> -> unit
 ```
 
 ```jscript

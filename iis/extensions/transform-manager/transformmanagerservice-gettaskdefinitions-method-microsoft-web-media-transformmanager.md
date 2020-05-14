@@ -59,9 +59,9 @@ virtual Collection<TaskDefinition^>^ GetTaskDefinitions() sealed
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract GetTaskDefinitions : unit -> Collection<TaskDefinition> 
+abstract GetTaskDefinitions : unit -> Collection<TaskDefinition>
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override GetTaskDefinitions : unit -> Collection<TaskDefinition> 
+override GetTaskDefinitions : unit -> Collection<TaskDefinition>
 ```
 
 ```jscript

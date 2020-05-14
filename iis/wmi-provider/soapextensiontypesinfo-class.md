@@ -43,6 +43,6 @@ class SoapExtensionTypesInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [SoapExtensionTypeElement Class](../wmi-provider/soapextensiontypeelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [SoapExtensionTypeElement Class](../wmi-provider/soapextensiontypeelement-class.md)
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

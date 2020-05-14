@@ -51,7 +51,7 @@ To use this template follow these steps:
 7. Click "OK". This will create a rewrite map with the given name and a rewrite rule with name "Rewrite Rule 1 for StaticRewrites" that references that rewrite map.
 8. After clicking "OK" you will be taken to the page where you can specify the mapping entries for the rewrite map. Click on "Add Mapping Entry..." in the Actions pane on right hand side and then enter the original and new value for the mapping entry as "**/article1**" and "**/article.aspx?id=1&amp;title=some-title**" respectively.  
     [![](rule-with-rewrite-map-rule-template/_static/image18.png)](rule-with-rewrite-map-rule-template/_static/image17.png)
-9. Repeat previous step to add two more mapping entries as follows: 
+9. Repeat previous step to add two more mapping entries as follows:
 
     | Original Value: | New Value: |
     | --- | --- |

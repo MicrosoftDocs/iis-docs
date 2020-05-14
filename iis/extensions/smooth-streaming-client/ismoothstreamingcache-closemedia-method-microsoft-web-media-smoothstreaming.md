@@ -61,8 +61,8 @@ void CloseMedia(
 ```
 
 ``` fsharp
-abstract CloseMedia : 
-        manifestUri:Uri -> unit 
+abstract CloseMedia :
+        manifestUri:Uri -> unit
 ```
 
 ```jscript

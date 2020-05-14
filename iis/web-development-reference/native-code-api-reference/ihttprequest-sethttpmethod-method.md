@@ -49,5 +49,5 @@ virtual HRESULT SetHttpMethod(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)
  [IHttpRequest::GetHttpMethod Method](../../web-development-reference/native-code-api-reference/ihttprequest-gethttpmethod-method.md)

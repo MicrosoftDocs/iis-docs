@@ -108,7 +108,7 @@ SmoothPlayer.SmoothStreamingErrorOccurred +=
 Define the handler.
 
 ```csharp
-void SmoothPlayer_SmoothStreamingErrorOccurred(object sender, 
+void SmoothPlayer_SmoothStreamingErrorOccurred(object sender,
                                 SmoothStreamingErrorEventArgs e)
 {
     MessageBox.Show("Error: " + e.ErrorCode + "; " + e.ErrorMessage);

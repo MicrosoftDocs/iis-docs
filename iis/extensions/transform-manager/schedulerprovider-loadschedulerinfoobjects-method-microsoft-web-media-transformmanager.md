@@ -61,8 +61,8 @@ static void LoadSchedulerInfoObjects(
 ```
 
 ``` fsharp
-  static member LoadSchedulerInfoObjects : 
-        schedulers:Collection<JobScheduler> -> unit 
+  static member LoadSchedulerInfoObjects :
+        schedulers:Collection<JobScheduler> -> unit
 ```
 
 ```jscript

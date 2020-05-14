@@ -42,7 +42,7 @@ For detailed steps on analyzing the output of getDependencies, see [Viewing Depe
 
 ### Part 2 - Configure the target (destination)
 
-1. Review the list of dependencies and install them on the destination server. For example, let's assume you had the following in use for your Web site: 
+1. Review the list of dependencies and install them on the destination server. For example, let's assume you had the following in use for your Web site:
 
     - ASP.NET
     - Windows Authentication

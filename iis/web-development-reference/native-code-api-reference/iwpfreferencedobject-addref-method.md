@@ -31,5 +31,5 @@ virtual ULONG AddRef(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfReferencedObject Interface](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)   
+ [IWpfReferencedObject Interface](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)
  [IWpfReferencedObject::Release Method](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)

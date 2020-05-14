@@ -51,10 +51,10 @@ class ClientCertificateMappingAuthenticationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AccessSection Class](../wmi-provider/accesssection-class.md)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
- [ManyToOneCertificateMappingElement Class](../wmi-provider/manytoonecertificatemappingelement-class.md)   
- [ManyToOneCertificateMappingRuleElement Class](../wmi-provider/manytoonecertificatemappingruleelement-class.md)   
- [OneToOneCertificateMappingElement Class](../wmi-provider/onetoonecertificatemappingelement-class.md)   
+ [AccessSection Class](../wmi-provider/accesssection-class.md)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)
+ [ManyToOneCertificateMappingElement Class](../wmi-provider/manytoonecertificatemappingelement-class.md)
+ [ManyToOneCertificateMappingRuleElement Class](../wmi-provider/manytoonecertificatemappingruleelement-class.md)
+ [OneToOneCertificateMappingElement Class](../wmi-provider/onetoonecertificatemappingelement-class.md)
  [SSLBinding Class](../wmi-provider/sslbinding-class.md)

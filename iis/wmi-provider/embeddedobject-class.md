@@ -131,8 +131,8 @@ class EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [WMI Provider](../wmi-provider/wmi-provider.md)   
- [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
- [Object Class](../wmi-provider/object-class.md)   
- [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)   
+ [WMI Provider](../wmi-provider/wmi-provider.md)
+ [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)
+ [Object Class](../wmi-provider/object-class.md)
+ [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)

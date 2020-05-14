@@ -44,42 +44,42 @@ class ICacheProvider : public IHttpEventProvider
   
 ```  
 <cacheProvider cacheOperation="CACHE_OPERATION_RETRIEVE">  
-    <fileKey   
-        path="D:\INETPUB\WWWROOT"   
-        cacheName="FILE"   
-        hash="-711969814"   
-        isEqual="true"   
+    <fileKey
+        path="D:\INETPUB\WWWROOT"
+        cacheName="FILE"
+        hash="-711969814"
+        isEqual="true"
         isPrefix="true"/>  
-    <fileInfo   
-        changed="false"   
-        attributes="32"   
-        eTag="1234567890abcde:0"   
-        buffer="true"   
-        path="C:\INETPUB\WWWROOT\DEFAULT.HTM"   
-        handle="INVALID_HANDLE_VALUE"   
-        cacheAllowed="true"   
-        secondsToLive="-1"   
-        lastModifiedString="Tue, 13 Dec 2005 10:57:41 GMT"   
-        lastModifiedTime="12/13/2005 02:57"   
-        size="50"   
-        vrPath="NULL"   
+    <fileInfo
+        changed="false"
+        attributes="32"
+        eTag="1234567890abcde:0"
+        buffer="true"
+        path="C:\INETPUB\WWWROOT\DEFAULT.HTM"
+        handle="INVALID_HANDLE_VALUE"
+        cacheAllowed="true"
+        secondsToLive="-1"
+        lastModifiedString="Tue, 13 Dec 2005 10:57:41 GMT"
+        lastModifiedTime="12/13/2005 02:57"
+        size="50"
+        vrPath="NULL"
         vrToken="NULL">  
-        <fileKey   
-            path="C:\INETPUB\WWWROOT\DEFAULT.HTM"   
-            cacheName="FILE"   
-            hash="-711969814"   
-            isEqual="true"   
+        <fileKey
+            path="C:\INETPUB\WWWROOT\DEFAULT.HTM"
+            cacheName="FILE"
+            hash="-711969814"
+            isEqual="true"
             isPrefix="true" />  
         <contextContainer>  
             <storedContext />  
         </contextContainer>  
     </fileInfo>  
-    <traceContext   
+    <traceContext
         activityId="{00000000-0000-0000-3400-0080000000FF}">  
-        <traceConfiguration   
-            providerGuid=""   
-            areas="0"   
-            verbosity="0"   
+        <traceConfiguration
+            providerGuid=""
+            areas="0"
+            verbosity="0"
             providerEnabled="false"/>  
     </traceContext>  
 </cacheProvider>  

@@ -84,5 +84,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [IsapiCgiRestrictionSection Class](../wmi-provider/isapicgirestrictionsection-class.md)

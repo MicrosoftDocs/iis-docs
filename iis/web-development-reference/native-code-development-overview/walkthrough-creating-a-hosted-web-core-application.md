@@ -216,7 +216,7 @@ If your application does not load, or it returns an error when it is running, th
 
 ## See also
 
-- [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md) 
-- [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-configuration-file-for-hosted-web-core.md) 
-- [PFN_WEB_CORE_ACTIVATE Function](../../web-development-reference/native-code-api-reference/pfn-web-core-activate-function.md) 
+- [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md)
+- [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-configuration-file-for-hosted-web-core.md)
+- [PFN_WEB_CORE_ACTIVATE Function](../../web-development-reference/native-code-api-reference/pfn-web-core-activate-function.md)
 - [PFN_WEB_CORE_SHUTDOWN Function](../../web-development-reference/native-code-api-reference/pfn-web-core-shutdown-function.md)

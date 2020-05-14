@@ -99,10 +99,10 @@ Call DisplayHandlers
 ' Create a legacy script map handler.  
 ' The required properties are Name, Modules, and ScriptProcessor.  
 Set oHandler = oWebAdmin.Get("HandlerAction").SpawnInstance_  
-oHandler.Name = "ASPClassic"   
-oHandler.Path="*.asp"   
-oHandler.Verb="GET,HEAD,POST"   
-oHandler.Modules="ISAPIModule"   
+oHandler.Name = "ASPClassic"
+oHandler.Path="*.asp"
+oHandler.Verb="GET,HEAD,POST"
+oHandler.Modules="ISAPIModule"
 oHandler.ResourceType= 0 '0 is "File"  
 oHandler.ScriptProcessor = "%windir%\system32\inetsrv\asp.dll"  
   
@@ -112,9 +112,9 @@ oHandlersSection.Add "Handlers", oHandler
 ' Create a native module handler for static files.  
 ' The required properties are Name, Modules, and Path.  
 Set oHandler = oWebAdmin.Get("HandlerAction").SpawnInstance_  
-oHandler.Name = "StaticFile"   
-oHandler.Path="*"   
-oHandler.Verb="*"   
+oHandler.Name = "StaticFile"
+oHandler.Path="*"
+oHandler.Verb="*"
 oHandler.Modules="StaticFileModule,DefaultDocumentModule,DirectoryListingModule"  
 oHandler.ResourceType=2  
 oHandler.RequireAccess=1  
@@ -124,9 +124,9 @@ oHandlersSection.Add "Handlers", oHandler
   
 ' Create a native module handler for ISAPI DLLs.  
 ' The required properties are Name, Modules, and Path.  
-oHandler.Name = "ISAPI-dll"   
-oHandler.Path="*.dll"   
-oHandler.Verb="*"   
+oHandler.Name = "ISAPI-dll"
+oHandler.Path="*.dll"
+oHandler.Verb="*"
 oHandler.Modules="ISAPIModule"  
 oHandler.ResourceType=0  
 oHandler.RequireAccess=4  
@@ -136,11 +136,11 @@ oHandler.AllowPathInfo=True
 oHandlersSection.Add "Handlers", oHandler  
   
 ' Add a managed handler.  
-' The required properties are Name, Path, and Type.   
+' The required properties are Name, Path, and Type.
 Set oHandler = oWebAdmin.Get("HandlerAction").SpawnInstance_  
-oHandler.Name = "TraceHandler-Integrated"   
-oHandler.Path="trace.axd"   
-oHandler.Verb="GET,HEAD,POST"   
+oHandler.Name = "TraceHandler-Integrated"
+oHandler.Path="trace.axd"
+oHandler.Verb="GET,HEAD,POST"
 oHandler.Type="System.Web.Handlers.TraceHandler"  
 oHandler.PreCondition="integratedMode"  
   
@@ -150,7 +150,7 @@ oHandlersSection.Add "Handlers", oHandler
 ' Call the WMI Refresh_ method to update the oHandlersSection object variable.  
 oHandlersSection.Refresh_  
   
-' Display the new list of handler names.   
+' Display the new list of handler names.
 WScript.Echo "---[New Handler List]---"  
 Call DisplayHandlers  
   
@@ -179,7 +179,7 @@ End Sub
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [AccessSection Class](../wmi-provider/accesssection-class.md)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [HandlersSection Class](../wmi-provider/handlerssection-class.md)   
+ [AccessSection Class](../wmi-provider/accesssection-class.md)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [HandlersSection Class](../wmi-provider/handlerssection-class.md)
  [IScriptMapInfo::GetAllowPathInfoForScriptMappings Method](../web-development-reference/native-code-api-reference/iscriptmapinfo-getallowpathinfoforscriptmappings-method.md)

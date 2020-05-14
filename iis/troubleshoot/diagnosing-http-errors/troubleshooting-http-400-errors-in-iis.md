@@ -27,16 +27,16 @@ After sending an HTTP request to an IIS server, an HTTP client (such as Internet
 ![](troubleshooting-http-400-errors-in-iis/_static/image1.png)
 **HTTP 400**
 **The webpage cannot be found.**
- 
-Most likely causes: 
+
+Most likely causes:
 
 - There might be a typing error in the address.
 - If you clicked on a link, it may be out of date.
 
-What you can try: 
+What you can try:
 
-- Retype the address. 
-- Go back to the previous page. 
+- Retype the address.
+- Go back to the previous page.
 - Go to Bing and look for the information you want.
 
 ---

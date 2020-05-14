@@ -62,10 +62,10 @@ virtual void Initialize(
 ```
 
 ``` fsharp
-  abstract Initialize : 
-        fileName:string -> unit 
-override Initialize : 
-        fileName:string -> unit 
+  abstract Initialize :
+        fileName:string -> unit
+override Initialize :
+        fileName:string -> unit
 ```
 
 ```jscript

@@ -105,7 +105,7 @@ For an example that uses TrackInfo objects, see [Timeline Markers and Events](ti
 
 The following example shows how to parse [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) and [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects to access TrackInfo objects.
 
-``` 
+```
     void SmoothPlayer_ManifestReady(object sender, EventArgs e)
     {
         if (!PremiumAccount)

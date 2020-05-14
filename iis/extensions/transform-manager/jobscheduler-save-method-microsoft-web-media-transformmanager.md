@@ -62,8 +62,8 @@ void Save(
 ```
 
 ``` fsharp
-  member Save : 
-        overwrite:bool -> unit 
+  member Save :
+        overwrite:bool -> unit
 ```
 
 ```jscript

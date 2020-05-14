@@ -57,20 +57,20 @@ instance.WriteLine(level, value)
 
 ```cpp
   void WriteLine(
-    LogLevel level, 
+    LogLevel level,
     String^ value
 )
 ```
 
 ``` fsharp
-  abstract WriteLine : 
-        level:LogLevel * 
-        value:string -> unit 
+  abstract WriteLine :
+        level:LogLevel *
+        value:string -> unit
 ```
 
 ```jscript
   function WriteLine(
-    level : LogLevel, 
+    level : LogLevel,
     value : String
 )
 ```

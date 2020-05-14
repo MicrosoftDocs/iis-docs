@@ -59,15 +59,15 @@ public delegate void SSMELogReadyRoutedEventHandler(
 
 ```cpp
 public delegate void SSMELogReadyRoutedEventHandler(
-    Object^ sender, 
+    Object^ sender,
     SSMELogReadyRoutedEventArgs^ e
 )
 ```
 
 ``` fsharp
-type SSMELogReadyRoutedEventHandler = 
-    delegate of 
-        sender:Object * 
+type SSMELogReadyRoutedEventHandler =
+    delegate of
+        sender:Object *
         e:SSMELogReadyRoutedEventArgs -> unit
 ```
 

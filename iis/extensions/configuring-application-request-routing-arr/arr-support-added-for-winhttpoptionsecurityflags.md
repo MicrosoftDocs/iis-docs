@@ -13,14 +13,14 @@ by [Harsh Mittal](https://twitter.com/harshmittal)
 
 The ARR update KB 2693489 adds support for WINHTTP\_OPTION\_SECURITY\_FLAGS.
 
-**Default Behavior:** 
+**Default Behavior:**
 
 This is the same prior to the updated where ARR will ignore Common name mismatches in the SSL communication. With this change ARR implementsSECURITY\_FLAG\_IGNORE\_CERT\_CN\_INVALID as the default flag.
 
 To change the settings add the following registry key.
 
 1. Click Start, type regedit.exe in the Start Search box, and then press ENTER.
-2. Expand the following registry key 
+2. Expand the following registry key
 
     [!code-console[Main](arr-support-added-for-winhttpoptionsecurityflags/samples/sample1.cmd)]
 3. Right-click Parameters, click New, and then click DWORD (32-bit) Value.

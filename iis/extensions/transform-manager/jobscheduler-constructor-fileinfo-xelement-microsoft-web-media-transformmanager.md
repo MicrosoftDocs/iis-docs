@@ -58,20 +58,20 @@ Dim instance As New JobScheduler(fileInfo, _
 ```cpp
   public:
 JobScheduler(
-    FileInfo^ fileInfo, 
+    FileInfo^ fileInfo,
     XElement^ jobSchedulerElement
 )
 ```
 
 ``` fsharp
-  new : 
-        fileInfo:FileInfo * 
+  new :
+        fileInfo:FileInfo *
         jobSchedulerElement:XElement -> JobScheduler
 ```
 
 ```jscript
   public function JobScheduler(
-    fileInfo : FileInfo, 
+    fileInfo : FileInfo,
     jobSchedulerElement : XElement
 )
 ```

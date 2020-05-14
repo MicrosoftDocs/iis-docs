@@ -54,5 +54,5 @@ class GlobalModuleElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)

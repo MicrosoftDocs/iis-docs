@@ -132,8 +132,8 @@ The syntax and registry of accepted languages is specified in [RFC1766](http://w
 
 When generating an error, IIS takes this header into account when it looks for the custom error file it returns. It generates the path for the custom error using the following logic:
 
-prefixLanguageFilePath configuration setting (for example `c:\inetpub\custerr`)+   
-Accept-Language header sent by the client (for example en-us) +   
+prefixLanguageFilePath configuration setting (for example `c:\inetpub\custerr`)+
+Accept-Language header sent by the client (for example en-us) +
 Path configuration setting (for example 404.htm)
 
 Example:

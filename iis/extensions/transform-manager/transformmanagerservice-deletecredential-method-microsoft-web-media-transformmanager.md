@@ -65,11 +65,11 @@ virtual void DeleteCredential(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract DeleteCredential : 
-        credentialId:string -> unit 
+abstract DeleteCredential :
+        credentialId:string -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override DeleteCredential : 
-        credentialId:string -> unit 
+override DeleteCredential :
+        credentialId:string -> unit
 ```
 
 ```jscript

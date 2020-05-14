@@ -77,7 +77,7 @@ For more information, see [Events](events.md).
 
 The following examples shows a delegate that displays the new state using a text element.
 
-``` 
+```
     void SmoothPlayer_CurrentStateChanged(object sender, RoutedEventArgs e)
     {
         OutputText.Text = (sender as SmoothStreamingMediaElement).CurrentState.ToString();

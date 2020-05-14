@@ -93,7 +93,7 @@ You must run the installation package as an administrator. This can be accomplis
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common HTTP Features**.
-4. Select **WebDAV Publishing**, and then click **OK**. 
+4. Select **WebDAV Publishing**, and then click **OK**.
 
     ![](installing-and-configuring-webdav-on-iis/_static/image3.png)
 
@@ -120,7 +120,7 @@ You must run the installation package as an administrator. This can be accomplis
 1. On the taskbar, hold down the **Windows** key, and then press the **X** key. Click **Control Panel**.
 2. In the **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common HTTP Features**.
-4. Select **WebDAV Publishing**, and then click **OK**. 
+4. Select **WebDAV Publishing**, and then click **OK**.
 
     ![](installing-and-configuring-webdav-on-iis/_static/image15.jpg)
 
@@ -136,7 +136,7 @@ The WebDAV extension module makes it easy to add WebDAV publishing to existing s
 In this first step, we add WebDAV publishing to the Default Web site, and add the required settings to allow the local administrator account to edit the content.
 
 1. In **IIS Manager**, in the **Connections** pane, expand the **Sites** node in the tree, then click the **Default Web Site**.
-2. As shown in the image below, double-click the **WebDAV Authoring Rules** feature.   
+2. As shown in the image below, double-click the **WebDAV Authoring Rules** feature.
     [![](installing-and-configuring-webdav-on-iis/_static/image19.jpg)](installing-and-configuring-webdav-on-iis/_static/image17.jpg)
 3. When the **WebDAV Authoring Rules** page is displayed, click the **Enable WebDAV** task in the **Actions** page.  
     [![](installing-and-configuring-webdav-on-iis/_static/image23.jpg)](installing-and-configuring-webdav-on-iis/_static/image21.jpg)

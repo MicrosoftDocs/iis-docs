@@ -67,26 +67,26 @@ IAsyncResult BeginPersist(
 
 ```cpp
 IAsyncResult^ BeginPersist(
-    CacheRequest^ request, 
-    CacheResponse^ response, 
-    AsyncCallback^ callback, 
+    CacheRequest^ request,
+    CacheResponse^ response,
+    AsyncCallback^ callback,
     Object^ state
 )
 ```
 
 ``` fsharp
-abstract BeginPersist : 
-        request:CacheRequest * 
-        response:CacheResponse * 
-        callback:AsyncCallback * 
-        state:Object -> IAsyncResult 
+abstract BeginPersist :
+        request:CacheRequest *
+        response:CacheResponse *
+        callback:AsyncCallback *
+        state:Object -> IAsyncResult
 ```
 
 ```jscript
 function BeginPersist(
-    request : CacheRequest, 
-    response : CacheResponse, 
-    callback : AsyncCallback, 
+    request : CacheRequest,
+    response : CacheResponse,
+    callback : AsyncCallback,
     state : Object
 ) : IAsyncResult
 ```
@@ -124,7 +124,7 @@ An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\)) object
 
 The following code shows an implementation of the BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object) method.
 
-``` 
+```
     public IAsyncResult BeginPersist(CacheRequest request, CacheResponse response, AsyncCallback callback, object state)
     {
         state = false;

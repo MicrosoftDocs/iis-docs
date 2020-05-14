@@ -45,5 +45,5 @@ virtual VOID SuppressHeaders(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)
  [IHttpResponse::GetHeadersSuppressed Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getheaderssuppressed-method.md)

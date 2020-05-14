@@ -80,7 +80,7 @@ Please check the [UrlScan Version 2 Reference](urlscan-2-reference.md) for more 
 
 For additional information about using UrlScan:
 
-- Post queries about the tool on the IIS security forums: 
+- Post queries about the tool on the IIS security forums:
 
     - [IIS 5.x and IIS 6.0](https://forums.iis.net/1031.aspx)
     - [IIS 7.0 and IIS 7.5](https://forums.iis.net/1043.aspx)

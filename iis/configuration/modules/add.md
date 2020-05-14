@@ -67,7 +67,7 @@ The following sample configuration excerpt from the Administration.config file a
 The following sample configuration excerpt from the Administration.config file specifies custom `<modules>` elements for the Default Web Site and a child application by defining unique `<location>` elements that clear the default module lists and define the specific modules that will be respectively enabled for each location. When a remote administration connects to either location, IIS Manager will only display those features that are represented by the modules that are listed in each `<location>` element.
 
 [!code-xml[Main](add/samples/sample2.xml)]
- 
+
 <a id="006"></a>
 ## Sample Code
 

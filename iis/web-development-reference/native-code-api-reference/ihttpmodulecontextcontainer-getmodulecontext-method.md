@@ -52,5 +52,5 @@ virtual IHttpStoredContext* GetModuleContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpModuleContextContainer Interface](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-interface.md)   
+ [IHttpModuleContextContainer Interface](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-interface.md)
  [IHttpModuleContextContainer::SetModuleContext Method](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-setmodulecontext-method.md)

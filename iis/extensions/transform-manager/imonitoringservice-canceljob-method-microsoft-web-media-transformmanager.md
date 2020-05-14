@@ -65,8 +65,8 @@ JobStatus CancelJob(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract CancelJob : 
-        jobDetails:JobDetails -> JobStatus 
+abstract CancelJob :
+        jobDetails:JobDetails -> JobStatus
 ```
 
 ```jscript

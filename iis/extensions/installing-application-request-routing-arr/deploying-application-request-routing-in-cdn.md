@@ -133,7 +133,7 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
 
     ![](deploying-application-request-routing-in-cdn/_static/image16.jpg)
 27. Double-click **URL Rewrite**.
-28. In the **Actions** pane, click **Add Rules**. 
+28. In the **Actions** pane, click **Add Rules**.
 
     ![](deploying-application-request-routing-in-cdn/_static/image17.jpg)
 29. In the **Add Rule(s)** dialog box, select **Blank rule**.

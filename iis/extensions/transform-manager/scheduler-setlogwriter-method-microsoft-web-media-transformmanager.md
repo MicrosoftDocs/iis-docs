@@ -62,8 +62,8 @@ virtual void SetLogWriter(
 ```
 
 ``` fsharp
-  abstract SetLogWriter : 
-        logger:Logger -> unit 
+  abstract SetLogWriter :
+        logger:Logger -> unit
 ```
 
 ```jscript

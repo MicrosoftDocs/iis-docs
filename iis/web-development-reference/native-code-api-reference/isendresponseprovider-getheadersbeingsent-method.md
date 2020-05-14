@@ -42,6 +42,6 @@ virtual BOOL GetHeadersBeingSent(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
- [IHttpResponse::GetHeadersSuppressed Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getheaderssuppressed-method.md)   
+ [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)
+ [IHttpResponse::GetHeadersSuppressed Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getheaderssuppressed-method.md)
  [IHttpResponse::SuppressHeaders Method](../../web-development-reference/native-code-api-reference/ihttpresponse-suppressheaders-method.md)

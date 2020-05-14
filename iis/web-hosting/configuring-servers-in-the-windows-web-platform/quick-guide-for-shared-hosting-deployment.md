@@ -28,7 +28,7 @@ Before configuring permissions on the file server, you must join the Web server 
 
 ## Web Server Setup
 
-1. [Install the Web Server Role](../web-server-for-shared-hosting/installing-the-web-server-role.md) - IIS. 
+1. [Install the Web Server Role](../web-server-for-shared-hosting/installing-the-web-server-role.md) - IIS.
 
     - Note: Site provisioning is covered in [Provisioning IIS Sites for Shared Hosting](../../manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting.md).
 2. Run AppCmd to create an initial [Backup](../web-server-for-shared-hosting/create-a-backup-with-appcmd.md).
@@ -44,7 +44,7 @@ Before configuring permissions on the file server, you must join the Web server 
 6. Select W3C Fields to Log at the server level in IIS Manager.
 7. Configure the [dynamicIdleThreshold](../web-server-for-shared-hosting/dynamicidlethreshold.md) property.
 8. Configure [Dynamic Compression](../web-server-for-shared-hosting/dynamic-compression.md).
-9. Enable [Remote Web Service Management](../../manage/remote-administration/remote-administration-for-iis-manager.md) in IIS Manager. 
+9. Enable [Remote Web Service Management](../../manage/remote-administration/remote-administration-for-iis-manager.md) in IIS Manager.
 
     > [!NOTE]
     > If you are using IIS Manager Users and the content is stored in a file share (UNC), set WMSVC to run as a custom identity that has read/write access to the share. For details on WMSVC's read/write access actions see [Remote Administration Behavior Matrix](../../manage/remote-administration/remote-administration-behavior-matrix.md).
@@ -52,7 +52,7 @@ Before configuring permissions on the file server, you must join the Web server 
 
     > [!NOTE]
     > The firewall is enabled by default and you must add the default port (8172) or custom port if you chose one.
-11. Create a custom [trust level based on Medium trust](../web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration.md). 
+11. Create a custom [trust level based on Medium trust](../web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration.md).
 
     - Set unrestricted true for WebPermission.
     - Add custom trust to Web.config and lock it.

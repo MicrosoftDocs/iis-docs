@@ -63,8 +63,8 @@ virtual XElement^ GetJobCompletionDetails(
 ```
 
 ``` fsharp
-  abstract GetJobCompletionDetails : 
-        jobInstanceId:string -> XElement 
+  abstract GetJobCompletionDetails :
+        jobInstanceId:string -> XElement
 ```
 
 ```jscript

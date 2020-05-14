@@ -78,7 +78,7 @@ These steps should be performed on all secondary servers that will be part of th
 
 - Each server that will participate in the server farm must have **one** of the following:
 
-    - A local administrator account with the same user name and password on each server. 
+    - A local administrator account with the same user name and password on each server.
 
         - or -
     - A domain account that is a member of the local administrators group.

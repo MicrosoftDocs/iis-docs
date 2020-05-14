@@ -65,11 +65,11 @@ virtual void UpdateJobScheduler(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract UpdateJobScheduler : 
-        scheduler:JobScheduler -> unit 
+abstract UpdateJobScheduler :
+        scheduler:JobScheduler -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override UpdateJobScheduler : 
-        scheduler:JobScheduler -> unit 
+override UpdateJobScheduler :
+        scheduler:JobScheduler -> unit
 ```
 
 ```jscript

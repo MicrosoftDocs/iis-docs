@@ -55,7 +55,7 @@ class FtpCachePolicySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [RequestCachingSection Class](../wmi-provider/requestcachingsection-class.md)   
- [System.Net.Cache.RequestCacheLevel Enumeration](https://go.microsoft.com/fwlink/?LinkId=70921)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [RequestCachingSection Class](../wmi-provider/requestcachingsection-class.md)
+ [System.Net.Cache.RequestCacheLevel Enumeration](https://go.microsoft.com/fwlink/?LinkId=70921)
  [System.Net.WebException Class](https://go.microsoft.com/fwlink/?LinkId=67062)

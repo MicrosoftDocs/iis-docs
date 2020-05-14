@@ -43,6 +43,6 @@ class DbProviderFactorySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [ProviderFactoryElement Class](../wmi-provider/providerfactoryelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [ProviderFactoryElement Class](../wmi-provider/providerfactoryelement-class.md)
  [SystemDataSection Class](../wmi-provider/systemdatasection-class.md)

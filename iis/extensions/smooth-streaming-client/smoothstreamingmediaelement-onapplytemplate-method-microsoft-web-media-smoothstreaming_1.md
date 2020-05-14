@@ -55,8 +55,8 @@ virtual void OnApplyTemplate() override
 ```
 
 ``` fsharp
-abstract OnApplyTemplate : unit -> unit 
-override OnApplyTemplate : unit -> unit 
+abstract OnApplyTemplate : unit -> unit
+override OnApplyTemplate : unit -> unit
 ```
 
 ```jscript

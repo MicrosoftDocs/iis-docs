@@ -77,5 +77,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
+ [ApplicationPool Class](../wmi-provider/applicationpool-class.md)
  [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)

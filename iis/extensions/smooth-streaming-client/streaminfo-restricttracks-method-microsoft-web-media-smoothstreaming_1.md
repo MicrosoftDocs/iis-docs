@@ -62,8 +62,8 @@ void RestrictTracks(
 ```
 
 ``` fsharp
-member RestrictTracks : 
-        availableTracks:IList<TrackInfo> -> unit 
+member RestrictTracks :
+        availableTracks:IList<TrackInfo> -> unit
 ```
 
 ```jscript

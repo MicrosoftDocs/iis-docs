@@ -65,27 +65,27 @@ public virtual IAsyncResult BeginGetChunk(
 ```cpp
 public:
 virtual IAsyncResult^ BeginGetChunk(
-    TimeSpan timestamp, 
-    AsyncCallback^ callback, 
+    TimeSpan timestamp,
+    AsyncCallback^ callback,
     Object^ state
 )
 ```
 
 ``` fsharp
-abstract BeginGetChunk : 
-        timestamp:TimeSpan * 
-        callback:AsyncCallback * 
-        state:Object -> IAsyncResult 
-override BeginGetChunk : 
-        timestamp:TimeSpan * 
-        callback:AsyncCallback * 
-        state:Object -> IAsyncResult 
+abstract BeginGetChunk :
+        timestamp:TimeSpan *
+        callback:AsyncCallback *
+        state:Object -> IAsyncResult
+override BeginGetChunk :
+        timestamp:TimeSpan *
+        callback:AsyncCallback *
+        state:Object -> IAsyncResult
 ```
 
 ```jscript
 public function BeginGetChunk(
-    timestamp : TimeSpan, 
-    callback : AsyncCallback, 
+    timestamp : TimeSpan,
+    callback : AsyncCallback,
     state : Object
 ) : IAsyncResult
 ```
@@ -119,7 +119,7 @@ The method will always return immediately. It may finish the operation in the sa
 
 The following example loops through segments, streams, and tracks to get the closed captions track. The BeginGetChunk(TimeSpan, AsyncCallback, Object) method starts an asynchronous process that will get each data chunk. For the complete example and more information, see [Timeline Markers and Events](timeline-markers-and-events.md).
 
-``` 
+```
     void SmoothPlayer_MediaOpened(object sender, RoutedEventArgs e)
     {
         foreach (SegmentInfo segmentInfo in SmoothPlayer.ManifestInfo.Segments)

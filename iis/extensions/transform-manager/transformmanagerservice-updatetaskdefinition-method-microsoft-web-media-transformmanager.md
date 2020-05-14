@@ -65,11 +65,11 @@ virtual void UpdateTaskDefinition(
 
 ``` fsharp
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-abstract UpdateTaskDefinition : 
-        taskDefinition:TaskDefinition -> unit 
+abstract UpdateTaskDefinition :
+        taskDefinition:TaskDefinition -> unit
 [<PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")>]
-override UpdateTaskDefinition : 
-        taskDefinition:TaskDefinition -> unit 
+override UpdateTaskDefinition :
+        taskDefinition:TaskDefinition -> unit
 ```
 
 ```jscript

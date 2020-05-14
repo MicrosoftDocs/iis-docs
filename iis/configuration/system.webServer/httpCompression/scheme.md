@@ -15,7 +15,7 @@ msc.type: config
 The `<scheme>` element of the `<httpCompression>` element specifies the following settings for the GNU zip (Gzip) and Deflate compression schemes in Internet Information Services (IIS) 7:
 
 - The **name** and **dll** attributes respectively specify the name and provider DLL of a compression scheme. IIS 7 supports both Gzip and Deflate compression, and both compression schemes are currently implemented in %*windir*%\system32\inetsrv\gzip.dll.
-- The **doStaticCompression** attribute specifies whether static compression is enabled for the compression scheme that is specified by the **name** attribute. Setting **doStaticCompression** to **true** specifies that static content will be compressed when requested by a client. If static compression is enabled, each request for static content that contains the "Accept-Encoding: gzip" or "Accept-Encoding: deflate" header causes the content to be compressed, so long as the compression scheme specified in the header is enabled in IIS. If the request does not contain this header, or the header specifies a compression scheme that is not enabled in IIS, the content is not compressed.   
+- The **doStaticCompression** attribute specifies whether static compression is enabled for the compression scheme that is specified by the **name** attribute. Setting **doStaticCompression** to **true** specifies that static content will be compressed when requested by a client. If static compression is enabled, each request for static content that contains the "Accept-Encoding: gzip" or "Accept-Encoding: deflate" header causes the content to be compressed, so long as the compression scheme specified in the header is enabled in IIS. If the request does not contain this header, or the header specifies a compression scheme that is not enabled in IIS, the content is not compressed.
   
   If IIS determines that the response should be compressed, IIS checks the compression directory specified by the **directory** attribute of the [&lt;httpCompression&gt;](index.md) element. If a fresh, compressed version of the static file is found in the directory, it is sent to the client browser. If a fresh, compressed version of the file is not found, and on-demand compression is enabled with **dynamicCompressionBeforeCache** attribute of the [&lt;urlCompression&gt;](../urlcompression.md) element, IIS sends the requested file in uncompressed form, and adds that file to the background compression queue.
 
@@ -81,10 +81,10 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Performance Features**.
-4. Select **Http Compression Dynamic** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression.   
+4. Select **Http Compression Dynamic** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression.
     ![](scheme/_static/image7.png)
 5. Click **OK**.
- 
+
 <a id="004"></a>
 ## How To
 

@@ -47,5 +47,5 @@ virtual VOID ReportUnhealthy(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IWpfActions::FailWorkerProcess Method](../../web-development-reference/native-code-api-reference/iwpfactions-failworkerprocess-method.md)

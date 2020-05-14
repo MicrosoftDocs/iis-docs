@@ -95,7 +95,7 @@ For implementation examples, see [Timeline Markers and Events (IIS Smooth Stream
 
 The following example shows code that loops through any number of SegmentInfo objects.
 
-``` 
+```
     void SmoothPlayer_MediaOpened(object sender, RoutedEventArgs e)
     {
         foreach (SegmentInfo segmentInfo in SmoothPlayer.ManifestInfo.Segments)

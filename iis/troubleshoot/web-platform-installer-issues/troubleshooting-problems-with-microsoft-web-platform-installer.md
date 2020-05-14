@@ -115,31 +115,31 @@ The Web Deployment Tool offers a way for Web applications to join the Web PI eco
 
 Following are some known issues:
 
-**Web PI cannot install additional IIS components if shared configuration is enabled**.   
+**Web PI cannot install additional IIS components if shared configuration is enabled**.
 If IIS is configured for "Shared Configuration," Web PI cannot install most additional IIS components. For more information, see the support article "[You cannot install or uninstall a component in IIS 7.0](https://support.microsoft.com/kb/954856)."
 
 #### Issues during application installation using Web PI:
 
-- **Web PI does not automatically create physical directories when an application is installed to a new site**.   
+- **Web PI does not automatically create physical directories when an application is installed to a new site**.
  Create the directory manually or use the ‘...' button next to the physical path text box to create a new folder.
-- **Web PI requires password fields to be filled in and does not allow them to be empty**.   
+- **Web PI requires password fields to be filled in and does not allow them to be empty**.
  If an application allows an empty password, the password does not work when the application is installed in Web PI.
 
 #### Issues with Microsoft SQL Server during application installation:
 
-- **Applications do not work without SQL "Mixed mode authentication."**   
+- **Applications do not work without SQL "Mixed mode authentication."**
   For most Web applications, SQL Server user accounts are required in order to access a database. If only integrated or Windows authentication for SQL Server are selected, you cannot install some of the applications in the gallery.
-- **SQL Server passwords are not accepted if they do not meet strength requirements**.   
+- **SQL Server passwords are not accepted if they do not meet strength requirements**.
   However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/library/ms161959.aspx) according to the SQL Server policy.
-- **SQL Server user names cannot be longer than 16 characters**.   
+- **SQL Server user names cannot be longer than 16 characters**.
   However, Web PI does not validate user fields for length or other criteria. The failure to create an account with a user name that is more than 16-characters long happens during application installation, and the installation fails. Use a user name that is no more than 16-characters long.
 - **Other Microsoft SQL Server issues.** Check the SQL Server log files in the following directory for more information:  
-  %programfiles%\microsoft sql server\100\setup bootstrap\log   
+  %programfiles%\microsoft sql server\100\setup bootstrap\log
   More details about how to trouble shoot SQL issues can be found at [https://support.microsoft.com/kb/955396](https://support.microsoft.com/kb/955396)
 - **Custom Installation of SQL Server**  
   For customers needing customization for their SQL Server install outside of Web PI, please check this guide <https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx>.
 
-**Issues with Visual Web Developer installation:** 
+**Issues with Visual Web Developer installation:**
 
 - The following link is a troubleshooting guide for failures during Visual Web Developer Installations <https://blogs.msdn.com/astebner/archive/2007/07/31/4156781.aspx>.
 

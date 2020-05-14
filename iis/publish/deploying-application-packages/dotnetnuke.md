@@ -41,7 +41,7 @@ To use Web PI to install this application, complete these steps:
     [![](dotnetnuke/_static/image4.jpg)](dotnetnuke/_static/image3.jpg)
 3. Select the **DotNetNuke Community Edition** check box, and click **I Accept**.  
     [![](dotnetnuke/_static/image6.jpg)](dotnetnuke/_static/image5.jpg)
-4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**. 
+4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**.
 
     Once the preinstallation steps complete, the site information window appears.  
    [![](dotnetnuke/_static/image8.jpg)](dotnetnuke/_static/image7.jpg)
@@ -56,7 +56,7 @@ To use Web PI to install this application, complete these steps:
     [![](dotnetnuke/_static/image10.jpg)](dotnetnuke/_static/image9.jpg)
 11. Click **Finish**.  
   
-    The DotNetNuke Installation Wizard web page appears.   
+    The DotNetNuke Installation Wizard web page appears.
     [![](dotnetnuke/_static/image12.jpg)](dotnetnuke/_static/image11.jpg)
 12. On the DotNetNuke Installation Wizard web page, select an installation method, choose your language, and click **Next**.  
   
@@ -95,7 +95,7 @@ To use WebMatrix to install this application, complete these steps:
   
    WebMatrix installs the DotNetNuke software on your local computer. This page appears once installation is complete.  
     [![](dotnetnuke/_static/image24.jpg)](dotnetnuke/_static/image23.jpg)
-5. Click **OK**.   
+5. Click **OK**.
   
    The DotNetNuke application starts as indicated in bottom-left corner of the page.  
     [![](dotnetnuke/_static/image27.jpg)](dotnetnuke/_static/image26.jpg)

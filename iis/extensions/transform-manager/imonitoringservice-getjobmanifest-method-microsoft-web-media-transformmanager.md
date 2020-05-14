@@ -65,8 +65,8 @@ String^ GetJobManifest(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobManifest : 
-        jobDetails:JobDetails -> string 
+abstract GetJobManifest :
+        jobDetails:JobDetails -> string
 ```
 
 ```jscript

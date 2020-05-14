@@ -47,7 +47,7 @@ The providers will follow these steps in communicating with a database:
 
 1. Connect to the database server.
 2. Authenticate as the database user.
-3. Check to see if the database exists, and if the user has access to it. 
+3. Check to see if the database exists, and if the user has access to it.
 
     - If the database does not exist, WebDeploy will attempt to create it using the provided credentials.
     - If the database creation fails, then WebDeploy will exit with a message telling the user that the user does not have sufficient privileges for the required tasks.
@@ -96,7 +96,7 @@ Refer to this [sample](umbraco-cms-sample-files.md "Umbraco Sample") to get you 
 
 Please note that in order to work in both SQL Server and SQL Azure, these two scripts need to be divided in two different files since the connection string are different (SQL Azure does not allow the " USE database" command). For more information about LOGIN and USER creation on SQL Azure, you can refer to [this page](https://msdn.microsoft.com/library/windowsazure/ee336235.aspx). For more information about SQL Azure limitations, you can refer to [this page](https://msdn.microsoft.com/library/windowsazure/ff394102.aspx).
 
-**Usage:** 
+**Usage:**
 
 ***Use a script for creating a login***
 

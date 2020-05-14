@@ -111,18 +111,18 @@ The following information is an extensive list of the features of the Web Deploy
 
 - Seamless integration with IIS Manager and Visual Studio 2010 interface for creating packages and deploying them onto a machine, both locally and remotely.
 - Seamless integration with the Web Platform Installer to install community Web applications simply and easily.
-- Web application packaging: 
+- Web application packaging:
 
     - Can package a Web application or an entire site, including the associated databases.
     - Can package access control lists (ACLs), COM, GAC, and registry settings.
     - Supports both live servers and zipped packages as a source or destination.
-- Web application deployment: 
+- Web application deployment:
 
     - Administrative privileges are not required in order to deploy Web applications.
     - Can add powerful parameters to change text in files when they are deployed (such as prompting to replace a connection string when deploying from quality assurance to staging environments).
     - Integration with the IIS Web Management Service (WMSvc) for remote deployment by non-administrators.
     - Server administrators have granular control over the operations that can be performed and can delegate tasks to non-administrators.
-- Web server migration and synchronization: 
+- Web server migration and synchronization:
 
     - Can synchronize or migrate the entire Web server, a Web site, or application.
     - Synchronizes only the data that has changed.

@@ -50,5 +50,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostEndRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)
  [CHttpModule::OnEndRequest Method](../../web-development-reference/native-code-api-reference/chttpmodule-onendrequest-method.md)

@@ -95,7 +95,7 @@ For more information about advanced logging, see [Advanced Logging (IIS Smooth S
 
 The following example shows initialization of the advanced logging plugin.
 
-``` 
+```
     void MainPage_Loaded(object sender, RoutedEventArgs e)
     {
         // Initialize IIS Advanced Logging.

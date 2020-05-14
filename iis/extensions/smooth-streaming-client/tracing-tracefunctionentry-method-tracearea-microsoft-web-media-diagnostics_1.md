@@ -59,8 +59,8 @@ static void TraceFunctionEntry(
 ```
 
 ``` fsharp
-static member TraceFunctionEntry : 
-        traceArea:TraceArea -> unit 
+static member TraceFunctionEntry :
+        traceArea:TraceArea -> unit
 ```
 
 ```jscript

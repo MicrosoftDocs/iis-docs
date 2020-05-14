@@ -58,7 +58,7 @@ A: To publish a Sitefinity Community Edition website, use the following steps:
 A: If you are publishing to a server where the web site is configured to run in a .NET 4 application pool, you will receive this error because the application requires .NET 2.0. You will also see the following error message displayed:
 
 > **Error**: The requested page cannot be accessed because the related configuration data for the page is invalid.
-> 
+>
 > ![](sitefinity-community-edition-faq/_static/image1.png)
 
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.

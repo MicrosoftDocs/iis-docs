@@ -96,8 +96,8 @@ class DeviceFilter : CollectionElement
   
 ## See Also  
  [System.Web.Configuration.SystemWebSectionGroup.DeviceFilters](/dotnet/api/system.web.configuration.systemwebsectiongroup.devicefilters)
- [\<filter> Element](https://go.microsoft.com/fwlink/?LinkId=69324)   
- [Device-Specific Rendering](https://go.microsoft.com/fwlink/?LinkId=69323)   
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [DeviceFiltersSection Class](../wmi-provider/devicefilterssection-class.md)   
+ [\<filter> Element](https://go.microsoft.com/fwlink/?LinkId=69324)
+ [Device-Specific Rendering](https://go.microsoft.com/fwlink/?LinkId=69323)
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
+ [DeviceFiltersSection Class](../wmi-provider/devicefilterssection-class.md)
  [System.Web.Mobile.MobileCapabilities Class](https://go.microsoft.com/fwlink/?LinkId=69325)

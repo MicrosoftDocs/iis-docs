@@ -61,8 +61,8 @@ static void Initialize(
 ```
 
 ``` fsharp
-  static member Initialize : 
-        logger:Logger -> unit 
+  static member Initialize :
+        logger:Logger -> unit
 ```
 
 ```jscript

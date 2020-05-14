@@ -255,7 +255,7 @@ To effectively manage a Web server, it is necessary to get feedback on the activ
 
 The Apache HTTP Server provides comprehensive and flexible logging capabilities:
 
-- **Error logs.** The server error log, whose name and location is set by the ErrorLog directive, is the most important log file. This is where Apache Httpd sends diagnostic information and records any errors that it encounters in processing requests. It is the first place to look when a problem occurs with starting or operating the server, since it often contains details of what went wrong and how to fix it.   
+- **Error logs.** The server error log, whose name and location is set by the ErrorLog directive, is the most important log file. This is where Apache Httpd sends diagnostic information and records any errors that it encounters in processing requests. It is the first place to look when a problem occurs with starting or operating the server, since it often contains details of what went wrong and how to fix it.
   
    A wide variety of different messages can appear in the error log. The error log also contains debugging output from CGI scripts. Any information written to stderr by a CGI script is copied directly to the error log.  
   

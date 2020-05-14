@@ -64,8 +64,8 @@ void UpdateCredential(
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract UpdateCredential : 
-        credential:Credential -> unit 
+abstract UpdateCredential :
+        credential:Credential -> unit
 ```
 
 ```jscript

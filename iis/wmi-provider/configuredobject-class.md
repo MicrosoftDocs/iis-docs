@@ -47,8 +47,8 @@ class ConfiguredObject : Object
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Application Class](../wmi-provider/application-class.md)   
- [Object Class](../wmi-provider/object-class.md)   
- [Server Class](../wmi-provider/server-class.md)   
- [Site Class](../wmi-provider/site-class.md)   
+ [Application Class](../wmi-provider/application-class.md)
+ [Object Class](../wmi-provider/object-class.md)
+ [Server Class](../wmi-provider/server-class.md)
+ [Site Class](../wmi-provider/site-class.md)
  [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)

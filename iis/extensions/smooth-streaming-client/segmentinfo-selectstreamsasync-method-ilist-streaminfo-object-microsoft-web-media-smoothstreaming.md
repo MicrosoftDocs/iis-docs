@@ -58,14 +58,14 @@ instance.SelectStreamsAsync(selectedStreams, _
 ```cpp
   public:
 void SelectStreamsAsync(
-    IList<StreamInfo^>^ selectedStreams, 
+    IList<StreamInfo^>^ selectedStreams,
     Object^ userState
 )
 ```
 
 ```jscript
   public function SelectStreamsAsync(
-    selectedStreams : IList<StreamInfo>, 
+    selectedStreams : IList<StreamInfo>,
     userState : Object
 )
 ```

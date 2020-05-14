@@ -12,7 +12,7 @@ Gets or sets the type name of the configuration section group.
 HRESULT get_Type(  
    [out,  
    retval] BSTR* pbstrType  
-);   
+);
 HRESULT put_Type(  
    BSTR bstrType  
 );  

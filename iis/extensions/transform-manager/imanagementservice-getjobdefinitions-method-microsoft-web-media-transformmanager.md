@@ -58,7 +58,7 @@ Collection<JobDefinition^>^ GetJobDefinitions()
 
 ``` fsharp
 [<OperationContractAttribute>]
-abstract GetJobDefinitions : unit -> Collection<JobDefinition> 
+abstract GetJobDefinitions : unit -> Collection<JobDefinition>
 ```
 
 ```jscript

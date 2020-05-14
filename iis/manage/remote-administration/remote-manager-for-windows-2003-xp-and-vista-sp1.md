@@ -27,7 +27,7 @@ These requirements must be met in order to continue with the procedures in this 
 ## Installing on Windows Vista
 
 1. Ensure that you meet the installation requirements for Windows Vista®. Note that you must install the IIS Management Console (see how by clicking [here](https://blogs.iis.net/bdela/#InstallingMgtConsole)).
-2. Download the Remote Manager installer from:   
+2. Download the Remote Manager installer from:
  32 bit (x86) - [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
  64 bit (x64) - [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager)  
  If you are running the 64 bit version of Windows Vista, ensure that you download the 64 bit installer. The 32 bit installer will not work on 64 bit Windows Vista.

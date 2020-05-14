@@ -92,12 +92,12 @@ Fiddler output when compression is not working:
 
     [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample8.cmd)]
 
-    **In IIS7:** 
+    **In IIS7:**
 
     [!code-xml[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample9.xml)]
 6. **Check if file type you want to compress is listed in the appropriate File Extensions sections at the /gzip and /deflate nodes:** Once you turn on compression with the HcDoDynamicCompression and/or HcDoStaticCompression keys, you have to make sure to tell IIS which file types to actually compress. By default, we compress htm, html, and txt for STATIC compression, and asp, dll, and exe for DYNAMIC compression. If you want different file types compressed, for example aspx, you need to add it to the appropriate file extension section in the /gzip and-or /deflate nodes, depending on the type of compression you're using. For static file compression (like html, txt, and xml), you add the file extensions to the HcFileExtensions property. For dynamic compression (like asp, aspx, asmx) you add it to the HcScriptFileExtension property.
 
-    **For static files:** 
+    **For static files:**
 
     [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample10.cmd)]
 
@@ -107,7 +107,7 @@ Fiddler output when compression is not working:
 
     [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample12.cmd)]
 
-    **For dynamic files:** 
+    **For dynamic files:**
 
     [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample13.cmd)]
 
@@ -115,7 +115,7 @@ Fiddler output when compression is not working:
 
     [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample14.cmd)]
 
-    **IN IIS7:** 
+    **IN IIS7:**
 
     [!code-xml[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample15.xml)]
 
@@ -124,7 +124,7 @@ Fiddler output when compression is not working:
 7. **Check if compression is set at the master level, but is getting overridden by a setting at a child level:** Compression would be enabled at the w3svc/filters/compression level, however if may be possible that it's getting overridden by a setting at the web site/application level.
 
     **For eg:** If you have HcDoDynamicCompression set to TRUE at w3svc/filters/compression level, and for the default web site have DoDynamicCompression set to FALSE, dynamic compression will NOT occur for responses to requests for the Default Web Site.
-8. **Check if an anti-virus program has scanned the directory where the compressed files get stored:** 
+8. **Check if an anti-virus program has scanned the directory where the compressed files get stored:**
 
     When compression is enabled on a server running Internet Information Services (IIS), and an HTTP request is served from the IIS compression directory, a 0-byte file may be returned instead of the expected file.
 
@@ -137,7 +137,7 @@ Fiddler output when compression is not working:
 
     Refer: [https://support.microsoft.com/?id=817442](https://support.microsoft.com/?id=817442)
 9. **Check if the URL being requested contains a slash as part of the parameters passed to the executing DLL file.**
-10. **ISAPI filters modifying the request/response headers:** 
+10. **ISAPI filters modifying the request/response headers:**
 
     An ISAPI is doing the send operation and is not sending the complete set of HTTP headers along with the entity to HTTP\_COMPRESSION::DoDynamicCompression. Since DoDynamicCompression doesn't receive all the data it should from the ISAPI, we cannot compress the response. Third party and/or non-Microsoft ISAPIs have been seen to do this by putting the headers in the function meant for the entity body or the entity body in the function meant for the HTTP headers, or by not providing any headers whatsoever. When this happens, things like the ISAPI filter SF\_NOTIFY\_SEND\_RESPONSE, or AddResponseHeaders, or dynamic compression will fail. The ISAPI needs to put the headers and the entity in the right locations, respectively.
 11. **The response status code is something other than 200. In IIS 6/7, only responses with an HTTP 200 status will get compressed.**
@@ -146,7 +146,7 @@ Fiddler output when compression is not working:
 12. **If the request contains a Via: header:** The Via headers indicates that the request is coming to IIS via a Proxy. Many proxies don't handle the compression header correctly and give compressed data to clients when they aren't supposed to, so by default we don't allow compressed responses when the request has a Via header. You can override this by setting the HcNoCompressionForProxies metabase key to True.
 13. The request is for a static page, and the response contains document footer. Document footers will cause static compression to fail.
 14. **Static compression not working:** This may happen if you have a wild card application mapping installed at the root level in IIS. For eg. We have application mappings for the .html or .txt extensions) on the server and this will make IIS consider your requests to .txt as Dynamic requests instead of Static and since .txt is not an extension in the dynamic compression list, it does not get compressed.
-15. **IIS Compression and "Accept-Encoding: identity":** 
+15. **IIS Compression and "Accept-Encoding: identity":**
 
     According to RFC2616 :
 
@@ -193,7 +193,7 @@ Fiddler output when compression is not working:
 
     For a detailed list of compression errors, please reference the tables in appendix.
 
-    **Appendix:** 
+    **Appendix:**
 
     Table 1: Reasons apply to both IIS 6 and IIS 7
 

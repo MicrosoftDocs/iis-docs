@@ -45,5 +45,5 @@ class NamespaceElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
+ [CollectionElement Class](../wmi-provider/collectionelement-class.md)
  [NamespaceInfo Class](../wmi-provider/namespaceinfo-class.md)

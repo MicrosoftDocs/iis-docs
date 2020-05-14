@@ -29,14 +29,14 @@ DownloaderResponse pDownloaderResponse
 
 ```cpp
 HRESULT ResponseData(
-[in] DownloaderRequest* pDownloaderRequest, 
+[in] DownloaderRequest* pDownloaderRequest,
 [in] DownloaderResponse* pDownloaderResponse
 )
 ```
 
 ```jscript
 function ResponseData(
-pDownloaderRequest : DownloaderRequest, 
+pDownloaderRequest : DownloaderRequest,
 pDownloaderResponse : DownloaderResponse
 )
 ```

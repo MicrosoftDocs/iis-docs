@@ -96,7 +96,7 @@ Metabase history was a file-based, rather than directory-based, like the IIS 7.0
 > [!NOTE]
 > It is likely that your copy will not show immediately after following these steps. This is based on the default value of two minutes. If you find that no copy is created, check to make sure that you have waited two minutes.
 
-1. Click **Start**, **Run**, and open `%systemdrive%\inetpub\history`.    
+1. Click **Start**, **Run**, and open `%systemdrive%\inetpub\history`.
 [![](using-configuration-history-with-iis-7-and-iis-8/_static/image21.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image20.png)  
     **Figure 9: Configuration History Default Path**
 2. Double-click the history folder and locate the most recent change.  
@@ -133,7 +133,7 @@ The next step is to add the configuration section, and then add the attribute wi
 1. To locate configHistory section, click **CTRL-F** and enter &lt;system.applicationHost.  
     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image27.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image26.png)  
     **Figure 12: Locating system.applicationHost Section Group**
-2. Now that you are in the right section, add the correct attribute and value for maxHistory. Type the following text into your system.applicationHost section group: 
+2. Now that you are in the right section, add the correct attribute and value for maxHistory. Type the following text into your system.applicationHost section group:
 
     [!code-xml[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample2.xml)]
 
@@ -155,13 +155,13 @@ After completing, the configHistory section looks like the following:
 
 ### Step 4: Execute Script to Cause History Creation
 
-1. Open Notepad. Copy and paste the following: 
+1. Open Notepad. Copy and paste the following:
 
     [!code-vb[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample4.vb)]
 2. Save this as ConfigHst.vbs (ensure that you choose All Files to avoid saving as a text file).  
     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image29.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image28.png)  
     **Figure 13: Saving VBS Script**
-3. Run this VBS file by opening a command prompt, locating the file location where saved, and type the following: 
+3. Run this VBS file by opening a command prompt, locating the file location where saved, and type the following:
 
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample5.cmd)]
 
@@ -191,7 +191,7 @@ We use in this task a method to modify the configuration--in this case, the IIS 
 ### Step 1: Create Directory for History
 
 1. **Click** Start, select **Run**, and thentype **CMD** and Click **OK**.
-2. At the command prompt, create your directory by typing the following: 
+2. At the command prompt, create your directory by typing the following:
 
     md MyWebHistory
 
@@ -205,7 +205,7 @@ This step is required because no directory is automatically created if it does n
 2. At the command prompt, change directories by typing the following:
 
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample6.cmd)]
-3. To familiarize yourself with AppCmd's syntax, type the following: 
+3. To familiarize yourself with AppCmd's syntax, type the following:
 
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample7.cmd)]
 
@@ -225,7 +225,7 @@ At this point, change the value for the path attribute to a value that is more a
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample9.cmd)]
 
     This command help you understand what the currently set attributes and values are on our system.
-2. Now issue the following command to change the path attribute from the default of `%systemdrive%inetpub\history` to `%systemdrive%MyWebHistory` – 
+2. Now issue the following command to change the path attribute from the default of `%systemdrive%inetpub\history` to `%systemdrive%MyWebHistory` –
 
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample10.cmd)]
 3. To validate the change, type the following and verify that maxHistories and period are set appropriately.
@@ -264,7 +264,7 @@ It is not useful to have a history feature without offering a method for restori
 
 [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample13.cmd)]
 
- This command will list the available backups, including manual backups made with the appcmd add backup command, as well as backups made by the configuration history service. You can use the appcmd restore backup command to restore any one of these, as shown in the next step 
+ This command will list the available backups, including manual backups made with the appcmd add backup command, as well as backups made by the configuration history service. You can use the appcmd restore backup command to restore any one of these, as shown in the next step
 
 ### Step 2: Restore the backup
 

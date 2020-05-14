@@ -55,7 +55,7 @@ void RequestLog()
 ```
 
 ``` fsharp
-member RequestLog : unit -> unit 
+member RequestLog : unit -> unit
 ```
 
 ```jscript

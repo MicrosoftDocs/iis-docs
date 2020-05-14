@@ -43,6 +43,6 @@ class SwitchSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)   
+ [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)
+ [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)

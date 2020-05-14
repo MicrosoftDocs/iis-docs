@@ -46,6 +46,6 @@ virtual VOID RecycleApplication(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpApplication::GetAppConfigPath Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getappconfigpath-method.md)   
- [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpApplication::GetAppConfigPath Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getappconfigpath-method.md)
+ [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)
  [IHttpServer::RecycleProcess Method](../../web-development-reference/native-code-api-reference/ihttpserver-recycleprocess-method.md)
