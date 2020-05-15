@@ -53,7 +53,7 @@ The second scenario deploys the services to run as a Windows Service. This deplo
 
 Validate the installation using the following steps.
 
-1. Browse to the following url: http://&lt;hostheader&gt;/webmanagementservice.svc . The following page appears if the installation was successful, which indicates that the service is now hosted.
+1. Browse to the following url: `http://<hostheader>/webmanagementservice.svc`. The following page appears if the installation was successful, which indicates that the service is now hosted.
 
     [![](services-overview/_static/image2.jpg)](services-overview/_static/image1.jpg)
 

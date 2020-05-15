@@ -200,7 +200,7 @@ Configure and enable disk cache by following the [Configure and Enable Disk Cach
     **Type:** Matches the pattern  
     **Pattern:** \*  
     **Action Type:** Rewrite  
-    **Rewrite URL:** http://{C:1}/{R:0}  
+    **Rewrite URL:** `http://{C:1}/{R:0}`  
 
     ![](deploying-application-request-routing-in-cdn/_static/image29.jpg)
 11. **The parent cache node configuration is complete.**  

@@ -298,7 +298,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: The provider path is invalid.
 
-**Resolution**: Depending on the provider you are using, the required path for your provider may be different. Visit https://technet.microsoft.com/library/dd569040(WS.10).aspx to find out more about the provider you are using.
+**Resolution**: Depending on the provider you are using, the required path for your provider may be different. Visit <https://technet.microsoft.com/library/dd569040(WS.10).aspx> to find out more about the provider you are using.
 
 <a id="ERROR_INVALID_SETTING_SPECIFIED"></a>
 

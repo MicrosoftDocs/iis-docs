@@ -22,7 +22,7 @@ class ApplicationElementDefaults : EmbeddedObject
 |----------|-----------------|  
 |`ApplicationPool`|A read/write `string` value that specifies the default application pool for new applications. The default is "DefaultAppPool".|  
 |`EnabledProtocols`|A read/write array of `string` values that contains the protocols that are enabled by default for new applications.|  
-|`Path`|A read-only `string` value that specifies the default virtual path of the application after the host header. For example, if you have an application at http://www.alpineskihouse.com/Skis/Downhill, the value of the `Path` property is "/Skis/Downhill". A key property.|  
+|`Path`|A read-only `string` value that specifies the default virtual path of the application after the host header. For example, if you have an application at `http://www.alpineskihouse.com/Skis/Downhill`, the value of the `Path` property is "/Skis/Downhill". A key property.|  
   
 ## Subclasses  
  This class contains no subclasses.  

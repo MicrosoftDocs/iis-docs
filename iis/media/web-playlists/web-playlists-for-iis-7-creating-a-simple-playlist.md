@@ -68,7 +68,7 @@ The following properties are available to be set:
    - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
 
        - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
-       - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
+       - Remote content is a URL to a media file (for example, `http://<myServer>/myfile.wmv`) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
 
      See the sections later in this article that describe how to add nested playlists and integrate with Web applications to obtain content location.
 

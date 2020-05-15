@@ -199,7 +199,7 @@ When these diagnostics events are emitted into IIS's tracing infrastructure, the
 
 ### Testing and Viewing the Results
 
-In this task, we generate the failed request and view the resulting trace log. Remember, we configured IIS to capture trace logs for http://localhost/\* requests that fail with a 200. To verify that it worked:
+In this task, we generate the failed request and view the resulting trace log. Remember, we configured IIS to capture trace logs for `http://localhost/*` requests that fail with a 200. To verify that it worked:
 
 1. Open a new Internet Explorer window. Type in the address [http://localhost/test.htm](http://localhost/test.htm). Again, you see the following:  
     [![](how-to-add-tracing-to-iis-managed-modules/_static/image22.png)](how-to-add-tracing-to-iis-managed-modules/_static/image21.png)

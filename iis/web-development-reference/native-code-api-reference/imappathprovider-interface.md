@@ -23,7 +23,7 @@ class IMapPathProvider : public IHttpEventProvider
 |[SetPhysicalPath](../../web-development-reference/native-code-api-reference/imappathprovider-setphysicalpath-method.md)|Sets the physical path mapping for the current request.|  
   
 ## Remarks  
- When a Web client requests a resource on a server running IIS, IIS maps the relative URL to a physical path for processing. For example, if a Web client requests a Web page at http://www.example.com/default.asp, the relative URL on the server is /default.asp, and the physical path might be C:\Inetpub\Wwwroot\default.asp.  
+ When a Web client requests a resource on a server running IIS, IIS maps the relative URL to a physical path for processing. For example, if a Web client requests a Web page at `http://www.example.com/default.asp`, the relative URL on the server is /default.asp, and the physical path might be C:\Inetpub\Wwwroot\default.asp.  
   
  The `IMapPathProvider` interface allows developers to retrieve the relative URL and physical path by using the `GetUrl` and `GetPhysicalPath` methods, or to modify the physical path by using the `SetPhysicalPath` method.  
   

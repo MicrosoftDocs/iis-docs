@@ -70,7 +70,7 @@ You will need to run the installation package as an administrator. This can be a
 
 [!code-console[Main](microsoft-web-deploy-v2-readme/samples/sample1.cmd)]
 
-**Important Note!** By default, setup will offer you the choice of installing the remote service and will use a default remote service URL, http://+:80/MSDEPLOY.
+**Important Note!** By default, setup will offer you the choice of installing the remote service and will use a default remote service URL, `http://+:80/MSDEPLOY`.
 
 You can set the remote service URL to a custom URL by running setup from the command-line: (where the port and URL are specified, please customize):
 

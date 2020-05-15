@@ -35,4 +35,4 @@ When you deploy Dynamic Host Configuration Protocol (DHCP) servers on your netwo
 > - If DHCP is installed on a server that is located in a different sub-net, then you must do one of the following:
 >
 >    - Recommended: configure your IP Helper tables. All DHCP broadcasts on UDP port 67 by client computers should be forwarded directly to both the DHCP server and the Windows Deployment Services PXE server. Also, all traffic to UDP port 4011 from the client computers to the Windows Deployment Services PXE server should be routed appropriately (these requests direct traffic to the server, not broadcasts).
->    - Add DHCP options 66 and 67. For more information, see the PXE Boot chapter at https://go.microsoft.com/fwlink/?LinkId=88439.
+>    - Add DHCP options 66 and 67. For more information, see the PXE Boot chapter at <https://go.microsoft.com/fwlink/?LinkId=88439>.

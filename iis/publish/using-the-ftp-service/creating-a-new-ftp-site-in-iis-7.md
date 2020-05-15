@@ -219,7 +219,7 @@ The following steps walk you through all of the required settings to create a ne
 
 7. Save your ApplicationHost.config file.
 
-You should now be able to log in to your newly created FTP site using an FTP client. To use Internet Explorer anonymously on your IIS server, enter ftp://localhost in the Internet Explorer address bar. You should be logged in and see your files anonymously; you should not be prompted for user credentials.
+You should now be able to log in to your newly created FTP site using an FTP client. To use Internet Explorer anonymously on your IIS server, enter `ftp://localhost` in the Internet Explorer address bar. You should be logged in and see your files anonymously; you should not be prompted for user credentials.
 
 ### Summary
 

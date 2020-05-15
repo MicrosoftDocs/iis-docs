@@ -65,7 +65,7 @@ On your IIS server, open Windows Task Manager (for example, press Ctrl + Shift +
 
 [![](bit-rate-throttling-configuration-walkthrough/_static/image6.png)](bit-rate-throttling-configuration-walkthrough/_static/image5.png)
 
-On a client computer that has network access to your IIS server, open Windows Media Player, and then launch the **Open URL** dialog box (for example, press Ctrl + U). Type in the address of the IIS server Default Web Site in the **Open** field (for example, http://&lt;*server*\_*name*&gt;/test.wmv) as shown below, and click **OK**.
+On a client computer that has network access to your IIS server, open Windows Media Player, and then launch the **Open URL** dialog box (for example, press Ctrl + U). Type in the address of the IIS server Default Web Site in the **Open** field (for example, `http://<server_name>/test.wmv`) as shown below, and click **OK**.
 
 [![](bit-rate-throttling-configuration-walkthrough/_static/image8.png)](bit-rate-throttling-configuration-walkthrough/_static/image7.png)
 

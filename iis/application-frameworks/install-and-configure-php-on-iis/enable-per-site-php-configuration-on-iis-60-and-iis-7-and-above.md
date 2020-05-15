@@ -41,7 +41,7 @@ For example, suppose you have two Web sites in IIS 6.0, website1.com and website
     - Copy php.ini into `C:\Inetpub\website1.com`
     - Create a phpinfo.php file in `C:\Inetpub\website1.com`
     - Place this code inside of phpinfo.php: &lt;?php phpinfo(); ?&gt;
-    - Open web browser and make a request to http://website1.com/phpinfo.php. The output of phpinfo.php file will show the location from where php.ini file was loaded:  
+    - Open web browser and make a request to `http://website1.com/phpinfo.php`. The output of phpinfo.php file will show the location from where php.ini file was loaded:  
         ![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)  
         *Figure 1 website1*
 

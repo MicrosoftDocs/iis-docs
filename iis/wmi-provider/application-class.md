@@ -29,7 +29,7 @@ class Application : ConfiguredObject
 |----------|-----------------|  
 |`ApplicationPool`|A read/write `string` value that specifies a case-sensitive name for the application pool for an application. The default is "DefaultAppPool".|  
 |`EnabledProtocols`|A read/write `string` array that specifies the protocols that requests can use to access an application. A value of either "HTTP" or "HTTPS" enables both HTTP and HTTPS. If neither "HTTP" nor "HTTPS" is specified, neither is enabled for the application. The default is "HTTP". To accept only HTTPS requests, configure the Secure Sockets Layer (SSL) feature for the site.|  
-|`Path`|A read-only `string` value that specifies the virtual path of the application after the host header. For example, if you have an application at http://www.alpineskihouse.com/Skis/Downhill, the `Path` property is /Skis/Downhill. A key property.|  
+|`Path`|A read-only `string` value that specifies the virtual path of the application after the host header. For example, if you have an application at `http://www.alpineskihouse.com/Skis/Downhill`, the `Path` property is /Skis/Downhill. A key property.|  
 |`SiteName`|A read-only `string` value that specifies the unique name of the Web site. A key property.|  
 |`VirtualDirectoryDefaults`|A [VirtualDirectoryElementDefaults](../wmi-provider/virtualdirectoryelementdefaults-class.md) object whose read/write properties specify default values for virtual directories under the application.|  
   

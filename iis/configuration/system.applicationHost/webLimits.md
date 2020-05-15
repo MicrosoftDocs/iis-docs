@@ -38,7 +38,7 @@ With dynamic site activation, the IIS service will likely start more quickly and
 Dynamic site activation is enabled when the number of sites handled by a server is greater than a pre-set limit. By default, that limit is 100. If you do not change that value, a site will be activated dynamically on a server that hosts more than 100 sites. For 100 or fewer sites, on the other hand, all sites will be activated upon startup. You can change that limit by changing the dynamicRegistrationThreshold attribute. Note that the performance gain for a server with a lower number of sites will be smaller than with significantly more sites.
 
 > [!NOTE]
-> When Dynamic site activation is enabled, users are not allowed to use an IP address to send a web request. For example, if users try to browse to HTTP://127.0.0.1, they will receive a 400 Bad Request Error.
+> When Dynamic site activation is enabled, users are not allowed to use an IP address to send a web request. For example, if users try to browse to `HTTP://127.0.0.1`, they will receive a 400 Bad Request Error.
 
 <a id="002"></a>
 ## Compatibility

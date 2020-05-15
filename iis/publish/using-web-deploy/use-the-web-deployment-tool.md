@@ -67,7 +67,7 @@ The tool will be installed to %programfiles%\IIS\Microsoft Web Deploy. This cann
 
 #### Starting the remote service after installation
 
-The remote service listens on http://+/msdeployagentservice/ by default or at the URL that you specified if you performed a custom installation.
+The remote service listens on `http://+/msdeployagentservice/` by default or at the URL that you specified if you performed a custom installation.
 
 You should now start the remote service. You can do this by going to **Start** &gt; **Run**, and then typing **services.msc**. The service is listed as the Microsoft Web Deployment Agent Service.
 

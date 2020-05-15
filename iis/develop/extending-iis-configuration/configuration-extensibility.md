@@ -166,7 +166,7 @@ The required steps include:
 
     This adds the necessary configuration entry to the applicationHost.config file - IIS's global configuration file.
 
-8. The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
+8. The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to `http://localhost/`. You see the following:  
 
    ![](configuration-extensibility/_static/image1.jpg)
 

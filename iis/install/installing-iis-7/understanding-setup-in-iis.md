@@ -866,7 +866,7 @@ Pkgmgr.exe also can accept input form an unattend.xml file. Use this file to lis
 
 ## Custom Installations
 
-Each of the four walkthroughs described in the previous section provide step-by-step instructions for installing all of the IIS features. Installing all IIS features is required if you intend to try some of the other IIS feature walkthroughs on https://www.iis.net, but is not recommended for real-world development or deployment scenarios.
+Each of the four walkthroughs described in the previous section provide step-by-step instructions for installing all of the IIS features. Installing all IIS features is required if you intend to try some of the other IIS feature walkthroughs on <https://www.iis.net>, but is not recommended for real-world development or deployment scenarios.
 
 When planning an installation of IIS for your development or deployment environments, you should install only the features required by your applications. Minimizing the IIS components installed in this manner has several benefits:
 

@@ -23,7 +23,7 @@ So far, we have configured Web Deploy on a server so non-administrators can depl
      [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image2.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image1.png)
 4. Fill in the dialog as below: 
 
-   1. Service URL. This is perhaps the most important component of this whole screen. Since we are deploying as Administrator, we can simply deploy using the Remote Agent Service. Entering a URL of the form http://{serverName} causes Visual Studio 2010 to deploy using the Remote Agent Service. Not the HTTP prefix.
+   1. Service URL. This is perhaps the most important component of this whole screen. Since we are deploying as Administrator, we can simply deploy using the Remote Agent Service. Entering a URL of the form `http://{serverName}` causes Visual Studio 2010 to deploy using the Remote Agent Service. Not the HTTP prefix.
    2. Site/application. This is the name of the IIS site and application we are deploying to. For now, we will just deploy to Default Web Site.
    3. Enter Administrator in User name and the password for the Administrator user on the server.   
        [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image4.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image3.png)
@@ -44,7 +44,7 @@ So far, we have configured Web Deploy on a server so non-administrators can depl
 4. Fill out the dialog like below:  
     [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image12.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image11.png)
 
-    Note that the Service URL field is slightly different for non-administrator deployments. Filling in just the server name in this field is equivalent to filling in https://{serverName}:8172/MsDeploy.axd, which instructs Web Deploy to deploy using the Web Management Service, which supports non-administrator deployments.
+    Note that the Service URL field is slightly different for non-administrator deployments. Filling in just the server name in this field is equivalent to filling in `https://{serverName}:8172/MsDeploy.axd`, which instructs Web Deploy to deploy using the Web Management Service, which supports non-administrator deployments.
 5. Click Publish. The Output Windows shows that Web Deploy is indeed deploying over the Web Management Service:  
     [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image14.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image13.png)
 6. If the application does not render correctly in the browser, follow the troubleshooting steps given above in "Testing Administrator Deployment from Visual Studio 2010"

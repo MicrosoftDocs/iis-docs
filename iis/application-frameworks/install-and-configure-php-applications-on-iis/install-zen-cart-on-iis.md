@@ -62,7 +62,7 @@ You must create files to identify the settings of your particular server and the
 The installer automatically supplies information during installation, but you must confirm that the auto-detected answers are correct (they may differ on some servers):
 
 1. Confirm the *physical path* to your Zen Cart directory (for example, `C:\Inetpub\wwwroot\zencart`).
-2. Go to the http://localhost/zc\_install/zencart/install.php page for detailed setup instructions.
+2. Go to the `http://localhost/zc_install/zencart/install.php` page for detailed setup instructions.
 3. On the **Welcome** screen, click **Continue.**
 4. At the **license page**, read and confirm acceptance of the GPL licensing agreement.
 5. The installer examines your server for compliance with the technical requirements for running Zen Cart. Anything marked in red or with an "X" must be addressed before the installer can continue. Items marked with an orange or yellow caution symbol are simply warnings that may or may not apply to your setup at this point.

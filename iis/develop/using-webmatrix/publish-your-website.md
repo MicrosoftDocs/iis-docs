@@ -58,7 +58,7 @@ After your account is set up, the hosting provider typically sends you an email 
 - *User Name*: user123
 - *Password*: *password*
 - *Site Name*: user123.webmatrix01.contoso.com
-- *Destination URL:* http://user123.webmatrix01.contoso.com
+- *Destination URL:* `http://user123.webmatrix01.contoso.com`
 
 If your hosting account includes a SQL Server database, you'll also get information that you will need to publish your database, which will typically look like this:
 

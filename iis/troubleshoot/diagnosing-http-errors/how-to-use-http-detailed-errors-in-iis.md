@@ -25,7 +25,7 @@ This article talks about HTTP errors as specified in the HTTP RFC [(RFC 2616](ht
 
 ### Client Errors
 
-Status codes between 400 and 500 specify an error that the client made, e.g. bad syntax or a request to a resource that doesn't exist. You can try this by requesting a bogus URL from the web-site of your choice, for example: http://&lt;IIS7Server&gt;/this\_resource\_does\_not\_exist. You get a "404 - File not found" error.
+Status codes between 400 and 500 specify an error that the client made, e.g. bad syntax or a request to a resource that doesn't exist. You can try this by requesting a bogus URL from the web-site of your choice, for example: `http://<IIS7Server>/this_resource_does_not_exist`. You get a "404 - File not found" error.
 
 ### Server Errors
 
@@ -44,7 +44,7 @@ There are two things that can happen when the httpError module (custerr.dll) enc
 - A custom error is generated
 - A detailed error is generated
 
-Custom errors are error pages that the regular users of your web-site see. They contain a brief error description of why the error happened, but nothing else. Here is the custom error generated when you request a resource that does not exist, for example: http://&lt;IIS7Server&gt;/this\_resource\_does\_not\_exist
+Custom errors are error pages that the regular users of your web-site see. They contain a brief error description of why the error happened, but nothing else. Here is the custom error generated when you request a resource that does not exist, for example: `http://<IIS7Server>/this_resource_does_not_exist`
 
 [![](how-to-use-http-detailed-errors-in-iis/_static/image2.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image1.jpg)
 

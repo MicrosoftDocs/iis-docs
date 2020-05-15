@@ -45,11 +45,11 @@ To set up the scenario perform the following steps:
 
     [!code-console[Main](using-global-and-distributed-rewrite-rules/samples/sample3.cmd)]
 
-    After adding these lines open a web browser and brows to http://blog\_localhost/blog/article.aspx and to http://forum\_localhost/forum/forum.aspx and verify that the pages were rendered correctly in a browser.
+    After adding these lines open a web browser and browse to `http://blog_localhost/blog/article.aspx` and to `http://forum_localhost/forum/forum.aspx` and verify that the pages were rendered correctly in a browser.
 
 ## Creating a global rewrite rule
 
-First we will create a global rewrite rule that rewrites the URL based on the host header. For example if request was made to http://blog\_localhost/article.aspx then the rule will change URL path to "/blog/article.aspx".
+First we will create a global rewrite rule that rewrites the URL based on the host header. For example if request was made to `http://blog_localhost/article.aspx` then the rule will change URL path to "/blog/article.aspx".
 
 To create a global rule by using URL Rewrite UI in IIS Manager follow these steps:
 

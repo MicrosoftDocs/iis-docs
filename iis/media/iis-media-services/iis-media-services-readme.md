@@ -312,6 +312,7 @@ If you are installing IIS Media Services for the first time, or if you are upgra
 
 Applies To: IIS Media Services 4, IIS Media Services 3
 
+<!-- markdownlint-disable MD034 -->
 When you use XSL Transformation (XSLT) style sheets in Web Playlists to specify alternate output formats in the Web Playlists response to clients, you must specify an output format name. The output format name is attached to the query string in the playlist URL returned to clients. For example, http://<em>ServerName</em>/*PlaylistName*.isx?format=*FormatName*, where *FormatName* is any name that you use to identify the output format. The query string is the part of the URL after the question mark (?) character (format=*FormatName*).
 
 Web Playlists encodes the URLs returned to clients according to Internet standards described in [RFC 1738: Uniform Resource Locators (URL)](https://go.microsoft.com/?linkid=9735243). Special characters (such as a space, brackets (&lt; and &gt;), ampersand (&amp;), and so on) that you include in the output format name in the query strings returned to clients aren't encoded and some clients might not be able to parse the URL by using escape characters and view the transformed output. To ensure that all clients can view the transformed output, we recommend that you don't use special characters in XSLT output format names. If you want to use a space in your output format name, use the hyphen (-) character instead, as most web browsers recognize the hyphen as a space separator.

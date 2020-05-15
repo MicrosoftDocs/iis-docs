@@ -203,7 +203,7 @@ Out of the box, you cannot add bindings for protocols other than HTTP and HTTPS 
 <a id="453"></a>
 ### Require SSL for Your Site
 
-Secure Sockets Layer (SSL) encryption protects confidential or personal information sent between a client and a server. When SSL is enabled, remote clients access your site by using URLs that start with https://.
+Secure Sockets Layer (SSL) encryption protects confidential or personal information sent between a client and a server. When SSL is enabled, remote clients access your site by using URLs that start with `https://`.
 
 First configure a server certificate and create an HTTPS binding to enable any SSL settings. Then require Secure Sockets Layer (SSL) encryption in one or more of the following circumstances:
 

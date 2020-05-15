@@ -40,7 +40,7 @@ class DirectoryBrowseSection : ConfigurationSection
 ## Remarks  
  If directory browsing is enabled for a directory in IIS, users receive a page that lists the contents of the directory when the following are true:  
   
-- The user does not specify a file in the URL (for example, the user goes to http://www.contoso.com/ instead of http://www.contoso.com/default.htm).  
+- The user does not specify a file in the URL (for example, the user goes to `http://www.contoso.com/` instead of `http://www.contoso.com/default.htm`).  
   
 - Default documents are disabled in IIS, or IIS is unable to locate a file in the directory that matches a name specified in the IIS default document list.  
   

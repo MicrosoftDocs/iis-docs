@@ -124,7 +124,7 @@ Expand the "Server Variables..." and specify the values to use for setting the s
 ![](setting-http-request-headers-and-iis-server-variables/_static/image31.png)
 
 - Name: HTTP\_COOKIE, Value: Language={C:1}
-- Name: ORIGINAL\_URI, Value: http://{HTTP\_HOST}{REQUEST\_URI}
+- Name: ORIGINAL\_URI, Value: `http://{HTTP_HOST}{REQUEST_URI}`
 
 The HTTP cookie is set by using the condition back-reference, which contains the locale identifier obtained from the "Languages" rewrite map. The value for the ORIGINAL\_URI server variable is built by using {HTTP\_HOST} and {REQUEST\_URI} server variables.
 
