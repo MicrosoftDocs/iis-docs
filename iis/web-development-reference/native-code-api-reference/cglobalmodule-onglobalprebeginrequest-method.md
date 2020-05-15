@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1c552a04-f229-33c5-af7f-05d28e55b9c9
 ---
 # CGlobalModule::OnGlobalPreBeginRequest Method
+
 Represents the method that will handle a `GlobalPreBeginRequest` event, which occurs before a request enters the pipeline.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalPreBeginRequest(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IPreBeginRequestProvider](../../web-development-reference/native-code-api-reference/iprebeginrequestprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalPreBeginRequest` method before a request enters the request pipeline.  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalPreBeginRequest` event notification by registering for `GL_PRE_BEGIN_REQUEST` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_PRE_BEGIN_REQUEST` notification. When a new request arrives, IIS will call the example module's `OnGlobalPreBeginRequest` method before the request enters the request pipeline. This method will write an entry in the application log of the Windows Event Viewer and then exit.  
   
  [!code-cpp[CGlobalModuleGlobalPreBeginRequest#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleGlobalPreBeginRequest/cpp/CGlobalModuleGlobalPreBeginRequest.cpp#1)]  
@@ -46,4 +51,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalPreBeginRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

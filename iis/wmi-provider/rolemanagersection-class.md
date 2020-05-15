@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4215b69c-7f4b-0364-eaf8-3c63d39a936f
 ---
 # RoleManagerSection Class
+
 Defines configuration settings that are used to support the role management infrastructure of Web applications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class RoleManagerSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `RoleManagerSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class RoleManagerSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `RoleManagerSection` class.  
   
 |Name|Description|  
@@ -50,9 +53,11 @@ class RoleManagerSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `CookieProtection` property. The default is 3 (`All`).  
   
 |Value|Keyword|Description|  
@@ -63,6 +68,7 @@ class RoleManagerSection : ConfigurationSectionWithCollection
 |3|`All`|Specifies that both the `Validation` and `Encryption` values are used to protect the information in the cookie.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -79,6 +85,7 @@ class RoleManagerSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)   
  [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   

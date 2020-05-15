@@ -14,6 +14,7 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 In this phase of building your website, consider the security needs of your ASP.NET application. The following sections describe application security settings available in IIS 8:
 
 <a id="41"></a>
+
 ## 4.1. Isolate Web Applications
 
 One of the most effective ways to improve security for your web application is to isolate it from other applications on your web server. An application pool has its own worker process, which processes requests and runs application code. The worker process has a security identifier (SID). And each application pool has a unique application-pool identity. By default, when you create a web application, a new application pool is also created with the same name as the application. If you keep web applications in separate application pools, you can isolate them from one another.
@@ -29,6 +30,7 @@ Web application isolation entails the following:
 > It is a good idea to host your website and web application content on a drive other than your system drive (C:).
 
 <a id="42"></a>
+
 ## 4.2. .NET Trust Levels
 
 An application *trust level* determines the permissions that the ASP.NET code access security (CAS) policy grants. CAS defines two trust categories: full trust and partial trust. An application that has full trust permissions can access all resource types on a server and perform privileged operations. Applications with full trust are affected only by the security settings of the operating system.
@@ -47,6 +49,7 @@ The following list shows the restrictions associated with each trust level:
 - Minimal trust applications cannot access any resources.
 
 <a id="43"></a>
+
 ## 4.3. .NET Authentication
 
 Authentication helps you confirm the identity of clients who request access to your sites and applications. When authentication is enabled, IIS 8 uses the account credentials supplied by the user to determine what permissions the user has been granted and what resources the user can access.
@@ -57,6 +60,7 @@ This section describes the authentication modes that are specific to ASP.NET app
 2. [ASP.NET Impersonation Authentication](#432)
 
 <a id="431"></a>
+
 ### ASP.NET Forms Authentication
 
 Forms authentication uses client-side redirection to forward unauthenticated users to an HTML form where they can enter their credentials, which are usually a user name and password. After the credentials are validated, users are redirected to the page they originally requested. Forms authentication often employs cookies to pass user credentials between the server and the client browser.
@@ -67,6 +71,7 @@ The following sections describe what you need to know to plan adding forms authe
 2. [Authentication cookies](#4312)
 
 <a id="4311"></a>
+
 #### Forms authentication basics
 
 ASP.NET Forms-based authentication works well for sites or applications on public web servers that receive many requests. This authentication mode lets you manage client registration and authentication at the application level, instead of relying on the authentication mechanisms the operating system provides.
@@ -92,6 +97,7 @@ By default, the login URL for Forms authentication is Login.aspx. You can create
 The default time-out value for Forms authentication is 30 minutes. Consider changing the time-out value to a shorter period, to shorten the session lifetime and to reduce the chance of cookie replay attacks.
 
 <a id="4312"></a>
+
 #### Authentication cookies
 
 Authentication cookies are used as a token to verify that a client has access to some or all pages of an application. By contrast, personalization cookies contain user-specific settings that determine user experience on a specific site or application.
@@ -134,6 +140,7 @@ Consider enabling this setting under the following circumstances:
 > You specify the number of minutes before an authentication cookie times out with **Authentication cookie time-out (in minutes)**.
 
 <a id="432"></a>
+
 ### ASP.NET Impersonation Authentication
 
 Use ASP.NET impersonation when you want to run your ASP.NET application under a security context different from the default security context for ASP.NET applications.
@@ -143,6 +150,7 @@ If you enable impersonation for an ASP.NET application, that application can run
 By default, ASP.NET impersonation is disabled. If you enable impersonation, your ASP.NET application runs under the security context of the user authenticated by IIS 8.
 
 <a id="44"></a>
+
 ## 4.4. Machine Key Settings
 
 Machine keys help protect Forms authentication cookie data and page-level view state data. They also verify out-of-process session state identification. ASP.NET uses the following types of machine keys:
@@ -162,6 +170,7 @@ Before you generate machine keys for your application, make the following design
 - Decide whether to generate a unique decryption key for each application.
 
 <a id="45"></a>
+
 ## 4.5. TLS/SSL Communication
 
 Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL) are protocols that provide communication security your website. You can use TLS/SSL to authenticate servers and clients and then use it to encrypt messages between the authenticated parties.
@@ -176,6 +185,7 @@ To configure TSL/SSL for your website, do the following:
 4. Consider using client certificates for your site. See [Client Certificates](#454).
 
 <a id="451"></a>
+
 ### Server Certificates
 
 You can obtain a server certificate from a certification authority (CA). Obtaining a server certificate from a certification authority is one step in configuring Secure Sockets Layer (SSL) or Transport Layer Security (TLS). You can obtain server certificates from a third-party CA. A third-party CA might require you to provide proof of identity before a certificate is issued. You can also issue your own server certificates by using an online CA, such as Microsoft Certificate Services.
@@ -194,6 +204,7 @@ Certificates can be issued for several uses. These uses include web user authent
 A certificate contains a public key and attaches that public key to the identity of a person, computer, or service that holds the corresponding private key. The public and private keys are used by the client and the server to encrypt the data before it is transmitted. For Windows-based users, computers, and services, trust in a CA is established when there is a copy of the root certificate in the trusted root certificate store and the certificate contains a valid certification path. For the certificate to be valid, the certificate must not have been revoked and the validity period must not have expired.
 
 <a id="452"></a>
+
 ### SSL Binding
 
 You can assign multiple bindings to a site when you have site content that serves different purposes or for which you must use a different protocol. For example, a commerce site might have an application that requires that users log on to an account to purchase merchandise. The company hosts the site over HTTP, but users must log on to their account on an HTTPS page. In this example, the site would have two bindings: one for the HTTP portion and one for the HTTPS portion.
@@ -201,6 +212,7 @@ You can assign multiple bindings to a site when you have site content that serve
 Out of the box, you cannot add bindings for protocols other than HTTP and HTTPS by using IIS Manager. If you want to add a binding for a different protocol, such as a protocol supported by Windows Communication Foundation (WCF), use one of the other administration tools. However, if you install the IIS File Transfer Protocol (FTP) server, you can add FTP bindings by using IIS Manager. There might also be other modules or third-party functionality available for download that extend the UI.
 
 <a id="453"></a>
+
 ### Require SSL for Your Site
 
 Secure Sockets Layer (SSL) encryption protects confidential or personal information sent between a client and a server. When SSL is enabled, remote clients access your site by using URLs that start with https://.
@@ -212,6 +224,7 @@ First configure a server certificate and create an HTTPS binding to enable any S
 3. When you want to use client certificates to authenticate clients that access your server.
 
 <a id="454"></a>
+
 ### Client Certificates
 
 When you want clients to verify their identity before they access content on your web server, configure client certificates. By default, client certificates are ignored.

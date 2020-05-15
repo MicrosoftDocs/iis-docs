@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 37d0d934-27e2-28e7-3220-ffa3103ee865
 ---
 # IWpfActions::RecycleWorkerProcess Method
+
 Enables a protocol manager to request a recycle of the worker process and to log an event to the Event Viewer.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual VOID RecycleWorkerProcess(
 ```  
   
 ### Parameters  
+
  `pszReason`  
  A pointer to a string that contains the reason for the requested recycle that will be logged to the Event Viewer.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Requirements  
@@ -31,5 +34,6 @@ virtual VOID RecycleWorkerProcess(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfActions Interface](../../web-development-reference/native-code-api-reference/iwpfactions-interface.md)   
  [IWpfActions::FailWorkerProcess Method](../../web-development-reference/native-code-api-reference/iwpfactions-failworkerprocess-method.md)

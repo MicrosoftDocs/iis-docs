@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: eeb5d8fa-6242-c708-866e-895fffc2d725
 ---
 # IAppHostSectionGroup::Count Property
+
 Gets the current number of configuration section groups that are nested in the current section group.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Count(
 ```  
   
 ### Parameters  
+
  `pcSectionGroup`  
  A pointer to a `ULONG` that contains the number of configuration section groups that are nested under the current configuration section group object.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

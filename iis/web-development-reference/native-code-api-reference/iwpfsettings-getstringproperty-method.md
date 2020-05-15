@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 45f47ea3-1a10-6bad-326d-45ca18b7e24c
 ---
 # IWpfSettings::GetStringProperty Method
+
 Retrieves a string value from the worker process or application pool settings.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT GetStringProperty(
 ```  
   
 ### Parameters  
+
  `SettingId`  
  [IN] A [WPF_SETTINGS_STRING_ENUM](../../web-development-reference/native-code-api-reference/wpf-settings-string-enum-enumeration.md) value that specifies which string value to return.  
   
@@ -27,6 +29,7 @@ virtual HRESULT GetStringProperty(
  [IN][OUT] A pointer to a `DWORD` buffer that receives the size of the string returned in `pszSetting`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,6 +39,7 @@ virtual HRESULT GetStringProperty(
 |ERROR_INVALID_PARAMETER|Indicates that the specified parameter is not valid. (The parameter is either out of range or not a string.)|  
   
 ## Remarks  
+
  Because the `pszSetting` parameter is optional, it may be NULL. If the size of the string value exceeds the size specified by the `pcchSetting` parameter, the method will return ERROR_INSUFFICIENT_BUFFER.  
   
 ## Requirements  
@@ -48,6 +52,7 @@ virtual HRESULT GetStringProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)   
  [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
  [IWpfSettings::GetDwordProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md)   

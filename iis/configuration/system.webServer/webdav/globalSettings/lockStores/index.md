@@ -10,6 +10,7 @@ msc.type: config
 # WebDAV Lock Store Defintions &lt;lockStores&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The WebDAV module is designed to support multiple lock store providers, which are defined in the `webdav/globalSettings/lockStores` collection. A series of [`<add>`](add.md) elements define the settings for each lock provider in the `<lockStores>` collection.
@@ -18,6 +19,7 @@ The WebDAV module is designed to support multiple lock store providers, which ar
 > Currently the only property store provider is **webdav\_simple\_lock**, which stores WebDAV locks in memory. Because this provider stores locks in memory, the locks are automatically released when IIS or an application pool are restarted.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -40,6 +42,7 @@ The WebDAV module is designed to support multiple lock store providers, which ar
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -92,6 +95,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure WebDAV locking for a Web site
@@ -125,6 +129,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 6. Once you have completed the steps, click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<lockStores>` element is only configurable at the global level in the ApplicationHost.config file. Any settings at the site or application level or in Web.config files are ignored.
@@ -146,6 +151,7 @@ The following example lists a sample `<globalSettings>` element for a WebDAV ser
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

@@ -10,6 +10,7 @@ msc.type: config
 # Security Authorization &lt;authorization&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<authorization>` element allows you to configure the user accounts that can access your site or application. Use authorization in combination with authentication to secure access to content on your server. Authentication confirms the identity of a user, while authorization determines what resources users can or cannot access.
@@ -20,6 +21,7 @@ IIS defines two types of authorization rules, Allow rules and Deny rules:
 - Deny rules let you define the user accounts or user groups that cannot access a site, an application, or all the sites on a server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -32,6 +34,7 @@ IIS defines two types of authorization rules, Allow rules and Deny rules:
 | IIS 6.0 | The `<authorization>` collection replaces the IIS 6.0 **AzEnable**, **AzStoreName**, **AzScopeName**, and **AzImpersonationLevel** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 To support and configure authorization for sites and applications on your Web server, you must install the URL authorization module. To do so, use the following steps.
@@ -58,6 +61,7 @@ To support and configure authorization for sites and applications on your Web se
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an authorization rule
@@ -93,6 +97,7 @@ To support and configure authorization for sites and applications on your Web se
      > To edit or delete an existing rule, select the rule in the **Authorization rules** pane, and then click **Edit** or **Remove** in the **Actions** pane. If you click **Edit**, a dialog box appears that allows you to edit the rule; this dialog box is similar to the **Add Allow Authorization Rule** and **Add Deny Authorization Rule** dialog boxes.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<authorization>` element at the server level in the ApplicationHost.config file, or at the site or application level in the appropriate Web.config file.
@@ -120,6 +125,7 @@ The following configuration example, when included in a Web.config file, removes
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add an allow authorization rule that allows users in the administrators group to access a Web site named Contoso.

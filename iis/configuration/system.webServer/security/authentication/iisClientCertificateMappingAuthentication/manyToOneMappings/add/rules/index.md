@@ -10,6 +10,7 @@ msc.type: config
 # Many-To-One Mappings Rules &lt;rules&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<rules>` element of the `<add>` element specifies criteria for mapping client certificates with IIS so that many clients can use one certificate.
@@ -31,6 +32,7 @@ Each of these fields can contain common LDAP sub fields; for example:
 To create a mapping, you create a rule based on a field/subfield pair for a specific value. For example, you could create a rule that matched the issuer's O subfield with Contoso to allow access to all clients with certificates that were issued by the Contoso CA. This effectively eliminates client connections from any clients that are not part of the Contoso organization.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -43,6 +45,7 @@ To create a mapping, you create a rule based on a field/subfield pair for a spec
 | IIS 6.0 | The `<manyToOneMappings>` element replaces the IIS 6.0 **IIsCertMapper** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<iisClientCertificateMappingAuthentication>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -85,11 +88,13 @@ The `<iisClientCertificateMappingAuthentication>` element is not available on th
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring IIS Client Certificate Mapping authentication for IIS 7. For examples of how to configure IIS Client Certificate Mapping authentication programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -114,6 +119,7 @@ The following configuration sample performs the following actions for the Defaul
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples perform the following actions for the Default Web Site:

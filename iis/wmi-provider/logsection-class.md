@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cc93d19f-64ef-2ee5-5266-93f14570d30c
 ---
 # LogSection Class1
+
 Configures the logging for a server or site.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class LogSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `LogSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class LogSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `LogSection` class.  
   
 |Name|Description|  
@@ -37,9 +40,11 @@ class LogSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<system.applicationHost/log>` section in ApplicationHost.config.  
   
  The following table lists the possible values for the `CentralLogFileMode` property. The default is 0 (`Site`).  
@@ -51,6 +56,7 @@ class LogSection : ConfigurationSection
 |2|`CentralW3C`|All client requests for all sites are logged to a single log file in W3C centralized format on the server.|  
   
 ## Example  
+
  The following code example displays the value of the `CentralLogFileMode` property. A helper function translates the enumeration value to text.  
   
 ```  
@@ -90,6 +96,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `LogSection`  
@@ -104,6 +111,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
  [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   

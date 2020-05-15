@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5fce568e-9d27-c200-719b-ef77deabe98a
 ---
 # IListenerChannelCallback::GetBlobLength Method
+
 Returns the size of the buffered data in the listener channel.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetBlobLength(
 ```  
   
 ### Parameters  
+
  `pcbLength`  
  A pointer to a `DWORD` that contains the size of the data in the listener channel buffer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,5 +38,6 @@ virtual HRESULT __stdcall GetBlobLength(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-interface.md)   
  [IListenerChannelCallback::GetBlob Method](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-getblob-method.md)

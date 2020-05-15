@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: df43ddf4-ec60-42a3-2dd5-f1738ffbb8ad
 ---
 # GetIsapiProcessHost Function
+
 Retrieves a reference to the process model host.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ HRESULT __stdcall GetIsapiProcessHost(
 ```  
   
 ### Parameters  
+
  `pFunctions`  
  A pointer to an [IProcessHostSupportFunctions](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
   
@@ -23,6 +25,7 @@ HRESULT __stdcall GetIsapiProcessHost(
  A pointer to the address of an [IProcessHost](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,5 +43,6 @@ HRESULT __stdcall GetIsapiProcessHost(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Functions](../../web-development-reference/native-code-api-reference/windows-process-activation-service-functions.md)   
  [PFNGetIsapiProcessHost Function](../../web-development-reference/native-code-api-reference/pfngetisapiprocesshost-function.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 53b7dc67-a6ac-ff21-3112-2a3163703fed
 ---
 # ApplicationPoolElementDefaults Class1
+
 Contains the default properties for the [ApplicationPool](../wmi-provider/applicationpool-class.md) class.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationPoolElementDefaults : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationPoolElementDefaults` class.  
   
 |Name|Description|  
@@ -33,9 +36,11 @@ class ApplicationPoolElementDefaults : EmbeddedObject
 |`Recycling`|A [RecyclingSettings](../wmi-provider/recyclingsettings-class.md) object that defines the recycling configuration settings for application pools and worker processes.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ApplicationPoolDefaults` property of the [Server](../wmi-provider/server-class.md) class.  
   
  The following table lists the possible values for the `ManagedPipelineMode` property. The default is 0 (`Integrated`).  
@@ -46,6 +51,7 @@ class ApplicationPoolElementDefaults : EmbeddedObject
 |1|`Classic`|The managed pipeline runs in ISAPI mode.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ApplicationPoolElementDefaults`  
@@ -60,6 +66,7 @@ class ApplicationPoolElementDefaults : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [Server Class](../wmi-provider/server-class.md)

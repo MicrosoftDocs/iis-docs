@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f1ca4d4d-b421-eba8-a50a-74305fa71944
 ---
 # IAppHostWritableAdminManager Interface
+
 Provides read/write access to explicit data in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostWritableAdminManager : public IAppHostAdminManager
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostWritableAdminManager` interface.  
   
 |Method|Description|  
@@ -20,6 +22,7 @@ IAppHostWritableAdminManager : public IAppHostAdminManager
 |[CommitChanges](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-commitchanges-method.md)|Commits configuration changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostWritableAdminManager` interface.  
   
 |Property|Description|  
@@ -27,11 +30,13 @@ IAppHostWritableAdminManager : public IAppHostAdminManager
 |[CommitPath](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-commitpath-property.md)|Gets or sets the configuration path where changes should be committed.|  
   
 ## Remarks  
+
  The `IAppHostWritableAdminManager` interface provides read/write access to explicit values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system. The method return values of this interface represent the values of the explicitly requested configuration path.  
   
  To obtain access to the effective values of a merged configuration set in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system, use the [IAppHostAdminManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md) interface.  
   
 ## Inheritance Hierarchy  
+
  [IAppHostAdminManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)  
   
  `IAppHostWritableAdminManager`  
@@ -46,5 +51,6 @@ IAppHostWritableAdminManager : public IAppHostAdminManager
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)

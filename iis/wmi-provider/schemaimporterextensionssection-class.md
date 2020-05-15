@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2f5e9b4e-d62b-d0ea-f532-5ddd83a7c3ff
 ---
 # SchemaImporterExtensionsSection Class
+
 Contains a collection of extensions that map XML Schema (XSD) types to [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] types.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SchemaImporterExtensionsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SchemaImporterExtensionsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class SchemaImporterExtensionsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SchemaImporterExtensionsSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class SchemaImporterExtensionsSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,5 +62,6 @@ class SchemaImporterExtensionsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [\<system.xml.serialization> Element](https://go.microsoft.com/fwlink/?LinkId=71870)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 67a82c02-b569-64ba-e808-8f6a55b336fa
 ---
 # IProtocolManager::GetPmInterface Method
+
 Retrieves a defined interface from a protocol manager.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetPmInterface(
 ```  
   
 ### Parameters  
+
  `PmInterfaceId`  
  The ID of the interface to return.  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetPmInterface(
  A pointer to a buffer that will receive the interface specified by the `PmInterfaceId` parameter.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,6 +33,7 @@ virtual HRESULT GetPmInterface(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  To select which interface to retrieve, choose the specific interface ID from the [PM_INTERFACE_ID_ENUM](../../web-development-reference/native-code-api-reference/pm-interface-id-enum-enumeration.md) enumeration. If a protocol manager exposes an interface that is not defined by `PM_INTERFACE_ID_ENUM`, use the [IProtocolManager::GetCustomInterface](../../web-development-reference/native-code-api-reference/iprotocolmanager-getcustominterface-method.md) method.  
   
 ## Requirements  
@@ -42,6 +46,7 @@ virtual HRESULT GetPmInterface(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IProtocolManager Interface](../../web-development-reference/native-code-api-reference/iprotocolmanager-interface.md)   
  [IProtocolManager::GetCustomInterface Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-getcustominterface-method.md)   
  [IProtocolManager::Shutdown Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-shutdown-method.md)

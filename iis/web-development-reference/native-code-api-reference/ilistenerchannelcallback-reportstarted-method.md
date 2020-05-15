@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6f90fa87-e69c-556e-5a58-f85ea72ad339
 ---
 # IListenerChannelCallback::ReportStarted Method
+
 Notifies the worker process framework that a listener channel has started.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ virtual HRESULT __stdcall ReportStarted(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,4 +36,5 @@ virtual HRESULT __stdcall ReportStarted(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-interface.md)

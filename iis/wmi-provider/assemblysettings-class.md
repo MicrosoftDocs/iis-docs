@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5ecbf32a-62e2-4b86-ab40-d1d0cf90d8a7
 ---
 # AssemblySettings Class
+
 Contains assembly references that are used during compilation of an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AssemblySettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AssemblyElement` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class AssemblySettings : EmbeddedObject
 |`Assemblies`|An array of [AssemblyElement](../wmi-provider/assemblyelement-class.md) values that specify assembly references that are used during compilation of [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web applications.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `Assemblies` property on the [CompilationSection](../wmi-provider/compilationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `AssemblySettings`  
@@ -43,5 +49,6 @@ class AssemblySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AssemblyElement Class](../wmi-provider/assemblyelement-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

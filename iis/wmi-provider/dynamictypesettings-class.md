@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: aad015a1-5db6-4792-aa51-300cde9889f9
 ---
 # DynamicTypeSettings Class
+
 Specifies the MIME types that IIS serves with dynamic compression.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class DynamicTypeSettings: EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DynamicTypeSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class DynamicTypeSettings: EmbeddedObject
 |`DynamicTypes`|An array of [HttpCompressionMimeTypeElement](../wmi-provider/httpcompressionmimetypeelement-class.md) values that specify whether IIS will dynamically compress a particular MIME type before serving it.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DynamicTypes` array property of the [HttpCompressionSection](../wmi-provider/httpcompressionsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `DynamicTypeSettings`  
@@ -43,6 +49,7 @@ class DynamicTypeSettings: EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)   

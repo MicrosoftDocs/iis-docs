@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 51644830-664f-a962-a52a-eac1e372b537
 ---
 # IAppHostProperty::Exception Property
+
 Gets administration system exception information that is related to the processing of the specified property.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT Exception(
 ```  
   
 ### Parameters  
+
  `ppException`  
  Contains the exception information for a specified property. NULL if the property value is valid.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ HRESULT Exception(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

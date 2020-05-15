@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d3e0a65b-859d-b782-9469-4979ae0fb7bd
 ---
 # IScriptMapInfo::GetAllowedVerbs Method
+
 Retrieves the list of allowed verbs for a script map.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual PCSTR GetAllowedVerbs(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the list of allowed verbs.  
   
 ## Remarks  
+
  Developers can use the `GetAllowedVerbs` method to retrieve the list of allowed HTTP verbs for a page handler. For example, if you request a static HTML page that is hosted by an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] Web site, the static file handler may be configured to allow all HTTP verbs. However, if you if you request a dynamic ASP page that is hosted by the same [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] Web site, the ASP page handler may be configured to allow only the GET and POST verbs.  
   
 > [!NOTE]
 >  Web administrators can configure the list of allowed verbs by using [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)].  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that retrieves a pointer to an [IHttpContext::IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetAllowedVerbs` method to retrieve the list of verbs that are allowed for the script map. The module returns the list of allowed verbs to a Web client and then exits.  
   
  [!code-cpp[IScriptMapInfoGetAllowedVerbs#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IScriptMapInfoGetAllowedVerbs/cpp/IScriptMapInfoGetAllowedVerbs.cpp#1)]  
@@ -45,4 +50,5 @@ virtual PCSTR GetAllowedVerbs(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

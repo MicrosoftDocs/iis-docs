@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: pfn-webhost-listener-application-pool-all-listener-channel-instances-stopped-function
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function
+
 Notifies the listener adapter that all instances of a specific listener channel have been stopped.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ typedef VOID(
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -28,9 +30,11 @@ typedef VOID(
  [IN] A `DWORD` that contains the listener channel ID for the listener channel that no longer has any instances.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  When the Service Control Manager (SCM) notifies a listener adapter to stop, the listener adapter should wait for the `PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED` notification before stopping; otherwise, if other listener channels are in use, the listener adapter may encounter conflicts when it attempts to restart.  
   
  This notification will occur only if the [WebhostCloseAllListenerChannelInstances](../../web-development-reference/native-code-api-reference/webhostclosealllistenerchannelinstances-function.md) function has been called.  
@@ -47,5 +51,6 @@ typedef VOID(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

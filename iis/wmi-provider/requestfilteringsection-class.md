@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 73911071-57c6-2fc8-5e52-9f5cfd4595a8
 ---
 # RequestFilteringSection Class
+
 Configures the scanning of incoming URL requests.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class RequestFilteringSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `RequestFilteringSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class RequestFilteringSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `RequestFilteringSection` class.  
   
 |Name|Description|  
@@ -44,15 +47,18 @@ class RequestFilteringSection : ConfigurationSectionWithCollection
 |`Verbs`|A read/write [VerbsSettings](../wmi-provider/verbssettings-class.md) value that specifies HTTP verbs to allow or deny. **Note:**  Wildcards for HTTP verbs are not supported.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class integrates into [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] the functionality of the URLScan tool used by previous versions of IIS.  
   
 > [!NOTE]
 >  For the functionality in the `RequestFilteringSection` class to work, the Request Filtering Module (Modrqflt.dll) must be installed.  
   
 ## Example  
+
  The following example shows all of the properties for the request-filtering section in the ApplicationHost.config file.  
   
 ```  
@@ -143,6 +149,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -159,6 +166,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [FileExtensionElement Class](../wmi-provider/fileextensionelement-class.md)   
  [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   

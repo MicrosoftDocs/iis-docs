@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4b357c85-4be2-8ec0-d43e-8453736ddb9b
 ---
 # IScriptMapInfo::GetIsStarScriptMap Method
+
 Retrieves a value that indicates whether a request handler is a wildcard mapping.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL GetIsStarScriptMap(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if the request handler is a wildcard mapping; otherwise, `false`.  
   
 ## Remarks  
+
  The `GetIsStarScriptMap` method returns a value that indicates whether a request handler is defined as a wildcard mapping. Request handlers are usually defined for a specific file extension or file name. By contrast, request handlers that are defined as wildcard mappings process all requests.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetIsStarScriptMap` method to determine whether the request handler for the current request is a wildcard mapping. The module returns the wildcard status to a Web client and then exits.  
   
  [!code-cpp[IScriptMapInfoGetIsStarScriptMap#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IScriptMapInfoGetIsStarScriptMap/cpp/IScriptMapInfoGetIsStarScriptMap.cpp#1)]  
@@ -42,4 +47,5 @@ virtual BOOL GetIsStarScriptMap(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

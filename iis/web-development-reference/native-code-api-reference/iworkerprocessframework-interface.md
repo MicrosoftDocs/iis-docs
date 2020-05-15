@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fd47af87-0694-edb2-e8da-190a871e3372
 ---
 # IWorkerProcessFramework Interface
+
 Defines the base interface for the worker process framework, and exposes methods for a protocol manager to interact with the worker process framework and other protocol managers.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWorkerProcessFramework : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWorkerProcessFramework` interface.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class IWorkerProcessFramework : public IWpfReferencedObject
 |[Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IWorkerProcessFramework`  
@@ -38,6 +41,7 @@ class IWorkerProcessFramework : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ad47de99-e784-6394-0193-696bfdc3e89d
 ---
 # IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method
+
 Sets the global-level priority for a module.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT SetPriorityForGlobalNotification(
 ```  
   
 ### Parameters  
+
  `dwGlobalNotification`  
  [IN] A bitmask value that contains the global notifications to set for the priority level. (Defined in [Httpserv.h](../../web-development-reference/native-code-api-reference/request-processing-constants.md).)  
   
@@ -23,6 +25,7 @@ virtual HRESULT SetPriorityForGlobalNotification(
  [IN] A pointer to a string that contains the priority alias. (Defined in Httpserv.h.)  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,12 +33,14 @@ virtual HRESULT SetPriorityForGlobalNotification(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The `SetPriorityForGlobalNotification` method sets the priority level for a list of global-level notifications for which an HTTP module has registered. IIS uses the priority level to determine the order within a notification that modules should be organized. For example, a global module that has registered for the [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification by using the `PRIORITY_ALIAS_HIGH` alias would be prioritized before a module that has registered for the [OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification by using the `PRIORITY_ALIAS_LOW` alias.  
   
 > [!NOTE]
 >  The bitmask values for global-level notifications and priority aliases are defined in the Httpserv.h file.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
   
 - The [SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method registers a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class for a request-level [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
@@ -67,6 +72,7 @@ virtual HRESULT SetPriorityForGlobalNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpModuleRegistrationInfo Interface](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-interface.md)   
  [IHttpModuleRegistrationInfo::SetGlobalNotifications Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)   
  [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)   

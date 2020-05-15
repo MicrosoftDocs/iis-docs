@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 263bf244-ccc9-d852-7c79-64b660fe765e
 ---
 # IAppHostConfigLocationCollection::Count Property
+
 Gets the number of configuration locations in the collection.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Count(
 ```  
   
 ### Parameters  
+
  `pcCount`  
  A pointer to a `DWORD` that contains the number of configuration locations in the collection  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocationCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md)

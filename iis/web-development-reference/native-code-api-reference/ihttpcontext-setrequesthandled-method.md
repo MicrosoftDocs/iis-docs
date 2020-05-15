@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e83d7e00-39ad-b989-971a-d65b62220fe4
 ---
 # IHttpContext::SetRequestHandled Method
+
 Indicates that the handlers for the current request have completed.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual VOID SetRequestHandled(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `SetRequestHandled` method specifies that the handlers for the current request have finished processing. For example, if multiple request handlers are configured for a specific file type, you can use the `SetRequestHandled` method to indicate that processing has completed for the current request and that additional handlers should not be executed.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_PRE_EXECUTE_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -56,4 +61,5 @@ virtual VOID SetRequestHandled(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

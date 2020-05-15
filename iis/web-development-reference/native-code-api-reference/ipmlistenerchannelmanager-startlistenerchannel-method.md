@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 87b8c556-3894-a8f9-2968-7750b1ba6cb2
 ---
 # IPmListenerChannelManager::StartListenerChannel Method
+
 Enables the worker process framework to request that a protocol manager start a listener channel for a protocol.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT StartListenerChannel(
 ```  
   
 ### Parameters  
+
  `protocolId`  
  A pointer to a string that contains the protocol (for example, HTTP) to start.  
   
@@ -23,6 +25,7 @@ virtual HRESULT StartListenerChannel(
  A pointer to a callback function that is used to communicate to the worker process framework that a listener channel has been started.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,5 +44,6 @@ virtual HRESULT StartListenerChannel(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IPmListenerChannelManager Interface](../../web-development-reference/native-code-api-reference/ipmlistenerchannelmanager-interface.md)   
  [IPmListenerChannelManager::StopListenerChannel Method](../../web-development-reference/native-code-api-reference/ipmlistenerchannelmanager-stoplistenerchannel-method.md)

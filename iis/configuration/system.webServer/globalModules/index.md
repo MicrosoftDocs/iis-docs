@@ -10,6 +10,7 @@ msc.type: config
 # Global Modules &lt;globalModules&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<globalModules>` element defines the global-level modules installed on an IIS 7 server. The `<globalModules>` element is only available at the server level, so when you install modules, IIS only updates the ApplicationHost.config file. You must be an administrator on the server to install native modules.
@@ -21,6 +22,7 @@ When you install a third-party module, you must add an entry to the `<globalModu
 To enable a module in an application, you must edit the application's `<module>` element.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,11 +35,13 @@ To enable a module in an application, you must edit the application's `<module>`
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<globalModules>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to install a native module
@@ -98,6 +102,7 @@ The `<globalModules>` element is included in the default installation of IIS 7.
     [![](index/_static/image8.png)](index/_static/image7.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<globalModules>` element contains a collection of `<add>` elements. Each element in the collection configures a global module for the server.
@@ -121,6 +126,7 @@ The following example shows an IIS 7 `<globalModules>` section that contains ent
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples install a native module named ImageCopyrightModule on IIS 7 and automatically enable it on the entire server.

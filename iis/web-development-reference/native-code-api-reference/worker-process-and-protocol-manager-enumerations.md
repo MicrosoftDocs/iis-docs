@@ -4,9 +4,11 @@ ms.date: "10/07/2016"
 ms.assetid: 2b076ecb-77cb-4c76-b96b-500d6e1d6a10
 ---
 # Worker Process and Protocol Manager Enumerations
+
 This section describes the enumerations that are used by the interfaces and methods in the worker process framework. These enumerations are defined in the Wpframework.h header file.  
   
 ## In This Section  
+
  The IIS worker process framework exposes the following enumerations.  
   
 |Enumeration|Description|  
@@ -20,4 +22,5 @@ This section describes the enumerations that are used by the interfaces and meth
 |[WPF_SETTINGS_ULONGLONG_ENUM](../../web-development-reference/native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md)|Defines the `ULONGLONG` values that the [IWpfSettings::GetUlonglongProperty](../../web-development-reference/native-code-api-reference/iwpfsettings-getulonglongproperty-method.md) method returns.|  
   
 ## See Also  
+
  [Worker Process Framework API Reference](../../web-development-reference/native-code-api-reference/worker-process-framework-api-reference.md)

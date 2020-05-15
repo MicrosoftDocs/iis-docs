@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 24d3efb6-8bab-52b0-181f-c07eef374eca
 ---
 # IAppDomainInfo::GetVirtualPath Method
+
 Retrieves the root virtual path of the application domain.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetVirtualPath(
 ```  
   
 ### Parameters  
+
  `pbstrVirtualPath`  
  A pointer to a `BSTR` that contains the root virtual path of the application domain.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall GetVirtualPath(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfo Interface](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md)

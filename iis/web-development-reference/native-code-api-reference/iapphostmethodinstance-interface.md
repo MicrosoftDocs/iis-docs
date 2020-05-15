@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bd4b1420-4828-4fde-b0c9-5257cf408d5e
 ---
 # IAppHostMethodInstance Interface
+
 Provides methods that access a specific invocation instance of the corresponding [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md).  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostMethodInstance : public IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostMethodInstance` interface.  
   
 |Method|Description|  
@@ -22,6 +24,7 @@ IAppHostMethodInstance : public IUnknown
 |[SetMetadata](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-setmetadata-method.md)|Sets the named metadata|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostMethodInstance` interface.  
   
 |Method|Description|  
@@ -30,9 +33,11 @@ IAppHostMethodInstance : public IUnknown
 |[Output](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-output-property.md)|Gets an [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) in which output parameters may be retrieved after a specified method instance has been executed.|  
   
 ## Remarks  
+
  The caller of a method sets parameters and then executes the instance of the method.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostMethodInstance`  
@@ -47,6 +52,7 @@ IAppHostMethodInstance : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)   
  [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)

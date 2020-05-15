@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: de5c9d5a-38ea-68d8-e235-878d17c42d13
 ---
 # IPmHealthAndIdleMonitor Interface
+
 Enables the worker process framework to check whether a protocol manager is healthy, or whether the listener channels for the protocol manager are idle.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IPmHealthAndIdleMonitor : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IPmHealthAndIdleMonitor` interface.  
   
 |Name|Description|  
@@ -23,6 +25,7 @@ class IPmHealthAndIdleMonitor : public IWpfReferencedObject
 |[Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IPmHealthAndIdleMonitor`  
@@ -37,6 +40,7 @@ class IPmHealthAndIdleMonitor : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

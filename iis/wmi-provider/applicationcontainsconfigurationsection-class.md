@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 437265a3-6c4a-f094-7afd-75a84fd6e982
 ---
 # ApplicationContainsConfigurationSection Class1
+
 Provides a relationship between an IIS Web application and a configuration section.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationContainsConfigurationSection : ObjectConfigurationAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationContainsConfigurationSection` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class ApplicationContainsConfigurationSection : ObjectConfigurationAssociation
 |`ConfiguredObject`|(Inherited from `ObjectConfigurationAssociation`.) A read-only [Application](../wmi-provider/application-class.md) value. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ObjectConfigurationAssociation](../wmi-provider/objectconfigurationassociation-class.md)  
   
  `ApplicationContainsConfigurationSection`  
@@ -41,5 +46,6 @@ class ApplicationContainsConfigurationSection : ObjectConfigurationAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)

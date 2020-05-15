@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP over SSL Settings &lt;ssl&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<ssl>` element specifies the FTP over Secure Sockets Layer (SSL) settings for the FTP service; FTP over SSL was first introduced for IIS 7 in FTP 7.0.
@@ -29,6 +30,7 @@ Depending on the security options that you configure in the `controlChannelPolic
 | `SslRequire` | `SslRequire` | This configuration is the most secure - the client must negotiate SSL by using the FTPS-related commands before other FTP commands are allowed, and all data transfers must be encrypted. |
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -48,6 +50,7 @@ Depending on the security options that you configure in the `controlChannelPolic
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -115,6 +118,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the default SSL options for an FTP server
@@ -160,6 +164,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 6. In the **Actions** pane, click **Apply**.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -185,6 +190,7 @@ SSL config example (temp desc).
 [!code-xml[Main](ssl/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following samples demonsrate how to enable SSL access on the control channel and the data channel of the FTP service by default.

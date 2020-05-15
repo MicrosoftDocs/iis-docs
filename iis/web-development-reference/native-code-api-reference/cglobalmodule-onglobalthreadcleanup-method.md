@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2aaac10f-de71-71ff-5547-a098f91e717d
 ---
 # CGlobalModule::OnGlobalThreadCleanup Method
+
 Represents the method that will handle a `GlobalThreadCleanup` event, which occurs when IIS returns a thread to the thread pool.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IGlobalThreadCleanupProvider](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_THREAD_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification, IIS will call the module's `OnGlobalThreadCleanup` method when a thread is returned to the thread pool after an operation has completed.  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalThreadCleanup` event notification by registering for `GL_THREAD_CLEANUP` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the `GL_THREAD_CLEANUP` notification.  
@@ -58,4 +63,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a07c6d97-5338-8e18-a96e-ece01b6b7738
 ---
 # ApplicationElementDefaults Class2
+
 Specifies the default application pool and enabled protocols for new applications.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationElementDefaults : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationElementDefaults` class.  
   
 |Name|Description|  
@@ -25,12 +28,15 @@ class ApplicationElementDefaults : EmbeddedObject
 |`Path`|A read-only `string` value that specifies the default virtual path of the application after the host header. For example, if you have an application at http://www.alpineskihouse.com/Skis/Downhill, the value of the `Path` property is "/Skis/Downhill". A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class is exposed as the `ApplicationDefaults` property on the [Server](../wmi-provider/server-class.md) class and on the [Site](../wmi-provider/site-class.md) class, and corresponds to the `<applicationDefaults>` element in the ApplicationHost.config file.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ApplicationElementDefaults`  
@@ -45,6 +51,7 @@ class ApplicationElementDefaults : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

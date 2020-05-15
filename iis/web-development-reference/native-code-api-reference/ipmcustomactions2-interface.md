@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 20ec2a31-666e-43de-b0a1-be2bd98f9ba6
 ---
 # IPmCustomActions2 Interface
+
 Enables the worker process to register and unregister custom actions that will result in multiple responses.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IPmCustomActions2 : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IPmCustomActions` interface.  
   
 |Name|Description|  
@@ -23,6 +25,7 @@ class IPmCustomActions2 : public IWpfReferencedObject
 |[Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IPmCustomActions2`  
@@ -37,4 +40,5 @@ class IPmCustomActions2 : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Interfaces](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)

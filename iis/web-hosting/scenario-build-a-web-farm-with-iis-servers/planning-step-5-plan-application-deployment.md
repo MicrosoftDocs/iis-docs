@@ -18,11 +18,13 @@ In this step of building a web farm, you plan the installation and configuration
 When you are done with these tasks, record your design decisions before going on to [Step 1: Install IIS Web Farm Infrastructure](configuring-step-1-install-iis-web-farm-infrastructure.md).
 
 <a id="51"></a>
+
 ## 5.1. Deploy Websites with FTP
 
 File Transfer Protocol (FTP) simple is a protocol for transferring files between computer systems. IIS 8 includes an FTP server that is easy to configure. For the web farm in this scenario, install FTP on the load balancing computer (ARR server) and configure it to point to the back-end shared content. For more information about FTP configuration, see [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md).
 
 <a id="52"></a>
+
 ## 5.2. Deploy Web Applications with Web Deploy
 
 The Web Deployment Tool (Web Deploy) enables IIS to synchronize, package, and deploy web applications, websites, or web server content and configuration. It has numerous features that let you include those components that you want to process and exclude those components that you do not. For you to be able to use Web Deploy, first install IIS on the source and destination computers.

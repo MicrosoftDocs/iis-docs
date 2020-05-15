@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a030ba4e-b37a-d066-ecdb-6a8d9bd4a708
 ---
 # KeyValueElement Class
+
 Contains a key/value pair that represents a setting for a Web application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class KeyValueElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `KeyValueElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class KeyValueElement : CollectionElement
 |`Value`|A read/write `string` value that contains the value for the application setting specified in the `Key` property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `Settings` property of the [AppSettingsSection](../wmi-provider/appsettingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `KeyValueElement`  
@@ -44,5 +50,6 @@ class KeyValueElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [AppSettingsSection Class](../wmi-provider/appsettingssection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 84b5367c-ad22-9637-1ced-7500c0a952a8
 ---
 # IReadEntityProvider::GetEntity Method
+
 Retrieves the request entity.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual VOID GetEntity(
 ```  
   
 ### Parameters  
+
  `ppBuffer`  
  A pointer to a void buffer that contains the request entity.  
   
@@ -27,15 +29,18 @@ virtual VOID GetEntity(
  A pointer to a `DWORD` that contains the size of the `ppBuffer` buffer, which should be greater than or equal to `pcbData`.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  After you call the `GetEntity` method, the `ppBuffer` parameter will specify the request entity; the `pcbData` parameter will specify the size, in bytes, of the data in the request entity that was returned in `ppBuffer;` and the `pcbBuffer` parameter will specify the size, in bytes, of the request entity buffer that is pointed to by `ppBuffer`.  
   
 > [!NOTE]
 >  `pcbBuffer` should always be greater than or equal to `pcbData`.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Retrieves the request entity by using the `GetEntity` method.  
@@ -60,6 +65,7 @@ virtual VOID GetEntity(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IReadEntityProvider Interface](../../web-development-reference/native-code-api-reference/ireadentityprovider-interface.md)   
  [IReadEntityProvider::SetEntity Method](../../web-development-reference/native-code-api-reference/ireadentityprovider-setentity-method.md)   
  [IHttpRequest::ReadEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md)   

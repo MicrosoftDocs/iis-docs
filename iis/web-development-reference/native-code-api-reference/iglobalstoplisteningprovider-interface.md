@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c0fc5a79-ccca-77d2-421d-0da4cec63f78
 ---
 # IGlobalStopListeningProvider Interface
+
 Provides an interface for notifications that indicate whether a worker process is shutting down and will stop listening for new requests.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IGlobalStopListeningProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IGlobalStopListeningProvider` interface.  
   
 |Name|Description|  
@@ -21,12 +23,15 @@ class IGlobalStopListeningProvider : public IHttpEventProvider
 |[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  IIS creates and passes an `IGlobalStopListeningProvider` interface to a module's [CGlobalModule::OnGlobalStopListening](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md) method when the module has registered for the [GL_STOP_LISTENING](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalStopListeningProvider`  
@@ -41,5 +46,6 @@ class IGlobalStopListeningProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [CGlobalModule::OnGlobalStopListening Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalstoplistening-method.md)

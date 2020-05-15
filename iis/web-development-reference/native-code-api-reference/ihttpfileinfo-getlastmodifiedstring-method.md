@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 935948f5-f9cc-9cdf-10f9-46b5dcc86ea9
 ---
 # IHttpFileInfo::GetLastModifiedString Method
+
 Retrieves the last modified string of the corresponding file for an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCSTR GetLastModifiedString(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the last modified date and time.  
   
 ## Remarks  
+
  The `GetLastModifiedString` method retrieves a string that contains the date and time that a file currently referenced by an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface was last modified. The `GetLastModifiedString` method is similar to the [IHttpFileInfo::GetLastModifiedTime](../../web-development-reference/native-code-api-reference/ihttpfileinfo-getlastmodifiedtime-method.md) method, except that the `GetLastModifiedString` method returns only a string, whereas the `GetLastModifiedTime` method returns a [FILETIME](https://go.microsoft.com/fwlink/?LinkId=56060) structure that you can use for comparisons.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then calls the `GetLastModifiedString` method to retrieve a string that contains the last modified date and time. Finally, the example displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfoGetLastModifiedString#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfoGetLastModifiedString/cpp/IHttpFileInfoGetLastModifiedString.cpp#1)]  
@@ -42,5 +47,6 @@ virtual PCSTR GetLastModifiedString(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)   
  [IHttpFileInfo::GetLastModifiedTime Method](../../web-development-reference/native-code-api-reference/ihttpfileinfo-getlastmodifiedtime-method.md)

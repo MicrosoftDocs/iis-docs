@@ -10,6 +10,7 @@ msc.type: config
 # Adding Management Trusted Providers &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<trustedProviders>` element adds a provider to the collection of management providers that are trusted to be run by IIS Manager and the Management Service (WMSVC).
@@ -17,6 +18,7 @@ The `<add>` element of the `<trustedProviders>` element adds a provider to the c
 Before calling the provider for a site or an application, the .NET Users and .NET Roles features verify that the configured provider is trusted. If it is not trusted, the setting in the **allowUntrustedProviders** attribute will determine whether untrusted providers are allowed to run. If untrusted providers are not allowed and the provider is not in the trusted providers collection, the provider will not be allowed to run.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,6 +31,7 @@ Before calling the provider for a site or an application, the .NET Users and .NE
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the **Management Service** role service. To install this role service, use the following steps.
@@ -72,11 +75,13 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<trustedProviders>` element for IIS 7. For examples of how to configure the `<trustedProviders>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -96,6 +101,7 @@ The following default `<trustedProviders>` element is configured in the root Adm
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

@@ -10,6 +10,7 @@ msc.type: config
 # Module Providers &lt;moduleProviders&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<moduleProviders>` element specifies the list of module providers for IIS Manager. Each module provider entry contains the managed-code registration information for a module, which enables the module as a feature in IIS Manager. The `<moduleProviders>` element works in relation with the `<modules>` element in the following way:
@@ -21,6 +22,7 @@ The `<moduleProviders>` element specifies the list of module providers for IIS M
 > The settings in the `<moduleProviders>` element can only be configured in the Administration.config file.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,16 +35,19 @@ The `<moduleProviders>` element specifies the list of module providers for IIS M
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<moduleProviders>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding modules to the `<moduleProviders>` element for IIS 7. For examples of how to add modules to the `<moduleProviders>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -67,6 +72,7 @@ The following sample configuration excerpt from the Administration.config file a
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

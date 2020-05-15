@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0bacbe93-6725-b59a-6776-9f74e8de1484
 ---
 # OneToOneCertificateMappingElement Class
+
 Represents a one-to-one mapping of a Secure Sockets Layer (SSL) certificate to a user account.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class OneToOneCertificateMappingElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `OneToOneCertificateMappingElement` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class OneToOneCertificateMappingElement : CollectionElement
 |`UserName`|A read/write `string` value that specifies the user name of the user account to which the SSL certificate is mapped.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `OneToOneMappings` array property of the [OneToOneSettings](../wmi-provider/onetoonesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `OneToOneCertificateMappingElement`  
@@ -46,6 +52,7 @@ class OneToOneCertificateMappingElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

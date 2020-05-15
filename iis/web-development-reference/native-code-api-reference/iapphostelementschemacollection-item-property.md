@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 49cd2a06-8bb9-4bab-9d0d-b49b5045bb35
 ---
 # IAppHostElementSchemaCollection::Item Property
+
 Gets the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) with the requested index or property name in the collection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference/nativ
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that specifies the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) to retrieve from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) to retrieve.  
   
@@ -24,6 +26,7 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference/nativ
  Contains the [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) at the requested `cIndex`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,5 +44,6 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference/nativ
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)   
  [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)

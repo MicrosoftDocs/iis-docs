@@ -10,6 +10,7 @@ msc.type: config
 # FTP Firewall Support &lt;firewallSupport&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<system.ftpServer/firewallSupport>` element is used to configure the port range that the FTP service will use for data channel activity when you use the FTP PASV command to negotiate passive connections, which contains IP address and port of the server.
@@ -24,6 +25,7 @@ The valid range for TCP/IP ports is 1025 through 65535. (Ports from 1 through 10
 > You can use the [`<ftpServer/firewallSupport>`](../system.applicationhost/sites/site/ftpserver/firewallsupport.md) to configure the per-site external IP address for your firewall; this allows you to route the firewall traffic for each site through a different firewall.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -43,6 +45,7 @@ The valid range for TCP/IP ports is 1025 through 65535. (Ports from 1 through 10
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -110,6 +113,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the global firewall settings for the FTP service
@@ -146,6 +150,7 @@ For additional information about how to configure the firewall settings for the 
 > [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<firewallSupport>` element is configured at the global level in ApplicationHost.config.
@@ -181,6 +186,7 @@ The following sample illustrates several configuration settings in the global `<
 [!code-xml[Main](firewallSupport/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure the FTP service to use the port range of 5000 to 6000 for data channel activity when passive connections are used.

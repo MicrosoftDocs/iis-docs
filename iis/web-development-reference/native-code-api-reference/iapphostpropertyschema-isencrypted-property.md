@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: dfb2f35b-800e-42d9-99a8-6b231a1527f9
 ---
 # IAppHostPropertySchema::IsEncrypted Property
+
 Gets a value that indicates whether the property should be encrypted when it is persisted in the administration system.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ Gets a value that indicates whether the property should be encrypted when it is 
 ```  
   
 ### Parameters  
+
  `pfIsEncrypted`  
  A pointer to a Boolean value. `TRUE` if the property is encrypted when it is persisted to the administration system, otherwise `FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ Gets a value that indicates whether the property should be encrypted when it is 
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

@@ -12,6 +12,7 @@ msc.type: authoredcontent
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 <a id="21"></a>
+
 ## 2.1. Session State Settings
 
 When clients visit a site, they generally navigate from one page to another and frequently change some of the pages they visit. If you want to track pages that users browse and the changes they make during a visit to your website, configure session state.
@@ -35,6 +36,7 @@ The following sections describe your session-state storage options in more detai
 - [Cookie mode for session state](#214)
 
 <a id="211"></a>
+
 ### Store session state in process
 
 The in-process session state mode stores session-state data for an ASP.NET application in the worker process where the application runs. This mode is the default for IIS 8.
@@ -53,6 +55,7 @@ Important: Use caution when you adjust the session time-out value, because infor
 If you decide to use in-process session-state storage, decide also if you also want to use cookies. For more information about cookies, see [Cookie mode for session state](#214).
 
 <a id="212"></a>
+
 ### Store session state by using state server
 
 A *state server* maintains session-state date in memory that is outside the worker process. The advantage of this configuration is that session state is preserved when the application worker process recycles. Using a state server is recommended for medium-sized applications.
@@ -71,6 +74,7 @@ If you decide to store session state by using a state server, make the following
 - Decide whether to store any session state data in a cookie. For more information about cookies, see [Cookie mode for session state](#214).
 
 <a id="213"></a>
+
 ### Store session state by using SQL server
 
 One type of out-of-process session state uses a SQL server to store session state data. The advantage of this configuration is that session state is preserved despite recycling of the application worker process, or if either the Windows state service or the web server goes down.
@@ -96,6 +100,7 @@ If you decide to store session state in a SQL Server database, make the followin
 - Decide whether to store any session state data in a cookie. For more information about cookies, see [Cookie mode for session state](#214).
 
 <a id="214"></a>
+
 ### Cookie mode for session state
 
 One way to track session state for clients that connect to a web server is to use cookies. You can configure a web server to use cookies, not to use cookies, or to select cookie behavior that depends on the browser that is used for the connection.
@@ -132,6 +137,7 @@ If you decide to use cookies to store session state, make the following design d
 - Unless you selected use cookies, decide whether to regenerate an expired session ID.
 
 <a id="22"></a>
+
 ## 2.2. Pages and Controls Settings
 
 ASP.NET pages include extra elements that ASP.NET recognizes and processes when the page runs. ASP.NET pages can also contain custom, reusable controls. These custom controls are processed on the server. This lets you use server code to set ASP.NET web page properties.
@@ -162,6 +168,7 @@ If you decide to configure ASP.NET custom controls, you need the following infor
 - Specify the assembly the control is in.
 
 <a id="23"></a>
+
 ## 2.3. Application Settings
 
 Configure application settings when you want to store key/value pairs as part of your configuration in the Web.config file. Application settings provide quick and easy access to stored configuration data for your application.
@@ -179,6 +186,7 @@ If you decide to configure application settings, you need the following informat
 2. Specify a value for the setting.
 
 <a id="24"></a>
+
 ## 2.4. .NET Compilation Settings
 
 For application code to service requests by users, ASP.NET must first compile the code into one or more assemblies. Assemblies are files that have the file name extension .dll. Configure .NET compilation settings in IIS 8 when you want to control how ASP.NET code is compiled.
@@ -190,6 +198,7 @@ IIS lets you configure the following .NET compilation settings:
 - General settings, such as the default programming language that is used in dynamic compilation files.
 
 <a id="25"></a>
+
 ## 2.5. .NET Globalization Settings
 
 Globalization is the process of internationalizing application code, then localizing the application to other languages and cultures. The internationalization process makes it possible to translate, store, retrieve, and present application content for any locale by using the same application code base whenever possible. Locale is the combination of both language and cultural environment. This includes date formats, times, currencies, telephone numbers, and so on. Localization means adapting your application to other locales by translating and formatting content according to culture, preferably without touching the code.

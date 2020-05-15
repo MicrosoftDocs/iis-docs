@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b0963c4c-d99f-2f45-3532-ab003df8db2c
 ---
 # ConfigurationSectionWithCollection Class
+
 Serves as a base class for configuration-section classes that contain collections.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConfigurationSectionWithCollection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConfigurationSectionWithCollection` class.  
   
 |Name|Description|  
@@ -37,6 +40,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  The following table lists the subclasses exposed by the `ConfigurationSectionWithCollection` class.  
   
 |Name|Description|  
@@ -97,6 +101,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 |[WindowsAuthenticationSection](../wmi-provider/windowsauthenticationsection-class.md)|Configures Integrated Windows authentication.|  
   
 ## Remarks  
+
  If you change a key property that is in a collection, the positional order (and index) of the property in the collection may change. The changed key property will be added to the beginning or end of the collection depending on the value of the `mergeAppend` attribute.  
   
 > [!NOTE]
@@ -118,6 +123,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 |[HttpHandlersSection](../wmi-provider/httphandlerssection-class.md)|`HttpHandlers`|ASPNET_Schema.xml|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -132,6 +138,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 |MOF file|Webadministration.mof|  
   
 ## See Also  
+
  [AuthorizationRule Class](../wmi-provider/authorizationrule-class.md)   
  [AuthorizationSection Class](../wmi-provider/authorizationsection-class.md)   
  [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   

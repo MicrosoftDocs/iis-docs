@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bb3ea1ad-091b-f2ce-d5f2-4d73a086d5b2
 ---
 # CHttpModule::OnAcquireRequestState Method
+
 Represents the method that will handle an `AcquireRequestState` event, which occurs when IIS retrieves the state for the current request.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnAcquireRequestState(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnAcquireRequestState(
  [IN] A pointer to an [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_ACQUIRE_REQUEST_STATE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnAcquireRequestState` method when IIS retrieves the state for the current request.  
   
 > [!NOTE]
 >  Request-level modules can register for the `AcquireRequestState` event notification by registering for `RQ_ACQUIRE_REQUEST_STATE` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_ACQUIRE_REQUEST_STATE` event and post-event notifications. When IIS retrieves the state for the current request, it will call the example module's `OnAcquireRequestState` and [OnPostAcquireRequestState](../../web-development-reference/native-code-api-reference/chttpmodule-onpostacquirerequeststate-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleAcquireRequestState#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleAcquireRequestState/cpp/CHttpModuleAcquireRequestState.cpp#1)]  
@@ -50,5 +55,6 @@ virtual REQUEST_NOTIFICATION_STATUS OnAcquireRequestState(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnPostAcquireRequestState Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostacquirerequeststate-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 40da661f-b646-932b-b54a-2f38b4229bfd
 ---
 # IAppHostCollectionSchema::GetAddElementSchema Method
+
 Gets the schema for the `add` element that has the requested name.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetAddElementSchema(
 ```  
   
 ### Parameters  
+
  `bstrElementName`  
  A `BSTR` that contains the name of the element.  
   
@@ -25,6 +27,7 @@ HRESULT GetAddElementSchema(
  A pointer to a pointer for an [IAppHostElementSchema](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ HRESULT GetAddElementSchema(
 |ERROR_INVALID_INDEX|Indicates that the `bstrElementName` was not found.|  
   
 ## Remarks  
+
  The `GetAddElementSchema` method returns the schema for an `add` element that matches the `bstrElementName`.  
   
 ## Requirements  
@@ -45,5 +49,6 @@ HRESULT GetAddElementSchema(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostCollectionSchema::IsMergeAppend Property](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-ismergeappend-property.md)   
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

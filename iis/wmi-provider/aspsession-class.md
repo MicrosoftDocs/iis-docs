@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 56b14f51-9718-e5b5-28ab-12687cb8167f
 ---
 # AspSession Class
+
 Configures properties related to ASP sessions.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AspSession : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AspSession` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class AspSession : EmbeddedObject
 |`Timeout`|A read/write `datetime` value that specifies the default amount of time that a session object is maintained after the last request associated with the object is made. The default is 20 minutes.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Session` property of the [AspSection](../wmi-provider/aspsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `AspSession`  
@@ -46,6 +52,7 @@ class AspSession : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AspCache Class](../wmi-provider/aspcache-class.md)   
  [AspComPlus Class](../wmi-provider/aspcomplus-class.md)   
  [AspLimits Class](../wmi-provider/asplimits-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 73b72766-1004-e849-25e6-6984a483a6bb
 ---
 # ApplicationPool Class1
+
 Represents an IIS application pool.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ApplicationPool : Object
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ApplicationPool` class.  
   
 |Name|Description|  
@@ -25,6 +27,7 @@ class ApplicationPool : Object
 |[Stop](../wmi-provider/applicationpool-stop-method.md)|Stops an application pool.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationPool` class.  
   
 |Name|Description|  
@@ -42,9 +45,11 @@ class ApplicationPool : Object
 |`Recycling`|A [RecyclingSettings](../wmi-provider/recyclingsettings-class.md) object that defines the recycling configuration settings for application pools and worker processes.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  An application pool is a group of one or more URLs that are served by a worker process or a set of worker processes. Application pools set boundaries for the applications they contain, which means that any applications that are running outside a specified application pool cannot affect the applications within that application pool.  
   
  If a managed application runs in an application pool with Integrated mode, the server will use the integrated request-processing pipelines of IIS and [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] to process the request. However, if a managed application runs in an application pool with ISAPI mode, the server will continue to route requests for managed code through Aspnet_isapi.dll and process requests as if they were running in IIS 6.0.  
@@ -59,6 +64,7 @@ class ApplicationPool : Object
 |1|`Classic`|The managed pipeline runs in ISAPI mode.|  
   
 ## Example  
+
  The following example displays the name and mode (Integrated or ISAPI) of the application pools on a server.  
   
 ```  
@@ -83,6 +89,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [Object](../wmi-provider/object-class.md)  
   
  `Application Pool`  
@@ -97,5 +104,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Object Class](../wmi-provider/object-class.md)   
  [Configuring Application Pools in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64323)

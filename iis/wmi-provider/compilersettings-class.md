@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: eb08e62f-1a91-422d-265d-04fdcd47dac0
 ---
 # CompilerSettings Class
+
 Contains compilers that are used for Web applications.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class CompilerSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CompilerSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class CompilerSettings : EmbeddedObject
 |`Compilers`|An array of `CompilerElement` values that specify compilers that are used for Web applications.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Compilers` array property of the [SystemCodeDomSection](../wmi-provider/systemcodedomsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `CompilerSettings`  
@@ -43,4 +49,5 @@ class CompilerSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

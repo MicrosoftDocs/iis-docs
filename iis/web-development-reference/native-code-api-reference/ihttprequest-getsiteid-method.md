@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 672d53ab-7144-3a6b-8997-f7ab213a5f7f
 ---
 # IHttpRequest::GetSiteId Method
+
 Retrieves the site ID for the current HTTP request.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual DWORD GetSiteId(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that contains the site ID.  
   
 ## Remarks  
+
  The `GetSiteId` method is used to retrieve the site identifier for the current request. The site ID is a unique identifier for each Web site that is used to differentiate Web sites in the configuration settings.  
   
 > [!NOTE]
 >  You can view the site ID in the sites collection of the IIS Admin service.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetSiteId` method to create an HTTP module that retrieves the site ID for the Web site that is processing the current request. The example then displays the site ID to a Web client.  
   
  [!code-cpp[IHttpRequestGetSiteId#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetSiteId/cpp/IHttpRequestGetSiteId.cpp#1)]  
@@ -45,4 +50,5 @@ virtual DWORD GetSiteId(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)

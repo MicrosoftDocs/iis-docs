@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: efdb9814-1ad9-320d-03c0-df843a5a0043
 ---
 # UrlSequence Class
+
 Represents a URL sequence that will be denied by request filtering.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class UrlSequence : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `UrlSequence` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class UrlSequence : CollectionElement
 |`Sequence`|A required unique read/write `string` value that represents a URL sequence that will be denied by request filtering. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are members of the `DenyUrlSequences` property of the [UrlSequenceSettings](../wmi-provider/urlsequencesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `UrlSequence`  
@@ -43,6 +49,7 @@ class UrlSequence : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
  [UrlSequenceSettings Class](../wmi-provider/urlsequencesettings-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: be5e6a7d-b4b4-adf7-6d38-8619d053a0e0
 ---
 # IHttpContext::GetScriptName Method
+
 Retrieves the URL for the current request.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual PCWSTR GetScriptName(
 ```  
   
 ### Parameters  
+
  `pcchScriptName`  
  A pointer to a DWORD value that receives the length of the returned string.  
   
 ## Return Value  
+
  A pointer to a string that contains the name of the current script.  
   
 ## Remarks  
+
  The `GetScriptName` method is used to retrieve a pointer to a buffer that contains the URL of the current request.  
   
 > [!NOTE]
 >  The server owns the lifetime of this pointer.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetScriptName` method to create an HTTP module that retrieves the name of the current script. The module returns that information to a Web client and then exits.  
   
  [!code-cpp[IHttpContextGetScriptName#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetScriptName/cpp/IHttpContextGetScriptName.cpp#1)]  
@@ -46,6 +51,7 @@ virtual PCWSTR GetScriptName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::GetScriptMap Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md)   
  [IHttpContext::GetScriptTranslated Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscripttranslated-method.md)

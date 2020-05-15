@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9e69a763-bb41-3d69-c3de-d8d4498acae6
 ---
 # IWpfExposeProtocolManagerCustomInterface Interface
+
 Enables a protocol manager to share information with another protocol manager. For example, a protocol manager may have a dependency on another protocol manager when they share a singleton object.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWpfExposeProtocolManagerCustomInterface : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWpfExposeProtocolManagerCustomInterface` interface.  
   
 |Name|Description|  
@@ -22,6 +24,7 @@ class IWpfExposeProtocolManagerCustomInterface : public IWpfReferencedObject
 |[Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IWpfExposeProtocolManagerCustomInterface`  
@@ -36,6 +39,7 @@ class IWpfExposeProtocolManagerCustomInterface : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

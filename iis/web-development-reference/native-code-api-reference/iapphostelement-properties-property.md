@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 357d4d6b-291c-90ec-a39b-59f6de3fdd61
 ---
 # IAppHostElement::Properties Property
+
 Gets the collection of properties that are defined for the current element.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Properties(
 ```  
   
 ### Parameters  
+
  `ppProperties`  
  A pointer to a pointer for an [IAppHostPropertyCollection](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ HRESULT get_Properties(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example obtains the `enabled` property from the property collection of the `system.webServer/defaultDocument` configuration section, sets the value to `false`, and then commits the changes.  
   
  [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
@@ -41,4 +45,5 @@ HRESULT get_Properties(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

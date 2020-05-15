@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c38ab36a-6af1-4d86-9a94-cad9a8950d58
 ---
 # IAppHostConstantValueCollection::Item Property
+
 Gets the constant value at the specified index.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ Gets the constant value at the specified index.
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that represents the constant value to retrieve. If the `VARIANT` is of type integer, the index is a zero-based index to the collection of IAppHostElement objects. If the `VARIANT` is of type string, it is the name of the constant value.  
   
@@ -23,6 +25,7 @@ Gets the constant value at the specified index.
  A pointer to a pointer of an [IAppHostConstantValue Interface](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-interface.md) object that contains the constant value.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,4 +43,5 @@ Gets the constant value at the specified index.
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConstantValue Interface](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-interface.md)

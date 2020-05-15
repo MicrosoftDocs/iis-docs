@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 41743e11-7d57-c232-723f-e5ef3af7166f
 ---
 # DeviceFilter Class
+
 Specifies criteria for determining mobile browser capabilities or the type of mobile device.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class DeviceFilter : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DeviceFilter` class.  
   
 |Name|Description|  
@@ -27,9 +30,11 @@ class DeviceFilter : CollectionElement
 |`Type`|A read/write `string` value that specifies the class of an evaluator delegate method. If you specify a value for this property, you must also specify a value for the `Method` property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DeviceFilters` property of the [DeviceFiltersSection](../wmi-provider/devicefilterssection-class.md) class.  
   
  The properties in this class specify criteria against which target mobile devices and capabilities should be matched. You can select from two types of device filters: comparison evaluators or evaluator delegates.  
@@ -81,6 +86,7 @@ class DeviceFilter : CollectionElement
  `</deviceFilters>`  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `DeviceFilter`  
@@ -95,6 +101,7 @@ class DeviceFilter : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.SystemWebSectionGroup.DeviceFilters](/dotnet/api/system.web.configuration.systemwebsectiongroup.devicefilters)
  [\<filter> Element](https://go.microsoft.com/fwlink/?LinkId=69324)   
  [Device-Specific Rendering](https://go.microsoft.com/fwlink/?LinkId=69323)   

@@ -10,11 +10,13 @@ msc.type: config
 # Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<periodicRestart>` element contains configuration settings that allow you to control when an application pool is recycled. You can specify that Internet Information Services (IIS) 7 recycle the application pool after a time interval (in minutes) or at a specific time each day. You can also configure IIS to base the recycle on the amount of virtual memory or physical memory that the worker process in the application pool is using or configure IIS to recycle the application pool after the worker process has processed a specific number of requests.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<periodicRestart>` element contains configuration settings that allow you t
 | IIS 6.0 | The `<periodicRestart>` element replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to set up periodic recycling for an application pool
@@ -62,6 +66,7 @@ The `<applicationPools>` collection is included in the default installation of I
     [![](index/_static/image6.png)](index/_static/image5.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<periodicRestart>` element is configurable at the server level in the ApplicationHost.config file.
@@ -88,6 +93,7 @@ The following configuration sample uses the application pool `<add>` element to 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples add an application pool named Contoso to your IIS 7 server, then set the application pool to daily recycle at 3:00 A.M.

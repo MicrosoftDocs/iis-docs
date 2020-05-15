@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5e7303e8-480b-dbd5-a48b-8435540f2ab2
 ---
 # IAppHostPropertyCollection::Item Property
+
 Gets the property with the requested index or property name in the collection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT get_Item(
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that contains the index or property name of the item to retrieve from the collection.  
   
@@ -24,6 +26,7 @@ HRESULT get_Item(
  A pointer to a pointer for an [IAppHostProperty](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ HRESULT get_Item(
 |ERROR_INVALID_INDEX|Indicates that the requested property was not found.|  
   
 ## Example  
+
  The following code example demonstrates how to use the [IAppHostPropertyCollection](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-interface.md) interface to access the `enabled` property of the `defaultDocument` configuration section.  
   
  [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
@@ -46,4 +50,5 @@ HRESULT get_Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertyCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-interface.md)

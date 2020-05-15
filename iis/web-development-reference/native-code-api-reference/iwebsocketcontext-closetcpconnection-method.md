@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6361b595-0d6d-436c-a67d-d5a8f98d5b46
 ---
 # IWebSocketContext::CloseTcpConnection Method
+
 Signals the close of the TCP connection. The connection will not shut down until both sides acknowledge the close.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID CloseTcpConnection(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual VOID CloseTcpConnection(
 |Header|Iiswebsocket.h|  
   
 ## See Also  
+
  [IWebSocketContext Interface](../../web-development-reference/native-code-api-reference/iwebsocketcontext-interface.md)

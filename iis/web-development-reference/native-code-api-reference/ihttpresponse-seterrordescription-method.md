@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 65e5e9a2-0efc-4d11-af6b-c152d58d8b2b
 ---
 # IHttpResponse::SetErrorDescription Method
+
 Specifies the custom error description.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT SetErrorDescription(
 ```  
   
 ### Parameters  
+
  `pszDescription`  
  [IN] A pointer to a string that contains the custom error description.  
   
@@ -27,6 +29,7 @@ virtual HRESULT SetErrorDescription(
  [IN] `true` if the string in `pszDescription` should be encoded for HTML; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,9 +38,11 @@ virtual HRESULT SetErrorDescription(
 |ERROR_INVALID_PARAMETER|Indicates that an invalid value was passed in one of the parameters.|  
   
 ## Remarks  
+
  Developers use the `SetErrorDescription` method to specify the custom error description. IIS displays the custom error description as part of the detailed information that is sent to a Web client when IIS returns an error message.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Retrieves a pointer to an [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md) interface by using the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method.  
@@ -64,5 +69,6 @@ virtual HRESULT SetErrorDescription(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::GetErrorDescription Method](../../web-development-reference/native-code-api-reference/ihttpresponse-geterrordescription-method.md)

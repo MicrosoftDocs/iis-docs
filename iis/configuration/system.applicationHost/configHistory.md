@@ -10,6 +10,7 @@ msc.type: config
 # Configuration History &lt;configHistory&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<configHistory>` element defines the settings for the built-in IIS configuration history feature, which keeps a running history of changes to your configuration files. This history is especially useful for recovering from mistakes made when manually editing your configuration files.
@@ -24,6 +25,7 @@ To resolve the issue, you would only need to copy the ApplicationHost.config fro
 > The configuration history feature requires that the **Application Host Help Service** is running on your server; if this service is stopped or disabled, changes to your configuration files will not be kept in the history folder.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,16 +38,19 @@ To resolve the issue, you would only need to copy the ApplicationHost.config fro
 | IIS 6.0 | The `<configHistory>` element replaces the **EnableHistory** and **MaxHistoryFiles** attributes of the IIS 6.0 **IIsComputerSetting** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<configHistory>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for setting the configuration history options for IIS 7. For examples of how to set the configuration history options programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -68,6 +73,7 @@ The following configuration sample enables the configuration history feature, se
 [!code-xml[Main](configHistory/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable configuration history for IIS 7, and configure the following options: the path of the history files is set to %*SystemDrive*%\inetpub\history, the maximum number of history files is set to 50, and the time interval for checking the configuration settings is set to 5 minutes.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ecc6b08c-2abe-49e8-a2d2-2327e6942644
 ---
 # IAppHostElementSchema::IsCollectionDefault Property
+
 Gets a corresponding [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ Gets a corresponding [IAppHostElement Interface](../../web-development-reference
 ```  
   
 ### Parameters  
+
  `pfIsCollectionDefault`  
  Contains a Boolean value that indicates whether the corresponding [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object is a default for other [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) objects.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,6 +39,7 @@ Gets a corresponding [IAppHostElement Interface](../../web-development-reference
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
  [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)   
  [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)

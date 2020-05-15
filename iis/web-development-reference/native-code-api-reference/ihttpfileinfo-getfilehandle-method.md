@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ff010463-a9a9-4e7f-5fcd-367e09aeb1cf
 ---
 # IHttpFileInfo::GetFileHandle Method
+
 Returns the file handle for the corresponding file.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual HANDLE GetFileHandle(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A valid `HANDLE` to the corresponding file; otherwise, INVALID_HANDLE_VALUE (defined in the Winbase.h header file).  
   
 ## Remarks  
+
  The returned handle must use an overlapped structure to process read requests; otherwise, the current pointer in the file handle might point to random files if multiple threads access the handle concurrently.  
   
  If the returned handle is not INVALID_HANDLE_VALUE, it will point to a valid file handle returned from a method such as the [CreateFile](https://go.microsoft.com/fwlink/?LinkId=58231) global function.  
@@ -32,12 +36,15 @@ virtual HANDLE GetFileHandle(
 - Implementers that reference a non-Internet file return INVALID_HANDLE_VALUE.  
   
 ## Notes for Implementers  
+
  [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call the [CloseHandle](https://go.microsoft.com/fwlink/?LinkId=86428) function on the `HANDLE` when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpFileInfo` implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` clients must not call `CloseHandle` on the returned `HANDLE` when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this `HANDLE`; otherwise, an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetFileHandle` method to retrieve a `HANDLE` to the corresponding file and displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfo#7](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetFileHandle.cpp#7)]  
@@ -68,4 +75,5 @@ File Handle: INVALID_HANDLE_VALUE
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

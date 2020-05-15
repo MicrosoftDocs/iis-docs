@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f1fde288-284d-7035-201c-fb3c508b0213
 ---
 # IMapHandlerProvider::SetScriptMap Method
+
 Specifies which [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface to use for the current context.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual VOID SetScriptMap(
 ```  
   
 ### Parameters  
+
  `pScriptMap`  
  A pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `SetScriptMap` method allows an HTTP module to specify which `IScriptMapInfo` interface to use when IIS processes a request within the current context. For example, you can create a custom `IScriptMapInfo` interface and specify that IIS use that interface to process the current request if a Web client requests a specific resource on your Web site.  
   
 ## Example  
+
  The following example code demonstrates how to create an HTTP module that creates a custom `IScriptMapInfo` interface. The module uses the `SetScriptMap` method to specify that IIS use the custom interface to process the current request and then exits.  
   
  [!code-cpp[IMapHandlerProviderSetScriptMap#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMapHandlerProviderSetScriptMap/cpp/IMapHandlerProviderSetScriptMap.cpp#1)]  
@@ -43,4 +48,5 @@ virtual VOID SetScriptMap(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMapHandlerProvider Interface](../../web-development-reference/native-code-api-reference/imaphandlerprovider-interface.md)

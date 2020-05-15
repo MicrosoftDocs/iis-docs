@@ -10,11 +10,13 @@ msc.type: config
 # WebDAV File System &lt;fileSystem&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<fileSystem>` element of the `<authoring>` element specifies how the WebDAV module interacts with the underlying file system. More specifically, the `<fileSystem>` element contains attributes that define whether file operations should be transactional, and whether hidden files or virtual directories will be returned in property requests, which are commonly used for directory listings.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<fileSystem>` element of the `<authoring>` element specifies how the WebDAV
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -86,6 +89,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to allow hidden files to be listed in WebDAV responses
@@ -115,6 +119,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 6. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<fileSystem>` element is configurable only at the site level in the ApplicationHost.config file. Any `<fileSystem>` elements at other levels or in Web.config files are ignored.
@@ -138,6 +143,7 @@ The following example lists a sample `<webdav>` element for the Default Web Site
 [!code-xml[Main](fileSystem/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure the WebDAV file system settings so that hidden files and virtual directories will be returned in property query responses.

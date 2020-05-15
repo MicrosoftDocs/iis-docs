@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 429518b6-f1be-413b-a98c-4cad57b3aaa4
 ---
 # IAppHostSectionDefinition Interface
+
 Provides access to the attributes that define the behavior of a configuration section.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ IAppHostSectionDefinition : public IUnknown
 ```  
   
 ## Methods  
+
  This interface contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostSectionDefinition` interface.  
   
 |Property|Description|  
@@ -27,6 +30,7 @@ IAppHostSectionDefinition : public IUnknown
 |[Type](../../web-development-reference/native-code-api-reference/iapphostsectiondefinition-type-property.md)|Gets the type name of a class that represents the current configuration section.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostSectionDefinition`  
@@ -41,4 +45,5 @@ IAppHostSectionDefinition : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)

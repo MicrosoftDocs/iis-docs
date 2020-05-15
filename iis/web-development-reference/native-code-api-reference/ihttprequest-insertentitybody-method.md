@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8e30471e-981b-9026-dc07-5dd2c1e81b02
 ---
 # IHttpRequest::InsertEntityBody Method
+
 Inserts a new entity body into the existing HTTP request body.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT InsertEntityBody(
 ```  
   
 ### Parameters  
+
  `pvBuffer`  
  [IN] A pointer to a `VOID` buffer that contains the request entity body.  
   
@@ -23,6 +25,7 @@ virtual HRESULT InsertEntityBody(
  [IN] A `DWORD` that contains the size, in bytes, of the buffer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,6 +33,7 @@ virtual HRESULT InsertEntityBody(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The [InsertEntityBody](../../web-development-reference/native-code-api-reference/ihttprequest-insertentitybody-method.md) method inserts the entity body that is pointed to by the `pvBuffer` parameter into the HTTP request entity body.  
   
 > [!NOTE]
@@ -41,6 +45,7 @@ virtual HRESULT InsertEntityBody(
 >  This method does not update the Content-Length header value. A module that uses this method must update the Content-Length separately.  
   
 ## Example  
+
  The following code example demonstrates how create an HTTP module that calls the [IHttpContext::AllocateRequestMemory](../../web-development-reference/native-code-api-reference/ihttpcontext-allocaterequestmemory-method.md) method to allocate a 1-KB buffer. The module then copies the string "Hello World" into the buffer. Finally, the module calls the `InsertEntityBody` method to replace the preloaded HTTP request entity body with the buffer and then exits.  
   
  [!code-cpp[IHttpRequestInsertEntityBody#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestInsertEntityBody/cpp/IHttpRequestInsertEntityBody.cpp#1)]  
@@ -59,4 +64,5 @@ virtual HRESULT InsertEntityBody(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)

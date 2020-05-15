@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 10f84261-eb6f-4738-f188-523e5308913f
 ---
 # IWpfListenerChannelCallback::ReportMessageReceived Method
+
 Notifies the worker process framework that a listener channel has received a message.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual HRESULT ReportMessageReceived(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -25,6 +28,7 @@ virtual HRESULT ReportMessageReceived(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  You can use the information from the `ReportMessageReceived` method, for example, to enable a worker process to calculate the total number of requests received when recycling is enabled for an application pool.  
   
 ## Requirements  
@@ -37,6 +41,7 @@ virtual HRESULT ReportMessageReceived(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-interface.md)   
  [IWpfListenerChannelCallback::GetBlob Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getblob-method.md)   
  [IWpfListenerChannelCallback::GetId Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getid-method.md)   

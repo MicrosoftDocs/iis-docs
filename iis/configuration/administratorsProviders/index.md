@@ -10,6 +10,7 @@ msc.type: config
 # Administrator Providers &lt;administratorsProviders&gt; (Deprecated)
 
 <a id="001"></a>
+
 ## Note
 
 > [!NOTE]

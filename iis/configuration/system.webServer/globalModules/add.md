@@ -10,11 +10,13 @@ msc.type: config
 # Adding Global Modules &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<globalModules>` collection specifies an individual global module to be added to the Web server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<add>` element of the `<globalModules>` collection specifies an individual 
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<globalModules>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to install a native module
@@ -92,6 +96,7 @@ The `<globalModules>` element is included in the default installation of IIS 7.
     [![](add/_static/image8.png)](add/_static/image7.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 Each `<add>` element in the `<globalModules>` collection must contain a **name** attribute that identifies the module, and an **image** attribute that points to the DLL that implements the module.
@@ -115,6 +120,7 @@ The following example shows an IIS 7 `<globalModules>` section that contains ent
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples install a native module named ImageCopyrightModule on IIS 7 and automatically enable it on the entire server.

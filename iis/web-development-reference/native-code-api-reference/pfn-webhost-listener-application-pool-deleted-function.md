@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 22e77a24-aaca-c593-c46f-cbbe073e1b4a
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED Function
+
 Notifies the listener adapter that the application pool has been deleted from its view.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED)(
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -23,9 +25,11 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED)(
  [IN] A pointer to a string that contains the application pool that has been deleted from the listener adapter's view.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The application pool can be deleted from the listener adapter's view if the Windows Process Activation Service (WAS) no longer has any applications that use this application pool, or the WAS is not tracking any more listener channels for this pool. The WAS tracks listener channels that are connected to a worker process and listener channels that it has not notified the listener adapter to start (for example, when the application pool is disabled).  
   
  All applications in the pool should be either deleted or notified to move to another application pool before the WAS stops tracking all listener channels for the application pool. As each application exits or moves to another application pool, the listener adapter notifies the WAS to stop tracking their listener channels. Once the WAS has no listener channels to track for the application pool, this notification is called.  
@@ -42,4 +46,5 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED)(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)

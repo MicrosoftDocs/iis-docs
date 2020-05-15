@@ -10,6 +10,7 @@ msc.type: config
 # FTP SSL Client Certificates &lt;sslClientCertificates&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<sslClientCertificates>` element specifies the SSL client certificate options for FTP sites. More specifically, this element contains the following attributes, which are discussed in detail in the configuration section of this topic:
@@ -21,6 +22,7 @@ The `<sslClientCertificates>` element specifies the SSL client certificate optio
 - The `useActiveDirectoryMapping` attribute specifies whether Active Directory mapping should be allowed for client certificates. Note: This attribute is used in combination with the `<clientCertAuthentication>` element to configure certificate mapping by using Active Directory.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -40,6 +42,7 @@ The `<sslClientCertificates>` element specifies the SSL client certificate optio
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -107,11 +110,13 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 At this time there is no user interface that enables you to configure the client certificate authentication settings for an FTP site. See the **Configuration** and **Sample Code** sections of this document for additional information about how to configure the client certificate authentication settings custom features to an FTP site.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<sslClientCertificates>` element is configured at the site level.
@@ -137,6 +142,7 @@ The following sample displays an FTP site that requires SSL and client certifica
 [!code-xml[Main](sslClientCertificates/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure an FTP site so that it requires client certificates and requires SSL for both the data channel and the control channel.

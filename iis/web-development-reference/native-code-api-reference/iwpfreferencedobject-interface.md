@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4db5d58d-a83c-3f28-deb7-bb9b88b0baaa
 ---
 # IWpfReferencedObject Interface
+
 Defines the base class for the worker process framework.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWpfReferencedObject` interface.  
   
 |Name|Description|  
@@ -21,6 +23,7 @@ class IWpfReferencedObject
 |[Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|Decrements the reference count for the `IWpfReferencedObject` interface.|  
   
 ## Remarks  
+
  All interfaces in the worker process framework are inherited from the `IWpfReferencedObject` interface. In addition, `IWpfReferencedObject` exposes the reference counting methods for the worker process framework.  
   
 ## Requirements  
@@ -33,6 +36,7 @@ class IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

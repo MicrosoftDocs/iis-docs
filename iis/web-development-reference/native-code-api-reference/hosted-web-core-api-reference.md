@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d9d5406e-edef-ab14-c78a-711f70d5cda2
 ---
 # Hosted Web Core API Reference
+
 This section describes the functions that developers can use to host Web pages with the Hosted Web Core. Hosted Web Core enables processes other than a worker process to load an instance of the IIS core. This instance requires a separate configuration file and can host only one application pool.  
   
 ## In This Section  
@@ -15,6 +16,7 @@ This section describes the functions that developers can use to host Web pages w
 |[PFN_WEB_CORE_SHUTDOWN](../../web-development-reference/native-code-api-reference/pfn-web-core-shutdown-function.md)|Shuts down an instance of the Hosted Web Core.|  
   
 ## Remarks  
+
  Creating an instance of the Hosted Web Core enables a process other than a worker process to load the IIS core, which is the base Web application and content-serving functionality that is provided by IIS.  
   
 > [!NOTE]
@@ -26,4 +28,5 @@ This section describes the functions that developers can use to host Web pages w
 > The Hosted Web Core requires a configuration file that follows the design of the ApplicationHost.config file, except that Hosted Web Core supports only one application pool. For more information about the configuration file required for Hosted Web Code, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-configuration-file-for-hosted-web-core.md).  
   
 ## See Also  
+
  [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md)

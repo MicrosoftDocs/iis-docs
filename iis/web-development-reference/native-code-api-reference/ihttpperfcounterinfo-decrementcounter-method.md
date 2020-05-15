@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 14e53865-885b-5406-b949-170d7e725357
 ---
 # IHttpPerfCounterInfo::DecrementCounter Method
+
 Decrements a performance counter by a specified amount.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual VOID DecrementCounter(
 ```  
   
 ### Parameters  
+
  `dwCounterIndex`  
  The performance counter to decrement.  
   
@@ -23,9 +25,11 @@ virtual VOID DecrementCounter(
  The amount to decrement from the counter specified by `dwCounterIndex`.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `DecrementCounter` method decreases the performance counter specified by the `dwCounterIndex` parameter by the value contained in the `dwValue` parameter.  
   
 > [!IMPORTANT]
@@ -41,5 +45,6 @@ virtual VOID DecrementCounter(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpPerfCounterInfo Interface](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md)   
  [IHttpPerfCounterInfo::IncrementCounter Method](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-incrementcounter-method.md)

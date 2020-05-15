@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e5dc46f2-d3ae-7978-93ba-9ee594b54e70
 ---
 # CustomErrorsSection Class
+
 Configures [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] custom error messages.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class CustomErrorsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `CustomErrorsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class CustomErrorsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CustomErrorsSection` class.  
   
 |Name|Description|  
@@ -40,9 +43,11 @@ class CustomErrorsSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The custom errors represented by the `CustomErrorsSection` class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the `<system.web>` section of the Web.config file. Each of these errors is represented by an instance of the [CustomError](../wmi-provider/customerror-class.md) class.  
   
  The custom errors represented by the [HttpErrorsSection](../wmi-provider/httperrorssection-class.md) class are related to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] and are in the `<system.webServer>` section of the ApplicationHost.config file. Each of these errors is represented by an instance of the [HttpErrorElement](../wmi-provider/httperrorelement-class.md) class. The integration of [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] with IIS in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] made this name change necessary.  
@@ -56,6 +61,7 @@ class CustomErrorsSection : ConfigurationSectionWithCollection
 |2|`Off`|The default [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] error page is shown for both local and remote users.|  
   
 ## Example  
+
  The following example sets the `DefaultRedirect` property to "CustomError.htm" and the `Mode` property to `On`.  
   
 ```  
@@ -75,6 +81,7 @@ oSection.Put_
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -91,6 +98,7 @@ oSection.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [CustomError Class](../wmi-provider/customerror-class.md)   
  [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   

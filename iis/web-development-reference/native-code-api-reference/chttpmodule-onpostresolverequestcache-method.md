@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ea055934-77aa-356a-5d6e-067aee33a3f6
 ---
 # CHttpModule::OnPostResolveRequestCache Method
+
 Represents the method that will handle a `ResolveRequestCache` post-event, which occurs after IIS has resolved a request from the cache.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostResolveRequestCache(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostResolveRequestCache(
  [IN] A pointer to an [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_RESOLVE_REQUEST_CACHE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification, IIS will call the module's `OnPostResolveRequestCache` method after IIS has resolved a request from the cache.  
   
 > [!NOTE]
 >  Request-level modules can register for the `PostResolveRequestCache` post-event notification by registering for `RQ_RESOLVE_REQUEST_CACHE` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_RESOLVE_REQUEST_CACHE` event and post-event notifications. When IIS resolves a request from the cache, IIS will call the example module's [OnResolveRequestCache](../../web-development-reference/native-code-api-reference/chttpmodule-onresolverequestcache-method.md) and `OnPostResolveRequestCache` methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleResolveRequestCache#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleResolveRequestCache/cpp/CHttpModuleResolveRequestCache.cpp#1)]  
@@ -50,5 +55,6 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostResolveRequestCache(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnResolveRequestCache Method](../../web-development-reference/native-code-api-reference/chttpmodule-onresolverequestcache-method.md)

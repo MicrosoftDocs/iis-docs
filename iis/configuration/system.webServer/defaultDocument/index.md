@@ -10,6 +10,7 @@ msc.type: config
 # Default Document &lt;defaultDocument&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<defaultDocument>` element allows you to enable or disable default document behavior for your Web site or application. This element contains a `<files>` child element, which contains a collection of `<add>` elements. Each `<add>` element defines the default documents that the site or application will return to a client browser when the site receives a request to the root directory.
@@ -34,6 +35,7 @@ By default, when a request arrives for your site's or application's root directo
 If you disable default documents but have enabled directory browsing, IIS returns a directory listing when a request for the root directory arrives from a browser. If you disable both default documents and directory browsing, IIS sends an "HTTP 404 File Does Not Exist" error to the browser.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -46,11 +48,13 @@ If you disable default documents but have enabled directory browsing, IIS return
 | IIS 6.0 | The `<defaultDocument>` element replaces the IIS 6.0 **DefaultDoc** property and the **EnableDefaultDoc** value of the **DirBrowseFlags** property on the **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<defaultDocument>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add a default document for an application or site
@@ -83,6 +87,7 @@ The `<defaultDocument>` element is included in the default installation of IIS 7
 8. If necessary, click **Remove** in the **Actions** pane to remove any file names that you do not want to use as default documents.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can change the order in which IIS processes default documents by changing the order of `<add>` elements in the `<defaultDocument>` element.
@@ -108,6 +113,7 @@ The following configuration example, when included in a Web.config file for a si
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable default documents on a Web site named Contoso then add a file named Home.html to the list of default documents for the site.

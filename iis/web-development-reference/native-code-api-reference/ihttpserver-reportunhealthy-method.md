@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 08546d0e-7d6c-eb00-0cd8-2bcf460e7674
 ---
 # IHttpServer::ReportUnhealthy Method
+
 Reports the worker process as unhealthy.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual VOID ReportUnhealthy(
 ```  
   
 ### Parameters  
+
  `pszReasonString`  
  [IN] A pointer to a string that contains the cause of the unhealthy status.  
   
@@ -23,12 +25,15 @@ virtual VOID ReportUnhealthy(
  [IN] An `HRESULT` that contains the error condition for the unhealthy status.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  Developers can use the `ReportUnhealthy` method to notify IIS that a problem has occurred, and IIS will automatically call [IWpfActions::FailWorkerProcess](../../web-development-reference/native-code-api-reference/iwpfactions-failworkerprocess-method.md) to shut down the worker process.  
   
 ## Example  
+
  The following code example demonstrates how to use the `ReportUnhealthy` method to create an HTTP module that reports an out-of-memory error and then exits.  
   
  [!code-cpp[IHttpServerReportUnhealthy#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerReportUnhealthy/cpp/IHttpServerReportUnhealthy.cpp#1)]  
@@ -47,5 +52,6 @@ virtual VOID ReportUnhealthy(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IWpfActions::FailWorkerProcess Method](../../web-development-reference/native-code-api-reference/iwpfactions-failworkerprocess-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 437c5154-8165-1852-d8f5-aeb7f68fdc05
 ---
 # HttpRedirectSection Class
+
 Configures HTTP redirection.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpRedirectSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpRedirectSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HttpRedirectSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpRedirectSection` class.  
   
 |Name|Description|  
@@ -43,9 +46,11 @@ class HttpRedirectSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `HttpResponseStatus` property. The default is 302 (`Found`).  
   
 |Value|Keyword|Description|  
@@ -55,6 +60,7 @@ class HttpRedirectSection : ConfigurationSectionWithCollection
 |307|`Temporary`|IIS tells the Web browser to reissue a POST request with original data to a new location. Normally, when a Web browser issues a POST request and receives a 302 redirect message from the Web server, the browser issues a GET request for the new location. This causes the data in the original POST request to be lost. If the browser receives a 307 redirect, it can reissue the POST with the original data intact.|  
   
 ## Example  
+
  The first example displays all of the properties of the `HttpRedirectSection` class, including the embedded `SectionInformation` and `HttpRedirect` properties.  
   
  The second example creates four wildcard redirect elements and attempts to add them to the default Web site's `<httpRedirect>` section. If duplicate entries exist, the code reports so; otherwise, it adds the new entries. Finally, it displays the new count of all entries and the wildcard and destination for each.  
@@ -166,6 +172,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -182,6 +189,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [SectionInformation Class](../wmi-provider/sectioninformation-class.md)   
  [WildcardRedirectElement Class](../wmi-provider/wildcardredirectelement-class.md)

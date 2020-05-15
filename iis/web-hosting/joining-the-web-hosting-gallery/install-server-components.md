@@ -14,6 +14,7 @@ by [Simon Tan](https://github.com/simtan)
 ## Introduction
 
 This article will walk you through installing the required server components to be **WebMatrix compatible** and fulfill the **Spotlight requirements** for the [Web Hosting Gallery](https://www.microsoft.com/web/hosting "Web Hosting Gallery").
+
 ## Prerequisites
 
 We recommend having two separate machines both running Windows Server 2008 R2:

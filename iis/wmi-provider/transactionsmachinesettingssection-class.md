@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3c6e64b9-b4b9-9909-f4ec-db1d90e5e8a8
 ---
 # TransactionsMachineSettingsSection Class
+
 Represents an XML section in a configuration file that contains settings that can be modified only at the computer level.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class TransactionsMachineSettingsSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `TransactionsMachineSettingsSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class TransactionsMachineSettingsSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TransactionsMachineSettingsSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class TransactionsMachineSettingsSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `TransactionsMachineSettingsSection`  
@@ -51,5 +56,6 @@ class TransactionsMachineSettingsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

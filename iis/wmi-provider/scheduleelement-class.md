@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e9de8a29-15b2-4f63-9f61-f1e2315dc522
 ---
 # ScheduleElement Class
+
 Specifies the local time at which an application will be recycled.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ScheduleElement : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ScheduleElement` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ScheduleElement : EmbeddedObject
 |`Value`|A unique read/write `datetime` value that specifies the local time at which an application will be recycled.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Schedule` array property of the [PeriodicRestartSettings](../wmi-provider/periodicrestartsettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ScheduleElement`  
@@ -43,5 +49,6 @@ class ScheduleElement : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [PeriodicRestartSettings Class](../wmi-provider/periodicrestartsettings-class.md)

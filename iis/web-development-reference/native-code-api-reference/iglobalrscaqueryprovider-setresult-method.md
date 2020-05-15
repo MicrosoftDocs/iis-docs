@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 03b046ec-abf6-1e86-0a8e-7a08bfecf54e
 ---
 # IGlobalRSCAQueryProvider::SetResult Method
+
 Finalizes the internal buffer.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual VOID SetResult(
 ```  
   
 ### Parameters  
+
  `cbData`  
  A `DWORD` that contains the data size, in bytes, of the internal buffer.  
   
@@ -23,6 +25,7 @@ virtual VOID SetResult(
  An `HRESULT` that indicates whether the internal buffer is valid.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [IGlobalRscaQueryProvider](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method. You can then validate or invalidate the internal buffer by calling the `SetResult` method on the `IGlobalRSCAQueryProvider` pointer.  
   
  `SetResult` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -43,4 +46,5 @@ virtual VOID SetResult(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalRSCAQueryProvider Interface](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md)

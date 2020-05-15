@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d2318b31-4a59-2850-0eb2-c8a5230a1b64
 ---
 # DefaultProxySection Class
+
 Configures Web proxy server defaults.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class DefaultProxySection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `DefaultProxySection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class DefaultProxySection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DefaultProxySection` class.  
   
 |Name|Description|  
@@ -42,9 +45,11 @@ class DefaultProxySection : ConfigurationSectionWithCollection
 |`UseDefaultCredentials`|A read/write `boolean` value. `true` if default credentials will be used to access a Web proxy server; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -61,6 +66,7 @@ class DefaultProxySection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [BypassElement Class](../wmi-provider/bypasselement-class.md)   
  [BypassListSettings Class](../wmi-provider/bypasslistsettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

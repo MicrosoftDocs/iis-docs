@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bbd6b8a2-c672-5f59-703d-063eaba979ab
 ---
 # OutputCacheSettingsSection Class
+
 Specifies the output-cache profile settings that can be applied to pages in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class OutputCacheSettingsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `OutputCacheSettingsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class OutputCacheSettingsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `OutputCacheSettingsSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class OutputCacheSettingsSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,6 +62,7 @@ class OutputCacheSettingsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache](/dotnet/api/system.web.configuration.systemwebcachingsectiongroup.outputcache)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [OutputCacheProfile Class](../wmi-provider/outputcacheprofile-class.md)   

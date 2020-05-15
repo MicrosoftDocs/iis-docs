@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fa0ce96b-acb6-5dd8-5225-08909ff40868
 ---
 # IHttpRequest::GetRawHttpRequest Method
+
 Returns a structure that contains the raw HTTP request.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual HTTP_REQUEST* GetRawHttpRequest(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [HTTP_REQUEST](https://go.microsoft.com/fwlink/?LinkId=56010) structure.  
   
 ## Remarks  
+
  The `GetRawHttpRequest` method retrieves the raw request and returns a pointer to an `HTTP_REQUEST` structure that contains the current request entity.  
   
 > [!NOTE]
@@ -29,6 +33,7 @@ virtual HTTP_REQUEST* GetRawHttpRequest(
  The lifetime of this structure is controlled by the server, and the structure is available until the end of the request.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetRawHttpRequest` method to create an HTTP module that retrieves the `HTTP_REQUEST` structure for the current request. The code example then shows how to use the structure to retrieve the HTTP verb, HTTP major version, and HTTP minor version for the request.  
   
  [!code-cpp[IHttpRequestGetRawHttpRequest#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetRawHttpRequest/cpp/IHttpRequestGetRawHttpRequest.cpp#1)]  
@@ -47,5 +52,6 @@ virtual HTTP_REQUEST* GetRawHttpRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpResponse::GetRawHttpResponse Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getrawhttpresponse-method.md)

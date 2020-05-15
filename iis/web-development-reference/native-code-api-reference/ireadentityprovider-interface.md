@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 88a39d22-b9ac-9ee7-1127-57158a8a9c4c
 ---
 # IReadEntityProvider Interface
+
 Provides an interface for retrieving or modifying the request entity.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IReadEntityProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IReadEntityProvider` interface.  
   
 |Name|Description|  
@@ -22,14 +24,17 @@ class IReadEntityProvider : public IHttpEventProvider
 |[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  IIS creates and passes an `IReadEntityProvider` interface to a module's [CHttpModule::OnReadEntity](../../web-development-reference/native-code-api-reference/chttpmodule-onreadentity-method.md) method when the module has registered for the [RQ_READ_ENTITY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
  **Note** IIS will trigger `CHttpModule::OnReadEntity()` event for every [IHttpRequest::ReadEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md) even if there is no entity left to read. This behavior addresses scenarios where a module should insert some entity when there is no request entity. You must write some entity-length-verification code so that your `CHttpModule::OnReadEntity()` handler is aware of the possibility of a zero entity length.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IReadEntityProvider`  
@@ -44,4 +49,5 @@ class IReadEntityProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

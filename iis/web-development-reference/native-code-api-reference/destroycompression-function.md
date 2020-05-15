@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a3be752e-2d92-4185-a28b-b2a0c15f28dc
 ---
 # DestroyCompression Function
+
 Destroys the specified compression context.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ VOID WINAPI DestroyCompression(
 ```  
   
 ### Parameters  
+
  `context`  
  [OUT] Pointer to the compression context to destroy.  
   
 ## Return Value  
+
  This function does not return a value.  
   
 ## Requirements  
@@ -31,4 +34,5 @@ VOID WINAPI DestroyCompression(
 |Header|Httpcompression.h|  
   
 ## See Also  
+
  [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

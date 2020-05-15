@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c16f8710-8787-48f5-ab0c-ada65e56d237
 ---
 # TraceUrlSettings Class
+
 Specifies tracing for specific types of requests.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceUrlSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceUrlSettings` class.  
   
 |Name|Description|  
@@ -23,14 +26,17 @@ class TraceUrlSettings : EmbeddedObject
 |`TraceUrls`|An array of [StringElement](../wmi-provider/stringelement-class.md) values that specify URLs to trace.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HttpTracing` array property of the [HttpTracingSection](../wmi-provider/httptracingsection-class.md) class.  
   
  This class is used for Event Tracing for Windows (ETW) request-based tracing.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TraceUrlSettings`  
@@ -45,6 +51,7 @@ class TraceUrlSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
  [StringElement Class](../wmi-provider/stringelement-class.md)

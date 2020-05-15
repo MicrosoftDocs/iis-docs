@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 19c06998-0eb7-41f9-81b2-7fd0278dac34
 ---
 # IHttpContext::CancelIo Method
+
 Cancels any pending send or receive operations.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual HRESULT CancelIo(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,11 +29,13 @@ virtual HRESULT CancelIo(
 |ERROR_INVALID_HANDLE|Indicates that IIS was unable to retrieve and lock an asynchronous handle for the operation.|  
   
 ## Remarks  
+
  The `CancelIo` method terminates any pending send or receive operations with a Web client. For example, if an HTTP module is reading information from the Web client, calling the `CancelIo` method will cancel any pending read operations.  
   
  This method differs from the [IHttpResponse::ResetConnection](../../web-development-reference/native-code-api-reference/ihttpresponse-resetconnection-method.md) and [IHttpResponse::SetNeedDisconnect](../../web-development-reference/native-code-api-reference/ihttpresponse-setneeddisconnect-method.md) methods, which reset the socket connection with a Web client immediately or after the response is complete, respectively.  
   
 ## Example  
+
  The following code example demonstrates how to use the `CancelIo` method to create an HTTP module that cancels any pending send or receive operations.  
   
  [!code-cpp[IHttpContextCancelIo#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextCancelIo/cpp/IHttpContextCancelIo.cpp#1)]  
@@ -49,6 +54,7 @@ virtual HRESULT CancelIo(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpResponse::ResetConnection Method](../../web-development-reference/native-code-api-reference/ihttpresponse-resetconnection-method.md)   
  [IHttpResponse::SetNeedDisconnect Method](../../web-development-reference/native-code-api-reference/ihttpresponse-setneeddisconnect-method.md)

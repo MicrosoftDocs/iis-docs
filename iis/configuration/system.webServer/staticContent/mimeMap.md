@@ -10,6 +10,7 @@ msc.type: config
 # Adding Static Content MIME Mappings &lt;mimeMap&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<mimeMap>` element of the [&lt;staticContent&gt;](index.md) element adds a unique MIME type to the collection of static content types. Each `<mimeMap>` entry must consist of two parts:
@@ -21,6 +22,7 @@ The `<mimeMap>` element of the [&lt;staticContent&gt;](index.md) element adds a 
 > IIS 7 will not return file types that are not added to the `<staticContent>` element or that have mappings in the `<handlers>` element by default. This behavior prevents unauthorized access to files that do not have mappings in the IIS 7 configuration settings.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,11 +35,13 @@ The `<mimeMap>` element of the [&lt;staticContent&gt;](index.md) element adds a 
 | IIS 6.0 | The `<mimeMap>` element replaces the IIS 6.0 **MimeMap** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<mimeMap>` element of the `<staticContent>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add a MIME type to a Web site or application
@@ -67,6 +71,7 @@ The `<mimeMap>` element of the `<staticContent>` element is included in the defa
     [![](mimeMap/_static/image6.png)](mimeMap/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -87,6 +92,7 @@ The following configuration sample adds the file types for MIDI System Exclusive
 [!code-xml[Main](mimeMap/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add the file types for MIDI System Exclusive (Sysex) Messages and Guitar Tablature (TAB) files to IIS, thereby enabling clients to download these file types.

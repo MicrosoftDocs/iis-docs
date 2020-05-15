@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 518d5cde-6260-9f20-ae66-05cd38edcddd
 ---
 # IAppDomainInfoEnum Interface
+
 Provides access to each application domain.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IAppDomainInfoEnum : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppDomainInfoEnum` interface.  
   
 |Name|Description|  
@@ -23,12 +25,15 @@ struct IAppDomainInfoEnum : IUnknown
 |[Reset](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-reset-method.md)|Initializes the `IAppDomainInfoEnum` interface.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  To access the first `IAppDomainInfo` interface you must call the methods in the following order:  
   
 1. `Reset`  
@@ -40,6 +45,7 @@ struct IAppDomainInfoEnum : IUnknown
    To access subsequent `IAppDomainInfo` interfaces, call `MoveNext`. If the `pfMoreItems` parameter of `MoveNext` is nonzero, call `GetData` and repeat this sequence until `pfMoreItems` is 0.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppDomainInfoEnum`  
@@ -54,4 +60,5 @@ struct IAppDomainInfoEnum : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

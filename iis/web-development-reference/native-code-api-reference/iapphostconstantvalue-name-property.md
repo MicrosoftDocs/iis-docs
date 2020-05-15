@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3549e8cc-f04c-4acd-8f3d-a938cd50083d
 ---
 # IAppHostConstantValue::Name Property
+
 Gets the name of the specified constant.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ Gets the name of the specified constant.
 ```  
   
 ### Parameters  
+
  `pbstrName`  
  Contains the name of the constant value.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ Gets the name of the specified constant.
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConstantValue Interface](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-interface.md)

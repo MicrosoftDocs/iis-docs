@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e75ebc13-a6b4-968c-8f0b-729ba591a57b
 ---
 # IHttpRequest::GetClientCertificate Method
+
 Retrieves the client certificate associated with the request.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ HRESULT GetClientCertificate(
 ```  
   
 ### Parameters  
+
  `ppClientCertInfo`  
  [OUT] A pointer to an [HTTP_SSL_CLIENT_CERT_INFO](https://go.microsoft.com/fwlink/?LinkId=63150) structure.  
   
@@ -23,6 +25,7 @@ HRESULT GetClientCertificate(
  [OUT] `true` if the client certificate has been negotiated already; otherwise, `false`. For more information, see the Remarks section.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -32,6 +35,7 @@ HRESULT GetClientCertificate(
 |ERROR_INVALID_PARAMETER|Indicates that the `ppClientCertInfo` or `pfClientCertNegotiated` parameter is NULL.|  
   
 ## Remarks  
+
  A successful HRESULT does not guarantee that a client certificate was found. Developers must also verify that `ppClientCertInfo` is not NULL.  
   
  A `pfClientCertNegotiated` value of `true` does not guarantee that the `ppClientCertInfo` is not NULL.  
@@ -41,6 +45,7 @@ HRESULT GetClientCertificate(
  For URLs that do not require a client certificate, you can call the [NegotiateClientCertificate](../../web-development-reference/native-code-api-reference/ihttprequest-negotiateclientcertificate-method.md) method before you call `GetClientCertificate` to attempt a manual loading of the client certificate.  
   
 ## Example  
+
  The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](https://go.microsoft.com/fwlink/?LinkId=63150) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) method.  
   
  [!code-cpp[IHttpRequestGetClientCertificate#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetClientCertificate/cpp/mymodule.cpp#2)]  
@@ -59,5 +64,6 @@ HRESULT GetClientCertificate(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::NegotiateClientCertificate Method](../../web-development-reference/native-code-api-reference/ihttprequest-negotiateclientcertificate-method.md)

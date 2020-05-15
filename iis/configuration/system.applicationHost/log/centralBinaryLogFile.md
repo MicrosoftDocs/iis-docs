@@ -10,6 +10,7 @@ msc.type: config
 # Central Binary Log File &lt;centralBinaryLogFile&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<centralBinaryLogFile>` element specifies the central binary log settings for all sites on a server.
@@ -21,6 +22,7 @@ The `<centralBinaryLogFile>` element specifies the central binary log settings f
 > Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,11 +35,13 @@ The `<centralBinaryLogFile>` element specifies the central binary log settings f
 | IIS 6.0 | The `<log>` element replaces the IIS 6.0 **CentralBinaryLoggingEnabled** flag. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<centralBinaryLogFile>` element of the `<log>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable central binary logging for a server
@@ -66,6 +70,7 @@ The `<centralBinaryLogFile>` element of the `<log>` element is included in the d
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -89,6 +94,7 @@ The following configuration sample specifies that IIS will use central binary lo
 [!code-xml[Main](centralBinaryLogFile/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples specify that IIS will use central binary logging, and configure binary log file rotation on a daily basis.

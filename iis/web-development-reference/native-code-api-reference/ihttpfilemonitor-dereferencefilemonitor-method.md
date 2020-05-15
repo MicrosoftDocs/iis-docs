@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 13610ef2-eadf-2dfe-cb84-aad275c0e8bb
 ---
 # IHttpFileMonitor::DereferenceFileMonitor Method
+
 Releases a file monitor interface.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual VOID DereferenceFileMonitor(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  VOID.  
   
 ## Remarks  
+
  [IHttpFileMonitor](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-interface.md)  
   
 ## Example  
@@ -39,4 +43,5 @@ N/A
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileMonitor Interface](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 19e9c7a4-e52f-8161-3473-b7146823a658
 ---
 # IScriptMapInfo::GetManagedType Method
+
 Retrieves the managed type for a request handler.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual PCWSTR GetManagedType(
 ```  
   
 ### Parameters  
+
  `pcchManagedType`  
  A pointer to a `DWORD` buffer that receives the length, in characters, of the managed type.  
   
 ## Return Value  
+
  A pointer to a string that contains the managed type.  
   
 ## Remarks  
+
  The `GetManagedType` method retrieves the `type` attribute for a request handler that is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains a list of the [!INCLUDE[dnprdnshort](../../wmi-provider/includes/dnprdnshort-md.md)] namespaces for a request handler. For example, the "TraceHandler-Integrated" request handler has a `type` attribute of "System.Web.Handlers.TraceHandler" by default.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetManagedType` method to retrieve the managed namespace for the request handler that is processing the current request. The module returns the managed type to a Web client and then exits.  
   
  The `IScriptMapInfo::GetManagedType` method differs from the [IHttpServer::GetManagedType](../../web-development-reference/native-code-api-reference/ihttpserver-getmanagedtype-method.md) method in that the `IScriptMapInfo::GetManagedType` method will retrieve only the `type` attribute for the [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface, whereas the `IHttpServer::GetManagedType` can retrieve the `type` attribute for any virtual path.  
@@ -45,5 +50,6 @@ virtual PCWSTR GetManagedType(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)   
  [IHttpServer::GetManagedType Method](../../web-development-reference/native-code-api-reference/ihttpserver-getmanagedtype-method.md)

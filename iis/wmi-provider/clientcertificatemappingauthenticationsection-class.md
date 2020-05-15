@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7e66399a-d6fa-5d2e-68a1-d33e4e876c6a
 ---
 # ClientCertificateMappingAuthenticationSection Class
+
 Enables or disables client certificate mapping authentication.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ClientCertificateMappingAuthenticationSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ClientCertificateMappingAuthenticationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class ClientCertificateMappingAuthenticationSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ClientCertificateMappingAuthenticationSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class ClientCertificateMappingAuthenticationSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `ClientCertificateMappingAuthenticationSection`  
@@ -51,6 +56,7 @@ class ClientCertificateMappingAuthenticationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   

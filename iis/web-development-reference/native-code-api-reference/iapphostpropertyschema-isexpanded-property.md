@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0d896c4e-ff58-b570-b77e-6a6b4687913e
 ---
 # IAppHostPropertySchema::IsExpanded Property
+
 Determines whether environment variables in a property value should be expanded.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_IsExpanded(
 ```  
   
 ### Parameters  
+
  `pfIsExpanded`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if the environment variables should be expanded; otherwise, `VARIANT_FALSE`. The default is `VARIANT_FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_IsExpanded(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

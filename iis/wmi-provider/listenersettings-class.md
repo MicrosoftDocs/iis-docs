@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3b66b900-0d98-4e5d-8aca-8723609bb1d5
 ---
 # ListenerSettings Class
+
 Contains shared listeners that any source or trace element can reference.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ListenerSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ListenerSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ListenerSettings : EmbeddedObject
 |`SharedListeners`|An array of [ListenerElement](../wmi-provider/listenerelement-class.md) values that monitor and format trace output.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SharedListeners` array property of the [SystemDiagnosticsSection](../wmi-provider/systemdiagnosticssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ListenerSettings`  
@@ -43,6 +49,7 @@ class ListenerSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ListenerElement Class](../wmi-provider/listenerelement-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 118ce2da-ce8f-5dac-6662-d49f43ce9c9d
 ---
 # IHttpResponse::SetNeedDisconnect Method
+
 Resets the socket after the response is complete.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual VOID SetNeedDisconnect(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `SetNeedDisconnect` method requests that the socket be disconnected after the server finishes processing the current request. This method differs from the [IHttpResponse::ResetConnection](../../web-development-reference/native-code-api-reference/ihttpresponse-resetconnection-method.md) method, which terminates the socket connection immediately.  
   
 ## Example  
+
  The following code example demonstrates how to use the `SetNeedDisconnect` method to create an HTTP module that disconnects the socket connection after the server finishes processing the current request.  
   
  [!code-cpp[IHttpResponseSetNeedDisconnect#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseSetNeedDisconnect/cpp/IHttpResponseSetNeedDisconnect.cpp#1)]  
@@ -42,6 +47,7 @@ virtual VOID SetNeedDisconnect(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::ResetConnection Method](../../web-development-reference/native-code-api-reference/ihttpresponse-resetconnection-method.md)   
  [IHttpContext::CancelIo Method](../../web-development-reference/native-code-api-reference/ihttpcontext-cancelio-method.md)

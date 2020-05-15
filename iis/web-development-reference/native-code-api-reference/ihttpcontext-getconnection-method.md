@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d6bf938c-60e8-5d4b-408b-916efcad9f6c
 ---
 # IHttpContext::GetConnection Method
+
 Retrieves the connection container for the current context.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual IHttpConnection* GetConnection(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpConnection](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md) interface.  
   
 ## Remarks  
+
  The `GetConnection` method retrieves a pointer to an `IHttpConnection` interface that can be used to retrieve information about the current connection. For example, the [IHttpConnection::IsConnected](../../web-development-reference/native-code-api-reference/ihttpconnection-isconnected-method.md) method returns a Boolean value that indicates whether a Web client is still connected to the current request.  
   
 > [!NOTE]
 >  `IHttpContext` owns the lifetime of this object. Therefore, you do not free this pointer when you write your application.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetConnection` method to create an HTTP module that retrieves a pointer to an `IHttpConnection` interface. The example then calls the `IHttpConnection::IsConnected` method to determine whether the Web client that initiated the current request is still connected. If the client is still connected, the HTTP module will return a status message to the Web client. If the client is not connected, the module will return [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) to end additional processing.  
   
  [!code-cpp[IHttpContextGetConnection#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetConnection/cpp/IHttpContextGetConnection.cpp#1)]  
@@ -45,4 +50,5 @@ virtual IHttpConnection* GetConnection(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

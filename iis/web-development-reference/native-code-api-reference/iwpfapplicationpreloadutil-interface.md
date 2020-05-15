@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 180fa728-36d1-4753-8e6a-23b71ced97c8
 ---
 # IWpfApplicationPreloadUtil Interface
+
 Exposes helper functions that return preload information (such as site ID) for an application and report preload failures.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWpfApplicationPreloadUtil : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWpfApplicationPreloadUtil` interface.  
   
 |Name|Description|  
@@ -23,6 +25,7 @@ class IWpfApplicationPreloadUtil : public IWpfReferencedObject
 |[IWpfReferencedObject::Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IWpfApplicationInfoUtil`  
@@ -37,4 +40,5 @@ class IWpfApplicationPreloadUtil : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Interfaces](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)

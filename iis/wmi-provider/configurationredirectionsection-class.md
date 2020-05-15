@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bdea9a0b-25f3-4d68-8ad1-8ec80312fb67
 ---
 # ConfigurationRedirectionSection Class
+
 Configures the location of the ApplicationHost.config and Administration.config files.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConfigurationRedirectionSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConfigurationRedirectionSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class ConfigurationRedirectionSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConfigurationRedirectionSection` class.  
   
 |Name|Description|  
@@ -37,12 +40,15 @@ class ConfigurationRedirectionSection : ConfigurationSection
 |`UserName`|A read/write `string` value that specifies the user name of the identity that the configuration system impersonates when it reads the configuration files at the location specified by the `RedirectionPath` property. The default is an empty string ("").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Configuration redirection settings are stored in the Redirection.config file. By default, this file is located in the *%windir%*\system32\inetsrv\config directory.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `ConfigurationRedirectionSection`  
@@ -57,4 +63,5 @@ class ConfigurationRedirectionSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 047b08d2-bc6e-f885-038c-0bf55226a2a9
 ---
 # IGlobalStopListeningProvider::DrainRequestsGracefully Method
+
 Indicates whether IIS will gracefully close any currently pending requests.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL DrainRequestsGracefully(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if IIS will close current requests gracefully; otherwise, `false`.  
   
 ## Remarks  
+
  The `DrainRequestsGracefully` method retrieves information about how IIS is going to close any pending requests when a worker process is shutting down. For example, if IIS is restarted, the `DrainRequestsGracefully` method will return `false` because all pending requests will be terminated. However, if an application pool is recycled, the `DrainRequestsGracefully` method will return `true` because all pending requests on the worker process that is shutting down will be closed gracefully.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Registers for the [GL_STOP_LISTENING](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -54,4 +59,5 @@ virtual BOOL DrainRequestsGracefully(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalStopListeningProvider Interface](../../web-development-reference/native-code-api-reference/iglobalstoplisteningprovider-interface.md)

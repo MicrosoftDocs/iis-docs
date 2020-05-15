@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 780c10e6-4cfb-4cc9-9111-24ff1591fd76
 ---
 # IHttpServer2::GetMetadata Method
+
 Retrieves metadata about a website given its name and URL.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT GetMetadata(
 ```  
   
 ### Parameters  
+
  `pszSiteName`  
  [IN] Name of the website.  
   
@@ -27,6 +29,7 @@ virtual HRESULT GetMetadata(
  [OUT] Points to metadata about the website.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -43,4 +46,5 @@ virtual HRESULT GetMetadata(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer2 Interface](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)

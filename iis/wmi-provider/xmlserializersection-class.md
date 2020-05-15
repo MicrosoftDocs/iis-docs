@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 319cbd7d-bcdd-c186-eedc-68456a6070cb
 ---
 # XmlSerializerSection Class
+
 Handles the XML elements used to configure XML serialization.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class XmlSerializerSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `XmlSerializerSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class XmlSerializerSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `XmlSerializerSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class XmlSerializerSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `XmlSerializerSection`  
@@ -51,5 +56,6 @@ class XmlSerializerSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [System.Xml.Serialization.XmlSerializer Class](https://go.microsoft.com/fwlink/?LinkId=70923)

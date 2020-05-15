@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 97ba205d-2c55-d9e1-c0b1-36928035fd74
 ---
 # CHttpModule::OnReadEntity Method
+
 Represents the method that will handle a `ReadEntity` event, which occurs when an operation reads data from the request buffer.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnReadEntity(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnReadEntity(
  [IN] A pointer to an [IReadEntityProvider](../../web-development-reference/native-code-api-reference/ireadentityprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module has registered for the [RQ_READ_ENTITY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnReadEntity` method when an operation reads data from the request buffer.  
   
 > [!NOTE]
 >  Request-level modules can register for the `PostReadEntity` event notification by registering for `RQ_READ_ENTITY` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following example demonstrates how to create a request-level HTTP module that registers for the `RQ_READ_ENTITY` event notification. When IIS reads data from the request buffer, it will call the example module's `OnReadEntity` method. A simple HTML or [!INCLUDE[vstecasp](../../wmi-provider/includes/vstecasp-md.md)] page that performs a post will cause the example code to run.  
   
  [!code-cpp[CHttpModuleReadEntity#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleReadEntity/cpp/CHttpModuleReadEntity.cpp#1)]  
@@ -46,4 +51,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnReadEntity(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

@@ -5,6 +5,7 @@ ms.assetid: e8a0342f-2636-492f-9fbf-f72dd1133f03
 ms.author: "robmcm"
 ---
 # LOGGING_PARAMETERS Structure
+
 Defines the information for FTP activity, such as user name, session ID, IP addresses for the client and server. Developers can select which logging information to use when they implement the IFtpLogProvider interface.  
   
 ## Syntax  
@@ -58,6 +59,7 @@ struct LOGGING_PARAMETERS
 |pszUserName|The name of the user.|  
   
 ## Example  
+
  The following code example illustrates how to use the `IFtpLogProvider` interface to create a custom logging module for the FTP service.  
   
 ```  
@@ -144,4 +146,5 @@ EXIT:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [IFtpLogProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftplogprovider-interface-native.md)

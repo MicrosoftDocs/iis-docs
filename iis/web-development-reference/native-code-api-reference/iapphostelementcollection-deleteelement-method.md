@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b69499ae-af1b-8198-2475-53c06dc66e7b
 ---
 # IAppHostElementCollection::DeleteElement Method
+
 Removes the requested element from the collection.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT DeleteElement(
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that contains the index of the item to be removed from the collection.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT DeleteElement(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementcollection-interface.md)

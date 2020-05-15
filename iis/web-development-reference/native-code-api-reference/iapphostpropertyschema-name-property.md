@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e88c9316-730d-de03-4315-d6408054f0e8
 ---
 # IAppHostPropertySchema::Name Property
+
 Gets the name of the current schema.  
   
 ## Syntax  
@@ -17,10 +18,12 @@ HRESULT get_Name(
 ```  
   
 ### Parameters  
+
  `pbstrName`  
  A pointer to a `BSTR` that contains the name of the current [IAppHostPropertySchema](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -37,4 +40,5 @@ HRESULT get_Name(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0cca8529-7424-62d9-301c-e3c44fd1cd4b
 ---
 # EmbeddedObject Class1
+
 Serves as a base type for embedded objects.  
   
 ## Syntax  
@@ -13,12 +14,15 @@ class EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  This class contains no properties.  
   
 ## Subclasses  
+
  The following table lists the subclasses exposed by the `EmbeddedObject` class.  
   
 |Name|Description|  
@@ -119,6 +123,7 @@ class EmbeddedObject
 |[WsdlHelpGeneratorInfo](../wmi-provider/wsdlhelpgeneratorinfo-class.md)|Specifies the XML Web service Help page (an .aspx file) that is displayed to a browser when the browser navigates directly to an .asmx (XML Web services) page.|  
   
 ## Remarks  
+
  This class groups embedded objects conveniently under one base type.  
   
 ## Requirements  
@@ -131,6 +136,7 @@ class EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [WMI Provider](../wmi-provider/wmi-provider.md)   
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
  [Object Class](../wmi-provider/object-class.md)   

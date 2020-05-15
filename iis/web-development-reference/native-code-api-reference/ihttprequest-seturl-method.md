@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 75496bd2-a34d-a635-6e39-dbc974e92390
 ---
 # IHttpRequest::SetUrl Method
+
 Modifies the request URL.  
   
 ## Syntax  
@@ -23,6 +24,7 @@ virtual HRESULT SetUrl(
 ```  
   
 ### Parameters  
+
  `pszUrl`  
  [IN] A pointer to a string that contains the URL to set.  
   
@@ -33,6 +35,7 @@ virtual HRESULT SetUrl(
  [IN] `true` to reset the existing query string; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -42,6 +45,7 @@ virtual HRESULT SetUrl(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `SetUrl` method modifies the URL for the current request. There are two overloaded versions of the `SetUrl` method. One enables you to specify the header by using a pointer to a string. The other overload uses a pointer to a wide string.  
   
  Subsequent request processing functions and logging operations will process the new URL as if the client had requested the URL. Therefore, any error conditions caused by modifying the URL will be returned to the client. For example, if the new URL does not exist, the Web server will return an HTTP 404 error.  
@@ -56,6 +60,7 @@ virtual HRESULT SetUrl(
 > You must call the `SetUrl` method before the first event in the HTTP integrated request-processing pipeline. Calling the `SetUrl` method from an OnPostBeginRequest handler results in indeterminate behavior.  
   
 ## Example  
+
  The following code example demonstrates how to use the `SetUrl` method to change a requested URL to another URL.  
   
  [!code-cpp[IHttpRequestSetUrl#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestSetUrl/cpp/IHttpRequestSetUrl.cpp#1)]  
@@ -70,5 +75,6 @@ virtual HRESULT SetUrl(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::GetUrlChanged Method](../../web-development-reference/native-code-api-reference/ihttprequest-geturlchanged-method.md)

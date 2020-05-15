@@ -10,6 +10,7 @@ msc.type: config
 # FTP Credentials Cache &lt;credentialsCache&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<credentialsCache>` element of the [`<caching>`](index.md) element specifies the credential settings for the FTP service.   
@@ -21,6 +22,7 @@ When your security requirements dictate that credentials must be flushed immedia
 Credential caching is enabled by default for FTP 7.0, FTP 7.5, and FTP 8.0. Credentials are cached for 15 minutes. The lifetime for credentials in the cache is specified by the `flushInterval` attribute, and credentials can be flushed manually by restarting the FTP service.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -40,6 +42,7 @@ Credential caching is enabled by default for FTP 7.0, FTP 7.5, and FTP 8.0. Cred
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -107,6 +110,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the FTP credential cache settings
@@ -152,6 +156,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<credentialsCache>` element of the `<caching>` element is configured at the global level in ApplicationHost.config.
@@ -180,6 +185,7 @@ The following configuration example enables FTP credential caching for a server,
 [!code-xml[Main](credentialsCache/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable FTP credential caching for a server, and set the credential timeout to 300 seconds (five minutes.)

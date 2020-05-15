@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e91d28c5-2287-b8e8-e2b0-55b81420a53f
 ---
 # IAppHostElementCollection::Count Property
+
 Returns the number of elements in the current collection.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT Count(
 ```  
   
 ### Parameters  
+
  `pcElementCount`  
  A pointer to a `DWORD` that contains the number of elements.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ HRESULT Count(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example loops through all the child elements and properties of the `system.applicationHost/sites` configuration section in the MACHINE/WEBROOT/APPHOST commit path.  
   
  [!code-cpp[IAppHostAdminLibrary#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetCollection.cpp#2)]  
@@ -41,4 +45,5 @@ HRESULT Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementcollection-interface.md)

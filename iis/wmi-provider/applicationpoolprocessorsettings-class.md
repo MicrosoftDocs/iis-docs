@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6e61a326-16df-fe3c-d9f5-0face443ef71
 ---
 # ApplicationPoolProcessorSettings Class1
+
 Configures the CPU settings for an application pool.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationPoolProcessorSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationPoolProcessorSettings` class.  
   
 |Name|Description|  
@@ -28,6 +31,7 @@ class ApplicationPoolProcessorSettings : EmbeddedObject
 |`SmpProcessorAffinityMask2`|A read/write `uint32` value that contains a hexadecimal mask that indicates which CPU the worker processes in an application pool should be bound to. This setting is for the second set of 32 processors on a multiprocessor server. To enable the `SmpProcessorAffinityMask` property, first set the `SmpAffinitized` property to `true`. **Note:**  Although the IIS_Schema.xml file specifies 4294967295 (unlimited) as the default for this property, the default returned by the WMI provider is -1. Setting this property to 0 will cause an error condition because no SMP affinity will be configured.|  
   
 ## Remarks  
+
  Instances of this class are contained in the `Cpu` property of the [ApplicationPool](../wmi-provider/applicationpool-class.md) class.  
   
  The following table lists the possible values and the associated keywords and actions for the `Action` property. The default is 0 (`NoAction`).  
@@ -42,6 +46,7 @@ class ApplicationPoolProcessorSettings : EmbeddedObject
  For more information on setting processor affinity, see [Set Processor Affinity](https://go.microsoft.com/fwlink/?LinkId=57554).  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ApplicationPoolProcessorSettings`  
@@ -56,6 +61,7 @@ class ApplicationPoolProcessorSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

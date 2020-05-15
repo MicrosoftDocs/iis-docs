@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1562904a-cf4d-50e3-802d-f11702097944
 ---
 # IHttpCompletionInfo::GetCompletionBytes Method
+
 Returns the number of bytes completed for an asynchronous operation.  
   
 ## Syntax  
@@ -15,17 +16,21 @@ virtual DWORD GetCompletionBytes(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that contains the number of bytes.  
   
 ## Remarks  
+
  The `GetCompletionBytes` method allows you to retrieve the number of bytes that were completed during an asynchronous operation. When an operation completes asynchronously, IIS creates an [IHttpCompletionInfo](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-interface.md) interface and passes that interface to your module's [CHttpModule::OnAsyncCompletion](../../web-development-reference/native-code-api-reference/chttpmodule-onasynccompletion-method.md) method to process the results of the asynchronous operation. You can then use `GetCompletionBytes` to retrieve the completed bytes for the asynchronous operation.  
   
  For example, if your module requested the [IHttpRequest::ReadEntityBody](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md) method to complete asynchronously, `GetCompletionBytes` would return the number of bytes read. Similarly, if your module requested asynchronous completion of the [IIHttpResponse::Flush](../../web-development-reference/native-code-api-reference/ihttpresponse-flush-method.md) method, `GetCompletionBytes` would return the number of bytes flushed to the client. In addition, `GetCompletionBytes` returns the number of bytes that you specify when you call the [IHttpContext::PostCompletion](../../web-development-reference/native-code-api-reference/ihttpcontext-postcompletion-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
@@ -70,5 +75,6 @@ virtual DWORD GetCompletionBytes(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCompletionInfo Interface](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-interface.md)   
  [IHttpCompletionInfo::GetCompletionStatus Method](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-getcompletionstatus-method.md)

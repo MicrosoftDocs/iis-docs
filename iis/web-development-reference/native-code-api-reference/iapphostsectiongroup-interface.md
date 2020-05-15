@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f39c8583-6e8f-e9ef-354d-2c0f8f8b795d
 ---
 # IAppHostSectionGroup Interface
+
 Provides access to a group of configuration section groups or configuration section definitions.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostSectionGroup : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostSectionGroup` interface.  
   
 |Method|Description|  
@@ -21,6 +23,7 @@ interface IAppHostSectionGroup : IUnknown
 |[DeleteSectionGroup](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-deletesectiongroup-method.md)|Removes a configuration section group that is nested under the current configuration section group.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostSectionGroup` interface.  
   
 |Property|Description|  
@@ -32,6 +35,7 @@ interface IAppHostSectionGroup : IUnknown
 |[Type](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-type-property.md)|Gets the type name of the configuration section group.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostSectionGroup`  
@@ -46,4 +50,5 @@ interface IAppHostSectionGroup : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)

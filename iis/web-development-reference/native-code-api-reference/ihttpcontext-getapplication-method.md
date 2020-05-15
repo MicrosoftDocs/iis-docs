@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b6785cd1-7502-24ea-1b46-e6b29e6fc72c
 ---
 # IHttpContext::GetApplication Method
+
 Retrieves the application container for the current context.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual IHttpApplication* GetApplication(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpApplication](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md) interface.  
   
 ## Remarks  
+
  The `GetApplication` method returns an `IHttpApplication` interface that is used to retrieve information about the application that is processing the current request. For example, the [IHttpApplication::GetApplicationId](../../web-development-reference/native-code-api-reference/ihttpapplication-getapplicationid-method.md) and [IHttpApplication::GetApplicationPhysicalPath](../../web-development-reference/native-code-api-reference/ihttpapplication-getapplicationphysicalpath-method.md) methods will return the application's identity and physical path.  
   
 > [!NOTE]
 >  `IHttpContext` owns the lifetime of this object. Therefore, you do not free this pointer when you write your application.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetApplication` method to create an HTTP module that retrieves the physical path for the current request and returns the path to a Web client.  
   
  [!code-cpp[IHttpContextGetApplication#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetApplication/cpp/IHttpContextGetApplication.cpp#1)]  
@@ -45,4 +50,5 @@ virtual IHttpApplication* GetApplication(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

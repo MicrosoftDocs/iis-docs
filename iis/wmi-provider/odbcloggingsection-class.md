@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0969e9a7-d1f5-58a6-f045-14e4ed271880
 ---
 # OdbcLoggingSection Class1
+
 Specifies configuration settings for logging IIS events to a database through an Open Database Connectivity (ODBC) connection.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class OdbcLoggingSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `OdbcLoggingSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class OdbcLoggingSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `OdbcLoggingSection` class.  
   
 |Name|Description|  
@@ -37,12 +40,15 @@ class OdbcLoggingSection : ConfigurationSection
 |`UserName`|A read/write `string` value that specifies the ODBC database user name used for writing to the database during event logging. The default is "InternetAdmin".|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  ODBC logging allows the logging of IIS data to local Microsoft Access databases or to local or remote Microsoft SQL Server databases.  
   
 ## Example  
+
  The following code example specifies new values for the `DataSource`, `Tablename`, `Username`, and `Password` properties. A helper function displays the values before and after the change.  
   
 ```  
@@ -94,6 +100,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `OdbcLoggingSection`  
@@ -108,6 +115,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
  [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   

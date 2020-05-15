@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f712b0e8-f424-93b7-d623-48619b02f99c
 ---
 # IAppHostWritableAdminManager::CommitPath Property
+
 Gets or sets the configuration path where changes should be committed.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ HRESULT put_CommitPath(
 ```  
   
 ### Parameters  
+
  `pbstrCommitPath`  
  A pointer to a `BSTR` that contains the configuration path where changes should be committed.  
   
@@ -27,6 +29,7 @@ HRESULT put_CommitPath(
  A `BSTR` that contains the new commit path.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -34,6 +37,7 @@ HRESULT put_CommitPath(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example demonstrates how to set the `CommitPath` property, change the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration, and then use the [IAppHostWritableAdminManager::CommitChanges](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-commitchanges-method.md) method to commit those changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
  [!code-cpp[IAppHostAdminLibrary#4](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementSetMetadata.cpp#4)]  
@@ -48,4 +52,5 @@ HRESULT put_CommitPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostWritableAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-interface.md)

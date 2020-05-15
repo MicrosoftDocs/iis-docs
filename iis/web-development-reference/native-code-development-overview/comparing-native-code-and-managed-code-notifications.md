@@ -4,9 +4,11 @@ ms.date: "10/07/2016"
 ms.assetid: 7c240516-85f0-441a-8d2a-b8aebd6884a7
 ---
 # Comparing Native-Code and Managed-Code Notifications
+
 Although the integrated request-processing pipeline in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] Web server core enables native-code developers to write HTTP modules in C++, the event notifications that are available to native-code and managed-code developers are not identical. Developers who are migrating an HTTP module from a managed language such as C# to native code will have to address these differences when they create their new modules.  
   
 ## Global Notifications  
+
  With [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)], developers can now create native-code HTTP modules that process notifications at the global level. In previous versions of IIS, developers could create HTTP modules that processed notifications at only the request-level. HTTP modules that process notifications at the global level are used to process notifications for a variety of server-level events.  
   
  The following table lists the global notification methods that are available to native-code developers.  
@@ -29,9 +31,11 @@ Although the integrated request-processing pipeline in the [!INCLUDE[iisver](../
 |OnGlobalTraceEvent|Called when a trace event is raised.|  
   
 ## Comparing Request Notifications  
+
  Although request notification methods for native-code and managed-code HTTP modules are similar in many ways, they are not completely analogous. For example, the list of deterministic request notification methods is nearly identical for native-code and managed-code modules, yet the list of nondeterministic request notification methods differs greatly.  
   
 ### Native-Code Deterministic Request Notifications  
+
  The following table lists the deterministic request notification methods that are available to native-code developers.  
   
 |Event notification method|Post-event notification method|  
@@ -50,6 +54,7 @@ Although the integrated request-processing pipeline in the [!INCLUDE[iisver](../
 |OnEndRequest|OnPostEndRequest|  
   
 ### Managed-Code Deterministic Request Notifications  
+
  The following table lists the deterministic request notification methods that are available to managed-code developers.  
   
 |Event notification method|Post-event notification method|  
@@ -68,6 +73,7 @@ Although the integrated request-processing pipeline in the [!INCLUDE[iisver](../
 |EndRequest|(None)|  
   
 ### Native-Code Nondeterministic Request Notifications  
+
  The following table lists the nondeterministic request notification methods that are available to native-code developers.  
   
 |Event notification method|Post-event notification method|  
@@ -79,6 +85,7 @@ Although the integrated request-processing pipeline in the [!INCLUDE[iisver](../
 |OnSendResponse|(None)|  
   
 ### Managed-Code Nondeterministic Request Notifications  
+
  The following table lists the nondeterministic request notification methods that are available to managed-code developers.  
   
 |Event notification method|Post-event notification method|  
@@ -87,5 +94,6 @@ Although the integrated request-processing pipeline in the [!INCLUDE[iisver](../
 |PreSendRequestContent|(None)|  
   
 ## See Also  
+
  [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
  [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md)

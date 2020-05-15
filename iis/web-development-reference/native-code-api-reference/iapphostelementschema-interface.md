@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 07dfe345-8a9f-5347-b895-839d7d1234ca
 ---
 # IAppHostElementSchema Interface
+
 Represents the schema of a configuration element.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostElementSchema : public IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostElementSchema` interface.  
   
 |Method|Description|  
@@ -20,6 +22,7 @@ IAppHostElementSchema : public IUnknown
 |[GetMetadata](../../web-development-reference/native-code-api-reference/iapphostelementschema-getmetadata-method.md)|Gets metadata values from the element schema.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostElementSchema` interface.  
   
 |Property|Description|  
@@ -28,6 +31,7 @@ IAppHostElementSchema : public IUnknown
 |[Name](../../web-development-reference/native-code-api-reference/iapphostelementschema-name-property.md)|Gets the name of the current schema.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostElementSchema`  
@@ -42,6 +46,7 @@ IAppHostElementSchema : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

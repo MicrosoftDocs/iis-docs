@@ -10,6 +10,7 @@ msc.type: config
 # Validation &lt;validation&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<validation>` element configures Internet Information Services (IIS) 7 to detect whether an ASP.NET application that is set up to run in Classic .NET mode needs to be changed in order to function correctly in Integrated mode.
@@ -30,6 +31,7 @@ IIS generates a migration error message if the **validateIntegratedModeConfigura
 > If you migrate your configuration manually, or you do not migrate your configuration but you want IIS to remain in Integrated mode (which is not advised), you can disable migration error messages by setting the **validateIntegratedModeConfiguration** attribute to **false**. Because IIS will no longer provide warnings for unsupported configurations when **validateIntegratedModeConfiguration** is **false**, ensure that your application works correctly in Integrated mode before you make this setting.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -42,16 +44,19 @@ IIS generates a migration error message if the **validateIntegratedModeConfigura
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<validation>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding validation for IIS 7. For examples of how to add validation programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -72,6 +77,7 @@ The following configuration sample enables validation. > [!NOTE]
 [!code-xml[Main](validation/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable validation for the Default Web Site.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fbc82145-2355-3b59-ad74-3eb7b5f3f5ec
 ---
 # ConfiguredObject Class1
+
 Acts as a base type for namespace objects whose configuration can be specified in configuration sections.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConfiguredObject : Object
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConfiguredObject` class.  
   
 |Name|Description|  
@@ -21,9 +23,11 @@ class ConfiguredObject : Object
 |[GetSection](../wmi-provider/configuredobject-getsection-method.md)|Retrieves the contents of a configuration section for a configured object.|  
   
 ## Properties  
+
  This class contains no properties.  
   
 ## Subclasses  
+
  The following table lists the subclasses exposed by the `ConfiguredObject` class.  
   
 |Name|Description|  
@@ -33,6 +37,7 @@ class ConfiguredObject : Object
 |[VirtualDirectory](../wmi-provider/virtualdirectory-class.md)|Represents an IIS virtual directory.|  
   
 ## Inheritance Hierarchy  
+
  [Object](../wmi-provider/object-class.md)  
   
  `ConfiguredObject`  
@@ -47,6 +52,7 @@ class ConfiguredObject : Object
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [Object Class](../wmi-provider/object-class.md)   
  [Server Class](../wmi-provider/server-class.md)   

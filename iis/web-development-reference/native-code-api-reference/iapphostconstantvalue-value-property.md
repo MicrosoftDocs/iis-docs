@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a540d2e6-00a4-4578-9d83-3e643fea3a43
 ---
 # IAppHostConstantValue::Value Property
+
 Gets the integer value of the constant.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT Value(
 ```  
   
 ### Parameters  
+
  `pdwValue`  
  Contains the integer value of the constant.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ HRESULT Value(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConstantValue Interface](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 30c45c81-36f6-4e0f-e21c-c983923a1af3
 ---
 # IHttpRequest::SetHeader Method
+
 Sets or appends the value of a specified HTTP request header.  
   
 ## Syntax  
@@ -25,6 +26,7 @@ virtual HRESULT SetHeader(
 ```  
   
 ### Parameters  
+
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the HTTP header to set.  
   
@@ -41,6 +43,7 @@ virtual HRESULT SetHeader(
  [IN] `true` to overwrite the existing header; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -51,6 +54,7 @@ virtual HRESULT SetHeader(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `SetHeader` method sets the value of an HTTP header for the current request. There are two overloaded versions of the `SetHeader` method. One enables you to specify the header by using a string that is contained in the `pszHeaderName` parameter. The other overload uses an unsigned long integer that is contained in the `ulHeaderIndex` parameter.  
   
  The header name specified by the `pszHeaderName` parameter can be a custom header or a header defined in Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," or RFC 2616, "Hypertext Transfer Protocol -- HTTP/1.1."  
@@ -66,6 +70,7 @@ virtual HRESULT SetHeader(
  If the `fReplace` parameter is `true`, the specified header value will replace the existing header value if the header exists. If `fReplace` is `false`, you should append the specified header value to the existing header and separate the value from the header itself with a comma.  
   
 ## Example  
+
  The following code example demonstrates how to use both overloads of the `SetHeader` method to create an HTTP module that replaces the HTTP `User-Agent` and `Accept-Language` headers with new values.  
   
  [!code-cpp[IHttpRequestSetHeader#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestSetHeader/cpp/IHttpRequestSetHeader.cpp#1)]  
@@ -84,6 +89,7 @@ virtual HRESULT SetHeader(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::DeleteHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-deleteheader-method.md)   
  [IHttpRequest::GetHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-getheader-method.md)

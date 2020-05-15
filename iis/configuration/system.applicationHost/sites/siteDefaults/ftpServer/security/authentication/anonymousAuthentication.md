@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Anonymous Authentication Settings &lt;anonymousAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<anonymousAuthentication>` element specifies the settings for anonymous access. This form of authentication allows access to an FTP site without a user account on your server or domain, and is most often used for public FTP sites.
@@ -17,6 +18,7 @@ The `<anonymousAuthentication>` element specifies the settings for anonymous acc
 Anonymous users will typically log in by using a user name of **ftp** or **anonymous**, and most users will use their e-mail address as a password, although this is not required.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,6 +38,7 @@ Anonymous users will typically log in by using a user name of **ftp** or **anony
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -103,6 +106,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable or disable Anonymous authentication for an FTP site
@@ -182,6 +186,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         [![](anonymousAuthentication/_static/image16.png)](anonymousAuthentication/_static/image15.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -205,6 +210,7 @@ The following configuration sample disables Anonymous authentication and enables
 [!code-xml[Main](anonymousAuthentication/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples disable Anonymous authentication and enable Basic authentication by default.

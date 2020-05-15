@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d625426f-a634-4ff0-98b7-91ddeb6d9e8d
 ---
 # IHttpTraceContext::SetTraceConfiguration Method
+
 Sets the trace configuration for the trace context.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT SetTraceConfiguration(
 ```  
   
 ### Parameters  
+
  `moduleId`  
  [IN] An `HTTP_MODULE_ID` pointer that contains the module identifier for the trace configuration.  
   
@@ -30,6 +32,7 @@ virtual HRESULT SetTraceConfiguration(
 >  `HTTP_MODULE_ID` is a type definition of a `void` pointer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -41,12 +44,15 @@ virtual HRESULT SetTraceConfiguration(
 |ERROR_NOT_FOUND|Indicates that an attempt to disable tracing occurred for a provider that does not exist.|  
   
 ## Remarks  
+
  Neither the `moduleId` nor the `pHttpTraceConfiguration` parameter can be NULL; otherwise, the `SetTraceConfiguration` method will cause an access violation.  
   
 ## Thread Safety  
+
  Most implementers of the [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) interface are thread safe if only the [GetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-gettraceconfiguration-method.md) method is called. Calling the `SetTraceConfiguration` method is not guaranteed to be thread safe.  
   
 ### Comments  
+
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
 ## Requirements  
@@ -59,4 +65,5 @@ virtual HRESULT SetTraceConfiguration(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpTraceContext Interface](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md)

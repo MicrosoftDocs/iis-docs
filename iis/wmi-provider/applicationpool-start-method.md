@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1ead4ceb-81f8-992f-91f3-8de8b3345db4
 ---
 # ApplicationPool.Start Method1
+
 Starts an application pool.  
   
 ## Syntax  
@@ -17,15 +18,19 @@ oApplicationPool.Start();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method corresponds to the `IIsApplicationPool.Start` method in IIS 6.0.  
   
 ## Example  
+
  The following example starts the application pool named `DefaultAppPool`.  
   
 ```  
@@ -49,4 +54,5 @@ oAppPool.Start
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)

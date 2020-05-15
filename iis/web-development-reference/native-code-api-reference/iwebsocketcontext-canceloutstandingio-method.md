@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 58b1a23e-2e46-4fa0-844e-80a04ac3d206
 ---
 # IWebSocketContext::CancelOutstandingIO Method
+
 Cancels all remaining input or output operations.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID CancelOutstandingIO(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual VOID CancelOutstandingIO(
 |Header|Iiswebsocket.h|  
   
 ## See Also  
+
  [IWebSocketContext Interface](../../web-development-reference/native-code-api-reference/iwebsocketcontext-interface.md)

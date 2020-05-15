@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cf1700cc-952e-4215-4343-ef4e8ebd9fb3
 ---
 # IAppDomainInfo::GetIsIdle Method
+
 Retrieves the idle state of the application domain.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetIsIdle(
 ```  
   
 ### Parameters  
+
  `pfIsIdle`  
  A pointer to a `DWORD` that contains the idle state of the application domain since the last call. A nonzero value indicates that the application domain is idle; 0 indicates that the application domain is not idle.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall GetIsIdle(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfo Interface](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md)

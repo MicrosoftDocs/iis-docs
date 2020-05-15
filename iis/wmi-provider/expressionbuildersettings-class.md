@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 706dd237-4fa5-433c-8e21-5c929bdf1136
 ---
 # ExpressionBuilderSettings Class
+
 Contains resource strings that associate prefixes with expression builder types during compilation.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ExpressionBuilderSettings: EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ExpressionBuilderSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ExpressionBuilderSettings: EmbeddedObject
 |`ExpressionBuilders`|An array of [ExpressionBuilder](../wmi-provider/expressionbuilder-class.md) values that associate prefixes with expression builder types.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ExpressionBuilders` array property of the [CompilationSection](../wmi-provider/compilationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ExpressionBuilderSettings`  
@@ -43,6 +49,7 @@ class ExpressionBuilderSettings: EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute)  
  [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   

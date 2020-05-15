@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Custom Authentication Providers &lt;providers&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<providers>` element specifies the default collection of custom FTP authentication providers for FTP sites.
@@ -31,6 +32,7 @@ The main advantage of using custom authentication providers is that user account
 > Support for creating custom authentication providers was introduced in FTP 7.5. For additional information about how to create custom authentication providers, see the [Developing for FTP 7.5](https://www.iis.net/learn/develop/developing-for-ftp) section of Microsoft's [www.iis.net/learn](https://www.iis.net/learn) Web site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -50,6 +52,7 @@ The main advantage of using custom authentication providers is that user account
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -117,6 +120,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable IIS Manager authentication for an FTP site
@@ -191,6 +195,7 @@ For additional information about how to configure IIS Manager authentication for
     - Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -212,6 +217,7 @@ The following configuration sample displays an example `<siteDefaults>` element 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples illustrate the configuration of a default custom authentication provider for the FTP service.

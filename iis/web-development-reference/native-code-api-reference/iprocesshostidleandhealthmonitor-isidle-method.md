@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0e39f1e6-1b54-a1ec-29a3-47bfe4cbe8ee
 ---
 # IProcessHostIdleAndHealthMonitor::IsIdle Method
+
 Checks whether the process host is idle.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall IsIdle(
 ```  
   
 ### Parameters  
+
  `pfIdle`  
  A pointer to a `BOOL` that indicates the idle state of the process host. `true` to indicate that the process host is currently idle; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall IsIdle(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHostIdleAndHealthMonitor Interface](../../web-development-reference/native-code-api-reference/iprocesshostidleandhealthmonitor-interface.md)

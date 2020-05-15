@@ -10,11 +10,13 @@ msc.type: config
 # Default Document Files &lt;files&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<files>` element of the `<defaultDocument>` collection specifies a list of file names that are configured as default documents. The `<files>` element can contain a list of `<add>` elements where each item in the list specifies a unique file to add to the `<files>` list.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<files>` element of the `<defaultDocument>` collection specifies a list of 
 | IIS 6.0 | The `<defaultDocument>` collection replaces the IIS 6.0 **DefaultDoc** property and the **EnableDefaultDoc** value of the **DirBrowseFlags** property on the **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<files>` element of the `<defaultDocument>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add a default document for an application or site
@@ -64,6 +68,7 @@ The `<files>` element of the `<defaultDocument>` collection is included in the d
 8. If necessary, click **Remove** in the **Actions** pane to remove any file names that you do not want to use as default documents.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -85,6 +90,7 @@ The following configuration example, when included in a Web.config file for a si
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable default documents on a Web site named Contoso then add a file named Home.html to the list of default documents for the site.

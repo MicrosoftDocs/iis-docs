@@ -10,11 +10,13 @@ msc.type: config
 # WebDAV &lt;webdav&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<webdav>` element contains the settings that configure Web Distributed Authoring and Versioning (WebDAV) for Internet Information Services (IIS) 7. WebDAV is an Internet-based open standard that enables editing Web sites over HTTP and HTTPS connections. WebDAV yields several advantages over the File Transfer Protocol (FTP), the most notable advantages are more security options and the ability to use a single TCP port for all communication.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<webdav>` element contains the settings that configure Web Distributed Auth
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -86,6 +89,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
   - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable WebDAV publishing
@@ -149,6 +153,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 6. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<webdav>` element is configurable at the global, site, and directory level in the ApplicationHost.config file. WebDAV settings in Web.config files are ignored.
@@ -176,6 +181,7 @@ The following example lists a sample `<globalSettings>` element for a WebDAV ser
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable WebDAV authoring for the Default Web Site, and configure the site so that SSL is not required for WebDAV authoring.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c1522380-9788-c51a-a614-3ba64de563f0
 ---
 # IWpfActions::FailWorkerProcess Method
+
 Enables a protocol manager to request a shutdown of the worker process and to log an event to the Event Viewer.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual VOID FailWorkerProcess(
 ```  
   
 ### Parameters  
+
  `pszReason`  
  A pointer to a string that contains the cause of the failure to be logged to the Event Viewer.  
   
@@ -27,9 +29,11 @@ virtual VOID FailWorkerProcess(
  `true` to indicate that the worker process should shut down immediately; `false` to indicate that the worker process should shut down on the next health check.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `FailWorkerProcess` method enables protocol managers to request that the worker process framework report an unhealthy status to the Windows Process Activation Service.  
   
 ## Requirements  
@@ -42,5 +46,6 @@ virtual VOID FailWorkerProcess(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfActions Interface](../../web-development-reference/native-code-api-reference/iwpfactions-interface.md)   
  [IWpfActions::RecycleWorkerProcess Method](../../web-development-reference/native-code-api-reference/iwpfactions-recycleworkerprocess-method.md)

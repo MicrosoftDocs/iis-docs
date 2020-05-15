@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 49d4a5bc-0c8e-4e51-9ab6-60285a97257b
 ---
 # Server.EndUpdateBatch Method
+
 Ends a batch of configuration changes.  
   
 ## Syntax  
@@ -23,9 +24,11 @@ oServer.EndUpdateBatch();
 |`DoCommitChanges`|An optional `boolean` value. `true` if the batch changes of configuration changes that have been made will be committed; otherwise, `false`.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  Batch updates should be done between calls to the [BeginUpdateBatch](../wmi-provider/server-beginupdatebatch-method.md) method of the [Server](../wmi-provider/server-class.md) class and this method. All updates should be made to the same commit path that you specify in the `Path` parameter of the `BeginUpdateBatch` method. If you want to discard the changes that have been made in memory, set the `DoCommitChanges` parameter to `false`.  
   
 > [!NOTE]
@@ -41,5 +44,6 @@ oServer.EndUpdateBatch();
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Server Class](../wmi-provider/server-class.md)   
  [Server.BeginUpdateBatch Method](../wmi-provider/server-beginupdatebatch-method.md)

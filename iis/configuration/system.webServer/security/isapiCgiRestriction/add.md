@@ -10,11 +10,13 @@ msc.type: config
 # Adding ISAPI/CGI Restrictions &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element in the `<isapiCgiRestriction>` collection allows you to specify individual Common Gateway Interface (CGI) and Internet Server Application Programming Interface (ISAPI) applications that can run on Internet Information Services (IIS) 7.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<add>` element in the `<isapiCgiRestriction>` collection allows you to spec
 | IIS 6.0 | The `<isapiCgiRestriction>` collection replaces the **WebSvcExtRestrictionList** property of the IIS 6.0 **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<isapiCgiRestriction>` collection is available only after you install the CGI or ISAPI Extensions modules on your IIS 7 and later server. You cannot install it independent of those features.
@@ -72,6 +75,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an ISAPI or CGI restriction
@@ -100,6 +104,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
     [![](add/_static/image12.png)](add/_static/image11.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<isapiCgiRestriction>` collection can only be configured at the server level in the ApplicationHost.config file.
@@ -124,6 +129,7 @@ The following configuration example is the `<isapiCgiRestriction>` element confi
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add an ISAPI/CGI restriction for a custom ISAPI extension that is located in the content folder for a Web site that is located in C:\Inetpub\www.contoso.com\wwwroot. The examples specify the name, path, and group of the ISAPI extension, and enable the extension.

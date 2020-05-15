@@ -5,6 +5,7 @@ ms.assetid: 843eaeff-6349-465d-958f-12d940763122
 ms.author: "robmcm"
 ---
 # IFtpAuthenticationProvider Interface (Native)
+
 Provides an interface for authentication checks.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ interface IFtpAuthenticationProvider : IUknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IFtpAuthenticationProvider` interface.  
   
 |||  
@@ -22,6 +24,7 @@ interface IFtpAuthenticationProvider : IUknown
 |[IFtpAuthenticationProvider::AuthenticateUser Method](../../ftp-extensibility-reference/native-code-api-reference/iftpauthenticationprovider-authenticateuser-method.md)|Checks to see whether a user name and password are valid.|  
   
 ## Example  
+
  The following code example illustrates how to use the `IFtpAuthenticationProvider` interface to create a custom authentication module that implements user name checks for the FTP service.  
   
 ```  
@@ -66,4 +69,5 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [IFtpRoleProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftproleprovider-interface-native.md)

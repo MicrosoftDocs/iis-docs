@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d7ab3ae1-eb52-436f-ae9b-8be91af32849
 ---
 # TagMapElement Class
+
 Contains a statement that remaps a tag type.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TagMapElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TagMapElement` class.  
   
 |Name|Description|  
@@ -24,14 +27,17 @@ class TagMapElement : CollectionElement
 |`TagType`|A read-only nonempty `string` value that specifies the name of the original type for the tag that is being remapped. The key property. **Note:**  An empty string value for this property will cause the configuration system to throw an exception when the object is serialized.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `TagMapping` property on the [TagMapInfo](../wmi-provider/tagmapinfo-class.md) class.  
   
  Tag remapping, which occurs at compile time, replaces the original tag type (specified by the `TagType` property) with the mapped type (specified by the `MappedTagType` property) for all pages and controls in the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application in the scope of the configuration file.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TagMapElement`  
@@ -46,6 +52,7 @@ class TagMapElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo)  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   

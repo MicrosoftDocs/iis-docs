@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 86c97635-9cea-7ced-e217-276667534258
 ---
 # BuildProvider Class
+
 Represents a build provider that compiles custom resource files of a particular file type and generates code during compilation.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class BuildProvider : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `BuildProvider` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class BuildProvider : CollectionElement
 |`Type`|A read/write `string` value that contains the type of the build provider that compiles resource files that have the file extension specified in the `Extension` property. The string is a comma-delimited list that contains the fully qualified type name followed by the assembly information (for example, Corp.Net.Provider, Corp, Version=1.0.5000.0, Culture=neutral, PublicKeyToken="00000000000000000"). If you do not specify a string value, the property will contain a null reference.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `BuildProviders` array property of the [BuildProviderSettings](../wmi-provider/buildprovidersettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `BuildProvider`  
@@ -44,6 +50,7 @@ class BuildProvider : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.CompilationSection.BuildProviders](/dotnet/api/system.web.configuration.compilationsection.buildproviders)  
  [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

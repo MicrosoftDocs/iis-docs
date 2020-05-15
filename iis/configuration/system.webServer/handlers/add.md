@@ -10,11 +10,13 @@ msc.type: config
 # Adding Handlers &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<handlers>` collection adds a handler to the list of HTTP handlers for Internet Information Services (IIS) 7.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<add>` element of the `<handlers>` collection adds a handler to the list of
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element of the `<handlers>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How create a handler mapping for an ASP.NET handler in an IIS 7 application running in Integrated mode
@@ -96,6 +100,7 @@ The `<add>` element of the `<handlers>` collection is included in the default in
     ![](add/_static/image9.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -125,6 +130,7 @@ The following example contains two `<add>` elements that define handler mappings
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add a FastCGI mapping for a PHP module, then add a handler on the Contoso Web site that will process PHP requests.

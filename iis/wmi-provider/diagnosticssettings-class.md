@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fcaedf87-b8b1-4520-1213-c8d107069ec6
 ---
 # DiagnosticsSettings Class
+
 Specifies whether a Web service returns exceptions to the client.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class DiagnosticsSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DiagnosticsSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class DiagnosticsSettings : EmbeddedObject
 |`SuppressReturningExceptions`|A read/write `boolean` value. `true` if the XML Web service suppresses return exceptions to the client; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Diagnostics` property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `DiagnosticsSettings`  
@@ -43,5 +49,6 @@ class DiagnosticsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

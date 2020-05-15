@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d55d3060-e34a-21db-c73f-b5f45e1f2d8c
 ---
 # IAppHostProperty::StringValue Property
+
 Gets the persisted string value of the property that is stored in XML by the configuration system.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_StringValue(
 ```  
   
 ### Parameters  
+
  `pbstrValue`  
  A pointer to a `BSTR` that contains the string value of the property.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_StringValue(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

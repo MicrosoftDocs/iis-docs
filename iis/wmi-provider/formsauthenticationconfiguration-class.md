@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e1965678-d4ef-61b8-159b-78ac61d663a2
 ---
 # FormsAuthenticationConfiguration Class
+
 Configures Forms authentication for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FormsAuthenticationConfiguration : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FormsAuthenticationConfiguration` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class FormsAuthenticationConfiguration : EmbeddedObject
 |`Timeout`|A read/write `datetime` value that specifies the amount of time after which the authentication expires. The default is 30 minutes.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Forms` property of the [AuthenticationSection](../wmi-provider/authenticationsection-class.md) class.  
   
  The following table lists the possible values for the `Cookieless` property. The default is 3 (`UseDeviceProfile`).  
@@ -58,6 +63,7 @@ class FormsAuthenticationConfiguration : EmbeddedObject
 |3|`Validation`|Specifies that the application will use a validation scheme to verify that the contents of an encrypted cookie have not been altered in transit. The cookie is created by concatenating a validation key with the cookie data, computing a Message Authentication Code (MAC), and appending the MAC to the outgoing cookie.|  
   
 ## Example  
+
  The following example displays the Forms authentication settings for the default Web site.  
   
 ```  
@@ -174,6 +180,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `FormsAuthenticationConfiguration`  
@@ -188,6 +195,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.AuthenticationMode](/dotnet/api/system.web.configuration.authenticationmode)
  [System.Web.Configuration.FormsAuthenticationConfiguration](/dotnet/api/system.web.configuration.formsauthenticationconfiguration)
  [System.Web.Configuration.HttpCapabilitiesBase](/dotnet/api/system.web.configuration.httpcapabilitiesbase)

@@ -10,6 +10,7 @@ msc.type: config
 # Recycling Settings for an Application Pool &lt;recycling&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<recycling>` element contains configuration settings that control the conditions that trigger IIS 7 to restart an application pool. You can also control the types of events IIS writes to the event log when the application pool recycles.
@@ -24,6 +25,7 @@ The `<recycling>` element uses the following attribute and child element to impl
 - **periodicRestart** element
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,11 +38,13 @@ The `<recycling>` element uses the following attribute and child element to impl
 | IIS 6.0 | The `<recycling>` element replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to set up periodic recycling for an application pool
@@ -71,6 +75,7 @@ The `<applicationPools>` collection is included in the default installation of I
     [![](index/_static/image6.png)](index/_static/image5.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<recycling>` element is configurable at the server level in the ApplicationHost.config file.
@@ -96,6 +101,7 @@ The following configuration sample uses the application pool `<add>` element to 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples add an application pool named Contoso to your IIS 7 server, then set the application pool to daily recycle at 3:00 A.M.

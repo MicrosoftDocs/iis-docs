@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d6401224-4d22-a604-2afe-18fba495f7bd
 ---
 # IWpfApplicationInfoUtil::GetApplicationPropertiesFromAppId Method
+
 Retrieves the virtual path and site ID for an application.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT GetApplicationPropertiesFromAppId(
 ```  
   
 ### Parameters  
+
  `pszAppId`  
  A pointer to a string that contains an ID for the application. This may be a virtual path, a physical path, or a site ID.  
   
@@ -31,6 +33,7 @@ virtual HRESULT GetApplicationPropertiesFromAppId(
  A pointer to a `DWORD` buffer that receives the site ID.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,6 +42,7 @@ virtual HRESULT GetApplicationPropertiesFromAppId(
 |ERROR_NOT_FOUND|Indicates that the requested application ID is either not valid or is not available on the server.|  
   
 ## Remarks  
+
  The `GetApplicationPropertiesFromAppId` method retrieves the virtual path and site ID for an application that is specified by a virtual path, a physical path, or a site ID. For example, calling this method and specifying a virtual path as the identifier for an application would obtain the site ID.  
   
  Because the `pszVirtualPath` parameter is optional, it may be NULL.  
@@ -53,4 +57,5 @@ virtual HRESULT GetApplicationPropertiesFromAppId(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfApplicationInfoUtil Interface](../../web-development-reference/native-code-api-reference/iwpfapplicationinfoutil-interface.md)

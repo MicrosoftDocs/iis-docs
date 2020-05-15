@@ -10,11 +10,13 @@ msc.type: config
 # FTP Sessions &lt;sessions&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<sessions>` element is a dynamically generated collection of `<session>` elements, each of which is dynamically created by the FTP service as clients connect to your FTP server. The data that is contained in the attributes for each `<session>` element is read-only; values can be queried but not modified. Each `<session>` element contains a `terminate` method, which allows you to disconnect the client session.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<sessions>` element is a dynamically generated collection of `<session>` el
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -101,6 +104,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to view the active sessions for an FTP site
@@ -128,6 +132,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. The currently active FTP sessions will be displayed in the list view. You can disconnect an active session by highlighting it in the list and then clicking **Disconnect Session** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<sessions>` element is created at the site level.
@@ -147,6 +152,7 @@ None.
 The `<sessions>` element is dynamically generated; it cannot be configured.
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples illustrate looping through the list of sessions for an FTP site that is named "ftp.example.com". The code samples will list the session identifier, the user name, and the last command for each session.

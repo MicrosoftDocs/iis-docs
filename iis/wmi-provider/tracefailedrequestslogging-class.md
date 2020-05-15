@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8940ea70-501f-ef7a-6c59-a88b909db8e4
 ---
 # TraceFailedRequestsLogging Class1
+
 Configures the trace logging of failed requests for a Web site.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceFailedRequestsLogging : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceFailedRequestsLogging` class.  
   
 |Name|Description|  
@@ -27,12 +30,15 @@ class TraceFailedRequestsLogging : EmbeddedObject
 |`MaxLogFileSizeKB`|A read/write `uint32` value that specifies the maximum size, in kilobytes, of the log file to save to disk. The default is 512. 0 specifies that no limit is used. **Note:**  The actual log file size may vary somewhat from the specified size when the memory cache is saved to disk.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `TraceFailedRequestsLogging` property of the [Site](../wmi-provider/site-class.md) class and the [SiteElementDefaults](../wmi-provider/siteelementdefaults-class.md) class.  
   
 ## Example  
+
  The following example displays the properties of the `TraceFailedRequestsLogging` class, reverses the value of the `Enabled` property and saves it, and then displays the properties again to reveal the change.  
   
 ```  
@@ -63,6 +69,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TraceFailedRequestsLogging`  
@@ -77,6 +84,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [Site Class](../wmi-provider/site-class.md)   
  [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a0d43e55-a773-4f55-ae09-33b451adfe4b
 ---
 # IHttpTraceContext::QuickTrace Method
+
 Writes a message to the IIS trace log.  
   
 ## Syntax  
@@ -29,6 +30,7 @@ virtual
 |`level`|The trace level. The possible values are 1 through 7. The default is 4 (TRACE_LEVEL_INFORMATION). For more information, see the Remarks section.|  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,9 +38,11 @@ virtual
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  Event trace levels 1 through 5 correspond to Event Tracing for Windows (ETW) trace levels. For more information about these trace levels, see the [EVENT_TRACE_HEADER](https://go.microsoft.com/fwlink/?LinkId=102211) structure. You can also use trace level 6 (defined as HTTP_TRACE_LEVEL_START in the Httptrace.h header file) and trace level 7 (defined as HTTP_TRACE_LEVEL_END in Httptrace.h).  
   
 ## Example  
+
  The following example demonstrates how to use the [IHttpRequest::SetUrl](../../web-development-reference/native-code-api-reference/ihttprequest-seturl-method.md) method to change a requested URL to another URL and log the change with the `QuickTrace` method.  
   
  You must enable Failed Event Request tracing to see the event.  

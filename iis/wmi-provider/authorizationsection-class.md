@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cc944fcc-836f-d6e7-b78d-6539bea71054
 ---
 # AuthorizationSection Class1
+
 Configures authorization for access to URLs.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AuthorizationSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AuthorizationSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class AuthorizationSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AuthorizationSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class AuthorizationSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -58,5 +63,6 @@ class AuthorizationSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [AuthorizationRule Class](../wmi-provider/authorizationrule-class.md)

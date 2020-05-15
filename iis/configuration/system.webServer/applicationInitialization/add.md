@@ -10,11 +10,13 @@ msc.type: config
 # Adding Initialization Page <add> &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element under the `<applicationInitialization>` element specifies the application to be initialized upon application restart. To perform the application initialization process, IIS sends a fake request to the application to prompt the initialization. Multiple application URLs can be specified by using multiple &lt;add&gt; tags. These applications are not served to a requester. The page specified by the remapManagedRequestsTo attribute in the `<applicationInitialization>` element will be served to the customer.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<add>` element under the `<applicationInitialization>` element specifies th
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support application initialization on your Web server, you must install the Application Initialization role or feature.
@@ -52,6 +55,7 @@ To support application initialization on your Web server, you must install the A
 5. Click **Close**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure application initialization
@@ -81,6 +85,7 @@ To support application initialization on your Web server, you must install the A
 11. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element of the `<applicationInitialization>` element is configured at the server, site, or application level.
@@ -103,6 +108,7 @@ The following sample shows configuration of application initialization.
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure **&lt;applicationInitialization&gt;** for a site.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9aed3421-f9ac-4314-ae65-dcde1088bbd8
 ---
 # IAppHostElementExtension::ProvideElement Method
+
 Populates the provided configuration element.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT ProvideElement(
 ```  
   
 ### Parameters  
+
  `pNewElement`  
  The [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object to populate.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ HRESULT ProvideElement(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementExtension Interface](../../web-development-reference/native-code-api-reference/iapphostelementextension-interface.md)

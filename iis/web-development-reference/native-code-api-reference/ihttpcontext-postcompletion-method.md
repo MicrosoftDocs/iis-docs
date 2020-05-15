@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 94fb5164-1bd1-57bb-255d-cb6ff409cd12
 ---
 # IHttpContext::PostCompletion Method
+
 Indicates the completion of asynchronous work and requests that IIS queue execution to the thread pool.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT PostCompletion(
 ```  
   
 ### Parameters  
+
  `cbBytes`  
  [IN] A `DWORD` that contains the number of bytes for the completion.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ virtual HRESULT PostCompletion(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  An HTTP module can use the `PostCompletion` method to indicate that an asynchronous operation has completed and request that IIS resume processing. The entry point for the original notification will be reentered to allow the notification to capture the completion and return the appropriate notification status. IIS queues the execution to the thread pool, and execution will occur on a thread from the thread pool. This behavior is unlike the behavior of the [IndicateCompletion](../../web-development-reference/native-code-api-reference/ihttpcontext-indicatecompletion-method.md) method, which continues on the current thread.  
   
 ## Requirements  
@@ -38,5 +42,6 @@ virtual HRESULT PostCompletion(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::IndicateCompletion Method](../../web-development-reference/native-code-api-reference/ihttpcontext-indicatecompletion-method.md)

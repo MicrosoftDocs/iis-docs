@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1099f28d-b795-fd21-3832-53f2531169a4
 ---
 # IHttpContext::SetServerVariable Method
+
 Sets a server variable to a specified value.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT SetServerVariable(
 ```  
   
 ### Parameters  
+
  `pszVariableName`  
  [IN] A pointer to a string that contains the name of the server variable to set.  
   
@@ -23,6 +25,7 @@ virtual HRESULT SetServerVariable(
  [IN] A pointer to a string that contains the value of the server variable to set.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -31,12 +34,14 @@ virtual HRESULT SetServerVariable(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `SetServerVariable` method specifies the values for Common Gateway Interface (CGI) server variables. The server variable specified by the `pszVariableName` parameter can be a custom variable or a variable defined in Request for Comments (RFC) 3875, "The Common Gateway Interface (CGI) Version 1.1."  
   
 > [!NOTE]
 >  The server variable specified by the `pszVariableName` parameter is created if it does not exist.  
   
 ## Example  
+
  The following code example demonstrates how to use the `SetServerVariable` method to create an HTTP module that sets the value of the `SERVER_NAME` server variable to an example value.  
   
  [!code-cpp[IHttpContextSetServerVariable#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextSetServerVariable/cpp/IHttpContextSetServerVariable.cpp#1)]  
@@ -55,5 +60,6 @@ virtual HRESULT SetServerVariable(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::GetServerVariable Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getservervariable-method.md)

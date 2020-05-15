@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ef70ae25-d13b-1f8c-4057-cb388586fdf1
 ---
 # VerbElement Class
+
 Represents an HTTP verb that is allowed or denied.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class VerbElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `VerbElement` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class VerbElement : CollectionElement
 |`Verb`|A required unique nonempty read/write `string` value that specifies an HTTP verb. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Verbs` property of the [VerbsSettings](../wmi-provider/verbssettings-class.md) class.  
   
  This class corresponds to a `verb` attribute in the `<verbs>` section of the ApplicationHost.config file.  
@@ -35,6 +40,7 @@ class VerbElement : CollectionElement
 >  You must install the Request Filtering Module (Modrqflt.dll) for this configuration setting to take effect.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `VerbElement`  
@@ -49,5 +55,6 @@ class VerbElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [VerbsSettings Class](../wmi-provider/verbssettings-class.md)

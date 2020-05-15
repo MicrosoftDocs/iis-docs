@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cc0beadd-fa0d-b706-02db-f4931ae6c78a
 ---
 # IHttpServer::SatisfiesPrecondition Method
+
 Determines whether a specific precondition has been met for the current request.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual BOOL SatisfiesPrecondition(
 ```  
   
 ### Parameters  
+
  `pszPrecondition`  
  [IN] A pointer to a string that contains the precondition to test.  
   
 ## Return Value  
+
  `true` if the precondition has been met; otherwise, `false`.  
   
 ## Remarks  
+
  The `SatisfiesPrecondition` method tests whether a specific precondition has been met for the current request. For example, an HTTP handler may require a specific version of the [!INCLUDE[dnprdnshort](../../wmi-provider/includes/dnprdnshort-md.md)], or an HTTP module may require integrated or ISAPI mode.  
   
  The following table lists the possible preconditions for [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)].  
@@ -34,6 +38,7 @@ virtual BOOL SatisfiesPrecondition(
 |`appPoolName=name1;name2`|Specifies the names of required application pools.|  
   
 ## Example  
+
  The following code example demonstrates how to use the `SatisfiesPrecondition` method to create an HTTP module that determines whether the `integratedMode` precondition has been met and then returns a status message to a Web client.  
   
  [!code-cpp[IHttpServerSatisfiesPrecondition#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerSatisfiesPrecondition/cpp/IHttpServerSatisfiesPrecondition.cpp#1)]  
@@ -52,4 +57,5 @@ virtual BOOL SatisfiesPrecondition(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)

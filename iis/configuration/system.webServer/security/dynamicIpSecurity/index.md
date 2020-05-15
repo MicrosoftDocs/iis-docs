@@ -10,6 +10,7 @@ msc.type: config
 # Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<dynamicIpSecurity>` element provides a dynamic means of blocking malicious Web requests. Using dynamic IP restrictions means the administrator does not need to identify the IP addresses that need to be blocked. Instead, the administrator can configure the system so that it blocks any IP address that meets the set criteria. This can include blocking a remote client if the number of concurrent HTTP connection requests from that client exceeds a specific number, or blocking a client if the number of requests received over a period of time exceeds a specific number. The dynamic IP restrictions can be configured at either the server or site levels.
@@ -19,6 +20,7 @@ The administrator can specify which HTTP response status code will be returned i
 If you enable the proxy mode, a request can be blocked by identifying the originating IP address of a client that connects to a web server through an HTTP proxy or load balancer. This is done by examining the x-forwarded-for-HTTP header.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,6 +33,7 @@ If you enable the proxy mode, a request can be blocked by identifying the origin
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 ### Windows Server 2012 or Windows Server 2012 R2
@@ -54,6 +57,7 @@ If you enable the proxy mode, a request can be blocked by identifying the origin
 5. Click **Close**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add dynamic IP restrictions to deny access for a Web site
@@ -75,6 +79,7 @@ If you enable the proxy mode, a request can be blocked by identifying the origin
     [![](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<dynamicIpSecurity>` element is configured at the server or site level.
@@ -101,6 +106,7 @@ The following configuration sample demonstrates how to set dynamic IP address re
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure **&lt;dynamicIpSecurity&gt;** for a site.

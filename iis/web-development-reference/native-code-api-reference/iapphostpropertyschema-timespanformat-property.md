@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ff13d198-e9fd-4e9f-8a77-dd9825ddac68
 ---
 # IAppHostPropertySchema::TimeSpanFormat Property
+
 Gets a string that describes how the corresponding property should be formatted if the property represents a time span.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ Gets a string that describes how the corresponding property should be formatted 
 ```  
   
 ### Parameters  
+
  `pbstrTimeSpanFormat`  
  Contains the format string to use for the property.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ Gets a string that describes how the corresponding property should be formatted 
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

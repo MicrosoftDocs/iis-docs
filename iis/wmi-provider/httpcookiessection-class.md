@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 77afdef8-8d29-579c-e5f9-3b199fc2596f
 ---
 # HttpCookiesSection Class
+
 Configures properties for cookies used by a Web application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpCookiesSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpCookiesSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class HttpCookiesSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpCookiesSection` class.  
   
 |Name|Description|  
@@ -36,9 +39,11 @@ class HttpCookiesSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `HttpCookiesSection`  
@@ -53,6 +58,7 @@ class HttpCookiesSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [httpCookies Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67197)   
  [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies Property](https://go.microsoft.com/fwlink/?LinkId=67198)

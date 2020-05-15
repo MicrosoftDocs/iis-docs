@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e8860ac3-d303-c19e-a3df-f1b1456f42ba
 ---
 # AuthenticationSection Class1
+
 Configures [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] authentication.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AuthenticationSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AuthenticationSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class AuthenticationSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AuthenticationSection` class.  
   
 |Name|Description|  
@@ -40,9 +43,11 @@ class AuthenticationSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `Mode` property. The default is 1 (`Windows`).  
   
 |Value|Keyword|Description|  
@@ -53,6 +58,7 @@ class AuthenticationSection : ConfigurationSectionWithCollection
 |3|`Forms`|Specifies [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Forms authentication as the authentication mode.|  
   
 ## Example  
+
  The following example displays the authentication mode for the default Web site. If the authentication mode is `Passport`, the redirect URL is displayed. If the mode is `Forms`, the corresponding information is displayed.  
   
 ```  
@@ -209,6 +215,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -225,6 +232,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [BasicAuthenticationSection Class](../wmi-provider/basicauthenticationsection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   

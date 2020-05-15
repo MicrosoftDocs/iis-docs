@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 32faf704-9760-5436-9c4a-80bd106fc41c
 ---
 # IHttpCachePolicy::SetKernelCacheInvalidatorSet Method
+
 Sets a value that indicates that the kernel cache is invalidated.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID SetKernelCacheInvalidatorSet(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To invalidate the cache, call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetKernelCacheInvalidatorSet` method.  
   
  `SetKernelCacheInvalidatorSet` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -34,4 +37,5 @@ virtual VOID SetKernelCacheInvalidatorSet(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

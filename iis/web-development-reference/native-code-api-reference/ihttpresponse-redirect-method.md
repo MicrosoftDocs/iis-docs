@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1260ee72-2865-b370-00db-11dfde60e0a9
 ---
 # IHttpResponse::Redirect Method
+
 Redirects the client to a specified URL.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT Redirect(
 ```  
   
 ### Parameters  
+
  `pszUrl`  
  [IN] A pointer to a string that contains the URL for redirection.  
   
@@ -27,6 +29,7 @@ virtual HRESULT Redirect(
  [IN] `true` to pass the query string from the original HTTP request to the redirected URL; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,6 +39,7 @@ virtual HRESULT Redirect(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  When the `fResetStatusCode` parameter is `true`, the `Redirect` method automatically redirects a client to a URL specified by the `pszUrl` parameter. When `fResetStatusCode` is `false`, the `Redirect` method returns an HTML message stating that the URL has moved to the new location. If the URL specified by the `pszUrl` parameter is a relative path, the URL will be converted to an absolute URL within the request domain.  
   
 > [!NOTE]
@@ -45,6 +49,7 @@ virtual HRESULT Redirect(
 > The `Redirect` method does not flush the response entity to the client, and any data in the response will be removed when you call the `Redirect` method. If the response has already been flushed to the client, IIS will have sent the existing headers and data to the client, and the `Redirect` method will not redirect the client to the new URL.  
   
 ## Example  
+
  The following code example demonstrates how to use the `Redirect` method to create an HTTP module that redirects a client to a relative URL on the Web server.  
   
  [!code-cpp[IHttpResponseRedirect#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseRedirect/cpp/IHttpResponseRedirect.cpp#1)]  
@@ -63,4 +68,5 @@ virtual HRESULT Redirect(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 20bb6577-7910-4878-bf32-1791784b78c2
 ---
 # IWpfApplicationPreloadUtil::ReportApplicationPreloadFailure Method
+
 Reports an application preload failure given the path to the configuration file, failure code, and error string.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT ReportApplicationPreloadFailure(
 ```  
   
 ### Parameters  
+
  `pszConfigPath`  
  [IN] Path to the application’s configuration file.  
   
@@ -27,6 +29,7 @@ virtual HRESULT ReportApplicationPreloadFailure(
  [IN] Text that explains why the preload failed.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -43,4 +46,5 @@ virtual HRESULT ReportApplicationPreloadFailure(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfApplicationPreloadUtil Interface](../../web-development-reference/native-code-api-reference/iwpfapplicationpreloadutil-interface.md)

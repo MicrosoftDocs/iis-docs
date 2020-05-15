@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b2e024dd-f7e3-3e43-3343-0fde1a1851d8
 ---
 # IAppHostElement Interface
+
 Represents a single element in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostElement : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostElement` interface.  
   
 |Method|Description|  
@@ -24,6 +26,7 @@ interface IAppHostElement : IUnknown
 |[SetMetadata](../../web-development-reference/native-code-api-reference/iapphostelement-setmetadata-method.md)|Sets metadata for the current element.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostElement` interface.  
   
 |Property|Description|  
@@ -35,6 +38,7 @@ interface IAppHostElement : IUnknown
 |[Schema](../../web-development-reference/native-code-api-reference/iapphostelement-schema-property.md)|Gets the schema that is assigned to the current element.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostElement`  
@@ -49,5 +53,6 @@ interface IAppHostElement : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

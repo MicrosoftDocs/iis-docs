@@ -10,11 +10,13 @@ msc.type: config
 # IP Security &lt;ipSecurity&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<ipSecurity>` element defines a list of IP-based security restrictions in IIS 7 and later. These restrictions can be based on the IP version 4 address, a range of IP version 4 addresses, or a DNS domain name.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<ipSecurity>` element defines a list of IP-based security restrictions in I
 | IIS 6.0 | The `<ipSecurity>` element replaces the IIS 6.0 **IPSecurity** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS does not include the role service or Windows feature for IP security. To use IP security on IIS, you must install the role service or Windows feature using the following steps:
@@ -72,6 +75,7 @@ The default installation of IIS does not include the role service or Windows fea
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add IP restrictions to deny access for a Web site
@@ -129,6 +133,7 @@ The default installation of IIS does not include the role service or Windows fea
     [![](index/_static/image20.png)](index/_static/image19.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 Rules are processed from top to bottom, in the order they appear in the list. The **allowUnlisted** attribute is processed last. Best practice for Internet Protocol security (IPsec) restrictions is to list Deny rules first. You cannot clear the **allowUnlisted** attribute if it is set to **false**.
@@ -161,6 +166,7 @@ The following configuration sample adds two IP restrictions to the Default Web S
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enble reverse DNS lookups for the default web site.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e3c34f66-20eb-c2e1-b0ee-f3f127d8b35c
 ---
 # HttpWebRequestSettings Class
+
 Configures the maximum length for response headers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpWebRequestSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpWebRequestSettings` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class HttpWebRequestSettings : EmbeddedObject
 |`UseUnsafeHeaderParsing`|A read/write `boolean` value. `true` if validation errors that occur during HTTP parsing are ignored; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HttpWebRequest` property of the [SettingsSection](../wmi-provider/settingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `HttpWebRequestSettings`  
@@ -46,5 +52,6 @@ class HttpWebRequestSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SettingsSection Class](../wmi-provider/settingssection-class.md)

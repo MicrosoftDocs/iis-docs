@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ed8a3b96-f70d-da12-6181-5f7a4ad734fd
 ---
 # HttpRequest Class
+
 Represents an HTTP request in a worker process.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpRequest : Object
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpRequest` class.  
   
 |Name|Description|  
@@ -36,11 +39,13 @@ class HttpRequest : Object
 |`Verb`|A read-only `string` value that contains the HTTP verb used in the request.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
   
 ## Example  
+
  The following example lists all the properties for each currently executing request on a Web server.  
   
 ```  
@@ -88,6 +93,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [Object](../wmi-provider/object-class.md)  
   
  `HttpRequest`  
@@ -102,6 +108,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Request-Processing Constants](../web-development-reference/native-code-api-reference/request-processing-constants.md)   
  [Object Class](../wmi-provider/object-class.md)   
  [View Currently Executing Requests in a Worker Process](https://go.microsoft.com/fwlink/?LinkId=60429)

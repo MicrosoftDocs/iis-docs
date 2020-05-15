@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 29bb4657-10a8-4665-9390-f07818bab9da
 ---
 # FastCgiEnvironmentElement Class
+
 Configures environment variables for the process executable program of an application pool.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FastCgiEnvironmentElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FastCgiEnvironmentElement` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class FastCgiEnvironmentElement : CollectionElement
 |`Value`|A read/write `string` that specifies a value for the `Name` property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `EnvironmentVariables` array property of the [FastCgiEnvironmentSettings](../wmi-provider/fastcgienvironmentsettings-class.md) class.  
   
  You can use this class to control PHP process recycling behavior by specifying the *PHP_FCGI_MAX_REQUESTS* environment variable for the `Name` property and a value for the `Value` property.  
@@ -41,6 +46,7 @@ class FastCgiEnvironmentElement : CollectionElement
 >  The default setting for `InstanceMaxRequests` is 200; the default setting on most PHP builds for *PHP_FCGI_MAX_REQUESTS* is 500. Although the default values are sufficient for development scenarios on a stand-alone computer, you should fine-tune these settings when you deploy FastCGI and PHP in a shared hosting environment.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `FastCgiEnvironmentElement`  
@@ -55,6 +61,7 @@ class FastCgiEnvironmentElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [FastCgiApplicationElement Class](../wmi-provider/fastcgiapplicationelement-class.md)   
  [FastCgiEnvironmentSettings Class](../wmi-provider/fastcgienvironmentsettings-class.md)   

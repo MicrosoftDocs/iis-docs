@@ -10,6 +10,7 @@ msc.type: config
 # Static Types &lt;staticTypes&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<staticTypes>` element of the `<httpCompression>` element contains a collection of `<add>` elements that add unique MIME types to the list of types that IIS 7 will compress statically.
@@ -18,6 +19,7 @@ The `<staticTypes>` element of the `<httpCompression>` element contains a collec
 > Unlike the IIS 6.0 **HcFileExtensions** metabase property that defined specific file name extensions as "static content," IIS 7 uses the `<staticTypes>` element to specify which MIME types IIS 7 will compress statically, and it uses mappings in the `<handlers>` element to specify which file name extensions refer to static or dynamic content.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<staticTypes>` element of the `<httpCompression>` element contains a collec
 | IIS 6.0 | The `<staticTypes>` element is somewhat analogous to the IIS 6.0 **HcFileExtensions** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 HTTP compression is usually available on the default installation of IIS 7 and later. However, only static compression is installed by default. To install static or dynamic compression, use the following steps.
@@ -74,11 +77,13 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 5. Click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for setting the static content types for IIS 7. For examples of how to set the static content types programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -99,6 +104,7 @@ The following default `<httpCompression>` element is configured in the Applicati
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will add the MIME types for Office 2003 documents to the list of static compression types.  

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b3dd0504-bf13-b108-ecce-65a96fc1d014
 ---
 # ModulesSection Class
+
 Represents the modules section in a configuration file.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ModulesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ModulesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ModulesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ModulesSection` class.  
   
 |Name|Description|  
@@ -39,12 +42,15 @@ class ModulesSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class contains global modules that are enabled at a particular level on a Web server, and managed modules that also perform request work at the same level.  
   
 ## Example  
+
  The following example displays the native and managed modules in the `<modules>` section of the ApplicationHost.config file.  
   
 ```  
@@ -83,6 +89,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -99,6 +106,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)   
  [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)   

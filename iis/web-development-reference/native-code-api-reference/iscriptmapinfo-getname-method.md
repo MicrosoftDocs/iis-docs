@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9b717857-631e-9a0e-38fd-ab2b62c3d284
 ---
 # IScriptMapInfo::GetName Method
+
 Retrieves the configured name for a request handler.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual PCWSTR GetName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the name of the request handler.  
   
 ## Remarks  
+
  The `GetName` method retrieves the `name` attribute for a request handler that is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains the display name for the request handler as it will appear in the list of handlers that are defined in [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)].  
   
 > [!NOTE]
 >  Do not confuse `GetName` with the [IScriptMapInfo::GetPath](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getpath-method.md) or [IScriptMapInfo::GetScriptProcessor](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md) methods, which return the `path` and `scriptProcessor` attributes, respectively, for the request handler.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetName` method to retrieve the configured name for the request handler that is processing the current request. The module returns the configured name to a Web client and then exits.  
   
  [!code-cpp[IScriptMapInfoGetName#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IScriptMapInfoGetName/cpp/IScriptMapInfoGetName.cpp#1)]  
@@ -45,4 +50,5 @@ virtual PCWSTR GetName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

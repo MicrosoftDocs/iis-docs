@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 62e333b7-58e0-15b1-af94-de7f6bb92567
 ---
 # SiteElementDefaults Class1
+
 Contains the default values for IIS Web site properties.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SiteElementDefaults : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SiteElementDefaults` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class SiteElementDefaults : EmbeddedObject
 |`TraceFailedRequestsLogging`|A [TraceFailedRequestsLogging](../wmi-provider/tracefailedrequestslogging-class.md) object that exposes the default read/write logging properties for Web sites.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SiteDefaults` property of the [Server](../wmi-provider/server-class.md) class.  
   
 ## Example  
+
  The following example sets the maximum number of allowed connections for all Web sites to 100, and then sets the `BytesSent`, `BytesRecv`, and `TimeTaken` flags of the `LogExtFileFlags` attribute to `true`.  
   
 ```  
@@ -63,6 +69,7 @@ oSvr.Put_
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SiteElementDefaults`  
@@ -77,6 +84,7 @@ oSvr.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [Server Class](../wmi-provider/server-class.md)   
  [Site Class](../wmi-provider/site-class.md)   

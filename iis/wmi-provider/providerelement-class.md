@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: aad00f2c-a37d-4424-8b21-3c40c34a86a3
 ---
 # ProviderElement Class
+
 Specifies the name and type of a provider.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProviderElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProviderElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class ProviderElement : CollectionElement
 |`Type`|A required read/write `string` value that contains the managed type for the provider that is specified in the `Name` property. **Note:**  The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Providers` array property of the [ProviderSettings](../wmi-provider/providersettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ProviderElement`  
@@ -44,6 +50,7 @@ class ProviderElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [IIS 7.0: CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)   

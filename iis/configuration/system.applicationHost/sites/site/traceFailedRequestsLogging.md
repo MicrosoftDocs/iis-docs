@@ -10,6 +10,7 @@ msc.type: config
 # Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<traceFailedRequestsLogging>` element of the `<site>` element sets the failed request tracing options for site, such as the directory for failed request tracing log files, the maximum number of failed request tracing log files, and whether failed request tracing is enabled.
@@ -21,6 +22,7 @@ The `<traceFailedRequestsLogging>` element of the `<site>` element sets the fail
 > The `<traceFailedRequestsLogging>` element specifies the site-level options for failed request tracing, but the [`<system.webServer/tracing/traceFailedRequests>`](../../../system.webserver/tracing/tracefailedrequests/index.md) element specifies failed request tracing rules.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,6 +35,7 @@ The `<traceFailedRequestsLogging>` element of the `<site>` element sets the fail
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 After you finish the default installation of IIS 7 and later, you must install the tracing role service to use failed request tracing. After you install the role service, you still must enable failed request tracing at the site level, application level, or directory level.
@@ -75,6 +78,7 @@ After you finish the default installation of IIS 7 and later, you must install t
     [![](traceFailedRequestsLogging/_static/image8.png)](traceFailedRequestsLogging/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the failed request tracing settings for a site
@@ -102,6 +106,7 @@ After you finish the default installation of IIS 7 and later, you must install t
     [![](traceFailedRequestsLogging/_static/image10.png)](traceFailedRequestsLogging/_static/image9.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -125,6 +130,7 @@ The following configuration sample shows a Web site that has enabled logging for
 [!code-xml[Main](traceFailedRequestsLogging/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples show how to enable failed request logging for the Default Web Site, and how to set both the logging directory and maximum number of log files.

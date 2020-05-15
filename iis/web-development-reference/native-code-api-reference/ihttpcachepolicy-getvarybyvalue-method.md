@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b97e5c3f-fc26-a90e-3115-e499693333e1
 ---
 # IHttpCachePolicy::GetVaryByValue Method
+
 Returns the variable value for the cache policy.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual PCSTR GetVaryByValue(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A null-terminated `PCSTR` that contains the variable cache-policy value.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetVaryByValue` method to set the variable value.  
   
  `GetVaryByValue` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -32,12 +36,15 @@ virtual PCSTR GetVaryByValue(
 - `GetVaryByValue` returns the current value of this buffer.  
   
 ## Notes for Implementers  
+
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` implementers that use dynamic memory allocation must release or call `delete` on the `PCSTR` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` clients must not release or call `delete` on the returned `PCSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCSTR`, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes variable information to the response stream.  
   
  [!code-cpp[IHttpCachePolicy#9](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCachePolicy/cpp/GetVaryByValue.cpp#9)]  
@@ -62,4 +69,5 @@ Vary-by-Value:
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

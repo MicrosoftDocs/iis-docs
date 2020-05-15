@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c02033ef-5f32-4c95-4a15-b19c885741c9
 ---
 # IHttpTokenEntry::GetImpersonationToken Method
+
 Returns the impersonation token for a user.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual HANDLE GetImpersonationToken(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `HANDLE` that represents the impersonation token for a user. May be NULL.  
   
 ## Remarks  
+
  An impersonation token is a handle that defines the security context of the user that is making a request. This token allows the server to impersonate a user during a request so that access to system resources is based upon the access rules for that user.  
   
  During impersonation, both the primary token returned from the [GetPrimaryToken](../../web-development-reference/native-code-api-reference/ihttpuser-getprimarytoken-method.md) method and the impersonation token returned from the `GetImpersonationToken` method are used. This may either expand or contract the user privileges based upon security rules for that user.  
@@ -30,12 +34,15 @@ virtual HANDLE GetImpersonationToken(
  For more information on downcast rules, see [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md).  
   
 ## Notes for Implementers  
+
  `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` implementers must call the [CloseHandle](https://go.microsoft.com/fwlink/?LinkId=60019) function on the handle when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` clients must not call `CloseHandle` on the returned handle when this data is no longer needed. Furthermore, clients must not change the state of the memory that this handle references, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenEntry` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -63,6 +70,7 @@ IHttpTokenEntry::GetImpersonationToken: valid
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)   
  [IHttpTokenEntry::GetPrimaryToken Method](../../web-development-reference/native-code-api-reference/ihttptokenentry-getprimarytoken-method.md)   
  [IHttpTokenEntry::GetSid Method](../../web-development-reference/native-code-api-reference/ihttptokenentry-getsid-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 561b9314-d818-d465-9445-209aa61c44f9
 ---
 # IAppHostConfigLocation Interface
+
 Represents a configuration location in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostConfigLocation : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostConfigLocation` interface.  
   
 |Method|Description|  
@@ -21,6 +23,7 @@ interface IAppHostConfigLocation : IUnknown
 |[DeleteConfigSection](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-deleteconfigsection-method.md)|Removes a configuration section from the current configuration location.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostConfigLocation` interface.  
   
 |Property|Description|  
@@ -30,6 +33,7 @@ interface IAppHostConfigLocation : IUnknown
 |[Path](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-path-property.md)|Gets the path of the current configuration location.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigLocation`  
@@ -44,4 +48,5 @@ interface IAppHostConfigLocation : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)

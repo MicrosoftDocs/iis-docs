@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0e9a76f1-3fe0-cbb0-6ac5-e258c4b5df06
 ---
 # VirtualDirectory.Create Method1
+
 Creates a virtual directory.  
   
 ## Syntax  
@@ -37,12 +38,15 @@ objAppSrv.Get("VirtualDirectory").Create(
 |`SiteName`|A `string` value that contains the name of the Web site for the virtual directory (for example, "Default Web Site").|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  The `VirtualDirectory` object inherits from the [ConfiguredObject](../wmi-provider/configuredobject-class.md) class; it does not inherit from the [VirtualDirectoryElementDefaults](../wmi-provider/virtualdirectoryelementdefaults-class.md) class. This means that the properties on the `VirtualDirectoryElementDefaults` object must also be declared on the `VirtualDirectory` object.  
   
 ## Example  
+
  The following example creates a virtual directory called `MyVDir` under the `MyApp` application on the default Web site.  
   
 ```  
@@ -70,5 +74,6 @@ oWebAdmin.Get("VirtualDirectory").Create _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)   
  [VirtualDirectoryContainsConfigurationSection Class](../wmi-provider/virtualdirectorycontainsconfigurationsection-class.md)

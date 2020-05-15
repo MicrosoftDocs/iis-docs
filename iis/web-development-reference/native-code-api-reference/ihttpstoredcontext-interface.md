@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 55e0ddf6-4df3-87c2-ad25-2aa1b903aa76
 ---
 # IHttpStoredContext Interface
+
 Defines context information for stored data.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpStoredContext
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpStoredContext` class.  
   
 |Name|Description|  
@@ -26,6 +28,7 @@ class IHttpStoredContext
 |[IWebSocketContext](../../web-development-reference/native-code-api-reference/iwebsocketcontext-interface.md)|Represents context support for bi-directional WebSocket communications over a single TCP socket.|  
   
 ## Remarks  
+
  Many [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] classes maintain a `private` [IDispensedHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md) pointer as a member variable. These classes implement various interfaces, including [IHttpApplication](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md), [IHttpConnection](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md), [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md), [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md), [IHttpSite](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md), [IHttpUrlInfo](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md), and [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md).  
   
  Each of these interfaces defines a `GetModuleContextContainer` method, which accepts no arguments and returns an [IHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-interface.md) pointer. When the various `GetModuleContextContainer` methods are called, most of these implementers return the `private` data as an upcast `IHttpModuleContextContainer`. This allows the interface implementers to expose custom containers while maintaining the lifetime of those containers.  
@@ -47,4 +50,5 @@ class IHttpStoredContext
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

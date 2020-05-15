@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6e59d669-1eae-b7a2-debb-de86ca8f5017
 ---
 # IHttpServer::IncrementThreadCount Method
+
 Increments the thread count for the thread pool.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual VOID IncrementThreadCount(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `IncrementThreadCount` method increases count of available threads for the thread pool by a single thread. The count will not exceed the maximum limit for the thread pool of 256 threads.  
   
 > [!NOTE]
@@ -29,6 +33,7 @@ virtual VOID IncrementThreadCount(
  When you are developing an HTTP module that performs operations that require a long time to process, your HTTP module could call `IncrementThreadCount` to increase the available threads for the thread pool while your module executes your long-running operations. When the module is finished, it would call [IIHttpServer::DecrementThreadCount](../../web-development-reference/native-code-api-reference/ihttpserver-decrementthreadcount-method.md) to restore the thread count.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that calls `IncrementThreadCount` to increase the thread count for the thread pool and then sleeps for 30 seconds. The module then calls `DecrementThreadCount` to restore the thread count and exits.  
   
  [!code-cpp[IHttpServerIncrementThreadCount#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerIncrementThreadCount/cpp/IHttpServerIncrementThreadCount.cpp#1)]  
@@ -47,5 +52,6 @@ virtual VOID IncrementThreadCount(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IHttpServer::DecrementThreadCount Method](../../web-development-reference/native-code-api-reference/ihttpserver-decrementthreadcount-method.md)

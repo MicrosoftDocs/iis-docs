@@ -42,6 +42,7 @@ To install the current version (CTP2) of Database Manager, see:
 Ensure that the image you plan to use for your Web server installation contains the IIS 7 Database Manager.
 
 <a id="ConnString"></a>
+
 ## Add a Connection String to a Web Application
 
 To add a new connection using a connection string:
@@ -67,6 +68,7 @@ To add a new connection using a connection string:
     Note: If you would like to specify advanced settings for your connection string, you can alternatively click on the **Custom** option button, and then type in the *connection string*.
 
 <a id="AddConnButton"></a>
+
 ## Add Connection Button
 
 You can add new connections without using connection strings. This allows you to connect to databases other than the ones used by your application or to the same database but with a different user identity.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f4f189e2-0977-dae4-7e84-8a9b79cefab9
 ---
 # IAppHostConfigManager::GetUniqueConfigPath Method
+
 Gets a unique configuration path that represents the deepest path where configuration is defined.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ HRESULT GetUniqueConfigPath(
 ```  
   
 ### Parameters  
+
  `bstrConfigPath`  
  A `BSTR` that contains a requested configuration path.  
   
@@ -26,6 +28,7 @@ HRESULT GetUniqueConfigPath(
  A pointer to a `BSTR` that contains a configuration path. The returned path represents the deepest location in `bstrConfigPath` that has an available configuration.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ HRESULT GetUniqueConfigPath(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The following table shows example input and output values of the `GetUniqueConfigPath` method. These values require that the configuration has been set at the MACHINE, MACHINE/WEBROOT, and MACHINE/WEBROOT/Site1 levels.  
   
 |Input values for `bstrConfigPath`|Output values for `pbstrUniquePath`|  
@@ -51,4 +55,5 @@ HRESULT GetUniqueConfigPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigManager Interface](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-interface.md)

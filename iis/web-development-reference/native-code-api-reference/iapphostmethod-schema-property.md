@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d611032c-f7bd-43d0-ab3a-9c6cfa2ffd65
 ---
 # IAppHostMethod::Schema Property
+
 Gets the schema assigned to the current method.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT Schema(
 ```  
   
 ### Parameters  
+
  `ppMethodSchema`  
  Contains the schema for the specified [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md).  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,5 +39,6 @@ HRESULT Schema(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)   
  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

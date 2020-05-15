@@ -10,11 +10,13 @@ msc.type: config
 # Adding Listener Adapters &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<listenerAdapters>` specifies configuration settings for a non-HTTP listener adapter that can be used by Windows Process Activation Service (WAS) to communicate with a listener service.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,16 +29,19 @@ The `<add>` element of the `<listenerAdapters>` specifies configuration settings
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element of the `<listenerAdapters>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding listener adapters for IIS 7. For examples of how to add listener adapters programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -59,6 +64,7 @@ The following configuration sample adds a listener adapter for a Gopher protocol
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add a listener adapter for a Gopher protocol provider, and specify both the name of the DLL and its initialization function.

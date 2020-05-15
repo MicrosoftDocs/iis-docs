@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f2bfccf2-95b3-4b6b-af5d-1e631d4babad
 ---
 # FastCgiEnvironmentSettings Class
+
 Contains environment variables for the process executable program of an application pool.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FastCgiEnvironmentSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FastCgiEnvironmentSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class FastCgiEnvironmentSettings : EmbeddedObject
 |`EnvironmentVariables`|An array of [FastCgiEnvironmentElement](../wmi-provider/fastcgienvironmentelement-class.md) values that contain environment variables for the process executable program of an application pool.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `EnvironmentVariables` property of the [FastCgiApplicationElement Class](../wmi-provider/fastcgiapplicationelement-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `FastCgiEnvironmentSettings`  
@@ -43,6 +49,7 @@ class FastCgiEnvironmentSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FastCgiApplicationElement Class](../wmi-provider/fastcgiapplicationelement-class.md)   
  [FastCgiEnvironmentElement Class](../wmi-provider/fastcgienvironmentelement-class.md)   

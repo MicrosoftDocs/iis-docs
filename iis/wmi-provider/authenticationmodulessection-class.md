@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d8f0e94b-5ff5-d65d-4c29-796df61cc073
 ---
 # AuthenticationModulesSection Class1
+
 Specifies the authentication modules that conduct the authentication process with a server.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AuthenticationModulesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AuthenticationModulesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class AuthenticationModulesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AuthenticationModulesSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class AuthenticationModulesSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,5 +62,6 @@ class AuthenticationModulesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [AuthenticationModuleElement Class](../wmi-provider/authenticationmoduleelement-class.md)

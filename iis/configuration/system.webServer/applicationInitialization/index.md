@@ -10,6 +10,7 @@ msc.type: config
 # Application Initialization <applicationInitialization> &lt;applicationInitialization&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<applicationInitialization>` element specifies that web application initialization is performed proactively before a request is received. An application can start up more quickly if initialization sequences such as initializing connections, priming in-memory caches, running queries, and compiling page code are performed before the HTTP request is received. Application Initialization can start the initialization process automatically whenever an application is started. The application initialization does not necessarily make the initialization process run any faster; it starts the process sooner.
@@ -19,6 +20,7 @@ Application initialization also enables you to enhance the user experience durin
 In addition to application initialization, you can enable the initialization process to start whenever the application pool is started. You do so by setting the **preLoadEnabled** attribute in the `<application>` element to "true". For this to occur, the start mode in the `<applicationPool>` element must be set to AlwaysRunning.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,6 +33,7 @@ In addition to application initialization, you can enable the initialization pro
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support application initialization on your Web server, you must install the Application Initialization role or feature.
@@ -56,6 +59,7 @@ To support application initialization on your Web server, you must install the A
 5. Click **Close**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure application initialization
@@ -85,6 +89,7 @@ To support application initialization on your Web server, you must install the A
 11. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<applicationInitialization>` element is configured at the server, site, or application level.
@@ -110,6 +115,7 @@ The following sample shows configuration of application initialization.
 [!code-xml[Main](index/samples/sample1.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure **&lt;applicationInitialization&gt;** for a site.

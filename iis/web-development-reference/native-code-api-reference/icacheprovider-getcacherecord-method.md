@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 212ddfc3-7d3c-eca9-efa5-a87f340dcd69
 ---
 # ICacheProvider::GetCacheRecord Method
+
 Returns the cache record for the cache provider.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IHttpCacheSpecificData* GetCacheRecord(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) interface.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an `IHttpCacheSpecificData` pointer by calling the `GetCacheRecord` method on the `ICacheProvider` pointer.  
   
 ## Notes for Implementers  
+
  [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) implementers declare a `private``IHttpCacheSpecificData` pointer as member data. When constructors of these implementers are called, this member data is assigned to an `IHttpCacheSpecificData` pointer. Before calling the `SetCacheRecord method`, the caller is responsible for first calling the [IHttpCacheSpecificData::ReferenceCacheData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-referencecachedata-method.md) method on the `IHttpCacheSpecificData` pointer; `SetCacheRecord` implementers then assign the `private` variable to this `IHttpCacheSpecificData` pointer.  
   
  The following table is a sample of one-to-one interface mappings that must be returned from the [GetCacheKey](../../web-development-reference/native-code-api-reference/icacheprovider-getcachekey-method.md) and `GetCacheRecord` methods from the same implementer of the `ICacheProvider` interface.  
@@ -35,6 +40,7 @@ virtual IHttpCacheSpecificData* GetCacheRecord(
 |[IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)|`IHttpCacheSpecificData`|  
   
 ## Notes for Callers  
+
  `ICacheProvider` implementers take ownership of the `IHttpCacheSpecificData` pointer. Before calling `SetCacheRecord`, first call `IHttpCacheSpecificData::ReferenceCacheData` on the pointer so that this pointer has one owner. Callers of `GetCacheRecord` do not take ownership of the returned `IHttpCacheSpecificData` pointer.  
   
  In some cases, an `IHttpCacheSpecificData` pointer returned from `GetCacheRecord` may be downcast to a more specific interface to access extended behavior. Call the `GetCacheKey` method to retrieve the `IHttpCacheKey` pointer, and then call the [IHttpCacheKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md) method to retrieve the name of the cache. The following table lists sample values returned from `GetCacheName` and the corresponding interface to which the current `IHttpCacheSpecificData` pointer may then be safely downcast, assuming an otherwise correct downcast procedure takes place. See [IIS Caching Constants](../../web-development-reference/native-code-api-reference/caching-constants.md) for constant values.  
@@ -51,6 +57,7 @@ virtual IHttpCacheSpecificData* GetCacheRecord(
 >  Consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheSpecificData` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -86,4 +93,5 @@ virtual IHttpCacheSpecificData* GetCacheRecord(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ICacheProvider Interface](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md)

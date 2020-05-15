@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9862aeef-c8c2-789f-9981-648f4b35271b
 ---
 # ISendResponseProvider::SetLogData Method
+
 Configures logging information for the current response.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT SetLogData(
 ```  
   
 ### Parameters  
+
  `pLogData`  
  [IN] A pointer to `VOID`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ virtual HRESULT SetLogData(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  You can use the `SetLogData` method to modify values that IIS will write to a log file. To use this method in an HTTP module, your module should first call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information, and then call the [ISendResponseProvider::GetLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-getlogdata-method.md) method to retrieve a `VOID` pointer that you will cast to an [HTTP_LOG_FIELDS_DATA](https://go.microsoft.com/fwlink/?LinkId=59280) structure.  
   
 > [!NOTE]
@@ -34,6 +38,7 @@ virtual HRESULT SetLogData(
  You can use the `HTTP_LOG_FIELDS_DATA` structure to modify any of the values that IIS is logging (for example, the server name or the client's user-agent string). When you have finished modifying the log values, you use `SetLogData` to submit your modified values to IIS.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the `GetReadyToLogData` method to determine whether IIS is ready log information. The module completes the following steps:  
   
 1. Uses the `GetLogData` method to retrieve an `HTTP_LOG_FIELDS_DATA` structure.  
@@ -62,5 +67,6 @@ virtual HRESULT SetLogData(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
  [ISendResponseProvider::GetLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-getlogdata-method.md)

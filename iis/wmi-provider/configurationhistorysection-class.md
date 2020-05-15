@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a512b40b-5c31-4970-ba68-0a723fb9e5a5
 ---
 # ConfigurationHistorySection Class
+
 Configures the configuration history settings of the ApplicationHost Helper Service.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConfigurationHistorySection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConfigurationHistorySection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class ConfigurationHistorySection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConfigurationHistorySection` class.  
   
 |Name|Description|  
@@ -37,9 +40,11 @@ class ConfigurationHistorySection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class provides a configuration history feature that enables you to go back to a former configuration state if you no longer want the current state.  
   
  The ApplicationHost Helper Service enables the configuration history functionality by saving the ApplicationHost.config file to separate configuration history subdirectories at set intervals specified by the `Period` property. The subdirectories reside in the directory specified by the `HistoryPath` property.  
@@ -55,6 +60,7 @@ class ConfigurationHistorySection : ConfigurationSection
 > If the ApplicationHost Helper Service is stopped, the configuration history feature will not work.  
   
 ## Example  
+
  The following code example sets the maxiumum number of history subdirectories to 20 and specifies that the ApplicationHost.config file be checked for changes every 4 minutes. A helper function displays the `ConfigurationHistorySection` values before and after the change.  
   
 ```  
@@ -107,6 +113,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `ConfigurationHistorySection`  
@@ -121,4 +128,5 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

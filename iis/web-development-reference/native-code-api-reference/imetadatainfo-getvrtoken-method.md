@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 194a4a46-93f9-f826-8bf2-d4642b2765e9
 ---
 # IMetadataInfo::GetVrToken Method
+
 Retrieves an [IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md) interface for the impersonation account that is configured for a virtual directory.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IHttpTokenEntry* GetVrToken(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an `IHttpTokenEntry` interface.  
   
 ## Remarks  
+
  When creating a virtual directory in IIS that points to a network share, you can specify the impersonation user name and password that IIS will use to connect to the network share when IIS processes requests. You can then use the `GetVrToken` method to retrieve an `IHttpTokenEntry` interface for the impersonated user.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetVrToken` method to create an HTTP module that retrieves an `IHttpTokenEntry` interface for the impersonation account that is configured for a virtual directory. The module converts the user token to a string and returns the string to the Web client.  
   
  [!code-cpp[IMetadataInfoGetVrToken#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMetadataInfoGetVrToken/cpp/IMetadataInfoGetVrToken.cpp#1)]  
@@ -42,4 +47,5 @@ virtual IHttpTokenEntry* GetVrToken(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMetadataInfo Interface](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md)

@@ -10,6 +10,7 @@ msc.type: config
 # Adding XML Namespace to Property Provider Mappings &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<properties>` element defines a mapping for an XML namespace to a property store provider.
@@ -23,6 +24,7 @@ The `<add>` element of the `<properties>` element defines a mapping for an XML n
 In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../../globalsettings/propertystores/index.md) collection.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -35,6 +37,7 @@ In order to use "dead" properties, you must set the `allowCustomProperties` of t
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -87,6 +90,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure WebDAV properties for a Web site
@@ -126,6 +130,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 9. Once you have completed the previous steps, click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<properties>` element is configurable only at the site level in the ApplicationHost.config file. Any `<properties>` elements at other levels or in Web.config files are ignored.
@@ -148,6 +153,7 @@ The following example lists a sample `<webdav>` element for the Default Web Site
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure the WebDAV property settings so that both anonymous and infinite depth property queries are disabled, and enable custom properties with the default XML namespace mapped to the built-in *webdav\_simple\_prop* provider.

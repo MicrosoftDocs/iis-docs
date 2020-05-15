@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1d144054-260c-f615-00c8-76b5a51166bd
 ---
 # ListenerElement Class
+
 Contains a listener that monitors and formats trace output.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ListenerElement : TypedElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ListenerElement` class.  
   
 |Name|Description|  
@@ -27,9 +30,11 @@ class ListenerElement : TypedElement
 |`Type`|(Inherited from `TypedElement`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SharedListeners` array property of the [ListenerSettings](../wmi-provider/listenersettings-class.md) class and in the `Listeners` array property of the [SourceListenerSettings](../wmi-provider/sourcelistenersettings-class.md) class.  
   
  The following table lists the possible values for the `TraceOutputOptions` property. The default is 0 (`None`).  
@@ -45,6 +50,7 @@ class ListenerElement : TypedElement
 |32|`Callstack`|Returns a string that contains trace information that lists the method calls on the stack. The most recent call is listed first.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  [TypedElement](../wmi-provider/typedelement-class.md)  
@@ -61,6 +67,7 @@ class ListenerElement : TypedElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ListenerSettings Class](../wmi-provider/listenersettings-class.md)   
  [SourceListenerSettings Class](../wmi-provider/sourcelistenersettings-class.md)   

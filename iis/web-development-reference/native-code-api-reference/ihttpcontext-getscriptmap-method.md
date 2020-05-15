@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 40fada80-5a67-0c1c-d9cd-0bfedf8ffcd1
 ---
 # IHttpContext::GetScriptMap Method
+
 Returns the script map container for the current context.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual IScriptMapInfo* GetScriptMap(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   
 ## Remarks  
+
  The `GetScriptMap` method is used to retrieve a pointer to the `IScriptMapInfo` interface for the current context. The `IScriptMapInfo` interface contains several methods that return information about the scripting environment.  
   
 > [!NOTE]
 >  The HTTP context object owns the lifetime of this object. Therefore, you do not free this pointer when writing HTTP modules.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetScriptMap` method to create an HTTP module that retrieves a pointer to an `IScriptMapInfo` interface. The example then uses the [IScriptMapInfo::GetAllowedVerbs](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getallowedverbs-method.md) method to retrieve the list of HTTP methods that are allowed for the current request path.  
   
  [!code-cpp[IHttpContextGetScriptMap#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetScriptMap/cpp/IHttpContextGetScriptMap.cpp#1)]  
@@ -45,6 +50,7 @@ virtual IScriptMapInfo* GetScriptMap(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)   
  [IHttpContext::GetScriptName Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptname-method.md)   

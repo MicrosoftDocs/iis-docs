@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 01def2ab-12c7-44ac-bbf5-040757fda6d3
 ---
 # IPmCustomActions2::UnregisterCustomActionCallback Method
+
 Unregisters the specified custom action callback method.  
   
 ## Syntax  
@@ -15,6 +16,7 @@ virtual HRESULT UnregisterCustomActionCallback(
 ```  
   
 ### Parameters  
+
  `pszFunctionName`  
  [IN] Name of the custom action callback method to be unregistered.  
   
@@ -28,5 +30,6 @@ virtual HRESULT UnregisterCustomActionCallback(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IPmCustomActions2 Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md)   
  [IPmCustomActions2::RegisterCustomActionCallback Method](../../web-development-reference/native-code-api-reference/ipmcustomactions2-registercustomactioncallback-method.md)

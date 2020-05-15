@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bc5f5d1b-1025-099b-4772-d8e6429f3927
 ---
 # SessionPageStateSection Class
+
 Configures page view-state settings for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SessionPageStateSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SessionPageStateSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class SessionPageStateSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SessionPageStateSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class SessionPageStateSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `SessionPageStateSection`  
@@ -51,4 +56,5 @@ class SessionPageStateSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 01548b7f-4c03-4407-aac8-30916da9ae01
 ---
 # IAppHostPropertySchema::DoesAllowInfinite Property
+
 Gets a value that indicates whether the property supports having an infinite value set.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ Gets a value that indicates whether the property supports having an infinite val
 ```  
   
 ### Parameters  
+
  `pfAllowInfinite`  
  A pointer to a Boolean value. `TRUE` if the property supports infinite values, otherwise `FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ Gets a value that indicates whether the property supports having an infinite val
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

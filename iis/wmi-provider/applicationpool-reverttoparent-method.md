@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 919397d4-8c16-4d0b-83d7-b4be7052e3c9
 ---
 # ApplicationPool.RevertToParent Method1
+
 Reverts an application pool's configuration value or values to the default.  
   
 ## Syntax  
@@ -23,12 +24,15 @@ ApplicationPool.RevertToParent(PropertyName);
 |`PropertyName`|An optional `string` value that contains the name of the application pool property that is to be reverted to the default specified by [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md). The property can be nested.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  When you call `RevertToParent` without parameters, all custom configuration values for the application pool will be removed. If this is not the behavior you want, revert specific properties by using separate parameterized calls to the method.  
   
 ## Example  
+
  The following example reverts the `AutoStart` property of the `ContosoAppPool` from its current value of `false` to the default value of `true`.  
   
 ```  
@@ -77,5 +81,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)

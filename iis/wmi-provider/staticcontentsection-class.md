@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0f53f631-c9e7-5eb6-5bc0-8516079ac610
 ---
 # StaticContentSection Class
+
 Exposes configuration settings for static content on a Web site.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class StaticContentSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `StaticContentSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class StaticContentSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `StaticContentSection` class.  
   
 |Name|Description|  
@@ -42,12 +45,15 @@ class StaticContentSection : ConfigurationSectionWithCollection
 |`StaticContent`|An array of read/write [MimeMapElement](../wmi-provider/mimemapelement-class.md) objects that contain the MIME maps for static content.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The properties in this class correspond to the attributes and elements in the `<staticContent>` section of the ApplicationHost.config file.  
   
 ## Example  
+
  The following example shows the footer-text and client-cache properties of the `StaticContentSection` class.  
   
 ```  
@@ -86,6 +92,7 @@ WScript.Echo "HttpExpires: " & _
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -102,6 +109,7 @@ WScript.Echo "HttpExpires: " & _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [HttpClientCache Class](../wmi-provider/httpclientcache-class.md)   

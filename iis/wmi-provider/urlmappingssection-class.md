@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ba5da9be-ac31-816e-6074-d3578b432a13
 ---
 # UrlMappingsSection Class
+
 Represents a `<urlMappings>` section that contains pairs of inbound/outbound URL mappings.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class UrlMappingsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `UrlMappingsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class UrlMappingsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `UrlMappingsSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class UrlMappingsSection : ConfigurationSectionWithCollection
 |`UrlMappings`|An array of read/write [UrlMapping](../wmi-provider/urlmapping-class.md) values, each of which contains an inbound display URL and the Web application URL to which the inbound display URL is mapped.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -58,5 +63,6 @@ class UrlMappingsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [UrlMapping Class](../wmi-provider/urlmapping-class.md)

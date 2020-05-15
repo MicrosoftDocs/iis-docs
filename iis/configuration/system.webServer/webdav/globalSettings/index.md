@@ -10,6 +10,7 @@ msc.type: config
 # WebDAV Global Settings &lt;globalSettings&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<globalSettings>` element is the parent element for global WebDAV configuration settings. More specifically, this element contains the settings for property and lock provider definitions. The WebDAV module is designed to accept multiple providers, although only a single provider is available for IIS 7 and IIS 7.5.
@@ -18,6 +19,7 @@ The `<globalSettings>` element is the parent element for global WebDAV configura
 > The `<globalSettings>` element should not be confused with the [`<siteDefaults>`](../../../system.applicationhost/sites/sitedefaults/index.md) element, which defines the default settings for Web sites.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,6 +39,7 @@ The `<globalSettings>` element is the parent element for global WebDAV configura
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -89,6 +92,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure WebDAV locking for a Web site
@@ -158,6 +162,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 9. Once you have completed the previous steps, click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<globalSettings>` element is only configurable at the global level in the ApplicationHost.config file. Any settings at the site or application level or in Web.config files are ignored.
@@ -180,6 +185,7 @@ The following example lists a sample `<globalSettings>` element for a WebDAV ser
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

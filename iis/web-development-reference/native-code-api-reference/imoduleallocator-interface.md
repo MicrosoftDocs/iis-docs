@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1e5ba946-ff20-85a7-8be2-117a3bcea494
 ---
 # IModuleAllocator Interface
+
 Allocates memory within the current request's memory pool.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IModuleAllocator
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IModuleAllocator` interface.  
   
 |Name|Description|  
@@ -20,6 +22,7 @@ class IModuleAllocator
 |[AllocateMemory](../../web-development-reference/native-code-api-reference/imoduleallocator-allocatememory-method.md)|Allocates a specified amount of memory.|  
   
 ## Remarks  
+
  IIS creates and passes an `IModuleAllocator` interface to the [GetHttpModule](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md) method of an HTTP module's [IHttpModuleFactory](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md) interface. You can use the [AllocateMemory](../../web-development-reference/native-code-api-reference/imoduleallocator-allocatememory-method.md) method to allocate memory in the request's memory pool, instead of allocating memory on the heap.  
   
 ## Requirements  
@@ -32,6 +35,7 @@ class IModuleAllocator
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IHttpModuleFactory Interface](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md)   
  [IHttpModuleFactory::GetHttpModule Method](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md)

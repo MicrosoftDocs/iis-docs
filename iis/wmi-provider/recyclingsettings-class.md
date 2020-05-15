@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: dee0e6af-883c-f4ac-ee15-d2de53ddb010
 ---
 # RecyclingSettings Class1
+
 Specifies recycling settings for worker processes.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class RecyclingSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by `RecyclingSettings`.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class RecyclingSettings : EmbeddedObject
 |`PeriodicRestart`|A [PeriodicRestartSettings](../wmi-provider/periodicrestartsettings-class.md) object that specifies the conditions under which worker processes will be recycled.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Recycling` property of the [ApplicationPool](../wmi-provider/applicationpool-class.md) class and the [ApplicationPoolElementDefaults](../wmi-provider/applicationpoolelementdefaults-class.md) class. `ApplicationPoolElementDefaults` is in turn exposed as the `GlobalApplicationPoolDefaults` property on the [Server](../wmi-provider/server-class.md) class.  
   
  The following table lists the possible values and the associated keywords and recycling events for the `LogEventOnRecycle` property. The defaults are 1 (`Time`), 8 (`Memory`), and 128 (`PrivateMemory`).  
@@ -45,6 +50,7 @@ class RecyclingSettings : EmbeddedObject
 |128|`PrivateMemory`|Private memory has reached the amount specified in [PeriodicRestartSettings.PrivateMemory](../wmi-provider/periodicrestartsettings-class.md). Enabled by default.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `RecyclingSettings`  
@@ -59,6 +65,7 @@ class RecyclingSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)   
  [Server Class](../wmi-provider/server-class.md)   

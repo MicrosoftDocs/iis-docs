@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c67f2a8d-efac-9e05-784d-82333e1017d5
 ---
 # ObjectConfigurationAssociation Class
+
 Associates a configured object with its configuration section.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ObjectConfigurationAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ObjectConfigurationAssociation` class.  
   
 |Name|Description|  
@@ -24,6 +27,7 @@ class ObjectConfigurationAssociation
 |`ConfiguredObject`|An `object ref` value that represents an object that is configured.|  
   
 ## Subclasses  
+
  The following table lists the subclasses exposed by the `ObjectConfigurationAssociation` class.  
   
 |Name|Description|  
@@ -33,6 +37,7 @@ class ObjectConfigurationAssociation
 |[VirtualDirectoryContainsConfigurationSection](../wmi-provider/virtualdirectorycontainsconfigurationsection-class.md)|Provides a relationship between a virtual directory and a configuration section.|  
   
 ## Remarks  
+
  This abstract class describes a strict containment association between two different namespace objects. It is the base type from which all object–configuration section associations derive.  
   
 ## Requirements  
@@ -45,6 +50,7 @@ class ObjectConfigurationAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [WMI Provider](../wmi-provider/wmi-provider.md)   
  [ApplicationContainsConfigurationSection Class](../wmi-provider/applicationcontainsconfigurationsection-class.md)   
  [SiteContainsConfigurationSection Class](../wmi-provider/sitecontainsconfigurationsection-class.md)   

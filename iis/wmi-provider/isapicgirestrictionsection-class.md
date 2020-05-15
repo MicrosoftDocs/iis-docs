@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c774177c-4c4b-8d8b-bfb4-b7b7cd985b65
 ---
 # IsapiCgiRestrictionSection Class
+
 Configures ISAPI and Common Gateway Interface (CGI) restrictions for a Web server that runs in ISAPI mode.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IsapiCgiRestrictionSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IsapiCgiRestrictionSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class IsapiCgiRestrictionSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IsapiCgiRestrictionSection` class.  
   
 |Name|Description|  
@@ -40,15 +43,18 @@ class IsapiCgiRestrictionSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  ISAPI and CGI restrictions are request handlers that allow dynamic content to execute on a server. These restrictions are either CGI files (.exe) or ISAPI extensions (.dll). The Asp.dll and Aspnet_isapi.dll files are included by default. You can add custom ISAPI or CGI restrictions if the IIS configuration permits.  
   
 > [!NOTE]
 >  If you are running [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] in ISAPI mode, you can use ISAPI or CGI restrictions on your Web server. This feature is not available if you are running [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] in integrated mode.  
   
 ## Example  
+
  The following example shows the values for the `NotListedCgisAllowed`, `NotListedIsapisAllowed`, and `Path` properties, and it lists the contents of the `IsapiCgiRestriction` array property.  
   
 ```  
@@ -89,6 +95,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -105,5 +112,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [IsapiCgiRestrictionElement Class](../wmi-provider/isapicgirestrictionelement-class.md)

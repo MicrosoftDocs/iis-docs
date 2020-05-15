@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3fed9528-f632-d270-6196-3b37bb64ca08
 ---
 # TransactionsDefaultSettingsSection Class
+
 Contains default settings for transactions.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class TransactionsDefaultSettingsSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `TransactionsDefaultSettingsSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class TransactionsDefaultSettingsSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TransactionsDefaultSettingsSection` class.  
   
 |Name|Description|  
@@ -35,9 +38,11 @@ class TransactionsDefaultSettingsSection : ConfigurationSection
 |`Timeout`|A read/write `datetime` value that contains the default interval after which a transaction times out. The default is 1 minute. A value of 0 is interpreted as infinity. **Note:**  At run time, this value is automatically adjusted by the `MaxTimeout` property of the [TransactionsMachineSettingsSection](../wmi-provider/transactionsmachinesettingssection-class.md) class|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `TransactionsDefaultSettingsSection`  
@@ -52,6 +57,7 @@ class TransactionsDefaultSettingsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [TransactionsMachineSettingsSection Class](../wmi-provider/transactionsmachinesettingssection-class.md)   
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

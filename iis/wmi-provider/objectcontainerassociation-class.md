@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 40a82997-34e7-1626-d580-a3d6b90ce7f6
 ---
 # ObjectContainerAssociation Class1
+
 Associates an object with its child objects.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ObjectContainerAssociation` class.  
   
 |Name|Description|  
@@ -38,6 +41,7 @@ class ObjectContainerAssociation
 |[WorkerProcessContainsAppDomain](../wmi-provider/workerprocesscontainsappdomain-class.md)|Provides a relationship between a worker process and its application domains.|  
   
 ## Remarks  
+
  This base class allows one member of the [Object](../wmi-provider/object-class.md) class to contain another member of the `Object` class. The containing object (for example, [Site](../wmi-provider/site-class.md)) is called a *container*, and the contained object (for example, [Application](../wmi-provider/application-class.md)) is called an *element*. A container object may contain one or more elements. `ObjectContainerAssociation` classes are useful because they enable you to create intuitive parent/child associations that would otherwise be difficult to implement in the relatively flat WMI namespace.  
   
 ## Requirements  
@@ -50,6 +54,7 @@ class ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AppDomain Class](../wmi-provider/appdomain-class.md)   
  [Application Class](../wmi-provider/application-class.md)   
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   

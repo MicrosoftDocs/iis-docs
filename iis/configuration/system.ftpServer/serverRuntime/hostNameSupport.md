@@ -10,6 +10,7 @@ msc.type: config
 # FTP Host Name Support &lt;hostNameSupport&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<hostNameSupport>` element specifies domain name syntax is supported for virtual host names.
@@ -20,6 +21,7 @@ FTP virtual host names were introduced in FTP 7.0, and an FTP virtual host name 
 > Both FTP 7.0 and FTP 7.5 support the proposed FTP HOST command, which does not require that you use the virtual host name as part of the user name.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,6 +41,7 @@ FTP virtual host names were introduced in FTP 7.0, and an FTP virtual host name 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -110,6 +113,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to configure domain name syntax for virtual host names
@@ -150,6 +154,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<hostNameSupport>` element of the `<serverRuntime>` element is configured at the global level in ApplicationHost.config.
@@ -171,6 +176,7 @@ The following sample displays a `<serverRuntime>` element that configures the se
 [!code-xml[Main](hostNameSupport/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure the `<serverRuntime>` element for an FTP server to allow domain name syntax for FTP virtual host names.

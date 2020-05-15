@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 69e2999c-5dad-e71b-afa4-677d94297146
 ---
 # SiteUsesSSLBinding Class1
+
 Provides a relationship between an IIS Web site and a Secure Sockets Layer (SSL) binding.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SiteUsesSSLBinding : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SiteUsesSSLBinding` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class SiteUsesSSLBinding : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A read-only [SSLBinding](../wmi-provider/sslbinding-class.md) object that represents an SSL binding for the Web site.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `SiteUsesSSLBinding`  
@@ -41,6 +46,7 @@ class SiteUsesSSLBinding : ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [ServerContainsSSLBinding Class](../wmi-provider/servercontainssslbinding-class.md)   
  [Site Class](../wmi-provider/site-class.md)   

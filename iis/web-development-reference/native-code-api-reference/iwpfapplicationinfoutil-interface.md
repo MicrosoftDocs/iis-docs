@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e3f43d1f-cc73-1fa5-ad30-0c01d7ef98e3
 ---
 # IWpfApplicationInfoUtil Interface
+
 Exposes a method that retrieves the virtual path and site ID for an application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWpfApplicationInfoUtil : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWpfApplicationInfoUtil` interface.  
   
 |Topic|Description|  
@@ -22,6 +24,7 @@ class IWpfApplicationInfoUtil : public IWpfReferencedObject
 |[Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IWpfApplicationInfoUtil`  
@@ -36,6 +39,7 @@ class IWpfApplicationInfoUtil : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 82f8d1af-2f9d-4f39-88f4-5f965f996dae
 ---
 # SourceListenerSettings Class
+
 Contains listeners that monitor and format trace output.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SourceListenerSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SourceListenerSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SourceListenerSettings : EmbeddedObject
 |`Listeners`|An array of [ListenerElement](../wmi-provider/listenerelement-class.md) values that monitor and format trace output.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Listeners` array property of the [SourceElement](../wmi-provider/sourceelement-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SourceListenerSettings`  
@@ -43,6 +49,7 @@ class SourceListenerSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ListenerElement Class](../wmi-provider/listenerelement-class.md)   
  [SourceElement Class](../wmi-provider/sourceelement-class.md)   

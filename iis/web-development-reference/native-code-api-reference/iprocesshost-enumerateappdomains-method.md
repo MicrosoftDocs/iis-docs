@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e59e42da-ba07-2d9f-84e3-38c4bb8dc165
 ---
 # IProcessHost::EnumerateAppDomains Method
+
 Retrieves a pointer to an [IAppDomainInfoEnum](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md) interface.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall EnumerateAppDomains(
 ```  
   
 ### Parameters  
+
  `pAppDomainsInfo`  
  A pointer to the address of an `IAppDomainInfoEnum` interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,5 +38,6 @@ virtual HRESULT __stdcall EnumerateAppDomains(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)   
  [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)

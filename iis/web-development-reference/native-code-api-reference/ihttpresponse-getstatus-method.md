@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e18e4cf1-29cd-b4b4-51d8-72d8093a257a
 ---
 # IHttpResponse::GetStatus Method
+
 Retrieves the HTTP status for the response.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ virtual VOID GetStatus(
 ```  
   
 ### Parameters  
+
  `pStatusCode`  
  [OUT] A pointer to an unsigned short integer that receives the HTTP status code for the response.  
   
@@ -47,15 +49,18 @@ virtual VOID GetStatus(
  [OUT] A pointer to an [INativeSectionException](https://msdn.microsoft.com/89e76f37-6196-566b-c07a-f756855d097c) interface that is associated with this status.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `GetStatus` method returns the complete HTTP response status, which consists of the status code, the substatus code, the status text, and—if an error exists—the Win32 error associated with the response status.  
   
 > [!NOTE]
 >  The response status string is in a server-owned buffer.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetStatus` method to create an HTTP module that retrieves the HTTP response status. The example module returns the contents of the HTTP response status to the client, and it calls the [IHttpResponse::SetStatus](../../web-development-reference/native-code-api-reference/ihttpresponse-setstatus-method.md) method to set the response status to "200 OK" so the client will always receive the result.  
   
  [!code-cpp[IHttpResponseGetStatus#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetStatus/cpp/IHttpResponseGetStatus.cpp#1)]  
@@ -74,5 +79,6 @@ virtual VOID GetStatus(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::SetStatus Method](../../web-development-reference/native-code-api-reference/ihttpresponse-setstatus-method.md)

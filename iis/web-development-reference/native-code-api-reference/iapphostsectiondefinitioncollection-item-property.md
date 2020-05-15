@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d472d5bd-168a-b3d4-f4e8-7a68bf4b1086
 ---
 # IAppHostSectionDefinitionCollection::Item Property
+
 Gets the configuration section definition at the requested index from the current collection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT get_Item(
 ```  
   
 ### Parameters  
+
  `varIndex`  
  A `VARIANT` that contains the index of the requested configuration section definition.  
   
@@ -24,6 +26,7 @@ HRESULT get_Item(
  A pointer to a pointer for the [IAppHostSectionDefinition](../../web-development-reference/native-code-api-reference/iapphostsectiondefinition-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -31,6 +34,7 @@ HRESULT get_Item(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example creates a new section group and a new section, and then sets the property values of the newly generated section.  
   
  [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
@@ -45,4 +49,5 @@ HRESULT get_Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionDefinitionCollection Interface](../../web-development-reference/native-code-api-reference/iapphostsectiondefinitioncollection-interface.md)

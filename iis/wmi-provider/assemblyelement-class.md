@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 186c51f7-3822-cf30-8793-1f7afd934f45
 ---
 # AssemblyElement Class
+
 Specifies an assembly reference that is used during compilation of an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AssemblyElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AssemblyElement` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class AssemblyElement : CollectionElement
 |`Assembly`|A required unique read/write `string` value that specifies an assembly reference that is used during compilation of an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application. The key property. **Note:**  The assembly name is a comma-delimited Unicode string in the following format: *Name* \<,Culture *= CultureInfo*> \<,Version *= Major.Minor.Build.Revision*> \<,*StrongName*> \<,*PublicKeyToken*>.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `Assemblies` property on the [AssemblySettings](../wmi-provider/assemblysettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `AssemblyElement`  
@@ -43,5 +49,6 @@ class AssemblyElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AssemblySettings Class](../wmi-provider/assemblysettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

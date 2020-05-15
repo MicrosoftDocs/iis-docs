@@ -10,6 +10,7 @@ msc.type: config
 # Adding Many-To-One Mappings &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<manyToOneMappings>` element adds unique client certificate mappings to the collection of many-to-one mappings.
@@ -22,6 +23,7 @@ There are two different access methods that you can enable for many-to-one rules
 > Many-to-one certificate mappings differ from [one-to-one](../../onetoonemappings/index.md) certificate mappings, which map individual client certificates to individual user accounts.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ There are two different access methods that you can enable for many-to-one rules
 | IIS 6.0 | The `<manyToOneMappings>` element replaces the IIS 6.0 **IIsCertMapper** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<iisClientCertificateMappingAuthentication>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -76,11 +79,13 @@ The `<iisClientCertificateMappingAuthentication>` element is not available on th
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring IIS Client Certificate Mapping authentication for IIS 7. For examples of how to configure IIS Client Certificate Mapping authentication programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -111,6 +116,7 @@ The following configuration sample performs the following actions for the Defaul
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples perform the following actions for the Default Web Site:

@@ -31,6 +31,7 @@ by [Microsoft](https://github.com/Microsoft)
 Generally speaking, increasing the number of cores should result in increased performance. When IIS customers deployed their applications on Non-Uniform-Memory-Access (NUMA) aware hardware with Windows Server 2008 R2, they noticed that after certain point increasing number of core resulted in performance degradation. This happened because the cost of software memory synchronization out-weighs the benefits of additional cores on NUMA hardware. IIS 8.0 in Windows server 2012 addresses this problem by intelligently distributing the thread affinity for processes on NUMA hardware, and this proof-of-concept has allowed identifying the operating system and network IO tuning to ensure the IIS 8.0 optimum scalability.
 
 <a id="iis-80"></a>
+
 ## IIS 8.0
 
 Internet Information Services (IIS) on Windows Server 2012 is NUMA-aware and provides the optimal configuration for the IT administrators. The following section describes how IIS 8.0 takes advantage of NUMA hardware to provide optimal performance.
@@ -95,6 +96,7 @@ The DL980 G7 has three IO boards:
 3. Low Profile (LP) IO board - Directly connected to **Processors 4-5,** this board provides 4 x PCIe x8 and 1 x PCIe x4 slots. These slots are half height only, most recent network and HBA cards ship with a low-profile bracket which can replace the standard one in order to fit in half height slots.
 
 <a id="recommended-configuration-and-settings"></a>
+
 ### Recommended Configuration &amp; Settings
 
 #### RAM
@@ -125,6 +127,7 @@ Please note the following memory configuration facts:
 - As the reader will realize in the IIS scaling paper, it is recommended to enable [Receive Side Scaling](https://technet.microsoft.com/network/dd277646) (RSS) on the more modern Network Adaptors and modern Device drivers. 1 Gigabit Network Adaptors usually only support up to 8 RSS &quot;Rings&quot; or &quot;Queues&quot;. 10 Gigabit Adaptors support at least 16 Rings/Queues. Receive Side Scaling is a mechanism to balance the [DPC offload](https://download.microsoft.com/download/f/0/5/f05a42ce-575b-4c60-82d6-208d3754b2d6/NetworkDriverPerformance.ppt) across multiple logical processors. This avoids the problem sometimes seen during extremely high network activity where high kernel time is seen on one processor only (often logical processor 0 or 1, but not always). Note: The RSS implementation for Windows Server 2008 R2 covers only logical processors in the first Windows KGROUP of processors (KGROUP#0) but this restriction has been eliminated with Windows Server 2012 and several inbox drivers support it at first install.
 
 <a id="hba-and-io"></a>
+
 #### HBA &amp; IO
 
 - For high storage IO applications, install at least 2 x dual port HBA, more common configurations are 4 x dual port HBA.
@@ -240,6 +243,7 @@ Increasing number of CPU cores from 20 to 40 (2 sockets to 4 sockets):
 20 cores numbers are taken as baseline. When number of CPUs increased from 20 to 40, we observed 67% increase in request processed in web hosting scenario, 41% increase in web garden scenario and 2% decrease in default scenario. This indicates that both hosting and web garden scenarios are able to benefit most from increased CPU cores. Default configuration is not able to take advantage of increased CPUs as single process cannot scale to take advantage of NUMA hardware.
 
 <a id="comparison-between-80-cores-and-40-cores"></a>
+
 ### Comparison between 80 cores and 40 cores
 
 A similar trend was noticed after increasing number of cores from 40 to 80. Hosting scenario was able to process 64% more requests and web garden scenario processed 31% more requests. Default configuration performance further degraded by 3%.

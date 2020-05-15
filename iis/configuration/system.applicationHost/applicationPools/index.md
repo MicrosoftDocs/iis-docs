@@ -10,6 +10,7 @@ msc.type: config
 # Application Pools &lt;applicationPools&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<applicationPools>` element contains configuration settings for all application pools running on your Internet Information Services (IIS) 7 or later server. An application pool defines a group of one or more worker processes, configured with common settings that serve requests to one or more applications that are assigned to that application pool. Because application pools allow a set of Web applications to share one or more similarly configured worker processes, they provide a convenient way to isolate a set of Web applications from other Web applications on the server computer. Process boundaries separate each worker process; therefore, application problems in one application pool do not affect Web sites or applications in other application pools. Application pools significantly increase both the reliability and manageability of your Web infrastructure.
@@ -28,6 +29,7 @@ Starting in IIS 7.5, you can configure an application to start automatically by 
 Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the [`<processModel>`](add/processmodel.md) element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -40,11 +42,13 @@ Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **
 | IIS 6.0 | The `<applicationPools>` element replaces the IIS 6.0 **IIsApplicationPools** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to create a new application pool
@@ -80,6 +84,7 @@ The `<applicationPools>` collection is included in the default installation of I
     [![](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<applicationPools>` element contains a collection of `<add>` elements. Each element in the collection configures an application pool running on IIS 7 and later. At a minimum, each `<add>` element contains a **name** attribute that identifies the application pool to GUI and command-line management tools. The `<add>` element contains child elements that configure the process model, CPU, and recycling settings for the application pool.
@@ -104,6 +109,7 @@ The following configuration sample uses the application pool `<add>` and `<appli
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add an application pool named Contoso, and set the managed pipeline mode to Integrated.

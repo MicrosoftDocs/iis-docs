@@ -5,6 +5,7 @@ ms.assetid: 897bde2f-6b40-46eb-b290-d0f92e454f09
 ms.author: "robmcm"
 ---
 # IFtpProviderConstruct::Construct Method
+
 Retrieves an array of key/value pairs from an FTP provider's configuration settings in the IIS ApplicationHost.config file.  
   
 ## Syntax  
@@ -23,6 +24,7 @@ HRESULT Construct(
 |`configurationEntries`|[IN] A pointer to a SAFEARRAY that contains key/value pairs from the IIS configuration settings.|  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |||  
@@ -31,6 +33,7 @@ HRESULT Construct(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  You can specify parameters for an FTP provider in the IIS ApplicationHost.config file by adding an <`activation`> collection, which may contain a series of <`providerData`> elements that list additional settings for custom FTP providers. Each <`providerData`> element is paired with an entry in the <`providerDefinitions`> collection, and contains a series of key/value pairs that contain information that is specific to each provider.  
   
  The following configuration excerpt illustrates a custom FTP provider entry in the ApplicationHost.config file and its related information.  
@@ -51,6 +54,7 @@ HRESULT Construct(
 ```  
   
 ## Example  
+
  The following code example iterates through the array of configuration settings and sends the key/value pairs to the debug stream.  
   
 ```  
@@ -107,4 +111,5 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [IFtpProviderConstruct Interface](../../ftp-extensibility-reference/native-code-api-reference/iftpproviderconstruct-interface.md)

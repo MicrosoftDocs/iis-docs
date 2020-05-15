@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4c7fc67c-c762-1cc8-b9b4-6cb0a099dc57
 ---
 # ConfiguredObject.GetAllSections Method1
+
 Retrieves all configuration sections under a configured object.  
   
 ## Syntax  
@@ -23,15 +24,18 @@ ConfiguredObject.GetAllSections Sections
 |`Sections`|A [ConfigurationSection](../wmi-provider/configurationsection-class.md) variable into which the configuration sections for the configured object are copied.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  The `GetAllSections` method is useful for discovering the full set of available sections for a configured object. For regular setting and getting of configuration properties, see the [ConfiguredObject.GetSection](../wmi-provider/configuredobject-getsection-method.md) method.  
   
 > [!NOTE]
 >  The `GetAllSections` method signature contains an `[OUT]` parameter that receives the sections that the method returns.  
   
 ## Example  
+
  The following example retrieves the [Site](../wmi-provider/site-class.md) object for the default Web site and uses the `GetAllSections` method to retrieve and enumerate the configuration section objects for the site.  
   
  Only one instance of each section is returned. The returned values are the effective configuration for the level of the [ConfiguredObject](../wmi-provider/configuredobject-class.md) that is being used. The path for all returned objects will match that of the `ConfiguredObject`.  
@@ -95,5 +99,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
  [ConfiguredObject.GetSection Method](../wmi-provider/configuredobject-getsection-method.md)

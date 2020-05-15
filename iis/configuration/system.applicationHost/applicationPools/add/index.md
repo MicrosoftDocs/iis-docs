@@ -10,6 +10,7 @@ msc.type: config
 # Adding Application Pools &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<applicationPools>` element controls the configuration settings for an IIS 7 and later application pool. You create an `<add>` element in the ApplicationHost.config file for each application pool that you want to run on your IIS server.
@@ -25,6 +26,7 @@ Starting in IIS 7.5, you can configure an application to start automatically by 
 Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the [`<processModel>`](processmodel.md) element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,11 +39,13 @@ Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **
 | IIS 6.0 | The `<applicationPools>` collection replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to create a new application pool
@@ -77,6 +81,7 @@ The `<applicationPools>` collection is included in the default installation of I
     [![](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element of the `<applicationPools>` collection is configurable at the server level in the ApplicationHost.config file.
@@ -114,6 +119,7 @@ The following configuration sample uses the application pool `<add>` element to 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples add an application pool named Contoso to your IIS 7 and later server, then set the application pool to daily recycle at 3:00 A.M.

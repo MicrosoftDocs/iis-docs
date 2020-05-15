@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5bfd0e30-2f05-ddd4-307f-810158e93339
 ---
 # IProcessHost Interface
+
 Defines the set of processwide functionality that every host of the application manager must implement.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IProcessHost : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IProcessHost` interface.  
   
 |Name|Description|  
@@ -23,12 +25,15 @@ struct IProcessHost : IUnknown
 |[IProcessHost::StartApplication](../../web-development-reference/native-code-api-reference/iprocesshost-startapplication-method.md)|Starts the specified application.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IProcessHost`  
@@ -43,4 +48,5 @@ struct IProcessHost : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

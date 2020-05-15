@@ -10,11 +10,13 @@ msc.type: config
 # Failure Settings for an Application Pool &lt;failure&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<failure>` element of the `<add>` element in the `<applicationPools>` collection configures the actions to take when an application pool fails. The **autoShutdownExe**, **orphanActionExe**, **rapidFailProtection** attributes of the `<failure>` element can be especially useful when troubleshooting or debugging applications, because they give you the flexibility to specify the action that Internet Information Services (IIS) will take when an application fails, such as running an external executable to log or debug the failure.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<failure>` element of the `<add>` element in the `<applicationPools>` colle
 | IIS 6.0 | The `<failure>` element replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to edit rapid-fail protection configuration settings
@@ -59,6 +63,7 @@ The `<applicationPools>` collection is included in the default installation of I
     [![](failure/_static/image4.png)](failure/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -86,6 +91,7 @@ The following configuration sample enables rapid failure protection for a single
 [!code-xml[Main](failure/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples enable rapid fail protection for the DefaultAppPool on your server, then set the protection interval to five minutes, and set the maximum number of crashes to 5.

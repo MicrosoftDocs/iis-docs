@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fa1c2d4d-87a7-7527-6450-3ecda7ba560d
 ---
 # IAppHostMappingExtension::GetSiteElementFromSiteId Method
+
 Gets a configuration element that represents a site by using the unique identifier for the site.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT GetSiteElementFromSiteId(
 ```  
   
 ### Parameters  
+
  `dwSiteId`  
  A `DWORD` that contains the site ID.  
   
@@ -24,6 +26,7 @@ HRESULT GetSiteElementFromSiteId(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,4 +43,5 @@ HRESULT GetSiteElementFromSiteId(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMappingExtension Interface](../../web-development-reference/native-code-api-reference/iapphostmappingextension-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cb41794c-9656-47ba-92e3-b8d9af952243
 ---
 # IAppHostPathMapper2::MapPath Method
+
 Gets the details of the specific mapping decision and, optionally, can change the results in the return value.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT MapPath(
 ```  
   
 ### Parameters  
+
  `bstrConfigPath`  
  The hierarchy path being mapped.  
   
@@ -31,6 +33,7 @@ HRESULT MapPath(
  Set to the impersonation token that was used to access the physical path.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -38,6 +41,7 @@ HRESULT MapPath(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  To receive incoming remote calls for the [IAppHostPathMapper2 Interface](../../web-development-reference/native-code-api-reference/iapphostpathmapper2-interface.md) interface, the client must implement a UUID(0f80e901-8f4c-449a-bf90-13d5d082f187). It must then specify an object that implements the interface to the [IAppHostAdminManager::SetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostadminmanager-setmetadata-method.md) method with the value of `bstrMetadataName` set to "pathMapper2".  
   
  As an administration system maps hierarchy paths to physical paths on the server, it optionally calls the client-supplied object that implements the `IAppHostPathMapper2` interface. The implementer of this interface receives details of all mappings and can change the results of each mapping if required.  
@@ -52,5 +56,6 @@ HRESULT MapPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPathMapper2 Interface](../../web-development-reference/native-code-api-reference/iapphostpathmapper2-interface.md)   
  [IAppHostPathMapper Interface](../../web-development-reference/native-code-api-reference/iapphostpathmapper-interface.md)

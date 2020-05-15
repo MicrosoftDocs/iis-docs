@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 946ad294-b5f2-15ee-f980-853d28c89400
 ---
 # AppDomain Class
+
 Represents an IIS application domain.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AppDomain : Object
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AppDomain` class.  
   
 |Name|Description|  
@@ -20,6 +22,7 @@ class AppDomain : Object
 |[Unload](../wmi-provider/appdomain-unload-method.md)|Unloads an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application domain from a Web server.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AppDomain` class.  
   
 |Name|Description|  
@@ -32,12 +35,15 @@ class AppDomain : Object
 |`ApplicationPath`|A read-only `string` value that contains the virtual path of the application domain. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  When a request first enters managed code (managed modules or handlers), the IIS `ManagedEngine` module creates an application domain. The application domain then performs necessary processing tasks, such as authenticating a user with Forms authentication or other application services provided by managed code.  
   
 ## Example  
+
  The following example shows how you can retrieve and enumerate the application domains on Web server. If no application domains are active, the script does not return a result.  
   
 ```  
@@ -80,6 +86,7 @@ AppDomain SiteName:           Default Web Site
 ```  
   
 ## Inheritance Hierarchy  
+
  [Object](../wmi-provider/object-class.md)  
   
  `AppDomain`  
@@ -94,5 +101,6 @@ AppDomain SiteName:           Default Web Site
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [HTTP Request Processing in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64722)   
  [Object Class](../wmi-provider/object-class.md)

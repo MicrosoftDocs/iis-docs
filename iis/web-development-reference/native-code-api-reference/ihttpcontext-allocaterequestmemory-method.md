@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: dac3935e-c1a7-5b19-5796-7df497143217
 ---
 # IHttpContext::AllocateRequestMemory Method
+
 Allocates a specified amount of memory.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual VOID* AllocateRequestMemory(
 ```  
   
 ### Parameters  
+
  `cbAllocation`  
  [IN] The number of bytes to allocate.  
   
 ## Return Value  
+
  A pointer to `VOID`.  
   
 ## Remarks  
+
  The `AllocateRequestMemory` method allocates an amount of memory that is specified by the `cbAllocation` parameter and has the lifetime of the current request. The server will automatically reclaim this memory at the end of the request.  
   
 ## Example  
+
  The following code example demonstrates how to use the `AllocateRequestMemory` method to create an HTTP module that allocates a chunk of memory to retrieve the value of the HTTP `User-Agent` header.  
   
  [!code-cpp[IHttpContextAllocateRequestMemory#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextAllocateRequestMemory/cpp/IHttpContextAllocateRequestMemory.cpp#1)]  
@@ -43,4 +48,5 @@ virtual VOID* AllocateRequestMemory(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

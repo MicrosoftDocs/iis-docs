@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6df88fb0-5384-5777-8b7f-6cdf04c07b7e
 ---
 # CHttpModule::OnCustomRequestNotification Method
+
 Represents the method that will handle a custom event, which occurs when a module raises a user-defined notification.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnCustomRequestNotification(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnCustomRequestNotification(
  [IN] A pointer to an [ICustomNotificationProvider](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_CUSTOM_NOTIFICATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification, IIS will call the module's `OnCustomRequestNotification` method when a custom notification is raised.  
   
 > [!NOTE]
 >  Request-level modules can register for a custom event notification by registering for `RQ_CUSTOM_NOTIFICATION` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that does the following:  
   
 1. Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
@@ -60,4 +65,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnCustomRequestNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

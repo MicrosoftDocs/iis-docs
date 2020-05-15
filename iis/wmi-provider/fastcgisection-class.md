@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9622ab64-c41d-4b24-a696-5df6c282bf20
 ---
 # FastCgiSection Class
+
 Contains configuration settings for FastCGI applications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class FastCgiSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `FastCgiSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class FastCgiSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FastCgiSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class FastCgiSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,6 +62,7 @@ class FastCgiSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [FastCgiApplicationElement Class](../wmi-provider/fastcgiapplicationelement-class.md)   
  [FastCgiEnvironmentElement Class](../wmi-provider/fastcgienvironmentelement-class.md)   

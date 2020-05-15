@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 42b1ea65-1333-aad1-b27f-7bd788f346c4
 ---
 # IGlobalTraceEventProvider::GetCurrentHttpRequestContext Method
+
 Retrieves the HTTP context for trace events that are request specific.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT GetCurrentHttpRequestContext(
 ```  
   
 ### Parameters  
+
  `ppHttpContext`  
  A pointer to the address of an `IHttpContext` interface; otherwise, NULL.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -27,6 +30,7 @@ virtual HRESULT GetCurrentHttpRequestContext(
 |ERROR_NOT_SUPPORTED|Indicates that the method is not supported.|  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer by calling the `GetCurrentHttpRequestContext` method on that `IGlobalTraceEventProvider` pointer.  
   
  One possible use for `GetCurrentHttpRequestContext` is to provide custom buffering of events.  
@@ -38,12 +42,15 @@ virtual HRESULT GetCurrentHttpRequestContext(
 - Classes that provide global trace events do not modify the `ppHttpContext` parameter and return ERROR_NOT_SUPPORTED immediately.  
   
 ## Notes for Implementers  
+
  `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` implementers that use dynamic memory allocation must release or call `delete` on the `IHttpContext` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` clients must not release or call `delete` on the returned `IHttpContext` pointer when this data is no longer needed.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and declares and initializes an [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) structure that filters for events. The module then retrieves the `IHttpContext` pointer by calling the `GetCurrentHttpRequestContext` method.  
   
  [!code-cpp[IGlobalTraceEventProvider#3](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalTraceEventProvider/cpp/GetCurrentHttpRequestContext.cpp#3)]  
@@ -62,4 +69,5 @@ virtual HRESULT GetCurrentHttpRequestContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalTraceEventProvider Interface](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md)

@@ -4,9 +4,11 @@ ms.date: "10/07/2016"
 ms.assetid: 2fb1a740-c0e8-4a93-b002-3b1fb735cf92
 ---
 # Web Server Core Functions
+
 This section describes the Web Server Core and integrated request-processing pipeline functions.  
   
 ## In This Section  
+
  The following table lists the functions exposed by the integrated request-processing pipeline.  
   
 |Function|Description|  
@@ -23,7 +25,9 @@ This section describes the Web Server Core and integrated request-processing pip
 |[ResetCompression](../../web-development-reference/native-code-api-reference/resetcompression-function.md)|Resets the compression context.|  
   
 ## Remarks  
+
  The `PFN_REGISTERMODULE` function is a prototype for the `RegisterModule` function. All HTTP modules are required to implement and export the `RegisterModule` function, which IIS will use to load the module. For more information about creating HTTP modules, see [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md).  
   
 ## See Also  
+
  [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)

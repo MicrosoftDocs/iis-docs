@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ef6cac9a-055e-0b8b-7f7a-6548a6e6543b
 ---
 # IProtocolManager Interface
+
 Defines the base interface for protocol managers, and exposes methods for the worker process framework to interact with protocol managers.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IProtocolManager : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IProtocolManager` interface.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class IProtocolManager : public IWpfReferencedObject
 |[Shutdown](../../web-development-reference/native-code-api-reference/iprotocolmanager-shutdown-method.md)|Shuts down a protocol manager.|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IProtocolManager`  
@@ -38,6 +41,7 @@ class IProtocolManager : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

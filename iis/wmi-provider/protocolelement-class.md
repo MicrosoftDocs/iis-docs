@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 15acc98e-38a6-578d-a854-3c949c8d242b
 ---
 # ProtocolElement Class
+
 Specifies a transmission protocol that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] can use to decrypt data sent in the HTTP request from a client browser.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProtocolElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProtocolElement` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class ProtocolElement : CollectionElement
 |`Validate`|A read/write `boolean` value. `true` if the types specified in the `AppDomainHandlerType` and `ProcessHandlerType` properties should be validated when the section is parsed; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Protocols` property of the [ProtocolsSection](../wmi-provider/protocolssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ProtocolElement`  
@@ -46,6 +52,7 @@ class ProtocolElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ProtocolsSection Class](../wmi-provider/protocolssection-class.md)   
  [WebServicesProtocolElement Class](../wmi-provider/webservicesprotocolelement-class.md)

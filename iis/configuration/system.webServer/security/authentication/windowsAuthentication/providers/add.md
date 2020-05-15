@@ -10,11 +10,13 @@ msc.type: config
 # Adding Windows Authentication Providers &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<providers>` collection in the `<windowsAuthentication>` element specifies a unique authentication provider that is used with the Internet Information Services (IIS) 7 Windows authentication module.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<add>` element of the `<providers>` collection in the `<windowsAuthenticati
 | IIS 6.0 | The `<providers>` collection replaces the IIS 6.0 **NTAuthenticationProviders** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the Windows authentication role service. To use Windows authentication on IIS, you must install the role service, disable Anonymous authentication for your Web site or application, and then enable Windows authentication for the site or application.
@@ -75,11 +78,13 @@ The default installation of IIS 7 and later does not include the Windows authent
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for Windows authentication providers for IIS 7. For examples of how to modify the list of Windows authentication providers programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -103,6 +108,7 @@ The following example enables Windows authentication and disables Anonymous auth
 [!code-xml[Main](add/samples/sample3.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples will enable Windows authentication and remove the Negotiate provider for a site named Contoso.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bb9b1588-672f-2a06-d1ac-9a3a1a3e3121
 ---
 # AnonymousAuthenticationSection Class1
+
 Configures Anonymous authentication.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AnonymousAuthenticationSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AnonymousAuthenticationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class AnonymousAuthenticationSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AnonymousAuthenticationSection` class.  
   
 |Name|Description|  
@@ -37,9 +40,11 @@ class AnonymousAuthenticationSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `LogonMethod` property. The default is 3 (`ClearText`).  
   
 |Value|Keyword|Description|  
@@ -50,6 +55,7 @@ class AnonymousAuthenticationSection : ConfigurationSection
 |3|`ClearText`|This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client.|  
   
 ## Example  
+
  The following example displays the `AnonymousAuthenticationSection` values for the default Web site.  
   
 ```  
@@ -98,6 +104,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `AnonymousAuthenticationSection`  
@@ -112,6 +119,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
  [BasicAuthenticationSection Class](../wmi-provider/basicauthenticationsection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f11a11fa-f364-d8ce-d7cb-1bc1ae4e0ad9
 ---
 # IHttpServer::GetAppPoolName Method
+
 Retrieves the name of the application pool for the current request.  
   
 ## Syntax  
@@ -15,17 +16,21 @@ virtual PCWSTR GetAppPoolName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the application pool name.  
   
 ## Remarks  
+
  The `GetAppPoolName` method returns the name of the application pool that is processing the current request. For example, requests for the default Web site on a new installation of [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] may return "ASP.NET 2.0 AppPool".  
   
  Depending on how you configure applications on a Web server, the name of an application may be different within a contiguous namespace. For example, if a Web client requests both http://example.com/ and http://example.com/example/, the name of the application pool may be different for the relative example path if a different application pool has been configured for that location.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetAppPoolName` method to create an HTTP module that retrieves the name of the application pool that is processing the current request. The module then returns the name to a Web client.  
   
  [!code-cpp[IHttpServerGetAppPoolName#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerGetAppPoolName/cpp/IHttpServerGetAppPoolName.cpp#1)]  
@@ -44,4 +49,5 @@ virtual PCWSTR GetAppPoolName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)

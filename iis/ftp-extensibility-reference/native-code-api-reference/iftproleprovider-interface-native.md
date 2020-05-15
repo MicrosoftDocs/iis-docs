@@ -5,6 +5,7 @@ ms.assetid: 58e05545-9a67-4504-a897-f97b054765ab
 ms.author: "robmcm"
 ---
 # IFtpRoleProvider Interface (Native)
+
 Provides an interface for authorization and role checks.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ interface IFtpRoleProvider : IUknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IFtpRoleProvider` interface.  
   
 |||  
@@ -22,6 +24,7 @@ interface IFtpRoleProvider : IUknown
 |[IFtpRoleProvider::IsUserInRole Method](../../ftp-extensibility-reference/native-code-api-reference/iftproleprovider-isuserinrole-method.md)|Checks to see whether a user is a member of a specific role.|  
   
 ## Example  
+
  The following code example illustrates how to use the `IFtpRoleProvider` interface to create a custom authentication module for the FTP service that implements role checks.  
   
 ```  
@@ -64,4 +67,5 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [IFtpAuthenticationProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftpauthenticationprovider-interface-native.md)

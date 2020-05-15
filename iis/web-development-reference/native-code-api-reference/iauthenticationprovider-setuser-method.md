@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 14f0a659-e8ed-3010-11c5-9cb134455375
 ---
 # IAuthenticationProvider::SetUser Method
+
 Sets the authenticated user on the authentication provider.  
   
 ## Syntax  
@@ -15,21 +16,26 @@ virtual VOID SetUser(
 ```  
   
 ### Parameters  
+
  `pUser`  
  An authenticated pointer to an [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md).  
   
 ## Remarks  
+
  If the `pUser` parameter is NULL, the default authentication continues.  
   
  Calling the `SetUser` method with a non-NULL `IHttpUser` pointer will authenticate that user immediately.  
   
 ## Notes for Implementers  
+
  [IAuthenticationProvider](../../web-development-reference/native-code-api-reference/iauthenticationprovider-interface.md) implementers assume responsibility for memory management with this data; therefore, `IAuthenticationProvider` implementers must call the [IHttpUser::DereferenceUser](../../web-development-reference/native-code-api-reference/ihttpuser-dereferenceuser-method.md) method when they no longer need the `IHttpUser`.  
   
 ## Notes for Callers  
+
  `IAuthenticationProvider` callers are responsible for creating a custom `IHttpUser` pointer on the heap before calling `SetUser`; `IAuthenticationProvider` implementers then assume responsibility for this `new` pointer.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that allows any user to access a Web site by creating an authenticated user. The example then clears the response headers and body and returns the user information to the client.  
   
 > [!CAUTION]
@@ -66,6 +72,7 @@ virtual VOID SetUser(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IAuthenticationProvider Interface](../../web-development-reference/native-code-api-reference/iauthenticationprovider-interface.md)   
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnAuthenticateRequest Method](../../web-development-reference/native-code-api-reference/chttpmodule-onauthenticaterequest-method.md)

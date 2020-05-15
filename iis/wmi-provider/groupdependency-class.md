@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c02f56d9-441f-b303-142c-dd8c4508586d
 ---
 # GroupDependency Class
+
 Represents a Web service extension upon which one or more Web applications depend.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class GroupDependency : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `GroupDependency` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class GroupDependency : CollectionElement
 |`GroupId`|A read-only `string` value that contains the group ID of a Web service extension upon which one or more Web applications depend. **Note:**  By default, [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] supports the group IDs "ASP" and "ASP.NET".|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Application` property of the [ApplicationDependency](../wmi-provider/applicationdependency-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `GroupDependency`  
@@ -43,6 +49,7 @@ class GroupDependency : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationDependenciesSection Class](../wmi-provider/applicationdependenciessection-class.md)   
  [ApplicationDependency Class](../wmi-provider/applicationdependency-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b4654835-6827-0db2-3669-6ea67d4f8d05
 ---
 # IWpfSettings::GetUlonglongProperty Method
+
 Retrieves a `ULONGLONG` value from the worker process or application pool settings.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetUlonglongProperty(
 ```  
   
 ### Parameters  
+
  `SettingId`  
  [IN] A [WPF_SETTINGS_ULONGLONG_ENUM](../../web-development-reference/native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md) value that specifies which `ULONGLONG` value to return.  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetUlonglongProperty(
  [OUT] A pointer to a `ULONGLONG` buffer that receives the value specified by `SettingId`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT GetUlonglongProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)   
  [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
  [IWpfSettings::GetDwordProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md)   

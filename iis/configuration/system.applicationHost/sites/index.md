@@ -10,6 +10,7 @@ msc.type: config
 # Sites &lt;sites&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<sites>` section group contains configuration settings for all sites on an IIS 7 server. The `<sites>` element contains a collection of `<site>` elements. When you create a new Web site, IIS adds a `<site>` element to the collection.
@@ -19,6 +20,7 @@ Each `<site>` element contains configuration settings for a separate Web site ho
 The `<sites>` section group can also contain the `<siteDefaults>`, `<applicationDefaults>`, and `<virtualDirectoryDefaults>` elements. The `<siteDefaults>` element defines default configuration settings for any site running on the server, the `<applicationDefaults>` element defines default configuration settings for any application running on the server, and the `<virtualDirectoryDefaults>` element defines default configuration settings for any virtual directory running on the server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,11 +33,13 @@ The `<sites>` section group can also contain the `<siteDefaults>`, `<application
 | IIS 6.0 | The `<sites>` collection replaces the IIS 6.0 **IIsWebServer** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<sites>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 When you configure a new Web site on IIS 7, you must assign the Web site a site name and a physical path. There are also a number of optional configuration settings you can set. If you plan to continue to use the Default Web Site on your IIS 7 server, you must alter the binding information for the new site. You can do this by changing either the port or entering a host name for the new Web site.
@@ -65,6 +69,7 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
 5. On IIS Manager click the refresh button to verify that the site has started.
 
 <a id="005"></a>
+
 ## Configuration
 
 You configure the `<sites>` element at the server level in the ApplicationHost.config file.
@@ -93,6 +98,7 @@ The following default `<sites>` element is configured in the root ApplicationHos
 In combination with the `<site>` element, the `<sites>` element replaces the IIS 6.0 **IIsWebServer** metabase property.
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples create a new Web site named Contoso with an ID of 2, and sets a binding for the HTTP protocol over port 80 with a host header of &quot;www.contoso.com&quot;. The physical path for the new Web site is C:\Inetpub\www.contoso.com\wwwroot.

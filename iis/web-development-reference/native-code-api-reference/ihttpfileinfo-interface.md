@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 82e00c1a-d54d-64d2-465b-581234ab0d24
 ---
 # IHttpFileInfo Interface
+
 Extends the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) interface by adding file-specific information for files that are cached on a server.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpFileInfo : public IHttpCacheSpecificData
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpFileInfo` class.  
   
 |Name|Description|  
@@ -40,12 +42,15 @@ class IHttpFileInfo : public IHttpCacheSpecificData
 |[SetFlushed](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-setflushed-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer on the corresponding `virtual` method for the event. You can retrieve an `IHttpFileInfo` pointer by calling the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then displays the `IHttpFileInfo` data to a Web client.  
   
  [!code-cpp[IHttpFileInfo#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/IHttpFileInfo.cpp#1)]  
@@ -80,6 +85,7 @@ VR Token: NULL
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md)  
   
  `IHttpFileInfo`  
@@ -94,5 +100,6 @@ VR Token: NULL
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)

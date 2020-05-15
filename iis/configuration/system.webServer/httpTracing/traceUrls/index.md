@@ -10,6 +10,7 @@ msc.type: config
 # Trace URLs &lt;traceUrls&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<traceUrls>` element contains a collection of `<add>` elements, each of which defines a URL to enable tracing.
@@ -18,6 +19,7 @@ The `<traceUrls>` element contains a collection of `<add>` elements, each of whi
 > Event Tracing for Windows (ETW) is a general-purpose, high-speed tracing facility provided by the operating system. Using a buffering and logging mechanism implemented in the kernel, ETW provides a tracing mechanism for events raised by both user-mode applications and kernel-mode device drivers. Additionally, ETW gives you the ability to enable and disable logging dynamically, making it easy to perform detailed tracing in production environments without requiring reboots or application restarts. The logging mechanism uses per-processor buffers that are written to disk by an asynchronous writer thread. This allows large-scale server applications to write events with minimum disturbance.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,16 +32,19 @@ The `<traceUrls>` element contains a collection of `<add>` elements, each of whi
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<traceUrls>` element of the `<httpTracing>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for the `<httpTracing>` element for IIS 7. For examples of how to access the `<httpTracing>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -61,6 +66,7 @@ The following example will enable tracing for the sample home page that ships wi
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable tracing for the sample home page that ships with IIS 7 on Web site named Contoso by adding an entry to the `<traceUrls>` collection for that site.

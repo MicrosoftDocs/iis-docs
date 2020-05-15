@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a3113e2b-b854-4f68-b67f-a6bfb7d18f02
 ---
 # TraceListenerSettings Class
+
 Contains listeners that monitor trace output and produce formatted output from it.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceListenerSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceListenerSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class TraceListenerSettings : EmbeddedObject
 |`Listeners`|An array of [ListenerElement](../wmi-provider/listenerelement-class.md) values that represent listeners that monitor and format trace output.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Listeners` array property of the [TraceSettings](../wmi-provider/tracesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TraceListenerSettings`  
@@ -43,6 +49,7 @@ class TraceListenerSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ListenerElement Class](../wmi-provider/listenerelement-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   

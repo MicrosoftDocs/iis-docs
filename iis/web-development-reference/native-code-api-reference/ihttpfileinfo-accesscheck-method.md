@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 87318954-5b0c-3d49-5cf5-b9d58de912a5
 ---
 # IHttpFileInfo::AccessCheck Method
+
 Returns a value that indicates whether the user can access the corresponding file.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT AccessCheck(
 ```  
   
 ### Parameters  
+
  `hUserToken`  
  [IN] A `HANDLE` that contains the token for the user.  
   
@@ -23,6 +25,7 @@ virtual HRESULT AccessCheck(
  [IN] A pointer that contains the security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)) for the user.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -31,6 +34,7 @@ virtual HRESULT AccessCheck(
 |E_FAIL|Indicates that the operation failed.|  
   
 ## Remarks  
+
  To determine whether the user can or cannot access the file, call either the [SUCCEEDED](https://go.microsoft.com/fwlink/?LinkId=58226) or [FAILED](https://go.microsoft.com/fwlink/?LinkId=58235) function, respectively, by passing the returned `HRESULT` from the `AccessCheck` method.  
   
  The behavior of the `AccessCheck` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -46,6 +50,7 @@ virtual HRESULT AccessCheck(
 >  While most implementers allow either or both parameters to be NULL, you should provide non-NULL values for each parameter whenever possible because the implementation may change.  
   
 ## Example  
+
  The following example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `AccessCheck` method to retrieve access information for the requested file and displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfo#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/AccessCheck.cpp#2)]  
@@ -76,4 +81,5 @@ Access: -2147024891
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

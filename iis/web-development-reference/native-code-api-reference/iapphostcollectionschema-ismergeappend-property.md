@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 22dabafd-081f-bebe-24de-c5ed61dbc6d9
 ---
 # IAppHostCollectionSchema::IsMergeAppend Property
+
 Gets a value that determines whether local collection elements are merged after inherited elements are added.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_IsMergeAppend(
 ```  
   
 ### Parameters  
+
  `pfIsMergeAppend`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if local collection elements are merged after inherited elements are added; `VARIANT_FALSE` if inherited elements are merged after local collection elements are added.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,7 +39,9 @@ HRESULT get_IsMergeAppend(
 |Header|Ahadmin.h|  
   
 ## Remarks  
+
  If this property is `VARIANT_FALSE`, local elements are merged before inherited elements.  
   
 ## See Also  
+
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

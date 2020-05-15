@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c80eea1c-5c85-a1be-c990-ed8e89de7d78
 ---
 # IHttpContext::GetNextNotification Method
+
 Retrieves the next notification for the current module host.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ virtual BOOL GetNextNotification(
 ```  
   
 ### Parameters  
+
  `status`  
  [IN] The [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) enumeration value to return from the current notification.  
   
@@ -35,9 +37,11 @@ virtual BOOL GetNextNotification(
  [OUT] A pointer to the address of the [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface for the returned notification.  
   
 ## Return Value  
+
  `true` if the call to `GetNextNotification` was successful; otherwise, `false`.  
   
 ## Remarks  
+
  HTTP modules can use the `GetNextNotification` method to merge notifications within the same module host. Returning processing to the integrated request-processing pipeline requires a small amount of overhead. To bypass that overhead, an HTTP module can call the `GetNextNotification` method to skip to the next notification and continue processing, provided that the two notifications are within the same module host and no additional notification handlers are registered to process a request between notifications.  
   
  For example, an HTTP module might contain an [OnResolveRequestCache](../../web-development-reference/native-code-api-reference/chttpmodule-onresolverequestcache-method.md) method, and another HTTP module within the same module host might contain an [OnPostResolveRequestCache](../../web-development-reference/native-code-api-reference/chttpmodule-onpostresolverequestcache-method.md) method. The first module can call the `GetNextNotification` method to continue processing, rather than returning processing to the pipeline, as though the module had already registered for the `OnPostResolveRequestCache` post-event notification method.  
@@ -46,6 +50,7 @@ virtual BOOL GetNextNotification(
 >  If the call to `GetNextNotification` returns `false`, you can enable a failed-request-tracing rule that will allow you to examine which notifications IIS is processing.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Registers for several notifications.  
@@ -70,4 +75,5 @@ virtual BOOL GetNextNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

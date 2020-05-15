@@ -5,6 +5,7 @@ ms.assetid: f4c8f1c8-f28e-4907-832d-05cccef42c0a
 ms.author: "robmcm"
 ---
 # IFtpProviderConstruct Interface
+
 Provides an interface for passing configuration settings to a provider.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ interface IFtpProviderConstruct : IUknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IFtpRoleProvider` interface.  
   
 |||  
@@ -22,6 +24,7 @@ interface IFtpProviderConstruct : IUknown
 |[IFtpProviderConstruct::Construct Method](../../ftp-extensibility-reference/native-code-api-reference/iftpproviderconstruct-construct-method.md)|Retrieves an array of key/value pairs from an FTP provider's configuration settings in the IIS ApplicationHost.config file.|  
   
 ## Remarks  
+
  You can specify parameters for an FTP provider in the IIS ApplicationHost.config file by adding an <`activation`> collection, which may contain a series of <`providerData`> elements that list additional settings for custom FTP providers. Each <`providerData`> element is paired with an entry in the <`providerDefinitions`> collection, and contains a series of key/value pairs that contain information that is specific to each provider.  
   
  The following configuration excerpt illustrates a custom FTP provider entry in the ApplicationHost.config file and its related information.  
@@ -42,6 +45,7 @@ interface IFtpProviderConstruct : IUknown
 ```  
   
 ## Example  
+
  The following code example iterates through the array of configuration settings and sends the key/value pairs to the debug stream.  
   
 ```  

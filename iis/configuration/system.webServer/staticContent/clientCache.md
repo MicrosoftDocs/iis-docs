@@ -10,6 +10,7 @@ msc.type: config
 # Client Cache &lt;clientCache&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<clientCache>` element of the [`<staticContent>`](index.md) element specifies cache-related HTTP headers that IIS 7 and later sends to Web clients, which control how Web clients and proxy servers will cache the content that IIS 7 and later returns.
@@ -39,6 +40,7 @@ For more information on HTTP caching headers and date/time formats, see the foll
 - [RFC 2616](http://www.ietf.org/rfc/rfc2616.txt) - "Hypertext Transfer Protocol -- HTTP/1.1"
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -51,11 +53,13 @@ For more information on HTTP caching headers and date/time formats, see the foll
 | IIS 6.0 | The `<clientCache>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>CacheControlCustom</strong></li> <li><strong>CacheControlMaxAge</strong></li> <li><strong>CacheControlNoCache</strong></li> <li><strong>HttpExpires</strong> </li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<clientCache>` element of the `<staticContent>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure a cache expiration date for a Web site or application
@@ -112,6 +116,7 @@ The `<clientCache>` element of the `<staticContent>` element is included in the 
     [![](clientCache/_static/image14.png)](clientCache/_static/image13.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -139,6 +144,7 @@ The following configuration sample adds an HTTP "Expires: Tue, 19 Jan 2038 03:14
 [!code-xml[Main](clientCache/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add an HTTP "Cache-Control: no-cache" header to the response, thereby disabling caching of requests.

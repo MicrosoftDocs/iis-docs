@@ -21,16 +21,19 @@ by [Gary Ericson](https://github.com/garyericson)
 | IIS 8.0 and earlier | Logging to ETW was not supported prior to IIS 8.5. |
 
 <a id="TOC301258515"></a>
+
 ## Problem
 
 Internet Information Services (IIS) on Windows Server 2012 provides basic logging capabilities. However, because IIS takes some time to flush logs to disk, administrators do not have access to logging information in real-time. In addition, text-based log files can be difficult and time-consuming to process.
 
 <a id="TOC301258516"></a>
+
 ## Solution
 
 In IIS 8.5, the administrator has the option of sending logging information to Event Tracing for Windows (ETW). This option gives the administrator the ability to use standard query tools, or create custom tools, for viewing real-time logging information in ETW. This provides a significant advantage over parsing text-based log files that are not updated in real time. For more information on ETW, see [Event Tracing](https://go.microsoft.com/fwlink/p/?LinkID=256040).
 
 <a id="TOC301258517"></a>
+
 ## Step by Step Instructions
 
 ### Configure ETW Logging
@@ -44,6 +47,7 @@ In IIS 8.5, the administrator has the option of sending logging information to E
 5. Use any of the publicly available tools to query ETW for events. For example, Message Analyzer can be used by configuring it to query the "Microsoft-Windows-IIS-Logging" provider. For more information about Message Analyzer, see the [MessageAnalyzer blog](https://docs.microsoft.com/openspecs/blog/ms-winintbloglp/dd98b93c-0a75-4eb0-b92e-e760c502394f).
 
 <a id="TOC301258518"></a>
+
 ## Summary
 
 In this guide, you have configured IIS to log events to ETW or to both ETW and the log file. You can view ETW events using a number of publicly available tools.

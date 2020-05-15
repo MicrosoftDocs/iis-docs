@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8fd30064-d022-b1a0-6011-75b020d101dd
 ---
 # HealthMonitoringSection Class
+
 Configures an application for health monitoring.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HealthMonitoringSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HealthMonitoringSection` class.  
   
 |Name|Description|  
@@ -44,9 +47,11 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -63,6 +68,7 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent)
  [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

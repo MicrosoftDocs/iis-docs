@@ -10,6 +10,7 @@ msc.type: config
 # FTP Command Filtering &lt;commandFiltering&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<commandFiltering>` element specifies a collection of FTP commands that the FTP service will allow or deny. The `<commandFiltering>` element contains a collection of `<add>` statements that individually specify whether to allow or deny a specific FTP command.
@@ -22,6 +23,7 @@ The collection in the `<commandFiltering>` element is related to the [`<requestF
 Additional attributes for the `<commandFiltering>` element are `maxCommandLine` and `allowUnlisted`. Respectively, these configure the maximum command line length and whether to allow unlisted commands.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -41,6 +43,7 @@ Additional attributes for the `<commandFiltering>` element are `maxCommandLine` 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -108,6 +111,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to deny an FTP command for an FTP site by using command filtering
@@ -144,6 +148,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](index/_static/image12.png)](index/_static/image11.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<commandFiltering>` element is configured at the site level.
@@ -179,6 +184,7 @@ The following sample illustrates several configuration settings in the `<ftpServ
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure the Default Web Site to allow unlisted FTP commands and to deny the SYST command.

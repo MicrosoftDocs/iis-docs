@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a15696da-10ee-bb44-6c4e-fea7f82bb222
 ---
 # IHttpUser::GetPassword Method
+
 Returns the user password.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual PCWSTR GetPassword(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a constant null-terminated Unicode string that contains the user password.  
   
 ## Remarks  
+
  The value returned depends on the authentication type. The authentication type is returned from the [GetAuthenticationType](../../web-development-reference/native-code-api-reference/ihttpuser-getauthenticationtype-method.md) method.  
   
  The following table shows authentication types with the associated password values.  
@@ -38,12 +42,15 @@ virtual PCWSTR GetPassword(
 >  An unencrypted password should never be displayed or returned to the user. Consider using an authentication scheme other than Basic, because Basic passes both the user name and password in plaintext form.  
   
 ## Notes for Implementers  
+
  [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpUser` implementers that use dynamic memory allocation must release or call `delete` on the `PCWSTR` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpUser` implementers are responsible for memory management with this data; therefore, `IHttpUser` clients must not release or call `delete` on the returned `PCWSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCWSTR`; otherwise, an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
  [!code-cpp[IHttpUser#4](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpUser/cpp/GetPassword.cpp#4)]  
@@ -69,6 +76,7 @@ virtual PCWSTR GetPassword(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)   
  [IHttpUser::GetUserName Method](../../web-development-reference/native-code-api-reference/ihttpuser-getusername-method.md)   
  [IHttpUser::GetRemoteUserName Method](../../web-development-reference/native-code-api-reference/ihttpuser-getremoteusername-method.md)

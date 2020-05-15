@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3364b705-8777-3927-4016-d35a36d3c433
 ---
 # Site.Stop Method1
+
 Stops a currently running Web site.  
   
 ## Syntax  
@@ -17,15 +18,19 @@ oSite.Stop();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method is new to the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider and has no counterpart in IIS 6.0.  
   
 ## Example  
+
  The following example stops the Web site named `IISWebSite`.  
   
 ```  
@@ -51,6 +56,7 @@ oSite.Stop
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Site Class](../wmi-provider/site-class.md)   
  [Site.GetState Method](../wmi-provider/site-getstate-method.md)   
  [Site.Start Method](../wmi-provider/site-start-method.md)

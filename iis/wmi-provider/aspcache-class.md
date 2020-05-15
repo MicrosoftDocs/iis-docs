@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fa41a3b8-75e1-529f-acc0-1fcb467704f3
 ---
 # AspCache Class
+
 Configures properties related to ASP caching.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AspCache : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AspCache` class.  
   
 |Name|Description|  
@@ -27,12 +30,15 @@ class AspCache : EmbeddedObject
 |`ScriptFileCacheSize`|A read/write `uint32` value that specifies the number of precompiled script files to cache. If set to 0, no script files are cached. If set to 4294967295, all script files requested are cached. This property is used to tune performance, depending on the amount of available memory and the amount of script file traffic. The default is 500.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Cache` property of the [AspSection](../wmi-provider/aspsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `AspCache`  
@@ -47,6 +53,7 @@ class AspCache : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AspComPlus Class](../wmi-provider/aspcomplus-class.md)   
  [AspLimits Class](../wmi-provider/asplimits-class.md)   
  [AspSection Class](../wmi-provider/aspsection-class.md)   

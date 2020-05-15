@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ab1dcd94-ec87-e260-9828-ed4cc6c1221e
 ---
 # EventMappingSettings Class
+
 Contains mappings of friendly event names to related event types.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class EventMappingSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `EventMappingSettings` class.  
   
 |Name|Description|  
@@ -23,14 +26,17 @@ class EventMappingSettings : EmbeddedObject
 |`EventMappings`|An array of [EventMappingElement](../wmi-provider/eventmappingelement-class.md) objects that map friendly event names to related event types.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `EventMappings` array property of the [HealthMonitoringSection](../wmi-provider/healthmonitoringsection-class.md) class.  
   
  Event mappings allow you to assign friendly names to event sources. These names are used to associate event sources with the related event consumers, called providers, in the `Rules` property of the `HealthMonitoringSection` class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `EventMappingSettings`  
@@ -45,6 +51,7 @@ class EventMappingSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [EventMappingElement Class](../wmi-provider/eventmappingelement-class.md)   

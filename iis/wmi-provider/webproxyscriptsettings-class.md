@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e5f9462-6c46-4242-be1f-9c7c08928258
 ---
 # WebProxyScriptSettings Class
+
 Configures Web proxy scripts.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class WebProxyScriptSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebProxyScriptSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class WebProxyScriptSettings : EmbeddedObject
 |`DownloadTimeout`|A read/write `datetime` value that specifies the Web proxy script download time-out. The default is 2 minutes.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `WebProxyScript` property of the [SettingsSection](../wmi-provider/settingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `WebProxyScriptSettings`  
@@ -43,6 +49,7 @@ class WebProxyScriptSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SettingsSection Class](../wmi-provider/settingssection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bafedfc8-9b20-cef2-48cb-de1d8d9c1938
 ---
 # IGlobalConfigurationChangeProvider::GetChangePath Method
+
 Retrieves the path of a configuration change.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual VOID GetChangePath(
 ```  
   
 ### Parameters  
+
  `ppszPath`  
  [OUT] A pointer to a `PCWSTR` value.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `GetChangePath` method retrieves the configuration path that triggered a [GL_CONFIGURATION_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification. For example, the configuration path for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually resemble MACHINE/WEBROOT/APPHOST/Default Web Site.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that uses the `GetChangePath` method to retrieve the path for a configuration change and add a log entry to the Event Viewer.  
   
  For example, when the ApplicationHost.config file is changed by using the [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)] application, an event that contains the configuration path will be written to the Event Viewer.  
@@ -45,4 +50,5 @@ virtual VOID GetChangePath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalConfigurationChangeProvider Interface](../../web-development-reference/native-code-api-reference/iglobalconfigurationchangeprovider-interface.md)

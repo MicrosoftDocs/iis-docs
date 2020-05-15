@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 04db1036-8a69-29a2-dcc0-490395e8c477
 ---
 # IAppHostConfigException::LineNumber Property
+
 Gets the number of the line in the configuration file that caused the exception to be thrown.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_LineNumber(
 ```  
   
 ### Parameters  
+
  `pcLineNumber`  
  A pointer to an `ULONG` that specifies the number of the line that caused the exception.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_LineNumber(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

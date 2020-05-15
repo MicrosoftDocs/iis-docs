@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: da798d70-df91-5214-1c4f-845d79ece45f
 ---
 # IHttpServer::NotifyConfigurationChange Method
+
 Triggers a notification that a configuration path has changed.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual VOID NotifyConfigurationChange(
 ```  
   
 ### Parameters  
+
  `pszPath`  
  A pointer to a string that contains the configuration path.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] automatically triggers a [GL_CONFIGURATION_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification when the ApplicationHost.config file is modified. Developers can use the `NotifyConfigurationChange` method to manually trigger a `GL_CONFIGURATION_CHANGE` notification for the configuration path that is specified in the `pszPath` parameter.  
   
 > [!NOTE]
 >  Developers can use the [CGlobalModule::OnGlobalConfigurationChange](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md) method to provide additional processing when a `GL_CONFIGURATION_CHANGE` notification occurs.  
   
 ## Example  
+
  The following code example demonstrates how to use the `NotifyConfigurationChange` method to create an HTTP module that manually triggers a `GL_CONFIGURATION_CHANGE` notification for the MACHINE/WEBROOT/APPHOST/Default Web Site configuration path.  
   
  [!code-cpp[IHttpServerNotifyConfigurationChange#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerNotifyConfigurationChange/cpp/IHttpServerNotifyConfigurationChange.cpp#1)]  
@@ -46,5 +51,6 @@ virtual VOID NotifyConfigurationChange(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [CGlobalModule::OnGlobalConfigurationChange Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md)

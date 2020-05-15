@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7c4a08fd-596f-7ec3-01d3-d780e8373229
 ---
 # IHttpResponse::ResetConnection Method
+
 Resets the socket connection immediately.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual VOID ResetConnection(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `ResetConnection` method notifies HTTP.sys to trigger an immediate reset of the socket connection with the client.  
   
 > [!NOTE]
@@ -29,6 +33,7 @@ virtual VOID ResetConnection(
  This method differs from the [IHttpResponse::SetNeedDisconnect](../../web-development-reference/native-code-api-reference/ihttpresponse-setneeddisconnect-method.md) method, which disconnects the socket after the server finishes processing the current request.  
   
 ## Example  
+
  The following code example demonstrates how to use the `ResetConnection` method to create an HTTP module that terminates the client response. The example module clears the response buffer and inserts a string into the response to return to the client. The example module then calls the `ResetConnection` method to terminate the response. Finally, the module inserts another string into the response; this method will succeed even though the connection with the client has been reset.  
   
 > [!NOTE]
@@ -50,6 +55,7 @@ virtual VOID ResetConnection(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::SetNeedDisconnect Method](../../web-development-reference/native-code-api-reference/ihttpresponse-setneeddisconnect-method.md)   
  [IHttpContext::CancelIo Method](../../web-development-reference/native-code-api-reference/ihttpcontext-cancelio-method.md)

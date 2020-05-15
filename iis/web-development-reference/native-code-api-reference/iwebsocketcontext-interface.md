@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4456d878-e673-41a5-8f36-f2f48809105e
 ---
 # IWebSocketContext Interface
+
 Represents context support for bi-directional WebSocket communications over a single TCP socket.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWebSocketContext : public IHttpStoredContext
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWebSocketContext` interface.  
   
 |Name|Description|  
@@ -25,9 +27,11 @@ class IWebSocketContext : public IHttpStoredContext
 |[WriteFragment](../../web-development-reference/native-code-api-reference/iwebsocketcontext-writefragment-method.md)|Writes a data fragment to an asynchronous connection.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md)  
   
  `IWebSocketContext`  
@@ -42,4 +46,5 @@ class IWebSocketContext : public IHttpStoredContext
 |Header|Iiswebsocket.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

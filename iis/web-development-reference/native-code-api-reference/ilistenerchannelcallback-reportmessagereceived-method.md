@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5d552c6c-69a2-3ca5-0826-046d8df6fbe5
 ---
 # IListenerChannelCallback::ReportMessageReceived Method
+
 Notifies the worker process framework that a new message was received.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ virtual HRESULT __stdcall ReportMessageReceived(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -24,6 +27,7 @@ virtual HRESULT __stdcall ReportMessageReceived(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  You must monitor the message count when the application pool is configured to recycle after a fixed number of requests.  
   
 ## Requirements  
@@ -36,4 +40,5 @@ virtual HRESULT __stdcall ReportMessageReceived(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-interface.md)

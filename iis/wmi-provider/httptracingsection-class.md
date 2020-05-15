@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 038d500a-3026-be97-4539-205311ac53c3
 ---
 # HttpTracingSection Class
+
 Represents an HTTP tracing configuration section.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpTracingSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpTracingSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HttpTracingSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpTracingSection` class.  
   
 |Name|Description|  
@@ -38,12 +41,15 @@ class HttpTracingSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<httpTracing>` section in ApplicationHost.config and is used for Event Tracing for Windows (ETW) request-based tracing.  
   
 ## Example  
+
  The following code example displays the contents of the `TraceUrls` property.  
   
 ```  
@@ -70,6 +76,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -86,6 +93,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

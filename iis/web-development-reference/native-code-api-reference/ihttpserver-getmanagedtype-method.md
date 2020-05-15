@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b4e71c1b-10cd-5cf2-0198-0d73ba87fd9f
 ---
 # IHttpServer::GetManagedType Method
+
 Retrieves the managed type for a specific site and Uniform Resource Identifier (URI).  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT GetManagedType(
 ```  
   
 ### Parameters  
+
  `dwSiteId`  
  [IN] The site identifier for the URI in `pszVirtualPath`.  
   
@@ -31,6 +33,7 @@ virtual HRESULT GetManagedType(
  [IN][OUT] The length, in bytes, of the `pszManagedType` buffer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -42,6 +45,7 @@ virtual HRESULT GetManagedType(
 |ERROR_INSUFFICIENT_BUFFER|Indicates that there is not enough buffer space to perform the operation.|  
   
 ## Remarks  
+
  The `GetManagedType` method retrieves the `type` attribute for request handler that will process a specific virtual path that is specified by the `dwSiteId` and `pszVirtualPath` parameters. The method then returns this information in the buffer that is specified by the `pszManagedType` parameter.  
   
 > [!IMPORTANT]
@@ -52,6 +56,7 @@ virtual HRESULT GetManagedType(
  The `IHttpServer::GetManagedType` method differs from the [IScriptMapInfo::GetManagedType](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getmanagedtype-method.md) method in that the `IHttpServer::GetManagedType` method can retrieve the `type` attribute for any virtual path, whereas the `IScriptMapInfo::GetManagedType` method will retrieve only the `type` attribute for the [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetManagedType` method to create an HTTP module that retrieves the managed type for the /default.aspx URI.  
   
  The module completes the following steps:  
@@ -82,5 +87,6 @@ virtual HRESULT GetManagedType(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IScriptMapInfo::GetManagedType Method](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getmanagedtype-method.md)

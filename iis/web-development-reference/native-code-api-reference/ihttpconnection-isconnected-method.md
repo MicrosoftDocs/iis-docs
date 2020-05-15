@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a2b6d5e7-48d7-2eba-6fe3-1fec9586b846
 ---
 # IHttpConnection::IsConnected Method
+
 Determines whether a Web client is still connected to the current request.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL IsConnected(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if the Web client is still connected; otherwise, `false`.  
   
 ## Remarks  
+
  The `IsConnected` method determines whether a Web client has remained connected to the current request or has disconnected from the current request. For example, if a request is taking a long time to process, a Web client may choose to end the connection. If an HTTP module calls the `IsConnected` method and determines that the connection has been terminated by the client, the module can bypass remaining notifications and end additional request processing by returning [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md). This frees IIS from continuing to process a request for a disconnected Web client.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetConnection](../../web-development-reference/native-code-api-reference/ihttpcontext-getconnection-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpConnection](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md) interface. The example then calls the `IHttpConnection::IsConnected` method to determine whether the Web client that initiated the current request is still connected. If the client is still connected, the HTTP module will return a status message to the Web client. If the client is not connected, the module will return `RQ_NOTIFICATION_FINISH_REQUEST` to end additional processing.  
   
  [!code-cpp[IHttpConnectionIsConnected#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpConnectionIsConnected/cpp/IHttpConnectionIsConnected.cpp#1)]  
@@ -42,4 +47,5 @@ virtual BOOL IsConnected(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpConnection Interface](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md)

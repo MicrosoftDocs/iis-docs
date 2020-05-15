@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 031a01fe-3958-c081-d984-dcd22411eeb0
 ---
 # IWpfListenerChannelCallback::GetId Method
+
 Retrieves the ID of a listener channel that needs to be started.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT GetId(
 ```  
   
 ### Parameters  
+
  `pdwListenerChannelId`  
  A pointer to a `DWORD` buffer that receives the ID of a listener channel.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,6 +38,7 @@ virtual HRESULT GetId(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-interface.md)   
  [IWpfListenerChannelCallback::GetBlob Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getblob-method.md)   
  [IWpfListenerChannelCallback::ReportMessageReceived Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-reportmessagereceived-method.md)   

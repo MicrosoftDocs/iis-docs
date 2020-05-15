@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cbc9a189-8d5a-7611-71e3-083e7e5b08b2
 ---
 # WebhostUnregisterProtocol Function
+
 Requests that a protocol be unregistered when a listener adapter is shutting down.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT WebhostUnregisterProtocol(
 ```  
   
 ### Parameters  
+
  `ProtocolHandle`  
  [IN] A `DWORD` that represents the protocol to be unregistered.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -28,6 +31,7 @@ HRESULT WebhostUnregisterProtocol(
 |HRESULT_FROM_WIN32( ERROR_NOT_FOUND )|Indicates that the protocol was not found.|  
   
 ## Remarks  
+
  Before calling this function, the listener adaptor should perform the following tasks:  
   
 1. Request all listener channels to stop (by calling the [WebhostCloseAllListenerChannelInstances](../../web-development-reference/native-code-api-reference/webhostclosealllistenerchannelinstances-function.md) function).  
@@ -44,4 +48,5 @@ HRESULT WebhostUnregisterProtocol(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)

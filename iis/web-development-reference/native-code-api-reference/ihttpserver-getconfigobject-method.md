@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5b9a91b4-edf1-7007-e985-5877c4a89786
 ---
 # IHttpServer::GetConfigObject Method
+
 Retrieves the configuration object for the current context.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual INativeConfigurationSystem* GetConfigObject(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [INativeConfigurationSystem](https://msdn.microsoft.com/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
   
 ## Remarks  
+
  The `GetConfigObject` method retrieves a configuration object that you can use to retrieve configuration settings from a configuration file. For example, the [INativeConfigurationSystem::GetConfigSection](https://msdn.microsoft.com/ad4c47fd-a00e-eb0e-f181-0cb41e98c89d) method retrieves a [INativeConfigurationElement](https://msdn.microsoft.com/70c26f09-2188-b797-062a-b2eaca3d9ef7) interface, which is a container object for a section of the configuration settings for the current context. This container object contains several methods that you can use to retrieve or modify the configuration settings.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the [IHttpContext::GetMetadata](../../web-development-reference/native-code-api-reference/ihttpcontext-getmetadata-method.md) method to retrieve a pointer to an [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md) interface. The module completes the following steps:  
   
 1. Uses the [IMetadataInfo::GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method to retrieve the configuration path for the current request.  
@@ -54,4 +59,5 @@ virtual INativeConfigurationSystem* GetConfigObject(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)

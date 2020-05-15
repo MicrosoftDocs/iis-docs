@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d2f44e2f-ae63-421b-9071-ddf9809fc21c
 ---
 # CompilerElement Class
+
 Specifies a compiler that is used for Web applications.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class CompilerElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CompilerElement` class.  
   
 |Name|Description|  
@@ -27,12 +30,15 @@ class CompilerElement : CollectionElement
 |`WarningLevel`|A read/write `sint32` value that specifies the compiler warning level. **Note:**  The compiler warning level determines the level at which the language provider treats compilation warnings as errors.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Compilers` array property of the [CompilerSettings](../wmi-provider/compilersettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `CompilerElement`  
@@ -47,5 +53,6 @@ class CompilerElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [CompilerSettings Class](../wmi-provider/compilersettings-class.md)

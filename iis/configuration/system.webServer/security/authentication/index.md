@@ -10,6 +10,7 @@ msc.type: config
 # Security Authentication &lt;authentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 Authentication is the mechanism you use to verify the identity of visitors to your Web site or Web application. Typically, you do this by assigning a user name and password to a visitor or allowing a visitor to anonymously access public content on your site.
@@ -27,6 +28,7 @@ Also by default, IIS 7 enables kernel-mode authentication for the Windows (which
 - If you use kernel-mode authentication, you can use the Windows authentication Kerberos provider without performing explicit SPN configuration.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,11 +41,13 @@ Also by default, IIS 7 enables kernel-mode authentication for the Windows (which
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<authentication>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to disable anonymous authentication
@@ -126,6 +130,7 @@ The `<authentication>` element is included in the default installation of IIS 7.
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<authentication>` section group is defined in the `<system.webServer>` configuration section. This section group defines configuration sections for all user authentication types that you can install and enable on your server. You can configure it at the server level in the ApplicationHost.config file and at the application level in the Web.config file.
@@ -152,6 +157,7 @@ The following configuration example disables Anonymous authentication for a site
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples disable Anonymous authentication for a site named Contoso, then enable both Basic authentication and Windows authentication for the site.

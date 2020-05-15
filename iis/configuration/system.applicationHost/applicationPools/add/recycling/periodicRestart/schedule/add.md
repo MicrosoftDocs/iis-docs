@@ -10,11 +10,13 @@ msc.type: config
 # Adding Periodic Restart Schedules &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<schedule>` collection specifies a time to initiate a scheduled periodic restart of an application pool.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<add>` element of the `<schedule>` collection specifies a time to initiate 
 | IIS 6.0 | The `<add>` element replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to set up periodic recycling for an application pool
@@ -62,6 +66,7 @@ The `<applicationPools>` collection is included in the default installation of I
     [![](add/_static/image6.png)](add/_static/image5.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 You configure the `<add>` element at the server level in the ApplicationHost.config file.
@@ -83,6 +88,7 @@ The following configuration sample uses the application pool `<add>` element to 
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples add an application pool named Contoso to your IIS 7 server, then set the application pool to daily recycle at 3:00 A.M.

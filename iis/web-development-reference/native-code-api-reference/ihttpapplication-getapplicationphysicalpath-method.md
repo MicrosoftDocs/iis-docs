@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 37b28860-40de-f634-8988-5a41dced203d
 ---
 # IHttpApplication::GetApplicationPhysicalPath Method
+
 Retrieves the physical path of the application for the current request.  
   
 ## Syntax  
@@ -15,17 +16,21 @@ virtual PCWSTR GetApplicationPhysicalPath(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the physical path for the application.  
   
 ## Remarks  
+
  The `GetApplicationPhysicalPath` method returns the physical path for the root folder of the application that is processing the current request. For example, requests for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually return the C:\Inetpub\Wwwroot location.  
   
  This path is not always the same folder path as the current request. For example, if a Web client requests both http://example.com/ and http://example.com/example/, these paths may be respectively located at C:\Inetpub\Wwwroot and C:\Inetpub\Wwwroot\Example. However, the `GetApplicationPhysicalPath` method will return only the C:\Inetpub\Wwwroot path for both requests if an application has not been created for the C:\Inetpub\Wwwroot\Example path.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetApplicationPhysicalPath` method to create an HTTP module that retrieves the physical path for the current request and returns the path to a Web client.  
   
  [!code-cpp[IHttpApplicationGetApplicationPhysicalPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpApplicationGetApplicationPhysicalPath/cpp/IHttpApplicationGetApplicationPhysicalPath.cpp#1)]  
@@ -44,4 +49,5 @@ virtual PCWSTR GetApplicationPhysicalPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication Interface](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)

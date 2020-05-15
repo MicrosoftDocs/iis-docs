@@ -10,11 +10,13 @@ msc.type: config
 # Periodic Restart Schedules &lt;schedule&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<schedule>` collection of the `<periodicRestart>` element specifies the time intervals between restarts of worker processes in an application pool.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -26,11 +28,13 @@ The `<schedule>` collection of the `<periodicRestart>` element specifies the tim
 | IIS 6.0 | The `<schedule>` element replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to set up periodic recycling for an application pool
@@ -61,6 +65,7 @@ The `<applicationPools>` collection is included in the default installation of I
     [![](index/_static/image6.png)](index/_static/image5.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 You configure the `<schedule>` element at the server level in the ApplicationHost.config file.
@@ -83,6 +88,7 @@ The following configuration sample uses the application pool `<add>` element to 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples add an application pool named Contoso to your IIS 7 server, then set the application pool to daily recycle at 3:00 A.M.

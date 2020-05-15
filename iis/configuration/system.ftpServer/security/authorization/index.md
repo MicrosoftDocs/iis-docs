@@ -10,6 +10,7 @@ msc.type: config
 # FTP Authorization &lt;authorization&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<authorization>` element allows you to configure the user accounts that can access your site or application. Use authorization in combination with authentication to secure access to content on your server. Authentication confirms the identity of a user, while authorization determines what resources users can or cannot access.
@@ -20,6 +21,7 @@ IIS defines two types of authorization rules, Allow rules and Deny rules:
 - Deny rules let you define the user accounts or user groups that cannot access a site, an application, or all the sites on a server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,6 +41,7 @@ IIS defines two types of authorization rules, Allow rules and Deny rules:
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -106,6 +109,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an FTP authorization rule
@@ -143,6 +147,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 6. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<authorization>` element at the site or URL level in the ApplicationHost.config file. You can set default authorization rules for the entire server by configuring authorization rules at the server level. You can remove, clear, or override these rules by configuring more specific rules for your sites or URLs.
@@ -172,6 +177,7 @@ The following sample illustrates several security-related configuration settings
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add two FTP authorization rules for the Default Web Site. The first rule allows read and write access for the administrators group, and the second rule denies read and write access for the guest account.

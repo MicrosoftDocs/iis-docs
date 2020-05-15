@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5336b292-a515-5615-d97c-ef14e2c9c10c
 ---
 # WebRequestModuleElement Class
+
 Represents a Uniform Resource Identifier (URI) prefix and the associated class that creates Web requests for the prefix.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class WebRequestModuleElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebRequestModuleElement` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class WebRequestModuleElement : CollectionElement
 |`Type`|A read/write `string` value that specifies the managed type for a class that creates Web requests for the prefix specified in the `Prefix` property. **Note:**  The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `WebRequestModules` property of the [WebRequestModulesSection](../wmi-provider/webrequestmodulessection-class.md) class.  
   
  The [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)] provides Web request modules that create requests for resources with the following prefixes:  
@@ -40,6 +45,7 @@ class WebRequestModuleElement : CollectionElement
 - FILE  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `WebRequestModuleElement`  
@@ -54,6 +60,7 @@ class WebRequestModuleElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpWebRequestSettings Class](../wmi-provider/httpwebrequestsettings-class.md)   
  [WebRequestModulesSection Class](../wmi-provider/webrequestmodulessection-class.md)   

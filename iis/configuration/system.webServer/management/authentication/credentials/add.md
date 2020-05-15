@@ -10,6 +10,7 @@ msc.type: config
 # Adding Management Authentication Credentials &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<credentials>` element adds a user account to the collection of IIS Manager users for Internet Information Services (IIS) 7. IIS Manager users can use IIS Manager to connect to sites and applications for which they are authorized by a server administrator.
@@ -18,6 +19,7 @@ The `<add>` element of the `<credentials>` element adds a user account to the co
 > The `<credentials>` element only applies when you use the default *ConfigurationAuthenticationProvider* as your authentication provider.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<add>` element of the `<credentials>` element adds a user account to the co
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the **Management Service** role service. To install this role service, use the following steps.
@@ -73,6 +76,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable IIS Manager credentials for a server
@@ -126,6 +130,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](add/_static/image18.png)](add/_static/image17.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -147,6 +152,7 @@ The following configuration sample shows how to add an IIS Manager user named Co
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add an IIS Manager user account named ContosoUser to IIS 7.

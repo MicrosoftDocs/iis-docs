@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7889d2ef-4ca3-087e-d371-6ce2730b4bb4
 ---
 # IScriptMapInfo::GetResourceType Method
+
 Retrieves the resource type for a request handler.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual DWORD GetResourceType(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that contains the resource type.  
   
 ## Remarks  
+
  The `GetResourceType` method retrieves the `resourceType` attribute for a request handler that is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains the type of resource that the request handler will process. The following values for the resource type are defined in the Schema.xml file for IIS:  
   
 ```  
@@ -35,6 +39,7 @@ virtual DWORD GetResourceType(
  For example, when a client requests a file that is processed by the static file handler, the default resource type is a value of 2, which specifies either file or directory resources because the static file handler processes both static files and directory browsing requests. A request for a classic ASP page, however, will return a value of 1, which specifies a file resource by default.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetResourceType` method to retrieve the resource type for the request handler that is processing the current request. The module converts the resource type to a string, returns the string to a Web client, and then exits.  
   
  [!code-cpp[IScriptMapInfoGetResourceType#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IScriptMapInfoGetResourceType/cpp/IScriptMapInfoGetResourceType.cpp#1)]  
@@ -53,4 +58,5 @@ virtual DWORD GetResourceType(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

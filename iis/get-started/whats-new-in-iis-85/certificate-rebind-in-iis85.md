@@ -21,11 +21,13 @@ by [Jim van de Erve](https://twitter.com/jimvde)
 | IIS 8.0 and earlier | Certificate Rebind was not supported prior to IIS 8.5. |
 
 <a id="TOC301258515"></a>
+
 ## Problem
 
 When the certificate used for an IIS Web site expires and is renewed, the Web site must be rebound to the new certificate. This needs to occur even if your certificates are renewed automatically. Rebinding manually can make certificate management challenging, especially if you have a significant number of sites and certificates. If a certificate expires and the site is not rebound to the new certificate, clients connecting to the Web site will get a warning about the certificate expiration, and this might deter them from using the site until the issue is addressed.
 
 <a id="TOC301258516"></a>
+
 ## Solution
 
 IIS 8.5 and later have a new feature that automates the rebinding of a renewed certificate. This feature, called Certificate Rebind, ensures that a certificate will automatically be rebound to a Web site after the certificate has been renewed. You enable this feature for all HTTPS Web sites on a server in the Server Certificates dialog box of the IIS Manager.
@@ -39,6 +41,7 @@ You can view the certificate rebinding task in the Task Scheduler in Windows 8 o
 In addition to configuring certificate rebinding in IIS, you can use the Certificate Services Lifecycle Notifications events to manage certificates by setting up custom triggers in the Task Scheduler.
 
 <a id="TOC301258517"></a>
+
 ## Step by Step Instructions
 
 ### Enable automatic rebinding of renewed certificates
@@ -49,6 +52,7 @@ In addition to configuring certificate rebinding in IIS, you can use the Certifi
 4. In the **Actions** pane, click **Enable Automatic Rebind of Renewed Certificate**. ![Server Certificates Actions Pane](certificate-rebind-in-iis85/_static/image2.png)
 
 <a id="TOC301258518"></a>
+
 ## Summary
 
 The Certificate Rebind feature of IIS 8.5 and later enable you to rebind a certificate to a Web site automatically after the certificate has been renewed. Certificate rebinding leverages Certificate Services Lifecycle Notifications events. The Certificate Rebind task, CertificateServicesClient, is registered in the Windows Task Scheduler.

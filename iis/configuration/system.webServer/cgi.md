@@ -10,6 +10,7 @@ msc.type: config
 # CGI &lt;cgi&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<cgi>` element configures default settings for Common Gateway Interface (CGI) applications for Internet Information Services (IIS) 7. These settings define the environment that IIS 7 will use when launching CGI processes. For example, the **createCGIWithNewConsole** and **createProcessAsUser** attributes specify how IIS 7 will launch a CGI application, and the **timeout** attribute specifies how long IIS will let a CGI application run before terminating the process.
@@ -20,6 +21,7 @@ CGI is sometimes considered to be a legacy application environment. Because of t
 > The CGI environment is not installed by default; however, installing the CGI environment also installs the necessary functionality for using FastCGI applications. For more information about using FastCGI on IIS 7, see the [&lt;fastCgi&gt;](fastcgi/index.md) element.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -32,6 +34,7 @@ CGI is sometimes considered to be a legacy application environment. Because of t
 | IIS 6.0 | The attributes for the `<cgi>` element replaces the IIS 6.0 following metabase properties: **CreateProcessAsUser**, **CreateCGIWithNewConsole**, and **CGITimeout**. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<cgi>` element is not included in the default installation of IIS 7 and later.To use the CGI environment, you must first install the CGI role service. The installation process registers the Common Gateway Interface (CGI) role service in both the `<globalModules>` and `<modules>` element.
@@ -74,6 +77,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
     [![](cgi/_static/image8.png)](cgi/_static/image7.png)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure CGI settings for a site
@@ -101,6 +105,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
     [![](cgi/_static/image12.png)](cgi/_static/image11.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -122,6 +127,7 @@ The following configuration sample specifies that each CGI application creates a
 [!code-xml[Main](cgi/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples specify that each CGI application creates a new console when the application starts, that CGI processes be created in the context of the requesting user, and that the time-out for CGI applications is 20 minutes

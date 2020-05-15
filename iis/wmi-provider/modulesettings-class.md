@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 760f4adf-3e89-4a5d-9648-ca4753f5eb65
 ---
 # ModuleSettings Class
+
 Represents the type information for a custom [System.Net.IWebProxy](https://go.microsoft.com/fwlink/?LinkId=70961) module.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ModuleSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ModuleSettings` class.  
   
 |Name|Description|  
@@ -23,14 +26,17 @@ class ModuleSettings : EmbeddedObject
 |`Type`|A read/write `string` value that specifies the type and assembly information for the current instance.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Module` property of the [DefaultProxySection](../wmi-provider/defaultproxysection-class.md) class.  
   
  This class specifies a Web proxy that handles requests made with the [System.Net.WebRequest](https://go.microsoft.com/fwlink/?LinkId=70962) and [System.Net.WebClient](https://go.microsoft.com/fwlink/?LinkId=70963) classes.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ModuleSettings`  
@@ -45,6 +51,7 @@ class ModuleSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [System.Net.IWebProxy Interface](https://go.microsoft.com/fwlink/?LinkId=70961)   

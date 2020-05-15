@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 378902f7-413f-d68f-7245-dc9476bf27bd
 ---
 # IAppHostProperty::Clear Method
+
 Removes the current property from the XML persisted by the configuration system.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ HRESULT Clear(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,4 +36,5 @@ HRESULT Clear(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

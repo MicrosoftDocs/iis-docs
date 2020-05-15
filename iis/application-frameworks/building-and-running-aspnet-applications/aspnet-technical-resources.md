@@ -8,6 +8,7 @@ msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applica
 msc.type: authoredcontent
 ---
 # ASP.NET Technical Resources
+
 by [Mai-lan Tomsen Bukovec](https://twitter.com/mailant)
 
 ASP.NET is a free powerful framework for building dynamic Web applications, whether it's a small, personal Web site or a large, enterprise class Web application. ASP.NET is adaptable to a wide variety of projects and development styles. ASP.NET is part of the .NET Framework, and when coding ASP.NET applications developers have access to the entire .NET Framework. This article provides a summary of where you can go to get started learning about developing ASP.NET applications.

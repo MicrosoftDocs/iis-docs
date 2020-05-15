@@ -10,6 +10,7 @@ msc.type: config
 # Handlers &lt;handlers&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<handlers>` element defines the handlers registered for a specific file name extension or URL.
@@ -19,6 +20,7 @@ Handlers are Internet Information Services (IIS) components that are configured 
 Developers can create custom handlers to perform special handling that you can identify using file name extensions in your application. For example, if a developer created a handler that created RSS-formatted XML, you could bind the .rss file name extension in your application to the custom handler. Developers can also create handlers that map to a specific file and can implement these handlers as native modules or as implementations of the ASP.NET **IHttpHandler** interface.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,11 +33,13 @@ Developers can create custom handlers to perform special handling that you can i
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<handlers>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How create a handler mapping for an ASP.NET handler in an IIS 7 application running in Integrated mode
@@ -100,6 +104,7 @@ The `<handlers>` element is included in the default installation of IIS 7.
     ![](index/_static/image9.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<handlers>` element contains a collection of `<add>` elements, each of which defines a handler mapping for the application. The `<add>` element contains the name of the handler, the file name extension or URL path mask that the handler is mapped to, and the module name or ASP.NET HTTP handler type that specifies the handler implementation, among other settings.
@@ -127,6 +132,7 @@ The following example contains two `<add>` elements that define handler mappings
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add a FastCGI mapping for a PHP module, then add a handler on the Contoso Web site that will process PHP requests.

@@ -164,6 +164,7 @@ The following configuration example displays a `<site>` element in the Applicati
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples create a new Web site named Contoso with an ID of 2, and sets a binding for the HTTP protocol over port 80 with a host header of &quot;www.contoso.com&quot;. The physical path for the new Web site is C:\Inetpub\www.contoso.com\wwwroot.

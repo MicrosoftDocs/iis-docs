@@ -10,11 +10,13 @@ msc.type: config
 # WebDAV Locks &lt;locks&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<locks>` element of the `<authoring>` element defines the locking behavior for the WebDAV module. More specifically, the `<locks>` element contains attributes that define whether WebDAV locking is enabled, which lock store to use, and whether locking is required before clients can save changes to files for a server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<locks>` element of the `<authoring>` element defines the locking behavior 
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -86,6 +89,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure WebDAV locking for a Web site
@@ -119,6 +123,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 6. Once you have completed the steps, click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<locks>` element is configurable only at the site level in the ApplicationHost.config file. Any `<locks>` elements at other levels or in Web.config files are ignored.
@@ -142,6 +147,7 @@ The following example lists a sample `<webdav>` element for the Default Web Site
 [!code-xml[Main](locks/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable WebDAV locks for the Default Web Site by using the simple lock provider, and configure the site so that locks are not required for WebDAV authoring.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fbe43040-c8ab-f991-c09c-49362d321c67
 ---
 # CGlobalModule Class
+
 Defines the base class for global-level HTTP modules.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class CGlobalModule
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `CGlobalModule` class.  
   
 |Name|Description|  
@@ -35,12 +37,15 @@ class CGlobalModule
 |[Terminate](../../web-development-reference/native-code-api-reference/cglobalmodule-terminate-method.md)|Represents the method that IIS calls when a global module has completed processing.|  
   
 ## Derived Classes  
+
  This class contains no derived classes.  
   
 ## Remarks  
+
  The `CGlobalModule` class is the base class for global-level HTTP modules. Global-level HTTP modules must contain a class that inherits from `CGlobalModule`. `CGlobalModule` defines the methods that [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] calls to handle global-level notifications when global-level events occur. An HTTP module can register for specific events by defining a list of notifications in a module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. When a global-level module has finished processing, the module should use the [CGlobalModule::Terminate](../../web-development-reference/native-code-api-reference/cglobalmodule-terminate-method.md) method to remove `CGlobalModule` instances from memory.  
   
 ## Example  
+
  The following code example demonstrates how to create a simple "Hello World" global-level HTTP module. The module defines an exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function that creates an instance of a class that is derived from `CGlobalModule`. If the class cannot be created, the function exits with an error code; otherwise, the function calls the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method to register for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
  When a `GL_PRE_BEGIN_REQUEST` notification occurs, IIS calls the module's [CGlobalModule::OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) method to process the notification. The method calls a private method to write an event to the application log of the Event Viewer, and then it returns [GL_NOTIFICATION_CONTINUE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) to notify IIS to continue processing other notifications. When processing is complete, IIS calls the module's [CGlobalModule::Terminate](../../web-development-reference/native-code-api-reference/cglobalmodule-terminate-method.md) method to remove the class from memory.  
@@ -61,6 +66,7 @@ class CGlobalModule
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Classes](../../web-development-reference/native-code-api-reference/web-server-core-classes.md)   
  [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

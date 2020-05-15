@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b3763115-f15c-2435-ed9e-6152229a696a
 ---
 # IWpfReferencedObject::AddRef Method
+
 Increments the reference count for the [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md) interface.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual ULONG AddRef(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `ULONG` that contains the updated reference count.  
   
 ## Requirements  
@@ -31,5 +34,6 @@ virtual ULONG AddRef(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfReferencedObject Interface](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)   
  [IWpfReferencedObject::Release Method](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)

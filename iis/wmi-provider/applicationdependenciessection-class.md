@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cccbd894-2b4f-607b-ed38-c9134158cc90
 ---
 # ApplicationDependenciesSection Class1
+
 Exposes application dependency information.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ApplicationDependenciesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ApplicationDependenciesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ApplicationDependenciesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationDependenciesSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class ApplicationDependenciesSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,5 +62,6 @@ class ApplicationDependenciesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ApplicationDependency Class](../wmi-provider/applicationdependency-class.md)

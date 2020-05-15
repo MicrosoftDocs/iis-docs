@@ -10,6 +10,7 @@ msc.type: config
 # Adding Hidden Segments &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<hiddenSegments>` collection specifies a unique URL segment to add to the collection of hidden segments for Internet Information Services (IIS) 7.
@@ -24,6 +25,7 @@ The `<add>` element of the `<hiddenSegments>` collection specifies a unique URL 
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,6 +38,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 6.0 | The `<hiddenSegments>` element replaces the IIS 6.0 UrlScan **[DenyUrlSequences]** features. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -79,6 +82,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for request filtering. To install the Microsoft Administration Pack for IIS 7.0, please see the following URL:
@@ -112,6 +116,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](add/_static/image14.png)](add/_static/image13.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -131,6 +136,7 @@ The following example Web.config file will configure two options: it will config
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will configure two options: they will configure IIS to deny access to requests for the &quot;\_private&quot; folder in the &quot;Default Web Site&quot;, and they will configure request filtering to allow WebDAV access to hidden segments.

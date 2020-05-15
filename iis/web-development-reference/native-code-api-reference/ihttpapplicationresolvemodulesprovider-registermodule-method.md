@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 32674f32-24a8-a8cf-57f6-2c942ed29b26
 ---
 # IHttpApplicationResolveModulesProvider::RegisterModule Method
+
 Registers an HTTP module.  
   
 ## Syntax  
@@ -21,6 +22,7 @@ virtual HRESULT RegisterModule(
 ```  
   
 ### Parameters  
+
  `parentModuleId`  
  [IN] The unique identifier for the parent module.  
   
@@ -43,6 +45,7 @@ virtual HRESULT RegisterModule(
  [IN] A bitmask value that contains the post-request notifications to set for the module. (Defined in [Httpserv.h](../../web-development-reference/native-code-api-reference/request-processing-constants.md).)  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -53,6 +56,7 @@ virtual HRESULT RegisterModule(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  Use the `RegisterModule` method inside a [CGlobalModule::OnGlobalApplicationResolveModules](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationresolvemodules-method.md) method to register additional modules that are not listed in the IIS configuration.  
   
 > [!NOTE]
@@ -68,4 +72,5 @@ virtual HRESULT RegisterModule(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)

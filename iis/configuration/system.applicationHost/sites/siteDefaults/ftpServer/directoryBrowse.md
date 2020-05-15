@@ -10,11 +10,13 @@ msc.type: config
 # Default FTP Directory Browse Settings &lt;directoryBrowse&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<directoryBrowse>` element is used to specify the content settings for directory browsing on FTP sites. When you configure directory browsing options, all directories in an FTP site will use the same settings. The directory browsing settings will typically only affect command-line FTP clients, but may impact some graphical FTP clients. For example, a graphical FTP client might not work with the MS-DOS style of directory listings, in which case you would need to configure the UNIX directory listing style.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<directoryBrowse>` element is used to specify the content settings for dire
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -101,6 +104,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure FTP directory browsing
@@ -133,6 +137,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -153,6 +158,7 @@ The following configuration sample displays an example `<siteDefaults>` element 
 [!code-xml[Main](directoryBrowse/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure the FTP site defaults to display UNIX-style directory listings and the available drive space for directory listings.

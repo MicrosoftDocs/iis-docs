@@ -10,6 +10,7 @@ msc.type: config
 # FTP Connections &lt;connections&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<connections>` element specifies the connection-related settings for FTP sites. More specifically, the settings in the `<connections>` element control the behavior for the FTP service with regard to how to manage clients that are connecting to an FTP site.
@@ -17,6 +18,7 @@ The `<connections>` element specifies the connection-related settings for FTP si
 For example, the `unauthenticatedTimeout`, `controlChannelTimeout`, and `dataChannelTimeout` attributes specify the time-outs for an FTP site. The settings specify, respectively, when the FTP service will disconnect an FTP client that has not successfully logged in or is idle, or when to disconnect an idle data connection. Specifying values for the attributes in the `<connections>` element can directly affect the overall performance of your server by helping to police the number of active client sessions for your FTP sites.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,6 +38,7 @@ For example, the `unauthenticatedTimeout`, `controlChannelTimeout`, and `dataCha
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -103,6 +106,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the control and data channel time-outs for an FTP site
@@ -128,6 +132,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. In the **Advanced Settings** dialog box, expand **Connections**, specify your time-outs in the **Control Channel Timeout** and **Data Channel Timeout** fields, and then click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<connections>` element is configured at the site level.
@@ -157,6 +162,7 @@ The following sample displays a `<connections>` element for an FTP site that def
 [!code-xml[Main](connections/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure an FTP site with a control channel time-out of 120 seconds and a data channel time-out of 30 seconds.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fda1440f-9c59-34cf-9f25-d3c632aca2b5
 ---
 # IHttpResponse::SetHeader Method
+
 Sets or appends the value of a specified HTTP response header.  
   
 ## Syntax  
@@ -25,6 +26,7 @@ virtual HRESULT SetHeader(
 ```  
   
 ### Parameters  
+
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the HTTP header to set.  
   
@@ -41,6 +43,7 @@ virtual HRESULT SetHeader(
  [IN] Specifies whether the existing header should be overwritten.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -51,6 +54,7 @@ virtual HRESULT SetHeader(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `SetHeader` method sets the value of an HTTP header for the current response. There are two overloaded versions of the `SetHeader` method. The first enables you to specify the header by using a string that is contained in the `pszHeaderName` parameter. The other overload uses an unsigned long integer that is contained in the `ulHeaderIndex` parameter.  
   
 > [!NOTE]
@@ -72,6 +76,7 @@ virtual HRESULT SetHeader(
 > Other modules or handlers may call the `SetHeader` method to replace your value or append values to the value that you have specified.  
   
 ## Example  
+
  The following code example demonstrates how to use both overloads of the `SetHeader` method to replace the HTTP `Content-Type` and `Server` headers with custom values and set the HTTP `Refresh` header to a specific number of seconds.  
   
  [!code-cpp[IHttpResponseSetHeader#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseSetHeader/cpp/IHttpResponseSetHeader.cpp#1)]  
@@ -90,6 +95,7 @@ virtual HRESULT SetHeader(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::DeleteHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-deleteheader-method.md)   
  [IHttpResponse::GetHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getheader-method.md)

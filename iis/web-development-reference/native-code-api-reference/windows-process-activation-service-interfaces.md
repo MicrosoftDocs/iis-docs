@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2b3c04a0-2315-4896-b6ab-cb5e031e941d
 ---
 # Windows Process Activation Service Interfaces
+
 This section describes the interfaces that enable process activation and monitoring of applications, listener channels, and listener adaptors.  
   
 ## In This Section  
@@ -20,4 +21,5 @@ This section describes the interfaces that enable process activation and monitor
 |[IProcessPingCallback](../../web-development-reference/native-code-api-reference/iprocesspingcallback-interface.md)|Provides functionality to respond to a ping request.|  
   
 ## See Also  
+
  [Windows Process Activation Service API Reference](../../web-development-reference/native-code-api-reference/windows-process-activation-service-api-reference.md)

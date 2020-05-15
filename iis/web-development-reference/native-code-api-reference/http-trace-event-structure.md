@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e72fafd-2422-eb83-1e1f-4359f65ff06e
 ---
 # HTTP_TRACE_EVENT Structure
+
 Contains tracing information returned from trace providers.  
   
 ## Syntax  
@@ -45,6 +46,7 @@ struct HTTP_TRACE_EVENT{
 |`pEventItems`|An array of [HTTP_TRACE_EVENT_ITEM Structure](../../web-development-reference/native-code-api-reference/http-trace-event-item-structure.md) structures of length `cEventItems`.|  
   
 ## Remarks  
+
  Most of the members of the `HTTP_TRACE_EVENT` structure map directly to Event Tracing for Windows (ETW) events. The `dwArea` and `pAreaGuid` members are unique to IIS.  
   
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an `HTTP_TRACE_EVENT` pointer by calling the [IGlobalTraceEventProvider::GetTraceEvent](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-gettraceevent-method.md) method, for which you supply a pointer to the address of a NULL `HTTP_TRACE_EVENT` structure.  
@@ -54,6 +56,7 @@ struct HTTP_TRACE_EVENT{
  The `dwArea` and `pAreaGuid` members contain two different constants for the area of interest for an event.  
   
 ## Example  
+
  The following example populates the `HTTP_TRACE_EVENT` structure and calls the [IHttpTraceContext::RaiseTraceEvent](../../web-development-reference/native-code-api-reference/ihttptracecontext-raisetraceevent-method.md) method.  
   
  [!code-cpp[_RaiseEvnt#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_RaiseEvnt/cpp/IHttpResponseWriteEntityChunkByReference.cpp#2)]  
@@ -105,4 +108,5 @@ struct HTTP_TRACE_EVENT{
 |Header|Httptrace.h|  
   
 ## See Also  
+
  [Web Server Core Structures](../../web-development-reference/native-code-api-reference/web-server-core-structures.md)

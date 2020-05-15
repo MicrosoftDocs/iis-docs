@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 13bdf371-111b-52bb-bc72-e633142210e3
 ---
 # IHttpFileInfo::GetSize Method
+
 Retrieves the size of the corresponding file for an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual VOID GetSize(
 ```  
   
 ### Parameters  
+
  `pliSize`  
  [OUT] A pointer to a [ULARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=56061) structure.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `GetSize` method retrieves a structure that contains the size of the file that is currently referenced by the `IHttpFileInfo` interface.  
   
 > [!NOTE]
 >  `ULARGE_INTEGER` is a structure that is declared in the Winnt.h file, and it consists of two `DWORD` values named `LowPart` and `HighPart`. These values are, respectively, the low-order and high-order sections of the actual file size. For example, a file size that is less than 4 GB will have the full file size in the `LowPart` value and a 0 in the `HighPart` value.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then calls the `GetSize` method to retrieve a pointer to a `ULARGE_INTEGER` structure. Finally, the example converts the `LowPart` value from the `ULARGE_INTEGER` structure to a string and then displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfoGetSize#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfoGetSize/cpp/IHttpFileInfoGetSize.cpp#1)]  
@@ -46,4 +51,5 @@ virtual VOID GetSize(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1786330c-9084-4f84-9761-c042bdef9178
 ---
 # VerbsSettings Class
+
 Exposes configuration settings for HTTP verbs.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class VerbsSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `VerbsSettings` class.  
   
 |Name|Description|  
@@ -25,9 +28,11 @@ class VerbsSettings : EmbeddedObject
 |`Verbs`|A read-only array of [VerbElement](../wmi-provider/verbelement-class.md) values that specifies HTTP verbs to allow or deny.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Verbs` property of the [RequestFilteringSection](../wmi-provider/requestfilteringsection-class.md) class.  
   
  This class corresponds to the `<verbs>` section in the ApplicationHost.config file.  
@@ -36,6 +41,7 @@ class VerbsSettings : EmbeddedObject
 >  You must install the Request Filtering Module (Modrqflt.dll) for the settings in this class to take effect.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `VerbsSettings`  
@@ -50,6 +56,7 @@ class VerbsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
  [VerbElement Class](../wmi-provider/verbelement-class.md)

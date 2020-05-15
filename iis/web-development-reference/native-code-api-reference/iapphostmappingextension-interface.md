@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5ed0d0dd-8dfb-df88-a7a8-c0ec0e805f2c
 ---
 # IAppHostMappingExtension Interface
+
 Extends the configuration system mapping functionality.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostMappingExtension : public IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostMappingExtension` interface.  
   
 |Method|Description|  
@@ -23,12 +25,15 @@ IAppHostMappingExtension : public IUnknown
 |[MapPath](../../web-development-reference/native-code-api-reference/iapphostmappingextension-mappath-method.md)|Maps a site to a physical path, virtual directory, and application path by using the site name and virtual path.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Remarks  
+
  Developers can extend the site-mapping functionality of IIS by implementing this interface to create a custom mapping extension.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostMappingExtension`  
@@ -43,5 +48,6 @@ IAppHostMappingExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

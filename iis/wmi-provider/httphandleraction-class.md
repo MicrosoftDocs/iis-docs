@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: db796fc2-75a0-88d1-9944-4e260581de09
 ---
 # HttpHandlerAction Class
+
 Represents an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] HTTP handler.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpHandlerAction : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpHandlerAction` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class HttpHandlerAction : CollectionElement
 |`Verb`|A read-only `string` value that specifies a comma-delimited list of HTTP verbs (for example, "GET, PUT, POST"). A wildcard ("*") represents all verbs. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HttpHandlers` property of the [HttpHandlersSection](../wmi-provider/httphandlerssection-class.md) class.  
   
  The HTTP handlers represented by the `HttpHandlerAction` class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the `<system.web>` section of the Web.config file. These handlers are contained in the [HttpHandlersSection](../wmi-provider/httphandlerssection-class.md) class.  
@@ -36,6 +41,7 @@ class HttpHandlerAction : CollectionElement
  The HTTP handlers represented by the [HandlerAction](../wmi-provider/handleraction-class.md) class are related to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] and are in the `<system.webServer>` section of the ApplicationHost.config file. These handlers are contained in the [HandlersSection](../wmi-provider/handlerssection-class.md) class.  
   
 ## Example  
+
  The following example displays the `HttpHandlerAction` instances that are contained in the `HttpHandlers` property of the `HttpHandersSection` object.  
   
 ```  
@@ -60,6 +66,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `HttpHandlerAction`  
@@ -74,6 +81,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HandlerAction Class](../wmi-provider/handleraction-class.md)   
  [HandlersSection Class](../wmi-provider/handlerssection-class.md)   

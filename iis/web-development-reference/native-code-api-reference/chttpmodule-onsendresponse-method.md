@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 972128f3-0603-da95-814b-3befc92d1764
 ---
 # CHttpModule::OnSendResponse Method
+
 Represents the method that will handle a `SendResponse` event, which occurs when IIS sends the response buffer.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(
  [IN] A pointer to an [ISendResponseProvider](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnSendResponse` method when it sends the response buffer.  
   
 > [!NOTE]
 >  Request-level modules can register for the `SendResponse` event notification by registering for `RQ_SEND_RESPONSE` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_SEND_RESPONSE` event notification. When IIS sends the response buffer, it will call the example module's `OnSendResponse` method. The method will write an entry in the Application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleSendResponse#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleSendResponse/cpp/CHttpModuleSendResponse.cpp#1)]  
@@ -50,4 +55,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

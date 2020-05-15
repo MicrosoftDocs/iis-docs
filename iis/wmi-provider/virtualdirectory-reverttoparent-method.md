@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4cae86e8-cbbf-4e0b-a0aa-f32d32412e25
 ---
 # VirtualDirectory.RevertToParent Method2
+
 Reverts a virtual directory's configuration value or values to the default.  
   
 ## Syntax  
@@ -23,12 +24,15 @@ VirtualDirectory.RevertToParent(PropertyName);
 |`PropertyName`|An optional `string` value that contains the name of a virtual directory property to revert to the default specified by the [VirtualDirectoryElementDefaults](../wmi-provider/virtualdirectoryelementdefaults-class.md) class that is exposed as the `VirtualDirectoryDefaults` property on the [Application](../wmi-provider/application-class.md) class.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  When you call the `RevertToParent` method without parameters, all custom configuration values for the virtual directory will be removed. If this is not the behavior you want, revert specific properties by using parameterized calls to the method.  
   
 ## Example  
+
  The following example reverts the `AllowSubDirConfig` property of the `MyVDir` virtual directory from its current value of `false` to its default value of `true`.  
   
 ```  
@@ -82,6 +86,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)   
  [VirtualDirectoryElementDefaults Class](../wmi-provider/virtualdirectoryelementdefaults-class.md)

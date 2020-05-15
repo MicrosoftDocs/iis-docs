@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2cdc07d4-1786-31ca-28fa-7b57db3c5f8f
 ---
 # IHttpCacheSpecificData Interface
+
 Provides information and access methods for data that is stored in a global cache.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpCacheSpecificData
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpCacheSpecificData` interface.  
   
 |Name|Description|  
@@ -33,9 +35,11 @@ class IHttpCacheSpecificData
 |[IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)|Extends the `IHttpCacheSpecificData` interface by adding token-specific information for tokens that are cached on a server.|  
   
 ## Remarks  
+
  You can retrieve an `IHttpCacheSpecificData` pointer from an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer by calling the [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheSpecificData` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -115,6 +119,7 @@ class IHttpCacheSpecificData
  You can optionally compile the code by using the __`stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  `IHttpCacheSpecificData`  
   
  [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)  
@@ -131,6 +136,7 @@ class IHttpCacheSpecificData
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)   
  [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 21c0150e-9250-3276-9220-7adca4453bc0
 ---
 # IWpfListenerChannelCallback Interface
+
 Provides notifications from protocol managers to the worker process framework regarding listener channel status changes.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWpfListenerChannelCallback : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWpfListenerChannelCallback` interface.  
   
 |Name|Description|  
@@ -26,9 +28,11 @@ class IWpfListenerChannelCallback : public IWpfReferencedObject
 |[ReportStopped](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-reportstopped-method.md)|Notifies the worker process framework that a listener channel has shut down.|  
   
 ## Remarks  
+
  The `IWpfListenerChannelCallback` interface provides notifications to the worker process framework regarding listener channel status changes. For example, when a protocol manager starts a listener channel, one of the parameters passed to the [IPmListenerChannelManager::StartListenerChannel](../../web-development-reference/native-code-api-reference/ipmlistenerchannelmanager-startlistenerchannel-method.md) method is a pointer to an `IWpfListenerChannelCallback` interface. The protocol manager will use the [IWpfListenerChannelCallback::ReportStarted](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-reportstarted-method.md) method to report when the listener channel has started.  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IWpfListenerChannelCallback`  
@@ -43,6 +47,7 @@ class IWpfListenerChannelCallback : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

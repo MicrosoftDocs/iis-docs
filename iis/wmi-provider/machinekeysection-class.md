@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6811603d-8bc9-590e-9bd3-4356b1d5190b
 ---
 # MachineKeySection Class
+
 Defines the configuration settings that control the key generation and algorithms that are used in encryption, decryption, and media access control (MAC) operations in Forms authentication, view-state validation, and session-state application isolation.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class MachineKeySection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `MachineKeySection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class MachineKeySection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `MachineKeySection` class.  
   
 |Name|Description|  
@@ -37,6 +40,7 @@ class MachineKeySection : ConfigurationSection
 |`ValidationKey`|A read/write trimmed `string` value that either specifies the process by which the key is generated or contains text that is used to validate encrypted data. The default is "AutoGenerate,IsolateApps". **Note:**  When the `EnableViewStateMAC` property of the [PagesSection](../wmi-provider/pagessection-class.md) class is `true`, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] uses the `ValidationKey` property to create a message authentication code to ensure that view state has not been tampered with. The validation key is also used to generate out-of-process, application-specific session IDs to ensure that session-state variables are isolated between applications. Use the "AutoGenerate" string to specify that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] generates a random key and stores it in the Local Security Authority. "The AutoGenerate" string is part of the default value. If you add the "IsolateApps" modifier to the `ValidationKey` value, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] generates a unique encrypted key for each application by using its application ID. "IsolateApps" is also part of the default value. If you need to support configuration across a network of Web servers (a Web farm), set the `ValidationKey` property manually to ensure consistent configuration.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
@@ -62,6 +66,7 @@ class MachineKeySection : ConfigurationSection
 |3|`AES`|[!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] uses AES (Advanced Encryption Standard) encryption.|  
   
 ## Example  
+
  The following example displays the `MachineKeySection` settings for the default Web site.  
   
 ```  
@@ -109,6 +114,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `MachineKeySection`  
@@ -123,6 +129,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.MachineKeyValidation](/dotnet/api/system.web.configuration.machinekeysection.validation)
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)

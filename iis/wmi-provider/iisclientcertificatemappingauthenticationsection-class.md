@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ab36fc78-170a-754c-8128-86e05a251fac
 ---
 # IisClientCertificateMappingAuthenticationSection Class
+
 Configures mapping for IIS client certificates.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IisClientCertificateMappingAuthenticationSection : ConfigurationSectionWit
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IisClientCertificateMappingAuthenticationSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class IisClientCertificateMappingAuthenticationSection : ConfigurationSectionWit
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IisClientCertificateMappingAuthenticationSection` class.  
   
 |Name|Description|  
@@ -44,9 +47,11 @@ class IisClientCertificateMappingAuthenticationSection : ConfigurationSectionWit
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `LogonMethod` property. The default is 3 (`ClearText`).  
   
 |Value|Keyword|Description|  
@@ -57,6 +62,7 @@ class IisClientCertificateMappingAuthenticationSection : ConfigurationSectionWit
 |3|`ClearText`|This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -73,6 +79,7 @@ class IisClientCertificateMappingAuthenticationSection : ConfigurationSectionWit
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 238fa073-667c-41bd-9f25-68407b2b1f10
 ---
 # IHttpResponse2::Flush Method
+
 Sends all currently buffered output of an asynchronous operation to the client.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ Virtual HRESULT Flush(
 ```  
   
 ### Parameters  
+
  `fAsynch`  
  [IN] `true` to complete the operation asynchronously; otherwise, `false`.  
   
@@ -39,6 +41,7 @@ Virtual HRESULT Flush(
  [OUT] `true` if an asynchronous completion is pending for this call; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -55,4 +58,5 @@ Virtual HRESULT Flush(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse2 Interface](../../web-development-reference/native-code-api-reference/ihttpresponse2-interface.md)

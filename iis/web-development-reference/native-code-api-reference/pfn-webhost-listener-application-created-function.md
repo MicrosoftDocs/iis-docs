@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: feca9299-f97b-e8e8-e296-9a98b2ab6eed
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_CREATED Function
+
 Notifies the listener adapter that an application configured for the listener associated with this listener adapter has been created. The listener adapter can choose whether to configure this application with the listener.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_CREATED)(
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -47,9 +49,11 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_CREATED)(
  [IN] `true` to notify the listener adapter to listen on this application but not process requests on an unsupported protocol; `false` to send requests to parent applications when the child does not support the protocol.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  You should save the `AppKey` parameter with the application so it can be passed to the process protocol handler. The process protocol handler will inform the protocol manager to launch the application domain specified in `AppKey.`  
   
  `PBYTE` is declared in the WinDef.h header file.  
@@ -66,5 +70,6 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_CREATED)(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

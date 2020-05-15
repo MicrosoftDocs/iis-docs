@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f6a67d77-c255-4c59-9f05-a65552534dee
 ---
 # IHttpConnectionStoredContext Interface
+
 Defines context information for connection-stored data.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IHttpConnectionStoredContext : public IHttpStoredContext
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpConnectionStoredContext` interface.  
   
 |Name|Description|  
@@ -20,9 +22,11 @@ IHttpConnectionStoredContext : public IHttpStoredContext
 |[NotifyDisconnect](../../web-development-reference/native-code-api-reference/ihttpconnectionstoredcontext-notifydisconnect.md)|Notifies the caller that an established connection was disconnected.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md)  
   
 ## Requirements  

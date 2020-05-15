@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5b3a9ff2-af4f-22e3-6be4-147cb195239e
 ---
 # WPF_SETTINGS_ULONGLONG_ENUM Enumeration
+
 Defines the `ULONGLONG` values that the [IWpfSettings::GetUlonglongProperty](../../web-development-reference/native-code-api-reference/iwpfsettings-getulonglongproperty-method.md) method returns.  
   
 ## Syntax  
@@ -32,6 +33,7 @@ enum WPF_SETTINGS_ULONGLONG_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Enumerations](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
  [IWpfSettings::GetUlonglongProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getulonglongproperty-method.md)   
  [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-bool-enum-enumeration.md)   

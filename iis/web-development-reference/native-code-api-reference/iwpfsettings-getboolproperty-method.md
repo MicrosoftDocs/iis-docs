@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0a0bdc07-acc3-f280-0cc4-efa54a76dfea
 ---
 # IWpfSettings::GetBoolProperty Method
+
 Retrieves a `BOOL` value from the worker process or application pool settings.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetBoolProperty(
 ```  
   
 ### Parameters  
+
  `SettingId`  
  [IN] A [WPF_SETTINGS_BOOL_ENUM](../../web-development-reference/native-code-api-reference/wpf-settings-bool-enum-enumeration.md) value that specifies which `BOOL` value to return.  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetBoolProperty(
  [OUT] A pointer to a `BOOL` buffer that receives the value specified by `SettingId`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT GetBoolProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)   
  [IWpfSettings::GetDwordProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md)   
  [IWpfSettings::GetHandleProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   

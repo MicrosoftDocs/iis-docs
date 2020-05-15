@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9766fd4f-cb67-bac2-a6e4-41b269d42353
 ---
 # CHttpModule::OnPostAuthenticateRequest Method
+
 Represents the method that will handle an `AuthenticateRequest` post-event, which occurs after IIS has established the identity of a user.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostAuthenticateRequest(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostAuthenticateRequest(
  [IN] A pointer to an [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_AUTHENTICATE_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) post-event notification, IIS will call the module's `OnPostAuthenticateRequest` method after IIS has established the identity of a user.  
   
 > [!NOTE]
 >  Request-level modules can register for the `AuthenticateRequest` post-event notification by registering for `RQ_AUTHENTICATE_REQUEST` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_AUTHENTICATE_REQUEST` event and post-event notifications. When IIS establishes the identity of a user, it will call the example module's [OnAuthenticateRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onauthenticaterequest-method.md) and `OnPostAuthenticateRequest` methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleAuthenticateRequest#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleAuthenticateRequest/cpp/CHttpModuleAuthenticateRequest.cpp#1)]  
@@ -50,5 +55,6 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostAuthenticateRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnAuthenticateRequest Method](../../web-development-reference/native-code-api-reference/chttpmodule-onauthenticaterequest-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 31afe7e7-b508-326a-3770-485b4429c29f
 ---
 # IWpfListenerChannelCallback::GetBlob Method
+
 Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting a listener channel.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetBlob(
 ```  
   
 ### Parameters  
+
  `pBlob`  
  A pointer to a `BYTE` buffer that contains data that will be passed to the listener channel.  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetBlob(
  A pointer to a `DWORD` that contains the size of the data pointed to by `pBlob`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,6 +42,7 @@ virtual HRESULT GetBlob(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-interface.md)   
  [IWpfListenerChannelCallback::GetId Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getid-method.md)   
  [IWpfListenerChannelCallback::ReportMessageReceived Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-reportmessagereceived-method.md)   

@@ -5,6 +5,7 @@ ms.assetid: 36671ffa-4c66-40dc-a1c5-6ecd5309e191
 ms.author: "robmcm"
 ---
 # IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method
+
 Returns the physical path of the home directory for a user.  
   
 ## Syntax  
@@ -29,6 +30,7 @@ HRESULT GetUserHomeDirectoryData(
 |`ppszHomeDirectoryData`|[OUT] A pointer to a string that will contain the physical path for the user.|  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |||  
@@ -37,6 +39,7 @@ HRESULT GetUserHomeDirectoryData(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example illustrates how to use the `IFtpHomeDirectoryProvider` interface to create a custom home directory module for the FTP service that returns a specific home directory.  
   
 ```  
@@ -95,4 +98,5 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [IFtpHomeDirectoryProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftphomedirectoryprovider-interface-native.md)

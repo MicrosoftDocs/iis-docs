@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 86f78e95-288b-4fd5-979c-33a4a0e891e9
 ---
 # IAppHostMethod Interface
+
 Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostMethod : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostMethod` interface.  
   
 |Method|Description|  
@@ -20,6 +22,7 @@ interface IAppHostMethod : IUnknown
 |[IAppHostMethod::CreateInstance Method](../../web-development-reference/native-code-api-reference/iapphostmethod-createinstance-method.md)|Creates an executable  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md) object from the current method.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostMethod` interface.  
   
 |Property|Description|  
@@ -28,9 +31,11 @@ interface IAppHostMethod : IUnknown
 |[IAppHostMethod::Schema Property](../../web-development-reference/native-code-api-reference/iapphostmethod-schema-property.md)|Gets the schema assigned to the current method.|  
   
 ## Remarks  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) objects provide a means for an administration system to support custom-defined methods that can be executed against a specific [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object. The methods are executed on the server side and the implementation of these custom methods is not exposed to the client.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostMethod`  
@@ -45,6 +50,7 @@ interface IAppHostMethod : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)   

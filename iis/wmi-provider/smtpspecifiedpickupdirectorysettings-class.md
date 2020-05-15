@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4be464d2-6877-d695-3cd0-3734170ff0c6
 ---
 # SmtpSpecifiedPickupDirectorySettings Class
+
 Configures a Simple Mail Transfer Protocol (SMTP) pickup directory.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SmtpSpecifiedPickupDirectorySettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SmtpSpecifiedPickupDirectorySettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SmtpSpecifiedPickupDirectorySettings : EmbeddedObject
 |`PickupDirectoryLocation`|A read/write `string` value that specifies the folder where applications save mail messages to be processed by the SMTP server.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SpecifiedPickupDirectory` property of the [SmtpMailSettingsSection](../wmi-provider/smtpmailsettingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SmtpSpecifiedPickupDirectorySettings`  
@@ -43,6 +49,7 @@ class SmtpSpecifiedPickupDirectorySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SmtpMailSettingsSection Class](../wmi-provider/smtpmailsettingssection-class.md)   
  [SmtpNetworkSettings Class](../wmi-provider/smtpnetworksettings-class.md)

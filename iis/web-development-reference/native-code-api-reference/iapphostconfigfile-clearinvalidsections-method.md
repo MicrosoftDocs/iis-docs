@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 48ec1fd6-938f-39e8-d624-eb3c73972730
 ---
 # IAppHostConfigFile::ClearInvalidSections Method
+
 Removes invalid configuration sections from a configuration file.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ HRESULT ClearInvalidSections(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -24,6 +27,7 @@ HRESULT ClearInvalidSections(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  This method is not implemented by the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Requirements  
@@ -36,4 +40,5 @@ HRESULT ClearInvalidSections(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)

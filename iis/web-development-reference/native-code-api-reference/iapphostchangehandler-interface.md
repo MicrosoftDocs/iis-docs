@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e5d96058-2b9b-381e-2bab-51514d730c0a
 ---
 # IAppHostChangeHandler Interface
+
 Provides notifications of changes to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostChangeHandler: IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostChangeHandler` interface.  
   
 |Method|Description|  
@@ -20,9 +22,11 @@ interface IAppHostChangeHandler: IUnknown
 |[OnSectionChanges](../../web-development-reference/native-code-api-reference/iapphostchangehandler-onsectionchanges-method.md)|Notifies listeners when a section has changed in a physical file of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration. All callers must implement the listener.|  
   
 ## Remarks  
+
  This notification occurs when the configuration cache needs to flush a configuration file because the physical file has changed. If the physical file changes but does not exist in the configuration cache, the notification will not occur.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostChangeHandler`  
@@ -37,4 +41,5 @@ interface IAppHostChangeHandler: IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

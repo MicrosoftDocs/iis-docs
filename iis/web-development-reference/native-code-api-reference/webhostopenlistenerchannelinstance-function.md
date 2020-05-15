@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 40420cdc-4133-273e-ddbc-d42ab2046558
 ---
 # WebhostOpenListenerChannelInstance Function
+
 Requests that a listener channel be started in a worker process for this application pool.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ HRESULT WebhostOpenListenerChannelInstance(
 ```  
   
 ### Parameters  
+
  `ProtocolHandle`  
  [IN] A `DWORD` that contains the protocol handle for the listener channel.  
   
@@ -35,6 +37,7 @@ HRESULT WebhostOpenListenerChannelInstance(
  [IN] A `DWORD` that contains the number of bytes in the listener channel BLOB.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -45,6 +48,7 @@ HRESULT WebhostOpenListenerChannelInstance(
 |HRESULT_FROM_WIN32(ERROR_PIPE_NOT_CONNECTED)|Indicates that the listener adapter is not connected to the Windows Process Activation Service.|  
   
 ## Remarks  
+
  The function is called when the listener channel receives its first request, or when the Windows Process Activation Service notifies the listener adapter that it can start another instance of the listener channel.  
   
  The `ListenerChannelBlob` parameter is passed to the Windows Process Activation Service, the worker process, and the protocol manager. If the listener adapter is routing requests per application, the BLOB will probably contain the application key that the process protocol handler will need to pass to the protocol manager. The protocol manager needs the application key for the application domain protocol handler to be connected. The details of the BLOB are left to the protocol writer.  
@@ -65,4 +69,5 @@ HRESULT WebhostOpenListenerChannelInstance(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)

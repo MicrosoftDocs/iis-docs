@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 597facb0-2ee7-30f0-cc86-e53a89e761cb
 ---
 # PerformanceCountersSettings Class
+
 Determines whether performance counters are enabled.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class PerformanceCountersSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `PerformanceCountersSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class PerformanceCountersSettings : EmbeddedObject
 |`Enabled`|A read/write `boolean` value. `true` if performance counters are enabled; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `PerformanceCounters` property of the [SettingsSection](../wmi-provider/settingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `PerformanceCountersSettings`  
@@ -43,6 +49,7 @@ class PerformanceCountersSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [PerformanceCounterSettings Class](../wmi-provider/performancecountersettings-class.md)   
  [SettingsSection Class](../wmi-provider/settingssection-class.md)

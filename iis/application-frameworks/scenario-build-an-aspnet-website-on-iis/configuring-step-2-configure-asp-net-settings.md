@@ -12,6 +12,7 @@ msc.type: authoredcontent
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 <a id="21"></a>
+
 ## 2.1. Session State Settings
 
 In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you decided to use one of the following session-state-storage options:
@@ -30,6 +31,7 @@ The following sections describe how to configure session state based on the plan
 - [Cookie Mode for Session State](#214)
 
 <a id="211"></a>
+
 ### Store Session State in Process
 
  This section describes how to configure in-process session state by using either the IIS Manager UI or the command line.
@@ -64,6 +66,7 @@ To specify the default time that a session object is maintained after the last r
 The variable `timeSpan` represents the maximum time (hh:mm:ss) that a session object is maintained after the last request associated with the object is made. The default value is 00:20:00.
 
 <a id="212"></a>
+
 ### Store Session State by using State Server
 
 This section describes how to configure a state server for session-state storage by using either the IIS Manager UI or the command line.
@@ -98,6 +101,7 @@ The variable `mode:StateServer` sets the session state mode to store session dat
 > When you use Appcmd.exe to configure the `<sessionState>` element at the global level in IIS 8, specify `/commit:WEBROOT` in the command so that configuration changes are made to the root Web.config file instead of ApplicationHost.config.
 
 <a id="213"></a>
+
 ### Store Session State by using SQL Server
 
 This section describes how to configure a SQL Server database for session-state storage using either the IIS Manager UI or the command line.
@@ -135,6 +139,7 @@ The variable `mode:SqlServer` sets the session state mode to store session data 
 > When you use Appcmd.exe to configure the `<sessionState>` element at the global level in IIS 8, specify `/commit:WEBROOT` in the command so that configuration changes are made to the root Web.config file instead of ApplicationHost.config.
 
 <a id="214"></a>
+
 ### Cookie Mode for Session State
 
 This section describes how to configure a SQL Server database for session-state storage by using either the IIS Manager UI or the command line.
@@ -196,6 +201,7 @@ The variable `cookieless:UseUri` configures IIS 8 to use URI cookie mode for ses
 > When you use Appcmd.exe to configure the `<sessionState>` element at the global level in IIS 8, specify `/commit:WEBROOT` in the command so that configuration changes are made to the root Web.config file instead of ApplicationHost.config.
 
 <a id="22"></a>
+
 ## 2.2. Pages and Controls Settings
 
 This section describes how to configure ASP.NET pages and control settings by using either the IIS Manager UI or the command line.
@@ -260,6 +266,7 @@ For example, to add a custom control that uses the specified source for a user c
 > When you use Appcmd.exe to configure the `<controls>` element at the global level in IIS 8, specify `/commit:WEBROOT` in the command so that configuration changes are made to the root Web.config file instead of ApplicationHost.config.
 
 <a id="23"></a>
+
 ## 2.3. Application Settings
 
 This section describes how to configure application settings by using either the IIS Manager UI or the command line.
@@ -288,6 +295,7 @@ The variable `key=string` is the name of the application setting and the variabl
 `appcmd set config /commit:MACHINE /section:appSettings /+"[key='Application Name', value='MyApplication']"`
 
 <a id="24"></a>
+
 ## 2.4. .NET Compilation Settings
 
 Edit .NET compilation settings in IIS 8 when you want to control how ASP.NET code is compiled. This section describes how to edit the compilation settings for you ASP.NET application.
@@ -391,6 +399,7 @@ The variable `string` is the directory path.
 > When you use Appcmd.exe to configure the `<compilation>` element at the global level in IIS 8, specify `/commit:WEBROOT` in the command so that configuration changes are made to the root Web.config file instead of ApplicationHost.config.
 
 <a id="25"></a>
+
 ## 2.5. .NET Globalization Settings
 
 This section describes how to edit the globalization settings for you ASP.NET application by using either the IIS Manager UI or the command line.

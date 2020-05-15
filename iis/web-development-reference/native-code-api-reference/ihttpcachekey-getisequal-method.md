@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ac83971b-5092-42c7-d20f-dba89ab5dcad
 ---
 # IHttpCacheKey::GetIsEqual Method
+
 Returns a value that indicates whether two [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) pointers are equivalent.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual bool GetIsEqual(
 ```  
   
 ### Parameters  
+
  `pCacheCompareKey`  
  A non-NULL `IHttpCacheKey` pointer to compare with the current `IHttpCacheKey`.  
   
 ## Return Value  
+
  `true` if the current `IHttpCacheKey` is equivalent to the `pCacheCompareKey` parameter; otherwise, `false`.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an `IHttpCacheKey` pointer by calling the [ICacheProvider::GetCacheKey](../../web-development-reference/native-code-api-reference/icacheprovider-getcachekey-method.md) method on the `ICacheProvider` pointer. You can then compare two `IHttpCacheKey` pointers by calling the `GetIsEqual` method.  
   
  The `pCacheCompareKey` parameter must not be NULL; otherwise, `GetIsEqual` will throw an access violation. In addition, `pCacheCompareKey` must be the same extended interface type as the current `IHttpCacheKey` pointer. For example, if the current `IHttpCacheKey` pointer implements the [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md) interface, the `pCacheCompareKey` parameter must implement `IFileKey`, as well.  
@@ -35,6 +39,7 @@ virtual bool GetIsEqual(
 - Classes that implement the [IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md) interface return `true` only if the [IUriKey::GetSiteId](../../web-development-reference/native-code-api-reference/iurikey-getsiteid-method.md) and [IUriKey::GetUrl](../../web-development-reference/native-code-api-reference/iurikey-geturl-method.md) methods return equivalent values on both the current `IHttpCacheKey` and `pCacheCompareKey` pointers.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheKey` and the `GetIsEqual` information to the Event Viewer. It also demonstrates that if the same `IHttpCacheKey` pointer is compared against itself, the `GetIsEqual` method will return `true`.  
   
 > [!CAUTION]
@@ -62,4 +67,5 @@ IHttpCacheKey::GetIsEqual: true
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCacheKey Interface](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c0f9b403-0b16-839f-c891-b2268b1d3b10
 ---
 # ClientTargetSection Class
+
 Specifies a collection of mappings between aliases and user agents.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ClientTargetSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ClientTargetSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ClientTargetSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ClientTargetSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class ClientTargetSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,6 +62,7 @@ class ClientTargetSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget)   
  [ClientTarget Class](../wmi-provider/clienttarget-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)

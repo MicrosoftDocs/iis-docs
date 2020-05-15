@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fa8f2ba9-e540-45e9-8d4a-190991cac5cb
 ---
 # IUriKay::GetConfigPath Method
+
 Retrieves the path to the configuration file.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual PCWSTR GetConfigPath(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  A string containing the path to the configuration file.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual PCWSTR GetConfigPath(
 |Header|Httpcach.h|  
   
 ## See Also  
+
  [IUriKey Interface](../../web-development-reference/native-code-api-reference/iurikey-interface.md)

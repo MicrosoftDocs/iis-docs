@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f1d97ad2-cde6-9f28-8bca-9b22d6105d22
 ---
 # IAppDomainInfoEnum::Count Method
+
 Retrieves the number of application domains.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall Count(
 ```  
   
 ### Parameters  
+
  `pdwCount`  
  A pointer to a `DWORD` that contains the number of application domains.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall Count(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)

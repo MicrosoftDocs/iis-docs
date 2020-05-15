@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4e84d8be-b26d-5514-4e4d-09718d9a827d
 ---
 # IScriptMapInfo::GetScriptProcessor Method
+
 Retrieves the script processor for a request handler.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual PCWSTR GetScriptProcessor(
 ```  
   
 ### Parameters  
+
  `pcchScriptProcessor`  
  A pointer to a `DWORD` buffer that receives the length, in characters, of the request handler.  
   
 ## Return Value  
+
  A pointer to a string that contains the path of the script-processing engine.  
   
 ## Remarks  
+
  The `GetScriptProcessor` method retrieves the `scriptProcessor` attribute for a request handler that is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains the full path to the script processor for the request handler, or nothing if the requested resource was not a script.  
   
  For example, if a Web client requests a file with a .txt extension, `GetScriptProcessor` returns nothing by default, because text files are not configured with a script processor. By contrast, if a Web client requests a file with an .asp extension, `GetScriptProcessor` returns the full path to the Asp.dll script engine.  
@@ -30,6 +34,7 @@ virtual PCWSTR GetScriptProcessor(
 >  Do not confuse `GetScriptProcessor` with the [IScriptMapInfo::GetPath](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getpath-method.md) or [IScriptMapInfo::GetName](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getname-method.md) methods, which return the `path` and `name` attributes, respectively, for the request handler.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetScriptProcessor` method to retrieve the full path of the script engine for the request handler that is processing the current request. The module returns the path to a Web client and then exits.  
   
  [!code-cpp[IScriptMapInfoGetScriptProcessor#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IScriptMapInfoGetScriptProcessor/cpp/IScriptMapInfoGetScriptProcessor.cpp#1)]  
@@ -48,4 +53,5 @@ virtual PCWSTR GetScriptProcessor(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

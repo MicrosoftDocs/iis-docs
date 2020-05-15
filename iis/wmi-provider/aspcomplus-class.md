@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8aea95ad-b8a7-6ba0-1155-f1000b176bfd
 ---
 # AspComPlus Class
+
 Exposes properties related to COM+.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AspComPlus : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AspComPlus` class.  
   
 |Name|Description|  
@@ -27,9 +30,11 @@ class AspComPlus : EmbeddedObject
 |`TrackThreadingModel`|A read/write `boolean` value. `true` if IIS honors the threading model of the components that an application creates; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ComPlus` property of the [AspSection](../wmi-provider/aspsection-class.md) class.  
   
  The following table lists the possible values for the `AppServiceFlags` property. The default is 0 (`None`).  
@@ -42,6 +47,7 @@ class AspComPlus : EmbeddedObject
 |4|`UsePartition`|Enables COM+ partitioning, which you can use to isolate applications into their own COM+ partitions. If you set this flag, you must also specify a value for the `PartitionID` property.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `AspComPlus`  
@@ -56,6 +62,7 @@ class AspComPlus : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AspCache Class](../wmi-provider/aspcache-class.md)   
  [AspLimits Class](../wmi-provider/asplimits-class.md)   
  [AspSection Class](../wmi-provider/aspsection-class.md)   

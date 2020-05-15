@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6716632d-e1a9-44a6-bdac-36075d50dadb
 ---
 # IHttpRequest2 Interface
+
 Provides an interface for retrieving the channel binding token (CBT) being used for request validation.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpRequest2 : public IHttpRequest
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpRequest2` interface.  
   
 |Name|Description|  
@@ -26,6 +28,7 @@ class IHttpRequest2 : public IHttpRequest
 |[IHttpRequest3](../../web-development-reference/native-code-api-reference/ihttprequest3-interface.md)|Provides an interface for reading the request results into a buffer.|  
   
 ## Inheritance Hierarchy  
+
  [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)  
   
  `IHttpRequest2`  
@@ -40,4 +43,5 @@ class IHttpRequest2 : public IHttpRequest
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

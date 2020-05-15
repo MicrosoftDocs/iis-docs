@@ -18,6 +18,7 @@ This article guides you through configuring a central certificate store and test
 When you are done with these tasks, record your design decisions before going on to [Step 5: Configure Application Deployment](configuring-step-5-configure-application-deployment.md).
 
 <a id="41"></a>
+
 ## 4.1. Configure a Central Certificate Store
 
 Before attempting to configure a central certificate store, create a shared folder on a dedicated back-end file server. You must provide a UNC path to the shared folder (for example, \\CertServer\Certs).

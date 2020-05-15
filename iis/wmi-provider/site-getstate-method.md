@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c645f4bb-5ba5-9bcd-1edb-b64867b8663a
 ---
 # Site.GetState Method1
+
 Returns the run-time state of a Web site.  
   
 ## Syntax  
@@ -17,9 +18,11 @@ var siteState = objSite.GetState();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `uint32` that identifies the Web site state. The return values are shown in the following table.  
   
 |Return value|Description|  
@@ -31,6 +34,7 @@ var siteState = objSite.GetState();
 |4|Indicates that the Web site state is unknown.|  
   
 ## Example  
+
  The following example gets the state of a Web site and returns it to the user.  
   
 ```  
@@ -73,4 +77,5 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Site Class](../wmi-provider/site-class.md)

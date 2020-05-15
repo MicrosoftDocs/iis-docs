@@ -10,6 +10,7 @@ msc.type: config
 # Digest Authentication &lt;digestAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<digestAuthentication>` element contains configuration settings for the Internet Information Services (IIS) 7 Digest authentication module. You configure this element to enable or disable Digest authentication, and optionally you can specify the Digest authentication realm.
@@ -25,6 +26,7 @@ Digest authentication addresses both of the above limitations by the following m
 > Digest authentication only protects the client's user name and password - the body of the HTTP communication is still in plaintext. To secure the body of your communication, you should use Secure Sockets Layer (SSL).
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,6 +39,7 @@ Digest authentication addresses both of the above limitations by the following m
 | IIS 6.0 | The `<digestAuthentication>` element replaces portions of the IIS 6.0 **AuthType** and **AuthFlags** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the Digest authentication role service. To use Digest authentication on IIS 7 and later, you must install the role service, disable Anonymous authentication for your Web site or application, and then enable Digest authentication for the site or application.
@@ -80,6 +83,7 @@ To install the Digest authentication role service, use the following steps.
     [![](digestAuthentication/_static/image8.png)](digestAuthentication/_static/image7.png)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable Digest authentication and disable Anonymous authentication
@@ -108,6 +112,7 @@ To install the Digest authentication role service, use the following steps.
     [![](digestAuthentication/_static/image12.png)](digestAuthentication/_static/image11.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<digestAuthentication>` element is configurable at the site, application, virtual directory, and URL level. After you install the role service, IIS 7 commits the following configuration settings to the ApplicationHost.config file.
@@ -132,6 +137,7 @@ The following configuration sample enables Digest authentication for a Web site,
 [!code-xml[Main](digestAuthentication/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable Digest authentication for a site.

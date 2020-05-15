@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9b20c485-d919-5e9f-2d81-f8600961e038
 ---
 # WebRequestModulesSection Class
+
 Contains a collection of registered Web request modules.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class WebRequestModulesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `WebRequestModulesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class WebRequestModulesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebRequestModulesSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class WebRequestModulesSection : ConfigurationSectionWithCollection
 |`WebRequestModules`|An array of [WebRequestModuleElement](../wmi-provider/webrequestmoduleelement-class.md) values that represent the Web request modules that are registered in a configuration file.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,4 +62,5 @@ class WebRequestModulesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)

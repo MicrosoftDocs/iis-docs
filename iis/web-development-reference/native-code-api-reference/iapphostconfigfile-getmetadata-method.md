@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7bc68fac-0728-3141-904e-f0c5f833bf3c
 ---
 # IAppHostConfigFile::GetMetadata Method
+
 Gets metadata from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata to return.  
   
@@ -25,6 +27,7 @@ HRESULT GetMetadata(
  A pointer to a `VARIANT` that contains the metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,4 +44,5 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)

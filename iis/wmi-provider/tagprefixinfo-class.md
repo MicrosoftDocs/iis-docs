@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e58fb0c-d2be-0f53-3524-99eedba3567f
 ---
 # TagPrefixInfo Class
+
 Contains configuration information for custom and user controls.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TagPrefixInfo : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TagPrefixInfo` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class TagPrefixInfo : EmbeddedObject
 |`Controls`|An array of [TagPrefixElement](../wmi-provider/tagprefixelement-class.md) values that contain configuration information for custom and user controls.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Controls` array property of the [PagesSection](../wmi-provider/pagessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TagPrefixInfo`  
@@ -43,6 +49,7 @@ class TagPrefixInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   
  [TagPrefixElement Class](../wmi-provider/tagprefixelement-class.md)

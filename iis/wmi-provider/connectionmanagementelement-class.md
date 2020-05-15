@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f06a0303-0aec-1e35-7711-f48e4399a249
 ---
 # ConnectionManagementElement Class
+
 Defines the maximum number of connections to a server or group of servers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ConnectionManagementElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConnectionManagementElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class ConnectionManagementElement : CollectionElement
 |`MaxConnection`|A read/write `sint32` value that specifies the maximum number of connections allowed to a server. The default is 2.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ConnectionManagement` property of the [ConnectionManagementSection](../wmi-provider/connectionmanagementsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ConnectionManagementElement`  
@@ -44,6 +50,7 @@ class ConnectionManagementElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [\<connectionManagement> Element (Network Settings)](https://go.microsoft.com/fwlink/?LinkId=70910)   
  [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/?LinkId=70911)

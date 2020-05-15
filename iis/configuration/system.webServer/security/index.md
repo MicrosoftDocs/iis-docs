@@ -10,6 +10,7 @@ msc.type: config
 # Security &lt;security&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<security>` section group resides in the `<system.webServer>` section and contains all elements that configure security settings on an Internet Information Services (IIS) 7 server. These include Secure Sockets Layer (SSL) settings for a site, applications that are dependent on Common Gateway Interface (CGI) or Internet Server API (ISAPI) binaries, configuration settings for all authentication modules installed on your server, and authorization rule settings. It also includes IP security and request filtering configuration settings and a list of ISAPI and CGI restrictions on the server.
@@ -23,6 +24,7 @@ The settings in the `<security>` section group can be combined for extra securit
 > For enhanced security, neither Windows Vista or Windows Server 2008 installs IIS 7 by default. When you do install IIS 7, IIS is automatically configured to serve only static content, including HTML and image files. You must manually install any other role services and features required by your Web sites and applications. This strategy greatly reduces the IIS 7 attack surface.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -35,11 +37,13 @@ The settings in the `<security>` section group can be combined for extra securit
 | IIS 6.0 | The `<security>` element replaces the IIS 6.0 security metabase properties that related to certificates, authentication, and authorization. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<security>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to disable anonymous authentication
@@ -174,6 +178,7 @@ The `<security>` element is included in the default installation of IIS 7.
     [![](index/_static/image12.png)](index/_static/image11.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 When you configure security settings, the configuration XML must include the `<security>` section group. You can configure security settings at the server level in the ApplicationHost.config file, or at the site level, application level, or directory level in the appropriate Web.config file.
@@ -202,6 +207,7 @@ The following example configures the authentication, SSL, and request filtering 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples disable Anonymous authentication for a site named Contoso, then enable both Basic authentication and Windows authentication for the site.

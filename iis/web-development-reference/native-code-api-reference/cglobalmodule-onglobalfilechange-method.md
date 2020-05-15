@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e7a07497-0000-13b4-34bd-82f9a3cbf266
 ---
 # CGlobalModule::OnGlobalFileChange Method
+
 Represents the method that will handle a `GlobalFileChange` event, which occurs when a file within a Web site is changed.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalFileChange(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IGlobalFileChangeProvider](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_FILE_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalFileChange` method when a file within the scope of a Web site is changed.  
   
 > [!NOTE]
@@ -30,6 +34,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalFileChange(
  IIS creates an [IGlobalFileChangeProvider](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-interface.md) interface and passes the interface to a module's `OnGlobalFileChange` method. Developers can use this interface to retrieve information about the file that was changed.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that uses the [IGlobalFileChangeProvider::GetFileName](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-getfilename-method.md) method to retrieve the path to a file that has been modified. The module then writes the path of the file to a log entry in the Event Viewer.  
   
  [!code-cpp[IGlobalFileChangeProviderGetFileName#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalFileChangeProviderGetFileName/cpp/IGlobalFileChangeProviderGetFileName.cpp#1)]  
@@ -48,4 +53,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalFileChange(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

@@ -10,6 +10,7 @@ msc.type: config
 # FTP Security &lt;security&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<security>` section group resides in the `<system.ftpServer>` section and contains elements that configure security settings on an Internet Information Services (IIS) 7 server. These include authorization rule settings, IP security, and request filtering configuration settings.
@@ -18,6 +19,7 @@ The `<security>` section group resides in the `<system.ftpServer>` section and c
 > For enhanced security, neither Windows 7 nor Windows Server 2008 R2 installs FTP 7 by default. When you install FTP 7, a default site is not created; you must manually create any FTP sites. This strategy greatly reduces the IIS 7 attack surface.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,6 +39,7 @@ The `<security>` section group resides in the `<system.ftpServer>` section and c
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -104,6 +107,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an FTP authorization rule
@@ -141,6 +145,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 6. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<security>` element of the `<system.ftpServer>` element is configured at the server, site, or folder level.
@@ -171,6 +176,7 @@ The following sample illustrates several security-related configuration settings
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add two FTP authorization rules for the Default Web Site. The first rule allows read and write access for the administrators group, and the second rule denies read and write access for the guest account.

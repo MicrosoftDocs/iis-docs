@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3cbea5c1-7476-4c2e-6df3-b8187306a268
 ---
 # IAppHostPropertySchema::ValidationType Property
+
 Describes the type of validation that will be performed for the current property.  
   
 ## Syntax  
@@ -17,10 +18,12 @@ HRESULT get_ValidationType(
 ```  
   
 ### Parameters  
+
  `pbstrValidationType`  
  A pointer to a `BSTR` that indicates the validation type. Valid values are "applicationPath", "applicationPoolName", "integerRange", "nonEmptyString", "siteName", "timeSpanRange", "requireTrimmedString" and "virtualDirectoryPath".  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -28,6 +31,7 @@ HRESULT get_ValidationType(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  Attribute validation is performed when XML is parsed and when the API makes a call to set a value in the configuration system.  
   
  The following table provides the available validation types.  
@@ -51,5 +55,6 @@ HRESULT get_ValidationType(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
  [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationparameter-property.md)

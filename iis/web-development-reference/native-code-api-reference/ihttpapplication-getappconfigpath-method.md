@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 03799acd-fcad-0c04-f840-6065198e4c97
 ---
 # IHttpApplication::GetAppConfigPath Method
+
 Retrieves the application configuration path.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR GetAppConfigPath(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the application configuration path.  
   
 ## Remarks  
+
  The `GetAppConfigPath` method returns the configuration path for the application that is processing the current request. For example, requests for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually return the MACHINE/WEBROOT/APPHOST/Default Web Site path.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetAppConfigPath` method to create an HTTP module that retrieves the configuration path for the current application and returns this information to a Web client.  
   
  [!code-cpp[IHttpApplicationGetAppConfigPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpApplicationGetAppConfigPath/cpp/IHttpApplicationGetAppConfigPath.cpp#1)]  
@@ -42,4 +47,5 @@ virtual PCWSTR GetAppConfigPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication Interface](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)

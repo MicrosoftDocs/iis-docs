@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3f6d645d-aa2e-1de3-610d-104d8b775a10
 ---
 # IHttpCompletionInfo Interface
+
 Provides information about an asynchronous completion.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpCompletionInfo
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpCompletionInfo` interface.  
   
 |Name|Description|  
@@ -27,6 +29,7 @@ class IHttpCompletionInfo
 |[IHttpCompletionInfo2](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo2-interface.md)|Provides an interface to get the number of bytes completed by an asynchronous operation.|  
   
 ## Remarks  
+
  An `IHttpCompletionInfo` interface is created and passed to a module's [CHttpModule::OnAsyncCompletion](../../web-development-reference/native-code-api-reference/chttpmodule-onasynccompletion-method.md) method when the module completes an asynchronous operation. The `GetCompletionBytes` and `GetCompletionStatus` methods, respectively, retrieve the number of bytes completed and the return the status of an asynchronous operation.  
   
 ## Requirements  
@@ -39,5 +42,6 @@ class IHttpCompletionInfo
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [CHttpModule::OnAsyncCompletion Method](../../web-development-reference/native-code-api-reference/chttpmodule-onasynccompletion-method.md)

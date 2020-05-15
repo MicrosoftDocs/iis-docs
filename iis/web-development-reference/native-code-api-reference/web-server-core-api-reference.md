@@ -5,9 +5,11 @@ ms.assetid: 63d6d159-14f9-0f72-8ead-5e68f5efe412
 ms.author: "robmcm"
 ---
 # Web Server Core API Reference
+
 This section describes the API for the Web Server Core and integrated request-processing pipeline.  
   
 ## In This Section  
+
  [Web Server Core Classes](../../web-development-reference/native-code-api-reference/web-server-core-classes.md)  
  Describes the Web Server Core and integrated request-processing pipeline classes.  
   
@@ -27,4 +29,5 @@ This section describes the API for the Web Server Core and integrated request-pr
  Describes the Web Server Core and integrated request-processing pipeline structures.  
   
 ## See Also  
+
  [Native-Code Extensibility API Reference](../../web-development-reference/native-code-api-reference/native-code-extensibility-api-reference.md)

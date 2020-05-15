@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: be6a7069-7be4-6bdc-046e-29db7ab27b1b
 ---
 # IHttpRequest::GetHeader Method
+
 Returns the value of a specified HTTP header.  
   
 ## Syntax  
@@ -21,6 +22,7 @@ virtual PCSTR GetHeader(
 ```  
   
 ### Parameters  
+
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the header to return.  
   
@@ -31,9 +33,11 @@ virtual PCSTR GetHeader(
  [OUT] A pointer to an unsigned long integer that receives the length of the returned header value.  
   
 ## Return Value  
+
  A pointer to a string that contains the specified header, or 0 if the header was not found.  
   
 ## Remarks  
+
  The `GetHeader` method returns the value of an HTTP header for the current request. There are two overloaded versions of the `GetHeader` method. One specifies the header by using a string that is contained in the `pszHeaderName` parameter. The other overload uses an unsigned long integer that is contained in the `ulHeaderIndex` parameter. After you call the `GetHeader` method, the `pcchHeaderValue` parameter will contain the length, in characters, of the header value, not including the terminating character. `pcchHeaderValue` will be 0 if the header is not found.  
   
  The header name specified by the `pszHeaderName` parameter can be a custom header or a header defined in Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," or RFC 2616, "Hypertext Transfer Protocol -- HTTP/1.1.  
@@ -47,6 +51,7 @@ virtual PCSTR GetHeader(
 > The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
   
 ## Example  
+
  The following code example demonstrates how to use both versions of the `GetHeader` method to create an HTTP module that retrieves the `User-Agent` and `Accept-Language` HTTP headers for the request.  
   
  [!code-cpp[IHttpRequestGetHeader#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetHeader/cpp/IHttpRequestGetHeader.cpp#1)]  
@@ -65,6 +70,7 @@ virtual PCSTR GetHeader(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::DeleteHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-deleteheader-method.md)   
  [IHttpRequest::SetHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-setheader-method.md)

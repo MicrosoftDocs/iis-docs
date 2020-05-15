@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0247aaa4-3854-405c-b8a8-40cb39c75866
 ---
 # IHttpApplication2 Interface
+
 Provides an interface for loading a Web application into server memory and initializing it before the first HTTP request arrives.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpApplication2 : public IHttpApplication
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the  interface.  
   
 |Name|Description|  
@@ -22,9 +24,11 @@ class IHttpApplication2 : public IHttpApplication
 |QuaryIsWarmingUp|Indicates whether the application is in the process of warming up.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IHttpApplication](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)  
   
  `IHttpApplication2`  
@@ -39,4 +43,5 @@ class IHttpApplication2 : public IHttpApplication
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

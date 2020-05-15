@@ -10,6 +10,7 @@ msc.type: config
 # Application Pool Defaults &lt;applicationPoolDefaults&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<applicationPoolDefaults>` collection of the `<applicationPools>` collection configures default values for all application pools on a Web server.
@@ -18,6 +19,7 @@ The `<applicationPoolDefaults>` collection of the `<applicationPools>` collectio
 > Any default values that are not explicitly defined in the `<applicationPoolDefaults>` collection will still inherit the default values in the IIS 7 and later schema, and individual application pool settings override any default values.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,11 +32,13 @@ The `<applicationPoolDefaults>` collection of the `<applicationPools>` collectio
 | IIS 6.0 | The `<applicationPoolDefaults>` element replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to set up application pool defaults
@@ -63,6 +67,7 @@ The `<applicationPools>` collection is included in the default installation of I
 5. When you have finished specifying your settings, click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -96,6 +101,7 @@ The following configuration sample specifies the default identity for all applic
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure the application pools to start automatically, to use version 2.0 of the .NET environment, and to use the integrated pipeline by default.

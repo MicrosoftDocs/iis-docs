@@ -5,6 +5,7 @@ ms.assetid: 0d446756-92cf-4edb-a806-615829b55339
 ms.author: "robmcm"
 ---
 # IHttpContext3 Interface
+
 Represents the reprocessing of an HTTP request and enables additional support for asynchronous operations.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ class IHttpContext3 : public IHttpContext2
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpContext3` interface.  
   
 |Name|Description|  
@@ -30,6 +32,7 @@ class IHttpContext3 : public IHttpContext2
 |[IHttpContext4](../../web-development-reference/native-code-api-reference/ihttpcontext4-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.|  
   
 ## Inheritance Hierarchy  
+
  [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)  
   
  [IHttpContext2](../../web-development-reference/native-code-api-reference/ihttpcontext2-interface.md)  
@@ -46,4 +49,5 @@ class IHttpContext3 : public IHttpContext2
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

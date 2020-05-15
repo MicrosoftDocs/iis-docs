@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 26ff0624-64ae-f45e-8ec1-39104ee5deb4
 ---
 # IAppHostCollectionSchema::ClearElementSchema Property
+
 Gets the schema for the element that will be used to clear all items from the collection.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_ClearElementSchema(
 ```  
   
 ### Parameters  
+
  `ppSchema`  
  A pointer to a pointer for an [IAppHostElementSchema](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) object.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_ClearElementSchema(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

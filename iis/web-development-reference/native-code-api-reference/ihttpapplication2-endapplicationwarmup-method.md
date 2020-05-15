@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cff4a5d4-1e23-489b-8b50-ce4466d505dc
 ---
 # IHttpApplication2::EndApplicationWarmup Method
+
 Ends the application warm up process.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID EndApplicationWarmup(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual VOID EndApplicationWarmup(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication2 Interface](../../web-development-reference/native-code-api-reference/ihttpapplication2-interface.md)

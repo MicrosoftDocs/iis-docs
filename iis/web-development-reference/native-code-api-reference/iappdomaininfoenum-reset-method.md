@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9cfb056c-d51e-a932-9892-8d32a26d072c
 ---
 # IAppDomainInfoEnum::Reset Method
+
 Initializes the [IAppDomainInfoEnum](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md) interface.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ virtual HRESULT __stdcall Reset(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -24,6 +27,7 @@ virtual HRESULT __stdcall Reset(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  You must call the `Reset` method before you call any other methods on the `IAppDomainInfoEnum` interface. You can also call this method when you want to reinitialize the interface to the beginning.  
   
 ## Requirements  
@@ -36,6 +40,7 @@ virtual HRESULT __stdcall Reset(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)   
  [IAppDomainInfoEnum::GetData Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-getdata-method.md)   
  [IAppDomainInfoEnum::GetData Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-getdata-method.md)

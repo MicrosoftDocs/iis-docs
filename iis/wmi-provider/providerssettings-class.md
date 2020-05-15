@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b333c163-5099-493a-b4ac-da50c029fd55
 ---
 # ProvidersSettings Class
+
 Specifies managed providers that manage membership or roles for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application, or encrypt and decrypt configuration data.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProvidersSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProvidersSettings` class.  
   
 |Name|Description|  
@@ -23,9 +26,11 @@ class ProvidersSettings : EmbeddedObject
 |`Providers`|An array of [NameTypeElement](../wmi-provider/nametypeelement-class.md) values that specify managed providers.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Providers` array property on the following classes:  
   
 - [ConfigProtectedDataSection](../wmi-provider/configprotecteddatasection-class.md)  
@@ -38,6 +43,7 @@ class ProvidersSettings : EmbeddedObject
 >  Do not confuse this class with the ASP.NET-related [ProviderSettings](../wmi-provider/providersettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ProvidersSettings`  
@@ -52,6 +58,7 @@ class ProvidersSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigProtectedDataSection Class](../wmi-provider/configprotecteddatasection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [MembershipSection Class](../wmi-provider/membershipsection-class.md)   

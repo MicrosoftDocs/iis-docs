@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 27eb8d5b-9e3b-6228-9025-0e1eb9b285ee
 ---
 # CGlobalModule::OnGlobalStopListening Method
+
 Represents the method that will handle a `GlobalStopListening` event, which occurs when IIS stops accepting new requests.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalStopListening(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IGlobalStopListeningProvider](../../web-development-reference/native-code-api-reference/iglobalstoplisteningprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_STOP_LISTENING](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalStopListening` method when IIS stops accepting new requests for an application.  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalStopListening` event notification by registering for `GL_STOP_LISTENING` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_STOP_LISTENING` notification. When IIS stops accepting new requests for an application, IIS will call the example module's `OnGlobalStopListening` method. This method will write an entry in the application log of the Windows Event Viewer and then exit.  
   
  [!code-cpp[CGlobalModuleGlobalStopListening#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleGlobalStopListening/cpp/CGlobalModuleGlobalStopListening.cpp#1)]  
@@ -46,4 +51,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalStopListening(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

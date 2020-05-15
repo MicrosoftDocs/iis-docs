@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4fedb9ff-4001-44da-b64d-4ce605d15182
 ---
 # CHttpModule::OnExecuteRequestHandler Method
+
 Represents the method that will handle an `ExecuteRequestHandler` event, which occurs when IIS executes the handler for the current request.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnExecuteRequestHandler(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnExecuteRequestHandler(
  [IN] A pointer to an [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_EXECUTE_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnExecuteRequestHandler` method when it executes the appropriate handler for the current request.  
   
 > [!NOTE]
 >  Request-level modules can register for the `ExecuteRequestHandler` event notification by registering for `RQ_EXECUTE_REQUEST_HANDLER` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_EXECUTE_REQUEST_HANDLER` event and post-event notifications. When IIS executes the appropriate handler for a request, it will call the example module's `OnExecuteRequestHandler` and [OnPostExecuteRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onpostexecuterequesthandler-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleExecuteRequestHandler#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleExecuteRequestHandler/cpp/CHttpModuleExecuteRequestHandler.cpp#1)]  
@@ -50,5 +55,6 @@ virtual REQUEST_NOTIFICATION_STATUS OnExecuteRequestHandler(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnPostExecuteRequestHandler Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostexecuterequesthandler-method.md)

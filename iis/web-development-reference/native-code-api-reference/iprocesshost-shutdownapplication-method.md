@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a6dd9fa1-f163-34e4-d6c7-48aea0e10d16
 ---
 # IProcessHost::ShutdownApplication Method
+
 Terminates the specified application.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall ShutdownApplication(
 ```  
   
 ### Parameters  
+
  `appId`  
  An `LPCWSTR` that contains the target application.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,6 +38,7 @@ virtual HRESULT __stdcall ShutdownApplication(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)   
  [IProcessHost::Shutdown Method](../../web-development-reference/native-code-api-reference/iprocesshost-shutdown-method.md)   
  [IProcessHost::StartApplication Method](../../web-development-reference/native-code-api-reference/iprocesshost-startapplication-method.md)

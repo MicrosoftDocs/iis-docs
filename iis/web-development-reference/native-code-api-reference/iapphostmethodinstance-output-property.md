@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 69d9d293-d5d8-4443-8e24-e0e3a76f0721
 ---
 # IAppHostMethodInstance::Output Property
+
 Gets an [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) in which output parameters may be retrieved after a specified method instance has been executed.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ Gets an [IAppHostElement Interface](../../web-development-reference/native-code-
 ```  
   
 ### Parameters  
+
  `ppOutputElement`  
  Contains the [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) that represents the output parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ Gets an [IAppHostElement Interface](../../web-development-reference/native-code-
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

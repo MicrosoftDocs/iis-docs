@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2f24792d-ae4d-3788-8919-38c5ee95076d
 ---
 # IListenerChannelCallback::GetId Method
+
 Retrieves the ID of a listener channel that needs to be started.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetId(
 ```  
   
 ### Parameters  
+
  `pdwListenerChannelId`  
  A pointer to a `DWORD` buffer that receives the ID of a listener channel.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall GetId(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-interface.md)

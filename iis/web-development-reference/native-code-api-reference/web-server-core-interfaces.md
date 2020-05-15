@@ -5,9 +5,11 @@ ms.assetid: a541dc16-8cd9-48f2-833d-eea649ef6b25
 ms.author: "robmcm"
 ---
 # Web Server Core Interfaces
+
 This section describes the Web Server Core and integrated request-processing pipeline interfaces.  
   
 ## In This Section  
+
  The following table lists the interfaces exposed by the integrated request-processing pipeline.  
   
 |Interface|Description|  
@@ -76,4 +78,5 @@ This section describes the Web Server Core and integrated request-processing pip
 |[IWebSocketContext](../../web-development-reference/native-code-api-reference/iwebsocketcontext-interface.md)|Represents context support for bi-directional WebSocket communications over a single TCP socket.|  
   
 ## See Also  
+
  [Web Server Core API Reference](../../web-development-reference/native-code-api-reference/web-server-core-api-reference.md)

@@ -10,6 +10,7 @@ msc.type: config
 # HTTP Tracing &lt;httpTracing&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<httpTracing>` element allows you to configure selective request-based event tracing for incoming IIS requests.
@@ -32,6 +33,7 @@ To enable the same events for all URLs, set the trace flags to **0xFFFFFFE** ins
 > The URL filter defined in the `<traceUrls>` collection under the `<httpTracing>` element only affects IIS request-based ETW and has no impact on failed request tracing.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -44,16 +46,19 @@ To enable the same events for all URLs, set the trace flags to **0xFFFFFFE** ins
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<httpTracing>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for the `<httpTracing>` element for IIS 7. For examples of how to access the `<httpTracing>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<httpTracing>` element at the server level in the ApplicationHost.config file, or at the site, application, or directory level in a Web.config file.
@@ -75,6 +80,7 @@ The following example will enable tracing for the sample home page that ships wi
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable tracing for the sample home page that ships with IIS 7 on Web site named Contoso by adding an entry to the `<traceUrls>` collection for that site.

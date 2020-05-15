@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 88c1e99e-3362-e266-ce35-9c0cf7916cb6
 ---
 # IAppHostConfigException::ErrorLine Property
+
 Gets the contents of line in the configuration file that caused the current exception to be thrown.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_ErrorLine(
 ```  
   
 ### Parameters  
+
  `pbstrErrorLine`  
  A pointer to a `BSTR` that contains the line that caused the exception.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_ErrorLine(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

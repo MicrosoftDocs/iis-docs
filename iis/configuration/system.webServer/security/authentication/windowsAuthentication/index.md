@@ -10,6 +10,7 @@ msc.type: config
 # Windows Authentication &lt;windowsAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<windowsAuthentication>` element defines configuration settings for the Internet Information Services (IIS) 7 Windows authentication module. You can use Windows authentication when your IIS 7 server runs on a corporate network that is using Microsoft Active Directory service domain identities or other Windows accounts to identify users. Because of this, you can use Windows authentication whether or not your server is a member of an Active Directory domain.
@@ -30,6 +31,7 @@ Windows authentication is best suited for an intranet environment for the follow
 The [`<extendedProtection>`](extendedprotection/index.md) element was introduced in IIS 7.5, which allows you to configure the settings for the new extended protection features that have been integrated into Windows authentication.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -42,6 +44,7 @@ The [`<extendedProtection>`](extendedprotection/index.md) element was introduced
 | IIS 6.0 | The `<windowsAuthentication>` element replaces portions of the IIS 6.0 **AuthType** and **AuthFlags** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the Windows authentication role service. To use Windows authentication on IIS, you must install the role service, disable Anonymous authentication for your Web site or application, and then enable Windows authentication for the site or application.
@@ -90,6 +93,7 @@ The default installation of IIS 7 and later does not include the Windows authent
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable Windows authentication for a Web site, Web application, or Web service
@@ -149,6 +153,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 8. Click OK to close the **Advanced Settings** dialog box.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<windowsAuthentication>` element is configurable at the site, application, or virtual directory level in the ApplicationHost.config file.
@@ -180,6 +185,7 @@ The following example enables Windows authentication and disables Anonymous auth
 [!code-xml[Main](index/samples/sample3.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples disable Anonymous authentication for a site named Contoso, then enable Windows authentication for the site.

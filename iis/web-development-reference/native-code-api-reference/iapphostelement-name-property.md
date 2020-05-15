@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 160b5e71-ac79-9d7d-1c7e-880e191967e2
 ---
 # IAppHostElement::Name Property
+
 Gets the name of the current element.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT Name(
 ```  
   
 ### Parameters  
+
  `pbstrName`  
  A pointer to a `BSTR` that contains name of the current element.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ HRESULT Name(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example displays all child elements of the `system.webServer/asp` configuration section for the MACHINE/WEBROOT/APPHOST configuration path.  
   
  [!code-cpp[IAppHostAdminLibrary#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
@@ -41,4 +45,5 @@ HRESULT Name(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

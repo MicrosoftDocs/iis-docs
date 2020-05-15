@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7b3b787a-4c1d-4639-bc23-38983fe65e8c
 ---
 # FastCgiApplicationElement Class
+
 Configures settings for a FastCGI application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FastCgiApplicationElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FastCgiApplicationElement` class.  
   
 |Name|Description|  
@@ -33,9 +36,11 @@ class FastCgiApplicationElement : CollectionElement
 |`RequestTimeout`|A read/write `uint32` value that specifies the maximum time, in seconds, that IIS waits for a FastCGI application to finish processing a request. The default is 90. **Note:**  The value specified is a lowest-maximum value. This maximum is not strictly enforced and can increase substantially under heavy loads.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `FastCgi` array property of the [FastCgiSection](../wmi-provider/fastcgisection-class.md) class.  
   
  The following table lists the possible values for the `Protocol` property. The default is 0 (`NamedPipe`).  
@@ -46,6 +51,7 @@ class FastCgiApplicationElement : CollectionElement
 |1|`Tcp`|The TCP protocol will be used to communicate with the FastCGI worker process.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `FastCgiApplicationElement`  
@@ -60,6 +66,7 @@ class FastCgiApplicationElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [FastCgiSection Class](../wmi-provider/fastcgisection-class.md)   
  [FastCgiEnvironmentSettings Class](../wmi-provider/fastcgienvironmentsettings-class.md)   

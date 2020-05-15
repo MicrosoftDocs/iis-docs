@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c3a136d5-a102-8b61-8fa2-1b6864423c35
 ---
 # CompilationSection Class
+
 Configures compilation settings for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class CompilationSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `CompilationSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class CompilationSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CompilationSection` class.  
   
 |Name|Description|  
@@ -53,9 +56,11 @@ class CompilationSection : ConfigurationSectionWithCollection
 |`UrlLinePragmas`|A read/write `boolean` value. `true` if instructions to the compiler use URLs; `false` if instructions to the compiler use physical paths. The default is `false`. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -72,6 +77,7 @@ class CompilationSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Compilation.BuildProvider](/dotnet/api/system.web.compilation.buildprovider)
  [System.Web.Configuration.CompilationSection](/dotnet/api/system.web.configuration.compilationsection)
  [AssemblySettings Class](../wmi-provider/assemblysettings-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 89120dc5-2cae-46a5-82b0-f2a06bc6a7eb
 ---
 # HttpGetExtendedInterface Function
+
 Retrieves an extended HTTP interface given the HTTP server instance and the pointer to be down cast.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT HttpGetExtendedInterface(
 ```  
   
 ### Parameters  
+
  `pHttpServer`  
  [IN] Points to an instance of the [IHttpServer](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md) interface.  
   
@@ -28,6 +30,7 @@ HRESULT HttpGetExtendedInterface(
  [OUT] Points to the extended HTTP interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,6 +38,7 @@ HRESULT HttpGetExtendedInterface(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  Template parameters (`HttpType1` and `HttpType2`) can be deduced from the arguments to the function, as shown in the following example.  
   
 ```  
@@ -59,4 +63,5 @@ if( SUCCEEDED(hr) )
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

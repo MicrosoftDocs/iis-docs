@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5cca2a0c-a91a-581b-a527-f19d588353d6
 ---
 # IAppHostAdminManager::ConfigManager Property
+
 Gets an [IAppHostConfigManager](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-interface.md) interface that provides access to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_ConfigManager(
 ```  
   
 ### Parameters  
+
  `ppConfigManager`  
  A pointer to a pointer for an `IAppHostConfigManager` interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -29,6 +32,7 @@ HRESULT get_ConfigManager(
 |HRESULT_FROM_WIN32(ERROR_NOT_ENOUGH_MEMORY)|Indicates that the method cannot allocate enough memory for the return value.|  
   
 ## Example  
+
  The following code example demonstrates the role of the `IAppHostConfigManager` interface in accessing the configuration system.  
   
  [!code-cpp[IAppHostAdminLibrary#7](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostSectionGroupAddSectionGroup.cpp#7)]  
@@ -43,4 +47,5 @@ HRESULT get_ConfigManager(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)

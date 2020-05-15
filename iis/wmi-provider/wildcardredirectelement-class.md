@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 477bc762-755f-e0b2-604e-7a0435e64098
 ---
 # WildcardRedirectElement Class
+
 Specifies a destination to which certain requests are redirected.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class WildcardRedirectElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WildcardRedirectElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class WildcardRedirectElement : CollectionElement
 |`Wildcard`|A required read-only `string` value that contains the file name, directory path, or URL from which the user is redirected. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `WildcardRedirects` property of the [HttpRedirectSection](../wmi-provider/httpredirectsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `WildcardRedirectElement`  
@@ -44,5 +50,6 @@ class WildcardRedirectElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpRedirectSection Class](../wmi-provider/httpredirectsection-class.md)

@@ -10,6 +10,7 @@ msc.type: config
 # URL Compression &lt;urlCompression&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<urlCompression>` element specifies the following settings for static and dynamic content compression in IIS 7 and later:
@@ -22,6 +23,7 @@ The `<urlCompression>` element specifies the following settings for static and d
 > If the **dynamicCompressionBeforeCache** attribute is **true** when the output cache response has been flushed, dynamic compression will not be performed before the response is put into the output cache. However, if the **doDynamicCompression** attribute is **true**, dynamic compression will still occur after the output cache has been filled with the response.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<urlCompression>` element specifies the following settings for static and d
 | IIS 6.0 | The `<urlCompression>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>DoStaticCompression</strong></li> <li><strong>DoDynamicCompression</strong></li> <li><strong>HcDoOnDemandCompression</strong> </li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 HTTP compression is usually available on the default installation of IIS 7 and later. However, only static compression is installed by default. To install static or dynamic compression, use the following steps.
@@ -78,6 +81,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 5. Click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable or disable static and dynamic compression for a site or application
@@ -148,6 +152,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 5. In the **Actions** pane, click **Apply**.
  
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -169,6 +174,7 @@ The following configuration sample enables static compression and disable dynami
 [!code-xml[Main](urlCompression/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable static compression and disable dynamic compression for the Default Web Site.

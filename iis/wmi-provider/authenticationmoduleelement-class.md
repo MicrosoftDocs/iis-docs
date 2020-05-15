@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 56865273-994b-3555-f65b-ce89ac36a5ec
 ---
 # AuthenticationModuleElement Class
+
 Represents the type information for an authentication module.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AuthenticationModuleElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AuthenticationModuleElement` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class AuthenticationModuleElement : CollectionElement
 |`Type`|A required unique read/write `string` value that specifies the type and assembly information for an authentication module. The string is a comma-delimited list that contains the fully qualified type name followed by the assembly information (for example, Corp.Net.Authenticator, Corp, Version=1.0.5000.0, Culture=neutral, PublicKeyToken="00000000000000000".) If you do not specify a string value, the property will contain a null reference. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `AuthenticationModules` property of the [AuthenticationModulesSection](../wmi-provider/authenticationmodulessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `AuthenticationModuleElement`  
@@ -43,4 +49,5 @@ class AuthenticationModuleElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5a5feebf-714a-7032-b8c5-c75d6487fac9
 ---
 # ApplicationPool.Recycle Method2
+
 Recycles an application pool.  
   
 ## Syntax  
@@ -17,17 +18,21 @@ ApplicationPool.Recycle();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  Before you can use the `Recycle` method, you must start the application pool.  
   
  This method corresponds to the `IIsApplicationPool.Recycle` method in IIS 6.0.  
   
 ## Example  
+
  The following example recycles the application pool named `DefaultAppPool`.  
   
 ```  
@@ -51,4 +56,5 @@ oAppPool.Recycle
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)

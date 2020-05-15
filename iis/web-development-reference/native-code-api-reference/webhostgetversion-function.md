@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 85ef0836-7686-8e9b-d274-252714ec1c2a
 ---
 # WebhostGetVersion Function
+
 Returns the version of the Web host.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ HRESULT WebhostGetVersion(
 ```  
   
 ### Parameters  
+
  `pMajorVersion`  
  [OUT] A pointer to a `DWORD` that contains the Web host major version number.  
   
@@ -23,6 +25,7 @@ HRESULT WebhostGetVersion(
  [OUT] A pointer to a `DWORD` contains the Web host minor version number.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -39,4 +42,5 @@ HRESULT WebhostGetVersion(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)

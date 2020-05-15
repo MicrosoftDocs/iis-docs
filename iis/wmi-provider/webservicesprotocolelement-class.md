@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a9d8a894-5643-050e-f028-3af31e0202a3
 ---
 # WebServicesProtocolElement Class
+
 Specifies a transmission protocol or protocols that are used to decrypt data sent from a client browser in an HTTP request.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class WebServicesProtocolElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebServicesProtocolElement` class.  
   
 |Name|Description|  
@@ -23,9 +26,11 @@ class WebServicesProtocolElement : CollectionElement
 |`Name`|A read-only `sint32` mask that specifies the transmission protocols that are used to decrypt data sent from a client browser in the HTTP request. The possible values are listed later in the Remarks section. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `Protocols` property in the [WebServicesProtocolSettings](../wmi-provider/webservicesprotocolsettings-class.md) class.  
   
  The following table lists the possible values for the `Name` property.  
@@ -42,6 +47,7 @@ class WebServicesProtocolElement : CollectionElement
 |33|`AnyHttpSoap`|Any version of the HTTP SOAP protocol.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `WebServicesProtocolElement`  
@@ -56,6 +62,7 @@ class WebServicesProtocolElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [WebServicesProtocolSettings Class](../wmi-provider/webservicesprotocolsettings-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   

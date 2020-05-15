@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8ab3c522-03ae-4d2f-daf4-e82086b6c1a2
 ---
 # IAppHostPropertySchema::IsUniqueKey Property
+
 Determines whether a property value is a unique key for a collection.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_IsUniqueKey(
 ```  
   
 ### Parameters  
+
  `pfIsUniqueKey`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if a property value is a unique key for a collection; otherwise, `VARIANT_FALSE`. The default is `VARIANT_FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,5 +39,6 @@ HRESULT get_IsUniqueKey(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
  [IAppHostPropertySchema::IsCombinedKey Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-iscombinedkey-property.md)

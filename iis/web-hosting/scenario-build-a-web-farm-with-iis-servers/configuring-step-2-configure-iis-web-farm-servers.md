@@ -16,6 +16,7 @@ In the second phase of building your web farm, you configure shared content and 
 When you are done with these tasks, record your design decisions before going on to [Step 3: Configure IIS Web Farm Load Balancing](configuring-step-3-configure-iis-web-farm-load-balancing.md).
 
 <a id="21"></a>
+
 ## 2.1. Prepare Your Back-end File Server
 
 In this procedure, you set up a back-end file server with two shared folders. One folder contains the shared content files for the website. The other folder contains the shared configuration files.
@@ -32,6 +33,7 @@ Once the shared content folder is ready, copy the files for the website you set 
 6. Copy the files from the working website on your primary web server to the content folder on the file server, for example `C:\Content\MySite`.
 
 <a id="22"></a>
+
 ## 2.2. Configure Shared Content
 
 In this procedure, you set up shared content of your primary web server. When finished, your web server retrieves content from the back-end file server.
@@ -58,6 +60,7 @@ In this procedure, you set up shared content of your primary web server. When fi
 11. Open a browser, view your site with **localhost**. The site is displayed as usual, but the content is coming from the back-end file server.
 
 <a id="23"></a>
+
 ## 2.3. Set up Shared Configuration
 
 To configure shared configuration, export the configuration files to the back-end file server. Then point the web server to the shared configuration location.
@@ -80,6 +83,7 @@ To configure shared configuration, export the configuration files to the back-en
 14. Close IIS Manager, and reopen it. IIS is now using the configuration files that are located of the file server.
 
 <a id="24"></a>
+
 ## 2.4. Add Web Servers to Your Farm
 
 A web server added to your farm by using this procedure retrieves both configuration information and website content from the back-end file server.

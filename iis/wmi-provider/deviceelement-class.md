@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4459d7ff-8387-7249-83b1-238540a6c636
 ---
 # DeviceElement Class
+
 Defines an adapter set that maps [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] mobile controls to corresponding adapters within the `<system.web>` and `<mobileControls>` sections of the Web.config configuration file.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class DeviceElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DeviceElement` class.  
   
 |Name|Description|  
@@ -28,14 +31,17 @@ class DeviceElement : CollectionElement
 |`PredicateMethod`|An optional read/write `string` value that specifies the method that supplies the evaluator predicate. The method must be static and of the following signature:<br /><br /> `static bool EvaluatorMethod(HttpContext context)`<br /><br /> If the adapter set inherits from another adapter set, the `PredicateMethod` property is not necessary and its default value will be set to the value of the parent set.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `MobileControls` property of the [MobileControlsSection](../wmi-provider/mobilecontrolssection-class.md) class.  
   
  If an instance of this class specifies the `InheritsFrom` property, you do not need to specify the `PredicateClass`, `PredicateMethod`, or `PageAdapter` properties. Instead, your device adapter set can inherit these from the parent device-adapter set definition.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `DeviceElement`  
@@ -50,6 +56,7 @@ class DeviceElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ASP.NET Mobile Web Applications Adapter Mappings](https://go.microsoft.com/fwlink/?LinkId=67183)   
  [device Element for mobileControls (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67187)   
  [AdapterElement Class](../wmi-provider/adapterelement-class.md)   

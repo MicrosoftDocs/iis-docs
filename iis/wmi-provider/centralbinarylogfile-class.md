@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d4a0f006-fd94-007a-5d82-3cd577bbd014
 ---
 # CentralBinaryLogFile Class1
+
 Configures settings for centralized binary logging on a server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class CentralBinaryLogFile : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CentralBinaryLogFile` class.  
   
 |Name|Description|  
@@ -27,9 +30,11 @@ class CentralBinaryLogFile : EmbeddedObject
 |`TruncateSize`|A read/write `string` value that specifies, in bytes, the size at which the log file contents should be truncated. This attribute must be configured when `Period` is set to `MaxSize`. The size must be between 1048576 (1 megabyte) and 4294967295 (4 gigabytes). The default is 20971520 (20 megabytes).|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `CentralBinaryLogFile` property of the [LogSection](../wmi-provider/logsection-class.md) class.  
   
  The following table lists the possible values for the `Period` property. The default is 1 (`Daily`).  
@@ -43,6 +48,7 @@ class CentralBinaryLogFile : EmbeddedObject
 |4|`Hourly`|The log file is closed and a new log file is started once per hour.|  
   
 ## Example  
+
  The following code example sets the log file mode to `CentralBinary`, enables binary logging, sets the `Period` property to `Weekly`, specifies that log files use local time, and limits the log size to 1 gigabyte. Helper functions display the settings before and after the changes are made.  
   
 ```  
@@ -109,6 +115,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `CentralBinaryLogFile`  
@@ -123,6 +130,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [LogSection Class](../wmi-provider/logsection-class.md)   

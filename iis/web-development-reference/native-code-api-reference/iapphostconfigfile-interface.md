@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4b03fb70-e66d-226a-1bfe-5a5cd863e439
 ---
 # IAppHostConfigFile Interface
+
 Represents a configuration file in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostConfigFile: IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostConfigFile` interface.  
   
 |Method|Description|  
@@ -23,6 +25,7 @@ interface IAppHostConfigFile: IUnknown
 |[SetMetadata](../../web-development-reference/native-code-api-reference/iapphostconfigfile-setmetadata-method.md)|Sets metadata in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration file.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostConfigFile` interface.  
   
 |Property|Description|  
@@ -33,6 +36,7 @@ interface IAppHostConfigFile: IUnknown
 |[RootSectionGroup](../../web-development-reference/native-code-api-reference/iapphostconfigfile-rootsectiongroup-property.md)|Returns the root configuration section group for the current configuration file.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigFile`  
@@ -47,5 +51,6 @@ interface IAppHostConfigFile: IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostConfigManager Interface](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-interface.md)

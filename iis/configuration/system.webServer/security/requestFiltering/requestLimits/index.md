@@ -10,6 +10,7 @@ msc.type: config
 # Request Limits &lt;requestLimits&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<requestLimits>` element specifies limits on HTTP requests that are processed by the Web server. These limits include the maximum size of a request, the maximum URL length, and the maximum length for a query string. In addition, the `<requestLimits>` element can contain a collection of user-defined HTTP header limits in the `<headerLimits>` element, which allows you to define custom settings on HTTP headers.
@@ -32,6 +33,7 @@ In addition, when an HTTP request exceeds the header limits that are defined in 
 | `431` | Request Header Too Long |
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -44,6 +46,7 @@ In addition, when an HTTP request exceeds the header limits that are defined in 
 | IIS 6.0 | The `<requestLimits>` element replaces the IIS 6.0 UrlScan **[RequestLimits]** features. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -87,6 +90,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for request filtering. To install the Microsoft Administration Pack for IIS 7.0, please see the following URL:
@@ -154,6 +158,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     For example, the "Content-type" header contains the MIME type for a request. Specifying a value of 100 would limit the length of the "Content-type" header to 100 bytes.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -177,6 +182,7 @@ The following example Web.config file will configure IIS to deny access for HTTP
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will configure IIS to deny access for HTTP requests where the length of the &quot;Content-type&quot; header is greater than 100 bytes.

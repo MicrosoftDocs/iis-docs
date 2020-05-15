@@ -10,11 +10,13 @@ msc.type: config
 # WebDAV Authoring &lt;authoring&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<authoring>` element specifies the site-level settings for WebDAV. The most important of these settings is whether WebDAV authoring is enabled for the site. Additional elements define the behavior for the WebDAV module, such as compatibility options and how the WebDAV module works with properties, locks, and the underlying file system.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<authoring>` element specifies the site-level settings for WebDAV. The most
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -86,6 +89,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable WebDAV publishing
@@ -116,6 +120,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 > Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](../authoringrules/index.md) topic.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<authoring>` element is configurable only at the site level in the ApplicationHost.config file. Any `<authoring>` elements at other levels or in Web.config files are ignored.
@@ -144,6 +149,7 @@ The following example lists a sample `<webdav>` element for the Default Web Site
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable WebDAV authoring for the Default Web Site, and configure the site so that SSL is not required for WebDAV authoring.

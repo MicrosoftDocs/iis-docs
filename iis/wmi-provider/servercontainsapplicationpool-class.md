@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ca09ddf2-df30-a557-720a-8dd60e773365
 ---
 # ServerContainsApplicationPool Class1
+
 Provides a relationship between a Web server and its application pools.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ServerContainsApplicationPool : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ServerContainsApplicationPool` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class ServerContainsApplicationPool : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) An [ApplicationPool](../wmi-provider/applicationpool-class.md) object that represents an IIS application pool. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `ServerContainsApplicationPool`  
@@ -41,6 +46,7 @@ class ServerContainsApplicationPool : ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [Server Class](../wmi-provider/server-class.md)

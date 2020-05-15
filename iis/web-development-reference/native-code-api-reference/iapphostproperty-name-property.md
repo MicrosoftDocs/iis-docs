@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 07e162b1-4dfe-508b-a95d-f4dec0c939d0
 ---
 # IAppHostProperty::Name Property
+
 Gets the name of the property.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Name(
 ```  
   
 ### Parameters  
+
  `pbstrName`  
  A pointer to a `BSTR` that contains the name of the property.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_Name(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

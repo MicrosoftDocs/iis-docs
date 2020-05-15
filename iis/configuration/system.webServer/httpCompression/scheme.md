@@ -10,6 +10,7 @@ msc.type: config
 # Scheme &lt;scheme&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<scheme>` element of the `<httpCompression>` element specifies the following settings for the GNU zip (Gzip) and Deflate compression schemes in Internet Information Services (IIS) 7:
@@ -30,6 +31,7 @@ The `<scheme>` element of the `<httpCompression>` element specifies the followin
 > By default, only the Gzip compression scheme is available in IIS 7. To enable the Deflate compression scheme programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -42,6 +44,7 @@ The `<scheme>` element of the `<httpCompression>` element specifies the followin
 | IIS 6.0 | The `<scheme>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>HcCompressionDll</strong></li> <li><strong>HcDoDynamicCompression</strong></li> <li><strong>HcDoStaticCompression</strong></li> <li><strong>HcDynamicCompressionLevel</strong></li> </ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 HTTP compression is usually available on the default installation of IIS 7 and later. However, only static compression is installed by default. To install static or dynamic compression, use the following steps.
@@ -86,11 +89,13 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 5. Click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for setting the compression scheme for IIS 7. For examples of how to set the compression scheme programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -118,6 +123,7 @@ The following default `<httpCompression>` element is configured in the Applicati
 [!code-xml[Main](scheme/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add the deflate compression scheme to IIS 7.

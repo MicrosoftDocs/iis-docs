@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fa61640c-8bb4-fb19-c69e-7219a3260fca
 ---
 # IHttpServer::NotifyCustomNotification Method
+
 Raises a custom global-level notification.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual GLOBAL_NOTIFICATION_STATUS NotifyCustomNotification(
 ```  
   
 ### Parameters  
+
  `pCustomOutput`  
  A pointer to an [ICustomNotificationProvider](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md).  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-processing-constants.md) value.  
   
 ## Remarks  
+
  The `NotifyCustomNotification` method raises the custom notification that is specified by the `ICustomNotificationProvider` interface in the `pCustomOutput` parameter.  
   
  Your module must register for the [GL_CUSTOM_NOTIFICATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification, and your module must contain a [CGlobalModule::OnGlobalCustomNotification](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcustomnotification-method.md) method to process the custom notification. To raise the custom notification, your module must first create the instance of your custom `ICustomNotificationProvider` interface and pass that interface to the `NotifyCustomNotification` method for the current global context.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Registers for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `GL_CUSTOM_NOTIFICATION` notifications.  
@@ -55,6 +60,7 @@ virtual GLOBAL_NOTIFICATION_STATUS NotifyCustomNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ICustomNotificationProvider Interface](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md)   
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IHttpContext::NotifyCustomNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-notifycustomnotification-method.md)

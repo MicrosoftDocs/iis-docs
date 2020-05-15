@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: abb697d2-fa6d-8441-ece4-dfb07abd4dee
 ---
 # IHttpSite::GetPerfCounterInfo Method
+
 Retrieves an [IHttpPerfCounterInfo](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md) interface.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual IHttpPerfCounterInfo* GetPerfCounterInfo(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an `IHttpPerfCounterInfo` interface.  
   
 ## Remarks  
+
  The `GetPerfCounterInfo` method retrieves a pointer to an `IHttpPerfCounterInfo` interface that is used to modify the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] performance counters at the site level.  
   
 > [!IMPORTANT]
@@ -36,6 +40,7 @@ virtual IHttpPerfCounterInfo* GetPerfCounterInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpSite Interface](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md)   
  [IHttpPerfCounterInfo Interface](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md)   
  [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference/native-code-api-reference/ihttpserver-getperfcounterinfo-method.md)

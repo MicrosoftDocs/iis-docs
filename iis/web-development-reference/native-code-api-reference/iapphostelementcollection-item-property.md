@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 551db540-404a-2a9b-3e9e-988399c52d64
 ---
 # IAppHostElementCollection::Item Property
+
 Gets the element at the requested index in the current collection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT Item(
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that represents the index of the item to retrieve from the collection.  
   
@@ -24,6 +26,7 @@ HRESULT Item(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -31,6 +34,7 @@ HRESULT Item(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following example loops through all the child elements and properties of the `system.applicationHost/sites` configuration section in the MACHINE/WEBROOT/APPHOST commit path.  
   
  [!code-cpp[IAppHostAdminLibrary#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetCollection.cpp#2)]  
@@ -45,4 +49,5 @@ HRESULT Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementcollection-interface.md)

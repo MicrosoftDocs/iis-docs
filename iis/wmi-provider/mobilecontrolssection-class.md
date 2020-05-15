@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9e069560-70e2-3895-a775-fec47d7f8ada
 ---
 # MobileControlsSection Class
+
 Exposes configuration information for mobile controls, their adapters, and device filters.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class MobileControlsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `MobileControlsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class MobileControlsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `MobileControlsSection` class.  
   
 |Name|Description|  
@@ -41,9 +44,11 @@ class MobileControlsSection : ConfigurationSectionWithCollection
 |`SessionStateHistorySize`|A read/write `sint32` value that specifies the size of the history stack to use to keep the application view state in the server session. The value must be between 0 and 2147483647. The default is 6.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -60,6 +65,7 @@ class MobileControlsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AdapterElement Class](../wmi-provider/adapterelement-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [DeviceElement Class](../wmi-provider/deviceelement-class.md)   

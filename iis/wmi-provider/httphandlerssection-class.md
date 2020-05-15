@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6172d775-56fd-b3a6-ef47-803f372aeebd
 ---
 # HttpHandlersSection Class
+
 Configures settings for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] handlers.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpHandlersSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpHandlersSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HttpHandlersSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpHandlersSection` class.  
   
 |Name|Description|  
@@ -38,14 +41,17 @@ class HttpHandlersSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The HTTP handlers contained in the `HttpHandlersSection` class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the `<system.web>` section of the Web.config file. Each of these handlers is represented by an instance of the `HttpHandlerAction` class.  
   
  The HTTP handlers in the [HandlersSection](../wmi-provider/handlerssection-class.md) class are related to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] and are in the `<system.webServer>` section of the ApplicationHost.config file. Each of these handlers is represented by an instance of the [HandlerAction](../wmi-provider/handleraction-class.md) class.  
   
 ## Example  
+
  The following example displays `HttpHandlersSection` properties, including the `HttpHandlerAction` values that are in the `HttpHandlers` property.  
   
 ```  
@@ -77,6 +83,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -93,6 +100,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [HandlerAction Class](../wmi-provider/handleraction-class.md)   
  [HandlersSection Class](../wmi-provider/handlerssection-class.md)   

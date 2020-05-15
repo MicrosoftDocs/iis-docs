@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 83c44f92-2b3a-ee32-3bd3-34ae9284d12d
 ---
 # IAppHostConfigFile::GetAdminSection Method
+
 Gets a configuration section for a given configuration section and configuration path.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ HRESULT GetAdminSection(
 ```  
   
 ### Parameters  
+
  `bstrSectionName`  
  A `BSTR` that contains the name of the requested section.  
   
@@ -30,6 +32,7 @@ HRESULT GetAdminSection(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -38,6 +41,7 @@ HRESULT GetAdminSection(
 |ERROR_INVALID_DATA|Indicates that the section contains invalid data.|  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetAdminSection` method to obtain a reference to the `system.webServer/defaultDocument` configuration section in the MACHINE/WEBROOT/APPHOST configuration path.  
   
  [!code-cpp[IAppHostAdminLibrary#5](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertyGetValue.cpp#5)]  
@@ -52,4 +56,5 @@ HRESULT GetAdminSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)

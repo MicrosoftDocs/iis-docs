@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4b421b62-db6b-4ed8-9dff-e9c6c1d8ad0e
 ---
 # CreateCompression Function
+
 Creates a new compression context.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ HRESULT WINAPI CreateCompression(
 ```  
   
 ### Parameters  
+
  `context`  
  [OUT] Pointer to the new compression context.  
   
@@ -23,6 +25,7 @@ HRESULT WINAPI CreateCompression(
  [IN] Reserved for future use.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,4 +42,5 @@ HRESULT WINAPI CreateCompression(
 |Header|Httpcompression.h|  
   
 ## See Also  
+
  [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

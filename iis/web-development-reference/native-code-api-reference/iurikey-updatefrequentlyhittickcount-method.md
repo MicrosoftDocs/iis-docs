@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8996d0b8-7b23-4394-aee6-a809965e0e7e
 ---
 # IUriKey::UpdateFrequentlyHitTickCount Method
+
 Increments a counter each time the URI is requested.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual VOID UpdateFrequentlyHitTickCount(
 ```  
   
 ### Parameters  
+
  `dwTicks`  
  [OUT] Ticks counter increments each time the URI is requested.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Requirements  
@@ -31,4 +34,5 @@ virtual VOID UpdateFrequentlyHitTickCount(
 |Header|Httpcach.h|  
   
 ## See Also  
+
  [IUriKey Interface](../../web-development-reference/native-code-api-reference/iurikey-interface.md)

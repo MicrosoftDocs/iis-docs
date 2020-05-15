@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a2b235cd-4d10-8d8a-648c-311f6c9465d4
 ---
 # ApplicationDependency Class
+
 Represents a dependency between a Web application and one or more Web service extensions.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationDependency : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationDependency` class.  
   
 |Name|Description|  
@@ -25,15 +28,18 @@ class ApplicationDependency : CollectionElement
 |`Name`|A read-only `string` value that specifies the friendly name of an application that depends on the Web service extensions specified in the `GroupDependency` property. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `ApplicationDependencies` property on the [ApplicationDependenciesSection](../wmi-provider/applicationdependenciessection-class.md) class.  
   
 > [!NOTE]
 >  In IIS 6.0, Web service extension settings were serverwide. In [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], you can configure these settings at a global or application pool level.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ApplicationDependency`  
@@ -48,6 +54,7 @@ class ApplicationDependency : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationDependenciesSection Class](../wmi-provider/applicationdependenciessection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [GroupDependency Class](../wmi-provider/groupdependency-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d800efb0-c7af-4e21-f3ad-336536b5604d
 ---
 # TraceProviderDefinition Class
+
 Specifies a trace provider's name, GUID, and trace area enumeration.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceProviderDefinition : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceProviderDefinition` class.  
   
 |Name|Description|  
@@ -25,14 +28,17 @@ class TraceProviderDefinition : CollectionElement
 |`Name`|A required unique read/write `string` value that contains the friendly name of the trace provider. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `TraceProviderDefinitions` property of the [TraceProviderDefinitionsSection](../wmi-provider/traceproviderdefinitionssection-class.md) class.  
   
  Common trace providers are "ASP", "ASPNET", "ISAPI Extension", and "WWW Server". These are included by default in the ApplicationHost.config file.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TraceProviderDefinition`  
@@ -47,6 +53,7 @@ class TraceProviderDefinition : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
  [FailureDefinition Class](../wmi-provider/failuredefinition-class.md)   

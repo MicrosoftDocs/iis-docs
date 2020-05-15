@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fc8a6956-81a6-2150-f8b3-3193efdbd354
 ---
 # OutputCacheSection Class
+
 Specifies output cache settings for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class OutputCacheSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `OutputCacheSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class OutputCacheSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `OutputCacheSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class OutputCacheSection : ConfigurationSection
 |`SendCacheControlHeader`|An optional read/write `boolean` value. `true` if the `Cache-Control: private` header is sent by the output cache module by default; otherwise, `false`. The default is `true`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `OutputCacheSection`  
@@ -55,6 +60,7 @@ class OutputCacheSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.OutputCacheSection](/dotnet/api/system.web.configuration.outputcachesection)
  [System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache](/dotnet/api/system.web.configuration.systemwebcachingsectiongroup.outputcache)   
  [CacheSection Class](../wmi-provider/cachesection-class.md)   

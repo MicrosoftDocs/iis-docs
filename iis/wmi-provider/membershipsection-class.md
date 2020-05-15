@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f8b2a0e9-0187-8227-fa8c-7bd6f3de477c
 ---
 # MembershipSection Class
+
 Validates user credentials and manages user settings.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class MembershipSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `MembershipSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class MembershipSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `MembershipSection` class.  
   
 |Name|Description|  
@@ -41,9 +44,11 @@ class MembershipSection : ConfigurationSectionWithCollection
 |`UserIsOnlineTimeWindow`|A read/write `datetime` value that specifies the time interval after the last-activity date/time stamp for a user during which the user is considered online. The default is 15 minutes.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -60,6 +65,7 @@ class MembershipSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Security.Membership](/dotnet/api/system.web.security.membership) 
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   

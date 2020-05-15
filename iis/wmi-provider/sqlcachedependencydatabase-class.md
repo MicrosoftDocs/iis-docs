@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 51602b5f-115f-373d-a75a-339b91c9ff94
 ---
 # SqlCacheDependencyDatabase Class
+
 Exposes configuration settings for SQL data in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SqlCacheDependencyDatabase : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SqlCacheDependencyDatabase` class.  
   
 |Name|Description|  
@@ -25,12 +28,15 @@ class SqlCacheDependencyDatabase : CollectionElement
 |`PollTime`|A read/write `sint32` value, in milliseconds, that specifies how often the SQL data source is queried for changes. The default is 60000. This property cannot be set to less than 500.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Databases` array property of the [SqlCacheDependencyDatabaseSettings](../wmi-provider/sqlcachedependencydatabasesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `SqlCacheDependencyDatabase`  
@@ -45,6 +51,7 @@ class SqlCacheDependencyDatabase : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency) 
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)   

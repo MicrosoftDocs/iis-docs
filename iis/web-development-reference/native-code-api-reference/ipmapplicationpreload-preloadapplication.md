@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 299d95c6-8184-4dda-8a54-8bcc9ce63447
 ---
 # IPmApplicationPreload::PreloadApplication
+
 Preloads an application into server memory given its site ID and configuration file path.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT PreloadApplication(
 ```  
   
 ### Parameters  
+
  `dwSiteId`  
  [IN] The ID of the application website.  
   
@@ -27,6 +29,7 @@ virtual HRESULT PreloadApplication(
  [IN] Indicates whether the worker process associated with the application is recycled.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -43,4 +46,5 @@ virtual HRESULT PreloadApplication(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IPmApplicationPreload Interface](../../web-development-reference/native-code-api-reference/ipmapplicationpreload-interface.md)

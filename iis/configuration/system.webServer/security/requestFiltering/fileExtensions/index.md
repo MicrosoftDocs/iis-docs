@@ -10,6 +10,7 @@ msc.type: config
 # File Name Extensions &lt;fileExtensions&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<fileExtensions>` element contains a collection of `<add>` elements that specify unique file name extensions that IIS will either allow or deny, depending on how each `<add>` element is defined. By using the `<fileExtensions>` element, you can fine-tune the types of content that your server will make available to Web clients.
@@ -26,6 +27,7 @@ For example, if you set the **allowUnlisted** attribute to **false**, all reques
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -38,6 +40,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 6.0 | The `<fileExtensions>` element replaces the IIS 6.0 UrlScan **[AllowExtensions]** and **[DenyExtensions]** features. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -81,6 +84,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for request filtering. To install the Microsoft Administration Pack for IIS 7.0, please see the following URL:
@@ -114,6 +118,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](index/_static/image14.png)](index/_static/image13.png)  For example, to prevent access to files with a file name extension of .inc, you would enter &quot;inc&quot; in the dialog box.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -138,6 +143,7 @@ The following example Web.config file will configure two options. It will config
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will add an entry to the list of file name extensions for the Default Web Site that will deny access to all files with an extension of .inc, which are sometimes used as include files for applications, and they will configure request filtering to allow WebDAV access to hidden segments.

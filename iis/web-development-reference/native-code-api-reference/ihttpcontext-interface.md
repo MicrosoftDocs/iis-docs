@@ -5,6 +5,7 @@ ms.assetid: 133e92d0-4bba-5224-6deb-f369379be302
 ms.author: "robmcm"
 ---
 # IHttpContext Interface
+
 Defines an object that represents the processing context for request-level operations.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ class IHttpContext
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpContext` class.  
   
 |Name|Description|  
@@ -65,6 +67,7 @@ class IHttpContext
 |[IHttpContext4](../../web-development-reference/native-code-api-reference/ihttpcontext4-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.|  
   
 ## Remarks  
+
  The `IHttpContext` interface represents the main programmatic interface for HTTP modules to access information about the current request-level context. This interface retrieves several additional interfaces that you can use when writing HTTP modules.  
   
  For example, the `GetRequest` and `GetResponse` methods retrieve, respectively, the [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md) and [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md) interfaces for the current context. These interfaces allow developers to access or modify the request body and response body, HTTP headers, server behavior, and so on.  
@@ -83,4 +86,5 @@ class IHttpContext
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

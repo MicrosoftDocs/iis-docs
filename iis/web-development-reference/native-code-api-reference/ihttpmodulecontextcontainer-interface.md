@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9e80529b-fc32-c845-5d31-6feac3d7034b
 ---
 # IHttpModuleContextContainer Interface
+
 Maintains a collection of [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) pointers.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpModuleContextContainer
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpModuleContextContainer` class.  
   
 |Name|Description|  
@@ -27,6 +29,7 @@ class IHttpModuleContextContainer
 |[IDispensedHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md)|Extends `IHttpModuleContextContainer` by providing functionality for releasing a container.|  
   
 ## Remarks  
+
  Many [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] classes maintain a `private` `IDispensedHttpModuleContextContainer` pointer as a member variable. These classes implement various interfaces, including [IHttpApplication](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md), [IHttpConnection](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md), [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md), [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md), [IHttpSite](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md), [IHttpUrlInfo](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md), and [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md).  
   
  Each of these interfaces defines a `GetModuleContextContainer` method, which accepts no arguments and returns an `IHttpModuleContextContainer` pointer. When the various `GetModuleContextContainer` methods are called, most of these implementers return the `private` data as an upcast `IHttpModuleContextContainer`. This allows the interface implementers to expose custom containers while maintaining the lifetime of those containers.  
@@ -39,6 +42,7 @@ class IHttpModuleContextContainer
 >  While it may be a safe operation to downcast an `IHttpModuleContextContainer` to an `IDispensedHttpModuleContextContainer` by using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator, you should avoid performing this cast. The `IDispensedHttpModuleContextContainer` interface adds only one method, `ReleaseContainer`, to its base interface, and this method should be called only internally.  
   
 ## Notes for Callers  
+
  In some cases, an `IHttpModuleContextContainer` pointer may be downcast to an `IDispensedHttpModuleContextContainer` interface to access extended behavior.  
   
 > [!CAUTION]
@@ -48,6 +52,7 @@ class IHttpModuleContextContainer
 >  Consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes custom [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) information to the Event Viewer.  
   
 > [!CAUTION]
@@ -78,6 +83,7 @@ CStoredContext::Constructor
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  `IHttpModuleContextContainer`  
   
  [IDispensedHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md)  
@@ -92,4 +98,5 @@ CStoredContext::Constructor
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

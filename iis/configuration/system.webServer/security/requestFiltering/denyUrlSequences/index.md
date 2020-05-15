@@ -10,6 +10,7 @@ msc.type: config
 # Deny URL Sequences &lt;denyUrlSequences&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<denyUrlSequences>` element contains a collection of [`<add>`](add.md) elements that specify sequences of URL characters that IIS will deny, which helps prevent URL-based attacks on the Web server.
@@ -29,6 +30,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 > Beginning in IIS 7.5, you can override the URL sequences in the `<denyUrlSequences>` collection by adding URL sequences to the [`<alwaysAllowedUrls>`](../alwaysallowedurls/index.md) collection.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -41,6 +43,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 6.0 | The `<denyUrlSequences>` element replaces the IIS 6.0 UrlScan **[DenyUrlSequences]** features. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -84,6 +87,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for request filtering. To install the Microsoft Administration Pack for IIS 7.0, please see the following URL:
@@ -118,6 +122,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
  For example, to prevent directory transversal on your server, you would enter two periods ("..") in the dialog box.
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<denyUrlSequences>` element of the `<requestFiltering>` element is configured at the site, application, or directory level.
@@ -145,6 +150,7 @@ The following sample illustrates a combination of a `<denyUrlSequences>` element
 [!code-xml[Main](index/samples/sample2.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples demonstrate how to deny access to three URL sequences for the Default Web Site: directory transversals (".."), alternate data streams (":"), and backslashes ("\").

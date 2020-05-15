@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5d097082-ce21-3515-cf8c-d04aa6fb9f00
 ---
 # IAppHostPropertySchema::Type Property
+
 Gets the data type of the current schema.  
   
 ## Syntax  
@@ -17,10 +18,12 @@ HRESULT get_Type(
 ```  
   
 ### Parameters  
+
  `pbstrType`  
  A pointer to a `BSTR` that contains the type name of the current [IAppHostPropertySchema](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -37,4 +40,5 @@ HRESULT get_Type(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

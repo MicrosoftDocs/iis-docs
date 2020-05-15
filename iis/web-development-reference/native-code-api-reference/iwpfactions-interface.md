@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 66a0c836-9313-85e0-936c-975987275500
 ---
 # IWpfActions Interface
+
 Allows a protocol manager to request that the worker process framework request a recycle or an immediate shutdown of the host process from the process manager.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IWpfActions : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IWpfActions` interface.  
   
 |Name|Description|  
@@ -23,6 +25,7 @@ class IWpfActions : public IWpfReferencedObject
 |[Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IWpfActions`  
@@ -37,6 +40,7 @@ class IWpfActions : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

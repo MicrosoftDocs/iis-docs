@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ce0cb6ed-e8a5-ebb7-d063-cdd80ccf6ac9
 ---
 # HttpCompressionSection Class
+
 Configures HTTP compression.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpCompressionSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpCompressionSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HttpCompressionSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpCompressionSection` class.  
   
 |Name|Description|  
@@ -54,9 +57,11 @@ class HttpCompressionSection : ConfigurationSectionWithCollection
 |`StaticTypes`|A [StaticTypeSettings](../wmi-provider/statictypesettings-class.md) value that contains file name extensions that IIS can serve with static compression.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Static compression is on by default in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)]. The `StaticCompressionEnableCpuUsage`, `StaticCompressionDisableCpuUsage`, `DynamicCompressionEnableCpuUsage`, and `DynamicCompressionDisableCpuUsage` properties have been added to enable or disable compression on the fly depending on CPU load.  
   
  The following compression properties from IIS 6.0 are no longer present in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)]:  
@@ -80,6 +85,7 @@ class HttpCompressionSection : ConfigurationSectionWithCollection
 - `HcScriptFileExtensions`  
   
 ## Example  
+
  The following example displays the non-array properties in the `HttpCompressionSection` class and lists the static and dynamic compression array properties.  
   
 ```  
@@ -162,6 +168,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -178,6 +185,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)   
  [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5169123e-c88c-f1a4-750f-159bb0db613a
 ---
 # BypassElement Class
+
 Contains address information for resources that bypass the Web proxy server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class BypassElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `BypassElement` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class BypassElement : CollectionElement
 |`Address`|A required unique read/write `string` value that contains a regular expression that defines a resource address or addresses that bypass the proxy server. Requests for the resource are sent instead directly to the server where the resource resides. The key property. **Note:**  For more information about regular expressions, see the [System.Text.RegularExpressions](https://go.microsoft.com/fwlink/?LinkId=73545) namespace.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `BypassList` array property of the [BypassListSettings](../wmi-provider/bypasslistsettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `BypassElement`  
@@ -43,6 +49,7 @@ class BypassElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [BypassListSettings Class](../wmi-provider/bypasslistsettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)   

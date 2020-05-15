@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c3b5306e-b7d7-43cd-9219-8d733046b6de
 ---
 # IAppHostPropertyExtension::ProvideGetProperty Method
+
 Fills a dynamic property in the specified element with a value.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ HRESULT ProvideGetProperty(
 ```  
   
 ### Parameters  
+
  `pElement`  
  Parent element of the dynamic property.  
   
@@ -23,6 +25,7 @@ HRESULT ProvideGetProperty(
  The dynamic property whose value is filled in by the method implementation.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,4 +42,5 @@ HRESULT ProvideGetProperty(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertyExtension Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyextension-interface.md)

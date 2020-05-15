@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e376d4dc-5ebe-6a12-b192-06cd5b8450a5
 ---
 # StringElement Class
+
 Contains a unique string that belongs to an array that forms a property on a class in the WMI provider for IIS.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class StringElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `StringElement` class.  
   
 |Name|Description|  
@@ -23,9 +26,11 @@ class StringElement : CollectionElement
 |`Value`|A required unique read/write `string` value that belongs to an array of similar strings that forms a property on an IIS WMI provider class. The relevant classes and properties are listed later in the Remarks section. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists classes in the IIS WMI provider that have properties that are implemented as arrays of `StringElement` instances.  
   
 |Class|Property|Description|  
@@ -35,6 +40,7 @@ class StringElement : CollectionElement
 |[TraceUrlSettings](../wmi-provider/traceurlsettings-class.md)|`HttpTracing`|An array of elements that configure tracing for specific types of requests.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `StringElement`  
@@ -49,6 +55,7 @@ class StringElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AuthenticationProviderSettings Class](../wmi-provider/authenticationprovidersettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)   

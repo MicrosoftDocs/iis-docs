@@ -10,6 +10,7 @@ msc.type: config
 # Adding Header Limits &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<headerLimits>` collection specifies the maximum size limit for an HTTP header.
@@ -24,6 +25,7 @@ The `<add>` element of the `<headerLimits>` collection specifies the maximum siz
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
  
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,6 +38,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 6.0 | The `<requestLimits>` element replaces the IIS 6.0 UrlScan **[RequestLimits]** features. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -79,6 +82,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for request filtering. To install the Microsoft Administration Pack for IIS 7.0, please see the following URL:
@@ -114,6 +118,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     For example, the "Content-type" header contains the MIME type for a request. Specifying a value of 100 would limit the length of the "Content-type" header to 100 bytes.
  
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -134,6 +139,7 @@ The following example Web.config file will configure IIS to deny access for HTTP
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will configure IIS to deny access for HTTP requests where the length of the &quot;Content-type&quot; header is greater than 100 bytes.

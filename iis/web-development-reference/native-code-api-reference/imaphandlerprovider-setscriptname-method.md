@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 73a6422e-0505-3923-d4e4-85b5d988bc20
 ---
 # IMapHandlerProvider::SetScriptName Method
+
 This method is not supported.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT SetScriptName(
 ```  
   
 ### Parameters  
+
  `pszScriptName`  
  Not supported.  
   
@@ -23,9 +25,11 @@ virtual HRESULT SetScriptName(
  Not supported.  
   
 ## Return Value  
+
  Not supported.  
   
 ## Remarks  
+
  This method is not supported.  
   
 ## Requirements  
@@ -38,4 +42,5 @@ virtual HRESULT SetScriptName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMapHandlerProvider Interface](../../web-development-reference/native-code-api-reference/imaphandlerprovider-interface.md)

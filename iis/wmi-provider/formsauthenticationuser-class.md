@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2f57cdd1-9ec2-dc0b-7332-47cbca2b8f46
 ---
 # FormsAuthenticationUser Class
+
 Configures user credentials for Web applications that use Forms authentication.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FormsAuthenticationUser : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FormsAuthenticationUser` class.  
   
 |Name|Description|  
@@ -24,14 +27,17 @@ class FormsAuthenticationUser : CollectionElement
 |`Password`|A read/write `string` value that specifies the user password that is required by the Web application.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Credentials` property of the [FormsAuthenticationCredentials](../wmi-provider/formsauthenticationcredentials-class.md) class.  
   
  A `FormsAuthenticationUser` object can write information into the related section of the configuration file at computer, site, or application level only. Any attempt to write in a configuration file at a different level in the hierarchy will result in a parser-generated error message. However, you can use this class to read configuration information at any level in the hierarchy. For safety and scalability, you should use an external repository, such as a database, to keep user credentials.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `FormsAuthenticationUser`  
@@ -46,6 +52,7 @@ class FormsAuthenticationUser : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
  [BasicAuthenticationSection Class](../wmi-provider/basicauthenticationsection-class.md)   

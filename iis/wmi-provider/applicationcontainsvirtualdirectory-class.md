@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f0d66fa9-7661-4f48-99e1-c14e72d3c045
 ---
 # ApplicationContainsVirtualDirectory Class2
+
 Provides a relationship between an IIS application and its virtual directories.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationContainsVirtualDirectory : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationContainsVirtualDirectory` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class ApplicationContainsVirtualDirectory : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A read-only [VirtualDirectory](../wmi-provider/virtualdirectory-class.md) object that represents an IIS virtual directory. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This association enumerates the virtual directories for a given application.  
   
 ## Example  
+
  The following example lists the virtual directory paths and physical paths for the default Web site.  
   
 ```  
@@ -59,6 +65,7 @@ Next
  `Set oVDirs = oApp.Associators_(, "VirtualDirectory")`  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `ApplicationContainsVirtualDirectory`  
@@ -73,6 +80,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)

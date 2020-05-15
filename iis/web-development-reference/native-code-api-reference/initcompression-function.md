@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 46adcc95-ab70-46a7-83d2-313a82dcef41
 ---
 # InitCompression Function
+
 Initializes the compression scheme.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ HRESULT WINAPI InitCompression(
 ```  
   
 ### Parameters  
+
  This function takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -25,6 +28,7 @@ HRESULT WINAPI InitCompression(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  When used with IIS, `InitCompression` is called when the compression scheme dynamic Link Library (DLL) is loaded by IIS compression module.  
   
 ## Requirements  
@@ -37,4 +41,5 @@ HRESULT WINAPI InitCompression(
 |Header|Httpcompression.h|  
   
 ## See Also  
+
  [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

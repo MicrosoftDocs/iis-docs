@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b74c5e72-f193-9c6c-9651-b1c08ebb127c
 ---
 # IHttpCachePolicy::GetKernelCachePolicy Method
+
 Returns the cache policy for the kernel.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual HTTP_CACHE_POLICY* GetKernelCachePolicy(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [HTTP_CACHE_POLICY](https://go.microsoft.com/fwlink/?LinkId=62468).  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetKernelCachePolicy` method to retrieve an `HTTP_CACHE_POLICY` pointer.  
   
  The `GetKernelCachePolicy` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -28,12 +32,15 @@ virtual HTTP_CACHE_POLICY* GetKernelCachePolicy(
  The current default implementer of the [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private``HTTP_CACHE_POLICY` structure. During the construction of this implementer, the [Policy](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to `HttpCachePolicyNocache`, and the [SecondsToLive](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to 0. The `GetKernelCachPolicy` method returns the address of this same `HTTP_CACHE_POLICY` structure.  
   
 ## Notes for Implementers  
+
  [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` implementers that use dynamic memory allocation must release or call `delete` on the `HTTP_CACHE_POLICY` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` clients must not release or call `delete` on the returned `HTTP_CACHE_POLICY` pointer when this data is no longer needed.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes cache policy information for the kernel to the response stream.  
   
  [!code-cpp[IHttpCachePolicy#5](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCachePolicy/cpp/GetKernelCachePolicy.cpp#5)]  
@@ -50,6 +57,7 @@ Seconds-to-Live: 0
  You can optionally compile the code by using the __`stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Thread Safety  
+
  The `GetKernelCachePolicy` method is thread safe. However, modifying the `HTTP_CACHE_POLICY` members independently is not thread safe because these members are `public` fields on a shared structure.  
   
 ## Requirements  
@@ -62,4 +70,5 @@ Seconds-to-Live: 0
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

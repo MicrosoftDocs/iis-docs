@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 566b6315-00a6-0d9a-17ae-e531139a4912
 ---
 # IHttpContext::GetRequest Method
+
 Returns the HTTP request container for the current context.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual IHttpRequest* GetRequest(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md) interface.  
   
 ## Remarks  
+
  The `GetRequest` method returns a pointer to an `IHttpRequest` interface that can be used to call any of the `IHttpRequest` methods.  
   
 > [!NOTE]
 >  The HTTP context object owns the lifetime of this object. Therefore, you do not free this pointer when writing HTTP modules.  
   
 ## Example  
+
  The following code example illustrates how to use the `IHttpContext::GetRequest` and [GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) methods to return pointers to `IHttpRequest` and [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md) interfaces. This example also demonstrates how to use the [IHttpRequest::GetHttpMethod](../../web-development-reference/native-code-api-reference/ihttprequest-gethttpmethod-method.md) method to retrieve the HTTP method for the current request, and it displays the method to a Web client by using the [IHttpResponse::WriteEntityChunks](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunks-method.md) method.  
   
  [!code-cpp[IHttpContextGetRequest#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetRequest/cpp/IHttpContextGetRequest.cpp#1)]  
@@ -45,5 +50,6 @@ virtual IHttpRequest* GetRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::GetResponse Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md)

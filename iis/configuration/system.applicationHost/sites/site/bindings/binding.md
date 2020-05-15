@@ -10,6 +10,7 @@ msc.type: config
 # Binding &lt;binding&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<binding>` element of the `<bindings>` element allows you to configure the information required for requests to communicate with a Web site.
@@ -25,6 +26,7 @@ IIS 8.0 or later enables you to provide security for Web sites by using the cert
 The **binding** element enables you to specify the type of binding used for Secure Sockets Layer (SSL) certificates.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,6 +39,7 @@ The **binding** element enables you to specify the type of binding used for Secu
 | IIS 6.0 | The `<bindings>` collection replaces sections of the **ServerBindings** property on the IIS 6.0 **IIsWebServer** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<binding>` element is included in the default installation of IIS 7 and later.
@@ -55,6 +58,7 @@ In IIS 8 and later, the certificates in a centralized certificate store can be u
 8. On the **Results** page, click **Close**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add binding information to a site
@@ -91,6 +95,7 @@ In IIS 8 and later, the certificates in a centralized certificate store can be u
 5. Select **Enable Centralized Certificates** and enter a physical path. Enter a user name for the path, enter a password for the path, and confirm the password. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can add `<binding>` elements within the `<bindings>` element for each site in the ApplicationHost.config file. Each site must have at least one HTTP or HTTPS binding to be viewable over the Internet.
@@ -114,6 +119,7 @@ The following example defines a site named Contoso with two bindings. The first 
 [!code-xml[Main](binding/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure a site named Contoso with a hostname of &quot;www.contoso.com&quot; on port 80 for the IP address of 192.168.0.1, and an HTTPS binding for all IP addresses over port 443.

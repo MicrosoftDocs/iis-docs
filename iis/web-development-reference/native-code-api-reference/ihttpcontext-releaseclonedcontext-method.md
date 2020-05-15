@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f43a4f35-dc84-d61d-09e1-cd512ee0b14a
 ---
 # IHttpContext::ReleaseClonedContext Method
+
 Releases a cloned [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) instance.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual HRESULT ReleaseClonedContext(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,12 +29,14 @@ virtual HRESULT ReleaseClonedContext(
 |ERROR_INVALID_PARAMETER|Indicates that the parent context for the current request is not valid (for example, a child context is being released after the parent has been released).|  
   
 ## Remarks  
+
  The `ReleaseClonedContext` method releases an instance of an `IHttpContext` interface. For example, if you create a child context by using the [IHttpContext::CloneContext](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md) method, you would call the child's `ReleaseClonedContext` method to release the child context when you are finished using it.  
   
 > [!IMPORTANT]
 >  Calling the `ReleaseClonedContext` method to release a child request after releasing its parent context will return ERROR_INVALID_PARAMETER. For example, if you create a child context and then use that child to create a nested child request, you will need to release the child contexts in reverse-order of their creation.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_MAP_PATH](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -68,6 +73,7 @@ virtual HRESULT ReleaseClonedContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::CloneContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md)   
  [IHttpContext::ExecuteRequest Method](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md)

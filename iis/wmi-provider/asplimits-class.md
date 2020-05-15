@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7e2263ab-ad01-26b5-3846-fdf08a65f7bb
 ---
 # AspLimits Class
+
 Configures properties related to ASP limits.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AspLimits : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AspLimits` class.  
   
 |Name|Description|  
@@ -29,12 +32,15 @@ class AspLimits : EmbeddedObject
 |`ScriptTimeout`|A read/write `datetime` value that specifies the default length of time that ASP pages allow a script to run before terminating the script and writing an event to the Windows event log. The default is 1 minute 30 seconds.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Limits` property of the [AspSection](../wmi-provider/aspsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `AspLimits`  
@@ -49,6 +55,7 @@ class AspLimits : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AspCache Class](../wmi-provider/aspcache-class.md)   
  [AspComPlus Class](../wmi-provider/aspcomplus-class.md)   
  [AspSection Class](../wmi-provider/aspsection-class.md)   

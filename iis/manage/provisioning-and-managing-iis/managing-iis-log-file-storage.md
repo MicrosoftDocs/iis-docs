@@ -31,6 +31,7 @@ The above mitigations are described in the sections below. You may also want to 
 For more information, see [Configuring Logging in IIS](configure-logging-in-iis.md).
 
 <a id="00"></a>
+
 ## Enable Folder Compression
 
 IIS log files compress to about 2% of their original size. Enable compression of a log file as follows. You must be an administrator to perform this procedure.
@@ -49,6 +50,7 @@ This is a simple way to lower disk usage. It is not a final solution, however, b
 If the folder already contains a significant amount of data, it could take the computer a while to compress its contents. Also note that this one-time process could slow down the computer during the initial compression, so if this is a production server, perform this operation during off-peak hours to prevent service degradation.
 
 <a id="01"></a>
+
 ## Move the Log Folder to a Remote System
 
 IIS log files are stored by default in the `%SystemDrive%\inetpub\logs\LogFiles` folder of your IIS server. The folder is configured in the Directory property on the Logging page for either the server or an individual site. To lessen the problem of log disk usage, you can move your IIS log files to a folder on another server that has more space. This server can either be in the same domain as the local IIS server, or a different domain. You can save log files remotely either for the entire server or for individual Web sites.
@@ -75,6 +77,7 @@ Change the location of an IIS log file to a remote share as follows:
     For more information, see [Remote Logging](https://technet.microsoft.com/library/cc786172(v=ws.10).aspx).
 
 <a id="02"></a>
+
 ## Delete Old Log Files by Script
 
 You can control disk usage of log files by running a script that automatically deletes log files that are older than a certain age. Running this script in a scheduled task will keep the problem of a disk filling up under control without constant maintenance.
@@ -110,6 +113,7 @@ You can automate the task of deleting log files by script by creating a Windows 
 10. Navigate back to the Task Scheduler, right-click on the task, and click **End** so the status returns to **Ready** and the task is ready for scheduled runs.
 
 <a id="03"></a>
+
 ## Delete Old Log Files by the IIS Log Cleaner Tool
 
 IIS Log Cleaner is a simple tool for enacting a log retention policy for IIS. The tool runs in the background (once every hour) and cleans up the IIS log folder automatically, deleting log files older than a maximum age that you set. The log files are moved to the Recycle bin to avoid potential data loss. You can also run the cleaning process manually, and you can pause the automated process.

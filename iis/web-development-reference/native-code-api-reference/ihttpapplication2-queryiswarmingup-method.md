@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cb47f0f0-5e7d-4aae-8051-6feccedd661d
 ---
 # IHttpApplication2::QueryIsWarmingUp Method
+
 Indicates whether the application is in the process of warming up.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual BOOL QueryIsWarmingUp(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  Returns `true` if the application is warming up; otherwise `false`.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual BOOL QueryIsWarmingUp(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication2 Interface](../../web-development-reference/native-code-api-reference/ihttpapplication2-interface.md)

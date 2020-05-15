@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 53ff5239-6b31-1fd2-4f9d-4779adf27628
 ---
 # IAppHostProperty::GetMetadata Method
+
 Gets metadata values for the current property.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   
@@ -25,6 +27,7 @@ HRESULT GetMetadata(
  A pointer to a `VARIANT` that contains the metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -42,4 +45,5 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

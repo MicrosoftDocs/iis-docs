@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3ca70926-30f4-ebc5-2148-a3b8d0a6cbbe
 ---
 # IHttpPerfCounterInfo Interface
+
 Provides an interface for incrementing and decrementing performance counters.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpPerfCounterInfo
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpPerfCounterInfo` interface.  
   
 |Name|Description|  
@@ -21,6 +23,7 @@ class IHttpPerfCounterInfo
 |[IncrementCounter](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-incrementcounter-method.md)|Increments a performance counter by a specified amount.|  
   
 ## Remarks  
+
  Calling the [IHttpServer::GetPerfCounterInfo](../../web-development-reference/native-code-api-reference/ihttpserver-getperfcounterinfo-method.md) and [IHttpSite::GetPerfCounterInfo](../../web-development-reference/native-code-api-reference/ihttpsite-getperfcounterinfo-method.md) methods will return, respectively, a server-level or site-level `IHttpPerfCounterInfo` interface, which is used to modify the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] performance counters.  
   
 > [!IMPORTANT]
@@ -36,6 +39,7 @@ class IHttpPerfCounterInfo
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference/native-code-api-reference/ihttpserver-getperfcounterinfo-method.md)   
  [IHttpSite::GetPerfCounterInfo Method](../../web-development-reference/native-code-api-reference/ihttpsite-getperfcounterinfo-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 33897340-911a-4c64-ab92-db1fc283b332
 ---
 # PFN_WEB_CORE_ACTIVATE Function
+
 Starts an instance of the Hosted Web Core.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(
 ```  
   
 ### Parameters  
+
  `pszAppHostConfigFile`  
  A pointer to a string that contains the path of a configuration file.  
   
@@ -27,6 +29,7 @@ typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(
  A pointer to a string that contains the name of the instance that will be used for event logging.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,6 +42,7 @@ typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(
 >  If the `PFN_WEB_CORE_ACTIVATE` function returns an ERROR_INVALID_DATA message, the Event Viewer may contain additional details regarding the cause of the failure.  
   
 ## Remarks  
+
  The `PFN_WEB_CORE_ACTIVATE` function is a prototype for the `WebCoreActivate` DLL entry point in Hwebcore.dll that is used to start the Hosted Web Core. The process that hosts the Web core is required to provide the path of a configuration file that contains the configuration settings for any sites, the application pool, and so on, that are to be created.  
   
 > [!NOTE]
@@ -56,5 +60,6 @@ typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(
 |Header|Hwebcore.h|  
   
 ## See Also  
+
  [Hosted Web Core API Reference](../../web-development-reference/native-code-api-reference/hosted-web-core-api-reference.md)   
  [PFN_WEB_CORE_SHUTDOWN Function](../../web-development-reference/native-code-api-reference/pfn-web-core-shutdown-function.md)

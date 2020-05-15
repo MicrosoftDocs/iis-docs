@@ -10,6 +10,7 @@ msc.type: config
 # Default Bindings &lt;bindings&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<bindings>` element configures the default binding information for all IIS 7 Web sites.
@@ -19,6 +20,7 @@ This element can contain a collection of `<binding>` elements. Each element in t
 You can also use a `<clear />` element in the `<bindings>` element of a `<site>` element to override the binding defaults inherited from the server level `<siteDefaults>` element.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,11 +33,13 @@ You can also use a `<clear />` element in the `<bindings>` element of a `<site>`
 | IIS 6.0 | The `<bindings>` collection replaces sections of the **ServerBindings** property on the IIS 6.0 **IIsWebServer** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<bindings>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the site defaults for a server
@@ -64,6 +68,7 @@ The `<bindings>` element is included in the default installation of IIS 7.
     [![](index/_static/image4.png)](index/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 You can add a `<bindings>` element for a server, which can contain a collection of individual `<binding>` elements that define the default protocol bindings for the server. You can also use a `<clear />` element in the `<bindings>` element of a `<site>` element to override the binding defaults inherited from the server level `<siteDefaults>` element.
@@ -86,6 +91,7 @@ The following configuration sample specifies the default `bindings` options for 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure the default `bindings` options for IIS 7.

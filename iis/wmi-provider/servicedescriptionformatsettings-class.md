@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7fffcc59-13b7-4e54-892e-17cb49c01a42
 ---
 # ServiceDescriptionFormatSettings Class
+
 Contains Web service description information.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ServiceDescriptionFormatSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ServiceDescriptionFormatSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ServiceDescriptionFormatSettings : EmbeddedObject
 |`ServiceDescriptionFormatExtensionTypes`|An array of [TypeElement](../wmi-provider/typeelement-class.md) values that specify the service description format extensions to run in the scope of the configuration file.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ServiceDescriptionFormatExtensionTypes` array property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ServiceDescriptionFormatSettings`  
@@ -43,6 +49,7 @@ class ServiceDescriptionFormatSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [TypeElement Class](../wmi-provider/typeelement-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

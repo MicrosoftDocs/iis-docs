@@ -10,6 +10,7 @@ msc.type: config
 # Custom Headers &lt;customHeaders&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<customHeaders>` element of the `<httpProtocol>` element specifies custom HTTP headers that Internet Information Services (IIS) 7 will return in HTTP responses from the Web server.
@@ -18,6 +19,7 @@ The `<customHeaders>` element of the `<httpProtocol>` element specifies custom H
 > HTTP headers are name and value pairs that are returned in responses from a Web server. Custom response headers are sent to the client together with the default HTTP header. Unlike redirect response headers, which are returned in responses only when redirection occurs, custom response headers are returned in every response.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,11 +32,13 @@ The `<customHeaders>` element of the `<httpProtocol>` element specifies custom H
 | IIS 6.0 | The `<customHeaders>` element replaces the IIS 6.0 **HttpCustomHeaders** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<customHeaders>` element of the `<httpProtocol>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to set custom HTTP headers for a Web site or application
@@ -64,6 +68,7 @@ The `<customHeaders>` element of the `<httpProtocol>` element is included in the
     [![](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -90,6 +95,7 @@ The following configuration sample sets a custom HTTP header and value.
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples set a custom HTTP header and value.

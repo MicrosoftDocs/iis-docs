@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7752989d-a9b4-2c37-c4a3-886923b0e5f8
 ---
 # IAppHostConfigLocationCollection::Item Property
+
 Gets a configuration location at the requested index from the current collection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT get_Item(
 ```  
   
 ### Parameters  
+
  `varIndex`  
  A `VARIANT` that contains the index of the requested location.  
   
@@ -24,6 +26,7 @@ HRESULT get_Item(
  A pointer to a pointer for an [IAppHostConfigLocation](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,4 +43,5 @@ HRESULT get_Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocationCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md)

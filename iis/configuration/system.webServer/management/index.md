@@ -10,6 +10,7 @@ msc.type: config
 # Management &lt;management&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<management>` element specifies remote management settings for users that connect to your server using IIS Manager. The `<management>` element contains three child elements:
@@ -22,6 +23,7 @@ The `<management>` element specifies remote management settings for users that c
 > The settings in the `<management>` element can only be configured in the Administration.config file.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<management>` element specifies remote management settings for users that c
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the **Management Service** role service. To install this role service, use the following steps.
@@ -77,6 +80,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable IIS Manager credentials for a server
@@ -160,6 +164,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](index/_static/image28.png)](index/_static/image27.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -189,6 +194,7 @@ The following configuration sample shows how to authorize an IIS Manager user na
 [!code-xml[Main](index/samples/sample3.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add an IIS Manager user account named ContosoUser to IIS 7.

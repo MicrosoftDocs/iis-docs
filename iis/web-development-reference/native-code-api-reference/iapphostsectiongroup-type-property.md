@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b3e52338-322f-a954-c6a8-e5641d214dba
 ---
 # IAppHostSectionGroup::Type Property
+
 Gets or sets the type name of the configuration section group.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ HRESULT put_Type(
 ```  
   
 ### Parameters  
+
  `pbstrType`  
  A pointer to a `BSTR` that contains the name of the configuration section group.  
   
@@ -26,6 +28,7 @@ HRESULT put_Type(
  A `BSTR` that contains the type name of the configuration section group.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ HRESULT put_Type(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  IIS rarely uses the `Type` property or the underlying `Type` attribute.  
   
 ## Requirements  
@@ -45,4 +49,5 @@ HRESULT put_Type(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

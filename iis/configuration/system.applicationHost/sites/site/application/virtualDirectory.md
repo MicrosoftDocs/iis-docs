@@ -10,6 +10,7 @@ msc.type: config
 # Virtual Directory &lt;virtualDirectory&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<virtualDirectory>` element is a child of the `<application>` element and controls the configuration settings for a specific virtual directory. A virtual directory is a directory name (also referred to as path) that you specify in Internet Information Services (IIS) 7 and map to a physical directory on a local or remote server. The virtual directory name becomes part of the application's URL, and users can request the URL from a browser to access content in the physical directory, such as a Web page or a list of additional directories and files. If you specify a different name than the physical directory for the virtual directory, it is more difficult for users to discover the actual physical file structure on your server because the URL does not map directly to the root of the site.
@@ -17,6 +18,7 @@ The `<virtualDirectory>` element is a child of the `<application>` element and c
 In IIS 7, each application must have a virtual directory, known as the root virtual directory, and maps the application to the physical directory that contains the application's content. However, an application can have more than one virtual directory. For example, you might use a virtual directory when you want your application to include images from another location in the file system, but you do not want to move the image files into the physical directory that is mapped to the application's root virtual directory.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,11 +31,13 @@ In IIS 7, each application must have a virtual directory, known as the root virt
 | IIS 6.0 | The `<virtualDirectory>` element replaces the IIS 6.0 **IIsWebVirtualDir** and **IIsWebDirectory** metabase objects. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<virtualDirectory>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to create a new Virtual Directory
@@ -64,6 +68,7 @@ The `<virtualDirectory>` element is included in the default installation of IIS 
     > You can click **Connect as...** to configure the server to use the specified credentials when it accesses content in the virtual directory, and click **Test Settings...** to test authentication and authorization settings for the virtual directory.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<virtualDirectory>` element is configurable at the server, site, and application level in the ApplicationHost.config file.
@@ -90,6 +95,7 @@ The following configuration example displays a `<site>` element that contains tw
 [!code-xml[Main](virtualDirectory/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples create a new application named ShoppingCart with a virtual directory root of C:\Inetpub\Contoso\ShoppingCart for a site that is named Contoso.

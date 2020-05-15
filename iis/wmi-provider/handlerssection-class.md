@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 861ed70d-87e7-7f0e-791e-ed4bd13e7234
 ---
 # HandlersSection Class
+
 Stores the handlers for a URL.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HandlersSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HandlersSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HandlersSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HandlersSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class HandlersSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<handlers>` section in the ApplicationHost.config file.  
   
  The following table lists the possible values for the `AccessPolicy` property. The default is 1 (`Read`).  
@@ -60,6 +65,7 @@ class HandlersSection : ConfigurationSectionWithCollection
 |16384|`NoRemoteScript`|The handler is not allowed to execute scripts remotely. Remote requests to execute dynamic content are denied. If the `Script` flag is also set, requests from only the computer that is running the IIS Web server will succeed. **Note:**  This flag was named `AccessNoRemoteScript` in IIS 6.0.|  
   
 ## Example  
+
  The following examples add and remove a handler from the `<handlers>` section.  
   
 > [!NOTE]
@@ -136,6 +142,7 @@ End Sub
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -152,5 +159,6 @@ End Sub
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [HandlerAction Class](../wmi-provider/handleraction-class.md)

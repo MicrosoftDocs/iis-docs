@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 437b7c23-a582-c80c-c23d-15610b504be2
 ---
 # SettingsSection Class
+
 Contains settings that specify how the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] connects to the network.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SettingsSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SettingsSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class SettingsSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SettingsSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class SettingsSection : ConfigurationSection
 |`WebProxyScript`|A [WebProxyScriptSettings](../wmi-provider/webproxyscriptsettings-class.md) value that configures the characteristics of the script that is used to discover Web proxies.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `SettingsSection`  
@@ -56,6 +61,7 @@ class SettingsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [HttpWebRequestSettings Class](../wmi-provider/httpwebrequestsettings-class.md)   
  [Ipv6Settings Class](../wmi-provider/ipv6settings-class.md)   

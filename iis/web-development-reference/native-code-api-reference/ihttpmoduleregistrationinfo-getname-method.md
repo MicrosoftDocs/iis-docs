@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7b712ccb-f82e-894f-18cf-4c123c78b38e
 ---
 # IHttpModuleRegistrationInfo::GetName Method
+
 Retrieves the module name.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual PCWSTR GetName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the name of the module.  
   
 ## Remarks  
+
  You can use the `GetName` method to retrieve the configured name of the module as it appears in the [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)] and ApplicationHost.config file. For example, if you added a module to IIS, the settings in the ApplicationHost.config file might resemble the following excerpt:  
   
 ```  
@@ -33,6 +37,7 @@ virtual PCWSTR GetName(
  If you then called the `GetName` method, it would return "MyTestModule" as the name of the module.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetName` method to retrieve the name of the module. The module returns the name to a Web client and then exits.  
   
  [!code-cpp[IHttpModuleRegistrationInfoGetName#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpModuleRegistrationInfoGetName/cpp/IHttpModuleRegistrationInfoGetName.cpp#1)]  
@@ -51,4 +56,5 @@ virtual PCWSTR GetName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpModuleRegistrationInfo Interface](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-interface.md)

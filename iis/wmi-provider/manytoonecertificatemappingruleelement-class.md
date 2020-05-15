@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 04fe2a42-1c6f-8e6c-c296-7c03eec6ec42
 ---
 # ManyToOneCertificateMappingRuleElement Class
+
 Represents a many-to-one certificate mapping rule.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ManyToOneCertificateMappingRuleElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ManyToOneCertificateMappingRuleElement` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class ManyToOneCertificateMappingRuleElement : CollectionElement
 |`MatchCriteria`|A required unique read/write `string` value that specifies the value that must be present in the certificate subfield in order for the client certificate to be mapped to a token user account. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Rules` array property of the `ManyToOneCertificateRuleSettings` class.  
   
  The following table lists the possible values for the `CertificateField` property.  
@@ -39,6 +44,7 @@ class ManyToOneCertificateMappingRuleElement : CollectionElement
 |2|`Issuer`|The rule applies to the issuer of the certificate.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ManyToOneCertificateMappingRuleElement`  
@@ -53,6 +59,7 @@ class ManyToOneCertificateMappingRuleElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

@@ -10,6 +10,7 @@ msc.type: config
 # Management Authorization Providers &lt;providers&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<providers>` element of the `<authorization>` element specifies authorization providers that authorize IIS Manager users and Windows users who connect remotely to sites and applications by using IIS Manager.
@@ -18,6 +19,7 @@ The `<providers>` element of the `<authorization>` element specifies authorizati
 > The default authorization provider, *ConfigurationAuthorizationProvider*, uses the IIS Administration.config file to store authorization rules for IIS Manager.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<providers>` element of the `<authorization>` element specifies authorizati
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the **Management Service** role service. To install this role service, use the following steps.
@@ -73,11 +76,13 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<providers>` element of the `<authorization>` element for IIS 7. For examples of how to configure the `<providers>` element of the `<authorization>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -97,6 +102,7 @@ The following default `<providers>` element under the `<authorization>` element 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2f6912a9-9207-1a0f-1f00-6e3b44b810ed
 ---
 # IWpfListenerChannelCallback::ReportStopped Method
+
 Notifies the worker process framework that a listener channel has shut down.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT ReportStopped(
 ```  
   
 ### Parameters  
+
  `hr`  
  The `HRESULT` that reports the status of the listener channel. For example, `hr` might contain the `HRESULT` error when a listener channel fails to stop.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,6 +38,7 @@ virtual HRESULT ReportStopped(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-interface.md)   
  [IWpfListenerChannelCallback::GetBlob Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getblob-method.md)   
  [IWpfListenerChannelCallback::GetId Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getid-method.md)   

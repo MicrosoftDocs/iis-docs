@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0fde6681-e858-4593-92fe-e957f8cc6207
 ---
 # IHttpServer2::GetWorkerProcessFramework Method
+
 Retrieves the interface of the worker process framework for the server.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT GetWorkerProcessFramework(
 ```  
   
 ### Parameters  
+
  `ppWorkerProcessFramework`  
  [OUT] Points to the [IWorkerProcessFramework](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md) for the server..  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT GetWorkerProcessFramework(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer2 Interface](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)

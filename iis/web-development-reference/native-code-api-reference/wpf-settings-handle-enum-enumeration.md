@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 81a84a38-c9ab-323f-f181-8379d50c26c8
 ---
 # WPF_SETTINGS_HANDLE_ENUM Enumeration
+
 Defines the `HANDLE` values that the [IWpfSettings::GetHandleProperty](../../web-development-reference/native-code-api-reference/iwpfsettings-gethandleproperty-method.md) method returns.  
   
 ## Syntax  
@@ -30,6 +31,7 @@ enum WPF_SETTINGS_HANDLE_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Enumerations](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
  [IWpfSettings::GetHandleProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   
  [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-bool-enum-enumeration.md)   

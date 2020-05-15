@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 84ab0e10-0c50-6a3a-5bf6-67dd08552d74
 ---
 # IAppHostElement::Clear Method
+
 Removes all elements from the configuration system.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ HRESULT Clear(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,4 +36,5 @@ HRESULT Clear(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

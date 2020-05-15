@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4d881261-f89d-894c-4bc7-51623a7228ab
 ---
 # IAppHostMappingExtension::GetSiteNameFromSiteId Method
+
 Gets the name of a site by using the unique identifier for the site.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetSiteNameFromSiteId(
 ```  
   
 ### Parameters  
+
  `dwSiteId`  
  A `DWORD` that contains the site ID.  
   
@@ -25,6 +27,7 @@ HRESULT GetSiteNameFromSiteId(
  A pointer to a `BSTR` that contains the site name.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,4 +44,5 @@ HRESULT GetSiteNameFromSiteId(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMappingExtension Interface](../../web-development-reference/native-code-api-reference/iapphostmappingextension-interface.md)

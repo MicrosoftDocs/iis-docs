@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6ba8224a-bd99-15b8-2025-64ea4b1578b0
 ---
 # IHttpServer::DispenseContainer Method
+
 Returns a context container that may be dispensed.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IDispensedHttpModuleContextContainer* DispenseContainer(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IDispensedHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md).  
   
 ## Remarks  
+
  [IHttpServer](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md) implementers will typically return a `new``IDispensedHttpModuleContextContainer` that will call `delete` on itself when the [IDispensedHttpModuleContextContainer::ReleaseContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md) method is called.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. This module defines a custom [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) class and then calls the `DispenseContainer` method with a `new` pointer to that custom class. The example then writes the custom data to the Event Viewer.  
   
 > [!CAUTION]
@@ -55,4 +60,5 @@ virtual IDispensedHttpModuleContextContainer* DispenseContainer(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)

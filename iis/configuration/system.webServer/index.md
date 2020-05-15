@@ -10,6 +10,7 @@ msc.type: config
 # &lt;system.webServer&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<system.webServer>` element specifies the root element for many of the site-level and application-level configuration settings for Internet Information Services (IIS) 7 in the ApplicationHost.config file, and contains configuration elements that define the settings used by the Web server engine and modules.
@@ -18,6 +19,7 @@ The `<system.webServer>` element specifies the root element for many of the site
 > Unlike settings that are found in &lt;[`system.applicationHost`](../system.applicationhost/index.md)&gt;, settings in the `<system.webServer>` element can be delegated.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,16 +32,19 @@ The `<system.webServer>` element specifies the root element for many of the site
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<system.webServer>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There are no examples that are specific to the `<system.webServer>` element. For examples that configure the settings that are found within the `<system.webServer>` element, see the child elements that are listed in the [configuration details](#005) section of this topic.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<system.webServer>` element is defined in the ApplicationHost.config file, although settings in `<system.webServer>` element can be delegated to Web.config files.
@@ -88,6 +93,7 @@ The following configuration sample defines a simple, static-content-only `<syste
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 There are no code samples that are specific to the `<system.webServer>` element. For code samples that configure the settings that are found within the `<system.webServer>` element, see the child elements that are listed in the [configuration details](#005) section of this topic.

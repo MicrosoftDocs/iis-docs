@@ -16,6 +16,7 @@ In the second phase of planning a web farm, determine what is needed to configur
 When you are done with these tasks, record your design decisions before going on to [Step 3: Plan IIS Web Farm Load Balancing](planning-step-3-plan-iis-web-farm-load-balancing.md).
 
 <a id="21"></a>
+
 ## 2.1. Plan for Shared Content
 
 Network shared content uses a back-end file server to manage website content. All web servers point to a shared folder on the file server over a UNC path. To reduce the risk of failure, the file server is often mirrored to another server with some method of failover provided. For information about failover clusters, see [Failover Clustering](https://technet.microsoft.com/library/hh831579).
@@ -30,6 +31,7 @@ If your web farm supports ASP.NET applications, use the Code Access Security Pol
 Run the tool by using either a system command prompt, a PowerShell command prompt, or a Visual Studio command prompt. For more information, see [Step 2: Configure IIS Web Farm Servers](configuring-step-2-configure-iis-web-farm-servers.md).
 
 <a id="22"></a>
+
 ## 2.2. Plan for Shared Configuration
 
 Shared configuration is an IIS feature that helps support homogeneous web farms where all web servers share the same configuration. By using a UNC share, any changes to a master configuration file propagate across different servers without extra tools or programmatic support.
@@ -40,6 +42,7 @@ You enable shared configuration in two steps by using the IIS Manager.
 2. Point IIS to the UNC path for that shared folder.
 
 <a id="23"></a>
+
 ## 2.3 Plan to Add Web Servers
 
 To add web servers to you farm, first use IIS Manager to set up shared configuration by pointing to the configuration UNC path. When you restart IIS Manager, the shared site or sites will be listed. If your web farm supports ASP.NET applications, run the Caspol tool on the new server.

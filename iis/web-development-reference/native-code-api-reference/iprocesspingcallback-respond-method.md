@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a93fe82a-687e-5d97-ed25-5f3facaa6ef4
 ---
 # IProcessPingCallback::Respond Method
+
 Provides a callback routine that responds to a ping.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ virtual HRESULT __stdcall Respond(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,4 +36,5 @@ virtual HRESULT __stdcall Respond(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessPingCallback Interface](../../web-development-reference/native-code-api-reference/iprocesspingcallback-interface.md)

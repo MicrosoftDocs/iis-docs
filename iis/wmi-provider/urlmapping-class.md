@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b3f94d7a-9c83-4a85-c066-b208ff03ea45
 ---
 # UrlMapping Class
+
 Maps a displayed URL to the URL of a page in a Web application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class UrlMapping : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `UrlMapping` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class UrlMapping : CollectionElement
 |`Url`|A read-only `string` value that contains the displayed inbound URL to be remapped. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `UrlMappings` property of the [UrlMappingsSection](../wmi-provider/urlmappingssection-class.md) class.  
   
  The configuration of the `UrlMapping` class is stored in the Web.config file.  
@@ -35,6 +40,7 @@ class UrlMapping : CollectionElement
 >  This feature does not support wildcard characters or matches based on regular expressions.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `UrlMapping`  
@@ -49,5 +55,6 @@ class UrlMapping : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [UrlMappingsSection Class](../wmi-provider/urlmappingssection-class.md)

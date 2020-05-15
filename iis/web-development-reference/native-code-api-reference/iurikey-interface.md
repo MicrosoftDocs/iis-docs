@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a922afbd-c069-af8f-3ac8-413c70eb1489
 ---
 # IUriKey Interface
+
 Represents key information for accessing associated data in the Uniform Resource Identifier (URI) cache.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IUriKey : public IHttpCacheKey
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IUriKey` interface.  
   
 |Name|Description|  
@@ -29,12 +31,15 @@ class IUriKey : public IHttpCacheKey
 |[UpdateFrequentlyHitTickCount](../../web-development-reference/native-code-api-reference/iurikey-interface.md)|Increments a counter each time the URI is requested.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  The `IUriKey` interface extends the [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) interface by adding support for returning a site identifier, a site name, and the URL of the data in the cache. `IUriKey` also overrides the [IHttpCacheKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md) method by providing the default implementation through the [IUriKey::GetCacheName](../../web-development-reference/native-code-api-reference/iurikey-getcachename-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IUriKey` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -62,6 +67,7 @@ class IUriKey : public IHttpCacheKey
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)  
   
  `IUriKey`  
@@ -76,4 +82,5 @@ class IUriKey : public IHttpCacheKey
 |Header|Httpcach.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

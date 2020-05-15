@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 06006ede-2e42-a1c4-6627-3336ac22f636
 ---
 # IHttpContext::GetResponseHeadersSent Method
+
 Determines whether the HTTP response headers have been sent to the client.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL GetResponseHeadersSent(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if the HTTP response headers have been sent; otherwise, `false`.  
   
 ## Remarks  
+
  The `GetResponseHeadersSent` method determines whether another module has already sent the HTTP response headers to the client (for example, another HTTP module has called the [IHttpResponse::Flush](../../web-development-reference/native-code-api-reference/ihttpresponse-flush-method.md) method). The `GetResponseHeadersSent` method is especially useful when you are creating an HTTP module that writes values to the headers, because it enables you to have deterministic control over the information that your HTTP module outputs to a Web client.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetResponseHeadersSent` method to create an HTTP module that determines whether the headers have been written to the client. The module indicates the result by returning a message to a Web client.  
   
  [!code-cpp[IHttpContextGetResponseHeadersSent#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetResponseHeadersSent/cpp/IHttpContextGetResponseHeadersSent.cpp#1)]  
@@ -42,5 +47,6 @@ virtual BOOL GetResponseHeadersSent(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpResponse::Flush Method](../../web-development-reference/native-code-api-reference/ihttpresponse-flush-method.md)

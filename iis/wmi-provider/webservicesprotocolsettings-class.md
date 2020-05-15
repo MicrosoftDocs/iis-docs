@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 185f1e2f-20c7-450f-ae59-aac6fcfe5c91
 ---
 # WebServicesProtocolSettings Class
+
 Specifies protocols that decrypt data sent from a client browser in an HTTP request.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class WebServicesProtocolSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebServicesProtocolSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class WebServicesProtocolSettings : EmbeddedObject
 |`Protocols`|An array of [WebServicesProtocolElement](../wmi-provider/webservicesprotocolelement-class.md) values that specify transmission protocols that are used to decrypt data sent from a client browser in an HTTP request.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `Protocols` property on the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `WebServicesProtocolSettings`  
@@ -43,6 +49,7 @@ class WebServicesProtocolSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [WebServicesProtocolElement Class](../wmi-provider/webservicesprotocolelement-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cefa2c4f-3fde-009e-ee80-3af8719b3175
 ---
 # IHttpTokenKey Interface
+
 Represents key information for accessing associated data in the global token cache.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpTokenKey : public IHttpCacheKey
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpTokenKey` interface.  
   
 |Name|Description|  
@@ -27,17 +29,21 @@ class IHttpTokenKey : public IHttpCacheKey
 |[GetUserName](../../web-development-reference/native-code-api-reference/ihttptokenkey-getusername-method.md)|Returns the user name.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  Whenever a user logs on to a Web site, a token is created for that user. The `IHttpTokenKey` interface implements methods for gaining access to data that represents that user.  
   
  `IHttpTokenKey` extends the [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) interface by adding support for returning-user information, such as the logon method, the password hash, and the user name. `IHttpTokenKey` also overrides the [IHttpCacheKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md) method by providing the default implementation through the [IHttpTokenKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttptokenkey-getcachename-method.md) method.  
   
 ## Notes for Implementers  
+
  Each nonabstract class that implements the `IHttpTokenKey` interface must provide an algorithm in the `GetHash` method that maps the data that an `IHttpTokenKey` pointer holds to a unique `DWORD` value for that data across the global token cache.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenKey` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -65,6 +71,7 @@ class IHttpTokenKey : public IHttpCacheKey
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)  
   
  `IHttpTokenKey`  
@@ -79,4 +86,5 @@ class IHttpTokenKey : public IHttpCacheKey
 |Header|Httpcach.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

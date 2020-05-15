@@ -10,11 +10,13 @@ msc.type: config
 # Trace Failed Requests &lt;traceFailedRequests&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<traceFailedRequests>` element allows you to configure failed request tracing for a Web site, application, or directory. This element can contain a collection of `<add>` elements that define tracing rules, each of which specifies the extension of the request URL to which the rule applies, the trace providers and areas to enable, and the conditions that cause this rule to log the events.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<traceFailedRequests>` element allows you to configure failed request traci
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 After you finish the default installation of IIS 7 and later, you must install the tracing role service to use failed request tracing. After you install the role service, you still must enable failed request tracing at the site level, application level, or directory level.
@@ -69,6 +72,7 @@ After you finish the default installation of IIS 7 and later, you must install t
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable tracing
@@ -129,6 +133,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 10. Click **Finish**.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<traceFailedRequests>` element at the server level in the ApplicationHost.config file or at the site level, application level, or URL level in the appropriate Web.config file.
@@ -152,6 +157,7 @@ The following configuration example configures tracing at the server level in th
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable verbose failed request tracing for HTTP 500 errors in ASP.NET content on all requests to \*.aspx pages.

@@ -10,6 +10,7 @@ msc.type: config
 # Client Certificate Mapping Authentication &lt;clientCertificateMappingAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 `<clientCertificateMappingAuthentication>` element of the `<authentication>` element specifies whether client certificate mapping using Active Directory is enabled for Internet Information Services (IIS) 7.
@@ -23,6 +24,7 @@ msc.type: config
 For more information, see [Configuring Authentication in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64325) on the Microsoft TechNet Web site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -35,6 +37,7 @@ For more information, see [Configuring Authentication in IIS 7.0](https://go.mic
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<clientCertificateMappingAuthentication>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -77,6 +80,7 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
     [![](clientCertificateMappingAuthentication/_static/image8.png)](clientCertificateMappingAuthentication/_static/image7.png)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable client certificate mapping authentication for a server
@@ -104,6 +108,7 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
     [![](clientCertificateMappingAuthentication/_static/image12.png)](clientCertificateMappingAuthentication/_static/image11.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -123,6 +128,7 @@ The following configuration sample enables client certificate mapping authentica
 [!code-xml[Main](clientCertificateMappingAuthentication/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable client certificate mapping authentication using Active Directory for the Default Web Site, and configure the site to require SSL and negotiate client certificates.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2c5f2ce8-2f94-7147-2b00-5b81f5091489
 ---
 # ISendResponseProvider::GetLogData Method
+
 Retrieves the logging information for the current response.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual VOID* GetLogData(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to `VOID`.  
   
 ## Remarks  
+
  The `GetLogData` method retrieves a `VOID` pointer, which you cast to an [HTTP_LOG_FIELDS_DATA](https://go.microsoft.com/fwlink/?LinkId=59280) structure to process log information.  
   
 > [!NOTE]
@@ -32,6 +36,7 @@ virtual VOID* GetLogData(
  Before you call `GetLogData`, you need to call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information. When `GetReadyToLogData` returns `true`, your module can use the `GetLogData` method to retrieve the log information.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the `GetReadyToLogData` method to determine whether IIS is ready to log information. The module completes the following steps:  
   
 1. Uses the `GetLogData` method to retrieve an `HTTP_LOG_FIELDS_DATA` structure.  
@@ -60,6 +65,7 @@ virtual VOID* GetLogData(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
  [ISendResponseProvider::GetReadyToLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-getreadytologdata-method.md)   
  [ISendResponseProvider::SetLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-setlogdata-method.md)

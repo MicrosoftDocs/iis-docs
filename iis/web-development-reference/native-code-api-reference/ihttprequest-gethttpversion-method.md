@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f040ca7b-9b53-af66-c03f-b298d45448ea
 ---
 # IHttpRequest::GetHttpVersion Method
+
 Returns the HTTP version for the request.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual VOID GetHttpVersion(
 ```  
   
 ### Parameters  
+
  `pMajorVersion`  
  [OUT] A pointer to a `USHORT` buffer that receives the HTTP major version.  
   
@@ -23,15 +25,18 @@ virtual VOID GetHttpVersion(
  [OUT] A pointer to a `USHORT` buffer that receives the HTTP minor version.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `GetHttpVersion` method returns the HTTP version for the request, which enables you to write a module that can process a request differently depending on the HTTP version.  
   
 > [!NOTE]
 >  Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," and 2616, "Hypertext Transfer Protocol -- HTTP/1.1," describe the different HTTP versions.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetHttpVersion` method to create an HTTP module that retrieves the HTTP version for the current request. The example then returns this information to a Web client.  
   
  [!code-cpp[IHttpRequestGetHttpVersion#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetHttpVersion/cpp/IHttpRequestGetHttpVersion.cpp#1)]  
@@ -50,4 +55,5 @@ virtual VOID GetHttpVersion(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 845ce040-066f-7d89-84c7-363d144f681c
 ---
 # IProtocolManager::Shutdown Method
+
 Shuts down a protocol manager.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT Shutdown(
 ```  
   
 ### Parameters  
+
  `fImmediate`  
  `true` to indicates that the shutdown should be immediate; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ virtual HRESULT Shutdown(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The `Shutdown` method is called by a worker process when it is shutting down; other applications should not call `Shutdown`. A worker process may have interdependent protocol managers, and calling the `Shutdown` method for a protocol manager may create a shutdown conflict. This can occur, for example, when a protocol manager cannot shut down because it depends on another protocol manager that is attempting to shut down. In turn, that second protocol manager cannot shut down due to a dependency on the original protocol manager that cannot shut down.  
   
 ## Requirements  
@@ -38,6 +42,7 @@ virtual HRESULT Shutdown(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IProtocolManager Interface](../../web-development-reference/native-code-api-reference/iprotocolmanager-interface.md)   
  [IProtocolManager::GetCustomInterface Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-getcustominterface-method.md)   
  [IProtocolManager::GetPmInterface Method](../../web-development-reference/native-code-api-reference/iprotocolmanager-getpminterface-method.md)

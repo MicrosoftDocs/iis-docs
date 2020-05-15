@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cf44f648-20cd-eb13-fbb3-c5514cf5749d
 ---
 # ServicePointManagerSettings Class
+
 Represents the default settings used to create connections to a remote computer.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ServicePointManagerSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ServicePointManagerSettings` class.  
   
 |Name|Description|  
@@ -28,12 +31,15 @@ class ServicePointManagerSettings : EmbeddedObject
 |`UseNagleAlgorithm`|A `boolean` value. `true` if the Nagle algorithm is enabled; otherwise, `false`. The default is `true`. **Note:**  The Nagle algorithm reduces network traffic by buffering small packets of data and transmitting them as a single packet. This process is also referred to as *nagling*; it is widely used because it reduces the number of packets transmitted and lowers the overhead per packet.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ServicePointManager` property of the [SettingsSection](../wmi-provider/settingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ServicePointManagerSettings`  
@@ -48,6 +54,7 @@ class ServicePointManagerSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SettingsSection Class](../wmi-provider/settingssection-class.md)   
  [WebRequest Class](https://go.microsoft.com/fwlink/?LinkId=69332)

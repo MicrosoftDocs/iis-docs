@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a55acfd1-a520-a50d-c75e-488c090f1c6c
 ---
 # ProviderSettings Class
+
 Specifies the name and type of [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)]-related providers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProviderSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProviderSettings` class.  
   
 |Name|Description|  
@@ -23,15 +26,18 @@ class ProviderSettings : EmbeddedObject
 |`Providers`|An array of [ProviderElement](../wmi-provider/providerelement-class.md) values that specify [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)]-related providers.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Providers` property of the [HealthMonitoringSection](../wmi-provider/healthmonitoringsection-class.md), [SessionStateSection](../wmi-provider/sessionstatesection-class.md), and [SiteMapSection](../wmi-provider/sitemapsection-class.md) classes.  
   
 > [!NOTE]
 >  Do not confuse this class with the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)]–related [ProvidersSettings](../wmi-provider/providerssettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ProviderSettings`  
@@ -46,6 +52,7 @@ class ProviderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
  [ProviderElement Class](../wmi-provider/providerelement-class.md)   

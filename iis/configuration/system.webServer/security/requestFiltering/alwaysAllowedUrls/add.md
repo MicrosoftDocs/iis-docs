@@ -10,11 +10,13 @@ msc.type: config
 # Adding URLs That Will Always Be Allowed &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<alwaysAllowedUrls>` element specifies a unique URL that request filtering will always allow. The `<alwaysAllowedUrls>` element contains a collection URLs that request filtering will allow, which override the values in the [`<denyUrlSequences>`](../denyurlsequences/index.md) collection.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<add>` element of the `<alwaysAllowedUrls>` element specifies a unique URL 
 | IIS 6.0 | The `<alwaysAllowedUrls>` element is roughly analogous to the **[AlwaysAllowedUrls]** section that was added to URLScan 3.0. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -70,6 +73,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to always allow a URL
@@ -96,6 +100,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 5. In the **Allow URL** dialog box, enter the URL that you wish to allow, and then click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element of the `<alwaysAllowedUrls>` element is configured at the site, application, or directory level.
@@ -117,6 +122,7 @@ The following sample illustrates a combination of a `<denyUrlSequences>` element
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples demonstrate how to add a URL that will always be allowed on the Default Web Site.

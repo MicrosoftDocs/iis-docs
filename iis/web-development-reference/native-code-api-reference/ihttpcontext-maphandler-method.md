@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0903f587-51b1-4eb2-a38e-3c4b11c6c31a
 ---
 # IHttpContext::MapHandler Method
+
 Maps a handler for the specified URL and HTTP verb on a site.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ virtual HRESULT MapHandler(
 ```  
   
 ### Parameters  
+
  `dwSiteId`  
  [IN] The ID of the site that contains the URL for mapping.  
   
@@ -39,6 +41,7 @@ virtual HRESULT MapHandler(
  [IN] `true` to ignore wildcard mapping; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -47,9 +50,11 @@ virtual HRESULT MapHandler(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `IScriptMapInfo` interface is valid to use for the lifetime of the [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
 ## Example  
+
  The following code example demonstrates how to use the `MapHandler` method to create an HTTP module that returns.  
   
  [!code-cpp[IHttpContextMapHandler#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/_New/IHttpContextMapHandler/cpp/IHttpContextMapHandler.cpp#1)]
@@ -68,5 +73,6 @@ virtual HRESULT MapHandler(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

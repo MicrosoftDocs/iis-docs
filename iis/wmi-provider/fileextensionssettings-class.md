@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b437c7ab-64b4-f7b7-6f22-a699a37cead7
 ---
 # FileExtensionsSettings Class
+
 Configures the filtering of file extensions in requests.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FileExtensionsSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FileExtensionsSettings` class.  
   
 |Name|Description|  
@@ -25,12 +28,15 @@ class FileExtensionsSettings : EmbeddedObject
 |`FileExtensions`|An array of read/write [FileExtensionElement](../wmi-provider/fileextensionelement-class.md) values that specifies file extensions that are allowed or denied.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `FileExtensions` property of the [RequestFilteringSection](../wmi-provider/requestfilteringsection-class.md) class. In the ApplicationHost.config file, this class represents the `<fileExtensions>` element of the `<requestFiltering>` section  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `FileExtensionsSettings`  
@@ -45,6 +51,7 @@ class FileExtensionsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FileExtensionElement Class](../wmi-provider/fileextensionelement-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)

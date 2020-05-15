@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ed5720ca-5927-4117-c287-ba5cdac43340
 ---
 # IProcessHost::Shutdown Method
+
 Sends a request to terminate all applications in an application domain.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ virtual HRESULT __stdcall Shutdown(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ virtual HRESULT __stdcall Shutdown(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)   
  [IIS 7.0 Beta: IProcessHost::Shutdown Method](../../web-development-reference/native-code-api-reference/iprocesshost-shutdown-method.md)   
  [IProcessHost::StartApplication Method](../../web-development-reference/native-code-api-reference/iprocesshost-startapplication-method.md)

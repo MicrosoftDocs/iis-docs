@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 93b238c5-ad20-6322-59c6-6d61b1b120bc
 ---
 # IAppHostElementCollection Interface
+
 Represents a collection of [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interfaces.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostElementCollection : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostElementCollection` interface.  
   
 |Method|Description|  
@@ -23,6 +25,7 @@ interface IAppHostElementCollection : IUnknown
 |[DeleteElement](../../web-development-reference/native-code-api-reference/iapphostelementcollection-deleteelement-method.md)|Removes the requested element from the collection|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostElementCollection` interface.  
   
 |Property|Description|  
@@ -32,6 +35,7 @@ interface IAppHostElementCollection : IUnknown
 |[Schema](../../web-development-reference/native-code-api-reference/iapphostelementcollection-schema-property.md)|Returns the schema assigned to the current collection|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostElementCollection`  
@@ -46,5 +50,6 @@ interface IAppHostElementCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

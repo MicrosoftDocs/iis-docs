@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a6bf3790-3458-c37b-92b3-ce50c3ee59ba
 ---
 # PagesSection Class
+
 Represents the `<pages>` section of a Web.config file.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class PagesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `PagesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class PagesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `PagesSection` class.  
   
 |Name|Description|  
@@ -59,9 +62,11 @@ class PagesSection : ConfigurationSectionWithCollection
 |`ViewStateEncryptionMode`|A read/write `sint32` enumeration that specifies the encryption mode that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] uses for view-state values. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `CompilationMode` property. The default is 2 (`Always`).  
   
 |Value|Keyword|Description|  
@@ -87,6 +92,7 @@ class PagesSection : ConfigurationSectionWithCollection
 |2|`Never`|The view-state information is never encrypted, even if a control requests it.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -103,6 +109,7 @@ class PagesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  Microsoft.Web.Management.Client.Win32.ModulePage.Microsoft.Web.Management.Client.IModulePage.Initialize  
  [System.Web.UI.Page.RegisterRequiresViewStateEncryption](/dotnet/api/system.web.ui.page.registerrequiresviewstateencryption)  
  [System.Web.Configuration.PagesSection](/dotnet/api/system.web.configuration.pagessection)

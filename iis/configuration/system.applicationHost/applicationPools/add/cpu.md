@@ -10,6 +10,7 @@ msc.type: config
 # CPU Settings for an Application Pool &lt;cpu&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<cpu>` element of the `<add>` element in the `<applicationPools>` collection configures values for CPU usage parameters and CPU actions that will be used in application pools.
@@ -21,6 +22,7 @@ Non-Uniform Memory Access (NUMA) is a hardware-based method of associating proce
 The NUMA selection logic and affinity type can be set in the **Advanced Settings** dialog box only if IIS is running on NUMA hardware.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,11 +35,13 @@ The NUMA selection logic and affinity type can be set in the **Advanced Settings
 | IIS 6.0 | The `<cpu>` element replaces portions of the IIS 6.0 **IIsApplicationPools** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationPools>` collection is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to edit CPU configuration settings
@@ -77,6 +81,7 @@ The `<applicationPools>` collection is included in the default installation of I
 7. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -104,6 +109,7 @@ The following configuration sample configures a single application pool named De
 [!code-xml[Main](cpu/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure the default application pool to kill the worker process when it exceeds the CPU limit, and configure the reset interval to four minutes.

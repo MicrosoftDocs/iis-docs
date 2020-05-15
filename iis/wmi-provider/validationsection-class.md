@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: da81aca7-b37a-42a3-8b32-b1ae2a4966e2
 ---
 # ValidationSection Class
+
 Enables or disables validation checks on configuration files.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ValidationSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ValidationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class ValidationSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ValidationSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class ValidationSection : ConfigurationSection
 |`ValidateIntegratedModeConfiguration`|A read/write `boolean` value. `true` if IIS generates a migration error message when it detects that an ASP.NET 1.0 Web application should be modified to run in Integrated mode; otherwise, `false`. The default value is `true`. For more information about this property, see the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  IIS generates a migration error message if the `ValidateIntegratedModeConfiguration` property is enabled and one of the following is true:  
   
 - Your application defines an `<httpModules>` section in its Web.config file.  
@@ -57,6 +62,7 @@ class ValidationSection : ConfigurationSection
 >  Because IIS will no longer provide warnings for unsupported configurations when `ValidateIntegratedModeConfiguration` is `false`, ensure that your application works correctly in Integrated mode before you make this setting.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `ValidationSection`  
@@ -71,4 +77,5 @@ class ValidationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

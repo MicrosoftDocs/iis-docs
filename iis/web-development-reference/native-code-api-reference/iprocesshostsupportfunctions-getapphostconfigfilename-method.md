@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 781a6b10-ce53-5a78-8d63-7be92a3ba4a1
 ---
 # IProcessHostSupportFunctions::GetAppHostConfigFilename Method
+
 Retrieves the application host configuration (.config) file path.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetAppHostConfigFilename(
 ```  
   
 ### Parameters  
+
  `pbstrPhysicalPath`  
  A pointer to a `BSTR` that contains the physical path (including the file name) to the application host configuration file.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall GetAppHostConfigFilename(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)

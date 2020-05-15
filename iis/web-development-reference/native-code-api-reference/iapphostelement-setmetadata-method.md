@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5d899f75-0c27-5c5a-4fb9-f023be42222d
 ---
 # IAppHostElement::SetMetadata Method
+
 Sets metadata for the current element.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT SetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   
@@ -24,6 +26,7 @@ HRESULT SetMetadata(
  A `VARIANT` that contains the new metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,4 +44,5 @@ HRESULT SetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

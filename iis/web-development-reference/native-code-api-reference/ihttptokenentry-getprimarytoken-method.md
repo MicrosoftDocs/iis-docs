@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3c259dad-6886-1f73-1dad-14f576f6b030
 ---
 # IHttpTokenEntry::GetPrimaryToken Method
+
 Returns the primary token for the process that is servicing a request.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual HANDLE GetPrimaryToken(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `HANDLE` that represents the impersonation token for the process that is servicing a request. May be NULL.  
   
 ## Remarks  
+
  A primary token is a handle that defines the security context of the user account associated with the process that is servicing a request. This token restricts access to system resources based on the access rules for the process.  
   
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) pointer by calling the [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md) method and, in some cases, you can downcast this `IHttpCacheSpecificData` pointer to an [IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md) pointer. You can then retrieve the primary token handle by calling the `GetPrimaryToken` method.  
@@ -28,12 +32,15 @@ virtual HANDLE GetPrimaryToken(
  For more information on downcast rules, see [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md).  
   
 ## Notes for Implementers  
+
  `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` implementers must call [CloseHandle](https://go.microsoft.com/fwlink/?LinkId=60019) on the handle when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` clients must not call `CloseHandle` on the returned handle when this data is no longer needed. Furthermore, clients must not change the state of the memory that this handle references, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenEntry` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -61,4 +68,5 @@ IHttpTokenEntry::GetPrimaryToken: valid
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)

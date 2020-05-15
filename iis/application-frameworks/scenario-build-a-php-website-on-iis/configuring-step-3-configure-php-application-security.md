@@ -14,6 +14,7 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 In this last step in building a PHP website on IIS, you configure PHP settings, web server settings, and PHP application settings that improve your website security.
 
 <a id="31"></a>
+
 ## 3.1. Configure PHP Settings for Security
 
 The following procedure shows you how to configure PHP settings in the php.ini file. For information about security-related PHP settings, see [3.1. PHP Configuration Settings for Security](planning-step-3-plan-php-application-security.md#31).
@@ -29,6 +30,7 @@ The following procedure shows you how to configure PHP settings in the php.ini f
 5. Recycle the IIS Application Pools for PHP to pick up the configuration changes.
 
 <a id="32"></a>
+
 ## 3.2. Configure Web Server and PHP Application Security
 
 This section shows how to configure several web server and application settings for IIS. These settings include isolating web applications, enabling per-site PHP configurations, and using request filtering. For more information about web server and PHP application security settings, see [3.2. Web Server and PHP Application Security](planning-step-3-plan-php-application-security.md#32).

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 81ec9163-68d2-4b00-8fd2-3afdab2c5d19
 ---
 # ErrorInformation (IISExpress)
+
 Defines detailed, localized error messages for IIS Express failure conditions.  
   
 ## Syntax  
@@ -47,4 +48,5 @@ public class ErrorInformation
 ```  
  
 ## See Also  
+
  [IIS Express API Reference](../../extensions/express-api-reference/express-api-reference.md)

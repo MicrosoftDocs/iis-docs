@@ -14,6 +14,7 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 In this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy for deploying web applications.
 
 <a id="51"></a>
+
 ## 5.1. Install and Configure FTP for Your Web Farm
 
 The procedures in this section guide you through installing and configuring FTP for you web farm. Install FTP on your load balancing computer (ARR server) only. The web servers do not need FTP installed. For more information about FTP configuration, see [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md).
@@ -65,6 +66,7 @@ The procedures in this section guide you through installing and configuring FTP 
 17. Click **Finish**.
 
 <a id="52"></a>
+
 ## 5.2. Install and Test Web Deploy for Your Web Farm
 
 Install Web Deploy on your source computer (your development machine with IIS installed). Install Web Deploy on each of your web application servers. Use [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install the current version of Web Deploy and its dependencies.
@@ -99,6 +101,7 @@ To test your Web Deploy installation, use it to update your website.
 16. Click **Finish**. Web Deploy has updated your website.
 
 <a id="53"></a>
+
 ## 5.3. Where do I go from here?
 
 You now have a working web farm. It uses ARR for load balancing. It employs shared content and shared configuration. You have a central certificate store for use with SSL-secured websites. And you can deploy websites and web applications with either FTP or Web Deploy.

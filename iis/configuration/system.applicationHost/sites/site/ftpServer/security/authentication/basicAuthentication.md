@@ -10,6 +10,7 @@ msc.type: config
 # FTP Basic Authentication &lt;basicAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<basicAuthentication>` element specifies the settings for Basic authentication. This form of authentication requires that users valid user accounts on your server or domain before they can log in.
@@ -18,6 +19,7 @@ The `<basicAuthentication>` element specifies the settings for Basic authenticat
 > Due to the underlying design of the File Transfer Protocol (FTP), user names and passwords are transmitted over FTP in plain text, making them vulnerable to network discovery. It is therefore recommended that you use Basic authentication with SSL.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,6 +39,7 @@ The `<basicAuthentication>` element specifies the settings for Basic authenticat
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -104,6 +107,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable or disable Basic authentication for an FTP site
@@ -183,6 +187,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         [![](basicAuthentication/_static/image16.png)](basicAuthentication/_static/image15.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<basicAuthentication>` element is configured at the site level.
@@ -215,6 +220,7 @@ The following sample illustrates several configuration settings in the `<ftpServ
 [!code-xml[Main](basicAuthentication/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples disable Basic authentication for an FTP site.

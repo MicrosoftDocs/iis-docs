@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6d9d1413-0f79-41e3-b6d5-449319de2bb9
 ---
 # TraceUrlAreaSettings Class
+
 Contains criteria for generating trace events and configuring the content of log file entries.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceUrlAreaSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceUrlAreaSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class TraceUrlAreaSettings : EmbeddedObject
 |`TraceAreas`|An array of [TraceAreaElement](../wmi-provider/traceareaelement-class.md) values that specify criteria for generating trace events and configuring the content of log file entries.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `TraceAreas` array property of the [TraceUrl](../wmi-provider/traceurl-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TraceUrlAreaSettings`  
@@ -43,6 +49,7 @@ class TraceUrlAreaSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   
  [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)   

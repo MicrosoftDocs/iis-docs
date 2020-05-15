@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9c43fdc5-be61-4557-8873-5af3c4f806af
 ---
 # IHttpServer2::GetAppPoolConfigFile Method
+
 Retrieves the path of the application pool’s configuration file.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual _Ret_writes_(*pcchConfigFilePath) PCWSTR GetAppPoolConfigFile(
 ```  
   
 ### Parameters  
+
  `pcchConfigFilePath`  
  [OUT] The number of characters in the path to retrieve.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual _Ret_writes_(*pcchConfigFilePath) PCWSTR GetAppPoolConfigFile(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer2 Interface](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)

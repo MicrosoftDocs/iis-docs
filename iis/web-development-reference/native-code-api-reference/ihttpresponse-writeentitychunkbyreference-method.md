@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8cc3aefe-5f9e-9ae3-2e8a-b033aff39687
 ---
 # IHttpResponse::WriteEntityChunkByReference Method
+
 Inserts or appends an [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structure into the response body.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ HRESULT WriteEntityChunkByReference(
 ```  
   
 ### Parameters  
+
  `pDataChunk`  
  [IN] A pointer to an `HTTP_DATA_CHUNK` structure.  
   
@@ -23,6 +25,7 @@ HRESULT WriteEntityChunkByReference(
  [IN] A `LONG` value that specifies whether to insert or append the chunk.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ HRESULT WriteEntityChunkByReference(
 |ERROR_ARITHMETIC_OVERFLOW|Indicates that more than 65535 chunks have been added to the response.|  
   
 ## Remarks  
+
  The `WriteEntityChunkByReference` method inserts or appends an `HTTP_DATA_CHUNK` structure into the response buffer depending on the value of the `lInsertPosition` parameter.  
   
 - If `lInsertPosition` is 0, the data will be inserted before the existing response data.  
@@ -44,6 +48,7 @@ HRESULT WriteEntityChunkByReference(
   A maximum of 65535 (64 KB minus 1) chunks can be written to a request.  
   
 ## Example  
+
  The following example demonstrates how to use the `WriteEntityChunkByReference` method to insert data into the response. It also demonstrates how to use the `lInsertPosition` parameter to insert or append data chunks.  
   
  [!code-cpp[IHttpResponseWriteEntityChunkByReference#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunkByReference/cpp/IHttpResponseWriteEntityChunkByReference.cpp#1)]  
@@ -59,5 +64,6 @@ HRESULT WriteEntityChunkByReference(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::WriteEntityChunks Method](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunks-method.md)

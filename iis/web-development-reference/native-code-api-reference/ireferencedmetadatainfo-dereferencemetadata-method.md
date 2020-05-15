@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 076fc1d6-8a46-4b82-970d-edb4de672efe
 ---
 # IReferencedMetadataInfo::DereferenceMetadata Method
+
 Releases the referenced context metadata.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID DereferenceMetadata(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  This method returns no values.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual VOID DereferenceMetadata(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IReferencedMetadataInfo Interface](../../web-development-reference/native-code-api-reference/ireferencedmetadatainfo-interface.md)

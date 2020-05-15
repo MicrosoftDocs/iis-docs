@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ef6ae9a0-9134-c320-1380-93cd00297da0
 ---
 # ServerContainsSSLBinding Class
+
 Provides a relationship between a Secure Sockets Layer (SSL) binding and a Web server that is running IIS.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ServerContainsSSLBinding : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ServerContainsSSLBinding` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class ServerContainsSSLBinding : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A read-only [SSLBinding](../wmi-provider/sslbinding-class.md) object that represents an SSL binding.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class is used to enumerate the SSL bindings that IIS uses on a Web server.  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `ServerContainsSSLBinding`  
@@ -44,6 +50,7 @@ class ServerContainsSSLBinding : ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [Server Class](../wmi-provider/server-class.md)   
  [SiteUsesSSLBinding Class](../wmi-provider/siteusessslbinding-class.md)   

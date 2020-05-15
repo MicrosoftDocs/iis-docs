@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c55da23c-5526-427f-6583-55b584e6ada3
 ---
 # IGlobalRSCAQueryProvider::GetFunctionName Method
+
 Returns the name of the dynamic function call that caused the event.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual PCWSTR GetFunctionName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a constant null-terminated Unicode string that contains name of the function that caused the event.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [IGlobalRscaQueryProvider](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method. You can then retrieve the function name by calling the `GetFunctionName` method on the `IGlobalRSCAQueryProvider` pointer.  
   
  The return value of the `GetFunctionName` method depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -30,12 +34,15 @@ virtual PCWSTR GetFunctionName(
 - The `IGlobalRSCAQueryProvider` implementer receives the function name and function parameter values as strings when either of the [IRSCA_AppDomain](https://msdn.microsoft.com/0ac45ca7-4e5c-4ac2-9152-42465f4511fa) events is raised, and the implementer holds references to these strings. If a string is NULL, `GetFunctionName` returns the empty string. Otherwise, `GetFunctionName` returns a pointer to this shared string.  
   
 ## Notes for Implementers  
+
  `IGlobalRSCAQueryProvider` implementers are responsible for memory management with this data; therefore, `IGlobalRSCAQueryProvider` implementers that use dynamic memory allocation must release or call `delete` on the `PCWSTR` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IGlobalRSCAQueryProvider` implementers are responsible for memory management with this data; therefore, `IGlobalRSCAQueryProvider` clients must not release or call `delete` on the returned `PCWSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCWSTR`, because either an access violation will be raised or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the function name information to the Event Viewer.  
   
 > [!CAUTION]
@@ -63,4 +70,5 @@ Function Name: PMH_App_Domain_Enum_V1
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalRSCAQueryProvider Interface](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md)

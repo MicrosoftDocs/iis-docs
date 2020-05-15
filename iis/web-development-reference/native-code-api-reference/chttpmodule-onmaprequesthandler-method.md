@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9ed609a7-6575-a032-83dc-07a1565313c0
 ---
 # CHttpModule::OnMapRequestHandler Method
+
 Represents the method that will handle a `MapRequestHandler` event, which occurs when IIS maps the current request to an event handler.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnMapRequestHandler(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnMapRequestHandler(
  [IN] A pointer to an [IMapHandlerProvider](../../web-development-reference/native-code-api-reference/imaphandlerprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnMapRequestHandler` method when IIS maps the current request to an event handler.  
   
 > [!NOTE]
 >  Request-level modules can register for the `MapRequestHandler` event notification by registering for `RQ_MAP_REQUEST_HANDLER` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_MAP_REQUEST_HANDLER` event and post-event notifications. When IIS maps a request to an event handler, IIS will call the example module's `OnMapRequestHandler` and [OnPostMapRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onpostmaprequesthandler-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleMapRequestHandler#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleMapRequestHandler/cpp/CHttpModuleMapRequestHandler.cpp#1)]  
@@ -50,5 +55,6 @@ virtual REQUEST_NOTIFICATION_STATUS OnMapRequestHandler(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnPostMapRequestHandler Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostmaprequesthandler-method.md)

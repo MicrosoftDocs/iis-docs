@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 81fe1c2f-2088-0306-641b-00de09242675
 ---
 # IGlobalThreadCleanupProvider Interface
+
 Provides an interface for thread cleanup notifications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IGlobalThreadCleanupProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IGlobalThreadCleanupProvider` interface.  
   
 |Name|Description|  
@@ -21,12 +23,15 @@ class IGlobalThreadCleanupProvider : public IHttpEventProvider
 |[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  IIS creates and passes an `IGlobalThreadCleanupProvider` interface to a module's [CGlobalModule::OnGlobalThreadCleanup](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalthreadcleanup-method.md) method when the module has registered for the [GL_THREAD_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalThreadCleanupProvider`  
@@ -41,5 +46,6 @@ class IGlobalThreadCleanupProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [CGlobalModule::OnGlobalThreadCleanup Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalthreadcleanup-method.md)

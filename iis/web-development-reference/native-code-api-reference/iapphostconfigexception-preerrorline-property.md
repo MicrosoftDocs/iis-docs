@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d2523932-f14e-d7ff-b692-a2987f29a247
 ---
 # IAppHostConfigException::PreErrorLine Property
+
 Gets the contents of the line before the line in the configuration file that caused the current exception to be thrown.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_PreErrorLine(
 ```  
   
 ### Parameters  
+
  `pbstrPreErrorLine`  
  A pointer to a `BSTR` that contains the line before the line that caused the exception.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_PreErrorLine(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0fe58b12-e575-f28c-028e-1235e6f2d321
 ---
 # IHttpApplicationProvider::GetApplication Method
+
 Retrieves an [IHttpApplication](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md) interface.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IHttpApplication* GetApplication(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an `IHttpApplication` interface.  
   
 ## Remarks  
+
  Developers can use the `GetApplication` method to retrieve an `IHttpApplication` interface, which they can then use to retrieve configuration information for an application.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Registers for the [GL_APPLICATION_START](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -54,5 +59,6 @@ virtual IHttpApplication* GetApplication(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication Interface](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)   
  [IHttpApplicationProvider Interface](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-interface.md)

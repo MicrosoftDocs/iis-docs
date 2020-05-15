@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 48bb404c-cee5-574f-652f-068666f12571
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_DELETED Function
+
 Notifies the listener adapter that the application is no longer active for a protocol.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ typedef VOID(
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -23,9 +25,11 @@ typedef VOID(
  [IN] A pointer to a string that contains the name of the application.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The listener adapter will get this call when the application is deleted or when all applications for the site no longer use this protocol.  
   
  The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
@@ -40,4 +44,5 @@ typedef VOID(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)

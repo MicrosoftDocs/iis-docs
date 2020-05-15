@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a833d616-a815-b123-c943-df5af7c4025c
 ---
 # IMetadataInfo Interface
+
 Retrieves metadata information for the current context.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IMetadataInfo
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IMetadataInfo` interface.  
   
 |Name|Description|  
@@ -29,6 +31,7 @@ class IMetadataInfo
 |[IReferencedMetadataInfo345258f4-4161-4f96-9ff1-2056d412d83b](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)|Provides an interface for referencing and dereferencing context metadata.|  
   
 ## Remarks  
+
  Developers can use the `IMetadataInfo` interface to retrieve metadata-related configuration information.  
   
 ## Requirements  
@@ -41,4 +44,5 @@ class IMetadataInfo
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

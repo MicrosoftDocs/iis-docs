@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 14f8fe14-2950-0618-b7b0-bb930c5e8c60
 ---
 # IGlobalFileChangeProvider Interface
+
 Provides a global-level interface for [GL_FILE_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IGlobalFileChangeProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IGlobalFileChangeProvider` interface.  
   
 |Name|Description|  
@@ -22,12 +24,15 @@ class IGlobalFileChangeProvider : public IHttpEventProvider
 |[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  An `IGlobalFileChangeProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalFileChange](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md) method when the module has registered for the `GL_FILE_CHANGE` notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalFileChangeProvider`  
@@ -42,6 +47,7 @@ class IGlobalFileChangeProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [CGlobalModule::OnGlobalFileChange Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md)   
  [IHttpEventProvider Interface](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)   

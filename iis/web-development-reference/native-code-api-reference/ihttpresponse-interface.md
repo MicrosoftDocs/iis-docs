@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 718f9094-273e-713f-1d18-08fec8c0a6bb
 ---
 # IHttpResponse Interface
+
 Provides an interface to an HTTP response object. You can use the methods in the `IHttpResponse` interface to retrieve and modify data in the current HTTP response.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpResponse
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpResponse` interface.  
   
 |Topic|Description|  
@@ -49,9 +51,11 @@ class IHttpResponse
 |[IHttpResponse2](../../web-development-reference/native-code-api-reference/ihttpresponse2-interface.md)|Provides an interface for flushing data and writing entity data chunks for asynchronous operations.|  
   
 ## Related Sections  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)  
   
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

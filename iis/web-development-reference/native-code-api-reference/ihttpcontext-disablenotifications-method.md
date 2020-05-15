@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9014508e-a74b-8efe-bde1-426df6728b34
 ---
 # IHttpContext::DisableNotifications Method
+
 Disables specific notifications that are pending for this request in the current module.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual VOID DisableNotifications(
 ```  
   
 ### Parameters  
+
  `dwNotifications`  
  [IN] A `DWORD` that contains a bitmask that specifies the request notifications to disable for this module.  
   
@@ -23,9 +25,11 @@ virtual VOID DisableNotifications(
  [IN] A `DWORD` that contains a bitmask that specifies the post-request notifications to disable for this module.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  You can use the `DisableNotifications` method to specify which notifications or post-request notifications you want to disable for the current request. For example, if a module that you are creating has registered for the [RQ_AUTHENTICATE_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_AUTHORIZE_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications, your module could be configured to ignore the `RQ_AUTHORIZE_REQUEST` notification based on conditions that are processed in the `RQ_AUTHENTICATE_REQUEST` notification.  
   
 > [!NOTE]
@@ -35,6 +39,7 @@ virtual VOID DisableNotifications(
 > Notifications can be disabled only for deterministic events; they cannot be disabled for nondeterministic events. For more information, see [Comparing Native-Code and Managed-Code Notifications](../../web-development-reference/native-code-development-overview/comparing-native-code-and-managed-code-notifications.md).  
   
 ## Example  
+
  The following example demonstrates how to use the `DisableNotifications` method to create an HTTP module that disables a pending [CHttpModule::OnPostBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onpostbeginrequest-method.md) notification on the current request.  
   
  [!code-cpp[IHttpContextDisableNotifications#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextDisableNotifications/cpp/IHttpContextDisableNotifications.cpp#1)]  
@@ -53,6 +58,7 @@ virtual VOID DisableNotifications(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::GetIsLastNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getislastnotification-method.md)   
  [IHttpContext::GetNextNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getnextnotification-method.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 47442932-c536-9753-0146-fab1c2973ff6
 ---
 # IAppHostConfigLocationCollection Interface
+
 Provides access to a collection of configuration locations in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostConfigLocationCollection : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostConfigLocationCollection` interface.  
   
 |Method|Description|  
@@ -21,6 +23,7 @@ interface IAppHostConfigLocationCollection : IUnknown
 |[DeleteLocation](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-deletelocation-method.md)|Removes a configuration location from the collection.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostConfigLocationCollection` interface.  
   
 |Property|Description|  
@@ -29,6 +32,7 @@ interface IAppHostConfigLocationCollection : IUnknown
 |[Item](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-item-property.md)|Gets a configuration location at the requested index from the current collection.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigLocationCollection`  
@@ -43,5 +47,6 @@ interface IAppHostConfigLocationCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

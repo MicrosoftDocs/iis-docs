@@ -4,9 +4,11 @@ ms.date: "10/07/2016"
 ms.assetid: e222d822-4d00-431a-8fc4-e09496636681
 ---
 # Application Host Administration Interfaces
+
 This section describes the API that provides read and write access to configuration data and read access to the configuration schema.  
   
 ## In This Section  
+
  The following methods were supported in IIS 7.0:  
   
 |Interface|Description|  
@@ -51,4 +53,5 @@ This section describes the API that provides read and write access to configurat
 |[IAppHostPathMapper2 Interface](../../web-development-reference/native-code-api-reference/iapphostpathmapper2-interface.md)|Provides methods that are called by the server implementation when the server informs the client about the hierarchy mapping decisions|  
   
 ## See Also  
+
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

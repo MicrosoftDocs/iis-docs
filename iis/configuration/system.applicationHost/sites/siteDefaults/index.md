@@ -10,6 +10,7 @@ msc.type: config
 # Default Settings for All Sites &lt;siteDefaults&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<siteDefaults>` element specifies default settings for all sites on the server. These settings are useful when you want to specify options for all Web sites that differ from the schema defaults for IIS 7 and later.
@@ -18,6 +19,7 @@ The `<siteDefaults>` element specifies default settings for all sites on the ser
 > If the same attribute or child element is configured in both the `<siteDefaults>` section and in the `<sites>` section for a specific site, the configuration in the `<sites>` section is used for that site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,11 +32,13 @@ The `<siteDefaults>` element specifies default settings for all sites on the ser
 | IIS 6.0 | The `<siteDefaults>` element is analogous to the default Web site options at the **W3SVC** level in the IIS 6.0 metabase. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<siteDefaults>` element of the `<sites>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the site defaults for a server
@@ -63,6 +67,7 @@ The `<siteDefaults>` element of the `<sites>` element is included in the default
     [![](index/_static/image4.png)](index/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -90,6 +95,7 @@ The following configuration sample specifies the default `limits`, `logFile`, `t
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure the default `limits`, `logFile`, `traceFailedRequestsLogging`, `bindings`, and `ftpServer` options for IIS 7.

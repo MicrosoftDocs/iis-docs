@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7f823d68-e495-4a02-88ef-668c815bd569
 ---
 # HiddenSegmentSettings Class
+
 Contains segments whose content will not be served to the client.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HiddenSegmentSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HiddenSegmentSettings` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class HiddenSegmentSettings : EmbeddedObject
 |`ApplyToWebDAV`|A read/write `boolean` value. `true` if the `HiddenSegments` property is applied to WebDAV requests; otherwise, `false`. The default is `true`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HiddenSegments` array property of the [RequestFilteringSection](../wmi-provider/requestfilteringsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `HiddenSegmentSettings`  
@@ -44,6 +50,7 @@ class HiddenSegmentSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
  [SegmentElement Class](../wmi-provider/segmentelement-class.md)

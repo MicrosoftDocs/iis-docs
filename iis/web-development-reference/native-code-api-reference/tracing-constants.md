@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 03514e54-e634-49d2-ac3f-08866fca03ee
 ---
 # Tracing Constants
+
 This topic describes the constants that are defined in the Httptrace.h header file.  
   
 ## Tracing Constants  
@@ -13,6 +14,7 @@ This topic describes the constants that are defined in the Httptrace.h header fi
 |HTTP_TRACE_EVENT_FLAG_STATIC_DESCRIPTIVE_FIELDS|0x01|If the `dwFlags` member of an [HTTP_TRACE_EVENT](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) structure is set to this value, indicates that the `pProviderGuid`, `pAreaGuid`, and `pszEventName` members of that structure, as well as the `pszName` and `pszDescription` members in each [HTTP_TRACE_EVENT_ITEM](../../web-development-reference/native-code-api-reference/http-trace-event-item-structure.md) element of that structure, are `static`. In this case, the memory for all of these members is available and immutable for the lifetime of the process and, therefore, does not ever need to be copied.|  
   
 ## Tracing GUIDs  
+
  The following constants are used with the [IHttpTraceContext::SetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md) method. Verify that a module includes the Initguid.h file when you use these GUIDs.  
   
 |Constant|GUID|Description|  
@@ -34,5 +36,6 @@ This topic describes the constants that are defined in the Httptrace.h header fi
 |Header|Httptrace.h|  
   
 ## See Also  
+
  [Web Server Core Constants](../../web-development-reference/native-code-api-reference/web-server-core-constants.md)   
  [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)

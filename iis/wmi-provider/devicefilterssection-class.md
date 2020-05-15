@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a41f7d6b-39f7-5662-0cdb-1498ceaf95e9
 ---
 # DeviceFiltersSection Class
+
 Represents a collection of device filters that determine mobile device types or mobile browser capabilities.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class DeviceFiltersSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `DeviceFiltersSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class DeviceFiltersSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DeviceFiltersSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class DeviceFiltersSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,6 +62,7 @@ class DeviceFiltersSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [DeviceFilter Class](../wmi-provider/devicefilter-class.md)   
  [System.Web.Mobile.MobileCapabilities Class](https://go.microsoft.com/fwlink/?LinkId=69325)

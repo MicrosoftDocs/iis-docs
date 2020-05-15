@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d5626c9b-c688-06c7-df5d-abe450a477a5
 ---
 # ExpressionBuilder Class
+
 Maps an expression prefix to an expression builder type.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ExpressionBuilder : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ExpressionBuilder` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class ExpressionBuilder : CollectionElement
 |`Type`|A read/write `string` value that contains a type associated with the prefix specified in the `ExpressionPrefix` property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ExpressionBuilders` array property of the [ExpressionBuilderSettings](../wmi-provider/expressionbuildersettings-class.md) class.  
   
  Expression builders allow property values to be set and retrieved in a control during page parsing. When the page parser encounters an expression in the format `<%$ prefix:value %>`, it creates an expression builder based on `prefix` and passes the `value` to the expression builder for evaluation. The expression builder then returns the requested value to the page.  
@@ -54,6 +59,7 @@ class ExpressionBuilder : CollectionElement
  `</configuration>`  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ExpressionBuilder`  
@@ -68,6 +74,7 @@ class ExpressionBuilder : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute)  
  [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

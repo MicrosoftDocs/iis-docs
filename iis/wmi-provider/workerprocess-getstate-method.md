@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b12970b0-a05e-25a1-b3bd-f6dd7df2448c
 ---
 # WorkerProcess.GetState Method2
+
 Returns the run-time state of a worker process.  
   
 ## Syntax  
@@ -17,9 +18,11 @@ var workerProcessState = objWorkerProcess.GetState();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `uint32` that identifies the application pool state. The return values are shown in the following table.  
   
 |Return value|Description|  
@@ -30,9 +33,11 @@ var workerProcessState = objWorkerProcess.GetState();
 |3|Indicates that the worker process is unknown.|  
   
 ## Remarks  
+
  This method is new to the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider and has no counterpart in IIS 6.0.  
   
 ## Example  
+
  The following example returns the state of every worker process in each application pool on a server.  
   
 ```  
@@ -90,6 +95,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ApplicationPoolContainsProcess Class](../wmi-provider/applicationpoolcontainsprocess-class.md)   
  [WorkerProcess Class](../wmi-provider/workerprocess-class.md)

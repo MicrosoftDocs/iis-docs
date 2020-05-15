@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8d6f5aa5-9c66-24d3-ad57-b7e368a9a218
 ---
 # VirtualDirectoryContainsConfigurationSection Class2
+
 Provides a relationship between a virtual directory and a configuration section.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class VirtualDirectoryContainsConfigurationSection : ObjectConfigurationAssociat
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties for the `VirtualDirectoryContainsConfigurationSection` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class VirtualDirectoryContainsConfigurationSection : ObjectConfigurationAssociat
 |`Element`|A read-only [ConfigurationSection](../wmi-provider/configurationsection-class.md) object that exposes the configuration section for a virtual directory.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ObjectConfigurationAssociation](../wmi-provider/objectconfigurationassociation-class.md)  
   
  `VirtualDirectoryContainsConfigurationSection`  
@@ -41,6 +46,7 @@ class VirtualDirectoryContainsConfigurationSection : ObjectConfigurationAssociat
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)   
  [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4d08a669-2c55-4cbc-afc2-20e7dc15532d
 ---
 # IHttpTokenEntry::GetSid Method
+
 Returns the security identifier for a user.  
   
 ## Syntax  
@@ -15,23 +16,29 @@ virtual PSID GetSid(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)).  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) pointer by calling the [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md) method and, in some cases, you can downcast this `IHttpCacheSpecificData` pointer to an [IHttpTokenEntry](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md) pointer. You can then retrieve the security identifier by calling the `GetSid` method.  
   
  For more information on downcast rules, see [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md).  
   
 ## Notes for Implementers  
+
  `IHttpTokenEntry` implementers are responsible for memory management with this data; therefore, `IHttpTokenEntry` implementers that use dynamic memory allocation must dispose of the `PSID` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpTokenEntry` implementers are responsible for memory management with this data; therefore, `IHttpTokenEntry` clients must not dispose of the returned `PSID` pointer when this data is no longer needed. Furthermore, clients must not change the state of the memory that this `PSID` references, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenEntry` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -59,4 +66,5 @@ IHttpTokenEntry::GetSid: valid
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpTokenEntry Interface](../../web-development-reference/native-code-api-reference/ihttptokenentry-interface.md)

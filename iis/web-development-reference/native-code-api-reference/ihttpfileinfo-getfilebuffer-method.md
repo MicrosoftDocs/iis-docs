@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0518341a-f739-14e4-8440-cc31ef53d04d
 ---
 # IHttpFileInfo::GetFileBuffer Method
+
 Returns a buffer in memory loaded from the corresponding file.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual const BYTE* GetFileBuffer(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `const``BYTE` pointer that contains the file data in memory; otherwise, NULL.  
   
 ## Remarks  
+
  If the returned `BYTE` pointer is not NULL, the pointer will contain an array of bytes loaded from the corresponding file. This data corresponds to the body of the HTTP response.  
   
  The behavior of the `GetFileBuffer` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -30,15 +34,18 @@ virtual const BYTE* GetFileBuffer(
 - Implementers that reference a non-Internet file return a `BYTE` pointer in memory that contains data from the file, if that file can be opened. Otherwise, these implementers return NULL.  
   
 ## Notes for Implementers  
+
  [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpFileInfo` implementers that use dynamic memory allocation must release or call `delete`[] on the `BYTE` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpFileInfo` implementers are responsible for memory management with this data; therefore, `IHttpFileInfo` clients must not release or call `delete`[] on the returned `BYTE` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `BYTE` pointer; otherwise, an access violation will be thrown or the data will become invalid.  
   
 > [!NOTE]
 >  Always test for NULL before inspecting the data contained in the returned `BYTE` pointer, because some implementations return NULL.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetFileBuffer` method to retrieve the file information for the requested file and displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfo#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetFileBuffer.cpp#6)]  
@@ -70,4 +77,5 @@ File Buffer:
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

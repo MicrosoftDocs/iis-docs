@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 90d5e0f5-d4be-ac77-27f8-f7cceff48380
 ---
 # IAppHostAdminManager::GetMetadata Method
+
 Gets metadata values from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   
@@ -25,6 +27,7 @@ HRESULT GetMetadata(
  A pointer to a `VARIANT` that contains the value of the requested metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ HRESULT GetMetadata(
 |ERROR_NOT_SUPPORTED|Indicates that the requested metadata is not supported.|  
   
 ## Example  
+
  The following code example retrieves the `availableSections` metadata from the configuration schema by using the `IAppHostAdminManager::GetMetadata` method.  
   
  [!code-cpp[IAppHostAdminLibrary#3](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetMetadata.cpp#3)]  
@@ -47,4 +51,5 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)

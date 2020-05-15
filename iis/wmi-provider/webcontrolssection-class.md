@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1fa14f54-980a-37fe-ee88-5cba1abfaab6
 ---
 # WebControlsSection Class
+
 Specifies the shared location of client script files.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class WebControlsSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `WebControlsSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class WebControlsSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebControlsSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class WebControlsSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `WebControlsSection`  
@@ -51,6 +56,7 @@ class WebControlsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.SystemWebSectionGroup.WebControls](/dotnet/api/system.web.configuration.systemwebsectiongroup.webcontrols) 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [webControls Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67193)

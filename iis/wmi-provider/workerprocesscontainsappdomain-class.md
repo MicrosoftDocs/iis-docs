@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c7172642-0b13-5b01-450d-874b79e798d5
 ---
 # WorkerProcessContainsAppDomain Class2
+
 Provides a relationship between a worker process and its application domains.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class WorkerProcessContainsAppDomain : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WorkerProcessContainsAppDomain` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class WorkerProcessContainsAppDomain : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A read-only [AppDomain](../wmi-provider/appdomain-class.md) object that represents an IIS application domain. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This association class is useful for retrieving all the loaded application domains for each worker process on a Web server.  
   
 ## Example  
+
  The following example displays the loaded application domains on a Web server. The first part uses a WMI query. The second part uses the `WorkerProcessContainsAppDomain` association class.  
   
 ```  
@@ -88,6 +94,7 @@ Next
  `Set oAppDomains = oWorkerProcess.Associators_(, "AppDomain")`  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `WorkerProcessContainsAppDomain`  
@@ -102,6 +109,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AppDomain Class](../wmi-provider/appdomain-class.md)   
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [WorkerProcess Class](../wmi-provider/workerprocess-class.md)

@@ -10,11 +10,13 @@ msc.type: config
 # Caching Profiles &lt;profiles&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<profiles>` element of the `<caching>` element specifies a profile to use for output caching.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<profiles>` element of the `<caching>` element specifies a profile to use f
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<profiles>` element of the `<caching>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure page output caching
@@ -61,6 +65,7 @@ The `<profiles>` element of the `<caching>` element is included in the default i
     [![](index/_static/image4.png)](index/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -86,6 +91,7 @@ The following code example sets the maximum output cache size to 1 gigabyte and 
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure page output caching for files with the .asp file name extension, and configure IIS to cache in user mode and kernel mode until ASP files change.

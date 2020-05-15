@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6143dc15-7a1d-c00b-94ed-a446964cb705
 ---
 # ConformanceWarning Class
+
 Exposes a Web Services Interoperability (WS-I) specification to which a Web service declares that it conforms.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ConformanceWarning : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConformanceWarning` class.  
   
 |Name|Description|  
@@ -23,9 +26,11 @@ class ConformanceWarning : CollectionElement
 |`Name`|A read-only `sint32` enumeration that represents the Web Services Interoperability (WS-I) specification to which a Web service declares that it conforms. The possible values are listed later in the Remarks section. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ConformanceWarnings` array property of the [ConformanceWarningSettings](../wmi-provider/conformancewarningsettings-class.md) class.  
   
  The following table lists the possible values for the `Name` property. Currently, the only WS-I profile supported in the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] is Basic Profile Version 1.1 (BasicProfile 1_1).  
@@ -36,6 +41,7 @@ class ConformanceWarning : CollectionElement
 |1|`BasicProfile1_1`|The Web service claims conformance with the WS-I Basic Profile 1.1 set of nonproprietary Web service specifications.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ConformanceWarning`  
@@ -50,6 +56,7 @@ class ConformanceWarning : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ConformanceWarningSettings Class](../wmi-provider/conformancewarningsettings-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   

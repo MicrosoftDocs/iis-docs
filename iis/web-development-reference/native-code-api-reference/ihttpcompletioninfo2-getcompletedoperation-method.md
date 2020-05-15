@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 617e9eb2-9214-4ce1-9787-041454bca50d
 ---
 # IHttpCompletionInfo2::GetCompletedOperation Method
+
 Gets the number of bytes completed by an asynchronous operation.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual DWORD GetCompletedOperation(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  The number of bytes completed.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual DWORD GetCompletedOperation(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCompletionInfo2 Interface](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo2-interface.md)

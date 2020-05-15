@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ae129322-e427-4265-9498-4ae6656644c6
 ---
 # IAppHostPropertySchema::PropertyValues Property
+
 Gets a collection of possible and applicable constant values for the specified property.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ Gets a collection of possible and applicable constant values for the specified p
 ```  
   
 ### Parameters  
+
  `ppValues`  
  Contains the collection of possible values.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ Gets a collection of possible and applicable constant values for the specified p
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The administration system determines the applicability of the values returned by this method.  
   
 ## Requirements  
@@ -39,5 +43,6 @@ Gets a collection of possible and applicable constant values for the specified p
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
  [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationparameter-property.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c96ddeff-d6ed-49ef-8389-deb7b8e0ebd8
 ---
 # ProfileElement Class
+
 Configures an event profile that determines how an event is collected by [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and raised to providers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProfileElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProfileElement` class.  
   
 |Name|Description|  
@@ -27,12 +30,15 @@ class ProfileElement : CollectionElement
 |`Name`|A unique read-only `string` value that specifies the name of the profile setting. Duplicate profile setting names may cause a loss of data when the configuration section is saved. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Profiles` array property of the [ProfileSettings](../wmi-provider/profilesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ProfileElement`  
@@ -47,6 +53,7 @@ class ProfileElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings)
  [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

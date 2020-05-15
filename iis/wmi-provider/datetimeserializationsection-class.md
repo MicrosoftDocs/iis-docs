@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ad1ba074-e2d7-8528-1a35-a25053eb5106
 ---
 # DateTimeSerializationSection Class
+
 Handles configuration settings for XML serialization of [System.DateTime](https://go.microsoft.com/fwlink/?LinkId=70919) instances.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class DateTimeSerializationSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `DateTimeSerializationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class DateTimeSerializationSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DateTimeSerializationSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class DateTimeSerializationSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `Mode` property.  
   
 |Value|Keyword|Description|  
@@ -46,6 +51,7 @@ class DateTimeSerializationSection : ConfigurationSection
 |2|`Local`|The serializer formats all `DateTime` objects as local time. **Note:**  In the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] 1.0 and 1.1, `DateTime` objects are always formatted as the local time. That is, local time zone information is always included with the serialized data. Use this setting to guarantee compatibility with the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] 1.0 and 1.1.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `DateTimeSerializationSection`  
@@ -60,6 +66,7 @@ class DateTimeSerializationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [System.Xml.Serialization.Configuration.DateTimeSerializationSection.DateTimeSerializationMode Enumeration](https://go.microsoft.com/fwlink/?LinkId=70920)   
  [System.DateTime Structure](https://go.microsoft.com/fwlink/?LinkId=70919)

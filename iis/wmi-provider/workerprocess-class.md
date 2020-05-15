@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: dd8bf382-1523-1da8-f2b6-0cceb66fec82
 ---
 # WorkerProcess Class2
+
 Represents a Windows Process Activation Service (WAS) worker process (w3wp.exe).  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class WorkerProcess : Object
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `WorkerProcess` class.  
   
 |Name|Description|  
@@ -21,6 +23,7 @@ class WorkerProcess : Object
 |[GetState](../wmi-provider/workerprocess-getstate-method.md)|Returns the run-time state of a worker process.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WorkerProcess` class.  
   
 |Name|Description|  
@@ -30,9 +33,11 @@ class WorkerProcess : Object
 |`ProcessID`|A read-only `uint32` that contains the worker process ID. The only key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [Object](../wmi-provider/object-class.md)  
   
  `WorkerProcess`  
@@ -47,4 +52,5 @@ class WorkerProcess : Object
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Object Class](../wmi-provider/object-class.md)

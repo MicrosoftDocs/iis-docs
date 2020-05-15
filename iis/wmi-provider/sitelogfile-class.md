@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 050e3616-7de7-3c97-187e-11d9fd4dc070
 ---
 # SiteLogFile Class1
+
 Configures logging for a Web site.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SiteLogFile : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SiteLogFile` class.  
   
 |Name|Description|  
@@ -30,9 +33,11 @@ class SiteLogFile : EmbeddedObject
 |`TruncateSize`|A read/write `string` value that specifies the size, in bytes, at which the log file contents are truncated. To enable this property, set `Period` to `MaxSize`. The size must be between 1048576 (1 megabyte) and 4294967295 (4 gigabytes). The default is 20971520 (20 megabytes).|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `LogFile` property of the `Site` and `SiteElementDefaults` classes.  
   
  The following table lists the possible values for the `LogExtFileFlags` property. The default attributes are `ClientIP`, `Date`, `HttpStatus`, `HttpSubStatus`, `Method`, `ServerIP`, `ServerPort`, `Time`, `UriQuery`, `UriStem`, `UserAgent`, `UserName`, and `Win32Status`.  
@@ -82,6 +87,7 @@ class SiteLogFile : EmbeddedObject
 |4|`Hourly`|The log file is closed and a new log file is started once per hour.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SiteLogFile`  
@@ -96,6 +102,7 @@ class SiteLogFile : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
  [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

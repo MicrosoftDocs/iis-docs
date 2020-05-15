@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e4f19ece-2ef0-7e2f-b4b0-24f406979753
 ---
 # IHttpContext::MapPath Method
+
 Returns the physical path of a relative URL.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT MapPath(
 ```  
   
 ### Parameters  
+
  `pszUrl`  
  [IN] A pointer to a string that contains the relative URL to map.  
   
@@ -27,6 +29,7 @@ virtual HRESULT MapPath(
  [IN] A pointer to a `DWORD` that contains the size of the buffer pointed to by `pszPhysicalPath`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,12 +39,14 @@ virtual HRESULT MapPath(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `MapPath` method returns the physical location of the relative URL that is contained in the `pszUrl` parameter.  
   
 > [!NOTE]
 >  If the buffer pointed to by the `pszPhysicalPath` parameter is not large enough to perform the operation, the `pcbPhysicalPath``DWORD` parameter will contain the required buffer size for the operation.  
   
 ## Example  
+
  The following code example demonstrates how to use the `MapPath` method to create an HTTP module that returns the physical path of the root folder for the Web site that uses this module.  
   
  [!code-cpp[IHttpContextMapPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextMapPath/cpp/IHttpContextMapPath.cpp#1)]  
@@ -60,4 +65,5 @@ virtual HRESULT MapPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 194e106d-b30e-473b-92da-3aeccdfedd07
 ---
 # TagPrefixElement Class
+
 Contains configuration information for a custom or user control.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TagPrefixElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TagPrefixElement` class.  
   
 |Name|Description|  
@@ -27,14 +30,17 @@ class TagPrefixElement : CollectionElement
 |`TagPrefix`|A read-only `string` value that specifies the tag prefix that is associated with a source file (or namespace and assembly) where the control resides. This property applies to both user and custom controls. This is the value that precedes the tag name in the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] code (for example, "myTag" in \<myTag: myControl />). The default is "/". A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class correspond to Register directives of the form `(<%@ Register %>)` on an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] page and enable you to specify tag prefixes for user controls.  
   
  Instances of this class are contained in the `Controls` array property of the [TagPrefixInfo](../wmi-provider/tagprefixinfo-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TagPrefixElement`  
@@ -49,6 +55,7 @@ class TagPrefixElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   
  [TagPrefixInfo Class](../wmi-provider/tagprefixinfo-class.md)

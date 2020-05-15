@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b5947055-8ec9-28bb-9b49-978ea2ae5e7d
 ---
 # ApplicationPoolContainsProcess Class1
+
 Provides a relationship between an application pool and its worker processes.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationPoolContainsProcess : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationPoolContainsProcess` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class ApplicationPoolContainsProcess : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A read-only [WorkerProcess](../wmi-provider/workerprocess-class.md) object that represents a Windows Process Activation Service (WAS) worker process. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  A `WorkerProcess` object is transient; it may cease to exist when its application pool is recycled or when it reaches its idle time-out. Be prepared for this possibility if you write a script that interacts with a `WorkerProcess` object over any significant length of time.  
   
 ## Example  
+
  The following example returns the ID for every worker process in each application pool on a server.  
   
 ```  
@@ -76,6 +82,7 @@ Next
  `Application Pool Name: NewAppPool3`  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `ApplicationPoolContainsProcess`  
@@ -90,6 +97,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [ProcessModelSettings Class](../wmi-provider/processmodelsettings-class.md)   

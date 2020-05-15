@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4113c932-4bb4-4046-bc3e-28fc8cfbfb0a
 ---
 # IHttpContext3::EnableFullDuplex Method
+
 Enables an asynchronous full-duplex connection for this context.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID EnableFullDuplex(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual VOID EnableFullDuplex(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext3 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)

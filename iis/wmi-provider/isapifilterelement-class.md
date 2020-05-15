@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ed7f5df4-a6e4-bdc5-c585-4b9e7936bbc2
 ---
 # IsapiFilterElement Class
+
 Specifies an ISAPI filter.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class IsapiFilterElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IsapiFilterElement` class.  
   
 |Name|Description|  
@@ -27,9 +30,11 @@ class IsapiFilterElement : CollectionElement
 |`PreCondition`|A read/write `string` value that specifies a condition that must be satisfied before the ISAPI filter is loaded. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `IsapiFilters` property of the [IsapiFiltersSection](../wmi-provider/isapifilterssection-class.md) class.  
   
  The following table lists the possible values for the `PreCondition` property. The default is `null`.  
@@ -40,6 +45,7 @@ class IsapiFilterElement : CollectionElement
 |`bitness64`|IIS loads the ISAPI filter only for 64-bit worker processes.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `IsapiFilterElement`  
@@ -54,5 +60,6 @@ class IsapiFilterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [IsapiFiltersSection Class](../wmi-provider/isapifilterssection-class.md)

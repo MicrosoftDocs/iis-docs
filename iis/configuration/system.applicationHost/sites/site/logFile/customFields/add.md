@@ -10,6 +10,7 @@ msc.type: config
 # Adding Custom Fields to a Log File for a Site &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element under the `<customField>` element controls the configuration settings for a custom field for a W3C log for a site.
@@ -23,6 +24,7 @@ To configure a custom field, specify the field name, the source name, and the so
 Custom fields enable you to collect useful data about the process and aggregate it to the IIS logs. In a system containing a load balancer, you might see the load balancer's IP address in the log, but you could log the X-Forwarded-For header in a custom field, so you can know the original requester. You could log process uptime to see how many times the process restarted during the day. If memory starts being used excessively, you can determine at which time it started to consume memory, which page was requested, and what was the ID of the client (which would be especially useful if they were doing something malicious).
  
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -35,11 +37,13 @@ Custom fields enable you to collect useful data about the process and aggregate 
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element is included in the default installation of IIS 8.5 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add custom fields
@@ -86,6 +90,7 @@ The `<add>` element is included in the default installation of IIS 8.5 and later
     [![](add/_static/image4.png)](add/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element is configured at the site level.
@@ -109,6 +114,7 @@ The following configuration example uses the `customFields` element and its `add
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure custom fields for a W3C log for a site.

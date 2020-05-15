@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b9c5fbd7-3305-4d2b-a637-5f3e524f6be9
 ---
 # DbProviderFactorySettings Class
+
 Contains configuration settings for [!INCLUDE[ado_whidbey_long](../wmi-provider/includes/ado-whidbey-long-md.md)] provider factories.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class DbProviderFactorySettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DbProviderFactorySettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class DbProviderFactorySettings : EmbeddedObject
 |`DbProviderFactories`|An array of [ProviderFactoryElement](https://msdn.microsoft.com/42f523ee-eaab-4a81-917d-5c0f591cfc45) values that contain configuration settings for [!INCLUDE[ado_whidbey_long](../wmi-provider/includes/ado-whidbey-long-md.md)] provider factories.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DbProviderFactories` array property of the [SystemDataSection](../wmi-provider/systemdatasection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `DbProviderFactorySettings`  
@@ -43,6 +49,7 @@ class DbProviderFactorySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ProviderFactoryElement Class](../wmi-provider/providerfactoryelement-class.md)   
  [SystemDataSection Class](../wmi-provider/systemdatasection-class.md)

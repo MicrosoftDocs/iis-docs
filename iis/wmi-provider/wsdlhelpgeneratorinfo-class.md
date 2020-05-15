@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ecad8fbf-4dbe-487a-f9e6-55a06cce55d9
 ---
 # WsdlHelpGeneratorInfo Class
+
 Specifies the XML Web service Help page (an .aspx file) that is displayed to a browser when the browser navigates directly to an .asmx (XML Web services) page.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class WsdlHelpGeneratorInfo : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WsdlHelpGeneratorInfo` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class WsdlHelpGeneratorInfo : EmbeddedObject
 |`Href`|A read/write `string` value that contains the file path to the Help page. The value of `Href` is a file path, not a URL. The file path can be relative or absolute. If it is relative, it is relative to the location of the configuration file.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `WsdlHelpGenerator` property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `WsdlHelpGeneratorInfo`  
@@ -43,6 +49,7 @@ class WsdlHelpGeneratorInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
  [\<wsdlHelpGenerator> Element](https://go.microsoft.com/fwlink/?LinkId=69320)

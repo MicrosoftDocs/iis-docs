@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b67d92d6-e099-4a9a-9862-993f00ff395b
 ---
 # PFN_ASYNC_COMPLETION function
+
 Defines the asynchronous completion function prototype.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ typedef REQUEST_NOTIFICATION_STATUS(WINAPI* PFN_ASYNC_COMPLETION)(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  A pointer to an [IHttpContext3](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md) interface.  
   

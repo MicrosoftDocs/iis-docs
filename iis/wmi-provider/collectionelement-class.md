@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2476947b-5036-a2f4-440a-2074a7dfeb29
 ---
 # CollectionElement Class
+
 Groups classes whose instances form part of a collection.  
   
 ## Syntax  
@@ -13,12 +14,15 @@ class CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  This class contains no properties.  
   
 ## Subclasses  
+
  The following table lists the subclasses exposed by the `CollectionElement` class.  
   
 |Name|Description|  
@@ -106,5 +110,6 @@ class CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [WMI Provider](../wmi-provider/wmi-provider.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

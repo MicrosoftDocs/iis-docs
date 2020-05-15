@@ -83,6 +83,7 @@ To install Web Deploy from the .msi file:
 After installing Web Deploy, all server-level configuration is complete for non-administrator publishing; however, additional configuration is required at a site level. This site configuration can be accomplished using PowerShell or IIS Manager, as described below.
 
 <a id="00"></a>
+
 ### Remote Publishing Cannot Be Set up on Windows 8.0 or 8.1
 
 You cannot set up remote publishing using Web Deploy for a site that is hosted in IIS on Windows 8.0 or 8.1. The reason is that the client SKUs for Windows do not come with the Web Management Service that is required for remote connections. As a result, on Windows 8.0 or 8.1, the IIS Manager Permissions icon and the Configure Web Deploy Publishing deployment option that are required to configure remote publishing are not available in the IIS Manager.

@@ -10,6 +10,7 @@ msc.type: config
 # Custom Metadata Keys &lt;key&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<key>` element of the `<customMetadata>` element adds a custom metadata setting to the collection of custom metadata settings.
@@ -20,6 +21,7 @@ The `<key>` element of the `<customMetadata>` element adds a custom metadata set
 In IIS 6.0, all of the IIS settings were kept in the metabase. In addition, any custom settings that were required by applications were stored in the metabase. In IIS 7, all IIS settings are now kept in ApplicationHost.config and Web.config Files. IIS 7 provides backwards-compatibility through the IIS 6 Metabase Compatibility feature, which is sometimes referred to as the Admin Base Object (ABO) mapper component. This feature listens for applications that attempt to write to the metabase, and maps all IIS 6.0 metabase settings to their IIS 7 equivalents. If an IIS 6.0 setting has no IIS 7 equivalent, the setting will be written to the `<customMetadata>` element.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -32,6 +34,7 @@ In IIS 6.0, all of the IIS settings were kept in the metabase. In addition, any 
 | IIS 6.0 | The `<customMetadata>` element replaces any IIS 6.0 metabase objects that are not directly mapped to IIS 7 configuration elements. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<customMetadata>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -74,11 +77,13 @@ The `<customMetadata>` element is not available on the default installation of I
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 The `<customMetadata>` section of the configuration should not be modified directly; therefore, no examples are available.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -94,6 +99,7 @@ The `<customMetadata>` section of the configuration should not be modified direc
 | [`property`](property.md) | Optional element.<br><br>Adds a metabase property to the collection of metabase properties. |
 
 <a id="006"></a>
+
 ## Sample Code
 
 The `<customMetadata>` section of the configuration should not be modified directly; therefore, no examples are available.

@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Firewall Support Settings &lt;firewallSupport&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<ftpServer/firewallSupport>` element of the `<siteDefaults>` element is used to configure the way that the FTP service works with firewalls by default.
@@ -22,6 +23,7 @@ When passive connections are negotiated using the FTP PASV command, the FTP serv
 > While the external IP address can be configured per-site, you can also specify the data channel port range that the FTP service will use in the global [`<system.ftpServer/firewallSupport>`](../../../../system.ftpserver/firewallsupport.md) element.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -40,6 +42,7 @@ When passive connections are negotiated using the FTP PASV command, the FTP serv
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -107,6 +110,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the FTP service for the default external IP address to use for your firewall
@@ -142,6 +146,7 @@ For additional information about how to configure the firewall settings for the 
 > [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -161,6 +166,7 @@ The following configuration sample displays an example `<firewallSupport>` eleme
 [!code-xml[Main](firewallSupport/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples demonstrate how to configure the default firewall settings for the FTP service.

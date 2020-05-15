@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 290bdb6a-d69c-775f-b436-6c703a826d2b
 ---
 # IHttpRequest::GetRemainingEntityBytes Method
+
 Returns the number of remaining bytes to be read from the client.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual DWORD GetRemainingEntityBytes(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that contains the number of bytes of data that remain to be read.  
   
 ## Remarks  
+
  The `GetRemainingEntityBytes` method determines the size of the remaining data bytes in the current request. For example, if you created a module that used the [IHttpRequest::ReadEntityBody](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md) method to retrieve a partial segment of the current request, you would use the `GetRemainingEntityBytes` method to determine the amount of data that is left in the request for processing.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetRemainingEntityBytes` method to create an HTTP module that retrieves the number of bytes to be read from the client.  
   
  [!code-cpp[IHttpRequestGetRemainingEntityBytes#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetRemainingEntityBytes/cpp/IHttpRequestGetRemainingEntityBytes.cpp#1)]  
@@ -42,6 +47,7 @@ virtual DWORD GetRemainingEntityBytes(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::ReadEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md)   
  [IHttpRequest::InsertEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-insertentitybody-method.md)

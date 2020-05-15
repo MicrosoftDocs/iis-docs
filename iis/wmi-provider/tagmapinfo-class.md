@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8e0bf24d-5acf-847c-89c1-51d5fa5a922e
 ---
 # TagMapInfo Class
+
 Contains statements that remap tag types.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TagMapInfo : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TagMapInfo` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class TagMapInfo : EmbeddedObject
 |`TagMapping`|An array of [TagMapElement](../wmi-provider/tagmapelement-class.md) values that remap tag types.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `TagMapping` property on the [PagesSection](../wmi-provider/pagessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TagMapInfo`  
@@ -43,6 +49,7 @@ class TagMapInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo)  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   

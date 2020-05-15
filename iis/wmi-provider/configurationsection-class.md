@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7b785db0-a6d8-5278-b524-bdcfc0463613
 ---
 # ConfigurationSection Class1
+
 Serves as a base class for classes that represent configuration sections.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConfigurationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|Sets the `allowLocation` attribute for a configuration section.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConfigurationSection` class.  
   
 |Name|Description|  
@@ -33,6 +36,7 @@ class ConfigurationSection
 |`SectionInformation`|A [SectionInformation](../wmi-provider/sectioninformation-class.md) object whose read/write properties provide metadata and control locking for a configuration section.|  
   
 ## Subclasses  
+
  The following table lists the subclasses exposed by the `ConfigurationSection` class.  
   
 |Name|Description|  
@@ -82,6 +86,7 @@ class ConfigurationSection
 |[XmlSerializerSection](../wmi-provider/xmlserializersection-class.md)|Handles the XML elements used to configure XML serialization.|  
   
 ## Remarks  
+
  The association classes that derive from the [ObjectConfigurationAssociation](../wmi-provider/objectconfigurationassociation-class.md) class use the `ConfigurationSection` class to link objects to configuration sections.  
   
  All classes that derive from `ConfigurationSection` inherit the `Location`, `Path`, and `SectionInformation` properties. `Location` and `Path` are key properties for all subclasses of `ConfigurationSection`.  
@@ -96,6 +101,7 @@ class ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [WMI Provider](../wmi-provider/wmi-provider.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)   

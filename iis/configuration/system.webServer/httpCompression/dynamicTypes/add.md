@@ -10,6 +10,7 @@ msc.type: config
 # Adding Dynamic Types &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<dynamicTypes>` element adds a unique MIME type to the list of types that IIS 7 will compress dynamically.
@@ -18,6 +19,7 @@ The `<add>` element of the `<dynamicTypes>` element adds a unique MIME type to t
 > Unlike the IIS 6.0 **HcScriptFileExtensions** metabase property that defined specific file name extensions as "dynamic content," IIS 7 uses the `<dynamicTypes>` element to specify which MIME types IIS 7 will compress dynamically, and it uses mappings in the `<handlers>` element to specify which file name extensions refer to static or dynamic content.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<add>` element of the `<dynamicTypes>` element adds a unique MIME type to t
 | IIS 6.0 | The `<dynamicTypes>` element is somewhat analogous to the IIS 6.0 **HcScriptFileExtensions** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 HTTP compression is usually available on the default installation of IIS 7 and later. However, only static compression is installed by default. To install static or dynamic compression, use the following steps.
@@ -74,11 +77,13 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 5. Click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for setting the dynamic content types for IIS 7. For examples of how to set the dynamic content types programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -99,6 +104,7 @@ The following default `<httpCompression>` element is configured in the Applicati
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will add the MIME types for Office 2003 documents to the list of dynamic compression types.  

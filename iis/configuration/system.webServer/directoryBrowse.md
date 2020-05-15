@@ -10,6 +10,7 @@ msc.type: config
 # Directory Browse &lt;directoryBrowse&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<directoryBrowse>` element controls the information that is displayed in a directory listing when you enable directory browsing for your Web site or application.
@@ -17,6 +18,7 @@ The `<directoryBrowse>` element controls the information that is displayed in a 
 The `<directoryBrowse>` element can contain two attributes. The **enabled** attribute determines whether directory browsing is enabled for the site, application, or directory. The **showFlags** attribute defines the information about each file in the directory that Internet Information Services (IIS) will display. IIS can display the last modified date and time, the long date for the last modified date, the file size, and the file name extension. You can choose which of these, if any, IIS will display. 
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,6 +31,7 @@ The `<directoryBrowse>` element can contain two attributes. The **enabled** attr
 | IIS 6.0 | The `<directoryBrowse>` element replaces the IIS 6.0 **DirBrowseFlags** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<directoryBrowse>` element is included in the default installation of IIS 7 and later.
@@ -74,6 +77,7 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
     [![](directoryBrowse/_static/image8.png)](directoryBrowse/_static/image7.png)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable directory browsing
@@ -102,6 +106,7 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
 5. In the **Directory Browsing** pane, select the options that correspond to the information you want to display for each item in the directory, and then click **Apply**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<directoryBrowse>` element is configurable at the site level, application level, or directory level in the appropriate Web.config file.
@@ -124,6 +129,7 @@ The following example enables directory browsing and uses the **showFlags** prop
 [!code-xml[Main](directoryBrowse/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable directory browsing for a site named Contoso and use the **showFlags** property to configure IIS to display the date and time modified for each item in the directory, along with each item's file size and file name extension.

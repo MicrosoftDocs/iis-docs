@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5aee4c82-06de-08c4-ce8d-813dfcb8c506
 ---
 # IHttpCacheKey Interface
+
 Provides key information for corresponding data that is stored in a global cache.  
   
 ## Syntax  
@@ -31,9 +32,11 @@ class IHttpCacheKey
 |[IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md)|Represents key information for accessing associated data in the Uniform Resource Identifier (URI) cache.|  
   
 ## Remarks  
+
  You can retrieve an `IHttpCacheKey` pointer from an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer by calling the [ICacheProvider::GetCacheKey](../../web-development-reference/native-code-api-reference/icacheprovider-getcachekey-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheKey` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -85,6 +88,7 @@ class IHttpCacheKey
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  `IHttpCacheKey`  
   
  [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md)  
@@ -103,4 +107,5 @@ class IHttpCacheKey
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

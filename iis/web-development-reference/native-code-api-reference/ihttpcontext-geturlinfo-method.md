@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c7f49659-be13-b8eb-d401-3f35cdf88213
 ---
 # IHttpContext::GetUrlInfo Method
+
 Retrieves the URL information container for the current context.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual IHttpUrlInfo* GetUrlInfo(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpUrlInfo](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md) interface.  
   
 ## Remarks  
+
  The `GetUrlInfo` method retrieves a pointer to an `IHttpUrlInfo` interface that retrieves additional information about the URL for the current request. For example, the [IHttpUrlInfo::IsFrequentlyHit](../../web-development-reference/native-code-api-reference/ihttpurlinfo-isfrequentlyhit-method.md) method retrieves a Boolean value that indicates whether the URL for the current request is frequently requested by Web clients.  
   
 > [!NOTE]
 >  The [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface owns the lifetime of this object. Therefore, you do not free this pointer when you write HTTP modules.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetUrlInfo` method to create an HTTP module that retrieves an `IHttpUrlInfo` interface. Then the example calls the [IHttpUrlInfo::IsFrequentlyHit](../../web-development-reference/native-code-api-reference/ihttpurlinfo-isfrequentlyhit-method.md) method to determine whether the URL is frequently requested. Finally, the example displays this information to a Web client.  
   
  [!code-cpp[IHttpContextGetUrlInfo#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetUrlInfo/cpp/IHttpContextGetUrlInfo.cpp#1)]  
@@ -45,4 +50,5 @@ virtual IHttpUrlInfo* GetUrlInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

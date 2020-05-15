@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b106f804-8831-1080-c63f-c27203537e62
 ---
 # HttpProtocolSection Class
+
 Represents an HTTP protocol configuration section.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpProtocolSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpProtocolSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HttpProtocolSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpProtocolSection` class.  
   
 |Name|Description|  
@@ -40,9 +43,11 @@ class HttpProtocolSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -59,6 +64,7 @@ class HttpProtocolSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [CustomHeaderSettings Class](../wmi-provider/customheadersettings-class.md)   
  [NameValueConfigurationElement Class](../wmi-provider/namevalueconfigurationelement-class.md)   

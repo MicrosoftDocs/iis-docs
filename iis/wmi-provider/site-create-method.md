@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 134a8645-84b9-7c17-4cdc-be817cc88bfe
 ---
 # Site.Create Method1
+
 Creates a new Web site.  
   
 ## Syntax  
@@ -36,15 +37,18 @@ var newsite = appsrv.Get("Site").Create(
 |`ServerAutoStart`|An optional `boolean` value. `true` if the server instance should start automatically when the World Wide Web Publishing Service (WWW service) is started; otherwise, `false`.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method replaces the IIS 6.0 `IIsWebService.CreateWebSite` method.  
   
 > [!NOTE]
 >  You cannot use `Site.SpawnInstance_` and `Site.Put_` to create a new Web site. A new site must have a root application and a root virtual directory, and these can be specified only through the `Create` method.  
   
 ## Example  
+
  The following example creates a new Web site.  
   
 > [!NOTE]
@@ -82,5 +86,6 @@ SiteDefinition.Create SiteName, BindingsArray, PhysicalPath
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [BindingElement Class](../wmi-provider/bindingelement-class.md)   
  [Site Class](../wmi-provider/site-class.md)

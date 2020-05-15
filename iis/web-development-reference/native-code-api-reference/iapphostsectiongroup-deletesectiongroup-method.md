@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 39db83f7-5580-2e1f-07dc-cfdaa63241fd
 ---
 # IAppHostSectionGroup::DeleteSectionGroup Method
+
 Removes a configuration section group that is nested under the current configuration section group.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT DeleteSectionGroup(
 ```  
   
 ### Parameters  
+
  `varIndex`  
  A `VARIANT` that contains the index of the nested configuration section group to be removed from current configuration section group.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ HRESULT DeleteSectionGroup(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

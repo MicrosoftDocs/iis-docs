@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f0488c2d-152c-4b55-a96a-f43b33ee34e1
 ---
 # ConfigurationSection.GetAllowLocation Method
+
 Retrieves the `allowLocation` attribute for a configuration section.  
   
 ## Syntax  
@@ -23,9 +24,11 @@ ConfigurationSection.GetAllowLocation(AllowLocation);
 |`AllowLocation`|A `string` variable that receives the `allowLocation` attribute that the `GetAllowLocation` method returns. The possible attribute values are "true" or "false". The default is "true". **Note:**  This parameter is a `string`, not a `boolean`.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  The `allowLocation` attribute specifies whether a configuration section can appear inside a pair of location tags.  
   
  Because `GetAllowLocation` is a static method, you should call it by getting a class object, as in the following example.  
@@ -47,6 +50,7 @@ oAnonAuth.GetAllowLocation strAnonAuthAllowLocation
 ```  
   
 ## Example  
+
  The following example displays the `allowLocation` attribute for the Anonymous authentication configuration section.  
   
 ```  
@@ -78,6 +82,7 @@ WScript.Echo _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ConfigurationSection.GetAllowDefinition Method](../wmi-provider/configurationsection-getallowdefinition-method.md)

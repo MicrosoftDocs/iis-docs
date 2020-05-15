@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 91fce06e-446c-2235-636a-340a1326b892
 ---
 # SocketSettings Class
+
 Specifies whether completion ports are used for connecting and accepting connections.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SocketSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SocketSettings` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class SocketSettings : EmbeddedObject
 |`AlwaysUseCompletionPortsForConnect`|A read/write `boolean` value. `true` if completion ports are used for making connections; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Socket` property of the [SettingsSection](../wmi-provider/settingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SocketSettings`  
@@ -44,5 +50,6 @@ class SocketSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SettingsSection Class](../wmi-provider/settingssection-class.md)

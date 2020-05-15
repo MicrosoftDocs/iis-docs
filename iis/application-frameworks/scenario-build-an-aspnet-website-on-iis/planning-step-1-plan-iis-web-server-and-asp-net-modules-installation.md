@@ -16,6 +16,7 @@ The first step in planning to build an ASP.NET website on IIS 8 is to install II
 When you are done with these tasks, record your design decisions before going on to [Step 2: Plan ASP.NET Settings](planning-step-2-plan-asp-net-settings.md).
 
 <a id="11"></a>
+
 ## 1.1. Plan to Install IIS and ASP.NET Modules
 
 An ASP.NET Web server is an extended IIS server that has the ASP.NET runtime extensibility model integrated into the core server. The ASP.NET server configuration adds the following IIS modules to the default IIS web server installation:
@@ -31,6 +32,7 @@ An ASP.NET Web server is an extended IIS server that has the ASP.NET runtime ext
 By default, Windows Server 2012 and Windows 8 installs .NET 4.5 only. If you want to run .NET 2 applications, install .NET 3.5, which supports web applications written using ASP.NET 2 to 3.5.
 
 <a id="12"></a>
+
 ## 1.2. Plan to Add the ASP.NET Application
 
 An application is a grouping of content at the root level of a website or a grouping of content in a separate folder under the website root directory. When you add an application in IIS 8, you designate a directory as the *application root*, or starting point, for the application. Then specify properties specific to that particular application, such as the application pool that the application runs in.

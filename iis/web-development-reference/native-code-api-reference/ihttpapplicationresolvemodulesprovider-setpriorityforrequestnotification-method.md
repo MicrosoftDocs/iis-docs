@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 374023e4-2b63-b86b-5fc0-0aebd236b178
 ---
 # IHttpApplicationResolveModulesProvider::SetPriorityForRequestNotification Method
+
 Sets the request-level priority for a specific module.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT SetPriorityForRequestNotification(
 ```  
   
 ### Parameters  
+
  `pszModuleName`  
  [IN] A pointer to a string that contains the name of the module.  
   
@@ -27,6 +29,7 @@ virtual HRESULT SetPriorityForRequestNotification(
  [IN] A pointer to a string that contains the priority alias. (Defined in [Httpserv.h](../../web-development-reference/native-code-api-reference/request-processing-constants.md).)  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,6 +38,7 @@ virtual HRESULT SetPriorityForRequestNotification(
 |ERROR_INVALID_PARAMETER|Indicates that one of the parameters is not valid.|  
   
 ## Remarks  
+
  IIS uses the `SetPriorityForRequestNotification` method to specify the priority level for the HTTP module that is specified in the `pszModuleName` parameter.  
   
 ## Requirements  
@@ -47,5 +51,6 @@ virtual HRESULT SetPriorityForRequestNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)   
  [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)

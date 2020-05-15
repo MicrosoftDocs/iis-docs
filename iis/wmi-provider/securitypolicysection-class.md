@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0d5068c9-aeb1-15ac-af43-5a4e669d0f0e
 ---
 # SecurityPolicySection Class
+
 Defines a collection of mappings between security policy files and their trust-level names.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SecurityPolicySection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SecurityPolicySection` class.  
   
 |Name|Description|  
@@ -38,14 +41,17 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
 |`SecurityPolicy`|An array of read/write [TrustLevel](../wmi-provider/trustlevel-class.md) values that map security policy files to named security trust levels. You can apply the security policy to an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application by specifying the trust-level name in the `Level` property of the [TrustSection](../wmi-provider/trustsection-class.md) class.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class is valid only in a site-level configuration (Web.config) file.  
   
  For information about [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and policy files, see [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328) and [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326).  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -62,6 +68,7 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [TrustLevel Class](../wmi-provider/trustlevel-class.md)   
  [TrustSection Class](../wmi-provider/trustsection-class.md)   

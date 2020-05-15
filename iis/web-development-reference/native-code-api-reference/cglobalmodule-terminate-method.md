@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d9da74a3-e716-1785-e600-08337d75bfc5
 ---
 # CGlobalModule::Terminate Method
+
 Represents the method that IIS calls when a global module has completed processing.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual VOID Terminate(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  IIS calls the `Terminate` method for a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) before a module is unloaded.  
   
 > [!IMPORTANT]
 >  Developers should use the `Terminate` method to remove implementations of `CGlobalModule` classes from memory.  
   
 ## Example  
+
  The following code example demonstrates how to create a simple "Hello World" global-level HTTP module. The module defines an exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function that creates an instance of a class that is derived from `CGlobalModule`. If the class cannot be created, the function exits with an error code; otherwise, the function calls the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method to register for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
   
  When a `GL_PRE_BEGIN_REQUEST` notification occurs, IIS calls the module's [CGlobalModule::OnGlobalPreBeginRequest](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) method to process the notification. The method calls a private method to write an event to the application log of the Event Viewer, and then it returns [GL_NOTIFICATION_CONTINUE](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) to notify IIS to continue processing other notifications. When processing is complete, IIS calls the module's `Terminate` method to remove the class from memory.  
@@ -47,4 +52,5 @@ virtual VOID Terminate(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

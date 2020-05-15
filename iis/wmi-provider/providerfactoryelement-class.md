@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6cee1598-11a6-3211-c3e1-24b5e68e46e8
 ---
 # ProviderFactoryElement Class
+
 Contains configuration settings for an [!INCLUDE[ado_whidbey_long](../wmi-provider/includes/ado-whidbey-long-md.md)] provider factory.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProviderFactoryElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProviderFactoryElement` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class ProviderFactoryElement : CollectionElement
 |`Type`|A read/write `string` value that specifies the type for the provider specified in the `Name`, `Description`, and `Invariant` properties (for example, "System.Data.Odbc.OdbcFactory, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DbProviderFactories` array property of the [DbProviderFactorySettings](../wmi-provider/dbproviderfactorysettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ProviderFactoryElement`  
@@ -46,6 +52,7 @@ class ProviderFactoryElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [DbProviderFactorySettings Class](../wmi-provider/dbproviderfactorysettings-class.md)   
  [SystemDataSection Class](../wmi-provider/systemdatasection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1099c91e-cb93-fa4d-c7f4-b7abfe8cb6e5
 ---
 # ListenerAdaptersSection Class
+
 Exposes a collection of listener adapters.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ListenerAdaptersSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ListenerAdaptersSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ListenerAdaptersSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ListenerAdaptersSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class ListenerAdaptersSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,5 +62,6 @@ class ListenerAdaptersSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ListenerAdapterElement Class](../wmi-provider/listeneradapterelement-class.md)

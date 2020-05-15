@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b6fb2e50-98c5-d549-a770-867aa248317a
 ---
 # ApplicationPool.GetState Method2
+
 Returns the run-time state of an application pool.  
   
 ## Syntax  
@@ -17,9 +18,11 @@ var appPoolState = appPool.GetState();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `uint32` that identifies the application pool state. The return values are shown in the following table.  
   
 |Return value|Description|  
@@ -31,9 +34,11 @@ var appPoolState = appPool.GetState();
 |4|Indicates that the application pool state is unknown.|  
   
 ## Remarks  
+
  This method is new to the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider and has no direct counterpart in IIS 6.0.  
   
 ## Example  
+
  The following example gets the state of an application pool and returns it to the user.  
   
 ```  
@@ -76,4 +81,5 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)

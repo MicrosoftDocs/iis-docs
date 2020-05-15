@@ -10,6 +10,7 @@ msc.type: config
 # Management Authentication &lt;authentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<authentication>` element of the `<management>` element specifies authentication credentials for IIS Manager user accounts. IIS Manager users can use IIS Manager to connect to sites and applications for which they are authorized by a server administrator.
@@ -17,6 +18,7 @@ The `<authentication>` element of the `<management>` element specifies authentic
 When you use the default *ConfigurationAuthenticationProvider* as your authentication provider and you enable IIS Manager authentication, the `<credentials>` child element may contain a series of `<add>` elements that define the user names and passwords for your IIS Manager user accounts. These IIS Manager user accounts are not Windows accounts, so they are limited to configuring only the sites and settings that a server administrator makes available to them.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,6 +31,7 @@ When you use the default *ConfigurationAuthenticationProvider* as your authentic
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the **Management Service** role service. To install this role service, use the following steps.
@@ -72,6 +75,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable IIS Manager credentials for a server
@@ -125,6 +129,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](index/_static/image18.png)](index/_static/image17.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -151,6 +156,7 @@ The following default `<providers>` element under the `<authentication>` element
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add an IIS Manager user account named ContosoUser to IIS 7.

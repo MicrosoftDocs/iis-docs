@@ -10,6 +10,7 @@ msc.type: config
 # Adding Verbs &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<verbs>` collection specifies a unique HTTP verb to add to the collection of verbs that are allowed or denied for Internet Information Services (IIS) 7.
@@ -24,6 +25,7 @@ The `<add>` element of the `<verbs>` collection specifies a unique HTTP verb to 
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,6 +38,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 6.0 | The `<verbs>` element replaces the IIS 6.0 UrlScan **[AllowVerbs]** and **[DenyVerbs]** features. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -79,6 +82,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for request filtering. To install the Microsoft Administration Pack for IIS 7.0, please see the following URL:
@@ -114,6 +118,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     For example, to prevent HTTP TRACE requests to your server, you would enter "TRACE" in the dialog box.
  
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -134,6 +139,7 @@ The following example Web.config file will configure two options: it will config
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will configure two options: they will configure IIS to deny HTTP PUT requests for the &quot;Default Web Site&quot;, and they will configure request filtering to allow WebDAV access to all HTTP verbs.

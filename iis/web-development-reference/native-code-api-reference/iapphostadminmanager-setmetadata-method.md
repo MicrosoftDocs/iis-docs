@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1fb582bf-d87e-7f90-6846-f1e00bce9b70
 ---
 # IAppHostAdminManager::SetMetadata Method
+
 Sets metadata values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT SetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being set.  
   
@@ -24,6 +26,7 @@ HRESULT SetMetadata(
  A `VARIANT` that contains the new metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ HRESULT SetMetadata(
 |ERROR_NOT_SUPPORTED|Indicates that the metadata being set is not supported.|  
   
 ## Example  
+
  The following code example sets a `configSource` attribute for the `system.applicationHost/sites` section by using the `IAppHostAdminManager::SetMetadata` method.  
   
  [!code-cpp[IAppHostAdminLibrary#4](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementSetMetadata.cpp#4)]  
@@ -46,4 +50,5 @@ HRESULT SetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)

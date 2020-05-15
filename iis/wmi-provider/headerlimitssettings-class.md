@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c7357037-e4e5-4358-8d5b-982e59e25507
 ---
 # HeaderLimitsSettings Class
+
 Specifies permitted sizes for HTTP request headers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HeaderLimitsSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HeaderLimitsSettings` class.  
   
 |Name|Description|  
@@ -23,15 +26,18 @@ class HeaderLimitsSettings : EmbeddedObject
 |`HeaderLimits`|An array of [HeaderLimitsElement](../wmi-provider/headerlimitselement-class.md) values that specify size limits for specified HTTP request headers.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HeaderLimits` array property of the [RequestLimitsElement](../wmi-provider/requestlimitselement-class.md) class.  
   
 > [!NOTE]
 >  You must install the Request Filtering Module (Modrqflt.dll) for the settings in this class to take effect.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `HeaderLimitsSettings`  
@@ -46,6 +52,7 @@ class HeaderLimitsSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   
  [HeaderLimitsElement Class](../wmi-provider/headerlimitselement-class.md)   

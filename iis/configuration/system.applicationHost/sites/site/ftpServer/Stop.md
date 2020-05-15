@@ -10,11 +10,13 @@ msc.type: config
 # FTP Site Stop Method &lt;Stop&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<Stop>` of the `<ftpServer>` element stops the FTP site that `<ftpServer>` applies to. The run-time state for the FTP site can be determined by the value of the state attribute.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<Stop>` of the `<ftpServer>` element stops the FTP site that `<ftpServer>` 
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -94,6 +97,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to stop an FTP site
@@ -118,6 +122,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the **Manage Website** section of the **Actions** pane, click **Stop**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The site-specific `<ftpServer>` element is configured at the site-level.
@@ -131,6 +136,7 @@ Not applicable.
 Not applicable.
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable you to stop an FTP site programmatically.

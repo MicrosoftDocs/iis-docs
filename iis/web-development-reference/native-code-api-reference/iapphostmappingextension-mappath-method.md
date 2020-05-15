@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6daf0cdd-531a-223a-e875-8fc145223a56
 ---
 # IAppHostMappingExtension::MapPath Method
+
 Maps a site to a physical path, virtual directory, and application path by using the site name and virtual path.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ HRESULT MapPath(
 ```  
   
 ### Parameters  
+
  `bstrSiteName`  
  A `BSTR` that contains the site name.  
   
@@ -38,6 +40,7 @@ HRESULT MapPath(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -54,4 +57,5 @@ HRESULT MapPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMappingExtension Interface](../../web-development-reference/native-code-api-reference/iapphostmappingextension-interface.md)

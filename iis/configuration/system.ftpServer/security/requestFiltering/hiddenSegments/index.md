@@ -10,6 +10,7 @@ msc.type: config
 # FTP Hidden Segments &lt;hiddenSegments&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<hiddenSegments>` element contains a collection of `<add>` elements that identify certain URLs that FTP 7 will make inaccessible to FTP clients.
@@ -26,6 +27,7 @@ For example, on FTP servers that are hosting ASP.NET content, you could block AS
 This substatus allows FTP administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -45,6 +47,7 @@ This substatus allows FTP administrators to analyze their IIS logs and identify 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -112,6 +115,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 > [!NOTE]
@@ -145,6 +149,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 7. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<hiddenSegments>` element of the `<requestFiltering>` element is configured at the global, site or URL level.
@@ -174,6 +179,7 @@ The following sample illustrates several security-related configuration settings
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add two FTP hidden segments to the Default Web Site; the first hidden segment denies access to the &quot;bin&quot; path and the second segment denies access to the &quot;App\_Code&quot; path.

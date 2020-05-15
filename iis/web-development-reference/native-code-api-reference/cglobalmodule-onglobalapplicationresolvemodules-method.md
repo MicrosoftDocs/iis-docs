@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d9983f8d-2021-1023-a44b-14239ade72a5
 ---
 # CGlobalModule::OnGlobalApplicationResolveModules Method
+
 Represents the method that will handle a `GlobalApplicationResolveModules` event, which occurs when IIS resolves the registered modules.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationResolveModules(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IHttpApplicationResolveModulesProvider](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_APPLICATION_RESOLVE_MODULES](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalApplicationResolveModules` method when IIS resolves the modules for an application.  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalApplicationResolveModules` event notification by registering for `GL_APPLICATION_RESOLVE_MODULES` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_APPLICATION_RESOLVE_MODULES` notification. When IIS resolves the modules for an application, IIS will call the example module's `OnGlobalApplicationResolveModules` method. This method will write an entry in the application log of the Windows Event Viewer and then exit.  
   
  [!code-cpp[CGlobalModuleGlobalApplicationResolveModules#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleGlobalApplicationResolveModules/cpp/CGlobalModuleGlobalApplicationResolveModules.cpp#1)]  
@@ -46,4 +51,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationResolveModules(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

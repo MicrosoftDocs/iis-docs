@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2e02f13e-9999-28dd-304d-507b041f9b5b
 ---
 # IAppHostAdminManager Interface
+
 Provides read-only access to effective data in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostAdminManager : public IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostAdminManager` interface.  
   
 |Method|Description|  
@@ -22,6 +24,7 @@ IAppHostAdminManager : public IUnknown
 |[SetMetadata](../../web-development-reference/native-code-api-reference/iapphostadminmanager-setmetadata-method.md)|Sets metadata values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostAdminManager` interface.  
   
 |Property|Description|  
@@ -29,11 +32,13 @@ IAppHostAdminManager : public IUnknown
 |[ConfigManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-configmanager-property.md)|Gets an [IAppHostConfigManager](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-interface.md) interface that provides access to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
   
 ## Remarks  
+
  The `IAppHostAdminManager` interface provides read-only access to the effective values of a merged configuration set in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system. For a specified configuration path, the return values of this method represent the values in the hierarchically merged configuration set.  
   
  For access to set explicit values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system, use the [IAppHostWritableAdminManager](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-interface.md) interface.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostAdminManager`  
@@ -48,5 +53,6 @@ IAppHostAdminManager : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostWritableAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-interface.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

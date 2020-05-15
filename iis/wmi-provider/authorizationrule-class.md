@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f334ec89-73af-4b83-5c45-0fc379b053fe
 ---
 # AuthorizationRule Class
+
 Represents a rule in the authorization section of a configuration file.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AuthorizationRule : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AuthorizationRule` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class AuthorizationRule : CollectionElement
 |`Verbs`|A required unique read/write `string` value that contains a comma-delimited list of HTTP transmission methods for which access to a URL resource is granted or denied. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Authorization` property of the [AuthorizationSection](../wmi-provider/authorizationsection-class.md) class.  
   
  The following table lists the possible values for the `AccessType` property.  
@@ -39,6 +44,7 @@ class AuthorizationRule : CollectionElement
 |1|`Deny`|Denies access to a URL resource for the combination of values you specify in the `Roles`, `Users`, and `Verbs` properties.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `AuthorizationRule`  
@@ -53,5 +59,6 @@ class AuthorizationRule : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.AuthorizationRule](/dotnet/api/system.web.configuration.authorizationrule)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

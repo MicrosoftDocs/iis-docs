@@ -10,6 +10,7 @@ msc.type: config
 # Static Content &lt;staticContent&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<staticContent>` element configures several settings related to processing requests for static files in Internet Information Services (IIS) 7.
@@ -27,6 +28,7 @@ The `<staticContent>` element contains the following three attributes that speci
 > By default, the **isDocFooterFileName** attribute is set to **false** and locked globally. To use files for document footers, you would need to either set the **isDocFooterFileName** attribute to **true** at the global-level, or unlock the attribute. To learn more about locking and unlocking attributes, see the [How to Use Locking in IIS 7.0 Configuration](https://docs.microsoft.com/iis/get-started/planning-for-security/how-to-use-locking-in-iis-configuration) walkthrough.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,16 +41,19 @@ The `<staticContent>` element contains the following three attributes that speci
 | IIS 6.0 | The `<staticContent>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>DefaultDocFooter</strong> <li><strong>EnableDocFooter</strong> </li></li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<staticContent>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<staticContent>` element for IIS 7. For examples of how to configure the `<staticContent>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -73,6 +78,7 @@ The following configuration sample enables a document footer for static content,
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable a document footer for static content, and add a simple copyright notice as the footer text.

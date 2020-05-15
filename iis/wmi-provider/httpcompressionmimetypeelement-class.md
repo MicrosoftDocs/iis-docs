@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cda3cb3f-32b6-9ee2-9dec-35f00f19fc5b
 ---
 # HttpCompressionMimeTypeElement Class
+
 Specifies whether IIS will compress a particular MIME type before serving it.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpCompressionMimeTypeElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpCompressionMimeTypeElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class HttpCompressionMimeTypeElement : CollectionElement
 |`MimeType`|A read-only `string` value that specifies the MIME type to be compressed. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DynamicTypes` array property of the [DynamicTypeSettings](../wmi-provider/dynamictypesettings-class.md) class and in the `StaticTypes` property of the [StaticTypeSettings](../wmi-provider/statictypesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `HttpCompressionMimeTypeElement`  
@@ -44,6 +50,7 @@ class HttpCompressionMimeTypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)   
  [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)   

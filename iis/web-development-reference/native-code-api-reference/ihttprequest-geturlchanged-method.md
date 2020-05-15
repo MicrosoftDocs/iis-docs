@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fb1a6f37-8da1-5118-a581-5fe6684a88a2
 ---
 # IHttpRequest::GetUrlChanged Method
+
 Determines whether the request URL has been modified.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL GetUrlChanged(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if the URL has been modified; otherwise, `false`.  
   
 ## Remarks  
+
  The `GetUrlChanged` method determines whether the URL for the current request was changed after the [IHttpRequest::SetUrl Method](../../web-development-reference/native-code-api-reference/ihttprequest-seturl-method.md) method was called.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetUrlChanged` method to create an HTTP module that determines whether the request URL has been modified.  
   
  [!code-cpp[IHttpRequestGetUrlChanged#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetUrlChanged/cpp/IHttpRequestGetUrlChanged.cpp#1)]  
@@ -42,5 +47,6 @@ virtual BOOL GetUrlChanged(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::SetUrl Method](../../web-development-reference/native-code-api-reference/ihttprequest-seturl-method.md)

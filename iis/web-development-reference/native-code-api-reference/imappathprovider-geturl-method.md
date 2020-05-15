@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e34715b-0a94-dd4a-8ec0-4974e470bb5d
 ---
 # IMapPathProvider::GetUrl Method
+
 Retrieves the relative URL for the request.  
   
 ## Syntax  
@@ -14,15 +15,19 @@ virtual PCWSTR GetUrl(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a Unicode string that contains the relative URL.  
   
 ## Remarks  
+
  The `GetUrl` method retrieves the relative path for the current request when an HTTP module is processing the [CHttpModule::OnMapPath](../../web-development-reference/native-code-api-reference/chttpmodule-onmappath-method.md) event.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetUrl` method to create an HTTP module that retrieves the relative URL for the current request and returns the URL to a Web client.  
   
  [!code-cpp[IMapPathProviderGetUrl#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMapPathProviderGetUrl/cpp/IMapPathProviderGetUrl.cpp#1)]  
@@ -41,4 +46,5 @@ virtual PCWSTR GetUrl(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMapPathProvider Interface](../../web-development-reference/native-code-api-reference/imappathprovider-interface.md)

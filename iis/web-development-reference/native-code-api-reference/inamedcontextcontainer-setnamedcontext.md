@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f9227def-2aa6-4f5b-a83c-0c6713fc52cf
 ---
 # INamedContextContainer::SetNamedContext
+
 Binds stored context with a specified name.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT SetNamedContext(
 ```  
   
 ### Parameters  
+
  `ppStoredContext`  
  [IN] Points to the stored context to be named.  
   
@@ -23,6 +25,7 @@ virtual HRESULT SetNamedContext(
  [IN] The name to bind with the stored context.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,4 +42,5 @@ virtual HRESULT SetNamedContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [INamedContextContainer Interface](../../web-development-reference/native-code-api-reference/inamedcontextcontainer-interface.md)

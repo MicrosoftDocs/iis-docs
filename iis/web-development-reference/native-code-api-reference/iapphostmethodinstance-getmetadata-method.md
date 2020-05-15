@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 209af03c-7f2c-4884-9ea2-87452cbcff7e
 ---
 # IAppHostMethodInstance::GetMetadata Method
+
 Gets the metadata specified.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ Gets the metadata specified.
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  The name of the metadata to retrieve.  
   
@@ -23,6 +25,7 @@ Gets the metadata specified.
  A `VARIANT` that contains the metadata value.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,4 +42,5 @@ Gets the metadata specified.
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

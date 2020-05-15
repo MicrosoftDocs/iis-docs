@@ -10,6 +10,7 @@ msc.type: config
 # Management Authorization &lt;authorization&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<authorization>` element of the `<management>` element specifies authorization settings for remote management of the Web server when the default authorization provider, *ConfigurationAuthorizationProvider*, is enabled in Internet Information Services (IIS) 7.
@@ -18,6 +19,7 @@ The `<authorization>` element of the `<management>` element specifies authorizat
 > The *ConfigurationAuthorizationProvider* uses the IIS Administration.config file to store IIS Manager authorization settings for IIS Manager; however, other authorization providers may use alternate storage locations.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<authorization>` element of the `<management>` element specifies authorizat
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the **Management Service** role service. To install this role service, use the following steps.
@@ -73,6 +76,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to authorize an IIS Manager user for a site or application
@@ -106,6 +110,7 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](index/_static/image18.png)](index/_static/image17.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -132,6 +137,7 @@ The following default `<providers>` element under the `<authorization>` element 
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples check to see if a `<scope>` element has already been added to the `<authorizationRules>` element for the Default Web Site; if not, a `<scope>` element is added the `<authorizationRules>` element. Next, an `<add>` element is added to the `<scope>` element that authorizes a user account named ContosoUser.

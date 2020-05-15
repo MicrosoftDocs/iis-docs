@@ -10,6 +10,7 @@ msc.type: config
 # Adding FTP Provider Definitions &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<providerDefinitions>` element specifies the registration information for a managed-code or native-code (COM) provider.
@@ -19,6 +20,7 @@ Beginning with FTP 7.5, the FTP service supports extensibility for custom authen
 > [Developing for FTP 7.5](https://www.iis.net/learn/develop/developing-for-ftp)
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -38,6 +40,7 @@ Beginning with FTP 7.5, the FTP service supports extensibility for custom authen
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -105,6 +108,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add a managed-code custom authentication provider for an FTP site
@@ -147,6 +151,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element of the `<providerDefinitions>` element is configured at the global level in ApplicationHost.config.
@@ -183,6 +188,7 @@ The following sample illustrates several configuration settings in the global `<
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add a custom FTP provider definition to a server.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 44dee11b-8008-48d9-b6a6-df173acd3507
 ---
 # IHttpUser::GetUserVariable Method
+
 Returns the custom user data by name.  
   
 ## Syntax  
@@ -15,22 +16,28 @@ virtual PVOID GetUserVariable(
 ```  
   
 ### Parameters  
+
  `pszVariableName`  
  [IN] A pointer to a constant null-terminated string that contains the variable name of the data to retrieve.  
   
 ## Return Value  
+
  A `void` pointer that contains the upcast custom data.  
   
 ## Remarks  
+
  The default is `HTTP_USER_VARIABLE_SID`, which is defined in the Httpserv.h header file.  
   
 ## Notes for Implementers  
+
  [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpUser` implementers that use dynamic memory allocation must release or `delete` the `void` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpUser` implementers are responsible for memory management with this data; therefore, `IHttpUser` clients must not release or `delete` the returned `void` pointer when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this `void` pointer, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
  The above code writes XML that is similar to the following to the response stream.  
@@ -54,4 +61,5 @@ virtual PVOID GetUserVariable(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)

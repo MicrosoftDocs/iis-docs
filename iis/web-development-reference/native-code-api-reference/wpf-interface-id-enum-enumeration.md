@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4c2adfcf-2145-380a-f2e7-438113c28724
 ---
 # WPF_INTERFACE_ID_ENUM Enumeration
+
 Defines the interfaces that the [IWorkerProcessFramework::GetWpfInterface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getwpfinterface-method.md) method supports.  
   
 ## Syntax  
@@ -40,6 +41,7 @@ enum WPF_INTERFACE_ID_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Enumerations](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
  [PM_INTERFACE_ID_ENUM Enumeration](../../web-development-reference/native-code-api-reference/pm-interface-id-enum-enumeration.md)   
  [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-bool-enum-enumeration.md)   

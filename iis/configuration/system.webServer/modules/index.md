@@ -10,6 +10,7 @@ msc.type: config
 # Modules &lt;modules&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<modules>` element defines the native-code modules and managed-code modules that are registered for an application. As a part of Internet Information Services (IIS) request pipeline processing, IIS calls each module listed in the `<modules>` element on every request. You commonly use modules to implement customized functionality, such as security, statistics, and logging, or customized content processing, such as adding customized headers or footers.
@@ -21,6 +22,7 @@ If you want to enable a native module, you must first install it on the server. 
 You do not have to install a managed module; you can enable it directly for each application. This allows applications to include their managed modules directly within the application by registering them in the application's Web.config file, and by providing the implementation in the /BIN or /App\_Code directories.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,11 +35,13 @@ You do not have to install a managed module; you can enable it directly for each
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<modules>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add a managed module to application
@@ -68,6 +72,7 @@ The `<modules>` element is included in the default installation of IIS 7.
 7. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 You configure the `<modules>` element at the server level in the ApplicationHost.config file and at the application level in the Web.config file.
@@ -94,6 +99,7 @@ The example configures a module for a Web application running in IIS 7 Integrate
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9746ee49-951d-a658-169a-9527bc1d57c8
 ---
 # IAppDomainInfoEnum::MoveNext Method
+
 Moves to the next [IAppDomainInfo](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md) interface.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall MoveNext(
 ```  
   
 ### Parameters  
+
  `pfMoreItems`  
  A pointer to a `DWORD` that indicates whether `MoveNext` was successful.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ virtual HRESULT __stdcall MoveNext(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The first call to the `MoveNext` method moves to the first [IAppDomainInfo](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md) interface. If the `pfMoreItems` parameter is nonzero, `MoveNext` moves to the next `IAppDomainInfo` interface, after which you can call the [GetData](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-getdata-method.md) method. If `pfMoreItems` is 0, there are no more `IAppDomainInfo` objects in the application domain.  
   
  You must call the [Reset](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-reset-method.md) method before you call `MoveNext` the first time.  
@@ -40,6 +44,7 @@ virtual HRESULT __stdcall MoveNext(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)   
  [IAppDomainInfoEnum::GetData Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-getdata-method.md)   
  [IAppDomainInfoEnum::Reset Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-reset-method.md)

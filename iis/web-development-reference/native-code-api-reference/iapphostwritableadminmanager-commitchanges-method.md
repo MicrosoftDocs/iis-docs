@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 88065b35-00ae-4de4-7de5-e4178b8f3ed9
 ---
 # IAppHostWritableAdminManager::CommitChanges Method
+
 Commits configuration changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ HRESULT CommitChanges(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -24,6 +27,7 @@ HRESULT CommitChanges(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example demonstrates how to change the configuration and then use the `CommitChanges` method to commit those changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
  [!code-cpp[IAppHostAdminLibrary#4](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementSetMetadata.cpp#4)]  
@@ -38,4 +42,5 @@ HRESULT CommitChanges(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostWritableAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c2e5a65e-b0c5-e25c-411b-5e742e1ea77c
 ---
 # IUriKey::GetSiteName Method
+
 Returns the site name associated with the Uniform Resource Identifier (URI) data.  
   
 ## Syntax  
@@ -15,21 +16,27 @@ virtual PCWSTR GetSiteName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a constant null-terminated Unicode string that contains the name of the Web site.  
   
 ## Remarks  
+
  An example site name for the default Web site is "Default Web Site".  
   
 ## Notes for Implementers  
+
  [IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md) implementers are responsible for memory management with this data; therefore, `IUriKey` implementers that use dynamic memory allocation must release or call `delete` on the `PCWSTR` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IUriKey` implementers are responsible for memory management with this data; therefore, `IUriKey` clients must not release or call `delete` on the returned `PCWSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCWSTR`; otherwise, an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `GetSiteName` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -57,4 +64,5 @@ IUriKey::GetSiteName: Default Web Site
 |Header|Httpcach.h|  
   
 ## See Also  
+
  [IUriKey Interface](../../web-development-reference/native-code-api-reference/iurikey-interface.md)

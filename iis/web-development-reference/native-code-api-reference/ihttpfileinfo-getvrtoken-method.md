@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7a240fb1-dbff-a43b-418c-fa59d2c67d70
 ---
 # IHttpFileInfo::GetVrToken Method
+
 Returns the virtual token for the corresponding file.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual HANDLE GetVrToken(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `HANDLE` to the virtual token; otherwise, NULL.  
   
 ## Remarks  
+
  The behavior of the `GetVrToken` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
 - Implementers that reference an Internet file return a valid `HANDLE`.  
@@ -31,12 +35,15 @@ virtual HANDLE GetVrToken(
 >  Because some implementers return NULL on the `GetVrToken` method, always test for this condition before using the returned `HANDLE`.  
   
 ## Notes for Implementers  
+
  [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call `CloseHandle` on the `HANDLE` when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpFileInfo` implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` clients must not call `CloseHandle` on the returned `HANDLE` when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this `HANDLE`; otherwise, an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `GetVrToken` method to retrieve virtual token information for the requested file and displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfo#15](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetVrToken.cpp#15)]  
@@ -67,4 +74,5 @@ VR Token:  NULL
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

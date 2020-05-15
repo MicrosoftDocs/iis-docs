@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d2fb6f55-6f44-12ad-09d0-be4efde7ba1c
 ---
 # PM_INTERFACE_ID_ENUM Enumeration
+
 Defines the interfaces that the [IProtocolManager::GetPmInterface](../../web-development-reference/native-code-api-reference/iprotocolmanager-getpminterface-method.md) method supports.  
   
 ## Syntax  
@@ -35,6 +36,7 @@ enum PM_INTERFACE_ID_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Enumerations](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
  [WPF_INTERFACE_ID_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-interface-id-enum-enumeration.md)   
  [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-bool-enum-enumeration.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 73267495-b5ed-38d8-d9b0-eac32f22dbd2
 ---
 # NameValueConfigurationElement Class
+
 Contains a name/value pair for an HTTP response header.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class NameValueConfigurationElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `NameValueConfigurationElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class NameValueConfigurationElement : CollectionElement
 |`Value`|A read/write `string` value that contains the value part of an HTTP response header name/value pair.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `CustomHeaders` array property of the [CustomHeaderSettings](../wmi-provider/customheadersettings-class.md) class and in the `RedirectHeaders` property of the [RedirectHeaderSettings](../wmi-provider/redirectheadersettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `NameValueConfigurationElement`  
@@ -44,6 +50,7 @@ class NameValueConfigurationElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [CustomHeaderSettings Class](../wmi-provider/customheadersettings-class.md)   
  [HttpProtocolSection Class](../wmi-provider/httpprotocolsection-class.md)   

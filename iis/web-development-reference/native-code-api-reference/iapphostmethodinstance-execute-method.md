@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3b0eab75-d907-4ec5-982e-0c91d96a9358
 ---
 # IAppHostMethodInstance::Execute Method
+
 Executes the specified custom method.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ HRESULT Execute(
 ```  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,4 +32,5 @@ HRESULT Execute(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

@@ -5,6 +5,7 @@ ms.assetid: 164e8ebe-cae0-4e23-af04-34ef3f43954b
 ms.author: "robmcm"
 ---
 # IFtpLogProvider Interface (Native)
+
 Provides an interface for logging FTP activity.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ interface IFtpLogProvider : IUknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IFtpLogProvider` interface.  
   
 |||  
@@ -22,6 +24,7 @@ interface IFtpLogProvider : IUknown
 |[IFtpLogProvider::Log Method](../../ftp-extensibility-reference/native-code-api-reference/iftplogprovider-log-method.md)|Performs logging activity for the `IFtpLogProvider` interface.|  
   
 ## Example  
+
  The following code example illustrates how to use the `IFtpLogProvider` interface to create a custom logging module for the FTP service.  
   
 ```  
@@ -108,4 +111,5 @@ EXIT:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [LOGGING_PARAMETERS Structure](../../ftp-extensibility-reference/native-code-api-reference/logging-parameters-structure.md)

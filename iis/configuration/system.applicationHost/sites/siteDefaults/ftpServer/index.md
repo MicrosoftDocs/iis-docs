@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Site-level Settings &lt;ftpServer&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<ftpServer>` element of the `<siteDefaults>` element specifies the default settings for FTP features for all FTP sites.
@@ -20,6 +21,7 @@ In IIS 6.0, the settings for the FTP service were stored in a separate section o
 > Additional FTP settings are stored in the [`<system.ftpServer>`](../../../../system.ftpserver/index.md) section of the ApplicationHost.config file, and these settings are specified within `<location>` elements.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,6 +41,7 @@ In IIS 6.0, the settings for the FTP service were stored in a separate section o
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -106,6 +109,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable or disable the default FTP Anonymous authentication settings
@@ -159,6 +163,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. In the **Actions** pane, click **Enable** to enable Basic authentication or click **Disable** to disable Basic authentication.
 
 <a id="005"></a>
+
 ## Configuration
 
 The default `<ftpServer>` element is configured at the `<siteDefaults>` level.
@@ -191,6 +196,7 @@ The following configuration sample displays an example `<siteDefaults>` element 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples illustrate setting several of the FTP site defaults.

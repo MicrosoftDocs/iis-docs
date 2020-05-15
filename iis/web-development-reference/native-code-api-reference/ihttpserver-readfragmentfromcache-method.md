@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b658cbf0-4370-930b-b692-b2b34591206f
 ---
 # IHttpServer::ReadFragmentFromCache Method
+
 Retrieves a specific fragment from the cache.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT ReadFragmentFromCache(
 ```  
   
 ### Parameters  
+
  `pszFragmentName`  
  [__in] A pointer to a `WCHAR` that specifies the fragment to retrieve from the cache.  
   
@@ -31,6 +33,7 @@ virtual HRESULT ReadFragmentFromCache(
  A pointer to a `DWORD` that contains the number of bytes read from the cache.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,6 +42,7 @@ virtual HRESULT ReadFragmentFromCache(
 |ERROR_PATH_NOT_FOUND|Indicates that the fragment specified by the `pszFragmentName` parameter could not be found.|  
   
 ## Remarks  
+
  Developers can use the [AddFragmentToCache](../../web-development-reference/native-code-api-reference/ihttpserver-addfragmenttocache-method.md), `ReadFragmentFromCache`, and [RemoveFragmentFromCache](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md) methods, respectively, to add [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structures to the fragment cache, or to retrieve and remove `HTTP_DATA_CHUNK` structures from the cache. These methods give developers a small degree of custom functionality to use the built-in IIS cache for storing and retrieving data fragments in the cache.  
   
 > [!NOTE]
@@ -54,6 +58,7 @@ virtual HRESULT ReadFragmentFromCache(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IHttpServer::AddFragmentToCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-addfragmenttocache-method.md)   
  [IHttpServer::RemoveFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md)

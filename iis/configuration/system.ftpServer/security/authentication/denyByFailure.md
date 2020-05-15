@@ -10,6 +10,7 @@ msc.type: config
 # Deny by Failure &lt;denyByFailure&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<denyByFailure>` element configures the FTP service to deny access to the FTP service based upon how many times an FTP client fails to authenticate within a time period. When the number of failed login attempts has been reached, the FTP connection will be closed forcibly, and the client IP address will be blocked from accessing the FTP service for the duration of the time period (as set by the entryExpiration attribute). Denying access by the failure rate can only be enabled for the server, not for individual sites.
@@ -18,6 +19,7 @@ The `<denyByFailure>` element configures the FTP service to deny access to the F
 > If the client's IP address matches an Allow Entry of **Specific** IP Address in FTP IP Address and Domain Restrictions feature specified at the **server** level, the client is treated with additional trust and is allowed to bypass FTP Logon Attempts restriction check.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<denyByFailure>` element configures the FTP service to deny access to the F
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support denying access through authentication on your FTP server, you must install the FTP Service role service.
@@ -58,6 +61,7 @@ To support denying access through authentication on your FTP server, you must in
 5. Under **FTP Server**, select **FTP Service** and **FTP Extensibility**, and then click **OK**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to deny access to the FTP server based upon the logon failure rate
@@ -80,6 +84,7 @@ To support denying access through authentication on your FTP server, you must in
 6. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<denyByFailure>` element is configured at the server level.
@@ -104,6 +109,7 @@ The following sample configures a `<denyByFailure>` element.
 [!code-xml[Main](denyByFailure/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure denying access to the FTP server based upon the logon failure rate.

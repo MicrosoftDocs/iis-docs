@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 52fd13ed-2645-bc13-c04d-a5e82ca50c0f
 ---
 # Server Class1
+
 Exposes default configuration settings for applications, application pools, Web sites, and virtual directories on a Web server running IIS.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class Server : Object
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `Server` class.  
   
 |Name|Description|  
@@ -21,6 +23,7 @@ class Server : Object
 |[EndUpdateBatch](../wmi-provider/server-endupdatebatch-method.md)|Ends a batch of configuration changes.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `Server` class.  
   
 |Name|Description|  
@@ -31,12 +34,15 @@ class Server : Object
 |`VirtualDirectoryDefaults`|A read/write [VirtualDirectoryElementDefaults](../wmi-provider/virtualdirectoryelementdefaults-class.md) value that exposes default configuration settings for IIS virtual directories.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The `Server` object is a singleton object (that is, there is only one instance per computer) and, therefore, does not have any key properties.  
   
 ## Inheritance Hierarchy  
+
  [Object](../wmi-provider/object-class.md)  
   
  `Server`  
@@ -51,6 +57,7 @@ class Server : Object
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)   

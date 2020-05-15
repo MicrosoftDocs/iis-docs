@@ -10,6 +10,7 @@ msc.type: config
 # Modules &lt;modules&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<modules>` element specifies the features that are available in IIS Manager when a user is connected to a site or an application. The `<modules>` element works with the `<moduleProviders>` element in the following way:
@@ -26,6 +27,7 @@ You can configure which modules will be available for individual Web sites using
 > The settings in the `<modules>` element can only be configured in the Administration.config file.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -38,16 +40,19 @@ You can configure which modules will be available for individual Web sites using
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<modules>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding modules to the `<modules>` element for IIS 7. For examples of how to add modules to the `<modules>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -76,6 +81,7 @@ The following sample configuration excerpt from the Administration.config file s
 [!code-xml[Main](index/samples/sample2.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples enable a managed module provider named ContosoProvider to the global location level in the Administration.config file.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e00dbe6b-a97e-60a7-dd05-f4710e692b87
 ---
 # ModuleAction Class
+
 Represents a module entry in the `<modules>` section of a configuration file.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ModuleAction : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ModuleAction` class.  
   
 |Name|Description|  
@@ -25,9 +28,11 @@ class ModuleAction : CollectionElement
 |`Type`|A read/write `string` value that specifies a managed module's type.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Modules` property of the [ModulesSection](../wmi-provider/modulessection-class.md) class.  
   
  The following table lists the possible values for the `PreCondition` property. The `integratedMode` and `ISAPIMode` settings are mutually exclusive. The default is `null`.  
@@ -42,6 +47,7 @@ class ModuleAction : CollectionElement
 |`managedHandler`|IIS loads the module only if the request is mapped to a managed handler. This setting can optimize performance by preventing static files from using managed modules for every request.|  
   
 ## Example  
+
  The following example adds a managed module to the root Web.config file.  
   
 ```  
@@ -74,6 +80,7 @@ WScript.Echo "Done!"
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ModuleAction`  
@@ -88,6 +95,7 @@ WScript.Echo "Done!"
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)   
  [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 59cc1bc2-1437-2ecc-cfae-a2ffbaed9130
 ---
 # IMetadataInfo::GetVrPath Method
+
 Retrieves the physical path for a virtual directory within the current context.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR GetVrPath(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the virtual directory.  
   
 ## Remarks  
+
  The `GetVrPath` method retrieves a pointer to a string that contains the virtual directory path for the [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md) interface within the current context.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetVrPath` method to create an HTTP module that retrieves the virtual directory for the current context. The module returns the path to the Web client and then exits.  
   
  [!code-cpp[IMetadataInfoGetVrPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMetadataInfoGetVrPath/cpp/IMetadataInfoGetVrPath.cpp#1)]  
@@ -42,4 +47,5 @@ virtual PCWSTR GetVrPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMetadataInfo Interface](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 09879c26-c001-5d7e-6c82-e53005d55120
 ---
 # IHttpResponse::SuppressHeaders Method
+
 Suppresses the response status and headers.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual VOID SuppressHeaders(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `SuppressHeaders` method enables you to create responses without HTTP headers. Status and headers are still available to your application, but they are not sent to the client.  
   
 > [!NOTE]
 >  When HTTP headers are suppressed, a Web client that requires a full HTTP response may appear to be working with an unresponsive server. This unresponsive behavior occurs because the Web client is waiting for the response status and headers before it continues processing the response.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpResponse::GetHeadersSuppressed](../../web-development-reference/native-code-api-reference/ihttpresponse-getheaderssuppressed-method.md) method to create an HTTP module that tests whether the headers are currently suppressed. The module then calls the `SuppressHeaders` method to prevent the default HTTP headers from being sent. Finally, the module uses the [IHttpResponse::WriteEntityChunks](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunks-method.md) method to return a raw HTTP response to the client.  
   
  [!code-cpp[IHttpResponseGetHeadersSuppressed#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetHeadersSuppressed/cpp/IHttpResponseGetHeadersSuppressed.cpp#1)]  
@@ -45,5 +50,6 @@ virtual VOID SuppressHeaders(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::GetHeadersSuppressed Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getheaderssuppressed-method.md)

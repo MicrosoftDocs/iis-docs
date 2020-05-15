@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 573fc810-3903-77ba-7494-5e432686d459
 ---
 # IAppHostPropertyCollection Interface
+
 Represents a collection of properties.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ interface IAppHostPropertyCollection : IUnknown
 ```  
   
 ## Methods  
+
  This interface contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostPropertyCollection` interface.  
   
 |Property|Description|  
@@ -24,11 +27,13 @@ interface IAppHostPropertyCollection : IUnknown
 |[Item](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-item-property.md)|Gets the property with the requested index or property name in the collection.|  
   
 ## Example  
+
  The following code example demonstrates how to use the `IAppHostPropertyCollection` interface to access the `enabled` property of the `defaultDocument` configuration section.  
   
  [!code-cpp[IAppHostAdminLibrary#5](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertyGetValue.cpp#5)]  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostPropertyCollection`  
@@ -43,5 +48,6 @@ interface IAppHostPropertyCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

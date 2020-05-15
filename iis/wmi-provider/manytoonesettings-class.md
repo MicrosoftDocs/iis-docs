@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e491109-fc59-41cd-b25f-0f5eddca04cc
 ---
 # ManyToOneSettings Class
+
 Specifies many-to-one client certificate mappings.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ManyToOneSettings: EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ManyToOneSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ManyToOneSettings: EmbeddedObject
 |`ManyToOneMappings`|An array of [ManyToOneCertificateMappingElement](../wmi-provider/manytoonecertificatemappingelement-class.md) values that specify many-to-one client certificate mappings.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ManyToOneMappings` array property of the [IisClientCertificateMappingAuthenticationSection](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ManyToOneSettings`  
@@ -43,6 +49,7 @@ class ManyToOneSettings: EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

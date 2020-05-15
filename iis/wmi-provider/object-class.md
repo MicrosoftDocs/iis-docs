@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e0c0f720-51e6-d244-eb1a-e4551d427019
 ---
 # Object Class1
+
 Serves as a base class from which to derive the primary namespace objects for the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider.  
   
 ## Syntax  
@@ -13,12 +14,15 @@ class Object
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  This class contains no properties.  
   
 ## Subclasses  
+
  The following table lists the classes derived from the `Object` class.  
   
 |Name|Description|  
@@ -32,6 +36,7 @@ class Object
 |[WorkerProcess](../wmi-provider/workerprocess-class.md)|Represents a Windows Process Activation Service (WAS) worker process (w3wp.exe).|  
   
 ## Remarks  
+
  Although the `Object` class is not directly useful for scripting, it enables the WMI CIM Studio tool to conveniently group `WebAdministration` classes. CIM Studio is a utility that you can use to view WMI classes, properties, qualifiers, and instances. It is available from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=72615) as part of WMITools.exe suite of WMI Administrative Tools.  
   
 ## Requirements  
@@ -44,6 +49,7 @@ class Object
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [WMI Provider](../wmi-provider/wmi-provider.md)   
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

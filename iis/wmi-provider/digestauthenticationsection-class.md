@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 68d00b36-ba1c-cf84-66da-c260729a171f
 ---
 # DigestAuthenticationSection Class
+
 Configures Digest authentication.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class DigestAuthenticationSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `DigestAuthenticationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class DigestAuthenticationSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DigestAuthenticationSection` class.  
   
 |Name|Description|  
@@ -35,12 +38,15 @@ class DigestAuthenticationSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Digest authentication uses a Windows domain controller to authenticate users who request access to content on a Web server. Digest authentication was known as Advanced Digest authentication in IIS 6.0.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `DigestAuthenticationSection`  
@@ -55,6 +61,7 @@ class DigestAuthenticationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   

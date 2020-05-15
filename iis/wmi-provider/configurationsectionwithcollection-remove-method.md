@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 96394dd0-a3f3-196c-f70c-7b67b8e5a3ad
 ---
 # ConfigurationSectionWithCollection.Remove Method
+
 Removes the specified element from a collection in a configuration section.  
   
 ## Syntax  
@@ -24,9 +25,11 @@ ConfigurationSectionWithCollection.Remove collectionName, element
 |`element`|A [CollectionElement](../wmi-provider/collectionelement-class.md) object that contains the element to be removed.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Example  
+
  The following example displays the names of the handlers for the default Web site, removes the handler element named "CGI-exe" if it is present, and then lists the handler names again. The code will cause the following XML to be added to the `<system.webServer>` section of the Web.config file for the default Web site:  
   
  `<handlers>`  
@@ -86,6 +89,7 @@ End Sub
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [HandlerAction Class](../wmi-provider/handleraction-class.md)   
  [HandlersSection Class](../wmi-provider/handlerssection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4aeb69c1-4e84-884f-d98f-2a7d07eacfc2
 ---
 # IAppHostSectionDefinition::Type Property
+
 Gets the type name of a class that represents the current configuration section.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ HRESULT put_Type(
 ```  
   
 ### Parameters  
+
  `pbstrType`  
  A pointer to a `BSTR` that contains the type name of the current configuration section.  
   
@@ -26,6 +28,7 @@ HRESULT put_Type(
  A `BSTR` that contains the new type name of the current [IAppHostSectionDefinition](../../web-development-reference/native-code-api-reference/iapphostsectiondefinition-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -47,4 +50,5 @@ HRESULT put_Type(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionDefinition Interface](../../web-development-reference/native-code-api-reference/iapphostsectiondefinition-interface.md)

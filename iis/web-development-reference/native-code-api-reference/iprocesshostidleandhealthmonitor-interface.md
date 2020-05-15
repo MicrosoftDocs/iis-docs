@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0cecacb6-0772-3d95-af9c-edf5069d30ac
 ---
 # IProcessHostIdleAndHealthMonitor Interface
+
 Monitors the health of a worker process.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IProcessHostIdleAndHealthMonitor : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IProcessHostIdleAndHealthMonitor` interface.  
   
 |Name|Description|  
@@ -21,12 +23,15 @@ struct IProcessHostIdleAndHealthMonitor : IUnknown
 |[IProcessHostIdleAndHealthMonitor::Ping](../../web-development-reference/native-code-api-reference/iprocesshostidleandhealthmonitor-ping-method.md)|Performs an asynchronous ping operation.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IProcessHostIdleAndHealthMonitor`  
@@ -41,4 +46,5 @@ struct IProcessHostIdleAndHealthMonitor : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: faa2afd0-3e3a-cf4e-7d1b-9832d325edcc
 ---
 # IAppHostProperty::Value Property
+
 Gets or sets the value of the current property.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ HRESULT put_Value(
 ```  
   
 ### Parameters  
+
  `pVariant`  
  A pointer to a `VARIANT` that contains the current property value.  
   
@@ -26,6 +28,7 @@ HRESULT put_Value(
  A `VARIANT` that contains the new property value.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,9 +36,11 @@ HRESULT put_Value(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  When you set this property, the new value that is passed to the property must validate against the property schema that is assigned to the current property.  
   
 ## Example  
+
  The following code example disables the default document by setting the `enabled` attribute of the `defaultDocument` element to `false`.  
   
  [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
@@ -50,4 +55,5 @@ HRESULT put_Value(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

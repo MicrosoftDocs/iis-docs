@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cb956ec2-9da1-8259-c487-872aae697d55
 ---
 # IDispensedHttpModuleContextContainer::ReleaseContainer Method
+
 Deletes the context container if it is dispensed.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual VOID ReleaseContainer(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Thread Safety  
+
  The `ReleaseContainer` method is not thread safe for implementers that are dispensed.  
   
 ## Remarks  
+
  The behavior of this method depends on the implementation. You should use the following information as a guideline, but it might not be correct in all scenarios:  
   
 - Most implementers declare a private `Boolean` value named `dispensed`; the default value is `false` and the default behavior is that `dispensed` is never set to `true`. However, if the implementation has set `dispensed` to `true`, when `ReleaseContainer` is called, the [IDispensedHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md) pointer calls `delete` on itself. Otherwise, `ReleaseContainer` is an empty operation.  
@@ -28,6 +32,7 @@ virtual VOID ReleaseContainer(
 - If `delete` is called, `IDispensedHttpModuleContextContainer` enumerates its internal array of [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) pointers and calls the [IHttpStoredContext::CleanupStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-cleanupstoredcontext-method.md) method on any pointers that were added previously by using the [IHttpModuleContextContainer::SetModuleContext](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-setmodulecontext-method.md) method. The context container then disposes of the array memory on the heap and sets that array to NULL.  
   
 ## Example  
+
  The following example shows a custom class named `MyContainer` that implements the `IDispensedHttpModuleContextContainer` interface. It also shows a custom class named `MyClass` that implements a method named `GetModuleContextContainer`. `MyClass` manages a `MyContainer` pointer during the lifetime of a `MyClass` pointer.  
   
 ```  
@@ -141,6 +146,7 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IDispensedHttpModuleContextContainer Interface](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md)   
  [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
  [IHttpConnection::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)   

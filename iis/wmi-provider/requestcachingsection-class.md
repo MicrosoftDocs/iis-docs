@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 142f14bd-be2f-2ed7-a8ac-f2eae361c96e
 ---
 # RequestCachingSection Class
+
 Contains configuration information for request caching.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class RequestCachingSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `RequestCachingSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class RequestCachingSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `RequestCachingSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class RequestCachingSection : ConfigurationSection
 |`UnspecifiedMaximumAge`|A read/write `datetime` value that specifies the default maximum age for cached resources that do not have expiration information. The default is 1 day. Setting this property ensures that a resource that does not have expiration header information does not remain fresh in the cache indefinitely.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `DefaultPolicyLevel` property. The default is 1 (`BypassCache`).  
   
 |Value|Keyword|Description|  
@@ -55,6 +60,7 @@ class RequestCachingSection : ConfigurationSection
 |6|`NoCacheNoStore`|Never satisfies a request by using resources from the cache, and does not cache resources. If the resource is present in the local cache, it is removed. This policy level indicates to intermediate caches that they should remove the resource. In the HTTP caching protocol, this is achieved by using the `no-cache` cache control directive.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `RequestCachingSection`  
@@ -69,6 +75,7 @@ class RequestCachingSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [FtpCachePolicySettings Class](../wmi-provider/ftpcachepolicysettings-class.md)   
  [HttpCachePolicySettings Class](../wmi-provider/httpcachepolicysettings-class.md)   

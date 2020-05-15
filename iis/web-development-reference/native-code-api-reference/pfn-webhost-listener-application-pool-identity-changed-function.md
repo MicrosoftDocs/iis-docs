@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1a2d44f9-3eb5-afbc-cd5b-dcaf8f6c33b4
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED Function
+
 Notifies the listener adapter that an application pool identity has changed.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -27,9 +29,11 @@ typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(
  [IN] A pointer to a security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)) value that contains the new identity of the worker processes.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  A listener adapter that is blocking this routine can block all others in the application pool from starting worker processes. The listener adapter does not directly start worker processes (W3wp.exe), but it can trigger their start (when no W3wp.exe file is running for the application pool) by requesting a listener channel for the application pool.  
   
  The Windows Process Activation Service (WAS) does not recycle existing worker processes and start new ones until all listener adapters acknowledge the identity change. If multiple listener adapters are configured for the same application pool, and one of the listener adapters blocks this call, it will prevent the new worker process from starting.  
@@ -46,5 +50,6 @@ typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(
 |Header|Listeneradapter.h, Windows.h for `PSID`|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 499ec9c2-244d-83e0-88a5-3003ef7114bd
 ---
 # PassportAuthentication Class
+
 Configures Microsoft Passport Network authentication in [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class PassportAuthentication : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `PassportAuthentication` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class PassportAuthentication : EmbeddedObject
 |`RedirectUrl`|A read/write `string` value that specifies the URL of the page to which the request must be redirected if Passport Network authentication is required and the user has not signed on by using Passport Network credentials. The default is "internal".|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Passport` property of the [AuthenticationSection](../wmi-provider/authenticationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `PassportAuthentication`  
@@ -43,6 +49,7 @@ class PassportAuthentication : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
  [BasicAuthenticationSection Class](../wmi-provider/basicauthenticationsection-class.md)   

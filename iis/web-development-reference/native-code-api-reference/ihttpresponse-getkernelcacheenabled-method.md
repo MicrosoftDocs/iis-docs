@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 26fd4e99-9c54-abfa-9782-86bdbee4ad05
 ---
 # IHttpResponse::GetKernelCacheEnabled Method
+
 Determines whether the kernel cache is enabled for the current response.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual BOOL GetKernelCacheEnabled(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if the kernel cache is enabled for the current response; otherwise, `false`.  
   
 ## Remarks  
+
  The `GetKernelCacheEnabled` method returns a Boolean value of `true` if kernel-mode caching is enabled for the current response, and it returns a value of `false` if caching is disabled.  
   
 > [!NOTE]
 >  There are additional reasons why a response may not be cached by the server (for example, compression settings or Secure Sockets Layer settings). Therefore, a value of `true` does not mean that the response will be cached; it means only that caching is enabled.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetKernelCacheEnabled` method to create an HTTP module that determines whether kernel caching is enabled for the current response. The module then returns this information to the client.  
   
 > [!NOTE]
@@ -48,6 +53,7 @@ virtual BOOL GetKernelCacheEnabled(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::DisableKernelCache Method](../../web-development-reference/native-code-api-reference/ihttpresponse-disablekernelcache-method.md)   
  [IHttpResponse::GetCachePolicy Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md)

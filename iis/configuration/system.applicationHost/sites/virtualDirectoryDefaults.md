@@ -10,6 +10,7 @@ msc.type: config
 # Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<virtualDirectoryDefaults>` element of the `<sites>` element specifies default settings for all virtual directories on the server. The `<virtualDirectoryDefaults>` element is useful for defining the common attributes that you want all virtual directories on your server to implicitly share when they do not have explicitly-defined attributes.
@@ -18,6 +19,7 @@ The `<virtualDirectoryDefaults>` element of the `<sites>` element specifies defa
 > If the same attribute or child element is configured in both the `<virtualDirectoryDefaults>` section and in the `<virtualDirectory>` section for a specific virtual directory, the configuration in the `<virtualDirectory>` section is used for that virtual directory.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,11 +32,13 @@ The `<virtualDirectoryDefaults>` element of the `<sites>` element specifies defa
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<virtualDirectoryDefaults>` element of the `<sites>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the default virtual directory credentials for a server
@@ -62,6 +66,7 @@ The `<virtualDirectoryDefaults>` element of the `<sites>` element is included in
     [![](virtualDirectoryDefaults/_static/image4.png)](virtualDirectoryDefaults/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -86,6 +91,7 @@ The following configuration sample specifies the default logon method for all vi
 [!code-xml[Main](virtualDirectoryDefaults/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples specify the default logon method for all virtual directories on the server.

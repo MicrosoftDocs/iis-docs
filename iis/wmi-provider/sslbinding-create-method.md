@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b68af3fb-9509-4d3d-9787-be79438a47f2
 ---
 # SSLBinding.Create Method1
+
 Creates a Secure Sockets Layer (SSL) binding.  
   
 ## Syntax  
@@ -36,9 +37,11 @@ oWebAdmin.Get("SSLBinding").Create
 |`StoreName`|A `string` value that specifies the name of the certificate store for the SSL binding.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  The following script shows the different formats that you can use for the `IPAddress` parameter:  
   
 ```  
@@ -53,6 +56,7 @@ oWebAdmin.Get("SSLBinding").Create "", 443, "fbbca460988a482227ec71122177045e47f
 ```  
   
 ## Example  
+
  The following example creates a secure binding and adds it to a Web site.  
   
 ```  
@@ -93,6 +97,7 @@ Set oPath = oSite.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [BindingElement Class](../wmi-provider/bindingelement-class.md)   
  [SSLBinding Class](../wmi-provider/sslbinding-class.md)   
  [Site Class](../wmi-provider/site-class.md)

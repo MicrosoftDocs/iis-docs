@@ -10,11 +10,13 @@ msc.type: config
 # Filter &lt;filter&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<filter>` element of the `<isapiFilters>` collection configures an ISAPI filter to process client request data or server response data.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<filter>` element of the `<isapiFilters>` collection configures an ISAPI fi
 | IIS 6.0 | The `<isapiFilters>` collection replaces the IIS 6.0 **FilterEnableCache** and **FilterPath** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 To use the `<isapiFilters>` element, you must install the ISAPI Filters module on your IIS 7 and later server. To do so, use the following steps.
@@ -70,6 +73,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 4. Select **ISAPI Filters**, and then click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an ISAPI filter
@@ -99,6 +103,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
     [![](filter/_static/image12.png)](filter/_static/image11.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -122,6 +127,7 @@ The following configuration example adds an ISAPI filter named SalesQueryIsapi t
 [!code-xml[Main](filter/samples/sample1.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure an ISAPI filter named SalesQueryIsapi on the server. Each of the examples use the **name** property to specify a name for the ISAPI filter, the **enableCache** property to disable HTTP.sys caching, and the **path** property to specify the location of the ISAPI DLL.

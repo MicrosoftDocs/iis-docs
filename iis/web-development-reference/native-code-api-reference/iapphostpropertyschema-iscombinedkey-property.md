@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1a7b0abb-b457-4782-4c1c-eb0990cbe93a
 ---
 # IAppHostPropertySchema::IsCombinedKey Property
+
 Determines whether a property is part of a multiple-attribute key for a collection.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_IsCombinedKey(
 ```  
   
 ### Parameters  
+
  `pfIsCombinedKey`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if the property is part of a multiple-attribute key; otherwise, `VARIANT_FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ HRESULT get_IsCombinedKey(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The `binding` element is an example of a combined key. In the following example, the `binding` element contains `protocol` and `bindingInformation` attributes that are part of a combined key.  
   
  `<element name="bindings">`  
@@ -53,5 +57,6 @@ HRESULT get_IsCombinedKey(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
  [IAppHostPropertySchema::IsUniqueKey Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-isuniquekey-property.md)

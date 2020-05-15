@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9b2f9607-0707-4ee5-b106-a69c9259778c
 ---
 # OutputCacheProfileSettings Class
+
 Contains values that configure output cache profiles for the pages of a Web application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class OutputCacheProfileSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `OutputCacheProfileSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class OutputCacheProfileSettings : EmbeddedObject
 |`OutputCacheProfiles`|An array of [OutputCacheProfile](../wmi-provider/outputcacheprofile-class.md) values that configure output cache profiles for the pages of a Web application.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `OutputCacheProfiles` array property of the [OutputCacheSettingsSection](../wmi-provider/outputcachesettingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `OutputCacheProfileSettings`  
@@ -43,6 +49,7 @@ class OutputCacheProfileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [OutputCacheProfile Class](../wmi-provider/outputcacheprofile-class.md)   
  [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)

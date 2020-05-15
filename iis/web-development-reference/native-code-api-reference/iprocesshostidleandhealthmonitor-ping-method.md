@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a5a02b12-f6e8-f8bf-40ac-153d9dea93be
 ---
 # IProcessHostIdleAndHealthMonitor::Ping Method
+
 Performs an asynchronous ping operation.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall Ping(
 ```  
   
 ### Parameters  
+
  `pCallback`  
  An [IProcessPingCallback](../../web-development-reference/native-code-api-reference/iprocesspingcallback-interface.md) interface through which the process host can respond to an asynchronous ping operation. `pCallback` is the object on which to perform the callback function.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall Ping(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHostIdleAndHealthMonitor Interface](../../web-development-reference/native-code-api-reference/iprocesshostidleandhealthmonitor-interface.md)

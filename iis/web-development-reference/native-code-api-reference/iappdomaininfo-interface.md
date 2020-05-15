@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c56ab96e-4307-6959-2276-7523527d96c2
 ---
 # IAppDomainInfo Interface
+
 Provides information about the application domain.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IAppDomainInfo : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppDomainInfo` interface.  
   
 |Name|Description|  
@@ -24,12 +26,15 @@ struct IAppDomainInfo : IUnknown
 |[GetVirtualPath](../../web-development-reference/native-code-api-reference/iappdomaininfo-getvirtualpath-method.md)|Retrieves the root virtual path of the application domain.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppDomainInfo`  
@@ -44,4 +49,5 @@ struct IAppDomainInfo : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

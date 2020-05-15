@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d994bce0-d3e4-4cc5-b2b6-fbd68d974b0b
 ---
 # IWebSocketContext::ReadFragment Method
+
 Reads a data fragment from an asynchronous connection.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ virtual HRESULT ReadFragment(
 ```  
   
 ### Parameters  
+
  `pData`  
  [OUT] Data fragment that was read.  
   
@@ -50,6 +52,7 @@ virtual HRESULT ReadFragment(
  [OUT] `true` if an asynchronous completion is pending for this call; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -66,4 +69,5 @@ virtual HRESULT ReadFragment(
 |Header|Iiswebsocket.h|  
   
 ## See Also  
+
  [IWebSocketContext Interface](../../web-development-reference/native-code-api-reference/iwebsocketcontext-interface.md)

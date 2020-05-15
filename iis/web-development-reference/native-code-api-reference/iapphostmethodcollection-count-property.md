@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5cbeb65c-03dc-4ae3-879f-af2f03afded0
 ---
 # IAppHostMethodCollection::Count Property
+
 Gets the number of methods in the collection.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT Count(
 ```  
   
 ### Parameters  
+
  `pcCount`  
  A pointer to a `DWORD` that contains the number of items in the collection.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,5 +38,6 @@ HRESULT Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)   
  [IAppHostMethodCollection Interface](../../web-development-reference/native-code-api-reference/iapphostmethodcollection-interface.md)

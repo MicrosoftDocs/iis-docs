@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ada5901e-b150-4cd5-4175-5d495ad6808f
 ---
 # HostingEnvironmentSection Class
+
 Defines configuration settings that control the behavior of the application hosting environment.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HostingEnvironmentSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HostingEnvironmentSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class HostingEnvironmentSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HostingEnvironmentSection` class.  
   
 |Name|Description|  
@@ -36,9 +39,11 @@ class HostingEnvironmentSection : ConfigurationSection
 |`ShutdownTimeout`|An optional read/write `datetime` value that specifies the amount of time allowed for an application to gracefully shut down. The default is 30 seconds.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `HostingEnvironmentSection`  
@@ -53,6 +58,7 @@ class HostingEnvironmentSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [hostingEnvironment Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67199)   
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

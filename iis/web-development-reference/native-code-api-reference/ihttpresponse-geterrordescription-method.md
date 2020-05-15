@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 11e42b08-ce5d-436b-aa14-05069dc4b5a8
 ---
 # IHttpResponse::GetErrorDescription Method
+
 Retrieves the custom error description.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual PCWSTR GetErrorDescription(
 ```  
   
 ### Parameters  
+
  `pcchDescription`  
  [OUT] A pointer to a `DWORD` value that contains the length, in characters, of the returned string.  
   
 ## Return Value  
+
  A pointer to a string that contains the custom error description.  
   
 ## Remarks  
+
  Developers use the `GetErrorDescription` method to retrieve the custom error description. IIS displays the custom error description as part of the detailed information that is sent to a Web client when IIS returns an error message.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Retrieves a pointer to an [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md) interface by using the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method.  
@@ -51,5 +56,6 @@ virtual PCWSTR GetErrorDescription(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::SetErrorDescription Method](../../web-development-reference/native-code-api-reference/ihttpresponse-seterrordescription-method.md)

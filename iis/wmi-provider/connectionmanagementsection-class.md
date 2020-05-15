@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c65d6556-228b-8d0f-fc11-280bfa69412c
 ---
 # ConnectionManagementSection Class
+
 Contains a collection that specifies the maximum number of connections to specified network hosts for [System.Net?displayProperty](/dotnet/api/system.net) APIs.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConnectionManagementSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConnectionManagementSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ConnectionManagementSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConnectionManagementSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class ConnectionManagementSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,5 +62,6 @@ class ConnectionManagementSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ConnectionManagementElement Class](../wmi-provider/connectionmanagementelement-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c5bc7262-5a76-4b6f-a3eb-71fa8c038b0f
 ---
 # DirectorySettings Class
+
 Specifies code subdirectories for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web applications.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class DirectorySettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DirectorySettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class DirectorySettings : EmbeddedObject
 |`CodeSubDirectories`|An array of [DirectoryElement](../wmi-provider/directoryelement-class.md) values that specify code subdirectories for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web applications.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `CodeSubDirectories` array property of the [CompilationSection](../wmi-provider/compilationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `DirectorySettings`  
@@ -43,6 +49,7 @@ class DirectorySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [DirectoryElement Class](../wmi-provider/directoryelement-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

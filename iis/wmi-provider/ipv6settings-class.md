@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: eb6cfd6c-9625-0fe7-7e52-eb6291d58dd5
 ---
 # Ipv6Settings Class
+
 Determines whether Internet Protocol version 6 (IPv6) is enabled on the local computer.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class Ipv6Settings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `Ipv6Settings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class Ipv6Settings : EmbeddedObject
 |`Enabled`|A read/write `boolean` value. `true` if IPv6 is enabled on the local computer; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Ipv6` property of the [SettingsSection](../wmi-provider/settingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `Ipv6Settings`  
@@ -43,5 +49,6 @@ class Ipv6Settings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SettingsSection Class](../wmi-provider/settingssection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 306c9960-18bb-2003-fda6-2b9a04206f6a
 ---
 # TraceSettings Class
+
 Configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] trace functionality and controls how trace results are gathered, stored, and displayed.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceSettings` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class TraceSettings : EmbeddedObject
 |`UseGlobalLock`|A read/write `boolean` value. `true` if the global lock will be used; otherwise, `false`. The default is `true`. **Note:**  The global lock is always used if the trace listener is not thread safe, regardless of the value of `UseGlobalLock`. The [System.Diagnostics.TraceListener.IsThreadSafe](https://go.microsoft.com/fwlink/?LinkId=74329) property determines whether the listener is thread safe. The global lock is not used only if the value of `UseGlobalLock` is `false` and the value of `IsThreadSafe` is `true`. The default behavior is to use the global lock.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Trace` property of the [SystemDiagnosticsSection](../wmi-provider/systemdiagnosticssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TraceSettings`  
@@ -46,6 +52,7 @@ class TraceSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   
  [TraceListenerSettings Class](../wmi-provider/tracelistenersettings-class.md)   

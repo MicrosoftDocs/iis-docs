@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d61ba4fe-4570-e1a3-62ca-db897a24de99
 ---
 # OutputCacheProfile Class
+
 Configures the output cache profile for the pages of a Web application.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class OutputCacheProfile : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `OutputCacheProfile` class.  
   
 |Name|Description|  
@@ -32,9 +35,11 @@ class OutputCacheProfile : CollectionElement
 |`VaryByParam`|A `string` value that specifies a comma-delimited set of parameters that vary the cached output by GET query string or form POST parameters. **Note:**  The settings for this property are the same as those of the `VaryByParam` attribute of the `@ OutputCache` directive.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `OutputCacheProfiles` array property of the [OutputCacheProfileSettings](../wmi-provider/outputcacheprofilesettings-class.md) class.  
   
  The following table lists the possible values for the `Location` property.  
@@ -49,6 +54,7 @@ class OutputCacheProfile : CollectionElement
 |5|`ServerAndClient`|The page is cached only on the originating server or on the requesting client. Proxy servers are not allowed to cache the response. This value corresponds to the combination of the [System.Web.HttpCacheability.Private](/dotnet/api/system.web.httpcacheability) and [System.Web.HttpCacheability.Server](/dotnet/api/system.web.httpcacheability) enumeration values.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `OutputCacheProfile`  
@@ -63,6 +69,7 @@ class OutputCacheProfile : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.HttpCachePolicy.SetNoStore](/dotnet/api/system.web.httpcachepolicy.setnostore) 
  [System.Web.HttpCacheability](/dotnet/api/system.web.httpcacheability)
  [System.Web.UI.OutputCacheLocation](/dotnet/api/system.web.configuration.outputcacheprofile.location)   

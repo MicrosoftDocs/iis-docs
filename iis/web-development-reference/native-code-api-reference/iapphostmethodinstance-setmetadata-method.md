@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4970e8ed-b176-4f9c-9d72-74bc1954f3c0
 ---
 # IAppHostMethodInstance::SetMetadata Method
+
 Sets the metadata specified.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ Sets the metadata specified.
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  The name of the metadata to set.  
   
@@ -23,6 +25,7 @@ Sets the metadata specified.
  A `VARIANT` that contains the metadata value.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,4 +42,5 @@ Sets the metadata specified.
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1f882ddc-2a96-46ee-8b3f-1d72ed17601d
 ---
 # IGlobalApplicationPreloadProvider2::IsProcessRecycled Method
+
 Indicates whether the application’s worker process has recycled.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ Virtual BOOL IsProcessRecycled(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  `true` if the process has recycled; otherwise, `false`.  
   
 |Value|Description|  
@@ -34,4 +37,5 @@ Virtual BOOL IsProcessRecycled(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalApplicationPreloadProvider2 Interface](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider2-interface.md)

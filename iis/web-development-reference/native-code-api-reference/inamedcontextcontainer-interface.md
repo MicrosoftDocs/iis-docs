@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c3e298de-4f26-4766-86cd-5d70e1346acd
 ---
 # INamedContextContainer Interface
+
 Provides an interface for binding and retrieving a named context.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class INamedContextContainer
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `INamedContextContainer` interface.  
   
 |Name|Description|  
@@ -21,6 +23,7 @@ class INamedContextContainer
 |[SetNamedContext](../../web-development-reference/native-code-api-reference/inamedcontextcontainer-setnamedcontext.md)|Binds stored context with a specified name.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Requirements  
@@ -33,4 +36,5 @@ class INamedContextContainer
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

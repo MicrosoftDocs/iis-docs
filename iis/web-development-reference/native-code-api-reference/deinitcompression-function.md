@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5d51951a-cdd7-4a2b-aebf-65239963bf1d
 ---
 # DeInitCompression Function
+
 De-initializes the compression scheme.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ VOID WINAPI DeInitCompression(
 ```  
   
 ### Parameters  
+
  This function takes no parameters.  
   
 ## Return Value  
+
  This function does not return a value  
   
 ## Remarks  
+
  When used with IIS, this method is called before the compression scheme dynamic link library (DLL) is unloaded by the IIS compression module.  
   
 ## Requirements  
@@ -33,4 +37,5 @@ VOID WINAPI DeInitCompression(
 |Header|Httpcompression.h|  
   
 ## See Also  
+
  [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

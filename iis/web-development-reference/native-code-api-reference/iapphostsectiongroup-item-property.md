@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 65aea56f-d6bb-8f65-12b8-4c4e8aa07e4f
 ---
 # IAppHostSectionGroup::Item Property
+
 Gets the nested configuration section group at the requested index.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT get_Item(
 ```  
   
 ### Parameters  
+
  `varIndex`  
  A `VARIANT` that contains the index of the nested configuration section group to return from the collection.  
   
@@ -24,6 +26,7 @@ HRESULT get_Item(
  A pointer to a pointer for the [IAppHostSectionGroup](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,4 +43,5 @@ HRESULT get_Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

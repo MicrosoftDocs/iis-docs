@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 933a2496-8b0a-256c-e75f-b0a461b58d20
 ---
 # HTTP_TRACE_CONFIGURATION Structure
+
 Contains tracing information for use with trace providers and consumers.  
   
 ## Syntax  
@@ -27,6 +28,7 @@ struct HTTP_TRACE_CONFIGURATION{
 |`fProviderEnabled`|`true` if `pProviderGuid` is initialized to a valid current value; otherwise, `false`.|  
   
 ## Remarks  
+
  You can call the [IHttpTraceContext::GetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-gettraceconfiguration-method.md) method to read or write an `HTTP_TRACE_CONFIGURATION` pointer as an IN/OUT parameter, or you can call the [IHttpTraceContext::SetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md) method to read an `HTTP_TRACE_CONFIGURATION` pointer as an IN parameter only. When a trace consumer calls `SetTraceConfiguration`, the `HTTP_TRACE_CONFIGURATION` pointer provides the specific areas to trace to an [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) interface.  
   
 > [!NOTE]
@@ -45,6 +47,7 @@ struct HTTP_TRACE_CONFIGURATION{
 > You should initialize all fields to known values before calling either the `SetTraceConfiguration` or `GetTraceConfiguration` methods, because the implementation may change.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) information to the Event Viewer.  
   
 > [!CAUTION]
@@ -80,4 +83,5 @@ struct HTTP_TRACE_CONFIGURATION{
 |Header|Httptrace.h|  
   
 ## See Also  
+
  [Web Server Core Structures](../../web-development-reference/native-code-api-reference/web-server-core-structures.md)

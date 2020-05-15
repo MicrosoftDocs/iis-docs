@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b4c860fc-5e1a-e3ce-ec6c-c1fdda229eed
 ---
 # IHttpConnection Interface
+
 Provides an interface for connection-specific information.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpConnection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpConnection` interface.  
   
 |Name|Description|  
@@ -22,9 +24,11 @@ class IHttpConnection
 |[IsConnected](../../web-development-reference/native-code-api-reference/ihttpconnection-isconnected-method.md)|Determines whether a Web client is still connected to the current request.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  HTTP modules can use the `IHttpConnection` interface to retrieve information related to the connection for the current context. For example, you can use the `IsConnected` method to determine whether a Web client has disconnected its session.  
   
  To retrieve an `IHttpConnection` interface, your module needs to call the [IHttpContext::GetConnection](../../web-development-reference/native-code-api-reference/ihttpcontext-getconnection-method.md) method.  
@@ -39,6 +43,7 @@ class IHttpConnection
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::GetConnection Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getconnection-method.md)

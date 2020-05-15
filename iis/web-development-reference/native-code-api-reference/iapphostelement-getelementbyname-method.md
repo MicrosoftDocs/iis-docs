@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1fbd772c-733f-b950-cb44-db5f3ae5ec8a
 ---
 # IAppHostElement::GetElementByName Method
+
 Gets a requested child element from the current element.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetElementByName(
 ```  
   
 ### Parameters  
+
  `bstrSubName`  
  A `BSTR` that contains the name of the requested child element.  
   
@@ -25,6 +27,7 @@ HRESULT GetElementByName(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,4 +44,5 @@ HRESULT GetElementByName(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

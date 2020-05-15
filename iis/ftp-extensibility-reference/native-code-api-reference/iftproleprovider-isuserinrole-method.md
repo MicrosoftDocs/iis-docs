@@ -5,6 +5,7 @@ ms.assetid: edb0aed7-253f-40ae-85f5-09f37fce2504
 ms.author: "robmcm"
 ---
 # IFtpRoleProvider::IsUserInRole Method
+
 Checks to see whether a user is a member of a specific role.  
   
 ## Syntax  
@@ -31,6 +32,7 @@ HRESULT IsUserInRole(
 |`pfIsInRole`|[OUT] A pointer to a long integer that is set to `true` if the user is in the role; otherwise, `false`.|  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |||  
@@ -39,6 +41,7 @@ HRESULT IsUserInRole(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example illustrates how to use the `IFtpRoleProvider` interface to create a custom authentication module for the FTP service that implements role checks.  
   
 ```  
@@ -81,4 +84,5 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [IFtpRoleProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftproleprovider-interface-native.md)

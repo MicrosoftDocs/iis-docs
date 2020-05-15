@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2e52ec34-c034-1386-61dc-f36126855931
 ---
 # IHttpResponse::Flush Method
+
 Sends the existing content in the response buffer to the client.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT Flush(
 ```  
   
 ### Parameters  
+
  `fAsync`  
  [IN] `true` to complete the operation asynchronously; otherwise, `false`.  
   
@@ -31,6 +33,7 @@ virtual HRESULT Flush(
  [OUT] A pointer to a Boolean value that receives whether an asynchronous completion is pending for this call.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT Flush(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `Flush` method sends the currently available response to the client. At a minimum, the response includes the status headers, but it will also include any response buffer that exists when you call the method.  
   
  Set the `fMoreData` parameter to `true` if more data will be returned after you call the `Flush` method, or set `fMoreData` to `false` if there is no data remaining.  
@@ -50,6 +54,7 @@ virtual HRESULT Flush(
 >  If you are calling this method asynchronously, you must return immediately after the call.  
   
 ## Example  
+
  The following code example demonstrates how to use the `Flush` method to send the current response to the client. Because the `Flush` method has sent the response headers to the client, the subsequent call to the [Clear](../../web-development-reference/native-code-api-reference/ihttpresponse-clear-method.md) method will have no effect.  
   
  [!code-cpp[IHttpResponseFlush#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseFlush/cpp/IHttpResponseFlush.cpp#1)]  
@@ -68,4 +73,5 @@ virtual HRESULT Flush(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f5f0c9bf-e374-a948-63bc-1b2c50555751
 ---
 # IHttpRequest Interface
+
 Provides an interface to an HTTP request object. You can use the methods in the `IHttpRequest` interface to retrieve and modify data in the current HTTP request.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpRequest
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpRequest` interface.  
   
 |Name|Description|  
@@ -44,9 +46,11 @@ class IHttpRequest
 |[IHttpRequest2](../../web-development-reference/native-code-api-reference/ihttprequest2-interface.md)|Provides an interface for retrieving the channel binding token (CBT) being used for request validation.|  
   
 ## Related Sections  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)  
   
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c035a882-5efc-4597-44ec-50501cef4ca9
 ---
 # IHttpResponse::GetRawHttpResponse Method
+
 Retrieves a structure that contains the raw HTTP response.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual HTTP_RESPONSE* GetRawHttpResponse(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [HTTP_RESPONSE](https://go.microsoft.com/fwlink/?LinkId=56009) structure.  
   
 ## Remarks  
+
  The `GetRawHttpResponse` method retrieves the raw response and returns a pointer to an `HTTP_RESPONSE` structure that contains the current response entity.  
   
 > [!NOTE]
@@ -29,6 +33,7 @@ virtual HTTP_RESPONSE* GetRawHttpResponse(
  The lifetime of this structure is controlled by the server, and the structure is available until the end of the response.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetRawHttpResponse` to create an HTTP module that retrieves a pointer to an `HTTP_RESPONSE` structure that contains the current response. The module uses the structure to retrieve the data chunk count in the response, and then it uses the [IHttpResponse::Clear](../../web-development-reference/native-code-api-reference/ihttpresponse-clear-method.md) method to clear the current response. Finally the module returns the chunk count to the client.  
   
  [!code-cpp[IHttpResponseGetRawHttpResponse#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetRawHttpResponse/cpp/IHttpResponseGetRawHttpResponse.cpp#1)]  
@@ -47,5 +52,6 @@ virtual HTTP_RESPONSE* GetRawHttpResponse(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpRequest::GetRawHttpRequest Method](../../web-development-reference/native-code-api-reference/ihttprequest-getrawhttprequest-method.md)

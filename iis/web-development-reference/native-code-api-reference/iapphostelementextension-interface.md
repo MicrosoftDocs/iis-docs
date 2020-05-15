@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a59b1d04-31f6-470a-9ee2-f6068b755e7f
 ---
 # IAppHostElementExtension Interface
+
 Used to handle element extensions in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostElementExtension : public IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostElementExtension` interface.  
   
 |Method|Description|  
@@ -20,9 +22,11 @@ IAppHostElementExtension : public IUnknown
 |[ProvideElement](../../web-development-reference/native-code-api-reference/iapphostelementextension-provideelement-method.md)|Populates the supplied configuration element.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Remarks  
+
  The `IAppHostElementExtension` interface is used to handle element extensions to the configuration system. When this interface is implemented, the configuration system will call it to handle dynamic configuration.  
   
  The administration system allows dynamic elements to be defined, provided that they are backed by a class that implements the `IAppHostElementExtension` interface.  
@@ -31,6 +35,7 @@ IAppHostElementExtension : public IUnknown
 >  The `IAppHostElementExtension` interface is designed to work on a local computer; you cannot use this interface to manage a remote computer.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostElementExtension`  
@@ -45,5 +50,6 @@ IAppHostElementExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

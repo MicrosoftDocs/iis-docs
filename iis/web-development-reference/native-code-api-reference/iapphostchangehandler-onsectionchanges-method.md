@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d6185b17-fabc-49bc-8cb0-c79195aae3c6
 ---
 # IAppHostChangeHandler::OnSectionChanges Method
+
 Notifies listeners when a section has changed in a physical file of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration. All callers must implement the listener.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT OnSectionChanges(
 ```  
   
 ### Parameters  
+
  `bstrSectionName`  
  A `BSTR` that contains the configuration section that changed.  
   
@@ -25,6 +27,7 @@ HRESULT OnSectionChanges(
  A `BSTR` that contains the configuration path that changed.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,7 +44,9 @@ HRESULT OnSectionChanges(
 |Header|Ahadmin.h|  
   
 ## Remarks  
+
  An example of a `bstrConfigPath` is "MACHINE/WEBROOT/APPHOST". An example of a `bstrSectionName` is "system.webServer/defaultDocument".  
   
 ## See Also  
+
  [IAppHostChangeHandler Interface](../../web-development-reference/native-code-api-reference/iapphostchangehandler-interface.md)

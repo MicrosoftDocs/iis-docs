@@ -10,6 +10,7 @@ msc.type: config
 # Adding One-To-One Mappings &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<oneToOneMappings>` element specifies a unique mapping between an individual client certificate and an individual user account.
@@ -18,6 +19,7 @@ The `<add>` element of the `<oneToOneMappings>` element specifies a unique mappi
 > One-to-one certificate mappings differ from [many-to-one](../manytoonemappings/index.md) certificate mappings, which can map multiple certificates to a single user account.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<add>` element of the `<oneToOneMappings>` element specifies a unique mappi
 | IIS 6.0 | The `<oneToOneMappings>` element replaces the IIS 6.0 **IIsCertMapper** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<iisClientCertificateMappingAuthentication>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -72,11 +75,13 @@ The `<iisClientCertificateMappingAuthentication>` element is not available on th
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring IIS Client Certificate Mapping authentication for IIS 7. For examples of how to configure IIS Client Certificate Mapping authentication programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -130,6 +135,7 @@ The following configuration sample enables IIS Client Certificate Mapping authen
     - Concatenate all the lines into a single line of text - this is the Base-64 encoded certificate data that you will use for all of the samples in this topic.
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable IIS Client Certificate Mapping authentication using one-to-one certificate mapping for the Default Web Site, create a single one-to-one certificate mapping for a user account, and configure the site to require SSL and to negotiate client certificates.

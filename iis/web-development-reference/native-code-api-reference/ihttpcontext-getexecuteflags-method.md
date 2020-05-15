@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d4470530-25e6-17cb-d5fb-d817bb02e98c
 ---
 # IHttpContext::GetExecuteFlags Method
+
 Retrieves the execution flags for the current context.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual DWORD GetExecuteFlags(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that contains the execution flags.  
   
 ## Remarks  
+
  The `GetExecuteFlags` method retrieves the execution flags for the current context. The following table lists the possible values for these flags.  
   
 |Value|Description|  
@@ -34,6 +38,7 @@ virtual DWORD GetExecuteFlags(
 |EXECUTE_FLAG_HTTP_CACHE_ELIGIBLE|The child response is still eligible for caching by Http.sys.|  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -66,5 +71,6 @@ virtual DWORD GetExecuteFlags(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::ExecuteRequest Method](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md)

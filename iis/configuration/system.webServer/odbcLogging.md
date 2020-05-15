@@ -10,6 +10,7 @@ msc.type: config
 # ODBC Logging &lt;odbcLogging&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<odbcLogging>` element configures Open Database Connectivity (ODBC) logging for Internet Information Services (IIS) 7. ODBC logging records all HTTP activity to a user-defined database instead of to text files.
@@ -35,6 +36,7 @@ When you use ODBC logging, your server's activity is stored in a database, which
 > To create the table for ODBC logging, you can use the "%*windir*%\System32\inetsrv\logtemp.sql" file that is provided with IIS 7. For more information about ODBC logging, see [Microsoft Knowledge Base Article 245243](https://support.microsoft.com/kb/245243).
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -47,6 +49,7 @@ When you use ODBC logging, your server's activity is stored in a database, which
 | IIS 6.0 | The attributes of the `<odbcLogging>` element replace the following IIS 6.0 metabase properties: <ul> <li><strong>LogOdbcDataSource</strong></li> <li><strong>LogOdbcPassword</strong></li> <li><strong>LogOdbcTableName</strong></li> <li><strong>LogOdbcUserName</strong> </li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<odbcLogging>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -89,11 +92,13 @@ The `<odbcLogging>` element is not available on the default installation of IIS 
     [![](odbcLogging/_static/image8.png)](odbcLogging/_static/image7.png)
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring ODBC logging for IIS 7. For examples of how to configure ODBC logging programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -120,6 +125,7 @@ This second configuration sample configures the correct custom logging attribute
 [!code-xml[Main](odbcLogging/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure two sets of options for the Default Web Site:

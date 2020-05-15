@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 18b70a15-3c52-44be-a411-7b2b89216936
 ---
 # Application.RevertToParent Method1
+
 Reverts an application's configuration value or values to the default.  
   
 ## Syntax  
@@ -23,12 +24,15 @@ Application.RevertToParent(PropertyName);
 |`PropertyName`|An optional `string` value that contains the name of the application property that is to be reverted to the default specified by the [ApplicationElementDefaults](../wmi-provider/applicationelementdefaults-class.md) class that is exposed as the `ApplicationDefaults` property on the parent [Site](../wmi-provider/site-class.md) class. The property to revert can be nested (for example, "VirtualDirectoryDefaults.PhysicalPath").|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  When you call `RevertToParent` without parameters, all settings for the application that are in the ApplicationHost.config file will be removed. If this is not the behavior you want, revert specific properties by using separate parameterized calls to the method.  
   
 ## Example  
+
  The following example reverts the name of the default Web site's `MyApp` application pool from "MyAppPool" to "DefaultAppPool".  
   
 ```  
@@ -74,6 +78,7 @@ Wscript.Echo "ApplicationPool after revert: " & _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
  [Site Class](../wmi-provider/site-class.md)

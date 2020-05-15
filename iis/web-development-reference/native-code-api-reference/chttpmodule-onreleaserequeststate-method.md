@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 367d5db1-d91f-fb0a-539b-1807e705f539
 ---
 # CHttpModule::OnReleaseRequestState Method
+
 Represents the method that will handle a `ReleaseRequestState` event, which occurs when the current state is released.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnReleaseRequestState(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,15 +25,18 @@ virtual REQUEST_NOTIFICATION_STATUS OnReleaseRequestState(
  [IN] A pointer to an [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module has registered for the [RQ_RELEASE_REQUEST_STATE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnReleaseRequestState` method when it releases the state for the current request.  
   
 > [!NOTE]
 >  Request-level modules can register for the `ReleaseRequestState` event notification by registering for `RQ_RELEASE_REQUEST_STATE` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_RELEASE_REQUEST_STATE` event and post-event notifications. When IIS releases the state for the current request, it will call the example module's `OnReleaseRequestState` and [OnPostReleaseRequestState](../../web-development-reference/native-code-api-reference/chttpmodule-onpostreleaserequeststate-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleReleaseRequestState#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleReleaseRequestState/cpp/CHttpModuleReleaseRequestState.cpp#1)]  
@@ -50,5 +55,6 @@ virtual REQUEST_NOTIFICATION_STATUS OnReleaseRequestState(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnPostReleaseRequestState Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostreleaserequeststate-method.md)

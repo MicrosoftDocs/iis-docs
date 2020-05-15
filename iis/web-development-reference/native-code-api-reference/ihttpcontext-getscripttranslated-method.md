@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 80a1063c-b33b-7af1-b445-1a49922cd728
 ---
 # IHttpContext::GetScriptTranslated Method
+
 Retrieves the physical path of the current request.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual PCWSTR GetScriptTranslated(
 ```  
   
 ### Parameters  
+
  `pcchScriptName`  
  A pointer to a `DWORD` that receives the length of the returned string.  
   
 ## Return Value  
+
  A pointer to a string that contains the translated path for the current script.  
   
 ## Remarks  
+
  The `GetScriptTranslated` method is used to retrieve a pointer to a buffer that contains the physical path of the current URL.  
   
 > [!NOTE]
 >  The server owns the lifetime of this pointer.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetScriptTranslated` method to create an HTTP module that retrieves the physical path of the current script. The example returns that information to a Web client and then exits.  
   
  [!code-cpp[IHttpContextGetScriptTranslated#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetScriptTranslated/cpp/IHttpContextGetScriptTranslated.cpp#1)]  
@@ -46,6 +51,7 @@ virtual PCWSTR GetScriptTranslated(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::GetScriptMap Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md)   
  [IHttpContext::GetScriptName Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptname-method.md)   

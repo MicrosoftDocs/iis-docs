@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0c551af0-1f2a-ed9f-2d2b-896771e0bb92
 ---
 # CGlobalModule::OnGlobalTraceEvent Method
+
 Represents the method that will handle a `GlobalTraceEvent` event, which occurs when a trace event is raised.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalTraceEvent(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalTraceEvent` method when a trace event occurs.  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalTraceEvent` event notification by registering for `GL_TRACE_EVENT` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_TRACE_EVENT` notification. If a tracing-related event occurs, IIS will call the example module's `OnGlobalTraceEvent` method. This method will write an entry in the application log of the Windows Event Viewer and then exit.  
   
  [!code-cpp[CGlobalModuleGlobalTraceEvent#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleGlobalTraceEvent/cpp/CGlobalModuleGlobalTraceEvent.cpp#1)]  
@@ -46,4 +51,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalTraceEvent(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

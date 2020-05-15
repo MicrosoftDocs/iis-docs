@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c8acd16b-2eb2-4dae-a2a2-feb9f41a1ddb
 ---
 # SoapExtensionTypeElement Class
+
 Specifies a SOAP extension used to inspect or modify a SOAP message during processing on the Web service or client.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapExtensionTypeElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapExtensionTypeElement` class.  
   
 |Name|Description|  
@@ -25,9 +28,11 @@ class SoapExtensionTypeElement : CollectionElement
 |`Type`|A read-only `string` value that specifies the fully qualified type name of a SOAP extension class. When the assembly is put in the global assembly cache, the string must also include the version, culture, and public key token of the signed assembly. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SoapExtensionTypes` array property of the [SoapExtensionTypesInfo](../wmi-provider/soapextensiontypesinfo-class.md) class.  
   
  The following table lists the possible values for the `Group` property. The default is 1 (`Low`).  
@@ -38,6 +43,7 @@ class SoapExtensionTypeElement : CollectionElement
 |1|`Low`|The SOAP extension runs in the group of SOAP extensions with the lowest priority.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `SoapExtensionTypeElement`  
@@ -52,6 +58,7 @@ class SoapExtensionTypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [SoapExtensionTypesInfo Class](../wmi-provider/soapextensiontypesinfo-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

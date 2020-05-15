@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9f3c4165-0c07-f657-8d5c-852733fda9de
 ---
 # IHttpResponse::GetHeader Method
+
 Returns the value of a specified HTTP header.  
   
 ## Syntax  
@@ -21,6 +22,7 @@ virtual PCSTR GetHeader(
 ```  
   
 ### Parameters  
+
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the header to return.  
   
@@ -31,9 +33,11 @@ virtual PCSTR GetHeader(
  [OUT] A pointer to a `USHORT` that receives the length of the header value.  
   
 ## Return Value  
+
  A pointer to a string that contains the specified header.  
   
 ## Remarks  
+
  The `GetHeader` method returns the value of an HTTP header. There are two overloaded versions of the `GetHeader` method. One specifies the header by using a string that is contained in the `pszHeaderName` parameter. The other overload uses an unsigned long integer that is contained in the `ulHeaderIndex` parameter.  
   
  The header name specified by the `pszHeaderName` parameter can be a custom header or a header defined in Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," or RFC 2616, "Hypertext Transfer Protocol -- HTTP/1.1."  
@@ -49,6 +53,7 @@ virtual PCSTR GetHeader(
  After you call the `GetHeader` method, the `pcchHeaderValue` parameter will contain the length of the header value in characters, not including the terminating character, or 0 if the header was not found.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetHeader` method to create an HTTP module that retrieves the values of the `Server` and `Location` headers. The module then sends this information to a Web client.  
   
  [!code-cpp[IHttpResponseGetHeader#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetHeader/cpp/IHttpResponseGetHeader.cpp#1)]  
@@ -67,6 +72,7 @@ virtual PCSTR GetHeader(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::SetHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-setheader-method.md)   
  [IHttpResponse::DeleteHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-deleteheader-method.md)

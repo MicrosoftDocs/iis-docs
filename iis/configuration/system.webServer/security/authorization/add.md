@@ -10,6 +10,7 @@ msc.type: config
 # Adding Security Authorization &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<authorization>` collection defines an authorization rule that will either allow or deny access to specified users, groups, anonymous users, or all users.
@@ -22,6 +23,7 @@ The **accessType** attribute specifies either of two types of authorization rule
 Authorization rules can further be targeted for a list of HTTP verbs and either specific users or groups.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ Authorization rules can further be targeted for a list of HTTP verbs and either 
 | IIS 6.0 | The `<authorization>` collection replaces the IIS 6.0 **AzEnable**, **AzStoreName**, **AzScopeName**, and **AzImpersonationLevel** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 To support and configure authorization for sites and applications on your Web server, you must install the URL authorization module. To do so, use the following steps.
@@ -60,6 +63,7 @@ To support and configure authorization for sites and applications on your Web se
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an authorization rule
@@ -95,6 +99,7 @@ To support and configure authorization for sites and applications on your Web se
      > To edit or delete an existing rule, select the rule in the **Authorization rules** pane, and then click **Edit** or **Remove** in the **Actions** pane. If you click     **Edit...** , a dialog box appears that allows you to edit the rule; this dialog box is similar to the **Add Allow Authorization Rule** and **Add Deny Authorization Rule** dialog boxes.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -117,6 +122,7 @@ The following configuration example, when included in a Web.config file, removes
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add an allow authorization rule that allows users in the administrators group to access a Web site named Contoso.

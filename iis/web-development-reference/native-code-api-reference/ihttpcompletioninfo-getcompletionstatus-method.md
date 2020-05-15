@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d6f1d9fb-5344-13b2-5ffe-eeba3a6a1fd8
 ---
 # IHttpCompletionInfo::GetCompletionStatus Method
+
 Returns the status of an asynchronous operation.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual HRESULT GetCompletionStatus(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT` that contains the status for the asynchronous operation.  
   
 ## Remarks  
+
  The `GetCompletionStatus` method allows you to retrieve the status of an asynchronous operation. When you request an asynchronous operation, [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] creates an [IHttpCompletionInfo](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-interface.md) interface and passes that interface to your module's [CHttpModule::OnAsyncCompletion](../../web-development-reference/native-code-api-reference/chttpmodule-onasynccompletion-method.md) method to process the asynchronous operation. You can then use the `GetCompletionStatus` method to retrieve the status for the asynchronous operation.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
@@ -68,5 +73,6 @@ virtual HRESULT GetCompletionStatus(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCompletionInfo Interface](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-interface.md)   
  [IHttpCompletionInfo::GetCompletionBytes Method](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-getcompletionbytes-method.md)

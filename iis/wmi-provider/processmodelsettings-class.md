@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: acf029ed-e4b4-bde7-3b94-fc42b4ddaca0
 ---
 # ProcessModelSettings Class1
+
 Exposes configuration settings for IIS worker processes.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProcessModelSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProcessModelSettings` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class ProcessModelSettings : EmbeddedObject
 |`UserName`|A read/write `string` value that specifies the default user name for the account that IIS uses as the identity for newly created out-of-process COM+ applications. **Note:**  The default values of the `UserName` and `Password` properties are set when IIS is installed. The values match the user name and password in the corresponding Microsoft Windows user account that is established at installation. **Important:**  If you change the value of `UserName`, you must change it to a value that matches a valid Windows user account, and you must also change `Password` to the password for that Windows account.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ProcessModel` property of the [ApplicationPool](../wmi-provider/applicationpool-class.md) class and the [ApplicationPoolElementDefaults](../wmi-provider/applicationpoolelementdefaults-class.md) class.  
   
  For more information on the Windows Management Instrumentation (WMI) date/time format, see [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551).  
@@ -51,6 +56,7 @@ class ProcessModelSettings : EmbeddedObject
 |3|Specific User|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ProcessModelSettings`  
@@ -65,6 +71,7 @@ class ProcessModelSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

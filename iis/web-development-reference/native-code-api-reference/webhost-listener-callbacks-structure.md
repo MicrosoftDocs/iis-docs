@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e8978941-3c73-cf7f-c3eb-3375e7d12b85
 ---
 # WEBHOST_LISTENER_CALLBACKS Structure
+
 Defines a pointer to the callback structure that is passed to the [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md) function.  
   
 ## Syntax  
@@ -58,5 +59,6 @@ struct WEBHOST_LISTENER_CALLBACKS{
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Structures](../../web-development-reference/native-code-api-reference/listener-adapter-structures.md)   
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

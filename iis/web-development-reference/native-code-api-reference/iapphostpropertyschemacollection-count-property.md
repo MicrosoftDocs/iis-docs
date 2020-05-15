@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8ec63dd6-3e18-4a28-af5b-7e2211fcd4d1
 ---
 # IAppHostPropertySchemaCollection::Count Property
+
 Gets the number of [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md) objects in the current collection.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ Gets the number of [IAppHostPropertySchema Interface](../../web-development-refe
 ```  
   
 ### Parameters  
+
  `pcCount`  
  Contains the number of properties in the collection.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ Gets the number of [IAppHostPropertySchema Interface](../../web-development-refe
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschemacollection-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0c029e04-0f20-be82-d7e1-90f2143386a6
 ---
 # SoapTransportImporterTypesInfo Class
+
 Contains types that import SOAP transmission protocols into XML Web services.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapTransportImporterTypesInfo : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapTransportImporterTypesInfo` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SoapTransportImporterTypesInfo : EmbeddedObject
 |`SoapTransportImporterTypes`|An array of [SoapTransportImporterTypeElement](../wmi-provider/soaptransportimportertypeelement-class.md) values that import SOAP transmission protocols into XML Web services.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SoapTransportImporterTypes` array property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SoapTransportImporterTypesInfo`  
@@ -43,6 +49,7 @@ class SoapTransportImporterTypesInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SoapTransportImporterTypeElement Class](../wmi-provider/soaptransportimportertypeelement-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

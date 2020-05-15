@@ -57,6 +57,7 @@ The following configuration sample shows a web site named Contoso that has HSTS 
 [!code-xml[Main](hsts/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable HSTS for a web site named Contoso with both HTTP and HTTPS bindings. The sample sets **max-age** attribute as 31536000 seconds (a year), and enables both the **includeSubDomains** and the **redirectHttpToHttps** attributes.

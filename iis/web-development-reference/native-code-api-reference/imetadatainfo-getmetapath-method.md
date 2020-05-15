@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 939615c0-3b0f-3fe7-42af-ef430a251532
 ---
 # IMetadataInfo::GetMetaPath Method
+
 Retrieves the configuration path for the current context.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR GetMetaPath(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the configuration path.  
   
 ## Remarks  
+
  The `GetMetaPath` method retrieves the configuration path for the current context. For example, requests for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually return the MACHINE/WEBROOT/APPHOST/Default Web Site path.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the [IHttpContext::GetMetadata](../../web-development-reference/native-code-api-reference/ihttpcontext-getmetadata-method.md) method to retrieve a pointer to an [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md) interface. The module completes the following steps:  
   
 1. Uses the `GetMetaPath` method to retrieve the configuration path for the current request.  
@@ -54,4 +59,5 @@ virtual PCWSTR GetMetaPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMetadataInfo Interface](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md)

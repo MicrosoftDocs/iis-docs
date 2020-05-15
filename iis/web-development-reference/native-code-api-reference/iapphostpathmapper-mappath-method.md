@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b258e39a-5c1c-761a-73d0-33e5fd237349
 ---
 # IAppHostPathMapper::MapPath Method
+
 Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.  
   
 ## Syntax  
@@ -21,6 +22,7 @@ HRESULT MapPath(
 ```  
   
 ### Parameters  
+
  `bstrConfigPath`  
  A `BSTR` that contains the configuration path.  
   
@@ -31,6 +33,7 @@ HRESULT MapPath(
  A pointer to a `BSTR` that contains the new file system path.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -47,4 +50,5 @@ HRESULT MapPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPathMapper Interface](../../web-development-reference/native-code-api-reference/iapphostpathmapper-interface.md)

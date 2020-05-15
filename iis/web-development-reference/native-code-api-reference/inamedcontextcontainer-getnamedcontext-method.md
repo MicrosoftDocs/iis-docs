@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 639f9b9d-8141-41ce-97cd-4e623090a602
 ---
 # INamedContextContainer::GetNamedContext Method
+
 Retrieves a stored context given its name.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ Virtual IHttpStoredContext * GetNamedContext(
 ```  
   
 ### Parameters  
+
  `szName`  
  [IN] The name of the context.  
   
 ## Return Value  
+
  A pointer to a [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) object.  
   
 ## Requirements  
@@ -31,4 +34,5 @@ Virtual IHttpStoredContext * GetNamedContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [INamedContextContainer Interface](../../web-development-reference/native-code-api-reference/inamedcontextcontainer-interface.md)

@@ -10,6 +10,7 @@ msc.type: config
 # Adding Management Authentication Providers &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<providers>` element adds an authentication provider to the collection of management authentication providers for Internet Information Services (IIS) 7.
@@ -18,6 +19,7 @@ The `<add>` element of the `<providers>` element adds an authentication provider
 > The default authentication provider, *ConfigurationAuthenticationProvider*, uses the IIS Administration.config file to store IIS Manager user credentials for IIS Manager.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<add>` element of the `<providers>` element adds an authentication provider
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the **Management Service** role service. To install this role service, use the following steps.
@@ -73,11 +76,13 @@ The default installation of IIS 7 and later does not include the **Management Se
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<providers>` element of the `<authentication>` element for IIS 7. For examples of how to configure the `<providers>` element of the `<authentication>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -98,6 +103,7 @@ The following default `<providers>` element under the `<authentication>` element
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

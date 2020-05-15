@@ -10,11 +10,13 @@ msc.type: config
 # Deny by Concurrent Requests <denyByConcurrentRequests> &lt;denyByConcurrentRequests&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<denyByConcurrentRequests>` element specifies that a remote client will be blocked if the number of concurrent HTTP connection requests from that client exceeds a specific number.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<denyByConcurrentRequests>` element specifies that a remote client will be 
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support blocking a client on your Web server by the number of concurrent requests, you must install the IP and Domain Restrictions role service.
@@ -52,6 +55,7 @@ To support blocking a client on your Web server by the number of concurrent requ
 5. Click **Close**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to deny an IP address by the number of concurrent requests
@@ -73,6 +77,7 @@ To support blocking a client on your Web server by the number of concurrent requ
     [![](denyByConcurrentRequests/_static/image6.png)](denyByConcurrentRequests/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<denyByConcurrentRequests>` element is configured at the server or site level.
@@ -95,6 +100,7 @@ The following configuration sample demonstrates how to set dynamic IP address re
 [!code-xml[Main](denyByConcurrentRequests/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure **&lt;dynamicIpSecurity&gt;** for a site.

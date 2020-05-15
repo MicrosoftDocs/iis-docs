@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: deddc775-1ab0-492c-bda0-b32be5d4f4cc
 ---
 # IGlobalApplicationPreloadProvider Interface
+
 Provides a global-level interface for preloading an application into server memory.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IGlobalApplicationPreloadProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IGlobalApplicationPreloadProvider` interface.  
   
 |Name|Description|  
@@ -27,6 +29,7 @@ IGlobalApplicationPreloadProvider : public IHttpEventProvider
 |[IGlobalApplicationPreloadProvider2](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider2-interface.md)|Provides information about whether an application’s worker process is recycled.|  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalApplicationPreloadProvider`  
@@ -41,4 +44,5 @@ IGlobalApplicationPreloadProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

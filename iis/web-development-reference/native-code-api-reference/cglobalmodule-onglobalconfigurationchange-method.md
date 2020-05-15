@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: efed83da-974b-a67b-9e66-86061b8629a7
 ---
 # CGlobalModule::OnGlobalConfigurationChange Method
+
 Represents the method that will handle a `GlobalConfigurationChange` event, which occurs when a change is made to a configuration file.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalConfigurationChange(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IGlobalConfigurationChangeProvider](../../web-development-reference/native-code-api-reference/iglobalconfigurationchangeprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_CONFIGURATION_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalConfigurationChange` method if a configuration file is changed. For example, if the ApplicationHost.config file is changed, an event containing the configuration path will be written to the Event Viewer.  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalConfigurationChange` event notification by registering for `GL_CONFIGURATION_CHANGE` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that uses the [IGlobalConfigurationChangeProvider::GetChangePath](../../web-development-reference/native-code-api-reference/iglobalconfigurationchangeprovider-getchangepath-method.md) method to retrieve the path for a configuration change and add a log entry to the Event Viewer.  
   
  [!code-cpp[IGlobalConfigurationChangeProviderGetChangePath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalConfigurationChangeProviderGetChangePath/cpp/IGlobalConfigurationChangeProviderGetChangePath.cpp#1)]  
@@ -46,5 +51,6 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalConfigurationChange(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)   
  [IGlobalConfigurationChangeProvider Interface](../../web-development-reference/native-code-api-reference/iglobalconfigurationchangeprovider-interface.md)

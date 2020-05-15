@@ -10,11 +10,13 @@ msc.type: config
 # Adding Caching Profiles &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<profiles>` element adds an output caching profile to the collection of output caching profiles.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<add>` element of the `<profiles>` element adds an output caching profile t
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element of the `<profiles>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure page output caching
@@ -61,6 +65,7 @@ The `<add>` element of the `<profiles>` element is included in the default insta
     [![](add/_static/image4.png)](add/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -90,6 +95,7 @@ The following code example sets the maximum output cache size to 1 gigabyte and 
 [!code-xml[Main](add/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure page output caching for files with the .asp file name extension, and configure IIS to cache in user mode and kernel mode until ASP files change.

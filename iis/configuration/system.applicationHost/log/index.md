@@ -10,6 +10,7 @@ msc.type: config
 # Log &lt;log&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<log>` element specifies several global logging options for Internet Information Services (IIS) 7. For example, the **centralLogFileMode** attribute specifies whether site-level logging, central W3C logging, or central binary logging is enabled.
@@ -20,6 +21,7 @@ Site-level logging creates individual log file directories for each site on your
 > Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -32,11 +34,13 @@ Site-level logging creates individual log file directories for each site on your
 | IIS 6.0 | The `<log>` element replaces the following IIS 6.0 attributes: <ul> <li><strong>CentralBinaryLoggingEnabled</strong> <li><strong>CentralW3CLoggingEnabled</strong> <li><strong>LogInUTF8</strong> </li></li></li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<log>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable central binary logging for a server
@@ -90,6 +94,7 @@ The `<log>` element is included in the default installation of IIS 7.
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -121,6 +126,7 @@ The following configuration sample specifies that IIS will use central W3C loggi
 [!code-xml[Main](index/samples/sample3.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples specify that IIS will use central binary logging, and configure binary log file rotation on a daily basis.

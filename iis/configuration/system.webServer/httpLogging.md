@@ -10,6 +10,7 @@ msc.type: config
 # HTTP Logging &lt;httpLogging&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<httpLogging>` element allows you to configure IIS to generate log entries for only successful requests, failed requests, or both. After you configure logging for each Web site at the server level, you can use this element to enable selective logging for individual URLs. By default, HTTP logging is enabled for all requests on Internet Information Services (IIS) 7.
@@ -17,6 +18,7 @@ The `<httpLogging>` element allows you to configure IIS to generate log entries 
 You can view the log file for a site at any time to see which requests are failing and which requests are succeeding. When you no longer want IIS to log certain requests for a site, disable logging for that site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,11 +31,13 @@ You can view the log file for a site at any time to see which requests are faili
 | IIS 6.0 | The `<httpLogging>` element and the `<logFile>` element replace the logging properties on the IIS 6.0 **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<httpLogging>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable HTTP logging for a site or application
@@ -66,6 +70,7 @@ The `<httpLogging>` element is included in the default installation of IIS 7.
     [![](httpLogging/_static/image6.png)](httpLogging/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<httpLogging>` element at the server level in the ApplicationHost.config file and at the site, application, or URL level in the appropriate Web.config file.
@@ -88,6 +93,7 @@ The following configuration example, when included in a Web.config file for a si
 [!code-xml[Main](httpLogging/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable HTTP logging for a Web site named Contoso, and specify that IIS should log all requests.

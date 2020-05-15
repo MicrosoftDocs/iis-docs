@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5ab3a470-f3e2-9b55-dbc6-01b4e64b0d70
 ---
 # WebServicesSection Class
+
 Controls the behavior of XML Web services and their clients.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class WebServicesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `WebServicesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class WebServicesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebServicesSection` class.  
   
 |Name|Description|  
@@ -48,9 +51,11 @@ class WebServicesSection : ConfigurationSectionWithCollection
 |`WsdlHelpGenerator`|A [WsdlHelpGeneratorInfo](../wmi-provider/wsdlhelpgeneratorinfo-class.md) value that specifies the Web service Help page (an .aspx file) that is displayed to a browser when the user browses to an .asmx page.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -67,6 +72,7 @@ class WebServicesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.SystemWebSectionGroup.WebServices](/dotnet/api/system.web.configuration.scriptingwebservicessectiongroup)  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ConformanceWarning Class](../wmi-provider/conformancewarning-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 081d3300-b7fa-35ae-4d1a-c1b3950d28c3
 ---
 # HttpModulesSection Class
+
 Contains [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] modules.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpModulesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpModulesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class HttpModulesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpModulesSection` class.  
   
 |Name|Description|  
@@ -38,14 +41,17 @@ class HttpModulesSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The modules in the `HttpModulesSection` class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the `<system.web>` section of the Web.config file. Each of these modules is represented by an instance of the [HttpModuleAction](../wmi-provider/httpmoduleaction-class.md) class.  
   
  The modules in the [ModulesSection](../wmi-provider/modulessection-class.md) class are related to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] and are in the `<system.webServer>` section of the ApplicationHost.config file. Each of these modules is represented by an instance of the [ModuleAction](../wmi-provider/moduleaction-class.md) class.  
   
 ## Example  
+
  The following example displays `HttpModulesSection` properties, including the `HttpModuleAction` values that are in the `HttpModules` property.  
   
 ```  
@@ -75,6 +81,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -91,6 +98,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [HttpModuleAction Class](../wmi-provider/httpmoduleaction-class.md)   
  [ModuleAction Class](../wmi-provider/moduleaction-class.md)   

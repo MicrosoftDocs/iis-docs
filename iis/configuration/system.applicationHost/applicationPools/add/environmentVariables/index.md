@@ -10,11 +10,13 @@ msc.type: config
 # Environment Variables &lt;environmentVariables&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<environmentVariables>` element of the `<applicationPools>`/`<add>` element specifies a list of environment variables that Internet Information Services (IIS) 10 will pass to a worker process when an application is launched. The `<environmentVariables>` element contains a collection of `<add>` elements which define the individual name/value pairs for each environment variable.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -26,16 +28,19 @@ The `<environmentVariables>` element of the `<applicationPools>`/`<add>` element
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<environmentVariables>` element is included in the default installation of IIS 10.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for setting the environment variables for IIS 10. For examples of how to set the environment variables programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -56,6 +61,7 @@ The following example adds an environment variable to an application pool.
 [!code-xml[Main](index/samples/sample1.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples demonstrate how to add a name/value pair to the collection of environment variables.

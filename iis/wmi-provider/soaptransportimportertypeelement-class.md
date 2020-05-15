@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3b116efc-e40f-4c9e-a440-4854cb71daf5
 ---
 # SoapTransportImporterTypeElement Class
+
 Imports a SOAP transmission protocol into an XML Web service.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapTransportImporterTypeElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapTransportImporterTypeElement` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SoapTransportImporterTypeElement : CollectionElement
 |`Type`|A read-only `string` value that imports a SOAP transmission protocol into an XML Web service. A key property. **Note:**  The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SoapTransportImporterTypes` array property of the [SoapTransportImporterTypesInfo](../wmi-provider/soaptransportimportertypesinfo-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/soapextensionreflectortypessettings-class.md)  
   
  `SoapTransportImporterTypeElement`  
@@ -43,6 +49,7 @@ class SoapTransportImporterTypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [IIS 7.0: CollectionElement Class](../wmi-provider/soapextensionreflectortypessettings-class.md)   
  [SoapTransportImporterTypesInfo Class](../wmi-provider/soaptransportimportertypesinfo-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

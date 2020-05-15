@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e9e0872-241b-ba12-14a5-80ab8de2a516
 ---
 # ICustomNotificationProvider::QueryNotificationType Method
+
 Returns the unique identifier for a custom notification provider.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR QueryNotificationType(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the custom notification type.  
   
 ## Remarks  
+
  When you are creating an [ICustomNotificationProvider](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md) interface, your interface must provide a `QueryNotificationType` method that returns a pointer to a string that is unique for your notification. This allows modules that are listening for custom notifications to differentiate between the notifications that have been raised.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that does the following:  
   
 1. Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_CUSTOM_NOTIFICATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
@@ -52,4 +57,5 @@ virtual PCWSTR QueryNotificationType(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ICustomNotificationProvider Interface](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a0ad4140-3f63-4615-8387-930b80bd16e7
 ---
 # UrlSequenceSettings Class
+
 Contains URL sequences that request filtering will deny.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class UrlSequenceSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `UrlSequenceSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class UrlSequenceSettings : EmbeddedObject
 |`DenyUrlSequences`|An array of [UrlSequence](../wmi-provider/urlsequence-class.md) values that specify URL sequences that request filtering will deny.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DenyUrlSequences` array property of the [RequestFilteringSection](../wmi-provider/requestfilteringsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `UrlSequenceSettings`  
@@ -43,6 +49,7 @@ class UrlSequenceSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
  [UrlSequence Class](../wmi-provider/urlsequence-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 67fb593e-1cde-105d-652e-dc8617d99cbd
 ---
 # IHttpUrlInfo::IsFrequentlyHit Method
+
 Returns a Boolean value that indicates whether the URL is requested frequently.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual BOOL IsFrequentlyHit(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if the URL is frequently requested; otherwise, `false`.  
   
 ## Remarks  
+
  The `IsFrequentlyHit` method retrieves a Boolean value that indicates whether the URL for the current request is frequently requested by Web clients. For example, if you were writing a custom HTTP compression module for [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)], you could determine which URLs should be compressed based on the results of the `IsFrequentlyHit` method.  
   
  By default, the determining factor for a return value of `true` is two requests in a 10-second time span. You can configure this behavior by modifying the `frequentHitThreshold` and `frequentHitTimePeriod` attributes of the `<serverRuntime>` element in your ApplicationHost.config file. For example, to configure your server to return a value of `true` when a URL has been requested 10 times in a 5-second period, you would modify the `<serverRuntime>` element in your ApplicationHost.config file by adding the following attributes:  
@@ -32,6 +36,7 @@ virtual BOOL IsFrequentlyHit(
 ```  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetUrlInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-geturlinfo-method.md) method to create an HTTP module that retrieves an [IHttpUrlInfo](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md) interface for the current request. Then the example calls the `IsFrequentlyHit` method to determine whether the URL is requested frequently. Finally, the example displays this information to a Web client.  
   
  [!code-cpp[IHttpContextGetUrlInfo#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetUrlInfo/cpp/IHttpContextGetUrlInfo.cpp#1)]  
@@ -50,5 +55,6 @@ virtual BOOL IsFrequentlyHit(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext::GetUrlInfo Method](../../web-development-reference/native-code-api-reference/ihttpcontext-geturlinfo-method.md)   
  [IHttpUrlInfo Interface](../../web-development-reference/native-code-api-reference/ihttpurlinfo-interface.md)

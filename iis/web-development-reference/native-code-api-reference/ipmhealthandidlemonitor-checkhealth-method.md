@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e9c579f1-b2ae-c57a-8ee3-edf3949beef5
 ---
 # IPmHealthAndIdleMonitor::CheckHealth Method
+
 Enables the worker process framework to request the health status of a protocol manager.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT CheckHealth(
 ```  
   
 ### Parameters  
+
  `pIHealthStatusCallback`  
  A pointer to an [IHealthStatusCallback](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ virtual HRESULT CheckHealth(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  When this method is called, a pointer to an `IHealthStatusCallback` interface is passed, which allows the protocol manager to report its current health.  
   
 ## Requirements  
@@ -38,6 +42,7 @@ virtual HRESULT CheckHealth(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IPmHealthAndIdleMonitor Interface](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmHealthAndIdleMonitor::CheckIdle Method](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-checkidle-method.md)

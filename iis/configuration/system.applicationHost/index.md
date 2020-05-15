@@ -10,6 +10,7 @@ msc.type: config
 # &lt;system.applicationHost&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<system.applicationHost>` element contains global configuration settings that are used by the Windows Process Activation Service (WAS) in Internet Information Services (IIS) 7. This element defines many of the server-level configuration settings in the IIS 7 ApplicationHost.config file.
@@ -20,6 +21,7 @@ Of significant importance, the `<system.applicationHost>` element contains the c
 > Unlike the settings that are found in [&lt;system.webServer&gt;](../system.webserver/index.md), settings in the `<system.applicationHost>` element cannot be delegated.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -32,16 +34,19 @@ Of significant importance, the `<system.applicationHost>` element contains the c
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<system.applicationHost>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There are no examples that are specific to the `<system.applicationHost>` element. For examples that configure the settings that are found within the `<system.applicationHost>` element, see the child elements that are listed in the [configuration details](#005) section of this topic.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<system.applicationHost>` element is defined in the ApplicationHost.config file.
@@ -70,6 +75,7 @@ The following configuration sample defines a simple, static-content-only `<syste
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 There are no code samples that are specific to the `<system.applicationHost>` element. For code samples that configure the settings that are found within the `<system.applicationHost>` element, see the child elements that are listed in the [configuration details](#005) section of this topic.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0a6fec4d-62c5-1a87-f0e3-50d8134e7179
 ---
 # SystemWebDeploymentSection Class
+
 Defines configuration settings that support the deployment of a Web application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SystemWebDeploymentSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SystemWebDeploymentSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class SystemWebDeploymentSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SystemWebDeploymentSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class SystemWebDeploymentSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `SystemWebDeploymentSection`  
@@ -51,4 +56,5 @@ class SystemWebDeploymentSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

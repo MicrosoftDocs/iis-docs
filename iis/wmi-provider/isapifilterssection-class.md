@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2592c8b2-ade9-2569-8e44-8cca63d22c3d
 ---
 # IsapiFiltersSection Class
+
 Configures the ISAPI filters on a Web server.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IsapiFiltersSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IsapiFiltersSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class IsapiFiltersSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IsapiFiltersSection` class.  
   
 |Name|Description|  
@@ -38,12 +41,15 @@ class IsapiFiltersSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  ISAPI filters and extensions are being replaced by the new [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] modules API. For more information about the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] modules API, see [Creating Native-Code HTTP Modules](../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md).  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -60,5 +66,6 @@ class IsapiFiltersSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [IsapiFilterElement Class](../wmi-provider/isapifilterelement-class.md)

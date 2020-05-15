@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d2a37cfd-c4d7-ceb7-ca99-3598caf3ee4a
 ---
 # IAppHostPathMapper Interface
+
 Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to file system paths.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostPathMapper : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostPathMapper` interface.  
   
 |Method|Description|  
@@ -20,12 +22,15 @@ interface IAppHostPathMapper : IUnknown
 |[MapPath](../../web-development-reference/native-code-api-reference/iapphostpathmapper-mappath-method.md)|Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Remarks  
+
  This interface is used to point the configuration system to configuration files in custom physical paths.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostPathMapper`  
@@ -40,5 +45,6 @@ interface IAppHostPathMapper : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

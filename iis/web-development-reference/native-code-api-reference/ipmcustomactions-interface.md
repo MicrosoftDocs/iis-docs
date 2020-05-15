@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 276195fc-250c-b641-a410-5fc32e21967b
 ---
 # IPmCustomActions Interface
+
 Allows the worker process framework to request custom Run-Time Status and Control operations from a protocol manager.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IPmCustomActions : public  IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IPmCustomActions` interface.  
   
 |Name|Description|  
@@ -22,6 +24,7 @@ class IPmCustomActions : public  IWpfReferencedObject
 |[RunCustomAction](../../web-development-reference/native-code-api-reference/ipmcustomactions-runcustomaction-method.md)|Enables the worker process framework to request support functions for Run-Time Status and Control data from a protocol manager.|  
   
 ## Remarks  
+
  The `IPmCustomActionsIPmCustomActions` interface ensures that Run-Time Status and Control operations are performed in a standardized manner, regardless of the protocol manager being used.  
   
 ## Derived Classes  
@@ -31,6 +34,7 @@ class IPmCustomActions : public  IWpfReferencedObject
 |[IPmcustomActions2](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md)|Enables the worker process to register and unregister custom actions that will result in multiple responses.|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IPmCustomActions`  
@@ -45,6 +49,7 @@ class IPmCustomActions : public  IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmHealthAndIdleMonitor Interface](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-interface.md)   

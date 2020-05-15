@@ -16,6 +16,7 @@ This document guides you through installing IIS and configuring a classic ASP we
 The Classic ASP server configuration adds IIS modules for ASP and ISAPI extensions to the default IIS installation.
 
 <a id="00"></a>
+
 ## Prerequisites
 
 To get the most from this tutorial, you must have access to a computer that is running one of the following operating systems:
@@ -24,6 +25,7 @@ To get the most from this tutorial, you must have access to a computer that is r
 - Windows® 8
 
 <a id="01"></a>
+
 ## Step 1: Install the IIS Web Server
 
 You can use the Web Platform Installer (Web PI) to install IIS, and applications that run on IIS. Because the Web PI installs the latest versions of available Web Platform offerings, with just a few simple clicks you can download and install any new tools or updates. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
@@ -75,6 +77,7 @@ Type the following command at a command prompt or into a script:
 `Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-StaticContent;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-ApplicationDevelopment;IIS-ASP;IIS-ISAPIExtensions;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-LoggingLibraries;IIS-RequestMonitor;IIS-Security;IIS-RequestFiltering;IIS-HttpCompressionStatic;IIS-WebServerManagementTools;IIS-ManagementConsole;WAS-WindowsActivationService;WAS-ProcessModel;WAS-NetFxEnvironment;WAS-ConfigurationAPI`
 
 <a id="02"></a>
+
 ## Step 2: Add a Classic ASP Website
 
 You can perform this procedure by using the user interface (UI), by running Appcmd.exe commands in a command-line window, by editing configuration files directly, or by writing WMI scripts.
@@ -114,6 +117,7 @@ To add a web site named `contoso` with an ID of 2 that has content in `c:\contos
 `appcmd add site /name: contoso /id:2 /physicalPath: c:\contoso /bindings:http/*:85: marketing.contoso.com`
 
 <a id="03"></a>
+
 ## Step 3: Edit ASP Application Settings
 
 IIS 8 provides default settings for ASP applications, but you can change those settings as needed. For example, you can enable client-side debugging on a test server to aide in troubleshooting issues during a test pass.
@@ -451,6 +455,7 @@ To specify the default time that a session object is maintained after the last r
 The variable `timeSpan` represents the maximum time (hh:mm:ss) that a session object is maintained after the last request associated with the object is made. The default value is `00:20:00`.
 
 <a id="04"></a>
+
 ## Next Steps
 
 Test your website thoroughly to ensure that it functions as expected. Then consider configuring the following features:

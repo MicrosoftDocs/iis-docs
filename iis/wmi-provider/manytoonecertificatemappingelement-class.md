@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 416cb05f-c711-e9a7-a16d-ced7aff9121f
 ---
 # ManyToOneCertificateMappingElement Class
+
 Maps one or more certificates to a single user account.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ManyToOneCertificateMappingElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ManyToOneCertificateMappingElement` class.  
   
 |Name|Description|  
@@ -29,9 +32,11 @@ class ManyToOneCertificateMappingElement : CollectionElement
 |`UserName`|A read/write `string` value that specifies the user name for the Windows user account to which the certificate is mapped.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class form members of the `ManyToOneMappings` property of the [IisClientCertificateMappingAuthenticationSection](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md) class.  
   
  Many-to-one mapping uses wildcard matching rules that verify whether a client certificate contains specific information, such as the issuer or subject. This mapping does not compare the actual client certificate, but rather accepts all the client certificates that fulfill the specific criteria. If a client gets another certificate that contains all the same user information, the existing mapping will work.  
@@ -44,6 +49,7 @@ class ManyToOneCertificateMappingElement : CollectionElement
 |2|`Deny`|The mapping is denied based on the criteria specified by the `Rules` property.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ManyToOneCertificateMappingElement`  
@@ -58,6 +64,7 @@ class ManyToOneCertificateMappingElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

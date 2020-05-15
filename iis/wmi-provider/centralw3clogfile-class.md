@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d74c5089-999e-e827-7ebe-f6946f52013c
 ---
 # CentralW3CLogFile Class1
+
 Configures settings for World Wide Web Consortium (W3C) centralized logging on a server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class CentralW3CLogFile : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CentralW3CLogFile` class.  
   
 |Name|Description|  
@@ -28,9 +31,11 @@ class CentralW3CLogFile : EmbeddedObject
 |`TruncateSize`|A read/write `string` value that specifies, in bytes, the size at which the log file contents should be truncated. This attribute must be configured when `Period` is set to `MaxSize`. The size must be between 1048576 (1 megabyte) and 4294967295 (4 gigabytes). The default is 20971520 (20 megabytes).|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `CentralW3CLogFile` property of the [LogSection](../wmi-provider/logsection-class.md) class.  
   
  The following table lists the possible values for the `LogExtFileFlags` property. The default attributes are `ClientIP`, `Date`, `HttpStatus`, `HttpSubStatus`, `Method`, `ServerIP`, `ServerPort`, `SiteName`, `Time`, `UriQuery`, `UriStem`, `UserAgent`, `UserName`, and `Win32Status`.  
@@ -71,6 +76,7 @@ class CentralW3CLogFile : EmbeddedObject
 |4|`Hourly`|The log file is closed and a new log file is started once per hour.|  
   
 ## Example  
+
  The following code example sets the log file mode to `CentralW3C`, enables centralW3C logging, sets the `Period` property to `MaxSize`, specifies that log files use local time, and limits the log size to 100 megabytes. Helper functions display the settings before and after the changes are made.  
   
 ```  
@@ -137,6 +143,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `CentralW3CLogFile`  
@@ -151,6 +158,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [LogSection Class](../wmi-provider/logsection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4e64c317-e442-5738-b14c-1f252b7b6ea9
 ---
 # IAppHostChildElementCollection Interface
+
 Represents the child configuration elements that are nested within the current element.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostChildElementCollection: IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostChildElementCollection` interface.  
   
 |Method|Description|  
@@ -21,11 +23,13 @@ interface IAppHostChildElementCollection: IUnknown
 |[Item](../../web-development-reference/native-code-api-reference/iapphostelementcollection-item-property.md)|Gets a configuration element from the collection.|  
   
 ## Example  
+
  The following code example lists all child elements under the `system.webServer/asp` configuration section for the MACHINE/WEBROOT/APPHOST path.  
   
  [!code-cpp[IAppHostAdminLibrary#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostChildElementCollection`  
@@ -40,4 +44,5 @@ interface IAppHostChildElementCollection: IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostChildElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostchildelementcollection-interface.md)

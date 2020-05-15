@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 583768f4-5b0d-25af-df8d-3f34126663ca
 ---
 # IHttpContext::GetCurrentExecutionStats Method
+
 Retrieves the execution statistics for the current context.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ virtual HRESULT GetCurrentExecutionStats(
 ```  
   
 ### Parameters  
+
  `pdwNotification`  
  A pointer to a `DWORD` that contains the current notification.  
   
@@ -39,6 +41,7 @@ virtual HRESULT GetCurrentExecutionStats(
  A pointer to a `DWORD` that contains the tick count for the start of an asynchronous notification.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -47,6 +50,7 @@ virtual HRESULT GetCurrentExecutionStats(
 |E_INVALIDARG|Indicates that a specified parameter is not valid.|  
   
 ## Remarks  
+
  Developers can use the `GetCurrentExecutionStats` method to retrieve specific execution information for the current context. For example, the `pdwNotification` and `pdwAsyncNotification` parameters contain the values for the current synchronous or asynchronous notification, and the `ppszModule` parameter contains the name of the module for the current context.  
   
  Three of the return parameters, `pdwModuleStartTickCount`, `pdwNotificationStartTickCount`, and `pdwAsyncNotificationStartTickCount`, respectively, contain the tick counts for the start of the module and the start of the current synchronous and asynchronous notifications.  
@@ -55,6 +59,7 @@ virtual HRESULT GetCurrentExecutionStats(
 >  The tick count is the number of milliseconds that have elapsed since the system was started. For more information about retrieving tick counts, see the [GetTickCount](https://go.microsoft.com/fwlink/?LinkId=63276) method.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md), [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md), and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
@@ -91,4 +96,5 @@ virtual HRESULT GetCurrentExecutionStats(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

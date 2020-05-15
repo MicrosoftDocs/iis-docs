@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a57aec87-3cc3-4734-848a-9d27ccdf40db
 ---
 # IAppHostCollectionSchema::DoesAllowDuplicates Property
+
 Gets a Boolean value that determines whether a collection that implements the current schema allows for duplicate keys.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT DoesAllowDuplicates(
 ```  
   
 ### Parameters  
+
  `pfAllowDuplicates`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if duplicate names are allowed; otherwise, `VARIANT_FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT DoesAllowDuplicates(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)

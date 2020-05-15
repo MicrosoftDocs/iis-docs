@@ -10,11 +10,13 @@ msc.type: config
 # Adding Applications for Application Dependencies &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the [&lt;application&gt;](index.md) element adds additional dependencies to the parent application.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,16 +29,19 @@ The `<add>` element of the [&lt;application&gt;](index.md) element adds addition
 | IIS 6.0 | The `<applicationDependencies>` element replaces the IIS 6.0 **ApplicationDependencies** attribute of the **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element of the `<application>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<applicationDependencies>` element for IIS 7. For examples of how to configure the `<applicationDependencies>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -59,6 +64,7 @@ The following configuration sample illustrates the application dependencies in t
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following configuration sample illustrates the application dependencies in the `<applicationDependencies>` element for the Default Web Site. The custom application has a dependency on the &quot;MyCustomGroup&quot; ISAPI/CGI restriction group, and an additional dependency on the ASP ISAPI/CGI restriction group.

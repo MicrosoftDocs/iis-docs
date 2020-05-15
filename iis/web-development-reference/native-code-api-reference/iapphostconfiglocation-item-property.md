@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7e531625-e3b7-ab30-3c6a-c1a7a2977b45
 ---
 # IAppHostConfigLocation::Item Property
+
 Gets the requested configuration section from the current location.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT Item(
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that contains the index of the requested configuration section. The index can contain a `BSTR` that contains the location path.  
   
@@ -24,6 +26,7 @@ HRESULT Item(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,4 +44,5 @@ HRESULT Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocation Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md)

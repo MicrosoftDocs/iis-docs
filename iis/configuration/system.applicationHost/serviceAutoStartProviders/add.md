@@ -10,6 +10,7 @@ msc.type: config
 # Adding Service Autostart Providers &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<serviceAutoStartProviders>` element adds a provider to the collection of autostart providers.
@@ -22,6 +23,7 @@ For more information about how to configure application pools to start automatic
 > This element was introduced in IIS 7.5.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,11 +36,13 @@ For more information about how to configure application pools to start automatic
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element of the `<serviceAutoStartProviders>` element is included in the default installation of IIS 7.5. 
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure a service autostart provider
@@ -88,6 +92,7 @@ The `<add>` element of the `<serviceAutoStartProviders>` element is included in 
     [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element of the `<serviceAutoStartProviders>` element is configured at the global level in the ApplicationHost.config file.
@@ -110,6 +115,7 @@ The following sample displays a `<serviceAutoStartProviders>` element that adds 
 [!code-xml[Main](add/samples/sample1.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add a sample provider to the collection of autostart providers.

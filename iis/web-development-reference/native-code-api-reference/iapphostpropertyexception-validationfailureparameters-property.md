@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 86a3ed6b-6bf6-c5c5-c090-2d7952e43029
 ---
 # IAppHostPropertyException::ValidationFailureParameters Property
+
 Gets the validation parameters that are defined in the property schema.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_ValidationFailureParameters(
 ```  
   
 ### Parameters  
+
  `pParameterArray`  
  A pointer to a `SAFEARRAY` of `VARIANT` values that contains the validation parameters found in the property schema.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ HRESULT get_ValidationFailureParameters(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  For more information about property validation, see the [IAppHostPropertySchema::ValidationType](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationtype-property.md) and [IAppHostPropertySchema::ValidationParameter](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationparameter-property.md) properties.  
   
 ## Requirements  
@@ -39,6 +43,7 @@ HRESULT get_ValidationFailureParameters(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertyException Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyexception-interface.md)   
  [IAppHostPropertySchema::ValidationType Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationtype-property.md)   
  [IAppHostPropertyException Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyexception-interface.md)

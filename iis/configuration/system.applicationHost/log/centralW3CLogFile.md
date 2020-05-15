@@ -10,6 +10,7 @@ msc.type: config
 # Central W3C Log File &lt;centralW3CLogFile&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<centralW3CLogFile>` element specifies the central W3C log settings for all sites on a server.
@@ -21,6 +22,7 @@ The `<centralW3CLogFile>` element specifies the central W3C log settings for all
 > Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,11 +35,13 @@ The `<centralW3CLogFile>` element specifies the central W3C log settings for all
 | IIS 6.0 | The `<log>` element replaces the IIS 6.0 **CentralW3CLoggingEnabled** flag. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<centralW3CLogFile>` element of the `<log>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable central W3C logging for a server
@@ -66,6 +70,7 @@ The `<centralW3CLogFile>` element of the `<log>` element is included in the defa
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -90,6 +95,7 @@ The following configuration sample specifies that IIS will use central W3C loggi
 [!code-xml[Main](centralW3CLogFile/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples specify that IIS will use central W3C logging, and configure W3C log file rotation on a daily basis.

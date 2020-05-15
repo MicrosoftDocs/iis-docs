@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 894a9196-08e5-51a6-e804-6d2f6b4c28d3
 ---
 # IReadEntityProvider::SetEntity Method
+
 Specifies the request entity.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual VOID SetEntity(
 ```  
   
 ### Parameters  
+
  `pBuffer`  
  A pointer to a void buffer that contains the request entity.  
   
@@ -27,15 +29,18 @@ virtual VOID SetEntity(
  A `DWORD` that contains the size of the `pBuffer` buffer, which should be greater than or equal to `cbData`.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `SetEntity` method replaces the preloaded HTTP request entity body with the entity body that is pointed to by the `pBuffer` parameter. The `cbData` parameter must specify the size, in bytes, of the data in the request entity that was returned in `pBuffer`, and the `cbBuffer` parameter must specify the size, in bytes, of the request entity buffer that is pointed to by `pBuffer`.  
   
 > [!NOTE]
 >  `cbBuffer` should always be greater than or equal to `cbData`.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Allocates a 1-KB buffer. If the buffer cannot be allocated, the module returns an error and exits.  
@@ -60,6 +65,7 @@ virtual VOID SetEntity(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IReadEntityProvider Interface](../../web-development-reference/native-code-api-reference/ireadentityprovider-interface.md)   
  [IReadEntityProvider::GetEntity Method](../../web-development-reference/native-code-api-reference/ireadentityprovider-getentity-method.md)   
  [IHttpRequest::ReadEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-readentitybody-method.md)   

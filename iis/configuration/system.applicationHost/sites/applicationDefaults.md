@@ -10,6 +10,7 @@ msc.type: config
 # Application Defaults &lt;applicationDefaults&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<applicationDefaults>` element of the `<sites>` element specifies the default application settings for all applications on the server.
@@ -18,6 +19,7 @@ The `<applicationDefaults>` element of the `<sites>` element specifies the defau
 > If the same attribute or child element is configured in both the `<applicationDefaults>` section and in the `<application>` section for a specific application, the configuration in the `<application>` section is used for that application.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,11 +32,13 @@ The `<applicationDefaults>` element of the `<sites>` element specifies the defau
 | IIS 6.0 | The `<applicationDefaults>` element is analogous to setting application options at the **W3SVC** level in the IIS 6.0 metabase. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<applicationDefaults>` element of the `<sites>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the default application settings for a server
@@ -62,6 +66,7 @@ The `<applicationDefaults>` element of the `<sites>` element is included in the 
     [![](applicationDefaults/_static/image4.png)](applicationDefaults/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -83,6 +88,7 @@ The following configuration sample sets the default application pool for all Web
 [!code-xml[Main](applicationDefaults/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples set the default application pool for all Web sites to "DefaultAppPool".

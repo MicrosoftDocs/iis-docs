@@ -10,6 +10,7 @@ msc.type: config
 # Failure Definitions &lt;failureDefinitions&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<failureDefinitions>` element defines the conditions in which to trace requests. A failure condition consists of status codes, a time interval, or a combination of both. In addition, you can specify the verbosity level for tracing.
@@ -18,6 +19,7 @@ The `<failureDefinitions>` element defines the conditions in which to trace requ
 > Adding additional verbosity options will configure IIS to return more information in your trace logs, but verbose logs may become quite large. If your log files exceed the maximum file size defined by the **maxLogFileSizeKB** attribute of the `<traceFailedRequestsLogging>` element, your log files will be truncated at the maximum size and you will need to increase the file size that is specified in that attribute.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<failureDefinitions>` element defines the conditions in which to trace requ
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 After you finish the default installation of IIS 7 and later, you must install the tracing role service to use failed request tracing. After you install the role service, you still must enable failed request tracing at the site level, application level, or directory level.
@@ -72,6 +75,7 @@ After you finish the default installation of IIS 7 and later, you must install t
     [![](failureDefinitions/_static/image8.png)](failureDefinitions/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable tracing
@@ -132,6 +136,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 10. Click **Finish**.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -154,6 +159,7 @@ The following configuration example configures tracing at the server level in th
 [!code-xml[Main](failureDefinitions/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable verbose failed request tracing for HTTP 500 errors in ASP.NET content on all requests to \*.aspx pages.

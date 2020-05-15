@@ -10,11 +10,13 @@ msc.type: config
 # WebSocket <webSocket> &lt;webSocket&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<webSocket>` element specifies the use of the WebSocketModule module with ASP.NET 4.5 to support writing server applications that communicate over the WebSocket Protocol. WebSocket enables you to provide full-duplex communications over a single TCP connection by using a stream of messages rather than a stream of bytes. This makes it easier to connect to data sources asynchronously in cloud deployments.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 ### Windows Server 2012 or Windows Server 2012 R2
@@ -49,6 +52,7 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 4. Click **Close**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to Use the IWebSocketContext API
@@ -82,6 +86,7 @@ For more information, see [IWebSocketContext interface](https://msdn.microsoft.c
 7. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<webSocket>` element is configured at the server, site, or application level.
@@ -105,6 +110,7 @@ The following sample displays a &lt;webSocket&gt; element.
 [!code-xml[Main](webSocket/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following sample code configures **&lt;webSocket&gt;** for a site.

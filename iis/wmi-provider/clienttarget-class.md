@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 987b6112-75ff-8330-f1d0-4314881e0883
 ---
 # ClientTarget Class
+
 Represents the mapping of a user agent to an alias.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ClientTarget : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ClientTarget` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class ClientTarget : CollectionElement
 |`UserAgent`|A read/write `string` value that identifies a specific user agent.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ClientTarget` property of the [ClientTargetSection](../wmi-provider/clienttargetsection-class.md) class.  
   
  The following `ClientTarget` values are configured in the root Web.config file in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].  
@@ -39,6 +44,7 @@ class ClientTarget : CollectionElement
 |"downlevel"|"Generic Downlevel"|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ClientTarget`  
@@ -53,5 +59,6 @@ class ClientTarget : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget) 
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

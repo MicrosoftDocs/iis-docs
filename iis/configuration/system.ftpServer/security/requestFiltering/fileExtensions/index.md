@@ -10,6 +10,7 @@ msc.type: config
 # FTP File Name Extensions &lt;fileExtensions&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<fileExtensions>` element contains a collection of `<add>` elements that specify unique file name extensions that IIS will either allow or deny, depending on how each `<add>` element is defined. By using the `<fileExtensions>` element, you can fine-tune the types of content that your server will make available to FTP clients.
@@ -26,6 +27,7 @@ For example, if you set the **allowUnlisted** attribute to **false**, all reques
 This substatus allows FTP administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -45,6 +47,7 @@ This substatus allows FTP administrators to analyze their IIS logs and identify 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -112,6 +115,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 > [!NOTE]
@@ -145,6 +149,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 7. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<fileExtensions>` element of the `<requestFiltering>` element is configured at the global, site or URL level.
@@ -176,6 +181,7 @@ The following sample illustrates several security-related configuration settings
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples specify FTP request filtering options that deny \*.exe, \*.com, \*.bat, and \*.cmd files.

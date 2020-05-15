@@ -10,6 +10,7 @@ msc.type: config
 # ISAPI Filters &lt;isapiFilters&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<isapiFilters>` element allows you to manage ISAPI filters on your Internet Information Services (IIS) 7 server. You can add an ISAPI filter when you want to enhance Web server functionality. For example, you might have an ISAPI filter that captures information about HTTP requests and saves the information to a database.
@@ -20,6 +21,7 @@ The `<isapiFilters>` element allows you to manage ISAPI filters on your Internet
 The `<isapiFilters>` element can contain one or more `<filter>` elements, each of which defines an ISAPI filter enabled for your server or Web site. It can also contain a `<remove>` element, which you can use to remove a specific ISAPI filter inherited from higher in the configuration hierarchy. The `<isapiFilters>` element can also contain a `<clear>` element, which removes all ISAPI filters inherited from higher in the configuration hierarchy.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -32,6 +34,7 @@ The `<isapiFilters>` element can contain one or more `<filter>` elements, each o
 | IIS 6.0 | The `<isapiFilters>` element replaces the IIS 6.0 **FilterEnableCache** and **FilterPath** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 To use the `<isapiFilters>` element, you must install the ISAPI Filters module on your IIS 7 and later server. To do so, use the following steps.
@@ -75,6 +78,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 4. Select **ISAPI Filters**, and then click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an ISAPI filter
@@ -104,6 +108,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
     [![](index/_static/image12.png)](index/_static/image11.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 You can add an ISAPI filter at the server level and the site level. If you add the ISAPI filter at the server level, the filter intercepts all requests made to the server. If you add the ISAPI filter to a specific site, the filter intercepts all requests made to that site.
@@ -129,6 +134,7 @@ The following configuration example adds an ISAPI filter named SalesQueryIsapi t
 [!code-xml[Main](index/samples/sample1.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure an ISAPI filter named SalesQueryIsapi on the server. Each of the examples use the **name** property to specify a name for the ISAPI filter, the **enableCache** property to disable HTTP.sys caching, and the **path** property to specify the location of the ISAPI DLL.

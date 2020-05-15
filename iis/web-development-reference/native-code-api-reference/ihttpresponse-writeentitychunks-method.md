@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e511b4dc-b775-3d48-f850-a3178ae6bd17
 ---
 # IHttpResponse::WriteEntityChunks Method
+
 Appends one or more [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ virtual HRESULT WriteEntityChunks(
 ```  
   
 ### Parameters  
+
  `pDataChunks`  
  [IN] A pointer to one or more `HTTP_DATA_CHUNK` structures.  
   
@@ -39,6 +41,7 @@ virtual HRESULT WriteEntityChunks(
  [OUT] `true` if an asynchronous completion is pending for this call; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -49,6 +52,7 @@ virtual HRESULT WriteEntityChunks(
 |ERROR_ARITHMETIC_OVERFLOW|More than 65535 chunks have been added to the response.|  
   
 ## Remarks  
+
  Developers can use the `WriteEntityChunks` method to insert a single `HTTP_DATA_CHUNK` structure or an array of `HTTP_DATA_CHUNK` structures into the response body. If the operation has completed synchronously, the `pcbSent` parameter will receive the number of bytes that were inserted into the response.  
   
  If buffering is turned on, the `WriteEntityChunks` method will create a copy of any `HTTP_DATA_CHUNK` structures, thereby duplicating the underlying data so that it does not need to be preserved. If buffering is turned off, or the response buffer limit is reached, the `WriteEntityChunks` method will also flush the response. If buffering is off and the `fAsync` parameter is `true`, the memory must be preserved until the request completes.  
@@ -58,6 +62,7 @@ virtual HRESULT WriteEntityChunks(
  A maximum of 65535 chunks (64 KB minus 1) can be written to a request.  
   
 ## Example  
+
  The following example demonstrates how to use the `WriteEntityChunks` method to create an HTTP module that inserts an array of two data chunks into the response. The example then returns the response to a Web client.  
   
  [!code-cpp[IHttpResponseWriteEntityChunks#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseWriteEntityChunks/cpp/IHttpResponseWriteEntityChunks.cpp#1)]  
@@ -76,5 +81,6 @@ virtual HRESULT WriteEntityChunks(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::WriteEntityChunkByReference Method](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunkbyreference-method.md)

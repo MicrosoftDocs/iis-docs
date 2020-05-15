@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 62f84393-a0b2-32f6-6f80-6db3ada4378a
 ---
 # IHttpEventProvider::SetErrorStatus Method
+
 Specifies an error to return.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual VOID SetErrorStatus(
 ```  
   
 ### Parameters  
+
  `hrError`  
  [IN] An `HRESULT` that contains the error to specify.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `SetErrorStatus` method does not directly affect request processing, but it can be used to indicate the reason for a failure to IIS or other modules. For example, if a module that you have written traps an error, the module can set the error status for the request and return processing to the integrated request-processing pipeline so that other modules can process the error.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that sends an example string to the Web client and captures the return value from this operation. The module uses the `SetErrorStatus` method to specify the return value as the error status for the current request and then exits.  
   
  [!code-cpp[IHttpEventProviderSetErrorStatus#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpEventProviderSetErrorStatus/cpp/IHttpEventProviderSetErrorStatus.cpp#1)]  
@@ -43,4 +48,5 @@ virtual VOID SetErrorStatus(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpEventProvider Interface](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)

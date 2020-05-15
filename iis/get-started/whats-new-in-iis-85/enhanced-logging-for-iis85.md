@@ -21,16 +21,19 @@ by [Gary Ericson](https://github.com/garyericson)
 | IIS 8.0 and earlier | Enhanced Logging was not supported prior to IIS 8.5. |
 
 <a id="TOC301258515"></a>
+
 ## Problem
 
 Internet Information Services (IIS) on Windows Server 2012 provides limited logging capabilities for a fixed set of standard fields, without options for extensibility or customizability for logging. Administrators who need to log fields beyond this standard set must create a custom logging module.
 
 <a id="TOC301258516"></a>
+
 ## Solution
 
 In IIS 8.5 and later, the administrator has the option of logging additional custom fields from request or response headers, or from server variables.
 
 <a id="TOC301258517"></a>
+
 ## Step by Step Instructions
 
 ### Configure Enhanced Logging for IIS 8.5 and later
@@ -55,6 +58,7 @@ Once the custom fields have been configured, IIS will create new text log files 
 Note that the total size of data collected from all custom fields cannot exceed 65,536 bytes. If the total exceeds 65,536 bytes, then IIS will truncate the data.
 
 <a id="TOC301258518"></a>
+
 ## Summary
 
 In this guide, you have configured IIS to add custom fields to the IIS logs.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0ac73a5c-9e63-0b28-f2d7-235b937b2e91
 ---
 # IAppDomainInfo::GetSiteId Method
+
 Retrieves the site ID of the application domain.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetSiteId(
 ```  
   
 ### Parameters  
+
  `pdwSiteId`  
  A pointer to a `DWORD` that contains the site ID of the application domain.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall GetSiteId(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfo Interface](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md)

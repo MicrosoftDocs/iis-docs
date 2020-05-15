@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 72b4d03f-3199-a3fd-008e-e5c819d26e15
 ---
 # IHttpRequest::GetRemoteAddress Method
+
 Returns the remote address of the client's interface for the current request.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PSOCKADDR GetRemoteAddress(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a [SOCKADDR](https://go.microsoft.com/fwlink/?LinkId=55151)structure.  
   
 ## Remarks  
+
  The `GetRemoteAddress` method retrieves the remote interface address of the client that issued the request and returns a pointer to a `SOCKADDR` structure.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetRemoteAddress` method to create an HTTP module that retrieves the remote address of a client. The example then returns this information to a Web client.  
   
  [!code-cpp[IHttpRequestGetRemoteAddress#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetRemoteAddress/cpp/IHttpRequestGetRemoteAddress.cpp#1)]  
@@ -42,5 +47,6 @@ virtual PSOCKADDR GetRemoteAddress(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::GetLocalAddress Method](../../web-development-reference/native-code-api-reference/ihttprequest-getlocaladdress-method.md)

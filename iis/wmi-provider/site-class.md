@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1d576513-006e-e5ac-1356-7afad97a7787
 ---
 # Site Class1
+
 Represents an IIS Web site.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class Site : ConfiguredObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `Site` class.  
   
 |Name|Description|  
@@ -29,6 +31,7 @@ class Site : ConfiguredObject
 >  The IIS 6.0 WMI [IIsWebServer](https://msdn.microsoft.com/af1a277b-e67a-41b3-9947-91c9304f8ec7) class supported the [Continue](https://msdn.microsoft.com/c782a5b1-d6d3-40ae-bb7b-519867753be8) and [Pause](https://msdn.microsoft.com/82980194-3146-4252-b458-77538f781ca6) methods for a Web site. This functionality is no longer supported in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)].  
   
 ## Properties  
+
  The following table lists the properties exposed by the `Site` class.  
   
 |Name|Description|  
@@ -44,12 +47,14 @@ class Site : ConfiguredObject
 |`VirtualDirectoryDefaults`|A read-only [VirtualDirectoryElementDefaults](../wmi-provider/virtualdirectoryelementdefaults-class.md) object that contains the default values for virtual directories in a site. Individual virtual directory settings will override these defaults.|  
   
 ## Remarks  
+
  You cannot set the physical path for a Web site by using the `Site` class. Use the `PhysicalPath` property of the root [VirtualDirectory](../wmi-provider/virtualdirectory-class.md) object instead.  
   
 > [!NOTE]
 > You must set the `ApplicationPool` property on the root [Application](../wmi-provider/application-class.md) object, not on the `Site` object.  
   
 ## Example  
+
  The following example sets the physical path for the default Web site.  
   
 ```  
@@ -66,9 +71,11 @@ oVDir.Put_
 ```  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfiguredObject](../wmi-provider/configuredobject-class.md)  
   
  `Site`  
@@ -83,6 +90,7 @@ oVDir.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   

@@ -20,6 +20,7 @@ By default, IIS rejects requests to browse critical code segments. It also rejec
 You can configure a request filter at the server-wide level and then override the configuration at a website level.
 
 <a id="00"></a>
+
 ## Prerequisites
 
 To get the most from this tutorial, you must have access to a computer that is running one of the following operating systems:
@@ -28,6 +29,7 @@ To get the most from this tutorial, you must have access to a computer that is r
 - Windows® 8
 
 <a id="01"></a>
+
 ## General Request Filter Settings
 
 The general settings include such settings as the following:
@@ -118,6 +120,7 @@ For example, to specify a maximum size of 2048 for headers that include a value 
 `appcmd set config /section:requestfiltering /+requestlimits.headerLimits.[header='contoso.com',sizelimit='2048']`
 
 <a id="02"></a>
+
 ## File Name Extensions
 
 For each file name extension you add, you can indicate whether to allow or reject requests for that type of file.
@@ -169,6 +172,7 @@ To remove a rule for the file name extension .xxx, type the following at the com
 `appcmd set config /section:requestfiltering /-fileExtensions.[fileextension='.xxx']`
 
 <a id="03"></a>
+
 ## Filtering Rules
 
 IIS 8 permits you to define custom filter rules that apply to incoming requests. Using this feature, you can define filters that can do the following:
@@ -194,6 +198,7 @@ IIS 8 permits you to define custom filter rules that apply to incoming requests.
 11. Click **OK**.
 
 <a id="04"></a>
+
 ## Hidden Segments
 
 This feature allows you to reject requests that contain a URL segment (for example, a folder name).
@@ -231,6 +236,7 @@ For example, to specify that /bin is a hidden segment, type the following at the
 `appcmd set config /section:requestfiltering /+hiddensegments.[segment='/bin']`
 
 <a id="05"></a>
+
 ## URL Filtering
 
 You can configure IIS to accept a specified URL. In addition, you can configure it to deny a specified URL sequence.
@@ -256,6 +262,7 @@ For example, to specify that IIS never parse URLs that contain two periods, type
 `appcmd set config /section:requestfiltering /+denyurlsequences.[sequence='..']`
 
 <a id="06"></a>
+
 ## HTTP Verbs
 
 You can define a list of verbs that IIS 8 accepts as part of a request. When IIS rejects a request based on this feature, the error code logged is 404.6.
@@ -303,6 +310,7 @@ For example, to specify GET is allowed, type the following at the command prompt
 `appcmd set config /section:requestfiltering /+verbs.[verb='GET',allowed='true']`
 
 <a id="07"></a>
+
 ## Header Size Limits
 
 You can limit the size of HTTP request headers to improve performance and security. Headers are name/value pairs that define the operating parameters of an HTTP transaction.
@@ -317,6 +325,7 @@ You can limit the size of HTTP request headers to improve performance and securi
 6. Click **OK**.
 
 <a id="08"></a>
+
 ## Query Strings
 
 You can configure IIS 8 to allow or deny specific query strings contained in the requested URL. For example, if a denied query string is found in a request URL, the request is denied.
@@ -330,6 +339,7 @@ You can configure IIS 8 to allow or deny specific query strings contained in the
 5. Click **OK**.
 
 <a id="09"></a>
+
 ## Request Filter Logging
 
 You can use IIS logging to evaluate and optimize your request filter configuration.

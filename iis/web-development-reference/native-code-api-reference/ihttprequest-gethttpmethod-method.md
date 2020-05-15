@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f9d9766f-8022-74ce-f819-daba64b93498
 ---
 # IHttpRequest::GetHttpMethod Method
+
 Returns the HTTP method for the current request.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual PCSTR GetHttpMethod(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the HTTP method for the request.  
   
 ## Remarks  
+
  The `GetHttpMethod` method retrieves the HTTP method for the current request. For most Internet traffic, the HTTP method will typically be a GET or POST method. Retrieving the HTTP method in your application enables you to process a request differently depending on the type of request method. For example, you may want your application to process only GET requests.  
   
 > [!NOTE]
 >  Standard HTTP methods are defined in Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," or RFC 2616, "Hypertext Transfer Protocol -- HTTP/1.1".  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetHttpMethod` method to create an HTTP module that retrieves the HTTP method for the current request. The example then displays the method to a Web client.  
   
  [!code-cpp[IHttpRequestGetHttpMethod#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetHttpMethod/cpp/IHttpRequestGetHttpMethod.cpp#1)]  
@@ -45,5 +50,6 @@ virtual PCSTR GetHttpMethod(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::SetHttpMethod Method](../../web-development-reference/native-code-api-reference/ihttprequest-sethttpmethod-method.md)

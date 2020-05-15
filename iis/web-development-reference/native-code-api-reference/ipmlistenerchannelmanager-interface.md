@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 044efded-da6d-ea48-0759-b8188c824be7
 ---
 # IPmListenerChannelManager Interface
+
 Enables the worker process framework to request that a protocol manager start or stop a listener channel.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IPmListenerChannelManager : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IPmListenerChannelManager` interface.  
   
 |Name|Description|  
@@ -23,6 +25,7 @@ class IPmListenerChannelManager : public IWpfReferencedObject
 |[StopListenerChannel](../../web-development-reference/native-code-api-reference/ipmlistenerchannelmanager-stoplistenerchannel-method.md)|Enables the worker process framework to request that a protocol manager stop a listener channel for a specified protocol.|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IPmListenerChannelManager`  
@@ -37,6 +40,7 @@ class IPmListenerChannelManager : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

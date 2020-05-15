@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a44e1556-723f-91a8-46e5-5553b676d201
 ---
 # IListenerChannelCallback Interface
+
 Provides listener-channel notifications from protocol handlers to the worker process framework. Also allows protocol handlers to access additional parameters, such as the ID of the listener channel.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IListenerChannelCallback : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IListenerChannelCallback` interface.  
   
 |Name|Description|  
@@ -25,15 +27,19 @@ struct IListenerChannelCallback : IUnknown
 |[ReportStopped](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-reportstopped-method.md)|Notifies the worker process framework that a listener channel has shut down.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  Use the `pBlob` parameter in the `GetBlob` method to communicate changes of listener channel data after the listener channel starts.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IListenerChannelCallback`  
@@ -48,4 +54,5 @@ struct IListenerChannelCallback : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service API Reference](../../web-development-reference/native-code-api-reference/windows-process-activation-service-api-reference.md)

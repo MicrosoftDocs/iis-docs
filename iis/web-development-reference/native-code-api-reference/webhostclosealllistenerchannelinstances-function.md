@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f8fbf5d5-83ce-0e07-15fd-cf40174ea7bd
 ---
 # WebhostCloseAllListenerChannelInstances Function
+
 Requests all instances of this listener channel to stop.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT WebhostCloseAllListenerChannelInstances(
 ```  
   
 ### Parameters  
+
  `ProtocolHandle`  
  [IN] A `DWORD` that contains the protocol handle that represents the protocol for this listener channel.  
   
@@ -27,6 +29,7 @@ HRESULT WebhostCloseAllListenerChannelInstances(
  [IN] A `DWORD` that contains the listener channel ID that the listener adapter has requested to stop.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -37,6 +40,7 @@ HRESULT WebhostCloseAllListenerChannelInstances(
 |HRESULT_FROM_WIN32(ERROR_PIPE_NOT_CONNECTED)|Indicates that the listener adapter is not connected to the Windows Process Activation Service.|  
   
 ## Remarks  
+
  Calling this function with no listener channels running does not return an error code.  
   
  This function is called under the following conditions:  
@@ -59,5 +63,6 @@ HRESULT WebhostCloseAllListenerChannelInstances(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)   
  [PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function](../../web-development-reference/native-code-api-reference/pfn-webhost-listener-application-pool-all-listener-channel-instances-stopped-function.md)

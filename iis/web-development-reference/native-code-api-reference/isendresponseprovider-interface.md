@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bbb207ee-d0ce-5b67-a12e-e0c1085a5f01
 ---
 # ISendResponseProvider Interface
+
 Retrieves or modifies information about the current response.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ISendResponseProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ISendResponseProvider` interface.  
   
 |Name|Description|  
@@ -26,9 +28,11 @@ class ISendResponseProvider : public IHttpEventProvider
 |[SetLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-setlogdata-method.md)|Configures logging information for the current response.|  
   
 ## Remarks  
+
  An `ISendResponseProvider` interface is created and passed to a module's [CHttpModule::OnSendResponse](../../web-development-reference/native-code-api-reference/chttpmodule-onsendresponse-method.md) method when the module has registered for the [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `ISendResponseProvider`  
@@ -43,5 +47,6 @@ class ISendResponseProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IHttpEventProvider Interface](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)

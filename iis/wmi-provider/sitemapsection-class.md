@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a84bf3e2-4778-07c5-c157-c2c70d36cb18
 ---
 # SiteMapSection Class
+
 Defines configuration settings for site navigation.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SiteMapSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SiteMapSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class SiteMapSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SiteMapSection` class.  
   
 |Name|Description|  
@@ -40,9 +43,11 @@ class SiteMapSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -59,6 +64,7 @@ class SiteMapSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.SiteMap](/dotnet/api/system.web.sitemap)   
  [System.Web.XmlSiteMapProvider](/dotnet/api/system.web.xmlsitemapprovider)  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

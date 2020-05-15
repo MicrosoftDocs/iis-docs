@@ -10,6 +10,7 @@ msc.type: config
 # IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<iisClientCertificateMappingAuthentication>` element of the `<authentication>` element specifies the settings for Client Certificate Mapping authentication using IIS.
@@ -28,6 +29,7 @@ There are two different methods for mapping client certificates using IIS:
 For more information, see [Configuring Authentication in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64325) on the Microsoft TechNet Web site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -40,6 +42,7 @@ For more information, see [Configuring Authentication in IIS 7.0](https://go.mic
 | IIS 6.0 | The `<iisClientCertificateMappingAuthentication>` element replaces the IIS 6.0 **IIsCertMapper** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<iisClientCertificateMappingAuthentication>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -82,11 +85,13 @@ The `<iisClientCertificateMappingAuthentication>` element is not available on th
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring IIS Client Certificate Mapping authentication for IIS 7. For examples of how to configure IIS Client Certificate Mapping authentication programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<iisClientCertificateMappingAuthentication>` element of the `<authentication>` element can be configured at the server and site level.
@@ -154,6 +159,7 @@ The following configuration sample enables IIS Client Certificate Mapping authen
     - Concatenate all the lines into a single line of text - this is the Base-64 encoded certificate data that you will use for all of the samples in this topic.
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples perform the following actions for the Default Web Site:

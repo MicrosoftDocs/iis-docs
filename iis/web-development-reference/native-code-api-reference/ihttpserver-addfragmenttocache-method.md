@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1b72f5c0-780b-61af-9796-7bdb5f2017ad
 ---
 # IHttpServer::AddFragmentToCache Method
+
 Adds an [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structure to the cache.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT AddFragmentToCache(
 ```  
   
 ### Parameters  
+
  `pDataChunk`  
  [IN] A pointer to an `HTTP_DATA_CHUNK` structure.  
   
@@ -23,6 +25,7 @@ virtual HRESULT AddFragmentToCache(
  [IN] A pointer to a `WCHAR` value that specifies the fragment to be added to the cache.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ virtual HRESULT AddFragmentToCache(
 |ERROR_INVALID_PARAMETER|Indicates that one of the parameters is not valid.|  
   
 ## Remarks  
+
  Developers can use the `AddFragmentToCache`, [ReadFragmentFromCache](../../web-development-reference/native-code-api-reference/ihttpserver-readfragmentfromcache-method.md), and [RemoveFragmentFromCache](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md) methods, respectively, to add `HTTP_DATA_CHUNK` structures to the fragment cache, or to retrieve and remove `HTTP_DATA_CHUNK` structures from the cache. These methods give developers a small degree of custom functionality to use the built-in IIS cache for storing and retrieving data fragments in the cache.  
   
 > [!NOTE]
@@ -47,6 +51,7 @@ virtual HRESULT AddFragmentToCache(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IHttpServer::RemoveFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-removefragmentfromcache-method.md)   
  [IHttpServer::ReadFragmentFromCache Method](../../web-development-reference/native-code-api-reference/ihttpserver-readfragmentfromcache-method.md)

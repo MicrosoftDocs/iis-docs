@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c3ddf072-65c5-3260-de3f-653255dc7513
 ---
 # ISendResponseProvider::GetReadyToLogData Method
+
 Retrieves a value that indicates whether IIS is ready to write information to the logs.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL GetReadyToLogData(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if IIS is ready to log information; otherwise, `false`.  
   
 ## Remarks  
+
  When writing HTTP modules that retrieve or modify the IIS log values, you should first call the `GetReadyToLogData` method to determine whether IIS is ready to log information. If the `GetReadyToLogData` method returns `false`, your module should not call the [ISendResponseProvider::GetLogData](../../web-development-reference/native-code-api-reference/isendresponseprovider-getlogdata-method.md) method or it will return NULL.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the `GetReadyToLogData` method to determine whether IIS is ready log information. The module completes the following steps:  
   
 1. Uses the `GetLogData` method to retrieve an [HTTP_LOG_FIELDS_DATA](https://go.microsoft.com/fwlink/?LinkId=59280) structure.  
@@ -52,5 +57,6 @@ virtual BOOL GetReadyToLogData(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
  [ISendResponseProvider::GetLogData Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-getlogdata-method.md)

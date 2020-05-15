@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8194bba0-4607-b515-3b54-0a50523dd26d
 ---
 # IAppHostSectionDefinitionCollection Interface
+
 Represents a collection of configuration section definitions.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostSectionDefinitionCollection : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostSectionDefinitionCollection` interface.  
   
 |Method|Description|  
@@ -21,6 +23,7 @@ interface IAppHostSectionDefinitionCollection : IUnknown
 |[DeleteSection](../../web-development-reference/native-code-api-reference/iapphostsectiondefinitioncollection-deletesection-method.md)|Removes a configuration section definition from the collection|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostSectionDefinitionCollection` interface.  
   
 |Property|Description|  
@@ -29,6 +32,7 @@ interface IAppHostSectionDefinitionCollection : IUnknown
 |[Item](../../web-development-reference/native-code-api-reference/iapphostsectiondefinitioncollection-item-property.md)|Gets the configuration section definition at the requested index from the current collection.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostSectionDefinitionCollection`  
@@ -43,5 +47,6 @@ interface IAppHostSectionDefinitionCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostPropertyCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-interface.md)

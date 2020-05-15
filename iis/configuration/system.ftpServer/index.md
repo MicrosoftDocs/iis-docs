@@ -10,6 +10,7 @@ msc.type: config
 # &lt;system.ftpServer&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<system.ftpServer>` element specifies the global-level and URL-level configuration settings for FTP 7 in the ApplicationHost.config file, and contains configuration elements that define the settings that are used by the FTP service.
@@ -18,6 +19,7 @@ The `<system.ftpServer>` element specifies the global-level and URL-level config
 > Unlike settings that are found in the `<system.webServer>` element, settings in the `<system.ftpServer>` element cannot be delegated.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,6 +39,7 @@ The `<system.ftpServer>` element specifies the global-level and URL-level config
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -104,6 +107,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to configure site-level or server-level logging for the FTP service
@@ -135,6 +139,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. In the **Actions** pane, click **Apply**.
  
 <a id="005"></a>
+
 ## Configuration
 
 Settings in the `<system.ftpServer>` element can be configured at the global level, site level, and per URL.
@@ -174,6 +179,7 @@ The following sample illustrates several configuration settings in the global `<
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add two FTP authorization rules for the Default Web Site. The first rule allows read and write access for the administrators group, and the second rule denies read and write access for the guest account.

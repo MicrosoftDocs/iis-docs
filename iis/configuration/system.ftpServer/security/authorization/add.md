@@ -10,6 +10,7 @@ msc.type: config
 # Adding FTP Authorization &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<authorization>` collection defines an authorization rule that will either allow or deny access to specified users, groups, anonymous users, or all users.
@@ -20,6 +21,7 @@ The **accessType** attribute specifies either of two types of authorization rule
 - Deny rules let you define the user accounts or user groups that cannot access a site, a URL, or all the sites on a server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,6 +41,7 @@ The **accessType** attribute specifies either of two types of authorization rule
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -106,6 +109,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an FTP authorization rule
@@ -143,6 +147,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 6. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element is configured at the server, site, or URL level.
@@ -173,6 +178,7 @@ The following sample illustrates several security-related configuration settings
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add two FTP authorization rules for the Default Web Site. The first rule allows read and write access for the administrators group, and the second rule denies read and write access for the guest account.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 66ef5a0c-0172-ae7f-5685-4cc987a8b917
 ---
 # ICustomActionResultCallback Interface
+
 Reports the results of a Run-Time Status and Control operation that was requested by the [IPmCustomActions](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md) interface.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ICustomActionResultCallback : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ICustomActionResultCallback` interface.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ICustomActionResultCallback : public IWpfReferencedObject
 |[ICustomAction2ResultCallback](../../web-development-reference/native-code-api-reference/icustomaction2resultcallback-interface.md)|Reports the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md) interface.|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `ICustomActionResultCallback`  
@@ -42,6 +45,7 @@ class ICustomActionResultCallback : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Interfaces](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)   
  [IHealthStatusCallback Interface](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   

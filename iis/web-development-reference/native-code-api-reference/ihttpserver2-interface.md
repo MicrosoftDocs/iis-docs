@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 73ed3784-2b56-46f5-9b73-c2f47600f298
 ---
 # IHttpServer2 Interface
+
 Represents the processing context for global-level operations, and enables retrieving configuration files, extended interfaces, metadata, tokens, and the worker process framework.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpServer2 : public IHttpServer
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpServer2` interface.  
   
 |Name|Description|  
@@ -24,9 +26,11 @@ class IHttpServer2 : public IHttpServer
 |[GetWorkerProcessFramework](../../web-development-reference/native-code-api-reference/ihttpserver2-getworkerprocessframework-method.md)|Retrieves the interface of the worker process framework for the server.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IHttpServer](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)  
   
  `IHttpServer2`  
@@ -41,4 +45,5 @@ class IHttpServer2 : public IHttpServer
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 283ab332-f7b8-9833-72bb-d64209d3569d
 ---
 # IAppHostPropertyException::InvalidValue Method
+
 Gets the property value that did not meet the validation criteria.  
   
 ## Syntax  
@@ -17,10 +18,12 @@ HRESULT get_InvalidValue(
 ```  
   
 ### Parameters  
+
  `pbstrValue`  
  A pointer to a `BSTR` that contains the value encountered during the validation process that did not meet the criteria defined in the property schema.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -28,6 +31,7 @@ HRESULT get_InvalidValue(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  For more information about property validation, see the [IAppHostPropertySchema::ValidationType](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationtype-property.md) and [IAppHostPropertySchema::ValidationParameter](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationparameter-property.md) properties.  
   
 ## Requirements  
@@ -40,4 +44,5 @@ HRESULT get_InvalidValue(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertyException Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyexception-interface.md)

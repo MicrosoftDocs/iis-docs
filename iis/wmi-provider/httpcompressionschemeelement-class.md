@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ac61f270-669f-7a6f-08fe-88a293426d7a
 ---
 # HttpCompressionSchemeElement Class
+
 Configures a compression scheme for dynamic or static content.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpCompressionSchemeElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpCompressionSchemeElement` class.  
   
 |Name|Description|  
@@ -28,12 +31,15 @@ class HttpCompressionSchemeElement : CollectionElement
 |`StaticCompressionLevel`|A `uint32` value that specifies the compression level, from 0 through 10, for static content. 10 is the maximum amount of compression; 0 means that compression is disabled. The default is 7. Higher levels of compression require more CPU cycles. **Note:**  You must restart the WWW service before any changes to this property will take effect.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HttpCompression` property of the [HttpCompressionSection](../wmi-provider/httpcompressionsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `HttpCompressionSchemeElement`  
@@ -48,6 +54,7 @@ class HttpCompressionSchemeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpCompressionMimeTypeElement Class](../wmi-provider/httpcompressionmimetypeelement-class.md)   
  [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)   

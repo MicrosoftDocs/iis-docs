@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 25fd377b-68aa-c2da-f21d-bddc92f71a51
 ---
 # IHttpConnection::AllocateMemory Method
+
 Allocates a specified amount of memory.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual VOID* AllocateMemory(
 ```  
   
 ### Parameters  
+
  `cbAllocation`  
  The number of bytes to allocate.  
   
 ## Return Value  
+
  A pointer to `VOID`.  
   
 ## Remarks  
+
  The `AllocateMemory` method allocates an amount of memory that is specified by the `cbAllocation` parameter and has the lifetime of the current request. The server will automatically reclaim this memory at the end of the request.  
   
 ## Example  
+
  The following code example demonstrates how to use the `AllocateMemory` method to create an HTTP module that allocates a chunk of memory to retrieve the value of the HTTP `User-Agent` header.  
   
  [!code-cpp[IHttpConnectionAllocateMemory#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpConnectionAllocateMemory/cpp/IHttpConnectionAllocateMemory.cpp#1)]  
@@ -43,4 +48,5 @@ virtual VOID* AllocateMemory(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpConnection Interface](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md)

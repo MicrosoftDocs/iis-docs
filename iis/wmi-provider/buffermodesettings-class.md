@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 97d41b09-44b6-aad9-fd73-bac199c58a7a
 ---
 # BufferModeSettings Class
+
 Contains [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] event-buffering settings for event providers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class BufferModeSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `BufferModeSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class BufferModeSettings : EmbeddedObject
 |`BufferModes`|An array of [BufferModeElement](../wmi-provider/buffermodeelement-class.md) values that configure the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] event-buffering settings for event providers.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `BufferModes` array property on the [HealthMonitoringSection](../wmi-provider/healthmonitoringsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `BufferModeSettings`  
@@ -43,6 +49,7 @@ class BufferModeSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode)   
  [BufferModeElement Class](../wmi-provider/buffermodeelement-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

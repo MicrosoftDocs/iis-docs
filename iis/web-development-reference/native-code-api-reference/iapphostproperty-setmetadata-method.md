@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 62af8bec-6065-28a8-9186-692602d536f3
 ---
 # IAppHostProperty::SetMetadata Method
+
 Sets metadata for the current property.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT SetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   
@@ -24,6 +26,7 @@ HRESULT SetMetadata(
  A `VARIANT` that contains the new metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ HRESULT SetMetadata(
 |ERROR_NOT_SUPPORTED|Indicates that the metadata is not recognized.|  
   
 ## Example  
+
  The following code example sets the `configSource` attribute for the `system.applicationHost/sites` configuration section by using the `SetMetadata` method.  
   
  [!code-cpp[IAppHostAdminLibrary#4](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementSetMetadata.cpp#4)]  
@@ -46,4 +50,5 @@ HRESULT SetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

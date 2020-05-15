@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d2cd5a3e-e7a4-5706-5441-9190228d36b0
 ---
 # CHttpModule Class
+
 Defines the base class for request-level HTTP modules.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class CHttpModule
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `CHttpModule` class.  
   
 |Name|Description|  
@@ -51,9 +53,11 @@ class CHttpModule
 |[OnUpdateRequestCache](../../web-development-reference/native-code-api-reference/chttpmodule-onupdaterequestcache-method.md)|Represents the method that will handle an `UpdateRequestCache` event, which occurs when IIS stores the request in the cache.|  
   
 ## Derived Classes  
+
  This class contains no derived classes.  
   
 ## Remarks  
+
  The `CHttpModule` class is the base class for request-level HTTP modules. To create a `CHttpModule`-derived class, you need to create a request-level HTTP module that contains a class that inherits from `CHttpModule` and a class that derives from the [IHttpModuleFactory](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-interface.md) interface. For more information about creating HTTP modules, see [Designing Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/designing-native-code-http-modules.md).  
   
  The `CHttpModule` class provides protected constructor and destructor methods and a public `Dispose` method. At the end of the request, the `Dispose` method is called to delete the instance of the `CHttpModule`-derived class.  
@@ -61,6 +65,7 @@ class CHttpModule
  The `CHttpModule` class also defines the notification-specific methods that [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] calls when it processes request-level events within the integrated request-processing pipeline. An HTTP module can register for specific events by defining a list of notifications in a module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Deterministic request events  
+
  The majority of the request-level notification methods are processed chronologically during the normal flow of request-level events within the integrated pipeline. Each of the deterministic request-level notification methods has a matching post-event notification, which allows HTTP modules to process when an event occurs or immediately after the event occurs.  
   
  The following table lists the chronological request-level event and post-event notification methods in the order of their occurrence within the integrated pipeline.  
@@ -86,6 +91,7 @@ class CHttpModule
 >  Post-event notifications occur before the next chronological request-level notification. For example, `OnPostAuthenticateRequest` occurs before `OnAuthorizeRequest`, `OnPostUpdateRequestCache` occurs before `OnLogRequest`, and so on.  
   
 ## Nondeterministic request events  
+
  The remaining request-level notification methods are not processed in any specific order; instead, IIS processes these events when a specific nondeterministic event occurs. The following table lists the nondeterministic request-level event and any related post-event notification methods.  
   
 |Event notification method|Post-event notification method|  
@@ -101,6 +107,7 @@ class CHttpModule
  <sup>2</sup> The `OnCustomRequestNotification` method does not have a corresponding post-event notification method. An HTTP module can register for a custom notification by using the module's exported `RegisterModule` function, but a module cannot register for a notification that occurs after a custom notification has occurred.  
   
 ## Example  
+
  The following example demonstrates how to create a simple "Hello World" HTTP module. The module defines an exported `RegisterModule` function that passes an instance of an `IHttpModuleFactory` interface to the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method and registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification. IIS uses the [IHttpModuleFactory::GetHttpModule](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md) method to create an instance of a `CHttpModule` class and returns a success status. IIS also uses the [IHttpModuleFactory::Terminate](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-terminate-method.md) method to remove the factory from memory.  
   
  When an `RQ_BEGIN_REQUEST` notification occurs, IIS calls the module's `OnBeginRequest` method to process the current request. `OnBeginRequest` clears the response buffer and modifies the MIME type for the response. The method then creates a data chunk that contains a "Hello World" string and returns the string to a Web client. Finally, the module returns a status indicator that notifies IIS that all notifications are finished and then exits.  
@@ -121,5 +128,6 @@ class CHttpModule
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Creating Native-Code HTTP Modules](../../web-development-reference/native-code-development-overview/creating-native-code-http-modules.md)   
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

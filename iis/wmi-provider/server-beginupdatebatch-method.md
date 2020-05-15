@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6a748c8c-c7a4-4adc-846b-5388f8064b2f
 ---
 # Server.BeginUpdateBatch Method
+
 Begins a batch of configuration changes for the specified path.  
   
 ## Syntax  
@@ -23,9 +24,11 @@ oServer.BeginUpdateBatch();
 |`Path`|A `string` value that specifies the path to which the configuration changes will be applied.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method sets a flag in the provider after which incoming change notifications and calls to commit changes are ignored.  
   
  The configuration changes that are made will be stored in memory until the [EndUpdateBatch](../wmi-provider/server-endupdatebatch-method.md) method of the [Server](../wmi-provider/server-class.md) object is called.  
@@ -45,5 +48,6 @@ oServer.BeginUpdateBatch();
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Server Class](../wmi-provider/server-class.md)   
  [Server.EndUpdateBatch Method](../wmi-provider/server-endupdatebatch-method.md)

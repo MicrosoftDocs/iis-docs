@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 390a0ab8-6695-4287-4fcc-a1ef24545dcc
 ---
 # IHttpResponse::SetStatus Method
+
 Sets the HTTP status for the response.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ virtual HRESULT SetStatus(
 ```  
   
 ### Parameters  
+
  `statusCode`  
  [IN] The HTTP status code to set.  
   
@@ -35,6 +37,7 @@ virtual HRESULT SetStatus(
  [IN] A pointer to an optional [INativeSectionException](https://msdn.microsoft.com/89e76f37-6196-566b-c07a-f756855d097c) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -44,9 +47,11 @@ virtual HRESULT SetStatus(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `SetStatus` method configures the HTTP response status, which consists of the status code, the substatus code, the status text, a Win32 error (if one exists) associated with the response, and an optional [INativeSectionException](https://msdn.microsoft.com/89e76f37-6196-566b-c07a-f756855d097c) interface.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetStatus` method to create an HTTP module that retrieves the HTTP response status. The example module returns the contents of the HTTP response status to the client and then calls the `SetStatus` method to set the response status to "200 OK" so the client will always receive the result.  
   
  [!code-cpp[IHttpResponseGetStatus#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetStatus/cpp/IHttpResponseGetStatus.cpp#1)]  
@@ -65,5 +70,6 @@ virtual HRESULT SetStatus(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::GetStatus Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getstatus-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 10e3f9c1-2fad-4a18-8e27-1c0ec23edeb8
 ---
 # IAppHostConstantValue Interface
+
 Provides methods that access the string names of a specific constant and its corresponding integer value.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ interface IAppHostConstantValue : IUnknown
 ```  
   
 ## Methods  
+
  This interface contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostConstantValue` interface.  
   
 |Property|Description|  
@@ -24,6 +27,7 @@ interface IAppHostConstantValue : IUnknown
 |[IAppHostConstantValue::Value Property](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-value-property.md)|Gets the integer value of the current constant.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConstantValue`  
@@ -38,4 +42,5 @@ interface IAppHostConstantValue : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)

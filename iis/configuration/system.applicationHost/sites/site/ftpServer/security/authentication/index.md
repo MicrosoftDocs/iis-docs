@@ -10,6 +10,7 @@ msc.type: config
 # FTP Authentication &lt;authentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<authentication>` element specifies the authentication settings for FTP sites. The authentication settings are configured at the site-level only, although FTP `<authorization>` settings can be configured per URL.
@@ -29,6 +30,7 @@ There are four different forms of authentication that can be configured for an F
   The main advantage of using custom authentication providers is that user accounts do not have to be created on your server or domain. This improves your network's security.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -48,6 +50,7 @@ There are four different forms of authentication that can be configured for an F
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -115,6 +118,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable or disable Anonymous authentication for an FTP site
@@ -272,6 +276,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         [![](index/_static/image24.png)](index/_static/image23.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<authentication>` element is configured at the site level.
@@ -305,6 +310,7 @@ The following sample illustrates several configuration settings in the `<ftpServ
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples disable Anonymous authentication for an FTP site.

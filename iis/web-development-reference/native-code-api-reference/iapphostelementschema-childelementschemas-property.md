@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5682845e-c5c1-4bf8-aaed-54c17c940214
 ---
 # IAppHostElementSchema::ChildElementSchemas Property
+
 Gets the schema used for child elements that are contained in the corresponding [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ Gets the schema used for child elements that are contained in the corresponding 
 ```  
   
 ### Parameters  
+
  `ppChildSchemas`  
  Contains the schema collection of the supported child [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) objects.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,6 +39,7 @@ Gets the schema used for child elements that are contained in the corresponding 
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)   
  [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)   
  [IAppHostElementSchemaCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementschemacollection-interface.md)

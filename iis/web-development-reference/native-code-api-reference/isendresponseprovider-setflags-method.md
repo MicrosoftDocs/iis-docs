@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 854d8dd1-0c04-e658-3526-0baba7e36f96
 ---
 # ISendResponseProvider::SetFlags Method
+
 Configures the flags for the current HTTP response.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual VOID SetFlags(
 ```  
   
 ### Parameters  
+
  `dwFlags`  
  A `DWORD` that contains the response flags to set.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  You can use the `SetFlags` method to specify which response flags to use with the current response. These flags provide additional control over the HTTP behavior for [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. The following flags are defined in the Http.h header file.  
   
 |Name|Value|Description|  
@@ -32,6 +36,7 @@ virtual VOID SetFlags(
 |HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING|0x00000008|Enables the Nagle algorithm to optimize TCP response packets.|  
   
 ## Example  
+
  The following code example demonstrates how to use the `SetFlags` and [GetFlags](../../web-development-reference/native-code-api-reference/isendresponseprovider-getflags-method.md) methods to create an HTTP module that sets the flags for the current response. The example then retrieves the modified flags and returns the response to a Web client.  
   
  [!code-cpp[ISendResponseProviderGetFlags#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/ISendResponseProviderGetFlags/cpp/ISendResponseProviderGetFlags.cpp#1)]  
@@ -50,5 +55,6 @@ virtual VOID SetFlags(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
  [ISendResponseProvider::GetFlags Method](../../web-development-reference/native-code-api-reference/isendresponseprovider-getflags-method.md)

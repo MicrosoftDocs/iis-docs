@@ -16,6 +16,7 @@ The first step in building an ASP.NET website on IIS 8 is to install IIS along w
 When you are done, make sure that IIS and the ASP.NET modules are installed, and your ASP.NET application has been added to your website. Then go on to [Step 2: Configure ASP.NET Settings](configuring-step-2-configure-asp-net-settings.md).
 
 <a id="11"></a>
+
 ## Installing IIS and ASP.NET Modules
 
 This section describes how to install IIS and the modules that support ASP.NET applications in any of the following ways:
@@ -90,6 +91,7 @@ Type the following command at a Command Prompt or into a script:
 `Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-StaticContent;IIS-DefaultDocument;IIS-DirectoryBrowsing;IIS-HttpErrors;IIS-ApplicationDevelopment;IIS-ASPNET;IIS-NetFxExtensibility;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-HealthAndDiagnostics;IIS-HttpLogging;IIS-LoggingLibraries;IIS-RequestMonitor;IIS-Security;IIS-RequestFiltering;IIS-HttpCompressionStatic;IIS-WebServerManagementTools;IIS-ManagementConsole;WAS-WindowsActivationService;WAS-ProcessModel;WAS-NetFxEnvironment;WAS-ConfigurationAPI`
 
 <a id="12"></a>
+
 ## Adding the ASP.NET Application
 
 This section describes how to add your ASP.NET application to your website in the following ways:

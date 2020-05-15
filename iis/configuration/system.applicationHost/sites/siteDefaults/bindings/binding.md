@@ -10,6 +10,7 @@ msc.type: config
 # Adding a Default Binding &lt;binding&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<binding>` element of the `<bindings>` element allows you to configure the information required for requests to communicate with a Web site.
@@ -19,6 +20,7 @@ You can configure binding information when you create a Web site, or you can edi
 The `<binding>` element contains two attributes to configure the binding information: **bindingInformation** and **protocol**. The **bindingInformation** attribute contains the IP address, the port number and, optionally, the host header for the site. The **protocol** attribute defines the protocol to use to communicate with the site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,11 +33,13 @@ The `<binding>` element contains two attributes to configure the binding informa
 | IIS 6.0 | The `<bindings>` collection replaces sections of the **ServerBindings** property on the IIS 6.0 **IIsWebServer** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<binding>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add default binding information to a server
@@ -68,6 +72,7 @@ The `<binding>` element is included in the default installation of IIS 7 and lat
 9. Close **Collection Editor** and in the **Actions** pane, click **Apply**.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can add default `<binding>` elements within the `<bindings>` element in the `<siteDefaults>` section of the ApplicationHost.config file.
@@ -89,6 +94,7 @@ The following configuration sample specifies the default `bindings` options for 
 [!code-xml[Main](binding/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure the default `bindings` options for IIS 7.

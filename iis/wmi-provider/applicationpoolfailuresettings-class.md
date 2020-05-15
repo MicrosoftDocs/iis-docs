@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8e1aa657-4665-39cb-afee-d927d33c3f85
 ---
 # ApplicationPoolFailureSettings Class1
+
 Exposes properties that determine the actions to be taken when an application pool or worker process fails.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationPoolFailureSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ApplicationPoolFailureSettings` class.  
   
 |Name|Description|  
@@ -31,9 +34,11 @@ class ApplicationPoolFailureSettings : EmbeddedObject
 |`RapidFailProtectionMaxCrashes`|A read/write `uint32` value that specifies the maximum number of permissible worker process failures. The default is 5.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Failure` property of the [ApplicationPool](../wmi-provider/applicationpool-class.md) class and the [ApplicationPoolElementDefaults](../wmi-provider/applicationpoolelementdefaults-class.md) class.  
   
  The following table lists the possible values and the associated keywords and actions for the `LoadBalancerCapabilities` property. The default is 2 (`HttpLevel`).  
@@ -44,6 +49,7 @@ class ApplicationPoolFailureSettings : EmbeddedObject
 |2|`HttpLevel`|Sends error code 503 (service unavailable).|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ApplicationPoolFailureSettings`  
@@ -58,6 +64,7 @@ class ApplicationPoolFailureSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)   
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ApplicationPoolElementDefaults Class](../wmi-provider/applicationpoolelementdefaults-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 82947c97-727f-455e-b773-9fa952194dc3
 ---
 # ICacheProvider::GetTraceContext Method
+
 Returns the trace context for the cache provider.  
   
 ## Syntax  
@@ -15,21 +16,27 @@ virtual IHttpTraceContext* GetTraceContext(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) pointer.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an `IHttpTraceContext` pointer by calling the `GetTraceContext` method on the `ICacheProvider` pointer.  
   
 ## Notes for Implementers  
+
  `ICacheProvider` implementers are responsible for memory management with this data; therefore, `ICacheProvider` implementers that use dynamic memory allocation must release or call `delete` on the `IHttpTraceContext` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `ICacheProvider` implementers are responsible for memory management with this data; therefore, `ICacheProvider` clients must not release or call `delete` on the returned `IHttpTraceContext` pointer when this data is no longer needed.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTraceContext` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -67,4 +74,5 @@ virtual IHttpTraceContext* GetTraceContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ICacheProvider Interface](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md)

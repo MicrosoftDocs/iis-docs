@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: da1e5777-c6cf-3de0-12cd-e02e1f24150a
 ---
 # FormsAuthenticationCredentials Class
+
 Configures user credentials for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications that use Forms authentication.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FormsAuthenticationCredentials : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FormsAuthenticationCredentials` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class FormsAuthenticationCredentials : EmbeddedObject
 |`Credentials`|An array of [FormsAuthenticationUser](../wmi-provider/formsauthenticationuser-class.md) values that specify user-name and password credentials.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Credentials` property of the [FormsAuthenticationConfiguration](../wmi-provider/formsauthenticationconfiguration-class.md) class.  
   
  The following table lists the possible values for the `PasswordFormat` property. The default is 1 (`SHA1`).  
@@ -38,6 +43,7 @@ class FormsAuthenticationCredentials : EmbeddedObject
 |2|`MD5`|Specifies that passwords are encrypted by using the MD5 hash algorithm. This field is constant.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `FormsAuthenticationCredentials`  
@@ -52,6 +58,7 @@ class FormsAuthenticationCredentials : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.FormsAuthPasswordFormat](/dotnet/api/system.web.configuration.formsauthpasswordformat)
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)   

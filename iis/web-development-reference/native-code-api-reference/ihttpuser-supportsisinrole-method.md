@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2b1a1fd5-0624-e9b1-2ca5-c61a37ef44a4
 ---
 # IHttpUser::SupportsIsInRole Method
+
 Returns a value that indicates whether role support is enabled for the user.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual BOOL SupportsIsInRole(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if role support is enabled for the user; otherwise, `false`.  
   
 ## Remarks  
+
  The `SupportsIsInRole` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
 - If the [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) implementer handles managed or anonymous authentication, `SupportsIsInRole` returns `true`.  
@@ -28,6 +32,7 @@ virtual BOOL SupportsIsInRole(
 - If the `IHttpUser` implementer implements Custom, Basic, Certification Mapping, or SSPI authentication, `SupportsIsInRole` returns `false`.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
  The above code writes XML that is similar to the following to the response stream.  
@@ -51,4 +56,5 @@ virtual BOOL SupportsIsInRole(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)

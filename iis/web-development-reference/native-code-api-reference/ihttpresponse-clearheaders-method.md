@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2b25fafe-a88a-ed99-699d-7f5ee33003c8
 ---
 # IHttpResponse::ClearHeaders Method
+
 Clears the response headers and sets headers to default values.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual VOID ClearHeaders(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `ClearHeaders` method removes the existing HTTP headers and then adds a default set of headers to the response.  
   
 > [!NOTE]
 >  If the server has already flushed the response buffer to the client when you call the `ClearHeaders` method, the method may appear to have no effect.  
   
 ## Example  
+
  The following code example demonstrates how to use the `ClearHeaders` method to create an HTTP module that clears the response headers and returns a default set of response headers to the client.  
   
  [!code-cpp[IHttpResponseClearHeaders#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseClearHeaders/cpp/IHttpResponseClearHeaders.cpp#1)]  
@@ -45,6 +50,7 @@ virtual VOID ClearHeaders(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::Clear Method](../../web-development-reference/native-code-api-reference/ihttpresponse-clear-method.md)   
  [IHttpResponse::DeleteHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-deleteheader-method.md)

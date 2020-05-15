@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fb5cd1b1-c034-55a5-bcc4-b1f66ba03498
 ---
 # CGlobalModule::OnGlobalHealthCheck Method
+
 Represents the method that will handle a `GlobalHealthCheck` event, which occurs when a health-related operation is executed.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalHealthCheck(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_HEALTH_CHECK](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalHealthCheck` method when a health-related operation occurs. For example, if another module calls the [IHttpServer::ReportUnhealthy](../../web-development-reference/native-code-api-reference/ihttpserver-reportunhealthy-method.md) method, IIS will call `OnGlobalHealthCheck` for any modules that have registered for the `GL_HEALTH_CHECK` notification.  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalHealthCheck` event notification by registering for `GL_HEALTH_CHECK` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_HEALTH_CHECK` event notification. If a health-related operation occurs, IIS will call the example module's `OnGlobalHealthCheck` method. This method will write an entry in the application log of the Windows Event Viewer and then exit.  
   
  [!code-cpp[CGlobalModuleGlobalHealthCheck#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CGlobalModuleGlobalHealthCheck/cpp/CGlobalModuleGlobalHealthCheck.cpp#1)]  
@@ -45,4 +50,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalHealthCheck(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

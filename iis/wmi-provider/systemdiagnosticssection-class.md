@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d7245c41-accd-e0ea-162b-412d8c1cdd33
 ---
 # SystemDiagnosticsSection Class
+
 Configures system diagnostics and tracing.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SystemDiagnosticsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SystemDiagnosticsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class SystemDiagnosticsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SystemDiagnosticsSection` class.  
   
 |Name|Description|  
@@ -43,9 +46,11 @@ class SystemDiagnosticsSection : ConfigurationSectionWithCollection
 |`Trace`|A [TraceSettings](../wmi-provider/tracesettings-class.md) value that contains listeners that collect, store, and route tracing messages.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -62,6 +67,7 @@ class SystemDiagnosticsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AssertSettings Class](../wmi-provider/assertsettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ListenerSettings Class](../wmi-provider/listenersettings-class.md)   

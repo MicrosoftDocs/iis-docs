@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 069ddfd4-c9d2-f0d0-01ee-aaa2a70973fd
 ---
 # IWpfReferencedObject::Release Method
+
 Decrements the reference count for the [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md) interface.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual ULONG Release (
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `ULONG` that contains the updated reference count.  
   
 ## Requirements  
@@ -31,5 +34,6 @@ virtual ULONG Release (
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfReferencedObject Interface](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)   
  [IWpfReferencedObject::AddRef Method](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-addref-method.md)

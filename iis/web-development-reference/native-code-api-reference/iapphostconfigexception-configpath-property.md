@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fc8d0b9f-8d75-9f5f-d3c9-d65aa26c2fc1
 ---
 # IAppHostConfigException::ConfigPath Property
+
 Gets the configuration path of the file that contains the configuration that caused the exception.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_ConfigPath(
 ```  
   
 ### Parameters  
+
  `pbstrConfigPath`  
  A pointer to a `BSTR` that specifies the requested configuration path.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_ConfigPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

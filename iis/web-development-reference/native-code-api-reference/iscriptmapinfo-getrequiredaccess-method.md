@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 05d6d12c-ab7b-aa07-63ce-d3e061fe0057
 ---
 # IScriptMapInfo::GetRequiredAccess Method
+
 Retrieves the required-access setting for the script processor.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual DWORD GetRequiredAccess(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that contains the required-access setting for the script processor.  
   
 ## Remarks  
+
  The `GetRequiredAccess` method retrieves the `requireAccess` attribute for a request handler that is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains the type of access (for example, read, write, and so on) that the request handler requires. The following values for the required-access setting are defined in the Schema.xml file for IIS:  
   
 ```  
@@ -36,6 +40,7 @@ virtual DWORD GetRequiredAccess(
  For example, when a client requests a file that is processed by the static file handler, the required-access value is 1, because the static file handler requires read-only access by default. A request for an Internet Server API (ISAPI) DLL, however, will return a value of 4, because execute access is required.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference/native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetRequiredAccess` method to retrieve the required-access setting for the request handler that is processing the current request. The module converts the required-access setting to a string, returns the string to a Web client, and then exits.  
   
  [!code-cpp[IScriptMapInfoGetRequiredAccess#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IScriptMapInfoGetRequiredAccess/cpp/IScriptMapInfoGetRequiredAccess.cpp#1)]  
@@ -54,4 +59,5 @@ virtual DWORD GetRequiredAccess(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IScriptMapInfo Interface](../../web-development-reference/native-code-api-reference/iscriptmapinfo-interface.md)

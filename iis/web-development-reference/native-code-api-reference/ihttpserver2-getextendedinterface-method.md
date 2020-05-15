@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 36084663-a38a-4941-bfe4-f6782594efd9
 ---
 # IHttpServer2::GetExtendedInterface Method
+
 Retrieves the correct down-casted pointer based on version GUID (globally unique identifier) values.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT GetExtendedInterface(
 ```  
   
 ### Parameters  
+
  `Version1`  
  [IN] GUID of the legacy instance.  
   
@@ -31,6 +33,7 @@ virtual HRESULT GetExtendedInterface(
  [OUT] Points to the down-casted instance.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -38,6 +41,7 @@ virtual HRESULT GetExtendedInterface(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  This method is intended for down casting a base class pointer to a derived class. For example, assuming you have an existing instance pointer to [IHttpRequest](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md). your code would need to down cast to its derived class [IHttpRequest2](../../web-development-reference/native-code-api-reference/ihttprequest2-interface.md) in order to call one of its new methods.  
   
 ```  
@@ -65,4 +69,5 @@ HRESULT SomeFunction(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer2 Interface](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)

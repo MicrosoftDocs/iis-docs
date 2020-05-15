@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5eeb1357-ddb1-a9b2-fc3b-c34428e9b6ed
 ---
 # HttpCachePolicySettings Class
+
 Represents the default HTTP cache policy for network resources.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpCachePolicySettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpCachePolicySettings` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class HttpCachePolicySettings : EmbeddedObject
 |`PolicyLevel`|A read/write `sint32` value that specifies the HTTP caching behavior for the local computer. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DefaultHttpCachePolicy` property of the [RequestCachingSection](../wmi-provider/requestcachingsection-class.md) class.  
   
  The following table lists the possible values for the `PolicyLevel` property. The default is 0 (`Default`).  
@@ -46,6 +51,7 @@ class HttpCachePolicySettings : EmbeddedObject
 |8|`Refresh`|Satisfies a request by using the server or a cache other than the local cache. Before an intermediate cache can satisfy the request, that cache must revalidate its cached entry with the server. In the HTTP caching protocol, this is achieved by using the `max-age = 0` cache control directive and the `Pragma:``no-cache` header.|  
   
 ## Example  
+
  The following code example specifies the http caching policy and sets values for the `MinimumFresh`, `MaximumStale`, and `MaximumAge` properties.  
   
 ```  
@@ -98,6 +104,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `HttpCachePolicySettings`  
@@ -112,6 +119,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FtpCachePolicySettings Class](../wmi-provider/ftpcachepolicysettings-class.md)   
  [RequestCachingSection Class](../wmi-provider/requestcachingsection-class.md)   

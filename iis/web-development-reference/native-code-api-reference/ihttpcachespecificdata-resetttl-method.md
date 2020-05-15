@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6b8b7fce-32a3-c503-2c99-dc66de77d9ce
 ---
 # IHttpCacheSpecificData::ResetTTL Method
+
 Resets the Time-to-Live (TTL) setting of the cached data.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual VOID ResetTTL(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Thread Safety  
+
  Classes that implement the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the [DecrementTTL](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-decrementttl-method.md) and `ResetTTL` methods.  
   
 ## Remarks  
+
  The TTL is used to determine when cached data is no longer valid and, therefore, when that data should be reloaded. Most `IHttpCacheSpecificData` implementations set an initial internal count to a positive value, and then allow that count to be reduced through successive calls to the `DecrementTTL` method. If the TTL value becomes 0, the data should be reloaded.  
   
  The behavior of the `ResetTTL` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -30,12 +34,15 @@ virtual VOID ResetTTL(
 - Classes that implement the [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface are varied. Some classes implement the scheme defined above, while others perform empty operations on both `ResetTTL` and `DecrementTTL`.  
   
 ## Notes for Implementers  
+
  The `DecrementTTL` and `ResetTTL` method implementations must be thread safe for an `IHttpCacheSpecificData` pointer.  
   
 ## Notes for Callers  
+
  Most callers may disregard the `ResetTTL` method because this method is meant to be used internally.  
   
 ## Example  
+
  The following code example demonstrates a class called `MySpecificData` that implements the `IHttpCacheSpecificData` methods.  
   
 ```  
@@ -77,4 +84,5 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCacheSpecificData Interface](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md)

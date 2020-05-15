@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8103c618-5040-16d7-3708-0b5a74b3b95e
 ---
 # TypeElement Class
+
 Specifies a type in an array property on a Web-service-related WMI class.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TypeElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TypeElement` class.  
   
 |Name|Description|  
@@ -23,9 +26,11 @@ class TypeElement : CollectionElement
 |`Type`|A required unique read/write `string` value that contains type information. The key property. **Note:**  The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the following array properties of the classes listed.  
   
 |Class|Property|  
@@ -35,6 +40,7 @@ class TypeElement : CollectionElement
 |[SoapExtensionReflectorTypesSettings](../wmi-provider/soapextensionreflectortypessettings-class.md)|`SoapExtensionReflectorTypesSettings`|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TypeElement`  
@@ -49,6 +55,7 @@ class TypeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ServiceDescriptionFormatSettings Class](../wmi-provider/servicedescriptionformatsettings-class.md)   
  [SoapExtensionImporterTypesSettings Class](../wmi-provider/soapextensionimportertypessettings-class.md)   

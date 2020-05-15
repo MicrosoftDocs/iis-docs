@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 992dd30f-5a19-bd92-1271-79114ab059d9
 ---
 # SoapServerProtocolFactory Class
+
 Specifies the type of a class that processes XML Web service requests.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapServerProtocolFactory : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapServerProtocolFactory` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SoapServerProtocolFactory : EmbeddedObject
 |`Type`|A read/write `string` value that specifies the fully qualified type name of a `SoapServerProtocolFactory` class. **Note:**  The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SoapServerProtocolFactory` property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SoapServerProtocolFactory`  
@@ -43,6 +49,7 @@ class SoapServerProtocolFactory : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SoapEnvelopeProcessingInfo Class](../wmi-provider/soapenvelopeprocessinginfo-class.md)   
  [SoapExtensionTypesInfo Class](../wmi-provider/soapextensiontypesinfo-class.md)   

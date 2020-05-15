@@ -10,11 +10,13 @@ msc.type: config
 # Adding FTP IP Security &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<ipSecurity>` collection defines a unique IP security restriction. Each restriction can be based on the IP version 4 address, a range of IP version 4 addresses, or a DNS domain name.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<add>` element of the `<ipSecurity>` collection defines a unique IP securit
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -101,6 +104,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add IP restrictions to allow or access for an FTP site
@@ -158,6 +162,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](add/_static/image20.png)](add/_static/image19.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element is configured at the site or URL level.
@@ -190,6 +195,7 @@ The following sample illustrates several security-related configuration settings
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure FTP IP security to allow unlisted IP addresses, then specify IP restrictions that allow access from 127.0.0.1 and deny access from the 169.254.0.0/255.255.0.0 range of IP addresses.

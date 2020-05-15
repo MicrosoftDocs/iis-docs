@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5af2e96b-cfa0-a9b9-bb28-b0665c85427e
 ---
 # IAppHostConfigException::FileName Property
+
 Gets the physical path of the configuration file that caused the current exception to be thrown.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_FileName(
 ```  
   
 ### Parameters  
+
  `pbstrFileName`  
  A pointer to a `BSTR` that contains the path to the configuration file.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_FileName(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

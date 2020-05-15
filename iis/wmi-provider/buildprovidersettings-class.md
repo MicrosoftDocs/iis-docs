@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8158fe94-1afe-4ce0-b2eb-c3be4f15a3fa
 ---
 # BuildProviderSettings Class
+
 Contains build providers that compile custom resource files of a particular file type and generate code during compilation.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class BuildProviderSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `BuildProviderSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class BuildProviderSettings : EmbeddedObject
 |`BuildProviders`|An array of [BuildProvider](../wmi-provider/buildprovider-class.md) values that compile custom resource files of a particular file type and generate code during compilation.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `BuildProviders` property of the [CompilationSection](../wmi-provider/compilationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `BuildProviderSettings`  
@@ -43,6 +49,7 @@ class BuildProviderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.CompilationSection.BuildProvider](/dotnet/api/system.web.configuration.compilationsection)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a4792b18-6e80-3b97-855b-30e5f937c80a
 ---
 # IProcessHostSupportFunctions::MapPath Method
+
 Retrieves the physical path of a relative URL.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT __stdcall MapPath(
 ```  
   
 ### Parameters  
+
  `appId`  
  A string that contains the application ID.  
   
@@ -27,6 +29,7 @@ virtual HRESULT __stdcall MapPath(
  A pointer to a `BSTR` that contains the physical path of the relative URL.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -43,4 +46,5 @@ virtual HRESULT __stdcall MapPath(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)

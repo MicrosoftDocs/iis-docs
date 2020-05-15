@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0cfbaf09-12eb-5d23-d331-931f5d6cfd6a
 ---
 # ProtocolsSection Class
+
 Contains a list of transmission protocols that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] can use to decrypt data sent from a client browser in the HTTP request.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ProtocolsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ProtocolsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ProtocolsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProtocolsSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class ProtocolsSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,5 +62,6 @@ class ProtocolsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProtocolElement Class](../wmi-provider/protocolelement-class.md)

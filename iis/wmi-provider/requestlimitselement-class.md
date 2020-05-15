@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ad0f126f-9538-318d-dee0-c77a72fba0c5
 ---
 # RequestLimitsElement Class
+
 Specifies size limits on incoming HTTP requests.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class RequestLimitsElement : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `RequestLimitsElement` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class RequestLimitsElement : EmbeddedObject
 |`MaxUrl`|A read/write `uint32` value that specifies the maximum length, in bytes, of the request URL. The default is 260.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `RequestLimits` array property of the [RequestFilteringSection](../wmi-provider/requestfilteringsection-class.md) class.  
   
  This class integrates into [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] the `RequestLimits` settings of the URLScan tool used by previous versions of IIS.  
@@ -37,6 +42,7 @@ class RequestLimitsElement : EmbeddedObject
 >  You must install the Request Filtering Module (Modrqflt.dll) for the settings in this class to take effect.  
   
 ## Example  
+
  The following example displays all the properties of the `RequestLimitsElement` class.  
   
 ```  
@@ -71,6 +77,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `RequestLimitsElement`  
@@ -85,6 +92,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   
  [HeaderLimitsElement Class](../wmi-provider/headerlimitselement-class.md)   

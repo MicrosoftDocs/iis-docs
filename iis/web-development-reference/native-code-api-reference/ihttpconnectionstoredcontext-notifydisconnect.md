@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2b05dd06-6fd9-4754-b5a8-ba63427ff4dc
 ---
 # IHttpConnectionStoredContext::NotifyDisconnect
+
 Notifies the caller that an established connection was disconnected.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID NotifyDisconnect(
 ```  
   
 ### Parameters  
+
  None  
   
 ## Return Value  
+
  `VOID`  
   
 ## Requirements  

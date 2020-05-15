@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2f90a8c0-35ec-4c82-460a-03ea1f24a094
 ---
 # ServerSideIncludeSection Class
+
 Configures server-side includes (SSI) directives.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ServerSideIncludeSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ServerSideIncludeSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class ServerSideIncludeSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ServerSideIncludeSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class ServerSideIncludeSection : ConfigurationSection
 |`SsiExecDisable`|A read/write `boolean` value. `true` if SSI `#exec` directives are disabled; `false` if SSI `#exec` directives are enabled. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `ServerSideIncludeSection`  
@@ -51,4 +56,5 @@ class ServerSideIncludeSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

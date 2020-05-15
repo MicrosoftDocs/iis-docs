@@ -10,11 +10,13 @@ msc.type: config
 # Adding IP Security &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<ipSecurity>` collection defines a unique IP security restriction. Each restriction can be based on the IP version 4 address, a range of IP version 4 addresses, or a DNS domain name.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<add>` element of the `<ipSecurity>` collection defines a unique IP securit
 | IIS 6.0 | The `<ipSecurity>` collection replaces the IIS 6.0 **IPSecurity** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS does not include the role service or Windows feature for IP security. To use IP security on IIS, you must install the role service or Windows feature using the following steps:
@@ -72,6 +75,7 @@ The default installation of IIS does not include the role service or Windows fea
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add IP restrictions to deny access for a Web site
@@ -129,6 +133,7 @@ The default installation of IIS does not include the role service or Windows fea
     [![](add/_static/image20.png)](add/_static/image19.png)
  
 <a id="005"></a>
+
 ## Configuration
 
 Rules are processed from top to bottom, in the order they appear in the list. The allowunlisted attribute is processed last. Best practice for Internet Protocol security (IPsec) restrictions is to list Deny rules first.
@@ -153,6 +158,7 @@ The following configuration sample adds two IP restrictions to the Default Web S
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add two IP restrictions to the Default Web Site; the first restriction denies access to the IP address 192.168.100.1, and the second restriction denies access to the entire 169.254.0.0 network.

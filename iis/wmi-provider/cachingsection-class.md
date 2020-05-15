@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0353b00e-efaf-761b-2218-178cf807c834
 ---
 # CachingSection Class
+
 Configures output and kernel caching.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class CachingSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `CachingSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class CachingSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CachingSection` class.  
   
 |Name|Description|  
@@ -42,9 +45,11 @@ class CachingSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Example  
+
  The following example displays properties in the `CachingSection` object for the default Web site, including the `CachingProfileSettings` values in the `Profiles` array property. Two helper functions are provided to display text for the `Policy`, `KernelCachePolicy`, and `Location` enumerations.  
   
 ```  
@@ -124,6 +129,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -140,6 +146,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AspCache Class](../wmi-provider/aspcache-class.md)   
  [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
  [CachingProfileSettings Class](../wmi-provider/cachingprofilesettings-class.md)   

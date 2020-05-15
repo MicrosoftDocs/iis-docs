@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e91916c-8c29-70fa-7985-acb0b2beccdc
 ---
 # IHttpCacheSpecificData::GetCacheKey Method
+
 Returns the cache key associated with the cached data.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual IHttpCacheKey* GetCacheKey(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) pointer.  
   
 ## Remarks  
+
  The behavior of the `GetCacheKey` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
 - Classes that implement the [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface usually return a downcasted [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md) pointer.  
@@ -36,12 +40,15 @@ virtual IHttpCacheKey* GetCacheKey(
 >  Consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
   
 ## Notes for Implementers  
+
  `IHttpCacheSpecificData` implementers are responsible for memory management with this data; therefore, `IHttpCacheSpecificData` implementers that use dynamic memory allocation must release or call `delete` on the `IHttpCacheKey` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpCacheSpecificData` implementers are responsible for memory management with this data; therefore, `IHttpCacheSpecificData` clients must not release or call `delete` on the returned `IHttpCacheKey` pointer when this data is no longer needed.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheKey` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -145,4 +152,5 @@ virtual IHttpCacheKey* GetCacheKey(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCacheSpecificData Interface](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md)

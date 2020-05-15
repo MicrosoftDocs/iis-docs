@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b807132a-9aa7-73fc-06d7-ec7412ec0588
 ---
 # IHttpServer::NotifyFileChange Method
+
 Triggers a notification that a file has changed.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual VOID NotifyFileChange(
 ```  
   
 ### Parameters  
+
  `pszFileName`  
  [IN] A pointer to a string that contains the path to a file.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] automatically triggers a [GL_FILE_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification when a file within a Web site is modified. Developers can use the `NotifyFileChange` method to manually trigger a `GL_FILE_CHANGE` notification for a file path that is specified in the `pszFileName` parameter.  
   
 > [!NOTE]
 >  Developers can use the [CGlobalModule::OnGlobalFileChange](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md) method to provide additional processing when a `GL_FILE_CHANGE` notification occurs.  
   
 ## Example  
+
  The following code example demonstrates how to use the `NotifyFileChange` method to create an HTTP module that manually triggers a `GL_FILE_CHANGE` notification for the C:\Inetpub\Wwwroot\Default.aspx file.  
   
  [!code-cpp[IHttpServerNotifyFileChange#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerNotifyFileChange/cpp/IHttpServerNotifyFileChange.cpp#1)]  
@@ -46,6 +51,7 @@ virtual VOID NotifyFileChange(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [CGlobalModule::OnGlobalFileChange Method](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md)   
  [Request-Processing Constants](../../web-development-reference/native-code-api-reference/request-processing-constants.md)

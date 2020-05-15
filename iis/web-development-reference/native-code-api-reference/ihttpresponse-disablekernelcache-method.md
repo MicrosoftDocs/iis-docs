@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cb176222-ffa6-4591-b5ec-dc22d164fa3e
 ---
 # IHttpResponse::DisableKernelCache Method
+
 Disables the kernel cache for this response.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual VOID DisableKernelCache(
 ```  
   
 ### Parameters  
+
  `reason`  
  The optional reason for disabling the kernel cache.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `DisableKernelCache` method disables kernel caching for the current response.  
   
  You can optionally pass a `reason` parameter that contains a value defined in the `IISCacheEvents::HTTPSYS_CACHEABLE::enumReason` enumeration to indicate why you are disabling caching.  
@@ -30,6 +34,7 @@ virtual VOID DisableKernelCache(
 >  If you do not pass a `reason` parameter to the `DisableKernelCache` method, the default value of 9 (`HANDLER_HTTPSYS_UNFRIENDLY`) will be used.  
   
 ## Example  
+
  The following code example demonstrates how to use the `DisableKernelCache` method to disable kernel caching for the current request.  
   
 > [!NOTE]
@@ -51,6 +56,7 @@ virtual VOID DisableKernelCache(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::GetCachePolicy Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md)   
  [IHttpResponse::GetKernelCacheEnabled Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md)   

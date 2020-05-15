@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0b744a62-f9b9-3be4-b471-5aa5a6ad7ffd
 ---
 # ConnectionStringSettings Class
+
 Represents a named database connection string.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ConnectionStringSettings : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConnectionStringSettings` class.  
   
 |Name|Description|  
@@ -25,12 +28,15 @@ class ConnectionStringSettings : CollectionElement
 |`ProviderName`|An optional read/write `string` value that specifies the name of the [!INCLUDE[vstecado](../wmi-provider/includes/vstecado-md.md)] provider to use to access a data store. The default is "System.Data.SqlClient".|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ConnectionStrings` property of the [ConnectionStringsSection](../wmi-provider/connectionstringssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ConnectionStringSettings`  
@@ -45,4 +51,5 @@ class ConnectionStringSettings : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

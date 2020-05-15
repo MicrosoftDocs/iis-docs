@@ -10,6 +10,7 @@ msc.type: config
 # FTP Deny URL Sequences &lt;denyUrlSequences&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<denyUrlSequences>` element contains a collection of `<add>` elements that specify sequences of characters that IIS will deny, which helps prevent URL-based attacks on the Web server.
@@ -24,6 +25,7 @@ The `<denyUrlSequences>` element contains a collection of `<add>` elements that 
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -43,6 +45,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -110,6 +113,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 > [!NOTE]
@@ -144,6 +148,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 7. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<denyUrlSequences>` element of the `<requestFiltering>` element is configured at the global, site or URL level.
@@ -173,6 +178,7 @@ The following sample illustrates several security-related configuration settings
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples will deny the URL sequence "bin" for FTP, which will prevent access to the "bin", "\_vti\_bin", or "cgi-bin" paths, and also prevent uploading files with a file name extension of ".bin."

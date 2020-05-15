@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 43321703-38ff-f769-26c9-5a584c4ad3cc
 ---
 # IAppHostElement::Schema Property
+
 Gets the schema that is assigned to the current element.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Schema(
 ```  
   
 ### Parameters  
+
  `ppSchema`  
  A pointer to a pointer for the [IAppHostElementSchema](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md) interface that is assigned to the current element.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_Schema(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

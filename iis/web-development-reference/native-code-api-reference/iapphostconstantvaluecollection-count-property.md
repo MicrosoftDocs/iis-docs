@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f6179238-e430-484f-9f2d-c55a8ef06375
 ---
 # IAppHostConstantValueCollection::Count Property
+
 Gets the number of constant values in the collection.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT Count(
 ```  
   
 ### Parameters  
+
  `pcCount`  
  A pointer to a `DWORD` that contains the number of items in the collection.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ HRESULT Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConstantValueCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconstantvaluecollection-interface.md)

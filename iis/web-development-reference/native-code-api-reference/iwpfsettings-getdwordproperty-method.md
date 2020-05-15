@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e2364a5c-543c-8434-7ad3-c4e56508f7b5
 ---
 # IWpfSettings::GetDwordProperty Method
+
 Retrieves a `DWORD` value from the worker process or application pool settings.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetDwordProperty(
 ```  
   
 ### Parameters  
+
  `SettingId`  
  [IN] A [WPF_SETTINGS_DWORD_ENUM](../../web-development-reference/native-code-api-reference/wpf-settings-dword-enum-enumeration.md) value that specifies which `DWORD` value to return.  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetDwordProperty(
  [OUT] A pointer to a `DWORD` buffer that receives the value specified by `SettingId`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT GetDwordProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)   
  [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
  [IWpfSettings::GetHandleProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   

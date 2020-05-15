@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c26ddb6b-2166-3486-870f-fb5b0574feb1
 ---
 # IAppHostConfigLocation::AddConfigSection Method
+
 Adds a configuration section to the current configuration location.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT AddConfigSection(
 ```  
   
 ### Parameters  
+
  `bstrSectionName`  
  A `BSTR` that contains the name of the section to add.  
   
@@ -24,6 +26,7 @@ HRESULT AddConfigSection(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ HRESULT AddConfigSection(
 |ERROR_INVALID_DATA|Indicates that the data is invalid.|  
   
 ## Remarks  
+
  Configuration locations enable the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system to customize the configuration based on the path of the content that the location represents. For instance, you may want to configure the `system.webServer/asp` configuration section for each Web site. In that case, you would remove the configuration section from the default location in the ApplicationHost.config configuration system file. To enable the configuration section for a Web site, you would add the configuration section under the Web site's configuration location.  
   
 ## Requirements  
@@ -45,4 +49,5 @@ HRESULT AddConfigSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocation Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md)

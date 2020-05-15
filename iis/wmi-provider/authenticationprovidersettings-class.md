@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b07e1d3e-6894-4ca3-b5e3-7f80e6944c12
 ---
 # AuthenticationProviderSettings Class
+
 Contains security support providers that are used for Integrated Windows authentication.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AuthenticationProviderSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AuthenticationProviderSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class AuthenticationProviderSettings : EmbeddedObject
 |`Providers`|An array of [StringElement](../wmi-provider/stringelement-class.md) values that specify security support providers that are used for Integrated Windows authentication.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Providers` array property of the [WindowsAuthenticationSection](../wmi-provider/windowsauthenticationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `AuthenticationProviderSettings`  
@@ -43,6 +49,7 @@ class AuthenticationProviderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
  [BasicAuthenticationSection Class](../wmi-provider/basicauthenticationsection-class.md)   

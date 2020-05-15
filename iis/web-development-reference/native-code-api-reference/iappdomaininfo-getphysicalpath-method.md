@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d248cfb6-55a2-3f6e-5353-e03d8baec11d
 ---
 # IAppDomainInfo::GetPhysicalPath Method
+
 Retrieves the physical path of the application domain.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetPhysicalPath(
 ```  
   
 ### Parameters  
+
  `pbstrPhysicalPath`  
  A pointer to a `BSTR` that contains the physical path of the application domain.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall GetPhysicalPath(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfo Interface](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md)

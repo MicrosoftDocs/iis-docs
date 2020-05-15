@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1dc21793-7db9-156b-9685-167462097678
 ---
 # IProcessPingCallback Interface
+
 Provides functionality to respond to a ping request.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IProcessPingCallback : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IProcessPingCallback` interface.  
   
 |Name|Description|  
@@ -20,12 +22,15 @@ struct IProcessPingCallback : IUnknown
 |[IProcessPingCallback::Respond Method](../../web-development-reference/native-code-api-reference/iprocesspingcallback-respond-method.md)|Provides a callback routine that responds to a ping.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IProcessPingCallback`  
@@ -40,4 +45,5 @@ struct IProcessPingCallback : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

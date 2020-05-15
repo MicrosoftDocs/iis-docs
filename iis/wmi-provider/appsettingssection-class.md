@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 351d0415-644c-cdae-4bc9-add1c923f483
 ---
 # AppSettingsSection Class1
+
 Contains custom application settings, such as file paths, XML Web service URLs, or information that is stored in the .ini file for an application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AppSettingsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AppSettingsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class AppSettingsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AppSettingsSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class AppSettingsSection : ConfigurationSectionWithCollection
 |`AppSettings`|An array of [KeyValueElement](../wmi-provider/keyvalueelement-class.md) values that contain key/value pairs that specify application setting names and corresponding values.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -58,6 +63,7 @@ class AppSettingsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [KeyValueElement Class](../wmi-provider/keyvalueelement-class.md)   
  [add Element for appSettings (General Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=70918)

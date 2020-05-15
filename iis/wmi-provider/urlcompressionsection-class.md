@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 356024fc-1000-cede-ffca-553146521b7a
 ---
 # UrlCompressionSection Class
+
 Enables or disables dynamic or static compression.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class UrlCompressionSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `UrlCompressionSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class UrlCompressionSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `UrlCompressionSection` class.  
   
 |Name|Description|  
@@ -36,9 +39,11 @@ class UrlCompressionSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  When the `DynamicCompressionBeforeCache` property is `true`, IIS dynamically compresses the response the first time a request is made. The compressed response is put into the output cache, and the cached response is sent to the client. Subsequent requests are served from the compressed response in the output cache.  
   
  When `DynamicCompressionBeforeCache` is `false`, IIS puts the noncompressed response into the output cache. Then, every time that the response is requested, IIS dynamically compresses the cached response as it is sent to the client.  
@@ -49,6 +54,7 @@ class UrlCompressionSection : ConfigurationSection
 >  If the `DynamicCompressionBeforeCache` property is `true` when the output cache response has been flushed, dynamic compression will not be performed before the response is put into the output cache. However, if the `DoDynamicCompression` property is `true`, dynamic compression will still occur after the response has been put into the output cache.  
   
 ## Example  
+
  The following example lists the dynamic and static compression settings for all paths and locations on a Web server. An empty `Location` property in the output indicates that the setting is global.  
   
 ```  
@@ -71,6 +77,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `UrlCompressionSection`  
@@ -85,5 +92,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)

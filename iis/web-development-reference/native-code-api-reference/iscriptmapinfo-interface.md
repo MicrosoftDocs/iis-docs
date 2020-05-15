@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cc44126f-5ba3-b432-bc2c-aea50024efaa
 ---
 # IScriptMapInfo Interface
+
 Retrieves configuration settings for request handlers.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IScriptMapInfo
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IScriptMapInfo` interface.  
   
 |Name|Description|  
@@ -30,6 +32,7 @@ class IScriptMapInfo
 |[GetScriptProcessor](../../web-development-reference/native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md)|Retrieves the script processor for a request handler.|  
   
 ## Remarks  
+
  The settings for request handlers in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] are stored in the ApplicationHost.config file, and they contain various attributes that define how request handlers work. For example, the following excerpt from an ApplicationHost.config file shows some of the possible configuration settings for ASP 3.0 or earlier, Internet Server API (ISAPI) DLLs, and static file handling.  
   
 ```  
@@ -68,4 +71,5 @@ class IScriptMapInfo
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

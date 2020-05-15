@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 08081804-c3f1-7971-b5f9-fc4e5e967106
 ---
 # IHttpApplication::GetApplicationId Method
+
 Retrieves the identifying application path for the current request.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR GetApplicationId(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the identifying path for the application pool.  
   
 ## Remarks  
+
  The `GetApplicationId` method returns the unique identity path for the application that is processing the current request. For example, the identifying path for the application pool that is processing requests for the default Web site would be /LM/W3SVC/1/ROOT.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetApplicationId` method to create an HTTP module that retrieves the identifying path for the current application and returns this information to a Web client.  
   
  [!code-cpp[IHttpApplicationGetApplicationId#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpApplicationGetApplicationId/cpp/IHttpApplicationGetApplicationId.cpp#1)]  
@@ -42,4 +47,5 @@ virtual PCWSTR GetApplicationId(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication Interface](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)

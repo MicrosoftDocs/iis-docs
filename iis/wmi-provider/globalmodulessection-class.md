@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 33de2b19-45d0-5b8d-da62-cc95a314d8d4
 ---
 # GlobalModulesSection Class
+
 Exposes configuration settings for IIS global modules.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class GlobalModulesSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `GlobalModulesSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class GlobalModulesSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `GlobalModulesSection` class.  
   
 |Name|Description|  
@@ -38,12 +41,15 @@ class GlobalModulesSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The `<globalModules>` section in the ApplicationHost.config file specifies the native modules at the server level. You can enable these modules by adding their names to the `<modules>` section at the desired configuration level in ApplicationHost.config or in a Web.config file. In WMI, you can do this by using the `Add` method of the [ModulesSection](../wmi-provider/modulessection-class.md) class.  
   
 ## Example  
+
  The following example lists the modules in the `<globalModules>` section.  
   
 ```  
@@ -72,6 +78,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -88,6 +95,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [GlobalModuleElement Class](../wmi-provider/globalmoduleelement-class.md)   

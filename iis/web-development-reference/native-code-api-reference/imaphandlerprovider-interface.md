@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 751560c1-2a88-7175-c78d-615c42f86feb
 ---
 # IMapHandlerProvider Interface
+
 Provides a request-level interface for processing [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IMapHandlerProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IMapHandlerProvider` interface.  
   
 |Name|Description|  
@@ -23,12 +25,15 @@ class IMapHandlerProvider : public IHttpEventProvider
 |[SetScriptName](../../web-development-reference/native-code-api-reference/imaphandlerprovider-setscriptname-method.md)|Specifies the script name for a request URL.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  An `IMapHandlerProvider` interface is created and passed to a module's [CHttpModule::OnMapRequestHandler](../../web-development-reference/native-code-api-reference/chttpmodule-onmaprequesthandler-method.md) method when the module has registered for the [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. You can use the methods provided by the `IMapHandlerProvider` interface to override the way that IIS processes a request.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IMapHandlerProvider`  
@@ -43,4 +48,5 @@ class IMapHandlerProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

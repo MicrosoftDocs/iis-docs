@@ -21,11 +21,13 @@ by [Gary Ericson](https://github.com/garyericson)
 | IIS 8.0 and earlier | Idle Worker Process Page-Out was not supported prior to IIS 8.5. |
 
 <a id="TOC301258515"></a>
+
 ## Problem
 
 Internet Information Services (IIS) on Windows Server 2012 provides the administrator with the option of timing out a worker process that is idle for a specified period of time. This is a good option for sites that are not accessed very often because it frees up system resources when the site is idle. The disadvantage is that the next time the site is accessed, the user will need to wait for the worker process to start again.
 
 <a id="TOC301258516"></a>
+
 ## Solution
 
 In IIS 8.5 and later, the administrator has the option of suspending an idle worker process rather than terminating it. A suspended worker process remains alive but is paged-out to disk, reducing the system resources it consumes. When a user accesses the site again, the worker process wakes up from suspension and is quickly available. When an idle worker process is terminated, the worker process is shut down, and the startup period will be longer when the site is subsequently accessed. Terminating the process is the default behavior, and the same behavior that has been used in previous versions of IIS prior to IIS 8.5.
@@ -33,6 +35,7 @@ In IIS 8.5 and later, the administrator has the option of suspending an idle wor
 The idleTimeoutAction attribute can be configured either for a single application pool or as a default for all application pools.
 
 <a id="TOC301258517"></a>
+
 ## Step by Step Instructions
 
 ### Configure Idle Worker Process Page-Out for a Single Application Pool
@@ -69,6 +72,7 @@ The idleTimeoutAction configuration can be entered in two places in the applicat
 ![Idle time-out in config file](idle-worker-process-page-out-in-iis85/_static/image4.jpg)
 
 <a id="TOC301258518"></a>
+
 ## Summary
 
 In this guide, you have configured IIS to suspend or terminate worker processes that have been idle for a specified amount of time.

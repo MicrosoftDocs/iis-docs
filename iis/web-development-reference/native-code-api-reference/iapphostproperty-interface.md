@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8cb03b60-3a5c-d308-1532-9f625ec1c5ec
 ---
 # IAppHostProperty Interface
+
 Represents a property of a configuration element.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostProperty : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostProperty` interface.  
   
 |Method|Description|  
@@ -22,6 +24,7 @@ interface IAppHostProperty : IUnknown
 |[SetMetadata](../../web-development-reference/native-code-api-reference/iapphostproperty-setmetadata-method.md)|Sets metadata for the current property.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostProperty` interface.  
   
 |Property|Description|  
@@ -33,11 +36,13 @@ interface IAppHostProperty : IUnknown
 |[Value](../../web-development-reference/native-code-api-reference/iapphostproperty-value-property.md)|Gets or sets the value of the current property.|  
   
 ## Example  
+
  The following code example reads the value of the `enabled` attribute by using the `IAppHostProperty::Value` property.  
   
  [!code-cpp[IAppHostAdminLibrary#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementGetCollection.cpp#2)]  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostProperty`  
@@ -52,5 +57,6 @@ interface IAppHostProperty : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md)

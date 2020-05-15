@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a882b65c-25bd-3e7d-a218-f41f1d6fdc8e
 ---
 # IAppHostCollectionSchema::GetMetadata Method
+
 Gets metadata from the collection schema.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata to return.  
   
@@ -25,6 +27,7 @@ HRESULT GetMetadata(
  A pointer to a `VARIANT` that contains the metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,6 +36,7 @@ HRESULT GetMetadata(
 |ERROR_NOT_SUPPORTED|Indicates that the metadata is not recognized.|  
   
 ## Remarks  
+
  This method is not implemented by the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Requirements  
@@ -45,5 +49,6 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: dfb46d88-0d13-f66b-440b-dd7eeef10582
 ---
 # PeriodicRestartSettings Class
+
 Specifies the conditions under which worker processes will be recycled.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class PeriodicRestartSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `PeriodicRestartSettings` class.  
   
 |Name|Description|  
@@ -27,14 +30,17 @@ class PeriodicRestartSettings : EmbeddedObject
 |`Time`|A read/write `datetime` value that specifies the amount of time before IIS recycles an isolated out-of-process application. The default value is 0, which disables the recycling.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `PeriodicRestart` property of the [RecyclingSettings](../wmi-provider/recyclingsettings-class.md) class.  
   
  For more information about the Windows Management Instrumentation (WMI) date/time format, see [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551).  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `PeriodicRestartSettings`  
@@ -49,6 +55,7 @@ class PeriodicRestartSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [RecyclingSettings Class](../wmi-provider/recyclingsettings-class.md)   
  [ScheduleElement Class](../wmi-provider/scheduleelement-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2dfffff0-93df-8dbd-4d01-36f83e72ca5b
 ---
 # AnonymousIdentificationSection Class1
+
 Specifies how cookies are used in a Web application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AnonymousIdentificationSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AnonymousIdentificationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class AnonymousIdentificationSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AnonymousIdentificationSection` class.  
   
 |Name|Description|  
@@ -42,9 +45,11 @@ class AnonymousIdentificationSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `Cookieless` property. The default is 1 (`UseCookies`).  
   
 |Value|Keyword|Description|  
@@ -64,6 +69,7 @@ class AnonymousIdentificationSection : ConfigurationSection
 |3|`All`|Specifies that both the `Validation` and `Encryption` values are used to protect the information in the cookie.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `AnonymousIdentificationSection`  
@@ -78,6 +84,7 @@ class AnonymousIdentificationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.SystemWebSectionGroup.AnonymousIdentification](/dotnet/api/system.web.configuration.systemwebsectiongroup.anonymousidentification) 
  System.Web.HttpCookie.Expires  
  System.Web.HttpCookie.Secure  

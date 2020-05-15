@@ -10,6 +10,7 @@ msc.type: config
 # Adding WebDAV Authoring Rules &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the [`<authoringRules>`](index.md) element specifies the access permissions for users or groups for specific content types for a unique authoring rule.
@@ -17,6 +18,7 @@ The `<add>` element of the [`<authoringRules>`](index.md) element specifies the 
 Authoring rules can be defined per-URI within a Web site, and specifies the WebDAV authoring permissions for that URI space. The permissions in this element are inherited, so child URIs will have the same permissions as a parent URI, provided that the child URI does not have unique permissions defined.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,6 +38,7 @@ Authoring rules can be defined per-URI within a Web site, and specifies the WebD
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -88,6 +91,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add WebDAV authoring rules
@@ -122,6 +126,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 6. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<authoringRules>` element is configurable per-URI in the ApplicationHost.config file. Settings can be stored globally, at the site level, or per folder. The `<authoringRules>` element cannot be delegated, so any `<authoringRules>` elements in Web.config files are ignored.
@@ -146,6 +151,7 @@ The following example lists a sample `<webdav>` element for the Default Web Site
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure WebDAV authoring rules so that WebDAV clients can publish files that are not listed in the IIS MIME map, and add a single authoring rule that grants Read, Write, and Source access to the *administrators* group.

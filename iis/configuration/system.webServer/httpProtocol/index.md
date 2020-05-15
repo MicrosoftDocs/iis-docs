@@ -10,6 +10,7 @@ msc.type: config
 # HTTP Protocol Settings &lt;httpProtocol&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<httpProtocol>` element configures HTTP keep-alive connections as well as both custom and redirect response headers that Internet Information Services (IIS) 7 sends to Web clients.
@@ -17,6 +18,7 @@ The `<httpProtocol>` element configures HTTP keep-alive connections as well as b
 A browser typically makes multiple requests in order to download an entire Web page. To enhance server performance, most Web browsers request that the server keep the connection open across these multiple requests, which is a feature known as HTTP keep-alives. Without HTTP keep-alives, a browser that makes many requests for a page containing multiple elements, such as graphics, might require a separate connection for each element. These additional requests and connections require extra server activity and resources, decreasing server efficiency. The additional connections also make a browser much slower and less responsive, especially across a slow connection.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,11 +31,13 @@ A browser typically makes multiple requests in order to download an entire Web p
 | IIS 6.0 | The **allowKeepAlive** attribute of the `<httpProtocol>` element replaces the IIS 6.0 **AllowKeepAlive** metabase property. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<httpProtocol>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable HTTP keep-alives for a Web site or application
@@ -63,6 +67,7 @@ The `<httpProtocol>` element is included in the default installation of IIS 7.
     [![](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -90,6 +95,7 @@ The following code samples enable HTTP keep-alives for the Default Web Site.
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples enable HTTP keep-alives for the Default Web Site.

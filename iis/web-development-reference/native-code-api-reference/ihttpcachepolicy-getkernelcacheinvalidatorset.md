@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ffaff14b-291f-4a3f-bb21-47792da9440b
 ---
 # IHttpCachePolicy::GetKernelCacheInvalidatorSet
+
 Gets a value that indicates that the kernel cache is invalidated.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual BOOL GetKernelCacheInvalidatorSet(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  Returns `true` if the kernel cache is invalidated; otherwise `false`.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual BOOL GetKernelCacheInvalidatorSet(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

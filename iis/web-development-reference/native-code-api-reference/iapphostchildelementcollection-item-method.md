@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 882e0b49-d2ca-c629-8018-0b73afab53cd
 ---
 # IAppHostChildElementCollection::Item Method
+
 Gets a configuration element from the collection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT Item(
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that contains the index of the element to return from the collection.  
   
@@ -24,6 +26,7 @@ HRESULT Item(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) instance.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ HRESULT Item(
 |ERROR_INVALID_INDEX|Indicates that the property is out of range.|  
   
 ## Example  
+
  The following code example lists all child elements under the `system.webServer/asp` configuration section for the MACHINE/WEBROOT/APPHOST configuration path.  
   
  [!code-cpp[IAppHostAdminLibrary#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
@@ -46,4 +50,5 @@ HRESULT Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostChildElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostchildelementcollection-interface.md)

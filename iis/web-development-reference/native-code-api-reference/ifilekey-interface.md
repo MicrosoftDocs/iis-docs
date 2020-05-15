@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f99a547e-97e3-0298-09df-297719c95c20
 ---
 # IFileKey Interface
+
 Represents key information for accessing associated data in the global file cache.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IFileKey : public IHttpCacheKey
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IFileKey` interface.  
   
 |Name|Description|  
@@ -25,15 +27,19 @@ class IFileKey : public IHttpCacheKey
 |[GetPath](../../web-development-reference/native-code-api-reference/ifilekey-getpath-method.md)|Returns the absolute physical path of a file.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  The `IFileKey` interface extends the [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) interface by adding support for returning the absolute physical path of a file through the [IFileKey::GetPath](../../web-development-reference/native-code-api-reference/ifilekey-getpath-method.md) method. `IFileKey` also overrides the [IHttpCacheKey::GetCacheName](../../web-development-reference/native-code-api-reference/ihttpcachekey-getcachename-method.md) method by providing the default implementation through the [IFileKey::GetCacheName](../../web-development-reference/native-code-api-reference/ifilekey-getcachename-method.md) method.  
   
 ## Notes for Implementers  
+
  For each non-abstract class that implements the `IFileKey` interface, you must provide a hash code in the `GetHash` method to map the `IFileKey` pointer data to a unique `DWORD` value for that data.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IFileKey` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -59,6 +65,7 @@ class IFileKey : public IHttpCacheKey
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)  
   
  `IFileKey`  
@@ -73,4 +80,5 @@ class IFileKey : public IHttpCacheKey
 |Header|Httpcach.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

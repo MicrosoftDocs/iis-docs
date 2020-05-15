@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 019fe3ea-ba55-4ef7-94cf-bcd64f98261b
 ---
 # CustomHeaderSettings Class
+
 Contains name/value pairs that are added to the HTTP headers in responses from the Web server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class CustomHeaderSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CustomHeaderSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class CustomHeaderSettings : EmbeddedObject
 |`CustomHeaders`|An array of [NameValueConfigurationElement](../wmi-provider/namevalueconfigurationelement-class.md) values that contain name/value pairs that are added to the HTTP headers in responses from the Web server.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `CustomHeaders` array property of the [HttpProtocolSection](../wmi-provider/httpprotocolsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `CustomHeaderSettings`  
@@ -43,6 +49,7 @@ class CustomHeaderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HttpProtocolSection Class](../wmi-provider/httpprotocolsection-class.md)   
  [NameValueConfigurationElement Class](../wmi-provider/namevalueconfigurationelement-class.md)   

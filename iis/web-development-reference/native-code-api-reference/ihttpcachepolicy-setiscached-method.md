@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: eb65432f-c325-3cda-3c56-a8f9c1cbb4d9
 ---
 # IHttpCachePolicy::SetIsCached Method
+
 Sets a value that indicates that the data is cached.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID SetIsCached(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To enable caching, call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetIsCached` method.  
   
  `SetIsCached` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -36,4 +39,5 @@ virtual VOID SetIsCached(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

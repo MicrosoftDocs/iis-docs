@@ -10,6 +10,7 @@ msc.type: config
 # Web Limits &lt;webLimits&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<webLimits>` element specifies TCP/IP connection and bandwidth limits.
@@ -41,6 +42,7 @@ Dynamic site activation is enabled when the number of sites handled by a server 
 > When Dynamic site activation is enabled, users are not allowed to use an IP address to send a web request. For example, if users try to browse to HTTP://127.0.0.1, they will receive a 400 Bad Request Error.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -53,11 +55,13 @@ Dynamic site activation is enabled when the number of sites handled by a server 
 | IIS 6.0 | The `<webLimits>` element replaces the following IIS 6.0 metabase settings: <ul> <li><strong>ConnectionTimeout</strong></li> <li><strong>HeaderWaitTimeout</strong></li> <li><strong>MaxGlobalBandwidth</strong></li> <li><strong>MinFileBytesPerSec</strong> </li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<webLimits>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the lower limit of dynamic site activation
@@ -79,6 +83,7 @@ The `<webLimits>` element is included in the default installation of IIS 7 and l
     [![](webLimits/_static/image2.png)](webLimits/_static/image1.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -104,6 +109,7 @@ The following configuration sample sets the connection time-out to 1 minute, the
 [!code-xml[Main](webLimits/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples set the connection time-out to 1 minute, the percentage of committed physical RAM to 150, the header wait time-out to 30 seconds, and the minimum allowable throughput rate to 500 bytes per second.

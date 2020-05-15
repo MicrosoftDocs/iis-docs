@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bf06e01f-21ea-14da-9bf5-aef117d9800c
 ---
 # IHttpUser Interface
+
 Provides request-specific information about a user. This information includes data such as credentials and role-based authorization.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpUser
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpUser` interface.  
   
 |Topic|Description|  
@@ -30,12 +32,15 @@ class IHttpUser
 |[SupportsIsInRole](../../web-development-reference/native-code-api-reference/ihttpuser-supportsisinrole-method.md)|Returns a value that indicates whether role support is enabled for the user.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  You can retrieve an `IHttpUser` pointer from an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer by calling the [IHttpContext::GetUser](../../web-development-reference/native-code-api-reference/ihttpcontext-getuser-method.md) method. To gain access to these interfaces, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
  The above code writes XML that is similar to the following to the response stream.  
@@ -68,4 +73,5 @@ class IHttpUser
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

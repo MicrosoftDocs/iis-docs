@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 94c060aa-b3e8-6a90-aeca-f11efc16ffa4
 ---
 # IAppHostSectionGroup::Name Property
+
 Gets the name of the configuration section group.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Name(
 ```  
   
 ### Parameters  
+
  `pbstrName`  
  A pointer to a `BSTR` that contains the name of the configuration section group.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_Name(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

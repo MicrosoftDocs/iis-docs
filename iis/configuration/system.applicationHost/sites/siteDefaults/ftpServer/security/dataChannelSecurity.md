@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Data Channel Security Settings &lt;dataChannelSecurity&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The File Transfer Protocol (FTP) supports a feature that is called server-to-server or third-party transfers. In this scenario, an FTP client connects and authenticates to two servers, and then instructs one server to send data and instructs another server to receive data. This mode of operation is not secure because the two servers cannot authenticate each another.
@@ -20,6 +21,7 @@ By default, the FTP 7 service enforces that the data and control channel for a s
 > The `<dataChannelSecurity>` element allows administrators to disable enforcement of matching client IP addresses for the control and data channel. However, it is **NOT** recommended to make changes to default settings. If the matching policy is not enforced, malicious clients may be able to hijack data channels and access information that is transferred over the data channel.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,6 +41,7 @@ By default, the FTP 7 service enforces that the data and control channel for a s
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -106,11 +109,13 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 The `<dataChannelSecurity>` section of the configuration should not be modified; therefore, no examples are available.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -129,6 +134,7 @@ None.
 The `<dataChannelSecurity>` section of the configuration should not be modified; therefore, no examples are available.
 
 <a id="006"></a>
+
 ## Sample Code
 
 The `<dataChannelSecurity>` section of the configuration should not be modified; therefore, no examples are available.

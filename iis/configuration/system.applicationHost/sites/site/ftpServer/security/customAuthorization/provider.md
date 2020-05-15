@@ -10,6 +10,7 @@ msc.type: config
 # FTP Custom Authorization Provider &lt;provider&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<provider>` element specifies the settings for custom authorization of an FTP site. This form of authorization uses custom authorization providers to validate user access.
@@ -17,6 +18,7 @@ The `<provider>` element specifies the settings for custom authorization of an F
 If you enable a custom authorization provider, the built-in authorization provider will not be used, and you will not be able to manually add an allow rule or a deny rule to the configuration.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,6 +31,7 @@ If you enable a custom authorization provider, the built-in authorization provid
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP authorization using a custom provider on your FTP site, you must install the **FTP Service** with **FTP Extensibity**.
@@ -57,6 +60,7 @@ To support FTP authorization using a custom provider on your FTP site, you must 
 5. Under **FTP Server**, select **FTP Service** and **FTP Extensibility**, and then click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 ### How to configure FTP authorization based upon a custom provider
@@ -82,6 +86,7 @@ To support FTP authorization using a custom provider on your FTP site, you must 
 6. Click **OK**.
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<provider>` element is configured at the site level.
@@ -108,6 +113,7 @@ The following sample displays a &lt;[providerDefinitions](../../../../../../syst
 [!code-xml[Main](provider/samples/sample2.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure a custom authorization provider.

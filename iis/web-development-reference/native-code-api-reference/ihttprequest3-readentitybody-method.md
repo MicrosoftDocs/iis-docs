@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4ae5283e-43eb-4f0c-9f42-a40c9e2bf317
 ---
 # IHttpRequest3::ReadEntityBody Method
+
 Reads the request results into a specified buffer.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ virtual HRESULT ReadEntityBody(
 ```  
   
 ### Parameters  
+
  `pvBuffer`  
  [OUT] A pointer to a buffer that receives the request body.  
   
@@ -44,6 +46,7 @@ virtual HRESULT ReadEntityBody(
  [OUT] `true` if completion is pending; otherwise `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -60,4 +63,5 @@ virtual HRESULT ReadEntityBody(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest3](../../web-development-reference/native-code-api-reference/ihttprequest3-readentitybody-method.md)

@@ -10,6 +10,7 @@ msc.type: config
 # HTTP Compression &lt;httpCompression&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<httpCompression>` element specifies the HTTP compression settings for Internet Information Services (IIS) 7. HTTP compression can provide faster transmission times between IIS and client browsers that can accept compressed files.
@@ -46,6 +47,7 @@ Each of these two compression schemes can be enabled using the `<schemes>` eleme
 > While the `<httpCompression>` element specifies the HTTP compression settings for Internet Information Services (IIS) 7, the [&lt;urlCompression&gt;](../urlcompression.md) element specifies whether compression is enabled for a URL namespace.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -58,6 +60,7 @@ Each of these two compression schemes can be enabled using the `<schemes>` eleme
 | IIS 6.0 | The `<httpCompression>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>HcCacheControlHeader</strong></li> <li><strong>HcCompressionDirectory</strong></li> <li><strong>HcDoDiskSpaceLimiting</strong></li> <li><strong>HcExpiresHeader</strong></li> <li><strong>HcMaxDiskSpaceUsage</strong></li> <li><strong>HcMinFileSizeForComp</strong></li> <li><strong>HcNoCompressionForHttp10</strong></li> <li><strong>HcNoCompressionForProxies</strong></li> <li><strong>HcNoCompressionForRange</strong></li> <li><strong>HcSendCacheHeaders</strong> </li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 HTTP compression is usually available on the default installation of IIS 7 and later. However, only static compression is installed by default. To install static or dynamic compression, use the following steps.
@@ -102,6 +105,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 5. Click **OK**.
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable or disable static and dynamic compression for a site or application
@@ -172,6 +176,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 5. In the **Actions** pane, click **Apply**.
  
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -210,6 +215,7 @@ The following default `<httpCompression>` element is configured in the Applicati
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples will add the MIME types for Office 2003 documents to the list of dynamic compression types.  

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1f635871-55f1-9e9f-8cda-1f215cb2f40d
 ---
 # IAppHostConfigLocation::Count Property
+
 Gets the number of configuration sections that are configured for the current configuration location.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT Count(
 ```  
   
 ### Parameters  
+
  `pcCount`  
  A pointer to a `DWORD` that contains the number of configuration sections that are configured for the current location.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocation Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md)

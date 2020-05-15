@@ -10,6 +10,7 @@ msc.type: config
 # Default Log File Settings for Web Sites &lt;logFile&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<logFile>` element of the `<siteDefaults>` element contains attributes that allow you to configure default logging for a site on IIS 7 and later.
@@ -34,6 +35,7 @@ You can define the categories of information that IIS logs by editing the **logE
 IIS 8.5 enables you to log custom fields in addition to the standard logged set. The log file format must be W3C to add custom fields. For more information, see [`customFields`](../../site/logfile/customfields/index.md).
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -46,11 +48,13 @@ IIS 8.5 enables you to log custom fields in addition to the standard logged set.
 | IIS 6.0 | The `<logFile>` element replaces sections of the logging properties on the IIS 6.0 **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<logFile>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to edit the default logging settings for a server
@@ -138,6 +142,7 @@ The `<logFile>` element is included in the default installation of IIS 7 and lat
     [![](index/_static/image12.png)](index/_static/image11.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -170,6 +175,7 @@ The following configuration sample specifies default `logFile` options.
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure the default `logFile` options for IIS 7.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c79e046a-5fd3-58d7-7962-1ff4120a06b3
 ---
 # IHttpCachePolicy::IsCached Method
+
 Returns a value that indicates whether the cache policy is enabled.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual BOOL IsCached(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if data is cached; otherwise, `false`.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `IsCached` method to verify whether the data is cached.  
   
  `IsCached` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -30,6 +34,7 @@ virtual BOOL IsCached(
 - `IsCached` returns the value of this Boolean.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes cache information to the response stream.  
   
  [!code-cpp[IHttpCachePolicy#10](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCachePolicy/cpp/IsCached.cpp#10)]  
@@ -54,4 +59,5 @@ Is Cached: false
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

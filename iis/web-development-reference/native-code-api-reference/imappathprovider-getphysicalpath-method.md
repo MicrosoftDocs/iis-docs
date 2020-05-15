@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 57fd7bef-bc47-7fac-286d-f1dec29f8732
 ---
 # IMapPathProvider::GetPhysicalPath Method
+
 Retrieves the physical path for the current request.  
   
 ## Syntax  
@@ -14,18 +15,22 @@ virtual PCWSTR GetPhysicalPath(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the physical path.  
   
 ## Remarks  
+
  The `GetPhysicalPath` method retrieves the path for the current request when an HTTP module is processing the [CHttpModule::OnMapPath](../../web-development-reference/native-code-api-reference/chttpmodule-onmappath-method.md) event.  
   
 > [!NOTE]
 >  The path that is returned by the `GetPhysicalPath` method is not translated to the physical path that provides the actual response. For example, if the default home page for a Web site is Default.asp, a request to http://example.com/ will return C:\Inetpub\Wwwroot, and not C:\Inetpub\Wwwroot\Default.asp.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetPhysicalPath` method to create an HTTP module that retrieves the physical path for the current request and returns the path to a Web client.  
   
  [!code-cpp[IMapPathProviderGetPhysicalPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMapPathProviderGetPhysicalPath/cpp/IMapPathProviderGetPhysicalPath.cpp#1)]  
@@ -44,4 +49,5 @@ virtual PCWSTR GetPhysicalPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMapPathProvider Interface](../../web-development-reference/native-code-api-reference/imappathprovider-interface.md)

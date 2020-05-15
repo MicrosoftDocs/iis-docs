@@ -10,6 +10,7 @@ msc.type: config
 # System FTP Authentication &lt;authentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<authentication>` element enabes you to configure the user accounts that can access the sites on a server. Use authentication in combination with authorization to secure access to content on your server. Authentication confirms the identity of a user, while authorization determines which resources users can or cannot access.  
@@ -17,6 +18,7 @@ The `<authentication>` element enabes you to configure the user accounts that ca
 IIS defines one type of authentication rule, Deny rules. Deny rules let you define the user accounts or user groups that cannot access the sites on a server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,6 +31,7 @@ IIS defines one type of authentication rule, Deny rules. Deny rules let you defi
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support denying access through authentication on your FTP server, you must install the FTP Service role service.
@@ -57,6 +60,7 @@ To support denying access through authentication on your FTP server, you must in
 5. Under **FTP Server**, select **FTP Service** and **FTP Extensibility**, and then click **OK**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to deny access to the FTP server based upon the logon failure rate
@@ -79,6 +83,7 @@ To support denying access through authentication on your FTP server, you must in
 6. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<authentication>` element is configured at the server level. 
@@ -100,6 +105,7 @@ The following sample configures a `<denyByFailure>` element.
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure denying access to the FTP server based upon the logon failure rate.

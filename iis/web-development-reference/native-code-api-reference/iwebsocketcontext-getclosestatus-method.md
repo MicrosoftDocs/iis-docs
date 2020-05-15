@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f5db45c5-a53b-4299-9802-c87e3a58b068
 ---
 # IWebSocketContext::GetCloseStatus Method
+
 Retrieves the close status code for the connection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT GetCloseStatus(
 ```  
   
 ### Parameters  
+
  `pStatusCode`  
  [OUT] Points to the close status code provided by the server.  
   
@@ -27,6 +29,7 @@ virtual HRESULT GetCloseStatus(
  [OUT] Number of bytes in the reason text string.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -43,4 +46,5 @@ virtual HRESULT GetCloseStatus(
 |Header|Iiswebsocket.h|  
   
 ## See Also  
+
  [IWebSocketContext Interface](../../web-development-reference/native-code-api-reference/iwebsocketcontext-interface.md)

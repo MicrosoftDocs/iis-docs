@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bed30d06-6c7c-34e9-2a31-8f9044a3445c
 ---
 # HTTP_TRACE_EVENT_ITEM Structure
+
 Contains itemized tracing information returned from trace providers.  
   
 ## Syntax  
@@ -29,6 +30,7 @@ struct HTTP_TRACE_EVENT_ITEM{
 |`pszDataDescription`|A `LPCWSTR` that contains an optional description of the data pointed to by `pbData`; otherwise, NULL.|  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can retrieve an [HTTP_TRACE_EVENT](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) pointer by calling the [IGlobalTraceEventProvider::GetTraceEvent](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-gettraceevent-method.md) method, for which you supply a pointer to the address of a NULL `HTTP_TRACE_EVENT` structure. You can then access each element in the `HTTP_TRACE_EVENT_ITEM` array by enumerating the [pEventItems](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) field in the `HTTP_TRACE_EVENT` structure up to, but not including, the number of elements specified by the [cEventItems](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) field.  
   
  The `pbData` field can be cast to more specific data, depending on the `dwDataType` field.  
@@ -40,6 +42,7 @@ struct HTTP_TRACE_EVENT_ITEM{
 >  For program clarity, consider using the [reinterpret_cast](https://go.microsoft.com/fwlink/?LinkId=57573) or [static_cast](https://go.microsoft.com/fwlink/?LinkId=57557) operators whenever possible when you perform these casts.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `HTTP_TRACE_EVENT_ITEM` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -114,4 +117,5 @@ struct HTTP_TRACE_EVENT_ITEM{
 |Header|Httptrace.h|  
   
 ## See Also  
+
  [Web Server Core Structures](../../web-development-reference/native-code-api-reference/web-server-core-structures.md)

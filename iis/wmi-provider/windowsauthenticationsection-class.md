@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ed2cdad3-5361-01cc-8350-9e215a97514e
 ---
 # WindowsAuthenticationSection Class
+
 Configures Integrated Windows authentication.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class WindowsAuthenticationSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `WindowsAuthenticationSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class WindowsAuthenticationSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WindowsAuthenticationSection` class.  
   
 |Name|Description|  
@@ -42,9 +45,11 @@ class WindowsAuthenticationSection : ConfigurationSectionWithCollection
 |`UseKernelMode`|A read/write `boolean` value. `true` if Integrated Windows authentication is done in kernel mode; otherwise, `false`. The default is `true`. **Note:**  Using kernel mode improves authentication performance. However, if you want to use the Kerberos protocol in a Web farm, you may want to set this property to `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -61,6 +66,7 @@ class WindowsAuthenticationSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [AuthenticationProviderSettings Class](../wmi-provider/authenticationprovidersettings-class.md)   
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   

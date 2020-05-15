@@ -113,6 +113,7 @@ IIS does not load the Windows user profile, but certain applications (such as Mi
 Note that IIS application pools can be configured to load the user profile however by setting the "LoadUserProfile" setting to "true".
 
 <a id="Isolate_Application_Pools"></a>
+
 ## Isolate Application Pools
 
 Separating applications into multiple application pools not only can improve performance but also improves server and site reliability. However, in previous versions of IIS, it has sometimes been difficult to isolate Web application pools from each other. If several application pools are configured to run with the same identity, then code running inside one application pool could use file system objects (FSOs) to access resources belonging to another.

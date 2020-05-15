@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bde6c297-ab07-6523-36ca-985f9d415995
 ---
 # ServerContainsSite Class1
+
 Provides a relationship between a Web server and its Web sites.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ServerContainsSite : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ServerContainsSite` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class ServerContainsSite : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A [Site](../wmi-provider/site-class.md) object that represents a Web site. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `ServerContainsSite`  
@@ -41,6 +46,7 @@ class ServerContainsSite : ObjectContainerAssociation
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [Server Class](../wmi-provider/server-class.md)   
  [Site Class](../wmi-provider/site-class.md)

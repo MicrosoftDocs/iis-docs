@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: aa15b851-545b-4310-8012-1caf9dc44090
 ---
 # AdapterElement Class
+
 Maps an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] mobile control to a specific device adapter.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AdapterElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AdapterElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class AdapterElement : CollectionElement
 |`Name`|A read-only `string` value that contains the fully qualified name of the control. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Device` property of the [DeviceElement](../wmi-provider/deviceelement-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `AdapterElement`  
@@ -44,6 +50,7 @@ class AdapterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ASP.NET Mobile Web Applications Adapter Mappings](https://go.microsoft.com/fwlink/?LinkId=67183)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [control Element for device for mobileControls (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67185)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 51ecf743-23a0-4f9d-8025-faa7543444d7
 ---
 # IAppHostMethod::Name Property
+
 Gets the name of the method.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT Name(
 ```  
   
 ### Parameters  
+
  `pbstrName`  
  Contains the name of the method.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ HRESULT Name(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

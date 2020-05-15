@@ -16,6 +16,7 @@ Now that IIS is installed all web servers. All web servers share both contend an
 When you are done with these tasks, record your design decisions before going on to [Step 4: Configure SSL Central Certificate Store](configuring-step-4-configure-ssl-central-certificate-store.md).
 
 <a id="31"></a>
+
 ## 3.1. Create a Server Farm with ARR
 
 To create your server farm, you must enter the IP address of every web server in your farm.
@@ -31,6 +32,7 @@ To create your server farm, you must enter the IP address of every web server in
 7. Click **Finish**.
 
 <a id="32"></a>
+
 ## 3.2. Configure Load Balancing with ARR
 
 This procedure configures ARR load balancing with an algorithm that distributes incoming request evenly among the web servers. It then sets up the server-farm health test feature.
@@ -48,6 +50,7 @@ This procedure configures ARR load balancing with an algorithm that distributes 
 9. To verify the health of your farm, click **Verify URL Test**.
 
 <a id="33"></a>
+
 ## 3.3. Change Application Pool Settings
 
 Because all HTTP requests and responses go through ARR, delays or errors occur if the application pool times out or recycles unexpectedly. Set the idle time-out and application pool recycle settings to zero to avoid problems.

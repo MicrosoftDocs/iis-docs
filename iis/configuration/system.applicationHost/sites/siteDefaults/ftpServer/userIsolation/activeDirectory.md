@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Active Directory User Isolation Settings &lt;activeDirectory&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<activeDirectory>` element specifies the credentials and connection time-out for communicating with an Active Directory server for FTP user isolation. This option is the same as choosing Active Directory user isolation in the IIS 6.0 FTP server, where a user's account must have the **msIIS-FTPRoot** and **msIIS-FTPDir** properties configured in their Active Directory objects.
@@ -19,6 +20,7 @@ The `<activeDirectory>` element specifies the credentials and connection time-ou
 For additional information about how to configure the Active Director properties, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=99787) topic.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -38,6 +40,7 @@ For additional information about how to configure the Active Director properties
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -105,6 +108,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to isolate users using Active Directory
@@ -136,6 +140,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 For additional information about how to set up the Active Directory, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=99787) topic.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<activeDirectory>` element is configured at the site level.
@@ -159,6 +164,7 @@ The following configuration sample displays an example `<siteDefaults>` element 
 [!code-xml[Main](activeDirectory/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples illustrate setting several of the FTP site defaults.

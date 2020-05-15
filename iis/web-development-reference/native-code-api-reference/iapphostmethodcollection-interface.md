@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: dd460889-c151-4b4e-9e37-dfcdc7d74c72
 ---
 # IAppHostMethodCollection Interface
+
 Represents a collection of methods.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ interface IAppHostMethodCollection : IUnknown
 ```  
   
 ## Methods  
+
  This interface contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostMethodCollection` interface.  
   
 |Property|Description|  
@@ -24,6 +27,7 @@ interface IAppHostMethodCollection : IUnknown
 |[IAppHostMethodCollection::Item Property](../../web-development-reference/native-code-api-reference/iapphostmethodcollection-item-property.md)|Gets the method with the requested index or method name in the collection.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostMethodCollection`  
@@ -38,5 +42,6 @@ interface IAppHostMethodCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

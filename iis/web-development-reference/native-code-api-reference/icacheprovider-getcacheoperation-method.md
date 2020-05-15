@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1ebbf591-6426-8b58-37f8-b3e428c3e45e
 ---
 # ICacheProvider::GetCacheOperation Method
+
 Returns the cache operation for the cache provider.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual CACHE_OPERATION GetCacheOperation(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A [CACHE_OPERATION](../../web-development-reference/native-code-api-reference/cache-operation-enumeration.md) enumeration for the [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve a `CACHE_OPERATION` enumeration by calling the `GetCacheOperation` method on the `ICacheProvider` pointer.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `ICacheProvider` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -51,4 +56,5 @@ GetCacheOperation: CACHE_OPERATION_RETRIEVE
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ICacheProvider Interface](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md)

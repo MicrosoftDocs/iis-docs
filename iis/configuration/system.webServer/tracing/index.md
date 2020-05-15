@@ -10,6 +10,7 @@ msc.type: config
 # Tracing &lt;tracing&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<tracing>` section group contains failed request tracing settings that you have configured and contains trace provider definitions provided during installation or by you on the Internet Information Services (IIS) 7 Web server.
@@ -21,6 +22,7 @@ IIS 7 only displays these messages after you install and enable the Tracing modu
 The `<tracing>` section contains a `<traceFailedRequests>` element and a `<traceProviderDefinition>` element. The first element configures failed request tracing for your Web site or application, and the second element defines the tracing providers available on the server. By default, IIS 7 includes tracing providers for ASP, ASP.NET, Internet Server API (ISAPI) extensions and the Web server itself. You can also include custom tracing providers.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -33,6 +35,7 @@ The `<tracing>` section contains a `<traceFailedRequests>` element and a `<trace
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 After you finish the default installation of IIS 7 and later, you must install the tracing role service to use failed request tracing. After you install the role service, you still must enable failed request tracing at the site level, application level, or directory level.
@@ -75,6 +78,7 @@ After you finish the default installation of IIS 7 and later, you must install t
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable tracing
@@ -135,6 +139,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 10. Click **Finish**.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<tracing>` section group at the server level in the ApplicationHost.config file or at the site level, application level, or directory level in a Web.config file.
@@ -157,6 +162,7 @@ The following configuration example configures tracing at the server level in th
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable verbose failed request tracing for HTTP 500 errors in ASP.NET content on all requests to \*.aspx pages.

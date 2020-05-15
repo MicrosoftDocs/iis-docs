@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8b902925-aeba-077a-a991-6bc9982a757a
 ---
 # AccessSection Class
+
 Specifies access permissions to content protected by Secure Sockets Layer (SSL).  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AccessSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AccessSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class AccessSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AccessSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class AccessSection : ConfigurationSection
 |`SslFlags`|A read/write `sint32` value that configures settings for content protected by SSL. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `SSLFlags` property. The default is 0 (`None`).  
   
 |Value|Keyword|Description|  
@@ -48,6 +53,7 @@ class AccessSection : ConfigurationSection
 |256|`Ssl128`|SSL with 128-bit encryption is required.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `AccessSection`  
@@ -62,6 +68,7 @@ class AccessSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

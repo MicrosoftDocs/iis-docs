@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f37e0c33-fc7d-b3ce-32b4-e980b4ffff06
 ---
 # ConfigurationSectionWithCollection.Clear Method
+
 Clears all elements from a collection in a configuration section.  
   
 ## Syntax  
@@ -23,9 +24,11 @@ ConfigurationSectionWithCollection.Clear(collectionName)
 |`collectionName`|A `string` value that contains the name of the collection to be removed.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Example  
+
  The following example clears the default documents, including all inherited default documents, for the default Web site. The code will cause the following XML to be added to the `<system.webServer>` section of the Web.config file for the default Web site:  
   
  `<defaultDocument>`  
@@ -64,6 +67,7 @@ oDefaultDocumentSection.Clear("Files.Files")
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)   
  [FileSettings Class](../wmi-provider/filesettings-class.md)

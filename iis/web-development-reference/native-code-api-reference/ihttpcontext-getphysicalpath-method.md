@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 664708a6-d319-eb3f-81fa-309082bce260
 ---
 # IHttpContext::GetPhysicalPath Method
+
 Retrieves the physical path for the current request.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual PCWSTR GetPhysicalPath(
 ```  
   
 ### Parameters  
+
  `pcchPhysicalPath`  
  A pointer to a `DWORD` that will contain the length of the string returned by `GetPhysicalPath`.  
   
 ## Return Value  
+
  A pointer to a string that contains the path.  
   
 ## Remarks  
+
  You can use the `GetPhysicalPath` method to retrieve the physical path of the current file that is being requested. For example, if a request were made for your site's home page, the `GetPhysicalPath` method might return *SystemDrive*\Inetpub\Wwwroot\Default.htm.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetPhysicalPath` method to create an HTTP module that retrieves the full path of the current request.  
   
  [!code-cpp[IHttpContextGetPhysicalPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetPhysicalPath/cpp/IHttpContextGetPhysicalPath.cpp#1)]  
@@ -43,4 +48,5 @@ virtual PCWSTR GetPhysicalPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

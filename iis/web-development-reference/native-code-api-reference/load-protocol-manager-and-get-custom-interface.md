@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: load-protocol-manager-and-get-custom-interface
 ---
 # IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
+
 Loads a specified protocol manager and retrieves an interface for that protocol manager.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
 ```  
   
 ### Parameters  
+
  `pProtocolManagerDll`  
  The DLL for the protocol manager to load.  
   
@@ -31,6 +33,7 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
  A pointer to a buffer that will receive the interface specified by `dwCustomInterfaceId`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
 |ERROR_INVALID_PARAMETER|Indicates that the interface specified by `dwCustomInterfaceId` is not valid.|  
   
 ## Remarks  
+
  The `LoadProtocolManagerAndGetCustomInterface` method allows one protocol manager to take advantage of functionality that is implemented in another protocol manager. You can load only a subset of protocol manager interfaces by using this method, because most interaction with protocol managers is completed through the worker process framework.  
   
  When you no longer need the interface, release it before you call the protocol manger's [IProtocolManager::Shutdown](../../web-development-reference/native-code-api-reference/iprotocolmanager-shutdown-method.md) method.  
@@ -54,5 +58,6 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfExposeProtocolManagerCustomInterface Interface](../../web-development-reference/native-code-api-reference/iwpfexposeprotocolmanagercustominterface-interface.md)   
  [Worker Process Framework API Reference](../../web-development-reference/native-code-api-reference/worker-process-framework-api-reference.md)

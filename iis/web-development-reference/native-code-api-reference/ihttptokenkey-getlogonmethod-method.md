@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6afc12d7-fcec-58f8-7c75-ebd2be61eede
 ---
 # IHttpTokenKey::GetLogonMethod Method
+
 Returns the `LOGON32_*` value used when the user logs on.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual DWORD GetLogonMethod(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that represents the logon method for a user.  
   
 ## Remarks  
+
  The `GetLogonMethod` returns the value from a call to the `LOGON32_LOGON_*` method. The following table describes logon methods with their corresponding numeric values defined in the Winbase.h header file.  
   
 |Method|Value|  
@@ -36,12 +40,15 @@ virtual DWORD GetLogonMethod(
 |`LOGON32_LOGON_NEW_CREDENTIALS`|9|  
   
 ## Notes for Implementers  
+
  Implementers of the [IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md) interface may use the values returned from both the `GetLogonMethod` and [GetUserName](../../web-development-reference/native-code-api-reference/ihttptokenkey-getusername-method.md) methods to implement the [IHttpCacheKey::GetIsEqual](../../web-development-reference/native-code-api-reference/ihttpcachekey-getisequal-method.md) method.  
   
 ## Notes for Callers  
+
  The `IHttpCacheKey::GetIsEqual` method returns `true` only if the `pCacheCompareKey` parameter can be cast to an `IHttpTokenKey` pointer, and if the values returned from both the `GetLogonMethod` and `GetUserName` methods are equivalent for the `pCacheCompareKey` parameter and the current `IHttpTokenKey` pointer.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `GetLogonMethod` information to the Event Viewer where the user logged in using `LOGON32_PROVIDER_WINNT50`.  
   
 > [!CAUTION]
@@ -69,4 +76,5 @@ IHttpTokenKey::GetLogonMethod: 3
 |Header|Httpcach.h|  
   
 ## See Also  
+
  [IHttpTokenKey Interface](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7d574944-1324-9e06-bd93-c1c69280cc53
 ---
 # ApplicationPoolContainsApplication Class1
+
 Provides a relationship between an application pool and its applications.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ApplicationPoolContainsApplication : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties for the `ApplicationPoolContainsApplication` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class ApplicationPoolContainsApplication : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A read-only [Application](../wmi-provider/application-class.md) object that represents an IIS application. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  To implement this association, use the configuration API to enumerate the applications in an application pool.  
   
 ## Example  
+
  The following example shows how to use the `ApplicationPoolContainsApplication` class to retrieve all the applications in an application pool.  
   
 ```  
@@ -56,6 +62,7 @@ Next
  `Set oApps = oAppPool.Associators_(, "Application")`  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `ApplicationPoolContainsApplication`  
@@ -70,6 +77,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)

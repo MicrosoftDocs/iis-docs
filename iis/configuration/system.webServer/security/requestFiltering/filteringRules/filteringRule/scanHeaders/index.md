@@ -10,11 +10,13 @@ msc.type: config
 # HTTP Headers for Filtering Rules &lt;scanHeaders&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<scanHeaders>` element of the `<filteringRule>` element defines a collection of HTTP headers that a request filtering rule will scan for strings that are specified in the [`<denyStrings>`](../denystrings/index.md) collection. The `<scanHeaders>` element contains a series of [`<add>`](add.md) elements, each of which specifies a unique HTTP header to add to the collection.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<scanHeaders>` element of the `<filteringRule>` element defines a collectio
 | IIS 6.0 | The `<filteringRules>` element is roughly analogous to the **RuleList** feature that was added to URLScan 3.0. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -70,6 +73,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add a request filtering rule
@@ -107,6 +111,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 7. Click **OK** to close the **Add Filtering Rule** dialog.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<scanHeaders>` element of the `<filteringRule>` element is configured at the site, application, or directory level.
@@ -130,6 +135,7 @@ The following sample displays a `<requestFiltering>` element that uses the `<den
 [!code-xml[Main](index/samples/sample1.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples demonstrate how to use the `<denyStrings>`, `<appliesTo>`, and `<scanHeaders>` elements to add a request filtering rule for the Default Web Site that will prevent image stealing (leeching) for a specific user agent. Here is the scenario for this example: If you detected that images on your web site were being leeched by a particular user agent, you could create a request filtering rule that denies access to image files for that specific user agent. In this particular example, the request filtering rule will search the HTTP user-agent header for the string "leech-bot," and will deny access to GIF, JPG, and PNG files if the user-agent header contains the search string.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 56fb1598-1a9e-3fa0-08c4-2789202f1d4b
 ---
 # SmtpNetworkSettings Class
+
 Configures Simple Mail Transfer Protocol (SMTP) network settings.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SmtpNetworkSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SmtpNetworkSettings` class.  
   
 |Name|Description|  
@@ -27,12 +30,15 @@ class SmtpNetworkSettings : EmbeddedObject
 |`UserName`|A read/write `string` value that specifies the user name with which to connect to an SMTP server.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Network` property of the [SmtpMailSettingsSection](../wmi-provider/smtpmailsettingssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SmtpNetworkSettings`  
@@ -47,5 +53,6 @@ class SmtpNetworkSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SmtpMailSettingsSection Class](../wmi-provider/smtpmailsettingssection-class.md)

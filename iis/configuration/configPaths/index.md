@@ -10,6 +10,7 @@ msc.type: config
 # Configuration Paths &lt;configPaths&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<configPaths>` element lists the locations where a configuration setting is set across the Internet Information Services (IIS) 7 distributed configuration file system. The contents of the `<configPaths>` element are generated dynamically, and can be accessed programmatically to list configuration settings starting from a user-specified path through each descendant path. You can also list the settings in the ApplicationHost.config and Web.config files by using the `<configPaths>` element.
@@ -29,6 +30,7 @@ The `<configPaths>` element contains a collection of `<searchResult>` elements t
 > The `<configPaths>` element and its child elements are read-only and cannot be configured by an end user.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -41,16 +43,19 @@ The `<configPaths>` element contains a collection of `<searchResult>` elements t
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<configPaths>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<configPaths>` element for IIS 7. For examples of how to configure the `<configPaths>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -69,6 +74,7 @@ None.
 > The `<configPaths>` element is generated dynamically. Because of this, you cannot add a `<configPaths>` element to your configuration files. For examples of how to access the `<configPaths>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples use the `<configPaths>` element to search the Default Web Site configuration namespace for every `<system.webServer/defaultDocument>` element, and then output the path and location for each element to the console.

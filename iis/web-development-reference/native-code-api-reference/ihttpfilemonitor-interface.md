@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d7385ff5-6b80-6604-72fc-822aa18fe453
 ---
 # IHttpFileMonitor Interface
+
 File change monitor.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpFileMonitor
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpFileMonitor` interface.  
   
 |Name|Description|  
@@ -21,6 +23,7 @@ class IHttpFileMonitor
 |[GetModuleContextContainer](../../web-development-reference/native-code-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)|Retrieves the module context container for a file monitor interface.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
@@ -35,5 +38,6 @@ class IHttpFileMonitor
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer::RegisterFileChangeMonitor Method](../../web-development-reference/native-code-api-reference/ihttpserver-registerfilechangemonitor-method.md)   
  [IGlobalFileChangeProvider::GetFileMonitor Method](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-getfilemonitor-method.md)

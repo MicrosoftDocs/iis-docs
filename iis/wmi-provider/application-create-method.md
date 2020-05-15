@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 872a0adb-04f5-4d48-a53d-4abd951ac8c3
 ---
 # Application.Create Method1
+
 Creates a Web application.  
   
 ## Syntax  
@@ -33,9 +34,11 @@ var app = webAdmin.Get("Application").Create(
 |`SiteName`|A required `string` value that contains the name of the Web site on which the application will be created.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  If the `PhysicalPath` parameter contains a nonexistent directory, the `Create` method will not automatically create the directory specified by `PhysicalPath`.  
   
  `Create` replaces previous methods of creating IIS applications. To create an application in IIS 6.0, you first created a new virtual directory by calling `SpawnInstance_` on [IIsWebVirtualDir](https://msdn.microsoft.com/58d536c2-28dc-4507-8157-0f3615e463d6) and then called the [IIsWebVirtualDir.AppCreate2](https://msdn.microsoft.com/a149487d-0146-4130-9d8b-2cc7ea1cc280), [IIsWebVirtualDir.AppCreate](https://msdn.microsoft.com/338e574b-6e1f-491b-b9bd-5604e0f4e197), or [IIsWebVirtualDir.AppCreate3](https://msdn.microsoft.com/e7826ec2-eb52-473c-a926-2c8d6cb431ec) method.  
@@ -44,6 +47,7 @@ var app = webAdmin.Get("Application").Create(
 >  You cannot use `Application.SpawnInstance_` and `Application.Put_` to create a new application. A new application must have at least an application path and site name, and you can specify these only through the `Create` method's `ApplicationPath` and `SiteName` parameters.  
   
 ## Example  
+
  The following example creates a new Web application.  
   
 > [!NOTE]
@@ -72,4 +76,5 @@ oWebAdmin.Get("Application").Create strAppPath, strSiteName, strPhysPath
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)

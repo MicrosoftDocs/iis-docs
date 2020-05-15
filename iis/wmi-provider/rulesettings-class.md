@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4e3c52f7-ade6-e250-9a65-92e6c09bacd7
 ---
 # RuleSettings Class
+
 Maps Web events to health-monitoring providers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class RuleSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `RuleSettings` class.  
   
 |Name|Description|  
@@ -23,9 +26,11 @@ class RuleSettings : EmbeddedObject
 |`Rules`|An array of [RuleElement](../wmi-provider/ruleelement-class.md) instances that maps Web events to health-monitoring providers.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Rules` array property of the [HealthMonitoringSection](../wmi-provider/healthmonitoringsection-class.md) class.  
   
  Health-monitoring events (also called Web events) are raised during Web application processing and are consumed by providers (listeners), which read and record the information packaged with the event.  
@@ -35,6 +40,7 @@ class RuleSettings : EmbeddedObject
  To disable an event, you can remove it from the `Rules` property.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `RuleSettings`  
@@ -49,6 +55,7 @@ class RuleSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [EventMappingSettings Class](../wmi-provider/eventmappingsettings-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   

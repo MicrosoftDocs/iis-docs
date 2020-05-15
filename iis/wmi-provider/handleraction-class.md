@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 68538138-fb53-ff14-d44e-d4dd82928822
 ---
 # HandlerAction Class
+
 Exposes configuration settings for handlers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HandlerAction : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HandlerAction` class.  
   
 |Name|Description|  
@@ -33,9 +36,11 @@ class HandlerAction : CollectionElement
 |`Verb`|A read/write `string` value that specifies a comma-delimited list of verbs. Use this property if you want the mapping to apply to specific request types. The default is `null`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Handlers` property of the [HandlersSection](../wmi-provider/handlerssection-class.md) class.  
   
  The following table lists the possible values for the `Precondition` property. The default is `null`.  
@@ -79,6 +84,7 @@ class HandlerAction : CollectionElement
 |3|`Unspecified`|The mapping type is not specified. The request is passed to the handler regardless of whether or not the request maps to a physical file or folder on disk. Use this setting if you are mapping your handler to a file name (for example, "MyHandler.axd") that you know does not exist on disk.|  
   
 ## Example  
+
  The following example adds three different categories of handlers to the `<handlers>` section: a legacy script map handler, two native module handlers, and a managed handler.  
   
 > [!NOTE]
@@ -165,6 +171,7 @@ End Sub
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `HandlerAction`  
@@ -179,6 +186,7 @@ End Sub
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HandlersSection Class](../wmi-provider/handlerssection-class.md)   

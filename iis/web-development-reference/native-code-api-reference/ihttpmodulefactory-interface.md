@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4b5ff315-35f8-c4e7-9581-562e71517a78
 ---
 # IHttpModuleFactory Interface
+
 Manages the creation of a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpModuleFactory
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpModuleFactory` interface.  
   
 |Name|Description|  
@@ -21,6 +23,7 @@ class IHttpModuleFactory
 |[Terminate](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-terminate-method.md)|Terminates an `IHttpModuleFactory` interface.|  
   
 ## Remarks  
+
  When you create an HTTP module, you must provide an implementation of an `IHttpModuleFactory` interface. Your exported [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function will use this module factory to create an instance of your [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class and to remove your `IHttpModuleFactory` interface from memory.  
   
  Your interface must provide two methods, [GetHttpModule](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md) and [Terminate](../../web-development-reference/native-code-api-reference/ihttpmodulefactory-terminate-method.md). Your module will use these two methods, respectively, to create your `CHttpModule` class instance and to unload itself from memory.  
@@ -35,5 +38,6 @@ class IHttpModuleFactory
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

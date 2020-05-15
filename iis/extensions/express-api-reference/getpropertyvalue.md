@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 09c0dfd3-69ad-42b8-87cf-5edd6d9b858b
 ---
 # GetPropertyValue
+
 Queries the specified property of the IIS version.  
   
 ## Syntax  
@@ -40,11 +41,13 @@ Queries the specified property of the IIS version.
      The value of the property specified by `bstrName`.  
   
 ## Return Value  
+
  `HRESULT`  
   
 ## Exceptions  
   
 ## Remarks  
+
  The following [IIISVersion](../../extensions/express-api-reference/iiisversion.md) objects can be used only for the IIS Express product type:  
   
 - `userInstanceHelper`. An [IIISUserData](../../extensions/express-api-reference/iiisuserdata.md) object.  
@@ -52,6 +55,7 @@ Queries the specified property of the IIS version.
 - `expressProcessHelper`. An [IIISExpressProcessUtility](../../extensions/express-api-reference/iiisexpressprocessutility.md) object.  
   
 ## See Also  
+
  [CreateObjectFromProgId](../../extensions/express-api-reference/createobjectfromprogid.md)   
  [CreateObjectFromCLSID](../../extensions/express-api-reference/createobjectfromclsid.md)   
  [ApplyIISEnvironmentVariables](../../extensions/express-api-reference/applyiisenvironmentvariables.md)   

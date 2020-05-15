@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b52b477c-0e04-f8f1-4607-13ba5212f91e
 ---
 # IHttpContext::ExecuteRequest Method
+
 Executes a child request.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ virtual HRESULT ExecuteRequest(
 ```  
   
 ### Parameters  
+
  `fAsync`  
  [IN] Always `true` (specifies asynchronous execution).  
   
@@ -35,6 +37,7 @@ virtual HRESULT ExecuteRequest(
  [OUT] `true` if asynchronous completion is still pending; otherwise, `false`. (Optional)  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -44,6 +47,7 @@ virtual HRESULT ExecuteRequest(
 |ERROR_STACK_OVERFLOW|Indicates that request exceeds the limit for recursive child requests.|  
   
 ## Remarks  
+
  The `ExecuteRequest` method executes the child request that is specified by the [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface in the `pHttpContext` parameter. You must create this request context by using the [IHttpContext::CloneContext](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md) method.  
   
 > [!IMPORTANT]
@@ -74,6 +78,7 @@ virtual HRESULT ExecuteRequest(
  If you specify an `IHttpUser` interface for `pHttpUser`, authentication will be skipped for the child request.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_MAP_PATH](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -110,6 +115,7 @@ virtual HRESULT ExecuteRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::CloneContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-clonecontext-method.md)   
  [IHttpContext::GetParentContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getparentcontext-method.md)   

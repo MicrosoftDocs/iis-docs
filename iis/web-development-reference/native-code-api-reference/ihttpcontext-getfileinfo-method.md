@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a3f4a0d8-8524-95a1-d8f0-22852f72736d
 ---
 # IHttpContext::GetFileInfo Method
+
 Retrieves the file information container for the current context.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IHttpFileInfo* GetFileInfo(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface.  
   
 ## Remarks  
+
  The `GetFileInfo` method returns a pointer to an `IHttpFileInfo` interface for the current context. The `IHttpFileInfo` interface contains several methods that can retrieve a variety of file-related information about the current request.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetFileInfo` method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example calls the [IHttpFileInfo::GetFilePath](../../web-development-reference/native-code-api-reference/ihttpfileinfo-getfilepath-method.md) method to retrieve the physical path of the file for the current request and then displays this information to a Web client.  
   
  [!code-cpp[IHttpContextGetFileInfo#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetFileInfo/cpp/IHttpContextGetFileInfo.cpp#1)]  
@@ -42,4 +47,5 @@ virtual IHttpFileInfo* GetFileInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

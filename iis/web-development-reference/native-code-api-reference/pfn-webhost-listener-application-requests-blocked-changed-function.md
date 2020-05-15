@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2fa65bea-8b54-9243-2efa-88c9b17169d7
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_REQUESTS_BLOCKED_CHANGED Function
+
 Notifies the listener adapter that the requests-blocked state has changed.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ typedef VOID
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -28,9 +30,11 @@ typedef VOID
  [IN] `true` to indicate that requests for this application should be blocked; `false` to indicate that requests for this application should be processed.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  This callback function tells the listener adapter that the requests-blocked state has changed for this application. When requests are blocked, the listener should return a failure code to the client and not allow the worker process to accept requests. This callback function results from a change in the System.ApplicationHost.Configuration.ApplicationElementDefaults.EnabledProtocols property for an application.  
   
  The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
@@ -45,4 +49,5 @@ typedef VOID
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)

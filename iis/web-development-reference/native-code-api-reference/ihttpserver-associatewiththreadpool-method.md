@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b215486a-b494-4873-044a-9d105ce7744e
 ---
 # IHttpServer::AssociateWithThreadPool Method
+
 Associates an asynchronous completion operation with the thread pool.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT AssociateWithThreadPool(
 ```  
   
 ### Parameters  
+
  `hHandle`  
  [IN] A `HANDLE` for the asynchronous operation.  
   
@@ -23,6 +25,7 @@ virtual HRESULT AssociateWithThreadPool(
  [IN] An `LPOVERLAPPED_COMPLETION_ROUTINE` function pointer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,9 +33,11 @@ virtual HRESULT AssociateWithThreadPool(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  Developers can use the `AssociateWithThreadPool` method to associate a handle for an asynchronous input/output operation with the IIS thread pool. Because the asynchronous operation associated with that handle will complete within the IIS thread pool, the `AssociateWithThreadPool` method allows you to perform a series of asynchronous operations without maintaining your own thread pool.  
   
 ## Example  
+
  The following code example demonstrates how to use the `AssociateWithThreadPool` method to create an HTTP module that creates a condition that requires an asynchronous input/output operation and associates the asynchronous completion routine with the IIS thread pool.  
   
  [!code-cpp[IHttpServerAssociateWithThreadPool#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerAssociateWithThreadPool/cpp/IHttpServerAssociateWithThreadPool.cpp#1)]  
@@ -51,4 +56,5 @@ virtual HRESULT AssociateWithThreadPool(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)

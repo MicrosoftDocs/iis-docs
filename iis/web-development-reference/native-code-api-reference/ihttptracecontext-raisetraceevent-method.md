@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 51a59c9b-7685-42ee-bab9-21d1938931f3
 ---
 # IHttpTraceContext::RaiseTraceEvent Method
+
 Raises a trace event for the trace context.  
   
 ## Syntax  
@@ -21,6 +22,7 @@ virtual HRESULT RaiseTraceEvent(
 |`pTraceEvent`|An [HTTP_TRACE_EVENT](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) pointer that contains trace event information.|  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,6 +32,7 @@ virtual HRESULT RaiseTraceEvent(
 |E_OUTOFMEMORY|Indicates that heap memory is exhausted.|  
   
 ## Remarks  
+
  For more information on how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
 ## Requirements  
@@ -42,4 +45,5 @@ virtual HRESULT RaiseTraceEvent(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpTraceContext Interface](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md)

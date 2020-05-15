@@ -10,11 +10,13 @@ msc.type: config
 # FTP Site Flush Log Method &lt;FlushLog&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<FlushLog>` method forces all entries in the FTP log buffer to be written from the buffer into the log file, emptying the buffer. `<FlushLog>` works at the FTP site level.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<FlushLog>` method forces all entries in the FTP log buffer to be written f
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -94,6 +97,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to flush the log buffer
@@ -101,6 +105,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 There is no control in the IIS Manager that calls the `<FlushLog>` method. You can call the method programmatically using the sample code that is provided below
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<ftpServer>` is configured at the site level.
@@ -114,6 +119,7 @@ Not applicable.
 Not applicable.
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable you to flush the log buffers for an FTP site programmatically.

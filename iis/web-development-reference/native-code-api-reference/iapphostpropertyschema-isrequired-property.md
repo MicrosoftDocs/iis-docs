@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4e91e3d6-b4fc-ea94-2a92-95edd88fe75e
 ---
 # IAppHostPropertySchema::IsRequired Property
+
 Determines whether a value must be defined for a property.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_IsRequired(
 ```  
   
 ### Parameters  
+
  `pfIsRequired`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if a value must be defined for a property; otherwise, `VARIANT_FALSE`. The default is `VARIANT_FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_IsRequired(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

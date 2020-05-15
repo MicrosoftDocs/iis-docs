@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 609b619c-3713-c9c5-85c4-07d615ac6970
 ---
 # IHttpServer::RegisterFileChangeMonitor Method
+
 Registers file-change notification for a particular directory.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT RegisterFileChangeMonitor(
 ```  
   
 ### Parameters  
+
  `pszPath`  
  The directory path to monitor.  
   
@@ -27,6 +29,7 @@ virtual HRESULT RegisterFileChangeMonitor(
  The monitoring object that should be released when it is no longer needed. This action may stop file-change monitoring.  
   
 ## Return Value  
+
  An HRESULT.  
   
 ## Remarks  

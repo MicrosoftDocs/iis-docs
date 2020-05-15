@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a1d4a093-133e-170f-fb48-82e1a67f3ca0
 ---
 # IAppHostConfigException::PostErrorLine Property
+
 Gets the contents of the line after the line in the configuration file that caused the current exception to be thrown.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_PostErrorLine(
 ```  
   
 ### Parameters  
+
  `pbstrPostErrorLine`  
  A pointer to a `BSTR` that contains the line after the line that caused the exception.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_PostErrorLine(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

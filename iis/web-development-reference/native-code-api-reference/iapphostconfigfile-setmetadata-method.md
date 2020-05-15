@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fb1403c4-1144-5169-c770-92680c558765
 ---
 # IAppHostConfigFile::SetMetadata Method
+
 Sets metadata in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT SetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata to set.  
   
@@ -24,6 +26,7 @@ HRESULT SetMetadata(
  A `VARIANT` that contains the metadata to set.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,4 +43,5 @@ HRESULT SetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)

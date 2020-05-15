@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5628ffe4-1978-4c37-5973-0caa93526126
 ---
 # IAppDomainInfoEnum::GetData Method
+
 Retrieves an [IAppDomainInfo](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md) interface.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetData(
 ```  
   
 ### Parameters  
+
  `ppAppDomainInfo`  
  The address of an `IAppDomainInfo` interface pointer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ virtual HRESULT __stdcall GetData(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  You must call the [MoveNext](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-movenext-method.md) method before each call to the `GetData` method.  
   
 ## Requirements  
@@ -38,6 +42,7 @@ virtual HRESULT __stdcall GetData(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfoEnum Interface](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-interface.md)   
  [IAppDomainInfoEnum::MoveNext Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-movenext-method.md)   
  [IAppDomainInfoEnum::Reset Method](../../web-development-reference/native-code-api-reference/iappdomaininfoenum-reset-method.md)

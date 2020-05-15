@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 88486f72-a4f1-90cd-5f66-3c60f8ab8fe3
 ---
 # IHealthStatusCallback Interface
+
 Allows a protocol manager, to which this interface is passed by the worker process framework, to report its current health status.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHealthStatusCallback : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHealthStatusCallback` interface.  
   
 |Name|Description|  
@@ -22,6 +24,7 @@ class IHealthStatusCallback : public IWpfReferencedObject
 |[ReportHealth](../../web-development-reference/native-code-api-reference/ihealthstatuscallback-reporthealth-method.md)|Allows a protocol manager to report its current health status in response to a query from the [IPmHealthAndIdleMonitor::CheckHealth](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-checkhealth-method.md) method.|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IHealthStatusCallback`  
@@ -36,6 +39,7 @@ class IHealthStatusCallback : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomActionResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomactionresultcallback-interface.md)   
  [IPmCustomActions Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions-interface.md)   
  [IPmHealthAndIdleMonitor Interface](../../web-development-reference/native-code-api-reference/ipmhealthandidlemonitor-interface.md)   

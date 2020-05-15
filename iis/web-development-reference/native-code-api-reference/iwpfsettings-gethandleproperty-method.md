@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c85c58b1-7996-c5b0-9f1c-c2fbae6e7f0a
 ---
 # IWpfSettings::GetHandleProperty Method
+
 Retrieves a `HANDLE` property from the worker process or application pool settings.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetHandleProperty(
 ```  
   
 ### Parameters  
+
  `SettingId`  
  [IN] A [WPF_SETTINGS_HANDLE_ENUM](../../web-development-reference/native-code-api-reference/wpf-settings-handle-enum-enumeration.md) value that specifies which `HANDLE` property to return.  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetHandleProperty(
  [OUT] A pointer to a `HANDLE` buffer that receives the property specified by `SettingId`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT GetHandleProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)   
  [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
  [IWpfSettings::GetDwordProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md)   

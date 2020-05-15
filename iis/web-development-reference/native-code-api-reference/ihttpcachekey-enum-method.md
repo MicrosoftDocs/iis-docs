@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 979f5cae-7487-de8b-2d93-7aab5b396862
 ---
 # IHttpCacheKey::Enum Method
+
 Enumerates an [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) pointer.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual VOID Enum(
 ```  
   
 ### Parameters  
+
  `cacheData`  
  A pointer to an `IHttpCacheSpecificData` value.  
   
 ## Remarks  
+
  The `Enum` method behavior depends on both interface and implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
  All current `IHttpCacheSpecificData`, [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md), [IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md), and [IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md) implementers perform empty operations on the `Enum` method.  
@@ -33,4 +36,5 @@ virtual VOID Enum(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCacheKey Interface](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)

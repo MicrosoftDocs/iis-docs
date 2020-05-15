@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1aa835a0-0dc5-4a77-a241-fab587dba22e
 ---
 # IGlobalApplicationPreloadProvider::ExecuteRequest Method
+
 Runs an HTTP request given its context and user information.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ Virtual HRESULT ExecuteRequest(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A context object that encapsulates all HTTP-specific information about an individual HTTP request.  
   
@@ -23,6 +25,7 @@ Virtual HRESULT ExecuteRequest(
  [IN] Request-specific information about the user, such as credentials.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, the values listed in the following table.  
   
 |Value|Description|  
@@ -39,4 +42,5 @@ Virtual HRESULT ExecuteRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalApplicationPreloadProvider Interface](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)

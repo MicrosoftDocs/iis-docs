@@ -10,6 +10,7 @@ msc.type: config
 # Adding HTTP Wildcard Redirects &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<httpRedirect>` element adds a wildcard redirection rule to the collection of redirection rules. Wildcard rules allow you to add redirection rules for groups of content. For example, if you have removed all of your \*.asp pages after migrating an application to .NET pages that are using \*.aspx file name extensions, you could add a wildcard redirection rule that redirects all of the \*.asp requests for your old ASP-based application to the home page of your Web site.
@@ -18,6 +19,7 @@ The `<add>` element of the `<httpRedirect>` element adds a wildcard redirection 
 > If you add wildcard redirection rules, you must remove the default destination value in the `<httpRedirect>` section in order for the wildcard rules to work.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,6 +32,7 @@ The `<add>` element of the `<httpRedirect>` element adds a wildcard redirection 
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 HTTP Redirection is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -73,11 +76,13 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding wildcard HTTP redirects for IIS 7. For examples of how to add `<add>` elements to the `<httpRedirect>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -101,6 +106,7 @@ The following configuration sample adds a wildcard redirection entry that redire
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples adds a wildcard redirection entry that redirects all requests for ASP files to the home page of your Web site.

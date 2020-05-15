@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 948a9a12-0ce1-9d96-c798-b3d8e6a377fa
 ---
 # ISendResponseProvider::GetHeadersBeingSent Method
+
 Retrieves a value that indicates whether the HTTP headers are being returned.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL GetHeadersBeingSent(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if headers are being returned; otherwise, `false`.  
   
 ## Remarks  
+
  The `GetHeadersBeingSent` method retrieves the status that indicates whether the HTTP headers are being returned with the current response. For example, if headers have been suppressed by the [IHttpResponse::SuppressHeaders](../../web-development-reference/native-code-api-reference/ihttpresponse-suppressheaders-method.md) method, `GetHeadersBeingSent` will return `false`.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the `IHttpResponse::SuppressHeaders` method to suppress the default set of HTTP headers and creates a new set of basic HTTP headers. The module then calls the `GetHeadersBeingSent` method to retrieve the status of the headers being sent. Finally the module creates a response body with the status of the headers and returns this information to a Web client.  
   
  [!code-cpp[ISendResponseProviderGetHeadersBeingSent#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/ISendResponseProviderGetHeadersBeingSent/cpp/ISendResponseProviderGetHeadersBeingSent.cpp#1)]  
@@ -42,6 +47,7 @@ virtual BOOL GetHeadersBeingSent(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ISendResponseProvider Interface](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)   
  [IHttpResponse::GetHeadersSuppressed Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getheaderssuppressed-method.md)   
  [IHttpResponse::SuppressHeaders Method](../../web-development-reference/native-code-api-reference/ihttpresponse-suppressheaders-method.md)

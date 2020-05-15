@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 38f4fbb2-7ae1-0028-4c19-53abe9d9ead2
 ---
 # IHttpPerfCounterInfo::IncrementCounter Method
+
 Increments a performance counter by a specified amount.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual VOID IncrementCounter(
 ```  
   
 ### Parameters  
+
  `dwCounterIndex`  
  The performance counter to increment.  
   
@@ -23,9 +25,11 @@ virtual VOID IncrementCounter(
  The amount to increment for the counter specified by `dwCounterIndex`.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `IncrementCounter` method increases the performance counter specified by the `dwCounterIndex` parameter by the value contained in the `dwValue` parameter.  
   
 > [!IMPORTANT]
@@ -41,5 +45,6 @@ virtual VOID IncrementCounter(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpPerfCounterInfo Interface](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-interface.md)   
  [IHttpPerfCounterInfo::DecrementCounter Method](../../web-development-reference/native-code-api-reference/ihttpperfcounterinfo-decrementcounter-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ca5369c7-43b2-0edf-f173-edbb1271802a
 ---
 # IHttpServer::RecycleProcess Method
+
 Recycles the worker process that is handling the current request.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual VOID RecycleProcess(
 ```  
   
 ### Parameters  
+
  `pszReason`  
  A pointer to a string that contains the reason for recycling the process.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `RecycleProcess` method requests a shutdown of the current worker process and then starts a new worker process to handle requests.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the `RecycleProcess` method to recycle the current worker process.  
   
 > [!IMPORTANT]
@@ -48,5 +53,6 @@ virtual VOID RecycleProcess(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IHttpServer::RecycleApplication Method](../../web-development-reference/native-code-api-reference/ihttpserver-recycleapplication-method.md)

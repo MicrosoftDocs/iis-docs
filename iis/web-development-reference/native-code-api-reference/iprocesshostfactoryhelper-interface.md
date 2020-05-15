@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: dc1cd4f7-dbff-408b-26a5-0c4d6c6897c8
 ---
 # IProcessHostFactoryHelper Interface
+
 Provides a method to retrieve an [IProcessHost](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md) interface.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IProcessHostFactoryHelper : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IProcessHostFactoryHelper` interface.  
   
 |Name|Description|  
@@ -20,12 +22,15 @@ struct IProcessHostFactoryHelper : IUnknown
 |[IProcessHostFactoryHelper::GetProcessHost](../../web-development-reference/native-code-api-reference/iprocesshostfactoryhelper-getprocesshost-method.md)|Retrieves an `IProcessHost` interface.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IProcessHostFactoryHelper`  
@@ -40,4 +45,5 @@ struct IProcessHostFactoryHelper : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

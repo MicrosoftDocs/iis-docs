@@ -4,9 +4,11 @@ ms.date: "10/07/2016"
 ms.assetid: 84cdeec4-70f9-44f3-84f9-3b690af1d340
 ---
 # Worker Process and Protocol Manager Interfaces
+
 This section describes the interfaces and methods available in the worker process framework that allow protocol managers to retrieve configuration information about a worker process. These interfaces also allow worker processes to retrieve listener-related health and Run-Time Status and Control information from a protocol manager. The interfaces and their respective methods are defined in the Wpframework.h header file.  
   
 ## In This Section  
+
  The IIS worker process framework exposes the following interfaces.  
   
 |Interface|Description|  
@@ -30,4 +32,5 @@ This section describes the interfaces and methods available in the worker proces
 |[IWpfSettings](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)|Retrieves configuration settings that apply to application pools and worker processes.|  
   
 ## See Also  
+
  [Worker Process Framework API Reference](../../web-development-reference/native-code-api-reference/worker-process-framework-api-reference.md)

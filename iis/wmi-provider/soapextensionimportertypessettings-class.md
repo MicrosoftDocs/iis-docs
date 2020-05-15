@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 396a11ff-0fa8-4f8c-bcbc-615bb7c647bb
 ---
 # SoapExtensionImporterTypesSettings Class
+
 Contains SOAP extension information that is used to create a Web service proxy class.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapExtensionImporterTypesSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapExtensionImporterTypesSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SoapExtensionImporterTypesSettings : EmbeddedObject
 |`SoapExtensionImporterTypes`|An array of [TypeElement](../wmi-provider/typeelement-class.md) values that specify the SOAP extensions to run when a service description for a Web service in the scope of the configuration file is accessed to create a proxy class.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SoapExtensionImporterTypes` array property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SoapExtensionImporterTypesSettings`  
@@ -43,6 +49,7 @@ class SoapExtensionImporterTypesSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [TypeElement Class](../wmi-provider/typeelement-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

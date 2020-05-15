@@ -16,6 +16,7 @@ In this phase of planning a web farm with IIS servers, you learn about load bala
 When you are done with these tasks, record your design decisions before going on to [Step 4: Plan SSL Central Certificate Store](planning-step-4-plan-ssl-central-certificate-store.md).
 
 <a id="31"></a>
+
 ## 3.1. Plan Load Balancing with ARR
 
 Load balancing is a way to distribute workload across multiple web servers. The purpose is to attain optimal resource utilization, maximize request throughput, minimize response time, and avoid server overload.
@@ -29,6 +30,7 @@ A key feature of ARR is called *host name affinity*. Host name affinity creates 
 Prepare a list of IP addresses for all servers in your farm. You will need the list to configure ARR load balancing.
 
 <a id="32"></a>
+
 ## 3.2. Survey Other Features of ARR
 
 In addition to load balancing, ARR provides many features that are beyond the scope of this scenario. The following table summarizes the features that are available in ARR.

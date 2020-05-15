@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6fc0b61d-8f0a-a82b-0c7f-084f35f33455
 ---
 # IAppDomainInfo::GetId Method
+
 Retrieves the application domain ID.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetId(
 ```  
   
 ### Parameters  
+
  `pbstrAppDomainId`  
  A pointer to a `BSTR` that contains the unique application domain ID.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall GetId(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IAppDomainInfo Interface](../../web-development-reference/native-code-api-reference/iappdomaininfo-interface.md)

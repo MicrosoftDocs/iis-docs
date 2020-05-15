@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 993e71b6-ee93-10d4-8db1-36d6d78ebb02
 ---
 # ApplicationPool.Stop Method1
+
 Stops an application pool.  
   
 ## Syntax  
@@ -17,15 +18,19 @@ oApplicationPool.Stop();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method corresponds to the `IIsApplicationPool.Stop` method in IIS 6.0.  
   
 ## Example  
+
  The following example stops the application pool named `DefaultAppPool`.  
   
 ```  
@@ -49,4 +54,5 @@ oAppPool.Stop
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)

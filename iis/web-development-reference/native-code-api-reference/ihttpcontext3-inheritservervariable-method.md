@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 53aec6b2-0ca9-4bc9-96bb-fd2a13a066ae
 ---
 # IHttpContext3::InheritServerVariable Method
+
 Causes the request to inherit the specified server variable.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT InheritServerVariable(
 ```  
   
 ### Parameters  
+
  `szName`  
  [IN] Name of the server variable to inherit.  
   
@@ -23,6 +25,7 @@ virtual HRESULT InheritServerVariable(
  [IN] `true` is the method should fail if the server variable does not exist; otherwise `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,4 +42,5 @@ virtual HRESULT InheritServerVariable(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext3 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)

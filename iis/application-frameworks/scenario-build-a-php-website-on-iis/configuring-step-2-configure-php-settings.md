@@ -16,6 +16,7 @@ In this step of building a PHP website on IIS, you configure the WinCache PHP ex
 When you complete these tasks, continue to [Step 3: Configure PHP Application Security](configuring-step-3-configure-php-application-security.md).
 
 <a id="21"></a>
+
 ## 2.1. Configure WinCache
 
 Before you perform this procedure, you should download in install PHP and WinCache as described in [1.2 Download and Install PHP](configuring-step-1-install-iis-and-php.md#12). For more information about WinCache, see [2.1. Plan WinCache Configuration](planning-step-2-plan-php-settings.md#21).
@@ -42,6 +43,7 @@ Before you perform this procedure, you should download in install PHP and WinCac
 **Warning**: Delete the phpinfo.php file when it's no longer needed.
 
 <a id="22"></a>
+
 ## 2.2. Configure Other PHP Settings
 
 The following procedure explains how to configure PHP settings in the php.ini file. For more information about PHP settings, see [2.2. Plan other PHP settings](planning-step-2-plan-php-settings.md#22).
@@ -57,6 +59,7 @@ The following procedure explains how to configure PHP settings in the php.ini fi
 5. Recycle the IIS Application Pools for PHP to pick up the configuration changes.
 
 <a id="23"></a>
+
 ## 2.3. Configure PHP Extensions
 
 The following procedure shows how to download and install a PHP extension. For information about PHP extensions, see [2.3 Plan PHP Extensions](planning-step-2-plan-php-settings.md#23).

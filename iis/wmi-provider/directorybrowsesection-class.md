@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9bb4e71c-9b3c-7539-a6a1-33808d7698ce
 ---
 # DirectoryBrowseSection Class
+
 Configures directory browsing in IIS.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class DirectoryBrowseSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `DirectoryBrowseSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class DirectoryBrowseSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DirectoryBrowseSection` class.  
   
 |Name|Description|  
@@ -35,9 +38,11 @@ class DirectoryBrowseSection : ConfigurationSection
 |`ShowFlags`|A `sint32` value containing a mask that configures the display of file information in a browsed directory. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  If directory browsing is enabled for a directory in IIS, users receive a page that lists the contents of the directory when the following are true:  
   
 - The user does not specify a file in the URL (for example, the user goes to http://www.contoso.com/ instead of http://www.contoso.com/default.htm).  
@@ -59,6 +64,7 @@ class DirectoryBrowseSection : ConfigurationSection
 |32|`LongDate`|The last modified date in extended format for each file.|  
   
 ## Example  
+
  The following example displays the properties of the `DirectoryBrowseSection` class for the default Web site.  
   
 ```  
@@ -91,6 +97,7 @@ WScript.Echo "LockItem: " & _
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `DirectoryBrowseSection`  
@@ -105,5 +112,6 @@ WScript.Echo "LockItem: " & _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [Configure Directory Browsing](https://go.microsoft.com/fwlink/?LinkId=64345)

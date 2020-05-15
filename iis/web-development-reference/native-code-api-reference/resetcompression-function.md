@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8c4c5c42-9c9a-4075-b618-3b2057be2e46
 ---
 # ResetCompression Function
+
 Resets the compression context.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT WINAPI ResetCompression(
 ```  
   
 ### Parameters  
+
  `context`  
  [OUT] Pointer to the compression context to reset.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ HRESULT WINAPI ResetCompression(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  This function is a required export, but is not used in IIS 7.0 on Windows Vista or on Windows Server 2008. This function has been deprecated and is not a required export for IIS 7.5 on Windows 7 or on Windows Server 2008 R2, or for IIS 8.0 on Windows 8 Client or on Windows 8 Server.  
   
 ## Requirements  
@@ -38,4 +42,5 @@ HRESULT WINAPI ResetCompression(
 |Header|Httpcompression.h|  
   
 ## See Also  
+
  [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

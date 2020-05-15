@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1c7b8e2b-2ce9-5bb5-87a5-4ac1603c0c66
 ---
 # SSLBinding Class
+
 Represents a Secure Sockets Layer (SSL) binding.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SSLBinding : Object
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SSLBinding` class.  
   
 |Name|Description|  
@@ -20,6 +22,7 @@ class SSLBinding : Object
 |[Create](../wmi-provider/sslbinding-create-method.md)|Creates a Secure Sockets Layer (SSL) binding.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SSLBinding` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class SSLBinding : Object
 |`SslUseDsMapper`|A read/write `boolean` value. `true` if the Microsoft Active Directory certificate mapper is used for client certificate authentication; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  To enable SSL for a Web site, you must first create an SSL binding and then add it to the Web site. You can see code examples for these steps in the [SSLBinding.Create](../wmi-provider/sslbinding-create-method.md) method topic. To enable SSL in a domain environment, you must also set the `SslUseDsMapper` property to `true` and the `Enabled` property of the[ClientCertificateMappingAuthenticationSection](../wmi-provider/clientcertificatemappingauthenticationsection-class.md) class to `true`.  
   
  The following table lists the possible values for the `CertificateCheckMode` property.  
@@ -53,6 +58,7 @@ class SSLBinding : Object
 |65536|`DisableClientCertUsageCheck`|No client certificate usage check is performed.|  
   
 ## Example  
+
  The following example enumerates the secure bindings on a Web server.  
   
 ```  
@@ -71,6 +77,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [Object](../wmi-provider/object-class.md)  
   
  `SSLBinding`  
@@ -85,6 +92,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Object Class](../wmi-provider/object-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   

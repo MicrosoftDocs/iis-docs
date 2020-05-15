@@ -10,6 +10,7 @@ msc.type: config
 # Adding Query String Sequences To Deny &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<denyQueryStringSequences>` element specifies a unique sequence of query string characters that IIS will deny, which helps prevent attacks on the Web server that use the query string to deliver the attack payload.
@@ -27,6 +28,7 @@ The `<add>` element of the `<denyQueryStringSequences>` element specifies a uniq
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
  
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,6 +41,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 6.0 | The `<denyQueryStringSequences>` element is roughly analogous to the **[DenyQueryStringSequences]** section that was added to URLScan 3.0. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -82,6 +85,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to deny a query string sequence
@@ -108,6 +112,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 5. In the **Deny Query String** dialog box, enter the query string sequence that you wish to block, and then click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<add>` element of the `<denyQueryStringSequences>` element is configured at the site, application, or directory level.
@@ -129,6 +134,7 @@ The following sample illustrates a combination of a `<denyQueryStringSequences>`
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples demonstrate how to add a query string sequence that will be denied on the Default Web Site.

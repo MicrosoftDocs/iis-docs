@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2018753d-8528-44f4-a4c3-dbde51b5f2ef
 ---
 # IAppHostMethodExtension Interface
+
 Used to handle method extensions in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostMethodExtension : public IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostMethodExtension` interface.  
   
 |Method|Description|  
@@ -20,9 +22,11 @@ IAppHostMethodExtension : public IUnknown
 |[IAppHostMethodExtension::ProvideMethod Method](../../web-development-reference/native-code-api-reference/iapphostmethodextension-providemethod-method.md)|Populates the value of a dynamic method in a specified element.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Remarks  
+
  When this interface is implemented, the configuration system will call it to handle dynamic configuration.  
   
  The administration system allows dynamic methods to be defined, provided that they are backed by a class that implements the `IAppHostMethodExtension` interface.  
@@ -31,6 +35,7 @@ IAppHostMethodExtension : public IUnknown
 >  The `IAppHostMethodExtension` interface is designed to work on a local computer; you cannot use this interface to manage a remote computer.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostMethodExtension`  
@@ -45,6 +50,7 @@ IAppHostMethodExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)   
  [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)   

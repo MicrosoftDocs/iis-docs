@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e29ce6f7-d839-ee92-184f-747f98f6a456
 ---
 # IHttpRequest::ReadEntityBody Method
+
 Returns the HTTP request entity body.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ virtual HRESULT ReadEntityBody(
 ```  
   
 ### Parameters  
+
  `pvBuffer`  
  [OUT] A pointer to a buffer that receives the request body.  
   
@@ -35,6 +37,7 @@ virtual HRESULT ReadEntityBody(
  [OUT] A pointer to a Boolean buffer that receives a value that specifies whether an asynchronous completion is pending.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -46,6 +49,7 @@ virtual HRESULT ReadEntityBody(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `ReadEntityBody` method supports both synchronous and asynchronous calls.  
   
 > [!NOTE]
@@ -56,6 +60,7 @@ virtual HRESULT ReadEntityBody(
  In addition, the `pfCompletionPending` buffer will contain a Boolean value that specifies whether an asynchronous completion is pending.  
   
 ## Example  
+
  The following code example demonstrates how to use the `ReadEntityBody` method to create an HTTP module that retrieves a 1-KB buffer section from the current request.  
   
  [!code-cpp[IHttpRequestReadEntityBody#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestReadEntityBody/cpp/IHttpRequestReadEntityBody.cpp#1)]  
@@ -74,6 +79,7 @@ virtual HRESULT ReadEntityBody(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::GetRemainingEntityBytes Method](../../web-development-reference/native-code-api-reference/ihttprequest-getremainingentitybytes-method.md)   
  [IHttpRequest::InsertEntityBody Method](../../web-development-reference/native-code-api-reference/ihttprequest-insertentitybody-method.md)

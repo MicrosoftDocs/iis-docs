@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1a551d62-b9c9-0f51-921b-60bd965ffa19
 ---
 # HttpErrorElement Class
+
 Configures the response to a specific HTTP error.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpErrorElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpErrorElement` class.  
   
 |Name|Description|  
@@ -27,9 +30,11 @@ class HttpErrorElement : CollectionElement
 |`SubStatusCode`|A required unique read/write `sint32` value that contains a substatus code from –1 through 999. The default is –1. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HttpErrors` array property of the [HttpErrorsSection](../wmi-provider/httperrorssection-class.md) class.  
   
  This class represents an `<error>` element in the `<httpErrors>` section of the ApplicationHost.config file.  
@@ -43,6 +48,7 @@ class HttpErrorElement : CollectionElement
 |2|`Redirect`|The Web server redirects the request to the URL specified in `Path`.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `HttpErrorElement`  
@@ -57,6 +63,7 @@ class HttpErrorElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpErrorsSection Class](../wmi-provider/httperrorssection-class.md)   
  [Configuring Custom Error Messages](https://go.microsoft.com/fwlink/?LinkId=61892)   

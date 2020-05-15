@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b76631cc-1f8a-0b0d-8a3a-8d15661926bb
 ---
 # SystemCodeDomSection Class
+
 Specifies a collection of compilers that provide Code Document Object Model (CodeDOM) support.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SystemCodeDomSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SystemCodeDomSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class SystemCodeDomSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SystemCodeDomSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class SystemCodeDomSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -57,5 +62,6 @@ class SystemCodeDomSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CompilerSettings Class](../wmi-provider/compilersettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)

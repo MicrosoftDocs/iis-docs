@@ -10,6 +10,7 @@ msc.type: config
 # Listener Adapters &lt;listenerAdapters&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<listenerAdapters>` element specifies configuration settings for listener adapters for Internet Information Services (IIS) 7. Listener adapters are components that establish communication between non-HTTP protocol listener services and the Windows Process Activation Service (WAS). Changes to the `<listenerAdapters>` element take effect only when a listener adapter connects with WAS. In most cases, this connection requires that the server be restarted.
@@ -19,6 +20,7 @@ The `<listenerAdapters>` element specifies configuration settings for listener a
 - The World Wide Web Publishing Service (W3SVC) contains HTTP-specific functionality for IIS 7, so it does not use additional `<listenerAdapters>` attributes. - The FTP service, which does not require the WAS, does not have a `<listenerAdapters>` entry.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,16 +33,19 @@ The `<listenerAdapters>` element specifies configuration settings for listener a
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<listenerAdapters>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding listener adapters for IIS 7. For examples of how to add listener adapters programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -60,6 +65,7 @@ The following configuration sample adds a listener adapter for a Gopher protocol
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples add a listener adapter for a Gopher protocol provider, and specify both the name of the DLL and its initialization function.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a3d195c5-6bf1-27c5-d9a4-6be71d081161
 ---
 # IHttpModuleRegistrationInfo::SetGlobalNotifications Method
+
 Registers the global-level notifications for a module.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT SetGlobalNotifications(
 ```  
   
 ### Parameters  
+
  `pGlobalModule`  
  [IN] A pointer to a [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) class.  
   
@@ -23,6 +25,7 @@ virtual HRESULT SetGlobalNotifications(
  [IN] A bitmask value that contains the global notifications to register. (Defined in [Httpserv.h](../../web-development-reference/native-code-api-reference/request-processing-constants.md).)  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -31,6 +34,7 @@ virtual HRESULT SetGlobalNotifications(
 |ERROR_ALREADY_EXISTS|Indicates that the module has already been registered.|  
   
 ## Remarks  
+
  The `SetGlobalNotifications` method registers the request-level notifications for a `CGlobalModule` class.  
   
 > [!NOTE]
@@ -42,6 +46,7 @@ virtual HRESULT SetGlobalNotifications(
 > The `CGlobalModule` class must define a [Terminate](../../web-development-reference/native-code-api-reference/cglobalmodule-terminate-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
   
 - The [SetRequestNotifications](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method registers a [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class for a request-level [OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
@@ -73,6 +78,7 @@ virtual HRESULT SetGlobalNotifications(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpModuleRegistrationInfo Interface](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-interface.md)   
  [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)   
  [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)   

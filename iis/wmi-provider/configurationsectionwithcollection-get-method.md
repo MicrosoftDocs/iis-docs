@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 76e3b93f-8701-4c83-aa0c-08a662bcb258
 ---
 # ConfigurationSectionWithCollection.Get Method
+
 Retrieves the specified member of a collection from a configuration section.  
   
 ## Syntax  
@@ -31,9 +32,11 @@ CollectionElement
 |`CollectionElement`|A [CollectionElement](../wmi-provider/collectionelement-class.md) object variable into which the retrieved collection element will be put (for example, `oModule`).|  
   
 ## Return Value  
+
  `void`.  
   
 ## Remarks  
+
  This method is useful when you want to retrieve only one member of a collection.  
   
  The following examples demonstrate syntax variations for the `CollectionName` parameter.  
@@ -63,6 +66,7 @@ CollectionElement
  `"provider='ASP'", oTraceAreaElement`  
   
 ## Example  
+
  The following example retrieves the name and type of the `RoleManager` module from the `<modules>` section of the ApplicationHost.config file.  
   
 ```  
@@ -106,6 +110,7 @@ WScript.Echo "Module Type: " & oModule.Type
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ModuleAction Class](../wmi-provider/moduleaction-class.md)   

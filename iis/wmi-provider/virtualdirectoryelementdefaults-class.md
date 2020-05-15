@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 270a77bc-b340-b5b7-05f2-d7fbc0f9f34a
 ---
 # VirtualDirectoryElementDefaults Class1
+
 Exposes default configuration settings for IIS virtual directories.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class VirtualDirectoryElementDefaults : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `VirtualDirectoryElementDefaults` class.  
   
 |Name|Description|  
@@ -28,9 +31,11 @@ class VirtualDirectoryElementDefaults : EmbeddedObject
 |`UserName`|A read/write `string` value that specifies a default user who has rights to access any configuration files or content in a virtual directory. The default is `null`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `VirtualDirectoryDefaults` property of the [Server](../wmi-provider/server-class.md), [Site](../wmi-provider/site-class.md), and [Application](../wmi-provider/application-class.md) classes.  
   
  The following table contains the possible values and keywords for the `LogonMethod` property. The default is 3 (ClearText). For more information, see the [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074) function.  
@@ -43,6 +48,7 @@ class VirtualDirectoryElementDefaults : EmbeddedObject
 |3|ClearText|Enables the user to log on by using Basic authentication. The user's name and password are preserved in an authentication package, which allows the server to make connections to other network servers while impersonating the client.<br /><br /> An authentication package is a DLL that encapsulates the authentication logic that determines whether to permit a user to log on. Local Security Authority (LSA) authenticates a user logon by sending the request to an authentication package. The authentication package then examines the logon information and either authenticates or rejects the user logon attempt.|  
   
 ## Example  
+
  The following example shows how to set the user name and password for all virtual directories on a Web site. It then shows how to retrieve all the virtual directory defaults for the site.  
   
 ```  
@@ -87,6 +93,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `VirtualDirectoryElementDefaults`  
@@ -101,6 +108,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [Server Class](../wmi-provider/server-class.md)   

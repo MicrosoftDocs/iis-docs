@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 26d0aad9-adfb-4db9-83b0-d8dd936c1dbc
 ---
 # IWebSocketContext::WriteFragment Method
+
 Writes a data fragment to an asynchronous connection.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ virtual HRESULT WriteFragment(
 ```  
   
 ### Parameters  
+
  `pData`  
  [IN] Data fragment to write.  
   
@@ -47,6 +49,7 @@ virtual HRESULT WriteFragment(
  [OUT] `true` if an asynchronous completion is pending for this call; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -63,4 +66,5 @@ virtual HRESULT WriteFragment(
 |Header|Iiswebsocket.h|  
   
 ## See Also  
+
  [IWebSocketContext Interface](../../web-development-reference/native-code-api-reference/iwebsocketcontext-interface.md)

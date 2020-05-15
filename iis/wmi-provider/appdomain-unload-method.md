@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 79c8dac8-62d9-2d41-6948-19907d73dad5
 ---
 # AppDomain.Unload Method
+
 Unloads an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application domain from a Web server.  
   
 ## Syntax  
@@ -17,15 +18,19 @@ oAppDomain.Unload();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  The IIS 6.0 `AppUnload` command unloaded out-of-process ASP applications. The [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] `AppDomain.Unload` method unloads [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application domains. This method applies only to managed code. [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] has no method that corresponds to `AppUnload` because the IIS 5.0 compatibility mode that `AppUnload` supported is now deprecated.  
   
 ## Example  
+
  The following example demonstrates how to unload an application domain. The first section of the example unloads all application domains on a Web server. The second section unloads only the application domain named "Northwind".  
   
 ```  
@@ -68,4 +73,5 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AppDomain Class](../wmi-provider/appdomain-class.md)

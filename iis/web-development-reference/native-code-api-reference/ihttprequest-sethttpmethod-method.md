@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: abf2c37d-5703-8701-ad32-0f8480118d52
 ---
 # IHttpRequest::SetHttpMethod Method
+
 Sets the HTTP method for the request.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT SetHttpMethod(
 ```  
   
 ### Parameters  
+
  `pszHttpMethod`  
  [IN] The HTTP method to set.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -28,9 +31,11 @@ virtual HRESULT SetHttpMethod(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `SetHttpMethod` modifies the HTTP method for the current request. The method specified by the `pszHttpMethod` parameter can be a custom method or a method defined in Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," or RFC 2616, "Hypertext Transfer Protocol -- HTTP/1.1." Subsequent request processing functions and logging operations will process the new method as if the client had requested the method. Therefore, any error conditions caused by modifying the method will be returned to the client. For example, if the new method is not supported, the Web server will return an HTTP 405 error.  
   
 ## Example  
+
  The following code example demonstrates how to use the `SetHttpMethod` method to create an HTTP module that modifies the HTTP method for the current request to an "OPTIONS" request method.  
   
  [!code-cpp[IHttpRequestSetHttpMethod#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestSetHttpMethod/cpp/IHttpRequestSetHttpMethod.cpp#1)]  
@@ -49,5 +54,6 @@ virtual HRESULT SetHttpMethod(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest Interface](../../web-development-reference/native-code-api-reference/ihttprequest-interface.md)   
  [IHttpRequest::GetHttpMethod Method](../../web-development-reference/native-code-api-reference/ihttprequest-gethttpmethod-method.md)

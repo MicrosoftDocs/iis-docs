@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b4aed437-7a05-404c-8069-84a816df1479
 ---
 # IGlobalFileChangeProvider::GetFileName Method
+
 Retrieves the full path to a file that has been changed.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR GetFileName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the file path.  
   
 ## Remarks  
+
  When a file within the scope of a Web site is changed, [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a [GL_FILE_CHANGE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification and creates an [IGlobalFileChangeProvider](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-interface.md) interface that is passed to a module's [CGlobalModule::OnGlobalFileChange](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalfilechange-method.md) method. When writing a module, you can use the [IGlobalFileChangeProvider::GetFileName](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-getfilename-method.md) method to retrieve the full path to the file that was modified.  
   
 ## Example  
+
  The following code example demonstrates how to create a global-level HTTP module that uses the `GetFileName` method to retrieve the path to a file that has been modified. The module then writes the path of the file to a log entry in the Event Viewer.  
   
  [!code-cpp[IGlobalFileChangeProviderGetFileName#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IGlobalFileChangeProviderGetFileName/cpp/IGlobalFileChangeProviderGetFileName.cpp#1)]  
@@ -42,4 +47,5 @@ virtual PCWSTR GetFileName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalFileChangeProvider Interface](../../web-development-reference/native-code-api-reference/iglobalfilechangeprovider-interface.md)

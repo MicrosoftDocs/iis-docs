@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a8819e4f-ec68-13bd-3236-aecd0d743d23
 ---
 # NamespaceInfo Class
+
 Contains namespace references similar to the `Import` directive.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class NamespaceInfo : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `NamespaceInfo` class.  
   
 |Name|Description|  
@@ -24,14 +27,17 @@ class NamespaceInfo : EmbeddedObject
 |`Namespaces`|An array of [NamespaceElement](../wmi-provider/namespaceelement-class.md) values that specify namespace references. **Note:**  No validation is performed to verify that the namespace references are valid.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Namespaces` property of the [PagesSection](../wmi-provider/pagessection-class.md) class.  
   
  Each `NamespaceInfo` object is the same as an `Import` (\<%@ Import %>) directive that applies to all pages and controls in the scope of the configuration file. The `Import` directive enables you to import a namespace into your [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] page, which makes all its classes available for use on your page.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `NamespaceInfo`  
@@ -46,6 +52,7 @@ class NamespaceInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.NamespaceCollection](/dotnet/api/system.web.configuration.namespacecollection)   
  [System.Web.Configuration.NamespaceInfo](/dotnet/api/system.web.configuration.namespaceinfo)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

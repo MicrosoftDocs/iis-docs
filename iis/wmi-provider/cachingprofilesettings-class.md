@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1d6bc1a4-e594-464f-9521-0093f06d901f
 ---
 # CachingProfileSettings Class
+
 Contains profiles for output and kernel caching.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class CachingProfileSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CachingProfileSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class CachingProfileSettings : EmbeddedObject
 |`Profiles`|An array of [CachingProfileElement](../wmi-provider/cachingprofileelement-class.md) values that configure caching for specific request extensions.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Profiles` array property of the [CachingSection](../wmi-provider/cachingsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `CachingProfileSettings`  
@@ -43,6 +49,7 @@ class CachingProfileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AspCache Class](../wmi-provider/aspcache-class.md)   
  [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
  [CachingSection Class](../wmi-provider/cachingsection-class.md)   

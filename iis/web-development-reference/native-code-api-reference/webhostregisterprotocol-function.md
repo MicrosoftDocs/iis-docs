@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 85ff51f6-ffcc-ff2c-1bbf-0b7fc3a556a8
 ---
 # WebhostRegisterProtocol Function
+
 Declares the protocol that the listener adapter supports.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT WebhostRegisterProtocol(
 ```  
   
 ### Parameters  
+
  `ProtocolId`  
  [IN] A string that contains the protocol that this listener adapter supports.  
   
@@ -31,6 +33,7 @@ HRESULT WebhostRegisterProtocol(
  [OUT] A pointer to a `DWORD` that contains the process-unique key that represents this protocol.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -41,6 +44,7 @@ HRESULT WebhostRegisterProtocol(
 |E_OUTOFMEMORY|Indicates that heap memory is exhausted.|  
   
 ## Remarks  
+
  You must call the `WebhostRegisterProtocol` function first when you start a listener adapter. `WebhostRegisterProtocol` is asynchronous, so a successful return does not guarantee that the call was successful. The Windows Process Activation Service (WAS) notifies the listener of successful registration by using the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED](../../web-development-reference/native-code-api-reference/pfn-webhost-listener-config-manager-connected-function.md) function. `PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED` is passed in the `pListenerCallbacks` parameter to this call.  
   
  You should set a time-out for the listener adapter to wait for the `PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED` callback function. If the time-out expires, you should stop the listener adapter service and mark it as failed. A successful return from this call indicates that the client library is waiting for the Windows Process Activation Service and will connect when possible.  
@@ -67,5 +71,6 @@ HRESULT WebhostRegisterProtocol(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED Function](../../web-development-reference/native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md)   
  [Listener Adapter Exported Functions](../../web-development-reference/native-code-api-reference/listener-adapter-exported-functions.md)

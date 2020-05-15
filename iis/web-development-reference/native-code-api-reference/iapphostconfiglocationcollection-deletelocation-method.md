@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 45a0a7e3-d276-3522-a2cf-3fe99417996c
 ---
 # IAppHostConfigLocationCollection::DeleteLocation Method
+
 Removes a configuration location from the collection.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT DeleteLocation(
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that contains the index of the configuration location to remove. The index can contain a `BSTR` that specifies the location path.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT DeleteLocation(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocationCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md)

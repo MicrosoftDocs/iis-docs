@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9eeefc8d-cb05-4481-b113-e0b623f91941
 ---
 # WorkerProcess.GetExecutingRequests Method2
+
 Gets the requests that are currently assigned to a worker process.  
   
 ## Syntax  
@@ -23,12 +24,15 @@ objWorkerProcess.GetExecutingRequests RequestArray
 |`RequestArray`|An array to hold [HttpRequest](../wmi-provider/httprequest-class.md) objects.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method takes an empty array as an `OUT` parameter, which it fills with `HttpRequest` objects.  
   
 ## Example  
+
  The following example gets information about the requests that are currently queued for each worker process.  
   
 ```  
@@ -74,6 +78,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [HttpRequest Class](../wmi-provider/httprequest-class.md)   
  [View Currently Executing Requests in a Worker Process](https://go.microsoft.com/fwlink/?LinkId=60429)   
  [WorkerProcess Class](../wmi-provider/workerprocess-class.md)

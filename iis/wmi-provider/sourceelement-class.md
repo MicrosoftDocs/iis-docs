@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 096ddffe-341a-57e7-0b2a-29fdc0cff3ec
 ---
 # SourceElement Class
+
 Specifies a trace source that initiates tracing messages.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SourceElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SourceElement` class.  
   
 |Name|Description|  
@@ -27,12 +30,15 @@ class SourceElement : CollectionElement
 |`SwitchValue`|A read/write `string` value that specifies a trace source-specific attribute.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Sources` property of the [SourceSettings](../wmi-provider/sourcesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `SourceElement`  
@@ -47,6 +53,7 @@ class SourceElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [SourceListenerSettings Class](../wmi-provider/sourcelistenersettings-class.md)   
  [SourceSettings Class](../wmi-provider/sourcesettings-class.md)   

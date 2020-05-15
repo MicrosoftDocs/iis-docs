@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: aba023d7-f6f2-0cdb-44b9-0e1e8b75db16
 ---
 # HttpClientCache Class
+
 Exposes the caching configuration for an HTTP client.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpClientCache : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpClientCache` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class HttpClientCache : EmbeddedObject
 |`HttpExpires`|A read/write `string` value that specifies, in Request for Comments (RFC) 1123 format, the date and time after which a cached response is considered stale.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ClientCache` array property of the [StaticContentSection](../wmi-provider/staticcontentsection-class.md) class.  
   
  The following table contains the possible values for the `CacheControlMode` property. The default is 0 (`NoControl`).  
@@ -45,6 +50,7 @@ class HttpClientCache : EmbeddedObject
  For more information about date and time formats, see RFC 1123, "Requirements for Internet Hosts -- Application and Support."  
   
 ## Example  
+
  The following example displays the properties for the `HttpClientCache` class.  
   
 ```  
@@ -88,6 +94,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `HttpClientCache`  
@@ -102,6 +109,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [StaticContentSection Class](../wmi-provider/staticcontentsection-class.md)   
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)   

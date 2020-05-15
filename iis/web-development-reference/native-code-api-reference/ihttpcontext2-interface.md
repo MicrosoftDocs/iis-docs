@@ -5,6 +5,7 @@ ms.assetid: 8637cfed-ff2d-43ef-aaf3-771cb1fb6c61
 ms.author: "robmcm"
 ---
 # IHttpContext2 Interface
+
 Represents the reprocessing of an HTTP request and enables the retrieval of information about the original user during asynchronous operation.  
   
 ## Syntax  
@@ -14,6 +15,7 @@ class IHttpContext2 : public IHttpContext
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpContext2` interface.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class IHttpContext2 : public IHttpContext
 |[IHttpContext4](../../web-development-reference/native-code-api-reference/ihttpcontext4-interface.md)|Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.|  
   
 ## Inheritance Hierarchy  
+
  [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)  
   
  `IHttpContext2`  
@@ -42,4 +45,5 @@ class IHttpContext2 : public IHttpContext
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

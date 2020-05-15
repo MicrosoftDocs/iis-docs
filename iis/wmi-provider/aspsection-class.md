@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ec1156b1-7d9c-443f-2f75-f9a96f33ea5a
 ---
 # AspSection Class1
+
 Exposes Active Server Pages (ASP) configuration settings for ASP applications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class AspSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `AspSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class AspSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AspSection` class.  
   
 |Name|Description|  
@@ -54,9 +57,11 @@ class AspSection : ConfigurationSection
 |`Session`|A read/write [AspSession](../wmi-provider/aspsession-class.md) value that configures properties related to ASP sessions.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `AspSection`  
@@ -71,6 +76,7 @@ class AspSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AspCache Class](../wmi-provider/aspcache-class.md)   
  [AspComPlus Class](../wmi-provider/aspcomplus-class.md)   
  [AspLimits Class](../wmi-provider/asplimits-class.md)   

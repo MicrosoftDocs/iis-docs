@@ -10,6 +10,7 @@ msc.type: config
 # ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<isapiCgiRestriction>` element of the [&lt;security&gt;](../index.md) element allows you to specify a list of Common Gateway Interface (CGI) and Internet Server Application Programming Interface (ISAPI) applications that can run on Internet Information Services (IIS) 7. This element allows you to ensure that malicious users cannot copy unauthorized CGI and ISAPI binaries to your Web server and then run them.
@@ -25,6 +26,7 @@ If you changed the allowed attribute to **false** and left the application pool 
 The `<isapiCgiRestriction>` element works in tandem with the [&lt;applicationDependencies&gt;](../applicationdependencies/index.md) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,6 +39,7 @@ The `<isapiCgiRestriction>` element works in tandem with the [&lt;applicationDep
 | IIS 6.0 | The `<isapiCgiRestriction>` collection replaces the **WebSvcExtRestrictionList** property of the IIS 6.0 **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<isapiCgiRestriction>` collection is available only after you install the CGI or ISAPI Extensions modules on your IIS 7 and later server. You cannot install it independent of those features.
@@ -82,6 +85,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to add an ISAPI or CGI restriction
@@ -110,6 +114,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
     [![](index/_static/image12.png)](index/_static/image11.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<isapiCgiRestriction>` collection can only be configured at the server level in the ApplicationHost.config file.
@@ -136,6 +141,7 @@ The following configuration example is the `<isapiCgiRestriction>` element confi
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add an ISAPI/CGI restriction for a custom ISAPI extension that is located in the content folder for a Web site that is located in C:\Inetpub\www.contoso.com\wwwroot. The examples specify the name, path, and group of the ISAPI extension, and enable the extension.

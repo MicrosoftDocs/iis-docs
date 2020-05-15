@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 25023472-de95-4b27-a96f-1aae47b47088
 ---
 # BypassListSettings Class
+
 Contains address information for resources that bypass the Web proxy server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class BypassListSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `BypassListSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class BypassListSettings : EmbeddedObject
 |`BypassList`|An array of [BypassElement](../wmi-provider/bypasselement-class.md) values that contain address information for resources that bypass the Web proxy server.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `BypassList` array property of the [DefaultProxySection](../wmi-provider/defaultproxysection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `BypassListSettings`  
@@ -43,6 +49,7 @@ class BypassListSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [BypassElement Class](../wmi-provider/bypasselement-class.md)   
  [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

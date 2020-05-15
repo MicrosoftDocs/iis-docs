@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 32ef1358-e61c-69cf-6e99-af7516850391
 ---
 # IHttpCachePolicy::DisableUserCache Method
+
 Disables user caching for the cache policy.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID DisableUserCache(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To disable caching for the user, call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `DisableUserCache` method.  
   
  `DisableUserCache` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -34,4 +37,5 @@ virtual VOID DisableUserCache(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

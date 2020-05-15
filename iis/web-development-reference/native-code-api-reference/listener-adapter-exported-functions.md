@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c2c81031-af41-499f-a3cb-55dc15fce614
 ---
 # Listener Adapter Exported Functions
+
 This section describes the listener adapter exported functions that control the listener channel.  
   
 ## In This Section  
@@ -17,4 +18,5 @@ This section describes the listener adapter exported functions that control the 
 |[WebhostUnregisterProtocol](../../web-development-reference/native-code-api-reference/webhostunregisterprotocol-function.md)|Requests that a protocol be unregistered when a listener adapter is shutting down.|  
   
 ## See Also  
+
  [Listener Adapter API Reference](../../web-development-reference/native-code-api-reference/listener-adapter-api-reference.md)

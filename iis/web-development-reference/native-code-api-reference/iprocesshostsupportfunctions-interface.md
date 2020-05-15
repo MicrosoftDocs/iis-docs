@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0e13e83c-9f64-b9a0-ff4c-0138931fb70d
 ---
 # IProcessHostSupportFunctions Interface
+
 Provides helper functions for the process host.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ struct IProcessHostSupportFunctions : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IProcessHostSupportFunctions` interface.  
   
 |Name|Description|  
@@ -25,12 +27,15 @@ struct IProcessHostSupportFunctions : IUnknown
 |[IProcessHostSupportFunctions::MapPath](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-mappath-method.md)|Retrieves the physical path of a relative URL.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IProcessHostSupportFunctions`  
@@ -45,4 +50,5 @@ struct IProcessHostSupportFunctions : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
+
  [Windows Process Activation Service Interfaces](../../web-development-reference/native-code-api-reference/windows-process-activation-service-interfaces.md)

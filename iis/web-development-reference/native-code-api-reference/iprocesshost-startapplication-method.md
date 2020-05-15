@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 37eb4762-b0a0-286e-ed01-c57f159504a2
 ---
 # IProcessHost::StartApplication Method
+
 Starts the specified application.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT __stdcall StartApplication(
 ```  
   
 ### Parameters  
+
  `appId`  
  A string that contains the unique application ID.  
   
@@ -27,6 +29,7 @@ virtual HRESULT __stdcall StartApplication(
  A pointer to the address of an [IPphManager](https://msdn.microsoft.com/efe1bc47-3c38-aaf6-51a3-c5c30d4a055c) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -34,6 +37,7 @@ virtual HRESULT __stdcall StartApplication(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The `StartApplication` method does not directly start the application; rather, the request is forwarded to the application manager.  
   
 ## Requirements  
@@ -46,6 +50,7 @@ virtual HRESULT __stdcall StartApplication(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHost Interface](../../web-development-reference/native-code-api-reference/iprocesshost-interface.md)   
  [IProcessHost::Shutdown Method](../../web-development-reference/native-code-api-reference/iprocesshost-shutdown-method.md)   
  [IProcessHost::ShutdownApplication Method](../../web-development-reference/native-code-api-reference/iprocesshost-shutdownapplication-method.md)

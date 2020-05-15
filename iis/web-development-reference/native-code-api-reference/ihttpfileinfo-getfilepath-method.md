@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3e353fe5-9c43-e137-b0e7-91c78d022f71
 ---
 # IHttpFileInfo::GetFilePath Method
+
 Returns the physical path of the file referenced by an `IHttpFileInfo` interface.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR GetFilePath(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains a physical path for a file.  
   
 ## Remarks  
+
  The `GetFilePath` method retrieves the physical path of a file that is currently referenced by the [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface. For example, if you write an HTTP module that calls the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to retrieve an `IHttpFileInfo` interface for the current request, the `GetFilePath` method will return the physical path of the file that was requested by a Web client.  
   
 ## Example  
+
  The following code example demonstrates how to use the `IHttpContext::GetFileInfo` method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then calls the `GetFilePath` method to retrieve the physical path of the file for the current request. Finally, the example displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfoGetFilePath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfoGetFilePath/cpp/IHttpFileInfoGetFilePath.cpp#1)]  
@@ -42,4 +47,5 @@ virtual PCWSTR GetFilePath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

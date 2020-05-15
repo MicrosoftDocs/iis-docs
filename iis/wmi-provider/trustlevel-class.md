@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b83352ab-7aed-6422-b311-8e9a2b615ab0
 ---
 # TrustLevel Class
+
 Configures a trust level for Web applications on a Web server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TrustLevel : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TrustLevel` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class TrustLevel : CollectionElement
 |`PolicyFile`|A required read/write `string` value that specifies a configuration file that contains security policy settings for the security level specified in the `Name` property. The default is "internal".<br /><br /> The policy file must be located in the same directory as the computer-level Web.config file. By default this directory is *%windir%*\Microsoft.NET\Framework\\*{version}*\Config.<br /><br /> You can apply the security policy file to an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application by specifying the trust level name in the `Level` property of the [TrustSection](../wmi-provider/trustsection-class.md) class.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SecurityPolicy` property of the [SecurityPolicySection](../wmi-provider/securitypolicysection-class.md) class.  
   
  You can establish the security policy for all Web applications on the server by setting the trust level. Because trust levels can be defined only at the computer level, configuration files must set the levels in the computer-level configuration directory. By default, this directory is *%windir%*\Microsoft.NET\Framework\\*{version}*\Config.  
@@ -45,6 +50,7 @@ class TrustLevel : CollectionElement
 |"`User Defined`"|Specifies the name of a user-defined trust level. For more information, see [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326).|  
   
 ## Example  
+
  The following example displays the trust-level names and corresponding security policy configuration files that are specified in the computer-level Web.config file.  
   
 ```  
@@ -70,6 +76,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TrustLevel`  
@@ -84,6 +91,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.TrustLevel](/dotnet/api/system.web.configuration.trustlevel)
  [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326)   
  [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ad7bd066-65fc-bd1f-4236-48762170f066
 ---
 # ICacheProvider::SetCacheRecord Method
+
 Sets the cache-specific data on the cache provider.  
   
 ## Syntax  
@@ -15,16 +16,19 @@ virtual VOID SetCacheRecord(
 ```  
   
 ### Parameters  
+
  `pCacheRecord`  
  A pointer to an [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) value.  
   
 ## Remarks  
+
  The `pCacheRecord` parameter must not be NULL, because later internal calls to the [GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md) method may cause an access violation.  
   
 > [!IMPORTANT]
 >  The `SetCacheRecord` method is part of the IIS infrastructure and is not intended to be used directly from your code.  
   
 ## Notes for Implementers  
+
  [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) implementers declare a `private``IHttpCacheSpecificData` pointer as member data. When constructors of these implementers are called, this member data is assigned to an `IHttpCacheSpecificData` pointer. Before calling `SetCacheRecord`, the caller is responsible for first calling [IHttpCacheSpecificData::ReferenceCacheData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-referencecachedata-method.md) on the `IHttpCacheSpecificData` pointer; `SetCacheRecord` implementers then assign the `private` variable to this `IHttpCacheSpecificData` pointer.  
   
  When `SetCacheRecord` is called, implementers should first check if the current `private` member pointer is non-NULL. If the `private` data is non-NULL, call [IHttpCacheSpecificData::DereferenceCacheData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-dereferencecachedata-method.md) first on this current data so that it can be released, but then always assign the `private` variable to the `pCacheRecord` parameter.  
@@ -38,6 +42,7 @@ virtual VOID SetCacheRecord(
 |[IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)|`IHttpCacheSpecificData`|  
   
 ## Notes for Callers  
+
  `ICacheProvider` implementers take ownership of the `IHttpCacheSpecificData` pointer. Before calling `SetCacheRecord`, first call `IHttpCacheSpecificData::ReferenceCacheData` on the pointer so that this pointer has one owner.  
   
 ## Requirements  
@@ -50,4 +55,5 @@ virtual VOID SetCacheRecord(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ICacheProvider Interface](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md)

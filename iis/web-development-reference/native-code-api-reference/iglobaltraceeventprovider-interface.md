@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2566adb1-eb89-6944-4724-f78f5277acf8
 ---
 # IGlobalTraceEventProvider Interface
+
 Extends the [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface by providing trace events for [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IGlobalTraceEventProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IGlobalTraceEventProvider` interface.  
   
 |Name|Description|  
@@ -23,12 +25,15 @@ class IGlobalTraceEventProvider : public IHttpEventProvider
 |[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
+
  This class contains no derived classes.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event types receive an `IGlobalTraceEventProvider` pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IGlobalTraceEventProvider` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -106,6 +111,7 @@ class IGlobalTraceEventProvider : public IHttpEventProvider
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalTraceEventProvider`  
@@ -120,4 +126,5 @@ class IGlobalTraceEventProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

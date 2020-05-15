@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: aec39e60-f2d7-6a9c-3ef4-83d4b4dce196
 ---
 # IPSecuritySection Class
+
 Configures access to Web server content based on IP address-related information.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IPSecuritySection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IPSecuritySection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class IPSecuritySection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IPSecuritySection` class.  
   
 |Name|Description|  
@@ -40,12 +43,15 @@ class IPSecuritySection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  In IIS 6.0, URLs were granted or denied individually. However, in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], access rules are inherited and their semantics are merged to determine final access, which is why the ordering of rules is important.  
   
 ## Example  
+
  The following example displays `IPSecuritySection` settings for the default Web site.  
   
 ```  
@@ -89,6 +95,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -105,5 +112,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [IPAddressFilterElement Class](../wmi-provider/ipaddressfilterelement-class.md)

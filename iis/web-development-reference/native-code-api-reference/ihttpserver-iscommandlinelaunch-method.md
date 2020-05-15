@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 43f13c9f-116e-b51e-a520-6d6a04217869
 ---
 # IHttpServer::IsCommandLineLaunch Method
+
 Tests whether the worker process was launched from the command line.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual BOOL IsCommandLineLaunch(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] was launched from a command line; otherwise, `false`.  
   
 ## Remarks  
+
  The `IsCommandLineLaunch` method retrieves the startup status for a worker process. For example, if a worker process is started by a normal HTTP request for a Web site that is hosted by [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)], `IsCommandLineLaunch` will return `true`. In contrast, if a worker process is started by the [Hosted Web Core](../../web-development-reference/native-code-api-reference/hosted-web-core-api-reference.md), `IsCommandLineLaunch` will return `false`.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the `IsCommandLineLaunch` method to test whether the worker process was launched from a command line. The module then returns this information to a Web client.  
   
  [!code-cpp[IHttpServerIsCommandLineLaunch#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerIsCommandLineLaunch/cpp/IHttpServerIsCommandLineLaunch.cpp#1)]  
@@ -42,4 +47,5 @@ virtual BOOL IsCommandLineLaunch(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)

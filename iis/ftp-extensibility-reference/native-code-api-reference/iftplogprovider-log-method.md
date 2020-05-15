@@ -5,6 +5,7 @@ ms.assetid: 0978c707-4bba-46be-8457-abdcfb930f5b
 ms.author: "robmcm"
 ---
 # IFtpLogProvider::Log Method
+
 Performs custom logging of FTP activity for the IFtpLogProvider interface.  
   
 ## Syntax  
@@ -23,6 +24,7 @@ HRESULT Log(
 |`pLoggingParameters`|[IN] A pointer to an [LOGGING_PARAMETERS Structure](../../ftp-extensibility-reference/native-code-api-reference/logging-parameters-structure.md) that contains FTP log information.|  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |||  
@@ -31,6 +33,7 @@ HRESULT Log(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example illustrates how to use the `IFtpLogProvider` interface to create a custom logging module for the FTP service.  
   
 ```  
@@ -117,4 +120,5 @@ EXIT:
 |Reference|ftpext.tlb|  
   
 ## See Also  
+
  [IFtpLogProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftplogprovider-interface-native.md)

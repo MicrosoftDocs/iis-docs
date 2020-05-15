@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2a4b23dc-734b-7b32-bd9e-724ce3d88fb2
 ---
 # SqlCacheDependencySection Class
+
 Represents a [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency) configuration section.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SqlCacheDependencySection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SqlCacheDependencySection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class SqlCacheDependencySection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SqlCacheDependencySection` class.  
   
 |Name|Description|  
@@ -40,12 +43,15 @@ class SqlCacheDependencySection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class allows data stored in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application [System.Web.Caching.Cache](/dotnet/api/system.web.caching.cache) object to be updated when changes are made to its SQL Server data source (table or query). When the database table or query changes, the cached item is automatically deleted, and a new version of the item is added to the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -62,6 +68,7 @@ class SqlCacheDependencySection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency)
  [System.Web.Caching.Cache](/dotnet/api/system.web.caching.cache)
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

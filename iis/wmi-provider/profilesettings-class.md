@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d8c0627e-0259-7d81-fc26-709f82ef2d18
 ---
 # ProfileSettings Class
+
 Configures an event profile that determines how an event is collected by [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and raised to providers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ProfileSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ProfileSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ProfileSettings : EmbeddedObject
 |`Profiles`|An array of [ProfileElement](../wmi-provider/profileelement-class.md) objects that configures event profiles that determine how events are collected by [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and raised to providers.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Profiles` property of the [HealthMonitoringSection](../wmi-provider/healthmonitoringsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ProfileSettings`  
@@ -43,6 +49,7 @@ class ProfileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings)
  [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

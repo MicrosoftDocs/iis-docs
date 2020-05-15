@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cc574d49-ab7a-4bf9-8d38-5b20d01ff33a
 ---
 # RuleElement Class
+
 Maps a Web event to a health-monitoring provider.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class RuleElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `RuleElement` class.  
   
 |Name|Description|  
@@ -30,9 +33,11 @@ class RuleElement : CollectionElement
 |`Provider`|A read/write `string` value that specifies the name of a health monitoring provider from the [ProviderSettings](../wmi-provider/providersettings-class.md) class.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `Rules` property on the [RuleSettings](../wmi-provider/rulesettings-class.md) class.  
   
  Health-monitoring events (also called Web events) are raised during Web application processing and are consumed by providers (listeners), which read and record the information packaged with the event.  
@@ -42,6 +47,7 @@ class RuleElement : CollectionElement
  To disable an event, you can remove the event from the `RuleSettings` class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `RuleElement`  
@@ -56,6 +62,7 @@ class RuleElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [EventMappingSettings Class](../wmi-provider/eventmappingsettings-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   

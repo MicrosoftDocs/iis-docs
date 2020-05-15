@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 56136d82-beb3-4e0a-b744-e778b9af5b51
 ---
 # SqlCacheDependencyDatabaseSettings Class
+
 Contains configuration settings for SQL data in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SqlCacheDependencyDatabaseSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SqlCacheDependencyDatabaseSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SqlCacheDependencyDatabaseSettings : EmbeddedObject
 |`Databases`|An array of [SqlCacheDependencyDatabase](../wmi-provider/sqlcachedependencydatabase-class.md) values that contain configuration settings for SQL data in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Databases` array property of the [SqlCacheDependencySection](../wmi-provider/sqlcachedependencysection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SqlCacheDependencyDatabaseSettings`  
@@ -43,6 +49,7 @@ class SqlCacheDependencyDatabaseSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SqlCacheDependencyDatabase Class](../wmi-provider/sqlcachedependencydatabase-class.md)   
  [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)

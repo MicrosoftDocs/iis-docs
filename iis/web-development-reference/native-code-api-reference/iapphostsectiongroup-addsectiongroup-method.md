@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 20245f26-f649-fb6e-56ac-c319d0c1512c
 ---
 # IAppHostSectionGroup::AddSectionGroup Method
+
 Adds a new nested configuration section group under the current configuration section group.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT AddSectionGroup(
 ```  
   
 ### Parameters  
+
  `bstrSectionGroupName`  
  A `BSTR` that contains the name of the new section group to add.  
   
@@ -25,6 +27,7 @@ HRESULT AddSectionGroup(
  A pointer to a pointer for the newly created [IAppHostSectionGroup](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ HRESULT AddSectionGroup(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example creates a new section group and a new section, and then sets the property values of the newly generated section.  
   
  [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
@@ -46,4 +50,5 @@ HRESULT AddSectionGroup(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionGroup Interface](../../web-development-reference/native-code-api-reference/iapphostsectiongroup-interface.md)

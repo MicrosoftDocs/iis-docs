@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6a25d9f5-f358-932f-8cc9-8edd6928761b
 ---
 # IHttpServer Interface
+
 Represents the processing context for global-level operations.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpServer
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpServer` interface.  
   
 |Name|Description|  
@@ -51,6 +53,7 @@ class IHttpServer
 |[IHttpServer2](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)|Represents the processing context for global-level operations, and enables retrieving configuration files, extended interfaces, metadata, tokens, and the worker process framework.|  
   
 ## Remarks  
+
  The `IHttpServer` interface represents the main programmatic interface for HTTP modules to access information about the current global-level context. This interface retrieves several additional interfaces that you can use when you write HTTP modules. For example, the `GetFileInfo` and `GetPerfCounterInfo` methods retrieve, respectively, the `IHttpFileInfo` and `IHttpPerfCounterInfo` interfaces for the global context. These interfaces allow developers to retrieve a file interface for a specific file, or an interface for the performance counters.  
   
  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] allows developers to restart an application, restart a worker process, or report the current context as unhealthy. This functionality is exposed, respectively, through the `RecycleApplication`, `RecycleProcess`, and `ReportUnhealthy` methods.  
@@ -74,4 +77,5 @@ class IHttpServer
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

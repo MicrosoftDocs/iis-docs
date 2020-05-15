@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 911cb1cf-c6bf-d49d-dcca-c12f135c067f
 ---
 # IAppHostElementCollection::AddElement Method
+
 Adds an element to the current collection.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ HRESULT AddElement(
 ```  
   
 ### Parameters  
+
  `pElement`  
  A pointer to an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
@@ -24,6 +26,7 @@ HRESULT AddElement(
  An `INT` value that represents the position in the collection where `pElement` should be inserted.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -47,5 +50,6 @@ HRESULT AddElement(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementcollection-interface.md)   
  [IAppHostElementCollection::CreateNewElement Method](../../web-development-reference/native-code-api-reference/iapphostelementcollection-createnewelement-method.md)

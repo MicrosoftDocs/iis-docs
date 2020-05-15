@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 280ce38d-cf6a-10e4-eab5-5fdf7dd65097
 ---
 # IAppHostElementSchema::DoesAllowUnschematizedProperties Property
+
 Determines whether properties that are not defined in the schema can be added to a configuration element.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_DoesAllowUnschematizedProperties(
 ```  
   
 ### Parameters  
+
  `pfAllowUnschematized`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if undefined properties can be added to a configuration element; otherwise, `VARIANT_FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_DoesAllowUnschematizedProperties(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementSchema Interface](../../web-development-reference/native-code-api-reference/iapphostelementschema-interface.md)

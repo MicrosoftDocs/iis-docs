@@ -10,6 +10,7 @@ msc.type: config
 # Access Security &lt;access&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<access>` element allows you to configure whether a Web site or application uses client certificates for authentication and allows you to define the cryptographic strength required for encrypting those certificates.
@@ -25,6 +26,7 @@ The `<access>` element contains an **sslFlags** attribute that you can set to on
 You can use the access element to configure a site, an application, or a virtual directory to require client certificates. To do this, set an HTTPS binding for your site or application, and then request and receive certificates from a certification authority (CA). The certificates can be Internet Server certificates, domain server certificates, or self-signed server certificates. Internet Server certificates require a CA issue your server or servers a certificate after you request one. A domain server certificate is issued by a CA computer running on your company's domain and can help you control access to internal resources to only employees who have installed the certificate. You can use a self-signed certificate to troubleshoot third-party certificate problems, to manage Internet Information Services (IIS) 7 remotely, to create a secure private channel between the server and a selected group of users, or to test application features that rely on SSL.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -37,11 +39,13 @@ You can use the access element to configure a site, an application, or a virtual
 | IIS 6.0 | The `<access>` element replaces the IIS 6.0 **SSLAlwaysNegoClientCert** and **AccessSSLFlags** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<access>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to require Secure Sockets Layer
@@ -69,6 +73,7 @@ The `<access>` element is included in the default installation of IIS 7.
 5. In the **Actions** pane, click **Apply**.
  
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<access>` element at the server level in the ApplicationHost.config file or at the site, application, or directory level in the appropriate Web.config file.
@@ -90,6 +95,7 @@ The following configuration example, when included in the ApplicationHost.config
 [!code-xml[Main](access/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples make SSL required to access a Web site named Contoso.

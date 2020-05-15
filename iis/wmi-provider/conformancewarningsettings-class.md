@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c30bae9a-cfb7-471e-b39e-06d04693564a
 ---
 # ConformanceWarningSettings Class
+
 Contains Web Services Interoperability (WS-I) conformance declarations.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ConformanceWarningSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConformanceWarningSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ConformanceWarningSettings : EmbeddedObject
 |`ConformanceWarnings`|An array of [ConformanceWarning](../wmi-provider/conformancewarning-class.md) values that specify conformance to Web Services Interoperability (WS-I) specifications.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ConformanceWarnings` array property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ConformanceWarningSettings`  
@@ -43,6 +49,7 @@ class ConformanceWarningSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConformanceWarning Class](../wmi-provider/conformancewarning-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   

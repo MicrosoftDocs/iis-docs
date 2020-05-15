@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8bf5c02f-2b11-458a-830a-4cb6d255a4d5
 ---
 # Site.RevertToParent Method1
+
 Reverts a Web site configuration value or values to the default.  
   
 ## Syntax  
@@ -23,12 +24,15 @@ Site.RevertToParent(PropertyName);
 |`PropertyName`|An optional `string` value that contains the name of the Web site property that is to be reverted to the default specified by [SiteElementDefaults](../wmi-provider/siteelementdefaults-class.md). The property can be nested (for example, "LogFile.Directory").|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  When you call `RevertToParent` without parameters, all custom configuration values for the Web site will be removed. If this is not the behavior you want, revert specific properties by using parameterized calls to the method.  
   
 ## Example  
+
  The following example reverts the default Web site's log file directory from %SystemDrive%\MySiteLogFiles to %SystemDrive%\inetpub\logs\LogFiles. The example makes this change in the `<logFile>` section for the default Web site in the ApplicationHost.config file.  
   
 > [!NOTE]
@@ -77,6 +81,7 @@ WScript.Echo _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Site Class](../wmi-provider/site-class.md)   
  [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)   
  [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)

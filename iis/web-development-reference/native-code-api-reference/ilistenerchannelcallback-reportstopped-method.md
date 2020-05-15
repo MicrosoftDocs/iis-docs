@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3f8b7b7a-bc38-4f30-96e3-f116cbda5909
 ---
 # IListenerChannelCallback::ReportStopped Method
+
 Notifies the worker process framework that a listener channel has shut down.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall ReportStopped(
 ```  
   
 ### Parameters  
+
  `hr`  
  The `HRESULT` that reports the status of the listener channel. For example, `hr` might contain the `HRESULT` error when a listener channel fails to stop.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ virtual HRESULT __stdcall ReportStopped(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-interface.md)

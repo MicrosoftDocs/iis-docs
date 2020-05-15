@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a80a7157-39a1-6c4e-ef4b-c03d6e913361
 ---
 # IHttpServer::RecycleApplication Method
+
 Recycles an application.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual VOID RecycleApplication(
 ```  
   
 ### Parameters  
+
  `pszAppConfigPath`  
  A pointer to a string that contains the configuration path to recycle.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `RecycleApplication` method will request a recycle of the application that is specified by the configuration path in the `pszAppConfigPath` parameter. For example, the configuration path for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually resemble MACHINE/WEBROOT/APPHOST/Default Web Site.  
   
 > [!NOTE]
 >  You can retrieve the configuration path by using the [IHttpApplication::GetAppConfigPath](../../web-development-reference/native-code-api-reference/ihttpapplication-getappconfigpath-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the [IHttpApplication::GetAppConfigPath](../../web-development-reference/native-code-api-reference/ihttpapplication-getappconfigpath-method.md) and `RecycleApplication` methods to retrieve and recycle the managed application that is processing the current request.  
   
  [!code-cpp[IHttpServerRecycleApplication#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerRecycleApplication/cpp/IHttpServerRecycleApplication.cpp#1)]  
@@ -46,6 +51,7 @@ virtual VOID RecycleApplication(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication::GetAppConfigPath Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getappconfigpath-method.md)   
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IHttpServer::RecycleProcess Method](../../web-development-reference/native-code-api-reference/ihttpserver-recycleprocess-method.md)

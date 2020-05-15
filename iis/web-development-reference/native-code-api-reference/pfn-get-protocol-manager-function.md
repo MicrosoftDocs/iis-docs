@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ba896f3b-16b3-441e-b362-5c796e76f662
 ---
 # PFN_GET_PROTOCOL_MANAGER Function
+
 Defines the default entry point of the dynamic-link library (DLL) that allows worker processes to instantiate the [IProtocolManager](../../web-development-reference/native-code-api-reference/iprotocolmanager-interface.md).  
   
 ## Syntax  
@@ -16,6 +17,7 @@ typedef HRESULT (*PFN_GET_PROTOCOL_MANAGER)(
 ```  
   
 ### Parameters  
+
  `pWpFramework`  
  The calling [IWorkerProcessFramework](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md) instance.  
   
@@ -23,9 +25,11 @@ typedef HRESULT (*PFN_GET_PROTOCOL_MANAGER)(
  The returned `IProtocolManager` instance.  
   
 ## Return Value  
+
  An `HRESULT`.  
   
 ## Remarks  
+
  `ppProtocolManager` is non-NULL only if the returned `HRESULT` is nonzero.  
   
 ## Requirements  
@@ -38,4 +42,5 @@ typedef HRESULT (*PFN_GET_PROTOCOL_MANAGER)(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process Framework API Reference](../../web-development-reference/native-code-api-reference/worker-process-framework-api-reference.md)

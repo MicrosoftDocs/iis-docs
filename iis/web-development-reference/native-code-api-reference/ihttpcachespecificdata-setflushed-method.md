@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d4cdb17b-f795-d42d-844b-3228571b804e
 ---
 # IHttpCacheSpecificData::SetFlushed Method
+
 Sets a value indicating that the specific data is to be flushed from the cache.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual VOID SetFlushed(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Thread Safety  
+
  Classes that implement the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the [GetFlushed](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-getflushed-method.md) and `SetFlushed` methods.  
   
 ## Remarks  
+
  The behavior of the `SetFlushed` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
 - Classes that implement the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) interface initialize a `private` Boolean flag to `false` as an instance variable during the construction of a new pointer. The classes then get and set this flag on subsequent calls to the `GetFlushed` and `SetFlushed` methods, respectively.  
@@ -37,4 +41,5 @@ virtual VOID SetFlushed(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCacheSpecificData Interface](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md)

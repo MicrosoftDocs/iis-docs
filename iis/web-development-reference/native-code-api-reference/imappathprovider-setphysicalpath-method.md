@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0c3ecda8-d86b-f299-d3c5-cee8b9b761c2
 ---
 # IMapPathProvider::SetPhysicalPath Method
+
 Sets the physical path mapping for the current request.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT SetPhysicalPath(
 ```  
   
 ### Parameters  
+
  `pszPhysicalPath`  
  [IN] A pointer to a string that contains the physical path to set.  
   
@@ -23,6 +25,7 @@ virtual HRESULT SetPhysicalPath(
  [IN] A `DWORD` that contains the length of the `pszPhysicalPath` string.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -31,9 +34,11 @@ virtual HRESULT SetPhysicalPath(
 |ERROR_INVALID_PARAMETER|Indicates that an invalid value was passed in one of the parameters.|  
   
 ## Remarks  
+
  The `SetPhysicalPath` method modifies the mapped path for requests. For example, an HTTP module can use the `SetPhysicalPath` method to change the default content location for requests to a path that is different than the path that is configured in the ApplicationHost.config file.  
   
 ## Example  
+
  The following code example demonstrates how to use the `SetPhysicalPath` method to create an HTTP module that modifies the default physical path for the current request to C:\Temp.  
   
  [!code-cpp[IMapPathProviderSetPhysicalPath#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IMapPathProviderSetPhysicalPath/cpp/IMapPathProviderSetPhysicalPath.cpp#1)]  
@@ -52,4 +57,5 @@ virtual HRESULT SetPhysicalPath(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMapPathProvider Interface](../../web-development-reference/native-code-api-reference/imappathprovider-interface.md)

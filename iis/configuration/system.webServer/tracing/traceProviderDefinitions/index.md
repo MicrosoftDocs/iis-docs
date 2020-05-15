@@ -10,6 +10,7 @@ msc.type: config
 # Trace Provider Definitions &lt;traceProviderDefinitions&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<traceProviderDefinitions>` element allows you to define a collection of trace providers available on the Internet Information Services (IIS) 7 server. A trace provider is an application or operating system component that generates trace messages or trace events. When you install the Tracing role service on IIS 7, by default, IIS installs the WWW Server trace provider, which is associated with the IIS 7 server, the ASP trace provider, and the ISAPI Extension trace provider. If you install ASP.NET 2.0 on the server, IIS 7 automatically adds the ASPNET trace provider to the trace provider definition collection. IIS defines each trace provider in an `<add>` element within the `<traceProviderDefinitions>` element.
@@ -17,6 +18,7 @@ The `<traceProviderDefinitions>` element allows you to define a collection of tr
 You can add custom trace providers to the server by adding an `<add>` element that defines that trace provider. You can include a `<remove>` element in the `<traceProviderDefinitions>` element to remove a single trace provider inherited from a configuration file higher in the configuration hierarchy. You can use the `<clear>` element to remove all inherited trace providers.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,6 +31,7 @@ You can add custom trace providers to the server by adding an `<add>` element th
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 After you finish the default installation of IIS 7 and later, you must install the tracing role service to use failed request tracing. After you install the role service, you still must enable failed request tracing at the site level, application level, or directory level.
@@ -71,11 +74,13 @@ After you finish the default installation of IIS 7 and later, you must install t
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding trace providers for IIS 7. For examples of how to add trace providers programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<traceProviderDefinitions>` element at the server level in the ApplicationHost.config file or at the site level, application level, or directory level in the appropriate Web.config file.
@@ -99,6 +104,7 @@ The following default `<traceProviderDefinitions>` element is configured in the 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add a custom trace provider with two trace areas to the list that is defined in the global `<traceProviderDefinitions>` collection.

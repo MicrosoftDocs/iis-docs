@@ -14,6 +14,7 @@ by IIS Team
 > This article provides an overview of the HttpPlatformHandler and explains the configuration of the module.
 
 <a id="_Functionality_Overview"></a>
+
 ## Functionality Overview
 
 The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following two things:
@@ -22,6 +23,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 2. Proxy requests to the process that it manages.
 
 <a id="_HttpPlatformHandler_Configuration"></a>
+
 ## HttpPlatformHandler Configuration
 
  The HttpPlatformHandler is configured via a site or applications web.config file and has its own configuration section within system.webServer - httpPlatform. 
@@ -49,6 +51,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 | **recycleOnFileChange** | configures **file** collection which recycles the worker process when changes are made to file in the specified list. Element syntax e.g. &lt;file path=&quot;.\touch.txt&quot;/&gt; or &lt;file path=&quot;c:\file.txt&quot;/&gt; |
 
 <a id="_HttpPlatformHandler_Configuration_E"></a>
+
 ## HttpPlatformHandler Configuration Examples
 
  Below are configuration examples for running a number of applications with different processes. 
@@ -62,6 +65,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 [!code-xml[Main](httpplatformhandler-configuration-reference/samples/sample2.xml)]
 
 <a id="_Sample_Code"></a>
+
 ## Sample Code
 
 ### C\#

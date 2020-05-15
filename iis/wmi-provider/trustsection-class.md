@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4fdfb984-ac44-52c5-b709-b0dd2b08a942
 ---
 # TrustSection Class
+
 Configures the level of code-access security that is applied to an application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class TrustSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `TrustSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class TrustSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TrustSection` class.  
   
 |Name|Description|  
@@ -36,9 +39,11 @@ class TrustSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The possible values for the `Level` property are listed in the following table. The default is `Full` (no restrictions).  
   
 |Value|Description|  
@@ -50,6 +55,7 @@ class TrustSection : ConfigurationSection
 |`Minimal`|Specifies a minimal level of code access security, which means that the application has only execute permission.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `TrustSection`  
@@ -64,6 +70,7 @@ class TrustSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.SystemWebSectionGroup.Trust](/dotnet/api/system.web.configuration.systemwebsectiongroup.trust)  
  [System.Web.Configuration.TrustSection](/dotnet/api/system.web.configuration.trustsection)
  [System.Web.AspNetHostingPermissionLevel Enumeration](https://go.microsoft.com/fwlink/?LinkId=69330)   

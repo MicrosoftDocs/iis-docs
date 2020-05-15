@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 917ddf22-5bf9-480d-afd1-f0ccf716328c
 ---
 # RedirectHeaderSettings Class
+
 Contains redirect name/value pairs that are added to the HTTP headers in responses from the Web server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class RedirectHeaderSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `RedirectHeaderSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class RedirectHeaderSettings : EmbeddedObject
 |`RedirectHeaders`|An array of [NameValueConfigurationElement](../wmi-provider/namevalueconfigurationelement-class.md) values that contain redirect name/value pairs that are added to the HTTP headers in responses from the Web server.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `RedirectHeaders` property of the [HttpProtocolSection](../wmi-provider/httpprotocolsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `RedirectHeaderSettings`  
@@ -43,6 +49,7 @@ class RedirectHeaderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CustomHeaderSettings Class](../wmi-provider/customheadersettings-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HttpProtocolSection Class](../wmi-provider/httpprotocolsection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 75096e8d-a4d9-4c5d-ab8c-b844e1b52033
 ---
 # IAppHostPropertyExtension Interface
+
 Used to handle property extensions in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ IAppHostPropertyExtension : public IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostPropertyExtension` interface.  
   
 |Method|Description|  
@@ -20,9 +22,11 @@ IAppHostPropertyExtension : public IUnknown
 |[ProvideGetProperty](../../web-development-reference/native-code-api-reference/iapphostpropertyextension-providegetproperty-method.md)|Populates the value of a dynamic property in a specified element.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Remarks  
+
  The `IAppHostPropertyExtension` interface is used to handle property extensions to the configuration system. When this interface is implemented, the configuration system will call it to handle dynamic configuration.  
   
  The administration system allows dynamic properties to be defined, provided that they are backed by a class that implements the `IAppHostPropertyExtension` interface.  
@@ -31,6 +35,7 @@ IAppHostPropertyExtension : public IUnknown
 >  The `IAppHostPropertyExtension` interface is designed to work on a local computer; you cannot use this interface to manage a remote computer.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostPropertyExtension`  
@@ -45,5 +50,6 @@ IAppHostPropertyExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

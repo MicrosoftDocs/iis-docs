@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8a7882f2-aa37-4890-b747-57f3a91b46d9
 ---
 # IHttpResponse2::WriteEntityChunks Method
+
 Appends one or more [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body for an asynchronous operation.  
   
 ## Syntax  
@@ -23,6 +24,7 @@ virtual HRESULT WriteEntityChunks(
 ```  
   
 ### Parameters  
+
  `pDataChunks`  
  [IN] A pointer to one or more `HTTP_DATA_CHUNK` structures.  
   
@@ -48,6 +50,7 @@ virtual HRESULT WriteEntityChunks(
  [OUT] `true` if an asynchronous completion is pending for this call; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -64,4 +67,5 @@ virtual HRESULT WriteEntityChunks(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse2 Interface](../../web-development-reference/native-code-api-reference/ihttpresponse2-interface.md)

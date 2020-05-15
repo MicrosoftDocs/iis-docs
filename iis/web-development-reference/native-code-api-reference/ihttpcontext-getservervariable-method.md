@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7771e6fa-b157-4df6-5e6b-97749a3c9fdb
 ---
 # IHttpContext::GetServerVariable Method
+
 Retrieves a specific server variable.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ virtual HRESULT GetServerVariable(
 ```  
   
 ### Parameters  
+
  `pszVariableName`  
  A pointer to a string that contains the name of the server variable to return.  
   
@@ -32,6 +34,7 @@ virtual HRESULT GetServerVariable(
  A pointer to a `DWORD` buffer that receives the length of the `ppszValue` parameter.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT GetServerVariable(
 |ERROR_INVALID_INDEX|Indicates that the parameter is not valid.|  
   
 ## Remarks  
+
  The `GetServerVariable` method retrieves a server variable specified by the `pszVariableName` parameter from the current HTTP context, and it returns the value in a buffer pointed to by the `ppszValue` parameter. The server variable specified by the `pszVariableName` parameter can be a custom variable or a variable defined in Requests for Comments (RFC) 3875, "The Common Gateway Interface (CGI) Version 1.1."  
   
 > [!NOTE]
@@ -55,5 +59,6 @@ virtual HRESULT GetServerVariable(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::SetServerVariable Method](../../web-development-reference/native-code-api-reference/ihttpcontext-setservervariable-method.md)

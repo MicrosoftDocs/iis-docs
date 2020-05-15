@@ -16,11 +16,13 @@ In this phase of building your PHP website, plan to set up the WinCache PHP exte
 When you are done with these tasks, record your design decisions before going on to [Step 3: Plan PHP Application Security](planning-step-3-plan-php-application-security.md).
 
 <a id="21"></a>
+
 ## 2.1. Plan WinCache Configuration
 
 WinCache is a PHP extension that accelerates PHP applications, which run on Windows and Windows Server. For the most installations, the WinCache extension must be added to the php.ini file and no other configuration is required. However, if you want more control, WinCache offers many configuration settings. You can see a full list of setting in the [WinCache Runtime Configuration](http://us2.php.net/manual/en/wincache.configuration.php) page.
 
 <a id="22"></a>
+
 ## 2.2. Plan Other PHP Settings
 
 Configuration and environmental settings for PHP are contained within the Php.ini, which is located in the PHP folder that you create during installation, for example `C:\PHP`. The following sections contain a number of settings for the Php.ini file that help PHP work better with Windows.
@@ -44,6 +46,7 @@ Configuration and environmental settings for PHP are contained within the Php.in
 - **Mail functions**: PHP is configured by default to send outbound mail through an SMTP server that is located on the same system as the web server. Most Windows installations usually have the web and mail servers on separate systems.
 
 <a id="23"></a>
+
 ## 2.3. Plan PHP Extensions
 
 It is important to determine which extensions are required by the applications you intend to run, and then to limit the installed extensions to those extensions only. For example, a typical open-source PHP application might require the following types of extensions:

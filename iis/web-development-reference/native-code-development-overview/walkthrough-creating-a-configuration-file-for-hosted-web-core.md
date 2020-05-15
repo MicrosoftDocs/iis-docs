@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d7d79047-cb09-4e1d-b7c8-5b48951be121
 ---
 # Walkthrough: Creating a Configuration File for Hosted Web Core
+
 This walkthrough demonstrates how to create a configuration file for use with the Hosted Web Core features that are available in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)].  
   
  When you create applications that use the Hosted Web Core functionality in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)], you have to provide a custom configuration file that follows the format of the ApplicationHost.config file. Depending on your configuration settings, your application can host Web pages and applications on the same server where you are hosting Web sites that use [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. For example, if your Web server has only one Web site that is serving Web pages on TCP port 80, you could configure your application to serve Web pages on TCP port 8080.  
@@ -13,6 +14,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
  Even though your ApplicationHost.config file for [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] may contain more than one application pool, the Hosted Web Core functionality in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] supports only a single application pool.  
   
 ## Prerequisites  
+
  The following software is required to complete the steps in the example:  
   
 - [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] on [!INCLUDE[windowsver](../../web-development-reference/native-code-development-overview/includes/windowsver-md.md)].  
@@ -26,6 +28,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
 > You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
   
 ## Creating a Configuration File  
+
  The steps in this part of the walkthrough will help you create a new configuration file for use with a Hosted Web Core application that contains the settings that are required to serve static content.  
   
 #### To create a configuration file  
@@ -59,6 +62,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     ```  
   
 ## Defining the Configuration Sections  
+
  When the configuration file has been created, you have to define which configuration sections your configuration file will contain. You do this by adding a `<configSections>` element to your configuration file.  
   
 #### To add the \<configSections> section  
@@ -139,6 +143,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     ```  
   
 ## Adding the \<system.applicationHost> Settings  
+
  When you have defined which sections your configuration file will contain, you have to populate the configuration sections with the required settings for your application.  
   
 #### To add the \<system.applicationHost> section  
@@ -293,5 +298,6 @@ This walkthrough demonstrates how to create a configuration file for use with th
    Your application may experience an error if a section of your configuration file has not been correctly defined. Depending on the error, you may be able to retrieve additional information about the problem by examining your server's Event Viewer logs and the IIS log files that are created automatically by your application. For more information about troubleshooting problems with a Hosted Web Core application, see the troubleshooting steps that are listed in [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md).  
   
 ## See Also  
+
  [Creating Hosted Web Core Applications](../../web-development-reference/native-code-development-overview/creating-hosted-web-core-applications.md)   
  [Walkthrough: Creating a Hosted Web Core Application](../../web-development-reference/native-code-development-overview/walkthrough-creating-a-hosted-web-core-application.md)

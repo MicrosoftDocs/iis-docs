@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ecb74b4d-36ab-5b4d-c096-c0490bb2cc4d
 ---
 # IPAddressFilterElement Class
+
 Allows or denies access to content based on a unique combination of the IP address, subnet mask, and domain name.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class IPAddressFilterElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IPAddressFilterElement` class.  
   
 |Name|Description|  
@@ -26,12 +29,15 @@ class IPAddressFilterElement : CollectionElement
 |`SubnetMask`|A required unique read/write `string` value that corresponds to a subnet mask to which access is granted or denied. The default is 255.255.255.255. You can use this property in conjunction with the `IpAddress` property to specify a range of IP addresses. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `IpSecurity` property of the [IPSecuritySection](../wmi-provider/ipsecuritysection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `IPAddressFilterElement`  
@@ -46,5 +52,6 @@ class IPAddressFilterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [IPSecuritySection Class](../wmi-provider/ipsecuritysection-class.md)

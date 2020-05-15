@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4f0fe5e3-1283-6da8-ba92-a0d6a330838b
 ---
 # IAppHostCollectionSchema Interface
+
 Represents a schema for a collection in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostCollectionSchema : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostCollectionSchema` interface.  
   
 |Method|Description|  
@@ -21,6 +23,7 @@ interface IAppHostCollectionSchema : IUnknown
 |[GetMetadata](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-getmetadata-method.md)|Gets metadata from the collection schema.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostCollectionSchema` interface.  
   
 |Property|Description|  
@@ -32,6 +35,7 @@ interface IAppHostCollectionSchema : IUnknown
 |[RemoveElementSchema](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-removeelementschema-property.md)|Gets the schema for the element that will be used to remove an item from the collection.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostCollectionSchema`  
@@ -46,4 +50,5 @@ interface IAppHostCollectionSchema : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

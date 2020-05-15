@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 578b34a8-b697-0f48-20d0-4cf448388c91
 ---
 # IHttpUser::IsInRole Method
+
 Returns a value that indicates whether the user is authorized for a named role.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT IsInRole(
 ```  
   
 ### Parameters  
+
  `pszRoleName`  
  [IN] A pointer to a constant null-terminated Unicode string that contains the name of the role.  
   
@@ -23,6 +25,7 @@ virtual HRESULT IsInRole(
  [OUT] A pointer to a `BOOL` that indicates whether the user is authorized for the role specified by `pszRoleName`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -31,6 +34,7 @@ virtual HRESULT IsInRole(
 |E_NOTIMPL|Indicates that the `IsInRole` method was not implemented.|  
   
 ## Remarks  
+
  Call the `IsInRole` method only if the [SupportsIsInRole](../../web-development-reference/native-code-api-reference/ihttpuser-supportsisinrole-method.md) method first returns `true` on the same [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) pointer.  
   
  The `IsInRole` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -42,6 +46,7 @@ virtual HRESULT IsInRole(
 - If the `IHttpUser` implementer handles Managed authentication, the `pfInRole` parameter is unmodified, and `IsInRole` returns E_INVALIDARG immediately if either parameter is NULL. Otherwise, `pfInRole` is set to `true`, and `IsInRole` returns S_OK only if the user is in the role.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
  The above code writes XML that is similar to the following to the response stream.  
@@ -65,4 +70,5 @@ virtual HRESULT IsInRole(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)

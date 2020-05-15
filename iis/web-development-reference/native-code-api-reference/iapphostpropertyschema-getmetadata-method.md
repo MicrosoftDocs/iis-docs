@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4a41b196-e0ba-55e4-40d7-d7f0ad028418
 ---
 # IAppHostPropertySchema::GetMetadata Method
+
 Gets metadata values from the schema.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetMetadata(
 ```  
   
 ### Parameters  
+
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   
@@ -25,6 +27,7 @@ HRESULT GetMetadata(
  A pointer to a `VARIANT` that contains the value of the requested metadata.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -42,5 +45,6 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
  [IAppHostAdminManager::GetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostadminmanager-getmetadata-method.md)

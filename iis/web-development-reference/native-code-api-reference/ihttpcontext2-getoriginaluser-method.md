@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9367926f-6a54-4f85-9900-00c7d44bc6e4
 ---
 # IHttpContext2::GetOriginalUser Method
+
 Retrieves the user information associated with the original request during asynchronous operation.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual IHttpUser * GetOriginalUser(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpUser](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md) interface, which can be used to retrieve information about the original user.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual IHttpUser * GetOriginalUser(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext2 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext2-interface.md)

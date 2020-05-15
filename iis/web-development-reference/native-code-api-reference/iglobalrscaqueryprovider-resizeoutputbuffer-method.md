@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0f550da6-ac62-5d76-e29c-08d5e1238762
 ---
 # IGlobalRSCAQueryProvider::ResizeOutputBuffer Method
+
 Resizes and returns the output `BYTE` array.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT ResizeOutputBuffer(
 ```  
   
 ### Parameters  
+
  `cbNewBuffer`  
  [IN] A `DWORD` that contains the number of bytes to allocate.  
   
@@ -27,6 +29,7 @@ virtual HRESULT ResizeOutputBuffer(
  [IN][OUT] A pointer to a `BYTE` array that contains the new buffer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -36,6 +39,7 @@ virtual HRESULT ResizeOutputBuffer(
 |E_OUTOFMEMORY|Indicates that heap memory is exhausted.|  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [IGlobalRscaQueryProvider](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method. You can then resize a current `BYTE` array by calling the `ResizeOutputBuffer` method on the `IGlobalRSCAQueryProvider` pointer.  
   
  The `ResizeOutputBuffer` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -45,9 +49,11 @@ virtual HRESULT ResizeOutputBuffer(
  **Important** This method is part of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] infrastructure and is not intended to be used directly from your code.  
   
 ## Notes for Implementers  
+
  `IGlobalRSCAQueryProvider` implementers are responsible for memory management with this data; therefore, `IGlobalRSCAQueryProvider` implementers that use dynamic memory allocation must release or call `delete` on the `BYTE` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IGlobalRSCAQueryProvider` implementers are responsible for memory management with this data; therefore, `IGlobalRSCAQueryProvider` clients must not release or call `delete` on the returned `BYTE` pointer when this data is no longer needed.  
   
 ## Requirements  
@@ -60,5 +66,6 @@ virtual HRESULT ResizeOutputBuffer(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalRSCAQueryProvider Interface](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-interface.md)   
  [IGlobalRSCAQueryProvider::GetOutputBuffer Method](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-getoutputbuffer-method.md)

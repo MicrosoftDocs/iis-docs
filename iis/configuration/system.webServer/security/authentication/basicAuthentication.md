@@ -10,6 +10,7 @@ msc.type: config
 # Basic Authentication &lt;basicAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<basicAuthentication>` element contains configuration settings for the Internet Information Services (IIS) 7 Basic authentication module. You configure this element to enable or disable Basic authentication, identify the realm and default logon domain, and determine the logon method the module uses.
@@ -17,6 +18,7 @@ The `<basicAuthentication>` element contains configuration settings for the Inte
 The Basic authentication scheme is a widely used, industry-standard method for collecting user name and password information. Basic authentication transmits user names and passwords across the network in an unencrypted form. You can use SSL encryption in combination with Basic authentication to help secure user account information transmitted across the Internet or a corporate network.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -29,6 +31,7 @@ The Basic authentication scheme is a widely used, industry-standard method for c
 | IIS 6.0 | The `<basicAuthentication>` element replaces portions of the IIS 6.0 **AuthType** and **AuthFlags** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the Basic authentication role service. To use Basic authentication on Internet Information Services (IIS), you must install the role service, disable Anonymous authentication for your Web site or application, and then enable Basic authentication for the site or application.
@@ -72,6 +75,7 @@ To install the Basic authentication role service, use the following steps.
     [![](basicAuthentication/_static/image8.png)](basicAuthentication/_static/image7.png)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to enable basic authentication and disable anonymous authentication
@@ -99,6 +103,7 @@ To install the Basic authentication role service, use the following steps.
     [![](basicAuthentication/_static/image10.png)](basicAuthentication/_static/image9.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<basicAuthentication>` element is configurable at the site, application, virtual directory, and URL level. After you install the role service, IIS 7 commits the following configuration settings to the ApplicationHost.config file.
@@ -125,6 +130,7 @@ The following configuration sample enables Basic authentication for a Web site, 
 [!code-xml[Main](basicAuthentication/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable Basic authentication for a site.

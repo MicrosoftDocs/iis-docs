@@ -10,6 +10,7 @@ msc.type: config
 # Service Principal Name &lt;spn&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<spn>` element adds a Service Principal Name (SPN) to the collection of SPNs. Each SPN specifies a unique endpoint for client activity using the extended protection features for Windows authentication.
@@ -64,6 +65,7 @@ More information about Extended Protection is available in the following topic:
 > [Service Principal Names](https://msdn.microsoft.com/library/ms677949(VS.85).aspx)
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -76,6 +78,7 @@ More information about Extended Protection is available in the following topic:
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later does not include the Windows authentication role service. To use Windows authentication on IIS, you must install the role service, disable Anonymous authentication for your Web site or application, and then enable Windows authentication for the site or application.
@@ -124,6 +127,7 @@ The default installation of IIS 7 and later does not include the Windows authent
     [![](spn/_static/image8.png)](spn/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to enable Extended Protection for Windows authentication
@@ -158,6 +162,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 8. Click OK to close the **Advanced Settings** dialog box.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<spn>` element of the `<extendedProtection>` element is configurable at the site, application, or virtual directory level in the ApplicationHost.config file.
@@ -179,6 +184,7 @@ The following sample displays a `<extendedProtection>` element that demonstrates
 [!code-xml[Main](spn/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples demonstrate configuring Windows authentication with extended protection for the Default Web Site, and adds two SPN entries to the collection of SPNs.

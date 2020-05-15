@@ -10,6 +10,7 @@ msc.type: config
 # Adding Redirect Headers &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<redirectHeaders>` element adds an HTTP response header to the collection of custom HTTP headers that Internet Information Services (IIS) 7 will add to HTTP redirects.
@@ -18,6 +19,7 @@ The `<add>` element of the `<redirectHeaders>` element adds an HTTP response hea
 > HTTP headers are name and value pairs that are returned in responses from a Web server. Unlike custom headers, which are returned in every response from a Web server, redirect headers are returned only when redirection occurs.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,16 +32,19 @@ The `<add>` element of the `<redirectHeaders>` element adds an HTTP response hea
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element of the `<redirectHeaders>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding values to the `<redirectHeaders>` element for IIS 7. For examples of how to add values to the `<redirectHeaders>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -65,6 +70,7 @@ The following configuration sample specifies a custom HTTP header and value that
 [!code-xml[Main](add/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples specify a custom HTTP header and value that will only be added to the response when IIS 7 redirects a request.

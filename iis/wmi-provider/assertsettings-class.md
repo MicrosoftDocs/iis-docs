@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fa5f3d0e-0722-0bfb-3d98-45b5d6803df9
 ---
 # AssertSettings Class
+
 Specifies the user-interface mode for the [System.Diagnostics.Debug.Assert](https://go.microsoft.com/fwlink/?LinkId=70960) method and the name of a message log file.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class AssertSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `AssertSettings` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class AssertSettings : EmbeddedObject
 |`LogFileName`|A read/write `string` value that specifies the name of a log file to write trace or debug messages to.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Assert` property of the [SystemDiagnosticsSection](../wmi-provider/systemdiagnosticssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `AssertSettings`  
@@ -44,6 +50,7 @@ class AssertSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   
  [System.Diagnostics.Debug.Assert Method](https://go.microsoft.com/fwlink/?LinkId=70960)

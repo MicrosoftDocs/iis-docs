@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bcc87d56-7455-34dd-d844-bb0a439ea2d2
 ---
 # FtpCachePolicySettings Class
+
 Represents the default FTP cache policy for network resources.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FtpCachePolicySettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FtpCachePolicySettings` class.  
   
 |Name|Description|  
@@ -23,9 +26,11 @@ class FtpCachePolicySettings : EmbeddedObject
 |`PolicyLevel`|A read/write `sint32` value that specifies the FTP caching behavior for the local computer. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `DefaultFtpCachePolicy` property of the [RequestCachingSection](../wmi-provider/requestcachingsection-class.md) class.  
   
  The following table lists the possible values for the `PolicyLevel` property. The default is 0 (`Default`).  
@@ -41,6 +46,7 @@ class FtpCachePolicySettings : EmbeddedObject
 |6|`NoCacheNoStore`|Never satisfies a request by using resources from the cache, and does not cache resources. If the resource is present in the local cache, it is removed. This policy level indicates to intermediate caches that they should remove the resource.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `FtpCachePolicySettings`  
@@ -55,6 +61,7 @@ class FtpCachePolicySettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [RequestCachingSection Class](../wmi-provider/requestcachingsection-class.md)   
  [System.Net.Cache.RequestCacheLevel Enumeration](https://go.microsoft.com/fwlink/?LinkId=70921)   

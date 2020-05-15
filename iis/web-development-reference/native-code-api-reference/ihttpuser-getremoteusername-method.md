@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1feddf04-b7c2-888b-05c4-af1e2478e411
 ---
 # IHttpUser::GetRemoteUserName Method
+
 Returns the remote user name.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual PCWSTR GetRemoteUserName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a constant null-terminated Unicode string that contains the remote user name.  
   
 ## Remarks  
+
  The value returned depends on the authentication type. The authentication type is returned from the [GetAuthenticationType](../../web-development-reference/native-code-api-reference/ihttpuser-getauthenticationtype-method.md) method.  
   
  The following table shows authentication types with the associated remote user name values or pattern.  
@@ -34,12 +38,15 @@ virtual PCWSTR GetRemoteUserName(
 |Windows|*domain*\\*username*|  
   
 ## Notes for Implementers  
+
  `IHttpUser` implementers are responsible for memory management with this data; therefore, `IHttpUser` implementers that use dynamic memory allocation must release or call `delete` on the `PCWSTR` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpUser` implementers are responsible for memory management with this data; therefore, `IHttpUser` clients must not release or call `delete` on the returned `PCWSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCWSTR`; otherwise, an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
   
  [!code-cpp[IHttpUser#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpUser/cpp/GetRemoteUserName.cpp#6)]  
@@ -65,6 +72,7 @@ virtual PCWSTR GetRemoteUserName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpUser Interface](../../web-development-reference/native-code-api-reference/ihttpuser-interface.md)   
  [IHttpUser::GetPassword Method](../../web-development-reference/native-code-api-reference/ihttpuser-getpassword-method.md)   
  [IHttpUser::GetUserName Method](../../web-development-reference/native-code-api-reference/ihttpuser-getusername-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: aac130c8-3f20-47a1-9b45-b3cf964e9909
 ---
 # IHttpContext3::PostCompletion Method
+
 Posts the completion of the asynchronous operation.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT PostCompletion(
 ```  
   
 ### Parameters  
+
  `cbBytes`  
  [IN] The number of bytes completed.  
   
@@ -27,6 +29,7 @@ virtual HRESULT PostCompletion(
  [IN] The context pointer for the completion routine callback.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -43,4 +46,5 @@ virtual HRESULT PostCompletion(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext3 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)

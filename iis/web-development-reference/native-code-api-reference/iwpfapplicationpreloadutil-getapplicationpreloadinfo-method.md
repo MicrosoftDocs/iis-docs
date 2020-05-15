@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7747ae93-976d-4330-8d3a-06bb82180017
 ---
 # IWpfApplicationPreloadUtil::GetApplicationPreloadInfo Method
+
 Returns preload information (such as site ID and virtual path) for an application given the path to its configuration file.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT GetApplicationPreloadInfo(
 ```  
   
 ### Parameters  
+
  `pszConfigPath`  
  [IN] Path to the application’s configuration file.  
   
@@ -31,6 +33,7 @@ virtual HRESULT GetApplicationPreloadInfo(
  [OUT] Pointer to an array containing the preload values.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -47,4 +50,5 @@ virtual HRESULT GetApplicationPreloadInfo(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfApplicationPreloadUtil Interface](../../web-development-reference/native-code-api-reference/iwpfapplicationpreloadutil-interface.md)

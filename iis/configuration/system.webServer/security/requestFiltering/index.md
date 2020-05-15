@@ -10,6 +10,7 @@ msc.type: config
 # Request Filtering &lt;requestFiltering&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 Request Filtering is a built-in security feature that was introduced in Internet Information Services (IIS) 7.0, and replaces much of the functionality that was available through the UrlScan add-on for IIS 6.0. All of the settings for the request filtering feature are located within the `<requestFiltering>` element, which contains several child elements for each of the following feature areas:
@@ -55,6 +56,7 @@ When request filtering blocks an HTTP request, IIS 7 will return an HTTP 404 err
 These substatuses allow Web administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -67,6 +69,7 @@ These substatuses allow Web administrators to analyze their IIS logs and identif
 | IIS 6.0 | The `<requestFiltering>` element replaces the IIS 6.0 UrlScan features. |
 
 <a id="003"></a>
+
 ## Setup
 
 The default installation of IIS 7 and later includes the Request Filtering role service or feature. If the Request Filtering role service or feature is uninstalled, you can reinstall it using the following steps.
@@ -110,6 +113,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 **Note for IIS 7.0 users**: Some of the steps in this section may require that you install the Microsoft Administration Pack for IIS 7.0, which includes a user interface for request filtering. To install the Microsoft Administration Pack for IIS 7.0, please see the following URL:
@@ -294,6 +298,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     For example, to prevent HTTP TRACE requests to your server, you would enter "TRACE" in the dialog box.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -330,6 +335,7 @@ The following configuration sample from a Web.config file performs several secur
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples demonstrate how to deny access to three URL sequences for the Default Web Site: directory transversals (".."), alternate data streams (":"), and backslashes ("\").

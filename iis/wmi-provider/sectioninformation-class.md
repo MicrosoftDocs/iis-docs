@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 60972c6f-9cc6-142f-8889-8ceb6548b21c
 ---
 # SectionInformation Class
+
 Specifies override-mode and control-locking settings for a configuration section.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SectionInformation : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SectionInformation` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class SectionInformation : EmbeddedObject
 |`OverrideMode`|A read/write `string` value that specifies whether lower level configuration files can override the settings in the current configuration section. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SectionInformation` property of the [ConfigurationSection](../wmi-provider/configurationsection-class.md) class. All configuration section classes inherit the `SectionInformation` class as one of their properties.  
   
  The following table lists the possible values for the `EffectiveOverrideMode` property.  
@@ -50,6 +55,7 @@ class SectionInformation : EmbeddedObject
 >  The `EffectiveOverrideMode` property is useful in determining what the effective override mode for a configuration section is when the `OverrideMode` property is set to "Inherit".  
   
 ## Example  
+
  The following example retrieves the `SectionInformation` properties for all configuration sections.  
   
 ```  
@@ -82,6 +88,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SectionInformation`  
@@ -96,5 +103,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

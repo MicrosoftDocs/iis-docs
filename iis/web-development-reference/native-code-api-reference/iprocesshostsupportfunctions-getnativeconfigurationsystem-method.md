@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 62c808d8-fe81-749e-8574-f9800fdf2811
 ---
 # IProcessHostSupportFunctions::GetNativeConfigurationSystem Method
+
 Retrieves the [INativeConfigurationSystem](https://msdn.microsoft.com/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface pointer.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT __stdcall GetNativeConfigurationSystem(
 ```  
   
 ### Parameters  
+
  `ppConfigSystem`  
  The address of a `VOID` pointer that receives an `INativeConfigurationSystem` interface pointer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -26,6 +29,7 @@ virtual HRESULT __stdcall GetNativeConfigurationSystem(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  For more information, see the [IHttpServer::GetConfigObject](../../web-development-reference/native-code-api-reference/ihttpserver-getconfigobject-method.md) method.  
   
 ## Requirements  
@@ -38,5 +42,6 @@ virtual HRESULT __stdcall GetNativeConfigurationSystem(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)   
  [IHttpServer::GetConfigObject Method](../../web-development-reference/native-code-api-reference/ihttpserver-getconfigobject-method.md)

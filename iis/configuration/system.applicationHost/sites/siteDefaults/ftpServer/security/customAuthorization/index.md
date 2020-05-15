@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Custom Authorization &lt;customAuthorization&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<customAuthorization>` element specifies the default settings for custom authorization of FTP sites. This form of authorization uses custom authorization providers to validate user access.
@@ -19,6 +20,7 @@ If you enable a custom authorization provider, the built-in authorization provid
 For information about how to create a custom provider, see [How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider](https://docs.microsoft.com/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider).
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,6 +33,7 @@ For information about how to create a custom provider, see [How to Use Managed C
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP authorization using a custom provider on your Web server, you must install the **FTP Service** with **FTP Extensibity**.
@@ -59,6 +62,7 @@ To support FTP authorization using a custom provider on your Web server, you mus
 5. Under **FTP Server**, select **FTP Service** and **FTP Extensibility**, and then click **OK**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure default FTP authorization based upon a custom provider
@@ -84,6 +88,7 @@ To support FTP authorization using a custom provider on your Web server, you mus
 6. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -103,6 +108,7 @@ The following sample displays a `<customAuthorization>` element with a `<provide
 [!code-xml[Main](index/samples/sample1.xml)]
  
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure a default custom FTP authorization provider.

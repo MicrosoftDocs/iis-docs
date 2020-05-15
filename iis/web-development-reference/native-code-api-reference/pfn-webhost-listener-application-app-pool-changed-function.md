@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0fcb41c3-218d-4620-c701-7095d5b17173
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED Function
+
 Notifies the listener adapter that the application pool for a particular application has changed.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED)(
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -27,9 +29,11 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED)(
  [IN] A pointer to a string that contains the name of the new application pool.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
   
 ## Requirements  
@@ -42,5 +46,6 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED)(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

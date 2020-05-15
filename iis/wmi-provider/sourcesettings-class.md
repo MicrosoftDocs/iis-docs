@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b0c54741-fbf8-4420-8e95-7d834aa7a218
 ---
 # SourceSettings Class
+
 Contains trace sources that initiate tracing messages.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SourceSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SourceSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SourceSettings : EmbeddedObject
 |`Sources`|An array of [SourceElement](../wmi-provider/sourceelement-class.md) values that specify trace sources that initiate tracing messages.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Sources` array property of the [SystemDiagnosticsSection](../wmi-provider/systemdiagnosticssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SourceSettings`  
@@ -43,6 +49,7 @@ class SourceSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SourceElement Class](../wmi-provider/sourceelement-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)

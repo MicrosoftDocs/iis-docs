@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4037d4c6-28dd-4c53-8f61-5d099946cf45
 ---
 # IAppHostPathMapper2 Interface
+
 Provides methods that are called by the server implementation when the server informs the client about the hierarchy mapping decisions.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostPathMapper2 : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostPathMapper2` interface.  
   
 |Method|Description|  
@@ -20,9 +22,11 @@ interface IAppHostPathMapper2 : IUnknown
 |[IAppHostPathMapper2::MapPath Method](../../web-development-reference/native-code-api-reference/iapphostpathmapper2-mappath-method.md)|Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Remarks  
+
  To receive incoming remote calls for this interface, the client must implement a UUID(0f80e901-8f4c-449a-bf90-13d5d082f187). The client must then specify an object that implements the interface to the [IAppHostAdminManager::SetMetadata Method](../../web-development-reference/native-code-api-reference/iapphostadminmanager-setmetadata-method.md) method with a `bstrMetadataName` of "pathMapper2".  
   
  As an administration system maps hierarchy paths to physical paths on the server, it optionally calls the client-supplied object that implements the IAppHostPathMapper2 interface. The implementer of this interface receives details of all mappings and can change the results of each mapping if required.  
@@ -31,6 +35,7 @@ interface IAppHostPathMapper2 : IUnknown
 >  The `IAppHostPathMapper2` interface is designed to work on a local computer; you cannot use this interface to manage a remote computer.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostPathMapper2`  
@@ -45,5 +50,6 @@ interface IAppHostPathMapper2 : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 28d7825f-54f6-d715-c32b-13d911e6763d
 ---
 # HttpLoggingSection Class1
+
 Configures the logging of HTTP requests.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class HttpLoggingSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `HttpLoggingSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class HttpLoggingSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpLoggingSection` class.  
   
 |Name|Description|  
@@ -35,9 +38,11 @@ class HttpLoggingSection : ConfigurationSection
 |`SelectiveLogging`|A `sint32` enumeration that specifies the events to log. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<system.webServer/httpLogging>` section in the ApplicationHost.config file.  
   
  The following table lists the possible values for the `SelectiveLogging` property. The default is 0 (`LogAll`).  
@@ -49,6 +54,7 @@ class HttpLoggingSection : ConfigurationSection
 |2|`LogError`|Only failed requests are logged. A request is considered failed if its status code is greater than or equal to 400.|  
   
 ## Example  
+
  The following code example sets the `SelectiveLogging` property to `LogError`.  
   
 ```  
@@ -99,6 +105,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `HttpLoggingSection`  
@@ -113,6 +120,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CentralBinaryLogFile Class](../wmi-provider/centralbinarylogfile-class.md)   
  [CentralW3CLogFile Class](../wmi-provider/centralw3clogfile-class.md)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a85335e5-7fe8-d504-1a18-7ca0081c7317
 ---
 # IHttpResponse::Clear Method
+
 Clears the response entity.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual VOID Clear(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The `Clear` method empties the response contents, including the HTTP headers, the response body, and the HTTP status information. This method resets the response headers and body to default values.  
   
 > [!NOTE]
 >  If the server has already flushed the response buffer to the client when you call the `Clear` method, the method may appear to have no effect.  
   
 ## Example  
+
  The following code example demonstrates how to use the `Clear` method to create an HTTP module that clears the response headers and body and returns a default response to the client.  
   
  [!code-cpp[IHttpResponseClear#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseClear/cpp/IHttpResponseClear.cpp#1)]  
@@ -45,5 +50,6 @@ virtual VOID Clear(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::ClearHeaders Method](../../web-development-reference/native-code-api-reference/ihttpresponse-clearheaders-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bd9ee475-e075-2771-d242-60683aca8b0f
 ---
 # IAppHostSectionDefinition::OverrideModeDefault Property
+
 Gets or sets the default override behavior for the current configuration section.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ HRESULT put_OverrideModeDefault(
 ```  
   
 ### Parameters  
+
  `pbstrOverrideModeDefault`  
  A pointer to a `BSTR` that indicates the default override behavior. Valid values are "Allow" and "Deny".  
   
@@ -26,6 +28,7 @@ HRESULT put_OverrideModeDefault(
  A `BSTR` that indicates the default override behavior. Valid values are "Allow" and "Deny".  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -33,12 +36,15 @@ HRESULT put_OverrideModeDefault(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  If you do not explicitly set the value of this property, the default is "Allow". "Allow" specifies that settings can be overridden in lower levels of configuration; "Deny" specifies that settings cannot be overridden.  
   
 ## Description  
+
  The following code example creates a new section group and a new section, and then sets the `OverrideModeDefault` property value of the newly generated section to "Deny".  
   
 ## Code  
+
  [!code-cpp[IAppHostAdminLibrary#7](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostSectionGroupAddSectionGroup.cpp#7)]  
   
 ## Requirements  
@@ -51,4 +57,5 @@ HRESULT put_OverrideModeDefault(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionDefinition Interface](../../web-development-reference/native-code-api-reference/iapphostsectiondefinition-interface.md)

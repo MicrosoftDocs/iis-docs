@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 87c2bd23-5ce9-4a1a-9413-f159f54436a1
 ---
 # OneToOneSettings Class
+
 Contains one-to-one client certificate mappings.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class OneToOneSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `OneToOneSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class OneToOneSettings : EmbeddedObject
 |`OneToOneMappings`|An array of [OneToOneCertificateMappingElement](../wmi-provider/onetoonecertificatemappingelement-class.md) values that specify one-to-one client certificate mappings.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `OneToOneMappings` array property of the [IisClientCertificateMappingAuthenticationSection](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `OneToOneSettings`  
@@ -43,6 +49,7 @@ class OneToOneSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

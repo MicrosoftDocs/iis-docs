@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d8e3a0d7-bf72-473d-915a-0a7d9f714c23
 ---
 # BufferModeElement Class
+
 Configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] event-buffering settings for event providers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class BufferModeElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `BufferModeElement` class.  
   
 |Name|Description|  
@@ -29,12 +32,15 @@ class BufferModeElement : CollectionElement
 |`UrgentFlushThreshold`|A read/write `sint32` value that specifies the number of events that can be buffered before a flush is triggered. The default is 2147483647. This property value cannot be greater than `MaxBufferSize`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `BufferModes` array property of the [BufferModeSettings](../wmi-provider/buffermodesettings-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `BufferModeElement`  
@@ -49,6 +55,7 @@ class BufferModeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode)  
  [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

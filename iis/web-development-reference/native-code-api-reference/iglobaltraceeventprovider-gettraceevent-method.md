@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cefd0b4e-0eef-fe25-0242-87d496944a0c
 ---
 # IGlobalTraceEventProvider::GetTraceEvent Method
+
 Retrieves the trace event for the provider.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT GetTraceEvent(
 ```  
   
 ### Parameters  
+
  `ppTraceEvent`  
  [OUT] A pointer to the address of an [HTTP_TRACE_EVENT](../../web-development-reference/native-code-api-reference/http-trace-event-structure.md) structure.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -26,6 +29,7 @@ virtual HRESULT GetTraceEvent(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. Clients will usually call the `GetTraceEvent` method on that pointer only if the [CheckSubscription](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-checksubscription-method.md) method returns `true`.  
   
  `GetTraceEvent` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -33,12 +37,15 @@ virtual HRESULT GetTraceEvent(
  All `IGlobalTraceEventProvider` implementers declare a `private``HTTP_TRACE_EVENT` pointer and initialize that pointer during construction to shared `HTTP_TRACE_EVENT` data that is passed to the constructors. The `GetTraceEvent` call sets the dereferenced `ppTraceEvent` pointer to this `private` data and then always returns S_OK.  
   
 ## Notes for Implementers  
+
  `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` implementers that use dynamic memory allocation must release or call `delete` on the `HTTP_TRACE_EVENT` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` clients must not release or call `delete` on the returned `HTTP_TRACE_EVENT` pointer when this data is no longer needed.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IGlobalTraceEventProvider` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -125,4 +132,5 @@ virtual HRESULT GetTraceEvent(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalTraceEventProvider Interface](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md)

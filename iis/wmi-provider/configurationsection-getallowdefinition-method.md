@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d8a84cd4-8cdb-48bf-a50e-2fbcabba56db
 ---
 # ConfigurationSection.GetAllowDefinition Method
+
 Retrieves the `allowDefinition` attribute for a configuration section.  
   
 ## Syntax  
@@ -23,9 +24,11 @@ ConfigurationSection.GetAllowDefinition(AllowDefinition);
 |`AllowDefinition`|A `string` variable that receives the `allowDefinition` attribute that the `GetAllowDefinition` method returns. The possible attribute values are listed later in the Remarks section.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  `allowDefinition` attributes specify where in the configuration hierarchy values may be set for a given configuration section. These attributes are specified in the `<configSections>` section of the ApplicationHost.config file.  
   
  Because `GetAllowDefinition` is a static method, you should call it by getting a class object, as in the following example.  
@@ -56,6 +59,7 @@ oAnonAuth.GetAllowDefinition strAnonAuthAllowDefinition
 |`MachineToApplication`|The section can be set only at the global level. For [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] sections, the global level is the root Web.config or Machine.config file; for IIS sections, it is the ApplicationHost.config file; and for applications, it is the Web.config file for the root application.|  
   
 ## Example  
+
  The following example displays the `allowDefinition` attribute for the Anonymous authentication configuration section.  
   
 ```  
@@ -87,5 +91,6 @@ WScript.Echo _
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

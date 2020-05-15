@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 44714859-9692-7881-1978-662089aed17a
 ---
 # IHttpCachePolicy::GetVaryByQueryStrings Method
+
 Returns the custom query values for the cache policy.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual PCSTR GetVaryByQueryStrings(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A null-terminated `PCSTR` that contains a comma-delimited list of custom query values.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetVaryByQueryStrings` method to retrieve the custom query values.  
   
  `GetVaryByQueryStrings` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -30,12 +34,15 @@ virtual PCSTR GetVaryByQueryStrings(
 - `GetVaryByQueryStrings` returns the comma-delimited list of custom query values set through successive calls to `AppendVaryByQueryString`.  
   
 ## Notes for Implementers  
+
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` implementers that use dynamic memory allocation must release or call `delete` on the `PCSTR` pointer when it is no longer needed.  
   
 ## Notes for Callers  
+
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` clients must not release or call `delete` on the returned `PCSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCSTR`, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes variable query information to the response stream.  
   
  [!code-cpp[IHttpCachePolicy#8](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCachePolicy/cpp/GetVaryByQueryStrings.cpp#8)]  
@@ -60,4 +67,5 @@ Vary-by-Query:
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b0922e9c-5e4e-7ade-410c-fc702e187d95
 ---
 # CgiSection Class
+
 Configures Common Gateway Interface (CGI) settings.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class CgiSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `CgiSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class CgiSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CgiSection` class.  
   
 |Name|Description|  
@@ -36,9 +39,11 @@ class CgiSection : ConfigurationSection
 |`Timeout`|A read/write `datetime` value that specifies the time-out for CGI applications. The default is 15 minutes.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `CgiSection`  
@@ -53,6 +58,7 @@ class CgiSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [IsapiCgiRestrictionElement Class](../wmi-provider/isapicgirestrictionelement-class.md)   
  [IsapiCgiRestrictionSection Class](../wmi-provider/isapicgirestrictionsection-class.md)   

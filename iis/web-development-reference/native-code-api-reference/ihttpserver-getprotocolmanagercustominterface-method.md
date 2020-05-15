@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4e7c0771-aa07-a501-d49e-94c98295bfac
 ---
 # IHttpServer::GetProtocolManagerCustomInterface Method
+
 Retrieves a custom interface for a protocol manager.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT GetProtocolManagerCustomInterface(
 ```  
   
 ### Parameters  
+
  `pProtocolManagerDll`  
  [IN] A pointer to a string that contains the path to the protocol manager DLL.  
   
@@ -31,6 +33,7 @@ virtual HRESULT GetProtocolManagerCustomInterface(
  [OUT] A pointer to a `VOID` buffer that contains the custom interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,6 +43,7 @@ virtual HRESULT GetProtocolManagerCustomInterface(
 |ERROR_INVALID_PARAMETER|Indicates the interface specified by `dwCustomInterfaceId` is not valid.|  
   
 ## Remarks  
+
  The `GetProtocolManagerCustomInterface` method exposes the [IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface](../../web-development-reference/native-code-api-reference/load-protocol-manager-and-get-custom-interface.md) method to HTTP modules.  
   
 ## Requirements  
@@ -52,5 +56,6 @@ virtual HRESULT GetProtocolManagerCustomInterface(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method](../../web-development-reference/native-code-api-reference/load-protocol-manager-and-get-custom-interface.md)

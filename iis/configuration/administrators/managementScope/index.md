@@ -10,6 +10,7 @@ msc.type: config
 # Management Scope for Administrators &lt;managementScope&gt; (Deprecated)
 
 <a id="001"></a>
+
 ## Note
 
 > [!NOTE]

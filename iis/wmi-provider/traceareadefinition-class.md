@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2e7a5f92-c545-bddf-e717-433ae9baa574
 ---
 # TraceAreaDefinition Class
+
 Specifies trace area names and their corresponding enumeration values for a trace provider.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceAreaDefinition : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceAreaDefinition` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class TraceAreaDefinition : CollectionElement
 |`Value`|A read/write `uint32` value that maps to a trace area or areas. You can define one or more trace areas by specifying the flag number. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Areas` array property of the [TraceAreaSettings](../wmi-provider/traceareasettings-class.md) class.  
   
  The failed-request tracing feature of [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] uses the `TraceAreaDefinition` class. The property values of this class map to the same values for the areas used by the Event Tracing for Windows (ETW) providers. Trace areas are defined by default for the "WWW Server" and "ASPNET" trace providers in the ApplicationHost.config file.  
@@ -49,6 +54,7 @@ class TraceAreaDefinition : CollectionElement
 >  There is no `UrlFilter` area as there is in ETW for Windows Server 2003 SP1.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TraceAreaDefinition`  
@@ -63,6 +69,7 @@ class TraceAreaDefinition : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
  [FailureDefinition Class](../wmi-provider/failuredefinition-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0d33c3ee-09a3-2ec5-5f4e-804074f5ed18
 ---
 # IHttpSite::GetSiteName Method
+
 Retrieves the name for the Web site.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual PCWSTR GetSiteName(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to a string that contains the name of the Web site.  
   
 ## Remarks  
+
  The `GetSiteName` method returns the name of the Web site that is processing the current request. The name that `GetSiteName` returns is the same name that is displayed in [!INCLUDE[iismgr](../../wmi-provider/includes/iismgr-md.md)] and is created or modified by a Web administrator when they create or manage a Web site.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetSiteName` method to create an HTTP module that retrieves an [IHttpSite](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md) interface. The module uses `GetSiteName` to retrieve the name of the Web site for the current request. The module then returns the name of the Web site to a Web client and exits.  
   
  [!code-cpp[IHttpSiteGetSiteName#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpSiteGetSiteName/cpp/IHttpSiteGetSiteName.cpp#1)]  
@@ -42,6 +47,7 @@ virtual PCWSTR GetSiteName(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext::GetSite Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getsite-method.md)   
  [IHttpSite Interface](../../web-development-reference/native-code-api-reference/ihttpsite-interface.md)   
  [IHttpSite::GetSiteId Method](../../web-development-reference/native-code-api-reference/ihttpsite-getsiteid-method.md)

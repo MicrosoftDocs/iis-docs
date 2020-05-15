@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 144ea09b-2b53-3264-a294-ee156ca39644
 ---
 # PerformanceCounterSettings Class
+
 Specifies the size of the global memory shared by performance counters.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class PerformanceCounterSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `PerformanceCounterSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class PerformanceCounterSettings : EmbeddedObject
 |`FileMappingSize`|A read/write `sint32` value that specifies the size, in bytes, of the global memory shared by performance counters. The default is 524288.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `PerformanceCounters` property of the [SystemDiagnosticsSection](../wmi-provider/systemdiagnosticssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `PerformanceCounterSettings`  
@@ -43,6 +49,7 @@ class PerformanceCounterSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [PerformanceCountersSettings Class](../wmi-provider/performancecounterssettings-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)

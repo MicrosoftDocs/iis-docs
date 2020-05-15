@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8f5f708c-9ca7-48eb-8474-25eebe5c97c9
 ---
 # Application Class1
+
 Represents an IIS Web application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class Application : ConfiguredObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `Application` class.  
   
 |Name|Description|  
@@ -23,6 +25,7 @@ class Application : ConfiguredObject
 |[RevertToParent](../wmi-provider/application-reverttoparent-method.md)|Reverts an application's configuration value or values to the default.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `Application` class.  
   
 |Name|Description|  
@@ -34,12 +37,15 @@ class Application : ConfiguredObject
 |`VirtualDirectoryDefaults`|A [VirtualDirectoryElementDefaults](../wmi-provider/virtualdirectoryelementdefaults-class.md) object whose read/write properties specify default values for virtual directories under the application.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  A Web application is a grouping of content at the root level of a Web site or a grouping of content in a separate folder below the Web site's root directory. The `Application` class enables you to specify properties specific to a particular application, such as the application pool that the application will run in.  
   
 ## Example  
+
  The following example assigns the `Northwind` application to an application pool named `NewAppPool`.  
   
 ```  
@@ -69,6 +75,7 @@ WScript.Echo "New application pool: " & oApp.ApplicationPool
  To set the default application pool for all the applications in a Web site, use the `ApplicationDefaults` property of the [Site](../wmi-provider/site-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [ConfiguredObject](../wmi-provider/configuredobject-class.md)  
   
  `Application`  
@@ -83,6 +90,7 @@ WScript.Echo "New application pool: " & oApp.ApplicationPool
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationElementDefaults Class](../wmi-provider/applicationelementdefaults-class.md)   
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
  [Site Class](../wmi-provider/site-class.md)   

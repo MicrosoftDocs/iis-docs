@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 886766c8-3b3c-14f3-9633-0443a6497a9c
 ---
 # TraceAreaElement Class
+
 Specifies criteria for generating trace events and configures the content of log file entries.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceAreaElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceAreaElement` class.  
   
 |Name|Description|  
@@ -25,9 +28,11 @@ class TraceAreaElement : CollectionElement
 |`Verbosity`|A read/write `sint32` value that specifies the level of verbosity when failed requests are logged. The possible values are listed in the Remarks section below.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `TraceAreas` array property of the [TraceUrlAreaSettings](../wmi-provider/traceurlareasettings-class.md) class.  
   
  The following table lists the possible values for the `Verbosity` property. The default is 3 (`Warning`).  
@@ -44,6 +49,7 @@ class TraceAreaElement : CollectionElement
 |5|`Verbose`|Provides detailed information about requests.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TraceAreaElement`  
@@ -58,6 +64,7 @@ class TraceAreaElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
  [TraceAreaDefinition Class](../wmi-provider/traceareadefinition-class.md)   

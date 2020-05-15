@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 98697b04-2d7a-20a5-14c5-95883eed8b2b
 ---
 # IAppHostConfigLocation::DeleteConfigSection Method
+
 Removes a configuration section from the current configuration location.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT DeleteConfigSection(
 ```  
   
 ### Parameters  
+
  `cIndex`  
  A `VARIANT` that contains the index of the configuration section to remove. The index can contain a `BSTR` that contains the location path.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT DeleteConfigSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocation Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md)

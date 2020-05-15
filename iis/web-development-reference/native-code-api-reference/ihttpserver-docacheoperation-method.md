@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0a0367e5-0463-3261-e359-41d2205827a4
 ---
 # IHttpServer::DoCacheOperation Method
+
 Performs a specific cache operation.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ virtual HRESULT DoCacheOperation(
 ```  
   
 ### Parameters  
+
  `cacheOperation`  
  [IN] A [CACHE_OPERATION](../../web-development-reference/native-code-api-reference/cache-operation-enumeration.md) enumeration value.  
   
@@ -31,6 +33,7 @@ virtual HRESULT DoCacheOperation(
  [IN] A pointer to an [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) interface. (Optional.)  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -38,12 +41,14 @@ virtual HRESULT DoCacheOperation(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The `DoCacheOperation` method is used in HTTP modules to perform the cache operation that is specified by the `cacheOperation` parameter. For example, the [CACHE_OPERATION_ADD](../../web-development-reference/native-code-api-reference/cache-operation-enumeration.md) and [CACHE_OPERATION_DELETE](../../web-development-reference/native-code-api-reference/cache-operation-enumeration.md) enumeration values store or remove objects, respectively, from the cache. When your module calls the `DoCacheOperation` method, it must pass an `IHttpCacheKey` interface in the `pCacheKey` parameter, and IIS will return an `IHttpCacheSpecificData` interface in the `ppCacheSpecificData` parameter. You can optionally specify an `IHttpTraceContext` interface in the `pHttpTraceContext` parameter to identify the request that triggered the call. (This is necessary only for tracing purposes.)  
   
 > [!NOTE]
 >  Implementers should not call [DoCacheOperation](../../web-development-reference/native-code-api-reference/ihttpserver-docacheoperation-method.md) inside of [IHttpApplicationResolveModulesProvider::RegisterModule Method](../../web-development-reference/native-code-api-reference/ihttpapplicationresolvemodulesprovider-registermodule-method.md) because it is too early in the request pipeline.  
   
 ## Example  
+
  The following code example demonstrates how to use the `DoCacheOperation` method to create an HTTP module that tests for a [CACHE_OPERATION_RETRIEVE](../../web-development-reference/native-code-api-reference/cache-operation-enumeration.md) operation and triggers a [CACHE_OPERATION_ENUM](../../web-development-reference/native-code-api-reference/cache-operation-enumeration.md) operation.  
   
  [!code-cpp[IHttpServerDoCacheOperation#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerDoCacheOperation/cpp/IHttpServerDoCacheOperation.cpp#1)]  
@@ -62,6 +67,7 @@ virtual HRESULT DoCacheOperation(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [CACHE_OPERATION Enumeration](../../web-development-reference/native-code-api-reference/cache-operation-enumeration.md)   
  [IHttpCacheKey Interface](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)   

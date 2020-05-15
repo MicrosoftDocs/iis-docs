@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d6515912-4d1b-f956-ae6b-80576da89e4a
 ---
 # IAppHostSectionDefinitionCollection::AddSection Method
+
 Adds a new configuration section definition to the collection.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT AddSection(
 ```  
   
 ### Parameters  
+
  `bstrSectionName`  
  A `BSTR` that specifies the name of the configuration section definition to be added.  
   
@@ -25,6 +27,7 @@ HRESULT AddSection(
  A pointer to a pointer for the newly created [IAppHostSectionDefinition](../../web-development-reference/native-code-api-reference/iapphostsectiondefinition-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ HRESULT AddSection(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
+
  The following code example creates a new section group and a new section, and then sets the property values of the newly generated section.  
   
  [!code-cpp[IAppHostAdminLibrary#6](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertySetValue.cpp#6)]  
@@ -46,4 +50,5 @@ HRESULT AddSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionDefinitionCollection Interface](../../web-development-reference/native-code-api-reference/iapphostsectiondefinitioncollection-interface.md)

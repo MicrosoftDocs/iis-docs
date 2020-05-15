@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 468d6b7a-8fd3-99a4-07a8-3adf433fdfa3
 ---
 # IAppHostProperty::Schema Property
+
 Gets the schema assigned to the current property.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Schema(
 ```  
   
 ### Parameters  
+
  `ppSchema`  
  A pointer to a pointer for the [IAppHostPropertySchema](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md) interface that is associated with the current property.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ HRESULT get_Schema(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  This property gets the schema that is used to validate values when the XML configuration is loaded and when the [IAppHostProperty::Value](../../web-development-reference/native-code-api-reference/iapphostproperty-value-property.md) property is set.  
   
 ## Requirements  
@@ -39,4 +43,5 @@ HRESULT get_Schema(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 254d5fc4-8abd-4410-84e3-d7f13ee6cd68
 ---
 # Compress Function
+
 Compresses data given the compression context, input buffer, output buffer, and compression level.  
   
 ## Syntax  
@@ -22,6 +23,7 @@ HRESULT WINAPI Compress(
 ```  
   
 ### Parameters  
+
  `context`  
  [IN][OUT] Pointer to the new compression context.  
   
@@ -47,6 +49,7 @@ HRESULT WINAPI Compress(
  [IN] Compression level (1…10).  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -54,6 +57,7 @@ HRESULT WINAPI Compress(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  When used with IIS, this method is called repeatedly until all the data required to fulfill the request is compressed.  
   
 ## Requirements  
@@ -66,4 +70,5 @@ HRESULT WINAPI Compress(
 |Header|Httpcompression.h|  
   
 ## See Also  
+
  [Web Server Core Functions](../../web-development-reference/native-code-api-reference/web-server-core-functions.md)

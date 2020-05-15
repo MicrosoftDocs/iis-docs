@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8b530f31-4cb9-0def-a2d7-b21228f0a35c
 ---
 # IdentitySection Class
+
 Specifies whether an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application should run as the application pool identity (the default), the IIS-authenticated user identity, or a custom configured identity.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IdentitySection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IdentitySection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class IdentitySection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IdentitySection` class.  
   
 |Name|Description|  
@@ -36,12 +39,15 @@ class IdentitySection : ConfigurationSection
 |`UserName`|An optional read/write `string` value that specifies the user name for a Web application if the `Impersonate` property is set to `true`. For more information, see the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The `Password` and `UserName` properties are stored in clear text in the configuration file. Although IIS does not transmit .config files in response to a user agent request, users who have proper credentials on the domain that contains the server can read .config files. For information about storing the `UserName` and `Password` values in encrypted form in the registry, see [identity Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67195).  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `IdentitySection`  
@@ -56,5 +62,6 @@ class IdentitySection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [identity Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67195)

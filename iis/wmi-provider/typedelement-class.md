@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4fc60971-e167-f204-984a-80a0eadb884f
 ---
 # TypedElement Class
+
 Defines a filter for a trace listener.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TypedElement : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TypedElement` class.  
   
 |Name|Description|  
@@ -24,6 +27,7 @@ class TypedElement : EmbeddedObject
 |`Type`|A required read/write `string` value that specifies the type of the trace listener filter.|  
   
 ## Subclasses  
+
  The following table lists the subclasses exposed by the `TypedElement` class.  
   
 |Name|Description|  
@@ -31,9 +35,11 @@ class TypedElement : EmbeddedObject
 |[ListenerElement](../wmi-provider/listenerelement-class.md)|Contains a listener that monitors and formats trace output.|  
   
 ## Remarks  
+
  Instances of this class are contained in the `Filter` property of the [ListenerElement](../wmi-provider/listenerelement-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `TypedElement`  
@@ -48,5 +54,6 @@ class TypedElement : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ListenerElement Class](../wmi-provider/listenerelement-class.md)

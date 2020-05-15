@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 87c349b9-1d64-ac13-cb24-e70a5c209b6e
 ---
 # VirtualDirectory Class2
+
 Represents an IIS virtual directory.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class VirtualDirectory : ConfiguredObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `VirtualDirectory` class.  
   
 |Name|Description|  
@@ -23,6 +25,7 @@ class VirtualDirectory : ConfiguredObject
 |[RevertToParent](../wmi-provider/virtualdirectory-reverttoparent-method.md)|Reverts a virtual directory's configuration value or values to those of its parent directory.|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `VirtualDirectory` class.  
   
 |Name|Description|  
@@ -37,9 +40,11 @@ class VirtualDirectory : ConfiguredObject
 |`UserName`|A read/write `string` value that specifies a user who has rights to access any configuration files or content in a virtual directory. The default is `null`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table contains the possible values and keywords for the `LogonMethod` property. The default is 3 (`ClearText`). For more information, see the [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074) function.  
   
 |Value|Keyword|Description|  
@@ -50,6 +55,7 @@ class VirtualDirectory : ConfiguredObject
 |3|`ClearText`|This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client.|  
   
 ## Example  
+
  The following example sets the physical path for the default Web site.  
   
 ```  
@@ -66,6 +72,7 @@ oVDir.Put_
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfiguredObject](../wmi-provider/configuredobject-class.md)  
   
  `VirtualDirectory`  
@@ -80,6 +87,7 @@ oVDir.Put_
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
  [Object Class](../wmi-provider/object-class.md)   
  [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074)

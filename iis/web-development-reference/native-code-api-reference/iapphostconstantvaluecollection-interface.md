@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 90e2f8f5-7b99-40c5-a911-a583abc73080
 ---
 # IAppHostConstantValueCollection Interface
+
 Represents a collection of [IAppHostConstantValue Interface](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-interface.md) objects.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ interface IAppHostConstantValueCollection : IUnknown
 ```  
   
 ## Methods  
+
  This interface contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostConstantValueCollection` interface.  
   
 |Property|Description|  
@@ -24,6 +27,7 @@ interface IAppHostConstantValueCollection : IUnknown
 |[IAppHostConstantValueCollection::Item Property](../../web-development-reference/native-code-api-reference/iapphostconstantvaluecollection-item-property.md)|Gets the constant value at the specified index.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConstantValueCollection`  
@@ -38,4 +42,5 @@ interface IAppHostConstantValueCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)

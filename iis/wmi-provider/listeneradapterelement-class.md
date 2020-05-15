@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 36ff3ff9-7c5a-c35b-9ceb-0202ac71596b
 ---
 # ListenerAdapterElement Class
+
 Specifies configuration settings for a listener adapter.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ListenerAdapterElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ListenerAdapterElement` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class ListenerAdapterElement : CollectionElement
 |`ProtocolManagerDllInitFunction`|A read/write `string` value that contains the name of the function to call on the custom listener adapter code. The function must reside in the DLL specified in the `ProtocolManagerDll` property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `ListenerAdapters` property of the [ListenerAdaptersSection](../wmi-provider/listeneradapterssection-class.md) class.  
   
  Listener adapters are components that establish communication between non-HTTP protocol listeners and the Windows Process Activation Service (WAS). The World Wide Web Publishing Service (WWW service), which contains HTTP-specific functionality, does not use `ListenerAdapterElement` configuration settings.  
@@ -36,6 +41,7 @@ class ListenerAdapterElement : CollectionElement
  Changes to `ListenerAdapterElement` take effect only when a listener adapter connects with WAS. In most cases, this connection requires that the server be restarted.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `ListenerAdapterElement`  
@@ -50,6 +56,7 @@ class ListenerAdapterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.ApplicationHost.Configuration.ListenerAdapterElement](../wmi-provider/listeneradapterelement-class.md)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ListenerAdaptersSection Class](../wmi-provider/listeneradapterssection-class.md)

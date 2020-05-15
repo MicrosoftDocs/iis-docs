@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2c9f1513-91bf-a8e6-1c30-3970a127c0a5
 ---
 # IAppHostSectionDefinitionCollection::DeleteSection Method
+
 Removes a configuration section definition from the collection.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT DeleteSection(
 ```  
   
 ### Parameters  
+
  `varIndex`  
  A `VARIANT` that contains the index of the configuration section definition to be removed from the current collection.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ HRESULT DeleteSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionDefinitionCollection Interface](../../web-development-reference/native-code-api-reference/iapphostsectiondefinitioncollection-interface.md)

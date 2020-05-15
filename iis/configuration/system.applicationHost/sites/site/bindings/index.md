@@ -10,6 +10,7 @@ msc.type: config
 # Bindings &lt;bindings&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<bindings>` element configures binding information for an IIS 7 or later Web site. It can also define the default bindings for all sites on the Web server if it is included in the `<siteDefaults>` element.
@@ -19,6 +20,7 @@ This element can contain a collection of `<binding>` elements. Each element in t
 You can also use `<clear />` element in the `<bindings>` element to override binding defaults inherited from the server level `<siteDefaults>` element.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,11 +33,13 @@ You can also use `<clear />` element in the `<bindings>` element to override bin
 | IIS 6.0 | The `<bindings>` collection replaces sections of the **ServerBindings** property on the IIS 6.0 **IIsWebServer** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<bindings>` element is included in the default installation of IIS 7 or later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add binding information to a site
@@ -64,6 +68,7 @@ The `<bindings>` element is included in the default installation of IIS 7 or lat
     [![](index/_static/image4.png)](index/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 You can add a `<bindings>` element for each site in the ApplicationHost.config file, which can contain a collection of individual `<binding>` elements that define the individual protocol bindings for the site. Each site will need at least one HTTP or HTTPS binding to be viewable over the Internet.
@@ -88,6 +93,7 @@ The following example defines a site named Contoso with two bindings. The first 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure a site named Contoso with a hostname of &quot;www.contoso.com&quot; on port 80 for the IP address of 192.168.0.1, and an HTTPS binding for all IP addresses over port 443.

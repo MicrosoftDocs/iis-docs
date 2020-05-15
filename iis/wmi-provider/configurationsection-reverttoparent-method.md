@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7266c221-dc31-4bc5-a895-63f78f48d52f
 ---
 # ConfigurationSection.RevertToParent Method
+
 Reverts configuration values in a section to their defaults.  
   
 ## Syntax  
@@ -25,12 +26,15 @@ ConfigurationSection.RevertToParent(PropertyName)
 |`PropertyName`|An optional `string` value that contains the name of a property in the configuration section. The property can be nested (for example, `oLogSection.RevertToParent("CentralBinaryLogFile.Directory")`.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method provides a way to delete configuration values that have been written to a configuration file.  
   
 ## Example  
+
  The following example shows two ways of using the `RevertToParent` method:  
   
 1. The first part reverts a specified property to the default value. The following line from the example reverts the `Enabled` property of `DefaultDocumentSection` of the default Web site by specifying the property name as a `RevertToParent` parameter.  
@@ -75,6 +79,7 @@ oDefaultDocumentSection.RevertToParent
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   

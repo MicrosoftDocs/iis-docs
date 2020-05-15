@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 31cf1e5c-75cd-6fc6-ac1e-1fdf1da1061d
 ---
 # ConfiguredObject.GetSection Method
+
 Retrieves the contents of a configuration section for a configured object.  
   
 ## Syntax  
@@ -24,15 +25,18 @@ ConfiguredObject.GetSection SectionName, Section
 |`Section`|A [ConfigurationSection](../wmi-provider/configurationsection-class.md) variable into which the contents of the configuration section are placed.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  You can use the `GetSection` method to retrieve the contents of a desired configuration section and set its configurable properties.  
   
 > [!NOTE]
 >  The `GetSection` method signature contains an `[IN]` parameter for the section name and an `[OUT]` parameter for the section object that the method returns.  
   
 ## Example  
+
  The following example gets the HTTP errors section for the default Web site and displays both its array and non-array properties.  
   
 ```  
@@ -88,6 +92,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
  [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   

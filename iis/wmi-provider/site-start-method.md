@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5fb2096c-75dd-1a4c-2491-a40f01e8aa98
 ---
 # Site.Start Method1
+
 Starts an existing Web site.  
   
 ## Syntax  
@@ -17,15 +18,19 @@ oSite.Start();
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  This method is new to the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider and has no counterpart in IIS 6.0.  
   
 ## Example  
+
  The following example starts a Web site named `IISWebSite`.  
   
 ```  
@@ -51,4 +56,5 @@ oSite.Start
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Site Class](../wmi-provider/site-class.md)

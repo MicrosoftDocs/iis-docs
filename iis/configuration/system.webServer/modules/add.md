@@ -10,11 +10,13 @@ msc.type: config
 # Adding Modules &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<modules>` collection adds a module to the list of modules for Internet Information Services (IIS) 7.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,11 +29,13 @@ The `<add>` element of the `<modules>` collection adds a module to the list of m
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<add>` element of the `<modules>` collection is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add a managed module to application
@@ -62,6 +66,7 @@ The `<add>` element of the `<modules>` collection is included in the default ins
 7. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -83,6 +88,7 @@ The example configures a module for a Web application running in IIS 7 Integrate
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 > [!NOTE]

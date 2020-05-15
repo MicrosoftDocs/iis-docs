@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: addd9da3-1dc3-a705-9f0f-95ffa02025de
 ---
 # IAppHostConfigManager::GetConfigFile Method
+
 Gets a configuration file that is represented by the requested configuration path.  
   
 ## Syntax  
@@ -18,6 +19,7 @@ HRESULT GetConfigFile(
 ```  
   
 ### Parameters  
+
  `bstrConfigPath`  
  A `BSTR` that contains the configuration file path being requested.  
   
@@ -25,6 +27,7 @@ HRESULT GetConfigFile(
  A pointer to a pointer for an [IAppHostConfigFile](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,9 +35,11 @@ HRESULT GetConfigFile(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  This method provides access to the physical configuration files represented by a configuration system path. For example, passing "MACHINE/WEBROOT/APPHOST" to the `bstrConfigPath` parameter would return an `IAppHostConfigFile` instance in the `ppConfigFile` parameter that represents the ApplicationHost.config file.  
   
 ## Example  
+
  The following code example obtains a configuration file, adds a new section group and a new section, sets properties on the new section, and then commits the changes to the configuration system.  
   
  [!code-cpp[IAppHostAdminLibrary#7](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostSectionGroupAddSectionGroup.cpp#7)]  
@@ -49,4 +54,5 @@ HRESULT GetConfigFile(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigManager Interface](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-interface.md)

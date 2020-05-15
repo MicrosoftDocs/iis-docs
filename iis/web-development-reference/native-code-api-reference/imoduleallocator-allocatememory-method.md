@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0d96c164-62ed-4ee5-89ad-77961d929411
 ---
 # IModuleAllocator::AllocateMemory Method
+
 Allocates a specified amount of memory.  
   
 ## Syntax  
@@ -15,16 +16,20 @@ virtual VOID* AllocateMemory(
 ```  
   
 ### Parameters  
+
  `cbAllocation`  
  [IN] The number of bytes to allocate.  
   
 ## Return Value  
+
  A pointer to `VOID`.  
   
 ## Remarks  
+
  The `AllocateMemory` method allocates an amount of memory that is specified by the `cbAllocation` parameter. This memory is allocated within the request memory pool, which is faster than allocating memory on the heap.  
   
 ## Example  
+
  The following code example demonstrates how to use the `AllocateMemory` method to create an HTTP module that allocates a 1-KB buffer. The example then copies a string into the buffer and returns the response to a Web client.  
   
  [!code-cpp[IModuleAllocatorAllocateMemory#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IModuleAllocatorAllocateMemory/cpp/IModuleAllocatorAllocateMemory.cpp#1)]  
@@ -43,4 +48,5 @@ virtual VOID* AllocateMemory(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IModuleAllocator Interface](../../web-development-reference/native-code-api-reference/imoduleallocator-interface.md)

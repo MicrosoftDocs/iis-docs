@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 416bad62-0487-657f-8f78-9050d470c867
 ---
 # WebLimitsSection Class
+
 Specifies limits on client traffic to a Web server.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class WebLimitsSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `WebLimitsSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class WebLimitsSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `WebLimitsSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class WebLimitsSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Every 60 seconds, a worker process checks how long it has been idle. If its current idle time is greater than the idle time-out value specified by WAS, the worker process initiates a shutdown. When you specify a nonzero value for the `DynamicIdleThreshold` property, WAS will dynamically reduce this idle time-out depending on amount of RAM used.  
   
  The `DynamicIdleThreshold` property represents the amount of committed physical RAM. For example, if your server has 2 gigabytes (GB) of physical memory installed and you set the `DynamicIdleThreshold` property value to 200, you have committed 200 percent (4 GB) of physical RAM for use. According to the following table, when 80 percent of 4 GB—that is, 160 percent (3.2 GB) of physical RAM—is allocated, WAS will start reducing the idle time-out of all worker processes by 50 percent.  
@@ -58,6 +63,7 @@ class WebLimitsSection : ConfigurationSection
 |100|WAS sets the idle time-out to one thirty-second of the original value for all worker processes that have a configured idle time-out.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `WebLimitsSection`  
@@ -72,5 +78,6 @@ class WebLimitsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

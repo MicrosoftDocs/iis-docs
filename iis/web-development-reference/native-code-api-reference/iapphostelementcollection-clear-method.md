@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2b5715fc-8b3b-fa21-7054-987c5b0a3968
 ---
 # IAppHostElementCollection::Clear Method
+
 Removes all elements from the current collection.  
   
 ## Syntax  
@@ -14,9 +15,11 @@ HRESULT Clear(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -34,4 +37,5 @@ HRESULT Clear(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostElementCollection Interface](../../web-development-reference/native-code-api-reference/iapphostelementcollection-interface.md)

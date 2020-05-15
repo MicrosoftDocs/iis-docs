@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 05a66125-7647-f904-145a-9aae7f29272a
 ---
 # SoapEnvelopeProcessingInfo Class
+
 Configures a time-out that helps mitigate denial of service attacks.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapEnvelopeProcessingInfo` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
 |`Strict`|A read/write `boolean` value. `true` if the Web service serializer throws an exception if it encounters unexpected elements or attributes; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `SoapEnvelopeProcessing` property on the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
  Set the `Strict` property to `true` in order to help debug interoperation scenarios. In general, when the [System.Xml.Serialization.XmlSerializer](https://go.microsoft.com/fwlink/?LinkId=70923) class encounters an element or attribute that it does not expect, it raises an [UnknownNode](https://go.microsoft.com/fwlink/?LinkId=70964) event and continues processing. Setting the `Strict` property to `true` instructs the Web service run-time functions to handle that event and throw an [InvalidOperationException](https://go.microsoft.com/fwlink/?LinkId=66612) that contains a list of the expected elements and attributes.  
@@ -35,6 +40,7 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
 >  Because exceptions are not thrown for all unexpected elements and attributes, you should not rely on the `Strict` property except as a debugging aid. For example, unexpected `xml:lang` and `xml:space` attributes may not cause an exception.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SoapEnvelopeProcessingInfo`  
@@ -49,6 +55,7 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
  [InvalidOperationException](https://go.microsoft.com/fwlink/?LinkId=66612)   

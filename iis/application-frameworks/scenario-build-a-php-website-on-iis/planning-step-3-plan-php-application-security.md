@@ -16,6 +16,7 @@ In this phase of Building a PHP website on IIS, consider what PHP configuration 
 When you are done with these tasks, record your design decisions before going on to [Step 1: Install IIS and PHP](configuring-step-1-install-iis-and-php.md).
 
 <a id="31"></a>
+
 ## 3.1. PHP Configuration Settings for Security
 
 The dynamic capabilities of PHP also make it a potential security risk because data is actively fetched, received, and processed from anywhere on the Internet. Attackers may attempt to send in malicious data and scripts and trick your server into fetching malicious scripts and running them. Attackers may also attempt to read and write files on your server to take control of the web site and use it for their own purposes.
@@ -99,6 +100,7 @@ The FastCGI module will fail the request when PHP sends any data on **stderr** b
 With this setting, the headers that accompany outgoing pages do not reveal that PHP is running or its version.
 
 <a id="32"></a>
+
 ## 3.2. Web Server and PHP Application Security
 
 ### Isolate Web Applications

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3c5d5408-af8b-8a5b-fd23-2dc89f5756de
 ---
 # DefaultDocumentSection Class1
+
 Specifies the Web page file names to serve to clients by default.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class DefaultDocumentSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `DefaultDocumentSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class DefaultDocumentSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `DefaultDocumentSection` class.  
   
 |Name|Description|  
@@ -39,12 +42,15 @@ class DefaultDocumentSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<defaultDocument>` section in ApplicationHost.config.  
   
 ## Example  
+
  The following example lists the default documents for the default Web site.  
   
 ```  
@@ -72,6 +78,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -88,6 +95,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [FileSettings Class](../wmi-provider/filesettings-class.md)   
  [Site Class](../wmi-provider/site-class.md)

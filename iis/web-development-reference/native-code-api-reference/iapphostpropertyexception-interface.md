@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b9cf27c2-261a-2dcf-30bb-3c3fd0cf32a2
 ---
 # IAppHostPropertyException Interface
+
 Indicates that the configuration system has thrown an exception when it validates a property against the configuration schema.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ interface IAppHostPropertyException : public IAppHostConfigException
 ```  
   
 ## Methods  
+
  This interface contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostPropertyException` interface.  
   
 |Property|Description|  
@@ -25,6 +28,7 @@ interface IAppHostPropertyException : public IAppHostConfigException
 |[ValidationFailureReason](../../web-development-reference/native-code-api-reference/iapphostpropertyexception-validationfailurereason-property.md)|Gets the reason that the value of the `InvalidValue` property did not validate against the value of the [IAppHostPropertySchema::ValidationParameter](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationparameter-property.md) property.|  
   
 ## Inheritance Hierarchy  
+
  [IAppHostConfigException](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)  
   
  `IAppHostPropertyException`  
@@ -39,5 +43,6 @@ interface IAppHostPropertyException : public IAppHostConfigException
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

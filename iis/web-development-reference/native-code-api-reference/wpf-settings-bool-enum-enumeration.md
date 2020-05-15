@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 530cbe9f-cf27-47d0-927a-563b795db69c
 ---
 # WPF_SETTINGS_BOOL_ENUM Enumeration
+
 Defines the `BOOL` values that the [IWpfSettings::GetBoolProperty](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md) method returns.  
   
 ## Syntax  
@@ -32,6 +33,7 @@ enum WPF_SETTINGS_BOOL_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Enumerations](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
  [IWpfSettings::GetBoolProperty Method](../../web-development-reference/native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
  [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference/native-code-api-reference/wpf-settings-dword-enum-enumeration.md)   

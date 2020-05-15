@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 84b98c00-58c7-296c-7255-b47ac1d032dc
 ---
 # IProcessHostSupportFunctions::GetApplicationProperties Method
+
 Retrieves the properties from the application's metabase.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ virtual HRESULT __stdcall GetApplicationProperties(
 ```  
   
 ### Parameters  
+
  `appId`  
  A string that contains the unique identifier of the application.  
   
@@ -35,6 +37,7 @@ virtual HRESULT __stdcall GetApplicationProperties(
  A pointer to a `BSTR` that receives the site ID.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -51,4 +54,5 @@ virtual HRESULT __stdcall GetApplicationProperties(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ba05cc65-3f0e-35d5-f8a0-b4e3f82dc96e
 ---
 # ConfigurationSectionWithCollection.Add Method
+
 Adds an element to a collection in a configuration section.  
   
 ## Syntax  
@@ -24,12 +25,15 @@ ConfigurationSectionWithCollection.Add collectionName, element
 |`element`|A [CollectionElement](../wmi-provider/collectionelement-class.md) object to which the element will be added.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  When you use the `Add` method, the changes you make are saved automatically. You do not need to use the `Put_` method.  
   
 ## Example  
+
  The following example adds a MIME map to the default Web site.  
   
 ```  
@@ -67,6 +71,7 @@ oStaticContentSection.Add "StaticContent", oNewMimeMap
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [MimeMapElement Class](../wmi-provider/mimemapelement-class.md)

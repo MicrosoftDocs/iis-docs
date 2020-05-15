@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e52abb61-326d-52f0-4c7c-4365e0b13785
 ---
 # IAppHostPropertyCollection::Count Property
+
 Gets the number of properties in the collection.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_Count(
 ```  
   
 ### Parameters  
+
  `pcCount`  
  A pointer to a `DWORD` that contains the number of items in the collection.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,5 +39,6 @@ HRESULT get_Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostProperty Interface](../../web-development-reference/native-code-api-reference/iapphostproperty-interface.md)   
  [IAppHostPropertyCollection Interface](../../web-development-reference/native-code-api-reference/iapphostpropertycollection-interface.md)

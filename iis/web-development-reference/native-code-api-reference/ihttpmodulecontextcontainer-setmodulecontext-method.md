@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b6c08c35-90c0-c5b4-c59c-2a280b6f00d9
 ---
 # IHttpModuleContextContainer::SetModuleContext Method
+
 Sets the stored context on the context container.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT SetModuleContext(
 ```  
   
 ### Parameters  
+
  `ppStoredContext`  
  [IN] A pointer to an [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) value. Must be non-NULL.  
   
@@ -26,6 +28,7 @@ virtual HRESULT SetModuleContext(
 >  `HTTP_MODULE_ID` is a type definition of a `void` pointer.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Definition|  
@@ -36,6 +39,7 @@ virtual HRESULT SetModuleContext(
 |ERROR_ALREADY_ASSIGNED|Indicates that `SetModuleContext` has been called previously.|  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) or [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) pointers register for various events defined in the Httpserv.h header file. For more information, see [Request-Processing Constants](../../web-development-reference/native-code-api-reference/request-processing-constants.md). Through any of these classes' `virtual` methods, you can retrieve [IHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-interface.md) pointers from various interfaces that implement a `GetModuleContextContainer` method.  
   
  You can define custom classes that implement the `IHttpStoredContext` interface and then create a pointer to this `IHttpStoredContext` class implementer by calling the `new` operator. You can then add and retrieve this pointer on an `IHttpModuleContextContainer` pointer by calling the `SetModuleContext` and [GetModuleContext](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-getmodulecontext-method.md) methods, respectively.  
@@ -43,12 +47,15 @@ virtual HRESULT SetModuleContext(
  When the `IHttpStoredContext` pointer is no longer needed, the [IHttpStoredContext::CleanupStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-cleanupstoredcontext-method.md) method is called internally, where the implementer of the `IHttpStoredContext` interface method should usually call `delete``this`.  
   
 ## Notes for Implementers  
+
  [IHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpModuleContextContainer` implementers that use dynamic memory allocation must release or call `delete` on the `IHttpStoredContext` pointer when it is no longer needed. If cleanup is necessary, you can call the [IHttpStoredContext::CleanupStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-cleanupstoredcontext-method.md) method.  
   
 ## Notes for Callers  
+
  `IHttpModuleContextContainer` implementers are responsible for memory management with this data; therefore, `IHttpModuleContextContainer` clients must not release or call `delete` on the returned `IHttpStoredContext` pointer when this data is no longer needed.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes custom [IHttpStoredContext](../../web-development-reference/native-code-api-reference/ihttpstoredcontext-interface.md) information to the Event Viewer.  
   
 > [!CAUTION]
@@ -88,4 +95,5 @@ CStoredContext::Constructor
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpModuleContextContainer Interface](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-interface.md)

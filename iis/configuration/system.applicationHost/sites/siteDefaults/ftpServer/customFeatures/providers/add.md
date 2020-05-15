@@ -10,6 +10,7 @@ msc.type: config
 # Adding Default FTP Custom Features &lt;add&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<add>` element of the `<providers>` element adds a feature provider to the default collection of FTP custom providers for FTP sites.
@@ -24,6 +25,7 @@ The `<add>` element of the `<providers>` element adds a feature provider to the 
 > Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](https://www.iis.net/learn/develop/developing-for-ftp) topic on Microsoft's IIS.net Web site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -43,6 +45,7 @@ The `<add>` element of the `<providers>` element adds a feature provider to the 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -110,11 +113,13 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 At this time there is no user interface that enables you to add custom features to a site. See the **Configuration** and **Sample Code** sections of this document for additional information about how to add custom features to an FTP site.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -135,6 +140,7 @@ The following configuration sample displays an example `<siteDefaults>` element 
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples illustrate setting several of the FTP site defaults.

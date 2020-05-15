@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: d9f95de2-db90-4f28-b6ba-d37b9d7972bf
 ---
 # IGlobalApplicationPreloadProvider2 Interface
+
 Provides information about whether an application’s worker process is recycled.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IGlobalApplicationPreloadProvider2 : public IGlobalApplicationPreloadProvi
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IGlobalApplicationPreloadProvider2` interface.  
   
 |Name|Description|  
@@ -20,9 +22,11 @@ class IGlobalApplicationPreloadProvider2 : public IGlobalApplicationPreloadProvi
 |[IsProcessRecycled](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider2-isprocessrecycled-method.md)|Indicates whether the application’s worker process has recycled.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  [IGlobalApplicationPreloadProvider](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)  
@@ -39,4 +43,5 @@ class IGlobalApplicationPreloadProvider2 : public IGlobalApplicationPreloadProvi
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

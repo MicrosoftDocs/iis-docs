@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9d122b83-5fc7-477e-2496-3292c6d1b0ba
 ---
 # SmtpMailSettingsSection Class
+
 Contains Simple Mail Transfer Protocol (SMTP) configuration settings.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SmtpMailSettingsSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SmtpMailSettingsSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class SmtpMailSettingsSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SmtpMailSettingsSection` class.  
   
 |Name|Description|  
@@ -37,9 +40,11 @@ class SmtpMailSettingsSection : ConfigurationSection
 |`SpecifiedPickupDirectory`|A read/write [SmtpSpecifiedPickupDirectorySettings](../wmi-provider/smtpspecifiedpickupdirectorysettings-class.md) value that specifies the pickup directory that will be used by the SMTP client.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  The following table lists the possible values for the `DeliveryMethod` property. The default is 0 (`Network`).  
   
 |Value|Keyword|Description|  
@@ -49,6 +54,7 @@ class SmtpMailSettingsSection : ConfigurationSection
 |2|`PickupDirectoryFromIis`|E-mail is copied to the directory specified by the `SpecifiedPickupDirectory` property for delivery by an external application.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `SmtpMailSettingsSection`  
@@ -63,6 +69,7 @@ class SmtpMailSettingsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [SmtpNetworkSettings Class](../wmi-provider/smtpnetworksettings-class.md)   
  [SmtpSpecifiedPickupDirectorySettings Class](../wmi-provider/smtpspecifiedpickupdirectorysettings-class.md)

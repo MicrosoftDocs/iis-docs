@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3cd41621-c5a7-d717-2138-b5c34abbb539
 ---
 # IHttpSite Interface
+
 Provides site-specific information within the current context.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpSite
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpSite` interface.  
   
 |Name|Description|  
@@ -23,9 +25,11 @@ class IHttpSite
 |[GetSiteName](../../web-development-reference/native-code-api-reference/ihttpsite-getsitename-method.md)|Retrieves the name for the Web site.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  The `IHttpSite` interface provides information for the Web site within the current context. For example, you can call the [IPreBeginRequestProvider::GetHttpContext](../../web-development-reference/native-code-api-reference/iprebeginrequestprovider-gethttpcontext-method.md) or [IGlobalTraceEventProvider::GetCurrentHttpRequestContext](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-getcurrenthttprequestcontext-method.md) methods to retrieve an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface for the current context, and then call the [IHttpContext::GetSite](../../web-development-reference/native-code-api-reference/ihttpcontext-getsite-method.md) method to retrieve an `IHttpSite` interface in order to retrieve the site-specific information for the current context.  
   
 ## Requirements  
@@ -38,4 +42,5 @@ class IHttpSite
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

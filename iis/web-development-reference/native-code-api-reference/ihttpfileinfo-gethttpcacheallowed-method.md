@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a46e00e7-47ae-2359-120d-0883ee73f8a9
 ---
 # IHttpFileInfo::GetHttpCacheAllowed Method
+
 Returns a value that indicates whether the corresponding file can be cached.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual BOOL GetHttpCacheAllowed(
 ```  
   
 ### Parameters  
+
  `pSecondsToLive`  
  [OUT] A pointer to a `DWORD` that contains the number of seconds that the cached file will be held.  
   
 ## Return Value  
+
  `true` if the corresponding file may be cached; otherwise, `false`.  
   
 ## Remarks  
+
  While the `pSecondsToLive` parameter must not be NULL, inspect this parameter only if the `GetHttpCacheAllowed` method returns `true`. If that is the case, [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) implementers are not required to set this output parameter before return.  
   
  The behavior of the `GetHttpCacheAllowed` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -31,6 +35,7 @@ virtual BOOL GetHttpCacheAllowed(
 - Implementers that reference a non-Internet file return `true` if caching is enabled for the file type.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetHttpCacheAllowed` method to retrieve cache information for the requested file and displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfo#9](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/GetHttpCacheAllowed.cpp#9)]  
@@ -62,4 +67,5 @@ Time-to-Live: -1
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

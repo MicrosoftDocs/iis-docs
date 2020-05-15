@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ea91d352-6fa5-7e85-8616-f0294cbd7bd3
 ---
 # IHttpFileInfo::CheckIfFileHasChanged Method
+
 Returns a value that indicates whether the corresponding file has been changed since it was loaded into a file cache.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual BOOL CheckIfFileHasChanged(
 ```  
   
 ### Parameters  
+
  `hUserToken`  
  [IN] A `HANDLE` that contains the token for the user.  
   
 ## Return Value  
+
  `true` if the corresponding file has changed; otherwise, `false`.  
   
 ## Remarks  
+
  The behavior of the `CheckIfFileHasChanged` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
 - Implementers that reference an Internet file return `false`.  
@@ -32,6 +36,7 @@ virtual BOOL CheckIfFileHasChanged(
 >  While most implementers allow the `hUserToken` parameter to be NULL, you should provide a non-NULL value whenever possible because the implementation may change.  
   
 ## Example  
+
  The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference/native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `CheckIfFileHasChanged` method to retrieve file change information for the requested file and displays this information to a Web client.  
   
  [!code-cpp[IHttpFileInfo#3](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpFileInfo/cpp/CheckIfFileHasChanged.cpp#3)]  
@@ -62,4 +67,5 @@ File Changed: false
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpFileInfo Interface](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md)

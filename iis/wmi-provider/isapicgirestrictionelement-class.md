@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 73cb1f6b-b712-c837-845a-f1d7076b4143
 ---
 # IsapiCgiRestrictionElement Class
+
 Represents an ISAPI or Common Gateway Interface (CGI) restriction element.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class IsapiCgiRestrictionElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IsapiCgiRestrictionElement` class.  
   
 |Name|Description|  
@@ -26,9 +29,11 @@ class IsapiCgiRestrictionElement : CollectionElement
 |`Path`|A required nonempty read-only `string` value that contains the path of the .dll or .exe file for the restriction. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `IsapiCgiRestriction` array property of the [IsapiCgiRestrictionSection](../wmi-provider/isapicgirestrictionsection-class.md) class.  
   
  ISAPI and CGI restrictions are request handlers that enable dynamic content to execute on a server. These restrictions are either CGI files (.exe) or ISAPI extensions (.dll). By default, Asp.dll and Aspnet_isapi.dll are included. You can add custom ISAPI or CGI restrictions if the IIS configuration allows.  
@@ -36,6 +41,7 @@ class IsapiCgiRestrictionElement : CollectionElement
  **Note** If you are running [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] in ISAPI mode, you can use ISAPI or CGI restrictions on your Web server. This feature is not available if you are running [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] in integrated mode.  
   
 ## Example  
+
  The following example lists all of the `IsapiCgiRestrictionElement` instances for the default Web site.  
   
 ```  
@@ -70,6 +76,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `IsapiCgiRestrictionElement`  
@@ -84,5 +91,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [IsapiCgiRestrictionSection Class](../wmi-provider/isapicgirestrictionsection-class.md)

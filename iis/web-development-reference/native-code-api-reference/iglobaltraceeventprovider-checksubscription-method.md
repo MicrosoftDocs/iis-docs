@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 84096bba-9d37-fafd-4b74-1f3c97651eea
 ---
 # IGlobalTraceEventProvider::CheckSubscription Method
+
 Returns a value that indicates whether the trace event is intended for the module.  
   
 ## Syntax  
@@ -15,6 +16,7 @@ virtual BOOL CheckSubscription(
 ```  
   
 ### Parameters  
+
  `ModuleId`  
  [IN] An `HTTP_MODULE_ID` pointer.  
   
@@ -22,9 +24,11 @@ virtual BOOL CheckSubscription(
 >  `HTTP_MODULE_ID` is a type definition of a `void` pointer.  
   
 ## Return Value  
+
  `true` if the trace event is intended for the module; otherwise, `false`.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes will receive an [IHttpModuleRegistrationInfo](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-interface.md) pointer and an [IHttpServer](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md) pointer as parameters to the [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function. Retrieve an [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) pointer by calling the [IHttpServer::GetTraceContext](../../web-development-reference/native-code-api-reference/ihttpserver-gettracecontext-method.md) method, and retrieve an `HTTP_MODULE_ID` by calling the [IHttpModuleRegistrationInfo::GetId](../../web-development-reference/native-code-api-reference/ihttpmoduleregistrationinfo-getid-method.md) method. Declare and initialize an [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) structure, and call the [IHttpTraceContext::SetTraceConfiguration](../../web-development-reference/native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md) method with the address of this structure and the `HTTP_MODULE_ID` to filter the events received during [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) event handlers.  
   
  Subsequent `CGlobalModule::OnGlobalTraceEvent` calls receive an [IGlobalTraceEventProvider](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer, and the Boolean value returned by the `CheckSubscription` method on this pointer is determined by the `HTTP_TRACE_CONFIGURATION` settings set above: a value of `true` means that the module should probably handle the event, and a value of `false` means that the module should probably ignore the event. However, some modules may handle events even if `CheckSubscription` returns `false`.  
@@ -36,6 +40,7 @@ virtual BOOL CheckSubscription(
 - Classes that provide global trace events return the value from the global trace settings.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and declares and initializes an [HTTP_TRACE_CONFIGURATION](../../web-development-reference/native-code-api-reference/http-trace-configuration-structure.md) structure. The module then writes the `CheckSubscription` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -63,4 +68,5 @@ virtual BOOL CheckSubscription(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalTraceEventProvider Interface](../../web-development-reference/native-code-api-reference/iglobaltraceeventprovider-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1e8f1231-c816-4b11-8019-865b42870a26
 ---
 # SoapExtensionReflectorTypesSettings Class
+
 Contains SOAP extension information for Web services.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapExtensionReflectorTypesSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapExtensionReflectorTypesSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SoapExtensionReflectorTypesSettings : EmbeddedObject
 |`SoapExtensionReflectorTypes`|An array of [TypeElement](../wmi-provider/typeelement-class.md) values that specify the SOAP extensions to run when a service description is generated for all Web services in the scope of the configuration file.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `SoapExtensionReflectorTypes` array property of the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SoapExtensionReflectorTypesSettings`  
@@ -43,6 +49,7 @@ class SoapExtensionReflectorTypesSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [TypeElement Class](../wmi-provider/typeelement-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

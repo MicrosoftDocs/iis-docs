@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: af3ebc74-5cbd-11bd-5674-50e9ab9267b2
 ---
 # IHttpConnection::GetModuleContextContainer Method
+
 Returns the module context container for the connection.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/ihttpmodulecontextcontainer-interface.md).  
   
 ## Remarks  
+
  The `GetModuleContextContainer` method return value depends on implementation. By default, the current implementation creates an [IDispensedHttpModuleContextContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md) interface that is synchronized but not dispensed.  
   
 ## Notes for Implementers  
+
  [IHttpConnection](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpConnection` implementers should create an `IDispensedHttpModuleContextContainer` pointer at construction and hold a `private` reference to this `IDispensedHttpModuleContextContainer` pointer for the life of the `IHttpConnection` pointer. When you call the `GetModuleContextContainer` method, you should upcast and return this same `IDispensedHttpModuleContextContainer` pointer. When you call the destructor of the class that implements the `IHttpConnection` interface, this destructor should call the [IDispensedHttpModuleContextContainer::ReleaseContainer](../../web-development-reference/native-code-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md) method on this `private` reference and then set that reference to NULL.  
   
  `GetModuleContextContainer` should not return NULL. If the internal container is NULL, set this internal container to the value on the call to [IHttpServer::DispenseContainer](../../web-development-reference/native-code-api-reference/ihttpserver-dispensecontainer-method.md), and then return this same container.  
@@ -32,9 +37,11 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 >  Although implicit upcast operations are considered safe, consider using an explicit cast for program clarity. Also consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible.  
   
 ## Notes for Callers  
+
  `IHttpConnection` implementers are responsible for memory management with this data; therefore, `IHttpConnection` clients must not release, call `delete` on, or attempt to downcast and call `IDispensedHttpModuleContextContainer::ReleaseContainer` on the returned `IHttpModuleContextContainer` pointer when this data is no longer needed.  
   
 ## Example  
+
  The following code example demonstrates a custom class named `MyContainer` that implements the `IDispensedHttpModuleContextContainer` interface, and a custom class named `MyClass` that implements the `IHttpConnection` interface. `MyClass` manages a `MyContainer` pointer during the lifetime of a `MyClass` pointer.  
   
 ```  
@@ -149,6 +156,7 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpConnection Interface](../../web-development-reference/native-code-api-reference/ihttpconnection-interface.md)   
  [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
  [IHttpContext::GetModuleContextContainer Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getmodulecontextcontainer-method.md)   

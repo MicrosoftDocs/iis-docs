@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 2d2cf153-c806-40e3-9c18-c681f7146796
 ---
 # IAppHostConfigLocationCollection::RenameLocation method
+
 Changes the location at the specified index in the collection.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ HRESULT RenameLocation(
 ```  
   
 ### Parameters  
+
  `varIndex`  
  A `VARIANT` that contains the index of the configuration location to rename. The index can contain a `BSTR` that specifies the location path.  
   
@@ -23,6 +25,7 @@ HRESULT RenameLocation(
  The new path for the location.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,4 +43,5 @@ HRESULT RenameLocation(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocationCollection Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 49aa513f-da98-dd64-2aac-91abc2df844b
 ---
 # IHttpContext::GetTraceContext Method
+
 Retrieves the trace context container for the current context.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IHttpTraceContext* GetTraceContext(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) interface.  
   
 ## Remarks  
+
  Use either the `IHttpContext::GetTraceContext` or [IHttpServer::GetTraceContext](../../web-development-reference/native-code-api-reference/ihttpserver-gettracecontext-method.md) method to retrieve an `IHttpTraceContext` interface when you need to raise an event that is associated with an HTTP request. When you need to raise an event that is not associated with an HTTP request, use only the `IHttpServer::GetTraceContext` method to retrieve an `IHttpTraceContext` interface.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Retrieves a pointer to an `IHttpTraceContext` interface by using the `IHttpContext::GetTraceContext` method.  
@@ -48,6 +53,7 @@ virtual IHttpTraceContext* GetTraceContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpServer::GetTraceContext Method](../../web-development-reference/native-code-api-reference/ihttpserver-gettracecontext-method.md)   
  [IHttpTraceContext Interface](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md)

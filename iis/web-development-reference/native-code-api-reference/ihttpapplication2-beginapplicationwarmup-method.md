@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4ba4f4c1-e02d-427b-b7e3-39703ff88237
 ---
 # IHttpApplication2::BeginApplicationWarmup Method
+
 Starts loading the application into server memory and initializing it before the first HTTP request arrives.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID BeginApplicationWarmup(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual VOID BeginApplicationWarmup(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication2 Interface](../../web-development-reference/native-code-api-reference/ihttpapplication2-interface.md)

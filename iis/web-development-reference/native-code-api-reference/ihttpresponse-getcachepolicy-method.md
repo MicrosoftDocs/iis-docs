@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ca34e089-b2d7-386a-e3f5-4c7dfa213d91
 ---
 # IHttpResponse::GetCachePolicy Method
+
 Retrieves the response output cache policy.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual IHttpCachePolicy* GetCachePolicy(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IHttpCachePolicy](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md) interface.  
   
 ## Remarks  
+
  The `GetCachePolicy` method returns a pointer to an `IHttpCachePolicy` interface, which enables you to call any one of the available methods for that interface.  
   
 > [!NOTE]
 >  The server owns the lifetime of the `IHttpCachePolicy` interface, and the interface is available through the end of your response processing.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetCachePolicy` method to return a pointer to an `IHttpCachePolicy` interface, and it uses the [IHttpCachePolicy::IsUserCacheEnabled](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-isusercacheenabled-method.md) method to determine whether the user cache is enabled. The module then returns the status to the client.  
   
  [!code-cpp[IHttpResponseGetCachePolicy#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpResponseGetCachePolicy/cpp/IHttpResponseGetCachePolicy.cpp#1)]  
@@ -45,6 +50,7 @@ virtual IHttpCachePolicy* GetCachePolicy(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::DisableKernelCache Method](../../web-development-reference/native-code-api-reference/ihttpresponse-disablekernelcache-method.md)   
  [IHttpResponse::GetKernelCacheEnabled Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md)

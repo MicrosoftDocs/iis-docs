@@ -10,11 +10,13 @@ msc.type: config
 # FTP Central Logging Options &lt;centralLogFile&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<centralLogFile>` element specifies the settings for the central log file, which is used when you specify **centralLogFileMode** for the `centralLogFileMode` attribute of the [`<system.ftpServer/log>`](index.md) element. When you specify central logging, a single log file will be kept for all of your FTP sites.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -34,6 +36,7 @@ The `<centralLogFile>` element specifies the settings for the central log file, 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -101,6 +104,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
+
 ## How To
 
 ### How to configure site-level or server-level logging for the FTP service
@@ -132,6 +136,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. In the **Actions** pane, click **Apply**.
  
 <a id="005"></a>
+
 ## Configuration
 
 The `<centralLogFile>` element is configured at the global level in ApplicationHost.config.
@@ -157,6 +162,7 @@ The following configuration example enables central file logging for the FTP ser
 [!code-xml[Main](centralLogFile/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable central file logging for the FTP service.

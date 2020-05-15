@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 41e78754-a0bb-4800-aaad-4c6ed9392d4d
 ---
 # SiteContainsConfigurationSection Class1
+
 Provides a relationship between a Web site and its configuration sections.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SiteContainsConfigurationSection : ObjectConfigurationAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties for the `SiteContainsConfigurationSection` class.  
   
 |Name|Description|  
@@ -24,14 +27,17 @@ class SiteContainsConfigurationSection : ObjectConfigurationAssociation
 |`Element`|A read-only [ConfigurationSection](../wmi-provider/configurationsection-class.md) object that exposes the configuration section for a Web site.|  
   
 ## Subclasses  
+
  This class has no subclasses.  
   
 ## Remarks  
+
  Associations return only instances of the object that are defined at the level of the object. For example, if the `<authentication>` section is the only section defined in the Web.config file at the site level, only the [AuthenticationSection](../wmi-provider/authenticationsection-class.md) instance of the `ConfigurationSection` object will be returned.  
   
  To get all available sections, you should use the [GetAllSections](../wmi-provider/configuredobject-getallsections-method.md) method of the [ConfiguredObject](../wmi-provider/configuredobject-class.md) class.  
   
 ## Example  
+
  The following example lists all configuration sections that are defined at the Web.config level for the default Web site.  
   
 ```  
@@ -50,6 +56,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ObjectConfigurationAssociation](../wmi-provider/objectconfigurationassociation-class.md)  
   
  `SiteContainsConfigurationSection`  
@@ -64,6 +71,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfiguredObject.GetAllSections Method](../wmi-provider/configuredobject-getallsections-method.md)   
  [ObjectConfigurationAssociation Class](../wmi-provider/objectconfigurationassociation-class.md)   
  [Site Class](../wmi-provider/site-class.md)   

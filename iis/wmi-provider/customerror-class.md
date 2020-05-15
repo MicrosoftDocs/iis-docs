@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ab3c0555-268b-4148-bdcf-622be2a4c4f7
 ---
 # CustomError Class
+
 Specifies an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] custom error message for an HTTP status code error.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class CustomError : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CustomError` class.  
   
 |Name|Description|  
@@ -24,14 +27,17 @@ class CustomError : CollectionElement
 |`StatusCode`|A required unique read/write `sint32` value that specifies an HTTP error status code. Valid values are from 100 through 999. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `CustomErrors` property of the [CustomErrorsSection](../wmi-provider/customerrorssection-class.md) class.  
   
  The custom errors represented by the `CustomError` class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the `<system.web>` section of the Web.config file. The custom errors represented by the [HttpErrorElement](../wmi-provider/httperrorelement-class.md) class are specific to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] and are in the `<system.webServer>` section of the ApplicationHost.config file.  
   
 ## Example  
+
  The following example adds a custom error to the custom errors section of the default Web site.  
   
 ```  
@@ -58,6 +64,7 @@ oCustomErrorsSection.Add "CustomErrors", oNewCustomError
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `CustomError`  
@@ -72,6 +79,7 @@ oCustomErrorsSection.Add "CustomErrors", oNewCustomError
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [CustomErrorsSection Class](../wmi-provider/customerrorssection-class.md)   
  [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   

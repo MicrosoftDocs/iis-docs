@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 04831e84-27c5-015d-1008-83b0a5ce2966
 ---
 # IWorkerProcessFramework::GetWpfInterface Method
+
 Retrieves a defined interface from the worker process framework.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetWpfInterface(
 ```  
   
 ### Parameters  
+
  `WpfInterfaceId`  
  The ID of the interface to return.  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetWpfInterface(
  A pointer to a buffer that will receive the interface specified by `WpfInterfaceId`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,6 +33,7 @@ virtual HRESULT GetWpfInterface(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  To select which interface to retrieve, choose the specific interface ID from the [WPF_INTERFACE_ID_ENUM](../../web-development-reference/native-code-api-reference/wpf-interface-id-enum-enumeration.md) enumeration. If the worker process framework exposes an interface that is not defined by `WPF_INTERFACE_ID_ENUM`, use the [IWorkerProcessFramework::GetCustomInterface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getcustominterface-method.md) method.  
   
 ## Requirements  
@@ -42,6 +46,7 @@ virtual HRESULT GetWpfInterface(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWorkerProcessFramework Interface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md)   
  [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getcustominterface-method.md)   
  [IWorkerProcessFramework::GetInterfaceVersion Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getinterfaceversion-method.md)

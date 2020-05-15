@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 25090637-88d3-52df-17bc-9560fa3d92dc
 ---
 # IHttpCachePolicy Interface
+
 Provides [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpCachePolicy
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpCachePolicy` class.  
   
 |Name|Description|  
@@ -33,6 +35,7 @@ class IHttpCachePolicy
 |[SetVaryByValue](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-setvarybyvalue-method.md)|Sets the variable value for the cache policy.|  
   
 ## Properties  
+
  This class contains no properties.  
   
 ## Derived Classes  
@@ -42,9 +45,11 @@ class IHttpCachePolicy
 |[IHttpCachePolicy2](../../web-development-reference/native-code-api-reference/ihttpcachepolicy2-interface.md)|Provides [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.|  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events, and then sets `IHttpCachePolicy` data and returns that data to the browser as an XML document.  
   
  [!code-cpp[IHttpCachePolicy#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCachePolicy/cpp/IHttpCachePolicy.cpp#1)]  
@@ -84,4 +89,5 @@ class IHttpCachePolicy
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

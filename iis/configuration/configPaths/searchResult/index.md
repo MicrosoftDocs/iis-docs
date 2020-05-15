@@ -10,11 +10,13 @@ msc.type: config
 # Configuration Path Search Results &lt;searchResult&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<searchResult>` element of the `<configPaths>` element contains a collection of configuration search results.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,16 +29,19 @@ The `<searchResult>` element of the `<configPaths>` element contains a collectio
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<searchResult>` element of the `<configPaths>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for the `<configPaths>` element for IIS 7. For examples of how to access the `<configPaths>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -59,6 +64,7 @@ There is no user interface for the `<configPaths>` element for IIS 7. For exampl
 > The `<configPaths>` element is generated dynamically. Because of this, you cannot add a `<configPaths>` element to your configuration files. For examples of how to access the `<configPaths>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code examples use the `<configPaths>` element to search the Default Web Site configuration namespace for every `<system.webServer/defaultDocument>` element, and then output the path and location for each element to the console.

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 0e916878-ab72-427c-9518-9f34cd2e81a6
 ---
 # IGlobalApplicationPreloadProvider::CreateContext Method
+
 Creates an HTTP context and returns a pointer to the context object.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ Virtual HRESULT CreateContext(
 ```  
   
 ### Parameters  
+
  `ppHttpContext`  
  [OUT] A pointer to the newly created context object that encapsulates all HTTP-specific information about an individual HTTP request.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, the values listed in the following table.  
   
 |Value|Description|  
@@ -35,4 +38,5 @@ Virtual HRESULT CreateContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IGlobalApplicationPreloadProvider Interface](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)

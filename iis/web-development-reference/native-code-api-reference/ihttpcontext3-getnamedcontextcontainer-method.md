@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e2d27fe0-83f6-4716-a137-85aa39f2a064
 ---
 # IHttpContext3::GetNamedContextContainer Method
+
 Retrieves a container of named context objects.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual INamedContextContainer * GetNamedContextContainer(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  A pointer to an [INamedContextContainer](../../web-development-reference/native-code-api-reference/inamedcontextcontainer-interface.md) interface.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual INamedContextContainer * GetNamedContextContainer(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext3 Interface](../../web-development-reference/native-code-api-reference/ihttpcontext3-interface.md)

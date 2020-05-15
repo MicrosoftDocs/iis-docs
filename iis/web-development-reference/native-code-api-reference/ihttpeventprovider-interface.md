@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1f7b9790-66d0-fd22-edf0-721693702d35
 ---
 # IHttpEventProvider Interface
+
 Provides a generic event-reporting interface.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpEventProvider` class.  
   
 |Name|Description|  
@@ -20,6 +22,7 @@ class IHttpEventProvider
 |[SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|Specifies an error to return.|  
   
 ## Derived Classes  
+
  The following table lists the derived classes exposed by the `IHttpEventProvider` interface.  
   
 |Name|Description|  
@@ -41,11 +44,13 @@ class IHttpEventProvider
 |[ISendResponseProvider](../../web-development-reference/native-code-api-reference/isendresponseprovider-interface.md)|Provides an interface for [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notifications.|  
   
 ## Remarks  
+
  The `IHttpEventProvider` interface provides the generic event-reporting interface for most notification methods, and it serves as the parent class for the event-reporting interfaces that are used with the remaining notifications.  
   
  The `IHttpEventProvider` interface exposes only the [SetErrorStatus](../../web-development-reference/native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md) method, which sets the error status for the current context. Several of the derived classes that are inherited from `IHttpEventProvider` expose additional methods that are specific to their respective events.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that sends an example string to the Web client and captures the return value from this operation. The module uses the `SetErrorStatus` method to specify the return value as the error status for the current request and then exits.  
   
  [!code-cpp[IHttpEventProviderSetErrorStatus#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpEventProviderSetErrorStatus/cpp/IHttpEventProviderSetErrorStatus.cpp#1)]  
@@ -64,6 +69,7 @@ class IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IAuthenticationProvider Interface](../../web-development-reference/native-code-api-reference/iauthenticationprovider-interface.md)   
  [ICacheProvider Interface](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md)   

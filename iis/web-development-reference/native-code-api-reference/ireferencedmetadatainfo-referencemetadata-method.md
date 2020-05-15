@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6c58b484-dbec-4fc2-9625-40b35ec86ce9
 ---
 # IReferencedMetadataInfo::ReferenceMetadata Method
+
 References the metadata of the current context for later retrieval.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual VOID ReferenceMetadata(
 ```  
   
 ### Parameters  
+
  This method accepts no parameters.  
   
 ## Return Value  
+
  This method returns no values.  
   
 ## Requirements  
@@ -30,4 +33,5 @@ virtual VOID ReferenceMetadata(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IReferencedMetadataInfo Interface](../../web-development-reference/native-code-api-reference/ireferencedmetadatainfo-interface.md)

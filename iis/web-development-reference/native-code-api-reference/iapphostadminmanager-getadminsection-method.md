@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9b611373-5022-0372-942f-4825a8bc3bd3
 ---
 # IAppHostAdminManager::GetAdminSection Method
+
 Gets an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration section that has the requested name and configuration path.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ HRESULT GetAdminSection(
 ```  
   
 ### Parameters  
+
  `bstrSectionName`  
  A `BSTR` that contains the path to a valid section name in the configuration system.  
   
@@ -30,6 +32,7 @@ HRESULT GetAdminSection(
  A pointer to a pointer for an [IAppHostElement](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -41,9 +44,11 @@ HRESULT GetAdminSection(
 |E_ACCESSDENIED|Indicates that the operation was not successful because of access restrictions.|  
   
 ## Remarks  
+
  For a specified configuration path, the return values of this method represent the corresponding values in the hierarchically merged configuration set. To set the configuration path, use the `bstrPath` parameter of this method.  
   
 ## Example  
+
  The following code example uses the [IAppHostAdminManager](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md) interface to obtain all merged child elements for the `system.webServer/asp` configuration section in the MACHINE/WEBROOT/APPHOST configuration path.  
   
  [!code-cpp[IAppHostAdminLibrary#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostElementChildElements.cpp#1)]  
@@ -58,5 +63,6 @@ HRESULT GetAdminSection(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostAdminManager Interface](../../web-development-reference/native-code-api-reference/iapphostadminmanager-interface.md)   
  [IAppHostConfigFile::GetAdminSection Method](../../web-development-reference/native-code-api-reference/iapphostconfigfile-getadminsection-method.md)

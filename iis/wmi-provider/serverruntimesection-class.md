@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6fd863ba-e8d4-c1c4-904b-7b52a91843f6
 ---
 # ServerRuntimeSection Class
+
 Configures request limits for applications on a Web server.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ServerRuntimeSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ServerRuntimeSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class ServerRuntimeSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ServerRuntimeSection` class.  
   
 |Name|Description|  
@@ -41,12 +44,15 @@ class ServerRuntimeSection : ConfigurationSection
 |`UploadReadAheadSize`|A read/write `uint32` value that specifies the number of bytes a Web server will read into a buffer and pass to an ISAPI extension. This occurs once per client request. The ISAPI extension receives any additional data directly from the client. The value must be between 0 and 2147483647. The default is 49152.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<serverRuntime>` section in the ApplicationHost.config file.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `ServerRuntimeSection`  
@@ -61,6 +67,7 @@ class ServerRuntimeSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)   
  [HttpRequest Class](../wmi-provider/httprequest-class.md)   

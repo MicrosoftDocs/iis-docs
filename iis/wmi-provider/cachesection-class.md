@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 399f2fd6-95c6-908a-a7ea-312cca9b1107
 ---
 # CacheSection Class
+
 Defines cache settings for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class CacheSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `CacheSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class CacheSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `CacheSection` class.  
   
 |Name|Description|  
@@ -38,9 +41,11 @@ class CacheSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `CacheSection`  
@@ -55,6 +60,7 @@ class CacheSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
  [CachingSection Class](../wmi-provider/cachingsection-class.md)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b2e367e2-3a03-c212-a6d9-1e1775f0ec6b
 ---
 # NamespaceElement Class
+
 Contains a single configuration namespace reference, similar to the `Import` directive.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class NamespaceElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `NamespaceElement` class.  
   
 |Name|Description|  
@@ -23,14 +26,17 @@ class NamespaceElement : CollectionElement
 |`Namespace`|A required unique read/write `string` value that specifies a namespace. The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `Namespaces` property on the [NamespaceInfo](../wmi-provider/namespaceinfo-class.md) class.  
   
  Each `Namespace` object is the same as an `Import` (`<%@ Import %>`) directive that applies to all pages and user controls in the scope of the configuration file. The `Import` directive enables you to import a namespace into your [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] page. This makes all its classes available for use on your page and in your project, including the code in the App_Code directory.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `NamespaceElement`  
@@ -45,5 +51,6 @@ class NamespaceElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [NamespaceInfo Class](../wmi-provider/namespaceinfo-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ef360cdc-bd3f-4731-8e6c-87d0219903b2
 ---
 # ConfigurationSection.SetAllowLocation Method
+
 Sets the `allowLocation` attribute for a configuration section.  
   
 ## Syntax  
@@ -23,9 +24,11 @@ ConfigurationSection.SetAllowLocation(AllowLocation);
 |`AllowLocation`|A case-sensitive `string` variable that sets the `allowLocation` attribute for the configuration section. The possible attribute values are "true" or "false". The default is "true". **Note:**  This parameter is a `string`, not a `boolean`.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  The `allowLocation` attribute specifies whether a configuration section can appear inside a pair of location tags.  
   
  Because `SetAllowLocation` is a static method, you should call it by getting a class object, as in the following example.  
@@ -47,6 +50,7 @@ oAnonAuth.SetAllowLocation "false"
 ```  
   
 ## Example  
+
  The following example sets the `allowLocation` attribute for the Anonymous authentication configuration section.  
   
 ```  
@@ -73,6 +77,7 @@ oAnonAuth.GetAllowLocation "false"
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AnonymousAuthenticationSection Class](../wmi-provider/anonymousauthenticationsection-class.md)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [ConfigurationSection.GetAllowLocation Method](../wmi-provider/configurationsection-getallowlocation-method.md)

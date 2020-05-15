@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f029ec16-7791-d9b4-042d-b18c2a4c36d7
 ---
 # CGlobalModule::OnGlobalCustomNotification Method
+
 Represents the method that will handle a `GlobalCustomNotification` event, which occurs when a module raises a user-defined notification.  
   
 ## Syntax  
@@ -15,19 +16,23 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCustomNotification(
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [ICustomNotificationProvider](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a global module has registered for the [GL_CUSTOM_NOTIFICATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalCustomNotification` method if a global custom notification is raised (for example, if a module calls [IHttpServer::NotifyCustomNotification](../../web-development-reference/native-code-api-reference/ihttpserver-notifycustomnotification-method.md)).  
   
 > [!NOTE]
 >  Global modules can register for the `GlobalCustomNotification` event notification by registering for `GL_CUSTOM_NOTIFICATION` in the module's [RegisterModule](../../web-development-reference/native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Registers for the [GL_PRE_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `GL_CUSTOM_NOTIFICATION` notifications.  
@@ -56,5 +61,6 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCustomNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)   
  [IHttpServer::NotifyCustomNotification Method](../../web-development-reference/native-code-api-reference/ihttpserver-notifycustomnotification-method.md)

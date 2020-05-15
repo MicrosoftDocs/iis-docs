@@ -10,6 +10,7 @@ msc.type: config
 # Server Side Include &lt;serverSideInclude&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<serverSideInclude>` element specifies whether server-side includes (SSI) #exec directives are disabled for Internet Information Services (IIS) 7.
@@ -17,6 +18,7 @@ The `<serverSideInclude>` element specifies whether server-side includes (SSI) #
 Specifically, the `<serverSideInclude>` element contains a single attribute: **ssiExecDisable**. Setting the **ssiExecDisable** attribute to **true** will disable the SSI #exec directive for IIS 7, thereby preventing SSI files from executing programs, scripts, or shell commands on the server.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -42,6 +44,7 @@ If you attempt to use the **cmd** directive in SSI files on IIS 7, you will rece
 **The CMD option is not enabled for #EXEC calls**
 
 <a id="003"></a>
+
 ## Setup
 
 The `<serverSideInclude>` element is not available on the default installation of IIS 7 and later. To install it, use the following steps.
@@ -84,11 +87,13 @@ The `<serverSideInclude>` element is not available on the default installation o
     [![](serverSideInclude/_static/image8.png)](serverSideInclude/_static/image7.png)
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<serverSideInclude>` element for IIS 7. For examples of how to configure the `<serverSideInclude>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -108,6 +113,7 @@ The following configuration sample disables the #exec command for SSI files in t
 [!code-xml[Main](serverSideInclude/samples/sample3.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples disable the #exec command for SSI files in the Default Web Site.

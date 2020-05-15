@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9484099f-c3f4-fdbb-dc24-bfd9617a3cf5
 ---
 # IWorkerProcessFramework::GetInterfaceVersion Method
+
 Returns the worker process framework version.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT GetInterfaceVersion(
 ```  
   
 ### Parameters  
+
  `pdwMajorVersion`  
  A pointer to a `DWORD` buffer that will receive the major version of the [IWorkerProcessFramework](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md).  
   
@@ -23,6 +25,7 @@ virtual HRESULT GetInterfaceVersion(
  A pointer to a `DWORD` buffer that will receive the minor version of the [IWorkerProcessFramework](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md).  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,6 +42,7 @@ virtual HRESULT GetInterfaceVersion(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWorkerProcessFramework Interface](../../web-development-reference/native-code-api-reference/iworkerprocessframework-interface.md)   
  [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getcustominterface-method.md)   
  [IWorkerProcessFramework::GetWpfInterface Method](../../web-development-reference/native-code-api-reference/iworkerprocessframework-getwpfinterface-method.md)

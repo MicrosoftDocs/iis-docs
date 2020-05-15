@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: pfn-webhost-listener-application-pool-all-listener-channel-instance-function
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function
+
 Notifies the listener adapter that it is possible to launch other instances of this listener channel.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md).  
   
@@ -27,9 +29,11 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
  [IN] A `DWORD` that contains the listener channel ID.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  The listener adapter should call the [WebhostOpenListenerChannelInstance](../../web-development-reference/native-code-api-reference/webhostopenlistenerchannelinstance-function.md) function to open the initial listener channel when it receives the first request. The listener adapter should not call `WebhostOpenListenerChannelInstance` again until it is notified through this function.  
   
  This notification can be called whenever a new instance of a listener channel can be connected to a worker process. The following are some of the situations in which this notification may occur:  
@@ -58,5 +62,6 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 68106133-322a-4e6a-9178-b5e4496bd438
 ---
 # IHttpCachePolicy2::IsForceUpdateSet Method
+
 Gets a value that determines if the force update flag has been set.  
   
 ## Syntax  

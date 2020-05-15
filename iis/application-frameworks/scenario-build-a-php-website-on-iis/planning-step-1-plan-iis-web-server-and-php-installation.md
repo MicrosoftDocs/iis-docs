@@ -16,6 +16,7 @@ The first step in planning to build a PHP website on IIS 8 is to determine how t
 When you are done with these tasks, record your design decisions before going on to [Step 2: Plan PHP Settings](planning-step-2-plan-php-settings.md).
 
 <a id="11"></a>
+
 ## 1.1. Plan to Install IIS
 
 To support PHP applications on an IIS web server, install the default configuration of IIS and the CGI module. The CGI module contains both CGI (Common Gateway Interface protocol) and FastCGI. FastCGI is a high-performance extension to CGI and is recommended for PHP applications. Once your machine has this IIS configuration installed, you can download and install PHP.
@@ -24,6 +25,7 @@ To support PHP applications on an IIS web server, install the default configurat
 > To install IIS 8 on either Windows Server® 2012 or Windows® 8, you must sign on as a member of the Administrators group.
 
 <a id="12"></a>
+
 ## 1.2. Plan to Download and Install PHP
 
 The simplest way to install PHP is to use Web Platform Installer (Web PI). Web PI installs the latest version of PHP along with any dependencies that version requires. To learn more about the Web PI, see [Learn More and Install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
@@ -37,6 +39,7 @@ PHP offers several extensions that extend its base functionality. One extension 
 You can download WinCache extension from the [PHP for Windows](https://sourceforge.net/projects/wincache/) site.
 
 <a id="13"></a>
+
 ## 1.3. Plan to Add a PHP Application
 
 An application is a grouping of content at the root level of a website or a grouping of content in a separate folder under the website root directory. When you add an application in IIS 8, you designate a directory as the *application root*, or starting point, for the application. Then specify properties specific to that particular application, such as the application pool that the application runs in.

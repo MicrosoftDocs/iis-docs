@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a7ed6a0f-5a56-2420-5c1d-16364a5bda73
 ---
 # IHttpContext::NotifyCustomNotification Method
+
 Raises a custom request-level notification.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT NotifyCustomNotification(
 ```  
   
 ### Parameters  
+
  `pCustomOutput`  
  A pointer to an [ICustomNotificationProvider](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md).  
   
@@ -23,6 +25,7 @@ virtual HRESULT NotifyCustomNotification(
  `true` if asynchronous completion is expected; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -31,11 +34,13 @@ virtual HRESULT NotifyCustomNotification(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `NotifyCustomNotification` method raises the custom notification that is specified by the `ICustomNotificationProvider` interface in the `pCustomOutput` parameter.  
   
  Your module must register for the [RQ_CUSTOM_NOTIFICATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification, and your module must contain a [CHttpModule::OnCustomRequestNotification](../../web-development-reference/native-code-api-reference/chttpmodule-oncustomrequestnotification-method.md) method to process the custom notification. To raise the custom notification, your module must first create the instance of your custom `ICustomNotificationProvider` interface and pass that interface to the `NotifyCustomNotification` method for the current request context.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
@@ -64,6 +69,7 @@ virtual HRESULT NotifyCustomNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [ICustomNotificationProvider Interface](../../web-development-reference/native-code-api-reference/icustomnotificationprovider-interface.md)   
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpServer::NotifyCustomNotification Method](../../web-development-reference/native-code-api-reference/ihttpserver-notifycustomnotification-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8265b9e8-9d05-f2e7-0211-0fbe1725e7ca
 ---
 # IAppHostPropertySchema::IsCaseSensitive Property
+
 Gets a value that indicates whether the property value is case-sensitive.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_IsCaseSensitive(
 ```  
   
 ### Parameters  
+
  `pfIsCaseSensitive`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if the property value is case-sensitive; otherwise, `VARIANT_FALSE`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -27,6 +30,7 @@ HRESULT get_IsCaseSensitive(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  If the `pfIsCaseSensitive` parameter returns `VARIANT_TRUE`, properties that use the current schema will be case-sensitive. For example, a case-sensitive property that accepted values of "Allow" and "Deny" would not accept the values "allow" and "deny". By default, this property is `VARIANT_FALSE`.  
   
 ## Requirements  
@@ -39,4 +43,5 @@ HRESULT get_IsCaseSensitive(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)

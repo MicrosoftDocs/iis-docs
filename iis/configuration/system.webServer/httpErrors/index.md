@@ -10,6 +10,7 @@ msc.type: config
 # HTTP Errors &lt;httpErrors&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<httpErrors>` element allows you to configure custom error messages for your Web site or application. Custom error messages let you provide a friendly or a more informative response by serving a file, returning another resource, or redirecting to a URL when visitors to your site cannot access the content they requested. For example, you might want to customize each of the error message pages for your Web site to have the same look and feel as the rest of your site.
@@ -27,6 +28,7 @@ The `<httpErrors>` element also can contain an **errorMode** attribute that you 
 By default, IIS serves error messages defined in files stored in the %*SystemRoot*%\Help\IisHelp\Common folder. You can create a custom error message for users and configure IIS to return this page whenever it encounters a specific HTTP error on your site. 
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -39,11 +41,13 @@ By default, IIS serves error messages defined in files stored in the %*SystemRoo
 | IIS 6.0 | The `<httpErrors>` element replaces the IIS 6.0 **HttpErrors** property of the **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<httpErrors>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to add a custom error page
@@ -81,6 +85,7 @@ The `<httpErrors>` element is included in the default installation of IIS 7.
     > If you select **Execute a URL on this site**, the path must be a relative path. If you select **Respond with a 302 redirect**, the URL must be an absolute URL.
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<httpErrors>` element at the server level in the ApplicationHost.config file and at the site and application level in the appropriate Web.config file.
@@ -111,6 +116,7 @@ The following configuration example, when included in the Web.config file for a 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples adds a new file for all status code 404 errors with a substatus of 5, which IIS returns for &quot;URL Sequence Denied&quot; errors. In these examples, the prefix path is set to &quot;%SystemDrive%\inetpub\custerr&quot;, and the file name is specified as &quot;404.5.htm&quot;.

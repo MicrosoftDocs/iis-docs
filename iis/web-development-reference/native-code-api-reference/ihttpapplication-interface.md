@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: faa76e4c-9d1e-ad2c-185f-52ec4aab7c5f
 ---
 # IHttpApplication Interface
+
 Retrieves application-specific configuration information.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpApplication
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpApplication` interface.  
   
 |Name|Description|  
@@ -29,6 +31,7 @@ class IHttpApplication
 |[IGlobalApplicationPreloadProvider2](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider2-interface.md)|Provides information about whether an application’s worker process is recycled.|  
   
 ## Remarks  
+
  HTTP modules can use the `IHttpApplication` interface to retrieve configuration information for an application. Specifically, the `GetAppConfigPath` method returns the configuration path for an application, the `GetApplicationId` method returns the unique identity path for an application, and the `GetApplicationPhysicalPath` method returns the physical path for the root folder of an application.  
   
  HTTP modules can retrieve an `IHttpApplication` interface by using the [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md), [IHttpApplicationProvider::GetApplication](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-getapplication-method.md), and [IHttpContext::GetApplication](../../web-development-reference/native-code-api-reference/ihttpcontext-getapplication-method.md) methods.  
@@ -43,6 +46,7 @@ class IHttpApplication
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)   
  [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md)   
  [IHttpApplicationProvider::GetApplication Method](../../web-development-reference/native-code-api-reference/ihttpapplicationprovider-getapplication-method.md)   

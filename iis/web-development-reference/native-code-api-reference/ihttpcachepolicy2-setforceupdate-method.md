@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 21f01a8a-79fb-4fc5-8e53-3f80664c8686
 ---
 # IHttpCachePolicy2::SetForceUpdate Method
+
 Sets a value that indicates that the cache should be updated for a specific request or request variation  
   
 ## Syntax  
@@ -15,6 +16,7 @@ virtual VOID SetForceUpdate(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Remarks  
@@ -33,4 +35,5 @@ virtual VOID SetForceUpdate(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy2 Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy2-interface.md)

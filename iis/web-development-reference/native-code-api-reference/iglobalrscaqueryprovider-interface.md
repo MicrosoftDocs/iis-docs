@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b4d97a23-123d-5c77-b0f1-ccfc388d5517
 ---
 # IGlobalRSCAQueryProvider Interface
+
 Extends the [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface by adding support for querying IIS Run-Time Status and Control information.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IGlobalRSCAQueryProvider : public IHttpEventProvider
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IGlobalRSCAQueryProvider` interface.  
   
 |Name|Description|  
@@ -25,12 +27,15 @@ class IGlobalRSCAQueryProvider : public IHttpEventProvider
 |[SetResult](../../web-development-reference/native-code-api-reference/iglobalrscaqueryprovider-setresult-method.md)|Finalizes the internal buffer.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_RSCA_QUERY](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an `IGlobalRscaQueryProvider` pointer as a parameter on the [CGlobalModule::OnGlobalRSCAQuery](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalrscaquery-method.md)`virtual` method.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_RSCA_QUERY` events. It then writes the `IGlobalRSCAQueryProvider` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -53,6 +58,7 @@ Parameters:
  You can optionally compile the code by using the __`stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalRSCAQueryProvider`  
@@ -67,4 +73,5 @@ Parameters:
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

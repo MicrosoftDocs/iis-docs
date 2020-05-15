@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 04176419-60ef-c98e-ef0b-38987dace521
 ---
 # TraceProviderDefinitionsSection Class
+
 Represents the configuration section that defines trace providers.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class TraceProviderDefinitionsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `TraceProviderDefinitionsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class TraceProviderDefinitionsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceProviderDefinitionsSection` class.  
   
 |Name|Description|  
@@ -38,12 +41,15 @@ class TraceProviderDefinitionsSection : ConfigurationSectionWithCollection
 |`TraceProviderDefinitions`|A read/write array of [TraceProviderDefinition](../wmi-provider/traceproviderdefinition-class.md) elements that specify trace providers.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<traceProviderDefinitions>` section in the ApplicationHost.config file.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -60,6 +66,7 @@ class TraceProviderDefinitionsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   

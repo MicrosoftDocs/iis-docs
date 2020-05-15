@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fa176765-b774-4bd3-a155-56fcfb0886b7
 ---
 # IPmCustomActions2::RegisterCustomActionCallback Method
+
 Registers a custom callback method for actions that will result in multiple responses.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT RegisterCustomActionCallback(
 ```  
   
 ### Parameters  
+
  `pszFunctionName`  
  A pointer to a string that contains the name of the custom Run-Time Status and Control action to be performed.  
   
@@ -27,6 +29,7 @@ virtual HRESULT RegisterCustomActionCallback(
  A pointer to an [ICustomAction2ResultCallback](../../web-development-reference/native-code-api-reference/icustomaction2resultcallback-interface.md) interface that will be used to report the results.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -43,5 +46,6 @@ virtual HRESULT RegisterCustomActionCallback(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IPmCustomActions2 Interface](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md)   
  [IPmCustomActions2::UnregisterCustomActionCallback Method](../../web-development-reference/native-code-api-reference/ipmcustomactions2-unregistercustomactioncallback-method.md)

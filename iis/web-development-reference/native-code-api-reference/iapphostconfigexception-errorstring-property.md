@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 15796ec2-a9b7-6d9b-9bca-42286cea2d1b
 ---
 # IAppHostConfigException::ErrorString Property
+
 Gets a description of the reason for the exception.  
   
 ## Syntax  
@@ -16,10 +17,12 @@ HRESULT get_ErrorString(
 ```  
   
 ### Parameters  
+
  `pbstrErrorString`  
  A pointer to a `BSTR` that contains the error string.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -36,4 +39,5 @@ HRESULT get_ErrorString(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigException Interface](../../web-development-reference/native-code-api-reference/iapphostconfigexception-interface.md)

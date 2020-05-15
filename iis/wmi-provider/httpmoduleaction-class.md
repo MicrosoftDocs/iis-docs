@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 74ccab52-cc4b-a564-29be-dc629671b13c
 ---
 # HttpModuleAction Class
+
 Represents an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] module.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HttpModuleAction : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HttpModuleAction` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class HttpModuleAction : CollectionElement
 |`Type`|A read/write `string` value that specifies the type for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] module. **Note:**  The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%").|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HttpModules` property of the [HttpModulesSection](../wmi-provider/httpmodulessection-class.md) class.  
   
  The modules represented by the `HttpModuleAction` class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the `<system.web>` section of the Web.config file. These modules are contained in the `Modules` array property of the [HttpModulesSection](../wmi-provider/httpmodulessection-class.md) class.  
@@ -34,6 +39,7 @@ class HttpModuleAction : CollectionElement
  The modules represented by the [ModuleAction](../wmi-provider/moduleaction-class.md) class are [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] related and are in the `<system.webServer>` section of the ApplicationHost.config file. These modules are contained in the [ModulesSection](../wmi-provider/modulessection-class.md) class.  
   
 ## Example  
+
  The following example displays the `HttpModuleAction` values that are in the `HttpModules` property of the `HttpModulesSection` class.  
   
 ```  
@@ -55,6 +61,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `HttpModuleAction`  
@@ -69,6 +76,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpModulesSection Class](../wmi-provider/httpmodulessection-class.md)   
  [ModulesSection Class](../wmi-provider/modulessection-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 926ab657-fabb-4523-8f1e-c372f6871f8a
 ---
 # IHttpResponse2 Interface
+
 Provides an interface for flushing data and writing entity data chunks for asynchronous operations.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpResponse2 : public IHttpResponse
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpResponse2` interface.  
   
 |Name|Description|  
@@ -21,9 +23,11 @@ class IHttpResponse2 : public IHttpResponse
 |WriteEntityChunks|Appends one or more [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body for an asynchronous operation.|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
+
  [IHttpResponse](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)  
   
  `IHttpResponse2`  
@@ -38,4 +42,5 @@ class IHttpResponse2 : public IHttpResponse
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

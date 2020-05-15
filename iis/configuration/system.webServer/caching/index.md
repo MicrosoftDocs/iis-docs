@@ -10,6 +10,7 @@ msc.type: config
 # Caching &lt;caching&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<caching>` element allows you to enable or disable page output caching for an Internet Information Services (IIS) 7 application. This element also allows you to configure whether IIS caches page output in user mode, kernel mode, or both and what, if any, output caching limits you want to impose.
@@ -23,6 +24,7 @@ Page output caching reduces server load and response time. Output caching works 
 Output caching is unnecessary for static files, such as HTML, JPG, or GIF files, and can cause more memory overhead for dynamic ASP.NET or PHP pages that read from a database that changes frequently.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -35,11 +37,13 @@ Output caching is unnecessary for static files, such as HTML, JPG, or GIF files,
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<caching>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure page output caching
@@ -69,6 +73,7 @@ The `<caching>` element is included in the default installation of IIS 7.
     ![](index/_static/image3.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 You can configure the `<caching>` element at the server level in the ApplicationHost.config file or at the site, application, or at the directory level in a Web.config file.
@@ -99,6 +104,7 @@ The following code example sets the maximum output cache size to 1 gigabyte and 
 [!code-xml[Main](index/samples/sample2.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure page output caching for files with the .asp file name extension, and configure IIS to cache in user mode and kernel mode until ASP files change.

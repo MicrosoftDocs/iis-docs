@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 080a1ecc-5789-57b7-b29e-fc693e1f0f11
 ---
 # SystemWindowsFormsSection Class
+
 Stores application settings for Windows Forms applications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SystemWindowsFormsSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SystemWindowsFormsSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class SystemWindowsFormsSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SystemWindowsFormsSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class SystemWindowsFormsSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `SystemWindowsFormsSection`  
@@ -51,4 +56,5 @@ class SystemWindowsFormsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b11efc80-7135-b1c5-0c2d-93cfda92f783
 ---
 # CHttpModule::OnAsyncCompletion Method
+
 Represents the method that will handle an asynchronous completion event, which occurs after an asynchronous operation has finished processing.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnAsyncCompletion(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -35,14 +37,17 @@ virtual REQUEST_NOTIFICATION_STATUS OnAsyncCompletion(
  [IN] A pointer to an [IHttpCompletionInfo](../../web-development-reference/native-code-api-reference/ihttpcompletioninfo-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  Unlike many of the other [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) methods that are called by registering for specific notifications, IIS will call a module's `OnAsyncCompletion` method only when an asynchronous operation has finished. For example, when a request-level module calls the [IHttpResponse::WriteEntityChunks](../../web-development-reference/native-code-api-reference/ihttpresponse-writeentitychunks-method.md) method and specifies asynchronous completion, IIS will call the module's `OnAsyncCompletion` method when the operation is complete.  
   
  When IIS calls the `OnAsyncCompletion` method, it will specify the notification type in the `dwNotification` parameter, and it will indicate whether the notification was for an event or post-event by using the `fPostNotification` parameter. IIS also provides an `IHttpCompletionInfo` interface that is pointed to by the `pCompletionInfo` parameter. You can use this interface to retrieve additional information about the asynchronous completion.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_MAP_REQUEST_HANDLER](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notifications.  
@@ -87,4 +92,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnAsyncCompletion(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)

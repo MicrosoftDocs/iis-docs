@@ -10,11 +10,13 @@ msc.type: config
 # Areas &lt;areas&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<areas>` collection specifies a list of functional areas for a provider to trace.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<areas>` collection specifies a list of functional areas for a provider to 
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 After you finish the default installation of IIS 7 and later, you must install the tracing role service to use failed request tracing. After you install the role service, you still must enable failed request tracing at the site level, application level, or directory level.
@@ -69,11 +72,13 @@ After you finish the default installation of IIS 7 and later, you must install t
     [![](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for adding trace providers for IIS 7. For examples of how to add trace providers programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -95,6 +100,7 @@ The following default `<traceProviderDefinitions>` element is configured in the 
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples add a custom trace provider with two trace areas to the list that is defined in the global `<traceProviderDefinitions>` collection.

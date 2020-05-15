@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f563801a-d5fd-0f69-74bd-4be0b05c6871
 ---
 # FailureDefinition Class
+
 Specifies the conditions under which a request trace is generated.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FailureDefinition : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FailureDefinition` class.  
   
 |Name|Description|  
@@ -25,9 +28,11 @@ class FailureDefinition : EmbeddedObject
 |`Verbosity`|A read/write `sint32` enumeration value that specifies the threshold for trace events. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `FailureDefinitions` property of the [TraceUrl](../wmi-provider/traceurl-class.md) class.  
   
  A request will have its events traced if it lasts beyond the value of the `TimeTaken` property or if its status code is in the list contained by the `StatusCodes` property. If both `StatusCodes` and `TimeTaken` are specified, the first condition that evaluates to `true` will cause the request trace to be generated.  
@@ -44,6 +49,7 @@ class FailureDefinition : EmbeddedObject
 |3|`Warning`|Provides information about components that experience an error but can continue processing requests.|  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `FailureDefinition`  
@@ -58,6 +64,7 @@ class FailureDefinition : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e76289ee-960d-4e24-a171-d507bf839d94
 ---
 # ConfigProtectedDataSection Class
+
 Contains protected configuration provider information.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConfigProtectedDataSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConfigProtectedDataSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ConfigProtectedDataSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConfigProtectedDataSection` class.  
   
 |Name|Description|  
@@ -39,9 +42,11 @@ class ConfigProtectedDataSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -58,5 +63,6 @@ class ConfigProtectedDataSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)

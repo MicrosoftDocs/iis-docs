@@ -10,6 +10,7 @@ msc.type: config
 # FTP User Isolation &lt;userIsolation&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<userIsolation>` element is used to start or restrict FTP clients in specific sections of an FTP site. Depending on the options that are specified in the `<userIsolation>` element, server administrators can prevent unauthorized access between users in a shared server environment where a single FTP site is shared between mutiple user accounts.
@@ -35,6 +36,7 @@ When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** 
 > | IIS Manager or ASP.NET custom authentication user accounts | %*FtpRoot*%\LocalUser\%*UserName*% |
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -54,6 +56,7 @@ When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -121,6 +124,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to isolate users in virtual directories
@@ -179,6 +183,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 For additional information about how to set up the Active Directory, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=99787) topic.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<userIsolation>` element is configured at the site level.
@@ -202,6 +207,7 @@ The following sample displays a `<userIsolation>` element for an FTP site that c
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure Active Directory user isolation for an FTP site.

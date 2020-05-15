@@ -18,6 +18,7 @@ This topic presents the information you need to create a high-level plan for you
 When you are done with these tasks, record your design decisions before going on to [Step 2: Plan IIS Web Farm Configuration](planning-step-2-plan-iis-web-farm-configuration.md).
 
 <a id="11"></a>
+
 ## 1.1. Decide on Web Farm Infrastructure
 
 There are many ways to design the infrastructure of a web farm. This discussion looks briefly at two common infrastructures-local content and shared network content. It compares advantages and disadvantages of both designs, and selects one for this scenario.
@@ -67,6 +68,7 @@ This web farm infrastructure requires you to configure the following servers:
 - One file server for the SSL central certificate store. For more information about central certificate store, see [Step 4: Plan SSL Central Certificate Store](planning-step-4-plan-ssl-central-certificate-store.md).
 
 <a id="12"></a>
+
 ## 1.2. Use ARR for Load Balancing
 
 Microsoft Application Request Routing (ARR) is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers, server variables, and load balance algorithms. For more information about ARR, see [Step 3: Plan IIS Web Farm Load Balancing](planning-step-3-plan-iis-web-farm-load-balancing.md).
@@ -76,6 +78,7 @@ The easiest way to install ARR and its dependencies is with [Web Platform Instal
 To configure ARR load balancing, you need the IP address for all of your servers. To find an IP address, use the Ipconfig.exe command-line tool.
 
 <a id="13"></a>
+
 ## 1.3. Start with a Functional Website
 
 The easiest way to configure your web farm is to start by getting your website working on one server. If you need help configuring your website, refer to one or more of the following IIS scenarios:

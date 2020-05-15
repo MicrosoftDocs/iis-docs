@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 02dd9317-b412-da4e-9744-723c85b06cc7
 ---
 # PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED Function
+
 Notifies the listener adapter that the [WebhostRegisterProtocol](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md) function call was successful and the configuration manager has connected.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED )(
 ```  
   
 ### Parameters  
+
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to `WebhostRegisterProtocol`.  
   
 ## Return Value  
+
  `VOID`.  
   
 ## Remarks  
+
  This is the first callback function invoked by the client library. After this call, the listener adapter should set up the listener to wait on incoming requests.  
   
  You should set a time-out for the listener adapter to wait for this callback function. If the time-out expires, you should stop the listener adapter service and mark it as failed.  
@@ -42,5 +46,6 @@ typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED )(
 |Header|Listeneradapter.h|  
   
 ## See Also  
+
  [Listener Adapter Callback Functions](../../web-development-reference/native-code-api-reference/listener-adapter-callback-functions.md)   
  [WebhostRegisterProtocol Function](../../web-development-reference/native-code-api-reference/webhostregisterprotocol-function.md)

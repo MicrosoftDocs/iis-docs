@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: a7244321-a081-c31a-69fc-c78ce0380226
 ---
 # IHttpTokenEntry Interface
+
 Extends the [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) interface by adding token-specific information for tokens that are cached on a server.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IHttpTokenEntry : public IHttpCacheSpecificData
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IHttpTokenEntry` class.  
   
 |Name|Description|  
@@ -29,14 +31,17 @@ class IHttpTokenEntry : public IHttpCacheSpecificData
 |[SetFlushed](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-setflushed-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
   
 ## Derived Classes  
+
  This interface contains no derived classes.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md) pointer by calling the [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md) method and, in some cases, you can downcast this `IHttpCacheSpecificData` pointer to an `IHttpTokenEntry` pointer.  
   
  For more information on downcast rules, see [ICacheProvider::GetCacheRecord](../../web-development-reference/native-code-api-reference/icacheprovider-getcacherecord-method.md).  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenEntry` information to the Event Viewer.  
   
 > [!CAUTION]
@@ -60,6 +65,7 @@ class IHttpTokenEntry : public IHttpCacheSpecificData
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
+
  [IHttpCacheSpecificData](../../web-development-reference/native-code-api-reference/ihttpcachespecificdata-interface.md)  
   
  `IHttpTokenEntry`  
@@ -74,4 +80,5 @@ class IHttpTokenEntry : public IHttpCacheSpecificData
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [Web Server Core Interfaces](../../web-development-reference/native-code-api-reference/web-server-core-interfaces.md)

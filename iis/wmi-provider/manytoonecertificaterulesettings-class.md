@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 00aeabf8-7eae-4729-848b-814a8033eb27
 ---
 # ManyToOneCertificateRuleSettings Class
+
 Contains many-to-one certificate mapping rules.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class ManyToOneCertificateRuleSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ManyToOneCertificateRuleSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class ManyToOneCertificateRuleSettings : EmbeddedObject
 |`Rules`|An array of [ManyToOneCertificateMappingRuleElement](../wmi-provider/manytoonecertificatemappingruleelement-class.md) values that contain many-to-one certificate mapping rules.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Rules` property of the [ManyToOneCertificateMappingElement](../wmi-provider/manytoonecertificatemappingelement-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `ManyToOneCertificateRuleSettings`  
@@ -43,6 +49,7 @@ class ManyToOneCertificateRuleSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [AccessSection Class](../wmi-provider/accesssection-class.md)   
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

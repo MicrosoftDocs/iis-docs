@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 359250eb-6680-f075-7ccb-cebc4850903e
 ---
 # BindingElement Class1
+
 Represents a binding element for a Web site.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class BindingElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `BindingElement` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class BindingElement : CollectionElement
 |`Protocol`|A required unique nonempty read/write `string` value that specifies the protocol that the site binding uses. The default is "HTTP". The key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Bindings` array property of the [Site](../wmi-provider/site-class.md) class.  
   
 ## Example  
+
  The following example retrieves the bindings for all of the sites on a Web server.  
   
 ```  
@@ -53,6 +59,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `BindingElement`  
@@ -67,6 +74,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [SSLBinding Class](../wmi-provider/sslbinding-class.md)   
  [Site Class](../wmi-provider/site-class.md)

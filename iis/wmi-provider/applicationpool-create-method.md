@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: cc7d3c44-23df-cec7-c2b6-614a151011bb
 ---
 # ApplicationPool.Create Method2
+
 Creates an application pool.  
   
 ## Syntax  
@@ -30,12 +31,15 @@ var apppool = oWebAdmin.Get("Application").Create(
 |`AutoStart`|[IN] An optional `boolean` value. `true` if the World Wide Web Publishing Service (WWW service) will start an application pool automatically either when the application pool is created or when IIS is started; otherwise, `false`. If you disable automatic startup of an application pool, you must start the application pool manually. Disabling automatic startup is useful when you want to make configuration or content changes to an application in the application pool before the application pool starts.|  
   
 ## Return Value  
+
  This method does not return a value.  
   
 ## Remarks  
+
  The `Create` method supplants previous methods of creating IIS application pools. To create an application pool in IIS 6.0, you called `SpawnInstance_` on the [IIsApplicationPoolSetting](https://msdn.microsoft.com/10d03bfa-e2e9-46c1-abee-dbfc8c1c9079) class, assigned a name to the new application pool, and then called `Put_` to save the result to the metabase. Although this procedure will still work in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], the new `Create` method performs the same task in one step.  
   
 ## Example  
+
  The following example creates a new application pool.  
   
 ```  
@@ -57,4 +61,5 @@ oWebAdmin.Get("ApplicationPool").Create("NewAppPool")
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)

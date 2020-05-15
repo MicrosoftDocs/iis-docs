@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 28117499-370b-4789-86ab-a7b0fceb8cc9
 ---
 # FileSettings Class1
+
 Contains Web page file names to serve to clients by default.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class FileSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `FileSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class FileSettings : EmbeddedObject
 |`Files`|An array of [StringElement](../wmi-provider/stringelement-class.md) values that contain the names of the files that the Web server returns to clients by default. The defaults are "default.htm", "default.asp", "index.htm", "index.html", "iisstart.htm", and "default.aspx".|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Files` array property of the [DefaultDocumentSection](../wmi-provider/defaultdocumentsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `FileSettings`  
@@ -43,6 +49,7 @@ class FileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [DefaultDocumentSection Class](../wmi-provider/defaultdocumentsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [Site Class](../wmi-provider/site-class.md)   

@@ -10,6 +10,7 @@ msc.type: config
 # Default FTP Messages &lt;messages&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<messages>` element is used to specify the message that the FTP service will display to FTP clients. The messages that are specified for the `bannerMessage`, `greetingMessage`, and `maxClientsMessage` attributes are displayed when an FTP client connects to an FTP site, and the message that is specified by the `exitMessage` attribute is displayed when an FTP client disconnects from an FTP site.
@@ -29,6 +30,7 @@ The `expandVariables` attribute specifies whether to display a specific set of u
 The `allowLocalDetailedErrors` attribute specifies whether to display detailed error messages when the FTP client is connecting to the FTP server on the server itself. These error messages contain detailed information that server administrators can use to troubleshoot issues. If this attribute is set to true, the FTP service will display detailed error messages only to the local host; otherwise, detailed error messages are not displayed.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -48,6 +50,7 @@ The `allowLocalDetailedErrors` attribute specifies whether to display detailed e
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -115,6 +118,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the default customized messages for all FTP sites
@@ -149,6 +153,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -174,6 +179,7 @@ The following configuration sample displays an example `<messages>` element for 
 [!code-xml[Main](messages/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples illustrate setting a custom default banner message and enabling local detailed error messages.

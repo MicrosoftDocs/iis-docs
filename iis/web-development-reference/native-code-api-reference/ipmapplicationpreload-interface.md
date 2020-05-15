@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7f5b8269-ce7f-4be7-8cb7-c59392e0816c
 ---
 # IPmApplicationPreload Interface
+
 Enables the worker process to preload applications into server memory.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class IPmApplicationPreload : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IPmApplicationPreload` interface.  
   
 |Name|Description|  
@@ -31,4 +33,5 @@ class IPmApplicationPreload : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Interfaces](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)

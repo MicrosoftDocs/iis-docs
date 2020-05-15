@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f5f8d53a-43dd-2c55-8d7a-eb46d27ef001
 ---
 # IHttpContext::GetServerVarChanges Method
+
 Retrieves the changes to the server variables for the current context.  
   
 ## Syntax  
@@ -21,6 +22,7 @@ virtual HRESULT GetServerVarChanges(
 ```  
   
 ### Parameters  
+
  `dwOldChangeNumber`  
  [IN] A `DWORD` that contains the old change number.  
   
@@ -43,6 +45,7 @@ virtual HRESULT GetServerVarChanges(
  [OUT] A pointer to the address of an array of `DWORD` values, terminated by a –1 value, that contains the indices of server variables that have changed.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -50,6 +53,7 @@ virtual HRESULT GetServerVarChanges(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  IIS uses the `GetServerVarChanges` method to test for changes to the HTTP server variables since the last time the server variables were examined.  
   
 > [!NOTE]
@@ -65,5 +69,6 @@ virtual HRESULT GetServerVarChanges(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::GetServerVariable Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getservervariable-method.md)

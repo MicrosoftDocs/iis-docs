@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: bb56f880-ee3d-06b3-467c-d4f58a7c80cd
 ---
 # SiteContainsApplication Class1
+
 Provides a relationship between a Web site and its applications.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SiteContainsApplication : ObjectContainerAssociation
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SiteContainsApplication` class.  
   
 |Name|Description|  
@@ -24,12 +27,15 @@ class SiteContainsApplication : ObjectContainerAssociation
 |`Element`|(Inherited from `ObjectContainerAssociation`.) A read-only [Application](../wmi-provider/application-class.md) object that represents an IIS application. A key property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  To implement this association, use the configuration API to enumerate the applications for a given site.  
   
 ## Example  
+
  The following example shows how to use the `SiteContainsApplication` class to retrieve all the applications in a Web site.  
   
 ```  
@@ -48,6 +54,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)  
   
  `SiteContainsApplication`  
@@ -62,6 +69,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Application Class](../wmi-provider/application-class.md)   
  [ObjectContainerAssociation Class](../wmi-provider/objectcontainerassociation-class.md)   
  [Site Class](../wmi-provider/site-class.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7a8dcc50-3f03-9c7c-23f3-a7682dbaacbc
 ---
 # SoapExtensionTypesInfo Class
+
 Specifies SOAP extensions that inspect or modify SOAP messages.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SoapExtensionTypesInfo : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SoapExtensionTypesInfo` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class SoapExtensionTypesInfo : EmbeddedObject
 |`SoapExtensionTypes`|An array of [SoapExtensionTypeElement](../wmi-provider/soapextensiontypeelement-class.md) values that specify SOAP extensions that inspect or modify a SOAP message during processing on the Web service or client.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are exposed as members of the `SoapExtensionTypes` property on the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SoapExtensionTypesInfo`  
@@ -43,6 +49,7 @@ class SoapExtensionTypesInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SoapExtensionTypeElement Class](../wmi-provider/soapextensiontypeelement-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)

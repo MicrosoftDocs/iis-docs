@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 307775f3-dc62-49a7-8237-6a48966ee980
 ---
 # IHttpRequest2::GetChannelBindingToken Method
+
 Gets the channel binding token (CBT) being used for request validation.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT GetChannelBindingToken(
 ```  
   
 ### Parameters  
+
  `ppToken`  
  [OUT] Pointer to the channel binding token.  
   
@@ -24,6 +26,7 @@ virtual HRESULT GetChannelBindingToken(
  [OUT] Size in bytes of the channel binding token.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -40,4 +43,5 @@ virtual HRESULT GetChannelBindingToken(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpRequest2 Interface](../../web-development-reference/native-code-api-reference/ihttprequest2-interface.md)

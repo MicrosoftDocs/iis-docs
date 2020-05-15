@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8b12b98d-1f40-32f8-9451-50b8330166fe
 ---
 # IAppHostConfigManager Interface
+
 Provides access to the physical configuration files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ interface IAppHostConfigManager : IUnknown
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `IAppHostConfigManager` interface.  
   
 |Method|Description|  
@@ -21,9 +23,11 @@ interface IAppHostConfigManager : IUnknown
 |[GetUniqueConfigPath](../../web-development-reference/native-code-api-reference/iapphostconfigmanager-getuniqueconfigpath-method.md)|Gets a unique configuration path that represents the deepest path where configuration is defined.|  
   
 ## Properties  
+
  This interface contains no properties.  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigManager`  
@@ -38,5 +42,6 @@ interface IAppHostConfigManager : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [IAppHostConfigFile Interface](../../web-development-reference/native-code-api-reference/iapphostconfigfile-interface.md)

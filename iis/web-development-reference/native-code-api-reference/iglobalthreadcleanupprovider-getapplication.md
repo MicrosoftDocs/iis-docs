@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 58b4d588-36c4-574f-f180-02d305f7b22d
 ---
 # IGlobalThreadCleanupProvider::GetApplication
+
 Retrieves an [IHttpApplication](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md) interface.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IHttpApplication* GetApplication(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an `IHttpApplication` interface.  
   
 ## Remarks  
+
  Developers can use the `GetApplication` method to retrieve an `IHttpApplication` interface, which they can then use to retrieve configuration information for an application.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. Registers for the [GL_THREAD_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -54,5 +59,6 @@ virtual IHttpApplication* GetApplication(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpApplication Interface](../../web-development-reference/native-code-api-reference/ihttpapplication-interface.md)   
  [IGlobalThreadCleanupProvider Interface](../../web-development-reference/native-code-api-reference/iglobalthreadcleanupprovider-interface.md)

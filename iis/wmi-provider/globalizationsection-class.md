@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 287cc0cf-ca19-687e-ca3c-ec5a64d0a64d
 ---
 # GlobalizationSection Class
+
 Configures the globalization settings for a Web application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class GlobalizationSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `GlobalizationSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class GlobalizationSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `GlobalizationSection` class.  
   
 |Name|Description|  
@@ -42,9 +45,11 @@ class GlobalizationSection : ConfigurationSection
 |`UICulture`|An optional read/write `string` value that specifies the default culture for processing locale-dependent resource searches. For valid culture strings, see the [System.Globalization.CultureInfo](https://go.microsoft.com/fwlink/?LinkId=67222) class. You can also set this property to "auto". **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `GlobalizationSection`  
@@ -59,6 +64,7 @@ class GlobalizationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Globalization.CultureInfo Class](https://go.microsoft.com/fwlink/?LinkId=67222)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [globalization Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=69316)   

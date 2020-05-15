@@ -14,6 +14,7 @@ by the IIS Team
 > This article provides an overview of the IIS CORS module and explains the configuration of the module.
 
 <a id="_Functionality_Overview"></a>
+
 ## Functionality Overview
 
 The Microsoft IIS CORS Module is an extension that enables web sites to support the [CORS](https://www.w3.org/TR/cors/)(Cross-Origin Resource Sharing) protocol.
@@ -31,6 +32,7 @@ A CORS request occurs when a protocol aware client, such as a web browser, makes
 A CORS preflight request is used to determine whether the resource being requested is set to be shared across origins by the server. The CORS preflight uses the HTTP _OPTIONS_ method with the _ACCESS-CONTROL-REQUEST-METHOD_ and the _ORIGIN_ request headers. The IIS CORS module is designed to handle the CORS preflight requests before other IIS modules handle the same request. The OPTIONS requests are always anonymous, so CORS module provides IIS servers a way to correctly respond to the preflight request even if anonymous authentification needs to be disabled server-wise.
 
 <a id="_IISCORS_Configuration"></a>
+
 ## CORS Configuration
 
 The IIS CORS is configured via a site or application *web.config* file and has its own `cors` configuration section within `system.webServer`.
@@ -83,6 +85,7 @@ With the IIS CORS module, you can:
 ### Adding Origin rule &lt;add&gt;
 
 <a id="001"></a>
+
 ## Origin rules
 
 The `<add>` element of the `<cors>` collection specifies an individual origin to be added to the list of origin rules.
@@ -119,6 +122,7 @@ If there is only \* origin host rule, IIS CORS module does the following:
 | `allowAllRequestedHeaders` | Optional Boolean attribute. If this is true, IIS module will take the value of the given Access-Control-Request-Headers CORS request header and set the Access-Control-Allow-Headers response header with the same value, which means all the given headers are allowed. If this is false, it sets the Access-Control-Allow-Headers response header with the header values of the allowHeaders collection, which means that only the listed headers are allowed. The default value is `false`. |
 
 <a id="_Sample_Code"></a>
+
 ## Sample Code
 
 ### C\#

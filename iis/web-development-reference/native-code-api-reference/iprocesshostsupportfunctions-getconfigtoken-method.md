@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 43754858-3e25-31c4-136b-686d91d75575
 ---
 # IProcessHostSupportFunctions::GetConfigToken Method
+
 Retrieves a Windows security token for the specified application’s root directory.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT __stdcall GetConfigToken(
 ```  
   
 ### Parameters  
+
  `appId`  
  A string that contains the unique identifier of the application.  
   
@@ -23,6 +25,7 @@ virtual HRESULT __stdcall GetConfigToken(
  A pointer to a `HANDLE` that contains a Windows security token for the specified application’s root directory.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -30,6 +33,7 @@ virtual HRESULT __stdcall GetConfigToken(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  You can use the `pToken` parameter to open and read application configuration settings.  
   
 ## Requirements  
@@ -42,4 +46,5 @@ virtual HRESULT __stdcall GetConfigToken(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IProcessHostSupportFunctions Interface](../../web-development-reference/native-code-api-reference/iprocesshostsupportfunctions-interface.md)

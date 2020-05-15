@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e1f046e1-2b3a-031f-d47b-aa0f97c2ba9f
 ---
 # GlobalModuleElement Class
+
 Configures a native or managed code module that processes requests to the Web server.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class GlobalModuleElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `GlobalModuleElement` class.  
   
 |Name|Description|  
@@ -25,9 +28,11 @@ class GlobalModuleElement : CollectionElement
 |`PreCondition`|A read/write `string` value that contains a comma-delimited list of values that represent preconditions for the module to be loaded. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `GlobalModules` array property of the [GlobalModulesSection](../wmi-provider/globalmodulessection-class.md) class.  
   
  The following table lists the possible values for the `Precondition` property. The `integratedMode` and `ISAPIMode` settings are mutually exclusive. The default is `null`.  
@@ -40,6 +45,7 @@ class GlobalModuleElement : CollectionElement
 |`managedHandler`|IIS loads the module only if the request is mapped to a managed handler. This setting can optimize performance by preventing static files from going through managed modules for every request.|  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `GlobalModuleElement`  
@@ -54,5 +60,6 @@ class GlobalModuleElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [GlobalModulesSection Class](../wmi-provider/globalmodulessection-class.md)

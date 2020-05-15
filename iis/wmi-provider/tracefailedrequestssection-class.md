@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6730e6f8-fff8-8e3b-b50c-42e67b9cec62
 ---
 # TraceFailedRequestsSection Class
+
 Represents a failed-request tracing configuration section.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class TraceFailedRequestsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `TraceFailedRequestsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class TraceFailedRequestsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceFailedRequestsSection` class.  
   
 |Name|Description|  
@@ -38,12 +41,15 @@ class TraceFailedRequestsSection : ConfigurationSectionWithCollection
 |`TraceFailedRequests`|A read/write array of [TraceUrl](../wmi-provider/traceurl-class.md) values that configure the tracing for specific request types (for example, *.aspx).|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  This class corresponds to the `<traceFailedRequests>` section in ApplicationHost.config.  
   
 ## Example  
+
  The following example lists the `Location`, `Path`, and `TraceFailedRequest` properties for the default Web site.  
   
 ```  
@@ -110,6 +116,7 @@ End Function
 ```  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -126,6 +133,7 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
  [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8b902a59-f4d5-e223-d8e0-6e5e29f9999d
 ---
 # IAppHostSectionDefinition::AllowLocation Property
+
 Gets or sets a value that indicates whether the configuration section allows the location attribute.  
   
 ## Syntax  
@@ -19,6 +20,7 @@ HRESULT put_AllowLocation(
 ```  
   
 ### Parameters  
+
  `pbstrAllowLocation`  
  A pointer to a `BSTR` that indicates whether the configuration section allows the location attribute. Valid values are "true" or "false". The default value is "true".  
   
@@ -26,6 +28,7 @@ HRESULT put_AllowLocation(
  A `BSTR` that indicates whether the configuration section allows the location attribute. Valid values are "true" or "false".  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -47,4 +50,5 @@ HRESULT put_AllowLocation(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostSectionDefinition Interface](../../web-development-reference/native-code-api-reference/iapphostsectiondefinition-interface.md)

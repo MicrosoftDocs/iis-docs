@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 98e42cf9-bcd4-4e1e-a01d-f8e44052e93d
 ---
 # GetVersionObject
+
 Returns the installed IIS version based on version and product type.  
   
 ## Syntax  
@@ -33,7 +34,9 @@ Returns the installed IIS version based on version and product type.
      If the specified product type and version is found on the computer, returns the appropriate [IIISVersion](../../extensions/express-api-reference/iiisversion.md) object.  
   
 ## Return Value  
+
  `HRESULT`  
   
 ## See Also  
+
  [GetAllVersionObjects](../../extensions/express-api-reference/getallversionobjects.md)

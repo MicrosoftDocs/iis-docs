@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 3116f8b2-608a-930d-92d0-35a952e1f4aa
 ---
 # SiteLimits Class1
+
 Exposes connection-related limits for a site.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class SiteLimits : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SiteLimits` class.  
   
 |Name|Description|  
@@ -25,12 +28,15 @@ class SiteLimits : EmbeddedObject
 |`MaxConnections`|A read/write `uint32` value that specifies the maximum number of simultaneous connections to a server. **Note:**  Although the IIS_Schema.xml file specifies 4294967295 (unlimited) as the default for this property, the default returned by the WMI provider is -1.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `Limits` property of the [Site](../wmi-provider/site-class.md) class and the [SiteElementDefaults](../wmi-provider/siteelementdefaults-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `SiteLimits`  
@@ -45,6 +51,7 @@ class SiteLimits : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [Site Class](../wmi-provider/site-class.md)   
  [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   

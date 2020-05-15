@@ -10,6 +10,7 @@ msc.type: config
 # Limits for a Web Site &lt;limits&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<limits>` element of the `<site>` element configures settings that limit the amount of bandwidth, the number of connections, or the connection time-out for client requests to a site.
@@ -18,6 +19,7 @@ The `<limits>` element of the `<site>` element configures settings that limit th
 > If the `<limits>` element is configured in both the `<siteDefaults>` section and in the `<site>` section for a specific site, the configuration in the `<site>` section is used for that site.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -30,11 +32,13 @@ The `<limits>` element of the `<site>` element configures settings that limit th
 | IIS 6.0 | The `<limits>` element replaces the following IIS 6.0 metabase settings: <ul> <li><strong>ConnectionTimeout</strong></li> <li><strong>MaxBandwidth</strong></li> <li><strong>MaxConnections</strong> </li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<limits>` element of the `<site>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure the connection limit options for a site
@@ -62,6 +66,7 @@ The `<limits>` element of the `<site>` element is included in the default instal
     [![](limits/_static/image2.png)](limits/_static/image1.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -84,6 +89,7 @@ The following configuration sample shows a Web site where the maximum bandwidth 
 [!code-xml[Main](limits/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples configure the Default Web Site for a maximum bandwidth of 65,536 bytes per second, 1024 maximum connections, and a connection time-out of 1 minute.

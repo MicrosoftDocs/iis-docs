@@ -10,6 +10,7 @@ msc.type: config
 # WebDAV Properties &lt;properties&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<properties>` element of the `<authoring>` element defines the locking behavior for the WebDAV module. More specifically, the `<properties>` element contains attributes that define whether custom WebDAV properties are enabled, whether anonymous or infinite property requests are allowed, and may contain a series of [`<add>`](add.md) elements that define mappings for XML namespaces to property store providers.
@@ -23,6 +24,7 @@ The `<properties>` element of the `<authoring>` element defines the locking beha
 In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../../globalsettings/propertystores/index.md) collection.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -42,6 +44,7 @@ In order to use "dead" properties, you must set the `allowCustomProperties` of t
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support WebDAV publishing for your Web server, you must install the WebDAV module. To do so, use the following steps.
@@ -94,6 +97,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 
 <a id="004"></a>
+
 ## How To
 
 ### How to configure WebDAV properties for a Web site
@@ -133,6 +137,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 9. Once you have completed the previous steps, click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<properties>` element is configurable only at the site level in the ApplicationHost.config file. Any `<properties>` elements at other levels or in Web.config files are ignored.
@@ -160,6 +165,7 @@ The following example lists a sample `<webdav>` element for the Default Web Site
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure the WebDAV property settings so that both anonymous and infinite depth property queries are disabled, and enable custom properties with the default XML namespace mapped to the built-in *webdav\_simple\_prop* provider.

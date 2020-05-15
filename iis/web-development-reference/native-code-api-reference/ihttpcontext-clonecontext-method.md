@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: fca3d2f4-9ebc-9615-53bc-2447fb65e301
 ---
 # IHttpContext::CloneContext Method
+
 Creates a clone of the current request context.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT CloneContext(
 ```  
   
 ### Parameters  
+
  `dwCloneFlags`  
  [IN] A `DWORD` that contains the clone flags.  
   
@@ -23,6 +25,7 @@ virtual HRESULT CloneContext(
  [OUT] A dereferenced pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md).  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -32,6 +35,7 @@ virtual HRESULT CloneContext(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  The `CloneContext` method creates a clone of the current request context. You can control the cloning behavior by specifying the appropriate flags in the `dwCloneFlags` parameter. The following table lists the possible values for these flags.  
   
 |Value|Description|  
@@ -45,6 +49,7 @@ virtual HRESULT CloneContext(
  Once you have created a cloned context, you can use the clone as you would use the parent context. For example, to execute a child request for a different URL than the parent URL, you would use the [IHttpRequest::SetUrl](../../web-development-reference/native-code-api-reference/ihttprequest-seturl-method.md) method for the cloned context to change the URL of the cloned context before calling the parent context's [IHttpContext::ExecuteRequest](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md) method.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
 1. The module registers for the [RQ_MAP_PATH](../../web-development-reference/native-code-api-reference/request-processing-constants.md) notification.  
@@ -81,6 +86,7 @@ virtual HRESULT CloneContext(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::ExecuteRequest Method](../../web-development-reference/native-code-api-reference/ihttpcontext-executerequest-method.md)   
  [IHttpContext::ReleaseClonedContext Method](../../web-development-reference/native-code-api-reference/ihttpcontext-releaseclonedcontext-method.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: b7f6b1a5-d277-08fa-f697-3a250e9e07a7
 ---
 # ConnectionStringsSection Class
+
 Specifies a collection of database connection strings for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ConnectionStringsSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ConnectionStringsSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class ConnectionStringsSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `ConnectionStringsSection` class.  
   
 |Name|Description|  
@@ -38,12 +41,15 @@ class ConnectionStringsSection : ConfigurationSectionWithCollection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  In [!INCLUDE[vstecasplong](../wmi-provider/includes/vstecasplong-md.md)], features such as Session, Membership, Personalization, and Role Manager rely on connection strings that are stored in the `ConnectionStrings` property. You can also use the `ConnectionStrings` property to store connection strings for your own applications.  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -60,5 +66,6 @@ class ConnectionStringsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ConnectionStringSettings Class](../wmi-provider/connectionstringsettings-class.md)

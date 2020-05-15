@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 526c5b5d-9acf-4b5d-ac3b-ec97e57c8a7e
 ---
 # CGlobalModule::OnGlobalApplicationPreload Method
+
 Represents a method that will handle a `GlobalApplicationPreload` event.  
   
 ## Syntax  
@@ -13,10 +14,12 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalAppli
 ```  
   
 ### Parameters  
+
  `pProvider`  
  [IN] A pointer to an [IGlobalApplicationPreloadProvider](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
@@ -31,4 +34,5 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalAppli
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CGlobalModule Class](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md)

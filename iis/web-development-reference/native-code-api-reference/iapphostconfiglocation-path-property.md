@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1abfd93e-a6df-8d5e-565e-ab384be55724
 ---
 # IAppHostConfigLocation::Path Property
+
 Gets the path of the current configuration location.  
   
 ## Syntax  
@@ -17,10 +18,12 @@ HRESULT get_Path(
 ```  
   
 ### Parameters  
+
  `pbstrLocationPath`  
  A pointer to a `BSTR` that contains the path of the current location.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -37,4 +40,5 @@ HRESULT get_Path(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostConfigLocation Interface](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-interface.md)

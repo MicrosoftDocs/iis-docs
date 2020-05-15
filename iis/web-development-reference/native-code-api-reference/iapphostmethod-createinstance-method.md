@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 37c391ea-9ce6-48e4-8ecb-cbe7e45b03a0
 ---
 # IAppHostMethod::CreateInstance Method
+
 Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ HRESULT CreateInstance(
 ```  
   
 ### Parameters  
+
  `ppMethodInstance`  
  Contains the method-created instance.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ HRESULT CreateInstance(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The behavior is analogous to the stack frame of a native method call.  
   
 ## Requirements  
@@ -38,5 +42,6 @@ HRESULT CreateInstance(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostMethod Interface](../../web-development-reference/native-code-api-reference/iapphostmethod-interface.md)   
  [IAppHostMethodInstance Interface](../../web-development-reference/native-code-api-reference/iapphostmethodinstance-interface.md)

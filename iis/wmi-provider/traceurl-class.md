@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: c3e5f869-317e-ae63-b882-2f194e4c665a
 ---
 # TraceUrl Class
+
 Configures the failed-request tracing for a specific request path.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class TraceUrl : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `TraceUrl` class.  
   
 |Name|Description|  
@@ -28,12 +31,15 @@ class TraceUrl : CollectionElement
 |`TraceAreas`|A [TraceUrlAreaSettings](../wmi-provider/traceurlareasettings-class.md) value that specifies areas whose requests are traced.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `TraceFailedRequests` array property of the [TraceFailedRequestsSection](../wmi-provider/tracefailedrequestssection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `TraceUrl`  
@@ -48,6 +54,7 @@ class TraceUrl : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [FailureDefinition Class](../wmi-provider/failuredefinition-class.md)   
  [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   

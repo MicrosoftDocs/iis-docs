@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 8f6cbccd-addf-2518-4f9c-bad648898483
 ---
 # IWpfListenerChannelCallback::ReportStarted Method
+
 Notifies the worker process framework that a listener channel has started.  
   
 ## Syntax  
@@ -15,9 +16,11 @@ virtual HRESULT ReportStarted(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -34,6 +37,7 @@ virtual HRESULT ReportStarted(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IWpfListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-interface.md)   
  [IWpfListenerChannelCallback::GetBlob Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getblob-method.md)   
  [IWpfListenerChannelCallback::GetId Method](../../web-development-reference/native-code-api-reference/iwpflistenerchannelcallback-getid-method.md)   

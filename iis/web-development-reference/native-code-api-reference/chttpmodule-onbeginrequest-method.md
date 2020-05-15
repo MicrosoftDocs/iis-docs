@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: eda1ad8f-124b-7d75-0acd-b4a4d9fbdd48
 ---
 # CHttpModule::OnBeginRequest Method
+
 Represents the method that will handle a `BeginRequest` event, which occurs as the first event in the HTTP integrated request-processing pipeline for the current request.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
 ```  
   
 ### Parameters  
+
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -23,9 +25,11 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
  [IN] A pointer to an [IHttpEventProvider](../../web-development-reference/native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
+
  A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
+
  When a request-level module is registered for the [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnBeginRequest` method when a request enters the integrated request-processing pipeline.  
   
 > [!NOTE]
@@ -37,6 +41,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
 > Not all requests enter the integrated request-processing pipeline. A request for an image file that can be satisfied from the cache will not enter the integrated request-processing pipeline; therefore, the `OnBeginRequest` method will not be called.  
   
 ## Example  
+
  The following example demonstrates how to create a request-level HTTP module that registers for the `RQ_BEGIN_REQUEST` event and post-event notifications. When a request enters the pipeline, IIS will call the example module's `OnBeginRequest` and [OnPostBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onpostbeginrequest-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
  [!code-cpp[CHttpModuleBeginRequest#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/CHttpModuleBeginRequest/cpp/CHttpModuleBeginRequest.cpp#1)]  
@@ -55,5 +60,6 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [CHttpModule Class](../../web-development-reference/native-code-api-reference/chttpmodule-class.md)   
  [CHttpModule::OnPostBeginRequest Method](../../web-development-reference/native-code-api-reference/chttpmodule-onpostbeginrequest-method.md)

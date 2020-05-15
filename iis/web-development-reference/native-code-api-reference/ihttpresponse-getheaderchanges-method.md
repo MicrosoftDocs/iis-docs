@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 32334282-824c-22af-2d43-5269dba717bb
 ---
 # IHttpResponse::GetHeaderChanges Method
+
 Retrieves the changes to the server headers for the current response.  
   
 ## Syntax  
@@ -23,6 +24,7 @@ virtual HRESULT GetHeaderChanges(
 ```  
   
 ### Parameters  
+
  `dwOldChangeNumber`  
  [IN] A `DWORD` that contains the old change number.  
   
@@ -51,6 +53,7 @@ virtual HRESULT GetHeaderChanges(
  [OUT] A pointer to the address of an array of `DWORD` values, terminated by a –1 value, that contains the indexes of headers that have changed in the list of unknown headers.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -59,6 +62,7 @@ virtual HRESULT GetHeaderChanges(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
+
  IIS uses the `GetHeaderChanges` method to test for changes to the HTTP headers since the last time the headers were examined.  
   
 > [!NOTE]
@@ -74,6 +78,7 @@ virtual HRESULT GetHeaderChanges(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpResponse Interface](../../web-development-reference/native-code-api-reference/ihttpresponse-interface.md)   
  [IHttpResponse::GetHeader Method](../../web-development-reference/native-code-api-reference/ihttpresponse-getheader-method.md)   
  [IHttpRequest::GetHeader Method](../../web-development-reference/native-code-api-reference/ihttprequest-getheader-method.md)   

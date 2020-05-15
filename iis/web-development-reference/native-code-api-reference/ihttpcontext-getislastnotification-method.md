@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 6e2375e4-264e-ccdb-6fee-3f07d258ca3b
 ---
 # IHttpContext::GetIsLastNotification Method
+
 Indicates whether more notifications are pending for this request within the current module host.  
   
 ## Syntax  
@@ -15,18 +16,22 @@ virtual BOOL GetIsLastNotification(
 ```  
   
 ### Parameters  
+
  `status`  
  [IN] A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) enumeration value.  
   
 ## Return Value  
+
  `true` if additional notifications are pending; otherwise, `false`.  
   
 ## Remarks  
+
  The `GetIsLastNotification` method retrieves the status of pending notifications for the current request within the current module host. That is, the `GetIsLastNotification` method does not indicate whether additional notifications are pending for another request, or whether additional notifications are pending for a module that is executing in a different module host.  
   
  The value of the `status` parameter directly affects the return value for the `GetIsLastNotification` method. For example, specifying [RQ_NOTIFICATION_CONTINUE](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) may return `true` to indicate that additional notifications are pending, whereas specifying [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference/native-code-api-reference/request-notification-status-enumeration.md) may return `false` for the same request. This behavior occurs because a status value of `RQ_NOTIFICATION_CONTINUE` will continue to process additional notifications that a status value of `RQ_NOTIFICATION_FINISH_REQUEST` would bypass.  
   
 ## Example  
+
  The following code example demonstrates how to use the `GetIsLastNotification` method to create an HTTP module that indicates whether more notifications are pending for the current request. Then module then returns that information to the Web client.  
   
  [!code-cpp[IHttpContextGetIsLastNotification#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpContextGetIsLastNotification/cpp/IHttpContextGetIsLastNotification.cpp#1)]  
@@ -45,6 +50,7 @@ virtual BOOL GetIsLastNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)   
  [IHttpContext::DisableNotifications Method](../../web-development-reference/native-code-api-reference/ihttpcontext-disablenotifications-method.md)   
  [IHttpContext::GetNextNotification Method](../../web-development-reference/native-code-api-reference/ihttpcontext-getnextnotification-method.md)

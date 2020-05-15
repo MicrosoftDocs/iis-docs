@@ -10,6 +10,7 @@ msc.type: config
 # Anonymous Authentication &lt;anonymousAuthentication&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<anonymousAuthentication>` element controls how Internet Information Services (IIS) 7 processes requests from anonymous users. You can modify the `<anonymousAuthentication>` element to disable Anonymous authentication, or you can configure Internet Information Services (IIS) to use a custom user account to process anonymous requests.
@@ -19,6 +20,7 @@ Anonymous authentication gives users access to the public areas of your Web or F
 By default, IIS 7 uses Anonymous authentication. You must disable Anonymous authentication for any Web site, Web application, or Web service for which you want to enable other authentication methods such as Basic or Windows authentication.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -31,11 +33,13 @@ By default, IIS 7 uses Anonymous authentication. You must disable Anonymous auth
 | IIS 6.0 | The `<anonymousAuthentication>` element replaces the IIS 6.0 **AuthFlags**, **AnonymousUserName**, and **AnonymousUserPassword** metabase properties. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<anonymousAuthentication>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to disable anonymous authentication
@@ -93,6 +97,7 @@ The `<anonymousAuthentication>` element is included in the default installation 
      > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<anonymousAuthentication>` element is configurable at the site and application level in the Web.config file.
@@ -117,6 +122,7 @@ The following configuration example configures anonymous authentication for an I
 [!code-xml[Main](anonymousAuthentication/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples enable anonymous authentication and change the default username and password used for anonymous authentication to an account named **IUSR** and a password of **P\@ssw0rd**.

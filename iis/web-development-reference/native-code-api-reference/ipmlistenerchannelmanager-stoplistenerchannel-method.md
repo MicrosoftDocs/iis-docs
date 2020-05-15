@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f3e7d5df-2305-dc17-d52d-22e068ecf9b0
 ---
 # IPmListenerChannelManager::StopListenerChannel Method
+
 Enables the worker process framework to request that a protocol manager stop a listener channel for a protocol.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT StopListenerChannel(
 ```  
   
 ### Parameters  
+
  `protocolId`  
  A pointer to a string that contains the protocol (for example, HTTP) to stop.  
   
@@ -27,6 +29,7 @@ virtual HRESULT StopListenerChannel(
  `true` to indicate that the listener channel should be stopped immediately; otherwise, `false`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -45,5 +48,6 @@ virtual HRESULT StopListenerChannel(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [IPmListenerChannelManager Interface](../../web-development-reference/native-code-api-reference/ipmlistenerchannelmanager-interface.md)   
  [IPmListenerChannelManager::StartListenerChannel Method](../../web-development-reference/native-code-api-reference/ipmlistenerchannelmanager-startlistenerchannel-method.md)

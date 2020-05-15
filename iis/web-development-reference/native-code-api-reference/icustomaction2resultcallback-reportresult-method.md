@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 7d619d90-fa22-4203-b4b5-cd91e8a4c879
 ---
 # ICustomAction2ResultCallback::ReportResult Method
+
 Returns the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md) interface.  
   
 ## Syntax  
@@ -17,6 +18,7 @@ virtual HRESULT ReportResult(
 ```  
   
 ### Parameters  
+
  `hrStatus`  
  An `HRESULT` that contains the status of the Run-Time Status and Control operation.  
   
@@ -27,6 +29,7 @@ virtual HRESULT ReportResult(
  A pointer to a `DWORD` buffer that receives the size of the data pointed to by `pbResponse`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -43,4 +46,5 @@ virtual HRESULT ReportResult(
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [ICustomAction2ResultCallback Interface](../../web-development-reference/native-code-api-reference/icustomaction2resultcallback-interface.md)

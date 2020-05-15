@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9f3d0ab2-c083-471b-a6b1-160ab006c613
 ---
 # ConstructCommandLine
+
 Returns the command line that starts an IIS Express instance using the specified options.  
   
 ## Syntax  
@@ -47,8 +48,10 @@ Returns the command line that starts an IIS Express instance using the specified
      The command line that starts an IIS Express instance.  
   
 ## Return Value  
+
  `HRESULT`  
   
 ## See Also  
+
  [GetRunningProcessForSite](../../extensions/express-api-reference/getrunningprocessforsite.md)   
  [StopProcess](../../extensions/express-api-reference/stopprocess.md)

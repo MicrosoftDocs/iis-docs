@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ad32bf4b-d28b-34d9-ef89-c28e34f8c8f5
 ---
 # SessionStateSection Class
+
 Configures the session state for a Web application.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class SessionStateSection : ConfigurationSectionWithCollection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `SessionStateSection` class.  
   
 |Name|Description|  
@@ -28,6 +30,7 @@ class SessionStateSection : ConfigurationSectionWithCollection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `SessionStateSection` class.  
   
 |Name|Description|  
@@ -52,9 +55,11 @@ class SessionStateSection : ConfigurationSectionWithCollection
 |`UseHostingIdentity`|A read/write `boolean` value. `true` if Windows authentication and the host process identity (either [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] or a Windows Service identity) are enabled for remote connections; `false` if the session state uses client impersonation when it is available. The default is `true`. **Note:**  This setting simplifies the management of Integrated Windows authentication by granting database access only to the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] worker process or application identity and not to the entire domain or a set of domain users.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  When a new client begins interacting with a Web application, a session ID is issued and associated with all the subsequent requests from the same client during the time the session is valid. This ID is used to maintain server-side state associated with the client session across requests. The `SessionStateSection` class controls how the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application establishes and maintains this association on behalf of each client.  
   
  The following table lists the possible values for the `Cookieless` property. The default is 1 (`UseCookies`).  
@@ -77,6 +82,7 @@ class SessionStateSection : ConfigurationSectionWithCollection
 |4|`Custom`|Session state uses a custom data store to store session-state information. If you use this setting, you must specify the name of the custom provider in the `CustomProvider` property.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  [ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)  
@@ -93,6 +99,7 @@ class SessionStateSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [System.Web.Configuration.SystemWebSectionGroup.SessionState](/dotnet/api/system.web.configuration.systemwebsectiongroup.sessionstate#System_Web_Configuration_SystemWebSectionGroup_SessionState)   
  [System.Web.SessionState.SessionStateMode](/dotnet/api/system.web.sessionstate.sessionstatemode)
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

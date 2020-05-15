@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 83dc2e2d-1233-bd6d-9474-ff674fe00fed
 ---
 # HeaderLimitsElement Class
+
 Specifies the permitted sizes of HTTP request headers.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class HeaderLimitsElement : CollectionElement
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `HeaderLimitsElement` class.  
   
 |Name|Description|  
@@ -24,9 +27,11 @@ class HeaderLimitsElement : CollectionElement
 |`SizeLimit`|A required `uint32` value that specifies, in bytes, the maximum length of the HTTP request header specified in the `Header` property.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `HeaderLimits` array property of the [HeaderLimitsSettings](../wmi-provider/headerlimitssettings-class.md) class.  
   
  This class corresponds to the `<headerLimits>` element in the `<requestLimits>` section of the ApplicationHost.config file.  
@@ -35,6 +40,7 @@ class HeaderLimitsElement : CollectionElement
 >  You must install the Request Filtering Module (Modrqflt.dll) before the configuration settings in this class can take effect.  
   
 ## Example  
+
  The following example displays all the properties of the `RequestLimitsElement` class.  
   
 ```  
@@ -60,6 +66,7 @@ Next
 ```  
   
 ## Inheritance Hierarchy  
+
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
   
  `HeaderLimitsElement`  
@@ -74,6 +81,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   

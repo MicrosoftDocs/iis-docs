@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: ff83d13d-ba1d-2075-8231-df9d7877e96a
 ---
 # IHttpCachePolicy::IsUserCacheEnabled Method
+
 Returns a value that indicates whether user caching is enabled for the cache policy.  
   
 ## Syntax  
@@ -15,12 +16,15 @@ virtual BOOL IsUserCacheEnabled(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  `true` if user caching is enabled for the cache policy; otherwise, `false`.  
   
 ## Remarks  
+
  [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference/native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference/native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `IsUserCacheEnabled` method to determine if user caching is enabled for the cache policy.  
   
  `IsUserCacheEnabled` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
@@ -30,6 +34,7 @@ virtual BOOL IsUserCacheEnabled(
 - `IsUserCacheEnabled` returns the value of this Boolean.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference/native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes user cache information to the response stream.  
   
  [!code-cpp[IHttpCachePolicy#11](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpCachePolicy/cpp/IsUserCacheEnabled.cpp#11)]  
@@ -54,4 +59,5 @@ User Cache Enabled: true
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCachePolicy Interface](../../web-development-reference/native-code-api-reference/ihttpcachepolicy-interface.md)

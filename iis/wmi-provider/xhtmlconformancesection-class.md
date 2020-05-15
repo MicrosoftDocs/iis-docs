@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 05f20508-da93-46f6-3d93-a08cf6aa7b92
 ---
 # XhtmlConformanceSection Class
+
 Specifies the XHTML rendering mode for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class XhtmlConformanceSection : ConfigurationSection
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `XhtmlConformanceSection` class.  
   
 |Name|Description|  
@@ -24,6 +26,7 @@ class XhtmlConformanceSection : ConfigurationSection
 |[SetAllowLocation](../wmi-provider/configurationsection-setallowlocation-method.md)|(Inherited from `ConfigurationSection`.)|  
   
 ## Properties  
+
  The following table lists the properties exposed by the `XhtmlConformanceSection` class.  
   
 |Name|Description|  
@@ -34,9 +37,11 @@ class XhtmlConformanceSection : ConfigurationSection
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  By default, when you are working with browsers that support HTML 4.0 or later, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] pages and controls render markup that is compatible with the XHTML 1.0 Transitional standard. However, under some circumstances, you might not want [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] to render XHTML markup. This is typically true when you have existing pages that rely on tags or attributes that would ordinarily be prohibited by XHTML.  
   
  The following table lists the possible values for the `Mode` property. The default is 0 (`Transitional`).  
@@ -48,6 +53,7 @@ class XhtmlConformanceSection : ConfigurationSection
 |2|`Strict`|Specifies strict conformance with the XHTML 1.0 standard. The key change that occurs is that the name attribute is no longer rendered on the form tag.|  
   
 ## Inheritance Hierarchy  
+
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
   
  `XhtmlConformanceSection`  
@@ -62,5 +68,6 @@ class XhtmlConformanceSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [xhtmlConformance Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67196)

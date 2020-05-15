@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 44cfa36d-c54d-3c23-6ca6-7509e9dfc8f4
 ---
 # IAppHostPropertySchema::ValidationParameter Property
+
 Provides attribute-validation parameter information for the current property.  
   
 ## Syntax  
@@ -17,10 +18,12 @@ HRESULT get_ValidationParameter(
 ```  
   
 ### Parameters  
+
  `pbstrValidationParameter`  
  A pointer to a `BSTR` that contains the validation parameter.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -28,6 +31,7 @@ HRESULT get_ValidationParameter(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  Attribute validation is performed when XML is parsed and when the API makes a call to set a value in the configuration system.  
   
  The following table provides the available validation types.  
@@ -51,5 +55,6 @@ HRESULT get_ValidationParameter(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostPropertySchema Interface](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-interface.md)   
  [IAppHostPropertySchema::ValidationType Property](../../web-development-reference/native-code-api-reference/iapphostpropertyschema-validationtype-property.md)

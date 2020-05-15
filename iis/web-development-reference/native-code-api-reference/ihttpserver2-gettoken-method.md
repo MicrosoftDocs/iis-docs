@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 797d704e-9540-4b04-bd6a-6d01d48819a4
 ---
 # IHttpServer2::GetToken Method
+
 Retrieves an authentication token given a user name, password, and login method.  
   
 ## Syntax  
@@ -20,6 +21,7 @@ virtual HRESULT GetToken(
 ```  
   
 ### Parameters  
+
  `pszUserName`  
  [IN] Points to the user name.  
   
@@ -42,6 +44,7 @@ virtual HRESULT GetToken(
  [IN] Optional pointer to an [IHttpTraceContext](../../web-development-reference/native-code-api-reference/ihttptracecontext-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -58,4 +61,5 @@ virtual HRESULT GetToken(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer2 Interface](../../web-development-reference/native-code-api-reference/ihttpserver2-interface.md)

@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 51616d49-1f8a-4379-8dd3-8520c846b185
 ---
 # ICustomAction2ResultCallback Interface
+
 Reports the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference/native-code-api-reference/ipmcustomactions2-interface.md) interface.  
   
 ## Syntax  
@@ -13,6 +14,7 @@ class ICustomAction2ResultCallback : public IWpfReferencedObject
 ```  
   
 ## Methods  
+
  The following table lists the methods exposed by the `ICustomAction2ResultCallback` interface.  
   
 |Name|Description|  
@@ -22,6 +24,7 @@ class ICustomAction2ResultCallback : public IWpfReferencedObject
 |[IWpfReferencedObject::Release](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
+
  [IWpfReferencedObject](../../web-development-reference/native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `ICustomActionResultCallback`  
@@ -36,4 +39,5 @@ class ICustomAction2ResultCallback : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
+
  [Worker Process and Protocol Manager Interfaces](../../web-development-reference/native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)

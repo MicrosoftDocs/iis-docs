@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 5a264414-39bc-9cc7-dc58-04453914b7ab
 ---
 # IListenerChannelCallback::GetBlob Method
+
 Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting that listener channel.  
   
 ## Syntax  
@@ -16,6 +17,7 @@ virtual HRESULT __stdcall GetBlob(
 ```  
   
 ### Parameters  
+
  `pBlob`  
  A pointer to a `BYTE` buffer that contains data that will be passed to the listener channel.  
   
@@ -23,6 +25,7 @@ virtual HRESULT __stdcall GetBlob(
  A pointer to a `DWORD` that contains the amount of data, in bytes, pointed to by `pBlob`.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -39,5 +42,6 @@ virtual HRESULT __stdcall GetBlob(
 |Header|Webhost.h|  
   
 ## See Also  
+
  [IListenerChannelCallback Interface](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-interface.md)   
  [IListenerChannelCallback::GetBlobLength Method](../../web-development-reference/native-code-api-reference/ilistenerchannelcallback-getbloblength-method.md)

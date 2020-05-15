@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: f50a94f0-33d7-95de-65a9-345f0ab6e4e0
 ---
 # IMapHandlerProvider::SetFileInfo Method
+
 This method is not supported.  
   
 ## Syntax  
@@ -15,13 +16,16 @@ virtual VOID SetFileInfo(
 ```  
   
 ### Parameters  
+
  `pFileInfo`  
  Not supported.  
   
 ## Return Value  
+
  Not supported.  
   
 ## Remarks  
+
  This method is not supported.  
   
 ## Requirements  
@@ -34,4 +38,5 @@ virtual VOID SetFileInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IMapHandlerProvider Interface](../../web-development-reference/native-code-api-reference/imaphandlerprovider-interface.md)

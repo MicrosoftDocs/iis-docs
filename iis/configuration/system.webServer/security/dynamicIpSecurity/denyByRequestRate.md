@@ -10,11 +10,13 @@ msc.type: config
 # Deny by Request Rate <denyByRequestRate> &lt;denyByRequestRate&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<denyByRequestRate>` element specifies that a remote client will be blocked if the number of requests received over a period of time exceeds a specific number.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,6 +29,7 @@ The `<denyByRequestRate>` element specifies that a remote client will be blocked
 | IIS 6.0 | N/A |
 
 <a id="003"></a>
+
 ## Setup
 
 To support blocking a client on your Web server by the number of requests received, you must install the IP and Domain Restrictions role service.
@@ -52,6 +55,7 @@ To support blocking a client on your Web server by the number of requests receiv
 5. Click **Close**.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to deny an IP address by request rate
@@ -73,6 +77,7 @@ To support blocking a client on your Web server by the number of requests receiv
     [![](denyByRequestRate/_static/image6.png)](denyByRequestRate/_static/image5.png)
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<denyByRequestRate>` element is configured at the server or site level.
@@ -96,6 +101,7 @@ The following configuration sample demonstrates how to set dynamic IP address re
 [!code-xml[Main](denyByRequestRate/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples configure **&lt;dynamicIpSecurity&gt;** for a site.

@@ -10,6 +10,7 @@ msc.type: config
 # Server Runtime &lt;serverRuntime&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<serverRuntime>` element configures the following settings that are related to the Internet Information Services (IIS) 7 server runtime:
@@ -29,6 +30,7 @@ The `<serverRuntime>` element configures the following settings that are related
 IIS 7.5 added the **authenticatedUserOverride** attribute to the `<serverRuntime>` element, which configures whether the IIS 7 server runtime will provide the authenticated user's identity or the worker process identity in the [IHttpUser::GetPrimaryToken](https://msdn.microsoft.com/library/ms692659.aspx) and [IHttpUser::GetImpersonationToken](https://msdn.microsoft.com/library/ms689403.aspx) methods. This attribute can be set to *UseAuthenticatedUser* or *UseWorkerProcessUser*, and these values respectively specify whether the IIS 7 server runtime will provide the authenticated user's identity or the worker process identity for any module that is using impersonation.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -41,16 +43,19 @@ IIS 7.5 added the **authenticatedUserOverride** attribute to the `<serverRuntime
 | IIS 6.0 | The `<serverRuntime>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>SetHostName</strong></li> <li><strong>MaxRequestEntityAllowed</strong></li> <li><strong>UploadReadAheadSize</strong></li></ul> |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<serverRuntime>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface that lets you configure the `<serverRuntime>` element for IIS 7. For examples of how to configure the `<serverRuntime>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -78,6 +83,7 @@ The following configuration sample sets the `<serverRuntime>` element's **enable
 [!code-xml[Main](serverRuntime/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following code samples set the `<serverRuntime>` element's **enable** attribute to **true**, then configure the number of requests for a URL to be considered "frequently hit" by setting the **frequentHitThreshold** attribute to 5 requests and the **frequentHitTimePeriod** attribute to 20 seconds.

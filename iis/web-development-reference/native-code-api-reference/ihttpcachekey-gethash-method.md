@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 4dbfc063-f7f7-d86d-f19e-2451bf72f70f
 ---
 # IHttpCacheKey::GetHash Method
+
 Returns the unique hash code of an item in the global cache.  
   
 ## Syntax  
@@ -15,17 +16,21 @@ virtual DWORD GetHash(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A `DWORD` that represents the unique hash code of an item in the global cache.  
   
 ## Remarks  
+
  [CGlobalModule](../../web-development-reference/native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference/native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheKey](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md) pointer by calling the [ICacheProvider::GetCacheKey](../../web-development-reference/native-code-api-reference/icacheprovider-getcachekey-method.md) method on the `ICacheProvider` pointer. You can then retrieve the hash code of the item involved in the cache operation by calling the `GetHash` method on the `IHttpCacheKey` pointer.  
   
  The `GetHash` return value depends on both interface and implementation. For example, implementers of the [IFileKey](../../web-development-reference/native-code-api-reference/ifilekey-interface.md), [IHttpTokenKey](../../web-development-reference/native-code-api-reference/ihttptokenkey-interface.md), and [IUriKey](../../web-development-reference/native-code-api-reference/iurikey-interface.md) interfaces all use different hashing algorithms based upon the data that they hold.  
   
 ## Example  
+
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference/native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheKey` and the hash information to the Event Viewer.  
   
 > [!CAUTION]
@@ -54,4 +59,5 @@ IHttpCacheKey::GetHash: 46
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpCacheKey Interface](../../web-development-reference/native-code-api-reference/ihttpcachekey-interface.md)

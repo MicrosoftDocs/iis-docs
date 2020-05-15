@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 09e456cc-7b93-2227-adf1-18f2287be43c
 ---
 # IAppHostConfigException Interface
+
 Represents an exception in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ Interface IAppHostConfigException : public IUnknown
 ```  
   
 ## Methods  
+
  This interface contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `IAppHostConfigException` interface.  
   
 |Property|Description|  
@@ -29,6 +32,7 @@ Interface IAppHostConfigException : public IUnknown
 |[PreErrorLine](../../web-development-reference/native-code-api-reference/iapphostconfigexception-preerrorline-property.md)|Gets the contents of the line before the line in the configuration file that caused the current exception to be thrown.|  
   
 ## Inheritance Hierarchy  
+
  [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigException`  
@@ -43,5 +47,6 @@ Interface IAppHostConfigException : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [Application Host Administration Interfaces](../../web-development-reference/native-code-api-reference/application-host-administration-interfaces.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)

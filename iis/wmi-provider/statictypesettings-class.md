@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 32237c1b-06b3-44e4-b682-5a6abc7b3df7
 ---
 # StaticTypeSettings Class
+
 Specifies the MIME types that IIS serves with static compression.  
   
 ## Syntax  
@@ -13,9 +14,11 @@ class StaticTypeSettings : EmbeddedObject
 ```  
   
 ## Methods  
+
  This class contains no methods.  
   
 ## Properties  
+
  The following table lists the properties exposed by the `StaticTypeSettings` class.  
   
 |Name|Description|  
@@ -23,12 +26,15 @@ class StaticTypeSettings : EmbeddedObject
 |`StaticTypes`|An array of [HttpCompressionMimeTypeElement](../wmi-provider/httpcompressionmimetypeelement-class.md) values that specify whether IIS will statically compress a particular MIME type before serving it.|  
   
 ## Subclasses  
+
  This class contains no subclasses.  
   
 ## Remarks  
+
  Instances of this class are contained in the `StaticTypes` array property of the [HttpCompressionSection](../wmi-provider/httpcompressionsection-class.md) class.  
   
 ## Inheritance Hierarchy  
+
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
   
  `StaticTypeSettings`  
@@ -43,6 +49,7 @@ class StaticTypeSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
+
  [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)   
  [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

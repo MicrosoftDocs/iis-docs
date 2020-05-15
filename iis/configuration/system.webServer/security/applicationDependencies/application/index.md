@@ -10,11 +10,13 @@ msc.type: config
 # Applications for Application Dependencies &lt;application&gt;
 
 <a id="001"></a>
+
 ## Overview
 
 The `<application>` element of the [&lt;applicationDependencies&gt;](../index.md) element specifies an application that has dependencies on one or more CGI or ISAPI extension restrictions. Specifically, the **groupID** attribute of the `<application>` element specifies the primary application dependency, and the element may contain one or more [&lt;add&gt;](add.md) elements that specify additional dependencies.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -27,16 +29,19 @@ The `<application>` element of the [&lt;applicationDependencies&gt;](../index.md
 | IIS 6.0 | The `<applicationDependencies>` element replaces the IIS 6.0 **ApplicationDependencies** attribute of the **IIsWebService** metabase object. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<application>` element of the `<applicationDependencies>` element is included in the default installation of IIS 7.
 
 <a id="004"></a>
+
 ## How To
 
 There is no user interface for configuring the `<applicationDependencies>` element for IIS 7. For examples of how to configure the `<applicationDependencies>` element programmatically, see the [Code Samples](#006) section of this document.
 
 <a id="005"></a>
+
 ## Configuration
 
 ### Attributes
@@ -63,6 +68,7 @@ The following configuration sample illustrates the application dependencies in t
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following configuration sample illustrates the application dependencies in the `<applicationDependencies>` element for the Default Web Site. The custom application has a dependency on the &quot;MyCustomGroup&quot; ISAPI/CGI restriction group, and an additional dependency on the ASP ISAPI/CGI restriction group.

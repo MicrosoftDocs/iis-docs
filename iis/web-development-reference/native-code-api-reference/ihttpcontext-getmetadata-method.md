@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 9d5031b5-474a-1bbd-87c5-fb6743568419
 ---
 # IHttpContext::GetMetadata Method
+
 Retrieves the metadata container for the current request context.  
   
 ## Syntax  
@@ -15,15 +16,19 @@ virtual IMetadataInfo* GetMetadata(
 ```  
   
 ### Parameters  
+
  This method takes no parameters.  
   
 ## Return Value  
+
  A pointer to an [IMetadataInfo](../../web-development-reference/native-code-api-reference/imetadatainfo-interface.md) interface.  
   
 ## Remarks  
+
  The `GetMetadata` method retrieves an `IMetadataInfo` interface, which you use to retrieve information from an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration file, for the current context. You can then use the [GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method from the `IMetadataInfo` interface to retrieve the configuration path for the current request context.  
   
 ## Example  
+
  The following code example demonstrates how to create an HTTP module that uses the `GetMetadata` method to retrieve a pointer to an `IMetadataInfo` interface. The module completes the following steps:  
   
 1. Uses the [IMetadataInfo::GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method to retrieve the configuration path for the current request.  
@@ -54,4 +59,5 @@ virtual IMetadataInfo* GetMetadata(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpContext Interface](../../web-development-reference/native-code-api-reference/ihttpcontext-interface.md)

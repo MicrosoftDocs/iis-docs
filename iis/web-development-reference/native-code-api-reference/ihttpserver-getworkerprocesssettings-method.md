@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 37efa150-d336-b2d7-77f8-872fb5887f7f
 ---
 # IHttpServer::GetWorkerProcessSettings Method
+
 Retrieves an [IWpfSettings](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md) interface.  
   
 ## Syntax  
@@ -15,10 +16,12 @@ virtual HRESULT GetWorkerProcessSettings(
 ```  
   
 ### Parameters  
+
  `ppWorkerProcessSettings`  
  A dereferenced pointer to an [IWpfSettings](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md) interface.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -26,6 +29,7 @@ virtual HRESULT GetWorkerProcessSettings(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
+
  The `GetWorkerProcessSettings` method allows developers to retrieve configuration information about the worker process framework through an [IWpfSettings](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md) interface.  
   
 > [!NOTE]
@@ -34,6 +38,7 @@ virtual HRESULT GetWorkerProcessSettings(
  `IWpfSettings` exposes several methods that you can use to retrieve specific information about the worker process framework. For example, the [IWpfSettings::GetDwordProperty](../../web-development-reference/native-code-api-reference/iwpfsettings-getdwordproperty-method.md) method enables you to retrieve the [IDLE_TIMEOUT](../../web-development-reference/native-code-api-reference/wpf-settings-dword-enum-enumeration.md) or [PERIODIC_RESTART_TIME](../../web-development-reference/native-code-api-reference/wpf-settings-dword-enum-enumeration.md) settings.  
   
 ## Example  
+
  The following code example illustrates how to use the `GetWorkerProcessSettings` method to create an HTTP module that retrieves the version of the common language runtime (CLR) on the server. The module then returns that information to a Web client.  
   
  [!code-cpp[IHttpServerGetWorkerProcessSettings#1](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpServerGetWorkerProcessSettings/cpp/IHttpServerGetWorkerProcessSettings.cpp#1)]  
@@ -52,5 +57,6 @@ virtual HRESULT GetWorkerProcessSettings(
 |Header|Httpserv.h|  
   
 ## See Also  
+
  [IHttpServer Interface](../../web-development-reference/native-code-api-reference/ihttpserver-interface.md)   
  [IWpfSettings Interface](../../web-development-reference/native-code-api-reference/iwpfsettings-interface.md)

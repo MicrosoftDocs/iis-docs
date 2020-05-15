@@ -4,6 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1629405d-9d72-fb6f-4079-ba5354709c6f
 ---
 # IAppHostCollectionSchema::AddElementNames Property
+
 Gets a comma-delimited list of `add` element names that are valid for the collection.  
   
 ## Syntax  
@@ -17,10 +18,12 @@ HRESULT get_AddElementNames(
 ```  
   
 ### Parameters  
+
  `pbstrElementName`  
  A pointer to a `BSTR` that contains a comma-delimited list of element names in a collection.  
   
 ## Return Value  
+
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
@@ -37,5 +40,6 @@ HRESULT get_AddElementNames(
 |Header|Ahadmin.h|  
   
 ## See Also  
+
  [IAppHostCollectionSchema Interface](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-interface.md)   
  [Application Host Administration API Reference](../../web-development-reference/native-code-api-reference/application-host-administration-api-reference.md)
