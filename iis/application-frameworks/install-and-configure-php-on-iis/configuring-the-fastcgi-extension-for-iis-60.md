@@ -1,24 +1,19 @@
 ---
-title: "Configuring the FastCGI Extension for IIS 6.0 | Microsoft Docs"
+title: "Configuring the FastCGI Extension for IIS 6.0"
 author: ruslany
 description: "From its first version, Internet Information Services (IIS) has supported Common Gateway Interface (CGI), which is a standards-based protocol that allows inf..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2007
-ms.topic: article
 ms.assetid: 21d4abf1-ed80-4c74-886b-509e9186801f
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60
 msc.type: authoredcontent
 ---
-Configuring the FastCGI Extension for IIS 6.0
-====================
+# Configuring the FastCGI Extension for IIS 6.0
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 
-From its first version, Internet Information Services (IIS) has supported Common Gateway Interface (CGI), which is a [standards-based](http://www.w3.org/CGI/) protocol that allows information servers, such as IIS, to interface with external applications. FastCGI was introduced to address the scalability shortcomings of CGI.
+From its first version, Internet Information Services (IIS) has supported Common Gateway Interface (CGI), which is a [standards-based](https://www.w3.org/CGI/) protocol that allows information servers, such as IIS, to interface with external applications. FastCGI was introduced to address the scalability shortcomings of CGI.
 
 This article describes the shortcomings of earlier versions of CGI and defines the need for the FastCGI extension for IIS 6.0. This article also describes the configuration settings for the FastCGI extension.
 
@@ -68,13 +63,17 @@ To create a script map for the FastCGI handler on IIS 6.0 and IIS 5.1:
 4. Click the **Home Directory** tab.
 5. Click the **Configuration…** button.
 6. Click the **Add…** button.
-7. Browse to `%WINDIR%\system32\inetsrv\` and select fcgiext.dll as the executable file.  
+7. Browse to `%WINDIR%\system32\inetsrv\` and select fcgiext.dll as the executable file.
+
     > [!NOTE]
-    >  If you are using a 64-bit platform in WOW mode, you must use the fcgiext.dll file that is located in the `%WINDIR%\SysWOW64\inetsrv` path.
+    > If you are using a 64-bit platform in WOW mode, you must use the fcgiext.dll file that is located in the `%WINDIR%\SysWOW64\inetsrv` path.
+
 8. In the **Extension** text box, enter **.php** (or another extension that is specific to your FastCGI application).
 9. Under **Verbs**, in the **Limit to** text box, enter **GET,HEAD,POST**.
-10. Select the **Script engine** and **Verify that file exists** check boxes.  
+10. Select the **Script engine** and **Verify that file exists** check boxes.
+
     [![](configuring-the-fastcgi-extension-for-iis-60/_static/image3.png)](configuring-the-fastcgi-extension-for-iis-60/_static/image1.png)
+
 11. Click **OK**.
 
 ### FCGIEXT.ini
@@ -85,11 +84,9 @@ The main section of the fcgiext.ini file is the **[types]** section. This sectio
 
 The general syntax is as follows:
 
-
 [!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample1.cmd)]
 
-
-The above example consists of seven mappings that are mapped as follows:
+The previous example consists of seven mappings that are mapped as follows:
 
 - The file extension "abc" is associated with the FastCGI application named "Application 1".
 - The file extension "def" is associated with the FastCGI application named "Application 2", but only for requests that are made to the application /app1 under the site with the numeric identifier of "1701187997". Note that application-specific mappings override site, extension-specific mappings.
@@ -115,7 +112,6 @@ The FastCGI extension has a set of configuration settings that controls the beha
 
 > EnvironmentVars=Name:Value,Name:Value,…,Name:Value
 
-
 Example:
 
 [!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample2.cmd)]
@@ -137,19 +133,19 @@ Example:
 - *FlushNamedPipe* – There are some cases where a FastCGI application might not read all of the data from the named pipe that communicates with the Web server. If this happens, the Web server waits for a read that is not coming, causing a deadlock on that member of the process pool. This most often happens in the case where the FastCGI process abnormally exits. For instance, the process may have an internal notion of the maximum number of requests that it can handle that is less than the *InstanceMaxRequests* setting. Setting *FlushNamedPipe* to 1 will cause FastCGI to flush data that might lead to this condition. The default value is 0.
 - *UnhealthyOnQueueFull* – If the value is 1, the worker process that is hosting is flagged to IIS as unhealthy any time that the application's request queue is filled. IIS checks health whenever it does a ping to the worker process. If that worker process has been flagged as unhealthy, it (along with everything it is hosting) will be recycled. If not specified, the default value is 0.
 - *MonitorChangesTo* - This property specifies the path to a file, changes to which will trigger a recycle of FastCGI executables that are running for this FastCGI process pool. If the value of this property is blank, file change monitoring is disabled. The path to a file can be absolute or relative to the folder in which the FastCGI process (as specified by ExePath) is present. If not specified, the default value is blank.
-- *StderrMode* - This setting specifies how content that is received on **stderr** is handled. The allowed values are: 
+- *StderrMode* - This setting specifies how content that is received on **stderr** is handled. The allowed values are:
 
-    - '**ReturnStderrIn500**' - The FastCGI extension will set the response status code to 500 and send whatever was received on the stderr stream as a response. This is the same behavior as in the FastCGI Extension v1.0.
-    - '**ReturnGeneric500**' - The FastCGI extension will set the response status code to 500, but will return a generic 500 response.
-    - '**IgnoreAndReturn200**' - Data on **stderr** is completely ignored and the FastCGI extension will send what was received on **stdout** as a response, with the status code 200.
-    - **'TerminateProcess**' - The FastCGI extension will terminate the FastCGI process as soon as it returns anything on **stderr**. A generic response with the status code 500 will be sent to the HTTP client.
+  - '**ReturnStderrIn500**' - The FastCGI extension will set the response status code to 500 and send whatever was received on the stderr stream as a response. This is the same behavior as in the FastCGI Extension v1.0.
+  - '**ReturnGeneric500**' - The FastCGI extension will set the response status code to 500, but will return a generic 500 response.
+  - '**IgnoreAndReturn200**' - Data on **stderr** is completely ignored and the FastCGI extension will send what was received on **stdout** as a response, with the status code 200.
+  - **'TerminateProcess**' - The FastCGI extension will terminate the FastCGI process as soon as it returns anything on **stderr**. A generic response with the status code 500 will be sent to the HTTP client.
   
- If this setting is not specified, the default value is 'ReturnStderrIn500'.
+If this setting is not specified, the default value is 'ReturnStderrIn500'.
+
 - *MaxInstances* - This setting dictates the maximum number of FastCGI processes that can be launched for each application pool. This value is also equal to the maximum number of requests that can be processed simultaneously, since one process handles only one request at a time. This setting existed in the FastCGI Extension v1.0; however, with FastCGI Extension v1.5, the value can be set to 0, which will turn on automatic adjustment of the maximum number of instances. When the value is set to 0, the FastCGI extension will constantly analyze current CPU load and memory availability and, based on that, will increase or decrease the number of FastCGI process instances that are running at the same time.
 - *SignalBeforeTerminateSeconds* - This setting specifies the number of seconds to elapse after setting the shutdown event and before calling TerminateProcess, thereby forcibly terminating the process. The default value is 0, which means that the event is not set and the FastCGI processes can be terminated abruptly at any time. If this value is greater than 0, the FastCGI process will create an event that is inherited by the child process. The value of this event's handle is set as the environment variable \_FCGI\_SHUTDOWN\_EVENT\_. The name of the named pipe, which is used to communicate with the process, is stored in the environment variable \_FCGI\_X\_PIPE\_.
 - *ActivityTimeout* - This is the number of seconds that the FastCGI handler waits for I/O activity from a process before it is terminated. This setting existed in the FastCGI Extension v1.0, but in v1.5 its default value has been increased from 30 seconds to 70 seconds.
 
-<a id="utf8servervars"></a>
 ### Using UTF-8 Encoding for Server Variables
 
 By default, the FastCGI extension uses ASCII encoding when setting server variables that are used by PHP. When the requested URL contains non-ASCII characters, server variables that derive their values from the requested URL string may be set incorrectly. PHP applications that rely on those server variables may not work as a result.
@@ -172,7 +168,6 @@ To simplify and automate the configuration steps that are described in the previ
 
 To add a new FastCGI mapping, run the script fcgiconfig.js with the **–add** switch. When using this switch, you must provide the following parameters:
 
-
 - **-section:&lt;Section name&gt;.** This parameter specifies the name of the section that will be added to the fcgiext.ini file in the **[Types]** block.
 - **-extension:&lt;file extension&gt;**. This parameter specifies which file extensions are associated with this section.
 - **-path:&lt;file path to CGI executable&gt;**. This parameter specifies the absolute file path to the CGI executable that processes requests for files with the extension that is specified in the **–extension** parameter.
@@ -180,12 +175,11 @@ To add a new FastCGI mapping, run the script fcgiconfig.js with the **–add** s
 - **-application:"/w3svc/&lt;siteid&gt;/root/&lt;appname&gt;"**
 - **-norecycle**. By default, the configuration script recycles all application pools on IIS 6.0 for configuration changes to take effect. This optional parameter prevents this recycling.
 
-
 Examples:
 
 [!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample5.cmd)]
 
-The above example adds a script map for the .php extension and updates the fcgiext.ini file.
+The previous example adds a script map for the .php extension and updates the fcgiext.ini file.
 
 As an option, you can specify to which site the script map is applied:
 

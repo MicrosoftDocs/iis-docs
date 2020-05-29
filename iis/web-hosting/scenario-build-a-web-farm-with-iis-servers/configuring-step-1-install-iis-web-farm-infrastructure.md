@@ -1,26 +1,22 @@
 ---
-title: "Configuring Step 1: Install IIS Web Farm Infrastructure | Microsoft Docs"
+title: "Configuring Step 1: Install IIS Web Farm Infrastructure"
 author: rmcmurray
 description: "The first step in installing and configuring an IIS 8 web farm is to install IIS on the web servers and load balancing server. Then install Application Reque..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 6be6921e-6d3d-4b1a-94be-a0e6785ee576
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-1-install-iis-web-farm-infrastructure
 msc.type: authoredcontent
 ---
-Configuring Step 1: Install IIS Web Farm Infrastructure
-====================
-by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
+# Configuring Step 1: Install IIS Web Farm Infrastructure
+
+by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 The first step in installing and configuring an IIS 8 web farm is to install IIS on the web servers and load balancing server. Then install Application Request Routing (ARR) on the load balancing server. Finally, set up your website on one of the web servers. The goal of this step is to get the software you need installed on your servers. You configure your web farm later in the process.
 
 When you are done with these tasks, record your design decisions before going on to [Step 2: Configure IIS Web Farm Servers](configuring-step-2-configure-iis-web-farm-servers.md).
 
 <a id="11"></a>
+
 ## 1.1. Install IIS with Appropriate Modules
 
 Install IIS on all servers in your web farm except your back-end file servers (content server and certificate store server). The ARR server requires only a default install of IIS with **Centralized SLL Certificate Support**. All of the web servers require you to install IIS and all IIS modules that support the types of web applications you intend to run.
@@ -57,8 +53,10 @@ Install IIS on all servers in your web farm except your back-end file servers (c
 8. Click **Next**.
 9. On the **Web Server Role (IIS)** page, click **Next**.
 10. On the **Select Role Services** page, note the preselected role services that are installed by default, and then click **Next**.
+
     > [!NOTE]
     > You only have to install the IIS 8 default role services for a static-content web server.
+
 11. On the **Confirm Installation Selections** page, confirm your selections, and then click **Install**.
 12. On the **Installation Progress** page, confirm that your installation of the Web Server (IIS) role and required role services completed successfully, and then click **Close**.
 13. To verify that IIS installed successfully, type the following into a web browser:
@@ -68,6 +66,7 @@ Install IIS on all servers in your web farm except your back-end file servers (c
     You should see the default IIS Welcome page.
 
 <a id="12"></a>
+
 ## 1.2 Install ARR for Load Balancing
 
 Once you have a default installation of IIS on a server, you can use [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install the current version of Application Request Routing (ARR).
@@ -83,6 +82,7 @@ Once you have a default installation of IIS on a server, you can use [Web Platfo
 5. Click **Finish**, and then click **Exit**.
 
 <a id="13"></a>
+
 ## 1.3 Set up Your Website on One Web Server
 
 Before you proceed to the next step, set up and test your web application on one of your web servers. This will make configuring shared configuration and shared content much easier.
@@ -95,7 +95,7 @@ If you need help configuring your website on your web server, refer to one of th
 4. [Build a PHP Website on IIS](../../application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md)
 5. [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
 
-## See Also
+## See also
 
 - [Step 2: Configure IIS Web Farm Servers](configuring-step-2-configure-iis-web-farm-servers.md)
 - [Step 4: Plan SSL Central Certificate Store](planning-step-4-plan-ssl-central-certificate-store.md)

@@ -1,19 +1,14 @@
 ---
-title: "Shared Hosting Content Map | Microsoft Docs"
+title: "Shared Hosting Content Map"
 author: walterov
 description: "As a hoster, you know that managing a shared hosting environment is about offering customers an inexpensive place to host their sites and services, while at..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/08/2009
-ms.topic: article
 ms.assetid: 45ffafee-6469-4be7-a648-da15d8ece438
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/shared-hosting-content-map
 msc.type: authoredcontent
 ---
-Shared Hosting Content Map
-====================
+# Shared Hosting Content Map
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

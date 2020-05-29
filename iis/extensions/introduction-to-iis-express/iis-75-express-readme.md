@@ -1,19 +1,13 @@
 ---
-title: "IIS 7.5 Express Readme | Microsoft Docs"
-author: vaidy4github
-description: "Overview Installation Using IIS 7.5 Express Supported Platforms and Architectures Changes to IIS 7.5 Express Known Issues and Limitations For More Informatio..."
-ms.author: iiscontent
-manager: soshir
+title: "IIS 7.5 Express Readme"
+description: "Overview Installation Using IIS 7.5 Express Supported Platforms and Architectures Changes to IIS 7.5 Express Known Issues and Limitations."
 ms.date: 02/26/2012
-ms.topic: article
 ms.assetid: 0bf2cd97-4f8d-4b4e-b291-1d9256032a3b
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-75-express-readme
 msc.type: authoredcontent
 ---
-IIS 7.5 Express Readme
-====================
+# IIS 7.5 Express Readme
+
 by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
 
 <a id="Overview"></a>
@@ -57,7 +51,7 @@ Both 32-bit and 64-bit systems are supported, however only a 32-bit build of IIS
 
 ## Changes to IIS 7.5 Express
 
-The 7.5.1190 version of IIS 7.5 Express that was released in March, 2012, contains several bug fixes from the the original 7.5.1070 version of IIS 7.5 Express that was released in April, 2011, but no new features were introduced.
+The 7.5.1190 version of IIS 7.5 Express that was released in March, 2012, contains several bug fixes from the original 7.5.1070 version of IIS 7.5 Express that was released in April, 2011, but no new features were introduced.
 
 <a id="KnownIssues"></a>
 
@@ -98,10 +92,10 @@ On Windows Server 2003, when you launch a page or start IIS Express, IIS Express
 
 When you install IIS 7.5 Express from your system, the registry key for IIS 7.5 Express may be left under the `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\IISExpress` path.  
   
-**Workaround**: Remove the orphaned IIS 7.5 Express registry key: 
+**Workaround**: Remove the orphaned IIS 7.5 Express registry key:
 
 1. Open the Windows **Registry Editor**.
-2. Locate the following registry key: 
+2. Locate the following registry key:
 
     [!code-console[Main](iis-75-express-readme/samples/sample1.cmd)]
 3. Right-click the `7.5` registry key and click **Delete**.

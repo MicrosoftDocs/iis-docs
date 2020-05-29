@@ -1,19 +1,14 @@
 ---
-title: "Configuring Step 1: Install IIS and ASP.NET Modules | Microsoft Docs"
+title: "Configuring Step 1: Install IIS and ASP.NET Modules"
 author: rmcmurray
 description: ""
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: a7b92024-7976-4485-9140-11ded05a0829
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules
 msc.type: authoredcontent
 ---
-Configuring Step 1: Install IIS and ASP.NET Modules
-====================
+# Configuring Step 1: Install IIS and ASP.NET Modules
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 The first step in building an ASP.NET website on IIS 8 is to install IIS along with the ASP.NET modules. Then add your ASP.NET application files to IIS.

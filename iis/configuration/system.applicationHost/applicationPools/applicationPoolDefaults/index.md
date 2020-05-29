@@ -1,19 +1,14 @@
 ---
-title: "Application Pool Defaults &lt;applicationPoolDefaults&gt; | Microsoft Docs"
+title: "Application Pool Defaults &lt;applicationPoolDefaults&gt;"
 author: rick-anderson
 description: "Overview The &lt;applicationPoolDefaults&gt; collection of the &lt;applicationPools&gt; collection configures default values for all application pools on a W..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e99c3706-b442-473d-88cf-c272065872e6
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/applicationpooldefaults
 msc.type: config
 ---
-Application Pool Defaults &lt;applicationPoolDefaults&gt;
-====================
+# Application Pool Defaults &lt;applicationPoolDefaults&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -78,11 +73,11 @@ The `<applicationPools>` collection is included in the default installation of I
 | `CLRConfigFile` | Optional string value.<br><br>Specifies the .NET configuration file for the application pool.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>There is no default value. |
 | `enable32BitAppOnWin64` | Optional Boolean attribute.<br><br>When **true**, enables a 32-bit application to run on a computer that runs a 64-bit version of Windows.<br><br>The default value is `false`. |
 | `managedPipelineMode` | Optional enum attribute.<br><br>Specifies the request-processing mode that is used to process requests for managed content.<br><br>The **managedPipelineMode** attribute can be one of the following possible values; the default is `Integrated`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Classic</code></th> <td>Specifies that the application pool use separate IIS and ASP.NET request-processing pipelines, which works with ASP.NET 1.1 applications, and ASP.NET 2.0 applications that do not work in Integrated mode.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>Integrated</code></th> <td>Specifies that the application pool use the integrated IIS and ASP.NET request-processing pipeline, which works with only ASP.NET 2.0 or later applications.<br><br>The numeric value is <code>0</code>.</td></tr></tbody></table> |
-| `managedRuntimeLoader` | Optional string attribute.<br><br>Specifies the managed loader to use for pre-loading the the application pool.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The default value is **webengine4.dll**. |
+| `managedRuntimeLoader` | Optional string attribute.<br><br>Specifies the managed loader to use for pre-loading the application pool.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The default value is **webengine4.dll**. |
 | `managedRuntimeVersion` | Optional string attribute.<br><br>Specifies the .NET Framework version to be used by the application pool.<br><br>The **managedRuntimeVersion** attribute can be one of the following possible values; the default value is `""`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>v1.1</code></th> <td>Specifies that the application pool use the .NET Framework version 1.1.</td></tr> <tr> <th><code>v2.0</code></th> <td>Specifies that the application pool use the .NET Framework version 2.0.</td></tr> <tr> <th><code>v4.0</code></th> <td>Specifies that the application pool use the .NET Framework version 4.0.</td></tr></tbody></table> |
 | `name` | Required string attribute.<br><br>Specifies a unique name for an application pool on the server. |
 | `queueLength` | Optional uint attribute.<br><br>Indicates to HTTP.sys how many requests to queue for an application pool before rejecting future requests.<br><br>When the value set for this property is exceeded, IIS rejects subsequent requests with a 503 error. If the **loadBalancerCapabilities** setting is **true**, the connection is closed instead of rejecting requests with a 503. For more information about **loadBalancerCapabilities**, see [Failure Settings for an Application Pool](../add/failure.md).<br><br>The default value is `1000`. |
-| `startMode` | Optional enum value.<br><br>Specifies the startup type for the application pool.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The **startMode** attribute can be one of the following possible values; the default value is `OnDemand`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>AlwaysRunning</code></th> <td>Specifies that the Windows Process Activation Service (WAS) will always start the application pool. This behavior allows an application to load the operating environment before any serving any HTTP requests, which reduces the start-up processing for initial HTTP requests for the application.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>OnDemand</code></th> <td>Specifies that the Windows Process Activation Service (WAS) will start the application pool when an HTTP request is made for an application that is hosted in the application pool. This behavior resembles the WAS behavior in previous versions of IIS.<br><br>The numeric value is <code>0</code>.</td></tr></tbody></table> |
+| `startMode` | Optional enum value.<br><br>Specifies the startup type for the application pool.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The **startMode** attribute can be one of the following possible values; the default value is `OnDemand`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>AlwaysRunning</code></th> <td>Specifies that the Windows Process Activation Service (WAS) will always start the application pool. This behavior allows an application to load the operating environment before serving any HTTP requests, which reduces the start-up processing for initial HTTP requests for the application.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>OnDemand</code></th> <td>Specifies that the Windows Process Activation Service (WAS) will start the application pool when an HTTP request is made for an application that is hosted in the application pool. This behavior resembles the WAS behavior in previous versions of IIS.<br><br>The numeric value is <code>0</code>.</td></tr></tbody></table> |
 
 ### Child Elements
 
@@ -112,7 +107,7 @@ The following examples configure the application pools to start automatically, t
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

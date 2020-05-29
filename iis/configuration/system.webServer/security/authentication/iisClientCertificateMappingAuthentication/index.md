@@ -1,19 +1,14 @@
 ---
-title: "IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt; | Microsoft Docs"
+title: "IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;iisClientCertificateMappingAuthentication&gt; element of the &lt;authentication&gt; element specifies the settings for Client Certificate Ma..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 18416b9b-f600-4475-8532-54b748f315c9
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication
 msc.type: config
 ---
-IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt;
-====================
+# IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -102,7 +97,7 @@ The `<iisClientCertificateMappingAuthentication>` element of the `<authenticatio
 | --- | --- |
 | `defaultLogonDomain` | Optional String attribute.<br><br>Specifies the default domain that the server uses to authenticate users. |
 | `enabled` | Optional Boolean attribute. <br><br>Specifies whether Client Certificate Mapping authentication using IIS is enabled. <br><br>The default is `false`. |
-| `logonMethod` | Optional enum attribute. <br><br>The **logonMethod** attribute can be one of the following possible values. (For more information on these values, see [LogonUser](https://msdn.microsoft.com/en-us/library/aa378184.aspx) on the MSDN site.) <br><br>The default is `ClearText`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Batch</code></th> <td>This logon type is intended for batch servers, where processes may be executing on behalf of a user without their direct intervention.<br><br>The numeric value is <code>1</code>. </td></tr> <tr> <th><code>ClearText</code></th> <td>This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client.<br><br>The numeric value is <code>3</code>. </td></tr> <tr> <th><code>Interactive</code></th> <td>This logon type is intended for users who will be using the computer interactively.<br><br>The numeric value is <code>0</code>. </td></tr> <tr> <th><code>Network</code></th> <td>This logon type is intended for high performance servers to authenticate plaintext passwords. Credentials are not cached for this logon type.<br><br>The numeric value is <code>2</code>. </td></tr></tbody></table> |
+| `logonMethod` | Optional enum attribute. <br><br>The **logonMethod** attribute can be one of the following possible values. (For more information on these values, see [LogonUser](https://msdn.microsoft.com/library/aa378184.aspx) on the MSDN site.) <br><br>The default is `ClearText`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Batch</code></th> <td>This logon type is intended for batch servers, where processes may be executing on behalf of a user without their direct intervention.<br><br>The numeric value is <code>1</code>. </td></tr> <tr> <th><code>ClearText</code></th> <td>This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client.<br><br>The numeric value is <code>3</code>. </td></tr> <tr> <th><code>Interactive</code></th> <td>This logon type is intended for users who will be using the computer interactively.<br><br>The numeric value is <code>0</code>. </td></tr> <tr> <th><code>Network</code></th> <td>This logon type is intended for high performance servers to authenticate plaintext passwords. Credentials are not cached for this logon type.<br><br>The numeric value is <code>2</code>. </td></tr></tbody></table> |
 | `manyToOneCertificateMappingsEnabled` | Optional Boolean attribute. <br><br>Specifies whether many-to-one mapping is enabled <br><br>The default value is `true`. |
 | `oneToOneCertificateMappingsEnabled` | Optional Boolean attribute. <br><br>Specifies whether one-to-one mapping is enabled <br><br>The default value is `true`. |
 
@@ -120,7 +115,6 @@ The following configuration sample performs the following actions for the Defaul
 - Enables IIS Client Certificate Mapping authentication using many-to-one certificate mapping.
 - Creates a many-to-one certificate mapping rule for a user account based on the organization field in the subject of the client certificate matching Contoso.
 - Configures the site to require SSL and to negotiate client certificates.
-
 
 [!code-xml[Main](index/samples/sample1.xml)]
 
@@ -175,7 +169,7 @@ The following code samples perform the following actions for the Default Web Sit
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 
@@ -201,7 +195,7 @@ The following code samples enable IIS Client Certificate Mapping authentication 
 > [!NOTE]
 > Because of characters in certificate strings that cannot be parsed by AppCmd.exe, you should not use AppCmd.exe to configure IIS one-to-one certificate mappings.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample8.cs)]
 

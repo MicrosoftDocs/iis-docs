@@ -1,26 +1,20 @@
 ---
-title: "Running IIS Express from the Command Line | Microsoft Docs"
-author: vaidy4github
+title: "Running IIS Express from the Command Line"
 description: "IIS Express is a simple and self-contained version of IIS that is optimized for developers. This walkthrough describes how to run a site using the IIS Expres..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 3bb32e3c-de23-4963-b4d3-9a43e7047981
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/running-iis-express-from-the-command-line
 msc.type: authoredcontent
 ---
-Running IIS Express from the Command Line
-====================
-by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
+# Running IIS Express from the Command Line
+
+by Vaidy Gopalakrishnan
 
 ## Overview
 
 IIS Express is a simple and self-contained version of IIS that is optimized for developers. This walkthrough describes how to run a site using the IIS Express command line.
 
-### Prerequisites
+## Prerequisites
 
 You must have the following installed to complete the procedures in this walkthrough:
 
@@ -33,27 +27,29 @@ For information about how to download and install IIS Express, see [IIS Express 
 
 1. Open a command prompt.  
   
- You do not need Administrator user rights to run the commands in this walkthrough. However, you must have Administrator user rights if you want to run IIS Express on ports numbered 1024 or less.
+    You do not need Administrator user rights to run the commands in this walkthrough. However, you must have Administrator user rights if you want to run IIS Express on ports numbered 1024 or less.
 2. Run the following command to navigate to the IIS Express installation folder:
 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample1.cmd)]
 
- or if you are using a 64-bit OS, run the following command:
+    or if you are using a 64-bit OS, run the following command:
 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample2.cmd)]
 3. Run the following command to view the IIS Express usage string:
 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample3.cmd)]
-4. Run your site using one of the following: 
+4. Run your site using one of the following:
 
     - Use /config to run a site from a configuration file.  
   
- See "Running your site from a configuration file" for more information.
+        For more information, see [Running your site from a configuration file](#running-your-site-from-a-configuration-file).
+
     - Use /path to run a site from the application folder.  
   
- See "Running your site from the application folder" for more information.
+         For more information, see [Running your site from the application folder](#running-your-site-from-the-application-folder).
 
-    Note: The /path option and the /config option cannot be combined.
+         > [!NOTE]
+         > The /path option and the /config option cannot be combined.
 5. Once your site is running, you can use the IIS Express system tray to manage it. For more information, see [Use the Windows System Tray to Manage Websites and Applications](using-the-windows-system-tray-to-manage-websites-and-applications.md). Alternatively, you can disable the system tray by running the following option:
 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample4.cmd)]
@@ -64,7 +60,7 @@ IIS Express and IIS use the ApplicationHost.config file, which specifies global 
 
 You can use the following commands:
 
-- To run the website *Website1* in the default configuration file, run: 
+- To run the website *Website1* in the default configuration file, run:
 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample5.cmd)]
 - To run the first website in the default configuration file, run:
@@ -81,8 +77,8 @@ Note: The /config option specifies the full path of the configuration file. You 
 
 ### Running your site from the application folder
 
-You can also use the /path option to run a site directly from a folder. This option works for any type of application, including static HTML, ASP.NET, PHP, and WCF. By default, IIS Express will run the site on http://localhost:8080/. For a managed website, such as ASP.NET, IIS Express will use .NET 4.0. You can use the /port and /clr options to override these default values.
+You can also use the /path option to run a site directly from a folder. This option works for any type of application, including static HTML, ASP.NET, PHP, and WCF. By default, IIS Express will run the site on `http://localhost:8080/`. For a managed website, such as ASP.NET, IIS Express will use .NET 4.0. You can use the /port and /clr options to override these default values.
 
-For example, the following command runs the specified application, "myapp," on http://localhost:9090/ by using .NET 2.0:
+For example, the following command runs the specified application, "myapp," on `http://localhost:9090/` by using .NET 2.0:
 
 [!code-console[Main](running-iis-express-from-the-command-line/samples/sample9.cmd)]

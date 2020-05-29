@@ -1,19 +1,14 @@
 ---
-title: "How to Add Tracing to IIS 7.0 Managed Modules | Microsoft Docs"
+title: "How to Add Tracing to IIS 7.0 Managed Modules"
 author: rick-anderson
 description: "IIS 7.0 and above features the ability to plug-in and use custom developed managed modules to accomplish many different tasks and use those modules for all s..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/24/2007
-ms.topic: article
 ms.assetid: 58e4be73-af7c-4c18-be73-959b33ecef7f
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/how-to-add-tracing-to-iis-managed-modules
 msc.type: authoredcontent
 ---
-How to Add Tracing to IIS 7.0 Managed Modules
-====================
+# How to Add Tracing to IIS 7.0 Managed Modules
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
@@ -67,7 +62,6 @@ Make a backup of the configuration before executing the tasks in this article. R
 
 1. Delete everything in the `c:\inetpub\wwwroot` folder.
 2. From the Administrator command prompt started above, paste the attached code into a file in inetpub\wwwroot called *test.htm*:
-
 
 [!code-html[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample2.html)]
 

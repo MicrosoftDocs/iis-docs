@@ -1,19 +1,14 @@
 ---
-title: "Adding Management Authentication Credentials &lt;add&gt; | Microsoft Docs"
+title: "Adding Management Authentication Credentials &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;credentials&gt; element adds a user account to the collection of IIS Manager users for Internet Information Servi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3ee471c7-9217-4ede-9a7d-cf56d4d99524
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authentication/credentials/add
 msc.type: config
 ---
-Adding Management Authentication Credentials &lt;add&gt;
-====================
+# Adding Management Authentication Credentials &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -161,7 +156,7 @@ The following code samples add an IIS Manager user account named ContosoUser to 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authentication>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

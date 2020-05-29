@@ -1,19 +1,14 @@
 ---
-title: "Binding &lt;binding&gt; | Microsoft Docs"
+title: "Binding &lt;binding&gt;"
 author: rick-anderson
 description: "Overview The &lt;binding&gt; element of the &lt;bindings&gt; element allows you to configure the information required for requests to communicate with a Web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f8c97dd0-4d70-4990-b407-a4bb7315e1c5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/bindings/binding
 msc.type: config
 ---
-Binding &lt;binding&gt;
-====================
+# Binding &lt;binding&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -25,7 +20,7 @@ The `<binding>` element contains two attributes to configure the binding informa
 
 You can configure the collection of bindings for a site using IIS Manager by selecting the site and using the **Bindings...** or **Advanced Settings...** links in the **Actions** pane or by clicking **Edit Bindings...** on the site's shortcut menu.
 
-IIS 8.0 or later enables you to provide security for Web sites by using the certificates in a centralized certificate store on Windows Server 2012. For more information, see [IIS 8.0 Centralized SSL Certificate Support: SSL Scalability and Manageability](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability).
+IIS 8.0 or later enables you to provide security for Web sites by using the certificates in a centralized certificate store on Windows Server 2012. For more information, see [IIS 8.0 Centralized SSL Certificate Support: SSL Scalability and Manageability](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability).
 
 The **binding** element enables you to specify the type of binding used for Secure Sockets Layer (SSL) certificates.
 
@@ -106,7 +101,7 @@ You can add `<binding>` elements within the `<bindings>` element for each site i
 | --- | --- |
 | `bindingInformation` | Required string attribute.<br><br>Specifies information to communicate with a site. For example, a Web site binding includes the IP address (or unspecified IP addresses), the port number, and an optional host header used to communicate with the site. |
 | `protocol` | Required string attribute.<br><br>Specifies the protocol for communicating with a site. |
-| `sslFlags` | Optional uint attribute.<br><br>Specifies the type of binding used for Secure Sockets Layer (SSL) certificates.<br><ul> <li>A value of "0" specifies that the secure connection be made using an IP/Port combination. Only one certificate can be bound to a combination of IP address and the port.</li> <li>A value of "1" specifies that the secure connection be made using the port number and the host name obtained by using Server Name Indication (SNI).</li> <li>A value of "2" specifies that the secure connection be made using the centralized SSL certificate store without requiring a Server Name Indicator.</li> <li>A value of "3" specifies that the secure connection be made using the centralized SSL certificate store while requiring Server Name Indicator</li></ul> Centralized SSL certificate support enables you to create a centralized certificate store that can contain multiple certificate files. You can name the certificate files to correspond to the host names that they contain. This enables you to create a binding that only requires a port, rather than an IP/port or a host name/port combination. When a request comes in, IIS matches the port, determines the host name from the request, and searches the centralized certificate store for a certificate file with a matching name. It uses that certificate. <br><br> With a Server Name Indicator (SNI), the host name is exchanged as part of the SSL handshake. SNI is enabled in the Add Site Binding dialog box when you add a binding with a type of HTTPS. This is especially useful for SSL connections that host multiple servers on a single network address. For more information, see [IIS 8.0 Server Name Indication (SNI): SSL Scalability](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability). <br><br>The sslFlags attribute is only set when the protocol is **https**. The default value is `0`. |
+| `sslFlags` | Optional uint attribute.<br><br>Specifies the type of binding used for Secure Sockets Layer (SSL) certificates.<br><ul> <li>A value of "0" specifies that the secure connection be made using an IP/Port combination. Only one certificate can be bound to a combination of IP address and the port.</li> <li>A value of "1" specifies that the secure connection be made using the port number and the host name obtained by using Server Name Indication (SNI).</li> <li>A value of "2" specifies that the secure connection be made using the centralized SSL certificate store without requiring a Server Name Indicator.</li> <li>A value of "3" specifies that the secure connection be made using the centralized SSL certificate store while requiring Server Name Indicator</li></ul> Centralized SSL certificate support enables you to create a centralized certificate store that can contain multiple certificate files. You can name the certificate files to correspond to the host names that they contain. This enables you to create a binding that only requires a port, rather than an IP/port or a host name/port combination. When a request comes in, IIS matches the port, determines the host name from the request, and searches the centralized certificate store for a certificate file with a matching name. It uses that certificate. <br><br> With a Server Name Indicator (SNI), the host name is exchanged as part of the SSL handshake. SNI is enabled in the Add Site Binding dialog box when you add a binding with a type of HTTPS. This is especially useful for SSL connections that host multiple servers on a single network address. For more information, see [IIS 8.0 Server Name Indication (SNI): SSL Scalability](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability). <br><br>The sslFlags attribute is only set when the protocol is **https**. The default value is `0`. |
 
 ### Child Elements
 
@@ -134,7 +129,7 @@ Or you can use:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](binding/samples/sample4.cs)]
 

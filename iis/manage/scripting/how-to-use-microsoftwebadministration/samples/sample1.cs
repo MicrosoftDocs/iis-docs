@@ -9,7 +9,7 @@ namespace MSWebAdmin_Application
         static void Main(string[] args)
         {
             ServerManager serverManager = new ServerManager();
-            Site mySite = serverManager.Sites.Add("Racing Cars Site", "d:\\inetpub\\wwwroot\racing",  8080);
+            Site mySite = serverManager.Sites.Add("Racing Cars Site", "d:\\inetpub\\wwwroot\\racing",  8080);
             mySite.ServerAutoStart = true;
             serverManager.CommitChanges();
          }

@@ -1,19 +1,14 @@
 ---
-title: "Achieving High Availability and Scalability - ARR and NLB | Microsoft Docs"
+title: "Achieving High Availability and Scalability - ARR and NLB"
 author: rick-anderson
 description: "Achieving High Availability and Scalability: Microsoft Application Request Routing (ARR) for IIS 7.0 and above and Network Load Balancing (NLB). Microsoft Co..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/13/2008
-ms.topic: article
 ms.assetid: 68b31d24-2e79-44ca-9a24-8e0dcb554b22
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb
 msc.type: authoredcontent
 ---
-Achieving High Availability and Scalability - ARR and NLB
-====================
+# Achieving High Availability and Scalability - ARR and NLB
+
 by Won Yoo
 
 **Achieving High Availability and Scalability:**  
@@ -55,8 +50,6 @@ Above are just some of the examples. For a complete list of HTTP headers and ser
 Because NLB makes the routing decisions at layer 3, application specific information, such as HTTP headers and server variables, can not be used to provide application level based routing. At the same time, ARR does not provide fault tolerant deployment features for itself and must rely on other complementary technologies and solutions to achieve high availability for the ARR tier. NLB operates at a different level on the network stack and is enabled on the same servers as where ARR is deployed:
 
 [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image5.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image4.jpg)
-
-## 
 
 ## Scenario 1: HTTP-based routing and load balancing
 
@@ -331,15 +324,12 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
     - Install NLB feature: [https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt](https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt)
 - NLB and SSL: 
 
-    - [http://technet2.microsoft.com/windowsserver/en/library/b8afa015-543d-4129-ac34-f64d45f52c751033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver/en/library/b8afa015-543d-4129-ac34-f64d45f52c751033.mspx?mfr=true)
-    - [http://technet2.microsoft.com/windowsserver2008/en/library/2f5d0612-75f9-4883-bf52-d11c7cda907f1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/2f5d0612-75f9-4883-bf52-d11c7cda907f1033.mspx?mfr=true)
-    - [http://technet2.microsoft.com/WindowsServer/en/library/1fa923cd-2d0b-4270-8433-07d58b0f5d4b1033.mspx?mfr=true](http://technet2.microsoft.com/WindowsServer/en/library/1fa923cd-2d0b-4270-8433-07d58b0f5d4b1033.mspx?mfr=true)
+    - 
     - [https://support.microsoft.com/?id=313299](https://support.microsoft.com/?id=313299)
 - Other NLB links: 
 
-    - [https://technet.microsoft.com/en-us/library/cc782694.aspx](https://technet.microsoft.com/en-us/library/cc782694.aspx)
-    - [https://technet.microsoft.com/en-us/library/cc778263.aspx](https://technet.microsoft.com/en-us/library/cc778263.aspx)
+    - [https://technet.microsoft.com/library/cc782694.aspx](https://technet.microsoft.com/library/cc782694.aspx)
+    - [https://technet.microsoft.com/library/cc778263.aspx](https://technet.microsoft.com/library/cc778263.aspx)
     - [https://support.microsoft.com/kb/323437](https://support.microsoft.com/kb/323437)
-    - [http://technet2.microsoft.com/windowsserver2008/en/library/cf7a20f6-fd77-44be-8db1-6590e3b711bb1033.mspx](http://technet2.microsoft.com/windowsserver2008/en/library/cf7a20f6-fd77-44be-8db1-6590e3b711bb1033.mspx)
     - [https://support.microsoft.com/kb/890159/en-us](https://support.microsoft.com/kb/890159/en-us)
     - [https://blogs.msdn.com/clustering](https://blogs.msdn.com/clustering)

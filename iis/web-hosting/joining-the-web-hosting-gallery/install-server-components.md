@@ -1,19 +1,14 @@
 ---
-title: "Install Server Components | Microsoft Docs"
+title: "Install Server Components"
 author: simtan
 description: "Introduction This article will walk you through installing the required server components to be WebMatrix compatible and fulfill the Spotlight requirements f..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/03/2010
-ms.topic: article
 ms.assetid: cf0a1d31-1926-4e35-8b34-544c414905f8
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/install-server-components
 msc.type: authoredcontent
 ---
-Install Server Components
-====================
+# Install Server Components
+
 by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
@@ -44,13 +39,11 @@ If you have **WebPI 3.0** installed, the following link will **automatically lau
 
 > [Install Spotlight Components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=WHP_Recommended "Install Components using Web PI") (you will be able to review the list of products before installation begins)
 
-
 (This list of components completely fulfills the **Spotlight requirements** from the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/home).)
 
 Note that many of the web applications that can be published by WebMatrix have **PHP/MySQL** components as requirements. To ensure you are able to support those applications, you can use this alternative link to install **everything above plus PHP/MySQL** related components:
 
 > [Install Spotlight Components plus PHP/MySQL related components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=IIS7;Tracing;NETFramework35;NETFramework4;ASPNET;MVC;WDeploy;FTPServer;ManagementService;CGI;URLRewrite2;SMO;PHP52;WinCache52;MySQLConnector;SQLDriverPHP52IIS "Install Components including PHP/MySQL components using WebPI")
-
 
 After WebPI launches from the links above, you'll just need to click the "Install" button to review the list of components and proceed with installation.
 
@@ -89,12 +82,11 @@ Here is the full list of which components are installed by those links, so you c
     - A handful of applications in the App Gallery depend on this installed centrally
 - [Optional]  
   
- Note that you can also optionally install [ASP.NET MVC3](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3) and [ASP.NET Web Pages](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=Plan9), which gives you the ability to host applications written in the new "Razor" syntax of ASP.NET. However, note that the binaries required for these kinds of applications are **automatically published** by WebMatrix. That is, each end user who publishes applications of this type will automatically end up with the required binaries in a */bin/* folder within their site root directory, so it is not really necessary to install them centrally.  
+  Note that you can also optionally install [ASP.NET MVC3](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3) and [ASP.NET Web Pages](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=Plan9), which gives you the ability to host applications written in the new "Razor" syntax of ASP.NET. However, note that the binaries required for these kinds of applications are **automatically published** by WebMatrix. That is, each end user who publishes applications of this type will automatically end up with the required binaries in a */bin/* folder within their site root directory, so it is not really necessary to install them centrally.  
   
- In fact, we actually recommend that you do **not** install anything except **MVC 1**.  
+  In fact, we actually recommend that you do **not** install anything except **MVC 1**.  
   
- Also, note that this ASP.NET Web Pages is not a final release of the product. If you choose to install ASP.NET Web Pages, you will need to re-install it when future versions are released.
-
+  Also, note that this ASP.NET Web Pages is not a final release of the product. If you choose to install ASP.NET Web Pages, you will need to re-install it when future versions are released.
 
 #### IIS Modules
 
@@ -142,9 +134,9 @@ Here is the full list of which components are installed by those links, so you c
 
 - [Required] Microsoft SQL Server 2008  
   
- WebPI supports installing [Microsoft SQL Server 2008 Express edition](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=SqlExpress), but we do not recommend this product in shared hosting environments. (You should use the full version instead.)
+  WebPI supports installing [Microsoft SQL Server 2008 Express edition](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=SqlExpress), but we do not recommend this product in shared hosting environments. (You should use the full version instead.)
 - [Optional] [PHP Driver for SQL Server](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=SQLDriverPHP)  
- We highly recommended installing this component on your **database server** if you are supporting PHP.
+  We highly recommended installing this component on your **database server** if you are supporting PHP.
 
 ### MySQL
 

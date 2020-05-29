@@ -1,0 +1,1545 @@
+- name: IIS Web Deployment Tool
+  href: iis-web-deployment-tool.md
+  items:
+  - name: Microsoft.Web.Deployment Namespace
+    href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment
+    items:
+    - name: DependencyCheckTraceEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.dependencychecktraceeventargs
+      items:
+      - name: 'DependencyCheckTraceEventArgs Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.dependencychecktraceeventargs.-ctor#microsoft_web_deployment_dependencychecktraceeventargs__ctor_system_diagnostics_tracelevel_system_string_
+      - name: DependencyCheckTraceEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.dependencychecktraceeventargs#methods
+      - name: DependencyCheckTraceEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.dependencychecktraceeventargs#properties
+        items:
+        - name: 'Message Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.dependencychecktraceeventargs.message#microsoft_web_deployment_dependencychecktraceeventargs_message
+    - name: DeploymentAddAttributeContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddattributecontext
+      items:
+      - name: DeploymentAddAttributeContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddattributecontext#methods
+        items:
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddattributecontext.add#microsoft_web_deployment_deploymentaddattributecontext_add_microsoft_web_deployment_deploymentobjectattributedata_
+        - name: 'SetObjectException Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddattributecontext.setobjectexception#microsoft_web_deployment_deploymentaddattributecontext_setobjectexception_microsoft_web_deployment_deploymentexception_
+    - name: DeploymentAddLinkContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddlinkcontext
+      items:
+      - name: DeploymentAddLinkContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddlinkcontext#methods
+        items:
+        - name: 'CreateProvider Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddlinkcontext.createprovider#overloads
+          items:
+          - name: CreateProvider Method (DeploymentProviderOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddlinkcontext.createprovider#microsoft_web_deployment_deploymentaddlinkcontext_createprovider_microsoft_web_deployment_deploymentprovideroptions_
+          - name: CreateProvider Method (String, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddlinkcontext.createprovider#microsoft_web_deployment_deploymentaddlinkcontext_createprovider_system_string_system_string_
+          - name: CreateProvider Method (DeploymentProviderOptions, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddlinkcontext.createprovider#microsoft_web_deployment_deploymentaddlinkcontext_createprovider_microsoft_web_deployment_deploymentprovideroptions_system_string_
+          - name: CreateProvider Method (String, String, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentaddlinkcontext.createprovider#microsoft_web_deployment_deploymentaddlinkcontext_createprovider_system_string_system_string_system_string_
+    - name: DeploymentAgent Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagent
+      items:
+      - name: DeploymentAgent Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagent#methods
+        items:
+        - name: 'BeginProcessRequest Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagent.beginprocessrequest#microsoft_web_deployment_deploymentagent_beginprocessrequest_microsoft_web_deployment_deploymentagentworkerrequest_system_asynccallback_system_object_
+    - name: DeploymentAgentHandler Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler
+      items:
+      - name: 'DeploymentAgentHandler Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler.-ctor#microsoft_web_deployment_deploymentagenthandler__ctor
+      - name: DeploymentAgentHandler Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler#methods
+        items:
+        - name: 'BeginProcessRequest Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler.beginprocessrequest#microsoft_web_deployment_deploymentagenthandler_beginprocessrequest_system_web_httpcontext_system_asynccallback_system_object_
+        - name: 'EndProcessRequest Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler.endprocessrequest#microsoft_web_deployment_deploymentagenthandler_endprocessrequest_system_iasyncresult_
+        - name: 'ProcessRequest Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler.processrequest#microsoft_web_deployment_deploymentagenthandler_processrequest_system_web_httpcontext_
+      - name: DeploymentAgentHandler Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler#properties
+        items:
+        - name: 'IsReusable Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagenthandler.isreusable#microsoft_web_deployment_deploymentagenthandler_isreusable
+    - name: DeploymentAgentWorkerRequest Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest
+      items:
+      - name: 'DeploymentAgentWorkerRequest Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.-ctor#microsoft_web_deployment_deploymentagentworkerrequest__ctor
+      - name: DeploymentAgentWorkerRequest Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest#methods
+        items:
+        - name: 'GetRequestHeader Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.getrequestheader#microsoft_web_deployment_deploymentagentworkerrequest_getrequestheader_system_string_
+        - name: 'GetRequestStream Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.getrequeststream#microsoft_web_deployment_deploymentagentworkerrequest_getrequeststream
+        - name: 'SetResponseHeader Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.setresponseheader#microsoft_web_deployment_deploymentagentworkerrequest_setresponseheader_system_string_system_string_
+        - name: 'SetResponseStatus Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.setresponsestatus#microsoft_web_deployment_deploymentagentworkerrequest_setresponsestatus_system_int32_system_string_
+      - name: DeploymentAgentWorkerRequest Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest#properties
+        items:
+        - name: 'IsUserAnAdministrator Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.isuseranadministrator#microsoft_web_deployment_deploymentagentworkerrequest_isuseranadministrator
+        - name: 'MaximumSupportedVersion Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.maximumsupportedversion#microsoft_web_deployment_deploymentagentworkerrequest_maximumsupportedversion
+        - name: 'Method Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.method#microsoft_web_deployment_deploymentagentworkerrequest_method
+        - name: 'MinimumSupportedVersion Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.minimumsupportedversion#microsoft_web_deployment_deploymentagentworkerrequest_minimumsupportedversion
+        - name: 'QueryString Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.querystring#microsoft_web_deployment_deploymentagentworkerrequest_querystring
+        - name: 'RequestId Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.requestid#microsoft_web_deployment_deploymentagentworkerrequest_requestid
+        - name: 'ResponseStream Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.responsestream#microsoft_web_deployment_deploymentagentworkerrequest_responsestream
+        - name: 'SpecialCaseClientErrors Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.specialcaseclienterrors#microsoft_web_deployment_deploymentagentworkerrequest_specialcaseclienterrors
+        - name: 'TraceTimestamp Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentagentworkerrequest.tracetimestamp#microsoft_web_deployment_deploymentagentworkerrequest_tracetimestamp
+    - name: DeploymentAppRecycleMode Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentapprecyclemode
+    - name: DeploymentBaseContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext
+      items:
+      - name: DeploymentBaseContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext#methods
+        items:
+        - name: 'GetState Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.getstate#microsoft_web_deployment_deploymentbasecontext_getstate_system_string_
+        - name: 'RaiseEvent Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.raiseevent#microsoft_web_deployment_deploymentbasecontext_raiseevent_microsoft_web_deployment_deploymenttraceeventargs_
+        - name: 'SetState Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.setstate#microsoft_web_deployment_deploymentbasecontext_setstate_system_string_system_object_
+      - name: DeploymentBaseContext Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext#properties
+        items:
+        - name: 'AuthenticationType Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.authenticationtype#microsoft_web_deployment_deploymentbasecontext_authenticationtype
+        - name: 'CommitContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.commitcontext#microsoft_web_deployment_deploymentbasecontext_commitcontext
+        - name: 'ComputerName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.computername#microsoft_web_deployment_deploymentbasecontext_computername
+        - name: 'EncryptPassword Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.encryptpassword#microsoft_web_deployment_deploymentbasecontext_encryptpassword
+        - name: 'IncludeAcls Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.includeacls#microsoft_web_deployment_deploymentbasecontext_includeacls
+        - name: 'IsDestinationObject Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.isdestinationobject#microsoft_web_deployment_deploymentbasecontext_isdestinationobject
+        - name: 'Password Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.password#microsoft_web_deployment_deploymentbasecontext_password
+        - name: 'PrefetchPayload Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.prefetchpayload#microsoft_web_deployment_deploymentbasecontext_prefetchpayload
+        - name: 'RetryAttempts Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.retryattempts#microsoft_web_deployment_deploymentbasecontext_retryattempts
+        - name: 'RetryInterval Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.retryinterval#microsoft_web_deployment_deploymentbasecontext_retryinterval
+        - name: 'UserName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.username#microsoft_web_deployment_deploymentbasecontext_username
+        - name: 'WebServerConfiguration Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbasecontext.webserverconfiguration#microsoft_web_deployment_deploymentbasecontext_webserverconfiguration
+    - name: DeploymentBaseOptions Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions
+      items:
+      - name: 'DeploymentBaseOptions Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions#constructors
+        items:
+        - name: 'DeploymentBaseOptions Constructor '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.-ctor#microsoft_web_deployment_deploymentbaseoptions__ctor
+        - name: DeploymentBaseOptions Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.-ctor#microsoft_web_deployment_deploymentbaseoptions__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentBaseOptions Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions#methods
+        items:
+        - name: 'AddDefaultProviderSetting Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.adddefaultprovidersetting#microsoft_web_deployment_deploymentbaseoptions_adddefaultprovidersetting_system_string_system_string_system_object_
+        - name: 'GetObjectData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.getobjectdata#microsoft_web_deployment_deploymentbaseoptions_getobjectdata_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentBaseOptions Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions#properties
+        items:
+        - name: 'AuthenticationType Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.authenticationtype#microsoft_web_deployment_deploymentbaseoptions_authenticationtype
+        - name: 'ComputerName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.computername#microsoft_web_deployment_deploymentbaseoptions_computername
+        - name: 'DefaultProviderSettings Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.defaultprovidersettings#microsoft_web_deployment_deploymentbaseoptions_defaultprovidersettings
+        - name: 'EncryptPassword Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.encryptpassword#microsoft_web_deployment_deploymentbaseoptions_encryptpassword
+        - name: 'IncludeAcls Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.includeacls#microsoft_web_deployment_deploymentbaseoptions_includeacls
+        - name: 'LinkExtensions Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.linkextensions#microsoft_web_deployment_deploymentbaseoptions_linkextensions
+        - name: 'Password Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.password#microsoft_web_deployment_deploymentbaseoptions_password
+        - name: 'PrefetchPayload Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.prefetchpayload#microsoft_web_deployment_deploymentbaseoptions_prefetchpayload
+        - name: 'RetryAttempts Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.retryattempts#microsoft_web_deployment_deploymentbaseoptions_retryattempts
+        - name: 'RetryInterval Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.retryinterval#microsoft_web_deployment_deploymentbaseoptions_retryinterval
+        - name: 'SkipDirectives Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.skipdirectives#microsoft_web_deployment_deploymentbaseoptions_skipdirectives
+        - name: 'TempAgent Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.tempagent#microsoft_web_deployment_deploymentbaseoptions_tempagent
+        - name: 'TraceLevel Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.tracelevel#microsoft_web_deployment_deploymentbaseoptions_tracelevel
+        - name: 'UserName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.username#microsoft_web_deployment_deploymentbaseoptions_username
+        - name: 'WebServerConfiguration Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.webserverconfiguration#microsoft_web_deployment_deploymentbaseoptions_webserverconfiguration
+      - name: DeploymentBaseOptions Events
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions#events
+        items:
+        - name: Trace Event
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentbaseoptions.trace
+    - name: DeploymentCancelCallback Delegate
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcancelcallback
+    - name: DeploymentCanceledException Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception
+      items:
+      - name: 'DeploymentCanceledException Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception#constructors
+        items:
+        - name: 'DeploymentCanceledException Constructor '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception.-ctor#microsoft_web_deployment_deploymentcanceledexception__ctor
+        - name: DeploymentCanceledException Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception.-ctor#microsoft_web_deployment_deploymentcanceledexception__ctor_system_string_
+        - name: DeploymentCanceledException Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception.-ctor#microsoft_web_deployment_deploymentcanceledexception__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+        - name: DeploymentCanceledException Constructor (String, Exception)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception.-ctor#microsoft_web_deployment_deploymentcanceledexception__ctor_system_string_system_exception_
+      - name: DeploymentCanceledException Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception#methods
+      - name: DeploymentCanceledException Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcanceledexception#properties
+    - name: DeploymentChangeSummary Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary
+      items:
+      - name: 'DeploymentChangeSummary Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.-ctor#microsoft_web_deployment_deploymentchangesummary__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentChangeSummary Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary#methods
+        items:
+        - name: 'CreateNavigator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.createnavigator#microsoft_web_deployment_deploymentchangesummary_createnavigator
+        - name: 'GetObjectData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.getobjectdata#microsoft_web_deployment_deploymentchangesummary_getobjectdata_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentChangeSummary Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary#properties
+        items:
+        - name: 'BytesCopied Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.bytescopied#microsoft_web_deployment_deploymentchangesummary_bytescopied
+        - name: 'Errors Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.errors#microsoft_web_deployment_deploymentchangesummary_errors
+        - name: 'ObjectsAdded Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.objectsadded#microsoft_web_deployment_deploymentchangesummary_objectsadded
+        - name: 'ObjectsDeleted Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.objectsdeleted#microsoft_web_deployment_deploymentchangesummary_objectsdeleted
+        - name: 'ObjectsUpdated Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.objectsupdated#microsoft_web_deployment_deploymentchangesummary_objectsupdated
+        - name: 'ParameterChanges Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.parameterchanges#microsoft_web_deployment_deploymentchangesummary_parameterchanges
+        - name: 'TotalChanges Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.totalchanges#microsoft_web_deployment_deploymentchangesummary_totalchanges
+        - name: 'Warnings Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentchangesummary.warnings#microsoft_web_deployment_deploymentchangesummary_warnings
+    - name: DeploymentCommitContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcommitcontext
+      items:
+      - name: DeploymentCommitContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcommitcontext#methods
+        items:
+        - name: 'AddCommitItem Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentcommitcontext.addcommititem#microsoft_web_deployment_deploymentcommitcontext_addcommititem_microsoft_web_deployment_ideploymentcommititem_
+    - name: DeploymentEncryptionException Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception
+      items:
+      - name: 'DeploymentEncryptionException Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception#constructors
+        items:
+        - name: 'DeploymentEncryptionException Constructor '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception.-ctor#microsoft_web_deployment_deploymentencryptionexception__ctor
+        - name: DeploymentEncryptionException Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception.-ctor#microsoft_web_deployment_deploymentencryptionexception__ctor_system_string_
+        - name: DeploymentEncryptionException Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception.-ctor#microsoft_web_deployment_deploymentencryptionexception__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+        - name: DeploymentEncryptionException Constructor (String, Exception)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception.-ctor#microsoft_web_deployment_deploymentencryptionexception__ctor_system_string_system_exception_
+        - name: DeploymentEncryptionException Constructor (String, Object[])
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception.-ctor#microsoft_web_deployment_deploymentencryptionexception__ctor_system_string_system_object___
+        - name: DeploymentEncryptionException Constructor (Exception, String, Object[])
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception.-ctor#microsoft_web_deployment_deploymentencryptionexception__ctor_system_exception_system_string_system_object___
+      - name: DeploymentEncryptionException Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception#methods
+      - name: DeploymentEncryptionException Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentencryptionexception#properties
+    - name: DeploymentFatalException Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception
+      items:
+      - name: 'DeploymentFatalException Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception#constructors
+        items:
+        - name: 'DeploymentFatalException Constructor '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception.-ctor#microsoft_web_deployment_deploymentfatalexception__ctor
+        - name: DeploymentFatalException Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception.-ctor#microsoft_web_deployment_deploymentfatalexception__ctor_system_string_
+        - name: DeploymentFatalException Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception.-ctor#microsoft_web_deployment_deploymentfatalexception__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+        - name: DeploymentFatalException Constructor (String, Exception)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception.-ctor#microsoft_web_deployment_deploymentfatalexception__ctor_system_string_system_exception_
+        - name: DeploymentFatalException Constructor (String, Object[])
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception.-ctor#microsoft_web_deployment_deploymentfatalexception__ctor_system_string_system_object___
+        - name: DeploymentFatalException Constructor (Exception, String, Object[])
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception.-ctor#microsoft_web_deployment_deploymentfatalexception__ctor_system_exception_system_string_system_object___
+      - name: DeploymentFatalException Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception#methods
+      - name: DeploymentFatalException Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfatalexception#properties
+    - name: DeploymentFileSerializationEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfileserializationeventargs
+      items:
+      - name: 'DeploymentFileSerializationEventArgs Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfileserializationeventargs.-ctor#microsoft_web_deployment_deploymentfileserializationeventargs__ctor_system_int32_system_int32_system_string_
+      - name: DeploymentFileSerializationEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfileserializationeventargs#methods
+      - name: DeploymentFileSerializationEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfileserializationeventargs#properties
+        items:
+        - name: 'CurrentFile Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfileserializationeventargs.currentfile#microsoft_web_deployment_deploymentfileserializationeventargs_currentfile
+        - name: 'FileCount Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfileserializationeventargs.filecount#microsoft_web_deployment_deploymentfileserializationeventargs_filecount
+        - name: 'FileName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentfileserializationeventargs.filename#microsoft_web_deployment_deploymentfileserializationeventargs_filename
+    - name: DeploymentLinkExtension Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension
+      items:
+      - name: 'DeploymentLinkExtension Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension.-ctor#microsoft_web_deployment_deploymentlinkextension__ctor_system_boolean_
+      - name: DeploymentLinkExtension Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension#methods
+        items:
+        - name: 'GetChildProviders Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension.getchildproviders#microsoft_web_deployment_deploymentlinkextension_getchildproviders_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentaddlinkcontext_
+      - name: DeploymentLinkExtension Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension.description#microsoft_web_deployment_deploymentlinkextension_description
+        - name: 'Enabled Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension.enabled#microsoft_web_deployment_deploymentlinkextension_enabled
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension.exampleordetail#microsoft_web_deployment_deploymentlinkextension_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension.friendlyname#microsoft_web_deployment_deploymentlinkextension_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextension.name#microsoft_web_deployment_deploymentlinkextension_name
+    - name: DeploymentLinkExtensionAttribute Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextensionattribute
+      items:
+      - name: 'DeploymentLinkExtensionAttribute Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextensionattribute.-ctor#microsoft_web_deployment_deploymentlinkextensionattribute__ctor
+      - name: DeploymentLinkExtensionAttribute Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextensionattribute#methods
+      - name: DeploymentLinkExtensionAttribute Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentlinkextensionattribute#properties
+    - name: DeploymentManager Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager
+      items:
+      - name: DeploymentManager Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager#methods
+        items:
+        - name: 'CreateObject Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.createobject#overloads
+          items:
+          - name: CreateObject Method (String, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.createobject#microsoft_web_deployment_deploymentmanager_createobject_system_string_system_string_
+          - name: CreateObject Method (DeploymentProviderOptions, DeploymentBaseContext)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.createobject#microsoft_web_deployment_deploymentmanager_createobject_microsoft_web_deployment_deploymentprovideroptions_microsoft_web_deployment_deploymentbasecontext_
+          - name: CreateObject Method (DeploymentProviderOptions, DeploymentBaseOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.createobject#microsoft_web_deployment_deploymentmanager_createobject_microsoft_web_deployment_deploymentprovideroptions_microsoft_web_deployment_deploymentbaseoptions_
+          - name: CreateObject Method (DeploymentWellKnownProvider, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.createobject#microsoft_web_deployment_deploymentmanager_createobject_microsoft_web_deployment_deploymentwellknownprovider_system_string_
+          - name: CreateObject Method (String, String, DeploymentBaseOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.createobject#microsoft_web_deployment_deploymentmanager_createobject_system_string_system_string_microsoft_web_deployment_deploymentbaseoptions_
+          - name: CreateObject Method (DeploymentWellKnownProvider, String, DeploymentBaseOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.createobject#microsoft_web_deployment_deploymentmanager_createobject_microsoft_web_deployment_deploymentwellknownprovider_system_string_microsoft_web_deployment_deploymentbaseoptions_
+        - name: 'GetMethods Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.getmethods#microsoft_web_deployment_deploymentmanager_getmethods
+      - name: DeploymentManager Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager#properties
+        items:
+        - name: 'AvailableProviderFactories Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.availableproviderfactories#microsoft_web_deployment_deploymentmanager_availableproviderfactories
+        - name: 'ProviderFactories Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanager.providerfactories#microsoft_web_deployment_deploymentmanager_providerfactories
+    - name: DeploymentManifestFileSystemContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestfilesystemcontext
+      items:
+      - name: DeploymentManifestFileSystemContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestfilesystemcontext#methods
+      - name: DeploymentManifestFileSystemContext Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestfilesystemcontext#properties
+        items:
+        - name: 'Attributes Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestfilesystemcontext.attributes#microsoft_web_deployment_deploymentmanifestfilesystemcontext_attributes
+        - name: 'LastWriteTime Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestfilesystemcontext.lastwritetime#microsoft_web_deployment_deploymentmanifestfilesystemcontext_lastwritetime
+        - name: 'SecurityDescriptor Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestfilesystemcontext.securitydescriptor#microsoft_web_deployment_deploymentmanifestfilesystemcontext_securitydescriptor
+        - name: 'Size Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestfilesystemcontext.size#microsoft_web_deployment_deploymentmanifestfilesystemcontext_size
+    - name: DeploymentManifestObject Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject
+      items:
+      - name: 'DeploymentManifestObject Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject#constructors
+        items:
+        - name: DeploymentManifestObject Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.-ctor#microsoft_web_deployment_deploymentmanifestobject__ctor_system_string_
+        - name: DeploymentManifestObject Constructor (DeploymentProviderContext, String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.-ctor#microsoft_web_deployment_deploymentmanifestobject__ctor_microsoft_web_deployment_deploymentprovidercontext_system_string_
+      - name: DeploymentManifestObject Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject#methods
+      - name: DeploymentManifestObject Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject#properties
+        items:
+        - name: 'Attributes Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.attributes#microsoft_web_deployment_deploymentmanifestobject_attributes
+        - name: 'ChildObjects Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.childobjects#microsoft_web_deployment_deploymentmanifestobject_childobjects
+        - name: 'KeyAttribute Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.keyattribute#microsoft_web_deployment_deploymentmanifestobject_keyattribute
+        - name: 'Kind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.kind#microsoft_web_deployment_deploymentmanifestobject_kind
+        - name: 'LinkName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.linkname#microsoft_web_deployment_deploymentmanifestobject_linkname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.name#microsoft_web_deployment_deploymentmanifestobject_name
+        - name: 'ObjectResolver Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.objectresolver#microsoft_web_deployment_deploymentmanifestobject_objectresolver
+        - name: 'ProviderContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.providercontext#microsoft_web_deployment_deploymentmanifestobject_providercontext
+        - name: 'StreamRelativeFilePath Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobject.streamrelativefilepath#microsoft_web_deployment_deploymentmanifestobject_streamrelativefilepath
+    - name: DeploymentManifestObjectProviderContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobjectprovidercontext
+      items:
+      - name: DeploymentManifestObjectProviderContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobjectprovidercontext#methods
+        items:
+        - name: 'CreateManifestObject Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobjectprovidercontext.createmanifestobject#microsoft_web_deployment_deploymentmanifestobjectprovidercontext_createmanifestobject_microsoft_web_deployment_deploymentprovideroptions_
+        - name: 'GetFileSystemContext Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmanifestobjectprovidercontext.getfilesystemcontext#microsoft_web_deployment_deploymentmanifestobjectprovidercontext_getfilesystemcontext_system_string_
+    - name: DeploymentMethod Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod
+      items:
+      - name: 'DeploymentMethod Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod.-ctor#microsoft_web_deployment_deploymentmethod__ctor
+      - name: DeploymentMethod Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod#methods
+        items:
+        - name: 'Invoke Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod.invoke#microsoft_web_deployment_deploymentmethod_invoke_microsoft_web_deployment_deploymentobject_system_object___
+      - name: DeploymentMethod Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod.description#microsoft_web_deployment_deploymentmethod_description
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod.exampleordetail#microsoft_web_deployment_deploymentmethod_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod.friendlyname#microsoft_web_deployment_deploymentmethod_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethod.name#microsoft_web_deployment_deploymentmethod_name
+    - name: DeploymentMethodAttribute Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethodattribute
+      items:
+      - name: 'DeploymentMethodAttribute Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethodattribute.-ctor#microsoft_web_deployment_deploymentmethodattribute__ctor
+      - name: DeploymentMethodAttribute Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethodattribute#methods
+      - name: DeploymentMethodAttribute Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentmethodattribute#properties
+    - name: DeploymentObject Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject
+      items:
+      - name: DeploymentObject Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject#methods
+        items:
+        - name: 'Dispose Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.dispose#microsoft_web_deployment_deploymentobject_dispose
+        - name: 'GetChildren Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.getchildren#microsoft_web_deployment_deploymentobject_getchildren
+        - name: 'GetStream Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.getstream#microsoft_web_deployment_deploymentobject_getstream
+        - name: 'Invoke Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.invoke#microsoft_web_deployment_deploymentobject_invoke_system_string_system_object___
+        - name: 'SyncTo Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.syncto#overloads
+          items:
+          - name: SyncTo Method (DeploymentBaseOptions, DeploymentSyncOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.syncto#microsoft_web_deployment_deploymentobject_syncto_microsoft_web_deployment_deploymentbaseoptions_microsoft_web_deployment_deploymentsyncoptions_
+          - name: SyncTo Method (DeploymentProviderOptions, DeploymentBaseOptions, DeploymentSyncOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.syncto#microsoft_web_deployment_deploymentobject_syncto_microsoft_web_deployment_deploymentprovideroptions_microsoft_web_deployment_deploymentbaseoptions_microsoft_web_deployment_deploymentsyncoptions_
+          - name: SyncTo Method (String, String, DeploymentBaseOptions, DeploymentSyncOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.syncto#microsoft_web_deployment_deploymentobject_syncto_system_string_system_string_microsoft_web_deployment_deploymentbaseoptions_microsoft_web_deployment_deploymentsyncoptions_
+          - name: SyncTo Method (DeploymentWellKnownProvider, String, DeploymentBaseOptions, DeploymentSyncOptions)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.syncto#microsoft_web_deployment_deploymentobject_syncto_microsoft_web_deployment_deploymentwellknownprovider_system_string_microsoft_web_deployment_deploymentbaseoptions_microsoft_web_deployment_deploymentsyncoptions_
+      - name: DeploymentObject Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject#properties
+        items:
+        - name: 'AbsolutePath Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.absolutepath#microsoft_web_deployment_deploymentobject_absolutepath
+        - name: 'Attributes Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.attributes#microsoft_web_deployment_deploymentobject_attributes
+        - name: 'BaseContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.basecontext#microsoft_web_deployment_deploymentobject_basecontext
+        - name: 'IsValid Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.isvalid#microsoft_web_deployment_deploymentobject_isvalid
+        - name: 'KeyAttribute Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.keyattribute#microsoft_web_deployment_deploymentobject_keyattribute
+        - name: 'Kind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.kind#microsoft_web_deployment_deploymentobject_kind
+        - name: 'LinkName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.linkname#microsoft_web_deployment_deploymentobject_linkname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.name#microsoft_web_deployment_deploymentobject_name
+        - name: 'Parent Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.parent#microsoft_web_deployment_deploymentobject_parent
+        - name: 'ProviderContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.providercontext#microsoft_web_deployment_deploymentobject_providercontext
+        - name: 'StreamRelativeFilePath Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.streamrelativefilepath#microsoft_web_deployment_deploymentobject_streamrelativefilepath
+        - name: 'Summary Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.summary#microsoft_web_deployment_deploymentobject_summary
+        - name: 'SyncParameters Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobject.syncparameters#microsoft_web_deployment_deploymentobject_syncparameters
+    - name: DeploymentObjectAttribute Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute
+      items:
+      - name: DeploymentObjectAttribute Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute#methods
+        items:
+        - name: 'CompareTo Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.compareto#microsoft_web_deployment_deploymentobjectattribute_compareto_microsoft_web_deployment_deploymentobjectattribute_
+        - name: 'Equals Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.equals#microsoft_web_deployment_deploymentobjectattribute_equals_system_object_
+        - name: 'GetHashCode Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.gethashcode#microsoft_web_deployment_deploymentobjectattribute_gethashcode
+        - name: 'GetValue(T) Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.getvalue#microsoft_web_deployment_deploymentobjectattribute_getvalue__1
+      - name: DeploymentObjectAttribute Operators
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute#operators
+        items:
+        - name: 'Equality Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.op_equality
+        - name: 'GreaterThan Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.op_greaterthan
+        - name: 'Inequality Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.op_inequality
+        - name: 'LessThan Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.op_lessthan
+      - name: DeploymentObjectAttribute Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.description#microsoft_web_deployment_deploymentobjectattribute_description
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.exampleordetail#microsoft_web_deployment_deploymentobjectattribute_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.friendlyname#microsoft_web_deployment_deploymentobjectattribute_friendlyname
+        - name: 'Kind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.kind#microsoft_web_deployment_deploymentobjectattribute_kind
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.name#microsoft_web_deployment_deploymentobjectattribute_name
+        - name: 'Value Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattribute.value#microsoft_web_deployment_deploymentobjectattribute_value
+    - name: DeploymentObjectAttributeCollection Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection
+      items:
+      - name: DeploymentObjectAttributeCollection Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection#methods
+        items:
+        - name: 'IEnumerable.GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection.system-collections-ienumerable-getenumerator#microsoft_web_deployment_deploymentobjectattributecollection_system_collections_ienumerable_getenumerator
+        - name: 'GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection.getenumerator#microsoft_web_deployment_deploymentobjectattributecollection_getenumerator
+        - name: 'TryGetValue Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection.trygetvalue#microsoft_web_deployment_deploymentobjectattributecollection_trygetvalue_system_string_microsoft_web_deployment_deploymentobjectattribute__
+      - name: DeploymentObjectAttributeCollection Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection#properties
+        items:
+        - name: 'Count Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection.count#microsoft_web_deployment_deploymentobjectattributecollection_count
+        - name: 'Item Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection.item#overloads
+          items:
+          - name: Item Property (Int32)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection.item#microsoft_web_deployment_deploymentobjectattributecollection_item_system_int32_
+          - name: Item Property (String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributecollection.item#microsoft_web_deployment_deploymentobjectattributecollection_item_system_string_
+    - name: DeploymentObjectAttributeData Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata
+      items:
+      - name: 'DeploymentObjectAttributeData Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata#constructors
+        items:
+        - name: DeploymentObjectAttributeData Constructor (String, DeploymentObjectAttributeValue)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_microsoft_web_deployment_deploymentobjectattributevalue_
+        - name: DeploymentObjectAttributeData Constructor (String, Boolean)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_system_boolean_
+        - name: DeploymentObjectAttributeData Constructor (String, DateTime)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_system_datetime_
+        - name: DeploymentObjectAttributeData Constructor (String, Int64)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_system_int64_
+        - name: DeploymentObjectAttributeData Constructor (String, String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_system_string_
+        - name: DeploymentObjectAttributeData Constructor (String, DeploymentObjectAttributeValue, DeploymentObjectAttributeKind)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_microsoft_web_deployment_deploymentobjectattributevalue_microsoft_web_deployment_deploymentobjectattributekind_
+        - name: DeploymentObjectAttributeData Constructor (String, Byte[], DeploymentObjectAttributeKind)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_system_byte___microsoft_web_deployment_deploymentobjectattributekind_
+        - name: DeploymentObjectAttributeData Constructor (String, String, DeploymentObjectAttributeKind)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.-ctor#microsoft_web_deployment_deploymentobjectattributedata__ctor_system_string_system_string_microsoft_web_deployment_deploymentobjectattributekind_
+      - name: DeploymentObjectAttributeData Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata#methods
+        items:
+        - name: 'CompareTo Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.compareto#microsoft_web_deployment_deploymentobjectattributedata_compareto_microsoft_web_deployment_deploymentobjectattributedata_
+        - name: 'Equals Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.equals#microsoft_web_deployment_deploymentobjectattributedata_equals_system_object_
+        - name: 'GetHashCode Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.gethashcode#microsoft_web_deployment_deploymentobjectattributedata_gethashcode
+        - name: 'GetValue(T) Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.getvalue#microsoft_web_deployment_deploymentobjectattributedata_getvalue__1
+      - name: DeploymentObjectAttributeData Operators
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata#operators
+        items:
+        - name: 'Equality Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.op_equality
+        - name: 'GreaterThan Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.op_greaterthan
+        - name: 'Inequality Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.op_inequality
+        - name: 'LessThan Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.op_lessthan
+      - name: DeploymentObjectAttributeData Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata#properties
+        items:
+        - name: 'Kind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.kind#microsoft_web_deployment_deploymentobjectattributedata_kind
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.name#microsoft_web_deployment_deploymentobjectattributedata_name
+        - name: 'SerializedValue Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.serializedvalue#microsoft_web_deployment_deploymentobjectattributedata_serializedvalue
+        - name: 'Value Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributedata.value#microsoft_web_deployment_deploymentobjectattributedata_value
+    - name: DeploymentObjectAttributeKind Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributekind
+    - name: DeploymentObjectAttributeValue Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue
+      items:
+      - name: 'DeploymentObjectAttributeValue Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.-ctor#microsoft_web_deployment_deploymentobjectattributevalue__ctor
+      - name: DeploymentObjectAttributeValue Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue#methods
+        items:
+        - name: 'CompareTo Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.compareto#microsoft_web_deployment_deploymentobjectattributevalue_compareto_microsoft_web_deployment_deploymentobjectattributevalue_
+        - name: 'CreateInstance Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.createinstance#overloads
+          items:
+          - name: CreateInstance Method (Byte[])
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.createinstance#microsoft_web_deployment_deploymentobjectattributevalue_createinstance_system_byte___
+          - name: CreateInstance Method (String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.createinstance#microsoft_web_deployment_deploymentobjectattributevalue_createinstance_system_string_
+        - name: 'Equals Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.equals#microsoft_web_deployment_deploymentobjectattributevalue_equals_system_object_
+        - name: 'GetHashCode Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.gethashcode#microsoft_web_deployment_deploymentobjectattributevalue_gethashcode
+        - name: 'TryGetValue(T) Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.trygetvalue#microsoft_web_deployment_deploymentobjectattributevalue_trygetvalue__1___0__
+      - name: DeploymentObjectAttributeValue Operators
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue#operators
+        items:
+        - name: 'Equality Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.op_equality
+        - name: 'GreaterThan Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.op_greaterthan
+        - name: 'Inequality Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.op_inequality
+        - name: 'LessThan Operator '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.op_lessthan
+      - name: DeploymentObjectAttributeValue Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue#properties
+        items:
+        - name: 'CultureInvariantValue Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.cultureinvariantvalue#microsoft_web_deployment_deploymentobjectattributevalue_cultureinvariantvalue
+        - name: 'SerializedValue Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.serializedvalue#microsoft_web_deployment_deploymentobjectattributevalue_serializedvalue
+        - name: 'Value Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectattributevalue.value#microsoft_web_deployment_deploymentobjectattributevalue_value
+    - name: DeploymentObjectChangedEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs
+      items:
+      - name: DeploymentObjectChangedEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs#methods
+        items:
+        - name: 'CollectEventData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs.collecteventdata#microsoft_web_deployment_deploymentobjectchangedeventargs_collecteventdata
+      - name: DeploymentObjectChangedEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs#properties
+        items:
+        - name: 'Message Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs.message#microsoft_web_deployment_deploymentobjectchangedeventargs_message
+        - name: 'OperationType Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs.operationtype#microsoft_web_deployment_deploymentobjectchangedeventargs_operationtype
+        - name: 'Path Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs.path#microsoft_web_deployment_deploymentobjectchangedeventargs_path
+        - name: 'ProviderName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectchangedeventargs.providername#microsoft_web_deployment_deploymentobjectchangedeventargs_providername
+    - name: DeploymentObjectKind Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectkind
+    - name: DeploymentObjectProvider Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider
+      items:
+      - name: 'DeploymentObjectProvider Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider#constructors
+        items:
+        - name: DeploymentObjectProvider Constructor (DeploymentBaseContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.-ctor#microsoft_web_deployment_deploymentobjectprovider__ctor_microsoft_web_deployment_deploymentbasecontext_
+        - name: DeploymentObjectProvider Constructor (DeploymentProviderContext, DeploymentBaseContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.-ctor#microsoft_web_deployment_deploymentobjectprovider__ctor_microsoft_web_deployment_deploymentprovidercontext_microsoft_web_deployment_deploymentbasecontext_
+      - name: DeploymentObjectProvider Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider#methods
+        items:
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.add#microsoft_web_deployment_deploymentobjectprovider_add_microsoft_web_deployment_deploymentobject_system_boolean_
+        - name: 'AddChild Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.addchild#microsoft_web_deployment_deploymentobjectprovider_addchild_microsoft_web_deployment_deploymentobject_system_int32_system_boolean_
+        - name: 'CreateKeyAttributeData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.createkeyattributedata#microsoft_web_deployment_deploymentobjectprovider_createkeyattributedata
+        - name: 'CreateProvider Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.createprovider#overloads
+          items:
+          - name: CreateProvider Method (DeploymentObjectProvider, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.createprovider#microsoft_web_deployment_deploymentobjectprovider_createprovider_microsoft_web_deployment_deploymentobjectprovider_system_string_
+          - name: CreateProvider Method (DeploymentProviderOptions, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.createprovider#microsoft_web_deployment_deploymentobjectprovider_createprovider_microsoft_web_deployment_deploymentprovideroptions_system_string_
+          - name: CreateProvider Method (String, String, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.createprovider#microsoft_web_deployment_deploymentobjectprovider_createprovider_system_string_system_string_system_string_
+        - name: 'Delete Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.delete#microsoft_web_deployment_deploymentobjectprovider_delete_system_boolean_
+        - name: 'Dispose Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.dispose#overloads
+          items:
+          - name: 'Dispose Method '
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.dispose#microsoft_web_deployment_deploymentobjectprovider_dispose
+          - name: Dispose Method (Boolean)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.dispose#microsoft_web_deployment_deploymentobjectprovider_dispose_system_boolean_
+        - name: 'Finalize Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.finalize#microsoft_web_deployment_deploymentobjectprovider_finalize
+        - name: 'GetAttributes Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.getattributes#microsoft_web_deployment_deploymentobjectprovider_getattributes_microsoft_web_deployment_deploymentaddattributecontext_
+        - name: 'GetChildProviders Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.getchildproviders#microsoft_web_deployment_deploymentobjectprovider_getchildproviders
+        - name: 'GetObjectResolver Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.getobjectresolver#microsoft_web_deployment_deploymentobjectprovider_getobjectresolver
+        - name: 'GetStream Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.getstream#microsoft_web_deployment_deploymentobjectprovider_getstream
+        - name: 'PreSync Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.presync#microsoft_web_deployment_deploymentobjectprovider_presync_microsoft_web_deployment_deploymentobject_system_boolean_
+        - name: 'SetProviderContext Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.setprovidercontext#microsoft_web_deployment_deploymentobjectprovider_setprovidercontext_microsoft_web_deployment_deploymentprovidercontext_
+        - name: 'Update Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.update#microsoft_web_deployment_deploymentobjectprovider_update_microsoft_web_deployment_deploymentobject_system_boolean_
+      - name: DeploymentObjectProvider Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider#properties
+        items:
+        - name: 'BaseContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.basecontext#microsoft_web_deployment_deploymentobjectprovider_basecontext
+        - name: 'Checksum Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.checksum#microsoft_web_deployment_deploymentobjectprovider_checksum
+        - name: 'CommitContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.commitcontext#microsoft_web_deployment_deploymentobjectprovider_commitcontext
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.name#microsoft_web_deployment_deploymentobjectprovider_name
+        - name: 'ObjectKind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.objectkind#microsoft_web_deployment_deploymentobjectprovider_objectkind
+        - name: 'ProviderContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectprovider.providercontext#microsoft_web_deployment_deploymentobjectprovider_providercontext
+    - name: DeploymentObjectResolver Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver
+      items:
+      - name: 'DeploymentObjectResolver Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver.-ctor#microsoft_web_deployment_deploymentobjectresolver__ctor
+      - name: DeploymentObjectResolver Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver#methods
+        items:
+        - name: 'GetAbsolutePath Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver.getabsolutepath#microsoft_web_deployment_deploymentobjectresolver_getabsolutepath_microsoft_web_deployment_deploymentobject_
+        - name: 'GetAttributeDescription Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver.getattributedescription#microsoft_web_deployment_deploymentobjectresolver_getattributedescription_system_string_system_string_
+        - name: 'GetAttributeFriendlyName Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver.getattributefriendlyname#microsoft_web_deployment_deploymentobjectresolver_getattributefriendlyname_system_string_system_string_
+        - name: 'GetFactoryInfo Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver.getfactoryinfo#microsoft_web_deployment_deploymentobjectresolver_getfactoryinfo_microsoft_web_deployment_deploymentobject_system_string__system_string__
+        - name: 'GetStreamRelativeFilePath Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver.getstreamrelativefilepath#microsoft_web_deployment_deploymentobjectresolver_getstreamrelativefilepath_microsoft_web_deployment_deploymentobject_
+        - name: 'GetSummary Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentobjectresolver.getsummary#microsoft_web_deployment_deploymentobjectresolver_getsummary_microsoft_web_deployment_deploymentobject_
+    - name: DeploymentOperationKind Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentoperationkind
+    - name: DeploymentPackageSerializationEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentpackageserializationeventargs
+      items:
+      - name: 'DeploymentPackageSerializationEventArgs Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentpackageserializationeventargs.-ctor#microsoft_web_deployment_deploymentpackageserializationeventargs__ctor_system_int32_system_int32_system_string_
+      - name: DeploymentPackageSerializationEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentpackageserializationeventargs#methods
+      - name: DeploymentPackageSerializationEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentpackageserializationeventargs#properties
+        items:
+        - name: 'CurrentFile Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentpackageserializationeventargs.currentfile#microsoft_web_deployment_deploymentpackageserializationeventargs_currentfile
+        - name: 'FileCount Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentpackageserializationeventargs.filecount#microsoft_web_deployment_deploymentpackageserializationeventargs_filecount
+        - name: 'FileName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentpackageserializationeventargs.filename#microsoft_web_deployment_deploymentpackageserializationeventargs_filename
+    - name: DeploymentProviderContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidercontext
+      items:
+      - name: DeploymentProviderContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidercontext#methods
+      - name: DeploymentProviderContext Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidercontext#properties
+        items:
+        - name: 'Factory Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidercontext.factory#microsoft_web_deployment_deploymentprovidercontext_factory
+        - name: 'Path Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidercontext.path#microsoft_web_deployment_deploymentprovidercontext_path
+        - name: 'ProviderOptions Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidercontext.provideroptions#microsoft_web_deployment_deploymentprovidercontext_provideroptions
+        - name: 'ProviderSettings Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidercontext.providersettings#microsoft_web_deployment_deploymentprovidercontext_providersettings
+    - name: DeploymentProviderFactory Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory
+      items:
+      - name: 'DeploymentProviderFactory Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.-ctor#microsoft_web_deployment_deploymentproviderfactory__ctor
+      - name: DeploymentProviderFactory Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory#methods
+        items:
+        - name: 'Create Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.create#microsoft_web_deployment_deploymentproviderfactory_create_microsoft_web_deployment_deploymentprovidercontext_microsoft_web_deployment_deploymentbasecontext_
+        - name: 'CreateProvider Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.createprovider#microsoft_web_deployment_deploymentproviderfactory_createprovider_microsoft_web_deployment_deploymentprovidercontext_microsoft_web_deployment_deploymentbasecontext_
+        - name: 'GetSupportedSettings Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.getsupportedsettings#microsoft_web_deployment_deploymentproviderfactory_getsupportedsettings
+      - name: DeploymentProviderFactory Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.description#microsoft_web_deployment_deploymentproviderfactory_description
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.exampleordetail#microsoft_web_deployment_deploymentproviderfactory_exampleordetail
+        - name: 'ExamplePath Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.examplepath#microsoft_web_deployment_deploymentproviderfactory_examplepath
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.friendlyname#microsoft_web_deployment_deploymentproviderfactory_friendlyname
+        - name: 'Kind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.kind#microsoft_web_deployment_deploymentproviderfactory_kind
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactory.name#microsoft_web_deployment_deploymentproviderfactory_name
+    - name: DeploymentProviderFactoryAttribute Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactoryattribute
+      items:
+      - name: 'DeploymentProviderFactoryAttribute Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactoryattribute.-ctor#microsoft_web_deployment_deploymentproviderfactoryattribute__ctor
+      - name: DeploymentProviderFactoryAttribute Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactoryattribute#methods
+      - name: DeploymentProviderFactoryAttribute Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactoryattribute#properties
+    - name: DeploymentProviderFactoryKind Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentproviderfactorykind
+    - name: DeploymentProviderOptions Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions
+      items:
+      - name: 'DeploymentProviderOptions Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions#constructors
+        items:
+        - name: DeploymentProviderOptions Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions.-ctor#microsoft_web_deployment_deploymentprovideroptions__ctor_system_string_
+        - name: DeploymentProviderOptions Constructor (DeploymentWellKnownProvider)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions.-ctor#microsoft_web_deployment_deploymentprovideroptions__ctor_microsoft_web_deployment_deploymentwellknownprovider_
+        - name: DeploymentProviderOptions Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions.-ctor#microsoft_web_deployment_deploymentprovideroptions__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentProviderOptions Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions#methods
+        items:
+        - name: 'GetObjectData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions.getobjectdata#microsoft_web_deployment_deploymentprovideroptions_getobjectdata_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentProviderOptions Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions#properties
+        items:
+        - name: 'Factory Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions.factory#microsoft_web_deployment_deploymentprovideroptions_factory
+        - name: 'Path Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions.path#microsoft_web_deployment_deploymentprovideroptions_path
+        - name: 'ProviderSettings Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovideroptions.providersettings#microsoft_web_deployment_deploymentprovideroptions_providersettings
+    - name: DeploymentProviderSetting Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting
+      items:
+      - name: DeploymentProviderSetting Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting#methods
+      - name: DeploymentProviderSetting Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting.description#microsoft_web_deployment_deploymentprovidersetting_description
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting.exampleordetail#microsoft_web_deployment_deploymentprovidersetting_exampleordetail
+        - name: 'Factory Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting.factory#microsoft_web_deployment_deploymentprovidersetting_factory
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting.friendlyname#microsoft_web_deployment_deploymentprovidersetting_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting.name#microsoft_web_deployment_deploymentprovidersetting_name
+        - name: 'Type Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting.type#microsoft_web_deployment_deploymentprovidersetting_type
+        - name: 'Value Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersetting.value#microsoft_web_deployment_deploymentprovidersetting_value
+    - name: DeploymentProviderSettingCollection Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection
+      items:
+      - name: DeploymentProviderSettingCollection Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection#methods
+        items:
+        - name: 'IEnumerable.GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection.system-collections-ienumerable-getenumerator#microsoft_web_deployment_deploymentprovidersettingcollection_system_collections_ienumerable_getenumerator
+        - name: 'GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection.getenumerator#microsoft_web_deployment_deploymentprovidersettingcollection_getenumerator
+        - name: 'GetValueOrDefault(T) Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection.getvalueordefault#microsoft_web_deployment_deploymentprovidersettingcollection_getvalueordefault__1_system_string___0_
+        - name: 'TryGetValue Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection.trygetvalue#microsoft_web_deployment_deploymentprovidersettingcollection_trygetvalue_system_string_microsoft_web_deployment_deploymentprovidersetting__
+      - name: DeploymentProviderSettingCollection Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection#properties
+        items:
+        - name: 'Count Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection.count#microsoft_web_deployment_deploymentprovidersettingcollection_count
+        - name: 'Item Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettingcollection.item#microsoft_web_deployment_deploymentprovidersettingcollection_item_system_string_
+    - name: DeploymentProviderSettingInfo Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo
+      items:
+      - name: 'DeploymentProviderSettingInfo Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo.-ctor#microsoft_web_deployment_deploymentprovidersettinginfo__ctor
+      - name: DeploymentProviderSettingInfo Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo#methods
+        items:
+        - name: 'Validate Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo.validate#microsoft_web_deployment_deploymentprovidersettinginfo_validate_system_object_
+      - name: DeploymentProviderSettingInfo Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo.description#microsoft_web_deployment_deploymentprovidersettinginfo_description
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo.exampleordetail#microsoft_web_deployment_deploymentprovidersettinginfo_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo.friendlyname#microsoft_web_deployment_deploymentprovidersettinginfo_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo.name#microsoft_web_deployment_deploymentprovidersettinginfo_name
+        - name: 'Type Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentprovidersettinginfo.type#microsoft_web_deployment_deploymentprovidersettinginfo_type
+    - name: DeploymentReplaceRule Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentreplacerule
+      items:
+      - name: 'DeploymentReplaceRule Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentreplacerule.-ctor#microsoft_web_deployment_deploymentreplacerule__ctor_system_string_system_string_system_string_system_string_system_string_system_string_system_string_
+      - name: DeploymentReplaceRule Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentreplacerule#methods
+      - name: DeploymentReplaceRule Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentreplacerule#properties
+    - name: DeploymentRetryException Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception
+      items:
+      - name: 'DeploymentRetryException Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception#constructors
+        items:
+        - name: 'DeploymentRetryException Constructor '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception.-ctor#microsoft_web_deployment_deploymentretryexception__ctor
+        - name: DeploymentRetryException Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception.-ctor#microsoft_web_deployment_deploymentretryexception__ctor_system_string_
+        - name: DeploymentRetryException Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception.-ctor#microsoft_web_deployment_deploymentretryexception__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+        - name: DeploymentRetryException Constructor (String, Exception)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception.-ctor#microsoft_web_deployment_deploymentretryexception__ctor_system_string_system_exception_
+        - name: DeploymentRetryException Constructor (Exception, String, Object[])
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception.-ctor#microsoft_web_deployment_deploymentretryexception__ctor_system_exception_system_string_system_object___
+      - name: DeploymentRetryException Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception#methods
+      - name: DeploymentRetryException Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentretryexception#properties
+    - name: DeploymentRule Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule
+      items:
+      - name: 'DeploymentRule Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule.-ctor#microsoft_web_deployment_deploymentrule__ctor_system_string_microsoft_web_deployment_deploymentrulehandler_
+      - name: DeploymentRule Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule#methods
+      - name: DeploymentRule Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule.description#microsoft_web_deployment_deploymentrule_description
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule.exampleordetail#microsoft_web_deployment_deploymentrule_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule.friendlyname#microsoft_web_deployment_deploymentrule_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule.name#microsoft_web_deployment_deploymentrule_name
+        - name: 'RuleHandler Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrule.rulehandler#microsoft_web_deployment_deploymentrule_rulehandler
+    - name: DeploymentRuleCollection Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection
+      items:
+      - name: DeploymentRuleCollection Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection#methods
+        items:
+        - name: 'IEnumerable.GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.system-collections-ienumerable-getenumerator#microsoft_web_deployment_deploymentrulecollection_system_collections_ienumerable_getenumerator
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.add#microsoft_web_deployment_deploymentrulecollection_add_microsoft_web_deployment_deploymentrule_
+        - name: 'Clear Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.clear#microsoft_web_deployment_deploymentrulecollection_clear
+        - name: 'GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.getenumerator#microsoft_web_deployment_deploymentrulecollection_getenumerator
+        - name: 'Remove Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.remove#microsoft_web_deployment_deploymentrulecollection_remove_system_string_
+        - name: 'TryGetValue Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.trygetvalue#microsoft_web_deployment_deploymentrulecollection_trygetvalue_system_string_microsoft_web_deployment_deploymentrule__
+      - name: DeploymentRuleCollection Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection#properties
+        items:
+        - name: 'Count Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.count#microsoft_web_deployment_deploymentrulecollection_count
+        - name: 'Item Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.item#overloads
+          items:
+          - name: Item Property (Int32)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.item#microsoft_web_deployment_deploymentrulecollection_item_system_int32_
+          - name: Item Property (String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulecollection.item#microsoft_web_deployment_deploymentrulecollection_item_system_string_
+    - name: DeploymentRuleHandler Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler
+      items:
+      - name: 'DeploymentRuleHandler Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.-ctor#microsoft_web_deployment_deploymentrulehandler__ctor
+      - name: DeploymentRuleHandler Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler#methods
+        items:
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.add#microsoft_web_deployment_deploymentrulehandler_add_microsoft_web_deployment_deploymentsynccontext_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentobject__system_boolean__
+        - name: 'AddChild Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.addchild#microsoft_web_deployment_deploymentrulehandler_addchild_microsoft_web_deployment_deploymentsynccontext_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentobject__system_boolean__
+        - name: 'CompareAttribute Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.compareattribute#microsoft_web_deployment_deploymentrulehandler_compareattribute_microsoft_web_deployment_deploymentsynccontext_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentobjectattribute_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentobjectattribute_system_int32_
+        - name: 'Delete Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.delete#microsoft_web_deployment_deploymentrulehandler_delete_microsoft_web_deployment_deploymentsynccontext_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentobject_system_boolean__
+        - name: 'Initialize Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.initialize#microsoft_web_deployment_deploymentrulehandler_initialize_system_xml_xpath_xpathnavigator_system_string_
+        - name: 'PostSync Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.postsync#microsoft_web_deployment_deploymentrulehandler_postsync_microsoft_web_deployment_deploymentsynccontext_
+        - name: 'PreSync Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.presync#microsoft_web_deployment_deploymentrulehandler_presync_microsoft_web_deployment_deploymentsynccontext_
+        - name: 'SyncDestination Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.syncdestination#microsoft_web_deployment_deploymentrulehandler_syncdestination_microsoft_web_deployment_deploymentsynccontext_microsoft_web_deployment_deploymentobject_system_boolean__
+        - name: 'SyncSource Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.syncsource#microsoft_web_deployment_deploymentrulehandler_syncsource_microsoft_web_deployment_deploymentsynccontext_microsoft_web_deployment_deploymentobject_system_boolean__
+        - name: 'Update Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.update#microsoft_web_deployment_deploymentrulehandler_update_microsoft_web_deployment_deploymentsynccontext_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentobject__system_boolean__
+      - name: DeploymentRuleHandler Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler#properties
+        items:
+        - name: 'AllowOverride Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.allowoverride#microsoft_web_deployment_deploymentrulehandler_allowoverride
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.description#microsoft_web_deployment_deploymentrulehandler_description
+        - name: 'EnabledByDefault Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.enabledbydefault#microsoft_web_deployment_deploymentrulehandler_enabledbydefault
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.exampleordetail#microsoft_web_deployment_deploymentrulehandler_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.friendlyname#microsoft_web_deployment_deploymentrulehandler_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.name#microsoft_web_deployment_deploymentrulehandler_name
+        - name: 'Order Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandler.order#microsoft_web_deployment_deploymentrulehandler_order
+    - name: DeploymentRuleHandlerAttribute Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandlerattribute
+      items:
+      - name: 'DeploymentRuleHandlerAttribute Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandlerattribute.-ctor#microsoft_web_deployment_deploymentrulehandlerattribute__ctor
+      - name: DeploymentRuleHandlerAttribute Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandlerattribute#methods
+      - name: DeploymentRuleHandlerAttribute Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentrulehandlerattribute#properties
+    - name: DeploymentSerializationAction Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentserializationaction
+    - name: DeploymentSerializationEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentserializationeventargs
+      items:
+      - name: 'DeploymentSerializationEventArgs Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentserializationeventargs.-ctor#microsoft_web_deployment_deploymentserializationeventargs__ctor_microsoft_web_deployment_deploymentserializationaction_system_string_system_object___
+      - name: DeploymentSerializationEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentserializationeventargs#methods
+      - name: DeploymentSerializationEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentserializationeventargs#properties
+        items:
+        - name: 'Message Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentserializationeventargs.message#microsoft_web_deployment_deploymentserializationeventargs_message
+        - name: 'SerializationAction Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentserializationeventargs.serializationaction#microsoft_web_deployment_deploymentserializationeventargs_serializationaction
+    - name: DeploymentSkipDirective Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective
+      items:
+      - name: 'DeploymentSkipDirective Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective#constructors
+        items:
+        - name: DeploymentSkipDirective Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.-ctor#microsoft_web_deployment_deploymentskipdirective__ctor_system_string_
+        - name: DeploymentSkipDirective Constructor (String, String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.-ctor#microsoft_web_deployment_deploymentskipdirective__ctor_system_string_system_string_
+        - name: DeploymentSkipDirective Constructor (String, String, Boolean)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.-ctor#microsoft_web_deployment_deploymentskipdirective__ctor_system_string_system_string_system_boolean_
+      - name: DeploymentSkipDirective Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective#methods
+        items:
+        - name: 'IEnumerable.GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.system-collections-ienumerable-getenumerator#microsoft_web_deployment_deploymentskipdirective_system_collections_ienumerable_getenumerator
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.add#microsoft_web_deployment_deploymentskipdirective_add_microsoft_web_deployment_deploymentskipdirectiveentry_
+        - name: 'Clear Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.clear#microsoft_web_deployment_deploymentskipdirective_clear
+        - name: 'GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.getenumerator#microsoft_web_deployment_deploymentskipdirective_getenumerator
+        - name: 'Remove Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.remove#microsoft_web_deployment_deploymentskipdirective_remove_system_string_
+        - name: 'TryGetValue Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.trygetvalue#microsoft_web_deployment_deploymentskipdirective_trygetvalue_system_string_microsoft_web_deployment_deploymentskipdirectiveentry__
+      - name: DeploymentSkipDirective Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective#properties
+        items:
+        - name: 'Count Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.count#microsoft_web_deployment_deploymentskipdirective_count
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.description#microsoft_web_deployment_deploymentskipdirective_description
+        - name: 'Enabled Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.enabled#microsoft_web_deployment_deploymentskipdirective_enabled
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.exampleordetail#microsoft_web_deployment_deploymentskipdirective_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.friendlyname#microsoft_web_deployment_deploymentskipdirective_friendlyname
+        - name: 'Item Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.item#microsoft_web_deployment_deploymentskipdirective_item_system_string_
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirective.name#microsoft_web_deployment_deploymentskipdirective_name
+    - name: DeploymentSkipDirectiveAttribute Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveattribute
+      items:
+      - name: 'DeploymentSkipDirectiveAttribute Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveattribute.-ctor#microsoft_web_deployment_deploymentskipdirectiveattribute__ctor
+      - name: DeploymentSkipDirectiveAttribute Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveattribute#methods
+      - name: DeploymentSkipDirectiveAttribute Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveattribute#properties
+    - name: DeploymentSkipDirectiveCollection Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection
+      items:
+      - name: 'DeploymentSkipDirectiveCollection Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.-ctor#microsoft_web_deployment_deploymentskipdirectivecollection__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentSkipDirectiveCollection Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection#methods
+        items:
+        - name: 'IEnumerable.GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.system-collections-ienumerable-getenumerator#microsoft_web_deployment_deploymentskipdirectivecollection_system_collections_ienumerable_getenumerator
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.add#overloads
+          items:
+          - name: Add Method (DeploymentSkipDirective)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.add#microsoft_web_deployment_deploymentskipdirectivecollection_add_microsoft_web_deployment_deploymentskipdirective_
+          - name: Add Method (String, String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.add#microsoft_web_deployment_deploymentskipdirectivecollection_add_system_string_system_string_
+        - name: 'Clear Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.clear#microsoft_web_deployment_deploymentskipdirectivecollection_clear
+        - name: 'Contains Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.contains#microsoft_web_deployment_deploymentskipdirectivecollection_contains_microsoft_web_deployment_deploymentskipdirective_
+        - name: 'CopyTo Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.copyto#microsoft_web_deployment_deploymentskipdirectivecollection_copyto_microsoft_web_deployment_deploymentskipdirective___system_int32_
+        - name: 'GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.getenumerator#microsoft_web_deployment_deploymentskipdirectivecollection_getenumerator
+        - name: 'GetObjectData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.getobjectdata#microsoft_web_deployment_deploymentskipdirectivecollection_getobjectdata_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+        - name: 'Remove Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.remove#microsoft_web_deployment_deploymentskipdirectivecollection_remove_microsoft_web_deployment_deploymentskipdirective_
+      - name: DeploymentSkipDirectiveCollection Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection#properties
+        items:
+        - name: 'Count Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.count#microsoft_web_deployment_deploymentskipdirectivecollection_count
+        - name: 'IsReadOnly Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectivecollection.isreadonly#microsoft_web_deployment_deploymentskipdirectivecollection_isreadonly
+    - name: DeploymentSkipDirectiveEntry Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveentry
+      items:
+      - name: 'DeploymentSkipDirectiveEntry Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveentry.-ctor#microsoft_web_deployment_deploymentskipdirectiveentry__ctor_system_string_system_string_
+      - name: DeploymentSkipDirectiveEntry Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveentry#methods
+      - name: DeploymentSkipDirectiveEntry Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveentry#properties
+        items:
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveentry.name#microsoft_web_deployment_deploymentskipdirectiveentry_name
+        - name: 'Value Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskipdirectiveentry.value#microsoft_web_deployment_deploymentskipdirectiveentry_value
+    - name: DeploymentSkipRule Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskiprule
+      items:
+      - name: 'DeploymentSkipRule Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskiprule.-ctor#microsoft_web_deployment_deploymentskiprule__ctor_system_string_system_string_system_string_system_string_system_string_
+      - name: DeploymentSkipRule Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskiprule#methods
+      - name: DeploymentSkipRule Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentskiprule#properties
+    - name: DeploymentSyncContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext
+      items:
+      - name: DeploymentSyncContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext#methods
+        items:
+        - name: 'Clone Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.clone#microsoft_web_deployment_deploymentsynccontext_clone_microsoft_web_deployment_deploymentobject_microsoft_web_deployment_deploymentobjectattributedata_
+        - name: 'GetState Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.getstate#microsoft_web_deployment_deploymentsynccontext_getstate_system_string_
+        - name: 'SetState Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.setstate#microsoft_web_deployment_deploymentsynccontext_setstate_system_string_system_object_
+      - name: DeploymentSyncContext Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext#properties
+        items:
+        - name: 'DeleteDestination Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.deletedestination#microsoft_web_deployment_deploymentsynccontext_deletedestination
+        - name: 'DestinationObject Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.destinationobject#microsoft_web_deployment_deploymentsynccontext_destinationobject
+        - name: 'Rules Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.rules#microsoft_web_deployment_deploymentsynccontext_rules
+        - name: 'SourceObject Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.sourceobject#microsoft_web_deployment_deploymentsynccontext_sourceobject
+        - name: 'UseChecksum Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.usechecksum#microsoft_web_deployment_deploymentsynccontext_usechecksum
+        - name: 'WhatIf Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsynccontext.whatif#microsoft_web_deployment_deploymentsynccontext_whatif
+    - name: DeploymentSyncOptions Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions
+      items:
+      - name: 'DeploymentSyncOptions Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions#constructors
+        items:
+        - name: 'DeploymentSyncOptions Constructor '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.-ctor#microsoft_web_deployment_deploymentsyncoptions__ctor
+        - name: DeploymentSyncOptions Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.-ctor#microsoft_web_deployment_deploymentsyncoptions__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentSyncOptions Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions#methods
+        items:
+        - name: 'GetAvailableRules Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.getavailablerules#microsoft_web_deployment_deploymentsyncoptions_getavailablerules
+        - name: 'GetObjectData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.getobjectdata#microsoft_web_deployment_deploymentsyncoptions_getobjectdata_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+      - name: DeploymentSyncOptions Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions#properties
+        items:
+        - name: 'CancelCallback Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.cancelcallback#microsoft_web_deployment_deploymentsyncoptions_cancelcallback
+        - name: 'DeclaredParameters Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.declaredparameters#microsoft_web_deployment_deploymentsyncoptions_declaredparameters
+        - name: 'DeleteDestination Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.deletedestination#microsoft_web_deployment_deploymentsyncoptions_deletedestination
+        - name: 'DoNotDelete Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.donotdelete#microsoft_web_deployment_deploymentsyncoptions_donotdelete
+        - name: 'Rules Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.rules#microsoft_web_deployment_deploymentsyncoptions_rules
+        - name: 'UseChecksum Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.usechecksum#microsoft_web_deployment_deploymentsyncoptions_usechecksum
+        - name: 'WhatIf Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncoptions.whatif#microsoft_web_deployment_deploymentsyncoptions_whatif
+    - name: DeploymentSyncParameter Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter
+      items:
+      - name: 'DeploymentSyncParameter Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter#constructors
+        items:
+        - name: DeploymentSyncParameter Constructor (String, String, String, String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.-ctor#microsoft_web_deployment_deploymentsyncparameter__ctor_system_string_system_string_system_string_system_string_
+        - name: DeploymentSyncParameter Constructor (String, String, String, String, DeploymentWellKnownTag)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.-ctor#microsoft_web_deployment_deploymentsyncparameter__ctor_system_string_system_string_system_string_system_string_microsoft_web_deployment_deploymentwellknowntag_
+        - name: DeploymentSyncParameter Constructor (String, String, String, String, String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.-ctor#microsoft_web_deployment_deploymentsyncparameter__ctor_system_string_system_string_system_string_system_string_system_string_
+      - name: DeploymentSyncParameter Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter#methods
+        items:
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.add#microsoft_web_deployment_deploymentsyncparameter_add_microsoft_web_deployment_deploymentsyncparameterentry_
+        - name: 'Equals Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.equals#overloads
+          items:
+          - name: Equals Method (DeploymentSyncParameter)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.equals#microsoft_web_deployment_deploymentsyncparameter_equals_microsoft_web_deployment_deploymentsyncparameter_
+      - name: DeploymentSyncParameter Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter#properties
+        items:
+        - name: 'DefaultValue Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.defaultvalue#microsoft_web_deployment_deploymentsyncparameter_defaultvalue
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.description#microsoft_web_deployment_deploymentsyncparameter_description
+        - name: 'Descriptions Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.descriptions#microsoft_web_deployment_deploymentsyncparameter_descriptions
+        - name: 'Entries Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.entries#microsoft_web_deployment_deploymentsyncparameter_entries
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.exampleordetail#microsoft_web_deployment_deploymentsyncparameter_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.friendlyname#microsoft_web_deployment_deploymentsyncparameter_friendlyname
+        - name: 'FriendlyNames Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.friendlynames#microsoft_web_deployment_deploymentsyncparameter_friendlynames
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.name#microsoft_web_deployment_deploymentsyncparameter_name
+        - name: 'Tags Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.tags#microsoft_web_deployment_deploymentsyncparameter_tags
+        - name: 'Validation Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.validation#microsoft_web_deployment_deploymentsyncparameter_validation
+        - name: 'Value Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.value#microsoft_web_deployment_deploymentsyncparameter_value
+        - name: 'WellKnownTags Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameter.wellknowntags#microsoft_web_deployment_deploymentsyncparameter_wellknowntags
+    - name: DeploymentSyncParameterChangedEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterchangedeventargs
+      items:
+      - name: DeploymentSyncParameterChangedEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterchangedeventargs#methods
+      - name: DeploymentSyncParameterChangedEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterchangedeventargs#properties
+        items:
+        - name: 'Message Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterchangedeventargs.message#microsoft_web_deployment_deploymentsyncparameterchangedeventargs_message
+    - name: DeploymentSyncParameterCollection Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection
+      items:
+      - name: DeploymentSyncParameterCollection Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection#methods
+        items:
+        - name: 'IEnumerable.GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.system-collections-ienumerable-getenumerator#microsoft_web_deployment_deploymentsyncparametercollection_system_collections_ienumerable_getenumerator
+        - name: 'Add Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.add#microsoft_web_deployment_deploymentsyncparametercollection_add_microsoft_web_deployment_deploymentsyncparameter_
+        - name: 'Clear Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.clear#microsoft_web_deployment_deploymentsyncparametercollection_clear
+        - name: 'Contains Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.contains#microsoft_web_deployment_deploymentsyncparametercollection_contains_system_string_
+        - name: 'CreateNavigator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.createnavigator#microsoft_web_deployment_deploymentsyncparametercollection_createnavigator
+        - name: 'GetEnumerator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.getenumerator#microsoft_web_deployment_deploymentsyncparametercollection_getenumerator
+        - name: 'Load Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.load#overloads
+          items:
+          - name: Load Method (Stream)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.load#microsoft_web_deployment_deploymentsyncparametercollection_load_system_io_stream_
+          - name: Load Method (String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.load#microsoft_web_deployment_deploymentsyncparametercollection_load_system_string_
+        - name: 'Remove Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.remove#microsoft_web_deployment_deploymentsyncparametercollection_remove_system_string_
+        - name: 'TryGetValue Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.trygetvalue#microsoft_web_deployment_deploymentsyncparametercollection_trygetvalue_system_string_microsoft_web_deployment_deploymentsyncparameter__
+      - name: DeploymentSyncParameterCollection Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection#properties
+        items:
+        - name: 'Count Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.count#microsoft_web_deployment_deploymentsyncparametercollection_count
+        - name: 'Item Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.item#overloads
+          items:
+          - name: Item Property (Int32)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.item#microsoft_web_deployment_deploymentsyncparametercollection_item_system_int32_
+          - name: Item Property (String)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametercollection.item#microsoft_web_deployment_deploymentsyncparametercollection_item_system_string_
+    - name: DeploymentSyncParameterEntry Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry
+      items:
+      - name: 'DeploymentSyncParameterEntry Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry#constructors
+        items:
+        - name: DeploymentSyncParameterEntry Constructor (String, String, String, String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.-ctor#microsoft_web_deployment_deploymentsyncparameterentry__ctor_system_string_system_string_system_string_system_string_
+        - name: DeploymentSyncParameterEntry Constructor (DeploymentSyncParameterEntryKind, String, String, String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.-ctor#microsoft_web_deployment_deploymentsyncparameterentry__ctor_microsoft_web_deployment_deploymentsyncparameterentrykind_system_string_system_string_system_string_
+      - name: DeploymentSyncParameterEntry Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry#methods
+        items:
+        - name: 'Equals Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.equals#overloads
+          items:
+          - name: Equals Method (DeploymentSyncParameterEntry)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.equals#microsoft_web_deployment_deploymentsyncparameterentry_equals_microsoft_web_deployment_deploymentsyncparameterentry_
+      - name: DeploymentSyncParameterEntry Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry#properties
+        items:
+        - name: 'Kind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.kind#microsoft_web_deployment_deploymentsyncparameterentry_kind
+        - name: 'Match Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.match#microsoft_web_deployment_deploymentsyncparameterentry_match
+        - name: 'Scope Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.scope#microsoft_web_deployment_deploymentsyncparameterentry_scope
+        - name: 'Tags Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentry.tags#microsoft_web_deployment_deploymentsyncparameterentry_tags
+    - name: DeploymentSyncParameterEntryKind Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparameterentrykind
+    - name: DeploymentSyncParameterEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametereventargs
+      items:
+      - name: DeploymentSyncParameterEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametereventargs#methods
+        items:
+        - name: 'CollectEventData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametereventargs.collecteventdata#microsoft_web_deployment_deploymentsyncparametereventargs_collecteventdata
+      - name: DeploymentSyncParameterEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametereventargs#properties
+        items:
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametereventargs.name#microsoft_web_deployment_deploymentsyncparametereventargs_name
+        - name: 'OperationType Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametereventargs.operationtype#microsoft_web_deployment_deploymentsyncparametereventargs_operationtype
+    - name: DeploymentSyncParameterValidation Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametervalidation
+      items:
+      - name: 'DeploymentSyncParameterValidation Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametervalidation.-ctor#microsoft_web_deployment_deploymentsyncparametervalidation__ctor_microsoft_web_deployment_deploymentsyncparametervalidationkind_system_string_
+      - name: DeploymentSyncParameterValidation Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametervalidation#methods
+      - name: DeploymentSyncParameterValidation Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametervalidation#properties
+        items:
+        - name: 'Kind Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametervalidation.kind#microsoft_web_deployment_deploymentsyncparametervalidation_kind
+        - name: 'ValidationString Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametervalidation.validationstring#microsoft_web_deployment_deploymentsyncparametervalidation_validationstring
+    - name: DeploymentSyncParameterValidationKind Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentsyncparametervalidationkind
+    - name: DeploymentTraceEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs
+      items:
+      - name: 'DeploymentTraceEventArgs Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs.-ctor#microsoft_web_deployment_deploymenttraceeventargs__ctor_system_diagnostics_tracelevel_
+      - name: DeploymentTraceEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs#methods
+        items:
+        - name: 'AddEventData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs.addeventdata#microsoft_web_deployment_deploymenttraceeventargs_addeventdata_system_string_system_object_
+        - name: 'CollectEventData Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs.collecteventdata#microsoft_web_deployment_deploymenttraceeventargs_collecteventdata
+        - name: 'CreateNavigator Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs.createnavigator#microsoft_web_deployment_deploymenttraceeventargs_createnavigator
+      - name: DeploymentTraceEventArgs Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs#properties
+        items:
+        - name: 'EventData Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs.eventdata#microsoft_web_deployment_deploymenttraceeventargs_eventdata
+        - name: 'EventLevel Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs.eventlevel#microsoft_web_deployment_deploymenttraceeventargs_eventlevel
+        - name: 'Message Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymenttraceeventargs.message#microsoft_web_deployment_deploymenttraceeventargs_message
+    - name: DeploymentWebServerConfigurationSystemInfo Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo
+      items:
+      - name: 'DeploymentWebServerConfigurationSystemInfo Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo.-ctor#microsoft_web_deployment_deploymentwebserverconfigurationsysteminfo__ctor
+      - name: DeploymentWebServerConfigurationSystemInfo Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo#methods
+      - name: DeploymentWebServerConfigurationSystemInfo Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo#properties
+        items:
+        - name: 'ApplicationHostConfigurationPath Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo.applicationhostconfigurationpath#microsoft_web_deployment_deploymentwebserverconfigurationsysteminfo_applicationhostconfigurationpath
+        - name: 'ConfigurationDirectory Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo.configurationdirectory#microsoft_web_deployment_deploymentwebserverconfigurationsysteminfo_configurationdirectory
+        - name: 'RedirectionConfigurationPath Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo.redirectionconfigurationpath#microsoft_web_deployment_deploymentwebserverconfigurationsysteminfo_redirectionconfigurationpath
+        - name: 'SchemaDirectory Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo.schemadirectory#microsoft_web_deployment_deploymentwebserverconfigurationsysteminfo_schemadirectory
+        - name: 'WebServerDirectory Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo.webserverdirectory#microsoft_web_deployment_deploymentwebserverconfigurationsysteminfo_webserverdirectory
+        - name: 'WebServerManifest Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwebserverconfigurationsysteminfo.webservermanifest#microsoft_web_deployment_deploymentwebserverconfigurationsysteminfo_webservermanifest
+    - name: DeploymentWellKnownProvider Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwellknownprovider
+    - name: DeploymentWellKnownTag Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentwellknowntag
+    - name: DeploymentXmlException Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception
+      items:
+      - name: 'DeploymentXmlException Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception#constructors
+        items:
+        - name: 'DeploymentXmlException Constructor '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception.-ctor#microsoft_web_deployment_deploymentxmlexception__ctor
+        - name: DeploymentXmlException Constructor (String)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception.-ctor#microsoft_web_deployment_deploymentxmlexception__ctor_system_string_
+        - name: DeploymentXmlException Constructor (SerializationInfo, StreamingContext)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception.-ctor#microsoft_web_deployment_deploymentxmlexception__ctor_system_runtime_serialization_serializationinfo_system_runtime_serialization_streamingcontext_
+        - name: DeploymentXmlException Constructor (String, Exception)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception.-ctor#microsoft_web_deployment_deploymentxmlexception__ctor_system_string_system_exception_
+        - name: DeploymentXmlException Constructor (XPathNavigator, String, Exception)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception.-ctor#microsoft_web_deployment_deploymentxmlexception__ctor_system_xml_xpath_xpathnavigator_system_string_system_exception_
+        - name: DeploymentXmlException Constructor (XPathNavigator, String, String, Object)
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception.-ctor#microsoft_web_deployment_deploymentxmlexception__ctor_system_xml_xpath_xpathnavigator_system_string_system_string_system_object_
+      - name: DeploymentXmlException Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception#methods
+      - name: DeploymentXmlException Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.deploymentxmlexception#properties
+    - name: IDeploymentCommitItem Interface
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentcommititem
+      items:
+      - name: IDeploymentCommitItem Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentcommititem#methods
+        items:
+        - name: 'CommitChanges Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentcommititem.commitchanges#microsoft_web_deployment_ideploymentcommititem_commitchanges_microsoft_web_deployment_deploymentcommitcontext_
+    - name: IDeploymentNameDescription Interface
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentnamedescription
+      items:
+      - name: IDeploymentNameDescription Properties
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentnamedescription#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentnamedescription.description#microsoft_web_deployment_ideploymentnamedescription_description
+        - name: 'ExampleOrDetail Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentnamedescription.exampleordetail#microsoft_web_deployment_ideploymentnamedescription_exampleordetail
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentnamedescription.friendlyname#microsoft_web_deployment_ideploymentnamedescription_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.deployment.ideploymentnamedescription.name#microsoft_web_deployment_ideploymentnamedescription_name

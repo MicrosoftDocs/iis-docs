@@ -1,19 +1,14 @@
 ---
-title: "Configuring Step 5: Configure Application Deployment | Microsoft Docs"
+title: "Configuring Step 5: Configure Application Deployment"
 author: rmcmurray
 description: "n this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy f..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: ecf70784-d0b8-4c2f-9e4f-c547741cadf8
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-5-configure-application-deployment
 msc.type: authoredcontent
 ---
-Configuring Step 5: Configure Application Deployment
-====================
+# Configuring Step 5: Configure Application Deployment
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy for deploying web applications.
@@ -45,7 +40,7 @@ The procedures in this section guide you through installing and configuring FTP 
 6. Click **Next** to open the **Binding and SSL Settings** page.
 7. Under **Binding**, in the **IP Address** list, select or type an IP address if you do not want the IP address to remain **All Unassigned**.
 8. In the **Port** box, type the port number.
-9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type **www.contoso.com**.
+9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type `www.contoso.com`.
 10. Clear the **Start FTP site automatically** box if you want to start the site manually.
 11. Under **SSL**, from the **SSL Certificate** list, select a certificate. Optionally, click **View** to open the **Certificates** dialog box and verify information about the selected certificate.
 12. Select one of the following options:
@@ -111,7 +106,7 @@ You now have a working web farm. It uses ARR for load balancing. It employs shar
 There are many ways to improve your web farm, here are a few suggestions:
 
 - Allow users who are not administrators to deploy web applications with Web Deploy. For more information, see [Allowing non-admin users to deploy web applications](https://blogs.msdn.com/b/amol/archive/2011/02/09/allowing-non-admin-users-to-deploy-web-applications-on-iis-7-using-web-deploy-2-0.aspx).
-- Use failover clustering to mirror your back-end file servers, eliminate signal points of failure on the back-end, and improve throughput. For more information, see [Failover Clustering](https://technet.microsoft.com/en-us/library/hh831579).
+- Use failover clustering to mirror your back-end file servers, eliminate signal points of failure on the back-end, and improve throughput. For more information, see [Failover Clustering](https://technet.microsoft.com/library/hh831579).
 - You should also to eliminate signal points on failure on the front end. You can use Network Load Balancing (NLB) with multiple ARR servers achieve high availability, scalability, and stability on the front end of your farm. To learn more about using ARR and NLB together, see [Achieving High Availability and Scalability-ARR and NLB](../../extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb.md).
 
 ## See Also

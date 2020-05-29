@@ -1,19 +1,14 @@
 ---
-title: "Server Runtime &lt;serverRuntime&gt; | Microsoft Docs"
+title: "Server Runtime &lt;serverRuntime&gt;"
 author: rick-anderson
 description: "Overview The &lt;serverRuntime&gt; element configures the following settings that are related to the Internet Information Services (IIS) 7 server runtime: Se..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e645cbbb-33a4-4b5e-8d5a-052e604c8b83
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/serverruntime
 msc.type: config
 ---
-Server Runtime &lt;serverRuntime&gt;
-====================
+# Server Runtime &lt;serverRuntime&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -26,12 +21,12 @@ The `<serverRuntime>` element configures the following settings that are related
 
     > [!NOTE]
     > Nagling has a possible disadvantage; if an extension does not fill up the packet, there is still a delay of 200 milliseconds before the response is sent. This behavior is seen most often when you use ISAPI extensions that support an HTTP keep-alive header in the response to the client. In this case, IIS does not close the connection after the response, so the final packet ends up waiting for 200 milliseconds.
-- IIS 7 checks the status of two attributes to determine the traffic level for a particular URL. The **frequentHitThreshold** attribute configures the number of requests and the **frequentHitTimePeriod** attribute configures the amount of time allowed before that URL is judged to be frequently hit. This information is used when writing HTTP modules that use this information for processing. For more information, see the [IHttpUrlInfo::IsFrequentlyHit Method](https://msdn.microsoft.com/en-us/library/ms692441.aspx) topic on MSDN.
-- The **maxRequestEntityAllowed** and **uploadReadAheadSize** attributes respectively configure limits for the maximum number of bytes allowed in the entity body of a request and the number of bytes a Web server will read into a buffer and pass to an ISAPI extension. It should be taken into consideration that increasing these values allows the end user to upload more content which can have an effect on IIS runtime memory resources.  It is recommended to keep these values at a number consistent with application needs, and only in extreme circumstances use the maximum value.
+- IIS 7 checks the status of two attributes to determine the traffic level for a particular URL. The **frequentHitThreshold** attribute configures the number of requests and the **frequentHitTimePeriod** attribute configures the amount of time allowed before that URL is judged to be frequently hit. This information is used when writing HTTP modules that use this information for processing. For more information, see the [IHttpUrlInfo::IsFrequentlyHit Method](https://msdn.microsoft.com/library/ms692441.aspx) topic on MSDN.
+- The **maxRequestEntityAllowed** and **uploadReadAheadSize** attributes respectively configure limits for the maximum number of bytes allowed in the entity body of a request and the number of bytes a Web server will read into a buffer and pass to an ISAPI extension. It should be taken into consideration that increasing these values allows the end user to upload more content which can have an effect on IIS runtime memory resources.  It is recommended to keep these values at a number consistent with application needs, and only in extreme circumstances use the maximum value.
 
 ### New in IIS 7.5
 
-IIS 7.5 added the **authenticatedUserOverride** attribute to the `<serverRuntime>` element, which configures whether the IIS 7 server runtime will provide the authenticated user's identity or the worker process identity in the [IHttpUser::GetPrimaryToken](https://msdn.microsoft.com/en-us/library/ms692659.aspx) and [IHttpUser::GetImpersonationToken](https://msdn.microsoft.com/en-us/library/ms689403.aspx) methods. This attribute can be set to *UseAuthenticatedUser* or *UseWorkerProcessUser*, and these values respectively specify whether the IIS 7 server runtime will provide the authenticated user's identity or the worker process identity for any module that is using impersonation.
+IIS 7.5 added the **authenticatedUserOverride** attribute to the `<serverRuntime>` element, which configures whether the IIS 7 server runtime will provide the authenticated user's identity or the worker process identity in the [IHttpUser::GetPrimaryToken](https://msdn.microsoft.com/library/ms692659.aspx) and [IHttpUser::GetImpersonationToken](https://msdn.microsoft.com/library/ms689403.aspx) methods. This attribute can be set to *UseAuthenticatedUser* or *UseWorkerProcessUser*, and these values respectively specify whether the IIS 7 server runtime will provide the authenticated user's identity or the worker process identity for any module that is using impersonation.
 
 <a id="002"></a>
 ## Compatibility
@@ -94,7 +89,7 @@ The following code samples set the `<serverRuntime>` element's **enable** attrib
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](serverRuntime/samples/sample3.cs)]
 

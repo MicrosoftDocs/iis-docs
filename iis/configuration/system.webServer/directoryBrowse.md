@@ -1,19 +1,14 @@
 ---
-title: "Directory Browse &lt;directoryBrowse&gt; | Microsoft Docs"
+title: "Directory Browse &lt;directoryBrowse&gt;"
 author: rick-anderson
 description: "Overview The &lt;directoryBrowse&gt; element controls the information that is displayed in a directory listing when you enable directory browsing for your We..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7c3f66e6-e093-463a-8b8b-2d45c24bff8a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/directorybrowse
 msc.type: config
 ---
-Directory Browse &lt;directoryBrowse&gt;
-====================
+# Directory Browse &lt;directoryBrowse&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -137,7 +132,7 @@ The following examples enable directory browsing for a site named Contoso and us
 
 [!code-console[Main](directoryBrowse/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](directoryBrowse/samples/sample3.cs)]
 

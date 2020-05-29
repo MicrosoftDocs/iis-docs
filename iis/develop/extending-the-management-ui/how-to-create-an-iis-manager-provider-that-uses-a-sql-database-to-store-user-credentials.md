@@ -1,19 +1,14 @@
 ---
-title: "Create an IIS Manager Provider that uses SQL to Store User Credentials | Microsoft Docs"
+title: "Create an IIS Manager Provider that uses SQL to Store User Credentials"
 author: rmcmurray
 description: "Microsoft's Internet Information Services (IIS) was built with extensibility in mind for a variety of management tasks. This extensibility allows developers..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/18/2010
-ms.topic: article
 ms.assetid: 80179bb5-19f6-4088-a17e-1d221efb7bd9
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials
 msc.type: authoredcontent
 ---
-Create an IIS Manager Provider that uses SQL to Store User Credentials
-====================
+# Create an IIS Manager Provider that uses SQL to Store User Credentials
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview
@@ -83,15 +78,14 @@ The first step is to create the SQL database that will store the usernames, pass
     - Enter the following in the **Post-build event command line** box:  
 
         [!code-console[Main](how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials/samples/sample2.cmd)]
-7. OPTIONAL: Enable debugging with IIS Manager: 
-
+7. OPTIONAL: Enable debugging with IIS 
     - Click **Project**, then **SqlIisManagerDemo Properties**.
     - Click the **Debug** tab.
     - Click to select **Start External Program**, then enter the following in the text box:  
 
         [!code-console[Main](how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials/samples/sample3.cmd)]
   
- Where C: is your operating system drive.
+   Where C: is your operating system drive.
 8. Save the project.
 
 ## Step 3: Create the Extensibility Class
@@ -125,7 +119,7 @@ The first step is to create the SQL database that will store the usernames, pass
     - Add the following default authentication provider: 
 
         [!code-xml[Main](how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials/samples/sample6.xml)]
-    - Save and close the the administration.config file.
+    - Save and close the administration.config file.
 3. Close and re-open the IIS Manager.
 4. If you are using the Windows Management Service for IIS, you need to restart that service: 
 

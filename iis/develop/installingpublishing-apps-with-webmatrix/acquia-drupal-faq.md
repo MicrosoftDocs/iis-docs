@@ -1,19 +1,14 @@
 ---
-title: "Acquia Drupal FAQ | Microsoft Docs"
+title: "Acquia Drupal FAQ"
 author: rick-anderson
 description: "WebMatrix Beta supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: fa41913f-66c4-4ace-9312-bfd55679c7bf
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/acquia-drupal-faq
 msc.type: authoredcontent
 ---
-Acquia Drupal FAQ
-====================
+# Acquia Drupal FAQ
+
 by Faith A
 
 WebMatrix Beta supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.
@@ -65,11 +60,11 @@ If this is not possible, you can workaround the issue by creating a copy of the 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample2.ps1)]
 6. Change the line to escape special characters, you will find the hex replacements listed in *settings.php*.  
   
-	For example, change the following line:
+    For example, change the following line:
 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample3.ps1)]
 
-	to:
+    to:
 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample4.ps1)]
 7. Click **Save** on the **Quick Access Toolbar** or press Ctrl + S.

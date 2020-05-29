@@ -1,19 +1,14 @@
 ---
-title: "Using Unattended Setup to Install IIS 7.0 | Microsoft Docs"
+title: "Using Unattended Setup to Install IIS 7.0"
 author: tobint
 description: "Pkgmgr.exe is a new command tool in Windows Vista/Windows Server ® 2008 for installing Windows Optional Features: Replaces sysocmgr.exe for installing Window..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 78cd9a4b-3d90-4aa7-8bb8-326d11cb14d9
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/using-unattended-setup-to-install-iis
 msc.type: authoredcontent
 ---
-Using Unattended Setup to Install IIS 7.0
-====================
+# Using Unattended Setup to Install IIS 7.0
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
@@ -85,9 +80,7 @@ If you want to install all IIS 7.0 features for evaluation purposes, use one of 
 
 For Windows Vista Professional, Windows Vista Ultimate, or Windows Server 2008 Editions, copy and paste the following text into notepad.
 
-
 [!code-xml[Main](using-unattended-setup-to-install-iis/samples/sample6.xml)]
-
 
 If you are installing IIS 7.0 on Windows Vista Home Premium, copy and paste the following text into notepad:
 
@@ -109,7 +102,7 @@ You then must check the version number of Windows you have installed. To find th
     - If you have installed on a 64 Bit CPU you must edit the processorArchitecture XML attribute:  
 
         processorArchitecture="amd64"  
-		
+
 > [!NOTE]
 > Possible values are: x86, amd64, and ia64.
 
@@ -121,9 +114,7 @@ Save the notepad file with name "unattend.xml"
 
 In the command window, enter the following command line:
 
-
 [!code-console[Main](using-unattended-setup-to-install-iis/samples/sample8.cmd)]
-
 
 Note: If you saved unattend.xml to a drive folder other then the current drive and folder of your command window, you must specify the full path of the unattend.xml file in your pkgmgr /n: parameter.
 
@@ -135,9 +126,7 @@ IIS 7.0 setup via pkgmgr.exe should take 1 to 5 minutes. When the command prompt
 
 At the command prompt type:
 
-
 [!code-console[Main](using-unattended-setup-to-install-iis/samples/sample9.cmd)]
-
 
 A result of 0 indicates success.
 

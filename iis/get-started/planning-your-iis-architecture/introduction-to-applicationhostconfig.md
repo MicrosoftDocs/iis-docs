@@ -1,19 +1,14 @@
 ---
-title: "Introduction to ApplicationHost.config | Microsoft Docs"
+title: "Introduction to ApplicationHost.config"
 author: tobint
 description: "ApplicationHost.config is the root file of the configuration system when you are using IIS 7 and above. It includes definitions of all sites, applications, v..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: d7c82bfe-0754-4a3f-8518-1215b4fd6dfd
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig
 msc.type: authoredcontent
 ---
-Introduction to ApplicationHost.config
-====================
+# Introduction to ApplicationHost.config
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
@@ -66,7 +61,6 @@ The schema for each configuration section is defined in a XML element. There is 
 
 The &lt;sectionSchema&gt; XML element is the base unit of schema information. All other schema information is specified within it. It has one attribute directly in it ("name"), and then the rest of the schema is in sub-elements within it:
 
-
 [!code-xml[Main](introduction-to-applicationhostconfig/samples/sample2.xml)]
 
 <a id="Attribute"></a>
@@ -95,9 +89,7 @@ This is done by specifying values for addElement, removeElement and clearElement
 
 For example, the collection is using siteDefaults as the default element. Most collections append elements as they merge configuration files down the namespace, but some may specify mergeAppend="false" in the schema to have a prepend behavior. For example, consider two levels of configuration: applicationHost.config and web.config in a site. In applicationHost.config:
 
-
 [!code-xml[Main](introduction-to-applicationhostconfig/samples/sample4.xml)]
-
 
 In web.config:
 
@@ -123,7 +115,6 @@ Some collections may allow additional attributes in them, beyond those specified
 
 Every attribute of type "enum" must define its enum values in a corresponding &lt;enum&gt; XML element in the schema. Every value must have a friendly name and a numerical value.
 
-
 [!code-xml[Main](introduction-to-applicationhostconfig/samples/sample9.xml)]
 
 <a id="Flags"></a>
@@ -131,7 +122,6 @@ Every attribute of type "enum" must define its enum values in a corresponding &l
 ## Flags Schema
 
 Every attribute of type "flags" must define its flag values in a corresponding XML element in the schema. Every flag must have a friendly name and a numerical value that can be ORed together with other values to form combinations; therefore, the value should be in multiples of 2.
-
 
 [!code-xml[Main](introduction-to-applicationhostconfig/samples/sample10.xml)]
 
@@ -151,13 +141,11 @@ This validator fails on these characters: |&lt;&gt;&amp;\"
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample11.cmd)]
 
-
 ### IntegerRange validator
 
 This validator fails if value is outside [inside] range, in integers. 
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample12.cmd)]
-
 
 ### NonEmptyString validator
 
@@ -165,20 +153,17 @@ This validator fails if string value is set.
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample13.cmd)]
 
-
 ### SiteName validator
 
 This validator fails on these characters: /\.? 
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample14.cmd)]
 
-
 ### TimeSpanRange validator
 
 This validator fails if value is outside [inside] range, in seconds. 
 
 [!code-console[Main](introduction-to-applicationhostconfig/samples/sample15.cmd)]
-
 
 ### TrimWhiteSpace validator
 

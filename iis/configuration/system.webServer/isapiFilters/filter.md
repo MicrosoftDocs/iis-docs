@@ -1,19 +1,14 @@
 ---
-title: "Filter &lt;filter&gt; | Microsoft Docs"
+title: "Filter &lt;filter&gt;"
 author: rick-anderson
 description: "Overview The &lt;filter&gt; element of the &lt;isapiFilters&gt; collection configures an ISAPI filter to process client request data or server response data...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ebfc1f61-5ad4-4881-87b4-aa2f9f7bdd26
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/isapifilters/filter
 msc.type: config
 ---
-Filter &lt;filter&gt;
-====================
+# Filter &lt;filter&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -138,7 +133,7 @@ The following examples configure an ISAPI filter named SalesQueryIsapi on the se
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](filter/samples/sample3.cs)]
 

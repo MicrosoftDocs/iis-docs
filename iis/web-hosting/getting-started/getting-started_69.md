@@ -1,19 +1,14 @@
 ---
-title: "Getting Started | Microsoft Docs"
+title: "Getting Started"
 author: walterov
 description: "The Hosting Guidance is a set of best practices and script (PowerShell and C#) samples to guide in the planning, deployment, configuration, migration, and pr..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/01/2007
-ms.topic: article
 ms.assetid: 1bfcc610-f237-4fac-a6c8-7d62820a5b6a
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/getting-started_69
 msc.type: authoredcontent
 ---
-Getting Started
-====================
+# Getting Started
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview

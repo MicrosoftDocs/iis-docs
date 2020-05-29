@@ -1,19 +1,14 @@
 ---
-title: "Joomla! FAQ | Microsoft Docs"
+title: "Joomla! FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: d06d5158-13c1-44f0-a0b6-6c8e45e60f75
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/joomla-faq
 msc.type: authoredcontent
 ---
-Joomla! FAQ
-====================
+# Joomla! FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

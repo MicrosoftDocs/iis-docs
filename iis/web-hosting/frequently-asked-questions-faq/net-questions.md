@@ -1,19 +1,14 @@
 ---
-title: ".NET Questions | Microsoft Docs"
+title: ".NET Questions"
 author: walterov
 description: "No. When a user uses Visual Studio 2008 Beta 2 to build a new ASP.NET 3.5 website, or migrates an existing ASP.NET website to .NET Framework 3.5, the applica..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/22/2007
-ms.topic: article
 ms.assetid: 962ccf05-344c-4435-9518-a9bd1e57f4bb
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/net-questions
 msc.type: authoredcontent
 ---
-.NET Questions
-====================
+# .NET Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Can ASP.NET websites built with Visual Studio 2008 Beta 2 be used in partial trust configurations?
@@ -57,7 +52,7 @@ As a workaround, you can enable LINQ for medium trust by following these steps o
 
     [!code-xml[Main](net-questions/samples/sample3.xml)]
 
- If you are using the default medium trust settings, you must add this entry. Depending upon your trust setting, your CAS policy file may already contain this entry.
+   If you are using the default medium trust settings, you must add this entry. Depending upon your trust setting, your CAS policy file may already contain this entry.
 5. Examine the &lt;NamedPermissionSets&gt; section of your CAS policy file. If the section does not contain an entry named ReflectionPermission, add a new entry as follows:  
 
     [!code-xml[Main](net-questions/samples/sample4.xml)]

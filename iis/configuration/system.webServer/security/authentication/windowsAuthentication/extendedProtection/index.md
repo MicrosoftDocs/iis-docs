@@ -1,19 +1,14 @@
 ---
-title: "Windows Extended Protection &lt;extendedProtection&gt; | Microsoft Docs"
+title: "Windows Extended Protection &lt;extendedProtection&gt;"
 author: rick-anderson
 description: "Overview The &lt;extendedProtection&gt; element specifies the settings that configure the extended protection for Windows authentication in IIS 7.5. Extended..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 9d5ad70d-1f3e-4414-99ad-586c7a83be94
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection
 msc.type: config
 ---
-Windows Extended Protection &lt;extendedProtection&gt;
-====================
+# Windows Extended Protection &lt;extendedProtection&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -64,10 +59,9 @@ Consider the following example scenarios:
 
 More information about Extended Protection is available in the following topic:
 
-> [Integrated Windows Authentication with Extended Protection](https://msdn.microsoft.com/en-us/library/dd639324.aspx)
+> [Integrated Windows Authentication with Extended Protection](https://msdn.microsoft.com/library/dd639324.aspx)
 > 
-> [Service Principal Names](https://msdn.microsoft.com/en-us/library/ms677949(VS.85).aspx)
-
+> [Service Principal Names](https://msdn.microsoft.com/library/ms677949(VS.85).aspx)
 
 <a id="002"></a>
 ## Compatibility
@@ -201,7 +195,7 @@ The following examples demonstrate configuring Windows authentication with exten
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

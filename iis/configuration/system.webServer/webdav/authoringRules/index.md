@@ -1,19 +1,14 @@
 ---
-title: "WebDAV Authoring Rules &lt;authoringRules&gt; | Microsoft Docs"
+title: "WebDAV Authoring Rules &lt;authoringRules&gt;"
 author: rick-anderson
 description: "Overview The &lt;authoringRules&gt; element can be defined per-URI within a Web site, and specifies the WebDAV authoring permissions for that URI space. The..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7ba83499-9c35-4d3c-9d24-0b330e7d5e8c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoringrules
 msc.type: config
 ---
-WebDAV Authoring Rules &lt;authoringRules&gt;
-====================
+# WebDAV Authoring Rules &lt;authoringRules&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -37,9 +32,8 @@ WebDAV authoring rules may seem somewhat analogous to authorization settings tha
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
-
 
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
@@ -50,24 +44,41 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 ### Windows Server 2012 or Windows Server 2012 R2
 
-1. On the taskbar, click **Server Manager**. - In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**. - In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**. - On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) . - On the **Select features** page, click **Next**. - On the **Confirm installation selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Server Manager**.
+2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
+3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
+4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
+    ![](index/_static/image1.png)
+5. On the **Select features** page, click **Next**.
+6. On the **Confirm installation selections** page, click **Install**.
+7. On the **Results** page, click **Close**.
 
 ### Windows 8 or Windows 8.1
 
-1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
-- Click **Close**.
+1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
+3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
+    ![](index/_static/image3.png)
+4. Click **OK**.
+5. Click **Close**.
 
 ### Windows Server 2008 R2
 
-1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**. - In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**. - In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**. - On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
-    [![](index/_static/image6.png)](index/_static/image5.png)- On the **Confirm Installation Selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
+2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
+3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
+    ![](index/_static/image5.png)
+5. On the **Confirm Installation Selections** page, click **Install**.
+6. On the **Results** page, click **Close**.
 
 ### Windows 7
 
-1. On the taskbar, click **Start**, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**. - Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**. - Select **WebDAV Publishing**, and then click **OK**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+1. On the taskbar, click **Start**, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
+3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**.
+4. Select **WebDAV Publishing**, and then click **OK**.   
+    ![](index/_static/image7.png)
 
 ### Windows Server 2008 or Windows Vista
 
@@ -101,15 +112,15 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then go to the site, application, or directory where you want to enable directory browsing.
 3. In the **Home** pane, double-click **WebDAV Authoring Rules**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![](index/_static/image9.png)
 4. In the **Actions** pane, click **Add Authoring Rule...**  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    ![](index/_static/image11.png)
 5. In the **Add Authoring Rule** dialog, specify the following options: 
 
     - **Allow access to**: Specify whether the authoring rule should apply to all content types, or specify specific content types to allow.
     - **Allow access to this content to**: Specify whether the authoring rule should apply to all users, to specific groups or roles, or to specific users.
     - **Permissions**: Specify whether the authoring rule should allow **Read**, **Write**, or **Source** access for the specified content types and users.  
-        [![](index/_static/image14.png)](index/_static/image13.png)
+        ![](index/_static/image13.png)
 6. Click **OK**.
 
 <a id="005"></a>
@@ -151,7 +162,7 @@ The following examples configure WebDAV authoring rules so that WebDAV clients c
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

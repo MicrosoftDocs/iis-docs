@@ -1,19 +1,14 @@
 ---
-title: "Bindings &lt;bindings&gt; | Microsoft Docs"
+title: "Bindings &lt;bindings&gt;"
 author: rick-anderson
 description: "Overview The &lt;bindings&gt; element configures binding information for an IIS 7 or later Web site. It can also define the default bindings for all sites on..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: be783951-68b0-4534-b5d7-0c2623646c1c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/bindings
 msc.type: config
 ---
-Bindings &lt;bindings&gt;
-====================
+# Bindings &lt;bindings&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -71,7 +66,7 @@ The `<bindings>` element is included in the default installation of IIS 7 or lat
 <a id="005"></a>
 ## Configuration
 
-You can add a `<bindings>` element for each site in the ApplicationHost.config file, which can contain a colleciton of individual `<binding>` elements that define the individual protocol bindings for the site. Each site will need at least one HTTP or HTTPS binding to be viewable over the Internet.
+You can add a `<bindings>` element for each site in the ApplicationHost.config file, which can contain a collection of individual `<binding>` elements that define the individual protocol bindings for the site. Each site will need at least one HTTP or HTTPS binding to be viewable over the Internet.
 
 You can also use `<clear />` element in the `<bindings>` element to override binding defaults inherited from the server level `<siteDefaults>` element.
 
@@ -108,7 +103,7 @@ Or you can use:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Adding Hidden Segments &lt;add&gt; | Microsoft Docs"
+title: "Adding Hidden Segments &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;hiddenSegments&gt; collection specifies a unique URL segment to add to the collection of hidden segments for Inte..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8ac7f527-f52b-42d6-b28b-6c54e1a394c5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/hiddensegments/add
 msc.type: config
 ---
-Adding Hidden Segments &lt;add&gt;
-====================
+# Adding Hidden Segments &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -144,7 +139,11 @@ The following code samples will configure two options: they will configure IIS t
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

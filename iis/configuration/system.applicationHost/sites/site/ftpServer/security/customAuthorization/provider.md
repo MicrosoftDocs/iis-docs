@@ -1,19 +1,14 @@
 ---
-title: "FTP Custom Authorization Provider &lt;provider&gt; | Microsoft Docs"
+title: "FTP Custom Authorization Provider &lt;provider&gt;"
 author: rick-anderson
 description: "Overview The &lt;provider&gt; element specifies the settings for custom authorization of an FTP site. This form of authorization uses custom authorization pr..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ec40d903-af01-46a1-80d0-607c528e296f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/customauthorization/provider
 msc.type: config
 ---
-FTP Custom Authorization Provider &lt;provider&gt;
-====================
+# FTP Custom Authorization Provider &lt;provider&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -83,7 +78,7 @@ To support FTP authorization using a custom provider on your FTP site, you must 
     [![](provider/_static/image2.png)](provider/_static/image1.png)  
   
     > [!NOTE]
-    > When a custom FTP authorization provider has been enabled, the     **FTP Authorization Rules** feature is disabled.
+    > When a custom FTP authorization provider has been enabled, the **FTP Authorization Rules** feature is disabled.
 6. Click **OK**.
  
 <a id="005"></a>
@@ -124,27 +119,22 @@ The following code samples configure a custom authorization provider.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
   
-
-### C#
+### C\#
 
 [!code-csharp[Main](provider/samples/sample4.cs)]
   
-
 ### VB.NET
 
 [!code-vb[Main](provider/samples/sample5.vb)]
   
-
 ### JavaScript
 
 [!code-javascript[Main](provider/samples/sample6.js)]
   
-
 ### VBScript
 
 [!code-vb[Main](provider/samples/sample7.vb)]
   
-
 ### PowerShell
 
 [!code-powershell[Main](provider/samples/sample8.ps1)]

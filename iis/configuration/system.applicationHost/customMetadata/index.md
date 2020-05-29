@@ -1,19 +1,14 @@
 ---
-title: "Custom Metadata &lt;customMetadata&gt; | Microsoft Docs"
+title: "Custom Metadata &lt;customMetadata&gt;"
 author: rick-anderson
 description: "Overview The &lt;customMetadata&gt; element contains settings that are used internally by the metabase compatibility feature of Internet Information Services..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 4a0ba094-48b1-47cc-bc33-f2a922ebe2cf
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/custommetadata
 msc.type: config
 ---
-Custom Metadata &lt;customMetadata&gt;
-====================
+# Custom Metadata &lt;customMetadata&gt;
+
 <a id="001"></a>
 ## Overview
 

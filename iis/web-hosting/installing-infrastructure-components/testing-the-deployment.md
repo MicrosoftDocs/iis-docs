@@ -1,19 +1,14 @@
 ---
-title: "Testing the Deployment | Microsoft Docs"
+title: "Testing the Deployment"
 author: walterov
 description: "Before deployment into production, tests must be executed for each server component, in addition to testing the Windows PE media to assure proper operation...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: c9d5ff75-6ff0-44a1-877d-f5c1954a7fd4
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/testing-the-deployment
 msc.type: authoredcontent
 ---
-Testing the Deployment
-====================
+# Testing the Deployment
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Prerequisites

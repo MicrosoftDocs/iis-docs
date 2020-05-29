@@ -1,19 +1,14 @@
 ---
-title: "Configure Request Filtering in IIS | Microsoft Docs"
+title: "Configure Request Filtering in IIS"
 author: rmcmurray
 description: "This document shows you how to use common request-filter settings to improve the security of your IIS 8 web server. Request filters restrict the types of HTT..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 7b927031-68af-4229-8e9e-0b8bec4e346f
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/configure-request-filtering-in-iis
 msc.type: authoredcontent
 ---
-Configure Request Filtering in IIS
-====================
+# Configure Request Filtering in IIS
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 This document shows you how to use common request-filter settings to improve the security of your IIS 8 web server.
@@ -347,12 +342,12 @@ The following table shows the request filter error codes that you see in the log
 | Request Filtering: Verb denied | 404.6 |
 | Request Filtering: File name extension denied | 404.7 |
 | Request Filtering: Denied by hidden segment | 404.8 |
-| Request Filtering: Denied because request header is too long. | 404.10 |
 | Request Filtering: Denied because URL doubled escaping | 404.11 |
 | Request Filtering: Denied because of high bit characters | 404.12 |
-| Request Filtering: Denied because content length too large | 404.13 |
 | Request Filtering: Denied because URL too long | 404.14 |
 | Request Filtering: Denied because query string too long | 404.15 |
+| Request Filtering: Denied because content length too large | 413.1 |
+| Request Filtering: Denied because request header is too long. | 431 |
 
 ## See Also
 

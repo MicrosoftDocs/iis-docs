@@ -1,24 +1,19 @@
 ---
-title: "Best Practices for PHP on the Microsoft Web Platform | Microsoft Docs"
+title: "Best Practices for PHP on the Microsoft Web Platform"
 author: rick-anderson
 description: "Introduction There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for you..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 75b33d8e-3c3e-472e-9973-b41ced1a7ebb
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform
 msc.type: authoredcontent
 ---
-Best Practices for PHP on the Microsoft Web Platform
-====================
+# Best Practices for PHP on the Microsoft Web Platform
+
 by Tali Smith
 
 ## Introduction
 
-There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for your Web workloads and PHP applications. These procedures can be generally be performed from the UI by running Appcmd.exe commands in a command-line window and editing configuration files directly or by writing Windows® Management Instrumentation (WMI) scripts.
+There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for your Web workloads and PHP applications. These procedures can be generally be performed from the UI by running Appcmd.exe commands in a command-line window and editing configuration files directly or by writing Windows&reg; Management Instrumentation (WMI) scripts.
 
 ## Configure PHP Process Recycling Behavior
 
@@ -56,9 +51,7 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 
 To configure the recycling behavior of FastCGI and PHP via **appcmd**, use the following commands:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample1.cmd)]
-
 
 ## Disable Unneeded Services and Processes
 
@@ -95,9 +88,7 @@ To use the UI, open the IIS Manager and navigate to the level you want to manage
 
 To use the command line to disable logging, use the following syntax:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample2.cmd)]
-
 
 ## Enable Bandwidth Throttling
 
@@ -143,9 +134,7 @@ The HTTP keep-alive response header improves Web server performance by keeping a
 
 To enable the HTTP keep-alive header from the command line, use the following syntax:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample3.cmd)]
-
 
 ## Use HTTP Compression
 
@@ -166,9 +155,7 @@ You can configure HTTP compression by using the UI, by running Appcmd.exe comman
 
 For example, to enable dynamic content compression from the command line, type the following and press ENTER:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample4.cmd)]
-
 
 To enable compression on a particular site from the UI, select the site, and then, from the Work pane, select the Compression management tool. Choose whether you want to compress static content, dynamic content, or both.
 
@@ -197,9 +184,7 @@ You can enable Forms Authentication by using the UI, running Appcmd.exe in a com
 
 To enable or disable Forms Authentication from the command line, use the following syntax:
 
-
 [!code-console[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample5.cmd)]
-
 
 ## Manage IIS 7.0 and above with the PowerShell Provider
 
@@ -224,9 +209,7 @@ The IIS PowerShell Provider allows you to:
 
 For example, you can create a new application pool from the PowerShell Provider. This only requires the name to be specified.
 
-
 [!code-powershell[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample6.ps1)]
-
 
 For more information, see the article "[Managing IIS with the IIS 7.0 and Above PowerShell Snap-in](../../manage/powershell/index.md)."
 
@@ -264,9 +247,7 @@ In an attempt to solve these problems, the IIS team developed the FastCGI compon
 
 IIS uses a configuration file named web.config. This file can be placed at any point within an application, and is used to include Web server directives that affect that directory and the ones below it. Many applications currently distribute the file .htaccess, which provides a similar set of capabilities. You can use the web.config file to identify the default document for your application, as follows:
 
-
 [!code-xml[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample7.xml)]
-
 
 The bold **remove** entry in this example is required. If there is a previous definition for Index.php, this will remove it and place the new one at the top of the default document list. If there isn't a previous one, the remove will be ignored.
 
@@ -276,9 +257,7 @@ IIS includes a URL Rewriter module comprising a complete, expression-based engin
 
 A typical simple rewrite rule, which converts all requests that come in to *http.example.com* into `http://www.example.com`, is shown in the following code:
 
-
 [!code-xml[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample8.xml)]
-
 
 ## Use the Request Filtering Module
 
@@ -286,9 +265,7 @@ IIS uses the Request Filtering module to limit browser access to files or direct
 
 An example of how to use request filtering to block access to certain types of files, such as include or log files, follows:
 
-
 [!code-xml[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample9.xml)]
-
 
 ## IIS 6.0 and 5.1
 
@@ -296,17 +273,17 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 
 ## Links for Further Information
 
-- [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/en-us/library/cc770381(WS.10).aspx).
-- [Windows Server Performance Team Blog](http://blogs.technet.com/winserverperformance/archive/2008/07/25/tuning-windows-server-2008-for-php.aspx)
-- [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/en-us/magazine/2008.09.iis.aspx).
-- [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/en-us/library/cc754631.aspx).
+- [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/library/cc770381(WS.10).aspx).
+- [Windows Server Performance Team Blog](https://docs.microsoft.com/archive/blogs/winserverperformance/tuning-windows-server-2008-for-php)
+- [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/magazine/2008.09.iis.aspx).
+- [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/library/cc754631.aspx).
 - [IIS 7.0 Bit Rate Throttling Module Released](https://weblogs.asp.net/scottgu/archive/2008/03/18/iis-7-0-bit-rate-throttling-module-released.aspx)
 - [Bit Rate Throttling is now released](https://blogs.iis.net/vsood/archive/2008/03/15/bit-rate-throttling-is-now-released.aspx).
-- [Configuring HTTP Compression in IIS 7](https://technet.microsoft.com/en-us/library/cc771003.aspx).
-- [Build Web Server Solutions with End-To-End Extensibility](https://msdn.microsoft.com/en-us/magazine/cc164241.aspx)
+- [Configuring HTTP Compression in IIS 7](https://technet.microsoft.com/library/cc771003.aspx).
+- [Build Web Server Solutions with End-To-End Extensibility](https://msdn.microsoft.com/magazine/cc164241.aspx)
 - [How to Get Started Extending Module Properties for IIS 7.0 and Above in IIS Manager](../../develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager.md).
 - [How to Take Advantage of the IIS 7.0 and Above Integrated Pipeline](../building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md)
-- [Enable Forms Authentication (IIS 7)](https://technet.microsoft.com/en-us/library/cc771077.aspx).
+- [Enable Forms Authentication (IIS 7)](https://technet.microsoft.com/library/cc771077.aspx).
 - [How to Use Request Filtering](../../manage/configuring-security/use-request-filtering.md).
 - [Importing Apache mod\_rewrite Rules](../../extensions/url-rewrite-module/importing-apache-modrewrite-rules.md).
 - [Translating .htaccess Content to IIS web.config](../install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig.md).

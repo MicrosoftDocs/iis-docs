@@ -1,19 +1,14 @@
 ---
-title: "Install WordPress on IIS | Microsoft Docs"
+title: "Install WordPress on IIS"
 author: rick-anderson
 description: "Introduction WordPress is a blog publishing application and content management system. According to wordpress.org, WordPress is “a state-of-the-art semantic..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/18/2007
-ms.topic: article
 ms.assetid: 788066e2-c44d-4cea-b1fc-6ae6cab25454
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis
 msc.type: authoredcontent
 ---
-Install WordPress on IIS
-====================
+# Install WordPress on IIS
+
 by Eric Woersching
 
 ## Introduction

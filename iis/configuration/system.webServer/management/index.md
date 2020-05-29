@@ -1,19 +1,14 @@
 ---
-title: "Management &lt;management&gt; | Microsoft Docs"
+title: "Management &lt;management&gt;"
 author: rick-anderson
 description: "Overview The &lt;management&gt; element specifies remote management settings for users that connect to your server using IIS Manager. The &lt;management&gt;..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 160f5b83-b911-4434-aa0e-904b9ea565fe
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management
 msc.type: config
 ---
-Management &lt;management&gt;
-====================
+# Management &lt;management&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -203,7 +198,7 @@ The following code samples add an IIS Manager user account named ContosoUser to 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authentication>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 
@@ -226,7 +221,7 @@ The following code samples check to see if a `<scope>` element has already been 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authorization>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample8.cs)]
 

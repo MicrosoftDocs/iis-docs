@@ -1,19 +1,14 @@
 ---
-title: "Amazon EC2: Microsoft Web Platform Images - Media Server | Microsoft Docs"
+title: "Amazon EC2: Microsoft Web Platform Images - Media Server"
 author: thomasdeml
 description: "Introduction One thing we often hear from Web developers and administrators, especially those who offer Web site design and consulting services, is the need..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2010
-ms.topic: article
 ms.assetid: 9abe09f8-9e47-4f46-a054-f234676f3c1e
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-media-server
 msc.type: authoredcontent
 ---
-Amazon EC2: Microsoft Web Platform Images - Media Server
-====================
+# Amazon EC2: Microsoft Web Platform Images - Media Server
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
@@ -136,7 +131,7 @@ Once you have done this it will take a few moments until the streaming of the vi
 
 ### Connect via Remote Desktop
 
-Now its time to look at how the site is configured to run Smooth Streaming files. For that we need to connect via the Remote Desktop Protocol to the the Media Server instance. Right click the instance and select "Connect".
+Now its time to look at how the site is configured to run Smooth Streaming files. For that we need to connect via the Remote Desktop Protocol to the Media Server instance. Right click the instance and select "Connect".
 
 [![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image32.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image31.png)
 
@@ -144,8 +139,7 @@ Click "Download shortcut file" in the dialog that follows:
 
 [![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image34.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image33.png)
 
-
-The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefoxes Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
+The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
 Once connected you will get logged on to the remote machine.
 
 #### Smooth Streaming Content
@@ -156,7 +150,7 @@ Now open the `c:\inetpub\wwwroot` directory. You will see the following files:
 
 The file extensions starting with .is\* are the Smooth Streaming files in their different bandwidths. To get started on how to create your own Smooth Streaming files please go to [https://www.iis.net/learn/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md).
 
-The Microsoft.Web.Media.SmoothStreaming.dll assembly represents the media player that provides [MediaElement](https://msdn.microsoft.com/en-us/library/system.windows.controls.mediaelement.aspx) capabilities and the SmoothStreamingSamplePlayer.xap file is the compilled Silverlight application that displays the Media Player. The two other files (iisstart.htm and iisstart.htm are the previous default documents in the wwwroot directory - you can delete them if you want.
+The Microsoft.Web.Media.SmoothStreaming.dll assembly represents the media player that provides [MediaElement](https://msdn.microsoft.com/library/system.windows.controls.mediaelement.aspx) capabilities and the SmoothStreamingSamplePlayer.xap file is the compilled Silverlight application that displays the Media Player. The two other files (iisstart.htm and iisstart.htm are the previous default documents in the wwwroot directory - you can delete them if you want.
 
 Now let's quickly look into default.htm. The two important pieces are the source for the Silverlight app. If you have your own Silverlight player application you want to replace it with your .xap file. The mediaSource element is the second important setting in the default.htm. It represents the Smooth Streaming media stream.
 

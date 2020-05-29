@@ -1,19 +1,14 @@
 ---
-title: "Editing Collections with Configuration Editor | Microsoft Docs"
+title: "Editing Collections with Configuration Editor"
 author: rlucero
 description: "Learn how to use Configuration Editor to edit collections. For this example we will be configuring Output Caching to highlight the new functionality. Prerequ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/20/2008
-ms.topic: article
 ms.assetid: 6c23bdc8-496b-4b9f-b9cd-65fd1d281132
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/editing-collections-with-configuration-editor
 msc.type: authoredcontent
 ---
-Editing Collections with Configuration Editor
-====================
+# Editing Collections with Configuration Editor
+
 by [Robert Lucero](https://github.com/rlucero)
 
 ## Walkthrough Goal

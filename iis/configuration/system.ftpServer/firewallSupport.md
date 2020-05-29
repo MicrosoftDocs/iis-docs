@@ -1,30 +1,24 @@
 ---
-title: "FTP Firewall Support &lt;firewallSupport&gt; | Microsoft Docs"
+title: "FTP Firewall Support &lt;firewallSupport&gt;"
 author: rick-anderson
 description: "Overview The &lt;system.ftpServer/firewallSupport&gt; element is used to configure the port range that the FTP service will use for data channel activity whe..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3ef78302-f0b5-4ba7-a1f1-adb6768df2af
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/firewallsupport
 msc.type: config
 ---
-FTP Firewall Support &lt;firewallSupport&gt;
-====================
+# FTP Firewall Support &lt;firewallSupport&gt;
+
 <a id="001"></a>
 ## Overview
 
-The `<system.ftpServer/firewallSupport>` element is used to configure the port range that the FTP service will use for data channel activity when when you use the FTP PASV command to negotiate passive connections, which contains IP address and port of the server.
+The `<system.ftpServer/firewallSupport>` element is used to configure the port range that the FTP service will use for data channel activity when you use the FTP PASV command to negotiate passive connections, which contains IP address and port of the server.
 
 When passive connections are negotiated using the FTP PASV command, the FTP server sends a response which contains IP address and port of the server. By specifying the `lowDataChannelPort` and `highDataChannelPort` attributes, you can direct FTP clients to communicate with your firewall, which should route the client traffic to your FTP server.
 
 The valid range for TCP/IP ports is 1025 through 65535. (Ports from 1 through 1024 are reserved for use by system services.) You can enter a special port range of "0-0" to configure the FTP server to use the Windows TCP/IP ephemeral port range. In early versions of Windows, the TCP/IP ephemeral port range was set to use ports 1025 through 5000. Starting with Windows Vista and Windows Server 2008, the TCP/IP ephemeral port range has been changed to 49152 through 65535. For more information about the ephemeral port range, see the following article in the Microsoft Knowledge Base:
 
 > [929851: The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008](https://support.microsoft.com/kb/929851/)
-
 
 > [!NOTE]
 > You can use the [`<ftpServer/firewallSupport>`](../system.applicationhost/sites/site/ftpserver/firewallsupport.md) to configure the per-site external IP address for your firewall; this allows you to route the firewall traffic for each site through a different firewall.
@@ -43,9 +37,8 @@ The valid range for TCP/IP ports is 1025 through 65535. (Ports from 1 through 10
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
@@ -62,7 +55,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
     [![](firewallSupport/_static/image2.png)](firewallSupport/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -75,7 +68,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.   
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](firewallSupport/_static/image4.png)](firewallSupport/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -89,7 +82,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](firewallSupport/_static/image6.png)](firewallSupport/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -103,7 +96,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](firewallSupport/_static/image8.png)](firewallSupport/_static/image7.png)
 5. Click **OK**.
 
@@ -112,9 +105,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
 ## How To
@@ -150,8 +143,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 For additional information about how to configure the firewall settings for the FTP service, see the following topic on the Microsoft IIS.net Web site:
 
 > **Configuring FTP Firewall Settings**  
-> [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/en-us/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
-
+> [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
 
 <a id="005"></a>
 ## Configuration
@@ -186,7 +178,6 @@ The following sample illustrates several configuration settings in the global `<
 - Add a global authorization rule that allows access for the administrators group.
 - Specify that domain name syntax can be used for FTP virtual host names.
 
-
 [!code-xml[Main](firewallSupport/samples/sample1.xml)]
 
 <a id="006"></a>
@@ -201,7 +192,7 @@ The following examples configure the FTP service to use the port range of 5000 t
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](firewallSupport/samples/sample3.cs)]
 

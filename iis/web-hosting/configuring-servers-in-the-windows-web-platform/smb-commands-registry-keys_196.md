@@ -1,19 +1,14 @@
 ---
-title: "SMB Command Registry Keys | Microsoft Docs"
+title: "SMB Command Registry Keys"
 author: walterov
 description: "On Windows servers, each connection uses the identity of a unique user to connect to another server by using an SMB (Server Message Block) connection. A conn..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: cc346e62-1616-4fe5-a727-cb79308d3081
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys_196
 msc.type: authoredcontent
 ---
-SMB Command Registry Keys
-====================
+# SMB Command Registry Keys
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -39,6 +34,6 @@ When using a remote file server for content or configuration files, you must set
 4. If it does not exist, create a DWORD "MaxWorkItems" and set the value to 2000 hexadecimal. This specifies a value of 8,192 decimal, or 4x the MaxMptCt.
 5. Reboot the machine.
 
-For information on the length limitation of the pathname of the share (\\server\share) see [https://msdn.microsoft.com/en-us/library/cc246567.aspx](https://msdn.microsoft.com/en-us/library/cc246567.aspx)
+For information on the length limitation of the pathname of the share (\\server\share) see [https://msdn.microsoft.com/library/cc246567.aspx](https://msdn.microsoft.com/library/cc246567.aspx)
 
 For instructions to configure the Web Server SMB registry keys see: [https://www.iis.net/learn/web-hosting/web-server-for-shared-hosting/smb-commands-registry-keys\_198](../web-server-for-shared-hosting/smb-commands-registry-keys_198.md)

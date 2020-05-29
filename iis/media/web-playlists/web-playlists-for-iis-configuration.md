@@ -1,19 +1,14 @@
 ---
-title: "Web Playlists for IIS 7 - Configuration | Microsoft Docs"
+title: "Web Playlists for IIS 7 - Configuration"
 author: rick-anderson
 description: "Web Playlists for Internet Information Services (IIS) provides the ability to control media delivery to clients and limit a client’s ability to seek or skip..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/27/2008
-ms.topic: article
 ms.assetid: a3856239-50c7-449f-b536-67d1cadc4b80
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-configuration
 msc.type: authoredcontent
 ---
-Web Playlists for IIS 7 - Configuration
-====================
+# Web Playlists for IIS 7 - Configuration
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists for Internet Information Services (IIS) provides the ability to control media delivery to clients and limit a client's ability to seek or skip individual entries in the playlist. This article provides information about the settings possible through the Web Playlists configuration files.
@@ -50,7 +45,7 @@ Before creating a playlist, be aware of the following playlist handler attribute
 | **sessionOptions** | Sets timeouts for a particular session. |
 | **accessOptions** | Sets impersonation settings for a particular path that can then be used inside a playlist. |
 | **playlistProviders** | Web Playlists provides a mechanism to write custom providers.This element stores the configuration for the available providers. |
-| **ouputFormts** | A collection to specify an output format extension to web Playlists. This allows you to specify format name, XSLT path and the content type related to the format |
+| **outputFormats** | A collection to specify an output format extension to web Playlists. This allows you to specify format name, XSLT path and the content type related to the format |
 
 <a id="schema"></a>
 

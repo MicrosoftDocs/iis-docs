@@ -1,24 +1,19 @@
 ---
-title: "Adding IE 9 MIME Types to IIS 7 | Microsoft Docs"
+title: "Adding IE 9 MIME Types to IIS 7"
 author: rick-anderson
 description: "The preview release of Microsoft Internet Explorer (IE) version 9 includes support for additional MIME Types for rich media applications. To support the addi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/23/2010
-ms.topic: article
 ms.assetid: 58cade70-6cd2-48e2-9550-98b053e4fcae
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/adding-ie-9-mime-types-to-iis
 msc.type: authoredcontent
 ---
-Adding IE 9 MIME Types to IIS 7
-====================
+# Adding IE 9 MIME Types to IIS 7
+
 by Randall DuBois
 
 The preview release of Microsoft Internet Explorer (IE) version 9 includes support for additional MIME Types for rich media applications. To support the additional MIME Types, the MIME types must be added to your IIS server.
 
-The following additonal MIME types are supported in IE 9:
+The following additional MIME types are supported in IE 9:
 
 | File name extension | MIME type |
 | --- | --- |
@@ -26,7 +21,7 @@ The following additonal MIME types are supported in IE 9:
 | .xht | application/xhtml+xml |
 | .xhtml | application/xhtml+xml |
 
-To learn more about the preview release of IE 9, see [http://ie.microsoft.com/testdrive/](http://ie.microsoft.com/testdrive/). The [Release Notes](http://ie.microsoft.com/testdrive/info/ReleaseNotes/Default.html) contain information about the new features supported in IE 9.
+To learn more about the preview release of IE 9, see [http://ie.microsoft.com/testdrive/](https://ie.microsoft.com/testdrive/). The [Release Notes](https://ie.microsoft.com/testdrive/info/ReleaseNotes/Default.html) contain information about the new features supported in IE 9.
 
 To add these MIME types to your IIS server, you can:
 

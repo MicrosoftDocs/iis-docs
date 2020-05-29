@@ -1,19 +1,14 @@
 ---
-title: "Accessing Configuration Sections Using Microsoft.Web.Administration (MWA) | Microsoft Docs"
+title: "Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)"
 author: rick-anderson
 description: "Abstract This article shows how configuration sections in the IIS configuration files (applicationHost.config and web.config) can be accessed programmaticall..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 4845970c-5a5f-435e-b44c-9bc2637f3262
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/accessing-configuration-sections-using-microsoftwebadministration-mwa
 msc.type: authoredcontent
 ---
-Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)
-====================
+# Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Abstract
@@ -30,17 +25,13 @@ This article provides examples of programmatic access to the IIS configuration s
 
 An example of a section that has nested elements is the system.webServer/asp section. The "session" element is defined within the "asp" section. The schema for this section is as shown below. There are other properties in the schema and other nested elements which are not shown in the example.
 
-
 [!code-xml[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample1.xml)]
-
 
 ### Sections with a collection
 
 A section having a collection of elements indexed by a key is the system.webServer/security/isapiCgiRestriction section. The schema for the section is as shown.
 
-
 [!code-xml[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample2.xml)]
-
 
 ## Generic Access to the Sections
 
@@ -54,17 +45,13 @@ Microsoft.Web.Administration provides several generic base classes which represe
 
 The example below shows how the nested elements can be accessed in the system.webServer/asp section.
 
-
 [!code-csharp[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample3.cs)]
-
 
 The ServerManager class is the entry point to access the various server settings. We set the properties in the applicationHost.config files, but these properties can also be accessed and changed in the web.config files of individual sites and applications. The CommitChanges call saves the changed settings.
 
 The next example shows how to iterate through elements in a collection and add elements to it.
 
-
 [!code-csharp[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample4.cs)]
-
 
 ## Strongly Typed Classes to Access the Sections
 
@@ -72,37 +59,28 @@ Strongly typed classes derived from the generic base classes can be written in o
 
 The example below shows the wrapper for the system.webServer/asp section and the "session" element for that section. All the properties in that section are not included in this snippet.
 
-
 [!code-csharp[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample5.cs)]
-
 
 The GetChildElement call in the above example is used to access a nested element in a configuration element (a section, collection element etc.). Calling base[...] wraps the GetAttributeValue and SetAttributeValue classes which retrieves and sets the values for those attributes.
 
 The next example shows how the properties in a nested element can be accessed in a strongly typed manner.
 
-
 [!code-csharp[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample6.cs)]
-
 
 Observe the call to config.GetSection which takes a section path and also the type of section you want to create. By default calls to config.GetSection create a ConfigurationSection and in order to get an instance of a strongly typed wrapper you need to pass in a type.
 
 Here is an example of how to create strongly typed classes for a section which has a collection. This example uses the system.webServer/security/isapiCgiRestriction section. This snippet does not include all the properties that are present on this section.
 
-
 [!code-csharp[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample7.cs)]
-
 
 The GetCollection method of the base class (ConfigurationElement) is used to access the default collection for that element.
 
 The next example shows the strongly typed classes for the collection itself and the elements in the collection.
 
-
 [!code-csharp[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample8.cs)]
-
 
 For the strongly typed collection class it is very useful to be able to index into the collection using the collection key, which in this case is the "path" attribute. The parameter to the Add method takes the required properties for that element. In this case the Add could have only taken the "path" attribute and then the "allowed" attribute would then have its default value.
 
 Here is an example using these strongly typed classes to iterate through the entries in a collection and to add an element to it.
-
 
 [!code-csharp[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample9.cs)]

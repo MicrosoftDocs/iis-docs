@@ -1,19 +1,14 @@
 ---
-title: "How to Configure WebDAV with Request Filtering | Microsoft Docs"
+title: "How to Configure WebDAV with Request Filtering"
 author: rmcmurray
 description: "Introduction Microsoft released a new WebDAV extension module that was completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Windows Server..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/14/2008
-ms.topic: article
 ms.assetid: 7cca593d-4d66-4d8b-a764-37ca1a67201c
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-configure-webdav-with-request-filtering
 msc.type: authoredcontent
 ---
-How to Configure WebDAV with Request Filtering
-====================
+# How to Configure WebDAV with Request Filtering
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 <a id="00"></a>
@@ -123,7 +118,6 @@ After completing the above steps the resulting code in the **fileExtensions** se
 
 [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample5.xml)]
 
-
 #### Notes:
 
 - You can use the above steps to block access to additional file extensions by adding them to the **fileExtensions** collection, or you can modify the syntax to allow specific files by specifying **true** for the **allowed** attribute.
@@ -155,7 +149,6 @@ After completing the above steps the resulting code in the **hiddenSegments** se
 
 [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample10.xml)]
 
-
 #### Notes:
 
 - You can use the above steps to hide additional file segments by adding them to the **hiddenSegments** collection.
@@ -183,7 +176,6 @@ The default request filtering **verbs** collection allows all unlisted HTTP verb
 After completing the above steps the resulting code in the **verbs** section of your applicationHost.config file should resemble the following example:
 
 [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample15.xml)]
-
 
 #### Notes:
 

@@ -1,25 +1,19 @@
 ---
-title: "FTP Credentials Cache &lt;credentialsCache&gt; | Microsoft Docs"
+title: "FTP Credentials Cache &lt;credentialsCache&gt;"
 author: rick-anderson
 description: "Overview The &lt;credentialsCache&gt; element of the &lt;caching&gt; element specifies the credential settings for the FTP service. The FTP service caches us..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 355972b6-e9b0-494c-bc33-2cb9cdc82ad8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/caching/credentialscache
 msc.type: config
 ---
-FTP Credentials Cache &lt;credentialsCache&gt;
-====================
+# FTP Credentials Cache &lt;credentialsCache&gt;
+
 <a id="001"></a>
 ## Overview
 
 The `<credentialsCache>` element of the [`<caching>`](index.md) element specifies the credential settings for the FTP service.   
   
-
 The FTP service caches user credentials for performance reasons, thereby decreasing the time that is required to authenticate clients and reducing the overhead that is associated with looking up user credentials in the security store that is in use. For example, when using FTP Basic authentication, user credentials are stored in the local accounts database on the server where the FTP service is running, or on a domain controller. If you are using .NET membership credentials, the user accounts are stored in a database. If the domain accounts or membership database are stored on a remote computer, then credential caching will help offset the time that is necessary to validate accounts. On an FTP server with a large number of account logins, this can substantially increase performance.
 
 When your security requirements dictate that credentials must be flushed immediately, you can configure credential caching to suit your environment. For example, if you change a password after you have successfully logged in to your FTP site, your old credentials may be cached for the duration of the cache time-out. In a network topology where this is likely to occur with regularity, you might want to decrease the cache time-out or disable caching.
@@ -40,9 +34,8 @@ Credential caching is enabled by default for FTP 7.0, FTP 7.5, and FTP 8.0. Cred
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
  
@@ -59,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
     [![](credentialsCache/_static/image2.png)](credentialsCache/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -72,7 +65,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.   
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](credentialsCache/_static/image4.png)](credentialsCache/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -86,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](credentialsCache/_static/image6.png)](credentialsCache/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -100,7 +93,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](credentialsCache/_static/image8.png)](credentialsCache/_static/image7.png)
 5. Click **OK**.
 
@@ -109,9 +102,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
 ## How To
@@ -154,9 +147,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 > This section contains information about how to modify your IIS settings by using the IIS Configuration Editor. Incorrectly editing your IIS configuration settings can severely damage your IIS installation. Therefore, make sure that you follow these steps carefully. For added security, you should back up your IIS configuration settings before you use the IIS Configuration Editor to make any modifications. For more information about how to back up your IIS configuration settings and how to use the IIS Configuration Editor, see the following topics:
 
 - **How to Back Up an IIS 7 Configuration**  
-    [https://technet.microsoft.com/en-us/library/dd819406.aspx](https://technet.microsoft.com/en-us/library/dd819406.aspx)
+    [https://technet.microsoft.com/library/dd819406.aspx](https://technet.microsoft.com/library/dd819406.aspx)
 - **Configuration Editor Page**  
-    [https://technet.microsoft.com/en-us/library/dd569081.aspx](https://technet.microsoft.com/en-us/library/dd569081.aspx)
+    [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
  
 <a id="005"></a>
 ## Configuration
@@ -198,7 +191,7 @@ The following examples enable FTP credential caching for a server, and set the c
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](credentialsCache/samples/sample3.cs)]
 

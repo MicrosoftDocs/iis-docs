@@ -1,19 +1,14 @@
 ---
-title: "Application Request Routing Version 2 Overview | Microsoft Docs"
+title: "Application Request Routing Version 2 Overview"
 author: rick-anderson
 description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Microsoft Application Request Routing (ARR..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: e3c34cfb-604c-4ef2-bf05-0ac975f9eeab
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/planning-for-arr/application-request-routing-version-2-overview
 msc.type: authoredcontent
 ---
-Application Request Routing Version 2 Overview
-====================
+# Application Request Routing Version 2 Overview
+
 by IIS Team
 
 ## Introduction
@@ -37,7 +32,6 @@ ARR Version 2 is an incremental release that includes all of the features from V
 > - Previous releases of ARR Version 2 (Beta1, Beta2 and RC) and the ARR Version 2 RTW cannot be installed side-by-side.
 > - ARR Version 2 RTW supports upgrading from ARR Version 1 RTW and from ARR Version 2 RC. If any other version of ARR is already installed, uninstall it before proceeding with the ARR Version 2 installation.
 > - The minimum supported resolution for IIS Manager is 1024x768.
-
 
 ## Features
 

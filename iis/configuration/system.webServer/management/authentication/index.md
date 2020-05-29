@@ -1,19 +1,14 @@
 ---
-title: "Management Authentication &lt;authentication&gt; | Microsoft Docs"
+title: "Management Authentication &lt;authentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;authentication&gt; element of the &lt;management&gt; element specifies authentication credentials for IIS Manager user accounts. IIS Manager..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3e5f44c5-bfde-4dc3-96c9-2a3d1f4257dd
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authentication
 msc.type: config
 ---
-Management Authentication &lt;authentication&gt;
-====================
+# Management Authentication &lt;authentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -165,7 +160,7 @@ The following code samples add an IIS Manager user account named ContosoUser to 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authentication>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 
@@ -199,7 +194,7 @@ The following code examples add an authentication provider named ContosoAuthenti
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample7.cs)]
 

@@ -1,22 +1,18 @@
 ---
-title: "Create a Website from a Gallery Application | Microsoft Docs"
+title: "Create a Website from a Gallery Application"
 author: rmcmurray
-description: "[This is preliminary documentation and is subject to change.] Microsoft has created a new authoring tool for the web named 'WebMatrix,' which is focused on c..."
-ms.author: iiscontent
-manager: soshir
+description: "Microsoft has created a new authoring tool for the web named 'WebMatrix,' which is focused on c..."
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 125b64c2-ea67-415e-8745-d48e0ad3a363
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/create-a-website-from-a-gallery-application
 msc.type: authoredcontent
+ROBOTS: NOINDEX,NOFOLLOW
 ---
-Create a Website from a Gallery Application
-====================
+# Create a Website from a Gallery Application
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
-[This is preliminary documentation and is subject to change.]
+[!include[outdatedContent](../../includes/outdatedContentWarning.md)]
 
 Microsoft has created a new authoring tool for the web named "WebMatrix," which is focused on creating websites the way that you want to create them. You can create websites from scratch or a template, or you can use one of several popular open source applications. WebMatrix Beta lets you download an application from an application gallery, customize it for your needs, analyze it for broken links, optimize it for the web, and deploy it to your hosting provider. (And if you don't have a hosting provider, WebMatrix Beta can help you find one!)
 
@@ -115,7 +111,6 @@ After you've finished creating and modifying your website, it's time to publish 
 And after you've selected a hosting company, WebMatrix Beta takes care of all the publishing details for you.
 
 [![](create-a-website-from-a-gallery-application/_static/image55.png)](create-a-website-from-a-gallery-application/_static/image54.png)
-
 
 To actually publish your site, WebMatrix Beta has built-in support for FTP, FTPS, and Microsoft Web Deploy, which is a one-click publishing solution. Once you've established an account with an Internet hosting company, enter your account settings into the WebMatrix Beta tool. Then all you have to do to publish your site directly from WebMatrix Beta is click **Publish**. It's as easy as that!
 

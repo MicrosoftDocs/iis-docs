@@ -1,19 +1,14 @@
 ---
-title: "Windows Web App Gallery FAQ | Microsoft Docs"
+title: "Windows Web App Gallery FAQ"
 author: SunBuild
 description: ""
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/18/2012
-ms.topic: article
 ms.assetid: 0fda743d-d99e-4172-8e4e-ec1d448281b8
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/frequently-asked-questions
 msc.type: authoredcontent
 ---
-Windows Web App Gallery FAQ
-====================
+# Windows Web App Gallery FAQ
+
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 ## Frequently Asked Questions
@@ -24,7 +19,7 @@ Here is a list of frequently asked questions designed to provide a better unders
  A. You can submit your application at the following URL:
 
 - *Windows Web App Gallery for Developers*  
-    [http://webgallery.microsoft.com](http://webgallery.microsoft.com/)
+    <https://webgallery.microsoft.com>
 
 **Q. Is my web application qualified to be part of Windows Web Application Gallery?**  
  A. Your web application must satisfy the following principles in order to be a part of Web Application Gallery. If you have more questions, please contact [appgal@microsoft.com](mailto:appgal@microsoft.com).

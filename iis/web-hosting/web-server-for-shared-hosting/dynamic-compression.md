@@ -1,19 +1,14 @@
 ---
-title: "Dynamic Compression | Microsoft Docs"
+title: "Dynamic Compression"
 author: walterov
 description: "Dynamic compression can save a significant amount of bandwidth with a tradeoff in using extra CPU. If bandwidth savings are more important than additional CP..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: c4482a67-804d-431f-8fb8-d81df610e295
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/dynamic-compression
 msc.type: authoredcontent
 ---
-Dynamic Compression
-====================
+# Dynamic Compression
+
 by [Walter Oliver](https://github.com/walterov)
 
 Dynamic compression can save a significant amount of bandwidth with a tradeoff in using extra CPU. If bandwidth savings are more important than additional CPU, and the server is not currently bound by CPU, enable dynamic compression.
@@ -26,6 +21,5 @@ The amount of CPU used by dynamic compression can be controlled by a setting on 
 **To configure dynamic compression**
 
 - Open a command prompt and run the following:
-
 
 [!code-console[Main](dynamic-compression/samples/sample1.cmd)]

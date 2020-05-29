@@ -1,22 +1,17 @@
 ---
-title: "Creating Rewrite Rules for the URL Rewrite Module | Microsoft Docs"
+title: "Creating Rewrite Rules for the URL Rewrite Module"
 author: ruslany
 description: "This walkthrough will guide you through how to create and test a set of rewrite rules for the URL Rewrite Module. Prerequisites This walkthrough requires the..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/28/2014
-ms.topic: article
 ms.assetid: d980dd02-896f-483f-b712-c7fc6a7ab6f6
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module
 msc.type: authoredcontent
 ---
-Creating Rewrite Rules for the URL Rewrite Module
-====================
+# Creating Rewrite Rules for the URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
-The URL rewrite module is an extension to IIS which is available as a download for your stand-alone IIS Server, and is also pre-installed on any website on [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/en-us/documentation/services/web-sites/) and available [for your use](https://blogs.msdn.com/b/davidlem/archive/2010/04/26/wcf-rest-and-url-rewriting-with-windows-azure.aspx). This walkthrough will guide you through how to create and test a set of rewrite rules for the URL Rewrite Module.
+The URL rewrite module is an extension to IIS which is available as a download for your stand-alone IIS Server, and is also pre-installed on any website on [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/documentation/services/web-sites/) and available [for your use](https://blogs.msdn.com/b/davidlem/archive/2010/04/26/wcf-rest-and-url-rewriting-with-windows-azure.aspx). This walkthrough will guide you through how to create and test a set of rewrite rules for the URL Rewrite Module.
 
 ## Prerequisites
 
@@ -71,9 +66,7 @@ In the **Name** text box, enter a name that will uniquely identify the rule, for
 
 In the **Pattern** text box, enter the following string:
 
-
 [!code-console[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample2.cmd)]
-
 
 This string is a regular expression that specifies that the pattern will match any URL string that meets the following conditions:
 
@@ -87,9 +80,7 @@ Notice that certain parts of the regular expression are within parentheses. Thes
 
 Since the rule that we are creating is supposed to rewrite the URL, choose the **Rewrite** action type that is listed in the **Action** group box. In the **Rewrite URL:** text box, enter the following string:
 
-
 [!code-console[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample3.cmd)]
-
 
 This string specifies the new value to which the input URL should be rewritten. Notice that for the values of the query string parameters we used {R:1} and {R:2}, which are back-references to the capture groups that were defined in the rule pattern by using parentheses.
 
@@ -103,11 +94,9 @@ Save the rule by clicking **Apply** on the right-hand side.
 
 The rewrite rules are stored either in the ApplicationHost.config file or in Web.config files. To check the configuration of the rule that we have just created, open a Web.config file located in %*SystemDrive*%\inetpub\wwwroot\. In this file you should see the `<rewrite>` section that contains this rule definition:
 
-
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample4.xml)]
 
-
-The syntax above also applies to configuring URL Rewrite in Web.config in [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/en-us/documentation/services/web-sites/).
+The syntax above also applies to configuring URL Rewrite in Web.config in [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/documentation/services/web-sites/).
 
 ### Testing the rewrite rule
 
@@ -164,15 +153,11 @@ The third rule that we will create is used to block all requests made to a Web s
 
 We will create this rule without using IIS Manager. Open the Web.config file in the `%SystemDrive%\inetpub\wwwroot\` folder that you used for the article.aspx test file early in this article. Locate the `<rewrite>` section. Insert the following rule into the &lt;rules&gt; collection, so that it is the first rule in the collection:
 
-
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample5.xml)]
-
 
 The `<rewrite>` section should look like the following code:
 
-
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample6.xml)]
-
 
 Let's analyze the rule to understand what it does.
 

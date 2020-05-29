@@ -1,19 +1,14 @@
 ---
-title: "Using URL Rewrite Module 2.0 | Microsoft Docs"
+title: "Using URL Rewrite Module 2.0"
 author: ruslany
 description: "This section of the documentation applies to the URL Rewrite 2.0 for IIS 7. URL Rewrite 2.0 for IIS 7 and above is an incremental release that includes all..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: 710f37f3-cba4-452c-b6ae-ba96abcfdf86
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-url-rewrite-module-20
 msc.type: authoredcontent
 ---
-Using URL Rewrite Module 2.0
-====================
+# Using URL Rewrite Module 2.0
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
@@ -55,7 +50,6 @@ Download the URL Rewrite 2.0 by using the links at the module's home page at [ht
 > 
 > - If a previous version of URL Rewrite, such as v1.0 and v1.1, is already installed then it will be upgraded to the v2.0
 > - If an RC version of the URL Rewrite 2.0 is already installed, then it will be upgraded to RTW version.
-
 
 ### Known Issues
 

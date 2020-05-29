@@ -1,19 +1,14 @@
 ---
-title: "Configuration Path Search Results &lt;searchResult&gt; | Microsoft Docs"
+title: "Configuration Path Search Results &lt;searchResult&gt;"
 author: rick-anderson
 description: "Overview The &lt;searchResult&gt; element of the &lt;configPaths&gt; element contains a collection of configuration search results. Compatibility Version Not..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8606b74c-c4ff-4d57-ab47-745079aa1ba7
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/configpaths/searchresult
 msc.type: config
 ---
-Configuration Path Search Results &lt;searchResult&gt;
-====================
+# Configuration Path Search Results &lt;searchResult&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -73,7 +68,7 @@ The following code examples use the `<configPaths>` element to search the Defaul
 > [!NOTE]
 > You cannot query `<configPaths>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample1.cs)]
 

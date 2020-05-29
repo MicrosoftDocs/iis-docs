@@ -1,16 +1,10 @@
 ---
 title: "Powerful Admin Tools"
-author: shirhatti
 description: "IIS includes a comprehensive set of administration tools, including administration and command-line tools, managed code and scripting APIs, and Windows PowerShell support to simplify day-to-day tasks for developers and administrators."
-ms.author: soshir
-ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
+ms.date: 03/06/2018
 msc.type: authoredcontent
 ---
-Powerful Admin Tools
---------------------
+# Powerful Admin Tools
 
 IIS includes a comprehensive set of administration tools, including administration and command-line tools, managed code and scripting APIs, and Windows PowerShell support to simplify day-to-day tasks for developers and administrators.
 
@@ -18,10 +12,10 @@ IIS includes a comprehensive set of administration tools, including administrati
 
 ![Enable Remote Connections](powerful-admin-tools/_static/enableremoteconnections-small.png) IIS Manager offers an efficient tool for managing the web server. The administration tool provides streamlined access to IIS and ASP.NET configuration settings, membership and user data, and runtime diagnostic information. The admin tool also enables those who host or administer Web sites to delegate administrative control to developers or content owners, thus reducing cost of ownership and administrative burden for the administrator. Other key features include:
 
-*   [Remote administration](https://www.iis.net/downloads/microsoft/iis-manager) over HTTP/SSL
-*   Support for both Windows and non-Windows credentials for delegated administration
-*   A rich [extensibility framework](/iis/develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis) for plugging in new UI features using the .NET Framework
-*   Automatic download and install of new UI modules to the client
+* [Remote administration](https://www.iis.net/downloads/microsoft/iis-manager) over HTTP/SSL
+* Support for both Windows and non-Windows credentials for delegated administration
+* A rich [extensibility framework](/iis/develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis) for plugging in new UI features using the .NET Framework
+* Automatic download and install of new UI modules to the client
 
 ## .NET Microsoft.Web.Administration
 

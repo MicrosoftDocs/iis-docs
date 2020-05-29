@@ -1,19 +1,14 @@
 ---
-title: "How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching | Microsoft Docs"
+title: "How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching"
 author: rmcmurray
 description: "[This documentation is preliminary and is subject to change.] Compatibility Version Notes IIS 8.0 The FTP 8.0 service is required for custom FTP event handli..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/20/2012
-ms.topic: article
 ms.assetid: a734a198-37e6-419a-acb6-a601409ebc35
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching
 msc.type: authoredcontent
 ---
-How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching
-====================
+# How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 [This documentation is preliminary and is subject to change.]
@@ -99,7 +94,8 @@ In this step, you will implement the extensibility interface for the demo provid
 
 > [!NOTE]
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS 8.0 computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following topic on Microsoft the MSDN Web site:
-> - [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c.aspx)
+>
+> - [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/library/ex0ss12c.aspx)
 
 <a id="03"></a>
 
@@ -112,7 +108,7 @@ In this step, you will add the demo provider to your FTP service and an FTP site
     - Open a command prompt and enter the following commands: 
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample3.cmd)]
-    - Copy the information for the the **FtpLeechPrevention** assembly; for example: 
+    - Copy the information for the **FtpLeechPrevention** assembly; for example: 
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample4.cmd)]
     - Close the .

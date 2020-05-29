@@ -1,19 +1,14 @@
 ---
-title: "Share and NTFS Permissions | Microsoft Docs"
+title: "Share and NTFS Permissions"
 author: walterov
 description: "The file server permissions must be carefully implemented to provide appropriate access to content. This involves locking down permissions on the share and p..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: 141816d0-0345-476e-be88-58deff95c9b2
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions
 msc.type: authoredcontent
 ---
-Share and NTFS Permissions
-====================
+# Share and NTFS Permissions
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

@@ -1,19 +1,14 @@
 ---
-title: "Managing Robots.txt and Sitemap Files | Microsoft Docs"
+title: "Managing Robots.txt and Sitemap Files"
 author: ruslany
 description: "The IIS Search Engine Optimization Toolkit includes a Robots Exclusion feature that you can use to manage the content of the Robots.txt file for your Web sit..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/03/2009
-ms.topic: article
 ms.assetid: 5369bd7a-f788-4128-b448-508557be3d3e
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files
 msc.type: authoredcontent
 ---
-Managing Robots.txt and Sitemap Files
-====================
+# Managing Robots.txt and Sitemap Files
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 The IIS Search Engine Optimization Toolkit includes a **Robots Exclusion** feature that you can use to manage the content of the Robots.txt file for your Web site, and includes the **Sitemaps and Sitemap Indexes** feature that you can use to manage your site's sitemaps. This walkthrough explains how and why to use these features.
@@ -76,14 +71,11 @@ After selecting all the directories and files that need to be disallowed, click 
 
 Also, the Robots.txt file for the site will be updated (or created if it did not exist). Its content will look similar to this:
 
-
 [!code-console[Main](managing-robotstxt-and-sitemap-files/samples/sample1.cmd)]
-
 
 To see how Robots.txt works, go back to the Site Analysis feature and re-run the analysis for the site. On the Reports Summary page, in the **Links** category, choose **Links Blocked by Robots.txt**. This report will display all the links that have not been crawled because they have been disallowed by the Robots.txt file that you have just created.
 
 [![](managing-robotstxt-and-sitemap-files/_static/image14.png)](managing-robotstxt-and-sitemap-files/_static/image13.png)
-
 
 ## Managing Sitemap Files
 
@@ -117,9 +109,7 @@ After you have completed the steps in the prerequisites section, you will have a
 
 If necessary, modify the **Change Frequency**, **Last Modified Date**, and **Priority** options, and then click **OK** to add the URLs to the sitemap. A sitemap.xml file will be updated (or created if it did not exist), and its content will look like the following:
 
-
 [!code-xml[Main](managing-robotstxt-and-sitemap-files/samples/sample2.xml)]
-
 
 ### Adding the sitemap location to the Robots.txt file
 
@@ -131,9 +121,7 @@ In the Sitemaps and Sitemap Indexes feature, choose the sitemap that you have ju
 
 Your Robots.txt file will look similar to the following:
 
-
 [!code-console[Main](managing-robotstxt-and-sitemap-files/samples/sample3.cmd)]
-
 
 ## Registering sitemaps with search engines
 

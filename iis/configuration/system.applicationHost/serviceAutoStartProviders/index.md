@@ -1,19 +1,14 @@
 ---
-title: "Service Autostart Providers &lt;serviceAutoStartProviders&gt; | Microsoft Docs"
+title: "Service Autostart Providers &lt;serviceAutoStartProviders&gt;"
 author: rick-anderson
 description: "Overview The &lt;serviceAutoStartProviders&gt; element specifies a collection of managed assemblies that Windows Process Activation Service (WAS) will load a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 24c9eba5-ac24-4564-93a4-e1ad23d26929
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/serviceautostartproviders
 msc.type: config
 ---
-Service Autostart Providers &lt;serviceAutoStartProviders&gt;
-====================
+# Service Autostart Providers &lt;serviceAutoStartProviders&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -86,9 +81,9 @@ The `<serviceAutoStartProviders>` element is included in the default installatio
 > This section contains information about how to modify your IIS settings by using the IIS Configuration Editor. Incorrectly editing your IIS configuration settings can severely damage your IIS installation. Therefore, make sure that you follow these steps carefully. For added security, you should back up your IIS configuration settings before you use the IIS Configuration Editor to make any modifications. For more information about how to back up your IIS configuration settings and how to use the IIS Configuration Editor, see the following topics:
 
 - **How to Back Up an IIS 7 Configuration**  
-    [https://technet.microsoft.com/en-us/library/dd819406.aspx](https://technet.microsoft.com/en-us/library/dd819406.aspx)
+    [https://technet.microsoft.com/library/dd819406.aspx](https://technet.microsoft.com/library/dd819406.aspx)
 - **Configuration Editor Page**  
-    [https://technet.microsoft.com/en-us/library/dd569081.aspx](https://technet.microsoft.com/en-us/library/dd569081.aspx)
+    [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
  
 <a id="005"></a>
 ## Configuration
@@ -125,7 +120,7 @@ The following examples add a sample provider to the collection of autostart prov
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

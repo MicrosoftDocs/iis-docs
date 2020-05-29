@@ -1,19 +1,14 @@
 ---
-title: "UrlScan FAQ | Microsoft Docs"
+title: "UrlScan FAQ"
 author: naziml
 description: "The following section provides answers to frequently asked questions about UrlScan. Question: What is UrlScan? Answer: UrlScan is a security tool that screen..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/24/2008
-ms.topic: article
 ms.assetid: eba182f0-0428-474e-a87c-d478a631ce95
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-faq
 msc.type: authoredcontent
 ---
-UrlScan FAQ
-====================
+# UrlScan FAQ
+
 by [Nazim Lala](https://github.com/naziml)
 
 The following section provides answers to frequently asked questions about UrlScan.
@@ -26,17 +21,14 @@ Answer: UrlScan is a security tool that screens all incoming requests to the ser
 
 Answer: That depends on your version of IIS and the version of UrlScan that you are attempting to install:
 
-
 - UrlScan 1.0 is no longer supported.
 - UrlScan 2.1 and UrlScan 2.0 are supported on IIS 5.0, IIS 5.1 and IIS 6.0.
 - UrlScan 2.5 is supported on IIS 5.0, IIS 5.1 and IIS 6.0, and IIS 7.0 and above.
 - UrlScan 3.1 and UrlScan 3.0 are supported on IIS 5.1, IIS 6.0, and IIS 7.0 and above.
 
-
 **Question: I'm already using UrlScan. Why should I download an updated version?**
 
 Answer: Microsoft always recommends installing the latest version of UrlScan because later versions of UrlScan include new features that have been added to help improve the security of servers running IIS. A short list of these new features are as follows:
-
 
 - Changing the log file directory (introduced in UrlScan 2.5)
 - Logging long URLs (introduced in UrlScan 2.5)
@@ -46,7 +38,6 @@ Answer: Microsoft always recommends installing the latest version of UrlScan bec
 - Creating custom filtering rules (introduced in UrlScan 3.0)
 - Specifying query strings that are always allowed or denied (introduced in UrlScan 3.0)
 - Denying requests that contain unescaped percent signs (introduced in UrlScan 3.1)
-
 
 **Question: Where are my UrlScan log files?**
 

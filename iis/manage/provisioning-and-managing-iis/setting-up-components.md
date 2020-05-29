@@ -1,19 +1,14 @@
 ---
-title: "Services Implementation | Microsoft Docs"
+title: "Services Implementation"
 author: walterov
 description: "From an implementation standpoint, the solution follows recommended patterns and practices for building Web Services using the Windows Communication Foundati..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/02/2007
-ms.topic: article
 ms.assetid: 48825ae9-58ea-48ce-b408-fe8df6a82fbb
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/setting-up-components
 msc.type: authoredcontent
 ---
-Services Implementation
-====================
+# Services Implementation
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
@@ -22,7 +17,7 @@ From an implementation standpoint, the solution follows recommended patterns and
 
 Additional information can be found at the following sites:
 
-- [https://msdn.microsoft.com/en-us/library/ms735119.aspx](https://msdn.microsoft.com/en-us/library/ms735119.aspx)
+- [https://msdn.microsoft.com/library/ms735119.aspx](https://msdn.microsoft.com/library/ms735119.aspx)
 - [http://www.codeplex.com/servicefactory](http://www.codeplex.com/servicefactory)
 
 In the following sections, we describe each subsystem implementation in detail.
@@ -102,7 +97,6 @@ All service implementations are contained in the service implementation project,
 
 [![](setting-up-components/_static/image27.jpg)](setting-up-components/_static/image25.jpg)
 
-
 Due to the fact that certain operations overlap among these three services, all actual implementations are handled by the WebManager class as static methods, which leverages the managed APIs that come with IIS.
 
 Beside Web related operations, there is CertificateManager class handling of all certificate-related operations. Windows Server® 2008 introduced new APIs for managing certificates, and those platform APIs are not exposed as managed code. CertificateManager uses p/invoke to wrap those APIs as managed APIs.
@@ -179,13 +173,13 @@ Two different hosting solutions have been implemented: IIS based hosting, and Wi
 
 Implement your own preferred hosting options by following WCF documentations for how to implement WCF Hosting:
 
-- <a id="ctl00_rs1_mainContentContainer_ctl01"></a>[Hosting in Internet Information Services](https://msdn.microsoft.com/en-us/library/ms734710.aspx)
+- <a id="ctl00_rs1_mainContentContainer_ctl01"></a>[Hosting in Internet Information Services](https://msdn.microsoft.com/library/ms734710.aspx)
 
 Or
 
-- <a id="ctl00_rs1_mainContentContainer_ctl03"></a>[Hosting in a Windows Service Application](https://msdn.microsoft.com/en-us/library/ms734781.aspx)
+- <a id="ctl00_rs1_mainContentContainer_ctl03"></a>[Hosting in a Windows Service Application](https://msdn.microsoft.com/library/ms734781.aspx)
 
-More options are available at [WCF Hosting](https://msdn.microsoft.com/en-us/library/ms729846.aspx).
+More options are available at [WCF Hosting](https://msdn.microsoft.com/library/ms729846.aspx).
 
 The following figure shows the two hosting solutions within Visual Studio.
 
@@ -195,7 +189,7 @@ The following figure shows the two hosting solutions within Visual Studio.
 
 ## Security Role Provider
 
-The sample code uses the [Windows Role Provider](https://msdn.microsoft.com/en-us/library/6b241xwt.aspx) to perform a role check in WCF on every call to verify that the caller is a member of the WindowsBuiltInRole.Administrator group. This is implemented in the file WindowsAuthorizationManager.cs within the Microsoft.Hosting.Management project, as seen in the figure below.
+The sample code uses the [Windows Role Provider](https://msdn.microsoft.com/library/6b241xwt.aspx) to perform a role check in WCF on every call to verify that the caller is a member of the WindowsBuiltInRole.Administrator group. This is implemented in the file WindowsAuthorizationManager.cs within the Microsoft.Hosting.Management project, as seen in the figure below.
 
 [![](setting-up-components/_static/image58.jpg)](setting-up-components/_static/image57.jpg)
 

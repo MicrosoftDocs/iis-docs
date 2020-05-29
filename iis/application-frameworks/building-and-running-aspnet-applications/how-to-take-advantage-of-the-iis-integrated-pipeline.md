@@ -1,22 +1,15 @@
 ---
-title: "How to Take Advantage of the IIS 7.0 Integrated Pipeline | Microsoft Docs"
+title: "How to Take Advantage of the IIS 7.0 Integrated Pipeline"
 author: leanserver
 description: "IIS 6.0 and previous versions allowed the development of .NET application components via the ASP.NET platform. ASP.NET integrated with IIS via an ISAPI exten..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2007
-ms.topic: article
 ms.assetid: 54ba9206-c845-457a-a800-b989641bb654
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline
 msc.type: authoredcontent
 ---
-How to Take Advantage of the IIS 7.0 Integrated Pipeline
-====================
-by [Mike Volodarsky](https://github.com/leanserver)
+# How to Take Advantage of the IIS 7.0 Integrated Pipeline
 
-## Introduction
+by [Mike Volodarsky](https://github.com/leanserver)
 
 IIS 6.0 and previous versions allowed the development of .NET application components via the ASP.NET platform. ASP.NET integrated with IIS via an ISAPI extension, and exposed its own application and request processing model. This effectively exposed two separate server pipelines, one for native ISAPI filters and extension components, and another for managed application components. ASP.NET components would execute entirely inside the ASP.NET ISAPI extension bubble and only for requests mapped to ASP.NET in the IIS script map configuration.
 
@@ -62,9 +55,7 @@ First, configure forms authentication as you would for a normal ASP.NET applicat
 
 To illustrate the feature, we add a default.aspx page to the web root directory. Open notepad (to make sure you have access to the wwwroot directory below, you must run as administrator--right click on Programs\Accessories\Notepad icon, and click "Run as administrator"), and create the following file: `%systemdrive%\inetpub\wwwroot\default.aspx`. Paste the following lines into it:
 
-
 [!code-aspx[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample1.aspx)]
-
 
 All default.aspx does is display the current time and the name of the logged in user. We use this page later to show forms authentication in action.
 
@@ -72,9 +63,7 @@ All default.aspx does is display the current time and the name of the logged in 
 
 Now, to protect default.aspx with forms authentication. Create a web.config file in the `%systemdrive%\inetpub\wwwroot` directory and add the configuration shown below:
 
-
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample2.xml)]
-
 
 This configuration sets the ASP.NET authentication mode to use forms-based authentication, and adds authorization settings to control access to the application. These setting deny access to anonymous users (?) and only allow authenticated users (\*).
 
@@ -84,9 +73,7 @@ This configuration sets the ASP.NET authentication mode to use forms-based authe
 
 Add the following entry right after the initial &lt;configuration&gt;/&lt;system.web&gt; configuration element in the web.config file:
 
-
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample3.xml)]
-
 
 **Step 2:** After the configuration entry is added, you must save the Membership provider code provided in Appendix as **XmlMembershipProvider.cs in your `%systemdrive%\inetpub\wwwroot\App_Code` directory**. If this directory does not exist, you must create it.
 
@@ -98,9 +85,7 @@ Add the following entry right after the initial &lt;configuration&gt;/&lt;system
 > [!NOTE]
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as MembershipUsers.xml.txt.
 
-
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample4.xml)]
-
 
 If the App_Data directory does not exist, you must create it.
 
@@ -115,22 +100,19 @@ Look in MembershipUsers.xml to find the newly created users.
 
 In order to use forms authentication, we must to create a login page. Open notepad (To make sure you have access to the wwwroot directory below, you need to run as administrator by right clicking on Programs\Accessories\Notepad icon, and clicking "Run as administrator"), and create the login.aspx file in the `%systemdrive%\inetpub\wwwroot` directory. Note - be sure to set Save As: All Files to prevent the file from being saved as login.aspx.txt. Paste the following lines into it:
 
-
 [!code-aspx[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample5.aspx)]
-
 
 This is the login page to which you are redirected when your authorization rules deny access to a particular resource.
 
 ### Testing
 
-Open an Internet Explorer Window and request http://localhost/default.aspx. You see that you are redirected to login.aspx, because initially your were not authenticated, and we withheld access to unauthenticated users earlier. If you successfully log in with one of the username/password pairs specified in MembershipUsers.xml, you get redirected back to default.aspx page originally requested. This page then shows the current time and the user identity with which you authenticated.
+Open an Internet Explorer Window and request `http://localhost/default.aspx`. You see that you are redirected to login.aspx, because initially your were not authenticated, and we withheld access to unauthenticated users earlier. If you successfully log in with one of the username/password pairs specified in MembershipUsers.xml, you get redirected back to default.aspx page originally requested. This page then shows the current time and the user identity with which you authenticated.
 
 At this point, we have successfully deployed a custom authentication solution using Forms Authentication, Login controls, and Membership. This functionality is not new in IIS 7.0 or above – it has been available since ASP.NET 2.0 on previous IIS releases.
 
 However, the problem is that only content handled by ASP.NET is protected.
 
-If you close and re-open the browser window, and request http://localhost/iisstart.htm, you are not prompted for credentials. ASP.NET does not participate in a request for a static file like iisstart.htm. Therefore, it cannot protect it with forms authentication. You see the same behavior with classic ASP pages, CGI programs, PHP or Perl scripts. Forms authentication is an ASP.NET feature, and simply is not available during requests to those resources.
-
+If you close and re-open the browser window, and request `http://localhost/iisstart.htm`, you are not prompted for credentials. ASP.NET does not participate in a request for a static file like iisstart.htm. Therefore, it cannot protect it with forms authentication. You see the same behavior with classic ASP pages, CGI programs, PHP or Perl scripts. Forms authentication is an ASP.NET feature, and simply is not available during requests to those resources.
 
 ## Enabling Forms Authentication for the Entire Application
 
@@ -148,9 +130,7 @@ By removing the precondition, we make the desired managed module execute for all
 
 To do this, open the application's web.config file located in the `%systemdrive%\inetpub\wwwroot` directory, and paste the following lines immediately below the first &lt;configuration&gt; element:
 
-
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample6.xml)]
-
 
 This configuration re-adds the module elements without the precondition, enabling them to execute for all requests to the application.
 
@@ -158,9 +138,7 @@ This configuration re-adds the module elements without the precondition, enablin
 
 Close all instances of Internet Explorer so that the credentials entered before are no longer cached. Open Internet Explorer, and make a request to the application at the following URL:
 
-
 [!code-console[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample7.cmd)]
-
 
 You are redirected to the login.aspx page in order to log in.
 
@@ -176,14 +154,11 @@ Open notepad (to make sure you have access to the wwwroot directory below, you m
 > [!NOTE]
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as page.asp.txt. Paste the lines below into it:
 
-
 [!code-aspx[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample8.aspx)]
 
-
-Close all Internet Explorer instances again-- otherwise, your credentials are still cached and request http://localhost/page.asp. You are again redirected to the login page, and after successful authentication, display the ASP page.
+Close all Internet Explorer instances again-- otherwise, your credentials are still cached and request `http://localhost/page.asp`. You are again redirected to the login page, and after successful authentication, display the ASP page.
 
 Congratulations – you have successfully added managed services to the server, enabling them for all requests to the server regardless of handler!
-
 
 ## Summary
 
@@ -191,12 +166,11 @@ This walkthrough demonstrated how the ASP.NET Integrated mode can be leveraged t
 
 More importantly, you can now build new managed modules using the familiar ASP.NET 2.0 APIs that have the ability to execute for all application content, and provided an enhanced set of request processing services to your application.
 
-Feel free to check out the blog, [http://www.mvolo.com/](http://www.mvolo.com/), for more tips on taking advantage of Integrated mode and developing IIS modules that leverage the ASP.NET integration in IIS 7 and above. There, you can also download a number of such modules including [Redirecting requests to your application with the HttpRedirection module](http://mvolo.com/redirect-requests-to-your-application-with-the-httpredirection-module/), [Nice looking directory listings for your IIS website with DirectoryListingModule](http://mvolo.com/get-nice-looking-directory-listings-for-your-iis-website-with-directorylistingmodule/), and [Displaying pretty file icons in your ASP.NET applications with IconHandler](http://mvolo.com/display-pretty-file-icons-in-your-aspnet-applications-with-iconhandler/).
-
+Feel free to check out the blog, <https://www.mvolo.com/>, for more tips on taking advantage of Integrated mode and developing IIS modules that leverage the ASP.NET integration in IIS 7 and above. There, you can also download a number of such modules including [Redirecting requests to your application with the HttpRedirection module](https://mvolo.com/redirect-requests-to-your-application-with-the-httpredirection-module/), [Nice looking directory listings for your IIS website with DirectoryListingModule](https://mvolo.com/get-nice-looking-directory-listings-for-your-iis-website-with-directorylistingmodule/), and [Displaying pretty file icons in your ASP.NET applications with IconHandler](https://mvolo.com/display-pretty-file-icons-in-your-aspnet-applications-with-iconhandler/).
 
 ## Appendix
 
-This Membership provider is based on the sample XML membership provider found in this [MSDN article](https://msdn.microsoft.com/en-us/library/aa479031.aspx).
+This Membership provider is based on the sample XML membership provider found in this [Membership Providers](https://docs.microsoft.com/previous-versions/aa479031(v=msdn.10)).
 
 To use this Membership provider, save the code as **XmlMembershipProvider.cs** in your `%systemdrive%\inetpub\wwwroot\App\_Code` directory. If this directory doesn't exist you will have to create it. Note - be sure to set Save As: All Files if using Notepad to prevent the file from being saved as XmlMembershipProvider.cs.txt.
 

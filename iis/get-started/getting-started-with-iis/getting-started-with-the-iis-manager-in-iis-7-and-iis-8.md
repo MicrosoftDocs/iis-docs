@@ -1,29 +1,22 @@
 ---
-title: "Getting Started with the IIS Manager in IIS | Microsoft Docs"
+title: "Getting Started with the IIS Manager in IIS"
 author: tobint
 description: "This IIS Manager overview explains why IIS 7 and later have a new user interface from previous versions of IIS, and then goes on to describe the look and fee..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: 907f1ac8-e23e-4352-9683-a1a19af327f5
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8
 msc.type: authoredcontent
 ---
-Getting Started with the IIS Manager in IIS
-====================
+# Getting Started with the IIS Manager in IIS
+
 by IIS Team, [Tobin Titus](https://github.com/tobint)
 
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 ## Introduction
 
@@ -91,12 +84,10 @@ The features associated with delegation have **special rules** for where they ap
 
 ## Feature Page Layouts
 
-There are three types of pages in IIS Manager: list pages, property grids, and dialog pages.
-
+There are three types of pages in IIS 
 ### List Page
 
 List pages contain lists. Most list pages let you group by values in one or more columns. The main list pages, like Sites and Application Pools, let you to filter the list entries by searching in a list column for entries that match a search string.
-
 
 **[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image7.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image6.jpg)**
 
@@ -171,7 +162,7 @@ Additionally, server administrators can enable **non-administrators to use IIS M
 - **View locked configuration settings** without being able to modify them
 - **Add other site or application administrators** for their site or application
 
-For information on how to create site and application administrators, see the online documentation [Create Site and Application Administrators for Delegation](https://technet.microsoft.com/en-us/library/cc725632(v=ws.10).aspx).
+For information on how to create site and application administrators, see the online documentation [Create Site and Application Administrators for Delegation](https://technet.microsoft.com/library/cc725632(v=ws.10).aspx).
 
 <a id="ServerSite"></a>
 
@@ -185,7 +176,7 @@ Machine administrators and designated Site Administrators can connect to web sit
 
 Machine administrators, designated Application Administrators, and Site Administrators for the application's parent site, can connect to an application. **Application connections can only write to web.config files under the application's root folder**. If a configuration section is locked in applicationHost.config or the site's web.config file, the corresponding feature will appear read-only in application connections.
 
-For information on how to connect to a server, site or application, see the online documentation on [Managing Connections in IIS 7.0](https://technet.microsoft.com/en-us/library/cc753400(v=ws.10).aspx).
+For information on how to connect to a server, site or application, see the online documentation on [Managing Connections in IIS 7.0](https://technet.microsoft.com/library/cc753400(v=ws.10).aspx).
 
 <a id="Configuration2"></a>
 

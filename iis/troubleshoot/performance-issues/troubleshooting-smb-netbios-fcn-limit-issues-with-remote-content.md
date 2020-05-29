@@ -1,22 +1,17 @@
 ---
-title: "Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content | Microsoft Docs"
+title: "Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content"
 author: rick-anderson
 description: "Tools Used in this Troubleshooter: Network Monitor This material is provided for informational purposes only. Microsoft makes no warranties, express or impli..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: db45d74e-0265-4936-aec6-c71966f7d987
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content
 msc.type: authoredcontent
 ---
-Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content
-====================
+# Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content
+
 by Richard Marr
 
-#### Tools Used in this Troubleshooter:
+## Tools Used in this Troubleshooter
 
 - Network Monitor
 
@@ -82,7 +77,7 @@ In the network trace you are looking for the files servers response to the NEGOT
 
 What # should I set the MaxCMds and MaxMpxCt to? See the following reference.
 
-[Tuning the Servers for UNC Content (IIS 6.0)](https://technet.microsoft.com/en-us/library/dd296694(WS.10).aspx)
+[Tuning the Servers for UNC Content (IIS 6.0)](https://technet.microsoft.com/library/dd296694(WS.10).aspx)
 
 **Reducing the File Change Monitors**
 
@@ -97,7 +92,7 @@ ASP.NET Content
 ### Other Resources
 
 - [Common Internet File System (CIFS) File Access Protocol](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=9492)
-- [Microsoft SMB Protocol and CIFS Protocol Overview](https://msdn.microsoft.com/en-us/library/aa365233(v=VS.85).aspx)
-- [UNC-based Caching Considerations](https://technet.microsoft.com/en-us/library/cc778350(WS.10).aspx)
-- [IIS and File Server Configuration Scenarios for SMB Scaling (IIS 6.0)](https://technet.microsoft.com/en-us/library/dd296655(WS.10).aspx)
-- [Two Minute Drill: Overview of SMB 2.0](http://blogs.technet.com/b/askperf/archive/2008/05/30/two-minute-drill-overview-of-smb-2-0.aspx)
+- [Microsoft SMB Protocol and CIFS Protocol Overview](https://msdn.microsoft.com/library/aa365233(v=VS.85).aspx)
+- [UNC-based Caching Considerations](https://technet.microsoft.com/library/cc778350(WS.10).aspx)
+- [IIS and File Server Configuration Scenarios for SMB Scaling (IIS 6.0)](https://technet.microsoft.com/library/dd296655(WS.10).aspx)
+- [Two Minute Drill: Overview of SMB 2.0](https://techcommunity.microsoft.com/t5/ask-the-performance-team/two-minute-drill-overview-of-smb-2-0/ba-p/373098)

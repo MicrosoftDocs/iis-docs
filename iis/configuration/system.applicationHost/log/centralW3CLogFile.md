@@ -1,19 +1,14 @@
 ---
-title: "Central W3C Log File &lt;centralW3CLogFile&gt; | Microsoft Docs"
+title: "Central W3C Log File &lt;centralW3CLogFile&gt;"
 author: rick-anderson
 description: "Overview The &lt;centralW3CLogFile&gt; element specifies the central W3C log settings for all sites on a server. Note : You need to set the centralLogFileMod..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: cfd8e668-0392-44d1-a677-524a6c72cd76
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/log/centralw3clogfile
 msc.type: config
 ---
-Central W3C Log File &lt;centralW3CLogFile&gt;
-====================
+# Central W3C Log File &lt;centralW3CLogFile&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -23,7 +18,7 @@ The `<centralW3CLogFile>` element specifies the central W3C log settings for all
 > You need to set the **centralLogFileMode** attribute of the parent `<log>` element to **CentralW3C** in order for the attributes on the `<centralW3CLogFile>` element to have effect. If the **centralLogFileMode** attribute of the `<log>` element is set to **CentralBinary** or **Site**, the attributes on the `<centralW3CLogFile>` element will be ignored.
 
 > [!NOTE]
-> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility.
+> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility.
 
 <a id="002"></a>
 ## Compatibility
@@ -106,7 +101,7 @@ The following code samples specify that IIS will use central W3C logging, and co
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](centralW3CLogFile/samples/sample3.cs)]
 

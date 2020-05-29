@@ -1,19 +1,14 @@
 ---
-title: "Adding Areas &lt;add&gt; | Microsoft Docs"
+title: "Adding Areas &lt;add&gt;"
 author: rick-anderson
 description: "Overview Each &lt;add&gt; element in the &lt;areas&gt; collection adds a function area for a provider to trace. Compatibility Version Notes IIS 10.0 The &lt;..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3daacf19-12d9-4f99-a7ce-4e133b53198f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/traceproviderdefinitions/add/areas/add
 msc.type: config
 ---
-Adding Areas &lt;add&gt;
-====================
+# Adding Areas &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -53,7 +48,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
     [![](add/_static/image4.png)](add/_static/image3.png)- Click **OK**.
-- Click **Close**.
+4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
@@ -110,7 +105,7 @@ The following examples add a custom trace provider with two trace areas to the l
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

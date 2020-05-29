@@ -1,19 +1,14 @@
 ---
-title: "Web Playlists for IIS 7.0 - Extending Output Formats using XSLT | Microsoft Docs"
+title: "Web Playlists for IIS 7.0 - Extending Output Formats using XSLT"
 author: rick-anderson
 description: "Web Playlists for Internet Information Services (IIS) 7.0 and above supports Extensible Stylesheet Language Transformations (XSLT) style sheets that filter o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/12/2008
-ms.topic: article
 ms.assetid: 3898c37b-ef52-4a73-af40-564c410906d9
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-extending-output-formats-using-xslt
 msc.type: authoredcontent
 ---
-Web Playlists for IIS 7.0 - Extending Output Formats using XSLT
-====================
+# Web Playlists for IIS 7.0 - Extending Output Formats using XSLT
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists for Internet Information Services (IIS) 7.0 and above supports Extensible Stylesheet Language Transformations (XSLT) style sheets that filter or customize the XML data in the Web Playlists HTTP response to clients. For example, you can create an XSLT style sheet that transforms the Web Playlists response so that the data is rendered by players that do not support the ASX format. Another example is where you can create an XSLT style sheet that transforms the Web Playlists response to a Web feed format, such as Atom or RSS. You can create and manage XSL Transformations on the **Output Formats** feature page in Web Playlists.
@@ -29,11 +24,11 @@ In this article, we enable Web Playlists to output ATOM Web feed format, in addi
 
 As defined by the [W3C specification](http://www.w3.org/Style/XSL/):
 
-*"XSL is a family of recommendations for defining XML document transformation and presentation. It consists of three parts:  
+*"__XSL__ is a family of recommendations for defining XML document transformation and presentation. It consists of three parts:*
   
-[XSL Transformations](http://www.w3.org/TR/xslt)(XSLT) - a language for transforming XML  
-the [XML Path Language](http://www.w3.org/TR/xpath) (XPath) - an expression language used by XSLT to access or refer to parts of an XML document. (XPath is also used by the XML Linking specification.)  
-[XSL Formatting Objects](http://www.w3.org/TR/xsl) (XSL-FO) - an XML vocabulary for specifying formatting semantics*
+- *[XSL Transformations](http://www.w3.org/TR/xslt) (XSLT) - a language for transforming XML;*
+- *[The XML Path Language](http://www.w3.org/TR/xpath) (XPath) - an expression language used by XSLT (and many other languages) to access or refer to parts of an XML document;*
+- *[XSL Formatting Objects](http://www.w3.org/TR/xsl) (XSL-FO) - an XML vocabulary for specifying formatting semantics.*
 
 *An XSLT stylesheet specifies the presentation of a class of XML documents by describing how an instance of the class is transformed into an XML document that uses a formatting vocabulary, such as (X)HTML or XSL-FO. For a more detailed explanation of how XSL works, see the [What Is XSL](http://www.w3.org/Style/XSL/WhatIsXSL.html) page."*
 
@@ -45,7 +40,7 @@ Writing an XSLT is similar to writing any XML file. You can easily do this in yo
 
 In **File** &gt; **New File**, chose **XSLT** as shown in the following figure:
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image2.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image1.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image1.bmp)
 
 ### Writing the ATOM XSLT
 
@@ -59,9 +54,7 @@ By default, Web Playlists returns an ASX XML output. Therefore, the atom.xslt fi
 
 **ASX Example**
 
-
 [!code-xml[Main](web-playlists-for-iis-extending-output-formats-using-xslt/samples/sample1.xml)]
-
 
 #### Step 3: Write the XSL transform for ATOM
 
@@ -85,16 +78,15 @@ In IIS Manager, click the **Playlists** icon on your site, and then click **Conf
 > [!IMPORTANT]
 > In **XSLT path**, give the path to your XSLT file, relative to the site root (for example, starting with the "/" character); otherwise, Web Playlists will not accept the path.
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image4.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image3.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image3.bmp)
 
 ### Accessing the new output format on the client
 
 The new output format is accessed by using the following syntax:
 
-> http://*site*/*playlist**name*.isx **?format=&lt;*formatname*&gt;** (for example, http://contoso.com/file.isx **?format=atom**)
+`http://site/playlistname.isx?format=<formatname>` (for example, `http://contoso.com/file.isx?format=atom`)
 
-
-The &lt;*formatname*&gt; is the format name that you specified in IIS Manager while configuring this output format.
+The `<formatname>` is the format name that you specified in IIS Manager while configuring this output format.
 
 ### Testing the ATOM output
 
@@ -104,13 +96,13 @@ ATOM is a well known format so it is easy to test.
 
 Most Web browsers can render ATOM output natively. See the following figure:
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image6.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image5.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image5.bmp)
 
 #### Test 2: Using an ATOM Feed Validator
 
-There are many feed validators available. I use [http://www.feedvalidator.com](http://www.feedvalidator.com/). If your playlist passes the ATOM validation, the validator gives you a pretty icon that you can share on your Web site. See the following figure:
+There are many feed validators available. I use <http://www.feedvalidator.com/>. If your playlist passes the ATOM validation, the validator gives you a pretty icon that you can share on your Web site. See the following figure:
 
-[![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image8.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image7.bmp)
+![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image7.bmp)
 
 ## Summary
 

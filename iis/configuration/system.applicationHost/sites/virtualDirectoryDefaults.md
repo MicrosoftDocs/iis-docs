@@ -1,19 +1,14 @@
 ---
-title: "Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt; | Microsoft Docs"
+title: "Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt;"
 author: rick-anderson
 description: "Overview The &lt;virtualDirectoryDefaults&gt; element of the &lt;sites&gt; element specifies default settings for all virtual directories on the server. The..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2c69e201-3575-4745-9712-75be6affd344
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/virtualdirectorydefaults
 msc.type: config
 ---
-Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt;
-====================
+# Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -74,7 +69,7 @@ The `<virtualDirectoryDefaults>` element of the `<sites>` element is included in
 | Attribute | Description |
 | --- | --- |
 | `allowSubDirConfig` | Optional Boolean attribute. <br><br>Specifies whether IIS looks for Web.config files in content directories lower in the directory hierarchy than the current level (**true**) or does not look for Web.config files in content directories lower than the current level (**false**). <br><br>The default value is `true`. |
-| `logonMethod` | Optional enum attribute. <br><br>Specifies the default logon method for all virtual directories on the server. <br><br>The **logonMethod** attribute can have one of the following possible values. The default is `ClearText`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Batch</code></th> <td>This logon type is intended for batch servers, where processes may be executing on behalf of a user without that user's direct intervention. <br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>ClearText</code></th> <td>This logon type preserves the name and password in the authentication package. This allows the server to make connections to other network servers while impersonating the client. <br><br>The numeric value is <code>3</code>.</td></tr> <tr> <th><code>Interactive</code></th> <td>This logon type is intended for users who will be using the computer interactively.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>Network</code></th> <td>This logon type is intended for high performance servers that authenticate plaintext passwords. Credentials are not cached for this logon type. <br><br>The numeric value is <code>2</code>.</td></tr></tbody></table>For more information about these values, see [LogonUser](https://msdn.microsoft.com/en-us/library/aa378184.aspx) on the MSDN site. |
+| `logonMethod` | Optional enum attribute. <br><br>Specifies the default logon method for all virtual directories on the server. <br><br>The **logonMethod** attribute can have one of the following possible values. The default is `ClearText`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Batch</code></th> <td>This logon type is intended for batch servers, where processes may be executing on behalf of a user without that user's direct intervention. <br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>ClearText</code></th> <td>This logon type preserves the name and password in the authentication package. This allows the server to make connections to other network servers while impersonating the client. <br><br>The numeric value is <code>3</code>.</td></tr> <tr> <th><code>Interactive</code></th> <td>This logon type is intended for users who will be using the computer interactively.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>Network</code></th> <td>This logon type is intended for high performance servers that authenticate plaintext passwords. Credentials are not cached for this logon type. <br><br>The numeric value is <code>2</code>.</td></tr></tbody></table>For more information about these values, see [LogonUser](https://msdn.microsoft.com/library/aa378184.aspx) on the MSDN site. |
 | `password` | Optional string attribute. <br><br>Specifies the password associated with the user name. <br><br>**Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe or IIS Manager to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
 | `path` | Optional string attribute. <br><br>Specifies the default virtual path of all virtual directories on the server. |
 | `physicalPath` | Optional string attribute. <br><br>Specifies the default physical path of all virtual directories on the server. |
@@ -102,7 +97,7 @@ The following code samples specify the default logon method for all virtual dire
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](virtualDirectoryDefaults/samples/sample3.cs)]
 

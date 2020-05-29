@@ -1,19 +1,14 @@
 ---
-title: "Database Manager for Hosters | Microsoft Docs"
+title: "Database Manager for Hosters"
 author: walterov
 description: "Database Manager is a new IIS module specifically designed for the management of databases located in hosting environments. That is, it is designed for envir..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/18/2009
-ms.topic: article
 ms.assetid: 0327dacb-9010-4179-b0ae-4dd33d07d370
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/database-manager-for-hosters
 msc.type: authoredcontent
 ---
-Database Manager for Hosters
-====================
+# Database Manager for Hosters
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

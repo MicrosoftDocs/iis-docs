@@ -1,19 +1,14 @@
 ---
-title: "PowerShell Snap-in: Navigating the IIS Snap-in Namespace | Microsoft Docs"
+title: "PowerShell Snap-in: Navigating the IIS Snap-in Namespace"
 author: thomasdeml
 description: "Everybody is familiar on how the file system is organized. File systems are hierarchical namespaces, comprised of directories that contain files and other di..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2008
-ms.topic: article
 ms.assetid: 92e66c6b-c614-4db7-a46e-800da9f4047c
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-navigating-the-iis-snap-in-namespace
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Navigating the IIS Snap-in Namespace
-====================
+# PowerShell Snap-in: Navigating the IIS Snap-in Namespace
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 Everybody is familiar on how the file system is organized. File systems are hierarchical namespaces, comprised of directories that contain files and other directories. PowerShell Snap-in leverage this familarity with the file system and allow other data stores to be exposed as an hierarchical namespace. Like the root of a file system drive is usually `C:\` the root of the IIS configuration system is "IIS:\".
@@ -50,17 +45,13 @@ Click on the Start Menu - select "All Programs" - "IIS 7.0 Extensions" - "IIS Po
 
 Type "dir" and notice that Sites and AppPools are the only two directories underneath the root.
 
-
 [!code-powershell[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample1.ps1)]
-
 
 [!code-console[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample2.cmd)]
 
 As the next step we want to change into the Sites directory. You can do that with the following commands:
 
-
 [!code-powershell[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample3.ps1)]
-
 
 If you are adventurous you will notice that typing cd Si&lt;tab&gt; will give you command-line completion.
 
@@ -70,9 +61,7 @@ Now try this:
 
 Now try the following:
 
-
 [!code-powershell[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample4.ps1)]
-
 
 The first time we are trying a PowerShell cmdlet instead of using good old DOS commands like CD or DIR. If you want to effectively work with the IIS PowerShell Snap-in it is a good idea to get familiar with these commands.
 

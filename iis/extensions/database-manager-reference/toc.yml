@@ -1,0 +1,538 @@
+- name: IIS Database Manager
+  href: iis-database-manager.md
+  items:
+  - name: Microsoft.Web.Management.DatabaseManager
+    href: microsoft-web-management-databasemanager.md
+    items:
+    - name: Microsoft.Web.Management.DatabaseManager Namespace
+      href: microsoft-web-management-databasemanager-namespace.md
+      items:
+      - name: Column Class
+        href: column-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'Column Constructor '
+          href: column-constructor-microsoft-web-management-databasemanager.md
+        - name: Column Methods
+          href: column-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'HasChanges Method '
+            href: column-haschanges-method-microsoft-web-management-databasemanager.md
+          - name: 'SetColumnIsInPrimaryKey Method '
+            href: column-setcolumnisinprimarykey-method-microsoft-web-management-databasemanager.md
+        - name: Column Properties
+          href: column-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'AllowNulls Property '
+            href: column-allownulls-property-microsoft-web-management-databasemanager.md
+          - name: 'Changes Property '
+            href: column-changes-property-microsoft-web-management-databasemanager.md
+          - name: 'DefaultValue Property '
+            href: column-defaultvalue-property-microsoft-web-management-databasemanager.md
+          - name: 'InPrimaryKey Property '
+            href: column-inprimarykey-property-microsoft-web-management-databasemanager.md
+          - name: 'IsIdentity Property '
+            href: column-isidentity-property-microsoft-web-management-databasemanager.md
+          - name: 'IsMarkedForDelete Property '
+            href: column-ismarkedfordelete-property-microsoft-web-management-databasemanager.md
+          - name: 'IsNew Property '
+            href: column-isnew-property-microsoft-web-management-databasemanager.md
+          - name: 'Length Property '
+            href: column-length-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: column-name-property-microsoft-web-management-databasemanager.md
+          - name: 'OriginalName Property '
+            href: column-originalname-property-microsoft-web-management-databasemanager.md
+          - name: 'Precision Property '
+            href: column-precision-property-microsoft-web-management-databasemanager.md
+          - name: 'Scale Property '
+            href: column-scale-property-microsoft-web-management-databasemanager.md
+          - name: 'Tag Property '
+            href: column-tag-property-microsoft-web-management-databasemanager.md
+          - name: 'TypeInfo Property '
+            href: column-typeinfo-property-microsoft-web-management-databasemanager.md
+      - name: ColumnChanges Enumeration
+        href: columnchanges-enumeration-microsoft-web-management-databasemanager.md
+      - name: ColumnDataInfo Class
+        href: columndatainfo-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: ColumnDataInfo Methods
+          href: columndatainfo-methods-microsoft-web-management-databasemanager.md
+        - name: ColumnDataInfo Properties
+          href: columndatainfo-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'ColumnName Property '
+            href: columndatainfo-columnname-property-microsoft-web-management-databasemanager.md
+          - name: 'IsEdited Property '
+            href: columndatainfo-isedited-property-microsoft-web-management-databasemanager.md
+          - name: 'NewValue Property '
+            href: columndatainfo-newvalue-property-microsoft-web-management-databasemanager.md
+          - name: 'OriginalValue Property '
+            href: columndatainfo-originalvalue-property-microsoft-web-management-databasemanager.md
+          - name: 'Tag Property '
+            href: columndatainfo-tag-property-microsoft-web-management-databasemanager.md
+          - name: 'TypeInfo Property '
+            href: columndatainfo-typeinfo-property-microsoft-web-management-databasemanager.md
+      - name: ConnectionArgument Class
+        href: connectionargument-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'ConnectionArgument Constructor '
+          href: connectionargument-constructor-microsoft-web-management-databasemanager.md
+        - name: ConnectionArgument Methods
+          href: connectionargument-methods-microsoft-web-management-databasemanager.md
+        - name: ConnectionArgument Properties
+          href: connectionargument-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'DefaultValue Property '
+            href: connectionargument-defaultvalue-property-microsoft-web-management-databasemanager.md
+          - name: 'IsPassword Property '
+            href: connectionargument-ispassword-property-microsoft-web-management-databasemanager.md
+          - name: 'IsRequired Property '
+            href: connectionargument-isrequired-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: connectionargument-name-property-microsoft-web-management-databasemanager.md
+          - name: 'Value Property '
+            href: connectionargument-value-property-microsoft-web-management-databasemanager.md
+      - name: DatabaseInfo Class
+        href: databaseinfo-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'DatabaseInfo Constructor '
+          href: databaseinfo-constructor-microsoft-web-management-databasemanager.md
+        - name: DatabaseInfo Methods
+          href: databaseinfo-methods-microsoft-web-management-databasemanager.md
+        - name: DatabaseInfo Properties
+          href: databaseinfo-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'SupportsSchemas Property '
+            href: databaseinfo-supportsschemas-property-microsoft-web-management-databasemanager.md
+      - name: DatabaseProvider Class
+        href: databaseprovider-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'DatabaseProvider Constructor '
+          href: databaseprovider-constructor-microsoft-web-management-databasemanager.md
+        - name: DatabaseProvider Methods
+          href: databaseprovider-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'CalculateConnectionString Method '
+            href: databaseprovider-calculateconnectionstring-method-microsoft-web-management-databasemanager.md
+          - name: 'ExecuteQuery Method '
+            href: databaseprovider-executequery-method-microsoft-web-management-databasemanager.md
+          - name: 'GetDatabaseHostName Method '
+            href: databaseprovider-getdatabasehostname-method-microsoft-web-management-databasemanager.md
+          - name: 'GetDatabaseInfo Method '
+            href: databaseprovider-getdatabaseinfo-method-microsoft-web-management-databasemanager.md
+          - name: 'GetServerTypes Method '
+            href: databaseprovider-getservertypes-method-microsoft-web-management-databasemanager.md
+          - name: 'GetService Method '
+            href: databaseprovider-getservice-method-microsoft-web-management-databasemanager.md
+          - name: 'TestConnection Method '
+            href: databaseprovider-testconnection-method-microsoft-web-management-databasemanager.md
+          - name: 'VerifyDependencies Method '
+            href: databaseprovider-verifydependencies-method-microsoft-web-management-databasemanager.md
+        - name: DatabaseProvider Properties
+          href: databaseprovider-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'ConnectionStringArguments Property '
+            href: databaseprovider-connectionstringarguments-property-microsoft-web-management-databasemanager.md
+      - name: DependenciesMissingException Class
+        href: dependenciesmissingexception-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'DependenciesMissingException Constructor '
+          href: dependenciesmissingexception-constructor-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'DependenciesMissingException Constructor '
+            href: dependenciesmissingexception-constructor-microsoft-web-management-databasemanager_1.md
+          - name: DependenciesMissingException Constructor (String)
+            href: dependenciesmissingexception-constructor-string-microsoft-web-management-databasemanager.md
+          - name: DependenciesMissingException Constructor (SerializationInfo, StreamingContext)
+            href: dependenciesmissingexception-constructor-serializationinfo-streamingcontext-microsoft-web-management-databasemanager.md
+          - name: DependenciesMissingException Constructor (String, Exception)
+            href: dependenciesmissingexception-constructor-string-exception-microsoft-web-management-databasemanager.md
+        - name: DependenciesMissingException Methods
+          href: dependenciesmissingexception-methods-microsoft-web-management-databasemanager.md
+        - name: DependenciesMissingException Properties
+          href: dependenciesmissingexception-properties-microsoft-web-management-databasemanager.md
+      - name: ForeignKey Class
+        href: foreignkey-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'ForeignKey Constructor '
+          href: foreignkey-constructor-microsoft-web-management-databasemanager.md
+        - name: ForeignKey Methods
+          href: foreignkey-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'GetChanges Method '
+            href: foreignkey-getchanges-method-microsoft-web-management-databasemanager.md
+        - name: ForeignKey Properties
+          href: foreignkey-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'FKColumns Property '
+            href: foreignkey-fkcolumns-property-microsoft-web-management-databasemanager.md
+          - name: 'FKTableName Property '
+            href: foreignkey-fktablename-property-microsoft-web-management-databasemanager.md
+          - name: 'FKTableSchema Property '
+            href: foreignkey-fktableschema-property-microsoft-web-management-databasemanager.md
+          - name: 'IsMarkedForDelete Property '
+            href: foreignkey-ismarkedfordelete-property-microsoft-web-management-databasemanager.md
+          - name: 'IsNew Property '
+            href: foreignkey-isnew-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: foreignkey-name-property-microsoft-web-management-databasemanager.md
+          - name: 'OriginalName Property '
+            href: foreignkey-originalname-property-microsoft-web-management-databasemanager.md
+          - name: 'PKColumns Property '
+            href: foreignkey-pkcolumns-property-microsoft-web-management-databasemanager.md
+          - name: 'PKTableName Property '
+            href: foreignkey-pktablename-property-microsoft-web-management-databasemanager.md
+          - name: 'PKTableSchema Property '
+            href: foreignkey-pktableschema-property-microsoft-web-management-databasemanager.md
+      - name: ForeignKeyChanges Enumeration
+        href: foreignkeychanges-enumeration-microsoft-web-management-databasemanager.md
+      - name: ForeignKeyColumn Class
+        href: foreignkeycolumn-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'ForeignKeyColumn Constructor '
+          href: foreignkeycolumn-constructor-microsoft-web-management-databasemanager.md
+        - name: ForeignKeyColumn Fields
+          href: foreignkeycolumn-fields-microsoft-web-management-databasemanager.md
+          items:
+          - name: NameIndex Field
+            href: foreignkeycolumn-nameindex-field-microsoft-web-management-databasemanager.md
+        - name: ForeignKeyColumn Methods
+          href: foreignkeycolumn-methods-microsoft-web-management-databasemanager.md
+        - name: ForeignKeyColumn Properties
+          href: foreignkeycolumn-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'Name Property '
+            href: foreignkeycolumn-name-property-microsoft-web-management-databasemanager.md
+      - name: IDbBackupManager Interface
+        href: idbbackupmanager-interface-microsoft-web-management-databasemanager.md
+        items:
+        - name: IDbBackupManager Methods
+          href: idbbackupmanager-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'CreateBackup Method '
+            href: idbbackupmanager-createbackup-method-microsoft-web-management-databasemanager.md
+      - name: IDbCustomBackupRestoreManager Interface
+        href: idbcustombackuprestoremanager-interface-microsoft-web-management-databasemanager.md
+        items:
+        - name: IDbCustomBackupRestoreManager Methods
+          href: idbcustombackuprestoremanager-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'ListBackups Method '
+            href: idbcustombackuprestoremanager-listbackups-method-microsoft-web-management-databasemanager.md
+      - name: IDbRestoreManager Interface
+        href: idbrestoremanager-interface-microsoft-web-management-databasemanager.md
+        items:
+        - name: IDbRestoreManager Methods
+          href: idbrestoremanager-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'RestoreBackup Method '
+            href: idbrestoremanager-restorebackup-method-microsoft-web-management-databasemanager.md
+      - name: IDbStoredProcedureManager Interface
+        href: idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md
+        items:
+        - name: IDbStoredProcedureManager Methods
+          href: idbstoredproceduremanager-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'DropProcedure Method '
+            href: idbstoredproceduremanager-dropprocedure-method-microsoft-web-management-databasemanager.md
+          - name: 'GetStoredProcedureCreateFromExistingStatement Method '
+            href: idbstoredproceduremanager-getstoredprocedurecreatefromexistingstatement-method-microsoft-web-management-databasemanager.md
+          - name: 'GetStoredProcedureCreateStatement Method '
+            href: idbstoredproceduremanager-getstoredprocedurecreatestatement-method-microsoft-web-management-databasemanager.md
+          - name: 'GetStoredProcedureEditStatement Method '
+            href: idbstoredproceduremanager-getstoredprocedureeditstatement-method-microsoft-web-management-databasemanager.md
+          - name: 'GetStoredProcedureExecStatement Method '
+            href: idbstoredproceduremanager-getstoredprocedureexecstatement-method-microsoft-web-management-databasemanager.md
+          - name: 'GetStoredProcedureParameters Method '
+            href: idbstoredproceduremanager-getstoredprocedureparameters-method-microsoft-web-management-databasemanager.md
+          - name: 'GetStoredProcedures Method '
+            href: idbstoredproceduremanager-getstoredprocedures-method-microsoft-web-management-databasemanager.md
+      - name: IDbTableDataManager Interface
+        href: idbtabledatamanager-interface-microsoft-web-management-databasemanager.md
+        items:
+        - name: IDbTableDataManager Methods
+          href: idbtabledatamanager-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'DeleteRow Method '
+            href: idbtabledatamanager-deleterow-method-microsoft-web-management-databasemanager.md
+          - name: 'EditRow Method '
+            href: idbtabledatamanager-editrow-method-microsoft-web-management-databasemanager.md
+          - name: 'GetData Method '
+            href: idbtabledatamanager-getdata-method-microsoft-web-management-databasemanager.md
+          - name: 'InsertRow Method '
+            href: idbtabledatamanager-insertrow-method-microsoft-web-management-databasemanager.md
+      - name: IDbTableManager Interface
+        href: idbtablemanager-interface-microsoft-web-management-databasemanager.md
+        items:
+        - name: IDbTableManager Methods
+          href: idbtablemanager-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'CreateTable Method '
+            href: idbtablemanager-createtable-method-microsoft-web-management-databasemanager.md
+          - name: 'DropTable Method '
+            href: idbtablemanager-droptable-method-microsoft-web-management-databasemanager.md
+          - name: 'EditTable Method '
+            href: idbtablemanager-edittable-method-microsoft-web-management-databasemanager.md
+          - name: 'GetPrimaryKey Method '
+            href: idbtablemanager-getprimarykey-method-microsoft-web-management-databasemanager.md
+          - name: 'GetTableInfo Method '
+            href: idbtablemanager-gettableinfo-method-microsoft-web-management-databasemanager.md
+          - name: 'GetTables Method '
+            href: idbtablemanager-gettables-method-microsoft-web-management-databasemanager.md
+      - name: IDbViewManager Interface
+        href: idbviewmanager-interface-microsoft-web-management-databasemanager.md
+        items:
+        - name: IDbViewManager Methods
+          href: idbviewmanager-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'CreateView Method '
+            href: idbviewmanager-createview-method-microsoft-web-management-databasemanager.md
+          - name: 'DropView Method '
+            href: idbviewmanager-dropview-method-microsoft-web-management-databasemanager.md
+          - name: 'EditView Method '
+            href: idbviewmanager-editview-method-microsoft-web-management-databasemanager.md
+          - name: 'GetViews Method '
+            href: idbviewmanager-getviews-method-microsoft-web-management-databasemanager.md
+      - name: Index Class
+        href: index-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'Index Constructor '
+          href: index-constructor-microsoft-web-management-databasemanager.md
+        - name: Index Methods
+          href: index-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'GetChanges Method '
+            href: index-getchanges-method-microsoft-web-management-databasemanager.md
+        - name: Index Properties
+          href: index-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'Clustered Property '
+            href: index-clustered-property-microsoft-web-management-databasemanager.md
+          - name: 'Columns Property '
+            href: index-columns-property-microsoft-web-management-databasemanager.md
+          - name: 'IgnoreDuplicateKeys Property '
+            href: index-ignoreduplicatekeys-property-microsoft-web-management-databasemanager.md
+          - name: 'IndexType Property '
+            href: index-indextype-property-microsoft-web-management-databasemanager.md
+          - name: 'IsMarkedForDelete Property '
+            href: index-ismarkedfordelete-property-microsoft-web-management-databasemanager.md
+          - name: 'IsNew Property '
+            href: index-isnew-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: index-name-property-microsoft-web-management-databasemanager.md
+          - name: 'OriginalName Property '
+            href: index-originalname-property-microsoft-web-management-databasemanager.md
+          - name: 'Unique Property '
+            href: index-unique-property-microsoft-web-management-databasemanager.md
+      - name: IndexChanges Enumeration
+        href: indexchanges-enumeration-microsoft-web-management-databasemanager.md
+      - name: IndexColumn Class
+        href: indexcolumn-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'IndexColumn Constructor '
+          href: indexcolumn-constructor-microsoft-web-management-databasemanager.md
+        - name: IndexColumn Fields
+          href: indexcolumn-fields-microsoft-web-management-databasemanager.md
+          items:
+          - name: DescendingIndex Field
+            href: indexcolumn-descendingindex-field-microsoft-web-management-databasemanager.md
+          - name: NameIndex Field
+            href: indexcolumn-nameindex-field-microsoft-web-management-databasemanager.md
+        - name: IndexColumn Methods
+          href: indexcolumn-methods-microsoft-web-management-databasemanager.md
+        - name: IndexColumn Properties
+          href: indexcolumn-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'Descending Property '
+            href: indexcolumn-descending-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: indexcolumn-name-property-microsoft-web-management-databasemanager.md
+      - name: IndexType Enumeration
+        href: indextype-enumeration-microsoft-web-management-databasemanager.md
+      - name: Query Class
+        href: query-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'Query Constructor '
+          href: query-constructor-microsoft-web-management-databasemanager.md
+        - name: Query Methods
+          href: query-methods-microsoft-web-management-databasemanager.md
+        - name: Query Properties
+          href: query-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'AllowEdit Property '
+            href: query-allowedit-property-microsoft-web-management-databasemanager.md
+          - name: 'Statement Property '
+            href: query-statement-property-microsoft-web-management-databasemanager.md
+          - name: 'Tag Property '
+            href: query-tag-property-microsoft-web-management-databasemanager.md
+      - name: QueryColumnMetadata Class
+        href: querycolumnmetadata-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'QueryColumnMetadata Constructor '
+          href: querycolumnmetadata-constructor-microsoft-web-management-databasemanager.md
+        - name: QueryColumnMetadata Methods
+          href: querycolumnmetadata-methods-microsoft-web-management-databasemanager.md
+        - name: QueryColumnMetadata Properties
+          href: querycolumnmetadata-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'ColumnWidth Property '
+            href: querycolumnmetadata-columnwidth-property-microsoft-web-management-databasemanager.md
+          - name: 'IsComputed Property '
+            href: querycolumnmetadata-iscomputed-property-microsoft-web-management-databasemanager.md
+          - name: 'IsNullable Property '
+            href: querycolumnmetadata-isnullable-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: querycolumnmetadata-name-property-microsoft-web-management-databasemanager.md
+          - name: 'Tag Property '
+            href: querycolumnmetadata-tag-property-microsoft-web-management-databasemanager.md
+          - name: 'TypeInfo Property '
+            href: querycolumnmetadata-typeinfo-property-microsoft-web-management-databasemanager.md
+      - name: QueryResult Class
+        href: queryresult-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'QueryResult Constructor '
+          href: queryresult-constructor-microsoft-web-management-databasemanager.md
+        - name: QueryResult Methods
+          href: queryresult-methods-microsoft-web-management-databasemanager.md
+        - name: QueryResult Properties
+          href: queryresult-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'ColumnMetadata Property '
+            href: queryresult-columnmetadata-property-microsoft-web-management-databasemanager.md
+          - name: 'QueryResults Property '
+            href: queryresult-queryresults-property-microsoft-web-management-databasemanager.md
+      - name: StoredProcedure Class
+        href: storedprocedure-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'StoredProcedure Constructor '
+          href: storedprocedure-constructor-microsoft-web-management-databasemanager.md
+        - name: StoredProcedure Methods
+          href: storedprocedure-methods-microsoft-web-management-databasemanager.md
+        - name: StoredProcedure Properties
+          href: storedprocedure-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'Definition Property '
+            href: storedprocedure-definition-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: storedprocedure-name-property-microsoft-web-management-databasemanager.md
+          - name: 'Schema Property '
+            href: storedprocedure-schema-property-microsoft-web-management-databasemanager.md
+      - name: StoredProcedureParameter Class
+        href: storedprocedureparameter-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'StoredProcedureParameter Constructor '
+          href: storedprocedureparameter-constructor-microsoft-web-management-databasemanager.md
+        - name: StoredProcedureParameter Methods
+          href: storedprocedureparameter-methods-microsoft-web-management-databasemanager.md
+        - name: StoredProcedureParameter Properties
+          href: storedprocedureparameter-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'IsNull Property '
+            href: storedprocedureparameter-isnull-property-microsoft-web-management-databasemanager.md
+          - name: 'IsOutputParameter Property '
+            href: storedprocedureparameter-isoutputparameter-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: storedprocedureparameter-name-property-microsoft-web-management-databasemanager.md
+          - name: 'Tag Property '
+            href: storedprocedureparameter-tag-property-microsoft-web-management-databasemanager.md
+          - name: 'TypeInfo Property '
+            href: storedprocedureparameter-typeinfo-property-microsoft-web-management-databasemanager.md
+          - name: 'Value Property '
+            href: storedprocedureparameter-value-property-microsoft-web-management-databasemanager.md
+      - name: Table Class
+        href: table-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'Table Constructor '
+          href: table-constructor-microsoft-web-management-databasemanager.md
+        - name: Table Methods
+          href: table-methods-microsoft-web-management-databasemanager.md
+        - name: Table Properties
+          href: table-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'CreateDate Property '
+            href: table-createdate-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: table-name-property-microsoft-web-management-databasemanager.md
+          - name: 'Schema Property '
+            href: table-schema-property-microsoft-web-management-databasemanager.md
+      - name: TableInfo Class
+        href: tableinfo-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'TableInfo Constructor '
+          href: tableinfo-constructor-microsoft-web-management-databasemanager.md
+        - name: TableInfo Methods
+          href: tableinfo-methods-microsoft-web-management-databasemanager.md
+        - name: TableInfo Properties
+          href: tableinfo-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'Columns Property '
+            href: tableinfo-columns-property-microsoft-web-management-databasemanager.md
+          - name: 'ForeignKeys Property '
+            href: tableinfo-foreignkeys-property-microsoft-web-management-databasemanager.md
+          - name: 'HasChanges Property '
+            href: tableinfo-haschanges-property-microsoft-web-management-databasemanager.md
+          - name: 'Indexes Property '
+            href: tableinfo-indexes-property-microsoft-web-management-databasemanager.md
+          - name: 'IsMarkedForDelete Property '
+            href: tableinfo-ismarkedfordelete-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: tableinfo-name-property-microsoft-web-management-databasemanager.md
+      - name: TypeInfo Class
+        href: typeinfo-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'TypeInfo Constructor '
+          href: typeinfo-constructor-microsoft-web-management-databasemanager.md
+        - name: TypeInfo Methods
+          href: typeinfo-methods-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'ToString Method '
+            href: typeinfo-tostring-method-microsoft-web-management-databasemanager.md
+        - name: TypeInfo Properties
+          href: typeinfo-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'AllowIdentity Property '
+            href: typeinfo-allowidentity-property-microsoft-web-management-databasemanager.md
+          - name: 'AllowLength Property '
+            href: typeinfo-allowlength-property-microsoft-web-management-databasemanager.md
+          - name: 'AllowNulls Property '
+            href: typeinfo-allownulls-property-microsoft-web-management-databasemanager.md
+          - name: 'DefaultLength Property '
+            href: typeinfo-defaultlength-property-microsoft-web-management-databasemanager.md
+          - name: 'DefaultPrecision Property '
+            href: typeinfo-defaultprecision-property-microsoft-web-management-databasemanager.md
+          - name: 'DefaultScale Property '
+            href: typeinfo-defaultscale-property-microsoft-web-management-databasemanager.md
+          - name: 'Editable Property '
+            href: typeinfo-editable-property-microsoft-web-management-databasemanager.md
+          - name: 'HasPrecision Property '
+            href: typeinfo-hasprecision-property-microsoft-web-management-databasemanager.md
+          - name: 'IsBinary Property '
+            href: typeinfo-isbinary-property-microsoft-web-management-databasemanager.md
+          - name: 'IsVariableLength Property '
+            href: typeinfo-isvariablelength-property-microsoft-web-management-databasemanager.md
+          - name: 'MaximumLength Property '
+            href: typeinfo-maximumlength-property-microsoft-web-management-databasemanager.md
+          - name: 'MaximumPrecision Property '
+            href: typeinfo-maximumprecision-property-microsoft-web-management-databasemanager.md
+          - name: 'MinimumLength Property '
+            href: typeinfo-minimumlength-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: typeinfo-name-property-microsoft-web-management-databasemanager.md
+          - name: 'Tag Property '
+            href: typeinfo-tag-property-microsoft-web-management-databasemanager.md
+      - name: View Class
+        href: view-class-microsoft-web-management-databasemanager.md
+        items:
+        - name: 'View Constructor '
+          href: view-constructor-microsoft-web-management-databasemanager.md
+        - name: View Methods
+          href: view-methods-microsoft-web-management-databasemanager.md
+        - name: View Properties
+          href: view-properties-microsoft-web-management-databasemanager.md
+          items:
+          - name: 'Definition Property '
+            href: view-definition-property-microsoft-web-management-databasemanager.md
+          - name: 'Name Property '
+            href: view-name-property-microsoft-web-management-databasemanager.md
+          - name: 'Schema Property '
+            href: view-schema-property-microsoft-web-management-databasemanager.md

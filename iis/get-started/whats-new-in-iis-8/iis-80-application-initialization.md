@@ -1,30 +1,23 @@
 ---
-title: "IIS 8.0 Application Initialization | Microsoft Docs"
+title: "IIS 8.0 Application Initialization"
 author: shauneagan
 description: "IIS Application Initialization for IIS 7.5 enables website administrators to improve the responsiveness of their Web sites by loading the Web applications be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/29/2012
-ms.topic: article
 ms.assetid: 3c6ab448-7598-4ef4-8034-da06939b2025
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-application-initialization
 msc.type: authoredcontent
 ---
-IIS 8.0 Application Initialization
-====================
+# IIS 8.0 Application Initialization
+
 by [Shaun Eagan](https://github.com/shauneagan)
 
-### Compatibility
-
+## Compatibility
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | Application Initialization was built-in for IIS 8.0. |
 | IIS 7.5 | Application Initialization was released as an [out-of-band module for IIS 7.5](https://www.iis.net/downloads/microsoft/application-initialization). |
 | IIS 7.0 | Application Initialization was not supported for IIS 7.0. |
-
 
 <a id="TOC301259894"></a>
 
@@ -41,24 +34,24 @@ The IIS 8.0 Application Initialization feature enables website administrators to
 The Application Initialization feature is configured through a combination of global and application-specific rules that tell IIS 8.0 how and when to initialize web applications. The Application Initialization feature also supports integration with the IIS Url Rewrite Module to support more complex handling of placeholder content while an application is still initializing.
 
 > [!NOTE]
-> There are known incomptibilities between Application Initialization and Application Request Routing (ARR). It is not recommended to use Application Initialization on machines with ARR installed.
+> There are known incompatibilities between Application Initialization and Application Request Routing (ARR). It is not recommended to use Application Initialization on machines with ARR installed.
 
 <a id="TOC301258517"></a>
 
 ## Step by Step Instructions
 
-#### Prerequisites:
+### Prerequisites
 
 The Application Initialization feature requires IIS 8.0 to be installed. In addition, the Application Initialization feature within the IIS "Application Development" sub-feature needs to be installed.
 
 The following screenshot from the Windows Server 2012 Server Manager UI shows the Application Initialization feature.
 
-[![](iis-80-application-initialization/_static/image2.jpg)](iis-80-application-initialization/_static/image1.jpg)
+![](iis-80-application-initialization/_static/image1.jpg)
 
 > [!NOTE]
 > This walkthrough also uses an ASP.NET 4.5 application to demonstrate the Application Initialization feature. The Appendix at the end of this document includes the sample application and instructions on setting up the application on your machine.
 
-#### Workarounds for known bugs:
+#### Workarounds for known bugs
 
 - There are no known bugs for this feature at this time.
 
@@ -118,7 +111,7 @@ Remember to run the command prompt window using the "Run as Administrator" optio
 
 Using Internet Explorer, navigate to the following Url:
 
-http://localhost/appinit/default.aspx
+`http://localhost/appinit/default.aspx`
 
 The browser returns the static "Startup.htm" page with a grey background for the first few seconds because that is the "splash page" that has been configured in web.config. You can continue refreshing the page in your web browser and observe that about eight seconds later (simulated with a thread sleep in the sample application's global.asax) you receive the "real" content for default.aspx with a white background. This indicates that application initialization completed.
 
@@ -146,19 +139,19 @@ From an *elevated* command prompt window, recycle the World Wide Web Service wit
 
 Using a new instance of Internet Explorer, once again navigate to:
 
-http://localhost/appinit/default.aspx
+`http://localhost/appinit/default.aspx`
 
-Note that that the "Startup.htm" splash page with the grey background is showing.
+Note that the "Startup.htm" splash page with the grey background is showing.
 
 Next, pull up Task Manager and make sure the **Processes** tab is showing. Sort the process list by name until you see one instance of w3wp.exe running. That instance is the worker process that is currently running the "appinit" ASP.NET application.
 
-[![](iis-80-application-initialization/_static/image4.jpg)](iis-80-application-initialization/_static/image3.jpg)
+![](iis-80-application-initialization/_static/image3.jpg)
 
 Refresh the browser a few times until the content from the real default.aspx page is being returned. You know that the application is running the "real" default.aspx page when the background changes to white. Next, arrange the windows on your screen so that you can see both Task Manager and the browser.
 
 Now switch back to the browser and refresh the page at least 30 times, this causes IIS to recycle the application pool. You can stop refreshing the page when you see a second instance of w3wp.exe show up in the Task Manager process list as shown below:
 
-[![](iis-80-application-initialization/_static/image6.jpg)](iis-80-application-initialization/_static/image5.jpg)
+![](iis-80-application-initialization/_static/image5.jpg)
 
 The screenshot shows the second instance of w3wp.exe has started due to the process recycling limit set earlier.
 
@@ -236,7 +229,7 @@ From an elevated command prompt window, recycle the World Wide Web Service with 
 
 Using a new instance of Internet Explorer, once again navigate to:
 
-http://localhost/appinit/default.aspx
+`http://localhost/appinit/default.aspx`
 
 Even though Url Rewrite rules are now used to define the splash page logic, you still see the same behavior from the first walkthrough. The Startup.htm page with the grey background is displayed initially. If you refresh the browser periodically, about eight seconds later you again see the page background switch to white, indicating that the "real" default.aspx page is being served now that application initialization is complete.
 
@@ -248,8 +241,8 @@ The previous walkthroughs use application initialization as a straight-forward m
 
 In your browser navigate to both of the following Urls:
 
-- http://localhost/appinit/ImageHandler.ashx?image=Lighthouse
-- http://localhost/appinit/ImageHandler.ashx?image=Tulips
+- `http://localhost/appinit/ImageHandler.ashx?image=Lighthouse`
+- `http://localhost/appinit/ImageHandler.ashx?image=Tulips`
 
 These Urls are examples of dynamically generated static content. For this sample application, the code inside of ImageHandler.ashx looks at the querystring key "image". If the value of that querystring is either "Lighthouse" or "Tulips" the ASP.NET handler transmits the corresponding JPG that is located in the App\_Data folder.
 
@@ -283,11 +276,11 @@ From an elevated command prompt window, recycle the World Wide Web Service with 
 
 Using Internet Explorer navigate to either:
 
-http://localhost/appinit/ImageHandler.ashx?image=Lighthouse
+`http://localhost/appinit/ImageHandler.ashx?image=Lighthouse`
 
 or
 
-http://localhost/appinit/ImageHandler.ashx?image=Tulips
+`http://localhost/appinit/ImageHandler.ashx?image=Tulips`
 
 Notice how the images returned in either case include a watermark indicating these are the "static" pre-generated versions of the images. The watermark is text in the upper portion of the image saying "This image is the static version of...."
 
@@ -327,13 +320,13 @@ Unzip the file to the wwwroot folder on your web server. For example if your web
 
 After unzipping the "appinit" sample onto the file system, you need to configure the folder as an ASP.NET application in IIS 8.0. The screenshot below shows the appinit sample application configured as an application in IIS 8.0. Also notice that the application is assigned to the ".NET v4.5" application pool.
 
-[![](iis-80-application-initialization/_static/image3.png)](iis-80-application-initialization/_static/image2.png)
+![](iis-80-application-initialization/_static/image2.png)
 
 <a id="TOC301259913"></a>
 
 ### Install the Url Rewrite Module
 
-The sample application makes use of the Url Rewrite module for advanced integration with the Application Initialization feature. You need to install the Url Rewrite module on your server; it can be downloaded from: [https://www.iis.net/download/URLRewrite](https://www.iis.net/downloads/microsoft/url-rewrite)
+The sample application makes use of the Url Rewrite module for advanced integration with the Application Initialization feature. You need to install the Url Rewrite module on your server; it can be downloaded from: <https://www.iis.net/downloads/microsoft/url-rewrite>.
 
 <a id="TOC301259914"></a>
 

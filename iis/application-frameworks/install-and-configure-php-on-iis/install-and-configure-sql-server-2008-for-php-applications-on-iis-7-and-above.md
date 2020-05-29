@@ -1,19 +1,14 @@
 ---
-title: "Install and Configure SQL Server 2008 for PHP Applications on IIS 7 | Microsoft Docs"
+title: "Install and Configure SQL Server 2008 for PHP Applications on IIS 7"
 author: rick-anderson
 description: "PHP is a widely used, easy-to-learn, open-source scripting language. Microsoft ® SQL Server ® is a powerful and robust relational model database server that..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 322bf487-da24-463a-ac46-d526e179fe2a
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above
 msc.type: authoredcontent
 ---
-Install and Configure SQL Server 2008 for PHP Applications on IIS 7
-====================
+# Install and Configure SQL Server 2008 for PHP Applications on IIS 7
+
 by Tali Smith
 
 ## Introduction
@@ -71,13 +66,13 @@ The fastest and easiest way to install a database component for a Windows-based 
 
 Alternately, you can manually set up SQL Server as the database component of the Microsoft® Web Platform. The SQL Server Installation Wizard is based on Windows® Installer. It provides a single feature tree for installation of all SQL Server components, so that you do not have to install them individually. SQL Server 2008 can also be installed from the command prompt or with a configuration file.
 
-For instructions, see: [How to: Install SQL Server 2008](https://technet.microsoft.com/en-us/library/ms143219.aspx).
+For instructions, see: [How to: Install SQL Server 2008](https://technet.microsoft.com/library/ms143219.aspx).
 
 ## Links for Further Information
 
 - [SQL 2008 for Hosters](../../web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md).
-- [Hardware and Software Requirements for Installing SQL Server 2008](https://technet.microsoft.com/en-us/library/ms143506.aspx).
-- [Editions and Components of SQL Server 2008.](https://technet.microsoft.com/en-us/library/ms144275.aspx)
+- [Hardware and Software Requirements for Installing SQL Server 2008](https://technet.microsoft.com/library/ms143506.aspx).
+- [Editions and Components of SQL Server 2008.](https://technet.microsoft.com/library/ms144275.aspx)
 - [SQL Server 2008 home page](https://www.microsoft.com/sqlserver/2008/en/us/default.aspx).
-- [SQL Server Developer Center library](https://msdn.microsoft.com/en-us/library/bb545450.aspx).
-- [SQL Server Best Practices](https://technet.microsoft.com/en-us/sqlserver/bb671430.aspx).
+- [SQL Server Developer Center library](https://msdn.microsoft.com/library/bb545450.aspx).
+- [SQL Server Best Practices](https://technet.microsoft.com/sqlserver/bb671430.aspx).

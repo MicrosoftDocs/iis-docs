@@ -1,19 +1,14 @@
 ---
-title: "ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt; | Microsoft Docs"
+title: "ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt;"
 author: rick-anderson
 description: "Overview The &lt;isapiCgiRestriction&gt; element of the &lt;security&gt; element allows you to specify a list of Common Gateway Interface (CGI) and Internet..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 6f65165d-2dd2-4a3b-a212-8010ed893c47
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/isapicgirestriction
 msc.type: config
 ---
-ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt;
-====================
+# ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -152,7 +147,7 @@ The following examples add an ISAPI/CGI restriction for a custom ISAPI extension
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

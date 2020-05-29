@@ -1,19 +1,14 @@
 ---
-title: "Smooth Streaming Client SDK for Windows 8 - Release Notes | Microsoft Docs"
+title: "Smooth Streaming Client SDK for Windows 8 - Release Notes"
 author: cenkdin
 description: "The Smooth Streaming Client SDK for Windows Store Apps enables developers to build Windows Store applications that can play on-demand and live Smooth Streami..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/26/2012
-ms.topic: article
 ms.assetid: 9da8a3e4-1539-4a97-a020-9683d8b9ad2b
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-client-sdk-for-windows-8-release-notes
 msc.type: authoredcontent
 ---
-Smooth Streaming Client SDK for Windows 8 - Release Notes
-====================
+# Smooth Streaming Client SDK for Windows 8 - Release Notes
+
 by [Cenk Dingiloglu](https://github.com/cenkdin)
 
 The Smooth Streaming Client SDK for Windows 8 Apps enables developers to build Windows 8 applications that can play on-demand and live Smooth Streaming content with or without Microsoft PlayReady protection. This document describes the important known issues that occur in this release of the SDK.
@@ -51,11 +46,11 @@ This release of the SDK includes support for the following:
 - Trickplay on ARM platforms have some known issues where the playback rate isn't honored and playback still continues on x1.
 - The performance and the count of play backing multiple Smooth Streaming assets at the same time will vary depending on your hardware performance (CPU/GPU) and available bandwidth. For better results it is recommended to restrict/select qualities based on your window size.
 - When you navigate from a Smooth Streaming application, Windows will suspend the application. This might cause unexpected behavior. To overcome this, have the application listen to the Suspend/Resume event and call (Pause)/(Play) accordingly.
-- On Windows 8 apps, screen saver isn't disabled automatically when there is video playback, This might cause issues. To avoid this, disable the screen saver for Smooth Streaming applications by using [DisplayRequest.RequestActive](https://msdn.microsoft.com/en-us/library/windows/apps/windows.system.display.displayrequest.requestactive.aspx).
+- On Windows 8 apps, screen saver isn't disabled automatically when there is video playback, This might cause issues. To avoid this, disable the screen saver for Smooth Streaming applications by using [DisplayRequest.RequestActive](https://msdn.microsoft.com/library/windows/apps/windows.system.display.displayrequest.requestactive.aspx).
 - You must change the build platform from **Any Cpu** to the targeted architecture (x64/x86/ARM) before compiling the project in Visual Studio. Otherwise, you might get compilation errors and warnings such as the following:  
     ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image1.png)  
   
- Leaving the **Any CPU** option selected will display the following warning in the References section in Visual Studio:  
+  Leaving the **Any CPU** option selected will display the following warning in the References section in Visual Studio:  
     ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image2.png)
 - The SDK depends on the Microsoft Visual C++ Runtime Package. Failing to add this dependency to the project references will cause Visual Studio to generate compilation errors and warnings, such as the following:  
     ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image3.png)

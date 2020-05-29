@@ -1,19 +1,14 @@
 ---
-title: "Trace Failed Requests &lt;traceFailedRequests&gt; | Microsoft Docs"
+title: "Trace Failed Requests &lt;traceFailedRequests&gt;"
 author: rick-anderson
 description: "Overview The &lt;traceFailedRequests&gt; element allows you to configure failed request tracing for a Web site, application, or directory. This element can c..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dee94992-b0e8-4869-a1fe-0c07fda9b694
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests
 msc.type: config
 ---
-Trace Failed Requests &lt;traceFailedRequests&gt;
-====================
+# Trace Failed Requests &lt;traceFailedRequests&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -53,7 +48,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
     [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
-- Click **Close**.
+4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
@@ -165,7 +160,7 @@ The following examples enable verbose failed request tracing for HTTP 500 errors
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

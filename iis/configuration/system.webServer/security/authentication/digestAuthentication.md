@@ -1,19 +1,14 @@
 ---
-title: "Digest Authentication &lt;digestAuthentication&gt; | Microsoft Docs"
+title: "Digest Authentication &lt;digestAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;digestAuthentication&gt; element contains configuration settings for the Internet Information Services (IIS) 7 Digest authentication module...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 6fdc9c0e-df32-48f6-8ff1-2ed189a5065b
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/digestauthentication
 msc.type: config
 ---
-Digest Authentication &lt;digestAuthentication&gt;
-====================
+# Digest Authentication &lt;digestAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -148,7 +143,7 @@ The following examples enable Digest authentication for a site.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](digestAuthentication/samples/sample4.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Deployment Recommendations for Application Request Routing | Microsoft Docs"
+title: "Deployment Recommendations for Application Request Routing"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To highlight and understand deployment reco..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: c90b100b-f40f-442c-b55c-2a5b9def4f6a
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/installing-application-request-routing-arr/deployment-recommendations-for-application-request-routing
 msc.type: authoredcontent
 ---
-Deployment Recommendations for Application Request Routing
-====================
+# Deployment Recommendations for Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

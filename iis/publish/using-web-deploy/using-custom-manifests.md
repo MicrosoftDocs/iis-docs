@@ -1,19 +1,14 @@
 ---
-title: "Using Custom Manifests | Microsoft Docs"
+title: "Using Custom Manifests"
 author: rick-anderson
 description: "This quick guide will help you create a custom manifest and synchronize it. We will synchronize a Web site and include the application pool, an external dire..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/23/2008
-ms.topic: article
 ms.assetid: 68c0a088-a45f-4ea6-8e3d-a5876f949f29
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/using-custom-manifests
 msc.type: authoredcontent
 ---
-Using Custom Manifests
-====================
+# Using Custom Manifests
+
 by Faith A
 
 This quick guide will help you create a custom manifest and synchronize it. We will synchronize a Web site and include the application pool, an external directory, and an assembly and COM object that are not automatically gathered for a Web site.
@@ -63,4 +58,4 @@ You can also perform a **sync** operation with a manifest live, without using a 
 
 ## Summary
 
-You have now created a custom manifest and used it for synchronization. You can further extend the manifest by adding any provider paths that are important for your Web site or server, such as a registry key or an assembly in the GAC. For more information about the manifest provider, see [Web Deploy manifest Provider](https://technet.microsoft.com/en-us/library/dd569104.aspx "MS Deploy manifest Provider").
+You have now created a custom manifest and used it for synchronization. You can further extend the manifest by adding any provider paths that are important for your Web site or server, such as a registry key or an assembly in the GAC. For more information about the manifest provider, see [Web Deploy manifest Provider](https://technet.microsoft.com/library/dd569104.aspx "MS Deploy manifest Provider").

@@ -1,19 +1,14 @@
 ---
-title: "Server Side Include &lt;serverSideInclude&gt; | Microsoft Docs"
+title: "Server Side Include &lt;serverSideInclude&gt;"
 author: rick-anderson
 description: "Overview The &lt;serverSideInclude&gt; element specifies whether server-side includes (SSI) #exec directives are disabled for Internet Information Services (..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8b533829-55ae-4319-b164-f5a930542567
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/serversideinclude
 msc.type: config
 ---
-Server Side Include &lt;serverSideInclude&gt;
-====================
+# Server Side Include &lt;serverSideInclude&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -124,7 +119,7 @@ The following code samples disable the #exec command for SSI files in the Defaul
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](serverSideInclude/samples/sample5.cs)]
 

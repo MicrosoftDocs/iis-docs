@@ -1,19 +1,14 @@
 ---
-title: "Enable PHP Applications to Make Application-Level Access Control Decisions | Microsoft Docs"
+title: "Enable PHP Applications to Make Application-Level Access Control Decisions"
 author: rick-anderson
 description: "You can expose key access control information to a PHP application to facilitate application-level access control, if desired. The Microsoft ® .NET extensibi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 56ad831c-305b-46fb-aa92-71784fa1bd3a
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/enable-php-applications-to-make-application-level-access-control-decisions
 msc.type: authoredcontent
 ---
-Enable PHP Applications to Make Application-Level Access Control Decisions
-====================
+# Enable PHP Applications to Make Application-Level Access Control Decisions
+
 by Tali Smith
 
 ## Introduction
@@ -90,7 +85,7 @@ To configure Forms Authentication:
     *Figure 3: Enabling Forms Authentication for all requests*
 11. Click **OK**. This allows the Forms Authentication module to provide authentication services for all requests, regardless of the application content being requested. This enables your PHP application to take advantage of Forms Authentication.
 
-You can edit a number of configuration options that control the behavior of the Forms Authentication module (see docs at [https://msdn.microsoft.com/en-us/library/1d3t3c61.aspx](https://msdn.microsoft.com/en-us/library/1d3t3c61.aspx)):
+You can edit a number of configuration options that control the behavior of the Forms Authentication module (see docs at [https://msdn.microsoft.com/library/1d3t3c61.aspx](https://msdn.microsoft.com/library/1d3t3c61.aspx)):
 
 - The default login page URL.
 - The timeout and automatic renewal time period for the authentication ticket.

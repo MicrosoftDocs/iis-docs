@@ -1,19 +1,14 @@
 ---
-title: "Installing IIS Modules in Shared Configuration Environments | Microsoft Docs"
+title: "Installing IIS Modules in Shared Configuration Environments"
 author: walterov
 description: "This article describes the steps to install an IIS Module in machines that are part of the Shared Configuration environment. The following process assumes n..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/01/2009
-ms.topic: article
 ms.assetid: a739d72a-8437-47ef-9914-bc2d6ea9461f
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/installing-iis-modules-in-shared-configuration-environments
 msc.type: authoredcontent
 ---
-Installing IIS Modules in Shared Configuration Environments
-====================
+# Installing IIS Modules in Shared Configuration Environments
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
@@ -34,7 +29,7 @@ If you are using an automated system for provisioning and/or managing web sites,
 ## Step 2 - Remove server 1 from the load balance solution
 
 The steps to accomplish this step varied depending on which technology you are using for Load Balancing.  
-For Network Load Balancing review the documentation at: [https://technet.microsoft.com/en-us/library/cc732855(WS.10).aspx](https://technet.microsoft.com/en-us/library/cc732855(WS.10).aspx)   
+For Network Load Balancing review the documentation at: [https://technet.microsoft.com/library/cc732855(WS.10).aspx](https://technet.microsoft.com/library/cc732855(WS.10).aspx)   
 For Application Request Routing see: [https://www.iis.net/learn/extensions/planning-for-arr/using-the-application-request-routing-module](../../extensions/planning-for-arr/using-the-application-request-routing-module.md)   
 For any other solution (including hardware) see the manufacturer's provided documentation.
 

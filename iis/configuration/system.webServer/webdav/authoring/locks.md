@@ -1,19 +1,14 @@
 ---
-title: "WebDAV Locks &lt;locks&gt; | Microsoft Docs"
+title: "WebDAV Locks &lt;locks&gt;"
 author: rick-anderson
 description: "Overview The &lt;locks&gt; element of the &lt;authoring&gt; element defines the locking behavior for the WebDAV module. More specifically, the &lt;locks&gt;..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 68a9c796-5d02-4c7e-aed1-539f8ab35c91
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/locks
 msc.type: config
 ---
-WebDAV Locks &lt;locks&gt;
-====================
+# WebDAV Locks &lt;locks&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -33,9 +28,8 @@ The `<locks>` element of the `<authoring>` element defines the locking behavior 
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
-
 
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
@@ -46,24 +40,41 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 ### Windows Server 2012 or Windows Server 2012 R2
 
-1. On the taskbar, click **Server Manager**. - In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**. - In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**. - On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
-    [![](locks/_static/image2.png)](locks/_static/image1.png) . - On the **Select features** page, click **Next**. - On the **Confirm installation selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Server Manager**.
+2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
+3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
+4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
+    ![](locks/_static/image1.png)
+5. On the **Select features** page, click **Next**.
+6. On the **Confirm installation selections** page, click **Install**.
+7. On the **Results** page, click **Close**.
 
 ### Windows 8 or Windows 8.1
 
-1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
-    [![](locks/_static/image4.png)](locks/_static/image3.png)- Click **OK**.
-- Click **Close**.
+1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
+3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
+    ![](locks/_static/image3.png)
+4. Click **OK**.
+5. Click **Close**.
 
 ### Windows Server 2008 R2
 
-1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**. - In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**. - In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**. - On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
-    [![](locks/_static/image6.png)](locks/_static/image5.png)- On the **Confirm Installation Selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
+2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
+3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
+    ![](locks/_static/image5.png)
+5. On the **Confirm Installation Selections** page, click **Install**.
+6. On the **Results** page, click **Close**.
 
 ### Windows 7
 
-1. On the taskbar, click **Start**, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**. - Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**. - Select **WebDAV Publishing**, and then click **OK**.   
-    [![](locks/_static/image8.png)](locks/_static/image7.png)
+1. On the taskbar, click **Start**, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
+3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**.
+4. Select **WebDAV Publishing**, and then click **OK**.  
+    ![](locks/_static/image7.png)
 
 ### Windows Server 2008 or Windows Vista
 
@@ -97,14 +108,14 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, then click the name of the site.
 3. In the site's **Home** pane, double-click **WebDAV Authoring Rules**.  
-    [![](locks/_static/image10.png)](locks/_static/image9.png)
+    ![](locks/_static/image9.png)
 4. When the **WebDAV Authoring Rules** page is displayed, click **WebDAV Settings** in the **Actions** pane.
 5. When the **WebDAV Settings** page is displayed, specify the following options in the **Lock Behavior** section:
 
     - Set **Allow Locks** to **True**.
     - For **Lock Store**, choose **webdav\_simple\_lock** from the drop-down list.
     - Set **Require Lock for Writing** to your desired setting.  
-        [![](locks/_static/image12.png)](locks/_static/image11.png)
+        ![](locks/_static/image11.png)
 6. Once you have completed the steps, click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
@@ -142,7 +153,7 @@ The following examples enable WebDAV locks for the Default Web Site by using the
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](locks/samples/sample3.cs)]
 

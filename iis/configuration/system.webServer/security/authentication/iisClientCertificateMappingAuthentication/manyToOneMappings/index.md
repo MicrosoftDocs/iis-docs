@@ -1,19 +1,14 @@
 ---
-title: "Many-To-One Mappings &lt;manyToOneMappings&gt; | Microsoft Docs"
+title: "Many-To-One Mappings &lt;manyToOneMappings&gt;"
 author: rick-anderson
 description: "Overview The &lt;manyToOneMappings&gt; element of the &lt;iisClientCertificateMappingAuthentication&gt; element maps multiple client certificates to a user a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 54640e6b-d101-4071-90b0-26499ea0dc0a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings
 msc.type: config
 ---
-Many-To-One Mappings &lt;manyToOneMappings&gt;
-====================
+# Many-To-One Mappings &lt;manyToOneMappings&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -121,7 +116,6 @@ The following configuration sample performs the following actions for the Defaul
 - Creates a many-to-one certificate mapping rule for a user account based on the organization field in the subject of the client certificate matching Contoso.
 - Configures the site to require SSL and to negotiate client certificates.
 
-
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
@@ -140,7 +134,7 @@ The following code samples perform the following actions for the Default Web Sit
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

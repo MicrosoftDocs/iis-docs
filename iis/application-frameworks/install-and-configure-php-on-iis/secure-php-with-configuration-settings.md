@@ -1,19 +1,14 @@
 ---
-title: "Secure PHP with Configuration Settings | Microsoft Docs"
+title: "Secure PHP with Configuration Settings"
 author: rick-anderson
 description: "PHP code can be embedded in your Web pages along with HTML code. When your Web server receives a request for a page, the page is first given to the PHP handl..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 60b399b7-e8d9-4f0a-8fd8-37899808f69b
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-php-with-configuration-settings
 msc.type: authoredcontent
 ---
-Secure PHP with Configuration Settings
-====================
+# Secure PHP with Configuration Settings
+
 by Tali Smith
 
 ## Introduction
@@ -38,51 +33,37 @@ You can configure PHP settings to tighten the security of a PHP installation and
 
 Table 1: Recommended Php.ini settings
 
-
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample1.cmd)]
 
-
-This setting is very important because it prevents URLs from being used in statements such as include(). Setting allow\_url\_fopen to "Off" means that only files that reside within your Web site can be included; you cannot include a file from a different server, but neither can other people through Remote File Inclusion (RFI) attacks. (In an RFI attack, someone embeds a URL in an HTTP request hoping that your script is tricked into running theirs.) A command such as include("http://website.com/page.php"), for example, is not allowed to execute.
+This setting is very important because it prevents URLs from being used in statements such as include(). Setting allow\_url\_fopen to "Off" means that only files that reside within your Web site can be included; you cannot include a file from a different server, but neither can other people through Remote File Inclusion (RFI) attacks. (In an RFI attack, someone embeds a URL in an HTTP request hoping that your script is tricked into running theirs.) A command such as `include("http://website.com/page.php")`, for example, is not allowed to execute.
 
 Include a file from your own site by specifying its path and filename. For example, if you have a URL include line, convert it to:
 
-
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample2.cmd)]
-
 
 $\_SERVER['DOCUMENT\_ROOT'] is a superglobal variable set to be the root folder of your site. (Note that there is no trailing "/"; you must provide a leading "/" in '/page.php'.)
 
-If you want to include static content from another one of your Web sites, such as include('http://myothersite.com/includes/footer.php'), make a copy of that content in the current site and then include it locally.
+If you want to include static content from another one of your Web sites, such as `include('http://myothersite.com/includes/footer.php')`, make a copy of that content in the current site and then include it locally.
 
 Note that if you must include content from a remote site using URLs and need to set allow\_url\_fopen = On, look for alternative ways to gain some protection from RFI attacks.
 
-
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample3.cmd)]
-
 
 These settings specify that all errors and warnings get logged to your error log text file and specify that none of the errors or warnings get displayed on any Web page that is sent out from your server. Errors should not be displayed publicly because they can help someone figure out how to attack your server. Always check your error log when you are testing new code.
 
-
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample4.cmd)]
-
 
 This defines the path and fie to which your PHP errors and warnings are logged. You should use a text file for error logging, but note that the text file will accumulate errors indefinitely until you empty it. Keep the error log file in an area of your Web site that is not publicly accessible.
 
-
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample5.cmd)]
-
 
 With this setting, the headers that accompany outgoing pages do not reveal that PHP is running or its version.
 
-
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample6.cmd)]
-
 
 For example, for the URL http://site.com/index.php?variable=***value***, the variable passes into your script with its value set to ***value*** when register\_globals is "On." When register\_globals is "Off," however, variables do not automatically pass into your script's variable list. This makes it much more difficult for an attacker to inject code into your script.
 
-
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample7.cmd)]
-
 
 This setting is not in the "recommended Php.ini" file. It restricts the permissions with which PHP scripts run. Some third-party scripts do not run properly when safe\_mode is set to "On." Note that beginning with PHP 6 safe\_mode does not exist.
 
@@ -101,7 +82,7 @@ You can get a complete report of all your PHP settings.
 5. Save or print the result page to your local computer for reference.
 6. Delete the **.php** file from your server.
 
-## Links for Further Information
+## See also
 
 - [How to change configuration settings](http://ie.php.net/configuration.changes).
 - [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#PHP_Security_Recommendations_).

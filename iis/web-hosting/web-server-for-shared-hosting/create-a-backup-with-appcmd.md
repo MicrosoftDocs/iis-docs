@@ -1,19 +1,14 @@
 ---
-title: "Create a Backup with appcmd | Microsoft Docs"
+title: "Create a Backup with appcmd"
 author: walterov
 description: "After you install IIS 7.0, you can backup your configuration by using the built-in command-line tool, AppCmd.exe. You can run AppCmd.exe to create a backup o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: 01733732-e15e-4ae1-b412-9ec79f21e7e4
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/create-a-backup-with-appcmd
 msc.type: authoredcontent
 ---
-Create a Backup with appcmd
-====================
+# Create a Backup with appcmd
+
 by [Walter Oliver](https://github.com/walterov)
 
 After you install IIS 7.0, you can backup your configuration by using the built-in command-line tool, AppCmd.exe. You can run AppCmd.exe to create a backup of your Web server before you have changed any configuration.

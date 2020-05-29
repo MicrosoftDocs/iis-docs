@@ -1,19 +1,14 @@
 ---
-title: "dbDacFx Provider for Incremental Database publishing | Microsoft Docs"
+title: "dbDacFx Provider for Incremental Database publishing"
 author: ahmelsayed
 description: "Introduction In V3 we are adding a new database sync provider that is called dbDacFx. As the name suggests, this provider is making use of the new Data-Tier..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/26/2012
-ms.topic: article
 ms.assetid: 72f0477a-12bb-41c1-8163-ee9b30605b75
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing
 msc.type: authoredcontent
 ---
-dbDacFx Provider for Incremental Database publishing
-====================
+# dbDacFx Provider for Incremental Database publishing
+
 by [Ahmed ElSayed](https://github.com/ahmelsayed)
 
 ## Introduction
@@ -46,25 +41,27 @@ It is also worth mentioning that Dacpac Framework –unlike SMO- takes a hard de
 
 ## Setting up Dacpac Framework and dbDacFx Provider
 
-### Prerequisites:
+### Prerequisites
 
-You will fist need to install these prerequisites
+You will fist need to install these prerequisites:
 
-1) Microsoft SQL Server 2012 Data-Tier Application Framework (dacframework.msi)
+- Microsoft SQL Server 2012 Data-Tier Application Framework (dacframework.msi)
 
-2) Microsoft System CLR Types for Microsoft SQL Server 2012 (SQLSysClrTypes.msi)
+- Microsoft System CLR Types for Microsoft SQL Server 2012 (SQLSysClrTypes.msi)
 
-3) Microsoft SQL Server 2012 Transact-SQL ScriptDom (SQLDOM.msi)
+- Microsoft SQL Server 2012 Transact-SQL ScriptDom (SQLDOM.msi)
 
-They all can be found here:   
-[https://www.microsoft.com/en-us/download/details.aspx?id=29065](https://www.microsoft.com/en-us/download/details.aspx?id=29065)
+They all can be found here: <https://www.microsoft.com/download/details.aspx?id=29065>
 
-### WMSvc Delegation Rule:
+### WMSvc Delegation Rule
 
-If you are using WMSvc, you will need a delegation rule on that machine to allow for using this provider. We install one by default that has a path of "Data Source=" and a Path Type of ConnectionString. it looks like this![](dbdacfx-provider-for-incremental-database-publishing/_static/image1.jpg)This delegation rule will only enforce the path to be a connection string, but you can change it.
+If you are using WMSvc, you will need a delegation rule on that machine to allow for using this provider. We install one by default that has a path of "Data Source=" and a Path Type of ConnectionString. It looks like this:
+
+![](dbdacfx-provider-for-incremental-database-publishing/_static/image1.jpg)
+
+This delegation rule will only enforce the path to be a connection string, but you can change it.
   
-
-## Using dbDacFx Provider:
+## Using dbDacFx Provider
 
 Using the dbDacFx provider is very simple and very similar to that of dbFullSql. This is a simple example in which we will create a new database and copy an existent database content to it.
 
@@ -118,17 +115,17 @@ Like the Script, this XML report will be displayed on the cmd window and you can
 
 ### dbDacFx Command Timeout
 
-This command timeout is used to specify the time out on the launched exe in the case of a .NET 2 service. When WMSvc or MsDepSvc (running as .NET 2) launch the msdeploy.exe executable, they wait for this process if it is not reporting anything back. You can specify the commadTimeout in seconds like this (in this case it is 100 seconds timeout). **Default** timeout is *120 seconds*.
+This command timeout is used to specify the time out on the launched exe in the case of a .NET 2 service. When WMSvc or MsDepSvc (running as .NET 2) launch the msdeploy.exe executable, they wait for this process if it is not reporting anything back. You can specify the commandTimeout in seconds like this (in this case it is 100 seconds timeout). **Default** timeout is *120 seconds*.
 
 [!code-console[Main](dbdacfx-provider-for-incremental-database-publishing/samples/sample9.cmd)]
 
 ### Dacpac Options
 
-Dacpac Framework supports a lot of different settings and options that you can apply on the dacpac files. A list and explanation of all the options can be found here [https://msdn.microsoft.com/en-us/library/microsoft.sqlserver.dac.dacdeployoptions.aspx](https://msdn.microsoft.com/en-us/library/microsoft.sqlserver.dac.dacdeployoptions.aspx).   
+Dacpac Framework supports a lot of different settings and options that you can apply on the dacpac files. A list and explanation of all the options can be found in the [DacDeployOptions Class](https://docs.microsoft.com/dotnet/api/microsoft.sqlserver.dac.dacdeployoptions).  
 All these options are exposed through dbDacFx provider and applied as provider settings. They will also show up in the help listing for the provider
 
 [!code-console[Main](dbdacfx-provider-for-incremental-database-publishing/samples/sample10.cmd)]
 
 ## Troubleshooting dbDacFx Errors
 
-Most error codes and workarounds (including dbDacFx errors) can be found here: [https://www.iis.net/learn/publish/troubleshooting-web-deploy/web-deploy-error-codes](../troubleshooting-web-deploy/web-deploy-error-codes.md)
+Most error codes and workarounds (including dbDacFx errors) can be found in the [Web Deploy error codes](../troubleshooting-web-deploy/web-deploy-error-codes.md) article.

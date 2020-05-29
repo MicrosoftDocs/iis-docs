@@ -1,19 +1,14 @@
 ---
-title: "Adding Service Autostart Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding Service Autostart Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;serviceAutoStartProviders&gt; element adds a provider to the collection of autostart providers. The &lt;serviceAu..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 21093bf7-41ef-4096-b727-e2c0a786bc35
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/serviceautostartproviders/add
 msc.type: config
 ---
-Adding Service Autostart Providers &lt;add&gt;
-====================
+# Adding Service Autostart Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -88,9 +83,9 @@ The `<add>` element of the `<serviceAutoStartProviders>` element is included in 
 > This section contains information about how to modify your IIS settings by using the IIS Configuration Editor. Incorrectly editing your IIS configuration settings can severely damage your IIS installation. Therefore, make sure that you follow these steps carefully. For added security, you should back up your IIS configuration settings before you use the IIS Configuration Editor to make any modifications. For more information about how to back up your IIS configuration settings and how to use the IIS Configuration Editor, see the following topics:
 
 - **How to Back Up an IIS 7 Configuration**  
-    [https://technet.microsoft.com/en-us/library/dd819406.aspx](https://technet.microsoft.com/en-us/library/dd819406.aspx)
+    [https://technet.microsoft.com/library/dd819406.aspx](https://technet.microsoft.com/library/dd819406.aspx)
 - **Configuration Editor Page**  
-    [https://technet.microsoft.com/en-us/library/dd569081.aspx](https://technet.microsoft.com/en-us/library/dd569081.aspx)
+    [https://technet.microsoft.com/library/dd569081.aspx](https://technet.microsoft.com/library/dd569081.aspx)
  
 <a id="005"></a>
 ## Configuration
@@ -126,7 +121,7 @@ The following examples add a sample provider to the collection of autostart prov
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

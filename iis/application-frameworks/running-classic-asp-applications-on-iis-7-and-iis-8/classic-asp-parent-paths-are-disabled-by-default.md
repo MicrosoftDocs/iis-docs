@@ -1,19 +1,14 @@
 ---
-title: "Classic ASP parent paths are disabled by default | Microsoft Docs"
+title: "Classic ASP parent paths are disabled by default"
 author: rmcmurray
 description: "Classic ASP Parent Paths let developers use relative addresses that contain '..' in the paths to files or folders. For example, the following code excerpt il..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/19/2009
-ms.topic: article
 ms.assetid: 01892c72-e41e-40b0-94a3-d80c2cced23e
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-parent-paths-are-disabled-by-default
 msc.type: authoredcontent
 ---
-Classic ASP parent paths are disabled by default
-====================
+# Classic ASP parent paths are disabled by default
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Classic ASP Parent Paths let developers use relative addresses that contain ".." in the paths to files or folders. For example, the following code excerpt illustrates an ASP page that maps a parent path:
@@ -67,11 +62,9 @@ You can enable or disable parent paths by using IIS Manager. To do so, open IIS 
 
 [![](classic-asp-parent-paths-are-disabled-by-default/_static/image2.jpg)](classic-asp-parent-paths-are-disabled-by-default/_static/image1.jpg)
 
-
 In the list of ASP features, configure the **Enable Parent Paths** option.
 
 [![](classic-asp-parent-paths-are-disabled-by-default/_static/image4.jpg)](classic-asp-parent-paths-are-disabled-by-default/_static/image3.jpg)
-
 
 You can also configure this setting by using the command-line tool AppCmd.exe with the following syntax:
 
@@ -82,7 +75,6 @@ You can also configure this setting by using the command-line tool AppCmd.exe wi
 For additional information about the options that are available for classic ASP, see the following page in the IIS configuration reference on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
 > [https://www.iis.net/ConfigReference/system.webServer/asp](https://www.iis.net/configreference/system.webserver/asp)
-
 
 For additional detail on parent paths in IIS, see the following page in the Microsoft Knowledge Base:
 

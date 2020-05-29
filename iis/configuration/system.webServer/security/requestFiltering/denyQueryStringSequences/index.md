@@ -1,19 +1,14 @@
 ---
-title: "Deny Query String Sequences &lt;denyQueryStringSequences&gt; | Microsoft Docs"
+title: "Deny Query String Sequences &lt;denyQueryStringSequences&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyQueryStringSequences&gt; element contains a collection of &lt;add&gt; elements that specify sequences of query string characters that II..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a3dacc6a-885d-4d0a-a798-92d3b7fa1977
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyquerystringsequences
 msc.type: config
 ---
-Deny Query String Sequences &lt;denyQueryStringSequences&gt;
-====================
+# Deny Query String Sequences &lt;denyQueryStringSequences&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -144,7 +139,11 @@ The following examples demonstrate how to add a query string sequence that will 
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Configure a Web Farm with IIS Servers | Microsoft Docs"
+title: "Configure a Web Farm with IIS Servers"
 author: rmcmurray
 description: "To install and configure an IIS web farm, follow these steps: Install IIS Web Farm Infrastructure, Configure IIS Web Farm Servers, Configure IIS Web Farm Loa..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: a1143e97-99ce-48cc-8003-4a3909f20d3a
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configure-a-web-farm-with-iis-servers
 msc.type: authoredcontent
 ---
-Configure a Web Farm with IIS Servers
-====================
+# Configure a Web Farm with IIS Servers
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview

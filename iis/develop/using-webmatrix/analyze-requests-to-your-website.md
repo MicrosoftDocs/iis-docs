@@ -1,19 +1,14 @@
 ---
-title: "Analyze Requests to Your Website | Microsoft Docs"
+title: "Analyze Requests to Your Website"
 author: rick-anderson
 description: "[This is preliminary documentation and is subject to change.] Overview This walkthrough shows you how to analyze requests to your website using the Requests..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 3c483e52-2bc4-4066-98d2-de7caaa3a240
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/analyze-requests-to-your-website
 msc.type: authoredcontent
 ---
-Analyze Requests to Your Website
-====================
+# Analyze Requests to Your Website
+
 by [Diana Nguyen](https://twitter.com/dianaaanguyen)
 
 [This is preliminary documentation and is subject to change.]
@@ -64,18 +59,18 @@ When you make requests, you can view the results in real-time so that you can id
   
     [![](analyze-requests-to-your-website/_static/image11.png)](analyze-requests-to-your-website/_static/image9.png)  
   
- While viewing the results, you can also do the following: 
+   While viewing the results, you can also do the following: 
 
-    - Search the list of results for specific request types, such as "304.0".
-    - In the ribbon, in the **Requests** tab, click **Only Errors** to show only the results that are errors. Click **Only Errors** again to show the full list of results.
-    - Click **Ignore Images** to ignore the results that are related to image errors, such as 404.0 File Not Found, where the image doesn't exist on the Web server. Click **Ignore Images** again to show the full list of results.
+   - Search the list of results for specific request types, such as "304.0".
+   - In the ribbon, in the **Requests** tab, click **Only Errors** to show only the results that are errors. Click **Only Errors** again to show the full list of results.
+   - Click **Ignore Images** to ignore the results that are related to image errors, such as 404.0 File Not Found, where the image doesn't exist on the Web server. Click **Ignore Images** again to show the full list of results.
   
-    [![](analyze-requests-to-your-website/_static/image15.png)](analyze-requests-to-your-website/_static/image13.png)
+     [![](analyze-requests-to-your-website/_static/image15.png)](analyze-requests-to-your-website/_static/image13.png)
 6. In the list, select a request to view detailed information about the request, such as the status, details, and recommendations. If the request is an error, this will help you diagnose and fix the cause.  
   
     [![](analyze-requests-to-your-website/_static/image19.png)](analyze-requests-to-your-website/_static/image17.png)
 7. If the request is an error, click **Edit** in the subpane to open the file that contains the error and fix the file.   
- You can also click **More Information** to get more information about the HTTP status code and possible solutions to the error from the Microsoft Support web page.
+   You can also click **More Information** to get more information about the HTTP status code and possible solutions to the error from the Microsoft Support web page.
 8. After you resolve the error, return to the **Site** workspace and open **Requests** again. Click **Clear All** to remove the cached requests.  
   
     [![](analyze-requests-to-your-website/_static/image23.png)](analyze-requests-to-your-website/_static/image21.png)

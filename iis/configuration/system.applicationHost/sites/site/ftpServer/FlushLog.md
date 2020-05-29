@@ -1,19 +1,14 @@
 ---
-title: "FTP Site Flush Log Method &lt;FlushLog&gt; | Microsoft Docs"
+title: "FTP Site Flush Log Method &lt;FlushLog&gt;"
 author: rick-anderson
 description: "Overview The &lt;FlushLog&gt; method forces all entries in the FTP log buffer to be written from the buffer into the log file, emptying the buffer. &lt;Flush..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a3b9e138-a9fb-4b7b-ba30-1bb1a53615b5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/flushlog
 msc.type: config
 ---
-FTP Site Flush Log Method &lt;FlushLog&gt;
-====================
+# FTP Site Flush Log Method &lt;FlushLog&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -44,7 +39,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
     [![](FlushLog/_static/image2.png)](FlushLog/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -57,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.   
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](FlushLog/_static/image4.png)](FlushLog/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -71,7 +66,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](FlushLog/_static/image6.png)](FlushLog/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -85,7 +80,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](FlushLog/_static/image8.png)](FlushLog/_static/image7.png)
 5. Click **OK**.
 
@@ -94,9 +89,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
 ## How To
@@ -123,7 +118,7 @@ Not applicable.
 
 The following examples enable you to flush the log buffers for an FTP site programmatically.
 
-### C#
+### C\#
 
 [!code-csharp[Main](FlushLog/samples/sample1.cs)]
 

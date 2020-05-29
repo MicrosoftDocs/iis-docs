@@ -1,19 +1,14 @@
 ---
-title: "Diagnosing Failures with Remote Administration | Microsoft Docs"
+title: "Diagnosing Failures with Remote Administration"
 author: NitashaV
 description: "This article will help you diagnose and fix issues found while using RemoteMgr. This is based on frequently asked questions on the iis.net forums. Cannot con..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/14/2008
-ms.topic: article
 ms.assetid: 215550c6-5de1-4c50-8923-03c66d448987
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/remote-administration-issues/diagnosing-failures-with-remote-administration
 msc.type: authoredcontent
 ---
-Diagnosing Failures with Remote Administration
-====================
+# Diagnosing Failures with Remote Administration
+
 by [Nitasha Verma](https://github.com/NitashaV)
 
 ## Introduction
@@ -36,31 +31,23 @@ If this does not solve the problem, run the following commands from cmdline:
 
 ### netsh http show sslcert
 
-
 [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample1.cmd)]
-
 
 Ensure that the port 8172 (the one on which WMSVC is running) has SSL certificate bindings. Also make sure the cert hash matches the one to which WMSVC is bound to (in the Management Service UI).
 
 Sample output:
 
-
 [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample2.cmd)]
-
 
 ### netsh http show urlacl
 
-
 [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample3.cmd)]
-
 
 Ensure that the URL `https://*:8172/` (the port on which WMSVC is configured to run) appears in the list of reserved URLs.  
   
 Sample output:
 
-
 [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample4.cmd)]
-
 
 Use netsh commands in the previous paragraph to determine if the bindings are not correctly configured. The problem might be that the machine key does not have permissions for the administrator trying to adjust the WMSVC bindings. In that case, try the following:
 

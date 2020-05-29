@@ -1,19 +1,14 @@
 ---
-title: "Understanding Site Analysis Reports | Microsoft Docs"
+title: "Understanding Site Analysis Reports"
 author: ruslany
 description: "IIS Site Analysis is a tool within the IIS Search Engine Optimization Toolkit that can be used to analyze Web sites with the purpose of optimizing the site's..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/03/2009
-ms.topic: article
 ms.assetid: 6ffc7560-2292-4d2e-989a-adf635113d57
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/understanding-site-analysis-reports
 msc.type: authoredcontent
 ---
-Understanding Site Analysis Reports
-====================
+# Understanding Site Analysis Reports
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 IIS Site Analysis is a tool within the IIS Search Engine Optimization Toolkit that can be used to analyze Web sites with the purpose of optimizing the site's content, structure, and URLs for search engine crawlers. In addition, the tool can be used to discover and fix common problems in site content that negatively affect the site user experience. The IIS Site Analysis tool includes a user interface that offers a comprehensive set of pre-built reports for Search Engine Optimization (SEO) and displays content-specific problems found during analysis. The IIS Site Analysis tool also lets you create custom queries on the data that was gathered during the analysis.

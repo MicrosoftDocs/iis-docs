@@ -1,19 +1,14 @@
 ---
-title: "WebDAV Properties &lt;properties&gt; | Microsoft Docs"
+title: "WebDAV Properties &lt;properties&gt;"
 author: rick-anderson
 description: "Overview The &lt;properties&gt; element of the &lt;authoring&gt; element defines the locking behavior for the WebDAV module. More specifically, the &lt;prope..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8c82d7ba-790b-4f05-8257-8216affb0c6f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/properties
 msc.type: config
 ---
-WebDAV Properties &lt;properties&gt;
-====================
+# WebDAV Properties &lt;properties&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -41,9 +36,8 @@ In order to use "dead" properties, you must set the `allowCustomProperties` of t
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
-
 
 With Windows 7 and Windows Server 2008 R2, the WebDAV 7.5 module ships as a feature for IIS 7.5, so downloading WebDAV is no longer necessary.
 
@@ -54,24 +48,41 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 ### Windows Server 2012 or Windows Server 2012 R2
 
-1. On the taskbar, click **Server Manager**. - In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**. - In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**. - On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) . - On the **Select features** page, click **Next**. - On the **Confirm installation selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Server Manager**.
+2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
+3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
+4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
+    ![](index/_static/image1.png) .
+5. On the **Select features** page, click **Next**.
+6. On the **Confirm installation selections** page, click **Install**.
+7. On the **Results** page, click **Close**.
 
 ### Windows 8 or Windows 8.1
 
-1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
-- Click **Close**.
+1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
+3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
+    ![](index/_static/image3.png)
+4. Click **OK**.
+5. Click **Close**.
 
 ### Windows Server 2008 R2
 
-1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**. - In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**. - In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**. - On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
-    [![](index/_static/image6.png)](index/_static/image5.png)- On the **Confirm Installation Selections** page, click **Install**. - On the **Results** page, click **Close**.
+1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
+2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
+3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
+    ![](index/_static/image5.png)
+5. On the **Confirm Installation Selections** page, click **Install**.
+6. On the **Results** page, click **Close**.
 
 ### Windows 7
 
-1. On the taskbar, click **Start**, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**. - Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**. - Select **WebDAV Publishing**, and then click **OK**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+1. On the taskbar, click **Start**, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
+3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**.
+4. Select **WebDAV Publishing**, and then click **OK**.   
+    ![](index/_static/image7.png)
 
 ### Windows Server 2008 or Windows Vista
 
@@ -105,18 +116,18 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click **WebDAV Authoring Rules**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![](index/_static/image9.png)
 4. When the **WebDAV Authoring Rules** page is displayed, click **WebDAV Settings** in the **Actions** pane.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    ![](index/_static/image11.png)
 5. When the **WebDAV Settings** page is displayed, specify the following options in the **Property Behavior** section: 
 
-    - Set **Allow anonymous property queries** to **False**.
-    - Set **Allow custom properties** to **True**.
-    - Set **Allow property queries with infinite depth** to **False**.
+   - Set **Allow anonymous property queries** to **False**.
+   - Set **Allow custom properties** to **True**.
+   - Set **Allow property queries with infinite depth** to **False**.
   
-    [![](index/_static/image14.png)](index/_static/image13.png)
+     ![](index/_static/image13.png)
 6. Click the ellipsis (**...**) button to launch the Namespace Collection Editor.   
-    [![](index/_static/image16.png)](index/_static/image15.png)
+    ![](index/_static/image15.png)
 7. Click **Add** and then choose **webdav\_simple\_prop** from the drop-down list
 8. Specify "\*" for the XmlNameSpace and then click **OK**.
 9. Once you have completed the previous steps, click **Apply** in the **Actions** pane.
@@ -131,7 +142,7 @@ The `<properties>` element is configurable only at the site level in the Applica
 | Attribute | Description |
 | --- | --- |
 | `allowAnonymousPropfind` | Optional **Boolean** attribute. **true** if anonymous WebDAV property requests are allowed; otherwise, **false**. **Important**: Most WebDAV verbs require authentication; however, anonymous WebDAV property requests may be allowed for backwards-compatibility for some WebDAV clients. Unless there is a specific requirement for your environment, anonymous WebDAV property requests should always be disabled because they introduce the chance of information disclosure for a Web site. For example, an anonymous WebDAV client can retrieve a list of files in your application. The default value is `false`. |
-| `allowInfinitePropfindDepth` | Optional **Boolean** attribute.<br><br>**true** if infinite-depth WebDAV property requests are allowed; otherwise, **false**.<br><br>**Important**: Allowing infinite-depth WebDAV property requests is strongly discouraged due to the amount of CPU time that may be required to fullfill an infinite-depth WebDAV property request. This could even lead to a denial of service for your application. Unless there is a specific requirement for your environment, infinite-depth WebDAV property requests should always be disabled.<br><br>The default value is `false`. |
+| `allowInfinitePropfindDepth` | Optional **Boolean** attribute.<br><br>**true** if infinite-depth WebDAV property requests are allowed; otherwise, **false**.<br><br>**Important**: Allowing infinite-depth WebDAV property requests is strongly discouraged due to the amount of CPU time that may be required to fulfill an infinite-depth WebDAV property request. This could even lead to a denial of service for your application. Unless there is a specific requirement for your environment, infinite-depth WebDAV property requests should always be disabled.<br><br>The default value is `false`. |
 | `allowCustomProperties` | Optional **Boolean** attribute.<br><br>**true** if custom WebDAV properties are allowed; otherwise, **false**.<br><br>**Note:** Custom WebDAV properties are also known as "dead" properties.<br><br>**Note:** If `allowCustomProperties` is set to **true** but no property stores are defined or there are no XML namespace to property store mappings, no custom properties can be stored.<br><br>The default value is `true`. |
 
 ### Child Elements
@@ -160,7 +171,7 @@ The following examples configure the WebDAV property settings so that both anony
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

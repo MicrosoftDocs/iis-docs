@@ -1,19 +1,14 @@
 ---
-title: "What's New for WebDAV and IIS 7? | Microsoft Docs"
+title: "What's New for WebDAV and IIS 7?"
 author: rmcmurray
 description: "What is WebDAV? WebDAV is short for Web Distributed Authoring and Versioning, and it is an open-standard extension to the HTTP protocol that enables file man..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/18/2008
-ms.topic: article
 ms.assetid: 4c5edfe7-1be1-4c57-93e0-b019141962e0
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/what39s-new-for-webdav-and-iis-7
 msc.type: authoredcontent
 ---
-What's New for WebDAV and IIS 7?
-====================
+# What's New for WebDAV and IIS 7?
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Introduction
@@ -26,14 +21,13 @@ Some of Microsoft's new web authoring tools like Expression Web Designer have bu
 
 [![](what39s-new-for-webdav-and-iis-7/_static/image2.jpg)](what39s-new-for-webdav-and-iis-7/_static/image1.jpg)
 
-
 ### What's New in the IIS WebDAV Module?
 
 Microsoft has released a brand-new WebDAV implementation for IIS that was written from the ground-up to be more compatible with the WebDAV protocol, more configurable than the WebDAV module for IIS 6.0, and faster than Microsoft's previous versions of WebDAV. This new WebDAV extension module supports a wide range of features and improvements, and the following lists contain several of the improvements in this version.
 
 > [!NOTE]
 > This new WebDAV extension module is only for Windows Server 2008 and Internet Information Services 7.0 or above; it will not work on Windows Server 2003 and Internet Information Services 6.0.
-
+> 
 > #### Integration with IIS
 > 
 > - **Integrated Pipeline**: The IIS 6.0 WebDAV implementation was through ISAPI, but the core server required knowledge of the WebDAV ISAPI in order to function correctly. The new IIS native module interface is sufficiently rich that these considerations are unnecessary.
@@ -50,7 +44,6 @@ Microsoft has released a brand-new WebDAV implementation for IIS that was writte
 > - **Support for shared and exclusive locks**: The new WebDAV extension supports both shared and exclusive locks to prevent lost updates due to overwrites.
 > 
 > [![](what39s-new-for-webdav-and-iis-7/_static/image12.jpg)](what39s-new-for-webdav-and-iis-7/_static/image11.jpg)
-
 
 ## Getting Started with WebDAV
 

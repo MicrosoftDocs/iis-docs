@@ -1,19 +1,14 @@
 ---
-title: "dynamicIdleThreshold | Microsoft Docs"
+title: "dynamicIdleThreshold"
 author: walterov
 description: "When Windows Server ® 2008 R2 starts paging heavily (this could be at 1.5x ram), the response time of HTTP requests goes down. This is particularly common in..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: 74643093-38b3-4a46-a557-0076ab10d183
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/dynamicidlethreshold
 msc.type: authoredcontent
 ---
-dynamicIdleThreshold
-====================
+# dynamicIdleThreshold
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -28,19 +23,13 @@ The IIS **dynamicIdleThreshold** property allows the administrator to dynamicall
 
 - To set this property to a particular value, for example 130%, open a command prompt and run the following:
 
-
 [!code-console[Main](dynamicidlethreshold/samples/sample1.cmd)]
-
 
 **To configure dynamicIdleThreshold using the [IIS PowerShell Provider](../../manage/powershell/installing-the-iis-powershell-snap-in.md)**
 
 Open a PowerShell prompt and run the following:
 
-
 [!code-powershell[Main](dynamicidlethreshold/samples/sample2.ps1)]
-
-
-For more information about this property, see [http://technet2.microsoft.com/windowsserver2008/en/library/43e91f73-f0b4-4320-9d46-3f8f4905edd81033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/43e91f73-f0b4-4320-9d46-3f8f4905edd81033.mspx?mfr=true).
 
 ## Event Log Entries
 
@@ -52,20 +41,17 @@ The following describes some of the event log entries that WAS can generate.
 | --- | --- | --- |
 | 5192 | Informational | The amount of committed memory is approaching the demand start limit. The Windows Process Activation Service (WAS) will start to decrement the idle timeout value for all worker processes. Worker processes may start idling out before the configured time. Current physical memory usage: '%2' MB, current physical memory free: '%3' MB. |
 
-
 ### 90% of configured memory threshold is reached
 
 | **Event Log ID** | **Level** | **Message** |
 | --- | --- | --- |
 | 5193 | Warning | The amount of committed memory is near or at the configured limit. The Windows Process Activation Service (WAS) will aggressively decrement the idle timeout value for the worker processes. Worker processes may start idling out before the configured time. Current physical memory usage: '%2' MB, current physical memory free: '%3' MB. |
 
-
 ### 75% of configured memory threshold regained
 
 | **Event Log ID** | **Level** | **Message** |
 | --- | --- | --- |
 | 5194 | Informational | The amount of committed memory has dropped below the high load level, so the Windows Process Activation Service (WAS) will reset the idle timeout value for the worker processes to their original settings. Current physical memory usage: '%2' MB, current physical memory free: '%3' MB. |
-
 
 ### New Worker Process Idle Timeout Event Log Message
 

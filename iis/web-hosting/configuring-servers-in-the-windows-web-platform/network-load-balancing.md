@@ -1,19 +1,14 @@
 ---
-title: "Network Load Balancing | Microsoft Docs"
+title: "Network Load Balancing"
 author: walterov
 description: "Network load balancing (NLB) in Windows Server ® 2008 provides traffic distribution using TCP/IP and can be used with the IIS shared configuration feature to..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/02/2007
-ms.topic: article
 ms.assetid: 3cf969b2-260d-4e54-91e7-e78b3453942d
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/network-load-balancing
 msc.type: authoredcontent
 ---
-Network Load Balancing
-====================
+# Network Load Balancing
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -50,4 +45,4 @@ NLB does not monitor the health of your application. Instead, it allows the appl
 11. On the **Port Rules** page, click **Edit** to modify the default port rules if you need advanced rules. Otherwise, use the default.
 12. Click **Finish** to create the cluster.  
   
- To add more hosts to the cluster, right-click the new cluster, and then click **Add Host to Cluster**.
+    To add more hosts to the cluster, right-click the new cluster, and then click **Add Host to Cluster**.

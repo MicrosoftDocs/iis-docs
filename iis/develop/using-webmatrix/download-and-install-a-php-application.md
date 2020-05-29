@@ -1,19 +1,14 @@
 ---
-title: "Download and Install a PHP Application | Microsoft Docs"
+title: "Download and Install a PHP Application"
 author: rmcmurray
 description: "[This is preliminary documentation and is subject to change.] Overview This walkthrough shows the steps to download and install a PHP application using WebMa..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: ef5fdfeb-875d-4989-bcc7-865718894540
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/download-and-install-a-php-application
 msc.type: authoredcontent
 ---
-Download and Install a PHP Application
-====================
+# Download and Install a PHP Application
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 [This is preliminary documentation and is subject to change.]

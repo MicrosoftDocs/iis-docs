@@ -1,19 +1,14 @@
 ---
-title: "Request Filtering &lt;requestFiltering&gt; | Microsoft Docs"
+title: "Request Filtering &lt;requestFiltering&gt;"
 author: rick-anderson
 description: "Overview Request Filtering is a built-in security feature that was introduced in Internet Information Services (IIS) 7.0, and replaces much of the functional..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 882ed66b-f818-48f1-9c22-be8253d9fe26
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering
 msc.type: config
 ---
-Request Filtering &lt;requestFiltering&gt;
-====================
+# Request Filtering &lt;requestFiltering&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -48,14 +43,14 @@ When request filtering blocks an HTTP request, IIS 7 will return an HTTP 404 err
 | `404.6` | Verb Denied |
 | `404.7` | File Extension Denied |
 | `404.8` | Hidden Namespace |
-| `404.10` | Request Header Too Long |
 | `404.11` | URL Double Escaped |
 | `404.12` | URL Has High Bit Chars |
-| `404.13` | Content Length Too Large |
 | `404.14` | URL Too Long |
 | `404.15` | Query String Too Long |
 | `404.18` | Query String Sequence Denied |
 | `404.19` | Denied by Filtering Rule |
+| `413.1` | Content Length Too Large |
+| `431` | Request Header Too Long |
 
 These substatuses allow Web administrators to analyze their IIS logs and identify potential threats.
 
@@ -307,7 +302,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 | --- | --- |
 | `allowDoubleEscaping` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will allow URLs with doubly-escaped characters. If set to **false**, request filtering will deny the request if characters that have been escaped twice are present in URLs.<br><br>The default value is `false`. |
 | `allowHighBitCharacters` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will allow non-ASCII characters in URLs. If set to **false**, request filtering will deny the request if high-bit characters are present in URLs.<br><br>The default value is `true`. |
-| `removeServerHeader` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will suppress the IIS server header. If set to **false**, IIS will return the default server header. (Note: This attribute was was added in IIS 10.0.)<br><br>The default value is `false`. |
+| `removeServerHeader` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will suppress the IIS server header. If set to **false**, IIS will return the default server header. (Note: This attribute was added in IIS 10.0 and does not work in versions of Windows prior to Windows Server, version 1709 or Windows 10, version 1709.)<br><br>The default value is `false`. |
 | `unescapeQueryString` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will perform two passes on each query string scan. The first pass will scan the raw query string, and the second pass will scan the query string after IIS has decoded any escape sequences. If set to **false**, request filtering will only look at the raw query string as sent by the client.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The default value is `true`. |
 
 ### Child Elements
@@ -332,7 +327,6 @@ The following configuration sample from a Web.config file performs several secur
 - Denies access to unlisted file name extensions and unlisted HTTP verbs.
 - Sets the maximum length for a URL to 2KB and the maximum length for a query string to 1KB.
 
-
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
@@ -344,7 +338,11 @@ The following code samples demonstrate how to deny access to three URL sequences
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

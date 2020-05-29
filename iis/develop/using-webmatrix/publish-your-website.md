@@ -1,19 +1,14 @@
 ---
-title: "Publish Your Website | Microsoft Docs"
+title: "Publish Your Website"
 author: tdykstra
 description: "[This is preliminary documentation and is subject to change.] Introduction After you create a website, you typically publish the site to a web hosting provid..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: df929744-8274-406a-b8c7-7073c211369f
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/publish-your-website
 msc.type: authoredcontent
 ---
-Publish Your Website
-====================
+# Publish Your Website
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [This is preliminary documentation and is subject to change.]
@@ -50,12 +45,12 @@ To set up web hosting, you must find a web hosting provider and set up an accoun
 
 1. In the **Home** tab, click the arrow below **Publish**, and then click **Find Web Hosting**.  
     ![](publish-your-website/_static/image1.jpg)  
- The **Find Web Hosting** web page lists hosting providers.  
+   The **Find Web Hosting** web page lists hosting providers.  
     [![](publish-your-website/_static/image2.png)](publish-your-website/_static/image1.png)
 2. Select one of the hosting providers and click **Learn More**.
 3. Follow the directions provided by the hosting provider's site to set up a new account.  
   
- Support for a SQL Server database might be an option that costs extra. If you plan to publish a SQL Server Compact database (.sdf file), you don't need this option.
+   Support for a SQL Server database might be an option that costs extra. If you plan to publish a SQL Server Compact database (.sdf file), you don't need this option.
 
 After your account is set up, the hosting provider typically sends you an email message that contains information you'll need in order to publish your website. For example:
 
@@ -68,7 +63,6 @@ After your account is set up, the hosting provider typically sends you an email 
 If your hosting account includes a SQL Server database, you'll also get information that you will need to publish your database, which will typically look like this:
 
 > **Your database connection string is**: Password=*password*;User ID=*username*;Initial Catalog=username.hostingcompany;Data Source=sql1.hostingcompany.com
-
 
 At the hosting company, your site will be associated with an *application pool* (often just called an *app pool*). The application pool specifies which version of the .NET Framework your site will run under: version 2.0 or 4. Typically, the hosting provider tells you what the default value is and how to change it. (Some providers may provide separate sites for each .NET Framework version instead.) Most of the applications that you can download from the Web Gallery require that you publish to a .NET Framework 2.0 application pool. If you create a new ASP.NET Web pages application such as those built from the Site from Template option, you must publish to a .NET Framework 4 application pool. If you publish using Web Deploy to a site at the hosting provider that has an application pool setting inappropriate for the site you are publishing, the publishing process will fail. If so, correct the application pool setting and republish. If you publish using FTP and the application pool setting is inappropriate, publishing will succeed, but your site will not work correctly. In that case, correct the application pool setting; you do not have to republish.
 
@@ -97,11 +91,11 @@ Configuring WebMatrix Beta for Publishing
 
     1. Enter the **Server**, **User name**, **Password**, and **Destination URL** as described above for Web Deploy.
     2. In the **Site path** box, enter the value identified by the hosting company as the "Site Root," such as /wwwroot. This field is optional.
-7. If you want to upload only the finles that have changed locally, select **Upload locally changed files**.
+7. If you want to upload only the files that have changed locally, select **Upload locally changed files**.
 8. If you don't want to enter the password every time you publish, select the **Save password** check box.
 9. Click **Validate Connection** to verify that WebMatrix Beta is able to connect to the hosting provider. WebMatrix Beta displays the results to the right of the button.  
     [![](publish-your-website/_static/image10.jpg)](publish-your-website/_static/image9.jpg)  
- If the connection test fails, double-check that that you entered the information correctly. If you did but validation continues to display an error, contact the hosting provider for help.
+ If the connection test fails, double-check that you entered the information correctly. If you did but validation continues to display an error, contact the hosting provider for help.
 10. If your website uses a full SQL Server or SQL Server Express database (that is, not a SQL Server Compact database), enter the connection string that was sent to you by the hosting provider.  
  If the SQL Server database doesn't appear in the dialog box, make sure it has a connection string in the Web.config file. For more information, see     *About Connection Strings* later in this document.
 11. If a SQL Server Compact database does not appear in this dialog box, make sure that the .sdf file is in the App\_Data folder.

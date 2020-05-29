@@ -1,19 +1,14 @@
 ---
-title: "Adding One-To-One Mappings &lt;add&gt; | Microsoft Docs"
+title: "Adding One-To-One Mappings &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;oneToOneMappings&gt; element specifies a unique mapping between an individual client certificate and an individua..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 1f2a0b29-db4a-420e-99ba-81c2f1595732
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings/add
 msc.type: config
 ---
-Adding One-To-One Mappings &lt;add&gt;
-====================
+# Adding One-To-One Mappings &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -147,7 +142,7 @@ The following code samples enable IIS Client Certificate Mapping authentication 
 > [!NOTE]
 > Because of characters in certificate strings that cannot be parsed by AppCmd.exe, you should not use AppCmd.exe to configure IIS one-to-one certificate mappings.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

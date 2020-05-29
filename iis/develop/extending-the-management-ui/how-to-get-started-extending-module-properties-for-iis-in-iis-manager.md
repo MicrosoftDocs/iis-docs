@@ -1,19 +1,14 @@
 ---
-title: "How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager | Microsoft Docs"
+title: "How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager"
 author: rick-anderson
 description: "The administration tool for IIS 7 and above is an extensible platform which developers can use to plug in their own features and manage custom settings. Any..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/24/2007
-ms.topic: article
 ms.assetid: a4fa174e-fedb-425f-9b18-ff8a92160576
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager
 msc.type: authoredcontent
 ---
-How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager
-====================
+# How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager
+
 by [Janani Ravi](https://twitter.com/LoonyJanani)
 
 ## Abstract
@@ -102,7 +97,6 @@ Override the GetProperties method of the ModulePropertiesPage base class used to
 - When first navigating to the page
 - When clicking the refresh button on the page
 
-
 [!code-csharp[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample11.cs)]
 
 This method runs asynchronously on a background thread, so the best practice is not to access any UI elements in this method. It returns a property bag with the latest settings from the server.
@@ -114,7 +108,6 @@ This is called when we want to update the property grid with the latest settings
 - When first retrieving settings from the server (on navigating to this page)
 - When updating the server (the user hits Apply Changes)
 - When cancelling any changes made in the UI and want to restore the original settings (the user hits Cancel Changes)
-
 
 [!code-csharp[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample12.cs)]
 

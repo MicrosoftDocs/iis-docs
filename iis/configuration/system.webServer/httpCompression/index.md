@@ -1,19 +1,14 @@
 ---
-title: "HTTP Compression &lt;httpCompression&gt; | Microsoft Docs"
+title: "HTTP Compression &lt;httpCompression&gt;"
 author: rick-anderson
 description: "Overview The &lt;httpCompression&gt; element specifies the HTTP compression settings for Internet Information Services (IIS) 7. HTTP compression can provide..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: eaad56f4-c7f9-49f5-9d95-c62307238f8b
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpcompression
 msc.type: config
 ---
-HTTP Compression &lt;httpCompression&gt;
-====================
+# HTTP Compression &lt;httpCompression&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -229,7 +224,7 @@ The following code samples will add the MIME types for Office 2003 documents to 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 
@@ -257,7 +252,7 @@ The following code samples will add the MIME types for Office 2003 documents to 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample8.cs)]
 

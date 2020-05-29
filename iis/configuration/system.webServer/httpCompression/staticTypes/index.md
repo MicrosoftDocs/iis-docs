@@ -1,19 +1,14 @@
 ---
-title: "Static Types &lt;staticTypes&gt; | Microsoft Docs"
+title: "Static Types &lt;staticTypes&gt;"
 author: rick-anderson
 description: "Overview The &lt;staticTypes&gt; element of the &lt;httpCompression&gt; element contains a collection of &lt;add&gt; elements that add unique MIME types to t..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 30f6181c-a5d1-4ac0-b474-985fb6b6b502
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpcompression/statictypes
 msc.type: config
 ---
-Static Types &lt;staticTypes&gt;
-====================
+# Static Types &lt;staticTypes&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -118,7 +113,7 @@ The following code samples will add the MIME types for Office 2003 documents to 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

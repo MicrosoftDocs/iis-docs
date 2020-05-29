@@ -1,19 +1,14 @@
 ---
-title: "Install osCommerce on IIS | Microsoft Docs"
+title: "Install osCommerce on IIS"
 author: rick-anderson
 description: "Introduction OsCommerce is an open-source online shopping and e-commerce solution that is available for free under the GNU General Public License. It feature..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/15/2008
-ms.topic: article
 ms.assetid: 08359c89-a4f4-438e-8935-daea7e6aaff4
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-oscommerce-on-iis
 msc.type: authoredcontent
 ---
-Install osCommerce on IIS
-====================
+# Install osCommerce on IIS
+
 by Eric Woersching
 
 ## Introduction
@@ -32,9 +27,7 @@ Set the permissions on the **osCommerce/include/Configure.php** file to read, wr
 
 Before running the osCommerce installer, grant "Write" permissions to the **Configure.php** file.
 
-
 [!code-console[Main](install-oscommerce-on-iis/samples/sample1.cmd)]
-
 
 ## Set Up the Database
 
@@ -48,9 +41,7 @@ Before starting the installation procedure for osCommerce, you must create a dat
 
 Update the **Php.ini** file to add the **Php\_mysql.dll** module under the **Dynamic Extensions** section in the file, and ensure that the extension directory points to the correct location:
 
-
 [!code-console[Main](install-oscommerce-on-iis/samples/sample2.cmd)]
-
 
 1. Start the configuration procedure in a Web browser. Go to `http://www.my-server.com/osCommerce/catalog`. (If the Index.php file is not in the browser default document, then add it.)
 2. Click on the installation link on the top of the page to redirect to the Install Wizard. The welcome page appears on the Web browser, and the configuration procedure can be started by clicking **Continue**.  

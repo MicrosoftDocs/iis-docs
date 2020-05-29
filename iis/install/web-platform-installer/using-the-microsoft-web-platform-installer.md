@@ -1,19 +1,14 @@
 ---
-title: "Using the Microsoft Web Platform Installer | Microsoft Docs"
+title: "Using the Microsoft Web Platform Installer"
 author: chrissfanos
 description: "Introduction The Microsoft ® Web Platform Installer (Web PI) makes it easy for you to download, install, and keep up to date on the latest software component..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 00175a11-b9d6-4173-8a17-9be6178d208a
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/using-the-microsoft-web-platform-installer
 msc.type: authoredcontent
 ---
-Using the Microsoft Web Platform Installer
-====================
+# Using the Microsoft Web Platform Installer
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 ## Introduction
@@ -55,15 +50,13 @@ Download [Web PI](https://www.microsoft.com/web/Downloads/platform.aspx). WebPI 
 
 ![WebPI v3 Spotlight](using-the-microsoft-web-platform-installer/_static/image2.png "WebPI v3 Spotlight")
 
-
 ###### Figure 1: "WebPI Spotlight" tab
 
-WebPI seperates the components you can install into two main categories: Products and Applications. In the Products tab, you will find all the components you need to build and maintain your web sites. The Applications tab is home to our wide collection of open-source applications that you can use as a great starting place for developing your sites
+WebPI separates the components you can install into two main categories: Products and Applications. In the Products tab, you will find all the components you need to build and maintain your web sites. The Applications tab is home to our wide collection of open-source applications that you can use as a great starting place for developing your sites
 
 The "Products" tab shows the four main components: Server, Frameworks, Database and Tools.
 
 ![](using-the-microsoft-web-platform-installer/_static/image4.png)
-
 
 ###### Figure 2: "Products" tab
 
@@ -91,13 +84,11 @@ To see all the IIS components available for installation, just search for **IIS*
 
 ![](using-the-microsoft-web-platform-installer/_static/image10.png)
 
-
 ###### Figure 3: Searching for IIS components in WebPI
 
 You can learn more about the IIS extension by double-clicking the extension name. For example, on the details page for an IIS component, you can learn more about what the extension does before installing it, and there are links to even more detailed descriptions.
 
 ![](using-the-microsoft-web-platform-installer/_static/image14.png)
-
 
 ###### Figure 4: More information on the IIS: FTP Publishing Service 7.5
 
@@ -122,8 +113,6 @@ Web Pl 3.0 currently installs the latest community PHP 5.2.and 5.3 from the comm
 - [OpenSSL](http://us3.php.net/openssl)
 
 Web PI also installs ASP.NET MVC 3.0. ASP.NET is a powerful framework for building dynamic Web applications. As a programming framework, ASP.NET is adaptable to a wide variety of projects and development styles. ASP.NET is part of the .NET Framework, and when coding ASP.NET applications developers have access to the entire .NET Framework. The Model View Controller (MVC) extension enables users to build MVC applications by using the ASP.NET framework.
-
-### 
 
 ### Database
 
@@ -203,10 +192,8 @@ Note that because Web PI brings together community applications, Microsoft Web P
 
 You can also refer to [Windows Web Application Gallery: Known Issues](../../develop/windows-web-application-gallery/windows-web-application-gallery-known-issues.md).
 
-
 > [!NOTE]
 > *This article updates:*[Web Platform Installer 2.0 Walkthrough](../../web-hosting/configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md)*by the IIS Team, published on September 28, 2009.*
-
 
 ## Links for Further Information
 
@@ -215,5 +202,5 @@ You can also refer to [Windows Web Application Gallery: Known Issues](../../deve
 - [Real World IIS: Staying Current with the Latest Microsoft Web Platform with Web Platform Installer (videocast)](https://blogs.iis.net/mailant/archive/2009/05/02/real-world-iis-staying-current-with-the-latest-microsoft-web-platform-with-web-platform-installer-videocast.aspx).
 - [Microsoft Web Platform](https://www.microsoft.com/web/platform/).
 - [Windows Web Application Gallery Principles](../../develop/windows-web-application-gallery/windows-web-application-gallery-principles.md).
-- [Web Platform Installer](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
-- [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx).
+- [Web Platform Installer](https://technet.microsoft.com/library/ee506569(WS.10).aspx).
+- [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.aspx).

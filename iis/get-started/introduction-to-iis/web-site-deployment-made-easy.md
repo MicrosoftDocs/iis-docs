@@ -1,29 +1,22 @@
 ---
-title: "Web Site Deployment Made Easy | Microsoft Docs"
+title: "Web Site Deployment Made Easy"
 author: rick-anderson
 description: "In previous versions of IIS, moving a Web site from one server to another meant that you had to explicitly configure IIS application settings in the machine-..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 2258ad69-e31f-4b0f-a1bc-58680b562ccb
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/web-site-deployment-made-easy
 msc.type: authoredcontent
 ---
-Web Site Deployment Made Easy
-====================
+# Web Site Deployment Made Easy
+
 by IIS Team, [Saad Ladki](https://twitter.com/saadladki)
 
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 ## Introduction
 

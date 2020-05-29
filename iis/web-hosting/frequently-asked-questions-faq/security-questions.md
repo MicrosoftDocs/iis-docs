@@ -1,19 +1,14 @@
 ---
-title: "Security Questions | Microsoft Docs"
+title: "Security Questions"
 author: walterov
 description: "For certain workloads, Full trust may be required (e.g., making unmanaged calls, using reflection, etc.). For most web apps, it is typically not necessary. M..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/22/2007
-ms.topic: article
 ms.assetid: 1ab1535f-bb97-4008-b657-efd429723624
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/security-questions
 msc.type: authoredcontent
 ---
-Security Questions
-====================
+# Security Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### Should Full Trust be allowed?
@@ -42,8 +37,8 @@ We don't have a "recommended config" that accommodates access DB. What you have 
 
 If you need to configure a custom trust policy, there are a number of good articles on web:
 
-[https://msdn.microsoft.com/en-us/library/wyts434y.aspx](https://msdn.microsoft.com/en-us/library/wyts434y.aspx)
+[https://msdn.microsoft.com/library/wyts434y.aspx](https://msdn.microsoft.com/library/wyts434y.aspx)
 
-[https://msdn.microsoft.com/en-us/library/ms998341.aspx#paght000020\_step3](https://msdn.microsoft.com/en-us/library/ms998341.aspx#paght000020_step3)
+[https://msdn.microsoft.com/library/ms998341.aspx#paght000020\_step3](https://msdn.microsoft.com/library/ms998341.aspx#paght000020_step3)
 
-[https://msdn.microsoft.com/en-us/library/ms998326.aspx#paght000017\_step2](https://msdn.microsoft.com/en-us/library/ms998326.aspx#paght000017_step2)
+[https://msdn.microsoft.com/library/ms998326.aspx#paght000017\_step2](https://msdn.microsoft.com/library/ms998326.aspx#paght000017_step2)

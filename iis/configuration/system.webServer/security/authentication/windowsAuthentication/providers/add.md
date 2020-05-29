@@ -1,19 +1,14 @@
 ---
-title: "Adding Windows Authentication Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding Windows Authentication Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;providers&gt; collection in the &lt;windowsAuthentication&gt; element specifies a unique authentication provider..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: cce1bd04-ab3c-44f2-a2e1-6a8403bba008
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/providers/add
 msc.type: config
 ---
-Adding Windows Authentication Providers &lt;add&gt;
-====================
+# Adding Windows Authentication Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -119,7 +114,7 @@ The following code examples will enable Windows authentication and remove the Ne
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample5.cs)]
 

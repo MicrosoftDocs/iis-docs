@@ -1,19 +1,14 @@
 ---
-title: "TTesting a Zip Package for Inclusion with the Web Application Gallery | Microsoft Docs"
+title: "TTesting a Zip Package for Inclusion with the Web Application Gallery"
 author: rick-anderson
 description: "The Web Application Gallery makes it easy for Windows users to find and deploy a free open source, community application onto a computer running Windows XP o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/14/2009
-ms.topic: article
 ms.assetid: 6f721a96-8210-4e2a-a110-09103f8f0b98
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery
 msc.type: authoredcontent
 ---
-Testing a Zip Package for Inclusion with the Web Application Gallery
-====================
+# Testing a Zip Package for Inclusion with the Web Application Gallery
+
 by [Mai-lan Tomsen Bukovec](https://twitter.com/mailant)
 
 The [Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy for Windows users to find and deploy a free open source, community application onto a computer running Windows XP or later. To learn more about how to build Web Deploy support for a zip package so that the application can be included in the Web Application Gallery, read the [Package An Application for the Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md) guide or view the [Adding Web Deployment Tool Support to Community Application ZIP Packages videocast](https://blogs.iis.net/mailant/archive/2009/05/04/real-world-iis-adding-web-deployment-tool.aspx). Once you have build Web Application Gallery integration for your zip package, you can test the Web Application Integration using [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
@@ -55,9 +50,7 @@ In the WebProductList.xml feed, look for the reference to WebApplicationList.xml
 
 ##### Example:
 
-
 [!code-html[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample1.html)]
-
 
 Save the change.
 
@@ -69,17 +62,13 @@ When you find &quot;&lt;productId&gt;SimilarApp&lt;/productId&gt;&quot;, you wil
 
 ##### Example
 
-
 [!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample2.xml)]
-
 
 Change the location within that element to point to your local application zip package.
 
 ##### Example
 
-
 [!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample3.xml)]
-
 
 You will also need to find the &lt;sha1&gt; element and change it to the new hash value or remove it. If you forget this step, your application testing will fail based on mismatched hash values.   
  Save the changes.
@@ -108,7 +97,7 @@ Follow these steps so that Web Platform Installer will point to the local feed w
 - Look for the application you are testing and Click on Add
 - Click on Install
 
- Web Platform Installer will now install the test application package onto IIS or Web Matrix. 
+  Web Platform Installer will now install the test application package onto IIS or Web Matrix. 
 
 ## Test by creating a custom feed
 

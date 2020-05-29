@@ -1,19 +1,14 @@
 ---
-title: "Adding IP Security &lt;add&gt; | Microsoft Docs"
+title: "Adding IP Security &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;ipSecurity&gt; collection defines a unique IP security restriction. Each restriction can be based on the IP versi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3927dd7a-73a8-4348-a3d2-1a359f5d5fc1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/ipsecurity/add
 msc.type: config
 ---
-Adding IP Security &lt;add&gt;
-====================
+# Adding IP Security &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -169,7 +164,7 @@ The following code samples add two IP restrictions to the Default Web Site; the 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

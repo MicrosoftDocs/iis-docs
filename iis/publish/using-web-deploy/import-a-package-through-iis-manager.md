@@ -1,22 +1,17 @@
 ---
-title: "Import a Package through IIS Manager | Microsoft Docs"
+title: "Import a Package through IIS Manager"
 author: rick-anderson
 description: "This quick guide will help you install a package of your Web application using the IIS Manager, including a SQL database. To create a package, see Export a P..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/29/2008
-ms.topic: article
 ms.assetid: 52ab178f-2943-4752-ab28-6ab925fdbfdd
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/import-a-package-through-iis-manager
 msc.type: authoredcontent
 ---
-Import a Package through IIS Manager
-====================
+# Import a Package through IIS Manager
+
 by Faith A
 
-This quick guide will help you install a package of your Web application using the IIS Manager, including a SQL database. To create a package, see [Export a Package through IIS Manager](https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/export-a-package-through-iis-manager).
+This quick guide will help you install a package of your Web application using the IIS Manager, including a SQL database. To create a package, see [Export a Package through IIS Manager](https://docs.microsoft.com/iis/publish/using-web-deploy/export-a-package-through-iis-manager).
 
 ## Prerequisites
 

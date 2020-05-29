@@ -1,19 +1,14 @@
 ---
-title: "Management Authorization Providers &lt;providers&gt; | Microsoft Docs"
+title: "Management Authorization Providers &lt;providers&gt;"
 author: rick-anderson
 description: "Overview The &lt;providers&gt; element of the &lt;authorization&gt; element specifies authorization providers that authorize IIS Manager users and Windows us..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dc3d33e0-bfc3-4cd9-b7fc-c8be44d705ba
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization/providers
 msc.type: config
 ---
-Management Authorization Providers &lt;providers&gt;
-====================
+# Management Authorization Providers &lt;providers&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -122,7 +117,7 @@ The following code examples add an authorization provider named ContosoAuthoriza
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample2.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Installing IIS 7.0 from the Command Line | Microsoft Docs"
+title: "Installing IIS 7.0 from the Command Line"
 author: rick-anderson
 description: "Pkgmgr.exe is a new command tool in Windows Vista ® / Windows Server ® 2008 for installing Windows Optional Features: Replaces sysocmgr.exe for installing Wi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: af287d62-e8f0-4ff7-8cbc-3d61e840d3f7
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-from-the-command-line
 msc.type: authoredcontent
 ---
-Installing IIS 7.0 from the Command Line
-====================
+# Installing IIS 7.0 from the Command Line
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
@@ -93,15 +88,11 @@ If you want to install all IIS 7.0 features, use these command lines.
 
 If you are installing IIS 7.0 on Windows Vista Professional, Windows Vista Ultimate, or Windows Server 2008 Editions, copy and paste the following text into the command window:
 
-
 [!code-console[Main](installing-iis-from-the-command-line/samples/sample3.cmd)]
-
 
 If you are installing IIS 7.0 on Windows Vista Home Premium, copy and paste the following text into the command window:
 
-
 [!code-console[Main](installing-iis-from-the-command-line/samples/sample4.cmd)]
-
 
 ### Step 5: Check Error Code
 

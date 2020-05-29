@@ -1,26 +1,21 @@
 ---
-title: "Directory Quotas and FSRM | Microsoft Docs"
+title: "Directory Quotas and FSRM"
 author: walterov
 description: "Starting with Windows Server ® 2003 R2, File Server Resource Manager (FSRM) offers advanced quota and directory management. The quota system can now be based..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: b08212c6-af36-4506-9cb0-0502dfa81af5
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/enabling-directory-quotas
 msc.type: authoredcontent
 ---
-Directory Quotas and FSRM
-====================
+# Directory Quotas and FSRM
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 
 Starting with Windows Server® 2003 R2, File Server Resource Manager (FSRM) offers advanced quota and directory management. The quota system can now be based on directories, rather than set by a Windows user. This enables a quick and convenient way to restrict the amount of content uploaded to a Web site's root directory, rather than configuring per user.
 
-But new to Windows Server® 2008 is the ability to programmatically manage the quotas and other features offered by FSRM. For more information, go to [https://msdn.microsoft.com/en-us/library/bb613366.aspx](https://msdn.microsoft.com/en-us/library/bb613366.aspx).
+But new to Windows Server® 2008 is the ability to programmatically manage the quotas and other features offered by FSRM. For more information, go to [https://msdn.microsoft.com/library/bb613366.aspx](https://msdn.microsoft.com/library/bb613366.aspx).
 
 ## Installing, Creating, and Setting Quotas
 
@@ -44,7 +39,7 @@ But new to Windows Server® 2008 is the ability to programmatically manage the q
 7. In the **Limit** text box, type a number and choose a unit (KB, MB, GB, or TB).
 8. Click **Hard quota** or **Soft quota**.   
   
- (A hard quota prevents users from saving files after the space limit is reached and generates notifications when the volume of data reaches each configured threshold. A soft quota does not enforce the quota limit, but it generates all configured notifications.)
+   (A hard quota prevents users from saving files after the space limit is reached and generates notifications when the volume of data reaches each configured threshold. A soft quota does not enforce the quota limit, but it generates all configured notifications.)
 9. You can configure one or more optional threshold notifications for your quota template, as described in the procedure that follows. After you have selected all the quota template properties that you want to use, click **OK** to save the template.
 
 **To set the quota template for a directory**
@@ -59,8 +54,6 @@ But new to Windows Server® 2008 is the ability to programmatically manage the q
 
 Quotas can also be created using the command-line tool dirquota.exe (see [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md)). The following command-line sets the directory quota limit to 500 MB for a site directory:
 
-
 [!code-console[Main](enabling-directory-quotas/samples/sample1.cmd)]
 
-
-For more information about the File Server Resource Manager, go to [File Server Resource Manager](http://technet2.microsoft.com/WindowsServer2008/en/library/d6d480ca-18ec-4dee-aafc-a9e7971038cf1033.mspx).
+For more information about the File Server Resource Manager, see [File Server Resource Manager overview](https://docs.microsoft.com/windows-server/storage/fsrm/fsrm-overview).

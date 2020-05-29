@@ -1,19 +1,14 @@
 ---
-title: "Creating a Forward Proxy Using Application Request Routing | Microsoft Docs"
+title: "Creating a Forward Proxy Using Application Request Routing"
 author: rick-anderson
 description: "Shows how to use the Application Request Routing (ARR) and URL Rewrite features of Internet Information Services (IIS) to implement a forward proxy server."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/11/2014
-ms.topic: article
 ms.assetid: 69e33bd4-b543-404c-aeae-254e359e7709
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/creating-a-forward-proxy-using-application-request-routing
 msc.type: authoredcontent
 ---
-Creating a Forward Proxy Using Application Request Routing
-====================
+# Creating a Forward Proxy Using Application Request Routing
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 This article will show you how to use the Application Request Routing (ARR) and URL Rewrite features of Internet Information Services (IIS) to implement a forward proxy server.
@@ -62,7 +57,7 @@ To set up a forward proxy server using ARR, you must have the following:
 
 ### Install ARR
 
-If Application Request Routing Version 3 has not been installed, it is available for download [here](https://www.microsoft.com/en-us/download/details.aspx?id=39715). The download site displayed by this link includes installation instructions.
+If Application Request Routing Version 3 has not been installed, it is available for download [here](https://www.microsoft.com/download/details.aspx?id=39715). The download site displayed by this link includes installation instructions.
 
 ### Install URL Rewrite
 

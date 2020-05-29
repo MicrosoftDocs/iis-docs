@@ -1,19 +1,14 @@
 ---
-title: "IIS Management and Administration | Microsoft Docs"
+title: "IIS Management and Administration"
 author: walterov
 description: "This article provides a map to download locations for presentations, videos, and links to existing articles about IIS management and administration: Web farm..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/18/2009
-ms.topic: article
 ms.assetid: 50d4d6c3-200e-46bd-b080-666e3cab3fea
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/iis-management-and-administration
 msc.type: authoredcontent
 ---
-IIS Management and Administration
-====================
+# IIS Management and Administration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -92,4 +87,4 @@ This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6
 
 ## Conclusion
 
-This article helps you manage Windows Sever 2008 Web servers by providing a map to IIS management and administration videos, demonstrations, step-by-step guidance topics, and downloads.
+This article helps you manage Windows Server 2008 Web servers by providing a map to IIS management and administration videos, demonstrations, step-by-step guidance topics, and downloads.

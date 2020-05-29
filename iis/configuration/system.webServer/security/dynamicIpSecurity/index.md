@@ -1,19 +1,14 @@
 ---
-title: "Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt; | Microsoft Docs"
+title: "Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;"
 author: rick-anderson
 description: "Overview The &lt;dynamicIpSecurity&gt; element provides a dynamic means of blocking malicious Web requests. Using dynamic IP restrictions means the administr..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 6990bc31-c315-4e89-acaa-e9ee7a9a39b2
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity
 msc.type: config
 ---
-Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;
-====================
+# Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -117,7 +112,7 @@ The following examples configure **&lt;dynamicIpSecurity&gt;** for a site.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

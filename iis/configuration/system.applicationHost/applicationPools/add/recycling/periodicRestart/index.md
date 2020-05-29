@@ -1,19 +1,14 @@
 ---
-title: "Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt; | Microsoft Docs"
+title: "Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;"
 author: rick-anderson
 description: "Overview The &lt;periodicRestart&gt; element contains configuration settings that allow you to control when an application pool is recycled. You can specify..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 06807a69-b5eb-47ac-9815-c3957e5706ef
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart
 msc.type: config
 ---
-Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;
-====================
+# Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -108,7 +103,7 @@ You can also use the following syntax:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

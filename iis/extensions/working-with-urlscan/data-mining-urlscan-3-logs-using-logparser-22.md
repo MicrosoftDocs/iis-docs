@@ -1,22 +1,17 @@
 ---
-title: "Data Mining UrlScan 3 Logs using LogParser 2.2 | Microsoft Docs"
+title: "Data Mining UrlScan 3 Logs using LogParser 2.2"
 author: rmcmurray
 description: "Microsoft has released version 3.1 of UrlScan, and one of the great new features in this version is log files that conform to the W3C Extended Log File Form..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/22/2008
-ms.topic: article
 ms.assetid: 92f717d4-cf5a-4ba9-9e49-6d0062849958
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22
 msc.type: authoredcontent
 ---
-Data Mining UrlScan 3 Logs using LogParser 2.2
-====================
+# Data Mining UrlScan 3 Logs using LogParser 2.2
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
-Microsoft has released version 3.1 of [UrlScan](index.md), and one of the great new features in this version is log files that conform to the [W3C Extended Log File Format](http://www.w3.org/TR/WD-logfile). What this means to administrators is that they can now parse their UrlScan activity using almost any common log utilities, including Microsoft's [LogParser 2.2](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility, which is a freeware utility from Microsoft that allows you to write SQL-style queries to extract useful information.
+Microsoft has released version 3.1 of [UrlScan](index.md), and one of the great new features in this version is log files that conform to the [W3C Extended Log File Format](http://www.w3.org/TR/WD-logfile). What this means to administrators is that they can now parse their UrlScan activity using almost any common log utilities, including Microsoft's [LogParser 2.2](https://www.microsoft.com/download/details.aspx?id=24659) utility, which is a freeware utility from Microsoft that allows you to write SQL-style queries to extract useful information.
 
 <a id="001"></a>
 
@@ -28,21 +23,17 @@ Microsoft has released version 3.1 of [UrlScan](index.md), and one of the great 
 
 The download locations for UrlScan are listed in the "Getting UrlScan" section of the following topic:
 
-
 [https://www.iis.net/learn/extensions/working-with-urlscan](index.md)
 
 > [!NOTE]
 > There are separate downloads for 32-bit and 64-bit Windows.
 
-
 LogParser is available from the following URL:
 
-
-[https://www.iis.net/go/1287](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
+[https://www.iis.net/go/1287](https://www.microsoft.com/download/details.aspx?id=24659)
 
 > [!NOTE]
 > LogParser is a 32-bit application, but you can use it on a 64-bit Windows system.
-
 
 While it's not essential, copying LogParser.exe to a folder in your PATH will allow you to run LogParser from any folder on your system.
 
@@ -58,23 +49,18 @@ By default UrlScan installs to `%WinDir%\System32\Inetsrv\UrlScan`, and this is 
 
 UrlScan log files are named using the following syntax:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample1.cmd)]
 
-
 Where:
-
 
 | mm | = | Month |
 | --- | --- | --- |
 | dd | = | Day |
 | yy | = | Year |
 
-
 #### Log File Fields
 
 The following table lists the fields that are available:
-
 
 | Field | Description |
 | --- | --- |
@@ -90,7 +76,6 @@ The following table lists the fields that are available:
 | cs-data | The request data that triggered the action. |
 | x-control | Config control data that caused the trigger. For example, if a request was rejected because of a deny string from a UrlScan rule, the specific deny string will be listed. |
 
-
 <a id="002"></a>
 
 ## Querying Data
@@ -103,9 +88,7 @@ The following table lists the fields that are available:
 
 The simplest (and least useful) query that you can issue is the following, which is listed here just to get us started:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample2.cmd)]
-
 
 Let's analyze what this query does:
 
@@ -119,9 +102,7 @@ Let's analyze what this query does:
 
 You can restrict the amount of data that you see by specifying which fields to return:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample3.cmd)]
-
 
 Here's what this query does:
 
@@ -134,9 +115,7 @@ This allows you to greatly reduce the amount of information that you see in your
 
 As mentioned earlier, selecting all of the records in all of your logs is probably not all that helpful, unless you were interested in parsing your UrlScan information using another application, like Microsoft Excel, Microsoft Access, SQL Server, etc. In which case, you might want to export all of your data into a comma-delimited file like the following example:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample4.cmd)]
-
 
 Here's what this query does:
 
@@ -147,9 +126,7 @@ Here's what this query does:
 
 You could just as easily export into a tab-separated file using the following syntax:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample5.cmd)]
-
 
 <a id="002b"></a>
 
@@ -161,9 +138,7 @@ One of the great things about LogParser and SQL queries in general is that you c
 
 For example, to see all of the requests from a specific client IP address, you could use the following syntax:
 
-
 [!code-sql[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample6.sql)]
-
 
 Here's what this query does:
 
@@ -175,9 +150,7 @@ Here's what this query does:
 
 You can also filter based on UrlScan rejections using the following syntax:
 
-
 [!code-sql[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample7.sql)]
-
 
 Here's what this query does:
 
@@ -189,9 +162,7 @@ Here's what this query does:
 
 You can filter the amount of data that you see by specifying which fields to return and grouping the data based on uniqueness. This is done by adding the DISTINCT clause as seen in the following syntax:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample8.cmd)]
-
 
 Here's what this query does:
 
@@ -206,9 +177,7 @@ Here's what this query does:
 
 Another great feature of SQL-style queries is the ability to tabulate data. The following example shows how retrieve a count of requests based on the client IP address:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample9.cmd)]
-
 
 Here's what this query does:
 
@@ -220,9 +189,7 @@ Here's what this query does:
 
 You can reorder your results into something more useful using the ORDER BY clause, as illustrated in the following example:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample10.cmd)]
-
 
 Here's what this query does:
 
@@ -240,15 +207,11 @@ Here's what this query does:
 
 Starting with the request count query from a previous example, you can rename the request count field to something more useful using the AS clause, as illustrated in the following example:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample11.cmd)]
-
 
 This helps reorder the data based on the count, as shown in the following example:
 
-
 [!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample12.cmd)]
-
 
 Here's what this query does:
 
@@ -263,9 +226,7 @@ Here's what this query does:
 
 While somewhat similar to the previous example, the following syntax will filter the results based on rejections and count the number of times that each reason occurs:
 
-
 [!code-sql[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample13.sql)]
-
 
 Here's what this query does:
 
@@ -281,9 +242,7 @@ Here's what this query does:
 
 UrlScan writes all log entries to a common log file, but you may want to see your data separated by site. The following example splits your UrlScan logs into separate files by site by creating unique log files that are named for each site ID. This example is a little more complex than previous examples, and is written as a batch file.
 
-
 [!code-sql[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample14.sql)]
-
 
 Here's what this batch file does:
 

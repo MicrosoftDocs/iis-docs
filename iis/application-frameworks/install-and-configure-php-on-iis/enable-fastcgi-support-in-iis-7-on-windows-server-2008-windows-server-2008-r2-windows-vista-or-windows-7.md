@@ -1,19 +1,14 @@
 ---
-title: "Enable FastCGI Support in IIS 7 on Windows | Microsoft Docs"
+title: "Enable FastCGI Support in IIS 7 on Windows"
 author: rick-anderson
 description: "Introduction Internet Information Services 7 (IIS 7) and above comes with extended support for application frameworks through FastCGI, an open protocol suppo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 5cedd13d-a696-4c1e-8282-7aef4e333227
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7
 msc.type: authoredcontent
 ---
-Enable FastCGI Support in IIS 7 on Windows
-====================
+# Enable FastCGI Support in IIS 7 on Windows
+
 by Tali Smith
 
 ## Introduction
@@ -69,10 +64,10 @@ The update for the IIS FastCGI module fixes several known compatibility issues w
 The [IIS 7.0 Administration Pack](https://www.iis.net/downloads/microsoft/administration-pack) adds to the set of management features that ship with IIS to include Administration UI support for ASP.NET authorization, custom errors, FastCGI configuration, request filtering, and much more. The Administration Pack also provides a generic configuration editor that is capable of setting any IIS configuration setting and automatically generating scripts to make the task easily repeatable.
 
 > [!NOTE]
-> *This article uses information from: "[Using FasCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#InstallPHP)" by Ruslan Yakushev, published on December 5, 2007**.*
+> This article uses information from [Using FasCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#InstallPHP) by Ruslan Yakushev, published on December 5, 2007.
 
-## Links for Further Information
+## See also
 
-- [Enabling FastCGI on IIS 7](https://technet.microsoft.com/en-us/library/cc753077(WS.10).aspx).
-- [Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
-- [Installing FastCGI Support On Server Core](install-php-and-fastcgi-support-on-server-core.md).
+- [Enabling FastCGI on IIS 7](https://technet.microsoft.com/library/cc753077(WS.10).aspx)
+- [Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md)
+- [Installing FastCGI Support On Server Core](install-php-and-fastcgi-support-on-server-core.md)

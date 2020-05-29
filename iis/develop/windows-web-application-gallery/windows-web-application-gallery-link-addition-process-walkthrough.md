@@ -1,19 +1,14 @@
 ---
-title: "Windows Web Application Gallery Link Addition Process Walkthrough | Microsoft Docs"
+title: "Windows Web Application Gallery Link Addition Process Walkthrough"
 author: rick-anderson
 description: "This walkthrough will guide you through the process of submitting an application to the Windows Web Application Gallery. Overview of the submission process T..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 218769b5-1bdf-49a2-97dc-a8e6c64bd724
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-link-addition-process-walkthrough
 msc.type: authoredcontent
 ---
-Windows Web Application Gallery Link Addition Process Walkthrough
-====================
+# Windows Web Application Gallery Link Addition Process Walkthrough
+
 by IIS Team
 
 This walkthrough will guide you through the process of submitting an application to the Windows Web Application Gallery.
@@ -21,7 +16,6 @@ This walkthrough will guide you through the process of submitting an application
 ## Overview of the submission process
 
 The steps from developing an application to seeing it live in the Web Application Gallery are shown below. This document concentrates on the step in Green, which can be exploded out into the process below it:
-
 
 [![](windows-web-application-gallery-link-addition-process-walkthrough/_static/image8.jpg)](windows-web-application-gallery-link-addition-process-walkthrough/_static/image7.jpg)
 
@@ -65,12 +59,12 @@ To submit your application, you will need to fill out the [submission form](http
         - Language - This is a dropdown list for the primary language that the application supports. If the application supports multiple langagues, please select the one that is the default here.
     - Dependencies - The Dependencies section gives you the opportunity to specify software and environmental prerequisites for your application. When the application is installed via the Web Platform Installer, the WebPI will ensure that the environment has these Dependencies. The WebPI will set up all of the specified dependencies so the application can function properly. The IIS components required to support the language will automatically be determined and installed by the WebPI. The IIS Components list allows you to select IIS extensions that your application depends on which go beyond the requirements for the framework. For example, if you specify PHP 5.2, the WebPI knows to install and configure FastCGI. However, if your application requires the URL Rewriter, you will need to select it in the Web Server Extensions column.  
   
- There are three lists for specifying dependencies:
+  There are three lists for specifying dependencies:
 
-        - Framework - Specify one framework from the list of ASP.NET and PHP versions. This should be the version that your application depends on to function.
-        - Database - Select all of the databases that your application supports.
-        - IIS Components Select each of the IIS and other components that your application depends on to function. An example component is the IIS URL Rewriter.
-    - Terms and Conditions - You must agree to the [Terms and Conditions](https://www.microsoft.com/web/insertproperlink) of the Web Application Gallery before you can submit your application.
+    - Framework - Specify one framework from the list of ASP.NET and PHP versions. This should be the version that your application depends on to function.
+    - Database - Select all of the databases that your application supports.
+    - IIS Components Select each of the IIS and other components that your application depends on to function. An example component is the IIS URL Rewriter.
+- Terms and Conditions - You must agree to the [Terms and Conditions](https://www.microsoft.com/web/insertproperlink) of the Web Application Gallery before you can submit your application.
 
 When you have completed the form, submit the form. This data will be used to populate the Application Gallery with metadata for your application. At the application level of the Gallery, this data will be displayed as in the image below:
 

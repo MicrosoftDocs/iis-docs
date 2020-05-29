@@ -1,19 +1,14 @@
 ---
-title: "Bit Rate Throttling Extensibility Walkthrough | Microsoft Docs"
+title: "Bit Rate Throttling Extensibility Walkthrough"
 author: rick-anderson
 description: "Bit Rate Throttling for Internet Information Services (IIS) provides the ability to throttle progressive downloads of media files (in which audio/video playb..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: be6859fb-c6bb-4390-af19-18fcdc5f8bc3
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/bit-rate-throttling/bit-rate-throttling-extensibility-walkthrough
 msc.type: authoredcontent
 ---
-Bit Rate Throttling Extensibility Walkthrough
-====================
+# Bit Rate Throttling Extensibility Walkthrough
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 Bit Rate Throttling for Internet Information Services (IIS) provides the ability to throttle progressive downloads of media files (in which audio/video playback starts as soon as sufficient data has been buffered on the client) based on the content bit rate. For sites that deliver audio and video files that may not be watched in their entirety, this module can significantly reduce your media-related bandwidth costs. A secondary feature of Bit Rate Throttling is that it can also be used to throttle non-media ("data") file types at specified bit rates.
@@ -62,20 +57,17 @@ Bit Rate Throttling has a concept of media format rules. These rules are express
 
 Keep these guidelines in mind when dealing with Media Format rules.
 
-
 1. **Rules are format specific** – A rule is applicable to only a particular media format type per the configuration schema. Media format types are determined by the file name extensions.
 2. **There can be multiple rules for a particular format**– A particular media format can have multiple rules. This is necessary, as some formats may store separate bit rate information for audio and video. This is also useful for Multiple Bit Rate (MBR) content.
 3. **Multiple rules add up** – When there are multiple rules for a particular media format, the computed bit rate is based on the sum of all the individual rules.
 4. **Bit Rate rules override Duration rules** – When you specify both Bit Rate and Duration rules for a particular format, Bit Rate rules apply and Duration rules are ignored.
-5. **Do not play with rules unless you know what you are doing***–* This is very important to note. These rules are very useful and provide great benefits. At the same time, these rules impact all files with a particular file name extension. Thus, it is very important that you understand the possible impact when you create custom media format rules. As a best practice, create a backup copy of the IIS ApplicationHost.config file before you begin creating or editing Media Format rules.
-
+5. **Do not play with rules unless you know what you are doing** – This is very important to note. These rules are very useful and provide great benefits. At the same time, these rules impact all files with a particular file name extension. Thus, it is very important that you understand the possible impact when you create custom media format rules. As a best practice, create a backup copy of the IIS ApplicationHost.config file before you begin creating or editing Media Format rules.
 
 ### Bit Rate Rules
 
 The Bit Rate rules tell Bit Rate Throttling how to directly retrieve the bit rate information from the media file format. The rule supports the attributes shown in the following table. The bit rate information is stored in different ways in different formats.
 
 A Bit Rate rule contains the following fields:
-
 
 | Rule Attribute | Required | Type | Permissible Values | Default Value | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -89,14 +81,11 @@ A Bit Rate rule contains the following fields:
 | endianness | N | Enum | bigEndian, littleEndian | bigEndian | The byte order. |
 | unitBitPerSecond | N | Uint | Any unsigned integer | 1 | The bit rate multiplier. For example, a value of **1** means the bit rate data is expressed in bits per second (bps), while a value of **1000** for this parameter means the bit rate data is expressed in kilobits per second (kbps). |
 
-
 **Table 1: Bit Rate Rule attributes**
 
 Here are some examples of the bit rate rules:
 
-
 [!code-xml[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample1.xml)]
-
 
 ### Duration Rules
 
@@ -104,13 +93,10 @@ Duration rules are similar to the Bit Rate rules, but the value obtained from th
 
 There are two parts to a Duration rule: **duration** and **timeScale**.
 
-
 - **duration** – This sub-rule contains all the information to determine the duration value for a media format, in units of time.
 - **timeScale**– This sub-rule contains all the information to determine the units of time in which **duration** is expressed, which can then be used as a multiplier to convert the search results of the duration rule into seconds.
 
-
 These two parts are represented as separate elements in the schema. The element attributes are defined in following tables.
-
 
 | Rule Attribute | Required | Type | Permissible Values | Default Value | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -123,9 +109,7 @@ These two parts are represented as separate elements in the schema. The element 
 | dataType | Y | Enum | uint16, uint32, float, double | NA | The type of the data located at the dataOffset (see dataOffset above). **unit16**: 16-bit unsigned; **uint32**: 32-bit unsigned **float**: 32-bit single point float **double**: 64 -bit double point double |
 | endianness | N | Enum | bigEndian, littleEndian | bigEndian | The byte order. |
 
-
 **Table 2: Duration Element attributes**
-
 
 | Rule Attribute | Required | Type | Permissible Values | Default Value | Description |
 | --- | --- | --- | --- | --- | --- |
@@ -139,11 +123,9 @@ These two parts are represented as separate elements in the schema. The element 
 | dataType | Y | Enum | uint16, uint32, float, double | NA | The type of the data located at the dataOffset (see dataOffset above). **unit16**: 16-bit unsigned; **uint32**: 32-bit unsigned **float**: 32-bit single point float **double**: 64-bit double point double |
 | endianness | N | Enum | bigEndian, littleEndian | bigEndian | The byte order. |
 
-
 **Table 3: timeScale attributes**
 
 Here are some examples of Duration rules:
-
 
 [!code-xml[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample2.xml)]
 
@@ -155,22 +137,17 @@ These rules are stored in the IIS configuration file ApplicationHost.config. Aft
 
 ### Manual Edit
 
-
 1. Using a text editor, open the file located under your IIS install root directory (%*windir*%\system32\inetsrv\config\ApplicationHost.config).
 2. Locate the media formats section under the System.webserver -&gt; media section.
 3. Manually add the new media format rule (&lt;add&gt; …. &lt;/add&gt;) just before the &lt;/mediaformats&gt; tag in the file.
-
 
 ### AppCmd
 
 Add the rule using AppCmd.exe. For example, add the following rule:
 
-
 [!code-xml[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample3.xml)]
 
-
 The AppCmd commands then look like:
-
 
 [!code-console[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample4.cmd)]
 
@@ -221,9 +198,7 @@ If you want to write a module with managed code, use the **HttpRequest.ServerVar
 - "foo" is either **ResponseThrottler-InitialSendSize** or **ResponseThrottler-Rate**.
 - "bar" is the corresponding initial send size or throttling rate respectively (for example, 6000 or 300).
 
-
 [!code-csharp[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample5.cs)]
-
 
 For C++, the API is similar, but you build a CHttpModule using the **IHttpContext::SetServerVariable** method. If you are building a managed handler, use the **System.Web.IHttpHandler** interface to produce an HTTP response for the specific content you want to throttle.
 
@@ -234,6 +209,5 @@ For performance, using C++ is recommended, because this will likely save you som
 ## Appendix: Bit Rate Throttling Schema
 
 The following is the schema for specifying the Bit Rate Rules and Duration Rules:
-
 
 [!code-xml[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample6.xml)]

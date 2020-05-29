@@ -1,19 +1,14 @@
 ---
-title: "Troubleshooting Invalid viewstate issues | Microsoft Docs"
+title: "Troubleshooting Invalid viewstate issues"
 author: apurvajo
 description: "NA This material is provided for informational purposes only. Microsoft makes no warranties, express or implied. Overview View state is a feature in ASP.NET..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: 47e92ace-e368-4af1-b1ed-0a474172a160
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues
 msc.type: authoredcontent
 ---
-Troubleshooting Invalid viewstate issues
-====================
+# Troubleshooting Invalid viewstate issues
+
 by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:
@@ -36,7 +31,7 @@ This article describes some techniques that can be used for debugging and for re
 
 A number of view state issues were fixed with ASP.NET 1.0 hotfixes and service packs, and those fixes are also part of ASP.NET 1.1. Make sure that you have applied the latest fixes before tracking issues that have already been resolved. You can obtain the latest Microsoft .NET Framework updates from the following Microsoft Developer Network (MSDN) Web site:
 
-[https://msdn.microsoft.com/en-us/netframework/aa569276.aspx](https://msdn.microsoft.com/en-us/netframework/aa569276.aspx)
+[https://msdn.microsoft.com/netframework/aa569276.aspx](https://msdn.microsoft.com/netframework/aa569276.aspx)
 
 **Set the validationKey attribute if you are running in a Web farm**
 
@@ -112,5 +107,5 @@ The workaround for this scenario is to use an explicit validationKey attribute i
 ### Other Resources
 
 - [Troubleshooting the "View state is invalid" error with ASP.NET](https://support.microsoft.com/kb/829743)
-- [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](https://msdn.microsoft.com/en-us/library/aa302388.aspx)
+- [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](https://msdn.microsoft.com/library/aa302388.aspx)
 - [How to create keys by using Visual C# .NET for use in Forms authentication](https://support.microsoft.com/kb/312906)

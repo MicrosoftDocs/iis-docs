@@ -1,23 +1,21 @@
 ---
-title: "Deny by Failure &lt;denyByFailure&gt; | Microsoft Docs"
+title: "Deny by Failure &lt;denyByFailure&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyByFailure&gt; element configures the FTP service to deny access to the FTP service based upon how many times an FTP client fails to auth..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7f84ef60-d07c-4253-835d-75c6cfe6aaca
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/authentication/denybyfailure
 msc.type: config
 ---
-Deny by Failure &lt;denyByFailure&gt;
-====================
+# Deny by Failure &lt;denyByFailure&gt;
+
 <a id="001"></a>
 ## Overview
 
 The `<denyByFailure>` element configures the FTP service to deny access to the FTP service based upon how many times an FTP client fails to authenticate within a time period. When the number of failed login attempts has been reached, the FTP connection will be closed forcibly, and the client IP address will be blocked from accessing the FTP service for the duration of the time period (as set by the entryExpiration attribute). Denying access by the failure rate can only be enabled for the server, not for individual sites.
+
+> [!NOTE]
+> If the client's IP address matches an Allow Entry of **Specific** IP Address in FTP IP Address and Domain Restrictions feature specified at the **server** level, the client is treated with additional trust and is allowed to bypass FTP Logon Attempts restriction check.
 
 <a id="002"></a>
 ## Compatibility
@@ -117,27 +115,22 @@ The following code samples configure denying access to the FTP server based upon
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
   
-
-### C#
+### C\#
 
 [!code-csharp[Main](denyByFailure/samples/sample3.cs)]
   
-
 ### VB.NET
 
 [!code-vb[Main](denyByFailure/samples/sample4.vb)]
   
-
 ### JavaScript
 
 [!code-javascript[Main](denyByFailure/samples/sample5.js)]
   
-
 ### VBScript
 
 [!code-vb[Main](denyByFailure/samples/sample6.vb)]
   
-
 ### PowerShell
 
 [!code-powershell[Main](denyByFailure/samples/sample7.ps1)]

@@ -1,22 +1,15 @@
 ---
-title: "FastCGI with PHP | Microsoft Docs"
+title: "FastCGI with PHP"
 author: ruslany
 description: "Overview The FastCGI support in IIS enables popular application frameworks that support FastCGI protocol to be hosted on the IIS web server in a high-perform..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: b9580403-5f10-4397-a8d0-daa76abd8379
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/fastcgi-with-php
 msc.type: authoredcontent
 ---
-FastCGI with PHP
-====================
-by [Ruslan Yakushev](https://github.com/ruslany)
+# FastCGI with PHP
 
-## Overview
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 The FastCGI support in IIS enables popular application frameworks that support FastCGI protocol to be hosted on the IIS web server in a high-performance and reliable way. FastCGI provides a high-performance alternative to the Common Gateway Interface (CGI), a standard way of interfacing external applications with Web servers that has been supported as part of the IIS feature-set since the very first release.
 
@@ -30,11 +23,9 @@ FastCGI addresses the performance issues inherent to CGI by providing a mechanis
 
 **To enable FastCGI on IIS 7.0**
 
-- Add CGI role service by going to Server Manager -&gt; Roles -&gt; Add Role Services. This enables both CGI and FastCGI services.
+- Add CGI role service by going to Server Manager > Roles > Add Role Services. This enables both CGI and FastCGI services.
 
-[![](fastcgi-with-php/_static/image5.png)](fastcgi-with-php/_static/image3.png)
-
-### 
+![](fastcgi-with-php/_static/image3.png)
 
 <a id="Install"></a>
 
@@ -45,29 +36,23 @@ It is recommended to use a non-thread safe build of PHP with IIS 7.0 FastCGI. No
 > [!NOTE]
 > There is no installer package for non-thread safe build of PHP.
 
-1. Download the latest non-thread safe binaries of PHP from [http://www.php.net/downloads.php](http://www.php.net/downloads.php).
+1. Download the latest non-thread safe binaries of PHP from <http://www.php.net/downloads.php>.
 
 2. Unpack the files to a directory of your choice (e.g. `C:\PHP`). Rename the php.ini-recommended to php.ini.
 
 3. Open php.ini file, then uncomment and modify settings as follows:
 
-> a. Set fastcgi.impersonate = 1. FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
+   a. Set fastcgi.impersonate = 1. FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
 
+   b. Set cgi.fix\_pathinfo=1. cgi.fix\_pathinfo provides \*real\* PATH\_INFO/PATH\_TRANSLATED support for CGI. PHP's previous behavior was to set PATH\_TRANSLATED to SCRIPT\_FILENAME, and to not care what PATH\_INFO is. For more information on PATH\_INFO, see the cgi specs. Setting this to 1 will cause PHP CGI to fix it's paths to conform to the spec
 
-> b. Set cgi.fix\_pathinfo=1. cgi.fix\_pathinfo provides \*real\* PATH\_INFO/PATH\_TRANSLATED support for CGI. PHP's previous behavior was to set PATH\_TRANSLATED to SCRIPT\_FILENAME, and to not care what PATH\_INFO is. For more information on PATH\_INFO, see the cgi specs. Setting this to 1 will cause PHP CGI to fix it's paths to conform to the spec
+   c. Set cgi.force\_redirect = 0.
 
-
-> c. Set cgi.force\_redirect = 0.
-
-
-> d. Set open\_basedir to point to a folder or network path where the content of the web site(s) is located.
-
+   d. Set open\_basedir to point to a folder or network path where the content of the web site(s) is located.
 
 4. To test if the PHP installation is successful, run the following from the command line prompt:
 
-
-[!code-console[Main](fastcgi-with-php/samples/sample1.cmd)]
-
+   [!code-console[Main](fastcgi-with-php/samples/sample1.cmd)]
 
 If PHP was installed correctly and all its dependencies are available on the machine, then this command will output the current PHP configuration information.
 
@@ -77,41 +62,37 @@ If PHP was installed correctly and all its dependencies are available on the mac
 
 In order for IIS 7.0 to host PHP applications, it is necessary to add a handler mapping that tells IIS to pass all requests for PHP files to PHP application framework via FastCGI protocol.
 
-**To add a handler mapping at a server level**
+### To add a handler mapping at a server level
 
 1. Open IIS Manager and then select and open "Handler Mappings" at the server level:
 
-[![](fastcgi-with-php/_static/image8.png)](fastcgi-with-php/_static/image7.png)
+   ![](fastcgi-with-php/_static/image7.png)
 
 2. Select "Add Module Mapping" action and specify the configurations settings as below:  
   
-[![](fastcgi-with-php/_static/image10.png)](fastcgi-with-php/_static/image9.png)
+   ![](fastcgi-with-php/_static/image9.png)
 
-1. - Request path: **\*.php**
-    - Module: **FastCgiModule**
-    - Executable: `C:\[Path to your PHP installation]\php-cgi.exe`
-    - Name: **PHP via FastCGI**
+   - Request path: **\*.php**
+   - Module: **FastCgiModule**
+   - Executable: `C:\[Path to your PHP installation]\php-cgi.exe`
+   - Name: **PHP via FastCGI**
 
 3. Click OK. The dialog box appears asking if you want to create a FastCGI application for this executable. Click Yes.
 
 4. Test that the handler mapping works correctly by creating a phpinfo.php file in the `C:\inetpub\wwwroot` folder that contains the following:  
-&lt;?php phpinfo(); ?&gt;.
+`<?php phpinfo(); ?>.`
 
-5. Open a browser and navigate to [http://localhost/phpinfo.php](http://localhost/phpinfo.php). If everything was setup correctly, then you see the standard PHP information page.
+5. Open a browser and navigate to `http://localhost/phpinfo.php`. If everything was setup correctly, then you see the standard PHP information page.
 
 Alternatively, the above mentioned steps can be completed by using command line tool appcmd.
 
 1. To create the FastCGI application process pool, run the following command:
 
-
-[!code-console[Main](fastcgi-with-php/samples/sample2.cmd)]
-
+   [!code-console[Main](fastcgi-with-php/samples/sample2.cmd)]
 
 2. After that, create the handler mapping:
 
-
-[!code-console[Main](fastcgi-with-php/samples/sample3.cmd)]
-
+   [!code-console[Main](fastcgi-with-php/samples/sample3.cmd)]
 
 > [!NOTE]
 > If you are using a PHP version 4.X, instead of php-cgi.exe, you can use php.exe.
@@ -138,7 +119,6 @@ Make sure that FastCGI always recycles php-cgi.exe processes before the native P
 To set these configuration properties use the following commands:
 
 [!code-console[Main](fastcgi-with-php/samples/sample4.cmd)]
-   
 
 [!code-console[Main](fastcgi-with-php/samples/sample5.cmd)]
 
@@ -151,9 +131,7 @@ Many PHP applications may rely on functions or features available only in certai
 
 It is a common requirement in a shared hosting environment to support multiple versions of PHP on the same server. IIS 7.0 FastCGI handler fully supports running multiple versions of PHP on the same web server. For example, let's assume that on your web server you plan to support PHP 4.4.8, PHP 5.2.1 and PHP 5.2.5 non-thread safe. To enable that, you must place corresponding PHP binaries in separate folders on files system (e.g. `C:\php448\`, `C:\php521\` and `C:\php525nts`) and then create the FastCGI application process pools for each version:
 
-
 [!code-console[Main](fastcgi-with-php/samples/sample6.cmd)]
-
 
 Now, if you have 3 web sites (site1, site2, site3), where each site needs to use a different PHP version, you can define handler mappings on each of those sites to reference a corresponding FastCGI application process pool.
 
@@ -211,21 +189,15 @@ When each web site has its own application pool (which is a recommended practice
 
 For example, if there are two web sites "website1" and "website2" that need to have their own set of PHP settings, the FastCGI process pools can be defined as follows:
 
-
 [!code-xml[Main](fastcgi-with-php/samples/sample8.xml)]
-
 
 Then website1 can have the PHP handler mapping as follows:
 
-
 [!code-xml[Main](fastcgi-with-php/samples/sample9.xml)]
-
 
 and website2 can have the PHP handler mapping as follows:
 
-
 [!code-xml[Main](fastcgi-with-php/samples/sample10.xml)]
-
 
 ### Specifying php.ini location
 
@@ -233,15 +205,13 @@ When PHP process starts it determines the location of configuration php.ini file
 
 For example if there are two websites: website1 and website2; located at the following file paths: `C:\WebSites\website1` and `C:\WebSites\website2` then the php-cgi.exe process pools in `<fastCgi>` section of applicationHost.config can be configured as below:
 
-
 [!code-xml[Main](fastcgi-with-php/samples/sample11.xml)]
-
 
 This way owner of website1 can place their own version of php.ini into the `C:\WebSites\website1`, while the owner of website2 can use their own version of php.ini located in `C:\WebSites\website2`. This configuration also ensures that if there is no php.ini found in location specified by PHPRC environment variable then PHP will fall back to using the default php.ini file located in the same folder where php-cgi.exe is located.
 
 <a id="Rewrite"></a>
 
-## Providing URL rewriting functionality for PHP applicaitons
+## Providing URL rewriting functionality for PHP applications
 
 Majority of popular PHP applications rely on the URL rewriting functionality in web servers to enable user friendly and search engine friendly URL's. IIS7 will provide URL rewriting capabilities via [URL rewrite module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md "URL rewrite module"), which is currently available as a [technical preview](https://www.iis.net/downloads/microsoft/url-rewrite "URL Rewrite TP"), There is no URL rewriting support provided for IIS versions earlier than 7.0 so the most commonly used options today for enabling URL rewriting on IIS 5.0, IIS 5.1 and IIS 6.0 are the following products:
 

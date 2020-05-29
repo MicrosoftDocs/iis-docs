@@ -1,19 +1,14 @@
 ---
-title: "Client Cache &lt;clientCache&gt; | Microsoft Docs"
+title: "Client Cache &lt;clientCache&gt;"
 author: rick-anderson
 description: "Overview The &lt;clientCache&gt; element of the &lt;staticContent&gt; element specifies cache-related HTTP headers that IIS 7 and later sends to Web clients,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: be06e91f-60cd-4271-9810-dfe0a44af1a3
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/staticcontent/clientcache
 msc.type: config
 ---
-Client Cache &lt;clientCache&gt;
-====================
+# Client Cache &lt;clientCache&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -152,7 +147,7 @@ The following code samples add an HTTP "Cache-Control: no-cache" header to the r
 
 [!code-console[Main](clientCache/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](clientCache/samples/sample4.cs)]
 
@@ -174,7 +169,7 @@ The following code samples add an HTTP "Expires: Tue, 19 Jan 2038 03:14:07 GMT" 
 
 [!code-console[Main](clientCache/samples/sample8.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](clientCache/samples/sample9.cs)]
 

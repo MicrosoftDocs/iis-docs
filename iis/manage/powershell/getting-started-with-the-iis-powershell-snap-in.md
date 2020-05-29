@@ -1,19 +1,14 @@
 ---
-title: "Getting Started with the IIS 7.0 PowerShell Snap-in | Microsoft Docs"
+title: "Getting Started with the IIS 7.0 PowerShell Snap-in"
 author: thomasdeml
 description: "The IIS PowerShell Provider is a PowerShell Snap-In that allows you to manage IIS configuration and run-time data. It gives easy access to Web-Sites, Applica..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2008
-ms.topic: article
 ms.assetid: 9a702fef-af50-4fb2-b393-93a9c3bba2c1
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/getting-started-with-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---
-Getting Started with the IIS 7.0 PowerShell Snap-in
-====================
+# Getting Started with the IIS 7.0 PowerShell Snap-in
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction

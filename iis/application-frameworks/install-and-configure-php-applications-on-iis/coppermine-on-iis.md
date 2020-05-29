@@ -1,19 +1,14 @@
 ---
-title: "Coppermine on IIS | Microsoft Docs"
+title: "Coppermine on IIS"
 author: rick-anderson
 description: "Coppermine is a multi-purpose, fully-featured and integrated web picture gallery script written in PHP. Coppermine uses GD or ImageMagick as the image librar..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/18/2007
-ms.topic: article
 ms.assetid: 4a6fdd0f-12c2-4a7d-8b8e-f8af5e0c0370
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/coppermine-on-iis
 msc.type: authoredcontent
 ---
-Coppermine on IIS
-====================
+# Coppermine on IIS
+
 by Eric Woersching
 
 ## Introduction

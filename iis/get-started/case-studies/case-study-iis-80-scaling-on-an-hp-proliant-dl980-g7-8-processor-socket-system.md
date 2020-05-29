@@ -1,29 +1,21 @@
 ---
-title: "Case Study: IIS 8 Scaling On An HP Proliant DL980 G7 8-Processor Socket System | Microsoft Docs"
-author: Microsoft
+title: "Case Study: IIS 8 Scaling On An HP Proliant DL980 G7 8-Processor Socket System"
 description: "This Whitepaper compiles the findings from a joint effort between HP and the IIS product team to assess the performance capabilities of IIS running on HP's 8..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/18/2012
-ms.topic: article
 ms.assetid: f33913a6-0adf-4387-bb74-07fe35d3c177
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system
 msc.type: authoredcontent
 ---
-Case Study: IIS 8 Scaling On An HP Proliant DL980 G7 8-Processor Socket System
-====================
+# Case Study: IIS 8 Scaling On An HP Proliant DL980 G7 8-Processor Socket System
+
 by [Microsoft](https://github.com/Microsoft)
 
 > This Whitepaper compiles the findings from a joint effort between HP and the IIS product team to assess the performance capabilities of IIS running on HP's 8-way systems. This whitepaper also serves as a deployment guide that can be used by customers to configure IIS on such systems.
-
 
 **Abstract**: This case study describes how to deploy and optimize Microsoft IIS 8.0 Server on 8 way systems from HP.
 
 **Authors**: Hewlett-Packard (HP), IIS Product Group (IIS), Microsoft's Enterprise Engineering Center (EEC)
 
-<a id="introduction"></a>
 ## Introduction
 
 *The Web Server workload is usually associated with commodity servers on a scale-out model. When additional processing power is required, extra machines are added to the pool. This is a very common model, and Microsoft Internet Information Services (IIS) has several features to make such an approach easy to configure and deploy.*
@@ -34,7 +26,6 @@ by [Microsoft](https://github.com/Microsoft)
 
 *This Whitepaper compiles the findings from a joint effort between HP and the IIS product team to assess the performance capabilities of IIS running on HP's 8-way systems. This whitepaper also serves as a deployment guide that can be used by customers to configure IIS on such systems.*
 
-<a id="the-customer-problem"></a>
 ## The Customer Problem
 
 Generally speaking, increasing the number of cores should result in increased performance. When IIS customers deployed their applications on Non-Uniform-Memory-Access (NUMA) aware hardware with Windows Server 2008 R2, they noticed that after certain point increasing number of core resulted in performance degradation. This happened because the cost of software memory synchronization out-weighs the benefits of additional cores on NUMA hardware. IIS 8.0 in Windows server 2012 addresses this problem by intelligently distributing the thread affinity for processes on NUMA hardware, and this proof-of-concept has allowed identifying the operating system and network IO tuning to ensure the IIS 8.0 optimum scalability.
@@ -62,13 +53,11 @@ Finally, there are two different ways to configure the affinity for threads from
 
 *Although Hard Affinity can provide better overall performance, setting up Hard Affinity requires more configuration and deeper hardware understanding. Also, if configured improperly, it also results in poorer performance. So, the default configuration is Soft Affinity.*
 
-<a id="hp-platform"></a>
 ## HP Platform
 
-<a id="background-on-hp-dl980-g7"></a>
 ### Background on HP DL980 G7
 
-DL980 G7 is the first HP Proliant scale-up server with 8 processor sockets, using the HP PREMA architecture incorporating node controllers with smart CPU caching and redundant system fabric. The first iteration of the DL980 G7 servers used Intel® Xeon® processor 7500/6500 series (a.k.a Nehalem-EX) processors (4-, 6- and 8-core SKUs), 128 DIMM sockets and 16 PCIe slots. The second version supports the Intel® Xeon® processor E7-8800/4800/2800 (a.k.a Westmere-EX) processors (up to the 10-core SKU). With the current Intel Nehalem-EX configuration with 8 processors, each with 8 cores and with hyper threading enabled, Windows Server 2008 R2 enables a total of 128 Logical Processors, the maximum OS support of 2TB of RAM and the 16 PCIe slots. With Intel Westmere-EX 10-core SKU processors and hyper threading enabled, Windows Server 2008 R2 enables a total of 160 Logical Processors for the DL980 G7. And today, Windows Server 2012 enables the 4TB of RAM this platform supports.
+DL980 G7 is the first HP Proliant scale-up server with 8 processor sockets, using the HP PREMA architecture incorporating node controllers with smart CPU caching and redundant system fabric. The first iteration of the DL980 G7 servers used Intel&reg; Xeon&reg; processor 7500/6500 series (a.k.a Nehalem-EX) processors (4-, 6- and 8-core SKUs), 128 DIMM sockets and 16 PCIe slots. The second version supports the Intel&reg; Xeon&reg; processor E7-8800/4800/2800 (a.k.a Westmere-EX) processors (up to the 10-core SKU). With the current Intel Nehalem-EX configuration with 8 processors, each with 8 cores and with hyper threading enabled, Windows Server 2008 R2 enables a total of 128 Logical Processors, the maximum OS support of 2TB of RAM and the 16 PCIe slots. With Intel Westmere-EX 10-core SKU processors and hyper threading enabled, Windows Server 2008 R2 enables a total of 160 Logical Processors for the DL980 G7. And today, Windows Server 2012 enables the 4TB of RAM this platform supports.
 
 The performance and scalability capabilities of these 8-way Intel based servers with HP scalability node controllers exceeds anything that has previously existed on Intel/AMD and meet or exceeds the performance of many UNIX platforms, doing so at considerably lower price point than UNIX platforms. In addition these new Nehalem-EX &amp; Westmere-EX are at close to parity with UNIX platforms with respect to the R.A.S feature set according to Gartner and other industry analysts.
 
@@ -108,7 +97,6 @@ The DL980 G7 has three IO boards:
 <a id="recommended-configuration-and-settings"></a>
 ### Recommended Configuration &amp; Settings
 
-<a id="ram"></a>
 #### RAM
 
 The DL980 G7 has extremely powerful processors, each containing 2 memory controllers and is capable of massive IO throughput when correctly configured. The platform is configured so memory accesses are spread evenly across both memory controllers of each processor. To ensure a &quot;balanced&quot; system design, we recommend at least 512GB of RAM, with more typical deployments with 1TB of RAM as at May 2011. A DL980 G7 with less than 512GB-1TB of RAM is probably never able to leverage the very powerful processors because of insufficient RAM. Most customers will observe a dramatic decrease in IOPS and huge improvement both in IO and scaling performances with Windows Server 2012, thanks to increased IO NUMA-awareness and NUMA scaling improvements in this Windows operating system version.
@@ -119,14 +107,13 @@ Please note the following memory configuration facts:
 - Each processor connects to 2 Memory Risers, with each riser supporting 1 memory controller and 8 DIMM connectors.
 - Supports Registered DIMMs (RDIMM) only. Unbuffered DIMMs (UDIMM) are not supported.
 
-    - LR or DDR3L are only supported with Westmere-EX processors.
+  - LR or DDR3L are only supported with Westmere-EX processors.
 - Supports single-rank (SR), dual-rank (DR) and quad-rank (QR) DIMM modules
 - 1 GB and 2 GB DRAM technologies are supported with Nehalem-EX processors and 4 GB are also supported with Westmere-EX processors.
 - **DIMMs are added in Quads across 2 memory controllers.**
 - Supports Advanced ECC, Online Rank Sparing and Mirroring.
 - Memory ECC support includes correction of x4 and x8 chip fail.
 
-<a id="network"></a>
 #### Network
 
 - Gigabit network adaptors are recommended as standard. 1 Gigabit network adaptors are most likely to be a bottleneck on these powerful systems.
@@ -135,7 +122,7 @@ Please note the following memory configuration facts:
 - The HP 10Gb NC550SFP (Intel) network card has been tested and proved to be very highly performing; it requires a PCIe x8 slot on the Main or Sub IO Boards to reach full performance.
 - HP DL980s support up to 4 10GbE NICs such as NC550SFP and NC523SFP (refer to HP DL980 quick specs documents for up to date information) with a total number of 8 10GbE ports.
 - For load balancing purposes 10 Gigabit cards can be balanced between the Main and Sub IO boards. (For example: 2 x Dual port 10G NIC on Main Board and 2 x Dual port 10G on Sub IO Board).
-- As the reader will realize in the IIS scaling paper, it is recommended to enable [Receive Side Scaling](https://technet.microsoft.com/en-us/network/dd277646) (RSS) on the more modern Network Adaptors and modern Device drivers. 1 Gigabit Network Adaptors usually only support up to 8 RSS &quot;Rings&quot; or &quot;Queues&quot;. 10 Gigabit Adaptors support at least 16 Rings/Queues. Receive Side Scaling is a mechanism to balance the [DPC offload](https://download.microsoft.com/download/f/0/5/f05a42ce-575b-4c60-82d6-208d3754b2d6/NetworkDriverPerformance.ppt) across multiple logical processors. This avoids the problem sometimes seen during extremely high network activity where high kernel time is seen on one processor only (often logical processor 0 or 1, but not always). Note: The RSS implementation for Windows Server 2008 R2 covers only logical processors in the first Windows KGROUP of processors (KGROUP#0) but this restriction has been eliminated with Windows Server 2012 and several inbox drivers support it at first install.
+- As the reader will realize in the IIS scaling paper, it is recommended to enable [Receive Side Scaling](https://technet.microsoft.com/network/dd277646) (RSS) on the more modern Network Adaptors and modern Device drivers. 1 Gigabit Network Adaptors usually only support up to 8 RSS &quot;Rings&quot; or &quot;Queues&quot;. 10 Gigabit Adaptors support at least 16 Rings/Queues. Receive Side Scaling is a mechanism to balance the [DPC offload](https://download.microsoft.com/download/f/0/5/f05a42ce-575b-4c60-82d6-208d3754b2d6/NetworkDriverPerformance.ppt) across multiple logical processors. This avoids the problem sometimes seen during extremely high network activity where high kernel time is seen on one processor only (often logical processor 0 or 1, but not always). Note: The RSS implementation for Windows Server 2008 R2 covers only logical processors in the first Windows KGROUP of processors (KGROUP#0) but this restriction has been eliminated with Windows Server 2012 and several inbox drivers support it at first install.
 
 <a id="hba-and-io"></a>
 #### HBA &amp; IO
@@ -157,11 +144,10 @@ FusionIO (HP IO accelerator boards) and OCZ provide ultra-fast access (up to 10,
 - If you use more than 4 HP IO accelerators, modifications must be made within the BIOS to allow for more cooling and you have to consider external power cables or use the FusionIO power override feature with VSL 3.x and allow the additional power to be sourced from the PCIe slot.
 - The current FusionIO stack still needs scalability improvements and FusionIO is still working on them. Meanwhile, please note that with a larger number of Fusion IO cards in this system, we have pushed over 1 million IOPs and above 16GB/s. With the current FusionIO driver implementation, you might find:
 
-    - Very high processor utilization on a subset of the logical processors. This is related to the fact that current FusionIO HBAs don't support MSI-X and each HBA sends interrupts to a single logical processor. Additionally, the current implementation supports a DPC and FusionIO completion worker thread for each HBA only. For highly demanding scaling IO workloads, the user is almost expected identifying these logical processors by checking the CPU utilizations at 100% or at almost 100% on these specific logical processors. FusionIO has made available configuration parameters to partially mitigate this by allowing the specification of which logical processors to dedicate for these tasks. In these high IO cputimes, you can an affinity mask at the application level to avoid these logical processors.
-    - IO throughput unbalances. The best IO performance is obtained by generating read/write requests on the same socket as where the FusionIO completion thread runs. The DL980 G7 BIOS provides IO NUMAness to the Windows operating system and its IO components: storport and ndis/netio for their miniports to use and tune.
-    - Throughput modifications due to the impact of grooming the SSD, issue seen with previous and current generations of SSDs.
+  - Very high processor utilization on a subset of the logical processors. This is related to the fact that current FusionIO HBAs don't support MSI-X and each HBA sends interrupts to a single logical processor. Additionally, the current implementation supports a DPC and FusionIO completion worker thread for each HBA only. For highly demanding scaling IO workloads, the user is almost expected identifying these logical processors by checking the CPU utilizations at 100% or at almost 100% on these specific logical processors. FusionIO has made available configuration parameters to partially mitigate this by allowing the specification of which logical processors to dedicate for these tasks. In these high IO cputimes, you can an affinity mask at the application level to avoid these logical processors.
+  - IO throughput unbalances. The best IO performance is obtained by generating read/write requests on the same socket as where the FusionIO completion thread runs. The DL980 G7 BIOS provides IO NUMAness to the Windows operating system and its IO components: storport and ndis/netio for their miniports to use and tune.
+  - Throughput modifications due to the impact of grooming the SSD, issue seen with previous and current generations of SSDs.
 
-<a id="bios"></a>
 #### BIOS
 
 It is recommended to change the following default values in the DL980 G7 BIOS for IIS:
@@ -197,14 +183,12 @@ It is strongly recommended to verify the firmware of these components on the [HP
 
 As part of the Mission Critical offering for Windows customers, HP has a Smart Update QFE CD to automatically setup and tune Windows with the latest critical Microsoft QFEs: [http://www.hp.com/swpublishing/MTX-2d5e88cac8e8445181279f252e](http://www.hp.com/swpublishing/MTX-2d5e88cac8e8445181279f252e). These updates and tuning have been implemented with Microsoft and validated in the HP DL980 laboratory. HP recommends its customers to execute these updates.
 
-- Windows Server 2012 - The IIS settings for kernel mode, cache management, request and connection management and user mode have not changed from Windows Server 2008 R2, please refer to the IIS specific tunings described in the [&quot;Performance Tuning Guidelines for Windows Server 2008 R2&quot;](https://msdn.microsoft.com/en-us/windows/hardware/gg463392.aspx) document. .
+- Windows Server 2012 - The IIS settings for kernel mode, cache management, request and connection management and user mode have not changed from Windows Server 2008 R2, please refer to the IIS specific tunings described in the [&quot;Performance Tuning Guidelines for Windows Server 2008 R2&quot;](https://msdn.microsoft.com/windows/hardware/gg463392.aspx) document. .
 - For Windows 2008 R2, SP1 or higher is recommended. Service Pack 1 contains many critical performance fixes for &gt; 64 logical processor support.
 - Windows 2008 cannot support 44 bit addressing correctly and should not be installed on DL980 G7. If for some reason Windows 2008 (non-R2 version) is deployed on DL980 both hyper threading and 44 Bit memory must be disabled, system is then limited to 64 logical processors and 1 TB of RAM. Windows Server 2008 SP2 is the only supported Windows Server 2008 Server version on the HP DL980 G7. If Windows Server 2008 is still required, please refer to the HP Support web site and organization for the complete list of Windows QFEs for Windows Server 2008 SP2 on the HP DL980 G7.
 
-<a id="test-methodology"></a>
 ## Test Methodology
 
-<a id="test-scenario"></a>
 ### Test Scenario
 
 The goal of this test is to test the scalability of IIS Server while increasing the number of CPU cores/sockets on NUMA aware hardware:
@@ -223,10 +207,9 @@ The test environment demonstrates how the ASP.NET Web application scales on a se
 
 Tests were repeated for 20/40/80 cores (2/4/8 processor sockets). We also conducted additional test for 180 core (Hyper Threading enabled) to see how IIS benefits from HT.
 
-<a id="test-setup"></a>
 ### Test Setup
 
-#### Servers:
+#### Servers
 
 A total of 6 machines were used to conduct test
 
@@ -234,11 +217,11 @@ A total of 6 machines were used to conduct test
 - 1 machine working as WCAT controller
 - 1 HP9L980G7 as IIS 8.0 server
 
-#### Networking:
+#### Networking
 
 The test environment was set up with four client machines and one server. Each of the client machines used four 1 Gb NICs. The server used sixteen 1 Gb NICs. Sixteen subnets were configured, pairing each client NIC to a unique server NIC.
 
-#### RSS Settings:
+#### RSS Settings
 
 Networking performance on the server was optimized using RSS settings.
 
@@ -248,7 +231,6 @@ The total number of RSS queues across all NICs was made equal to the total numbe
 
 RSS queues on each NIC were then mapped to a specific set of cores on their assigned NUMA node using the settings BaseProcessorNumber and MaxProcessors.
 
-<a id="findings"></a>
 ## Findings
 
 Following graph captures how IIS performance (Number of requests processed per second) changes with increase in CPU cores.
@@ -264,14 +246,12 @@ A similar trend was noticed after increasing number of cores from 40 to 80. Host
 
 [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image8.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image7.png)
 
-<a id="impact-of-hyperthreading"></a>
 ### Impact of Hyperthreading
 
 After enabling Hyperthreading, Hosting configuration processed 18% more requests. Web Garden configuration processed 4% less requests while default configuration processed 3% more requests. Typically HT can result in up to 20% better performance. Hosting configuration is able to take full advantage of HT.
 
 [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image10.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image9.png)
 
-<a id="summary"></a>
 ## Summary
 
 IIS 8.0 is NUMA hardware aware and is able to scales positively on NUMA hardware unlike previous IIS versions.
@@ -284,45 +264,39 @@ Customers looking to scale their IIS deployments should consider deploying IIS o
 
 More IIS 8.0 characterizations with HyperV Server 2012 deployment on the HP DL980-G7 are being considered and these results will also be shared.
 
-<a id="appendix"></a>
 ## Appendix
 
-<a id="powershell"></a>
 ### PowerShell
 
-<a id="background"></a>
 #### Background
 
-Traditionally, each processor on a multi-socket system access memory and IO thru the same bus. It's becoming more and more common for large scale systems to use NUMA (non-uniform memory access) in order to avoid bus bottlenecks. On this model, different parts of IO and memory are connected to different sockets thus meaning that the performance of IO and memory operations are affected by how close the socket is connected to some parts of memory and IO.
+Traditionally, each processor on a multi-socket system access memory and IO through the same bus. It's becoming more and more common for large scale systems to use NUMA (non-uniform memory access) in order to avoid bus bottlenecks. On this model, different parts of IO and memory are connected to different sockets thus meaning that the performance of IO and memory operations are affected by how close the socket is connected to some parts of memory and IO.
 
 Receive Side Scaling (RSS) enables processing of network receiving by multiple processors.
 
-<a id="configuring-rss-affinity"></a>
 #### Configuring RSS Affinity
 
 Starting with Windows Server 2012, it's possible to configure RSS affinity to a given NUMA node by using PowerShell. The Core Networking team did a great job of providing a set of cmdlets that provide full control over the RSS stack.
 
 More specifically, the NUMA affinity can be configured using the following cmdlet: Set-NetAdapterRSS. This cmdlet takes a few parameters related to the Server's hardware topology. The parameters are: BaseProcessorGroup, BaseProcessorNumber, MaxProcessors and NumaNode.
 
-There are two ways to gather the values of such properties: Manual and thru PowerShell.
+There are two ways to gather the values of such properties: Manual and through PowerShell.
 
 In order to correctly configure the NUMA affinity settings, it's imperative to identify the physical connection of a network adapter to a given NUMA node.
 
-<a id="manually-gathering-the-topology-information"></a>
 ##### Manually gathering the Topology Information
 
 Currently, this process that comprises the following steps:
 
 1. Locate the target Network adapter by using the Control Panel\Network and Internet\Network Connections. The property of interest for the next step &quot;Device Name&quot; as pictured in the below screenshot.  
     [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image12.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image11.png)
-2. Locate the NIC thru Device Manager. For that we use the &quot;Device Name&quot; property gathered in the previous step.  
+2. Locate the NIC through Device Manager. For that we use the &quot;Device Name&quot; property gathered in the previous step.  
     [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image14.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image13.png)
 3. Invoke the properties dialog for the specified NIC. The &quot;General&quot; tab will show the slot, device and function numbers for a given NIC.  
     ![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image15.png)
 4. With the bus information on hand, it's possible to identify in which NUMA node the NIC is connected to by correlating this information to the hardware topology diagram as provided in the &quot;[Hardware Section](#hp-platform)&quot; above.
 
-<a id="gathering-hardware-topology-thru-powershell"></a>
-##### Gathering Hardware Topology thru PowerShell
+##### Gathering Hardware Topology through PowerShell
 
 The hardware topology information that can be used to set the correct RSS affinity values can be obtained by using the Device Management PowerShell Cmdlets sample that is available on TechNet Gallery ([https://gallery.technet.microsoft.com/Device-Management-7fad2388](https://gallery.technet.microsoft.com/Device-Management-7fad2388)). This sample provides cmdlets to enumerate, control and manage devices.
 
@@ -336,7 +310,7 @@ The module currently exposes the following cmdlets:
 
 ##### Listing Devices &amp; NUMA Topology Information
 
- Get-Device | Sort-Object -Property Name | ft Name, NumaNode, UINumber -AutoSize 
+ Get-Device | Sort-Object -Property Name | ft Name, NumaNode, UINumber -AutoSize
 
 ##### Logical Processor and NUMA Information
 
@@ -346,27 +320,22 @@ The module currently exposes the following cmdlets:
 
 $hardwareTopology = Get-Numa; $hardwareTopology
 
-<a id="wcat"></a>
 ### WCAT
 
 Web Capacity Analysis Tool (WCAT) is a lightweight HTTP load generation tool primarily designed to measure the performance of a Web server within a controlled environment. WCAT can simulate thousands of concurrent users making requests to a single Web site or to multiple Web sites.
 
 It can be found at [https://www.iis.net/downloads/community/2007/05/wcat-63-(x86)](https://www.iis.net/downloads/community/2007/05/wcat-63-x86)
 
-<a id="about"></a>
 ### About
 
-<a id="iis-product-group"></a>
 #### IIS Product Group
 
 The IIS team at **Microsoft** is responsible for shipping IIS server as part of Windows Server. This team also releases and maintains various related products found @ [https://www.iis.net/downloads](https://www.iis.net/downloads).
 
-<a id="hewlett-packard-hp"></a>
 #### Hewlett-Packard (HP)
 
 **Hewlett-Packard Company** (**HP**) an American multinational information technology corporation headquartered in Palo Alto, California, United States. It provides products, technologies, software, solutions and services to consumers, small- and medium-sized businesses and large enterprises, including customers in the government, health and education sectors. HP is the world's leading company in Microsoft Windows revenue and units worldwide (IDC Worldwide Quarterly Server Tracker for 2Q12, August 2012). Within its HP Business Critical Server division, the Mission Critical Windows Engineering lab has over a decade of joint engineering to deliver robust Microsoft Windows and SQL Server solutions. With this IIS scaling project, the team has worked closely with the Microsoft IIS team to ensure optimum scalability and performance.
 
-<a id="eec"></a>
 #### EEC
 
 Microsoft's Enterprise Engineering Center (EEC) owes its existence to a simple idea: To provide Microsoft Customers with the greatest in validation and collaboration laboratory.

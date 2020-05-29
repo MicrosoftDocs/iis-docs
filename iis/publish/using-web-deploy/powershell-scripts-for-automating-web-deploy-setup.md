@@ -1,24 +1,15 @@
 ---
-title: "PowerShell scripts for automating Web Deploy setup | Microsoft Docs"
+title: "PowerShell scripts for automating Web Deploy setup"
 author: krolson
 description: "Description: The v2.1 release of Web Deploy installs several PowerShell scripts that make it easy to configure your IIS server so that users can publish to i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/12/2011
-ms.topic: article
 ms.assetid: 2df260cf-dcde-46f3-abda-5d976b592b32
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/powershell-scripts-for-automating-web-deploy-setup
 msc.type: authoredcontent
 ---
-PowerShell scripts for automating Web Deploy setup
-====================
+# PowerShell scripts for automating Web Deploy setup
+
 by [Kristina Olson](https://github.com/krolson)
-
-## PowerShell scripts for automating Web Deploy setup
-
-#### Description:
 
 The v2.1 release of Web Deploy installs several PowerShell scripts that make it easy to configure your IIS server so that users can publish to it by using Web Deploy. This page shows you how to use these scripts to create a default publishing site, enable publishing for a new or existing site and user, create publishing SQL or MySQL databases, or to set up delegation rules – all using PowerShell.
 
@@ -29,42 +20,44 @@ The scripts that you will use are:
 - CreateMySqlDatabase.ps1
 - AddDelegationRules.ps1
 
-#### Requirements:
+## Requirements
 
 - The server must have an operating system that comes with IIS7—this means either Windows Server 2008 or Windows Server 2008 R2. You must be an administrator on the machine.
-- In the [Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=145510), search for "hosting" and install either the "Recommended Server Configuration for Hosting Providers" product bundle or "Web Deployment Tool 2.1 for Hosting Servers." Alternatively, make sure the following conditions are met: 
+- In the [Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=145510), search for "hosting" and install either the "Recommended Server Configuration for Hosting Providers" product bundle or "Web Deployment Tool 2.1 for Hosting Servers." Alternatively, make sure the following conditions are met:
 
-    - PowerShell2 must be installed (this is built into Windows Server 2008 R2; for Windows Server 2008, you can get PowerShell2 as an update from here: [https://support.microsoft.com/kb/968930](https://support.microsoft.com/kb/968930). A restart may be required.
-    - The Web Server (IIS) role must be enabled in Server Manager.
-    - The Web Management Service role service of IIS ("Management Service") must be enabled in Server Manager
-    - To use the PowerShell database scripts, the server must have access to a SQL or MySQL database. SQL Server Management Objects must also be installed for SQL.
-    - Web Deploy must be installed with the Management Service Integration component. (For this option to appear in the Web Deploy installer, the Web Management Service must be enabled first.)
+  - PowerShell2 must be installed (this is built into Windows Server 2008 R2; for Windows Server 2008, you can get PowerShell2 as an update from here: <https://support.microsoft.com/kb/968930>. A restart may be required.
+  - The Web Server (IIS) role must be enabled in Server Manager.
+  - The Web Management Service role service of IIS ("Management Service") must be enabled in Server Manager
+  - To use the PowerShell database scripts, the server must have access to a SQL or MySQL database. SQL Server Management Objects must also be installed for SQL.
+  - Web Deploy must be installed with the Management Service Integration component. (For this option to appear in the Web Deploy installer, the Web Management Service must be enabled first.)
 
-#### General PowerShell instructions:
+## General PowerShell instructions
 
-1. Launch a PowerShell command window 
+1. Launch a PowerShell command window.
 
-    1. Click on the PowerShell icon in the task bar or click **Start**, type **PowerShell**, and select **Windows PowerShell**. [![](powershell-scripts-for-automating-web-deploy-setup/_static/image2.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image1.png) (The blue icon)
-2. Make sure your execution policy allows for running scripts 
+    Click on the PowerShell icon in the task bar or click **Start**, type **PowerShell**, and select **Windows PowerShell**.  
+    ![](powershell-scripts-for-automating-web-deploy-setup/_static/image1.png)  
+    (The blue icon)
+2. Make sure your execution policy allows for running scripts.
 
     1. Type "Get-ExecutionPolicy". If it is Restricted (the default) you must reset to a more permissive setting such as by typing "Set-ExecutionPolicy AllSigned". The AllSigned setting will allow running signed scripts, but prompt you in case they are not trusted
 
-    1. For more information on execution policy settings see [Using the Set-ExecutionPolicy Cmdlet](https://technet.microsoft.com/en-us/library/ee176961.aspx).
-3. Change to the Web Deploy scripts directory 
+    2. For more information on execution policy settings see [Using the Set-ExecutionPolicy Cmdlet](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee176961(v=technet.10)).
+3. Change to the Web Deploy scripts directory.
 
     1. Type `cd '%programfiles%\IIS\Microsoft Web Deploy v2\Scripts'` (but replace `%programfiles%` with the actual path, such as `C:\Program Files`).
 
-#### Use the SetupSiteForPublish script to create a default publishing web site (no databases):
+## Use the SetupSiteForPublish script to create a default publishing web site (no databases)
 
 Run the SetupSiteForPublish.ps1 script with no arguments:
 
-[![](powershell-scripts-for-automating-web-deploy-setup/_static/image4.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image3.png)
+![](powershell-scripts-for-automating-web-deploy-setup/_static/image3.png)
 
 What this does:
 
 The script creates a user and site for non-admin publishing and saves the publish profile information in a file on the desktop. More specifically, it creates a site called WDeploySite with physical site root at `%systemdrive%\inetpub\WDeploySite`. The site will have a matching application pool, WDeployAppPool, and will be assigned to port 8080 by default (or the next available port if another site is using 8080). The script also creates a non-administrator local Windows user called WDeploySiteuser and grants that user Full Control ACLs on the WDeploySite folder and IIS Manager Permissions to the site. The settings information is saved to the desktop in a file called WDeploy.PublishSettings - this file may be consumed by WebMatrix (or potentially Visual Studio) for publishing to the site. This profile does NOT contain any database publishing information at this point.
 
-#### Enable Web Deploy Publishing for any Site and User using the SetupSiteForPublish script:
+## Enable Web Deploy Publishing for any Site and User using the SetupSiteForPublish script:
 
 **Script**: SetupSiteForPublish.ps1
 
@@ -90,22 +83,21 @@ Enable publishing for an existing user on an existing site (the password will no
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample1.cmd)]
 
-[![](powershell-scripts-for-automating-web-deploy-setup/_static/image6.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image5.png)
+![](powershell-scripts-for-automating-web-deploy-setup/_static/image5.png)
 
 Enable publishing for a new user on a new site, with a custom name and location for the publish settings file:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample2.cmd)]
 
-[[![](powershell-scripts-for-automating-web-deploy-setup/_static/image9.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image8.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image7.png)
+![](powershell-scripts-for-automating-web-deploy-setup/_static/image7.png)
 
 The PublishSettings file also contains the new user password. Notice that the connection string fields are empty - they can be filled by hand or you can add this to the profile using the database generation scripts:
 
 [!code-xml[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample3.xml)]
 
-#### Create a SQL database for a publishing account using the CreateSqlDatabase script:
+## Create a SQL database for a publishing account using the CreateSqlDatabase script
 
 **Script**: CreateSqlDatabase.ps1
-
 
 **Description**: Creates a database, a login, a database user that has db\_owner permissions to the database, and saves the corresponding connection string information in a settings file.
 
@@ -132,15 +124,15 @@ Create a database with user using the defaults (local SQLExpress database):
 
 .\CreateSqlDatabase.ps1
 
-[![](powershell-scripts-for-automating-web-deploy-setup/_static/image12.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image11.png)
+![](powershell-scripts-for-automating-web-deploy-setup/_static/image11.png)
 
 Create a new database and add the connection string information to existing publish settings file `c:\profiles\UserA.PublishSettings`:
 
 [!code-powershell[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample4.ps1)]
 
-[[![](powershell-scripts-for-automating-web-deploy-setup/_static/image15.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image14.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image13.png)
+![](powershell-scripts-for-automating-web-deploy-setup/_static/image13.png)
 
-#### Create a MySQL database for a publishing account using the CreateMySqlDatabase script:
+## Create a MySQL database for a publishing account using the CreateMySqlDatabase script
 
 **Script**: CreateMySqlDatabase.ps1
 
@@ -157,7 +149,7 @@ Create a new database and add the connection string information to existing publ
 | databaseAdminPassword | Password for the server administrator account. | REQUIRED | You will be prompted for a value for this parameter if you do not provide one. |
 | serverHostName | Location of the MySQL server | localhost | \*see note below table |
 
-General
+**General**:
 
 | publishSettingSavePath | An existing directory where the settings file will be saved. | Current user's desktop | Must be an existing directory. If the directory specified does not exist, an error will result. |
 | --- | --- | --- | --- |
@@ -179,15 +171,15 @@ Create a database with user using the defaults:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample7.cmd)]
 
-[[![](powershell-scripts-for-automating-web-deploy-setup/_static/image18.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image17.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
+![](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
 
 Create a new database and add the connection string information to existing publish settings file `c:\profiles\UserA.PublishSettings`:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample8.cmd)]
 
-[[![](powershell-scripts-for-automating-web-deploy-setup/_static/image21.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image20.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image19.png)
+![](powershell-scripts-for-automating-web-deploy-setup/_static/image19.png)
 
-#### Set up Delegation Rules for the server using the AddDelegationRules script:
+## Set up Delegation Rules for the server using the AddDelegationRules script
 
 **Script**: AddDelegationRules.ps1
 
@@ -201,4 +193,4 @@ Create a new database and add the connection string information to existing publ
 | elevatedPassword | Automatically generated if not specified. | [autogenerated] |  |
 | adminUsername | Name for an Administrator user account that will be used as the run-as user on the recycleApp rule. | WDeployAdmin | Creates only a local Windows user and will not work if shared configuration is enabled. The password for this user account will be reset if script is run a second time. |
 | adminPassword | Automatically generated if not specified | [autogenerated] |  |
-| ignorePasswordResetErrors | Switch. If elevated/adminUsername references an existing account, this switch allows the script to reset the password for the account. | [omitted - resetting user passwords not allowed] | Resetting a user password can result in the user losing access to data. This switch should be used with caution. For more information, see [https://windows.microsoft.com/en-US/windows-vista/What-are-the-risks-of-resetting-a-password](https://windows.microsoft.com/en-US/windows-vista/What-are-the-risks-of-resetting-a-password)*.* Note also that the new user password is not stored and cannot be retrieved later. |
+| ignorePasswordResetErrors | Switch. If elevated/adminUsername references an existing account, this switch allows the script to reset the password for the account. | [omitted - resetting user passwords not allowed] | Resetting a user password can result in the user losing access to data. This switch should be used with caution. For more information, see <https://windows.microsoft.com/windows-vista/What-are-the-risks-of-resetting-a-password>. Note also that the new user password is not stored and cannot be retrieved later. |

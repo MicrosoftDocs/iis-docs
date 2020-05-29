@@ -1,19 +1,14 @@
 ---
-title: "Recycling Settings for an Application Pool &lt;recycling&gt; | Microsoft Docs"
+title: "Recycling Settings for an Application Pool &lt;recycling&gt;"
 author: rick-anderson
 description: "Overview The &lt;recycling&gt; element contains configuration settings that control the conditions that trigger IIS 7 to restart an application pool. You can..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d57b12b1-5930-4e83-b799-073e3cb88f3b
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling
 msc.type: config
 ---
-Recycling Settings for an Application Pool &lt;recycling&gt;
-====================
+# Recycling Settings for an Application Pool &lt;recycling&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -116,7 +111,7 @@ You can also use the following syntax:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

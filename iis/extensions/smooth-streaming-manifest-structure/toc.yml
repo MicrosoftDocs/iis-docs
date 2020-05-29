@@ -1,0 +1,89 @@
+- name: IIS Smooth Streaming Manifest Structure
+  href: iis-smooth-streaming-manifest-structure.md
+  items:
+  - name: IIS Smooth Streaming Server Manifest (On-Demand)
+    href: iis-smooth-streaming-server-manifest-on-demand.md
+    items:
+    - name: IIS Smooth Streaming On-Demand Server Manifest Format
+      href: iis-smooth-streaming-on-demand-server-manifest-format.md
+      items:
+      - name: IIS Smooth Streaming Server Manifest (On-Demand) - smil Element
+        href: iis-smooth-streaming-server-manifest-on-demand-smil-element.md
+        items:
+        - name: IIS Smooth Streaming Server Manifest (On-Demand) - head Element
+          href: iis-smooth-streaming-server-manifest-on-demand-head-element.md
+          items:
+          - name: IIS Smooth Streaming Server Manifest (On-Demand) - meta Element
+            href: iis-smooth-streaming-server-manifest-on-demand-meta-element.md
+        - name: IIS Smooth Streaming Server Manifest (On-Demand) - body Element
+          href: iis-smooth-streaming-server-manifest-on-demand-body-element.md
+          items:
+          - name: IIS Smooth Streaming Server Manifest (On-Demand) - switch Element
+            href: iis-smooth-streaming-server-manifest-on-demand-switch-element.md
+            items:
+            - name: IIS Smooth Streaming Server Manifest (On-Demand) - video Element
+              href: iis-smooth-streaming-server-manifest-on-demand-video-element.md
+              items:
+              - name: IIS Smooth Streaming Server Manifest (On-Demand) - video param Element
+                href: iis-smooth-streaming-server-manifest-on-demand-video-param-element.md
+            - name: IIS Smooth Streaming Server Manifest (On-Demand) - audio Element
+              href: iis-smooth-streaming-server-manifest-on-demand-audio-element.md
+              items:
+              - name: IIS Smooth Streaming Server Manifest (On-Demand) - audio param Element
+                href: iis-smooth-streaming-server-manifest-on-demand-audio-param-element.md
+            - name: IIS Smooth Streaming Server Manifest (On-Demand) - textstream Element
+              href: iis-smooth-streaming-server-manifest-on-demand-textstream-element.md
+              items:
+              - name: IIS Smooth Streaming Server Manifest (On-Demand) - textstream param Element
+                href: iis-smooth-streaming-server-manifest-on-demand-textstream-param-element.md
+  - name: IIS Smooth Streaming Server Manifest (Live)
+    href: iis-smooth-streaming-server-manifest-live.md
+    items:
+    - name: IIS Smooth Streaming Live Server Manifest Format
+      href: iis-smooth-streaming-live-server-manifest-format.md
+      items:
+      - name: IIS Smooth Streaming Server Manifest (Live) - smil Element
+        href: iis-smooth-streaming-server-manifest-live-smil-element.md
+        items:
+        - name: IIS Smooth Streaming Server Manifest (Live) - head Element
+          href: iis-smooth-streaming-server-manifest-live-head-element.md
+          items:
+          - name: IIS Smooth Streaming Server Manifest (Live) - meta Element
+            href: iis-smooth-streaming-server-manifest-live-meta-element.md
+        - name: IIS Smooth Streaming Server Manifest (Live) - body Element
+          href: iis-smooth-streaming-server-manifest-live-body-element.md
+          items:
+          - name: IIS Smooth Streaming Server Manifest (Live) - switch Element
+            href: iis-smooth-streaming-server-manifest-live-switch-element.md
+            items:
+            - name: IIS Smooth Streaming Server Manifest (Live) - video Element
+              href: iis-smooth-streaming-server-manifest-live-video-element.md
+              items:
+              - name: IIS Smooth Streaming Server Manifest (Live) - video param Element
+                href: iis-smooth-streaming-server-manifest-live-video-param-element.md
+            - name: IIS Smooth Streaming Server Manifest (Live) - audio Element
+              href: iis-smooth-streaming-server-manifest-live-audio-element.md
+              items:
+              - name: IIS Smooth Streaming Server Manifest (Live) - audio param Element
+                href: iis-smooth-streaming-server-manifest-live-audio-param-element.md
+            - name: IIS Smooth Streaming Server Manifest (Live) - textstream Element
+              href: iis-smooth-streaming-server-manifest-live-textstream-element.md
+              items:
+              - name: IIS Smooth Streaming Server Manifest (Live) - textstream param Element
+                href: iis-smooth-streaming-server-manifest-live-textstream-param-element.md
+  - name: IIS Smooth Streaming Client Manifest
+    href: iis-smooth-streaming-client-manifest.md
+    items:
+    - name: IIS Smooth Streaming Client Manifest Format
+      href: iis-smooth-streaming-client-manifest-format.md
+      items:
+      - name: IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element
+        href: iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md
+        items:
+        - name: IIS Smooth Streaming Client Manifest - StreamIndex Element
+          href: iis-smooth-streaming-client-manifest-streamindex-element.md
+        - name: IIS Smooth Streaming Client Manifest - Protection Element
+          href: iis-smooth-streaming-client-manifest-protection-element.md
+          items:
+          - name: IIS Smooth Streaming Client Manifest - ProtectionHeader Element
+            href: iis-smooth-streaming-client-manifest-protectionheader-element.md

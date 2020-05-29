@@ -1,19 +1,14 @@
 ---
-title: "Log &lt;log&gt; | Microsoft Docs"
+title: "Log &lt;log&gt;"
 author: rick-anderson
 description: "Overview The &lt;log&gt; element specifies several global logging options for Internet Information Services (IIS) 7. For example, the centralLogFileMode attr..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0e0cdf39-8046-44fb-980c-cbb81816eaf8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/log
 msc.type: config
 ---
-Log &lt;log&gt;
-====================
+# Log &lt;log&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -22,7 +17,7 @@ The `<log>` element specifies several global logging options for Internet Inform
 Site-level logging creates individual log file directories for each site on your server, where each folder contains only the log files for that site. Central logging enables the use of a single log file for all sites for the time period specified by the **period** attribute for the `<centralBinaryLogFile>` or `<centralW3CLogFile>` element. The time period can be daily, weekly, monthly, hourly, or a maximum file size.
 
 > [!NOTE]
-> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility.
+> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility.
 
 <a id="002"></a>
 ## Compatibility
@@ -137,7 +132,7 @@ The following code samples specify that IIS will use central binary logging, and
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample5.cs)]
 
@@ -162,7 +157,7 @@ The following code samples specify that IIS will use central W3C logging, and co
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample10.cs)]
 

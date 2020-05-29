@@ -1,19 +1,14 @@
 ---
-title: "SQL Server 2005 | Microsoft Docs"
+title: "SQL Server 2005"
 author: walterov
 description: "SQL Server 2005 is an ideal database platform for use in shared and dedicated Web hosting environments. Of the various SQL Server editions, only SQL Server E..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/28/2008
-ms.topic: article
 ms.assetid: 8e020e8d-3e2f-421e-b343-e28c82287eb9
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/sql-server-2005
 msc.type: authoredcontent
 ---
-SQL Server 2005
-====================
+# SQL Server 2005
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

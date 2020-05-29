@@ -1,19 +1,14 @@
 ---
-title: "Advanced Logging for IIS - Client Logging | Microsoft Docs"
+title: "Advanced Logging for IIS - Client Logging"
 author: rick-anderson
 description: "IIS Advanced Logging can accept information about client-consumption of media and other content. Clients (for example, Microsoft Silverlight) can send useful..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/19/2009
-ms.topic: article
 ms.assetid: 39459850-55e5-4abd-94ea-c01507907f6f
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-client-logging
 msc.type: authoredcontent
 ---
-Advanced Logging for IIS - Client Logging
-====================
+# Advanced Logging for IIS - Client Logging
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 IIS Advanced Logging can accept information about client-consumption of media and other content. Clients (for example, Microsoft Silverlight) can send useful data about their interaction with media content. This information forms the basis of analytic reporting, which can help businesses improve their content placement and return on investment (ROI).
@@ -67,7 +62,6 @@ Clients read the **LogUrl** element in a client-side manifest to determine the U
 
 The syntax for adding LogUrls to the manifest is:
 
-
 [!code-xml[Main](advanced-logging-for-iis-client-logging/samples/sample1.xml)]
 
 <a id="parameters"></a>
@@ -79,9 +73,7 @@ The Log URL can also be set using the PARAM tag **initparams** while instantiati
 > [!NOTE]
 > The values for the LogUrls in the initparams must be complete HTTP URLs. Use of relative URLs isn't permitted.
 
-
 [!code-html[Main](advanced-logging-for-iis-client-logging/samples/sample2.html)]
-
 
 ### Configuring the Log Definition
 
@@ -89,9 +81,7 @@ For IIS Advanced Logging to take advantage of client logging capabilities, relat
 
 The script syntax is:
 
-
 [!code-console[Main](advanced-logging-for-iis-client-logging/samples/sample3.cmd)]
-
 
 where fields.xml is the XML file included in the zipped folder and baseFileName is the name you want to give to your log definition. If you don't specify a baseFileName, IIS Advanced Logging will use the default log definition name: %COMPUTERNAME%-Client.
 

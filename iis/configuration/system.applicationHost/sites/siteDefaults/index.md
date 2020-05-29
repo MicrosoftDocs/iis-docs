@@ -1,19 +1,14 @@
 ---
-title: "Default Settings for All Sites &lt;siteDefaults&gt; | Microsoft Docs"
+title: "Default Settings for All Sites &lt;siteDefaults&gt;"
 author: rick-anderson
 description: "Overview The &lt;siteDefaults&gt; element specifies default settings for all sites on the server. These settings are useful when you want to specify options..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: bc1dce1f-21a6-4a6c-a518-35fb7fde1f28
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults
 msc.type: config
 ---
-Default Settings for All Sites &lt;siteDefaults&gt;
-====================
+# Default Settings for All Sites &lt;siteDefaults&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -106,7 +101,7 @@ The following code samples configure the default `limits`, `logFile`, `traceFail
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Failure Definitions &lt;failureDefinitions&gt; | Microsoft Docs"
+title: "Failure Definitions &lt;failureDefinitions&gt;"
 author: rick-anderson
 description: "Overview The &lt;failureDefinitions&gt; element defines the conditions in which to trace requests. A failure condition consists of status codes, a time inter..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ca56cf8d-2a45-4341-a2a4-27df8d6b97bc
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add/failuredefinitions
 msc.type: config
 ---
-Failure Definitions &lt;failureDefinitions&gt;
-====================
+# Failure Definitions &lt;failureDefinitions&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -56,7 +51,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
     [![](failureDefinitions/_static/image4.png)](failureDefinitions/_static/image3.png)- Click **OK**.
-- Click **Close**.
+4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
@@ -167,7 +162,7 @@ The following examples enable verbose failed request tracing for HTTP 500 errors
 
 [!code-console[Main](failureDefinitions/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](failureDefinitions/samples/sample3.cs)]
 

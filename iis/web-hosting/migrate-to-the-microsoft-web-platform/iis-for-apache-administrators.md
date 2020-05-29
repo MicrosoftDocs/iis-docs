@@ -1,25 +1,19 @@
 ---
-title: "IIS 7 for Apache Administrators | Microsoft Docs"
+title: "IIS 7 for Apache Administrators"
 author: rick-anderson
 description: "Apache Hypertext Transfer Protocol (HTTP) Server and Internet Information Services are two of the world’s most popular Web servers. This article provides tec..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 5a877ba4-8cb1-43cb-bc3a-0fe3f401b082
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/iis-for-apache-administrators
 msc.type: authoredcontent
 ---
-IIS 7 for Apache Administrators
-====================
+# IIS 7 for Apache Administrators
+
 by Tali Smith
 
 ## Introduction
 
 Apache Hypertext Transfer Protocol (HTTP) Server and Internet Information Services are two of the world's most popular Web servers. This article provides technical information about IIS for users who are familiar with Apache. The article compares the architecture, security model, and management features of IIS 7 (and above) with those of Apache, and it also compares common IIS and Apache management scenarios and tools.
-
 
 ## Compare Features
 
@@ -263,13 +257,13 @@ The Apache HTTP Server provides comprehensive and flexible logging capabilities:
 
 - **Error logs.** The server error log, whose name and location is set by the ErrorLog directive, is the most important log file. This is where Apache Httpd sends diagnostic information and records any errors that it encounters in processing requests. It is the first place to look when a problem occurs with starting or operating the server, since it often contains details of what went wrong and how to fix it.   
   
- A wide variety of different messages can appear in the error log. The error log also contains debugging output from CGI scripts. Any information written to stderr by a CGI script is copied directly to the error log.  
+   A wide variety of different messages can appear in the error log. The error log also contains debugging output from CGI scripts. Any information written to stderr by a CGI script is copied directly to the error log.  
   
- Customizing the error log by adding or removing information is not possible. However, error log entries dealing with particular requests have corresponding entries in the access log. Customizing the access log to provide more information is also possible.
+   Customizing the error log by adding or removing information is not possible. However, error log entries dealing with particular requests have corresponding entries in the access log. Customizing the access log to provide more information is also possible.
 
 - **Access logs.** In Apache, the server access log records all requests processed by the server. The CustomLog directive controls the location and content of the access log. The LogFormat directive can be used to simplify the selection of the contents of the logs. Various versions of Apache Httpd use different modules and directives to control access logging, including mod\_log\_config, mod\_log\_referer, mod\_log\_agent, and the `TransferLog` directive.
 - **Script logs.** To aid in debugging, the ScriptLog directive allows you to record the input to and output from CGI scripts. This should only be used during testing and not for live servers.
-- **Rewrite log****s.** When using the powerful and complex features of mod\_rewrite, it is almost always necessary to use the RewriteLog to help in debugging. This log file produces a detailed analysis of how the rewriting engine transforms requests. The RewriteLogLevel directive controls the level of detail.
+- **Rewrite logs.** When using the powerful and complex features of mod\_rewrite, it is almost always necessary to use the RewriteLog to help in debugging. This log file produces a detailed analysis of how the rewriting engine transforms requests. The RewriteLogLevel directive controls the level of detail.
 
 ### IIS 7 and Above
 
@@ -308,13 +302,11 @@ Request Filtering is integrated into IIS. Details and a complete options set for
 
 Dynamic IP Restrictions for IIS is a module that provides protection against denial-of-service and brute-force attacks on Web servers and Web sites. Such protection is provided by temporarily blocking IP addresses of the HTTP clients that make unusually high number of concurrent requests or that make large number of requests over a short period of time. Detailed instructions on the installation and use of this module can be found [here](../../manage/configuring-security/using-dynamic-ip-restrictions.md).
 
-
 > [!NOTE]
 > *This article is based on the white paper*[IIS 7.0 for Apache Administrators](https://download.microsoft.com/download/2/D/8/2D863347-3AFF-48A6-9FCF-EC6554C18DCF/IIS_7_for_Apache.doc)*.*
 
-
 ## Links for Further Information
 
-- [My Take: IIS vs. Apache](https://blogs.iis.net/bills/archive/2007/05/07/iis-vs-apache.aspx).
-- [Benefits of Running IIS7 Over IIS6 Or Apache](http://ezinearticles.com/?Benefits-of-Running-IIS7-Over-IIS6-Or-Apache&amp;id=2131887).
-- See: http://secunia.com/advisories/product/1438/?task=statistics.
+- [My Take: IIS vs. Apache](https://blogs.iis.net/bills/archive/2007/05/07/iis-vs-apache.aspx)
+- [Benefits of Running IIS7 Over IIS6 Or Apache](http://ezinearticles.com/?Benefits-of-Running-IIS7-Over-IIS6-Or-Apache&amp;id=2131887)
+- See: <http://secunia.com/advisories/product/1438/?task=statistics>

@@ -1,19 +1,14 @@
 ---
-title: "Adding HTTP Headers for Filtering Rules &lt;add&gt; | Microsoft Docs"
+title: "Adding HTTP Headers for Filtering Rules &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;scanHeaders&gt; element adds a unique HTTP header to the collection of HTTP headers that a request filtering rule..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dab9918a-5b9a-457b-a517-8d9c5a2dfadf
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/add
 msc.type: config
 ---
-Adding HTTP Headers for Filtering Rules &lt;add&gt;
-====================
+# Adding HTTP Headers for Filtering Rules &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -141,7 +136,11 @@ The following examples demonstrate how to use the `<denyStrings>`, `<appliesTo>`
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

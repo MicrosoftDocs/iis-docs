@@ -1,12 +1,13 @@
 ---
-title: "Default HSTS settings for a Web Site &lt;hsts&gt; | Microsoft Docs"
+title: "Default HSTS settings for a Web Site &lt;hsts&gt;"
 author: bangbingsyb
 description: "Overview The &lt;hsts&gt; element of the &lt;siteDefaults&gt; element configures HSTS settings for a website"
-ms.author: bangbingsyb
+ms.author: yashi
+ms.date: 04/16/2019
 msc.type: config
 ---
-Default HSTS Settings for a Web Site &lt;hsts&gt;
-====================
+# Default HSTS Settings for a Web Site &lt;hsts&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -72,7 +73,7 @@ The following code samples configure the default `<hsts>` options for IIS 10.0 v
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the applicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](hsts/samples/sample3.cs)]
 

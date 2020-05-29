@@ -1,19 +1,14 @@
 ---
-title: "Configuration Paths &lt;configPaths&gt; | Microsoft Docs"
+title: "Configuration Paths &lt;configPaths&gt;"
 author: rick-anderson
 description: "Overview The &lt;configPaths&gt; element lists the locations where a configuration setting is set across the Internet Information Services (IIS) 7 distribute..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 68879fd3-9da5-4f4b-b905-09626583a143
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/configpaths
 msc.type: config
 ---
-Configuration Paths &lt;configPaths&gt;
-====================
+# Configuration Paths &lt;configPaths&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -24,7 +19,11 @@ The `<configPaths>` element contains a collection of `<searchResult>` elements t
 - The **path** attribute of each `<searchResult>` element specifies the absolute virtual path of the configuration file for the search result. - The **locationPath** attribute of each `<searchResult>` element specifies the relative path for the `<location>` tag inside the configuration file that is specified by the **path** attribute.  
   
     > [!NOTE]
-    > If the     `<searchResult>` element points to a .config file, the     **locationPath** attribute for the     `<searchResult>` element will contain an empty string. - The **status** attribute of each `<searchResult>` element contains an HRESULT code for the search result. - Each `<searchResult>` element contains a collection of `<section>` elements that contain the name of each element in the search results.
+    > If the `<searchResult>` element points to a .config file, the **locationPath** attribute for the `<searchResult>` element will contain an empty string. 
+
+- The **status** attribute of each `<searchResult>` element contains an HRESULT code for the search result. 
+
+- Each `<searchResult>` element contains a collection of `<section>` elements that contain the name of each element in the search results.
 
 > [!NOTE]
 > The `<configPaths>` element and its child elements are read-only and cannot be configured by an end user.
@@ -79,7 +78,7 @@ The following code examples use the `<configPaths>` element to search the Defaul
 > [!NOTE]
 > You cannot query `<configPaths>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample1.cs)]
 

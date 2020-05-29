@@ -1,19 +1,14 @@
 ---
-title: "Synchronize IIS | Microsoft Docs"
+title: "Synchronize IIS"
 author: rick-anderson
 description: "This quick guide will guide you through the process of using the Web Deployment Tool to synchronize a Web site on an IIS source computer to an IIS destinatio..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/07/2008
-ms.topic: article
 ms.assetid: 1c4381ba-9a99-4a0c-8f4f-6bd2a68efe4f
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/synchronize-iis
 msc.type: authoredcontent
 ---
-Synchronize IIS
-====================
+# Synchronize IIS
+
 by Faith A
 
 This quick guide will guide you through the process of using the Web Deployment Tool to synchronize a Web site on an IIS source computer to an IIS destination computer. You can do this by "pushing" data to a remote destination, or by "pulling" data from a remote source. This guide will show both methods, as well as an option to use a package file so that you do not have to install the Web Deployment Agent Service (MsDepSvc, or "remote agent service".)

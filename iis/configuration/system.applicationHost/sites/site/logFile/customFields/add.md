@@ -1,19 +1,14 @@
 ---
-title: "Adding Custom Fields to a Log File for a Site &lt;add&gt; | Microsoft Docs"
+title: "Adding Custom Fields to a Log File for a Site &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element under the &lt;customField&gt; element controls the configuration settings for a custom field for a W3C log for a site. IIS 8..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 9c456e85-12a4-4fca-83e9-a7fcbb78b353
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/logfile/customfields/add
 msc.type: config
 ---
-Adding Custom Fields to a Log File for a Site &lt;add&gt;
-====================
+# Adding Custom Fields to a Log File for a Site &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -125,7 +120,7 @@ The following examples configure custom fields for a W3C log for a site.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Develop a Native C\\C++ Module for IIS 7.0 | Microsoft Docs"
+title: "Develop a Native C\\C++ Module for IIS 7.0"
 author: leanserver
 description: "IIS 7.0 and above allows for extending the server by modules which are developed in two ways: Using managed code, and the ASP.NET server extensibility APIs U..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/24/2007
-ms.topic: article
 ms.assetid: 2cb45a9a-a111-4055-989f-25a19a668a00
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/develop-a-native-cc-module-for-iis
 msc.type: authoredcontent
 ---
-Develop a Native C\C++ Module for IIS 7.0
-====================
+# Develop a Native C\C++ Module for IIS 7.0
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
@@ -56,13 +51,11 @@ Your native module has the following life cycle:
     a. Create the module factory.   
     b. Register the module factory for the request pipeline events your module implements.
 
-
 2. When a request arrives, the server:
 
     a. Creates an instance of your module class using the factory you provided.   
     b. Calls the appropriate event handler method on the module instance for each of the request events you registered for.   
     c. Disposes the instance of the module at the end of request processing.
-
 
 Now, to build it.
 
@@ -73,7 +66,6 @@ Implement the **RegisterModule** function that the server invokes when the modul
 **main.cpp**:
 
 [!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample1.cmd)]
-
 
 ### The RegisterModule
 
@@ -93,15 +85,11 @@ The registration is done through the **SetRequestNotificatons** method, which in
 
 In this case, we are only interested in the RQ\_ACQUIRE\_REQUEST\_STATE stage. The complete list of the stages that comprise the request processing pipeline is defined in **httpserv.h**:
 
-
 [!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample2.cmd)]
-
 
 In addition, you can subscribe to several non-deterministic events that may occur during request processing due to actions that other modules take, such as flushing the response to client:
 
-
 [!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample3.cmd)]
-
 
 In order for our **RegisterModule** implementation to be accessible to the server, we must export it. Use a .DEF file that contains the EXPORTS keyword to export our RegisterModule function.
 
@@ -109,9 +97,7 @@ Next, implement the module factory class:
 
 **mymodulefactory.h:** 
 
-
 [!code-csharp[Main](develop-a-native-cc-module-for-iis/samples/sample4.cs)]
-
 
 The module factory implements the **IHttpModuleFactory** interface, and serves to create instances of the module on each request.
 
@@ -127,17 +113,13 @@ This class is responsible for providing the main functionality of the module dur
 
 **myhttpmodule.h:** 
 
-
 [!code-csharp[Main](develop-a-native-cc-module-for-iis/samples/sample5.cs)]
-
 
 The module class inherits from the **CHttpModule** base class, which defines an event handler method for each of the server events discussed earlier. When the request processing pipeline executes each event, it invokes the associated event handler method on each of the module instances that have registered for that event.
 
 Each event handler method has the following signature:
 
-
 [!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample6.cmd)]
-
 
 The **IHttpContext** interface provides access to the request context object, which can be used to perform request processing tasks such as inspecting the request, and manipulating the response.
 
@@ -174,6 +156,6 @@ The task is complete--we have finished configuring the new native module.
 
 ## Summary
 
-In this walkthrough, you learned how to develop and deploy a custom native module using the new native (C++) extensibility APIs. Please consult the [IIS 7.0 SDK documentation](https://msdn.microsoft.com/en-us/library/ms692515.aspx) to learn more about the native (C++) server APIs.
+In this walkthrough, you learned how to develop and deploy a custom native module using the new native (C++) extensibility APIs. Please consult the [IIS 7.0 SDK documentation](https://msdn.microsoft.com/library/ms692515.aspx) to learn more about the native (C++) server APIs.
 
 To learn about extending IIS using managed code and the .NET framework, see [Developing an IIS module With .NET](developing-a-module-using-net.md). To learn more about managing IIS modules, see the [module overview white paper](../../get-started/introduction-to-iis/iis-modules-overview.md).

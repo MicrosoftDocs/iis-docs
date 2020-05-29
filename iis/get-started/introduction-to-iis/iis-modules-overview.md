@@ -1,29 +1,22 @@
 ---
-title: "IIS Modules Overview | Microsoft Docs"
+title: "IIS Modules Overview"
 author: leanserver
 description: "The IIS 7 and later Web server feature set is componentized into more than thirty independent modules; a module is either a Win32 DLL (native module) or a .N..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 446b9fd5-460a-4c7d-b13b-2964b682fa2d
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/iis-modules-overview
 msc.type: authoredcontent
 ---
-IIS Modules Overview
-====================
+# IIS Modules Overview
+
 by IIS Team, [Mike Volodarsky](https://github.com/leanserver)
 
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 ## Introduction
 
@@ -170,7 +163,6 @@ The IIS Manager provides an easy way to query, add or remove modules.
 
 [![IIS Manager](iis-modules-overview/_static/image2.jpg)](iis-modules-overview/_static/image1.jpg)
 
-
 **Figure 1: IIS Manager**
 
 ### To manage the enabled modules for a particular application
@@ -272,11 +264,9 @@ To display the commands supported on the Module object type the following comman
 
 [!code-console[Main](iis-modules-overview/samples/sample18.cmd)]
 
-
 To display the usage of each command, type the following command:
 
 [!code-console[Main](iis-modules-overview/samples/sample19.cmd)]
-
 
 ## Module Reference
 
@@ -285,7 +275,6 @@ The IIS server is ready for customizing. Read the following list carefully to av
 ### Utility Modules
 
 These modules do not provide request services, but instead assist the server engine with its internal operation.
-
 
 | **Module Name:** | **UriCacheModule** |
 | --- | --- |
@@ -391,7 +380,7 @@ These modules do not provide request services, but instead assist the server eng
 | Description: | Implements ISAPI Extension functionality. |
 | Configuration sections: | system.webServer/isapiCgiRestriction |
 | Dependencies: | None. |
-| Potential issues when removing this module | ISAPI Extensions mapped in the `<handlers>` section (modules=&quot;IsapiModule&quot;) or explicitely called ISAPI Extensions will no longer work. |
+| Potential issues when removing this module | ISAPI Extensions mapped in the `<handlers>` section (modules=&quot;IsapiModule&quot;) or explicitly called ISAPI Extensions will no longer work. |
 | **Module Name:** | **IsapiFilterModule** |
 | Description: | Implements ISAPI filter functionality. |
 | Configuration sections: | system.webServer/isapiFilters |
@@ -408,7 +397,7 @@ These modules do not provide request services, but instead assist the server eng
 | Dependencies: | None. |
 | Potential issues when removing this module | If this module is removed, the rules specified in the requestFiltering section no longer apply. Potential security issues may result. |
 | **Module Name:** | **CustomLoggingModule** |
-| Description: | Implements the ILogPlugin interface on top of IIS. ILogPlugin is a previous COM implmentation that allowed customers to extend IIS logging. We do not not recommend extending IIS using this interface. Instead, customers should write a module and subscribe to the RQ\_LOG\_REQUEST notification. |
+| Description: | Implements the ILogPlugin interface on top of IIS. ILogPlugin is a previous COM implementation that allowed customers to extend IIS logging. We do not recommend extending IIS using this interface. Instead, customers should write a module and subscribe to the RQ\_LOG\_REQUEST notification. |
 | Configuration sections: | system.webServer/httpLogging and system.applicationhost/sites/site/logFile/customLogPluginClsid |
 | Dependencies: | None. |
 | Potential issues when removing this module | A custom log plug-in will no longer be called. For example, ODBC Logging is implemented as ILogPlugin. |
@@ -448,11 +437,7 @@ These modules do not provide request services, but instead assist the server eng
 | Dependencies: | None. |
 | Potential issues when removing this module | Applications that specify legacy ASP.NET configuration for modules and handlers will not generate migration errors; a new application that has not been migrated will function incorrectly. |
 
-
-### 
-
 ### Managed Modules:
-
 
 | **Module Name:** | **OutputCache** |
 | --- | --- |

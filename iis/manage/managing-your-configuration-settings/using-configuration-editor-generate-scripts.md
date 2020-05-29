@@ -1,19 +1,14 @@
 ---
-title: "Using Configuration Editor: Generate Scripts | Microsoft Docs"
+title: "Using Configuration Editor: Generate Scripts"
 author: crystalhoyer
 description: "This walkthrough is aimed to demonstrate how to use Configuration Editor's Generate Script functionality through the example of Application Pool generation...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/20/2008
-ms.topic: article
 ms.assetid: 8582b85c-9622-4e92-a08e-ae6d79faa0ac
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts
 msc.type: authoredcontent
 ---
-Using Configuration Editor: Generate Scripts
-====================
+# Using Configuration Editor: Generate Scripts
+
 by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 ## Walkthrough Goal
@@ -52,8 +47,6 @@ After closing the properties dialog, click on the *Generate Script* link on the 
 [!code-csharp[Main](using-configuration-editor-generate-scripts/samples/sample1.cs)]
 
 ### Scripting: Jscript code to create ‘applicationPool1'
-
-### 
 
 [!code-csharp[Main](using-configuration-editor-generate-scripts/samples/sample2.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Using Web Deploy for Web Farms | Microsoft Docs"
+title: "Using Web Deploy for Web Farms"
 author: rick-anderson
 description: "Web Deploy (Web Deployment Tool) is an IIS Extension that simplifies the migration, management and deployment of IIS Web servers, Web applications and Web si..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/23/2009
-ms.topic: article
 ms.assetid: 7c433163-13d9-4b55-a644-6003588fb05c
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/using-web-deploy-for-web-farms
 msc.type: authoredcontent
 ---
-Using Web Deploy for Web Farms
-====================
+# Using Web Deploy for Web Farms
+
 by Faith A
 
 Web Deploy (Web Deployment Tool) is an IIS Extension that simplifies the migration, management and deployment of IIS Web servers, Web applications and Web sites. Administrators can use the Web Deployment Tool to synchronize both IIS 6.0 and IIS 7.0 and above servers, or to migrate an IIS 6.0 server to IIS 7.0 or above. It also enables administrators and delegated users to use IIS Manager to deploy ASP.NET and PHP applications to an IIS 7.0 or above server.
@@ -21,7 +16,6 @@ Web Deploy (Web Deployment Tool) is an IIS Extension that simplifies the migrati
 The tool can be used to synchronize a web farm, including deploying new applications or just keeping changes synchronized between the web farm servers. The tool does not currently support a central UI or configuration store for a list of servers in a farm (i.e., syncing multiple machines at once), but you can simply store this list of servers and perform sync operations against each server. These can easily be scheduled using System Center or another scheduling mechanism. Resources that can be synchronized include Web sites or applications, content folders and files, databases, registry keys, assemblies in the GAC and more. You can also build custom "providers" that understand other types of resources that are not supported in-the-box.
 
 For specific features available in Application Center and whether they are supported in the Web Deployment Tool (or within IIS itself), please see the comparison table. While there are a limited set of Application Center features that do not have a direct replacement, many of these will be added to future versions of Microsoft products.
-
 
 ## Application Center Comparison Table
 

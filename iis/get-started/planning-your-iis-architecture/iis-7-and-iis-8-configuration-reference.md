@@ -1,19 +1,14 @@
 ---
-title: "IIS 7 and IIS 8 Configuration Reference | Microsoft Docs"
+title: "IIS 7 and IIS 8 Configuration Reference"
 author: tobint
 description: "Note : A detailed configuration reference for IIS is available at http://www.iis.net/configreference . ApplicationHost.config is the root file of the configu..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 6f9104ab-b5e3-4797-ab1e-514db1710fd2
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/iis-7-and-iis-8-configuration-reference
 msc.type: authoredcontent
 ---
-IIS 7 and IIS 8 Configuration Reference
-====================
+# IIS 7 and IIS 8 Configuration Reference
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction to ApplicationHost.config
@@ -35,9 +30,7 @@ As noted earlier, this document contains snippets of schema information for each
 
 The schema for each configuration section is defined in an XML element. There is no schema definition for section groups. The following format is used here to explain how to read the schema:
 
-
 [!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample1.xml)]
-
 
 `<attribute-name>` is the name of the configuration attribute, as it appears in XML. Every attribute must have a name.
 

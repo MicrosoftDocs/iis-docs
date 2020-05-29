@@ -1,20 +1,16 @@
 ---
-title: "Application for a Site &lt;application&gt; | Microsoft Docs"
+title: "Application for a Site &lt;application&gt;"
 author: rick-anderson
 description: "Overview The &lt;application&gt; element controls the configuration settings for a specific application. An application in Internet Information Services (IIS..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7426042c-c8ce-4923-9ae6-46f78a53aa07
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/application
 msc.type: config
 ---
-Application for a Site &lt;application&gt;
-====================
+# Application for a Site &lt;application&gt;
+
 <a id="001"></a>
+
 ## Overview
 
 The `<application>` element controls the configuration settings for a specific application. An application in Internet Information Services (IIS) 7 or later is a grouping of files that delivers content or provides services over protocols, such as HTTP. When you create an application in IIS 7 and later, the application's path becomes part of the site's URL.
@@ -24,6 +20,7 @@ In IIS 7 and later, each site must have at least one application, called the roo
 An application must contain at least one virtual directory, called the root or default virtual directory with configuration settings defined in a `<virtualDirectory>` element.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -36,40 +33,44 @@ An application must contain at least one virtual directory, called the root or d
 | IIS 6.0 | The `<application>` element replaces the IIS 6.0 **IIsWebVirtualDir** and **IIsWebDirectory** metabase objects. |
 
 <a id="003"></a>
+
 ## Setup
 
 The `<application>` element is included in the default installation of IIS 7 and later.
 
 <a id="004"></a>
+
 ## How To
 
 ### How to create a new Web application
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then click the Web site to which you want to add an application.
 3. In the **Actions** pane, click **View Applications**, and then click **Add Application...**  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![](index/_static/image1.png)
 4. In the **Add Application** dialog box, at a minimum enter information in the **Alias:** and **Physical path:** text boxes, and then click **OK**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)  
+    ![](index/_static/image3.png)
+
     > [!NOTE]
-    > You can click     **Select...** to choose a different application pool, click     **Connect as...** to configure the application to accept credentials from a specific account, and click     **Test Settings...** to test authentication and authorization settings for the application.
+    > You can click **Select** to choose a different application pool, click **Connect as** to configure the application to accept credentials from a specific account, and click **Test Settings** to test authentication and authorization settings for the application.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<application>` element is configurable at the server level in the ApplicationHost.config file.
@@ -99,6 +100,7 @@ The following configuration example displays a `<site>` element that contains tw
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples create a new application named ShoppingCart with a virtual directory root of C:\Inetpub\Contoso\ShoppingCart for a site that is named Contoso.
@@ -113,7 +115,7 @@ The following examples create a new application named ShoppingCart with a virtua
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

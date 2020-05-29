@@ -1,19 +1,14 @@
 ---
-title: "Default Limits for Web Sites &lt;limits&gt; | Microsoft Docs"
+title: "Default Limits for Web Sites &lt;limits&gt;"
 author: rick-anderson
 description: "Overview The &lt;limits&gt; element of the &lt;siteDefaults&gt; element configures default settings that limit the amount of bandwidth, the number of connect..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a6f70bd7-6299-4f36-a971-d67121b30cd0
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/limits
 msc.type: config
 ---
-Default Limits for Web Sites &lt;limits&gt;
-====================
+# Default Limits for Web Sites &lt;limits&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -99,7 +94,7 @@ The following code samples configure the default `limits` options for IIS 7 and 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](limits/samples/sample3.cs)]
 

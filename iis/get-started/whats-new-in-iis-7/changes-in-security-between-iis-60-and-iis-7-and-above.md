@@ -1,19 +1,14 @@
 ---
-title: "Changes in Security Between IIS 6.0 and IIS 7 and Above | Microsoft Docs"
+title: "Changes in Security Between IIS 6.0 and IIS 7 and Above"
 author: rick-anderson
 description: "IIS 7 and above bring many new security improvements from IIS 6.0. This document overviews these improvements with respect to Authentication, Authorization,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: ec979d77-5a26-4b9b-9da2-ab445e6bdf73
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above
 msc.type: authoredcontent
 ---
-Changes in Security Between IIS 6.0 and IIS 7 and Above
-====================
+# Changes in Security Between IIS 6.0 and IIS 7 and Above
+
 by IIS Team
 
 ## Introduction
@@ -36,16 +31,12 @@ In IIS 7 and above, Anonymous Authentication behaves in a similar manner as it h
 
 It was very common for ASP.NET applications to turn off impersonation and run under the application pool identity by using the following code in their web.config files:
 
-
 [!code-xml[Main](changes-in-security-between-iis-60-and-iis-7-and-above/samples/sample1.xml)]
-
 
 There are several scenarios where applications would need to run under the context of the process identity:
 
-
 - The process identity is a low privilege account and administrators have locked down their systems for that account
 - The process identity has been granted network access and is used to access back end resources such as databases
-
 
 As part of the redesign for IIS 7 and above, we wanted to make this scenario secure and easy to do. To implement this scenario, in IIS requires:
 
@@ -117,7 +108,6 @@ In IIS 6.0, IIS had stored SSL related information in the metabase and had manag
 
 To illustrate how each of the IIS 6.0 configuration settings are carried over into the IIS 7 and above configuration (or HTTP.SYS configuration), the following chart has been constructed below.
 
-
 | IIS 6.0 Metabase configuration | Description of property | IIS 7.0 and above Architecture |
 | --- | --- | --- |
 | **AccessSSLFlags** | AccessSSLFlags is bitmask of AccessSSL AccessSSL128 AccessSSLNegotiateCert AccessSSLRequireCert AccessSSLMapCert 0 value means *no SSL.* | Property still supported in IIS 7.0 and above configuration in the &lt;access&gt; section |
@@ -131,8 +121,7 @@ To illustrate how each of the IIS 6.0 configuration settings are carried over in
 | **SSLStoreName** | The SSLStoreName property is used to store the name of the store where the key pair of the certificate resides. | This value will now be stored in http.sys in the PHTTP\_SERVICE\_CONFIG\_SSL\_PARAM object. |
 | **SslUseDsMapper** | The SslUseDsMapper property specifies whether IIS is to use the Windows Directory Service certificate mapper or IIS certificate mapper. If SSLUseDSMapper is set to false, IIS uses the IIS certificate mapper. | This value will now be stored in http.sys in the PHTTP\_SERVICE\_CONFIG\_SSL\_PARAM object. |
 
-
-For more information on the HTTP.SYS PHTTP\_SERVICE\_CONFIG\_SSL\_PARAM object refer to the following [documentation](https://msdn.microsoft.com/en-us/library/aa364647.aspx).
+For more information on the HTTP.SYS PHTTP\_SERVICE\_CONFIG\_SSL\_PARAM object refer to the following [documentation](https://msdn.microsoft.com/library/aa364647.aspx).
 
 All these changes are handled transparently under the covers so as a server Administrator there is nothing special you need to do--IIS will do everything for you. If you have applications that are accessing the old IIS 6.0 properties now located in HTTP.SYS's configuration store, our ABO mapper interface will ensure that correct values are read/written so your applications will not fail, but instead will continue to work.
 

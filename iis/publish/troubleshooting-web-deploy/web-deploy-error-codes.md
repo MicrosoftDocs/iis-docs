@@ -1,19 +1,14 @@
 ---
-title: "Web Deploy error codes | Microsoft Docs"
+title: "Web Deploy error codes"
 author: bilalaslam
 description: "For certain common error cases, Web Deploy will show an error code. This table explains why the error occurs and steps the user can take to avoid the error...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/12/2011
-ms.topic: article
 ms.assetid: 0302eecb-0dcb-47ee-bde2-939b175980b8
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/web-deploy-error-codes
 msc.type: authoredcontent
 ---
-Web Deploy error codes
-====================
+# Web Deploy error codes
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 For certain common error cases, Web Deploy will show an error code. This table explains why the error occurs and steps the user can take to avoid the error. Note that the error message may be different depending on how Web Deploy is invoked e.g. Microsoft WebMatrix chooses to show custom error messages. The error messages listed below show up on the msdeploy.exe command line and API:
@@ -279,7 +274,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 1. Use the netFxVersion provider setting to tell Web Deploy exactly which .Net settings to migrate. Here is a command line example which forces Web Deploy to sync .Net 2.0 settings: 
 
     > msdeploy.exe -verb:sync -source:webserver,machineconfig32.netfxversion=2,machineconfig64.netfxversion=2,rootwebconfig32.netfxversion=2,rootwebconfig64.netfxversion=2 -dest:webserver,machineconfig32.netfxversion=2,machineconfig64.netfxversion=2,rootwebconfig32.netfxversion=2,rootwebconfig64.netfxversion=2,computername=destServername
-2. Run Web Deploy in the same version of .Net between client and server. On the client side, you can change the ordering of the supportedRuntime version element in the `%programfiles%\IIS\Microsoft Web Deploy V3\msdeploy.exe.config` file for the version of .Net that is specified first (see [gacInstall provider](https://technet.microsoft.com/en-us/library/gg607836(v=WS.10).aspx) for an example of this). This will indicate the version of .Net that will be loaded, assuming it is installed on your system. On the server side, you can do the same for `%programfiles%\IIS\microsoft web deploy\msdepsvc.exe.config`. If you modify this file, make sure to restart the Web Deployment Agent Service (net stop msdepsvc &amp; net start msdepsvc).
+2. Run Web Deploy in the same version of .Net between client and server. On the client side, you can change the ordering of the supportedRuntime version element in the `%programfiles%\IIS\Microsoft Web Deploy V3\msdeploy.exe.config` file for the version of .Net that is specified first (see [gacInstall provider](https://technet.microsoft.com/library/gg607836(v=WS.10).aspx) for an example of this). This will indicate the version of .Net that will be loaded, assuming it is installed on your system. On the server side, you can do the same for `%programfiles%\IIS\microsoft web deploy\msdepsvc.exe.config`. If you modify this file, make sure to restart the Web Deployment Agent Service (net stop msdepsvc &amp; net start msdepsvc).
 
 <a id="ERROR_HTTPCERT_BINDING_NOT_FOUND"></a>
 
@@ -303,7 +298,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: The provider path is invalid.
 
-**Resolution**: Depending on the provider you are using, the required path for your provider may be different. Visit https://technet.microsoft.com/en-us/library/dd569040(WS.10).aspx to find out more about the provider you are using.
+**Resolution**: Depending on the provider you are using, the required path for your provider may be different. Visit https://technet.microsoft.com/library/dd569040(WS.10).aspx to find out more about the provider you are using.
 
 <a id="ERROR_INVALID_SETTING_SPECIFIED"></a>
 
@@ -311,7 +306,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: The provider setting specified is invalid.
 
-**Resolution**: Visit [Technet](https://technet.microsoft.com/en-us/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
+**Resolution**: Visit [Technet](https://technet.microsoft.com/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
 
 <a id="ERROR_INVALID_SETTING_VALUE_SPECIFIED"></a>
 
@@ -319,7 +314,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: The provider setting value is invalid.
 
-**Resolution**: Visit [Technet](https://technet.microsoft.com/en-us/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
+**Resolution**: Visit [Technet](https://technet.microsoft.com/library/dd569040(WS.10).aspx) to find out more about the provider you are using.
 
 <a id="ERROR_SNI_BINDINGS_NOT_SUPPORTED"></a>
 
@@ -378,7 +373,8 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 **Resolution**: Make sure that the destination file is not in use before performing a sync. If you are syncing content to a web site hosted on IIS 7 or later (using the appHostConfig, iisApp, or contentPath providers), consider taking the application offline during the sync by enabling the appOffline rule.
 
 You can configure the appOffline rule in the publishing profile (.pubxml). Add the `EnableMSDeployAppOffline` element to the PropertyGroup like this:
-```
+
+```xml
 <PropertyGroup>
   <EnableMSDeployAppOffline>true</EnableMSDeployAppOffline>
 </PropertyGroup>
@@ -393,7 +389,8 @@ You can configure the appOffline rule in the publishing profile (.pubxml). Add t
 **Resolution**: You may either rerun the sync with the appOffline rule enabled, or manually delete the app\_offline.htm file from the root of your site on the destination server. For details on the reason for the failure, check the server event logs.
 
 You can configure the appOffline rule in the publishing profile (.pubxml). Add the `EnableMSDeployAppOffline` element to the PropertyGroup like this:
-```
+
+```xml
 <PropertyGroup>
   <EnableMSDeployAppOffline>true</EnableMSDeployAppOffline>
 </PropertyGroup>

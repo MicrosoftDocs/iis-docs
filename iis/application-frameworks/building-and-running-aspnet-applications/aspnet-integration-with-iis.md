@@ -1,19 +1,14 @@
 ---
-title: "ASP.NET Integration with IIS 7 | Microsoft Docs"
+title: "ASP.NET Integration with IIS 7"
 author: leanserver
 description: "Since its release, ASP.NET has been the platform of choice for developing Web applications on the Windows / IIS platform. ASP.NET 2.0 took Web application de..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2007
-ms.topic: article
 ms.assetid: ad034229-6efb-40af-a3d7-afd234e62726
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis
 msc.type: authoredcontent
 ---
-ASP.NET Integration with IIS 7
-====================
+# ASP.NET Integration with IIS 7
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
@@ -34,16 +29,13 @@ Better ASP.NET integration in IIS enhances existing applications and also allows
 
 > In IIS, all ASP.NET services are provided uniformly to all content. For example, you can protect all of your Web content, including images and ASP pages, with your existing ASP.NET 2.0 access control solution built on ASP.NET Forms authentication, membership and login controls.
 
-
 - **Fully extend IIS with ASP.NET.** Previous versions of IIS frequently required server extensibility to be developed by using the native ISAPI filter or extension extensibility mode, due to the runtime limitations of ASP.NET.
 
 > IIS allows ASP.NET modules to plug in directly into the server pipeline, with the same runtime fidelity as modules developed with the native (C++) server API. ASP.NET modules can execute in all runtime stages of the request-processing pipeline, and can be executed in any order with respect to native modules. The ASP.NET API is also expanded to allow more control over request processing than was previously possible.
 
-
 - **Unified server runtime.** Tighter ASP.NET integration also unifies many of the features between IIS and ASP.NET.
 
 > IIS provides a unified configuration for IIS and ASP.NET modules and handlers. Many other features, including custom errors and tracing, have been unified to allow better management and cohesive application design.
-
 
 ## ASP.NET Integration Architecture
 
@@ -110,7 +102,6 @@ The basic format of the migration command is as follows:
 
 [!code-console[Main](aspnet-integration-with-iis/samples/sample1.cmd)]
 
-
 Where &lt;Application Path&gt; is the virtual path of the application that contains the site name, such as "Default Web Site/app1".
 
 When the migration is complete, your application will run in both Integrated and Classic modes without any problems.
@@ -128,9 +119,7 @@ For more information about how to move an application to the Classic ASP.NET mod
 
 If you have manually migrated your configuration or want to remain in Integrated mode without migrating your configuration (not recommended), you can disable the migration error message by adding the following to the application's Web.config file:
 
-
 [!code-xml[Main](aspnet-integration-with-iis/samples/sample2.xml)]
-
 
 > [!NOTE]
 > The server automatically disables the error message after migrating the configuration with the AppCmd.exe command line tool.
@@ -145,7 +134,6 @@ If your application does not work properly in Integrated ASP.NET mode, you can m
 
 **To change the ASP.NET integration mode for an application:** 
 
-
 1. **Find or create an application pool that is configured to use the desired mode.**   
  By default, all new application pools run in Integrated mode.  
  The ASP.NET set up provides an application pool named "**Classic .NET AppPool**" that runs in the classic ASP.NET integration mode. You can use this application pool for applications that should not run in Integrated mode.  
@@ -153,8 +141,6 @@ If your application does not work properly in Integrated ASP.NET mode, you can m
 2. **Set the application to use that application pool.**   
  Each application is configured to use a particular application pool. By default, all applications use the default application pool named "**DefaultAppPool**", which runs in Integrated mode.  
  You can change the application pool of an application by using the IIS Administration Tool or the AppCmd.exe command line tool, or by manually editing the application configuration.
-
-
 
 ## Selecting an ASP.NET Version for an Application
 
@@ -200,9 +186,7 @@ In Integrated mode, services that are provided by ASP.NET modules are available 
 
 To do this, attach a managedHandler precondition to each ASP.NET module in the configuration section at the server level:
 
-
 [!code-xml[Main](aspnet-integration-with-iis/samples/sample3.xml)]
-
 
 The precondition is a rule that the server evaluates on every request to determine whether a module will be executed. The managedHandler precondition is only true for requests to content types that are mapped to ASP.NET handlers.
 
@@ -210,17 +194,13 @@ To apply functionality that is provided by an ASP.NET module to all requests, re
 
 To enable ASP.NET Forms authentication for the entire application, modify your Web.config file as follows:
 
-
 [!code-xml[Main](aspnet-integration-with-iis/samples/sample4.xml)]
-
 
 With this change, the FormsAuthentication module executes for all requests in your application. This lets you protect all of the application content with Forms authentication. For more information about how to leverage the Integrated mode to provide Forms authentication for all application content, see [Taking Advantage of Integrated Pipeline Mode walkthrough](how-to-take-advantage-of-the-iis-integrated-pipeline.md).
 
 You can also use a shortcut to enable all managed (ASP.NET) modules to run for all requests in your application, regardless of the "managedHandler" precondition. To enable all managed modules to run for all requests without configuring each module entry to remove the "managedHandler" precondition, use the **runAllManagedModulesForAllRequests** property in the `<modules>` section:
 
-
 [!code-xml[Main](aspnet-integration-with-iis/samples/sample5.xml)]
-
 
 When you use this, the "managedHandler" precondition has no effect and all managed modules will run for all requests.
 
@@ -233,7 +213,6 @@ In Integrated mode, ASP.NET modules apply their services to all content. In addi
 ## Runtime Fidelity
 
 In Integrated mode, the ASP.NET request-processing stages that are exposed to modules are directly connected to the corresponding stages of the IIS pipeline. The complete pipeline contains the following stages, which are exposed as HttpApplication events in ASP.NET:
-
 
 1. **BeginRequest**. The request processing starts.
 2. **AuthenticateRequest**. The request is authenticated. IIS and ASP.NET authentication modules subscribe to this stage to perform authentication.
@@ -256,7 +235,6 @@ In Integrated mode, the ASP.NET request-processing stages that are exposed to mo
 19. **LogRequest**. This stage logs the results of the request, and is guaranteed to execute even if errors occur.
 20. **PostLogRequest**.
 21. **EndRequest**. This stage performs any final request cleanup, and is guaranteed to execute even if errors occur.
-
 
 By using the familiar ASP.NET APIs, the ability to execute in the same stages as IIS modules makes tasks that were only previously accessible in native ISAPI filters and extensions now possible in managed code. 
 

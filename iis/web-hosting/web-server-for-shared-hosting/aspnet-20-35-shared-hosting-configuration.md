@@ -1,19 +1,15 @@
 ---
-title: "ASP.NET 2.0/3.5 Shared Hosting Configuration | Microsoft Docs"
+title: "ASP.NET 2.0/3.5 Shared Hosting Configuration"
 author: walterov
 description: "IIS offers enhancements for dynamic content, especially ASP.NET. In IIS 7 and above, the ASP.NET runtime extensibility model is integrated into the core serv..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/30/2007
-ms.topic: article
 ms.assetid: cf9bd511-eb48-49e1-83bb-2848794cc7a4
-ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration
 msc.type: authoredcontent
 ---
-ASP.NET 2.0/3.5 Shared Hosting Configuration
-====================
+# ASP.NET 2.0/3.5 Shared Hosting Configuration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -86,7 +82,7 @@ To run some ASP.NET applications from a remote file server, the impersonated use
 
 The .NET framework uses automatic garbage collection to manage memory for all applications. When the garbage collector (GC) decides that sufficient garbage has accumulated and that it is efficient to do so, it performs a collection to free some memory. This process is fully automatic, but there are settings that can make the process more efficient.
 
-For more information about the GC, see "*Chapter 5 - Improving Managed Code Performance*" and look at the section *[Garbage Collection Explained](https://msdn.microsoft.com/en-us/library/ms998547.aspx#scalenetchapt05_topic9 "Garbage Collection Explained")*.
+For more information about the GC, see "*Chapter 5 - Improving Managed Code Performance*" and look at the section *[Garbage Collection Explained](https://msdn.microsoft.com/library/ms998547.aspx#scalenetchapt05_topic9 "Garbage Collection Explained")*.
 
 ### Enabling the Workstation Garbage Collector
 

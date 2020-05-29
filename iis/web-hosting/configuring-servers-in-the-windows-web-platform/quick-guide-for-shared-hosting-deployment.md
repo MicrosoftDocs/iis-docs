@@ -1,19 +1,14 @@
 ---
-title: "Quick Guide for Shared Hosting Deployment | Microsoft Docs"
+title: "Quick Guide for Shared Hosting Deployment"
 author: walterov
 description: "This article provides a basic overview of the manual steps to deploy a front-end Web server running IIS 7.5 or above for the Shared Hosting scenario. It also..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: e64bd116-efe3-41c2-9602-6427ad7c0361
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment
 msc.type: authoredcontent
 ---
-Quick Guide for Shared Hosting Deployment
-====================
+# Quick Guide for Shared Hosting Deployment
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -46,7 +41,7 @@ Before configuring permissions on the file server, you must join the Web server 
 
     [!code-console[Main](quick-guide-for-shared-hosting-deployment/samples/sample3.cmd)]
 5. Configure [Default Documents](../web-server-for-shared-hosting/default-documents.md) at the server level in IIS Manager.
-6. [Select W3C Fields to Log](http://technet2.microsoft.com/windowsserver2008/en/library/844c691d-ea3d-49d8-aa53-874f401915261033.mspx?mfr=true) at the server level in IIS Manager.
+6. Select W3C Fields to Log at the server level in IIS Manager.
 7. Configure the [dynamicIdleThreshold](../web-server-for-shared-hosting/dynamicidlethreshold.md) property.
 8. Configure [Dynamic Compression](../web-server-for-shared-hosting/dynamic-compression.md).
 9. Enable [Remote Web Service Management](../../manage/remote-administration/remote-administration-for-iis-manager.md) in IIS Manager. 

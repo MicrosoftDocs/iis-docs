@@ -1,19 +1,14 @@
 ---
-title: "Web Platform Installer Direct Downloads | Microsoft Docs"
+title: "Web Platform Installer Direct Downloads"
 author: chrissfanos
 description: "Direct download links for Web Platform Installer (WebPI)"
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/20/2015
-ms.topic: article
 ms.assetid: 4003c4b8-ccd1-43d7-a5d5-45ab60e7ed91
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-direct-downloads
 msc.type: authoredcontent
 ---
-Web Platform Installer Direct Downloads
-====================
+# Web Platform Installer Direct Downloads
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 **WebPI Direct Download Links**  
@@ -25,7 +20,6 @@ by [Chris Sfanos](https://github.com/chrissfanos)
  x86: [https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller\_x86\_en-US.msi](https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller_x86_en-US.msi)  
   
  x64: [https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller\_amd64\_en-US.msi](https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller_amd64_en-US.msi)  
-  
   
 **WebPI 4.6**  
   

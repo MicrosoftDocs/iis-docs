@@ -1,19 +1,14 @@
 ---
-title: "Adding Environment Variables &lt;add&gt; | Microsoft Docs"
+title: "Adding Environment Variables &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;environmentVariables&gt; element specifies a unique name/value pair for an environment variable that Internet Inf..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 49145f4f-5892-4667-aba4-b9615b8e0e8d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables/add
 msc.type: config
 ---
-Adding Environment Variables &lt;add&gt;
-====================
+# Adding Environment Variables &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -69,7 +64,7 @@ The following examples demonstrate how to add a name/value pair to the collectio
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Shared Configuration | Microsoft Docs"
+title: "Shared Configuration"
 author: walterov
 description: "In IIS 6.0, synchronizing and replicating configuration between servers was difficult because no built-in functionality existed. Although the server administ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/02/2007
-ms.topic: article
 ms.assetid: 4c423bc4-1dac-4d0d-9be3-5c9b87b06e86
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/shared-configuration_211
 msc.type: authoredcontent
 ---
-Shared Configuration
-====================
+# Shared Configuration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -48,9 +43,12 @@ In IIS 7.0 and above, the shared configuration feature enables administrators to
     > [!NOTE]
     > If the machine is not joined to the domain, the account will need to be created on the Web server(s) and the file server.
 2. Create a share for storing the configuration files and set permissions. This can be done using the following commands:  
-  
-		md %SystemDrive%\centralconfig  
-		net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
+
+    ```
+    md %SystemDrive%\centralconfig
+    net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
+    ```
+
 3. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.
 4. Click the server name node.
 5. Double-click the **Shared Configuration** icon.

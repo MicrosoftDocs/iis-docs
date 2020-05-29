@@ -1,19 +1,14 @@
 ---
-title: "Using HTTP for Streaming and Downloading from the Same Computer | Microsoft Docs"
+title: "Using HTTP for Streaming and Downloading from the Same Computer"
 author: rick-anderson
 description: "You can use Microsoft Windows Media Services 2008 and Internet Information Services (IIS) 7. on the same computer for digital content delivery. For example,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2008
-ms.topic: article
 ms.assetid: 4b7e6d87-95e2-48fa-b6d1-6d308696f3cf
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/using-http-for-streaming-and-downloading-from-the-same-computer
 msc.type: authoredcontent
 ---
-Using HTTP for Streaming and Downloading from the Same Computer
-====================
+# Using HTTP for Streaming and Downloading from the Same Computer
+
 by Dave Nelson
 
 You can use Microsoft Windows Media Services 2008 and Internet Information Services (IIS) 7. on the same computer for digital content delivery. For example, you may want to use Windows Media Services to [stream](windows-media-server-or-web-server.md#wms) a live broadcast to clients and use IIS to [download](windows-media-server-or-web-server.md#download) digital media files to clients. If a firewall separates clients from your server, it is advantageous to use HTTP through port 80 for digital media content delivery, as most firewalls leave this port open.
@@ -24,8 +19,8 @@ Windows Media Services and IIS can coexist on a computer when you use their defa
 
 Because Web servers usually reserve port 80, it is easiest to change the port that Windows Media Services uses for HTTP streaming. This is one option that is available to you if you have one network adapter with one static IP address bound to it. Note, however, that this configuration has the following drawbacks:
 
-- In the announcement file or Web page that links to your streaming content, You must specify a connection URL to the content that uses an HTTP URL moniker (http://) and includes the new port number. For example, if you change the HTTP streaming port to port 1450, you must specify the following connection URL for a player: http://*server*\_*name*:1450/*publishing*\_*point*\_*name*. When the connection URL uses the HTTP URL moniker, you cannot use [protocol rollover](https://technet.microsoft.com/en-us/library/cc771761.aspx) in Windows Media Services, which selects the best streaming protocol given network conditions. Protocol rollover is initiated when you use the MMS URL moniker (mms://) in the connection URL.
-- You must open the corresponding port in [Windows Firewall](https://technet.microsoft.com/en-us/network/bb545423.aspx).
+- In the announcement file or Web page that links to your streaming content, You must specify a connection URL to the content that uses an HTTP URL moniker (http://) and includes the new port number. For example, if you change the HTTP streaming port to port 1450, you must specify the following connection URL for a player: `http://server_name:1450/publishing_point_name`. When the connection URL uses the HTTP URL moniker, you cannot use [protocol rollover](https://technet.microsoft.com/library/cc771761.aspx) in Windows Media Services, which selects the best streaming protocol given network conditions. Protocol rollover is initiated when you use the MMS URL moniker (mms://) in the connection URL.
+- You must open the corresponding port in [Windows Firewall](https://technet.microsoft.com/network/bb545423.aspx).
 
 For scenarios where you want to deliver a limited number of streams to clients on a temporary basis (for example, you want to broadcast a live event), changing the HTTP port for Windows Media Services can be an adequate solution. However, on a more permanent basis, consider assigning additional IP addresses to your network adapter (or install additional network adapters). You can then use the procedures later in this article to configure Windows Media Services and IIS to use separate IP address/port 80 pairs.
 
@@ -47,7 +42,6 @@ If you try to enable HTTP streaming in Windows Media Services 2008 on a computer
 
 > **Error Code**: 0xC00D158B  
 > **Error Text**: One usage of each socket address (protocol/network address/port) is permitted. Verify that other services (such as IIS) or applications are not attempting to use the same port and then try to enable the plug-in again.
-
 
 By default, the HTTP Listener (HTTP.sys) for the default Web site in IIS 7 listens to all requests coming in on port 80 for all static IP addresses bound to the network adapter (site binding = http:\*:80:). The list of IP addresses that HTTP.sys listens to is called the *IP Listen list*. The IP addresses that Http.sys does not listen to are available for Windows Media Services to use. This section describes how to create unique static IP address/port 80 pairs for downloading and streaming using HTTP.
 
@@ -97,5 +91,5 @@ Windows Media Services will stream digital media content over port 80 for the IP
 
 This article discussed how to configure both Windows Media Services and IIS to use port 80 on a computer that is running Windows Server 2008. If you are running versions of this software on Windows Server 2003 or Windows 2000 Server, see the following articles for configuration instructions for those platforms.
 
-- [How to set up Windows Media Services 9 Series to use HTTP streaming on port 80 with IIS 6.0 installed (KB328728)](https://technet.microsoft.com/en-us/network/bb545423.aspx). Applies to Windows Server 2003.
+- [How to set up Windows Media Services 9 Series to use HTTP streaming on port 80 with IIS 6.0 installed (KB328728)](https://technet.microsoft.com/network/bb545423.aspx). Applies to Windows Server 2003.
 - [How to Run IIS 5.0 and Windows Media Services with HTTP Streaming Enabled (KB268585)](https://support.microsoft.com/kb/268585/). Applies to Windows 2000 Server.

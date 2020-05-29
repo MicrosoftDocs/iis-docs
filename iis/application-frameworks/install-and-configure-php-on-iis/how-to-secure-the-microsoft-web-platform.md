@@ -1,19 +1,14 @@
 ---
-title: "How to Secure the Microsoft Web Platform | Microsoft Docs"
+title: "How to Secure the Microsoft Web Platform"
 author: rick-anderson
 description: "Security is always a consideration; it is critical to make careful security considerations when you implement and maintain your Web sites, infrastructure, an..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: d4dd559d-5b26-4da8-a639-184b8742b2d2
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-secure-the-microsoft-web-platform
 msc.type: authoredcontent
 ---
-How to Secure the Microsoft Web Platform
-====================
+# How to Secure the Microsoft Web Platform
+
 by Tali Smith
 
 Security is always a consideration; it is critical to make careful security considerations when you implement and maintain your Web sites, infrastructure, and applications. Internet Information Services 7 (IIS 7) and above offers many ways to [configure security](../../manage/configuring-security/index.md), including [dynamic IP restrictions](../../manage/configuring-security/using-dynamic-ip-restrictions.md), [application pool identities](../../manage/configuring-security/application-pool-identities.md), and [Secure Sockets Layer (SSL)](../../manage/configuring-security/how-to-set-up-ssl-on-iis.md). IIS also provides a comprehensive set of authentication and authorization features that can be used to create the desired access control scheme for PHP applications without writing any custom code. You can use features such as Forms Authentication, Role Manager, and URL Authorization to quickly deploy access control solutions that are easily manageable through IIS Manager and other tools.

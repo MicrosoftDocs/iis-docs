@@ -1,26 +1,19 @@
 ---
-title: "Using Encryption to Protect Passwords | Microsoft Docs"
+title: "Using Encryption to Protect Passwords"
 author: rick-anderson
 description: "This document provides an overview of the steps required for setting both application pool and worker process isolation for IIS 7.0 and above servers. Applic..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 4012722a-ab3f-41b8-ae6e-48ef2e574613
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/using-encryption-to-protect-passwords
 msc.type: authoredcontent
 ---
-Using Encryption to Protect Passwords
-====================
+# Using Encryption to Protect Passwords
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 
 This document provides an overview of the steps required for setting both application pool and worker process isolation for IIS 7.0 and above servers. Application pool isolation entails protecting data that WAS (the IIS local system process) needs to access. An example of this data is the application pool passwords. Worker process isolation, on the other hand, entails protecting data that the application pool identity needs to access. An example of this data is the anonymous user account password.
-
-<a id="Prerequisites"></a>
 
 ## Prerequisites
 
@@ -31,11 +24,9 @@ To help simplify this process, two pieces of sample code are provided that:
 
 The final prerequisite section guides you in setting up four User accounts that will be used in later topics.
 
-<a id="CreatingNew"></a>
-
 ## Creating a New RSA Encryption Provider Application
 
-1. Open Windows Notepad and create a file in a directory of your choosing named **createProvider.cs** that contains the following C# code: 
+1. Open Windows Notepad and create a file in a directory of your choosing named **createProvider.cs** that contains the following C# code:
 
     [!code-csharp[Main](using-encryption-to-protect-passwords/samples/sample1.cs)]
 2. Next, launch an elevated command prompt:
@@ -63,8 +54,6 @@ This step is now complete.
 
 This step is now complete.
 
-<a id="CreatingUser"></a>
-
 ## Creating User Accounts
 
 In this step, we create four new user accounts that will be used throughout this document.
@@ -76,12 +65,9 @@ To begin, open a command shell Window running under administrative rights using 
 3. Select **Run as administrator.**
 4. In the command window, execute the following commands:
 
-
 [!code-console[Main](using-encryption-to-protect-passwords/samples/sample3.cmd)]
 
 This step is now complete.
-
-<a id="Application"></a>
 
 ## Application Pool Isolation
 
@@ -98,7 +84,6 @@ IIS has a process called WAS that runs under the context of LOCALSYSTEM and is t
 2. Right-click on **Command Prompt.**
 3. Select **Run as administrator.**
 4. In the command window navigate to where you saved your **createProvider.exe** and run the following command:
-
 
 [!code-console[Main](using-encryption-to-protect-passwords/samples/sample4.cmd)]
 
@@ -117,7 +102,6 @@ In this step, we use the setProvider.exe application created earlier to change t
 3. Select **Run as administrator.**
 4. In the command window navigate to where you saved your **setProvider.exe** and run the following command:
 
-
 [!code-console[Main](using-encryption-to-protect-passwords/samples/sample6.cmd)]
 
 The default provider Rsa\_WAS has been successfully changed.
@@ -134,8 +118,7 @@ In this step, we create two new application pools that we isolate from one anoth
   
     [![](using-encryption-to-protect-passwords/_static/image2.jpg)](using-encryption-to-protect-passwords/_static/image1.jpg)
 6. Repeat previous steps but this time use the name **AppPool2**.
-7. You now see the following screen within the IIS Manager:  
-  
+7. You now see the following screen within the IIS:  
     [![](using-encryption-to-protect-passwords/_static/image4.jpg)](using-encryption-to-protect-passwords/_static/image3.jpg)
 8. Notice how the identity for both **AppPool1** and **AppPool2** are **NetworkService**. We will change this to be the accounts we created earlier by right clicking **AppPool1** and then selecting **Advanced Settings**
 9. Under the title **Process Model**:  
@@ -144,9 +127,10 @@ In this step, we create two new application pools that we isolate from one anoth
     - In the **Application Pool Identiy** window select the "**Custom account**" radio button and click the "Set..." button.
     - Input the following user name and password in the **Set Credentials** dialog.  
   
- user name: **AppPoolIdentity1**  
- password: **password1**  
-        [![](using-encryption-to-protect-passwords/_static/image6.jpg)](using-encryption-to-protect-passwords/_static/image5.jpg)
+      user name: **AppPoolIdentity1**  
+      password: **password1**
+
+       [![](using-encryption-to-protect-passwords/_static/image6.jpg)](using-encryption-to-protect-passwords/_static/image5.jpg)
 10. Now the **Identity** value should appear as shown below:  
   
     [![](using-encryption-to-protect-passwords/_static/image8.jpg)](using-encryption-to-protect-passwords/_static/image7.jpg)
@@ -155,19 +139,17 @@ In this step, we create two new application pools that we isolate from one anoth
 13. You see the following displayed in the IIS Manager (mainly the Identities for the application pools have changed):  
   
     [![](using-encryption-to-protect-passwords/_static/image10.jpg)](using-encryption-to-protect-passwords/_static/image9.jpg)
-14. Verify the changes by using Windows Notepad and opening the `%SystemRoot%\System32\Inetsrv\applicationHost.config` file. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended: 
+14. Verify the changes by using Windows Notepad and opening the `%SystemRoot%\System32\Inetsrv\applicationHost.config` file. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended:
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample7.cmd)]
 
 ### Locking Down the Encryption Providers
 
-By default, the IIS\_IUSRS is given read access to the keys when they are created. However, we can use the ASPNET\_REGIIS tool to remove that access. To do so, run the following commands from the elevated command prompt:
+By default, the IIS\_IUSRS is given read access to the keys when they are created. However, you can use the ASPNET\_REGIIS tool to remove that access. To do so, run the following commands from the elevated command prompt:
 
 [!code-console[Main](using-encryption-to-protect-passwords/samples/sample8.cmd)]
 
 This removed IIS\_IUSRS (the application pool identities group) from being able to read the **iisWasKey** which is intended for only Administrators and LOCALSYSTEM access.
-
-<a id="Worker"></a>
 
 ## Worker Process Isolation
 
@@ -200,12 +182,14 @@ Now use the IIS manager to create two sites:
 1. Click **Start**, type **INetMgr.exe** and press **Enter** (if prompted, select **Continue** to elevate your permissions).
 2. Click on the **+** button beside the name of your machine in the **Connections** section.
 3. Right click **Site** in the tree view under **Connections** and then select **Add Web Site**.
-4. Use the following information to create your site:   
+4. Use the following information to create your site:
   
     ***Web Site Name: One   
 Application Pool: AppPool1   
 Physical Path: {location of your inetpub directory}\wwwroot\one   
-Port: 81***  This should like the following when completed:  
+Port: 81***  
+
+    This should look like the following when completed:
   
     [![](using-encryption-to-protect-passwords/_static/image12.jpg)](using-encryption-to-protect-passwords/_static/image11.jpg)
 5. Click **OK** to save the changes.
@@ -220,8 +204,8 @@ You have now created two new sites named **One** and **Two**, and added them to 
 
 The URLs to test your sites are:
 
-- http://localhost:81 for site **One**
-- http://localhost:82 for site **Two**
+- `http://localhost:81` for site **One**
+- `http://localhost:82` for site **Two**
 
 ### Create New Providers for Each Application Pool
 
@@ -267,7 +251,6 @@ In your elevated command prompt Window, run the following command:
 
 - Return to your elevated command prompt Window and run the following command:
 
-
 [!code-console[Main](using-encryption-to-protect-passwords/samples/sample16.cmd)]
 
 > [!NOTE]
@@ -277,11 +260,11 @@ In your elevated command prompt Window, run the following command:
 
 Verify that what we wanted did happen. Using Windows Notepad, open the `%SystemRoot%\System32\Inetsrv\applicationHost.config` file:
 
-- Notice that the password for **AppPool1** and **AppPool2** are both still protected with the **Rsa\_Was** key
-- Notice that the password for **AnonymousAccount1** is also protected with the **Rsa\_app1** key:  
+- Notice that the password for **AppPool1** and **AppPool2** are both still protected with the **Rsa\_Was** key.
+- Notice that the password for **AnonymousAccount1** is also protected with the **Rsa\_app1** key:
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample17.cmd)]
-- Finally, note that the **AnonymousAccount2** password is also protected with the **Rsa\_app2** key:  
+- Finally, note that the **AnonymousAccount2** password is also protected with the **Rsa\_app2** key:
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample18.cmd)]
 
@@ -297,12 +280,10 @@ These commands have removed the ability of IIS\_IUSRS to read the keys and added
 
 Now test your sites:
 
-- Http://localhost:81
-- Http://localhost:82
+- `http://localhost:81`
+- `http://localhost:82`
 
 Everything should continue to work as it had before.
-
-<a id="Summary"></a>
 
 ## Summary
 

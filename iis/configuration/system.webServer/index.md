@@ -1,19 +1,14 @@
 ---
-title: " &lt;system.webServer&gt; | Microsoft Docs"
+title: " &lt;system.webServer&gt;"
 author: rick-anderson
 description: "Overview The &lt;system.webServer&gt; element specifies the root element for many of the site-level and application-level configuration settings for Internet..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ff101340-b38e-4127-8978-61838ad18051
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver
 msc.type: config
 ---
- &lt;system.webServer&gt;
-====================
+# &lt;system.webServer&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -58,7 +53,7 @@ None.
 | Element | Description |
 | --- | --- |
 | [`applicationInitialization`](applicationinitialization/index.md) | Optional element.<br><br>Configures settings for application initialization that is performed proactively before a request is received. |
-|| [`asp`](asp/index.md) | Optional element.<br><br>Configures settings for Active Server Pages (ASP) applications. |
+| [`asp`](asp/index.md) | Optional element.<br><br>Configures settings for Active Server Pages (ASP) applications. |
 | [`caching`](caching/index.md) | Optional element.<br><br>Configures output cache settings. |
 | [`cgi`](cgi.md) | Optional element.<br><br>Configures default settings for Common Gateway Interface (CGI) applications. |
 | [`defaultDocument`](defaultdocument/index.md) | Optional element.<br><br>Configures settings for returning a default document to a client browser when the client does not specify a file name in a request. |

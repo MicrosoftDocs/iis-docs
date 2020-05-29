@@ -1,19 +1,14 @@
 ---
-title: "Migrate from MySQL to SQL Server 2008 | Microsoft Docs"
+title: "Migrate from MySQL to SQL Server 2008"
 author: rick-anderson
 description: "PHP, a powerful server-side scripting language used for creating dynamic Web sites and applications, is one of the most widely used Web programming languages..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: f08aa19d-c2bf-44c4-af8d-6e7d862958cf
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/migrate-from-mysql-to-sql-server-2008
 msc.type: authoredcontent
 ---
-Migrate from MySQL to SQL Server 2008
-====================
+# Migrate from MySQL to SQL Server 2008
+
 by Tali Smith
 
 ## Introduction
@@ -102,6 +97,6 @@ BENCHMARK, CHARSET, COERCIBILITY, COLLATION, CRC32, DATE\_ADD with INTERVAL, DAT
 ## Links for Further Information:
 
 - [Guide to Migrating from MySQL to SQL Server 2005](http://tinyurl.com/yg4v9e5).  
-- [SQL Server Driver for PHP Documentation](https://msdn.microsoft.com/en-us/library/ee229551(SQL.10).aspx).
+- [SQL Server Driver for PHP Documentation](https://msdn.microsoft.com/library/ee229551(SQL.10).aspx).
 
 <a id="_ftn1"></a>[[1]](#_ftnref1 "_ftn1") [IBM Corporation](http://www.ibm.com/developerworks/systems/library/es-path2php/index.html). 14 November 2006. Use PHP on System i, Part 1: Introduction and examples.

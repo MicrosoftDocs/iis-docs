@@ -1,19 +1,14 @@
 ---
-title: "Windows Authentication &lt;windowsAuthentication&gt; | Microsoft Docs"
+title: "Windows Authentication &lt;windowsAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;windowsAuthentication&gt; element defines configuration settings for the Internet Information Services (IIS) 7 Windows authentication module..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0d453336-cfb0-401f-a04b-ff67da721b96
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication
 msc.type: config
 ---
-Windows Authentication &lt;windowsAuthentication&gt;
-====================
+# Windows Authentication &lt;windowsAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -196,7 +191,7 @@ The following examples disable Anonymous authentication for a site named Contoso
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample5.cs)]
 

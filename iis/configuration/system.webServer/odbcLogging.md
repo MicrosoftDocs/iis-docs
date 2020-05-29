@@ -1,19 +1,14 @@
 ---
-title: "ODBC Logging &lt;odbcLogging&gt; | Microsoft Docs"
+title: "ODBC Logging &lt;odbcLogging&gt;"
 author: rick-anderson
 description: "Overview The &lt;odbcLogging&gt; element configures Open Database Connectivity (ODBC) logging for Internet Information Services (IIS) 7. ODBC logging records..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2005a63e-07bd-4bab-b6f1-876724cd0744
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/odbclogging
 msc.type: config
 ---
-ODBC Logging &lt;odbcLogging&gt;
-====================
+# ODBC Logging &lt;odbcLogging&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -32,7 +27,7 @@ ODBC logging is implemented as a custom logging module in IIS 7, therefore enabl
     - The **logFormat** attribute must be set to "**Custom**."
     - The **customLogPluginClsid** attribute must be set to "**{FF16065B-DE82-11CF-BC0A-00AA006111E0}**"
 
-By default, IIS 7 logs all activity to text files that use the W3C extended log file format, and by default you can configure IIS to use other text file formats such as the NCSA or native IIS format. The major disadvantage of using these text-based formats is that they are more difficult to parse for activity, and generally require a utility like [Microsoft's LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659) in order to retrieve any useful information from your logs. In addition, data-parsing performance with text files is also typically much slower than using a database. However, text-based logging is performed in kernel mode, which improves the performance for logging requests.
+By default, IIS 7 logs all activity to text files that use the W3C extended log file format, and by default you can configure IIS to use other text file formats such as the NCSA or native IIS format. The major disadvantage of using these text-based formats is that they are more difficult to parse for activity, and generally require a utility like [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) in order to retrieve any useful information from your logs. In addition, data-parsing performance with text files is also typically much slower than using a database. However, text-based logging is performed in kernel mode, which improves the performance for logging requests.
 
 When you use ODBC logging, your server's activity is stored in a database, which should greatly improve data retrieval. This expands the possibilities for using a wide variety of database clients when data mining your server's activity. The major disadvantage to using ODBC logging is the performance for logging because when ODBC logging is enabled, IIS disables the kernel-mode cache. For this reason, implementing ODBC logging can degrade overall server performance.
 
@@ -139,7 +134,7 @@ The following code samples configure two sets of options for the Default Web Sit
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](odbcLogging/samples/sample4.cs)]
 

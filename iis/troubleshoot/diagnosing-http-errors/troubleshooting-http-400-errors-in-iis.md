@@ -1,19 +1,14 @@
 ---
-title: "Troubleshooting HTTP 400 Errors in IIS | Microsoft Docs"
+title: "Troubleshooting HTTP 400 Errors in IIS"
 author: rick-anderson
 description: "This article describes the troubleshooting steps to identify the cause of various HTTP 400 errors when using IIS."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/27/2012
-ms.topic: article
 ms.assetid: 767eba96-0849-4f97-bd73-850362048d16
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-http-400-errors-in-iis
 msc.type: authoredcontent
 ---
-Troubleshooting HTTP 400 Errors in IIS
-====================
+# Troubleshooting HTTP 400 Errors in IIS
+
 by Mike Laing
 
 ### Tools Used in this Troubleshooter:
@@ -34,10 +29,12 @@ After sending an HTTP request to an IIS server, an HTTP client (such as Internet
 **The webpage cannot be found.**
  
 Most likely causes: 
+
 - There might be a typing error in the address.
 - If you clicked on a link, it may be out of date.
 
 What you can try: 
+
 - Retype the address. 
 - Go back to the previous page. 
 - Go to Bing and look for the information you want.

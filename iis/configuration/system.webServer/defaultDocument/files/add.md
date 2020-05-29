@@ -1,19 +1,14 @@
 ---
-title: "Adding Default Document Files &lt;add&gt; | Microsoft Docs"
+title: "Adding Default Document Files &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;defaultDocument&gt; collection specifies a unique file name to add to the list of default documents in the &lt;fi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 21e0edde-a886-4cdd-bb49-068dc48b07c6
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/defaultdocument/files/add
 msc.type: config
 ---
-Adding Default Document Files &lt;add&gt;
-====================
+# Adding Default Document Files &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -96,7 +91,7 @@ The following examples enable default documents on a Web site named Contoso then
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

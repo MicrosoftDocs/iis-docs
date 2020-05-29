@@ -1,19 +1,14 @@
 ---
-title: "Management Authorization &lt;authorization&gt; | Microsoft Docs"
+title: "Management Authorization &lt;authorization&gt;"
 author: rick-anderson
 description: "Overview The &lt;authorization&gt; element of the &lt;management&gt; element specifies authorization settings for remote management of the Web server when th..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 71e9abac-672c-433d-8230-691ded87f336
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization
 msc.type: config
 ---
-Management Authorization &lt;authorization&gt;
-====================
+# Management Authorization &lt;authorization&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -146,7 +141,7 @@ The following code samples check to see if a `<scope>` element has already been 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authorization>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 
@@ -180,7 +175,7 @@ The following code examples add an authorization provider named ContosoAuthoriza
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample7.cs)]
 

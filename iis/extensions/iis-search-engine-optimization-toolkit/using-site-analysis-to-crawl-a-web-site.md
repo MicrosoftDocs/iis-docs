@@ -1,19 +1,14 @@
 ---
-title: "Using Site Analysis to Crawl a Web Site | Microsoft Docs"
+title: "Using Site Analysis to Crawl a Web Site"
 author: ruslany
 description: "IIS Site Analysis is a tool within the IIS Search Engine Optimization Toolkit that can be used to analyze Web sites with the purpose of optimizing the site's..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/03/2009
-ms.topic: article
 ms.assetid: 23f3d6f3-8c7d-4aaf-bcb4-fa71b158992a
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/using-site-analysis-to-crawl-a-web-site
 msc.type: authoredcontent
 ---
-Using Site Analysis to Crawl a Web Site
-====================
+# Using Site Analysis to Crawl a Web Site
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 IIS Site Analysis is a tool within the IIS Search Engine Optimization Toolkit that can be used to analyze Web sites with the purpose of optimizing the site's content, structure, and URLs for search engine crawlers. In addition, you can use the tool to discover and fix common problems in site content that negatively affect the site user experience. The IIS Site Analysis tool includes a Web crawler that crawls all publicly available site links and resources and downloads the content that will be used for site analysis.
@@ -62,17 +57,13 @@ In addition, the following generic settings can be configured for the Web crawle
 
 All HTTP requests made by the IIS Site Analysis Web crawler have an HTTP header "user-agent" set to:
 
-
 [!code-console[Main](using-site-analysis-to-crawl-a-web-site/samples/sample1.cmd)]
-
 
 The IIS Site Analysis Web crawler is fully compliant with [the robots exclusion protocol](http://www.robotstxt.org/robotstxt.html). This means that you can use the Robots.txt file to prevent the IIS Site Analysis Web crawler from crawling your Web site. You may want to use it to prevent other people from running IIS Site Analyses against your Web sites.
 
 In order to prevent the IIS Site Analysis crawler from crawling a Web site, add the following lines at the end of the Robots.txt file that is located in the site's root directory:
 
-
 [!code-console[Main](using-site-analysis-to-crawl-a-web-site/samples/sample2.cmd)]
-
 
 ## Summary
 

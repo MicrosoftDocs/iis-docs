@@ -1,19 +1,14 @@
 ---
-title: "How to Enable Failed Request Tracing for UNC Hosting | Microsoft Docs"
+title: "How to Enable Failed Request Tracing for UNC Hosting"
 author: rick-anderson
 description: "Placing application content and code on a UNC share for hosting scenarios is increasingly important on web application servers. In hosting scenarios, it is i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 747b3570-6016-4a81-8b07-45e6bad0ff39
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting
 msc.type: authoredcontent
 ---
-How to Enable Failed Request Tracing for UNC Hosting
-====================
+# How to Enable Failed Request Tracing for UNC Hosting
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Configuring Failed Request Tracing and Logging for a Hosting Scenario
@@ -62,7 +57,6 @@ To verify that &lt;traceFailedRequests&gt; has been setup for delegation via App
 2. Change directories to `%windir%\system32\inetsrv\config`, and run `notepad applicationHost.config`.
 3. In applicationHost.config, search for the string *&lt;section name="traceFailedRequests"* - this section is delegated if it is *overrideModeDefault="Allow"*.
 
-
 [!code-xml[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample1.xml)]
 
 ## Configuring the UNC Share and Application Pool IDs
@@ -82,13 +76,13 @@ These directions should be repeated on both the UNC server as well as the web se
 2. Right-click on the **Users** folder and select **New User...**.
 3. Fill in the **New User** dialog entries as follows:  
 
-    - User name : **PoolId1**
-    - Password (&amp; Confirm Password) : **!p4ssw0rd**
-    - uncheck "User must change password at next logon"
-    - check "user cannot change password"
-    - Click **Create**, then **Close.**
+   - User name : **PoolId1**
+   - Password (&amp; Confirm Password) : **!p4ssw0rd**
+   - uncheck "User must change password at next logon"
+   - check "user cannot change password"
+   - Click **Create**, then **Close.**
 
-    [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image6.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
+     [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image6.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
 
 Make sure to create the **PoolId1** user on both the front-end IIS Web Server &amp; the back end UNC server. You also need to add the *PoolId1* to the IIS\_IUSRS group on the Front End Web Server. To do so:
 

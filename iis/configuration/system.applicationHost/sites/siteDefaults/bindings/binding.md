@@ -1,19 +1,14 @@
 ---
-title: "Adding a Default Binding &lt;binding&gt; | Microsoft Docs"
+title: "Adding a Default Binding &lt;binding&gt;"
 author: rick-anderson
 description: "Overview The &lt;binding&gt; element of the &lt;bindings&gt; element allows you to configure the information required for requests to communicate with a Web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7cefb7df-ea23-4d81-b5a7-ebaff5d5028a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/bindings/binding
 msc.type: config
 ---
-Adding a Default Binding &lt;binding&gt;
-====================
+# Adding a Default Binding &lt;binding&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -105,7 +100,7 @@ The following code samples configure the default `bindings` options for IIS 7.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](binding/samples/sample3.cs)]
 

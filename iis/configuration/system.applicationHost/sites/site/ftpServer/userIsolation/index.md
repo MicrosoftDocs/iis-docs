@@ -1,19 +1,14 @@
 ---
-title: "FTP User Isolation &lt;userIsolation&gt; | Microsoft Docs"
+title: "FTP User Isolation &lt;userIsolation&gt;"
 author: rick-anderson
 description: "Overview The &lt;userIsolation&gt; element is used to start or restrict FTP clients in specific sections of an FTP site. Depending on the options that are sp..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5a16156c-bf25-47d7-bca1-0803fd336236
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/userisolation
 msc.type: config
 ---
-FTP User Isolation &lt;userIsolation&gt;
-====================
+# FTP User Isolation &lt;userIsolation&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -30,7 +25,6 @@ FTP user isolation was introduced in IIS 6.0, but has been significantly updated
 > | ActiveDirectory | When specifying this mode in FTP 7.0 and FTP 7.5, the FTP service will retrieve the user isolation settings from each user's account in their Active Directory settings; this mode works the same as IIS 6.0. |
 > | Custom | With FTP 7.5, you can now specify **Custom** for the user isolation mode. This mode allows you to use FTP extensibility to provide custom user isolation by creating a custom FTP provider. |
 
-
 When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** modes for user isolation, the physical or virtual directory paths must use the following hierarchy:
 
 > | User Account Types | Home Directory Syntax |
@@ -39,7 +33,6 @@ When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** 
 > | Local Windows user accounts (Requires Basic authentication) | %*FtpRoot*%\LocalUser\%*UserName*% |
 > | Windows domain accounts (Requires Basic authentication) | %*FtpRoot*%\%UserDomain%\%*UserName*% |
 > | IIS Manager or ASP.NET custom authentication user accounts | %*FtpRoot*%\LocalUser\%*UserName*% |
-
 
 <a id="002"></a>
 ## Compatibility
@@ -55,9 +48,8 @@ When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** 
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
@@ -74,7 +66,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
     [![](index/_static/image2.png)](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -87,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.   
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -101,7 +93,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](index/_static/image6.png)](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -115,7 +107,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
@@ -124,9 +116,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
 ## How To
@@ -152,7 +144,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, then click the name of the site.
 3. In the site's **Home** pane, double-click **FTP User Isolation**.  
     [![](index/_static/image10.png)](index/_static/image9.png)
-4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:** , select **User name directory (disable global virtual directories)**.  
+4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:**, select **User name directory (disable global virtual directories)**.  
     [![](index/_static/image12.png)](index/_static/image11.png)
 5. In the **Actions** pane, click **Apply**.
 
@@ -179,7 +171,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click **FTP User Isolation**.  
     [![](index/_static/image14.png)](index/_static/image13.png)
-4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:** , select **FTP home directory configured in Active Directory** and then click **Set**.  
+4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:**, select **FTP home directory configured in Active Directory** and then click **Set**.  
     [![](index/_static/image16.png)](index/_static/image15.png)
 5. In the **Set Credentials** dialog box, enter a user name and password in the **User name** and **Password** boxes. Enter the password again in the **Confirm Password** box, and then click **OK**.
 6. In the **Actions** pane, click **Apply**.
@@ -221,7 +213,7 @@ The following examples configure Active Directory user isolation for an FTP site
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

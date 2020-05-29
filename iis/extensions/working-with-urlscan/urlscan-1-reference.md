@@ -1,19 +1,14 @@
 ---
-title: "UrlScan 1 Reference | Microsoft Docs"
+title: "UrlScan 1 Reference"
 author: rmcmurray
 description: "Note : UrlScan 1.0 has been replaced by UrlScan 3.1 and should not be used. If you are using UrlScan 1.0, you should download and install the latest version...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/15/2010
-ms.topic: article
 ms.assetid: f0de02bb-1fed-45d5-a674-c398d6cdadc5
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-1-reference
 msc.type: authoredcontent
 ---
-UrlScan 1 Reference
-====================
+# UrlScan 1 Reference
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 > [!NOTE]
@@ -46,8 +41,7 @@ UrlScan 1.0 required manual installation for IIS. The following steps will lead 
 
 1. Copy UrlScan.dll and UrlScan.ini into a local directory on the server. While it is not required, the suggested directory is:  
  `%SystemRoot%\System32\Inetsrv\UrlScan`
-2. Open the Internet Information Services (IIS) Manager: 
-
+2. Open the Internet Information Services (IIS) 
     - Open the Windows Control Panel.
     - Double-click **Administrative Tools**.
     - Double-click **Internet Information Services**.
@@ -140,7 +134,7 @@ To use this example, you would need to set UseAllowVerbs to 1 in the [Options] s
 
 ### [DenyVerbs] Section
 
-The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVerbs is set to 0 in the [Options] section, UrlScan will reject any request that contains a a verb that is listed in this section. The entries in this section are not case sensitive.
+The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVerbs is set to 0 in the [Options] section, UrlScan will reject any request that contains a verb that is listed in this section. The entries in this section are not case sensitive.
 
 ##### Example [DenyVerbs] Section
 

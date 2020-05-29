@@ -1,19 +1,14 @@
 ---
-title: "Install Zen Cart on IIS | Microsoft Docs"
+title: "Install Zen Cart on IIS"
 author: rick-anderson
 description: "Zen Cart is a PHP-based, open-source online store management system. It uses a MySQL database and HTML components. Support is provided for several languages..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/15/2008
-ms.topic: article
 ms.assetid: 5500e35b-b189-46dd-aa51-a222ef773b82
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-zen-cart-on-iis
 msc.type: authoredcontent
 ---
-Install Zen Cart on IIS
-====================
+# Install Zen Cart on IIS
+
 by Eric Woersching
 
 ## Introduction
@@ -44,9 +39,7 @@ Before starting the installation procedure for Zen Cart, you must create a datab
 
 Update the **Php.ini** file to add the **Php\_mysql.dll** module under the **Dynamic Extensions** section in the file, and ensure that the extension directory points to the correct location:
 
-
 [!code-console[Main](install-zen-cart-on-iis/samples/sample1.cmd)]
-
 
 Note that this article uses the "/zencart" folder as an example, but this is not required. You may use another folder, or you can install Zen Cart in the "root" directory (the base of your Web site).
 
@@ -85,7 +78,7 @@ The installer automatically supplies information during installation, but you mu
 
     *Figure 2: Database setup*
 9. Next, you are prompted for *phpBB path* information. If you have the phpBB forum software already installed on your site, enable it for connectivity and synchronization from Zen Cart by specifying the path where the phpBB files are located. (For example, if the files are located in ...public\_html/forums, enter /forums in the Zen Cart installer for the path to the phpBB files.)   
- If you do not have the phpBB forum software already installed on your site, select **No**.
+   If you do not have the phpBB forum software already installed on your site, select **No**.
 10. Complete the Store information about your e-commerce shop. Except for demonstration data, all of the information can also be (re)configured later in the administrator area of your shop.
 11. To install the demonstration data, select **Yes**, and then click **Save Store Settings**.
 12. Complete the administrator information to set your *login name*, *admin e-mail address*, and *password*. Note that both the login name and password are case sensitive.
@@ -99,9 +92,7 @@ When you enter the Catalog, you receive security warnings about the Configure.ph
 
 Change the permissions on the **Configure.php** files to read and execute:
 
-
 [!code-console[Main](install-zen-cart-on-iis/samples/sample2.cmd)]
-
 
 Note that "zencart" is used as an example in this article; your site may or may not include "zencart" as a folder name.
 

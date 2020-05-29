@@ -1,19 +1,14 @@
 ---
-title: "Achieving High Availability and Scalability - ARR and Hardware Load Balancer | Microsoft Docs"
+title: "Achieving High Availability and Scalability - ARR and Hardware Load Balancer"
 author: rick-anderson
 description: "Achieving High Availability and Scalability: Microsoft Application Request Routing (ARR) for IIS 7.0 and above and Hardware Load Balancer. Microsoft Corporat..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/13/2008
-ms.topic: article
 ms.assetid: 2fc074bf-34cc-4c09-a607-f5d70d4eff4e
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-hardware-load-balancer
 msc.type: authoredcontent
 ---
-Achieving High Availability and Scalability - ARR and Hardware Load Balancer
-====================
+# Achieving High Availability and Scalability - ARR and Hardware Load Balancer
+
 by Won Yoo
 
 **Achieving High Availability and Scalability:**  
@@ -156,12 +151,10 @@ In this scenario, all available ARR servers are considered active and candidates
 
 ![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image12.jpg)
 
-
 **Step 2: Configure the virtual server.**
 
 - In the Local Traffic section, click Virtual Servers. Then click the Create button to create a virtual server.
 - Any unique name will work for the virtual server; the example uses ARR\_VS. - For the Destination, you can use the IP address to which users will point their browsers. In this specific example, we use 65.197.145.23. For Service Port, we use ‘80'. - For the Virtual Server Type section, you have several options. Since you depend on ARR to route, you can select Performance HTTP, which is designed for the best performance. - For the Default Pool, select the pool that you created in Step 1.
-
 
 ![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image15.jpg)
 

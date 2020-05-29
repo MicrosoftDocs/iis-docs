@@ -1,19 +1,14 @@
 ---
-title: "Configure WMI on application servers for HostNameMemory affinity provider | Microsoft Docs"
+title: "Configure WMI on application servers for HostNameMemory affinity provider"
 author: rick-anderson
 description: "Overview In ARR Version 1, there are two host name affinity providers: Microsoft.Web.Arr.HostNameRoundRobin Microsoft.Web.Arr.HostNameMemory Microsoft.Web.Ar..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/16/2009
-ms.topic: article
 ms.assetid: 952093f4-ca8f-43db-9b59-32c0552120ea
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider
 msc.type: authoredcontent
 ---
-Configure WMI on application servers for HostNameMemory affinity provider
-====================
+# Configure WMI on application servers for HostNameMemory affinity provider
+
 by Won Yoo
 
 ## Overview
@@ -68,11 +63,11 @@ The following steps are to be performed on ***all the application servers in the
     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image5.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image4.jpg)
 6. Under **Launch and Activate Permissions**, select **Edit Limits.** Add the account of the worker process where ARR uses and allow:
 
-    - Local Launch
-    - Remote Launch
-    - Remote Activation
+   - Local Launch
+   - Remote Launch
+   - Remote Activation
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image7.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image6.jpg)
+     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image7.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image6.jpg)
 7. Click on **OK** to save the changes.
 
 ## Step 2 - Add user to Performance Monitor Users group
@@ -100,11 +95,11 @@ The following steps are to be performed on ***all the application servers in the
     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image17.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image16.jpg)
 4. Click on **Security** and add account of the worker process that ARR uses. Allow the following permissions:
 
-    - Execute Methods
-    - Enable Account
-    - Remote Enable
+   - Execute Methods
+   - Enable Account
+   - Remote Enable
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image19.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image18.jpg)
+     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image19.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image18.jpg)
 5. Click on **OK** to save the changes.
 
 ## Step 4 - Test configuration on ARR

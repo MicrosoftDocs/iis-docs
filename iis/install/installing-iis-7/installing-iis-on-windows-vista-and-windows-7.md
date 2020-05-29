@@ -1,24 +1,19 @@
 ---
-title: "Installing IIS 7 on Windows Vista and Windows 7 | Microsoft Docs"
+title: "Installing IIS 7 on Windows Vista and Windows 7"
 author: rick-anderson
 description: "Introduction You can use the Microsoft ® Web Platform Installer (Web PI) to easily install Internet Information Services (IIS), and applications that run on..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/26/2007
-ms.topic: article
 ms.assetid: 0e9d9685-6391-48cd-8a57-d47f6592d16b
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7
 msc.type: authoredcontent
 ---
-Installing IIS 7 on Windows Vista and Windows 7
-====================
+# Installing IIS 7 on Windows Vista and Windows 7
+
 by IIS Team
 
 ## Introduction
 
-Advances in cloud technologies have led many users to use [Windows Azure Web Sites](https://www.windowsazure.com/en-us/solutions/web/) to host both a production site and test site, as it makes it easy to test various configurations without impacting their own personal computers. If you still prefer to do this on your desktop, you can install IIS on it, as well as other applications and extensions easily using the Microsoft® Web Platform Installer (Web PI). To learn more about the Web PI, see [Learn about and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
+Advances in cloud technologies have led many users to use [Windows Azure Web Sites](https://www.windowsazure.com/solutions/web/) to host both a production site and test site, as it makes it easy to test various configurations without impacting their own personal computers. If you still prefer to do this on your desktop, you can install IIS on it, as well as other applications and extensions easily using the Microsoft® Web Platform Installer (Web PI). To learn more about the Web PI, see [Learn about and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
 
 If you choose to install IIS 7.0 or above manually, you can use this article for guidance.
 
@@ -105,7 +100,7 @@ IIS can also be installed unattended on Windows Vista. For detailed instructions
 
 ## Links for More Information
 
-[IIS 7 Installation and Deployment](https://technet.microsoft.com/en-us/library/ee692294(WS.10).aspx)
+[IIS 7 Installation and Deployment](https://technet.microsoft.com/library/ee692294(WS.10).aspx)
 
 [How to install ASP.NET 1.1 with IIS7 and Abobe on Vista and Windows 2008](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008.md).
 

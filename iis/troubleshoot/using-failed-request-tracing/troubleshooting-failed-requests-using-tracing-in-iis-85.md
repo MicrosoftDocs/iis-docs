@@ -1,24 +1,19 @@
 ---
-title: "Troubleshooting Failed Requests Using Tracing in IIS 8.5 | Microsoft Docs"
+title: "Troubleshooting Failed Requests Using Tracing in IIS 8.5"
 author: rick-anderson
 description: "Request-based tracing is available both in stand-alone IIS Servers and on Windows Azure Web Sites (WAWS) and provides a way to determine what exactly is happ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/20/2014
-ms.topic: article
 ms.assetid: d8b90f33-0d56-49a6-99d8-df8d4e34f2b0
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85
 msc.type: authoredcontent
 ---
-Troubleshooting Failed Requests Using Tracing in IIS 8.5
-====================
+# Troubleshooting Failed Requests Using Tracing in IIS 8.5
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 ## Introduction
 
-Request-based tracing is available both in stand-alone IIS Servers and on Windows Azure Web Sites (WAWS) and provides a way to determine what exactly is happening with your requests and why it is happening, provided that you can reproduce the problem that you are experiencing. Problems like poor performance on some requests, or authentication-related failures on other requests, or the server 500 error from ASP or ASP.NET can often be difficult to troubleshoot--unless you have captured the trace of the problem when it occurs. the following article discusses failed request tracing on IIS Server. For information about doing this with Windows Azure Web Sites [, click here](https://www.windowsazure.com/en-us/develop/net/tutorials/troubleshoot-web-sites-in-visual-studio/).
+Request-based tracing is available both in stand-alone IIS Servers and on Windows Azure Web Sites (WAWS) and provides a way to determine what exactly is happening with your requests and why it is happening, provided that you can reproduce the problem that you are experiencing. Problems like poor performance on some requests, or authentication-related failures on other requests, or the server 500 error from ASP or ASP.NET can often be difficult to troubleshoot--unless you have captured the trace of the problem when it occurs. the following article discusses failed request tracing on IIS Server. For information about doing this with Windows Azure Web Sites [, click here](https://www.windowsazure.com/develop/net/tutorials/troubleshoot-web-sites-in-visual-studio/).
 
 Failed-request tracing is designed to buffer the trace events for a request and only flush them to disk if the request "fails," where you provide the definition of "failure". If you want to know why your requests are returning a specific HTTP status code, e.g., 401 or 404, or if a request is taking a while to process or is not responding, then you can use failed request tracing.
 
@@ -58,7 +53,6 @@ You must make a backup of the configuration before doing the following tasks.
 
 1. In the command prompt, run the following command:
 
-
 [!code-console[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample1.cmd)]
 
 The above command creates a cleanInstall folder containing backup configuration files in `%windir%\system32\inetsrv\backup`.
@@ -70,7 +64,6 @@ The above command creates a cleanInstall folder containing backup configuration 
 3. Create a blank file and name it test.asp.
 4. In the command prompt, navigate to the test.asp file in \inetpub\wwwroot.
 5. In the test.asp file, paste the following content:
-
 
 [!code-html[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample2.html)]
 
@@ -113,9 +106,7 @@ After you enable failed-request tracing, you need to configure where the log fil
 
 Failed-request tracing logging is now enabled for the Default Web Site. Check the %*windir*%\system32\inetsrv\config\applicationHost.config file to confirm that the configuration looks as follows:
 
-
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample3.xml)]
-
 
 ### Step 2 : Configure Your Failure Definitions
 
@@ -151,9 +142,7 @@ You should see the following definition for the **Default Web Site**:
 
 IIS Manager writes the configuration to the `%systemdrive%\config inetpub\wwwroot\web.config` file by using a `<location>` tag. The configuration should look as follows:
 
-
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample4.xml)]
-
 
 ## Test and View the Failure Request Log File
 

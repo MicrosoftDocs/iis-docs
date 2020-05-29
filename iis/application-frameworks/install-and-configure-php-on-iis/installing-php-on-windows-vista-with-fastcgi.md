@@ -1,19 +1,14 @@
 ---
-title: "Installing PHP on Windows Vista with FastCGI | Microsoft Docs"
+title: "Installing PHP on Windows Vista with FastCGI"
 author: ruslany
 description: "Microsoft IIS 7.0 for Windows Vista SP1 now includes a built-in FastCGI component. To get detailed information on how to use FastCGI component to host PHP ap..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/18/2007
-ms.topic: article
 ms.assetid: 8c54faaa-76bf-4697-82dd-711e3aa0e259
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi
 msc.type: authoredcontent
 ---
-Installing PHP on Windows Vista with FastCGI
-====================
+# Installing PHP on Windows Vista with FastCGI
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## FastCGI support in Windows Vista

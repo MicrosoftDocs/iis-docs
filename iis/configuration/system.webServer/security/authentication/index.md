@@ -1,19 +1,14 @@
 ---
-title: "Security Authentication &lt;authentication&gt; | Microsoft Docs"
+title: "Security Authentication &lt;authentication&gt;"
 author: rick-anderson
 description: "Overview Authentication is the mechanism you use to verify the identity of visitors to your Web site or Web application. Typically, you do this by assigning..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: b1f83ca8-7395-4f55-96e0-c589dba20f89
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication
 msc.type: config
 ---
-Security Authentication &lt;authentication&gt;
-====================
+# Security Authentication &lt;authentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -97,13 +92,13 @@ The `<authentication>` element is included in the default installation of IIS 7.
 4. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Edit...** in the **Actions** pane.
 5. In the **Edit Anonymous Authentication Credentials** dialog box, do one of the following:
 
-    - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.   
-        [![](index/_static/image4.png)](index/_static/image3.png)
-    - Click **Set...**, and then in the **Set Credentials** dialog box, enter the user name for the account in the **User name** box, enter the password for the account in the **Password** and **Confirm password** boxes, click **OK**, and then click **OK** again.  
-        [![](index/_static/image6.png)](index/_static/image5.png)
+   - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.   
+       [![](index/_static/image4.png)](index/_static/image3.png)
+   - Click **Set...**, and then in the **Set Credentials** dialog box, enter the user name for the account in the **User name** box, enter the password for the account in the **Password** and **Confirm password** boxes, click **OK**, and then click **OK** again.  
+       [![](index/_static/image6.png)](index/_static/image5.png)
 
-    > [!NOTE]
-    > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.
+     > [!NOTE]
+     > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.
 
 * * *
 
@@ -168,7 +163,7 @@ The following examples disable Anonymous authentication for a site named Contoso
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

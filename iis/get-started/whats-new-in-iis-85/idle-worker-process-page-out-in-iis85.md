@@ -1,32 +1,24 @@
 ---
-title: "Idle Worker Process Page-Out in IIS 8.5 | Microsoft Docs"
+title: "Idle Worker Process Page-Out in IIS 8.5"
 author: garyericson
 description: "In IIS 8.5, the administrator has the option of suspending an idle worker process rather than terminating it."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/11/2013
-ms.topic: article
 ms.assetid: 39fa8dee-323a-4b29-8e19-e379b3a56eb2
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/idle-worker-process-page-out-in-iis85
 msc.type: authoredcontent
 ---
-Idle Worker Process Page-Out in IIS 8.5
-====================
+# Idle Worker Process Page-Out in IIS 8.5
+
 by [Gary Ericson](https://github.com/garyericson)
 
 > In IIS 8.5, the administrator has the option of suspending an idle worker process rather than terminating it.
 
-
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.5 and later | Idle Worker Process Page-Out was introduced in IIS 8.5. |
 | IIS 8.0 and earlier | Idle Worker Process Page-Out was not supported prior to IIS 8.5. |
-
 
 <a id="TOC301258515"></a>
 ## Problem

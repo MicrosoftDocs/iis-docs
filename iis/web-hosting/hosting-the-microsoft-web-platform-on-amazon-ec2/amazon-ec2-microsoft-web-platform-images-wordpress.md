@@ -1,19 +1,14 @@
 ---
-title: "Amazon EC2: Microsoft Web Platform Images - Wordpress | Microsoft Docs"
+title: "Amazon EC2: Microsoft Web Platform Images - Wordpress"
 author: thomasdeml
 description: "Introduction One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site u..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/02/2010
-ms.topic: article
 ms.assetid: f36bee17-6301-46e9-9f6f-c23a57041664
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress
 msc.type: authoredcontent
 ---
-Amazon EC2: Microsoft Web Platform Images - Wordpress
-====================
+# Amazon EC2: Microsoft Web Platform Images - Wordpress
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
@@ -73,7 +68,7 @@ Now we are ready to launch an EC2 DotNetNuke instance.
 
 ### Launching an DotNetNuke Instance
 
-Click the "Instances" menu item on the left hand sid eand click the "Launch Instance" button.   
+Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.   
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image10.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image9.png)
 
 Now select "Community Images" in the resulting dialog.
@@ -116,9 +111,7 @@ Open the .PEM file in notepad and copy it to the clipboard (Ctrl+A selects all, 
 Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
 If you are interested in a more permanent fix you can execute the following command on command-line:
 
-
 [!code-console[Main](amazon-ec2-microsoft-web-platform-images-wordpress/samples/sample1.cmd)]
-
 
 By setting the MaxScriptStatements to 100,000,000 (0x5F5E100) I don't see any security popups anymore.
 
@@ -130,8 +123,7 @@ Click "Download shortcut file" in the dialog that follows:
 
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image30.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image29.png)
 
-
-The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefoxes Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
+The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
 Once connected you will get logged on to the remote machine. Don't get to impatient because after the logon it will take a few moments until the Wordpress install kicks in.
 
 ## 4. Finalization of the Wordpress Installation

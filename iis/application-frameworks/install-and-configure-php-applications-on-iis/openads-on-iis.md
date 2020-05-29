@@ -1,19 +1,14 @@
 ---
-title: "OpenAds on IIS | Microsoft Docs"
+title: "OpenAds on IIS"
 author: rick-anderson
 description: "Introduction OpenAds 2.0 is an ad server written in PHP that allows you to place banners on your website and manage your banners in a professional way. OpenA..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2008
-ms.topic: article
 ms.assetid: 641d5740-dcfb-463d-96d7-3ac1d85b2352
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/openads-on-iis
 msc.type: authoredcontent
 ---
-OpenAds on IIS
-====================
+# OpenAds on IIS
+
 by Eric Woersching
 
 ## Introduction

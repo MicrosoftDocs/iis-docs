@@ -1,19 +1,14 @@
 ---
-title: "Configure SMTP E-Mail in IIS 7 | Microsoft Docs"
+title: "Configure SMTP E-Mail in IIS 7"
 author: rick-anderson
 description: "To send e-mail from a PHP application using the System.Net.Mail API, you must configure Simple Mail Transfer Protocol (SMTP) e-mail. Configuring e-mail servi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 181c9548-33dd-4af4-88b8-0dab0fd05811
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/configure-smtp-e-mail-in-iis-7-and-above
 msc.type: authoredcontent
 ---
-Configure SMTP E-Mail in IIS 7
-====================
+# Configure SMTP E-Mail in IIS 7
+
 by Tali Smith
 
 ## Introduction
@@ -72,9 +67,7 @@ You can configure IIS so that e-mail is delivered immediately or stored for late
 
 To configure SMTP e-mail to deliver e-mail messages immediately, use the following syntax:
 
-
 [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample1.cmd)]
-
 
 The variable **from***string* is the e-mail address of the sender. The variable **/deliveryMethod:network** configures IIS to deliver e-mail messages immediately. The variable **/network.port***int* sets the TCP port that is used by IIS to deliver e-mail messages. The variable **/network.host***string* specifies the host used for SMTP transactions. The variable **network.defaultCredentials:True**|**False** enables or disables authentication using the default network credentials. If **defaultCredentials** is set to **True**, Kerberos or NTLM are used if the server supports these protocols. The variables **network.userName:** *string* and **network. password:** *string* set a basic authentication user name and password.
 
@@ -82,9 +75,7 @@ The variable **from***string* is the e-mail address of the sender. The variable 
 
 To configure SMTP e-mail to store e-mails in a file location on disk for later delivery by an application, such as an ASP.NET application, or by a user, such as an administrator, use the following syntax:
 
-
 [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample2.cmd)]
-
 
 The variable from string is the e-mail address of the sender. The variable/deliveryMethod:PickupDirectoryFromIis|SpecifiedPickupDirectory string configures IIS to store e-mails in a file location on disk for later delivery. The variable /SpecifiedPickupDirectory string sets the file location on disk in which to store the e-mail messages for later delivery.
 
@@ -99,7 +90,7 @@ Note that when you use Appcmd.exe to configure the `<mailSettings>` element at t
 
     [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample4.cmd)]
   
-	Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
+    Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
 
     - Save and close the **Php.ini** file.
 3. Enable Relay for localhost:  
@@ -121,12 +112,10 @@ Note that when you use Appcmd.exe to configure the `<mailSettings>` element at t
 
 Create a test script to see whether you can send e-mail using PHP. Copy the following text and save it as **email\_test.php** at your server root.
 
-
 [!code-xml[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample5.xml)]
-
 
 Run the file at **mydomain.com/email\_test.php**.
 
 ## Links for Further Information
 
-- [Configure SMTP e-mail in IIS 7](https://technet.microsoft.com/en-us/library/cc772058(WS.10).aspx).
+- [Configure SMTP e-mail in IIS 7](https://technet.microsoft.com/library/cc772058(WS.10).aspx).

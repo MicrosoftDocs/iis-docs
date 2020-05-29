@@ -1,19 +1,14 @@
 ---
-title: "IIS Media Services Readme | Microsoft Docs"
+title: "IIS Media Services Readme"
 author: rick-anderson
 description: "Applies To: IIS Media Services 4 (IIS Media Services 4.1 and IIS Media Services 4.0), IIS Media Services 3 Last Updated: June 27, 2012 IIS Media Services int..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/23/2011
-ms.topic: article
 ms.assetid: 618ec076-9347-4dc0-b7b7-4f73cc069ac5
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/iis-media-services-readme
 msc.type: authoredcontent
 ---
-IIS Media Services Readme
-====================
+# IIS Media Services Readme
+
 by Dave Nelson
 
 Applies To: IIS Media Services 4 (IIS Media Services 4.1 and IIS Media Services 4.0), IIS Media Services 3
@@ -61,8 +56,7 @@ The following prerequisites must be fulfilled to install IIS Media Services:
 - You must be an administrator on the computer. This can be accomplished by logging on to the computer using either the Administrator account or an account with administrative privileges.
 
 > [!IMPORTANT]
-> Microsoft Silverlight includes support for cross-domain connectivity, which allows an application to access resources from locations other than the site of origin. This is an important feature for enabling Silverlight applications to consume existing services on the the web. The security policy system in the Silverlight runtime requires that a Silverlight policy file named ClientAccessPolicy.xml be downloaded from a target domain before a network connection is allowed access to a network resource under that target domain. If you expect to deliver Smooth Streams across domain boundaries to Silverlight-based clients, you must host the ClientAccessPolicy.xml file in your Smooth Streaming web server root to allow Silverlight applications to access the Smooth Streams. For more information about how to create a ClientAccessPolicy.xml file, see [Network Security Access Restrictions in Silverlight](https://go.microsoft.com/?linkid=9749724).
-
+> Microsoft Silverlight includes support for cross-domain connectivity, which allows an application to access resources from locations other than the site of origin. This is an important feature for enabling Silverlight applications to consume existing services on the web. The security policy system in the Silverlight runtime requires that a Silverlight policy file named ClientAccessPolicy.xml be downloaded from a target domain before a network connection is allowed access to a network resource under that target domain. If you expect to deliver Smooth Streams across domain boundaries to Silverlight-based clients, you must host the ClientAccessPolicy.xml file in your Smooth Streaming web server root to allow Silverlight applications to access the Smooth Streams. For more information about how to create a ClientAccessPolicy.xml file, see [Network Security Access Restrictions in Silverlight](https://go.microsoft.com/?linkid=9749724).
 
 <a id="install"></a>
 
@@ -158,7 +152,6 @@ The following Apple mobile digital devices/iOS mobile operating systems are supp
 > - Although the iPhone 3GS can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch devices.
 > - You shouldn't use AAC-LC audio at bitrates higher than 64 Kbps when targeting iPhone/iPod devices.
 
-
 **About Expression Encoder 4**
 
 [Microsoft Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) must be used to encode to Smooth Streaming format with H.264/AAC-LC codecs. If you purchased Expression Studio 3 from a store, and it's installed on your computer, you can download a trial version of Expression Studio 4 Ultimate or Expression Studio 4 Web Professional, and the full version of Expression Studio 4 (which includes Expression Encoder 4 Pro) will automatically be enabled.
@@ -215,7 +208,6 @@ If you use [Application Request Routing (ARR)](https://go.microsoft.com/?linkid=
 > 
 > Turning off ASP.NET session state disables it for all local website or directory features and applications that are using it. If you are also the Web Playlists feature in IIS Media Services on the local website or directory and you configured Web Playlists to use ASP.NET session state persistence to store user session variables, be sure to change the **Session persistence type** in Web Playlists to **InMemory** to store user session data in the web server worker process memory. For more information about how to change the session-persistence type, see [Edit Feature Settings Dialog Box](https://go.microsoft.com/?linkid=9749726).
 
-
 #### Archiving segmented presentations
 
 Applies To: IIS Media Services 4, IIS Media Services 3
@@ -258,7 +250,6 @@ These issues occur because the string that specifies the HTTP verbs contains a s
 >  
 > 
 > If you perform the procedure in this section by using IIS Manager, you must be a server administrator or an IIS Manager user who has been granted permission to the web server in IIS Manager. If you perform the procedure in this section by using Appcmd.exe, you must have Write permissions to applicationHost.config.
-
 
 ##### To configure request restrictions for the SmoothHandler handler mapping in IIS Manager
 
@@ -311,9 +302,9 @@ If you are installing IIS Media Services for the first time, or if you are upgra
 1. Verify that **ASP.NET** for IIS is installed.
 2. If you used Web PI to install IIS Media Services, download and run the Windows Installer file for your edition of Windows. (See **Install Using Windows Installer** for more information.)  
   
- -or-  
+   -or-  
   
- If you used a Windows Installer file to install IIS Media Services, in **Control Panel** &gt; **Programs** &gt; **Programs and Features**, under **Uninstall or change a program**, click **IIS Media Services**, and then click **Change** .
+   If you used a Windows Installer file to install IIS Media Services, in **Control Panel** > **Programs** > **Programs and Features**, under **Uninstall or change a program**, click **IIS Media Services**, and then click **Change**.
 3. In **IIS Media Services Setup**, on the **Change, repair, or remove installation** page, click **Change**.
 4. In **IIS Media Services Setup**, on the **Custom Setup** page, mark the **Session Helper** feature under **Web Playlists** for installation.
 
@@ -321,7 +312,7 @@ If you are installing IIS Media Services for the first time, or if you are upgra
 
 Applies To: IIS Media Services 4, IIS Media Services 3
 
-When you use XSL Transformation (XSLT) style sheets in Web Playlists to specify alternate output formats in the Web Playlists response to clients, you must specify an output format name. The output format name is attached to the query string in the playlist URL returned to clients. For example, http://*ServerName*/*PlaylistName*.isx?format=*FormatName*, where *FormatName* is any name that you use to identify the output format. The query string is the part of the URL after the question mark (?) character (format=*FormatName*).
+When you use XSL Transformation (XSLT) style sheets in Web Playlists to specify alternate output formats in the Web Playlists response to clients, you must specify an output format name. The output format name is attached to the query string in the playlist URL returned to clients. For example, http://<em>ServerName</em>/*PlaylistName*.isx?format=*FormatName*, where *FormatName* is any name that you use to identify the output format. The query string is the part of the URL after the question mark (?) character (format=*FormatName*).
 
 Web Playlists encodes the URLs returned to clients according to Internet standards described in [RFC 1738: Uniform Resource Locators (URL)](https://go.microsoft.com/?linkid=9735243). Special characters (such as a space, brackets (&lt; and &gt;), ampersand (&amp;), and so on) that you include in the output format name in the query strings returned to clients aren't encoded and some clients might not be able to parse the URL by using escape characters and view the transformed output. To ensure that all clients can view the transformed output, we recommend that you don't use special characters in XSLT output format names. If you want to use a space in your output format name, use the hyphen (-) character instead, as most web browsers recognize the hyphen as a space separator.
 

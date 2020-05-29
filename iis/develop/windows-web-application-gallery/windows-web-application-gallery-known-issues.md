@@ -1,19 +1,14 @@
 ---
-title: "Windows Web Application Gallery: Known Issues | Microsoft Docs"
+title: "Windows Web Application Gallery: Known Issues"
 author: rick-anderson
 description: "Introduction With just a few mouse clicks the Windows Web Application Gallery lets you select, download and install popular web applications like blogs, cont..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 9ac68e1c-b377-4696-bde0-c44fe46750b5
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-known-issues
 msc.type: authoredcontent
 ---
-Windows Web Application Gallery: Known Issues
-====================
+# Windows Web Application Gallery: Known Issues
+
 by IIS Team
 
 ## Introduction
@@ -38,7 +33,6 @@ If you want to create a new web site for your web application you need to create
 
 [![](windows-web-application-gallery-known-issues/_static/image33.png)](windows-web-application-gallery-known-issues/_static/image31.png)
 
-
 ### Other Web Platform Installer Issues
 
 For other Web Platform Installer issues, for example if Web Platform Installer can't connect to the list of applications due to connectivity issues, read the following article for more details:
@@ -59,13 +53,13 @@ Web Platform Installer prompts for a SQL Server sa password if SQL Server 2008 E
 
 All Web Applications installed by the Web Platform Installer which have a SQL Server dependency require SQL Server to run in Mixed Mode Authentication also known as "SQL Server and Windows Authentication mode". Here is a link to an article how to change the SQL Server authentication mode:
 
-*[https://msdn.microsoft.com/en-us/library/ms188670.aspx](https://msdn.microsoft.com/en-us/library/ms188670.aspx)*
+*[https://msdn.microsoft.com/library/ms188670.aspx](https://msdn.microsoft.com/library/ms188670.aspx)*
 
 #### SA login disabled
 
 Administrators often want to use the built-in SA account to administer SQL Server. This account is still disabled even if Mixed Mode authentication is enabled. The same article explains how to enable the SA account:
 
-[https://msdn.microsoft.com/en-us/library/ms188670.aspx](https://msdn.microsoft.com/en-us/library/ms188670.aspx)
+[https://msdn.microsoft.com/library/ms188670.aspx](https://msdn.microsoft.com/library/ms188670.aspx)
 
 #### SA account doesn't work when "Existing Database" is selected.
 
@@ -83,7 +77,6 @@ Umbraco can't be hosted in an application directory. It has to be hosted in the 
 
 [![](windows-web-application-gallery-known-issues/_static/image40.png)](windows-web-application-gallery-known-issues/_static/image39.png)
 
-
 When Web Platform Installer shows the following dialog during the Umbraco installatioin the 'Umbraco' application name has to stay empty or Umbraco will not work correctly.
 
 ### SubText
@@ -99,7 +92,6 @@ If you install SubText The SubText admin menu is not shown in Internet Explorer 
 Gallery is a web application that works with Microsoft SQL Server as well as MySQL. For this reason the database field doesn't suggest the name of the database server. If you have SQL Server Express installed locally (which is the default if SQL Express is installed via Web Platform Installer) the database name has to look like this: **.\SQLExpress**
 
 [![](windows-web-application-gallery-known-issues/_static/image47.png)](windows-web-application-gallery-known-issues/_static/image46.png)
-
 
 If MySQL is used locally the database server name can be **'localhost'**.
 

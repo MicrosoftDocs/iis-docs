@@ -1,19 +1,14 @@
 ---
-title: "ASP | Microsoft Docs"
+title: "ASP"
 author: walterov
 description: "Classic ASP is included in IIS 7.0 and above, and can be used in Shared Hosting scenarios. However, hosters planning to do so should consider the following r..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: bee41ab6-2d77-4e8e-bfd1-ec7c28cb9b43
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/asp
 msc.type: authoredcontent
 ---
-ASP
-====================
+# ASP
+
 by [Walter Oliver](https://github.com/walterov)
 
 Classic ASP is included in IIS 7.0 and above, and can be used in Shared Hosting scenarios. However, hosters planning to do so should consider the following recommendations:

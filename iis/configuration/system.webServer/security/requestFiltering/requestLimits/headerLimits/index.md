@@ -1,19 +1,14 @@
 ---
-title: "Header Limits &lt;headerLimits&gt; | Microsoft Docs"
+title: "Header Limits &lt;headerLimits&gt;"
 author: rick-anderson
 description: "Overview The &lt;headerLimits&gt; element of the &lt;requestFiltering&gt; collection contains a collection of &lt;add&gt; elements that specify the maximum s..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3de8bcbd-017a-4424-a523-6c811a5721d2
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits/headerlimits
 msc.type: config
 ---
-Header Limits &lt;headerLimits&gt;
-====================
+# Header Limits &lt;headerLimits&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -24,7 +19,7 @@ The `<headerLimits>` element of the `<requestFiltering>` collection contains a c
 
 | HTTP Substatus | Description |
 | --- | --- |
-| `404.10` | Request Header Too Long |
+| `431` | Request Header Too Long |
 
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
  
@@ -148,7 +143,11 @@ The following code samples will configure IIS to deny access for HTTP requests w
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

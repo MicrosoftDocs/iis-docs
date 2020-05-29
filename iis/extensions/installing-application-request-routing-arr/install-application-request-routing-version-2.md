@@ -1,19 +1,14 @@
 ---
-title: "Install Application Request Routing Version 2 | Microsoft Docs"
+title: "Install Application Request Routing Version 2"
 author: rick-anderson
 description: "This topic leads the reader through the steps to install Microsoft Application Request Routing (ARR) Version 2 for IIS 7 and above . Goal To successfully ins..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: aaed5a3c-0fcf-4589-9ae0-f33e2adf592f
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/installing-application-request-routing-arr/install-application-request-routing-version-2
 msc.type: authoredcontent
 ---
-Install Application Request Routing Version 2
-====================
+# Install Application Request Routing Version 2
+
 by IIS Team
 
 This topic leads the reader through the steps to install Microsoft Application Request Routing (ARR) **Version 2 for IIS 7 and above**.
@@ -61,7 +56,7 @@ Download the Microsoft Application Request Routing release from the following lo
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample2.cmd)]
 
- This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).
+   This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).
 3. Run ARRv2\_setup\_&lt;architecture&gt;.exe; for example: 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample3.cmd)]
@@ -86,7 +81,7 @@ Download the Microsoft Application Request Routing release from the following lo
     - requestrouter.msi
     - externaldiskcache.msi
 
- For more information, launch the executable file with the /? option.
+   For more information, launch the executable file with the /? option.
 9. Start the **WAS** and **WMSVC** processes by entering the following: 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample5.cmd)]

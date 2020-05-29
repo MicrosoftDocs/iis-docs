@@ -1,19 +1,14 @@
 ---
-title: "HTTP Errors &lt;httpErrors&gt; | Microsoft Docs"
+title: "HTTP Errors &lt;httpErrors&gt;"
 author: rick-anderson
 description: "Overview The &lt;httpErrors&gt; element allows you to configure custom error messages for your Web site or application. Custom error messages let you provide..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7835c60f-7655-48d0-8a79-3fc9fa8e22b3
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httperrors
 msc.type: config
 ---
-HTTP Errors &lt;httpErrors&gt;
-====================
+# HTTP Errors &lt;httpErrors&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -83,7 +78,7 @@ The `<httpErrors>` element is included in the default installation of IIS 7.
 7. In the **File path** text box, type the path of the custom error page if you chose **Insert content from static file into the error response** or the URL of the custom error page if you use either the **Execute a URL on this site** or **Respond with a 302 redirect**, and then click **OK**.  
   
     > [!NOTE]
-    > If you select     **Execute a URL on this site** , the path must be a relative path. If you select     **Respond with a 302 redirect** , the URL must be an absolute URL.
+    > If you select **Execute a URL on this site**, the path must be a relative path. If you select **Respond with a 302 redirect**, the URL must be an absolute URL.
 
 <a id="005"></a>
 ## Configuration
@@ -127,7 +122,7 @@ The following examples adds a new file for all status code 404 errors with a sub
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

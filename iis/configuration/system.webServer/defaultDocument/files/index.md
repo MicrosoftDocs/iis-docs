@@ -1,19 +1,14 @@
 ---
-title: "Default Document Files &lt;files&gt; | Microsoft Docs"
+title: "Default Document Files &lt;files&gt;"
 author: rick-anderson
 description: "Overview The &lt;files&gt; element of the &lt;defaultDocument&gt; collection specifies a list of file names that are configured as default documents. The &lt..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5ae85fdc-98e8-4b1f-bb16-df1c999d19b6
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/defaultdocument/files
 msc.type: config
 ---
-Default Document Files &lt;files&gt;
-====================
+# Default Document Files &lt;files&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -98,7 +93,7 @@ The following examples enable default documents on a Web site named Contoso then
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

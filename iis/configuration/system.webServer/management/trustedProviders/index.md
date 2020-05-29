@@ -1,19 +1,14 @@
 ---
-title: "Management Trusted Providers &lt;trustedProviders&gt; | Microsoft Docs"
+title: "Management Trusted Providers &lt;trustedProviders&gt;"
 author: rick-anderson
 description: "Overview The &lt;trustedProviders&gt; element of the &lt;management&gt; element configures the management providers that are trusted by IIS Manager and the M..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a1ee8630-bcaa-4b41-a17f-d5d7921f35d7
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/trustedproviders
 msc.type: config
 ---
-Management Trusted Providers &lt;trustedProviders&gt;
-====================
+# Management Trusted Providers &lt;trustedProviders&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -123,7 +118,7 @@ The following code examples add a provider named Contoso.Provider to the collect
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample2.cs)]
 

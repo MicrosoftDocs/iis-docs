@@ -1,21 +1,13 @@
 ---
-title: "FTP Request Filtering &lt;requestFiltering&gt; | Microsoft Docs"
+title: "FTP Request Filtering &lt;requestFiltering&gt;"
 author: rick-anderson
 description: "Overview FTP Request Filtering is a built-in security feature that was introduced in FTP 7, and is roughly analogous to the functionality that was available..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 721620b1-b4e6-4f90-9c90-4525384554f1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering
 msc.type: config
 ---
-FTP Request Filtering &lt;requestFiltering&gt;
-====================
-<a id="001"></a>
-## Overview
+# FTP Request Filtering &lt;requestFiltering&gt;
 
 FTP Request Filtering is a built-in security feature that was introduced in FTP 7, and is roughly analogous to the functionality that was available through request filtering features that are available for HTTP sites. All of the settings for the request filtering feature are located within the `<requestFiltering>` element, which contains several child elements for each of the following feature areas:
 
@@ -41,6 +33,7 @@ On significant difference between FTP request filtering and HTTP request filteri
 Notification of the conditions that are indicated by these substatuses allows Web administrators to analyze their IIS logs and identify potential threats.
 
 <a id="002"></a>
+
 ## Compatibility
 
 | Version | Notes |
@@ -54,13 +47,13 @@ Notification of the conditions that are indicated by these substatuses allows We
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
-> [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
+>
+> <https://www.iis.net/downloads/microsoft/ftp>
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
 <a id="003"></a>
+
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -73,8 +66,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you need to select **FTP Extensibility**, in addition to **FTP Service**.
+
+    [![](index/_static/image2.png)](index/_static/image1.png)
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -83,11 +77,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-3. Expand **Internet Information Services**, and then select **FTP Server**.   
+3. Expand **Internet Information Services**, and then select **FTP Server**.
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
+    > [![](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -100,8 +94,8 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you also need to select **FTP Extensibility**.
+    > [![](index/_static/image6.png)](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -114,20 +108,22 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you also need to select **FTP Extensibility**.
+    > [![](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
 
-1. Download the installation package from the following URL: 
+1. Download the installation package from the following URL:
 
-    - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+    <https://www.iis.net/downloads/microsoft/ftp>
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
- 
+2. Follow the instructions in the following walkthrough to install the FTP service:
+
+    [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+
 <a id="004"></a>
+
 ## How To
 
 > [!NOTE]
@@ -135,19 +131,19 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 ### How to deny FTP access to a specific file name extension
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -155,61 +151,59 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. In the **FTP Request Filtering** pane, click the **File Name Extensions** tab.  
     [![](index/_static/image10.png)](index/_static/image9.png)
-5. Click **Deny File Name Extension...** in the **Actions** pane.
+5. Click **Deny File Name Extension** in the **Actions** pane.
 6. In the **Deny File Name Extension** dialog box, enter the file name extension that you wish to block. For example, to prevent access to files with a file name extension of .inc, you would enter "inc" in the dialog box.  
     [![](index/_static/image12.png)](index/_static/image11.png)
 7. Click **OK**.
 
-* * *
-
 ### How to edit the request filtering feature settings and request limits
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
-4. Click **Edit Feature Settings...** in the **Actions** pane.  
+4. Click **Edit Feature Settings** in the **Actions** pane.  
     [![](index/_static/image14.png)](index/_static/image13.png)
-5. Specify your options. For example, you could make the following changes: 
+5. Specify your options. For example, you could make the following changes:
 
-    - Change the maximum URL length to 2KB by specifying 2048.
-    - Change the maximum command length to 1KB by specifying 1024.
-    - > [!NOTE]
- > It is recommended that you do not clear the **Allow unlisted commands** check box.  
-        [![](index/_static/image16.png)](index/_static/image15.png)
+   - Change the maximum URL length to 2KB by specifying 2048.
+   - Change the maximum command length to 1KB by specifying 1024.
+
+   > [!NOTE]
+   > It is recommended that you do not clear the **Allow unlisted commands** check box.
+   >
+   > [![](index/_static/image16.png)](index/_static/image15.png)
 6. Click **OK**.
-
-* * *
 
 ### How to add an FTP hidden segment
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -217,28 +211,26 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. In the **FTP Request Filtering** pane, click the **Hidden Segments** tab.  
     [![](index/_static/image18.png)](index/_static/image17.png)
-5. Click **Add Hidden Segment...** in the **Actions** pane.  
+5. Click **Add Hidden Segment** in the **Actions** pane.  
     [![](index/_static/image20.png)](index/_static/image19.png)
 6. In the **Add Hidden Segment** dialog box, enter the path that you want to hide.
 7. Click **OK**.
 
-* * *
-
 ### How to deny an FTP URL sequence
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
@@ -247,12 +239,13 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](index/_static/image22.png)](index/_static/image21.png)
 4. In the **FTP Request Filtering** pane, click the **Denied URL Sequences** tab.  
     [![](index/_static/image24.png)](index/_static/image23.png)
-5. Click **Add URL Sequence...** in the **Actions** pane.
+5. Click **Add URL Sequence** in the **Actions** pane.
 6. In the **Add Deny Sequence** dialog box, enter the URL sequence that you wish to block.  
     [![](index/_static/image26.png)](index/_static/image25.png)
 7. Click **OK**.
 
 <a id="005"></a>
+
 ## Configuration
 
 The `<requestFiltering>` element is configured at the global, site or URL level.
@@ -282,10 +275,10 @@ The following sample illustrates several security-related configuration settings
 - Block FTP access to the \_vti\_bin virtual directory, which is used with the FrontPage Server Extensions.
 - Specify FTP IP filtering options that allow access from 127.0.0.1 and deny access from the 169.254.0.0/255.255.0.0 range of IP addresses.
 
-
 [!code-xml[Main](index/samples/sample1.xml)]
 
 <a id="006"></a>
+
 ## Sample Code
 
 The following examples specify FTP request filtering options that deny \*.exe, \*.com, \*.bat, and \*.cmd files.
@@ -297,7 +290,7 @@ The following examples specify FTP request filtering options that deny \*.exe, \
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 
@@ -324,7 +317,7 @@ The following examples specify FTP request limits for a maximum content length o
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample8.cs)]
 

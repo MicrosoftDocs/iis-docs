@@ -1,19 +1,14 @@
 ---
-title: "Management Authentication Providers &lt;providers&gt; | Microsoft Docs"
+title: "Management Authentication Providers &lt;providers&gt;"
 author: rick-anderson
 description: "Overview The &lt;providers&gt; element of the &lt;authentication&gt; element specifies authentication providers that the Management Service (WMSVC) uses to a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 6317cc57-e2d4-4dcf-96c7-11ea4a8247ae
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authentication/providers
 msc.type: config
 ---
-Management Authentication Providers &lt;providers&gt;
-====================
+# Management Authentication Providers &lt;providers&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -122,7 +117,7 @@ The following code examples add an authentication provider named ContosoAuthenti
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample2.cs)]
 

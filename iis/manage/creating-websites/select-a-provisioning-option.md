@@ -1,19 +1,14 @@
 ---
-title: "Select a Provisioning Option | Microsoft Docs"
+title: "Select a Provisioning Option"
 author: rick-anderson
 description: "Both the IT administrator and the software developer need to consider the provisioning of Web sites in a hosting environment. The provisioning of Web sites i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 1f918a2e-868f-497c-941d-7281d7b8f2e1
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/select-a-provisioning-option
 msc.type: authoredcontent
 ---
-Select a Provisioning Option
-====================
+# Select a Provisioning Option
+
 by Tali Smith
 
 ## Introduction
@@ -35,7 +30,7 @@ You can use IIS Manager, the management user interface that comes with IIS, to c
 - **Disadvantages**  
  Managing large IIS server configurations or multiple servers over the Internet can be slow and cumbersome. Not all configuration properties can be accessed in the user interface.
 
-For instructions on using the UI to provision Web sites, see [Create a Web Site (IIS 7)](https://technet.microsoft.com/en-us/library/cc772350(WS.10).aspx).
+For instructions on using the UI to provision Web sites, see [Create a Web Site (IIS 7)](https://technet.microsoft.com/library/cc772350(WS.10).aspx).
 
 ## Use the Text Editor
 
@@ -67,21 +62,15 @@ AppCmd.exe can be used to provision Web sites and run many commands to edit conf
 
 The following code sample is an example of code that can be used to create a site and an application pool (with failed request tracing and W3svc log file locations).
 
-
 [!code-console[Main](select-a-provisioning-option/samples/sample2.cmd)]
-
 
 You can use the following code to configure the Failed Request Tracing log file location:
 
-
 [!code-console[Main](select-a-provisioning-option/samples/sample3.cmd)]
-
 
 You can use the following code to configure the W3SVC log file location:
 
-
 [!code-console[Main](select-a-provisioning-option/samples/sample4.cmd)]
-
 
 ## Use a Managed API (Microsoft.Web.Administration)
 
@@ -94,15 +83,11 @@ You can use managed application programming interfaces (APIs) in Microsoft.Web.A
 
 The following code can be used to create a site and an application pool and to set temporary compilation directories.
 
-
 [!code-csharp[Main](select-a-provisioning-option/samples/sample5.cs)]
-
 
 To set a unique temporary compilation directory for each site, use the following code:
 
-
 [!code-csharp[Main](select-a-provisioning-option/samples/sample6.cs)]
-
 
 ## Use Active Directory Service Interfaces (ADSI)
 
@@ -133,10 +118,8 @@ Use ABO to programmatically configure IIS in a compiled program written in C, C+
  ABO is not scriptable. ABO applications can only be written in C++ or Visual Basic 6.0.  
  Since ABO accesses IIS at the lowest level, it is more difficult to use than ADSI or WMI because there are no methods that compress multiple lines of ABO code into one method call. Also, there are no safeguards to prevent you from configuring invalid settings.
 
-
 > [!NOTE]
 > *This article updates the articles in: "[Code Samples and Scripts](../provisioning-and-managing-iis/index.md)" by Walter Oliver, published on December 2, 2007.*
-
 
 ## Links for Further Information
 

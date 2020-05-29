@@ -1,0 +1,431 @@
+- name: IIS Search Engine Optimization Toolkit
+  href: iis-search-engine-optimization-toolkit.md
+  items:
+  - name: Microsoft.Web.Management.SEO.Crawler Namespace
+    href: https://docs.microsoft.com/previous-versions/
+    items:
+    - name: CrawlerModule Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'CrawlerModule Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+      - name: CrawlerModule Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'IDisposable.Dispose Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'BeginAnalysis Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Dispose Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'EndAnalysis Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Initialize Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Process Method '
+          href: https://docs.microsoft.com/previous-versions/
+      - name: CrawlerModule Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'Crawler Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Settings Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: CrawlerProcessContext Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: CrawlerProcessContext Methods
+        href: https://docs.microsoft.com/previous-versions/
+      - name: CrawlerProcessContext Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'Links Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'UrlInfo Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Violations Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: CrawlerReport Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: CrawlerReport Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'AddLinks Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'AddUrl Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'AddViolations Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ContainsLink Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'CreateUrlInfo Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetFileName Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetLinkCount Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetLinks Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetUrl Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetUrlCount Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetUrls Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetViolationCount Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetViolations Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'RegisterProperty Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Save Method '
+          href: https://docs.microsoft.com/previous-versions/
+      - name: CrawlerReport Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'Items Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Settings Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: CrawlerSettings Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'CrawlerSettings Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'CrawlerSettings Constructor '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: CrawlerSettings Constructor (Uri)
+          href: https://docs.microsoft.com/previous-versions/
+      - name: CrawlerSettings Methods
+        href: https://docs.microsoft.com/previous-versions/
+      - name: CrawlerSettings Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'CacheResponses Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Credentials Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'DirectoryCache Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'EndTime Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ExternalLinkCriteria Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'IgnoreNoFollow Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'IgnoreNoIndex Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'IgnoreRobots Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'LinkCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'MaxContentLength Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'MaximumLinkCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'NavigateExternalLinks Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'StartTime Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'StartUrl Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Timeout Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'UrlCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'UserAgent Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'UseUserAgentForRobots Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ViolationCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: ExternalLinkCriteria Enumeration
+      href: https://docs.microsoft.com/previous-versions/
+    - name: Link Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'Link Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+      - name: Link Methods
+        href: https://docs.microsoft.com/previous-versions/
+      - name: Link Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'LinkType Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Position Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Text Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Url Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: LinkType Enumeration
+      href: https://docs.microsoft.com/previous-versions/
+    - name: UrlInfo Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: UrlInfo Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'AddLink Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'AddLinks Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'AddViolation Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'AddViolations Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ContainsLink Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetPropertyValue Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'SetPropertyValue Method '
+          href: https://docs.microsoft.com/previous-versions/
+      - name: UrlInfo Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'CanonicalUrl Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ContentEncoding Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ContentLength Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ContentType Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ContentTypeNormalized Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ContentTypeNormalizedSet Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'FileName Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Hash Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'HasLinks Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'HasViolations Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Headers Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Heading Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Host Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'IsExternal Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Keywords Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'LastModified Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'LinkCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'LinkedByCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Links Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Response Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ResponseStream Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Scheme Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Status Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'StatusCode Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'TimeTaken Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Title Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Url Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ViolationCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Violations Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'VirtualDirectory Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: Violation Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'Violation Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: Violation Constructor (UrlInfo)
+          href: https://docs.microsoft.com/previous-versions/
+        - name: Violation Constructor (ViolationInfo, Int32, String[])
+          href: https://docs.microsoft.com/previous-versions/
+      - name: Violation Methods
+        href: https://docs.microsoft.com/previous-versions/
+      - name: Violation Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'Parameters Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Position Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'UrlInfo Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ViolationInfo Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: ViolationInfo Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'ViolationInfo Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: ViolationInfo Constructor (String, ViolationLevel, String, String, String, String)
+          href: https://docs.microsoft.com/previous-versions/
+        - name: ViolationInfo Constructor (String, ViolationLevel, String, String, String, String, Boolean)
+          href: https://docs.microsoft.com/previous-versions/
+      - name: ViolationInfo Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'Equals Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetHashCode Method '
+          href: https://docs.microsoft.com/previous-versions/
+      - name: ViolationInfo Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'Category Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Code Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Level Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Recommendation Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'SingleInstance Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Title Property '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: ViolationLevel Enumeration
+      href: https://docs.microsoft.com/previous-versions/
+    - name: WebCrawler Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'WebCrawler Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+      - name: WebCrawler Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'RegisterModule Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Start Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Stop Method '
+          href: https://docs.microsoft.com/previous-versions/
+      - name: WebCrawler Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'BytesDownloaded Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'IsRunning Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'RemainingUrls Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Report Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'Settings Property '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'WorkerCount Property '
+          href: https://docs.microsoft.com/previous-versions/
+  - name: Microsoft.Web.Management.SEO.SiteAnalyzer Namespace
+    href: https://docs.microsoft.com/previous-versions/
+    items:
+    - name: HtmlViewerClientSite Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'HtmlViewerClientSite Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+      - name: HtmlViewerClientSite Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'IDispatchInvokeHandler Method '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: ScriptCompareObject Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: ScriptCompareObject Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'NewComparisonQuery Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'OpenNewReport Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'OpenOldReport Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowAddedUrls Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowChangedUrls Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowDeletedUrls Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowDiffStatus Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowFaster Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowFixedExistingViolations Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowFixedViolations Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowInNewViolations Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowLarger Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowLessLinks Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowMoreLinks Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowNewExistingViolations Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowNewUrls Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowOldUrls Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowSlower Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowSmaller Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'ShowUnchangedUrls Method '
+          href: https://docs.microsoft.com/previous-versions/
+    - name: SiteAnalyzerExtension Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'SiteAnalyzerExtension Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+      - name: SiteAnalyzerExtension Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'GetTaskList Method '
+          href: https://docs.microsoft.com/previous-versions/
+  - name: Microsoft.Web.Management.SEO.Sitemaps Namespace
+    href: https://docs.microsoft.com/previous-versions/
+    items:
+    - name: SitemapExtension Class
+      href: https://docs.microsoft.com/previous-versions/
+      items:
+      - name: 'SitemapExtension Constructor '
+        href: https://docs.microsoft.com/previous-versions/
+      - name: SitemapExtension Methods
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'GetSitemapIndexTaskList Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetSitemapsTaskList Method '
+          href: https://docs.microsoft.com/previous-versions/
+        - name: 'GetSitemapTaskList Method '
+          href: https://docs.microsoft.com/previous-versions/
+      - name: SitemapExtension Properties
+        href: https://docs.microsoft.com/previous-versions/
+        items:
+        - name: 'ServiceProvider Property '
+          href: https://docs.microsoft.com/previous-versions/

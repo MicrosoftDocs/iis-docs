@@ -1,19 +1,14 @@
 ---
-title: "HttpPlatformHandler Configuration Reference | Microsoft Docs"
+title: "HttpPlatformHandler Configuration Reference"
 author: rick-anderson
 description: "This article provides an overview of the HttpPlatformHandler and explains the configuration of the module."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/26/2015
-ms.topic: article
 ms.assetid: 9618d75c-4258-4c96-a5f7-3f2297903ac5
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/httpplatformhandler/httpplatformhandler-configuration-reference
 msc.type: authoredcontent
 ---
-HttpPlatformHandler Configuration Reference
-====================
+# HttpPlatformHandler Configuration Reference
+
 by IIS Team
 
 > This article provides an overview of the HttpPlatformHandler and explains the configuration of the module.
@@ -46,7 +41,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 | `processesPerApplication` | Optional integer attribute. Specifies the number of instances of the process specified in the **processPath** setting that can be spun up per application. Maximum is 100. The default value is `1`. |
 | `forwardWindowsAuthToken` | True or False. New for v1.2. If this setting is set to true, the token will be forwarded to the child process listening on %HTTP\_PLATFORM\_PORT% as a header 'X-IIS-WindowsAuthToken' per request. It is the responsibility of that process to call CloseHandle on this token per request. The default value is `false`. |
 
-#### Child Elements
+### Child Elements
 
 | **Element** | **Description** |
 | --- | --- |
@@ -69,7 +64,7 @@ The HttpPlatformHandler is an IIS Module, for IIS 8+, which does the following t
 <a id="_Sample_Code"></a>
 ## Sample Code
 
-### C#
+### C\#
 
 [!code-csharp[Main](httpplatformhandler-configuration-reference/samples/sample3.cs)]
 

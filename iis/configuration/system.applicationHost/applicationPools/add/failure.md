@@ -1,23 +1,18 @@
 ---
-title: "Failure Settings for an Application Pool &lt;failure&gt; | Microsoft Docs"
+title: "Failure Settings for an Application Pool &lt;failure&gt;"
 author: rick-anderson
 description: "Overview The &lt;failure&gt; element of the &lt;add&gt; element in the &lt;applicationPools&gt; collection configures the actions to take when an application..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 94a6aef1-9abd-4d1a-a482-87d185732d38
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/failure
 msc.type: config
 ---
-Failure Settings for an Application Pool &lt;failure&gt;
-====================
+# Failure Settings for an Application Pool &lt;failure&gt;
+
 <a id="001"></a>
 ## Overview
 
-The `<failure>` element of the `<add>` element in the `<applicationPools>` collection configures the actions to take when an application pool fails. The **autoShutdownExe**, **orphanActionExe**, **rapidFailProtection** attributes of the `<failure>` element can be especially useful when troubleshooting or debugging applications, because they give you the flexibility to specify the action that Internet Information Services (IIS) 7 will take when an application fails, such as running an external executable to log or debug the failure.
+The `<failure>` element of the `<add>` element in the `<applicationPools>` collection configures the actions to take when an application pool fails. The **autoShutdownExe**, **orphanActionExe**, **rapidFailProtection** attributes of the `<failure>` element can be especially useful when troubleshooting or debugging applications, because they give you the flexibility to specify the action that Internet Information Services (IIS) will take when an application fails, such as running an external executable to log or debug the failure.
 
 <a id="002"></a>
 ## Compatibility
@@ -102,7 +97,7 @@ The following code examples enable rapid fail protection for the DefaultAppPool 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](failure/samples/sample3.cs)]
 

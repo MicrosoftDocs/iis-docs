@@ -1,19 +1,14 @@
 ---
-title: "Sales and Marketing Questions | Microsoft Docs"
+title: "Sales and Marketing Questions"
 author: walterov
 description: "Modular pipeline. Tight integration with ASP.NET. Better shared hosting performance. Better administration tools. Simpler diagnostics. Inexpensive, streamlin..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/22/2007
-ms.topic: article
 ms.assetid: 8c068e9a-8ae6-4abf-be03-0b70f2dde5ab
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/sales-and-marketing-questions
 msc.type: authoredcontent
 ---
-Sales and Marketing Questions
-====================
+# Sales and Marketing Questions
+
 by [Walter Oliver](https://github.com/walterov)
 
 #### Why should customers migrate from IIS 6.0 to IIS 7.0?

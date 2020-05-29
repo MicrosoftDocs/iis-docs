@@ -1,19 +1,14 @@
 ---
-title: "PHPWCMS on IIS | Microsoft Docs"
+title: "PHPWCMS on IIS"
 author: rick-anderson
 description: "PHPWCMS is a web content management system optimized for fast and easy setup and works on any standard web server. PHPWCMS is perfect for professional, publi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/18/2008
-ms.topic: article
 ms.assetid: b16dca49-5d35-491e-b033-1bfda2e1cbad
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phpwcms-on-iis
 msc.type: authoredcontent
 ---
-PHPWCMS on IIS
-====================
+# PHPWCMS on IIS
+
 by Eric Woersching
 
 ## Introduction
@@ -59,12 +54,12 @@ Before starting the installation procedure for PHPWCMS, create a database on you
     - content/pages
 2. Provide "Read&amp;Write" permissions to the IIS user for the files and folders located in the PHPWCMS directory.  
 
-    - setup/setup.conf.inc.php
-    - template/inc\_css/frontend.css
-    - config/phpwcms/conf.indexpage.inc.php
-    - template/inc\_default/startup.php
+   - setup/setup.conf.inc.php
+   - template/inc\_css/frontend.css
+   - config/phpwcms/conf.indexpage.inc.php
+   - template/inc\_default/startup.php
 
-    [![](phpwcms-on-iis/_static/image2.jpg)](phpwcms-on-iis/_static/image1.jpg)
+     [![](phpwcms-on-iis/_static/image2.jpg)](phpwcms-on-iis/_static/image1.jpg)
 3. Call the install script in your browser via the following path: [http://localhost/phpwcms/setup/index.php](http://localhost/phpwcms/setup/index.php)  
 
     [![](phpwcms-on-iis/_static/image4.jpg)](phpwcms-on-iis/_static/image3.jpg)

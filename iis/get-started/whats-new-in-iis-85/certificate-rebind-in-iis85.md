@@ -1,32 +1,24 @@
 ---
-title: "Certificate Rebind in IIS 8.5 | Microsoft Docs"
+title: "Certificate Rebind in IIS 8.5"
 author: rick-anderson
 description: "Automatically rebind a renewed certificate by using Certificate Rebind, new in IIS 8.5."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/21/2013
-ms.topic: article
 ms.assetid: a3919320-bad9-42f0-a380-699734105449
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/certificate-rebind-in-iis85
 msc.type: authoredcontent
 ---
-Certificate Rebind in IIS 8.5
-====================
+# Certificate Rebind in IIS 8.5
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 > Automatically rebind a renewed certificate by using Certificate Rebind, new in IIS 8.5.
 
-
 ## Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.5 and later | Certificate Rebind was introduced in IIS 8.5. |
 | IIS 8.0 and earlier | Certificate Rebind was not supported prior to IIS 8.5. |
-
 
 <a id="TOC301258515"></a>
 ## Problem

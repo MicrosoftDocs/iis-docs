@@ -1,19 +1,14 @@
 ---
-title: "IIS 8.0 Express Readme | Microsoft Docs"
+title: "IIS 8.0 Express Readme"
 author: rmcmurray
 description: "Overview Installation Supported Platforms and Architectures Changes to IIS 8.0 Express Known Issues and Limitations For More Information Overview Internet In..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/01/2012
-ms.topic: article
 ms.assetid: cd0b722d-ae20-4c0e-af3b-b2ad23815391
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-80-express-readme
 msc.type: authoredcontent
 ---
-IIS 8.0 Express Readme
-====================
+# IIS 8.0 Express Readme
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 <a id="Overview"></a>
@@ -30,9 +25,9 @@ Internet Information Services (IIS) 8.0 Express is a free, simple and self-conta
 
 ## Installation
 
-You can install IIS 8.0 Express through the [Microsoft Download Center](https://www.microsoft.com/en-us/download/) by using the following URL:
+You can install IIS 8.0 Express through the [Microsoft Download Center](https://www.microsoft.com/download/) by using the following URL:
 
-- **IIS 8.0 Express**: [https://www.microsoft.com/en-us/download/details.aspx?id=34679](https://www.microsoft.com/en-us/download/details.aspx?id=34679)
+- **IIS 8.0 Express**: [https://www.microsoft.com/download/details.aspx?id=34679](https://www.microsoft.com/download/details.aspx?id=34679)
 
 #### Upgrading from IIS 7.5 Express
 
@@ -83,16 +78,16 @@ IIS 8.0 Express supports the following new features:
     - IIS 8.0 Express supports changing the user's home directory, which is mapped to the %IIS\_USER\_HOME% variable in configuration. By default this path is located at %UserProfile%\Documents\IISExpress, but users can change this by setting a CustomUserHome registry property in HKCU\Software\Microsoft\IISExpress, or by specifying the "/userhome" parameter when launching iisexpress.exe.
 - ***WebSocket Support***
 
-    - IIS 8.0 Express supports writing WebSocket applications. For more information, see the [WebSocket](https://go.microsoft.com/fwlink/p/?LinkID=227812) protocol specification or the [System.Net.WebSockets Namespace](https://msdn.microsoft.com/en-us/library/hh159285) topic on Microsoft's MSDN website.
+    - IIS 8.0 Express supports writing WebSocket applications. For more information, see the [WebSocket](https://go.microsoft.com/fwlink/p/?LinkID=227812) protocol specification or the [System.Net.WebSockets Namespace](https://msdn.microsoft.com/library/hh159285) topic on Microsoft's MSDN website.
 - ***AppCmd Support for editing multiple configuration files***
 
     - The AppCmd utility now supports a "/AppHostConfig" parameter, which makes it possible to use AppCmd to edit multiple ApplicationHost.config files and not just the primary configuration file.  
   
- For example, the following commands will create a website in a custom ApplicationHost.config file:  
+    For example, the following commands will create a website in a custom ApplicationHost.config file:  
 
-        [!code-console[Main](iis-80-express-readme/samples/sample1.cmd)]
+    [!code-console[Main](iis-80-express-readme/samples/sample1.cmd)]
   
- Once you have added the website with the above commands, you can start it with the following command:  
+    Once you have added the website with the above commands, you can start it with the following command:  
         `iisexpress.exe /config:C:\Temp\IISExpress\config\ApplicationHost.config /site:www.fabrikam.com`
 
 <a id="KnownIssues"></a>
@@ -118,7 +113,6 @@ IIS 8.0 Express now shares the same set of HTTP status and substatus codes; this
 - HTTP 404.21 - This error code was returned when PHP was not installed; this has been removed from IIS 8.0 Express.
 - HTTP 404.22 - This error code was returned when ASP.NET was not installed; this has been removed from IIS 8.0 Express.
 - HTTP 404.23 - This error code was returned when ASP.NET web pages were not installed; this has been removed from IIS 8.0 Express.
-
 
 #### Errors when using .NET Framework 3.5 and earlier with IIS 8.0 Express Release Candidate on Windows Server 2012 and Windows 8 Client
 

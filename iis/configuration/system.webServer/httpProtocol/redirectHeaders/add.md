@@ -1,19 +1,14 @@
 ---
-title: "Adding Redirect Headers &lt;add&gt; | Microsoft Docs"
+title: "Adding Redirect Headers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;redirectHeaders&gt; element adds an HTTP response header to the collection of custom HTTP headers that Internet I..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5f909c62-8c27-4730-9023-570aa62052a0
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpprotocol/redirectheaders/add
 msc.type: config
 ---
-Adding Redirect Headers &lt;add&gt;
-====================
+# Adding Redirect Headers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -78,7 +73,7 @@ The following code samples specify a custom HTTP header and value that will only
 
 [!code-console[Main](add/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample4.cs)]
 

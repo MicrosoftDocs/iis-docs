@@ -1,19 +1,14 @@
 ---
-title: "Microsoft Web Deploy v2: Readme | Microsoft Docs"
+title: "Microsoft Web Deploy v2: Readme"
 author: bilalaslam
 description: "Web Deploy v2 Readme Overview The Web Deploy is a tool for simplifying migration, management and deployment of Web applications, sites and servers. It can be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/11/2011
-ms.topic: article
 ms.assetid: 06c8c5a4-4b1c-486f-8509-0882acccf9af
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/microsoft-web-deploy-v2-readme
 msc.type: authoredcontent
 ---
-Microsoft Web Deploy v2: Readme
-====================
+# Microsoft Web Deploy v2: Readme
+
 by [Bilal Aslam](https://github.com/bilalaslam)
 
 <a id="Overview"></a>
@@ -72,7 +67,6 @@ You will need to run the installation package as an administrator. This can be a
 
 - Logging in to your server using the actual account named "Administrator".
 - Logging on using an account with administrator privileges and opening a command-prompt by right-clicking the **Command Prompt** menu item that is located in the **Accessories** menu for Windows programs and selecting "Run as administrator", then typing the appropriate command listed below for your version of Windows to run the installation:
-
 
 [!code-console[Main](microsoft-web-deploy-v2-readme/samples/sample1.cmd)]
 

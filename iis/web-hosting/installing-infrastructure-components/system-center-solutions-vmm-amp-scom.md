@@ -1,19 +1,14 @@
 ---
-title: "System Center Solutions (VMM &amp; SCOM) | Microsoft Docs"
+title: "System Center Solutions (VMM &amp; SCOM)"
 author: walterov
 description: "System Center solutions help hosting companies manage physical and virtual hosting environments across data centers. Using these integrated and automated man..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2009
-ms.topic: article
 ms.assetid: 37166fa3-1b6b-48f2-9e15-8e9c1e0904bf
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/system-center-solutions-vmm-amp-scom
 msc.type: authoredcontent
 ---
-System Center Solutions (VMM &amp; SCOM)
-====================
+# System Center Solutions (VMM &amp; SCOM)
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -35,7 +30,7 @@ This video &lt;link: [https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-1
 
 This download &lt;link: "[https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/SystemCenterOptimizationDemo.zip](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/SystemCenterOptimizationDemo.zip) &gt; contains a demonstration of VMM and the presentation used in this video.
 
-For further information and guidance, see the System Center Virtual Machine Manager content on TechNet &lt;link: [https://technet.microsoft.com/en-us/scvmm/default.aspx](https://technet.microsoft.com/en-us/scvmm/default.aspx) &gt;.
+For further information and guidance, see the System Center Virtual Machine Manager content on TechNet &lt;link: [https://technet.microsoft.com/scvmm/default.aspx](https://technet.microsoft.com/scvmm/default.aspx) &gt;.
 
 ## VMM Advanced Features and Best Practices
 
@@ -57,8 +52,8 @@ This download &lt;link: [https://download.microsoft.com/download/A/2/F/A2F199C0-
 ## System Center Operations Manager (SCOM)
 
 System Center Operations Manager 2007 &lt;link: [https://www.microsoft.com/systemcenter/operationsmanager/en/us/default.aspx](https://www.microsoft.com/systemcenter/operationsmanager/en/us/default.aspx) &gt; is the next step in the evolution of Microsoft operational event and performance monitoring solutions. This paper &lt;link: [https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/OperationsManager%202007.zip](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/OperationsManager%202007.zip) &gt; provides an overview of the features and functionality included in System Center Operations Manager 2007.  
-To get started with SCOM, visit Getting Started &lt;link: [https://technet.microsoft.com/en-us/library/bb309673.aspx](https://technet.microsoft.com/en-us/library/bb309673.aspx) &gt;, which provides information for operators and administrators using Operations Manager 2007.  
-Step-by-step instructions on how to deploy SCOM are available at Deploying SCOM &lt;link: [https://technet.microsoft.com/en-us/library/bb309696.aspx](https://technet.microsoft.com/en-us/library/bb309696.aspx) &gt;.
+To get started with SCOM, visit Getting Started &lt;link: [https://technet.microsoft.com/library/bb309673.aspx](https://technet.microsoft.com/library/bb309673.aspx) &gt;, which provides information for operators and administrators using Operations Manager 2007.  
+Step-by-step instructions on how to deploy SCOM are available at Deploying SCOM &lt;link: [https://technet.microsoft.com/library/bb309696.aspx](https://technet.microsoft.com/library/bb309696.aspx) &gt;.
 
 ## Conclusion
 

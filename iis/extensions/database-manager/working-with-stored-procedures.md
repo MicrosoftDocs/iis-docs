@@ -1,19 +1,14 @@
 ---
-title: "Working with Stored Procedures | Microsoft Docs"
+title: "Working with Stored Procedures"
 author: rick-anderson
 description: "This walkthrough assumes the following environment: The IIS Database Manager is installed on your Web Server. A database server (that could reside on the sam..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 6dc63ae4-06dc-44b9-9504-580130a44c46
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/working-with-stored-procedures
 msc.type: authoredcontent
 ---
-Working with Stored Procedures
-====================
+# Working with Stored Procedures
+
 by IIS Team
 
 ## Prerequisites
@@ -49,7 +44,7 @@ Based on our earlier example, we will create a stored procedure that displays da
 7. Click 'Execute' on the query editor's toolbar. The stored procedure will now be created. You can confirm that the stored procedure has been created by inspecting the list of stored procedures under the 'Stored Procedures' node. 
 
     > [!NOTE]
-	> In this case, the 'Execute' button runs the CREATE PROCEDURE script and acts as the save mechanism for the stored procedure.
+    > In this case, the 'Execute' button runs the CREATE PROCEDURE script and acts as the save mechanism for the stored procedure.
 
     [![](working-with-stored-procedures/_static/image11.png)](working-with-stored-procedures/_static/image9.png)
 
@@ -68,7 +63,7 @@ The Database Manager allows you to alter a stored procedure after it has been cr
     [!code-console[Main](working-with-stored-procedures/samples/sample3.cmd)]
 
     > [!NOTE]
-	> Do not forget to add the comma after the first variable.
+    > Do not forget to add the comma after the first variable.
 7. In the body of the stored procedure, between the BEGIN and END, modify the query as follows:   
 
     [!code-sql[Main](working-with-stored-procedures/samples/sample4.sql)]
@@ -77,7 +72,7 @@ The Database Manager allows you to alter a stored procedure after it has been cr
 8. Click 'Execute' on the query editor's toolbar. The stored procedure will now be altered. 
 
     > [!NOTE]
-	> In this case, the 'Execute' button runs the ALTER PROCEDURE script and acts as the save mechanism for the stored procedure's modifications.
+    > In this case, the 'Execute' button runs the ALTER PROCEDURE script and acts as the save mechanism for the stored procedure's modifications.
 9. You can continue making more changes in the editor or close the editor.
 
 ## Create a New Stored Procedure Based on an Existing One
@@ -95,7 +90,7 @@ The Database Manager allows you to create a new stored procedure that is based o
 7. Make changes to the stored procedure and then click on 'Execute'. The new stored procedure is created and you can confirm by ensuring that it appears under the 'Stored Procedures' node.  
 
     > [!NOTE]
-	> If you don't change the name of the stored procedure, you will not be able to execute the statement.
+    > If you don't change the name of the stored procedure, you will not be able to execute the statement.
 
 ## Executing a Stored Procedure
 

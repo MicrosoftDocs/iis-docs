@@ -1,19 +1,14 @@
 ---
-title: "Developing a Custom Rewrite Provider for URL Rewrite Module | Microsoft Docs"
+title: "Developing a Custom Rewrite Provider for URL Rewrite Module"
 author: ruslany
 description: "This walkthrough will guide you through how to develop a rewrite provider for URL Rewrite Module 2.0. You will create a ReplaceProvider that replaces all occ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/11/2010
-ms.topic: article
 ms.assetid: c492a011-0841-4d3a-8641-2b7f26a749b0
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/developing-a-custom-rewrite-provider-for-url-rewrite-module
 msc.type: authoredcontent
 ---
-Developing a Custom Rewrite Provider for URL Rewrite Module
-====================
+# Developing a Custom Rewrite Provider for URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will guide you through how to develop a rewrite provider for URL Rewrite Module 2.0. You will create a ReplaceProvider that replaces all occurrences of a particular character in the URL with another character. This kind of logic is really hard and sometime impossible to express in terms of regular expressions, hence the need to create a custom rewrite provider.
@@ -32,14 +27,14 @@ To create a Visual Studio project for rewrite provider follow these steps:
 7. In the Signing tab check "Sign the assembly" check box.
 8. In the combo box, select the option &lt;New…&gt; to create a new key. In the "Create Strong Name Key" dialog, type DemoKey.snk as the name for the key and uncheck the Protect my key file with a password check box. Click OK.  
     [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image8.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image6.png)  
- The Signing tab should look as below:  
+   The Signing tab should look as below:  
     [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
 9. Select the "Build Events" tab and add the following "Post-build event" command line:  
   
- CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
- gacutil.exe /if "$(TargetPath)"   
+   CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
+   gacutil.exe /if "$(TargetPath)"   
   
- Note: if you use Visual Studio 2010 then replace %VS90COMNTOOLS% with %VS100COMNTOOLS%.
+   Note: if you use Visual Studio 2010 then replace %VS90COMNTOOLS% with %VS100COMNTOOLS%.
 
 ## Implementing the provider interfaces
 
@@ -48,9 +43,7 @@ To implement a rewrite provider follow the steps below:
 1. From the Project menu select "Add Class..." and then name the class as **ReplaceProvider**. This will add a new file **ReplaceProvider.cs** to the project.
 2. Change the code so that it looks like below:
 
-
 [!code-csharp[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample1.cs)]
-
 
 The code above implements two interfaces:
 
@@ -75,9 +68,7 @@ Once the provider has been successfully built and placed into the GAC, it needs 
 
 This completes the registration and configuration of a rewrite provider. As a result the web.config file for the default web site will contain the following XML code inside of the `<rewrite>` section:
 
-
 [!code-xml[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample2.xml)]
-
 
 ## Using the rewrite provider
 
@@ -85,8 +76,6 @@ Now that the rewrite provider has been registered it can be used in the inbound 
 
 To create a rule that uses this rewrite provider add the following XML code inside of the `<rewrite>` element in the web.config file:
 
-
 [!code-xml[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample3.xml)]
-
 
 Open a web browser and make a request to `http://localhost/some_blog_post/.` Notice that the browser got redirected to `http://localhost/some-blog-post/` because of the rule that you have added. The web server will return HTTP 404 error for the redirected URL because there is no such file or directory on the server, but that is not relevant for the purposes of this walkthrough. The important part is that the web server issued a redirect response based on the rule that used the custom rewrite provider.

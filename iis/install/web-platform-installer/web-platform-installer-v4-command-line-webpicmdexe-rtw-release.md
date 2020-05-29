@@ -1,19 +1,14 @@
 ---
-title: "Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release | Microsoft Docs"
+title: "Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release"
 author: chrissfanos
 description: "The Web Platform Installer v5 (WebPI) command line tool is now available as part of the WebPI MSI! We've added a bunch of new features and fix several issues..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 08/27/2012
-ms.topic: article
 ms.assetid: d0440577-9e53-4202-9df3-199bc567e1c1
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release
 msc.type: authoredcontent
 ---
-Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
-====================
+# Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
+
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 ## WebPI Command line
@@ -56,27 +51,21 @@ Here's the full set of list mode parameters:
 
 ##### Let's try looking at the "All" option
 
-
 Ex: &gt;WebPICMD.exe /List /ListOption:All
-
 
 This returns the list of installed products as well as the list of available products and applications for your machine
 
 ##### Curious as to what feeds WebPICMD.exe is loading? Let's try the "Feeds" option
 
-
 Ex: &gt;WebPICMD.exe /List /ListOption:Feeds
-
 
 This returns the 5 feeds that WebPI is currently loading and the URL where the live
 
 ##### Curious as to what languages WebPICMD.exe supports? Let's try the "Languages" option
 
-
 Ex: &gt;WebPICMD.exe /List /ListOption:Languages
 
-
-This returns the the list of languages and their associated language IDs
+This returns the list of languages and their associated language IDs
 
 ### /Install mode
 
@@ -86,18 +75,14 @@ Install mode is just that - it allows you to select a set of products and/or an 
 
 Here's how installing Products works - you just specify the /Products switch and then a comma delimited set of product IDs (not sure which ID to use? Use the **/List /ListOption:Available** to see all the available products for your machine
 
-
 Ex: &gt;WebPICMD.exe /Install /Products:MVC3,WebMatrix
-
 
 In the above example, we are installing MVC3 and WebMatrix. WebPICMD.exe will calculate all the required dependencies for both products and install all of them in advance of installing MVC3 and WebMatrix. It's that easy!
 
 > [!NOTE]
 > If you are scripting this out in PowerShell, you'll need to put quotes (" ") around the productIDs (so in the example above, it would look like:
 
-
 Ex: &gt;WebPICMD.exe /Install /Products:"MVC3,WebMatrix"
-
 
 #### Installing Applications
 
@@ -109,9 +94,7 @@ Here's the full set of install mode parameters:
 
 Here's how installing Applications works - you just specify the /Application switch and then product ID (or title) of the application.
 
-
 Ex: &gt;WebPICMD.exe /Install /Application:DotNetNuke
-
 
 This example installs DotNetNuke - the install will be required to answer all the application parameters inputs during the installation process
 
@@ -145,21 +128,15 @@ Now let's take a look at a few more examples of /Install using some of the optio
 
 ##### Installing SQL Express and passing the SA password
 
-
 Ex: &gt;WebPICMD.exe /Install /Products:SQLExpress /SQLPassword:ILoveaGoodPassword!
-
 
 ##### Installing WebMatrix while Accepting the EULA and installing in Russian
 
-
 Ex: &gt;WebPICMD.exe /Install /Products:WebMatrix /AcceptEula /Language:ru
-
 
 ##### Installing an application to WebMatrix
 
-
 Ex: &gt;WebPICMD.exe /Install /Application:DotNetNuke /IISExpress
-
 
 ### /Offline mode [NEW!]
 
@@ -190,7 +167,6 @@ Now let's see it in action:
 
 Ex: `> WebPICMD.exe /Offline /Products:WebMatrix,SQLExpress /Path:c:\OfflineCache`
 
-
 The above will create an offline cache at `c:\offlineCache` that contains WebMatrix and all it's possible dependencies!
 
 ##### Optional Parameters for /Offline
@@ -209,17 +185,13 @@ Now let's take a look at a few more examples of /Offline using some of the optio
 
 ##### Setting up the offline cache on a file share
 
-
 Ex: &gt;WebPICMD.exe /Offline /Products:WebMatrix,MVC3 /Path:\\testserver\public
-
 
 In the above example, we created our offline cache on a public server that we can share out with other users
 
 ##### Setting up the offline cache that includes your own products
 
-
 Ex: `> WebPICMD.exe /Offline /Products:SQLExpress,MyCompanyProduct /Feeds:c:\myproductfeed.xml /Path:c:\MyOfflineCache`
-
 
 Now I can add my own products to the cache for use offline
 

@@ -1,19 +1,14 @@
 ---
-title: "FTP Messages &lt;messages&gt; | Microsoft Docs"
+title: "FTP Messages &lt;messages&gt;"
 author: rick-anderson
 description: "Overview The &lt;messages&gt; element is used to specify the message that the FTP service will display to FTP clients. The messages that are specified for th..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e21353d3-57d5-447c-a2d9-448fa2e33841
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/messages
 msc.type: config
 ---
-FTP Messages &lt;messages&gt;
-====================
+# FTP Messages &lt;messages&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -31,7 +26,6 @@ The `expandVariables` attribute specifies whether to display a specific set of u
 > | `%SiteName%` | The name of the FTP site that is hosting the current session. |
 > | `%UserName%` | The account name of the currently logged-on user. |
 
-
 The `allowLocalDetailedErrors` attribute specifies whether to display detailed error messages when the FTP client is connecting to the FTP server on the server itself. These error messages contain detailed information that server administrators can use to troubleshoot issues. If this attribute is set to true, the FTP service will display detailed error messages only to the local host; otherwise, detailed error messages are not displayed.
 
 <a id="002"></a>
@@ -48,9 +42,8 @@ The `allowLocalDetailedErrors` attribute specifies whether to display detailed e
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
@@ -67,7 +60,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
     [![](messages/_static/image2.png)](messages/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -80,7 +73,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.   
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](messages/_static/image4.png)](messages/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -94,7 +87,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](messages/_static/image6.png)](messages/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -108,7 +101,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](messages/_static/image8.png)](messages/_static/image7.png)
 5. Click **OK**.
 
@@ -117,9 +110,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
 ## How To
@@ -194,7 +187,7 @@ The following examples configure an FTP site so that it suppresses the default b
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](messages/samples/sample3.cs)]
 

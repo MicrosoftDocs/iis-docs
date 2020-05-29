@@ -1,19 +1,14 @@
 ---
-title: "ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS | Microsoft Docs"
+title: "ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS"
 author: rick-anderson
 description: "The ARR update KB 2693489 adds support for WINHTTP_OPTION_SECURITY_FLAGS. Default Behavior: This is the same prior to the updated where ARR will ignore Comm..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/13/2012
-ms.topic: article
 ms.assetid: 1262324d-f150-4a2f-9b5a-a439de7b718b
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/arr-support-added-for-winhttpoptionsecurityflags
 msc.type: authoredcontent
 ---
-ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS
-====================
+# ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS
+
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
 The ARR update KB 2693489 adds support for WINHTTP\_OPTION\_SECURITY\_FLAGS.
@@ -62,4 +57,4 @@ SECURITY\_FLAG\_IGNORE\_CERT\_WRONG\_USAGE 0x00000200
 
 **WINHTTP\_OPTION\_SECURITY\_FLAGS**
 
-[https://msdn.microsoft.com/en-us/library/windows/desktop/aa384066(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384066(v=vs.85).aspx)
+[https://msdn.microsoft.com/library/windows/desktop/aa384066(v=vs.85).aspx](https://msdn.microsoft.com/library/windows/desktop/aa384066(v=vs.85).aspx)

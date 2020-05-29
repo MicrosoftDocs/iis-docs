@@ -1,19 +1,14 @@
 ---
-title: "File Name Extensions for Filtering Rules &lt;appliesTo&gt; | Microsoft Docs"
+title: "File Name Extensions for Filtering Rules &lt;appliesTo&gt;"
 author: rick-anderson
 description: "Overview The &lt;appliesTo&gt; element of the &lt;filteringRule&gt; element defines a collection of file name extensions to which a request filtering rule ap..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 082f8653-8f71-4f73-b740-d93b13bcc946
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto
 msc.type: config
 ---
-File Name Extensions for Filtering Rules &lt;appliesTo&gt;
-====================
+# File Name Extensions for Filtering Rules &lt;appliesTo&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -150,7 +145,11 @@ The following examples demonstrate how to use the `<denyStrings>`, `<appliesTo>`
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample8.ps1)]
+
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

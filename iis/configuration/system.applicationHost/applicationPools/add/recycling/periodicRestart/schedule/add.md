@@ -1,19 +1,14 @@
 ---
-title: "Adding Periodic Restart Schedules &lt;add&gt; | Microsoft Docs"
+title: "Adding Periodic Restart Schedules &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;schedule&gt; collection specifies a time to initiate a scheduled periodic restart of an application pool. Compati..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 69c9fef0-c394-48f3-b39e-99e7f8a66741
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule/add
 msc.type: config
 ---
-Adding Periodic Restart Schedules &lt;add&gt;
-====================
+# Adding Periodic Restart Schedules &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -103,7 +98,7 @@ You can also use the following syntax:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample4.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Get to Know the IIS 7.0 WMI Provider Using CIM Studio | Microsoft Docs"
+title: "Get to Know the IIS 7.0 WMI Provider Using CIM Studio"
 author: rick-anderson
 description: "This document introduces WMI CIM Studio, a tool that provides a visual interface for exploring WMI namespaces."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/10/2007
-ms.topic: article
 ms.assetid: fdb6e446-e94d-42e7-9d04-5d28bf67310e
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/get-to-know-the-iis-wmi-provider-using-cim-studio
 msc.type: authoredcontent
 ---
-Get to Know the IIS 7.0 WMI Provider Using CIM Studio
-====================
+# Get to Know the IIS 7.0 WMI Provider Using CIM Studio
+
 by IIS Team
 
 ## Introduction

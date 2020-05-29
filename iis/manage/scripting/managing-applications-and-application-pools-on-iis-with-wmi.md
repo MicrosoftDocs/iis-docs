@@ -1,19 +1,14 @@
 ---
-title: "Managing Applications and Application Pools on IIS 7.0 with WMI | Microsoft Docs"
+title: "Managing Applications and Application Pools on IIS 7.0 with WMI"
 author: rick-anderson
 description: "Managing application and application pools on IIS 7.0 and above can be performed with relative ease by using WMI scripting. This article describes how to acc..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 4d472865-8cb2-469d-903f-b246992706c9
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi
 msc.type: authoredcontent
 ---
-Managing Applications and Application Pools on IIS 7.0 with WMI
-====================
+# Managing Applications and Application Pools on IIS 7.0 with WMI
+
 by Tim Ammann
 
 ## Introduction
@@ -37,11 +32,10 @@ Managing application and application pools on IIS 7.0 and above can be performed
 4. Before you start, make a backup of the System32\inetsrv\config\applicationhost.config file with the AppCmd tool. The backup copy will enable you to restore IIS to its original state by just copying the original version over the later one. To make a backup, follow these steps:
 
 > a. Open an elevated Command Prompt window.
-
+> 
 > b. Type cd `%Windir%\system32\inetsrv\`
-
+> 
 > c. Type appcmd add backup *backupName* to back up the ApplicationHost.config file, where *backupName* is the name that you specify for the backup. A directory with the backup name that you specify will be created under the `%Windir%\system32\inetsrv\backup` directory. If you do not specify a name, appcmd will generate a directory name automatically using the current date and time.
-
 
 ## Creating and Enumerating Applications
 
@@ -128,7 +122,6 @@ If you want to make your application pool the default application pool for all a
 The following script sets the default application pool for the default Web site to the "NewAppPool" that you created earlier. Copy and paste the script into notepad, save it with the filename SetAppPoolDefault.vbs, then run it with cscript.exe.
 
 [!code-vb[Main](managing-applications-and-application-pools-on-iis-with-wmi/samples/sample10.vb)]
-
 
 ## Administering Application Pools
 

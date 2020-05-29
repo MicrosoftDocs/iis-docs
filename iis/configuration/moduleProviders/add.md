@@ -1,19 +1,14 @@
 ---
-title: "Adding Module Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding Module Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;moduleProviders&gt; element adds a module to the list of module providers for IIS Manager. Each module provider e..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3e8f2de3-461c-4da2-b7dd-7526b4d4622d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/moduleproviders/add
 msc.type: config
 ---
-Adding Module Providers &lt;add&gt;
-====================
+# Adding Module Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -88,7 +83,7 @@ The following code examples add a managed module provider named ContosoProvider 
 > [!NOTE]
 > You cannot configure `<moduleProviders>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

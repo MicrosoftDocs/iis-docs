@@ -1,19 +1,14 @@
 ---
-title: "Default Custom Fields in Log Files &lt;customFields&gt; | Microsoft Docs"
+title: "Default Custom Fields in Log Files &lt;customFields&gt;"
 author: rick-anderson
 description: "Overview The &lt;customFields&gt; element of the &lt;logFile&gt; element specifies the configuration settings for a collection of default custom fields in a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8a2f12fa-fd92-4dba-aae6-ce9d928197ab
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/logfile/customfields
 msc.type: config
 ---
-Default Custom Fields in Log Files &lt;customFields&gt;
-====================
+# Default Custom Fields in Log Files &lt;customFields&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -125,7 +120,7 @@ The following examples configure default custom fields for a W3C log.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

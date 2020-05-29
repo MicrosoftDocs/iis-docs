@@ -1,22 +1,17 @@
 ---
-title: "Windows Media Server or Web Server? | Microsoft Docs"
+title: "Windows Media Server or Web Server?"
 author: rick-anderson
 description: "You can deliver digital media audio and video files and live streams either from a Windows Media server (a server that is running Windows Media Services) or..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/15/2008
-ms.topic: article
 ms.assetid: d92ee756-f427-4873-8248-46a174fc9ed0
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/windows-media-server-or-web-server
 msc.type: authoredcontent
 ---
-Windows Media Server or Web Server?
-====================
+# Windows Media Server or Web Server?
+
 by Dave Nelson
 
-You can deliver digital media audio and video files and live streams either from a [Windows Media server](http://technet2.microsoft.com/windowsserver2008/en/servermanager/streamingmediaservices.mspx) (a server that is running Windows Media Services) or from a [Web server](http://technet2.microsoft.com/windowsserver2008/en/servermanager/webserver.mspx) (a server that is running Internet Information Services (IIS)). Clients use different methods to receive digital media content from Windows Media servers and Web servers: they stream digital media from a Windows Media server and download digital media from a Web server.
+You can deliver digital media audio and video files and live streams either from a Windows Media server (a server that is running Windows Media Services) or from a Web server (a server that is running Internet Information Services (IIS)). Clients use different methods to receive digital media content from Windows Media servers and Web servers: they stream digital media from a Windows Media server and download digital media from a Web server.
 
 With the broader availability of high-bandwidth networks and new media delivery features for IIS 7 and above, the differences that previously favored the use of a Windows Media server over a Web server for delivering digital media content have blurred. In non-multicast streaming scenarios, depending upon your business need, a Windows Media server or a Web server can both be viable options for digital media content delivery today.
 
@@ -62,7 +57,7 @@ This section compares the content delivery methods for Windows Media servers and
 
 User Datagram Protocol (UDP) has long been the preferred transport protocol for traditional streaming media. It is a fast, lightweight protocol without any retransmission or data-rate management functionality, making it an ideal protocol for transmitting real-time audio and video data, which can tolerate some lost packets. UDP also has higher priority than Transmission Control Protocol (TCP)-based HTTP for Internet traffic, giving streaming audio and video data higher priority over file and Web page transfers and increasing the likelihood of uninterrupted viewing on congested networks. A Windows Media server also uses UDP Resend, an intelligent UDP-retransmission scheme that ensures that it only retransmits lost packets that can be sent to a player in time to be played, instead of the blind retransmission scheme employed by TCP. This smart-resend feature conserves additional bandwidth on congested networks.
 
-A Windows Media server may stream digital media by using the Real Time Streaming Protocol (RTSP) with UDP-based transport (RTSPT) to take advantage of UDP-based streaming efficiencies. On networks that don't support UDP, the server is normally configured to use a process called [protocol rollover](http://technet2.microsoft.com/windowsserver2008/en/library/82fb84a9-96f5-49dc-92d2-cf76c912aab81033.mspx?mfr=true) to try TCP-based streaming, first by using RTSP, and if that doesn't work, it uses its own version of HTTP for firewalls that allow Web traffic through port 80. This enables corporate users to view Internet content without compromising firewall security and ensures that all users on all networks can access all streaming media content. For more information about the streaming protocols that are used by Windows Media Services, see [Comparing HTTP Streaming Protocol with RTSP](https://msdn.microsoft.com/en-us/library/bb905764.aspx).
+A Windows Media server may stream digital media by using the Real Time Streaming Protocol (RTSP) with UDP-based transport (RTSPT) to take advantage of UDP-based streaming efficiencies. On networks that don't support UDP, the server is normally configured to use a process called [protocol rollover](https://docs.microsoft.com/windows/desktop/wmformat/protocol-rollover) to try TCP-based streaming, first by using RTSP, and if that doesn't work, it uses its own version of HTTP for firewalls that allow Web traffic through port 80. This enables corporate users to view Internet content without compromising firewall security and ensures that all users on all networks can access all streaming media content. For more information about the streaming protocols that are used by Windows Media Services, see [Comparing HTTP Streaming Protocol with RTSP](https://docs.microsoft.com/previous-versions/windows/embedded/ee485306(v%3dwinembedded.60)).
 
 As network bandwidths increase, the use of TCP is becoming more common. Because TCP guarantees delivery of every packet, it is preferred for video-on-demand delivery, especially if end users are paying for the content through a pay-per-view or subscription billing model.
 
@@ -90,7 +85,7 @@ A Windows Media server sends data at the same bit rate as the content, leaving m
 
 The most difficult task of streaming audio and video over a network is maintaining a continuous presentation to the user in a highly changeable environment. Buffering is the biggest problem of streaming digital media. It is caused when the client runs out of data in memory (the buffer) and must wait for more to arrive. The client will always run out of data if the bit rate of the incoming stream exceeds the current available bandwidth.
 
-Unpredictability of bandwidth is taken for granted on the Internet. The actual bandwidth at any given point is determined by network conditions and traffic, which are constantly fluctuating. To ensure a continuous presentation during traditional streaming delivery, Windows Media technologies use [intelligent streaming](https://technet.microsoft.com/en-us/library/cc732815.aspx), which adjusts the bit rate of the content stream to counteract changes in available bandwidth. When a client first connects to a stream, intelligent streaming ensures that the client receives content at the bit rate that is most appropriate for the current bandwidth. As the stream plays, intelligent streaming is designed to dynamically and seamlessly adjust the bit rate of the streaming content as the available bandwidth changes.
+Unpredictability of bandwidth is taken for granted on the Internet. The actual bandwidth at any given point is determined by network conditions and traffic, which are constantly fluctuating. To ensure a continuous presentation during traditional streaming delivery, Windows Media technologies use [intelligent streaming](https://technet.microsoft.com/library/cc732815.aspx), which adjusts the bit rate of the content stream to counteract changes in available bandwidth. When a client first connects to a stream, intelligent streaming ensures that the client receives content at the bit rate that is most appropriate for the current bandwidth. As the stream plays, intelligent streaming is designed to dynamically and seamlessly adjust the bit rate of the streaming content as the available bandwidth changes.
 
 Intelligent streaming progresses through a series of strategies to modify the bit rate of the stream so that it plays continuously on the client regardless of the current bandwidth. As bandwidth fluctuates between server and client, the server detects the changes and adopts the best strategy. The strategies are as follows:
 
@@ -107,7 +102,7 @@ A newer and improved form of intelligent streaming for delivery of media from We
 
 ### Fast Streaming
 
-[Fast Streaming](https://technet.microsoft.com/en-us/library/cc731688.aspx) refers to a group of features in Windows Media Services that improve the quality of streaming media content for the user. These features allow for a combination of streaming, downloading, and caching to provide the best user experience:
+[Fast Streaming](https://technet.microsoft.com/library/cc731688.aspx) refers to a group of features in Windows Media Services that improve the quality of streaming media content for the user. These features allow for a combination of streaming, downloading, and caching to provide the best user experience:
 
 - **Fast Cache**. Enables Windows Media Services to use any additional bandwidth to send additional data to the player buffer, allowing the player to better withstand network bandwidth fluctuations.
 - **Fast Start**. Enables the beginning part of the content to be quickly downloaded to a player at the maximum available bandwidth, reducing the time required to fill the player's buffer requirement and the amount of time a user has to wait (also known as *latency*) before starting to receive the stream.
@@ -119,7 +114,7 @@ A newer and improved form of intelligent streaming for delivery of media from We
 
 ## IIS Media Services
 
-IIS Media Services extensions are designed to add media delivery capabilities to a Web server that is running [Internet Information Services (IIS) 7](http://technet2.microsoft.com/windowsserver2008/en/servermanager/webserver.mspx). The IIS Media Services extensions take advantage of the broader market availability of high-bandwidth networks, which make a Web server an increasingly practical option for digital media content delivery. This section describes the following streaming and bandwidth management extensions that are available in IIS Media Services:
+IIS Media Services extensions are designed to add media delivery capabilities to a Web server that is running Internet Information Services (IIS) 7. The IIS Media Services extensions take advantage of the broader market availability of high-bandwidth networks, which make a Web server an increasingly practical option for digital media content delivery. This section describes the following streaming and bandwidth management extensions that are available in IIS Media Services:
 
 - [Smooth Streaming](windows-media-server-or-web-server.md#ss)
 - [Bit Rate Throttling](windows-media-server-or-web-server.md#brt)
@@ -170,14 +165,13 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 
 ![](windows-media-server-or-web-server/_static/image3.gif)= This feature or function is not supported.
 
-
 | **Windows Server 2008 Feature** | **Windows Media Services 2008** | **Internet Information Services** |
 | --- | --- | --- |
 | Optimized for streaming [Windows Media-based content](https://www.microsoft.com/windows/windowsmedia/forpros/prosolutions.mspx) | [![](windows-media-server-or-web-server/_static/image5.gif)](windows-media-server-or-web-server/_static/image4.gif) | **1![](windows-media-server-or-web-server/_static/image6.gif)** |
 | Delivers content through most [firewalls](https://www.microsoft.com/technet/security/guidance/networksecurity/firewall.mspx) | ![](windows-media-server-or-web-server/_static/image7.gif) | ![](windows-media-server-or-web-server/_static/image8.gif) |
 | Streams without downloading | ![](windows-media-server-or-web-server/_static/image9.gif) | ![](windows-media-server-or-web-server/_static/image10.gif) |
 | Broadcasts live content | ![](windows-media-server-or-web-server/_static/image11.gif) | **2![](windows-media-server-or-web-server/_static/image12.gif)** |
-| Delivers content using [multicast streaming](http://technet2.microsoft.com/windowsserver2008/en/library/0e5fa6c2-72ad-4337-8c85-e0fe5e85f8e41033.mspx?mfr=true) | ![](windows-media-server-or-web-server/_static/image13.gif) | **3![](windows-media-server-or-web-server/_static/image14.gif)** |
+| Delivers content using multicast streaming | ![](windows-media-server-or-web-server/_static/image13.gif) | **3![](windows-media-server-or-web-server/_static/image14.gif)** |
 | Supports trick mode playback of on-demand files | ![](windows-media-server-or-web-server/_static/image15.gif) | **4![](windows-media-server-or-web-server/_static/image16.gif)** |
 | Delivers content protected with [Digital Rights Management](https://www.microsoft.com/windows/windowsmedia/forpros/drm/default.mspx) | ![](windows-media-server-or-web-server/_static/image17.gif) | ![](windows-media-server-or-web-server/_static/image18.gif) |
 | Delivers content using Fast Streaming | ![](windows-media-server-or-web-server/_static/image19.gif) | **1, 2, 4![](windows-media-server-or-web-server/_static/image20.gif)** |
@@ -188,9 +182,8 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 | Delivers content to iOS devices (iPhone, iPad) | ![](windows-media-server-or-web-server/_static/image29.gif) | ![](windows-media-server-or-web-server/_static/image30.gif) |
 | Delivers content referenced by server-controlled playlists | ![](windows-media-server-or-web-server/_static/image31.gif) | **7![](windows-media-server-or-web-server/_static/image32.gif)** |
 | Provides advanced performance boundary limits properties | ![](windows-media-server-or-web-server/_static/image33.gif) | **1![](windows-media-server-or-web-server/_static/image34.gif)** |
-| Supported on [Server Core](http://technet2.microsoft.com/windowsserver2008/en/library/47a23a74-e13c-46de-8d30-ad0afb1eaffc1033.mspx?mfr=true) installations | ![](windows-media-server-or-web-server/_static/image35.gif) | ![](windows-media-server-or-web-server/_static/image36.gif) |
+| Supported on Server Core installations | ![](windows-media-server-or-web-server/_static/image35.gif) | ![](windows-media-server-or-web-server/_static/image36.gif) |
 | Available for [Windows Web Server 2008](https://www.microsoft.com/windowsserver2008/en/us/editions-overview.aspx) | ![](windows-media-server-or-web-server/_static/image37.gif) | ![](windows-media-server-or-web-server/_static/image38.gif) |
-
 
 **1**[IIS Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)  
 **2**[IIS Live Smooth Streaming](https://www.iis.net/downloads/microsoft/live-smooth-streaming)  

@@ -1,19 +1,14 @@
 ---
-title: "Adding Application Pools &lt;add&gt; | Microsoft Docs"
+title: "Adding Application Pools &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;applicationPools&gt; element controls the configuration settings for an IIS 7 and later application pool. You cre..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dbd06536-dbca-4367-ae1d-600547c13503
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add
 msc.type: config
 ---
-Adding Application Pools &lt;add&gt;
-====================
+# Adding Application Pools &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -134,7 +129,7 @@ You can also use the following syntax:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

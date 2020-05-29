@@ -1,19 +1,14 @@
 ---
-title: "Adding Custom Headers &lt;add&gt; | Microsoft Docs"
+title: "Adding Custom Headers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;customHeaders&gt; element specifies a custom HTTP header that Internet Information Services (IIS) 7 will return i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 6d2d4bb9-4185-4c5c-ba3e-4fe8b2d047f7
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpprotocol/customheaders/add
 msc.type: config
 ---
-Adding Custom Headers &lt;add&gt;
-====================
+# Adding Custom Headers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -102,7 +97,7 @@ The following code samples set a custom HTTP header and value.
 
 [!code-console[Main](add/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample4.cs)]
 

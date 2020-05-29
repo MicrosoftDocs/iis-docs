@@ -1,19 +1,14 @@
 ---
-title: "Using Rewrite Maps in URL Rewrite Module | Microsoft Docs"
+title: "Using Rewrite Maps in URL Rewrite Module"
 author: ruslany
 description: "This walkthrough will introduce you to the concept of rewrite maps in URL rewrite module and will guide you how to create rewrite rules that use rewrite maps..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/30/2008
-ms.topic: article
 ms.assetid: 4ce312b5-62c0-4a8a-ae52-68ce81a40141
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-rewrite-maps-in-url-rewrite-module
 msc.type: authoredcontent
 ---
-Using Rewrite Maps in URL Rewrite Module
-====================
+# Using Rewrite Maps in URL Rewrite Module
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will introduce you to the concept of rewrite maps in URL rewrite module and will guide you how to create rewrite rules that use rewrite maps. In this walkthrough you will create two rewrite maps: one rewrite map will be used by rule that performs url rewriting, and another rewrite map will be used by rule that performs redirects to a different domain.
@@ -79,7 +74,7 @@ To create rewrite rule that uses the rewrite maps, copy and paste the following 
 [!code-xml[Main](using-rewrite-maps-in-url-rewrite-module/samples/sample3.xml)]
 
 Let's go through each rule element to understand what it does:  
-`<match url=".\*" />` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
+`<match url=".*" />` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
 
 `<add input="{StaticRewrites:{REQUEST\_URI}}" pattern="(.+)">` - this conditions checks is the value returned from rewrite map StaticRewrites is not an empty string. To perform this check the value of the server variable REQUEST\_URI is passed as a parameter to the rewrite map. If rewrite map contains an entry with key, that is the same as REQUEST\_URI, then the value corresponding to that key will be returned. The regular expression pattern will match only non-empty strings, so if empty string was returned from the map then the condition will evaluate to false, hence no rewriting will be performed. If non-empty string was returned then that string will be captured in a back-reference, because of the parenthesis used in the pattern.
 
@@ -116,7 +111,7 @@ To create a rule that uses the StaticRedirects rewrite map, copy and paste the f
 [!code-xml[Main](using-rewrite-maps-in-url-rewrite-module/samples/sample5.xml)]
 
 Again, let's go through each rule element to understand what it does:  
-`<match url=".\*" />` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
+`<match url=".*" />` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
 
 `<add input="{StaticRedirects:{REQUEST\_URI}}" pattern="(.+)">` - this conditions checks is the value returned from rewrite map **StaticRedirects** is not an empty string. To perform this check the value of the server variable REQUEST\_URI is passed as a parameter to the rewrite map. If rewrite map contains an entry with key, that is the same as REQUEST\_URI, then the value corresponding to that key will be returned. The regular expression pattern will match only non-empty strings, so if empty string was returned from the map then the condition will evaluate to false, hence no rewriting will be performed. If non-empty string was returned then that string will be captured in a back-reference, because of the parenthesis used in the pattern.
 

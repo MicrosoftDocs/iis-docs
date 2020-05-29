@@ -1,19 +1,14 @@
 ---
-title: "Dynamic Types &lt;dynamicTypes&gt; | Microsoft Docs"
+title: "Dynamic Types &lt;dynamicTypes&gt;"
 author: rick-anderson
 description: "Overview The &lt;dynamicTypes&gt; element of the &lt;httpCompression&gt; element contains a collection of &lt;add&gt; elements that add unique MIME types to..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0f91abf7-e943-4e36-bf45-fc38258c405f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpcompression/dynamictypes
 msc.type: config
 ---
-Dynamic Types &lt;dynamicTypes&gt;
-====================
+# Dynamic Types &lt;dynamicTypes&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -119,7 +114,7 @@ The following code samples will add the MIME types for Office 2003 documents to 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "ARR as generic proxy in Hotmail and SkyDrive | Microsoft Docs"
+title: "ARR as generic proxy in Hotmail and SkyDrive"
 author: rick-anderson
 description: "This article describes integration and use of the Application Request Routing module as a generic proxy for the Hotmail and SkyDrive web sites allowing both..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/25/2012
-ms.topic: article
 ms.assetid: c3955f19-2e00-41a6-90d8-d9c5414525d6
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/arr-as-generic-proxy-in-hotmail-and-skydrive
 msc.type: authoredcontent
 ---
-ARR as generic proxy in Hotmail and SkyDrive
-====================
+# ARR as generic proxy in Hotmail and SkyDrive
+
 by Amar Shroff
 
 This article describes integration and use of the Application Request Routing module as a generic proxy for the Hotmail and SkyDrive web sites allowing both services to roll out updates to users without any disruption in service across different deployed versions.
@@ -37,7 +32,6 @@ The ARR proxy runs in the same request processing pipeline as the application it
 
 Fig: IIS request pipeline with integration of new HTTP modules and ARR proxy
 
-
 The affinitized version for a user is determined by a custom http module during the BeginRequest phase of the request lifecycle. If the version of the service running on the current frontend does not match the user's affinitized version, the request is setup for proxying via ARR. The HttpRequest-&gt;SetUrl API which enables changing the request URL and thus set the request up for proxying is available only in the native context. Hence, we added the custom native module. During the MapRequestHandler phase, the ARR module sees that the request URL has been changed and sets the ARR handler as the request handler. The request processing details can be summarized as follows:
 
 | **Request processing event** | **Action if request is proxied** |
@@ -47,7 +41,6 @@ The affinitized version for a user is determined by a custom http module during 
 | MapRequestHandler | ARR modules sets ARR handler as the request handler |
 | ExecuteRequestHandler | ARR handler proxies the request to the proxy URL |
 | EndRequest | Response code is inspected to determine proxy errors |
-
 
 ## ARR configuration
 
@@ -62,7 +55,6 @@ In the responses back to the client, ARR must return the location headers as set
 
 Listed below are a few of the issues Hotmail and SkyDrive encountered while onboarding ARR and their resolutions:
 
-  
  ·**Conflicts between ARR and MVC modules while proxying MVC requests**- The Hotmail and SkyDrive applications use ASP.NET MVC. We found that the MVC module (UrlRoutingModule 4.0) sets the MVC handler as the request handler in the PostResolveRequestCache event, which is raised after the ARR module sets the handler for the request as the ARR Handler (during MapRequestHandler). So, we had to control when UrlRoutingModule gets called by overriding the UrlRoutingModule and calling it only when our request was to be handled locally.  
 ·**Duplicate response headers** - Some response headers are duplicated by ARR when it copies the headers over from the target machine's response before returning the original machine's response to the client. We manually clear these duplicate headers before sending the response back.  
 ·**Error handling and logging-** The default application error handler, Application\_Error in the Global module, is not called when ARR fails to proxy the request. So, custom error checks need to be done during the EndRequest phase if logging is needed for proxy errors.  
@@ -72,7 +64,7 @@ Listed below are a few of the issues Hotmail and SkyDrive encountered while onbo
 
 - [Failed request tracing](../../troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md) (FREB) logs are your best friend when debugging issues with proxying.FREB records detailed logs of IIS events and changes to the request during each event (request URL, headers, response code, and logging, as well as bytes sent, received, and flushed back to the user). Some of the interesting events tracing collects data on are MapRequestHandler, ExecuteRequest, SendResponse and EndRequest.
 - The FREB logs are more helpful when most of the encoding (gzip, SSL, etc.) is removed. When this is done, the requests forwarded and received by ARR and responses sent back from ARR are human readable.
-- [WinHttp](https://msdn.microsoft.com/en-us/library/windows/desktop/aa382925(v=vs.85).aspx) logs, [NetMon](https://www.microsoft.com/en-us/download/details.aspx?id=4865), and other networking tools can be used for low-level debugging on the source and target machines once the issue has been identified via FREB logs.
+- [WinHttp](https://msdn.microsoft.com/library/windows/desktop/aa382925(v=vs.85).aspx) logs, [NetMon](https://www.microsoft.com/download/details.aspx?id=4865), and other networking tools can be used for low-level debugging on the source and target machines once the issue has been identified via FREB logs.
 - Return a custom header indicating which machines the proxy request bounced through, especially if proxying can take multiple hops. These headers can be inspected in [Fiddler](http://www.fiddler2.com/).
 - [Proxy chaining](https://blogs.iis.net/wonyoo/archive/2011/03/30/application-request-routing-and-proxy-chain.aspx) can be configured to proxy the ARR request through Fiddler. This can be achieved by updating the proxy element in applicationHost.config file as:&lt;proxy enabled="true" proxy="ChainedProxyHostName" /&gt;
 - Inspect response codes during EndRequest in your application. The default application error handler is not called in case of ARR error. Response codes 502 or 400 were logged by ARR in case of the following errors:502 – Bad gateway. Request could not be proxied to the target URL.400 – Incoming connection was dropped. TCP reset could be a possible cause.

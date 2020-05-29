@@ -1,19 +1,14 @@
 ---
-title: "Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt; | Microsoft Docs"
+title: "Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;"
 author: rick-anderson
 description: "Overview The &lt;traceFailedRequestsLogging&gt; element of the &lt;site&gt; element sets the failed request tracing options for site, such as the directory f..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: cd6d0026-8491-4e67-b779-c30afd09bf70
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/tracefailedrequestslogging
 msc.type: config
 ---
-Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;
-====================
+# Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -59,7 +54,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
     [![](traceFailedRequestsLogging/_static/image4.png)](traceFailedRequestsLogging/_static/image3.png)- Click **OK**.
-- Click **Close**.
+4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
@@ -141,7 +136,7 @@ The following code samples show how to enable failed request logging for the Def
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](traceFailedRequestsLogging/samples/sample3.cs)]
 

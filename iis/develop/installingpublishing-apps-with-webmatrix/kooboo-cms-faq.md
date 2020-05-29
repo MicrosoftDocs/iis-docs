@@ -1,19 +1,14 @@
 ---
-title: "Kooboo CMS FAQ | Microsoft Docs"
+title: "Kooboo CMS FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 10afd33c-34c6-4198-8e26-f445838a784a
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/kooboo-cms-faq
 msc.type: authoredcontent
 ---
-Kooboo CMS FAQ
-====================
+# Kooboo CMS FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

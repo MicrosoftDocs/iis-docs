@@ -1,19 +1,14 @@
 ---
-title: "IIS 7.0 Features and Vista Editions | Microsoft Docs"
+title: "IIS 7.0 Features and Vista Editions"
 author: rick-anderson
 description: "With the release of Windows Vista and Windows Server 2008 IIS 7.0 became available on all mainstream Windows Editions for the first time. On Windows Vista Ed..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/24/2008
-ms.topic: article
 ms.assetid: b4fdece1-389e-4093-bf6d-29e3b1ae3d6b
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/iis-features-and-vista-editions
 msc.type: authoredcontent
 ---
-IIS 7.0 Features and Vista Editions
-====================
+# IIS 7.0 Features and Vista Editions
+
 by Henry Seiler
 
 ## Overview of IIS 7.0 differences Across Windows Vista Editions and Windows Server 2008 Editions
@@ -989,11 +984,11 @@ Basic &amp; Starter</th></TR>
 <td>
 <p>Unlimited</p></td>
 <td>
-<P align=right>10</p></td>
+<p align="right">10</p></td>
 <td>
-<P align=right>3</p></td>
+<p align="right">3</p></td>
 <td>
-<P align=right>3</p></td></TR>
+<p align="right">3</p></td></TR>
 </tbody></table>
 
 ## Summary

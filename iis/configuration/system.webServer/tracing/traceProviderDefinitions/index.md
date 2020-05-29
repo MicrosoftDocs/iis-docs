@@ -1,19 +1,14 @@
 ---
-title: "Trace Provider Definitions &lt;traceProviderDefinitions&gt; | Microsoft Docs"
+title: "Trace Provider Definitions &lt;traceProviderDefinitions&gt;"
 author: rick-anderson
 description: "Overview The &lt;traceProviderDefinitions&gt; element allows you to define a collection of trace providers available on the Internet Information Services (II..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7be21d2d-4a72-49a7-8475-bb31839454bb
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/traceproviderdefinitions
 msc.type: config
 ---
-Trace Provider Definitions &lt;traceProviderDefinitions&gt;
-====================
+# Trace Provider Definitions &lt;traceProviderDefinitions&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -55,7 +50,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
     [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
-- Click **Close**.
+4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
@@ -115,7 +110,7 @@ The following examples add a custom trace provider with two trace areas to the l
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

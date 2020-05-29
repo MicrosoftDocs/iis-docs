@@ -1,19 +1,14 @@
 ---
-title: "Web Platform Installer 2.0 Walkthrough | Microsoft Docs"
+title: "Web Platform Installer 2.0 Walkthrough"
 author: crystalhoyer
 description: "The Microsoft Web Platform Installer (Web PI) is a free tool that makes it simple to download and install the latest components of the Microsoft Web Platform..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/09/2008
-ms.topic: article
 ms.assetid: 033c92fb-3c1e-403c-8a96-0f4fed1369cb
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-20-walkthrough
 msc.type: authoredcontent
 ---
-Web Platform Installer 2.0 Walkthrough
-====================
+# Web Platform Installer 2.0 Walkthrough
+
 by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 The Microsoft Web Platform Installer (Web PI) is a free tool that makes it simple to download and install the latest components of the Microsoft Web Platform, including the IIS, SQL Server Express, .NET Framework, and Visual Web Developer. To help you stay up-to-date with product releases, the Web Platform Installer tool always installs the latest version of Web Platform components as well as new additions to the Microsoft Web Platform.
@@ -59,7 +54,7 @@ Products listed on the **What's New** tab include products that have been releas
 
 ### Web Platform tab
 
-The **Web Platform** tab includes the products and components that comprise the Microsoft Web Platform. The Web PI automates the discovery and installation of the Microsoft Web Platform components, which includes the Web Server, Frameworks and Runtimes, Database, and Tools sections. In version 2.0, the Microsoft Web Platform also installs PHP version 5.2.9-2, by using the publically available Windows installer for PHP.
+The **Web Platform** tab includes the products and components that comprise the Microsoft Web Platform. The Web PI automates the discovery and installation of the Microsoft Web Platform components, which includes the Web Server, Frameworks and Runtimes, Database, and Tools sections. In version 2.0, the Microsoft Web Platform also installs PHP version 5.2.9-2, by using the publicly available Windows installer for PHP.
 
 [![](web-platform-installer-20-walkthrough/_static/image8.png)](web-platform-installer-20-walkthrough/_static/image7.png)
 
@@ -125,8 +120,8 @@ To learn more about the Microsoft Web Platform, visit the [Microsoft Web Platfor
 
 To learn more about the Microsoft Web Platform Installer, visit the  Web Platform Installer page on IIS.net.
 
-To learn more about the Web PI schema, see the [Web Platform Installer Schema Reference](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
+To learn more about the Web PI schema, see the [Web Platform Installer Schema Reference](https://technet.microsoft.com/library/ee506569(WS.10).aspx).
 
-To view the Web PI API documentation, see the [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx) article on MSDN.
+To view the Web PI API documentation, see the [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.aspx) article on MSDN.
 
 For troubleshooting information, including a list of known issues with the Web PI, see [Troubleshooting Problems with Web Platform Installer 2.0](../../troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md) on IIS.net.

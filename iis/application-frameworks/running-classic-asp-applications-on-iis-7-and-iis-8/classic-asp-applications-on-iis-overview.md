@@ -1,19 +1,14 @@
 ---
-title: "Classic ASP Applications on IIS 7.0 and IIS 7.5 Overview | Microsoft Docs"
+title: "Classic ASP Applications on IIS 7.0 and IIS 7.5 Overview"
 author: rmcmurray
 description: "Microsoft introduced Active Server Pages (ASP) over a decade ago with the release of Internet Information Server 3.0 for Windows Server NT 4.0. This method o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/04/2009
-ms.topic: article
 ms.assetid: 7f4e8f1d-56c4-4c6d-95be-b132cc3f6671
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-applications-on-iis-overview
 msc.type: authoredcontent
 ---
-Classic ASP Applications on IIS 7.0 and IIS 7.5 Overview
-====================
+# Classic ASP Applications on IIS 7.0 and IIS 7.5 Overview
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Introduction

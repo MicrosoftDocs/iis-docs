@@ -1,19 +1,14 @@
 ---
-title: "Application Pool Identity as Anonymous User | Microsoft Docs"
+title: "Application Pool Identity as Anonymous User"
 author: walterov
 description: "In prior versions of IIS, the anonymous user allowed classic ASP content to be isolated by using a different anonymous user for each site. Isolation was acco..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: 74014207-a172-4089-886b-81a3ad1124f1
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/application-pool-identity-as-anonymous-user
 msc.type: authoredcontent
 ---
-Application Pool Identity as Anonymous User
-====================
+# Application Pool Identity as Anonymous User
+
 by [Walter Oliver](https://github.com/walterov)
 
 In prior versions of IIS, the anonymous user allowed classic ASP content to be isolated by using a different anonymous user for each site. Isolation was accomplished by preventing ASP scripts from reverting back to the process identity, called the "impersonation sandbox". In mixed environments where you use classic ASP, ASP.NET and other dynamic content, the impersonation sandbox is not as helpful. For instance, ASP.NET uses a different isolation technique called Trust Levels and always runs as the process identity, unless you use a different type of impersonation.
@@ -24,9 +19,7 @@ To achieve isolation in IIS 7 and above, you can run the application pools as se
 
 - Open a command prompt and run the following:
 
-
 [!code-console[Main](application-pool-identity-as-anonymous-user/samples/sample1.cmd)]
-
 
 > [!NOTE]
 > Enable this feature by setting the anonymous user attribute to a blank string, for example, username="". Removing the element from the applicationHost.config file will result in a different behavior than having a blank string.
@@ -37,6 +30,5 @@ To achieve isolation in IIS 7 and above, you can run the application pools as se
 **To configure the Web server to use the application pool identity as the anonymous identity using the [IIS PowerShell Provider](../../manage/powershell/installing-the-iis-powershell-snap-in.md)**
 
 - Open a PowerShell prompt and run the following:
-
 
 [!code-powershell[Main](application-pool-identity-as-anonymous-user/samples/sample2.ps1)]

@@ -1,30 +1,23 @@
 ---
-title: "IIS 8.0 FTP Logon Attempt Restrictions | Microsoft Docs"
+title: "IIS 8.0 FTP Logon Attempt Restrictions"
 author: rmcmurray
 description: "Version Notes IIS 8.0 FTP Logon Attempt Restrictions were introduced in IIS 8.0. IIS 7.5 FTP Logon Attempt Restrictions were not supported in IIS 7.0 or IIS..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/29/2012
-ms.topic: article
 ms.assetid: d149191a-b70e-4d1a-a3fc-7d37c025d8e5
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-ftp-logon-attempt-restrictions
 msc.type: authoredcontent
 ---
-IIS 8.0 FTP Logon Attempt Restrictions
-====================
+# IIS 8.0 FTP Logon Attempt Restrictions
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | FTP Logon Attempt Restrictions were introduced in IIS 8.0. |
 | IIS 7.5 | FTP Logon Attempt Restrictions were not supported in IIS 7.0 or IIS 7.5. |
 | IIS 7.0 |
-
 
 <a id="TOC301258515"></a>
 
@@ -70,7 +63,7 @@ To configure the FTP service to deny malicious users from accessing your FTP ser
     [![](iis-80-ftp-logon-attempt-restrictions/_static/image4.png)](iis-80-ftp-logon-attempt-restrictions/_static/image3.png)
 5. Click **Apply**.
 
-"Write to the log only" option does not block logon attempts. Instead, it logs that the condition has been met. The IT administrator can then try different configuration parameters to evaluate how the settings impacts thier users before enforcing them.
+"Write to the log only" option does not block logon attempts. Instead, it logs that the condition has been met. The IT administrator can then try different configuration parameters to evaluate how the settings impacts their users before enforcing them.
 
 <a id="TOC301258518"></a>
 

@@ -1,19 +1,14 @@
 ---
-title: "Reverse Proxy with URL Rewrite v2 and Application Request Routing | Microsoft Docs"
+title: "Reverse Proxy with URL Rewrite v2 and Application Request Routing"
 author: ruslany
 description: "This walkthrough will guide you through how to use URL Rewrite Module and Application Request Routing (ARR) to implement a reverse proxy server for multiple..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: 46f0fd90-e7cf-46bd-99ad-2bfb975008fb
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing
 msc.type: authoredcontent
 ---
-Reverse Proxy with URL Rewrite v2 and Application Request Routing
-====================
+# Reverse Proxy with URL Rewrite v2 and Application Request Routing
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will guide you through how to use URL Rewrite Module and [Application Request Routing](../planning-for-arr/using-the-application-request-routing-module.md) (ARR) to implement a [reverse proxy server](http://en.wikipedia.org/wiki/Reverse_proxy) for multiple back-end applications.
@@ -41,15 +36,11 @@ When a request is made to `http://contoso.com/webmail/default.aspx`, ARR forward
 
 In addition, if internal application inserts links into its response HTML that link to elsewhere in those applications, those links should be modified before the response is returned to the client. For example, a page from `http://webmail/default.aspx` might contain a link like this:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample1.html)]
-
 
 Then ARR server should change this link to the following:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample2.html)]
-
 
 ## Creating the Example Web Sites
 
@@ -128,9 +119,7 @@ This section of the documentation applies to the **URL Rewrite Module Version 2.
 
 You will define an outbound rule that replaces all the links within the response HTML as follows:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample13.html)]
-
 
 will be replaced with:
 
@@ -144,11 +133,10 @@ and
 
 (if the response came from payroll application)
 
-
-![](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image1.gif) **WARNING:** When response headers or the response content is modified by an outbound rewrite rule an extra caution should be taken to ensure that the text which gets inserted into the response does not contain any client side executable code, which can result in cross-site scripting vulnerabilities. This is especially important when rewrite rule uses un-trusted data, such as HTTP headers or the query string, to build the string that will be inserted into the HTTP response. In such cases the replacement string should be HTML encoded by using the **HtmlEncode** function, e.g:
-
-[!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample16.xml)]
-
+> [!WARNING]
+> When response headers or the response content is modified by an outbound rewrite rule an extra caution should be taken to ensure that the text which gets inserted into the response does not contain any client side executable code, which can result in cross-site scripting vulnerabilities. This is especially important when rewrite rule uses un-trusted data, such as HTTP headers or the query string, to build the string that will be inserted into the HTTP response. In such cases the replacement string should be HTML encoded by using the **HtmlEncode** function, e.g:
+> 
+> [!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample16.xml)]
 
 To create the rule, follow these steps:
 
@@ -182,15 +170,15 @@ Because the rule that you are creating should be applied only on HTML responses,
 1. In the Pre-conditions list, select "&lt;Create New Pre-condition...&gt;".
 2. This will bring you to the Pre-condition editor dialog, where you will need to define the precondition. Specify the precondition settings as follows: 
 
-    - Name: "IsHTML"
-    - Using: "**Regular Expressions**"
-    - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
+   - Name: "IsHTML"
+   - Using: "**Regular Expressions**"
+   - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
 
-        - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
-        - Check if input string: "**Matches the pattern**"
-        - Pattern: "**^text/html**"
+     - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
+     - Check if input string: "**Matches the pattern**"
+     - Pattern: "**^text/html**"
   
-        [![](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image24.png)](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image23.png)
+       [![](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image24.png)](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image23.png)
 3. Click OK to save the precondition and to return to the "Edit Rule" page.
 
 ### Defining a matching scope
@@ -205,17 +193,13 @@ To define a tag filter, expand the drop down list "**Match the content within:**
 
 This sets the rule to apply the pattern only to the value of the **href** attribute of the hyperlink, as in the following example:
 
-
 [!code-html[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample17.html)]
-
 
 ### Defining a pattern
 
 In the "Pattern" text box enter the following string:
 
-
 [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample18.cmd)]
-
 
 This string is a regular expression that specifies that the pattern will match any URL path string that starts with "/" symbol.
 
@@ -229,16 +213,14 @@ You need to change the links in the response HTML only if response is from the w
 2. Click "Add…" button to bring up the dialog box for defining conditions.
 3. For "Condition input:" enter this string: "**{URL}"**. This configures URL rewrite module to use the URL path that was requested by web client.
 4. In the drop down combo box select "**Matches the pattern**".
-5. In the "Pattern" textbox enter "**^/(webmail|payroll)/.\***". This regular expression will be used to match the URL paths that start with either /webmail or /payrol. Also the parenthesis within the pattern will capture the part of the matched URL string, so that we can re-use when constructing the replacement URL.
+5. In the "Pattern" textbox enter "**^/(webmail|payroll)/.\\***". This regular expression will be used to match the URL paths that start with either /webmail or /payrol. Also the parenthesis within the pattern will capture the part of the matched URL string, so that we can re-use when constructing the replacement URL.
 6. Click OK to save the condition and return to the "Add Rule" UI.
 
 ### Defining an action
 
 Choose the "Rewrite" action type that is listed in the "Action" group box. In the "Value" text box, enter the following string:
 
-
 [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample19.cmd)]
-
 
 This string specifies the new value to which the link address should be rewritten. The {C:1} is a back-reference to the condition pattern capture group and it will be substituted with either "webmail" or "payroll" strings. The {R:1} is a back-reference to the rule pattern capture group and in this particular case it will be substituted with the original URL path that was used in the hyperlink.
 
@@ -250,9 +232,7 @@ Save the rule by clicking on "Apply" action on the right hand side.
 
 To check the configuration of the rules that we have just created, open a web.config file located in `%SystemDrive%\inetput\wwwroot\`. In this file you should see the `<rewrite>` section that contains this rule definition:
 
-
 [!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample20.xml)]
-
 
 ### Testing the rule
 

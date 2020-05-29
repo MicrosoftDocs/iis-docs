@@ -1,22 +1,15 @@
 ---
-title: "Install and Configure PHP | Microsoft Docs"
+title: "Install and Configure PHP"
 author: rick-anderson
 description: "Introduction The fastest and easiest way to install PHP on Internet Information Services (IIS) is by using the Microsoft ® Web Platform Installer (Web PI). W..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 2fbe0165-17a4-4cad-9bb8-ee04d7f118f3
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php
 msc.type: authoredcontent
 ---
-Install and Configure PHP
-====================
-by Tali Smith
+# Install and Configure PHP
 
-## Introduction
+by Tali Smith
 
 The fastest and easiest way to install PHP on Internet Information Services (IIS) is by using the Microsoft® Web Platform Installer (Web PI). Web PI completely automates setting up IIS, FastCGI, and the latest version of PHP from the php.net Web site. With Web PI, you can navigate to the "Web Platform" tab and select "PHP" under "Framework and Runtimes" customize link. Alternately, use the instructions that follow as guidance for installing PHP with Windows® Installer or using a compressed (Zip) file installation.
 
@@ -24,7 +17,7 @@ There are two builds for each PHP version: one is thread-safe, and one is not (r
 
 ## Install PHP
 
-There are two main ways to install PHP on a Windows®-based computer: download the Windows Installer or use the Windows Zip file from the [PHP Web site](http://www.php.net/downloads.php). Either method will get PHP working, but both have some extra steps that are needed to make PHP work well.
+There are two main ways to install PHP on a Windows®-based computer: download the Windows Installer or use the Windows Zip file from the [PHP Web site](https://www.php.net/downloads.php). Either method will get PHP working, but both have some extra steps that are needed to make PHP work well.
 
 ### Windows Installer
 
@@ -34,45 +27,41 @@ The Windows Installer version can get a complete PHP environment up and running,
 
 To use the Zip file installation, follow the instructions in [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md). The Zip file installation installs many of the extensions that are available for the Windows Installer version; however, none of the extensions are enabled until their entries in the Php.ini file are set up.
 
-1. Download the [latest non-thread-safe Zip file package](http://www.php.net/downloads.php) with binaries of PHP. Under **Windows Binaries**, click on the most current PHP non-thread-safe Zip package to download the PHP files.
+1. Download the [latest non-thread-safe Zip file package](https://www.php.net/downloads.php) with binaries of PHP. Under **Windows Binaries**, click on the most current PHP non-thread-safe Zip package to download the PHP files.
 2. Unpack the files to a directory of your choice (for example, `C:\PHP`) on your IIS server.
 3. Rename the **Php.ini-recommended** to **php.ini**.
 4. Open the **Php.ini** file in a text editor, then uncomment and modify settings as follows:  
 
     - Set **fastcgi.impersonate = 1**.  
- FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
+       FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
     - Set **cgi.fix\_pathinfo = 0**  
- The **cgi.fix\_pathinfo** provides **PATH\_INFO/PATH\_TRANSLATED** support for Common Gateway Interface (CGI). Setting this to 1 will cause PHP CGI to fix its paths to conform to the specification.
+       The **cgi.fix\_pathinfo** provides **PATH\_INFO/PATH\_TRANSLATED** support for Common Gateway Interface (CGI). Setting this to 1 will cause PHP CGI to fix its paths to conform to the specification.
     - Set **cgi.force\_redirect = 0**.
     - Set **open\_basedir** to point to a folder or network path where the content of the Web site(s) is located.
     - Set **extension\_dir** to point to a location where PHP extensions reside. For PHP 5.2.X, this is typically **extension\_dir = "./ext"**.
     - Set **error\_log="C:php\_errors.log"**  
- This can help with troubleshooting.
+       This can help with troubleshooting.
     - Enable the required PHP extension by un-commenting corresponding lines. More information follows in the section, [Extensions](#Extensions_1).  
 
-        [![](install-and-configure-php/_static/image2.jpg)](install-and-configure-php/_static/image1.jpg)
-
+        ![](install-and-configure-php/_static/image1.jpg)  
         *Figure 1 Windows extensions*
 5. Click on **Start**, **Settings**, **Control Panel**, and then double-click on the **System** icon (using the class view).
 6. Click on the **Advanced system settings** link in the left column.
 7. From the **System Properties** window, click on the **Advanced** tab, and then click on the **Environment Variables** button at the bottom.
 8. Select the **Path** variable from the **System Variables** section, and then click on **Edit**. Add: `c:\php` to your system path.  
 
-    [![](install-and-configure-php/_static/image4.jpg)](install-and-configure-php/_static/image3.jpg)
-
+    ![](install-and-configure-php/_static/image3.jpg)  
     *Figure 2: Edit System Variable*
 9. Click **OK** until you have exited the System Properties window.
 10. Start IIS Manager by clicking on **Start**, **Programs**, **Administrative Tools**, and then **Internet Information Services (IIS) Manager**.
 11. From the **IIS Manager**, click on the *hostname* of your server in the **Connections** panel on the left.
 12. Double-click on the **Handler Mappings** icon.  
 
-    [![](install-and-configure-php/_static/image6.jpg)](install-and-configure-php/_static/image5.jpg)
-
+    ![](install-and-configure-php/_static/image5.jpg)  
     *Figure 3: Internet Information Services (IIS) Manager*
 13. From the **Handler Mappings** **Actions** panel, click on **Add Module Mapping**.  
 
-    [![](install-and-configure-php/_static/image8.jpg)](install-and-configure-php/_static/image7.jpg)
-
+    ![](install-and-configure-php/_static/image7.jpg)  
     *Figure 4: Handler Mappings*
 14. Type the following information into the appropriate text boxes, and then click **OK**.  
 
@@ -81,8 +70,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
     - Executable: **C:\php\php-cgi.exe**
     - Name: **FastCGI**
 
-    [![](install-and-configure-php/_static/image2.gif)](install-and-configure-php/_static/image1.gif)
-
+    ![](install-and-configure-php/_static/image1.gif)  
     *Figure 5: Add Script Map*
 15. Click **OK**, and then **c** lick **Yes.**
 16. In the left panel, click on your server's *hostname*, and then double-click on the **Default Document** icon.
@@ -94,13 +82,13 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
 22. Create a new text document, and save it as `c:\inetpub\wwwroot\phpinfo.php` with the following content:  
 
     [!code-xml[Main](install-and-configure-php/samples/sample1.xml)]
-23. You should now see the PHP information page at http://localhost/phpinfo.php.  
+23. You should now see the PHP information page at `http://localhost/phpinfo.php`.
 
-    [![](install-and-configure-php/_static/image10.jpg)](install-and-configure-php/_static/image9.jpg)
-
+    ![](install-and-configure-php/_static/image9.jpg)  
     *Figure 6: PHP information page*
 
 <a id="Extensions_1"></a>
+
 ## Extensions
 
 It is important to determine which extensions are needed by the applications that will be running and then to limit the installed extensions to only those. For a typical open-source application installation, for example, the following extensions are installed:
@@ -141,8 +129,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 5. Click **OK**.
 6. Select the **Modify** permission check box, and click **OK**.  
 
-    [![](install-and-configure-php/_static/image4.gif)](install-and-configure-php/_static/image3.gif)
-
+    ![](install-and-configure-php/_static/image3.gif)  
     *Figure 7: Permissions for session folder*
 7. Click **OK** in the **Session Properties** window.
 8. Open **php.ini** in the PHP installation directory, and set the **session.save\_path** setting to the **session** subdirectory:  
@@ -153,8 +140,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 11. Type **runas /user:administrator cmd.exe** to enable elevated permissions.
 12. Type **iisreset** at the command prompt, and then press the ENTER key.  
 
-    [![](install-and-configure-php/_static/image12.jpg)](install-and-configure-php/_static/image11.jpg)
-
+    ![](install-and-configure-php/_static/image11.jpg)  
     *Figure 8: IISRESET command*
 
     Note that PHP uses file-based session state by default. You can modify a number of additional session settings, including whether cookie or URL sessions should be used, and whether sessions are created on the first request or need to be explicitly created.
@@ -167,22 +153,19 @@ The Php.ini file provides PHP with configuration and environmental information. 
 17. Save and close the file.
 18. Start **Internet Explorer**, and navigate to `http://localhost/phpapp/session.php`.  
 
-    [![](install-and-configure-php/_static/image6.gif)](install-and-configure-php/_static/image5.gif)
-
+    ![](install-and-configure-php/_static/image5.gif)  
     *Figure 9: Using session state*
 19. Observe that the counter is 1.
 20. Request `http://localhost/phpapp/session.php` again, or press **F5**.  
 
-    [![](install-and-configure-php/_static/image8.gif)](install-and-configure-php/_static/image7.gif)
-
+    ![](install-and-configure-php/_static/image7.gif)  
     *Figure 10: Using session state*
-
 21. Observe that the counter is 2.
 
 > [!NOTE]
 > *This article uses information from "*[*Using FastCGI to Host PHP Applications on IIS 7.0 and Above*](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#InstallPHP)*" by Ruslan Yakushev, published on December 5, 2007.*
 
-## Links for Further Information
+## See also
 
 - [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb).
 - [Installing PHP on Windows Server 2008](https://www.microsoft.com/video/en/us/details/7293e003-91c5-4e50-a3c9-ff47b3c62bbc).

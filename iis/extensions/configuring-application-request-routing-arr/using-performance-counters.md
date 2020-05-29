@@ -1,19 +1,14 @@
 ---
-title: "Using Performance Counters | Microsoft Docs"
+title: "Using Performance Counters"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully monitor Application Request..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/06/2009
-ms.topic: article
 ms.assetid: a50a36b9-89c3-4a7d-be6f-e88cf886ea05
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-performance-counters
 msc.type: authoredcontent
 ---
-Using Performance Counters
-====================
+# Using Performance Counters
+
 by CJ Pattekar
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**

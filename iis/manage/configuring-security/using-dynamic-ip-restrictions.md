@@ -1,19 +1,14 @@
 ---
-title: "Using Dynamic IP Restrictions | Microsoft Docs"
+title: "Using Dynamic IP Restrictions"
 author: naziml
 description: "The Dynamic IP Restrictions (DIPR) module for IIS 7.0 and above provides protection against denial of service and brute force attacks on web servers and web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/16/2009
-ms.topic: article
 ms.assetid: a6881b7d-4080-440c-ab71-cb274ac6f128
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/using-dynamic-ip-restrictions
 msc.type: authoredcontent
 ---
-Using Dynamic IP Restrictions
-====================
+# Using Dynamic IP Restrictions
+
 by [Nazim Lala](https://github.com/naziml)
 
 ## Introduction
@@ -39,7 +34,6 @@ You can use the Web Platform Installer (Web PI) to install the Dynamic IP Restri
 
 [Dynamic IP Restrictions download page](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions)   
   
-
 ### Prerequisites
 
 You must have one of the following operating systems.
@@ -95,9 +89,7 @@ When using this option the server will deny requests from any HTTP client's IP a
 
 To test this feature set the "Maximum number of requests" to 5 and "Time period" to 5000 by using either IIS Manager or by executing appcmd command:
 
-
 [!code-console[Main](using-dynamic-ip-restrictions/samples/sample3.cmd)]
-
 
 Open web browser, request `http://localhost/welcome.png` and then hit F5 to continuously refresh the page. This will generate more than 5 requests over 5 seconds so as a result you will see server responding with 403 - Forbidden status code:
 

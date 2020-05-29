@@ -1,19 +1,14 @@
 ---
-title: "System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
+title: "System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7"
 author: rick-anderson
 description: "This article describes the system and platform requirements for setting up Web Farm Framework 2.0 for IIS 7 and above in order to create and manage a server..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/21/2010
-ms.topic: article
 ms.assetid: 11305912-4c7a-499f-8b0a-ccff66e97a28
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/system-and-platform-requirements-for-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---
-System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7
-====================
+# System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7
+
 by Randall DuBois
 
 This article describes the system and platform requirements for setting up Web Farm Framework 2.0 for IIS 7 and above in order to create and manage a server farm.
@@ -28,7 +23,7 @@ Each computer that will participate in a server farm must have the following:
 - Windows Server 2008 or Windows Server 2008 R2 installed.
 - The .NET Framework 2.0 or later installed.
 - One of the following accounts:
-	- A local administrator account with the same name and password as an an administrator account on each computer that will participate in the server farm.
+    - A local administrator account with the same name and password as an administrator account on each computer that will participate in the server farm.
     - A domain account in the local Administrators group that is also in the local Administrators group on each computer that will participate in the server farm.
 - A network connection that is accessible by the other servers that will participate in the server farm.
 
@@ -71,6 +66,6 @@ If you are using Windows Firewall, follow these steps to allow these programs.
 2. On the **Allowed Programs** page, click **Change Settings**.
 3. Select **Core Networking,** **Remote Administration** and **File and Printer Sharing** and then click **OK**.  
   
- The program must be allowed to communicate on the domain. You can optionally select other networks.
+   The program must be allowed to communicate on the domain. You can optionally select other networks.
 
 ![](system-and-platform-requirements-for-the-web-farm-framework-20-for-iis/_static/image1.png)

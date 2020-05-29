@@ -1,19 +1,14 @@
 ---
-title: "Siteframe on IIS | Microsoft Docs"
+title: "Siteframe on IIS"
 author: rick-anderson
 description: "Siteframe™ is a lightweight content-management system designed for the rapid deployment of community-based websites. With Siteframe, a group of users can sha..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2008
-ms.topic: article
 ms.assetid: cbd31eed-9257-4768-99a5-dc73513ddaed
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/siteframe-on-iis
 msc.type: authoredcontent
 ---
-Siteframe on IIS
-====================
+# Siteframe on IIS
+
 by Eric Woersching
 
 ## Introduction
@@ -74,9 +69,9 @@ allow\_url\_fopen=on
     - db\_database = siteframe
 2. To ensure that the installation process can complete without errors, follow the instructions to set the file and directory permissions. For this walkthrough, we provide modify permissions to the local machine "IUSER" account for the following directories and files:  
 
-    - /siteframe
+   - /siteframe
 
-    [![](siteframe-on-iis/_static/image2.jpg)](siteframe-on-iis/_static/image1.jpg)
+     [![](siteframe-on-iis/_static/image2.jpg)](siteframe-on-iis/_static/image1.jpg)
 3. Copy \_htaccess file to .htaccess. Windows may not allow naming the file with only the extension (.htaccess). Open the file in the editor (notepad) and save as ".htaccess".
 4. Siteframe requires the Smarty templates. Download and install Smarty templates from   
     [http://smarty.php.net/](http://smarty.php.net/) and copy to the local folder.   
@@ -85,7 +80,7 @@ allow\_url\_fopen=on
     > Smarty templates are available only in the .tar format and these .tar files must be extracted using gzip or other tools. We use the "izarc" tool downloaded from [http://www.izarc.org/download.html](http://www.izarc.org/download.html).
 5. After installing the extract tool, right click the filename and extract .tar to the folder `c:\smarty`. To avoid the security issues, keep this folder outside of the web root directory. There could be one other Smarty-2.6.18.tar file located inside the extracted files; if so, extract that file into the same folder as well.
 6. Edit PHP configuration file php.ini to add the installed Smarty include path.  
- Include\_path = ".;c:\smarty\libs". Restart IIS to affect the changes.
+   Include\_path = ".;c:\smarty\libs". Restart IIS to affect the changes.
 7. Set up these two folders inside your www root:  
 
     - (wwwroot)/smarty/templates (This is where your templates will go.)

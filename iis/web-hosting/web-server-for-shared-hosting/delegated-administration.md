@@ -1,19 +1,14 @@
 ---
-title: "Delegated Administration | Microsoft Docs"
+title: "Delegated Administration"
 author: walterov
 description: "The IIS 7 and above administrative user interface, called the IIS Manager, offers a more efficient tool for managing the Web server. It provides support for..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: 71974fec-16e1-4c87-aa83-ace3a8508c8c
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/delegated-administration
 msc.type: authoredcontent
 ---
-Delegated Administration
-====================
+# Delegated Administration
+
 by [Walter Oliver](https://github.com/walterov)
 
 The IIS 7 and above administrative user interface, called the IIS Manager, offers a more efficient tool for managing the Web server. It provides support for IIS and ASP.NET configuration settings. It also lets those who host or administer Web sites delegate administrative control to developers or content owners, thus reducing cost of ownership and administrative burden for the server administrator. It supports remote connections over HTTP, and you can use it through a firewall.
@@ -31,7 +26,6 @@ The following table lists a sample set of features, their delegated settings, an
 > 
 >     1. [Delegating errorMode in httpErrors](delegating-errormode-in-httperrors.md)
 >     2. [Delegating scriptErrorSentToBrowser in ASP](asp.md)
-
 
 | **Feature** | **Delegated Setting** | **Reason** |
 | --- | --- | --- |
@@ -73,7 +67,6 @@ The following table lists a sample set of features, their delegated settings, an
 | Session State | Read/Write | Specifies session state and forms authentication cookie settings. |
 | SMTP E-mail | Read/Write | Specifies email address and delivery options for email sent from the site. |
 | SSL Settings | Read Only | Specifies settings for SSL. |
-
 
 **To enable the Remote Delegation Service using IIS Manager**
 

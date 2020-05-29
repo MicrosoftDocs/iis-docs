@@ -1,19 +1,14 @@
 ---
-title: "SEO Rule Templates | Microsoft Docs"
+title: "SEO Rule Templates"
 author: ruslany
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL Rewrite Module 2 includes several rule temp..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/11/2010
-ms.topic: article
 ms.assetid: b1442d95-ba74-4810-87e6-359d94ab3787
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/seo-rule-templates
 msc.type: authoredcontent
 ---
-SEO Rule Templates
-====================
+# SEO Rule Templates
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL Rewrite Module 2 includes several rule templates for some common usage scenarios. In addition to that URL Rewrite Module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use the "Search Engine Optimization" rule templates to make sure that the URLs used by pages on your web application are the most optimal for search engine ranking.
@@ -31,15 +26,11 @@ You will be using a simple test asp.net page to verify that the rules created by
 
 Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot\` folder in a file called article.aspx:
 
-
 [!code-aspx[Main](seo-rule-templates/samples/sample1.aspx)]
-
 
 Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end:
 
-
 [!code-console[Main](seo-rule-templates/samples/sample2.cmd)]
-
 
 Note: you are using "\_" instead of "." for domain separators. This is to prevent a Web browser from trying to resolve the domain name by using a Domain Name System (DNS) server.
 
@@ -81,7 +72,6 @@ What you want to do is to ensure that if somebody comes to your web site by usin
 [![](seo-rule-templates/_static/image15.png)](seo-rule-templates/_static/image14.png)
 
 Click OK to generate a redirect rule:
-
 
 After the rule has been generated open a Web browser and make a request to `http://contoso_com/Article/123/Some-Title`. The Web browser will be redirected to `http://contoso_com/article/123/some-title/`.
 

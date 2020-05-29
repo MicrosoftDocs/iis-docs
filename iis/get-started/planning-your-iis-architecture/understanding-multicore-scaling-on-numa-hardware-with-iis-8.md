@@ -1,19 +1,14 @@
 ---
-title: "Understanding Multicore Scaling on NUMA Hardware with IIS 8 | Microsoft Docs"
+title: "Understanding Multicore Scaling on NUMA Hardware with IIS 8"
 author: rick-anderson
 description: "IIS 8 and above offers features to enhance performance on NUMA hardware."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/09/2013
-ms.topic: article
 ms.assetid: e9c2e90a-9727-45c2-8812-bbae8a926787
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/understanding-multicore-scaling-on-numa-hardware-with-iis-8
 msc.type: authoredcontent
 ---
-Understanding Multicore Scaling on NUMA Hardware with IIS 8
-====================
+# Understanding Multicore Scaling on NUMA Hardware with IIS 8
+
 by Kaori Sawada
 
 Non-uniform memory access (NUMA) is a modern design for computer memory access, which was designed to overcome the scalability limits of the Symmetric Multi-Processor (SMP) architecture. In SMP, each core accesses its own bus and its own I/O hub. SMP doesn't work well with a large number of CPUs (or CPU cores) because they become competitive for access to the shared bus.
@@ -67,7 +62,7 @@ The below is the example to configure to of the applicationHost.config.
 > [!NOTE]
 > You can configure more than 2 processor group even when there is a fewer processors than 64 LPs.
 
-[https://msdn.microsoft.com/en-us/library/ff542298(VS.85).aspx](https://msdn.microsoft.com/en-us/library/ff542298(VS.85).aspx)
+[https://msdn.microsoft.com/library/ff542298(VS.85).aspx](https://msdn.microsoft.com/library/ff542298(VS.85).aspx)
 
 In this scenario, some bits of smpProcessorAffinityMask and smpProcessorAffinityMask2 attributes will be ignored.
 
@@ -84,8 +79,8 @@ When this configuration is used, the ApplicationPools are *hard affinitized*, me
 
 When it comes to affinitizing a process to a core or NUMA node, two affinity modes are possible:
 
-1. **Hard Affinity****.** A process is affinitized to a core (or cores that make up a NUMA node) and all threads for the process are executed by the affinitized core. The threads cannot be executed by the other cores on the system, regardless of whether the other cores have extra CPU cycles or not. The threads are contained within the affinitized core.
-2. **Soft Affinity****.** A process is affinitized to a core (or cores that make up a NUMA node) as the "preferred core". When a thread is about to be scheduled to be executed, the "preferred core" is considered first, however, depending on the load and the availability of the other cores on the system, the thread maybe scheduled on the other cores on the system. This behavior is often described as a "spill over" effect, in which the threads are "spilling over" to the other non-soft-affinitized cores.
+1. **Hard Affinity.** A process is affinitized to a core (or cores that make up a NUMA node) and all threads for the process are executed by the affinitized core. The threads cannot be executed by the other cores on the system, regardless of whether the other cores have extra CPU cycles or not. The threads are contained within the affinitized core.
+2. **Soft Affinity.** A process is affinitized to a core (or cores that make up a NUMA node) as the "preferred core". When a thread is about to be scheduled to be executed, the "preferred core" is considered first, however, depending on the load and the availability of the other cores on the system, the thread maybe scheduled on the other cores on the system. This behavior is often described as a "spill over" effect, in which the threads are "spilling over" to the other non-soft-affinitized cores.
 
 The following new schema element has been introduced in IIS 8 for configuring the affinity modes:
 
@@ -104,11 +99,12 @@ By default, Windows assigns each process to the next NUMA node in the system usi
 1. **MostAvailableMemory.** The scheduling algorithm for worker processes started by WAS which will schedule the process on the node with the most available memory. This helps in minimizing access to memory on a remote NUMA node. The first worker process is selected based on which NUMA node has the most available (free) memory. The rest of the worker processes are affinitized in a round-robin fashion.  
   
     > [!NOTE]
-    >  The **numaNodeAffinityMode** attribute is applicable only with **MostAvailableMemory**.
+    > The **numaNodeAffinityMode** attribute is applicable only with **MostAvailableMemory**.
+
 2. **WindowsScheduling.** The operating system, by default, assigns each process to the next NUMA node in the system using a "round-robin" algorithm on a NUMA system. The worker processes are spread out evenly because Windows chooses the NUMA node based on this "round-robin" algorithm and soft affinitizes the processes to NUMA nodes.  
   
     > [!NOTE]
-    >  The **numaNodeAffinityMode** attribute is not applicable with **WindowsScheduling** because this is not an IIS implementation but Windows implementation as itself.
+    > The **numaNodeAffinityMode** attribute is not applicable with **WindowsScheduling** because this is not an IIS implementation but Windows implementation as itself.
 
 Configuring these options are done using new schema options:
 

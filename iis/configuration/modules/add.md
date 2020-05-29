@@ -1,19 +1,14 @@
 ---
-title: "Adding Modules &lt;add&gt; | Microsoft Docs"
+title: "Adding Modules &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;modules&gt; element adds a module to the collection of feature modules that are available in IIS Manager when a u..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: c9292951-00fe-4767-9dfd-709e076a5bca
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/modules/add
 msc.type: config
 ---
-Adding Modules &lt;add&gt;
-====================
+# Adding Modules &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -83,7 +78,7 @@ The following code examples enable a managed module provider named ContosoProvid
 > [!NOTE]
 > You cannot configure `<modules>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

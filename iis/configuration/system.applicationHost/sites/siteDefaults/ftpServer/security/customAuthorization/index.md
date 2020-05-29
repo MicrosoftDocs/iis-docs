@@ -1,19 +1,14 @@
 ---
-title: "Default FTP Custom Authorization &lt;customAuthorization&gt; | Microsoft Docs"
+title: "Default FTP Custom Authorization &lt;customAuthorization&gt;"
 author: rick-anderson
 description: "Overview The &lt;customAuthorization&gt; element specifies the default settings for custom authorization of FTP sites. This form of authorization uses custom..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 076b44a4-1b3d-455f-839c-49728dcb7a0d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/customauthorization
 msc.type: config
 ---
-Default FTP Custom Authorization &lt;customAuthorization&gt;
-====================
+# Default FTP Custom Authorization &lt;customAuthorization&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -21,7 +16,7 @@ The `<customAuthorization>` element specifies the default settings for custom au
 
 If you enable a custom authorization provider, the built-in authorization provider will not be used, and you will not be able to manually add an allow rule or a deny rule to the configuration.
 
-For information about how to create a custom provider, see [How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider](https://docs.microsoft.com/en-us/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider).
+For information about how to create a custom provider, see [How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider](https://docs.microsoft.com/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider).
 
 <a id="002"></a>
 ## Compatibility
@@ -85,7 +80,7 @@ To support FTP authorization using a custom provider on your Web server, you mus
     [![](index/_static/image2.png)](index/_static/image1.png)  
   
     > [!NOTE]
-    > When a custom FTP authorization provider has been enabled, the     **FTP Authorization Rules** feature is disabled.
+    > When a custom FTP authorization provider has been enabled, the **FTP Authorization Rules** feature is disabled.
 6. Click **OK**.
 
 <a id="005"></a>
@@ -119,27 +114,22 @@ The following code samples configure a default custom FTP authorization provider
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
   
-
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
   
-
 ### VB.NET
 
 [!code-vb[Main](index/samples/sample4.vb)]
   
-
 ### JavaScript
 
 [!code-javascript[Main](index/samples/sample5.js)]
   
-
 ### VBScript
 
 [!code-vb[Main](index/samples/sample6.vb)]
   
-
 ### PowerShell
 
 [!code-powershell[Main](index/samples/sample7.ps1)]

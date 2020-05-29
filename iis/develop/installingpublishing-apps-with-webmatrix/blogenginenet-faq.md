@@ -1,19 +1,14 @@
 ---
-title: "BlogEngine.NET FAQ | Microsoft Docs"
+title: "BlogEngine.NET FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 94b2ff9c-de00-4e0e-add9-de807a33d626
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq
 msc.type: authoredcontent
 ---
-BlogEngine.NET FAQ
-====================
+# BlogEngine.NET FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.
@@ -49,6 +44,5 @@ A: If you are publishing to a server where the web site is configured to run in 
 > **Error**: Ooops! An unexpected error has occurred.
 > 
 > The error will also contain the message: "A potentially dangerous Request.Form value was detected from the client (ctl00$cphAdmin$txtContent$TinyMCE1$txtContent="
-
 
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.

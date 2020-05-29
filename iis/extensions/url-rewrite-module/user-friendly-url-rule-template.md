@@ -1,19 +1,14 @@
 ---
-title: "User Friendly URL - rule template | Microsoft Docs"
+title: "User Friendly URL - rule template"
 author: rick-anderson
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/11/2008
-ms.topic: article
 ms.assetid: b78078fb-e762-4256-84eb-6d564f6475e0
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/user-friendly-url-rule-template
 msc.type: authoredcontent
 ---
-User Friendly URL - rule template
-====================
+# User Friendly URL - rule template
+
 by IIS Team
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templates for some common usage scenarios. In addition to that URL rewrite module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use "User Friendly URL" rule template that is included with URL rewrite module.
@@ -31,17 +26,14 @@ We will be using a simple test asp.net page to verify that the rules created by 
 
 Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot\` folder in a file called article.aspx:
 
-
 [!code-aspx[Main](user-friendly-url-rule-template/samples/sample1.aspx)]
-
 
 After copying this file, browse to `http://localhost/article.aspx` and check that the page was rendered correctly in a browser.  
 [![](user-friendly-url-rule-template/_static/image10.png)](user-friendly-url-rule-template/_static/image9.png)
 
-
 ## Using rule template to generate rewrite rules
 
-The "User Friendly URL" rule template can be used to generate rewrite, redirect and outbound rules that make URLs for your dynamic web application more user and search engine friendly. Typically, dynamic web pages take into account query string parameters when generating an output HTML. The URLs with query strings (e.g. `http://contoso.com/articles.aspx?year=2008&month=11`) are not as easy for humans to use and communicate as simple hierarchy based URLs (e.g. `http://contolso.com/articles/2008/11`). In addition some search engine crawlers may ignore the query string when indexing the web site pages. The rule template helps you generate rewrite rule that transform the hierarchy based URLs to URLs with query strings. The templace can also, optionally, generate a redirect rule that can be used to redirect web clients form URLs with query strings to clean URLs. Finally, it is possible to create an outbound rewrite rule that replaces all the occurances of URLs with query strings in the HTML responce with their hierarch based URL equivalents.
+The "User Friendly URL" rule template can be used to generate rewrite, redirect and outbound rules that make URLs for your dynamic web application more user and search engine friendly. Typically, dynamic web pages take into account query string parameters when generating an output HTML. The URLs with query strings (e.g. `http://contoso.com/articles.aspx?year=2008&month=11`) are not as easy for humans to use and communicate as simple hierarchy based URLs (e.g. `http://contolso.com/articles/2008/11`). In addition some search engine crawlers may ignore the query string when indexing the web site pages. The rule template helps you generate rewrite rule that transform the hierarchy based URLs to URLs with query strings. The templace can also, optionally, generate a redirect rule that can be used to redirect web clients form URLs with query strings to clean URLs. Finally, it is possible to create an outbound rewrite rule that replaces all the occurrences of URLs with query strings in the HTML response with their hierarch based URL equivalents.
 
 To use the template follow these steps:
 

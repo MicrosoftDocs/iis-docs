@@ -1,19 +1,14 @@
 ---
-title: "Verbs &lt;verbs&gt; | Microsoft Docs"
+title: "Verbs &lt;verbs&gt;"
 author: rick-anderson
 description: "Overview The &lt;verbs&gt; element specifies which HTTP verbs are allowed or denied to limit the type of HTTP requests that are allowed by the Web server. No..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: fd402a22-694b-4982-a82d-189ce7be938a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/verbs
 msc.type: config
 ---
-Verbs &lt;verbs&gt;
-====================
+# Verbs &lt;verbs&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -151,7 +146,11 @@ The following code samples will configure two options: they will configure IIS t
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

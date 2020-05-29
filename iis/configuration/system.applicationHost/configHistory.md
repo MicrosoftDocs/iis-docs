@@ -1,19 +1,14 @@
 ---
-title: "Configuration History &lt;configHistory&gt; | Microsoft Docs"
+title: "Configuration History &lt;configHistory&gt;"
 author: rick-anderson
 description: "Overview The &lt;configHistory&gt; element defines the settings for the built-in IIS configuration history feature, which keeps a running history of changes..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e8921ba8-48b1-4529-b383-499c3764b8c3
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/confighistory
 msc.type: config
 ---
-Configuration History &lt;configHistory&gt;
-====================
+# Configuration History &lt;configHistory&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -84,7 +79,7 @@ The following code samples enable configuration history for IIS 7, and configure
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](configHistory/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "How to Use Native Code (C++) to Create a Simple FTP Logging Provider | Microsoft Docs"
+title: "How to Use Native Code (C++) to Create a Simple FTP Logging Provider"
 author: rmcmurray
 description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: ae120a50-83ad-4ac7-9011-1dd0c2352300
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-logging-provider
 msc.type: authoredcontent
 ---
-How to Use Native Code (C++) to Create a Simple FTP Logging Provider
-====================
+# How to Use Native Code (C++) to Create a Simple FTP Logging Provider
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features that enable Web authors to publish content more easily than before, and offers Web administrators more security and deployment options.
@@ -37,8 +32,8 @@ The following items are required to complete the procedures in this article:
     > [!NOTE]
     > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
     
-	> [!NOTE]
-    > If you plan to develop custom FTP providers for computers that use a 64-bit version of Windows, you will have to install the 64-bit tools and compilers for Visual Studio. You can find additional information about 64-bit development in the [Installing Visual Studio 64-bit Components](https://msdn.microsoft.com/en-us/library/ms246588.aspx) topic on the Microsoft MSDN Web site.
+    > [!NOTE]
+    > If you plan to develop custom FTP providers for computers that use a 64-bit version of Windows, you will have to install the 64-bit tools and compilers for Visual Studio. You can find additional information about 64-bit development in the [Installing Visual Studio 64-bit Components](https://msdn.microsoft.com/library/ms246588.aspx) topic on the Microsoft MSDN Web site.
 5. A folder for logging must be created; the code sample uses `C:\logfiles\myftpsite`, but you can change that if necessary.
 
 ## Step 1: Set up the Project Environment
@@ -100,9 +95,9 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
 9. Optional: If you are developing your custom provider on a 32-bit version of Windows, you can optionally add a custom build event to automatically deploy and register the DLL on your development computer.
 
     > [!NOTE]
-    > These steps will not work on a 64-bit version of Windows.)
-	
-	To add the custom build event, follow these steps: 
+    > These steps will not work on a 64-bit version of Windows.
+
+    To add the custom build event, follow these steps:
 
     - Click **Project**, and then click **FtpLoggingDemo Properties**.
     - Expand **Configuration Properties**, then expand **Build Events**, then click **Post-build Event**.

@@ -1,19 +1,14 @@
 ---
-title: "Installing and Configuring Web Deploy on IIS 7 | Microsoft Docs"
+title: "Installing and Configuring Web Deploy on IIS 7"
 author: krolson
 description: "Installing and Configuring Web Deploy for Administrator and non-administrator Deployments Summary In this walkthrough, we will show steps for installing and..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/12/2011
-ms.topic: article
 ms.assetid: 1715cb3f-5851-44b2-af04-5a2a1bac5dcb
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy
 msc.type: authoredcontent
 ---
-Installing and Configuring Web Deploy on IIS 7
-====================
+# Installing and Configuring Web Deploy on IIS 7
+
 by [Kristina Olson](https://github.com/krolson)
 
 ## Summary
@@ -41,8 +36,8 @@ The server must have an operating system that comes with IIS7— this means eith
             ![](installing-and-configuring-web-deploy/_static/image5.png)
     2. Download the Web Deploy installer directly from the [IIS.net Web Deploy page](https://www.iis.net/downloads/microsoft/web-deploy)[https://www.iis.net/download/webdeploy](https://www.iis.net/downloads/microsoft/web-deploy) ([x86](https://go.microsoft.com/fwlink/?LinkId=209115) | [x64](https://go.microsoft.com/fwlink/?LinkId=209116))
 
-		1. In the Setup wizard choose the "Complete" setup option.  
-             [![](installing-and-configuring-web-deploy/_static/image7.png)](installing-and-configuring-web-deploy/_static/image6.png)
+        1. In the Setup wizard choose the "Complete" setup option.  
+            [![](installing-and-configuring-web-deploy/_static/image7.png)](installing-and-configuring-web-deploy/_static/image6.png)
         2. Note: *Using the MSI directly is generally not recommended for the novice user, as recommended or required dependent products must then be installed separately*. The following limitations may create issues when using the MSI instead of WebPI to install Web Deploy on servers: 
 
             1. The MSI will not install SQL Shared Management Objects (SMO), which is required for the SQL Server database deployments. This component may be installed using WebPI to enable SQL Server database deployments.
@@ -64,15 +59,14 @@ After installing Web Deploy using method (1) or (2a), described above, all serve
     5. Click **Select :**   
         [![](installing-and-configuring-web-deploy/_static/image11.png)](installing-and-configuring-web-deploy/_static/image10.png)
 
-	6. Type the name of a non-administrator Windows user and click **Ok**   
-		[![](installing-and-configuring-web-deploy/_static/image13.png)](installing-and-configuring-web-deploy/_static/image12.png)
-	7. When you click **Setup**, the following log will lines will appear:
+    6. Type the name of a non-administrator Windows user and click **Ok**   
+        [![](installing-and-configuring-web-deploy/_static/image13.png)](installing-and-configuring-web-deploy/_static/image12.png)
+    7. When you click **Setup**, the following log will lines will appear:
  
-		- Publish enabled for 'NonAdminUser'
-		- Granted 'NonAdminUser' full control on `C:\inetpub\wwwroot\test`
-		- Successfully created settings file `C:\Users\JohnDoe\Desktop\NonAdminUser\_Default Web Site.PublishSettings`
-	8. The non-administrator Windows user (NonAdminUser) may now publish to the site (test).
-
+        - Publish enabled for 'NonAdminUser'
+        - Granted 'NonAdminUser' full control on `C:\inetpub\wwwroot\test`
+        - Successfully created settings file `C:\Users\JohnDoe\Desktop\NonAdminUser\_Default Web Site.PublishSettings`
+    8. The non-administrator Windows user (NonAdminUser) may now publish to the site (test).
 
 ### Install and Configure Web Deploy for Administrator deployments
 

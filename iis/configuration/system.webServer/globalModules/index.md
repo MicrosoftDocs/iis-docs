@@ -1,19 +1,14 @@
 ---
-title: "Global Modules &lt;globalModules&gt; | Microsoft Docs"
+title: "Global Modules &lt;globalModules&gt;"
 author: rick-anderson
 description: "Overview The &lt;globalModules&gt; element defines the global-level modules installed on an IIS 7 server. The &lt;globalModules&gt; element is only available..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 4d8d9e66-bdfc-46df-9a11-53ad4c19b3be
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/globalmodules
 msc.type: config
 ---
-Global Modules &lt;globalModules&gt;
-====================
+# Global Modules &lt;globalModules&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -75,7 +70,7 @@ The `<globalModules>` element is included in the default installation of IIS 7.
 8. In the **Configure Native Modules** dialog box, select the option for the native module that you just registered, click **OK**, and then click **OK** again. This enables the native module to run and makes it available to sites and applications on your Web server.  
   
     > [!NOTE]
-    > If you do not want to enable the native module to run, clear the option for the native module, and then click     **OK** .
+    > If you do not want to enable the native module to run, clear the option for the native module, and then click **OK**.
 9. Optionally, you can lock the native module if you do not want it to be overridden at lower levels in the configuration system. On the **Modules** page, select the module, and then click **Lock** in the **Actions** pane.
 
 ### How to enable a native module
@@ -141,7 +136,7 @@ You can also use the following syntax:
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

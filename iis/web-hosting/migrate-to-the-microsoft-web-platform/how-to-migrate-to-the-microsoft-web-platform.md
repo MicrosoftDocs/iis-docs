@@ -1,19 +1,14 @@
 ---
-title: "How to Migrate to the Microsoft Web Platform | Microsoft Docs"
+title: "How to Migrate to the Microsoft Web Platform"
 author: rick-anderson
 description: "PHP is quite portable, and cross-platform development has been a major goal in its development. In most cases, PHP scripts are easily ported from Linux to th..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 7aa6674b-c24c-4c8e-b3eb-c8ac5bf5f3a2
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/how-to-migrate-to-the-microsoft-web-platform
 msc.type: authoredcontent
 ---
-How to Migrate to the Microsoft Web Platform
-====================
+# How to Migrate to the Microsoft Web Platform
+
 by Tali Smith
 
 PHP is quite portable, and cross-platform development has been a major goal in its development. In most cases, PHP scripts are easily ported from Linux to the Windows® operating system with very few problems. Microsoft has also produced a rich set of PHP migration documentation and a toolkit to assist in basic PHP application deployment; these are located on the Internet Information Services (IIS) Web site ([https://www.iis.net/](https://www.iis.net/)).

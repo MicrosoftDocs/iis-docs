@@ -1,19 +1,14 @@
 ---
-title: "Application Defaults &lt;applicationDefaults&gt; | Microsoft Docs"
+title: "Application Defaults &lt;applicationDefaults&gt;"
 author: rick-anderson
 description: "Overview The &lt;applicationDefaults&gt; element of the &lt;sites&gt; element specifies the default application settings for all applications on the server...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 1adff8d1-0312-47d0-8d6a-9779d16bf78a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/applicationdefaults
 msc.type: config
 ---
-Application Defaults &lt;applicationDefaults&gt;
-====================
+# Application Defaults &lt;applicationDefaults&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -32,7 +27,7 @@ The `<applicationDefaults>` element of the `<sites>` element specifies the defau
 | IIS 8.0 | The `<applicationDefaults>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<applicationDefaults>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<applicationDefaults>` element of the `<sites>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<applicationDefaults>` element is analogous to setting setting application options at the **W3SVC** level in the IIS 6.0 metabase. |
+| IIS 6.0 | The `<applicationDefaults>` element is analogous to setting application options at the **W3SVC** level in the IIS 6.0 metabase. |
 
 <a id="003"></a>
 ## Setup
@@ -99,7 +94,7 @@ The following code samples set the default application pool for all Web sites to
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](applicationDefaults/samples/sample3.cs)]
 

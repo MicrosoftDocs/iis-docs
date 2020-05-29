@@ -1,19 +1,14 @@
 ---
-title: "FTP over SSL &lt;ssl&gt; | Microsoft Docs"
+title: "FTP over SSL &lt;ssl&gt;"
 author: rick-anderson
 description: "Overview The &lt;ssl&gt; element specifies the FTP over Secure Sockets Layer (SSL) settings for the FTP service; FTP over SSL was first introduced for IIS 7..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dff11de6-1144-46cd-bd9e-6137722542f8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/ssl
 msc.type: config
 ---
-FTP over SSL &lt;ssl&gt;
-====================
+# FTP over SSL &lt;ssl&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -21,7 +16,7 @@ The `<ssl>` element specifies the FTP over Secure Sockets Layer (SSL) settings f
 
 Unlike using HTTP over SSL, which requires a separate port and connection for secure (HTTPS) communication, secure FTP communication occurs on the same port as non-secure communication. FTP 7 supports two different forms of FTP over SSL:
 
-- **Explicit FTPS**: By default, FTP sites and clients use port 21 for the control channel, and the server and client will negotiate secondary ports for data channel connections. In a typical FTP request, an FTP client client will connect to an FTP site over the control channel, and then the client can negotiate SSL/TLS with the server for either the control channel or the data channel. When you are using FTP 7, you are using Explicit SSL if you enable FTPS and you assign the FTP site to any port other than port 990.
+- **Explicit FTPS**: By default, FTP sites and clients use port 21 for the control channel, and the server and client will negotiate secondary ports for data channel connections. In a typical FTP request, an FTP client will connect to an FTP site over the control channel, and then the client can negotiate SSL/TLS with the server for either the control channel or the data channel. When you are using FTP 7, you are using Explicit SSL if you enable FTPS and you assign the FTP site to any port other than port 990.
 - **Implicit FTPS**: Implicit FTPS is an older form of FTP over SSL that is still supported by FTP 7. With Implicit FTPS, an SSL handshake must be negotiated before any FTP commands can be sent by the client. In addition, even though Explicit FTPS allows the client to arbitrarily decide whether to use SSL, Implicit FTPS requires that the entire FTP session must be encrypted. When you are using FTP 7, you are using Implicit SSL if you enable FTPS and you assign the FTP site to port 990.
 
 Depending on the security options that you configure in the `controlChannelPolicy` and `dataChannelPolicy` attributes, an FTP client may switch between secure and non-secure multiple times in a single Explicit FTPS session. There are several ways that this might be implemented depending on your business needs:
@@ -47,9 +42,8 @@ Depending on the security options that you configure in the `controlChannelPolic
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
@@ -66,7 +60,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
     [![](ssl/_static/image2.png)](ssl/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -79,7 +73,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.   
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](ssl/_static/image4.png)](ssl/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
@@ -93,7 +87,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](ssl/_static/image6.png)](ssl/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -107,7 +101,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](ssl/_static/image8.png)](ssl/_static/image7.png)
 5. Click **OK**.
 
@@ -116,9 +110,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
 ## How To
@@ -163,7 +157,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
             - **Require**: SSL is required for the data channel; an FTP client may not switch to a non-secure mode of communication for the data channel.
             - **Deny**: SSL is denied for the data channel; an FTP client may not use SSL for the data channel.
         - Click **OK** to close the **Advanced SSL Policy** dialog box.
-- In the **Actions** pane, click **Apply**.
+6. In the **Actions** pane, click **Apply**.
 
 <a id="005"></a>
 ## Configuration
@@ -197,7 +191,6 @@ The following sample illustrates several configuration settings in the `<ftpServ
 - Specify a customized welcome message and enable local detailed error messages.
 - Specify that users will start in a home directory that is based on their login name, but only if that directory exists.
 
-
 [!code-xml[Main](ssl/samples/sample1.xml)]
 
 <a id="006"></a>
@@ -212,7 +205,7 @@ The following examples configure an FTP site so that it requires SSL for both th
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](ssl/samples/sample3.cs)]
 

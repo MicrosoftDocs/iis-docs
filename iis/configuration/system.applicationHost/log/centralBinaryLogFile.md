@@ -1,19 +1,14 @@
 ---
-title: "Central Binary Log File &lt;centralBinaryLogFile&gt; | Microsoft Docs"
+title: "Central Binary Log File &lt;centralBinaryLogFile&gt;"
 author: rick-anderson
 description: "Overview The &lt;centralBinaryLogFile&gt; element specifies the central binary log settings for all sites on a server. Note : You need to set the centralLogF..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3ae84ea6-a327-4dc5-bc90-41c459c9f9fd
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/log/centralbinarylogfile
 msc.type: config
 ---
-Central Binary Log File &lt;centralBinaryLogFile&gt;
-====================
+# Central Binary Log File &lt;centralBinaryLogFile&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -23,7 +18,7 @@ The `<centralBinaryLogFile>` element specifies the central binary log settings f
 > You need to set the **centralLogFileMode** attribute of the parent `<log>` element to **CentralBinary** in order for the attributes on the `<centralW3CLogFile>` element to have effect. If the **centralLogFileMode** attribute of the `<log>` element is set to **CentralW3C** or **Site**, the attributes on the `<centralW3CLogFile>` element will be ignored.
 
 > [!NOTE]
-> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility.
+> Log files in W3C format are text-based files that most log-parsing utilities can process. Binary log files use a proprietary storage format that requires the use of an application that can process log files in that format, such as [Microsoft's LogParser](https://www.microsoft.com/download/details.aspx?id=24659) utility.
 
 <a id="002"></a>
 ## Compatibility
@@ -105,7 +100,7 @@ The following code samples specify that IIS will use central binary logging, and
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](centralBinaryLogFile/samples/sample3.cs)]
 

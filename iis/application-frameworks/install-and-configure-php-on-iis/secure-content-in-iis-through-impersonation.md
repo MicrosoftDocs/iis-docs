@@ -1,19 +1,14 @@
 ---
-title: "Secure Content in IIS Through Impersonation | Microsoft Docs"
+title: "Secure Content in IIS Through Impersonation"
 author: rick-anderson
 description: "The access control list (ACL) is a list of permissions associated with an object. Each of these permission entries is called an access control entry (ACE); a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: fadbe064-4cbf-49ec-9439-ce6633f3a155
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-content-in-iis-through-impersonation
 msc.type: authoredcontent
 ---
-Secure Content in IIS Through Impersonation
-====================
+# Secure Content in IIS Through Impersonation
+
 by Tali Smith
 
 ## Introduction
@@ -32,24 +27,19 @@ For example, in its default configuration, IIS has anonymous authentication enab
 
 To determine which user account is used as an anonymous identity in IIS, use the following command (replace the "Default Web Site" with the name of your IIS Web site). In the output XML configuration element, look for the userName attribute.
 
-
 [!code-xml[Main](secure-content-in-iis-through-impersonation/samples/sample1.xml)]
-
 
 Note that if the userName attribute is not present in the &lt;anonymousAuthentication&gt; element or is set to an empty string, then the application pool identity is used as an anonymous identity for that Web site.
 
 To modify the permissions settings on files and folders, use the Windows Explorer user interface or the **icacls** command.
 
-
 [!code-console[Main](secure-content-in-iis-through-impersonation/samples/sample2.cmd)]
 
-
 *Note: This article uses material from "[Securing Content in IIS through File System ACLs](../../get-started/planning-for-security/secure-content-in-iis-through-file-system-acls.md)" by Nazim Lala*, *published on March 17, 2009.*
-
 
 ## Links for Further Information
 
 - [Application Packaging Guide for the Windows Web Application Gallery](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md).
 - [Understanding the Built-In User and Group Accounts in IIS 7 and Above](../../get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis.md).
 - [PHP on Windows Training Kit (August 2009)](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en).
-- [Access Control Lists](https://msdn.microsoft.com/en-us/library/aa374872(VS.85).aspx).
+- [Access Control Lists](https://msdn.microsoft.com/library/aa374872(VS.85).aspx).

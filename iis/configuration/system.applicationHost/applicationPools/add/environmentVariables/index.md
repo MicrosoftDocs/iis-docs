@@ -1,19 +1,14 @@
 ---
-title: "Environment Variables &lt;environmentVariables&gt; | Microsoft Docs"
+title: "Environment Variables &lt;environmentVariables&gt;"
 author: rick-anderson
 description: "Overview The &lt;environmentVariables&gt; element of the &lt;applicationPools&gt; / &lt;add&gt; element specifies a list of environment variables that Intern..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 576f8cd4-aee1-4f9b-acd2-fb9c6c73355d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/environmentvariables
 msc.type: config
 ---
-Environment Variables &lt;environmentVariables&gt;
-====================
+# Environment Variables &lt;environmentVariables&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -69,7 +64,7 @@ The following examples demonstrate how to add a name/value pair to the collectio
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

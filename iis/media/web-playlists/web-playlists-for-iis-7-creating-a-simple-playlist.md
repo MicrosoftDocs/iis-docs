@@ -1,19 +1,14 @@
 ---
-title: "Web Playlists for IIS 7 - Creating a Simple Playlist | Microsoft Docs"
+title: "Web Playlists for IIS 7 - Creating a Simple Playlist"
 author: rick-anderson
 description: "Web Playlists for Internet Information Services (IIS) 7 provides the ability to control media delivery to clients and limit a client’s ability to seek or ski..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/27/2008
-ms.topic: article
 ms.assetid: b07830a3-2955-463e-a8b5-3ed8926f9a2f
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-7-creating-a-simple-playlist
 msc.type: authoredcontent
 ---
-Web Playlists for IIS 7 - Creating a Simple Playlist
-====================
+# Web Playlists for IIS 7 - Creating a Simple Playlist
+
 by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists for Internet Information Services (IIS) 7 provides the ability to control media delivery to clients and limit a client's ability to seek or skip individual entries in the playlist. Server administrators can enable or disable seek/skip behavior through fields in the playlist entry. This article describes how to create a playlist by using the Web Playlists module in IIS Manager.
@@ -70,30 +65,30 @@ The following properties are available to be set:
 1. In the **Add/Edit Playlist** page, in the **Media entries** area, click **Add** to open the **Add Media Entry** dialog box. The details in this dialog box apply to all the media entries that you select.
 2. In the **Add Media Entry** dialog box, add the following details to add media entries:
 
-    - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
+   - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
 
-        - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
-        - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
+       - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
+       - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
 
-    See the sections later in this article that describe how to add nested playlists and integrate with Web applications to obtain content location.
+     See the sections later in this article that describe how to add nested playlists and integrate with Web applications to obtain content location.
 
-    - **Content location**. Use the **Browse** button to populate a comma-delimited list of content items. You can select multiple items to add to the playlist at once. To select adjacent items, press and hold the SHIFT key while selecting. To select nonadjacent items, press and hold the CTRL key while selecting.
+   - **Content location**. Use the **Browse** button to populate a comma-delimited list of content items. You can select multiple items to add to the playlist at once. To select adjacent items, press and hold the SHIFT key while selecting. To select nonadjacent items, press and hold the CTRL key while selecting.
 
-    > [!NOTE]
-    > If you are using IIS Manager to connect to a remote server, ensure that the paths correspond to the remote computer. The **Browse** button is disabled in this case.
+     > [!NOTE]
+     > If you are using IIS Manager to connect to a remote server, ensure that the paths correspond to the remote computer. The **Browse** button is disabled in this case.
 
-    - **Title** (optional). The playlist title.
-    - **Disable skip forward** (optional). Disallows the content to be skipped so that the next entry is played before the current entry is played. (For example, a particular site may want to disable skip on all advertisements on the site.)
+   - **Title** (optional). The playlist title.
+   - **Disable skip forward** (optional). Disallows the content to be skipped so that the next entry is played before the current entry is played. (For example, a particular site may want to disable skip on all advertisements on the site.)
 
-    > [!NOTE]
-    > Disable skip forward has a dependency on the playlist handler attribute **allowSkipAfterMinPercent**, which specifies when skip forward is enabled. For example, If this attribute value is set to **80**, it means that after 80 percent of the content has been viewed, **Skip Forward** will be enabled (if disabled) in the player and the user will be able to skip to the next item in the playlist. If you want to disallow this, ensure that this value is set to 100.
+     > [!NOTE]
+     > Disable skip forward has a dependency on the playlist handler attribute **allowSkipAfterMinPercent**, which specifies when skip forward is enabled. For example, If this attribute value is set to **80**, it means that after 80 percent of the content has been viewed, **Skip Forward** will be enabled (if disabled) in the player and the user will be able to skip to the next item in the playlist. If you want to disallow this, ensure that this value is set to 100.
 
-    - **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
-    - **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
+   - **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
+   - **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image6.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
+     [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image6.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image8.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
+     [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image8.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
 
 #### Ensure that the Order of Entries in the Playlist is Correct
 
@@ -137,7 +132,7 @@ The **Seek** control in players is ignored when a media entry is a nested playli
 
 ## Adding HTTPD Media Entries
 
-Web Playlists can use media entries that begin with the httpd:// URL prefix to request that an external application, such as an ASP page, ASP.NET, or PHP application computes the correct content path/URL to serve. Server variables can be included in the URL while requesting these applications using the {var\_name} syntax (for example, httpd://{SERVER\_NAME}:{SERVER\_PORT}/pre.aspx). Remote applications can use this information to to determine the correct content to serve. The call flow is best captured by the following figure:
+Web Playlists can use media entries that begin with the httpd:// URL prefix to request that an external application, such as an ASP page, ASP.NET, or PHP application computes the correct content path/URL to serve. Server variables can be included in the URL while requesting these applications using the {var\_name} syntax (for example, httpd://{SERVER\_NAME}:{SERVER\_PORT}/pre.aspx). Remote applications can use this information to determine the correct content to serve. The call flow is best captured by the following figure:
 
 [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image12.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image11.jpg)
 
@@ -149,17 +144,13 @@ In the Web Playlists feature in IIS Manager, simply add a media entry that uses 
 
 For illustration, consider the following sample playlist:
 
-
 [!code-html[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample1.html)]
-
 
 For this playlist, when the client requests the first entry during playback, Web Playlists downloads the response from the **pre.aspx** page. The request uses two server variables (**SERVER\_NAME** and **SERVER\_PORT**) which are replaced by appropriate values while requesting the ASPX page.
 
 Here is a very simplified example of what the pre.aspx page could look like.
 
-
 [!code-aspx[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample2.aspx)]
-
 
 The ASPX page returns a path to advertisement.wmv. However, you can include any logic to compute the correct path/URL to be returned. For example, you can get values from a database based on the request parameters. You can also pass other server variables in the request such as IP address to get location-specific data from any database in your existing architecture.
 
@@ -206,7 +197,6 @@ Web Playlists has limited support for following SMIL elements:
 - seq: this tag is used to specify an order in the playlist.
 
 ### Sample SMIL-based Web Playlist
-
 
 [!code-html[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample3.html)]
 
@@ -259,9 +249,7 @@ The smil playlist referred above is read by the server and send the client in th
 
 The playlist in the example above results in the following ASX when accessed by the client:
 
-
 [!code-xml[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample4.xml)]
-
 
 When the player tries to play the playlist, The param tags above act as hints to player / developer writing the player. If there is an attempt to ignore the hints, then the server-side logic ensures the sanctity of the media controls: **Disable Skip Forward**, **Disable Skip Backward**, and **Disable Seek**.
 
@@ -271,7 +259,7 @@ In addition to supporting client-side playlist format asx, the Release Candidate
 
 ## For More Information
 
-- ASX Elements – [https://msdn.microsoft.com/en-us/library/ms910265.aspx](https://msdn.microsoft.com/en-us/library/ms910265.aspx)
-- PARAM Tags in ASX - [https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx](https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx)
-- ClientSkip Attribute for ENTRY - [https://msdn.microsoft.com/en-us/library/ms910279.aspx](https://msdn.microsoft.com/en-us/library/ms910279.aspx)
-- Logon Type - [https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx](https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx)
+- ASX Elements – [https://msdn.microsoft.com/library/ms910265.aspx](https://msdn.microsoft.com/library/ms910265.aspx)
+- PARAM Tags in ASX - [https://msdn.microsoft.com/library/bb249281(VS.85).aspx](https://msdn.microsoft.com/library/bb249281(VS.85).aspx)
+- ClientSkip Attribute for ENTRY - [https://msdn.microsoft.com/library/ms910279.aspx](https://msdn.microsoft.com/library/ms910279.aspx)
+- Logon Type - [https://msdn.microsoft.com/library/ms691229(VS.85).aspx](https://msdn.microsoft.com/library/ms691229(VS.85).aspx)

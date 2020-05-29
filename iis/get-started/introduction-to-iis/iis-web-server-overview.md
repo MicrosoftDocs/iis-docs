@@ -1,29 +1,22 @@
 ---
-title: "IIS Web Server Overview | Microsoft Docs"
+title: "IIS Web Server Overview"
 author: leanserver
 description: "The IIS 7 and later Web server have a completely modular architecture that offers three key benefits: Componentization, Extensibility, and ASP.NET Integratio..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: 8dbd0cf4-0b10-4028-9ca4-86abba161b72
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/iis-web-server-overview
 msc.type: authoredcontent
 ---
-IIS Web Server Overview
-====================
+# IIS Web Server Overview
+
 by IIS Team, [Mike Volodarsky](https://github.com/leanserver)
 
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 7.0 and later | The features described in this article were introduced in IIS 7.0. |
 | IIS 6.0 and earlier | The features described in this article were not supported prior to IIS 7.0. |
-
 
 The IIS 7 and later web servers have a completely modular architecture which offers three key benefits:
 
@@ -39,7 +32,7 @@ All of the Web server features are now managed as [standalone components](iis-mo
 2. **Improve performance and reduce memory footprint**. By removing unused server features, you can also reduce the amount of memory the server uses, and improve performance by reducing the amount of feature code that executes on every request to your application.
 3. **Build custom / specialized servers**. By selecting a particular set of server features, you can build custom servers that are optimized for performing a specific function within your application topology, such as edge caching or load balancing. You can add custom features to extend or replace any existing functionality using your own or third party server components built on the new extensibility APIs. The componentized architecture provides long term benefits to the IIS community: it facilitates the development of new server features as they are needed both inside Microsoft and among third party developers.
 
-IIS has also componentized the powerful HTTP process activation model introduced in IIS 6.0 with Application Pools. The HTTP process activation model is available for more than just Web applications, receiving requests or messages over any protocol. This protocol independent service is called the Windows Process Activation Service (WAS). The [Windows Communication Foundation](https://msdn.microsoft.com/en-us/library/ms735119.aspx) (WCF) ships with protocol adapters that can leverage the capabilities of the WAS, improving the reliability and resource usage of WCF services.
+IIS has also componentized the powerful HTTP process activation model introduced in IIS 6.0 with Application Pools. The HTTP process activation model is available for more than just Web applications, receiving requests or messages over any protocol. This protocol independent service is called the Windows Process Activation Service (WAS). The [Windows Communication Foundation](https://msdn.microsoft.com/library/ms735119.aspx) (WCF) ships with protocol adapters that can leverage the capabilities of the WAS, improving the reliability and resource usage of WCF services.
 
 ## Extensibility
 
@@ -69,7 +62,7 @@ Use the links below to start learning the aspects of IIS configuration, see a la
 
 **Get Started**
 
-- [Windows Server 2008 R2 Evaluation Editions and Virtual Labs](https://www.microsoft.com/en-us/server-cloud/windows-server/2008-r2-trial.aspx)
+- [Windows Server 2008 R2 Evaluation Editions and Virtual Labs](https://www.microsoft.com/server-cloud/windows-server/2008-r2-trial.aspx)
 
 **Downloads**
 

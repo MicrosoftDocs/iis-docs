@@ -1,19 +1,14 @@
 ---
-title: "Offline Files for Shared Configuration | Microsoft Docs"
+title: "Offline Files for Shared Configuration"
 author: walterov
 description: "Once you have enabled shared configuration, a common question is what happens when the network share that serves those files becomes unavailable. When the sh..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/02/2007
-ms.topic: article
 ms.assetid: c6b51f76-282c-43d5-9bef-682de7e2f4e5
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/offline-files-for-shared-configuration
 msc.type: authoredcontent
 ---
-Offline Files for Shared Configuration
-====================
+# Offline Files for Shared Configuration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -33,7 +28,7 @@ We have to do an IISreset to start the web servers again after this.
 
 ## More Information
 
-For Web site content, you may wish to consider using DFS for your file servers. For more information about DFS, go to the Distributed File System documentation at [http://technet2.microsoft.com/windowsserver2008/en/library/1f0d326d-35af-4193-bda3-0d1688f90ea71033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/1f0d326d-35af-4193-bda3-0d1688f90ea71033.mspx?mfr=true).
+For Web site content, you may wish to consider using DFS for your file servers. For more information about DFS, see [Distributed File System](https://docs.microsoft.com/windows/desktop/dfs/distributed-file-system).
 
 For more information about client side caching, go  to[https://www.microsoft.com/](https://www.microsoft.com/).
 
@@ -47,9 +42,7 @@ Step 2: In the Offline Files dialog box, click Enable Offline Files. Do not rebo
 
 Step 3: Ensure that the cache is set to read only by running the following command:
 
-
 [!code-console[Main](offline-files-for-shared-configuration/samples/sample1.cmd)]
-
 
 Step 4: Reboot the Web server.
 

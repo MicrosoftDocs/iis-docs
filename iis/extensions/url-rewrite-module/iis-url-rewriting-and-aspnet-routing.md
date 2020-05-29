@@ -1,19 +1,14 @@
 ---
-title: "IIS URL Rewriting and ASP.NET Routing | Microsoft Docs"
+title: "IIS URL Rewriting and ASP.NET Routing"
 author: ruslany
 description: "With the release of the URL Rewrite Module for IIS and the inclusion of ASP.NET routing into the .NET Framework 4, there have been a lot of questions from AS..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/04/2008
-ms.topic: article
 ms.assetid: cff3c49f-c758-4f28-ad2f-8c39e9edfd81
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/iis-url-rewriting-and-aspnet-routing
 msc.type: authoredcontent
 ---
-IIS URL Rewriting and ASP.NET Routing
-====================
+# IIS URL Rewriting and ASP.NET Routing
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 With the release of the [URL Rewrite Module for IIS](using-the-url-rewrite-module.md) and the inclusion of ASP.NET routing into the .NET Framework 4, there have been a lot of questions from ASP.NET developers about how these two features relate to each other and when you should use one or the other. This document describes the differences between these two technologies and provides guidance for Web developers about when to use IIS URL rewriting and when to use ASP.NET routing.
@@ -111,6 +106,6 @@ Either IIS URL rewriting or ASP.NET routing can be used to implement URL manipul
 ## Related documents
 
 - [URL Rewrite Module documentation and tutorials](using-the-url-rewrite-module.md)
-- [ASP.NET routing documentation](https://msdn.microsoft.com/en-us/library/cc668201.aspx)
+- [ASP.NET routing documentation](https://msdn.microsoft.com/library/cc668201.aspx)
 - [ASP.NET MVC](https://www.asp.net/mvc/)
 - [ASP.NET Dynamic Data](https://www.asp.net/DynamicData/)

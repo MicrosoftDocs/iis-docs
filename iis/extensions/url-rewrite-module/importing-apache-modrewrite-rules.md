@@ -1,42 +1,37 @@
 ---
-title: "Importing Apache mod_rewrite Rules | Microsoft Docs"
+title: "Importing Apache mod_rewrite Rules"
 author: ruslany
 description: "The URL Rewrite Module in IIS 7 and above provides an import feature that greatly simplifies the process of converting Apache mod_rewrite rules to IIS URL re..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/30/2008
-ms.topic: article
 ms.assetid: 80c1dd9c-0ee5-4911-bbd0-e94ccbc68480
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules
 msc.type: authoredcontent
 ---
-Importing Apache mod_rewrite Rules
-====================
+# Importing Apache mod_rewrite Rules
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 
-The URL Rewrite Module in IIS 7 and above provides an import feature that greatly simplifies the process of converting Apache mod\_rewrite rules to IIS URL rewrite rules. In this walkthrough, you use the Import Rules feature provided in the URL Rewrite Module to import several mod\_rewrite rules into an IIS configuration file. If you have not yet downloaded the URL Rewrite Module, you can do so at [https://www.iis.net/download/urlrewrite](https://www.iis.net/downloads/microsoft/url-rewrite).
+The URL Rewrite Module in IIS 7 and above provides an import feature that greatly simplifies the process of converting Apache mod\_rewrite rules to IIS URL rewrite rules. In this walkthrough, you use the Import Rules feature provided in the URL Rewrite Module to import several mod\_rewrite rules into an IIS configuration file. If you have not yet downloaded the URL Rewrite Module, you can do so at <https://www.iis.net/downloads/microsoft/url-rewrite>.
 
 ## Set Up a Walkthrough Scenario
 
-To see how you can convert mod\_rewrite rules and verify that the converted rules work correctly, you will implement the common scenario of enforcing canonical host names for a Web site. In this example, you will force the use of www.mysite.com instead of mysite.com, so that when a request is made that uses a host name other than www.mysite.com, you can redirect the request to a canonical hostname.
+To see how you can convert mod\_rewrite rules and verify that the converted rules work correctly, you will implement the common scenario of enforcing canonical host names for a Web site. In this example, you will force the use of `www.mysite.com` instead of `mysite.com`, so that when a request is made that uses a host name other than `www.mysite.com`, you can redirect the request to a canonical hostname.
 
 1. Start **IIS Manager**, and then click **Default Web Site**.
 2. In the **Actions** pane, click on **Bindings**, and add a new *http binding* for port **8088**.  
 
     [![](importing-apache-modrewrite-rules/_static/image2.jpg)](importing-apache-modrewrite-rules/_static/image1.jpg)
-
     *Figure 1: Add a new binding*
-- Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end of the file:  
+
+3. Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end of the file:
 
     [!code-console[Main](importing-apache-modrewrite-rules/samples/sample1.cmd)]
 
     Notice that you are using "\_" instead of "." for domain separators. This is to prevent the Web browser from trying to resolve the domain name by using a Domain Name System (DNS) server.
-- Save the hosts file.
-- Verify that the host names were setup correctly by opening a Web browser and going to the sites http://www\_mysite\_com/iisstart.htm and to http://mysite\_com/iisstart.htm.
+4. Save the hosts file.
+5. Verify that the host names were setup correctly by opening a Web browser and going to the sites `http://www_mysite_com/iisstart.htm` and to `http://mysite_com/iisstart.htm`.
 
 ## Convert mod\_rewrite Rules
 

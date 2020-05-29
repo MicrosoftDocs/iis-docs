@@ -1,19 +1,14 @@
 ---
-title: "Using Compression in Application Request Routing | Microsoft Docs"
+title: "Using Compression in Application Request Routing"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To understand and configure the content enc..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/23/2009
-ms.topic: article
 ms.assetid: dbc43386-1a41-4514-a4e7-cf5bc0d1dc6b
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-compression-in-application-request-routing
 msc.type: authoredcontent
 ---
-Using Compression in Application Request Routing
-====================
+# Using Compression in Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**
@@ -48,8 +43,6 @@ Based on the accept-encoding request header, the Web servers may compress a resp
 The diagram below further shows how this feature is designed to work:
 
 [![](using-compression-in-application-request-routing/_static/image2.jpg)](using-compression-in-application-request-routing/_static/image1.jpg)
-
-## 
 
 ## Step 2 - Enable/disable compression on ARR.
 

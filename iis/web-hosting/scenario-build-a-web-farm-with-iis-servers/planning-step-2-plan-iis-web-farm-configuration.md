@@ -1,19 +1,14 @@
 ---
-title: "Planning Step 2: Plan IIS Web Farm Configuration | Microsoft Docs"
+title: "Planning Step 2: Plan IIS Web Farm Configuration"
 author: rmcmurray
 description: "In the second phase of planning a web farm, determine what is needed to configure shared content and shared configuration. In addition, learn how to add web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 3da050b2-3cde-4bda-bcc5-088acdf0682a
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-2-plan-iis-web-farm-configuration
 msc.type: authoredcontent
 ---
-Planning Step 2: Plan IIS Web Farm Configuration
-====================
+# Planning Step 2: Plan IIS Web Farm Configuration
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In the second phase of planning a web farm, determine what is needed to configure shared content and shared configuration. In addition, learn how to add web servers to your farm.
@@ -23,7 +18,7 @@ When you are done with these tasks, record your design decisions before going on
 <a id="21"></a>
 ## 2.1. Plan for Shared Content
 
-Network shared content uses a back-end file server to manage website content. All web servers point to a shared folder on the file server over a UNC path. To reduce the risk of failure, the file server is often mirrored to another server with some method of failover provided. For information about failover clusters, see [Failover Clustering](https://technet.microsoft.com/en-us/library/hh831579).
+Network shared content uses a back-end file server to manage website content. All web servers point to a shared folder on the file server over a UNC path. To reduce the risk of failure, the file server is often mirrored to another server with some method of failover provided. For information about failover clusters, see [Failover Clustering](https://technet.microsoft.com/library/hh831579).
 
 To configure shared content, you first set up the shared folder on the file server. Create a custom user for each application pool and assign that user to the shared folder. You can create local users and groups as long as the same username and password is assigned to each web server.
 

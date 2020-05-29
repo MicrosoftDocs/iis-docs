@@ -1,19 +1,14 @@
 ---
-title: "Smooth Streaming Client Readme | Microsoft Docs"
+title: "Smooth Streaming Client Readme"
 author: rick-anderson
 description: "Last Updated: May 31, 2012 Applies To: Microsoft Smooth Streaming Client 2.0 RTW IIS Smooth Streaming Client 1.1 RTW IIS Smooth Streaming Client 1.5 RTW Cont..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/23/2011
-ms.topic: article
 ms.assetid: b945d983-c2cc-4827-a408-fca9ec9b1bd6
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-client-readme
 msc.type: authoredcontent
 ---
-Smooth Streaming Client Readme
-====================
+# Smooth Streaming Client Readme
+
 by Dave Nelson
 
 Last Updated: May 31, 2012
@@ -55,7 +50,7 @@ Smooth Streaming Client SDKs support the following high-level features:
     - Client-controlled unlimited DVR window
 - Failed chunk download details (non-text chunks) 
 
-    - New [ChunkDownloadFailed](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.chunkdownloadfailed(v=vs.95)) event arguments for for getting information about failed chunk downloads
+    - New [ChunkDownloadFailed](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.chunkdownloadfailed(v=vs.95)) event arguments for getting information about failed chunk downloads
 - Key rotation 
 
     - Prefetch root licenses for authorized channels to enable instant channel changes
@@ -165,7 +160,7 @@ The following software must be installed to develop applications using Smooth St
 
 Smooth Streaming Client content for developers is available on [MSDN](https://go.microsoft.com/?linkid=9735132).
 
-For more information on the streaming formats, client SDKs, and player formats used to develop Media Services client applications, see [Developing Windows Azure Media Services Client Applications](https://msdn.microsoft.com/en-us/library/dn223283.aspx).
+For more information on the streaming formats, client SDKs, and player formats used to develop Media Services client applications, see [Developing Windows Azure Media Services Client Applications](https://msdn.microsoft.com/library/dn223283.aspx).
 
 For more information about Windows Phone development, see the [Windows Phone App Hub](https://go.microsoft.com/?linkid=9745653).
 

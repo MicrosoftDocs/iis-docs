@@ -1,12 +1,7 @@
 ---
-title: "Contributing to the Internet Information Services (IIS) documentation | Microsoft Docs"
-author: shirhatti
+title: "Contributing to the Internet Information Services (IIS) documentation"
 description: "This document covers the process for contributing to the articles and code samples that are hosted on the IIS documentation site."
-ms.author: soshir
 ms.date: 05/18/2017
-ms.topic: other
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 # Contributing to the Internet Information Services (IIS) documentation
@@ -64,7 +59,7 @@ To render a portion of a file as a snippet by using line numbers:
 [!code-html[Main](configuration/sample/Views/Home/Index.cshtml?range=1-10,20,30,40-50]
 ```
 
-For C# snippets, you can reference a [C# region](https://msdn.microsoft.com/en-us/library/9a1ybwek.aspx). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet. 
+For C# snippets, you can reference a [C# region](https://msdn.microsoft.com/library/9a1ybwek.aspx). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet. 
 
 To render a C# region named "snippet_Example":
 
@@ -96,7 +91,7 @@ DocFX requires the .NET Framework on Windows, or Mono for Linux or macOS.
    ```
    docfx -t default --serve
    ```
-	
+
 * In a browser, navigate to `http://localhost:8080`.
 
 ### Mono instructions

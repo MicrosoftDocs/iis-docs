@@ -1,19 +1,14 @@
 ---
-title: "Gallery Server Pro FAQ | Microsoft Docs"
+title: "Gallery Server Pro FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: c37a0bcf-3870-4c29-a544-890dc473633f
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/gallery-server-pro-faq
 msc.type: authoredcontent
 ---
-Gallery Server Pro FAQ
-====================
+# Gallery Server Pro FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.
@@ -54,7 +49,6 @@ A: If you are publishing to a server where the web site is configured to run in 
 > 
 > ![](gallery-server-pro-faq/_static/image1.png)
 
-
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.
 
 #### Q: Why do I get a JavaScript error when trying to browse my website?
@@ -64,6 +58,5 @@ A: If your web site's application pool is configured to run in Classic mode, you
 > **Error**: JavaScript error 'dgLogin' is undefined.
 > 
 > ![](gallery-server-pro-faq/_static/image3.png)
-
 
 To resolve this issue, use your hosting control panel to set your application pool to Integrated mode.

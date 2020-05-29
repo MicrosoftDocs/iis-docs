@@ -1,19 +1,14 @@
 ---
-title: "Deny Strings for Filtering Rules &lt;denyStrings&gt; | Microsoft Docs"
+title: "Deny Strings for Filtering Rules &lt;denyStrings&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyStrings&gt; element of the &lt;filteringRule&gt; element defines a collection of strings for which a request filtering rule applies. The..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5da83d1f-b53d-4705-b422-311c423ccea1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings
 msc.type: config
 ---
-Deny Strings for Filtering Rules &lt;denyStrings&gt;
-====================
+# Deny Strings for Filtering Rules &lt;denyStrings&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -147,7 +142,11 @@ The following examples demonstrate how to use the `<denyStrings>`, `<appliesTo>`
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample8.ps1)]
+
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

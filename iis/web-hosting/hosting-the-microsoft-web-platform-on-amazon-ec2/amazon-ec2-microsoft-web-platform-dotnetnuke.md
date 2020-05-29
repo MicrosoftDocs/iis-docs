@@ -1,19 +1,14 @@
 ---
-title: "Amazon EC2: Microsoft Web Platform - DotNetNuke | Microsoft Docs"
+title: "Amazon EC2: Microsoft Web Platform - DotNetNuke"
 author: thomasdeml
 description: "Introduction One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site u..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/05/2010
-ms.topic: article
 ms.assetid: 2e582d50-672d-4cbd-b360-4a0417279042
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-dotnetnuke
 msc.type: authoredcontent
 ---
-Amazon EC2: Microsoft Web Platform - DotNetNuke
-====================
+# Amazon EC2: Microsoft Web Platform - DotNetNuke
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
@@ -72,7 +67,7 @@ Now we are ready to launch an EC2 DotNetNuke instance.
 
 Launching an DotNetNuke Instance
 
-Click the "Instances" menu item on the left hand sid eand click the "Launch Instance" button.   
+Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.   
 [![](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image10.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image9.png)
 
 Now select "Community Images" in the resulting dialog.
@@ -127,8 +122,7 @@ Click "Download shortcut file" in the dialog that follows:
 
 [![](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image30.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image29.png)
 
-
-The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefoxes Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
+The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
 Once connected you will get logged on to the remote machine. Don't get to impatient because after the logon it will take a few moments until the DotNetNuke install kicks in.
 
 ## 4. Finalization of the DotNetNuke Installation

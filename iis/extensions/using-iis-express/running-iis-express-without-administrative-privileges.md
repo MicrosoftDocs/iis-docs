@@ -1,22 +1,14 @@
 ---
-title: "Running IIS Express without Administrative Privileges | Microsoft Docs"
-author: vaidy4github
+title: "Running IIS Express without Administrative Privileges"
 description: "IIS Express was designed to allow the most common web development and testing tasks to be performed without administrative privileges. This is very helpful i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/11/2011
-ms.topic: article
 ms.assetid: 5de2e3e1-779a-40cf-a346-ae62f3c7d3ef
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/running-iis-express-without-administrative-privileges
 msc.type: authoredcontent
 ---
-Running IIS Express without Administrative Privileges
-====================
-by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
+# Running IIS Express without Administrative Privileges
 
-## Overview
+by Vaidy Gopalakrishnan
 
 IIS Express was designed to allow the most common web development and testing tasks to be performed without administrative privileges. This is very helpful in scenarios where developers are not running with administrative rights on their computers. Even for administrative users, this feature eliminates the User Account Control (UAC) popup window in Windows Vista and Windows 7 from interrupting workflow.
 
@@ -24,7 +16,7 @@ This article explains what standard users can do with IIS Express and describes 
 
 ## Running Sites Locally
 
-With IIS Express, standard users can run websites locally using non-reserved ports (ports greater than 1024). The default website binding for IIS Express is http://localhost:8080. By default, WebMatrix and Visual Studio 2010 SP1 Beta also configure websites to use localhost and a non-reserved port.
+With IIS Express, standard users can run websites locally using non-reserved ports (ports greater than 1024). The default website binding for IIS Express is `http://localhost:8080`. By default, WebMatrix and Visual Studio 2010 SP1 Beta also configure websites to use localhost and a non-reserved port.
 
 In contrast, administrative privileges are needed to serve content for external requests or using a reserved port such as 80 or 443.
 

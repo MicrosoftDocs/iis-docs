@@ -1,30 +1,23 @@
 ---
-title: "IIS 8.0 Server Name Indication (SNI): SSL Scalability | Microsoft Docs"
+title: "IIS 8.0 Server Name Indication (SNI): SSL Scalability"
 author: shauneagan
 description: "Version Notes IIS 8.0 Server Name Indication was introduced in IIS 8.0. IIS 7.5 Server Name Indication was not supported in IIS 7.5. IIS 7.0 Server Name Indi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/29/2012
-ms.topic: article
 ms.assetid: a87d4d6a-2f03-4e62-9aad-0ea6711a9e04
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability
 msc.type: authoredcontent
 ---
-IIS 8.0 Server Name Indication (SNI): SSL Scalability
-====================
+# IIS 8.0 Server Name Indication (SNI): SSL Scalability
+
 by [Shaun Eagan](https://github.com/shauneagan)
 
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | Server Name Indication was introduced in IIS 8.0. |
 | IIS 7.5 | Server Name Indication was not supported in IIS 7.5. |
 | IIS 7.0 | Server Name Indication was not supported in IIS 7.0. |
-
 
 <a id="TOC301258515"></a>
 
@@ -94,20 +87,20 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image19.png)
 4. Fill in the information, as you would create any site: 
 
-    - **Site name**: Test
-    - **Physical path**: `c:\inetpub\wwwroot`
-    - **Type**: https
-    - **Hostname**: TAPTesting 
+   - **Site name**: Test
+   - **Physical path**: `c:\inetpub\wwwroot`
+   - **Type**: https
+   - **Hostname**: TAPTesting 
 
-        - This is new for Windows Server 8 in that host name can be specified for SSL.
-        - In order to avoid certificate name mismatch error, ensure that the hostname specified here matches the CN name of the certificate.
-        - The actual value of this configuration varies depending on the sample certificate that is being used.
-    - **Use Server Name Indication**: Selected
-    - **SSL certificate**: Chhose the name of your certificate; for example: TAPTesting. 
+       - This is new for Windows Server 8 in that host name can be specified for SSL.
+       - In order to avoid certificate name mismatch error, ensure that the hostname specified here matches the CN name of the certificate.
+       - The actual value of this configuration varies depending on the sample certificate that is being used.
+   - **Use Server Name Indication**: Selected
+   - **SSL certificate**: Chhose the name of your certificate; for example: TAPTesting. 
 
-        - Note that the certificates are presented from both **Personal** and **Web Hosting** stores.
+       - Note that the certificates are presented from both **Personal** and **Web Hosting** stores.
 
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.jpg)
+     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.jpg)
 5. Verify that the site has been created:  
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image21.png)
 6. That's it. The secure site has been created using SNI. The management experience is very similar to the traditional SSL binding. The only differences are: 
@@ -121,9 +114,7 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 
 Open a browser and navigate to [https://TAPTesting/](https://taptesting/). Note that as a part of prerequisite, your hosts file should have been modified to route this request to localhost:
 
-
 [![](iis-80-server-name-indication-sni-ssl-scalability/_static/image25.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image23.png)
-
 
 Furthermore, to see the new SSL binding type, enter the following in an elevated command-line window:
 

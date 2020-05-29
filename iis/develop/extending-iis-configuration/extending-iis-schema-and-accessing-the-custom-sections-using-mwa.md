@@ -1,19 +1,14 @@
 ---
-title: "Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA | Microsoft Docs"
+title: "Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA"
 author: rick-anderson
 description: "Abstract The IIS 7.0 and above XML configuration files allow third parties to include their own custom configuration sections. This document shows how to ext..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2007
-ms.topic: article
 ms.assetid: 8594fdd0-28c7-47c0-bcc4-1a4aa52cb1b9
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-iis-configuration/extending-iis-schema-and-accessing-the-custom-sections-using-mwa
 msc.type: authoredcontent
 ---
-Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA
-====================
+# Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA
+
 by IIS Team
 
 ## Abstract
@@ -38,15 +33,11 @@ Strongly typed classes representing specific sections can be written by deriving
 
 Extending the schema involves adding a simple .xml file in the `%SystemRoot%\system32\inetsrv\config\schema` directory on the machine. The IIS\_schema.xml file is already present in this directory and can be used as an example in order to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up as shown in the example below. In this case, the custom section (called "myCustomSection") has four properties of type boolean, string, integer and enum. The default values for these properties are specified in the schema as shown below:
 
-
 [!code-xml[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample1.xml)]
-
 
 Register the section in the applicationHost.config. This involves adding just one line in the applicationHost.config as shown in the example below:
 
-
 [!code-xml[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample2.xml)]
-
 
 ## Creating a Console Application
 
@@ -64,21 +55,15 @@ Now write C# code in order to access the configuration section just created.
 
 Use the generic classes present in the Microsoft.Web.Administration namespace to access the configuration section created above. The code snippet below shows how to get and set the property "booleanProperty" in the section. These snippets set the properties in the applicationHost.config file and are inherited (and can be overridden) by all sites and applications on the machine.
 
-
 [!code-csharp[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample3.cs)]
-
 
 The applicationHost.config file is now updated with the changes.
 
-
 [!code-xml[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample4.xml)]
-
 
 The code snippet to read and update all the properties in the section is:
 
-
 [!code-csharp[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample5.cs)]
-
 
 ## Access the Configuration Section Using Strongly Typed Classes
 
@@ -86,11 +71,8 @@ The Microsoft.Web.Administration API provides base classes to derive strongly ty
 
 Calling base[...] wraps the GetAttributeValue and SetAttributeValue classes which sets the values for those attributes.
 
-
 [!code-csharp[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample6.cs)]
 
-
 Here is the code to get and set values for this configuration section using the strongly typed classes.
-
 
 [!code-csharp[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample7.cs)]

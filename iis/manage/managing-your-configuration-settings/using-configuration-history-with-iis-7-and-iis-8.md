@@ -1,19 +1,14 @@
 ---
-title: "Using Configuration History with IIS 7 and IIS 8 | Microsoft Docs"
+title: "Using Configuration History with IIS 7 and IIS 8"
 author: tobint
 description: "In IIS 6.0, administrators had a safety net that allowed them to easily ascertain what changed in the IIS configuration. It was implemented as a history file..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 295e72df-9c33-4c28-96eb-abc6154dad83
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/using-configuration-history-with-iis-7-and-iis-8
 msc.type: authoredcontent
 ---
-Using Configuration History with IIS 7 and IIS 8
-====================
+# Using Configuration History with IIS 7 and IIS 8
+
 by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
@@ -46,26 +41,25 @@ After opening the master file, you see an entry like the following for configHis
 
 Notice that there are no further settings for this feature in applicationHost.config. This is expected behavior because by default, IIS uses the values stored in the IIS schema. To see the default settings, open the IIS schema file (IIS\_schema.xml.)
 
-
 ### Step 2: Locate configHistory Defaults in IIS Schema
 
 1. Click **Start**, click **Run**, and in the **Open:** dialog box, type notepad and Click **OK**.
 2. Click **File**, then **Open**, and in the **File name:** dialog box, type `%windir%\system32\inetsrv\config\schema\iis\_schema.xml`.  
     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image10.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image9.png)  
     **Figure 3: IIS Schema**- To locate configHistory section, click **CTRL-F** and enter configHistory.
-- On Windows Server® 2008, you see the following:  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image3.jpg)](using-configuration-history-with-iis-7-and-iis-8/_static/image2.jpg)  
+3. On Windows Server® 2008, you see the following:  
+     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image3.jpg)](using-configuration-history-with-iis-7-and-iis-8/_static/image2.jpg)  
 
-    **Figure 4: configHistory Schema Definition**
+     **Figure 4: configHistory Schema Definition**
 
-    There are four configurable settings (attributes) for the configHistory section:
+     There are four configurable settings (attributes) for the configHistory section:
 
-    | Attribute | Default Setting | Definition |
-    | --- | --- | --- |
-    | **enabled** | True | This value indicates whether configuration history is enabled or disabled |
-    | **path** | `%systemdrive%\inetpub\history` | The path where history directories are created and stored |
-    | **maxHistories** | 10 | The maximum number of directories retained |
-    | **period** | 00:02:00 | The time between each check made for changes |
+     | Attribute | Default Setting | Definition |
+     | --- | --- | --- |
+     | **enabled** | True | This value indicates whether configuration history is enabled or disabled |
+     | **path** | `%systemdrive%\inetpub\history` | The path where history directories are created and stored |
+     | **maxHistories** | 10 | The maximum number of directories retained |
+     | **period** | 00:02:00 | The time between each check made for changes |
 
 ### Summary
 
@@ -84,18 +78,18 @@ Metabase history was a file-based, rather than directory-based, like the IIS 7.0
 1. Click **Start**, **Run**, and type Inetmgr and Click **OK**.  
     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image13.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image12.png)  
     **Figure 5: Opening IIS Manager**- Double-click your server name, for example IIs7Server, to expand the navigation tree.
-- Right-click the server, and choose Add Web Site.  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image15.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image14.png)  
-    **Figure 6: Add Web Site**
-- In the **Add Web Site** wizard, enter information to create a new Website. For example:  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image17.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image16.png)  
-    **Figure 7: Add Web Site Wizard**
-- Click **OK**.
-- You now see the new Website created in your IIS Manager, as in the following:  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image19.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image18.png)  
-    **Figure 8: IIS Manager Homepage**
+2. Right-click the server, and choose Add Web Site.  
+     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image15.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image14.png)  
+     **Figure 6: Add Web Site**
+3. In the **Add Web Site** wizard, enter information to create a new Website. For example:  
+     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image17.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image16.png)  
+     **Figure 7: Add Web Site Wizard**
+4. Click **OK**.
+5. You now see the new Website created in your IIS Manager, as in the following:  
+     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image19.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image18.png)  
+     **Figure 8: IIS Manager Homepage**
 
-    Now, we validate that a successful backup of the configuration changes has been captured by the Application Host Helper Service.
+     Now, we validate that a successful backup of the configuration changes has been captured by the Application Host Helper Service.
 
 ### Step 2: Locate History Files for applicationHost.config
 
@@ -236,7 +230,6 @@ At this point, change the value for the path attribute to a value that is more a
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample10.cmd)]
 3. To validate the change, type the following and verify that maxHistories and period are set appropriately.
 
-
 [!code-xml[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample11.xml)]
 
 You see the following:  
@@ -248,7 +241,6 @@ Last, we will produce changes to the configuration causing a backup to be trigge
 ### Step 4: Re-run the Earlier Script
 
 - Execute ConfigHst.vbs by typing the following:
-
 
 [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample12.cmd)]
 
@@ -270,7 +262,6 @@ It is not useful to have a history feature without offering a method for restori
 2. Change to the inetsrv directory using the following command: `cd %windir%\system32\inetsrv`.
 3. To get the currently configured path for the configHistory section, type the following:
 
-
 [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample13.cmd)]
 
  This command will list the available backups, including manual backups made with the appcmd add backup command, as well as backups made by the configuration history service. You can use the appcmd restore backup command to restore any one of these, as shown in the next step 
@@ -289,7 +280,6 @@ Click **Start**, **Run**, and type **CMD** and Click **OK**.
 
 1. Change to the history directory using information in Step 1, above.
 2. Use Windows findstr command to locate the change you are looking for. In this case, locate the configuration with directoryBrowse set to false.
-
 
 [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample14.cmd)]
 

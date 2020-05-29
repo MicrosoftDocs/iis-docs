@@ -1,43 +1,35 @@
 ---
-title: "How Do I Configure FTP Security in IIS? | Microsoft Docs"
+title: "How Do I Configure FTP Security in IIS?"
 author: rmcmurray
 description: "This page is an experiment in a new approach to presenting annotated lists of links on specific subjects of interest to developers. Please send me an email w..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/23/2013
-ms.topic: article
 ms.assetid: b64a3952-9952-45f7-8a14-890506209dc2
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/cse-curated-view-ftp-security-settings
 msc.type: authoredcontent
 ---
-How Do I Configure FTP Security in IIS?
-====================
+# How Do I Configure FTP Security in IIS?
+
 by [Robert McMurray](https://github.com/rmcmurray)
-
-> This page is an experiment in a new approach to presenting annotated lists of links on specific subjects of interest to developers. Please [send me an email with your comments](mailto:aspnetue@microsoft.com?subject=New curated content view for FTP Settings) indicating what you think of the content and the way it is presented.
-
 
 The Internet presents a formidable set of security challenges for today's server administrators; hackers, malware, and other cyber-threats require administrators to keep up-to-date with the growing number of threats. To help counter these challenges, Microsoft's FTP service provides a variety of security features to help administrators keep their FTP sites secure.
 
 ## CONFIGURING FTP AUTHENTICATION
 
-- [Article](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication) | Source: IIS Configuration Reference, Microsoft
+- [\<authentication>](../../configuration/system.applicationHost/sites/site/ftpServer/security/authentication/index.md) | Source: IIS Configuration Reference, Microsoft
 - Applies To: IIS 7.0, IIS 7.5, IIS 8.0
 
 At the most basic level, FTP administrators need to configure their FTP sites for the correct form of authentication. The Ftp service in IIS 7.0, IIS 7.5, and IIS 8.0 support the following authentication types: Anonymous, Basic, Client Certificate, and Custom. This article from the official IIS configuration reference provides a detailed description for how to configure your FTP authentication settings.
 
 ## CONFIGURING FTP AUTHORIZATION
 
-- [Article](https://www.iis.net/configreference/system.ftpserver/security/authorization) | Source: IIS Configuration Reference, Microsoft
+- [\<authorization>](../../configuration/system.ftpServer/security/authorization/index.md) | Source: IIS Configuration Reference, Microsoft
 - Applies To: IIS 7.0, IIS 7.5, IIS 8.0
 
 In addition to authentication, FTP administrators need to configure their FTP sites so their users have the right level of access that is necessary for them to accomplish their publishing tasks. This article from the official IIS configuration reference provides a detailed description for how to configure your FTP authorization settings.
 
 ## CONFIGURING FTP USER ISOLATION
 
-- [Article](https://www.iis.net/configreference/system.ftpserver/security/authorization) | Source: Robert McMurray, Microsoft
+- [Article](../../configuration/system.ftpServer/security/authorization/index.md) | Source: Robert McMurray, Microsoft
 - Applies To: IIS 7.0, IIS 7.5, IIS 8.0
 
 One of the challenges for FTP administrators that use a single FTP site for all of their users it how to keep individual accounts restricted to their own content directories. Microsoft's FTP service makes this possible through User Isolation, which allows administrators to restrict users to their individual content folders. This walkthrough will teach you how to configure FTP User Isolation and the different options for restricting users.

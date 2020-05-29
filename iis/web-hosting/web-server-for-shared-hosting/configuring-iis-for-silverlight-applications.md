@@ -1,19 +1,14 @@
 ---
-title: "Configuring IIS for Silverlight Applications | Microsoft Docs"
+title: "Configuring IIS for Silverlight Applications"
 author: walterov
 description: "Introduction Microsoft® Silverlight TM is a cross-browser, cross-platform plug-in for delivering the next generation of .NET-based media experiences and rich..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/06/2007
-ms.topic: article
 ms.assetid: b4e289bd-faa9-4bd1-91d1-0fbab5a721ff
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/configuring-iis-for-silverlight-applications
 msc.type: authoredcontent
 ---
-Configuring IIS for Silverlight Applications
-====================
+# Configuring IIS for Silverlight Applications
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -54,9 +49,7 @@ If you copy and paste the code above into a VBS file and save it as ADDMIMETYPE.
 
 [!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample3.cmd)]
 
-
 [!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample4.cmd)]
-
 
 [!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample5.cmd)]
 
@@ -72,12 +65,12 @@ If you copy and paste the code above into a VBS file and save it as ADDMIMETYPE.
     [![](configuring-iis-for-silverlight-applications/_static/image10.jpg)](configuring-iis-for-silverlight-applications/_static/image9.jpg)
 5. In the **MIME Types** dialog box, enter one of these MIME types:  
 
-    - .xap application/x-silverlight-app
-    - .xaml application/xaml+xml
-    - .xbap application/x-ms-xbap
+   - .xap application/x-silverlight-app
+   - .xaml application/xaml+xml
+   - .xbap application/x-ms-xbap
 
-    See the figure below:
+     See the figure below:
 
-    [![](configuring-iis-for-silverlight-applications/_static/image12.jpg)](configuring-iis-for-silverlight-applications/_static/image11.jpg)
+     [![](configuring-iis-for-silverlight-applications/_static/image12.jpg)](configuring-iis-for-silverlight-applications/_static/image11.jpg)
 
 For detailed information on Silverlight, visit [http://silverlight.net/](http://silverlight.net/).

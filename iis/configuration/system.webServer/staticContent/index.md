@@ -1,19 +1,14 @@
 ---
-title: "Static Content &lt;staticContent&gt; | Microsoft Docs"
+title: "Static Content &lt;staticContent&gt;"
 author: rick-anderson
 description: "Overview The &lt;staticContent&gt; element configures several settings related to processing requests for static files in Internet Information Services (IIS)..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a4c07bfc-71cf-4dc5-8d32-65af94d0a766
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/staticcontent
 msc.type: config
 ---
-Static Content &lt;staticContent&gt;
-====================
+# Static Content &lt;staticContent&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -29,7 +24,7 @@ The `<staticContent>` element contains the following three attributes that speci
 - As noted above, the **isDocFooterFileName** attribute specifies whether the **defaultDocFooter** attribute contains a text string that IIS 7 will use for the document footer or the fully qualified path to a file that contains the text that IIS 7 will use for the document footer.
 
 > [!NOTE]
-> By default, the **isDocFooterFileName** attribute is set to **false** and locked globally. To use files for document footers, you would need to either set the **isDocFooterFileName** attribute to **true** at the global-level, or unlock the attribute. To learn more about locking and unlocking attributes, see the [How to Use Locking in IIS 7.0 Configuration](https://docs.microsoft.com/en-us/iis/get-started/planning-for-security/how-to-use-locking-in-iis-configuration) walkthrough.
+> By default, the **isDocFooterFileName** attribute is set to **false** and locked globally. To use files for document footers, you would need to either set the **isDocFooterFileName** attribute to **true** at the global-level, or unlock the attribute. To learn more about locking and unlocking attributes, see the [How to Use Locking in IIS 7.0 Configuration](https://docs.microsoft.com/iis/get-started/planning-for-security/how-to-use-locking-in-iis-configuration) walkthrough.
 
 <a id="002"></a>
 ## Compatibility
@@ -86,7 +81,7 @@ The following code samples enable a document footer for static content, and add 
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

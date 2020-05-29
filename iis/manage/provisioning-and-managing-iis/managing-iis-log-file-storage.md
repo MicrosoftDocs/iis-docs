@@ -1,19 +1,14 @@
 ---
-title: "Managing IIS Log File Storage | Microsoft Docs"
+title: "Managing IIS Log File Storage"
 author: rick-anderson
 description: ""
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/30/2014
-ms.topic: article
 ms.assetid: 21897735-ce9a-4773-832e-3cdb673fe351
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/managing-iis-log-file-storage
 msc.type: authoredcontent
 ---
-Managing IIS Log File Storage
-====================
+# Managing IIS Log File Storage
+
 by [Jim van de Erve](https://twitter.com/jimvde)
 
 You can manage the amount of server disk space that Internet Information Services (IIS) log files consume by using compression, remote storage, scripted deletion, and an IIS Log Cleaner Tool.
@@ -66,9 +61,9 @@ Change the location of an IIS log file to a remote share as follows:
 2. In the folder's **Properties** page, on the **Sharing** tab, click **Share** so that the directory is shared. On the **Security** tab, assign groups and users with the appropriate permissions. Ensure that the appropriate groups and users are able to read and write to the log files.
     ![Log Folder Properties](managing-iis-log-file-storage/_static/image2.jpg)
 
-    For more information, see [Configuring Permissions for Remote Logging](https://technet.microsoft.com/en-us/library/cc779701(v=ws.10).aspx).
+    For more information, see [Configuring Permissions for Remote Logging](https://technet.microsoft.com/library/cc779701(v=ws.10).aspx).
 
-    Note: If you want to write log files to a remote server in a different domain, see [Setting Up a Null Session for Cross-Domain Logging](https://technet.microsoft.com/en-us/library/cc728059(v=ws.10).aspx).
+    Note: If you want to write log files to a remote server in a different domain, see [Setting Up a Null Session for Cross-Domain Logging](https://technet.microsoft.com/library/cc728059(v=ws.10).aspx).
 3. Open **IIS Manager** on your local Web server.
 4. In **IIS Manager**, in the **Connections** pane, click the server or a Web site.
 5. Double-click **Logging**.
@@ -77,7 +72,7 @@ Change the location of an IIS log file to a remote share as follows:
     ![Logging Page](managing-iis-log-file-storage/_static/image4.jpg)
 7. In the **Actions** pane, click **Apply**, and then click **OK**. All Web sites within the directory should begin logging data to the remote share.
 
-    For more information, see [Remote Logging](https://technet.microsoft.com/en-us/library/cc786172(v=ws.10).aspx).
+    For more information, see [Remote Logging](https://technet.microsoft.com/library/cc786172(v=ws.10).aspx).
 
 <a id="02"></a>
 ## Delete Old Log Files by Script
@@ -138,7 +133,7 @@ The IIS Log Cleaner consists of the following:
 
 To download, configure, and run the IIS Log Cleaner tool, proceed as follows:
 
-1. Download the executable by executing http://www.erezbenari.com/IISLogCleaner.exe and saving the executable in a folder of your choice on the server (there is no installer).
+1. Download the executable by executing http://www.erezbenari.com/apps/IISLogCleaner.exe and saving the executable in a folder of your choice on the server (there is no installer).
 2. Click through the security popups.
 3. Execute IISLogCleaner.exe in the folder. This creates the settings.txt file in the same folder.
 4. To make changes to the settings.txt file, open the file with a text editor, or right-click the **IIS** icon in the notification area, and then click **Settings**.

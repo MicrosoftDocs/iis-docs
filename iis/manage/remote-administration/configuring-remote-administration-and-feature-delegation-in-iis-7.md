@@ -1,19 +1,14 @@
 ---
-title: "Configuring Remote Administration and Feature Delegation in IIS 7 | Microsoft Docs"
+title: "Configuring Remote Administration and Feature Delegation in IIS 7"
 author: rick-anderson
 description: "IIS provides administrators and developers with a new configuration system that is accessible, extensible and distributable. The new XML-based format allows..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 8f557c9a-ab59-4d1e-b9f1-fa62293b882b
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7
 msc.type: authoredcontent
 ---
-Configuring Remote Administration and Feature Delegation in IIS 7
-====================
+# Configuring Remote Administration and Feature Delegation in IIS 7
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
@@ -80,7 +75,6 @@ You should check your firewall settings to ensure that connections are allowed t
 
 In addition to the Management Service settings that were configured in the above section, you can configure connection settings and specify where to log requests. The following table describes each field and its default setting. If you change any settings, make sure to click **Apply** in the **Actions** pane and then restart the Management Service.
 
-
 | Property | Description | Default Setting |
 | --- | --- | --- |
 | IP Address | Specifies the IP address to which the service is bound. | All Unassigned |
@@ -88,10 +82,9 @@ In addition to the Management Service settings that were configured in the above
 | SSL Certificate | Specifies the SSL certificate used by the service. All requests to the service use HTTPS over the port specified in the **Port** field. This list contains the SSL certificates that are available to the server. If you want to add additional SSL certificates, use the **Server Certificates** feature at the server level. | Self-signed certificate that is installed during setup |
 | Log requests to | Specifies the path to the log files for the Management Service. | `%SystemDrive%\Inetpub\logs\WMSVC` |
 
-
 ## Configure IP and Domain Restrictions for the Management Service
 
-By default, the Management Service accepts all requests made to its configured IP address and port, and users are allowed to connect when they are added to IIS Manager (as explained in the next section). However, you can configure the service to deny access for unspecified requests and instead add specific allow rules so that only requests made from a specific IP address or domain are accepted. For more information about allowing or denying requests from IP addresses or domains, see the procedures under [Configuring Remote Management](http://technet2.microsoft.com/WindowsServer/en/library/fd7b1818-2b54-49ba-8d8f-c4a0c3dbb1e41033.mspx) on Microsoft TechNet.
+By default, the Management Service accepts all requests made to its configured IP address and port, and users are allowed to connect when they are added to IIS Manager (as explained in the next section). However, you can configure the service to deny access for unspecified requests and instead add specific allow rules so that only requests made from a specific IP address or domain are accepted. For more information about allowing or denying requests from IP addresses or domains, see the procedures under Configuring Remote Management on Microsoft TechNet.
 
 ## Configuring Users and Permissions for IIS Manager
 
@@ -174,7 +167,6 @@ Or a server administrator might delegate a feature as read only so that a site o
 
 There are several different delegation states, each of which determines whether a feature is delegated to lower levels in the configuration system and whether the feature displays in IIS Manager when users are connected at lower levels. The following table describes each delegation state.
 
-
 | Delegation Type | Description |
 | --- | --- |
 | Not Delegated | The configuration is locked and any configuration of the feature in a *Web.config* file will cause a runtime error. The feature is not visible or configurable in IIS Manager when a user is connected at levels below where this state is set. For example, if a feature is configured to be **Not Delegated** at a site level, users connected to applications in that site will not see the feature and cannot configure it in IIS Manager. |
@@ -182,7 +174,6 @@ There are several different delegation states, each of which determines whether 
 | Read/Write | The feature can be configured in *Web.config*. The feature appears in IIS Manager and can be configured when a user is connected at lower levels (site or application level). |
 | Configuration Read Only | The meaning is the same as **Read Only**; however, there are settings or data for the feature that are stored and managed outside of IIS, such as in a database. |
 | Configuration Read/Write | The meaning is the same as **Read/Write**; however, there are settings or data for the feature that are stored and managed outside of IIS, such as in a database. |
-
 
 > [!NOTE]
 > Server administrators can modify the configuration for all features, so if they are connected to the server, they will see all features at all levels even if a feature has been configured to not display at lower levels.

@@ -1,19 +1,14 @@
 ---
-title: "Troubleshooting IIS 7.x Installation Issues | Microsoft Docs"
+title: "Troubleshooting IIS 7.x Installation Issues"
 author: puneet-gupta
 description: "System Update Readiness Tool MSConfig.exe This material is provided for informational purposes only. Microsoft makes no warranties, express or implied. Overv..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: 4daa9338-786e-47ac-9674-fe355e8dcee9
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues
 msc.type: authoredcontent
 ---
-Troubleshooting IIS 7.x Installation Issues
-====================
+# Troubleshooting IIS 7.x Installation Issues
+
 by [Puneet Gupta](https://github.com/puneet-gupta)
 
 #### Tools Used in this Troubleshooter:
@@ -62,7 +57,8 @@ Just like IIS7.log file, CBS.log file is a It is a text file and can be opened i
 
 As with the IIS7.log, you can start using your web searching skills on BING.COM and look for next clue.
 
-**TIP**: Try other ROLES and see if they fail. If they do IIS is just a victim and you can engage Platforms setup for assistance if you do not wish to follow the next steps.
+> [!TIP]
+> Try other ROLES and see if they fail. If they do IIS is just a victim and you can engage Platforms setup for assistance if you do not wish to follow the next steps.
 
 Run the [System Update Readiness Tool](https://support.microsoft.com/kb/947821) (short name CHECKSUR) – This tool is available for Windows Vista, for Windows Server 2008, for Windows 7, and for Windows Server 2008 R2. The download for this tool is a little big but it is worth running it. If installation of this tool fails, then you have some other issues with the machine in question and need an expert assistance. Contact Microsoft support for the same.
 

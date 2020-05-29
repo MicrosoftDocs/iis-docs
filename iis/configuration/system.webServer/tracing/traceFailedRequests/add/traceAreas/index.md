@@ -1,19 +1,14 @@
 ---
-title: "Trace Areas &lt;traceAreas&gt; | Microsoft Docs"
+title: "Trace Areas &lt;traceAreas&gt;"
 author: rick-anderson
 description: "Overview The &lt;traceAreas&gt; collection can contain a collection of &lt;add&gt; elements. Each &lt;add&gt; element defines the trace provider to use for f..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: bfdccf34-4139-43a4-94d5-f69f4265c839
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add/traceareas
 msc.type: config
 ---
-Trace Areas &lt;traceAreas&gt;
-====================
+# Trace Areas &lt;traceAreas&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -53,7 +48,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
     [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
-- Click **Close**.
+4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
@@ -163,7 +158,7 @@ The following examples enable verbose failed request tracing for HTTP 500 errors
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

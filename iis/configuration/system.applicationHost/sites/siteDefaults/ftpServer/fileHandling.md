@@ -1,25 +1,18 @@
 ---
-title: "Default FTP File Handling Settings &lt;fileHandling&gt; | Microsoft Docs"
+title: "Default FTP File Handling Settings &lt;fileHandling&gt;"
 author: rick-anderson
 description: "Overview The &lt;fileHandling&gt; element is used to specify the way that the FTP service handles file operations. For example, the keepPartialUploads attrib..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 39d5a9cd-6c1c-4e0b-a567-06f9e7268754
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/filehandling
 msc.type: config
 ---
-Default FTP File Handling Settings &lt;fileHandling&gt;
-====================
-<a id="001"></a>
+# Default FTP File Handling Settings &lt;fileHandling&gt;
+
 ## Overview
 
 The `<fileHandling>` element is used to specify the way that the FTP service handles file operations. For example, the `keepPartialUploads` attribute configures whether the FTP service should keep files that were partially transferred, such as when a file transfer ends prematurely.
 
-<a id="002"></a>
 ## Compatibility
 
 | Version | Notes |
@@ -33,13 +26,11 @@ The `<fileHandling>` element is used to specify the way that the FTP service han
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
-> [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-
+>
+> <https://www.iis.net/downloads/microsoft/ftp>
 
 With Windows 7 and Windows Server 2008 R2, the FTP 7.5 service ships as a feature for IIS 7.5, so downloading the FTP service is no longer necessary.
 
-<a id="003"></a>
 ## Setup
 
 To support FTP publishing for your Web server, you must install the FTP service. To do so, use the following steps.
@@ -52,8 +43,8 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select     **FTP Extensibility** , in addition to     **FTP Service** .  
-    [![](fileHandling/_static/image2.png)](fileHandling/_static/image1.png) .
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
+    > [![](fileHandling/_static/image2.png)](fileHandling/_static/image1.png)
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -62,11 +53,12 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-3. Expand **Internet Information Services**, and then select **FTP Server**.   
+3. Expand **Internet Information Services**, and then select **FTP Server**.
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
-    [![](fileHandling/_static/image4.png)](fileHandling/_static/image3.png)
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
+    > [![](fileHandling/_static/image4.png)](fileHandling/_static/image3.png)
+
 4. Click **OK**.
 5. Click **Close**.
 
@@ -77,10 +69,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **FTP Server**.
 5. Select **FTP Service**.  
-  
+
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .  
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
     [![](fileHandling/_static/image6.png)](fileHandling/_static/image5.png)
+
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -93,53 +86,55 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select     **FTP Extensibility** .   
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
     [![](fileHandling/_static/image8.png)](fileHandling/_static/image7.png)
+
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
 
-1. Download the installation package from the following URL: 
+1. Download the installation package from the following URL:
 
-    - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+    - <https://www.iis.net/downloads/microsoft/ftp>
+2. Follow the instructions in the following walkthrough to install the FTP service:
 
     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
-<a id="004"></a>
 ## How To
 
 ### How to configure the default file handling options for an FTP server
 
-1. Open **Internet Information Services (IIS) Manager**: 
+1. Open **Internet Information Services (IIS) Manager**:
 
-    - If you are using Windows Server 2012 or Windows Server 2012 R2: 
+    - If you are using Windows Server 2012 or Windows Server 2012 R2:
 
         - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows 8 or Windows 8.1: 
+    - If you are using Windows 8 or Windows 8.1:
 
         - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
         - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Server 2008 or Windows Server 2008 R2: 
+    - If you are using Windows Server 2008 or Windows Server 2008 R2:
 
         - On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-    - If you are using Windows Vista or Windows 7: 
+    - If you are using Windows Vista or Windows 7:
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-2. In the **Connections** pane, expand the server name, and thecn click the **Sites** node.
-3. In the **Sites** pane, click **Set FTP Site Defaults...** in the **Actions** pane.  
+2. In the **Connections** pane, expand the server name, and then click the **Sites** node.
+3. In the **Sites** pane, click **Set FTP Site Defaults** in the **Actions** pane.
     [![](fileHandling/_static/image10.png)](fileHandling/_static/image9.png)
-4. In the **FTP Site Defaults** dialog box, expand **File Handling**, and specify the following options: 
+4. In the **FTP Site Defaults** dialog box, expand **File Handling**, and specify the following options:
 
     - Specify **True** for **Allow Reading Files While Uploading** if the FTP service should allow read access to files that are currently being uploaded; otherwise, specify **False**.
     - Specify **True** for **Allow Replace on Rename** if the FTP service should allow files that are being renamed to overwrite existing files; otherwise, specify **False**.
-    - Specify **True** for **Keep Partial Uploads** if the FTP service should keep files that have been partially uploaded; otherwise, specify **False**. (> [!NOTE]
-> Keeping partially-uploaded files allows FTP clients to reconnect and resume uploading.)  
-        [![](fileHandling/_static/image12.png)](fileHandling/_static/image11.png)
+    - Specify **True** for **Keep Partial Uploads** if the FTP service should keep files that have been partially uploaded; otherwise, specify **False**.
+
+        > [!NOTE]
+        > Keeping partially-uploaded files allows FTP clients to reconnect and resume uploading.  
+        > [![](fileHandling/_static/image12.png)](fileHandling/_static/image11.png)
+
 5. Click **OK**.
 
-<a id="005"></a>
 ## Configuration
 
 ### Attributes
@@ -160,7 +155,6 @@ The following configuration sample displays an example `<fileHandling>` element 
 
 [!code-xml[Main](fileHandling/samples/sample1.xml)]
 
-<a id="006"></a>
 ## Sample Code
 
 The following code samples demonstrate how to configure the FTP service to keep partially-uploaded files by default.
@@ -172,7 +166,7 @@ The following code samples demonstrate how to configure the FTP service to keep 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](fileHandling/samples/sample3.cs)]
 

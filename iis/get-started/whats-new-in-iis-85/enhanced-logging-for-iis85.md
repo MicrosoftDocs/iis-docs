@@ -1,32 +1,24 @@
 ---
-title: "Enhanced Logging for IIS 8.5 | Microsoft Docs"
+title: "Enhanced Logging for IIS 8.5"
 author: garyericson
 description: "In IIS 8.5, the administrator has the option of logging additional custom fields from request or response headers, or from server variables."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/11/2013
-ms.topic: article
 ms.assetid: 3cd66139-f22a-4f75-ae5f-cc00fef9c5d7
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85
 msc.type: authoredcontent
 ---
-Enhanced Logging for IIS 8.5
-====================
+# Enhanced Logging for IIS 8.5
+
 by [Gary Ericson](https://github.com/garyericson)
 
 > In IIS 8.5, the administrator has the option of logging additional custom fields from request or response headers, or from server variables.
 
-
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
 | IIS 8.5 and later | Enhanced Logging was introduced in IIS 8.5. |
 | IIS 8.0 and earlier | Enhanced Logging was not supported prior to IIS 8.5. |
-
 
 <a id="TOC301258515"></a>
 ## Problem

@@ -1,19 +1,14 @@
 ---
-title: "Default Bindings &lt;bindings&gt; | Microsoft Docs"
+title: "Default Bindings &lt;bindings&gt;"
 author: rick-anderson
 description: "Overview The &lt;bindings&gt; element configures the default binding information for all IIS 7 Web sites. This element can contain a collection of &lt;bindin..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: cc076e7c-81b6-4952-a487-9e3f0f5f6386
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/bindings
 msc.type: config
 ---
-Default Bindings &lt;bindings&gt;
-====================
+# Default Bindings &lt;bindings&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -71,7 +66,7 @@ The `<bindings>` element is included in the default installation of IIS 7.
 <a id="005"></a>
 ## Configuration
 
-You can add a `<bindings>` element for a server, which can contain a colleciton of individual `<binding>` elements that define the default protocol bindings for the server. You can also use a `<clear />` element in the `<bindings>` element of a `<site>` element to override the binding defaults inherited from the server level `<siteDefaults>` element.
+You can add a `<bindings>` element for a server, which can contain a collection of individual `<binding>` elements that define the default protocol bindings for the server. You can also use a `<clear />` element in the `<bindings>` element of a `<site>` element to override the binding defaults inherited from the server level `<siteDefaults>` element.
 
 ### Attributes
 
@@ -102,7 +97,7 @@ The following code samples configure the default `bindings` options for IIS 7.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

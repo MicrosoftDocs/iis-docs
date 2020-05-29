@@ -1,19 +1,14 @@
 ---
-title: "Handlers &lt;handlers&gt; | Microsoft Docs"
+title: "Handlers &lt;handlers&gt;"
 author: rick-anderson
 description: "Overview The &lt;handlers&gt; element defines the handlers registered for a specific file name extension or URL. Handlers are Internet Information Services (..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: df3cf46c-9d26-4e69-98e9-f2b4dcd2cbfc
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/handlers
 msc.type: config
 ---
-Handlers &lt;handlers&gt;
-====================
+# Handlers &lt;handlers&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -21,7 +16,7 @@ The `<handlers>` element defines the handlers registered for a specific file nam
 
 Handlers are Internet Information Services (IIS) components that are configured to process requests to specific content, typically to generate a response for the request resource. For example, an ASP.NET Web page is one type of handler. You can use handlers to process requests to any resource that needs to return information to users that is not a static file. IIS provides several different handler types to support static files, Common Gateway Interface (CGI) applications, FastCGI applications, and Internet Server API (ISAPI) extensions. ASP.NET also provides support for additional handler types through the HTTP handler interface.
 
-Developers can create custom handlers to perform special handling that you can identify using file name extensions in your application. For example, if a developer created a handler that created RSS-formatted XML, you could bind the .rss file name extension in your application to the custom handler. Developers can also create handlers that map to a specific file and can implement these handlers as native modules or as implementations of the ASP.NET **IHttpHandler** interface. 
+Developers can create custom handlers to perform special handling that you can identify using file name extensions in your application. For example, if a developer created a handler that created RSS-formatted XML, you could bind the .rss file name extension in your application to the custom handler. Developers can also create handlers that map to a specific file and can implement these handlers as native modules or as implementations of the ASP.NET **IHttpHandler** interface.
 
 <a id="002"></a>
 ## Compatibility
@@ -63,15 +58,15 @@ The `<handlers>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server connection that you want to add the native module to.
 3. In the **Home** pane, double-click **Handler Mappings**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![](index/_static/image1.png)
 4. On the **Actions** pane, click **Add Managed Handler...**
 5. In the **Add Managed Handler** dialog box, specify the following:
 
-    - **Request Path**. The file name or file name extension to map.
-    - **Type**. The type (class) name of the managed handler. If the handler is defined in the app\_code or bin folders of the application, its type name will appear in the drop-down list.
-    - **Name**. A descriptive name.
+   - **Request Path**. The file name or file name extension to map.
+   - **Type**. The type (class) name of the managed handler. If the handler is defined in the app\_code or bin folders of the application, its type name will appear in the drop-down list.
+   - **Name**. A descriptive name.
   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+      ![](index/_static/image3.png)
 6. Click **OK** to close the **Add Managed Handler** dialog box.
 
 ### How to create a FastCGI handler mapping
@@ -94,15 +89,15 @@ The `<handlers>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI handler mappings.
 3. In the **Home** pane, double-click **Handler Mappings**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    ![](index/_static/image5.png)
 4. In the **Actions** pane, click **Add Module Mapping...**  
   
     > [!NOTE]
     > For the next steps to work, you must have already installed binaries that will execute the file path or file name extension that you specify. This example uses a PHP implementation available from the Microsoft Web site.
 5. Type the file name extension, such as.php in the **Request path** box, click **FastCGIModule** in the **Module** drop-down list, type the path to the scripting engine (in this example, PHP-CGI.exe) in the **Executable** box, and then click **OK**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    ![](index/_static/image7.png)
 6. On the **Add Module Mapping** dialog box, click **Yes**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![](index/_static/image9.png)
 
 <a id="005"></a>
 ## Configuration
@@ -145,7 +140,7 @@ The following examples add a FastCGI mapping for a PHP module, then add a handle
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

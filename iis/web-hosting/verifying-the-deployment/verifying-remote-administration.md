@@ -1,19 +1,14 @@
 ---
-title: "Verifying Remote Administration | Microsoft Docs"
+title: "Verifying Remote Administration"
 author: walterov
 description: "An important characteristic of Shared Hosting with IIS is that Hosters can empower their users to administer their sites remotely as described in IIS Managem..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2009
-ms.topic: article
 ms.assetid: 7f6dd0dd-96ba-4258-994c-ed58a0a73b14
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-remote-administration
 msc.type: authoredcontent
 ---
-Verifying Remote Administration
-====================
+# Verifying Remote Administration
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction

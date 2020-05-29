@@ -1,19 +1,14 @@
 ---
-title: "HTTP Load Balancing using Application Request Routing | Microsoft Docs"
+title: "HTTP Load Balancing using Application Request Routing"
 author: rick-anderson
 description: "This topic leads the reader through the steps to configure Application Request Routing to load balance HTTP requests to achieve high availability and scalabi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/02/2008
-ms.topic: article
 ms.assetid: 4f919ad7-b2e2-48ad-bbe1-275525a4144d
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/http-load-balancing-using-application-request-routing
 msc.type: authoredcontent
 ---
-HTTP Load Balancing using Application Request Routing
-====================
+# HTTP Load Balancing using Application Request Routing
+
 by IIS Team
 
 ## Overview
@@ -75,11 +70,11 @@ Provided that the server farm has been created using the steps outlined in **[De
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample2.cmd)]
 
- Then, create the URL rewrite rules to forward HTTPS traffic. More specifically, with this rule, ARR forwards requests using SSL if the incoming requests are HTTPS:  
+   Then, create the URL rewrite rules to forward HTTPS traffic. More specifically, with this rule, ARR forwards requests using SSL if the incoming requests are HTTPS:  
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample3.cmd)]
   
- Finally, create the URL rewrite rules to forward HTTP traffic in clear text to the application servers:  
+   Finally, create the URL rewrite rules to forward HTTP traffic in clear text to the application servers:  
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample4.cmd)]
 5. To verify that the URL rewrite rules have been created correctly with SSL offloading disabled, enter **appcmd.exe list config -section:system.webServer/rewrite/globalRules**. It returns the globalRules that looks like the following:  

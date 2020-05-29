@@ -1,19 +1,14 @@
 ---
-title: "Feature to Configuration Reference | Microsoft Docs"
+title: "Feature to Configuration Reference"
 author: rick-anderson
 description: "IIS Manager Feature to Configuration Mapping This is a quick reference for mapping IIS 7.0 and above Manager features in the feature list to configuration se..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 10755442-bb08-461e-b3c6-95cbdd0565d8
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/feature-to-configuration-reference
 msc.type: authoredcontent
 ---
-Feature to Configuration Reference
-====================
+# Feature to Configuration Reference
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## IIS Manager Feature to Configuration Mapping

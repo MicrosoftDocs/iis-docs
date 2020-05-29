@@ -1,19 +1,14 @@
 ---
-title: "Validation &lt;validation&gt; | Microsoft Docs"
+title: "Validation &lt;validation&gt;"
 author: rick-anderson
 description: "Overview The &lt;validation&gt; element configures Internet Information Services (IIS) 7 to detect whether an ASP.NET application that is set up to run in Cl..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a24b0af7-c584-43b8-b1b9-786be64efd76
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/validation
 msc.type: config
 ---
-Validation &lt;validation&gt;
-====================
+# Validation &lt;validation&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -85,7 +80,7 @@ The following code samples enable validation for the Default Web Site.
 
 [!code-console[Main](validation/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](validation/samples/sample3.cs)]
 

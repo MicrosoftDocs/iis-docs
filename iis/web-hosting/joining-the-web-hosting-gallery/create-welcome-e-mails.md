@@ -1,19 +1,14 @@
 ---
-title: "Create Welcome E-mails | Microsoft Docs"
+title: "Create Welcome E-mails"
 author: crystalhoyer
 description: "As customers sign up for your hosting service, you need to provision sites/users for them on your server and then send them their server credentials. One way..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/03/2010
-ms.topic: article
 ms.assetid: 4b3b0288-37bf-44cd-9fc2-47b83ebe8ebc
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/create-welcome-e-mails
 msc.type: authoredcontent
 ---
-Create Welcome E-mails
-====================
+# Create Welcome E-mails
+
 by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 ## Welcome E-mail Structure
@@ -54,7 +49,6 @@ We have created an HTML e-mail template you can customize for your customers. Gi
 [HTML e-mail template](create-welcome-e-mails/_static/create-welcome-e-mails-960-hosting email1.zip)
 
 There are several places in the template where you can add branding and other messages.
-
 
 ## Next Steps
 

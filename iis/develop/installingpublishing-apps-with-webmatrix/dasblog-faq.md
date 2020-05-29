@@ -1,19 +1,14 @@
 ---
-title: "dasBlog FAQ | Microsoft Docs"
+title: "dasBlog FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 58bc054e-ca8e-49e1-97ca-e5c56c327327
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/dasblog-faq
 msc.type: authoredcontent
 ---
-dasBlog FAQ
-====================
+# dasBlog FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.

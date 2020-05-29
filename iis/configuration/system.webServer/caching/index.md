@@ -1,19 +1,14 @@
 ---
-title: "Caching &lt;caching&gt; | Microsoft Docs"
+title: "Caching &lt;caching&gt;"
 author: rick-anderson
 description: "Overview The &lt;caching&gt; element allows you to enable or disable page output caching for an Internet Information Services (IIS) 7 application. This eleme..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0ed34615-896b-477e-8d10-2c2e09f464db
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/caching
 msc.type: config
 ---
-Caching &lt;caching&gt;
-====================
+# Caching &lt;caching&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -67,11 +62,11 @@ The `<caching>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to configure page output caching.
 3. In the **Home** pane, scroll to **Output Caching**, and then double-click **Output Caching**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![](index/_static/image1.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add Cache Rule** dialog box, type the file name extension you want to cache in the **File name extension** box, and then select the **User-mode caching** option, the **Kernel-mode caching** option, or both.
 6. Select the options that you want to use for caching, and then click **OK**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![](index/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration
@@ -115,7 +110,7 @@ The following examples configure page output caching for files with the .asp fil
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "CGI &lt;cgi&gt; | Microsoft Docs"
+title: "CGI &lt;cgi&gt;"
 author: rick-anderson
 description: "Overview The &lt;cgi&gt; element configures default settings for Common Gateway Interface (CGI) applications for Internet Information Services (IIS) 7. These..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 687d2f2e-171b-4a06-b450-23093858cfa9
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/cgi
 msc.type: config
 ---
-CGI &lt;cgi&gt;
-====================
+# CGI &lt;cgi&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -138,7 +133,7 @@ The following code samples specify that each CGI application creates a new conso
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](cgi/samples/sample3.cs)]
 

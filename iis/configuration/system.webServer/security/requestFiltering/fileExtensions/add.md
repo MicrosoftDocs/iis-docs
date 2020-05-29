@@ -1,19 +1,14 @@
 ---
-title: "Adding File Name Extensions &lt;add&gt; | Microsoft Docs"
+title: "Adding File Name Extensions &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;fileExtensions&gt; collection specifies a unique file name extension to add to the collection of file name extens..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 1fe8634d-efea-4d6e-ba95-222a28eae61c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/fileextensions/add
 msc.type: config
 ---
-Adding File Name Extensions &lt;add&gt;
-====================
+# Adding File Name Extensions &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -148,7 +143,11 @@ The following code samples will add an entry to the list of file name extensions
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "IIS Media Services 3.0 Overview | Microsoft Docs"
+title: "IIS Media Services 3.0 Overview"
 author: rick-anderson
 description: "The IIS Media Services 3.0 Overview describes the current set of IIS media extensions, the scenarios they address, and the business value you can achieve wit..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/07/2010
-ms.topic: article
 ms.assetid: bba532da-d627-4068-86fe-16efe12b562b
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/iis-media-services-30-overview
 msc.type: authoredcontent
 ---
-IIS Media Services 3.0 Overview
-====================
+# IIS Media Services 3.0 Overview
+
 by [Chris Knowlton](https://twitter.com/chris_knowlton)
 
 The [IIS Media Services 3.0 Overview](https://download.microsoft.com/download/3/3/8/33899CAB-98AD-4A25-A1FF-4172734BF6F4/IIS_Media_Services_30_Overview_FINAL.pdf "IIS Media Services 3.0 Overview") describes the current set of IIS media extensions, the scenarios they address, and the business value you can achieve with their use.
@@ -47,7 +42,7 @@ Table of Contents:
 - Server Performance and Scalability 
 
     - Deploying Server Clusters
-    - Deploying Edge Cache Severs
+    - Deploying Edge Cache Servers
 - Developing IIS Media Services Applications 
 
     - Player Development with the Silverlight Media Framework

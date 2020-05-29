@@ -1,19 +1,14 @@
 ---
-title: "Modules &lt;modules&gt; | Microsoft Docs"
+title: "Modules &lt;modules&gt;"
 author: rick-anderson
 description: "Overview The &lt;modules&gt; element specifies the features that are available in IIS Manager when a user is connected to a site or an application. The &lt;m..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 66270b50-8b2b-4346-8d0b-835d979eb2b5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/modules
 msc.type: config
 ---
-Modules &lt;modules&gt;
-====================
+# Modules &lt;modules&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -90,7 +85,7 @@ The following code examples enable a managed module provider named ContosoProvid
 > [!NOTE]
 > You cannot configure `<modules>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

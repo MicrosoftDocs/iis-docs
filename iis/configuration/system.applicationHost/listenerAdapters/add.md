@@ -1,19 +1,14 @@
 ---
-title: "Adding Listener Adapters &lt;add&gt; | Microsoft Docs"
+title: "Adding Listener Adapters &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;listenerAdapters&gt; specifies configuration settings for a non-HTTP listener adapter that can be used by Windows..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f4e10fa9-5489-4b45-b9ff-9bcdf0848352
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/listeneradapters/add
 msc.type: config
 ---
-Adding Listener Adapters &lt;add&gt;
-====================
+# Adding Listener Adapters &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -75,7 +70,7 @@ The following code samples add a listener adapter for a Gopher protocol provider
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

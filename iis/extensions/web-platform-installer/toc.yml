@@ -1,0 +1,659 @@
+- name: Microsoft Web Platform Installer
+  href: microsoft-web-platform-installer.md
+  items:
+  - name: Microsoft.Web.PlatformInstaller Namespace
+    href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller
+    items:
+    - name: Architecture Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.architecture
+    - name: DatabaseProvider Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.databaseprovider
+    - name: DeclaredParameter Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter
+      items:
+      - name: DeclaredParameter Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter
+      - name: DeclaredParameter Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter#methods
+      - name: 'DeclaredParameter Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter#properties
+        items:
+        - name: 'DefaultValue Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter.defaultvalue#microsoft_web_platforminstaller_declaredparameter_defaultvalue
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter.description#microsoft_web_platforminstaller_declaredparameter_description
+        - name: 'FriendlyName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter.friendlyname#microsoft_web_platforminstaller_declaredparameter_friendlyname
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter.name#microsoft_web_platforminstaller_declaredparameter_name
+        - name: 'RawTags Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter.rawtags#microsoft_web_platforminstaller_declaredparameter_rawtags
+        - name: 'Tags Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter.tags#microsoft_web_platforminstaller_declaredparameter_tags
+        - name: 'Validation Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter.validation#microsoft_web_platforminstaller_declaredparameter_validation
+    - name: Feed Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed
+      items:
+      - name: Feed Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed
+      - name: Feed Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed#methods
+      - name: 'Feed Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed.description#microsoft_web_platforminstaller_feed_description
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed.name#microsoft_web_platforminstaller_feed_name
+        - name: 'Url Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed.url#microsoft_web_platforminstaller_feed_url
+    - name: Group Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.group
+      items:
+      - name: Group Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.group
+      - name: Group Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.group#methods
+      - name: 'Group Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.group#properties
+        items:
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.group.name#microsoft_web_platforminstaller_group_name
+        - name: 'Products Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.group.products#microsoft_web_platforminstaller_group_products
+    - name: GroupTab Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab
+      items:
+      - name: GroupTab Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab
+      - name: GroupTab Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab#methods
+      - name: 'GroupTab Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab.description#microsoft_web_platforminstaller_grouptab_description
+        - name: 'Groups Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab.groups#microsoft_web_platforminstaller_grouptab_groups
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab.name#microsoft_web_platforminstaller_grouptab_name
+        - name: 'Products Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab.products#microsoft_web_platforminstaller_grouptab_products
+    - name: InstallationState Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installationstate
+    - name: InstallCommand Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand
+      items:
+      - name: InstallCommand Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand
+      - name: 'InstallCommand Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand.-ctor#microsoft_web_platforminstaller_installcommand__ctor_microsoft_web_platforminstaller_installer_
+      - name: InstallCommand Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand#methods
+        items:
+        - name: 'ReplaceEnvironmentVariables Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand.replaceenvironmentvariables#microsoft_web_platforminstaller_installcommand_replaceenvironmentvariables_system_string_
+      - name: 'InstallCommand Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand#properties
+        items:
+        - name: 'Done Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand.done#microsoft_web_platforminstaller_installcommand_done
+        - name: 'EnvironmentVariables Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand.environmentvariables#microsoft_web_platforminstaller_installcommand_environmentvariables
+        - name: 'Installer Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand.installer#microsoft_web_platforminstaller_installcommand_installer
+        - name: 'InstallReturnCode Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand.installreturncode#microsoft_web_platforminstaller_installcommand_installreturncode
+    - name: Installer Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer
+      items:
+      - name: Installer Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer
+      - name: Installer Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer#methods
+        items:
+        - name: 'ClearPerInstallLogFiles Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.clearperinstalllogfiles#microsoft_web_platforminstaller_installer_clearperinstalllogfiles
+      - name: 'Installer Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer#properties
+        items:
+        - name: 'EulaUrl Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.eulaurl#microsoft_web_platforminstaller_installer_eulaurl
+        - name: 'HelpLink Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.helplink#microsoft_web_platforminstaller_installer_helplink
+        - name: 'InstallCommands Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.installcommands#microsoft_web_platforminstaller_installer_installcommands
+        - name: 'InstallerFile Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.installerfile#microsoft_web_platforminstaller_installer_installerfile
+        - name: 'Language Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.language#microsoft_web_platforminstaller_installer_language
+        - name: 'LogFiles Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.logfiles#microsoft_web_platforminstaller_installer_logfiles
+        - name: 'MSDeployPackage Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.msdeploypackage#microsoft_web_platforminstaller_installer_msdeploypackage
+        - name: 'Product Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer.product#microsoft_web_platforminstaller_installer_product
+    - name: InstallerContext Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext
+      items:
+      - name: InstallerContext Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext
+      - name: InstallerContext Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext#methods
+      - name: 'InstallerContext Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext#properties
+        items:
+        - name: 'Id Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext.id#microsoft_web_platforminstaller_installercontext_id
+        - name: 'InstallationState Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext.installationstate#microsoft_web_platforminstaller_installercontext_installationstate
+        - name: 'Installer Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext.installer#microsoft_web_platforminstaller_installercontext_installer
+        - name: 'InstallStateDetails Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext.installstatedetails#microsoft_web_platforminstaller_installercontext_installstatedetails
+        - name: 'LogFileDirectory Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext.logfiledirectory#microsoft_web_platforminstaller_installercontext_logfiledirectory
+        - name: 'ProductName Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext.productname#microsoft_web_platforminstaller_installercontext_productname
+        - name: 'ReturnCode Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext.returncode#microsoft_web_platforminstaller_installercontext_returncode
+    - name: InstallerFile Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile
+      items:
+      - name: InstallerFile Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile
+      - name: 'InstallerFile Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile.-ctor#microsoft_web_platforminstaller_installerfile__ctor
+      - name: InstallerFile Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile#methods
+      - name: 'InstallerFile Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile#properties
+        items:
+        - name: 'DownloadedLocation Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile.downloadedlocation#microsoft_web_platforminstaller_installerfile_downloadedlocation
+        - name: 'FileSize Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile.filesize#microsoft_web_platforminstaller_installerfile_filesize
+        - name: 'InstallerUrl Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile.installerurl#microsoft_web_platforminstaller_installerfile_installerurl
+        - name: 'SHA1Hash Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile.sha1hash#microsoft_web_platforminstaller_installerfile_sha1hash
+        - name: 'TrackingUrl Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile.trackingurl#microsoft_web_platforminstaller_installerfile_trackingurl
+        - name: 'TrustVerified Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile.trustverified#microsoft_web_platforminstaller_installerfile_trustverified
+    - name: InstallManager Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager
+      items:
+      - name: InstallManager Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager
+      - name: 'InstallManager Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.-ctor#microsoft_web_platforminstaller_installmanager__ctor
+      - name: InstallManager Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager#methods
+        items:
+        - name: 'Cancel Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.cancel#microsoft_web_platforminstaller_installmanager_cancel
+        - name: 'DeleteInstallerFiles Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.deleteinstallerfiles#microsoft_web_platforminstaller_installmanager_deleteinstallerfiles
+        - name: 'Dispose Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.dispose#microsoft_web_platforminstaller_installmanager_dispose
+        - name: 'DownloadInstallerFile Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.downloadinstallerfile#microsoft_web_platforminstaller_installmanager_downloadinstallerfile_microsoft_web_platforminstaller_installercontext_system_string__
+        - name: 'Load Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.load#overloads
+          items:
+          - name: Load Method ()
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.load#microsoft_web_platforminstaller_installmanager_load_system_string_
+          - name: Load Method ((Installer))
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.load#microsoft_web_platforminstaller_installmanager_load_system_collections_generic_ienumerable_microsoft_web_platforminstaller_installer__
+          - name: Load Method (, )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.load
+        - name: 'Save Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.save#overloads
+          items:
+          - name: Save Method ()
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.save#microsoft_web_platforminstaller_installmanager_save_system_string_
+          - name: Save Method (, )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.save
+        - name: 'StartApplicationInstallation Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.startapplicationinstallation#overloads
+          items:
+          - name: 'StartApplicationInstallation Method '
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.startapplicationinstallation#microsoft_web_platforminstaller_installmanager_startapplicationinstallation
+          - name: StartApplicationInstallation Method (, )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.startapplicationinstallation#microsoft_web_platforminstaller_installmanager_startapplicationinstallation_system_string_system_string_
+        - name: 'StartInstallation Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.startinstallation#microsoft_web_platforminstaller_installmanager_startinstallation
+        - name: 'StartSynchronousInstallation Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.startsynchronousinstallation#microsoft_web_platforminstaller_installmanager_startsynchronousinstallation
+      - name: 'InstallManager Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager#properties
+        items:
+        - name: 'InstallerContexts Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.installercontexts#microsoft_web_platforminstaller_installmanager_installercontexts
+        - name: 'RebootRequired Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.rebootrequired#microsoft_web_platforminstaller_installmanager_rebootrequired
+      - name: InstallManager Events
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager#events
+        items:
+        - name: InstallCompleted Event
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.installcompleted
+        - name: InstallerStatusUpdated Event
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager.installerstatusupdated
+    - name: InstallReturnCode Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode
+      items:
+      - name: InstallReturnCode Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode
+      - name: 'InstallReturnCode Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode.-ctor#microsoft_web_platforminstaller_installreturncode__ctor_microsoft_web_platforminstaller_installreturncodestatus_system_string_
+      - name: InstallReturnCode Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode#methods
+      - name: 'InstallReturnCode Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode#properties
+        items:
+        - name: 'DetailedInformation Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode.detailedinformation#microsoft_web_platforminstaller_installreturncode_detailedinformation
+        - name: 'Status Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode.status#microsoft_web_platforminstaller_installreturncode_status
+    - name: InstallReturnCodeStatus Enumeration
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncodestatus
+    - name: InstallStatusEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs
+      items:
+      - name: InstallStatusEventArgs Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs
+      - name: InstallStatusEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs#methods
+      - name: 'InstallStatusEventArgs Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs#properties
+        items:
+        - name: 'DownloadRate Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs.downloadrate#microsoft_web_platforminstaller_installstatuseventargs_downloadrate
+        - name: 'InstallerContext Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs.installercontext#microsoft_web_platforminstaller_installstatuseventargs_installercontext
+        - name: 'ProgressValue Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs.progressvalue#microsoft_web_platforminstaller_installstatuseventargs_progressvalue
+    - name: Keyword Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keyword
+      items:
+      - name: Keyword Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keyword
+      - name: Keyword Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keyword#methods
+      - name: 'Keyword Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keyword#properties
+        items:
+        - name: 'Products Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keyword.products#microsoft_web_platforminstaller_keyword_products
+        - name: 'Text Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keyword.text#microsoft_web_platforminstaller_keyword_text
+    - name: KeywordTab Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab
+      items:
+      - name: KeywordTab Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab
+      - name: KeywordTab Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab#methods
+      - name: 'KeywordTab Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab.description#microsoft_web_platforminstaller_keywordtab_description
+        - name: 'Keywords Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab.keywords#microsoft_web_platforminstaller_keywordtab_keywords
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab.name#microsoft_web_platforminstaller_keywordtab_name
+        - name: 'Products Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab.products#microsoft_web_platforminstaller_keywordtab_products
+    - name: Language Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language
+      items:
+      - name: Language Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language
+      - name: Language Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language#methods
+      - name: 'Language Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language#properties
+        items:
+        - name: 'AvailableProducts Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language.availableproducts#microsoft_web_platforminstaller_language_availableproducts
+        - name: 'Default Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language.default#microsoft_web_platforminstaller_language_default
+        - name: 'Id Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language.id#microsoft_web_platforminstaller_language_id
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language.name#microsoft_web_platforminstaller_language_name
+    - name: Logging Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging
+      items:
+      - name: Logging Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging
+      - name: Logging Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging#methods
+        items:
+        - name: 'LogMessage Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging.logmessage#overloads
+          items:
+          - name: LogMessage Method (, )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging.logmessage#microsoft_web_platforminstaller_logging_logmessage_system_diagnostics_traceeventtype_system_string_
+          - name: LogMessage Method (, , [])
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging.logmessage#microsoft_web_platforminstaller_logging_logmessage_system_diagnostics_traceeventtype_system_string_system_object___
+      - name: 'Logging Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging#properties
+        items:
+        - name: 'TraceSource Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging.tracesource#microsoft_web_platforminstaller_logging_tracesource
+    - name: MSDeployPackage Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage
+      items:
+      - name: MSDeployPackage Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage
+      - name: MSDeployPackage Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage#methods
+        items:
+        - name: 'GetDBConnectionErrorString Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.getdbconnectionerrorstring#microsoft_web_platforminstaller_msdeploypackage_getdbconnectionerrorstring_microsoft_web_platforminstaller_databaseprovider_
+        - name: 'SetConfigurationAndWebServerDirectories Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.setconfigurationandwebserverdirectories#microsoft_web_platforminstaller_msdeploypackage_setconfigurationandwebserverdirectories_system_string_system_string_
+        - name: 'ShouldShowOverwriteWarning Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.shouldshowoverwritewarning#microsoft_web_platforminstaller_msdeploypackage_shouldshowoverwritewarning
+      - name: 'MSDeployPackage Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage#properties
+        items:
+        - name: 'AppPath Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.apppath#microsoft_web_platforminstaller_msdeploypackage_apppath
+        - name: 'DeclaredParameters Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.declaredparameters#microsoft_web_platforminstaller_msdeploypackage_declaredparameters
+        - name: 'IsAspNet2Application Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.isaspnet2application#microsoft_web_platforminstaller_msdeploypackage_isaspnet2application
+        - name: 'IsAspNet4Application Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.isaspnet4application#microsoft_web_platforminstaller_msdeploypackage_isaspnet4application
+        - name: 'IsPhpApplication Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.isphpapplication#microsoft_web_platforminstaller_msdeploypackage_isphpapplication
+        - name: 'PackageLocation Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.packagelocation#microsoft_web_platforminstaller_msdeploypackage_packagelocation
+        - name: 'RemoveParameters Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.removeparameters#microsoft_web_platforminstaller_msdeploypackage_removeparameters
+        - name: 'SetParameters Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.setparameters#microsoft_web_platforminstaller_msdeploypackage_setparameters
+        - name: 'Site Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.site#microsoft_web_platforminstaller_msdeploypackage_site
+        - name: 'SkipDirectives Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.skipdirectives#microsoft_web_platforminstaller_msdeploypackage_skipdirectives
+        - name: 'StartPage Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage.startpage#microsoft_web_platforminstaller_msdeploypackage_startpage
+    - name: Pillar Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar
+      items:
+      - name: Pillar Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar
+      - name: Pillar Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar#methods
+      - name: 'Pillar Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar.description#microsoft_web_platforminstaller_pillar_description
+        - name: 'Groups Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar.groups#microsoft_web_platforminstaller_pillar_groups
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar.name#microsoft_web_platforminstaller_pillar_name
+        - name: 'Products Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar.products#microsoft_web_platforminstaller_pillar_products
+        - name: 'Recommended Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar.recommended#microsoft_web_platforminstaller_pillar_recommended
+    - name: PillarTab Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab
+      items:
+      - name: PillarTab Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab
+      - name: PillarTab Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab#methods
+      - name: 'PillarTab Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab.description#microsoft_web_platforminstaller_pillartab_description
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab.name#microsoft_web_platforminstaller_pillartab_name
+        - name: 'Pillars Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab.pillars#microsoft_web_platforminstaller_pillartab_pillars
+    - name: PreferenceSettings Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.preferencesettings
+      items:
+      - name: PreferenceSettings Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.preferencesettings
+      - name: PreferenceSettings Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.preferencesettings#methods
+      - name: 'PreferenceSettings Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.preferencesettings#properties
+        items:
+        - name: 'Feeds Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.preferencesettings.feeds#microsoft_web_platforminstaller_preferencesettings_feeds
+        - name: 'Text Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.preferencesettings.text#microsoft_web_platforminstaller_preferencesettings_text
+    - name: Product Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product
+      items:
+      - name: Product Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product
+      - name: Product Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product#methods
+        items:
+        - name: 'GetAttributeValue Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.getattributevalue#microsoft_web_platforminstaller_product_getattributevalue_system_string_
+        - name: 'GetIncompatibleOrMissingExternalProduct Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.getincompatibleormissingexternalproduct#microsoft_web_platforminstaller_product_getincompatibleormissingexternalproduct_system_collections_generic_ienumerable_microsoft_web_platforminstaller_product__system_string__microsoft_web_platforminstaller_product__
+        - name: 'GetInstaller Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.getinstaller#microsoft_web_platforminstaller_product_getinstaller_microsoft_web_platforminstaller_language_
+        - name: 'GetMissingDependencies Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.getmissingdependencies#overloads
+          items:
+          - name: GetMissingDependencies Method ((Product))
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.getmissingdependencies#microsoft_web_platforminstaller_product_getmissingdependencies_system_collections_generic_ienumerable_microsoft_web_platforminstaller_product__
+          - name: GetMissingDependencies Method ((Product), Product)
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.getmissingdependencies#microsoft_web_platforminstaller_product_getmissingdependencies_system_collections_generic_ienumerable_microsoft_web_platforminstaller_product__microsoft_web_platforminstaller_product_
+        - name: 'IsInstalled Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.isinstalled#microsoft_web_platforminstaller_product_isinstalled_system_boolean_
+      - name: 'Product Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product#properties
+        items:
+        - name: 'Author Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.author#microsoft_web_platforminstaller_product_author
+        - name: 'AuthorUri Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.authoruri#microsoft_web_platforminstaller_product_authoruri
+        - name: 'External Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.external#microsoft_web_platforminstaller_product_external
+        - name: 'ExternalWarningShown Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.externalwarningshown#microsoft_web_platforminstaller_product_externalwarningshown
+        - name: 'FeedLocation Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.feedlocation#microsoft_web_platforminstaller_product_feedlocation
+        - name: 'IconUrl Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.iconurl#microsoft_web_platforminstaller_product_iconurl
+        - name: 'Installers Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.installers#microsoft_web_platforminstaller_product_installers
+        - name: 'IsApplication Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.isapplication#microsoft_web_platforminstaller_product_isapplication
+        - name: 'IsIisComponent Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.isiiscomponent#microsoft_web_platforminstaller_product_isiiscomponent
+        - name: 'IsUpdate Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.isupdate#microsoft_web_platforminstaller_product_isupdate
+        - name: 'Keywords Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.keywords#microsoft_web_platforminstaller_product_keywords
+        - name: 'Link Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.link#microsoft_web_platforminstaller_product_link
+        - name: 'LongDescription Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.longdescription#microsoft_web_platforminstaller_product_longdescription
+        - name: 'ProductId Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.productid#microsoft_web_platforminstaller_product_productid
+        - name: 'Published Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.published#microsoft_web_platforminstaller_product_published
+        - name: 'RelatedProducts Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.relatedproducts#microsoft_web_platforminstaller_product_relatedproducts
+        - name: 'SelectedInstaller Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.selectedinstaller#microsoft_web_platforminstaller_product_selectedinstaller
+        - name: 'Summary Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.summary#microsoft_web_platforminstaller_product_summary
+        - name: 'Terms Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.terms#microsoft_web_platforminstaller_product_terms
+        - name: 'Title Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.title#microsoft_web_platforminstaller_product_title
+        - name: 'Updates Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.updates#microsoft_web_platforminstaller_product_updates
+        - name: 'Version Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product.version#microsoft_web_platforminstaller_product_version
+    - name: ProductManager Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager
+      items:
+      - name: ProductManager Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager
+      - name: 'ProductManager Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.-ctor#microsoft_web_platforminstaller_productmanager__ctor
+      - name: ProductManager Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager#methods
+        items:
+        - name: 'GetKeyword Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.getkeyword#microsoft_web_platforminstaller_productmanager_getkeyword_system_string_
+        - name: 'GetLanguage Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.getlanguage#microsoft_web_platforminstaller_productmanager_getlanguage_system_string_
+        - name: 'GetProduct Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.getproduct#microsoft_web_platforminstaller_productmanager_getproduct_system_string_
+        - name: 'GetTab Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.gettab#microsoft_web_platforminstaller_productmanager_gettab_system_string_
+        - name: 'Load Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.load#overloads
+          items:
+          - name: Load Method ()
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.load#microsoft_web_platforminstaller_productmanager_load_system_uri_
+          - name: Load Method (, )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.load#microsoft_web_platforminstaller_productmanager_load_system_uri_system_boolean_
+          - name: Load Method (, , )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.load#microsoft_web_platforminstaller_productmanager_load_system_uri_system_boolean_system_boolean_
+          - name: Load Method (, , , , )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.load#microsoft_web_platforminstaller_productmanager_load_system_uri_system_boolean_system_boolean_system_boolean_system_string_
+          - name: Load Method (, , , , , Architecture, , , , , )
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.load#microsoft_web_platforminstaller_productmanager_load_system_uri_system_boolean_system_boolean_system_boolean_system_string_microsoft_web_platforminstaller_architecture_system_int32_system_int32_system_int32_system_int32_system_int32_
+        - name: 'LoadExternalFile Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.loadexternalfile#microsoft_web_platforminstaller_productmanager_loadexternalfile_system_uri_
+        - name: 'SetResourceLanguage Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.setresourcelanguage#microsoft_web_platforminstaller_productmanager_setresourcelanguage_system_string_
+        - name: 'UpdateWebPlatformBinary Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.updatewebplatformbinary#microsoft_web_platforminstaller_productmanager_updatewebplatformbinary
+      - name: 'ProductManager Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager#properties
+        items:
+        - name: 'Keywords Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.keywords#microsoft_web_platforminstaller_productmanager_keywords
+        - name: 'Languages Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.languages#microsoft_web_platforminstaller_productmanager_languages
+        - name: 'PreferenceSettings Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.preferencesettings#microsoft_web_platforminstaller_productmanager_preferencesettings
+        - name: 'Products Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.products#microsoft_web_platforminstaller_productmanager_products
+        - name: 'QuickStartGroups Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.quickstartgroups#microsoft_web_platforminstaller_productmanager_quickstartgroups
+        - name: 'ResourceLanguages Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.resourcelanguages#microsoft_web_platforminstaller_productmanager_resourcelanguages
+        - name: 'Tabs Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.tabs#microsoft_web_platforminstaller_productmanager_tabs
+      - name: ProductManager Events
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager#events
+        items:
+        - name: WebPlatformInstallerUpdateAvailable Event
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager.webplatforminstallerupdateavailable
+    - name: QuickStartGroup Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup
+      items:
+      - name: QuickStartGroup Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup
+      - name: QuickStartGroup Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup#methods
+      - name: 'QuickStartGroup Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup#properties
+        items:
+        - name: 'BetaProducts Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup.betaproducts#microsoft_web_platforminstaller_quickstartgroup_betaproducts
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup.description#microsoft_web_platforminstaller_quickstartgroup_description
+        - name: 'DevelopmentProducts Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup.developmentproducts#microsoft_web_platforminstaller_quickstartgroup_developmentproducts
+        - name: 'Id Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup.id#microsoft_web_platforminstaller_quickstartgroup_id
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup.name#microsoft_web_platforminstaller_quickstartgroup_name
+        - name: 'Products Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup.products#microsoft_web_platforminstaller_quickstartgroup_products
+    - name: RelatedProduct Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct
+      items:
+      - name: RelatedProduct Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct
+      - name: RelatedProduct Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct#methods
+        items:
+        - name: 'IsRelatedInstalled Method '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct.isrelatedinstalled#overloads
+          items:
+          - name: 'IsRelatedInstalled Method '
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct.isrelatedinstalled#microsoft_web_platforminstaller_relatedproduct_isrelatedinstalled
+          - name: IsRelatedInstalled Method ()
+            href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct.isrelatedinstalled#microsoft_web_platforminstaller_relatedproduct_isrelatedinstalled_system_boolean_
+      - name: 'RelatedProduct Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct#properties
+        items:
+        - name: 'Product Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct.product#microsoft_web_platforminstaller_relatedproduct_product
+    - name: Tab Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab
+      items:
+      - name: Tab Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab
+      - name: 'Tab Constructor '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab.-ctor#microsoft_web_platforminstaller_tab__ctor_microsoft_web_platforminstaller_productmanager_
+      - name: Tab Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab#methods
+      - name: 'Tab Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab#properties
+        items:
+        - name: 'Description Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab.description#microsoft_web_platforminstaller_tab_description
+        - name: 'FeedList Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab.feedlist#microsoft_web_platforminstaller_tab_feedlist
+        - name: 'FromCustomFeed Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab.fromcustomfeed#microsoft_web_platforminstaller_tab_fromcustomfeed
+        - name: 'Id Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab.id#microsoft_web_platforminstaller_tab_id
+        - name: 'Name Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab.name#microsoft_web_platforminstaller_tab_name
+    - name: Terms Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms
+      items:
+      - name: Terms Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms
+      - name: Terms Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms#methods
+      - name: 'Terms Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms#properties
+        items:
+        - name: 'TermsLink Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms.termslink#microsoft_web_platforminstaller_terms_termslink
+        - name: 'TermsLinkText Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms.termslinktext#microsoft_web_platforminstaller_terms_termslinktext
+        - name: 'TermsText Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms.termstext#microsoft_web_platforminstaller_terms_termstext
+    - name: UpdateAvailableEventArgs Class
+      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs
+      items:
+      - name: UpdateAvailableEventArgs Members
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs
+      - name: UpdateAvailableEventArgs Methods
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs#methods
+      - name: 'UpdateAvailableEventArgs Properties '
+        href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs#properties
+        items:
+        - name: 'Caption Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs.caption#microsoft_web_platforminstaller_updateavailableeventargs_caption
+        - name: 'Text Property '
+          href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs.text#microsoft_web_platforminstaller_updateavailableeventargs_text

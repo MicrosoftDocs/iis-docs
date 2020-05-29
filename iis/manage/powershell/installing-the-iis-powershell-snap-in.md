@@ -1,19 +1,14 @@
 ---
-title: "Installing the IIS 7.0 PowerShell Snap-in | Microsoft Docs"
+title: "Installing the IIS 7.0 PowerShell Snap-in"
 author: thomasdeml
 description: "In the following walkthrough you will learn how to install the IIS PowerShell Snap-in and how to start the IIS PowerShell Management Console. Prerequisites T..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2008
-ms.topic: article
 ms.assetid: 46ae3bb1-3a75-4747-a646-6185b80a99e4
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/installing-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---
-Installing the IIS 7.0 PowerShell Snap-in
-====================
+# Installing the IIS 7.0 PowerShell Snap-in
+
 by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
@@ -44,9 +39,7 @@ The IIS PowerShell Snap-in setup will create a new Program Menu shortcut. By sta
 
 If you want to use the IIS PowerShell Snap-in in an existing PowerShell command window you have to register the IIS snap-in manually. You can do this by simply executing the IISConsole.PSC1 file located in the "$env:programfiles\IIS\PowerShellProvider" directory:
 
-
 [!code-powershell[Main](installing-the-iis-powershell-snap-in/samples/sample1.ps1)]
-
 
 ## A Word About Security
 
@@ -58,9 +51,7 @@ You need Administrator privileges to manage IIS configuration. This means that y
 
 You might see the following error depending on the PowerShell Execution Permissions.
 
-
 [!code-console[Main](installing-the-iis-powershell-snap-in/samples/sample2.cmd)]
-
 
 Although the IIS PowerShell Provider files are all signed, PowerShell only trusts scripts that are signed by a 'Trusted Publisher' when it's execution policy is set to "Restricted". There are two ways you can fix this problem.
 
@@ -68,23 +59,17 @@ Although the IIS PowerShell Provider files are all signed, PowerShell only trust
 
 If you see the error above your execution policy is probably set to "Restricted". To trust other code you can set the execution policy to "RemoteSigned" which allows local scripts to run without requiring a digital signature. Execute the following command in an elevated PowerShell window:
 
-
 [!code-powershell[Main](installing-the-iis-powershell-snap-in/samples/sample3.ps1)]
-
 
 Execute the following command if you want to know more about signing and execution policies.
 
-
 [!code-console[Main](installing-the-iis-powershell-snap-in/samples/sample4.cmd)]
 
-
-#### Trust Microsoft Code Signing Certficate to Trusted Publishers List
+#### Trust Microsoft Code Signing Certificate to Trusted Publishers List
 
 To trust the IIS Provider scripts and binaries you can hit "A" in the above dialog and it will add the code signing certificate used by the IIS Snap-in to the list of Trusted Publishers. You can get a list of "Trusted Publishers" with the following command:
 
-
 [!code-console[Main](installing-the-iis-powershell-snap-in/samples/sample5.cmd)]
-
 
 ## Summary
 

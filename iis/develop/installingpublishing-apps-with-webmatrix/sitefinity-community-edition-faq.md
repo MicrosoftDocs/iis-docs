@@ -1,19 +1,14 @@
 ---
-title: "Sitefinity Community Edition FAQ | Microsoft Docs"
+title: "Sitefinity Community Edition FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: c1fcf431-49b4-4ef8-b939-3984544355d4
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/sitefinity-community-edition-faq
 msc.type: authoredcontent
 ---
-Sitefinity Community Edition FAQ
-====================
+# Sitefinity Community Edition FAQ
+
 by Faith A
 
 WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.
@@ -35,10 +30,15 @@ Note: If you choose MySQL during the browser installation process, you will need
 1. Go to the **Files** workspace.
 2. Find the following entry:
 
-	`<connectionStrings><add name="Sitefinity" connectionString="..." providerName="" /></connectionStrings>`
+    ```xml
+    <connectionStrings><add name="Sitefinity" connectionString="..." providerName="" /></connectionStrings>
+    ```
+
 3. Modify the providerName to work with MySQL:
 
-	`<connectionStrings><add name="Sitefinity" connectionString="..." providerName="MySQL.Data.MySQLClient" /></connectionStrings>`
+    ```xml
+    <connectionStrings><add name="Sitefinity" connectionString="..." providerName="MySQL.Data.MySQLClient" /></connectionStrings>
+    ```
 
 #### Q: How do I publish my Sitefinity Community Edition website?
 
@@ -60,6 +60,5 @@ A: If you are publishing to a server where the web site is configured to run in 
 > **Error**: The requested page cannot be accessed because the related configuration data for the page is invalid.
 > 
 > ![](sitefinity-community-edition-faq/_static/image1.png)
-
 
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.

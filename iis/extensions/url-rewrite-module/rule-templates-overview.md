@@ -1,19 +1,14 @@
 ---
-title: "Rule Templates Overview | Microsoft Docs"
+title: "Rule Templates Overview"
 author: ruslany
 description: "Rule templates in URL Rewrite module provide a simple way of creating one or more rewrite rules for a certain scenario. Built-in rule templates URL rewriter..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/10/2008
-ms.topic: article
 ms.assetid: 1cd83eb9-9b27-4f98-aba7-83b36390be8e
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/rule-templates-overview
 msc.type: authoredcontent
 ---
-Rule Templates Overview
-====================
+# Rule Templates Overview
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 Rule templates in URL Rewrite module provide a simple way of creating one or more rewrite rules for a certain scenario.

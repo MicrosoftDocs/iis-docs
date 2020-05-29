@@ -1,19 +1,14 @@
 ---
-title: "Virtual Directory &lt;virtualDirectory&gt; | Microsoft Docs"
+title: "Virtual Directory &lt;virtualDirectory&gt;"
 author: rick-anderson
 description: "Overview The &lt;virtualDirectory&gt; element is a child of the &lt;application&gt; element and controls the configuration settings for a specific virtual di..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 24bde747-2167-4ab3-b260-9c0004d36917
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/application/virtualdirectory
 msc.type: config
 ---
-Virtual Directory &lt;virtualDirectory&gt;
-====================
+# Virtual Directory &lt;virtualDirectory&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -109,7 +104,7 @@ The following examples create a new application named ShoppingCart with a virtua
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](virtualDirectory/samples/sample3.cs)]
 

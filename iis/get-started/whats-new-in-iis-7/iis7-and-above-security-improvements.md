@@ -1,19 +1,14 @@
 ---
-title: "IIS7 Security Improvements | Microsoft Docs"
+title: "IIS7 Security Improvements"
 author: rick-anderson
 description: "This article contains the following: Reduced Surface Area Simplified Security Management Security Enhancements Reduced Surface Area IIS 6.0 introduced the lo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 6fd5adaa-0356-4fee-bfb1-c9d73a6b6c2f
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/iis7-and-above-security-improvements
 msc.type: authoredcontent
 ---
-IIS7 Security Improvements
-====================
+# IIS7 Security Improvements
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 <a id="Reduced"></a>

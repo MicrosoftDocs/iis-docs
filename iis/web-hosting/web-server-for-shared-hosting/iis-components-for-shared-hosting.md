@@ -1,19 +1,14 @@
 ---
-title: "IIS 7 Components for Shared Hosting | Microsoft Docs"
+title: "IIS 7 Components for Shared Hosting"
 author: walterov
 description: "IIS 7 and above makes it easier for system administrators to help secure and manage shared hosting environments. To deploy a Web server and host thousands of..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: 3be64664-b253-4deb-be3b-e30d678f5797
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/iis-components-for-shared-hosting
 msc.type: authoredcontent
 ---
-IIS 7 Components for Shared Hosting
-====================
+# IIS 7 Components for Shared Hosting
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -33,7 +28,7 @@ The following table lists the components that were installed on the Web server a
 | **Web Server** | Yes | This is the core Web server. |
 | **Common HTTP Features** |  | Includes commonly used features such as enabling static content (HTML, jpeg, etc.) or default documents. |
 | Static Content | Yes | The Web server can serve static content, such as .html, .css, and .jpeg files, if you enable this option. |
-| Default Document | Yes | When a visitor enters www.*site*.com but does not provide a specific document name, such as default.aspx, this feature allows the visitor to be seamlessly directed to the default document defined for the Web site. |
+| Default Document | Yes | When a visitor enters `www.site.com` but does not provide a specific document name, such as default.aspx, this feature allows the visitor to be seamlessly directed to the default document defined for the Web site. |
 | Directory Browsing | Yes | Allows users browse the contents of a directory. |
 | HTTP Errors | Yes | Allows error messages sent to a visitor's browser to be customized and for the server administrator to see the new detailed errors on the local Web server. |
 | HTTP Redirection | Yes | Allows hosted customers to redirect requests for one URL to be redirected to another. |

@@ -1,24 +1,20 @@
 ---
-title: "Planning Step 3: Plan Data Source Settings | Microsoft Docs"
+title: "Planning Step 3: Plan Data Source Settings"
 author: rmcmurray
 description: "In this phase of building your website, consider the data storage needs of your ASP.NET application."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 8dbe77e6-50d7-432c-8946-b1d060c43ac8
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-3-plan-data-source-settings
 msc.type: authoredcontent
 ---
-Planning Step 3: Plan Data Source Settings
-====================
-by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
+# Planning Step 3: Plan Data Source Settings
+
+by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the data storage needs of your ASP.NET application. The following sections describe various data-source settings available in IIS:
 
 <a id="31"></a>
+
 ## 3.1. Data source connection strings
 
 A connection string provides the information that an application or provider must have to communicate with a particular database. A connection string usually supplies the server or location of the database server, the particular database to use, and the authentication information. A connection string enables you to connect to databases from managed code applications in a centralized manner.
@@ -33,6 +29,7 @@ To add a connection string to IIS, provide the following information:
 - Provide the credentials, unless using Windows integrate security.
 
 <a id="32"></a>
+
 ## 3.2. ASP.NET providers
 
 ASP.NET 2.0 includes several services that store state in a database or other data store. A provider is a software module that implements a uniform interface between one of these services and a data source. In IIS 7, you can set the default provider for your application. You can also configure the provider properties. For example, **Users** is a provider-based feature where one provider stores the user data in SQL whereas another provider stores the user data in a text file.
@@ -48,15 +45,16 @@ To add a provider for your application, provide the following configuration info
 - Enter a name for the provider.
 - If the feature selected is .NET Users, select any of the following provider behaviors that you want:
 
-    - Enable password reset
-    - Enable password retrieval
-    - Requires question and answer
-    - Requires unique email
-    - Store password in secure format
+  - Enable password reset
+  - Enable password retrieval
+  - Requires question and answer
+  - Requires unique email
+  - Store password in secure format
 - Provide the name of the connection string to the database.
 - Enter the name of the application.
 
 <a id="33"></a>
+
 ## 3.3. .NET profiles
 
 The .NET profile feature associates information with an individual user and stores the information in a persistent format. .NET profiles let you manage user information without requiring you to create and maintain your own database.
@@ -69,6 +67,7 @@ If you decide to add profile properties or groups for your ASP.NET application, 
 - For each profile group, provide the group name.
 
 <a id="34"></a>
+
 ## 3.4. .NET roles
 
 Roles give you an easy way to manage access rules for groups of users. You create users and then assign the users to roles (in Windows, you assign users to groups). For example, you can create a set of pages that you want to restrict to certain users and store those pages in a folder by themselves. Then you can use IIS 8 to define rules that grant and deny access to restricted folders. If an unauthorized user tries to view a restricted page, the user either sees an error or is redirected to a page that you specify.
@@ -83,6 +82,7 @@ If you decide to define roles for your application, provide a name for each role
 > To configure roles for your application, you must have previously configured a .NET roles provider.
 
 <a id="35"></a>
+
 ## 3.5. .NET users
 
 Associating user identities with an application helps you manage authentication, authorization, and other security-related operations for that application.
@@ -92,7 +92,7 @@ Add a user when you want to use IIS to define a user name, e-mail address, passw
 If you decide to configure users for your application, provide the following information for each user:
 
 - User Name (must be unique).
-- E-mail (must use standard format: name@domain.com).
+- E-mail (must use standard format: name\@domain.com).
 - Password (must be a strong password).
 - Question (enter a custom question or select from the list).
 - Answer to the foregoing question.

@@ -1,26 +1,22 @@
 ---
-title: "Scenario: Build an FTP Site on IIS | Microsoft Docs"
+title: "Scenario: Build an FTP Site on IIS"
 author: rmcmurray
 description: "File Transfer Protocol (FTP) simple is a protocol for transferring files between computer systems. IIS 8 includes an FTP server that is easy to configure. Th..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: c85c0160-ae3d-4fe9-a1c6-c1e24d3858aa
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis
 msc.type: authoredcontent
 ---
-Scenario: Build an FTP Site on IIS
-====================
-by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
+# Scenario: Build an FTP Site on IIS
+
+by Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 File Transfer Protocol (FTP) simple is a protocol for transferring files between computer systems. IIS 8 includes an FTP server that is easy to configure.
 
 The document shows how to install and configure the FTP server on an existing IIS 8 web server. The first two steps are required. All other steps are optional but recommended.
 
 <a id="00"></a>
+
 ## Prerequisites
 
 To get the most from this tutorial, you must have access to a computer that is running one of the following operating systems:
@@ -29,6 +25,7 @@ To get the most from this tutorial, you must have access to a computer that is r
 - Windows® 8
 
 <a id="01"></a>
+
 ## Step 1: Install FTP on an Existing IIS Web Server
 
 This step shows you how to install the FTP service on an existing IIS web server that runs on either Windows Server 2012 or Windows 8.
@@ -54,6 +51,7 @@ This step shows you how to install the FTP service on an existing IIS web server
 5. Select the **FTP Server** check box and the **FTP Service** check box, and then click **OK**.
 
 <a id="02"></a>
+
 ## Step 2: Add an FTP Site
 
 Once the FTP service is installed on your IIS web server, you can add one or more FTP sites. Add an FTP site when you want to enable clients to transfer files to and from a site by using the File Transfer Protocol (FTP).
@@ -71,7 +69,7 @@ Once the FTP service is installed on your IIS web server, you can add one or mor
 6. Click **Next** to open the **Binding and SSL Settings** page.
 7. Under **Binding**, in the **IP Address** list, select or type an IP address if you do not want the IP address to remain **All Unassigned**.
 8. In the **Port** box, type the port number.
-9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type **www.contoso.com**.
+9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type `www.contoso.com`.
 10. Clear the **Start FTP site automatically** box if you want to start the site manually.
 11. Under **SSL**, from the **SSL Certificate** list, select a certificate. Optionally, click **View** to open the **Certificates** dialog box and verify information about the selected certificate.
 12. Select one of the following options:
@@ -96,6 +94,7 @@ Once the FTP service is installed on your IIS web server, you can add one or mor
 17. Click **Finish**.
 
 <a id="03"></a>
+
 ## Step 3: Configure FTP Site Defaults
 
 Change an FTP site default value when you want new FTP sites to use a different default value.
@@ -130,6 +129,7 @@ The following table lists the settings available for configuration in the **FTP 
 | File Handling | Keep Partial Uploads | Specifies whether to keep files that have been partially uploaded. |
 
 <a id="04"></a>
+
 ## Step 4: Configure Firewall Support
 
 Use the **FTP Firewall Support** feature to configure the following settings that enable the FTP server to accept passive data connections from a firewall:
@@ -143,12 +143,15 @@ Use the **FTP Firewall Support** feature to configure the following settings tha
 2. In the **Connections** pane, select the server node.
 3. In **Features View**, double-click **FTP Firewall Support**.
 4. In the **Data Channel Port Range** box, type a range of port numbers (separated by a hyphen). For example, type **5000-6000**. Or type **0-0** to use the default port range specified in Windows TCP/IP settings.
+
     > [!NOTE]
     > Do not use ports 0-1024 because these ports are reserved ports.
+
 5. In the **External IP Address of Firewall** box, type the IP address of your firewall.
 6. In the **Actions** pane, click **Apply**.
 
 <a id="05"></a>
+
 ## Step 5: Configure User Isolation
 
 The user isolation feature allows you to configure your FTP server to isolate users, which prevents users from accessing the directories of other users on the same FTP site. If you choose not to isolate users, they share a common directory structure.
@@ -179,6 +182,7 @@ If you want to isolate users on your site, you can choose one of the following i
 6. In the **Actions** pane, click **Apply**.
 
 <a id="06"></a>
+
 ## Step 6: Configure Directory Browsing Options
 
 The directory browsing feature gives you control over what is displayed when users browse FTP directories.
@@ -200,6 +204,7 @@ The directory browsing feature gives you control over what is displayed when use
 6. In the **Actions** pane, click **Apply**.
 
 <a id="07"></a>
+
 ## Step 7: Configure Logon Attempt Restrictions
 
 This feature enables you to configure the maximum number of failed sign-on attempts that you allow within a specified time before the IP address is denied.
@@ -216,6 +221,7 @@ This feature enables you to configure the maximum number of failed sign-on attem
 8. In the **Actions** page, click **Apply**.
 
 <a id="08"></a>
+
 ## Step 8: Configure Request Filtering
 
 Use the **FTP Request Filtering** feature page to define the request filtering settings for your FTP site. FTP request filtering is a security feature that allows internet service providers (ISPs) and application service providers to restrict protocol and content behavior.
@@ -232,6 +238,7 @@ Use the **FTP Request Filtering** feature page to define the request filtering s
 8. To add a filter based on a command, select the **Commands** tab. In the **Actions** pane, click either **Allow Command** or **Deny Command**. Then type the command in the **Command** box, and click **OK**. (**Warning**: The ability to add a command-based filter is an advanced feature. If you use this feature incorrectly, you could deny access to all FTP clients on your server.)
 
 <a id="09"></a>
+
 ## Step 9: Configure FTP Logging
 
 You can use the **FTP Logging** feature to configure logging features at the server or site level, and to configure logging settings.
@@ -254,6 +261,7 @@ You can use the **FTP Logging** feature to configure logging features at the ser
 10. In the **Actions** pane, click **Apply**.
 
 <a id="10"></a>
+
 ## Step 10: Configure FTP Messages
 
 Use the **FTP Messages** feature to modify the settings for messages sent when a user connects to your FTP site.
@@ -287,5 +295,4 @@ Use the **FTP Messages** feature to modify the settings for messages sent when a
 - [Build a Static Website on IIS](../../manage/creating-websites/scenario-build-a-static-website-on-iis.md)
 - [Build an ASP.NET Website on IIS](../../application-frameworks/scenario-build-an-aspnet-website-on-iis/overview-build-an-asp-net-website-on-iis.md)
 - [Build a PHP Website on IIS](../../application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md)
-- Build an FTP Site on IIS
 - [Build a Web Farm with IIS Servers](../../web-hosting/scenario-build-a-web-farm-with-iis-servers/overview-build-a-web-farm-with-iis-servers.md)

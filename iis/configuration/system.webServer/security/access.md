@@ -1,19 +1,14 @@
 ---
-title: "Access Security &lt;access&gt; | Microsoft Docs"
+title: "Access Security &lt;access&gt;"
 author: rick-anderson
 description: "Overview The &lt;access&gt; element allows you to configure whether a Web site or application uses client certificates for authentication and allows you to d..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f327a3e1-9f08-466b-8d7d-0d8884db7292
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/access
 msc.type: config
 ---
-Access Security &lt;access&gt;
-====================
+# Access Security &lt;access&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -106,7 +101,7 @@ The following examples make SSL required to access a Web site named Contoso.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](access/samples/sample3.cs)]
 

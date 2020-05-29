@@ -1,27 +1,22 @@
 ---
-title: "How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0 | Microsoft Docs"
+title: "How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0"
 author: rmcmurray
 description: "When ASP.NET 2.0 was released, the Microsoft Developer Network (MSDN) Web site provided two sample providers for ASP.NET Membership and Roles. These provider..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/03/2009
-ms.topic: article
 ms.assetid: 93fffee2-fccf-4f51-9c3f-50ecf2bee871
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis
 msc.type: authoredcontent
 ---
-How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0
-====================
+# How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Introduction
 
 When ASP.NET 2.0 was released, the Microsoft Developer Network (MSDN) Web site provided two sample providers for ASP.NET Membership and Roles. These providers were read-only providers that used XML files for the list of users and roles, and were available at the following URLs:
 
-- **Membership Providers**[https://msdn.microsoft.com/en-us/library/aa479031.aspx](https://msdn.microsoft.com/en-us/library/aa479031.aspx)
-- **Role Providers**[https://msdn.microsoft.com/en-us/library/aa479032.aspx](https://msdn.microsoft.com/en-us/library/aa479032.aspx)
+- **Membership Providers**[https://msdn.microsoft.com/library/aa479031.aspx](https://msdn.microsoft.com/library/aa479031.aspx)
+- **Role Providers**[https://msdn.microsoft.com/library/aa479032.aspx](https://msdn.microsoft.com/library/aa479032.aspx)
 
 These samples are excellent for use with IIS 7.0 and above for demonstration or test Web sites, but they don't work as-written with IIS because of the way that security is designed in IIS. The original instructions allowed you to deploy the sample membership/role providers into the App\_Code folder of your Web site, but IIS requires that providers are registered in the Global Assembly Cache (GAC) before they can be deployed. With that in mind, the following steps will walk you through compiling and deploying the read-only XML providers on a development system.
 
@@ -122,7 +117,7 @@ In this first step you will create a solution in Visual Studio that contains two
 
 ## Step 2: Add the provider classes for the projects
 
-In this second step you will create the classes for the XML-based membership and role providers. The code for these classes is copied from the [Membership Providers](https://msdn.microsoft.com/en-us/library/aa479031.aspx) and [Role Providers](https://msdn.microsoft.com/en-us/library/aa479032.aspx) topics on MSDN.
+In this second step you will create the classes for the XML-based membership and role providers. The code for these classes is copied from the [Membership Providers](https://msdn.microsoft.com/library/aa479031.aspx) and [Role Providers](https://msdn.microsoft.com/library/aa479032.aspx) topics on MSDN.
 
 1. Add a new class to the **ReadOnlyXmlMembershipProvider** project: 
 
@@ -130,7 +125,7 @@ In this second step you will create the classes for the XML-based membership and
     - Name the class **ReadOnlyXmlMembershipProvider.cs**.
     - Click **Add**.
     - Remove the existing code.
-    - Paste the following sample code from the [Membership Providers](https://msdn.microsoft.com/en-us/library/aa479031.aspx) topic into the editor: 
+    - Paste the following sample code from the [Membership Providers](https://msdn.microsoft.com/library/aa479031.aspx) topic into the editor: 
 
         [!code-csharp[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample3.cs)]
 2. Add a new class to the **ReadOnlyXmlRoleProvider** project: 
@@ -139,15 +134,15 @@ In this second step you will create the classes for the XML-based membership and
     - Name the class **ReadOnlyXmlRoleProvider.cs**.
     - Click **Add**.
     - Remove the existing code.
-    - Paste the following sample code from the [Role Providers](https://msdn.microsoft.com/en-us/library/aa479032.aspx) topic into the editor: 
+    - Paste the following sample code from the [Role Providers](https://msdn.microsoft.com/library/aa479032.aspx) topic into the editor: 
 
         [!code-csharp[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample4.cs)]
 3. Save and compile both projects.
 
 > [!NOTE]
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following topic on Microsoft the MSDN Web site:
-> - [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c(VS.80).aspx)
-
+>
+> - [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/library/ex0ss12c(VS.80).aspx)
 
 ## Step 3: Add the providers to IIS
 
@@ -165,13 +160,13 @@ In this third step you will determine the assembly information for the membershi
 2. Add the XML providers to the list of trusted providers for IIS: 
 
     - Open the Administration.config file for editing. 
-	
-	    > [!NOTE]
+
+        > [!NOTE]
         > This file is located in your `%WinDir%\System32\Inetsrv\Config` folder.
     - Add the providers with the assembly properties from the previous steps to the `<trustedProviders>` section using the following syntax: 
 
         [!code-xml[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample5.xml)]
-    - Save and close the the Administration.config file.
+    - Save and close the Administration.config file.
 
 ## Step 4: Configure a site for Forms Authentication using the XML providers
 

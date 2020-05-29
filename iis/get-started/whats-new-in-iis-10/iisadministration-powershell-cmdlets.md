@@ -1,23 +1,17 @@
 ---
-title: "IISAdministration PowerShell Cmdlets | Microsoft Docs"
+title: "IISAdministration PowerShell Cmdlets"
 author: rick-anderson
 description: ""
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/16/2016
-ms.topic: article
 ms.assetid: adb61044-9074-4961-9186-cf5e340cee5b
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets
 msc.type: authoredcontent
 ---
-IISAdministration PowerShell Cmdlets
-====================
+# IISAdministration PowerShell Cmdlets
+
 by Baris Caglar
 
 ### Compatibility
-
 
 | Version | Notes |
 | --- | --- |
@@ -64,4 +58,4 @@ As you can see, once you have access to the server manager, the sky is the limit
 
 By enclosing your operations between these commands, you can make sure that your changes are committed at the same time.
 
-These are only a handful of examples of what you can do with the new provider. Visit [Online document](https://docs.microsoft.com/en-us/powershell/module/iisadministration/?view=win10-ps "IISAdministration") for the complete documentation and more examples.
+These are only a handful of examples of what you can do with the new provider. Visit [Online document](https://docs.microsoft.com/powershell/module/iisadministration/?view=win10-ps "IISAdministration") for the complete documentation and more examples.

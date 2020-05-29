@@ -1,19 +1,14 @@
 ---
-title: "Adding Query String Sequences To Deny &lt;add&gt; | Microsoft Docs"
+title: "Adding Query String Sequences To Deny &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;denyQueryStringSequences&gt; element specifies a unique sequence of query string characters that IIS will deny, w..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 32708c77-e3f1-4495-935e-b7f022094f7e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyquerystringsequences/add
 msc.type: config
 ---
-Adding Query String Sequences To Deny &lt;add&gt;
-====================
+# Adding Query String Sequences To Deny &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -142,7 +137,11 @@ The following examples demonstrate how to add a query string sequence that will 
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

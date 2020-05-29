@@ -1,19 +1,14 @@
 ---
-title: "Install Drupal on IIS | Microsoft Docs"
+title: "Install Drupal on IIS"
 author: ruslany
 description: "Introduction Drupal is a free, open-source content management system (CMS) software that lets individuals or communities of users easily publish, manage, and..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/19/2008
-ms.topic: article
 ms.assetid: abceda1a-91b8-4d9d-820d-0dfc0128771a
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-drupal-on-iis
 msc.type: authoredcontent
 ---
-Install Drupal on IIS
-====================
+# Install Drupal on IIS
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
@@ -72,21 +67,21 @@ Before starting the installation procedure for Drupal, you must create a databas
 1. Open a Web browser, and go to `http://localhost/drupal/`. The first page of the installation script appears. Click **Install Drupal in English**. The Verify requirements step should proceed automatically unless you are missing requirements.  
 
     [![Choose language page](install-drupal-on-iis/_static/image2.jpg)](install-drupal-on-iis/_static/image1.jpg)  
-	*Figure 1: Choose language page*
+    *Figure 1: Choose language page*
 2. On the **Database configuration page**, type the following information:  
 
-    - Database name: **drupal**
-    - User name: **drupal**
-    - Password: **drupal**
+   - Database name: **drupal**
+   - User name: **drupal**
+   - Password: **drupal**
 
-    Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
+     Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
 
-    [![Database configuration page](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image3.jpg)  
-	*Figure 2: Database configuration page*
+     [![Database configuration page](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image3.jpg)  
+     *Figure 2: Database configuration page*
 3. On the **Configure site** page, enter the required configuration information.  
 
     [![](install-drupal-on-iis/_static/image6.jpg)](install-drupal-on-iis/_static/image5.jpg)  
-	*Figure 3: Configure site page*
+    *Figure 3: Configure site page*
 
 ## Enable Clean URLs
 

@@ -1,19 +1,14 @@
 ---
-title: "UrlScan 2 Reference | Microsoft Docs"
+title: "UrlScan 2 Reference"
 author: rmcmurray
 description: "Note : UrlScan 2.x has been replaced by UrlScan 3.1. If you are using UrlScan 2.x, you should download and install the latest version. The information on th..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/15/2010
-ms.topic: article
 ms.assetid: c3019760-a9f1-45a4-88d4-4a9d4459d033
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-2-reference
 msc.type: authoredcontent
 ---
-UrlScan 2 Reference
-====================
+# UrlScan 2 Reference
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 > [!NOTE]
@@ -54,7 +49,6 @@ UrlScan 2.0 and UrlScan 2.1 are installed as part of the IIS Lockdown Tool.
 For more information about installing the IIS Lockdown Tool, see the IIS Lockdown Tool download pages at the following URL:
 
 > [https://www.microsoft.com/downloads/details.aspx?FamilyID=dde9efc0-bb30-47eb-9a61-fd755d23cdec](https://www.microsoft.com/downloads/details.aspx?FamilyID=dde9efc0-bb30-47eb-9a61-fd755d23cdec)
-
 
 <a id="Installing_UrlScan_2.5"></a>
 
@@ -139,7 +133,7 @@ The [Options] section of a UrlScan.ini file contains a list of name/value pairs 
 | AllowDotInPath | Allowed values are 0 or 1. The default value for AllowDotInPath is 1. If set to 1, UrlScan will allow requests that contain multiple instances of the dot (.) character in the URL. If set to 0, UrlScan will reject requests that contain multiple instances of the dot (.) character in the URL. **Note:** Because UrlScan operates at a level where IIS has not yet parsed the URL, it is not possible to determine in all cases whether a dot character denotes the extension or whether it is a part of the directory path or filename of the URL. For the purposes of extension analysis, UrlScan will always assume that an extension is the part of the URL beginning after the last dot in the string and ending at the first question mark or slash character after the dot or the end of the string. Setting AllowDotInPath to 0 defends against the case where an attacker uses path info to hide the true extension of the request (for example, something like "/path/TruePart.asp/FalsePart.htm"). Setting AllowDotInPath to 0 also causes UrlScan to deny any request that contains a dot in a directory or file name. |
 | AllowLateScanning | Allowed values are 0 or 1. The default value for AllowLateScanning is 0. If set to 1, UrlScan will register itself as a low priority filter. This will allow other ISAPI filters to modify the URL before UrlScan performs any analysis. If set to 0, UrlScan runs as a high priority filter. **Note:** In addition to the value of AllowLateScanning, it may be necessary to ensure that UrlScan is listed lower on the list of ISAPI filters for the server. For example, the FrontPage Server Extensions require that AllowLateScanning is set to 1 and that UrlScan is lower on the filter load order list than the Fpexedll.dll ISAPI filter. **Note:** This feature was introduced in UrlScan 2.0. |
 | UseFastPathReject | Allowed values are 0 or 1. The default value for UseFastPathReject is 0. If set to 1, UrlScan will return a short 404 response to the client in cases where it rejects a request. **Note:** Using UseFastPathReject is faster than using the RejectResponseUrl option, but IIS cannot return a custom 404 response or log many parts of the request into the IIS log, even though the UrlScan log file will contain complete information about the rejected request. **Note:** This feature was introduced in UrlScan 2.0. |
-| RejectResponseUrl | Allowed value is a string. The default value for RejectResponseUrl is /&lt;Rejected-By-UrlScan&gt;. The value for RejectResponseUrl is a URL in the form "/path/filename.ext". When UrlScan rejects a request, it will process the specified URL, which needs to be local to the Web site for the request that is being analyzed by UrlScan. The specified URL can have the same extension as the rejected URL; for example, ".asp". **Note:** UrlScan creates the following server variables that can be used by the specified URL in determining the nature of the rejected request and to allow flexibility in returning the actual response to the client: - HTTP\_UrlScan\_STATUS\_HEADER - Contains the reason the request is being rejected. - HTTP\_UrlScan\_ORIGINAL\_VERB - Contains the original verb from the request that is being rejected. - HTTP\_UrlScan\_ORIGINAL\_URL - Contains the original URL from the request that is being rejected. UrlScan appends the URL of the request that is being rejected as a query string to the location specified by RejectReponseUrl. If IIS is configured to log request query strings, the URL of the rejected request can be found in the IIS log in addition to the UrlScan log. There is a special value for RejectResponseUrl that can be used to put UrlScan into "Logging Only Mode." If you set the value of RejectResponseUrl to /~\*, UrlScan performs all of the configured scanning and logs the results, however, it will allow IIS to serve the page even if it would normally be rejected. This mode is useful if you would like to test UrlScan.ini settings without actually rejecting any requests, and the log entries in the UrlScan log file will indicate that requests are not being rejected. **Note:** This feature was introduced in UrlScan 2.0. |
+| RejectResponseUrl | Allowed value is a string. The default value for RejectResponseUrl is /&lt;Rejected-By-UrlScan&gt;. The value for RejectResponseUrl is a URL in the form "/path/filename.ext". When UrlScan rejects a request, it will process the specified URL, which needs to be local to the Web site for the request that is being analyzed by UrlScan. The specified URL can have the same extension as the rejected URL; for example, ".asp". **Note:** UrlScan creates the following server variables that can be used by the specified URL in determining the nature of the rejected request and to allow flexibility in returning the actual response to the client: - HTTP\_UrlScan\_STATUS\_HEADER - Contains the reason the request is being rejected. - HTTP\_UrlScan\_ORIGINAL\_VERB - Contains the original verb from the request that is being rejected. - HTTP\_UrlScan\_ORIGINAL\_URL - Contains the original URL from the request that is being rejected. UrlScan appends the URL of the request that is being rejected as a query string to the location specified by RejectResponseUrl. If IIS is configured to log request query strings, the URL of the rejected request can be found in the IIS log in addition to the UrlScan log. There is a special value for RejectResponseUrl that can be used to put UrlScan into "Logging Only Mode." If you set the value of RejectResponseUrl to /~\*, UrlScan performs all of the configured scanning and logs the results, however, it will allow IIS to serve the page even if it would normally be rejected. This mode is useful if you would like to test UrlScan.ini settings without actually rejecting any requests, and the log entries in the UrlScan log file will indicate that requests are not being rejected. **Note:** This feature was introduced in UrlScan 2.0. |
 
 #### Logging Options
 
@@ -180,7 +174,7 @@ To use this example, you would need to set UseAllowVerbs to 1 in the [Options] s
 
 ### [DenyVerbs] Section
 
-The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVerbs is set to 0 in the [Options] section, UrlScan will reject any request that contains a a verb that is listed in this section. The entries in this section are not case sensitive.
+The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVerbs is set to 0 in the [Options] section, UrlScan will reject any request that contains a verb that is listed in this section. The entries in this section are not case sensitive.
 
 ##### Example [DenyVerbs] Section
 
@@ -254,7 +248,6 @@ The [RequestLimits] section impose limits on the length of user-defined parts of
 You can specify the maximum length of the value for a specific request header by adding "Max-" to the name of the header. For example, the following entry would impose a limit of 100 bytes to the value of the 'Content-Type' header:
 
 > Max-Content-Type=100
-
 
 To list a header and not specify a maximum value, use 0. For example, "Max-User-Agent=0". Note: Any HTTP request headers that are not listed in this section will not be checked for length limits.
 

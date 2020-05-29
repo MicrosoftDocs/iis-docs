@@ -1,19 +1,14 @@
 ---
-title: "Understanding Sites, Applications, and Virtual Directories on IIS 7 | Microsoft Docs"
+title: "Understanding Sites, Applications, and Virtual Directories on IIS 7"
 author: arkaytee
 description: "In IIS, you can create sites, applications, and virtual directories to share information with users over the Internet, an intranet, or an extranet. Although..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 02003c66-968f-4d86-aae7-b827b84bd03f
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/understanding-sites-applications-and-virtual-directories-on-iis
 msc.type: authoredcontent
 ---
-Understanding Sites, Applications, and Virtual Directories on IIS 7
-====================
+# Understanding Sites, Applications, and Virtual Directories on IIS 7
+
 by [Reagan Templin](https://github.com/arkaytee)
 
 ## Introduction
@@ -87,7 +82,6 @@ By default, IIS uses configuration from Web.config files in the physical directo
 
 Optionally, when you need to specify credentials and a method to access the virtual directory, you can specify values for the **username**, **password**, and **logonMethod** attributes.
 
-
 <a id="Configuration"></a>
 
 ## IIS Configuration: `<sites>` Section
@@ -110,22 +104,18 @@ When an attribute is configured at more than one level, the value at the lowest 
 
 The following table specifies under which parent elements an `<applicationDefaults>` element can be configured, and describes the effect that the values have on applications.
 
-
 | Parent element | Description |
 | --- | --- |
 | `<sites>` section | Specifies the default settings for all applications on the server. |
 | `<site>` collection | Specifies the default settings for all applications in the parent site. |
 
-
 The following table specifies under which parent elements a `<virtualDirectoryDefaults>` element can be configured, and describes the effect that the values have on virtual directories.
-
 
 | Parent element | Description |
 | --- | --- |
 | `<sites>` section | Specifies the default settings for all virtual directories on the server. |
 | `<site>` collection | Specifies the default settings for all virtual directories in the parent site. |
 | `<application>` collection | Specifies the default settings for all virtual directories in the parent application. |
-
 
 <a id="Summary"></a>
 

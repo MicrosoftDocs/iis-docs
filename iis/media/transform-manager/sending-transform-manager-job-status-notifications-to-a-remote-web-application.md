@@ -1,19 +1,14 @@
 ---
-title: "Sending Transform Manager Job Status Notifications to a Remote Web Application | Microsoft Docs"
+title: "Sending Transform Manager Job Status Notifications to a Remote Web Application"
 author: doiron
 description: "You can configure a new notifications feature in IIS Transform Manager 1.0 to POST web requests with job status changes to a remote web application or servic..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/13/2011
-ms.topic: article
 ms.assetid: 96de6fb0-96df-4f9f-bcdf-1c8ac58841c5
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/sending-transform-manager-job-status-notifications-to-a-remote-web-application
 msc.type: authoredcontent
 ---
-Sending Transform Manager Job Status Notifications to a Remote Web Application
-====================
+# Sending Transform Manager Job Status Notifications to a Remote Web Application
+
 by [Mario Doiron](https://github.com/doiron)
 
 You can configure a new notifications feature in [IIS Transform Manager 1.0](https://go.microsoft.com/?linkid=9772659) to POST web requests with job status changes to a remote web application or service. This enables web developers to build a custom Transform Manager job-monitoring system. The following are some of the benefits to be gained from building such an application:
@@ -25,7 +20,6 @@ You can configure a new notifications feature in [IIS Transform Manager 1.0](htt
 - The web application that receives the job status information can be customized to suit your needs.
 
 This article describes a sample ASP.NET MVC 3 web application on the Windows Azure platform that receives Transform Manager job status.
-
 
 <a id="license"></a>
 
@@ -39,9 +33,7 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 
 IIS Transform Manager sends job status information in the HTTP POST request body in a notification. The following is an example of the XML syntax in the POST message body:
 
-
 [!code-xml[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample1.xml)]
-
 
 Let's take a closer look at each of the XML elements:
 
@@ -114,7 +106,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 2. After you click **OK** in the **New Project** dialog box, the **New Windows Azure Project** dialog box is displayed.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image2.png)  
   
- Click **OK** in this dialog box as the ASP.NET MVC 3 Web Role is not available to add to the Windows Azure solution.
+   Click **OK** in this dialog box as the ASP.NET MVC 3 Web Role is not available to add to the Windows Azure solution.
 
 <a id="step2"></a>
 
@@ -127,7 +119,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 3. After you click **OK** in the **Add New Project** dialog box, the **New ASP.NET MVC 3 Project** dialog box is displayed.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image5.png)  
   
- In this dialog box, select the **Empty** project template, and then click **OK**.
+   In this dialog box, select the **Empty** project template, and then click **OK**.
 
 <a id="step3"></a>
 
@@ -149,10 +141,10 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Deployment
     - System.Web.WebPages.Razor
   
- To select multiple components at once, press the CTRL key on your keyboard and then click each of the component names.  
+   To select multiple components at once, press the CTRL key on your keyboard and then click each of the component names.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image7.png)  
   
- After you've selected all of the components, click **OK**.
+   After you've selected all of the components, click **OK**.
 
 <a id="step4"></a>
 
@@ -170,7 +162,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Deployment
     - System.Web.WebPages.Razor
   
- To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties** .  
+   To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image8.png)
 2. In **Properties**, set the **Copy Local** property value to **True**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image9.png)
@@ -243,28 +235,20 @@ These model classes are used to insert and retrieve the POSTed XML data.
 
 This class is the object model representation of the XML data in the POST message body. It inherits from the *TableServiceEntity* so that we can use it to talk to Azure Table Storage.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample6.cs)]
-
 
 We will need to include the following empty constructor that feeds unique default values to the base constructor.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample7.cs)]
-
 
 We will also need the following list of public properties that make up the entire POSTed XML data.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample8.cs)]
-
 
 Finally, a few static classes are needed to parse the XML into an instance object.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample9.cs)]
    
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample10.cs)]
 
 <a id="notificationdataservicecontext"></a>
@@ -273,12 +257,9 @@ Finally, a few static classes are needed to parse the XML into an instance objec
 
 This class defines the table name and provides a handle to query the data. It inherits *TableServiceContext*, which is where most of the logic takes place.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample11.cs)]
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample12.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample13.cs)]
 
@@ -288,9 +269,7 @@ This class defines the table name and provides a handle to query the data. It in
 
 This class provides an abstraction from the *NotificationDataServiceContext* class above. We are only going to implement a *Select* method to fetch all of the data, and add a means to add new notifications to the database. A full implementation of this model could include much more functionality, such as *Delete* and *Update*.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample14.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample15.cs)]
 
@@ -300,21 +279,15 @@ This class provides an abstraction from the *NotificationDataServiceContext* cla
 
 This class is used to ensure that the data is displayed in the right order. We want the latest POST to be at the top of the list. We will also use this to apply a Distinct() filter to avoid multiple rows per job instance.
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample16.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample17.cs)]
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample18.cs)]
-
 
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample19.cs)]
 
-
 [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample20.cs)]
-
 
 We now have a model that can be leveraged to parse new notifications, insert them into a database, and select distinct jobNames in a sorted order. We can now start configuring a Controller.
 
@@ -351,22 +324,22 @@ We now have a model that can be leveraged to parse new notifications, insert the
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image20.png)
 4. Configure the following settings in the dialog box, and then click **Add**: 
 
-    - **View name**. Enter the name of the existing public function of our controller class: **Index**.
-    - **Create a strongly-typed view**. Select this check box.
-    - **Model class**. Select **NotificationModel** in the list.
-    - **Scaffold template**. Select **List** in the list.
+   - **View name**. Enter the name of the existing public function of our controller class: **Index**.
+   - **Create a strongly-typed view**. Select this check box.
+   - **Model class**. Select **NotificationModel** in the list.
+   - **Scaffold template**. Select **List** in the list.
 
-    > [!NOTE]
-    > Optionally, we can edit the .\Views\JobMon\Index.cshtml file to update the displayed table columns. First, we can remove most of the columns in the table header:
+     > [!NOTE]
+     > Optionally, we can edit the .\Views\JobMon\Index.cshtml file to update the displayed table columns. First, we can remove most of the columns in the table header:
 
-    [!code-html[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample25.html)]
+     [!code-html[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample25.html)]
 
-    Then, we must update the content rows to map to the columns in the updated table header.
+     Then, we must update the content rows to map to the columns in the updated table header.
 
-    [!code-cshtml[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample26.cshtml)]
+     [!code-cshtml[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample26.cshtml)]
 5. (Optional) Add some style.  
   
- The ASP.NET MVC 3 Web Application Project contains a file that hosts the Cascading Style Sheets (CSS) for the Views. We can make the report table borders a bit more distinct. If you know a great web designer, now is a good time to ask for the latest HTML 5 table mockups and CSS classes. For now, we can edit the project file \Content\Site.css and paste some extra style for adding table borders.  
+   The ASP.NET MVC 3 Web Application Project contains a file that hosts the Cascading Style Sheets (CSS) for the Views. We can make the report table borders a bit more distinct. If you know a great web designer, now is a good time to ask for the latest HTML 5 table mockups and CSS classes. For now, we can edit the project file \Content\Site.css and paste some extra style for adding table borders.  
 
     [!code-console[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample27.cmd)]
 
@@ -421,7 +394,7 @@ You can install Transform Manager either on the local computer or on a remote co
 4. Click the **Notifications** tab and configure the URI and event options.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image26.png)  
   
- For testing purpose, we will enter the URI of the active running project and select all of the event check boxes. For more information about how to configure these settings, see [Configuring Job Status Notifications](https://go.microsoft.com/?linkid=9772675) .
+   For testing purpose, we will enter the URI of the active running project and select all of the event check boxes. For more information about how to configure these settings, see [Configuring Job Status Notifications](https://go.microsoft.com/?linkid=9772675) .
 5. Click **OK** to close the **New Watch Folder** property sheet.
 6. Select the new watch folder in the **Watch Folders** page, and then in the **Actions** pane, **Enable** and then **Start** the watch folder.
 7. Make sure that the Azure Web Application is running and listening to incoming requests.

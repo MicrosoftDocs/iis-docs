@@ -1,19 +1,14 @@
 ---
-title: "Manually Override Cache-control Directives Using Application Request Routing | Microsoft Docs"
+title: "Manually Override Cache-control Directives Using Application Request Routing"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully write rules to manage the c..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: 45219e7c-8c50-480a-8754-86383080157b
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/manually-override-cache-control-directives-using-application-request-routing
 msc.type: authoredcontent
 ---
-Manually Override Cache-control Directives Using Application Request Routing
-====================
+# Manually Override Cache-control Directives Using Application Request Routing
+
 by Won Yoo
 
 This section of the document applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above.**
@@ -57,15 +52,15 @@ This walkthrough assumes that ARR is already configured with disk cache. Review 
 6. A dialog box launches that will help you to write the cache control rules. Similar to the routing rules in ARR at the server farm level, ARR relies on URL rewrite to write the cache control rules. This UI in ARR makes it more relevant for the disk caching features without forcing the user to use the URL rewrite UI for writing the cache control rules. 
 
     For this walkthrough, you will write a rule to always cache .jpg images for 30 minutes, irrespective of what the cache control directives may have stated in the response header. To do so, enter the following values:  
-  
-**Apply rule:** Always  
-**Cache:** Selected  
-**Cache duration (minutes):** 30  
-**Host name:** blank  
-**URL:** \*.jpg   
-  
-> [!NOTE]
-> Both the Host name and the URL are optional fields.
+
+    **Apply rule:** Always  
+    **Cache:** Selected  
+    **Cache duration (minutes):** 30  
+    **Host name:** blank  
+    **URL:** \*.jpg   
+
+    > [!NOTE]
+    > Both the Host name and the URL are optional fields.
 
     ![](manually-override-cache-control-directives-using-application-request-routing/_static/image3.jpg)
 

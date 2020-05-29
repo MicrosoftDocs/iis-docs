@@ -1,19 +1,14 @@
 ---
-title: "Request Blocking - rule template | Microsoft Docs"
+title: "Request Blocking - rule template"
 author: ruslany
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/11/2008
-ms.topic: article
 ms.assetid: d209e10d-400a-4c2c-b4d6-0826554a8c62
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/request-blocking-rule-template
 msc.type: authoredcontent
 ---
-Request Blocking - rule template
-====================
+# Request Blocking - rule template
+
 by [Ruslan Yakushev](https://github.com/ruslany)
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templates for some common usage scenarios. In addition to that URL rewrite module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use "Request Blocking" rule template that is included with URL rewrite module.
@@ -34,13 +29,13 @@ To use the template follow these steps:
     [![](request-blocking-rule-template/_static/image9.png)](request-blocking-rule-template/_static/image8.png)
 6. In the "Add request blocking rule" dialog choose to: 
 
-    - Block access based on host header;
-    - Block requests that do not match the pattern;
-    - Specify **localhost** as a pattern, meaning that any request with host header not equal to localhost will be blocked;
-    - Use wildcards pattern syntax;
-    - Block request by aborting the request connection.
+   - Block access based on host header;
+   - Block requests that do not match the pattern;
+   - Specify **localhost** as a pattern, meaning that any request with host header not equal to localhost will be blocked;
+   - Use wildcards pattern syntax;
+   - Block request by aborting the request connection.
 
-    [![](request-blocking-rule-template/_static/image12.png)](request-blocking-rule-template/_static/image11.png)
+     [![](request-blocking-rule-template/_static/image12.png)](request-blocking-rule-template/_static/image11.png)
 7. Click "OK" to create the rule.
 
 ### Testing the rule

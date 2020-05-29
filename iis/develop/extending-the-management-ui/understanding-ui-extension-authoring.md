@@ -1,19 +1,14 @@
 ---
-title: "Understanding UI Extension Authoring | Microsoft Docs"
+title: "Understanding UI Extension Authoring"
 author: rick-anderson
 description: "Introduction The administration tool for IIS 7.0 and above is an extensible platform for plugging in modules. Developers can write their own UI features and..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/21/2008
-ms.topic: article
 ms.assetid: 65a11a66-0246-4aa9-b532-a7832ab46401
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/understanding-ui-extension-authoring
 msc.type: authoredcontent
 ---
-Understanding UI Extension Authoring
-====================
+# Understanding UI Extension Authoring
+
 by Gurpreet Singh
 
 ## Introduction
@@ -59,7 +54,6 @@ Using the Add Reference… from the Project menu, add reference to **Microsoft.W
 One of the requirements for libraries to be used inside the InetMgr is that they need to be registered inside GAC. For that, we need to make sure our DLL is strongly named. Visual studio offers an easy way to create new names. To sign an assembly, go to **Project Properties** and to **Signing** Tab, Click **Sign the assembly**. In the dialog box, name the key as **ExtensibilityDemoKey** and uncheck **Protect my key file with a password.**
 
 [![](understanding-ui-extension-authoring/_static/image2.gif)](understanding-ui-extension-authoring/_static/image1.gif)
-
 
 [![](understanding-ui-extension-authoring/_static/image5.png)](understanding-ui-extension-authoring/_static/image4.png)
 

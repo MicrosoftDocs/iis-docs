@@ -1,19 +1,14 @@
 ---
-title: "Getting Started with AppCmd.exe | Microsoft Docs"
+title: "Getting Started with AppCmd.exe"
 author: leanserver
 description: "AppCmd.exe is the single command line tool for managing IIS 7 and above. It exposes all key server management functionality through a set of intuitive manage..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: a604d569-d21e-46f8-a66a-4aa08ca97c13
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/getting-started-with-appcmdexe
 msc.type: authoredcontent
 ---
-Getting Started with AppCmd.exe
-====================
+# Getting Started with AppCmd.exe
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Overview
@@ -31,9 +26,7 @@ Some of the things you can do with AppCmd:
 
 AppCmd also allows server administrators to build advanced management tasks simply by combining multiple simpler AppCmd.exe commands, or reusing the output of the tool inside another program.
 
-You can also find more AppCmd topics and learn powerful ways to manage your server from command line on my blog, at [http://mvolo.com/category/appcmd/](http://mvolo.com/category/appcmd/).
-
-<a id="HowToUse"></a>
+You can also find more AppCmd topics and learn powerful ways to manage your server from command line on my blog, at <https://mvolo.com/category/appcmd/>.
 
 ## How to Use AppCmd.exe
 
@@ -57,8 +50,7 @@ Where `<COMMAND>` is one of the commands supported by `<OBJECT>`. Most objects s
 
 An object will often support additional commands, such as START and STOP for the Site object.
 
-For example, the current set of objects available through AppCmd is (where `<OBJECT>` is one of the management objects supported by the tool)**:** 
-
+For example, the current set of objects available through AppCmd is (where `<OBJECT>` is one of the management objects supported by the tool):
 
 | Object | Description |
 | --- | --- |
@@ -73,14 +65,11 @@ For example, the current set of objects available through AppCmd is (where `<OBJ
 | Module | Administration of server modules |
 | Trace | Management of server trace logs |
 
-
 Where `<ID>` is the object-specific identifier for the object instance you want to specify for the command. The format of the identifier is specific to each object type. For example, the Site object uses the site name, the App object uses the application path, and the AppPool object used the application pool name.
 
-Where **[ /parameter:value ]\*** is zero or more parameters for the command. Each command supports a different set of parameters, depending on the object. Typically, commands that search for objects or manipulate object properties will allow any of the object's properties to be specified as a parameter.
+Where `[ /parameter:value ]*` is zero or more parameters for the command. Each command supports a different set of parameters, depending on the object. Typically, commands that search for objects or manipulate object properties will allow any of the object's properties to be specified as a parameter.
 
 The tool itself also supports a number of parameters that affect the general command execution, and are not specific to any of the objects. These are listed in the top-level help page available from "AppCmd.exe /?", and include parameters such as **/text**, **/config**, and **/xml** for controlling tool output, and **/commit** for controlling the location of configuration changes.
-
-<a id="Help"></a>
 
 ## Getting Help
 
@@ -115,8 +104,6 @@ The command help screen describes the syntax for a specific command and object, 
 For example, this command-line will display help for the LIST command of the App object:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample7.cmd)]
-
-<a id="List"></a>
 
 ## Finding Objects with the LIST Command
 
@@ -158,8 +145,6 @@ You can specify any number of property-value pairs, and the tool will make sure 
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample14.cmd)]
 
-<a id="Manipulating"></a>
-
 ## Manipulating Objects with ADD, SET, and DELETE
 
 In addition to LIST, most objects also support ADD, SET, and DELETE commands.
@@ -193,8 +178,6 @@ Use a form of the command help syntax to see what properties can be set on a par
 The DELETE command deletes an instance of an object. Like SET, this command also requires the object-specific identifier to be specified. For example, use this command-line to delete the site named "MyNewSite":
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample19.cmd)]
-
-<a id="Managing"></a>
 
 ## Managing Backups
 
@@ -234,19 +217,23 @@ In Windows Server® 2008 and Windows Vista SP1, AppCmd will also be capable of w
 
 To learn more about managing configuration backups with AppCmd, see [http://mvolo.com/most-important-appcmd-commands-backing-up-and-restoring-iis7-configuration/](http://mvolo.com/most-important-appcmd-commands-backing-up-and-restoring-iis7-configuration/).
 
-<a id="Working"></a>
-
 ## Working with Sites, Applications, Virtual Directories, and Application Pools
 
 Creating and managing sites, applications, and virtual directories are the most common tasks administrators face. IIS 7 and above uses a stricter containment hierarchy than previous versions that works like this:
 
-1. **Web Site** A Web site receives requests on particular binding endpoints defined by IP addresses and host headers. For example, this url represents a Web site bound to port 81: http://www.mysite.com:81  
- A Web site contains one or more applications.
-2. **Application** An application is represented by its virtual path within a Web site's url namespace. For example, an application with a virtual path of "/app1" may be represented by this url: http://www.mysite.com:81/app1  
- An application belongs to one application pool.  
- An application contains one or more virtual directories.
-3. **Virtual Directory** A virtual directory is represented by its virtual path within an application's url namespace. For example, a virtual directory with a virtual path of "/vdir1" may be represented by this url: http://www.mysite.com:81/app1/vdir1  
- A virtual directory maps to a physical location on disk.
+1. **Web Site** A Web site receives requests on particular binding endpoints defined by IP addresses and host headers. For example, this url represents a Web site bound to port 81: `http://www.mysite.com:81`.
+
+    A Web site contains one or more applications.
+
+2. **Application** An application is represented by its virtual path within a Web site's url namespace. For example, an application with a virtual path of "/app1" may be represented by this url: `http://www.mysite.com:81/app1`.
+
+    An application belongs to one application pool.
+
+    An application contains one or more virtual directories.
+
+3. **Virtual Directory** A virtual directory is represented by its virtual path within an application's url namespace. For example, a virtual directory with a virtual path of "/vdir1" may be represented by this url: `http://www.mysite.com:81/app1/vdir1`.  
+
+    A virtual directory maps to a physical location on disk.
 
 This hierarchy is in contrast to IIS 6.0 where a Web site can contain a mix of virtual directories and applications, and applications are just specially marked virtual directories.
 
@@ -318,7 +305,7 @@ Finally, let's create a new application pool:
 
 This created a new application pool named "MyAppPool".
 
-To learn more about sites, applications, and virtual directories in IIS 7 and above, and the options you have in creating them with AppCmd, see [Creating IIS7 and Above Sites, Applications and Virtual directories](http://mvolo.com/creating-iis7-sites-applications-and-virtual-directories/).
+To learn more about sites, applications, and virtual directories in IIS 7 and above, and the options you have in creating them with AppCmd, see [Creating IIS7 and Above Sites, Applications and Virtual directories](https://mvolo.com/creating-iis7-sites-applications-and-virtual-directories/).
 
 ### Configuring Sites, Applications, Virtual Directories, and Application Pools
 
@@ -361,8 +348,6 @@ You can see from the List output above that there are numerous properties availa
 If you want to set a nested property, address it with element path notation like this:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample55.cmd)]
-
-<a id="Other"></a>
 
 ## Other Configuration Elements
 
@@ -419,8 +404,6 @@ The list can be restricted to the requests of a particular site, application poo
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample66.cmd)]
 
-<a id="WorkingConfig"></a>
-
 ## Working with Configuration
 
 IIS 7 and above feature an XML-based hierarchical configuration system similar to the ASP.NET configuration system that stores server configuration in schematized XML sections. The configuration can be located at the server level ApplicationHost.config file, or placed in distributed Web.config configuration files within your application hierarchy.
@@ -469,7 +452,7 @@ In AppCmd, each configuration section is exposed as an instance of a configurati
 
 The **section** parameter is required; it indicates the section that is being edited.
 
-For example, to set the **appAllowClientDebug** property of the **ASP** section for the http://localhost/app1 url:
+For example, to set the **appAllowClientDebug** property of the **ASP** section for the `http://localhost/app1` url:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample74.cmd)]
 
@@ -573,8 +556,6 @@ And finally, to search for locations that set a property to a specific value:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample90.cmd)]
 
-<a id="WorkingTool"></a>
-
 ## Working with Tool Output
 
 Earlier, we mentioned that the output of the LIST command is a list of object instances. AppCmd offers different output modes that allow control over the level of detail displayed about each object.
@@ -609,7 +590,7 @@ AppCmd provides an output mode that displays only a specific property of each ob
 
 You can, of course, display any of the valid property of the object-type being listed.
 
-It is sometimes desireable to use the output of AppCmd with existing command line tools and shell commands, such as the FOR command and FINDSTR.EXE. These tools often work best when each data item of interest is located on a separate line.
+It is sometimes desirable to use the output of AppCmd with existing command line tools and shell commands, such as the FOR command and FINDSTR.EXE. These tools often work best when each data item of interest is located on a separate line.
 
 As an example, imagine a command-line that produces a directory listing of each IIS virtual directory. The command-line needs to acquire a list of physical paths from each of the virtual directories of interest, and then execute a DIR command on each of those paths using the FOR command to loop though them:
 
@@ -640,8 +621,6 @@ For example, to output the list of sites in XML mode:
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample101.cmd)]
 
 To learn more about the piping feature, and how to leverage it for powerful command line management, see [http://mvolo.com/do-complex-iis-management-tasks-easily-with-appcmd-command-piping/](http://mvolo.com/do-complex-iis-management-tasks-easily-with-appcmd-command-piping/).
-
-<a id="Summary"></a>
 
 ## Summary
 

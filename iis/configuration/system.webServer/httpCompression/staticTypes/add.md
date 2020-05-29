@@ -1,19 +1,14 @@
 ---
-title: "Adding Static Types &lt;add&gt; | Microsoft Docs"
+title: "Adding Static Types &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;staticTypes&gt; element adds a unique MIME type to the list of types that IIS 7 will compress statically. Note :..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 948fb7a4-0c51-42e9-9cec-5f5a4b685b35
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpcompression/statictypes/add
 msc.type: config
 ---
-Adding Static Types &lt;add&gt;
-====================
+# Adding Static Types &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -118,7 +113,7 @@ The following code samples will add the MIME types for Office 2003 documents to 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
 

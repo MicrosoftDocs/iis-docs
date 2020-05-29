@@ -1,19 +1,14 @@
 ---
-title: "Troubleshooting Problems with Microsoft Web Platform Installer | Microsoft Docs"
+title: "Troubleshooting Problems with Microsoft Web Platform Installer"
 author: rick-anderson
 description: "Introduction Microsoft ® Web Platform Installer (Web PI) makes it simple to download and install the latest Microsoft ® Web Platform components, including In..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 5379a674-41f0-49d9-b744-cf5abd92749a
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer
 msc.type: authoredcontent
 ---
-Troubleshooting Problems with Microsoft Web Platform Installer
-====================
+# Troubleshooting Problems with Microsoft Web Platform Installer
+
 by IIS Team
 
 ## Introduction
@@ -39,7 +34,7 @@ Web PI tasks can be divided into three phases:
 
 Web PI installs products using one of three technologies:
 
-- To install Windows® operating system components (for example, IIS), Web PI uses Windows operating system [tools and interfaces](https://technet.microsoft.com/en-us/library/cc776554(WS.10).aspx) such as [PKGMGR](https://technet.microsoft.com/en-us/library/cc749302(WS.10).aspx).
+- To install Windows® operating system components (for example, IIS), Web PI uses Windows operating system [tools and interfaces](https://technet.microsoft.com/library/cc776554(WS.10).aspx) such as [PKGMGR](https://technet.microsoft.com/library/cc749302(WS.10).aspx).
 - To install non-operating system platform components, (for example, SQL Server 2008/R2 Express) Web PI uses the Windows® Installer technology (also known as MSI).
 - To install Web applications (for example, WordPress, Silverstripe, or DasBlog), Web PI uses the Microsoft® Web Deployment Tool.
 
@@ -86,41 +81,31 @@ Operating system components, such as IIS, are installed with Windows setup techn
 
 Operating system components on Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2 use component-based setup. The log file for operating system components is stored in the `%windir%\logs\cbs` directory. You can open it with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample1.cmd)]
 
-
-For more information, see [Optional Component Setup Log Diagnoser](https://technet.microsoft.com/en-us/library/cc732334.aspx).
+For more information, see [Optional Component Setup Log Diagnoser](https://technet.microsoft.com/library/cc732334.aspx).
 
 IIS 7.0 (Windows Vista and Windows Server 2008) and IIS 7.5 (Windows 7 and Windows Server 2008 R2) setup generates a separate setup log file, located in the `%windir%` directory. You can open this log file with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample2.cmd)]
-
 
 **Windows XP and Windows Server 2003**
 
 Windows XP and Windows Server 2003 setup log files are stored in the `%systemroot%` directory. You can open the Windows setup log file with the name setuperr.log with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample3.cmd)]
-
 
 The IIS setup log file is called iis6.log or iis51.log. You can open it with the command:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample4.cmd)]
-
 
 ### Products installed using Windows Installer (MSI) technology
 
-You can use the [Windows Installer technology](https://msdn.microsoft.com/en-us/library/aa371366(VS.85).aspx) for Web platform components such as Microsoft® SQL Server® and Visual Web Developer 2008 Express Edition. To look at the logs, open Internet Explorer and type the following into the address bar:
-
+You can use the [Windows Installer technology](https://msdn.microsoft.com/library/aa371366(VS.85).aspx) for Web platform components such as Microsoft® SQL Server® and Visual Web Developer 2008 Express Edition. To look at the logs, open Internet Explorer and type the following into the address bar:
 
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample5.cmd)]
 
-
-Web PI also displays a link to the log file that failed in the summary screen; see the [detailed description of Windows Installer error codes](https://msdn.microsoft.com/en-us/library/aa372835(VS.85).aspx).
+Web PI also displays a link to the log file that failed in the summary screen; see the [detailed description of Windows Installer error codes](https://msdn.microsoft.com/library/aa372835(VS.85).aspx).
 
 ### Products installed using the Microsoft Web Deployment Tool technology
 
@@ -142,20 +127,21 @@ If IIS is configured for "Shared Configuration," Web PI cannot install most addi
 
 #### Issues with Microsoft SQL Server during application installation:
 
-- **Applications do not work without SQL****"****Mixed mode authentication**."   
- For most Web applications, SQL Server user accounts are required in order to access a database. If only integrated or Windows authentication for SQL Server are selected, you cannot install some of the applications in the gallery.
+- **Applications do not work without SQL "Mixed mode authentication."**   
+  For most Web applications, SQL Server user accounts are required in order to access a database. If only integrated or Windows authentication for SQL Server are selected, you cannot install some of the applications in the gallery.
 - **SQL Server passwords are not accepted if they do not meet strength requirements**.   
- However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/en-us/library/ms161959.aspx) according to the SQL Server policy.
+  However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/library/ms161959.aspx) according to the SQL Server policy.
 - **SQL Server user names cannot be longer than 16 characters**.   
- However, Web PI does not validate user fields for length or other criteria. The failure to create an account with a user name that is more than 16-characters long happens during application installation, and the installation fails. Use a user name that is no more than 16-characters long.
+  However, Web PI does not validate user fields for length or other criteria. The failure to create an account with a user name that is more than 16-characters long happens during application installation, and the installation fails. Use a user name that is no more than 16-characters long.
 - **Other Microsoft SQL Server issues.** Check the SQL Server log files in the following directory for more information:  
- %programfiles%\microsoft sql server\100\setup bootstrap\log   
- More details about how to trouble shoot SQL issues can be found at [https://support.microsoft.com/kb/955396](https://support.microsoft.com/kb/955396)
-- **Custom Installation of SQL Server**For customers needing customization for their SQL Server install outside of Web PI, please check this guide [https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx](https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx)
+  %programfiles%\microsoft sql server\100\setup bootstrap\log   
+  More details about how to trouble shoot SQL issues can be found at [https://support.microsoft.com/kb/955396](https://support.microsoft.com/kb/955396)
+- **Custom Installation of SQL Server**  
+  For customers needing customization for their SQL Server install outside of Web PI, please check this guide <https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx>.
 
 **Issues with Visual Web Developer installation:** 
 
-- The following link is a troubleshooting guide for failures during Visual Web Developer Installations [https://blogs.msdn.com/astebner/archive/2007/07/31/4156781.aspx](https://blogs.msdn.com/astebner/archive/2007/07/31/4156781.aspx)
+- The following link is a troubleshooting guide for failures during Visual Web Developer Installations <https://blogs.msdn.com/astebner/archive/2007/07/31/4156781.aspx>.
 
 ## Additional Troubleshooting Tools, Tips, and Tricks
 
@@ -171,23 +157,19 @@ Web PI downloads its product catalog and the product packages through HTTP reque
 
 ### Process Monitor
 
-[Process Monitor](https://technet.microsoft.com/en-us/sysinternals/bb896645.aspx) is an advanced monitoring tool for Windows that shows real-time file system, registry, and process/thread activity. In the Web PI case Process Monitor can be used to monitor the activity of install programs.
+[Process Monitor](https://technet.microsoft.com/sysinternals/bb896645.aspx) is an advanced monitoring tool for Windows that shows real-time file system, registry, and process/thread activity. In the Web PI case Process Monitor can be used to monitor the activity of install programs.
 
 ### Windows Event Log
 
 Windows has a central repository for errors, informational messages, and warnings called the Windows Event Log. Though sometimes overlooked, Event Log often provides the solution to many problems and is worth exploring. To open the Windows Event Log, type the following at the command prompt or in the Run menu:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample6.cmd)]
-
 
 ### Web PI Tracing
 
 Web PI has an additional built-in tracing mechanism. It can be activated by saving the following configuration file as webplatforminstaller.exe.config in the %programfiles%\Microsoft\Web Platform Installer directory.
 
-
 [!code-html[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample7.html)]
-
 
 The trace file called WebPI.log file is also written to the %programfiles%\Microsoft\Web Platform Installer directory.
 
@@ -195,10 +177,8 @@ The trace file called WebPI.log file is also written to the %programfiles%\Micro
 
 Web PI is caching the product catalog and other files to optimize startup time. If the product catalog seems to be outdated or if incorrect data is displayed in Web PI, delete the cache with:
 
-
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample8.cmd)]
-
 
 ## Additional Help
 
-If you have exhausted the troubleshooting tips and tricks in this article and are still having problems, visit the Web Platform Installer forum at [https://forums.iis.net/1155.aspx](https://forums.iis.net/1155.aspx).
+If you have exhausted the troubleshooting tips and tricks in this article and are still having problems, visit the Web Platform Installer forum at <https://forums.iis.net/1155.aspx>.

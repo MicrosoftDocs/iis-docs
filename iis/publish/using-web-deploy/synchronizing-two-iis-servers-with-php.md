@@ -1,19 +1,14 @@
 ---
-title: "Synchronizing Two IIS Servers with PHP | Microsoft Docs"
+title: "Synchronizing Two IIS Servers with PHP"
 author: rick-anderson
 description: "This article will guide you through the process of using Web Deploy to synchronize an entire IIS 7 or above Web server that has PHP installed to another IIS..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/26/2010
-ms.topic: article
 ms.assetid: d8ca581b-fa82-4fca-824f-3456f71799b7
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/synchronizing-two-iis-servers-with-php
 msc.type: authoredcontent
 ---
-Synchronizing Two IIS Servers with PHP
-====================
+# Synchronizing Two IIS Servers with PHP
+
 by Tim Ammann
 
 This article will guide you through the process of using Web Deploy to synchronize an entire IIS 7 or above Web server that has PHP installed to another IIS 7 or above server. Article Goal: To synchronize a Web server from IIS that has PHP installed to another IIS server.
@@ -29,7 +24,7 @@ This article will guide you through the process of using Web Deploy to synchroni
     > In most cases on Windows Server 2008, PHP is installed by using the built-in FastCGI module, so the dependency check will show CGI as a dependency, not PHP.
 3. Compile a list of the components needed on the destination.
 
-For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/en-us/library/dd569091(WS.10).aspx "Viewing Dependencies").
+For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/library/dd569091(WS.10).aspx "Viewing Dependencies").
 
 ### Part 2 - Configure the target or destination computer
 

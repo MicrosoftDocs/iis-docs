@@ -1,24 +1,18 @@
 ---
-title: "Configuring Step 3: Configure Data Source Settings | Microsoft Docs"
+title: "Configuring Step 3: Configure Data Source Settings"
 author: rmcmurray
 description: "In this phase of building your ASP.NET website, you configure the data source settings that are available in IIS."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: fdbc37f8-a540-409b-8aeb-a87ace6b7994
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-3-configure-data-source-settings
 msc.type: authoredcontent
 ---
-Configuring Step 3: Configure Data Source Settings
-====================
+# Configuring Step 3: Configure Data Source Settings
+
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your ASP.NET website, you configure the data source settings that are available in IIS.
 
-<a id="31"></a>
 ## 3.1. Data Source Connection Strings
 
  This section describes how to create a database connection string in IIS using either the IIS Manager UI or the command line.
@@ -36,13 +30,16 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 2. In **Features View**, double-click **Connection Strings**.
 3. On the **Connection Strings** page, click **Add** in the **Actions** pane.
 4. In the **Add Connection String** dialog box, type a name for the connection string, such as MyConnection, in the **Name** text box.
+
     > [!NOTE]
     > The name that you enter in IIS Manager is the same name that you reference in your application code to retrieve data by using this connection string.
+
 5. With the **SQL Server** option selected, type the name of the server that hosts the database in the **Server** text box and type the name of the database in the **Database** text box.
 6. Under **Credentials**, choose one of the following:
 
     - Select **Use Windows Integrated Security**.
     - Select **Specify credentials** and click **Set**. Type a user name and password for an account that can connect to the server and database in the **User name** and **Password** text boxes. Then type the same password in the **Confirm password** text box, and click **OK**.
+
 7. Click **OK**.
 
 ### To create a database connection string by using the command line
@@ -55,7 +52,6 @@ The variable `connectionString='string'` is the connection string value, the var
 
 `appcmd set config /commit:MACHINE /section:connectionStrings /+"[connectionString='Data Source=localhost;Integrated Security=SSPI;Initial Catalog=Northwind;', name='Northwind', providerName='System.Data.SqlClient ']"`
 
-<a id="32"></a>
 ## 3.2. ASP.NET Providers
 
 This section describes how to add a .NET provider to IIS using either the IIS Manager UI or the command line.
@@ -67,11 +63,11 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 - Enter a name for the provider.
 - If the feature selected is .NET Users, select any of the following provider behaviors that you want:
 
-    - Enable password reset
-    - Enable password retrieval
-    - Requires question and answer
-    - Requires unique email
-    - Store password in secure format
+  - Enable password reset
+  - Enable password retrieval
+  - Requires question and answer
+  - Requires unique email
+  - Store password in secure format
 - Provide the name of the connection string to the database.
 - Enter the name of the application.
 
@@ -81,22 +77,24 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 2. In **Features View**, double-click **Providers**.
 3. On the **Providers** page, under **Feature**, select one of the following features:
 
-    - **.NET Roles**: to configure the provider to provide an interface between the ASP.NET role management service (the &quot;role manager&quot;) and role data sources.
-    - **.NET Users**: to configure the provider to provide an interface between the ASP.NET membership service and membership data sources.
-    - **.NET Profile**: to configure the provider to provide an interface between the ASP.NET profile service and profile data sources.
+   - **.NET Roles**: to configure the provider to provide an interface between the ASP.NET role management service (the &quot;role manager&quot;) and role data sources.
+   - **.NET Users**: to configure the provider to provide an interface between the ASP.NET membership service and membership data sources.
+   - **.NET Profile**: to configure the provider to provide an interface between the ASP.NET profile service and profile data sources.
 4. In the **Actions** pane, click **Add**.
 5. In the **Add Provider** dialog box, select a provider type from the **Type** drop-down list.
 6. In the **Name** text box, type a name for the provider.
 7. If the **.NET Users** feature was selected in step #3, in the **Profile properties** section, under **Behavior**, set the value of one or more of the following behaviors to **True** to enable the behavior:
 
     - **EnablePasswordReset**: indicates whether passwords can be reset by using the provider *ResetPassword* method. The default setting is **False**.
-    - **EnablePasswordRetrieval**: indicates whether passwords can be retrieved by using the provider *GetPassword* method. The default setting is **False**. 
-	    > [!IMPORTANT]
+    - **EnablePasswordRetrieval**: indicates whether passwords can be retrieved by using the provider *GetPassword* method. The default setting is **False**.
+
+        > [!IMPORTANT]
         > Some providers, such as the Active Directory provider, do not support the retrieval of passwords. For these providers, the value of the **enablePasswordRetrieval** attribute is always **False** and cannot be changed in configuration.
+
     - **RequiresQuestionAndAnswer**: indicates whether a password answer is supplied when the program calls the provider *GetPassword* and *ResetPassword* methods. The default setting is **False**.
     - **RequiresUniqueEmail**: indicates whether each registered user must have a unique e-mail address. The default setting is **False**.
     - **StorePasswordInSecureFormat**: indicates whether passwords are hashed. The default setting is **False**.
-8. Under **Data**, type the name of the connection string that is used to connect to the database in the **ConnectionStringName** text box. (Note: This is the same connection string that was configured under the **Connection Strings** feature. For more information about how to configure connection strings, see [Configuring Connection Strings in IIS 7](https://technet.microsoft.com/en-us/library/cc754382.aspx). If the *WindowsTokenRoleProvider* was selected in step #5 of this procedure, a connection string name is optional.)
+8. Under **Data**, type the name of the connection string that is used to connect to the database in the **ConnectionStringName** text box. (Note: This is the same connection string that was configured under the **Connection Strings** feature. For more information about how to configure connection strings, see [Configuring Connection Strings in IIS 7](https://technet.microsoft.com/library/cc754382.aspx). If the *WindowsTokenRoleProvider* was selected in step #5 of this procedure, a connection string name is optional.)
 9. Optionally, in the **Profile properties** section, under **General**, type the virtual path of the application in the **ApplicationName** text box. If you do not specify a value in the **ApplicationName** text box, the membership API defaults to HttpContext.Current.Request.ApplicationPath. This path can be determined only at runtime.
 10. Optionally, in the **Profile properties** section, under **General**, type a description of the provider in the **Description** text box.
 11. Click **OK**.
@@ -139,7 +137,6 @@ The variable `name='string'` is the name of the provider. The variable `type='st
 
 `appcmd set config /commit:MACHINE /section:profile /+"providers.[name='SqlProvider', type='System.Web.Profile.SqlProfileProvider', connectionStringName='SqlServices', applicationName='SampleApplication']"`
 
-<a id="33"></a>
 ## 3.3. .NET Profiles
 
 This section describes how to add a profile property and a profile group.
@@ -194,7 +191,6 @@ The variable `name='string'` is the name of the profile property. The variable `
 3. In the **Actions** pane, click **Add Group**.
 4. In the **Add Group** dialog box, type a name for the .NET profile group in the **Name** text box, and then click **OK**.
 
-<a id="34"></a>
 ## 3.4. .NET Roles
 
 This section describes how to add a .NET role by using the IIS Manager UI.
@@ -206,7 +202,6 @@ This section describes how to add a .NET role by using the IIS Manager UI.
 3. In the **Actions** pane, click **Add**.
 4. In the **Add .NET Role** dialog box, type the name of the role in the **Name** text box, and then click **OK**.
 
-<a id="35"></a>
 ## 3.5. .NET Users
 
 This section describes how to configure .NET users by using the IIS Manager UI.
@@ -228,7 +223,7 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 4. In the **.NET User Account Details** dialog box, enter the following information:
 
     - User Name (must be unique).
-    - E-mail (must use standard format: name@domain.com).
+    - E-mail (must use standard format: name\@domain.com).
     - Password (must be a strong password).
     - Confirm Password (must match the password).
     - Question (enter a custom question or select from the list).

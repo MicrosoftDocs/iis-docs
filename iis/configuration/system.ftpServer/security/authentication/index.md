@@ -1,19 +1,14 @@
 ---
-title: "System FTP Authentication &lt;authentication&gt; | Microsoft Docs"
+title: "System FTP Authentication &lt;authentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;authentication&gt; element enabes you to configure the user accounts that can access the sites on a server. Use authentication in combinatio..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 31cebadd-b459-402a-90d7-3762df465b63
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/authentication
 msc.type: config
 ---
-System FTP Authentication &lt;authentication&gt;
-====================
+# System FTP Authentication &lt;authentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -116,27 +111,22 @@ The following code samples configure denying access to the FTP server based upon
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
   
-
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
   
-
 ### VB.NET
 
 [!code-vb[Main](index/samples/sample4.vb)]
   
-
 ### JavaScript
 
 [!code-javascript[Main](index/samples/sample5.js)]
   
-
 ### VBScript
 
 [!code-vb[Main](index/samples/sample6.vb)]
   
-
 ### PowerShell
 
 [!code-powershell[Main](index/samples/sample7.ps1)]

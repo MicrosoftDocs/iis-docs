@@ -1,19 +1,14 @@
 ---
-title: "Request Limits &lt;requestLimits&gt; | Microsoft Docs"
+title: "Request Limits &lt;requestLimits&gt;"
 author: rick-anderson
 description: "Overview The &lt;requestLimits&gt; element specifies limits on HTTP requests that are processed by the Web server. These limits include the maximum size of a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: fc81cac6-60f9-4699-808b-8082fad4fe1c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits
 msc.type: config
 ---
-Request Limits &lt;requestLimits&gt;
-====================
+# Request Limits &lt;requestLimits&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -24,9 +19,9 @@ The `<requestLimits>` element specifies limits on HTTP requests that are process
 
 | HTTP Substatus | Description |
 | --- | --- |
-| `404.13` | Content Length Too Large |
 | `404.14` | URL Too Long |
 | `404.15` | Query String Too Long |
+| `413.1` | Content Length Too Large |
 
 These substatuses allow Web administrators to analyze their IIS logs and identify potential threats.
 
@@ -34,7 +29,7 @@ In addition, when an HTTP request exceeds the header limits that are defined in 
 
 | HTTP Substatus | Description |
 | --- | --- |
-| `404.10` | Request Header Too Long |
+| `431` | Request Header Too Long |
 
 <a id="002"></a>
 ## Compatibility
@@ -190,7 +185,11 @@ The following code samples will configure IIS to deny access for HTTP requests w
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample7.ps1)]
+
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

@@ -1,19 +1,14 @@
 ---
-title: "Adding Management Trusted Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding Management Trusted Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;trustedProviders&gt; element adds a provider to the collection of management providers that are trusted to be run..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2d6832c1-140b-4011-ac4e-234cea55ed9a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/trustedproviders/add
 msc.type: config
 ---
-Adding Management Trusted Providers &lt;add&gt;
-====================
+# Adding Management Trusted Providers &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -121,7 +116,7 @@ The following code examples add a provider named Contoso.Provider to the collect
 > [!NOTE]
 > You cannot configure `<system.webServer/Management>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](add/samples/sample2.cs)]
 

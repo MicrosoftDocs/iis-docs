@@ -1,19 +1,14 @@
 ---
-title: "Microsoft WebMatrix: My Documents on network shares | Microsoft Docs"
+title: "Microsoft WebMatrix: My Documents on network shares"
 author: rick-anderson
 description: "When your 'My Documents' folder is pointing to a network share, Windows translates the location automatically. This is so that applications such as WebMatrix..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/11/2011
-ms.topic: article
 ms.assetid: 7ecaa7ab-e6d1-4b8b-8d74-6296e45b0d2d
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-my-documents-on-network-shares
 msc.type: authoredcontent
 ---
-Microsoft WebMatrix: My Documents on network shares
-====================
+# Microsoft WebMatrix: My Documents on network shares
+
 by Faith A
 
 When your "My Documents" folder is pointing to a network share, Windows translates the location automatically. This is so that applications such as WebMatrix or IIS Express can simply request the special folder and Windows takes care of the rest.

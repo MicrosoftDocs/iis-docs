@@ -1,19 +1,14 @@
 ---
-title: "Administration Pack | Microsoft Docs"
+title: "Administration Pack"
 author: walterov
 description: "The Administration Pack provides hosters and their customers with a set of IIS Manager modules that will help them to do the following: Edit server configura..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/19/2009
-ms.topic: article
 ms.assetid: 74bd3170-cd2d-4490-bfa6-c9fd7328a5fc
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/administration-pack
 msc.type: authoredcontent
 ---
-Administration Pack
-====================
+# Administration Pack
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -74,7 +69,7 @@ The .NET Authorization Rules module is one of two ASP.NET modules in the Adminis
 
 [![](administration-pack/_static/image8.jpg)](administration-pack/_static/image7.jpg)  
    
-For instructions about how to lock ASP.NET Authorization Rules, see this guide &lt;link: [https://msdn.microsoft.com/en-us/library/ms178693.aspx](https://msdn.microsoft.com/en-us/library/ms178693.aspx) &gt;.
+For instructions about how to lock ASP.NET Authorization Rules, see this guide &lt;link: [https://msdn.microsoft.com/library/ms178693.aspx](https://msdn.microsoft.com/library/ms178693.aspx) &gt;.
 
 This article &lt;link: [https://learn.iis.net/page.aspx/142/understanding-iis-7-url-authorization/#Differences](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization#Differences)&gt; explains the differences between ASP.NET URL Authorization and IIS URL Authorization.
 

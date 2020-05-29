@@ -1,19 +1,14 @@
 ---
-title: "Modules &lt;modules&gt; | Microsoft Docs"
+title: "Modules &lt;modules&gt;"
 author: rick-anderson
 description: "Overview The &lt;modules&gt; element defines the native-code modules and managed-code modules that are registered for an application. As a part of Internet I..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: b1426772-182f-477b-9e06-f8699b4297f4
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/modules
 msc.type: config
 ---
-Modules &lt;modules&gt;
-====================
+# Modules &lt;modules&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -118,7 +113,7 @@ The following code examples enable a managed module for a Web site named Contoso
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
 

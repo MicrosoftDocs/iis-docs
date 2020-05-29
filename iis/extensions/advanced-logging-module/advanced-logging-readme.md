@@ -1,19 +1,14 @@
 ---
-title: "Advanced Logging Readme | Microsoft Docs"
+title: "Advanced Logging Readme"
 author: rick-anderson
 description: "IIS Advanced Logging is an extension for Internet Information Services (IIS) 7 that provides enhanced data collection and real-time server and client-side lo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/22/2011
-ms.topic: article
 ms.assetid: 2ebb8560-f7c0-45c5-a752-76dd2975fe94
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-readme
 msc.type: authoredcontent
 ---
-Advanced Logging Readme
-====================
+# Advanced Logging Readme
+
 by Dave Nelson
 
 IIS Advanced Logging is an extension for Internet Information Services (IIS) 7 that provides enhanced data collection and real-time server and client-side logging capabilities. It supports complex Web and media delivery scenarios that demand flexibility and control. These scenarios may require custom logging fields, real-time access to data, greater control over what gets logged and when, extensibility for new sources of data, the ability to consolidate log data posted by clients and correlate it to server data, the option of sharing data from various sources and storing it in multiple logs, capturing system-state information, inclusion of canceled requests in logs, and even logging multiple times per request.
@@ -43,8 +38,8 @@ The following prerequisites must be fulfilled to install IIS Advanced Logging:
 - You must be an administrator on the computer. This can be accomplished by logging on to the computer using either the Administrator account or an account with administrative privileges.
 
 > [!NOTE]
->  
- Advanced Logging cannot be installed if the previous version of the software (**IIS Advanced Logging 1.0 – Beta**) is installed on your computer. When you uninstall the Beta Advanced Logging software, your log definitions and any log files that have been created will be retained; however, other program settings may not be retained.
+> 
+>  Advanced Logging cannot be installed if the previous version of the software (**IIS Advanced Logging 1.0 – Beta**) is installed on your computer. When you uninstall the Beta Advanced Logging software, your log definitions and any log files that have been created will be retained; however, other program settings may not be retained.
 
 To uninstall the software, in **Control Panel** &gt; **Programs** &gt; **Programs and Features**, under **Uninstall or change a program**, click **IIS Advanced Logging**, and then click **Uninstall**.
 
@@ -83,7 +78,7 @@ This section describes the known issues for IIS Advanced Logging.
     1. In IIS Manager, in the **Connections** pane, click the server name.
     2. In the **Actions** pane, click **Restart**.
 
- This issue may occur if you change Advanced Logging settings while the feature is actively logging requests.
+  This issue may occur if you change Advanced Logging settings while the feature is actively logging requests.
 - **Enabling and disabling logging for Web sites**. The Advanced Logging feature can be enabled or disabled at the server level in IIS Manager, which also enables or disables logging at lower levels (matching the server-level setting). If you want to disable logging for certain Web sites or directories, while enabling logging for others, enable the Advanced Logging feature at the server level, and then disable the log definition files for the Web sites/directories for which you want to disable logging. To disable a log definition, do the following: 
 
     1. In the **Connections** pane, click the Web site or directory for which you want to disable logging.
@@ -103,7 +98,7 @@ This section describes the known issues for IIS Advanced Logging.
     - Time-Local
     - Time-UTC
 
- Custom logging fields that you create with these log data types cannot be filtered.
+  Custom logging fields that you create with these log data types cannot be filtered.
 - **Creating disabled log definitions**. If you create a new log definition, clear the **Enabled** check box to disable it, and then click **Apply** in the **Actions** pane to save the changes, the **Enabled** setting is reselected. Clear the **Enabled** check box and click **Apply** again to save the log definition in a disabled state.
 
 ## Product Support

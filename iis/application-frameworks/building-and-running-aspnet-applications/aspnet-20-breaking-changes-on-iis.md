@@ -1,19 +1,14 @@
 ---
-title: "ASP.NET 2.0 Breaking Changes on IIS 7.0 | Microsoft Docs"
+title: "ASP.NET 2.0 Breaking Changes on IIS 7.0"
 author: leanserver
 description: "ASP.NET 2.0 applications on IIS 7.0 and above are hosted using the ASP.NET Integrated mode by default. This new mode enables a myriad of exciting scenarios,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/15/2008
-ms.topic: article
 ms.assetid: cdb50902-a5ee-4809-9446-169d325d4937
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-20-breaking-changes-on-iis
 msc.type: authoredcontent
 ---
-ASP.NET 2.0 Breaking Changes on IIS 7.0
-====================
+# ASP.NET 2.0 Breaking Changes on IIS 7.0
+
 by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
@@ -46,11 +41,10 @@ A. You must migrate the application configuration to work properly in Integrated
 
 [!code-powershell[Main](aspnet-20-breaking-changes-on-iis/samples/sample1.ps1)]
 
-B. You can migrate manually by moving the custom entries in in the `<system.web>/<httpModules>` and `<system.web>/<httpHandlers>` configuration manually to the `<system.webServer>/<handlers>` and `<system.webServer>/<modules>` configuration sections, and either removing the `<httpHandlers>` and `<httpModules>` configuration OR adding the following to your application's web.config:
+B. You can migrate manually by moving the custom entries in the `<system.web>/<httpModules>` and `<system.web>/<httpHandlers>` configuration manually to the `<system.webServer>/<handlers>` and `<system.webServer>/<modules>` configuration sections, and either removing the `<httpHandlers>` and `<httpModules>` configuration OR adding the following to your application's web.config:
 
 [!code-xml[Main](aspnet-20-breaking-changes-on-iis/samples/sample2.xml)]
   
-
 #### 2. ASP.NET applications produce a warning when the application enables request impersonation by specifying `<identity impersonate="true">` in configuration
 
 You will receive a 500 - Internal Server Error. This is HTTP Error 500.24: *An ASP.NET setting has been detected that does not apply in Integrated managed pipeline mode*. This occurs because ASP.NET Integrated mode is unable to impersonate the request identity in the BeginRequest and AuthenticateRequest pipeline stages.
@@ -71,15 +65,11 @@ You will receive a 500 – Internal Server Error. This is HTTP Error 500.19: *Th
 
 A. If your application does not have the problem with request impersonation per breaking change #2, migrate your application configuration by using AppCmd as described in breaking change #1:
 
-
 [!code-powershell[Main](aspnet-20-breaking-changes-on-iis/samples/sample4.ps1)]
-
 
 This will insure that the rest of application configuration is migrated, and automatically add the following to your application's web.config to ignore the &lt;identity&gt; section:
 
-
 [!code-xml[Main](aspnet-20-breaking-changes-on-iis/samples/sample5.xml)]
-
 
 B. If your application does have the problem with request impersonation, move to Classic mode.
 

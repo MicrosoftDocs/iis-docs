@@ -1,19 +1,14 @@
 ---
-title: "Migrate a Web Site from IIS 6.0 to IIS 7 or above | Microsoft Docs"
+title: "Migrate a Web Site from IIS 6.0 to IIS 7 or above"
 author: rick-anderson
 description: "This quick guide will help you migrate a Web site from IIS 6.0 to IIS 7 or above by using the Web Deployment Tool. What kinds of migrations can I accomplish..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/23/2008
-ms.topic: article
 ms.assetid: d1dc9de0-b74e-4f1d-bb22-b259574d9387
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/migrate-a-web-site-from-iis-60-to-iis-7-or-above
 msc.type: authoredcontent
 ---
-Migrate a Web Site from IIS 6.0 to IIS 7 or above
-====================
+# Migrate a Web Site from IIS 6.0 to IIS 7 or above
+
 by Faith A
 
 This quick guide will help you migrate a Web site from IIS 6.0 to IIS 7 or above by using the Web Deployment Tool.
@@ -43,7 +38,7 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 3. If your site is inheriting any script maps, these will not be listed in the dependencies and you should also review the script maps for your site manually.
 4. Compile a list of the components needed on the destination.
 
-For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/en-us/library/dd569091(WS.10).aspx "Viewing Dependencies").
+For detailed steps on analyzing the output of getDependencies, see [Viewing Dependencies](https://technet.microsoft.com/library/dd569091(WS.10).aspx "Viewing Dependencies").
 
 ### Part 2 - Configure the target
 

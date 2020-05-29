@@ -1,19 +1,14 @@
 ---
-title: "Hyper-V Guides | Microsoft Docs"
+title: "Hyper-V Guides"
 author: walterov
 description: "This article provides you with a set of guides, including tools, videos, and presentations to help you: Learn about Microsoft virtualization technologies. Ma..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/19/2009
-ms.topic: article
 ms.assetid: f44f9a33-1e49-4b41-a6e4-36822b742c8e
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/hyper-v-guides
 msc.type: authoredcontent
 ---
-Hyper-V Guides
-====================
+# Hyper-V Guides
+
 by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
@@ -35,7 +30,6 @@ Hosters can take advantage of Hyper-V to implement a variety of scenarios, for e
 - Desktops as Hyper-V guests
 - End customers running Microsoft products using the customers' own licenses on the guest OS
 
-
 ## Learn Hyper-V
 
 The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Virtualization%20360-Microsoft%20Virtualization%20Strategy.wmv "video") provides an overview of Microsoft virtualization technologies and strategy, and explains why the technology has evolved to what it is now and where it is going in the future. It walks you through the various forms of virtualization: profile, presentation, desktop, application, server, and network.
@@ -45,7 +39,6 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-H
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") includes the slides that are presented in the video above. 
 
 The following [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") describes the value proposition for Hyper-V:
-
 
 [![](hyper-v-guides/_static/image5.jpg)](hyper-v-guides/_static/image4.jpg)
 
@@ -77,10 +70,9 @@ This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Hyp
 
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/CapacityPlanning.zip "download") contains the slides for the video above and further documentation about capacity planning.
 
-Review the [Planning and Design Guide](https://technet.microsoft.com/en-us/library/cc196387.aspx "Planning and Design Guide") for a comprehensive guide about Microsoft infrastructure products.
+Review the [Planning and Design Guide](https://technet.microsoft.com/library/cc196387.aspx "Planning and Design Guide") for a comprehensive guide about Microsoft infrastructure products.
 
 ## Deploying Hyper-V
-
 
 The following [video](https://www.microsoft.com/emea/spotlight/sessionh.aspx?videoid=999&amp;PUID=0003BFFD806C3741 "video") provides a guide to Hyper-V deployment. It includes hardware requirements, storage, networking, high availability, backup, and SVMM deployment best practices.
 
@@ -106,8 +98,8 @@ This [whitepaper](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44
 
 Microsoft provides the tools that hosters need to make the most of their Hyper-V deployment:
 
-- [Virtual Machine Management (VMM )2008](https://technet.microsoft.com/en-us/scvmm/default.aspx "Virtual Machine Management (VMM) 2008") is a comprehensive management solution for the virtualized datacenter, enabling increased physical server utilization, centralized management of virtual machine infrastructure, and rapid provisioning of new virtual machines by the administrator and by authorized end users.
-- The [Offline Virtual Machine Servicing Tool](https://technet.microsoft.com/en-us/library/cc501231.aspx "Offline Virtual Machine Servicing Tool") allows hosters to keep their offline (or dormant) virtual machines updated with the latest patches. This video provides an overview of the tool and a guide about how to streamline the process of servicing offline virtual machines.
+- [Virtual Machine Management (VMM )2008](https://technet.microsoft.com/scvmm/default.aspx "Virtual Machine Management (VMM) 2008") is a comprehensive management solution for the virtualized datacenter, enabling increased physical server utilization, centralized management of virtual machine infrastructure, and rapid provisioning of new virtual machines by the administrator and by authorized end users.
+- The [Offline Virtual Machine Servicing Tool](https://technet.microsoft.com/library/cc501231.aspx "Offline Virtual Machine Servicing Tool") allows hosters to keep their offline (or dormant) virtual machines updated with the latest patches. This video provides an overview of the tool and a guide about how to streamline the process of servicing offline virtual machines.
 - The following [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ManagingHyperV.zip "download") provides an overview about the automation facilities for virtualization management.
 
 <a id="_Toc220069380"></a>

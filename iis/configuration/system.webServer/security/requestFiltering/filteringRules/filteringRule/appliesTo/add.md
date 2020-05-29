@@ -1,19 +1,14 @@
 ---
-title: "Adding File Name Extensions for Filtering Rules &lt;add&gt; | Microsoft Docs"
+title: "Adding File Name Extensions for Filtering Rules &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;appliesTo&gt; element adds a unique file name extension to the collection of file name extensions to which a requ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f5af4a52-94b0-4e2b-a9b6-b23ea0f46488
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto/add
 msc.type: config
 ---
-Adding File Name Extensions for Filtering Rules &lt;add&gt;
-====================
+# Adding File Name Extensions for Filtering Rules &lt;add&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -145,7 +140,11 @@ The following examples demonstrate how to use the `<denyStrings>`, `<appliesTo>`
 
 [!code-console[Main](add/samples/sample3.cmd)]
 
-### C#
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample8.ps1)]
+
+### C\#
 
 [!code-csharp[Main](add/samples/sample4.cs)]
 

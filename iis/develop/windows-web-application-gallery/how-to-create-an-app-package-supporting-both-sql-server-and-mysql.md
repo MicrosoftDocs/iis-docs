@@ -1,22 +1,17 @@
 ---
-title: "How to Create an App Package Supporting both SQL Server and MySQL | Microsoft Docs"
+title: "How to Create an App Package Supporting both SQL Server and MySQL"
 author: SunBuild
 description: "Applications that currently support MySQL as their main DBMS can also support Microsoft SQL Server. The SQL Server Driver for PHP is available to PHP develop..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/16/2012
-ms.topic: article
 ms.assetid: 76946c02-3b19-43ad-b13d-3b914ab11c54
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql
 msc.type: authoredcontent
 ---
-How to Create an App Package Supporting both SQL Server and MySQL
-====================
+# How to Create an App Package Supporting both SQL Server and MySQL
+
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
-Applications that currently support MySQL as their main DBMS can also support Microsoft SQL Server. [The SQL Server Driver for PHP](https://msdn.microsoft.com/en-us/library/cc296172(SQL.90).aspx) is available to PHP developers, it is a cost-effective and efficient solution for supporting SQL Server from within PHP applications. This article provides the steps needed for creating a Web Deployment package to install an application that supports both SQL Server and MySQL.
+Applications that currently support MySQL as their main DBMS can also support Microsoft SQL Server. [The SQL Server Driver for PHP](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/cc296172(v=sql.90)) is available to PHP developers, it is a cost-effective and efficient solution for supporting SQL Server from within PHP applications. This article provides the steps needed for creating a Web Deployment package to install an application that supports both SQL Server and MySQL.
 
 ## Adding MySQL and SQL Server Databases
 
@@ -30,7 +25,8 @@ Add both directives dbfullsql and dbmysql to add a SQL Server database and a MyS
 
 You need to create two sets of parameters one for SQL Server database and another for MySQL if they depend on the database type.
 
-**Important Note: All the parameter names must be unique.**
+> [!IMPORTANT]
+> All the parameter names must be unique.
 
 Here is an example for Database Server parameter.
 
@@ -42,11 +38,11 @@ Here is an example for Database Server parameter.
 
 Similarly you would need to create MySQL and SQL parameters each for Database username, Database user password, Database administrator, Database administrator password.
 
-If user's choice is MySQL database during installation, the parameter "MSSQL Database Server" will be skipped and will not be visible to the user.   
+If user's choice is MySQL database during installation, the parameter "MSSQL Database Server" will be skipped and will not be visible to the user.
   
- This allows you to set different default values, descriptions based on database type which makes it user-friendly. This feature also allows you to hide/show custom parameters specific to the application.
+This allows you to set different default values, descriptions based on database type which makes it user-friendly. This feature also allows you to hide/show custom parameters specific to the application.
 
-***For example:** *
+**For example:**
 
 If your application uses a Database type parameter in the application configuration file, say configuration.php; then we can parameter this in the parameters.xml as follows
 

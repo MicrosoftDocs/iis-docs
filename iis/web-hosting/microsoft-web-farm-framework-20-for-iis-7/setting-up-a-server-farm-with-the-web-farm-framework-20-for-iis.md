@@ -1,19 +1,14 @@
 ---
-title: "Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
+title: "Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7"
 author: rick-anderson
 description: "This article describes how to install and configure the Microsoft Web Farm Framework (WFF) 2.0 for IIS 7 and above. It covers the following: How to set up an..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/21/2010
-ms.topic: article
 ms.assetid: 4b7f6ecf-7f19-4c78-81ac-7574fabc11e3
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---
-Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7
-====================
+# Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7
+
 by Randall DuBois
 
 This article describes how to install and configure the Microsoft Web Farm Framework (WFF) 2.0 for IIS 7 and above. It covers the following:
@@ -90,7 +85,6 @@ These steps should be performed on all secondary servers that will be part of th
 
 > When you create a server farm, you will use this account as the server farm administrator account.
 
-
 - Ensure the appropriate firewall exceptions are configured as described in the [Web Farm Framework System and Platform Requirements](system-and-platform-requirements-for-the-web-farm-framework-20-for-iis.md) article.
 
 <a id="Create"></a>
@@ -111,24 +105,22 @@ These steps should be performed on the controller server after WFF is installed.
 > [!NOTE]
 > You can enable or disable provisioning after the server farm is created. For more information, see [Provisioning a Server Farm with the Web Farm Framework for IIS 7 and Above](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis.md).
 
-
 1. Enter a user name and password for the administrator account and then click **Next**.
 
 > [!NOTE]
 > The account specified must have administrator user rights to all the computers that will participate in the server farm.
 
-
 1. In the **Add Servers** step, enter the server name or IP address of a server you want to add and then click **Add**.
 
-1. - Select the **Server is available for Load Balancing** option to have the server participate in load balancing when the farm is created.
-    - When you add the server you configured to be the primary server, select the **Primary Server** checkbox.  
+2. - Select the **Server is available for Load Balancing** option to have the server participate in load balancing when the farm is created.
+     - When you add the server you configured to be the primary server, select the **Primary Server** checkbox.  
         [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image10.png)](javascript:void(0);)
 
-1. Click **Add**. WFF attempts to connect to the specified server. If an error is displayed, it means that WFF cannot connect to the server. You can add the server to the farm anyway, or you can modify the server name or address and try again. Make sure the server you are connecting to meets the requirements listed in [Prepare the Secondary Servers](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md#Prepare).  
+3. Click **Add**. WFF attempts to connect to the specified server. If an error is displayed, it means that WFF cannot connect to the server. You can add the server to the farm anyway, or you can modify the server name or address and try again. Make sure the server you are connecting to meets the requirements listed in [Prepare the Secondary Servers](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md#Prepare).  
   
     [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image12.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image11.png)
 
-1. When you are finished adding servers to the farm, click **Finish**. WFF creates the server farm.
+4. When you are finished adding servers to the farm, click **Finish**. WFF creates the server farm.
 
 You can customize or define URL rewrite rules to configure load balancing. For more information, see [Using the URL Rewrite Module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md) and [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing).
 
@@ -149,7 +141,6 @@ You can add or remove servers in a server farm at any time. If you remove the pr
 
 > [!NOTE]
 > You can also right-click the **Servers** node and then click **Add Servers**.
-
 
 1. Follow the steps for adding a server in [Create a Server Farm](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md#Create).
 
@@ -203,7 +194,6 @@ You can set the value of the **EnabledTraceLevel** key to correspond to the verb
 > 2 - Warning and error messages  
 > 3 - Information, warning, and error messages  
 > 4 - Verbose (all messages)
-
 
 [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image19.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image18.png)
 

@@ -1,19 +1,14 @@
 ---
-title: "Basic Authentication &lt;basicAuthentication&gt; | Microsoft Docs"
+title: "Basic Authentication &lt;basicAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;basicAuthentication&gt; element contains configuration settings for the Internet Information Services (IIS) 7 Basic authentication module. Y..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5ff18e4c-180c-4c1b-8134-cc0b543f4d19
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/basicauthentication
 msc.type: config
 ---
-Basic Authentication &lt;basicAuthentication&gt;
-====================
+# Basic Authentication &lt;basicAuthentication&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -141,7 +136,7 @@ The following examples enable Basic authentication for a site.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](basicAuthentication/samples/sample4.cs)]
 

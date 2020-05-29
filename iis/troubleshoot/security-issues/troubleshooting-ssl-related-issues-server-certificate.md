@@ -1,19 +1,14 @@
 ---
-title: "Troubleshooting SSL related issues (Server Certificate) | Microsoft Docs"
+title: "Troubleshooting SSL related issues (Server Certificate)"
 author: kaushalp
 description: "Tools Used in this Troubleshooter: SSLDiag Network Monitor 3.4/Wireshark This material is provided for informational purposes only. Microsoft makes no warran..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: 7626d39d-7923-4776-a342-4e49ed2983c3
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/security-issues/troubleshooting-ssl-related-issues-server-certificate
 msc.type: authoredcontent
 ---
-Troubleshooting SSL related issues (Server Certificate)
-====================
+# Troubleshooting SSL related issues (Server Certificate)
+
 by [Kaushal Kumar Panday](https://github.com/kaushalp)
 
 #### Tools Used in this Troubleshooter:
@@ -37,11 +32,11 @@ I am under the assumption the reader is well-versed in SSL Handshake and the Ser
 
 Description of the Secure Sockets Layer (SSL) Handshake:
 
-[https://support.microsoft.com/kb/257591](https://support.microsoft.com/kb/257591)
+<https://support.microsoft.com/kb/257591>
 
 Description of the Server Authentication Process during the SSL Handshake:
 
-[https://support.microsoft.com/kb/257587](https://support.microsoft.com/kb/257587)
+<https://support.microsoft.com/kb/257587>
 
 ## Scenarios
 
@@ -49,7 +44,7 @@ The following error message is seen while browsing the website over https:
 
 ![](troubleshooting-ssl-related-issues-server-certificate/_static/image1.png)
 
-The first thing that has to be checked is whether the website is accessible over http. If yes, then we proceed with our troubleshooting. If not, then you need to have the website working on http first and that's a seperate issue (not covered in this troubleshooter).
+The first thing that has to be checked is whether the website is accessible over http. If it is not, there likely is a separate issue not covered here. You will need to have the website working on http first before continuing with this troubleshooter.
 
 Now let's assume the website is accessible over http and we get the above error when trying to browse over https. The problem is seen because the SSL handshake failed and hence the error message was seen. There could be many reasons. We will follow a step-by-step approach to solve this problem.
 
@@ -164,8 +159,10 @@ By now we are sure that we have a proper working certificate installed on the we
 
     Below is a sample of a working and non-working scenario:
 
-    | Working scenario: |
-    | --- |
+    **Working scenario:**
+
+    | | |
+    | --- | --- |
     | IP | 0.0.0.0:443 |
     | Hash |  |
     | Guid | **{00000000-0000-0000-0000-000000000000}** |
@@ -176,7 +173,11 @@ By now we are sure that we have a proper working certificate installed on the we
     | SslCtlIdentifier | 0 |
     | SslCtlStoreName | 0 |
     | Flags | 0 |
-    | Non-working scenario: |
+
+    **Non-working scenario:**
+
+    | | |
+    | --- | --- |
     | IP | 0.0.0.0:443 |
     | Hash | c09b416d6b 8d615db22 64079d15638e96823d |
     | Guid | {4dc3e181-e14b-4a21-b022-59fc669b0914} |
@@ -194,7 +195,7 @@ By now we are sure that we have a proper working certificate installed on the we
 
     [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample4.cmd)]
 
- For e.g. 
+    For example:
 
     [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample5.cmd)]
 - Delete any entries in the IP Listen list.
@@ -238,7 +239,7 @@ Do check the registry keys to determine what protocols are enabled or disabled. 
 
 The "Enabled" DWORD should be set to "1". If "0" then the protocol is disabled.
 
-For e.g. SSL 2.0 is disabled by default.
+For example, SSL 2.0 is disabled by default.
 
 ## Scenario 6
 

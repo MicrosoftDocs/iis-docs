@@ -1,19 +1,14 @@
 ---
-title: "Troubleshooting IIS Compression issues in IIS6/IIS7.x | Microsoft Docs"
+title: "Troubleshooting IIS Compression issues in IIS6/IIS7.x"
 author: rick-anderson
 description: "Fiddler Network Monitor Process Monitor Metabase ACL IIS 6 ETW trace IIS 7 FREB trace This material is provided for informational purposes only. Microsoft ma..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: ba093ba6-a090-4850-bb90-86cc859cfc24
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x
 msc.type: authoredcontent
 ---
-Troubleshooting IIS Compression issues in IIS6/IIS7.x
-====================
+# Troubleshooting IIS Compression issues in IIS6/IIS7.x
+
 by Shoeb Ilyas Bhaldar and Mike Laing
 
 #### Tools Used in this Troubleshooter:
@@ -64,7 +59,7 @@ Fiddler output when compression is not working:
 
     IIS\_WPG(IIS\_IURS for IIS 7) must have full control permission for this folder. Process Monitor is a great tool to troubleshooting this type of permission issue.
 
-    [Process Monitor](https://technet.microsoft.com/en-us/sysinternals/bb896645)
+    [Process Monitor](https://technet.microsoft.com/sysinternals/bb896645)
 3. **Check if compression is enabled in Metabase.xml:** Compression is not turned on in the metabase at the right locations. There are three metabase locations for Compression configuration:
 
     [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample3.cmd)]
@@ -80,7 +75,7 @@ Fiddler output when compression is not working:
 
     [Using metaacl.vbs to verify and modify IIS 6 metabase ACL.](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=4899)
 
-    [Default Metabase ACL](https://msdn.microsoft.com/en-us/library/ms524775(v=VS.90).aspx)
+    [Default Metabase ACL](https://msdn.microsoft.com/library/ms524775(v=VS.90).aspx)
 
     If the application pool identity (or the IIS\_WPG group in general) does not have Read and Write access to the metabase key W3SVC/Filters a failure condition of COMPRESSION\_DISABLED will be logged in an Enterprise Tracing for Windows (ETW) trace.
 
@@ -164,7 +159,7 @@ Fiddler output when compression is not working:
 
     - Create a text file named IISProviders.txt and put follow content into the file."IIS: WWW Server" is the provider name, 0xFFFFFFFE means trace for all events, and 5 means verbose level.
 
-        "IIS: WWW Server" 0xFFFFFFFE 5 For more information, reference IIS Providers: [https://technet.microsoft.com/en-us/library/cc758221(v=ws.10).aspx](https://technet.microsoft.com/en-us/library/cc758221(v=ws.10).aspx)
+        "IIS: WWW Server" 0xFFFFFFFE 5 For more information, reference IIS Providers: [https://technet.microsoft.com/library/cc758221(v=ws.10).aspx](https://technet.microsoft.com/library/cc758221(v=ws.10).aspx)
     - Open a command window, and run follow command:
 
         [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample16.cmd)]
@@ -232,8 +227,8 @@ Fiddler output when compression is not working:
 ### Other Resources
 
 - [Enabling Compression in IIS6](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/502ef631-3695-4616-b268-cbe7cf1351ce.mspx?mfr=true)
-- [Enable Compression in IIS7-I](https://technet.microsoft.com/en-us/library/cc771003(WS.10).aspx)
-- [Enable Compression in IIS7-II](https://technet.microsoft.com/en-us/library/cc730629%28v=ws.10%29.aspx)
+- [Enable Compression in IIS7-I](https://technet.microsoft.com/library/cc771003(WS.10).aspx)
+- [Enable Compression in IIS7-II](https://technet.microsoft.com/library/cc730629%28v=ws.10%29.aspx)
 - [HTTP Compression &lt;httpCompression&gt; in IIS7](https://www.iis.net/configreference/system.webserver/httpcompression)
 - [Troubleshooting IIS6 compression](https://blogs.msdn.com/b/mike/archive/2007/12/06/troubleshooting-http-compression-in-iis6.aspx)
 - [Troubleshooting IIS7 compression](https://blogs.msdn.com/b/amol/archive/2010/10/29/troubleshooting-dynamic-compression-in-iis-7.aspx)

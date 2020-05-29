@@ -1,19 +1,14 @@
 ---
-title: "CPU Settings for an Application Pool &lt;cpu&gt; | Microsoft Docs"
+title: "CPU Settings for an Application Pool &lt;cpu&gt;"
 author: rick-anderson
 description: "Overview The &lt;cpu&gt; element of the &lt;add&gt; element in the &lt;applicationPools&gt; collection configures values for CPU usage parameters and CPU act..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: be45aa52-fe32-4fc1-9a04-ea0ca8d911d4
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/cpu
 msc.type: config
 ---
-CPU Settings for an Application Pool &lt;cpu&gt;
-====================
+# CPU Settings for an Application Pool &lt;cpu&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -21,7 +16,7 @@ The `<cpu>` element of the `<add>` element in the `<applicationPools>` collectio
 
 ### NUMA Support
 
-Non-Uniform Memory Access (NUMA) is a hardware-based method of associating processors to their own dedicated memory. NUMA is used to increase processor speed as an alternative to the traditional symmetric multiprocessor (SMP) model for multiprocessor support. You can set up IIS 8 and later to distribute and affinitize its processes on NUMA. The use of NUMA is configured in the CPU element by the numaNodeAssignment attribute that enables IIS to identify the most optimal NUMA node when the IIS worker process is about to start, and the numaNodeAffinityMode attribute that determines how the threads from an IIS worker process are affinitized to a NUMA node. NUMA is also configured using the MaxProcesses attribute of the processModel element, which when set to `0` specifies that IIS automatically runs the same number of worker processes as there are NUMA nodes. For more information, see [IIS 8.0 Multicore Scaling on NUMA Hardware.](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-multicore-scaling-on-numa-hardware)
+Non-Uniform Memory Access (NUMA) is a hardware-based method of associating processors to their own dedicated memory. NUMA is used to increase processor speed as an alternative to the traditional symmetric multiprocessor (SMP) model for multiprocessor support. You can set up IIS 8 and later to distribute and affinitize its processes on NUMA. The use of NUMA is configured in the CPU element by the numaNodeAssignment attribute that enables IIS to identify the most optimal NUMA node when the IIS worker process is about to start, and the numaNodeAffinityMode attribute that determines how the threads from an IIS worker process are affinitized to a NUMA node. NUMA is also configured using the MaxProcesses attribute of the processModel element, which when set to `0` specifies that IIS automatically runs the same number of worker processes as there are NUMA nodes. For more information, see [IIS 8.0 Multicore Scaling on NUMA Hardware.](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-multicore-scaling-on-numa-hardware)
 
 The NUMA selection logic and affinity type can be set in the **Advanced Settings** dialog box only if IIS is running on NUMA hardware.
 
@@ -89,7 +84,7 @@ The `<applicationPools>` collection is included in the default installation of I
 | Attribute | Description |
 | --- | --- |
 | `action` | Optional enum attribute. Configures the action that IIS takes when a worker process exceeds its configured CPU limit. The action attribute is configured on a per-application pool basis. <br><br> The action attribute can be one of the following possible values. The default value is `NoAction`. <br><br><table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>NoAction</code></th> <td>No action is taken when the CPU limit is exceeded. A warning is written to the event log. <p>The numeric value is <code>0</code>.</p></td></tr> <tr> <th><code>KillW3wp</code></th> <td>Application pool worker processes that exceed their CPU limit will be forced to shut down. <p>The numeric value is <code>1</code>.</p></td></tr> <tr> <th><code>Throttle</code></th> <td>The CPU consumption is limited to the value set in Limit. The Limit interval is not used and an event log entry is generated. <p>The numeric value is <code>2</code>.</p></td></tr> <tr> <th><code>ThrottleUnderLoad</code></th> <td>The CPU consumption is limited only when there is contention on the CPU. The Limit interval is not used and an event log entry is generated. <p>The numeric value is <code>3</code>.</p></td></tr></tbody></table> |
-| `limit` | Optional uint attribute. Configures the maximum percentage of CPU time (in 1/1000ths of one percent) that the worker processes in an application pool are allowed to consume over a period of time as indicated by the resetInterval attribute. If the limit set by the limit attribute is exceeded, an event is written to the event log and an optional set of events can be triggered. These optional events are determined by the action attribute. <br><br> The default value is `0`, which disables CPU limiting. |
+| `limit` | Optional uint attribute. Configures the maximum percentage of CPU time (in 1/1000ths of one percent) that the worker processes in an application pool are allowed to consume over a period of time as indicated by the resetInterval attribute. If the limit set by the limit attribute is exceeded, an event is written to the event log and an optional set of events can be triggered. These optional events are determined by the action attribute. <br><br>**Note:** In IIS 8.5 and above, set **limit** in percent in the CPU pane of IIS Manager. In IIS 8.0, set **limit** in 1/1000ths of one percent in the CPU pane of IIS Manager. For both cases, the `limit` attribute in applicationHost.config is in 1/1000ths of one percent. <br><br> The default value is `0`, which disables CPU limiting. |
 | `numaNodeAffinityMode` | Optional enum attribute. Specifies how the threads of a process that is affinitized to a NUMA node will be scheduled on the node's cores. <br><br> The numaNodeAffinityMode attribute can be one of the following possible values. The default value is `Soft`. <br><br><table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Soft</code></th> <td>As long as the cores in a NUMA node to which a process is affinitized are available, all threads of the process will be scheduled on those cores. However, if the scheduler cannot schedule the process on the cores of the node that it is affinitized to, it can schedule the process on cores in another NUMA node. <p>The numeric value is <code>0</code>.</p></td></tr> <tr> <th><code>Hard</code></th> <td>Any thread of a process that is affinitized to a NUMA node will be scheduled on the node's cores and only those cores. No threads of that process will be scheduled on cores in another NUMA node. <p>The numeric value is <code>1</code>.</p></td></tr></tbody></table> |
 | `numaNodeAssignment` | Optional enum attribute. Specifies how IIS will determine which NUMA (non-uniform memory access) node to affinitize a process to. A NUMA node contains clusters of cores that share a single memory bank. This attribute is available in the CPU Advanced Settings only if NUMA nodes are available. <br><br> The numaNodeAssignment attribute can be one of the following possible values. The default value is `Most Available Memory`. <br><br><table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Most Available Memory</code></th> <td>The process will be assigned to the NUMA node that has the most memory free. <p>The numeric value is <code>0</code>.</p></td></tr> <tr> <th><code>Windows Scheduling</code></th> <td>Windows scheduling will determine which NUMA node the process is assigned to. <p>The numeric value is <code>1</code>.</p></td></tr></tbody></table> |
 | `processorGroup` | Optional int attribute. The number of processor groups used (zero-based). A processor group contains multiple cores. The Processor Group attribute is available in the CPU Advanced Settings only if the server has multiple processor groups. <br><br> The default value is `0`, which means that a single processor group is used. |
@@ -120,7 +115,7 @@ The following code samples configure the default application pool to kill the wo
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](cpu/samples/sample3.cs)]
 

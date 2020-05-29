@@ -1,19 +1,14 @@
 ---
-title: "Management Authorization Rules &lt;authorizationRules&gt; | Microsoft Docs"
+title: "Management Authorization Rules &lt;authorizationRules&gt;"
 author: rick-anderson
 description: "Overview The &lt;authorizationRules&gt; element of the &lt;authorization&gt; element specifies which IIS Manager users and Windows users are authorized to co..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 729a264b-3faa-4803-976d-413b89769cc0
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization/authorizationrules
 msc.type: config
 ---
-Management Authorization Rules &lt;authorizationRules&gt;
-====================
+# Management Authorization Rules &lt;authorizationRules&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -139,7 +134,7 @@ The following code samples check to see if a `<scope>` element has already been 
 > [!NOTE]
 > You cannot configure `<system.webServer/management/authorization>` settings using AppCmd.exe.
 
-### C#
+### C\#
 
 [!code-csharp[Main](index/samples/sample2.cs)]
 

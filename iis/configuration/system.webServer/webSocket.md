@@ -1,19 +1,14 @@
 ---
-title: "WebSocket <webSocket> &lt;webSocket&gt; | Microsoft Docs"
+title: "WebSocket <webSocket> &lt;webSocket&gt;"
 author: rick-anderson
 description: "Overview The &lt;webSocket&gt; element specifies the use of the WebSocketModule module with ASP.NET 4.5 to support writing server applications that communica..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: bf50c5d6-476e-4c47-8067-830bbb27c334
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/websocket
 msc.type: config
 ---
-WebSocket <webSocket> &lt;webSocket&gt;
-====================
+# WebSocket <webSocket> &lt;webSocket&gt;
+
 <a id="001"></a>
 ## Overview
 
@@ -48,10 +43,10 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 ### Windows 8 or Windows 8.1
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-- Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **WebSocket Protocol**.  
-    [![](webSocket/_static/image4.png)](webSocket/_static/image3.png)
-- Click **OK**.
-- Click **Close**.
+2. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **WebSocket Protocol**.  
+     [![](webSocket/_static/image4.png)](webSocket/_static/image3.png)
+3. Click **OK**.
+4. Click **Close**.
 
 <a id="004"></a>
 ## How To
@@ -64,9 +59,8 @@ If an incoming request is to be accepted as a WebSocket request and subsequently
 
 Once the response is sent, the handler can get a pointer to the IWebSocketContext through the IHttpContext3's GetNamedContext API.
 
-For more information, see [IWebSocketContext interface](https://msdn.microsoft.com/en-us/library/hh852804(v=vs.90).aspx).
+For more information, see [IWebSocketContext interface](https://msdn.microsoft.com/library/hh852804.aspx).
   
-
 ### How to configure webSocket
 
 1. Open **Internet Information Services (IIS) Manager**: 
@@ -122,7 +116,7 @@ The following sample code configures **&lt;webSocket&gt;** for a site.
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-### C#
+### C\#
 
 [!code-csharp[Main](webSocket/samples/sample3.cs)]
 
