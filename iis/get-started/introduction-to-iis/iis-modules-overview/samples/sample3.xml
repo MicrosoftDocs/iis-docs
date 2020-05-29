@@ -1,1 +1,1 @@
-<addname="FormsAuthentication"type="System.Web.Security.FormsAuthenticationModule" preCondition="managedHandler" />
+<add name="FormsAuthentication"type="System.Web.Security.FormsAuthenticationModule" preCondition="managedHandler" />
