@@ -8,7 +8,7 @@ msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/us
 msc.type: authoredcontent
 ---
 
-Using PHP Manager for IIS to setup and configure PHP
+# Using PHP Manager for IIS to setup and configure PHP
 
 by [Ruslan Yakushev](https://github.com/ruslany), [Lex Li](https://github.com/lextm)
 
