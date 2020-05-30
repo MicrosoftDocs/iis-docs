@@ -1,5 +1,5 @@
 ---
-title: "Deny by Request Rate <denyByRequestRate> &lt;denyByRequestRate&gt;"
+title: "Deny by Request Rate &lt;denyByRequestRate&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyByRequestRate&gt; element specifies that a remote client will be blocked if the number of requests received over a period of time exceed..."
 ms.date: 09/26/2016
