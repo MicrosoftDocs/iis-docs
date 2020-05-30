@@ -26,7 +26,7 @@ The Query Publishing Point Settings request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|GET|http(s)://<hostname>/<filepath>/settings|
+|GET|http(s)://\<hostname>/\<filepath>/settings|
 
 ### URI Parameters
 

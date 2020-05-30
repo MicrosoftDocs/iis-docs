@@ -1,5 +1,5 @@
 ---
-title: "WebSocket <webSocket> &lt;webSocket&gt;"
+title: "WebSocket &lt;webSocket&gt;"
 author: rick-anderson
 description: "Overview The &lt;webSocket&gt; element specifies the use of the WebSocketModule module with ASP.NET 4.5 to support writing server applications that communica..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: bf50c5d6-476e-4c47-8067-830bbb27c334
 msc.legacyurl: /configreference/system.webserver/websocket
 msc.type: config
 ---
-# WebSocket <webSocket> &lt;webSocket&gt;
+# WebSocket &lt;webSocket&gt;
 
 <a id="001"></a>
 ## Overview
