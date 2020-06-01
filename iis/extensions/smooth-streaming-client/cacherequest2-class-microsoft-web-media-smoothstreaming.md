@@ -76,7 +76,7 @@ The CacheRequest2 type exposes the following members.
 ||Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheRequest2(Stream)](cacherequest2-constructor-stream-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the CacheRequest2 class based on the specified stream.|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheRequest2(HttpWebRequest, IList<TrackInfo>)](cacherequest2-constructor-httpwebrequest-ilist-trackinfo-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the CacheRequest2 class based on the specified web request and list of selectable tracks.|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheRequest2(HttpWebRequest, IList\<TrackInfo>)](cacherequest2-constructor-httpwebrequest-ilist-trackinfo-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the CacheRequest2 class based on the specified web request and list of selectable tracks.|
 
 ## Properties
 

@@ -86,6 +86,7 @@ For information about packaging and deploying applications with the Web Deployme
 - [Export a Package through IIS Manager](export-a-package-through-iis-manager.md).
 - [Import a Package through IIS Manager](import-a-package-through-iis-manager.md).
 - [Configure the Web Deployment Handler](configure-the-web-deployment-handler.md).
+- [Import publish settings in Visual Studio](/visualstudio/deployment/tutorial-import-publish-settings-iis)
 
 ## Migrate from IIS 6.0 to IIS 7 or Above
 

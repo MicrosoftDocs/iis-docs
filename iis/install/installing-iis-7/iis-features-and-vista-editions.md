@@ -66,7 +66,7 @@ Premium</th>
 Basic &amp; Starter</th></TR>
 <tr>
 <td colspan="6">
-<p><b>Internet Information Services</b></p></td>
+<p><strong>Internet Information Services</strong></p></td>
 <td colspan="5">
 <p>IIS-WebServerRole</p></td>
 <td>
@@ -79,9 +79,9 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="5">
-<p><b>World Wide Web Services</b></p></td>
+<p><strong>World Wide Web Services</strong></p></td>
 <td colspan="5">
 <p>IIS-WebServer</p></td>
 <td>
@@ -94,11 +94,11 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="4">
-<p><b>Common Http Features</b></p></td>
+<p><strong>Common Http Features</strong></p></td>
 <td colspan="5">
 <p>IIS-CommonHttpFeatures</p></td>
 <td>
@@ -111,13 +111,13 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Static Content</b></p></td>
+<p><strong>Static Content</strong></p></td>
 <td colspan="5">
 <p>IIS-StaticContent</p></td>
 <td>
@@ -130,13 +130,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Default Document</b></p></td>
+<p><strong>Default Document</strong></p></td>
 <td colspan="5">
 <p>IIS-DefaultDocument</p></td>
 <td>
@@ -149,13 +149,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Directory Browsing</b></p></td>
+<p><strong>Directory Browsing</strong></p></td>
 <td colspan="5">
 <p>IIS-DirectoryBrowsing</p></td>
 <td>
@@ -168,13 +168,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>HTTP Errors</b></p></td>
+<p><strong>HTTP Errors</strong></p></td>
 <td colspan="5">
 <p>IIS-HttpErrors</p></td>
 <td>
@@ -187,13 +187,13 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>HTTP Redirection</b></p></td>
+<p><strong>HTTP Redirection</strong></p></td>
 <td colspan="5">
 <p>IIS-HttpRedirect</p></td>
 <td>
@@ -206,11 +206,11 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="4">
-<p><b>Application Development Features</b></p></td>
+<p><strong>Application Development Features</strong></p></td>
 <td colspan="5">
 <p>IIS-ApplicationDevelopment</p></td>
 <td>
@@ -223,13 +223,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>ASP.NET</b></p></td>
+<p><strong>ASP.NET</strong></p></td>
 <td colspan="5">
 <p>IIS-ASPNET</p></td>
 <td>
@@ -242,13 +242,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>.NET Extensibility</b></p></td>
+<p><strong>.NET Extensibility</strong></p></td>
 <td colspan="5">
 <p>IIS-NetFxExtensibility</p></td>
 <td>
@@ -261,13 +261,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>ASP</b></p></td>
+<p><strong>ASP</strong></p></td>
 <td colspan="5">
 <p>IIS-ASP</p></td>
 <td>
@@ -280,13 +280,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>CGI</b></p></td>
+<p><strong>CGI</strong></p></td>
 <td colspan="5">
 <p>IIS-CGI</p></td>
 <td>
@@ -299,13 +299,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>ISAPI Extensions</b></p></td>
+<p><strong>ISAPI Extensions</strong></p></td>
 <td colspan="5">
 <p>IIS-ISAPIExtensions</p></td>
 <td>
@@ -318,13 +318,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>ISAPI Filters</b></p></td>
+<p><strong>ISAPI Filters</strong></p></td>
 <td colspan="5">
 <p>IIS-ISAPIFilter</p></td>
 <td>
@@ -337,13 +337,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Server-Side Includes</b></p></td>
+<p><strong>Server-Side Includes</strong></p></td>
 <td colspan="5">
 <p>IIS-ServerSideInclude</p></td>
 <td>
@@ -356,11 +356,11 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="4">
-<p><b>Health and Diagnostics</b></p></td>
+<p><strong>Health and Diagnostics</strong></p></td>
 <td colspan="5">
 <p>IIS-HealthAndDiagnostics</p></td>
 <td>
@@ -373,13 +373,13 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>HTTP Logging</b></p></td>
+<p><strong>HTTP Logging</strong></p></td>
 <td colspan="5">
 <p>IIS-HTTPLogging</p></td>
 <td>
@@ -392,13 +392,13 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Logging Tools</b></p></td>
+<p><strong>Logging Tools</strong></p></td>
 <td colspan="5">
 <p>IIS-LoggingLibraries</p></td>
 <td>
@@ -411,13 +411,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Request Monitor</b></p></td>
+<p><strong>Request Monitor</strong></p></td>
 <td colspan="5">
 <p>IIS-RequestMonitor</p></td>
 <td>
@@ -430,13 +430,13 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Tracing</b></p></td>
+<p><strong>Tracing</strong></p></td>
 <td colspan="5">
 <p>IIS-HttpTracing</p></td>
 <td>
@@ -449,13 +449,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Custom Logging</b></p></td>
+<p><strong>Custom Logging</strong></p></td>
 <td colspan="5">
 <p>IIS-CustomLogging</p></td>
 <td>
@@ -468,13 +468,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>ODBC Logging</b></p></td>
+<p><strong>ODBC Logging</strong></p></td>
 <td colspan="5">
 <p>IIS-ODBCLogging</p></td>
 <td>
@@ -487,11 +487,11 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="4">
-<p><b>Security</b></p></td>
+<p><strong>Security</strong></p></td>
 <td colspan="5">
 <p>IIS-Security</p></td>
 <td>
@@ -504,13 +504,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Basic Authentication</b></p></td>
+<p><strong>Basic Authentication</strong></p></td>
 <td colspan="5">
 <p>IIS-BasicAuthentication</p></td>
 <td>
@@ -523,13 +523,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Windows Authentication</b></p></td>
+<p><strong>Windows Authentication</strong></p></td>
 <td colspan="5">
 <p>IIS-WindowsAuthentication</p></td>
 <td>
@@ -542,13 +542,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Digest Authentication</b></p></td>
+<p><strong>Digest Authentication</strong></p></td>
 <td colspan="5">
 <p>IIS-DigestAuthentication</p></td>
 <td>
@@ -561,13 +561,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Client Certificate Mapping Authentication</b></p></td>
+<p><strong>Client Certificate Mapping Authentication</strong></p></td>
 <td colspan="5">
 <p>IIS-ClientCertificateMappingAuthentication</p></td>
 <td>
@@ -580,13 +580,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>IIS Client Certificate Mapping Authentication</b></p></td>
+<p><strong>IIS Client Certificate Mapping Authentication</strong></p></td>
 <td colspan="5">
 <p>IIS-IISCertificateMappingAuthentication</p></td>
 <td>
@@ -599,13 +599,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>URL Authorization</b></p></td>
+<p><strong>URL Authorization</strong></p></td>
 <td colspan="5">
 <p>IIS-URLAuthorization</p></td>
 <td>
@@ -618,13 +618,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Request Filtering</b></p></td>
+<p><strong>Request Filtering</strong></p></td>
 <td colspan="5">
 <p>IIS-RequestFiltering</p></td>
 <td>
@@ -637,13 +637,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>IP Security</b></p></td>
+<p><strong>IP Security</strong></p></td>
 <td colspan="5">
 <p>IIS-IPSecurity</p></td>
 <td>
@@ -656,11 +656,11 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="4">
-<p><b>Performance Features</b></p></td>
+<p><strong>Performance Features</strong></p></td>
 <td colspan="5">
 <p>IIS-Performance</p></td>
 <td>
@@ -673,13 +673,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Static Content Compression</b></p></td>
+<p><strong>Static Content Compression</strong></p></td>
 <td colspan="5">
 <p>IIS-HttpCompressionStatic</p></td>
 <td>
@@ -692,13 +692,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>Http Compression Dynamic</b></p></td>
+<p><strong>Http Compression Dynamic</strong></p></td>
 <td colspan="5">
 <p>IIS-HttpCompressionDynamic</p></td>
 <td>
@@ -711,9 +711,9 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="5">
-<p><b>Web Management Tools</b></p></td>
+<p><strong>Web Management Tools</strong></p></td>
 <td colspan="5">
 <p>IIS-WebServerManagementTools</p></td>
 <td>
@@ -726,11 +726,11 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>IIS Management Console</b></p></td>
+<p><strong>IIS Management Console</strong></p></td>
 <td colspan="5">
 <p>IIS-ManagementConsole</p></td>
 <td>
@@ -743,11 +743,11 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>IIS Management Scripts and Tools</b></p></td>
+<p><strong>IIS Management Scripts and Tools</strong></p></td>
 <td colspan="5">
 <p>IIS-ManagementScriptingTools</p></td>
 <td>
@@ -760,11 +760,11 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>IIS Management Service</b></p></td>
+<p><strong>IIS Management Service</strong></p></td>
 <td colspan="5">
 <p>IIS-ManagementService</p></td>
 <td>
@@ -777,11 +777,11 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="3">
-<p><b>IIS 6 Management Compatibility</b></p></td>
+<p><strong>IIS 6 Management Compatibility</strong></p></td>
 <td colspan="5">
 <p>IIS-IIS6ManagementCompatibility</p></td>
 <td>
@@ -794,13 +794,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>IIS Metabase and IIS 6 compatibility</b></p></td>
+<p><strong>IIS Metabase and IIS 6 compatibility</strong></p></td>
 <td colspan="5">
 <p>IIS-Metabase</p></td>
 <td>
@@ -813,13 +813,13 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>IIS 6 WMI Compatibility</b></p></td>
+<p><strong>IIS 6 WMI Compatibility</strong></p></td>
 <td colspan="5">
 <p>IIS-WMICompatibility</p></td>
 <td>
@@ -832,13 +832,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>IIS 6 Scripting Tools</b></p></td>
+<p><strong>IIS 6 Scripting Tools</strong></p></td>
 <td colspan="5">
 <p>IIS-LegacyScripts</p></td>
 <td>
@@ -851,13 +851,13 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>IIS 6 Management Console</b></p></td>
+<p><strong>IIS 6 Management Console</strong></p></td>
 <td colspan="5">
 <p>IIS-LegacySnapIn</p></td>
 <td>
@@ -870,9 +870,9 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="5">
-<p><b>FTP Publishing Service</b></p></td>
+<p><strong>FTP Publishing Service</strong></p></td>
 <td colspan="5">
 <p>IIS-FTPPublishingService</p></td>
 <td>
@@ -885,11 +885,11 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="4">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>FTP Server</b></p></td>
+<p><strong>FTP Server</strong></p></td>
 <td colspan="5">
 <p>IIS-FTPServer</p></td>
 <td>
@@ -902,11 +902,11 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td>
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="4">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td>
-<p><b>FTP Management Console</b></p></td>
+<p><strong>FTP Management Console</strong></p></td>
 <td colspan="5">
 <p>IIS-FTPManagement</p></td>
 <td>
@@ -919,7 +919,7 @@ Basic &amp; Starter</th></TR>
 <p>N/A</p></td></TR>
 <tr>
 <td colspan="6">
-<p><b>Windows Activation Service</b></p></td>
+<p><strong>Windows Activation Service</strong></p></td>
 <td colspan="5">
 <p>WAS-WindowsActivationService</p></td>
 <td>
@@ -932,9 +932,9 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td colspan="4">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>Process Model</b></p></td>
+<p><strong>Process Model</strong></p></td>
 <td colspan="5">
 <p>WAS-ProcessModel</p></td>
 <td>
@@ -947,9 +947,9 @@ Basic &amp; Starter</th></TR>
 <p>Default</p></td></TR>
 <tr>
 <td colspan="4">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>.NET Environment</b></p></td>
+<p><strong>.NET Environment</strong></p></td>
 <td colspan="5">
 <p>WAS-NetFxEnvironment</p></td>
 <td>
@@ -962,9 +962,9 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td colspan="4">
-<p><b>&nbsp;</b> </p></td>
+<p><strong>&nbsp;</strong> </p></td>
 <td colspan="2">
-<p><b>Configuration APIs</b></p></td>
+<p><strong>Configuration APIs</strong></p></td>
 <td colspan="5">
 <p>WAS-ConfigurationAPI</p></td>
 <td>
@@ -977,8 +977,8 @@ Basic &amp; Starter</th></TR>
 <p>Available</p></td></TR>
 <tr>
 <td colspan="6">
-<p><b>&nbsp;</b> </p>
-<p><b>Request Execution Limit</b></p></td>
+<p><strong>&nbsp;</strong> </p>
+<p><strong>Request Execution Limit</strong></p></td>
 <td colspan="5">
 <p>&nbsp;  </p></td>
 <td>

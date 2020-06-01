@@ -26,7 +26,7 @@ The Enumerate Web Site Publishing Points request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|GET|http(s)://<hostname>/services/smoothstreaming/publishingpoints.isml|
+|GET|http(s)://\<hostname>/services/smoothstreaming/publishingpoints.isml|
 
 ### URI Parameters
 

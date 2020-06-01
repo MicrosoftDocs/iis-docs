@@ -26,7 +26,7 @@ The Query Publishing Point State request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|GET|http(s)://<hostname>/<filepath>/state|
+|GET|http(s)://\<hostname>/\<filepath>/state|
 
 ### URI Parameters
 

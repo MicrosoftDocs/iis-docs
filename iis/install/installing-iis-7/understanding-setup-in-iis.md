@@ -1,7 +1,7 @@
 ---
 title: "Understanding Setup in IIS 7"
 author: rick-anderson
-description: "This article provides an overview of Microsoft Windows Vista ® and Microsoft Server ® 2008 setup technology and a detailed examination of IIS 7.0 and above c..."
+description: "This article provides an overview of Microsoft Windows Vista &reg; and Microsoft Server &reg; 2008 setup technology and a detailed examination of IIS 7.0 and above c..."
 ms.date: 11/22/2007
 ms.assetid: a0767509-ddbb-442f-a5fa-3be040c32148
 msc.legacyurl: /learn/install/installing-iis-7/understanding-setup-in-iis
@@ -13,13 +13,13 @@ by [Saad Ladki](https://twitter.com/saadladki)
 
 ## About This Article
 
-This article provides an overview of Microsoft Windows Vista® and Microsoft Server® 2008 setup technology and a detailed examination of IIS 7.0 and above componentized setup. This information is especially important for those who will need to customize IIS Setup in command line and unattended script scenarios. If you regularly use Sysocmgr.exe in scripts to install IIS 6.0, then you must change those scripts for IIS 7.0 and above in Windows Vista and Windows Server 2008. This whitepaper gives you the background information you need to make these changes.
+This article provides an overview of Microsoft Windows Vista&reg; and Microsoft Server&reg; 2008 setup technology and a detailed examination of IIS 7.0 and above componentized setup. This information is especially important for those who will need to customize IIS Setup in command line and unattended script scenarios. If you regularly use Sysocmgr.exe in scripts to install IIS 6.0, then you must change those scripts for IIS 7.0 and above in Windows Vista and Windows Server 2008. This whitepaper gives you the background information you need to make these changes.
 
 <a id="aboutiis"></a>
 
 ## About IIS 7 and Above
 
-IIS 7 and above is the product name used to refer to the versions of Internet Information Services (IIS) that are included in some editions of Windows Server® 2008, Windows Server® 2008 R2, Windows Vista®, and Windows® 7.
+IIS 7 and above is the product name used to refer to the versions of Internet Information Services (IIS) that are included in some editions of Windows Server&reg; 2008, Windows Server&reg; 2008 R2, Windows Vista&reg;, and Windows&reg; 7.
 
 > IIS 7.0 is the Web Server (IIS) role in Windows Server 2008, and the Web server in Windows Vista.
 > 
@@ -92,12 +92,12 @@ The following table summarizes all the installable component features of IIS 7.0
 <tbody valign="top">
 <tr>
 <th colspan="6">
-<p><b>Setup Menu Items</b></p></th>
+<p><strong>Setup Menu Items</strong></p></th>
 <th>
-<p><b>Description</b></p></th></tr>
+<p><strong>Description</strong></p></th></tr>
 <tr>
 <th>
-<p><b>% </b></p></th>
+<p><strong>% </strong></p></th>
 <td colspan="5">
 <p>Web Server</p></td>
 <td>
@@ -105,7 +105,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <tr>
 <td colspan="2">&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td colspan="3">
 <p>Common HTTP Features</p></td>
 <td>
@@ -116,7 +116,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td>
 <p>Static Content</p></td>
 <td>
@@ -127,7 +127,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td>
 <p>Default Document</p></td>
 <td>
@@ -138,7 +138,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td>
 <p>Directory Browse</p></td>
 <td>
@@ -149,7 +149,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td>
 <p>HTTP Errors</p></td>
 <td>
@@ -246,7 +246,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <th>
-<p><b>% </b></p></th>
+<p><strong>% </strong></p></th>
 <td colspan="3">
 <p>Health &amp; Diagnostics</p></td>
 <td>
@@ -257,7 +257,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td>
 <p>HTTP Logging</p></td>
 <td>
@@ -278,7 +278,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td>
 <p>Request Monitor</p></td>
 <td>
@@ -405,7 +405,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <th>
-<p><b>% </b></p></th>
+<p><strong>% </strong></p></th>
 <td colspan="3">
 <p>Performance</p></td>
 <td>&nbsp;</td></tr>
@@ -415,7 +415,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p> <b>?</b> </p></td>
+<p> <strong>?</strong> </p></td>
 <td>
 <p>Static Content Compression</p></td>
 <td>
@@ -432,7 +432,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <p>Compresses dynamic content before returning it to a client.</p></td></tr>
 <tr>
 <th>
-<p><b>% </b></p></th>
+<p><strong>% </strong></p></th>
 <td colspan="5">
 <p>Web Server Management Tools</p></td>
 <td>
@@ -441,7 +441,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>
-<p><b>? </b></p></td>
+<p><strong>? </strong></p></td>
 <td colspan="3">
 <p>IIS Management Console</p></td>
 <td>
@@ -531,9 +531,9 @@ The following table summarizes all the installable component features of IIS 7.0
 <td colspan="3">
 <p>FTP Management Console</p></td>
 <td>
-<p>Installs FTP management console for administration of local and remote FTP servers.</p></td></tr></tbody></table></div>
+<p>Installs FTP management console for administration of local and remote FTP servers.</p></td></tr></tbody></table>
 <p>Key:</p>
-<div>
+
 <table class="data-table" border="0" cellspacing="0" cellpadding="0">
 <colgroup>
 <col>
@@ -545,12 +545,12 @@ The following table summarizes all the installable component features of IIS 7.0
 <p>Feature is not selected by default.</p></td></tr>
 <tr>
 <th valign="bottom">
-<p><b>%</b> </p></th>
+<p><strong>%</strong> </p></th>
 <td valign="bottom">
 <p>Feature is selected by default but has one or more non-selected sub-features.</p></td></tr>
 <tr>
 <td valign="bottom">
-<p><b>?</b> </p></td>
+<p><strong>?</strong> </p></td>
 <td valign="bottom">
 <p>Feature is selected by default - all, if any, sub-features are also selected.</p></td></tr></tbody></table>
 

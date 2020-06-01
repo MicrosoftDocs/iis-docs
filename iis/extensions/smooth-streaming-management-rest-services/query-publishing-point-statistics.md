@@ -26,7 +26,7 @@ The Query Publishing Point Statistics request may be specified as follows:
 
 |Method|URI|
 |--- |--- |
-|GET|http(s)://<hostname>/<filepath>/statistics|
+|GET|http(s)://\<hostname>/\<filepath>/statistics|
 
 ### URI Parameters
 

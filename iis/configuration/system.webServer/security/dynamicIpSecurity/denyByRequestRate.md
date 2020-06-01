@@ -1,5 +1,5 @@
 ---
-title: "Deny by Request Rate <denyByRequestRate> &lt;denyByRequestRate&gt;"
+title: "Deny by Request Rate &lt;denyByRequestRate&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyByRequestRate&gt; element specifies that a remote client will be blocked if the number of requests received over a period of time exceed..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: 8f0bd47d-adf6-4738-978d-8071b2747048
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity/denybyrequestrate
 msc.type: config
 ---
-# Deny by Request Rate <denyByRequestRate> &lt;denyByRequestRate&gt;
+# Deny by Request Rate &lt;denyByRequestRate&gt;
 
 <a id="001"></a>
 ## Overview

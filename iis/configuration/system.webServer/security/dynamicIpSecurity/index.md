@@ -1,5 +1,5 @@
 ---
-title: "Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;"
+title: "Dynamic IP Security &lt;dynamicIpSecurity&gt;"
 author: rick-anderson
 description: "Overview The &lt;dynamicIpSecurity&gt; element provides a dynamic means of blocking malicious Web requests. Using dynamic IP restrictions means the administr..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: 6990bc31-c315-4e89-acaa-e9ee7a9a39b2
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity
 msc.type: config
 ---
-# Dynamic IP Security <dynamicIpSecurity> &lt;dynamicIpSecurity&gt;
+# Dynamic IP Security &lt;dynamicIpSecurity&gt;
 
 <a id="001"></a>
 ## Overview

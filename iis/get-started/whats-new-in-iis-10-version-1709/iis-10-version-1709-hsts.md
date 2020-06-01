@@ -53,7 +53,7 @@ An alternative solution is installing the [URL Rewrite Module](../../extensions/
 
 ## IIS 10.0 Version 1709 Native HSTS Support
 
-With the release of IIS 10.0 version 1709, HSTS is now supported natively. The configuration for enabling HSTS is significantly simplified - HSTS can be enabled at site-level by configuring the attributes of the `<hsts>` element under each `<site>` element - more details can be found in the configuration reference of HSTS [HSTS Settings for a Web Site <HSTS>](../../configuration/system.applicationhost/sites/site/hsts.md).
+With the release of IIS 10.0 version 1709, HSTS is now supported natively. The configuration for enabling HSTS is significantly simplified - HSTS can be enabled at site-level by configuring the attributes of the `<hsts>` element under each `<site>` element - more details can be found in the configuration reference of HSTS [HSTS Settings for a Web Site \<HSTS>](../../configuration/system.applicationhost/sites/site/hsts.md).
 
 The example scenario can be simply achieved by configuring the `enabled`, `max-age`, and `redirectHttpToHttps` attributes of the `<hsts>` element of the website using [IISAdministration PowerShell cmdlets](../whats-new-in-iis-10/iisadministration-powershell-cmdlets.md) following the [tutorial](https://blogs.iis.net/jeonghwan/how-to-use-iisadministration-powershell-cmdlets-to-configure-iis-configuration-settings).
 
