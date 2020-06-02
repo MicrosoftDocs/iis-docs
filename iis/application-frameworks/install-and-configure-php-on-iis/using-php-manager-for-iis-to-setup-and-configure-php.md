@@ -2,7 +2,7 @@
 title: "Using PHP Manager for IIS to setup and configure PHP"
 author: ruslany
 description: "From the Downloads page select the installation package that is appropriate for your target machine. Download and run the installer, which will install and r..."
-ms.date: 09/13/2010
+ms.date: 6/1/2020
 ms.assetid: 9e07564f-3c41-4d22-ba76-3daaf0847db9
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/using-php-manager-for-iis-to-setup-and-configure-php
 msc.type: authoredcontent
@@ -12,6 +12,7 @@ msc.type: authoredcontent
 
 by [Ruslan Yakushev](https://github.com/ruslany), [Lex Li](https://github.com/lextm)
 
+PHP Manager is not a Microsoft-owned or supported product.
 ### Installation
 
 From the [Downloads](https://github.com/phpmanager/phpmanager/releases) page select the installation package that is appropriate for your target machine. Download and run the installer, which will install and register PHP Manager's binaries with IIS. Note that only IIS versions 7.0 and above are supported. After installation is complete, launch the IIS Manager and find the "PHP Manager" feature:
