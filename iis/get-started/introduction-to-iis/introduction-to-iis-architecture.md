@@ -178,7 +178,7 @@ Several modules in IIS perform tasks related to content in the request-processin
 
 | Module Name | Description | Resource |
 | --- | --- | --- |
-|ASP.NET Core Module |Host an ASP.NET Core app inside of the IIS worker process or Forward web requests to a backend ASP.NET Core app running the Kestrel server |
+|ASP.NET Core Module |Host an ASP.NET Core app inside of the IIS worker process or Forward web requests to a backend ASP.NET Core app running the Kestrel server | \Install Directory\aspnetcorev2.dll |
 | CgiModule | Executes Common Gateway Interface (CGI) processes to build response output. | Inetsrv\Cgi.dll |
 | DefaultDocumentModule | Attempts to return a default document for requests made to the parent directory. | Inetsrv\Defdoc.dll |
 | DirectoryListingModule | Lists the contents of a directory. | Inetsrv\dirlist.dll |
