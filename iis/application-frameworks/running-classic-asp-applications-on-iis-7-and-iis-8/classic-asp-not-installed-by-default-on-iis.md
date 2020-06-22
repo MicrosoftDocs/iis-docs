@@ -43,29 +43,29 @@ To support and configure ASP applications on your Web server, you must install t
 4. Click **OK**.
 5. Click **Close**.
 
-## Installing Classic ASP onWindows Server 2008orWindows Server 2008 R2
+## Installing Classic ASP onWindows Server 2008 or Windows Server 2008 R2
 
 1. Click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **ASP**.
 
-    ![](classic-asp-not-installed-by-default-on-iis/_static/image1.png)
+    ![Add Role Services dialog with ASP selected](classic-asp-not-installed-by-default-on-iis/_static/image1.png)
 5. If the **Add role services required by ASP** dialog box appears, click **Add Required Role Services**. (This page appears only if you have not already installed the ISAPI Extensions role service on your server.)
 
-    ![](classic-asp-not-installed-by-default-on-iis/_static/image3.png)
+    ![Add Role Services Required by ASP dialog](classic-asp-not-installed-by-default-on-iis/_static/image3.png)
 6. On the **Select Role Services** page, click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
 
-## Installing Classic ASP onWindows Vista or Windows 7 Client
+## Installing Classic ASP on Windows Vista or Windows 7 Client
 
 1. Click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.
 4. Select **ASP**, and then click **OK**.
 
-    ![](classic-asp-not-installed-by-default-on-iis/_static/image6.jpg)
+    ![Windows Features Dialog with ASP selected](classic-asp-not-installed-by-default-on-iis/_static/image6.jpg)
 
 ## More Information
 
