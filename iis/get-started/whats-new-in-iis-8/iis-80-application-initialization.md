@@ -97,7 +97,7 @@ The web.config file has a few configuration sections already pre-populated, but 
 
 [!code-xml[Main](iis-80-application-initialization/samples/sample4.xml)]
 
-The **applicationInitialization** element tells IIS that it should issue a request to the application's root Url ("/" in this example) in order to initialize the application. While IIS waits for the request to "/" to complete, it will serve "Startup.htm" to any active browser clients. "Startup.htm" is the "splash page" for the application.
+The **applicationInitialization** element tells IIS that it should issue a request to the application's root Url ("/default.aspx" in this example) in order to initialize the application. While IIS waits for the request to "/default.aspx to complete, it will serve "Startup.htm" to any active browser clients. "Startup.htm" is the "splash page" for the application.
 
 <a id="TOC301259900"></a>
 
