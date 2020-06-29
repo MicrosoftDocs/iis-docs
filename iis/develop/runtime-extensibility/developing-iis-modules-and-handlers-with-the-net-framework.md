@@ -34,13 +34,13 @@ In addition to this, IIS for the first time also provides a full-fidelity .NET A
 To build IIS modules and handlers, use any environment that allows you to develop and compile .NET assemblies. Some of the common options are:
 
 1. **Visual Studio 2005**. Alternatively, you can also download the latest beta release of [Visual Studio 2008](https://go.microsoft.com/?linkid=9268697).
-2. [**Visual C# 2005 Express Edition**](https://msdn.microsoft.com/vstudio/express/visualcsharp/default.aspx), a free download (or other Express tools, including Visual Basic 2005 Express).
+2. [**Visual C# 2005 Express Edition**](https://visualstudio.microsoft.com/), a free download (or other Express tools, including Visual Basic 2005 Express).
 3. **The C# command line compiler** (csc.exe) included in the .NET framework runtime (for other languages, you will need to download the [SDK](https://msdn.microsoft.com/netframework/aa569263.aspx)), plus your favorite source editor.
 
 The samples in this article use C#, although you can develop IIS components in any other supported .NET language (except managed C++). The article illustrates how to develop IIS extensibility components with all three of the above environments.
 
 > [!NOTE]
-> Because IIS leverages the existing ASP.NET APIs for its .NET extensibility, you can develop IIS .NET modules and handlers with .NET Framework 2.0 on Windows XP® and Windows Server® 2003. However, if you plan to use one of the several new ASP.NET APIs that have been added to support new IIS features, you must either develop on Windows Vista®, or obtain the version of System.Web.dll from in Windows Vista or the latest release of [.Net Framework 3.5](https://msdn.microsoft.com/netframework/default.aspx) in order to compile your code.
+> Because IIS leverages the existing ASP.NET APIs for its .NET extensibility, you can develop IIS .NET modules and handlers with .NET Framework 2.0 on Windows XP® and Windows Server® 2003. However, if you plan to use one of the several new ASP.NET APIs that have been added to support new IIS features, you must either develop on Windows Vista®, or obtain the version of System.Web.dll from in Windows Vista or the latest release of [.Net Framework 3.5](https://dotnet.microsoft.com/) in order to compile your code.
 
 ## Two Ways to Extend IIS: Module vs. Handler
 

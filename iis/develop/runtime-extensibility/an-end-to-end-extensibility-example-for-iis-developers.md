@@ -42,7 +42,7 @@ If you have a Windows Server 2008 build, open "Server Manager" - "Roles" and sel
 
 ### Visual C# Express Edition or Visual Studio 2005
 
-For the User Interface Module, you need a C# Development Tool. If you do not have a copy of Visual Studio 2005, [download Visual C# Express](https://msdn.microsoft.com/vstudio/express/visualcsharp/) for free.
+For the User Interface Module, you need a C# Development Tool. If you do not have a copy of Visual Studio 2005, [download Visual C# Express](https://visualstudio.microsoft.com/) for free.
 
 ### Dealing With User Account Control Issues
 

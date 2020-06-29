@@ -64,7 +64,7 @@ Each ParameterEntry type has a specific format for defining the scope and the ma
 
 ### TextFile ParameterEntry types
 
-With the TextFile type, the scope is a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) used to identify a file or set of files to target. The match is a regular expression that represents the string to be replaced. The WDT applies the parameter substitution to all strings that are found by the match in all of the files identified by the scope. When defining regular expressions for TextFile ParameterEntry types, it is important to make sure that you limit both your match and your scope to the most precise expressions you can define.
+With the TextFile type, the scope is a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) used to identify a file or set of files to target. The match is a regular expression that represents the string to be replaced. The WDT applies the parameter substitution to all strings that are found by the match in all of the files identified by the scope. When defining regular expressions for TextFile ParameterEntry types, it is important to make sure that you limit both your match and your scope to the most precise expressions you can define.
 
 TextFile gives you the most reliable method for identifying targets within a file when you have complete control over the source and you are able to define the strings to be targeted. If you do not have complete control over the source, you can use the TextFilePosition parameterEntry type to uniquely identify the target. This most commonly happens with configuration files that have other aspects of the application that expect specific data in both modified and unmodified versions of the file.
 
@@ -76,7 +76,7 @@ For example, you could specify that a database user name needs to be placed with
 
 Many applications use XML files for data or configuration. All Microsoft® .NET applications, and many PHP applications, use a Web.config file for storing Web site and application configuration information. When identifying a target within a XML file, the most reliable mechanism to use is an XPath query.
 
-The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) to identify the target file(s). The match is specified as an [XPath query](https://msdn.microsoft.com/library/ms256471.aspx). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
+The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the target file(s). The match is specified as an [XPath query](https://msdn.microsoft.com/library/ms256471.aspx). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
 
 For example, an application might have a SQL connectionString in a Web.config file. There may be more than one connectionString in the file to allow for different database types:
 
