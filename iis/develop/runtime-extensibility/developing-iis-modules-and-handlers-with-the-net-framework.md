@@ -40,7 +40,7 @@ To build IIS modules and handlers, use any environment that allows you to develo
 The samples in this article use C#, although you can develop IIS components in any other supported .NET language (except managed C++). The article illustrates how to develop IIS extensibility components with all three of the above environments.
 
 > [!NOTE]
-> Because IIS leverages the existing ASP.NET APIs for its .NET extensibility, you can develop IIS .NET modules and handlers with .NET Framework 2.0 on Windows XP® and Windows Server® 2003. However, if you plan to use one of the several new ASP.NET APIs that have been added to support new IIS features, you must either develop on Windows Vista®, or obtain the version of System.Web.dll from in Windows Vista or the latest release of [.Net Framework 3.5](https://dotnet.microsoft.com/) in order to compile your code.
+> Because IIS leverages the existing ASP.NET APIs for its .NET extensibility, you can develop IIS .NET modules and handlers with .NET Framework 2.0 on Windows XP® and Windows Server® 2003. However, if you plan to use one of the several new ASP.NET APIs that have been added to support new IIS features, you must either develop on Windows Vista®, or obtain the version of System.Web.dll from in Windows Vista or the latest release of [.NET Framework 3.5](https://dotnet.microsoft.com/download/dotnet-framework/net35-sp1) in order to compile your code.
 
 ## Two Ways to Extend IIS: Module vs. Handler
 
