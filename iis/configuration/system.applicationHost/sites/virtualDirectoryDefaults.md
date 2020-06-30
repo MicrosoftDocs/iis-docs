@@ -56,7 +56,6 @@ The `<virtualDirectoryDefaults>` element of the `<sites>` element is included in
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, then click the **Sites** node.
-
 3. In the server's **Sites** pane, click **Set Web Site Defaults...** in the **Actions** pane.  
     [![](virtualDirectoryDefaults/_static/image2.png)](virtualDirectoryDefaults/_static/image1.png)
 4. In the **Web Site Defaults** dialog box, specify your default virtual directory credentials for all Web sites, and then click **OK**.  
