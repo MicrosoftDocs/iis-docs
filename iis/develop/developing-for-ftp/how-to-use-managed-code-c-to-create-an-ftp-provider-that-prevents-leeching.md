@@ -93,7 +93,7 @@ In this step, you will implement the extensibility interface for the demo provid
 3. Save and compile the project.
 
 > [!NOTE]
-> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS 8.0 computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following topic on Microsoft the MSDN Web site:
+> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS 8.0 computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following article:
 >
 > - [Global Assembly Cache Tool (Gacutil.exe)](/dotnet/framework/tools/gacutil-exe-gac-tool)
 
