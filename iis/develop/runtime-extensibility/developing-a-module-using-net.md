@@ -130,7 +130,7 @@ First, deploy the module to the application. Here, you have several options:
     `<PATH_TO_FX_SDK>csc.exe /out:BasicAuthenticationModule.dll /target:library BasicAuthenticationModule.cs`
 
     Where `<PATH_TO_FX_SDK>` is the path to the .NET Framework SDK that contains the CSC.EXE compiler.
-- Compile the module into a strongly named assembly, and register this assembly in the GAC. This is a good option if you want multiple applications on your machine to use this module. To learn more about building strongly named assemblies, see this [MSDN article](https://www.microsoft.com/en-us/download/details.aspx?id=55984) .
+- Compile the module into a strongly named assembly, and register this assembly in the GAC. This is a good option if you want multiple applications on your machine to use this module. To learn more about building strongly named assemblies, see [Create and use strong-named assemblies](/dotnet/standard/assembly/create-use-strong-named).
 
 Before making configuration changes in the application's web.config file, we must unlock some of the configuration sections that are locked at the server level by default. Run the following from an Elevated command prompt (Start &gt; Right click on Cmd.exe and choose "Run as Administrator"):
 
