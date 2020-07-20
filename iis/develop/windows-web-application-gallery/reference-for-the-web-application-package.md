@@ -64,7 +64,7 @@ Each ParameterEntry type has a specific format for defining the scope and the ma
 
 ### TextFile ParameterEntry types
 
-With the TextFile type, the scope is a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) used to identify a file or set of files to target. The match is a regular expression that represents the string to be replaced. The WDT applies the parameter substitution to all strings that are found by the match in all of the files identified by the scope. When defining regular expressions for TextFile ParameterEntry types, it is important to make sure that you limit both your match and your scope to the most precise expressions you can define.
+With the TextFile type, the scope is a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) used to identify a file or set of files to target. The match is a regular expression that represents the string to be replaced. The WDT applies the parameter substitution to all strings that are found by the match in all of the files identified by the scope. When defining regular expressions for TextFile ParameterEntry types, it is important to make sure that you limit both your match and your scope to the most precise expressions you can define.
 
 TextFile gives you the most reliable method for identifying targets within a file when you have complete control over the source and you are able to define the strings to be targeted. If you do not have complete control over the source, you can use the TextFilePosition parameterEntry type to uniquely identify the target. This most commonly happens with configuration files that have other aspects of the application that expect specific data in both modified and unmodified versions of the file.
 
@@ -76,7 +76,7 @@ For example, you could specify that a database user name needs to be placed with
 
 Many applications use XML files for data or configuration. All Microsoft® .NET applications, and many PHP applications, use a Web.config file for storing Web site and application configuration information. When identifying a target within a XML file, the most reliable mechanism to use is an XPath query.
 
-The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](https://msdn.microsoft.com/library/az24scfc.aspx) to identify the target file(s). The match is specified as an [XPath query](https://msdn.microsoft.com/library/ms256471.aspx). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
+The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the target file(s). The match is specified as an [XPath query](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100)). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
 
 For example, an application might have a SQL connectionString in a Web.config file. There may be more than one connectionString in the file to allow for different database types:
 
@@ -86,7 +86,7 @@ You could use the generated connection string parameter in the following example
 
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample3.xml)]
 
-For more information, see the article "[XPath Syntax](https://msdn.microsoft.com/library/ms256471.aspx)."
+For more information, see the [XPath Syntax](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100)) article.
 
 ### ProviderPath
 
@@ -209,7 +209,7 @@ In the example, note:
 - iisApp is one of the 10 automatically translated parameters; do not specify translations for this parameter unless the default translations were insufficient for your needs.
 - Specify translations for both the "friendlyName" and the "description". If you do not specify a friendlyName, the UI will use the parameter name in all cases.
 
-For a table of common International Organization for Standardization (ISO) culture codes on MSDN, see the [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/library/ms866170.aspx).
+For a table of common International Organization for Standardization (ISO) culture codes, see the [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://docs.microsoft.com/previous-versions/commerce-server/ee825488(v=cs.20)).
 
 ## xxxx.sql
 

@@ -56,7 +56,7 @@ If you already have the Go Live release of URL rewrite module installed the inst
 
 ### ASP.NET update
 
-The URL Rewrite module installer package includes an ASP.NET update that fixes ASP.NET bugs specific to the URL Rewrite module. SPecifically, the update contains fixes for the following bugs:
+The URL Rewrite module installer package includes an ASP.NET update that fixes ASP.NET bugs specific to the URL Rewrite module. Specifically, the update contains fixes for the following bugs:
 
 1. ~ operator in ASP.NET Web server control is resolved incorrectly when using URL Rewrite.
 2. ASP.NET SiteMap.CurrentNode property returns null when sitemap contains virtual URLs.
