@@ -20,5 +20,3 @@ by [Chris Sfanos](https://github.com/chrissfanos)
  x86: [WebPI 5.1 x86 MSI] (https://go.microsoft.com/fwlink/?LinkId=287165)
  
  x64: [WebPI 5.1 x64 MSI] (https://go.microsoft.com/fwlink/?LinkId=287166)
-
-
