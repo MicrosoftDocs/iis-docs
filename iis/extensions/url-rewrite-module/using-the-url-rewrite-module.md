@@ -44,11 +44,7 @@ The Microsoft URL Rewrite module 2.0 includes the following key features:
 
 ## Where to get the URL Rewrite module
 
-For more information and to download the module, see [URL Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1691).
-
-[Download the x86 version of the URL Rewrite module](https://go.microsoft.com/?linkid=9722533)
-
-[Download the x64 version of the URL Rewrite module](https://go.microsoft.com/?linkid=9722532)
+For more information and to download the module, see the [URL Rewrite extension home page](https://www.iis.net/extensions/urlrewrite).
 
 ### Upgrading from Go Live release
 
