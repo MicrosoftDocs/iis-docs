@@ -179,5 +179,5 @@ Second, go to the `<httpErrors>` section in applicationHost.config and change it
 
 Custom and Detailed Errors are powerful IIS features. They help you to troubleshoot problems without compromising the security of your IIS Server. Many configuration options help you to custom tailor your users' experience. Most importantly: experimenting with it is fun.
 
-## See Also
+## See also
 - [Troubleshooting Common IIS Errors](https://docs.microsoft.com/previous-versions/iis/6.0-sdk/ms524996(v=vs.90))
