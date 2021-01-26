@@ -9,8 +9,6 @@ msc.type: authoredcontent
 ---
 # Hosting-Friendly Web Server Platform (IIS): Scenario Overview
 
-by IIS Team, [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
-
 by IIS Team, Keith Newman and [Robert McMurray](https://github.com/rmcmurray)
 
 ## Compatibility
