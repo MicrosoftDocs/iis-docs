@@ -7,7 +7,7 @@ api_name:
 api_location:
   - webengine.dll
 api_type:
-  - "COM"
+  - Assembly
 topic_type:
   - apiref
 ---
