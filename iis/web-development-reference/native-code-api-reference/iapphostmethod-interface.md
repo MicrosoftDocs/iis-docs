@@ -31,7 +31,7 @@ interface IAppHostMethod : IUnknown
  [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) objects provide a means for an administration system to support custom-defined methods that can be executed against a specific [IAppHostElement Interface](../../web-development-reference/native-code-api-reference/iapphostelement-interface.md) object. The methods are executed on the server side and the implementation of these custom methods is not exposed to the client.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostMethod`  
   

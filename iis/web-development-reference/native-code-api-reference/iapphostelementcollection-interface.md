@@ -32,7 +32,7 @@ interface IAppHostElementCollection : IUnknown
 |[Schema](../../web-development-reference/native-code-api-reference/iapphostelementcollection-schema-property.md)|Returns the schema assigned to the current collection|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostElementCollection`  
   

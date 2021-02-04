@@ -32,7 +32,7 @@ interface IAppHostCollectionSchema : IUnknown
 |[RemoveElementSchema](../../web-development-reference/native-code-api-reference/iapphostcollectionschema-removeelementschema-property.md)|Gets the schema for the element that will be used to remove an item from the collection.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostCollectionSchema`  
   

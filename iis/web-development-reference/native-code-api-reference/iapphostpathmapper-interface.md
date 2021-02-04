@@ -26,7 +26,7 @@ interface IAppHostPathMapper : IUnknown
  This interface is used to point the configuration system to configuration files in custom physical paths.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostPathMapper`  
   

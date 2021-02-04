@@ -29,7 +29,7 @@ interface IAppHostPropertyCollection : IUnknown
  [!code-cpp[IAppHostAdminLibrary#5](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IAppHostAdminLibrary/cpp/IAppHostPropertyGetValue.cpp#5)]  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostPropertyCollection`  
   

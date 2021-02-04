@@ -24,7 +24,7 @@ interface IAppHostConstantValueCollection : IUnknown
 |[IAppHostConstantValueCollection::Item Property](../../web-development-reference/native-code-api-reference/iapphostconstantvaluecollection-item-property.md)|Gets the constant value at the specified index.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostConstantValueCollection`  
   
