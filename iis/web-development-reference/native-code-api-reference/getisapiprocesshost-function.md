@@ -7,7 +7,7 @@ api_name:
 api_location:
   - webengine.dll
 api_type:
-  - Assembly
+  - COM
 topic_type:
   - apiref
 ---
@@ -49,6 +49,7 @@ HRESULT __stdcall GetIsapiProcessHost(
 |Header|Webhost.h|
 |Assembly|webengine.dll|
   
-## See Also  
- [Windows Process Activation Service Functions](../../web-development-reference/native-code-api-reference/windows-process-activation-service-functions.md)   
- [PFNGetIsapiProcessHost Function](../../web-development-reference/native-code-api-reference/pfngetisapiprocesshost-function.md)
+## See Also
+
+- [Windows Process Activation Service Functions](../../web-development-reference/native-code-api-reference/windows-process-activation-service-functions.md)
+- [PFNGetIsapiProcessHost Function](../../web-development-reference/native-code-api-reference/pfngetisapiprocesshost-function.md)
