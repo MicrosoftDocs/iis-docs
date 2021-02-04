@@ -5,9 +5,8 @@ api_name:
   - GetFilterVersion
 api_location:
   - aspnet_filter.dll
-  - unknown
 api_type:
-  - IIS
+  - DLLExport
 topic_type:
   - apiref
 ---
@@ -44,3 +43,5 @@ Due to performance considerations, it is important to register only for those no
 **Product:** [IIS](/previous-versions/iis/6.0-sdk/ms525568(v=vs.90))
 
 **Header:** Declared in httpfilt.h.
+
+**Assembly:** aspnet_filter.dll

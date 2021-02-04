@@ -5,9 +5,8 @@ api_name:
   - TerminateFilter
 api_location:
   - aspnet_filter.dll
-  - unknown
 api_type:
-  - IIS
+  - DLLExport
 topic_type:
   - apiref
 ---
@@ -39,3 +38,5 @@ The return value is currently ignored.
 **Product:** [IIS](/previous-versions/iis/6.0-sdk/ms525568(v=vs.90))
 
 **Header:** Declared in httpfilt.h.
+
+**Assembly:** aspnet_filter.dll
