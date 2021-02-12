@@ -24,7 +24,7 @@ interface IAppHostMethodCollection : IUnknown
 |[IAppHostMethodCollection::Item Property](../../web-development-reference/native-code-api-reference/iapphostmethodcollection-item-property.md)|Gets the method with the requested index or method name in the collection.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostMethodCollection`  
   

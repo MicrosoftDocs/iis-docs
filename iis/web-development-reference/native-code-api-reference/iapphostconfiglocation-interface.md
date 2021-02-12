@@ -30,7 +30,7 @@ interface IAppHostConfigLocation : IUnknown
 |[Path](../../web-development-reference/native-code-api-reference/iapphostconfiglocation-path-property.md)|Gets the path of the current configuration location.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostConfigLocation`  
   

@@ -33,7 +33,7 @@ IAppHostMethodInstance : public IUnknown
  The caller of a method sets parameters and then executes the instance of the method.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostMethodInstance`  
   

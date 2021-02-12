@@ -23,7 +23,7 @@ interface IAppHostChangeHandler: IUnknown
  This notification occurs when the configuration cache needs to flush a configuration file because the physical file has changed. If the physical file changes but does not exist in the configuration cache, the notification will not occur.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostChangeHandler`  
   

@@ -34,7 +34,7 @@ IAppHostAdminManager : public IUnknown
  For access to set explicit values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system, use the [IAppHostWritableAdminManager](../../web-development-reference/native-code-api-reference/iapphostwritableadminmanager-interface.md) interface.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostAdminManager`  
   

@@ -35,7 +35,7 @@ interface IAppHostElement : IUnknown
 |[Schema](../../web-development-reference/native-code-api-reference/iapphostelement-schema-property.md)|Gets the schema that is assigned to the current element.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostElement`  
   

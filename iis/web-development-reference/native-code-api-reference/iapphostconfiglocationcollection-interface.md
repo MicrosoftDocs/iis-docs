@@ -29,7 +29,7 @@ interface IAppHostConfigLocationCollection : IUnknown
 |[Item](../../web-development-reference/native-code-api-reference/iapphostconfiglocationcollection-item-property.md)|Gets a configuration location at the requested index from the current collection.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostConfigLocationCollection`  
   
