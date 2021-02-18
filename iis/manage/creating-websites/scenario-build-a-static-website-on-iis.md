@@ -180,7 +180,7 @@ To remove a file named **home.html** from the default document list, enter the f
 
 ## Step 5: Configure Static Content Compression
 
-You can optionally configure your web server to compress static content to user bandwidth more efficiently and to enhance the performance of your website.
+You can optionally configure your web server to compress static content to use bandwidth more efficiently and to enhance the performance of your website.
 
 ### To configure static content compression by using the UI
 
