@@ -792,6 +792,10 @@
       items: 
         - name: Troubleshooting Problems with Microsoft Web Platform Installer
           href: troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md
+    - name: Web Platform Installer Issues 2
+      items: 
+        - name: Troubleshooting Problems with Microsoft Web Platform Installer
+          href: troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md
     - name: Windows Client OS Request Restriction
       items:
         - name: IIS Request Restrictions on Windows Client OS
