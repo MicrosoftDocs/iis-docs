@@ -1,13 +1,13 @@
 ---
 title: "Understanding IIS Request Restrictions on Windows Client OS"
 author: atsushina
-description: " IIS on Windows client returns 403.9 error message Access Forbidden: Too many users are connected"
+description: "IIS on Windows client returns 403.9 error message Access Forbidden: Too many users are connected"
 ms.date: 04/09/2016
 ms.assetid: 47e92ace-e368-4af1-b1ed-0a474172a177
 msc.type: authoredcontent
 ---
 
-# Understanding IIS Request Restrictions on Windows Client OS
+# IIS Request Restrictions on Windows Client OS
 
 You might have run into the IIS connection limit on Windows XP. IIS 5.1 on Windows XP allowed 10 concurrent connections before it displayed a 403.9 error message (Access Forbidden: Too many users are connected). Not too user friendly.
 
@@ -25,34 +25,34 @@ Here is how many concurrent requests IIS 7.x and later allows on Windows Client 
 
 Windows 10 – IIS 10.0 Concurrent Requests Limit
 |  Edition  |  limit  |
-| :---- | ----: |
+| ----------------- | ------------ |
 |  Home |  3  |
 |  Professional |  10  |
 |  Enterprise |  10  |
 
 Windows 10 IoT – IIS 10.0 Concurrent Requests Limit
 |  Edition  |  limit  |
-| :---- | ----: |
+| ----------------- | ------------ |
 |  Enterprise 2016  |  10  |
 |  Enterprise 2019  |  10  |
 
 Windows 8.1 – IIS 8.5 Concurrent Requests Limit
 |  Edition  |  limit  |
-| :---- | ----: |
+| ----------------- | ------------ |
 |  Basic  |  3  |
 |  Professional |  10  |
 |  Enterprise |  10  |
 
 Windows 8 – IIS 8 Concurrent Requests Limit
 |  Edition  |  limit  |
-| :---- | ----: |
+| ----------------- | ------------ |
 |  Basic  |  3  |
 |  Professional |  10  |
 |  Enterprise |  10  |
 
 Windows 7 - IIS 7.5 Concurrent Requests Limit
 |  Edition  |  limit  |
-| :---- | ----: |
+| ----------------- | ------------ |
 |  Home Starter  |  1  |
 |  Basic  |  1  |
 |  Home Premium  |  3  |
@@ -62,7 +62,7 @@ Windows 7 - IIS 7.5 Concurrent Requests Limit
 
 Windows Vista - IIS 7.0 Concurrent Requests Limit
 |  Edition  |  limit  |
-| :---- | ----: |
+| ----------------- | ------------ |
 |  Home Basic  |  3  |
 |  Home Premium |  3  |
 |  Professional |  10  |
