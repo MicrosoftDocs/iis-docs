@@ -800,7 +800,7 @@
       items:
         - name: IIS Request Restrictions on Windows Client OS
           href: troubleshoot/request-restrictions.md
- - name: Extensions
+- name: Extensions
   expanded: true
   items: 
     - name: Planning for ARR
