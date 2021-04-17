@@ -9,7 +9,10 @@ msc.type: authoredcontent
 
 # IIS Request Restrictions on Windows Client OS
 
-You might have run into the IIS connection limit on Windows XP. IIS 5.1 on Windows XP allowed 10 concurrent connections before it displayed a 403.9 error message (Access Forbidden: Too many users are connected). Not too user friendly.
+IIS on Windows XP:
+
+* Can quickly exceed it's connection limit.
+* Has a maximum of 10 concurrent connections before an [HTTP 403.9](https://en.wikipedia.org/wiki/HTTP_403) error message is returned.  HTTP 403.9 returns Access Forbidden: Too many users are connected.
 
 The only restrictions we have on Windows Client OS for IIS 7.x and later is the number of concurrent requests IIS will execute.
 
