@@ -24,6 +24,7 @@ Windows Server OS doesn't have any request restrictions.
 Here is how many concurrent requests IIS 7.x and later allows on Windows Client OS SKUs:
 
 Windows 10 – IIS 10.0 Concurrent Requests Limit
+
 |  Edition  |  limit  |
 | ----------------- | ------------ |
 |  Home |  3  |
@@ -31,12 +32,14 @@ Windows 10 – IIS 10.0 Concurrent Requests Limit
 |  Enterprise |  10  |
 
 Windows 10 IoT – IIS 10.0 Concurrent Requests Limit
+
 |  Edition  |  limit  |
 | ----------------- | ------------ |
 |  Enterprise 2016  |  10  |
 |  Enterprise 2019  |  10  |
 
 Windows 8.1 – IIS 8.5 Concurrent Requests Limit
+
 |  Edition  |  limit  |
 | ----------------- | ------------ |
 |  Basic  |  3  |
@@ -44,6 +47,7 @@ Windows 8.1 – IIS 8.5 Concurrent Requests Limit
 |  Enterprise |  10  |
 
 Windows 8 – IIS 8 Concurrent Requests Limit
+
 |  Edition  |  limit  |
 | ----------------- | ------------ |
 |  Basic  |  3  |
@@ -51,6 +55,7 @@ Windows 8 – IIS 8 Concurrent Requests Limit
 |  Enterprise |  10  |
 
 Windows 7 - IIS 7.5 Concurrent Requests Limit
+
 |  Edition  |  limit  |
 | ----------------- | ------------ |
 |  Home Starter  |  1  |
@@ -61,6 +66,7 @@ Windows 7 - IIS 7.5 Concurrent Requests Limit
 |  Enterprise |  10  |
 
 Windows Vista - IIS 7.0 Concurrent Requests Limit
+
 |  Edition  |  limit  |
 | ----------------- | ------------ |
 |  Home Basic  |  3  |
