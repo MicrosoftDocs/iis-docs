@@ -7,6 +7,9 @@ ms.assetid: a0991296-04e5-4a8a-8d67-8a79d6754405
 msc.legacyurl: /learn/develop/windows-web-application-gallery/gallery-server-pro-sample-files
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Gallery Server Pro sample files
 
 by Steve Jacobson
