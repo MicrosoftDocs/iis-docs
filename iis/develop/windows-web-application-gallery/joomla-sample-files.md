@@ -7,6 +7,9 @@ ms.assetid: d9957c2a-8f3d-4a3b-b9e9-d42eabf54b7a
 msc.legacyurl: /learn/develop/windows-web-application-gallery/joomla-sample-files
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Joomla! Sample files
 
 by Steve Jacobson
