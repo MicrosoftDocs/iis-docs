@@ -7,6 +7,9 @@ ms.assetid: 9ac68e1c-b377-4696-bde0-c44fe46750b5
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-known-issues
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Windows Web Application Gallery: Known Issues
 
 by IIS Team
