@@ -7,6 +7,9 @@ ms.assetid: 1114e4dc-e2ea-4932-a616-745230baa1a8
 msc.legacyurl: /learn/develop/windows-web-application-gallery/umbraco-cms-sample-files
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Umbraco CMS Sample files
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
