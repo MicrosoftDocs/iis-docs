@@ -7,6 +7,9 @@ ms.assetid: 76946c02-3b19-43ad-b13d-3b914ab11c54
 msc.legacyurl: /learn/develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 # How to Create an App Package Supporting both SQL Server and MySQL
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)

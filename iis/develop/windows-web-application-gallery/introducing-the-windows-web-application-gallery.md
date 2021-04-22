@@ -7,6 +7,9 @@ ms.assetid: a6fef702-77c2-4c2c-963b-c8c361c37fe0
 msc.legacyurl: /learn/develop/windows-web-application-gallery/introducing-the-windows-web-application-gallery
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 # Introducing the Windows Web Application Gallery
 
 by [Chris Sfanos](https://github.com/chrissfanos)

@@ -7,6 +7,9 @@ ms.assetid: c11dcbc8-faae-4bab-89fb-998e409440d1
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-principles
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 # Windows Web Application Gallery Principles
 
 by [Chris Sfanos](https://github.com/chrissfanos)

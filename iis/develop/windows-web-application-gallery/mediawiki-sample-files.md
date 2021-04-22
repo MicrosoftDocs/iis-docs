@@ -7,6 +7,9 @@ ms.assetid: 052e4fa7-82d5-41f8-8c22-a37428f6de27
 msc.legacyurl: /learn/develop/windows-web-application-gallery/mediawiki-sample-files
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 # MediaWiki Sample Files
 
 by Steve Jacobson
