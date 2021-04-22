@@ -7,6 +7,9 @@ ms.assetid: 1f41da75-1fde-433e-af1e-d29f8b187478
 msc.legacyurl: /learn/develop/windows-web-application-gallery/blogengine-net-sample-files
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Blogengine .NET Sample files
 
 by Steve Jacobson
