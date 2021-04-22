@@ -7,6 +7,9 @@ ms.assetid: 6f721a96-8210-4e2a-a110-09103f8f0b98
 msc.legacyurl: /learn/develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Testing a Zip Package for Inclusion with the Web Application Gallery
 
 by [Mai-lan Tomsen Bukovec](https://twitter.com/mailant)
