@@ -7,6 +7,9 @@ ms.assetid: 0fda743d-d99e-4172-8e4e-ec1d448281b8
 msc.legacyurl: /learn/develop/windows-web-application-gallery/frequently-asked-questions
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Windows Web App Gallery FAQ
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
