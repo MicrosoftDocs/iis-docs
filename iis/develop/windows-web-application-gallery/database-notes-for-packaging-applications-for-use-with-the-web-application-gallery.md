@@ -7,6 +7,9 @@ ms.assetid: 9e5f2ff1-7a54-45f0-8197-7dd783154e41
 msc.legacyurl: /learn/develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Database Notes for packaging applications for the Web Application Gallery
 
 by Steve Jacobson
