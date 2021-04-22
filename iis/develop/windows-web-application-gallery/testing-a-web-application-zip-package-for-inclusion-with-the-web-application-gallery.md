@@ -8,7 +8,7 @@ msc.legacyurl: /learn/develop/windows-web-application-gallery/testing-a-web-appl
 msc.type: authoredcontent
 ---
 > [!NOTE]
-> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 # Testing a Zip Package for Inclusion with the Web Application Gallery
 
