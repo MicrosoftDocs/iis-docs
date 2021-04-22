@@ -7,6 +7,9 @@ ms.assetid: 18743857-2074-4bed-84d6-2ffab07a5ab7
 msc.legacyurl: /learn/develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Integrate the Windows Web Application Gallery into a Control Panel
 
 by IIS Team
