@@ -7,6 +7,9 @@ ms.assetid: d0b0d1dc-ce47-409b-8dec-4153f08f483e
 msc.legacyurl: /learn/develop/windows-web-application-gallery/reference-for-the-web-application-package
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Reference for the Web Application Package
 
 by Tali Smith
