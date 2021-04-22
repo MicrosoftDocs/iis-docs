@@ -7,6 +7,9 @@ ms.assetid: 54c8b691-3b23-4af5-998e-93fc8484d262
 msc.legacyurl: /learn/develop/windows-web-application-gallery/wordpress-sample-files
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # WordPress Sample files
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
