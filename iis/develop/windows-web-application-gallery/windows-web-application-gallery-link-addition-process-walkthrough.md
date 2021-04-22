@@ -7,6 +7,9 @@ ms.assetid: 218769b5-1bdf-49a2-97dc-a8e6c64bd724
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-link-addition-process-walkthrough
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Windows Web Application Gallery Link Addition Process Walkthrough
 
 by IIS Team
