@@ -7,6 +7,9 @@ ms.assetid: e4113e68-c5a0-4cea-b4f2-ecb0397e78fa
 msc.legacyurl: /learn/develop/windows-web-application-gallery/using-the-microsoft-web-platform-installer-badge
 msc.type: authoredcontent
 ---
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) has been retired and we are no longer taking submissions. 
+
 # Using the Microsoft Web Platform Installer Badge
 
 by Steve Jacobson
