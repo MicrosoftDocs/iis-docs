@@ -7,12 +7,12 @@ ms.assetid: d88db0b1-a662-47a4-8978-ae8a4042ea2f
 msc.legacyurl: /learn/develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery
 msc.type: authoredcontent
 ---
-> [!NOTE]
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Package an Application for the Windows Web Application Gallery
 
 by IIS Team
+
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 ## Introduction
 
