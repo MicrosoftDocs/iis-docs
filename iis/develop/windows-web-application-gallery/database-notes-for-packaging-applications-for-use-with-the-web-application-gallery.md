@@ -7,12 +7,12 @@ ms.assetid: 9e5f2ff1-7a54-45f0-8197-7dd783154e41
 msc.legacyurl: /learn/develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery
 msc.type: authoredcontent
 ---
-> [!NOTE] 
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Database Notes for packaging applications for the Web Application Gallery
 
 by Steve Jacobson
+
+> [!NOTE] 
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 The database providers for the Web Deployment Tool (WebDeploy) give application developers a great deal of flexibility in setting up databases as part of their application installs. Outside of the Gallery, applications have a variety of methods for setting up databases, tables, users, and starting data:
 
