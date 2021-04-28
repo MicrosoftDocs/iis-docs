@@ -20,7 +20,7 @@ The Web Application Gallery integrates with the [Web Platform Installer 3.0](htt
 
 The Web Application Gallery also provides a way for developers to reach millions of Windows users. When an application is accepted by the Web Application Gallery, the application is added to the Web Application Gallery ATOM feed. The ATOM feed is consumed by the Web Application Gallery itself, Web Platform Installer 3.0, WebMatrix, IIS Manager, and participating Hosting Control Panels.
 
-[![](introducing-the-windows-web-application-gallery/_static/image4.png)](introducing-the-windows-web-application-gallery/_static/image3.png)
+[![diagram of 4 places ATOM feed is consumed](introducing-the-windows-web-application-gallery/_static/image4.png)](introducing-the-windows-web-application-gallery/_static/image3.png)
 
 ## Application Discovery and Installation by Users
 
@@ -38,7 +38,7 @@ The App Gallery contains both ASP.NET and PHP applications that follow the [Web 
 
 Developers follow four steps to submit an application to the Web Application Gallery.
 
-[![](introducing-the-windows-web-application-gallery/_static/image7.png)](introducing-the-windows-web-application-gallery/_static/image6.png)
+[![flow diagram showing 4 steps](introducing-the-windows-web-application-gallery/_static/image7.png)](introducing-the-windows-web-application-gallery/_static/image6.png)
 
 ### Step 1: Apply Web App Gallery Principles
 
