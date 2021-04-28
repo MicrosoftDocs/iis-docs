@@ -25,5 +25,3 @@ Image URL: [https://www.microsoft.com/web/media/badge/install\_using\_webpi\_btn
 Width: 195px
 
 Height: 43 px
-
-![Install Using WebPI Badge](https://www.microsoft.com/web/media/badge/install_using_webpi_btn.png "Install Using WebPI Badge")
