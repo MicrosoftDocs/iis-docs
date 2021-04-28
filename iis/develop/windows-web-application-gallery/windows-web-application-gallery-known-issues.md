@@ -7,11 +7,11 @@ ms.assetid: 9ac68e1c-b377-4696-bde0-c44fe46750b5
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-known-issues
 msc.type: authoredcontent
 ---
-> [!NOTE]> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Windows Web Application Gallery: Known Issues
 
 by IIS Team
+
+> [!NOTE]> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 ## Introduction
 

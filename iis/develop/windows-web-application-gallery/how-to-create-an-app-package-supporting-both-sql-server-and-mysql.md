@@ -7,12 +7,12 @@ ms.assetid: 76946c02-3b19-43ad-b13d-3b914ab11c54
 msc.legacyurl: /learn/develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql
 msc.type: authoredcontent
 ---
-> [!NOTE]
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # How to Create an App Package Supporting both SQL Server and MySQL
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
+
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 Applications that currently support MySQL as their main DBMS can also support Microsoft SQL Server. [The SQL Server Driver for PHP](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/cc296172(v=sql.90)) is available to PHP developers, it is a cost-effective and efficient solution for supporting SQL Server from within PHP applications. This article provides the steps needed for creating a Web Deployment package to install an application that supports both SQL Server and MySQL.
 

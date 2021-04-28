@@ -7,12 +7,12 @@ ms.assetid: d9957c2a-8f3d-4a3b-b9e9-d42eabf54b7a
 msc.legacyurl: /learn/develop/windows-web-application-gallery/joomla-sample-files
 msc.type: authoredcontent
 ---
-> [!NOTE]
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Joomla! Sample files
 
 by Steve Jacobson
+
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 This is a set of sample files you could use with Joomla! and the Web Deployment tool for deploying Joomla on IIS. The files are annotated with comments that explain specific lines in the files you'll need to customize for your configuration.
 

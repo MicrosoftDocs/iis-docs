@@ -7,12 +7,12 @@ ms.assetid: 1f41da75-1fde-433e-af1e-d29f8b187478
 msc.legacyurl: /learn/develop/windows-web-application-gallery/blogengine-net-sample-files
 msc.type: authoredcontent
 ---
-> [!NOTE]
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Blogengine .NET Sample files
 
 by Steve Jacobson
+
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 This is a set of sample files you could use with Blogengine .NET and the Web Deployment tool for deploying it on IIS. The `manifest.xml` and `parameters.xml` here are used to set the appropriate permissions and deploy the files to a web server . This application uses a file data store within App\_Data directory and hence requires that this directory have ReadAndExecute,Write,Delete permissions .
 

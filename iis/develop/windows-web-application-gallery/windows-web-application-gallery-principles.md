@@ -7,12 +7,12 @@ ms.assetid: c11dcbc8-faae-4bab-89fb-998e409440d1
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-principles
 msc.type: authoredcontent
 ---
-> [!NOTE]
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Windows Web Application Gallery Principles
 
 by [Chris Sfanos](https://github.com/chrissfanos)
+
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 The [Windows Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can browse and view applications for different types of Web sites, ranging from photo galleries to blogs to ecommerce sites. When an application is accepted by the Web Application Gallery, the application is added to the Web Application Gallery ATOM feed. The ATOM feed is consumed by the Web Application Gallery itself, Web Platform Installer, IIS Manager, and participating Hosting Control Panels.
 
