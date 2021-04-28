@@ -7,12 +7,12 @@ ms.assetid: 6f721a96-8210-4e2a-a110-09103f8f0b98
 msc.legacyurl: /learn/develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery
 msc.type: authoredcontent
 ---
-> [!NOTE]
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Testing a Zip Package for Inclusion with the Web Application Gallery
 
 by [Mai-lan Tomsen Bukovec](https://twitter.com/mailant)
+
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 The [Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy for Windows users to find and deploy a free open source, community application onto a computer running Windows XP or later. To learn more about how to build Web Deploy support for a zip package so that the application can be included in the Web Application Gallery, read the [Package An Application for the Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md) guide or view the [Adding Web Deployment Tool Support to Community Application ZIP Packages videocast](https://blogs.iis.net/mailant/archive/2009/05/04/real-world-iis-adding-web-deployment-tool.aspx). Once you have build Web Application Gallery integration for your zip package, you can test the Web Application Integration using [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
 
