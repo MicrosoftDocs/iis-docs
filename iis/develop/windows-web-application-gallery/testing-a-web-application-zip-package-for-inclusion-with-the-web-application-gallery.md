@@ -138,14 +138,14 @@ In the custom feed file, locate &lt;sha1&gt; and substitute the value for the co
 
 Now, you can try the custom feed file by saving it locally or storing it in a web server, and opening the Options dialog and adding a feed through either a physical path or URL.
 
-[![](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image2.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image1.png)
+[![screenshot of change options dialog](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image2.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image1.png)
 
-[![](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image4.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image3.png)
+[![screenshot of change options dialog after adding feed](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image4.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image3.png)
 
 You should be able to click in the new tab and see your application in it.
 
-[![](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image6.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image5.png)
+[![screenshot of Web Platform Installer](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image6.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image5.png)
 
-[![](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image8.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image7.png)
+[![screenshot of Web Platform Installer](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image8.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image7.png)
 
 From here you can select your application and proceed with the installation.
