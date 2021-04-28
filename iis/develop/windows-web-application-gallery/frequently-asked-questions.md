@@ -1,7 +1,7 @@
 ---
 title: "Windows Web App Gallery FAQ"
 author: SunBuild
-description: ""
+description: "Frequently Asked Questions about the Windows Web App Gallery"
 ms.date: 11/18/2012
 ms.assetid: 0fda743d-d99e-4172-8e4e-ec1d448281b8
 msc.legacyurl: /learn/develop/windows-web-application-gallery/frequently-asked-questions
