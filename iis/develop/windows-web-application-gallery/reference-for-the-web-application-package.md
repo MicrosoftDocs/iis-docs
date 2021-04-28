@@ -7,12 +7,12 @@ ms.assetid: d0b0d1dc-ce47-409b-8dec-4153f08f483e
 msc.legacyurl: /learn/develop/windows-web-application-gallery/reference-for-the-web-application-package
 msc.type: authoredcontent
 ---
-> [!NOTE]
-> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
-
 # Reference for the Web Application Package
 
 by Tali Smith
+
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
 
 Every application in the Web Application Gallery has at least two XML files that enable the Web Platform Installer (Web PI) to use the Web Deployment Tool (WDT) to deploy the application on Windows® operating systems. These files are the Manifest.xml and Parameters.xml files. In addition, many applications add a SQL script to be run by the WDT as part of the pre-setup installation. PHP applications also include a Web.config file.
 
