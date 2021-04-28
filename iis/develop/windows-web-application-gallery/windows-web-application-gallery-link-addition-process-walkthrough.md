@@ -20,7 +20,7 @@ This walkthrough will guide you through the process of submitting an application
 
 The steps from developing an application to seeing it live in the Web Application Gallery are shown below. This document concentrates on the step in Green, which can be exploded out into the process below it:
 
-[![](windows-web-application-gallery-link-addition-process-walkthrough/_static/image8.jpg)](windows-web-application-gallery-link-addition-process-walkthrough/_static/image7.jpg)
+[![submission process flowchart](windows-web-application-gallery-link-addition-process-walkthrough/_static/image8.jpg)](windows-web-application-gallery-link-addition-process-walkthrough/_static/image7.jpg)
 
 ## Starting the Submission Process
 
@@ -71,7 +71,7 @@ To submit your application, you will need to fill out the [submission form](http
 
 When you have completed the form, submit the form. This data will be used to populate the Application Gallery with metadata for your application. At the application level of the Gallery, this data will be displayed as in the image below:
 
-[![](windows-web-application-gallery-link-addition-process-walkthrough/_static/image10.jpg)](windows-web-application-gallery-link-addition-process-walkthrough/_static/image9.jpg)
+[![Windows Web Application Gallery screenshot](windows-web-application-gallery-link-addition-process-walkthrough/_static/image10.jpg)](windows-web-application-gallery-link-addition-process-walkthrough/_static/image9.jpg)
 
 ## Testing
 
