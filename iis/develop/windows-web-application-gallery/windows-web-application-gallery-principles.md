@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by [Chris Sfanos](https://github.com/chrissfanos)
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 The [Windows Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can browse and view applications for different types of Web sites, ranging from photo galleries to blogs to ecommerce sites. When an application is accepted by the Web Application Gallery, the application is added to the Web Application Gallery ATOM feed. The ATOM feed is consumed by the Web Application Gallery itself, Web Platform Installer, IIS Manager, and participating Hosting Control Panels.
 
 To be part of the Windows Web Application Gallery, developers should follow these principles, which establish a consistent, quality user experience:

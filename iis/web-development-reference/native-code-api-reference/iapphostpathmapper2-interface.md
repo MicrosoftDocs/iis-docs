@@ -31,7 +31,7 @@ interface IAppHostPathMapper2 : IUnknown
 >  The `IAppHostPathMapper2` interface is designed to work on a local computer; you cannot use this interface to manage a remote computer.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostPathMapper2`  
   

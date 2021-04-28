@@ -40,7 +40,7 @@ struct IAppDomainInfoEnum : IUnknown
    To access subsequent `IAppDomainInfo` interfaces, call `MoveNext`. If the `pfMoreItems` parameter of `MoveNext` is nonzero, call `GetData` and repeat this sequence until `pfMoreItems` is 0.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppDomainInfoEnum`  
   

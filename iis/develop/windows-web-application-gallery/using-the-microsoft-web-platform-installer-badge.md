@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by Steve Jacobson
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 Developers of applications have the ability to provide a link on their sites which will be able to launch the Web Platform Installer with their application and all prerequisites ready to install. To take advantage of this feature, developers should link to the badge in this document.
 
 The link associated with the badge should be in the following format and will be available to use once the application is available in Web Platform Installer. Note the URL must include the Application ID that you entered when submitting the application to the Gallery

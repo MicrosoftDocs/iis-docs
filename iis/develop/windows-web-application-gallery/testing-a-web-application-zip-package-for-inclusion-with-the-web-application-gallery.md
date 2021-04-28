@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by [Mai-lan Tomsen Bukovec](https://twitter.com/mailant)
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 The [Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy for Windows users to find and deploy a free open source, community application onto a computer running Windows XP or later. To learn more about how to build Web Deploy support for a zip package so that the application can be included in the Web Application Gallery, read the [Package An Application for the Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md) guide or view the [Adding Web Deployment Tool Support to Community Application ZIP Packages videocast](https://blogs.iis.net/mailant/archive/2009/05/04/real-world-iis-adding-web-deployment-tool.aspx). Once you have build Web Application Gallery integration for your zip package, you can test the Web Application Integration using [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
 
 Both the Web Application Gallery and the Web Platform Installer consume the same application and product feeds. The Web Platform Installer also orchestrates every deployment from the Web Application Gallery. As a result, you can test the deployment experience from the Web Application Gallery by using the Web Platform Installer and local feeds modified to contain the location of the application package that you want to test. Once you get done with the application testing, you can submit your application link to the Web Application Gallery team on the [Web Application Gallery developers site](https://www.microsoft.com/web/gallery/developers.aspx).

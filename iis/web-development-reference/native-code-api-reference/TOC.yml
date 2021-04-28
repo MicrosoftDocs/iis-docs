@@ -692,7 +692,13 @@
           - name: IWpfSettings::GetStringProperty Method
             href: iwpfsettings-getstringproperty-method.md
           - name: IWpfSettings::GetUlonglongProperty Method
-            href: iwpfsettings-getulonglongproperty-method.md
+            href: iwpfsettings-getulonglongproperty-method.md    
+    - name: Managed Runtime Loader API Reference
+      items:
+      - name: LoadManagedRuntime Function
+        href: loadmanagedruntime-function.md
+      - name: LoadManagedRuntimeEx Function
+        href: loadmanagedruntimeex-function.md
   - name: Native-Code Extensibility API Reference
     href: native-code-extensibility-api-reference.md
     items:

@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by Steve Jacobson
 
+> [!NOTE] 
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 The database providers for the Web Deployment Tool (WebDeploy) give application developers a great deal of flexibility in setting up databases as part of their application installs. Outside of the Gallery, applications have a variety of methods for setting up databases, tables, users, and starting data:
 
 - Some applications can do everything necessary, as long as the user can provide administrative credentials during the application setup. These applications usually have the flexibility to work with any database components that have already been configured, and can work without administrative credentials in those cases.

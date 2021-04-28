@@ -24,7 +24,7 @@ interface IAppHostConstantValue : IUnknown
 |[IAppHostConstantValue::Value Property](../../web-development-reference/native-code-api-reference/iapphostconstantvalue-value-property.md)|Gets the integer value of the current constant.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IAppHostConstantValue`  
   

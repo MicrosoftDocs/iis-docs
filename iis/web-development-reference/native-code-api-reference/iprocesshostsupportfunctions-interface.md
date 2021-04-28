@@ -31,7 +31,7 @@ struct IProcessHostSupportFunctions : IUnknown
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)  
   
  `IProcessHostSupportFunctions`  
   

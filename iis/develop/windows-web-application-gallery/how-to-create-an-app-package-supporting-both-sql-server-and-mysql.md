@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 Applications that currently support MySQL as their main DBMS can also support Microsoft SQL Server. [The SQL Server Driver for PHP](https://docs.microsoft.com/previous-versions/sql/sql-server-2005/cc296172(v=sql.90)) is available to PHP developers, it is a cost-effective and efficient solution for supporting SQL Server from within PHP applications. This article provides the steps needed for creating a Web Deployment package to install an application that supports both SQL Server and MySQL.
 
 ## Adding MySQL and SQL Server Databases

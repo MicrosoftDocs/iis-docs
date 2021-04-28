@@ -11,6 +11,8 @@ msc.type: authoredcontent
 
 by IIS Team
 
+> [!NOTE]> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 ## Introduction
 
 With just a few mouse clicks the Windows Web Application Gallery lets you select, download and install popular web applications like blogs, content management systems, wikis or media galleries. This dramatically simplified installation process comes with a few gotchas that are called out in the following article.

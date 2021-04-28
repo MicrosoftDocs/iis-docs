@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by Steve Jacobson
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 This is a set of sample files you could use with Gallery Server Pro and the Web Deployment tool for deploying Gallery Server Pro on IIS. You can include a custom `_SqlMembership.txt` file to parameterize the Application's admin username and password that can be used by the application to setup the application administrator credentials.  
   
 The files are annotated with comments that explain specific lines in the files you'll need to customize for your configuration.

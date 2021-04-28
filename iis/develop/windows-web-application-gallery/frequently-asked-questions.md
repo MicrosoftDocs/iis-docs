@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 ## Frequently Asked Questions
 
 Here is a list of frequently asked questions designed to provide a better understanding of the Windows Web App Gallery Submission and validation processes.

@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by IIS Team
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 ## Introduction
 
 The Windows® Web Application Gallery gives Web site builders an easy way to discover, learn about, and install freely available and community applications on an Internet Information Services (IIS) Web server. To have your application included in the Gallery, you must add a couple of configuration files to your existing distribution package.

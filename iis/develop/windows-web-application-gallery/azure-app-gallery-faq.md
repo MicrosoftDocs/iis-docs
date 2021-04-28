@@ -11,6 +11,9 @@ msc.type: authoredcontent
 
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
+> [!NOTE]
+> The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+
 ## Introduction
 
 With just a few mouse clicks the Windows Web Application Gallery lets you select, download and install popular web applications like blogs, content management systems, wikis or media galleries onto Azure. The following FAQ describes additional information that you may need when you are configuring several popular applications on Azure.
