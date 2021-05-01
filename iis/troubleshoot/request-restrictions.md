@@ -12,19 +12,15 @@ msc.type: authoredcontent
 IIS on Windows XP:
 
 * Can quickly exceed it's connection limit.
-* Has a maximum of 10 concurrent connections before an [HTTP 403.9](https://en.wikipedia.org/wiki/HTTP_403) error message is returned.  HTTP 403.9 returns Access Forbidden: Too many users are connected.
+* Has a maximum of 10 concurrent connections before an [HTTP 403.9](https://en.wikipedia.org/wiki/HTTP_403) error message is returned. HTTP 403.9 returns Access Forbidden: Too many users are connected.
 
-The only restrictions we have on Windows Client OS for IIS 7.x and later is the number of concurrent requests IIS will execute.
+The major limitation on Windows Client OS for IIS 7.x and later is the number of concurrent requests IIS can execute. This limitation is fundamentally different from the Windows XP connection limit. The HTTP 403.9 error is unlikely to occur when concurrent requests are limited. Requests that cannot be handled because the concurrent request limit is reached are queued.
 
-This is fundamentally different from the Windows XP connection limit. By limiting concurrent requests you will probably never see an error message.
+If the request queue overflows, a [500 Internal Server Error](https://developer.mozilla.org/docs/Web/HTTP/Status/500) is returned. The request queue can handle thousands of requests by default. Too many concurrent requests doesn't generate an error, but generally slows response time.
 
-Request that cannot be handled because the concurrent request limit is reached will still be queued.
+Windows Server OS doesn't have these request restrictions.
 
-There is only a problem if the request queue overflows - a "500 Server Busy" error. The request queue is pretty big though. Thousands of requests by default. The net effect is that the execution of too many concurrent requests will not generate an error but it might slow your server down for a little bit.
-
-Windows Server OS doesn't have any request restrictions.
-
-Here is how many concurrent requests IIS 7.x and later allows on Windows Client OS SKUs:
+The maximum concurrent requests IIS 7.x and later allows on Windows Client OS SKUs:
 
 Windows 10 – IIS 10.0 Concurrent Requests Limit
 
