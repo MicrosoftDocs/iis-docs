@@ -1,21 +1,21 @@
 ---
-title: "Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release"
+title: "Web Platform Installer v5.1 Command Line (WebPICMD.exe) - RTW release"
 author: chrissfanos
-description: "The Web Platform Installer v5 (WebPI) command line tool is now available as part of the WebPI MSI! We've added a bunch of new features and fix several issues..."
+description: "The Web Platform Installer v5.1 (WebPI) command line tool is now available as part of the WebPI MSI! We've added a bunch of new features and fix several issues..."
 ms.date: 08/27/2012
 ms.assetid: d0440577-9e53-4202-9df3-199bc567e1c1
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release
 msc.type: authoredcontent
 ---
-# Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
+# Web Platform Installer v5.1 Command Line (WebPICMD.exe) - RTW release
 
 by [Chris Sfanos](https://github.com/chrissfanos)
 
 ## WebPI Command line
 
-The Web Platform Installer v5 (WebPI) command line tool is now available as part of the WebPI MSI! We've added a bunch of new features and fix several issues, and now it's ready for it's full release
+The Web Platform Installer v5.1 (WebPI) command line tool is now available as part of the WebPI MSI! We've added a bunch of new features and fix several issues, and now it's ready for it's full release
 
-For those of you who aren't familiar with WebPI, it's a great little tool for deploying your favorite open-source web applications (from the [Web App Gallery](https://www.microsoft.com/web/gallery)) and all the necessary platform components required to get you up and running quickly and seamlessly. Over the years, we've heard a lot of feedback from the community about fully supporting a command line version of the tool - users want to script installs and automate deployment of servers.
+For those of you who aren't familiar with WebPI, it's a great little tool for deploying your favorite open-source applications and all the necessary platform components required to get you up and running quickly and seamlessly. Over the years, we've heard a lot of feedback from the community about fully supporting a command line version of the tool - users want to script installs and automate deployment of servers.
 
 ## Downloading WebPI
 
@@ -23,9 +23,9 @@ You can download WebPI v5 RTW (and the included WebPICMD.exe) from the links bel
 
 **By downloading and using the Web Platform Installer (WebPI), you agree to the *[license terms](https://go.microsoft.com/fwlink/?LinkId=251729)* and *[privacy statement](https://go.microsoft.com/fwlink/?LinkId=251732)* for WebPI. This installer will contact Microsoft over the Internet to retrieve product information. Some of the Microsoft software obtained through WebPI may use Microsoft's Customer Experience Improvement Program (CEIP). To view which software uses CEIP, see [*here*](https://go.microsoft.com/fwlink/?LinkId=262873)**
 
-WebPI v5 x86: [https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller\_x86\_en-US.msi](https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller_x86_en-US.msi)
+WebPI v5.1 x86: [https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x86_en-US.msi](https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x86_en-US.msi)
 
-WebPI v4 x64: [https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller\_amd64\_en-US.msi](https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-AE1A-496C08BEB904/WebPlatformInstaller_amd64_en-US.msi)
+WebPI v5.1 x64: [https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x64_en-US.msi](https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x64_en-US.msi)
 
 ## Setting up WebPICMD.exe
 
