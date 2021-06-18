@@ -170,3 +170,7 @@ You cannot query FTP session information by using AppCmd.exe.
 ### VBScript
 
 [!code-vb[Main](index/samples/sample4.vb)]
+
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample5.ps1)]
