@@ -469,7 +469,7 @@
         - name: How to Create an App Package Supporting both SQL Server and MySQL
           href: develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql.md
         - name: Azure App Gallery FAQ
-          href: develop/windows-web-application-gallery/azure-app-gallery-faq.md
+          href: develop/windows-web-application-gallery/azure-app-gallery-faq.yml
         - name: Joomla! Sample files
           href: develop/windows-web-application-gallery/joomla-sample-files.md
         - name: Blogengine .NET Sample files
@@ -477,7 +477,7 @@
         - name: Gallery Server Pro sample files
           href: develop/windows-web-application-gallery/gallery-server-pro-sample-files.md
         - name: Windows Web App Gallery FAQ
-          href: develop/windows-web-application-gallery/frequently-asked-questions.md
+          href: develop/windows-web-application-gallery/frequently-asked-questions.yml
         - name: MediaWiki Sample Files
           href: develop/windows-web-application-gallery/mediawiki-sample-files.md
         - name: Umbraco CMS Sample files
@@ -491,49 +491,49 @@
         - name: AtomSite FAQ
           href: develop/installingpublishing-apps-with-webmatrix/atomsite-faq.md
         - name: BlogEngine.NET FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq.yml
         - name: dasBlog FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/dasblog-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/dasblog-faq.yml
         - name: DotNetNuke ® Community Edition FAQ
           href: develop/installingpublishing-apps-with-webmatrix/dotnetnuke-community-edition-faq.md
         - name: Gallery FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/gallery-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/gallery-faq.yml
         - name: Gallery Server Pro FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/gallery-server-pro-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/gallery-server-pro-faq.yml
         - name: Joomla! FAQ
           href: develop/installingpublishing-apps-with-webmatrix/joomla-faq.md
         - name: Kentico CMS FAQ
           href: develop/installingpublishing-apps-with-webmatrix/kentico-cms-faq.md
         - name: Kooboo CMS FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/kooboo-cms-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/kooboo-cms-faq.yml
         - name: Mayando FAQ
           href: develop/installingpublishing-apps-with-webmatrix/mayando-faq.md
         - name: mojoPortal FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/mojoportal-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/mojoportal-faq.yml
         - name: Moodle FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/moodle-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/moodle-faq.yml
         - name: My Web Pages Starter Kit FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/my-web-pages-starter-kit-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/my-web-pages-starter-kit-faq.yml
         - name: nopCommerce FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/nopcommerce-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/nopcommerce-faq.yml
         - name: nService FAQ
           href: develop/installingpublishing-apps-with-webmatrix/nservice-faq.md
         - name: phpBB FAQ
           href: develop/installingpublishing-apps-with-webmatrix/phpbb-faq.md
         - name: ResourceBlender.NET FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/resourceblendernet-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/resourceblendernet-faq.yml
         - name: ScrewTurn Wiki FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/screwturn-wiki-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/screwturn-wiki-faq.yml
         - name: SilverStripe CMS FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/silverstripe-cms-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/silverstripe-cms-faq.yml
         - name: Sitefinity Community Edition FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/sitefinity-community-edition-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/sitefinity-community-edition-faq.yml
         - name: Subtext FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/subtext-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/subtext-faq.yml
         - name: SugarCRM FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/sugarcrm-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/sugarcrm-faq.yml
         - name: Umbraco CMS FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq.md
+          href: develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq.yml
         - name: WordPress FAQ
           href: develop/installingpublishing-apps-with-webmatrix/wordpress-faq.md
     - name: Using WebMatrix
@@ -940,7 +940,7 @@
         - name: IIS Express Overview
           href: extensions/introduction-to-iis-express/iis-express-overview.md
         - name: IIS Express FAQ
-          href: extensions/introduction-to-iis-express/iis-express-faq.md
+          href: extensions/introduction-to-iis-express/iis-express-faq.yml
         - name: IIS 7.5 Express Readme
           href: extensions/introduction-to-iis-express/iis-75-express-readme.md
         - name: IIS 8.0 Express Readme
@@ -1052,7 +1052,7 @@
         - name: Common UrlScan Scenarios
           href: extensions/working-with-urlscan/common-urlscan-scenarios.md
         - name: UrlScan FAQ
-          href: extensions/working-with-urlscan/urlscan-faq.md
+          href: extensions/working-with-urlscan/urlscan-faq.yml
         - name: Data Mining UrlScan 3 Logs using LogParser 2.2
           href: extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22.md
         - name: UrlScan Overview
@@ -1465,23 +1465,23 @@
     - name: Frequently Asked Questions (FAQ)
       items: 
         - name: Tools and Utilities Questions
-          href: web-hosting/frequently-asked-questions-faq/tools-and-utilities-questions.md
+          href: web-hosting/frequently-asked-questions-faq/tools-and-utilities-questions.yml
         - name: SMTP Questions
           href: web-hosting/frequently-asked-questions-faq/smtp-questions.md
         - name: Logging and Auditing Questions
-          href: web-hosting/frequently-asked-questions-faq/logging-and-auditing-questions.md
+          href: web-hosting/frequently-asked-questions-faq/logging-and-auditing-questions.yml
         - name: Security Questions
-          href: web-hosting/frequently-asked-questions-faq/security-questions.md
+          href: web-hosting/frequently-asked-questions-faq/security-questions.yml
         - name: General IIS 7.0 Questions
-          href: web-hosting/frequently-asked-questions-faq/general-iis7-questions.md
+          href: web-hosting/frequently-asked-questions-faq/general-iis7-questions.yml
         - name: .NET Questions
-          href: web-hosting/frequently-asked-questions-faq/net-questions.md
+          href: web-hosting/frequently-asked-questions-faq/net-questions.yml
         - name: PHP Questions
           href: web-hosting/frequently-asked-questions-faq/php-questions.md
         - name: Sales and Marketing Questions
           href: web-hosting/frequently-asked-questions-faq/sales-and-marketing-questions.md
         - name: Top 10 Changes in IIS 7.0
-          href: web-hosting/frequently-asked-questions-faq/top-10-changes-in-iis7.md
+          href: web-hosting/frequently-asked-questions-faq/top-10-changes-in-iis7.yml
     - name: Migrate to the Microsoft Web Platform
       items: 
         - name: Breaking Changes for ASP.NET 4 Apps Running on IIS 7 Integrated Mode
