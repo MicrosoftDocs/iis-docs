@@ -14,6 +14,7 @@ summary: |
   
 
 sections:
+    questions:
       - question: |
           Can you delegate "logging" to remote administrators?
         answer: |

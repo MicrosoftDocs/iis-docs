@@ -53,7 +53,7 @@ sections:
           > [!NOTE]
           > For security reasons, this error will contain less information when you browse to your web site on a remote machine.
           > 
-          > ![](gallery-server-pro-faq/_static/image1.png)
+          > ![image1](gallery-server-pro-faq/_static/image1.png)
           
           To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.
           
@@ -64,6 +64,6 @@ sections:
           
           > **Error**: JavaScript error 'dgLogin' is undefined.
           > 
-          > ![](gallery-server-pro-faq/_static/image3.png)
+          > ![image3](gallery-server-pro-faq/_static/image3.png)
           
           To resolve this issue, use your hosting control panel to set your application pool to Integrated mode.

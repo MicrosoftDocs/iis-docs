@@ -65,7 +65,7 @@ sections:
           
           > **Error**: The requested page cannot be accessed because the related configuration data for the page is invalid.
           > 
-          > ![](sitefinity-community-edition-faq/_static/image1.png)
+          > ![image1](sitefinity-community-edition-faq/_static/image1.png)
           
           To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.
           
