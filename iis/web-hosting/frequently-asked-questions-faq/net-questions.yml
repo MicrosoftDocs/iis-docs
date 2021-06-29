@@ -1,0 +1,100 @@
+### YamlMime:FAQ
+metadata:
+  title: ".NET Questions"
+  author: walterov
+  description: "No. When a user uses Visual Studio 2008 Beta 2 to build a new ASP.NET 3.5 website, or migrates an existing ASP.NET website to .NET Framework 3.5, the applica..."
+  ms.date: 12/22/2007
+  ms.assetid: 962ccf05-344c-4435-9518-a9bd1e57f4bb
+  msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/net-questions
+  msc.type: authoredcontent
+    
+title: .NET Questions
+summary: |
+  by [Walter Oliver](https://github.com/walterov)
+  
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          Can ASP.NET websites built with Visual Studio 2008 Beta 2 be used in partial trust configurations?
+        answer: |
+          No. When a user uses Visual Studio 2008 Beta 2 to build a new ASP.NET 3.5 website, or migrates an existing ASP.NET website to .NET Framework 3.5, the application cannot be deployed and run on a server configured for medium trust or partial trust, as is recommended for ASP.NET Web hosting. The issue only affects sites that have been built with Visual Studio 2008 Beta 2 or Visual Web Developer 2008 Express Beta 2. It does not affect applications built for earlier versions of the .NET Framework, and has no impact on existing applications on a Web server, even after installing .NET Framework 3.5 on the computer.
+          
+          A workaround is available for users to modify their websites so they can run correctly in partial trust. We will be publishing this workaround to users who download the affected products. If you are providing .NET Framework 3.5 hosting, you can also provide this information to users. This workaround requires no other action for hosters.
+          
+          When a user builds a new ASP.NET website with Visual Studio 2008 Beta 2 or Visual Web Developer 2008 Express, these products insert a new entry in the applications web.config configuration file. This is done when the user creates a new project, or migrates an existing website to use .NET Framework 3.5. The configuration entry looks as follows:
+          
+          [!code-xml[Main](net-questions/samples/sample1.xml)]
+          
+          When this website is run in medium trust or any partial trust setting, ASP.NET will raise an error noting that "the current trust level does not allow use of the ‘compilerOptions' attribute". The compilerOptions setting specified in the above configuration is not allowed in medium trust or a partial trust configuration.
+          
+          > [!NOTE]
+          > Depending on the security settings of your server, this error message may or may not be visible to the user.
+          
+          As a workaround, when deploying a website built with Visual Studio 2008 Beta 2 or Visual Web Developer 2008 Express to a partial trust configuration, users can simply remove the compilerOptions setting, as well as the warningLevel setting, from the web.config configuration file. The workaround is described in the attached document, which you can make available to users.
+          
+          Using this workaround may also have other impact on the website; these issues are described in detail in the attached document.
+          
+      - question: |
+          Can LINQ features in .NET Framework 3.5 Beta 2 be used by default in partial trust configurations?
+        answer: |
+          No. .NET Framework 3.5 Beta 2 includes a feature called Language Integrated Query (LINQ), which enables rich data capabilities in websites, and is a key new feature of .NET Framework 3.5. However, by default, LINQ does not function properly in medium trust and partial trust configurations, as is recommended for ASP.NET Web hosting. Enabling LINQ in these configurations requires the hoster to make a change to the trust policy settings on the Server.
+          
+          In medium trust or partial trust configurations, the code permissions granted to an ASP.NET website are determined by a Code Access Security (CAS) policy file on the Web server. When .NET Framework 3.5 is installed on a Web server, websites continue to use the same CAS policy file as .NET Framework 2.0.
+          
+          The LINQ feature set in .NET Framework 3.5 requires the CAS policy file to grant a new permission, called RestrictedMemberAccess, which is not granted by default on ASP.NET 2.0. To enable LINQ to work in medium or partial trust, you need to modify the CAS policy file to grant this additional policy.
+          
+          > [!NOTE]
+          > Making this change will also grant this policy to ASP.NET 2.0 websites running on the same server. We have determined this to be an acceptable change for hosted sites that run under medium trust. This change will have no impact on existing ASP.NET 2.0 websites that can run under medium or partial trust.
+          
+          As a workaround, you can enable LINQ for medium trust by following these steps on the server:
+          
+          1. Open a command prompt, and go to the directory that contains your ASP.NET 2.0 trust policy files. This is found under the Windows directory, at  
+          
+              [!code-console[Main](net-questions/samples/sample2.cmd)]
+          2. Determine which CAS policy file to modify. If you are using medium trust, this file will be web\_mediumtrust.config.
+          3. Make a backup of the existing file.
+          4. Examine the &lt;SecurityClasses&gt; section of your CAS policy file. If the section does not contain an entry named ReflectionPermission, add a new entry as follows:  
+          
+              [!code-xml[Main](net-questions/samples/sample3.xml)]
+          
+             If you are using the default medium trust settings, you must add this entry. Depending upon your trust setting, your CAS policy file may already contain this entry.
+          5. Examine the &lt;NamedPermissionSets&gt; section of your CAS policy file. If the section does not contain an entry named ReflectionPermission, add a new entry as follows:  
+          
+              [!code-xml[Main](net-questions/samples/sample4.xml)]
+          
+              If you are using the default medium trust settings, you will need to add this entry.
+          
+              If you are using another trust configuration, and the section already contains an entry named ReflectionPermission, you can modify the Flags setting to add RestrictedMemberAccess permission. Flags should be separated by a comma. For example, if you are using the default high trust settings, you can modify this section as follows:
+          
+              [!code-xml[Main](net-questions/samples/sample5.xml)]
+          6. Save the file, and restart the Web server.
+          
+          To verify whether the changes have been made successfully, create a new ASP.NET website containing the files in the enclosed ZIP, and run it.
+          
+      - question: |
+          Known Issue: Installation Order for .NET 3.0
+        answer: |
+          There is an issue with how .NET 3.0 is installed on IIS 7.0 / Windows Server® 2008 when shared hosting is enabled. The installer ignores the fact that shared hosting may be enabled on the machine and always updates the local applicationhost.config of the machine and not shared UNC one. This issue is mitigated if .NET 3.0 is installed before shared hosting is enabled and the common applicationhost.config deployed. The issue is just with enabling .NET 3.0 the first time (registering the modules/handlers), all subsequent operations (changing bindings, app pools, etc) are reflected correctly against the shared config file thereafter.
+
+      - question: |
+          Is .NET 1.1 included in 3.5?
+        answer: |
+          Yes. Any prior version of .NET (from 1.0 to 3.0) is included as part of .NET 3.5. .NET 3.5 is a comprehensive package.
+
+      - question: |
+          Does the .NET 3.5 Framework include Entity Framework Beta 2?
+        answer: |
+          No. It doesn't include Entity Framework beta2. You need to download here:
+          
+          [https://www.microsoft.com/downloads/details.aspx?FamilyId=F1ADC5D1-A42E-40A6-A68C-A42EE11186F7&amp;displaylang=en](https://www.microsoft.com/downloads/details.aspx?FamilyId=F1ADC5D1-A42E-40A6-A68C-A42EE11186F7&amp;displaylang=en)
+          
+          Here is the release info:
+          
+          [https://blogs.msdn.com/adonet/archive/2007/08/27/entity-framework-beta-2-the-1st-entity-framework-tools-ctp-released.aspx](https://blogs.msdn.com/adonet/archive/2007/08/27/entity-framework-beta-2-the-1st-entity-framework-tools-ctp-released.aspx)
+          
+          Entity Framework will not be available until first half of 2008:
+          
+          [https://blogs.msdn.com/adonet/archive/2007/04/28/ado-net-entity-framework-update.aspx](https://blogs.msdn.com/adonet/archive/2007/04/28/ado-net-entity-framework-update)
+          

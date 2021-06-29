@@ -1,0 +1,82 @@
+### YamlMime:FAQ
+metadata:
+  title: "Azure App Gallery FAQ"
+  author: SunBuild
+  description: "With just a few mouse clicks the Windows Web Application Gallery lets you select, download and install popular web applications like blogs, content managemen..."
+  ms.date: 06/14/2012
+  ms.assetid: a4555019-dd6e-41b4-831c-1711760031f5
+  msc.legacyurl: /learn/develop/windows-web-application-gallery/azure-app-gallery-faq
+  msc.type: authoredcontent
+    
+title: Azure App Gallery FAQ
+summary: |
+  by [Sunitha Muthukrishna](https://github.com/SunBuild)
+  
+  > [!NOTE]
+  > The Windows Web Application Gallery (WWAG) is being retired on July 1, 2021. We are no longer taking submissions via the Submission Portal. Please contact webpi@microsoft.com to make updates to your existing submission.
+  
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          Introduction
+        answer: |
+          With just a few mouse clicks the Windows Web Application Gallery lets you select, download and install popular web applications like blogs, content management systems, wikis or media galleries onto Azure. The following FAQ describes additional information that you may need when you are configuring several popular applications on Azure.
+
+      - question: |
+          DotNetNuke Community and Professional Editions:
+        answer: |
+          The database information must be re-entered to complete installation of DotNetNuke. You can view this information in the dashboard of your newly created site on the right side.
+          
+          [![image2](azure-app-gallery-faq/_static/image2.png)](azure-app-gallery-faq/_static/image1.png)
+          
+          Once you have the database information, in the Database configuration step of DotNetNuke install wizard enter this database information as seen below
+          
+          [![image4](azure-app-gallery-faq/_static/image4.png)](azure-app-gallery-faq/_static/image3.png)
+          
+      - question: |
+          Acquia Drupal and Drupal Commerce:
+        answer: |
+          Once either of these apps are deployed; the app runtime installer needs to run. Please click on the &quot;Setup&quot; icon to continue the installation.
+          
+          [![image6](azure-app-gallery-faq/_static/image6.png)](azure-app-gallery-faq/_static/image5.png)
+          
+          If &quot;Setup&quot; is not clicked and you browse the site you may see this error. This occurs since the app is not configured yet. To resolve this append install.php to the URL and run this script; for example [http://mysitename.azurewebsites.net/install.php](http://mysitename.azurewebsites.net/install.php)
+          
+          [![image8](azure-app-gallery-faq/_static/image8.png)](azure-app-gallery-faq/_static/image7.png)
+          
+      - question: |
+          Umbraco CMS
+        answer: |
+          Click on Setup in the notification bar once Umbraco is successfully deployed to configure your Umbraco site.
+          
+          [![image10](azure-app-gallery-faq/_static/image10.png)](azure-app-gallery-faq/_static/image9.png)
+          
+          Umbraco install wizard will request you to re-enter the database information. You can view this information in the dashboard of your newly created site on the right side
+          
+          [![image12](azure-app-gallery-faq/_static/image12.png)](azure-app-gallery-faq/_static/image11.png)
+          
+          Once you have the database information, re-enter this is the Umbraco install wizard
+          
+          [![image14](azure-app-gallery-faq/_static/image14.png)](azure-app-gallery-faq/_static/image13.png)
+          
+      - question: |
+          Kentico CMS
+        answer: |
+          The database information must be re-entered to complete installation of Kentico CMS. You can view this information in the dashboard of your newly created site on the right side.
+          
+          [![image16](azure-app-gallery-faq/_static/image16.png)](azure-app-gallery-faq/_static/image15.png)
+          
+          When you browse the app, Kentico CMS installation wizard request the database server name and database user information to be entered. Please refer to the connection string for this information.
+          
+          [![image18](azure-app-gallery-faq/_static/image18.png)](azure-app-gallery-faq/_static/image17.png)
+          
+          Now select &quot;Existing database&quot; and enter the database name from the connection string.
+          
+          [![image20](azure-app-gallery-faq/_static/image20.png)](azure-app-gallery-faq/_static/image19.png)
+          
+          Finally, a license needs to be created for the app as seen here. Continue with the wizard to complete the app installation.
+          
+          [![image22](azure-app-gallery-faq/_static/image22.png)](azure-app-gallery-faq/_static/image21.png)
+          

@@ -315,7 +315,7 @@ The examples in this topic show how to import Drupal into an IIS Web site and in
 9. Click the **Include Bin Directory in Windows PATH** check box, and click **Next**.
 10. Since MySQL is installed on the database server (which is different than the Web server that runs the Web Deploy web server component), you must complete these steps to ensure Web Deploy can access the database server:
 
-    - Copy mysqldump.exe (typically located in `C:\Program Files\MySQL\MySQL Server 5.1\bin`) to your **Web server** in [C:\mysqldump\mysqldump.exe](file:///c:/mysqldump/mysqldump.exe).
+    - Copy mysqldump.exe (typically located in `C:\Program Files\MySQL\MySQL Server 5.1\bin`) to your **Web server** in [C:\mysqldump\mysqldump.exe](C:\mysqldump\mysqldump.exe).
     - On the **Web server**, set a registry key (`HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\1\mysqldumppath`) to string value == "c:\mysqldump\mysqldump.exe"
 
        > [!NOTE]

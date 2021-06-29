@@ -108,7 +108,7 @@ Examples:
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample7.ps1)]
 
-Description: This will back up a web application using iisApp provider. Read more about this provider [here](https://technet.microsoft.com/library/dd569054(WS.10).aspx). Here is a good [article](http:/learn.iis.net/page.aspx/150/understanding-sites-applications-and-virtual-directories-on-iis/) that explains what a web application is and what is the difference between a site, an app and a virtual directory in IIS.
+Description: This will back up a web application using iisApp provider. Read more about this provider [here](https://technet.microsoft.com/library/dd569054(WS.10).aspx). Here is a good [article](http://learn.iis.net/page.aspx/150/understanding-sites-applications-and-virtual-directories-on-iis/) that explains what a web application is and what is the difference between a site, an app and a virtual directory in IIS.
 
 Cmdlet Parameters: The name of the app specified by the application parameter or by the publish settings file is backed up. If none of them is specified it throws an error. Application parameter value overrides publish settings specification for site name. SkipFileList and SkipFolderList parameters allow you to selectively exclude one or more files or folders from the package.
 

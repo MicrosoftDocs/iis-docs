@@ -1,0 +1,74 @@
+### YamlMime:FAQ
+metadata:
+  title: "Kooboo CMS FAQ"
+  author: rick-anderson
+  description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
+  ms.date: 07/06/2010
+  ms.assetid: 10afd33c-34c6-4198-8e26-f445838a784a
+  msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/kooboo-cms-faq
+  msc.type: authoredcontent
+    
+title: Kooboo CMS FAQ
+summary: |
+  by Faith A
+  
+  WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Beta partner hosting providers. This FAQ contains information about installing and publishing, as well as any issues that may occur after publishing.
+  
+  ## Installing and Publishing Kooboo CMS
+
+sections:
+  - name: Installing and Publishing Kooboo CMS
+    questions:
+      - question: |
+          How do I install Kooboo CMS?
+        answer: |
+          To install Kooboo CMS, use the following steps:
+          
+          1. Open WebMatrix and select **Site from Web Gallery**.
+          2. Select the **CMS** category on the left-hand side.
+          3. Find **Kooboo CMS** in the list and install it.
+          4. In any workspace, on the **Home** tab, in the **Site** group, click **Run** or press F12 to open the site in your default web browser.
+          5. Follow the instructions to complete installation.
+          
+      - question: |
+          How do I publish my Kooboo CMS website?
+        answer: |
+          To publish a Kooboo CMS website, use the following steps:
+          
+          1. In any workspace, on the **Home** tab, in the **Site** group, click **Publish**.
+          2. On the **Publishing Settings** dialog, enter the server info you received from your web host.
+          3. Click **Validate Connection** to ensure that the settings are correct.
+          4. Click **Publish**.
+          5. If you have not published your database before, select the Database checkbox.
+          6. After previewing the changes, click **Continue**.
+          
+          ## Known Issues
+          
+          **Issue:** You see a "Server Error" when browsing to the site
+          
+          The application has 4 connection strings, but only 1 will be updated when publishing.
+          
+          **Workaround:** To resolve this issue, use the following steps:
+          
+          1. Using WebMatrix, create a copy of the web.config that will be used for the remote web site: 
+          
+              1. Go to the **Files** workspace.
+              2. Copy and paste the *web.config* to create a copy.
+              3. Rename *Web - Copy.config* to *web.config.local*.
+              4. Open *web.config* and make sure all connection strings use the same remote database server.
+              5. Click **Save** on the **Quick Access Toolbar** or press Ctrl + S.
+              6. Publish again.
+              7. After publishing, browse to your remote web site to verify that the application works.
+          2. To switch to the local web.config so that the application works on your client machine: 
+          
+              1. Rename *web.config* to *web.config.remote*.
+              2. Rename *web.config.local* to *web.config*.
+              3. Click **Run** or press F12 to open the site in your default web browser.
+          3. You will need to switch these files every time you publish.
+          
+          **Issue:** "Download published site…" fails with a database error  
+          If you try to download an application from a server and you have administrator credentials in the database connection string in the Publish Settings dialog, you may see this error in the publish log:  
+          1:28:29 PM: An error occurred during execution of the database script. The approximate location of the error was between lines '3260' and '3262' of the script. The verbose log may have more information about the error. The command started with :  
+          1:28:29 PM: CREATE LOGIN [MACHINE\Administrator] FROM WINDOW  
+          1:28:29 PM: [https://go.microsoft.com/fwlink/?LinkId=178587](https://go.microsoft.com/fwlink/?LinkId=178587)  
+          **Workaround:** Publish the site in the first place using non-administrator credentials for the database in Publish Settings.
