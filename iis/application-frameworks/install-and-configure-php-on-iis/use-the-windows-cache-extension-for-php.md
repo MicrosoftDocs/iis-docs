@@ -164,7 +164,7 @@ The following example shows how you can refresh a cache entry:
 
 The installation package for Windows Cache Extension 1.0 for PHP includes a PHP script, **wincache.php**, that can be used to obtain cache information and statistics.
 
-[](use-the-windows-cache-extension-for-php/_static/image1.png)
+![](use-the-windows-cache-extension-for-php/_static/image1.png)
 
 If the Windows Cache Extension for PHP was installed via Web Platform Installer, then this script is located in `%SystemDrive%\Program Files\IIS\Windows Cache for PHP\`. On a 64-bit version of the Windows Server operating system, the script is located in `%SystemDrive%\Program Files (x86)\IIS\Windows Cache` for PHP. If the extension was installed manually, then the **Wincache.php** will be located in the same folder from which the content of the installation package was extracted.
 

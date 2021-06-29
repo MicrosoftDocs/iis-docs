@@ -1,0 +1,88 @@
+### YamlMime:FAQ
+metadata:
+  title: "UrlScan FAQ"
+  author: naziml
+  description: "The following section provides answers to frequently asked questions about UrlScan. Question: What is UrlScan? Answer: UrlScan is a security tool that screen..."
+  ms.date: 06/24/2008
+  ms.assetid: eba182f0-0428-474e-a87c-d478a631ce95
+  msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-faq
+  msc.type: authoredcontent
+    
+title: UrlScan FAQ
+summary: |
+  by [Nazim Lala](https://github.com/naziml)
+  
+  The following section provides answers to frequently asked questions about UrlScan.
+  
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          What is UrlScan?
+        answer: |
+          UrlScan is a security tool that screens all incoming requests to the server by filtering the requests based on rules that are set by the administrator. Filtering requests helps secure the server by ensuring that only valid requests are processed. UrlScan helps protect Web servers because most malicious attacks share a common characteristic - they involve the use of a request that is unusual in some way. For instance, the request might be extremely long, request an unusual action, be encoded using an alternate character set, or include character sequences that are rarely seen in legitimate requests. By filtering unusual requests, UrlScan helps prevent such requests from reaching the server and potentially causing damage.
+
+      - question: |
+          Will UrlScan work with my version of IIS?
+        answer: |
+          That depends on your version of IIS and the version of UrlScan that you are attempting to install:
+          
+          - UrlScan 1.0 is no longer supported.
+          - UrlScan 2.1 and UrlScan 2.0 are supported on IIS 5.0, IIS 5.1 and IIS 6.0.
+          - UrlScan 2.5 is supported on IIS 5.0, IIS 5.1 and IIS 6.0, and IIS 7.0 and above.
+          - UrlScan 3.1 and UrlScan 3.0 are supported on IIS 5.1, IIS 6.0, and IIS 7.0 and above.
+          
+      - question: |
+          I'm already using UrlScan. Why should I download an updated version?
+        answer: |
+          Microsoft always recommends installing the latest version of UrlScan because later versions of UrlScan include new features that have been added to help improve the security of servers running IIS. A short list of these new features are as follows:
+          
+          - Changing the log file directory (introduced in UrlScan 2.5)
+          - Logging long URLs (introduced in UrlScan 2.5)
+          - Restricting the size of requests (introduced in UrlScan 2.5)
+          - Restricting the size of HTTP headers (introduced in UrlScan 2.5)
+          - Configuring URLs that will bypass UrlScan filtering (introduced in UrlScan 3.0)
+          - Creating custom filtering rules (introduced in UrlScan 3.0)
+          - Specifying query strings that are always allowed or denied (introduced in UrlScan 3.0)
+          - Denying requests that contain unescaped percent signs (introduced in UrlScan 3.1)
+          
+      - question: |
+          Where are my UrlScan log files?
+        answer: |
+          By default the log files are in `%windir%\System32\Inetsrv\UrlScan\Logs` for both x86 and x64 installations. Your UrlScan.ini file contains the **LoggingDirectory** key under the **[Options]** section that would point to an absolute location to your log file directory or a relative path based on the location of your UrlScan.ini file. If you have a custom folder and are not seeing any logs, it is likely that your IIS worker process does not have write access to the logs folder. For IIS 6.0 grant IIS\_WPG group write access to this folder, and for IIS 7.0 and above grant the IIS\_IUSRS group write access to this folder. If this is a pre existing folder make sure this directory does not have any sensitive information that can be tampered. Also if you are on x64, file system redirection may affect the custom path you are writing your logs to.
+          
+      - question: |
+          I have UrlScan v3.0 Beta or RTM right now. What will happen if I install v3.1?
+        answer: |
+          The UrlScan v3.1 MSI will upgrade the UrlScan v3.0 Beta or RTM filters in the inetsrv directory. It will leave your .ini configuration and log files intact and the RTW version will work against your previous configuration. Since new sections have been added to the UrlScan v3.1, you can download the new default .ini file from [here](https://www.iis.net/community/files/UrlScan/UrlScan-ini_v3.zipdownloads/files/UrlScan/UrlScan-ini_v31.zip) to see what more it has to offer and add those to your existing configuration.
+          
+      - question: |
+          I have UrlScan v2.5 right now. What will happen if I install v3.1?
+        answer: |
+          UrlScan v3.1 will overwrite the pre-existing UrlScan v2.5 filter in the inetsrv directory. It will leave your old UrlScan.ini file intact though and no changes will be needed for this .ini file to make it work with UrlScan v3.1. If you need to restore UrlScan v2.5 you will need to re-install it from [Microsoft Download Center](https://www.microsoft.com/downloads/details.aspx?familyid=23D18937-DD7E-4613-9928-7F94EF1C902A&amp;displaylang=en).
+          
+      - question: |
+          Has the log format for UrlScan changed?
+        answer: |
+          UrlScan 3.1 and 3.0 have W3C formatted logs; you can use tools like Log Parser to query information in these log files.
+
+      - question: |
+          How come I don't see any 500 errors in my W3SVC logs from UrlScan blocking requests?
+        answer: |
+          UrlScan v3.1 failures result in 404 errors and not 500 errors. Searching for 404 errors in your W3SVC log will include failures due to UrlScan blocking.
+
+      - question: |
+          How is this version different from the request filtering module in IIS 7.0 and above?
+        answer: |
+          The request filtering module that shipped with Windows Server 2008 RTM does not have the ability to filter based on query strings like UrlScan v3.1 does. Request Filtering module also does not allow you to specify rules that apply to multiple parts of an HTTP request in one entity. However all the changes in UrlScan v3.x will be incorporated into the request filtering module for an update release in the near future.
+
+      - question: |
+          I've already configured UrlScan for my site. What will happen to my current configuration settings?
+        answer: |
+          The installation packages for UrlScan Version 2.5 and later will only add new entries to your existing configuration file. UrlScan supports all of the configuration settings from earlier versions of UrlScan.
+
+      - question: |
+          If UrlScan helps protect my server against certain vulnerabilities, is it still necessary to apply security updates?
+        answer: |
+          Yes. To help protect your server from any new or existing security vulnerabilities, Microsoft strongly recommends that you evaluate and apply the latest security updates as soon as they are available.
