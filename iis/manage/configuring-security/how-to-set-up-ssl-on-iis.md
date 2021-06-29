@@ -65,7 +65,7 @@ Self-signed certificates are certificates created on your computer. They're usef
 
 ## Using AppCmd
 
-You cannot request or create a certificate by using AppCmd.exe. You also cannot use AppCmd.exe to create an SSL binding.
+You can request or create a certificate by using AppCmd.exe. You also can use AppCmd.exe to create an SSL binding.
 
 ### Configure SSL Settings
 
