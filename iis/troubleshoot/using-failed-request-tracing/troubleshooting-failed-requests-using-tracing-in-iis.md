@@ -168,7 +168,7 @@ In this task, you will generate a failed request and view the resulting trace lo
 
 ## Summary
 
-You have completed two tasks: configured failed request tracing to capture traces for \* if IIS returns it with a 404.2 status code; and verified that IIS captured the trace for your request. You also verified that the freb\*.xml log file did not contain any other requests for the requests that you made because the requests did not have a 404.2 return code. When you consult the failure log file, you determined that the cause of the failure was that the extension was disabled for that request. You can try other non-HTML pages (like gifs or jpgs) and note that the log file does NOT add these traces. You can also easily change this to be 404, or capture the failure if the request takes longer than 30 seconds by setting the *timeTaken* field in your failureDefinitions.
+You have completed two tasks: [configured](https://cscdigitalsevasolutions.com/) failed request tracing to capture traces for \* if IIS returns it with a 404.2 status code; and verified that IIS captured the trace for your request. You also verified that the freb\*.xml log file did not contain any other requests for the requests that you made because the requests did not have a 404.2 return code. When you consult the failure log file, you determined that the cause of the failure was that the extension was disabled for that request. You can try other non-HTML pages (like gifs or jpgs) and note that the log file does NOT add these traces. You can also easily change this to be 404, or capture the failure if the request takes longer than 30 seconds by setting the *timeTaken* field in your failureDefinitions.
 
 ## Restore Your Backup
 
