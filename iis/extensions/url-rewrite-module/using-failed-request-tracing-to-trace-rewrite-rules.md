@@ -64,7 +64,7 @@ To create an FRT rule in IIS Manager follow these steps:
 
 ## Analyzing Failed Request Tracing log file
 
-After the FRT rule has been created, make a request to `http://localhost/article/234/some-title`. This will create an FRT log in `%SystemDrive%\inetpub\Logs\FaileReqLogFiles\`. You can open this log by using Internet Explorer, and it will be rendered as an HTML document that can be easily browsed. Following is an example of the URL rewrite specific events that can be found in the trace log file:
+After the FRT rule has been created, make a request to `http://localhost/article/234/some-title`. This will create an FRT log in `%SystemDrive%\inetpub\Logs\FailedReqLogFiles\`. You can open this log by using Internet Explorer, and it will be rendered as an HTML document that can be easily browsed. Following is an example of the URL rewrite specific events that can be found in the trace log file:
 
 [![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image27.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image25.png)
 
