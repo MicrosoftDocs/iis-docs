@@ -38,6 +38,9 @@ For information about how to download and install IIS Express, see [IIS Express 
 3. Run the following command to view the IIS Express usage string:
 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample3.cmd)]
+         
+     > [!NOTE]
+     > If you're using PowerShell, `iisexpress /?` will not work. To instruct PowerShell to run the command in the current directory you must prefix the command with `.\`. So the first command in step 3 becomes `.\iisexpress /?`
 4. Run your site using one of the following:
 
     - Use /config to run a site from a configuration file.  
