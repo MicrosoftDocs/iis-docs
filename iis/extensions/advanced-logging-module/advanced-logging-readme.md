@@ -22,6 +22,8 @@ You can use Advanced Logging to extend logging functionality for logging user re
 
 ## Installation Notes
 
+The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).
+
 This section describes the installation requirements for IIS Advanced Logging.
 
 ### Requirements
