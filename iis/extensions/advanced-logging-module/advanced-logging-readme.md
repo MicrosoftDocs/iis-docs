@@ -22,6 +22,8 @@ You can use Advanced Logging to extend logging functionality for logging user re
 
 ## Installation Notes
 
+The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).
+
 This section describes the installation requirements for IIS Advanced Logging.
 
 ### Requirements
@@ -45,7 +47,7 @@ To uninstall the software, in **Control Panel** &gt; **Programs** &gt; **Program
 
 ### Downloading and Installing
 
-IIS Advanced Logging can be installed by using either Microsoft Web Platform Installer (Web PI) or Windows Installer.
+The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).
 
 **Install Using Web PI**
 
@@ -58,12 +60,7 @@ IIS Advanced Logging can be installed by using either Microsoft Web Platform Ins
 
 **Install Using Windows Installer**
 
-Two separate downloadable installation packages are available for IIS Advanced Logging. Click one of the following links to download the Windows Installer (.msi) file for your edition of Windows:
-
-- [IIS Advanced Logging 1.0 (32-bit)](https://go.microsoft.com/?linkid=9689912)
-- [IIS Advanced Logging 1.0 (64-bit)](https://go.microsoft.com/?linkid=9689913)
-
-Follow the instructions on the **Download Details** page to install the software.
+The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).
 
 ### Uninstalling
 

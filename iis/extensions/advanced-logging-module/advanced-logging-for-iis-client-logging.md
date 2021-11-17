@@ -21,6 +21,7 @@ IIS Advanced Logging accepts client logs by using standard HTTP POST messages an
 
 For client logging to be useful, a client must send messages to IIS Advanced Logging via HTTP POST in the expected XML format. Clients that can do this include:
 
+- The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).
 - Applications based on Microsoft Silverlight 3 or later. Silverlight includes metrics that you can use to post messages in the required XML format to the web server that has IIS Advanced Logging installed.
 - The IIS Smooth Streaming sample client.
 
