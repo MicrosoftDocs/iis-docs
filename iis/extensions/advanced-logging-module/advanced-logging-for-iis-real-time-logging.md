@@ -19,7 +19,7 @@ IIS Advanced Logging can extend the web platform to support real-time analytics,
 
 - This article is intended for developers and assumes basic native code writing skills.
 - An understanding of the IIS pipeline isn't required; however, it might help to review the articles listed in the [References](advanced-logging-for-iis-real-time-logging.md#references) section to learn more about the methods and data structures that are used.
-- For information about how to install and use IIS Advanced Logging, see [Advanced Logging for IIS - Custom Logging](advanced-logging-for-iis-custom-logging.md).
+- The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).
 
 ## Enabling Real-time Logging
 
