@@ -15,7 +15,7 @@ by [Simon Tan](https://github.com/simtan)
 
 DotNetNuke (DNN) is an open source content management system (CMS) and application development framework for Microsoft .NET. For more information about DotNetNuke, refer to the [DNN Community](https://dnncommunity.org/) Web site. For step-by-step instructions on installing this application in an IIS environment, see the *Procedure* section of this document.
 
-> Please note, the steps listed below will install a not-current version of DNN Platform.  After following the steps below it is strongly suggested to upgrade to the current version of DNN Platform following the [Upgrade Process](https://docs.dnncommunity.org/content/getting-started/setup/upgrades/index.html).
+> ***Note***: The steps listed below will ***not*** install a current version of DNN Platform.  After following the steps below it is strongly suggested to upgrade to the current version of DNN Platform following the [Upgrade Process](https://docs.dnncommunity.org/content/getting-started/setup/upgrades/index.html).
 
 ## Requirements
 
