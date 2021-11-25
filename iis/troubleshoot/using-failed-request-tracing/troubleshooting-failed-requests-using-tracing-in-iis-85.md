@@ -152,8 +152,7 @@ In this task, you will generate a failed request and view the resulting trace lo
 
 1. Open a new Internet Explorer window.
 2. Type in the following address: [http://localhost/test.asp](http://localhost/test.asp).
-3. You should see the following:  
- /li>
+3. You should see the following:
 
 [![](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image23.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image22.jpg)
 
