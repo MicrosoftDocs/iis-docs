@@ -93,7 +93,7 @@ With IIS, you now have the ability to perform many management tasks using any of
 
 Those users with significant experience managing server software using shells and scripts do not need any more motivation; but those used to using strictly GUI tools may ask what is special about being able to manage IIS through a command line or a script, when they have managed well enough with MMC. The end of this article points out six significant advantages of managing IIS using Windows PowerShell.
 
-The following are some Windows PowerShell examples based on a Web cast featuring Windows PowerShell architect Jeffrey Snover and IIS Product Unit Manager Bill Staples. (Find the Web cast at [https://channel9.msdn.com/](https://channel9.msdn.com/)).
+The following are some Windows PowerShell examples based on a Web cast featuring Windows PowerShell architect Jeffrey Snover and IIS Product Unit Manager Bill Staples. (Find the Web cast at [https://docs.microsoft.com/en-us/teamblog/channel9joinedmicrosoftlearn](/teamblog/channel9joinedmicrosoftlearn)).
 
 Suppose you want to examine IIS-related services running on your computer -- a very common task. One "GUI approach" to do this is to launch MMC and then expand the Services and Application category, and then select the Services category. The result looks like the screenshot in Figure 2.
 
@@ -252,7 +252,7 @@ Though this article has just scratched the surface of how Windows PowerShell and
 
 See [https://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx](https://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx) for Windows PowerShell documentation and examples, and to download Windows PowerShell.
 
-Search [https://channel9.msdn.com/](https://channel9.msdn.com/) for the Web cast featuring Windows PowerShell Architect Jeffrey Snover and IIS Product Unit Manager Bill Staples, which served as the basis for the article.
+Search [https://docs.microsoft.com/en-us/teamblog/channel9joinedmicrosoftlearn](/teamblog/channel9joinedmicrosoftlearn) for the Web cast featuring Windows PowerShell Architect Jeffrey Snover and IIS Product Unit Manager Bill Staples, which served as the basis for the article.
 
 See [https://blogs.msdn.com/PowerShell/](https://blogs.msdn.com/PowerShell/) to view useful examples created by the Windows PowerShell team.
 

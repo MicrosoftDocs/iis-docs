@@ -12,5 +12,3 @@ msc.type: video
 by [Bill Staples](https://twitter.com/bstaples)
 
 Part 1: Introduction. This is the first of a five-part series of videos that describes the process for creating, deploying, and managing an IIS Smooth Streaming experience for a live broadcast-quality event.
-
-[&#9654; Watch video (6 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/live-smooth-streaming-tutorial-introduction)

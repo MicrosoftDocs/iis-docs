@@ -12,5 +12,3 @@ msc.type: video
 by [Scott Stanfield](https://github.com/scottstanfield)
 
 Part 5: Playback. This is the fifth of a five-part series of videos that describes the process for creating, deploying, and managing an IIS Smooth Streaming experience for a live broadcast-quality event. Scott Stanfield, CEO of Vertigo, talks about the viewer experience and video player for the NBC Sports presentation of Sunday Night Football and the Winter Olympics, and shows you how to use the Silverlight Media Framework to make your own compelling viewer experiences.
-
-[&#9654; Watch video (9 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/live-smooth-streaming-tutorial-playback)
