@@ -21,7 +21,7 @@ The instructions have been tested and found to work in the following configurati
 - IIS 7.0
 - PHP 5.2.4 Non-thread-safe Win32 binaries (RC2-dev)
 - MySQL 5.0
-- Wikimedia 1.11.0
+- MediaWiki 1.11.0
 
 ## Notes on PHP Setup
 
