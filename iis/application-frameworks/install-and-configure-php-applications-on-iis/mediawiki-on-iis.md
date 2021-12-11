@@ -57,13 +57,13 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
 
 1. Begin the graphical MediaWiki installation procedure by pointing your browser at [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php). You see the following screen.  
 
-    [![](mediawiki-on-iis/_static/image2.jpg)](mediawiki-on-iis/_static/image1.jpg)
+    [![MediaWiki installer Environment checks](mediawiki-on-iis/_static/image2.jpg)](mediawiki-on-iis/_static/image1.jpg)
 2. Scroll down the window and configure your Wiki name and all the required fields. In the Database config section, enable the 'Use superuser account' checkbox and enter the database superuser password.  
 
-    [![](mediawiki-on-iis/_static/image4.jpg)](mediawiki-on-iis/_static/image3.jpg)
+    [![MediaWiki installer Database config](mediawiki-on-iis/_static/image4.jpg)](mediawiki-on-iis/_static/image3.jpg)
 3. Once you enter all the required information, click "Install MediaWiki!". The configuration page creates the database wikidb and saves your settings in the `%SystemDrive%\Inetpub\wwwroot\MediaWiki\config\LocalSettings.php` file.  
 
-    [![](mediawiki-on-iis/_static/image6.jpg)](mediawiki-on-iis/_static/image5.jpg)
+    [![MediaWiki installer install complete](mediawiki-on-iis/_static/image6.jpg)](mediawiki-on-iis/_static/image5.jpg)
 4. Move the LocalSetting.php file to the `%SystemDrive%\Inetpub\wwwroot\MediaWiki\` folder and delete the folder `%SystemDrive%\Inetpub\wwwroot\MediaWiki\config` from your system.
 5. LocalSetting.php contains sensitive information, so secure it by revoking access to unnecessary identities. Open a Command Prompt window with administrator privileges and run the following command:  
 
@@ -76,7 +76,7 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
     - Network Service
 6. The installation is complete. Point your browser to [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php).  
 
-    [![](mediawiki-on-iis/_static/image8.jpg)](mediawiki-on-iis/_static/image7.jpg)
+    [![MediaWiki main page afer install](mediawiki-on-iis/_static/image8.jpg)](mediawiki-on-iis/_static/image7.jpg)
 
 ## Testing the Application
 
@@ -87,16 +87,16 @@ For testing MediaWiki, create a user and modify the Main Page content.
 3. Click the "Create an account" link.
 4. Enter the username and password and click "Create account".  
 
-    [![](mediawiki-on-iis/_static/image10.jpg)](mediawiki-on-iis/_static/image9.jpg)
+    [![MediaWiki Create Account page](mediawiki-on-iis/_static/image10.jpg)](mediawiki-on-iis/_static/image9.jpg)
 
-    [![](mediawiki-on-iis/_static/image12.jpg)](mediawiki-on-iis/_static/image11.jpg)
+    [![MediaWiki showing FirstUser having been created](mediawiki-on-iis/_static/image12.jpg)](mediawiki-on-iis/_static/image11.jpg)
 5. Go to the main page and click the Edit link. An Editor displays in which you can make your changes. When done with changes, click "Save Page".  
 
-    [![](mediawiki-on-iis/_static/image14.jpg)](mediawiki-on-iis/_static/image13.jpg)
+    [![MediaWiki editor for the Main Page](mediawiki-on-iis/_static/image14.jpg)](mediawiki-on-iis/_static/image13.jpg)
 
 Here is the modified page.
 
-[![](mediawiki-on-iis/_static/image16.jpg)](mediawiki-on-iis/_static/image15.jpg)
+[![MediaWiki page post edit](mediawiki-on-iis/_static/image16.jpg)](mediawiki-on-iis/_static/image15.jpg)
 
 ## Enabling clean URLs with URL Rewrite Module
 
