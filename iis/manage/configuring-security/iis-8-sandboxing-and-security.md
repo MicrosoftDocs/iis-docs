@@ -12,5 +12,3 @@ msc.type: video
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Robert McMurray covers the sandboxing and security features in IIS 8.
-
-[&#9654; Watch video (17 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/iis-8-sandboxing-and-security)

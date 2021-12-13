@@ -12,5 +12,3 @@ msc.type: video
 by IIS Team
 
 Distributed, file-based configuration is a powerful feature of IIS that enables delegated management of Web application settings at a very granular level. This tutorial covers the structure of IIS and ASP.NET configuration, unlocking IIS configuration for delegation, creating and setting configuration in Web.config files and using location tags.
-
-[&#9654; Watch video (8 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/delegating-configuration-to-webconfig-files)

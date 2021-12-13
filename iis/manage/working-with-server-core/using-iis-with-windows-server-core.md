@@ -12,5 +12,3 @@ msc.type: video
 by IIS Team
 
 Discover how IIS and the Server Core installation option in Windows Server® 2008 can help reduce management and setup time. IIS on Server Core combines a powerful Web server with a minimal footprint server operating system, which has a smaller disk space requirement, lower memory utilization, a reduced attack surface, and lower servicing needs.
-
-[&#9654; Watch video (8 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/using-iis-with-windows-server-core)

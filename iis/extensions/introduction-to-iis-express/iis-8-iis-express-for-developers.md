@@ -12,5 +12,3 @@ msc.type: video
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Robert McMurray gives an overview of IIS Express. 
-
-[&#9654; Watch video (13 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/iis-8-iis-express-for-developers)

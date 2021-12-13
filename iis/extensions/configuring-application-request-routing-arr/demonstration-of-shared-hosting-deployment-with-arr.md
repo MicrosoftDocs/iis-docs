@@ -12,5 +12,3 @@ msc.type: video
 by Won Yoo
 
 This demonstration will show how to use Application Request Routing (ARR) to deploy web sites in a shared hosting environment.
-
-[&#9654; Watch video (28 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/demonstration-of-shared-hosting-deployment-with-arr)
