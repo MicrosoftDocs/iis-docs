@@ -35,7 +35,7 @@ The AppCmd.exe command line is built on top of a set of top level server managem
 For example, the Site object provides methods to list, create and delete site instances (these are standard methods that are present on almost all objects), as well as stop and start sites. Each site instance in turn will contain properties, such as site name and site id, that can be inspected, searched for, or set. The output of each command is always a list of object instances.
 
 > [!NOTE]
-> AppCmd.exe is located in the `%systemroot%\system32\inetsrv\` directory. Because it is not path of the PATH automatically, you need to use the full path to the executable when executing commands like in `%systemroot%\system32\inetsrv\AppCmd.exe list sites`. Alternatively, you can manually add the *inetsrv* directory to the path on your machine so that you can access AppCmd.exe directly from any location.
+> AppCmd.exe is located in the `%systemroot%\system32\inetsrv\` directory. Because it is not part of the PATH automatically, you need to use the full path to the executable when executing commands like in `%systemroot%\system32\inetsrv\AppCmd.exe list sites`. Alternatively, you can manually add the *inetsrv* directory to the path on your machine so that you can access AppCmd.exe directly from any location.
 
 The tool works by executing a command on one of the supported management objects, with optional parameters used to further customize the behavior of the command:
 
