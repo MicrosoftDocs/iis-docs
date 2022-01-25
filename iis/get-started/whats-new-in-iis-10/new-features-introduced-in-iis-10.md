@@ -38,7 +38,7 @@ With the advent of Nano Server and Windows Containers, IIS now provides a better
 
 Microsoft IIS Administration is a REST API which allows you to configure and monitor your IIS instance, and it is an [open-source project that is under active development on GitHub](https://github.com/Microsoft/IIS.Administration). With this API users can take advantage of the new IIS Web Manager that is available at [https://manage.iis.net](https://manage.iis.net). This browser based application consumes the IIS Administration API to provide a familiar management experience. Microsoft IIS Administration supports IIS 7.5 and above.
 
-Learn more: [Microsoft IIS Administration Preview](https://blogs.iis.net/adminapi/microsoft-iis-administration-api-preview) or [watch the Channel 9 video](https://channel9.msdn.com/Blogs/Seth-Juarez/Microsoft-IIS-Administration-A-new-way-to-manage-IIS).
+Learn more: [Microsoft IIS Administration Preview](https://blogs.iis.net/adminapi/microsoft-iis-administration-api-preview).
 
 ### IIS Administration PowerShell cmdlets
 

@@ -104,6 +104,6 @@ In a few cases, HTTP/2 can't be used in combination with other features. In thes
 
 ## For More Information
 
-See the Build 2015 talk [HTTP/2 in Windows 10: Browser, Apps, and Web Server](https://channel9.msdn.com/Events/Build/2015/3-88) for a more in-depth discussion of HTTP/2 and the client and server implementations in Windows.
+See the Build 2015 talk HTTP/2 in Windows 10: Browser, Apps, and Web Server for a more in-depth discussion of HTTP/2 and the client and server implementations in Windows.
 
 Authors: Mike Bishop, David So (with contributions from and acknowledgements to Rob Trace, Baris Caglar, Nazim Lala)

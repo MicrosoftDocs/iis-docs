@@ -12,5 +12,3 @@ msc.type: video
 by IIS Team
 
 Install only the components you need for your Web applications by leveraging the IIS 7.0 and above modular architecture. This tutorial covers installing the modules necessary for serving ASP and ASP.NET pages from IIS 7.0 or above in Windows Vista. 
-
-[&#9654; Watch video (9 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/Installing-Necessary-IIS-70-Components-on-Windows-Vista)

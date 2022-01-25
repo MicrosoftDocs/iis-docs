@@ -65,7 +65,7 @@ This new feature allows you to specify safe URLs and query strings that will byp
 
 ### Example
 
- In the following example appcmd.exe is used to configure page &quot;Login.asp&quot; as a white listed URL and &quot;Allow=true&quot; as a white listed Query string sequence.
+ In the following example appcmd.exe is used to configure page &quot;Login.asp&quot; as an approved URL and &quot;Allow=true&quot; as a approved Query string sequence.
 
 [!code-console[Main](using-enhanced-request-filtering-features-in-iis/samples/sample13.cmd)]
 

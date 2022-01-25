@@ -12,5 +12,3 @@ msc.type: video
 by Won Yoo
 
 Won Yoo gives an overview of web server features in Windows Server 2012.
-
-[&#9654; Watch video (6 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/iis-8-new-features-overview)
