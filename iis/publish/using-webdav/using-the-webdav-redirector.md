@@ -205,7 +205,7 @@ The following list of error conditions is designed to help troubleshoot situatio
 10. When attempting to connect the Windows WebDAV redirector to a Linux WebDAV server (not a Windows Server running IIS), understand that unlike Windows, Linux is case-sensitive and it's possible to have multiple versions of the same file with the same name varying only by case. This can lead to overwritten data and errors like "File Not Found" or "Windows cannot access *<file name>*", depending on the application you use to open the file. 
 
  - To resolve the file not found error, set the FileNotFoundCacheLifeTimeInSec to 0 using [Change the timeout cache value for WebDAV](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-7/ee683963(v=ws.10)).  
- - To avoid inadvertantly overwriting data, always use different file names, not just files where the name is the same and the case is different between file names.
+ - To avoid inadvertently overwriting data, always use different file names, not just files where the name is the same and the case is different between file names.
 
 <a id="004"></a>
 
