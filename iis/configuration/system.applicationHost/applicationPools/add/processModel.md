@@ -58,7 +58,7 @@ The `<applicationPools>` collection is included in the default installation of I
 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
-2. In the **Connections** pane, expand the server name, click **Application Pools**, and click the application pool you want to edit.  
+2. In the **Connections** pane, expand the server name, click **Application Pools**, and click the application pool you want to edit.
     [![](processModel/_static/image2.png)](processModel/_static/image1.png)
 3. In the **Actions** pane, click **Advanced Settings...**
 4. In the **Advanced Settings** dialog box, click the process model property that you want to edit, and then edit it in the property value section of the dialog box, and then click **OK**. For example, change the **Shutdown Time Limit (seconds)** and **Startup Time Limits (seconds)** to **30**.  
@@ -121,6 +121,7 @@ You configure the `<processModel>` element at the server level in the Applicatio
 | `pingingEnabled` | Optional Boolean attribute.<br><br>Specifies whether pinging is enabled for the worker process.<br><br>The default value is `true`. |
 | `pingInterval` | Optional timeSpan attribute.<br><br>Specifies the time between health-monitoring pings that the WWW service sends to a worker process.<br><br>The default value is `00:00:30` (30 seconds). |
 | `pingResponseTime` | Optional timeSpan attribute.<br><br>Specifies the time that a worker process is given to respond to a health-monitoring ping. After the time limit is exceeded, the WWW service terminates the worker process.<br><br>The default value is `00:01:30` (1 minute 30 seconds). |
+| `requestQueueDelegatorIdentity` | Optional String attribute.<br><br>Specifies the account identity that has permission to delegate HTTP requests to the application pool.<br><br> Note: This attribute is not available in the Internet Information Services (IIS) Manager UI.|
 | `setProfileEnvironment` | Optional Boolean attribute.<br><br>When setProfileEnvironment is set to `True`, WAS creates an environment block to pass to CreateProcessAsUser when creating a worker process. This ensures that the environment is set based on the user profile for the new process.<br><br>The default value is `True`. |
 | `shutdownTimeLimit` | Optional timeSpan attribute.<br><br>Specifies the time that the W3SVC service waits after it initiated a recycle. If the worker process does not shut down within the **shutdownTimeLimit**, it will be terminated by the W3SVC service.<br><br>The default value is `00:01:30` (1 minute 30 seconds). |
 | `startupTimeLimit` | Optional timeSpan attribute.<br><br>Specifies the time that IIS waits for an application pool to start. If the application pool does not startup within the **startupTimeLimit**, the worker process is terminated and the rapid-fail protection count is incremented.<br><br>The default value is `00:01:30` (1 minute 30 seconds). |
