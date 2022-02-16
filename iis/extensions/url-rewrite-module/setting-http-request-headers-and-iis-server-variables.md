@@ -109,7 +109,7 @@ Bring up the "Edit Rule" dialog by clicking on the "Add Rules..." action in the 
 - Pattern: "**^([a-z]{2}-[a-z]{2})/(.\*)**"
 - Conditions: 
 
-    - Input: "{Languages:{R:1}"
+    - Input: "{Languages:{R:1}}"
     - Type: "Matches the Patterns"
     - Pattern: "(.+)"
 - Action: 
