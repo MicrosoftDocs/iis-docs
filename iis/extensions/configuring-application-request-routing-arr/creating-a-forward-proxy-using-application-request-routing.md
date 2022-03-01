@@ -57,7 +57,7 @@ To set up a forward proxy server using ARR, you must have the following:
 
 ### Install ARR
 
-If Application Request Routing Version 3 has not been installed, it is available for download [here](https://www.microsoft.com/download/details.aspx?id=39715). The download site displayed by this link includes installation instructions.
+If Application Request Routing Version 3 has not been installed, it is available for download [here](https://www.microsoft.com/download/details.aspx?id=47333). The download site displayed by this link includes installation instructions.
 
 ### Install URL Rewrite
 
