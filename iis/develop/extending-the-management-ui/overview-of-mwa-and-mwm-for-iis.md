@@ -59,7 +59,7 @@ The server settings are updated when CommitChanges is called on the ServerManage
 
 Here is an overview of some of the strongly typed classes offered by this assembly:
 
-[![](overview-of-mwa-and-mwm-for-iis/_static/image3.jpg)](overview-of-mwa-and-mwm-for-iis/_static/image1.jpg)
+![Diagram showing connections between the ServerManager class and other classes.](overview-of-mwa-and-mwm-for-iis/_static/image3.jpg)
 
 ### Accessing Individual Configuration Files
 
@@ -79,7 +79,7 @@ The IIS configuration system allows you to create a section where you specify pr
 
 A simple overview of generic configuration extensibility is shown below:
 
-[![](overview-of-mwa-and-mwm-for-iis/_static/image7.jpg)](overview-of-mwa-and-mwm-for-iis/_static/image5.jpg)
+![Diagram showing connections in a generic configuration.](overview-of-mwa-and-mwm-for-iis/_static/image7.jpg)
 
 ### Runtime Access to Configuration
 
@@ -93,7 +93,7 @@ Brief descriptions of some of the important classes in each namespace are given 
 
 A high level view of what this assembly offers:
 
-[![](overview-of-mwa-and-mwm-for-iis/_static/image11.jpg)](overview-of-mwa-and-mwm-for-iis/_static/image9.jpg)
+![Screenshot showing lists of classes in namespaces.](overview-of-mwa-and-mwm-for-iis/_static/image11.jpg)
 
 ### Microsoft.Web.Management.Server
 

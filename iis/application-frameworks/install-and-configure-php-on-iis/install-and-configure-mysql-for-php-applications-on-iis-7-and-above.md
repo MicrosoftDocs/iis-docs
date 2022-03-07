@@ -91,7 +91,7 @@ It is recommended that you install MySQL on a dedicated server rather than insta
 3. Restart the IIS service by clicking on **Start**, selecting the **Search Field**, typing **iisreset**, and then pressing ENTER.
 4. If all went well, you should see the **mysqli** section on the PHP information page created earlier `http://localhost/phpinfo.php`.
 
-    [![](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/_static/image2.jpg)](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/_static/image1.jpg)
+    [![Table listing Mysqli version information.](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/_static/image2.jpg)](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/_static/image1.jpg)
 
     *Figure 1: The mysqli section on the PHP information page*
 
