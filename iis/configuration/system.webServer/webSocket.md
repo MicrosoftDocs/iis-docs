@@ -35,7 +35,7 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **WebSocket Protocol**. Click **Next**.  
-    ![Screenshot of applications showing WebSocket Protocol selected.](webSocket/_static/image2.png) .
+    ![Screenshot of the Application Development list showing WebSocket Protocol selected.](webSocket/_static/image2.png) .
 5. On the **Select Features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -44,7 +44,7 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 2. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **WebSocket Protocol**.  
-     ![Screenshot of application features with multiple selections and WebSocket Protocol highlighted.](webSocket/_static/image4.png)
+     ![Screenshot showing the Application Development Features list with multiple selections and WebSocket Protocol highlighted.](webSocket/_static/image4.png)
 3. Click **OK**.
 4. Click **Close**.
 
