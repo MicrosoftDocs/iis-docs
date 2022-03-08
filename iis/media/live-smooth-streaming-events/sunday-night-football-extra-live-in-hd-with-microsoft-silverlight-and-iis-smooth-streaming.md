@@ -54,7 +54,7 @@ The basic steps of the live broadcast included the following:
 
 **Fast Facts** 
 
-| | |
+|Investment|Logged |
 | --- | --- |
 | Total number of football games | 17 |
 | Average viewing time | 29 minutes |
@@ -74,7 +74,7 @@ To keep the video feeds synchronized, four SD video feeds were timed to match wi
 
 **Production Solution Facts**
 
-| | |
+|Investment |Logged |
 | --- | --- |
 | Time frame | 3 months |
 | Tools and technologies | - IIS 7 - IIS Media Services 3.0 - Microsoft Media Platform: Player Framework - Microsoft Media Platform Video Editor |
@@ -129,7 +129,7 @@ NBC tapped California-based Vertigo, a user experience design and software devel
 
 **Video Player Development Facts**
 
-| | |
+|Investment | Logged|
 | --- | -- |
 | Developers | 4 |
 | Designers | 2 |

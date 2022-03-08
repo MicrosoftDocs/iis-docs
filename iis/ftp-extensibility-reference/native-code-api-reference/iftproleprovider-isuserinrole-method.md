@@ -21,9 +21,8 @@ HRESULT IsUserInRole(
   
 ### Parameters  
   
-|||  
-|-|-|  
-|Term|Definition|  
+|Term|Definition|
+|-|-|
 |`pszSessionId`|[IN] A pointer to a string that contains the session ID.|  
 |`pszSiteName`|[IN] A pointer to a string that contains the site name.|  
 |`pszUserName`|[IN] A pointer to a string that contains the user name.|  
@@ -33,9 +32,8 @@ HRESULT IsUserInRole(
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
-|||  
-|-|-|  
-|Value|Description|  
+|Value|Description| 
+|-|-|
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
@@ -72,9 +70,8 @@ public:
   
 ## Requirements  
   
-|||  
-|-|-|  
-|Type|Description|  
+|Type|Description|
+|-|-|
 |Client|-   IIS 7.5 on                                          Windows 7<br />-   IIS 8.0 on                                          Windows 8<br />-   IIS 10.0 on                                          Windows 10|  
 |Server|-   IIS 7.5 on                                          Windows Server 2008 R2<br />-   IIS 8.0 on                                          Windows Server 2012<br />-   IIS 8.5 on                                          Windows Server 2012 R2<br />-   IIS 10.0 on                                          Windows Server 2016|  
 |Product|-   IIS 7.0,                                          IIS 7.5,                                          IIS 8.0,                                          IIS 8.5,                                          IIS 10.0|  

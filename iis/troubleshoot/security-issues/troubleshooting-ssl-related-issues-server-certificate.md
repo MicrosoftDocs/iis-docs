@@ -161,7 +161,7 @@ By now we are sure that we have a proper working certificate installed on the we
 
     **Working scenario:**
 
-    | | |
+    |Configuration |Setting |
     | --- | --- |
     | IP | 0.0.0.0:443 |
     | Hash |  |
@@ -176,7 +176,7 @@ By now we are sure that we have a proper working certificate installed on the we
 
     **Non-working scenario:**
 
-    | | |
+    |Configuration|Setting |
     | --- | --- |
     | IP | 0.0.0.0:443 |
     | Hash | c09b416d6b 8d615db22 64079d15638e96823d |

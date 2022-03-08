@@ -21,7 +21,7 @@ The industry is excited by Microsoft's commitment to standards-based HTTP media 
 
 In the following table, we compare the latest adaptive streaming technologies from Microsoft, Adobe, and Apple.
 
-|  | Microsoft IIS Smooth Streaming | Adobe Flash Dynamic Streaming | Apple HTTP Adaptive Bitrate Streaming |
+| Technology | Microsoft IIS Smooth Streaming | Adobe Flash Dynamic Streaming | Apple HTTP Adaptive Bitrate Streaming |
 | --- | --- | --- | --- |
 | Cost per Streaming Server | Free download[1](#1) + $469 for OS [2](#2) | $4500 [3](#3) + OS cost [4](#4) | Cost of Web server [5](#5) + segmenter OS [6](#6) |
 | On-demand &amp; Live Streaming | ![](adaptive-streaming-comparison/_static/image1.gif) | ![](adaptive-streaming-comparison/_static/image3.gif) | ![](adaptive-streaming-comparison/_static/image5.gif) |
@@ -50,7 +50,7 @@ In the following table, we compare the latest adaptive streaming technologies fr
   
 **Footnotes**
 
-| | |
+|Note |Description |
 | --- | --- |
 | <a id="1"></a>1 | IIS Smooth Streaming is part of the free [IIS Media Services](https://www.iis.net/media) download for Windows Server 2008 and Windows Server 2008 R2. |
 | <a id="2"></a>2 | Runs on any edition of Windows Server® 2008 or Windows Server 2008 R2 including Windows® Web Server, which has a list price of $469. |

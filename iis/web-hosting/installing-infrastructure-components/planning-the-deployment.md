@@ -23,7 +23,7 @@ The primary focus in this phase is on selecting the appropriate deployment scena
 
 **High-level steps in the deployment Planning Phase**
 
-| | |
+|Step | Action|
 | --- | --- |
 | 1 | **Select the appropriate deployment scenarios.**<br><br> The environment typically requires more than one deployment scenario. You would need to determine which combination of deployment scenarios that apply:<br> - New Computer<br> - Upgrade Computer<br> - Refresh Computer<br> - Replace Computer<br> |
 | 2 | **Select the deployment methods.**<br><br> Determine which computers in the environment can be migrated to the new operating system using which method WDS, MD, or SCCM. The level of automation is required as well: PowerShell Scripts in this Hosting Guidance, Light Touch Installation (LTI), or Zero Touch Installation (ZTI) are provided by MD and SCCM. The environment can use one or several of these methods. |
