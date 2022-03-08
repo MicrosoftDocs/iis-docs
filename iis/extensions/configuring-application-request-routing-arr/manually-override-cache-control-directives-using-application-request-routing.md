@@ -62,7 +62,7 @@ This walkthrough assumes that ARR is already configured with disk cache. Review 
     > [!NOTE]
     > Both the Host name and the URL are optional fields.
 
-    ![Screenshot shows teh Add Cache Control Rule dialog box with values added.](manually-override-cache-control-directives-using-application-request-routing/_static/image3.jpg)
+    ![Screenshot shows the Add Cache Control Rule dialog box with values added.](manually-override-cache-control-directives-using-application-request-routing/_static/image3.jpg)
 
 ## Step 2 - Verify functionality.
 

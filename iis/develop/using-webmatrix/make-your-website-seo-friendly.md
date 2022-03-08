@@ -17,7 +17,7 @@ After you've created a website, you can use WebMatrix Beta to run an analysis to
 
 To get started, open an existing website in WebMatrix. Then click **Run a report** or **Reports**.
 
-[![Screenshot shows the WebMatrix window with displaying MyNewSite, with Reports selected and the Run a report link highlighted.](make-your-website-seo-friendly/_static/image3.png)](make-your-website-seo-friendly/_static/image1.png)
+[![Screenshot shows the WebMatrix window, displaying MyNewSite, with Reports selected and the Run a report link highlighted.](make-your-website-seo-friendly/_static/image3.png)](make-your-website-seo-friendly/_static/image1.png)
 
 Next, click **Run an SEO Report for your site**, or click **New** on the **Home** tab.
 
