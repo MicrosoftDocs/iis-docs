@@ -21,7 +21,7 @@ Count (
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pdwEntryCount*|A **DWORD** representing the number of playlist entries in this collection.|
 

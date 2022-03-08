@@ -18,7 +18,7 @@ RESULT FileSize( [out, retval] ULONGLONG *pllFileSize);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pllFileSize*|The **ULONGLONG** that contains the size of the physical file.|
 

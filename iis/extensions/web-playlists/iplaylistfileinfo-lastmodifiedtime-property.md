@@ -18,7 +18,7 @@ RESULT LastModifiedTime( [out, retval] FILETIME* pFileTime);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pFileTime*|A **FILETIME** that contains the last modified time stamp of the physical file.|
 
