@@ -93,7 +93,7 @@ The steps that follow assume that WordPress is installed in a Web site root dire
 3. Click the **Settings** button.
 4. Click the **Permalinks** tab for the **Customize Permalink Structure** page.  
 
-    [![](provide-url-rewriting-functionality/_static/image2.jpg)](provide-url-rewriting-functionality/_static/image1.jpg)
+    [![Screenshot shows Permalink Settings page with Default selected.](provide-url-rewriting-functionality/_static/image2.jpg)](provide-url-rewriting-functionality/_static/image1.jpg)
 
     *Figure 1: Customize permalink structure page*
 5. Select **Custom Structure**, and then type  
@@ -113,7 +113,7 @@ This rule matches any requested URL; if the URL does not correspond to a file or
 
 After the rewrite rule is saved to the Web.config file, open a Web browser, and click any one of the permalinks in WordPress blog. You should see the correct content returned by the Web server for every permalink.
 
-[![](provide-url-rewriting-functionality/_static/image4.jpg)](provide-url-rewriting-functionality/_static/image3.jpg)
+[![Screenshot shows a test page in a block with the U R L highlighted.](provide-url-rewriting-functionality/_static/image4.jpg)](provide-url-rewriting-functionality/_static/image3.jpg)
 
 *Figure 2: Blog welcome page*
 

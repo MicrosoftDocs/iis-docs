@@ -43,11 +43,11 @@ This walkthrough assumes that ARR is already configured with disk cache. Review 
 1. Launch IIS Manager.
 2. The cache control rules are defined at the server level. Select and expand the root of the server.
 
-    ![](manually-override-cache-control-directives-using-application-request-routing/_static/image1.jpg)
+    ![Screenshot shows the I I S Manager navigation view with a server selected.](manually-override-cache-control-directives-using-application-request-routing/_static/image1.jpg)
 3. Double-click **Application Request Routing Cache**.
 4. In the **Actions** pane, click **Cache Control Rules**.
 
-    ![](manually-override-cache-control-directives-using-application-request-routing/_static/image2.jpg)
+    ![Screenshot shows the Actions pane, where you can select Cache Control Rules.](manually-override-cache-control-directives-using-application-request-routing/_static/image2.jpg)
 5. In the **Actions** pane, click **Add...**.
 6. A dialog box launches that will help you to write the cache control rules. Similar to the routing rules in ARR at the server farm level, ARR relies on URL rewrite to write the cache control rules. This UI in ARR makes it more relevant for the disk caching features without forcing the user to use the URL rewrite UI for writing the cache control rules. 
 
@@ -62,7 +62,7 @@ This walkthrough assumes that ARR is already configured with disk cache. Review 
     > [!NOTE]
     > Both the Host name and the URL are optional fields.
 
-    ![](manually-override-cache-control-directives-using-application-request-routing/_static/image3.jpg)
+    ![Screenshot shows teh Add Cache Control Rule dialog box with values added.](manually-override-cache-control-directives-using-application-request-routing/_static/image3.jpg)
 
 ## Step 2 - Verify functionality.
 
@@ -72,10 +72,10 @@ The cache control rule that you wrote in Step 1 will always cache .jpg files for
 2. Open a command prompt and navigate to the cached location.
 3. Locate the file with the name **full**. (In the example below, the file is located in `c:\cache\localhost\pix\`)
 
-    ![](manually-override-cache-control-directives-using-application-request-routing/_static/image4.jpg)
+    ![Screenshot shows a command prompt window with several files displayed.](manually-override-cache-control-directives-using-application-request-routing/_static/image4.jpg)
 4. Open the **full** file to see the header.
 
-    ![](manually-override-cache-control-directives-using-application-request-routing/_static/image5.jpg)
+    ![Screenshot shows a command prompt window that displays the header.](manually-override-cache-control-directives-using-application-request-routing/_static/image5.jpg)
 
     Verify that the max-age is set to 30 minutes (or 1800 seconds).
 
