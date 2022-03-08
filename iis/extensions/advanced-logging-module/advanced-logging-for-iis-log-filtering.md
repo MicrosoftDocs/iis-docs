@@ -63,7 +63,7 @@ To create a filter that captures only requests that have a .html or .htm file na
 3. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, and then click **Add Expression**.  
     ![Screenshot of the Edit Log Definition Filter dialog. Add Expression is highlighted.](advanced-logging-for-iis-log-filtering/_static/image7.jpg)
 4. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image8.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Options in the Expression section are highlighted.](advanced-logging-for-iis-log-filtering/_static/image8.jpg)
 
     - **Field**. Select **URI-Stem**.
     - **Operator**. Select **Equals**.
@@ -83,29 +83,29 @@ To create this filter, do the following:
 2. In the **Advanced Logging** feature page, select the **%COMPUTERNAME%-FilterExample\_MultipleRequests** log definition, and then in the **Actions** pane, click **Edit Log Definition**.
 3. At the bottom of the **Log Definition** feature page, in the **Filter** area, click **Edit Filter**.
 4. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, select **OR Condition** in the **Condition** area, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image9.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Add Express and OR Condition are highlighted.](advanced-logging-for-iis-log-filtering/_static/image9.jpg)
   
    Note that the original root node (**Condition: AND**) in the list changes to **Condition: OR** when you select **OR Condition** in the **Condition** area.
 5. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image10.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog with Field, Operator and Value in the Expression section highlighted.](advanced-logging-for-iis-log-filtering/_static/image10.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter **404**.
     - **Enable as regular expression**. Clear this check box to ensure that Advanced Logging knows to treat the value as a literal expression.
 6. Select the root node (**Condition: OR**) in the list, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image11.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog with Condition: OR and Add Expression highlighted.](advanced-logging-for-iis-log-filtering/_static/image11.jpg)
 7. Another expression node is added to the list. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image12.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog showing Status Equals 400 highlighted in the main pane.](advanced-logging-for-iis-log-filtering/_static/image12.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter **400**.
     - **Enable as regular expression**. Clear this check box to ensure that Advanced Logging knows to treat the value as a literal expression.
 8. Select the root node (**Condition: OR**) in the list, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image13.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog with Condition: OR and Add Expression highlighted. ](advanced-logging-for-iis-log-filtering/_static/image13.jpg)
 9. A third "Expression" node is added to the list. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image14.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog with Status Equals 500 highlighted in the main pane.](advanced-logging-for-iis-log-filtering/_static/image14.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
