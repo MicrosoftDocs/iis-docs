@@ -21,7 +21,7 @@ SetSessionData (
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*bstrVarValue*|The value to assign to the session variable.|
 

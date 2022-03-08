@@ -18,7 +18,7 @@ RESULT Path( [out, retval] BSTR* pbstrPath);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pbstrName*|The physical path of the [IPlaylistRequestInfo Interface](https://msdn.microsoft.com/library/dd146293) instance.|
 
