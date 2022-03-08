@@ -61,13 +61,13 @@ The Query type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Query](query-constructor-microsoft-web-management-databasemanager.md)|Creates a new instance of the Query class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[AllowEdit](query-allowedit-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies whether editing the query is allowed.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Statement](query-statement-property-microsoft-web-management-databasemanager.md)|Gets or sets the SQL statement for a query.|
@@ -75,7 +75,7 @@ The Query type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|

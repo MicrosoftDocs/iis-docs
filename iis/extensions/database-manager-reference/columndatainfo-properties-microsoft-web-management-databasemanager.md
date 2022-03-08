@@ -14,7 +14,7 @@ The [ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanag
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[ColumnName](columndatainfo-columnname-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies the name of the database column.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[IsEdited](columndatainfo-isedited-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the database column has been edited.|

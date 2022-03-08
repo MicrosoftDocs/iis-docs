@@ -56,7 +56,7 @@ The IDbViewManager type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[CreateView](idbviewmanager-createview-method-microsoft-web-management-databasemanager.md)|Creates a view within the database.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DropView](idbviewmanager-dropview-method-microsoft-web-management-databasemanager.md)|Removes a view from the database.|

@@ -67,12 +67,12 @@ public enum IndexChanges
 
 ## Members
 
-||Member name|Description|
-|--- |--- |--- |
-||None|The index has no changes.|
-||IsNew|The index is new.|
-||IsMarkedForDelete|The index is marked for deletion.|
-||Name|The name of the index was changed.|
+|Member name|Description|
+|--- |--- |
+|None|The index has no changes.|
+|IsNew|The index is new.|
+|IsMarkedForDelete|The index is marked for deletion.|
+|Name|The name of the index was changed.|
 
 ## Remarks
 

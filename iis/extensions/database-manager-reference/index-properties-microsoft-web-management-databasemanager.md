@@ -14,7 +14,7 @@ The [Index](index-class-microsoft-web-management-databasemanager.md) type expose
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Clustered](index-clustered-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index is clustered.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Columns](index-columns-property-microsoft-web-management-databasemanager.md)|Returns a list of columns for the index.|

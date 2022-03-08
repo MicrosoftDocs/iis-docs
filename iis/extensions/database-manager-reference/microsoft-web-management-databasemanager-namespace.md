@@ -73,7 +73,7 @@ These variables are useful in an environment where multiple servers are storing 
 
 ## Classes
 
-||Class|Description|
+|Class Type|Class|Description|
 |--- |--- |--- |
 |![Public class](images/Dd566080.pubclass(en-us,VS.90).gif "Public class")|[Column](column-class-microsoft-web-management-databasemanager.md)|Represents a column within a database.|
 |![Public class](images/Dd566080.pubclass(en-us,VS.90).gif "Public class")|[ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md)|Represents the information about the data in a column within the database that is being managed.|
@@ -97,7 +97,7 @@ These variables are useful in an environment where multiple servers are storing 
 
 ## Interfaces
 
-||Interface|Description|
+|Interface Type|Interface|Description|
 |--- |--- |--- |
 |![Public interface](images/Dd566080.pubinterface(en-us,VS.90).gif "Public interface")|[IDbBackupManager](idbbackupmanager-interface-microsoft-web-management-databasemanager.md)|Represents a database backup manager interface.|
 |![Public interface](images/Dd566080.pubinterface(en-us,VS.90).gif "Public interface")|[IDbCustomBackupRestoreManager](idbcustombackuprestoremanager-interface-microsoft-web-management-databasemanager.md)|Represents a custom database backup and restore manager interface.|
@@ -109,7 +109,7 @@ These variables are useful in an environment where multiple servers are storing 
 
 ## Enumerations
 
-||Enumeration|Description|
+|Enumeration Type|Enumeration|Description|
 |--- |--- |--- |
 |![Public enumeration](images/Dd566080.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ColumnChanges](columnchanges-enumeration-microsoft-web-management-databasemanager.md)|Defines the values for pending column changes.|
 |![Public enumeration](images/Dd566080.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ForeignKeyChanges](foreignkeychanges-enumeration-microsoft-web-management-databasemanager.md)|Specifies the changes for foreign keys in a database.|

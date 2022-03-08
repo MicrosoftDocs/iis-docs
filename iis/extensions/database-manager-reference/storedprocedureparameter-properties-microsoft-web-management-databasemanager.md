@@ -14,7 +14,7 @@ The [StoredProcedureParameter](storedprocedureparameter-class-microsoft-web-mana
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[IsNull](storedprocedureparameter-isnull-property-microsoft-web-management-databasemanager.md)|Returns a value that indicates whether the parameter for a stored procedure is nulla null reference (Nothing in Visual Basic).|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[IsOutputParameter](storedprocedureparameter-isoutputparameter-property-microsoft-web-management-databasemanager.md)|Returns a value that indicates whether the parameter for a stored procedure is an output parameter.|
