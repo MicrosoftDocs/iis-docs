@@ -60,7 +60,7 @@ The `<globalModules>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server connection to which you want to add the native module.
 3. On the server Home page, double-click **Modules**.  
-    [![Screenshot that shows five modules](index/_static/image2.png)](index/_static/image1.png)
+    [![](index/_static/image2.png)](index/_static/image1.png)
 4. In the **Actions** pane, click **Configure Native Modules...**
 5. In the **Configure Native Modules** dialog box, click **Register...**  
     [![](index/_static/image4.png)](index/_static/image3.png)
