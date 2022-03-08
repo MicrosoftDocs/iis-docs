@@ -56,7 +56,7 @@ The IDbTableDataManager type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DeleteRow](idbtabledatamanager-deleterow-method-microsoft-web-management-databasemanager.md)|Removes a row from a table.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[EditRow](idbtabledatamanager-editrow-method-microsoft-web-management-databasemanager.md)|Modifies the data inside a table row.|

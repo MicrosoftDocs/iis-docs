@@ -14,7 +14,7 @@ The [IDbCustomBackupRestoreManager](idbcustombackuprestoremanager-interface-micr
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[CreateBackup](idbbackupmanager-createbackup-method-microsoft-web-management-databasemanager.md)|Creates a database backup. (Inherited from [IDbBackupManager](idbbackupmanager-interface-microsoft-web-management-databasemanager.md).)|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ListBackups](idbcustombackuprestoremanager-listbackups-method-microsoft-web-management-databasemanager.md)|Retrieves a list of database backup names for a custom backup and restore module.|
