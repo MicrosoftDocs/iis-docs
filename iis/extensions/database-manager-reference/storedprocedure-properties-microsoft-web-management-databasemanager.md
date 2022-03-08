@@ -14,7 +14,7 @@ The [StoredProcedure](storedprocedure-class-microsoft-web-management-databaseman
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Definition](storedprocedure-definition-property-microsoft-web-management-databasemanager.md)|Gets or sets the definition for a stored procedure.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](storedprocedure-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a stored procedure.|

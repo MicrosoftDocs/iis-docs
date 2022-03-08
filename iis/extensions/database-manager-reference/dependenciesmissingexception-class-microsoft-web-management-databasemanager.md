@@ -64,7 +64,7 @@ The DependenciesMissingException type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DependenciesMissingException()](dependenciesmissingexception-constructor-microsoft-web-management-databasemanager_1.md)|Creates a new instance of the DependenciesMissingException class.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DependenciesMissingException(String)](dependenciesmissingexception-constructor-string-microsoft-web-management-databasemanager.md)||
@@ -73,7 +73,7 @@ The DependenciesMissingException type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Data](https://msdn.microsoft.com/library/2wyfbc48)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[HelpLink](https://msdn.microsoft.com/library/71tawy4s)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
@@ -86,7 +86,7 @@ The DependenciesMissingException type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|

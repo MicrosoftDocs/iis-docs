@@ -61,20 +61,20 @@ The IndexColumn type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[IndexColumn](indexcolumn-constructor-microsoft-web-management-databasemanager.md)|Creates a new instance of the IndexColumn class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Descending](indexcolumn-descending-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index column is a descending index.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](indexcolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name of the index column.|
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
@@ -85,7 +85,7 @@ The IndexColumn type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Dd565979.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Dd565979.static(en-us,VS.90).gif "Static member")|[DescendingIndex](indexcolumn-descendingindex-field-microsoft-web-management-databasemanager.md)|Returns the index number for the index column's descending index.|
 |![Public field](images/Dd565979.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Dd565979.static(en-us,VS.90).gif "Static member")|[NameIndex](indexcolumn-nameindex-field-microsoft-web-management-databasemanager.md)|Returns the index number for the column's name index.|
