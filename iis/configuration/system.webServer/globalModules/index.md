@@ -60,13 +60,13 @@ The `<globalModules>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server connection to which you want to add the native module.
 3. On the server Home page, double-click **Modules**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot of five icons titled MIME Types, Modules, Output Caching, Server Certificates, and Worker Processes. The icon titled Modules is highlighted.](index/_static/image2.png)](index/_static/image1.png)
 4. In the **Actions** pane, click **Configure Native Modules...**
 5. In the **Configure Native Modules** dialog box, click **Register...**  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of the Configure Native Modules dialog box.](index/_static/image4.png)](index/_static/image3.png)
 6. In the **Register Native Module** dialog box, in the **Name** box, type a name for the native module.
 7. In the **Path** box, type the file system path of the location of the .dll file or click the **Browse** button  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Path box showing the file system path and the name of the location of the . d d l file.](index/_static/image6.png)](index/_static/image5.png)
 8. In the **Configure Native Modules** dialog box, select the option for the native module that you just registered, click **OK**, and then click **OK** again. This enables the native module to run and makes it available to sites and applications on your Web server.  
   
     > [!NOTE]
@@ -95,7 +95,7 @@ The `<globalModules>` element is included in the default installation of IIS 7.
 3. On the server, site, or application Home page, double-click **Modules**.
 4. In the **Actions** pane, click **Configure Native Modules...**
 5. In the **Configure Native Modules** dialog box, select the option for the native module that you want to enable, and then click **OK**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot of the Configure Native Modules dialog box. The registered module titled UriCacheModule is selected.](index/_static/image8.png)](index/_static/image7.png)
 
 <a id="005"></a>
 ## Configuration
