@@ -22,16 +22,16 @@ The following table lists the methods that are exposed by the **INativeConfigura
 
 | Name | Description |
 |---|---|
-|[INativeConfigurationElementCollection::AddRawCollectionElement Method [IIS 7]](../inativeconfigurationelementcollection-addrawcollectionelement-method) | Adds a configuration element to a collection of native configuration elements. |
-|[INativeConfigurationElementCollection::DeleteRawCollectionElement Method [IIS 7]](../inativeconfigurationelementcollection-deleterawcollectionelement-method) | Deletes a configuration element from a collection of native configuration elements. |
-|[INativeConfigurationElementCollection::GetRawElementCount Method [IIS 7]](../inativeconfigurationelementcollection-getrawelementcount-method) | Retrieves a configuration element from a collection of native configuration elements based on its index. |
-|[INativeConfigurationElementCollection::GetRawElementByIndex Method [IIS 7]](../inativeconfigurationelementcollection-getrawelementbyindex-method) | Returns the number of elements within a collection of native configuration elements. |
-|[INativeConfigurationElementCollection::NotUsed0 Method [IIS 7]](../inativeconfigurationelementcollection-notused0-method) | This is an infrastructure method that is not intended to be called directly. |
-|[INativeConfigurationElementCollection::NotUsed1 Method [IIS 7]](../inativeconfigurationelementcollection-notused1-method) | This is an infrastructure method that is not intended to be called directly. |
-|[INativeConfigurationElementCollection::NotUsed2 Method [IIS 7]](../inativeconfigurationelementcollection-notused2-method) | This is an infrastructure method that is not intended to be called directly. |
-|[INativeConfigurationElementCollection::NotUsed3 Method [IIS 7]](../inativeconfigurationelementcollection-notused3-method) | This is an infrastructure method that is not intended to be called directly. |
-|[INativeConfigurationElementCollection::NotUsed4 Method [IIS 7]](../inativeconfigurationelementcollection-notused4-method) | This is an infrastructure method that is not intended to be called directly. |
-|[INativeConfigurationElementCollection::NotUsed5 Method [IIS 7]](../inativeconfigurationelementcollection-notused5-method) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::AddRawCollectionElement Method [IIS 7]](../inativeconfigurationelementcollection-addrawcollectionelement-method.md) | Adds a configuration element to a collection of native configuration elements. |
+|[INativeConfigurationElementCollection::DeleteRawCollectionElement Method [IIS 7]](../inativeconfigurationelementcollection-deleterawcollectionelement-method.md) | Deletes a configuration element from a collection of native configuration elements. |
+|[INativeConfigurationElementCollection::GetRawElementCount Method [IIS 7]](../inativeconfigurationelementcollection-getrawelementcount-method.md) | Retrieves a configuration element from a collection of native configuration elements based on its index. |
+|[INativeConfigurationElementCollection::GetRawElementByIndex Method [IIS 7]](../inativeconfigurationelementcollection-getrawelementbyindex-method.md) | Returns the number of elements within a collection of native configuration elements. |
+|[INativeConfigurationElementCollection::NotUsed0 Method [IIS 7]](../inativeconfigurationelementcollection-notused0-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed1 Method [IIS 7]](../inativeconfigurationelementcollection-notused1-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed2 Method [IIS 7]](../inativeconfigurationelementcollection-notused2-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed3 Method [IIS 7]](../inativeconfigurationelementcollection-notused3-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed4 Method [IIS 7]](../inativeconfigurationelementcollection-notused4-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed5 Method [IIS 7]](../inativeconfigurationelementcollection-notused5-method.md) | This is an infrastructure method that is not intended to be called directly. |
 
 ## Remarks
 
