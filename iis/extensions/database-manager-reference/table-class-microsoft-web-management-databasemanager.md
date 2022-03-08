@@ -61,13 +61,13 @@ The Table type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Table](table-constructor-microsoft-web-management-databasemanager.md)|Creates a new instance of the Table class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[CreateDate](table-createdate-property-microsoft-web-management-databasemanager.md)|Gets or sets the creation date for a table.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](table-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a table.|
@@ -75,7 +75,7 @@ The Table type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
