@@ -129,49 +129,49 @@ To create a complex filter for a log definition that uses multiple conditions as
 2. In the **Advanced Logging** feature page, select the **%COMPUTERNAME%-FilterExample\_Conditions** log definition, and then in the **Actions** pane, click **Edit Log Definition**.
 3. At the bottom of the **Log Definition** feature page, in the **Filter** area, click **Edit Filter**.
 4. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, and then click **Add Condition**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image15.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Add Condition is highlighted in the main pane. AND Condition is selected in the Condition pane.](advanced-logging-for-iis-log-filtering/_static/image15.jpg)
 5. A sub-node condition is added below the root node condition (**Condition: AND**) in the list. In the **Condition** area of the dialog box, select **OR Condition**, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image16.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Condition: OR appears in the main pane. Add Expression and OR Condition are highlighted.](advanced-logging-for-iis-log-filtering/_static/image16.jpg)
 6. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image17.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. URI-STEM Equals .*\.html? appears in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image17.jpg)
 
     - **Field**. Select **URI-Stem**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter __.\*\\.html?__.
     - **Enable as regular expression**. Select this check box to ensure that Advanced Logging knows to treat the value as a Regex expression.
 7. Select the sub-node condition (**Condition: OR**) in the list, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image18.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Condition: OR applies to URI-STEM Equals .*\.html?. Add Expression is highlighted.](advanced-logging-for-iis-log-filtering/_static/image18.jpg)
 8. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image19.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. URI-STEM Equals .*\.aspx? is highlighted in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image19.jpg)
 
     - **Field**. Select **URI-Stem**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter __.\*\\.aspx?__.
     - **Enable as regular expression**. Select this check box to ensure that Advanced Logging knows to treat the value as a Regex expression.
 9. Now select the root node condition (**Condition: AND**) in the hierarchical list, and then click **Add Condition**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image20.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Condition:AND and Add Condition are highlighted in the main pane.](advanced-logging-for-iis-log-filtering/_static/image20.jpg)
 10. A second sub-node condition is added below the root node condition (**Condition: AND**) in the list. In the **Condition** area of the dialog box, select **OR Condition**, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image21.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Condition:OR and Add Condition are highlighted in the main pane. OR Condition is highlighted in the Condition pane and the current OR expression appears in the output pane.](advanced-logging-for-iis-log-filtering/_static/image21.jpg)
 11. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image22.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Status Equals 400 is highlighted in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image22.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter **400**.
     - **Enable as regular expression**. Clear this check box to ensure that Advanced Logging knows to treat the value as a literal expression.
 12. Select the sub-node condition (**Condition: OR**) ' at the bottom of the list, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image23.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. The second Condition:OR and Add Expression are highlighted.](advanced-logging-for-iis-log-filtering/_static/image23.jpg)
 13. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image24.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Status Equals 404 is highlighted under the second Condition:OR in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image24.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter **404**.
     - **Enable as regular expression**. Clear this check box to ensure that Advanced Logging knows to treat the value as a literal expression.
 14. Select the sub-node condition (**Condition: OR**) at the bottom of the list, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image25.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. The second Condition:OR and Add Expression are highlighted in the main pane. The output pane shows the full OR expression.](advanced-logging-for-iis-log-filtering/_static/image25.jpg)
 15. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image26.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Status Equals 500 is highlighted under the second Condition:OR in the main pane. Options are selected in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image26.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
