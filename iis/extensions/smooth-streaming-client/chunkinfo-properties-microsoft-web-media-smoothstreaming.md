@@ -14,7 +14,7 @@ The [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Attributes](chunkinfo-attributes-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets [Attributes](chunkinfo-attributes-property-microsoft-web-media-smoothstreaming_1.md).|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Duration](chunkinfo-duration-property-microsoft-web-media-smoothstreaming_1.md)|Time duration that corresponds the to the \<d> element in the manifest for the chunk.|

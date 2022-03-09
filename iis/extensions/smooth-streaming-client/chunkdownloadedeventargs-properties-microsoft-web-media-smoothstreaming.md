@@ -14,7 +14,7 @@ The [ChunkDownloadedEventArgs](chunkdownloadedeventargs-class-microsoft-web-medi
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[CanonicalUri](chunkdownloadedeventargs-canonicaluri-property-microsoft-web-media-smoothstreaming.md)|Gets the canonical URI for downloading the current chunk.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Chunk](chunkdownloadedeventargs-chunk-property-microsoft-web-media-smoothstreaming.md)|Gets the chunk being downloaded.|
