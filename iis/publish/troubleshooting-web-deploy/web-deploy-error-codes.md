@@ -103,6 +103,12 @@ For certain common error cases, Web Deploy will show an error code. This table e
 - From the msdeploy.exe command line, you can do this by passing the -allowUntrusted flag.
 - From the Visual Studio 2010 publish UI, you can check "Allow untrusted"
 - From a Visual Studio 2010 deployment package (e.g. MyApp.deploy.cmd), you can pass the -allowUntrusted flag
+- Add `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>` to the pubxml file:
+```xml
+<PropertyGroup>
+  <AllowUntrustedCertificate>true</AllowUntrustedCertificate>
+</PropertyGroup>
+```
 
 <a id="ERROR_PROXY_GATEWAY"></a>
 
