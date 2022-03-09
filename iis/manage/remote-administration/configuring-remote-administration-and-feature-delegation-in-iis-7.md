@@ -185,7 +185,7 @@ When you first open the **Feature Delegation** feature page, you can configure t
 **To configure default delegation states for features in IIS Manager**
 
 1. In IIS Manager, in the **Connections** pane, click the server node in the tree.
-2. On the server home page, double-click **Feature Delegation**. [![Screenshot of connections pane in server home page showing B D E L A P C 1 - I I S home selected and Feature Delegation icon highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image30.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image29.jpg)
+2. On the server home page, double-click **Feature Delegation**. [![Screenshot of connections pane in server home page showing B D E L A P C 1 dash I I S home selected and Feature Delegation icon highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image30.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image29.jpg)
 3. Select **Delegation** from the **Group by** list to organize the list of features by their current delegation states.  
     [![Screenshot of Feature Delegation list in the action pane with delegation from the group list highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image32.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image31.jpg)
 4. Select **Error Pages** in the **Feature Delegation** list, and then review the available delegation states in the **Actions** pane. The **Error Pages** feature is selected and the available options under **Set Feature Delegation** are **Read/Write**, **Remove Delegation** and **Reset to Inherited**.  

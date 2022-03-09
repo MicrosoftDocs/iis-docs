@@ -58,7 +58,7 @@ For this walkthrough we will use the new Server Manager UI in Windows Server 201
     - **ASP.NET 3.** 5 - This option enables ASP.NET 3.5 to run on IIS 8.0. Note that with Windows Server 2012, .NET Framework 3.5 is not available as a part of the base OS image. Instead, the payload is downloaded from the Internet and you need to connect to the Internet.
     - **ASP.NET 4.5** - This option enables ASP.NET 4.5 to run on IIS 8.0.
 9. First click the **ASP.NET 3.5** check box. When you do so, an additional dialog box will popup as shown below:  
-    ![Screenshot of the dialog box with the question of  Add features that are required for A S P dot NET 3 point 5.](iis-80-using-aspnet-35-and-aspnet-45/_static/image3.jpg)
+    ![Screenshot of the dialog box with the question of Add features that are required for A S P dot NET 3 point 5.](iis-80-using-aspnet-35-and-aspnet-45/_static/image3.jpg)
 10. Since ASP.NET 3.5 is integrated into the Windows Server 2012 setup, Windows Server 2012 knows all of the related dependencies necessary to enable ASP.NET 3.5 on IIS 8.0. This popup dialog is just showing you what will be automatically pulled in and installed. Since we do want ASP.NET 3.5 enabled, click **Add Required Features**.
 11. Next, click the **ASP.NET 4.5** check box in the **Role services** feature list. The end result of clicking both ASP.NET related checkboxes is shown below:  
     [![Screenshot of Role Services feature list with A S P dot NET 4 point 5 checked and highlighted.](iis-80-using-aspnet-35-and-aspnet-45/_static/image7.jpg)](iis-80-using-aspnet-35-and-aspnet-45/_static/image5.jpg)
@@ -136,7 +136,7 @@ Now that there is an ASP.NET 3.5 application running, you can create a second AS
 2. Open up the contents of the "example45" folder.
 3. In the second Windows Explorer window that you have open, navigate to `c:\inetpub\wwwroot`.
 4. Copy the "default.aspx" file from the .zip file and paste it directly into `c:\inetpub\wwwroot`. The folder contents for `c:\inetpub\wwwroot` should now look like:  
-    [![Screenshot of the local disk C drive folders with default dot aspx file highlighted.](iis-80-using-aspnet-35-and-aspnet-45/_static/image61.png)](iis-80-using-aspnet-35-and-aspnet-45/_static/image59.png)
+    [![Screenshot of the local disk C drive folders with default dot a s p x file highlighted.](iis-80-using-aspnet-35-and-aspnet-45/_static/image61.png)](iis-80-using-aspnet-35-and-aspnet-45/_static/image59.png)
 5. Now go back to Internet Explorer and navigate to the following URL:
 
     `http://localhost/default.aspx`
