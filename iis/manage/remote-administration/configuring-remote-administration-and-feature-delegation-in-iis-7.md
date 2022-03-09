@@ -211,7 +211,7 @@ The steps above configured the default delegation state for the **Error Pages** 
 1. In IIS Manager, double-click **Feature Delegation**.
 2. On the **Feature Delegation** page, in the **Actions** pane, click **Custom Web Site Delegation**.
 3. From the **Sites** list, select the site for which you want to configure custom delegation settings.  
-    [![screenshot of Custom Website Delegation pane with sites list highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image38.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image37.jpg)
+    [![Screenshot of Custom Website Delegation pane with sites list highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image38.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image37.jpg)
 4. Select a feature, and then click a delegation state in the **Actions** pane.
 
 **To copy custom delegation states from one site to another site**
