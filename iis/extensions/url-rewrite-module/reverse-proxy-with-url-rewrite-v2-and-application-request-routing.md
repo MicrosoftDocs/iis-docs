@@ -213,7 +213,7 @@ You need to change the links in the response HTML only if response is from the w
 2. Click "Add…" button to bring up the dialog box for defining conditions.
 3. For "Condition input:" enter this string: "**{URL}"**. This configures URL rewrite module to use the URL path that was requested by web client.
 4. In the drop down combo box select "**Matches the pattern**".
-5. In the "Pattern" textbox enter "**^/(webmail|payroll)/.\\***". This regular expression will be used to match the URL paths that start with either /webmail or /payrol. Also the parenthesis within the pattern will capture the part of the matched URL string, so that we can re-use when constructing the replacement URL.
+5. Enter `^/(webmail|payroll)/.*` in the **Pattern** textbox. This regular expression is used to match the URL paths that start with either `/webmail` or `/payrol`. The parenthesis within the pattern captures the part of the matched URL string, so that it can be used when constructing the replacement URL.
 6. Click OK to save the condition and return to the "Add Rule" UI.
 
 ### Defining an action
