@@ -67,11 +67,11 @@ public enum ChunkRequestType
 
 ## Members
 
-||Member name|Description|
-|--- |--- |--- |
-||Fragment|The requested chunk is a Fragment chunk.|
-||FragmentInfo|The requested chunk is a FragmentInfo chunk.|
-||KeyFrame|The requested chunk is a KeyFrame chunk.|
+|Member name|Description|
+|--- |--- |
+|Fragment|The requested chunk is a Fragment chunk.|
+|FragmentInfo|The requested chunk is a FragmentInfo chunk.|
+|KeyFrame|The requested chunk is a KeyFrame chunk.|
 
 ## Version Information
 

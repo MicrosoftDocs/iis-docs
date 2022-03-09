@@ -23,7 +23,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CacheResponse(Stream)](cacheresponse-constructor-stream-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CacheResponse(Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime)](cacheresponse-constructor-int64-string-webheadercollection-stream-httpstatuscode-string-datetime-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from the parameters.|

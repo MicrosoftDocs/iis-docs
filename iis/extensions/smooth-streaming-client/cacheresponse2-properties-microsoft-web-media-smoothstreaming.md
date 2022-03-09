@@ -14,7 +14,7 @@ The [CacheResponse2](cacheresponse2-class-microsoft-web-media-smoothstreaming.md
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ContentLength](cacheresponse-contentlength-property-microsoft-web-media-smoothstreaming_1.md)|The length in bytes. (Inherited from [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ContentType](cacheresponse-contenttype-property-microsoft-web-media-smoothstreaming_1.md)|A string object that identifies the content type. (Inherited from [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md).)|
