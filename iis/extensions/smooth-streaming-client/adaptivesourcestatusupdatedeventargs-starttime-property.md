@@ -41,7 +41,7 @@ Type: [Int64](https://msdn.microsoft.com/library/6yy583ek)
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
