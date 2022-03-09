@@ -22,7 +22,7 @@ Item(
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*dwEntryIndex*|A **DWORD** that contains the index of the requested item in the collection.|
 |*ppPlaylistEntry*|The returned [IPlaylistEntryInfo Interface](https://msdn.microsoft.com/library/dd146268) instance.|

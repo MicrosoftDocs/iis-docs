@@ -18,7 +18,7 @@ RESULT IsCached( [out, retval] VARIANT_BOOL *fCached);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*fCached*|TRUE, if the file is cached by IIS 7; otherwise, **FALSE**.|
 

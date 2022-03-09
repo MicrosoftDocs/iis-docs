@@ -21,7 +21,7 @@ Entries(
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*ppPlaylistEntries*|The returned [IPlaylistEntryInfoCollection Interface](https://msdn.microsoft.com/library/dd146264) instance.|
 

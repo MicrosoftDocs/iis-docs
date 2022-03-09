@@ -22,7 +22,7 @@ GetPlaylistInfo(
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |pRequestInfo|An [IPlaylistRequestInfo Interface](iplaylistrequestinfo-interface.md) instance that represents the current playlist request.|
 |ppPlaylistInfo|The returned [IPlaylistInfo Interface](iplaylistinfo-interface.md) instance.|

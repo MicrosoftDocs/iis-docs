@@ -21,7 +21,7 @@ Uri(
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pbstrUri*|The returned URI for the playlist location. Implementers are required to return a valid value.|
 
