@@ -33,13 +33,13 @@ void remove (AdaptiveSourceStatusUpdatedEventHandler^ value);
 
 ## Event information
 
-|||
+|Type|Event|
 |--- |--- |
 |Delegate|AdaptiveSourceStatusUpdatedEventHandler|
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
