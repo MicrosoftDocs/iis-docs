@@ -21,7 +21,7 @@ Before starting the install, create a database on your database server. Also cre
 
 In addition, grant the newly created user the db\_owner permissions to my\_DB database:
 
-[![](setting-up-a-database-for-a-php-application-on-iis/_static/image3.jpg)](setting-up-a-database-for-a-php-application-on-iis/_static/image1.jpg)
+[![Screenshot shows the Database User dialog box for my_D B user, with d b_owner selected as a Role Member.](setting-up-a-database-for-a-php-application-on-iis/_static/image3.jpg)](setting-up-a-database-for-a-php-application-on-iis/_static/image1.jpg)
 
 ## Setup a MySQL Database from the Command Line
 

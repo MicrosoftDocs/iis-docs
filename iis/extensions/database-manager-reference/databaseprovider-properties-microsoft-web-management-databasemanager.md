@@ -14,7 +14,7 @@ The [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasem
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[ConnectionStringArguments](databaseprovider-connectionstringarguments-property-microsoft-web-management-databasemanager.md)|Gets a collection that contains the collection of database connection arguments.|
 

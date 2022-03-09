@@ -14,7 +14,7 @@ The [ConnectionArgument](connectionargument-class-microsoft-web-management-datab
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[DefaultValue](connectionargument-defaultvalue-property-microsoft-web-management-databasemanager.md)|Gets or sets the default value for the database connection argument.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[IsPassword](connectionargument-ispassword-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the connection argument is a password.|

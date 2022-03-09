@@ -56,7 +56,7 @@ The IDbTableManager type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[CreateTable](idbtablemanager-createtable-method-microsoft-web-management-databasemanager.md)|Creates a table in a database.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DropTable](idbtablemanager-droptable-method-microsoft-web-management-databasemanager.md)|Removes a table from the database.|

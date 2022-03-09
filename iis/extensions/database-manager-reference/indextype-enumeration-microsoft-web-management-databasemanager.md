@@ -58,10 +58,10 @@ public enum IndexType
 
 ## Members
 
-||Member name|Description|
-|--- |--- |--- |
-||Index|An index type.|
-||PrimaryKey|A primary key.|
+|Member name|Description|
+|--- |--- |
+|Index|An index type.|
+|PrimaryKey|A primary key.|
 
 ## Examples
 

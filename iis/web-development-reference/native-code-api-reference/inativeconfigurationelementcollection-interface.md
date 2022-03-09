@@ -20,60 +20,18 @@ class INativeConfigurationElementCollection : public IUnknown
 
 The following table lists the methods that are exposed by the **INativeConfigurationElementCollection** interface.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="inativeconfigurationelementcollection-addrawcollectionelement-method.md">INativeConfigurationElementCollection::AddRawCollectionElement Method [IIS 7]</a></p></td>
-<td><p>Adds a configuration element to a collection of native configuration elements.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="inativeconfigurationelementcollection-deleterawcollectionelement-method.md">INativeConfigurationElementCollection::DeleteRawCollectionElement Method [IIS 7]</a></p></td>
-<td><p>Deletes a configuration element from a collection of native configuration elements.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="inativeconfigurationelementcollection-getrawelementcount-method.md">INativeConfigurationElementCollection::GetRawElementCount Method [IIS 7]</a></p></td>
-<td><p>Retrieves a configuration element from a collection of native configuration elements based on its index.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="inativeconfigurationelementcollection-getrawelementbyindex-method.md">INativeConfigurationElementCollection::GetRawElementByIndex Method [IIS 7]</a></p></td>
-<td><p>Returns the number of elements within a collection of native configuration elements.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="inativeconfigurationelementcollection-notused0-method.md">INativeConfigurationElementCollection::NotUsed0 Method [IIS 7]</a></p></td>
-<td><p>This is an infrastructure method that is not intended to be called directly.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="inativeconfigurationelementcollection-notused1-method.md">INativeConfigurationElementCollection::NotUsed1 Method [IIS 7]</a></p></td>
-<td><p>This is an infrastructure method that is not intended to be called directly.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="inativeconfigurationelementcollection-notused2-method.md">INativeConfigurationElementCollection::NotUsed2 Method [IIS 7]</a></p></td>
-<td><p>This is an infrastructure method that is not intended to be called directly.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="inativeconfigurationelementcollection-notused3-method.md">INativeConfigurationElementCollection::NotUsed3 Method [IIS 7]</a></p></td>
-<td><p>This is an infrastructure method that is not intended to be called directly.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="inativeconfigurationelementcollection-notused4-method.md">INativeConfigurationElementCollection::NotUsed4 Method [IIS 7]</a></p></td>
-<td><p>This is an infrastructure method that is not intended to be called directly.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="inativeconfigurationelementcollection-notused5-method.md">INativeConfigurationElementCollection::NotUsed5 Method [IIS 7]</a></p></td>
-<td><p>This is an infrastructure method that is not intended to be called directly.</p></td>
-</tr>
-</tbody>
-</table>
+| Name | Description |
+|---|---|
+|[INativeConfigurationElementCollection::AddRawCollectionElement Method [IIS 7]](inativeconfigurationelementcollection-addrawcollectionelement-method.md) | Adds a configuration element to a collection of native configuration elements. |
+|[INativeConfigurationElementCollection::DeleteRawCollectionElement Method [IIS 7]](inativeconfigurationelementcollection-deleterawcollectionelement-method.md) | Deletes a configuration element from a collection of native configuration elements. |
+|[INativeConfigurationElementCollection::GetRawElementCount Method [IIS 7]](inativeconfigurationelementcollection-getrawelementcount-method.md) | Retrieves a configuration element from a collection of native configuration elements based on its index. |
+|[INativeConfigurationElementCollection::GetRawElementByIndex Method [IIS 7]](inativeconfigurationelementcollection-getrawelementbyindex-method.md) | Returns the number of elements within a collection of native configuration elements. |
+|[INativeConfigurationElementCollection::NotUsed0 Method [IIS 7]](inativeconfigurationelementcollection-notused0-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed1 Method [IIS 7]](inativeconfigurationelementcollection-notused1-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed2 Method [IIS 7]](inativeconfigurationelementcollection-notused2-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed3 Method [IIS 7]](inativeconfigurationelementcollection-notused3-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed4 Method [IIS 7]](inativeconfigurationelementcollection-notused4-method.md) | This is an infrastructure method that is not intended to be called directly. |
+|[INativeConfigurationElementCollection::NotUsed5 Method [IIS 7]](inativeconfigurationelementcollection-notused5-method.md) | This is an infrastructure method that is not intended to be called directly. |
 
 ## Remarks
 
@@ -89,36 +47,12 @@ Note: The INativeConfigurationElementCollection interface contains several infra
 
 ## Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Type</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Client</p></td>
-<td><p>IIS 7</p></td>
-</tr>
-<tr class="even">
-<td><p>Server</p></td>
-<td><p>IIS 7</p></td>
-</tr>
-<tr class="odd">
-<td><p>Product</p></td>
-<td><p>IIS 7</p></td>
-</tr>
-<tr class="even">
-<td><p>Header</p></td>
-<td><p>Nativerd_pub.h</p></td>
-</tr>
-</tbody>
-</table>
+| Type | Description |
+|---|---|
+| Client | IIS 7 |
+| Server | IIS 7 |
+| Product | IIS 7 |
+| Header | Nativerd_pub.h |
 
 ## See Also
 

@@ -103,8 +103,8 @@ In this step, you will disable the Idle Time-Out under the application pool proc
 1. Launch IIS Manager.
 2. Select **Application Pools**.  
   
-    [![](install-application-request-routing-version-2/_static/image3.jpg)](install-application-request-routing-version-2/_static/image2.jpg)
-3. By default, **DefaultAppPool** is the corresponding application pool for the **Default Web Site**. Select **DefaultAppPool**. In the **Actions** pane, under **Edit Application Pool**, click **Advanced Settings…**[![](install-application-request-routing-version-2/_static/image5.jpg)](install-application-request-routing-version-2/_static/image4.jpg)
+    [![Screenshot shows the I I S Manager navigation view with Application Pools selected.](install-application-request-routing-version-2/_static/image3.jpg)](install-application-request-routing-version-2/_static/image2.jpg)
+3. By default, **DefaultAppPool** is the corresponding application pool for the **Default Web Site**. Select **DefaultAppPool**. In the **Actions** pane, under **Edit Application Pool**, click **Advanced Settings…**[![Screenshot shows the Advanced Settings dialog box with Idle Time-out selected with a value of zero.](install-application-request-routing-version-2/_static/image5.jpg)](install-application-request-routing-version-2/_static/image4.jpg)
 4. Change the **Idle Time-out (minutes)** value to **0** to disable the setting. Click **OK** to save the changes.
 
 **To change the application pool process model using the command-line:** 
@@ -126,8 +126,8 @@ Similarly, disable the application pool recycle setting so that the application 
 1. Launch IIS Manager.
 2. Select **Application Pools**.  
   
-    [![](install-application-request-routing-version-2/_static/image7.jpg)](install-application-request-routing-version-2/_static/image6.jpg)
-3. By default, **DefaultAppPool** is the corresponding application pool for the **Default Web Site**. Select **DefaultAppPool**. In the **Actions** pane, under **Edit Application Pool**, click **Recycling…**[![](install-application-request-routing-version-2/_static/image9.jpg)](install-application-request-routing-version-2/_static/image8.jpg)
+    [![Screenshot shows the navigation view with Application Pools selected.](install-application-request-routing-version-2/_static/image7.jpg)](install-application-request-routing-version-2/_static/image6.jpg)
+3. By default, **DefaultAppPool** is the corresponding application pool for the **Default Web Site**. Select **DefaultAppPool**. In the **Actions** pane, under **Edit Application Pool**, click **Recycling…**[![Screenshot shows the Edit Application Pool Recycling Settings dialog box.](install-application-request-routing-version-2/_static/image9.jpg)](install-application-request-routing-version-2/_static/image8.jpg)
 4. Clear the **Regular time intervals (in minutes)** checkbox.
 
 **To change the application pool recycle setting using the command-line:** 

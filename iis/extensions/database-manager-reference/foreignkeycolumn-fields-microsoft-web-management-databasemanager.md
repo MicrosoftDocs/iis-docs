@@ -14,7 +14,7 @@ The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasem
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Dd565979.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Dd565979.static(en-us,VS.90).gif "Static member")|[NameIndex](foreignkeycolumn-nameindex-field-microsoft-web-management-databasemanager.md)|Returns the name index for a foreign key column.|
 

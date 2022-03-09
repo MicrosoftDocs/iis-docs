@@ -14,7 +14,7 @@ The [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-we
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DropProcedure](idbstoredproceduremanager-dropprocedure-method-microsoft-web-management-databasemanager.md)|Removes a stored procedure from a database.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetStoredProcedureCreateFromExistingStatement](idbstoredproceduremanager-getstoredprocedurecreatefromexistingstatement-method-microsoft-web-management-databasemanager.md)|Returns the CREATE PROCEDURE definition for a new stored procedure that is based on an existing stored procedure.|

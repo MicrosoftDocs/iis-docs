@@ -29,7 +29,7 @@ You can install the free IIS SEO Toolkit on Windows Vista, Windows 7, Windows Se
 
 The IIS SEO Toolkit integrates into the IIS management console. To start using the Toolkit, launch the IIS Management Console first by clicking Run in the Start Menu and typing inetmgr in the Run command line. When the IIS Manager launches, you can scroll down to the Management section of the Features View and click the "Search Engine Optimization (SEO) Toolkit" icon.
 
-[![](getting-started-with-the-seo-toolkit/_static/image2.png)](getting-started-with-the-seo-toolkit/_static/image1.png)
+[![Screenshot shows the Internet Information Services Console, which contains the Search Engine Optimization icon.](getting-started-with-the-seo-toolkit/_static/image2.png)](getting-started-with-the-seo-toolkit/_static/image1.png)
 
 On the home page for the IIS SEO Toolkit, you can choose "Site Analysis" to run reports that help you optimize SEO or site quality issues, "Sitemaps and Sitemap Indexes" for an easy-to-use interface to create and manage sitemaps, and "Robots Exclusion" for a simple way to manage access to your site by search engine robots.
 

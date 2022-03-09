@@ -14,7 +14,7 @@ The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasem
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](foreignkeycolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a foreign key column.|
 

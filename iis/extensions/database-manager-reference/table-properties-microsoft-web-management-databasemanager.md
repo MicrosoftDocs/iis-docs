@@ -14,7 +14,7 @@ The [Table](table-class-microsoft-web-management-databasemanager.md) type expose
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[CreateDate](table-createdate-property-microsoft-web-management-databasemanager.md)|Gets or sets the creation date for a table.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](table-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a table.|
