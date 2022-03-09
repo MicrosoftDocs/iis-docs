@@ -185,11 +185,11 @@ When you first open the **Feature Delegation** feature page, you can configure t
 **To configure default delegation states for features in IIS Manager**
 
 1. In IIS Manager, in the **Connections** pane, click the server node in the tree.
-2. On the server home page, double-click **Feature Delegation**. [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image30.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image29.jpg)
+2. On the server home page, double-click **Feature Delegation**. [![Screenshot of connections pane in server home page showing B D E L A P C 1 dash I I S home selected and Feature Delegation icon highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image30.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image29.jpg)
 3. Select **Delegation** from the **Group by** list to organize the list of features by their current delegation states.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image32.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image31.jpg)
+    [![Screenshot of Feature Delegation list in the action pane with delegation from the group list highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image32.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image31.jpg)
 4. Select **Error Pages** in the **Feature Delegation** list, and then review the available delegation states in the **Actions** pane. The **Error Pages** feature is selected and the available options under **Set Feature Delegation** are **Read/Write**, **Remove Delegation** and **Reset to Inherited**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image34.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image33.jpg)
+    [![Screenshot of Feature Delegation list with Error Pages selected showing available options under Set Feature Delegations.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image34.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image33.jpg)
 5. Select **Error Pages.** In the **Actions** pane, click **Read/Write** to unlock the configuration section that is related to the **Error Pages** feature. This makes the feature configurable in *Web.config* files and in IIS Manager at the site and application levels.
 
 ### Additional Information
@@ -200,7 +200,7 @@ The following excerpt from the IIS configuration files shows that the values can
 
 To further demonstrate what this action does, look at **Error Pages** feature at a site level. In the **Connections** pane, connect to a site and then double-click **Error Pages** on the site home page. As shown in the image below, the **Error Pages** feature can now be configured by the user connected to the site level.
 
-[![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image36.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image35.jpg)
+[![Screenshot of error pages with actions such as Add, Exit Feature Setting, Help, and Online Help highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image36.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image35.jpg)
 
 ## Configure Custom Delegation States for Features in a Site or an Application
 
@@ -211,7 +211,7 @@ The steps above configured the default delegation state for the **Error Pages** 
 1. In IIS Manager, double-click **Feature Delegation**.
 2. On the **Feature Delegation** page, in the **Actions** pane, click **Custom Web Site Delegation**.
 3. From the **Sites** list, select the site for which you want to configure custom delegation settings.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image38.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image37.jpg)
+    [![Screenshot of Custom Website Delegation pane with sites list highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image38.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image37.jpg)
 4. Select a feature, and then click a delegation state in the **Actions** pane.
 
 **To copy custom delegation states from one site to another site**
