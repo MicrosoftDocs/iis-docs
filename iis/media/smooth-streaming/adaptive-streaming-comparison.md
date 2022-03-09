@@ -21,32 +21,32 @@ The industry is excited by Microsoft's commitment to standards-based HTTP media 
 
 In the following table, we compare the latest adaptive streaming technologies from Microsoft, Adobe, and Apple.
 
-| Technology | Microsoft IIS Smooth Streaming | Adobe Flash Dynamic Streaming | Apple HTTP Adaptive Bitrate Streaming |
+|  | Microsoft IIS Smooth Streaming | Adobe Flash Dynamic Streaming | Apple HTTP Adaptive Bitrate Streaming |
 | --- | --- | --- | --- |
-| Cost per Streaming Server | Free download[1](#1) + $469 for OS [2](#2) | $4500 [3](#3) + OS cost [4](#4) | Cost of Web server [5](#5) + segmenter OS [6](#6) |
-| On-demand &amp; Live Streaming | ![](adaptive-streaming-comparison/_static/image1.gif) | ![](adaptive-streaming-comparison/_static/image3.gif) | ![](adaptive-streaming-comparison/_static/image5.gif) |
-| Live Streaming DVR [7](adaptive-streaming-comparison.md#7) | ![](adaptive-streaming-comparison/_static/image7.gif) | Pause &amp; Seek |  |
-| Streaming Protocol | HTTP | RTMP | HTTP |
-| Scalability via HTTP Edge Caches | ![](adaptive-streaming-comparison/_static/image9.gif) |  | ![](adaptive-streaming-comparison/_static/image11.gif) |
-| Stateless Server Connection [8](adaptive-streaming-comparison.md#8) | ![](adaptive-streaming-comparison/_static/image13.gif) |  | ![](adaptive-streaming-comparison/_static/image15.gif) |
-| Supported Platforms | Silverlight, Xbox 360, other Smooth Streaming-compatible players, and iPhone OS 3.0 [9](adaptive-streaming-comparison.md#9) | Flash Player 10, AIR | iPhone OS 3.0, devices running QuickTime X |
-| DRM Support for Live, VOD | PlayReady | None [10](adaptive-streaming-comparison.md#10) | None |
-| DRM ASP &amp; Encoder ISV Support | ![](adaptive-streaming-comparison/_static/image17.gif) |  |  |
-| Interoperable DRM (DECE Approved)[11](adaptive-streaming-comparison.md#11) | ![](adaptive-streaming-comparison/_static/image19.gif) |  |  |
-| Real-time Client and Server Logging | ![](adaptive-streaming-comparison/_static/image21.gif)[12](adaptive-streaming-comparison.md#12) |  |  |
-| Programmable Client Side Switching Logic | ![](adaptive-streaming-comparison/_static/image23.gif) | ![](adaptive-streaming-comparison/_static/image25.gif) |  |
-| Live In-Stream Ad Integration | ![](adaptive-streaming-comparison/_static/image27.gif) |  |  |
-| Built-in Analytics Framework | ![](adaptive-streaming-comparison/_static/image29.gif) |  |  |
-| Delivery to Mobile Devices | ![](adaptive-streaming-comparison/_static/image31.gif) |  | ![](adaptive-streaming-comparison/_static/image33.gif) |
-| Native 64-bit Server Support | ![](adaptive-streaming-comparison/_static/image35.gif) |  | ![](adaptive-streaming-comparison/_static/image37.gif) |
-| Media Container | MPEG 4 – Part 12 (Fragmented MP4) | MPEG 4 – Part 12 (MP4), FLV | MPEG-2 TS |
-| Supported Video Codecs | Codec Agnostic (currently supports VC-1 Advanced Profile &amp; H.264 Baseline, Main, and High) | H.264 Baseline, Main, and High; VP6 | H.264 Baseline Level 3.0 |
-| Supported Audio Codecs | Codec Agnostic (currently supports WMA &amp; AAC) | AAC, MP3 | MP3, HE-AAC, AAC-LC |
-| Maximum Bit Rate | No limit | No limit | 1.6 Mbps |
-| Default Fragment Length | 2 seconds | n/a | 10 seconds |
-| End-To-End Latency | As low as 1.5 seconds (configurable) | 6 seconds | 30 seconds [13](adaptive-streaming-comparison.md#13) |
-| File Type on Server | Contiguous | Contiguous | Fragmented |
-| Client Programming Platform | Microsoft .NET Framework | Adobe ActionScript | Objective-C |
+| **Cost per Streaming Server** | Free download[1](#1) + $469 for OS [2](#2) | $4500 [3](#3) + OS cost [4](#4) | Cost of Web server [5](#5) + segmenter OS [6](#6) |
+| **On-demand &amp; Live Streaming** | ![](adaptive-streaming-comparison/_static/image1.gif) | ![](adaptive-streaming-comparison/_static/image3.gif) | ![](adaptive-streaming-comparison/_static/image5.gif) |
+| **Live Streaming DVR** [7](adaptive-streaming-comparison.md#7) | ![](adaptive-streaming-comparison/_static/image7.gif) | Pause &amp; Seek |  |
+| **Streaming Protocol** | HTTP | RTMP | HTTP |
+| **Scalability via HTTP Edge Caches** | ![](adaptive-streaming-comparison/_static/image9.gif) |  | ![](adaptive-streaming-comparison/_static/image11.gif) |
+| **Stateless Server Connection** [8](adaptive-streaming-comparison.md#8) | ![](adaptive-streaming-comparison/_static/image13.gif) |  | ![](adaptive-streaming-comparison/_static/image15.gif) |
+| **Supported Platforms** | Silverlight, Xbox 360, other Smooth Streaming-compatible players, and iPhone OS 3.0 [9](adaptive-streaming-comparison.md#9) | Flash Player 10, AIR | iPhone OS 3.0, devices running QuickTime X |
+| **DRM Support for Live, VOD** | PlayReady | None [10](adaptive-streaming-comparison.md#10) | None |
+| **DRM ASP &amp; Encoder ISV Support** | ![](adaptive-streaming-comparison/_static/image17.gif) |  |  |
+| **Interoperable DRM (DECE Approved)** [11](adaptive-streaming-comparison.md#11) | ![](adaptive-streaming-comparison/_static/image19.gif) |  |  |
+|**Real-time Client and Server Logging** | ![](adaptive-streaming-comparison/_static/image21.gif)[12](adaptive-streaming-comparison.md#12) |  |  |
+| **Programmable Client Side Switching Logic** | ![](adaptive-streaming-comparison/_static/image23.gif) | ![](adaptive-streaming-comparison/_static/image25.gif) |  |
+| **Live In-Stream Ad Integration** | ![](adaptive-streaming-comparison/_static/image27.gif) |  |  |
+| **Built-in Analytics Framework** | ![](adaptive-streaming-comparison/_static/image29.gif) |  |  |
+| **Delivery to Mobile Devices** | ![](adaptive-streaming-comparison/_static/image31.gif) |  | ![](adaptive-streaming-comparison/_static/image33.gif) |
+| **Native 64-bit Server Support** | ![](adaptive-streaming-comparison/_static/image35.gif) |  | ![](adaptive-streaming-comparison/_static/image37.gif) |
+| **Media Container** | MPEG 4 – Part 12 (Fragmented MP4) | MPEG 4 – Part 12 (MP4), FLV | MPEG-2 TS |
+| **Supported Video Codecs** | Codec Agnostic (currently supports VC-1 Advanced Profile &amp; H.264 Baseline, Main, and High) | H.264 Baseline, Main, and High; VP6 | H.264 Baseline Level 3.0 |
+| **Supported Audio Codecs** | Codec Agnostic (currently supports WMA &amp; AAC) | AAC, MP3 | MP3, HE-AAC, AAC-LC |
+| **Maximum Bit Rate** | No limit | No limit | 1.6 Mbps |
+| **Default Fragment Length** | 2 seconds | n/a | 10 seconds |
+| **End-To-End Latency** | As low as 1.5 seconds (configurable) | 6 seconds | 30 seconds [13](adaptive-streaming-comparison.md#13) |
+| **File Type on Server** | Contiguous | Contiguous | Fragmented |
+| **Client Programming Platform** | Microsoft .NET Framework | Adobe ActionScript | Objective-C |
   
 **Footnotes**
 

@@ -11,7 +11,7 @@ Describes the native-code structures for FTP 7.5 in IIS 7.5.
  The following table lists the native-code structures that are exposed by the FTP service.  
   
 |Structure|Definition|
-|-|-|  
+|---|---|  
 |[LOGGING_PARAMETERS Structure](../../ftp-extensibility-reference/native-code-api-reference/logging-parameters-structure.md)|Contains logging information for use with the `IFtpLogProvider` interface.|  
   
 ## See Also  

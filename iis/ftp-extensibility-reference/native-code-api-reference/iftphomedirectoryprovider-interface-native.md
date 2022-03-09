@@ -17,7 +17,7 @@ interface IFtpHomeDirectoryProvider : IUknown
  The following table lists the methods exposed by the `IFtpHomeDirectoryProvider` interface.  
   
 |Name|Definition|
-|-|-|
+|---|---|
 |[IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method](../../ftp-extensibility-reference/native-code-api-reference/iftphomedirectoryprovider-getuserhomedirectorydata-method.md)|Returns the physical path of the home directory for a user.|  
   
 ## Example  
@@ -71,7 +71,7 @@ public:
 ## Requirements  
   
 |Type|Description|
-|-|-|
+|---|---|
 |Client|-   IIS 7.5 on Windows 7<br />-   IIS 8.0 on Windows 8<br />-   IIS 10.0 on Windows 10|  
 |Server|-   IIS 7.5 on Windows Server 2008 R2<br />-   IIS 8.0 on Windows Server 2012<br />-   IIS 8.5 on Windows Server 2012 R2<br />-   IIS 10.0 on Windows Server 2016|  
 |Product|-   IIS 7.0, IIS 7.5, IIS 8.0, IIS 8.5, IIS 10.0|  

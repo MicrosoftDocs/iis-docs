@@ -36,7 +36,7 @@ struct LOGGING_PARAMETERS
 ## Members  
   
 |Member Name|Definition|
-|-|-|
+|---|---|
 |BytesReceived|The number of bytes received from the client.|  
 |BytesSent|The number of bytes sent to the client.|  
 |pszCommand|The FTP command.|  
@@ -135,7 +135,7 @@ EXIT:
 ## Requirements  
   
 |Type|Description|
-|-|-|
+|---|---|
 |Client|-   IIS 7.5 on                                          Windows 7<br />-   IIS 8.0 on                                          Windows 8<br />-   IIS 10.0 on                                          Windows 10|  
 |Server|-   IIS 7.5 on                                          Windows Server 2008 R2<br />-   IIS 8.0 on                                          Windows Server 2012<br />-   IIS 8.5 on                                          Windows Server 2012 R2<br />-   IIS 10.0 on                                          Windows Server 2016|  
 |Product|-   IIS 7.0,                                          IIS 7.5,                                          IIS 8.0,                                          IIS 8.5,                                          IIS 10.0|  

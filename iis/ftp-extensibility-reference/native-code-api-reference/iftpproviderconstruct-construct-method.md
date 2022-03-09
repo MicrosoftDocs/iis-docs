@@ -18,14 +18,14 @@ HRESULT Construct(
 ### Parameters  
   
 |Term|Definition|
-|-|-|
+|---|---|
 |`configurationEntries`|[IN] A pointer to a SAFEARRAY that contains key/value pairs from the IIS configuration settings.|  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|
-|-|-|
+|---|---|
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
@@ -97,7 +97,7 @@ public:
 ## Requirements  
   
 |Type|Description|
-|-|-|
+|---|---|
 |Client|-   IIS 7.5 on                                          Windows 7<br />-   IIS 8.0 on                                          Windows 8<br />-   IIS 10.0 on                                          Windows 10|  
 |Server|-   IIS 7.5 on                                          Windows Server 2008 R2<br />-   IIS 8.0 on                                          Windows Server 2012<br />-   IIS 8.5 on                                          Windows Server 2012 R2<br />-   IIS 10.0 on                                          Windows Server 2016|  
 |Product|-   IIS 7.0,                                          IIS 7.5,                                          IIS 8.0,                                          IIS 8.5,                                          IIS 10.0|  
