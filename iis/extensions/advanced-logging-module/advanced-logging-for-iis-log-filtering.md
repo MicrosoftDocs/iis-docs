@@ -31,14 +31,14 @@ To clone a log definition, do the following:
 
 1. Open IIS Manager (click **Start** &gt; **Administrative Tools** &gt; **Internet Information Services (IIS) Manager**).
 2. In IIS Manager, in the **Connections** pane, open the Advanced Logging feature at the **Default Web Site** level.  
-    ![Screenshot of the Default Web Site Home screen with Advanced Logging highlighted.](advanced-logging-for-iis-log-filtering/_static/image1.jpg)
+    ![Screenshot of the Default Web Site Home window with Advanced Logging highlighted.](advanced-logging-for-iis-log-filtering/_static/image1.jpg)
 3. In the **Advanced Logging** feature page, select the default log definition (**%COMPUTERNAME%-Server**), and then in the **Actions** pane, click **Clone Log Definition.**  
-    ![Screenshot of the Advanced Logging screen with the Actions pane showing. Clone Log Definition is selected.](advanced-logging-for-iis-log-filtering/_static/image2.jpg)
+    ![Screenshot of the Advanced Logging window with the Actions pane showing. Clone Log Definition is selected.](advanced-logging-for-iis-log-filtering/_static/image2.jpg)
 4. In the **Clone Log Definition** dialog box, in **New log definition name**, enter **%COMPUTERNAME%-FilterExample**, and then click **OK**.  
     ![Screenshot of the Clone Log Definition dialog with %COMPUTERNAME%-FilterExample in the input box.](advanced-logging-for-iis-log-filtering/_static/image3.jpg)
 
 The new log definition **%COMPUTERNAME%-FilterExample** is displayed in the **Advanced Logging** feature page as shown in the following figure:  
-![Screenshot of the Advanced Logging screen with %COMPUTERNAME%-FilterExample highlighted.](advanced-logging-for-iis-log-filtering/_static/image4.jpg)
+![Screenshot of the Advanced Logging window with %COMPUTERNAME%-FilterExample highlighted.](advanced-logging-for-iis-log-filtering/_static/image4.jpg)
 
 This log definition will be used in the following sections that describe how to create log filters.
 
@@ -57,13 +57,13 @@ For more information about building regular expressions that match your needs, w
 To create a filter that captures only requests that have a .html or .htm file name extension, do the following:
 
 1. In the **Advanced Logging** feature page, select the **%COMPUTERNAME%-FilterExample** log definition, and then in the **Actions** pane, click **Edit Log Definition**.  
-    ![Screenshot of the Advanced Logging screen. Edit Log Definition is selection on the Actions pane.](advanced-logging-for-iis-log-filtering/_static/image5.jpg)
+    ![Screenshot of the Advanced Logging window. Edit Log Definition is highlighted on the Actions pane.](advanced-logging-for-iis-log-filtering/_static/image5.jpg)
 2. At the bottom of the **Log Definition** feature page, in the **Filter** area, click **Edit Filter**.  
-    ![Screenshot of a portion of the Log Definition screen. Edit Filter is highlighted in the Filter section.](advanced-logging-for-iis-log-filtering/_static/image6.jpg)
+    ![Screenshot showing a portion of the Log Definition window. Edit Filter is highlighted in the Filter pane.](advanced-logging-for-iis-log-filtering/_static/image6.jpg)
 3. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, and then click **Add Expression**.  
-    ![Screenshot of the Edit Log Definition Filter dialog. Add Expression is highlighted.](advanced-logging-for-iis-log-filtering/_static/image7.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. The Add Expression button is highlighted.](advanced-logging-for-iis-log-filtering/_static/image7.jpg)
 4. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image8.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Options are highlighted in the Expression pane. Enable as regular expression is checked. OK is highlighted.](advanced-logging-for-iis-log-filtering/_static/image8.jpg)
 
     - **Field**. Select **URI-Stem**.
     - **Operator**. Select **Equals**.
@@ -83,29 +83,29 @@ To create this filter, do the following:
 2. In the **Advanced Logging** feature page, select the **%COMPUTERNAME%-FilterExample\_MultipleRequests** log definition, and then in the **Actions** pane, click **Edit Log Definition**.
 3. At the bottom of the **Log Definition** feature page, in the **Filter** area, click **Edit Filter**.
 4. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, select **OR Condition** in the **Condition** area, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image9.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Add Expression is highlighted in the main pane. OR Condition is selected in the Condition pane.](advanced-logging-for-iis-log-filtering/_static/image9.jpg)
   
    Note that the original root node (**Condition: AND**) in the list changes to **Condition: OR** when you select **OR Condition** in the **Condition** area.
 5. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image10.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Status Equals 404 is highlighted in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image10.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter **404**.
     - **Enable as regular expression**. Clear this check box to ensure that Advanced Logging knows to treat the value as a literal expression.
 6. Select the root node (**Condition: OR**) in the list, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image11.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Condition:OR and Add Expression are highlighted in the main pane.](advanced-logging-for-iis-log-filtering/_static/image11.jpg)
 7. Another expression node is added to the list. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image12.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Status Equals 400 is highlighted in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image12.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
     - **Value**. Enter **400**.
     - **Enable as regular expression**. Clear this check box to ensure that Advanced Logging knows to treat the value as a literal expression.
 8. Select the root node (**Condition: OR**) in the list, and then click **Add Expression**.  
-    ![](advanced-logging-for-iis-log-filtering/_static/image13.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Condition:OR applies to Status 404 and 400. Add Expression is highlighted. ](advanced-logging-for-iis-log-filtering/_static/image13.jpg)
 9. A third "Expression" node is added to the list. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![](advanced-logging-for-iis-log-filtering/_static/image14.jpg)
+    ![Screenshot of the Edit Log Definition Filter dialog. Status Equals 500 is highlighted in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image14.jpg)
 
     - **Field**. Select **Status**.
     - **Operator**. Select **Equals**.
