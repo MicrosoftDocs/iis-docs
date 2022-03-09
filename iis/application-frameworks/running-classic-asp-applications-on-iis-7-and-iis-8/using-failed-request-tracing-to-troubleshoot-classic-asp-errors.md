@@ -30,14 +30,14 @@ These above conditions are required because the User Account Control (UAC) secur
 
 Failed Request Tracing is not installed by default on IIS. To install Failed Request Tracing, use the following steps for your version of Windows:
 
-### Windows VistaorWindows 7Client
+### Windows Vista or Windows 7Client
 
 1. Click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Health and Diagnostics**.
 4. Select **Tracing**, and then click **OK**.
 
-### Windows Server 2008orWindows Server 2008 R2
+### Windows Server 2008 or Windows Server 2008 R2
 
 1. Click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
