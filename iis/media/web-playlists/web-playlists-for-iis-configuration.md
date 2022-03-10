@@ -72,10 +72,10 @@ All other settings could have the default values.
 
 1. In the **Actions** pane, click **Edit Feature Settings**.
 
-    [![](web-playlists-for-iis-configuration/_static/image2.bmp)](web-playlists-for-iis-configuration/_static/image1.bmp)
+    [![Screenshot that shows the I I S Manager. The Playlists pane is open and Edit Feature Settings is highlighted in the Actions pane.](web-playlists-for-iis-configuration/_static/image2.bmp)](web-playlists-for-iis-configuration/_static/image1.bmp)
 2. In the **Edit Feature Settings** dialog box, clear the **Allow absolute/UNC paths** check box.
 
-    [![](web-playlists-for-iis-configuration/_static/image4.bmp)](web-playlists-for-iis-configuration/_static/image3.bmp)
+    [![Screenshot shows the Edit Feature Settings dialog box, with the Allow Absolute U N C paths highlighted and checked.](web-playlists-for-iis-configuration/_static/image4.bmp)](web-playlists-for-iis-configuration/_static/image3.bmp)
 
 ### Enterprise
 
@@ -83,7 +83,7 @@ A server is used for an enterprise. Enterprise users cannot create playlists, on
 
 *Set allowAbsolutePaths=true.*
 
-This is needed, as otherwise Web Playlists fails when it tries to access local paths (for example, `C:\mydir`) or remote UNC paths (for example, [`file:///\\myServer\media`]`(file://myserver/media)`). Because the super administrator is the only one who can create playlists, the risk of making this setting true is minimal. By default, this setting is set to False in the playlist handler configuration.
+This is needed, as otherwise Web Playlists fails when it tries to access local paths (for example, `C:\mydir`) or remote UNC paths (for example, `[file:///\\myServer\media](file://myserver/media)`). Because the super administrator is the only one who can create playlists, the risk of making this setting true is minimal. By default, this setting is set to False in the playlist handler configuration.
 
 All other settings could have the default values *.*
 
@@ -110,7 +110,7 @@ This will use ASP.NET session state persistence to store the session data.
 > [!NOTE]
 > ASP.NET session state persistence can be configured in IIS Manager by configuring settings on the **Session State** feature page. A detailed discussion is beyond the scope of this article. Web Playlists supports all variations of ASP.NET session state persistence.
 
-[![](web-playlists-for-iis-configuration/_static/image6.bmp)](web-playlists-for-iis-configuration/_static/image5.bmp)
+[![Screenshot shows the Edit Feature Settings dialog box, with the Session persistence type field highlighted.](web-playlists-for-iis-configuration/_static/image6.bmp)](web-playlists-for-iis-configuration/_static/image5.bmp)
 
 ## More Information
 
