@@ -120,25 +120,25 @@ The NLB configuration is divided into the following steps:
 
 1. Verify that NLB is installed on all instances of ARR servers.
 2. Go to Start &gt; All Programs &gt; Administrative Tools, and open the **Network Load Balancing Manager**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image17.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image16.jpg)
+    ![Screenshot of the Network Load Balancing Manager window.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image16.jpg)
 3. Right-click on **Network Load Balancing Clusters**, and then select **New Cluster**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image19.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image18.jpg)
+    ![Screenshot of the New Cluster dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image18.jpg)
 4. In the New Cluster dialog box, in the Host text box, type the server address of one of the ARR servers. If there are multiple interfaces, type the server address that you want to create the NLB cluster on.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image21.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image20.jpg)
+    ![Screenshot of the New Cluster dialog showing an I P address in the host input box.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image20.jpg)
 5. In active/passive mode (single host mode in NLB), the priority determines the order in which failover takes place. By default, the server with priority 1 is the active node.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image23.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image22.jpg)
+    ![Screenshot of the New Cluster Host Parameters dialog with default settings.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image22.jpg)
 6. The cluster IP, a virtual IP address, is needed. Click **Add.** This is the IP address that clients will communicate with.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image25.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image24.jpg)
+    ![Screenshot of the New Cluster Cluster I P Addresses dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image24.jpg)
 7. Type the virtual IP address, and then click **OK**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image27.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image26.jpg)
+    ![Screenshot of the Add I P Address dialog](achieving-high-availability-and-scalability-arr-and-nlb/_static/image26.jpg)
 8. Click **Next**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image29.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image28.jpg)
+    ![Screenshot of the Cluster I P Addresses dialog showing an I P address and subnet mask.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image28.jpg)
 9. Accept the default values. For more detailed information, refer to the [Appendix](achieving-high-availability-and-scalability-arr-and-nlb.md#appendix_b).  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image31.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image30.jpg)
+    ![Screenshot of the Cluster Parameters dialog showing default parameters.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image30.jpg)
 10. Click **Finish** to complete the creation of the NLB cluster.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image33.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image32.jpg)
+    ![Screenshot of the Port Rules dialog](achieving-high-availability-and-scalability-arr-and-nlb/_static/image32.jpg)
 11. Now that the NLB cluster is created, you can add additional members to the cluster. Follow the remaining steps on all additional member servers. In the Network Load Balancing Manager, right-click on the newly selected cluster, and then select **Add Host To Cluster**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image35.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image34.jpg)
+    ![Screenshot of the Add Host to Cluster dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image34.jpg)
 12. Type the server address of the member to be added. If there are multiple interfaces, select the one that should be used by the NLB cluster.  
     [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image37.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image36.jpg)
 13. Note that the priority assignment is mutually exclusive and unique among the member servers in the cluster. In active/passive mode (single host mode in NLB), the priority determines the order of fail-over.  
