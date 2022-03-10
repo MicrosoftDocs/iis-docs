@@ -14,7 +14,7 @@ The [CircularList\<T\>](circularlist-t-class-microsoft-web-media-diagnostics_1.m
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Capacity](https://msdn.microsoft.com/library/y52x03h2(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Count](https://msdn.microsoft.com/library/27b47ht3(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
@@ -22,7 +22,7 @@ The [CircularList\<T\>](circularlist-t-class-microsoft-web-media-diagnostics_1.m
 
 ## Explicit Interface Implementations
 
-||Name|Description|
+|Implementation Type|Name|Description|
 |--- |--- |--- |
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation") ![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[IList.IsFixedSize](https://msdn.microsoft.com/library/bb354714(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation") ![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ICollection\<T>.IsReadOnly](https://msdn.microsoft.com/library/cc672994(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
