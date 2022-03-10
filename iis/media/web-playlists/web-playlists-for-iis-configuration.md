@@ -83,7 +83,7 @@ A server is used for an enterprise. Enterprise users cannot create playlists, on
 
 *Set allowAbsolutePaths=true.*
 
-This is needed, as otherwise Web Playlists fails when it tries to access local paths (for example, `C:\mydir`) or remote UNC paths (for example, [file:///\\myServer\media](file://myserver/media)). Because the super administrator is the only one who can create playlists, the risk of making this setting true is minimal. By default, this setting is set to False in the playlist handler configuration.
+This is needed, as otherwise Web Playlists fails when it tries to access local paths (for example, `C:\mydir`) or remote UNC paths (for example, [`file:///\\myServer\media`]`(file://myserver/media)`). Because the super administrator is the only one who can create playlists, the risk of making this setting true is minimal. By default, this setting is set to False in the playlist handler configuration.
 
 All other settings could have the default values *.*
 

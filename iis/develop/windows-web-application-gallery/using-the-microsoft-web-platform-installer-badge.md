@@ -20,10 +20,10 @@ The link associated with the badge should be in the following format and will be
 
 Link: `https://www.microsoft.com/web/gallery/install.aspx?appid=<YourApplicationID>`
 
-Image URL: [https://www.microsoft.com/web/media/badge/install\_using\_webpi\_btn.png](https://www.microsoft.com/web/media/badge/install_using_webpi_btn.png)
+Image URL: `https://www.microsoft.com/web/media/badge/install\_using\_webpi\_btn.png](https://www.microsoft.com/web/media/badge/install_using_webpi_btn.png)`
 
 Width: 195px
 
 Height: 43 px
 
-![Install Using WebPI Badge](https://www.microsoft.com/web/media/badge/install_using_webpi_btn.png "Install Using WebPI Badge")
+`![Install Using WebPI Badge](https://www.microsoft.com/web/media/badge/install_using_webpi_btn.png "Install Using WebPI Badge")`

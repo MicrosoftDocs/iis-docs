@@ -40,7 +40,7 @@ The following table lists permissions that were used for the file server share a
 5. Set the **Share name** and **Comments** as appropriate. To make the share hidden, add a $ to the end of the share name.   
   
     > [!NOTE]
-    > Hiding a share means that when you connect to [\\server](file://server/) you will not see the share unless you specifically enter the path [\\server\share$](file://server/share$).
+    > Hiding a share means that when you connect to [\\server]`(file://server/)` you will not see the share unless you specifically enter the path [\\server\share$]`(file://server/share$)`.
 6. Click **Permissions**.
 7. In the **Permissions** dialog box, remove the Everyone group, if it exists.
 8. Add the appropriate user or group that should have access to the share.
