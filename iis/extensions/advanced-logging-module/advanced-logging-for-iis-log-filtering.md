@@ -33,12 +33,12 @@ To clone a log definition, do the following:
 2. In IIS Manager, in the **Connections** pane, open the Advanced Logging feature at the **Default Web Site** level.  
     ![Screenshot of the Default Web Site Home window with Advanced Logging highlighted.](advanced-logging-for-iis-log-filtering/_static/image1.jpg)
 3. In the **Advanced Logging** feature page, select the default log definition (**%COMPUTERNAME%-Server**), and then in the **Actions** pane, click **Clone Log Definition.**  
-    ![Screenshot of the Advanced Logging window with the Actions pane showing. Clone Log Definition is highlighted.](advanced-logging-for-iis-log-filtering/_static/image2.jpg)
+    ![Screenshot of the Advanced Logging window with the Actions pane showing. The example log definition name is highlighted.](advanced-logging-for-iis-log-filtering/_static/image2.jpg)
 4. In the **Clone Log Definition** dialog box, in **New log definition name**, enter **%COMPUTERNAME%-FilterExample**, and then click **OK**.  
-    ![Screenshot of the Clone Log Definition dialog with the new log definition name highlighted in the input box.](advanced-logging-for-iis-log-filtering/_static/image3.jpg)
+    ![Screenshot of the Clone Log Definition dialog with the example log definition name highlighted in the input box.](advanced-logging-for-iis-log-filtering/_static/image3.jpg)
 
 The new log definition **%COMPUTERNAME%-FilterExample** is displayed in the **Advanced Logging** feature page as shown in the following figure:  
-![Screenshot of the Advanced Logging window showing the new log definition name highlighted in the main pane.](advanced-logging-for-iis-log-filtering/_static/image4.jpg)
+![Screenshot of the Advanced Logging window showing the example log definition name highlighted in the main pane.](advanced-logging-for-iis-log-filtering/_static/image4.jpg)
 
 This log definition will be used in the following sections that describe how to create log filters.
 
@@ -131,7 +131,7 @@ To create a complex filter for a log definition that uses multiple conditions as
 4. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, and then click **Add Condition**.  
     ![Screenshot of the Edit Log Definition Filter window. Add Condition is highlighted in the main pane. AND Condition is selected in the Condition pane.](advanced-logging-for-iis-log-filtering/_static/image15.jpg)
 5. A sub-node condition is added below the root node condition (**Condition: AND**) in the list. In the **Condition** area of the dialog box, select **OR Condition**, and then click **Add Expression**.  
-    ![Screenshot of the Edit Log Definition Filter window. Condition: OR appears in the main pane. Add Expression and OR Condition are highlighted.](advanced-logging-for-iis-log-filtering/_static/image16.jpg)
+    ![Screenshot of the Edit Log Definition Filter window. Condition:OR appears in the main pane. Add Expression and OR Condition are highlighted.](advanced-logging-for-iis-log-filtering/_static/image16.jpg)
 6. In the **Expression** area of the dialog box, specify the following values for the expression:  
     ![Screenshot of the Edit Log Definition Filter window. The example expression is highlighted in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image17.jpg)
 
