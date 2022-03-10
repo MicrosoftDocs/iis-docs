@@ -53,7 +53,7 @@ The `<iisClientCertificateMappingAuthentication>` element is not available on th
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **IIS Client Certificate Mapping Authentication**. Click **Next**.  
-    [![Screenshot of Server Roles page. Security ( Installed ) is selected and highlighted. I I S Client Certificate Mapping Authentication is selected and highlighted.](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot of Server Roles page. Security is selected and highlighted. I I S Client Certificate Mapping Authentication is selected and highlighted.](add/_static/image2.png)](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.

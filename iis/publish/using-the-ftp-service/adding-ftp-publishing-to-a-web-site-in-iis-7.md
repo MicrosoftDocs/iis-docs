@@ -54,7 +54,7 @@ In this first step, add FTP publishing to the Default Web site, and add the requ
 
 1. In IIS Manager, in the **Connections** pane, expand the **Sites** node in the tree, then click the Default Web Site.
 2. As shown in the image below, click **Add FTP Publishing** in the **Actions** pane.  
-    [![Screenshot of Internet Information ( I I S ) Manager. In Connections pane, Default Web Site is highlighted.](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image3.png)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image1.png)
+    [![Screenshot of Internet Information I I S Manager. In Connections pane, Default Web Site is highlighted.](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image3.png)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears: 
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because we use the administrator later in this walk-through, you want to ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -74,7 +74,7 @@ In this first step, add FTP publishing to the Default Web site, and add the requ
        - Select **Read** and **Write** for the **Permissions** option.
    - When you have completed these items, click **Finish**.
 
-     [![Screenshot of Authentication and Authorization Information page. Basic is selected. "Specified users" is selected from Allow access to drop-down. Administrator is written for the user name. Permissions to Read and Write are selected.](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image8.jpg)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image6.jpg)
+     [![Screenshot of Authentication and Authorization Information page. Basic is selected. Specified users is selected from Allow access to list. Administrator is written for the user name. Permissions to Read and Write are selected.](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image8.jpg)](adding-ftp-publishing-to-a-web-site-in-iis-7/_static/image6.jpg)
 
 #### Summary
 
