@@ -33,7 +33,7 @@ The first step is to understand the architecture of the environment including th
 
 For the purposes of this walkthrough we are going to use the following configuration.
 
-![](troubleshooting-cache-items-arr-v2/_static/troubleshooting-cache-items-arr-v2-1108-image11.jpeg)
+![Diagram shows a child node, a parent node, and an origin server with arrows to indicate cache misses and requests.](troubleshooting-cache-items-arr-v2/_static/troubleshooting-cache-items-arr-v2-1108-image11.jpeg)
 
 **Disk Cache Configuration:**
 

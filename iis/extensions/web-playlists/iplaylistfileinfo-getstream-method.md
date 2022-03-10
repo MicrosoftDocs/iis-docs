@@ -18,7 +18,7 @@ RESULT GetStream( [out, retval] IsSequentialStream *ppStream);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*ppStream*|An **IsSequentialStream** instance.|
 

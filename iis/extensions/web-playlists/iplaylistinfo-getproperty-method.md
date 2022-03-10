@@ -22,7 +22,7 @@ GetProperty(
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*propertyName*|A requested property from the [PLAYLIST_PROPERTY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146289) enumeration.|
 |*pVariantValue*|The returned property value.|

@@ -10,9 +10,8 @@ Describes the native-code interfaces that developers use to extend the functiona
 ## In This Section  
  The following table lists the native-code interfaces that are exposed by the FTP service.  
   
-|||  
-|-|-|  
 |Interface|Definition|  
+|---|---|  
 |[IFtpAuthenticationProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftpauthenticationprovider-interface-native.md)|Provides an interface for authenticating an FTP user.|  
 |[IFtpHomeDirectoryProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftphomedirectoryprovider-interface-native.md)|Provides an interface for retrieving the path to a user's FTP home directory.|  
 |[IFtpLogProvider Interface](../../ftp-extensibility-reference/native-code-api-reference/iftplogprovider-interface-native.md)|Provides an interface for logging FTP activity.|  

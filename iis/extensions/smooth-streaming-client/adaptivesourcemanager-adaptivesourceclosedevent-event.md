@@ -32,7 +32,7 @@ void remove (AdaptiveSourceClosedEventHandler^ value);
 
 ## Event information
 
-|||
+|Type|Event|
 |--- |--- |
 |Delegate|[AdaptiveSourceClosedEventHandler Delegate](adaptivesourceclosedeventhandler-delegate.md)|
 
@@ -42,7 +42,7 @@ Subscribing to events at the AdaptiveSourceManager level means that all Adaptive
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|

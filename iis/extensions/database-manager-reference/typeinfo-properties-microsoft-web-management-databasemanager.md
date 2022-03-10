@@ -14,7 +14,7 @@ The [TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md) type 
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[AllowIdentity](typeinfo-allowidentity-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the data type supports an identity.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[AllowLength](typeinfo-allowlength-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the data type supports length.|

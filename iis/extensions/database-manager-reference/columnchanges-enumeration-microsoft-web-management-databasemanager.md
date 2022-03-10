@@ -81,19 +81,19 @@ public enum ColumnChanges
 
 ## Members
 
-||Member name|Description|
-|--- |--- |--- |
-||None|The column has no pending changes.|
-||Name|The value of the column's Name property was changed.|
-||Type|The value of the column's [TypeInfo](column-typeinfo-property-microsoft-web-management-databasemanager.md) property was changed.|
-||Length|The value of the column's [Length](column-length-property-microsoft-web-management-databasemanager.md) property was changed.|
-||AllowNull|The value of the column's [AllowNulls](column-allownulls-property-microsoft-web-management-databasemanager.md) property was changed.|
-||DefaultValue|The value of column's [DefaultValue](column-defaultvalue-property-microsoft-web-management-databasemanager.md) property was changed.|
-||IsNew|The value of the column's [IsNew](column-isnew-property-microsoft-web-management-databasemanager.md) property was changed.|
-||IsMarkedForDelete|The value of the column's [IsMarkedForDelete](column-ismarkedfordelete-property-microsoft-web-management-databasemanager.md) property was changed.|
-||IsIdentity|The value of the column's [IsIdentity](column-isidentity-property-microsoft-web-management-databasemanager.md) property was changed.|
-||Precision|The value of the column's [Precision](column-precision-property-microsoft-web-management-databasemanager.md) property was changed.|
-||Scale|The value of the column's [Scale](column-scale-property-microsoft-web-management-databasemanager.md) property was changed.|
+|Member name|Description|
+|--- |--- |
+|None|The column has no pending changes.|
+|Name|The value of the column's Name property was changed.|
+|Type|The value of the column's [TypeInfo](column-typeinfo-property-microsoft-web-management-databasemanager.md) property was changed.|
+|Length|The value of the column's [Length](column-length-property-microsoft-web-management-databasemanager.md) property was changed.|
+|AllowNull|The value of the column's [AllowNulls](column-allownulls-property-microsoft-web-management-databasemanager.md) property was changed.|
+|DefaultValue|The value of column's [DefaultValue](column-defaultvalue-property-microsoft-web-management-databasemanager.md) property was changed.|
+|IsNew|The value of the column's [IsNew](column-isnew-property-microsoft-web-management-databasemanager.md) property was changed.|
+|IsMarkedForDelete|The value of the column's [IsMarkedForDelete](column-ismarkedfordelete-property-microsoft-web-management-databasemanager.md) property was changed.|
+|IsIdentity|The value of the column's [IsIdentity](column-isidentity-property-microsoft-web-management-databasemanager.md) property was changed.|
+|Precision|The value of the column's [Precision](column-precision-property-microsoft-web-management-databasemanager.md) property was changed.|
+|Scale|The value of the column's [Scale](column-scale-property-microsoft-web-management-databasemanager.md) property was changed.|
 
 ## Remarks
 

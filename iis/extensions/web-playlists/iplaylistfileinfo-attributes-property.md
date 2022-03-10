@@ -18,7 +18,7 @@ RESULT Attributes( [out, retval] DWORD *pdwAttributes);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pdwAttributes*|The **DWORD** that contains the attributes of the physical file.|
 

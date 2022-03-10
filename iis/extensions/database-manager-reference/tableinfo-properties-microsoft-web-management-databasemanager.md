@@ -14,7 +14,7 @@ The [TableInfo](tableinfo-class-microsoft-web-management-databasemanager.md) typ
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Columns](tableinfo-columns-property-microsoft-web-management-databasemanager.md)|Returns a list of columns within the table information.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[ForeignKeys](tableinfo-foreignkeys-property-microsoft-web-management-databasemanager.md)|Returns a list of foreign keys within the table information.|

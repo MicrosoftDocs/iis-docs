@@ -73,14 +73,14 @@ The CacheResponse2 type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheResponse2(Stream, Boolean)](cacheresponse2-constructor-stream-boolean-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the CacheResponse2 class based on the specified stream.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheResponse2(Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean)](cacheresponse2-constructor-int64-string-webheadercollection-stream-httpstatuscode-string-datetime-boolean-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the CacheResponse2 class that is fully finalized and ready for use.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ContentLength](cacheresponse-contentlength-property-microsoft-web-media-smoothstreaming_1.md)|The length in bytes. (Inherited from [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ContentType](cacheresponse-contenttype-property-microsoft-web-media-smoothstreaming_1.md)|A string object that identifies the content type. (Inherited from [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md).)|
@@ -95,7 +95,7 @@ The CacheResponse2 type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|

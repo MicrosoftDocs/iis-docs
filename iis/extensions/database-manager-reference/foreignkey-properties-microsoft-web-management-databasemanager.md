@@ -14,7 +14,7 @@ The [ForeignKey](foreignkey-class-microsoft-web-management-databasemanager.md) t
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[FKColumns](foreignkey-fkcolumns-property-microsoft-web-management-databasemanager.md)|Retrieves a list of foreign key columns.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[FKTableName](foreignkey-fktablename-property-microsoft-web-management-databasemanager.md)|Gets or sets the table name for a foreign key.|

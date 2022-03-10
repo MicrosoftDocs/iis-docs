@@ -18,7 +18,7 @@ HRESULT EntryType( [out,retval] ENTRY_TYPE* pType);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pType*|An [IPlaylistEntryInfo::ENTRY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146290) enumeration describing the location type of the entry.|
 

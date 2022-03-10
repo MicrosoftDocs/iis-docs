@@ -14,7 +14,7 @@ The [QueryColumnMetadata](querycolumnmetadata-class-microsoft-web-management-dat
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[ColumnWidth](querycolumnmetadata-columnwidth-property-microsoft-web-management-databasemanager.md)|Gets or sets the column width for the column metadata within a query result.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[IsComputed](querycolumnmetadata-iscomputed-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the column data is computed within a query result.|

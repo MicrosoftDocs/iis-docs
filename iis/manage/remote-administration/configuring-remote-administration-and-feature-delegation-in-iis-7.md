@@ -47,7 +47,7 @@ The default IIS installation options do not include the Management Service (also
 1. Click **Start**, type **Server Manager** in the **Search** box, and press ENTER to open Server Manager.
 2. In the tree, under **Roles**, select **Web Server (IIS)**.
 3. Click **Add role services**, and then select **Management Service** as shown in the image below.
-4. Click **Next** and follow the instructions to complete the installation.[![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image2.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image1.jpg)
+4. Click **Next** and follow the instructions to complete the installation.[![Screenshot of Role Services menu. Management Service is highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image2.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image1.jpg)
 
 ## Enable Remote Connections and Configure Identity Credentials
 
@@ -63,7 +63,7 @@ Enable remote connections so that Windows users and IIS Manager users (configure
 3. Select the **Enable remote connections** check-box.
 4. Under **Identity Credentials**, select **Windows credentials or IIS Manager credentials**.
 5. In the **Actions** pane, click **Apply** to save the changes, and then click **Start** to start the Management Service.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image8.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image7.jpg)
+    [![Screenshot of Management Service feature page. The option Enable remote connections is highlighted. In the Actions pane, Start is highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image8.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image7.jpg)
 
 **Additional Information**
 
@@ -98,12 +98,12 @@ The following procedures explain how to open the IIS Manager Users feature and a
 
 1. In IIS Manager, in the **Connections** pane, click the server node in the tree.
 2. On the server home page, double-click **IIS Manager Users**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image10.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image9.jpg)
+    [![Screenshot of B D E L A P C one dash I I S server home page. In the Connections pane the B D E L A P C one dash I I S server node is highlighted. I I S Manager Users Icon is highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image10.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image9.jpg)
 3. On the **IIS Manager Users** page, in the **Actions** pane, click **Add** **User**.
 4. In the **User** name box, type a user name.
 5. In the **Password** box, type a password and then retype the password in the **Confirm** password box.
 6. Click **OK**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image12.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image11.jpg)
+    [![Screenshot of I I S Manager Users page. In the Actions pane, Add User is highlighted. An arrow is leading from Add User to the User name box.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image12.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image11.jpg)
 
 ## Configure IIS Manager Permissions for a Site or an Application
 
@@ -113,12 +113,12 @@ In order for a user to remotely connect to a site or application on the server, 
 
 1. In IIS Manager, in the **Connections** pane, select the site or application for which you want to configure permissions.
 2. On the home page for the site or application, double-click **IIS Manager Permissions**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image14.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image13.jpg)
+    [![Screenshot of Connections pane. Default Web Site is selected. On the Default Web Site Home pane, I I S Manager Permissions is highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image14.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image13.jpg)
 3. On the **IIS Manager Permissions** page, in the **Actions** pane, click **Allow User**.
 4. On the **Allow User** dialog box, select **IIS Manager** and click **Select**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image16.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image15.jpg)
+    [![Screenshot of I I S Manager Permissions page and Actions pane. Allow User option is highlighted. The Allow User dialog box is shown. I I S Manager is selected.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image16.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image15.jpg)
 5. On the **Users** dialog box, select one or more IIS Manager users from the list and then click **OK**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image18.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image17.jpg)
+    [![Screenshot of Users dialog box. TestAdmin is shown in the list under Name and Select User.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image18.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image17.jpg)
 6. Click **OK** to dismiss the **Allow User** dialog box.
 
 **To permit a Windows user to connect to a site or an application:** 
@@ -126,7 +126,7 @@ In order for a user to remotely connect to a site or application on the server, 
 1. On the **IIS Manager Permissions** page, in the **Actions** pane, click **Allow User**.
 2. On the **Allow User** dialog box, select **Windows** and then click **Select**.
 3. On the **Select User or Group** dialog box, type a user name or search for a user account, and then click **OK**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image20.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image19.jpg)
+    [![Screenshot of Select User or Group dialog box. Under the text Select this object type, User is written. Under the text From this location, B D E L A P C one dash I I S is written.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image20.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image19.jpg)
 4. Click **OK** to dismiss the **Allow User** dialog box.
 
 ## Configure Access Control Lists (ACLs) for Content Directories
@@ -145,11 +145,11 @@ After you have configured the Management Service and configured users and permis
 
 1. In IIS Manager, click **File** and then click **Connect to a Site**(or **Connect to an Application**).
 2. On the **Connect to Site** or **Connect to Application** wizard, type the server name and the site name to which you want to connect. If you are connecting to an application, type the application name also. Then click **Next**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image22.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image21.jpg)
+    [![Screenshot of Connect to Site wizard. Under the text Server name, localhost is written. Under the text Site name, contoso dot com is written. The option Next is highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image22.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image21.jpg)
 3. On the **Provide Credentials** page of the **Connect to Site** or **Connect to Application** wizard, select whether you want to use current credentials or to specify the credentials to connect to the site. When you specify credentials, the default is Windows credentials unless you select the **Use IIS Manager credentials** check-box. After you specify the credentials, click **Next** to connect to the server.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image24.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image23.jpg)
+    [![Screenshot of Connect to Site wizard. The Provide Credentials page is shown. Under the text Connecting to "localhost and Default Web Site", Username and Password are shown. The option to click Next is highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image24.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image23.jpg)
 4. If the connection succeeds, IIS Manager will display a final page on the **Connect to Site** or **Connect to Application** wizard to name the connection. As shown in the image below, the TestAdmin user has created a site connection to the Contoso.com site.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image26.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image25.jpg)
+    [![Screenshot of Connect to Site wizard. The Internet Information Services ( I I S) Manager page is shown. The site name contoso dot com is highlighted and selected.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image26.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image25.jpg)
 
 **Additional Information**
 
@@ -157,7 +157,7 @@ In the next section, we look at Feature Delegation. However, before we do that, 
 
 As shown in the image below, on the right-hand side of the page there is an alert saying "This feature has been locked and is read only." This alert is displayed when a feature has been locked; the next section explains Feature Delegation and locking in more detail.
 
-[![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image28.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image27.jpg)
+[![Screenshot of Error Pages is shown. On the right side of the page there is an alert saying, This feature has been locked and is read only, which is highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image28.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image27.jpg)
 
 ## Delegating Features in IIS Manager
 
@@ -185,11 +185,11 @@ When you first open the **Feature Delegation** feature page, you can configure t
 **To configure default delegation states for features in IIS Manager**
 
 1. In IIS Manager, in the **Connections** pane, click the server node in the tree.
-2. On the server home page, double-click **Feature Delegation**. [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image30.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image29.jpg)
+2. On the server home page, double-click **Feature Delegation**. [![Screenshot of connections pane in server home page showing B D E L A P C 1 dash I I S home selected and Feature Delegation icon highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image30.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image29.jpg)
 3. Select **Delegation** from the **Group by** list to organize the list of features by their current delegation states.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image32.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image31.jpg)
+    [![Screenshot of Feature Delegation list in the action pane with delegation from the group list highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image32.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image31.jpg)
 4. Select **Error Pages** in the **Feature Delegation** list, and then review the available delegation states in the **Actions** pane. The **Error Pages** feature is selected and the available options under **Set Feature Delegation** are **Read/Write**, **Remove Delegation** and **Reset to Inherited**.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image34.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image33.jpg)
+    [![Screenshot of Feature Delegation list with Error Pages selected showing available options under Set Feature Delegations.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image34.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image33.jpg)
 5. Select **Error Pages.** In the **Actions** pane, click **Read/Write** to unlock the configuration section that is related to the **Error Pages** feature. This makes the feature configurable in *Web.config* files and in IIS Manager at the site and application levels.
 
 ### Additional Information
@@ -200,7 +200,7 @@ The following excerpt from the IIS configuration files shows that the values can
 
 To further demonstrate what this action does, look at **Error Pages** feature at a site level. In the **Connections** pane, connect to a site and then double-click **Error Pages** on the site home page. As shown in the image below, the **Error Pages** feature can now be configured by the user connected to the site level.
 
-[![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image36.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image35.jpg)
+[![Screenshot of error pages with actions such as Add, Exit Feature Setting, Help, and Online Help highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image36.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image35.jpg)
 
 ## Configure Custom Delegation States for Features in a Site or an Application
 
@@ -211,7 +211,7 @@ The steps above configured the default delegation state for the **Error Pages** 
 1. In IIS Manager, double-click **Feature Delegation**.
 2. On the **Feature Delegation** page, in the **Actions** pane, click **Custom Web Site Delegation**.
 3. From the **Sites** list, select the site for which you want to configure custom delegation settings.  
-    [![](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image38.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image37.jpg)
+    [![Screenshot of Custom Website Delegation pane with sites list highlighted.](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image38.jpg)](configuring-remote-administration-and-feature-delegation-in-iis-7/_static/image37.jpg)
 4. Select a feature, and then click a delegation state in the **Actions** pane.
 
 **To copy custom delegation states from one site to another site**

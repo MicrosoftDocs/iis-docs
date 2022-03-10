@@ -24,7 +24,7 @@ enum ENTRY_TYPE
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*EntryTypePhysicalFile*|The path of the entry is a physical file path.|
 |*EntryTypeRelativeURI*|The path of the entry relative to the playlist URL.|

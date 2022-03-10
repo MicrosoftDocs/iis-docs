@@ -67,7 +67,7 @@ public enum ChunkResultState
 
 ## Members
 
-||Member name|Description|
+|Result|Member name|Description|
 |--- |--- |--- |
 ||Succeeded|[BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) succeeded.|
 ||Failed|[BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) failed.|

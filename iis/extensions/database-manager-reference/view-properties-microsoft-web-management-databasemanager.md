@@ -14,7 +14,7 @@ The [View](view-class-microsoft-web-management-databasemanager.md) type exposes 
 
 ## Properties
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Definition](view-definition-property-microsoft-web-management-databasemanager.md)|Gets or sets the definition for a view.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](view-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a view.|

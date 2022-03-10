@@ -14,7 +14,7 @@ The [Query](query-class-microsoft-web-management-databasemanager.md) type expose
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[AllowEdit](query-allowedit-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies whether editing the query is allowed.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Statement](query-statement-property-microsoft-web-management-databasemanager.md)|Gets or sets the SQL statement for a query.|

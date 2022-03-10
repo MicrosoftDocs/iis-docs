@@ -14,7 +14,7 @@ The [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md)
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[ColumnMetadata](queryresult-columnmetadata-property-microsoft-web-management-databasemanager.md)|Returns a list of column metadata for a query result.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[QueryResults](queryresult-queryresults-property-microsoft-web-management-databasemanager.md)|Retrieves an array of query results.|

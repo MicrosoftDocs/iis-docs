@@ -18,7 +18,7 @@ RESULT FilePath( [out, retval] BSTR* pbstrPath);
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pbstrName*|The canonical path of the physical playlist file.|
 

@@ -71,13 +71,13 @@ The CircularList\<(Of \<(\<'T\>)\>)\> type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CircularList< (Of < ( <'T> ) > ) >](circularlist-t-constructor-microsoft-web-media-diagnostics_1.md)|(Deprecated. Do not use) Initializes a new instance of the CircularList<(Of <(<'T>)>)> class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Capacity](https://msdn.microsoft.com/library/y52x03h2)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Count](https://msdn.microsoft.com/library/27b47ht3)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
@@ -85,7 +85,7 @@ The CircularList\<(Of \<(\<'T\>)\>)\> type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Add](circularlist-t-add-method-microsoft-web-media-diagnostics_1.md)|(Deprecated. Do not use) Adds an object to the end of the CircularList<(Of <(<'T>)>)>.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[AddRange](https://msdn.microsoft.com/library/z883w3dc)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
@@ -143,7 +143,7 @@ The CircularList\<(Of \<(\<'T\>)\>)\> type exposes the following members.
 
 ## Explicit Interface Implementations
 
-||Name|Description|
+|Implementation Type|Name|Description|
 |--- |--- |--- |
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Ff728198.privmethod(en-us,VS.90).gif "Private method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|IList.Add|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Ff728198.privmethod(en-us,VS.90).gif "Private method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|IList.Contains|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'T> ) > ) >.)|

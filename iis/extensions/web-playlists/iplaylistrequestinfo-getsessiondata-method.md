@@ -21,7 +21,7 @@ GetSessionData (
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*pbstrVarValue*|The returned session data|
 
