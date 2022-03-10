@@ -24,6 +24,8 @@
           href: get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709.md
         - name: IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support
           href: get-started/whats-new-in-iis-10-version-1709/iis-10-version-1709-hsts.md
+        - name: New Features Introduced in IIS 10.0 Version 1809
+          href: get-started/whats-new-in-iis-10-version-1809/new-features-introduced-in-iis-10-1809.md
     - name: What’s New in IIS 10.0?
       items: 
         - name: New Features Introduced in IIS 10.0
