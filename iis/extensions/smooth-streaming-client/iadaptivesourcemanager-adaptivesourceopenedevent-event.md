@@ -32,13 +32,13 @@ void remove (AdaptiveSourceOpenedEventHandler^ value);
 
 ## Event information
 
-|||
+|Type|Event|
 |--- |--- |
 |Delegate|[AdaptiveSourceOpenedEventHandler Delegate](adaptivesourceopenedeventhandler-delegate.md)|
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
