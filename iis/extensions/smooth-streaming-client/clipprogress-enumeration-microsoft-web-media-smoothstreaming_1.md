@@ -73,14 +73,14 @@ public enum ClipProgress
 
 ## Members
 
-||Member name|Description|
-|--- |--- |--- |
-||Start|The media clip is at the start of its duration.|
-||FirstQuartile|The media clip has reached the end of the first 25% of its duration.|
-||Midpoint|The media clip is at the midpoint of its duration.|
-||ThirdQuartile|The media clip has reached the end of the third 25% of its duration.|
-||Complete|The media clip has reached the end.|
-||Unknown|The progress of the media clip is unknown.|
+|Member name|Description|
+|--- |--- |
+|Start|The media clip is at the start of its duration.|
+|FirstQuartile|The media clip has reached the end of the first 25% of its duration.|
+|Midpoint|The media clip is at the midpoint of its duration.|
+|ThirdQuartile|The media clip has reached the end of the third 25% of its duration.|
+|Complete|The media clip has reached the end.|
+|Unknown|The progress of the media clip is unknown.|
 
 ## Version Information
 
