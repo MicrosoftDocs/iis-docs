@@ -27,7 +27,7 @@ This document provides prescriptive guidance about how Application Request Routi
 
 Microsoft Application Request Routing (ARR) for IIS 7.0 and above is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers, server variables, and load balance algorithms. A typical ARR deployment is illustrated in the diagram below:
 
-[![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image3.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image2.jpg)
+![Diagram showing the A R R forwarding H T T P requests.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image2.jpg)
 
 While ARR provides high availability and scalability for the content servers, the overall deployment is not highly available or scalable because:
 
@@ -49,7 +49,7 @@ Above are just some of the examples. For a complete list of HTTP headers and ser
 
 Because NLB makes the routing decisions at layer 3, application specific information, such as HTTP headers and server variables, can not be used to provide application level based routing. At the same time, ARR does not provide fault tolerant deployment features for itself and must rely on other complementary technologies and solutions to achieve high availability for the ARR tier. NLB operates at a different level on the network stack and is enabled on the same servers as where ARR is deployed:
 
-[![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image5.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image4.jpg)
+![Digram showing connections between A R R 1 and 2 and content servers.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image4.jpg)
 
 ## Scenario 1: HTTP-based routing and load balancing
 
@@ -61,7 +61,7 @@ The HTTP-based routing and load balancing scenario enables a 3-tier deployment a
 
 The following diagram illustrates the 3-tier deployment:
 
-[![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image7.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image6.jpg)
+![Diagram showing the content flow between A R R and content servers in each tier.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image6.jpg)
 
 Although the above example shows a routing rule that differentiates the static content from the dynamic content, another common scenario is to differentiate presentation requests from Web service requests. 
 
@@ -105,15 +105,15 @@ The NLB configuration is divided into the following steps:
 **<a id="Install NLB features"></a><a id="install NLB"></a>Install the NLB feature on all ARR servers**
 
 1. Open **Server Manager**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image9.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image8.jpg)
+    ![Screenshot of the Server Manager window showing details in the main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image8.jpg)
 2. Expand **Features**.
 3. Click **Add Features**.
 4. In the Add Features Wizard, select **Network Load Balancing**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image11.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image10.jpg)
+    ![Screenshot of the Add Features Wizard window showing features in the main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image10.jpg)
 5. Click **Install** to confirm installation of the NLB feature.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image13.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image12.jpg)
+    ![Screenshot of the Add Features Wizard window showing the Confirm Installation Selections in the main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image12.jpg)
 6. Verify that the NLB feature installed successfully.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image15.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image14.jpg)
+    ![Screenshot of the Add Features Wizard window showing the Installation Results page in the  main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image14.jpg)
 7. Repeat the above steps on all ARR servers.
 
 **<a id="Create NLB cluster for ARR"></a><a id="create nlb"></a>Create NLB cluster for ARR**

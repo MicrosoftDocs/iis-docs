@@ -67,17 +67,17 @@ Now to do the same thing in IIS Manager.
 
 1. Open IIS Manager (Start, Run, type inetmgr.exe) and click the connection to the local server in the tree view on the left side. Scroll down the feature list, find **Feature Delegation**, and double-click to open.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image2.jpg)](an-overview-of-feature-delegation-in-iis/_static/image1.jpg)
+   ![Screenshot of the I I S Manager window showing a feature list in the main pane.](an-overview-of-feature-delegation-in-iis/_static/image1.jpg)
 2. The Feature Delegation page shows all the features and their default delegation state for all sites ("features" means all the items that appear in the home page feature list). Try Grouping by Delegation.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image4.jpg)](an-overview-of-feature-delegation-in-iis/_static/image3.jpg)
+   ![Screenshot of the I I S Manager window showing Feature Delegation in the main pane. The Group by setting Delegation is highlighted.](an-overview-of-feature-delegation-in-iis/_static/image3.jpg)
 3. Notice that most of the IIS features like Windows Authentication and IPv4 Address and Domain Restrictions are Read Only, while ASP.NET configuration like Forms Authentication, Machine Key, and Session State are Read/Write.
 
     > [!NOTE]
     > You see the Windows Authentication, Compression, or IP and Domain Restrictions features if they are installed.
 4. Click a feature to see the delegation options in the task pane on the right.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image6.jpg)](an-overview-of-feature-delegation-in-iis/_static/image5.jpg)
+   ![Screenshot of the I I S Manager window with Feature Delegation in the main pane. Error Pages in the Read Only section is highlighted.](an-overview-of-feature-delegation-in-iis/_static/image5.jpg)
 
    Error Pagescan be set to Read/Write.
 
@@ -85,11 +85,13 @@ Now to do the same thing in IIS Manager.
    - Both Read Only and Remove Delegation mean that the feature's corresponding configuration section is locked and cannot be configured in web.config without causing runtime errors.
 
    Do the same thing here as with appcmd above. When you change this delegation state, you change the default delegation for all sites.
-5. If you want to configure delegation for just one site, click the Custom Site Delegation link at the top of the task pane.[![](an-overview-of-feature-delegation-in-iis/_static/image8.jpg)](an-overview-of-feature-delegation-in-iis/_static/image7.jpg)
+5. If you want to configure delegation for just one site, click the Custom Site Delegation link at the top of the task pane.
+
+    ![Screenshot of the I I S Manager window showing Feature Delegation in the main pane. Custom Site Delegation is highlighted in the Actions pane.](an-overview-of-feature-delegation-in-iis/_static/image7.jpg)
 
    The Custom Site Delegation page displays, allows you to customize delegation for one site. This page looks similar to the Feature Delegation page, except that there is a drop-down at the top to select the site for which you want to configure delegation. This page also allows you to copy delegation from site to site to save time if you have a site with the same delegation that you want for a new site.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image10.jpg)](an-overview-of-feature-delegation-in-iis/_static/image9.jpg) /p>
+   ![Screenshot of the I I S Manager window showing Custom Site Delegation in the main pane. An arrow points to the Site dropdown.](an-overview-of-feature-delegation-in-iis/_static/image9.jpg)
 
 <a id="03"></a>
 
@@ -106,10 +108,10 @@ Start with creating site and application administrators.
 
 1. Navigate to the Default Web Site, find the IIS Manager Permissions feature, and double-click to open.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image12.jpg)](an-overview-of-feature-delegation-in-iis/_static/image11.jpg)
+   ![Screenshot of the I I S Manager screen showing the Default Web Site Home page in the main pane.](an-overview-of-feature-delegation-in-iis/_static/image11.jpg)
 2. Click **Allow User** in the task pane to add a new user for the Default Web Site.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image14.jpg)](an-overview-of-feature-delegation-in-iis/_static/image13.jpg)
+   ![Screenshot of the I  I S Manager screen showing I I S Manager Permissions in the main pane. I I S Manager Permission is highlighted in the Management section.](an-overview-of-feature-delegation-in-iis/_static/image13.jpg)
 3. You have two options here: Windows User or Group, or IIS Manager user.
 
    An IIS Manager user is a username and password stored in `%windir%\system32\inetsrv\config\administration.config`. Most situations call for Windows Users. For example, a developer who publishes content directly to a web server through a file share or FTP already has read/write permission to the content folder. Since IIS Manager will impersonate that user when making configuration changes, the Windows user account has to have read/write access to the content folder where the web.config files will be written.
@@ -126,17 +128,17 @@ The first step is installing the Web Management Service (WMSVC).
 
 1. Open Server Manager (right-click Computer and click Manage), select the Web Server role, and install the Management Service component from under the Management Tools node.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image16.jpg)](an-overview-of-feature-delegation-in-iis/_static/image15.jpg)
+   ![Screenshot of the Add Role Services window. Management Service under Management Tools is highlighted.](an-overview-of-feature-delegation-in-iis/_static/image15.jpg)
 
    The Web Management Service (WMSVC) is a stripped down, stand-alone web server. When installed and started, WMSVC listens on port 8172. The IIS Manager client, the UI with buttons and text boxes, communicates over HTTP through web service calls to WMSVC when the user wants to take an action. WMSVC hosts the logic that implements the action, such as setting a configuration property or stopping a web site.
 2. Open the Management Service page by navigating to the server home page. Find Management Service, and double-click to open.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image18.jpg)](an-overview-of-feature-delegation-in-iis/_static/image17.jpg)
+   ![Screenshot of the I I S Manager window. The Allow User dialog is open in the main pane. ](an-overview-of-feature-delegation-in-iis/_static/image17.jpg)
 
    - Enable remote management so that WMSVC serves all requests instead of only requests that originate on the local server. WMSVC cannot be configured when running, so look at the HTTPS binding and IP and domain restrictions and decide whether or not you want to make any other changes.
    - Start WMSVC by clicking Start in the task pane. WMSVC listens on all unassigned IP addresses by default. If your web servers have more than one network card (NIC) and you want WMSVC to listen on one specific NIC, you have to configure that explicitly.
 
-      [![](an-overview-of-feature-delegation-in-iis/_static/image21.jpg)](an-overview-of-feature-delegation-in-iis/_static/image20.jpg)
+      ![Screenshot of the I I S Manager window showing the Management Service page in the main pane.](an-overview-of-feature-delegation-in-iis/_static/image20.jpg)
 
       At this point WMSVC is listening on port 8172, waiting for management requests.
 
@@ -152,7 +154,7 @@ If that works, then try to connect from a remote machine.
 
 1. Click the drop-down arrow beside the Connect icon on top of the tree view and select Connect to a Site.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image23.jpg)](an-overview-of-feature-delegation-in-iis/_static/image22.jpg)
+   ![Screenshot of the I I S Manager window with the connect menu open in the Connections pane.](an-overview-of-feature-delegation-in-iis/_static/image22.jpg)
 2. On the first page of the connection wizard, select "Manually enter the connection details on the next page" (the other option was removed in post-Beta 2 builds, so ignore it).
 3. On the second page, fill in "localhost" for the server name, and "Default Web Site" for the site name.
 4. On the credentials page, enter the credentials for the Windows user you added earlier as a site administrator. When you successfully connect, the final page of the wizard gives you the option to name the connection.
@@ -161,4 +163,4 @@ If that works, then try to connect from a remote machine.
 
    Also notice that a number of the site tasks are missing from the task pane – this is because site and application administrators are not permitted to take any administrator actions, for example, managing site bindings which are stored in the applicationHost.config file.
 
-   [![](an-overview-of-feature-delegation-in-iis/_static/image6.png)](an-overview-of-feature-delegation-in-iis/_static/image5.png)
+   ![Screenshot of the I I S Manager screen showing the updated Default Web Site Home page in the main pane.](an-overview-of-feature-delegation-in-iis/_static/image5.png)
