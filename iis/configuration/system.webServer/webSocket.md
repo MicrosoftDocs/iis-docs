@@ -35,7 +35,7 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **WebSocket Protocol**. Click **Next**.  
-    [![](webSocket/_static/image2.png)](webSocket/_static/image1.png) .
+    ![Screenshot of the Application Development list showing WebSocket Protocol selected.](webSocket/_static/image1.png) .
 5. On the **Select Features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -44,7 +44,7 @@ The `<webSocket>` element specifies the use of the WebSocketModule module with A
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 2. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **WebSocket Protocol**.  
-     [![](webSocket/_static/image4.png)](webSocket/_static/image3.png)
+     ![Screenshot showing the Application Development Features list with multiple selections and WebSocket Protocol highlighted.](webSocket/_static/image3.png)
 3. Click **OK**.
 4. Click **Close**.
 
@@ -78,7 +78,7 @@ For more information, see [IWebSocketContext interface](/iis/web-development-ref
 5. Select **system.webServer/webSocket** in the **Section** text box.
 6. Set `enabled` to **True** to enable webSocket or **False** to disable webSocket. Set **pingInterval** and **receiveBufferLimit** to the desired values.  
   
-    [![](webSocket/_static/image6.png)](webSocket/_static/image5.png)
+    [![Screenshot of a portion of the Configuration Editor screen with enabled highlighted.](webSocket/_static/image5.png)](webSocket/_static/image5.png)
 7. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
