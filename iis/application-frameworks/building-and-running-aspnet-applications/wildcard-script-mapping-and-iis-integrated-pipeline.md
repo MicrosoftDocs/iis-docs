@@ -19,7 +19,7 @@ Assume you had configured ASP.NET in IIS 6 to handle all requests by using wildc
 
 This wildcard script map configuration is typically done within IIS 6 manager by opening the properties dialog for either web server or web site and selecting **Home Directory** tab, then clicking on **Configuration** button and then clicking on the **Insert** button for "Wildcard application maps":
 
-![](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image1.png)
+![Screenshot of Application Configuration dialog box and Add and Edit Application Extension Mapping dialog box. Insert button on Application Configuration dialog box is highlighted.](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image1.png)
 
 Now, as you move your application to IIS 7 and above, you want to configure it to achieve the same behavior of ASP.NET. There are two options on how this can be done: using **Classic** pipeline mode or using **Integrated** pipeline mode.
 
@@ -33,15 +33,15 @@ Notice the **preCondition** attribute for the handler mapping. Among other thing
 
 Now if you want to configure wildcard mapping for the ASP.NET running in classic mode, you can do it by choosing "Handler Mappings" in IIS Manager and then clicking on "Add Wildcard Script Map..." action.
 
-![](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image2.png)
+![Screenshot of Add Wildcard Script Map dialog box and Handler Mappings page. In the Actions pane to the right of Handler Mappings page, Add Wilcard Script Map is highlighted.](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image2.png)
 
 Choose **aspnet\_isapi.dll** as an executable and give this script mapping some meaningful name, such as **ASP.NET-ISAPI-2.0-Wildcard**. After that click OK and then click Yes in the "Add Wildcard Script Map" dialog.
 
-![](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image3.png)
+![Screenshot of Add Wildcard Script Map dialog and Add Wildcard Script Map dialog. In the Add Wildcard Script Map dialog the options Yes, No, and Cancel are shown.](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image3.png)
 
 Next, switch to the ordered list view for the handler mappings by clicking on "View Ordered List..." action and move the newly created mapping to the bottom of the list just before the StaticFile handler mapping:
 
-![](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image5.png)
+![Screenshot of Handler Mappings feature page. At the bottom of the handler mappings list view, OPTIONS Verb Handler, A S P dot NET dash I S A P I dash two dot zero dash Wildcard, and Static File are all highlighted.](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image5.png)
 
 If you open a web.config file and look into the `<handlers>` section you should see that the wildcard script map for ASP.NET is located just before the StaticFile handler:
 
