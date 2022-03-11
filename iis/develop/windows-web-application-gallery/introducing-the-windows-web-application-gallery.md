@@ -1,7 +1,7 @@
 ---
 title: "Introducing the Windows Web Application Gallery"
 author: chrissfanos
-description: "The Windows Web Application Gallery makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can brows..."
+description: "Users can browse the WWAG and running the installer."
 ms.date: 03/18/2009
 ms.assetid: a6fef702-77c2-4c2c-963b-c8c361c37fe0
 msc.legacyurl: /learn/develop/windows-web-application-gallery/introducing-the-windows-web-application-gallery
