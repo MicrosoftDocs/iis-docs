@@ -54,7 +54,7 @@ To start an elevated command prompt, go to the "Start" menu, click "All Programs
 
 The following example dynamically decorates images served by our web server with copyright information in the lower left corner as seen in Figure 1.
 
-![](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.png)  
+![Screenshot of the web page displaying an image of snow covered rocky mountains on the backdrop of a cloudy sky.](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.png)  
 **Figure 1: Image Copyright Module in Action**
 
 We use managed code for developing the handler that decorates the images. As part of the sample, we also specify the configuration for this handler and store it in the IIS configuration store. Last, we will develop a User Interface plug-in for IIS Manager.
@@ -266,7 +266,7 @@ To create an extensibility module for InetMgr you need to create a DLL project a
 2. In the File Menu select the option New Project.
 3. In the New Project dialog select Class Library as the project type and type imageCopyrightUI as the name of the project and click OK.
 
-    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image3.png)  
+    ![Screenshot of New Project dialog box with Class Library selected and image Copyright U I entered in the Name filed as the name of the project.](an-end-to-end-extensibility-example-for-iis-developers/_static/image3.png)  
     **Figure 2: New Project Dialog**
 
 4. Remove the file Class1.cs that was added by default since we will not be using that.
@@ -283,12 +283,12 @@ To create an extensibility module for InetMgr you need to create a DLL project a
 
 10. In the Create Strong Name Key type imageCopyrightUI as the name for the key and uncheck the Protect my key file with a password check box. Click OK.
 
-    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image5.png)  
+    ![Screenshot of Create Strong Name Key dialog box displaying image Copyright U I entered as Key file name and password created and confirmed.](an-end-to-end-extensibility-example-for-iis-developers/_static/image5.png)  
     **Figure 3: Create Strong Name Dialog**
 
     The signing tab displays:
 
-    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.jpg)  
+    ![Screenshot of Signing tab with image Copyright U I dot s n k selected in the Choose a strong name key file field.](an-end-to-end-extensibility-example-for-iis-developers/_static/image1.jpg)  
     **Figure 4: VS Project Signing Tab**
 
 11. Since we want the assembly to be in the GAC, we will add some Post-build events so that it automatically gets added to the GAC every time we compile. This will make it really straight forward to debug and make changes as we add new functionality. For this, select the **Build Events** tab and add the following Post-build event command line:
@@ -297,12 +297,12 @@ To create an extensibility module for InetMgr you need to create a DLL project a
 
     [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample19.cmd)]
 
-    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image8.png)  
+    ![Screenshot of Post Build Event command line populated with code.](an-end-to-end-extensibility-example-for-iis-developers/_static/image8.png)  
     **Figure 5: VS Post-Build Events Tab**
 
     **(Optional)** If you are using Microsoft Visual Studio 2005 (this will not work with the Visual C# Express Edition), setup debugging correctly to use F5 to run your code. To do this, go to the project properties, select Debug tab and set it to start an external program choosing \windows\system32\inetsrv\inetmgr.exe
 
-    ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image10.png)  
+    ![Screenshot of Debug tab set to Start external program action.](an-end-to-end-extensibility-example-for-iis-developers/_static/image10.png)  
     **Figure 6: Debugging Tab**
 
 12. Finally, close the project properties, select the option Save All in the File Menu and click OK.
@@ -319,7 +319,7 @@ As a first step, create the imageCopyrightUI module provider.
 
 1. Select the option Add New Item from the Project Menu. In the Add New Item dialog select the Class template and type imageCopyrightUIModuleProvider.cs as the name for the file.
 
-   ![](an-end-to-end-extensibility-example-for-iis-developers/_static/image12.png)  
+   ![Screenshot of Add New Item dialog box with Class template selected and the Name field populated with image Copyright U I Module Provider dot c s.](an-end-to-end-extensibility-example-for-iis-developers/_static/image12.png)  
    **Figure 7: Add New Item Dialog**
 
 2. Change the code so that it looks as follows:
@@ -411,7 +411,7 @@ Open the IIS Management Console and navigate to the /mypictures application.
 
 Double-click the "Image Copyright" entry.
 
-![](an-end-to-end-extensibility-example-for-iis-developers/_static/image14.png)  
+![Screenshot of I I S Management Console with my pictures application selected and image Copyright message displayed.](an-end-to-end-extensibility-example-for-iis-developers/_static/image14.png)  
 **Figure 8: Image Copyright User Interface**
 
 Change the copyright message, click apply and refresh your browser. The copyright message changed. Look into the web.config file in the `%systemdrive%\inetpub\mypictures` directory to see the changed configuration.

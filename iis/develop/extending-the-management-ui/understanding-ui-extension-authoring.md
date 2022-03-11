@@ -28,7 +28,7 @@ The new inetmgr is designed to use a web service like architecture that enforces
 
 Click **Start**, Click Programs and run **Microsoft Visual Studio 2005** or **Microsoft Visual C# 2005 Express Edition.** In the **File Menu,** select the option **New Project,** go to **Other Project Types** and **Visual Studio Solutions**. Select Blank Solution from the right hand side and name the Solution as ExtensibilityDemo.
 
-[![](understanding-ui-extension-authoring/_static/image3.jpg)](understanding-ui-extension-authoring/_static/image1.jpg)
+[![Screenshot of New Project dialog box with Visual Studio Solutions as project type and Blank Solution as the template selected.](understanding-ui-extension-authoring/_static/image3.jpg)](understanding-ui-extension-authoring/_static/image1.jpg)
 
 ## Creating the Client Assembly
 
@@ -42,8 +42,8 @@ Tasks illustrated to create a client assembly consist of
 ### Setting up the project for Client Assembly
 
 In the solution Explorer, right click the solution select Add and New Project to launch this window. Select Visual C# and class Library from the right pane and name the project as Client.
-
-[![](understanding-ui-extension-authoring/_static/image2.png)](understanding-ui-extension-authoring/_static/image1.png)
+ 
+[![Screenshot of Add New Project window with Class Library selected and Client entered as project name in the Name field.](understanding-ui-extension-authoring/_static/image2.png)](understanding-ui-extension-authoring/_static/image1.png)
 
 Remove the file Class1.cs that was added by default since we will not be using that file by using the context menu Delete option in the solution explorer.
 
@@ -53,15 +53,15 @@ Using the Add Reference… from the Project menu, add reference to **Microsoft.W
 
 One of the requirements for libraries to be used inside the InetMgr is that they need to be registered inside GAC. For that, we need to make sure our DLL is strongly named. Visual studio offers an easy way to create new names. To sign an assembly, go to **Project Properties** and to **Signing** Tab, Click **Sign the assembly**. In the dialog box, name the key as **ExtensibilityDemoKey** and uncheck **Protect my key file with a password.**
 
-[![](understanding-ui-extension-authoring/_static/image2.gif)](understanding-ui-extension-authoring/_static/image1.gif)
+[![Screenshot of Signing Tab and the dialog box with Extensibility Demo Key entered as the key file name.](understanding-ui-extension-authoring/_static/image2.gif)](understanding-ui-extension-authoring/_static/image1.gif)
 
-[![](understanding-ui-extension-authoring/_static/image5.png)](understanding-ui-extension-authoring/_static/image4.png)
+[![Screenshot of Create Strong Name Key dialog box with Extensibility Demo Key displayed in Key file name field.](understanding-ui-extension-authoring/_static/image5.png)](understanding-ui-extension-authoring/_static/image4.png)
 
 Hit OK to sign the assembly. Also, since we want the assembly to be in the GAC, we will add some Post-build events so that it automatically gets added to the GAC every time we compile. This will make it really straight forward to debug and make changes as we add new functionality. For this, select the **Build Events** tab and add the following **Post-build event** command line:
 
 [!code-console[Main](understanding-ui-extension-authoring/samples/sample1.cmd)]
 
-[![](understanding-ui-extension-authoring/_static/image7.png)](understanding-ui-extension-authoring/_static/image6.png)
+[![Screenshot of Build Events tab showing Post build event command line populated with code.](understanding-ui-extension-authoring/_static/image7.png)](understanding-ui-extension-authoring/_static/image6.png)
 
 Finally, close the project Properties and select the option **Save All** in the **File Menu.** You can now compile the project using Build Solution under the Build Menu. This will automatically build the dll and add it to the GAC.
 
@@ -75,7 +75,7 @@ A ModuleServiceProxy is the class that simplifies the process of calling methods
 
 In this sample, we are going to write read contents of **"appSettings"**. Select the option Add New Item in the project Menu. Select the Code and type DemoModuleServiceProxy as the file name.
 
-[![](understanding-ui-extension-authoring/_static/image9.png)](understanding-ui-extension-authoring/_static/image8.png)
+[![Screenshot of Add New Item dash Client dialog box showing Demo Module Service Proxy typed as the file name.](understanding-ui-extension-authoring/_static/image9.png)](understanding-ui-extension-authoring/_static/image8.png)
 
 Change the code so that it looks like this.
 
@@ -116,7 +116,7 @@ The server should also reference two main assemblies from \Windows\System32\inet
 
 In the solution Explorer, right click the solution select Add and New Project to launch the window. Select Visual C# and class library from the right pane and name the project as Server.
 
-[![](understanding-ui-extension-authoring/_static/image11.png)](understanding-ui-extension-authoring/_static/image10.png)
+[![Screenshot of Add New Project dialog box with Server typed in the Name field as the project name.](understanding-ui-extension-authoring/_static/image11.png)](understanding-ui-extension-authoring/_static/image10.png)
 
 Remove the file Class1.cs that was added by default since we will not be using that file by using the context menu Delete option in the solution explorer.
 
@@ -124,13 +124,13 @@ Using the Add Reference… from the Project menu, add reference to **Microsoft.W
 
 One of the requirements for libraries to be used inside the InetMgr is that they need to be registered inside GAC. For that, we need to make sure our DLL is strongly names. Visual studio offers an easy way to create new names. To sign an assembly, go to **Project Properties** and to **Signing** Tab, Click **Sign the assembly**.In the drop down click on Browse. In the dialog box, go to the **Client** folder, and select the **ExtensibilityDemoKey** and hit open. Save the project properties.
 
-[![](understanding-ui-extension-authoring/_static/image13.png)](understanding-ui-extension-authoring/_static/image12.png)
+[![Screenshot of Signing tab with the dialog box displaying the Extensibility Demo Key selected in the Client folder.](understanding-ui-extension-authoring/_static/image13.png)](understanding-ui-extension-authoring/_static/image12.png)
 
 Hit OK to sign the assembly. Also, since we want the assembly to be in the GAC, we will add some Post-build events so that it automatically gets added to the GAC every time we compile. This will make it really straight forward to debug and make changes as we add new functionality. For this, select the **Build Events** tab and add the following **Post-build event** command line:
 
 gacutil.exe /if "$(TargetPath)"
 
-[![](understanding-ui-extension-authoring/_static/image15.png)](understanding-ui-extension-authoring/_static/image14.png)
+[![Screenshot of dialog box with Post Build event command line populated with argument.](understanding-ui-extension-authoring/_static/image15.png)](understanding-ui-extension-authoring/_static/image14.png)
 
 Finally, close the project Properties and select the option **Save All** in the **File Menu.** You can now compile the project using Build Solution under the Build Menu. This will automatically build the dll and add it to the GAC.
 
@@ -162,7 +162,7 @@ In this you will create a module provider; this is the main entry point for regi
 
 Select the option **Add New Item** from the project menu. In the Add New Item dialog select Code template and type **DemoModuleProvider.cs** as the name of the file.
 
-[![](understanding-ui-extension-authoring/_static/image17.png)](understanding-ui-extension-authoring/_static/image16.png)
+[![Screenshot of Add New Item dialog box with Demo Module Provider dot c s typed as the name of the file.](understanding-ui-extension-authoring/_static/image17.png)](understanding-ui-extension-authoring/_static/image16.png)
 
 Change the code so that it looks as follows:
 
@@ -172,7 +172,7 @@ Change the code so that it looks as follows:
 
 In this section, we will add the entry in administration.config in the moduleProviders list. Full name of the assembly can be found from \Windows\Assembly folder. Search for the assembly Client and right click and Properties.
 
-[![](understanding-ui-extension-authoring/_static/image19.png)](understanding-ui-extension-authoring/_static/image18.png)
+[![Screenshot of Server Properties dialog box displaying full name of the assembly.](understanding-ui-extension-authoring/_static/image19.png)](understanding-ui-extension-authoring/_static/image18.png)
 
 The full name of the assembly can be determined from this window. So for example, the full name of the assembly in my case is **Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e788138af6131538.** The entry that should be added to administration.config, in moduleProviders would be
 
@@ -183,9 +183,9 @@ The full name of the assembly can be determined from this window. So for example
 
 Build the solution and run inetmgr and you will see following screenshots
 
-[![](understanding-ui-extension-authoring/_static/image21.png)](understanding-ui-extension-authoring/_static/image20.png)
+[![Screenshot of Internet Information Services I I S console with Actions menu displayed.](understanding-ui-extension-authoring/_static/image21.png)](understanding-ui-extension-authoring/_static/image20.png)
 
-[![](understanding-ui-extension-authoring/_static/image23.png)](understanding-ui-extension-authoring/_static/image22.png)
+[![Screenshot of Internet Information Services I I S Demo Page with Actions menu for Help and Online Help displayed.](understanding-ui-extension-authoring/_static/image23.png)](understanding-ui-extension-authoring/_static/image22.png)
 
 ## Summary
 
