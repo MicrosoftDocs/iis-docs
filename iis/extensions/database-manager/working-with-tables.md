@@ -24,7 +24,7 @@ Let's use a scenario for this walkthrough and assume that we would like to creat
 
 The first table, "FabrikamUsers", will contain the user ID, username and email address for each user.  
 The second table, "AccessControls", will contain a reference to a user ID, a resource URL, and whether the user is allowed access to the resource or not.
-![](working-with-tables/_static/image1.png)
+![Screenshot of FabrikamUsers table and Access Controls table. The FabrikamUsers table contains the text user I D, username, and email address. The AccessControls table has the text A C I D, user I D, Resource U R L, and Is User Allowed.](working-with-tables/_static/image1.png)
 
 <a id="NewTable"></a>
 
@@ -35,7 +35,7 @@ To create a new table:
 1. Open Internet Information Services (IIS) Manager.
 2. Go to Database Manager and expand your database connection node (For more information on creating connections to a database, see [Basics of the IIS Database Manager](https://go.microsoft.com/fwlink/?LinkId=145667)).
 3. On the 'Tables' node, right click and select 'New Table'.
-   ![](working-with-tables/_static/image5.png)
+   ![Screenshot of Tables node. Tables option is selected and New Table is highlighted.](working-with-tables/_static/image5.png)
 
    A new tab will appear in the editor area. Take a moment to get familiar with the buttons on the toolbar:
 
@@ -45,7 +45,7 @@ To create a new table:
    4. Relationships: allows you to define a foreign key relationship on the table.
    5. Save: allows you to save changes to the table.
 
-   ![](working-with-tables/_static/image9.png)
+   ![Screenshot of editor toolbar. The buttons for New Column, Delete Column, Indexes and Keys, Relationships, and Save are highlighted.](working-with-tables/_static/image9.png)
 4. Click on 'New Column' in the toolbar. A new column is created and a 'Column Properties' pane appears.
 5. In the 'Column Properties', do the following:
 
@@ -55,9 +55,9 @@ To create a new table:
     4. Leave 'Default Value' blank.
     5. Set 'IsIdentity' to 'True'.
 
-   ![](working-with-tables/_static/image13.png)
+   ![Screenshot of Column Properties pane. IsIdentity option is highlighted and the text to the right of it is set to True.](working-with-tables/_static/image13.png)
 6. Let's now make this field a primary key by clicking on the 'Indexes/Keys' icon. A new dialog will open up.
-   ![](working-with-tables/_static/image17.png)
+   ![Screenshot of editor toolbar. The Indexes and Keys button is highlighted.](working-with-tables/_static/image17.png)
 7. On the dialog, click the 'Add' button and then fill out the information for the primary key as follows:
 
     1. Set 'Columns' to 'UserId'.
@@ -65,7 +65,7 @@ To create a new table:
     3. Set 'Type' to 'Primary Key'.
     4. Set 'Name' to 'PK\_UserId'.
   
-   ![](working-with-tables/_static/image21.png)
+   ![Screenshot of the Indexes and Keys pane. Under the heading Identity, the text Name is selected.](working-with-tables/_static/image21.png)
 8. Click 'Close' to close the dialog.
 9. Add another column for the username by clicking on 'New Column' in the toolbar.
 10. In the 'Column Properties', do the following:
@@ -83,9 +83,9 @@ To create a new table:
     3. Set 'Data Type' to 'varchar'.
     4. Set 'Length' to 100.
 13. Click 'Save' on the toolbar, a save dialog opens up.
-   ![](working-with-tables/_static/image25.png)
+   ![Screenshot of Toolbar. Save button is highlighted.](working-with-tables/_static/image25.png)
 14. In the 'Table Name', type 'FabrikamUsers'. You can also specify a schema or leave the 'Schema Name' field empty to use the default schema for your database user.
-   ![](working-with-tables/_static/image29.png)
+   ![Screenshot of save dialog. In the Table Name box the text Fabrikam Users is written. Use default schema is selected.](working-with-tables/_static/image29.png)
 
 Now, let us define the 'AccessControls' table. We will follow similar steps to the above:
 
@@ -128,7 +128,7 @@ Now, let us define the 'AccessControls' table. We will follow similar steps to t
     3. Set 'Data Type' to 'Bit'.
     4. Set 'Default Value' to 'False'.
 13. Click 'Save' on the toolbar, a save dialog opens up.  
-   ![](working-with-tables/_static/image33.png)
+   ![Screenshot of Database Manager. Column Name A C I d is highlighted.](working-with-tables/_static/image33.png)
 14. In the 'Table Name', type 'AccessControls'. You can also specify a schema or leave the 'Schema Name' field empty to use the default schema for your database user.
 
 ## Modifying an Existing Table
@@ -145,18 +145,18 @@ Now that we have created the two tables, "FabrikamUsers" and "AccessControls", l
 2. Expand the database connection node in the Database Manager tree view (For more information on creating connections to a database, see [Basics of the IIS Database Manager](https://go.microsoft.com/fwlink/?LinkId=145667)).
 3. Expand the 'Tables' node. You should now see a list of all your database tables, including "FabrikamUsers" and "AccessControls".
 4. Select "AccessControls" and then click 'Open Table Definition' on the toolbar. A table design view opens up and displays the columns that we created in '[Create a New Table](#NewTable)'.  
-   ![](working-with-tables/_static/image37.png)
+   ![Screenshot of Database Manager tree view. Tables node is expanded. Open Table Definition is selected.](working-with-tables/_static/image37.png)
 5. On the table design view's toolbar, click on 'Relationships'. The 'Foreign Key Relationships' dialog opens up.  
-   ![](working-with-tables/_static/image41.png)
+   ![Screenshot of Database Manager dialog. Within the Table pane the Relationships button is highlighted.](working-with-tables/_static/image41.png)
 6. Click Add. A new foreign key relationship editor is displayed.
 7. In the foreign key relationship editor, select the 'Tables and Columns Specifications' and click on the ellipsis '…' button. The 'Tables and Columns' dialog opens up.
-   ![](working-with-tables/_static/image45.png)
+   ![Screenshot of the Foreign Key Relationships dialog box. F K underscore Access Controls underscore one is selected in the left pane. In the right pane, Tables and Columns Specification is selected and the ellipsis button is highlighted.](working-with-tables/_static/image45.png)
 8. In the 'Relationship name' field, type 'FK\_AccessControlsForUsers'.
 9. In the 'Primary key table' drop down, select "FabrikamUsers". Now you should see a drop down list of primary keys from the "FabrikamUsers" table. Make sure that "UserId" is selected.
 10. In the second drop down, you should see a list of columns from "AccessControls". Select "UserId" and click OK to close the dialog.  
-   ![](working-with-tables/_static/image49.png)
+   ![Screenshot of the Tables and Columns dialog box. In the Relationship name box F K underscore Access Controls For Users is written. In the Primary Key Table box d b o dot Fabrikam Users is written. In the second drop down, User I D is selected.](working-with-tables/_static/image49.png)
 11. Click Close on the 'Foreign Key Relationships' dialog.  
-   ![](working-with-tables/_static/image53.png)
+   ![Screenshot of Foreign Key Relationships dialog box. In the left pane F K underscore Access Controls For Users is selected. In the right pane Tables and Columns Specification is selected.](working-with-tables/_static/image53.png)
 12. Click 'Save' to update the tables. We now just created a relationship between the "FabrikamUsers" and "AccessControls" tables.
 
 ## Changing Table Data
@@ -173,15 +173,15 @@ Let us start populating our "FabrikamUsers" and "AccessControls" table with some
 2. Expand the database connection node in the Database Manager tree view (For more information on creating connections to a database, see [Basics of the IIS Database Manager](https://go.microsoft.com/fwlink/?LinkId=145667)).
 3. Expand the 'Tables' node. You should now see a list of all your database tables, including "FabrikamUsers" and "AccessControls".
 4. Right-click on "FabrikamUsers" and select 'Show Table Data'. You should now see the data inside your table. There should also be a row preceded by a '\*' that you can use to enter new data.
-   ![](working-with-tables/_static/image57.png)
+   ![Screenshot of Tables node and list of database tables. The Table title d b o dot Fabrikam Users is selected. Show Table Data is highlighted.](working-with-tables/_static/image57.png)
 5. In the new row (\*), click in the 'Username' column and type 'John Doe'. Next, click on the 'Email' column and type 'JohnDoe@fabrikam.com'.
-   ![](working-with-tables/_static/image61.png)
+   ![Screenshot of Table node and list of database tables in the left pane. In the right pane under the heading User I D a number one is written and highlighted in the first column and first row.](working-with-tables/_static/image61.png)
 6. When you are done entering information for the new row, hit Enter. The information is now saved in the database. Notice that the 'UserId' field is automatically populated with an incremental value since it is marked as an identity.
 7. Add a few more rows of sample user names and email addresses.
 8. Right-click on "AccessControls" and select 'Show Table Data'. You should now see the data inside your table. There should also be a row preceded by a '\*' that you can use to enter new data.
 9. In the new row (\*), click in the 'UserId' column and type '1'. Entering this UserId value will point to the first record in your "FabrikamUsers" table (which should be 'John Doe' according to our example.
 10. Next, click on the 'ResourceURL' column and type 'admin.aspx' and type 'True' in the IsUserAllowed column. This implies that user 'John Doe' can access the admin.aspx page of our fictitious site.  
-    ![](working-with-tables/_static/image65.png)
+    ![Screenshot of Database Manager dialog box. In the left pane is the Tables node. In the right pane in the column titled A C I d the number one is written and highlighted.](working-with-tables/_static/image65.png)
 11. Add a few more rows of sample access rights for other users.
 
 Now that we have some data in the table, let us modify and delete an existing row:
@@ -189,5 +189,5 @@ Now that we have some data in the table, let us modify and delete an existing ro
 1. Click on any table cell that you would like to modify. Type a new value in the cell. Notice that a pencil appears next to the row you are editing.
 2. Click on another cell or close the table to save the information. Notice that the information is saved to the server and the pencil icon disappears.
 3. Now select a row by clicking on the arrow to the left of the row, and then click the 'Delete' button on the toolbar. A dialog asks for confirmation before deleting.
-   ![](working-with-tables/_static/image69.png)
+   ![Screenshot of the Table. The Delete button in the toolbar is highlighted. The fourth row is selected.](working-with-tables/_static/image69.png)
 4. If you select 'Yes', the row of information is deleted on the server.
