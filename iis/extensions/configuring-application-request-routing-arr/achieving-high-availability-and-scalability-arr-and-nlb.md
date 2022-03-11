@@ -140,20 +140,20 @@ The NLB configuration is divided into the following steps:
 11. Now that the NLB cluster is created, you can add additional members to the cluster. Follow the remaining steps on all additional member servers. In the Network Load Balancing Manager, right-click on the newly selected cluster, and then select **Add Host To Cluster**.  
     [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image35.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image34.jpg)
 12. Type the server address of the member to be added. If there are multiple interfaces, select the one that should be used by the NLB cluster.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image37.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image36.jpg)
+    ![Screenshot of the Connect dialog. There is an I P address in the host input box.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image36.jpg)
 13. Note that the priority assignment is mutually exclusive and unique among the member servers in the cluster. In active/passive mode (single host mode in NLB), the priority determines the order of fail-over.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image39.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image38.jpg)
+    ![Screenshot of the Host Parameters dialog. Priority is set to 2.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image38.jpg)
 14. Click **Finish** to add the member server to the cluster.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image42.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image41.jpg)
+    ![Screenshot of the Port Rules dialog. The Finish button is selected.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image41.jpg)
 15. The **Network Load Balancer Manager** should look similar to the following:  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image44.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image43.jpg)
+    ![Screenshot of the Network Load Balancing Manager window.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image43.jpg)
 
 **<a id="Configure NLB for active/passive"></a><a id="configure nlb"></a>Configure NLB for active/passive deployment**
 
 1. To configure NLB for active/passive deployment, in the **Network Load Balancing Manager**, right-click the cluster, and then select **Cluster Properties**. Click on the **Port Rules** tab. Click **Edit**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image46.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image45.jpg)
+    ![Screenshot of the Properties dialog with the Port Rules tab selected.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image45.jpg)
 2. Select **Single host**, and then click **OK**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image50.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image49.jpg)
+    ![Screenshot of the Add/Edit Port Rule dialog. Single host is selected in the Filtering mode section.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image49.jpg)
 
 NLB is configured successfully to work in active/passive mode with ARR.
 
@@ -199,9 +199,9 @@ The NLB configuration is divided into the following steps:
 **<a id="Configure NLB for active/active"></a>Configure NLB for active/active deployment.**
 
 1. To configure NLB for active/active deployment, in the **Network Load Balancing Manager**, right-click on the cluster, and then select **Cluster Properties**. Click on the **Port Rules** tab. Click **Edit**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image53.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image52.jpg)
+    ![Screenshot of the Properties dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image52.jpg)
 2. Select **Multiple host**. For the Affinity setting, select **None**. As mentioned above, the recommendation is to not use affinity in NLB since it will result in a better load distribution.  
-    ![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image54.jpg)
+    ![Screenshot of the Add/Edit Port Rule dialog. Multiple host is selected in the Filtering mode section.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image54.jpg)
 
 NLB is configured successfully to work in active/active mode with ARR.
 
@@ -218,7 +218,7 @@ For more information about shared hosting and ARR, refer to [this](../planning-f
 
 The following diagram illustrates the shared hosting environment using ARR: 
 
-[![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image56.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image55.jpg)
+![Diagram showing the flow of requests and responses.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image55.jpg)
 
 ### Option1: Active/Passive
 
