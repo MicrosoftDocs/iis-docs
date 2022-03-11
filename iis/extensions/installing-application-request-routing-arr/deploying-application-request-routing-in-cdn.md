@@ -17,7 +17,7 @@ This section of the document applies to **Microsoft Application Request Routing 
 
 To successfully configure a child/edge cache node and a parent cache node in a 2-tier cache hierarchy deployment in a content delivery network/edge caching network (CDN/ECN) environment. The focus of this walkthrough is to understand the URL rewrite rules on the child/edge cache node and on the parent cache node. Ultimately, this walkthrough will go through step-by-step instructions to set up the following configuration:
 
-![](deploying-application-request-routing-in-cdn/_static/image2.jpg)
+![Diagram showing an overview of the connection between the origin server, parent nodes, child nodes, and S A N.](deploying-application-request-routing-in-cdn/_static/image2.jpg)
 
 Some of the highlights of this configuration are:
 
@@ -78,23 +78,23 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
 1. Define the URL rewrite maps that can be used to look up the origin server's host name. Launch IIS Manager.
 2. Select and expand the root of the server. This is your child (edge) cache node.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image4.jpg)
+    ![Screenshot showing the child cache node expanded.](deploying-application-request-routing-in-cdn/_static/image4.jpg)
 3. Double-click **URL Rewrite**.
 4. In the **Actions** pane, click **View Rewrite Maps**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image5.jpg)
+    ![Screenshot of the Actions pane showing the View Rewrite Maps option.](deploying-application-request-routing-in-cdn/_static/image5.jpg)
 5. In the **Actions** pane, click **Add Rewrite Map**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image6.jpg)
+    ![Screenshot of the Actions pane showing the Add Rewrite Map option.](deploying-application-request-routing-in-cdn/_static/image6.jpg)
 6. In the **Add Rewrite Map** dialog box, name the rewrite map, **OriginServers**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image7.jpg)
+    ![Screenshot of the Add rewrite map dialog showing OriginServers in the input box.](deploying-application-request-routing-in-cdn/_static/image7.jpg)
 7. In the rewrite map, you will explicitly identify the mapping between the host name that the child cache node receives and the corresponding origin host names. In the **Actions** pane, click **Add Mapping Entry...**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image8.jpg)
+    ![Screenshot of the Actions menu showing the Add Mapping Entry option.](deploying-application-request-routing-in-cdn/_static/image8.jpg)
 8. In the **Add Mapping Entry** dialog box, add the host name that the child cache node receives and the origin host name. In the example below, the ARR child cache node receives **customer1.mycdn.net** as the host name header. The corresponding origin server is **images.customer1.com**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image9.jpg)
+    ![Screenshot of the Add Mapping Entry dialog with the example information entered.](deploying-application-request-routing-in-cdn/_static/image9.jpg)
 9. Repeat Step 8 as many times as needed to include all customers to which your CDN/ECN provides services. This is how you can manage the explicit list of your customers to ensure that your service is provided only to your customers.
 10. To block the customers that are not on the rewrite map list, set the default value of this rewrite map to **#**, which is an illegal character that cannot be used as part of the host name header, per RFC. In the **Actions** pane, click **Edit Map Settings...**.
 
