@@ -96,7 +96,7 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
 
     ![](deploying-application-request-routing-in-cdn/_static/image9.jpg)
 9. Repeat Step 8 as many times as needed to include all customers to which your CDN/ECN provides services. This is how you can manage the explicit list of your customers to ensure that your service is provided only to your customers.
-10. To blacklist the customers that are not on the rewrite map list, set the default value of this rewrite map to **#**, which is an illegal character that cannot be used as part of the host name header, per RFC. In the **Actions** pane, click **Edit Map Settings...**.
+10. To block the customers that are not on the rewrite map list, set the default value of this rewrite map to **#**, which is an illegal character that cannot be used as part of the host name header, per RFC. In the **Actions** pane, click **Edit Map Settings...**.
 
     ![Screenshot of the Actions menu.](deploying-application-request-routing-in-cdn/_static/image10.jpg)
 11. In the **Edit Rewrite Map** dialog box, enter **#** as the default value for this rewrite map.
