@@ -27,7 +27,7 @@ This document provides prescriptive guidance about how Application Request Routi
 
 Microsoft Application Request Routing (ARR) for IIS 7.0 and above is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers, server variables, and load balance algorithms. A typical ARR deployment is illustrated in the diagram below:
 
-[![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image3.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image2.jpg)
+![Diagram showing the A R R forwarding H T T P requests.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image2.jpg)
 
 While ARR provides high availability and scalability for the content servers, the overall deployment is not highly available or scalable because:
 
@@ -49,7 +49,7 @@ Above are just some of the examples. For a complete list of HTTP headers and ser
 
 Because NLB makes the routing decisions at layer 3, application specific information, such as HTTP headers and server variables, can not be used to provide application level based routing. At the same time, ARR does not provide fault tolerant deployment features for itself and must rely on other complementary technologies and solutions to achieve high availability for the ARR tier. NLB operates at a different level on the network stack and is enabled on the same servers as where ARR is deployed:
 
-[![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image5.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image4.jpg)
+![Digram showing connections between A R R 1 and 2 and content servers.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image4.jpg)
 
 ## Scenario 1: HTTP-based routing and load balancing
 
@@ -61,7 +61,7 @@ The HTTP-based routing and load balancing scenario enables a 3-tier deployment a
 
 The following diagram illustrates the 3-tier deployment:
 
-[![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image7.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image6.jpg)
+![Diagram showing the content flow between A R R and content servers in each tier.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image6.jpg)
 
 Although the above example shows a routing rule that differentiates the static content from the dynamic content, another common scenario is to differentiate presentation requests from Web service requests. 
 
@@ -105,40 +105,40 @@ The NLB configuration is divided into the following steps:
 **<a id="Install NLB features"></a><a id="install NLB"></a>Install the NLB feature on all ARR servers**
 
 1. Open **Server Manager**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image9.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image8.jpg)
+    ![Screenshot of the Server Manager window showing details in the main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image8.jpg)
 2. Expand **Features**.
 3. Click **Add Features**.
 4. In the Add Features Wizard, select **Network Load Balancing**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image11.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image10.jpg)
+    ![Screenshot of the Add Features Wizard window showing features in the main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image10.jpg)
 5. Click **Install** to confirm installation of the NLB feature.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image13.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image12.jpg)
+    ![Screenshot of the Add Features Wizard window showing the Confirm Installation Selections in the main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image12.jpg)
 6. Verify that the NLB feature installed successfully.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image15.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image14.jpg)
+    ![Screenshot of the Add Features Wizard window showing the Installation Results page in the  main pane.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image14.jpg)
 7. Repeat the above steps on all ARR servers.
 
 **<a id="Create NLB cluster for ARR"></a><a id="create nlb"></a>Create NLB cluster for ARR**
 
 1. Verify that NLB is installed on all instances of ARR servers.
 2. Go to Start &gt; All Programs &gt; Administrative Tools, and open the **Network Load Balancing Manager**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image17.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image16.jpg)
+    ![Screenshot of the Network Load Balancing Manager window.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image16.jpg)
 3. Right-click on **Network Load Balancing Clusters**, and then select **New Cluster**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image19.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image18.jpg)
+    ![Screenshot of the New Cluster dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image18.jpg)
 4. In the New Cluster dialog box, in the Host text box, type the server address of one of the ARR servers. If there are multiple interfaces, type the server address that you want to create the NLB cluster on.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image21.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image20.jpg)
+    ![Screenshot of the New Cluster dialog showing an I P address in the host input box.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image20.jpg)
 5. In active/passive mode (single host mode in NLB), the priority determines the order in which failover takes place. By default, the server with priority 1 is the active node.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image23.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image22.jpg)
+    ![Screenshot of the New Cluster Host Parameters dialog with default settings.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image22.jpg)
 6. The cluster IP, a virtual IP address, is needed. Click **Add.** This is the IP address that clients will communicate with.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image25.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image24.jpg)
+    ![Screenshot of the New Cluster Cluster I P Addresses dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image24.jpg)
 7. Type the virtual IP address, and then click **OK**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image27.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image26.jpg)
+    ![Screenshot of the Add I P Address dialog](achieving-high-availability-and-scalability-arr-and-nlb/_static/image26.jpg)
 8. Click **Next**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image29.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image28.jpg)
+    ![Screenshot of the Cluster I P Addresses dialog showing an I P address and subnet mask.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image28.jpg)
 9. Accept the default values. For more detailed information, refer to the [Appendix](achieving-high-availability-and-scalability-arr-and-nlb.md#appendix_b).  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image31.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image30.jpg)
+    ![Screenshot of the Cluster Parameters dialog showing default parameters.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image30.jpg)
 10. Click **Finish** to complete the creation of the NLB cluster.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image33.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image32.jpg)
+    ![Screenshot of the Port Rules dialog](achieving-high-availability-and-scalability-arr-and-nlb/_static/image32.jpg)
 11. Now that the NLB cluster is created, you can add additional members to the cluster. Follow the remaining steps on all additional member servers. In the Network Load Balancing Manager, right-click on the newly selected cluster, and then select **Add Host To Cluster**.  
-    [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image35.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image34.jpg)
+    ![Screenshot of the Add Host to Cluster dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image34.jpg)
 12. Type the server address of the member to be added. If there are multiple interfaces, select the one that should be used by the NLB cluster.  
     [![](achieving-high-availability-and-scalability-arr-and-nlb/_static/image37.jpg)](achieving-high-availability-and-scalability-arr-and-nlb/_static/image36.jpg)
 13. Note that the priority assignment is mutually exclusive and unique among the member servers in the cluster. In active/passive mode (single host mode in NLB), the priority determines the order of fail-over.  

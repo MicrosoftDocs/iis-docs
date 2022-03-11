@@ -29,7 +29,7 @@ SvcUtil.exe has many options for controlling how the proxy classes are generated
 
 The following screen shot shows a fragment of the proxy codes generated:
 
-[![](consuming-the-services/_static/image3.jpg)](consuming-the-services/_static/image1.jpg)
+![Screenshot showing a fragment of the generated code.](consuming-the-services/_static/image1.jpg)
 
 <a id="ClientWeb"></a>
 
