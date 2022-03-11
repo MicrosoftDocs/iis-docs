@@ -17,7 +17,7 @@ PHP Manager is not a Microsoft-owned or supported product.
 
 From the [Downloads](https://github.com/phpmanager/phpmanager/releases) page select the installation package that is appropriate for your target machine. Download and run the installer, which will install and register PHP Manager's binaries with IIS. Note that only IIS versions 7.0 and above are supported. After installation is complete, launch the IIS Manager and find the "PHP Manager" feature:
 
-`http://www.phpmanager.xyz/latest/_images/phpmanager.png`
+[http://www.phpmanager.xyz/latest/_images/phpmanager.png](http://www.phpmanager.xyz/latest/_images/phpmanager.png)
 
 When opened, the "PHP Manager" feature provides a configuration overview for the PHP installation that is registered with IIS and is currently active. If no PHP is registered with IIS, then the only action that can be performed is the registation of a new PHP version.
 
@@ -27,7 +27,7 @@ To register a new PHP version with IIS, first you need to download the zip archi
 
 Click on "**Register new PHP version**" task and then provide the full path to the location of the main php executable file: **php-cgi.exe**:
 
-`http://www.phpmanager.xyz/latest/_images/register.png`
+[http://www.phpmanager.xyz/latest/_images/register.png](http://www.phpmanager.xyz/latest/_images/register.png)
 
 After clicking OK the new PHP version will be registered with IIS and will become active. This means that all the sites on this IIS server by default will use this PHP version.
 
@@ -37,44 +37,44 @@ In order for PHP to run properly on IIS there is a set of recommended settings t
 
 When some configuration settings are configured incorrectly you will see a warning message when you open PHP Manager:
 
-`http://www.phpmanager.xyz/latest/_images/warning.png`
+[http://www.phpmanager.xyz/latest/_images/warning.png](http://www.phpmanager.xyz/latest/_images/warning.png)
 
 After clicking on "View Recommendations" link you can see all the configuration issues that exist in your PHP installation. You can review each issue description and the recommended corrective action. You can also select which configuration issues you want to be fixed:
 
-`http://www.phpmanager.xyz/latest/_images/fixed.png`
+[http://www.phpmanager.xyz/latest/_images/fixed.png](http://www.phpmanager.xyz/latest/_images/fixed.png)
 
 ### Switching between PHP versions
 
 After multiple PHP versions have been registered with IIS, you can use PHP Manager to easily switch between the versions on a server and site level. This means that you can configure some IIS sites to use one PHP version, while other sites use different version.
 
-`http://www.phpmanager.xyz/latest/_images/switch.png`
+[http://www.phpmanager.xyz/latest/_images/switch.png](http://www.phpmanager.xyz/latest/_images/switch.png)
 
 ### Checking phpinfo() output
 
 phpinfo() function in PHP provides very detailed information about all aspects of PHP runtime configuration. To check the phpinfo() output from within PHP Manager use the "**Check phpinfo()**" task.
 
-`http://www.phpmanager.xyz/latest/_images/phpinfo.png`
+[http://www.phpmanager.xyz/latest/_images/phpinfo.png](http://www.phpmanager.xyz/latest/_images/phpinfo.png)
 
 ### Configuring Error Reporting
 
 You can use PHP Manager to configure error reporting level in PHP. If IIS is used on a development machine then you may want to use verbose error reporting in order to see all the errors, warnings and notices from your PHP application right away. If IIS is used as a production server, then error reporting level is less verbose and errors are logged in a log file, but never communicated to HTTP client.
 
-`http://www.phpmanager.xyz/latest/_images/error.png`
+[http://www.phpmanager.xyz/latest/_images/error.png](http://www.phpmanager.xyz/latest/_images/error.png)
 
 ### Configuring Runtime Limits
 
 Various timeouts and limits can be configured in the "**PHP Runtime Limits**" page:
 
-`http://www.phpmanager.xyz/latest/_images/limits.png`
+[http://www.phpmanager.xyz/latest/_images/limits.png](http://www.phpmanager.xyz/latest/_images/limits.png)
 
 ### Configuring All PHP Settings
 
 All existing PHP settings can be added, removed and modified in the "**PHP Settings**" page.
 
-`http://www.phpmanager.xyz/latest/_images/settings.png`
+[http://www.phpmanager.xyz/latest/_images/settings.png](http://www.phpmanager.xyz/latest/_images/settings.png)
 
 ### Enabling or Disabling PHP Extensions
 
 PHP extensions can be enabled or disabled in the "**PHP Extensions**" page:
 
-`http://www.phpmanager.xyz/latest/_images/extentions.png`
+[http://www.phpmanager.xyz/latest/_images/extentions.png](http://www.phpmanager.xyz/latest/_images/extentions.png)
