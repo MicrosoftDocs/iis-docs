@@ -41,7 +41,7 @@ Type: Bool. The flag determining whether the bandwidth measurement should be byp
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
