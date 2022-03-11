@@ -19,7 +19,7 @@ Assume you had configured ASP.NET in IIS 6 to handle all requests by using wildc
 
 This wildcard script map configuration is typically done within IIS 6 manager by opening the properties dialog for either web server or web site and selecting **Home Directory** tab, then clicking on **Configuration** button and then clicking on the **Insert** button for "Wildcard application maps":
 
-![Screenshot of Application Configuration diolog box and Add/Edit Application Extension Mapping dialog box. Insert button on Application Configuration dialog box is highlighted.](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image1.png)
+![Screenshot of Application Configuration dialog box and Add and Edit Application Extension Mapping dialog box. Insert button on Application Configuration dialog box is highlighted.](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image1.png)
 
 Now, as you move your application to IIS 7 and above, you want to configure it to achieve the same behavior of ASP.NET. There are two options on how this can be done: using **Classic** pipeline mode or using **Integrated** pipeline mode.
 

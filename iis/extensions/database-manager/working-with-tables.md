@@ -24,7 +24,7 @@ Let's use a scenario for this walkthrough and assume that we would like to creat
 
 The first table, "FabrikamUsers", will contain the user ID, username and email address for each user.  
 The second table, "AccessControls", will contain a reference to a user ID, a resource URL, and whether the user is allowed access to the resource or not.
-![Screenshot of FabrikamUsers table and Access Controls table. The FabrikamUsers table contains the text user I D, username, and email address. The AccessControls table has the text A C I D, user I D, Resource U R L, and Is User Allowed.](working-with-tables/_static/image1.png)
+![Screenshot of Fabrikam Users table and Access Controls table. The Fabrikam Users table contains the text user I D, username, and email address. The AccessControls table has the text A C I D, user I D, Resource U R L, and Is User Allowed.](working-with-tables/_static/image1.png)
 
 <a id="NewTable"></a>
 
@@ -55,7 +55,7 @@ To create a new table:
     4. Leave 'Default Value' blank.
     5. Set 'IsIdentity' to 'True'.
 
-   ![Screenshot of Column Properties pane. IsIdentity option is highlighted and the text to the right of it is set to True.](working-with-tables/_static/image13.png)
+   ![Screenshot of Column Properties pane. Is Identity option is highlighted and the text to the right of it is set to True.](working-with-tables/_static/image13.png)
 6. Let's now make this field a primary key by clicking on the 'Indexes/Keys' icon. A new dialog will open up.
    ![Screenshot of editor toolbar. The Indexes and Keys button is highlighted.](working-with-tables/_static/image17.png)
 7. On the dialog, click the 'Add' button and then fill out the information for the primary key as follows:
