@@ -23,7 +23,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri)](clipinformation-constructor-boolean-uri-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) class.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri, Uri)](clipinformation-constructor-boolean-uri-uri-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) class.|

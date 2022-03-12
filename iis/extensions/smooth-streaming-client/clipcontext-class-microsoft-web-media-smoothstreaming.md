@@ -63,7 +63,7 @@ The ClipContext type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ClipInformation](clipcontext-clipinformation-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [ClipInformation](clipcontext-clipinformation-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md)|Gets the [CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md) property.|
@@ -74,7 +74,7 @@ The ClipContext type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
