@@ -43,25 +43,25 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
        This can help with troubleshooting.
     - Enable the required PHP extension by un-commenting corresponding lines. More information follows in the section, [Extensions](#Extensions_1).  
 
-        ![](install-and-configure-php/_static/image1.jpg)  
+        ![Screenshot of the Extensions text file contents.](install-and-configure-php/_static/image1.jpg)  
         *Figure 1 Windows extensions*
 5. Click on **Start**, **Settings**, **Control Panel**, and then double-click on the **System** icon (using the class view).
 6. Click on the **Advanced system settings** link in the left column.
 7. From the **System Properties** window, click on the **Advanced** tab, and then click on the **Environment Variables** button at the bottom.
 8. Select the **Path** variable from the **System Variables** section, and then click on **Edit**. Add: `c:\php` to your system path.  
 
-    ![](install-and-configure-php/_static/image3.jpg)  
+    ![Screenshot of the Edit System Variable dialog. Path is highlighted.](install-and-configure-php/_static/image3.jpg)  
     *Figure 2: Edit System Variable*
 9. Click **OK** until you have exited the System Properties window.
 10. Start IIS Manager by clicking on **Start**, **Programs**, **Administrative Tools**, and then **Internet Information Services (IIS) Manager**.
 11. From the **IIS Manager**, click on the *hostname* of your server in the **Connections** panel on the left.
 12. Double-click on the **Handler Mappings** icon.  
 
-    ![](install-and-configure-php/_static/image5.jpg)  
+    ![Screenshot of a browser window with I I S Manager in a tab. An arrow points to the Handler Mapping icon.](install-and-configure-php/_static/image5.jpg)  
     *Figure 3: Internet Information Services (IIS) Manager*
 13. From the **Handler Mappings** **Actions** panel, click on **Add Module Mapping**.  
 
-    ![](install-and-configure-php/_static/image7.jpg)  
+    ![Screenshot of the I I S Manager screen. Handler Mappings are shown in the main pane and an arrow points to the Actions pane.](install-and-configure-php/_static/image7.jpg)  
     *Figure 4: Handler Mappings*
 14. Type the following information into the appropriate text boxes, and then click **OK**.  
 
@@ -70,9 +70,10 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
     - Executable: **C:\php\php-cgi.exe**
     - Name: **FastCGI**
 
-    ![](install-and-configure-php/_static/image1.gif)  
+    ![Screenshot of the Add Module Mapping dialog.](install-and-configure-php/_static/image1.gif)
+
     *Figure 5: Add Script Map*
-15. Click **OK**, and then **c** lick **Yes.**
+15. Click **OK**, and then click **Yes.**
 16. In the left panel, click on your server's *hostname*, and then double-click on the **Default Document** icon.
 17. From the **Actions** panel on the right, click **Add**.
 18. Enter **index.php** as the new default document name, and then click **OK**.
