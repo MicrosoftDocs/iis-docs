@@ -57,7 +57,7 @@ They all can be found here: <https://www.microsoft.com/download/details.aspx?id=
 
 If you are using WMSvc, you will need a delegation rule on that machine to allow for using this provider. We install one by default that has a path of "Data Source=" and a Path Type of ConnectionString. It looks like this:
 
-![](dbdacfx-provider-for-incremental-database-publishing/_static/image1.jpg)
+![Screenshot of Management Service Delegation feature with the path of Data Source and Path Type of Connection String.](dbdacfx-provider-for-incremental-database-publishing/_static/image1.jpg)
 
 This delegation rule will only enforce the path to be a connection string, but you can change it.
   

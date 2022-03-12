@@ -23,7 +23,7 @@ The source code for the sample is available [here](sample-web-analytics-tracking
 
 The basic purpose of Web Analytics Service is to collect data about web site visitors, then process this data and present it to site owners in a nice, easy to digest form. In order to collect the data, web site owner has to instrument all the pages on his web site with the tracking script issued by the web analytics service provider:
 
-[![](sample-web-analytics-tracking-module/_static/image2.png)](sample-web-analytics-tracking-module/_static/image1.png)
+[![Screenshot of Google Analytics web page with the Tracking script.](sample-web-analytics-tracking-module/_static/image2.png)](sample-web-analytics-tracking-module/_static/image1.png)
 
 The main pain point with asking user to do this is that it may potentially require considerable amount of work to modify all the web pages. In some cases this can be mitigated by using templates and master pages, but in many cases user would still need to go through his html pages and add the tracking script at the end of every document.
 
@@ -63,10 +63,10 @@ To install the module follow these steps:
 
 ## Module walkthrough
 
-After module is installed you will see Web Analytics configuration in the main IIS control panel. This will be available on site and application level.[![](sample-web-analytics-tracking-module/_static/image4.png)](sample-web-analytics-tracking-module/_static/image3.png)
+After module is installed you will see Web Analytics configuration in the main IIS control panel. This will be available on site and application level.[![Screenshot of Web Analytics configuration displayed in I I S control panel.](sample-web-analytics-tracking-module/_static/image4.png)](sample-web-analytics-tracking-module/_static/image3.png)
 
 The configuration UI for the Web Analytics module looks as below:
 
-![](sample-web-analytics-tracking-module/_static/image5.png)
+![Screenshot of Web Analytics Tracking Configuration dialog box with tracking script populating the field.](sample-web-analytics-tracking-module/_static/image5.png)
 
-After the module has been configured, we can see how it works by requesting the web page from the server by using [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en). The output from web server contains the tracking script before the closing &lt;body /&gt; tag:![](sample-web-analytics-tracking-module/_static/image6.png)
+After the module has been configured, we can see how it works by requesting the web page from the server by using [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en). The output from web server contains the tracking script before the closing &lt;body /&gt; tag:![Screenshot of W Fetch U I displaying output from web server and tracking script populating the Log Output field.](sample-web-analytics-tracking-module/_static/image6.png)

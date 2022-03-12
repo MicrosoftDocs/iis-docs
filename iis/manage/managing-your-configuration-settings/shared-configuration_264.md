@@ -63,17 +63,17 @@ The IIS administration UI includes support for setting up configuration redirect
 1. Open IIS Manager.
 2. In the tree view, select the server connection for which you want to set up configuration redirection.
 3. Double-click **Shared Configuration**.  
-    [![](shared-configuration_264/_static/image2.jpg)](shared-configuration_264/_static/image1.jpg)
+    [![Screenshot of I I S Manager with Shared Configuration icon selected.](shared-configuration_264/_static/image2.jpg)](shared-configuration_264/_static/image1.jpg)
 4. In the **Actions** pane, click **Export Configuration...** to export the necessary configuration files from the local server to another location (e.g., a UNC share).  
-    [![](shared-configuration_264/_static/image4.jpg)](shared-configuration_264/_static/image3.jpg)
+    [![Screenshot of Actions pane in Shared Configuration with Export Configuration dot dot dot highlighted.](shared-configuration_264/_static/image4.jpg)](shared-configuration_264/_static/image3.jpg)
 5. In the **Export Configuration** dialog box, enter the path to which you want to export the files. Enter a password to protect the encryption keys that are also exported. Click **OK** to export the configuration files and password-protected encryption keys.  
-    [![](shared-configuration_264/_static/image6.jpg)](shared-configuration_264/_static/image5.jpg)
+    [![Screenshot of Export Configuration dialog box with fields for Configuration Location and Encryption Keys password displayed.](shared-configuration_264/_static/image6.jpg)](shared-configuration_264/_static/image5.jpg)
 6. Select the **Enable shared configuration** check box to enable configuration redirection.  
-    [![](shared-configuration_264/_static/image8.jpg)](shared-configuration_264/_static/image7.jpg)
+    [![Screenshot of Shared Configuration dialog box with Enable Shared Configuration highlighted.](shared-configuration_264/_static/image8.jpg)](shared-configuration_264/_static/image7.jpg)
 7. Specify the path where the configuration and encryption keys are located, and specify the credentials to use to access that path. Click **Connect As...** and enter the credentials.  
-    [![](shared-configuration_264/_static/image10.jpg)](shared-configuration_264/_static/image9.jpg)
+    [![Screenshot of Shared Configuration dialog box with credentials entered for User name and Password.](shared-configuration_264/_static/image10.jpg)](shared-configuration_264/_static/image9.jpg)
 8. Click **Apply** to save the settings. In the **Shared Configuration** dialog box, enter the password that you specified to protect the encryption keys.  
-    [![](shared-configuration_264/_static/image12.jpg)](shared-configuration_264/_static/image11.jpg)
+    [![Screenshot of Shared Configuration dialog box displaying  the field to enter the encryption key password.](shared-configuration_264/_static/image12.jpg)](shared-configuration_264/_static/image11.jpg)
 9. Click **OK** to finish setting up configuration redirection.
 
 The steps above describe how to export the configuration and turn on centralized configuration. However, you only need to export the configuration once. Perform steps 6 to 9 on each subsequent server that will use the centralized configuration.

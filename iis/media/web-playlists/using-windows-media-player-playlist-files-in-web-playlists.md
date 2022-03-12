@@ -40,21 +40,21 @@ Windows Media Player creates its playlists in WPL format by default. This sectio
 **To create ASX-formatted playlist files**
 
 1. In the Windows Media Player Library, in the Contents pane, select the playlist that you want to add to the Web Playlists feature. Then, in the Details pane, click **Edit in List Pane**.  
-    ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image1.jpg)  
+    ![Screenshot of Windows Media Player Library and Contents pane with playlist 1 selected and Edit in List Pane button highlighted.](using-windows-media-player-playlist-files-in-web-playlists/_static/image1.jpg)  
   
    This will add the playlist to the List pane in Windows Media Player. In the following example, we show in the List pane a simple playlist (named **playlist1**) that contains two tracks (named **track1** and **track2**).  
-    ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image2.jpg)
+    ![Screenshot of List pane in Windows Media Player showing playlist 1 that contains track 1 and track 2.](using-windows-media-player-playlist-files-in-web-playlists/_static/image2.jpg)
 2. Click the down arrow next to the playlist name, and then click **Save Playlist As**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image4.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image3.jpg)  
+    [![Screenshot of List pane with down arrow next to the playlist 1 marked and Save Playlist As dot dot dot in the drop down menu highlighted.](using-windows-media-player-playlist-files-in-web-playlists/_static/image4.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image3.jpg)  
   
    This action will open the **Save As** dialog box with default values.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image6.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image5.jpg)
+    [![Screenshot of Save As dialog box with playlist 1 dot W P L as File name highlighted.](using-windows-media-player-playlist-files-in-web-playlists/_static/image6.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image5.jpg)
 3. In the **Save As** dialog box, in **Save as type**, select **Any Playlist (\*.wpl, \*.asx, \*.m3u)**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image8.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image7.jpg)
+    [![Screenshot of Save As dialog box with Any Playlist selected from the Save as type drop down menu.](using-windows-media-player-playlist-files-in-web-playlists/_static/image8.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image7.jpg)
 4. In the **Save As** dialog box, in **File name**, change the file name extension from **wpl** to **asx**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image10.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image9.jpg)
+    [![Screenshot of Save As dialog box with playlist 1 dot a s x inside the File name field highlighted.](using-windows-media-player-playlist-files-in-web-playlists/_static/image10.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image9.jpg)
 5. In the **Save As** dialog box, click **Save**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image12.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image11.jpg)
+    [![Screenshot of Save As dialog box with Save button highlighted.](using-windows-media-player-playlist-files-in-web-playlists/_static/image12.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image11.jpg)
 
 <a id="asx"></a>
 
@@ -65,19 +65,19 @@ This section shows how to import the ASX-formatted Windows Media Player playlist
 **To import ASX-formatted playlist files**
 
 1. In IIS Manager, select the Web site or virtual directory from which you want to serve your Windows Media Player playlist files (.wpl files), and then in the Contents pane, click the **Web Playlists** icon.  
-    ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image13.jpg)
+    ![Screenshot of I I S Manager console with Web Playlists in Contents pane selected.](using-windows-media-player-playlist-files-in-web-playlists/_static/image13.jpg)
 2. In the **Actions** pane, click **Open Feature**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image15.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image14.jpg)  
+    [![Screenshot of Actions pane with Open Feature highlighted.](using-windows-media-player-playlist-files-in-web-playlists/_static/image15.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image14.jpg)  
   
    This action displays the **Web Playlists** feature page. If you have not previously created Web playlists for the site or virtual directory, the page will be empty as shown below.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image17.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image16.jpg)
+    [![Screenshot of Web Playlists feature page.](using-windows-media-player-playlist-files-in-web-playlists/_static/image17.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image16.jpg)
 3. In the **Actions** pane, click **Import ASX Playlist**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image19.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image18.jpg)
+    [![Screenshot of Actions pane with Import A S X Playlist dot dot dot from drop down menu selected.](using-windows-media-player-playlist-files-in-web-playlists/_static/image19.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image18.jpg)
 4. In the **Open** dialog box, navigate to the location where the playlist file in ASX format is stored, select it, and then click **Open**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image21.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image20.jpg)  
+    [![Screenshot of dialog box with playlist 1 dot A S X highlighted and Open button selected.](using-windows-media-player-playlist-files-in-web-playlists/_static/image21.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image20.jpg)  
   
    The Windows Media Player playlist file (playlist1.asx) in imported to the **Web Playlists** feature as a Web playlist file (playlist1.isx), as shown below:  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image23.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image22.jpg)
+    [![Screenshot of Web Playlists feature page with playlist 1 as File name highlighted.](using-windows-media-player-playlist-files-in-web-playlists/_static/image23.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image22.jpg)
 
 <a id="isx"></a>
 
@@ -112,10 +112,10 @@ The following sections provide details on both approaches:
 2. In the Web Playlists feature, enable Absolute/UNC paths.  
   
    a. In the **Actions** pane, click **Edit Feature Settings**.  
-    ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image24.jpg)  
+    ![Screenshot of Actions pane with Edit Feature Settings selected.](using-windows-media-player-playlist-files-in-web-playlists/_static/image24.jpg)  
   
    b. In the **Edit Feature Settings** dialog box, select **Allow absolute/UNC paths**.  
-    [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image26.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image25.jpg)
+    [![Screenshot of Edit Feature Settings dialog box with Allow absolute forward slash U N C paths option checked and selected.](using-windows-media-player-playlist-files-in-web-playlists/_static/image26.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image25.jpg)
 3. In a text editor, such as Notepad, change the relative URI for each media entry in the ISX to a physical path. For example:  
   
    Change: `<ref src="..\track1.wma">`  
