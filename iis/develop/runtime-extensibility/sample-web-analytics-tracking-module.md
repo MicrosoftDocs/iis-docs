@@ -67,6 +67,6 @@ After module is installed you will see Web Analytics configuration in the main I
 
 The configuration UI for the Web Analytics module looks as below:
 
-![Screenshot of Web Analytics Tracking Configuration dialog box with tracking script populated the field.](sample-web-analytics-tracking-module/_static/image5.png)
+![Screenshot of Web Analytics Tracking Configuration dialog box with tracking script populating the field.](sample-web-analytics-tracking-module/_static/image5.png)
 
-After the module has been configured, we can see how it works by requesting the web page from the server by using [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en). The output from web server contains the tracking script before the closing &lt;body /&gt; tag:![Screenshot of W Fetch U I displaying output from web server and tracking script populated the Log Output field.](sample-web-analytics-tracking-module/_static/image6.png)
+After the module has been configured, we can see how it works by requesting the web page from the server by using [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en). The output from web server contains the tracking script before the closing &lt;body /&gt; tag:![Screenshot of W Fetch U I displaying output from web server and tracking script populating the Log Output field.](sample-web-analytics-tracking-module/_static/image6.png)
