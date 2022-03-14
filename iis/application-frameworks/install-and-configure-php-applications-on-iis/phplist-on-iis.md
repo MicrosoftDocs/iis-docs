@@ -70,7 +70,7 @@ Some of PHPList source files use only "&lt;?" tag instead of "&lt;?php" script t
     ![Screenshot of the P H P List main admin page. Main Page link is shown on right side menu.](phplist-on-iis/_static/image11.jpg)
 7. Access the PHPLists administration page by clicking on the "lists" link shown on the right side menu. Here you can add, delete, or edit the list.  
 
-    ![Screenshot of the P H P Lists administration page. Lists link displayed in right side menu.](phplist-on-iis/_static/image13.jpg)
+    ![Screenshot of the P H P Lists administration page with lists link shown.](phplist-on-iis/_static/image13.jpg)
 8. Click "add a list" as shown below to add a new list.  
 
     ![Screenshot of P H P Lists edit a list configuration screen.](phplist-on-iis/_static/image15.jpg)
