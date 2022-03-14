@@ -14,7 +14,7 @@ The [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) 
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Attributes](manifestinfo-attributes-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets attributes.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[LogUris](manifestinfo-loguris-property-microsoft-web-media-smoothstreaming_1.md)|Gets the list of logging Uri objects.|
