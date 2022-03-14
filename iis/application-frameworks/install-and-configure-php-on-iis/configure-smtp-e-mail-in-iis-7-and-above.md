@@ -7,7 +7,7 @@ ms.assetid: 181c9548-33dd-4af4-88b8-0dab0fd05811
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/configure-smtp-e-mail-in-iis-7-and-above
 msc.type: authoredcontent
 ---
-# Configure SMTP E-Mail in IIS 7 and above
+# Configure SMTP E-Mail in IIS 7 and higher
 
 by Tali Smith
 
