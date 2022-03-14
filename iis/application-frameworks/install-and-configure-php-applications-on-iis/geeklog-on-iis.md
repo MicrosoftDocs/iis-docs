@@ -65,12 +65,12 @@ Before starting the install, create a database on your server. Also create a dat
     For more information on how to install Geeklog, refer to [http://www.geeklog.net/docs/install.html](http://www.geeklog.net/docs/install.html).
 3. Afterwards, open your web browser and browse to [http://localhost/geeklog/admin/install/install.php](http://localhost/geeklog/admin/install/install.php).  
 
-    [![](geeklog-on-iis/_static/image2.png)](geeklog-on-iis/_static/image1.png)
+    ![Screenshot of the Geeklog installation window showing step 1 instructions.](geeklog-on-iis/_static/image1.png)
 4. Select the installation type from the drop down. For this walkthrough, we set up a new Microsoft SQL Server database. Set the path to config.php and click Next.  
 
-    [![](geeklog-on-iis/_static/image4.png)](geeklog-on-iis/_static/image3.png)
+    ![Screenshot of the Geeklog database settings screen.](geeklog-on-iis/_static/image3.png)
 5. We are now ready to setup the database and complete the installation. Click Next.  
-    [![](geeklog-on-iis/_static/image6.png)](geeklog-on-iis/_static/image5.png)
+    [Screenshot of the Geeklog welcome screen.](geeklog-on-iis/_static/image5.png)
 
 ## Getting More Information
 
