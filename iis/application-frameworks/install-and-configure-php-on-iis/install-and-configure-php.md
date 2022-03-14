@@ -85,7 +85,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
     [!code-xml[Main](install-and-configure-php/samples/sample1.xml)]
 23. You should now see the PHP information page at `http://localhost/phpinfo.php`.
 
-    ![](install-and-configure-php/_static/image9.jpg)  
+    ![Screenshot of the PHP information page.](install-and-configure-php/_static/image9.jpg)  
     *Figure 6: PHP information page*
 
 <a id="Extensions_1"></a>
@@ -130,7 +130,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 5. Click **OK**.
 6. Select the **Modify** permission check box, and click **OK**.  
 
-    ![](install-and-configure-php/_static/image3.gif)  
+    ![Screenshot of the Permissions for session dialog.](install-and-configure-php/_static/image3.gif)  
     *Figure 7: Permissions for session folder*
 7. Click **OK** in the **Session Properties** window.
 8. Open **php.ini** in the PHP installation directory, and set the **session.save\_path** setting to the **session** subdirectory:  
@@ -141,7 +141,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 11. Type **runas /user:administrator cmd.exe** to enable elevated permissions.
 12. Type **iisreset** at the command prompt, and then press the ENTER key.  
 
-    ![](install-and-configure-php/_static/image11.jpg)  
+    ![Screenshot of the Administrator Command Prompt window.](install-and-configure-php/_static/image11.jpg)  
     *Figure 8: IISRESET command*
 
     Note that PHP uses file-based session state by default. You can modify a number of additional session settings, including whether cookie or URL sessions should be used, and whether sessions are created on the first request or need to be explicitly created.
@@ -154,12 +154,12 @@ The Php.ini file provides PHP with configuration and environmental information. 
 17. Save and close the file.
 18. Start **Internet Explorer**, and navigate to `http://localhost/phpapp/session.php`.  
 
-    ![](install-and-configure-php/_static/image5.gif)  
+    ![Screenshot of a browser window showing the session state in a tab.](install-and-configure-php/_static/image5.gif)  
     *Figure 9: Using session state*
 19. Observe that the counter is 1.
 20. Request `http://localhost/phpapp/session.php` again, or press **F5**.  
 
-    ![](install-and-configure-php/_static/image7.gif)  
+    ![Screenshot of a browser window showing the updated session state in a tab.](install-and-configure-php/_static/image7.gif)  
     *Figure 10: Using session state*
 21. Observe that the counter is 2.
 
