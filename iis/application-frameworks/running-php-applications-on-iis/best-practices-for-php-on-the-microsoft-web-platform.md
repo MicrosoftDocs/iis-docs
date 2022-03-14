@@ -25,17 +25,17 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 
 1. To configure FastCGI recycling settings by using IIS Manager, you need to install Administration Pack for IIS, and then select **FastCGI Settings** at the server level.  
 
-    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image2.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image1.jpg)
+    ![Screenshot of the I I S Manager window.](best-practices-for-php-on-the-microsoft-web-platform/_static/image1.jpg)
 
     *Figure 1 IIS Manager, FastCGI Settings*
 2. Next, select the FastCGI application that you want to configure, and then click **Edit** in the **Actions** pane on right-hand side.  
 
-    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image4.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image3.jpg)
+    ![Screenshot of the I I S Manager window showing Fast C G I Settings in the main pane.](best-practices-for-php-on-the-microsoft-web-platform/_static/image3.jpg)
 
     *Figure 2 FastCGI Settings page*
 3. In the **Edit FastCGI** **Application** dialog box, set **InstanceMaxRequest** to **10000**, and then click on the **browse** button next to the **EnvironmentVariables** setting.  
 
-    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image6.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image5.jpg)
+    ![Screenshot of the Edit Fast C G I Application dialog. Environment variables is highlighted.](best-practices-for-php-on-the-microsoft-web-platform/_static/image5.jpg)
 
     *Figure 3 Edit FastCGI Application dialog box*
 4. Add the **PHP\_FCGI\_MAX\_REQUESTS** environment variable and set its value to **10000**.  
@@ -43,7 +43,7 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
     > [!NOTE]
     > If you do not configure these settings, then the following default settings are used: **InstanceMaxRequests** of 200, **PHP\_FCGI\_MAX\_REQUESTS** of 500 (on most PHP builds).
 
-    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image8.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image7.jpg)
+    ![Screenshot of the Environment Variables Collection Editor dialog.](best-practices-for-php-on-the-microsoft-web-platform/_static/image7.jpg)
 
     *Figure 4 Environment Variables Collection Editor*
 
@@ -100,7 +100,7 @@ For example, if your videos on average only get 5 seconds of viewing time but de
 
 IIS includes a Bit Rate Throttling Module, which automatically detects the encoding rate of the most popular video types. You can control how much data you would like to pre-send to the client in order to eliminate initial buffering delays (fast start) and at what percentage of the encoded rate you would like to deliver the content. You can also configure many other options, such as maximum bandwidth and concurrent connections, and control the module programmatically.
 
-[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image10.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image9.jpg)
+![Screenshot showing the bandwidth throttling graph.](best-practices-for-php-on-the-microsoft-web-platform/_static/image9.jpg)
 
 *Figure 5 Bandwidth throttling*
 
@@ -159,7 +159,7 @@ For example, to enable dynamic content compression from the command line, type t
 
 To enable compression on a particular site from the UI, select the site, and then, from the Work pane, select the Compression management tool. Choose whether you want to compress static content, dynamic content, or both.
 
-[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image12.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image11.jpg)
+![Screenshot of the I I S Manager showing the Compression dialog in the main pane.](best-practices-for-php-on-the-microsoft-web-platform/_static/image11.jpg)
 
 *Figure 6 HTTP compression*
 
@@ -178,7 +178,7 @@ You can enable Forms Authentication by using the UI, running Appcmd.exe in a com
 3. On the **Authentication** page, select **Forms Authentication**.
 4. In the **Actions** pane, click **Enable** to use Forms Authentication with the default settings.  
 
-    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image14.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image13.jpg)
+    ![Screenshot of the I I S Manager screen showing the Authentication dialog in the main pane.](best-practices-for-php-on-the-microsoft-web-platform/_static/image13.jpg)
 
     *Figure 7 Forms Authentication*
 
@@ -194,7 +194,7 @@ Microsoft Windows PowerShell command-line shell and scripting language helps IT 
 
 Figure 8 shows how to use the PowerShell Provider to create a new IIS application.
 
-[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image16.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image15.jpg)
+![Screenshot of the PowerShell console screen.](best-practices-for-php-on-the-microsoft-web-platform/_static/image15.jpg)
 
 *Figure 8 PowerShell Management Console*
 
@@ -274,7 +274,7 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 ## Links for Further Information
 
 - [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/library/cc770381(WS.10).aspx).
-- [Windows Server Performance Team Blog](https://docs.microsoft.com/archive/blogs/winserverperformance/tuning-windows-server-2008-for-php)
+- [Windows Server Performance Team Blog](/archive/blogs/winserverperformance/tuning-windows-server-2008-for-php)
 - [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/magazine/2008.09.iis.aspx).
 - [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/library/cc754631.aspx).
 - [IIS 7.0 Bit Rate Throttling Module Released](https://weblogs.asp.net/scottgu/archive/2008/03/18/iis-7-0-bit-rate-throttling-module-released.aspx)

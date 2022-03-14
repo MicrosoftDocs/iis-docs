@@ -66,7 +66,7 @@ Before starting the installation procedure for Drupal, you must create a databas
 
 1. Open a Web browser, and go to `http://localhost/drupal/`. The first page of the installation script appears. Click **Install Drupal in English**. The Verify requirements step should proceed automatically unless you are missing requirements.  
 
-    [![Choose language page](install-drupal-on-iis/_static/image2.jpg)](install-drupal-on-iis/_static/image1.jpg)  
+    ![Screenshot of a browser window with the Drupal language page in a tab.](install-drupal-on-iis/_static/image1.jpg)  
     *Figure 1: Choose language page*
 2. On the **Database configuration page**, type the following information:  
 
@@ -76,11 +76,11 @@ Before starting the installation procedure for Drupal, you must create a databas
 
      Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
 
-     [![Database configuration page](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image3.jpg)  
+     ![Screenshot of a browser window showing the Drupal database configuration page.](install-drupal-on-iis/_static/image3.jpg)  
      *Figure 2: Database configuration page*
 3. On the **Configure site** page, enter the required configuration information.  
 
-    [![](install-drupal-on-iis/_static/image6.jpg)](install-drupal-on-iis/_static/image5.jpg)  
+    ![Screenshot of a browser window showing the Drupal Configure site page.](install-drupal-on-iis/_static/image5.jpg)  
     *Figure 3: Configure site page*
 
 ## Enable Clean URLs
@@ -99,7 +99,7 @@ The following instructions describe how the URL Rewrite Module for IIS 7 and abo
     [!code-xml[Main](install-drupal-on-iis/samples/sample5.xml)]
 3. Save the **web.config** file.
 4. Open a Web browser, and go to `http://localhost/Drupal/index.php?q=admin/settings/clean-urls`.  
-    [![](install-drupal-on-iis/_static/image8.jpg)](install-drupal-on-iis/_static/image7.jpg)  
+    ![Screenshot of a browser window showing the Clean U R L  page.](install-drupal-on-iis/_static/image7.jpg)  
     *Figure 4: Clean URLs page*
 5. Under **Clean URLs**, select the **Enabled** option button, and then click **Save configuration**. If you successfully changed the URL format, all the URLs are represented in a hierarchical form that does not use query string parameters (for example, [http://localhost/Drupal/admin/settings/clean-urls](http://localhost/Drupal/admin/settings/clean-urls)).
 
