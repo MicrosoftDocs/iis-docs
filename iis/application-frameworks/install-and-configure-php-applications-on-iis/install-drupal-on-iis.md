@@ -80,7 +80,7 @@ Before starting the installation procedure for Drupal, you must create a databas
      *Figure 2: Database configuration page*
 3. On the **Configure site** page, enter the required configuration information.  
 
-    ![Screenshot of a browser showing the Drupal Configure site page.](install-drupal-on-iis/_static/image5.jpg)  
+    ![Screenshot of a browser window showing the Drupal Configure site page.](install-drupal-on-iis/_static/image5.jpg)  
     *Figure 3: Configure site page*
 
 ## Enable Clean URLs

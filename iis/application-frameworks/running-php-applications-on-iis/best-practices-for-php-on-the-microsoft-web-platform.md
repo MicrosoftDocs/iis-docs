@@ -178,7 +178,7 @@ You can enable Forms Authentication by using the UI, running Appcmd.exe in a com
 3. On the **Authentication** page, select **Forms Authentication**.
 4. In the **Actions** pane, click **Enable** to use Forms Authentication with the default settings.  
 
-    ![Screenshot of the I I S Manager screen with Authentication dialog in the main pane.](best-practices-for-php-on-the-microsoft-web-platform/_static/image13.jpg)
+    ![Screenshot of the I I S Manager screen showing the Authentication dialog in the main pane.](best-practices-for-php-on-the-microsoft-web-platform/_static/image13.jpg)
 
     *Figure 7 Forms Authentication*
 
@@ -274,7 +274,7 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 ## Links for Further Information
 
 - [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/library/cc770381(WS.10).aspx).
-- [Windows Server Performance Team Blog](https://docs.microsoft.com/archive/blogs/winserverperformance/tuning-windows-server-2008-for-php)
+- [Windows Server Performance Team Blog](/archive/blogs/winserverperformance/tuning-windows-server-2008-for-php)
 - [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/magazine/2008.09.iis.aspx).
 - [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/library/cc754631.aspx).
 - [IIS 7.0 Bit Rate Throttling Module Released](https://weblogs.asp.net/scottgu/archive/2008/03/18/iis-7-0-bit-rate-throttling-module-released.aspx)
