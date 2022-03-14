@@ -58,11 +58,11 @@ The disk cache feature in ARR is a server-level feature. As such, the delete cac
 1. Launch IIS Manager.
 2. Select the server in the navigation tree view.
 
-    ![](delete-cached-objects/_static/image1.jpg)
+    ![Screenshot that shows the server's node in I I S Manager.](delete-cached-objects/_static/image1.jpg)
 3. Double-click **Application Request Routing Cache**.
 4. In the **Actions** pane, click **Delete All Cached Objects**.
 
-    ![](delete-cached-objects/_static/image2.jpg)
+    ![Screenshot that shows the the Delete All Cached Objects option in the Actions pane.](delete-cached-objects/_static/image2.jpg)
 5. In the confirmation dialog box, click **Yes**.
 6. All cached contents have been deleted from all primary cache drive location(s).
 
@@ -84,10 +84,10 @@ ARR allows the user to enter an absolute URL to delete one specific cached conte
 
 1. In the **Actions** pane, click **Delete Specific Cached Objects**.
 
-   ![](delete-cached-objects/_static/image2.jpg)
+   ![Screenshot that shows the the Delete Specific Cached Objects option in the Actions pane.](delete-cached-objects/_static/image2.jpg)
 2. In the **Delete Cached Objects** dialog box, enter an absolute URL path to the cached content that you want to delete. In the following example, `http://wonyoo-w2k8.arr1-cdn.com/images/2.0/body_bg.jpg` will be removed.
 
-   ![](delete-cached-objects/_static/image4.jpg)
+   ![Screenshot that shows the Delete Cached Objects dialog.](delete-cached-objects/_static/image4.jpg)
 3. A confirmation dialog box is shown when the specified content has been deleted successfully.
 
    ![](delete-cached-objects/_static/image6.jpg)
