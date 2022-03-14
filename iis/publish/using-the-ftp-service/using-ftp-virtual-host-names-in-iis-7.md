@@ -69,7 +69,7 @@ In this first step, we create a new FTP site using a unique virtual host name.
        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
 
     - Click **Next**.  
-    ![Screenshot of Add F T P Site dialog box with commands populating the fields for F t P site name and Physical path.](using-ftp-virtual-host-names-in-iis-7/_static/image5.jpg)
+    ![Screenshot of Add F T P Site dialog box with commands populating the fields for F T P site name and Physical path.](using-ftp-virtual-host-names-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard:
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
