@@ -157,8 +157,7 @@ To recap the items that you completed in this section:
             - This option specifies that you want to isolate FTP user sessions to the home directory that is configured in the Active Directory account settings for each FTP user.
 
                > [!NOTE]
-               > This option is the same as choosing Active Directory user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
-
+               > This option is the same as choosing Active Directory user isolation in the IIS 6.0 FTP server.
 <a id="003"></a>
 
 ## Configuring User Isolation Settings by Physical Directories

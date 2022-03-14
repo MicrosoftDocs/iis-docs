@@ -14,7 +14,7 @@ The [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ContentLength](cacheresponse-contentlength-property-microsoft-web-media-smoothstreaming_1.md)|The length in bytes.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ContentType](cacheresponse-contenttype-property-microsoft-web-media-smoothstreaming_1.md)|A string object that identifies the content type.|

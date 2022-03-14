@@ -72,7 +72,7 @@ The ChunkInfo type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Attributes](chunkinfo-attributes-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets [Attributes](chunkinfo-attributes-property-microsoft-web-media-smoothstreaming_1.md).|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Duration](chunkinfo-duration-property-microsoft-web-media-smoothstreaming_1.md)|Time duration that corresponds the to the \<d> element in the manifest for the chunk.|
@@ -81,7 +81,7 @@ The ChunkInfo type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CompareTo](chunkinfo-compareto-method-microsoft-web-media-smoothstreaming_1.md)|Compares a chunk to another object.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|

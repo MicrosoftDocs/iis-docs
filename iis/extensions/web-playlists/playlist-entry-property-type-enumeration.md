@@ -26,7 +26,7 @@ PlaylistEntryProperty_CanSkipBackward = 5
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*PlaylistEntryProperty_Title*|The title of the playlist entry.|
 |*PlaylistEntryProperty_ExtraParam*|Additional parameters that are playlist-format specific.|

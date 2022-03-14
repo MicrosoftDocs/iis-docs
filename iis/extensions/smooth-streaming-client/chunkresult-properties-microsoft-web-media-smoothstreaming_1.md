@@ -14,7 +14,7 @@ The [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) ty
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ChunkData](chunkresult-chunkdata-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the data contained by [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md).|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Error](chunkresult-error-property-microsoft-web-media-smoothstreaming_1.md)|Contains error information if an error occurs.|

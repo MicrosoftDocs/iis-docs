@@ -14,7 +14,7 @@ The [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) ty
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ClipInformation](clipcontext-clipinformation-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [ClipInformation](clipcontext-clipinformation-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md)|Gets the [CurrentClipState](clipcontext-currentclipstate-property-microsoft-web-media-smoothstreaming_1.md) property.|

@@ -22,7 +22,7 @@ GetServerVariable(
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*bstrVarName*|The name of the server variable requested.|
 |*pbstrVarValue*|The requested server variable.|

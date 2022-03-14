@@ -21,7 +21,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DependenciesMissingException()](dependenciesmissingexception-constructor-microsoft-web-management-databasemanager_1.md)|Creates a new instance of the [DependenciesMissingException](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md) class.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DependenciesMissingException(String)](dependenciesmissingexception-constructor-string-microsoft-web-management-databasemanager.md)||

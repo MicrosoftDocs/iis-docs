@@ -18,7 +18,7 @@ HRESULT Format( [out,retval] BSTR *pbstrPlaylistFormat );
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*bstrPlaylistFormat*|The returned format of the [IPlaylistRequestInfo Interface](https://msdn.microsoft.com/library/dd146293) instance.|
 

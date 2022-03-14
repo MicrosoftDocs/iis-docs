@@ -35,28 +35,10 @@ virtual HRESULT STDMETHODCALLTYPE AddRawCollectionElement(
 
 An HRESULT. Possible values include, but are not limited to, those in the following table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>S_OK</p></td>
-<td><p>Indicates that the operation was successful.</p></td>
-</tr>
-<tr class="even">
-<td><p>NO_ERROR</p></td>
-<td><p>Indicates that an error did not occur.</p></td>
-</tr>
-</tbody>
-</table>
+| Value | Description |
+|---|---|
+| S_OK | Indicates that the operation was successful. |
+| NO_ERROR | Indicates that an error did not occur. |
 
 ## Requirements
 

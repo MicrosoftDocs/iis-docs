@@ -22,7 +22,7 @@ GetProperty(
 
 ## Arguments
 
-|||
+|Argument   |Description|
 |--- |--- |
 |*propertyName*|A [PLAYLIST_ENTRY_PROPERTY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146267) enumeration describing the location type of the entry.|
 |*pVariantValue*|The returned property value. Implementers should return a value that represents the results of the request in propertyName.|

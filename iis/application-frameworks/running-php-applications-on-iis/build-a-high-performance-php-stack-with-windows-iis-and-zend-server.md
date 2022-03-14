@@ -68,16 +68,16 @@ Enter the requested information and you'll be transferred to the server administ
 Zend Server is fully configurable via its Web-based administration panel, which is typically found at [http://localhost/ZendServer/](http://localhost/ZendServer/) and is broadly divided into four sections:
 
 **Monitor**: Think of the Monitor section as a one-stop shop for anything and everything related to the server's current status and health. The aptly-named Dashboard provides a quick overview of recent PHP events, such as errors and warnings, as well as information on the current status of the various Zend add-on components. This section is also the place to go to view phpinfo() output and server error logs. Under Zend Server CE, the event monitoring tools are absent.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image17.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image16.jpg)
+[![Screenshot of Zend Server administration panel. The Monitor section is shown. Recent Events, System Overview, and Tasks sections are displayed.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image17.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image16.jpg)
 
 **Rule Management**: Two of the key selling points of Zend Server can be found in the Rule Management section: the built-in URL caching system, and the event monitoring system. The Rule Management -&gt; Monitoring section is ground zero for the event monitor. It allows the administrator to set up "watch rules" for PHP requests and trigger actions on certain conditions, such as an uncaught exception or unusually-high memory consumption. In a similar vein, the Rule Management -&gt; Caching section allows administrators to define URL patterns that, when encountered, are automatically cached to improve performance. These two features offer huge benefits to administrators tasked with managing business-critical applications in an enterprise environment; however, it's worth noting that they're not included in Zend Server CE.   
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image20.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image19.jpg)
+[![Screenshot of Zend Server administration panel. The Rule Management section is shown. The Monitoring section and Caching section headings are at the top. The Caching section is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image20.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image19.jpg)
 
 **Server Setup**: The Server Setup section is where administrators head when they need to change server parameters. This section allows an administrator to turn on or off the various Zend performance and optimization components, such as Zend Optimizer+, Zend Page Cache and Zend Debugger. It also provides a graphical interface to the php.ini configuration file, making it easy to alter PHP configuration variables or enable PHP extensions. Finally, it also allows administrators to configure allow or deny rules for the Zend Studio remote debugging client, as well as to integrate Zend Studio with the event monitoring system to relay information on PHP events. Under Zend Server CE, the event monitoring tools are absent.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image23.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image22.jpg)
+[![Screenshot of Zend Server administration panel. The Server Setup section is shown. Under the Server Setup heading are the tabs Components, Extensions, Directives, Debugger, and Monitor. The Directives tab is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image23.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image22.jpg)
 
 **Administration**: The Administration section provides tools to change the administrator password and update the license key. It also reports on available updates, and allows the administrator to install these with a single click. Under Zend Server CE, these update management tools are absent.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image26.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image25.jpg)
+[![Screenshot of Zend Server administration panel. The Administration section is shown. At the top there are the Password and Licenses tab and the Updates tab. The Password and Licences tab is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image26.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image25.jpg)
 
 ## Building A Simple Application...Or Two
 
@@ -86,7 +86,7 @@ Now that you know your way around Zend Server, let's put together a simple PHP s
 [!code-xml[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample1.xml)]
 
 Save this file as whoami.php in the site root folder (typically, `C:\inetpub\wwwroot\`), and then browse to [http://localhost/whoami.php](http://localhost/whoami.php). You should see something like this:  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image29.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image28.jpg)
+[![Screenshot of local host slash who am i dot p h p page. Text on the page says Hello world, this is P H P speaking.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image29.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image28.jpg)
 
 This is a very basic "Hello World" script in PHP: the echo statement simply prints a string to the output device - in this case, the browser.
 
@@ -97,37 +97,37 @@ How about something a little more complicated, to demonstrate the power of PHP s
 This script begins by defining an array containing various common breakfast items, and initializing a session with the session\_start() function. This session is used to store a randomly-selected item from the array. A Web form prompts the user to guess the item; on submission, the user's input is stored in the $\_POST array. The script then reads the user's input from the $\_POST array, tests it against the value stored in the session, and displays a message indicating if the guess is correct or not. The strlen() and substr() functions, which respectively return string length and string segments, are used to provide hints to help the user along.
 
 Here's what it looks like:  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image31.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image30.jpg)
+[![Screenshot of who am i dot p h p web page. What's For Breakfast is written at the top. In the Your guess box is the text eggs above the submit button.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image31.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image30.jpg)
 
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image33.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image32.jpg)
+[![Screenshot of the local host slash whoami dot p h p web page. In the text box the header What's For Breakfast is written. Above the Your guess text box is the text Correct!](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image33.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image32.jpg)
 
 ## Integrating With Microsoft SQL Server
 
 One of the reasons for PHP's popularity as a Web scripting language has been its strong support for a variety of different RDBMSs...and Microsoft SQL Server is no exception! In this section, you'll see just how easy it is to get started building data-driven Web applications with PHP, by connecting to an MS-SQL database, reading records from it and displaying them as an HTML page.
 
 To activate MS-SQL support under Zend Server, there's really only one step: enable PHP's mssql extension, which is included with Zend Server but disabled by default. To do this, log in to the Zend Server administration console at [http://localhost/ZendServer/](http://localhost/ZendServer/), and visit the Server Setup -&gt; Extensions section. Find the entry for mssql and turn it on.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image35.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image34.jpg)
+[![Screenshot of the Zend Server administration console. The Server Setup tab is selected. The Extensions section is selected. The M S S Q L extension is highlighted and a button to Turn on the extension is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image35.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image34.jpg)
 
 You will be prompted to restart PHP. Do so via the button at the bottom right of the page. PHP will restart, and the extension will now be enabled.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image38.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image37.jpg)
+[![Screenshot of the Zend Server administration console. The message Please wait while P H P is being restarted is shown over the Server Setup tab.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image38.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image37.jpg)
 
 Once you've got the module enabled, initialize a new database and populate it with some data. With SQL Server Express 2008, the easiest way to do this is to import from a file containing structured data, such as a CSV-formatted file. [Here's an example](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/books1.zip) of one such file.
 
 To import this data, start the SQL Server Import and Export Wizard, and select Flat File Source as the data source. Browse for and select the input CSV file. Remember that the first row of the file contains the field names.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image41.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image40.jpg)
+[![Screenshot of the S Q L Server Import and Export Wizard. Flat File Source is selected in the data source box. In the Header row delimiter box C R L F is highlighted.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image41.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image40.jpg)
 
 Create a new database named 'library' to hold this data.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image43.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image42.jpg)
+[![Screenshot of the S Q L Import and Export Wizard. The Create Database prompt is shown. In the Name box the text library is written.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image43.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image42.jpg)
 
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image45.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image44.jpg)
+[![Screenshot of the S Q L Server Import and Export Wizard. The Choose a Destination prompt is shown. In the Database box the text library is highlighted.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image45.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image44.jpg)
 
 Set the destination table name, and preview the data to ensure that it will be imported correctly.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image47.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image46.jpg)
+[![Screenshot of the S Q L Server Import and Export Wizard. The Select Source Tables and Views prompt is shown. The Source checkbox is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image47.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image46.jpg)
 
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image49.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image48.jpg)
+[![Screenshot of S Q L Server Import and Export Wizard. The Data View prompt is shown. A list of Sample data is shown in the text box under the headings Author, Title, and Price.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image49.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image48.jpg)
 
 Confirm the settings, and proceed to import the data.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image51.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image50.jpg)
+[![Screenshot of the S Q L Server Import and Export Wizard. The execution was successful is written at the top. Three columns titled Action, Status, and Message are displayed.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image51.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image50.jpg)
 
 You can verify that the data has been correctly imported through the sqlcmd command-line tool, as below:
 
@@ -142,7 +142,7 @@ This script begins by opening a connection to the database server using the mssq
 The number of records returned by the query are obtained via a call to mssql\_num\_rows(). If one or more records are present, a loop is used to iterate over the result set, returning individual records as objects via mssql\_fetch\_object(). Individual fields of each record can now be accessed as object properties; it's then fairly simple to present these field values as an HTML table. Once all the records in the result set have been processed, the connection is closed with mssql\_close().
 
 Here's what the output looks like in a Web browser:  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image53.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image52.jpg)
+[![Screenshot of Firefox web browser page. The output table is displayed with text in two columns.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image53.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image52.jpg)
 
 ## Integrating With MySQL
 
@@ -179,7 +179,7 @@ Now, all that's left is to do the same thing using PHP. Here's the code (mysql.p
 This script begins by opening a connection to the database server using the mysqli\_connect() function with the user account credentials created in the previous step. It then executes a query on the database with the mysqli\_query() function. The number of records returned by the query are obtained via a call to mysqli\_num\_rows(), and a loop is used to iterate over the result set, returning individual records as objects via mysqli\_fetch\_object(). Individual fields of each record can now be accessed as object properties.
 
 Here's what the output looks like in a Web browser:  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image55.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image54.jpg)
+[![Screenshot of the Firefox web browser. The output table is displayed. Two columns of text are shown.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image55.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image54.jpg)
 
 As the previous two examples illustrate, it's extremely easy to create PHP applications that interact with different database systems using the built-in tools provided with Zend Server.
 
@@ -190,28 +190,28 @@ One of Zend Server's key benefits is its built-in page caching system, which aut
 To illustrate how this works, let's try installing and benchmarking a popular PHP application with Zend Server. The application in question is Wordpress, a popular PHP/MySQL blogging platform, and you can download it free of charge from the Wordpress Web site ([http://www.wordpress.org/](http://www.wordpress.org/)). The following discussion assumes that you have successfully installed Wordpress 2.7.1; detailed installation instructions can be obtained from the Web site ([http://codex.wordpress.org/Installing\_WordPress](http://codex.wordpress.org/Installing_WordPress)). Note that you will need to activate PHP's mysql extension through the Zend Server administration panel (Server Setup -&gt; Extensions) before beginning the installation process.
 
 Assuming you've got it all set up, log in to the Wordpress administration area and adjust the permalink settings to use search-engine friendly URLs (Settings -&gt; Permalink Settings):  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image58.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image57.jpg)
+[![Screenshot of the Firefox web browser. The Wordpress administration web page is displayed. The Permalink Settings page is shown. The Day and name setting is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image58.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image57.jpg)
 
 Now, create a new post (Posts -&gt; Add New).  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image61.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image60.jpg)
+[![Screenshot of the Wordpress adminstration area page. The Edit Post page is shown. A pop up window with the text Post updated, Continue editing below or go back is written.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image61.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image60.jpg)
 
 While you're at it, create a new category (for example, 'holiday') for your post and publish it to that category.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image64.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image63.jpg)
+[![Screenshot of the Categories web page of the Wordpress website. In the Category Name box, the text holiday is written.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image64.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image63.jpg)
 
 Visit your Wordpress site, select the category (note down the URL, you'll need it a little further along) and you should see your newly-created post(s).  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image67.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image66.jpg)
+[![Screenshot of the Wordpress site. The heading Archive for the holiday Category is shown.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image67.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image66.jpg)
 
 Now, let's quantitatively analyze the benefit of Zend Server's page caching system, by benchmarking performance using the Microsoft Web Capacity Analysis Tool (WCAT) ([https://www.iis.net/1466/ItemPermalink.ashx](https://www.iis.net/downloads/community/2007/05/wcat-63-x86)). First, visit the Zend Server administration panel and turn off all the Zend performance components under Server Setup -&gt; Components, including the Zend Page Cache and the Zend Optimizer+.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image70.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image69.jpg)
+[![Screenshot of the Zend Server panel. A pop up window is shown at the top with the text The component Zend Page Cache will be turned off after restarting your P H P is written.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image70.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image69.jpg)
 
 Now, run WCAT with the category URL you noted earlier, using 20 virtual clients and warmup/duration/cooldown periods of 180/180/30 seconds (example scenario and configuration files can be downloaded here; these are based on information obtained from [the IIS.net forum post](https://forums.iis.net/t/1150332.aspx). From the output below, it's clear that the server tops out at 11.52 transactions/second, with an average response time of 1736 ms.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image73.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image72.jpg)
+[![Screenshot of the Web Capacity Analysis Tool page. Under Summary is information on Transactions per second, Pathlength per transaction, Context Switches per Transaction, and more.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image73.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image72.jpg)
 
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image76.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image75.jpg)
+[![Screenshot of the Web Capacity Analysis Tool page. Information on Time Analysis, Response Time Analysis, and Request per Response Statistics is shown.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image76.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image75.jpg)
 
 Now, let's see if we can improve that number. Visit the Zend Server administration panel and turn on the Zend Page Cache and Zend Optimizer+. Restart PHP, and then enter a new caching rule (Rule Management -&gt; Caching) for your Wordpress installation, as in the following image:  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image79.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image78.jpg)
+[![Screenshot of the Web Capacity Analysis Tool. The Contents and Summary categories are shown. The Context Switches per Transaction and Context Switches per Request categories are flagged.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image79.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image78.jpg)
 
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image82.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image81.jpg)
+[![Screenshot of the Web Capacity Analysis Tool. The Time Analysis, Response Time Analysis, and Request per Response Statistics categories are displayed.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image82.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image81.jpg)
 
 As the above examples demonstrate, Zend Server provides a fully-functional, enterprise-ready PHP stack for Windows, one that plays well with all of the most common database systems, including Microsoft SQL Server and MySQL. A Web-based administration panel and event monitor makes server configuration and maintenance simple, and built-in page caching and code acceleration features can improve PHP's default performance by orders of magnitude. Have fun playing with it...and happy coding!

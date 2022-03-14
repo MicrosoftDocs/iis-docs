@@ -14,7 +14,7 @@ The [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.m
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[SupportsSchemas](databaseinfo-supportsschemas-property-microsoft-web-management-databasemanager.md)|Specifies whether the database supports schemas.|
 

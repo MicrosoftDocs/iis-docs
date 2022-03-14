@@ -33,7 +33,7 @@ void remove (AdaptiveSourceStatusUpdatedEventHandler^ value);
 
 ## Event information
 
-|||
+|Type|Event|
 |--- |--- |
 |Delegate|[AdaptiveSourceStatusUpdatedEventHandler Delegate](adaptivesourcestatusupdatedeventhandler-delegate.md)|
 
@@ -43,7 +43,7 @@ Subscribing to events at the AdaptiveSourceManager level means that all Adaptive
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|

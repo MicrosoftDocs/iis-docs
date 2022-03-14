@@ -28,7 +28,7 @@ The Application Request Routing proxy (ARR) is one of the core pieces of the gra
 
 The ARR proxy runs in the same request processing pipeline as the application itself. This was needed to reduce the complexity of migrating from our older deployment system. However, this required careful resolution of conflicts between the new and existing HTTP modules in the IIS request lifecycle. Some of these resolutions are discussed in detail later. The following picture shows updates to the IIS request processing pipeline needed to integrate ARR based on the above requirements. 
 
-[![](arr-as-generic-proxy-in-hotmail-and-skydrive/_static/image3.png)](arr-as-generic-proxy-in-hotmail-and-skydrive/_static/image2.png)
+![Screenshot showing the request processing pipeline.](arr-as-generic-proxy-in-hotmail-and-skydrive/_static/image2.png)
 
 Fig: IIS request pipeline with integration of new HTTP modules and ARR proxy
 

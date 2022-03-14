@@ -22,7 +22,7 @@ SetServerVariable(
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*bstrVarName*|The name of the server variable to set.|
 |*bstrVarValue*|The value to assign to the server variable.|

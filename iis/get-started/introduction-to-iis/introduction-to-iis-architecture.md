@@ -305,12 +305,12 @@ The following list describes the request-processing flow that is shown in Figure
 7. The worker process processes the request and returns a response to HTTP.sys.
 8. The client receives a response.
 
-[![](introduction-to-iis-architecture/_static/image2.png)](introduction-to-iis-architecture/_static/image1.png)
+[![Diagram shows a client in Kernel Mode interacting with elements in User Mode as described above.](introduction-to-iis-architecture/_static/image2.png)](introduction-to-iis-architecture/_static/image1.png)
 
 **Figure 1: Overview of an HTTP Request**
 
 In a worker process, an HTTP request passes through several ordered steps, called events, in the Web Server Core. At each event, a native module processes part of the request, such as authenticating the user or adding information to the event log. If a request requires a managed module, the native ManagedEngine module creates an AppDomain, where the managed module can perform the necessary processing, such as authenticating a user with Forms authentication. When the request passes through all of the events in the Web Server Core, the response is returned to HTTP.sys. Figure 2, below, shows an HTTP request entering the worker process.
 
-[![](introduction-to-iis-architecture/_static/image4.png)](introduction-to-iis-architecture/_static/image3.png)
+[![Diagram shows the Worker Process, which contains the Web Server Core, linked to the Native Modules, linked to the AppDomain.](introduction-to-iis-architecture/_static/image4.png)](introduction-to-iis-architecture/_static/image3.png)
 
 **Figure 2: Detail of a HTTP request inside the Worker Process**

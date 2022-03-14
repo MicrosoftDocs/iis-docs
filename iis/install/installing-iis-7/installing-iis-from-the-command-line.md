@@ -44,7 +44,7 @@ If you are logged on to an account other than the built in local administrator a
 ### Windows Security Dialog – LUA
 
 If you are logged on to an account other than the built in local administrator account you may see the following security alert dialog box.  
-[![](installing-iis-from-the-command-line/_static/image2.jpg)](installing-iis-from-the-command-line/_static/image1.jpg)
+![Screenshot of the Windows Security dialog.](installing-iis-from-the-command-line/_static/image1.jpg)
 
 Figure 1: Windows Security Dialog
 

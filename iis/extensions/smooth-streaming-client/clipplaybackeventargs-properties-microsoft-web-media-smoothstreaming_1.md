@@ -14,7 +14,7 @@ The [ClipPlaybackEventArgs](clipplaybackeventargs-class-microsoft-web-media-smoo
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md) property. (Inherited from [ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Progress](clipplaybackeventargs-progress-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Progress](clipplaybackeventargs-progress-property-microsoft-web-media-smoothstreaming_1.md) property.|

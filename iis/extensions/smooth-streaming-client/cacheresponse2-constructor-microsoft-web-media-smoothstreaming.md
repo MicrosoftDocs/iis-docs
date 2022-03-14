@@ -24,7 +24,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheResponse2(Stream, Boolean)](cacheresponse2-constructor-stream-boolean-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the [CacheResponse2](cacheresponse2-class-microsoft-web-media-smoothstreaming.md) class based on the specified stream.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheResponse2(Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean)](cacheresponse2-constructor-int64-string-webheadercollection-stream-httpstatuscode-string-datetime-boolean-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the [CacheResponse2](cacheresponse2-class-microsoft-web-media-smoothstreaming.md) class that is fully finalized and ready for use.|

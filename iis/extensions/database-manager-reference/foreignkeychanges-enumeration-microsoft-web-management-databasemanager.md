@@ -65,11 +65,11 @@ public enum ForeignKeyChanges
 
 ## Members
 
-||Member name|Description|
-|--- |--- |--- |
-||None|The foreign key has no pending changes.|
-||IsNew|The foreign key is new.|
-||IsMarkedForDelete|The foreign key is marked for deletion.|
+|Member name|Description|
+|--- |--- |
+|None|The foreign key has no pending changes.|
+|IsNew|The foreign key is new.|
+|IsMarkedForDelete|The foreign key is marked for deletion.|
 
 ## Remarks
 

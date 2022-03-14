@@ -21,7 +21,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T)](https://msdn.microsoft.com/library/dsxfcba1(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T, Int32)](https://msdn.microsoft.com/library/s088xd6w(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|

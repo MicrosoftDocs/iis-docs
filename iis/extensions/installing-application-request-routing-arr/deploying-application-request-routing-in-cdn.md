@@ -17,7 +17,7 @@ This section of the document applies to **Microsoft Application Request Routing 
 
 To successfully configure a child/edge cache node and a parent cache node in a 2-tier cache hierarchy deployment in a content delivery network/edge caching network (CDN/ECN) environment. The focus of this walkthrough is to understand the URL rewrite rules on the child/edge cache node and on the parent cache node. Ultimately, this walkthrough will go through step-by-step instructions to set up the following configuration:
 
-![](deploying-application-request-routing-in-cdn/_static/image2.jpg)
+![Diagram showing an overview of the connection between the origin server, parent nodes, child nodes, and S A N.](deploying-application-request-routing-in-cdn/_static/image2.jpg)
 
 Some of the highlights of this configuration are:
 
@@ -78,47 +78,47 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
 1. Define the URL rewrite maps that can be used to look up the origin server's host name. Launch IIS Manager.
 2. Select and expand the root of the server. This is your child (edge) cache node.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image4.jpg)
+    ![Screenshot showing the child cache node expanded.](deploying-application-request-routing-in-cdn/_static/image4.jpg)
 3. Double-click **URL Rewrite**.
 4. In the **Actions** pane, click **View Rewrite Maps**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image5.jpg)
+    ![Screenshot of the Actions pane showing the View Rewrite Maps option.](deploying-application-request-routing-in-cdn/_static/image5.jpg)
 5. In the **Actions** pane, click **Add Rewrite Map**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image6.jpg)
+    ![Screenshot of the Actions pane showing the Add Rewrite Map option.](deploying-application-request-routing-in-cdn/_static/image6.jpg)
 6. In the **Add Rewrite Map** dialog box, name the rewrite map, **OriginServers**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image7.jpg)
+    ![Screenshot of the Add rewrite map dialog showing OriginServers in the input box.](deploying-application-request-routing-in-cdn/_static/image7.jpg)
 7. In the rewrite map, you will explicitly identify the mapping between the host name that the child cache node receives and the corresponding origin host names. In the **Actions** pane, click **Add Mapping Entry...**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image8.jpg)
+    ![Screenshot of the Actions menu showing the Add Mapping Entry option.](deploying-application-request-routing-in-cdn/_static/image8.jpg)
 8. In the **Add Mapping Entry** dialog box, add the host name that the child cache node receives and the origin host name. In the example below, the ARR child cache node receives **customer1.mycdn.net** as the host name header. The corresponding origin server is **images.customer1.com**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image9.jpg)
+    ![Screenshot of the Add Mapping Entry dialog with the example information entered.](deploying-application-request-routing-in-cdn/_static/image9.jpg)
 9. Repeat Step 8 as many times as needed to include all customers to which your CDN/ECN provides services. This is how you can manage the explicit list of your customers to ensure that your service is provided only to your customers.
-10. To blacklist the customers that are not on the rewrite map list, set the default value of this rewrite map to **#**, which is an illegal character that cannot be used as part of the host name header, per RFC. In the **Actions** pane, click **Edit Map Settings...**.
+10. To block the customers that are not on the rewrite map list, set the default value of this rewrite map to **#**, which is an illegal character that cannot be used as part of the host name header, per RFC. In the **Actions** pane, click **Edit Map Settings...**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image10.jpg)
+    ![Screenshot of the Actions menu.](deploying-application-request-routing-in-cdn/_static/image10.jpg)
 11. In the **Edit Rewrite Map** dialog box, enter **#** as the default value for this rewrite map.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image11.jpg)
+    ![Screenshot of the Edit Rewrite Map dialog. The character # is in the Default value to use when key is not found in the map input box. OK is selected.](deploying-application-request-routing-in-cdn/_static/image11.jpg)
 12. Rewrite the host name header with the rules that have been configured in the OriginServers rewrite map. When there is a cache miss and the request is routed to the parent cache node, the request will have the host name that matches the origin server. This is why, for the most part, the parent cache node is configured as a forward proxy. When there is a cache miss at the parent cache node, the request is simply routed to the origin server based on the host name header that the parent cache node receives.
 13. In the URL rewrite UI, locate the rule. In this walkthrough, the name of the rule should be **ARR\_myParentCacheNodes\_loadbalance**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image12.jpg)
+    ![Screenshot showing the example rule settings.](deploying-application-request-routing-in-cdn/_static/image12.jpg)
 14. Select the rule, and in the **Actions** pane, click **Edit**.
 15. Click **Add Conditions** to add two rules.
 16. The first rule will use the **OriginServers** rewrite map that you created in Step 6. The following rule will match the host header as the key to match the entries in **OriginServers:**
 
-    ![](deploying-application-request-routing-in-cdn/_static/image13.jpg)
+    ![Screenshot of the Add Condition dialog showing origin server data with Pattern is set to *.](deploying-application-request-routing-in-cdn/_static/image13.jpg)
 17. The second rule will set the default value as **#** when the host header does not match the entries in **OriginServers**. As noted above, **#** is not a valid character and cannot be used as a host name. The following rule is used later to ensure that only the customers (as represented by host names) in **OriginServers** are serviced by ARR:
 
-    ![](deploying-application-request-routing-in-cdn/_static/image14.jpg)
+    ![Screenshot of the Add Condition dialog with Pattern set to the default.](deploying-application-request-routing-in-cdn/_static/image14.jpg)
 18. Select **Track capture groups across conditions**.
 19. To set the HTTP\_HOST values to match the conditions above, click **Server Variables**.
 20. Enter the following values to reset HTTP\_HOST:
 
-    ![](deploying-application-request-routing-in-cdn/_static/image15.jpg)
+    ![Screenshot of the Server Variables dialog.](deploying-application-request-routing-in-cdn/_static/image15.jpg)
 21. Click **OK** to save the changes.
 22. In the **Actions** pane, click **Apply** to save the changes.
 23. To verify that the correct rules have been written, open the applicationHost.config file using Notepad. The configuration file is located at `%windir%\system32\inetsrv\config\`.
@@ -131,14 +131,14 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
     Launch IIS Manager.
 26. Select and expand the root of the server. This is your child (edge) cache node.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image16.jpg)
+    ![Screenshot showing a server expanded.](deploying-application-request-routing-in-cdn/_static/image16.jpg)
 27. Double-click **URL Rewrite**.
 28. In the **Actions** pane, click **Add Rules**. 
 
-    ![](deploying-application-request-routing-in-cdn/_static/image17.jpg)
+    ![Screenshot of the Actions menu showing the Add Rules option.](deploying-application-request-routing-in-cdn/_static/image17.jpg)
 29. In the **Add Rule(s)** dialog box, select **Blank rule**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image18.jpg)
+    ![Screenshot of the Add rules dialog with Blank rule selected.](deploying-application-request-routing-in-cdn/_static/image18.jpg)
 30. Enter the following values, and then save the rule:  
     **Name:** Not my customer  
     **Using:** Wildcards  
@@ -147,10 +147,10 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
     **Status code:** 400  
     **Sub status code:** 0
 
-    ![](deploying-application-request-routing-in-cdn/_static/image19.jpg)
+    ![Screenshot showing the rules variable dialog.](deploying-application-request-routing-in-cdn/_static/image19.jpg)
 31. The order of the rules is important. The URL rewrite rules are processed from top to bottom. In this example, if the incoming host name matches one of the host names specified in the above rewrite map, the first rule, **ARR\_myParentCacheNodes\_Loadbalance**, is executed. If the incoming host name does not match any of the host names that are defined in the above rewrite map, the second rule, **Not my customer**, is executed.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image20.jpg)
+    ![Screenshot showing 2 rules.](deploying-application-request-routing-in-cdn/_static/image20.jpg)
 32. **The child/edge cache node configuration is complete.**  
   
 To streamline the configuration of additional child cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the child cache node. Otherwise, the above configuration changes must be made individually on all child cache nodes in the CDN/ECN environment. To learn more about shared configuration, see the  [Shared Configuration](../../manage/managing-your-configuration-settings/shared-configuration_264.md) article.
@@ -173,24 +173,24 @@ Configure and enable disk cache by following the [Configure and Enable Disk Cach
 1. Enable ARR as a proxy. Launch IIS Manager.
 2. This configuration does not involve any server farms. All settings are done at the server level.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image21.jpg)
+    ![Screenshot showing the server with expanded selections. The server name is highlighted.](deploying-application-request-routing-in-cdn/_static/image21.jpg)
 3. Double-click **Application Request Routing Cache**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image22.jpg)
+    ![Screenshot showing the connections and main panes. The main pane shows the server function icons.](deploying-application-request-routing-in-cdn/_static/image22.jpg)
 4. In the **Actions** pane, click **Server Proxy Settings**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image24.jpg)
+    ![Screenshot of the Actions pane showing the Server Proxy Settings option.](deploying-application-request-routing-in-cdn/_static/image24.jpg)
 5. Select the **Enable proxy** checkbox, and then click **Apply**. You have just enabled ARR as a proxy at the server level.
 6. To turn ARR into a forward proxy, click on the server node in the navigation pane.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image26.jpg)
+    ![Screenshot showing navigation options.](deploying-application-request-routing-in-cdn/_static/image26.jpg)
 7. Double-click **URL Rewrite**.
 8. In the **Actions** pane, click **Add Rules...**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image27.jpg)
+    ![Screenshot of the Actions pane showing the Add Rules option.](deploying-application-request-routing-in-cdn/_static/image27.jpg)
 9. In the **Add Rule(s)** dialog box, select **Blank rule**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image28.jpg)
+    ![Screenshot showing the Add rules dialog. The Blank rule icon is highlighted.](deploying-application-request-routing-in-cdn/_static/image28.jpg)
 10. Enter the following values, and then save the rule:  
     **Name:** Forward proxy  
     **Using:** Wildcards  
@@ -202,7 +202,7 @@ Configure and enable disk cache by following the [Configure and Enable Disk Cach
     **Action Type:** Rewrite  
     **Rewrite URL:** http://{C:1}/{R:0}  
 
-    ![](deploying-application-request-routing-in-cdn/_static/image29.jpg)
+    ![Screenshot showing the dialog with the example values.](deploying-application-request-routing-in-cdn/_static/image29.jpg)
 11. **The parent cache node configuration is complete.**  
   
     To streamline the configuration of additional parent cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the parent cache node. Otherwise, the above configuration changes must be made individually on all parent cache nodes in the CDN/ECN environment. To learn more about the shared configuration, see the following [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .

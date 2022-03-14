@@ -21,7 +21,7 @@ GetFileInfo (
 
 ## Arguments
 
-|||
+|Argument|Description|
 |--- |--- |
 |*ppPlaylistFileInfo*|The returned [IPlaylistFileInfo Interface](https://msdn.microsoft.com/library/dd146277) instance.|
 
