@@ -113,20 +113,20 @@ The following steps walk you through all of the required settings to add FTP pub
 ### Walking through the installation process
 
 1. When the installation package opens, you should see the following screen. Click **Next** to continue.  
-    ![](installing-and-configuring-ftp-7-on-iis-7/_static/image1.jpg)
+    ![Screenshot that shows the welcome page of the Setup Wizard.](installing-and-configuring-ftp-7-on-iis-7/_static/image1.jpg)
 2. On the next screen, click the **I accept** check box if you agree to the license terms, and then click **Next**.  
-    ![](installing-and-configuring-ftp-7-on-iis-7/_static/image5.jpg)
+    ![Screenshot that shows the end-user license agreement.](installing-and-configuring-ftp-7-on-iis-7/_static/image5.jpg)
 3. The following screen lists the installation options. Choose which options you want installed from the list, and then click **Next**.
 
     - **Common files**: this option includes the schema file. When installing in a shared server environment, each server in the web farm will need to have this option installed.
     - **FTP Publishing Service**: this option includes the core components of the FTP service. This option is required for the FTP service to be installed on the server.
     - **Managed Code Support**: this is an optional component, but features that use managed extensibility require this option before using them, such as ASP.NET and IIS manager authentication. **Note:** This feature cannot be installed on Windows Server 2008 Core.
     - **Administration Features**: this option installs the FTP 7 management user interface. This requires the IIS 7.0 manager and .NET framework 2.0 to be installed. **Note:** This feature cannot be installed on Windows Server 2008 Core.  
-        ![](installing-and-configuring-ftp-7-on-iis-7/_static/image9.jpg)
+        ![Screenshot that shows the Custom Setup page of the Setup Wizard.](installing-and-configuring-ftp-7-on-iis-7/_static/image9.jpg)
 4. On the following screen, click **Install** to begin installing the options that you chose on the previous screen.  
-    ![](installing-and-configuring-ftp-7-on-iis-7/_static/image13.jpg)
+    ![Screenshot that shows the Ready to install page of the Setup Wizard.](installing-and-configuring-ftp-7-on-iis-7/_static/image13.jpg)
 5. When installation has completed, click **Read notes** to view the FTP README file, or click **Finish** to close the installation dialog.  
-    ![](installing-and-configuring-ftp-7-on-iis-7/_static/image17.jpg)
+    ![Screenshot that shows the Completed the Setup Wizard page.](installing-and-configuring-ftp-7-on-iis-7/_static/image17.jpg)
 
 > [!NOTE]
 > If an error occurs during installation, you will see an error dialog. Refer to the **Troubleshooting Installation Issues** section of this document for more information.
@@ -149,7 +149,7 @@ Clicking the "Online information" button on the error dialog will launch the "In
 > [!NOTE]
 > If you attempt to install the downloaded package on an unsupported platform, the following dialog will be displayed:
 
-![](installing-and-configuring-ftp-7-on-iis-7/_static/image3.png)
+![Screenshot that shows the warning that appears if you try to install the package on an unsupported platform.](installing-and-configuring-ftp-7-on-iis-7/_static/image3.png)
 
 <a id="03"></a>
 
