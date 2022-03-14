@@ -99,7 +99,7 @@ The following instructions describe how the URL Rewrite Module for IIS 7 and abo
     [!code-xml[Main](install-drupal-on-iis/samples/sample5.xml)]
 3. Save the **web.config** file.
 4. Open a Web browser, and go to `http://localhost/Drupal/index.php?q=admin/settings/clean-urls`.  
-    ![Screenshot of a browser window showing the Clean URLs page.](install-drupal-on-iis/_static/image7.jpg)  
+    ![Screenshot of a browser window showing the Clean U R L  page.](install-drupal-on-iis/_static/image7.jpg)  
     *Figure 4: Clean URLs page*
 5. Under **Clean URLs**, select the **Enabled** option button, and then click **Save configuration**. If you successfully changed the URL format, all the URLs are represented in a hierarchical form that does not use query string parameters (for example, [http://localhost/Drupal/admin/settings/clean-urls](http://localhost/Drupal/admin/settings/clean-urls)).
 

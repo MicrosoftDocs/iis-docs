@@ -30,7 +30,7 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
     *Figure 1 IIS Manager, FastCGI Settings*
 2. Next, select the FastCGI application that you want to configure, and then click **Edit** in the **Actions** pane on right-hand side.  
 
-    ![Screenshot of the I I S Manager window showing FastCGI Settings in the main pane.](best-practices-for-php-on-the-microsoft-web-platform/_static/image3.jpg)
+    ![Screenshot of the I I S Manager window showing Fast C G I Settings in the main pane.](best-practices-for-php-on-the-microsoft-web-platform/_static/image3.jpg)
 
     *Figure 2 FastCGI Settings page*
 3. In the **Edit FastCGI** **Application** dialog box, set **InstanceMaxRequest** to **10000**, and then click on the **browse** button next to the **EnvironmentVariables** setting.  

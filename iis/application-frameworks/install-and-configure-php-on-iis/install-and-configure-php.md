@@ -85,7 +85,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
     [!code-xml[Main](install-and-configure-php/samples/sample1.xml)]
 23. You should now see the PHP information page at `http://localhost/phpinfo.php`.
 
-    ![Screenshot of the PHP information page.](install-and-configure-php/_static/image9.jpg)  
+    ![Screenshot of the P H P information page.](install-and-configure-php/_static/image9.jpg)  
     *Figure 6: PHP information page*
 
 <a id="Extensions_1"></a>

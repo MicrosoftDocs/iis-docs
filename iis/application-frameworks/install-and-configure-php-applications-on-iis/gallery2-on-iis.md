@@ -47,7 +47,7 @@ Gallery requires a separate directory for storing all photos and related data, s
 
 For this walkthrough, we created a directory called g2data on C: drive `C:\g2data`. You must grant web server write permissions to this directory. Since FastCGI impersonates the requests from all users, make sure that the user account used for impersonation has write access to this directory. For example, if your web site or virtual directory is configured for Anonymous authentication, then you must grant "Internet Guest Account" write access to `C:\g2data`.
 
-![Screenshot of the g2data properties dialog. Internet Guest Account is highlighted.](gallery2-on-iis/_static/image1.png)
+![Screenshot of the g 2 data properties dialog. Internet Guest Account is highlighted.](gallery2-on-iis/_static/image1.png)
 
 ## Set Up the Database
 
