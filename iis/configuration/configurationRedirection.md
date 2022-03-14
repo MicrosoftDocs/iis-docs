@@ -68,13 +68,13 @@ The `<configurationRedirection>` element is included in the default installation
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server connection for which you want to set up configuration redirection.
 3. In the **Home** pane, double-click **Shared Configuration**.  
-    ![](configurationRedirection/_static/image1.png)
+    ![Screenshot of I I S manager Home pane. Shared Configuration icon selected.](configurationRedirection/_static/image1.png)
 4. In the **Actions** pane, click **Export Configuration**  
-    ![](configurationRedirection/_static/image3.png)
+    ![Screenshot of I I S Manager Actions pane.](configurationRedirection/_static/image3.png)
 5. In the **Export Configuration** dialog box, type the path to the directory where you want to export the configuration files in the **Physical path** box, type and confirm the encryption password, and then click **OK**.  
-    ![](configurationRedirection/_static/image5.png)
+    ![Screenshot of Export Configuration window.](configurationRedirection/_static/image5.png)
 6. When the Export Configuration dialog box appears, click **OK**.  
-    ![](configurationRedirection/_static/image7.png)
+    ![Screenshot of Export Configutation dialog box.](configurationRedirection/_static/image7.png)
 
 ### How to enable shared configuration
 
@@ -96,16 +96,16 @@ The `<configurationRedirection>` element is included in the default installation
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server connection for which you want to set up configuration redirection.
 3. In the **Home** pane, double-click **Shared Configuration**.  
-    ![](configurationRedirection/_static/image1.png)
+    ![Screenshot of Home pane with Shared Configuration icon highlighted.](configurationRedirection/_static/image1.png)
 4. In the **Shared Configuration** pane, select the **Enable shared configuration** option.
 5. In the **Physical path** box, type the path to the shared configuration files, type the account name with permissions to access the shared configuration files in the **User name** box, type the account's password in the **Password** box, and then type the account password again in the **Confirm password** box.  
-    ![](configurationRedirection/_static/image11.png)
+    ![Screenshot of Shared Configuration window.](configurationRedirection/_static/image11.png)
 6. In the **Actions** pane, click **Apply**.
 7. In the **Enter encryption key** password box on the **Encryption Keys Password** dialog box, type the password for the encryption key that you created in step 5, and then click **OK**.  
-    ![](configurationRedirection/_static/image13.png)
+    ![Screenshot of encryption key password box.](configurationRedirection/_static/image13.png)
 8. In each of the **Shared Configuration** dialog boxes that appear, click **OK** to close the dialogs.  
-    ![](configurationRedirection/_static/image15.png)  
-    ![](configurationRedirection/_static/image17.png)  
+    ![Screenshot of shared configuration dialog about existing I I S eccryption keys.](configurationRedirection/_static/image15.png)  
+    ![Screenshot of shared configuration dialog box about restarting I I S Manager.](configurationRedirection/_static/image17.png)  
 
     > [!NOTE]
     > You must close and restart IIS Manager before it will reflect these configuration changes.

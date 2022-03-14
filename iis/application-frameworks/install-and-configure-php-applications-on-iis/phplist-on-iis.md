@@ -51,32 +51,32 @@ Some of PHPList source files use only "&lt;?" tag instead of "&lt;?php" script t
 1. After editing the configuration file, run the installation file by browsing to the index page located in the admin folder.
 2. Open [http://localhost/lists/admin/index.php](http://localhost/lists/admin/index.php) in the browser. The system informs about database availability based on the configuration file and prompts for the table creation for the new installation.  
 
-    [![](phplist-on-iis/_static/image2.jpg)](phplist-on-iis/_static/image1.jpg)
+    ![Screenshot of browser window displaying index page from admin folder. A list of default tables are displayed.](phplist-on-iis/_static/image1.jpg)
 
-    [![](phplist-on-iis/_static/image4.jpg)](phplist-on-iis/_static/image3.jpg)
+    ![Screenshot of browser window displaying lower portion of the list of default tables to create.](phplist-on-iis/_static/image3.jpg)
 3. Click Continue with PHPList setup after creating the default tables.  
 
-    [![](phplist-on-iis/_static/image6.jpg)](phplist-on-iis/_static/image5.jpg)
+    ![Screenshot of P H P List setup dialog box containing Login screen.](phplist-on-iis/_static/image5.jpg)
 4. Login using the default user id "admin" and password "phplist".  
 
-    [![](phplist-on-iis/_static/image8.jpg)](phplist-on-iis/_static/image7.jpg)
+    ![Screenshot of P H P List configuration options after admin login.](phplist-on-iis/_static/image7.jpg)
 5. Change administration password and configure the general values by clicking on the specified links.  
 
-    [![](phplist-on-iis/_static/image10.jpg)](phplist-on-iis/_static/image9.jpg)
+    ![Screenshot of P H P List dialog box displaying configuration parameters to edit. ](phplist-on-iis/_static/image9.jpg)
 6. There several configuration parameters. Edit those parameters according to the application requirements. We use the default setup for testing.  
   
    a. Click the "main page" link shown on the right side menu to access the admin main page.  
 
-    [![](phplist-on-iis/_static/image12.jpg)](phplist-on-iis/_static/image11.jpg)
+    ![Screenshot of the P H P List main admin page. Main Page link is shown on right side menu.](phplist-on-iis/_static/image11.jpg)
 7. Access the PHPLists administration page by clicking on the "lists" link shown on the right side menu. Here you can add, delete, or edit the list.  
 
-    [![](phplist-on-iis/_static/image14.jpg)](phplist-on-iis/_static/image13.jpg)
+    ![Screenshot of the P H P Lists administration page. Lists link displayed in right side menu.](phplist-on-iis/_static/image13.jpg)
 8. Click "add a list" as shown below to add a new list.  
 
-    [![](phplist-on-iis/_static/image16.jpg)](phplist-on-iis/_static/image15.jpg)
+    ![Screenshot of P H P Lists edit a list configuration screen.](phplist-on-iis/_static/image15.jpg)
 9. Access the user admin index page by browsing to the application default folder [http://localhost/lists/index.php](http://localhost/lists/index.php) . The installation is finished and you can access the application based on the settings provided by the admin user.  
 
-    [![](phplist-on-iis/_static/image18.jpg)](phplist-on-iis/_static/image17.jpg)
+    ![Screenshot of P H P Lists user admin index page in browser screen after configuration.](phplist-on-iis/_static/image17.jpg)
 
 ## Getting More Information
 

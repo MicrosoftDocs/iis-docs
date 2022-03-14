@@ -33,7 +33,7 @@ This section provides concrete examples and highlights a few of Windows PowerShe
 
 To get a feel for Windows PowerShell, look at an example. Consider the screen shot in Figure 1.
 
-[![](an-introduction-to-windows-powershell-and-iis/_static/image2.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image1.jpg)
+![Screenshot of example PowerShell command prompt window.](an-introduction-to-windows-powershell-and-iis/_static/image1.jpg)
 
 *Figure 1 - Windows PowerShell Basics*
 
@@ -97,7 +97,7 @@ The following are some Windows PowerShell examples based on a Web cast featuring
 
 Suppose you want to examine IIS-related services running on your computer -- a very common task. One "GUI approach" to do this is to launch MMC and then expand the Services and Application category, and then select the Services category. The result looks like the screenshot in Figure 2.
 
-[![](an-introduction-to-windows-powershell-and-iis/_static/image4.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image3.jpg)
+![Screenshot of the Computer Management Window. Services and Applications expanded. Services Category highlighted.](an-introduction-to-windows-powershell-and-iis/_static/image3.jpg)
 
 *Figure 2 - Using MMC to Get Service Information*
 
@@ -111,7 +111,7 @@ This is not very compelling, but suppose you want to list only services that beg
 
 You can interpret this command as meaning fetch all Windows service information but then filter to include just those services that have a name beginning with the letter 'W'; then, sort those results according to the service status (running, stopped, paused). The result looks like the screenshot in Figure 3.
 
-[![](an-introduction-to-windows-powershell-and-iis/_static/image6.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image5.jpg)
+![Screenshot of PowerShell window displaying results of service status information.](an-introduction-to-windows-powershell-and-iis/_static/image5.jpg)
 
 *Figure 3 - Using Windows PowerShell to Get Service Information*
 
