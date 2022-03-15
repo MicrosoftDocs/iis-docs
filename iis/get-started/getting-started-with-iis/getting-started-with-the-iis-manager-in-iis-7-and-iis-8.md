@@ -257,7 +257,7 @@ The Web Management Service (WMSVC) is a stand-alone web server (hostable web cor
 
 IIS Manager sends a login request across the wire to WMSVC to intiate a connection. Authentication is either NTLM or basic, depending on what the user selected when they were asked to provide credentials in the connection dialog.
 
-![Screenshot of the login dialog showing the NTLM and Basic sections.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image18.jpg)
+![Screenshot of the login dialog showing the N T L M and Basic sections.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image18.jpg)
 
 **Figure 9: Specifying Credentials**
 
