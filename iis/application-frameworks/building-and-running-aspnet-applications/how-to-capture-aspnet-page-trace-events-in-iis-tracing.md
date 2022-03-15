@@ -105,7 +105,7 @@ Failure Request Tracing first must be enabled for the site. Steps to enable are 
 
 5. Click **Finish**. You see the following definition for the Default Web Site:
 
-    ![Screenshot showing the Failed Request Tracing Rules screen. ](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image15.jpg)
+    ![Screenshot showing the Failed Request Tracing Rules window. ](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image15.jpg)
 
 ## Step 3 : Test and View
 
