@@ -56,18 +56,18 @@ Follow these steps:
    - images/uploads/
    - system/cache/
 
-     [![](expressionengine-on-iis/_static/image2.jpg)](expressionengine-on-iis/_static/image1.jpg)
+     [![Screenshot of Permissions for uploads dialog box. Permissions for I I S underscore I US R S are all selected and allowed.](expressionengine-on-iis/_static/image2.jpg)](expressionengine-on-iis/_static/image1.jpg)
 
 ## Run the Installation Script
 
 Inside the root directory, you find a file called install.php. Browse to the install using [http://localhost/eecore/install.php](http://localhost/eecore/install.php). This runs a script which configures your database and sets up the default site. Be sure that you access the file through your webserver and not by loading the file into your web browser locally.
 
 1. Click the "Click Here to begin" button to start installation  
-    [![](expressionengine-on-iis/_static/image4.jpg)](expressionengine-on-iis/_static/image3.jpg)
+    [![Screenshot of local host web page. Click here to begin button is found near the bottom of the web page.](expressionengine-on-iis/_static/image4.jpg)](expressionengine-on-iis/_static/image3.jpg)
 2. Accept the agreement and click Submit.  
-    [![](expressionengine-on-iis/_static/image6.jpg)](expressionengine-on-iis/_static/image5.jpg)
+    [![Screenshot of the Expressions Engine Installation Wizard. The button next to the text I agree to abide by the license Terms and Conditions as stated above is selected.](expressionengine-on-iis/_static/image6.jpg)](expressionengine-on-iis/_static/image5.jpg)
 3. Provide a name for the folder, which you renamed from System. Click Submit.  
-    [![](expressionengine-on-iis/_static/image8.jpg)](expressionengine-on-iis/_static/image7.jpg)
+    [![Screenshot of the Expressions Engine Installation Wizard. A box for the name of the system folder is shown above the submit button.](expressionengine-on-iis/_static/image8.jpg)](expressionengine-on-iis/_static/image7.jpg)
 4. Provide the details of your database: Admin username, password, time zone, etc. Click install ExpressionEngine.  
 
    - MySQLUserName as: eemsuser
@@ -76,27 +76,27 @@ Inside the root directory, you find a file called install.php. Browse to the ins
    - Admin account user name as : expressionengineadmin
    - And password as : eeadmin
 
-     [![](expressionengine-on-iis/_static/image10.jpg)](expressionengine-on-iis/_static/image9.jpg)
+     [![Screenshot of the Expressions Engine Installation Wizard. The Server Settings page is shown.](expressionengine-on-iis/_static/image10.jpg)](expressionengine-on-iis/_static/image9.jpg)
 
-     [![](expressionengine-on-iis/_static/image12.jpg)](expressionengine-on-iis/_static/image11.jpg)
+     [![Screenshot of the Expressions Engine Installation Wizard. The Database Settings page is shown.](expressionengine-on-iis/_static/image12.jpg)](expressionengine-on-iis/_static/image11.jpg)
 
-     [![](expressionengine-on-iis/_static/image14.jpg)](expressionengine-on-iis/_static/image13.jpg)
+     [![Screenshot of the Expressions Engine Installation Wizard. The Create your admin account page is shown.](expressionengine-on-iis/_static/image14.jpg)](expressionengine-on-iis/_static/image13.jpg)
 
-     [![](expressionengine-on-iis/_static/image16.jpg)](expressionengine-on-iis/_static/image15.jpg)
+     [![Screenshot of the Expressions Engine Installation Wizard. The Localization Settings page and Choose your default template design page is shown.](expressionengine-on-iis/_static/image16.jpg)](expressionengine-on-iis/_static/image15.jpg)
 5. You see the confirmation screen for a successful installation.  
-    [![](expressionengine-on-iis/_static/image18.jpg)](expressionengine-on-iis/_static/image17.jpg)
+    [![Screenshot of the Expressions Engine Installation Wizard. The Localization Settings page and Choose your default template design page is shown.](expressionengine-on-iis/_static/image18.jpg)](expressionengine-on-iis/_static/image17.jpg)
 6. Login to the Control Panel using the Admin username and password.  
-    [![](expressionengine-on-iis/_static/image20.jpg)](expressionengine-on-iis/_static/image19.jpg)
+    [![SCreenshot of theControl Panel Login page. The username and password box are shown. The submit button is also shown.](expressionengine-on-iis/_static/image20.jpg)](expressionengine-on-iis/_static/image19.jpg)
 
 The following are some screenshots of ExpressionEngine after it is up and running on IIS.
 
-[![](expressionengine-on-iis/_static/image22.jpg)](expressionengine-on-iis/_static/image21.jpg)
+[![Screenshot of the Expression Engine web page. The home page is shown.](expressionengine-on-iis/_static/image22.jpg)](expressionengine-on-iis/_static/image21.jpg)
 
-[![](expressionengine-on-iis/_static/image24.jpg)](expressionengine-on-iis/_static/image23.jpg)
+[![Screenshot of the Expression Engine web page. The modules tab is displayed and a list of modules is shown.](expressionengine-on-iis/_static/image24.jpg)](expressionengine-on-iis/_static/image23.jpg)
 
-[![](expressionengine-on-iis/_static/image26.jpg)](expressionengine-on-iis/_static/image25.jpg)
+[![Screenshot of the Expression Engine web page. The Default Site Weblog is displayed. Text on Getting Started with Expression Engine is written under the date Monday, December 10, 2007.](expressionengine-on-iis/_static/image26.jpg)](expressionengine-on-iis/_static/image25.jpg)
 
-[![](expressionengine-on-iis/_static/image28.jpg)](expressionengine-on-iis/_static/image27.jpg)
+[![Screenshot of the Expression Engine web page. The Default Site Weblog is displayed.](expressionengine-on-iis/_static/image28.jpg)](expressionengine-on-iis/_static/image27.jpg)
 
 ## Getting More Information
 
