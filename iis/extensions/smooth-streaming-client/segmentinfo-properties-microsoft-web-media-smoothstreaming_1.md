@@ -14,7 +14,7 @@ The [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) ty
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[AvailableStreams](segmentinfo-availablestreams-property-microsoft-web-media-smoothstreaming_1.md)|Gets the available [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects that is contained by a [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) object.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[EndPosition](segmentinfo-endposition-property-microsoft-web-media-smoothstreaming_1.md)|Gets the minimum of the end time for the last audio chunk and last video chunk.|
