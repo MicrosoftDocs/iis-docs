@@ -56,7 +56,7 @@ Follow these steps:
    - images/uploads/
    - system/cache/
 
-     [![Screenshot of Permissions for uploads dialog box. Permissions for I I S underscore I US R S are all selected and allowed.](expressionengine-on-iis/_static/image2.jpg)](expressionengine-on-iis/_static/image1.jpg)
+     [![Screenshot of Permissions for uploads dialog box. Permissions for I I S underscore I U S R S are all selected and allowed.](expressionengine-on-iis/_static/image2.jpg)](expressionengine-on-iis/_static/image1.jpg)
 
 ## Run the Installation Script
 
@@ -84,9 +84,9 @@ Inside the root directory, you find a file called install.php. Browse to the ins
 
      [![Screenshot of the Expressions Engine Installation Wizard. The Localization Settings page and Choose your default template design page is shown.](expressionengine-on-iis/_static/image16.jpg)](expressionengine-on-iis/_static/image15.jpg)
 5. You see the confirmation screen for a successful installation.  
-    [![Screenshot of the Expressions Engine Installation Wizard. The Localization Settings page and Choose your default template design page is shown.](expressionengine-on-iis/_static/image18.jpg)](expressionengine-on-iis/_static/image17.jpg)
+    [![Screenshot of the Expressions Engine Installation Wizard. The text says that Expression Engine has been successfully installed!](expressionengine-on-iis/_static/image18.jpg)](expressionengine-on-iis/_static/image17.jpg)
 6. Login to the Control Panel using the Admin username and password.  
-    [![SCreenshot of theControl Panel Login page. The username and password box are shown. The submit button is also shown.](expressionengine-on-iis/_static/image20.jpg)](expressionengine-on-iis/_static/image19.jpg)
+    [![SCreenshot of the Control Panel Login page. The username and password box are shown. The submit button is also shown.](expressionengine-on-iis/_static/image20.jpg)](expressionengine-on-iis/_static/image19.jpg)
 
 The following are some screenshots of ExpressionEngine after it is up and running on IIS.
 

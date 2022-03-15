@@ -136,7 +136,7 @@ There are no known bugs for this feature at this time.
 
 Open a browser and navigate to [https://centralcert0/](https://centralcert0/). Note that as a part of prerequisite, hosts file should are modified to route this request to localhost:
 
-[![SCreenshot of the central cert zero web page. I I S eight is displayed on the web page.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image23.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image21.png)
+[![Screenshot of the central cert zero web page. I I S eight is displayed on the web page.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image23.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image21.png)
 
 Furthermore, to see the new SSL binding type, enter the following in an elevated command-line window:
 

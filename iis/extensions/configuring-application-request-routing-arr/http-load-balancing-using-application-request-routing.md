@@ -50,7 +50,7 @@ Provided that the server farm has been created using the steps outlined in **[De
     ![Screenshot of Server Farm. The Health Test icon, the Load Balance Icon, the Monitoring and Management icon, the Proxy icon, the Routing Rules icon, and the Server Affinity icon.](http-load-balancing-using-application-request-routing/_static/image3.jpg)
 4. Double-click **Routing Rules**.
 5. Verify that the **Use URL Rewrite to inspect incoming requests** checkbox is checked.  
-    [![Screenshot of the Routing Rules page. The checkboxes next to Use U RL L Rewrite to inspect incoming requests and Enable S S L offloading are both checked.](http-load-balancing-using-application-request-routing/_static/image5.jpg)](http-load-balancing-using-application-request-routing/_static/image4.jpg)
+    [![Screenshot of the Routing Rules page. The checkboxes next to Use U R L Rewrite to inspect incoming requests and Enable S S L offloading are both checked.](http-load-balancing-using-application-request-routing/_static/image5.jpg)](http-load-balancing-using-application-request-routing/_static/image4.jpg)
 6. SSL offloading is enabled by default. When this feature is enabled, all communication between the ARR server and the application servers are done in clear text, even for HTTPS requests from clients to the ARR server. When both the ARR server and the application servers are deployed within a trusted network, such as within the same datacenter, enabling SSL offloading does not sacrifice security. Also, enabling this feature can further help to maximize the server resources on the application servers, since they do not have to spend cycles in encrypting and decrypting requests and responses.  
  To disable SSL offloading, uncheck the **Enable SSL offloading** checkbox, and then click **Apply**.
 7. Open a browser and send several requests to the ARR server.
@@ -96,7 +96,7 @@ The live traffic testing is performed automatically by default when the requests
 2. Place the **healthCheck.txt** file on the application servers.
 3. Verify that the **healthCheck.txt** is rendering properly by opening the page in a browser.
 4. In IIS Manager, select the server farm, **myServerFarm**. The following icons are shown:  
-    ![Screenshot of Server Farm. The Health Test icon, the Load Balance Icon, the Monitoring and Management icon, the Proxy icon, the Routing Rules icon, and the Server Affinity icon.](http-load-balancing-using-application-request-routing/_static/image9.jpg)
+    ![Screenshot of Server Farm. The Health Test icon, the Load Balance Icon, the Monitoring and Management icon, and other icons.](http-load-balancing-using-application-request-routing/_static/image9.jpg)
 5. Double-click **Health Test**.  
     ![Screenshot of the Health Test feature page. The U R L Test is shown.](http-load-balancing-using-application-request-routing/_static/image10.jpg)
 6. Enter `http://(server name or FQDN of ARR server)/healthCheck.txt` as the **URL** value.
@@ -127,7 +127,7 @@ Application Request Routing provides a client affinity feature that maps a clien
 1. Launch IIS Manager.
 2. Select the server farm, **myServerFarm**, which was created in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).
 3. The following icons are shown:  
-    ![Screenshot of Server Farm. The Health Test icon, the Load Balance Icon, the Monitoring and Management icon, the Proxy icon, the Routing Rules icon, and the Server Affinity icon.](http-load-balancing-using-application-request-routing/_static/image13.jpg)
+    ![Screenshot of the Server Farm dialog box and Icons found in Server Group.](http-load-balancing-using-application-request-routing/_static/image13.jpg)
 4. Double-click **Server Affinity**.
 5. To enable client affinity, check the **Client affinity** checkbox, and then click **Apply**.  
     [![Screenshot of the Server Affinity feature page. The checkbox next to Client affinity is shown. In the Cookie name box, the text A R R Affinity is shown.](http-load-balancing-using-application-request-routing/_static/image15.jpg)](http-load-balancing-using-application-request-routing/_static/image14.jpg)  
@@ -151,7 +151,7 @@ Disallowing new connections on a server is a graceful way of taking the server o
 1. Using the setup from Step 3 above, identify the server to which your client is affinitized.
 2. Select the server farm, **myServerFarm**, which was created in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).
 3. The following icons are shown:  
-    ![Screenshot of Server Farm. The Health Test icon, the Load Balance Icon, the Monitoring and Management icon, the Proxy icon, the Routing Rules icon, and the Server Affinity icon.](http-load-balancing-using-application-request-routing/_static/image16.jpg)
+    ![Screenshot of the Server Farm. The Health Test icon, the Load Balance Icon, the Monitoring and Management icon, the Proxy icon, and other icons found in the Server Farm.](http-load-balancing-using-application-request-routing/_static/image16.jpg)
 4. Double-click **Monitoring and Management**.
 5. Select the server to where your client is affinitized. In the **Actions** pane, click **Disallow New Connections**.
 6. In the confirmation dialog box, click **Yes**.  

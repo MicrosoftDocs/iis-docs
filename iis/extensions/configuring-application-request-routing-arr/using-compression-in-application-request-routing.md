@@ -60,7 +60,7 @@ This feature is enabled by default and can be found on the Cache Configuration p
     [![Screenshot of the Actions pane. Under the heading Cache Management, the Cache Configuration button is the first option.](using-compression-in-application-request-routing/_static/image7.jpg)](using-compression-in-application-request-routing/_static/image6.jpg)
 5. Use the **Enable compression** checkbox to enable or disable this feature in ARR.
 
-    [![Screenshot of the Cache Configuration dialog box. Enable compression is selected](using-compression-in-application-request-routing/_static/image9.jpg)](using-compression-in-application-request-routing/_static/image8.jpg)
+    [![Screenshot of the Cache Configuration dialog box. Enable compression is selected.](using-compression-in-application-request-routing/_static/image9.jpg)](using-compression-in-application-request-routing/_static/image8.jpg)
 
 ## Summary
 
