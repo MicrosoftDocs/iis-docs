@@ -135,7 +135,7 @@ The following steps walk you through all of the required settings to add FTP pub
 
 When the installation of FTP 7 fails for some reason, you should see a dialog with a button called "Installation log". Clicking the "Installation log" button will open the MSI installation log that was created during the installation. You can also manually enable installation logging by running the appropriate command listed below for your version of Windows. This will create a log file that will contain information about the installation process:
 
-- **32-bit Windows Versions**: 
+- **32-bit Windows Versions**:
 
   - msiexec /L FTP 7.log /I FTP 7\_x86\_75.msi
 - **64-bit Windows Versions**:
