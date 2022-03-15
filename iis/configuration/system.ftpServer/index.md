@@ -49,8 +49,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, and then select **FTP Server**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.
+  
+    ![Screenshot of Roles menu expanded. F T P Extensibility is highlighted.](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -62,8 +63,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. Expand **Internet Information Services**, and then select **FTP Server**.   
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
+   
+    ![Screenshot of Windows Features dialog box with F T P Extensibility highlighted in the expanded menu.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -76,8 +78,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
+  
+    ![Screenshot of the Add Role Services page with F T P Service highlighted in the expanded menu.](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -90,8 +93,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. Select **FTP Service**.  
   
     > [!NOTE]
-    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
+   
+    ![Screenshot of Windows Features dialog box with the o k button highlighted.](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -126,12 +130,12 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the **Home** pane, double-click the **FTP Logging** feature.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![Screenshot of the I I S Manager Home pane. The F T P Logging feature is highlighted.](index/_static/image9.png)
 4. In the **One log file per** drop-down list, choose one of the following options: 
 
     - Choose **Site** to specify that each FTP site will write to individual log files.
     - Choose **Server** to specify a single log file for all of your FTP sites.  
-        [![](index/_static/image12.png)](index/_static/image11.png)
+        ![Screenshot of the I I S Manager F T P Logging tab.](index/_static/image11.png)
 5. In the **Actions** pane, click **Apply**.
  
 <a id="005"></a>

@@ -32,11 +32,11 @@ To get started, you need to download and install the Web Platform Installer. To 
 
 By default, the Web PI displays the following tabs: **What's New**, **Web Platform**, and **Web Applications**. You can also use the Web PI to install Developer Tools and components of the Media Platform, such as IIS Media Services and Application Request Routing. To display the **Media Platform** and **Developer Tools** tabs, click **Options**, displayed in the lower left corner of the Web PI interface.
 
-[![](web-platform-installer-20-walkthrough/_static/image2.png)](web-platform-installer-20-walkthrough/_static/image1.png)
+![Screenshot of Web P I Window. The What's New tab is displayed. The options link is circled.](web-platform-installer-20-walkthrough/_static/image1.png)
 
 The **Change Options** dialog box is displayed.
 
-[![](web-platform-installer-20-walkthrough/_static/image4.png)](web-platform-installer-20-walkthrough/_static/image3.png)
+![Screenshot of the Web P I change options dialog box.](web-platform-installer-20-walkthrough/_static/image3.png)
 
 Select the check box for the **Media** and/or **Developer Tools** to display those tabs in the Web PI interface, and then click **OK**. The tabs are then displayed when the Web PI interface refreshes.
 
@@ -50,17 +50,17 @@ Select the tab that describes the type of products you want to install.
 
 Products listed on the **What's New** tab include products that have been released in the last few months.
 
-[![](web-platform-installer-20-walkthrough/_static/image6.png)](web-platform-installer-20-walkthrough/_static/image5.png)
+![Screenshot of the Web P I What's New tab.](web-platform-installer-20-walkthrough/_static/image5.png)
 
 ### Web Platform tab
 
 The **Web Platform** tab includes the products and components that comprise the Microsoft Web Platform. The Web PI automates the discovery and installation of the Microsoft Web Platform components, which includes the Web Server, Frameworks and Runtimes, Database, and Tools sections. In version 2.0, the Microsoft Web Platform also installs PHP version 5.2.9-2, by using the publicly available Windows installer for PHP.
 
-[![](web-platform-installer-20-walkthrough/_static/image8.png)](web-platform-installer-20-walkthrough/_static/image7.png)
+![Screenshot of the Web P I Web Platform tab with products listed.](web-platform-installer-20-walkthrough/_static/image7.png)
 
 A green checkmark next to a category indicates that all the recommended products for that category are already installed on your computer. To select specific products or components for a category, click **Customize**.
 
-[![](web-platform-installer-20-walkthrough/_static/image10.png)](web-platform-installer-20-walkthrough/_static/image9.png)
+![Screenshot of the Web P I Web Platform tab with customization options listed.](web-platform-installer-20-walkthrough/_static/image9.png)
 
 Click **Back to the Web Platform** after you select the applications you want to install.
 
@@ -68,7 +68,7 @@ Click **Back to the Web Platform** after you select the applications you want to
 
 The **Web Applications** tab includes popular community ASP.Net and PHP applications.
 
-[![](web-platform-installer-20-walkthrough/_static/image12.png)](web-platform-installer-20-walkthrough/_static/image11.png)
+![Screenshot of the Web P I Web Applications Tab displaying list of applications. The A to Z sort tab is highlighted.](web-platform-installer-20-walkthrough/_static/image11.png)
 
 You can change the sort order of the applications by using the buttons displayed at the top of the page.
 
@@ -84,25 +84,25 @@ Click on a tab to display only the applications in that category. You can sort a
 
 The **Media Platform** tab displays IIS Media Services and related components.
 
-[![](web-platform-installer-20-walkthrough/_static/image14.png)](web-platform-installer-20-walkthrough/_static/image13.png)
+![Screenshot of the Web P I Media Platform tab displaying I I S Media Services.](web-platform-installer-20-walkthrough/_static/image13.png)
 
 ### Developer Tools tab
 
 The **Developer Tools** tab displays tools for developing Web applications, including Visual Studio tools and a trial version of the latest release of Microsoft Expression Studio.
 
-[![](web-platform-installer-20-walkthrough/_static/image16.png)](web-platform-installer-20-walkthrough/_static/image15.png)
+![Screenshot of the Web P I Developer Tools tab with available applications listed.](web-platform-installer-20-walkthrough/_static/image15.png)
 
 ## Confirm your selections and accept the license agreement
 
 After you select the products and applications you want, click **Install**. The **Web Platform Installation** page displays the products you selected as well as any required dependencies. When you select a product or application, the Web PI automatically adds the dependencies for those products to the list of products to install.
 
-[![](web-platform-installer-20-walkthrough/_static/image18.png)](web-platform-installer-20-walkthrough/_static/image17.png)
+![Screenshot of the Web Platform Installation page displaying selected products and dependencies to install. The I Accept button is highlighted.](web-platform-installer-20-walkthrough/_static/image17.png)
 
 If you do not agree with the license terms, click **I Decline** to cancel the installation.
 
 Click **I Accept** to agree with the license terms for each selected product or application and begin the installation.
 
-[![](web-platform-installer-20-walkthrough/_static/image20.png)](web-platform-installer-20-walkthrough/_static/image19.png)
+![Screenshot of the Web P I window displaying download and install progress bars.](web-platform-installer-20-walkthrough/_static/image19.png)
 
 Most of the products that are offered in the Web PI do not require any further input from you and will seamlessly download and install. However, if a product requires input, a dialog box is displayed and you must then enter the information for that product's installation. For example, some applications ask for an application name and a Web site name as part of the installation process.
 
