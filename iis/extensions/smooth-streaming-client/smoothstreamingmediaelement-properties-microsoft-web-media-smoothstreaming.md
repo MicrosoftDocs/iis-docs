@@ -14,7 +14,7 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ActualHeight](https://msdn.microsoft.com/library/ms600871)|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ActualWidth](https://msdn.microsoft.com/library/ms600872)|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714).)|

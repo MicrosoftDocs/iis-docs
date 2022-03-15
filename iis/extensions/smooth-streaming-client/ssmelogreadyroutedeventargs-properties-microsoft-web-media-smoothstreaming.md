@@ -14,7 +14,7 @@ The [SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-we
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Log](ssmelogreadyroutedeventargs-log-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets an XML string in the Windows Media Log format that contains the fields listed in the LogFields section.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[LogSource](ssmelogreadyroutedeventargs-logsource-property-microsoft-web-media-smoothstreaming_1.md)|Gets a value that indicates why the log was generated.|
