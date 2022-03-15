@@ -72,7 +72,7 @@ To create a script map for the FastCGI handler on IIS 6.0 and IIS 5.1:
 9. Under **Verbs**, in the **Limit to** text box, enter **GET,HEAD,POST**.
 10. Select the **Script engine** and **Verify that file exists** check boxes.
 
-    [![](configuring-the-fastcgi-extension-for-iis-60/_static/image3.png)](configuring-the-fastcgi-extension-for-iis-60/_static/image1.png)
+    ![Screenshot of the Add/Edit Application Extension Mapping dialog.](configuring-the-fastcgi-extension-for-iis-60/_static/image1.png)
 
 11. Click **OK**.
 
