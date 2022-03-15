@@ -41,7 +41,7 @@ Type: [AdaptiveStreaming.ManifestType](manifesttype-enumeration.md)
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|

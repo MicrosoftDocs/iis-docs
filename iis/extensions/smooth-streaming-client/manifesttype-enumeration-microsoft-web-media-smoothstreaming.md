@@ -67,11 +67,11 @@ public enum ManifestType
 
 ## Members
 
-||Member name|Description|
-|--- |--- |--- |
-||Standard|The manifest is a standard manifest.|
-||Segmented|The manifest is a segmented (Live-to-VOD) manifest.|
-||Composite|The manifest is a composite manifest. A composite manifest combines clips from one or more client manifests.|
+|Member name|Description|
+|--- |--- |
+|Standard|The manifest is a standard manifest.|
+|Segmented|The manifest is a segmented (Live-to-VOD) manifest.|
+|Composite|The manifest is a composite manifest. A composite manifest combines clips from one or more client manifests.|
 
 ## Version Information
 
