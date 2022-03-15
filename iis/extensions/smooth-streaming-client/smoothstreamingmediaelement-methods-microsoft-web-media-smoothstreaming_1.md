@@ -14,7 +14,7 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[AddHandler](https://msdn.microsoft.com/library/ms598899(v=vs.95))|(Inherited from [UIElement](https://msdn.microsoft.com/library/ms590078(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ApplyTemplate](https://msdn.microsoft.com/library/cc190802(v=vs.95))|(Inherited from [Control](https://msdn.microsoft.com/library/ms609826(v=vs.95)).)|
