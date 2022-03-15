@@ -14,7 +14,7 @@ The [SmoothStreamingAsyncResult](smoothstreamingasyncresult-class-microsoft-web-
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[AsyncState](smoothstreamingasyncresult-asyncstate-property-microsoft-web-media-smoothstreaming.md)|Gets the state information passed by the application.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[AsyncWaitHandle](smoothstreamingasyncresult-asyncwaithandle-property-microsoft-web-media-smoothstreaming.md)|Gets the wait handle used by the application to wait.|

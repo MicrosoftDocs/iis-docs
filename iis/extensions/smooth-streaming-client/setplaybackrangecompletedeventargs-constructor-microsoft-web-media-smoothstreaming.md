@@ -24,7 +24,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[SetPlaybackRangeCompletedEventArgs(Exception, Object)](setplaybackrangecompletedeventargs-constructor-exception-object-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the [SetPlaybackRangeCompletedEventArgs](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md) class for a failed completion of a SetPlaybackRangeAysnc operation.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[SetPlaybackRangeCompletedEventArgs(TimeSpan, TimeSpan, Object)](setplaybackrangecompletedeventargs-constructor-timespan-timespan-object-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the [SetPlaybackRangeCompletedEventArgs](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md) class for a successful completion of a SetPlaybackRangeAysnc operation.|

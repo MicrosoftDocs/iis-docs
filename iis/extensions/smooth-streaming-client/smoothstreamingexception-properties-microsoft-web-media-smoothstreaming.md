@@ -14,7 +14,7 @@ The [SmoothStreamingException](smoothstreamingexception-class-microsoft-web-medi
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Data](https://msdn.microsoft.com/library/2wyfbc48)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HelpLink](https://msdn.microsoft.com/library/71tawy4s)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|

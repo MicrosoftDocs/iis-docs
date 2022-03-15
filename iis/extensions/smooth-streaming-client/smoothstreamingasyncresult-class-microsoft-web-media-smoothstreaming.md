@@ -72,13 +72,13 @@ The SmoothStreamingAsyncResult type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[SmoothStreamingAsyncResult](smoothstreamingasyncresult-constructor-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the SmoothStreamingAsyncResult class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[AsyncState](smoothstreamingasyncresult-asyncstate-property-microsoft-web-media-smoothstreaming.md)|Gets the state information passed by the application.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[AsyncWaitHandle](smoothstreamingasyncresult-asyncwaithandle-property-microsoft-web-media-smoothstreaming.md)|Gets the wait handle used by the application to wait.|
@@ -88,7 +88,7 @@ The SmoothStreamingAsyncResult type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Complete](smoothstreamingasyncresult-complete-method-microsoft-web-media-smoothstreaming.md)|Called when the operation has completed.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
