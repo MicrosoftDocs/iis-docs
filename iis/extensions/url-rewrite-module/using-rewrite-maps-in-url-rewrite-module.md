@@ -45,7 +45,7 @@ First, we will create a rewrite map and rewrite rule that will be used to perfor
 1. Go to IIS Manager
 2. Select "Default Web Site"
 3. In the Feature View click "URL Rewrite"  
-    [![Screenshot that shows URL Rewrite in Features View.](using-rewrite-maps-in-url-rewrite-module/_static/image4.png)](using-rewrite-maps-in-url-rewrite-module/_static/image3.png)
+    [![Screenshot that shows U R L Rewrite in Features View.](using-rewrite-maps-in-url-rewrite-module/_static/image4.png)](using-rewrite-maps-in-url-rewrite-module/_static/image3.png)
 4. In the "Actions" pane on right hand side, click on "**View rewrite maps...**":  
     [![Screenshot that shows View rewrite maps...](using-rewrite-maps-in-url-rewrite-module/_static/image8.png)](using-rewrite-maps-in-url-rewrite-module/_static/image7.png)
 5. In the "Actions" pane on right hand site, click on "Add rewrite map..." and then enter the name of the rewrite map as "**StaticRewrites**":  

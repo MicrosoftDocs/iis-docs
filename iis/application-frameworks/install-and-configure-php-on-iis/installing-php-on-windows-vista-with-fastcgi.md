@@ -15,7 +15,7 @@ by [Ruslan Yakushev](https://github.com/ruslany)
 
 Microsoft IIS 7.0 for Windows Vista SP1 now includes a built-in FastCGI component. To get detailed information on how to use FastCGI component to host PHP applications on Windows Server 2008 or Windows Vista SP1 refer to this [article](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md "PHP on IIS7").
 
-[![Warning that states that you need Vista SP1 for FastCGI support on I I S 7.](installing-php-on-windows-vista-with-fastcgi/_static/image2.gif)](installing-php-on-windows-vista-with-fastcgi/_static/image1.gif) IIS7.0 included in Windows Vista (not SP1) does not include FastCGI component. In order to get FastCGI support on IIS7.0 in Windows Vista it is necessary to upgrade to Vista SP1.
+[![Warning that states that you need Vista S P 1 for Fast C G I support on I I S 7.](installing-php-on-windows-vista-with-fastcgi/_static/image2.gif)](installing-php-on-windows-vista-with-fastcgi/_static/image1.gif) IIS7.0 included in Windows Vista (not SP1) does not include FastCGI component. In order to get FastCGI support on IIS7.0 in Windows Vista it is necessary to upgrade to Vista SP1.
 
 ## Getting More Information
 
