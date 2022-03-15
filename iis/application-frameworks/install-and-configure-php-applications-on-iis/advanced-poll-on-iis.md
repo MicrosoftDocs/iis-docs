@@ -44,7 +44,7 @@ Before starting the installation procedure for AdvancedPoll, you must create a d
 
     [!code-powershell[Main](advanced-poll-on-iis/samples/sample1.ps1)]
 2. Call the install script from your browser `http://localhost/advancedpoll/install.php`, and follow the setup instructions.  
-    [![](advanced-poll-on-iis/_static/image2.png)](advanced-poll-on-iis/_static/image1.png)
+    [![Screenshot that shows the welcome page of the installation wizard.](advanced-poll-on-iis/_static/image2.png)](advanced-poll-on-iis/_static/image1.png)
 
 All the necessary database tables are created.
 
@@ -52,18 +52,18 @@ All the necessary database tables are created.
 
 To test that Advanced Poll has been installed successfully, use the built-in demonstration polls as illustrated in the following screenshots.
 
-[![](advanced-poll-on-iis/_static/image4.png)](advanced-poll-on-iis/_static/image3.png)
+[![Screenshot that shows the demonstration polls.](advanced-poll-on-iis/_static/image4.png)](advanced-poll-on-iis/_static/image3.png)
 
 Create a poll and view it as a site visitor would. Follow these steps:
 
 1. Navigate to `http://localhost/advancedpoll/admin`.
 2. Enter the *administrator user name* and *password* created in the last installation step.  
-    [![](advanced-poll-on-iis/_static/image6.png)](advanced-poll-on-iis/_static/image5.png)
+    [![Screenshot that shows the poll list.](advanced-poll-on-iis/_static/image6.png)](advanced-poll-on-iis/_static/image5.png)
 3. Once logged in, click **Create a new poll**. A form displays:  
-    [![](advanced-poll-on-iis/_static/image8.png)](advanced-poll-on-iis/_static/image7.png)
+    [![Screenshot that shows the form for creating a poll.](advanced-poll-on-iis/_static/image8.png)](advanced-poll-on-iis/_static/image7.png)
 4. Click **Save** to publish this poll.
 5. Here you see the actual poll as site visitors see it.  
-    [![](advanced-poll-on-iis/_static/image10.png)](advanced-poll-on-iis/_static/image9.png)
+    [![Screenshot that shows the poll as visitors see it.](advanced-poll-on-iis/_static/image10.png)](advanced-poll-on-iis/_static/image9.png)
 
 ## Getting More Information
 

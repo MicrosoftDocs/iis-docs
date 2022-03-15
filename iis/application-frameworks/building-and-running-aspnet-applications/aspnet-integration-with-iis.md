@@ -45,7 +45,7 @@ In these earlier releases, IIS processed a request to an ASP.NET content type an
 
 The major limitation of this model was that services provided by ASP.NET modules and custom ASP.NET application code were not available to non-ASP.NET requests. In addition, ASP.NET modules were unable to affect certain parts of the IIS request processing that occurred before and after the ASP.NET execution path.
 
-[![](aspnet-integration-with-iis/_static/image3.jpg)](aspnet-integration-with-iis/_static/image1.jpg)
+[![Diagram that shows I I S 6 and A S P dot NET pipelines.](aspnet-integration-with-iis/_static/image3.jpg)](aspnet-integration-with-iis/_static/image1.jpg)
 
 **Figure 1: IIS 6.0 &amp; ASP.NET Pipelines**
 
@@ -57,7 +57,7 @@ The ability to plug in directly into the server pipeline allows ASP.NET modules 
 
 In addition, the expanded ASP.NET APIs use direct integration to enable more request-processing tasks. For example, ASP.NET modules can modify request headers before other components process the request, by inserting an Accept-Language header before ASP applications execute, which forces localized content to be sent back to the client based on user preference.
 
-[![](aspnet-integration-with-iis/_static/image7.jpg)](aspnet-integration-with-iis/_static/image5.jpg)
+[![Diagram that shows I I S 7 and above integrated mode.](aspnet-integration-with-iis/_static/image7.jpg)](aspnet-integration-with-iis/_static/image5.jpg)
 
 **Figure 2: IIS 7 and Above Integrated Mode**
 

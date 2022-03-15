@@ -34,7 +34,7 @@ Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot
 
 After copying this file, browse to `http://localhost/article.aspx` and check that the page was rendered correctly in a browser.
 
-[![](using-rewrite-maps-in-url-rewrite-module/_static/image2.png)](using-rewrite-maps-in-url-rewrite-module/_static/image1.png)
+[![Screenshot that shows the test page rendered in a browser.](using-rewrite-maps-in-url-rewrite-module/_static/image2.png)](using-rewrite-maps-in-url-rewrite-module/_static/image1.png)
 
 <a id="Creating_a_map_for_rewriting"></a>
 
@@ -45,13 +45,13 @@ First, we will create a rewrite map and rewrite rule that will be used to perfor
 1. Go to IIS Manager
 2. Select "Default Web Site"
 3. In the Feature View click "URL Rewrite"  
-    [![](using-rewrite-maps-in-url-rewrite-module/_static/image4.png)](using-rewrite-maps-in-url-rewrite-module/_static/image3.png)
+    [![Screenshot that shows U R L Rewrite in Features View.](using-rewrite-maps-in-url-rewrite-module/_static/image4.png)](using-rewrite-maps-in-url-rewrite-module/_static/image3.png)
 4. In the "Actions" pane on right hand side, click on "**View rewrite maps...**":  
-    [![](using-rewrite-maps-in-url-rewrite-module/_static/image8.png)](using-rewrite-maps-in-url-rewrite-module/_static/image7.png)
+    [![Screenshot that shows View rewrite maps...](using-rewrite-maps-in-url-rewrite-module/_static/image8.png)](using-rewrite-maps-in-url-rewrite-module/_static/image7.png)
 5. In the "Actions" pane on right hand site, click on "Add rewrite map..." and then enter the name of the rewrite map as "**StaticRewrites**":  
-    [![](using-rewrite-maps-in-url-rewrite-module/_static/image10.png)](using-rewrite-maps-in-url-rewrite-module/_static/image9.png)
+    [![Screenshot that shows the Rewrite map name box.](using-rewrite-maps-in-url-rewrite-module/_static/image10.png)](using-rewrite-maps-in-url-rewrite-module/_static/image9.png)
 6. On the page for newly created rewrite map, in the "Actions" pane on right hand side, click on "Add mapping entry..." and then enter "**/article**" and "**/article.aspx?id=1&amp;title=some-title**" for "Original value:" and "New value:" text boxes respectively. The original value specifies what URL path we want to rewrite from; the new value specifies what URL path we want to rewrite to.  
-     [![](using-rewrite-maps-in-url-rewrite-module/_static/image12.png)](using-rewrite-maps-in-url-rewrite-module/_static/image11.png)
+     [![Screenshot that shows the Original value and New value boxes.](using-rewrite-maps-in-url-rewrite-module/_static/image12.png)](using-rewrite-maps-in-url-rewrite-module/_static/image11.png)
 7. Repeat step 6 to add the following mappings to the rewrite map: 
 
     | Original Value: | New Value: |
@@ -90,7 +90,7 @@ To test the rewrite rule that uses "StaticRewrites" map, open web browser and re
 
 Any one of the URLs above should cause the URL to be rewritten in accordance to the mappings defined in the rewrite map. Your results should look like the following page:
 
-[![](using-rewrite-maps-in-url-rewrite-module/_static/image15.png)](using-rewrite-maps-in-url-rewrite-module/_static/image13.png)
+[![Screenshot that shows the results of the test.](using-rewrite-maps-in-url-rewrite-module/_static/image15.png)](using-rewrite-maps-in-url-rewrite-module/_static/image13.png)
 
 ## Using rewrite maps for redirection
 
