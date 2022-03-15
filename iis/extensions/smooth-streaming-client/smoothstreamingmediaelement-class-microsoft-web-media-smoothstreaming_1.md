@@ -96,13 +96,13 @@ The SmoothStreamingMediaElement type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[SmoothStreamingMediaElement](smoothstreamingmediaelement-constructor-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the SmoothStreamingMediaElement class.|
 
 ## Properties
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ActualHeight](https://msdn.microsoft.com/library/ms600871(v=vs.95))|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714(v=vs.95)).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ActualWidth](https://msdn.microsoft.com/library/ms600872(v=vs.95))|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714(v=vs.95)).)|
@@ -215,7 +215,7 @@ The SmoothStreamingMediaElement type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[AddHandler](https://msdn.microsoft.com/library/ms598899(v=vs.95))|(Inherited from [UIElement](https://msdn.microsoft.com/library/ms590078(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ApplyTemplate](https://msdn.microsoft.com/library/cc190802(v=vs.95))|(Inherited from [Control](https://msdn.microsoft.com/library/ms609826(v=vs.95)).)|
@@ -295,7 +295,7 @@ The SmoothStreamingMediaElement type exposes the following members.
 
 ## Events
 
-||Name|Description|
+|Event Type|Name|Description|
 |--- |--- |--- |
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[BindingValidationError](https://msdn.microsoft.com/library/cc626450(v=vs.95))|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714(v=vs.95)).)|
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[BufferingProgressChanged](smoothstreamingmediaelement-bufferingprogresschanged-event-microsoft-web-media-smoothstreaming_1.md)|Occurs when the [BufferingProgress](smoothstreamingmediaelement-bufferingprogress-property-microsoft-web-media-smoothstreaming_1.md) property changes.|
@@ -358,7 +358,7 @@ The SmoothStreamingMediaElement type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[AttributesProperty](smoothstreamingmediaelement-attributesproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property that specifies the [Attributes](smoothstreamingmediaelement-attributes-property-microsoft-web-media-smoothstreaming_1.md) property dictionary object.|
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[AudioStreamCountProperty](smoothstreamingmediaelement-audiostreamcountproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property that specifies the [AudioStreamCount](smoothstreamingmediaelement-audiostreamcount-property-microsoft-web-media-smoothstreaming_1.md) property.|
