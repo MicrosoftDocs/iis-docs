@@ -43,11 +43,11 @@ Register the section in the applicationHost.config. This involves adding just on
 
 Create a new console application using Visual Studio.
 
-[![](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image3.jpg)](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image1.jpg)
+![Screenshot of the New Project window. Console Applications is highlighted in the Templates section.](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image1.jpg)
 
 Add a reference to the Microsoft.Web.Administration.dll located at `%SystemRoot%\system32\inetsrv`.
 
-[![](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image7.jpg)](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image5.jpg)
+![Screenshot of the Add Reference dialog box with Microsoft.Web.Administration. D L L highlighted in the list.](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image5.jpg)
 
 Now write C# code in order to access the configuration section just created.
 
