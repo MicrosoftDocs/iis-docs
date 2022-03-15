@@ -90,13 +90,13 @@ ARR allows the user to enter an absolute URL to delete one specific cached conte
    ![Screenshot that shows the Delete Cached Objects dialog.](delete-cached-objects/_static/image4.jpg)
 3. A confirmation dialog box is shown when the specified content has been deleted successfully.
 
-   ![](delete-cached-objects/_static/image6.jpg)
+   ![Screenshot that shows the confirmation message.](delete-cached-objects/_static/image6.jpg)
 4. To delete all contents that match a URL pattern, a wildchar (\*) can be used. In the **Delete Cached Objects** dialog box shown in Step 2 above, instead of entering an absolute path, enter a URL with a wildchar pattern. In the example below, the URL pattern is `http://wonyoo-w2k8.arr1-cdn.com/cache/*.jpg`.
 
-   ![](delete-cached-objects/_static/image8.jpg)
+   ![Screenshot that shows a U R L with a wildchar pattern in the Delete Cached Objects dialog.](delete-cached-objects/_static/image8.jpg)
 5. A confirmation dialog box is shown when the contents that match the pattern have been deleted successfully.
 
-   ![](delete-cached-objects/_static/image6.jpg)
+   ![Screenshot that shows a message that confirms the deletion.](delete-cached-objects/_static/image6.jpg)
 
 ## Summary
 
