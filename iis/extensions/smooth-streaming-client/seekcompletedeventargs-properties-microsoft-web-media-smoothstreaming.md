@@ -14,7 +14,7 @@ The [SeekCompletedEventArgs](seekcompletedeventargs-class-microsoft-web-media-sm
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ActualSeekPosition](seekcompletedeventargs-actualseekposition-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [ActualSeekPosition](seekcompletedeventargs-actualseekposition-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Success](seekcompletedeventargs-success-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Success](seekcompletedeventargs-success-property-microsoft-web-media-smoothstreaming_1.md) property to indicate that the seek operation is successful.|
