@@ -41,7 +41,7 @@ The index of the track in the manifest.
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
