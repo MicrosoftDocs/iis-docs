@@ -22,7 +22,7 @@ Smooth Streaming is an IIS Media Services extension that enables adaptive stream
 
 ## Classes
 
-||Class|Description|
+|Class Type|Class|Description|
 |--- |--- |--- |
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)|The object describing the request being made.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)|The object describing the response from the cache.|
@@ -49,20 +49,20 @@ Smooth Streaming is an IIS Media Services extension that enables adaptive stream
 
 ## Interfaces
 
-||Interface|Description|
+|Interface Type|Interface|Description|
 |--- |--- |--- |
 |![Public interface](images/Ff728140.pubinterface(en-us,VS.90).gif "Public interface")|[ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)|Interface definition for writing a cache plug-in.|
 
 ## Delegates
 
-||Delegate|Description|
+|Delegate Type|Delegate|Description|
 |--- |--- |--- |
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SmoothStreamingMediaElement.ManifestMergeHandler](smoothstreamingmediaelement-manifestmergehandler-delegate-microsoft-web-media-smoothstreaming_1.md)|Delegate method to merge data from more than one manifest.|
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SSMELogReadyRoutedEventHandler](ssmelogreadyroutedeventhandler-delegate-microsoft-web-media-smoothstreaming_1.md)|The event handler for the [LogReady](smoothstreamingmediaelement-logready-event-microsoft-web-media-smoothstreaming_1.md) event.|
 
 ## Enumerations
 
-||Enumeration|Description|
+|Enumeration Type|Enumeration|Description|
 |--- |--- |--- |
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ChunkResult.ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)|An enumeration that contains the possible result states during processing by the [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) and [EndGetChunk](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) methods.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ClipProgress](clipprogress-enumeration-microsoft-web-media-smoothstreaming_1.md)|Enumeration that specifies the stages of progress through a media clip.|
