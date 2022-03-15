@@ -88,7 +88,7 @@ In this first step, we create a new FTP site using a unique virtual host name.
         - Type the user name for a local user in the field below; for example, you could type "MyUser".
         - In the **Permissions** option, select **read** and **Write**.
     - Click **Finish**.  
-    ![Screenshot of Authentication and Authorization page in Add F T P Site Wizard with Allow access to option set to Specified users.](using-ftp-virtual-host-names-in-iis-7/_static/image15.jpg)
+    ![Image of Wizard showing Basic selected for Authentication and Specified users chosen for Authorization with Read and Write options for Permissions.](using-ftp-virtual-host-names-in-iis-7/_static/image15.jpg)
 
 #### Summary
 
@@ -132,7 +132,7 @@ In this second step, we create another new FTP site using a unique virtual host 
         - Type the user name for a local user in the field below; for example, you could type "MyUser".
         - In the **Permissions** option, select **read** and **Write**.
     - Click **Finish**.  
-        ![Screenshot of Authentication and Authorization page in Add F T P Site Wizard with Allow access to option set to Specified users.](using-ftp-virtual-host-names-in-iis-7/_static/image33.jpg)
+        ![Screenshot of Wizard displaying Authentication set to Basic and Specified users chosen for Authorization with Read and Write in Permissions.](using-ftp-virtual-host-names-in-iis-7/_static/image33.jpg)
 
 #### Summary
 
