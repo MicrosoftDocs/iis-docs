@@ -58,11 +58,11 @@ To access Dynamic IP Restriction settings in IIS Manager follow these steps:
 1. Open IIS Manager
 2. In the left-hand side tree view select server node if you want to configure server-wide settings, or select a site node to configure site-specific settings.
 3. In the Features View click "Dynamic IP Restrictions"  
-    ![](using-dynamic-ip-restrictions/_static/image1.jpg)
+    ![Screenshot showing the features view in the main pane. The Dynamic IP Restrictions icon is selected.](using-dynamic-ip-restrictions/_static/image1.jpg)
 4. In the "Dynamic IP Restrictions" main page you can enable and specify the configuration for any of the features. To add an IP address to the Allow list you can click on the "Show Allowed Addresses" link on the right:  
-    ![](using-dynamic-ip-restrictions/_static/image3.jpg)
+    ![Screenshot showing Dynamic I P Restrictions in the main pane.](using-dynamic-ip-restrictions/_static/image3.jpg)
 5. Selecting the "Show Allowed Addresses" link above will bring up a window as shown below where you can see all the IP addresses that are allowed to bypass Dynamic IP Restriction validation. You can add more IP addresses to the list by selecting the "Add Allow Entry" link on the right.  
-    ![](using-dynamic-ip-restrictions/_static/image5.jpg)
+    ![Screenshot showing the Add Allow Restriction Rule dialog.](using-dynamic-ip-restrictions/_static/image5.jpg)
 
 ### Blocking of IP address based on number of concurrent requests
 
@@ -78,7 +78,7 @@ In the root folder of your web site create a file test.aspx and paste the follow
 
 This ASP.NET page for 3 seconds before returning any response. Save the file and then open web browser, request `http://localhost/test.aspx` and then continuously hit F5 to refresh the browser. This will result in browser making more than 2 concurrent requests so as a result you will see the 403 - Forbidden error from server:
 
-[![](using-dynamic-ip-restrictions/_static/image9.png)](using-dynamic-ip-restrictions/_static/image7.png)
+![Screenshot showing the Server Error in Application page with the 403.7 error.](using-dynamic-ip-restrictions/_static/image7.png)
 
 > [!IMPORTANT]
 > When configuring number of concurrent requests for a real web application, thoroughly test the limit that you pick to ensure that valid HTTP clients do not get blocked. This is especially important for Rich Internet Applications that have AJAX enabled web pages and serve media content.
@@ -93,7 +93,7 @@ To test this feature set the "Maximum number of requests" to 5 and "Time period"
 
 Open web browser, request `http://localhost/welcome.png` and then hit F5 to continuously refresh the page. This will generate more than 5 requests over 5 seconds so as a result you will see server responding with 403 - Forbidden status code:
 
-[![](using-dynamic-ip-restrictions/_static/image13.png)](using-dynamic-ip-restrictions/_static/image11.png)
+![Screenshot showing the Server Error in Application page with the 403.8 error.](using-dynamic-ip-restrictions/_static/image11.png)
 
 If you wait for another 5 seconds when all the previous requests have executed and then make a request, the request will succeed.
 

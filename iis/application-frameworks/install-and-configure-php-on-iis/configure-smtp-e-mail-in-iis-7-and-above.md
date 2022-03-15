@@ -37,7 +37,7 @@ The SMTP server is not installed by default.
 4. Click **Add Required Role Services**. If there are any missing roles required for the SMTP installation, Windows Server® 2008 R2 or Windows Server® 2008 installs them. Click **Next**.
 5. You need to step through the entire wizard again, even though IIS is already installed (IIS 6 Management Compatibility and the IIS 6 Management Console must be installed for SMTP to work).  
 
-    [![](configure-smtp-e-mail-in-iis-7-and-above/_static/image2.jpg)](configure-smtp-e-mail-in-iis-7-and-above/_static/image1.jpg)
+    ![Screenshot of the Add Features Wizard window showing Confirm Installation Selections.](configure-smtp-e-mail-in-iis-7-and-above/_static/image1.jpg)
 
     *Figure 1: Confirm Installation Selections*
 6. Press **Close** when installation is complete.
@@ -104,7 +104,7 @@ Note that when you use Appcmd.exe to configure the `<mailSettings>` element at t
 4. On the **Properties** page, open the **Access** tab, and then click on **Connection**. You can see which server or IP addresses are allowed to connect to the server.
 5. If the IP address 127.0.0.1 is not listed, add it using the **Add** button. You may also add your server IP address to the list.  
 
-    [![](configure-smtp-e-mail-in-iis-7-and-above/_static/image4.jpg)](configure-smtp-e-mail-in-iis-7-and-above/_static/image3.jpg)
+    ![Screenshot showing a desktop showing I I S dialogs.](configure-smtp-e-mail-in-iis-7-and-above/_static/image3.jpg)
 
     *Figure 2: Enable Relay for localhost*
 6. Click **OK** to accept the information.
