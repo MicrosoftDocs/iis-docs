@@ -1,5 +1,5 @@
 ---
-title: "Configure SMTP E-Mail in IIS 7 and above"
+title: "Configure SMTP E-Mail in IIS 7 and higher"
 author: rick-anderson
 description: "To send e-mail from a PHP application using the System.Net.Mail API, you must configure Simple Mail Transfer Protocol (SMTP) e-mail. Configuring e-mail servi..."
 ms.date: 11/15/2009
