@@ -67,7 +67,7 @@ public enum PlaybackMode
 
 ## Members
 
-||Member name|Description|
+|Support Type|Member name|Description|
 |--- |--- |--- |
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|AudioVideo|Both audio and video.|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|AudioOnly|Audio only.The [SmoothStreamingPlaybackMode](smoothstreamingmediaelement-smoothstreamingplaybackmode-property-microsoft-web-media-smoothstreaming_1.md) property currently does not support VideoOnly.|
