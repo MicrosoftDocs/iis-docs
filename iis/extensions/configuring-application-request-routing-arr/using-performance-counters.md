@@ -40,7 +40,7 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 
 Application Request Routing exposes runtime statistics on the Monitoring and Management page, as shown below:
 
-[![](using-performance-counters/_static/image2.jpg)](using-performance-counters/_static/image1.jpg)
+![Screenshot of the Monitoring and Management window.](using-performance-counters/_static/image1.jpg)
 
 As you refresh the view by pushing the F5 key, you can see the real-time statistics. While this works well for one instance of ARR, it is somewhat problematic when there are multiple instances of ARR and you want to aggregate the statistics into a consolidated view. To accommodate this scenario, ARR also exposes these statistics and more using performance counters.
 
@@ -68,7 +68,7 @@ The following performance counter objects are available:
 
 Since ARR also provides the above statistics per host name per server farm, the instances of the objects have the same granularity and they are shown as `<server farm name>\<host name>`, as shown below:
 
-[![](using-performance-counters/_static/image4.jpg)](using-performance-counters/_static/image3.jpg)
+![Screenshot showing one instance in the Instances of selected object section.](using-performance-counters/_static/image3.jpg)
 
 **Application Request Routing Server**
 
@@ -89,7 +89,7 @@ The following performance counter objects are available:
 
 Since ARR also provides the above statistics per server per server farm, the instances of the objects have the same granularity and they are shown as `<server farm name>\<server name>`, as shown below:
 
-[![](using-performance-counters/_static/image6.jpg)](using-performance-counters/_static/image5.jpg)
+![Screenshot showing multiple instances in the Instances of selected object section.](using-performance-counters/_static/image5.jpg)
 
 ## Summary
 

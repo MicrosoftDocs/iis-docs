@@ -21,7 +21,7 @@ Web content can also be shared on a network volume across multiple servers. This
 
 ## Package, Archive, Migrate, and Synchronize
 
- [![](centralized-web-farm-management/_static/ms-deploy-small.png)](centralized-web-farm-management/_static/ms-deploy-big.png) 
+ ![Screenshot of the Install a Package window.](centralized-web-farm-management/_static/ms-deploy-big.png) 
 
 IIS supports the [Microsoft Web Deployment Tool](/iis/publish/using-web-deploy.md), which provides support for synchronizing:
 
