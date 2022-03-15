@@ -14,7 +14,7 @@ The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) type
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Attributes](streaminfo-attributes-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets attributes for this stream.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[AvailableTracks](streaminfo-availabletracks-property-microsoft-web-media-smoothstreaming_1.md)|Gets the [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-media-smoothstreaming_1.md) property.|

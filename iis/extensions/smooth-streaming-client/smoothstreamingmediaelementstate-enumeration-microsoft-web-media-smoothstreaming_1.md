@@ -79,7 +79,7 @@ public enum SmoothStreamingMediaElementState
 
 ## Members
 
-||Member name|Description|
+|Support Type|Member name|Description|
 |--- |--- |--- |
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|Closed|The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) contains no media. The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) displays a transparent frame. A media clip can be scheduled for play by using the [ScheduleClip](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md) method with the [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event.|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|Opening|The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) is loading the media for playback. The [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) does not advance in this state. If the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) was already playing video, it continues to display the last displayed frame.|
