@@ -43,7 +43,7 @@ IIS 7.0 and later have a new user interface from previous versions of IIS: the I
 
 Internet Information Services (IIS) Manager has had Back/Forward type navigation in past releases, and the new IIS Manager takes this even farther by adding an **address bar** that works like Windows Explorer.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image2.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image1.jpg)
+![Screenshot of the I I S Manager screen showing the default web site home page.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image1.jpg)
 
 **Figure 1: New IIS Manager**
 
@@ -53,7 +53,7 @@ Internet Information Services (IIS) Manager has had Back/Forward type navigation
 
 The Home Page will become very familiar as soon as you start using IIS Manager. The feature list in the middle can be sorted by feature name or description, grouped by area or category, and viewed in different layouts.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image4.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image3.jpg)
+![Screenshot of the Default web site home pane showing grouping, views, and feature list.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image3.jpg)
 
 **Figure 2: Grouping in IIS Manager**
 
@@ -89,13 +89,13 @@ There are three types of pages in IIS
 
 List pages contain lists. Most list pages let you group by values in one or more columns. The main list pages, like Sites and Application Pools, let you to filter the list entries by searching in a list column for entries that match a search string.
 
-**[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image7.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image6.jpg)**
+![Screenshot of a portion of the I I S Manager screen showing the Go menu and Actions pane.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image6.jpg)
 
 **Figure 3: IIS Manager List Page**
 
 The **Add/Edit/Remove** tasks in the task pane let you manipulate the contents of the list. Feature settings that aren't specific to a list entry, e.g. specifying that custom errors should be overridden by detailed errors for local requests, are generally configured through the **Edit Feature Settings…** task.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image10.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image9.jpg)
+![Screenshot of the feature settings page showing the alert pane.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image9.jpg)
 
 **Figure 4: IIS Manager Actions**
 
@@ -103,7 +103,7 @@ The **Add/Edit/Remove** tasks in the task pane let you manipulate the contents o
 
 Property grid pages show grids of related properties. The **Display** selector at the top of the property grid lets you choose whether you would like to view friendly property names, the configuration property names, or both. The screenshot below shows both names.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image13.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image12.jpg)
+![Screenshot of the property grid page showing friendly and configuration names.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image12.jpg)
 
 **Figure 5: Property Grids in IIS Manager**
 
@@ -119,7 +119,7 @@ Content View is a read-only display; you can't create, copy, move, or delete fil
 
 The only way to **set configuration for a file** is to switch to Content View, select the file, and click "Switch to Features View" in the right-click menu or in the task pane.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image15.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image14.jpg)
+![Screenshot showing the Features View and Content View options.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image14.jpg)
 
 **Figure 6: Switch to Features View**
 
@@ -208,7 +208,7 @@ The `<config\_file\_name>` is the name of the target configuration file, for exa
 
 The `<location\_path>` is the location path to the object being configured (for more information on location paths, see [Configuration Overview](../planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above.md)). This portion of the text only appears if the feature's configuration section is locked at a higher level.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image17.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image16.jpg)
+![Screenshot showing the Switch to Features View selected and the Actions pane.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image16.jpg)
 
 <a id="ExampleWriting"></a>
 
@@ -257,7 +257,7 @@ The Web Management Service (WMSVC) is a stand-alone web server (hostable web cor
 
 IIS Manager sends a login request across the wire to WMSVC to intiate a connection. Authentication is either NTLM or basic, depending on what the user selected when they were asked to provide credentials in the connection dialog.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image19.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image18.jpg)
+![Screenshot of the login dialog showing the N T L M and Basic sections.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image18.jpg)
 
 **Figure 9: Specifying Credentials**
 
@@ -276,7 +276,7 @@ Ping requests are made from within the WMSVC service to the web server (HWC) it 
 **Service Configuration**  
 WMSVC has very small set of editable configuration stored in the registry. Each time the service is started, the web configuration files are regenerated in `%windir%\ServiceProfiles\LocalService\AppData\Local\Temp\WMSvc<GUID>\`. The web configuration files cannot be edited, even by administrators.
 
-[![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image21.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image20.jpg)
+![Screenshot showing web configuration files.](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image20.jpg)
 
 **Figure 10: Changing Configuration in Registry**
 

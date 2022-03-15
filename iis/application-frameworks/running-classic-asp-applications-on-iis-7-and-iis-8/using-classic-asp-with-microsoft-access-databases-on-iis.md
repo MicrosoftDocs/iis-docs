@@ -63,7 +63,7 @@ If you have some form of tracing or debugging enabled, the trace or debug inform
 
 If you have the IIS [Failed Request Tracing](using-failed-request-tracing-to-troubleshoot-classic-asp-errors.md) configured to capture trace logs from HTTP 500 errors, you will see something that resembles the following illustration when you examine a trace log from the failure:
 
-![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image1.jpg)
+![Screenshot of a browser window showing a portion of a trace log.](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image1.jpg)
 
 Although this error indicates that the failure occurred when opening the database, it does not give any additional information to assist you with narrowing the problem to a specific area.
 
@@ -71,11 +71,11 @@ Although this error indicates that the failure occurred when opening the databas
 
 The Microsoft Windows Sysinternals [Process Monitor](https://technet.microsoft.com/sysinternals/bb896645.aspx) utility is a great resource for tracking permissions-related problems. To use Process Monitor to trace the IIS issues in this topic, configure Process Monitor to filter tracing for only those events that are created by W3wp.exe processes, as shown in the following illustration:
 
-![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image3.jpg)
+![Screenshot of the Process Monitor Filter dialog.](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image3.jpg)
 
 Once you have configured the Process Monitor filter settings, configure Process Monitor to capture events and then reproduce your error. After you have reproduced your error, look through the Process Monitor capture log for any errors in the **Result** column of logs, as shown in the following illustration:
 
-![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image5.jpg)
+![Screenshot showing the Process Monitor log.](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image5.jpg)
 
 By analyzing the information in the Process Monitor logs, you can pinpoint any permissions-related issues. This will be illustrated in the following examples.
 
@@ -121,7 +121,7 @@ This error indicates that the JET database engine cannot access the temporary di
 
 The configuration setting that governs whether the user profile is loaded for the Application Pool identity is **loadUserProfile**, which is set to **false**, by default. You can configure this setting by changing the value of the **Load User Profile** attribute in the **Advanced Settings** dialog box for an application pool.
 
-![](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image7.jpg)
+![Screenshot of the Advanced Settings dialog. Load User profile is highlighted.](using-classic-asp-with-microsoft-access-databases-on-iis/_static/image7.jpg)
 
 You can also configure this setting by using the command-line tool AppCmd.exe with the following syntax:
 

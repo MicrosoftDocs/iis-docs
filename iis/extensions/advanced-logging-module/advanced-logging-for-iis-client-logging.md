@@ -32,9 +32,9 @@ For client logging to be useful, a client must send messages to IIS Advanced Log
 Client logging in IIS Advanced Logging is disabled by default. To enable this feature, do the following:
 
 1. In IIS Manager, on the **Home** page for the server where you would like to receive client logs, double-click the **Advanced Logging** icon.  
-    [![](advanced-logging-for-iis-client-logging/_static/image2.jpg)](advanced-logging-for-iis-client-logging/_static/image1.jpg)
+    ![Screenshot of the I I S Manager server home page. The Advanced Logging icon is selected.](advanced-logging-for-iis-client-logging/_static/image1.jpg)
 2. In the **Actions** pane, click **Enable Client Logging**.  
-    [![](advanced-logging-for-iis-client-logging/_static/image4.jpg)](advanced-logging-for-iis-client-logging/_static/image3.jpg)
+    ![Screenshot of the Actions pane with Enable Client Logging selected.](advanced-logging-for-iis-client-logging/_static/image3.jpg)
 
 <a id="sample"></a>
 
