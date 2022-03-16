@@ -106,7 +106,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
     - Enter any HTTP headers to scan in the **Scan Headers** collection.
     - Enter the file name extensions to use with the filtering rule in the **Applies To** collection.
     - Enter the collection of strings to deny for the filtering rule in the **Deny Strings** collection.  
-        [![Screenshot of Add Filtering Rule dialog box displaying Scan url and Scan query string selected and Example Rule populating the Name box.](index/_static/image12.png)](index/_static/image11.png)
+        [![Screenshot of Add Filtering Rule dialog box displaying Scan u r l and Scan query string selected and Example Rule populating the Name box.](index/_static/image12.png)](index/_static/image11.png)
 7. Click **OK** to close the **Add Filtering Rule** dialog.
 
 <a id="005"></a>

@@ -92,7 +92,7 @@ Here is sample log file output with Protocol Version field enabled:
     ![Screenshot of dialog box for Add Site Binding with Type of I P Address highlighted and Local I I S Server selected from the drop down.](http2-on-iis/_static/image5.png)
 4. Launch your browser from your Windows 10 or Windows Server 2016 machine and hit F12, (or go to **Settings** and enable **F12 Developer Tools**), and then switch to the **Network** tab. Browse to `https://localhost` and voila, you are on HTTP/2!
 
-    ![](http2-on-iis/_static/image6.png)
+    ![Screenshot of Local Host dash F 12 Developer Tools with Network tab displayed and H T T P 2 selected.](http2-on-iis/_static/image6.png)
 
 ## When is HTTP/2 Not Supported?
 
