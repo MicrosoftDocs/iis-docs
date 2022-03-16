@@ -14,7 +14,7 @@ The [Credential](credential-class-microsoft-web-media-transformmanager.md) type 
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Description](credential-description-property-microsoft-web-media-transformmanager.md)|Gets or sets the credential description.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Domain](credential-domain-property-microsoft-web-media-transformmanager.md)|Gets or sets the credential domain.|

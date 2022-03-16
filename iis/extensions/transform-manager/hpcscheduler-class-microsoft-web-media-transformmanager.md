@@ -77,19 +77,19 @@ The HpcScheduler type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[HpcScheduler](hpcscheduler-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the HpcScheduler class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TestConnectionMessage](hpcscheduler-testconnectionmessage-property-microsoft-web-media-transformmanager.md)|Gets the connection message.|
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](hpcscheduler-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels the job. (Overrides [Scheduler.CancelJob(String)](scheduler-canceljob-method-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CleanupJob](hpcscheduler-cleanupjob-method-microsoft-web-media-transformmanager.md)|Cleans up scheduler data structure artifacts. (Overrides [Scheduler.CleanupJob(String)](scheduler-cleanupjob-method-microsoft-web-media-transformmanager.md).)|
