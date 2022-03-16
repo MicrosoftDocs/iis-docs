@@ -52,7 +52,7 @@ OpenAds 2.0 contains an automatic installer which does most of the work for you.
 
 1. To start the installer, open a Web browser and point it to the directory in which [http://localhost/openads](http://localhost/openads). This starts the installer automatically. If it does not start automatically, use [http://192.168.2.10/openads/www/admin/install.php](http://192.168.2.10/openads/www/admin/install.php).  
 
-    [![](openads-on-iis/_static/image2.jpg)](openads-on-iis/_static/image1.jpg)
+    ![Screenshot of a browser showing the Openads installer.](openads-on-iis/_static/image1.jpg)
 2. Click Continue to start the configuration and read the license agreement. Click I agree. The installer verifies the configuration required for OpenAds.  
 
     [![](openads-on-iis/_static/image4.jpg)](openads-on-iis/_static/image3.jpg)
