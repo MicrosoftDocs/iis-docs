@@ -26,7 +26,7 @@ External Cache is a disk-based cache module for IIS.
 
 To configure and use Microsoft External Cache for IIS with Application Request Routing:
 
-[![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image2.jpg)](using-multiple-instances-of-application-request-routing-arr-servers/_static/image1.jpg)
+![An organization chart showing the configuration of two A R R servers and their connections to shared content servers and a file share server. ](using-multiple-instances-of-application-request-routing-arr-servers/_static/image1.jpg)
 
 ## Prerequisites
 
@@ -55,12 +55,12 @@ As another prerequisite, you must have defined and configured a server farm usin
 1. Launch IIS Manager.
 2. Select the server farm that has been created for this walkthrough.
 3. The following icons are shown:  
-    ![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image3.jpg)
+    ![Screenshot of Server Farm tab within I I S Manager.](using-multiple-instances-of-application-request-routing-arr-servers/_static/image3.jpg)
 4. Double-click **Server Affinity**.
 5. As mentioned above, External Cache is needed only if host name affinity is used and there are multiple instances of ARR. Therefore, ensure that the **Use host name** checkbox is selected.  
-    [![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image5.jpg)](using-multiple-instances-of-application-request-routing-arr-servers/_static/image4.jpg)
+    ![Screenshot of the Server Affinity Tab. Use host name checkbox is selected.](using-multiple-instances-of-application-request-routing-arr-servers/_static/image4.jpg)
 6. Select the **Use external cache** checkbox to enable External Cache. The **File share path** text box is a required field, and specifies where the ARR servers will access to maintain the host name affinity state between the ARR servers.  
-    [![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image7.jpg)](using-multiple-instances-of-application-request-routing-arr-servers/_static/image6.jpg)
+    ![Screenshot of the External Cache dialog box.](using-multiple-instances-of-application-request-routing-arr-servers/_static/image6.jpg)
 7. Repeat the steps above on all ARR servers.
 8. To verify that the feature works, send a request with a specific host name to one of the ARR servers. Make a note of which application server this host name is affinitized to. Send the same request to the remaining ARR servers. Regardless of which ARR server is handling the requests with this host name, they all should be routed to the same application server.
 9. You may also want to verify the file share where the data is being written.

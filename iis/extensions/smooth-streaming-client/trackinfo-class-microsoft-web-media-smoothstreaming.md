@@ -64,7 +64,7 @@ The TrackInfo type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Attributes](trackinfo-attributes-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the attributes for a track.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Bitrate](trackinfo-bitrate-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Bitrate](trackinfo-bitrate-property-microsoft-web-media-smoothstreaming_1.md) property.|
@@ -74,7 +74,7 @@ The TrackInfo type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md)|Beginning method of the asynchronous API for the application to get chunk content based on the timestamp.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CompareTo](trackinfo-compareto-method-microsoft-web-media-smoothstreaming_1.md)|Compares a T:Microsoft.Web.Media.SmoothStreaming.TrackInfo object to an object specified by the obj parameter.|

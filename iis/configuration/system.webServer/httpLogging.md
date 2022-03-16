@@ -57,13 +57,13 @@ The `<httpLogging>` element is included in the default installation of IIS 7.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or application for which you want to configure HTTP logging.
 3. In the **Home** pane, double-click **Logging**.
 4. In the **Actions** pane, click **Enable** to enable logging.  
-    [![](httpLogging/_static/image2.png)](httpLogging/_static/image1.png)
+    [![Screenshot of the Logging pane. The text Use this feature to configure how I I S logs request server is shown.](httpLogging/_static/image2.png)](httpLogging/_static/image1.png)
 5. Select the log file format you want to use for your site or application in the **Format** drop-down list, and, if you want to change the default location where IIS stores log files, type the path where you want to store the log files for the site or application in the **Directory** box.
 6. (Optional) If you selected **W3C** in the **Format** drop-down list in step 5, click **Select Fields**.
 7. (Optional) In the **W3C Logging Fields** dialog box, select the W3C fields you want to log, clear any W3C fields you do not want to log, and then click **OK**.  
-    [![](httpLogging/_static/image4.png)](httpLogging/_static/image3.png)
+    [![Screenshot of the W three C Logging Fields dialog box. The checkboxes for Date, Time, Client I P Address, User Name, Service Name and Server I P Address are checked. Service Name is highlighted. ](httpLogging/_static/image4.png)](httpLogging/_static/image3.png)
 8. In the **Actions** pane, click **Apply**.  
-    [![](httpLogging/_static/image6.png)](httpLogging/_static/image5.png)
+    [![Screenshot of the Actions pane. The One log file box is shown.](httpLogging/_static/image6.png)](httpLogging/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration

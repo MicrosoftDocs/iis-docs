@@ -72,13 +72,13 @@ The JobManifest type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobManifest](jobmanifest-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the JobManifest class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Arguments](jobmanifest-arguments-property-microsoft-web-media-transformmanager.md)|Gets executable program task arguments that are associated with the data in the manifest.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[FileName](jobmanifest-filename-property-microsoft-web-media-transformmanager.md)|Gets or sets the file name of the manifest.|
@@ -106,7 +106,7 @@ The JobManifest type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateManifest](jobmanifest-createmanifest-method-microsoft-web-media-transformmanager.md)|Creates a JobManifest object by using the job definition, the root work folder name, scheduling information about a job, tasks that define a job, shared properties, the name of the file that is used to create the manifest, and the ID of the manifest instance.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
@@ -127,7 +127,7 @@ The JobManifest type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ManifestExtension](jobmanifest-manifestextension-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used as the job manifest file extension (".smil").|
 

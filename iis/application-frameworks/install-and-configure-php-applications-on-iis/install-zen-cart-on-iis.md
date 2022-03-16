@@ -69,12 +69,12 @@ The installer automatically supplies information during installation, but you mu
 6. If you make changes to your server, click **Re-Check** (or press **F5** in your browser) to refresh the display and reflect the changes made before proceeding.
 7. When the system inspection is satisfactory (all green check marks), click **Install** at the bottom of the screen.  
 
-    [![](install-zen-cart-on-iis/_static/image2.jpg)](install-zen-cart-on-iis/_static/image1.jpg)
+    [![Screenshot of System inspection results. Green check marks appear on the left hand side of the list. ](install-zen-cart-on-iis/_static/image2.jpg)](install-zen-cart-on-iis/_static/image1.jpg)
 
     *Figure 1: System inspection results*
 8. Provide database information about your *MySQL database*, *user name*, and *password*. If you do not have a MySQL database setup with a user name and password, you must create one.  
 
-    [![](install-zen-cart-on-iis/_static/image4.jpg)](install-zen-cart-on-iis/_static/image3.jpg)
+    [![Screenshot of the My S Q L database. The Database setup information is displayed.](install-zen-cart-on-iis/_static/image4.jpg)](install-zen-cart-on-iis/_static/image3.jpg)
 
     *Figure 2: Database setup*
 9. Next, you are prompted for *phpBB path* information. If you have the phpBB forum software already installed on your site, enable it for connectivity and synchronization from Zen Cart by specifying the path where the phpBB files are located. (For example, if the files are located in ...public\_html/forums, enter /forums in the Zen Cart installer for the path to the phpBB files.)   

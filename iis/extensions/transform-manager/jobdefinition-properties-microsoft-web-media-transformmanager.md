@@ -14,7 +14,7 @@ The [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[AssetRetentionPeriodDisplayUnit](jobdefinition-assetretentionperioddisplayunit-property-microsoft-web-media-transformmanager.md)|Gets or sets a value that indicates how long the assets that are associated with a job are retained.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[AssetRetentionPeriodMinutes](jobdefinition-assetretentionperiodminutes-property-microsoft-web-media-transformmanager.md)|Gets or sets the number of minutes that the asset files that are associated with a job are retained after they are selected for deletion during maintenance.|

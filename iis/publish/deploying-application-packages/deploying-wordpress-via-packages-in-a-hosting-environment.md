@@ -93,11 +93,11 @@ D. Export the Package from the IIS Application Web Site
 
 1. Open Internet Information Services (IIS) Manager.   
  The Internet Information Services (IIS) Manager application opens.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image2.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image1.jpg)
+    [![Screenshot of Internet Information Services I I S Manager application. The Sites node is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image2.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image1.jpg)
 2. Expand your server connection, and click **Sites**.
 3. In the Actions area, click the **Add Web Site** link.  
  The Add Web Site dialog box appears.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image4.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image3.jpg)
+    [![Screenshot of the Add Web Site dialog box. In the Site name box the text Word Press zero one is written. The checkbox next to the Start Web site immediately option is checked.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image4.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image3.jpg)
 4. Enter a site name for your Web site.
 5. In the Physical path field, type the physical path to the folder in which the application is installed, or click the browse button (...) to navigate to the folder.
 6. In the Binding area, select the protocol for your Web site from the Type drop-down list.
@@ -113,18 +113,18 @@ D. Export the Package from the IIS Application Web Site
 
 1. Open Web Platform Installer (Web PI) locally from the web server.  
    The Web Platform Installer application opens.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image6.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image5.jpg)
+    [![Screenshot of the Web Platform Installer application. Wordpress is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image6.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image5.jpg)
 2. Select **WordPress**, and click **Install**.  
   
    The Web Platform Installation window appears.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image8.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image7.jpg)
+    [![Screenshot of the Web Platform Installation window. Wordpress appears in the text box. The I Decline and I Accept buttons can be found at the bottom of the pane.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image8.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image7.jpg)
 3. Click **I Accept** to accept the end-user license agreement.   
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image10.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image9.jpg)
+    [![Screenshot of the Web Platform Installation window. The text Step one of two Enter your site information is found at the top.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image10.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image9.jpg)
 4. From the Web Site drop-down list, select the Web site you created earlier in this procedure.
 5. In the application name field, enter an application name if it is different from the default value.  
    The remaining fields are populated automatically based on your Web site information.
 6. Click **Continue**.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image12.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image11.jpg)
+    [![Screenshot of the Web Platform Installation dialog. The text Step two of two Enter application information is found at the top.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image12.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image11.jpg)
 7. From the Create a new or use an existing database drop-down list, select **Create new database**.
 8. Enter the following information in the appropriate fields to create a new database:  
 
@@ -143,12 +143,12 @@ D. Export the Package from the IIS Application Web Site
      > You must scroll down to view all required fields.
 9. Click **Continue**.   
   
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image14.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image13.jpg)
+    [![Screenshot of the Web Platform Installation dialog. The text Congratulations! You have successfully installed the following products is written in the text box. Below it is a button to Launch Word Press.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image14.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image13.jpg)
 10. Once the Web PI process is complete, you can do one of the following:  
 
     - Click **Finish** to complete the installation process. If you click Finish to complete the installation process, proceed to step C. Enable Permalinks (Optional) to continue creating an application package for deployment.
     - Click **Launch WordPress** to launch your WordPress application. If you click Launch WordPress, the WordPress application page appears:  
-        [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image16.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image15.jpg)
+        [![Screenshot of the Word Press application page. Boxes for Blog Title and Your Email are displayed.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image16.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image15.jpg)
 
 For information about setting up your WordPress site, refer to the link: [WordPress documentation Web page](http://codex.wordpress.org/Main_Page "WordPress documentation Web page").
 
@@ -176,34 +176,34 @@ To enable permalinks (search engine friendly URLs) in WordPress, complete these 
 #### D. Export the Package from the IIS Application Web Site
 
 1. Open IIS Manager. The Internet Information Services (IIS) Manager application opens.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image18.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image17.jpg)
+    [![Screenshot of the Internet Information Services I I S Manager application. The Web Deploy zero two node is highlighted and selected. Icons appear in the Home pane.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image18.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image17.jpg)
 2. In the Connections navigation pane, expand **Sites**, and select the Web site you just created.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image20.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image19.jpg)
+    [![Screenshot of the Connections navigation pane in the I I S Manager application. The Sites node is expanded and Word Press zero one is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image20.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image19.jpg)
 3. Click the **Export Application** link located in the Deploy section of the Actions pane.  
  The Export Application Package (Select the Contents of the Package) dialog box appears.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image22.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image21.jpg)
+    [![Screenshot of the Export Application Package dialog box. The Web Application Word Press zero one selection is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image22.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image21.jpg)
 4. Click **Manage Components**. The Manage Components dialog box appears.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image24.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image23.jpg)
+    [![Screenshot of the Manage Components dialog box. Boxes for Provider Name, Path, and Provider Settings are highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image24.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image23.jpg)
 5. Double-click the second row of the Provider Name column.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image26.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image25.jpg)
+    [![Screenshot of the Manage Components dialog box. The Provider Name column is expanded and a drop-down list appears. The My S Q L database is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image26.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image25.jpg)
 6. Select **dbMySql** from the drop-down list.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image28.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image27.jpg)
+    [![Screenshot of the Manage Components dialog box. In the Provider Name column d b My S Q L is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image28.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image27.jpg)
 7. Double-click the second row of the Path column, and enter the connection string for your package export.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image30.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image29.jpg)
+    [![Screenshot of the Manage Components dialog box. In the Path column, the connection string for package export is written.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image30.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image29.jpg)
 8. Click outside of the box in which you entered the connection string, and click **OK**. The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image32.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image31.jpg)
+    [![Screenshot of the Export Application Package, Select Parameters dialog box. Parameter two is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image32.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image31.jpg)
 9. Rename the parameters:  
 
     - Select **Parameter 1**, and click **Edit**. The Edit Parameter dialog box appears.  
-        [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image34.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image33.jpg)
+        [![Screenshot of the Edit parameter dialog box. In the Name box is the text Site Name.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image34.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image33.jpg)
     - Enter **SiteName** in the Name field, and click **OK**.
     - Repeat these steps to rename Parameter 2 to "ConnectionString". The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.   
-        [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image36.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image35.jpg)
+        [![Screenshot of the Export Application Package, Select Parameters dialog box. Under Name, Connection String appears.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image36.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image35.jpg)
 10. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image38.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image37.jpg)
+    [![Screenshot of the Export Application Package, Save Package dialog box. The text Specify a file name and location for your package appears. Below that is the Package path box.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image38.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image37.jpg)
 11. Enter the path to the application package, or click Browse to locate the application file.
 12. Click **Next**. The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image40.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image39.jpg)
+    [![Screenshot of the Export Application Package, Save Package dialog box. The Package path box is displayed, and the file name and location of the package is written.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image40.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image39.jpg)
 13. Click **Finish**. Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.
 
 <a id="_Ref279680466"></a>
@@ -244,7 +244,7 @@ To create a customer application database, complete these steps:
 
 Your command window should appear similar to the following:  
   
-[![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image42.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image41.jpg)
+[![Screenshot of a command window. The directory path is found at the top of the window.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image42.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image41.jpg)
 
 > [!TIP]
 > You can automate this process using a script similar to the one described in the section MySQL Database Creation Script.
@@ -284,18 +284,18 @@ The examples in this topic show how to import WordPress into an IIS Web site and
 #### Install MySQL on your Database Server
 
 1. Download the latest stable version of MySQL from the [official website](http://www.mysql.com/) and run the installer on a dedicated database server. The MySQL Server Instance Configuration Wizard appears.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image44.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image43.jpg)
-2. Click the **Dedicated MySQL Server Machine** option button, and click **Next**.[![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image46.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image45.jpg)
-3. Click **Next**.[![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image48.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image47.jpg)
+    [![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The option for the Dedication My S Q L Server Machine is selected.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image44.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image43.jpg)
+2. Click the **Dedicated MySQL Server Machine** option button, and click **Next**.[![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The option for the Dedication My S Q L Server Machine is selected. The Next button is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image46.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image45.jpg)
+3. Click **Next**.[![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The option for Online Transaction Processing O L T P is selected. In the Concurrent connections box, the number displayed and highlighted is fifteen.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image48.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image47.jpg)
 4. For concurrent connections, click the **Online Transaction Processing (OLTP)** option button (since this option reflects the workload of a typical shared hosting database server), and then click **Next**.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image50.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image49.jpg)
+    [![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The checkbox next to Enable T C P and I P Networking is checked. The Port Number is three three zero six. The option to Add firewall exception for this port is selected.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image50.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image49.jpg)
 5. Click the **Enable TCP/IP Networking** check box, and then click the **Add firewall exception for this post** check box.
 6. Clear the **Enable Strict Mode** check box if it is checked.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image52.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image51.jpg)
+    [![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The option for Best Support for Multilingualism is selected. The Character Set chosen is latin one.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image52.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image51.jpg)
 7. Click the Best Support For Multilingualism option button to enable support for the UTF-8 character set.  
     **IMPORTANT!** You must choose the Best Support for Multilingualism option button since several applications in the Web Application Gallery require UTF-8 support in the database.
 8. Click **Next**.  
-    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image54.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image53.jpg)
+    [![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The option to Include Bin Directory in Windows Path is selected.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image54.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image53.jpg)
 9. Click the **Include Bin Directory in Windows PATH** check box, and click **Next**.
 10. Since MySQL is installed on the database server (which is different than the Web server that runs the Web Deploy web server component), you must complete these steps to ensure Web Deploy can access the database server:  
 

@@ -22,7 +22,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TraceFunctionEntry(TraceArea)](tracing-tracefunctionentry-method-tracearea-microsoft-web-media-diagnostics_1.md)|Records the entry into a function as specified by the parameters.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TraceFunctionEntry(String, String, TraceArea)](tracing-tracefunctionentry-method-string-string-tracearea-microsoft-web-media-diagnostics_1.md)|Records the entry into a function as specified by the parameters.|

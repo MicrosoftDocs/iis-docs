@@ -14,7 +14,7 @@ The [LocalScheduler](localscheduler-class-microsoft-web-media-transformmanager.m
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](localscheduler-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels the specified job. (Overrides [Scheduler.CancelJob(String)](scheduler-canceljob-method-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CleanupJob](localscheduler-cleanupjob-method-microsoft-web-media-transformmanager.md)|Removes scheduler artifacts for the specified job. (Overrides [Scheduler.CleanupJob(String)](scheduler-cleanupjob-method-microsoft-web-media-transformmanager.md).)|

@@ -75,7 +75,7 @@ The JobDetails type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[EndTime](jobdetails-endtime-property-microsoft-web-media-transformmanager.md)|Gets or sets the time when the job ended.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Folder](jobdetails-folder-property-microsoft-web-media-transformmanager.md)|Gets or sets the root folder of the [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) object that is processing the job.|
@@ -101,7 +101,7 @@ The JobDetails type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateWorkItem](jobdetails-createworkitem-method-microsoft-web-media-transformmanager.md)|Creates a JobDetails object that defines a work item based on the specified job manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateWorkItemElement](jobdetails-createworkitemelement-method-microsoft-web-media-transformmanager.md)|Creates an XML element based on the specified JobDetails object that defines a work item.|
@@ -118,7 +118,7 @@ The JobDetails type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsEndTime](jobdetails-jobdetailsendtime-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "endTime" field.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsFolder](jobdetails-jobdetailsfolder-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "folder" field.|

@@ -14,7 +14,7 @@ The [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) type 
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConfiguringJobs](jobmanager-configuringjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that are being configured.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CredentialId](jobmanager-credentialid-property-microsoft-web-media-transformmanager.md)|Gets a GUID that identifies the credential that is associated with this job definition.|

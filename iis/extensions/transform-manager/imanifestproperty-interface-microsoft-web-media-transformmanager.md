@@ -63,7 +63,7 @@ The IManifestProperty type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CultureInfo](imanifestproperty-cultureinfo-property-microsoft-web-media-transformmanager.md)|Gets information about a specific culture.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Name](imanifestproperty-name-property-microsoft-web-media-transformmanager.md)|Gets the name of the manifest property.|

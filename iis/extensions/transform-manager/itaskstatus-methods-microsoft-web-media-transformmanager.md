@@ -14,7 +14,7 @@ The [ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateStatus](itaskstatus-updatestatus-method-microsoft-web-media-transformmanager.md)|Updates the status of an ongoing task.|
 

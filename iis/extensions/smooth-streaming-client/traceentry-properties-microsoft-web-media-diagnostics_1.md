@@ -14,7 +14,7 @@ The [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) type exp
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ClassName](traceentry-classname-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [ClassName](traceentry-classname-property-microsoft-web-media-diagnostics_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Date](traceentry-date-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [Date](traceentry-date-property-microsoft-web-media-diagnostics_1.md) property.|

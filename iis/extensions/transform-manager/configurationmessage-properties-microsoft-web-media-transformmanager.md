@@ -14,7 +14,7 @@ The [ConfigurationMessage](configurationmessage-class-microsoft-web-media-transf
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[FileName](configurationmessage-filename-property-microsoft-web-media-transformmanager.md)|Gets or sets the name of the configuration file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[HelpLinkId](configurationmessage-helplinkid-property-microsoft-web-media-transformmanager.md)|Gets or sets a context-sensitive help link ID value.|

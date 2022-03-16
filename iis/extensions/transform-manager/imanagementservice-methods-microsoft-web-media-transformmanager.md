@@ -14,7 +14,7 @@ The [IManagementService](imanagementservice-interface-microsoft-web-media-transf
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[DeleteCredential](imanagementservice-deletecredential-method-microsoft-web-media-transformmanager.md)|Deletes a [Credential](credential-class-microsoft-web-media-transformmanager.md) object for the service account from the Generic Credentials vault in Windows Credential Manager.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[DeleteJobDefinition](imanagementservice-deletejobdefinition-method-microsoft-web-media-transformmanager.md)|Deletes a [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object from IIS Transform Manager.|

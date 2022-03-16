@@ -14,7 +14,7 @@ The [ConfigurationBase](configurationbase-class-microsoft-web-media-transformman
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[BaseNamespace](configurationbase-basenamespace-property-microsoft-web-media-transformmanager.md)|Gets or sets the XML namespace for the configuration.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ConfigurationDirectory](configurationbase-configurationdirectory-property-microsoft-web-media-transformmanager.md)|Gets or sets the configuration directory path for the IIS Transform Manager configuration.|

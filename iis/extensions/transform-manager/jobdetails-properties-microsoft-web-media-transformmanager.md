@@ -14,7 +14,7 @@ The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) type 
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[EndTime](jobdetails-endtime-property-microsoft-web-media-transformmanager.md)|Gets or sets the time when the job ended.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Folder](jobdetails-folder-property-microsoft-web-media-transformmanager.md)|Gets or sets the root folder of the [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) object that is processing the job.|

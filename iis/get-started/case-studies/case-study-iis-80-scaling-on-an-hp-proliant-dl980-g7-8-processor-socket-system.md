@@ -74,7 +74,7 @@ The Microsoft SQL Server, SAP and IIS teams have extensively tested, deployed an
 
 The following figure illustrates the DL980 G7 block diagram, and it is provided as a convenience to the reader as he/she follows the different configuration options and tuning presented in the following paragraphs:
 
-[![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image2.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image1.png)
+[![Diagram of the D L 980 G 7 configuration.](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image2.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image1.png)
 
 **Configuration options:** 
 
@@ -82,13 +82,13 @@ The DL980 G7 ships in a variety of configurations: 4 and 8 processor socket mode
 
 Throughout this document, we with refer to Processors in terms of how Windows recognizes and describes them, Processors 0 - 7 and NUMA nodes 0 - 7.
 
-[![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image4.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image3.png)
+![Photo of the upper and lower processor trays on the D L 980 G 7.](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image3.png)
 
 DL980 G7 has two &quot;trays&quot;. The upper tray holds Processor 0-3 and directly controls the Main and Sub IO boards. The lower tray holds Processor 4-7 and controls the &quot;Option&quot; or Low Profile (LP) IO board.
 
 The DL980 G7 has three IO boards:
 
-[![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image6.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image5.png)
+![Diagram of the I/O expansion slot options on the D L 980 G 7.](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image5.png)
 
 1. Main PCI board - Directly connected to **Processors 0-1,** this board provides 5x PCIe Gen 2 IO slots [ 2 (x8) and 3 (x4) electrical connectors] suitable for high bandwidth PCI devices such as full height HBA, NIC and FusionIO/SSD cards It also connects the embedded devices like the LAN On Motherboard (LOM -NC375i), video, internal disk controller (Smart array P410i), SATA DVD, USB ports, ...
 2. Sub IO PCI board (optional) - Directly connected to **Processors 2-3,** this board provides 5 PCIe Gen2 slots [4 (x8) and 1 (x4) electrical connectors] and 1 PCIe Gen 1 (x4) - slot ID 1 - (optionally a PCI-X slot - not recommended) suitable for full height high bandwidth devices.
@@ -244,13 +244,13 @@ Increasing number of CPU cores from 20 to 40 (2 sockets to 4 sockets):
 
 A similar trend was noticed after increasing number of cores from 40 to 80. Hosting scenario was able to process 64% more requests and web garden scenario processed 31% more requests. Default configuration performance further degraded by 3%.
 
-[![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image8.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image7.png)
+![A column chart comparing R P S scaling between C P U cores with 80 versus 40 cores.](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image7.png)
 
 ### Impact of Hyperthreading
 
 After enabling Hyperthreading, Hosting configuration processed 18% more requests. Web Garden configuration processed 4% less requests while default configuration processed 3% more requests. Typically HT can result in up to 20% better performance. Hosting configuration is able to take full advantage of HT.
 
-[![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image10.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image9.png)
+![A column chart comparing the results of enabling Hyperthreading.](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image9.png)
 
 ## Summary
 
@@ -289,11 +289,11 @@ In order to correctly configure the NUMA affinity settings, it's imperative to i
 Currently, this process that comprises the following steps:
 
 1. Locate the target Network adapter by using the Control Panel\Network and Internet\Network Connections. The property of interest for the next step &quot;Device Name&quot; as pictured in the below screenshot.  
-    [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image12.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image11.png)
+    ![Screenshot of the Network Connections tab in the Control Panel. The device name field is highlighted. ](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image11.png)
 2. Locate the NIC through Device Manager. For that we use the &quot;Device Name&quot; property gathered in the previous step.  
-    [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image14.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image13.png)
+    ![Screenshot of the Server Manager Window on the Device Manager tab. The device name is highlighted in the expanded menu.](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image13.png)
 3. Invoke the properties dialog for the specified NIC. The &quot;General&quot; tab will show the slot, device and function numbers for a given NIC.  
-    ![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image15.png)
+    ![Screenshot of the Properties dialog box on the General tab. The Location output is highlighted.](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image15.png)
 4. With the bus information on hand, it's possible to identify in which NUMA node the NIC is connected to by correlating this information to the hardware topology diagram as provided in the &quot;[Hardware Section](#hp-platform)&quot; above.
 
 ##### Gathering Hardware Topology through PowerShell

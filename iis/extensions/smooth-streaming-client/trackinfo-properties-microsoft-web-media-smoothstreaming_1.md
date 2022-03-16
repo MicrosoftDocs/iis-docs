@@ -14,7 +14,7 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Attributes](trackinfo-attributes-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the attributes for a track.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Bitrate](trackinfo-bitrate-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Bitrate](trackinfo-bitrate-property-microsoft-web-media-smoothstreaming_1.md) property.|

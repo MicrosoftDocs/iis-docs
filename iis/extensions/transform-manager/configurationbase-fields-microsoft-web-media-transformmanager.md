@@ -14,7 +14,7 @@ The [ConfigurationBase](configurationbase-class-microsoft-web-media-transformman
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ConfigurationExtension](configurationbase-configurationextension-field-microsoft-web-media-transformmanager.md)|Represents a string constant that specifies the file name extension (".xml") of a configuration file.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDefinitionsDirectory](configurationbase-jobdefinitionsdirectory-field-microsoft-web-media-transformmanager.md)|Represents a string constant that specifies a configuration directory ("Job Definitions") for job definitions.|

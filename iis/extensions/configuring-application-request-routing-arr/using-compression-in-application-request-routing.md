@@ -42,7 +42,7 @@ Based on the accept-encoding request header, the Web servers may compress a resp
 
 The diagram below further shows how this feature is designed to work:
 
-[![](using-compression-in-application-request-routing/_static/image2.jpg)](using-compression-in-application-request-routing/_static/image1.jpg)
+[![Diagram of the compression feature in A R R.](using-compression-in-application-request-routing/_static/image2.jpg)](using-compression-in-application-request-routing/_static/image1.jpg)
 
 ## Step 2 - Enable/disable compression on ARR.
 
@@ -51,16 +51,16 @@ This feature is enabled by default and can be found on the Cache Configuration p
 1. Launch IIS Manager.
 2. The disk cache for ARR is configured at the server level. Select the server in the navigation tree view.
 
-    ![](using-compression-in-application-request-routing/_static/image3.jpg)
+    ![Screenshot of the I I S Manager navigation tree. The A R R one A R R one Administrator option is selected.](using-compression-in-application-request-routing/_static/image3.jpg)
 3. Double-click **Application Request Routing Cache**.
 
-    [![](using-compression-in-application-request-routing/_static/image5.jpg)](using-compression-in-application-request-routing/_static/image4.jpg)
+    [![Screenshot of the I I S Manager dialog box. In the left pane is the navigation tree. The A R R administrator option is highlighted. The A R R one Home page is displayed.](using-compression-in-application-request-routing/_static/image5.jpg)](using-compression-in-application-request-routing/_static/image4.jpg)
 4. In the **Actions** pane, click **Cache Configuration**.
 
-    [![](using-compression-in-application-request-routing/_static/image7.jpg)](using-compression-in-application-request-routing/_static/image6.jpg)
+    [![Screenshot of the Actions pane. Under the heading Cache Management, the Cache Configuration button is the first option.](using-compression-in-application-request-routing/_static/image7.jpg)](using-compression-in-application-request-routing/_static/image6.jpg)
 5. Use the **Enable compression** checkbox to enable or disable this feature in ARR.
 
-    [![](using-compression-in-application-request-routing/_static/image9.jpg)](using-compression-in-application-request-routing/_static/image8.jpg)
+    [![Screenshot of the Cache Configuration dialog box. Enable compression is selected.](using-compression-in-application-request-routing/_static/image9.jpg)](using-compression-in-application-request-routing/_static/image8.jpg)
 
 ## Summary
 
