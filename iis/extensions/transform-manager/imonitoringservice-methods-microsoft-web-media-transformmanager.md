@@ -14,7 +14,7 @@ The [IMonitoringService](imonitoringservice-interface-microsoft-web-media-transf
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](imonitoringservice-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels a job.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJobById](imonitoringservice-canceljobbyid-method-microsoft-web-media-transformmanager.md)|Cancels a job that is represented by the specified job ID.|

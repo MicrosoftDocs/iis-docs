@@ -83,7 +83,7 @@ public enum TraceLevel
 
 ## Members
 
-||Member name|Description|
+|Support Type|Member name|Description|
 |--- |--- |--- |
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|None|0x0|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|Assertion|0x1|

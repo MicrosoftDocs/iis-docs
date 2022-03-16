@@ -40,7 +40,7 @@ With this feature, the management experience of SSL bindings is much simplified.
 
   - To install this feature, from **Server Manager**, be sure to select **Centralized SSL Certificate Support** under **Security** node:
 
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.png)
+    ![Screenshot of the Server Manager navigation tree. The Centralized S S L Certificate Support option under the Security node is selected and highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.png)
 
 - Sample certificates with NULL password. (Or you may have sample certificates with one global password.)
 
@@ -65,11 +65,11 @@ There are no known bugs for this feature at this time.
 
 1. Open **IIS Manager**.
 2. Select server node in the left navigation window:  
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image3.png)
+    ![Screenshot of the I I S Manager dialog box. The Server node in the navigation window is shown. The W I N dash M M V three one A K six eight H G option is highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image3.png)
 3. Under **Management**, double-click on **Centralized Certificates**:  
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image5.png)
+    ![Screenshot of the Management icons. The Centralized Certificates icon is highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image5.png)
 4. In the **Actions** pane, select **Edit Feature Settings**:  
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image7.png)
+    ![Screenshot of the Actions pane. The Edit Feature Settings button is highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image7.png)
 5. Enter the following information:
 
    - **Enable Centralized Certificates**: Selected
@@ -83,10 +83,10 @@ There are no known bugs for this feature at this time.
      - This is optional. If the certificates do not have password, leave this empty.
      - If the certificates have one global password, enter that password here.
 
-       ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.jpg)
+       ![Screenshot of the Edit Centralized Certificates Settings dialog box. Enable Centralized Certificates is selected.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.jpg)
 6. Centralized SSL Certificate Support feature is now ready to be used. Note that the IIS Manager reads the certificates and populates the most relevant information about the certificates. This information is cached for better performance.
 7. One manageability feature that is noteworthy is the ability to group the certificates by their expiration dates:  
-    [![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image11.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image9.png)
+    [![Screenshot of the Centralized Certificates dialog box. In the Group by drop down list, Expiration Date is highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image11.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image9.png)
 8. See how easy it is to be able to see the certificates that:
 
    - Expired
@@ -96,15 +96,15 @@ There are no known bugs for this feature at this time.
    - Expire next month
    - Later
 
-     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image13.png)
+     ![Screenshot of the Centralized Certificates dialog box. In the File name column, Expired, Tomorrow, This Week, Next Week are all highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image13.png)
 
 ### Create a Secure Web Site
 
 1. Open **IIS Manager**.
 2. Select **Sites** in the left navigation window:  
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image15.png)
+    ![Screenshot of the I I S Manager navigation tree. The Sites option is highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image15.png)
 3. Select **Add Website**:  
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image17.png)
+    ![Screenshot of the I I S Manager navigation tree. The Sites option is selected and Add Website is highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image17.png)
 4. Fill in the information, as you would create any site:
 
    - **Site name**: centralCert0
@@ -123,9 +123,9 @@ There are no known bugs for this feature at this time.
        - Note that there is no need to select a specific corresponding certificate to be used.
        - Through the use of the naming contract, the corresponding certificate is selected automatically. In this example, IIS tries to read centralcert0.pfx from the central SSL certificate file share.
 
-     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image3.jpg)
+     ![Screenshot of the Add Website dialog box. Use Centralized Certificate Store is selected. In the Site name box is the text central Cert zero.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image3.jpg)
 5. Verify that the site has been created:  
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image19.png)
+    ![Screenshot of the I I S Manager navigation tree. Under Sites, central Cert zero is highlighted.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image19.png)
 6. That's it. The secure site was created using Centralized SSL Certificate Support. The management experience is very similar to shared configuration and traditional SSL binding. The differences are:
 
     - The certificates are stored centrally on a file share.
@@ -136,13 +136,13 @@ There are no known bugs for this feature at this time.
 
 Open a browser and navigate to [https://centralcert0/](https://centralcert0/). Note that as a part of prerequisite, hosts file should are modified to route this request to localhost:
 
-[![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image23.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image21.png)
+[![Screenshot of the central cert zero web page. I I S eight is displayed on the web page.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image23.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image21.png)
 
 Furthermore, to see the new SSL binding type, enter the following in an elevated command-line window:
 
 [!code-console[Main](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/samples/sample1.cmd)]
 
-![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image25.png)
+![Screenshot of a command line window. The window shows the new S S L binding type. The S S L binding is host name colon port.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image25.png)
 
 Note that the SSL binding is **hostname:port** with value **\*:443**. In addition, no **certificate** **hash** is associated with this binding because the corresponding certificate is loaded on-demand based on the file name contract of the certificate.
 

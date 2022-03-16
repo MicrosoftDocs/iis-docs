@@ -14,7 +14,7 @@ The [ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Message](itaskstatus-message-property-microsoft-web-media-transformmanager.md)||
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[PercentComplete](itaskstatus-percentcomplete-property-microsoft-web-media-transformmanager.md)|Gets the percentage of task completion.|

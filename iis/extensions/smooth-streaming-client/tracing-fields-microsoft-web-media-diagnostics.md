@@ -14,7 +14,7 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[IncludeClassName](tracing-includeclassname-field-microsoft-web-media-diagnostics_1.md)|A Boolean value that indicates whether to include the class name in traces.|
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[IncludeDate](tracing-includedate-field-microsoft-web-media-diagnostics_1.md)|A Boolean value that indicates whether to include the date in traces.|

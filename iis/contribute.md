@@ -1,16 +1,16 @@
 ---
-title: "Contributing to the Internet Information Services (IIS) documentation"
-description: "This document covers the process for contributing to the articles and code samples that are hosted on the IIS documentation site."
+title: Contributing to the Internet Information Services (IIS) documentation
+description: This document covers the process for contributing to the articles and code samples that are hosted on the IIS documentation site.
 ms.date: 05/18/2017
 msc.type: authoredcontent
 ---
 # Contributing to the Internet Information Services (IIS) documentation
 
-This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](https://docs.microsoft.com/iis/). Contributions may be as simple as typo corrections or as complex as new articles.
+This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](https://docs.microsoft.com/iis/). Contributions can be typographical fixes or as complex as new articles.
 
 ## How to make a simple correction or suggestion
 
-Articles are stored in the repository as Markdown files. Simple changes to the content of a Markdown file can be made in the browser by selecting the **Edit** link in the upper right corner of the browser window. (In narrow browser windows you'll need to expand the **options** bar to see the **Edit** link.) Follow the directions to create a pull request (PR). We will review the PR and accept it or suggest changes.
+Articles are stored in the repository as Markdown files. Small changes to the content of a Markdown file can be made in the browser by selecting the **Edit** link in the upper right corner of the browser window. (In narrow browser windows you'll need to expand the **options** bar to see the **Edit** link.) Follow the directions to create a pull request (PR). We will review the PR and accept it or suggest changes.
 
 ## How to make a more complex submission
 
@@ -119,5 +119,5 @@ Our goal is to write documentation that is easily understandable by the widest p
 
 ## Redirects
 
-If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [master redirect file](https://github.com/MicrosoftDocs/iis-docs/blob/master/.openpublishing.publish.config.json).
+If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [main redirect file](https://github.com/MicrosoftDocs/iis-docs/blob/main/.openpublishing.publish.config.json).
  

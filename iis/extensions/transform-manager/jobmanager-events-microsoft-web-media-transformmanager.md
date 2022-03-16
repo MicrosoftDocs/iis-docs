@@ -14,7 +14,7 @@ The [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) type 
 
 ## Events
 
-||Name|Description|
+|Event Type|Name|Description|
 |--- |--- |--- |
 |![Public event](images/Hh125579.pubevent(en-us,VS.90).gif "Public event")|[ShutdownComplete](jobmanager-shutdowncomplete-event-microsoft-web-media-transformmanager.md)|Occurs when all transform jobs have been processed.|
 

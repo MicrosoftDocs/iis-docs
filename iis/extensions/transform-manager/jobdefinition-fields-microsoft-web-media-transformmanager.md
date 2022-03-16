@@ -14,7 +14,7 @@ The [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CredentialIdAttributeName](jobdefinition-credentialidattributename-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when the id attribute of the credential element is assigned to a job definition. This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobTemplateIdAttributeName](jobdefinition-jobtemplateidattributename-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when the job template id attribute is assigned to a job definition. This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|

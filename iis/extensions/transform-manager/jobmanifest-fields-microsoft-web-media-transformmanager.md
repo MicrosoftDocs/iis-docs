@@ -14,7 +14,7 @@ The [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md) typ
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ManifestExtension](jobmanifest-manifestextension-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used as the job manifest file extension (".smil").|
 

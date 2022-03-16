@@ -14,7 +14,7 @@ The [ILogger](ilogger-interface-microsoft-web-media-transformmanager.md) type ex
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFile](ilogger-logfile-property-microsoft-web-media-transformmanager.md)|Gets the [StreamWriter](https://msdn.microsoft.com/library/3ssew6tk) object for the logger.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogLevel](ilogger-loglevel-property-microsoft-web-media-transformmanager.md)|Gets the level of errors that will be logged.|

@@ -63,7 +63,7 @@ The ITaskStatus type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Message](itaskstatus-message-property-microsoft-web-media-transformmanager.md)||
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[PercentComplete](itaskstatus-percentcomplete-property-microsoft-web-media-transformmanager.md)|Gets the percentage of task completion.|
@@ -71,7 +71,7 @@ The ITaskStatus type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateStatus](itaskstatus-updatestatus-method-microsoft-web-media-transformmanager.md)|Updates the status of an ongoing task.|
 
