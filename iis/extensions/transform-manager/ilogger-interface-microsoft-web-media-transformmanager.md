@@ -63,14 +63,14 @@ The ILogger type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFile](ilogger-logfile-property-microsoft-web-media-transformmanager.md)|Gets the [StreamWriter](https://msdn.microsoft.com/library/3ssew6tk) object for the logger.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogLevel](ilogger-loglevel-property-microsoft-web-media-transformmanager.md)|Gets the level of errors that will be logged.|
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String)](ilogger-writeline-method-loglevel-string-microsoft-web-media-transformmanager.md)|Writes a line to the log.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String, Int32)](ilogger-writeline-method-loglevel-string-int32-microsoft-web-media-transformmanager.md)||

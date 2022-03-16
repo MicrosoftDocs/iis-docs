@@ -63,7 +63,7 @@ The IJobManifest type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetScheduler](ijobmanifest-getscheduler-method-microsoft-web-media-transformmanager.md)|Returns a job scheduler object by searching the job manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetSchedulerInfo](ijobmanifest-getschedulerinfo-method-microsoft-web-media-transformmanager.md)|Returns scheduler information by searching the job manifest.|
