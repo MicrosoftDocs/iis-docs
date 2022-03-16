@@ -14,7 +14,7 @@ The [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) typ
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[BaseNamespace](configurationbase-basenamespace-property-microsoft-web-media-transformmanager.md)|Gets or sets the XML namespace for the configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConfigurationDirectory](jobtemplate-configurationdirectory-property-microsoft-web-media-transformmanager.md)|Gets the path of this configuration file.|

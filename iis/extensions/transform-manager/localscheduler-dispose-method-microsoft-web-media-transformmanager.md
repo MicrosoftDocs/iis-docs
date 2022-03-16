@@ -21,7 +21,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](localscheduler-dispose-method-microsoft-web-media-transformmanager_1.md)|Releases all resources that are used by the current instance of the [LocalScheduler](localscheduler-class-microsoft-web-media-transformmanager.md) class. (Overrides [Scheduler.Dispose() () () ()](scheduler-dispose-method-microsoft-web-media-transformmanager.md).)|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](localscheduler-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Releases unmanaged resources and optionally releases managed resources.|
