@@ -47,7 +47,7 @@ Gallery requires a separate directory for storing all photos and related data, s
 
 For this walkthrough, we created a directory called g2data on C: drive `C:\g2data`. You must grant web server write permissions to this directory. Since FastCGI impersonates the requests from all users, make sure that the user account used for impersonation has write access to this directory. For example, if your web site or virtual directory is configured for Anonymous authentication, then you must grant "Internet Guest Account" write access to `C:\g2data`.
 
-[![](gallery2-on-iis/_static/image2.png)](gallery2-on-iis/_static/image1.png)
+![Screenshot of the g 2 data properties dialog. Internet Guest Account is highlighted.](gallery2-on-iis/_static/image1.png)
 
 ## Set Up the Database
 
@@ -61,14 +61,14 @@ Before starting the install, create a database on your server. Also create a dat
     [!code-sql[Main](gallery2-on-iis/samples/sample1.sql)]
 3. Grant the newly created user the db\_owner permissions to Gallery2 database:  
 
-    [![](gallery2-on-iis/_static/image4.png)](gallery2-on-iis/_static/image3.png)
+    ![Screenshot of the Database User window. The user name is highlighted in the main pane.](gallery2-on-iis/_static/image3.png)
 
 ## Set Up and Configure the Application
 
 Open your web browser and browse to [http://localhost/gallery2/install/index.php](http://localhost/gallery2/install/index.php).
 
 1. Click "Begin installation" to go to the authenticate page.  
-    [![](gallery2-on-iis/_static/image6.png)](gallery2-on-iis/_static/image5.png)
+    ![Screenshot of a browser window. Authenticate is highlighted in the Install Steps pane.](gallery2-on-iis/_static/image5.png)
 2. Follow the instructions and save the login.txt file into the Gallery2 directory.
 3. Click "Authenticate Me".
 
@@ -76,21 +76,21 @@ Open your web browser and browse to [http://localhost/gallery2/install/index.php
 
 4. Specify the path to the data directory that you have created earlier. If you have configured permissions for g2data correctly, you can proceed to the next step after clicking "Save".
 
-    [![](gallery2-on-iis/_static/image8.png)](gallery2-on-iis/_static/image7.png)
+    ![Screenshot of a browser window. Storage Setup is highlighted in the Install Steps pane.](gallery2-on-iis/_static/image7.png)
 
 In Step 5 in the "Install Steps" pane, enter the required database information. If you have setup the database and user correctly, clicking "Save" takes you to the subsequent installation steps.
 
-[![](gallery2-on-iis/_static/image10.png)](gallery2-on-iis/_static/image9.png)
+![Screenshot of a browser window. Database Setup is highlighted in the Install Steps pane.](gallery2-on-iis/_static/image9.png)
 
 In Step 7 in the "Install Steps" pane, you are asked to create an empty config.php file in Gallery2 folder:
 
-[![](gallery2-on-iis/_static/image12.png)](gallery2-on-iis/_static/image11.png)
+![Screenshot of a browser window. Create Config file is highlighted in the Install Steps pane.](gallery2-on-iis/_static/image11.png)
 
 Make sure that the web server has write permissions to this file. For this walkthrough, we allowed write permissions to this file for "Internet Guest Account".
 
 After that, proceed through the remaining installation steps. Once you have completed the installation, you can login to the newly created Gallery using the administrator user name and password which you specified during installation.
 
-[![](gallery2-on-iis/_static/image14.png)](gallery2-on-iis/_static/image13.png)
+![Screenshot of a browser window. The login dialog is open in the main pane.](gallery2-on-iis/_static/image13.png)
 
 ## Getting More Information
 

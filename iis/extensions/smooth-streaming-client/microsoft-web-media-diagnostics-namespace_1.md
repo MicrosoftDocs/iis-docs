@@ -21,7 +21,7 @@ Class to contain diagnostic information about media events.
 
 ## Classes
 
-||Class|Description|
+|Class Type|Class|Description|
 |--- |--- |--- |
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)|Posts advanced logs to a server that by default will upload a log every 30 seconds.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CircularList\<T>](circularlist-t-class-microsoft-web-media-diagnostics_1.md)|(Deprecated. Do not use) Implements a circular list. The caller defines maximum length when the list is constructed. When the list reaches the maximum, adding additional elements will cause the oldest element to be removed.|
@@ -30,7 +30,7 @@ Class to contain diagnostic information about media events.
 
 ## Enumerations
 
-||Enumeration|Description|
+|Enumeration Type|Enumeration|Description|
 |--- |--- |--- |
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)|Enumeration that specifies the feature area from which a trace message originates, as shown in the following member table.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[TraceDestination](tracedestination-enumeration-microsoft-web-media-diagnostics_1.md)|Enumeration that specifies destinations for trace data.|

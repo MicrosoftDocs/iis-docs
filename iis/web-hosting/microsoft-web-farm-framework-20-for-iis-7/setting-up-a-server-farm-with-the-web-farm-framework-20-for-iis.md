@@ -34,7 +34,7 @@ Setting up a server farm consists of the following tasks:
 - Optionally, viewing status using trace messages.
 - Configuring logging.
 
-[![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image2.jpg)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image1.jpg)
+[![Diagram that shows a Server Farm, with a Controller Server pointing to a Web Farm.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image2.jpg)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image1.jpg)
 
 <a id="Install"></a>
 
@@ -44,7 +44,7 @@ You need to install the Web Farm Framework only on the computer that will be the
 
 You can install Web Farm Framework 2.0 using Microsoft Web Platform Installer:
 
-[![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image3.png)](https://go.microsoft.com/?linkid=9739157)
+[![Screenshot that shows the install button for Microsoft Web Platform Installer.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image3.png)](https://go.microsoft.com/?linkid=9739157)
 
 Alternatively, you can download the .msi file appropriate for your computer architecture ([x86](https://go.microsoft.com/?linkid=9739155) or [x64](https://go.microsoft.com/?linkid=9739156)).
 
@@ -55,7 +55,7 @@ Alternatively, you can download the .msi file appropriate for your computer arch
 
 1. Install and run Web Platform Installer.
 2. Select the **Products** tab, and then select **Server**.
-3. Find **Web Farm Framework 2.0**, and then click Add. [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image5.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image4.png)
+3. Find **Web Farm Framework 2.0**, and then click Add. [![Screenshot that shows the Web Platform Installer. Web Farm Framework is selected and the Add button is highlighted, along with Products and Server.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image5.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image4.png)
 4. Click **Install**.
 
 <a id="Configure"></a>
@@ -96,7 +96,7 @@ These steps should be performed on the controller server after WFF is installed.
 **To create a server farm**
 
 1. Open **IIS Manager** and expand the nodes in the **Connections** pane. Right-click **Server Farm** and then click **Create Server Farm**. The **Create Server Farm** wizard starts.  
-    [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image8.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image7.png)
+    [![Screenshot that shows the Specify Server Farm Details page in the Create Server Farm wizard.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image8.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image7.png)
 
 1. Enter a name for the server farm.
 2. The **Server farm is available for load balancing** check box is selected by default. This creates a server farm configured for load balancing using Application Request Routing (ARR). If you do not want ARR load balancing, clear the check box.
@@ -114,11 +114,11 @@ These steps should be performed on the controller server after WFF is installed.
 
 2. - Select the **Server is available for Load Balancing** option to have the server participate in load balancing when the farm is created.
      - When you add the server you configured to be the primary server, select the **Primary Server** checkbox.  
-        [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image10.png)](javascript:void(0);)
+        ![Screenshot that shows the Add Servers page in the Create Server Farm wizard.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image10.png)
 
 3. Click **Add**. WFF attempts to connect to the specified server. If an error is displayed, it means that WFF cannot connect to the server. You can add the server to the farm anyway, or you can modify the server name or address and try again. Make sure the server you are connecting to meets the requirements listed in [Prepare the Secondary Servers](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md#Prepare).  
   
-    [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image12.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image11.png)
+    [![Screenshot that shows the Add Servers page in the Create Server Farm wizard. A primary and secondary server address is listed.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image12.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image11.png)
 
 4. When you are finished adding servers to the farm, click **Finish**. WFF creates the server farm.
 
@@ -137,7 +137,7 @@ You can add or remove servers in a server farm at any time. If you remove the pr
 1. In IIS Manager, expand the **Server Farms** node in the **Connections** pane and then expand the node for the server farm you created.
 2. Select the **Servers** node in the server farm, and then click **Add Servers** in the action pane.  
   
-    [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image14.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image13.png)
+    [![Screenshot that shows the Internet Information Services Manager, with Servers in the Connections pane and Add Servers in the Actions pane highlighted.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image14.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image13.png)
 
 > [!NOTE]
 > You can also right-click the **Servers** node and then click **Add Servers**.
@@ -159,7 +159,7 @@ Trace messages display information about the status or results of operations per
 
 Trace messages are displayed at the bottom of the **Servers** pane when you click the **Servers** node in the **Connections** pane.
 
-[![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image17.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image16.png)
+[![Screenshot that shows the Trace Messages.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image17.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image16.png)
 
 When viewing trace messages, you can do the following:
 
@@ -195,6 +195,6 @@ You can set the value of the **EnabledTraceLevel** key to correspond to the verb
 > 3 - Information, warning, and error messages  
 > 4 - Verbose (all messages)
 
-[![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image19.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image18.png)
+[![Screenshot that shows the Web Farm Framework folder in Registry Editor.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image19.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image18.png)
 
-[![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image21.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image20.png)
+[![Screenshot that shows a list of the registry keys for the Web Farm Framework folder.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image21.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image20.png)

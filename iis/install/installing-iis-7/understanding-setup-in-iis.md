@@ -836,7 +836,7 @@ The Server Manager Tool provides the setup user interface on Windows Server 2008
 
 The article [Installing IIS 7.0 and Above on Windows Server 2008](installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md) provides you with a step-by-step walkthrough for installing IIS on Windows Server 2008 by using the new Server Manager tool.
 
-[![](understanding-setup-in-iis/_static/image2.jpg)](understanding-setup-in-iis/_static/image1.jpg)  
+![Screenshot of the Server Manager window.](understanding-setup-in-iis/_static/image1.jpg)  
 Figure 1: Server Manager
 
 <a id="AddRemove"></a>
@@ -847,7 +847,7 @@ On Windows Vista, optional features are installed when you use the Add/Remove Wi
 
 The article [Installing IIS 7.0 and Above on Windows Vista](installing-iis-on-windows-vista-and-windows-7.md) provides a step-by-step walkthrough for installing IIS on Windows Vista.
 
-[![](understanding-setup-in-iis/_static/image4.jpg)](understanding-setup-in-iis/_static/image3.jpg)  
+![Screenshot of the Windows Features dialog.](understanding-setup-in-iis/_static/image3.jpg)  
 Figure 2: Add/Remove Windows Features Wizard
 
 <a id="CommandLine"></a>

@@ -32,13 +32,13 @@ void remove (AdaptiveSourceFailedEventHandler^ value);
 
 ## Event information
 
-|||
+|Type|Event|
 |--- |--- |
 |Delegate|[AdaptiveSourceFailedEventHandler Delegate](adaptivesourcefailedeventhandler-delegate.md)|
 
 ## Requirements
 
-|||
+|Requirement|Description|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|

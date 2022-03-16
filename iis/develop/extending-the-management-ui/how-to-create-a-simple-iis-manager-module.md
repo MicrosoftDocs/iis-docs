@@ -27,7 +27,7 @@ To create an extensibility module for InetMgr, you must create a DLL project als
 
 3. In the **New Project** dialog select **Class Library** as the project type and type **ExtensibilityDemo** as the name of the project. Click **OK**.
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image1.jpg)
+    ![Screenshot of the New Project window. The Class Library icon is selected.](how-to-create-a-simple-iis-manager-module/_static/image1.jpg)
 
 4. Remove the file Class1.cs added by default (since we will not be using that file) using the context menu Delete option in the Solution Explorer.
 
@@ -41,11 +41,11 @@ To create an extensibility module for InetMgr, you must create a DLL project als
 
 7. In the combo box, select the option &lt;**New…&gt;** to create a new key. In the **Create Strong Name Key** dialog, type **DemoKey.snk** as the name for the key and uncheck the **Protect my key file with a password** check box. Click **OK**.
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image5.jpg)
+    ![Screenshot of the Create Strong Name Key dialog.](how-to-create-a-simple-iis-manager-module/_static/image5.jpg)
 
     The signing tab should appears as follows:
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image9.jpg)
+    ![Screenshot of the signing tab.](how-to-create-a-simple-iis-manager-module/_static/image9.jpg)
 
     Since we want the assembly to be in the GAC, we add some Post-build events so that the assembly automatically gets added to the GAC every time we compile. This makes debugging easy, as well as making changes as we add new functionality.
 
@@ -53,15 +53,15 @@ To create an extensibility module for InetMgr, you must create a DLL project als
 
     [!code-console[Main](how-to-create-a-simple-iis-manager-module/samples/sample1.cmd)]
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image13.jpg)
+    ![Screenshot of the Build Events tab.](how-to-create-a-simple-iis-manager-module/_static/image13.jpg)
 
     **(Optional)** If you are using Microsoft Visual Studio 2005, setup debugging correctly so that you can use F5 to run the code. In the project properties, select **Debug** tab and set it to start an external program choosing **\windows\system32\inetsrv\inetmgr.exe**.
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image17.jpg)
+    ![Screenshot of the debug tab.](how-to-create-a-simple-iis-manager-module/_static/image17.jpg)
 
 9. Close the project properties and select the option **Save All** in the File Menu, and set the location to d:\Demos. Click **Save**.
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image21.jpg)
+    ![Screenshot of the Save Project dialog.](how-to-create-a-simple-iis-manager-module/_static/image21.jpg)
 
     You can now **compile the project** using **Build Solution** under the Build menu. This automatically builds the DLL and adds it to the GAC.
 
@@ -76,7 +76,7 @@ In this task, you create a module provider; this is the main entry point for reg
 
 1. Select the option **Add New Item** from the Project Menu. In the Add New Item dialog box, select the Class template and type **DemoModuleProvider.cs** as the name for the file.
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image25.jpg)
+    ![Screenshot of the Add New Item window. The Class icon is highlighted.](how-to-create-a-simple-iis-manager-module/_static/image25.jpg)
 
 2. Change the code so that it looks as follows:
 
@@ -104,7 +104,7 @@ First, we must figure out the full name for the assembly we just created. It is 
 
 2. Look for ExtensibilityDemo in the list of assemblies and right-click it and select **properties**. In the dialog, you will see a field called Public Key Token; we need this value to register it to InetMgr, so copy it to the clipboard.
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image29.jpg)
+    ![Screenshot of the Extensibility Demo Properties dialog.](how-to-create-a-simple-iis-manager-module/_static/image29.jpg)
 
 3. Back in Microsoft Visual C# 2005 Express, select the option Open File… under File Menu. Browse for the file \Windows\System32\InetSrv\Administration.config.
 
@@ -119,7 +119,7 @@ First, we must figure out the full name for the assembly we just created. It is 
 
 5. Save the File and run InetMgr, connect to localhost and you see the following message:
 
-    ![](how-to-create-a-simple-iis-manager-module/_static/image35.jpg)
+    ![Screenshot of the I I S start page showing the example message dialog.](how-to-create-a-simple-iis-manager-module/_static/image35.jpg)
 
 ## Summary
 

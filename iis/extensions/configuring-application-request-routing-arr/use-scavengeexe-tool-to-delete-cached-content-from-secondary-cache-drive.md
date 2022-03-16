@@ -41,8 +41,8 @@ Scavenge.exe is a command line tool that can be used for managing the secondary 
 - &lt;share&gt; is the path to the share that ARR is using as secondary cache drive.
 - dd:[hh[:mm[:ss]]] - Duration - cached files older than this duration will be deleted by the tool. Note that hh, mm, ss are optional.
 
-**Example:** scavenge.exe [\\ARR\SecondaryCache](file://arr/SecondaryCache) 04:11:30:15 
+**Example:** scavenge.exe [\\ARR\SecondaryCache]`(file://arr/SecondaryCache)` 04:11:30:15 
 
-This will delete all files located in [\\ARR\SecondaryCache](file://arr/SecondaryCache) that are older than 4 days, 11 hours, 30 minutes and 15 seconds. Note that the tool must be run as a user with permissions to delete content on the specified share.
+This will delete all files located in [\\ARR\SecondaryCache]`(file://arr/SecondaryCache)` that are older than 4 days, 11 hours, 30 minutes and 15 seconds. Note that the tool must be run as a user with permissions to delete content on the specified share.
 
 Windows Task Scheduler can be used to run this tool at specified internval to delete old cached content from the secondary cache drive.

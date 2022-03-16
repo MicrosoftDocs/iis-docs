@@ -148,7 +148,7 @@ If you do not want to use the end users identity to create their backups, you ca
 > - If you want to configure delegation rules manually, [run our AddDelegationRules.ps1 script](powershell-scripts-for-automating-web-deploy-setup.md).
 > - The Backup feature comes with 2 new provider delegation rules (BackupSettings and BackupManager) as shown below.
 >
-> [![](web-deploy-automatic-backups/_static/image3.png)](web-deploy-automatic-backups/_static/image2.png)
+> [![Screenshot of Management Service Delegation feature page with Backup Settings and Backup Manager.](web-deploy-automatic-backups/_static/image3.png)](web-deploy-automatic-backups/_static/image2.png)
 
 ## Configuring Site-Level Backup Settings on the Server (For Site/server Administrators)
 

@@ -14,7 +14,7 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[AttributesProperty](smoothstreamingmediaelement-attributesproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property that specifies the SmoothStreamingMediaElementAttributes()()()() property dictionary object.|
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[AudioStreamCountProperty](smoothstreamingmediaelement-audiostreamcountproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property that specifies the [AudioStreamCount](smoothstreamingmediaelement-audiostreamcount-property-microsoft-web-media-smoothstreaming_1.md) property.|

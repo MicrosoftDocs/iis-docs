@@ -14,7 +14,7 @@ The [CircularList\< (Of \< ( \<'T\> ) \> ) \>](circularlist-t-class-microsoft-we
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Capacity](https://msdn.microsoft.com/library/y52x03h2)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Count](https://msdn.microsoft.com/library/27b47ht3)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
@@ -22,7 +22,7 @@ The [CircularList\< (Of \< ( \<'T\> ) \> ) \>](circularlist-t-class-microsoft-we
 
 ## Explicit Interface Implementations
 
-||Name|Description|
+|Implementation Type|Name|Description|
 |--- |--- |--- |
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|IList.IsFixedSize|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
 |![Explicit interface implemetation](images/Ff728140.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Ff728140.privproperty(en-us,VS.90).gif "Private property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|ICollection< (Of < <' (T> ) > > ).IsReadOnly|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|

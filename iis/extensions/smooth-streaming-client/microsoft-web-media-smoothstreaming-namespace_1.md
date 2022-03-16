@@ -23,7 +23,7 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 
 ## Classes
 
-||Class|Description|
+|Class Type|Class|Description|
 |--- |--- |--- |
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)|The object describing the request being made.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md)|Provides an extension of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class that enables creation of a CacheRequest object based on a specified stream or a specified [HttpWebRequest](https://msdn.microsoft.com/library/8y7x3zz2(v=vs.95)) object and list of selectable tracks.|
@@ -56,13 +56,13 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 
 ## Interfaces
 
-||Interface|Description|
+|Interface Type|Interface|Description|
 |--- |--- |--- |
 |![Public interface](images/Ff728140.pubinterface(en-us,VS.90).gif "Public interface")|[ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)|Interface definition for writing a cache plug-in.|
 
 ## Delegates
 
-||Delegate|Description|
+|Delegate Type|Delegate|Description|
 |--- |--- |--- |
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SmoothStreamingMediaElement.ManifestMergeHandler](smoothstreamingmediaelement-manifestmergehandler-delegate-microsoft-web-media-smoothstreaming_1.md)|Delegate method to merge data from more than one manifest.|
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler](smoothstreamingmediaelement-setplaybackrangecompletedeventhandler-delegate-microsoft-web-media-smoothstreaming.md)|Represents the event handler signature for a SetPlaybackRangeAsync operation.|
@@ -70,7 +70,7 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 
 ## Enumerations
 
-||Enumeration|Description|
+|Enumeration Type|Enumeration|Description|
 |--- |--- |--- |
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ChunkRequestType](chunkrequesttype-enumeration-microsoft-web-media-smoothstreaming.md)|The chunk type for a download request.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ChunkResult.ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)|An enumeration that contains the possible result states during processing by the [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) and [EndGetChunk](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) methods.|

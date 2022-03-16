@@ -14,7 +14,7 @@ The [SmoothStreamingAsyncResult](smoothstreamingasyncresult-class-microsoft-web-
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Complete](smoothstreamingasyncresult-complete-method-microsoft-web-media-smoothstreaming.md)|Called when the operation has completed.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|

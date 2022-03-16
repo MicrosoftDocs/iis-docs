@@ -58,22 +58,22 @@ Modify the WordPress configuration file to connect to the database.
 1. From **Windows® Internet Explorer®**, go to `http://localhost/wordpress/wp-admin/install.php`.
 2. Type the *name* of your blog and your *e-mail address*, and then click **Install WordPress**.  
 
-    [![](install-wordpress-on-iis/_static/image2.jpg)](install-wordpress-on-iis/_static/image1.jpg)
+    ![Screenshot of a browser window showing the WordPress installation page.](install-wordpress-on-iis/_static/image1.jpg)
 
     *Figure 1: Enter information*
 3. Note the temporary password assigned for the administrator account.  
 
-    [![](install-wordpress-on-iis/_static/image4.jpg)](install-wordpress-on-iis/_static/image3.jpg)
+    ![Screenshot of a browser window showing the WordPress success page.](install-wordpress-on-iis/_static/image3.jpg)
 
     *Figure 2: Note the administrator password*
 4. Begin managing your blog from [`http://localhost/wordpress/wp-login.php`](http://localhost/wordpress/wp-login.php).  
 
-    [![](install-wordpress-on-iis/_static/image6.jpg)](install-wordpress-on-iis/_static/image5.jpg)
+    ![Screenshot of a browser window showing the WordPress log in page.](install-wordpress-on-iis/_static/image5.jpg)
 
     *Figure 3: Log on to blog*
 5. The Welcome page appears.  
 
-    [![](install-wordpress-on-iis/_static/image8.jpg)](install-wordpress-on-iis/_static/image7.jpg)
+    ![Screenshot of a browser window showing the WordPress welcome page.](install-wordpress-on-iis/_static/image7.jpg)
 
     *Figure 4: Welcome page*
 
@@ -88,7 +88,7 @@ The steps that follow assume that WordPress is installed in a Web site root dire
 3. Click the **Settings** button.
 4. Click the **Permalinks** tab for the **Customize Permalink Structure** page.  
 
-    [![](install-wordpress-on-iis/_static/image10.jpg)](install-wordpress-on-iis/_static/image9.jpg)
+    ![Screenshot of a browser window showing the permalink settings page. Settings is selected on the dashboard pane.](install-wordpress-on-iis/_static/image9.jpg)
 
     *Figure 5: Customize permalink structure page*
 5. Select **Custom Structure**, and then type  
@@ -108,7 +108,7 @@ This rule matches any requested URL; if the URL does not correspond to a file or
 
 After the rewrite rule is saved to the Web.config file, open a Web browser, and then click any one of the permalinks in WordPress blog. You should see the correct content returned by the Web server for every permalink.
 
-[![](install-wordpress-on-iis/_static/image12.jpg)](install-wordpress-on-iis/_static/image11.jpg)  
+![Screenshot of a browser window showing the example blog welcome page.](install-wordpress-on-iis/_static/image11.jpg)  
 *Figure 6: Blog welcome page*
 
 > [!NOTE]

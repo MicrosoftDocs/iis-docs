@@ -67,7 +67,7 @@ public enum PlaybackStartPosition
 
 ## Members
 
-||Member name|Description|
+|Support Type|Member name|Description|
 |--- |--- |--- |
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|Beginning|Starts at the beginning of the timeline that is provided by the manifest.|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|End|Starts at the end of the timeline that is provided by the manifest.|

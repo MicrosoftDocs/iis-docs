@@ -1,7 +1,7 @@
 ---
 title: "Introducing the Windows Web Application Gallery"
 author: chrissfanos
-description: "The Windows Web Application Gallery makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can brows..."
+description: "Users can browse the WWAG and running the installer."
 ms.date: 03/18/2009
 ms.assetid: a6fef702-77c2-4c2c-963b-c8c361c37fe0
 msc.legacyurl: /learn/develop/windows-web-application-gallery/introducing-the-windows-web-application-gallery
@@ -20,7 +20,7 @@ The Web Application Gallery integrates with the [Web Platform Installer 3.0](htt
 
 The Web Application Gallery also provides a way for developers to reach millions of Windows users. When an application is accepted by the Web Application Gallery, the application is added to the Web Application Gallery ATOM feed. The ATOM feed is consumed by the Web Application Gallery itself, Web Platform Installer 3.0, WebMatrix, IIS Manager, and participating Hosting Control Panels.
 
-[![](introducing-the-windows-web-application-gallery/_static/image4.png)](introducing-the-windows-web-application-gallery/_static/image3.png)
+![Diagram showing how the A T O M feed is distributed.](introducing-the-windows-web-application-gallery/_static/image3.png)
 
 ## Application Discovery and Installation by Users
 
@@ -38,7 +38,7 @@ The App Gallery contains both ASP.NET and PHP applications that follow the [Web 
 
 Developers follow four steps to submit an application to the Web Application Gallery.
 
-[![](introducing-the-windows-web-application-gallery/_static/image7.png)](introducing-the-windows-web-application-gallery/_static/image6.png)
+![Diagram showing an outline of the steps in the flow of submitting an application.](introducing-the-windows-web-application-gallery/_static/image6.png)
 
 ### Step 1: Apply Web App Gallery Principles
 

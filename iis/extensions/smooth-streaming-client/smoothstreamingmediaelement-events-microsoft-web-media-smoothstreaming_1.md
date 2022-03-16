@@ -14,7 +14,7 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 
 ## Events
 
-||Name|Description|
+|Event Types|Name|Description|
 |--- |--- |--- |
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[BindingValidationError](https://msdn.microsoft.com/library/cc626450(v=vs.95))|(Inherited from [FrameworkElement](https://msdn.microsoft.com/library/ms602714(v=vs.95)).)|
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[BufferingProgressChanged](smoothstreamingmediaelement-bufferingprogresschanged-event-microsoft-web-media-smoothstreaming_1.md)|Occurs when the [BufferingProgress](smoothstreamingmediaelement-bufferingprogress-property-microsoft-web-media-smoothstreaming_1.md) property changes.|

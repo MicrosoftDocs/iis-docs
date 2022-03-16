@@ -26,7 +26,7 @@ The following paragraphs describe problems you might run into when using the Web
 
 Web Platform Installer 2.0 doesn't allow empty passwords even if you don't want to use a password for your database or application. The following message is shown.
 
-[![](windows-web-application-gallery-known-issues/_static/image29.png)](windows-web-application-gallery-known-issues/_static/image27.png)
+![Screenshot showing the empty password dialog with OK selected.](windows-web-application-gallery-known-issues/_static/image27.png)
 
 The easiest way to work around this issue is to use a password for your database.
 
@@ -34,7 +34,7 @@ The easiest way to work around this issue is to use a password for your database
 
 If you want to create a new web site for your web application you need to create a physical directory for your new site. The Web Platform Installer doesn't create web site directories automatically. You have to specify an existing path if you select "New Web Site..." in the following dialog:
 
-[![](windows-web-application-gallery-known-issues/_static/image33.png)](windows-web-application-gallery-known-issues/_static/image31.png)
+![Screenshot of the Install Application window with physical path circled.](windows-web-application-gallery-known-issues/_static/image31.png)
 
 ### Other Web Platform Installer Issues
 
@@ -68,7 +68,7 @@ Administrators often want to use the built-in SA account to administer SQL Serve
 
 The SA account cannot be used when you choose "Existing Database" in a Web Platform Installer installation that has a SQL Server dependeny. The script that is run will try to add sa to the database and because the SA account already exists the script will fail. SA is a special account and the script will fail.
 
-[![](windows-web-application-gallery-known-issues/_static/image38.png)](windows-web-application-gallery-known-issues/_static/image37.png)
+![Screenshot of the Install Application window with Create new circled and an arrow pointing to the Database username example.](windows-web-application-gallery-known-issues/_static/image37.png)
 
 ## Web Application Issues
 
@@ -78,7 +78,7 @@ The following paragraphs describe known issues with web applications in the Wind
 
 Umbraco can't be hosted in an application directory. It has to be hosted in the root of a web site.
 
-[![](windows-web-application-gallery-known-issues/_static/image40.png)](windows-web-application-gallery-known-issues/_static/image39.png)
+![Screenshot of the Install Application window with Umbraco application name circled.](windows-web-application-gallery-known-issues/_static/image39.png)
 
 When Web Platform Installer shows the following dialog during the Umbraco installatioin the 'Umbraco' application name has to stay empty or Umbraco will not work correctly.
 
@@ -86,7 +86,7 @@ When Web Platform Installer shows the following dialog during the Umbraco instal
 
 If you install SubText The SubText admin menu is not shown in Internet Explorer 6.0 (see below). This issue is likely to occur on Windows 2003 or other operating systems where the Internet Explorer wasn't upgraded to a higher version. Please upgrade to a later version of Internet Explorer to see the admin menu.
 
-[![](windows-web-application-gallery-known-issues/_static/image45.png)](windows-web-application-gallery-known-issues/_static/image44.png)
+![Screenshot showing a portion of the successful configuration screen.](windows-web-application-gallery-known-issues/_static/image44.png)
 
 ### Gallery
 
@@ -94,7 +94,7 @@ If you install SubText The SubText admin menu is not shown in Internet Explorer 
 
 Gallery is a web application that works with Microsoft SQL Server as well as MySQL. For this reason the database field doesn't suggest the name of the database server. If you have SQL Server Express installed locally (which is the default if SQL Express is installed via Web Platform Installer) the database name has to look like this: **.\SQLExpress**
 
-[![](windows-web-application-gallery-known-issues/_static/image47.png)](windows-web-application-gallery-known-issues/_static/image46.png)
+![Screenshot of the Install Application window showing the example database server.](windows-web-application-gallery-known-issues/_static/image46.png)
 
 If MySQL is used locally the database server name can be **'localhost'**.
 
@@ -106,4 +106,4 @@ When you open Gallery the first time it will ask you to secure the g2data folder
 
 DasBlog asks you to enter an application URL in the WebPI parameters UI. DasBlog content will not display correctly if the URL you enter doesn't match the URL that is used for the actual site.
 
-[![](windows-web-application-gallery-known-issues/_static/image50.png)](windows-web-application-gallery-known-issues/_static/image49.png)
+![Screenshot of the Install Application window with the U R L circled.](windows-web-application-gallery-known-issues/_static/image49.png)

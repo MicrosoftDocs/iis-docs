@@ -49,7 +49,7 @@ To add a new connection using a connection string:
 1. Open the **Internet Information Services (IIS) Manager**.
 2. In the **Connections** view, select the site, application, or virtual directory to which you would like to add a connection string.
 
-    [![](use-the-database-manager/_static/image2.gif)](use-the-database-manager/_static/image1.gif)
+    ![Screenshot of the A S P dot N E T window with Connection Strings selected.](use-the-database-manager/_static/image1.gif)
 
     *Figure 1: Features View*
 3. In the **Features View**, double-click on the **Connection Strings** icon.
@@ -57,7 +57,7 @@ To add a new connection using a connection string:
 5. In the **Name** text box, type a *name* for your connection string.
 6. Select the **SQL Server** option button.
 
-    [![](use-the-database-manager/_static/image4.gif)](use-the-database-manager/_static/image3.gif)
+    ![Screenshot of the Add Connection String dialog. S Q L server is selected.](use-the-database-manager/_static/image3.gif)
 
     *Figure 2: Add Connection String*
 7. In the **Server** text box, type the name of the server that hosts your database.
@@ -75,7 +75,7 @@ To add a new connection using the Database Manager:
 
 1. Click the **Add Connection** button on the **Database Manager** toolbar. 
 
-    [![](use-the-database-manager/_static/image2.jpg)](use-the-database-manager/_static/image1.jpg)
+    ![Screenshot of the Database Manager window showing the Database connections pane.](use-the-database-manager/_static/image1.jpg)
 
     *Figure 3: Database Manager*
 2. In the **Connection name** text box, type a *connection* *name*.
@@ -87,7 +87,7 @@ To add a new connection using the Database Manager:
     - The user ID to connect to the database.
     - The password associated with the user ID.
 
-        [![](use-the-database-manager/_static/image6.gif)](use-the-database-manager/_static/image5.gif)
+        ![Screenshot of the Add Connection dialog.](use-the-database-manager/_static/image5.gif)
 
         *Figure 4: Add Connection*
 5. When you are done entering the required information, click **OK**, and the connection is created.
@@ -101,12 +101,12 @@ The Database Manager is hosted within the IIS Manager.
 1. In **IIS Manager**, select the site, application, or virtual directory where your connection string is stored (for more information about creating a connection string, see [Add a Connection String to Your Web Application](#ConnString)). You can alternatively create a new connection in the **Database Manager** using the **Add Connection** button on the **Database Manager** toolbar (for more information, see [Add Connection Button](#AddConnButton)).
 2. In the **Features View**, double-click on the IIS **Database Manager** icon. 
 
-    [![](use-the-database-manager/_static/image4.jpg)](use-the-database-manager/_static/image3.jpg)
+    ![Screenshot showing the Database Manager icon.](use-the-database-manager/_static/image3.jpg)
 
     *Figure 5: Database Manager*
 3. If you have existing connection strings in your site, application, or virtual directory, you can see a node in the Database Manager representing each of these connection strings. 
 
-    [![](use-the-database-manager/_static/image6.jpg)](use-the-database-manager/_static/image5.jpg)
+    ![Screenshot showing a portion of the Database Manager screen. The Database Connections panel shows a list of views.](use-the-database-manager/_static/image5.jpg)
 
     *Figure 6: Database Connections*
 4. In the **Database Manager** view, expand a connection node, and you are presented with more information: 
@@ -124,17 +124,17 @@ The connection string includes the database server, database name, and user cred
 
 1. Select the **Connection Strings** icon.
 
-    [![](use-the-database-manager/_static/image8.jpg)](use-the-database-manager/_static/image7.jpg)
+    ![Screenshot of the I I S Manager screen showing the Connection Strings icon highlighted in the main pane.](use-the-database-manager/_static/image7.jpg)
 
     *Figure 7: Connection Strings module icon*
 2. In the **Management** section for the Web site, double-click the **Database Manager** icon.
 
-    [![](use-the-database-manager/_static/image10.jpg)](use-the-database-manager/_static/image9.jpg)
+    ![Screenshot of the I I S Manager screen showing the Database Manager icon highlighted in the main pane.](use-the-database-manager/_static/image9.jpg)
 
     *###### Figure 8: Database Manager icon*
 3. Manage the database(s) by selecting the appropriate connection. 
 
-    [![](use-the-database-manager/_static/image12.jpg)](use-the-database-manager/_static/image11.jpg)
+    ![Screenshot of the I I S Manager window showing Database Manager in the main pane.](use-the-database-manager/_static/image11.jpg)
 
     *Figure 9: Database Manager*
 
