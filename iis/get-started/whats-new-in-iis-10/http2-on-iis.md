@@ -69,7 +69,7 @@ IIS Logging has a field 'Protocol version' which is off by default. Enabling thi
 
 In the Internet Services Manager UI, this can be found under the **Logging** feature, through **Select Fields**.
 
-![](http2-on-iis/_static/image1.png)
+![Image of I I S Logging page displaying Select Fields drop down with Protocol Version C S dash Version selected from the W 3 C Logging Fields menu.](http2-on-iis/_static/image1.png)
 
 After making the changes, click on **Apply** under the **Actions** pane on the far right.
 
@@ -81,15 +81,15 @@ Here is sample log file output with Protocol Version field enabled:
 
 1. If you are running Windows 10, this can be found via **Programs and Features**, then **Turn Windows features on or off**, then enabling **Internet Information Services** checkbox. If you are running Windows Server 2016, then launch **Server Manager**, then **Add roles and features** on the dashboard, and then select **Web Server (IIS)** from the list. 
 
-    ![](http2-on-iis/_static/image2.png)
+    ![Image of Turn Windows features on or off page with Internet Information Services selected and highlighted.](http2-on-iis/_static/image2.png)
 2. After installation is complete, launch the Internet Services Manager and create a self signed certificate by selecting the **Server Certificates** option under the server's **Features** view. Note that the use of a self signed certificate in this example is only for demo/testing purpose (not recommended for protecting your production sites).
 
-    ![](http2-on-iis/_static/image3.png)
+    ![Image of Server Features view in Internet Service Manager page with Server Certificates highlighted.](http2-on-iis/_static/image3.png)
 
-    ![](http2-on-iis/_static/image4.png)
+    ![Image of dialog for Self Signed Certificate displaying Name box with Create Self Signed Certificate option highlighted.](http2-on-iis/_static/image4.png)
 3. Go to your Default Web Site and under **Bindings**, create a new TLS binding with the self-signed certificate which you just created. 
 
-    ![](http2-on-iis/_static/image5.png)
+    ![Screenshot of dialog box for Add Site Binding with Type of I P Address highlighted and Local I I S Server selected from the drop down.](http2-on-iis/_static/image5.png)
 4. Launch your browser from your Windows 10 or Windows Server 2016 machine and hit F12, (or go to **Settings** and enable **F12 Developer Tools**), and then switch to the **Network** tab. Browse to `https://localhost` and voila, you are on HTTP/2!
 
     ![](http2-on-iis/_static/image6.png)
