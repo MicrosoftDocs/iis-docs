@@ -75,7 +75,7 @@ The JobManager type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConfiguringJobs](jobmanager-configuringjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that are being configured.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CredentialId](jobmanager-credentialid-property-microsoft-web-media-transformmanager.md)|Gets a GUID that identifies the credential that is associated with this job definition.|
@@ -99,7 +99,7 @@ The JobManager type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](jobmanager-dispose-method-microsoft-web-media-transformmanager_1.md)|Releases all resources that are used by the current instance of the JobManager class.|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](jobmanager-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Releases unmanaged resources and optionally releases managed resources.|
@@ -113,7 +113,7 @@ The JobManager type exposes the following members.
 
 ## Events
 
-||Name|Description|
+|Event Type|Name|Description|
 |--- |--- |--- |
 |![Public event](images/Hh125579.pubevent(en-us,VS.90).gif "Public event")|[ShutdownComplete](jobmanager-shutdowncomplete-event-microsoft-web-media-transformmanager.md)|Occurs when all transform jobs have been processed.|
 

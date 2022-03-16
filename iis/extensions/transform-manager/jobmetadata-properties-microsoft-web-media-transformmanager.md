@@ -14,7 +14,7 @@ The [JobMetadata](jobmetadata-class-microsoft-web-media-transformmanager.md) typ
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[InputFolder](jobmetadata-inputfolder-property-microsoft-web-media-transformmanager.md)|Gets the name of the input folder for the job.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[InstanceFileIsManifest](jobmetadata-instancefileismanifest-property-microsoft-web-media-transformmanager.md)|Gets a value that indicates whether the instance file is a manifest file.|

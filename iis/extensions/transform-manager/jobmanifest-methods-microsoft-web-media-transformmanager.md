@@ -14,7 +14,7 @@ The [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md) typ
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateManifest](jobmanifest-createmanifest-method-microsoft-web-media-transformmanager.md)|Creates a [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md) object by using the job definition, the root work folder name, scheduling information about a job, tasks that define a job, shared properties, the name of the file that is used to create the manifest, and the ID of the manifest instance.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
