@@ -24,7 +24,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationBase(XNamespace)](configurationbase-constructor-xnamespace-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md) class using the specified namespace.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationBase(XNamespace, FileInfo)](configurationbase-constructor-xnamespace-fileinfo-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md) class using the specified namespace and file information.|
