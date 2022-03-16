@@ -106,7 +106,7 @@ Before starting the installation procedure for Joomla, you must create a databas
 
     Note: You may scroll down and install sample data if you prefer.
 
-    ![Screenshot of the Joomla installation  page. Main configuration settings are showing in the main pane.](install-joomla-on-iis/_static/image11.jpg)
+    ![Screenshot of the Joomla installation page. Main configuration settings are showing in the main pane.](install-joomla-on-iis/_static/image11.jpg)
 
     *Figure 6: Main Configuration page*
 8. The Finish page appears, and you are instructed to delete the `C:\inetpub\wwwroot\joomla\installation` directory.  
