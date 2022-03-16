@@ -42,7 +42,7 @@ For example, suppose you have two Web sites in IIS 6.0, website1.com and website
     - Create a phpinfo.php file in `C:\Inetpub\website1.com`
     - Place this code inside of phpinfo.php: &lt;?php phpinfo(); ?&gt;
     - Open web browser and make a request to http://website1.com/phpinfo.php. The output of phpinfo.php file will show the location from where php.ini file was loaded:  
-        ![Screenshot of a web browser displaying the output of the P H P info. P H P file. The Loaded Configuration File is ciricled.](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)  
+        ![Screenshot of a web browser displaying the output of the P H P info dot P H P file. The Loaded Configuration File is ciricled.](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)  
         *Figure 1 website1*
 
 ## Enable per-Site PHP Configuration with PHP 5.2 on IIS 7 and Above
