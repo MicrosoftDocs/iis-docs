@@ -71,13 +71,13 @@ The Credential type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Credential](credential-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the Credential class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Description](credential-description-property-microsoft-web-media-transformmanager.md)|Gets or sets the credential description.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Domain](credential-domain-property-microsoft-web-media-transformmanager.md)|Gets or sets the credential domain.|
@@ -89,7 +89,7 @@ The Credential type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
