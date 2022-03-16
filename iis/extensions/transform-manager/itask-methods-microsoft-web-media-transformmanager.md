@@ -14,7 +14,7 @@ The [ITask](itask-interface-microsoft-web-media-transformmanager.md) type expose
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose](https://msdn.microsoft.com/library/es4s3w1d)|(Inherited from [IDisposable](https://msdn.microsoft.com/library/aax125c9).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Initialize](itask-initialize-method-microsoft-web-media-transformmanager.md)|Initializes the task with objects for reporting status, logging data, and getting metadata from the job manifest.|

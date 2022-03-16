@@ -14,7 +14,7 @@ The [HpcScheduler](hpcscheduler-class-microsoft-web-media-transformmanager.md) t
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](hpcscheduler-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels the job. (Overrides [Scheduler.CancelJob(String)](scheduler-canceljob-method-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CleanupJob](hpcscheduler-cleanupjob-method-microsoft-web-media-transformmanager.md)|Cleans up scheduler data structure artifacts. (Overrides [Scheduler.CleanupJob(String)](scheduler-cleanupjob-method-microsoft-web-media-transformmanager.md).)|

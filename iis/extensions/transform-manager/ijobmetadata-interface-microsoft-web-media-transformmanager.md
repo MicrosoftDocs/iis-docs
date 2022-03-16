@@ -63,7 +63,7 @@ The IJobMetadata type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[InputFolder](ijobmetadata-inputfolder-property-microsoft-web-media-transformmanager.md)|Gets the name of the input folder for the job.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[InstanceFileIsManifest](ijobmetadata-instancefileismanifest-property-microsoft-web-media-transformmanager.md)|Gets a value that indicates whether the instance file is a manifest file.|
@@ -76,7 +76,7 @@ The IJobMetadata type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetProperty](ijobmetadata-getproperty-method-microsoft-web-media-transformmanager.md)|Returns the value of the specified property from the task resource description framework (RDF) metadata section in the manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SetProperty](ijobmetadata-setproperty-method-microsoft-web-media-transformmanager.md)|Sets a property value in the task resource description framework (RDF) metadata section in the manifest.|

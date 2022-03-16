@@ -70,7 +70,7 @@ The IisNamespaces type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ExpressionEncoder](iisnamespaces-expressionencoder-property-microsoft-web-media-transformmanager.md)|Gets the URI of an expression encoder schema document.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDefinitionNamespace](iisnamespaces-jobdefinitionnamespace-property-microsoft-web-media-transformmanager.md)|Gets the URI of a media services schema document that is related to job definitions.|

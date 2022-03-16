@@ -23,7 +23,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](hpcscheduler-dispose-method-microsoft-web-media-transformmanager_1.md)|Releases all resources used by the HPC scheduler instance. (Overrides [Scheduler.Dispose() () () ()](scheduler-dispose-method-microsoft-web-media-transformmanager.md).)|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](hpcscheduler-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Releases all resources used by the HPC scheduler and optionally releases the managed resources.|
