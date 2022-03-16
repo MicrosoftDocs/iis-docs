@@ -42,7 +42,7 @@ For example, suppose you have two Web sites in IIS 6.0, website1.com and website
     - Create a phpinfo.php file in `C:\Inetpub\website1.com`
     - Place this code inside of phpinfo.php: &lt;?php phpinfo(); ?&gt;
     - Open web browser and make a request to http://website1.com/phpinfo.php. The output of phpinfo.php file will show the location from where php.ini file was loaded:  
-        ![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)  
+        ![Screenshot of a web browser displaying the output of the P H P info. P H P file. The Loaded Configuration File is ciricled.](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)  
         *Figure 1 website1*
 
 ## Enable per-Site PHP Configuration with PHP 5.2 on IIS 7 and Above
@@ -100,7 +100,7 @@ There are now two options:
     [!code-xml[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample10.xml)]
 5. Open the PHP script on the Web site `http://localhost/phpinfo.php`.
 
-    ![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image3.gif)  
+    ![Screenshot of a browser window displaying the P H P info page. The max execution time field and value are circled.](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image3.gif)  
     *Figure 2: phpinfo() page*  
 
     This output shows that the local value of the max\_execution\_time setting (in the second column) is 300, while the master value, or default, is 30.
@@ -125,7 +125,7 @@ If you want to allow Web application owners to control PHP settings themselves, 
     [!code-xml[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample14.xml)]
 5. Open the PHP script on the Web site `http://localhost/phpinfo.php`.
 
-    ![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image5.gif)  
+    ![Screenshot of a browser window displaying the P H P info page. The upload max file size field and value are circled.](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image5.gif)  
     *Figure 3: phpinfo() page*
 
     Note also that when you enable the user-defined INI files, the settings in those files are cached by the PHP engine to avoid re-reading those files for every request. This means that if the user makes a change to .user.ini file, then that change may not take effect right away. Instead it may take effect after the cache time to live (TTL) has expired. The cache TTL value is controlled by the php.ini setting user\_ini.cache\_ttl, which is set to 300 seconds (5 minutes) by default.
