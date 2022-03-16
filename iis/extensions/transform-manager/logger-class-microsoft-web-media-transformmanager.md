@@ -73,13 +73,13 @@ The Logger type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Logger](logger-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the Logger class.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFile](logger-logfile-property-microsoft-web-media-transformmanager.md)|Gets or sets a [StreamWriter](https://msdn.microsoft.com/library/3ssew6tk) object that represents the log file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFileName](logger-logfilename-property-microsoft-web-media-transformmanager.md)|Gets or sets the name of the log file.|
@@ -87,7 +87,7 @@ The Logger type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Close](logger-close-method-microsoft-web-media-transformmanager.md)|Disposes logging resources if the log file exists.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](logger-dispose-method-microsoft-web-media-transformmanager_1.md)|Disposes logging resources.|

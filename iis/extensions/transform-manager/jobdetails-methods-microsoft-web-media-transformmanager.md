@@ -14,7 +14,7 @@ The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) type 
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateWorkItem](jobdetails-createworkitem-method-microsoft-web-media-transformmanager.md)|Creates a [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object that defines a work item based on the specified job manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateWorkItemElement](jobdetails-createworkitemelement-method-microsoft-web-media-transformmanager.md)|Creates an XML element based on the specified [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object that defines a work item.|

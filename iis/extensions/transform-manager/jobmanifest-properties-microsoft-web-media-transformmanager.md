@@ -14,7 +14,7 @@ The [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md) typ
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Arguments](jobmanifest-arguments-property-microsoft-web-media-transformmanager.md)|Gets executable program task arguments that are associated with the data in the manifest.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[FileName](jobmanifest-filename-property-microsoft-web-media-transformmanager.md)|Gets or sets the file name of the manifest.|

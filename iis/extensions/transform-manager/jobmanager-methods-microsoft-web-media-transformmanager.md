@@ -14,7 +14,7 @@ The [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) type 
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](jobmanager-dispose-method-microsoft-web-media-transformmanager_1.md)|Releases all resources that are used by the current instance of the [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) class.|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](jobmanager-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Releases unmanaged resources and optionally releases managed resources.|

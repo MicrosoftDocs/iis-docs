@@ -14,7 +14,7 @@ The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) type 
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsEndTime](jobdetails-jobdetailsendtime-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "endTime" field.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsFolder](jobdetails-jobdetailsfolder-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "folder" field.|
