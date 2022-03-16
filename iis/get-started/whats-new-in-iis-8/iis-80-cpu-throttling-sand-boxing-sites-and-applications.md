@@ -56,19 +56,19 @@ There are no known bugs for this feature at this time.
 
 1. Open **IIS Manager**.
 2. Select **Application Pools** in the left navigation window:  
-    ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image1.png)
+    ![Screenshot showing the connections pane with Application Pools highlighted.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image1.png)
 3. Select **DefaultAppPool**:  
-    ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image3.png)
+    ![Screenshot showing the Applications Pools page with DefaultAppTool highlighted.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image3.png)
 4. In the **Action** pane, select **Advanced Settings**:  
-    ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image5.png)
+    ![Screenshot of the Actions pane with Advanced Settings highlighted.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image5.png)
 5. Under **CPU** group, locate the following configurations:  
-    ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image7.png)
+    ![Screenshot of the Advanced Settings dialog. The CPU section is highlighted.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image7.png)
 
     - **Limit**: Indicates the maximum CPU usage (in 1000th of a percent) for this application pool. If there are multiple processes associated to this application pool, the limit is applied to the total ***sum*** of all processes under this application pool.
     - **LimitAction**: Indicates what action to take when the limit value is met above. 
 
         - For Windows Server 8, new actions, **Throttle** and **ThrottleUnderLoad** have been added:  
-            ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image9.png)
+            ![Screenshot of the Advanced Settings dialog. Limit Action is set to Throttle.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image9.png)
         - **Throttle**: The feature will throttle the CPU consumption to the value set for **Limit**.
         - **ThrottleUnderLoad**: The feature will throttle the CPU consumption to the value set for **Limit**, but only if there is a contention on the CPU. This means that the application pool may consume more CPU activity when the CPU is idle.
     - **LimitInterval**: Not used for both **Throttle** and **ThrottleUnderLoad**. This configuration attribute is carried over from previous versions of Windows for backward compatibility.
@@ -76,12 +76,12 @@ There are no known bugs for this feature at this time.
 
     1. **Limit**: 30000 (30% in 1000th of a percent)
     2. **LimitAction**: Throttle  
-        ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image11.png)
+        ![Screenshot of the Advanced Settings dialog. Limit is highlighted.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image11.png)
 7. That's it. Using a load generating tool, send requests to the Default Web Site. A tool such as WCAT can be used ([https://www.iis.net/community/default.aspx?tabid=34&amp;g=6&amp;i=1467](https://www.iis.net/downloads/community/2007/05/wcat-63-x64)) to generate traffic.
 8. Note that the configuration settings in question can be set as default values so that they don't have to be configured individually per application pool. To configure the application pool defaults, select **Set Application Pool Defaults** under **Actions** pane:  
-    ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image13.png)
+    ![Screenshot of the Actions pane. Set Application Pool Defaults is highlighted.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image13.png)
 9. The same settings are exposed there to configure the application pool defaults:  
-    ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image15.png)
+    ![Screenshot of the Application Pool Defaults dialog. CPU Limit is highlighted.](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image15.png)
 
 ### Scenarios
 
