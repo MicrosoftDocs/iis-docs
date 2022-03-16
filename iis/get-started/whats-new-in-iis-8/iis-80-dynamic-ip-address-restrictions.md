@@ -46,7 +46,7 @@ In IIS 8.0, Microsoft has expanded the built-in functionality to include several
     > [!NOTE]
     > The IP and Domain Restrictions feature must be installed as part of IIS.  
   
-    ![](iis-80-dynamic-ip-address-restrictions/_static/image1.jpg)
+    ![Screenshot that shows a selected checkbox for I P and Domain Restrictions.](iis-80-dynamic-ip-address-restrictions/_static/image1.jpg)
 
 #### Workarounds for known bugs:
 
@@ -63,11 +63,11 @@ To configure IIS to deny access based on the number of HTTP requests that it rec
 1. Log in as an administrator on your Windows Server 2012 computer.
 2. Open the **Internet Information Services (IIS) Manager**.
 3. Highlight your server name, website, or folder path in the **Connections** pane, and then double-click **IP Address and Domain Restrictions** in the list of features.  
-    [![](iis-80-dynamic-ip-address-restrictions/_static/image2.png)](iis-80-dynamic-ip-address-restrictions/_static/image1.png)
+    [![Screenshot that shows the I I S Manager, with the Default Web Site Home pane open and I P Address and Domain Restrictions selected.](iis-80-dynamic-ip-address-restrictions/_static/image2.png)](iis-80-dynamic-ip-address-restrictions/_static/image1.png)
 4. Click **Edit Dynamic Restriction Settings** in the **Actions** pane.  
-    [![](iis-80-dynamic-ip-address-restrictions/_static/image4.png)](iis-80-dynamic-ip-address-restrictions/_static/image3.png)
+    [![Screenshot that shows the I P Address and Domain Restrictions pane open. Edit Dynamic Restriction Settings is highlighted in the Actions pane.](iis-80-dynamic-ip-address-restrictions/_static/image4.png)](iis-80-dynamic-ip-address-restrictions/_static/image3.png)
 5. When the **Dynamic IP Restriction Settings** dialog box appears, check the **Deny IP Address based on the number of concurrent requests** if you want to prevent an HTTP client from establishing too many simultaneous connections. And check the box to **Deny IP Address based on the number of requests over a period of time** if you want to prevent an HTTP client from establishing too many connections within a specific time period.  
-    ![](iis-80-dynamic-ip-address-restrictions/_static/image5.png)
+    ![Screenshot that shows the Dynamic I P Restriction Settings dialog box. The first two items have selected checkboxes.](iis-80-dynamic-ip-address-restrictions/_static/image5.png)
 6. Click **OK**.
 
 <a id="TOC301448452"></a>
@@ -81,9 +81,9 @@ To configure the behavior that IIS will use when denying IP addresses, use the f
 1. Log in as an administrator on your Windows Server 2012 computer.
 2. Open the **Internet Information Services (IIS) Manager**.
 3. Highlight your server name, website, or folder path in the **Connections** pane, and then double-click **IP Address and Domain Restrictions** in the list of features.  
-    [![](iis-80-dynamic-ip-address-restrictions/_static/image3.jpg)](iis-80-dynamic-ip-address-restrictions/_static/image2.jpg)
+    [![Screenshot that shows the I I S Manager. I P Address and Domain Restrictions is selected in the Default Web Site Home pane.](iis-80-dynamic-ip-address-restrictions/_static/image3.jpg)](iis-80-dynamic-ip-address-restrictions/_static/image2.jpg)
 4. Click **Edit Feature Settings** in the **Actions** pane.  
-    [![](iis-80-dynamic-ip-address-restrictions/_static/image7.png)](iis-80-dynamic-ip-address-restrictions/_static/image6.png)
+    [![Screenshot that shows the I P Address and Domain Restrictions pane, with Edit Feature Settings highlighted in the Actions pane.](iis-80-dynamic-ip-address-restrictions/_static/image7.png)](iis-80-dynamic-ip-address-restrictions/_static/image6.png)
 5. When the **Edit IP and Domain Restriction Settings** dialog box appears, click the **Deny Action Type** drop-down menu and choose the behavior that IIS uses from the following values: 
 
    - **Unauthorized**: IIS returns an HTTP 401 response.
@@ -91,7 +91,7 @@ To configure the behavior that IIS will use when denying IP addresses, use the f
    - **Not Found**: IIS returns an HTTP 404 response.
    - **Abort**: IIS terminates the HTTP connection.
 
-     ![](iis-80-dynamic-ip-address-restrictions/_static/image8.png)
+     ![Screenshot that shows the Edit I P and Domain Restrictions Settings dialog box. Forbidden is selected from the Deny Action Type list.](iis-80-dynamic-ip-address-restrictions/_static/image8.png)
 6. Click **OK**.
 
 <a id="TOC301448453"></a>
@@ -105,11 +105,11 @@ To configure IIS for proxy mode, use the following steps:
 1. Log in as an administrator on your Windows Server 2012 computer.
 2. Open the **Internet Information Services (IIS) Manager**.
 3. Highlight your server name, website, or folder path in the **Connections** pane, and then double-click **IP Address and Domain Restrictions** in the list of features.  
-    [![](iis-80-dynamic-ip-address-restrictions/_static/image5.jpg)](iis-80-dynamic-ip-address-restrictions/_static/image4.jpg)
+    [![Screenshot that shows the Default Web Site Home pane, with I P Address and Domain Restrictions selected.](iis-80-dynamic-ip-address-restrictions/_static/image5.jpg)](iis-80-dynamic-ip-address-restrictions/_static/image4.jpg)
 4. Click **Edit Feature Settings** in the **Actions** pane.  
-    [![](iis-80-dynamic-ip-address-restrictions/_static/image10.png)](iis-80-dynamic-ip-address-restrictions/_static/image9.png)
+    [![Screenshot that shows the I I S Manager, with Edit Feature Settings highlighted in the Actions pane.](iis-80-dynamic-ip-address-restrictions/_static/image10.png)](iis-80-dynamic-ip-address-restrictions/_static/image9.png)
 5. When the **Edit IP and Domain Restriction Settings** dialog box appears, check the box to **Enable Proxy Mode**.  
-    ![](iis-80-dynamic-ip-address-restrictions/_static/image11.png)
+    ![Screenshot that shows the Edit and Domain Restrictions Settings dialog box. Enable Proxy Mode is selected in the checkbox.](iis-80-dynamic-ip-address-restrictions/_static/image11.png)
 6. Click **OK**.
 
 <a id="TOC301258518"></a>

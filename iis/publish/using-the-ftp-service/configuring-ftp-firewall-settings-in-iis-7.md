@@ -65,7 +65,7 @@ In this section you, create a new FTP site that can be opened for Read-only acce
 1. Go to IIS 7 Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image1.png)
+    ![Screenshot of the I I S Manager. Add F T P Site is highlighted in the Sites context menu in the Connections pane.](configuring-ftp-firewall-settings-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears:
 
    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
@@ -75,7 +75,7 @@ In this section you, create a new FTP site that can be opened for Read-only acce
 
    - Click **Next**.
 
-     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image1.jpg)
+     ![Screenshot shows the Add F T P Site dialog box for Site Information.](configuring-ftp-firewall-settings-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard:
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be accessing this FTP site remotely, you want to make sure that you do not restrict access to the local server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -84,17 +84,17 @@ In this section you, create a new FTP site that can be opened for Read-only acce
    - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
    - Click **Next**.
 
-     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image7.jpg)
+     ![Screenshot shows the Add F T P Site dialog box for Binding and S S L Settings.](configuring-ftp-firewall-settings-in-iis-7/_static/image7.jpg)
 5. On the next page of the wizard:
 
    - Select **Anonymous** for the **Authentication** settings.
    - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down. Select **Read** for the **Permissions** option.
    - Click **Finish**.
 
-     ![](configuring-ftp-firewall-settings-in-iis-7/_static/image9.jpg)
+     ![Screenshot shows the Add F T P Site dialog box for Authentication and Authorized Information.](configuring-ftp-firewall-settings-in-iis-7/_static/image9.jpg)
 6. Go to IIS 7 Manager. Click the node for the FTP site that you created. The icons for all of the FTP features display.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image5.png)
+    ![Screenshot that shows the My New F T P Site Home pane.](configuring-ftp-firewall-settings-in-iis-7/_static/image5.png)
 
 ### Summary
 
@@ -112,13 +112,13 @@ In this section, you configure the server-level port range for passive connectio
 
 1. Go to IIS 7 Manager. In the **Connections** pane, click the server-level node in the tree.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image9.png)
+    ![Screenshot that shows the MY SERVER Home pane.](configuring-ftp-firewall-settings-in-iis-7/_static/image9.png)
 2. Double-click the **FTP Firewall Support** icon in the list of features.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image13.png)
+    ![Screenshot that shows the MY SERVER Home pane with F T P Firewall Support highlighted.](configuring-ftp-firewall-settings-in-iis-7/_static/image13.png)
 3. Enter a range of values for the **Data Channel Port Range**.
 
-    ![](configuring-ftp-firewall-settings-in-iis-7/_static/image17.png)
+    ![Screenshot that shows the F T P Firewall Support pane.](configuring-ftp-firewall-settings-in-iis-7/_static/image17.png)
 4. Once you have entered the port range for your FTP service, click **Apply** in the **Actions** pane to save your configuration settings.
 
 ### Notes
@@ -140,10 +140,10 @@ In this section, you configure the external IPv4 address for the specific FTP si
 
 1. Go to IIS 7 Manager. In the **Connections** pane, click the FTP site that you created earlier in the tree, Double-click the **FTP Firewall Support** icon in the list of features.
 
-   ![](configuring-ftp-firewall-settings-in-iis-7/_static/image21.png)
+   ![Screenshot that shows the My New F T P Site Home pane with F T P Firewall Support highlighted.](configuring-ftp-firewall-settings-in-iis-7/_static/image21.png)
 2. Enter the IPv4 address of the external-facing address of your firewall server for the **External IP Address of Firewall** setting.
 
-   ![](configuring-ftp-firewall-settings-in-iis-7/_static/image25.png)
+   ![Screenshot that shows the F T P Firewall Support pane, with an I P Address entered in the External I P Address or Firewall field.](configuring-ftp-firewall-settings-in-iis-7/_static/image25.png)
 3. Once you have entered the external IPv4 address for your firewall server, click **Apply** in the **Actions** pane to save your configuration settings.
 
 ### Summary
