@@ -14,7 +14,7 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[DisableTraceArea](tracing-disabletracearea-method-microsoft-web-media-diagnostics_1.md)|Disables the trace area that is specified by the traceArea parameter.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[DisableTraceDestination](tracing-disabletracedestination-method-microsoft-web-media-diagnostics_1.md)|Disables the trace destination that is specified by the destination parameter.|

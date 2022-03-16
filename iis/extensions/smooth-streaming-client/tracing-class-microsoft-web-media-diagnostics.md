@@ -63,7 +63,7 @@ The Tracing type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ConfigLoaded](tracing-configloaded-property-microsoft-web-media-diagnostics_1.md)|Gets the [ConfigLoaded](tracing-configloaded-property-microsoft-web-media-diagnostics_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md) property.|
@@ -71,7 +71,7 @@ The Tracing type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[DisableTraceArea](tracing-disabletracearea-method-microsoft-web-media-diagnostics_1.md)|Disables the trace area that is specified by the traceArea parameter.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[DisableTraceDestination](tracing-disabletracedestination-method-microsoft-web-media-diagnostics_1.md)|Disables the trace destination that is specified by the destination parameter.|
@@ -114,7 +114,7 @@ The Tracing type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[IncludeClassName](tracing-includeclassname-field-microsoft-web-media-diagnostics_1.md)|A Boolean value that indicates whether to include the class name in traces.|
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[IncludeDate](tracing-includedate-field-microsoft-web-media-diagnostics_1.md)|A Boolean value that indicates whether to include the date in traces.|

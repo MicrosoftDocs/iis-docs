@@ -14,7 +14,7 @@ The [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Cancelled](https://msdn.microsoft.com/library/hhb0kte8)|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Error](https://msdn.microsoft.com/library/zye0z486)|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9).)|

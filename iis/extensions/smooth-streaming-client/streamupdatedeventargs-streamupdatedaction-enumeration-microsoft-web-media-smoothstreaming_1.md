@@ -69,7 +69,7 @@ public enum StreamUpdatedAction
 
 ## Members
 
-||Member name|Description|
+|Support Type|Member name|Description|
 |--- |--- |--- |
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|StreamSelected|Stream selected. See [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md).|
 |![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|StreamDeselected|Stream unselected. See [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md).|
