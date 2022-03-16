@@ -37,7 +37,7 @@ Starting WMSVC is the last step because WMSVC cannot be configured while running
 
 Click **Server Manager** in the Start menu, select the **Roles** node in the left-hand tree view, and scan down to find the **Web Server (IIS)** role. Click **Add Role Services** and select the **Management Service** component.
 
-[![](remote-administration-for-iis-manager/_static/image3.jpg)](remote-administration-for-iis-manager/_static/image1.jpg)
+![Screenshot showing the list of services. An arrow points to Management Service.](remote-administration-for-iis-manager/_static/image1.jpg)
 
 <a id="01"></a>
 
@@ -61,7 +61,7 @@ There are a few other WMSVC settings you might want to configure:
 
 To configure these settings using IIS Manager, click the server node in the tree view and open the **Management Service** feature. This configuration is stored in the registry and can be manipulated many different ways (e.g. regedit, .reg files, WMI, etc.):
 
-[![](remote-administration-for-iis-manager/_static/image7.jpg)](remote-administration-for-iis-manager/_static/image5.jpg)
+![Screenshot showing registry settings.](remote-administration-for-iis-manager/_static/image5.jpg)
 
 <a id="03"></a>
 

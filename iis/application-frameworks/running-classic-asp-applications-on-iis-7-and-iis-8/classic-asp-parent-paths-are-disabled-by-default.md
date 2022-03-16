@@ -60,11 +60,11 @@ As an alternative to using parent paths in your ASP code, you can use virtual pa
 
 You can enable or disable parent paths by using IIS Manager. To do so, open IIS Manager and navigate to the site or application where you want to configure parent paths, and then-double click the **ASP** feature.
 
-[![](classic-asp-parent-paths-are-disabled-by-default/_static/image2.jpg)](classic-asp-parent-paths-are-disabled-by-default/_static/image1.jpg)
+![Screenshot of the Default Web Site Home page. The A S P icon is selected.](classic-asp-parent-paths-are-disabled-by-default/_static/image1.jpg)
 
 In the list of ASP features, configure the **Enable Parent Paths** option.
 
-[![](classic-asp-parent-paths-are-disabled-by-default/_static/image4.jpg)](classic-asp-parent-paths-are-disabled-by-default/_static/image3.jpg)
+![Screenshot of the A S P features screen. Enable Parent Paths is selected.](classic-asp-parent-paths-are-disabled-by-default/_static/image3.jpg)
 
 You can also configure this setting by using the command-line tool AppCmd.exe with the following syntax:
 

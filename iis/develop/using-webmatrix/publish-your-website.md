@@ -44,9 +44,9 @@ If you're using a SQL Server Compact database and want to publish to a SQL Serve
 To set up web hosting, you must find a web hosting provider and set up an account.
 
 1. In the **Home** tab, click the arrow below **Publish**, and then click **Find Web Hosting**.  
-    ![](publish-your-website/_static/image1.jpg)  
+    ![Screenshot showing the Find Web Hosting option selected.](publish-your-website/_static/image1.jpg)  
    The **Find Web Hosting** web page lists hosting providers.  
-    [![](publish-your-website/_static/image2.png)](publish-your-website/_static/image1.png)
+    ![Screenshot of a browser window showing the find web hosting page.](publish-your-website/_static/image1.png)
 2. Select one of the hosting providers and click **Learn More**.
 3. Follow the directions provided by the hosting provider's site to set up a new account.  
   
@@ -71,11 +71,11 @@ Configuring WebMatrix Beta for Publishing
 1. Open the website in WebMatrix.
 2. On the **Home** tab, click the arrow below **Publish**, and then click **Configure**.
 
-    [![](publish-your-website/_static/image4.jpg)](publish-your-website/_static/image3.jpg)
+    ![Screenshot showing the Configure option selected.](publish-your-website/_static/image3.jpg)
 
     The **Publishing Settings** dialog box is displayed.
 
-    [![](publish-your-website/_static/image6.jpg)](publish-your-website/_static/image5.jpg)
+    ![Screenshot of the Publishing Settings dialog.](publish-your-website/_static/image5.jpg)
 3. If you selected a hosting provider through WebMatrix Beta, you can leave **Protocol** set to **Web Deploy**. If you're using a hosting provider that doesn't support Web Deploy, or if you want to publish using FTP instead of Web Deploy, change the **Protocol** to **FTP**.
 4. If you are using Web Deploy, enter the information you received from the hosting provider in the text boxes: 
 
@@ -86,7 +86,7 @@ Configuring WebMatrix Beta for Publishing
     | Site Name | Enter the "Site" or "Site/Application" value from the hosting company, like this: user123.server1.lucernepublishing.com |
     | Destination URL | Enter the URL that people will use to browse your site over the internet, like this: contoso.com -or- contoso.com/blog |
 5. If you want to use FTP instead of Web Deploy, select **FTP**. Some of the fields you have to enter are different:  
-    [![](publish-your-website/_static/image8.jpg)](publish-your-website/_static/image7.jpg)
+    ![Screenshot of Publishing Settings with the FTP Protocol selected.](publish-your-website/_static/image7.jpg)
 6. If you are using FTP: 
 
     1. Enter the **Server**, **User name**, **Password**, and **Destination URL** as described above for Web Deploy.
@@ -94,7 +94,7 @@ Configuring WebMatrix Beta for Publishing
 7. If you want to upload only the files that have changed locally, select **Upload locally changed files**.
 8. If you don't want to enter the password every time you publish, select the **Save password** check box.
 9. Click **Validate Connection** to verify that WebMatrix Beta is able to connect to the hosting provider. WebMatrix Beta displays the results to the right of the button.  
-    [![](publish-your-website/_static/image10.jpg)](publish-your-website/_static/image9.jpg)  
+    ![Screenshot of the Publishing Settings with Connected successfully selected.](publish-your-website/_static/image9.jpg)  
  If the connection test fails, double-check that you entered the information correctly. If you did but validation continues to display an error, contact the hosting provider for help.
 10. If your website uses a full SQL Server or SQL Server Express database (that is, not a SQL Server Compact database), enter the connection string that was sent to you by the hosting provider.  
  If the SQL Server database doesn't appear in the dialog box, make sure it has a connection string in the Web.config file. For more information, see     *About Connection Strings* later in this document.
@@ -105,7 +105,7 @@ Configuring WebMatrix Beta for Publishing
 You can now start the publishing process. Before WebMatrix Beta makes any changes at the hosting company's web server, it tells you what it plans to do. You can then review the plan and modify it if necessary. Then, when you're ready, you tell WebMatrix Beta to go ahead and publish.
 
 1. In the **Publishing Settings** dialog box, click **Publish**. The **Publish Preview** dialog box appears.  
-    [![](publish-your-website/_static/image12.jpg)](publish-your-website/_static/image11.jpg)
+    ![Screenshot showing the Publish Preview dialog.](publish-your-website/_static/image11.jpg)
 2. Review the list of files and databases and make changes if necessary. For example, you might want to clear check boxes under **Changed Files** to exclude some files. Or, if this is the first time you're publishing the site, you might want to select check boxes under **Databases** to publish databases. (Check boxes are selected by default in the **Files** section and cleared by default in the **Databases** section.) 
 
     > [!IMPORTANT]
@@ -114,11 +114,11 @@ You can now start the publishing process. Before WebMatrix Beta makes any change
 
     WebMatrix Beta publishes the website, showing status messages in the navigation bar at the bottom of the screen. The publishing process is done in the background, which means you can continue to work in WebMatrix Beta while it is publishing.
 
-    [![](publish-your-website/_static/image14.jpg)](publish-your-website/_static/image13.jpg)
+    ![Screenshot showing the Web Matrix demo screen. ](publish-your-website/_static/image13.jpg)
 
     You can click **More Details** in the notification bar to see a detailed log of the publishing activity.
 
-    [![](publish-your-website/_static/image16.jpg)](publish-your-website/_static/image15.jpg)
+    ![Screenshot showing the Deployment Details dialog.](publish-your-website/_static/image15.jpg)
 
     To verify that publishing was successful, browse to the site.
 
