@@ -14,7 +14,7 @@ The [EventViewer](eventviewer-class-microsoft-web-media-transformmanager.md) typ
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[EventIdError](eventviewer-eventiderror-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when error information is written to the event viewer. This member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[EventIdInformation](eventviewer-eventidinformation-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when information is written to the event viewer. This member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|

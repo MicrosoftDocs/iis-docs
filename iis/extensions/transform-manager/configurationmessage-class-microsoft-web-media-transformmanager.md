@@ -71,7 +71,7 @@ The ConfigurationMessage type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationMessage(String)](configurationmessage-constructor-string-microsoft-web-media-transformmanager.md)|Initializes a new instance of the ConfigurationMessage class using the specified message.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationMessage(XElement, ConfigurationBase)](configurationmessage-constructor-xelement-configurationbase-microsoft-web-media-transformmanager.md)|Initializes a new instance of the ConfigurationMessage class using the specified message element and configuration object.|
@@ -80,7 +80,7 @@ The ConfigurationMessage type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[FileName](configurationmessage-filename-property-microsoft-web-media-transformmanager.md)|Gets or sets the name of the configuration file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[HelpLinkId](configurationmessage-helplinkid-property-microsoft-web-media-transformmanager.md)|Gets or sets a context-sensitive help link ID value.|
@@ -94,7 +94,7 @@ The ConfigurationMessage type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|

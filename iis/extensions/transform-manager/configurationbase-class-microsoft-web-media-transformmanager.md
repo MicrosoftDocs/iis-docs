@@ -75,14 +75,14 @@ The ConfigurationBase type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationBase(XNamespace)](configurationbase-constructor-xnamespace-microsoft-web-media-transformmanager.md)|Initializes a new instance of the ConfigurationBase class using the specified namespace.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationBase(XNamespace, FileInfo)](configurationbase-constructor-xnamespace-fileinfo-microsoft-web-media-transformmanager.md)|Initializes a new instance of the ConfigurationBase class using the specified namespace and file information.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[BaseNamespace](configurationbase-basenamespace-property-microsoft-web-media-transformmanager.md)|Gets or sets the XML namespace for the configuration.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ConfigurationDirectory](configurationbase-configurationdirectory-property-microsoft-web-media-transformmanager.md)|Gets or sets the configuration directory path for the IIS Transform Manager configuration.|
@@ -102,7 +102,7 @@ The ConfigurationBase type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String)](configurationbase-addconfigurationmessage-method-string-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String, ConfigurationMessageSeverity)](configurationbase-addconfigurationmessage-method-string-configurationmessageseverity-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration using the specified severity value.|
@@ -116,7 +116,7 @@ The ConfigurationBase type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ConfigurationExtension](configurationbase-configurationextension-field-microsoft-web-media-transformmanager.md)|Represents a string constant that specifies the file name extension (".xml") of a configuration file.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDefinitionsDirectory](configurationbase-jobdefinitionsdirectory-field-microsoft-web-media-transformmanager.md)|Represents a string constant that specifies a configuration directory ("Job Definitions") for job definitions.|
