@@ -42,25 +42,25 @@ Before starting the installation procedure for PostNuke, create a database on yo
 PostNuke is simple to install.
 
 1. To begin the install script, type the URL of the install.php file into your Web browser. If you installed PostNuke to your `c:\inetpub\wwwroot\postnuke` folder, the install file is located at [http://localhost/postnuke/install.php](http://localhost/postnuke/install.php).  
-    [![](phpnuke-on-iis/_static/image2.jpg)](phpnuke-on-iis/_static/image1.jpg)
+    [![Screenshot-shows PostNuke setup page with URL field to enter the URL of the install.php file, and a Language dropdown to set your preferred language.](phpnuke-on-iis/_static/image2.jpg)](phpnuke-on-iis/_static/image1.jpg)
 2. From here, select the default language for your PostNuke site. The English language files are included with the distribution, so we select English.
-3. Read through the license agreement.  
+3. Read through the license agreement.
 
     Following the license agreement, a CHMOD (or permissions) check is run on some files and directories. In order to install correctly, PostNuke must be able to write to certain files during the installation, and for the more advanced features, certain directories must also be writable. If these conditions are not met, a warning displays.
 
     In our case, the file register\_globals is used in other applications running on the same machine and is not set as off.
 
-    [![](phpnuke-on-iis/_static/image4.jpg)](phpnuke-on-iis/_static/image3.jpg)
+    [![Screenshot-shows CHMOD file permission check being run on certain files.](phpnuke-on-iis/_static/image4.jpg)](phpnuke-on-iis/_static/image3.jpg)
 
     Once you pass the CHMOD, information about the database you created is required. The database host, database name, username, password, database type (i.e MySQL, PostgreSQL or similar) and table type are needed. The table prefix setting allows you to specify a prefix for each table in the database – meaning that PostNuke database tables will not conflict if you wish to have more than one installation using the same database. For most installs, the table prefix setting can be left as ‘pn', though if you plan to install PostNuke multiple times, change the prefix.
 4. Once the details are filled in, click 'new install'. You are asked to verify the details you provided to the installer.  
-    [![](phpnuke-on-iis/_static/image6.jpg)](phpnuke-on-iis/_static/image5.jpg)
+    [![Screenshot-shows install.php page with database fields like Database host, Database name, Database username, Database password, Database table, Table prefix. Database type and Database table type are dropdowns to select the preferred type and table type. Submit button to submit all the details above to create a database is shown at the bottom of the page.](phpnuke-on-iis/_static/image6.jpg)](phpnuke-on-iis/_static/image5.jpg)
 5. After the confirmation, the installer asks for database creation. Since we have already created the database, do not check the create database option before clicking Start.  
-    [![](phpnuke-on-iis/_static/image8.jpg)](phpnuke-on-iis/_static/image7.jpg)
+    [![Screenshot-shows the database fields to review once before selecting Start button to create database.](phpnuke-on-iis/_static/image8.jpg)](phpnuke-on-iis/_static/image7.jpg)
 6. Confirmation on the created tables displays. Click Continue after the confirmation.  
-    [![](phpnuke-on-iis/_static/image10.jpg)](phpnuke-on-iis/_static/image9.jpg)
+    [![Screenshot-shows the database tables created.](phpnuke-on-iis/_static/image10.jpg)](phpnuke-on-iis/_static/image9.jpg)
 7. Provide the admin details for the setup and click the Set Login button.  
-    [![](phpnuke-on-iis/_static/image12.jpg)](phpnuke-on-iis/_static/image11.jpg)
+    [![Screenshot-shows admin fields like Admin login, Admin name, Admin password, Admin password(verify), Admin Email and Admin URL. After the details are filled in, there is a Set Login button to set admin login details.](phpnuke-on-iis/_static/image12.jpg)](phpnuke-on-iis/_static/image11.jpg)
 
 It confirms a successful installation.
 
@@ -68,7 +68,7 @@ It confirms a successful installation.
 
 Open the admin.php page to maintain the required information.
 
-[![](phpnuke-on-iis/_static/image14.jpg)](phpnuke-on-iis/_static/image13.jpg)
+[![Screenshot-shows the admin.php page with admin details to maintain the admin information.](phpnuke-on-iis/_static/image14.jpg)](phpnuke-on-iis/_static/image13.jpg)
 
 ## Getting More Information
 
