@@ -21,13 +21,13 @@ The MySQL binaries and installer can be downloaded from the [official MySQL site
 
 Run the installer and choose the installation option. For a majority of the cases, the typical installation is sufficient:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image3.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image2.png)
+![Screenshot of the My S Q L Setup Wizard screen with the Typical Setup type selected.](walkthrough-set-up-mysql-51-for-php-applications/_static/image2.png)
 
 However, if you want to control which components get installed or if you want to use a non-default installation path then choose the "Custom" option.
 
 When the installation is complete, make sure to check the box to "Configure the MySQL Server now". This will launch the "MySQL Server Instance Configuration Wizard" that will guide you through the configuration process for the MySQL instance.
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image5.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image4.png)
+![Screenshot of the My S Q L Server Setup Wizard on the Wizard Completed page.](walkthrough-set-up-mysql-51-for-php-applications/_static/image4.png)
 
 ## Configuring MySQL instance
 
@@ -35,15 +35,15 @@ Follow these steps in the "MySQL Server Instance Configuration Wizard" to optimi
 
 On the first page of the wizard choose "Detailed Configuration":
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image7.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image6.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard on the configuration type page. The Detailed Configuration type is selected.](walkthrough-set-up-mysql-51-for-php-applications/_static/image6.png)
 
 On the next page choose the server type option:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image9.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image8.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard on the server instance page. The Developer Machine option is selected.](walkthrough-set-up-mysql-51-for-php-applications/_static/image8.png)
 
 Choose the "Database Usage" option:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image11.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image10.png)
+![Screenshot of the My S Q L Server Instance Configuation Wizard on the database usage page. Non-Transactional Database Only is selected.](walkthrough-set-up-mysql-51-for-php-applications/_static/image10.png)
 
 The Database usage options control what kind of database storage engine is used on the server:
 
@@ -54,31 +54,31 @@ For an in-depth comparison of these database engines, refer to [MySQL Storage En
 
 Next choose the number of concurrent connections to the server:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image13.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image12.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard on the concurrent connections page. Decision Support (D S S)/O L A P is selected. ](walkthrough-set-up-mysql-51-for-php-applications/_static/image12.png)
 
 On the next page choose networking options :
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image15.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image14.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard on the networking options page. Enable T C P/I P Networking and Enable Strict Mode are selected. ](walkthrough-set-up-mysql-51-for-php-applications/_static/image14.png)
 
 If you have mysql and web server on the same machine you may consider not enabling TCP/IP networking and instead use named pipes. Note though that some PHP applications may require TCP connection to MySQL. Refer to the application's documentation to confirm if it supports named pipes connection to MySQL.
 
 Choose the default charset to use when creating new databases:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image17.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image16.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard on the default character page. Standard Character Set is selected.](walkthrough-set-up-mysql-51-for-php-applications/_static/image16.png)
 
 Next ensure that MySQL will be configured as a Windows Service:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image19.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image18.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard on the Windows options page. Install as a Windows Service and Include Bin Directory in Windows Path are selected.](walkthrough-set-up-mysql-51-for-php-applications/_static/image18.png)
 
 Optionally, you can add the MySQL Bin directory to the Windows PATH environment variable. That will make it easier to launch MySQL tools from the command line.
 
 Finally provide the password for the database administrative account, which in called "root" in MySQL. Make sure that you leave the "Create an Anonymous Account" checkbox cleared:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image21.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image20.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard on the security options page. Modify Security Settings is selected.](walkthrough-set-up-mysql-51-for-php-applications/_static/image20.png)
 
 On the next page click "Execute" to apply all the configuration settings and to start the MySQL service:
 
-[![](walkthrough-set-up-mysql-51-for-php-applications/_static/image23.png)](walkthrough-set-up-mysql-51-for-php-applications/_static/image22.png)
+![Screenshot of the My S Q L Server Instance Configuration Wizard completion page.](walkthrough-set-up-mysql-51-for-php-applications/_static/image22.png)
 
 Now you can logon to MySQL by opening a command line window and typing:
 

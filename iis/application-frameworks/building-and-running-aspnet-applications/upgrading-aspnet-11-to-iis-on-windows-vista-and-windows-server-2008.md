@@ -79,7 +79,7 @@ Each IIS application pool that runs an ASP.NET application must be explicitly co
 
 In the IIS Manager console, open Application Pools, then right-click an application pool and select Basic Settings. In the Edit Application Pool dialog box shown in Figure 1, select the .NET Framework version that matches the applications configured in the application pool, then click OK.
 
-[![](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image3.png)](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image1.png)
+![Screenshot of the Edit Application Pool dialog box with selected dot N E T Framework selected.](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image1.png)
 
 **Figure 1: Edit Application Pool Settings**
 
@@ -91,7 +91,7 @@ You must explicitly allow the version of ASP.NET used by your applications to ru
 
 Figure 2 shows an example of the ISAPI and CGI Restrictions page with the version of the Aspnet\_isapi.dll assembly used for ASP.NET 1.1 selected. In the figure, the setting for this ISAPI extension must be changed from Not Allowed to Allowed.
 
-[![](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image7.png)](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image5.png)
+![Screenshot of the I S A P I and C G I Restrictions page.](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image5.png)
 
 **Figure 2: ISAPI and CGI Restrictions List**
 
@@ -106,7 +106,7 @@ From the Windows Vista Package Manager (Control Panel\Programs and Features\Turn
 > [!NOTE]
 > When ASP.NET is already installed on the computer before this step, selecting ASP.NET in this manner ensures that additional configuration steps are completed.
 
-[![](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image3.jpg)](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image1.jpg)
+![Screenshot of the Windows Features pane with the A S P dot Net development feature selected in the expanded menu.](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image1.jpg)
 
 **Figure 3: Windows Vista Installation - Windows Features**
 
@@ -116,7 +116,7 @@ Each IIS application pool that runs an ASP.NET application must be explicitly co
 
 In IIS Manager, open Application Pools, then right-click an Application Pool and select Basic Settings. In the Edit Application Pool dialog box shown in Figure 4, select the .NET Framework version that matches the applications configured in the application pool, and then click OK.
 
-[![](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image11.png)](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image9.png)
+![Screenshot of Edit Application Pool dialog box with selected dot N E T Framework highlighted.](upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008/_static/image9.png)
 
 **Figure 4: Application Pool &amp; Integrated Mode**
 
