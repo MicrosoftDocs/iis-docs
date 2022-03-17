@@ -44,7 +44,7 @@ To support and configure ASP applications on your Web server, you must install t
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **ASP**.  
-    ![Image of Web Server and Application Development pane expanded with A S P selected.](session/_static/image1.png)
+    ![](session/_static/image1.png)
 5. If the **Add features that are required by ASP?** dialog box appears, click **Add Features**. (This page appears only if you have not already installed the ISAPI Extensions role service on your server.)
 6. On the **Server Roles** page, click **Next**.
 7. On the **Select features** page, click **Next**.
@@ -56,7 +56,7 @@ To support and configure ASP applications on your Web server, you must install t
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ASP**.  
-    ![Screenshot of Turn  Windows on or off feature page with Application Development Features pane expanded and A S P selected.](session/_static/image3.png)
+    ![](session/_static/image3.png)
 
     > [!NOTE]
     > The ISAPI Extensions role will be selected if it has not already been installed.
@@ -70,9 +70,9 @@ To support and configure ASP applications on your Web server, you must install t
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **ASP**.  
-    ![Screenshot of Select Role Services page of the Add Role Services Wizard displaying A S P selected.](session/_static/image5.png)
+    ![](session/_static/image5.png)
 5. If the **Add role services required by ASP** dialog box appears, click **Add Required Role Services**. (This page appears only if you have not already installed the ISAPI Extensions role service on your server.)  
-    ![Screenshot of Add Role Services dialog box displaying the Add role services required for A S P question and Add Required Role Services button.](session/_static/image7.png)
+    ![](session/_static/image7.png)
 6. On the **Select Role Services** page, click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -83,7 +83,7 @@ To support and configure ASP applications on your Web server, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.
 4. Select **ASP**, and then click **OK**.  
-    ![Screenshot of Turn Windows features on or off page displaying Application Development Features pane expanded and A S P selected.](session/_static/image9.png)
+    ![](session/_static/image9.png)
 
 <a id="004"></a>
 
@@ -109,9 +109,9 @@ To support and configure ASP applications on your Web server, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or Web application that you want to configure.
 3. In the site or application **Home** pane, double-click **ASP**.  
-    ![Screenshot of application Home pane displaying A S P highlighted.](session/_static/image11.png)
+    ![](session/_static/image11.png)
 4. In the **ASP** pane, expand the **Session Properties** section and configure your desired settings.  
-    ![Image of A S P pane with Session Properties section expanded and highlighted.](session/_static/image13.png)
+    ![](session/_static/image13.png)
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
