@@ -52,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot that shows F T P Extensibility selected for Windows Server 2012.](add/_static/image2.png)](add/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -65,7 +65,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot that shows F T P Extensibility selected for Windows 8.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -79,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot that shows F T P Service selected for Windows Server 2008.](add/_static/image6.png)](add/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -93,7 +93,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot that shows F T P Extensibility selected for Windows 7.](add/_static/image8.png)](add/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -132,14 +132,14 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click the **FTP Request Filtering** feature.
 4. Click the **Commands** tab.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    [![Screenshot that shows contoso dot com selected in the Connections pane.](add/_static/image10.png)](add/_static/image9.png)
 5. Click **Deny Command...** in the **Actions** pane.
 6. Enter an FTP command to deny. For example: 
 
     - Many FTP clients do not send or need the **SYST** command, which may reveal information about your operating system.
     - FTP 7.0 and FTP 7.5 do not implement the **ACCT** command, so it may be blocked safely.
 7. Click **OK**.  
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    [![Screenshot that shows the Deny Command dialog box. S Y S T is entered into the Command field.](add/_static/image11.png)](add/_static/image11.png)
 
 <a id="005"></a>
 ## Configuration

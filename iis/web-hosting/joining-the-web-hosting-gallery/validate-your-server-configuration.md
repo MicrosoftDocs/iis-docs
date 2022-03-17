@@ -44,7 +44,7 @@ The ServerValidator ZIP file comes with a sample configuration file, WebMatrixVa
 2. Right-click ServerValidatorUI.exe and click "**Run as Administrator**". This is required for several of the validations to succeed because they require elevated privileges on your server.
 3. Inspect the results in the UI
 
-    ![](validate-your-server-configuration/_static/image1.png)
+    ![Screenshot that shows the Server Validator U I window.](validate-your-server-configuration/_static/image1.png)
 
 <a id="\_Toc276284068"></a>
 
@@ -158,10 +158,10 @@ This Validator uses WMI to check if a product is in Win32\_Products. It's an alt
 1. Start Visual Studio
 2. Create *.NET 2.0*, C# class library project:  
   
-    ![](validate-your-server-configuration/_static/image3.png)
+    ![Screenshot that shows the Add New Project window.  Class Library is selected.](validate-your-server-configuration/_static/image3.png)
 3. Add a reference to ServerValidator.dll:  
   
-    ![](validate-your-server-configuration/_static/image5.png)
+    ![Screenshot that shows the Solution Explorer window.](validate-your-server-configuration/_static/image5.png)
 4. Paste the following code into MyCustomValidator.cs:
 
     [!code-csharp[Main](validate-your-server-configuration/samples/sample11.cs)]

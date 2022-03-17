@@ -55,10 +55,10 @@ The `<virtualDirectory>` element is included in the default installation of IIS 
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, expand the Web site to which you want to add the virtual directory, and then click the application to which you want to add the virtual directory.  
-    [![](virtualDirectory/_static/image2.png)](virtualDirectory/_static/image1.png)
+    [![Screenshot that shows the My Application Home pane.](virtualDirectory/_static/image2.png)](virtualDirectory/_static/image1.png)
 3. In the **Actions** pane, click **View Virtual Directories**, and then click **Add Virtual Directory...**
 4. In the **Add Virtual Directory** dialog box, at a minimum enter information in the **Alias:** and **Physical path:** text boxes, and then click **OK**.  
-    [![](virtualDirectory/_static/image4.png)](virtualDirectory/_static/image3.png)
+    [![Screenshot that shows the Add Virtual Directory dialog box.](virtualDirectory/_static/image4.png)](virtualDirectory/_static/image3.png)
 
     > [!NOTE]
     > You can click **Connect as...** to configure the server to use the specified credentials when it accesses content in the virtual directory, and click **Test Settings...** to test authentication and authorization settings for the virtual directory.
