@@ -92,9 +92,9 @@ The actual service implementation for **GenerateRule** method will be added late
 Now, that all the IIS Manager client-side plumbing code is done, the remaining part is to design and implement the actual user interface for the rule template. To do that follow these steps:
 
 1. Select the option Add New Item in the project menu. In the Add New Item dialog, select "Windows Form" and type in the name CanonicalDomainForm.cs:  
-     ![Screenshot of Add New Item dialog.](developing-rule-template-for-url-rewrite-module/_static/image7.png)
+     ![Screenshot of Add New Item dialog with a Windows Form template selected.](developing-rule-template-for-url-rewrite-module/_static/image7.png)
 2. Use Visual Studio windows forms designer to arrange controls on the form:  
-     ![Screenshot of Canonical Domain Name dialog.](developing-rule-template-for-url-rewrite-module/_static/image9.png)
+     ![Screenshot of the new form in Visual Studio windows form designer.](developing-rule-template-for-url-rewrite-module/_static/image9.png)
 3. Switch to the code view and add the private member of the class that will contain a reference to a service proxy:  
 
     [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample4.cs)]
