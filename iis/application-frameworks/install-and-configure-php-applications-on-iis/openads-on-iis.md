@@ -55,24 +55,24 @@ OpenAds 2.0 contains an automatic installer which does most of the work for you.
     ![Screenshot of a browser showing the Openads installer.](openads-on-iis/_static/image1.jpg)
 2. Click Continue to start the configuration and read the license agreement. Click I agree. The installer verifies the configuration required for OpenAds.  
 
-    [![](openads-on-iis/_static/image4.jpg)](openads-on-iis/_static/image3.jpg)
+    ![Screenshot of a browser showing how to start the OpenAds configuration and read the license agreement.](openads-on-iis/_static/image3.jpg)
 
-    [![](openads-on-iis/_static/image6.jpg)](openads-on-iis/_static/image5.jpg)
+    ![Screenshot of a browser showing how the installer verifies the required configuration for OpenAds.](openads-on-iis/_static/image5.jpg)
 3. Click Continue to go to the database setup.  
 
-    [![](openads-on-iis/_static/image8.jpg)](openads-on-iis/_static/image7.jpg)
+    ![Screenshot of a browser showing how to get to the OpenAds database setup.](openads-on-iis/_static/image7.jpg)
 4. Provide the necessary database information and click Continue. The installer checks for the information provided and confirms it in order to continue.  
 
-    [![](openads-on-iis/_static/image10.jpg)](openads-on-iis/_static/image9.jpg)
+    ![Screenshot of a browser showing the OpenAds database information page.](openads-on-iis/_static/image9.jpg)
 5. Provide the necessary information related to the server. Click Continue.  
 
-    [![](openads-on-iis/_static/image12.jpg)](openads-on-iis/_static/image11.jpg)
+    ![Screenshot of a browser showing the OpenAds server information page.](openads-on-iis/_static/image11.jpg)
 6. Provide the administrator account details. Click Continue.  
 
-    [![](openads-on-iis/_static/image14.jpg)](openads-on-iis/_static/image13.jpg)
+    ![Screenshot of a browser showing the OpenAds administrator account details page.](openads-on-iis/_static/image13.jpg)
 7. Select the default setup data. Click Continue to finish the installation with the default information.  
 
-    [![](openads-on-iis/_static/image16.jpg)](openads-on-iis/_static/image15.jpg)
+    ![Screenshot of a browser showing how OpenAds installation completion with default information.](openads-on-iis/_static/image15.jpg)
 
 ## Getting More Information
 
