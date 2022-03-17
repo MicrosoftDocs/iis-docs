@@ -1,13 +1,13 @@
 ---
-title: "Adding FTP Command Filtering Entries &lt;add&gt;"
+title: "Adding FTP Command Filtering Entries <add>"
 author: rick-anderson
-description: "Overview The &lt;add&gt; element adds a unique entry to the collection of FTP commands that the FTP service will allow or deny. Note : Special attention must..."
+description: "Overview The &lt;add&gt; element adds a unique entry to the collection of FTP commands that the FTP service will allow or deny. "
 ms.date: 09/26/2016
 ms.assetid: 953b3dbd-2f08-40e3-bc67-3516848bb238
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering/add
 msc.type: config
 ---
-# Adding FTP Command Filtering Entries &lt;add&gt;
+# Adding FTP Command Filtering Entries \<add>
 
 <a id="001"></a>
 ## Overview
