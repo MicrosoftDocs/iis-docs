@@ -89,19 +89,19 @@ Here we can identify a cache hit/miss in either the IIS Logs or Freb logs. The F
 
 **FREB Log:** The cache miss is found by the entry **ARR\_DISK\_CACHE\_GET\_FAILED.**
 
-| | | |
+| Type | Entry | Details |
 | --- | --- | --- |
 | r | ARR\_DISK\_CACHE\_GET\_FAILED Warning | FilePath="\\?\C:\ARRCache\localhost\iisstart.htm.full", ErrorCode="The system cannot find the file specified. (0x80070002)", IsRangeEntry="false", RangeOffset="0", RangeSegmentSize="0" |
 
 Identify the Server that the request is being routed to. Here we can see the request being sent to server W2K8WEBSERVER2 so we know that will be our next level server for data review.
 
-| | | |
+| Type | Entry |Details|
 | --- | --- | --- |
 | i | ARR\_SERVER\_ROUTED | RoutingReason="LoadBalancing", Server="W2K8WEBSERVER2", State="Active", TotalRequests="8", FailedRequests="0", CurrentRequests="1", BytesSent="1127", BytesReceived="6441379", ResponseTime="31351" |
 
 The following headers are added to the request for forwarding. If some names are different than the defaults X-Forwarded-For, X-ARR-ClientCert and X-ARR-LOG-ID they may have been customized in Server Farm proxy settings.
 
-| | |
+|Header |Details |
 | --- | --- |
 | GENERAL\_SET\_REQUEST\_HEADER | HeaderName="Max-Forwards", HeaderValue="10", Replace="true" |
 | GENERAL\_SET\_REQUEST\_HEADER | HeaderName="X-Forwarded-For", HeaderValue="127.0.0.1:62489", Replace="true" |

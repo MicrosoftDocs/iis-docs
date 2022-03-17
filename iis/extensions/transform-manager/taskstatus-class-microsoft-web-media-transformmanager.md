@@ -74,13 +74,13 @@ The TaskStatus type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskStatus](taskstatus-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the TaskStatus class by using the specified manifest and logger.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Message](taskstatus-message-property-microsoft-web-media-transformmanager.md)||
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[PercentComplete](taskstatus-percentcomplete-property-microsoft-web-media-transformmanager.md)|Gets the percentage of task completion.|
@@ -91,7 +91,7 @@ The TaskStatus type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](taskstatus-dispose-method-microsoft-web-media-transformmanager_1.md)|Disposes task resources.|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](taskstatus-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Disposes task resources and optionally releases the managed resources.|
