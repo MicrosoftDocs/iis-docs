@@ -92,7 +92,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Image of Add Role Services page in Add Role Service Wizard with F T P Server pane expanded and F T P Service selected.](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -126,13 +126,13 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - Open **Internet Information Services (IIS) Manager**.
     - Click your computer name in the **Connections** pane.
     - Double-click **FTP Authentication** in the main window.  
-        [![](index/_static/image10.png)](index/_static/image9.png)
+        [![Image of F T P Authentication page in the main window showing Anonymous Authentication and Basic Authentication options.](index/_static/image10.png)](index/_static/image9.png)
     - Click **Custom Providers...** in the **Actions** pane.
     - Click **Register**.  
-        [![](index/_static/image12.png)](index/_static/image11.png)
+        [![Image of Custom Providers page displaying I I S Manager Auth and A S P Net Auth options.](index/_static/image12.png)](index/_static/image11.png)
     - Enter a friendly name for the custom authentication provider in the **Name** box. For example, **FtpAuthenticationDemo**.
     - Click **Managed Provider (.NET)**.  
-        [![](index/_static/image14.png)](index/_static/image13.png)
+        [![Image of Add Custom Authentication Provider dialog box with Name filed and Native Provider C O M option for Provider Definition.](index/_static/image14.png)](index/_static/image13.png)
     - Enter the assembly information for the extensibility provider using the information that you copied earlier. For example:  
         **FtpAuthentication.FtpAuthDemo, FtpAuthenticationDemo, version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73**
     - Click **OK**.
