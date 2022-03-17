@@ -14,7 +14,7 @@ The [SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConcurrentJobs](schedulerinfo-concurrentjobs-property-microsoft-web-media-transformmanager.md)|Gets or sets the number of concurrent jobs that a job manager can start.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConnectionString](schedulerinfo-connectionstring-property-microsoft-web-media-transformmanager.md)|Gets or sets the connection string that is used by this scheduler.|

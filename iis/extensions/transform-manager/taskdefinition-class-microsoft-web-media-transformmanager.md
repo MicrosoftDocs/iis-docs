@@ -80,14 +80,14 @@ The TaskDefinition type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement)](taskdefinition-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the TaskDefinition class by using the specified file information and task definition.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement, XElement)](taskdefinition-constructor-fileinfo-xelement-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the TaskDefinition class by using the specified file information, task definition, and default task definition.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[BaseNamespace](configurationbase-basenamespace-property-microsoft-web-media-transformmanager.md)|Gets or sets the XML namespace for the configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CommandLine](taskdefinition-commandline-property-microsoft-web-media-transformmanager.md)|Gets or sets a command line for the task.|
@@ -120,7 +120,7 @@ The TaskDefinition type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String)](configurationbase-addconfigurationmessage-method-string-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String, ConfigurationMessageSeverity)](configurationbase-addconfigurationmessage-method-string-configurationmessageseverity-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration using the specified severity value. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
@@ -135,7 +135,7 @@ The TaskDefinition type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[idElementName](taskdefinition-idelementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when assigning the ID of the element that contains the input folder of the task. The value is "ID". This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[taskDefinitionElementName](taskdefinition-taskdefinitionelementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when assigning the taskDefinition element name of the task. The value is "taskDefinition". This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|

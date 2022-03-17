@@ -68,7 +68,7 @@ The SchedulerInfo type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SchedulerInfo(XElement)](schedulerinfo-constructor-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the SchedulerInfo class using the specified RDF scheduler node.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SchedulerInfo(JobScheduler)](schedulerinfo-constructor-jobscheduler-microsoft-web-media-transformmanager.md)|Initializes a new instance of the SchedulerInfo class using the specified job scheduling information.|
@@ -76,7 +76,7 @@ The SchedulerInfo type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConcurrentJobs](schedulerinfo-concurrentjobs-property-microsoft-web-media-transformmanager.md)|Gets or sets the number of concurrent jobs that a job manager can start.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConnectionString](schedulerinfo-connectionstring-property-microsoft-web-media-transformmanager.md)|Gets or sets the connection string that is used by this scheduler.|
@@ -86,7 +86,7 @@ The SchedulerInfo type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CreateInstance() () () ()](schedulerinfo-createinstance-method-microsoft-web-media-transformmanager_1.md)|Creates a new instance of a [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CreateInstance(Logger)](schedulerinfo-createinstance-method-logger-microsoft-web-media-transformmanager.md)|Creates a new instance of a [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object by using logger object to log details.|

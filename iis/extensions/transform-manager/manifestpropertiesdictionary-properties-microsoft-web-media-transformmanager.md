@@ -14,7 +14,7 @@ The [ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Comparer](https://msdn.microsoft.com/library/ms132092)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Count](https://msdn.microsoft.com/library/zhcy256f)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
@@ -26,7 +26,7 @@ The [ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-
 
 ## Explicit Interface Implementations
 
-||Name|Description|
+|Implementation Type|Name|Description|
 |--- |--- |--- |
 |![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary.IsFixedSize|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 |![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).IsReadOnly|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|

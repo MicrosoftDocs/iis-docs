@@ -14,7 +14,7 @@ The [TaskStatus](taskstatus-class-microsoft-web-media-transformmanager.md) type 
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](taskstatus-dispose-method-microsoft-web-media-transformmanager_1.md)|Disposes task resources.|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](taskstatus-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Disposes task resources and optionally releases the managed resources.|
