@@ -41,7 +41,7 @@ Just be patient and wait for a little longer.
 
 Once you are signed up successfully you will have access to the Amazon EC2 Management Console. The URL is [https://console.aws.amazon.com/ec2/home](https://console.aws.amazon.com/ec2/home).
 
-[![Screenshot shows the Amazon E C 2 Management Console. US West is highlighted in the Region field.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image2.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image1.png)
+[![Screenshot that shows the Amazon E C 2 Management Console. US West is highlighted in the Region field.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image2.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image1.png)
 
 Once you are logged in make sure you switch your region to "US West". The Microsoft Web Platform images are currently only available in the US West region. Before we do anything lets set up the firewall rules (called Security Groups in Amazon lingo) for your Web Development Stack instance.
 
@@ -49,7 +49,7 @@ Once you are logged in make sure you switch your region to "US West". The Micros
 
 Select the item "Security Groups" on the left hand side. Your existing Security Groups will show in the center pane. Click the "Create Security Group" button on top.
 
-[![Screenshot shows the Create Security Group button.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image4.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image3.png)
+[![Screenshot that shows the Create Security Group button.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image4.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image3.png)
 
 Name the new group you are about to create, for example "Microsoft Web Platform Firewall Rules".
 
@@ -110,7 +110,7 @@ Now it's time to use the key pair file (&lt;your key pair name&gt;.PEM) that you
 
 Open the .PEM file in notepad and copy it to the clipboard (Ctrl+A selects all, Ctrl+C copies it into the clipboard). Now paste the contents into the textbox of the dialog (Ctrl+V). Click the "Decrypt" button.
 
-Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![Screenshot shows a security dialog box, asking Stop running this script.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
+Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![Screenshot that shows a security dialog box, asking Stop running this script.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
 If you are interested in a more permanent fix you can execute the following command on command-line: 
 
 [!code-console[Main](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/samples/sample1.cmd)]
@@ -148,7 +148,7 @@ To get these two pieces of data you need to go back to the AWS Management Consol
 
 Armed with these two pieces of information we are armed to publish the ASP.NET web application project we just created. To publish you have to go back to Visual Studio, right click on your project and select the "Publish" menu item.
 
-[![Screenshot shows the context menu for the project. The list shows Publish and it is highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image35.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image34.png)
+[![Screenshot that shows the context menu for the project. The list shows Publish and it is highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image35.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image34.png)
 
 In the upcoming dialog you have to enter several pieces of the data. But let's do this step by step:
 
@@ -158,7 +158,7 @@ In the upcoming dialog you have to enter several pieces of the data. But let's d
 4. The EC2 instance works with a self-signed SSL certificate to ensure the traffic between your client and the EC2 instance is encrypted. The self-signed certificate is not trusted yet and you have to check the checkbox "Allow untrusted certificate".
 5. Specify the administrative credentials for the EC2 instance. The username is "Administrator" and you retrieved the password for the EC2 instance in a previous step.
 
-[![Screenshot shows the Publish Web dialog box with multiple fields highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image36.png)
+[![Screenshot that shows the Publish Web dialog box with multiple fields highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image36.png)
 
 All that's left is to hit the "Publish" button and the Status bar will indicate that the publishing process succeeded. Your application was successfully published to your EC2 instance!  
 [![Screenshot of the Status bar saying Publish succeeded.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image39.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image38.png)
