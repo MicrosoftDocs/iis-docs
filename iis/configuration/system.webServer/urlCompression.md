@@ -44,7 +44,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Performance**, and then select **Static Content Compression** and/or **Dynamic Content Compression**. Click **Next**.  
-    [![](urlCompression/_static/image2.png)](urlCompression/_static/image1.png) .
+    ![Screenshot of the Server Roles page with "Static Content Compression" and "Dynamic Content Compression" selected.](urlCompression/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -54,7 +54,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Performance Features**, and then select **Dynamic Content Compression** and/or **Static Content Compression**.  
-    [![](urlCompression/_static/image4.png)](urlCompression/_static/image3.png)
+    ![Screenshot of the Windows Features dialog with "Dynamic Content Compression" and "Static Content Compression" selected.](urlCompression/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -64,7 +64,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Dynamic** **Content Compression** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression, and then click **Next**.  
-    [![](urlCompression/_static/image6.png)](urlCompression/_static/image5.png)
+    ![Screenshot of the Add Role Services Wizard with "Static Content Compression" and "Dynamic Content Compression" selected.](urlCompression/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -74,7 +74,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Performance Features**.
 4. Select **Http Compression Dynamic** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression.   
-    [![](urlCompression/_static/image8.png)](urlCompression/_static/image7.png)
+    ![Screenshot of the Windows Features dialog with "Http Compression Dynamic" selected.](urlCompression/_static/image7.png)
 5. Click **OK**.
  
 <a id="004"></a>
@@ -100,9 +100,9 @@ HTTP compression is usually available on the default installation of IIS 7 and l
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to enable compression.
 3. In the **Home** pane, double-click **Compression**.  
-    [![](urlCompression/_static/image10.png)](urlCompression/_static/image9.png)
+    ![Screenshot of the Information Information Services (IIS) Manager with "Compression" selected in the Home pane.](urlCompression/_static/image9.png)
 4. In the **Compression** pane, check the boxes to enable static or dynamic compression, or remove the check marks to disable static or dynamic compression.  
-    [![](urlCompression/_static/image12.png)](urlCompression/_static/image11.png)
+    ![Screenshot of the Compression pane with dynamic content compression and static content compression enabled.](urlCompression/_static/image11.png)
 5. Once you have completed the above steps, click **Apply** in the **Actions** pane.
 
 ### How to enable or disable static and dynamic compression for a server
@@ -125,9 +125,9 @@ HTTP compression is usually available on the default installation of IIS 7 and l
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, highlight the name of your server.
 3. In the server's **Home** pane, double-click **Compression**.  
-    [![](urlCompression/_static/image14.png)](urlCompression/_static/image13.png)
+    ![Screenshot of the Information Information Services (IIS) Manager with "Compression" selected in the server's Home pane.](urlCompression/_static/image13.png)
 4. In the **Compression** pane, check the boxes to enable static or dynamic compression, or remove the check marks to disable static or dynamic compression.  
-    [![](urlCompression/_static/image16.png)](urlCompression/_static/image15.png)
+    ![Screenshot of the server's Compression pane with dynamic content compression and static content compression enabled.](urlCompression/_static/image15.png)
 5. Once you have completed the above steps, click **Apply** in the **Actions** pane.
 
 ### How to configure staticCompressionIgnoreHitFrequency
@@ -144,7 +144,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 2. In the **Connections** pane, select the server, and then double-click **Configuration Editor**.
 3. In the **Configuration Editor**, for the section, select **system.webServer**, and then select **httpCompression**.
 4. For **staticCompressionIgnoreHitFrequency**, enter `True` to disable the behavior that a static file is compressed only if it is hit a certain number of times within a time period, or enter `False` to enable the behavior.  
-    [![](urlCompression/_static/image18.png)](urlCompression/_static/image17.png)
+    ![Screenshot of the Configuration Editor pane with staticCompressionIgnoreHitFrequency set to "True".](urlCompression/_static/image17.png)
 5. In the **Actions** pane, click **Apply**.
  
 <a id="005"></a>
