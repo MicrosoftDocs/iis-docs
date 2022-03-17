@@ -195,7 +195,7 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
 6. Select **dbMySql** from the drop-down list.  
    ![Screenshot of the Manage Components dialog box. d b My Sql is selected under the i i s App cell.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image28.jpg)
 7. Double-click the second row of the Path column, and enter the connection string for your package export.  
-   ![Screenshot of the Manage Components dialog box. The row with d b My Sql is selected..](deploying-drupal-via-packages-in-a-hosting-environment/_static/image31.jpg)
+   ![Screenshot of the Manage Components dialog box. The row with d b My Sql is selected.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image31.jpg)
 8. Click outside of the box in which you entered the connection string, and click **OK**.
 
    The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
@@ -256,7 +256,7 @@ To create a customer application database, complete these steps:
    `mysql&gt; grant all on drupal. \* to ‘drupal'@'localhost';`
 
 Your command window should appear similar to the following:  
-![Screenshot of a command window.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image43.jpg)
+![Screenshot of a command window. Commands for create database, create user, and grant all are entered.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image43.jpg)
 
 > [!TIP]
 > You can automate this process using a script similar to the one described in the section: MySQL Database Creation Script.
