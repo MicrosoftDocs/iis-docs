@@ -14,7 +14,7 @@ The [WorkQueue](workqueue-class-microsoft-web-media-transformmanager.md) type ex
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConfiguringJobs](workqueue-configuringjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that are being configured.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[FailedJobs](workqueue-failedjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that have failed.|
