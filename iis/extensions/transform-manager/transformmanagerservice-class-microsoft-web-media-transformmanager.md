@@ -78,13 +78,13 @@ The TransformManagerService type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TransformManagerService](transformmanagerservice-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the TransformManagerService class.|
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](transformmanagerservice-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels a job that is represented by the specified job ID and work queue name.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJobById](transformmanagerservice-canceljobbyid-method-microsoft-web-media-transformmanager.md)|Cancels a job that is represented by the specified job ID.|

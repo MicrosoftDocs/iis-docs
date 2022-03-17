@@ -24,7 +24,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestPropertiesDictionary() () () ()](manifestpropertiesdictionary-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the [ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md) class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestPropertiesDictionary(XElement)](manifestpropertiesdictionary-constructor-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md) class using the specified properties.|

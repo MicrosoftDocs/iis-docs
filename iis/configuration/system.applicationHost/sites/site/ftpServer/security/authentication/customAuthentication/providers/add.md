@@ -63,7 +63,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Image of Web Server and F T P Server pane expanded with F T P Extensibility highlighted.](add/_static/image2.png)](add/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -76,7 +76,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot of Internet Information Services and F T P Server pane expanded with F T P Extensibility selected.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -90,7 +90,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot of Add Role Services page in Add Role Services Wizard displaying F T P Server pane expanded and F T P Service selected.](add/_static/image6.png)](add/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -104,7 +104,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Image of Select Role Services page of the Add Role Services Wizard showing F T P Server pane expanded and F T P Service selected.](add/_static/image8.png)](add/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -140,11 +140,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click the **FTP Authentication** feature.
 4. When the **FTP Authentication** page displays, click **Custom Providers...** in the **Actions** pane.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    [![Image of F T P Authentication page displaying Anonymous Authentication and Basic Authentication options disabled.](add/_static/image10.png)](add/_static/image9.png)
 5. When the **Custom Providers** dialog box displays, click to select **IIS Manager Authentication**. Click **OK**.  
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    [![Image of Custom Providers dialog box displaying I I S Manager Auth and A S P Net Auth options.](add/_static/image12.png)](add/_static/image11.png)
 6. Your **FTP Authentication** page should now show **IIS Manager Authentication** enabled.  
-    [![](add/_static/image14.png)](add/_static/image13.png)
+    [![Screenshot of F T P Authentication page displaying I I S Manager enabled.](add/_static/image14.png)](add/_static/image13.png)
 7. If desired, you can disable **Basic Authentication** or **Anonymous Authentication** by highlighting either mode and clicking **Disable** in the **Actions** pane.
 
 For additional information about how to configure IIS Manager authentication for FTP, see the [Configure FTP with IIS 7.0 Manager Authentication](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic on Microsoft's [www.iis.net/learn](https://www.iis.net/learn) Web site.
@@ -170,13 +170,13 @@ For additional information about how to configure IIS Manager authentication for
     - Open **Internet Information Services (IIS) Manager**.
     - Click your computer name in the **Connections** pane.
     - Double-click **FTP Authentication** in the main window.  
-        [![](add/_static/image16.png)](add/_static/image15.png)
+        [![Screenshot of F T P Authentication page showing both Anonymous Authentication and Basic Authentication disabled.](add/_static/image16.png)](add/_static/image15.png)
     - Click **Custom Providers...** in the **Actions** pane.
     - Click **Register**.  
-        [![](add/_static/image18.png)](add/_static/image17.png)
+        [![Image of Custom Providers page displaying I I S Manager Auth and A S P Net Auth options as unchecked.](add/_static/image18.png)](add/_static/image17.png)
     - Enter a friendly name for the custom authentication provider in the **Name** box. For example, **FtpAuthenticationDemo**.
     - Click **Managed Provider (.NET)**.  
-        [![](add/_static/image20.png)](add/_static/image19.png)
+        [![Image of Add Custom Authentication Provider dialog box displaying Name box.](add/_static/image20.png)](add/_static/image19.png)
     - Enter the assembly information for the extensibility provider using the information that you copied earlier. For example:  
         **FtpAuthentication.FtpAuthDemo, FtpAuthenticationDemo, version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73**
     - Click **OK**.

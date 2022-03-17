@@ -14,7 +14,7 @@ The [TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ChildProcessId](taskdetails-childprocessid-property-microsoft-web-media-transformmanager.md)|Gets or sets the ID of a child process.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskCount](taskdetails-taskcount-property-microsoft-web-media-transformmanager.md)|Gets or sets the task count.|

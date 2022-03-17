@@ -68,7 +68,7 @@ The WorkQueue type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[ConfiguringJobs](workqueue-configuringjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that are being configured.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[FailedJobs](workqueue-failedjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that have failed.|
@@ -78,7 +78,7 @@ The WorkQueue type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|

@@ -26,7 +26,7 @@ This video &lt;link: [https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-1
 - System Center integration
 - Futures, timelines, and closing comments
 
-[![](system-center-solutions-vmm-amp-scom/_static/image2.jpg)](system-center-solutions-vmm-amp-scom/_static/image1.jpg)
+[![Screenshot of video for the overview of System Center Virtual Machine Manager 2008.](system-center-solutions-vmm-amp-scom/_static/image2.jpg)](system-center-solutions-vmm-amp-scom/_static/image1.jpg)
 
 This download &lt;link: "[https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/SystemCenterOptimizationDemo.zip](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/SystemCenterOptimizationDemo.zip) &gt; contains a demonstration of VMM and the presentation used in this video.
 
@@ -36,7 +36,7 @@ For further information and guidance, see the System Center Virtual Machine Mana
 
 This video &lt;link: [https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-1216/Hyper-V%20and%20SCVMM%20Deployment%20Best%20Practices.wmv](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-1216/Hyper-V%20and%20SCVMM%20Deployment%20Best%20Practices.wmv) &gt; provides detailed best practices for deploying Windows Server 2008 Hyper-V and System Center Virtual Machine Manager 2008.
 
-[![](system-center-solutions-vmm-amp-scom/_static/image4.jpg)](system-center-solutions-vmm-amp-scom/_static/image3.jpg)
+[![Screenshot of tutorial video for best practices for deploying Windows Server 2008 Hyper dash V and System Center Virtual Machine Manager 2008.](system-center-solutions-vmm-amp-scom/_static/image4.jpg)](system-center-solutions-vmm-amp-scom/_static/image3.jpg)
 
 This video &lt;link: [https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-1216/SCVMM%20Advanced%20Features.wmv](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-1216/SCVMM%20Advanced%20Features.wmv) &gt; provides descriptions of the advanced features in VMM:
 
@@ -45,7 +45,7 @@ This video &lt;link: [https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-1
 - Delegated Administration
 - Performance and Resource Administration
 
-[![](system-center-solutions-vmm-amp-scom/_static/image6.jpg)](system-center-solutions-vmm-amp-scom/_static/image5.jpg)
+[![Image of the video for descriptions of advanced features in V M M.](system-center-solutions-vmm-amp-scom/_static/image6.jpg)](system-center-solutions-vmm-amp-scom/_static/image5.jpg)
 
 This download &lt;link: [https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/VirtualMachineManager2008.zip](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/VirtualMachineManager2008.zip)&gt; contains a demonstration of VMM and the presentations used in these videos.
 
