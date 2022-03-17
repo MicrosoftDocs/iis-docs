@@ -31,7 +31,7 @@ ARR is a key component of the Windows Web Platform &lt;link: to the Shared Hosti
 
 The following image depicts the logical flow of requests between the client and the target Web site server:
 
-[![Image of logical flow of requests between the client and the target Web site Server highlighting role of A P R in load balancing the H T T P requests.](application-request-routing-arr-20-for-shared-hosting/_static/image2.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image1.jpg)
+[![Image of logical flow of requests between the client and the target Web site Server indicating the role of A P R in load balancing the H T T P requests.](application-request-routing-arr-20-for-shared-hosting/_static/image2.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image1.jpg)
 
 In summary, ARR's benefits include:
 
