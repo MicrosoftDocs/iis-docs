@@ -51,7 +51,7 @@ If you are prompted to enter the root password for the MySQL database engine, yo
 
 On the **Accept EULA** page, read the terms, and if you accept them, click **I Accept**.
 
-![Screenshot of the Accept EULA page.](download-and-install-a-php-application/_static/image17.png)
+![Screenshot of the Accept EULA page. I Accept is selected.](download-and-install-a-php-application/_static/image17.png)
 
 On the next page, WebMatrix will keep you informed of the download status.
 
@@ -66,7 +66,7 @@ When you are prompted, enter the following information:
 
 Once you have entered all of the required information, click **Next**.
 
-![Screenshot of the application parameters page.](download-and-install-a-php-application/_static/image25.png)
+![Screenshot of the application parameters page. Create a new database is selected.](download-and-install-a-php-application/_static/image25.png)
 
 On the next page, WebMatrix keeps you informed of the installation status.
 
@@ -78,6 +78,6 @@ When the installation has completed, WebMatrix lists everything that was install
 
 When the **Site from Web Gallery** wizard has closed, WebMatrix automatically opens the WordPress application.
 
-![Screenshot of the WordPress page.](download-and-install-a-php-application/_static/image37.png)
+![Screenshot of the WordPress page showing that WordPress started successfully.](download-and-install-a-php-application/_static/image37.png)
 
 You can customize the WordPress application for your use, test your website locally using the IIS Express Web server that comes with WebMatrix, or publish it to a public website.
