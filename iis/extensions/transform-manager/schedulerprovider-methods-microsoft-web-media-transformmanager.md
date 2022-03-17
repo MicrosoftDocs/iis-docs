@@ -14,7 +14,7 @@ The [SchedulerProvider](schedulerprovider-class-microsoft-web-media-transformman
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|

@@ -24,7 +24,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement)](taskdefinition-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) class by using the specified file information and task definition.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement, XElement)](taskdefinition-constructor-fileinfo-xelement-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) class by using the specified file information, task definition, and default task definition.|

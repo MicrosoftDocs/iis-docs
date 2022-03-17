@@ -14,7 +14,7 @@ The [Logger](logger-class-microsoft-web-media-transformmanager.md) type exposes 
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Close](logger-close-method-microsoft-web-media-transformmanager.md)|Disposes logging resources if the log file exists.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](logger-dispose-method-microsoft-web-media-transformmanager_1.md)|Disposes logging resources.|

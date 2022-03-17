@@ -23,7 +23,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[GetLogLevel(String)](loglevelhelper-getloglevel-method-string-microsoft-web-media-transformmanager.md)|Returns a value that specifies the level of detail for a log.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[GetLogLevel(LogLevel)](loglevelhelper-getloglevel-method-loglevel-microsoft-web-media-transformmanager.md)|Returns the level of detail for a log.|
