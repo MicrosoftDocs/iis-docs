@@ -17,15 +17,15 @@ This walkthrough will guide you through how to develop a rule template for URL R
 
 Canonical Domain Name rule template can be used to simplify the creation of a rewrite rule that is used to enforce canonical domain name for a web site. Users can choose this template from the "Add rule(s)" dialog:
 
-![Screenshot of "Add rule(s)" dialog.](developing-rule-template-for-url-rewrite-module/_static/image1.png)
+![Screenshot of Add rule(s) dialog with "Canonical Domain Name" selected.](developing-rule-template-for-url-rewrite-module/_static/image1.png)
 
 Then users can provide a domain name that they want to use:
 
-![Screenshot of a specific Canonical Domain Name.](developing-rule-template-for-url-rewrite-module/_static/image3.png)
+![Screenshot of "www.mysite.com" specified in the Canonical Domain Name dialog.](developing-rule-template-for-url-rewrite-module/_static/image3.png)
 
 After that the template will generate a rewrite rule as below:
 
-![Screenshot of "Edit Rule" pane.](developing-rule-template-for-url-rewrite-module/_static/image5.png)
+![Screenshot of Edit Rule pane with sections for domain Name, URL, Conditions, and Action.](developing-rule-template-for-url-rewrite-module/_static/image5.png)
 
 ## Prerequisites
 
@@ -92,9 +92,9 @@ The actual service implementation for **GenerateRule** method will be added late
 Now, that all the IIS Manager client-side plumbing code is done, the remaining part is to design and implement the actual user interface for the rule template. To do that follow these steps:
 
 1. Select the option Add New Item in the project menu. In the Add New Item dialog, select "Windows Form" and type in the name CanonicalDomainForm.cs:  
-     ![Screenshot of "Add New Item" dialog.](developing-rule-template-for-url-rewrite-module/_static/image7.png)
+     ![Screenshot of Add New Item dialog.](developing-rule-template-for-url-rewrite-module/_static/image7.png)
 2. Use Visual Studio windows forms designer to arrange controls on the form:  
-     ![Screenshot of "Canonical Domain Name" dialog.](developing-rule-template-for-url-rewrite-module/_static/image9.png)
+     ![Screenshot of Canonical Domain Name dialog.](developing-rule-template-for-url-rewrite-module/_static/image9.png)
 3. Switch to the code view and add the private member of the class that will contain a reference to a service proxy:  
 
     [!code-csharp[Main](developing-rule-template-for-url-rewrite-module/samples/sample4.cs)]
