@@ -20,7 +20,7 @@ For more information on the features of URL Rewrite Module, see [IIS URL Rewrite
 The URL Rewrite module provides server and site administrators with the ability to create rules that modify a site's URL appearance before the Web server processes it. This makes it possible to expose simpler URLs that would be easier for users to remember. Also, it lets server and site administrators use search engines to store, process, and present friendly URLs, improving the overall Web experience.
 Here is a basic explanation of friendly URLs that are enabled by the URL Rewrite module within a shared hosting environment:
 
-![](url-rewrite-for-hosting-providers/_static/image1.jpg)
+![Diagram shows the events involving U R L Rewrite. A green arrow goes from the User to the cloud, then through the front and back end, and finally to a Web Server Farm.](url-rewrite-for-hosting-providers/_static/image1.jpg)
 
 1. The image above depicts the following events involving URL Rewrite:
    The end user types URL: `http://www.somestore.com/chocolates/dark/organic`.

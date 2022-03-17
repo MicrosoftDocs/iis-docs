@@ -97,11 +97,11 @@ C. Export the Package from the IIS Application Web Site<a id="\_Ref279656388"></
 1. Open Internet Information Services (IIS) Manager.
   
    The Internet Information Services (IIS) Manager application opens.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image2.jpg)
+   ![Screenshot that shows I I S Manager.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image2.jpg)
 2. Expand your server connection, and click **Sites**.
 3. In the Actions area, click the **Add Web Site** link.
 
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image4.jpg)  
+   ![Screenshot that shows the Add Web Site dialog box.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image4.jpg)  
    The Add Web Site dialog box appears.
 4. Enter a site name for your Web site.
 5. In the Physical path field, type the physical path to the folder in which the application is installed, or click the browse button (...) to navigate to the folder.
@@ -119,19 +119,19 @@ C. Export the Package from the IIS Application Web Site<a id="\_Ref279656388"></
 1. Open Web Platform Installer (Web PI) locally from the web server.  
    The Web Platform Installer application opens.
 
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image6.jpg)
+   ![Screenshot that shows Web Platform Installer 3 point 0.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image6.jpg)
 2. Select **Acquia Drupal**, and click **Install**.  
    The Web Platform Installation window appears.
 
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image8.jpg)
+   ![Screenshot that shows the Web Platform Installation window.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image8.jpg)
 3. Click **I Accept** to accept the end-user license agreement.
 
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image10.jpg)
+   ![Screenshot that shows Step 1 of 2 in the Web Platform Installation window, Enter your site information.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image10.jpg)
 4. From the Web Site drop-down list, select the Web site you created earlier in this procedure.
 5. In the application name field, enter an application name if it is different from the default value.  
    The remaining fields are populated automatically based on your Web site information.
 6. Click **Continue**.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image12.jpg)
+   ![Screenshot that shows Step 2 of 2 in the Web Platform Installation window, Enter application information.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image12.jpg)
 7. From the Create a new or use an existing database drop-down list, select **Create new database**.
 8. Enter the following information in the appropriate fields to create a new database:  
 
@@ -150,12 +150,12 @@ C. Export the Package from the IIS Application Web Site<a id="\_Ref279656388"></
    > You must scroll down to view all required fields.
 9. Click **Continue**.
 
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image14.jpg)
+   ![Screenshot that shows text reading, Congratulations You have successfully installed the following products, in the Web Platform Installation window.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image14.jpg)
 10. Once the Web PI process is complete, you can do one of the following:  
 
     - Click **Finish** to complete the installation process. If you click Finish to complete the installation process, proceed to step C. Enable Permalinks (Optional) to continue creating an application package for deployment.
     - Click **Launch Drupal** to launch your Drupal application. If you click the Launch Drupal link, the Drupal application page appears:  
-      ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image16.jpg)
+      ![Screenshot that shows Internet Explorer. The Drupal application page is shown in the browser.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image16.jpg)
 
 For information about setting up your Drupal site, see the [Drupal documentation](https://www.drupal.org/documentation).
 
@@ -180,43 +180,43 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
 
 1. Open IIS Manager.  
    The Internet Information Services (IIS) Manager application opens.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image18.jpg)
+   ![Screenshot of the I I S Manager, with the WEB DEPLOY 0 2 Home pane open.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image18.jpg)
 2. In the Connections navigation pane, expand **Sites**, and select the Web site you just created.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image20.jpg)
+   ![Screenshot of the I I S Manager, with the drupal Home pane open.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image20.jpg)
 3. Click the **Export Application** link located in the Deploy section of the Actions pane.  
   
    The Export Application Package (Select the Contents of the Package) dialog box appears.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image22.jpg)
+   ![Screenshot of the Export Application Package dialog box.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image22.jpg)
 4. Click **Manage Components**.  
    The Manage Components dialog box appears.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image24.jpg)
+   ![Screenshot of the Manage Components dialog box.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image24.jpg)
 5. Double-click the second row of the Provider Name column.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image26.jpg)
+   ![Screenshot of the Manage Components dialog box. The drop down list for the cell under i i s App is shown.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image26.jpg)
 6. Select **dbMySql** from the drop-down list.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image28.jpg)
+   ![Screenshot of the Manage Components dialog box. d b My Sql is selected under the i i s App cell.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image28.jpg)
 7. Double-click the second row of the Path column, and enter the connection string for your package export.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image31.jpg)
+   ![Screenshot of the Manage Components dialog box. The row with d b My Sql is selected..](deploying-drupal-via-packages-in-a-hosting-environment/_static/image31.jpg)
 8. Click outside of the box in which you entered the connection string, and click **OK**.
 
    The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image33.jpg)
+   ![Screenshot that shows the Export Application Package dialog box.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image33.jpg)
 9. Rename the parameters:
 
    - Select **Parameter 1**, and click **Edit**.  
       The Edit Parameter dialog box appears.  
-      ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image35.jpg)
+      ![Screenshot that shows the Edit Parameter dialog box.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image35.jpg)
    - Enter **SiteName** in the Name field, and click **OK**.
    - Repeat these steps to rename Parameter 2 to "ConnectionString."
 
       The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.  
-      ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image37.jpg)
+      ![Screenshot that shows the Export Application Package dialog box. Both parameters have been renamed, one to Site Name and the other to Connection String.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image37.jpg)
 10. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
-    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image39.jpg)
+    ![Screenshot that shows the Export Application Package dialog box for Save Package.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image39.jpg)
 11. Enter the path to the application package, or click Browse to locate the application file.
 12. Click **Next**.  
   
     The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
-    ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
+    ![Screenshot that shows the Export Application Package dialog box for Export Progress and Summary.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
 13. Click **Finish**.Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.
 
 <a id="\_Ref279680466"></a><a id="\_Ref279656893"></a>
@@ -256,7 +256,7 @@ To create a customer application database, complete these steps:
    `mysql&gt; grant all on drupal. \* to ‘drupal'@'localhost';`
 
 Your command window should appear similar to the following:  
-![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image43.jpg)
+![Screenshot of a command window.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image43.jpg)
 
 > [!TIP]
 > You can automate this process using a script similar to the one described in the section: MySQL Database Creation Script.
@@ -297,21 +297,21 @@ The examples in this topic show how to import Drupal into an IIS Web site and in
 
 1. Download the latest stable version of MySQL from the [official website](https://www.mysql.com/ "MySQL website") and run the installer on a dedicated **database server.**  
  The MySQL Server Instance Configuration Wizard appears.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image45.jpg)
+   ![Screenshot that shows My SQL Server Instance Configuration Wizard. Dedicated My SQL Server Machine is selected.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image45.jpg)
 2. Click the **Dedicated MySQL Server Machine** option button, and click **Next**.
 
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image47.jpg)
+   ![Screenshot that shows My SQL Server Instance Configuration Wizard for Inno D B Table space Settings.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image47.jpg)
 3. Click **Next**.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image49.jpg)
+   ![Screenshot that shows My SQL Server Instance Configuration Wizard with Online Transaction Processing selected.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image49.jpg)
 4. For concurrent connections, click the **Online Transaction Processing (OLTP)** option button (since this option reflects the workload of a typical shared hosting database server), and then click **Next**.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image51.jpg)
+   ![Screenshot that shows My SQL Server Instance Configuration Wizard with Enable T C P I P Networking selected.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image51.jpg)
 5. Click the **Enable TCP/IP Networking** check box, and then click the **Add firewall exception for this post** check box.
 6. Clear the **Enable Strict Mode** check box if it is checked.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image53.jpg)
+   ![Screenshot that shows My SQL Server Instance Configuration Wizard with Best Support for Multilingualism selected.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image53.jpg)
 7. Click the Best Support For Multilingualism option button to enable support for the UTF-8 character set.  
     **IMPORTANT!** You must choose the Best Support for Multilingualism option button since several applications in the Web Application Gallery require UTF-8 support in the database.
 8. Click **Next**.  
-   ![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image55.jpg)
+   ![Screenshot that shows My SQL Server Instance Configuration Wizard with Include Bin Directory in Windows PATH selected.](deploying-drupal-via-packages-in-a-hosting-environment/_static/image55.jpg)
 9. Click the **Include Bin Directory in Windows PATH** check box, and click **Next**.
 10. Since MySQL is installed on the database server (which is different than the Web server that runs the Web Deploy web server component), you must complete these steps to ensure Web Deploy can access the database server:
 

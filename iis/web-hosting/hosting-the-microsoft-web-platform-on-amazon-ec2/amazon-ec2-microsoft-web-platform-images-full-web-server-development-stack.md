@@ -41,7 +41,7 @@ Just be patient and wait for a little longer.
 
 Once you are signed up successfully you will have access to the Amazon EC2 Management Console. The URL is [https://console.aws.amazon.com/ec2/home](https://console.aws.amazon.com/ec2/home).
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image2.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image1.png)
+[![Screenshot shows the Amazon E C 2 Management Console. US West is highlighted in the Region field.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image2.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image1.png)
 
 Once you are logged in make sure you switch your region to "US West". The Microsoft Web Platform images are currently only available in the US West region. Before we do anything lets set up the firewall rules (called Security Groups in Amazon lingo) for your Web Development Stack instance.
 
@@ -49,15 +49,15 @@ Once you are logged in make sure you switch your region to "US West". The Micros
 
 Select the item "Security Groups" on the left hand side. Your existing Security Groups will show in the center pane. Click the "Create Security Group" button on top.
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image4.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image3.png)
+[![Screenshot shows the Create Security Group button.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image4.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image3.png)
 
 Name the new group you are about to create, for example "Microsoft Web Platform Firewall Rules".
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image6.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image5.png)
+[![Screenshot that shows the Create Security Group dialog box.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image6.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image5.png)
 
 You want to configure the following rules:
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image8.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image7.png)
+[![Screenshot that shows a list of Allowed Connections under the Security Group selected.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image8.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image7.png)
 
 - RDP is needed so you can connect via Remote Desktop to your Amazon EC2 instance. The current "Source (IP or group)" settings allows these connections from any IP address. Please lock down this settings if you have more stringent security requirements.
 - HTTP is needed so your customers can connect via HTTP your Amazon EC2 instance.
@@ -69,19 +69,19 @@ Now we are ready to launch an EC2 Web Server Development Stack instance.
 ### Launching your Web Server Development Stack Image
 
 Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.   
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image10.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image9.png)
+[![Screenshot that shows the Launch Instance button.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image10.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image9.png)
 
 Now select "Community Images" in the resulting dialog.
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image12.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image11.png)
+[![Screenshot that shows the tabs for Quick Start, My A M I, and Community A M I.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image12.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image11.png)
 
 By typing "microsoft/" in the "Community AMIs" dialog you will reduce the selection to the four Microsoft images:  
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image14.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image13.png)
+[![Screenshot that shows 4 images under the Community A M I tab.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image14.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image13.png)
 
 Click "Select" in the "Microsoft Web Platform – Full Web Server Development Stack" ... row.
 
 In the next dialog page (Instance Details) you can select how much computing power you want to have for your Web Server Development Stack instance. It's probably prudent to start with the preselected option which is the smallest. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.   
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image15.png)
+[![Screenshot that shows a selected radio button for Create a new Key Pair. In the Enter a name for your key pair field, my E C 2 Keys is entered.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image15.png)
 
 If you already have a key, simply use it. If not you have to create one by entering a name for your key pair and clicking the "Create &amp; Download Key Pair" button. As soon as you click the button a key pair will be created by Amazon an you are asked by your browser to download it. Save the file in a location where you will find it later. The key pair you created will allow you to decrypt the Administrator password that Amazon creates for your Media Server instance. Click the "Continue" button.
 
@@ -94,23 +94,23 @@ Click "Continue" to move to the "Launch" page. The only thing left to do on the 
 
 After finishing the "Launch Instance" wizard you should be back on the main page of the AWS Management Console. Click the "Instances" link to figure out how your Media Server instance is doing.
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image18.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image17.png)
+[![Screenshot that shows the A W S Management Console. Instances is highlighted in the Navigation pane.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image18.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image17.png)
 
 You should see something like this:
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image20.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image19.png)
+[![Screenshot that shows My Instances pane.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image20.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image19.png)
 
 Right click on the row and select the "Get Windows Password" menu item.
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image22.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image21.png)
+[![Screenshot that shows the context menu for the first row.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image22.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image21.png)
 
 Now it's time to use the key pair file (&lt;your key pair name&gt;.PEM) that you created before. If the password is already available (you might have to wait a couple of minutes as said before) you will see the following dialog:
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image24.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image23.png)
+[![Screenshot that shows the Retrieve Default Windows Administrator Password window.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image24.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image23.png)
 
 Open the .PEM file in notepad and copy it to the clipboard (Ctrl+A selects all, Ctrl+C copies it into the clipboard). Now paste the contents into the textbox of the dialog (Ctrl+V). Click the "Decrypt" button.
 
-Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
+Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![Screenshot shows a security dialog box, asking Stop running this script.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
 If you are interested in a more permanent fix you can execute the following command on command-line: 
 
 [!code-console[Main](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/samples/sample1.cmd)]
@@ -129,11 +129,11 @@ Visual Studio 2010 offers a completely new one-click deployment model for web ap
 
 Once you have started Visual Studio 2010 select "File" - "New" - "Project" and select "ASP.NET Application" (make sure you select the "Web" project template). Use the project name "HelloEC2".
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image28.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image27.png)
+[![Screenshot that shows A S P dot NET Web application highlighted in the Templates list. Hello E C 2 is in the Name field.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image28.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image27.png)
 
 Open the site.master file once you have created the project and change the text in the &lt;h1&gt; tag to "My ASP.NET on EC2 Application"
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image30.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image29.png)
+[![Screenshot that shows the code editor, with My A S P dot NET on E C 2 Application highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image30.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image29.png)
 
 ### Configure Publishing
 
@@ -144,11 +144,11 @@ All we need to do is to configure publishing. For this we need
 
 To get these two pieces of data you need to go back to the AWS Management Console. The AWS console shows you the public DNS name or IP address as one of the properties of your instance. You can copy the address to the clipboard or write it down. Should you need a more permanent DNS address you have to register a DNS name and also get an Elastic IP address from Amazon. But this is a story for another day.
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image33.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image32.png)
+[![Screenshot that shows the A W S Management Console.  Publish D N S and its address is highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image33.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image32.png)
 
 Armed with these two pieces of information we are armed to publish the ASP.NET web application project we just created. To publish you have to go back to Visual Studio, right click on your project and select the "Publish" menu item.
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image35.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image34.png)
+[![Screenshot shows the context menu for the project. The list shows Publish and it is highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image35.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image34.png)
 
 In the upcoming dialog you have to enter several pieces of the data. But let's do this step by step:
 
@@ -158,17 +158,17 @@ In the upcoming dialog you have to enter several pieces of the data. But let's d
 4. The EC2 instance works with a self-signed SSL certificate to ensure the traffic between your client and the EC2 instance is encrypted. The self-signed certificate is not trusted yet and you have to check the checkbox "Allow untrusted certificate".
 5. Specify the administrative credentials for the EC2 instance. The username is "Administrator" and you retrieved the password for the EC2 instance in a previous step.
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image36.png)
+[![Screenshot shows the Publish Web dialog box with multiple fields highlighted.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image36.png)
 
 All that's left is to hit the "Publish" button and the Status bar will indicate that the publishing process succeeded. Your application was successfully published to your EC2 instance!  
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image39.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image38.png)
+[![Screenshot of the Status bar saying Publish succeeded.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image39.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image38.png)
 
 ### Browsing your Web Application
 
 Let's check it out! If you still have the DNS name in the clipboard you simply have to paste it to the address bar of Internet Explorer.   
 Voila!
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image40.png)
+[![Screenshot of your web application on Internet Explorer.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image40.png)
 
 ### Connecting to your EC2 Instance via Remote Desktop
 
@@ -177,11 +177,11 @@ In case you need to configure something on the server itself you can easily use 
 Here is how you connect via RDP to your EC2 instance:   
 Right click the instance and select "Connect".
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image44.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image43.png)
+[![Screenshot of the context menu of your E C 2 instance.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image44.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image43.png)
 
 Click "Download shortcut file" in the dialog that follows:
 
-[![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image46.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image45.png)
+[![Screenshot that shows the Console Connect Remote Desktop Connection window. Download shortcut file is listed under Option 1.](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image46.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image45.png)
 
 The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
 Once connected you will get logged on to the remote machine.
