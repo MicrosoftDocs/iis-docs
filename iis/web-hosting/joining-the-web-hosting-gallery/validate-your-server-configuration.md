@@ -158,7 +158,7 @@ This Validator uses WMI to check if a product is in Win32\_Products. It's an alt
 1. Start Visual Studio
 2. Create *.NET 2.0*, C# class library project:  
   
-    ![Screenshot that shows the Add New Project window.  Class Library is selected.](validate-your-server-configuration/_static/image3.png)
+    ![Screenshot that shows the Add New Project window. Class Library is selected.](validate-your-server-configuration/_static/image3.png)
 3. Add a reference to ServerValidator.dll:  
   
     ![Screenshot that shows the Solution Explorer window.](validate-your-server-configuration/_static/image5.png)

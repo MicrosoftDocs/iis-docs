@@ -120,7 +120,7 @@ The `<security>` element is included in the default installation of IIS 7.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Basic Authentication**, and then, in the **Actions** pane, click **Enable**.
 5. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Disable** in the **Actions** pane.  
-    [![Screenshot that shows the Authentication pane.  Anonymous Authentication is selected. The Actions pane lists Disabled and Edit.](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot that shows the Authentication pane. Anonymous Authentication is selected. The Actions pane lists Disabled and Edit.](index/_static/image8.png)](index/_static/image7.png)
 
 * * *
 
