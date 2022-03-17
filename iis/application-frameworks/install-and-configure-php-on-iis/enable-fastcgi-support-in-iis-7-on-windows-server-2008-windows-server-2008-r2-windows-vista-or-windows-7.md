@@ -29,7 +29,7 @@ Windows Server® 2008 R2, Windows Server® 2008, Windows Vista®, or Windows® 7
 
 1. Add the CGI role service by going to **Server Manager** &gt; **Roles** &gt; **Add Role Services**.
 2. Under **Application Development**, select the **CGI** check box. This enables both the CGI and FastCGI services (selecting CGI enables both CGI and FastCGI).  
-    [![](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image1.jpg)](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image1.png)  
+    ![Screenshot of Add Role Services dialog with "CGI" selected under Application Development.](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image1.png)  
     *Figure 1: Select Role Services page*
 3. Confirm the selections on the **Confirm Installation Selection** page, and then click **Install**.
 4. The **Installation Results** page shows that the installation succeeded. Click **Close**.
@@ -42,7 +42,7 @@ IIS 7.0 for Windows Vista® Service Pack 1 (SP1) includes a built-in FastCGI com
 The steps to enable FastCGI in Windows 7 are similar.
 
 1. Add the CGI role service by going to **Control Panel** &gt; **Programs and Features** &gt; **Turn Windows features on or off.**  
-    [![](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image3.jpg)](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image2.jpg)  
+    ![Screenshot of the enabled "CGI" features in the Control Panel.](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image2.jpg)  
   
     *Figure 2: Windows Features page*
 
