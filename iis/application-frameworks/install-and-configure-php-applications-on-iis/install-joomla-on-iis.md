@@ -116,7 +116,7 @@ Before starting the installation procedure for Joomla, you must create a databas
     *Figure 7: Finish page*
 9. You can now go to the Joomla site.  
 
-    ![Screenshot showing the main Joomla page.](install-joomla-on-iis/_static/image15.jpg)
+    ![Screenshot showing the main Joomla web site .](install-joomla-on-iis/_static/image15.jpg)
 
     *Figure 8: Joomla site*
 
