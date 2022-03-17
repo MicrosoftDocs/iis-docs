@@ -14,7 +14,7 @@ The [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanag
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CultureInfo](manifestproperty-cultureinfo-property-microsoft-web-media-transformmanager.md)|Gets or sets the culture information for the manifest property.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CultureInfoMoniker](manifestproperty-cultureinfomoniker-property-microsoft-web-media-transformmanager.md)|Gets or sets a value that represents the culture language.|

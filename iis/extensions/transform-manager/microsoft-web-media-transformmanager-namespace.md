@@ -21,7 +21,7 @@ The IIS Transformation Manager Task API provides a set of interface and class de
 
 ## Classes
 
-||Class|Description|
+|Class Type|Class|Description|
 |--- |--- |--- |
 |![Public class](images/Ff729529.pubclass(en-us,VS.90).gif "Public class")|[ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md)|Provides a base class that represents IIS Transform Manager configuration information.|
 |![Public class](images/Ff729529.pubclass(en-us,VS.90).gif "Public class")|[ConfigurationMessage](configurationmessage-class-microsoft-web-media-transformmanager.md)|Represents messages that are initialized during IIS Transform Manager service initialization.|
@@ -52,13 +52,13 @@ The IIS Transformation Manager Task API provides a set of interface and class de
 
 ## Structures
 
-||Structure|Description|
+|Structure Type|Structure|Description|
 |--- |--- |--- |
 |![Public structure](images/Ff729529.pubstructure(en-us,VS.90).gif "Public structure")|[TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)|Encapsulates task-related details.|
 
 ## Interfaces
 
-||Interface|Description|
+|Interface Type|Interface|Description|
 |--- |--- |--- |
 |![Public interface](images/Ff729529.pubinterface(en-us,VS.90).gif "Public interface")|[IJobManifest](ijobmanifest-interface-microsoft-web-media-transformmanager.md)|Represents an interface that retrieves job scheduler information.|
 |![Public interface](images/Ff729529.pubinterface(en-us,VS.90).gif "Public interface")|[IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.md)|Represents an interface that defines an object that is passed to the task through the [Initialize(ITaskStatus, IJobMetadata, ILogger)](itask-initialize-method-microsoft-web-media-transformmanager.md) method of the [ITask](itask-interface-microsoft-web-media-transformmanager.md) class.|
@@ -71,13 +71,13 @@ The IIS Transformation Manager Task API provides a set of interface and class de
 
 ## Delegates
 
-||Delegate|Description|
+|Delegate Type|Delegate|Description|
 |--- |--- |--- |
 |![Public delegate](images/Ff729529.pubdelegate(en-us,VS.90).gif "Public delegate")|[JobManagerShutDownEventHandler](jobmanagershutdowneventhandler-delegate-microsoft-web-media-transformmanager.md)|Represents the method that handles the shutdown event for the job manager. This type supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 
 ## Enumerations
 
-||Enumeration|Description|
+|Enumeration Type|Enumeration|Description|
 |--- |--- |--- |
 |![Public enumeration](images/Ff729529.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)|Specifies how to display IIS Transform Manager configuration messages.|
 |![Public enumeration](images/Ff729529.pubenumeration(en-us,VS.90).gif "Public enumeration")|[JobDetailsField](jobdetailsfield-enumeration-microsoft-web-media-transformmanager.md)|Represents a value that is used to specify how job details are sorted and displayed.|

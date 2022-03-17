@@ -14,7 +14,7 @@ The [Logger](logger-class-microsoft-web-media-transformmanager.md) type exposes 
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFile](logger-logfile-property-microsoft-web-media-transformmanager.md)|Gets or sets a [StreamWriter](https://msdn.microsoft.com/library/3ssew6tk) object that represents the log file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFileName](logger-logfilename-property-microsoft-web-media-transformmanager.md)|Gets or sets the name of the log file.|
