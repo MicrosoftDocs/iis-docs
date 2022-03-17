@@ -21,7 +21,7 @@ Canonical Domain Name rule template can be used to simplify the creation of a re
 
 Then users can provide a domain name that they want to use:
 
-![Screenshot of "Canonical Domain Name" dialog.](developing-rule-template-for-url-rewrite-module/_static/image3.png)
+![Screenshot of a specific Canonical Domain Name.](developing-rule-template-for-url-rewrite-module/_static/image3.png)
 
 After that the template will generate a rewrite rule as below:
 
