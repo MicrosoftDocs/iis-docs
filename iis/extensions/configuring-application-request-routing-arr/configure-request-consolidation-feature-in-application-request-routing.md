@@ -42,7 +42,7 @@ Cache proxies work well when the content is already available. However, when man
 
 To address this problem, ARR has introduced the concept of request consolidation. The idea is to check the cache-miss requests that are "in flight" before forwarding the requests to the origin server (or if the cache nodes are tiered, the requests will be sent to the next tier server.) As shown below, the idea is simple, but has a big impact in reducing the number of requests, especially for live streaming contents.
 
-![](configure-request-consolidation-feature-in-application-request-routing/_static/image1.jpg)
+![Diagram that shows the process to forward requests to the origin server in a tiered cache system.](configure-request-consolidation-feature-in-application-request-routing/_static/image1.jpg)
 
 ## Step 2 - Configure request consolidation feature in ARR.
 
@@ -55,11 +55,11 @@ This walkthrough shows the proxy setting at the server farm level.
 3. Select the server farm that you created.
 4. The following icons are shown:
 
-    [![](configure-request-consolidation-feature-in-application-request-routing/_static/image3.jpg)](configure-request-consolidation-feature-in-application-request-routing/_static/image2.jpg)
+    ![Screenshot of the Server Farms icons in the IIS Manager.](configure-request-consolidation-feature-in-application-request-routing/_static/image2.jpg)
 5. Double-click **Caching**.
 6. Select the **Enable request consolidation** checkbox.
 
-    [![](configure-request-consolidation-feature-in-application-request-routing/_static/image5.jpg)](configure-request-consolidation-feature-in-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the Caching pane with "Enable disk cache" and "Enable request consolidation" selected.](configure-request-consolidation-feature-in-application-request-routing/_static/image4.jpg)
 7. Click **Apply** to save your changes. You have now successfully enabled the request consolidation feature. Note: The same configuration setting is available at the server proxy level on the **Server Proxy Settings** page.
 
 ## Summary
