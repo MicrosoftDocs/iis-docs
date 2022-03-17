@@ -50,7 +50,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
-    ![Screenshot of Web Server and Common H T P Features pane expanded with Web DAV Publishing selected.](add/_static/image1.png)
+    ![Screenshot of Web Server and Common H T T P Features pane expanded with Web DAV Publishing selected.](add/_static/image1.png)
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.

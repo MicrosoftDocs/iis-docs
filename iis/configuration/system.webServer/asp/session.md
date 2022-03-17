@@ -109,7 +109,7 @@ To support and configure ASP applications on your Web server, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or Web application that you want to configure.
 3. In the site or application **Home** pane, double-click **ASP**.  
-    ![Screenshot pf application Home pane displaying A S P highlighted.](session/_static/image11.png)
+    ![Screenshot of application Home pane displaying A S P highlighted.](session/_static/image11.png)
 4. In the **ASP** pane, expand the **Session Properties** section and configure your desired settings.  
     ![Image of A S P pane with Session Properties section expanded and highlighted.](session/_static/image13.png)
 5. Click **Apply** in the **Actions** pane.
