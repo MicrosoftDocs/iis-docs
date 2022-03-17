@@ -55,11 +55,11 @@ This walkthrough shows the proxy setting at the server farm level.
 3. Select the server farm that you created.
 4. The following icons are shown:
 
-    ![Screenshot of the Server Farms icons in the IIS Manager.](configure-request-consolidation-feature-in-application-request-routing/_static/image2.jpg)
+    ![Screenshot of the Server Farms icons in the I I S Manager.](configure-request-consolidation-feature-in-application-request-routing/_static/image2.jpg)
 5. Double-click **Caching**.
 6. Select the **Enable request consolidation** checkbox.
 
-    ![Screenshot of the Caching pane with "Enable disk cache" and "Enable request consolidation" selected.](configure-request-consolidation-feature-in-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the Caching pane with enabled disk cache and request consolidation.](configure-request-consolidation-feature-in-application-request-routing/_static/image4.jpg)
 7. Click **Apply** to save your changes. You have now successfully enabled the request consolidation feature. Note: The same configuration setting is available at the server proxy level on the **Server Proxy Settings** page.
 
 ## Summary
