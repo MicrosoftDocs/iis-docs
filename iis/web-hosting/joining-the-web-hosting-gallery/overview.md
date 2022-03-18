@@ -35,7 +35,7 @@ After completing the above steps, you will then need to formally [submit an appl
 
 ## How your customers will publish to you
 
-[![](overview/_static/image2.jpg)](overview/_static/image1.jpg)
+[![Diagram that shows Web Platform Installer, Visual Studio, and the Web Matrix being deployed to the Web Management Service, then to the Hosting Server.](overview/_static/image2.jpg)](overview/_static/image1.jpg)
 
 1. Customer finds your offer in the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/ "Microsoft Web Hosting Gallery"), and signs up for an account
 2. You provision required resources (including a SQL Server and/or MySQL database) for the customer
