@@ -77,13 +77,13 @@ In the [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-
 ### Using the Playlists feature to add configuration entries for custom providers
 
 1. In Internet Information Services (IIS) Manager, at the site level, click **Playlists**. (Ref: Figure 1)  
-    ![Screenshot of I I S Manager showing the Default Web Site features list in the main pane.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image1.jpg)  
+    ![Screenshot of the I I S Manager window showing the Default Web Site features list in the main pane.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image1.jpg)  
     *Figure 1. IIS 7.0 Manager - Open the Playlists page*
 2. In the **Actions** pane, click **Configure Providers**. You will see the list of providers that are registered for the site. (Ref. Figure 2)  
-    ![Screenshot of I I S Manager showing Playlists in the main pane. Configure Providers is highlighted in the Actions pane.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image3.jpg)  
+    ![Screenshot of the I I S Manager window showing Playlists in the main pane. Configure Providers is highlighted in the Actions pane.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image3.jpg)  
     *Figure 2. IIS 7.0 Manager - Open the Playlist providers page*
 3. In the **Actions** pane, click **Add**. (Ref. Figure 3)  
-    ![Screenshot of the I I S Manager showing the Playlist providers page in the main pane. Add is highlighted in the Actions pane.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image5.jpg)  
+    ![Screenshot of the I I S Manager window showing the Playlist providers page in the main pane. Add is highlighted in the Actions pane.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image5.jpg)  
     *Figure 3. Open the Add Playlist Provider dialog box*
 4. In the **Add Playlist Provider** dialog box, fill in the following details. Click **OK** when you are done. (Ref. Figure 4, 5)  
 
@@ -96,7 +96,7 @@ In the [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-
 
      ![Screenshot of the Add Playlist Provider dialog.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image7.jpg)  
      *Figure 4. Add Playlist Provider dialog box*  
-     ![Screenshot of the Add Playlist Provider dialog showing the Bitness list expanded.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image9.jpg)  
+     ![Screenshot of the Add Playlist Provider dialog showing the expanded Bitness list.](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image9.jpg)  
      *Figure 5. Bitness options for custom provider configuration*
 
 <a id="Register"></a>

@@ -51,7 +51,7 @@ Before proceeding, ensure that the server farm was created with the application 
 
 3. The following icons are shown:
 
-   ![Screenshot of I I S Manager window showing the server farm icons.](shared-hosting-using-application-request-routing-arr/_static/image3.jpg)
+   ![Screenshot of the I I S Manager window showing the server farm icons.](shared-hosting-using-application-request-routing-arr/_static/image3.jpg)
 
 4. Double-click **Server Affinity**.
 
@@ -72,7 +72,7 @@ Before proceeding, ensure that the server farm was created with the application 
 
 6. To verify this functionality, click **Display Routing Table**.
 
-   ![Screenshot of the default View Routing Table dialog, no server addresses are displayed.](shared-hosting-using-application-request-routing-arr/_static/image7.jpg)
+   ![Screenshot of the default View Routing Table dialog, no server addresses display.](shared-hosting-using-application-request-routing-arr/_static/image7.jpg)
 
 7. Type the name of the host, and then click **Lookup by host name**. The server address shown is the location to where the host name is affinitized.
 

@@ -87,16 +87,16 @@ The following properties are available to be set:
    - **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
    - **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
 
-     ![Screenshot of I I S Manager showing the Add Media Entry dialog. Title shows The Ad.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
+     ![Screenshot of the I I S Manager window showing the Add Media Entry dialog. Title shows The Ad.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
 
-     ![Screenshot of I I S Manager showing the Add Media Entry dialog. Title shows The Video.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
+     ![Screenshot of the I I S Manager window showing the Add Media Entry dialog. Title shows The Video.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
 
 #### Ensure that the Order of Entries in the Playlist is Correct
 
 The presentation order of media entries in a playlist is very important, as the playlist is played in that order. The order goes from top to bottom. This means that content on top will be played before content below. Therefore, it is important to ensure that you have the correct order in the playlist. For example, if you want users of your content to be able to get to the content only after playing an advertisement, you must ensure that the advertisement is placed above the content in the playlist. (You may additionally want to disable skip forward if you want to enforce viewing the advertisements.)
 
 After media entries are added, you can re-order them in the playlist by selecting an entry and using the **Move Up** and **Move Down** buttons to reposition media entries in the playlist.
-![Screenshot of the I I S Manager showing Edit Playlist in the main pane. Two entries are listed.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image9.jpg)
+![Screenshot of the I I S Manager window showing Edit Playlist in the main pane. Two entries are listed.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image9.jpg)
 
 <a id="nesting"></a>
 
@@ -221,7 +221,7 @@ The following procedure add credentials for a specific path:
 3. In the **Add Impersonation Setting** dialog box, enter the path that you want to provide credentials for and chose a Logon method. This path can be a UNC path or a simple local path. The Logon methods are identical to those used for Virtual Directories. See [More Information](web-playlists-for-iis-7-creating-a-simple-playlist.md#info) later in this article for more details.
 4. Click **Set**.
 
-    ![Screenshot of the I I S Manager window showing the Add Impersonation dialog. Correct as is highlighted.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image15.jpg)
+    ![Screenshot of the I I S Manager window showing the Add Impersonation dialog. Correct as, is highlighted.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image15.jpg)
 5. In the **Set Credentials** dialog box, provide the user name and password for the path given earlier.
 
     ![Screenshot of the I I S Manager window showing the Set Credentials dialog.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image17.jpg)
