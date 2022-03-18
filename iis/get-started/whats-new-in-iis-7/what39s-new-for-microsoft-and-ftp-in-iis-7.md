@@ -61,7 +61,7 @@ Here is a closer look at each of these new feature areas.
 
 The new FTP service is tightly-integrated with IIS, and adopts the new configuration store that IIS is using. By way of explanation, the metabase from earlier IIS versions has been deprecated, and a new configuration system has taken its place that is based on .NET's \*.config XML files. This new format is much easier to read and configure than the metabase, and the FTP service takes full advantage of this new design. The central configuration store for IIS is applicationHost.config, and all the information for the FTP is kept in this file. IIS also contains a new shared user interface, IIS Manager (pictured below), that is used to manage both Web sites and FTP sites.
 
-![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.jpg)
+![Screenshot of the Default Web Site Home pane in the I I S Manager.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.jpg)
 
 What's more, because of the full FTP integration in IIS, the FTP service can be managed from any other IIS management tool or API; for example: AppCmd, Microsoft.Web.Administration, PowerShell, etc.
 
@@ -69,11 +69,11 @@ This version of the FTP service streamlines content publishing by allowing admin
 
 On the first screen of the publishing wizard (pictured below), you configure your SSL settings and binding options, which consist of the IP address, port, and virtual host name.
 
-[![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image4.jpg)](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.jpg)
+![Screenshot of the Add F T P Site dialog with the default Binding and S S L Settings.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.jpg)
 
 On the second screen of the publishing wizard (pictured below), you configure your authentication and authorization settings. (Additional authentication and authorization settings can be added later.)
 
-![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image5.jpg)
+![Screenshot of the Add F T P Site Publishing dialog with the default Authentication and Authorization Information settings.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image5.jpg)
 
 Of course, you do not have to bind the FTP protocol to your Web site. If you want only an FTP site, you can still set up a site that has only FTP bindings.
 
@@ -86,7 +86,7 @@ For more information about adding FTP publishing and FTP sites, see the followin
 
 The FTP service for IIS supports for emerging Internet standards like IPv6, UTF8, and FTP over SSL. We offer an RFC-based implementation of FTPS (FTP over SSL), and configuration options that allow you to encrypt data on the control channel, on the data channel, or on both channels. Since we have a standards-based implementation of FTPS, we support several third-party FTP clients.
 
-![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image7.jpg)
+![Screenshot of the Advanced S S L Policy dialog with Control Channel and Data Channel set as Required.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image7.jpg)
 
 The industry has addressed how to secure FTP traffic in several different ways. Although there no single standard has emerged, there are two similarly named protocols: FTPS and SFTP. To clarify, Microsoft offers an FTP over SSL (FTPS) solution. Microsoft currently does not provide a solution for securing FTP traffic using FTP over SSH (SFTP).
 
@@ -112,7 +112,7 @@ For more information about using non-Windows authentication with FTP, see the fo
 
 In this FTP service we have added virtual host name support to FTP. By using host name support, you can host multiple FTP sites, each with different domain names, on the same IP address.
 
-![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image9.jpg)
+![Screenshot of the Edit Site Binding dialog with the default I P address and Port number.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image9.jpg)
 
 For more information about using FTP virtual host names, see the following walkthrough:
 
@@ -126,7 +126,7 @@ We have improved support for FTP user isolation configuration. All of the previo
 
 - In earlier versions of FTP, it was possible to use global virtual directories if you used physical directories for users to start in when they first logged on to the server. If you wanted to share content between a number of FTP users, global virtual directories were helpful. We have kept this option, but now it is only available with **User name physical directory (enable global virtual directories)**, and you must create physical directories to use this option.
 
-![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.png)
+![Screenshot of the F T P User Isolation dialog configured for users to start in the F T P Root directory.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.png)
 
 For more information about configuring FTP user isolation, see the following walkthrough:
 
@@ -136,7 +136,7 @@ For more information about configuring FTP user isolation, see the following wal
 
 You can now make virtual directories visible to FTP clients by selecting an option on the improved FTP Directory Browsing page.
 
-![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.png)
+![Screenshot of Directory Listing Style set as M S dash D O S and Directory Listing Options set to display Virtual directories.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.png)
 
 You can also configure the directory browsing options to return the available bytes to FTP clients, which is especially useful if you are using Disk Quotas from Windows Server's File System Resource Manager (FSRM). For more information about using this feature with FTP, see the following walkthrough:
 
@@ -146,6 +146,6 @@ You can also configure the directory browsing options to return the available by
 
 We now offer better logging support, including logging of all verbs and additional detail fields in FTP logs. These new fields include real session stamps, allowing you to parse logs to discover exactly what users were doing throughout a session. We also offer administrators the option to log the full path for requests for files or folders. This is helpful because servers typically only log the name of the file or folder, and this can make large log files difficult to read.
 
-![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image11.jpg)
+![Screenshot of the Information to Log dialog over the F T P Logging pane in the I I S Manager.](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image11.jpg)
 
 Finally, the new FTP server has provides detailed local error messages and Event Tracing for Windows (ETW). These features simplify troubleshooting and enable hosters to better support their customers.
