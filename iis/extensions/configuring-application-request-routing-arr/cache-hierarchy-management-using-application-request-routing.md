@@ -21,7 +21,7 @@ ARR Version 2 extends the concept of [server group](define-and-configure-an-appl
 
 The illustration below shows how the server group (farm) is used to specify the parent cache nodes from the child (edge) cache node perspective:
 
-![](cache-hierarchy-management-using-application-request-routing/_static/image1.jpg)
+![Diagram of how the server group or farm is used to specify the parent cache nodes from the child edge cache node perspective.](cache-hierarchy-management-using-application-request-routing/_static/image1.jpg)
 
 The management of the cache nodes can be further simplified by using a [shared configuration](../../manage/managing-your-configuration-settings/shared-configuration_264.md). In the above illustration, the child (edge) cache nodes share one configuration while the parent cache nodes share another. As a result, there will be two shared configurations that must be managed.
 
@@ -58,19 +58,19 @@ If you have not done so already, configure disk cache by following [this](config
 
 1. Launch IIS Manager.
 2. Select and expand the root of the server. This is your child (edge) cache node.  
-    ![](cache-hierarchy-management-using-application-request-routing/_static/image3.jpg)
+    ![Screenshot of the A A R one Administrator navigation tree in I I S Manager. The A R R one option is selected.](cache-hierarchy-management-using-application-request-routing/_static/image3.jpg)
 3. To create a server farm, right-click **Server Farms**, and then click **Create Server Farm...**.
 
-    ![](cache-hierarchy-management-using-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the navigation tree in I I S Manager. Server Farms is selected and a menu is shown. Create Server Farm is highlighted.](cache-hierarchy-management-using-application-request-routing/_static/image4.jpg)
 4. Enter a name for the server farm. In the example below, **myParentCacheNodes** is the name of the server farm. Click **Next**.
 
-    ![](cache-hierarchy-management-using-application-request-routing/_static/image5.jpg)
+    ![Screenshot of the Create Server Farm dialog box. In the Server farm name box the text my Parent Cache Nodes is written. Online is checked.](cache-hierarchy-management-using-application-request-routing/_static/image5.jpg)
 5. The next step is to add the parent cache nodes to the server farm. On the **Add Server** page of the wizard, add as many parent cache nodes as appropriate. When there is a cache miss at the child node, the requests will be forwarded to one of the parent cache nodes using CARP. Click **Finish**.
 
-    ![](cache-hierarchy-management-using-application-request-routing/_static/image7.jpg)
+    ![Screenshot of the Create Server Farm dialog box. In the Server Address and Status columns, the options parent cache three online is highlighted.](cache-hierarchy-management-using-application-request-routing/_static/image7.jpg)
 6. As is the case in ARR Version 1, ARR Version 2 relies on the URL Rewrite module to inspect incoming HTTP requests and server variables to make the request routing decisions. In the confirmation dialog box, click **Yes** to create the default URL rewrite rules for this server group.
 
-    ![](cache-hierarchy-management-using-application-request-routing/_static/image9.jpg)
+    ![Screenshot of the Rewrite Rules dialog box. The Yes and No buttons are found at the bottom.](cache-hierarchy-management-using-application-request-routing/_static/image9.jpg)
 7. You have successfully created a server group with the parent cache nodes as its members.
 
 ## Step 3 - Enable the Cache Array Routing Protocol (CARP).
@@ -83,7 +83,7 @@ ARR Version 2 includes support for CARP. CARP is used to determine which parent 
 2. Select the server farm **myParentCacheNodes**, which you created in Step 2 above.
 3. The following icons are shown:
 
-    ![](cache-hierarchy-management-using-application-request-routing/_static/image11.jpg)
+    ![Screenshot of the Server Farm icons. The icons include Caching, Health Test, Load Balance, Monitoring and Management, Proxy, Routing Rules, and Server Affinity.](cache-hierarchy-management-using-application-request-routing/_static/image11.jpg)
 4. Double-click **Load Balance**.
 5. Select **Request hash** from the drop-down list. The request hash in ARR Version 2 uses CARP.
 6. Click **Apply** to save the changes.

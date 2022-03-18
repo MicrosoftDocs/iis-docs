@@ -50,7 +50,7 @@ Change the database connection setting in the config.php file to point to your i
 
 Browse to the [http://localhost/pMachine/pm/install.php](http://localhost/pMachine/pm/install.php) page for detailed setup instructions. Click the Install link on the top of the page to redirect to the Install Wizard.
 
-[![](pmachinepro-on-iis/_static/image2.jpg)](pmachinepro-on-iis/_static/image1.jpg)
+[![Screenshot of the local host slash p Machine slash p m slash install dot p h p page.The Version two dot four Installation Script is shown.](pmachinepro-on-iis/_static/image2.jpg)](pmachinepro-on-iis/_static/image1.jpg)
 
 The data population SQL scripts in the install.php are out of sync with the actual table schema created in MySQL 5.0.45. You must update the insert scripts contained in install.php, and in template.data.php.  
 This results in creating all the tables and you see the registration form to register the admin user.
@@ -61,16 +61,16 @@ To test that pMachine has been installed successfully, create a blog postings an
 
 1. Navigate to [http://localhost/pMachine/pm/index.php](http://localhost/pMachine/pm/index.php).
 2. Enter the administrator username and password created in the last installation step.  
-    [![](pmachinepro-on-iis/_static/image4.jpg)](pmachinepro-on-iis/_static/image3.jpg)
+    [![Screenshot of the local host slash p Machine slash p m slash install dot p h p page. The administrator page is shown.](pmachinepro-on-iis/_static/image4.jpg)](pmachinepro-on-iis/_static/image3.jpg)
 3. Once logged in, enter a title for your post and some content and click Preview. This displays what the post looks like.  
 
-    [![](pmachinepro-on-iis/_static/image6.jpg)](pmachinepro-on-iis/_static/image5.jpg)
+    [![Screenshot of Machine Control Panel page. A box for the title and content for a post is shown.](pmachinepro-on-iis/_static/image6.jpg)](pmachinepro-on-iis/_static/image5.jpg)
 
-    [![](pmachinepro-on-iis/_static/image8.jpg)](pmachinepro-on-iis/_static/image7.jpg)
+    [![Screenshot of teh Machine Control Panel page. The text Test Blog Entry is shown. The submit and continue editing buttons are found below the text.](pmachinepro-on-iis/_static/image8.jpg)](pmachinepro-on-iis/_static/image7.jpg)
 4. Click Submit to publish this content to the Blog selected (Blog A in the case above).
 5. Navigate to [http://localhost/pmachine/weblog.php](http://localhost/pmachine/weblog.php) to browse to the actual blog site. See the actual blog as seen by site visitors.  
 
-    [![](pmachinepro-on-iis/_static/image10.jpg)](pmachinepro-on-iis/_static/image9.jpg)
+    [![Screenshot of the local host slash p machine slash web blog dot p h p page. The date Sunday September sixteenth two thousand seven is shown above the text Test Blog Entry.](pmachinepro-on-iis/_static/image10.jpg)](pmachinepro-on-iis/_static/image9.jpg)
 
 ## Getting More Information
 

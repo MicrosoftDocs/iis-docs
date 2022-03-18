@@ -46,7 +46,7 @@ IIS access control features help create flexible and manageable access control s
 5. Right-click **Anonymous Authentication**, and then click **Disable**.
 6. Right-click **Basic Authentication**, and then click **Enable**.  
 
-    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image2.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image1.jpg)
+    [![Screenshot of teh I I S Manager Authentication page. In the server node, Sites is expanded. In the Authentication pane under Name, Basic Authentication is selected.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image2.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image1.jpg)
 
     *Figure 1: Authentication page*
 7. In the tree view on the left, click the same Web site that you clicked in Step 3.
@@ -73,14 +73,14 @@ To configure Forms Authentication:
 6. Right-click **Anonymous Authentication**, and then click **Enable**.
 7. Disable all other authentication methods. Anonymous authentication is required for Forms Authentication to authenticate users requesting the login page.  
 
-    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image4.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image3.jpg)
+    [![Screenshot of the I I S Manager. The Sites node is expanded and Access Controls Lab is selected. In the Authentication pane, Forms Authentication is selected.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image4.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image3.jpg)
 
     *Figure 2: Forms Authentication and Anonymous Authentication enabled*
 8. In the tree view on the left, click on the Web site that hosts the application you want to secure.
 9. Under the **IIS** feature group, double-click **Modules**.
 10. Double-click the **FormsAuthentication** module, and then clear the **Invoke only for requests to ASP.NET applications or managed handlers** check box.  
 
-    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image6.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image5.jpg)
+    [![Screenshot of the Edit Managed Module dialog box. In the Name box, Forms Authentication is written. In the Type box, System dot Web dot Security dot Forms Authentication Module is written.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image6.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image5.jpg)
 
     *Figure 3: Enabling Forms Authentication for all requests*
 11. Click **OK**. This allows the Forms Authentication module to provide authentication services for all requests, regardless of the application content being requested. This enables your PHP application to take advantage of Forms Authentication.
@@ -107,7 +107,7 @@ IIS URL Authorization is a new authorization mechanism that enables the applicat
 4. Double-click **Authorization Rules**.
 5. Click **Add Deny Rule**, and then select **All anonymous users**.  
 
-    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image8.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image7.jpg)
+    [![Screenshot of the Add Deny Authentication Rule Dialog box. All Anonymous users is selected.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image8.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image7.jpg)
 
     *Figure 4: Add an authorization rule to deny anonymous users*
 6. Click **OK**.
@@ -133,13 +133,13 @@ When using roles, the role membership information is provided by the Roles modul
 4. Under **ASP.NET**, double-click **.NET Roles**.
 5. In the **Actions** pane, click **Enable**.  
 
-    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image10.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image9.jpg)
+    [![Screenshot of the I I S Manager dot NET Roles pane. The Sites node is expanded. Access Controls Lab is selected.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image10.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image9.jpg)
 
     *Figure 5: Enable .NET roles*
 6. In the **Actions** pane, click **Add**.
 7. In the **Name** box, type **Admin**  
 
-    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image12.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image11.jpg)
+    [![Screenshot of the dot Net Roles pane. The Add dot NET Role dialog box is shown. In the Name box Admin is written.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image12.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image11.jpg)
 
     *Figure 6: Add a .NET role*
 8. Click **OK**.
@@ -160,7 +160,7 @@ When using roles, the role membership information is provided by the Roles modul
 23. Click **Add Allow Rule**, and then select **Specified roles or user groups**.
 24. Type **admin** in the associated textbox, and then click **OK**.  
 
-    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image14.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image13.jpg)
+    [![Screenshot of the Authorization Rules pane in I I S Manager. The Access Controls Lab node is expanded and admin is selected. In the Module and Roles columns Allow and Admin are highlighted.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image14.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image13.jpg)
 
     *Figure 7: Add allow rule for administrator role*
 25. Close IIS Manager.
