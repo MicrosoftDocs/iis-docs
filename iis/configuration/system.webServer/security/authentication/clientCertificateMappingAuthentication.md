@@ -45,7 +45,7 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **Client Certificate Mapping Authentication**. Click **Next**.  
-    [![](clientCertificateMappingAuthentication/_static/image2.png)](clientCertificateMappingAuthentication/_static/image1.png) .
+    [![Image of Web Server and Security pane expanded with Client Certificate Mapping Authentication selected.](clientCertificateMappingAuthentication/_static/image2.png)](clientCertificateMappingAuthentication/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -55,7 +55,7 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **Client Certificate Mapping Authentication**.  
-    [![](clientCertificateMappingAuthentication/_static/image4.png)](clientCertificateMappingAuthentication/_static/image3.png)
+    [![Screenshot of World Wide Web Services pane expanded and Client Certificate Mapping Authentication selected.](clientCertificateMappingAuthentication/_static/image4.png)](clientCertificateMappingAuthentication/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -65,7 +65,7 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Client Certificate Mapping Authentication**, and then click **Next**.  
-    [![](clientCertificateMappingAuthentication/_static/image6.png)](clientCertificateMappingAuthentication/_static/image5.png)
+    [![Image of Select Role Services page with Security pane expanded and Client Certificate Mapping Authentication selected.](clientCertificateMappingAuthentication/_static/image6.png)](clientCertificateMappingAuthentication/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -74,7 +74,7 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **Client Certificate Mapping Authentication**, and then click **OK**.  
-    [![](clientCertificateMappingAuthentication/_static/image8.png)](clientCertificateMappingAuthentication/_static/image7.png)
+    [![Screenshot of Internet Information Services pane expanded and Client Certificated Mapping Authentication highlighted.](clientCertificateMappingAuthentication/_static/image8.png)](clientCertificateMappingAuthentication/_static/image7.png)
 
 <a id="004"></a>
 ## How To
@@ -99,9 +99,9 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **Authentication**.  
-    [![](clientCertificateMappingAuthentication/_static/image10.png)](clientCertificateMappingAuthentication/_static/image9.png)
+    [![Screenshot of servers Home pane displaying Authentication highlighted.](clientCertificateMappingAuthentication/_static/image10.png)](clientCertificateMappingAuthentication/_static/image9.png)
 4. On the **Authentication** page, click **Enable** in the **Actions** pane.  
-    [![](clientCertificateMappingAuthentication/_static/image12.png)](clientCertificateMappingAuthentication/_static/image11.png)
+    [![Image of Actions pane in Authentication page displaying Active Directory Client Certificate Authentication option highlighted.](clientCertificateMappingAuthentication/_static/image12.png)](clientCertificateMappingAuthentication/_static/image11.png)
 
 <a id="005"></a>
 ## Configuration
