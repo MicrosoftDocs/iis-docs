@@ -1,7 +1,7 @@
 ---
 title: "Adding IP Security &lt;add&gt;"
 author: rick-anderson
-description: "Overview The &lt;add&gt; element of the &lt;ipSecurity&gt; collection defines a unique IP security restriction. Each restriction can be based on the IP versi..."
+description: "Overview The &lt;add&gt; element of the &lt;ipSecurity&gt; collection defines a unique IP security restriction. Each restriction can be based on the IP version"
 ms.date: 09/26/2016
 ms.assetid: 3927dd7a-73a8-4348-a3d2-1a359f5d5fc1
 msc.legacyurl: /configreference/system.webserver/security/ipsecurity/add
@@ -37,7 +37,7 @@ The default installation of IIS does not include the role service or Windows fea
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **IP and Domain Restrictions**. Click **Next**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot that shows I P and Domain Restrictions selected for Windows Server 2012.](add/_static/image2.png)](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -47,7 +47,7 @@ The default installation of IIS does not include the role service or Windows fea
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **IP Security**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot that shows I P Security selected for Windows 8.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -58,7 +58,7 @@ The default installation of IIS does not include the role service or Windows fea
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **IP and Domain Restrictions**, and then click **Next**.  
   
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot that shows I P and Domain Restrictions selected for Windows Server 2008.](add/_static/image6.png)](add/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -69,7 +69,7 @@ The default installation of IIS does not include the role service or Windows fea
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Security**.
 4. Select **IP Security**, and then click **OK**.   
   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot that shows I P Security selected for Windows Vista or Windows 7.](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -94,11 +94,11 @@ The default installation of IIS does not include the role service or Windows fea
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then site, application or Web service for which you want to add IP restrictions.
 3. In the **Home** pane, double-click the **IP Address and Domain Restrictions** feature.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    [![Screenshot that shows the Home pane in I I S Manager.](add/_static/image10.png)](add/_static/image9.png)
 4. In the **IP Address and Domain Restrictions** feature, click **Add Deny Entry...** in the **Actions** pane.  
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    [![Screenshot that shows the I P Address and Domain Restrictions pane.](add/_static/image12.png)](add/_static/image11.png)
 5. Enter the IP address that you wish to deny, and then click **OK**.  
-    [![](add/_static/image14.png)](add/_static/image13.png)
+    [![Screenshot that shows the Add Deny Restriction Rule dialog box.](add/_static/image14.png)](add/_static/image13.png)
 
 * * *
 
@@ -122,11 +122,11 @@ The default installation of IIS does not include the role service or Windows fea
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then site, application or Web service for which you want to add IP restrictions.
 3. In the **Home** pane, double-click the **IP Address and Domain Restrictions** feature.  
-    [![](add/_static/image16.png)](add/_static/image15.png)
+    [![Screenshot that shows the Home pane in Internet Information Services Manager.](add/_static/image16.png)](add/_static/image15.png)
 4. In the **IP Address and Domain Restrictions** feature, click **Edit Feature Settings...** in the **Actions** pane.  
-    [![](add/_static/image18.png)](add/_static/image17.png)
+    [![Screenshot that shows the I P Address and Domain Restrictions window.](add/_static/image18.png)](add/_static/image17.png)
 5. Choose the default access behavior for unspecified clients, specify whether to enable restrictions by domain name, specify whether to enable **Proxy Mode**, select the **Deny Action Type**, and then click **OK**.  
-    [![](add/_static/image20.png)](add/_static/image19.png)
+    [![Screenshot that shows the Add Deny Restriction Rule dialog box. Forbidden is selected under Deny Action Type.](add/_static/image20.png)](add/_static/image19.png)
  
 <a id="005"></a>
 ## Configuration

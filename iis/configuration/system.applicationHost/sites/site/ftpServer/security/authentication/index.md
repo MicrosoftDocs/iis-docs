@@ -61,7 +61,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Image of Server Roles page in the Add Roles and Features Wizard with Web Server I I S pane expanded and F T P Extensibility selected.](index/_static/image2.png)](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -74,7 +74,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Image of Internet Information Services and F T P Server pane expanded and F T P Extensibility selected.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -88,7 +88,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of Select Role Services in Add Role Services Wizard with F T P Server pane expanded and F T P Service highlighted.](index/_static/image6.png)](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -102,7 +102,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot of Internet Information Services and F T P Server pane expanded and F T P Extensibility selected.](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -139,7 +139,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the site's **Home** pane, double-click the **FTP Authentication** feature.
 4. On the **FTP Authentication** page, select **Anonymous Authentication**.
 5. In the **Actions** pane, click **Enable** to enable Anonymous authentication or click **Disable** to disable Anonymous authentication.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Image of F T P Authentication page showing Anonymous Authentication option selected.](index/_static/image10.png)](index/_static/image9.png)
 
 * * *
 
@@ -171,7 +171,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Click the ellipsis (**...**) button, and then navigate to the folder that contains the content for your FTP site.
         - Type in the path to your content folder in the box. Note that if you choose to type the path, you can use environment variables in your paths. For example, you can use "%*SystemDrive*%\inetpub\ftproot" for your content directory.
     - When you have completed these items, click **Next**.  
-        [![](index/_static/image12.png)](index/_static/image11.png)
+        [![Image of Site Information in Add F T P Site Wizard displaying My New F T P Site typed in the F T P site name field.](index/_static/image12.png)](index/_static/image11.png)
 5. On the second page of the **Add FTP Site** wizard: 
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
@@ -184,14 +184,14 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Select **Require SSL** to allow FTP clients to always use FTP over SSL when they connect with the FTP server.
         - If you choose **Allow SSL** or **Require SSL**, choose a certificate from the **SSL Certificate** drop-down menu.
     - When you have completed these items, click **Next**.  
-        [![](index/_static/image14.png)](index/_static/image13.png)
+        [![Image of Binding and S S L Settings in Add F T P Site Wizard showing I P Address chosen from drop down list.](index/_static/image14.png)](index/_static/image13.png)
 6. On the next page of the wizard: 
 
     - Select **Anonymous** for the **Authentication** settings.
     - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down.
     - Select **Read** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        [![](index/_static/image16.png)](index/_static/image15.png)
+        [![Image of Authentication and Authorization settings in Add F T P Wizard with Anonymous option selected.](index/_static/image16.png)](index/_static/image15.png)
 
 * * *
 
@@ -216,7 +216,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click the **FTP Authentication** feature.
 4. On the **FTP Authentication** page, select **Basic Authentication**.  
-    [![](index/_static/image18.png)](index/_static/image17.png)
+    [![Image of F T P Authentication displaying Basic Authentication selected.](index/_static/image18.png)](index/_static/image17.png)
 5. In the **Actions** pane, click **Enable** to enable Basic authentication or click **Disable** to disable Basic authentication.
 
 * * *
@@ -249,7 +249,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Click the ellipsis (**...**) button, and then navigate to the folder that contains the content for your FTP site.
         - Type in the path to your content folder in the box. Note that if you choose to type the path, you can use environment variables in your paths. For example, you can use &quot;%*SystemDrive*%\inetpub\ftproot&quot; for your content directory.
     - When you have completed these items, click **Next**.  
-        [![](index/_static/image20.png)](index/_static/image19.png)
+        [![Screenshot of Site Information in Add F T P Site Wizard displaying My New F T P Site typed in the F T P site name box.](index/_static/image20.png)](index/_static/image19.png)
 5. On the second page of the **Add FTP Site** wizard:
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of &quot;All Unassigned.&quot;
@@ -262,14 +262,14 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Select **Require SSL** to allow FTP clients to always use FTP over SSL when they connect with the FTP server.
         - If you choose **Allow SSL** or **Require SSL**, choose a certificate from the **SSL Certificate** drop-down menu.
     - When you have completed these items, click **Next**.   
-        [![](index/_static/image22.png)](index/_static/image21.png)
+        [![Screenshot of Binding and S S L Settings page in Add F T P Site Wizard showing I P Address chosen from the drop down menu.](index/_static/image22.png)](index/_static/image21.png)
 6. On the next page of the wizard:
 
     - Select **Basic** for the **Authentication** settings.
     - For the **Authorization** settings, choose &quot;Specified users&quot; from the **Allow access to** drop-down, and enter an account name in the box below the drop-down menu.
     - Select **Read** and **Write** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        [![](index/_static/image24.png)](index/_static/image23.png)
+        [![Screenshot of Authentication and Authorization Settings in Add F T P Site Wizard showing Basic option selected for Authentication.](index/_static/image24.png)](index/_static/image23.png)
 
 <a id="005"></a>
 ## Configuration
