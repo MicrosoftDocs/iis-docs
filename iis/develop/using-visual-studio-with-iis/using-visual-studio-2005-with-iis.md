@@ -28,7 +28,7 @@ To use Visual Studio 2005 to work with Web sites and applications on your local 
 
 On Windows Vista, open the Control Panel, click Programs and Features, click the Turn Windows features on and off link, check the "Internet Information Services" check box, as well as the "Web Management Tools \ IIS 6 Management Compatibility \ IIS Metabase and IIS 6 configuration compatibility" and "World Wide Web Services \ Application Development Features \ ASP.NET" check boxes under it.
 
-[![](using-visual-studio-2005-with-iis/_static/image2.png)](using-visual-studio-2005-with-iis/_static/image1.png)
+![Screenshot of the Windows Features window. Three checkboxes are circled.](using-visual-studio-2005-with-iis/_static/image1.png)
 
 On Windows Server 2008, use the Server Manager tool to install the Web Server (IIS) role, and add the "Management Tools \ IIS 6 Management Compatibility \ IIS 6 Metabase Compatibility" and "Application Development \ ASP.NET" role services. For more information, see [Installing IIS on Windows Server 2008](../../install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md).
 
@@ -49,7 +49,7 @@ While both options allow you to create Web applications and publish them to an I
 - The Web application project option requires the source application files to be located on the local file system, or, on a network share. However, you can subsequently publish the Web application to a remote IIS Web site by using a network share, FTP, or Front Page Server Extensions.
 - The Web site project option allows you to connect directly to a local IIS Web site, or to a remote IIS Web site by using a network share, FTP, or Front Page Server Extensions. With the Web site project, you work directly with the content of your IIS Web site and there is no project file.
 
-You can find the detailed explanation of the two models and their differences in [Introduction to Web Application Projects](https://docs.microsoft.com/previous-versions/aa730880(v=vs.80)).
+You can find the detailed explanation of the two models and their differences in [Introduction to Web Application Projects](/previous-versions/aa730880(v=vs.80)).
 
 > [!NOTE]
 > Visual Studio 2005 provides the options to create a New project and Open an existing project. This does not necessarily mean that you must create a new IIS web application or open an existing application – you can use either of the options with an existing IIS web application.
@@ -67,7 +67,7 @@ You can find the detailed explanation of the two models and their differences in
 Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the "Build \ Publish" option to publish the contents of your Web application to an IIS Web site.  
 
-   [![](using-visual-studio-2005-with-iis/_static/image4.png)](using-visual-studio-2005-with-iis/_static/image3.png)
+   ![Screenshot of the Publish Web dialog with default settings.](using-visual-studio-2005-with-iis/_static/image3.png)
 
    > [!NOTE]
    > The Publish Web dialog by default publishes only the parts of your project that comprise your web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your web users may be a security risk.
@@ -98,7 +98,7 @@ Alternatively, use an existing IIS Web site.
 
    In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click on the project node, chose "Properties …", and click the "Web" tab. In the "Web" tab, select the "Use IIS Web server" radio button and type in the base URL of your Web application on the remote server.
 
-   [![](using-visual-studio-2005-with-iis/_static/image6.png)](using-visual-studio-2005-with-iis/_static/image5.png)
+   ![Screenshot showing the Web tab. In the Servers section, Use I I S Web Server is selected.](using-visual-studio-2005-with-iis/_static/image5.png)
 
    For more information on configuring remote debugging, see "Debugging IIS Web Applications" later in this article.
 
@@ -126,11 +126,11 @@ Alternatively, use an existing IIS Web site.
    > [!NOTE]
    > Be sure to back up your configuration first before making changes.
 
-   [![](using-visual-studio-2005-with-iis/_static/image8.png)](using-visual-studio-2005-with-iis/_static/image7.png)
+   ![Screenshot of the Open Web Site window. Local I I S is selected and Local Web Servers displays in the main pane.](using-visual-studio-2005-with-iis/_static/image7.png)
 
    If you do not have IIS or any of the prerequisites installed, Visual Studio 2005 displays a message when you attempt to connect to the Local IIS server telling you to install the required components. To do this, see the "Prerequisites" section earlier in this article.
 
-   [![](using-visual-studio-2005-with-iis/_static/image10.png)](using-visual-studio-2005-with-iis/_static/image9.png)
+   ![Screenshot of the Open Web Site, information about the Local Internet Information Server displays in the main pane.](using-visual-studio-2005-with-iis/_static/image9.png)
 
    > [!NOTE]
    > Visual Studio provides several different options for working with existing Web sites, in addition to connecting to an existing IIS Web site. These options include:
@@ -147,7 +147,7 @@ Alternatively, use an existing IIS Web site.
 
    To do this, right-click on the Web site project node, chose "Start Options ...". In the dialog, select "Use custom server" radio button and type in the base URL of your Web application on the remote server.
 
-   [![](using-visual-studio-2005-with-iis/_static/image12.png)](using-visual-studio-2005-with-iis/_static/image11.png)
+   ![Screenshot of the Property Pages window. Start Options is selected in the menu pane.](using-visual-studio-2005-with-iis/_static/image11.png)
 
 ## Using Visual Studio 2005 with a Remote IIS Server
 
@@ -166,7 +166,7 @@ You can use the FTP Site option if you have used FTP to share the IIS virtual di
 
 To use this option, provide the address of the FTP server, the port, the directory to which you are connecting, and logon credentials if not using anonymous access.
 
-[![](using-visual-studio-2005-with-iis/_static/image14.png)](using-visual-studio-2005-with-iis/_static/image13.png)
+![Screenshot of the Choose Location window. Default F T P Site options display in the main pane.](using-visual-studio-2005-with-iis/_static/image13.png)
 
 For more information on using the FTP server included in Windows Vista and Windows Server 2008, see [FTP Site Setup (IIS 6.0)](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/31c2427c-c0a5-49fa-9e03-823f34fba3e8.mspx?mfr=true). To use the new FTP 7.0, which is available as a download from IIS.NET, see [Adding FTP to a Web Site](../../publish/using-the-ftp-service/adding-ftp-publishing-to-a-web-site-in-iis-7.md).
 
@@ -193,11 +193,11 @@ To quickly enable a remote Web site to be used with the "Remote Site" option in 
 
 5. Connect to the site Using the "Remote Site" option in the Open Web Site dialog or the New Site dialog. This allows you to connect to an existing Front Page Server Extensions – enabled web site, or create new Web applications and virtual directories.  
 
-   [![](using-visual-studio-2005-with-iis/_static/image16.png)](using-visual-studio-2005-with-iis/_static/image15.png)
+   ![Screenshot of the Open Web Site window. Remote Site options display in the main pane.](using-visual-studio-2005-with-iis/_static/image15.png)
 
    If you receive the following error dialog during connection, double-check that you have installed FPSE on the remote server, and have enabled FPSE management for the Web site you are attempting to connect to.
 
-   [![](using-visual-studio-2005-with-iis/_static/image18.png)](using-visual-studio-2005-with-iis/_static/image17.png)
+   ![Screenshot of the Microsoft Visual Studio error dialog showing that the FrontPage Server Extensions are not installed.](using-visual-studio-2005-with-iis/_static/image17.png)
 
    If you are using Windows authentication for your FPSE-enabled Web site, Visual Studio attempts to authenticate using the account under which it was started. If this authentication fails, it prompts you to provide credentials for authentication with the remote server.
 
@@ -208,7 +208,7 @@ To quickly enable a remote Web site to be used with the "Remote Site" option in 
 
    If you have not enabled a suitable authentication method (Windows Authentication, Basic Authentication, or Digest Authentication), you receive the following error dialog when connecting. Turn on one of the above authentication methods to fix this problem.
 
-   [![](using-visual-studio-2005-with-iis/_static/image20.png)](using-visual-studio-2005-with-iis/_static/image19.png)
+   ![Screenshot of the Microsoft Visual Studio error dialog showing that authentication methods are not enabled.](using-visual-studio-2005-with-iis/_static/image19.png)
 
    > [!NOTE]
    > The "New Web Site …" button in the "Remote Site" dialog cannot be used to create a new IIS Web site. Instead, it is used to create a new Web application with the specified path for an existing Front Page Server Extensions – enabled IIS Web site.
@@ -255,15 +255,15 @@ In addition, you must open the remote IIS Web site or application project using 
 
 In order to successfully debug a remote application, you must also meet the following requirements:
 
-1. Install the Remote Debugging components on the server machine. For more information, see [Remote Debugging](https://docs.microsoft.com/visualstudio/debugger/remote-debugging).
+1. Install the Remote Debugging components on the server machine. For more information, see [Remote Debugging](/visualstudio/debugger/remote-debugging).
 2. Run the Remote Debugging monitor (msvsmon.exe) on the server machine. See notes further about how to do this properly.
 3. Open the required firewall ports for remote debugging.  
-   When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
+   When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
   
    > [!NOTE]
-   > msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
+   > msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
 
-   [![](using-visual-studio-2005-with-iis/_static/image2.jpg)](using-visual-studio-2005-with-iis/_static/image1.jpg)
+   ![Screenshot of the Visual Studio Remote Debugging Monitor error dialog.](using-visual-studio-2005-with-iis/_static/image1.jpg)
 
 4. If you are using a Web application project and publishing to a remote IIS server, or if you have opened the remote Web site project using the "File System" or "FTP Site" options, you must configure Visual Studio project start options to enable debugging.  
    To do this for a Web site project, right-click on the Web site project node, chose "Start Options …". In the dialog, select "Use custom server" radio button and type in the base URL of your Web application on the remote server.  
