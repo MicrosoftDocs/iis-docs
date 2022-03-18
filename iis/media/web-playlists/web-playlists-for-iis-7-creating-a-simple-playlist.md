@@ -42,12 +42,13 @@ The first step is to create a list of media entries and optionally apply propert
 
 #### Create an Empty Playlist
 
-1. In IIS Manager, go the Web site that you want to create a playlist for and open the **Playlists** feature in the **Media Services** category.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image2.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image1.jpg)
-2. In the **Actions** pane, click **Add Playlist**.
+1. In IIS Manager, go the Web site that you want to create a playlist for and open the **Playlists** feature in the **Media Services** category.
+    ![Screenshot of the I I S Manager window showing the Default Web Site feature icons.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image1.jpg)
+1. In the **Actions** pane, click **Add Playlist**.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image2.bmp)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image1.bmp)
+    ![Screenshot of the I I S Manager window showing Playlists in the main pane. Add Play list is highlighted in the Actions pane.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image1.bmp)
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image4.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image3.jpg)
+    ![Screenshot of the I I S Manager window showing the Edit Playlist settings in the main pane.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image3.jpg)
 
 ##### Set Playlist Properties
 
@@ -86,15 +87,16 @@ The following properties are available to be set:
    - **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
    - **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
 
-     [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image6.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
+     ![Screenshot of I I S Manager showing the Add Media Entry dialog. Title shows The Ad.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
 
-     [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image8.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
+     ![Screenshot of I I S Manager showing the Add Media Entry dialog. Title shows The Video.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
 
 #### Ensure that the Order of Entries in the Playlist is Correct
 
 The presentation order of media entries in a playlist is very important, as the playlist is played in that order. The order goes from top to bottom. This means that content on top will be played before content below. Therefore, it is important to ensure that you have the correct order in the playlist. For example, if you want users of your content to be able to get to the content only after playing an advertisement, you must ensure that the advertisement is placed above the content in the playlist. (You may additionally want to disable skip forward if you want to enforce viewing the advertisements.)
 
-After media entries are added, you can re-order them in the playlist by selecting an entry and using the **Move Up** and **Move Down** buttons to reposition media entries in the playlist.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image10.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image9.jpg)
+After media entries are added, you can re-order them in the playlist by selecting an entry and using the **Move Up** and **Move Down** buttons to reposition media entries in the playlist.
+![Screenshot of the I I S Manager showing Edit Playlist in the main pane. Two entries are listed.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image9.jpg)
 
 <a id="nesting"></a>
 
@@ -134,7 +136,7 @@ The **Seek** control in players is ignored when a media entry is a nested playli
 
 Web Playlists can use media entries that begin with the httpd:// URL prefix to request that an external application, such as an ASP page, ASP.NET, or PHP application computes the correct content path/URL to serve. Server variables can be included in the URL while requesting these applications using the {var\_name} syntax (for example, httpd://{SERVER\_NAME}:{SERVER\_PORT}/pre.aspx). Remote applications can use this information to determine the correct content to serve. The call flow is best captured by the following figure:
 
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image12.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image11.jpg)
+![Diagram showing the flow of content from request to delivery.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image11.jpg)
 
 In the Web Playlists feature in IIS Manager, you can use any location type with an httpd:// media entry. Set the **Location type** to match the content location returned by the remote application that served the request. For example, if the remote application returns a physical path such as `C:\media\file.asf`, then **Location type** should be set to **Physical path**.
 
@@ -212,23 +214,23 @@ The following procedure add credentials for a specific path:
 
 1. In the **Actions** pane, click **Edit Impersonation Settings**.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image4.bmp)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image3.bmp)
+    ![Screenshot of the I I S Manager window showing Play lists in the main pane. Edit Impersonation Settings is highlighted in the Actions pane.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image3.bmp)
 2. Click **Add**.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image14.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image13.jpg)
+    ![Screenshot of the I I S Manager window showing the Impression Page in the main pane. Add is highlighted in the Actions pane.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image13.jpg)
 3. In the **Add Impersonation Setting** dialog box, enter the path that you want to provide credentials for and chose a Logon method. This path can be a UNC path or a simple local path. The Logon methods are identical to those used for Virtual Directories. See [More Information](web-playlists-for-iis-7-creating-a-simple-playlist.md#info) later in this article for more details.
 4. Click **Set**.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image16.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image15.jpg)
+    ![Screenshot of the I I S Manager window showing the Add Impersonation dialog. Correct as is highlighted.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image15.jpg)
 5. In the **Set Credentials** dialog box, provide the user name and password for the path given earlier.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image18.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image17.jpg)
+    ![Screenshot of the I I S Manager window showing the Set Credentials dialog.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image17.jpg)
 6. The path impersonation setting is now set.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image20.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image19.jpg)
+    ![Screenshot of the I I S Manager window showing the Impersonation page with one entry listed.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image19.jpg)
 7. The Playlist handler uses the path to determine the correct credentials to use. See the following figure.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image22.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image21.jpg)
+    ![Screenshot of the I I S Manager window showing the Add Media Entry dialog. The example path displays as the content location.](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image21.jpg)
 
 <a id="client"></a>
 
