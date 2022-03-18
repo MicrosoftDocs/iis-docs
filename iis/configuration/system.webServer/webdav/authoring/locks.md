@@ -115,7 +115,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     - Set **Allow Locks** to **True**.
     - For **Lock Store**, choose **webdav\_simple\_lock** from the drop-down list.
     - Set **Require Lock for Writing** to your desired setting.  
-        ![Image of Web DAV Settings page displaying Web dAV dash simple dash lock chosen from the drop down list.](locks/_static/image11.png)
+        ![Image of Web DAV Settings page displaying Web DAV dash simple dash lock chosen from the drop down list.](locks/_static/image11.png)
 6. Once you have completed the steps, click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
