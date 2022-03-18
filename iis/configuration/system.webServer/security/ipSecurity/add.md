@@ -1,7 +1,7 @@
 ---
 title: "Adding IP Security &lt;add&gt;"
 author: rick-anderson
-description: "Overview The &lt;add&gt; element of the &lt;ipSecurity&gt; collection defines a unique IP security restriction. Each restriction can be based on the IP versi..."
+description: "Overview The &lt;add&gt; element of the &lt;ipSecurity&gt; collection defines a unique IP security restriction. Each restriction can be based on the IP version"
 ms.date: 09/26/2016
 ms.assetid: 3927dd7a-73a8-4348-a3d2-1a359f5d5fc1
 msc.legacyurl: /configreference/system.webserver/security/ipsecurity/add
