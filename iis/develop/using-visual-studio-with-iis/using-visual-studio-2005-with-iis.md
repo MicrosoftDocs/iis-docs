@@ -49,7 +49,7 @@ While both options allow you to create Web applications and publish them to an I
 - The Web application project option requires the source application files to be located on the local file system, or, on a network share. However, you can subsequently publish the Web application to a remote IIS Web site by using a network share, FTP, or Front Page Server Extensions.
 - The Web site project option allows you to connect directly to a local IIS Web site, or to a remote IIS Web site by using a network share, FTP, or Front Page Server Extensions. With the Web site project, you work directly with the content of your IIS Web site and there is no project file.
 
-You can find the detailed explanation of the two models and their differences in [Introduction to Web Application Projects](https://docs.microsoft.com/previous-versions/aa730880(v=vs.80)).
+You can find the detailed explanation of the two models and their differences in [Introduction to Web Application Projects](/previous-versions/aa730880(v=vs.80)).
 
 > [!NOTE]
 > Visual Studio 2005 provides the options to create a New project and Open an existing project. This does not necessarily mean that you must create a new IIS web application or open an existing application – you can use either of the options with an existing IIS web application.
@@ -255,13 +255,13 @@ In addition, you must open the remote IIS Web site or application project using 
 
 In order to successfully debug a remote application, you must also meet the following requirements:
 
-1. Install the Remote Debugging components on the server machine. For more information, see [Remote Debugging](https://docs.microsoft.com/visualstudio/debugger/remote-debugging).
+1. Install the Remote Debugging components on the server machine. For more information, see [Remote Debugging](/visualstudio/debugger/remote-debugging).
 2. Run the Remote Debugging monitor (msvsmon.exe) on the server machine. See notes further about how to do this properly.
 3. Open the required firewall ports for remote debugging.  
-   When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
+   When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
   
    > [!NOTE]
-   > msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
+   > msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](/previous-versions/visualstudio/visual-studio-2010/bb385831(v=vs.100)).
 
    ![Screenshot of the Visual Studio Remote Debugging Monitor error dialog.](using-visual-studio-2005-with-iis/_static/image1.jpg)
 
