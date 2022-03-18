@@ -100,7 +100,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to enable compression.
 3. In the **Home** pane, double-click **Compression**.  
-    ![Screenshot of the Information Information Services Manager with Compression selected in the Home pane.](urlCompression/_static/image9.png)
+    ![Screenshot of the Internet Information Services Manager with Compression selected in the Home pane.](urlCompression/_static/image9.png)
 4. In the **Compression** pane, check the boxes to enable static or dynamic compression, or remove the check marks to disable static or dynamic compression.  
     ![Screenshot of the Compression pane with dynamic content compression and static content compression enabled.](urlCompression/_static/image11.png)
 5. Once you have completed the above steps, click **Apply** in the **Actions** pane.
@@ -125,7 +125,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, highlight the name of your server.
 3. In the server's **Home** pane, double-click **Compression**.  
-    ![Screenshot of the Information Information Services Manager with Compression selected in the server's Home pane.](urlCompression/_static/image13.png)
+    ![Screenshot of the Internet Information Services Manager with Compression selected in the server's Home pane.](urlCompression/_static/image13.png)
 4. In the **Compression** pane, check the boxes to enable static or dynamic compression, or remove the check marks to disable static or dynamic compression.  
     ![Screenshot of the server's Compression pane with dynamic content compression and static content compression enabled.](urlCompression/_static/image15.png)
 5. Once you have completed the above steps, click **Apply** in the **Actions** pane.
