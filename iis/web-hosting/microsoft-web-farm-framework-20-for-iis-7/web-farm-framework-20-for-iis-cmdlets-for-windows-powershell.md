@@ -30,7 +30,7 @@ You can use the Web Farm Framework cmdlets for Windows PowerShell to configure a
 
 The list is displayed as in the following image:
 
-![](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image1.png)
+![Screenshot shows Windows Power Shell with the following command entered, Get Command Web Farm Snap in.](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image1.png)
 
 ## Viewing cmdlet Syntax and Help
 
@@ -38,7 +38,7 @@ To get help for each cmdlet, enter **get-Help &lt;cmdletName&gt; -full**. For ex
 
 [!code-powershell[Main](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/samples/sample4.ps1)]
 
-![](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image3.png)
+![Screenshot shows Windows Power Shell with the following command entered, Get Help Get Active Operation full.](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image3.png)
 
 ## Managing Servers Using the cmdlets
 
@@ -73,13 +73,13 @@ To create a server farm, at the PowerShell prompt, enter the following cmdlet:
 
 Provide the name of the new web farm and your credentials as prompted.
 
-![](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image5.png)
+![Screenshot that shows the Windows Power Shell Credential Request dialog box. New Web Farm is entered on the command line in Power Shell.](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image5.png)
 
 To verify the server farm was created, use the **Get-WebFarm** cmdlet, as follows:
 
 [!code-powershell[Main](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/samples/sample6.ps1)]
 
-![](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image7.png)
+![Screenshot that shows Windows Power Shell. Get Web Farm is entered on the command line.](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image7.png)
 
 ## Adding a Server to a Server Farm Using the cmdlets
 
@@ -95,7 +95,7 @@ To verify that the server was added, use the **Get-Server** Nmdlet as follows:
 
 The servers in the farm are displayed.
 
-![](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image9.png)
+![Screenshot that shows Windows Power Shell. Get Server is entered on the command line.](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image9.png)
 
 ## Adding Credentials to Windows Credential Store
 
@@ -107,7 +107,7 @@ To add a new target to an existing server farm, at the PowerShell prompt, enter 
 
 Provide the target and your credentials as prompted.
 
-![](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image11.png)
+![Screenshot that shows the Windows Power Shell Credential Request dialog box. New Credential Store Target is entered on the command line in Power Shell.](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image11.png)
 
 ## Removing Credentials from Windows Credential Store
 
@@ -117,4 +117,4 @@ Remove-CredentialStoreTarget
 
 Provide the target to be removed as prompted.
 
-![](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image13.png)
+![Screenshot that shows Windows Power Shell. Remove Credential Store Target is entered on the command line.](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/_static/image13.png)

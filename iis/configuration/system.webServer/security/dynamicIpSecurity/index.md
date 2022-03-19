@@ -39,7 +39,7 @@ If you enable the proxy mode, a request can be blocked by identifying the origin
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **IP and Domain Restrictions**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot that shows the I P and Domain Restrictions selected for Windows Server 2012.](index/_static/image2.png)](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -49,7 +49,7 @@ If you enable the proxy mode, a request can be blocked by identifying the origin
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **IP Security**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot that shows the I P Security selected for Windows 8.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -72,7 +72,7 @@ If you enable the proxy mode, a request can be blocked by identifying the origin
 4. In the **Actions** pane, click **Edit Dynamic Restriction Settings...**.
 5. In the **Dynamic IP Restriction Settings** dialog box, specify whether to deny an IP address based on the number of concurrent samples and/or the request rate, specify whether to enable logging-only mode, and then click **OK**.  
   
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot that shows the Dynamic I P Restrictions Settings dialog box. All variables are selected.](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration
