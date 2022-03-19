@@ -30,7 +30,7 @@ An application pool in IIS is experiencing a prolonged period of high CPU that e
 
 The first thing you should do when you encounter high CPU is to determine the process that is consuming CPU. You can use Processes tab in Task Manager to do this. Make sure that you check the **Show processes from all users** checkbox. Figure 1 shows this box checked and shows the w3wp.exe process (the process that hosts an IIS application pool) consuming a high level of CPU.
 
-![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image1.png)
+![Screenshot shows Windows Task Manager. Under the C P U column, 85 is highlighted on the w 3 w p executable row. Show processes from all users is selected.](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image1.png)
 
 Figure 1 - Task Manager showing high CPU.
 
@@ -85,7 +85,7 @@ Perfmon data can be viewed in real-time or it can be collected in a data collect
 
 Your dialog should now look like the one shown in Figure 2.
 
-![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image3.png)
+![Screenshot that shows the Data Collection 0 1 Properties dialog box. I D Thread is selected on the Performance Counters tab.](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image3.png)
 
 Figure 2 - Creating a data collector set.
 
@@ -126,7 +126,7 @@ Install DebugDiag 1.2 on your server and run it. (You'll find it on the Start me
 > [!TIP]
 > You can create dumps of multiple application pools by adding multiple dump targets using the same technique used in steps 13-15.
 
-![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image5.png)
+![Screenshot that shows the Select Performance Counters dialog box.](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image5.png)
 
 Figure 3 - Adding perf triggers in DebugDiag.
 
@@ -142,7 +142,7 @@ After the high CPU event, you will have two sets of data to review; the Perfmon 
 
 To review the Perfmon data for your issue, right-click on the High CPU data collector set listed under the User Defined node and select Latest Report. You'll see something similar to the screen shown in Figure 4.
 
-![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image7.png)
+![Screenshot that shows the Performance Monitor window.](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image7.png)
 
 Figure 4 - Perfmon displaying the High CPU data.
 
@@ -163,7 +163,7 @@ To do that, select the first counter in the list and then press Ctrl+H. After yo
 
 Use the down arrow on your keyboard to move down through the list of processes until you find the process that shows the most CPU usage. In Figure 5, you can clearly see that the w3wp.exe process was using a large amount of CPU on the machine. This confirms that the IIS application pool is causing high CPU utilization on the computer.
 
-![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image9.png)
+![Screenshot that shows the Performance Monitor window. Perfmon shows the C P U usage of the w 3 w p executable.](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image9.png)
 
 Figure 5 - Perfmon showing CPU usage of w3wp.exe.
 
@@ -186,13 +186,13 @@ DebugDiag has the ability to recognize many problems by doing an automated dump 
 
 DebugDiag will take a few minutes to parse through the dumps and provide an analysis. When it has completed the analysis, you will see a page similar to that shown in Figure 6.
 
-![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image11.png)
+![Screenshot that shows Internet Explorer. The Debug Diag analysis report page is displayed.](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image11.png)
 
 Figure 6 - A DebugDiag analysis report.
 
 Notice that the top of the report tells you that high CPU was detected. In the right column, you'll see recommendations which include a link to the top 7 threads by average CPU time. Click that link and you'll see information about what those top CPU consumers were doing. Figure 7 shows what those threads are doing in my application.
 
-![](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image13.png)
+![Screenshot that shows the Functions Stats page in a browser.](troubleshooting-high-cpu-in-an-iis-7x-application-pool/_static/image13.png)
 
 Figure 7 - Details on high CPU threads.
 
