@@ -32,7 +32,7 @@ In these cases, you can add a separate virtual directory to host the PHP content
 4. On the **Security** tab, click **Edit**.
 5. Click **Add**, and then type **IIS\_IUSRS** in the **Enter the object names to select** box.
 6. Click **OK**.  
-    [![Screenshot of the Permissions for p h p app dialog box. The Security tab is shown.Under Group or user names, I I S underscore I U S R S is highlighted.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image2.gif)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image1.gif)  
+    [![Screenshot of the Permissions for p h p app dialog box. The Security tab is shown. Under Group or user names, I I S underscore I U S R S is highlighted.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image2.gif)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image1.gif)  
     *Figure 1: Permissions for phpapp folder*
 7. Click **OK** to accept the default permissions (read and execute)
 8. Click **OK** to close the phpapp Permissions window.

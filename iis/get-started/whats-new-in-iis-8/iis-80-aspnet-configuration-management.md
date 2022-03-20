@@ -110,7 +110,7 @@ Below is a screenshot of Pages and Controls for ASP.NET 3.5. The administration 
 
 And below is the corresponding configuration for ASP.NET 4.5. The options available in the "Behavior" portion have expanded to include new settings for ASP.NET 4.5:
 
-[![Screenshot of the Pages and Controls page.The Client I D Mode and Control Rendering Compatibility Version Behaviors are highlighted.](iis-80-aspnet-configuration-management/_static/image31.png)](iis-80-aspnet-configuration-management/_static/image29.png)
+[![Screenshot of the Pages and Controls page. The Client I D Mode and Control Rendering Compatibility Version Behaviors are highlighted.](iis-80-aspnet-configuration-management/_static/image31.png)](iis-80-aspnet-configuration-management/_static/image29.png)
 
 As ASP.NET progresses through different versions, there are continual modifications to the HTML, Javascript and CSS emitted by various features and controls. However existing applications may expect specific formats for rendered output. ASP.NET 4.5 can be configured to support older rendering formats using the new settings exposed in the "Pages and Controls" administration module:
 

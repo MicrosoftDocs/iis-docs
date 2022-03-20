@@ -143,7 +143,7 @@ D. Export the Package from the IIS Application Web Site
      > You must scroll down to view all required fields.
 9. Click **Continue**.   
   
-    [![Screenshot of the Web Platform Installation dialog. The text Congratulations! You have successfully installed the following products is written in the text box. Below it is a button to Launch Word Press.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image14.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image13.jpg)
+    [![Screenshot of the Web Platform Installation dialog. The text Congratulations You have successfully installed the following products is written in the text box. Below it is a button to Launch Word Press.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image14.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image13.jpg)
 10. Once the Web PI process is complete, you can do one of the following:  
 
     - Click **Finish** to complete the installation process. If you click Finish to complete the installation process, proceed to step C. Enable Permalinks (Optional) to continue creating an application package for deployment.
@@ -185,7 +185,7 @@ To enable permalinks (search engine friendly URLs) in WordPress, complete these 
 4. Click **Manage Components**. The Manage Components dialog box appears.  
     [![Screenshot of the Manage Components dialog box. Boxes for Provider Name, Path, and Provider Settings are highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image24.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image23.jpg)
 5. Double-click the second row of the Provider Name column.  
-    [![Screenshot of the Manage Components dialog box. The Provider Name column is expanded and a drop-down list appears. The My S Q L database is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image26.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image25.jpg)
+    [![Screenshot of the Manage Components dialog box. The Provider Name column is expanded and a drop down list appears. The My S Q L database is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image26.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image25.jpg)
 6. Select **dbMySql** from the drop-down list.  
     [![Screenshot of the Manage Components dialog box. In the Provider Name column d b My S Q L is highlighted.](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image28.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image27.jpg)
 7. Double-click the second row of the Path column, and enter the connection string for your package export.  

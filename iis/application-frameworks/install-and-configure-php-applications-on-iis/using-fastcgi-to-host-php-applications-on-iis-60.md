@@ -94,7 +94,7 @@ To manually configure the IIS and FastCGI extension, you must create script mapp
 
 10. Ensure that the **Script engine** and **Verify that file exists** check boxes are selected.
 
-    [![Screenshot of the Add or Edit Application Extension Mapping dialog box. In the Executable box, the C colon backslash W I N N T backslash system thirty two backslash i net s r v backslash f c g i e x t dot d l l.](using-fastcgi-to-host-php-applications-on-iis-60/_static/image2.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image1.png)
+    [![Screenshot of the Add or Edit Application Extension Mapping dialog box. In the Executable box, C colon backslash W I N N T backslash system thirty two backslash i net s r v backslash f c g i e x t dot d l l is written.](using-fastcgi-to-host-php-applications-on-iis-60/_static/image2.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image1.png)
 
 11. Click **OK**.
 
@@ -121,7 +121,7 @@ Most PHP applications use a file named index.php as the default application docu
 6. In the **Add Content Page** dialog box, in the **Default content page** text box, enter **index.php**.
 7. Click **OK**.
 
-    [![Screenshot of teh Web Sites Properties dialog box. Enable default content page is selected. The Add Content Page dialog box is shown. Index dot p h p is written in the Default content page box.](using-fastcgi-to-host-php-applications-on-iis-60/_static/image4.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image3.png) 
+    [![Screenshot of the Web Sites Properties dialog box. Enable default content page is selected. The Add Content Page dialog box is shown. Index dot p h p is written in the Default content page box.](using-fastcgi-to-host-php-applications-on-iis-60/_static/image4.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image3.png) 
 
 ## Set the FastCGI Configuration for Optimal Functionality, Security, and Performance with PHP
 
@@ -158,7 +158,7 @@ To test the PHP application, create and request a **phpinfo.php** page in your s
 
 You should see something like the following:
 
-[![Screenshot of teh P H P Version five dot two dot four web page. In the SErver A P I field, Fast C G I is written.](using-fastcgi-to-host-php-applications-on-iis-60/_static/image6.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image5.png)
+[![Screenshot of the P H P Version five dot two dot four web page. In the Server A P I field, Fast C G I is written.](using-fastcgi-to-host-php-applications-on-iis-60/_static/image6.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image5.png)
 
 Note that the **Server API** field indicates that PHP is hosted in **FastCGI** mode.
 

@@ -46,7 +46,7 @@ IIS access control features help create flexible and manageable access control s
 5. Right-click **Anonymous Authentication**, and then click **Disable**.
 6. Right-click **Basic Authentication**, and then click **Enable**.  
 
-    [![Screenshot of teh I I S Manager Authentication page. In the server node, Sites is expanded. In the Authentication pane under Name, Basic Authentication is selected.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image2.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image1.jpg)
+    [![Screenshot of the I I S Manager Authentication page. In the server node, Sites is expanded. In the Authentication pane under Name, Basic Authentication is selected.](enable-php-applications-to-make-application-level-access-control-decisions/_static/image2.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image1.jpg)
 
     *Figure 1: Authentication page*
 7. In the tree view on the left, click the same Web site that you clicked in Step 3.

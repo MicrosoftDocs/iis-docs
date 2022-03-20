@@ -46,7 +46,7 @@ LimeSurvey requires two libraries named mbstring and php\_pdo\_mysql. To enable 
 
 Go to "[http://localhost/limesurvey/admin](http://localhost/limesurvey/admin/install/index.php)". Now the LimeSurvey installation script starts.
 
-![](limesurvey-on-iis/_static/image1.png)
+![Screenshot of the Lime Survey installation script. The Progress and Welcome text are shown.](limesurvey-on-iis/_static/image1.png)
 
 Follow the administration step &ndash; when you come to the database configuration screen please enter the credentials you configure for your database.
 

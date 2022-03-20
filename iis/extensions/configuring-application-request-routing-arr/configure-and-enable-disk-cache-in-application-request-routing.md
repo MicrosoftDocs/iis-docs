@@ -113,7 +113,7 @@ Make a few requests that will get cached in ARR.
 1. Open a command prompt with elevated user rights.
 2. Enter **netsh http show cache**.
 
-    ![Screenshot of the Administrator Command Prompt. Netsh h t t p show cache is written.](configure-and-enable-disk-cache-in-application-request-routing/_static/image21.jpg)
+    ![Screenshot of the Administrator Command Prompt. Net s h h t t p show cache is written.](configure-and-enable-disk-cache-in-application-request-routing/_static/image21.jpg)
 3. By default, memory cache duration is 5 seconds.
 
 ## Step 5 - Verify the cache functionality using IIS Manager

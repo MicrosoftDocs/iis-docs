@@ -66,7 +66,7 @@ To test that pMachine has been installed successfully, create a blog postings an
 
     [![Screenshot of Machine Control Panel page. A box for the title and content for a post is shown.](pmachinepro-on-iis/_static/image6.jpg)](pmachinepro-on-iis/_static/image5.jpg)
 
-    [![Screenshot of teh Machine Control Panel page. The text Test Blog Entry is shown. The submit and continue editing buttons are found below the text.](pmachinepro-on-iis/_static/image8.jpg)](pmachinepro-on-iis/_static/image7.jpg)
+    [![Screenshot of the Machine Control Panel page. The text Test Blog Entry is shown. The submit and continue editing buttons are found below the text.](pmachinepro-on-iis/_static/image8.jpg)](pmachinepro-on-iis/_static/image7.jpg)
 4. Click Submit to publish this content to the Blog selected (Blog A in the case above).
 5. Navigate to [http://localhost/pmachine/weblog.php](http://localhost/pmachine/weblog.php) to browse to the actual blog site. See the actual blog as seen by site visitors.  
 

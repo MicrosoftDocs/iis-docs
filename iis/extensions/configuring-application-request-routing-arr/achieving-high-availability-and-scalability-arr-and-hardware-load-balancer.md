@@ -115,7 +115,7 @@ In this scenario, you will create a virtual server that load balances to a pool 
 - For the Virtual Server Type section, you have several options. Since you depend on ARR to route, you can select Performance HTTP, which is designed for the best performance.
 - For the Default Pool, select the pool that you created in Step 1.
 
-[![Screenshot of teh F five Big I P page. In the Name box A R R underscore V S is written.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image10.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image9.jpg)
+[![Screenshot of the F five Big I P page. In the Name box A R R underscore V S is written.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image10.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image9.jpg)
 
 - At this point, you should be able to connect to this Virtual Server, which will be sent to the appropriate ARR server.
 
@@ -256,7 +256,7 @@ In this scenario, all available ARR servers are considered active and candidates
 - In the Local Traffic section, click Pools. Then click the Create button to create a pool.
 - Any unique name will work for the pool; the example uses ARR\_Pool. - For the Health Monitor, you can use a custom HTTP monitor or the default HTTP monitor. - Since you have multiple ARR servers to which to distribute traffic, you will want to select a load balancing method that best suits your needs. Assuming all of the ARR servers have similar hardware characteristics, a dynamic load balancing method, such as fastest, observed, or predictive, will give you performance-based distribution.
 
-[![Screenshot of the F five web page. In the Local Traffic box, Pools is selected. IN the Load Balancing Method box, Fastest application is selected.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image24.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image23.jpg)
+[![Screenshot of the F five web page. In the Local Traffic box, Pools is selected. In the Load Balancing Method box, Fastest application is selected.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image24.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image23.jpg)
 
 **Step 2: Configure the virtual server.**  
 

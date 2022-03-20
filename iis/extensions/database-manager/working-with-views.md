@@ -41,7 +41,7 @@ Based on our earlier example, we will build a view that gathers and displays dat
     [![Screenshot of the query editor toolbar. The execute button is selected. In the Username column, John Doe is highlighted.](working-with-views/_static/image11.png)](working-with-views/_static/image9.png)
 6. On the query editor's toolbar, click on 'Save and Close'.
 7. In the 'View Name', type 'UsersResources'. You can also specify a schema or leave the 'Schema Name' field empty to use the default schema for your database user.   
-    [![Screenshot of the Save View dialog box. in the View Name box, Users Resources is written. Use default schema is selected.](working-with-views/_static/image15.png)](working-with-views/_static/image13.png)
+    [![Screenshot of the Save View dialog box. In the View Name box, Users Resources is written. Use default schema is selected.](working-with-views/_static/image15.png)](working-with-views/_static/image13.png)
 8. Click on 'OK'. The query editor will be closed and the view will be saved. You can verify that your view has been added by looking through the list of views under the 'Views' node.   
     [![Screenshot of the Database Connections node. The Views node is expanded and d b o dot Users Resources is highlighted.](working-with-views/_static/image19.png)](working-with-views/_static/image17.png)
 
