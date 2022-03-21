@@ -34,7 +34,7 @@ The Recommended Server Configuration for Web Hosting Providers can be installed 
 1. Download the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
 2. Open Web PI.
 3. In Web PI, click in the search bar in the upper-right hand corner, enter &quot;Recommended&quot; in **Search**, and press **Enter**.
-4. Select **Recommended Server Configuration for Web Hosting Providers**, and then click **Add**.[![Screenshot of Web Platform Installer four point six. The Recommended Server Configuration for Web Hosting Providers option is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image2.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image1.jpg)
+4. Select **Recommended Server Configuration for Web Hosting Providers**, and then click **Add**.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image2.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image1.jpg)
 5. Click **Install**.
 6. On the **Prerequisites** page, click **I accept**.
 7. After the installation has completed, click **Finish**.
@@ -56,9 +56,9 @@ To install Web Deploy separately using Web PI:
 1. Download the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
 2. Open WebPI on your desktop.
 3. Click in the search bar in the upper-right hand corner, enter &quot;Web Deploy&quot;, and press **Enter**.  
-    [![Screenshot of the Web Platform Installer four point six. Windows Azure S D K for Node dot J S is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image4.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image3.jpg)
+    [![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image4.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image3.jpg)
 4. Select the Web Deploy that you want, and then click **Add**.  
-    [![Screenshot of the Web Platform Installer four point six. Web Deploy three point five is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image6.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image5.jpg)
+    [![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image6.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image5.jpg)
 5. On the **Prerequisites** page, click **I accept**.
 6. After the installation has completed, click **Finish**.
 
@@ -76,7 +76,7 @@ To install Web Deploy from the .msi file:
 
 1. Go to the [Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy) download page.
 2. On the Web Deploy download page, move to the **Download Web Deploy** section, and for the language you want, select **x86** or **x64**.
-3. Run the Web Deploy .msi, and move through the installer wizard, selecting the features that you want in the Custom Setup page.[![Screenshot of the Microsoft Web Deploy three point five Setup dialog box. The Custom Setup page is displayed. The I I S Manager U I Module is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image8.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image7.jpg)
+3. Run the Web Deploy .msi, and move through the installer wizard, selecting the features that you want in the Custom Setup page.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image8.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image7.jpg)
 
 ## Configuring a Site for Delegated Non-Administrator Deployment
 
@@ -99,18 +99,18 @@ The following steps configure publishing on an existing site for an existing use
 
 1. Start IIS Manager (open **Server Manager**, click **Tools**, and then open **IIS Manager**.
 2. Expand the **Sites** node and click a site.
-3. In the **Management** area of the site's home pane, double-click **IIS Manager Permissions**. [![Screenshot of the Internet Information I I S Manager. The Sites node is shown in the left pane. The I I S Manager icon is selected.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image10.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image9.jpg)
-4. In the **Actions** pane, click **Allow User**. [![Screenshot of the I I S Manager Permissions pane. The Actions pane is displayed on the right. The Allow User button is in the Actions pane.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image12.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image11.jpg)
-5. In the **Allow User…** dialog box, with **Windows** selected, click **Select**.[![Screenshot of the Allow User dialog box. Windows is selected.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image14.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image13.jpg)
-6. In the **Select User or Group** dialog box, in **Enter the object name to select**, enter the name of a non-administrator Windows user who will have publishing permissions to the site, with domain. Click **Check Names**, and then after the name has been verified, click **OK**.[![Screenshot of the Select User or Group dialog box. The box to Enter the object name to select is found under the box to Select object type and the From this location box.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image16.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image15.jpg)
-7. In the **Allow User…** dialog box, click **OK**.[![Screenshot of the Allow User dialog box. Windows is selected. In the Windows box there is the text CONTOSO backslash john doe. The O K button can be found at the bottom.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image18.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image17.jpg)
-8. Verify that the name with domain is entered in the **IIS Manager Permissions** pane.[![Screenshot of the I I S Manager Permissions pane. Under Name is the text CONTOSO backslash john doe. Under Path is Default Web Site.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image20.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image19.jpg)
+3. In the **Management** area of the site's home pane, double-click **IIS Manager Permissions**. [![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image10.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image9.jpg)
+4. In the **Actions** pane, click **Allow User**. [![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image12.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image11.jpg)
+5. In the **Allow User…** dialog box, with **Windows** selected, click **Select**.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image14.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image13.jpg)
+6. In the **Select User or Group** dialog box, in **Enter the object name to select**, enter the name of a non-administrator Windows user who will have publishing permissions to the site, with domain. Click **Check Names**, and then after the name has been verified, click **OK**.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image16.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image15.jpg)
+7. In the **Allow User…** dialog box, click **OK**.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image18.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image17.jpg)
+8. Verify that the name with domain is entered in the **IIS Manager Permissions** pane.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image20.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image19.jpg)
 9. Right-click the site that you are configuring, point to **Deploy**, and then click **Configure Web Deploy Publishing...**. The following UI will appear:  
 
     Note: If the Deploy command is not shown in the menu for a site, close and then reopen IIS Manager.
 
-    [![Screenshot of the Configure Web Deploy Publishing dialog box. Under Select a user to give publishing permissions is the text CONTOSO backslash john doe.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image22.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image21.jpg)
-10. Click the down arrow for **Select a user to give publishing permissions**, and select the user that you entered for IIS Manager Permissions.[![Screenshot of the Configure Web Deploy Publishing pane. Under Select a user to give publishing permissions, the text CONTOSO backslash john doe is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image24.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image23.jpg)
+    [![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image22.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image21.jpg)
+10. Click the down arrow for **Select a user to give publishing permissions**, and select the user that you entered for IIS Manager Permissions.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image24.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image23.jpg)
 11. Click **Setup**. 
 
     The following log lines will appear:
@@ -121,7 +121,7 @@ The following steps configure publishing on an existing site for an existing use
 
 The non-administrator Windows user (NonAdminUser) may now publish to the site.
 
-[![Screenshot of the Configure Web Deploy Publishing dialog box. Under Select a user to give publishing permissions is the text ,CONTOSO backslash john doe. The Setup button is shown.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image26.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image25.jpg)
+[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image26.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image25.jpg)
 
 ### Install and Configure Web Deploy for Administrator deployments
 
