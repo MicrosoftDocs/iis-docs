@@ -62,7 +62,7 @@ This section contains the following topics about the IIS Advanced Logging UI:
 ### Opening Advanced Logging
 
 IIS Advanced Logging can be configured for servers, websites, and directories in IIS Manager. To open the Advanced Logging feature, click the server, website, or directory in the **Connections** pane, and then double-click the **Advanced Logging** icon on the **Home** page.  
-![](advanced-logging-for-iis-custom-logging/_static/image1.jpg)
+![Screenshot of the Default Web Site Home screen with a highlight around the Advanced Logging option in the I I S section.](advanced-logging-for-iis-custom-logging/_static/image1.jpg)
 
 <a id="server_logging"></a>
 
@@ -70,20 +70,20 @@ IIS Advanced Logging can be configured for servers, websites, and directories in
 
 By default, IIS Advanced Logging is disabled after you install it. To enable the feature so that it can handle log messages from other web server components, open it at the server level in IIS Manager, and then in the **Actions** pane, click **Enable Advanced Logging**.
 
-![](advanced-logging-for-iis-custom-logging/_static/image2.jpg)
+![The Actions section with a highlight of the Enable Advanced Logging option.](advanced-logging-for-iis-custom-logging/_static/image2.jpg)
 
 To disable the feature at a later time, open it at the server level in IIS Manager, and then in the **Actions** pane, click **Disable Advanced Logging**.  
-![](advanced-logging-for-iis-custom-logging/_static/image4.jpg)
+![The actions section with a highlight on the Disable Advanced Logging option.](advanced-logging-for-iis-custom-logging/_static/image4.jpg)
 
 <a id="client_logging"></a>
 
 ### Enabling and Disabling Client Logging
 
 By default, client logging in the Advanced Logging feature is disabled after you install it. To enable client logging in the Advanced Logging feature so that it can handle client log messages that are received as XML data via HTTP POST messages, open the Advanced Logging feature at the server level in IIS Manager, and then in the **Actions** pane, click **Enable Client Logging**.  
-![](advanced-logging-for-iis-custom-logging/_static/image5.jpg)
+![The Actions pane with a highlight on the Enable Client Logging option.](advanced-logging-for-iis-custom-logging/_static/image5.jpg)
 
 To disable client logging at a later time, open the Advanced Logging feature at the server level in IIS Manager, and then in the **Actions** pane, click **Disable Client Logging**.  
-![](advanced-logging-for-iis-custom-logging/_static/image6.jpg)
+![The Actions pane with a highlight on the Disable Client Logging option.](advanced-logging-for-iis-custom-logging/_static/image6.jpg)
 
 > [!NOTE]
 > For more information about how to use Client Logging, see [Advanced Logging for IIS - Client Logging](advanced-logging-for-iis-client-logging.md).
@@ -93,21 +93,21 @@ To disable client logging at a later time, open the Advanced Logging feature at 
 ### About Log Definitions
 
 The Advanced Logging feature displays all of the log definitions that are available on the server on the server **Home** page in IIS Manager. The following figure displays the log definition **%COMPUTERNAME%-Server**, which is installed by default and captures some fields of interest from a content delivery perspective.  
-![](advanced-logging-for-iis-custom-logging/_static/image8.jpg)
+![Screenshot of the Advanced Logging screen, displaying the the log definition %COMPUTERNAME%-Server.](advanced-logging-for-iis-custom-logging/_static/image8.jpg)
 
 To view the fields that are included in this log definition, click the log definition name, and then in the **Actions** pane, click **Edit Log Definition**. This opens the **Log Definition** feature page for the selected log definition, as shown in the following figure:
 
-![](advanced-logging-for-iis-custom-logging/_static/image9.jpg)
+![Screenshot of the Features View of the Log Definition feature page.](advanced-logging-for-iis-custom-logging/_static/image9.jpg)
 
 <a id="aboutglobalfields"></a>
 
 ### About the Global Logging Fields List
 
 The global logging fields list contains all of the logging fields that can be added to log definitions. To view the global logging fields list, open the Advanced Logging feature at the server, website, directory, or application level in IIS Manager, and then in the **Actions** pane, click **Edit Logging Fields**.  
-![](advanced-logging-for-iis-custom-logging/_static/image11.jpg)
+![Screenshot of the Actions pane with a highlight on the Edit Logging Fields option.](advanced-logging-for-iis-custom-logging/_static/image11.jpg)
 
 This action opens the **Edit Logging Fields** dialog box, which displays the logging fields that are included in the default installation of IIS Advanced Logging.  
-![](advanced-logging-for-iis-custom-logging/_static/image13.jpg)
+![Screenshot of the Edit Logging Fields dialog box.](advanced-logging-for-iis-custom-logging/_static/image13.jpg)
   
 To learn more about adding custom logging fields to the global logging fields list, see [Adding Custom Logging Fields](#custom).
 
@@ -122,9 +122,9 @@ To add a custom logging field to the global logging fields list, do the followin
 1. In IIS Manager, open the Advanced Logging feature at the server, website, virtual directory, or application level.
 2. In the **Actions** pane, click **Edit Logging Fields** to open the **Edit Logging Fields** dialog box. The dialog box displays the logging fields that are available by default.
 3. In the **Edit Logging Fields** dialog box, click the **Add Field** button.  
-    ![](advanced-logging-for-iis-custom-logging/_static/image14.jpg)
+    ![Screenshot of the Edit Logging Fields dialog box with a highlight on the Add Field button.](advanced-logging-for-iis-custom-logging/_static/image14.jpg)
 4. In the **Add Logging Field** dialog box, specify settings and values for the custom logging field.  
-    ![](advanced-logging-for-iis-custom-logging/_static/image15.jpg)
+    ![Screenshot of the Add Logging Field dialog box.](advanced-logging-for-iis-custom-logging/_static/image15.jpg)
 
 - **Field ID**. Type a friendly name (for example, **Author**) that will be included in the log definition and displayed in the global logging fields list.
 - **Source type**. Select **Response Header**.
@@ -145,11 +145,11 @@ This section describes how to use the custom logging field **Author** that we ad
     3. **Publish real-time events**. This option allows the Advanced Logging feature to raise events that can be consumed by other IIS modules for real-time logging and analysis. The events contain all the data and are raised just before the data is written to the log file. In this example, we leave it unchecked. For more information about real-time logging, see [Advanced Logging for IIS - Real-Time Logging](https://go.microsoft.com/?linkid=9656627).
     4. **Log File Rollover**. Log file rollover options specify how often a new log file is generated. In this example, we choose the default **Schedule** option **Daily**, which will generate a new log file every day at midnight Coordinated Universal Time (UTC).
     5. **Selected Fields**. Click the **Select Fields** button to open the **Select Logging Fields** dialog box, in which you can select the fields that you want to log for this log definition, including the custom logging field **Author** that you added to the global logging fields list in the [previous section](#custom). To add the custom **Author** logging field, select it in the list.  
-        ![](advanced-logging-for-iis-custom-logging/_static/image17.jpg)
+        ![Screenshot of the Select Logging Fields dialog box, showing the Request Header and Response Header sections.](advanced-logging-for-iis-custom-logging/_static/image17.jpg)
   
         To add additional logging fields to the log definition, select additional logging fields by clicking the check boxes next to their names. Click **OK** when you're done.
     6. (Optional) Specify the order that the logging fields are written to the log file by selecting a logging field name in the list and then clicking one of the **Move** buttons to update its position in the list.  
-       ![](advanced-logging-for-iis-custom-logging/_static/image19.jpg)
+       ![Screenshot of the Log Definition screen with a highlight on the Move First, Move Up, Move Down, and Move Last buttons in the Selected Fields section.](advanced-logging-for-iis-custom-logging/_static/image19.jpg)
     7. **Filter**. Log Filtering in IIS Advanced Logging allows administrators to collect only the website traffic information of interest instead of having to capture all website traffic and then sift through all of the data to find what they need. In this example, we don't create a log filter. For more information about log filtering, see [Advanced Logging for IIS - Log Filtering](advanced-logging-for-iis-log-filtering.md).
 4. To save the new **TestLog** log definition, in the **Actions** pane, click **Apply**.
 
@@ -170,9 +170,9 @@ This section contains the following procedures:
 
 1. In IIS Manager, open the Advanced Logging feature at the server level.
 2. In the **Actions** pane, click **Edit Log Directory**.  
-    ![](advanced-logging-for-iis-custom-logging/_static/image21.jpg)
+    ![Screenshot of the Actions pane with a highlight on the Edit Log Directory option.](advanced-logging-for-iis-custom-logging/_static/image21.jpg)
 3. In the **Edit Log Directory** dialog box, update the log directory path information.  
-    ![](advanced-logging-for-iis-custom-logging/_static/image22.jpg)
+    ![Screenshot of the Edit Log Directory dialog box with the server log directory path information being highlighted.](advanced-logging-for-iis-custom-logging/_static/image22.jpg)
 
 - **Server log directory**. Specifies the log file directory for the server.
 - **Default site log directory**. Specifies the default log file directory for all websites on the server. To change the log file directory for a specific website, see the [following procedure](#logdirectory_site).
@@ -183,9 +183,9 @@ This section contains the following procedures:
 
 1. In IIS Manager, open the Advanced Logging feature at the website level for which you want to change the log file directory.
 2. In the **Actions** pane, click **Edit Log Directory**.  
-    ![](advanced-logging-for-iis-custom-logging/_static/image24.jpg)
+    ![Screenshot of the Actions pane, highlighting the edit log directory option.](advanced-logging-for-iis-custom-logging/_static/image24.jpg)
 3. In the **Edit Log Directory** dialog box, update the log directory path information for the website.  
-    ![](advanced-logging-for-iis-custom-logging/_static/image26.jpg)
+    ![Screenshot of the Edit Log Directory dialog box, showing the site log directory path information.](advanced-logging-for-iis-custom-logging/_static/image26.jpg)
 
 - **Site log directory**. Specifies the log file directory for the website.
 

@@ -47,30 +47,30 @@ In this step, URL rewrite rules are changed so that only the users who have inst
 2. Select the server farm, **pilotSiteServers**.
 3. The following icons are shown:
 
-    ![](pilot-program-management-using-application-request-routing/_static/image1.jpg)
+    ![Screenshot of the icons in the server farm pane.](pilot-program-management-using-application-request-routing/_static/image1.jpg)
 4. Double-click **Routing Rules**.
 5. Since this scenario involves multiple server farms with conditional matching of HTTP request headers, the changes are made using the URL rewrite UI that exposes additional options. Click **URL Rewrite** under **Advanced Routing**.
 
-    [![](pilot-program-management-using-application-request-routing/_static/image3.jpg)](pilot-program-management-using-application-request-routing/_static/image2.jpg)
+    ![Screenshot of U R L Rewrite under the Advanced Routing section in Routing Rules.](pilot-program-management-using-application-request-routing/_static/image2.jpg)
 6. Note that two rules have already been created, but they must be changed.
 
-    [![](pilot-program-management-using-application-request-routing/_static/image5.jpg)](pilot-program-management-using-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the U R L Rewrite pane with preset default rules.](pilot-program-management-using-application-request-routing/_static/image4.jpg)
 7. The order of the rules matter in this walkthrough. If **ARR\_productionSiteServers\_loadbalance** is above **ARR\_pilotServers\_loadbalance**, you can change the order of the rules by using **Move Up** or **Move Down** after selecting the rule.
 8. Select **ARR\_pilotSite\_Servers\_loadbalance**, and then click **Edit...** in the **Actions** pane.
 
-    [![](pilot-program-management-using-application-request-routing/_static/image7.jpg)](pilot-program-management-using-application-request-routing/_static/image6.jpg)
+    ![Screenshot of the Edit Rule pane for A R R pilot Site Servers load balance with default settings selected.](pilot-program-management-using-application-request-routing/_static/image6.jpg)
 9. Clients with IE with .NET 3.5 should be specified to go to the **pilotSiteServers** server farm. Do this by adding conditions. Click **Add Conditions**, and thenclick **Add...**.
 
-    [![](pilot-program-management-using-application-request-routing/_static/image9.jpg)](pilot-program-management-using-application-request-routing/_static/image8.jpg)
+    ![Screenshot of an empty Add Conditions dialog.](pilot-program-management-using-application-request-routing/_static/image8.jpg)
 10. Enter **{HTTP\_USER\_AGENT}** as **Condition input** and __\*MSIE\*__ as **Pattern**. This condition checks to see if the client is using IE.
 
-    [![](pilot-program-management-using-application-request-routing/_static/image11.jpg)](pilot-program-management-using-application-request-routing/_static/image10.jpg)
+    ![Screenshot of Condition input as curly brace H T T P underscore USER underscore AGENT curly brace and Pattern as asterisk M I S E asterisk.](pilot-program-management-using-application-request-routing/_static/image10.jpg)
 11. Add another condition to check for the .NET version. Click **Add...**, and then enter **{HTTP\_USER\_AGENT}** as **Condition input** and __\*.NET CLR 3.5\*__ as **Pattern**.
 
-    [![](pilot-program-management-using-application-request-routing/_static/image13.jpg)](pilot-program-management-using-application-request-routing/_static/image12.jpg)
+    ![Screenshot of another condition with Pattern as asterisk dot NET space C L R space 3 dot 5 asterisk.](pilot-program-management-using-application-request-routing/_static/image12.jpg)
 12. Finally, uncheck the **Stop processing of subsequent rules** checkbox, and then click **Apply** to save the changes.
 
-    [![](pilot-program-management-using-application-request-routing/_static/image15.jpg)](pilot-program-management-using-application-request-routing/_static/image14.jpg)
+    ![Screenshot of unchecked Stop processing of subsequent rules after the Action properties section.](pilot-program-management-using-application-request-routing/_static/image14.jpg)
 
 As noted above, the order of the rules matters. This is because URL rewrite processes the rules in order when **Stop processing of subsequent rules** is unselected. So in this case, the first rule, **ARR\_pilotSiteServers\_loadbalance**, will be considered first. This rule tries to match whether the client is using IE and has .NET 3.5 installed. If so, the requests are forwarded to the **pilotSiteServers** server farm. Since the **Stop processing of subsequent rules** checkbox is unchecked, it will process the second rule, **ARR\_productionSiteServers\_loadbalance**, which will route all remaining requests to the **productionSiteServers** server farm.
 

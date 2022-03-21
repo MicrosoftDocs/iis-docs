@@ -13,7 +13,7 @@ Using Application Request Routing (ARR) in a shared hosting environment introduc
 
 This topic leads you through the steps to configure the host name affinity feature in Application Request Routing, as illustrated below:
 
-![](shared-hosting-using-application-request-routing-arr/_static/image1.jpg)
+![Diagram representing the shared hosting environment in which A R R is deployed.](shared-hosting-using-application-request-routing-arr/_static/image1.jpg)
 
 ## Goal
 
@@ -51,13 +51,13 @@ Before proceeding, ensure that the server farm was created with the application 
 
 3. The following icons are shown:
 
-   ![](shared-hosting-using-application-request-routing-arr/_static/image3.jpg)
+   ![Screenshot of the I I S Manager window showing the server farm icons.](shared-hosting-using-application-request-routing-arr/_static/image3.jpg)
 
 4. Double-click **Server Affinity**.
 
 5. To enable host name affinity, select **Use host name**, and then click **Apply**.
 
-   ![](shared-hosting-using-application-request-routing-arr/_static/image5.jpg)
+   ![Screenshot showing the Host Name Affinity dialog. Use host name is checked.](shared-hosting-using-application-request-routing-arr/_static/image5.jpg)
 
    Note that there are two providers for determining which server(s) the host name should be affinitized to. This is different from the load balance algorithm and the provider is only used for the host name affinity feature. The two providers are:
 
@@ -72,7 +72,7 @@ Before proceeding, ensure that the server farm was created with the application 
 
 6. To verify this functionality, click **Display Routing Table**.
 
-   ![](shared-hosting-using-application-request-routing-arr/_static/image7.jpg)
+   ![Screenshot of the default View Routing Table dialog, no server addresses display.](shared-hosting-using-application-request-routing-arr/_static/image7.jpg)
 
 7. Type the name of the host, and then click **Lookup by host name**. The server address shown is the location to where the host name is affinitized.
 
@@ -94,7 +94,7 @@ By default, all host names can use one application server. However, if the site 
 
 1. On the **Server Affinity** page, click **Advanced Settings**.
 
-   ![](shared-hosting-using-application-request-routing-arr/_static/image9.jpg)
+   ![Screenshot of the default Advanced Settings dialog. The host name row is empty.](shared-hosting-using-application-request-routing-arr/_static/image9.jpg)
 
 2. In the **Host Name** column, type the host name. This field is required.
 
@@ -106,7 +106,7 @@ By default, all host names can use one application server. However, if the site 
 
 6. To verify this functionality, click **Display Routing Table**.
 
-   ![](shared-hosting-using-application-request-routing-arr/_static/image11.jpg)
+   ![Screenshot showing the unpopulated View Routing Table dialog. ](shared-hosting-using-application-request-routing-arr/_static/image11.jpg)
 
 7. Type the name of the host, and then click **Lookup by host name**. The number of server addresses returned will be the same as what you specified for the **Number of Allocated Servers**. These are the servers to which the host name can be affinitized.
 

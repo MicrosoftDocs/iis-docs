@@ -76,14 +76,14 @@ The ManifestPropertiesDictionary type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestPropertiesDictionary() () () ()](manifestpropertiesdictionary-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the ManifestPropertiesDictionary class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestPropertiesDictionary(XElement)](manifestpropertiesdictionary-constructor-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the ManifestPropertiesDictionary class using the specified properties.|
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Comparer](https://msdn.microsoft.com/library/ms132092)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Count](https://msdn.microsoft.com/library/zhcy256f)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
@@ -95,7 +95,7 @@ The ManifestPropertiesDictionary type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Add](https://msdn.microsoft.com/library/k7z0zy8k)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Clear](https://msdn.microsoft.com/library/b5txwy7s)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
@@ -115,13 +115,13 @@ The ManifestPropertiesDictionary type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[PropertiesElementName](manifestpropertiesdictionary-propertieselementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used with task definitions and job templates. The value is "properties".|
 
 ## Explicit Interface Implementations
 
-||Name|Description|
+|Implementation Type|Name|Description|
 |--- |--- |--- |
 |![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).Add|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 |![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary.Add|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|

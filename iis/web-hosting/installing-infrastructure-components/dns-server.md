@@ -24,20 +24,20 @@ Domain Name System (DNS) is the name resolution protocol for TCP/IP networks, su
 1. Open Server Manager. To open Server Manager, click **Start**, and then click **Server Manager**.
 2. Under **Roles Summary**, click **Add Roles**.
 
-   ![](dns-server/_static/image1.png)
+   ![Screenshot that shows Server Manager, with Add Roles highlighted.](dns-server/_static/image1.png)
 
 3. On **Before You Begin**, click **Next**.
 
-   ![](dns-server/_static/image3.png)
+   ![Screenshot that shows the Add Roles Wizard dialog box. Before You Begin tab is selected.](dns-server/_static/image3.png)
 
 4. On **Confirm Installation Selections**, click **Install**.
 
-   ![](dns-server/_static/image5.png)
+   ![Screenshot that shows the Add Roles Wizard dialog box. Confirmation tab is selected and D N S Server and the Install button are highlighted.](dns-server/_static/image5.png)
 
 5. On **DNS Server**, click **Next**.
 
-   ![](dns-server/_static/image7.png)
+   ![Screenshot that shows the Add Roles Wizard dialog box. D N S Server tab is selected.](dns-server/_static/image7.png)
 
 6. On **Installation Results**, click **Close**.
 
-   ![](dns-server/_static/image9.png)
+   ![Screenshot that shows the Add Roles Wizard dialog box. Results tab is selected.](dns-server/_static/image9.png)

@@ -20,12 +20,12 @@ The first step in analyzing a Web site is to crawl all the resources and URLs th
 1. Launch the SEO tool by going to Start &gt; Program Files &gt; IIS 7.0 Extensions and click the **Search Engine Optimization (SEO) Toolkit** icon.
 2. Select the server node in the **Connections** pane. The SEO main page will open automatically.
 3. Click on the "**Create a new analysis**" task link within the **Site Analysis** section.  
-    [![](using-site-analysis-to-crawl-a-web-site/_static/image4.png)](using-site-analysis-to-crawl-a-web-site/_static/image3.png)
+    ![Screenshot of the Search Engine Optimization Toolkit startup screen.](using-site-analysis-to-crawl-a-web-site/_static/image3.png)
 4. In the **New Analysis** dialog box, enter a name that will uniquely identify the analysis report. Also, enter the URL where the crawler should begin.  
-    [![](using-site-analysis-to-crawl-a-web-site/_static/image6.png)](using-site-analysis-to-crawl-a-web-site/_static/image5.png)  
+    ![Screenshot of the S E O Toolkit Site Analysis page. The New Analysis dialog box is open.](using-site-analysis-to-crawl-a-web-site/_static/image5.png)  
  Note that because the server node is selected in the **Connections** pane (we have not selected a specific Web site on the server), it is possible to crawl any Web site that is publicly accessible on the internet. Refer to the "[Web Crawler Settings](using-site-analysis-to-crawl-a-web-site.md#Web_Crawler_Settings_) " section for more details about the "New Analysis" dialog box.
 5. Once all the parameters have been specified, click **OK** to start the analysis:  
-    [![](using-site-analysis-to-crawl-a-web-site/_static/image8.png)](using-site-analysis-to-crawl-a-web-site/_static/image7.png)  
+    ![Screenshot of the New Analysis dialog box displaying the results of the analysis.](using-site-analysis-to-crawl-a-web-site/_static/image7.png)  
  The two numbers reported during analysis are:  
 
     - **Links Processed** - this is the total number of links that have been crawled and downloaded by the Web crawler.

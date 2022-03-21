@@ -26,16 +26,16 @@ IIS Advanced Logging can extend the web platform to support real-time analytics,
 Real-time logging is a per-log-definition setting in IIS Advanced Logging. To enable real-time logging for a log definition, do the following:
 
 1. In IIS Manager, open the Advanced Logging feature. Click the server in the **Connections** pane, and then double-click the **Advanced Logging** icon on the **Home** page.  
-   ![](advanced-logging-for-iis-real-time-logging/_static/image1.jpg)
+   ![Screenshot of the I I S Manager features pane. The Advanced Logging icon is selected.](advanced-logging-for-iis-real-time-logging/_static/image1.jpg)
 2. Enable the Advanced Logging feature. In the **Actions** pane, click **Enable Advanced Logging**.  
-   ![](advanced-logging-for-iis-real-time-logging/_static/image3.jpg)
+   ![Screenshot of the Actions pane showing Enable Advanced Logging highlighted. ](advanced-logging-for-iis-real-time-logging/_static/image3.jpg)
 3. Select the log definition for which you want to enable real-time logging.
 
    1. In IIS Manager, open the Advanced Logging feature at the server, website, directory, or application level.
    2. In the **Advanced Logging** feature page, click the log definition, and then in the **Actions** pane, click **Edit Log Definition**.  
-      ![](advanced-logging-for-iis-real-time-logging/_static/image5.jpg)
+      ![Screenshot showing Advanced Logging in the main pane. Edit Log Definition is selected in the Actions pane.](advanced-logging-for-iis-real-time-logging/_static/image5.jpg)
 4. Enable real-time logging of events for the selected log definition by selecting the **Publish real-time events** check box.  
-   ![](advanced-logging-for-iis-real-time-logging/_static/image7.jpg)
+   ![Screenshot of the Log Definition pane. Publish real-time events is checked.](advanced-logging-for-iis-real-time-logging/_static/image7.jpg)
 5. Write an IIS module that consumes the events in real time, as described in the following [section](advanced-logging-for-iis-real-time-logging.md#module).
 
 <a id="module"></a>

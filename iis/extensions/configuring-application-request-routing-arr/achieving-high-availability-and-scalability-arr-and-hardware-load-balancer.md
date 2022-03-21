@@ -27,7 +27,7 @@ This document provides prescriptive guidance about how Application Request Routi
 
 Microsoft Application Request Routing (ARR) for IIS 7.0 and above is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers, server variables, and load balance algorithms. A typical ARR deployment is illustrated in the diagram below:
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image2.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image1.jpg)
+[![Diagram of a typical A R R deployment. A R R provides high availability and scalability for the content servers.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image2.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image1.jpg)
 
 While ARR provides high availability and scalability for the content servers, the overall deployment is not highly available or scalable because:
 
@@ -49,7 +49,7 @@ Above are just some of the examples. For a complete list of HTTP headers and ser
 
 F5 Big-IP's layer 3 and layer 4 functionality compliments ARR's strength in making routing decisions based on layer 7, such as HTTP headers and server variables. At the same time, ARR does not provide fault tolerant deployment features for itself and must rely on other complementary technologies and solutions to achieve high availability for the ARR tier, as shown below:
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image4.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image3.jpg)
+[![Diagram of F five Big dash I P layer three and four functionality. F five Big dash I P layer three and layer four compliment A R R strength in making routing decisions based on layer seven.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image4.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image3.jpg)
 
 ## Scenario 1: HTTP-based routing and load balancing
 
@@ -61,7 +61,7 @@ The HTTP-based routing and load balancing scenario enables a 3-tier deployment a
 
 The following diagram illustrates the 3-tier deployment:
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image6.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image5.jpg)
+[![Diagram illustrating the three tier deployment. It shows a routing rule that differentiates the static content form the dynamic content.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image6.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image5.jpg)
 
 Although the above example shows a routing rule that differentiates the static content from the dynamic content, another common scenario is to differentiate presentation requests from Web service requests. 
 
@@ -105,7 +105,7 @@ In this scenario, you will create a virtual server that load balances to a pool 
 - Be sure to enable Priority Group Activation. This configures the BIG-IP to send traffic to the server(s) with the highest priority value. When those server(s) are unavailable, the BIG-IP sends traffic to the ARR server with the next highest priority value.
 - In this scenario, the ARR server at 10.0.0.1 has a priority value of 1, and 10.0.0.2 has a priority value of 2. All traffic will be sent to 10.0.0.2 until it goes down, and then traffic will be sent to 10.0.0.1.
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image8.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image7.jpg)
+[![Screenshot of the Big dash I P web page. In the Health Monitors box under Active, h t t p is highlighted. In the New Members box, the A R R server priority value is ten dot zero dot zero dot one.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image8.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image7.jpg)
 
 **Step 2: Configure the pool of ARR servers.**
 
@@ -115,7 +115,7 @@ In this scenario, you will create a virtual server that load balances to a pool 
 - For the Virtual Server Type section, you have several options. Since you depend on ARR to route, you can select Performance HTTP, which is designed for the best performance.
 - For the Default Pool, select the pool that you created in Step 1.
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image10.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image9.jpg)
+[![Screenshot of the F five Big I P page. In the Name box A R R underscore V S is written.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image10.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image9.jpg)
 
 - At this point, you should be able to connect to this Virtual Server, which will be sent to the appropriate ARR server.
 
@@ -149,14 +149,14 @@ In this scenario, all available ARR servers are considered active and candidates
 - In the Local Traffic section, click Pools. Then click the Create button to create a pool.
 - Any unique name will work for the pool; the examples uses ARR\_Pool. - For the Health Monitor, you can use a custom HTTP monitor or the default HTTP monitor. - Since you have multiple ARR servers to which to distribute traffic, you will want to select a load balancing method that best suits your needs. Assuming all of the ARR servers have similar hardware characteristics, a dynamic load balancing method, such as fastest, observed, or predictive, will give you performance-based distribution.
 
-![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image12.jpg)
+![Screenshot of the F five Big I P web page. In the Load Balancing Method box, Fastest Application is chosen.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image12.jpg)
 
 **Step 2: Configure the virtual server.**
 
 - In the Local Traffic section, click Virtual Servers. Then click the Create button to create a virtual server.
 - Any unique name will work for the virtual server; the example uses ARR\_VS. - For the Destination, you can use the IP address to which users will point their browsers. In this specific example, we use 65.197.145.23. For Service Port, we use ‘80'. - For the Virtual Server Type section, you have several options. Since you depend on ARR to route, you can select Performance HTTP, which is designed for the best performance. - For the Default Pool, select the pool that you created in Step 1.
 
-![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image15.jpg)
+![Screenshot of the F five Big I P web page. In the Default Pool box, the pool created in Step one, the A R R pool, is selected.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image15.jpg)
 
 ## Scenario 2: Shared hosting using host name affinity
 
@@ -169,7 +169,7 @@ This scenario utilizes the host name affinity feature in ARR to enable a shared 
 
 For more information about shared hosting and ARR, refer to [this](../planning-for-arr/overview-of-shared-hosting-deployment-using-application-request-routing-20.md) document.
 
-The following diagram illustrates the shared hosting environment using ARR: [![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image18.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image17.jpg)
+The following diagram illustrates the shared hosting environment using ARR: [![Diagram of the shared hosting environment using A R R.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image18.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image17.jpg)
 
 ### Option 1: Active/Passive
 
@@ -209,14 +209,14 @@ In this scenario, you will create a virtual server that load balances to a pool 
 - In the Local Traffic section, click Pools. Then click the Create button to create a pool.
 - Any unique name will work for the pool; the example uses ARR\_Pool. - For the Health Monitor, you can use a custom HTTP monitor or the default HTTP monitor. - You can leave the Load Balancing Method set to Round Robin. In this scenario, since there is only an active and passive ARR server, load balancing is not used. - Be sure to enable Priority Group Activation. This configures the BIG-IP to send traffic to the server(s) with the highest priority value. When those server(s) are unavailable, the BIG-IP sends traffic to the ARR server with the next highest priority value. - In this scenario, the ARR server at 10.0.0.1 has a priority value of 1, and 10.0.0.2 has a priority value of 2. All traffic will be sent to 10.0.0.2 until it goes down, and then traffic will be sent to 10.0.0.1.
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image20.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image19.jpg)
+[![Screenshot of the Big I P web site. In the name box is A R R underscore pool. In the Local Traffic pane, Pools is selected.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image20.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image19.jpg)
 
 **Step 2: Configure the virtual server.**
 
 - In the Local Traffic section, click Virtual Servers. Then click the Create button to create a virtual server.
 - Any unique name will work for the virtual server; the example uses ARR\_VS. - For the Destination, you can use the IP address to which users will point their browsers. In this case, we use. For Service Port, we use ‘80'. - For the Virtual Server Type section, you have several options. Since you depend on ARR to route, you can select Performance HTTP, which is designed for the best performance. - For the Default Pool, select the pool that you created in Step 1.
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image22.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image21.jpg)
+[![Screenshot of the F five web page. In the Default Pool box, A R R pool is selected. In the Local Traffic pane, Virtual Servers is selected.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image22.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image21.jpg)
 
 - At this point, you should be able to connect to this Virtual Server, which will be sent to the appropriate ARR server.
 
@@ -256,14 +256,14 @@ In this scenario, all available ARR servers are considered active and candidates
 - In the Local Traffic section, click Pools. Then click the Create button to create a pool.
 - Any unique name will work for the pool; the example uses ARR\_Pool. - For the Health Monitor, you can use a custom HTTP monitor or the default HTTP monitor. - Since you have multiple ARR servers to which to distribute traffic, you will want to select a load balancing method that best suits your needs. Assuming all of the ARR servers have similar hardware characteristics, a dynamic load balancing method, such as fastest, observed, or predictive, will give you performance-based distribution.
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image24.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image23.jpg)
+[![Screenshot of the F five web page. In the Local Traffic box, Pools is selected. In the Load Balancing Method box, Fastest application is selected.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image24.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image23.jpg)
 
 **Step 2: Configure the virtual server.**  
 
 - In the Local Traffic section, click Virtual Servers. Then click the Create button to create a virtual server.
 - Any unique name will work for the virtual server; the example uses ARR\_VS. - For the Destination, you can use the IP address to which users will point their browsers. In this case, we use. For Service Port, we use ‘80'. - For the Virtual Server Type section, you have several options. Since you depend on ARR to route, you can select Performance HTTP, which is designed for the best performance. - For the Default Pool, select the pool that you created in Step 1.
 
-[![](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image26.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image25.jpg)
+[![Screenshot of the F five web page. In the Local Traffic box, Virtual Servers is selected. In the Default Pool box, A R R Pool is selected.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image26.jpg)](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer/_static/image25.jpg)
 
 ## Summary
 

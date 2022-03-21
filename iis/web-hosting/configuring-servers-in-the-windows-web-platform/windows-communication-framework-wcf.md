@@ -17,4 +17,4 @@ It can be activated by using the Server Manager's "Add Features Wizard". The Ser
 
 The following dialog shows the "Add Feature Wizard" dialog in Server Manager used to activate WCF. See the highlighted item.
 
-[![](windows-communication-framework-wcf/_static/image3.jpg)](windows-communication-framework-wcf/_static/image1.jpg)
+[![Screenshot that shows the Add Features Wizard dialog box. The Features tab is selected and W C F Activation is highlighted.](windows-communication-framework-wcf/_static/image3.jpg)](windows-communication-framework-wcf/_static/image1.jpg)

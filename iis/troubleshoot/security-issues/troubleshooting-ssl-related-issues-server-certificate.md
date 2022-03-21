@@ -42,7 +42,7 @@ Description of the Server Authentication Process during the SSL Handshake:
 
 The following error message is seen while browsing the website over https:
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image1.png)
+![Screenshot of a browser page showing the message, Internet Explorer cannot display the webpage.](troubleshooting-ssl-related-issues-server-certificate/_static/image1.png)
 
 The first thing that has to be checked is whether the website is accessible over http. If it is not, there likely is a separate issue not covered here. You will need to have the website working on http first before continuing with this troubleshooter.
 
@@ -52,21 +52,21 @@ Now let's assume the website is accessible over http and we get the above error 
 
 Check if the server certificate has the private key corresponding to it. Refer the below picture:
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image3.png)
+![Two screenshots of the Certificate dialog. One does not have a private key. The other shows a message that the private key corresponds to the certificate. ](troubleshooting-ssl-related-issues-server-certificate/_static/image3.png)
 
 If private key is missing, then you need to get a certificate containing the private key, which is essentially a .PFX file. There is a command that we could try to run in order to associate the private key with the certificate:
 
 [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample1.cmd)]
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image5.png)
+![Screenshot of the command console showing the certutil syntax.](troubleshooting-ssl-related-issues-server-certificate/_static/image5.png)
 
 If the association is successful, then you would see the following window:
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image7.png)
+![Screenshot of the command console showing a message that the command completed successfully.](troubleshooting-ssl-related-issues-server-certificate/_static/image7.png)
 
 Note: 1a 1f 94 8b 21 a2 99 36 77 a8 8e b2 3f 42 8c 7e 47 e3 d1 33 is the thumbprint of the certificate. Open the certificate and click on the details tab. Scroll down to find the thumbprint section. Select the thumbprint section and click on the text below. Do a "Ctrl+A" and then "Ctrl+C" to select and copy it. Below is a snapshot for your reference:
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image9.png)
+![Screenshot of the Certificate dialog showing the Details tab. The thumbprint value is highlighted.](troubleshooting-ssl-related-issues-server-certificate/_static/image9.png)
 
 Note: This command doesn't succeed always. If this fails, then you need to get a certificate containing the private key from the CA. The file extension for a certificate containing private key is .pfx.
 
@@ -92,7 +92,7 @@ While running the SSLDiag tool you may get the following error:
 
 **You have a private key that corresponds to this certificate but CryptAcquireCertificatePrivateKey failed**
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image11.png)
+![Screenshot of the SSL Diagnostics window. The failure message is highlighted.](troubleshooting-ssl-related-issues-server-certificate/_static/image11.png)
 
 There will also be a SChannel warning in the system event logs as shown below:
 
@@ -125,7 +125,7 @@ This event/error indicates that there was a problem acquiring certificate's priv
 - We will test if the website works with a test certificate. Take a back-up of the existing certificate and then replace it with a self-signed certificate. Try accessing the website via https. If it works then the certificate used earlier was corrupted and it has to be replaced with a new working certificate.
 - Sometimes the problem may not be with the certificate but with the issuer. You may see the following error in SSLDiag:
 
-    ![](troubleshooting-ssl-related-issues-server-certificate/_static/image13.png)
+    ![Screenshot of the SSL Diagnostics window, the error message is highlighted.](troubleshooting-ssl-related-issues-server-certificate/_static/image13.png)
 
     **CertVerifyCertificateChainPolicy** will fail with **CERT\_E\_UNTRUSTEDROOT (0x800b0109)**, if the root CA certificate is not trusted root.
 
@@ -136,7 +136,7 @@ This event/error indicates that there was a problem acquiring certificate's priv
 
     If the above error is received then we need to check the usage type of the certificate. Open the certificate, click on the "Details" tab and then click on "Edit Properties…" button. Under General tab make sure "Enable all purposes for this certificate" is selected and most importantly "Server Authentication" should be present in the list.
 
-    ![](troubleshooting-ssl-related-issues-server-certificate/_static/image15.png)
+    ![Screenshot showing a portion of the Certificate Properties dialog, Enable all purposes for this certificate is selected.](troubleshooting-ssl-related-issues-server-certificate/_static/image15.png)
 
 ## Scenario 3
 
@@ -223,11 +223,11 @@ After all this if you are still unable to browse the website on https, then capt
 
 Below is a network trace snapshot of a non-working scenario:
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image17.png)
+![Screenshot of the Display Filter window showing the trace snapshot.](troubleshooting-ssl-related-issues-server-certificate/_static/image17.png)
 
 Working scenario:
 
-![](troubleshooting-ssl-related-issues-server-certificate/_static/image19.png)
+![Screenshot of the Display Filter window showing a snapshot of a successful trace.](troubleshooting-ssl-related-issues-server-certificate/_static/image19.png)
 
 Well, this is definitely now how you look at a network trace. You need to expand the frame details and see what protocol and cipher was chosen by the server. Select "Server Hello" from the description to get those details.
 

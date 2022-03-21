@@ -75,7 +75,7 @@ The ManifestProperty type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestProperty() () () ()](manifestproperty-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the ManifestProperty class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestProperty(String, XElement)](manifestproperty-constructor-string-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the ManifestProperty class using the specified namespace and XML metadata element.|
@@ -88,7 +88,7 @@ The ManifestProperty type exposes the following members.
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CultureInfo](manifestproperty-cultureinfo-property-microsoft-web-media-transformmanager.md)|Gets or sets the culture information for the manifest property.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CultureInfoMoniker](manifestproperty-cultureinfomoniker-property-microsoft-web-media-transformmanager.md)|Gets or sets a value that represents the culture language.|
@@ -100,7 +100,7 @@ The ManifestProperty type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CreatePropertyElement](manifestproperty-createpropertyelement-method-microsoft-web-media-transformmanager.md)|Creates a manifest property element.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
@@ -112,7 +112,7 @@ The ManifestProperty type exposes the following members.
 
 ## Fields
 
-||Name|Description|
+|Field Type|Name|Description|
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[PropertyElementName](manifestproperty-propertyelementname-field-microsoft-web-media-transformmanager.md)|The string "property".|
 

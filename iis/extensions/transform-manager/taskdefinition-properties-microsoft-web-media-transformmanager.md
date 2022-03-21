@@ -14,7 +14,7 @@ The [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.m
 
 ## Properties
 
-||Name|Description|
+|Property Type|Name|Description|
 |--- |--- |--- |
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[BaseNamespace](configurationbase-basenamespace-property-microsoft-web-media-transformmanager.md)|Gets or sets the XML namespace for the configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[CommandLine](taskdefinition-commandline-property-microsoft-web-media-transformmanager.md)|Gets or sets a command line for the task.|

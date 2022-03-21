@@ -43,15 +43,15 @@ You can use the Robots Exclusion feature of the IIS SEO Toolkit to author a Robo
 1. Open the IIS Management Console by typing INETMGR in the Start menu.
 2. Navigate to your Web site by using the tree view on the left hand side (for example, Default Web Site).
 3. Click on the **Search Engine Optimization** icon within the Management section:  
-    [![](managing-robotstxt-and-sitemap-files/_static/image3.png)](managing-robotstxt-and-sitemap-files/_static/image2.png)
+    ![Screenshot showing the Management section icons.](managing-robotstxt-and-sitemap-files/_static/image2.png)
 4. On the SEO main page, click on the "**Add a new disallow rule**" task link within the **Robots Exclusion** section.  
-    [![](managing-robotstxt-and-sitemap-files/_static/image6.png)](managing-robotstxt-and-sitemap-files/_static/image5.png)
+    ![Screenshot showing Robots Exclusion under the Search Engine Optimization section.](managing-robotstxt-and-sitemap-files/_static/image5.png)
 
 ### Adding Disallow and Allow Rules
 
 The "Add Disallow Rules" dialog will open automatically:
 
-[![](managing-robotstxt-and-sitemap-files/_static/image8.png)](managing-robotstxt-and-sitemap-files/_static/image7.png)
+![Screenshot showing the Add Disallow Rules dialog. The U R L structure list is expanded and From Site Analysis (myblog) is selected.](managing-robotstxt-and-sitemap-files/_static/image7.png)
 
 Robots Exclusion protocol uses "Allow" and "Disallow" directives to inform search engines about URL paths that can be crawled and the ones that cannot. These directives can be specified for all search engines or for specific user agents identified by a user-agent HTTP header. Within the "Add Disallow Rules" dialog you can specify which search engine crawler the directive applies to by entering the crawler's user-agent into the "Robot (User Agent)" field.
 
@@ -63,11 +63,11 @@ The URL Path tree view is used to select which URLs should be disallowed. You ca
 
 After have completed the steps described in the prerequisites section, you will have a site analysis available. Choose the analysis in the drop down list and then check the URLs that need to be hidden from search engines by using the checkboxes in the "URL Paths" tree view:
 
-[![](managing-robotstxt-and-sitemap-files/_static/image10.png)](managing-robotstxt-and-sitemap-files/_static/image9.png)
+![Screenshot of the Add Disallow Rules dialog. The U R L paths selected appear under Disallowed U R L Paths.](managing-robotstxt-and-sitemap-files/_static/image9.png)
 
 After selecting all the directories and files that need to be disallowed, click OK. You will see the new disallow entries in the main feature view:
 
-[![](managing-robotstxt-and-sitemap-files/_static/image12.png)](managing-robotstxt-and-sitemap-files/_static/image11.png)
+![Screenshot of the Robots Exclusion window. Disallowed paths are shown in the main pane.](managing-robotstxt-and-sitemap-files/_static/image11.png)
 
 Also, the Robots.txt file for the site will be updated (or created if it did not exist). Its content will look similar to this:
 
@@ -75,7 +75,7 @@ Also, the Robots.txt file for the site will be updated (or created if it did not
 
 To see how Robots.txt works, go back to the Site Analysis feature and re-run the analysis for the site. On the Reports Summary page, in the **Links** category, choose **Links Blocked by Robots.txt**. This report will display all the links that have not been crawled because they have been disallowed by the Robots.txt file that you have just created.
 
-[![](managing-robotstxt-and-sitemap-files/_static/image14.png)](managing-robotstxt-and-sitemap-files/_static/image13.png)
+![Screenshot of the Site Analysis Report window. A list of blocked links appear in the main pane.](managing-robotstxt-and-sitemap-files/_static/image13.png)
 
 ## Managing Sitemap Files
 
@@ -84,18 +84,18 @@ You can use the Sitemaps and Sitemap Indexes feature of the IIS SEO Toolkit to a
 1. Open the IIS Manager by typing INETMGR in the **Start** menu.
 2. Navigate to your Web site by using the tree view on the left.
 3. Click on the **Search Engine Optimization** icon within the Management section:  
-    [![](managing-robotstxt-and-sitemap-files/_static/image17.png)](managing-robotstxt-and-sitemap-files/_static/image16.png)
+    ![Screenshot showing the Search Engine Optimization icon.](managing-robotstxt-and-sitemap-files/_static/image16.png)
 4. On the SEO main page, click on the "**Create a new sitemap**" task link within the **Sitemaps and Sitemap Indexes** section.  
-    [![](managing-robotstxt-and-sitemap-files/_static/image20.png)](managing-robotstxt-and-sitemap-files/_static/image19.png)
+    ![Screenshot showing Sitemaps and Sitemap Indexes under the Search Engine Optimization section.](managing-robotstxt-and-sitemap-files/_static/image19.png)
 5. The **Add Sitemap** dialog will open automatically.   
-    [![](managing-robotstxt-and-sitemap-files/_static/image22.png)](managing-robotstxt-and-sitemap-files/_static/image21.png)
+    ![Screenshot showing the Sitemaps and Sitemap Indexes window with the New Sitemap dialog.](managing-robotstxt-and-sitemap-files/_static/image21.png)
 6. Type a name for your sitemap file and click **OK**. The **Add URLs** dialog appears.
 
 ### Adding URLs to the sitemap
 
 The **Add URLs** dialog looks like this:
 
-[![](managing-robotstxt-and-sitemap-files/_static/image24.png)](managing-robotstxt-and-sitemap-files/_static/image23.png)
+![Screenshot of the Add U R Ls dialog showing the myblog U R L path tree view.](managing-robotstxt-and-sitemap-files/_static/image23.png)
 
 The Sitemap file is basically a simple XML file that lists URLs along with some metadata, such as change frequency, last modified date, and relative priority. You use the **Add URLs** dialog to add new URL entries to the Sitemap xml file. Each URL in the sitemap must be in a fully qualified URI format (i.e. it must include protocol prefix and domain name). So, the first thing you have to specify is the domain that will be used for the URLs that you are going to add to the sitemap.
 
@@ -117,7 +117,7 @@ Now that you have created a sitemap, you will need to let search engines know wh
 
 In the Sitemaps and Sitemap Indexes feature, choose the sitemap that you have just created, and then click **Add to Robots.txt** in the **Actions** pane:
 
-[![](managing-robotstxt-and-sitemap-files/_static/image26.png)](managing-robotstxt-and-sitemap-files/_static/image25.png)
+![Screenshot of the I I S Manager window and Add Sitemap to Robots text dialog. ](managing-robotstxt-and-sitemap-files/_static/image25.png)
 
 Your Robots.txt file will look similar to the following:
 

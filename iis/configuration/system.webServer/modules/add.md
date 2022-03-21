@@ -54,11 +54,11 @@ The `<add>` element of the `<modules>` collection is included in the default ins
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then go to the Web site or application to which you want to add a managed module.
 3. In the **Home** pane, double-click **Modules**.  
-    [![](add/_static/image2.png)](add/_static/image1.png)
+    [![Screenshot of Home pane displaying Modules highlighted.](add/_static/image2.png)](add/_static/image1.png)
 4. In the Actions pane, click **Add Managed Module**.
 5. In the **Add Managed Module** dialog box, enter the name of the managed module in the **Name** box, and then enter or select the module's .NET Framework fully-qualified type in the Type box.
 6. Select the **Invoke only for requests to ASP.NET applications or managed handlers** option if you want the module to respond only to managed requests.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Image of Add Managed Module dialog showing Name and Type boxes with Invoke only for requests to A S P dot Net applications or managed handlers option.](add/_static/image4.png)](add/_static/image3.png)
 7. Click **OK**.
 
 <a id="005"></a>

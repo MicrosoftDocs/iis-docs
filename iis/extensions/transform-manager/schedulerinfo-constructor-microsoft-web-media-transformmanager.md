@@ -24,7 +24,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SchedulerInfo(XElement)](schedulerinfo-constructor-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md) class using the specified RDF scheduler node.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SchedulerInfo(JobScheduler)](schedulerinfo-constructor-jobscheduler-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md) class using the specified job scheduling information.|

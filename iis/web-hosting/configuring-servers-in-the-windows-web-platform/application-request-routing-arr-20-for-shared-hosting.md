@@ -31,7 +31,7 @@ ARR is a key component of the Windows Web Platform &lt;link: to the Shared Hosti
 
 The following image depicts the logical flow of requests between the client and the target Web site server:
 
-[![](application-request-routing-arr-20-for-shared-hosting/_static/image2.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image1.jpg)
+[![Image of logical flow of requests between the client and the target Web site Server indicating the role of A P R in load balancing the H T T P requests.](application-request-routing-arr-20-for-shared-hosting/_static/image2.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image1.jpg)
 
 In summary, ARR's benefits include:
 
@@ -48,9 +48,9 @@ The following steps and articles constitute a complete guide for setting up an A
 
 1. Designate a server connected to the Internet that will run ARR and will handle all Web requests between clients and the Web application servers.
 2. Install ARR using [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) on the designated server.
-3. Change the [application pool process model for ARR](../../extensions/installing-application-request-routing-arr/install-application-request-routing.md).[![](application-request-routing-arr-20-for-shared-hosting/_static/image4.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image3.jpg)
+3. Change the [application pool process model for ARR](../../extensions/installing-application-request-routing-arr/install-application-request-routing.md).[![Screenshot of the flow between the Front End and Back End with A P R Server highlighted.](application-request-routing-arr-20-for-shared-hosting/_static/image4.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image3.jpg)
 4. Set up an ARR Web server farm, using the procedure in the following [article](../../extensions/configuring-application-request-routing-arr/define-and-configure-an-application-request-routing-server-farm.md). For more information about shared configuration, see: [https://www.iis.net/learn/manage/managing-your-configuration-settings/shared-configuration\_264](../../manage/managing-your-configuration-settings/shared-configuration_264.md).  
-    [![](application-request-routing-arr-20-for-shared-hosting/_static/image6.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image5.jpg)
+    [![Screenshot of the flow between the Front End and Back End with Web Server farm highlighted and Web Farm Shared Configuration displayed.](application-request-routing-arr-20-for-shared-hosting/_static/image6.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image5.jpg)
 5. Configure ARR for shared hosting &lt;link: [https://www.iis.net/learn/extensions/configuring-application-request-routing-(arr)/shared-hosting-using-application-request-routing-arr](../../extensions/configuring-application-request-routing-arr/shared-hosting-using-application-request-routing-arr.md)&gt;.
 6. Evaluate whether high availability and scalability are required. If so, there are two approaches:
 
@@ -64,12 +64,12 @@ The following steps and articles constitute a complete guide for setting up an A
 8. &lt;Issue: Need instructions on setting up log file directory permissions in the NAS for ARR.&gt;
 9. Configure the ARR server to forward customer site error details. The ARR server must be configured to forward any error details that customers want their Web sites to send back to Web clients. After this step has been completed, customers will be able to control error page content. By default, the ARR server will forward errors but will omit the error details. Follow these steps to allow error details to be forwarded:
 
-    1. Using IIS Manager to manage the ARR server, select the Error Pages module.[![](application-request-routing-arr-20-for-shared-hosting/_static/image8.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image7.jpg)
+    1. Using IIS Manager to manage the ARR server, select the Error Pages module.[![Screenshot of I I S Manager control panel with Error Pages module selected and highlighted.](application-request-routing-arr-20-for-shared-hosting/_static/image8.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image7.jpg)
     2. In the Actions pane (on the right side), click Edit Feature Settings.
-        ![](application-request-routing-arr-20-for-shared-hosting/_static/image9.jpg)
+        ![Screenshot of Actions pane in Error Pages displaying Edit Features Settings highlighted.](application-request-routing-arr-20-for-shared-hosting/_static/image9.jpg)
     3. In the Edit Error Pages Settings dialog box, select Detailed errors, and then click OK
 
-[![](application-request-routing-arr-20-for-shared-hosting/_static/image11.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image10.jpg)
+[![Screenshot of Edit Error Pages Settings displaying Deleted Errors selected and highlighted.](application-request-routing-arr-20-for-shared-hosting/_static/image11.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image10.jpg)
 
 ## Conclusion
 

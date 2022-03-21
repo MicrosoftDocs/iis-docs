@@ -71,13 +71,13 @@ The Scheduler type exposes the following members.
 
 ## Constructors
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Scheduler](scheduler-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the Scheduler class.|
 
 ## Methods
 
-||Name|Description|
+|Method Type|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](scheduler-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels the specified job.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CleanupJob](scheduler-cleanupjob-method-microsoft-web-media-transformmanager.md)|Removes scheduler artifacts for the specified job.|
