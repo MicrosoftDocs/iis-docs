@@ -114,7 +114,7 @@ To configure credentials on the downstream publishing point, do the following:
 2. Select **Features View** in the center pane, if it is not already selected.
 3. In the **Home** page, in the **Media Services** area, open the **Live Smooth Streaming Publishing Points** feature.  
   
-    ![Screenshot of the Default Web Site Home screen with the Live Smooth Streaming Publishing Points option int he Media Services section being highlighted.](syndicating-live-smooth-streams-between-servers/_static/image4.png)
+    ![Screenshot of the Default Web Site Home screen with the Live Smooth Streaming Publishing Points option in the Media Services section being highlighted.](syndicating-live-smooth-streams-between-servers/_static/image4.png)
 4. In the **Actions** pane, click **Manage Credentials**.  
     ![Screenshot of the Actions pane with the Manage Credentials option being highlighted.](syndicating-live-smooth-streams-between-servers/_static/image1.bmp)
 5. In the **Manage Credentials** dialog box, click **Add**.  
@@ -152,4 +152,4 @@ To configure the publishing point on the downstream server, follow the steps in 
 ### Advanced Settings
 
 On the **Advanced Settings** tab, clearing the **Allow server connections** check box is recommended unless the publishing point will be used for further syndication.  
-![Screenshot of the Add Publishing Point dialog box with a highlighted on the Allow server connections check box.](syndicating-live-smooth-streams-between-servers/_static/image12.png)
+![Screenshot of the Add Publishing Point dialog box with the allow server connections option being highlighted.](syndicating-live-smooth-streams-between-servers/_static/image12.png)
