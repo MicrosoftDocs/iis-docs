@@ -30,7 +30,7 @@ Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot
 
 After copying this file, browse to `http://localhost/article.aspx` and check that the page was rendered correctly in a browser.
 
-[![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image3.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image1.png)
+![Screenshot of accessing the article page through the web browser.](using-failed-request-tracing-to-trace-rewrite-rules/_static/image1.png)
 
 ## Configuring rewrite rules
 
@@ -43,7 +43,7 @@ Locate a web.config file in `%SystemDrive%\inetpub\wwwroot\` folder or create on
 
 Check that the rules are configured correctly by opening a browser and making a request to `http://localhost/article/234/some-title`. If rules were setup correctly then you should see the following response in browser:
 
-[![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image7.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image5.png)
+![Screenshot of the U R L Rewrite Module Test Page that displays the original U R L and the rewritten version.](using-failed-request-tracing-to-trace-rewrite-rules/_static/image5.png)
 
 ## Configure Failed Request Tracing
 
@@ -52,21 +52,21 @@ Now enable failed request tracing for a "Default Web Site" (see [this article](.
 To create an FRT rule in IIS Manager follow these steps:
 
 1. Click on "Failed Request Tracing Rules" icon to get to the list of FRT rules.  
-    [![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image11.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image9.png)
-2. Click on the "Add …" action to bring up the FRT rule creation wizard.[![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image15.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image13.png)
+    ![Screenshot of the Default Web Site Home pane with Failed Request Tracing Rules selected.](using-failed-request-tracing-to-trace-rewrite-rules/_static/image9.png)
+2. Click on the "Add …" action to bring up the FRT rule creation wizard.![Screenshot of the Add Failed Request Tracing Rule dialog with All content (asterisk) selected.](using-failed-request-tracing-to-trace-rewrite-rules/_static/image13.png)
 3. On first page of the wizard choose "All content (\*)"
 4. Click "Next" and specify the status code(s) as "200-399"  
-    [![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image19.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image17.png)
-5. Click Next and then uncheck all the trace providers except "WWW Server" and then uncheck all the provider areas except "Rewrite"[![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image23.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image21.png)
+    ![Screenshot of setting the status codes to the value of 200 dash 399.](using-failed-request-tracing-to-trace-rewrite-rules/_static/image17.png)
+5. Click Next and then uncheck all the trace providers except "WWW Server" and then uncheck all the provider areas except "Rewrite"![Screenshot of setting Providers to only W W W Server and Areas to only Rewrite.](using-failed-request-tracing-to-trace-rewrite-rules/_static/image21.png)
 6. Click on Finish to save the FRT rule.
 
-[![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image3.gif)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image1.gif) If the Failed Request Tracing was installed after URL rewrite module, the "Rewrite" area in Trace Providers may not be available. If you do not see "Rewrite" area listed there, go to Add/Remove programs and then run URL rewrite module installer in repair mode.
+:::image type="icon" source="using-failed-request-tracing-to-trace-rewrite-rules/_static/image1.gif"::: If the Failed Request Tracing was installed after URL rewrite module, the "Rewrite" area in Trace Providers may not be available. If you do not see "Rewrite" area listed there, go to Add/Remove programs and then run URL rewrite module installer in repair mode.
 
 ## Analyzing Failed Request Tracing log file
 
 After the FRT rule has been created, make a request to `http://localhost/article/234/some-title`. This will create an FRT log in `%SystemDrive%\inetpub\Logs\FailedReqLogFiles\`. You can open this log by using Internet Explorer, and it will be rendered as an HTML document that can be easily browsed. Following is an example of the URL rewrite specific events that can be found in the trace log file:
 
-[![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image27.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image25.png)
+![Screenshot of accessing an F R T log using a web browser. The log shows the list of rewrite rules and their rewrite logic.](using-failed-request-tracing-to-trace-rewrite-rules/_static/image25.png)
 
 These events show how the rewrite rules were evaluated and how requested URL was modified by rewrite module. Let's walk through some of the events to better understand the rule evaluation logic:
 
