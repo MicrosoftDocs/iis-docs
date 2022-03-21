@@ -6,6 +6,7 @@ ms.date: 02/19/2009
 ms.assetid: eae2b4db-25d6-4edb-a38b-e685f87d83b8
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis
 msc.type: authoredcontent
+adobe-target: true
 ---
 # Classic ASP Not Installed by Default on IIS 7.0 and above
 
