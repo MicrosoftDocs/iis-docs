@@ -71,7 +71,7 @@ allow\_url\_fopen=on
 
    - /siteframe
 
-     [![](siteframe-on-iis/_static/image2.jpg)](siteframe-on-iis/_static/image1.jpg)
+     ![Screenshot of configuring Permissions for I I S underscore I U S R S Group in the Permissions for files dialog.](siteframe-on-iis/_static/image1.jpg)
 3. Copy \_htaccess file to .htaccess. Windows may not allow naming the file with only the extension (.htaccess). Open the file in the editor (notepad) and save as ".htaccess".
 4. Siteframe requires the Smarty templates. Download and install Smarty templates from   
     [http://smarty.php.net/](http://smarty.php.net/) and copy to the local folder.   
@@ -95,10 +95,10 @@ allow\_url\_fopen=on
 
 1. After installing the Smarty templates, creating the siteframe database and providing the configuration, run the installation script by calling [http://localhost/setup.php](http://localhost/setup.php).  
 
-    [![](siteframe-on-iis/_static/image4.jpg)](siteframe-on-iis/_static/image3.jpg)
+    ![Screenshot of entering Admin user credentials by accessing the installation script through the web browser.](siteframe-on-iis/_static/image3.jpg)
 2. Provide the details to create the admin user. Click "Continue with setup" to: go to register admin user, confirm the database setup and create the required tables. Creating the tables is the end of the Siteframe installation.  
 
-    [![](siteframe-on-iis/_static/image6.jpg)](siteframe-on-iis/_static/image5.jpg)
+    ![Screenshot of the confirmation page for admin user registration, database setup and creation of required tables.](siteframe-on-iis/_static/image5.jpg)
 
 ## Test the SiteFrame Application
 
@@ -107,10 +107,10 @@ To test that SiteFrame has been installed successfully, create a blog postings a
 1. Navigate to [http://localhost/siteframe/index.php](http://localhost/siteframe/index.php).
 2. Enter the administrator username and password created in the last installation step.  
 
-    [![](siteframe-on-iis/_static/image8.jpg)](siteframe-on-iis/_static/image7.jpg)
+    ![Screenshot of the Site Frame Test page after logging in as an administrator.](siteframe-on-iis/_static/image7.jpg)
 3. Once logged in, click New Page to create an entry.  
 
-    [![](siteframe-on-iis/_static/image10.jpg)](siteframe-on-iis/_static/image9.jpg)
+    ![Screenshot of the page to create a new content entry for the website.](siteframe-on-iis/_static/image9.jpg)
 4. Click Save to publish the content.
 
 ## Getting More Information
