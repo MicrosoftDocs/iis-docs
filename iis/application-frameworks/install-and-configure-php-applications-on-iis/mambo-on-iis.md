@@ -36,7 +36,7 @@ Before starting the installation procedure for Mambo, create a database on your 
 
 Enable write permission on the Mambo directory for the account that your web server uses for impersonation. For example, if you have configured the web site to impersonate Anonymous users to "Internet Guest Account" (IUSR\_\*), then you must grant this user write access to the directory:
 
-![Screenshot of the Permissions for mambo dialog box. The Security Tab is displayed.](mambo-on-iis/_static/image1.png)
+![Screenshot of the Permissions for Mambo dialog box. The Security Tab is displayed.](mambo-on-iis/_static/image1.png)
 
 ## Configure the Application
 
