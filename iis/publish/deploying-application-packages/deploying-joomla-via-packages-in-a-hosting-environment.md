@@ -166,7 +166,7 @@ By default, Joomla uses query string parameters for all the URLs it generates fo
 3. Click the **Export Application** link located in the Deploy section of the Actions pane.  
   
    The Export Application Package (Select the Contents of the Package) dialog box appears.  
-   ![Screenshot of the Export APplication Package dialog box. Web Application (Joomla!) is highlighted.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image21.jpg)
+   ![Screenshot of the Export Application Package dialog box. Web Application (Joomla!) is highlighted.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image21.jpg)
 4. Click **Manage Components**.  
 
    The Manage Components dialog box appears.  
