@@ -28,10 +28,10 @@ In this task, you review the configuration options available after a default IIS
 ### Step 1: Open applicationHost.config
 
 1. Click **Start**, click **Run**, and in the **Open:** dialog box, type notepad and **Click** OK.  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image3.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image1.png)  
+    ![Screenshot showing the applicationHost.config opening configuration.](using-configuration-history-with-iis-7-and-iis-8/_static/image1.png)  
     **Figure 1: Opening Configuration with Notepad**
 2. **Click** File, then **Open**, and in the **File name:** dialog box, type `%windir%\system32\inetsrv\config\applicationHost.config`. **Click** Open.  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image7.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image5.png)  
+    ![Screenshot showing the applicationHost.config path in File name: dialog box.](using-configuration-history-with-iis-7-and-iis-8/_static/image5.png)  
     **Figure 2: ApplicationHost.config Path**
 3. To locate configHistory section, click **CTRL**-**F** and enter configHistory and Click **Find Next**.
 
@@ -45,10 +45,10 @@ Notice that there are no further settings for this feature in applicationHost.co
 
 1. Click **Start**, click **Run**, and in the **Open:** dialog box, type notepad and Click **OK**.
 2. Click **File**, then **Open**, and in the **File name:** dialog box, type `%windir%\system32\inetsrv\config\schema\iis\_schema.xml`.  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image10.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image9.png)  
+    ![Screenshot showing how to locate configHistory section in IIS Schema.](using-configuration-history-with-iis-7-and-iis-8/_static/image9.png)  
     **Figure 3: IIS Schema**- To locate configHistory section, click **CTRL-F** and enter configHistory.
 3. On Windows Server® 2008, you see the following:  
-     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image3.jpg)](using-configuration-history-with-iis-7-and-iis-8/_static/image2.jpg)  
+     ![Screenshot showing the four attributes for the confgHistory section.](using-configuration-history-with-iis-7-and-iis-8/_static/image2.jpg)  
 
      **Figure 4: configHistory Schema Definition**
 
@@ -76,17 +76,17 @@ Metabase history was a file-based, rather than directory-based, like the IIS 7.0
 ### Step 1: Create a Website
 
 1. Click **Start**, **Run**, and type Inetmgr and Click **OK**.  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image13.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image12.png)  
+    ![Screenshot showing how to open IIS Manager.](using-configuration-history-with-iis-7-and-iis-8/_static/image12.png)  
     **Figure 5: Opening IIS Manager**- Double-click your server name, for example IIs7Server, to expand the navigation tree.
 2. Right-click the server, and choose Add Web Site.  
-     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image15.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image14.png)  
+     ![Screenshot showing how to choose Add Web Site.](using-configuration-history-with-iis-7-and-iis-8/_static/image14.png)  
      **Figure 6: Add Web Site**
 3. In the **Add Web Site** wizard, enter information to create a new Website. For example:  
-     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image17.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image16.png)  
+     ![Screenshot showing sample website information in the Add Web Site wizard.](using-configuration-history-with-iis-7-and-iis-8/_static/image16.png)  
      **Figure 7: Add Web Site Wizard**
 4. Click **OK**.
 5. You now see the new Website created in your IIS Manager, as in the following:  
-     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image19.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image18.png)  
+     ![Screenshot showing a newly created website on the IIS Manager homepage.](using-configuration-history-with-iis-7-and-iis-8/_static/image18.png)  
      **Figure 8: IIS Manager Homepage**
 
      Now, we validate that a successful backup of the configuration changes has been captured by the Application Host Helper Service.
@@ -97,16 +97,16 @@ Metabase history was a file-based, rather than directory-based, like the IIS 7.0
 > It is likely that your copy will not show immediately after following these steps. This is based on the default value of two minutes. If you find that no copy is created, check to make sure that you have waited two minutes.
 
 1. Click **Start**, **Run**, and open `%systemdrive%\inetpub\history`.    
-[![](using-configuration-history-with-iis-7-and-iis-8/_static/image21.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image20.png)  
+![Screenshot showing how to open the configuration history default path.](using-configuration-history-with-iis-7-and-iis-8/_static/image20.png)  
     **Figure 9: Configuration History Default Path**
 2. Double-click the history folder and locate the most recent change.  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image23.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image22.png)  
+    ![Screenshot showing how to access and search the history folder of ApplicationHost.config.](using-configuration-history-with-iis-7-and-iis-8/_static/image22.png)  
     **Figure 10: History File of ApplicationHost.config**
 
     > [!NOTE]
     > If you fail to locate your copy in the history folder, verify that the Application Host Helper Service is running. Check your Event Viewer for any potential errors thrown by IIS-AppHstSvc.
 
-[![](using-configuration-history-with-iis-7-and-iis-8/_static/image25.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image24.png)  
+![Screeshot showing the Application Host Helper Service is running.](using-configuration-history-with-iis-7-and-iis-8/_static/image24.png)  
 **Figure 11: Application Host Helper Service**
 
 ### Summary
@@ -131,7 +131,7 @@ The next step is to add the configuration section, and then add the attribute wi
 ### Step 2: Add configHistory Section and Add maxHistory
 
 1. To locate configHistory section, click **CTRL-F** and enter &lt;system.applicationHost.  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image27.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image26.png)  
+    ![Screenshot showing how to locate the configHistory section.](using-configuration-history-with-iis-7-and-iis-8/_static/image26.png)  
     **Figure 12: Locating system.applicationHost Section Group**
 2. Now that you are in the right section, add the correct attribute and value for maxHistory. Type the following text into your system.applicationHost section group: 
 
@@ -159,7 +159,7 @@ After completing, the configHistory section looks like the following:
 
     [!code-vb[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample4.vb)]
 2. Save this as ConfigHst.vbs (ensure that you choose All Files to avoid saving as a text file).  
-    [![](using-configuration-history-with-iis-7-and-iis-8/_static/image29.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image28.png)  
+    ![Screenshot showing how to save VBS script to cause history creation.](using-configuration-history-with-iis-7-and-iis-8/_static/image28.png)  
     **Figure 13: Saving VBS Script**
 3. Run this VBS file by opening a command prompt, locating the file location where saved, and type the following: 
 
@@ -171,7 +171,7 @@ After completing, the configHistory section looks like the following:
 
 After running this script, notice how this feature pushes the oldest out when hitting the maximum (i.e. maxHistories.) In our case, after reaching CFGHISTORY\_0000000015, the oldest item was deleted before creating the sixteenth directory.
 
-[![](using-configuration-history-with-iis-7-and-iis-8/_static/image31.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image30.png)  
+![Screenshot of the history directory with a maxHistories value of 15.](using-configuration-history-with-iis-7-and-iis-8/_static/image30.png)  
 **Figure 14: History Directory with maxistories value of 15**
 
 ### Summary
@@ -196,7 +196,7 @@ We use in this task a method to modify the configuration--in this case, the IIS 
     md MyWebHistory
 
 This step is required because no directory is automatically created if it does not exist. If you fail to do this step, you see the following:  
-[![](using-configuration-history-with-iis-7-and-iis-8/_static/image33.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image32.png)  
+![Screenshot of an event message due to inadequate permissions for creating a history path.](using-configuration-history-with-iis-7-and-iis-8/_static/image32.png)  
 **Figure 15: Event Message if Permissions Inadequate to History Path**
 
 ### Step 2: Locate AppCmd.exe
@@ -233,7 +233,7 @@ At this point, change the value for the path attribute to a value that is more a
 [!code-xml[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample11.xml)]
 
 You see the following:  
-[![](using-configuration-history-with-iis-7-and-iis-8/_static/image35.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image34.png)  
+![Screenshot showing a command prompt verification for maxHistories and period.](using-configuration-history-with-iis-7-and-iis-8/_static/image34.png)  
 **Figure 16: Using AppCmd to list Configuration**
 
 Last, we will produce changes to the configuration causing a backup to be triggered -- notice the new location for the directories and files.

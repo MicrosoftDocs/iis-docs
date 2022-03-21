@@ -76,7 +76,7 @@ The `<webLimits>` element is included in the default installation of IIS 7 and l
 4. Enter a value for **dynamicRegistrationThreshold**.
 5. In the **Action** pane, click **Apply**.  
 
-    [![](webLimits/_static/image2.png)](webLimits/_static/image1.png)
+    ![Screenshot showing how to configure dynamic site activation using the Configuration Editor.](webLimits/_static/image1.png)
 
 <a id="005"></a>
 ## Configuration
