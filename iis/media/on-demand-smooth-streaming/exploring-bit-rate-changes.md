@@ -27,34 +27,34 @@ This article describes how to simulate client experiences under varying conditio
 ## Using the Smooth Streaming User Experience Simulator
 
 The [Smooth Streaming User Experience Simulator](https://www.iis.net/media/experiencesmoothstreaming) displays a user interface similar to the following figure.  
-![](exploring-bit-rate-changes/_static/image1.png)
+![Screenshot of the Smooth Streaming User Experience Simulator. The display shows a user interface.](exploring-bit-rate-changes/_static/image1.png)
 
 The interface contains the following components that help simulate conditions and quantify the playback experience:
 
 **Bit Rate Bar**
 
 The **Now Downloading Bit Rate** bar (top-right) displays the network connection's current throughput, in kilobits per second. The following figure shows that the network throughput is **2436 Kbps**.  
-![](exploring-bit-rate-changes/_static/image1.bmp)
+![Screenshot of the Now Downloading Bit Rate bar. It is displaying the network connection throughput in kilobits per second.](exploring-bit-rate-changes/_static/image1.bmp)
 
 The **Limit Max Bit Rate** slider control (top-right) allows you to emulate lower bandwidths, so that you can see how Smooth Streaming adapts to varying network conditions. The following figure shows that the maximum allowed throughput is **5436 Kbps**.  
-![](exploring-bit-rate-changes/_static/image2.bmp)
+![Screenshot of the Limit Max Bit Rate slider control. It shows the maximum allowed throughput, which is five thousand four hundred and thirty six kilobits per second.](exploring-bit-rate-changes/_static/image2.bmp)
 
 **Bit Rate History**
 
 The **Bit Rate History** panel displays the encoded bit rates that are available. The red line displays a history of the bit rates used during playback. The right end of the line always represents the current bit rate at which content is playing. Download bit rate decisions are made every few seconds by the Smooth Streaming heuristic algorithms that are hosted in Silverlight. A change in the downloaded bit rate may lag behind changes in the simulated available bit rate by several seconds.  
-![](exploring-bit-rate-changes/_static/image1.jpg)
+![Screenshot of the Bit Rate History panel. The image shows encoded bit rates that are available. A red line shows the current bit rate at which content is playing.](exploring-bit-rate-changes/_static/image1.jpg)
 
 **Frame Rate History**
 
 The **Frame Rate History** panel displays the recent history and the current state of the playback frame rate, as a percentage of the encoded frame rate. You can use this information to determine if the available decoding power is a limiting factor in the bit rate decision. As the needs of the video decoder and renderer begin to exceed available CPU resources (either due to hardware limitations or CPU used by other processes), Silverlight skips frames to keep the stream playing in real time, resulting in a detectable drop of the playback frame rate relative to its possible maximum (the encoded frame rate of the media). If the playback frame rate falls too low, video playback might cease to appear smooth, and decoding artifacts might start to appear. To ensure a great playback experience, the Smooth Streaming algorithms limit the bit rate of the media if excessive skipping of frames occurs. This ensures that the CPU load required for decoding stays within the limits of the CPU power available.  
-![](exploring-bit-rate-changes/_static/image3.bmp)
+![Screenshot of the Frame Rate History panel. It displays the recent history and current state of the playback frame rate as a percentage of the encoded frame rate.](exploring-bit-rate-changes/_static/image3.bmp)
 
 <a id="drop"></a>
 
 ## Simulating a Drop in Available Bandwidth
 
 To simulate a drop in the available throughput, move the **Limit Max Bit Rate** slider to the left. The following figure shows a simulated drop to **704 Kbps**.  
-![](exploring-bit-rate-changes/_static/image2.png)
+![Screenshot of a simulation. The Limit Max Bit Rate slider is shown.](exploring-bit-rate-changes/_static/image2.png)
 
 At the next available bit rate decision point (a few seconds later), the Smooth Streaming heuristics algorithms adjust the download bit rate accordingly. This can be seen by looking at the **Now Downloading Bit Rate** value (**630 Kbps**). The Smooth Streaming client will play content that is already downloaded at the higher bit rate to maintain high quality for as long as possible, then play the content that is downloaded at the new reduced bit rate, as can be seen by examining the red line in the **Bit Rate History** panel.
 
@@ -63,7 +63,7 @@ At the next available bit rate decision point (a few seconds later), the Smooth 
 ## Simulating a Recovery of Available Bandwidth
 
 The ability to seamlessly upgrade the experience as conditions recover is crucial to ensuring that all users get the best quality they can at any moment. Starting from a low simulated bit rate state, we can see how the Smooth Streaming client heuristics respond when conditions improve. Select a higher simulated bit rate by moving the **Limit Max Bit Rate** slider to the right. The following figure shows a simulated recovery to **2750 Kbps**.  
-![](exploring-bit-rate-changes/_static/image3.png)
+![Screenshot of a simulation showing the Limit Max Bit Rate slider. The figure shows a simulated recovery to two thousand seven hundred and fifty kilobits per second.](exploring-bit-rate-changes/_static/image3.png)
 
 At the next available bit rate decision point (a few seconds later), the Smooth Streaming heuristics algorithms begin to adjust the download bit rate accordingly. This can be seen by looking at the **Now Downloading Bit Rate** value (**1520 Kbps**). Shortly thereafter, content downloaded at the new improved bit rate begins to play, as can be seen in the **Bit Rate History** panel. The change in bit rate occurs gradually to prevent a jarring visual quality change.
 
@@ -72,7 +72,7 @@ At the next available bit rate decision point (a few seconds later), the Smooth 
 ## User Experience for Seeking
 
 The Smooth Streaming heuristics algorithms ensure that the experience is extremely responsive to seek operations by downloading media at the desired seek position at a reduced bandwidth to reduce the lag between a seek event and playback at the new position, and then quickly recovering to the available bit rate to maintain a quality experience. This can be seen in the **Bit Rate History** panel after a seek event.  
-![](exploring-bit-rate-changes/_static/image4.png)
+![Screenshot of a simulation. The Bit Rate History panel is shown. It shows the available bit rate to maintain a quality experience.](exploring-bit-rate-changes/_static/image4.png)
 
 ## Legal Notice
 

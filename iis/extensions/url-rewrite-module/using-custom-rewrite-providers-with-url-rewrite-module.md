@@ -23,7 +23,7 @@ In order to complete this walkthrough, download and install [URL Rewrite Extensi
 
 During the installation make sure to select the "Runtime" option in the custom setup. This will register the sample providers in .NET Global Assembly Cache so that they can be used by URL Rewrite Module.
 
-[![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image2.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image1.png)
+[![Screenshot of the I I S U R L Rewrite Extensibility Samples Setup dialog box. The Runtime icon is highlighted.](using-custom-rewrite-providers-with-url-rewrite-module/_static/image2.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image1.png)
 
 ## Registering the Providers
 
@@ -37,11 +37,11 @@ In order to use the sample providers in the rewrite rules the providers must be 
 
 1. Open URL Rewrite feature in IIS Manager;
 2. Select the "View Providers..." action in the "Actions" pane on right hand side;   
-    [![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image4.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image3.png)
+    [![Screenshot of the I I S Manager U R L Rewrite Home page. In the Actions pane in the right, View Providers is highlighted.](using-custom-rewrite-providers-with-url-rewrite-module/_static/image4.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image3.png)
 3. Select the "Add Provider..." action in the "Actions" pane;
 4. In the "Add Provider" dialog, enter the name that you want to use for this provider when referring to it from a rewrite rule.
 5. After that choose the corresponding .NET type for the provider in the "Managed Type" drop down list. Note that it may take some time for the provider types to appear there.   
-    [![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image6.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image5.png)
+    [![Screenshot of the I I S Manager page. The Rewrite Providers page is shown. In the Actions pane to the right, Add Provider is highlighted.](using-custom-rewrite-providers-with-url-rewrite-module/_static/image6.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image5.png)
 6. Repeat the above steps to register all three providers.
 
 ## Using DbProvider
@@ -66,7 +66,7 @@ Configure the DbProvider instance to call the stored procedure:
 2. Select "Add Provider" and choose **DbProvider**. Name it **DB**; that will be the name by which you will refer to the provider from a rewrite rule
 3. Select the DbProvider instance called **DB** and click "Add Provider Setting..." action.
 4. Use the "Edit Provider Setting" dialog to configure the provider:  
-    [![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image8.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image7.png)
+    [![Screenshot of the I I S Manager page. The Rewrite Providers page is shown. An Edit Provider Setting dialog box appears and in the Name box is the text S Q L Server connection string.](using-custom-rewrite-providers-with-url-rewrite-module/_static/image8.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image7.png)
 
 Use the following values for the provider settings:
 
@@ -101,7 +101,7 @@ Create a new directory called **App\_Data** in the root directory of your web si
 
 [!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample4.cmd)]
 
-![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image1.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
+![An image showing a Warning symbol before the WARNING note is shown.](using-custom-rewrite-providers-with-url-rewrite-module/_static/image1.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
 
 ### Configuring FileMapProvider
 
@@ -137,7 +137,7 @@ Create a new directory called **App\_Data** in the root directory of your web si
 
 [!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample7.cmd)]
 
-![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image3.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
+![An image of a warning symbol appears before a WARNING note. The image is of a triangle with an exclamation mark in the middle.](using-custom-rewrite-providers-with-url-rewrite-module/_static/image3.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
 
 ### Configuring FileContainsProvider
 
@@ -166,4 +166,4 @@ To test the rule open [WFetch](https://www.microsoft.com/downloads/details.aspx?
 
 From WFetch make a request to `http://localhost/test/`. You should see that the connection gets aborted because the user agent string has matched one of the strings in disalloweduseragents.txt file.
 
-[![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image10.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image9.png)
+[![Screenshot of the w fetch one dialog page. The connection is aborted because the user agent string has matched one of the strings in disallowed user agents dot t x t file.](using-custom-rewrite-providers-with-url-rewrite-module/_static/image10.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image9.png)

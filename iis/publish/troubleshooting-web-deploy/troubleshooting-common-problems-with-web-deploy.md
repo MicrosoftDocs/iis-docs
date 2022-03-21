@@ -53,7 +53,7 @@ Note that the error message may be different depending on how Web Deploy is invo
 
 ### 3. Could not install Web Deploy 32-bit version on 64-bit hardware
 
-| **Symptoms** | ![](troubleshooting-common-problems-with-web-deploy/_static/image1.png) |
+| **Symptoms** | ![Screenshot of the Microsoft Web Deployment Tool Setup dialog box. The text says that the thirty two bit version of Microsoft Web Deployment Tool cannot be installed on a sixty four bit edition of Microsoft Windows.](troubleshooting-common-problems-with-web-deploy/_static/image1.png) |
 | --- | --- |
 | **Root Cause** | Trying to install 32-bit on 64-bit OS is a check inside the Web Deploy MSI that will fail because it doesn't support WoW64 mode. |
 | **Fix/Workaround** | Install the same version that matches the architecture of your OS. |
@@ -62,7 +62,7 @@ Note that the error message may be different depending on how Web Deploy is invo
 
 #### 4. Could not install Web Deploy 64-bit version on 32-bit hardware
 
-| **Symptoms** | ![](troubleshooting-common-problems-with-web-deploy/_static/image3.png) |
+| **Symptoms** | ![Screenshot of the Windows Installer dialog box. The text says that This installation package is not supported by this processor type. Contact your product vendor.](troubleshooting-common-problems-with-web-deploy/_static/image3.png) |
 | --- | --- |
 | **Root Cause** | Trying to install 64-bit on 32-bit OS is a check inside Web Deploy's MSI that will fail. |
 | **Fix/Workaround** | Install the same version that matches the architecture of your OS. |
@@ -182,7 +182,7 @@ To collect the screenshots and errors below, we used a new ASP.NET MVC3 project.
 
 The first error you are likely to encounter will look something like this in Visual Studio's output window. To make it easier to read, the full text of the message is reproduced below the screenshot.
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image5.png)
+![Screenshot of the Error List page. An error description is shown.](troubleshooting-common-problems-with-web-deploy/_static/image5.png)
 
 Web deployment task failed.(Could not connect to the destination computer ("deployserver"). On the destination computer, make sure that Web Deploy is installed and that the required process ("The Web Management Service") is started.)
 
@@ -198,7 +198,7 @@ A connection attempt failed because the connected party did not properly respond
 
 **Is the web management service installed?** On the destination server, open IIS Manager and select the machine name node. In the Features view, scroll down to the Management section and look for these Icons:
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image7.png)
+![Screenshot of the I I S Manager Permissions icon, the I I S Manager Users icon, and the Management Service icon.](troubleshooting-common-problems-with-web-deploy/_static/image7.png)
 
 If they are not there, you need to install the Web Management Service.
 
@@ -210,7 +210,7 @@ Note that after you install the Management Service, you will need to start it, a
 
 Once the Web Management Service is installed, Visual studio may show this error:
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image9.png)
+![Screenshot of an error page in Visual Studio. An error description is shown.](troubleshooting-common-problems-with-web-deploy/_static/image9.png)
 
 Web deployment task failed.(Could not connect to the destination computer ("deployserver") using the specified process ("The Web Management Service") because the server did not respond. Make sure that the process ("The Web Management Service") is started on the destination computer.)
 
@@ -220,7 +220,7 @@ The remote server returned an error: (403) Forbidden.
 
 **Is the Web Management Service configured to allow remote connections?** Start IIS Manager and double-click the Management Service icon, and verify that "Enable Remote Connections" is checked. You must stop the service to make changes, so be sure to restart it.
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image11.png)
+![Screenshot of teh Management Service page.the Enable remote connections checkbox is checked.](troubleshooting-common-problems-with-web-deploy/_static/image11.png)
 
 **Is Windows Firewall blocking the request?** The Web Management Service creates an Inbound rule named "Web Management Service (HTTP Traffic-In)", and enables it. Verify this rule is enabled by going to Start-&gt;Administrative tools-&gt; "Windows Firewall with Advanced Security". Click "Inbound Rules" and find the Web Management rule in the list. It should be enabled for all profiles.
 
@@ -228,7 +228,7 @@ If you are using a 3rd party firewall, make sure inbound TCP connections on port
 
 If Visual Studio is able to contact the Management Service, the error message changes:
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image13.png)
+![Screenshot of the Visual Studio Error List page. A description of an error is shown.](troubleshooting-common-problems-with-web-deploy/_static/image13.png)
 
 Web deployment task failed.(Could not connect to the destination computer ("deployserver"). On the destination computer, make sure that Web Deploy is installed and that the required process ("The Web Management Service") is started.)
 
@@ -248,13 +248,13 @@ If you look in the Web Management Service log under `%SystemDrive%\Inetpub\logs\
 
 **Is the Web Deployment IIS7 Deployment Handler installed?** If Web Deploy is installed and you still get this error, make sure the "IIS 7 Deployment Handler" feature in Web Deploy is installed. In "Add Remove Programs", find "Microsoft Web Deploy 2.0", right click and choose "Change". In the Wizard that comes up, click next on the first page, and then choose "Change" on the second page. Add "IIS 7 Deployment Handler" and everything under it.
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image15.png)
+![SCreenshot of the Microsoft Web Deploy two dot zero Setup wizard. The Web Development Framework option is selected.](troubleshooting-common-problems-with-web-deploy/_static/image15.png)
 
 Click **Next** to complete the Wizard.
 
 Once Web Deploy and the Web Management Service are correctly configured, you will need to set up Web Management Service delegation rules to allow users to update content. For permissions issues, there are several different errors you may see in Visual Studio. For example:
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image17.png)
+![Screenshot of the Visual Studio Error List page. An error appears along with a description of the error.](troubleshooting-common-problems-with-web-deploy/_static/image17.png)
 
 Web deployment task failed.(Connected to the destination computer ("deployserver") using the Web Management Service, but could not authorize. Make sure that you are using the correct user name and password, that the site you are connecting to exists, and that the credentials represent a user who has permissions to access the site.)
 
@@ -280,13 +280,13 @@ You will need to setup delegation for this user per the instructions at [https:/
 
 If the account is able to log in, but has not been granted the rights needed to publish the content, you will see
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image17.png)
+![Screenshot of the Visual Studio Error List page with an error description. The web deployment task has failed.](troubleshooting-common-problems-with-web-deploy/_static/image17.png)
 
 Web deployment task failed. (Unable to perform the operation ("Create Directory") for the specified directory ("bin"). This can occur if the server administrator has not authorized this operation for the user credentials you are using.
 
 The WMSvc log will show HTTP 200 responses for these requests. The most likely cause is file system permissions. Web Deploy will also write events to the "Microsoft Web Deploy" service log. To view it, open the event viewer and go to "Applications and Services Logs" -&gt;"Microsoft Web Deploy".
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image22.png)
+![Screenshot of the Visual Studio Error List page. A description of an error says that the Web deployment task failed.](troubleshooting-common-problems-with-web-deploy/_static/image22.png)
 
 For this particular error, the event log contains extra detail (truncated for brevity):
 
@@ -294,7 +294,7 @@ For this particular error, the event log contains extra detail (truncated for br
 
 This message tells you where permissions need to be granted for this particular error. Another permissions error you may see in Visual Studio is
 
-![](troubleshooting-common-problems-with-web-deploy/_static/image23.png)
+![Screenshot of the Event Viewer navigation tree. The Microsoft Web Deploy option is selected.](troubleshooting-common-problems-with-web-deploy/_static/image23.png)
 
 Web deployment task failed.((5/12/2011 11:31:41 AM) An error occurred when the request was processed on the remote computer.)
 
