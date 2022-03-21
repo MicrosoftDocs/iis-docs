@@ -24,15 +24,15 @@ You can run an operation on all of the servers in the farm, or you can perform a
 
     - To perform operations on all servers in the farm, select the name of the server farm in the **Connections** pane, and then in the **Actions** pane, click **Server Farm Operations**.   
   
-        [![](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image3.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image1.png)
+        [![Image of Connections pane displaying name of the server farm selected and Server Farm Operations chosen from Actions pane in I I S Manager console.](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image3.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image1.png)
     - To perform server operations on a specific server, select the server in the **Server** pane, and then in the **Actions** pane, click **Server Operations**.   
   
-        [![](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image7.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image5.png)
+        [![Screenshot of I I S Manager console with Servers selected from the Server pane and Serve Operations option highlighted in Actions pane.](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image7.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image5.png)
 2. In the **Server Operations** dialog box, select the category of operation you want, and then select the operation to execute.
 3. If required, provide values for the parameters for the operation.
 4. Click **Run**.  
   
-    [![](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image11.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image9.png)
+    [![Screenshot of Server Farm Operations dialog box displaying fields for Service Name Service Status and Ignore Service Errors.](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image11.png)](running-server-operations-using-the-web-farm-framework-20-for-iis/_static/image9.png)
 
 A dialog box is displayed that indicates the operation that is currently being performed. When the operation completes, the results of the operation are displayed. On the **Servers** page, you can view the operation currently running.
 

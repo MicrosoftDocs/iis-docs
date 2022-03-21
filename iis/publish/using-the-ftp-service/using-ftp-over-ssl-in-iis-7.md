@@ -68,11 +68,11 @@ In this optional task you will create a self-signed SSL certificate that you wil
 
 1. Open the Internet Information Services (IIS 7.0) Manager.
 2. Click your computer at the top node of the **Connections** tree, then double-click the **Server Certificates** feature.  
-    ![](using-ftp-over-ssl-in-iis-7/_static/image1.png)
+    ![Screenshot that shows the MY SERVER Home pane. Sever Certificates is selected.](using-ftp-over-ssl-in-iis-7/_static/image1.png)
 3. Click **Create Self-Signed Certificate** in the **Actions** pane.  
-    ![](using-ftp-over-ssl-in-iis-7/_static/image5.png)
+    ![Screenshot that shows the Sever Certificates pane.](using-ftp-over-ssl-in-iis-7/_static/image5.png)
 4. Enter "My FTP Certificate" as the name for the new certificate, then click **OK**.  
-    ![](using-ftp-over-ssl-in-iis-7/_static/image9.png)
+    ![Screenshot that shows the Create Self Signed Certificate dialog box.](using-ftp-over-ssl-in-iis-7/_static/image9.png)
 
 <a id="03"></a>
 
@@ -84,7 +84,7 @@ In this first step, you create a new FTP site that can only be opened using your
 
 1. Go to IIS 7.0 Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-    ![](using-ftp-over-ssl-in-iis-7/_static/image13.png)
+    ![Screenshot that shows the context menu for Sites, in the Connections pane.](using-ftp-over-ssl-in-iis-7/_static/image13.png)
 3. When the **Add FTP Site** wizard appears:
 
    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
@@ -94,7 +94,7 @@ In this first step, you create a new FTP site that can only be opened using your
 
    - Click **Next**.
 
-     ![](using-ftp-over-ssl-in-iis-7/_static/image1.jpg)
+     ![Screenshot shows the Site Information page in the Add F T P Site dialog box.](using-ftp-over-ssl-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard:
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will use the administrator account later in this walk-through, make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -104,7 +104,7 @@ In this first step, you create a new FTP site that can only be opened using your
    - Make sure that the **Allow SSL** option is selected.
    - Click **Next**.
 
-     ![](using-ftp-over-ssl-in-iis-7/_static/image7.jpg)
+     ![Screenshot that shows the Binding and S S L Settings page in the Add F T P Site dialog box. Allow S S L is selected.](using-ftp-over-ssl-in-iis-7/_static/image7.jpg)
 5. On the next page of the wizard:
 
    - Select **Basic** for the **Authentication** settings.
@@ -115,7 +115,7 @@ In this first step, you create a new FTP site that can only be opened using your
        - Select **Read** and **Write** for the **Permissions** option.
    - When you have completed these items, click **Finish**.
 
-     ![](using-ftp-over-ssl-in-iis-7/_static/image9.jpg)
+     ![Screenshot that shows the Authentication and Authorization Information page in the Add F T P Site dialog box. Basic, Read, and Write are all selected.](using-ftp-over-ssl-in-iis-7/_static/image9.jpg)
 
 #### Summary
 
@@ -133,11 +133,11 @@ To recap the items that you completed in this step:
 The SSL policy for FTP is customizable on a site-by-site basis. Different settings can be specified for the control and data channels. In this step, you configure additional SSL settings for your FTP site that ensure that all user credentials are encrypted, even if all other FTP activity is not.
 
 1. Go to the IIS 7.0 Manager. Click the node for the FTP site that you created in Step 1. The icons for all of the FTP features display.  
-    ![](using-ftp-over-ssl-in-iis-7/_static/image17.png)
+    ![Screenshot that shows the My New F T P Site Home pane.](using-ftp-over-ssl-in-iis-7/_static/image17.png)
 2. In order to configure the SSL options, double-click the **FTP SSL Settings** icon to open the SSL settings feature page.  
-    ![](using-ftp-over-ssl-in-iis-7/_static/image21.png)
+    ![Screenshot that shows the My New F T P Site Home pane with F T P S S L Settings selected.](using-ftp-over-ssl-in-iis-7/_static/image21.png)
 3. When the **FTP SSL Settings** page displays, select the **Custom** option, and then click the **Advanced** button.  
-     ![](using-ftp-over-ssl-in-iis-7/_static/image25.png)
+     ![Screenshot that shows the F T P S S L Settings pane. Custom is selected.](using-ftp-over-ssl-in-iis-7/_static/image25.png)
 4. When the **Advanced SSL Policy** dialog box is displayed:
 
     - Select the **Require only for credentials** option for the control channel.
@@ -151,9 +151,9 @@ The SSL policy for FTP is customizable on a site-by-site basis. Different settin
        > This setting allows the client to choose whether to encrypt any data channel activity.
 
     - When you have completed these items, click **OK**.  
-        ![](using-ftp-over-ssl-in-iis-7/_static/image29.png)
+        ![Screenshot that shows the Advanced S S L Policy dialog box.](using-ftp-over-ssl-in-iis-7/_static/image29.png)
 5. On the **FTP SSL Settings** page, click **Apply** in the **Actions** pane to save the SSL settings.  
-    ![](using-ftp-over-ssl-in-iis-7/_static/image33.png)
+    ![Screenshot that shows the F T P S S L Settings pane. Apply and Cancel are listed in the Actions pane.](using-ftp-over-ssl-in-iis-7/_static/image33.png)
 
 #### Summary
 

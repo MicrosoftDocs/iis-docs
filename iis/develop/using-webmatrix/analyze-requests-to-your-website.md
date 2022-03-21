@@ -45,11 +45,11 @@ When you make requests, you can view the results in real-time so that you can id
     > [!NOTE]
     > If you do not already have a site, you can open the default site (Website1) or add a new one by choosing **Site from Web Gallery**, **Site From Template**, or **Site From Folder**.   
   
-    [![](analyze-requests-to-your-website/_static/image3.png)](analyze-requests-to-your-website/_static/image1.png)
+    [![Screenshot that shows the Web Matrix Beta Quick Start page.](analyze-requests-to-your-website/_static/image3.png)](analyze-requests-to-your-website/_static/image1.png)
 
     WebMatrix opens your site. This walkthrough uses the Bakery website as an example.
   
-    [![](analyze-requests-to-your-website/_static/image7.png)](analyze-requests-to-your-website/_static/image5.png)
+    [![Screenshot that shows Web Matrix for the Bakery website example.](analyze-requests-to-your-website/_static/image7.png)](analyze-requests-to-your-website/_static/image5.png)
 3. On the **Home** tab, click **Requests**.
 4. View your site in a browser by using one of the following: 
 
@@ -57,7 +57,7 @@ When you make requests, you can view the results in real-time so that you can id
     - Press **F12**.
 5. View the results of your request in the content pane.  
   
-    [![](analyze-requests-to-your-website/_static/image11.png)](analyze-requests-to-your-website/_static/image9.png)  
+    [![Screenshot that shows Capture Requests selected in the Requests tab.](analyze-requests-to-your-website/_static/image11.png)](analyze-requests-to-your-website/_static/image9.png)  
   
    While viewing the results, you can also do the following: 
 
@@ -65,13 +65,13 @@ When you make requests, you can view the results in real-time so that you can id
    - In the ribbon, in the **Requests** tab, click **Only Errors** to show only the results that are errors. Click **Only Errors** again to show the full list of results.
    - Click **Ignore Images** to ignore the results that are related to image errors, such as 404.0 File Not Found, where the image doesn't exist on the Web server. Click **Ignore Images** again to show the full list of results.
   
-     [![](analyze-requests-to-your-website/_static/image15.png)](analyze-requests-to-your-website/_static/image13.png)
+     [![Screenshot that shows Ignore Images selected in the Requests tab.](analyze-requests-to-your-website/_static/image15.png)](analyze-requests-to-your-website/_static/image13.png)
 6. In the list, select a request to view detailed information about the request, such as the status, details, and recommendations. If the request is an error, this will help you diagnose and fix the cause.  
   
-    [![](analyze-requests-to-your-website/_static/image19.png)](analyze-requests-to-your-website/_static/image17.png)
+    [![Screenshot that shows Capture Requests selected in the Requests tab. The seventh item listed is selected.](analyze-requests-to-your-website/_static/image19.png)](analyze-requests-to-your-website/_static/image17.png)
 7. If the request is an error, click **Edit** in the subpane to open the file that contains the error and fix the file.   
    You can also click **More Information** to get more information about the HTTP status code and possible solutions to the error from the Microsoft Support web page.
 8. After you resolve the error, return to the **Site** workspace and open **Requests** again. Click **Clear All** to remove the cached requests.  
   
-    [![](analyze-requests-to-your-website/_static/image23.png)](analyze-requests-to-your-website/_static/image21.png)
+    [![Screenshot that shows Web Matrix for the Bakery website example. Clear All is selected on the toolbar.](analyze-requests-to-your-website/_static/image23.png)](analyze-requests-to-your-website/_static/image21.png)
 9. When you re-run the page, the resolved error will no longer appear in the results list.

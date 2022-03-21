@@ -40,7 +40,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Management Tools**, and then select **Management Service**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Image of Web Server I I S and Management Tools pane expanded with Management Service selected.](index/_static/image2.png)](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -50,7 +50,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **Web Management Tools**, and then select **IIS Management Service**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of Internet Information Services and Web Management Tools pane expanded with I I S Management Service selected.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -60,7 +60,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Management Service**, and then click **Next**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Image of Select Role Services page with Management Tools pane expanded and Management Service selected.](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -70,7 +70,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **Web Management Tool**.
 4. Select **IIS Management Service**, and then click **OK**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Image of Management Service feature dialog box with Enable remote connections selected.](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -95,9 +95,9 @@ The default installation of IIS 7 and later does not include the **Management Se
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **Management Service**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of Servers Home pane displaying Management Service highlighted.](index/_static/image10.png)](index/_static/image9.png)
 4. On the **Management Service** page, choose **Windows credentials or IIS Manager credentials**, then click **Apply** in the **Actions** pane.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    [![Screenshot of Management Service page with Windows Credentials or I I S Manager Credentials selected.](index/_static/image12.png)](index/_static/image11.png)
 
 ### How to add IIS Manager user credentials to a server
 
@@ -119,11 +119,11 @@ The default installation of IIS 7 and later does not include the **Management Se
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **IIS Manager Users**.  
-    [![](index/_static/image14.png)](index/_static/image13.png)
+    [![Screenshot of servers Home pane displaying I I S Manager Users highlighted.](index/_static/image14.png)](index/_static/image13.png)
 4. On the **IIS Manager Users** page, click **Add User...** in the **Actions** pane.  
-    [![](index/_static/image16.png)](index/_static/image15.png)
+    [![Screenshot of I I S Manager Users page.](index/_static/image16.png)](index/_static/image15.png)
 5. In the **Add User** dialog box, enter the user name and password, and then click **OK**.  
-    [![](index/_static/image18.png)](index/_static/image17.png)
+    [![Image of Add User dialog box showing User name and Password typed in the respective fields.](index/_static/image18.png)](index/_static/image17.png)
 
 <a id="005"></a>
 ## Configuration

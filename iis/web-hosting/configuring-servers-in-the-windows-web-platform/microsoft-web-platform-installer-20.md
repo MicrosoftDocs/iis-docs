@@ -17,7 +17,7 @@ The [Web Platform Installer 2.0](https://www.microsoft.com/web/downloads/platfor
 
 The following image shows the Web PI introductory screen:
 
-![](microsoft-web-platform-installer-20/_static/image3.png)
+![Screenshot that shows the Web Platform Installer 2 point 0. The What's New tab is open.](microsoft-web-platform-installer-20/_static/image3.png)
 
 ## For Hosters
 
@@ -30,7 +30,7 @@ Web PI can help in the following scenarios:
 
 The following image shows an example of the **Web Platform** tab and a subset of the available components:
 
-[![](microsoft-web-platform-installer-20/_static/image5.png)](microsoft-web-platform-installer-20/_static/image4.png)
+[![Screenshot that shows the Web Platform Installer 2 point 0. The Web Platform tab is open.](microsoft-web-platform-installer-20/_static/image5.png)](microsoft-web-platform-installer-20/_static/image4.png)
 
 ## For Web Hosting Customers
 
@@ -41,7 +41,7 @@ Web PI can help in the following scenarios:
 
 The following image shows the **Web Applications** tab with the available components:
 
-![](microsoft-web-platform-installer-20/_static/image6.png)
+![Screenshot that shows the Web Platform Installer 2 point 0. The Web Applications tab is open.](microsoft-web-platform-installer-20/_static/image6.png)
 
 ## More Information
 

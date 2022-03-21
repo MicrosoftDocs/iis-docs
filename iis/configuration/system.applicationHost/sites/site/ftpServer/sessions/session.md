@@ -47,7 +47,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](session/_static/image2.png)](session/_static/image1.png) .
+    [![Screenshot of Web Server I I S and F T P Server pane expanded and F T P Extensibility highlighted.](session/_static/image2.png)](session/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -60,7 +60,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](session/_static/image4.png)](session/_static/image3.png)
+    [![Image of Internet Information Services and F T P Server pane expanded with F T P Extensibility selected.](session/_static/image4.png)](session/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -74,7 +74,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](session/_static/image6.png)](session/_static/image5.png)
+    [![Screenshot of F T P Server pane expanded with F T P Service highlighted.](session/_static/image6.png)](session/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -88,7 +88,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](session/_static/image8.png)](session/_static/image7.png)
+    [![Image of Internet F T P Server in Turn Windows Features on or off page expanded with F T P Extensibility and F T P Service selected.](session/_static/image8.png)](session/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -122,9 +122,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.  
-    [![](session/_static/image10.png)](session/_static/image9.png)
+    [![Image of sites Home pane with F T P Current Sessions highlighted.](session/_static/image10.png)](session/_static/image9.png)
 3. In the site's **Home** pane, double-click **FTP Current Sessions**.  
-    [![](session/_static/image12.png)](session/_static/image11.png)
+    [![Screenshot of F T P Current Sessions page.](session/_static/image12.png)](session/_static/image11.png)
 4. The currently active FTP sessions will be displayed in the list view. You can disconnect an active session by highlighting it in the list and then clicking **Disconnect Session** in the **Actions** pane.
 
 <a id="005"></a>

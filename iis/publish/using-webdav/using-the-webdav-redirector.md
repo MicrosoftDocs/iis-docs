@@ -64,17 +64,17 @@ To map a drive using the Map Network Drive Wizard, use the following steps:
 1. Open the Map Network Drive wizard. This can be accomplished by using one of the following methods:
 
     - Opening a folder in Windows Explorer and clicking **Tools**, then **Map Network Drive**:  
-        ![](using-the-webdav-redirector/_static/image1.jpg)
+        ![Screenshot of TEMP folder opened in Windows Explorer with Map Network Drive from Tools drop down list selected.](using-the-webdav-redirector/_static/image1.jpg)
     - Opening the **Network and Sharing Center** in the Windows Control Panel and clicking **Tools**, then **Map Network Drive**:  
-        ![](using-the-webdav-redirector/_static/image3.jpg)
+        ![Image of Network and Sharing Center in the Windows Control Panel with Map Network Drive selected from Tools drop down list.](using-the-webdav-redirector/_static/image3.jpg)
     - Right-clicking on the desktop icons for **Computer** or **Network**, then clicking **Map Network Drive**:  
-        ![](using-the-webdav-redirector/_static/image5.jpg)
+        ![Image of desktop icon for Computer opened with Map Network Drive selected from the drop down list.](using-the-webdav-redirector/_static/image5.jpg)
 2. When the Map Network Drive Wizard appears, enter the URL for your web site then click **Finish**:  
-    ![](using-the-webdav-redirector/_static/image7.jpg)
+    ![Image of Map Network Drive Wizard with U R L typed in folder field.](using-the-webdav-redirector/_static/image7.jpg)
 3. If prompted for credentials, enter your user name and password, then click **OK**.  
-    ![](using-the-webdav-redirector/_static/image9.jpg)
+    ![Image of dialog box prompting to enter user name and password for credentials.](using-the-webdav-redirector/_static/image9.jpg)
 4. Once these steps have been completed, the networked drive should open in Windows Explorer:  
-    ![](using-the-webdav-redirector/_static/image11.jpg)
+    ![Image of Network drive opened in Windows Explorer.](using-the-webdav-redirector/_static/image11.jpg)
 
 > [!NOTE]
 > If you receive an error, please see the [Troubleshooting the WebDAV Redirector](#003) section for more information.
@@ -98,7 +98,7 @@ To map a drive from a command prompt, use the following steps:
 
 The following image shows what this might look like:
 
-![](using-the-webdav-redirector/_static/image13.jpg)
+![Image of Command Prompt opened displaying the next available drive letter mapped to your web site.](using-the-webdav-redirector/_static/image13.jpg)
 
 > [!NOTE]
 > If you receive an error, please see the [Troubleshooting the WebDAV Redirector](#003) section for more information.
@@ -146,7 +146,7 @@ The following list of error conditions is designed to help troubleshoot situatio
 
 4. When attempting to map a drive to a WebDAV site using HTTPS, you are prompted with the following dialog:
 
-    ![](using-the-webdav-redirector/_static/image1.gif)
+    ![Screenshot of Select Certificate dialog box prompting you to select the certificate you want to use.](using-the-webdav-redirector/_static/image1.gif)
 
     This occurs when the SSL certificate for the site that you are using does not match the name of the address that you used. For example, you are connecting to a site named `www.contoso.com`, but your SSL certificate was issued to `shopping.contoso.com`.
 5. When attempting to map a drive to a WebDAV site, you receive the following error:
