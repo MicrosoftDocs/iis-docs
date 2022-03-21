@@ -183,7 +183,7 @@ This section contains the following procedures:
 
 1. In IIS Manager, open the Advanced Logging feature at the website level for which you want to change the log file directory.
 2. In the **Actions** pane, click **Edit Log Directory**.  
-    ![Screenshot of the Actions pane with a highlight on the Edit Log Directory option](advanced-logging-for-iis-custom-logging/_static/image24.jpg)
+    ![Screenshot of the Actions pane, highlighting the edit log directory option](advanced-logging-for-iis-custom-logging/_static/image24.jpg)
 3. In the **Edit Log Directory** dialog box, update the log directory path information for the website.  
     ![Screenshot of the Edit Log Directory dialog box, showing the site log directory path information](advanced-logging-for-iis-custom-logging/_static/image26.jpg)
 
