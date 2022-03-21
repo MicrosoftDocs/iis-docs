@@ -17,7 +17,7 @@ There is a feature called host name affinity that is designed specifically for s
 
 Below is a diagram of how a typical shared hosting deployment environment may look like:
 
-![](overview-of-shared-hosting-deployment-using-application-request-routing-20/_static/image2.jpg)
+![Diagram of a shared hosting deployment connecting different machines via the cloud.](overview-of-shared-hosting-deployment-using-application-request-routing-20/_static/image2.jpg)
 
 1. User requests `www.site2.com`.
 2. DNS is requested for `www.site2.com`.
@@ -37,7 +37,7 @@ While the above deployment works, it has the following disadvantages:
 
 The host name affinity feature in Application Request Routing enables shared hosters to rethink how sites are deployed. Application Request Routing affinitizes the requests, regardless of whether they are made from one client or multiple clients, to one server behind ARR, ensuring that a given site is consuming resources only on one of the servers. The below diagram illustrates this deployment environment:
 
-![](overview-of-shared-hosting-deployment-using-application-request-routing-20/_static/image4.jpg)
+![Diagram of a deployment environment showing servers and devices connected to the cloud.](overview-of-shared-hosting-deployment-using-application-request-routing-20/_static/image4.jpg)
 
 1. User requests `www.site2.com`.
 2. DNS is requested for `www.site2.com`.
