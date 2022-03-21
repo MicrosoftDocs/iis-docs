@@ -169,8 +169,8 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 | --- | --- | --- |
 | Optimized for streaming [Windows Media-based content](https://www.microsoft.com/windows/windowsmedia/forpros/prosolutions.mspx) | [![](windows-media-server-or-web-server/_static/image5.gif)](windows-media-server-or-web-server/_static/image4.gif) | **1![](windows-media-server-or-web-server/_static/image6.gif)** |
 | Delivers content through most [firewalls](https://www.microsoft.com/technet/security/guidance/networksecurity/firewall.mspx) | ![](windows-media-server-or-web-server/_static/image7.gif) | ![](windows-media-server-or-web-server/_static/image8.gif) |
-| Streams without downloading | ![](windows-media-server-or-web-server/_static/image9.gif) | ![](windows-media-server-or-web-server/_static/image10.gif) |
-| Broadcasts live content | ![](windows-media-server-or-web-server/_static/image11.gif) | **2![](windows-media-server-or-web-server/_static/image12.gif)** |
+| Streams without downloading | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | ![](windows-media-server-or-web-server/_static/image10.gif) |
+| Broadcasts live content | ![:::image type-"icon](windows-media-server-or-web-server/_static/image11.gif) | **2![](windows-media-server-or-web-server/_static/image12.gif)** |
 | Delivers content using multicast streaming | ![](windows-media-server-or-web-server/_static/image13.gif) | **3![](windows-media-server-or-web-server/_static/image14.gif)** |
 | Supports trick mode playback of on-demand files | ![](windows-media-server-or-web-server/_static/image15.gif) | **4![](windows-media-server-or-web-server/_static/image16.gif)** |
 | Delivers content protected with [Digital Rights Management](https://www.microsoft.com/windows/windowsmedia/forpros/drm/default.mspx) | ![](windows-media-server-or-web-server/_static/image17.gif) | ![](windows-media-server-or-web-server/_static/image18.gif) |
