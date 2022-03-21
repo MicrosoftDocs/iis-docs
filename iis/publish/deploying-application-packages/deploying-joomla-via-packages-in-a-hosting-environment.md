@@ -86,10 +86,10 @@ D. Export the Package from the IIS Application Web Site
 1. Open Internet Information Services (IIS) Manager.
   
    The Internet Information Services (IIS) Manager application opens.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image1.jpg)
+   ![Screenshot of the Internet Information Services Manager Window. The Sites folder is highlighted.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image1.jpg)
 2. Expand your server connection, and click **Sites**.
 3. In the Actions area, click the **Add Web Site** link. The Add Web Site dialog box appears.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image3.jpg)
+   ![Screenshot of the Add Web Site dialog box.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image3.jpg)
 4. Enter a site name for your Web site.
 5. In the Physical path field, type the physical path to the folder in which the application is installed, or click the browse button (...) to navigate to the folder.
 6. In the Binding area, select the protocol for your Web site from the Type drop-down list.
@@ -102,16 +102,16 @@ D. Export the Package from the IIS Application Web Site
 #### B. Install the Application to the IIS Application Web Site
 
 1. Open Web Platform Installer (Web PI) locally from the Web server. The Web Platform Installer application opens.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image5.jpg)
+   ![Screenshot of the Web Platform Installer window. The Joomla application is highlighted.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image5.jpg)
 2. Select **Joomla!**, and click **Install**. The Web Platform Installation window appears.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image7.jpg)
+   ![Screenshot of the Web Platform Installation window.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image7.jpg)
 3. Click **I Accept** to accept the end-user license agreement.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image9.jpg)
+   ![Screenshot of the Web Platform Installation window displaying Step 1 of 2.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image9.jpg)
 4. From the Web Site drop-down list, select the Web site you created earlier in this procedure.
 5. In the application name field, enter an application name if it is different from the default value.  
    The remaining fields are populated automatically based on your Web site information.
 6. Click **Continue**.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image11.jpg)
+   ![Screenshot of the Web Platform Installation window displaying Step 2 of 2.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image11.jpg)
 7. From the Create a new or use an existing database drop-down list, select **Create new database**.
 8. Enter the following information in the appropriate fields to create a new database:  
 
@@ -129,12 +129,12 @@ D. Export the Package from the IIS Application Web Site
    > [!NOTE]
    > You must scroll down to view all required fields.
 9. Click **Continue**.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image13.jpg)
+   ![Screenshot of the Web Platform Installation window displaying the successful installation message.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image13.jpg)
 10. Once the Web PI process is complete, you can do one of the following:
 
     - Click **Finish** to complete the installation process. If you click Finish to complete the installation process, proceed to step C. Enable Permalinks (Optional) to continue creating an application package for deployment.
     - Click **Launch Joomla!** to launch your Joomla application. If you click Launch Joomla! link, the Joomla! application page appears:  
-        ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image15.jpg)
+        ![Screenshot of a browser window displaying the Joomla! application page.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image15.jpg)
 
 For information about setting up your Joomla! site, refer to the link: [*Joomla! documentation Web page*](http://help.joomla.org/).
 
@@ -160,47 +160,47 @@ By default, Joomla uses query string parameters for all the URLs it generates fo
 
 1. Open IIS Manager.  
    The Internet Information Services (IIS) Manager application opens.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image17.jpg)
+   ![Screenshot of the I I S Manager Window. The sites page is open and Joomla! is highlighted.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image17.jpg)
 2. In the Connections navigation pane, expand **Sites**, and select the Web site you just created.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image19.jpg)
+   ![Screenshot of the I I S Manager window displaying the connections navigation pane.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image19.jpg)
 3. Click the **Export Application** link located in the Deploy section of the Actions pane.  
   
    The Export Application Package (Select the Contents of the Package) dialog box appears.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image21.jpg)
+   ![Screenshot of the Export APplication Package dialog box. Web Application (Joomla!) is highlighted.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image21.jpg)
 4. Click **Manage Components**.  
 
    The Manage Components dialog box appears.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image23.jpg)
+   ![Screenshot of the Manage Components dialog box.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image23.jpg)
 5. Double-click the second row of the Provider Name column.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image25.jpg)
+   ![Screenshot of the Manage Components dialog box with the drop down menu of the Provider name column displayed.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image25.jpg)
 6. Select **dbMySql** from the drop-down list.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image27.jpg)
+   ![Screenshot of the Manage Components dialog box with d b My S Q L selected in the drop down list.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image27.jpg)
 7. Double-click the second row of the Path column, and enter the connection string for your package export.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image29.jpg)
+   ![Screenshot of the Manage Components dialog box with the Path field displayed.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image29.jpg)
 8. Click outside of the box in which you entered the connection string, and click **OK**.  
 
    The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image31.jpg)
+   ![Screenshot of the Application Package Select Parameters dialog box.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image31.jpg)
 9. Rename the parameters:
 
     - Select **Parameter 1**, and click **Edit**.  
 
        The Edit Parameter dialog box appears.  
-       ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image33.jpg)
+       ![Screenshot of the Edit Parameter dialog box.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image33.jpg)
     - Enter **SiteName** in the Name field, and click **OK**.
     - Repeat these steps to rename Parameter 2 to "ConnectionString."
 
        The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.  
-       ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image35.jpg)
+       ![Screenshot of the Export Application Package Select Parameters dialog box displaying the renamed parameter.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image35.jpg)
 10. Click **Next**.
 
     The Export Application Package (Save Package) dialog box appears.  
-    ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image37.jpg)
+    ![Screenshot of the Export Application Package Save Package dialog box displaying the package path info.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image37.jpg)
 11. Enter the path to the application package, or click Browse to locate the application file.
 12. Click **Next**.
 
     The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
-    ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image39.jpg)
+    ![Screenshot of the Export Application Package on the Export Progress and Summary page. The Summary tab is displayed.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image39.jpg)
 13. Click **Finish**.Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.
 
 <a id="\_Ref279656893"></a>
@@ -235,7 +235,7 @@ To create a customer application database, complete these steps:
 5. Type this command to grant permissions, and press **Enter**.  
    `mysql&gt; grant all on Joomla. \* to ‘Joomla01'@'localhost';`
 
-![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image41.jpg)
+![Screenshot of a command line prompt displaying the My S Q L database creation steps.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image41.jpg)
 
 > [!TIP]
 > You can automate this process using a script similar to the one described in the section MySQL Database Creation Script.
@@ -268,21 +268,21 @@ The examples in this topic show how to import Joomla! into an IIS Web site and i
 
 1. Download the latest stable version of MySQL from the [official website](http://www.mysql.com/) and run the installer on a dedicated **database server.**  
    The MySQL Server Instance Configuration Wizard appears.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image43.jpg)
+   ![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The Dedicated My S Q L Server Machine type is selected.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image43.jpg)
 
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image45.jpg)
+   ![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box displaying the settings options.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image45.jpg)
 2. Click the **Dedicated MySQL Server Machine** option button, and click **Next**.
 3. Click **Next**.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image47.jpg)
+   ![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box. The Online Transaction Processing (O L T P) connection type is selected.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image47.jpg)
 4. For concurrent connections, click the **Online Transaction Processing (OLTP)** option button (since this option reflects the workload of a typical shared hosting database server), and then click **Next**.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image49.jpg)
+   ![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box displaying the networking options. Enable T C P/ I P Networking option is selected.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image49.jpg)
 5. Click the **Enable TCP/IP Networking** check box, and then click the **Add firewall exception for this post** check box.
 6. Clear the **Enable Strict Mode** check box if it is checked.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image51.jpg)
+   ![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box displaying the default character setting options. The Best Support for Multilingualism option is selected.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image51.jpg)
 7. Click the Best Support For Multilingualism option button to enable support for the UTF-8 character set.  
     **IMPORTANT!** You must choose the Best Support for Multilingualism option button since several applications in the Web Application Gallery require UTF-8 support in the database.
 8. Click **Next**.  
-   ![](deploying-joomla-via-packages-in-a-hosting-environment/_static/image53.jpg)
+   ![Screenshot of the My S Q L Server Instance Configuration Wizard dialog box displaying the windows options page. The box for Include Bin Directory in Windows PATH is checked.](deploying-joomla-via-packages-in-a-hosting-environment/_static/image53.jpg)
 9. Click the **Include Bin Directory in Windows PATH** check box, and click **Next**.
 10. Since MySQL is installed on the database server (which is different than the Web server that runs the Web Deploy web server component), you must complete these steps to ensure Web Deploy can access the database server:  
 

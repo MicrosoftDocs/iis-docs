@@ -36,7 +36,7 @@ Before starting the installation procedure for Mambo, create a database on your 
 
 Enable write permission on the Mambo directory for the account that your web server uses for impersonation. For example, if you have configured the web site to impersonate Anonymous users to "Internet Guest Account" (IUSR\_\*), then you must grant this user write access to the directory:
 
-![](mambo-on-iis/_static/image1.png)
+![Screenshot of the Permissions for mambo dialog box. The Security Tab is displayed.](mambo-on-iis/_static/image1.png)
 
 ## Configure the Application
 
@@ -46,17 +46,17 @@ Enable write permission on the Mambo directory for the account that your web ser
     > [!NOTE]
     > You can safely ignore the Session save path at this stage. If it is not set, Mambo will still function.  
 
-    ![](mambo-on-iis/_static/image3.png)
+    ![Screenshot of a web browser screen displaying the Mambo Setup page. The results of the pre-installation check are displayed. ](mambo-on-iis/_static/image3.png)
 3. On the next page Mambo, asks you to enter the DB information. Enter the correct information and click "Next &gt;&gt;".  
 
     > [!NOTE]
     > If your MySQL Server is configured to have strict mode enabled, then this step may fail. You must disable strict mode for MySQL in order for Mambo to succeed with the database setup.
 
-    ![](mambo-on-iis/_static/image5.png)
+    ![Screenshot of a web browser screen displaying the Mambo Installation website. The step 1 tab is displayed.](mambo-on-iis/_static/image5.png)
 4. Enter your site's name. This is the global title of your Mambo-driven site. Enter a name, then press "Next &gt;&gt;"  
-    ![](mambo-on-iis/_static/image7.png)
+    ![Screenshot of a web browser screen displaying the Mambo Installation website. The step 2 tab is displayed.](mambo-on-iis/_static/image7.png)
 5. In the next step, enter details for your site. The URL should be set to the external sitename to ensure proper configuration. In a local test setup, the URL may have an extra Mambo at the end (for example, `http://localhost/Mambo/Mambo`). Enter your administrator email and password. The final two options should be left in the default choices. Press "Next &gt;&gt;"  
-    ![](mambo-on-iis/_static/image9.png)
+    ![Screenshot of a web browser screen displaying the Mambo Installation website. The step 3 tab is displayed.](mambo-on-iis/_static/image9.png)
 6. You are now finished setting up Mambo. Record your admin password. Delete the "installation" folder from `C:\Inetpub\wwwroot\Mambo`  
 
     > [!NOTE]
