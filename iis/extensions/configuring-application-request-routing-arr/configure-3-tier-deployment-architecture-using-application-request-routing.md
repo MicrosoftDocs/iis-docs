@@ -15,7 +15,7 @@ by IIS Team
 
 This topic leads you through the steps to configure a 3-tier deployment architecture using Application Request Routing. The 3-tier deployment architecture consists of a Web tier, an application server tier, and a data tier, as shown below:
 
-![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image1.jpg)
+![Diagram of three tiers of architecture deployment and their connections to one another.](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image1.jpg)
 
 Typically in this deployment scenario, static content is served by the tier 1 servers while dynamic content is served by the business logic in tier 2 servers.
 

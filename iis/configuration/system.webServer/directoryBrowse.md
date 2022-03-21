@@ -41,7 +41,7 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **Directory Browsing**. Click **Next**.  
-    [![](directoryBrowse/_static/image2.png)](directoryBrowse/_static/image1.png) .
+    [![Screenshot of the Directory Browsing option being highlighted and selected](directoryBrowse/_static/image2.png)](directoryBrowse/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -51,7 +51,7 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **Directory Browsing**.  
-    [![](directoryBrowse/_static/image4.png)](directoryBrowse/_static/image3.png)
+    [![Screenshot of the Common HTTP Features folder and its contained folders, including the highlighted Directory Browsing Folder](directoryBrowse/_static/image4.png)](directoryBrowse/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -61,7 +61,7 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Directory Browsing**, and then click **Next**.  
-    [![](directoryBrowse/_static/image6.png)](directoryBrowse/_static/image5.png)
+    [![The Roles Services section with the Directory Browisng (Installed) option being highlighted](directoryBrowse/_static/image6.png)](directoryBrowse/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -71,7 +71,7 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, then expand **Common Http Features**.
 4. Select **Directory Browsing**, and then click **OK**.  
-    [![](directoryBrowse/_static/image8.png)](directoryBrowse/_static/image7.png)
+    [![Screenshot of the Common Http Features folder with the Directory Browsing folder being selected and highlighted](directoryBrowse/_static/image8.png)](directoryBrowse/_static/image7.png)
 
 <a id="004"></a>
 ## How To
@@ -96,9 +96,9 @@ If directory browsing has been uninstalled, you can reinstall it using the follo
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then go to the site, application, or directory where you want to enable directory browsing.
 3. In the **Home** pane, double-click **Directory Browsing**.  
-    [![](directoryBrowse/_static/image10.png)](directoryBrowse/_static/image9.png)
+    [![The Directory Browsing shortcut is highlighted](directoryBrowse/_static/image10.png)](directoryBrowse/_static/image9.png)
 4. In the **Actions** pane, click **Enable**.   
-    [![](directoryBrowse/_static/image12.png)](directoryBrowse/_static/image11.png)
+    [![The Directory Browsing screen with the Time, Size, and Extension options enabled](directoryBrowse/_static/image12.png)](directoryBrowse/_static/image11.png)
 5. In the **Directory Browsing** pane, select the options that correspond to the information you want to display for each item in the directory, and then click **Apply**.
 
 <a id="005"></a>
