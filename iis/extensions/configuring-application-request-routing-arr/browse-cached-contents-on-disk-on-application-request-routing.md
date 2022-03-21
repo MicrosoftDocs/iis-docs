@@ -39,16 +39,16 @@ The ability to view the cached contents on ARR is a UI feature that is implement
 1. Launch IIS Manager.
 2. Select and expand the root of the server.
 
-    ![](browse-cached-contents-on-disk-on-application-request-routing/_static/image2.jpg)
+    ![Screenshot of an expanded A R R 1 server in the I I S Manager.](browse-cached-contents-on-disk-on-application-request-routing/_static/image2.jpg)
 3. Double-click **Application Request Routing Cache**.
 4. In the **Actions** pane, click **Browse Content**.
 
-    ![](browse-cached-contents-on-disk-on-application-request-routing/_static/image3.jpg)
+    ![Screenshot of the Actions pane with Browse Content in the Cache Management section.](browse-cached-contents-on-disk-on-application-request-routing/_static/image3.jpg)
 5. The contents appear similar to Windows Explorer. However, this view has an advantage over Windows Explorer in that given a host name, the contents may be cached on several drive locations based on CARP. Rather than browsing through the physical cache drive locations, the browse functionality in ARR aggregates the cached contents and provides a consolidated view.  
    
    You can further navigate the cached contents by clicking on the bread crumb or double-clicking the folders.
 
-    [![](browse-cached-contents-on-disk-on-application-request-routing/_static/image5.jpg)](browse-cached-contents-on-disk-on-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the Cache Content pane with a list of files and their cache locations on the hard drive.](browse-cached-contents-on-disk-on-application-request-routing/_static/image4.jpg)
 
     > [!NOTE]
     > The browse functionality allows the user to view only the cached contents on the primary drives. More explicitly, it does not include the contents shown in the secondary drive. This is by design. ARR will cache both the uncompressed files as well as the compressed files based on the supported encoding by the client and the server. In addition, you may also see different segments of files due to the way the [byte-range requests are supported in ARR](configure-byte-range-request-segment-size-in-application-request-routing.md).
@@ -70,7 +70,7 @@ In the above example, selecting ***any*** one of the files will remove ***all***
 1. While browsing, select a folder or a file that you want to delete.
 2. In the **Actions** pane, click **Delete Selected Cached Object**. 
 
-    ![](browse-cached-contents-on-disk-on-application-request-routing/_static/image6.jpg)
+    ![Screenshot of the Actions pane with Delete Selected Cached Object in the Delete Cached Objects section.](browse-cached-contents-on-disk-on-application-request-routing/_static/image6.jpg)
 3. In the confirmation dialog box, click **Yes**.
 4. The cached content has been removed from both the primary cache drive location(s) and the secondary cache drive location, if configured.
 
