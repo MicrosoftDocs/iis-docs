@@ -168,13 +168,13 @@ The required steps include:
 
 8. The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
 
-   ![](configuration-extensibility/_static/image1.jpg)
+   ![Screenshot of accessing local host in a web browser.](configuration-extensibility/_static/image1.jpg)
 
 If you get an error, make sure that you have given the IIS\_IUSRS group permissions to write to the directory.
 
 Open `%systemdrive%\inetpub\logs\simpleLogs` (or whatever directory you used in the configuration) and you have a .log file named with today's date. Open the file and you see something like this:
 
-![](configuration-extensibility/_static/image3.jpg)
+![Screenshot of a log file with the time stamps of the accessed directories for the local host website.](configuration-extensibility/_static/image3.jpg)
 
 Experiment with the configuration to ensure that it is working. Try removing the **simpleLogging** section from your web.config file and check to see if the logs go to the default location (just ensure that the ASPNET user has the correct permissions).
 

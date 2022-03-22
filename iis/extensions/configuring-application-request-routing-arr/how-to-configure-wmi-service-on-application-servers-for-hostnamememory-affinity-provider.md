@@ -57,17 +57,17 @@ The following steps are to be performed on ***all the application servers in the
 3. Navigate to **Component Services -&gt; Computers -&gt; My Computer**.
 4. Right click on **My Computer** and select **Properties**:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image3.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image2.jpg)
+    ![Screenshot of the My Computer Properties dialog box. The General tab is displayed.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image2.jpg)
 5. Select **COM Security** tab:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image5.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image4.jpg)
+    ![Screenshot of the My Computer Properties dialog box. The COM Security tab is displayed.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image4.jpg)
 6. Under **Launch and Activate Permissions**, select **Edit Limits.** Add the account of the worker process where ARR uses and allow:
 
    - Local Launch
    - Remote Launch
    - Remote Activation
 
-     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image7.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image6.jpg)
+     ![Screenshot of the Launch and Activate Permission dialog box display the security links tab.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image6.jpg)
 7. Click on **OK** to save the changes.
 
 ## Step 2 - Add user to Performance Monitor Users group
@@ -76,30 +76,30 @@ The following steps are to be performed on ***all the application servers in the
 2. Type **compmgmt**.
 3. Navigate to **Computer Management** -&gt; **System Tools** -&gt; **Local Users and Groups** -&gt; **Groups**:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image9.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image8.jpg)
+    ![Screenshot of the Computer Management console displaying the Groups screen.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image8.jpg)
 4. Select **Performance Monitor Users** group and add account of the worker process that ARR uses:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image11.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image10.jpg)
+    ![Screenshot of the Performance Monitor Users Properties dialog box displaying the General tab.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image10.jpg)
 5. Click on **OK** to save the changes.
 
 ## Step 3 - WMI Control
 
 1. On the same **Computer Management** console, navigate to **Services and Applications** and select **WMI Control**:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image13.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image12.jpg)
+    ![Screenshot of the Computer Management console displaying the Windows Management Instrumentation Control page.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image12.jpg)
 2. Right click on **WMI Control** and select **Properties**. Select **Security** tab:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image15.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image14.jpg)
+    ![Screenshot of the W M I Control Properties dialog box with the Security tab displayed.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image14.jpg)
 3. Navigate to **Root** -&gt; **CIMV2** and select **CIMV2**:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image17.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image16.jpg)
+    ![Screenshot of the W M I Control Properties dialog box with the Security tab displayed. The C I M V2 folder is highlighted.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image16.jpg)
 4. Click on **Security** and add account of the worker process that ARR uses. Allow the following permissions:
 
    - Execute Methods
    - Enable Account
    - Remote Enable
 
-     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image19.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image18.jpg)
+     ![Screenshot of the Security for ROOT\C I M V2 dialog box with the A R R group is highlighted.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image18.jpg)
 5. Click on **OK** to save the changes.
 
 ## Step 4 - Test configuration on ARR
@@ -110,7 +110,7 @@ The following steps are to be performed on ***all the application servers in the
 4. Select **Server Affinity** icon.
 5. Select **Microsoft.Web.Arr.HostNameMemory** provider under **Host name affinity provider** and select **Apply**:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image21.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image20.jpg)
+    ![Screenshot of the Host Name Affinity screen within I I S Manager.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image20.jpg)
 6. Note that the **Test...** button appears only after the change is applied. This is because the test must impersonate the identity of the worker process. Ensure that the test passes:
 
-    [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image23.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image22.jpg)
+    ![Screenshot of the Test Connectivity dialog box with test results displayed.](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image22.jpg)
