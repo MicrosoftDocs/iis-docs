@@ -20,15 +20,15 @@ To create a Visual Studio project for rewrite provider follow these steps:
 1. Open Microsoft Visual Studio 2008 or Microsoft Visual C# 2008 Express Edition.
 2. In the File menu select "New Project...".
 3. In the "New Project" dialog select the "Class Library" project template and name the project **ReplaceProvider**.  
-    [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image4.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image2.png)
+    [![Screenshot of the New Project dialog with Class Library project template option being highlighted.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image4.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image2.png)
 4. Remove the file **Class1.cs** added by default (since you will not be using that file) using the context menu **Delete** option in the Solution Explorer;
 5. Select "Add References..." from the Project menu and add references to **Microsoft.Web.Iis.Rewrite.dll** located in `%ProgramFiles%\Reference Assemblies\Microsoft\IIS`.
 6. Rewrite providers must be placed in the .NET Global Assembly Cache (GAC) in order to be visible for URL Rewrite Module. This requires the provider assembly DLL to be strongly named (signed). To sign the assembly, select the option "ReplaceProvider Properties..." from the "Project" menu.
 7. In the Signing tab check "Sign the assembly" check box.
 8. In the combo box, select the option &lt;New…&gt; to create a new key. In the "Create Strong Name Key" dialog, type DemoKey.snk as the name for the key and uncheck the Protect my key file with a password check box. Click OK.  
-    [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image8.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image6.png)  
+    [![Screenshot of the Create Strong Name Key dialog, which contains the Key file name, Enter password, and Confirm password fields.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image8.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image6.png)  
    The Signing tab should look as below:  
-    [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
+    [![Screenshot of the signing tab screen which has the entered key file name populate the Choose a strong name key file field.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
 9. Select the "Build Events" tab and add the following "Post-build event" command line:  
   
    CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
@@ -57,12 +57,12 @@ Once the provider has been successfully built and placed into the GAC, it needs 
 
 1. Open IIS Manager and select the URL Rewrite feature
 2. Click on the "View Providers..." action:  
-    [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image16.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image14.png)
+    [![Screenshot of the I I S Manager with a focus on the View Providers option in the Manage Providers section of the Actions pane.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image16.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image14.png)
 3. In the Providers page click Add Provider... action and then enter the provider name as ReplaceProvider and choose the provider type from the Managed Type: drop down list.  
-    [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image20.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image18.png)
+    [![Screenshot of the View Providers option in the Actions pane.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image20.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image18.png)
 4. Click OK to save the changes.
 5. Now click "Add Provider Setting..." action. Notice that the "Name:" drop down list shows the settings that were returned by the IProviderDescriptor.GetSettings() method. Select Old Character setting and enter "\_" as a value.  
-    [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image23.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image22.png)
+    [![Screenshot of the Edit Provider Setting screen within the Rewrite Providers section of the I I S Manager screen.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image23.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image22.png)
 6. Click OK to save the setting
 7. Repeat steps 5 and 6 but now choose "New Character" and specify "-" as a value. This means that the provider will be used to replace all occurrences of "\_" character with "-" character in the input string.
 
