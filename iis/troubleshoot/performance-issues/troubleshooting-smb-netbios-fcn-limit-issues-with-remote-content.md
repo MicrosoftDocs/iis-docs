@@ -38,11 +38,11 @@ How Can I tell what version is being used?
 
 In network monitor you can look at the "Protocol Name" and it will list either SMB for 1.0 or SMB2 for 2.0.
 
-![](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image1.png)
+![Screenshot of the Network Monitor pane.](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image1.png)
 
 Or if you don't want to depend on the Parsers you can use this trick the networking team shared with me. From the trace locate an NTCreate command. You might this NT Create AndX. In the frame details expand the SMB details. For SMB 1.0 the NTCreate command offset will be 0xA2 and in SMB 2.0 if will be 0x5. . Below is sample of an SMB 1.0 representation.
 
-![](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image3.png)
+![Screenshot of the Frame Details pane. The S M B Command field is highlighted in the expanded list. ](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image3.png)
 
 If you are using Windows 2008 or later and you are not using SMB 2.0 and the backend files server supports this then it could be disabled.
 
@@ -73,7 +73,7 @@ To verify this you will need to capture a network trace during the setup of the 
 
 In the network trace you are looking for the files servers response to the NEGOTIATE function. In this you will find the MaxMpxCount response from the file Server. If this is lower than the IIS server setting this will be the effective limit, so in the example above it will be 50
 
-![](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image5.png)
+![Screenshot of the Frame Details pane. The Max M P X Count field is highlighted.](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image5.png)
 
 What # should I set the MaxCMds and MaxMpxCt to? See the following reference.
 

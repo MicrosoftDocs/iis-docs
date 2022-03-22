@@ -29,7 +29,7 @@ Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot
 [!code-aspx[Main](user-friendly-url-rule-template/samples/sample1.aspx)]
 
 After copying this file, browse to `http://localhost/article.aspx` and check that the page was rendered correctly in a browser.  
-[![](user-friendly-url-rule-template/_static/image10.png)](user-friendly-url-rule-template/_static/image9.png)
+![Screenshot of a browser screen displaying the U R L Rewrite Module Test Page.](user-friendly-url-rule-template/_static/image9.png)
 
 ## Using rule template to generate rewrite rules
 
@@ -40,16 +40,16 @@ To use the template follow these steps:
 1. Go to IIS Manager
 2. Select "Default Web Site"
 3. In the Feature View click "URL Rewrite"  
-    [![](user-friendly-url-rule-template/_static/image13.png)](user-friendly-url-rule-template/_static/image12.png)
+    ![Screenshot of the I I S Manager window on the Default Website screen. The icon for U R L Rewrite is highlighted.](user-friendly-url-rule-template/_static/image12.png)
 4. In the "Actions" pane on right hand side click on "**Add rules…**" and then select "User Friendly URL" template:  
-    [![](user-friendly-url-rule-template/_static/image18.png)](user-friendly-url-rule-template/_static/image17.png)
+    ![Screenshot of the Add Rules dialog box. The icon for User-friendly U R L is highlighted.](user-friendly-url-rule-template/_static/image17.png)
 5. In the "Add rules to enable user friendly URLs" dialog enter an example of an URL with query string parameters: `http://localhost/article.aspx?id=123&title=some-title` and then expand the drop down list with suggested options for how that example URL can be transformed into a URL without query string.  
-    [![](user-friendly-url-rule-template/_static/image20.png)](user-friendly-url-rule-template/_static/image19.png)
+    ![Screenshot of the Add Rules to Enable User-Friendly U R L dialog box.](user-friendly-url-rule-template/_static/image19.png)
 6. Choose the second option: `http://localhost/article/123/some-title`. Notice that the URL pattern and Substitution URL have been updated accordingly. These will be used in the rewrite rule that will be created by the rule template. Check the "Create corresponding redirect rule" to create a redirect rule that will be used, when web clients used internal URL to request a web page. Those clients will be redirected to a corresponding public URL.  
  Also, check the "Create corresponding outbound rewrite rule" to create an outbound rule that will replace all instances of internal URLs in the response HTML with their public equivalents.  
-    [![](user-friendly-url-rule-template/_static/image22.png)](user-friendly-url-rule-template/_static/image21.png)
+    ![Screenshot of the Add Rules to Enable User-Friendly U R L dialog box. The corresponding public U R L field is highlighted. ](user-friendly-url-rule-template/_static/image21.png)
 7. Click "OK" so that the rewrite, redirect and outbound rules will be generated:  
-    [![](user-friendly-url-rule-template/_static/image24.png)](user-friendly-url-rule-template/_static/image23.png)
+    ![Screenshot of the I I S Manager Window displaying the U R L Rewrite page. The inbound and outbound rules are shown.](user-friendly-url-rule-template/_static/image23.png)
 
 ## Testing the rule
 
@@ -61,7 +61,7 @@ You should see that the rewrite rule on web server has changed the original URL 
 
 In the web broser move the mouse over othe "Link URL" text (or use menu "Page" -&gt; "View Source..."). Notice that even though the URL for the link was originally in a format that used query string parameters, it has been replaced by URL Rewrite Module to use hierarchy based URL format.
 
-[![](user-friendly-url-rule-template/_static/image26.png)](user-friendly-url-rule-template/_static/image25.png)
+![Screenshot of a browser window displaying the U R L Rewrite Module Test Page. The redirected U R L is circled.](user-friendly-url-rule-template/_static/image25.png)
 
 Also, if you request `http://localhost/article.aspx?id=432&title=some-other-title` you will see that the browser gets redirected to `http://localhost/article/432/some-other-title`.
 
