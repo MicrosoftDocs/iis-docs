@@ -83,7 +83,7 @@ Enable publishing for an existing user on an existing site (the password will no
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample1.cmd)]
 
-![Screenshot of Powershell console with results of scripting.](powershell-scripts-for-automating-web-deploy-setup/_static/image5.png)
+![Screenshot of a Powershell console with results of scripting.](powershell-scripts-for-automating-web-deploy-setup/_static/image5.png)
 
 Enable publishing for a new user on a new site, with a custom name and location for the publish settings file:
 
@@ -171,7 +171,7 @@ Create a database with user using the defaults:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample7.cmd)]
 
-![Screenshot of a Powershell console with scripting to create database.](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
+![Screenshot of a Powershell console with scripting to create a database.](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
 
 Create a new database and add the connection string information to existing publish settings file `c:\profiles\UserA.PublishSettings`:
 
