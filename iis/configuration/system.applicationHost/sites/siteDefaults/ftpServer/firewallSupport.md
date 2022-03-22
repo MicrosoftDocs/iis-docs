@@ -130,7 +130,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **FTP Firewall Support**.
 4. In the **External IP Address of Firewall** box, type the IPv4 address of the Internet-facing network adapter of your firewall.  
-    ![Screenshot of the F T P Firewall Support pane with default values set.](firewallSupport/_static/image9.png)
+    ![Screenshot of the F T P Firewall Support pane with the Data Channel Port Range set to a value of 0 dash 0.](firewallSupport/_static/image9.png)
 5. In the **Actions** pane, click **Apply**.
 
 > [!NOTE]

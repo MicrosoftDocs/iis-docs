@@ -54,7 +54,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](firewallSupport/_static/image2.png)](firewallSupport/_static/image1.png) .
+    ![Screenshot of F T P Service and F T P Extensibility selected under  F T P Server in the expanded Web Server (I I S) list.](firewallSupport/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -67,7 +67,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](firewallSupport/_static/image4.png)](firewallSupport/_static/image3.png)
+    ![Screenshot of F T P Extensibility and F T P Service selected in a Windows 8 interface.](firewallSupport/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -81,7 +81,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](firewallSupport/_static/image6.png)](firewallSupport/_static/image5.png)
+    ![Screenshot of F T P service and F T P Extensibility selected in an expanded F T P Server list.](firewallSupport/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -95,7 +95,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](firewallSupport/_static/image8.png)](firewallSupport/_static/image7.png)
+    ![Screenshot of F T P Extensibility and F T P Service selected in a Windows 7 interface.](firewallSupport/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -131,7 +131,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click **FTP Firewall Support**.
 4. In the **External IP Address of Firewall** box, type the IPv4 address of the Internet-facing network adapter of your firewall.  
-    [![](firewallSupport/_static/image10.png)](firewallSupport/_static/image9.png)
+    ![Screenshot of the F T P Firewall Support pane with the Data Channel Port Range set to a value of 0 dash 0.](firewallSupport/_static/image9.png)
 5. In the **Actions** pane, click **Apply**.
 
 > [!NOTE]
