@@ -52,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-   ![Screenshot of the Windows Server 2012 or 2012 R2 window showing Roles. F T P Extensibility is highlighted.](dataChannelSecurity/_static/image1.png) .
+   ![Screenshot of the Windows Server 2012 or 2012 R 2 window showing Roles. F T P Extensibility is highlighted.](dataChannelSecurity/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -65,7 +65,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    ![Screenshot of the Windows 8 or 8.1 features window. F T P Extensibility is highlighted.](dataChannelSecurity/_static/image3.png)
+    ![Screenshot of the Windows 8 or 8.1 features screen. F T P Extensibility is highlighted.](dataChannelSecurity/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -79,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    ![Screenshot of the Windows Server 2008 R2 Add Role Services window. The Select Role Services pages is in the main pane.](dataChannelSecurity/_static/image5.png)
+    ![Screenshot of the Windows Server 2008 R 2 Add Role Services screen. The Select Role Services pages is in the main pane.](dataChannelSecurity/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
