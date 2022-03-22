@@ -370,7 +370,7 @@ The connection details are updated every two seconds.
 1. Expand the **Sources** root node. Each of the additional nodes that are displayed is the domain name and/or IP address of a live source.  
    ![Screenshot of the Connection Details pane. Sources is highlighted in the menu.](creating-and-managing-live-smooth-streaming-publishing-points/_static/image24.png)
 2. Expand a node for a live source to reveal the stream's **Input Type** to the publishing point.  
-   ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image25.png)  
+   ![Screenshot of the Connection Details pane. Sources is expanded to show stream types in the menu.](creating-and-managing-live-smooth-streaming-publishing-points/_static/image25.png)  
   
    The stream input type can be one of the following:  
 
