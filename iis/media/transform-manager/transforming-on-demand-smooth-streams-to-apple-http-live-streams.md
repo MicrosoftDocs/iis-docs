@@ -122,7 +122,7 @@ To run transform jobs on media files, you must configure the default watch folde
 2. In the **Watch Folders** page, select the **H.264 Smooth Streams to Apple HTTP Live Streams** watch folder. This watch folder uses the job template that you configured in the [previous section](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#config_jt). You can confirm this by looking at the **Job template** value in the **Watch Folder Details** pane.  
     ![Screenshot of the Watch Folders page with the Job template field being highlighted.](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image19.png)
 3. In the **Actions** pane, click **Edit**.  
-    ![Screenshot of the Actions pane with a focus on the Edit option.](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image21.png)
+    ![Screenshot of the Manage Watch Folder section of the Actions pane. with a focus on the Edit option.](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image21.png)
 4. Configure required settings in the selected watch folder's property sheet using the instructions in [Configuring Watch Folders](https://technet.microsoft.com/library/ff730178.aspx). The following guidance applies to settings of particular importance for this workflow: 
 
     | Tab | Settings | Description |
