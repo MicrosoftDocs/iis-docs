@@ -37,14 +37,14 @@ To use Web PI to install this application, complete these steps:
     [![Screenshot shows Web Platform Installation window to select a web application and install.](screwturn-wiki/_static/image2.jpg)](screwturn-wiki/_static/image1.jpg)
 2. Click the **Web Applications** tab, select the **ScrewTurn Wiki 3.0** check box, and click **Install**.  
   
-    [![Screenshot shows the license agreement for the selected web application.](screwturn-wiki/_static/image4.jpg)](screwturn-wiki/_static/image3.jpg)
+    [![Screenshot shows the web application license agreement.](screwturn-wiki/_static/image4.jpg)](screwturn-wiki/_static/image3.jpg)
 3. Select the **ScrewTurn Wiki 3.0** check box, and click **I Accept**.  
   
     [![Screenshot shows authentication modes and password fields to complete installation.](screwturn-wiki/_static/image6.jpg)](screwturn-wiki/_static/image5.jpg)
 4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**. 
 
     Once the preinstallation steps complete, the site information window appears.  
-   [![Screenshot shows the site information fields to enter the site information.](screwturn-wiki/_static/image8.jpg)](screwturn-wiki/_static/image7.jpg)
+   [![Screenshot shows site information fields to enter the site information.](screwturn-wiki/_static/image8.jpg)](screwturn-wiki/_static/image7.jpg)
 5. In the Web Site list, click **New Web Site**.
 6. Enter an application name in the application name field.
 7. Enter a web site name in the Web Site Name field.
@@ -104,10 +104,10 @@ To use WebMatrix to install this application, complete these steps:
 10. Click **OK**.   
   
     The ScrewTurn Wiki application starts as indicated in bottom-left corner of the page.  
-    [![Screenshot shows that the installation of ScrewTurn wiki 3 point zero application started.](screwturn-wiki/_static/image32.jpg)](screwturn-wiki/_static/image31.jpg)
+    [![Screenshot shows the installation of ScrewTurn wiki 3 point zero application started.](screwturn-wiki/_static/image32.jpg)](screwturn-wiki/_static/image31.jpg)
 11. Click **Settings** in the left navigation area.  
   
-    [![Screenshot shows the Settings page to select the dot NET framework version.](screwturn-wiki/_static/image34.jpg)](screwturn-wiki/_static/image33.jpg)
+    [![Screenshot shows Settings page to select the dot NET framework version.](screwturn-wiki/_static/image34.jpg)](screwturn-wiki/_static/image33.jpg)
 12. Select **.Net 4 (Integrated)** from the Select .NET Framework Version drop-down list.
 13. Select **Publish &gt; Configure**.  
   

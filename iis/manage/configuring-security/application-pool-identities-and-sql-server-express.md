@@ -35,7 +35,7 @@ Out-of-the-box RANU doesn't work with the new "Application Pool Identity" featur
 
 Here is the error pages you might see:
 
-[![](application-pool-identities-and-sql-server-express/_static/image4.png)](application-pool-identities-and-sql-server-express/_static/image3.png)
+[![Screenshot shows server error in S Q L test application.](application-pool-identities-and-sql-server-express/_static/image4.png)](application-pool-identities-and-sql-server-express/_static/image3.png)
 
 The error is caused because SQL Server Express RANU requires a user profile to be loaded and IIS 7.5 doesn't load a [user profile](https://msdn.microsoft.com/library/bb776892(VS.85).aspx "Windows User Profiles") by default. You don't see this error in previous versions of IIS because the DefaultAppPool was running as NetworkService and the operating system preloads the user profile for NetworkService.
 
