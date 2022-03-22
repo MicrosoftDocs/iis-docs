@@ -56,7 +56,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    ![Screenshot of the Windows Server 2012 or 2012 R2 Roles list. FTP Extensibility is highlighted.](add/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -69,7 +69,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    ![Screenshot of the Windows 8 or 8.1 Features screen. FTP Extensibility is highlighted.](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -83,7 +83,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    ![Screenshot of the Windows Server 2008 R2 Add Role Services screen. F T P services is highlighted in the main pane.](add/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -97,7 +97,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    ![Screenshot of the Windows 7 Features window. Options are checked under Internet Information Services.](add/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -136,9 +136,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. In the **FTP Request Filtering** pane, click the **Hidden Segments** tab.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    ![Screenshot of the I I S Manager window. FTP Request Filtering displays in the main pane](add/_static/image9.png)
 5. Click **Add Hidden Segment...** in the **Actions** pane.  
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    ![Screenshot of the Add Hidden Segment dialog.](add/_static/image11.png)
 6. In the **Add Hidden Segment** dialog box, enter the path that you want to hide.
 7. Click **OK**.
 
