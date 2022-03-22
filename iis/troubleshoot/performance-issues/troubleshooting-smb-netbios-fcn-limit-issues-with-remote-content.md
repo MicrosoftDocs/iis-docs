@@ -38,7 +38,7 @@ How Can I tell what version is being used?
 
 In network monitor you can look at the "Protocol Name" and it will list either SMB for 1.0 or SMB2 for 2.0.
 
-![Screenshot of the Network Monitor pane.](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image1.png)
+![Screenshot of the Network Monitor pane displaying the protocol name types.](troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content/_static/image1.png)
 
 Or if you don't want to depend on the Parsers you can use this trick the networking team shared with me. From the trace locate an NTCreate command. You might this NT Create AndX. In the frame details expand the SMB details. For SMB 1.0 the NTCreate command offset will be 0xA2 and in SMB 2.0 if will be 0x5. . Below is sample of an SMB 1.0 representation.
 
