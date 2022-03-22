@@ -44,7 +44,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
-    ![](index/_static/image1.png)
+    ![Image of Web Server and Common H T T P Features pane expanded with Web DAV Publishing selected.](index/_static/image1.png)
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -54,7 +54,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
-    ![](index/_static/image3.png)
+    ![Image of Common H T T P Features pane in Turn Windows features on or off page expanded with Web DAV Publishing selected.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -64,7 +64,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
-    ![](index/_static/image5.png)
+    ![Screenshot of Common H T T P Features node in Select Role Services page expanded with Web DAV Publishing selected.](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -74,7 +74,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**.
 4. Select **WebDAV Publishing**, and then click **OK**.  
-    ![](index/_static/image7.png)
+    ![Image of World Wide Web Services and Common H T T P Features pane expanded on Turn Windows features on or off page with Web DAV Publishing selected.](index/_static/image7.png)
 
 ### Windows Server 2008 or Windows Vista
 
@@ -108,9 +108,9 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then go to the site, application, or directory where you want to enable WebDAV publishing.
 3. In the **Home** pane, double-click **WebDAV Authoring Rules**.  
-    ![](index/_static/image9.png)
+    ![Image of Home pane displaying Web DAV Authoring Rules selected.](index/_static/image9.png)
 4. In the **Actions** pane, click **Enable WebDAV**.  
-    ![](index/_static/image11.png)
+    ![Image of Actions pane in Web DAV Authoring Rules page displaying Enable Web DAV option.](index/_static/image11.png)
 
 > [!NOTE]
 > Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](../authoringrules/index.md) topic.

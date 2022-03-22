@@ -75,7 +75,7 @@ To support FTP authorization using a custom provider on your FTP site, you must 
 4. In the **Actions** pane, click **Edit Feature settings**.
 5. In the **Authorization Feature Settings** dialog box, select **Choose a custom authorization provider** to enable FTP authorization by a custom provider. In the associated drop-down list, select a custom provider from the list.   
   
-    [![](provider/_static/image2.png)](provider/_static/image1.png)  
+    [![Image of Authorization Feature Settings dialog box with Choose a custom authorization provider field chosen and a custom provider selected from the list.](provider/_static/image2.png)](provider/_static/image1.png)  
   
     > [!NOTE]
     > When a custom FTP authorization provider has been enabled, the **FTP Authorization Rules** feature is disabled.
