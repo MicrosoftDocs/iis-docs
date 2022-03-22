@@ -145,7 +145,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the site's **Home** pane, double-click **FTP User Isolation**.  
     ![Screenshot of the I I S Manager window showing the website home. The F T P User Isolation icon is selected.](index/_static/image9.png)
 4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:**, select **User name directory (disable global virtual directories)**.  
-    ![Screenshot of the I I S Manager window showing the F T P User Isolation window](index/_static/image11.png)
+    ![Screenshot of the I I S Manager window showing the F T P User Isolation window.](index/_static/image11.png)
 5. In the **Actions** pane, click **Apply**.
 
 * * *
