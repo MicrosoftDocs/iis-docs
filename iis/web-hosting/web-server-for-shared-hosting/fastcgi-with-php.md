@@ -25,7 +25,7 @@ FastCGI addresses the performance issues inherent to CGI by providing a mechanis
 
 - Add CGI role service by going to Server Manager > Roles > Add Role Services. This enables both CGI and FastCGI services.
 
-![](fastcgi-with-php/_static/image3.png)
+![Screenshot of the Add Role Services Wizard. C G I is selected under Role Services.](fastcgi-with-php/_static/image3.png)
 
 <a id="Install"></a>
 
@@ -66,11 +66,11 @@ In order for IIS 7.0 to host PHP applications, it is necessary to add a handler 
 
 1. Open IIS Manager and then select and open "Handler Mappings" at the server level:
 
-   ![](fastcgi-with-php/_static/image7.png)
+   ![Screenshot of the W I N two K eight Home page. The Handler Mappings icon is selected.](fastcgi-with-php/_static/image7.png)
 
 2. Select "Add Module Mapping" action and specify the configurations settings as below:  
   
-   ![](fastcgi-with-php/_static/image9.png)
+   ![Screenshot of the Add Module Mapping dialog box. The configuration settings are shown.](fastcgi-with-php/_static/image9.png)
 
    - Request path: **\*.php**
    - Module: **FastCgiModule**
