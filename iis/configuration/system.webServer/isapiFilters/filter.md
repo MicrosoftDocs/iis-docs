@@ -47,7 +47,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ISAPI Filters**.  
-    [![Screenshot shows World Wide Web Services and Application Development Features pane expanded with I S A P I Filters selected.](filter/_static/image4.png)](filter/_static/image3.png)
+    [![Screenshot displays World Wide Web Services and Application Development Features pane expanded with I S A P I Filters selected.](filter/_static/image4.png)](filter/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
