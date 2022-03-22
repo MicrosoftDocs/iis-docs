@@ -68,7 +68,7 @@ If you are logged on to an account other than the built-in local administrator a
     *Figure 7: Windows Features dialog box - IIS feature selection*
 7. If you are installing IIS for evaluation purposes, you may want to select additional features to install. Select the check boxes for all IIS features you want to install, and then click **OK** to start installation. 
 
-    [![Screenshot of the Windows Features dialog box. Turn Windows features on or ff is the heading. A list of features is shown. All of the features are checked.](installing-iis-on-windows-vista-and-windows-7/_static/image16.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image15.jpg)
+    [![Screenshot of the Windows Features dialog box. Turn Windows features on or off is the heading. A list of features is shown. All of the features are checked.](installing-iis-on-windows-vista-and-windows-7/_static/image16.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image15.jpg)
 
     *Figure 8: Windows Features dialog box - Installation selection*
 8. The progress indicator appears.
@@ -88,7 +88,7 @@ If you are logged on to an account other than the built-in local administrator a
     *Figure 11: Default Web site*
 11. Next, you can use Internet Information Services Manager to manage and configure IIS. To open IIS Manager, click **Start**, type *inetmgr* in the **Search Programs and Files** box, and then press ENTER.
 
-    [![Screenshot of teh I I S Manger page. The Default Web Site Home page is shown.](installing-iis-on-windows-vista-and-windows-7/_static/image24.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image23.jpg)
+    [![Screenshot of the I I S Manger page. The Default Web Site Home page is shown.](installing-iis-on-windows-vista-and-windows-7/_static/image24.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image23.jpg)
 
     *Figure 12: Default Web Site Home page*
 

@@ -25,7 +25,7 @@ To run this walkthrough, you must have the following:
 
 By using URL Rewrite Module and Application Request Routing you can implement complex and flexible load balancing and reverse proxy configurations. A very common reverse proxy scenario is to make available several internal web applications over the Internet. An Internet-accessible Web server is used as a reverse-proxy server that receives Web requests and then forwards them to several intranet applications for processing: The following figure illustrates a typical configuration for a reverse-proxy scenario:
 
-[![Diagram of a typical configuration for a reverse-proxy scenario.](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image3.jpg)](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image1.jpg)
+[![Diagram of a typical configuration for a reverse proxy scenario.](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image3.jpg)](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image1.jpg)
 
 Assuming that the ARR server has a domain name `http://contoso.com`, each web application can be accessed by using these URLs:
 

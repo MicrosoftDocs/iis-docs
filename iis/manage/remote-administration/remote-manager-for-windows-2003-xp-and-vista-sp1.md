@@ -46,7 +46,7 @@ These requirements must be met in order to continue with the procedures in this 
 
 After installing Remote Manager on Windows Vista, start the IIS Management Console as you did before. For example:
 
-1. Click the Windows **Start** button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image9.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image8.jpg) to display the start menu.
+1. Click the Windows **Start** button [![An icon image of the Windows Start button.](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image9.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image8.jpg) to display the start menu.
 2. Type "inetmgr.exe" into the search box and press **Enter**.  
     [![Screenshot of the Start menu. The text i net m g r dot e x e is written in the search bar.](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image11.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image10.jpg)  
  If you are prompted by "User Access Control", click **Continue**.
@@ -66,7 +66,7 @@ The following issue is known for Remote Manager:
 
 To install the Internet Information Services (IIS) Management Console on Windows Vista, follow the steps below:
 
-1. Click the Windows Start button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image15.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image14.jpg) to display the start menu.
+1. Click the Windows Start button [![Icon image of the Windows Start button.](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image15.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image14.jpg) to display the start menu.
 2. Type "optionalfeatures.exe" into the search box and press enter.  If you are prompted by "User Account Control," click **Continue**.  
    [![Screenshot of the Start menu. In the search bar is the text optional features dot e x e.](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image17.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image16.jpg)
 3. When the Windows Features dialog is finished loading, expand the "Internet Information Services" node.

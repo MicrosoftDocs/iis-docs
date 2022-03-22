@@ -98,7 +98,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
 3. In the site or application **Home** pane, double-click **CGI**.  
     [![Screenshot of the Home pane. The C G I icon is highlighted.](cgi/_static/image10.png)](cgi/_static/image9.png)
 4. In the **CGI** pane, configure the required settings, and then click **Apply** in the **Actions** pane.  
-    [![Screenshot of the C G I pane. In the Display box, Friendly Names is chose. The Behavior and Security categories are shown.](cgi/_static/image12.png)](cgi/_static/image11.png)
+    [![Screenshot of the C G I pane. In the Display box, Friendly Names is chosen. The Behavior and Security categories are shown.](cgi/_static/image12.png)](cgi/_static/image11.png)
 
 <a id="005"></a>
 ## Configuration

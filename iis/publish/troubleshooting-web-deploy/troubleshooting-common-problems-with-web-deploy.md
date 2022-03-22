@@ -220,7 +220,7 @@ The remote server returned an error: (403) Forbidden.
 
 **Is the Web Management Service configured to allow remote connections?** Start IIS Manager and double-click the Management Service icon, and verify that "Enable Remote Connections" is checked. You must stop the service to make changes, so be sure to restart it.
 
-![Screenshot of teh Management Service page.the Enable remote connections checkbox is checked.](troubleshooting-common-problems-with-web-deploy/_static/image11.png)
+![Screenshot of the Management Service page. The Enable remote connections checkbox is checked.](troubleshooting-common-problems-with-web-deploy/_static/image11.png)
 
 **Is Windows Firewall blocking the request?** The Web Management Service creates an Inbound rule named "Web Management Service (HTTP Traffic-In)", and enables it. Verify this rule is enabled by going to Start-&gt;Administrative tools-&gt; "Windows Firewall with Advanced Security". Click "Inbound Rules" and find the Web Management rule in the list. It should be enabled for all profiles.
 
