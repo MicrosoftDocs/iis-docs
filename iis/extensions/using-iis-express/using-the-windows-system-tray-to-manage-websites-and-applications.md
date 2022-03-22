@@ -65,7 +65,7 @@ For information about how to install WebMatrix Beta, see [Microsoft Web Platform
 > [!NOTE]
 > If there are any errors when running IIS Express, you will see the following notification:
 
-![Screenshot of an error notification.](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image17.png)
+![Screenshot of an I I S Express error notification.](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image17.png)
 
 Click the notification for more information, including a detailed error message and recommended steps to resolve the issue. For example:
 

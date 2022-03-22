@@ -345,7 +345,7 @@ The **Publishing Point Details** page, which is new in IIS Media Services 4.0, d
 ### Track Details
 
 The **Track Details** pane displays information about the tracks within all of the live streams that are received by the publishing point.  
-![Screenshot of the Track Details pane. ](creating-and-managing-live-smooth-streaming-publishing-points/_static/image22.png)
+![Screenshot of the Track Details pane displaying the live streams received. ](creating-and-managing-live-smooth-streaming-publishing-points/_static/image22.png)
 
 - **Encoded Bit Rate**. The encoded bitrate setting of the track, as configured on the encoder, in kilobits per second (Kbps). The value might differ slightly from the actual encoded bitrate.
 - **Incoming Bit Rate**. The incoming bitrate of the track, in Kbps. This is the rate at which the live source is sending the track data to the publishing point. The value will vary slightly from the encoded bitrate value due to network conditions.
