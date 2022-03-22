@@ -159,31 +159,31 @@ A Windows Media server is designed to handle the special requirements of streami
 
 Windows Media Services 2008 and IIS have additional features that are not described in this article that might affect your choice for delivering digital media. For example, Windows Media Services is the only server role that can be used for multicast delivery of content on enterprise networks. Before you make a final decision about which server role to deploy to facilitate your business model, review the features for each server role in the following table.
 
-![](windows-media-server-or-web-server/_static/image1.gif)= This feature or function is supported.
+:::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" :::= This feature or function is supported.
 
-![](windows-media-server-or-web-server/_static/image2.gif)= This feature or function is supported on a Web Server running IIS if the referenced extension is installed. The implementation on the Web server may differ from the Windows Media server.
+:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::= This feature or function is supported on a Web Server running IIS if the referenced extension is installed. The implementation on the Web server may differ from the Windows Media server.
 
-![](windows-media-server-or-web-server/_static/image3.gif)= This feature or function is not supported.
+:::image type="icon" source="windows-media-server-or-web-server/_static/image10.gif" :::= This feature or function is not supported.
 
 | **Windows Server 2008 Feature** | **Windows Media Services 2008** | **Internet Information Services** |
 | --- | --- | --- |
-| Optimized for streaming [Windows Media-based content](https://www.microsoft.com/windows/windowsmedia/forpros/prosolutions.mspx) | [![](windows-media-server-or-web-server/_static/image5.gif)](windows-media-server-or-web-server/_static/image4.gif) | **1![](windows-media-server-or-web-server/_static/image6.gif)** |
-| Delivers content through most [firewalls](https://www.microsoft.com/technet/security/guidance/networksecurity/firewall.mspx) | ![](windows-media-server-or-web-server/_static/image7.gif) | ![](windows-media-server-or-web-server/_static/image8.gif) |
-| Streams without downloading | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | ![](windows-media-server-or-web-server/_static/image10.gif) |
-| Broadcasts live content | ![:::image type-"icon](windows-media-server-or-web-server/_static/image11.gif) | **2![](windows-media-server-or-web-server/_static/image12.gif)** |
-| Delivers content using multicast streaming | ![](windows-media-server-or-web-server/_static/image13.gif) | **3![](windows-media-server-or-web-server/_static/image14.gif)** |
-| Supports trick mode playback of on-demand files | ![](windows-media-server-or-web-server/_static/image15.gif) | **4![](windows-media-server-or-web-server/_static/image16.gif)** |
-| Delivers content protected with [Digital Rights Management](https://www.microsoft.com/windows/windowsmedia/forpros/drm/default.mspx) | ![](windows-media-server-or-web-server/_static/image17.gif) | ![](windows-media-server-or-web-server/_static/image18.gif) |
-| Delivers content using Fast Streaming | ![](windows-media-server-or-web-server/_static/image19.gif) | **1, 2, 4![](windows-media-server-or-web-server/_static/image20.gif)** |
-| Delivers content using Intelligent Streaming | ![](windows-media-server-or-web-server/_static/image21.gif) | **2, 4![](windows-media-server-or-web-server/_static/image22.gif)** |
-| Supports cache/proxy delivery scenarios | ![](windows-media-server-or-web-server/_static/image23.gif) | **5![](windows-media-server-or-web-server/_static/image24.gif)** |
-| Supports rich client logging | ![](windows-media-server-or-web-server/_static/image25.gif) | **6![](windows-media-server-or-web-server/_static/image26.gif)** |
-| Delivers content to cross-platform [Silverlight](https://www.microsoft.com/silverlight/) clients | ![](windows-media-server-or-web-server/_static/image27.gif) | ![](windows-media-server-or-web-server/_static/image28.gif) |
-| Delivers content to iOS devices (iPhone, iPad) | ![](windows-media-server-or-web-server/_static/image29.gif) | ![](windows-media-server-or-web-server/_static/image30.gif) |
-| Delivers content referenced by server-controlled playlists | ![](windows-media-server-or-web-server/_static/image31.gif) | **7![](windows-media-server-or-web-server/_static/image32.gif)** |
-| Provides advanced performance boundary limits properties | ![](windows-media-server-or-web-server/_static/image33.gif) | **1![](windows-media-server-or-web-server/_static/image34.gif)** |
-| Supported on Server Core installations | ![](windows-media-server-or-web-server/_static/image35.gif) | ![](windows-media-server-or-web-server/_static/image36.gif) |
-| Available for [Windows Web Server 2008](https://www.microsoft.com/windowsserver2008/en/us/editions-overview.aspx) | ![](windows-media-server-or-web-server/_static/image37.gif) | ![](windows-media-server-or-web-server/_static/image38.gif) |
+| Optimized for streaming [Windows Media-based content](https://www.microsoft.com/windows/windowsmedia/forpros/prosolutions.mspx) | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **1:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Delivers content through most [firewalls](https://www.microsoft.com/technet/security/guidance/networksecurity/firewall.mspx) | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: |
+| Streams without downloading | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image10.gif" ::: |
+| Broadcasts live content | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **2:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Delivers content using multicast streaming | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **3:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Supports trick mode playback of on-demand files | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **4:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Delivers content protected with [Digital Rights Management](https://www.microsoft.com/windows/windowsmedia/forpros/drm/default.mspx) | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: |
+| Delivers content using Fast Streaming | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **1, 2, 4:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Delivers content using Intelligent Streaming | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **2, 4:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Supports cache/proxy delivery scenarios | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **5:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Supports rich client logging | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **6:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Delivers content to cross-platform [Silverlight](https://www.microsoft.com/silverlight/) clients | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: |
+| Delivers content to iOS devices (iPhone, iPad) | :::image type="icon" source="windows-media-server-or-web-server/_static/image10.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: |
+| Delivers content referenced by server-controlled playlists | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **7:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Provides advanced performance boundary limits properties | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **1:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" :::** |
+| Supported on Server Core installations | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: |
+| Available for [Windows Web Server 2008](https://www.microsoft.com/windowsserver2008/en/us/editions-overview.aspx) | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: |
 
 **1**[IIS Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)  
 **2**[IIS Live Smooth Streaming](https://www.iis.net/downloads/microsoft/live-smooth-streaming)  
