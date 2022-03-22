@@ -20,7 +20,7 @@ To perform an analysis of your Web site, follow these steps:
 1. Launch IIS Manager.
 2. Select the Server node or a site node in the tree view on the left, and then choose the "Search Engine Optimization" feature. You will see a starting page that allows you to look at analyzing your site, adding robots or sitemaps.
 3. Open the "Site Analysis" feature. This shows the list of all available analysis reports. If you have not run any analysis yet, then click "New Analysis" on the right-hand Actions pane to create one.  
-    [![X](understanding-site-analysis-reports/_static/image1.png)
+    [![XX](understanding-site-analysis-reports/_static/image1.png)
 4. Select and open a report from the list of available reports. This will open the summary page for the report, which you can use to get a snapshot of all the SEO violations and content problems found on your Web site. Also, this page can be used as a starting point for getting to reports details.  
     [![](understanding-site-analysis-reports/_static/image7.png)](understanding-site-analysis-reports/_static/image5.png)
 
