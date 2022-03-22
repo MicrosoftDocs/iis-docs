@@ -62,17 +62,17 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 
 1. Open **MMC**.
 2. Under **File**, select **Add/Remove Snap-in**:  
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.png)
+    ![Screenshot that shows the menu for File in M M C. Add Remove Snap in is highlighted.](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.png)
 3. Select **Certificates**. Click on **Add**:  
-    [![](iis-80-server-name-indication-sni-ssl-scalability/_static/image5.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image3.png)
+    [![Screenshot that shows the Add or Remove Snap ins dialog box with Certificates selected under Available snap ins.](iis-80-server-name-indication-sni-ssl-scalability/_static/image5.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image3.png)
 4. Select **Computer account**:  
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image7.png)
+    ![Screenshot that shows the Certificates snap in dialog box. Computer account is selected.](iis-80-server-name-indication-sni-ssl-scalability/_static/image7.png)
 5. Select **Local computer** and click on **Finish**:  
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image9.png)
+    ![Screenshot that shows the Select Computer dialog box. Local computer is selected.](iis-80-server-name-indication-sni-ssl-scalability/_static/image9.png)
 6. Click on **OK**:  
-    [![](iis-80-server-name-indication-sni-ssl-scalability/_static/image13.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image11.png)
+    [![Screenshot that shows the Add or Remove Snap ins.](iis-80-server-name-indication-sni-ssl-scalability/_static/image13.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image11.png)
 7. Under the navigation pane, locate **Web Hosting** store:  
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image15.png)  
+    ![Screenshot that shows Web Hosting highlighted under the Certificates node.](iis-80-server-name-indication-sni-ssl-scalability/_static/image15.png)  
  The **Web Hosting** store works like the **Personal** store, so all of the existing tools to import and export certificates work the same way. The key difference between **Web Hosting** store and **Personal** store is that **Web Hosting** store is designed to scale to higher numbers of certificates.
 8. Import your sample certificates to the **Web Hosting** store.
 
@@ -82,9 +82,9 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 
 1. Open **IIS Manager**.
 2. Select **Sites** in the left navigation window:  
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image17.png)
+    ![Screenshot that shows I I S Manager. Sites is selected.](iis-80-server-name-indication-sni-ssl-scalability/_static/image17.png)
 3. Right-click **Sites** and select **Add Website**:  
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image19.png)
+    ![Screenshot that shows the context menu for Sites.](iis-80-server-name-indication-sni-ssl-scalability/_static/image19.png)
 4. Fill in the information, as you would create any site: 
 
    - **Site name**: Test
@@ -100,9 +100,9 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 
        - Note that the certificates are presented from both **Personal** and **Web Hosting** stores.
 
-     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.jpg)
+     ![Screenshot that shows the Add Website dialog box.](iis-80-server-name-indication-sni-ssl-scalability/_static/image1.jpg)
 5. Verify that the site has been created:  
-    ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image21.png)
+    ![Screenshot that shows Test highlighted under the Sites node.](iis-80-server-name-indication-sni-ssl-scalability/_static/image21.png)
 6. That's it. The secure site has been created using SNI. The management experience is very similar to the traditional SSL binding. The only differences are: 
 
     - Host name can be specified for SSL site.
@@ -114,13 +114,13 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 
 Open a browser and navigate to [https://TAPTesting/](https://taptesting/). Note that as a part of prerequisite, your hosts file should have been modified to route this request to localhost:
 
-[![](iis-80-server-name-indication-sni-ssl-scalability/_static/image25.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image23.png)
+[![Screenshot that shows Internet Explorer. I I S 8 is written in large text on the web page.](iis-80-server-name-indication-sni-ssl-scalability/_static/image25.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image23.png)
 
 Furthermore, to see the new SSL binding type, enter the following in an elevated command-line window:
 
 [!code-console[Main](iis-80-server-name-indication-sni-ssl-scalability/samples/sample3.cmd)]
 
-![](iis-80-server-name-indication-sni-ssl-scalability/_static/image27.png)
+![Screenshot that shows a command window. Host name and port are highlighted.](iis-80-server-name-indication-sni-ssl-scalability/_static/image27.png)
 
 Note that the SSL binding is **hostname:port** with value **TAPTesting:443**.
 
