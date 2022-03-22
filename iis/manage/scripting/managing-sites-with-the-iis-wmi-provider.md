@@ -94,7 +94,7 @@ To get a site instance, click **Start**, click the **Start Search** box, type **
 
 Click **File**, **Save As...** to open the Save dialog. Find the **Save as type:** textbox at the bottom of the dialog and change its value from "Text Documents (\*.txt)" to "All Files". Save the file to the Desktop as "GetSite.vbs".
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image2.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image1.jpg)
+![Screenshot of the Save As dialog changing the Save as type to All Files.](managing-sites-with-the-iis-wmi-provider/_static/image1.jpg)
 
 Click **Start**, click the **Start Search** box, type **cmd.exe**, and then press **Enter**. Type **cd %SystemDrive%\Users\Administrator\Desktop**, then press **Enter**. Type **cscript //h:cscript**, and press **Enter**. This sets the default script host to cscript.exe which sends its output to the command window in which it was started. For more information, read [Running Scripts from Windows](https://msdn.microsoft.com/library/xazzc41b.aspx).
 
@@ -112,7 +112,7 @@ Go back to your cmd prompt and run GetSite.vbs. You should see the following out
 
 To see how the "Get" works, click **Start**, **All Programs**, **WMI Tools**, and finally **WMI CIM Studio**. Connect to the WebAdministration namespace (see [Get to Know the IIS WMI Provider Using CIM Studio](get-to-know-the-iis-wmi-provider-using-cim-studio.md)), and search for the Site class. The right pane in CIM Studio shows Site properties. The Name property is beside a key icon, shown circled in red below.
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image4.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image3.jpg)
+![Screenshot of the Name property emphasized and set as a key property in the W M I C I M Studio dialog.](managing-sites-with-the-iis-wmi-provider/_static/image3.jpg)
 
 A class can have one or more "key" properties; this set of one or more keys uniquely identifies an object. Read [Describing an Instance Object Path](https://msdn.microsoft.com/library/aa389977.aspx) for more details; in effect, the string "Site.Name='Default Web Site'" is saying "get the instance of the Site object, with key property Name equal to 'Default Web Site'". If this makes sense, try something a little more difficult.
 
@@ -122,7 +122,7 @@ A class can have one or more "key" properties; this set of one or more keys uniq
 
 To get an application instance, open CIM Studio and search for the Application class. Notice that the Application class has two key properties: "SiteName" and "Path", as shown in the screenshot below.
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image6.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image5.jpg)
+![Screenshot of Application key Properties set to Path and Site Name in the W M I C I M Studio dialog.](managing-sites-with-the-iis-wmi-provider/_static/image5.jpg)
 
 Click **Start**, click the **Start Search** box, type **notepad.exe**, and then press **Enter**. Paste the following lines of script into notepad. The second line of script specifies values for both of the Application key properties. Note that the format of this string is: &lt;object\_name&gt;.&lt;key\_property&gt;='&lt;value&gt;',&lt;key\_property&gt;='&lt;value&gt;' where the key properties and their values are separated by commas.
 
@@ -144,11 +144,11 @@ Type **GetApp.vbs**, and press **Enter**. You see the following output:
 
 To create a site instance, view the method parameters again from the CIM Studio article. Search for the Site class in CIM Studio. Select the Methods tab in the right pane.
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image8.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image7.jpg)
+![Screenshot of the Site Methods tab in the W M I C I M Studio dialog.](managing-sites-with-the-iis-wmi-provider/_static/image7.jpg)
 
 Right-click on the **Create** method and select **Edit Method Parameters**. You see the dialog below showing the parameters for the Create method. Click **Cancel**.
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image10.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image9.jpg)
+![Screenshot of the Create Method Parameters including Name, Type, and Value.](managing-sites-with-the-iis-wmi-provider/_static/image9.jpg)
 
 As we now know what parameters this method takes, we will create variables for these parameters by pasting the following lines of script into notepad.
 
@@ -164,7 +164,7 @@ Type **CreateSite.vbs**, and press **Enter**. Your script should run without err
 
 Go back to CIM Studio, right-click on the Create method again, and this time select "**Method Qualifiers...**". The resulting dialog, shown below, shows that the "Create" method is a Static method. Click **Cancel**.
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image12.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image11.jpg)
+![Screenshot of the Create Method Qualifiers with the Static boolean Qualifier emphasized.](managing-sites-with-the-iis-wmi-provider/_static/image11.jpg)
 
 Static methods must be called from the object definition. The script sample below shows the difference between retrieving an object instance, and retrieving the object's definition:
 
@@ -188,13 +188,13 @@ Not all objects in the WebAdministration namespace can be created or deleted. Fo
 
 To know a general way to find out whether an object can be created, deleted, or modified, search for Site in CIM Studio. Right-click in the property grid on the Properties tab and click **Object Qualifiers...**. You see the dialog below:
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image14.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image13.jpg)
+![Screenshot of Object Qualifiers with emphasis on the Supports Create, Supports Delete, and Supports Update boolean Qualifiers.](managing-sites-with-the-iis-wmi-provider/_static/image13.jpg)
 
 The object qualifiers SupportsCreate, SupportsDelete, and SupportsUpdate describe whether an object can be created, delete, or modified. Site can be created, deleted and modified, so Site has all three of these qualifiers and they are all true.
 
 Search for WorkerProcess in CIM Studio. Right-click in the property grid on the Properties tab and click **Object Qualifiers...**. The dialog below shows that the WorkerProcess object does not have these three qualifiers; the value of these qualifiers is false by default (for more information, see [Standard Qualifiers](https://msdn.microsoft.com/library/aa393650.aspx)). Therefore, the WorkerProcess object cannot be created, deleted or modified.
 
-[![](managing-sites-with-the-iis-wmi-provider/_static/image16.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image15.jpg)
+![Screenshot of the Worker Process Object Qualifiers. Note that Supports Create, Supports Delete, or Supports Update are absent.](managing-sites-with-the-iis-wmi-provider/_static/image15.jpg)
 
 <a id="05"></a>
 
