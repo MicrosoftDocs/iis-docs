@@ -37,7 +37,7 @@ To support blocking a client on your Web server by the number of requests receiv
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **IP and Domain Restrictions**. Click **Next**.  
-    [![](denyByRequestRate/_static/image2.png)](denyByRequestRate/_static/image1.png) .
+    [![Screenshot of the Server Manager screen with a focus on the I P and Domain Restrictions option.](denyByRequestRate/_static/image2.png)](denyByRequestRate/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -47,7 +47,7 @@ To support blocking a client on your Web server by the number of requests receiv
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **IP Security**.  
-    [![](denyByRequestRate/_static/image4.png)](denyByRequestRate/_static/image3.png)
+    [![Screenshot of the Control Panel showing the Security folder and its contained folders with a focus on the I P Security folder.](denyByRequestRate/_static/image4.png)](denyByRequestRate/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -70,7 +70,7 @@ To support blocking a client on your Web server by the number of requests receiv
 4. In the **Actions** pane, click **Edit Dynamic Restriction Settings...**.
 5. In the **Dynamic IP Restriction Settings** dialog box, select **Deny IP Address based on the number of requests over a period of time**, enter the maximum number of requests, enter the time period (in milliseconds) that is used to determine the request rate, and then click **OK**.  
   
-    [![](denyByRequestRate/_static/image6.png)](denyByRequestRate/_static/image5.png)
+    [![Screenshot of the Actions pane showing the Deny I P Address based on the number of requests over a period of time field.](denyByRequestRate/_static/image6.png)](denyByRequestRate/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration

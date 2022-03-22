@@ -17,7 +17,7 @@ You can use the Web Platform Installer (Web PI) to easily install IIS, and appli
 
 You can also install ASP.NET 2.0 (3.0 and 3.5) using the Windows Vista and Windows 2008 user interface - just install the ASP.NET component located under IIS-&gt;Word Wide Web Services-&gt;Application Development Features. You can find this set of components in Windows 2008 by clicking Start, and click Server Manager. Expand the left-hand treeview in Server Manager and click Manage Roles, and then Web Server (IIS). In the right-hand pane look for an option that says Add Role Services. If you're on Windows Vista, click Start, click Control Panel, click Programs, and then Windows Features. Look for the following tree of features under Internet Information Services (IIS):
 
-[![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image3.png)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image1.png)
+[![Screenshot of the Internet Information Services folder and its contained tree of folders.](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image3.png)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image1.png)
 
 ASP.NET 1.1 is not included in Windows Vista or Windows 2008 and must be downloaded and installed manually. This post shows you how:
 
@@ -27,7 +27,7 @@ The IIS "Metabase compatibility" component is required to successfully install A
 
 To install it on Windows 2008 Server, click **Start**, and click **Server Manager**. Expand the left-hand treeview in Server Manager and click **Manage Roles**, and then **Web Server (IIS)**. In the right-hand pane look for an option that says **Add Role Services**. This takes you to wizard where you can install "IIS Metabase Compatibility".
 
-[![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image2.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image1.jpg)
+[![Screenshot of the Role Services pane with a focus on the I I S Metabase Compatibility option.](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image2.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image1.jpg)
 
 If you're on Windows Vista, click **Start**, click **Control Panel**, click **Programs**, and then **Windows Features**. Look for Internet Information Services (IIS) and install "IIS Metabase Compatibility".
 
@@ -41,12 +41,12 @@ Install Framework v1.1, SP1, and ASP.NET's security update to SP1:
 
 When you install .NET Framework Version 1.1, and SP1 for .NET Framework Version 1.1, you'll see the following dialog. Click **Run program**.
 
-[![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image4.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image3.jpg)
+[![Screenshot of the Program Compatibility Assistant dialog box with a focus on the Run program option.](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image4.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image3.jpg)
 
 > [!NOTE]
 > If you do not install Framework v1.1 SP1, you may run into Data Execution Prevention errors with messages like "IIS Worker Process has stopped working". This is expected. Installing .NET Framework v1.1 SP1 will fix this.
 
-[![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image6.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image5.jpg)
+[![Screenshot of an error message reading I I S Worker Process has stopped working.](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image6.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image5.jpg)
 
 ### Step 3: Enable ASP.NET v1.1 ISAPI Extension
 
@@ -55,7 +55,7 @@ Enable ASP.NET v1.1 ISAPI as an allowed ISAPI extension. To do this, open "IIS M
 **Extension**: `C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet\_isapi.dll` (**Note:** change drive if your system drive is not C:\)
 **Description**: ASP.NET v1.1
 
-[![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image6.png)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image5.png)
+[![Screenshot of the Add I S A P I or C G I Rescriction dialog box over the I S A P I and C G I Restrictions screen.](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image6.png)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image5.png)
 
 You can also do by running the following command line:
 
