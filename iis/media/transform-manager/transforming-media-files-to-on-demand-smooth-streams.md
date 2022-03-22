@@ -12,7 +12,7 @@ msc.type: authoredcontent
 by Dave Nelson
 
 IIS Smooth Streaming encoding presets that are integrated with the default installation of IIS Transform Manager 1.0 can be used to transform media files to on-demand Smooth Streaming presentations for delivery to Silverlight clients. This workflow is shown in the following diagram.  
-![Screenshot shows the workflow diagram of I I S transform manager. Input media files are processed through download manager, task scheduler to convert the files into smooth streams.](transforming-media-files-to-on-demand-smooth-streams/_static/image1.png)
+![Screenshot shows the workflow diagram of I I S Transform Manager converting Input media files to smooth streams.](transforming-media-files-to-on-demand-smooth-streams/_static/image1.png)
 
 This article describes how to configure the default **Video files to VC-1 Smooth Streams** job template, which uses a built-in **Expression Encoder 4.0 SP2** transcoding task to transform media files to Smooth Streams. You can edit the task to select different VC-1 or H.264 IIS Smooth Streaming encoding presets to create the appropriate Smooth Streaming output for your Silverlight clients.
 
@@ -85,7 +85,7 @@ This section describes how to configure the default **Video files to VC-1 Smooth
 ### Configuring the Expression Encoder 4.0 SP2 Task
 
 1. In IIS Manager, in the **Connections** pane, click **Job Templates**.  
-    ![Screenshot shows the Connections window pane to select Job Templates.](transforming-media-files-to-on-demand-smooth-streams/_static/image3.png)
+    ![Screenshot of Connections pane with Job Template selected.](transforming-media-files-to-on-demand-smooth-streams/_static/image3.png)
 2. In the **Job Templates** page, select the **Video files to VC-1 Smooth Streams** job template.  
     ![Screenshot shows the Job templates page with the fields status and name to select an appropriate job.](transforming-media-files-to-on-demand-smooth-streams/_static/image5.png)
   
@@ -97,18 +97,18 @@ This section describes how to configure the default **Video files to VC-1 Smooth
   
     The **Task definitions** list shows the task that's used by this job template.
 5. To change the preset used by this task to another Expression Encoder preset, select the **Expression Encoder 4.0 SP2** task, and then click **Edit**.  
-    ![Screenshot shows Edit Job Template window to select Edit option.](transforming-media-files-to-on-demand-smooth-streams/_static/image11.png)
+    ![Screenshot shows Edit Job Template dialog box.](transforming-media-files-to-on-demand-smooth-streams/_static/image11.png)
 6. In the **Edit Expression Encoder 4.0 SP2 Task** dialog box, in **preset**, double-click the **Value** field, and then type the name of a new preset file that's included in the default installation of Transform Manager.  
-    ![Screenshot shows Edit Expression Encoder 4.0 SP2 Task window with preset value being edited with the new preset file. ](transforming-media-files-to-on-demand-smooth-streams/_static/image13.png)
+    ![Screenshot shows Edit Expression Encoder 4 point zero S P 2 Task dialog box with Edit button.](transforming-media-files-to-on-demand-smooth-streams/_static/image13.png)
   
     You can choose from any of the following IIS Smooth Streaming encoding preset files that are installed with Transform Manager, or from any custom encoding presets that you designed in Expression Encoder.  
-    ![Screenshot shows the encoding preset files with extension .xml.](transforming-media-files-to-on-demand-smooth-streams/_static/image15.png)
+    ![Screenshot shows the encoding preset files with extension dot x m l.](transforming-media-files-to-on-demand-smooth-streams/_static/image15.png)
 7. (Optional) Edit the following additional task default values in the **Properties** list.
 
     - The **templateName** and **templatePath** properties are used to specify the Expression Encoder 4.0 SP2 Silverlight player template that's used. By default, the task is configured to use the Standard player template that's stored in the default installation path for Expression Encoder: `%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard`. Modify these values, if desired, to point to other Expression Encoder 4 Silverlight player templates that are included in the Transform Manager installation, or to custom Silverlight player templates that you designed in Expression Encoder.
     - Enable the **createSubDirectory** property if you want the **Expression Encoder 4.0 SP2** task to output to a uniquely named subdirectory for each job. This is disabled by default to give you better control of the naming of the output location when you use Transform Manager.
 8. If you want to make the transcoded output available for a subsequent task in a task-chaining scenario, specify a virtual folder name in **Output folder name**.  
-    ![Screenshot shows Edit Expression Encoder 4.0 SP2 Task window with Task chaining fields Input folder name and Output folder name. Edit the output folder name with your choice. ](transforming-media-files-to-on-demand-smooth-streams/_static/image17.png)
+    ![Screenshot shows Edit Expression Encoder 4 point zero S P 2 Task window to specify a virtual folder name.](transforming-media-files-to-on-demand-smooth-streams/_static/image17.png)
 9. After reviewing or modifying the settings in the **Edit Expression Encoder 4.0 SP2 Task** dialog box, click **OK**.
 10. In the **Edit Job Templates** dialog box, click **OK** to save your modifications to the job template.
 
@@ -121,7 +121,7 @@ To run transform jobs on media files, you must configure the default watch folde
 1. In IIS Manager, in the **Connections** pane, click **Watch Folders**.  
     ![Screenshot shows the Connections pane to select Watch Folders.](transforming-media-files-to-on-demand-smooth-streams/_static/image19.png)
 2. In the **Watch Folders** page, select the **Video files to VC-1 Smooth Streams** watch folder, which uses the job template that you configured in the [previous section](transforming-media-files-to-on-demand-smooth-streams.md#configure_jt). You can confirm this by looking at the **Job template** value in the **Watch Folder Details** pane.  
-    ![Screenshot shows Watch Folders window with a list of video files. Verify that the name of the Watch folder matches the Job template field in the Watch Folder details.](transforming-media-files-to-on-demand-smooth-streams/_static/image21.png)
+    ![Screenshot shows Watch Folders window with a file name matching the Job template field.](transforming-media-files-to-on-demand-smooth-streams/_static/image21.png)
 3. In the **Actions** pane, click **Edit**.  
     ![Screenshot shows the Actions pane to select Edit option.](transforming-media-files-to-on-demand-smooth-streams/_static/image23.png)
 4. Configure required settings in the watch folder's property sheet using the instructions in [Configuring Watch Folders](https://technet.microsoft.com/library/ff730178.aspx). The following guidance applies to settings of particular importance for this workflow:  
@@ -140,15 +140,15 @@ To run transform jobs on media files, you must configure the default watch folde
 A job is created for each media asset that's dropped in a watch folder and meets the watch folder file filter requirements. For example, if the **File filter** setting for a watch folder is set to detect all Windows Media Video (.wmv) files, a job is created for each .wmv file that's dropped in the watch folder. Media files with file-name extensions that don't match the watch folder's **File filter** setting are ignored.
 
 To begin transforming content, copy-and-paste the media assets into the watch folder directory using Windows Explorer or another file-movement mechanism such as command line, FTP, or WebDav.  
-![Screenshot shows the transformation of media assets into the watch folder directory. ](transforming-media-files-to-on-demand-smooth-streams/_static/image25.png)
+![Screenshot shows the transformation of media assets into the watch folder directory.](transforming-media-files-to-on-demand-smooth-streams/_static/image25.png)
 
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
-![Screenshot shows the path of the watch folder.](transforming-media-files-to-on-demand-smooth-streams/_static/image27.png)
+![Screenshot shows Watch folder path.](transforming-media-files-to-on-demand-smooth-streams/_static/image27.png)
 
 After you drop specified assets in a watch folder, the watch folder's job manager creates a job for each file and moves them one at a time into the watch folder's WorkQueue directory. The files will be moved from the watch folder into the WorkQueue quickly if they're small. The watch folder might not discover larger files for up to 60 seconds. If the files don't disappear after 60 seconds, make sure that you're in the correct watch folder or that you have enabled and started the correct watch folder.
 
 The WorkQueue directory contains folders that store the jobs as they're being processed. Assets that are processed successfully are placed in the watch folder's Finished folder while media assets that can't be processed are placed in the Failed folder. These folders are visible by default so that you can retrieve their contents more easily. The WorkQueue directory contains other folders that temporarily store jobs as they're run through the job workflow. These folders are hidden folders and to view them, you must turn on the **Folder views** option in Windows that shows hidden files, folders, and drives.  
-![Screenshot shows the hidden folders from the WorkQueue directory.](transforming-media-files-to-on-demand-smooth-streams/_static/image29.png)
+![Screenshot shows work queue directory hidden folders.](transforming-media-files-to-on-demand-smooth-streams/_static/image29.png)
 
 As jobs are run, job files (which include the original media source files, job manifest files, and the transformed output for completed jobs) accumulate in the watch folder WorkQueue folders. They can eventually clutter the disk and potentially impact performance. For more information about how to configure settings to automatically delete these files from the WorkQueue after a specified period of time, see [Running File Maintenance](https://technet.microsoft.com/library/hh147635.aspx).
 
