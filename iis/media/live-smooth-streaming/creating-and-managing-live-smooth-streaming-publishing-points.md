@@ -51,7 +51,7 @@ To create a Live Smooth Streaming publishing point in IIS Manager, do the follow
   
    ![Screenshot of the Connections pane in I I S Manager. The icon for Live Smooth Streaming Publishing Points is highlighted.](creating-and-managing-live-smooth-streaming-publishing-points/_static/image1.png)
 3. In the **Actions** pane, click **Add** to open the **Add Publishing Point** dialog box.  
-   ![Screenshot of the Actions pane. The Add option is highlighted in the drip down menu.](creating-and-managing-live-smooth-streaming-publishing-points/_static/image2.png)
+   ![Screenshot of the Actions pane. The Add option is highlighted in the drop down menu.](creating-and-managing-live-smooth-streaming-publishing-points/_static/image2.png)
 
 For details about the **Add Publishing Point** dialog box options, see [About Publishing Point Options](#options). The combination of publishing point options that you can select differ for each Live Smooth Streaming scenario.
 
