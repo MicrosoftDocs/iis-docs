@@ -113,7 +113,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then the site, application, or Web service for which you want to enable Windows authentication.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Windows Authentication**, and then click **Enable** in the **Actions** pane.   
-    [![Screenshot of the Authentication pane.](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of the Authentication pane which contains the Name and Status fields.](index/_static/image10.png)](index/_static/image9.png)
 
 * * *
 

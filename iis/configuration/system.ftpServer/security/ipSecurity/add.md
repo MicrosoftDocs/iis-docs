@@ -127,7 +127,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. In the **FTP IPv4 Address and Domain Restrictions** feature, click **Add Allow Entry...** or **Add Deny Entry...** in the **Actions** pane.  
     [![Screenshot of the F T P I P v 4 Address and Domain Restrictions feature's Actions pane.](add/_static/image12.png)](add/_static/image11.png)
 5. Enter the IP address that you wish to allow or deny, and then click **OK**.  
-    [![Screenshotof the Add Deny Restriction Rule screen with a focus on the Specific I P v 4 address field.](add/_static/image14.png)](add/_static/image13.png)
+    [![Screenshot of the Add Deny Restriction Rule screen with a focus on the Specific I P v 4 address field.](add/_static/image14.png)](add/_static/image13.png)
 
 * * *
 

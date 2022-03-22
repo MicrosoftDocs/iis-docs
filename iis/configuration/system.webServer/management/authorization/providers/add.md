@@ -40,7 +40,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Management Tools**, and then select **Management Service**. Click **Next**.  
-    [![Screenshot of Management Tools folder's contained folders with a focus on the Management Service folder.](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot of Management Tools expandable section which includes the highlighted Management Service option.](add/_static/image2.png)](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -70,7 +70,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **Web Management Tool**.
 4. Select **IIS Management Service**, and then click **OK**.   
-    [![Screenshot of the Management Service screen with the Enable remote connections optioned being checked.](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot of the Management Service screen with the Enable remote connections option being checked.](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
 ## How To
