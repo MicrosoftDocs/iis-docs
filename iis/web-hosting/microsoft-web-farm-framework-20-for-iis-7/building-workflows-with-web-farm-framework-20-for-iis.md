@@ -19,15 +19,15 @@ This article assumes you have a functioning web farm to work with. For informati
 
 1. In IIS Manager under **Connections**, click your web farm, and then click **Workflow Builder**. 
 
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image4.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image2.png)
+    ![Screenshot of the Server Farm pane with the Workflow Builder option emphasized.](building-workflows-with-web-farm-framework-20-for-iis/_static/image2.png)
 
     The **Workflow Builder** page is displayed. This page lists all workflows in the system.
 
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image7.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image6.png)
+    ![Screenshot of the Workflow Builder pane with Add Provider emphazied in the action pane.](building-workflows-with-web-farm-framework-20-for-iis/_static/image6.png)
 
 2. Click **Add Provider. T** he **Specify workflow details** dialog is displayed.   
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image9.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image8.png)  
+    ![Screenshot of creating a new workflow named D I R Command with an Operation scope of Server and the Run Remote option selected.](building-workflows-with-web-farm-framework-20-for-iis/_static/image8.png)  
   
    For this simple example, you will create a workflow that runs a DIR command on a server. Enter the following information in the **Specify workflog details**  dialog:  
 
@@ -38,7 +38,7 @@ This article assumes you have a functioning web farm to work with. For informati
     5. Enter the following description: `Attempt to run a DIR command on the server.`
 3. Click **Next**. The **Specify action details** dialog will appear.   
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image11.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image10.png)  
+    ![Screenshot of specifying a Command with a Program Path value of D I R space curly brace path curly brace. The path Parameter is a String.](building-workflows-with-web-farm-framework-20-for-iis/_static/image10.png)  
   
    Enter the following information in the **Specify action details**  dialog:  
 
@@ -47,29 +47,29 @@ This article assumes you have a functioning web farm to work with. For informati
     3. Under Parameters, define a parameter with `path` as the name, System.String as the type, and a period (.) as the default value. You may also enter a description of the parameter.
 4. Click **Next**. The **Specify recurrence details** dialog is displayed.  
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image13.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image12.png)  
+    ![Screenshot of an empty Specify recurrence details dialog.](building-workflows-with-web-farm-framework-20-for-iis/_static/image12.png)  
   
    The **Specify recurrence details** dialog enables you to select **Dependencies** (other workflow providers that your new provider depends on) and **Dependants** (other providers that depend on your new provider). It also enables you to set the **Periodicity** (how often your new workflow provider will re-run).  
   
    For this simple example, none of these settings are needed.
 5. Click **Finish** and the new workload provider is added to the **Workflow Builder** page.  
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image15.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image14.png)
+    ![Screenshot of the D I R Command workload provider in the Workflow Builder pane.](building-workflows-with-web-farm-framework-20-for-iis/_static/image14.png)
 
 **To run a workflow provider using Workflow Builder**
 
 1. In IIS Manager under **Connections**, select Servers, select and then click **Server Operations**.  
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image17.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image16.png)
+    ![Screenshot of the Servers pane with Server Operations emphasized in the Actions pane.](building-workflows-with-web-farm-framework-20-for-iis/_static/image16.png)
 2. On the **Server Operations** page, click **Server**.  
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image19.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image18.png)
+    [![Screenshot of the Server Operations dialog with Server emphasized.](building-workflows-with-web-farm-framework-20-for-iis/_static/image18.png)
 3. Click **DirCommand** (or some other server operation you want to run), enter a value for the **path** parameter (or accept the default value), and the click **Run**.  
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image21.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image20.png)  
+    ![Screenshot of D I R Command with a path parameter value of dot.](building-workflows-with-web-farm-framework-20-for-iis/_static/image20.png)  
   
    After the command finishes, a success message appears in the box at bottom of the page.
 4. **Click Close**.
 5. The results of the command appear in the **Trace Messages** on the **Servers** page.  
   
-    [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image23.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image22.png)
+    ![Screenshot of the D I R Command results in the Trace messages on the Servers page.](building-workflows-with-web-farm-framework-20-for-iis/_static/image22.png)
