@@ -97,10 +97,10 @@ After you finish the default installation of IIS 7 and later, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, then click the **Sites** node.
 3. In the server's **Sites** pane, click **Set Web Site Defaults...** in the **Actions** pane.  
-    [![](traceFailedRequestsLogging/_static/image10.png)](traceFailedRequestsLogging/_static/image9.png)
+    ![Screenshot of the Sites pane with the Default Web Site.](traceFailedRequestsLogging/_static/image9.png)
 4. In the **Web Site Defaults** dialog box, specify your default options for all Web sites, and then click **OK**.  
   
-    [![](traceFailedRequestsLogging/_static/image12.png)](traceFailedRequestsLogging/_static/image11.png)
+    ![Screenshot of the Web Site Defaults dialog with General and Behavior options.](traceFailedRequestsLogging/_static/image11.png)
  
 <a id="005"></a>
 ## Configuration
