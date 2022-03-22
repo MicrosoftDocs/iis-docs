@@ -60,7 +60,7 @@ When read operation is performed, the underline configuration system is using th
 To work around the double-hop issue with configuration COM object, we need to change the DCOM configuration to use a specified account instead of caller's security context to enable the configuration COM object authenticating at the remote network share server with specified credential.  
 You can locate the IIS 7 configuration COM object – ahadmin under DCOM Config by using Component Services on the remote web server as illustrated in the following diagram:
 
-[![Screenshot that shows the ahadmin Properties dialog box. The launching user radio is selected.](shared-configuration-and-remote-provisioning/_static/image26.jpg)](shared-configuration-and-remote-provisioning/_static/image25.jpg)
+[![Screenshot that shows the a h admin Properties dialog box. The launching user radio is selected.](shared-configuration-and-remote-provisioning/_static/image26.jpg)](shared-configuration-and-remote-provisioning/_static/image25.jpg)
 
 Right-click the ahadmin node, and select properties…, select the Identity tab, change the option to This User instead of The launching user, and specify a user account with the following permissions:
 
@@ -68,7 +68,7 @@ Right-click the ahadmin node, and select properties…, select the Identity tab,
 2. Have read permission to redirection.config file stored under system32\inetsrv\config
 3. Member of local administrators group, otherwise you will have can't decrypt exception.
 
-[![Screenshot that shows the ahadmin Properties dialog box. The This user radio is selected with entries for User, Password, and Confirm Password.](shared-configuration-and-remote-provisioning/_static/image28.jpg)](shared-configuration-and-remote-provisioning/_static/image27.jpg)
+[![Screenshot that shows the a h admin Properties dialog box. The This user radio is selected with entries for User, Password, and Confirm Password.](shared-configuration-and-remote-provisioning/_static/image28.jpg)](shared-configuration-and-remote-provisioning/_static/image27.jpg)
 
 Click **OK**.
 

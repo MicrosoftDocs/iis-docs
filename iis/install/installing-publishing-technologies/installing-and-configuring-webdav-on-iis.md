@@ -215,7 +215,7 @@ You can also add WebDAV publishing to an existing Web site by editing the IIS co
 - If you are logged in using an account with administrative permissions that is not the local &quot;administrator&quot; account, open Notepad using the "Run as Administrator" option.
 
 > [!NOTE]
-> The above steps are required because the User Account Control (UAC) security component in Windows Server 2008 and later will prevent access to your applicationHost.config file. For more information about UAC, see [User Account Control](https://docs.microsoft.com/windows/desktop/secauthz/user-account-control).
+> The above steps are required because the User Account Control (UAC) security component in Windows Server 2008 and later will prevent access to your applicationHost.config file. For more information about UAC, see [User Account Control](/windows/desktop/secauthz/user-account-control).
 
 The following steps walk you through all of the required settings to add WebDAV publishing for the Default Web Site.
 

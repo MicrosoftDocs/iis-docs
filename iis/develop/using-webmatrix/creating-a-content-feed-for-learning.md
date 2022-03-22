@@ -23,7 +23,7 @@ In this article, we will describe the integration experience through conditions 
 
 WebMatrix has a selection of interesting states, or **triggers**, that it captures events for. When these occur, WebMatrix looks at the set of feeds it is currently indexing and opens a **learning panel** on the side of the application if there are any relevant entries in the feed for that event:
 
-[![Screenshot that shows the Web Matrix. Utils dot j s tab is highlighted as well as the Java Script File. ERROR HERE PLZ ADD NOTE!](creating-a-content-feed-for-learning/_static/image2.png)](creating-a-content-feed-for-learning/_static/image1.png)
+[![Screenshot that shows the Web Matrix application. Utils dot j s tab is highlighted as well as the Java Script File.](creating-a-content-feed-for-learning/_static/image2.png)](creating-a-content-feed-for-learning/_static/image1.png)
 
 So when the user is performing some action in the IDE, relevant content can be presented to them at that opportune time - likely when they would find it most useful. A trigger fires by matching a defined "Condition" that is specific to that event - for example, a user entering the Database workspace might trigger the condition named "DatabaseWorkspace".
 
