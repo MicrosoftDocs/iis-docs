@@ -12,7 +12,7 @@ msc.type: authoredcontent
 by Dave Nelson
 
 IIS Smooth Streaming encoding presets that are integrated with the default installation of IIS Transform Manager 1.0 can be used to transform media files to on-demand Smooth Streaming presentations for delivery to Silverlight clients. This workflow is shown in the following diagram.  
-![Screenshot shows the workflow diagram of I I S Transform Manager converting Input media files to smooth streams.](transforming-media-files-to-on-demand-smooth-streams/_static/image1.png)
+![Screenshot shows the workflow diagram of I I S Transform Manager converting Input media files to Smooth Streams.](transforming-media-files-to-on-demand-smooth-streams/_static/image1.png)
 
 This article describes how to configure the default **Video files to VC-1 Smooth Streams** job template, which uses a built-in **Expression Encoder 4.0 SP2** transcoding task to transform media files to Smooth Streams. You can edit the task to select different VC-1 or H.264 IIS Smooth Streaming encoding presets to create the appropriate Smooth Streaming output for your Silverlight clients.
 
@@ -148,7 +148,7 @@ The watch folder directory is specified in the **Watch folder path** setting on 
 After you drop specified assets in a watch folder, the watch folder's job manager creates a job for each file and moves them one at a time into the watch folder's WorkQueue directory. The files will be moved from the watch folder into the WorkQueue quickly if they're small. The watch folder might not discover larger files for up to 60 seconds. If the files don't disappear after 60 seconds, make sure that you're in the correct watch folder or that you have enabled and started the correct watch folder.
 
 The WorkQueue directory contains folders that store the jobs as they're being processed. Assets that are processed successfully are placed in the watch folder's Finished folder while media assets that can't be processed are placed in the Failed folder. These folders are visible by default so that you can retrieve their contents more easily. The WorkQueue directory contains other folders that temporarily store jobs as they're run through the job workflow. These folders are hidden folders and to view them, you must turn on the **Folder views** option in Windows that shows hidden files, folders, and drives.  
-![Screenshot shows work queue directory hidden folders.](transforming-media-files-to-on-demand-smooth-streams/_static/image29.png)
+![Screenshot shows Work queue directory hidden folders.](transforming-media-files-to-on-demand-smooth-streams/_static/image29.png)
 
 As jobs are run, job files (which include the original media source files, job manifest files, and the transformed output for completed jobs) accumulate in the watch folder WorkQueue folders. They can eventually clutter the disk and potentially impact performance. For more information about how to configure settings to automatically delete these files from the WorkQueue after a specified period of time, see [Running File Maintenance](https://technet.microsoft.com/library/hh147635.aspx).
 
