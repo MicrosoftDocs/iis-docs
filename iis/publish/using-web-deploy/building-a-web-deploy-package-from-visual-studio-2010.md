@@ -47,7 +47,7 @@ In Visual Studio 2010, you can create Web Deploy packages through the UI or by u
     - **Include all databases** option tells Web Deploy whether or not to deploy databases configured in the **Package/Publish SQL** tab.
     - **Include all IIS settings as configured in IIS/IIS Express** and **Include application pool settings used by this Web project** options are covered in the article {LINK to Article about IIS Settings} and are only available when you have selected **Use Local Web server** on the **Web** property tab instead of the Cassini development server.
 7. Configure **Web Deployment Package Settings**  
-    [![Screenshot of the Web Deployment Package Settings section.](building-a-web-deploy-package-from-visual-studio-2010/_static/image14.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image13.png)  
+    [![Screenshot of the Web Deployment Package Settings section showing the zip file location and application name to be used on the destination server.](building-a-web-deploy-package-from-visual-studio-2010/_static/image14.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image13.png)  
 
     - The **Create deployment package as a zip file** option will determine whether a zip file or a directory structure ([Archive Directory](https://technet.microsoft.com/library/dd569042(WS.10).aspx)) is created at package time. Unless you are creating packages that would encounter the ZIP file size limit of 2,147,483,647 bytes (Int.MaxValue), we recommend using the ZIP format.
     - The **Location where package will be created** option specifies the location were the package file will be created. You will need to ensure you have write permissions to the location that you specify.
