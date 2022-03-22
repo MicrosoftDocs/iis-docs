@@ -87,7 +87,7 @@ To use WebMatrix to install this application, complete these steps:
 4. Click **SQL Server**, and choose the location in which you want to install the database from the drop-down list.
 5. Click **Next**.   
   
-    [![[Screenshot shows authentication modes and password fields to complete installation.](screwturn-wiki/_static/image23.jpg)](screwturn-wiki/_static/image22.jpg)
+    [![[Screenshot shows authentication modes and password fields to complete the installation.](screwturn-wiki/_static/image23.jpg)](screwturn-wiki/_static/image22.jpg)
 6. Click **Mixed Mode Authentication**, and enter a password for your administrator.
 7. Click **Next**.  
   
@@ -100,7 +100,7 @@ To use WebMatrix to install this application, complete these steps:
 9. Enter information based on your environment, and click **Next**.  
   
    Once installation is complete, this page appears.  
-    [![Screenshot shows that the products were installed successfully.](screwturn-wiki/_static/image30.jpg)](screwturn-wiki/_static/image29.jpg)
+    [![Screenshot shows the products were installed successfully.](screwturn-wiki/_static/image30.jpg)](screwturn-wiki/_static/image29.jpg)
 10. Click **OK**.   
   
     The ScrewTurn Wiki application starts as indicated in bottom-left corner of the page.  
