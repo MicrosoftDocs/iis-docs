@@ -165,6 +165,7 @@ None.
 | [`authoringRules`](authoringrules/index.md) | Optional element.<br><br>Specifies the authoring rules for WebDAV publishing. These rules specify the content types and authoring permissions for users or groups. |
 | [`globalSettings`](globalsettings/index.md) | Optional element. Specifies the global settings for the WebDAV module. |
 
+
 ### Configuration Sample
 
 The following example lists a sample `<webdav>` element for the Default Web Site. This example clears any existing authoring rules, adds a single rule for the administrators group, enables WebDAV authoring, specifies that hidden files are allowed, enables WebDAV locks and specifies the lock provider, and enables WebDAV properties and specifies the default XML namespace for property mapping.
