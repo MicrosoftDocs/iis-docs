@@ -31,7 +31,7 @@ With the addition of the Microsoft® .NET Framework to Server Core in Windows Se
 To install IIS on an installed and configured Server Core installation of Windows Server 2008, you must have an administrator user account and password for the server running the Server Core installation.
 
 1. Server Core is set up like a typical Windows Server 2008 server, except the "Server Core Installation" option is selected. The Server Core then forces a change in the administrator password.  
-    [![](install-and-configure-iis-on-server-core/_static/image2.jpg)](install-and-configure-iis-on-server-core/_static/image1.jpg)  
+    [![Screenshot that shows the Windows Server 2008 Standard installation selected.](install-and-configure-iis-on-server-core/_static/image2.jpg)](install-and-configure-iis-on-server-core/_static/image1.jpg)  
     *Figure 1: Select Server Core option*
 2. Next, verify the NIC and IPConfig (not necessary if there is a Dynamic Host Configuration Protocol [DHCP] server running on the network). To fix an IP address, type the following:  
 
@@ -114,7 +114,7 @@ See [IIS 7.0 on Server Core](../../manage/working-with-server-core/iis-70-on-ser
 ## Install Roles and Services
 
 1. Use the command **oclist** to list the available and installed roles and services on the server. The oclist command also renders component dependencies.  
-    [![](install-and-configure-iis-on-server-core/_static/image2.gif)](install-and-configure-iis-on-server-core/_static/image1.gif)  
+    [![Screenshot that shows the Command Prompt window. The output shows I I S F T P Service and Extensibility are not installed.](install-and-configure-iis-on-server-core/_static/image2.gif)](install-and-configure-iis-on-server-core/_static/image1.gif)  
     *Figure 2: Output of oclist command*  
   
    In the figure above, the oclist output shows that IIS-FTPExtensibility is dependent on IIS-FTPSvc. To install IIS-FTPExtensibility, it is first necessary to install IIS-FTPSvc.
