@@ -136,6 +136,6 @@ To test that the rule correctly sets the cookie and a server variable, open a We
 
 `http://localhost/fr-fr/language.aspx`
 
-![Screenshot of the U R L Rewrite Module v 2 Test webpage with a focus on the U R L bar, the Language cookie being set to F R underscore F R, and the originally requested U R L.](setting-http-request-headers-and-iis-server-variables/_static/image33.png)
+![Screenshot of the U R L Rewrite Module v 2 Test webpage with focus on the U R L bar, the Language cookie is set to F R underscore F R.](setting-http-request-headers-and-iis-server-variables/_static/image33.png)
 
 You should see that the rewrite rule has set the "Language" cookie in accordance to the URL that was requested. Also, the original URL string has been made accessible for the ASP.NET page via "ORIGINAL\_URI" server variable.

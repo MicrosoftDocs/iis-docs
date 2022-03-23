@@ -42,7 +42,7 @@ So far, we have configured Web Deploy on a server so non-administrators can depl
 3. Click the Publish dropdown in the toolbar and click "New…"  
     [![Screenshot of the Publish drop-down menu with its New option being highlighted.](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image10.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image9.png)
 4. Fill out the dialog like below:  
-    [![Screenshot of the Publish Web dialog with the Publish method field set to the Web Deploy entry, and the site or application set to the Default Web Site entry.](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image12.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image11.png)
+    [![Screenshot of the Publish Web dialog. The Publish method field = Web Deploy entry, site or application = Default Web Site entry.](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image12.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image11.png)
 
     Note that the Service URL field is slightly different for non-administrator deployments. Filling in just the server name in this field is equivalent to filling in https://{serverName}:8172/MsDeploy.axd, which instructs Web Deploy to deploy using the Web Management Service, which supports non-administrator deployments.
 5. Click Publish. The Output Windows shows that Web Deploy is indeed deploying over the Web Management Service:  

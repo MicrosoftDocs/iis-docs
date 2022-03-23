@@ -28,7 +28,7 @@ To create a Visual Studio project for rewrite provider follow these steps:
 8. In the combo box, select the option &lt;New…&gt; to create a new key. In the "Create Strong Name Key" dialog, type DemoKey.snk as the name for the key and uncheck the Protect my key file with a password check box. Click OK.  
     [![Screenshot of the Create Strong Name Key dialog, which contains the Key file name, Enter password, and Confirm password fields.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image8.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image6.png)  
    The Signing tab should look as below:  
-    [![Screenshot of the signing tab screen which has the entered key file name populate the Choose a strong name key file field.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
+    [![Screenshot of the signing tab showing the entered key file name in the Choose a strong name key file field.](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
 9. Select the "Build Events" tab and add the following "Post-build event" command line:  
   
    CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
