@@ -74,7 +74,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Request Filtering**, and then click **Next**.   
-    [![Screenshot of the Request Filtering option being highlighted.](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Request Filtering option being highlighted and the only selected option.](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
