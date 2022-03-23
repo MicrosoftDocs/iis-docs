@@ -70,7 +70,7 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common Http Features**.
 4. Select **HTTP Redirection**, and then click **OK**.  
-    ![Screenshot of the Windows Features dialog box. H T T P Redirection is selected and highlighted.](add/_static/image7.png)
+    ![Screenshot of the Windows Features dialog box. H T T P Redirection is highlighted.](add/_static/image7.png)
  
 <a id="004"></a>
 ## How To
