@@ -17,7 +17,7 @@ The purpose of this article is to provide information about deploying and optimi
 
 Notice that Microsoft has produced a set of SQL Server SKUs targeted for various scenarios, including Web Application Hosting. Here is the SKU feature comparison table:
 
-[![](sql-2008-for-hosters/_static/image3.jpg)](sql-2008-for-hosters/_static/image1.jpg)
+[![Screenshot of S K U feature comparison table with details of new features in various scenarios.](sql-2008-for-hosters/_static/image3.jpg)](sql-2008-for-hosters/_static/image1.jpg)
 
 ### Contents
 

@@ -49,7 +49,7 @@ To install the Digest authentication role service, use the following steps.
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **Digest Authentication**. Click **Next**.  
-    [![](digestAuthentication/_static/image2.png)](digestAuthentication/_static/image1.png) .
+    [![Image of Web Server and Security pane expanded with Digest Authentication selected.](digestAuthentication/_static/image2.png)](digestAuthentication/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -59,7 +59,7 @@ To install the Digest authentication role service, use the following steps.
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **Digest Authentication**.  
-    [![](digestAuthentication/_static/image4.png)](digestAuthentication/_static/image3.png)
+    [![Screenshot of World Wide Web Services and Security pane expanded with Digest Authentication highlighted.](digestAuthentication/_static/image4.png)](digestAuthentication/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -68,7 +68,7 @@ To install the Digest authentication role service, use the following steps.
 1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
-4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Digest Authentication**, and then click **Next**. [![](digestAuthentication/_static/image6.png)](digestAuthentication/_static/image5.png)
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Digest Authentication**, and then click **Next**. [![Image of Select Role Services page displaying Digest Authentication option selected.](digestAuthentication/_static/image6.png)](digestAuthentication/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -77,7 +77,7 @@ To install the Digest authentication role service, use the following steps.
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, select **Digest Authentication**, and then click **OK**.   
-    [![](digestAuthentication/_static/image8.png)](digestAuthentication/_static/image7.png)
+    [![Screenshot of World Wide Web Services and Security pane expanded showing Digest Authentication selected.](digestAuthentication/_static/image8.png)](digestAuthentication/_static/image7.png)
 
 <a id="004"></a>
 ## How To
@@ -102,10 +102,10 @@ To install the Digest authentication role service, use the following steps.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then click the site, application or Web service for which you want to enable basic authentication.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.  
-    [![](digestAuthentication/_static/image10.png)](digestAuthentication/_static/image9.png)
+    [![Image of Home pane in Security section with Authentication application highlighted.](digestAuthentication/_static/image10.png)](digestAuthentication/_static/image9.png)
 4. In the **Authentication** pane, select **Digest Authentication**, and then, in the **Actions** pane, click **Enable**.
 5. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Disable** in the **Actions** pane.  
-    [![](digestAuthentication/_static/image12.png)](digestAuthentication/_static/image11.png)
+    [![Image of Authentication pane displaying Anonymous Authentication option highlighted.](digestAuthentication/_static/image12.png)](digestAuthentication/_static/image11.png)
 
 <a id="005"></a>
 ## Configuration
