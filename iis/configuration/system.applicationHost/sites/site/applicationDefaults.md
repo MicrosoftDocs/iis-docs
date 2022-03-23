@@ -57,11 +57,11 @@ The `<applicationDefaults>` element of the `<site>` element is included in the d
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, then click the name of the site.
 3. In the site's **Home** pane, click **View Applications** in the **Actions** pane.  
-    [![](applicationDefaults/_static/image2.png)](applicationDefaults/_static/image1.png)
+    [![Screenshot of the Default Web Site Home screen, showing the dot NET Compilation, dot NET Globalization, and dot NET Profile options.](applicationDefaults/_static/image2.png)](applicationDefaults/_static/image1.png)
 4. In the site's **Application** pane, click **Set Application Defaults...** in the **Actions** pane.  
-    [![](applicationDefaults/_static/image4.png)](applicationDefaults/_static/image3.png)
+    [![Screenshot of the Applications pane, showing the Virtual Path and Physical Path fields.](applicationDefaults/_static/image4.png)](applicationDefaults/_static/image3.png)
 5. In the **Application Defaults** dialog box, specify your default application settings for the site, and then click **OK**.  
-    [![](applicationDefaults/_static/image6.png)](applicationDefaults/_static/image5.png)
+    [![Screenshot of the General and Behavior sections.](applicationDefaults/_static/image6.png)](applicationDefaults/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration

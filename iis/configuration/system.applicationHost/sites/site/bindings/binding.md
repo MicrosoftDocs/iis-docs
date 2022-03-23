@@ -78,9 +78,9 @@ In IIS 8 and later, the certificates in a centralized certificate store can be u
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then click the Web site on which you want to configure the bindings.
 3. In the **Actions** pane, click **Bindings...**
 4. In the **Site Bindings** dialog box, click **Add...**  
-    [![](binding/_static/image2.png)](binding/_static/image1.png)
+    [![Screenshot of the Site Bindings dialog box.](binding/_static/image2.png)](binding/_static/image1.png)
 5. In the **Add Site Binding** dialog box, add the binding information, and then click **OK**.  
-    [![](binding/_static/image4.png)](binding/_static/image3.png)
+    [![Screenshot of the Add Site Binding dialog box.](binding/_static/image4.png)](binding/_static/image3.png)
 
 ### How to create a centralized certificate store
 

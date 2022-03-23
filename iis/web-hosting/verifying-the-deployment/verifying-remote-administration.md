@@ -30,17 +30,17 @@ An important characteristic of [Shared Hosting](../planning-the-web-hosting-arch
 
 1. Within a Windows Server 2008 R2, Windows 7, or Windows Vista computer run InetMgr.exe.
 2. From the Connections pane select Connect to Site:  
-    [![](verifying-remote-administration/_static/image2.jpg)](verifying-remote-administration/_static/image1.jpg)
+    [![Screenshot of the Connections pane with the Connect to a Site option in the right-click drop-down menu being highlighted.](verifying-remote-administration/_static/image2.jpg)](verifying-remote-administration/_static/image1.jpg)
 3. Enter the Server and Site names and press next:  
-    [![](verifying-remote-administration/_static/image4.jpg)](verifying-remote-administration/_static/image3.jpg)
+    [![Screenshot of the Connect to Site dialog box, showing the Server name and Site name fields.](verifying-remote-administration/_static/image4.jpg)](verifying-remote-administration/_static/image3.jpg)
 4. Enter the User Credentials and press next:  
-    [![](verifying-remote-administration/_static/image6.jpg)](verifying-remote-administration/_static/image5.jpg)
+    [![Screenshot of the Provide Credentials screen with the user's credentials entered into the User name and Password fields.](verifying-remote-administration/_static/image6.jpg)](verifying-remote-administration/_static/image5.jpg)
 5. Enter a name for your Connection:  
-    [![](verifying-remote-administration/_static/image8.jpg)](verifying-remote-administration/_static/image7.jpg)
+    [![Screenshot of the Connect to Site dialog box showing the Connection Name field.](verifying-remote-administration/_static/image8.jpg)](verifying-remote-administration/_static/image7.jpg)
 6. A dialog listing the new available IIS Manager Modules should be displayed, press OK to install the new modules:  
-    [![](verifying-remote-administration/_static/image10.jpg)](verifying-remote-administration/_static/image9.jpg)
+    [![Screenshot of the New Feature Available dialog box, showing the Assembly, Features, Size, and Version fields.](verifying-remote-administration/_static/image10.jpg)](verifying-remote-administration/_static/image9.jpg)
 7. After installation of the new modules IIS Manager will display the modules available, the example below has the Database Manager highlighted.   
-    [![](verifying-remote-administration/_static/image12.jpg)](verifying-remote-administration/_static/image11.jpg)
+    [![Screenshot of the My Dash Site Home screen with the Database Manager option highlighted.](verifying-remote-administration/_static/image12.jpg)](verifying-remote-administration/_static/image11.jpg)
 
 ## Conclusion
 
