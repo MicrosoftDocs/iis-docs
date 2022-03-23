@@ -53,7 +53,7 @@ Login as is the administrator account or in the Administrators group.
 Make a backup of the configuration before executing the tasks in this article. Run the following:
 
 1. Click the Start button -&gt; All Programs -&gt; Accessories -&gt; (r-click)Command Prompt -&gt; Run as Administrator  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image2.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image1.jpg)
+    [![Screenshot of the Windows Start menu with a focus on the Run as administrator option in the right-click drop-down menu.](how-to-add-tracing-to-iis-managed-modules/_static/image2.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image1.jpg)
 2. Execute the following command in that command prompt:  
 
     [!code-console[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample1.cmd)]
@@ -116,7 +116,7 @@ Now to compile the module &amp; deploy it. In the Administrator command prompt, 
 
 [!code-console[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample10.cmd)]
 
-[![](how-to-add-tracing-to-iis-managed-modules/_static/image2.png)](how-to-add-tracing-to-iis-managed-modules/_static/image1.png)
+[![Screenshot of the exclamation code dash consoleMain command in Notepad.](how-to-add-tracing-to-iis-managed-modules/_static/image2.png)](how-to-add-tracing-to-iis-managed-modules/_static/image1.png)
 
 > [!NOTE]
 > If you are running this on a 64bit system, compile using the 64bit c# compiler in `%windir%\microsoft.net\framework64\v2.0.50727\csc.exe`
@@ -135,19 +135,19 @@ This section includes adding and testing the module.
 2. Enable the module. From the administrator command prompt, type **start inetmgr** to bring up the IIS administration UI.
 3. Under the **Connections** pane, expand the local machine name, then **Sites**, and click on **Default Web Site**.
 4. Under **IIS** in the center pane, double-click on **Modules**:  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image4.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image3.jpg)
+    [![Screenshot of the Default Web Site Home screen with the Modules option being highlighted.](how-to-add-tracing-to-iis-managed-modules/_static/image4.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image3.jpg)
 5. You see a large list of modules configured for use by this site. On the right side of the UI under **Actions**, click **Add Managed Module**:  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image6.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image5.jpg)
+    [![Screenshot of the Actions pane with a focus on the Add Managed Module option.](how-to-add-tracing-to-iis-managed-modules/_static/image6.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image5.jpg)
 6. In the window that displays, name the managed module **IIS\_MOD\_REQDATA** and the type of the module is **IIS\_MOD\_REQDATA.IIS\_MOD\_REQDATA**(select this from the dropdown list box):  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image4.png)](how-to-add-tracing-to-iis-managed-modules/_static/image3.png)
+    [![Screenshot of the Add Managed Module dialog box, showing the Name and Type fields.](how-to-add-tracing-to-iis-managed-modules/_static/image4.png)](how-to-add-tracing-to-iis-managed-modules/_static/image3.png)
 7. Click **OK**. The newly traced module is now configured for the web site's use.  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image6.png)](how-to-add-tracing-to-iis-managed-modules/_static/image5.png)
+    [![Screenshot of the Modules screen, showing the newly traced module.](how-to-add-tracing-to-iis-managed-modules/_static/image6.png)](how-to-add-tracing-to-iis-managed-modules/_static/image5.png)
 
 ### Step 2 : Testing Our Module
 
 Test the module by opening Internet Explorer and browsing to [http://localhost/test.htm](http://localhost/test.htm). You see the following window:
 
-[![](how-to-add-tracing-to-iis-managed-modules/_static/image8.png)](how-to-add-tracing-to-iis-managed-modules/_static/image7.png)
+[![Screenshot of a webpage reading here is a sample page that is served by static file handler.](how-to-add-tracing-to-iis-managed-modules/_static/image8.png)](how-to-add-tracing-to-iis-managed-modules/_static/image7.png)
 
 The "REQUEST HEADERS" &amp; "RESPONSE HEADERS" content came from our module, indicating that is works.
 
@@ -178,34 +178,34 @@ The ***tsStatus*** traceSource is wired up to the IIS7TraceListener, which will 
 When these diagnostics events are emitted into IIS's tracing infrastructure, they are mapped to the ASP.net Provider &amp; the Module flag on that provider. Their verbosity depends on the TraceEventType used. To configure Failed Request Tracing to pick these up:
 
 1. From your Administrator command prompt, type **start inetmgr**. In the **Connections** panel, expand the machine name, then Sites folder, then click on the **Default Web Site**. To the right under the **Actions** pane, click on **Failed Request Tracing…** link under **Configure**:  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image10.png)](how-to-add-tracing-to-iis-managed-modules/_static/image9.png)
+    [![Screenshot of the Manage Web Site section of the Actions pane, with the Failed Request Tracing option being highlighted.](how-to-add-tracing-to-iis-managed-modules/_static/image10.png)](how-to-add-tracing-to-iis-managed-modules/_static/image9.png)
 2. In the next dialog box, configure the following:  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image12.png)](how-to-add-tracing-to-iis-managed-modules/_static/image11.png)
+    [![Screenshot of the Edit Web Site Failed Request Tracing Settings dialog box.](how-to-add-tracing-to-iis-managed-modules/_static/image12.png)](how-to-add-tracing-to-iis-managed-modules/_static/image11.png)
 3. Check the **Enable** check box. Keep the defaults for the other settings. Click **OK** to continue.
 4. Now that we have verified that Failed Request Tracing Logging is enabled, we must configure the failure definitions. Back in the IIS Manager, under **IIS**, double-click on **Failed Request Tracing Rules**  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image14.png)](how-to-add-tracing-to-iis-managed-modules/_static/image13.png)
+    [![Screenshot of the Default Web Site Home screen with the Failed Request Tracing Rules option being highlighted.](how-to-add-tracing-to-iis-managed-modules/_static/image14.png)](how-to-add-tracing-to-iis-managed-modules/_static/image13.png)
 5. In the **Actions** pane, click Add…. This launches the **Add Failed Request Tracing Rule** wizard.
 6. On the **Specify Content to Trace** page, select the **All Content (\*)** option for what to trace. Click **Next**.  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image16.png)](how-to-add-tracing-to-iis-managed-modules/_static/image15.png)
+    [![Screenshot of the Add Failed Request Tracing Rule page with a focus on the Next option.](how-to-add-tracing-to-iis-managed-modules/_static/image16.png)](how-to-add-tracing-to-iis-managed-modules/_static/image15.png)
 7. In the **Define Trace Conditions** screen, check the **Status Codes** check box &amp; enter "200" as the status code to trace.  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image8.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image7.jpg)
+    [![Screenshot of the Define Trace Conditions screen with the Status codes field being checked.](how-to-add-tracing-to-iis-managed-modules/_static/image8.jpg)](how-to-add-tracing-to-iis-managed-modules/_static/image7.jpg)
 8. Click **Next**. The **Select Trace Providers** page appears. Select the **ASPNET** check box and the **Module &amp; Page** check boxes under "Areas". Under Verbosity, select **Verbose**.  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image18.png)](how-to-add-tracing-to-iis-managed-modules/_static/image17.png)  
+    [![Screenshot of the Select Trace Providers screen with the ASPNET Provider option being highlighted.](how-to-add-tracing-to-iis-managed-modules/_static/image18.png)](how-to-add-tracing-to-iis-managed-modules/_static/image17.png)  
   
     > [!NOTE]
     > Due to a bug in Server Beta 3 builds, module traces can only be captured if both Module and Page areas are selected. Post Server Beta 3, only Module is required to collect these events.
 9. Click **Finish**. You see the following definition for the Default Web Site:  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image20.png)](how-to-add-tracing-to-iis-managed-modules/_static/image19.png)
+    [![Screenshot of the Failed Request Tracing Rules screen.](how-to-add-tracing-to-iis-managed-modules/_static/image20.png)](how-to-add-tracing-to-iis-managed-modules/_static/image19.png)
 
 ### Testing and Viewing the Results
 
 In this task, we generate the failed request and view the resulting trace log. Remember, we configured IIS to capture trace logs for http://localhost/\* requests that fail with a 200. To verify that it worked:
 
 1. Open a new Internet Explorer window. Type in the address [http://localhost/test.htm](http://localhost/test.htm). Again, you see the following:  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image22.png)](how-to-add-tracing-to-iis-managed-modules/_static/image21.png)
+    [![Screenshot of the sample webpage in an Internet Explorer window.](how-to-add-tracing-to-iis-managed-modules/_static/image22.png)](how-to-add-tracing-to-iis-managed-modules/_static/image21.png)
 2. To verify our module has generated traces that have been captured, use an Administrator-elevated Internet Explorer window and hit **CTRL-O**, then navigate to `c:\inetpub\logs\FailedReqLogFiles\W3SVC1`. In the dropdown list box that reads **HTML Files**, select **All Files**.
 3. Select the most recent fr######.xml file (today's date) and click **Open**. You see the events:  
-    [![](how-to-add-tracing-to-iis-managed-modules/_static/image24.png)](how-to-add-tracing-to-iis-managed-modules/_static/image23.png)
+    [![Screenshot of the Request Diagnostics screen, showing the Custom Module Traces tab.](how-to-add-tracing-to-iis-managed-modules/_static/image24.png)](how-to-add-tracing-to-iis-managed-modules/_static/image23.png)
 
 ## Summary
 
