@@ -232,7 +232,7 @@ In your elevated command prompt Window, run the following command:
 5. Input the username **AnonymousAccount1** and password **password3** and select **OK.**
 6. This brings up the following dialog box:  
   
-    [![](using-encryption-to-protect-passwords/_static/image14.jpg)](using-encryption-to-protect-passwords/_static/image13.jpg)
+    [![Screenshot of the Edit Anonymous Authentication Credentials dialog box.](using-encryption-to-protect-passwords/_static/image14.jpg)](using-encryption-to-protect-passwords/_static/image13.jpg)
 7. Press **OK** to save your changes.
 
 ### Set the Anonymous Account for Site Two
