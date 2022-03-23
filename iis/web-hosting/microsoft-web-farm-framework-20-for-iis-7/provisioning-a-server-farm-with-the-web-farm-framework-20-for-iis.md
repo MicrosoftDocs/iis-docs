@@ -26,7 +26,7 @@ You can install any web platform components that are available in the Web Platfo
 1. Start **IIS Manager**, and then in the **Connections** pane, select the name of the server farm you want to configure settings for.
 2. On the **Server Farm** page, double-click **Platform Provisioning**.
 
-   ![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image4.png)
+   ![Screenshot of the Server Farm page within I I S Manager. The Platform Provisioning icon is circled.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image4.png)
 
    > [!NOTE]
    > The icons for provisioning are not displayed when **Content View** is selected. If you do not see the icons, click the **Features View** tab at the bottom of the **Content** pane.
@@ -34,7 +34,7 @@ You can install any web platform components that are available in the Web Platfo
 3. On the **Platform Provisioning** page, expand the **Additional Products** section.
 4. To add a product to be synchronized, click twice in the **Product Name** field and then select the product you want to add. When you select a product, a new row is added.  
   
-    ![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image8.png)
+    ![Screenshot of the Platform Provision Page with the Product Name field expanded.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image8.png)
 
    The selected products will be provisioned to the secondary servers in the farm in addition to the platform components and additional applications installed on the primary server in the server farm.
 
@@ -49,14 +49,14 @@ Application provisioning is similar to platform provisioning, but instead of syn
 1. Start **IIS Manager**, and then in the **Connections** pane, select the name of the server farm you want to configure settings for.
 2. On the **Server Farm** pane, double-click **Application Provisioning**.  
   
-    ![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image12.png)
+    ![Screenshot of the Server Farm page within I I S Manager. The Application Provisioning icon is circled.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image12.png)
   
     > [!NOTE]
     > The icons for provisioning are not displayed when **Content View** is selected. If you do not see the icons, click the **Features View** tab at the bottom of the **Content** pane.
 
 3. In the **Application Provisioning** pane, expand the **Additional Providers** section.  
   
-    ![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image16.png)
+    ![Screenshot of the Application Provisioning pane with the Provider field drop down menu expanded.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image16.png)
 4. To add a provider to be synchronized, click twice in the **Provider** field and then select the provider you want to add.  
    When you select a provider, a new row is added.
 5. Enter a path in which to install the provider on the secondary servers. This must be a file system path, such as `C:\inetpub\`. The field cannot be empty.
@@ -73,12 +73,12 @@ You can also install web platform products on a selected server or all servers i
 
     - If you want to install products on all the servers in your server farm, select your server farm in the **Connections** pane, and then in the **Actions** pane click **Install Products**.  
   
-       ![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image18.png)
+       ![Screenshot of the I I S Manager Window on the Server Farm page. Install Products option is circled in the Actions menu.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image18.png)
     - If you want to install products on a specific server, expand the server farms node and then select the **Servers** node. In the **Servers** pane select the server you want, and then in the **Actions** pane click **Install Products**.
 2. In the **Install Products** dialog box, select the products you want to install, and then click **OK**.  
   
-    ![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image20.png)
+    ![Screenshot of the Install Products dialog box.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image20.png)
 
 You can view the installation status using the trace messages displayed on the **Servers** page.
 
-![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image22.png)
+![Screenshot of the Servers page displaying the installation status trace messages.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image22.png)
