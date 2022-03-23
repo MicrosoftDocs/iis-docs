@@ -30,7 +30,7 @@ An important characteristic of [Shared Hosting](../planning-the-web-hosting-arch
 
 1. Within a Windows Server 2008 R2, Windows 7, or Windows Vista computer run InetMgr.exe.
 2. From the Connections pane select Connect to Site:  
-    [![Screenshot of the Connections pane with the Connect to a Site option in the right-click drop-down menu being highlighted.](verifying-remote-administration/_static/image2.jpg)](verifying-remote-administration/_static/image1.jpg)
+    [![Screenshot of the Connections pane with the Connect to a Site option in the right-click dropdown menu being highlighted.](verifying-remote-administration/_static/image2.jpg)](verifying-remote-administration/_static/image1.jpg)
 3. Enter the Server and Site names and press next:  
     [![Screenshot of the Connect to Site dialog box, showing the Server name and Site name fields.](verifying-remote-administration/_static/image4.jpg)](verifying-remote-administration/_static/image3.jpg)
 4. Enter the User Credentials and press next:  
