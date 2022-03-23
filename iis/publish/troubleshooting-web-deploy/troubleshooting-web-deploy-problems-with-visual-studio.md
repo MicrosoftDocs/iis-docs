@@ -25,7 +25,7 @@ The steps below walk through the series of errors you are likely to encounter wh
 
 The first error you are likely to encounter will look something like the screenshot below in Visual Studio's output window. To make it easier to read, the full text of the message is reproduced below the screenshot.
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image1.png)
+![Screenshot of  the Error List output in Visual Studio.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image1.png)
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample1.cmd)]
 
@@ -41,7 +41,7 @@ The text highlighted in this error (and the other errors below) is the key to un
 
 Is the web management service installed? On the IIS server, open the Internet Information Services Manager and select the machine name node. In the Features view, scroll down to the Management section and look for these Icons:
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image3.png)
+![Screenshot of the I I S Manager Permissions icon, I I S Manager Users icon, and Management Service icon.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image3.png)
 
 If they are not there, you need to install the Management Service through the Add Role Services dialog. It can also be installed via the Web Platform Installer from the products tab. Select Server in the left column and choose IIS: Management Service. Note that after you install the Management Service, you will need to start it, as it is not started automatically. To do this, double-click the Management Service icon. After the Management Service pane is displayed, click Start in the Actions pane on the right.
 
@@ -51,7 +51,7 @@ Has the web management service been allowed through Windows Firewall? When you i
 
 By default, the Web Management Service listens on port 8172, but this can be changed. The easiest way to check what port is being used is to open the Management Service pane as described above, and look at the IP and port information in the Connections section. If the port has been changed to something other than 8172, you will need to ensure the new port is allowed through the firewall, and update the service URL in Visual Studio's publishing settings to use the new port.
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/troubleshooting-web-deploy-problems-with-visual-studio-1118-image31.jpeg)
+![Screenshot of the Error List screen in Visual Studio.](troubleshooting-web-deploy-problems-with-visual-studio/_static/troubleshooting-web-deploy-problems-with-visual-studio-1118-image31.jpeg)
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample6.cmd)]
 
@@ -71,13 +71,13 @@ The "6" after the 403 in the log is the substatus code, and means "IP address re
 
 This is the most likely reason for the 403.6 response. Double click the Management Service icon, and verify that Enable Remote Connections is checked. You must stop the service to make changes, so be sure to restart it when you are done.
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image5.png)
+![Screenshot of the Management Service dialog box.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image5.png)
 
 **Have IP restrictions been configured for the Management Service?**
 
 The other common reason you could get a 403 error is if the management service has been configured to deny the IP of the client. By default, it is configured to allow all IPs as long as remote connections are allowed. You can check for IP restrictions by double-clicking the Management Service icon. Any configured IP restriction rules will be at the bottom of the page, in the IPv4 Address Restrictions
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/troubleshooting-web-deploy-problems-with-visual-studio-1118-image51.jpeg)
+![Screenshot of the Error List page in Visual Studio. Error Details are in focus.](troubleshooting-web-deploy-problems-with-visual-studio/_static/troubleshooting-web-deploy-problems-with-visual-studio-1118-image51.jpeg)
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample10.cmd)]
 
@@ -101,7 +101,7 @@ You can verify web deploy is installed by going to the Programs and Features con
 
 If Web Deploy is installed and you still get this error, make sure the IIS 7 Deployment Handler feature in Web Deploy is installed. In the Programs and Features control panel, find Microsoft Web Deploy 2.0, right-click and choose Change. In the Wizard that comes up, click next on the first page, and then choose "Change" on the second page. Add IIS 7 Deployment Handler and everything under it.
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image7.png)
+![Screenshot of the Microsoft Web Deploy 2 dot 0 Setup dialog box. Web Deployment Framework is highlighted.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image7.png)
 
 Click Next to complete the Wizard. You will need to restart the web management service after making this change.
 
@@ -109,7 +109,7 @@ Click Next to complete the Wizard. You will need to restart the web management s
 
 Once Web Deploy and the Web Management Service are correctly configured, you will need to set up delegation rules to allow users to update content. For permissions issues, there are several different errors you may see in Visual Studio. For example:
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image9.png)
+![Screenshot of the Error List in Visual Studio displaying permission issue errors.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image9.png)
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample15.cmd)]
 
@@ -131,13 +131,13 @@ To allow this user to publish, you will need to set up delegation per the instru
 
 If the account is able to log in, but has not been granted the rights needed to publish the content, you will see
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image11.png)
+![Screenshot of the Error List page in Visual Studio displaying an error related to user permissions.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image11.png)
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample21.cmd)]
 
 The WMSvc log will show HTTP 200 responses for these requests. Fortunately, Web Deploy 2.1 also writes information to the Microsoft Web Deploy service log. To view it, open the event viewer and go to Applications and Services Logs -&gt;Microsoft Web Deploy.
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image13.png)
+![Screenshot of the Event Viewer menu. Microsoft Web Deploy is highlighted.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image13.png)
 
 For this particular error, the event log contains extra detail (truncated for brevity):
 
@@ -145,7 +145,7 @@ For this particular error, the event log contains extra detail (truncated for br
 
 This message tells you where permissions need to be granted for this particular error. Another permissions error you may see in Visual Studio is
 
-![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image15.png)
+![Screenshot of the Error List page in Visual Studio with a permissions error in focus.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image15.png)
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample23.cmd)]
 

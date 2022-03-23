@@ -59,10 +59,10 @@ The `<applicationPools>` collection is included in the default installation of I
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, click **Application Pools**, and click the application pool you want to edit.
-    [![](processModel/_static/image2.png)](processModel/_static/image1.png)
+    ![Screenshot of the I I S Manager window displaying the Application Pools page.](processModel/_static/image1.png)
 3. In the **Actions** pane, click **Advanced Settings...**
 4. In the **Advanced Settings** dialog box, click the process model property that you want to edit, and then edit it in the property value section of the dialog box, and then click **OK**. For example, change the **Shutdown Time Limit (seconds)** and **Startup Time Limits (seconds)** to **30**.  
-    [![](processModel/_static/image4.png)](processModel/_static/image3.png)
+    ![Screenshot of the Advanced Settings dialog box. Process Model is highlighted.](processModel/_static/image3.png)
 
 ### How to configure IIS for use with Non-Uniform Memory Access (NUMA) hardware
 
@@ -80,7 +80,7 @@ The `<applicationPools>` collection is included in the default installation of I
 4. In the **Actions** pane, select **Advanced Settings**.
 5. Under **Process Model** pane, set **Maximum Worker Processes** to `0`.  
   
-    [![](processModel/_static/image6.png)](processModel/_static/image5.png)
+    ![Screenshot of the Advanced Settings pane. Maximum Worker Processes is highlighted in the list.](processModel/_static/image5.png)
 
 ### How to configure the idle timeout action
 
@@ -98,7 +98,7 @@ The `<applicationPools>` collection is included in the default installation of I
 4. In the **Process Model** section of the **Advanced Settings** dialog box, for **idleTimeoutAction**, select **Terminate** or **Suspend**.
 5. Click **OK**.  
   
-    [![](processModel/_static/image8.png)](processModel/_static/image7.png)
+    ![Screenshot of the Advanced Settings dialog box. Idle Time out-Action is highlighted and Terminate is selected in the drop down menu.](processModel/_static/image7.png)
 
 <a id="005"></a>
 ## Configuration
