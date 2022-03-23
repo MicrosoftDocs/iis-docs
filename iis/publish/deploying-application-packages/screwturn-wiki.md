@@ -34,17 +34,17 @@ To use Web PI to install this application, complete these steps:
 1. From the Windows Start menu, click **Programs**, and then click **Web Platform Installer**.  
   
    The Web Platform Installation window appears.  
-    [![](screwturn-wiki/_static/image2.jpg)](screwturn-wiki/_static/image1.jpg)
+    [![Screenshot shows Web Platform Installation window to select a web application and install.](screwturn-wiki/_static/image2.jpg)](screwturn-wiki/_static/image1.jpg)
 2. Click the **Web Applications** tab, select the **ScrewTurn Wiki 3.0** check box, and click **Install**.  
   
-    [![](screwturn-wiki/_static/image4.jpg)](screwturn-wiki/_static/image3.jpg)
+    [![Screenshot shows the web application license agreement.](screwturn-wiki/_static/image4.jpg)](screwturn-wiki/_static/image3.jpg)
 3. Select the **ScrewTurn Wiki 3.0** check box, and click **I Accept**.  
   
-    [![](screwturn-wiki/_static/image6.jpg)](screwturn-wiki/_static/image5.jpg)
+    [![Screenshot shows authentication modes and password fields to complete installation.](screwturn-wiki/_static/image6.jpg)](screwturn-wiki/_static/image5.jpg)
 4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**. 
 
     Once the preinstallation steps complete, the site information window appears.  
-   [![](screwturn-wiki/_static/image8.jpg)](screwturn-wiki/_static/image7.jpg)
+   [![Screenshot shows site information fields to enter the site information.](screwturn-wiki/_static/image8.jpg)](screwturn-wiki/_static/image7.jpg)
 5. In the Web Site list, click **New Web Site**.
 6. Enter an application name in the application name field.
 7. Enter a web site name in the Web Site Name field.
@@ -53,7 +53,7 @@ To use Web PI to install this application, complete these steps:
 10. Enter a host name in the Host Name field, and click **Continue**.  
   
     The application information window appears.  
-    [![](screwturn-wiki/_static/image10.jpg)](screwturn-wiki/_static/image9.jpg)
+    [![Screenshot shows application information window to enter database details.](screwturn-wiki/_static/image10.jpg)](screwturn-wiki/_static/image9.jpg)
 11. In the Choose your database list, click **SQL Server**.
 12. In the Create a new or use an existing database list, click **Create new database**.
 13. Enter a database administrator user name in the Database Admin Username field.
@@ -61,11 +61,11 @@ To use Web PI to install this application, complete these steps:
 15. Click **Continue**.  
   
     Once the installation process completes, the final installation window appears.  
-    [![](screwturn-wiki/_static/image12.jpg)](screwturn-wiki/_static/image11.jpg)
+    [![Screenshot shows that the products were installed successfully.](screwturn-wiki/_static/image12.jpg)](screwturn-wiki/_static/image11.jpg)
 16. Click **Finish**.  
   
     The ScrewTurn Wiki web page appears. From this web page, you can edit the ScrewTurn Wiki home page and create new pages.  
-    [![](screwturn-wiki/_static/image14.jpg)](screwturn-wiki/_static/image13.jpg)
+    [![Screenshot shows the ScrewTurn application home page.](screwturn-wiki/_static/image14.jpg)](screwturn-wiki/_static/image13.jpg)
 
 #### WebMatrix
 
@@ -76,54 +76,54 @@ To use WebMatrix to install this application, complete these steps:
 1. Launch WebMatrix.  
   
    The WebMatrix home page appears.  
-    [![](screwturn-wiki/_static/image16.jpg)](screwturn-wiki/_static/image15.jpg)
+    [![Screenshot shows the WebMatrix home page.](screwturn-wiki/_static/image16.jpg)](screwturn-wiki/_static/image15.jpg)
 2. Click **Site From Web Gallery**.  
   
    The Site From Web Gallery page appears.  
-    [![](screwturn-wiki/_static/image18.jpg)](screwturn-wiki/_static/image17.jpg)
+    [![Screenshot shows the Site from Web Gallery page.](screwturn-wiki/_static/image18.jpg)](screwturn-wiki/_static/image17.jpg)
 3. Click **ScrewTurn Wiki**, and then click **Next**.  
   
-    [![](screwturn-wiki/_static/image20.jpg)](screwturn-wiki/_static/image19.jpg)
+    [![Screenshot shows the type of database engine and the location to install.](screwturn-wiki/_static/image20.jpg)](screwturn-wiki/_static/image19.jpg)
 4. Click **SQL Server**, and choose the location in which you want to install the database from the drop-down list.
 5. Click **Next**.   
   
-    [![](screwturn-wiki/_static/image23.jpg)](screwturn-wiki/_static/image22.jpg)
+    [![[Screenshot shows authentication modes and password fields to complete the installation.](screwturn-wiki/_static/image23.jpg)](screwturn-wiki/_static/image22.jpg)
 6. Click **Mixed Mode Authentication**, and enter a password for your administrator.
 7. Click **Next**.  
   
    The Accept EULA page appears.  
-    [![](screwturn-wiki/_static/image25.jpg)](screwturn-wiki/_static/image24.jpg)
+    [![Screenshot shows E U L A End User License Agreement.](screwturn-wiki/_static/image25.jpg)](screwturn-wiki/_static/image24.jpg)
 8. Click **I Accept** to agree to the end-user license agreement.  
   
    WebMatrix installs the ScrewTurn Wiki software on your local computer. During installation, this page appears.  
-    [![](screwturn-wiki/_static/image27.jpg)](screwturn-wiki/_static/image26.jpg)
+    [![Screenshot shows the ScrewTurn wiki software installation fields.](screwturn-wiki/_static/image27.jpg)](screwturn-wiki/_static/image26.jpg)
 9. Enter information based on your environment, and click **Next**.  
   
    Once installation is complete, this page appears.  
-    [![](screwturn-wiki/_static/image30.jpg)](screwturn-wiki/_static/image29.jpg)
+    [![Screenshot shows the products were installed successfully.](screwturn-wiki/_static/image30.jpg)](screwturn-wiki/_static/image29.jpg)
 10. Click **OK**.   
   
     The ScrewTurn Wiki application starts as indicated in bottom-left corner of the page.  
-    [![](screwturn-wiki/_static/image32.jpg)](screwturn-wiki/_static/image31.jpg)
+    [![Screenshot shows the installation of ScrewTurn wiki 3 point zero application started.](screwturn-wiki/_static/image32.jpg)](screwturn-wiki/_static/image31.jpg)
 11. Click **Settings** in the left navigation area.  
   
-    [![](screwturn-wiki/_static/image34.jpg)](screwturn-wiki/_static/image33.jpg)
+    [![Screenshot shows Settings page to select the dot NET framework version.](screwturn-wiki/_static/image34.jpg)](screwturn-wiki/_static/image33.jpg)
 12. Select **.Net 4 (Integrated)** from the Select .NET Framework Version drop-down list.
 13. Select **Publish &gt; Configure**.  
   
     The Publishing Settings dialog box appears.  
-    [![](screwturn-wiki/_static/image36.jpg)](screwturn-wiki/_static/image35.jpg)
+    [![Screenshot shows the Publishing Settings dialog box to validate connection to the server and publish.](screwturn-wiki/_static/image36.jpg)](screwturn-wiki/_static/image35.jpg)
 14. Add your hosting provide and domain-specific information, and click **Validate Connection**.
 15. If the connection was successful, click **Apply**, and then click **Publish**.  
   
     The Publish Preview dialog box appears.  
-    [![](screwturn-wiki/_static/image38.jpg)](screwturn-wiki/_static/image37.jpg)
+    [![Screenshot shows the preview of all the changed files.](screwturn-wiki/_static/image38.jpg)](screwturn-wiki/_static/image37.jpg)
 16. Click **Continue**.  
   
     The status of the publishing process is indicated in the bottom-left corner of the page.  
-    [![](screwturn-wiki/_static/image40.jpg)](screwturn-wiki/_static/image39.jpg)
+    [![Screenshot shows the status of the publish process.](screwturn-wiki/_static/image40.jpg)](screwturn-wiki/_static/image39.jpg)
 17. Once publishing is complete, go to your domain, and verify DotNetNuke is running.  
-    [![](screwturn-wiki/_static/image42.jpg)](screwturn-wiki/_static/image41.jpg)
+    [![Screenshot shows the Main page of the ScrewTurn wiki application.](screwturn-wiki/_static/image42.jpg)](screwturn-wiki/_static/image41.jpg)
 
 ### Step 2. Build the application package from the IIS site.
 
