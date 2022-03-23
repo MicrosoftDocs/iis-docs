@@ -52,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    ![Screenshot of F T P Service and F T P Extensibility selected in a Windows Server 2012 interface.](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -65,7 +65,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of F T P Service and F T P Extensibility selected in a Windows 8 interface.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -79,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    ![Screenshot of F T P Service and F T P Extensibility selected in a Windows Server 2008 interface.](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -93,7 +93,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    ![Screenshot of F T P Service and F T P Extensibility selected in a Windows 7 interface.](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -128,7 +128,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the site or URL on which you want to configure authorization.
 3. In the **Home** pane, double-click **Authorization Rules**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![Screenshot of an empty F T P Authorization Rules pane.](index/_static/image9.png)
 4. To add a new authorization rule, click **Add Allow Rule...** or **Add Deny Rule...** in the **Actions** pane.
 5. Apply the authorization settings needed for your site or application. There are two sections that need to be considered: 
 
@@ -139,7 +139,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - **Specified roles or user groups** (multiple groups/roles can be separated by a comma)
         - **Specified users** (multiple users can be separated by a comma)
     - Permissions: Use the check box to specify **Read** or **Write** access for the rule.  
-        [![](index/_static/image12.png)](index/_static/image11.png)
+        ![Screenshot of the Add Allow Authorization Rule with All Users allowed access.](index/_static/image11.png)
 6. Click **OK**.
 
 <a id="005"></a>
