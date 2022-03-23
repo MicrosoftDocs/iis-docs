@@ -81,14 +81,14 @@ Now we still have the problem left that Alice can still access BobsSecret.aspx. 
 2. You will see a list of files in the secure folder namely "default.aspx" and "bobsSecret.aspx".
 3. Right click on bobsSecret.aspx and select "Feature View"  
 
-    ![Screenshot showing contents of "Secure" web directory including "default.aspx" and "bobsSecret.aspx".](understanding-iis-url-authorization/_static/image3.jpg)
+    ![Screenshot showing contents of Secure web directory including default dot a s p x" and "bobsSecret dot a s p x.](understanding-iis-url-authorization/_static/image3.jpg)
 4. Now you are making only changes for the bobsSecret.aspx page as indicated in the statusbar.
 5. Select "Authorization Rules" again. You see the inherited settings, i.e. the BobsAndFriends group is allowed to access bobsSecret.aspx.
 6. Remove the "BobsAndFriends" rule.
 7. Now click "Add Allow Rule…"
 8. Click the "Specified users:" radio button, enter "Bob" and click "OK".  
 
-    ![Screenshot showing Add Allow Authorization Rule panel with "Specified users" radio button selected and "Bob" entered in dialog box.](understanding-iis-url-authorization/_static/image5.jpg)
+    ![Screenshot showing Add Allow Authorization Rule panel with Specified users selected.](understanding-iis-url-authorization/_static/image5.jpg)
 9. Close all Internet Explorer windows and request `http://localhost/secure/bobsSecret.aspx`.
 10. Only by entering Bob's credentials will you get access.
 
