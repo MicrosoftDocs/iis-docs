@@ -116,10 +116,10 @@ In this step, we create two new application pools that we isolate from one anoth
 4. Select the task on the right titled **Add Application Pool**.
 5. Input the Name '**AppPool1**' and then press **OK** as shown:  
   
-    [![](using-encryption-to-protect-passwords/_static/image2.jpg)](using-encryption-to-protect-passwords/_static/image1.jpg)
+    [![Screenshot of the Add Application Pool dialog box with a focus on the O K option.](using-encryption-to-protect-passwords/_static/image2.jpg)](using-encryption-to-protect-passwords/_static/image1.jpg)
 6. Repeat previous steps but this time use the name **AppPool2**.
 7. You now see the following screen within the IIS:  
-    [![](using-encryption-to-protect-passwords/_static/image4.jpg)](using-encryption-to-protect-passwords/_static/image3.jpg)
+    [![Screenshot of the Application Pools screen showing a list of application pools on the server.](using-encryption-to-protect-passwords/_static/image4.jpg)](using-encryption-to-protect-passwords/_static/image3.jpg)
 8. Notice how the identity for both **AppPool1** and **AppPool2** are **NetworkService**. We will change this to be the accounts we created earlier by right clicking **AppPool1** and then selecting **Advanced Settings**
 9. Under the title **Process Model**:  
 
@@ -130,15 +130,15 @@ In this step, we create two new application pools that we isolate from one anoth
       user name: **AppPoolIdentity1**  
       password: **password1**
 
-       [![](using-encryption-to-protect-passwords/_static/image6.jpg)](using-encryption-to-protect-passwords/_static/image5.jpg)
+       [![Screenshot of the Set Credentials dialog, showing the User name, Password, and Confirm password fields.](using-encryption-to-protect-passwords/_static/image6.jpg)](using-encryption-to-protect-passwords/_static/image5.jpg)
 10. Now the **Identity** value should appear as shown below:  
   
-    [![](using-encryption-to-protect-passwords/_static/image8.jpg)](using-encryption-to-protect-passwords/_static/image7.jpg)
+    [![Screenshot of the Advanced Settings dialog box with the Identity value being highlighted in the Process Model section.](using-encryption-to-protect-passwords/_static/image8.jpg)](using-encryption-to-protect-passwords/_static/image7.jpg)
 11. Click **OK** to save your changes.
 12. Repeat the previous step for **AppPool2** and user the user name "**AppPoolIdentity2**" and the password "**password2**".
 13. You see the following displayed in the IIS Manager (mainly the Identities for the application pools have changed):  
   
-    [![](using-encryption-to-protect-passwords/_static/image10.jpg)](using-encryption-to-protect-passwords/_static/image9.jpg)
+    [![Screenshot of the Application Pools showing the changed identities for the applications pools.](using-encryption-to-protect-passwords/_static/image10.jpg)](using-encryption-to-protect-passwords/_static/image9.jpg)
 14. Verify the changes by using Windows Notepad and opening the `%SystemRoot%\System32\Inetsrv\applicationHost.config` file. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended:
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample7.cmd)]
@@ -189,9 +189,10 @@ Application Pool: AppPool1
 Physical Path: {location of your inetpub directory}\wwwroot\one   
 Port: 81***  
 
-    This should look like the following when completed:
+     This should look like the following when completed:
   
-    [![](using-encryption-to-protect-passwords/_static/image12.jpg)](using-encryption-to-protect-passwords/_static/image11.jpg)
+   ![Screenshot of the Add Web Site dialog with the Site name field being populated by the One entry.](using-encryption-to-protect-passwords/_static/image11.jpg)
+
 5. Click **OK** to save the changes.
 6. Repeat the previous two steps but this time use the following information for the second site:   
   
