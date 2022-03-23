@@ -43,7 +43,7 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-I
 
 FTP is one of the front-end servers in the [shared hosting configuration](../planning-the-web-hosting-architecture/shared-hosting-configuration.md "shared hosting configuration").
 
-![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image1.jpg)
+![Diagram of F T P service deployment involving the interactions between the front end and back end servers.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image1.jpg)
 
 This image highlights several important characteristics of FTP deployment in the shared hosting environment:
 
@@ -75,9 +75,9 @@ The FTP for IIS server has several features that make it ideal for shared hostin
 7. Stop the Windows Process Activation Service (WAS):
 
     - At the command prompt, type **services.msc** This will display the Services console.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image3.jpg)
+        ![Screenshot of the Services console with Windows Process Activation Service selected.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image3.jpg)
     - Double-click **Windows Process Activation Service**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image5.jpg)
+        ![Screenshot of the Windows Process Activation Service Properties with Startup type set to Disabled.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image5.jpg)
     - In the Windows Process Activation Service Properties dialog box, ensure that the Startup Type for this service is set to Disabled. Click **Stop**, and then click **OK**.
 
 ## Create SSL Enabled Site
@@ -86,7 +86,7 @@ In this section, you will create a new FTP site that can be opened by using any 
 
 1. Go to IIS Manager. In the Connections pane, click the Sites node in the tree.
 2. Right-click the Sites node in the tree, and click **Add FTP Site**, or click **Add FTP Site** in the Actions pane.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image7.jpg)
+    ![Screenshot of an emphasized Add F T P Site option after right-clicking Sites in the Connections pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image7.jpg)
 3. When the Add FTP Site Wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: `%*SystemDrive*%\inetpub\ftproot`).
@@ -95,7 +95,7 @@ In this section, you will create a new FTP site that can be opened by using any 
        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
 
     - Click **Next**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
+        ![Screenshot of the Add F T P Site dialog with the specified Site Information.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
 4. On the next page of the wizard:
 
     - Choose an IP address for your FTP site in the **IP Address** text box, or choose to accept the default selection of "All Unassigned." This example uses the local loopback IP "127.0.0.1".
@@ -104,7 +104,7 @@ In this section, you will create a new FTP site that can be opened by using any 
     - Make sure that the **Certificates** drop-down list is set to the appropriate certificate that you intend to use. This example uses a self-signed certificate called "My FTP Certificate." For instructions, see [Creating a Self-signed SSL Certificate](../../publish/using-the-ftp-service/using-ftp-over-ssl-in-iis-7.md#02 "Creating a Self-signed SSL Certificate").
     - Ensure that the **Allow SSL** option is selected.
     - Click **Next**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image11.jpg)
+        ![Screenshot of the Add F T P Site dialog with the specified Binding and S S L Settings.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image11.jpg)
 5. On the next page of the wizard:
 
     - Select **Basic** for the **Authentication** settings.
@@ -113,7 +113,7 @@ In this section, you will create a new FTP site that can be opened by using any 
         - Choose "All users" from the **Allow access to** drop-down list.
         - Select **Read** and **Write** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image13.jpg)
+        ![Screenshot of the Add F T P Site dialog with the specified Authentication and Authorization Information.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image13.jpg)
 
 ### Summary
 
