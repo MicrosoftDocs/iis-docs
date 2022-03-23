@@ -58,7 +58,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot of Web Server I I S and F T P Server node expanded with F T P Extensibility selected.](index/_static/image2.png)](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -71,7 +71,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Image of Internet Information Services node expanded with F T P Extensibility highlighted.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -85,7 +85,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Image of F T P Server in Select Role Services page expanded showing F T P Service selected.](index/_static/image6.png)](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -99,7 +99,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Image of Internet Information Services and F T P Server pane expanded displaying F T P Extensibility and F T P Service selected.](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -138,10 +138,10 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. In the **FTP Request Filtering** pane, click the **File Name Extensions** tab.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Image of F T P Request Filtering pane displaying File Name Extension tab.](index/_static/image10.png)](index/_static/image9.png)
 5. Click **Deny File Name Extension...** in the **Actions** pane.
 6. In the **Deny File Name Extension** dialog box, enter the file name extension that you wish to block. For example, to prevent access to files with a file name extension of .inc, you would enter "inc" in the dialog box.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    [![Image of Deny File Name Extension dialog box with file name typed in the File Name Extension field.](index/_static/image12.png)](index/_static/image11.png)
 7. Click **OK**.
 
 <a id="005"></a>

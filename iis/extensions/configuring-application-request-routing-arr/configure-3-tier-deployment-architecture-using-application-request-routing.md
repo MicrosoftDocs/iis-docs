@@ -15,7 +15,7 @@ by IIS Team
 
 This topic leads you through the steps to configure a 3-tier deployment architecture using Application Request Routing. The 3-tier deployment architecture consists of a Web tier, an application server tier, and a data tier, as shown below:
 
-![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image1.jpg)
+![Diagram of three tiers of architecture deployment and their connections to one another.](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image1.jpg)
 
 Typically in this deployment scenario, static content is served by the tier 1 servers while dynamic content is served by the business logic in tier 2 servers.
 
@@ -54,9 +54,9 @@ Before proceeding, make sure that the static content is available on the ARR ser
 1. Launch IIS Manager.
 2. Select the server farm, **myServerFarm**, which was created in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).
 3. The following icons are shown:  
-    ![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image3.jpg)
+    ![Screenshot of the Server Farm dialog box.](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image3.jpg)
 4. Double click **Routing Rules**. Type __\*.jpg__ and __\*.css__ in the **Requests with the following extensions are not forwarded** text box. The multiple extensions are comma (,) separated. To match the path in URL, type __\*/image/\*__ in the **Requests with the following patterns are not forwarded** text box. The wildcard character (\*) is used to match any character before and after the path /image/.  
-    ![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the Routing Rules screen's Routing section.](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image4.jpg)
 5. To verify that the static images are being served from the ARR server, inspect the logs. By default, the logs are in `c:\inetpub\logs\LogFiles\`. On application servers behind the ARR server, there should not be any requests that reference \*.jpg, \*.css or \*/images/\* in the log file.
 
 **To change URL rewrite rules using the command-line:**

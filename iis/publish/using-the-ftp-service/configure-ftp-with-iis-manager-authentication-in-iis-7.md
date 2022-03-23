@@ -85,30 +85,30 @@ IIS 7 offers an optional management service that allows remote administration us
 In this first step, you install the IIS 7 management service.
 
 1. Click **Server Manager** in the Windows Start menu.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image1.png)
+    ![Screenshot of the Windows Start Menu screen.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image1.png)
 2. Click **Roles** in the tree view, locate the Web Server role and click **Add Role Services**.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.png)
+    ![Screenshot of the Roles tree view within the Server Manager screen with the Add Role Services option being highlighted.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.png)
 3. If **Management Service** is not checked, check the box next to it and click **Next**. Otherwise, click **Cancel**.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image9.png)
+    ![Screenshot of Select Roles Services screen with a focus on the Management Service's checkbox being checked.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image9.png)
 4. When prompted to confirm the service selections, click **Install**.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image13.png)
+    ![Screenshot of the Confirm Installation Selections screen with a focus on the Install option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image13.png)
 5. When the service installation is complete, click **Close** to exit the wizard and close **Server Manager**.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image17.png)
+    ![Screenshot of the Installation Results screen with a focus on the Close option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image17.png)
 
 ### Step 2: Configure the IIS Management Service and Add an IIS 7 Manager
 
 In this second step, you configure the IIS 7 management service for IIS 7 Managers.
 
 1. Go to the IIS 7 Manager. In the **Connections** pane, click the server-level node in the tree. Double-click the **Management Service** icon.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image21.png)
-2. Select the option for **Windows credentials or IIS Manager credentials. C** lick **Apply** in the **Actions** pane.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image25.png)
+    ![Screenshot of the Connections pane with a focus on the Management Service icon.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image21.png)
+2. Select the option for **Windows credentials or IIS Manager credentials. Click **Apply** in the **Actions** pane.  
+    ![Screenshot of the Management Service screen with a focus on the Apply option in the Actions pane.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image25.png)
 3. Go to the IIS 7 Manager. In the **Connections** pane, click the server-level node in the tree. Double-click the **IIS Manager Users** icon.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image29.png)
+    ![Screenshot of the MYSERVER Home webpage with a focus on the I I S Manager Users option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image29.png)
 4. In the **IIS Manager Users** feature, click **Add User** in the **Actions** pane.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image33.png)
-5. When the **Add User** dialog appears, enter "ftpmanager" for **User Name** and "P@ssw0rd" for **Password. C** lick **OK**.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image37.png)
+    ![Screenshot of the I I S Manager Users screen with a focus on the Add User option in the Actions pane.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image33.png)
+5. When the **Add User** dialog appears, enter "ftpmanager" for **User Name** and "P@ssw0rd" for **Password. Click **OK**.  
+    ![Screenshot of the Add User dialog, showing the User Name, Password, and Confirm Password fields.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image37.png)
 
 #### Summary
 
@@ -130,7 +130,7 @@ In this first step, you create a new FTP site that can only be opened by the loc
 
 1. Go to the IIS 7 Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image1.jpg)
+    ![Screenshot of the Sites node with a focus on the ADD F T P Site in the Actions pane.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site** wizard appears: 
 
     - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
@@ -139,7 +139,7 @@ In this first step, you create a new FTP site that can only be opened by the loc
         > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
     - Click **Next**.
 
-      ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.jpg)
+      ![Screenshot of the Add F T P Site screen, with My New F T P Site entered in the F T P site name field.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard: 
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using an IIS 7 manager account later in this walk-through, make sure that you restrict access to the server -- enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -148,48 +148,48 @@ In this first step, you create a new FTP site that can only be opened by the loc
    - Make sure that the **SSL** **Certificate** drop-down is set to "Not Selected" and that the **Require SSL** option is not selected.
    - Click **Next**.
 
-   ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image11.jpg)
+   ![Screenshot of the Add F T P Site screen, showing the I P Address, Port, and S S L Certificate fields.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image11.jpg)
 5. On the next page of the wizard: 
 
    - In **Authentication** settings, select **Basic**.
    - In **Authorization** settings, choose "Specified users" from the **Allow access to** drop-down. Type "administrator" in the box, and select both **Read** and **Write** in **Permissions** options.
    - Click **Finish**.
 
-   ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image13.jpg)
+   ![Screenshot of the Add F T P Site screen, showing the allow access to field set to administrator.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image13.jpg)
 
 ### Step 2: Configure the FTP Site to Use IIS 7 Manager Authentication
 
 This section walks you through the steps required to enable IIS 7 Manager Authentication for the FTP site that you just created. Use the following steps:
 
 1. Go to the IIS 7 Manager. Click the node for the FTP site that you created earlier. Double-click the **FTP Authentication** icon to open the FTP authentication feature page.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image41.png)
+    ![Screenshot of the I I S 7 Manager with a focus on the F T P Authentication option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image41.png)
 2. When the **FTP Authentication** page displays, click **Custom Providers** in the **Actions** pane.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image45.png)
-3. When the **Custom Providers** dialog displays, click the check box for **IIS Manager Authentication. C** lick **OK**.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image49.png)
+    ![Screenshot of the F T P Authentication page with a focus on the Custom Providers option in the Actions pane.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image45.png)
+3. When the **Custom Providers** dialog displays, click the check box for **IIS Manager Authentication**. Click **OK**.  
+    ![Screenshot of the Custom Providers screen with a focus on the I I S Manager Auth check box.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image49.png)
 4. Your **FTP Authentication** page should now show both **Basic Authentication** and **IIS Manager Authentication** enabled. If desired, disable **Basic Authentication** by highlighting it and clicking **Disable** in the **Actions** pane.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image53.png)
+    ![Screenshot of the F T P Authentication page showing Basic Authentication and I S S Manager Auth options, with a focus on the Disable option in the Actions pane.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image53.png)
 5. You now must enable access for the IIS 7 manager account. Click the node for the FTP site in the tree view. Double-click the **IIS Manager Permissions** icon to open that feature.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image57.png)
+    ![Screenshot of the My New FTP Site Home page with a focus on the I I S Manager Permissions option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image57.png)
 6. On the IIS Manager Permissions page, click **Allow User** in the **Actions** pane.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image61.png)
+    ![Screenshot of the I I S Manager Permissions screen with a focus on the Allow User option in the Actions pane.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image61.png)
 7. When the **Allow User** dialog displays, choose the **IIS Manager** option. Click **Select**.  
-     ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image65.png)
+     ![Screenshot of the Allow User dialog with the I I S Manager option selected with a focus on the Select option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image65.png)
 8. When the **Users** dialog box displays, select the "ftpmanager" user. Click **OK**.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image69.png)
+    ![Screenshot of the Users dialog box showing the F T P manager option with a focus on the O K option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image69.png)
 9. Click **OK** to close the **Allow User** dialog box.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image73.png)
+    ![Screenshot of the Allow User dialog box with a focus on the O K option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image73.png)
 10. You must add an authorization rule so that the IIS 7 manager account can log in. Click the node for the FTP site in the tree view. Double-click the **FTP Authorization Rules** icon to open the FTP authorization rules feature page.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image77.png)
+    ![Screenshot of the My New F T P Site Home screen with a focus on the F T P Authorization Rules option.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image77.png)
 11. When the **FTP Authorization Rules** page displays, click **Add Allow Rule** in the **Actions** pane.  
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image81.png)
+    ![Screenshot of the F T P Authorization Rules page, with a focus on the Add Allow Rule option in the Actions pane.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image81.png)
 12. When the **Add Allow Authorization Rule** dialog box opens: 
 
     - Select **Specified users**, then type "ftpmanager" in the text box.
     - For **Permissions**, select both **Read** and **Write**.
     - Click **OK**.
 
-    ![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image85.png)
+    ![Screenshot of the Add Allow Authorization Rule dialog box.](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image85.png)
 
 #### Summary
 

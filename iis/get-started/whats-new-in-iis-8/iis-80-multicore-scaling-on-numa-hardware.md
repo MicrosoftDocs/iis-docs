@@ -63,13 +63,13 @@ There are no known bugs for this feature at this time.
 
 1. Open **IIS Manager**.
 2. Select **Application Pools** in the left navigation window:  
-    ![](iis-80-multicore-scaling-on-numa-hardware/_static/image1.png)
+    ![Screenshot that shows Application Pools selected.](iis-80-multicore-scaling-on-numa-hardware/_static/image1.png)
 3. Select **App Pool**:  
-    ![](iis-80-multicore-scaling-on-numa-hardware/_static/image3.png)
+    ![Screenshot that shows the Application Pools pane. The Default App Pool line is highlighted.](iis-80-multicore-scaling-on-numa-hardware/_static/image3.png)
 4. In the **Actions** pane, select **Advanced Settings**:  
-    ![](iis-80-multicore-scaling-on-numa-hardware/_static/image5.png)
+    ![Screenshot that shows the Actions pane with Advanced Settings highlighted.](iis-80-multicore-scaling-on-numa-hardware/_static/image5.png)
 5. Under **Process Model** group, locate the **Maximum Worker Processes** setting.  
-    ![](iis-80-multicore-scaling-on-numa-hardware/_static/image7.png)
+    ![Screenshot that shows the Process Model group. Maximum Worker Processes and its value of 1 is highlighted.](iis-80-multicore-scaling-on-numa-hardware/_static/image7.png)
 6. Set this value to 0.
 
 The optimal NUMA selection logic as well as the affinity type are also found under **Advanced Settings**. However, they appear only if IIS is running on NUMA hardware.

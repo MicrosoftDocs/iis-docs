@@ -43,7 +43,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Health and Diagnostics**, and then select **Tracing**. Click **Next**.  
-    [![](traceFailedRequestsLogging/_static/image2.png)](traceFailedRequestsLogging/_static/image1.png) .
+    ![Screenshot of Tracing selected under Health and Diagnostics in an expanded Web Server list.](traceFailedRequestsLogging/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -53,7 +53,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
-    [![](traceFailedRequestsLogging/_static/image4.png)](traceFailedRequestsLogging/_static/image3.png)- Click **OK**.
+    ![Screenshot of Tracing selected under Health in a Windows 8 interface.](traceFailedRequestsLogging/_static/image3.png)- Click **OK**.
 4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
@@ -62,7 +62,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Tracing**, and then click **Next**.  
-    [![](traceFailedRequestsLogging/_static/image6.png)](traceFailedRequestsLogging/_static/image5.png)
+    ![Screenshot of Tracing selected under Health and Diagnostics in the Add Role Services dialog.](traceFailedRequestsLogging/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -72,7 +72,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Health and Diagnostics**.
 4. Select **Tracing**, and then click **OK**.  
-    [![](traceFailedRequestsLogging/_static/image8.png)](traceFailedRequestsLogging/_static/image7.png)
+    ![Screenshot of Tracing selected under Health in a Windows Vista or Windows 7 interface.](traceFailedRequestsLogging/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -99,7 +99,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 3. In the site's **Home** pane, click **Failed Request Tracing...** in the **Actions** pane.
 4. In the **Edit Web Site Failed Request Tracing Settings** dialog box, specify your tracing options, and then click **OK**.  
   
-    [![](traceFailedRequestsLogging/_static/image10.png)](traceFailedRequestsLogging/_static/image9.png)
+    ![Screenshot of an enabled Failed Request Tracing Settings with a Maximum number of trace files set to 50.](traceFailedRequestsLogging/_static/image9.png)
 
 <a id="005"></a>
 ## Configuration

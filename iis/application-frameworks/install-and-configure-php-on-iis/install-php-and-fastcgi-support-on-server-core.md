@@ -51,7 +51,7 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 3. From a connected computer, open a browser window, and go to `http://%systemhost%/phpinfo.php`.
 4. A page appears showing the PHP configuration.  
 
-    [![](install-php-and-fastcgi-support-on-server-core/_static/image2.jpg)](install-php-and-fastcgi-support-on-server-core/_static/image1.jpg)  
+    [![Screenshot of the P H P Configuration page. This page shows information on P H P Version five dot two dot four.](install-php-and-fastcgi-support-on-server-core/_static/image2.jpg)](install-php-and-fastcgi-support-on-server-core/_static/image1.jpg)  
     *Figure 1: PHP page*
 
 > [!NOTE]

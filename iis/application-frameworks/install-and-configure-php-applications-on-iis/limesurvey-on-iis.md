@@ -46,11 +46,11 @@ LimeSurvey requires two libraries named mbstring and php\_pdo\_mysql. To enable 
 
 Go to "[http://localhost/limesurvey/admin](http://localhost/limesurvey/admin/install/index.php)". Now the LimeSurvey installation script starts.
 
-![](limesurvey-on-iis/_static/image1.png)
+![Screenshot of the Lime Survey installation script. The Progress and Welcome text are shown.](limesurvey-on-iis/_static/image1.png)
 
 Follow the administration step &ndash; when you come to the database configuration screen please enter the credentials you configure for your database.
 
-![](limesurvey-on-iis/_static/image2.png)
+![Screenshot of the local host slash lime survey slash admin web page. The Lime Survey installation script starts. The language selection menu is shown.](limesurvey-on-iis/_static/image2.png)
 
 ### Login to the LimeSurvey Administration
 
@@ -58,9 +58,9 @@ After completing the installation you will be forwarded to the administration lo
 
 You should get the followin login screen. If you did not change the administration username and password during installation the default credentials are &ldquo;admin&rdquo; and &ldquo;password&rdquo; and must be changed as soon as possible.
 
-![](limesurvey-on-iis/_static/image3.png)
+![Screenshot of the Lime Survey Administration log in page. The Username, Password, and Language boxes are shown.](limesurvey-on-iis/_static/image3.png)
 
-![](limesurvey-on-iis/_static/image4.png)
+![Screenshot of the Lime Survey administration interface page. Options to Create survey, List Surveys, Global Settings, Comfort Update, Label sets, and templates are shown.](limesurvey-on-iis/_static/image4.png)
 
 ## How to Use LimeSurvey
 
@@ -72,9 +72,9 @@ If you would like to check out/import some sample survey there are several surve
 
 Refer to the following screen shots for the survey.
 
-![](limesurvey-on-iis/_static/image5.png)
+![Screenshot of the Sample Lime Survey page. Two questions are shown. The first question asks What city do you live in? The second question asks How long have you lived in years?](limesurvey-on-iis/_static/image5.png)
 
-![](limesurvey-on-iis/_static/image6.png)
+![Screenshot of the Sample Lime Survey page. The question Which do you like best about? is written on the page. Choices are given in a drop down menu.](limesurvey-on-iis/_static/image6.png)
 
 ## Getting More Information
 

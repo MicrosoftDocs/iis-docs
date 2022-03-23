@@ -53,10 +53,10 @@ The `<applicationPools>` collection is included in the default installation of I
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, click **Application Pools**, and click the application pool you want to edit.  
-    [![](failure/_static/image2.png)](failure/_static/image1.png)
+    [![Image of Connections pane displaying App Default Pool option highlighted.](failure/_static/image2.png)](failure/_static/image1.png)
 3. In the **Actions** pane, click **Advanced Settings...**
 4. In the **Advanced Settings** dialog box, click the rapid-fail protection property that you want to edit, then edit the value in the property value section of the dialog box, and then click **OK**. For example, change the **Failure Interval (minutes)** to **4** and **Maximum Failures** to **4**.  
-    [![](failure/_static/image4.png)](failure/_static/image3.png)
+    [![Screenshot of Advanced Settings dialog box displaying Maximum Failures highlighted.](failure/_static/image4.png)](failure/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration

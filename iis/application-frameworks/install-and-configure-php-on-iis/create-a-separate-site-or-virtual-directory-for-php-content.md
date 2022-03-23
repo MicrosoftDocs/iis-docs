@@ -32,7 +32,7 @@ In these cases, you can add a separate virtual directory to host the PHP content
 4. On the **Security** tab, click **Edit**.
 5. Click **Add**, and then type **IIS\_IUSRS** in the **Enter the object names to select** box.
 6. Click **OK**.  
-    [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image2.gif)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image1.gif)  
+    [![Screenshot of the Permissions for p h p app dialog box. The Security tab is shown. Under Group or user names, I I S underscore I U S R S is highlighted.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image2.gif)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image1.gif)  
     *Figure 1: Permissions for phpapp folder*
 7. Click **OK** to accept the default permissions (read and execute)
 8. Click **OK** to close the phpapp Permissions window.
@@ -57,7 +57,7 @@ Follow these steps:
 4. Click **Add Virtual Directory**.
 5. In the **Alias** box, type **phpapp**.
 6. In the **Physical path** box, type `c:\inetpub\phpapp`  
-    [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image2.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image1.jpg)  
+    [![Screenshot of the Add Virtual Directory dialog box. The Alias box contains the text p h p a p p. The Physical path box contains the text C colon backslash i net p u b backslash p h p a p p.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image2.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image1.jpg)  
     *Figure 2: Adding a virtual directory for php applications*
 7. Click **OK**.
 8. Using Windows Explorer, browse to the `C:\inetpub\phpapp` directory.
@@ -68,7 +68,7 @@ Follow these steps:
 11. Save and close the file.
 12. Test the page.
 13. Start **Windows® Internet Explorer®**, and then enter: **localhost/phpapp/hello.php** in the **Address** bar.  
-    [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image4.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image3.jpg)  
+    [![Screenshot of the Add Site Binding dialog box. Under Type, h t t p is chosen. Under I P address, All Unassigned is chosen. Under Port is the number eighty. Under Host name is p h p site.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image4.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image3.jpg)  
     *Figure 3: "Hello" page*
 14. Close all open windows.
 
@@ -82,17 +82,17 @@ It is possible to create a separate site with the desired port and domain name t
 4. Enter **PHPSite** for the **Site name**.
 5. Enter `c:\inetpub\phpapp` for **Physical path**.
 6. Enter **85** for **Port**.  
-    [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image6.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image5.jpg)  
+    [![Screenshot of the Add Web Site dialog box. P H P Site is written under Site name. Eighty five is written under Port. The physical path is c colon backslash i net p u b backslash p h p a p p.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image6.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image5.jpg)  
     *Figure 4: Add Web Site dialog*- Click **OK**.
 7. Open **Internet Explorer**, and request `http://localhost:85/hello.php`.  
-     [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image8.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image7.jpg)  
+     [![Screenshot of the Add Virtual Directory dialog box. The physical path is c colon backslash i net p u b backslash p h p a p p.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image8.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image7.jpg)  
      *Figure 5: "Hello" page running on a Web Site*
 8. Return to **IIS Manager** (Inetmgr.exe).
 9. In the tree view on the left, right-click the **PHPSite**.
 10. Click **Edit Bindings**.
 11. Click **Add**.
 12. Enter **phpsite** for the Host name.  
-      [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image10.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image9.jpg)  
+      [![Screenshot of the Add Site Binding dialog box. The host name is p h p site.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image10.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image9.jpg)  
       *Figure 6: Adding a site binding*
 13. Click **OK** and close Site Bindings dialog.
 14. Edit `C:\Windows\system32\drivers\etc\hosts` file in Notepad as administrator and add the following DNS entry:  
@@ -100,7 +100,7 @@ It is possible to create a separate site with the desired port and domain name t
       [!code-console[Main](create-a-separate-site-or-virtual-directory-for-php-content/samples/sample2.cmd)]
 15. Save and close the hosts file.
 16. Open **Internet Explorer**, and go to `http://phpsite/hello.php`.  
-      [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image12.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image11.jpg)  
+      [![Screenshot of the p h p site web page. The text hello is shown.](create-a-separate-site-or-virtual-directory-for-php-content/_static/image12.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image11.jpg)  
       *Figure 7: "Hello" page running on a Web Site*
 17. Close all open windows.
 

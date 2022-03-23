@@ -69,18 +69,18 @@ To test that your profile XML works:
 3. Click the Publish button in the ribbon
 4. Click the "Import Profile…" button  
   
-    [![](generate-a-profile-xml-file/_static/image5.png)](generate-a-profile-xml-file/_static/image3.png)
+    [![Screenshot of the Publishing Settings page. The Import Profile button is highlighted.](generate-a-profile-xml-file/_static/image5.png)](generate-a-profile-xml-file/_static/image3.png)
 5. Choose a profile, import it and click "Validate Connection" to make sure that the profile was imported correctly.
 
 The items in the Publish Settings dialog should be filled out automatically according to the following mapping:
 
 #### Web Deploy Settings Mapping
 
-[![](generate-a-profile-xml-file/_static/image4.jpg)](generate-a-profile-xml-file/_static/image3.jpg)
+[![Screenshot of the Publish Settings page. The Protocol, Server, User name, Password, Site name, and Destination U R L boxes are shown.](generate-a-profile-xml-file/_static/image4.jpg)](generate-a-profile-xml-file/_static/image3.jpg)
 
 #### FTP Settings Matching
 
-[![](generate-a-profile-xml-file/_static/image6.jpg)](generate-a-profile-xml-file/_static/image5.jpg)
+[![Screenshot of the Publish Settings page. The Protocol, Server, Site path, User name, password, and Destination boxes are filled.](generate-a-profile-xml-file/_static/image6.jpg)](generate-a-profile-xml-file/_static/image5.jpg)
 
 ## Next Steps
 

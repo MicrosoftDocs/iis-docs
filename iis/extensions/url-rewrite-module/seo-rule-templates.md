@@ -41,11 +41,11 @@ Verify that the host names and web page were setup correctly by opening a Web br
 
 Finally use the "User-Friendly URL" rule template to generate an inbound rewrite rule that allows usage of the clean hierarchy base URLs instead of URLs that use query string parameters (refer to [User-Friendly URL - rule template](user-friendly-url-rule-template.md) for more information):
 
-[![](seo-rule-templates/_static/image5.png)](seo-rule-templates/_static/image4.png)
+[![Screenshot of Add Rules to Enable User-friendly U R Ls screen with the public U R L dialog being highlighted.](seo-rule-templates/_static/image5.png)](seo-rule-templates/_static/image4.png)
 
 Verify that the rule has been generated correctly by opening a Web browser and making a request to `http://contoso_com/article/123/some-title`:
 
-[![](seo-rule-templates/_static/image7.png)](seo-rule-templates/_static/image6.png)
+[![Screenshot of the U R L Rewrite Module Test Page webpage.](seo-rule-templates/_static/image7.png)](seo-rule-templates/_static/image6.png)
 
 ## Enforce Trailing Slash Rule Template
 
@@ -53,15 +53,15 @@ Many web applications use "virtual URLs" – that is the URLs that do not direct
 
 Having or not having a trailing slash in the URL is a matter of taste, but once you've made a choice you can enforce the canonical URL format by using the "Append or remove trailing slash symbol" rule template:
 
-[![](seo-rule-templates/_static/image9.png)](seo-rule-templates/_static/image8.png)
+[![Screenshot of the Add Rule(s) screen with the Append or remove trailing slash symbol option being highlighted.](seo-rule-templates/_static/image9.png)](seo-rule-templates/_static/image8.png)
 
 Choose whether you want to always add or always remove the trailing slash from all the "virtual URLs":
 
-[![](seo-rule-templates/_static/image11.png)](seo-rule-templates/_static/image10.png)
+[![Screenshot of the Add a rule to append or remove the trailing slash symbol screen with the Appended if it does not exist option being highlighted.](seo-rule-templates/_static/image11.png)](seo-rule-templates/_static/image10.png)
 
 After the rule has been generated open a Web browser and make a request to `http://contoso_com/article/123/some-title`. The Web browser will be redirected to `http://contoso_com/article/123/some-title/`:
 
-[![](seo-rule-templates/_static/image13.png)](seo-rule-templates/_static/image12.png)
+[![Screenshot of the U R L Rewrite Module Test Page webpage with the U R L of the webpage being highlighted.](seo-rule-templates/_static/image13.png)](seo-rule-templates/_static/image12.png)
 
 ## Enforce Lowercase URLs
 
@@ -69,7 +69,7 @@ A problem similar to the trailing slash problem may happen when somebody links t
 
 What you want to do is to ensure that if somebody comes to your web site by using a non-canonical link, then you redirect them to the canonical URL that uses only lowercase characters. The "Enforce lowercase URLs" rule template can be used to generate a redirect rule for that:
 
-[![](seo-rule-templates/_static/image15.png)](seo-rule-templates/_static/image14.png)
+[![Screenshot of the Add Rule(s) screen with the Enforce lowercase U R Ls option being highlighted.](seo-rule-templates/_static/image15.png)](seo-rule-templates/_static/image14.png)
 
 Click OK to generate a redirect rule:
 
@@ -81,11 +81,11 @@ Very often you may have one IIS web site that uses several different host names,
 
 To enforce usage of a particular domain name format use the "Canonical Domain Name" rule template:
 
-[![](seo-rule-templates/_static/image18.png)](seo-rule-templates/_static/image17.png)
+[![Screenshot of the Add Rule(s) screen with the Canonical domain name option being highlighted.](seo-rule-templates/_static/image18.png)](seo-rule-templates/_static/image17.png)
 
 Enter the domain name that you want to enforce for the site, for example contoso\_com:
 
-![](seo-rule-templates/_static/image19.png)
+![Screenshot of the Add a rule to redirect to a canonical domain name screen with the primary host name being set to contoso_com.](seo-rule-templates/_static/image19.png)
 
 After the rule has been generated open a Web browser and make a request to `http://www_contoso_com/Article/123/Some-Title`. The Web browser will be redirected to `http://contoso_com/article/123/some-title/`
 

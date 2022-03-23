@@ -41,12 +41,12 @@ Before starting the installation of CubeCart, create a database on your database
 Follow these steps:
 
 1. Go to [https://www.cubecart.com/build](https://www.cubecart.com/build) to generate the configuration setup script after creating the database for the project.  
-    [![](cubecart-on-iis/_static/image2.jpg)](cubecart-on-iis/_static/image1.jpg)
+    [![Screenshot of CubeCart Manual Installation webpage.](cubecart-on-iis/_static/image2.jpg)](cubecart-on-iis/_static/image1.jpg)
 2. Click Continue to go to the next step.  
 
-    [![](cubecart-on-iis/_static/image4.jpg)](cubecart-on-iis/_static/image3.jpg)
+    [![Screenshot of the CubeCart Manual Installation screen's Database Settings and Administrator Configurations Settings sections.](cubecart-on-iis/_static/image4.jpg)](cubecart-on-iis/_static/image3.jpg)
 
-    [![](cubecart-on-iis/_static/image6.jpg)](cubecart-on-iis/_static/image5.jpg)
+    [![Screenshot of the CubeCart Manual Installation screen's Skin and Advanced Settings sections.](cubecart-on-iis/_static/image6.jpg)](cubecart-on-iis/_static/image5.jpg)
 3. Provide the database details and click Continue. We used the following details for our application:  
 
    - Database Type: MySql
@@ -55,28 +55,28 @@ Follow these steps:
    - Password: cubecart
    - Database: cubecart
 
-     [![](cubecart-on-iis/_static/image8.jpg)](cubecart-on-iis/_static/image7.jpg)
+     [![Screenshot of the CubeCart Manual Installation screen's Database Settings details.](cubecart-on-iis/_static/image8.jpg)](cubecart-on-iis/_static/image7.jpg)
 
-     [![](cubecart-on-iis/_static/image10.jpg)](cubecart-on-iis/_static/image9.jpg)
+     [![Screenshot of the CubeCart Manual Installation screen's Skin and Advanced Settings sections with inserted information.](cubecart-on-iis/_static/image10.jpg)](cubecart-on-iis/_static/image9.jpg)
 
      It generates 2 files:
 
    - global.inc.php - Open includes/global.inc.php and paste in the code created for you.
    - db.sql - Execute the sql queries generated for you.
 
-     [![](cubecart-on-iis/_static/image12.jpg)](cubecart-on-iis/_static/image11.jpg)
+     [![Screenshot of the Cubeart Manual Installation screen, showing the global.inc.php code.](cubecart-on-iis/_static/image12.jpg)](cubecart-on-iis/_static/image11.jpg)
 
-     [![](cubecart-on-iis/_static/image14.jpg)](cubecart-on-iis/_static/image13.jpg)
+     [![Screenshot of the Cubeart Manual Installation screen, showing the db.sql code.](cubecart-on-iis/_static/image14.jpg)](cubecart-on-iis/_static/image13.jpg)
 4. Give write access permissions to images/upload folder.  
 
-    [![](cubecart-on-iis/_static/image16.jpg)](cubecart-on-iis/_static/image15.jpg)
+    [![Screenshot of the Permissions for Uploads dialog box with a highlight on a user name.](cubecart-on-iis/_static/image16.jpg)](cubecart-on-iis/_static/image15.jpg)
 5. Delete the install folder from the directory before accessing the installed application.
 
 Installation is complete. Access the application by browsing the index.php file using the path [http://localhost/cubecart/index.php](http://localhost/cubecart/index.php).
 
-[![](cubecart-on-iis/_static/image18.jpg)](cubecart-on-iis/_static/image17.jpg)
+[![Screenshot of Welcome to CubeCart webpage.](cubecart-on-iis/_static/image18.jpg)](cubecart-on-iis/_static/image17.jpg)
 
-[![](cubecart-on-iis/_static/image20.jpg)](cubecart-on-iis/_static/image19.jpg)
+[![Screenshot of CubeCart's Test Product webpage.](cubecart-on-iis/_static/image20.jpg)](cubecart-on-iis/_static/image19.jpg)
 
 ## Getting More Information
 

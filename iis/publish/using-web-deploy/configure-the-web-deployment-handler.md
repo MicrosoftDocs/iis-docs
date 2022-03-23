@@ -35,7 +35,7 @@ Third, a user must also be authorized to perform deployments using the Web Deplo
   
 The following diagram illustrates how a user is first connected to and authorized by WMSVC, before the deployment request is routed to the handler and authorized against the handler's own rules. This quick guide will help you setup the necessary rules to allow a user to deploy IIS applications with content, set file permissions and deploy databases.
 
-[![](configure-the-web-deployment-handler/_static/image2.png)](configure-the-web-deployment-handler/_static/image1.png)
+[![Diagram of how a user is first connected to an authorized by W M S V C before the deployment request is routed to the handler and authorized against the handler's own rules.](configure-the-web-deployment-handler/_static/image2.png)](configure-the-web-deployment-handler/_static/image1.png)
 
 ## Part 1 - Configure WMSVC and IIS Manager Permissions
 
@@ -64,11 +64,11 @@ For more information about IIS Manager user accounts, see [Allow an IIS Manager 
  a. Open IIS Manager.  
  b. Select the Server node.  
  c. In **Features View** of the Server, double-click the **Management Service Delegation** icon.  
-     [![](configure-the-web-deployment-handler/_static/image4.png)](configure-the-web-deployment-handler/_static/image3.png)  
+     [![Screenshot of the Features view of I I S Manager. THe Management Service Delegation icon is highlighted.](configure-the-web-deployment-handler/_static/image4.png)](configure-the-web-deployment-handler/_static/image3.png)  
  d. In the right-hand **Actions** pane, click **Add Rule…**
-     [![](configure-the-web-deployment-handler/_static/image6.png)](configure-the-web-deployment-handler/_static/image5.png)  
+     [![Screenshot of the Actions pane in the Management Service Delegation page. Select Rule Template is highlighted.](configure-the-web-deployment-handler/_static/image6.png)](configure-the-web-deployment-handler/_static/image5.png)  
  e. Select the **Deploy Applications with Content** rule template. This template creates a rule that allows any WMSVC authorized user to use the Web Deploy contentPath and iisApp providers to deploy applications to his or her user scope.  
-     [![](configure-the-web-deployment-handler/_static/image8.png)](configure-the-web-deployment-handler/_static/image7.png)  
+     [![Screenshot of the Select Rule Template dialog box. Deploy Applications with Content is highlighted.](configure-the-web-deployment-handler/_static/image8.png)](configure-the-web-deployment-handler/_static/image7.png)  
  f. Click **OK** to open the template.  
  g. Click **OK** to create the rule.  
  h. In the **Add User to Rule** dialog box, type an asterisk (\*). This will allow each user to deploy applications to his or her user scope.

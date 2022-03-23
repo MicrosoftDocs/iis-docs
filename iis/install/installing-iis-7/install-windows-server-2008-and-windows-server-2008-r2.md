@@ -54,7 +54,7 @@ See [Hardware and Software Requirements for Installing SQL Server 2008](https://
 
 Windows Server 2008 or Windows Server 2008 R2 setup works in several stages: first you are prompted for some basic information, including where you want to install Windows®.
 
-[![](install-windows-server-2008-and-windows-server-2008-r2/_static/image4.jpg)](install-windows-server-2008-and-windows-server-2008-r2/_static/image3.jpg)
+![Screenshot of the Install Windows dialog box.](install-windows-server-2008-and-windows-server-2008-r2/_static/image3.jpg)
 
 ###### Figure 1: Provide basic information
 
@@ -64,7 +64,7 @@ Then, the setup procedure copies files and restarts the computer. The setup proc
 
 Note that you can choose to perform a Server Core installation—a minimal server installation of the operating system. With the addition of .NET Framework to Server Core in Windows Server 2008 R2, the Server Core installation option is even more appealing for those who want to use a very low footprint server for hosting their applications. For detailed instructions, see the [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/library/cc753802(WS.10).aspx).
 
-[![](install-windows-server-2008-and-windows-server-2008-r2/_static/image6.jpg)](install-windows-server-2008-and-windows-server-2008-r2/_static/image5.jpg)
+![Screenshot of the Install Windows dialog box. The Where do you want to install Windows screen is displayed.](install-windows-server-2008-and-windows-server-2008-r2/_static/image5.jpg)
 
 ###### Figure 2: Server Core option
 
