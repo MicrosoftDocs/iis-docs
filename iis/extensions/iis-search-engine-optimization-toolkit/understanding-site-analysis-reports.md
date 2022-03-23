@@ -22,7 +22,7 @@ To perform an analysis of your Web site, follow these steps:
 3. Open the "Site Analysis" feature. This shows the list of all available analysis reports. If you have not run any analysis yet, then click "New Analysis" on the right-hand Actions pane to create one.  
     ![Screenshot showing Site Analysis feature with a list of all available analysis reports.](understanding-site-analysis-reports/_static/image1.png)
 4. Select and open a report from the list of available reports. This will open the summary page for the report, which you can use to get a snapshot of all the SEO violations and content problems found on your Web site. Also, this page can be used as a starting point for getting to reports details.  
-    ![Screenshot of Site Analysis Report showing the summary page](understanding-site-analysis-reports/_static/image5.png)
+    ![Screenshot of Site Analysis Report showing the summary page.](understanding-site-analysis-reports/_static/image5.png)
 
 ## Navigating Through the Site Analysis Reports
 
@@ -34,7 +34,7 @@ The site analysis summary page provides an overview of all SEO related violation
 
 You can drill down into each individual item in the report by double-clicking on it, or by using the "View Group Details" command in the context menu. To open a particular report in a separate query page, use the "Open Query" command in the context menu:
 
-![Screenshot of(understanding-site-analysis-reports/_static/image13.png)
+![Screenshot of Site Analysis Report with "Open Query" command.](understanding-site-analysis-reports/_static/image13.png)
 
 ### Query Page
 
@@ -50,7 +50,7 @@ There is a set of actions that you can perform for each item within the query re
 
 This option will bring up a dialog box which can be used to get the detailed information about the item. Specifically, you can see the violation details and suggested corrective actions:
 
-![Screenshot showing violation details dialog box](understanding-site-analysis-reports/_static/image21.png)
+![Screenshot showing violation details dialog box.](understanding-site-analysis-reports/_static/image21.png)
 
 In addition, the actual response data is available if you need to further investigate the causes of the reported violation. For example, if you want to find out where in the response HTML this violation occurred, choose the "Content" tab. This will bring up the response content with the offending section of the markup highlighted.
 
@@ -85,7 +85,7 @@ This option will bring up a hierarchy view page which consist of the following p
 - URL of the selected page
 - URLs of all the resources and pages referenced by the selected page
 
-![Screenshot showing hierarchy view page](understanding-site-analysis-reports/_static/image41.png)
+![Screenshot showing hierarchy view page.](understanding-site-analysis-reports/_static/image41.png)
 
 Double clicking on any item within the "Linking URLs" or "Linked URLs" list views will make that item a selected page and will update the linked and linking pages views accordingly.
 

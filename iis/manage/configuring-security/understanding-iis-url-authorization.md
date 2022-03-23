@@ -105,7 +105,7 @@ You do not have to use the User Interface to specify URL Authorization settings.
 ## Differences Between ASP.NET URL Authorization and IIS URL Authorization
 
 There are small but important differences between ASP.NET UrlAuthorization and IIS URL Authorization. Both modules can be installed via the IIS Setup. IIS URL Authorization installs when you install the "URL Authorization" feature in the IIS Setup User Interface:  
-![Screenshot of Window Features showinf URL Authorization box checked.](understanding-iis-url-authorization/_static/image7.jpg)
+![Screenshot of Window Features showing URL Authorization box checked.](understanding-iis-url-authorization/_static/image7.jpg)
 
 ASP.NET Url Authorization is installed when you install ASP.NET on top of IIS. If you are an ASP.NET expert, you recall that ASP.NET UrlAuthorization is implemented in the System.Web.Security.UrlAuthorizationModule module. The corresponding configuration section is system.web/authorization. Here is the configuration entry.
 
