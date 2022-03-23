@@ -129,7 +129,7 @@ Remote Administration is a key feature of the set of [IIS Management and Adminis
 4. [Web Deploy](../../publish/deploying-application-packages/index.md) lets users package and deploy Web applications and databases onto hosted environments.  
 The following diagram depicts the Remote Administration configuration.
 
-[![Diagram showing the remote administration from a user using Microsoft Visual Studio, which affects the Front and Back End servers.](shared-hosting-configuration/_static/image5.jpg)](shared-hosting-configuration/_static/image4.jpg)
+[![Diagram showing the Microsoft Visual Studio remote administration page which affects the Front and Back End servers.](shared-hosting-configuration/_static/image5.jpg)](shared-hosting-configuration/_static/image4.jpg)
 
 <a id="EnhArc"></a>
 
@@ -137,7 +137,7 @@ The following diagram depicts the Remote Administration configuration.
 
 In some cases, service providers want to achieve the maximum degree of manageability, monitoring, and automation. These requirements can be met by adding a set of optional components to the core architecture described earlier in this article. This environment configuration may be required by hosters managing large datacenter facilities across multiple geographical locations. The following diagram depicts an enhanced architecture for Shared Hosting environments.
 
-[![Diagram showing the relationship being the Router, Front End servers, and a larger quantity of Back End servers.](shared-hosting-configuration/_static/image7.jpg)](shared-hosting-configuration/_static/image6.jpg)
+[![Diagram showing the relationship between the Router, Front End servers, and a larger quantity of Back End servers.](shared-hosting-configuration/_static/image7.jpg)](shared-hosting-configuration/_static/image6.jpg)
 
 <a id="EnhArcFE"></a>
 

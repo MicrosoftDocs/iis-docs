@@ -72,7 +72,7 @@ To test the generated rewrite rule that uses the "**StaticRewrites**" map, open 
 
 Any one of the URLs above should cause the URL to be rewritten in accordance to the mappings defined in the rewrite map. Your results should look like the following page:
 
-[![Screenshot of the U R L Rewrite Module Test Page screen showing the Original U R L and Final U R L fields.](rule-with-rewrite-map-rule-template/_static/image21.png)](rule-with-rewrite-map-rule-template/_static/image19.png)
+[![Screenshot of the U R L Rewrite Module Test Page showing the Original U R L and Final U R L fields.](rule-with-rewrite-map-rule-template/_static/image21.png)](rule-with-rewrite-map-rule-template/_static/image19.png)
 
 ## Summary
 
