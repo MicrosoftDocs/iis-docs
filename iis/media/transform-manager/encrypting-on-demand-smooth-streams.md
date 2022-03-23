@@ -68,11 +68,11 @@ To configure job templates, do the following:
 
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![Screenshot shows a list of job templates with name and status.](encrypting-on-demand-smooth-streams/_static/image5.png) | ![Screenshot shows to select a job template that produces un encrypted output.](encrypting-on-demand-smooth-streams/_static/image6.png) |
+   | ![Screenshot shows a list of job templates with name and status.](encrypting-on-demand-smooth-streams/_static/image5.png) | ![Screenshot shows a list of job templates to select one that produces un encrypted output.](encrypting-on-demand-smooth-streams/_static/image6.png) |
 
    Note the name of the watch folder that the job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transformation jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
-   ![Screenshot shows Actions pane to select Edit.](encrypting-on-demand-smooth-streams/_static/image7.png)
+   ![Screenshot shows Actions pane to select Edit option.](encrypting-on-demand-smooth-streams/_static/image7.png)
 4. In the **Edit Job Template** dialog box, on the **Basic Settings** tab, you can edit the job template **Name** and **Description** to give it more descriptive information for your environment.  
 
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
@@ -110,7 +110,7 @@ To add the **PlayReady Protection** task to the existing workflow, do the follow
 2. In the **Add Tasks** dialog box, select the **PlayReady Protection** task in the **Available tasks** list, and then click **OK**.  
    ![Screenshot shows the Add Tasks dialog box to select the appropriate protection task.](encrypting-on-demand-smooth-streams/_static/image25.png)
 3. In the **Edit Job Template** dialog box, select the **PlayReady Protection** task in the **Task definitions** list, and then click the **Move Up** or **Move Down** buttons until it's displayed below the task that creates the Smooth Streaming output that you want to encrypt.  
-   ![Screenshot shows the position of the protection task under the selected job template.](encrypting-on-demand-smooth-streams/_static/image29.png)
+   ![Screenshot shows position of the protection task under the selected job template.](encrypting-on-demand-smooth-streams/_static/image29.png)
 
    In this example, both the **Smooth Streams to Apple HTTP Live Streams** and **PlayReady Protection** tasks will act on the Smooth Streaming output that the **Expression Encoder 4.0 SP2** task creates.
 4. Select the **Expression Encoder 4.0 SP2** task in the **Task definitions** list, and then click **Edit**. Note the value of **Output folder name** for this task, and then click **Cancel** to close the dialog box.  
@@ -169,7 +169,7 @@ To configure the watch folder, do the following:
 
    |                   **PlayReady Protection**                   | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    |--------------------------------------------------------------|---------------------------------------------------------------------|
-   | ![Screenshot shows the Watch Folders dialog box with the first job template. ](encrypting-on-demand-smooth-streams/_static/image49.png) |    ![Screenshot shows the Watch Folders dialog box with the second job template.](encrypting-on-demand-smooth-streams/_static/image50.png)     |
+   | ![Screenshot shows Watch Folders dialog box with the first job template. ](encrypting-on-demand-smooth-streams/_static/image49.png) |    ![Screenshot shows Watch Folders dialog box with the second job template.](encrypting-on-demand-smooth-streams/_static/image50.png)     |
 
 3. In the **Actions** pane, click **Edit**.  
     ![Screenshot shows the Actions pane to select Edit.](encrypting-on-demand-smooth-streams/_static/image51.png)
@@ -184,23 +184,23 @@ To configure the watch folder, do the following:
 
 5. Click **OK** to save your modifications to the watch folder.
 6. On the **Watch Folders** page, select the watch folder, and then, in the **Actions** pane, click **Enable**.  
-   ![Screenshot shows the Actions dialog box with select Enable.](encrypting-on-demand-smooth-streams/_static/image51.png)
+   ![Screenshot shows the Actions dialog box to select Enable option.](encrypting-on-demand-smooth-streams/_static/image51.png)
 
    The watch folder is now enabled, but not yet started.
 
    | **PlayReady Protection** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![Screenshot shows the first protection plan in the Watch Folder list.](encrypting-on-demand-smooth-streams/_static/image59.png) | ![Screenshot shows the second protection plan in the Watch Folder list.](encrypting-on-demand-smooth-streams/_static/image60.png) |
+   | ![Screenshot shows the first protection plan in the Watch Folders list.](encrypting-on-demand-smooth-streams/_static/image59.png) | ![Screenshot shows the second protection plan in the Watch Folders list.](encrypting-on-demand-smooth-streams/_static/image60.png) |
 
    Watch folders that are enabled will automatically start when the Transform Manager service is restarted. This setting is provided to start watch folders after a service recycle event or after a computer restart.
 7. In the **Actions** pane, click **Start**.  
-   ![Screenshot shows the Actions pane to select Start.](encrypting-on-demand-smooth-streams/_static/image61.png)
+   ![Screenshot shows the Actions pane window to select Start option.](encrypting-on-demand-smooth-streams/_static/image61.png)
 
    The watch folder is now active and ready to accept dropped media assets (either Smooth Streaming presentation files or media asset files).
 
    | **PlayReady Protection** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![Screenshot shows the first protection plan is started.](encrypting-on-demand-smooth-streams/_static/image65.png) | ![Screenshot shows the second protection plan is started.](encrypting-on-demand-smooth-streams/_static/image66.png) |
+   | ![Screenshot shows the first protection plan has started running.](encrypting-on-demand-smooth-streams/_static/image65.png) | ![Screenshot shows the second protection plan has started running.](encrypting-on-demand-smooth-streams/_static/image66.png) |
 
     > [!NOTE]
     > You can't start a watch folder if another active watch folder thread is already using the same watch folder root path.
