@@ -1,7 +1,7 @@
 ---
 title: "Setting HTTP request headers and IIS server variables"
 author: ruslany
-description: "This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7. This walkthrough will guide you through how to use URL Rewrite Mo..."
+description: This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7. This walkthrough shows how to use URL Rewrite Module.
 ms.date: 09/24/2009
 ms.assetid: 1f409729-be56-43d6-87c7-a83cd7f7f1a2
 msc.legacyurl: /learn/extensions/url-rewrite-module/setting-http-request-headers-and-iis-server-variables
