@@ -40,11 +40,11 @@ The configuration settings that you use to customize these settings are in the f
 
 You can configure these settings by using IIS Manager. To do so, open IIS Manager and navigate to the site or application where you want to enable or disable script messages, and then double-click the **ASP** feature.
 
-[![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image2.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image1.jpg)
+[![Screenshot of the I I S Manager Default Web Site Home page. The A S P icon is highlighted.](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image2.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image1.jpg)
 
 In the list of ASP features, configure the **Script Error Message** and **Send Errors To Browser** options.
 
-[![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image4.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image3.jpg)
+[![Screenshot of the A S P features page. The Send Errors to Browser option is highlighted.](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image4.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image3.jpg)
 
 You can also configure these settings by using the command-line tool AppCmd.exe with the following syntax:
 

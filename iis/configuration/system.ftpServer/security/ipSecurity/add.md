@@ -47,7 +47,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot of the expandable Web Server I I S option with the F T P Extensibility option being highlighted.](add/_static/image2.png)](add/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -60,7 +60,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot of the Internet Information Services folder with the contained F T P Extensibility folder being highlighted.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -74,7 +74,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot of the Web Server I I S pane with the F T P Service option being highlighted.](add/_static/image6.png)](add/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -88,7 +88,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot of the Internet Information Services folder with a focus on the F T P Service folder being selected.](add/_static/image8.png)](add/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -123,11 +123,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then FTP site or URL for which you want to add IP restrictions.
 3. In the **Home** pane, double-click the **FTP IPv4 Address and Domain Restrictions** feature.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    [![Screenshot of the F T P I P v 4 Address and Domain Restrictions feature.](add/_static/image10.png)](add/_static/image9.png)
 4. In the **FTP IPv4 Address and Domain Restrictions** feature, click **Add Allow Entry...** or **Add Deny Entry...** in the **Actions** pane.  
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    [![Screenshot of the F T P I P v 4 Address and Domain Restrictions feature's Actions pane.](add/_static/image12.png)](add/_static/image11.png)
 5. Enter the IP address that you wish to allow or deny, and then click **OK**.  
-    [![](add/_static/image14.png)](add/_static/image13.png)
+    [![Screenshot of the Add Deny Restriction Rule screen with a focus on the Specific I P v 4 address field.](add/_static/image14.png)](add/_static/image13.png)
 
 * * *
 
@@ -151,11 +151,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the Connections pane, expand the server name, expand **Sites**, and then FTP site or URL for which you want to configure IP restrictions.
 3. In the **Home** pane, double-click the **FTP IPv4 Address and Domain Restrictions** feature.  
-    [![](add/_static/image16.png)](add/_static/image15.png)
+    [![Screenshot of the Home pane with the F T P I P v 4 Address and Domain Restrictions feature being highlighted.](add/_static/image16.png)](add/_static/image15.png)
 4. In the **FTP IPv4 Address and Domain Restrictions** feature, click **Edit Feature Settings...** in the **Actions** pane.  
-    [![](add/_static/image18.png)](add/_static/image17.png)
+    [![Screenshot of the Actions pane of the Edit Feature Settings section of the F T P I P v 4 Address and Domain Restrictions feature.](add/_static/image18.png)](add/_static/image17.png)
 5. Choose the default access behavior for unspecified clients, specify whether to enable restrictions by domain name, and then click **OK**.  
-    [![](add/_static/image20.png)](add/_static/image19.png)
+    [![Screenshot of the Edit I P and Domain Restrictions Settings screen with a focus on the O K option.](add/_static/image20.png)](add/_static/image19.png)
 
 <a id="005"></a>
 ## Configuration

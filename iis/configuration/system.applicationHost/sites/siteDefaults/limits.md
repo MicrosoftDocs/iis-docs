@@ -56,9 +56,9 @@ The `<limits>` element of the `<siteDefaults>` element is included in the defaul
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, and then click the **Sites** node.
 3. In the **Sites** pane, click **Set Web Site Defaults...** in the **Actions** pane.  
-    [![](limits/_static/image2.png)](limits/_static/image1.png)
+    ![Screenshot of the Sites pane with the Default Web Site listed.](limits/_static/image1.png)
 4. In the **Web Site Defaults** dialog box, expand **Limits**, specify limit options, and then click **OK**.  
-    [![](limits/_static/image4.png)](limits/_static/image3.png)
+    ![Screenshot of the Web Site Defaults dialog with General, Behavior, Connection Limits, and Failed Request Tracing options.](limits/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration

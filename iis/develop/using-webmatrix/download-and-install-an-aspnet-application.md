@@ -32,30 +32,30 @@ The following items are required to complete the procedures in this walkthrough:
 
 To install ScrewTurn Wiki using WebMatrix Beta, first open WebMatrix. Then on the WebMatrix Beta **Quick Start** page, click **Site from Web Gallery**.
 
-[![](download-and-install-an-aspnet-application/_static/image4.png)](download-and-install-an-aspnet-application/_static/image2.png)
+![Screenshot of the navigation icons on the Web Matrix Quick Start page.](download-and-install-an-aspnet-application/_static/image2.png)
 
 When the **Site from Web Gallery** wizard opens, click **ScrewTurn Wiki**, and then click **Next**.
 
-[![](download-and-install-an-aspnet-application/_static/image8.png)](download-and-install-an-aspnet-application/_static/image6.png)
+![Screenshot of the Web Gallery Wizard with Screw Turn Wiki 3 dot 0 selected.](download-and-install-an-aspnet-application/_static/image6.png)
 
 WebMatrix uses a SQL Server database as part of ScrewTurn Wiki. If SQL Server is not installed on your local computer, you'll be prompted to install SQL Server Express. If you would like to use a local installation of SQL Server, choose **Yes, install it on my machine**, and then click **Next**. To use a remote installation of SQL Server, choose **No, use a remote server**.
 
-[![](download-and-install-an-aspnet-application/_static/image12.png)](download-and-install-an-aspnet-application/_static/image10.png)
+![Screenshot before installing S Q L Server on a local computer.](download-and-install-an-aspnet-application/_static/image10.png)
 
 If you are prompted to enter the SQL Server administrator password, enter a password and then click **Next**.
 
 > [!NOTE]
 > The SQL Server administrator account is used for administering the SQL Server database.
 
-[![](download-and-install-an-aspnet-application/_static/image16.png)](download-and-install-an-aspnet-application/_static/image14.png)
+![Screenshot of setting the authentication mode to Mixed Mode and specifying the administrator password.](download-and-install-an-aspnet-application/_static/image14.png)
 
 On the **Accept EULA** page, click **I Accept**.
 
-[![](download-and-install-an-aspnet-application/_static/image20.png)](download-and-install-an-aspnet-application/_static/image18.png)
+![Screenshot before accepting the E U L A from each third-party application involved.](download-and-install-an-aspnet-application/_static/image18.png)
 
 On the next page, WebMatrix keeps you informed of the download and installation status.
 
-[![](download-and-install-an-aspnet-application/_static/image24.png)](download-and-install-an-aspnet-application/_static/image22.png)
+![Screenshot of the in-progress download and installation screen.](download-and-install-an-aspnet-application/_static/image22.png)
 
 When you are prompted, enter the following information:
 
@@ -68,20 +68,20 @@ When you are prompted, enter the following information:
 
 Once you have entered all of the required information, click **Next**.
 
-[![](download-and-install-an-aspnet-application/_static/image28.png)](download-and-install-an-aspnet-application/_static/image26.png)
+![Screenshot of the top of the form before creating a new database with the specified Application parameters.](download-and-install-an-aspnet-application/_static/image26.png)
 
-[![](download-and-install-an-aspnet-application/_static/image31.png)](download-and-install-an-aspnet-application/_static/image30.png)
+![Screenshot of the bottom of the form before creating a new database with the specified Application parameters.](download-and-install-an-aspnet-application/_static/image30.png)
 
 On the next page, WebMatrix will keep you informed of the installation status.
 
-[![](download-and-install-an-aspnet-application/_static/image34.png)](download-and-install-an-aspnet-application/_static/image32.png)
+![Screenshot of the in-progress download and installation for the new database.](download-and-install-an-aspnet-application/_static/image32.png)
 
 After the installation has completed, WebMatrix lists everything that was installed. Click **OK** to close the **Site from Web Gallery** wizard.
 
-[![](download-and-install-an-aspnet-application/_static/image38.png)](download-and-install-an-aspnet-application/_static/image36.png)
+![Screenshot of the confirmation page after successfully downloading Screw Turn Wiki and creating a new database.](download-and-install-an-aspnet-application/_static/image36.png)
 
 After the **Site from Web Gallery** wizard has closed, WebMatrix automatically opens your ScrewTurn Wiki application.
 
-[![](download-and-install-an-aspnet-application/_static/image42.png)](download-and-install-an-aspnet-application/_static/image40.png)
+![Screenshot of the new Screw Turn Wiki application page.](download-and-install-an-aspnet-application/_static/image40.png)
 
 You can customize the ScrewTurn Wiki application for your use, test your website locally using the IIS Express Web server that comes with WebMatrix Beta, or publish it to a public website.

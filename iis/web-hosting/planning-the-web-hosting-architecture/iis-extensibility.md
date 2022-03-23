@@ -24,4 +24,4 @@ The following videos provide detailed walkthroughs of how this feature works and
 
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7_Extensibility.zip "download") contains the presentation for these videos.
 
-[![](iis-extensibility/_static/image1.jpg)](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7_Extensibility.zip)
+[![Screenshot of Extensibility videos providing detailed guides for I I S Extensibility modular architecture.](iis-extensibility/_static/image1.jpg)](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7_Extensibility.zip)

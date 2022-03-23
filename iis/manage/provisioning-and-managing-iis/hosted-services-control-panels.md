@@ -45,7 +45,7 @@ Since all functions are performed from a browser, there is no operating systemâ€
 
 The following graphic shows the role control panels play when working with Windows-based hosting environments:
 
-[![](hosted-services-control-panels/_static/image2.png)](hosted-services-control-panels/_static/image1.png)
+[![Diagram of Control Panels affecting the configuration, data protection, provisioning, and monitoring of web services.](hosted-services-control-panels/_static/image2.png)](hosted-services-control-panels/_static/image1.png)
 
 ### Recommended Control Panels
 

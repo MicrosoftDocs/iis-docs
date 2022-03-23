@@ -21,7 +21,7 @@ This article explains the differences between these two modules and provides gui
 
 First of all, it is important to understand how the request filtering module and the rewrite module plug into the IIS pipeline. The following diagram shows the relative order of these two modules:
 
-[![](iis-request-filtering-and-url-rewriting/_static/image2.gif)](iis-request-filtering-and-url-rewriting/_static/image1.gif)
+[![Diagram of the worker process to get from H T T P Request and H T T P Response.](iis-request-filtering-and-url-rewriting/_static/image2.gif)](iis-request-filtering-and-url-rewriting/_static/image1.gif)
 
 The request filtering module runs at the beginning of the request processing pipeline by handling the BeginRequest event. The module evaluates the request metadata, such as headers, the query string, content length, etc, in order to determine whether the request metadata matches any existing filter. If there is a match, the module generates a 404 (File Not Found) response and then shortcuts the remainder of the IIS pipeline.
 

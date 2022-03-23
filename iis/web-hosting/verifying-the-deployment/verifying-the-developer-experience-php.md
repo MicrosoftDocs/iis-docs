@@ -40,7 +40,7 @@ As of the writing of this article a new version of Web Platform Installer is bei
 
 Use IE to browse to the site:
 
-[![](verifying-the-developer-experience-php/_static/image3.jpg)](verifying-the-developer-experience-php/_static/image2.jpg)
+[![Screenshot of the Word Press Blog on Windows Internet Explorer.](verifying-the-developer-experience-php/_static/image3.jpg)](verifying-the-developer-experience-php/_static/image2.jpg)
 
 Now you are ready to publish the application.
 
@@ -48,17 +48,17 @@ Now you are ready to publish the application.
 
 1. Open your WordPress Site with VWD. The following dialog will display, press Yes.  
    
-     [![](verifying-the-developer-experience-php/_static/image5.jpg)](verifying-the-developer-experience-php/_static/image4.jpg)
-     [![](verifying-the-developer-experience-php/_static/image7.jpg)](verifying-the-developer-experience-php/_static/image6.jpg)
+     [![Screenshot of the dot NET Framework two dot zero Web Site Found dialog box. The Yes button is located at the bottom of the dialog box.](verifying-the-developer-experience-php/_static/image5.jpg)](verifying-the-developer-experience-php/_static/image4.jpg)
+     [![Screenshot of the Visual Web Developer two thousand eight Express Edition.](verifying-the-developer-experience-php/_static/image7.jpg)](verifying-the-developer-experience-php/_static/image6.jpg)
 2. Modify the server name for the database and any other values provided by the hoster.  
-     [![](verifying-the-developer-experience-php/_static/image9.jpg)](verifying-the-developer-experience-php/_static/image8.jpg)
+     [![Screenshot of the database with values provided by the hoster. The server name is highlighted.](verifying-the-developer-experience-php/_static/image9.jpg)](verifying-the-developer-experience-php/_static/image8.jpg)
 3. Open the menu Website and select "Copy Web Site":  
    
-     [![](verifying-the-developer-experience-php/_static/image11.jpg)](verifying-the-developer-experience-php/_static/image10.jpg)
-     [![](verifying-the-developer-experience-php/_static/image13.jpg)](verifying-the-developer-experience-php/_static/image12.jpg)
+     [![Screenshot of the database. The Website tab in the menu is selected. Copy Web Site is highlighted.](verifying-the-developer-experience-php/_static/image11.jpg)](verifying-the-developer-experience-php/_static/image10.jpg)
+     [![Screenshot of the Word Press Visual Web Developer two thousand and eight Express Edition Administrator page. A list of website names are shown.](verifying-the-developer-experience-php/_static/image13.jpg)](verifying-the-developer-experience-php/_static/image12.jpg)
 4. Click Connect. Select FTP Site and enter the Server name, Port and user account credentials. Ensure that "Passive Mode" is checked and press Open:  
    
-    [![](verifying-the-developer-experience-php/_static/image15.jpg)](verifying-the-developer-experience-php/_static/image14.jpg)
+    [![Screenshot of the Open Web Site dialog box. The Server name, Port, and User account credential boxes are shown. Passive mode is checked.](verifying-the-developer-experience-php/_static/image15.jpg)](verifying-the-developer-experience-php/_static/image14.jpg)
 5. Proceed to publish the entire content to the target server.
 
 ## Step 4: Deploy the WordPress MySQL Database Schema and Test Site.
@@ -67,38 +67,38 @@ When WordPress runs for a first time it checks to see if the database schema is 
 
 1. Using Internet Explorer browse to the new site, the following screen is displayed, enter the information requested:  
    
-    [![](verifying-the-developer-experience-php/_static/image18.jpg)](verifying-the-developer-experience-php/_static/image17.jpg)
+    [![Screenshot of the Word Press website on Internet Explorer. The Blog Title and Email boxes are shown.](verifying-the-developer-experience-php/_static/image18.jpg)](verifying-the-developer-experience-php/_static/image17.jpg)
 2. WordPress will auto-generate a random password for the admin user, make note of it and proceed to login:  
-     [![](verifying-the-developer-experience-php/_static/image20.jpg)](verifying-the-developer-experience-php/_static/image19.jpg)
+     [![Screenshot of the Word Press installation page. The text on the page says Success Word Press has been installed.](verifying-the-developer-experience-php/_static/image20.jpg)](verifying-the-developer-experience-php/_static/image19.jpg)
 3. Enter the Admin credentials obtain in the previous step:  
    
-    [![](verifying-the-developer-experience-php/_static/image22.jpg)](verifying-the-developer-experience-php/_static/image21.jpg)
+    [![Screenshot of the Word Press log in page. The Admin credentials have been inputted.](verifying-the-developer-experience-php/_static/image22.jpg)](verifying-the-developer-experience-php/_static/image21.jpg)
 4. Now you can browse to the wp-admin page:  
-     [![](verifying-the-developer-experience-php/_static/image24.jpg)](verifying-the-developer-experience-php/_static/image23.jpg)
+     [![Screenshot of the Word press admin page. The Dashboard is shown.](verifying-the-developer-experience-php/_static/image24.jpg)](verifying-the-developer-experience-php/_static/image23.jpg)
 
 ## Step 5: Use IIS Manager Remote Administration to change the WordPress Site Default Document List.
 
 1. Start IISMgr, if you are running Vista ensure that you are running the remote version of IISMgr:  
    
-    [![](verifying-the-developer-experience-php/_static/image26.jpg)](verifying-the-developer-experience-php/_static/image25.jpg)
+    [![Screenshot of the WALTER O H P W S Home page. In the connections pane the Connect to a Site option is highlighted.](verifying-the-developer-experience-php/_static/image26.jpg)](verifying-the-developer-experience-php/_static/image25.jpg)
 2. Connect to the Remote Site:  
    
-    [![](verifying-the-developer-experience-php/_static/image28.jpg)](verifying-the-developer-experience-php/_static/image27.jpg)
+    [![Screenshot of the Connect to Site dialog box. The Server name box and the Site name box are shown.](verifying-the-developer-experience-php/_static/image28.jpg)](verifying-the-developer-experience-php/_static/image27.jpg)
 3. Enter the Hoster provided user credentials:  
    
-    [![](verifying-the-developer-experience-php/_static/image31.jpg)](verifying-the-developer-experience-php/_static/image30.jpg)
+    [![Screenshot of the Connect to Site dialog box. The username and password boxes are shown. The header text says Provide Credentials.](verifying-the-developer-experience-php/_static/image31.jpg)](verifying-the-developer-experience-php/_static/image30.jpg)
 4. Assign a name to the new connection:  
    
-    [![](verifying-the-developer-experience-php/_static/image33.jpg)](verifying-the-developer-experience-php/_static/image32.jpg)
+    [![Screenshot of the Connect to Site dialog box. The Connection Name box is shown. The text above it says Created a new connection successfully.](verifying-the-developer-experience-php/_static/image33.jpg)](verifying-the-developer-experience-php/_static/image32.jpg)
 5. Install any IIS Manager extension modules that are offered in the following dialog:  
    
-    [![](verifying-the-developer-experience-php/_static/image35.jpg)](verifying-the-developer-experience-php/_static/image34.jpg)
+    [![Screenshot of the New Feature Available dialog. The I I S Manager extension modules offered are shown in the box.](verifying-the-developer-experience-php/_static/image35.jpg)](verifying-the-developer-experience-php/_static/image34.jpg)
 6. Select your new WordPress site, find the Default Document icon and double click on it:  
    
-    [![](verifying-the-developer-experience-php/_static/image37.jpg)](verifying-the-developer-experience-php/_static/image36.jpg)
+    [![Screenshot of the Default Document page. The index dot p h p file is selected.](verifying-the-developer-experience-php/_static/image37.jpg)](verifying-the-developer-experience-php/_static/image36.jpg)
 7. Select the index.php default document and move it up to the first place in the list. This will improve the performance.  
    
-    [![](verifying-the-developer-experience-php/_static/image39.jpg)](verifying-the-developer-experience-php/_static/image38.jpg)
+    [![Screenshot of the Default Document page.The index dot p h p file is selected and has been moved to the top of the list of files.](verifying-the-developer-experience-php/_static/image39.jpg)](verifying-the-developer-experience-php/_static/image38.jpg)
 8. WordPress deployment is complete.
 
 ## Conclusion

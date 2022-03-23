@@ -74,7 +74,7 @@ To support denying access through authentication on your FTP server, you must in
 2. In the **Connections** pane, select the server.
 3. In the **Home** pane, double-click the **FTP Logon Attempt Restrictions** feature.  
   
-    [![](denyByFailure/_static/image2.png)](denyByFailure/_static/image1.png)
+    [![Screenshot of the Enable F T P Logon Attempt Restrictions, Maximum number of failed login attempts, and time period in seconds fields.](denyByFailure/_static/image2.png)](denyByFailure/_static/image1.png)
 4. In the **FTP Logon Attempt Restrictions** dialog box, click **Enable** to enable the restrictions, and then enter the maximum number of failures and the time frame in which those failures will prompt access to the FTP service to be denied.
 5. Click **Write to the log only** to log that the condition has been met, but not to block logon attempts.
 6. Click **Apply** in the **Actions** pane.

@@ -54,7 +54,7 @@ To assist the Web Platform Team in debugging issues with your installation attem
 
 The most common issues during the Web PI launch phase involve connectivity. Web PI downloads the newest product catalog from a Microsoft Web site. If this fails, an error message such as the following appears:
 
-[![](troubleshooting-problems-with-microsoft-web-platform-installer/_static/image3.jpg)](troubleshooting-problems-with-microsoft-web-platform-installer/_static/image2.jpg)
+![Screenshot of the Microsoft Web Platform Installer dialog box displaying an error message.](troubleshooting-problems-with-microsoft-web-platform-installer/_static/image2.jpg)
 
 ###### Figure 1: Unable to download Web Platform error message
 

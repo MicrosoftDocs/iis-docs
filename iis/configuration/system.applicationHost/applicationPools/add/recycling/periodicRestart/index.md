@@ -55,11 +55,11 @@ The `<applicationPools>` collection is included in the default installation of I
 2. In the **Connections** pane, expand the server name, and then click **Application Pools**.
 3. In the **Application Pools** pane, select the application pool you want edit.
 4. In the **Actions** pane, click **Recycling...**   
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot of the Actions pane. Under Edit Application Pool, Recycling is highlighted.](index/_static/image2.png)](index/_static/image1.png)
 5. On the Recycling Conditions page of the Edit Application Pool Recycling Settings Wizard, select at least one of the options in the **Fixed Intervals** section, type values into the appropriate text boxes, and then click **Next**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of the Edit Application Pool Recycling Settings page. The Fixed Intervals section is located at the top.](index/_static/image4.png)](index/_static/image3.png)
 6. (Optional) On the Recycling Events to Log page of the Edit Application Pool Recycling Settings Wizard, select the configurable recycling events and run-time recycling events that you want IIS to send to the event log when they occur, and then click **Finish**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Edit Application Pool Recycling Settings page. The scheduled times option is selected.](index/_static/image6.png)](index/_static/image5.png)
  
 <a id="005"></a>
 ## Configuration

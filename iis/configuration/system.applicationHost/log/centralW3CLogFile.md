@@ -60,9 +60,9 @@ The `<centralW3CLogFile>` element of the `<log>` element is included in the defa
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **Logging**.  
-    [![](centralW3CLogFile/_static/image2.png)](centralW3CLogFile/_static/image1.png)
+    [![Screenshot of the Logging icon being highlighted.](centralW3CLogFile/_static/image2.png)](centralW3CLogFile/_static/image1.png)
 4. On the **Logging** page, under **One log file per**, select **Server** from the drop-down list, then choose **W3C** from the **Format** drop-down list.  
-    [![](centralW3CLogFile/_static/image4.png)](centralW3CLogFile/_static/image3.png)
+    [![Screenshot of the Logging screen with the Format drop-down being highlighted.](centralW3CLogFile/_static/image4.png)](centralW3CLogFile/_static/image3.png)
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>

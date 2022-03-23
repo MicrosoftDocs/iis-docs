@@ -61,12 +61,12 @@ In this first section we will create a new FTP site that can be opened for Read-
 
 1. In IIS Manager, in the **Connections** pane, click the **Sites** node in the tree.
 2. As shown in the image below, right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image1.png)
+    ![Screenshot of the I I S Manager screen with a focus on the Add F T P Site option in the right-click drop-down menu over the Sites folder.](configuring-ftp-user-isolation-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
     - When you have completed these items, click **Next**.  
-        ![](configuring-ftp-user-isolation-in-iis-7/_static/image5.png)
+        ![Screenshot of the Add F T P Site wizard, displaying the Site Information section.](configuring-ftp-user-isolation-in-iis-7/_static/image5.png)
 4. On the next page of the wizard:
 
     - You would normally choose an IP address for your FTP site from the **IP Address** drop-down, or you could choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you want to make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -74,30 +74,30 @@ In this first section we will create a new FTP site that can be opened for Read-
     - For this walk- through, you will not use a host name, so make sure that the **Virtual Host** box is blank.
     - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
     - When you have completed these items, click **Next**.  
-        ![](configuring-ftp-user-isolation-in-iis-7/_static/image1.jpg)
+        ![Screenshot of the Add F T P Site screen's Binding and S S L Settings section with a focus on the Next option.](configuring-ftp-user-isolation-in-iis-7/_static/image1.jpg)
 5. On the next page of the wizard:
 
     - Select **Anonymous** for the **Authentication** settings.
     - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down, and select **Read** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        ![](configuring-ftp-user-isolation-in-iis-7/_static/image11.png)
+        ![Screenshot of the Add F T P Site screen's Authentication and Authorization Information section with a focus on the Finish option.](configuring-ftp-user-isolation-in-iis-7/_static/image11.png)
 6. In IIS Manager, click the node for the FTP site that you created; this will display the icons for all of the FTP features.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image15.png)
+    ![Screenshot of the I I S Manager screen showing the My New F T P Site Home section displaying F T P features.](configuring-ftp-user-isolation-in-iis-7/_static/image15.png)
 7. We need to add Basic Authentication so that users can log in. To do so, double-click the **FTP Authentication** icon to open the FTP authentication feature page.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image19.png)
+    ![Screenshot of the I I S Manager screen with a focus on the F T P Authentication option in the My New F T P Site Home section.](configuring-ftp-user-isolation-in-iis-7/_static/image19.png)
 8. When the **FTP Authentication** page is displayed, highlight **Basic Authentication** and then click **Enable** in the **Actions** pane.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image23.png)
+    ![Screenshot of the I I S Manager screen's F T P Authentication section with a focus on the Enable option in the Actions pane.](configuring-ftp-user-isolation-in-iis-7/_static/image23.png)
 9. In IIS Manager, click the node for the FTP site to re-display the icons for all of the FTP features.
 10. We need to add an authorization rule so that the administrator can log in. To do so, double-click the **FTP Authorization Rules** icon to open the FTP authorization rules feature page.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image27.png)
+    ![Screenshot of the I I S Manager screen's F T P Authorization Rules option in the F T P section.](configuring-ftp-user-isolation-in-iis-7/_static/image27.png)
 11. When the **FTP Authorization Rules** page is displayed, click **Add Allow Rule** in the **Actions** pane.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image31.png)
+    ![Screenshot of the I I S Manager screen's F T P Authorization Rules section with a focus on the Add Allow Rule option in the Actions pane.](configuring-ftp-user-isolation-in-iis-7/_static/image31.png)
 12. When the **Add Allow Authorization Rule** dialog box is displayed:
 
     - Select **Specified users**, then type "administrator" in the box.
     - For **Permissions**, select both **Read** and **Write**.
     - When you have completed these items, click **OK**.  
-        ![](configuring-ftp-user-isolation-in-iis-7/_static/image35.png)
+        ![Screenshot of the Add Allow Authorization Rule dialog box.](configuring-ftp-user-isolation-in-iis-7/_static/image35.png)
 
 ### Summary
 
@@ -115,9 +115,9 @@ To recap the items that you completed in this section:
 
 1. In IIS Manager, click the node for the FTP site that you created; this will display the icons for all of the FTP features.
 2. Double-click the **FTP User Isolation** icon to open the FTP user isolation feature.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image39.png)
+    ![Screenshot of the I I S Manager screen's My New F T P Site Home section with a focus on the F T P User Isolation option.](configuring-ftp-user-isolation-in-iis-7/_static/image39.png)
 3. When the **FTP User Isolation** feature page is displayed, notice that you have five different options available:  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image43.png)
+    ![Screenshot of the I I S Manager screen's F T P User Isolation feature page.](configuring-ftp-user-isolation-in-iis-7/_static/image43.png)
 4. These five options are defined as:
 
     - **Do not isolate users. Start users in**:
@@ -166,9 +166,9 @@ When isolating users by physical directories only, all FTP user sessions are res
 
 1. In IIS Manager, click the node for the FTP site that you created; this will display the icons for all of the FTP features.
 2. Double-click the **FTP User Isolation** icon to open the FTP user isolation feature.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image47.png)
+    ![Screenshot of the I I S Manager screen's My New F T P Site Home section with the F T P User Isolation icon being highlighted.](configuring-ftp-user-isolation-in-iis-7/_static/image47.png)
 3. When the FTP User Isolation feature page is displayed, select the **User name physical directory (enable global virtual directories)** option, then click **Apply** in the **Actions** pane.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image51.png)
+    ![Screenshot of the I I S Manager screen's F T P User Isolation section with a focus on the Apply option.](configuring-ftp-user-isolation-in-iis-7/_static/image51.png)
 
 ### Logging in to your FTP site
 
@@ -203,21 +203,21 @@ When isolating users for all directories, all FTP user sessions are restricted t
 
 1. In IIS Manager, click the node for the FTP site that you created; this will display the icons for all of the FTP features.
 2. Double-click the **FTP User Isolation** icon to open the FTP user isolation feature.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image55.png)
+    ![Screenshot of the I I S Manager screen's My New F T P Site Home setion with the F T P User Isolation shortcut being highlighted.](configuring-ftp-user-isolation-in-iis-7/_static/image55.png)
 3. When the **FTP User Isolation** feature page is displayed, select the **User name directory (disable global virtual directories)** option, then click **Apply** in the **Actions** pane.  
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image59.png)
+    ![Screenshot of the I I S Manager screen's F T P User Isolation section have the User name directory (disable global virtual directories) option selected.](configuring-ftp-user-isolation-in-iis-7/_static/image59.png)
 4. Expand the tree node for your FTP site, then right-click the LocalUser folder and click **Add Virtual Directory**.
 
     > [!NOTE]
     > In this example the "LocalUser" folder is a physical directory, but a virtual directory could also have been used.
 
-    ![](configuring-ftp-user-isolation-in-iis-7/_static/image63.png)
+    ![Screenshot of the I I S Manager screen's Connections pane with a focus on the Add Virtual Directory option in the right-click drop-down menu.](configuring-ftp-user-isolation-in-iis-7/_static/image63.png)
 5. When the **Add Virtual Directory** dialog box appears:
 
     - Enter "administrator" for the **Alias**.
     - Enter `%SystemDrive%\inetpub\adminfiles` for the **Physical path**.
     - When you have completed these items, click **OK**.  
-        ![](configuring-ftp-user-isolation-in-iis-7/_static/image67.png)
+        ![Screenshot of the Add Virtual Directory dialog box.](configuring-ftp-user-isolation-in-iis-7/_static/image67.png)
 
 ### Logging in to your FTP site
 

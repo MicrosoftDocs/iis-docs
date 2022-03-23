@@ -53,7 +53,7 @@ To support and configure ASP applications on your Web server, you must install t
 1. On the taskbar, click **Server Manager**.
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**. - In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 3. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **ASP**.  
-    ![](limits/_static/image1.png)
+    ![Screenshot of A S P selected under Application development in an expanded Web Server (I I S) list.](limits/_static/image1.png)
 4. If the **Add features that are required by ASP?** dialog box appears, click **Add Features**. (This page appears only if you have not already installed the ISAPI Extensions role service on your server.)
 5. On the **Server Roles** page, click **Next**.
 6. On the **Select features** page, click **Next**.
@@ -65,7 +65,7 @@ To support and configure ASP applications on your Web server, you must install t
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ASP**.  
-    ![](limits/_static/image3.png)
+    ![Screenshot of A S P selected in a Windows 8 interface.](limits/_static/image3.png)
 
     > [!NOTE]
     > The ISAPI Extensions role will be selected if it has not already been installed.
@@ -78,9 +78,9 @@ To support and configure ASP applications on your Web server, you must install t
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **ASP**.  
-    ![](limits/_static/image5.png)
+    ![Screenshot of A S P selected under Application development in the Add Role Services Wizard.](limits/_static/image5.png)
 5. If the **Add role services required by ASP** dialog box appears, click **Add Required Role Services**. (This page appears only if you have not already installed the ISAPI Extensions role service on your server.)  
-    ![](limits/_static/image7.png)
+    ![Screenshot of the Add Role Services dialog with the Add Required Role Services button emphasized.](limits/_static/image7.png)
 6. On the **Select Role Services** page, click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -91,7 +91,7 @@ To support and configure ASP applications on your Web server, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.
 4. Select **ASP**, and then click **OK**.  
-    ![](limits/_static/image9.png)
+    ![Screenshot of A S P selected in a Windows Vista or Windows 7 interface.](limits/_static/image9.png)
 
 <a id="004"></a>
 
@@ -117,9 +117,9 @@ To support and configure ASP applications on your Web server, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, highlight the name of your server.
 3. In the server's **Home** pane, double-click **ASP**.  
-    ![](limits/_static/image11.png)
+    ![Screenshot of the SERVER Home pane with A S P selected.](limits/_static/image11.png)
 4. In the **ASP** pane, expand the **Limits Properties** section, configure your desired settings, then click **Apply** in the **Actions** pane.  
-    ![](limits/_static/image13.png)
+    ![Screenshot of the A S P pane with the Limits Properties section expanded.](limits/_static/image13.png)
 
 <a id="005"></a>
 

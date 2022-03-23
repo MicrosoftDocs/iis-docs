@@ -98,7 +98,7 @@ A good example of a module is the compression module. The compression module loo
 
    This starts the server application pool, and serves the iisstart.htm document.
 2. Start Task Manager, and go to the Processes tab. Because the IIS worker process runs under a different user account, you must check "Show processes for all users". Note the size of the w3wp.exe server worker process.  
-    [![](build-a-custom-iis-server/_static/image2.jpg)](build-a-custom-iis-server/_static/image1.jpg)  
+    [![Screenshot that shows Windows Task Manager. The processes tab is selected.](build-a-custom-iis-server/_static/image2.jpg)](build-a-custom-iis-server/_static/image1.jpg)  
     *Figure 1: Task Manager showing the IIS Worker Process*
 3. Now execute the following command-line:  
 

@@ -61,7 +61,7 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
 2. In the **Connections** pane, expand the server name, and then click **Sites**.
 3. In the **Actions** pane, click **Add Web Site...**
 4. In the **Add Web Site** dialog box, at a minimum, enter information in the **Site name** and **Physical path** text boxes and choose whether you want to enter information in the **Host name** text box or change the number in the **Port** box.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot of the Add Web Site dialog box showing the Site Name and Physical path fields.](index/_static/image2.png)](index/_static/image1.png)
 5. On IIS Manager click the refresh button to verify that the site has started.
 
 <a id="005"></a>
