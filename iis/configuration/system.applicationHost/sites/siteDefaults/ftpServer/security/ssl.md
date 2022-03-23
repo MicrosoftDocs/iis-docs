@@ -61,7 +61,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](ssl/_static/image2.png)](ssl/_static/image1.png) .
+    [![Screenshot that shows F T P Extensibility selected for Windows Server 2012.](ssl/_static/image2.png)](ssl/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -74,7 +74,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](ssl/_static/image4.png)](ssl/_static/image3.png)
+    [![Screenshot that shows F T P Extensibility selected for Windows 8.](ssl/_static/image4.png)](ssl/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -88,7 +88,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](ssl/_static/image6.png)](ssl/_static/image5.png)
+    [![Screenshot that shows F T P Service and Extensibility selected for Windows Server 2008.](ssl/_static/image6.png)](ssl/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -102,7 +102,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](ssl/_static/image8.png)](ssl/_static/image7.png)
+    [![Screenshot that shows F T P Extensibility selected for Windows 7.](ssl/_static/image8.png)](ssl/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -137,9 +137,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click the **FTP SSL Settings** feature.  
-    [![](ssl/_static/image10.png)](ssl/_static/image9.png)
+    [![Screenshot that shows F T P S S L Settings selected.](ssl/_static/image10.png)](ssl/_static/image9.png)
 4. From the **SSL Certificate** list, select the certificate that you want to use for connections to the FTP server.  
-    [![](ssl/_static/image12.png)](ssl/_static/image11.png)
+    [![Screenshot that shows the F T P S S L Settings pane. Allow S S L connections is selected.](ssl/_static/image12.png)](ssl/_static/image11.png)
 5. Under **SSL Policy**, select one of the following options: 
 
     - **Allow SSL connections**: Allows the FTP server to support both non-SSL and SSL connections with a client.

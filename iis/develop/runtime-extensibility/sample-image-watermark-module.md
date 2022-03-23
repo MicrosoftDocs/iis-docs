@@ -29,7 +29,7 @@ The source code for these samples is available [here](sample-image-watermark-mod
 
 The first component of this sample is the watermark module itself. It's a native C++ module that watches as requests are served, and if the MIME type of the request indicates it's an image, it will dynamically apply an user-configured watermark to the image, and replace the outgoing image. This is all done transparently in a module that runs after the request handler. To illustrate it:
 
-[![](sample-image-watermark-module/_static/image3.jpg)](sample-image-watermark-module/_static/image1.jpg)
+[![Diagram that shows a decision tree from Request Handler to Image Water marker. If there is an image from the Request Handler, a new image is sent, otherwise the original image is sent.](sample-image-watermark-module/_static/image3.jpg)](sample-image-watermark-module/_static/image1.jpg)
 
 1. The logic of the code is pretty straightforward:
 2. When the module is first loaded, it registers for the post-RQ\_EXECUTE\_REQUEST\_HANDLER event, which indicates to the system that it wants to be notified right after the request handler is run.
