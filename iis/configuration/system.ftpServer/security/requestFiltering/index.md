@@ -68,7 +68,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you need to select **FTP Extensibility**, in addition to **FTP Service**.
 
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot of the Server Roles page. F T P server is selected and expanded. F T P Extensibility is highlighted and selected.](index/_static/image2.png)](index/_static/image1.png)
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -81,7 +81,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
-    > [![](index/_static/image4.png)](index/_static/image3.png)
+    > [![Screenshot of the I I S navigation tree. F T P Extensibility is highlighted and selected.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -95,7 +95,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you also need to select **FTP Extensibility**.
-    > [![](index/_static/image6.png)](index/_static/image5.png)
+    > [![Screenshot of the Select Role Services page. F T P Server is expanded. F T P Service is selected and highlighted.](index/_static/image6.png)](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -109,7 +109,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you also need to select **FTP Extensibility**.
-    > [![](index/_static/image8.png)](index/_static/image7.png)
+    > [![Screenshot of the I I S navigation tree. F T P Server is selected and expanded.](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -150,10 +150,10 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. In the **FTP Request Filtering** pane, click the **File Name Extensions** tab.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of the F T P Request Filtering pane. The File Name Extensions tab is selected.](index/_static/image10.png)](index/_static/image9.png)
 5. Click **Deny File Name Extension** in the **Actions** pane.
 6. In the **Deny File Name Extension** dialog box, enter the file name extension that you wish to block. For example, to prevent access to files with a file name extension of .inc, you would enter "inc" in the dialog box.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    [![Screenshot of the Deny File Name Extension dialog box. In the File name extension box, i n c is written.](index/_static/image12.png)](index/_static/image11.png)
 7. Click **OK**.
 
 ### How to edit the request filtering feature settings and request limits
@@ -177,7 +177,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. Click **Edit Feature Settings** in the **Actions** pane.  
-    [![](index/_static/image14.png)](index/_static/image13.png)
+    [![Screenshot of the Actions pane. Server is expanded. Sites is expanded.](index/_static/image14.png)](index/_static/image13.png)
 5. Specify your options. For example, you could make the following changes:
 
    - Change the maximum URL length to 2KB by specifying 2048.
@@ -186,7 +186,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
    > [!NOTE]
    > It is recommended that you do not clear the **Allow unlisted commands** check box.
    >
-   > [![](index/_static/image16.png)](index/_static/image15.png)
+   > [![Screenshot of the Edit F T P Request Filtering Settings page. In the General category both options are checked.](index/_static/image16.png)](index/_static/image15.png)
 6. Click **OK**.
 
 ### How to add an FTP hidden segment
@@ -210,9 +210,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. In the **FTP Request Filtering** pane, click the **Hidden Segments** tab.  
-    [![](index/_static/image18.png)](index/_static/image17.png)
+    [![Screenshot of the F T P Request Filtering pane. The Hidden Segments tab is selected.](index/_static/image18.png)](index/_static/image17.png)
 5. Click **Add Hidden Segment** in the **Actions** pane.  
-    [![](index/_static/image20.png)](index/_static/image19.png)
+    [![Screenshot of the Add Hidden Segement dialog box. In the Hidden segment box, a path is written.](index/_static/image20.png)](index/_static/image19.png)
 6. In the **Add Hidden Segment** dialog box, enter the path that you want to hide.
 7. Click **OK**.
 
@@ -236,12 +236,12 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.  
-    [![](index/_static/image22.png)](index/_static/image21.png)
+    [![Screenshot of the Home pane. The F T P Request icon is highlighted and selected.](index/_static/image22.png)](index/_static/image21.png)
 4. In the **FTP Request Filtering** pane, click the **Denied URL Sequences** tab.  
-    [![](index/_static/image24.png)](index/_static/image23.png)
+    [![Screenshot of the F T P Request Filtering pane. the Denied U R L Sequences tab is selected.](index/_static/image24.png)](index/_static/image23.png)
 5. Click **Add URL Sequence** in the **Actions** pane.
 6. In the **Add Deny Sequence** dialog box, enter the URL sequence that you wish to block.  
-    [![](index/_static/image26.png)](index/_static/image25.png)
+    [![Screenshot of the Add Deny Sequence dialog box. The U R L sequence box is shown.](index/_static/image26.png)](index/_static/image25.png)
 7. Click **OK**.
 
 <a id="005"></a>
