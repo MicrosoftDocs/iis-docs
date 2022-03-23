@@ -42,7 +42,7 @@ The scripts that you will use are:
 
     1. Type "Get-ExecutionPolicy". If it is Restricted (the default) you must reset to a more permissive setting such as by typing "Set-ExecutionPolicy AllSigned". The AllSigned setting will allow running signed scripts, but prompt you in case they are not trusted
 
-    2. For more information on execution policy settings see [Using the Set-ExecutionPolicy Cmdlet](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee176961(v=technet.10)).
+    2. For more information on execution policy settings see [Using the Set-ExecutionPolicy Cmdlet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176961(v=technet.10)).
 3. Change to the Web Deploy scripts directory.
 
     1. Type `cd '%programfiles%\IIS\Microsoft Web Deploy v2\Scripts'` (but replace `%programfiles%` with the actual path, such as `C:\Program Files`).
