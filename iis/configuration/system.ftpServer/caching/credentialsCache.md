@@ -53,7 +53,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](credentialsCache/_static/image2.png)](credentialsCache/_static/image1.png) .
+    [![Screenshot of the F T P Extensibility option being highlighted.](credentialsCache/_static/image2.png)](credentialsCache/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -66,7 +66,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](credentialsCache/_static/image4.png)](credentialsCache/_static/image3.png)
+    [![Screenshot of the F T P Extensibility folder being highlighted.](credentialsCache/_static/image4.png)](credentialsCache/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -80,7 +80,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](credentialsCache/_static/image6.png)](credentialsCache/_static/image5.png)
+    [![Screenshot of the F T P Service option being highlighted with the F T P Extensibility option being checked.](credentialsCache/_static/image6.png)](credentialsCache/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -94,7 +94,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](credentialsCache/_static/image8.png)](credentialsCache/_static/image7.png)
+    [![Screenshot of the Internet Information Services folder's F T P Service sub folder.](credentialsCache/_static/image8.png)](credentialsCache/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -137,7 +137,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, click the server name.
 3. In the **Home** pane, double-click the **Configuration Editor** feature.
 4. In the **Section** drop-down menu, expand **sytem.ftpServer**, and then click **caching**.  
-    [![](credentialsCache/_static/image10.png)](credentialsCache/_static/image9.png)
+    [![Screenshot of the Configuration Editor screen, showing the expandable credentials Cache view.](credentialsCache/_static/image10.png)](credentialsCache/_static/image9.png)
 5. Expand **credentialsCache** in the list view.
 6. Choose **True** or **False** in the drop-down list for the **enabled** attribute.
 7. Enter the number of seconds for the flush interval for the **flushInterval** attribute.
