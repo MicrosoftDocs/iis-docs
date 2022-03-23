@@ -60,7 +60,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Dynamic** **Content Compression** if you want to install dynamic compression and **Static Content Compression** if you want to install static compression, and then click **Next**.  
-    [![Screenshot of the Dynamic Content Compression option being highlighted.](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Dynamic Content Compression option being highlighted and selected.](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
