@@ -23,7 +23,7 @@ The concept of URL rewriting is simple. When a client sends a request to the Web
 
 In terms of the IIS architecture, this process is represented by the following diagram:
 
-[![](iis-url-rewriting-and-aspnet-routing/_static/image3.gif)](iis-url-rewriting-and-aspnet-routing/_static/image2.gif)
+![Diagram of the I I S U R L Rewriting process from the H T T P Request to the H T T P Response.](iis-url-rewriting-and-aspnet-routing/_static/image2.gif)
 
 The URL Rewrite module is a native code module that plugs into the request-processing pipeline at the Pre-begin Request or Begin Request stages, and then evaluates the requested URL path by using a set of rewrite rules. Each rewrite rule analyzes the URL path and, if all the rule conditions are met, changes the original path to a new path. After all the rules have been evaluated, the URL Rewrite module produces a final URL path that is used for the request through the remainder of the IIS pipeline processing. This means that the handler selection in the IIS pipeline is made based on the rewritten URL that is produced by the URL Rewrite module.
 
@@ -33,7 +33,7 @@ ASP.NET routing is a request-dispatching mechanism that lets developers associat
 
 In terms of IIS and ASP.NET architecture, this process is represented by the following diagram:
 
-[![](iis-url-rewriting-and-aspnet-routing/_static/image5.gif)](iis-url-rewriting-and-aspnet-routing/_static/image4.gif)
+![Diagram of the A S P dot NET routing process using I H T T P Handlers from Request to Response.](iis-url-rewriting-and-aspnet-routing/_static/image4.gif)
 
 ASP.NET routing is implemented as a managed-code module that plugs into the IIS request-processing pipeline at the Resolve Cache stage (PostResolveRequestCache event) and at the Map Handler stage (PostMapRequestHandler event). ASP.NET routing is configured to run for all requests made to the Web application.
 
