@@ -48,7 +48,7 @@ Web PI automates the discovery and installation of the Microsoft Web Platform, w
 
 Download [Web PI](https://www.microsoft.com/web/Downloads/platform.aspx). WebPI starts up on the "Spotlight" tab, where we highlight products and applications that we think will be the most interesting for our users
 
-![WebPI v3 Spotlight](using-the-microsoft-web-platform-installer/_static/image2.png "WebPI v3 Spotlight")
+![Screenshot of the Web Platform Installer 3 displaying the Spotlight page.](using-the-microsoft-web-platform-installer/_static/image2.png "WebPI v3 Spotlight")
 
 ###### Figure 1: "WebPI Spotlight" tab
 
@@ -56,7 +56,7 @@ WebPI separates the components you can install into two main categories: Product
 
 The "Products" tab shows the four main components: Server, Frameworks, Database and Tools.
 
-![](using-the-microsoft-web-platform-installer/_static/image4.png)
+![Screenshot of the Web Platform Installer 3 displaying the Products page.](using-the-microsoft-web-platform-installer/_static/image4.png)
 
 ###### Figure 2: "Products" tab
 
@@ -82,13 +82,13 @@ Web PI simplifies the discovery and installation of Web server components by:
 
 To see all the IIS components available for installation, just search for **IIS** or to install the recommended set, search for and install the **IIS 7 Recommended Configuration**
 
-![](using-the-microsoft-web-platform-installer/_static/image10.png)
+![Screenshot of the Web Platform Installer 3 displaying the Search results for i i s page.](using-the-microsoft-web-platform-installer/_static/image10.png)
 
 ###### Figure 3: Searching for IIS components in WebPI
 
 You can learn more about the IIS extension by double-clicking the extension name. For example, on the details page for an IIS component, you can learn more about what the extension does before installing it, and there are links to even more detailed descriptions.
 
-![](using-the-microsoft-web-platform-installer/_static/image14.png)
+![Screenshot of the Web Platform Installer 3 displaying the I I S : F T P Publishing Service 7 dot 5 installation page.](using-the-microsoft-web-platform-installer/_static/image14.png)
 
 ###### Figure 4: More information on the IIS: FTP Publishing Service 7.5
 
@@ -96,7 +96,7 @@ You can learn more about the IIS extension by double-clicking the extension name
 
 The Frameworks section provides developers with programming frameworks for application development.
 
-###### ![](using-the-microsoft-web-platform-installer/_static/image16.png)
+###### ![Screenshot of the Web Platform Installer 3 displaying the Products page. The Frameworks section is selected.](using-the-microsoft-web-platform-installer/_static/image16.png)
 
 ###### Figure 5: Frameworks
 
@@ -122,7 +122,7 @@ SQL Server 2008 R2 is a complete database engine providing ease of use and manag
 
 SQL Server 2008 R2 Management Studio Express gives developers tools to more easily manage databases in development, staging, or production environments—you can use this option if the SQL Server Express runtime itself is already installed to simplify the management of databases.
 
-![](using-the-microsoft-web-platform-installer/_static/image18.png)
+![Screenshot of the Web Platform Installer 3 displaying the Products page. The Database section is selected.](using-the-microsoft-web-platform-installer/_static/image18.png)
 
 ###### Figure 6: Database
 
@@ -138,7 +138,7 @@ Visual Web Developer Express is a free Microsoft® Visual Studio® Web developme
 
 The Microsoft® Silverlight™ 4 Tools for Visual Studio provide a development environment for Microsoft® Silverlight™ programmers. The Silverlight Tools are free add-ons to the free download version of Visual Web Developer Express or the full version of Microsoft® Visual Studio® 2010 SP1.
 
-![](using-the-microsoft-web-platform-installer/_static/image22.png)
+![Screenshot of the Web Platform Installer 3 displaying the Products page.The tools section is selected.](using-the-microsoft-web-platform-installer/_static/image22.png)
 
 ###### Figure 7: Tools
 
@@ -150,7 +150,7 @@ To learn more about the Web Application Gallery, see [Introducing the Windows We
 
 When an application is added to the Windows Web Application Gallery, the application integrates into an Atom feed which Web PI consumes; every time a user opens the Web Applications tab, the user sees the latest applications in the Web Application Gallery.
 
-![](using-the-microsoft-web-platform-installer/_static/image26.png)
+![Screenshot of the Web Platform Installer 3 displaying the Applications page. The All section is selected.](using-the-microsoft-web-platform-installer/_static/image26.png)
 
 ###### Figure 8: Web Applications
 
