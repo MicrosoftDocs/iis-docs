@@ -159,7 +159,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Click the ellipsis (**...**) button, and then navigate to the folder that contains the content for your FTP site.
         - Type in the path to your content folder in the box. Note that if you choose to type the path, you can use environment variables in your paths. For example, you can use "%*SystemDrive*%\inetpub\ftproot" for your content directory.
     - When you have completed these items, click **Next**.  
-        ![](anonymousAuthentication/_static/image11.png)
+        ![Screenshot of the specified new F T P Site Information options.](anonymousAuthentication/_static/image11.png)
 5. On the second page of the **Add FTP Site** wizard: 
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
@@ -172,14 +172,14 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Select **Require SSL** to allow FTP clients to always use FTP over SSL when they connect with the FTP server.
         - If you choose **Allow SSL** or **Require SSL**, choose a certificate from the **SSL Certificate** drop-down menu.
     - When you have completed these items, click **Next**.  
-        [![](anonymousAuthentication/_static/image14.png)](anonymousAuthentication/_static/image13.png)
+        ![Screenshot of the specified F T P site Binding and S S L Settings.](anonymousAuthentication/_static/image13.png)
 6. On the next page of the wizard: 
 
     - Select **Anonymous** for the **Authentication** settings.
     - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down.
     - Select **Read** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        [![](anonymousAuthentication/_static/image16.png)](anonymousAuthentication/_static/image15.png)
+        ![Screenshot of the specified Authentication and Authorization Information options.](anonymousAuthentication/_static/image15.png)
 
 <a id="005"></a>
 ## Configuration
