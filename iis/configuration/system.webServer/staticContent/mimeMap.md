@@ -60,7 +60,7 @@ The `<mimeMap>` element of the `<staticContent>` element is included in the defa
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site, application, or directory for which you want to add a MIME type.
 3. In the **Home** pane, double-click **MIME Types**.  
-    [![Screenshot that shows the Default Web Site Home pane. MIMI Types is selected.](mimeMap/_static/image2.png)](mimeMap/_static/image1.png)
+    [![Screenshot that shows the Default Web Site Home pane. MIME Types is selected.](mimeMap/_static/image2.png)](mimeMap/_static/image1.png)
 4. In the **MIME Types** pane, click **Add...** in the **Actions** pane.  
     [![Screenshot that shows the MIME Types pane.](mimeMap/_static/image4.png)](mimeMap/_static/image3.png)
 5. In the **Add MIME Type** dialog box, add the file name extension and MIME type, and then click **OK**.  
