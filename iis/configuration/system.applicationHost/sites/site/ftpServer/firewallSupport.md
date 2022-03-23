@@ -1,5 +1,5 @@
 ---
-title: "FTP Firewall Support &lt;firewallSupport&gt;"
+title: FTP Firewall Support \<firewallSupport>
 author: rick-anderson
 description: "Overview The &lt;ftpServer/firewallSupport&gt; element of the &lt;site&gt; element is used to configure the way that the FTP service works with firewalls per..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: 5c618cd7-8c67-49d5-b79d-540d3692b2e0
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/firewallsupport
 msc.type: config
 ---
-# FTP Firewall Support &lt;firewallSupport&gt;
+# Overview FTP Firewall Support \<firewallSupport>
 
 <a id="001"></a>
 ## Overview
@@ -140,7 +140,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 For additional information about how to configure the firewall settings for the FTP service, see the following topic on the Microsoft IIS.NET web site:
 
 > **Configuring FTP Firewall Settings**  
-> [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
+> [https://www.iis.net/learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7](/iis/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7)
 
 <a id="005"></a>
 ## Configuration
