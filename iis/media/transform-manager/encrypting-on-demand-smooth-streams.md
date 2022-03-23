@@ -63,29 +63,29 @@ You can also add the **PlayReady Protection** task to other built-in job templat
 To configure job templates, do the following:
 
 1. In IIS Manager, in the **Connections** pane, click **Job Templates**.  
-   ![](encrypting-on-demand-smooth-streams/_static/image1.png)
+   ![Screenshot shows Connections pane to select Job Templates.](encrypting-on-demand-smooth-streams/_static/image1.png)
 2. In the **Job Templates** page, select the **Smooth Streams to encrypted Smooth Streams** job template or one of the other job templates that produces unencrypted Smooth Streaming output (for example, the **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template). 
 
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![](encrypting-on-demand-smooth-streams/_static/image5.png) | ![](encrypting-on-demand-smooth-streams/_static/image6.png) |
+   | ![Screenshot shows a list of job templates with name and status.](encrypting-on-demand-smooth-streams/_static/image5.png) | ![Screenshot shows to select a job template that produces un encrypted output.](encrypting-on-demand-smooth-streams/_static/image6.png) |
 
    Note the name of the watch folder that the job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transformation jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
-   ![](encrypting-on-demand-smooth-streams/_static/image7.png)
+   ![Screenshot shows Actions pane to select Edit.](encrypting-on-demand-smooth-streams/_static/image7.png)
 4. In the **Edit Job Template** dialog box, on the **Basic Settings** tab, you can edit the job template **Name** and **Description** to give it more descriptive information for your environment.  
 
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![](encrypting-on-demand-smooth-streams/_static/image11.png) | ![](encrypting-on-demand-smooth-streams/_static/image12.png) |
+   | ![Screenshot shows Edit Job Template dialog box to edit name and description.](encrypting-on-demand-smooth-streams/_static/image11.png) | ![Screenshot shows the second job template to edit name and description fields.](encrypting-on-demand-smooth-streams/_static/image12.png) |
 
-   The **Task definitions** list shows the tasks that are used by the job template.  
+   The **Task definitions** list shows the tasks that are used by the job template.
 
    > [!NOTE]
    > The **Edit Job Template** dialog box will display a task configuration error message on the **Messages** tab if a required property value for the **PlayReady Protection** task isn't specified. You can ignore this message for now as we'll configure the required task properties later in this article.
 
 5. If you selected the **Smooth Streams to encrypted Smooth Streams** job template, select the **PlayReady Protection** task in the **Task definitions** list, click **Edit**, and then [configure the **PlayReady Protection** task properties](encrypting-on-demand-smooth-streams.md#config_task).  
-   ![](encrypting-on-demand-smooth-streams/_static/image17.png)
+   ![Screenshot shows the protection task in the task definitions list.](encrypting-on-demand-smooth-streams/_static/image17.png)
 
    If you selected another job template, you must add the **PlayReady Protection** task to the proper location in the **Task definitions** list before configuring its properties. For more information, see [Chaining the PlayReady Protection Task to a Job Template](encrypting-on-demand-smooth-streams.md#chain_task) .
 
@@ -106,17 +106,17 @@ For more information about how to configure the task that creates the Smooth Str
 To add the **PlayReady Protection** task to the existing workflow, do the following (The **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template is used as an example in the following procedure):
 
 1. In the **Edit Job Template** dialog box, click **Add**.  
-   ![](encrypting-on-demand-smooth-streams/_static/image21.png)
+   ![Screenshot shows the Edit job template to add a task definition.](encrypting-on-demand-smooth-streams/_static/image21.png)
 2. In the **Add Tasks** dialog box, select the **PlayReady Protection** task in the **Available tasks** list, and then click **OK**.  
-   ![](encrypting-on-demand-smooth-streams/_static/image25.png)
+   ![Screenshot shows the Add Tasks dialog box to select the appropriate protection task.](encrypting-on-demand-smooth-streams/_static/image25.png)
 3. In the **Edit Job Template** dialog box, select the **PlayReady Protection** task in the **Task definitions** list, and then click the **Move Up** or **Move Down** buttons until it's displayed below the task that creates the Smooth Streaming output that you want to encrypt.  
-   ![](encrypting-on-demand-smooth-streams/_static/image29.png)
+   ![Screenshot shows the position of the protection task under the selected job template.](encrypting-on-demand-smooth-streams/_static/image29.png)
 
    In this example, both the **Smooth Streams to Apple HTTP Live Streams** and **PlayReady Protection** tasks will act on the Smooth Streaming output that the **Expression Encoder 4.0 SP2** task creates.
 4. Select the **Expression Encoder 4.0 SP2** task in the **Task definitions** list, and then click **Edit**. Note the value of **Output folder name** for this task, and then click **Cancel** to close the dialog box.  
-   ![](encrypting-on-demand-smooth-streams/_static/image33.png)
+   ![Screenshot shows the Edit Expression Encoder 4 point zero S P 2 task to note the Output folder value.](encrypting-on-demand-smooth-streams/_static/image33.png)
 5. Select the **PlayReady Protection** task in the **Task definitions** list, and then click **Edit**. In the **Edit PlayReady Protection Task** dialog box, in **Input folder name**, select the **Expression Encoder 4.0 SP2** task output folder name.  
-    ![](encrypting-on-demand-smooth-streams/_static/image37.png)
+    ![Screenshot shows Edit Play Ready Protection task with Input folder name dropdown containing output folder name value.](encrypting-on-demand-smooth-streams/_static/image37.png)
 6. [Configure the **PlayReady Protection** task properties](encrypting-on-demand-smooth-streams.md#config_task).
 
 <a id="config_task"></a>
@@ -130,7 +130,7 @@ The **PlayReady Protection** task in Transform Manager must acquire a content ke
 This section describes how to configure the **PlayReady Protection** task properties to create encrypted Smooth Streams. To configure the task properties, do the following:
 
 1. In the **Edit PlayReady Protection Task** dialog box, you can edit task properties in the **Properties** list. Select a property in the list, and then double-click the **Value** field to add or update the value.  
-   ![](encrypting-on-demand-smooth-streams/_static/image41.png)
+   ![Screenshot shows Edit play Ready Protection Task with Properties list to add or update property value.](encrypting-on-demand-smooth-streams/_static/image41.png)
 
    The following guidance applies to properties of particular importance for this workflow:  
 
@@ -164,15 +164,15 @@ To run encryption jobs on Smooth Streams, you must configure the watch folder in
 To configure the watch folder, do the following:
 
 1. In IIS Manager, in the **Connections** pane, click **Watch Folders**.  
-    ![](encrypting-on-demand-smooth-streams/_static/image45.png)
+    ![Screenshot shows the Connections pane to select Watch Folders.](encrypting-on-demand-smooth-streams/_static/image45.png)
 2. In the **Watch Folders** page, select the watch folder that uses the job template that you configured in the [previous section](encrypting-on-demand-smooth-streams.md#config_task). You can confirm that you're using the right watch folder by looking at the **Job template** value in the **Watch Folder Details** pane.  
 
    |                   **PlayReady Protection**                   | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    |--------------------------------------------------------------|---------------------------------------------------------------------|
-   | ![](encrypting-on-demand-smooth-streams/_static/image49.png) |    ![](encrypting-on-demand-smooth-streams/_static/image50.png)     |
+   | ![Screenshot shows the Watch Folders dialog box with the first job template. ](encrypting-on-demand-smooth-streams/_static/image49.png) |    ![Screenshot shows the Watch Folders dialog box with the second job template.](encrypting-on-demand-smooth-streams/_static/image50.png)     |
 
 3. In the **Actions** pane, click **Edit**.  
-    ![](encrypting-on-demand-smooth-streams/_static/image51.png)
+    ![Screenshot shows the Actions pane to select Edit.](encrypting-on-demand-smooth-streams/_static/image51.png)
 4. Configure required settings in the watch folder property sheet by using the instructions in [Configuring Watch Folders](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff730178(v=ws.10)). The following guidance applies to settings of particular importance for this workflow:  
 
    |        Tab        |           Settings           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -184,23 +184,23 @@ To configure the watch folder, do the following:
 
 5. Click **OK** to save your modifications to the watch folder.
 6. On the **Watch Folders** page, select the watch folder, and then, in the **Actions** pane, click **Enable**.  
-   ![](encrypting-on-demand-smooth-streams/_static/image51.png)
+   ![Screenshot shows the Actions dialog box with select Enable.](encrypting-on-demand-smooth-streams/_static/image51.png)
 
    The watch folder is now enabled, but not yet started.
 
    | **PlayReady Protection** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![](encrypting-on-demand-smooth-streams/_static/image59.png) | ![](encrypting-on-demand-smooth-streams/_static/image60.png) |
+   | ![Screenshot shows the first protection plan in the Watch Folder list.](encrypting-on-demand-smooth-streams/_static/image59.png) | ![Screenshot shows the second protection plan in the Watch Folder list.](encrypting-on-demand-smooth-streams/_static/image60.png) |
 
    Watch folders that are enabled will automatically start when the Transform Manager service is restarted. This setting is provided to start watch folders after a service recycle event or after a computer restart.
 7. In the **Actions** pane, click **Start**.  
-   ![](encrypting-on-demand-smooth-streams/_static/image61.png)
+   ![Screenshot shows the Actions pane to select Start.](encrypting-on-demand-smooth-streams/_static/image61.png)
 
    The watch folder is now active and ready to accept dropped media assets (either Smooth Streaming presentation files or media asset files).
 
    | **PlayReady Protection** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![](encrypting-on-demand-smooth-streams/_static/image65.png) | ![](encrypting-on-demand-smooth-streams/_static/image66.png) |
+   | ![Screenshot shows the first protection plan is started.](encrypting-on-demand-smooth-streams/_static/image65.png) | ![Screenshot shows the second protection plan is started.](encrypting-on-demand-smooth-streams/_static/image66.png) |
 
     > [!NOTE]
     > You can't start a watch folder if another active watch folder thread is already using the same watch folder root path.
@@ -212,10 +212,10 @@ To configure the watch folder, do the following:
 The **PlayReady Protection** watch folder's job manager will schedule a job for the Smooth Streaming presentation, and when all of the media files that are referenced in the Smooth Streaming presentation server manifest (.ism) file are present, move the manifest file and media assets as a group to the watch folder's WorkQueue directory.
 
 To begin transforming content, copy-and-paste the ISM file, the Smooth Streaming client manifest (.ismc) file, and all of the bitrate streams (.isma and ismv) files that are referenced in the ISM file into the watch folder directory by using Windows Explorer or another file-movement mechanism such as command line, FTP, or WebDav.  
-![](encrypting-on-demand-smooth-streams/_static/image67.png)
+![Screenshot shows all the media files moved to watch folder work queue directory.](encrypting-on-demand-smooth-streams/_static/image67.png)
 
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
-![](encrypting-on-demand-smooth-streams/_static/image71.png)
+![Screenshot shows the Watch Folder path.](encrypting-on-demand-smooth-streams/_static/image71.png)
 
 > [!NOTE]
 > Don't drop multiple ISM manifest files in the watch folder at the same time if they reference the same streams. The job manager will schedule jobs for media files that are referenced in one ISM manifest, and when all of the streams that are referenced in the manifest are present, move the manifest and streams as a group to the watch folder's WorkQueue directory. Another manifest that references the same streams then can't be processed because the streams were removed from the watch folder with the previous manifest. To schedule jobs for this manifest, you must drop the missing streams into the watch folder again.
@@ -227,10 +227,10 @@ The watch folder directory is specified in the **Watch folder path** setting on 
 A job is created for each media asset that's dropped in a watch folder and meets the watch folder file filter requirements. For example, if the **File filter** setting for a watch folder is set to detect all Windows Media Video (WMV) files, a job is created for each WMV file that's dropped in the watch folder. Media files with file-name extensions that don't match the watch folder's **File filter** setting are ignored.
 
 To begin transforming content, copy-and-paste the media assets into the watch folder directory by using Windows Explorer or another file-movement mechanism such as command line, FTP, or WebDav.  
-![](encrypting-on-demand-smooth-streams/_static/image75.png)
+![Screenshot shows the media assets transforming to the Watch Folder directory. ](encrypting-on-demand-smooth-streams/_static/image75.png)
 
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
-![](encrypting-on-demand-smooth-streams/_static/image79.png)
+![Screenshot shows the Watch Folder directory path.](encrypting-on-demand-smooth-streams/_static/image79.png)
 
 <a id="tm_jobs"></a>
 
@@ -239,7 +239,7 @@ The watch folder directory is specified in the **Watch folder path** setting on 
 After you drop Smooth Streaming presentation files or media assets into a watch folder, the watch folder's job manager creates a job for the presentation or assets and moves the associated files into the watch folder's WorkQueue directory. The files are moved from the watch folder into the WorkQueue quickly if they're small. The watch folder might not discover larger files for up to 60 seconds. If the files don't disappear after 60 seconds, make sure that you're in the correct watch folder or that you've enabled and started the correct watch folder.
 
 The WorkQueue directory contains folders that store the jobs as they're being processed. Media assets that are successfully processed are placed in the Finished folder while assets that can't be processed are placed in the Failed folder. These folders are visible by default so that you can retrieve their contents more easily. The WorkQueue directory contains other folders that temporarily store jobs as they're run through the job workflow. These folders are hidden folders and to view them, you must turn on the **Folder views** option in Windows that shows hidden files, folders, and drives.  
-![](encrypting-on-demand-smooth-streams/_static/image83.png)
+![Screenshot shows the hidden folders from Work Queue directory.](encrypting-on-demand-smooth-streams/_static/image83.png)
 
 As jobs are processed through the WorkQueue folders, you can use the Job Monitor pages in IIS Manager to view the progress of and manage currently running and queued jobs. For more information, see [Running and Monitoring Jobs](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff730174(v=ws.10)).
 
