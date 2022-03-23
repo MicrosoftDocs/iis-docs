@@ -260,7 +260,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - For the **Authorization** settings, choose &quot;Specified users&quot; from the **Allow access to** drop-down, and enter an account name in the box below the drop-down menu.
     - Select **Read** and **Write** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        ![Screenshot of the Add F T P Site windows displaying the Authentication and Authorization Information page.](index/_static/image23.png)
+        ![Screenshot of the Add F T P Site window displaying the Authentication and Authorization Information page.](index/_static/image23.png)
 
 <a id="005"></a>
 ## Configuration

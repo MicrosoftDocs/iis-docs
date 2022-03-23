@@ -82,7 +82,7 @@ Web PI simplifies the discovery and installation of Web server components by:
 
 To see all the IIS components available for installation, just search for **IIS** or to install the recommended set, search for and install the **IIS 7 Recommended Configuration**
 
-![Screenshot of the Web Platform Installer 3 displaying the Search results for i i s page.](using-the-microsoft-web-platform-installer/_static/image10.png)
+![Screenshot of the Web Platform Installer 3 displaying the Search results for I I S page.](using-the-microsoft-web-platform-installer/_static/image10.png)
 
 ###### Figure 3: Searching for IIS components in WebPI
 
@@ -96,7 +96,7 @@ You can learn more about the IIS extension by double-clicking the extension name
 
 The Frameworks section provides developers with programming frameworks for application development.
 
-###### ![Screenshot of the Web Platform Installer 3 displaying the Products page. The Frameworks section is selected.](using-the-microsoft-web-platform-installer/_static/image16.png)
+![Screenshot of the Web Platform Installer 3 displaying the Products page. The Frameworks section is selected.](using-the-microsoft-web-platform-installer/_static/image16.png)
 
 ###### Figure 5: Frameworks
 
