@@ -1,7 +1,7 @@
 ---
 title: "Reverse Proxy - Rule Template"
 author: ruslany
-description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL Rewrite Module 2 includes several rule temp..."
+description: Rule templates are used to provide a basic way of creating one or more rewrite rules for a certain scenario.
 ms.date: 03/11/2010
 ms.assetid: 5c2ea207-8d14-47cf-bc81-6266e5b081e9
 msc.legacyurl: /learn/extensions/url-rewrite-module/reverse-proxy-rule-template
