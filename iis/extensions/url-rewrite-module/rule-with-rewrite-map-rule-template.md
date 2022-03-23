@@ -1,7 +1,7 @@
 ---
 title: "Rule with Rewrite Map - rule template"
 author: ruslany
-description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templ..."
+description: Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario.
 ms.date: 09/11/2008
 ms.assetid: 286d2079-bda3-4991-a6a0-bad280527dde
 msc.legacyurl: /learn/extensions/url-rewrite-module/rule-with-rewrite-map-rule-template
