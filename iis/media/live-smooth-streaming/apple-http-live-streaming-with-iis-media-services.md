@@ -82,7 +82,7 @@ To configure your first Live Smooth Streaming publishing point, do the following
 1. Start IIS Manager (click **Start** > **Administrative Tools** > **Internet Information Services (IIS) Manager**).
 2. In **Default Web Site**, select an existing folder or create a new virtual directory that will host the publishing point.
 3. Double-click the **Live Smooth Streaming Publishing Points** icon to open the feature page.  
-    ![Screenshot of the Media SErvices section with the Live Smooth Streaming Publishing Points option being highlighted.](apple-http-live-streaming-with-iis-media-services/_static/image1.png)
+    ![Screenshot of the Media Services section with the Live Smooth Streaming Publishing Points option being highlighted.](apple-http-live-streaming-with-iis-media-services/_static/image1.png)
 4. In the **Actions** pane, click **Add**.  
     ![Screenshot of the Actions pane with the Add option being highlighted.](apple-http-live-streaming-with-iis-media-services/_static/image1.jpg)
 5. In the **Add Publishing Point** dialog box, on the **Basic Settings** tab, in **File name**, enter a name for the Live Smooth Streaming publishing point definition file (.isml).  
@@ -192,7 +192,7 @@ You can create an HTML 5 page that can be used by iPhone and iPad devices to pla
 
 1. In Windows Explorer, navigate to a folder for your website. You can use any website folder, create a new one, or use the same one where the Live Smooth Streaming publishing point was created. In our example, we'll use the same "Live" folder in which we created the SmoothApple.isml publishing point.
 2. Right-click in the folder and create a new text document. In this example, we'll rename the document to **iphone.htm**. Make sure that the .txt file name extension is removed.  
-    ![Screenshot of the iphone dot H T M file in File Explorer.](apple-http-live-streaming-with-iis-media-services/_static/image22.png)
+    ![Screenshot of the i phone dot H T M file in File Explorer.](apple-http-live-streaming-with-iis-media-services/_static/image22.png)
 3. Open the **iphone.htm** file in Notepad or your favorite text editor and add the following sample HTML:
 
    [!code-html[Main](apple-http-live-streaming-with-iis-media-services/samples/sample1.html)]
