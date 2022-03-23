@@ -242,7 +242,7 @@ To publish Web application content with VWD, ftpuser1 performs the following ste
     - Ftpuser1 clicks the left pane.
     - Ftpuser1 types **Ctrl+A**, to select all files.
     - Ftpuser1 clicks **Synchronize** (located in between the two panes, third button from the top).  
-        ![Screenshot before synchronizing all selected files in the Source Web Sste pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image37.jpg)
+        ![Screenshot before synchronizing all selected files in the Source Web Site pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image37.jpg)
 8. The files and folders are uploaded to the FTP server and stored in the user's virtual directory: ftpuser1. (The user will be unaware of other users' content on the same server because of the User Isolation restriction.)  
     ![Screenshot after synchronization with copies of the synchronized files in the Remote Web site pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image39.jpg)
 
