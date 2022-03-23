@@ -25,7 +25,7 @@ The steps below walk through the series of errors you are likely to encounter wh
 
 The first error you are likely to encounter will look something like the screenshot below in Visual Studio's output window. To make it easier to read, the full text of the message is reproduced below the screenshot.
 
-![Screenshot of  the Error List output in Visual Studio.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image1.png)
+![Screenshot of the Error List output in Visual Studio.](troubleshooting-web-deploy-problems-with-visual-studio/_static/image1.png)
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample1.cmd)]
 
