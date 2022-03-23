@@ -56,11 +56,11 @@ To create a global rule by using URL Rewrite UI in IIS Manager follow these step
 1. Go to IIS Manager
 2. In the navigation tree view select the server node.
 3. In the Feature View click "URL Rewrite Module"  
-    [![](using-global-and-distributed-rewrite-rules/_static/image2.png)](using-global-and-distributed-rewrite-rules/_static/image1.png)
+    [![Screenshot of the W I N two K eight R T M home page. The U R L Rewrite icon is highlighted.](using-global-and-distributed-rewrite-rules/_static/image2.png)](using-global-and-distributed-rewrite-rules/_static/image1.png)
 4. In the "Actions" pane click "Add rules…"  
-    [![](using-global-and-distributed-rewrite-rules/_static/image4.png)](using-global-and-distributed-rewrite-rules/_static/image3.png)
+    [![Screenshot of the U R L Rewrite page. In the Actions pane Add Rules is highlighted.](using-global-and-distributed-rewrite-rules/_static/image4.png)](using-global-and-distributed-rewrite-rules/_static/image3.png)
 5. In the "Add Rules" dialog select "Blank Rule" and click "Ok":  
-    [![](using-global-and-distributed-rewrite-rules/_static/image8.png)](using-global-and-distributed-rewrite-rules/_static/image7.png)
+    [![Screenshot of the Add Rules dialog box. The Blank Rule icon is selected.](using-global-and-distributed-rewrite-rules/_static/image8.png)](using-global-and-distributed-rewrite-rules/_static/image7.png)
 
 Now we must define the actual rewrite rule. In URL Rewrite Module rewrite rule is defined by specifying four essential pieces of information:
 
@@ -85,11 +85,11 @@ This string is a regular expression that specifies that pattern will match any U
 
 Click "Add Conditions" button:
 
-[![](using-global-and-distributed-rewrite-rules/_static/image12.png)](using-global-and-distributed-rewrite-rules/_static/image10.png)
+[![Screenshot of the Edit Rule page. In the Conditions category, Add Conditions is highlighted.](using-global-and-distributed-rewrite-rules/_static/image12.png)](using-global-and-distributed-rewrite-rules/_static/image10.png)
 
 Click "Add…" button to bring up the dialog box for defining conditions.
 
-[![](using-global-and-distributed-rewrite-rules/_static/image16.png)](using-global-and-distributed-rewrite-rules/_static/image14.png)  
+[![Screenshot of the Edit Rule page. The Add button in the Conditions category is highlighted.](using-global-and-distributed-rewrite-rules/_static/image16.png)](using-global-and-distributed-rewrite-rules/_static/image14.png)  
 For "Condition input:" enter this string: "**{HTTP\_HOST}"**. This configures URL rewrite module to use the value of http request host header as an input for the condition
 
 In the drop down combo box select "**Matches the pattern**".
@@ -98,7 +98,7 @@ In the "Pattern" textbox enter "**^([^\_]+)\_[^\_]+**". This regular expression 
 
 After all the properties have been specified the condition dialog should look as below:
 
-[![](using-global-and-distributed-rewrite-rules/_static/image20.png)](using-global-and-distributed-rewrite-rules/_static/image18.png)
+[![Screenshot of the Edit Condition dialog box. In the Condition input box the text bracket H T T P underscore HOST close bracket is written. The Ignore case checkbox is checked.](using-global-and-distributed-rewrite-rules/_static/image20.png)](using-global-and-distributed-rewrite-rules/_static/image18.png)
 
 Click OK to save the condition and return to the "Add Rule" UI.
 
@@ -112,7 +112,7 @@ This string specifies what the input URL should be rewritten to. The back-refere
 
 Leave default values for all other settings. The "Edit Rule" UI should look as the following page:
 
-[![](using-global-and-distributed-rewrite-rules/_static/image24.png)](using-global-and-distributed-rewrite-rules/_static/image22.png)  
+[![Screenshot of the Edit Rule page. The Input, Type, and Pattern columns all have text.](using-global-and-distributed-rewrite-rules/_static/image24.png)](using-global-and-distributed-rewrite-rules/_static/image22.png)  
    
 Save the rule by clicking "Apply" action on the right hand side.
 
@@ -128,7 +128,7 @@ To understand how this rule will be applied let's walk through the steps that ar
 To test that the rule correctly rewrites URL's, open internet browser and request the following URL:  
 `http://blog_localhost/article.aspx?id=123`
 
-[![](using-global-and-distributed-rewrite-rules/_static/image28.png)](using-global-and-distributed-rewrite-rules/_static/image26.png)
+[![Screenshot of the U R L Rewrite Module Test Page. The Server Variable information and the Value information is shown.](using-global-and-distributed-rewrite-rules/_static/image28.png)](using-global-and-distributed-rewrite-rules/_static/image26.png)
 
 You should see that the URL rewrite module has changed the URL and opened an Article.aspx page in the "blog" directory. The changes made by the URL rewrite module were based on the information extracted from the host header.  
    
@@ -158,7 +158,7 @@ To test that all the rules work correctly together, open a Web browser and make 
 
 Similarly, if you request `http://forum_localhost/topic/123/some-topic-title`, you should see that the URL rewrite module changes the requested URL string to "/forum/forum.aspx?topic=some-topic-title&amp;id=123."
 
-[![](using-global-and-distributed-rewrite-rules/_static/image32.png)](using-global-and-distributed-rewrite-rules/_static/image30.png)
+[![Screenshot of the U R L Rewrite Module Test Page. The U R L string has changed.](using-global-and-distributed-rewrite-rules/_static/image32.png)](using-global-and-distributed-rewrite-rules/_static/image30.png)
 
 ## Summary
 
