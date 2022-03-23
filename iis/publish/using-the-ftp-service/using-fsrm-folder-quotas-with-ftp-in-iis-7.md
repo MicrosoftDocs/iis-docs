@@ -67,7 +67,7 @@ Create an FTP site where users will be able to access content anonymously. Use t
 
 1. Go to the IIS 7.0 Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.png)
+    ![Screenshot of the I I S Manager screen with the Add F T P Site option in the right-click drop-down menu being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `C:\inetpub\ftproot` folder that you created in the Prerequisites section.
@@ -76,7 +76,7 @@ Create an FTP site where users will be able to access content anonymously. Use t
         > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
 
     - Click **Next**.  
-        ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.jpg)
+        ![Screenshot of the Add F T P Site wizard with My New F T P Site entered as the F T P site name.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard:
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -84,44 +84,44 @@ Create an FTP site where users will be able to access content anonymously. Use t
     - For this walk- through, you will not use a host name, so make sure that the **Virtual Host** box is blank.
     - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
     - When you have completed these items, click **Next**.  
-         ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image4.jpg)
+         ![Screenshot of the Binding and S S L Settings screen.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image4.jpg)
 5. On the next page of the wizard:
 
     - Select **Anonymous** for the **Authentication** settings.
     - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down, and select **Read** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image6.jpg)
+        ![Screenshot of the Authentication and Authorization wizard.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image6.jpg)
 6. Go to the IIS 7.0 Manager. Click the node for the FTP site that you created. The icons for all of the FTP features display.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image3.png)
+    ![Screenshot of the I I S Manager screen with the My New F T P Site icon being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image3.png)
 
 ### Step 2: Add Basic Authentication to your FTP site
 
 We need to add Basic Authentication so that users can log in. To do so, use the following steps:
 
 1. Go to the IIS 7.0 Manager. Click the node for the FTP site that you created earlier. Double-click the **FTP Authentication** icon to open the FTP authentication feature page.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image5.png)
+    ![Screenshot of the My New F T P Site Home screen with the F T P Authentication icon being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image5.png)
 2. When the **FTP Authentication** page displays, highlight **Basic Authentication.** Click **Enable** in the **Actions** pane.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image7.png)
+    ![Screenshot of the F T P Authentication page with the Basic Authentication option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image7.png)
 3. Go to the IIS 7.0 Manager. Click the node for the FTP site to display the icons for all of the FTP features again.
 4. We must add an authorization rule so that the administrator can log in. Double-click the **FTP Authorization Rules** icon to open the FTP authorization rules feature page.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image9.png)
+    ![Screenshot of the My New F T P Site Home screen is displayed with the F T P Authorization Rules option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image9.png)
 5. When the **FTP Authorization Rules** page displays, click **Add Allow Rule** in the **Actions** pane.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image11.png)
+    ![Screenshot of the F T P Authorization Rules option with a focus on the Add Allow Rule option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image11.png)
 6. When the **Add Allow Authorization Rule** dialog box displays:
 
     - Select **Specified users**, then type "administrator" in the box.
     - For **Permissions**, select both **Read** and **Write**.
     - Click **OK**.  
-        ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image13.png)
+        ![Screenshot of the Add Allow Authorization Rule dialog box.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image13.png)
 
 ### Step 3: Show Available Bytes for the FTP Site
 
 We must configure the FTP site so that users will be able to see the available bytes for the site. Use the following steps:
 
 1. Go to IIS 7.0 Manager. Click the node for the FTP site that you created earlier. Double-click the FTP Directory Browsing icon to open the FTP directory browsing page.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image15.png)
+    ![Screenshot of the My New F T P Site Home Page with the F T P Directory Browsing option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image15.png)
 2. Check the box for **Available bytes**, then click **Apply** in the **Actions** pane.  
-    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image17.png)
+    ![Screenshot of the F T P Directory Browsing screen.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image17.png)
 
 ### Summary
 
